@@ -139,12 +139,25 @@
       if (n.startsWith('zh')) return 'zh_CN';
       return 'en';
     }
+    var titles = {
+      en: 'Grab All Files - Bulk File Downloader',
+      ja: 'Grab All Files - ファイル一括ダウンロード',
+      es: 'Grab All Files - Descarga masiva de archivos',
+      fr: 'Grab All Files - Téléchargement en masse',
+      ko: 'Grab All Files - 파일 일괄 다운로드',
+      it: 'Grab All Files - Download massivo di file',
+      zh_CN: 'Grab All Files - 批量文件下载',
+      zh_TW: 'Grab All Files - 批量檔案下載',
+      pt_BR: 'Grab All Files - Download em massa de arquivos',
+      de: 'Grab All Files - Massen-Dateidownload'
+    };
     function setLang(l) {
       localStorage.setItem('gaf-lang', l);
       document.querySelectorAll('[data-lang]').forEach(function(e) {
         e.classList.toggle('active', e.getAttribute('data-lang') === l);
       });
       document.documentElement.lang = l.replace('_','-');
+      document.title = titles[l] || titles.en;
       var sel = document.getElementById('lang-sel');
       if (sel) sel.value = l;
     }
