@@ -1,2 +1,70 @@
+# Block search engines, AI bots, and AI-training crawlers from pages with
+# personal contact info. Allow everything else so the product stays
+# discoverable through search and AI assistants.
+
+User-agent: GPTBot
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /legal.html
+Disallow: /tokushoho.html
+
+User-agent: ClaudeBot
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /legal.html
+Disallow: /tokushoho.html
+
+User-agent: anthropic-ai
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /legal.html
+Disallow: /tokushoho.html
+
+User-agent: PerplexityBot
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /legal.html
+Disallow: /tokushoho.html
+
+User-agent: Google-Extended
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /legal.html
+Disallow: /tokushoho.html
+
+User-agent: CCBot
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /legal.html
+Disallow: /tokushoho.html
+
+User-agent: Bytespider
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /legal.html
+Disallow: /tokushoho.html
+
+User-agent: cohere-ai
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /legal.html
+Disallow: /tokushoho.html
+
+User-agent: Diffbot
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /legal.html
+Disallow: /tokushoho.html
+
+User-agent: Applebot-Extended
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /legal.html
+Disallow: /tokushoho.html
+
 User-agent: *
-Disallow: /
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /legal.html
+Disallow: /tokushoho.html
+Allow: /
