@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
   <title>Privacy Policy / プライバシーポリシー - Grab All Files</title>
+  <script defer src="/analytics.js"></script>
   <style>
     :root {
       color-scheme: light;
@@ -151,6 +152,16 @@
       <p>The published store build does <strong>not</strong> send error reports, crash reports, performance metrics, or any other telemetry to our servers or to any third-party telemetry provider. The Extension contains no Google Analytics, Mixpanel, Amplitude, Segment, or similar SDK.</p>
       <p>An optional error-reporting hook (Sentry) is present in the source tree for internal debugging builds, but it is gated by a build-time secret and is never enabled in the build distributed through the Chrome Web Store&trade; and Microsoft Edge&trade; Add-ons. If a future release ever enables it, this Privacy Policy will be updated before that release ships, and any data sent will be filtered to redact license keys, e-mail addresses, JWTs, bearer tokens, UUIDs, query string values, file system paths, and URL path bodies.</p>
 
+      <h2>5b. Website Analytics (grab-all-files.app)</h2>
+      <p>The marketing site at <code>grab-all-files.app</code> &mdash; separate from the Extension itself &mdash; uses <strong>Google Analytics 4</strong> (gtag.js) to understand aggregate traffic, referrers, and which pages and purchase steps visitors reach. This applies only when you visit the website; it does not run inside the Extension.</p>
+      <ul>
+        <li><strong>What is collected:</strong> page URL, page title, referrer, approximate (city-level) geolocation derived from IP, device type, browser, language, and aggregate event counts (e.g. <em>page_view</em>, <em>purchase</em> after a successful Stripe checkout).</li>
+        <li><strong>What is NOT collected:</strong> your name, email address, license key, payment details, or any data you enter into the Extension. The purchase event records only the Stripe Checkout session ID (for de-duplication), the catalog price, and currency &mdash; never card data or e-mail.</li>
+        <li><strong>EU/EEA + UK + Switzerland:</strong> Google Consent Mode v2 defaults <em>analytics_storage</em> and all advertising signals to <strong>denied</strong>. Google receives only cookieless, non-identifying consent pings until consent is granted. We do not run advertising tags.</li>
+        <li><strong>Legal basis (GDPR Article 6):</strong> legitimate interest (Article 6(1)(f)) in measuring aggregate website performance with non-identifying signals; for any region where consent is required by local law, we rely on consent expressed through your browser/region settings as conveyed by Consent Mode.</li>
+        <li><strong>How to opt out:</strong> enable a browser <em>Do Not Track</em> / privacy setting, use a content blocker, or install the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out Browser Add-on</a>.</li>
+      </ul>
+
       <h2>6. Legal Basis for Processing (GDPR Article 6)</h2>
       <p>For users in the EU/EEA, we rely on the following legal bases where applicable:</p>
       <ul>
@@ -291,6 +302,16 @@
       <h2>5a. テレメトリ・分析・エラー報告</h2>
       <p>公開ストア配布版は、エラー報告、クラッシュ報告、性能指標、その他のテレメトリを当社サーバーまたは第三者のテレメトリ事業者へ<strong>一切送信しません</strong>。Google Analytics、Mixpanel、Amplitude、Segment などの SDK は含まれていません。</p>
       <p>ソースコード上には、社内デバッグビルド向けの任意のエラー報告フック（Sentry）が存在しますが、ビルド時のシークレットでゲートされており、Chrome Web Store&trade; および Microsoft Edge&trade; Add-ons で配布されるビルドでは無効化されています。将来のリリースで有効化する場合は、配布前に本プライバシーポリシーを更新します。仮に有効化される場合でも、送信されるデータからはライセンスキー、メールアドレス、JWT、Bearerトークン、UUID、クエリ文字列の値、ファイルシステムパス、URLパス本体が事前に redact されます。</p>
+
+      <h2>5b. ウェブサイトのアクセス解析（grab-all-files.app）</h2>
+      <p>マーケティングサイト <code>grab-all-files.app</code>（本拡張機能本体とは別）では、アクセス傾向、流入元、訪問されたページや購入フローの到達状況を集計するために <strong>Google Analytics 4</strong>（gtag.js）を使用しています。これはウェブサイト訪問時のみ動作し、拡張機能内では一切動作しません。</p>
+      <ul>
+        <li><strong>収集するもの：</strong> ページURL、ページタイトル、リファラー、IPから推定される市区町村レベルの大まかな位置情報、デバイス種別、ブラウザ、言語、集計イベント数（例：<em>page_view</em>、Stripe決済完了後の <em>purchase</em>）。</li>
+        <li><strong>収集しないもの：</strong> 氏名、メールアドレス、ライセンスキー、決済情報、拡張機能内で入力されたデータは一切含まれません。purchase イベントには Stripe Checkout のセッションID（重複排除用）、カタログ価格、通貨のみが含まれ、カード情報やメールアドレスは含まれません。</li>
+        <li><strong>EU/EEA・英国・スイス：</strong> Google Consent Mode v2 により、<em>analytics_storage</em> および広告関連シグナルは既定で <strong>拒否（denied）</strong> となります。同意取得まで Google へは識別子を含まない Cookie レス pings のみが送信されます。広告タグは導入していません。</li>
+        <li><strong>法的根拠（GDPR 第6条）：</strong> 識別性のないシグナルでウェブサイトのパフォーマンスを集計把握することへの正当な利益（第6条1項(f)）。同意が法的に必要となる地域では、Consent Mode を通じて伝達されるブラウザ／地域設定上の同意に依拠します。</li>
+        <li><strong>オプトアウト方法：</strong> ブラウザの <em>Do Not Track</em> / プライバシー設定の有効化、コンテンツブロッカーの利用、または <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google アナリティクス オプトアウト アドオン</a> のインストール。</li>
+      </ul>
 
       <h2>6. 処理の法的根拠（GDPR 第6条）</h2>
       <p>EU/EEA内のユーザーについて、該当する場合は以下の法的根拠に基づいて処理を行います：</p>
