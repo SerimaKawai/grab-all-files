@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta name="robots" content="noindex, nofollow">
   <meta charset="UTF-8">
@@ -7,52 +7,80 @@
   <meta name="color-scheme" content="light dark">
   <title>Privacy Policy / プライバシーポリシー - Grab All Files</title>
   <script defer src="/analytics.js"></script>
+  <link rel="icon" type="image/png" sizes="128x128" href="favicon-128.png">
   <style>
     :root {
       color-scheme: light;
-      --bg: #f8f9fa;
-      --surface: #fff;
-      --surface-soft: #f1f5f9;
-      --text: #1a1a1a;
-      --text-muted: #666;
-      --border: #e2e8f0;
-      --primary: #2563eb;
-      --shadow-soft: 0 1px 4px rgba(0,0,0,0.08);
+      --bg: #f8f9fa; --surface: #ffffff; --surface-alt: #f8fafc; --surface-soft: #f1f5f9;
+      --text: #1a1a1a; --text-strong: #0f172a; --text-muted: #475569; --text-faint: #64748b;
+      --border: #e2e8f0; --border-strong: #cbd5e1;
+      --primary: #2563eb; --primary-hover: #1d4ed8;
+      --accent-soft: #dbeafe; --accent-soft-text: #1e40af;
+      --note-bg: #fffbe6; --note-border: #f59e0b; --note-text: #78350f;
+      --shadow-soft: 0 1px 3px rgba(15,23,42,0.05);
     }
     :root[data-theme="dark"] {
       color-scheme: dark;
-      --bg: #0b1220;
-      --surface: #111827;
-      --surface-soft: #1f2937;
-      --text: #e2e8f0;
-      --text-muted: #94a3b8;
-      --border: #1f2937;
-      --primary: #60a5fa;
-      --shadow-soft: 0 1px 4px rgba(0,0,0,0.5);
+      --bg: #0b1220; --surface: #111827; --surface-alt: #0f172a; --surface-soft: #1f2937;
+      --text: #e2e8f0; --text-strong: #f1f5f9; --text-muted: #cbd5e1; --text-faint: #94a3b8;
+      --border: #1f2937; --border-strong: #334155;
+      --primary: #3b82f6; --primary-hover: #60a5fa;
+      --accent-soft: #1e3a8a; --accent-soft-text: #bfdbfe;
+      --note-bg: #2a2310; --note-border: #f59e0b; --note-text: #fde68a;
+      --shadow-soft: 0 1px 3px rgba(0,0,0,0.5);
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif; line-height: 1.7; color: var(--text); background: var(--bg); padding: 2rem 1rem; transition: background-color 0.2s ease, color 0.2s ease; }
-    .container { max-width: 720px; margin: 0 auto; background: var(--surface); border-radius: 12px; padding: 2.5rem; box-shadow: var(--shadow-soft); }
-    h1 { font-size: 1.6rem; margin-bottom: 0.3rem; color: var(--text); }
-    .updated { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 2rem; }
-    h2 { font-size: 1.15rem; margin-top: 1.8rem; margin-bottom: 0.5rem; color: var(--primary); }
-    p, li { font-size: 0.95rem; margin-bottom: 0.6rem; }
-    ul { padding-left: 1.5rem; margin-bottom: 0.8rem; }
-    table { width: 100%; border-collapse: collapse; margin: 0.8rem 0; font-size: 0.9rem; }
-    th, td { border: 1px solid var(--border); padding: 0.5rem 0.75rem; text-align: left; }
-    th { background: var(--surface-soft); font-weight: 600; }
-    code { background: var(--surface-soft); padding: 0 0.25rem; border-radius: 3px; font-size: 0.9em; }
-    .contact { background: var(--surface-soft); border-radius: 8px; padding: 1rem 1.2rem; margin-top: 1.5rem; }
-    .contact a { color: var(--primary); }
-    .header-controls { position: fixed; top: 1rem; right: 1rem; display: flex; gap: 0.45rem; z-index: 100; }
-    .lang-sel { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 0.3rem 0.5rem; font-size: 0.8rem; cursor: pointer; color: var(--primary); box-shadow: var(--shadow-soft); }
-    .theme-toggle { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 0; font-size: 0.95rem; line-height: 1; color: var(--primary); cursor: pointer; box-shadow: var(--shadow-soft); display: inline-flex; align-items: center; justify-content: center; width: 1.95rem; height: 1.95rem; font-family: inherit; }
-    .theme-toggle:hover { background: var(--surface-soft); }
-    .theme-toggle .theme-icon-light, .theme-toggle .theme-icon-dark { display: none; }
-    :root[data-theme="dark"] .theme-toggle .theme-icon-light { display: inline; }
-    :root:not([data-theme="dark"]) .theme-toggle .theme-icon-dark { display: inline; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; min-height: 100vh; display: flex; flex-direction: column; transition: background-color 0.2s ease, color 0.2s ease; -webkit-font-smoothing: antialiased; }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
     [data-lang] { display: none; }
-    [data-lang].active { display: block; }
+    [data-lang].active { display: revert; }
+
+    .topbar { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: saturate(180%) blur(14px); -webkit-backdrop-filter: saturate(180%) blur(14px); border-bottom: 1px solid color-mix(in srgb, var(--border) 70%, transparent); }
+    .topbar-inner { max-width: 1080px; margin: 0 auto; padding: 0.7rem 1.4rem; display: flex; align-items: center; gap: 0.7rem; }
+    .brand { display: flex; align-items: center; gap: 0.55rem; color: var(--text-strong); font-weight: 700; font-size: 0.95rem; text-decoration: none; }
+    .brand img { width: 26px; height: 26px; border-radius: 6px; }
+    .topbar-spacer { flex: 1; }
+    .icon-btn, .back-link, .lang-sel { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; color: var(--text-strong); cursor: pointer; font-family: inherit; height: 32px; padding: 0 0.65rem; font-size: 0.82rem; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; transition: background 0.15s ease, border-color 0.15s ease; text-decoration: none; }
+    .icon-btn { width: 32px; padding: 0; font-size: 0.9rem; }
+    .icon-btn:hover, .back-link:hover, .lang-sel:hover { background: var(--surface-soft); border-color: var(--border-strong); text-decoration: none; }
+    .icon-btn .theme-icon-light, .icon-btn .theme-icon-dark { display: none; }
+    :root[data-theme="dark"] .icon-btn .theme-icon-light { display: inline; }
+    :root:not([data-theme="dark"]) .icon-btn .theme-icon-dark { display: inline; }
+    @media (max-width: 540px) { .back-link span:last-child { display: none; } }
+
+    .page-head { max-width: 1080px; margin: 0 auto; padding: 3rem 1.4rem 1.2rem; }
+    .breadcrumb { font-size: 0.8rem; color: var(--text-faint); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.4rem; }
+    .breadcrumb a { color: var(--text-faint); }
+    .breadcrumb a:hover { color: var(--primary); }
+
+    main { flex: 1; max-width: 1080px; width: 100%; margin: 0 auto; padding: 1.8rem 1.4rem 4rem; display: grid; gap: 2rem; grid-template-columns: 200px minmax(0, 1fr); }
+    @media (max-width: 820px) { main { grid-template-columns: 1fr; padding-top: 1.2rem; } .sticky-toc { display: none; } }
+
+    .sticky-toc { position: sticky; top: 5rem; align-self: start; font-size: 0.82rem; line-height: 1.7; }
+    .sticky-toc h4 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin-bottom: 0.6rem; font-weight: 600; }
+    .sticky-toc ul { list-style: none; display: grid; gap: 0.05rem; }
+    .sticky-toc a { display: block; color: var(--text-muted); padding: 0.25rem 0.55rem; border-left: 2px solid transparent; border-radius: 0 6px 6px 0; transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease; }
+    .sticky-toc a:hover { color: var(--text-strong); background: var(--surface-soft); text-decoration: none; }
+    .sticky-toc a.is-current { color: var(--primary); border-left-color: var(--primary); font-weight: 600; background: color-mix(in srgb, var(--primary) 5%, transparent); }
+
+    article > [data-lang] > h1 { font-size: 1.85rem; font-weight: 700; color: var(--text-strong); letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 0.3rem; }
+    article > [data-lang] > .updated { font-size: 0.78rem; color: var(--text-faint); margin: 0.4rem 0 1.6rem; display: flex; align-items: center; gap: 0.4rem; }
+    article > [data-lang] > .updated::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #16a34a; }
+    article > [data-lang] h2 { font-size: 1.1rem; font-weight: 600; color: var(--text-strong); margin-top: 2.3rem; margin-bottom: 0.6rem; letter-spacing: -0.01em; scroll-margin-top: 5rem; }
+    article > [data-lang] p, article > [data-lang] li { font-size: 0.93rem; color: var(--text); line-height: 1.75; margin-bottom: 0.6rem; }
+    article > [data-lang] ul, article > [data-lang] ol { margin: 0.4rem 0 0.8rem 1.4rem; }
+    article > [data-lang] code { background: var(--surface-soft); padding: 0.05rem 0.35rem; border-radius: 4px; font-size: 0.85em; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace; color: var(--text-strong); }
+    article > [data-lang] table { width: 100%; border-collapse: collapse; margin: 0.8rem 0; font-size: 0.88rem; }
+    article > [data-lang] th, article > [data-lang] td { border: 1px solid var(--border); padding: 0.55rem 0.8rem; text-align: left; vertical-align: top; line-height: 1.55; }
+    article > [data-lang] th { background: var(--surface-alt); color: var(--text-strong); font-weight: 600; font-size: 0.82rem; }
+    article > [data-lang] .contact { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem 1.3rem; margin-top: 1.8rem; }
+    article > [data-lang] .contact a { color: var(--primary); }
+
+    .doc-foot { margin-top: 2rem; padding-top: 1.4rem; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between; }
+    .doc-foot .links a { font-size: 0.85rem; color: var(--text-muted); margin-right: 1rem; }
+    .doc-foot .links a:hover { color: var(--primary); }
   </style>
   <script>
     (function(){
@@ -66,15 +94,42 @@
     })();
   </script>
 </head>
-  <body>
-  <div class="header-controls">
-    <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode / ダークモード切替" title="Toggle dark mode / ダークモード切替">
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">
+      <img src="icon-512.png" alt="">
+      <span>Grab All Files</span>
+    </a>
+    <div class="topbar-spacer"></div>
+    <a class="back-link" href="index.html">
+      <span aria-hidden="true">←</span>
+      <span data-lang="en" class="active">Home</span><span data-lang="ja">トップ</span><span data-lang="es">Inicio</span><span data-lang="fr">Accueil</span><span data-lang="ko">홈</span><span data-lang="it">Home</span><span data-lang="zh_CN">首页</span><span data-lang="zh_TW">首頁</span><span data-lang="pt_BR">Início</span><span data-lang="de">Start</span>
+    </a>
+    <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">
       <span class="theme-icon-dark" aria-hidden="true">🌙</span>
       <span class="theme-icon-light" aria-hidden="true">☀️</span>
     </button>
-    <select id="lang-sel" class="lang-sel" onchange="onLangChange(event)"><option value="en">English</option><option value="ja">日本語</option><option value="es">Español</option><option value="fr">Français</option><option value="ko">한국어</option><option value="it">Italiano</option><option value="zh_CN">简体中文</option><option value="zh_TW">繁體中文</option><option value="pt_BR">Português</option><option value="de">Deutsch</option></select>
+    <select id="lang-sel" class="lang-sel" onchange="onLangChange(event)" aria-label="Language">
+      <option value="en">English</option><option value="ja">日本語</option><option value="es">Español</option><option value="fr">Français</option><option value="ko">한국어</option><option value="it">Italiano</option><option value="zh_CN">简体中文</option><option value="zh_TW">繁體中文</option><option value="pt_BR">Português</option><option value="de">Deutsch</option>
+    </select>
   </div>
-  <div class="container">
+</header>
+
+<div class="page-head">
+  <div class="breadcrumb">
+    <a href="index.html"><span data-lang="en" class="active">Home</span><span data-lang="ja">トップ</span><span data-lang="es">Inicio</span><span data-lang="fr">Accueil</span><span data-lang="ko">홈</span><span data-lang="it">Home</span><span data-lang="zh_CN">首页</span><span data-lang="zh_TW">首頁</span><span data-lang="pt_BR">Início</span><span data-lang="de">Start</span></a>
+    <span>›</span>
+    <a href="legal.html"><span data-lang="en" class="active">Legal</span><span data-lang="ja">法務情報</span><span data-lang="es">Legal</span><span data-lang="fr">Mentions légales</span><span data-lang="ko">법적 고지</span><span data-lang="it">Legale</span><span data-lang="zh_CN">法律</span><span data-lang="zh_TW">法律</span><span data-lang="pt_BR">Legal</span><span data-lang="de">Rechtliches</span></a>
+    <span>›</span>
+    <span><span data-lang="en" class="active">Privacy</span><span data-lang="ja">プライバシー</span><span data-lang="es">Privacidad</span><span data-lang="fr">Confidentialité</span><span data-lang="ko">개인정보</span><span data-lang="it">Privacy</span><span data-lang="zh_CN">隐私</span><span data-lang="zh_TW">隱私</span><span data-lang="pt_BR">Privacidade</span><span data-lang="de">Datenschutz</span></span>
+  </div>
+</div>
+
+<main>
+  <aside class="sticky-toc" id="toc"></aside>
+  <article>
 
     <div data-lang="en">
       <h1>Privacy Policy</h1>
@@ -1508,7 +1563,135 @@
 <p>「Google Chrome」與「Chrome Web Store」為 Google LLC 之商標。「Microsoft Edge」與「Microsoft Edge Add-ons」為 Microsoft Corporation 之商標。本隱私權政策中對上述名稱之使用僅為描述性質，並不表示與 Google 或 Microsoft 有任何關聯或獲其背書。本擴充功能係 Tetsunobu Kawai 之獨立產品。</p>
     </div>
     <!--AUTO_TRANSLATIONS_END-->
-  </div>
-  <script src="legal.js"></script>
+
+    <footer class="doc-foot">
+      <div class="links">
+        <a href="index.html"><span data-lang="en" class="active">Home</span><span data-lang="ja">トップ</span><span data-lang="es">Inicio</span><span data-lang="fr">Accueil</span><span data-lang="ko">홈</span><span data-lang="it">Home</span><span data-lang="zh_CN">首页</span><span data-lang="zh_TW">首頁</span><span data-lang="pt_BR">Início</span><span data-lang="de">Start</span></a>
+        <a href="legal.html"><span data-lang="en" class="active">Legal info</span><span data-lang="ja">特商法・運営情報</span><span data-lang="es">Información legal</span><span data-lang="fr">Informations légales</span><span data-lang="ko">법적 정보</span><span data-lang="it">Informazioni legali</span><span data-lang="zh_CN">法律信息</span><span data-lang="zh_TW">法律資訊</span><span data-lang="pt_BR">Informações legais</span><span data-lang="de">Rechtliche Hinweise</span></a>
+        <a href="terms.html"><span data-lang="en" class="active">Terms of Service</span><span data-lang="ja">利用規約</span><span data-lang="es">Términos del servicio</span><span data-lang="fr">Conditions d'utilisation</span><span data-lang="ko">서비스 약관</span><span data-lang="it">Termini di servizio</span><span data-lang="zh_CN">服务条款</span><span data-lang="zh_TW">服務條款</span><span data-lang="pt_BR">Termos de serviço</span><span data-lang="de">Nutzungsbedingungen</span></a>
+      </div>
+    </footer>
+
+  </article>
+</main>
+
+<script>
+  var SUPPORTED = ['en','ja','es','fr','de','it','ko','pt_BR','zh_CN','zh_TW'];
+  var LANGUAGE_LABELS = {
+    en: 'Language', ja: '言語', es: 'Idioma', fr: 'Langue', ko: '언어', it: 'Lingua',
+    zh_CN: '语言', zh_TW: '語言', pt_BR: 'Idioma', de: 'Sprache'
+  };
+  function getLang() {
+    var s = localStorage.getItem('gaf-lang');
+    if (s && SUPPORTED.indexOf(s) >= 0) return s;
+    var n = (navigator.language || '').toLowerCase();
+    if (n.startsWith('ja')) return 'ja';
+    if (n.startsWith('ko')) return 'ko';
+    if (n.startsWith('it')) return 'it';
+    if (n.startsWith('de')) return 'de';
+    if (n.startsWith('es')) return 'es';
+    if (n.startsWith('fr')) return 'fr';
+    if (n.startsWith('pt')) return 'pt_BR';
+    if (n === 'zh-tw' || n === 'zh-hant' || n.startsWith('zh-hant')) return 'zh_TW';
+    if (n.startsWith('zh')) return 'zh_CN';
+    return 'en';
+  }
+  function setLang(l) {
+    localStorage.setItem('gaf-lang', l);
+    document.querySelectorAll('article > [data-lang="' + l + '"] h2').forEach(function(h, i) {
+      if (!h.id) h.id = 'sec-' + i;
+    });
+    document.querySelectorAll('[data-lang]').forEach(function(e) {
+      e.classList.toggle('active', e.getAttribute('data-lang') === l);
+    });
+    document.documentElement.lang = l.replace('_','-');
+    var sel = document.getElementById('lang-sel');
+    if (sel) {
+      sel.value = l;
+      sel.setAttribute('aria-label', LANGUAGE_LABELS[l] || LANGUAGE_LABELS.en);
+    }
+    var h1 = document.querySelector('article > [data-lang="' + l + '"] h1');
+    if (h1 && h1.textContent.trim()) document.title = h1.textContent.trim() + ' - Grab All Files';
+    buildToc();
+  }
+  function onLangChange(e) { setLang(e.target.value); }
+
+  function getTheme() {
+    try { var t = localStorage.getItem('gaf-theme'); if (t === 'light' || t === 'dark') return t; } catch (_) {}
+    return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+  }
+  function setTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    try { localStorage.setItem('gaf-theme', t); } catch (_) {}
+  }
+  var themeBtn = document.getElementById('theme-toggle');
+  if (themeBtn) {
+    themeBtn.addEventListener('click', function() { setTheme(getTheme() === 'dark' ? 'light' : 'dark'); });
+  }
+  if (window.matchMedia) {
+    try {
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+        var stored = null;
+        try { stored = localStorage.getItem('gaf-theme'); } catch (_) {}
+        if (stored !== 'light' && stored !== 'dark') setTheme(e.matches ? 'dark' : 'light');
+      });
+    } catch (_) {}
+  }
+
+  function buildToc() {
+    var lang = document.documentElement.lang.replace('-','_');
+    if (SUPPORTED.indexOf(lang) < 0) lang = 'en';
+    var active = document.querySelector('article > [data-lang="' + lang + '"]');
+    var toc = document.getElementById('toc');
+    if (!active || !toc) return;
+    var heads = active.querySelectorAll('h2');
+    var tocHeading = ({
+      en: 'On this page', ja: '目次', es: 'En esta página', fr: 'Sur cette page',
+      ko: '이 페이지', it: 'In questa pagina', zh_CN: '本页内容', zh_TW: '本頁內容',
+      pt_BR: 'Nesta página', de: 'Auf dieser Seite'
+    })[lang] || 'On this page';
+    var html = '<h4>' + tocHeading + '</h4><ul>';
+    heads.forEach(function (h) {
+      if (!h.id) return;
+      html += '<li><a href="#' + h.id + '" data-link="' + h.id + '">' + h.textContent + '</a></li>';
+    });
+    html += '</ul>';
+    toc.innerHTML = html;
+    toc.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        var id = a.getAttribute('data-link');
+        var t = document.getElementById(id);
+        if (t) {
+          var y = t.getBoundingClientRect().top + window.pageYOffset - 70;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      });
+    });
+  }
+  function onScroll() {
+    var lang = document.documentElement.lang.replace('-','_');
+    if (SUPPORTED.indexOf(lang) < 0) lang = 'en';
+    var active = document.querySelector('article > [data-lang="' + lang + '"]');
+    if (!active) return;
+    var heads = active.querySelectorAll('h2[id]');
+    var current = null;
+    heads.forEach(function (h) {
+      var rect = h.getBoundingClientRect();
+      if (rect.top <= 100) current = h.id;
+    });
+    document.querySelectorAll('#toc a').forEach(function (a) {
+      a.classList.toggle('is-current', a.getAttribute('data-link') === current);
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  setLang(getLang());
+
+  (function() {
+    var h = (location.hash || '').replace('#','');
+    if (h === 'ja' || h === 'en') setLang(h);
+  })();
+</script>
 </body>
 </html>

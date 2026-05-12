@@ -1,60 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
   <meta name="robots" content="noindex, nofollow">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
   <title>Legal Notice / 特定商取引法に基づく表記 - Grab All Files</title>
   <script defer src="/analytics.js"></script>
+  <link rel="icon" type="image/png" sizes="128x128" href="favicon-128.png">
   <style>
     :root {
       color-scheme: light;
-      --bg: #f8f9fa;
-      --surface: #fff;
-      --surface-soft: #f1f5f9;
-      --text: #1a1a1a;
-      --text-muted: #666;
-      --text-faint: #777;
-      --border: #e2e8f0;
-      --primary: #2563eb;
-      --shadow-soft: 0 1px 4px rgba(0,0,0,0.08);
+      --bg: #f8f9fa; --surface: #ffffff; --surface-alt: #f8fafc; --surface-soft: #f1f5f9;
+      --text: #1a1a1a; --text-strong: #0f172a; --text-muted: #475569; --text-faint: #64748b;
+      --border: #e2e8f0; --border-strong: #cbd5e1;
+      --primary: #2563eb; --primary-hover: #1d4ed8;
+      --accent-soft: #dbeafe; --accent-soft-text: #1e40af;
+      --note-bg: #fffbe6; --note-bd: #f59e0b; --note-text: #78350f;
+      --shadow-soft: 0 1px 3px rgba(15,23,42,0.05);
     }
     :root[data-theme="dark"] {
       color-scheme: dark;
-      --bg: #0b1220;
-      --surface: #111827;
-      --surface-soft: #1f2937;
-      --text: #e2e8f0;
-      --text-muted: #cbd5e1;
-      --text-faint: #94a3b8;
-      --border: #1f2937;
-      --primary: #60a5fa;
-      --shadow-soft: 0 1px 4px rgba(0,0,0,0.5);
+      --bg: #0b1220; --surface: #111827; --surface-alt: #0f172a; --surface-soft: #1f2937;
+      --text: #e2e8f0; --text-strong: #f1f5f9; --text-muted: #cbd5e1; --text-faint: #94a3b8;
+      --border: #1f2937; --border-strong: #334155;
+      --primary: #3b82f6; --primary-hover: #60a5fa;
+      --accent-soft: #1e3a8a; --accent-soft-text: #bfdbfe;
+      --note-bg: #2a2310; --note-bd: #f59e0b; --note-text: #fde68a;
+      --shadow-soft: 0 1px 3px rgba(0,0,0,0.5);
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif; line-height: 1.8; color: var(--text); background: var(--bg); padding: 2rem 1rem; transition: background-color 0.2s ease, color 0.2s ease; }
-    .container { max-width: 720px; margin: 0 auto; background: var(--surface); border-radius: 12px; padding: 2.5rem; box-shadow: var(--shadow-soft); }
-    h1 { font-size: 1.4rem; margin-bottom: 0.3rem; color: var(--text); }
-    .subtitle { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
-    th, td { border: 1px solid var(--border); padding: 0.75rem 1rem; text-align: left; vertical-align: top; }
-    th { background: var(--surface-soft); font-weight: 600; width: 30%; white-space: nowrap; color: var(--text); }
-    .back { margin-top: 1.5rem; text-align: center; }
-    .back a { color: var(--primary); text-decoration: none; }
-    .back a:hover { text-decoration: underline; }
-    .container hr { border: 0; border-top: 1px solid var(--border); margin: 1.6rem 0 1rem; }
-    .container .footnote { font-size: 0.78rem; color: var(--text-faint); margin-bottom: 0.4rem; }
-    .header-controls { position: fixed; top: 1rem; right: 1rem; display: flex; gap: 0.45rem; z-index: 100; }
-    .lang-sel { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 0.3rem 0.5rem; font-size: 0.8rem; color: var(--primary); cursor: pointer; box-shadow: var(--shadow-soft); }
-    .theme-toggle { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 0; font-size: 0.95rem; line-height: 1; color: var(--primary); cursor: pointer; box-shadow: var(--shadow-soft); display: inline-flex; align-items: center; justify-content: center; width: 1.95rem; height: 1.95rem; font-family: inherit; }
-    .theme-toggle:hover { background: var(--surface-soft); }
-    .theme-toggle .theme-icon-light, .theme-toggle .theme-icon-dark { display: none; }
-    :root[data-theme="dark"] .theme-toggle .theme-icon-light { display: inline; }
-    :root:not([data-theme="dark"]) .theme-toggle .theme-icon-dark { display: inline; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; min-height: 100vh; display: flex; flex-direction: column; transition: background-color 0.2s ease, color 0.2s ease; -webkit-font-smoothing: antialiased; }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
     [data-lang] { display: none; }
-    [data-lang].active { display: block; }
+    [data-lang].active { display: revert; }
+
+    .topbar { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: saturate(180%) blur(14px); -webkit-backdrop-filter: saturate(180%) blur(14px); border-bottom: 1px solid color-mix(in srgb, var(--border) 70%, transparent); }
+    .topbar-inner { max-width: 1080px; margin: 0 auto; padding: 0.7rem 1.4rem; display: flex; align-items: center; gap: 0.7rem; }
+    .brand { display: flex; align-items: center; gap: 0.55rem; color: var(--text-strong); font-weight: 700; font-size: 0.95rem; text-decoration: none; }
+    .brand img { width: 26px; height: 26px; border-radius: 6px; }
+    .topbar-spacer { flex: 1; }
+    .icon-btn, .back-link, .lang-sel { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; color: var(--text-strong); cursor: pointer; font-family: inherit; height: 32px; padding: 0 0.65rem; font-size: 0.82rem; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; transition: background 0.15s ease, border-color 0.15s ease; text-decoration: none; }
+    .icon-btn { width: 32px; padding: 0; font-size: 0.9rem; }
+    .icon-btn:hover, .back-link:hover, .lang-sel:hover { background: var(--surface-soft); border-color: var(--border-strong); text-decoration: none; }
+    .icon-btn .theme-icon-light, .icon-btn .theme-icon-dark { display: none; }
+    :root[data-theme="dark"] .icon-btn .theme-icon-light { display: inline; }
+    :root:not([data-theme="dark"]) .icon-btn .theme-icon-dark { display: inline; }
+    @media (max-width: 540px) { .back-link span:last-child { display: none; } }
+
+    .page-head { max-width: 1080px; margin: 0 auto; padding: 3rem 1.4rem 1.2rem; }
+    .breadcrumb { font-size: 0.8rem; color: var(--text-faint); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.4rem; }
+    .breadcrumb a { color: var(--text-faint); }
+    .breadcrumb a:hover { color: var(--primary); }
+    .page-head h1 { font-size: 1.85rem; font-weight: 700; color: var(--text-strong); letter-spacing: -0.02em; line-height: 1.2; }
+    .page-head .sub { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.4rem; }
+    .updated { font-size: 0.78rem; color: var(--text-faint); margin-top: 0.7rem; display: flex; align-items: center; gap: 0.4rem; }
+    .updated::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #16a34a; }
+
+    .doc-tabs { max-width: 1080px; margin: 0 auto; padding: 0 1.4rem 0; display: flex; gap: 0.3rem; border-bottom: 1px solid var(--border); overflow-x: auto; scrollbar-width: none; }
+    .doc-tabs::-webkit-scrollbar { display: none; }
+    .doc-tab { background: none; border: 0; font-family: inherit; cursor: pointer; color: var(--text-muted); font-size: 0.9rem; font-weight: 500; padding: 0.8rem 1rem; border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap; display: inline-flex; align-items: center; gap: 0.5rem; transition: color 0.15s ease, border-color 0.15s ease; }
+    .doc-tab:hover { color: var(--text-strong); }
+    .doc-tab.is-active { color: var(--primary); border-bottom-color: var(--primary); font-weight: 600; }
+    .doc-tab .ic { font-size: 0.95rem; }
+
+    main { flex: 1; max-width: 1080px; width: 100%; margin: 0 auto; padding: 1.8rem 1.4rem 4rem; display: grid; gap: 2rem; grid-template-columns: 200px minmax(0, 1fr); }
+    @media (max-width: 820px) { main { grid-template-columns: 1fr; padding-top: 1.2rem; } .sticky-toc { display: none; } }
+
+    .sticky-toc { position: sticky; top: 5rem; align-self: start; font-size: 0.82rem; line-height: 1.7; }
+    .sticky-toc h4 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin-bottom: 0.6rem; font-weight: 600; }
+    .sticky-toc ul { list-style: none; display: grid; gap: 0.05rem; }
+    .sticky-toc a { display: block; color: var(--text-muted); padding: 0.25rem 0.55rem; border-left: 2px solid transparent; border-radius: 0 6px 6px 0; transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease; }
+    .sticky-toc a:hover { color: var(--text-strong); background: var(--surface-soft); text-decoration: none; }
+    .sticky-toc a.is-current { color: var(--primary); border-left-color: var(--primary); font-weight: 600; background: color-mix(in srgb, var(--primary) 5%, transparent); }
+
+    .doc { display: none; }
+    .doc.is-active { display: block; }
+    .doc h2 { font-size: 1.1rem; font-weight: 600; color: var(--text-strong); margin-top: 2.3rem; margin-bottom: 0.6rem; letter-spacing: -0.01em; scroll-margin-top: 5rem; display: flex; align-items: center; gap: 0.55rem; }
+    .doc h2:first-child, .doc > section:first-child h2 { margin-top: 0.4rem; }
+    .doc h2 .num { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; font-size: 0.72rem; font-weight: 700; border-radius: 6px; background: var(--accent-soft); color: var(--accent-soft-text); flex-shrink: 0; }
+    .doc p, .doc li { font-size: 0.93rem; color: var(--text); line-height: 1.75; margin-bottom: 0.6rem; }
+    .doc ul, .doc ol { margin: 0.4rem 0 0.8rem 1.4rem; }
+
+    .disclosure { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow-soft); margin-top: 0.6rem; }
+    .disclosure .row { display: grid; grid-template-columns: 220px 1fr; border-top: 1px solid var(--border); }
+    .disclosure .row:first-child { border-top: 0; }
+    .disclosure dt { padding: 1rem 1.2rem; background: var(--surface-alt); font-size: 0.82rem; font-weight: 600; color: var(--text-strong); border-right: 1px solid var(--border); display: flex; align-items: flex-start; gap: 0.5rem; }
+    .disclosure dt .ic { width: 18px; height: 18px; border-radius: 5px; background: var(--accent-soft); color: var(--accent-soft-text); display: inline-flex; align-items: center; justify-content: center; font-size: 0.62rem; flex-shrink: 0; margin-top: 0.15rem; }
+    .disclosure dd { padding: 1rem 1.2rem; color: var(--text); font-size: 0.9rem; line-height: 1.65; }
+    .disclosure dd.highlight { background: color-mix(in srgb, var(--primary) 4%, var(--surface)); font-weight: 600; color: var(--text-strong); }
+    @media (max-width: 600px) { .disclosure .row { grid-template-columns: 1fr; } .disclosure dt { border-right: 0; border-bottom: 1px solid var(--border); } }
+
+    .callout { background: var(--note-bg); border-left: 3px solid var(--note-bd); padding: 0.85rem 1.1rem; border-radius: 0 8px 8px 0; font-size: 0.85rem; color: var(--note-text); margin: 1rem 0; line-height: 1.6; }
+    .callout strong { color: inherit; }
+
+    .contact-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 1.3rem 1.4rem; margin-top: 1.8rem; display: flex; gap: 1rem; align-items: flex-start; }
+    .contact-card .ic { width: 42px; height: 42px; border-radius: 10px; background: var(--accent-soft); color: var(--accent-soft-text); display: inline-flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
+    .contact-card h3 { font-size: 0.95rem; color: var(--text-strong); margin-bottom: 0.25rem; font-weight: 600; }
+    .contact-card p { font-size: 0.88rem; color: var(--text-muted); margin: 0; line-height: 1.6; }
+
+    .doc-foot { margin-top: 2rem; padding-top: 1.4rem; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between; }
+    .doc-foot .links a { font-size: 0.85rem; color: var(--text-muted); margin-right: 1rem; }
+    .doc-foot .links a:hover { color: var(--primary); }
+    .doc-foot .trademark { font-size: 0.72rem; color: var(--text-faint); max-width: 540px; line-height: 1.55; }
+
+    .doc .lead { font-size: 1rem; color: var(--text-muted); line-height: 1.7; padding: 1.2rem 1.3rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 1.3rem; }
+    .doc .lead strong { color: var(--text-strong); }
+    .doc .cta-row { display: flex; flex-wrap: wrap; gap: 0.7rem; margin: 1.4rem 0 0.6rem; }
+    .doc .cta-row a { display: inline-flex; align-items: center; gap: 0.4rem; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 0.5rem 0.85rem; font-size: 0.85rem; color: var(--text-strong); font-weight: 500; }
+    .doc .cta-row a:hover { border-color: var(--border-strong); background: var(--surface-soft); text-decoration: none; }
+    .doc .cta-row a.primary { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .doc .cta-row a.primary:hover { background: var(--primary-hover); border-color: var(--primary-hover); }
   </style>
   <script>
     (function(){
@@ -69,286 +127,674 @@
   </script>
 </head>
 <body>
-  <div class="header-controls">
-    <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode / ダークモード切替" title="Toggle dark mode / ダークモード切替">
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">
+      <img src="icon-512.png" alt="">
+      <span>Grab All Files</span>
+    </a>
+    <div class="topbar-spacer"></div>
+    <a class="back-link" href="index.html">
+      <span aria-hidden="true">←</span>
+      <span data-lang="en" class="active">Home</span><span data-lang="ja">トップ</span><span data-lang="es">Inicio</span><span data-lang="fr">Accueil</span><span data-lang="ko">홈</span><span data-lang="it">Home</span><span data-lang="zh_CN">首页</span><span data-lang="zh_TW">首頁</span><span data-lang="pt_BR">Início</span><span data-lang="de">Start</span>
+    </a>
+    <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">
       <span class="theme-icon-dark" aria-hidden="true">🌙</span>
       <span class="theme-icon-light" aria-hidden="true">☀️</span>
     </button>
-    <select id="lang-sel" class="lang-sel" onchange="onLangChange(event)"><option value="en">English</option><option value="ja">日本語</option><option value="es">Español</option><option value="fr">Français</option><option value="ko">한국어</option><option value="it">Italiano</option><option value="zh_CN">简体中文</option><option value="zh_TW">繁體中文</option><option value="pt_BR">Português</option><option value="de">Deutsch</option></select>
+    <select id="lang-sel" class="lang-sel" onchange="onLangChange(event)" aria-label="Language">
+      <option value="en">English</option><option value="ja">日本語</option><option value="es">Español</option><option value="fr">Français</option><option value="ko">한국어</option><option value="it">Italiano</option><option value="zh_CN">简体中文</option><option value="zh_TW">繁體中文</option><option value="pt_BR">Português</option><option value="de">Deutsch</option>
+    </select>
   </div>
-  <div class="container">
-    <div data-lang="en">
-      <h1>Legal Notice / Commercial Disclosure</h1>
-      <p class="subtitle">Required under the Japanese Act on Specified Commercial Transactions</p>
-      <table>
-        <tr><th>Seller</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Responsible Person</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Address</th><td>Disclosed upon request via email below.</td></tr>
-        <tr><th>Phone</th><td>Disclosed upon request via email below.</td></tr>
-        <tr><th>Email</th><td>support@grab-all-files.app</td></tr>
-        <tr><th>Website</th><td>https://grab-all-files.app/</td></tr>
-        <tr><th>Product</th><td>Grab All Files License Key</td></tr>
-        <tr><th>Price</th><td>$19.99 (tax included)</td></tr>
-        <tr><th>Additional Fees</th><td>None</td></tr>
-        <tr><th>Payment</th><td>Credit card (Stripe)</td></tr>
-        <tr><th>Payment Timing</th><td>Charged at the time of purchase.</td></tr>
-        <tr><th>Delivery</th><td>License key delivered immediately via email.</td></tr>
-        <tr><th>Refund</th><td>14-day free trial provided. All sales final. Refund if defect not resolved in 30 days.</td></tr>
-        <tr><th>Requirements</th><td>Google Chrome&trade; / Microsoft Edge&trade; (Manifest V3)</td></tr>
-      </table>
-      <div class="back"><a href="index.html">&larr; Back to Home</a></div>
-    </div>
-    <div data-lang="ja">
-      <h1>特定商取引法に基づく表記</h1>
-      <table>
-        <tr><th>販売業者</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>運営統括責任者</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>所在地</th><td>請求があった場合に遅滞なく開示いたします。</td></tr>
-        <tr><th>電話番号</th><td>請求があった場合に遅滞なく開示いたします。</td></tr>
-        <tr><th>メールアドレス</th><td>support@grab-all-files.app</td></tr>
-        <tr><th>販売URL</th><td>https://grab-all-files.app/</td></tr>
-        <tr><th>商品名</th><td>ファイル一括ダウンロード（英文表記: Grab All Files）ライセンスキー</td></tr>
-        <tr><th>販売価格</th><td>$19.99（税込）</td></tr>
-        <tr><th>商品代金以外の必要料金</th><td>なし</td></tr>
-        <tr><th>お支払い方法</th><td>クレジットカード（Stripe決済）</td></tr>
-        <tr><th>支払時期</th><td>商品注文確定時</td></tr>
-        <tr><th>商品の引渡し時期</th><td>購入完了後、即時メールにて送付。</td></tr>
-        <tr><th>返品・キャンセル</th><td>14日間無料トライアル提供のため原則返金不可。不具合が30日以内に解決できない場合は返金。</td></tr>
-        <tr><th>動作環境</th><td>Google Chrome™ / Microsoft Edge™（Manifest V3対応）</td></tr>
-      </table>
-      <div class="back"><a href="index.html">&larr; トップページに戻る</a></div>
-    </div>
-    <div data-lang="es">
-      <h1>Aviso Legal</h1>
-      <table>
-        <tr><th>Vendedor</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Responsable</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Dirección</th><td>Se revela a solicitud por correo electrónico.</td></tr>
-        <tr><th>Teléfono</th><td>Se revela a solicitud por correo electrónico.</td></tr>
-        <tr><th>Email</th><td>support@grab-all-files.app</td></tr>
-        <tr><th>Website</th><td>https://grab-all-files.app/</td></tr>
-        <tr><th>Producto</th><td>Descargar todos los archivos (Grab All Files) – clave de licencia</td></tr>
-        <tr><th>Precio</th><td>$19.99</td></tr>
-        <tr><th>Cargos adicionales</th><td>Ninguno</td></tr>
-        <tr><th>Pago</th><td>Tarjeta de crédito (Stripe)</td></tr>
-        <tr><th>Momento del pago</th><td>Cobro al confirmar el pedido.</td></tr>
-        <tr><th>Entrega</th><td>Clave entregada por email inmediatamente.</td></tr>
-        <tr><th>Reembolso</th><td>Prueba de 14 días. Ventas finales. Reembolso si defecto no resuelto en 30 días.</td></tr>
-        <tr><th>Requisitos</th><td>Google Chrome&trade; / Microsoft Edge&trade; (Manifest V3)</td></tr>
-      </table>
-      <div class="back"><a href="index.html">&larr; Volver al inicio</a></div>
-    </div>
-    <div data-lang="fr">
-      <h1>Mentions Légales</h1>
-      <table>
-        <tr><th>Vendeur</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Responsable</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Adresse</th><td>Divulgué sur demande par e-mail.</td></tr>
-        <tr><th>Téléphone</th><td>Divulgué sur demande par e-mail.</td></tr>
-        <tr><th>Email</th><td>support@grab-all-files.app</td></tr>
-        <tr><th>Website</th><td>https://grab-all-files.app/</td></tr>
-        <tr><th>Produit</th><td>Télécharger tous les fichiers (Grab All Files) – clé de licence</td></tr>
-        <tr><th>Prix</th><td>$19.99</td></tr>
-        <tr><th>Frais supplémentaires</th><td>Aucun</td></tr>
-        <tr><th>Paiement</th><td>Carte de crédit (Stripe)</td></tr>
-        <tr><th>Moment du paiement</th><td>Facturé lors de la confirmation de commande.</td></tr>
-        <tr><th>Livraison</th><td>Clé livrée immédiatement par email.</td></tr>
-        <tr><th>Remboursement</th><td>Essai de 14 jours. Ventes finales. Remboursement si problème non résolu en 30 jours.</td></tr>
-        <tr><th>Configuration</th><td>Google Chrome&trade; / Microsoft Edge&trade; (Manifest V3)</td></tr>
-      </table>
-      <div class="back"><a href="index.html">&larr; Retour à l'accueil</a></div>
-    </div>
-    <div data-lang="ko">
-      <h1>법적 고지</h1>
-      <table>
-        <tr><th>판매자</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>책임자</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>주소</th><td>이메일 요청 시 공개.</td></tr>
-        <tr><th>전화</th><td>이메일 요청 시 공개.</td></tr>
-        <tr><th>Email</th><td>support@grab-all-files.app</td></tr>
-        <tr><th>Website</th><td>https://grab-all-files.app/</td></tr>
-        <tr><th>제품</th><td>파일 일괄 다운로드 (Grab All Files) – 라이선스 키</td></tr>
-        <tr><th>가격</th><td>$19.99</td></tr>
-        <tr><th>추가 요금</th><td>없음</td></tr>
-        <tr><th>결제</th><td>신용카드 (Stripe)</td></tr>
-        <tr><th>결제 시기</th><td>주문 확정 시 청구.</td></tr>
-        <tr><th>배송</th><td>이메일로 즉시 전송.</td></tr>
-        <tr><th>환불</th><td>14일 체험 제공. 판매 최종. 30일 내 미해결 시 환불.</td></tr>
-        <tr><th>요구사항</th><td>Google Chrome&trade; / Microsoft Edge&trade; (Manifest V3)</td></tr>
-      </table>
-      <div class="back"><a href="index.html">&larr; 홈으로</a></div>
-    </div>
-    <div data-lang="it">
-      <h1>Avviso Legale</h1>
-      <table>
-        <tr><th>Venditore</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Responsabile</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Indirizzo</th><td>Divulgato su richiesta via email.</td></tr>
-        <tr><th>Telefono</th><td>Divulgato su richiesta via email.</td></tr>
-        <tr><th>Email</th><td>support@grab-all-files.app</td></tr>
-        <tr><th>Website</th><td>https://grab-all-files.app/</td></tr>
-        <tr><th>Prodotto</th><td>Scarica tutti i file (Grab All Files) – chiave di licenza</td></tr>
-        <tr><th>Prezzo</th><td>$19.99</td></tr>
-        <tr><th>Costi aggiuntivi</th><td>Nessuno</td></tr>
-        <tr><th>Pagamento</th><td>Carta di credito (Stripe)</td></tr>
-        <tr><th>Momento del pagamento</th><td>Addebitato al momento della conferma dell'ordine.</td></tr>
-        <tr><th>Consegna</th><td>Chiave inviata immediatamente via email.</td></tr>
-        <tr><th>Rimborso</th><td>Prova di 14 giorni. Vendite finali. Rimborso se difetto non risolto in 30 giorni.</td></tr>
-        <tr><th>Requisiti</th><td>Google Chrome&trade; / Microsoft Edge&trade; (Manifest V3)</td></tr>
-      </table>
-      <div class="back"><a href="index.html">&larr; Torna alla home</a></div>
-    </div>
-    <div data-lang="zh_CN">
-      <h1>法律声明</h1>
-      <table>
-        <tr><th>销售商</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>负责人</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>地址</th><td>应要求通过电子邮件披露。</td></tr>
-        <tr><th>电话</th><td>应要求通过电子邮件披露。</td></tr>
-        <tr><th>Email</th><td>support@grab-all-files.app</td></tr>
-        <tr><th>Website</th><td>https://grab-all-files.app/</td></tr>
-        <tr><th>产品</th><td>批量下载文件（Grab All Files）许可证密钥</td></tr>
-        <tr><th>价格</th><td>$19.99</td></tr>
-        <tr><th>额外费用</th><td>无</td></tr>
-        <tr><th>付款</th><td>信用卡（Stripe）</td></tr>
-        <tr><th>付款时间</th><td>订单确认时收取。</td></tr>
-        <tr><th>交付</th><td>许可证密钥通过电子邮件立即发送。</td></tr>
-        <tr><th>退款</th><td>提供14天免费试用。售后不退。30天内未解决可退款。</td></tr>
-        <tr><th>系统要求</th><td>Google Chrome&trade; / Microsoft Edge&trade; (Manifest V3)</td></tr>
-      </table>
-      <div class="back"><a href="index.html">&larr; 返回首页</a></div>
-    </div>
-    <div data-lang="zh_TW">
-      <h1>法律聲明</h1>
-      <table>
-        <tr><th>銷售商</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>負責人</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>地址</th><td>應要求透過電子郵件揭露。</td></tr>
-        <tr><th>電話</th><td>應要求透過電子郵件揭露。</td></tr>
-        <tr><th>Email</th><td>support@grab-all-files.app</td></tr>
-        <tr><th>Website</th><td>https://grab-all-files.app/</td></tr>
-        <tr><th>產品</th><td>批次下載檔案（Grab All Files）授權金鑰</td></tr>
-        <tr><th>價格</th><td>$19.99</td></tr>
-        <tr><th>額外費用</th><td>無</td></tr>
-        <tr><th>付款</th><td>信用卡（Stripe）</td></tr>
-        <tr><th>付款時間</th><td>訂單確認時收取。</td></tr>
-        <tr><th>交付</th><td>授權金鑰透過電子郵件立即傳送。</td></tr>
-        <tr><th>退款</th><td>提供14天免費試用。售後不退。30天內未解決可退款。</td></tr>
-        <tr><th>系統需求</th><td>Google Chrome&trade; / Microsoft Edge&trade; (Manifest V3)</td></tr>
-      </table>
-      <div class="back"><a href="index.html">&larr; 返回首頁</a></div>
-    </div>
-    <div data-lang="pt_BR">
-      <h1>Aviso Legal</h1>
-      <table>
-        <tr><th>Vendedor</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Responsável</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Endereço</th><td>Divulgado mediante solicitação por e-mail.</td></tr>
-        <tr><th>Telefone</th><td>Divulgado mediante solicitação por e-mail.</td></tr>
-        <tr><th>Email</th><td>support@grab-all-files.app</td></tr>
-        <tr><th>Website</th><td>https://grab-all-files.app/</td></tr>
-        <tr><th>Produto</th><td>Baixar todos os arquivos (Grab All Files) – chave de licença</td></tr>
-        <tr><th>Preço</th><td>$19.99</td></tr>
-        <tr><th>Taxas adicionais</th><td>Nenhuma</td></tr>
-        <tr><th>Pagamento</th><td>Cartão de crédito (Stripe)</td></tr>
-        <tr><th>Momento do pagamento</th><td>Cobrado no momento da confirmação do pedido.</td></tr>
-        <tr><th>Entrega</th><td>Chave entregue imediatamente por email.</td></tr>
-        <tr><th>Reembolso</th><td>Teste de 14 dias. Vendas finais. Reembolso se defeito não resolvido em 30 dias.</td></tr>
-        <tr><th>Requisitos</th><td>Google Chrome&trade; / Microsoft Edge&trade; (Manifest V3)</td></tr>
-      </table>
-      <div class="back"><a href="index.html">&larr; Voltar ao início</a></div>
-    </div>
-    <div data-lang="de">
-      <h1>Impressum</h1>
-      <table>
-        <tr><th>Verkäufer</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Verantwortlicher</th><td>Tetsunobu Kawai</td></tr>
-        <tr><th>Adresse</th><td>Auf Anfrage per E-Mail offengelegt.</td></tr>
-        <tr><th>Telefon</th><td>Auf Anfrage per E-Mail offengelegt.</td></tr>
-        <tr><th>Email</th><td>support@grab-all-files.app</td></tr>
-        <tr><th>Website</th><td>https://grab-all-files.app/</td></tr>
-        <tr><th>Produkt</th><td>Alle Dateien herunterladen (Grab All Files) – Lizenzschlüssel</td></tr>
-        <tr><th>Preis</th><td>$19.99</td></tr>
-        <tr><th>Zusätzliche Gebühren</th><td>Keine</td></tr>
-        <tr><th>Zahlung</th><td>Kreditkarte (Stripe)</td></tr>
-        <tr><th>Zahlungszeitpunkt</th><td>Belastung bei Bestellbestätigung.</td></tr>
-        <tr><th>Lieferung</th><td>Lizenzschlüssel sofort per E-Mail.</td></tr>
-        <tr><th>Erstattung</th><td>14-Tage-Test. Endgültige Verkäufe. Erstattung wenn Mangel nicht in 30 Tagen behoben.</td></tr>
-        <tr><th>Anforderungen</th><td>Google Chrome&trade; / Microsoft Edge&trade; (Manifest V3)</td></tr>
-      </table>
-      <div class="back"><a href="index.html">&larr; Zurück zur Startseite</a></div>
-    </div>
+</header>
 
-    <hr>
-    <p class="footnote">"Google Chrome" and "Chrome Web Store" are trademarks of Google LLC. "Microsoft Edge" and "Microsoft Edge Add-ons" are trademarks of Microsoft Corporation. Use is descriptive only and does not imply affiliation with or endorsement by Google or Microsoft. Sold by <strong>Tetsunobu Kawai</strong> as an independent product.</p>
-    <p class="footnote">「Google Chrome」および「Chrome Web Store」は Google LLC の商標です。「Microsoft Edge」および「Microsoft Edge Add-ons」は Microsoft Corporation の商標です。本書面における使用は説明目的に限られ、提携または推奨を意味しません。本製品は <strong>Tetsunobu Kawai</strong> が独立して販売しています。</p>
+<div class="page-head">
+  <div class="breadcrumb">
+    <a href="index.html"><span data-lang="en" class="active">Home</span><span data-lang="ja">トップ</span><span data-lang="es">Inicio</span><span data-lang="fr">Accueil</span><span data-lang="ko">홈</span><span data-lang="it">Home</span><span data-lang="zh_CN">首页</span><span data-lang="zh_TW">首頁</span><span data-lang="pt_BR">Início</span><span data-lang="de">Start</span></a>
+    <span>›</span>
+    <span><span data-lang="en" class="active">Legal</span><span data-lang="ja">法務情報</span><span data-lang="es">Legal</span><span data-lang="fr">Mentions légales</span><span data-lang="ko">법적 고지</span><span data-lang="it">Legale</span><span data-lang="zh_CN">法律</span><span data-lang="zh_TW">法律</span><span data-lang="pt_BR">Legal</span><span data-lang="de">Rechtliches</span></span>
   </div>
-  <script>
-    var LANGUAGE_LABELS = {
-      en: 'Language',
-      ja: '言語',
-      es: 'Idioma',
-      fr: 'Langue',
-      ko: '언어',
-      it: 'Lingua',
-      zh_CN: '语言',
-      zh_TW: '語言',
-      pt_BR: 'Idioma',
-      de: 'Sprache'
-    };
-    function getLang() {
-      var s = localStorage.getItem('gaf-lang');
-      if (s) return s;
-      var n = (navigator.language || '').toLowerCase();
-      if (n.startsWith('ja')) return 'ja';
-      if (n.startsWith('ko')) return 'ko';
-      if (n.startsWith('it')) return 'it';
-      if (n.startsWith('de')) return 'de';
-      if (n.startsWith('es')) return 'es';
-      if (n.startsWith('fr')) return 'fr';
-      if (n.startsWith('pt')) return 'pt_BR';
-      if (n === 'zh-tw' || n === 'zh-hant' || n.startsWith('zh-hant')) return 'zh_TW';
-      if (n.startsWith('zh')) return 'zh_CN';
-      return 'en';
+  <h1>
+    <span data-lang="en" class="active">Legal information</span>
+    <span data-lang="ja">法務情報</span>
+    <span data-lang="es">Información legal</span>
+    <span data-lang="fr">Informations légales</span>
+    <span data-lang="ko">법적 정보</span>
+    <span data-lang="it">Informazioni legali</span>
+    <span data-lang="zh_CN">法律信息</span>
+    <span data-lang="zh_TW">法律資訊</span>
+    <span data-lang="pt_BR">Informações legais</span>
+    <span data-lang="de">Rechtliche Hinweise</span>
+  </h1>
+  <p class="sub">
+    <span data-lang="en" class="active">Commercial disclosure, terms, and privacy — all in one place.</span>
+    <span data-lang="ja">特定商取引法に基づく表記・利用規約・プライバシーポリシーをまとめて掲載しています。</span>
+    <span data-lang="es">Información comercial, términos y privacidad — todo en un solo lugar.</span>
+    <span data-lang="fr">Mentions commerciales, conditions et confidentialité — réunies en un seul endroit.</span>
+    <span data-lang="ko">상거래 정보, 이용약관, 개인정보 처리방침 — 한 곳에서 확인.</span>
+    <span data-lang="it">Informazioni commerciali, termini e privacy — tutto in un unico posto.</span>
+    <span data-lang="zh_CN">商业披露、条款和隐私 — 集中呈现。</span>
+    <span data-lang="zh_TW">商業揭露、條款與隱私 — 集中呈現。</span>
+    <span data-lang="pt_BR">Divulgação comercial, termos e privacidade — tudo em um só lugar.</span>
+    <span data-lang="de">Geschäftliche Hinweise, Bedingungen und Datenschutz — alles an einem Ort.</span>
+  </p>
+</div>
+
+<nav class="doc-tabs" id="doc-tabs">
+  <button type="button" class="doc-tab is-active" data-doc="commercial">
+    <span class="ic">📋</span>
+    <span data-lang="en" class="active">Commercial disclosure</span><span data-lang="ja">特商法に基づく表記</span><span data-lang="es">Aviso comercial</span><span data-lang="fr">Mentions commerciales</span><span data-lang="ko">상거래 정보</span><span data-lang="it">Avviso commerciale</span><span data-lang="zh_CN">商业披露</span><span data-lang="zh_TW">商業揭露</span><span data-lang="pt_BR">Aviso comercial</span><span data-lang="de">Geschäftshinweis</span>
+  </button>
+  <button type="button" class="doc-tab" data-doc="terms">
+    <span class="ic">📄</span>
+    <span data-lang="en" class="active">Terms of Service</span><span data-lang="ja">利用規約</span><span data-lang="es">Términos del servicio</span><span data-lang="fr">Conditions d'utilisation</span><span data-lang="ko">이용약관</span><span data-lang="it">Termini di servizio</span><span data-lang="zh_CN">服务条款</span><span data-lang="zh_TW">服務條款</span><span data-lang="pt_BR">Termos de Serviço</span><span data-lang="de">Nutzungsbedingungen</span>
+  </button>
+  <button type="button" class="doc-tab" data-doc="privacy">
+    <span class="ic">🔒</span>
+    <span data-lang="en" class="active">Privacy Policy</span><span data-lang="ja">プライバシーポリシー</span><span data-lang="es">Política de privacidad</span><span data-lang="fr">Politique de confidentialité</span><span data-lang="ko">개인정보 처리방침</span><span data-lang="it">Informativa sulla privacy</span><span data-lang="zh_CN">隐私政策</span><span data-lang="zh_TW">隱私政策</span><span data-lang="pt_BR">Política de Privacidade</span><span data-lang="de">Datenschutzrichtlinie</span>
+  </button>
+</nav>
+
+<main>
+  <aside class="sticky-toc" id="toc"></aside>
+
+  <article>
+
+    <!-- ── Tab 1: Commercial disclosure (10 languages) ── -->
+    <section class="doc is-active" data-doc="commercial" id="doc-commercial">
+
+      <p class="lead">
+        <span data-lang="en" class="active"><strong>Required disclosure under the Japanese Act on Specified Commercial Transactions.</strong> Seller details, price, payment, delivery, and refund terms for purchases of the Grab All Files license key.</span>
+        <span data-lang="ja"><strong>「特定商取引に関する法律」第11条に基づく表記です。</strong>ファイル一括ダウンロード ライセンスキーのご購入に関する販売者情報・価格・支払方法・引渡し時期・返金条件を掲載しています。</span>
+        <span data-lang="es"><strong>Información comercial obligatoria conforme a la legislación japonesa.</strong> Detalles del vendedor, precio, pago, entrega y reembolso para la compra de la clave de licencia de Grab All Files.</span>
+        <span data-lang="fr"><strong>Information commerciale requise par la loi japonaise.</strong> Vendeur, prix, paiement, livraison et remboursement pour l'achat de la clé de licence Grab All Files.</span>
+        <span data-lang="ko"><strong>일본 특정상거래법에 따른 표기입니다.</strong> Grab All Files 라이선스 키 구매에 관한 판매자 정보, 가격, 결제, 배송, 환불 조건을 게재합니다.</span>
+        <span data-lang="it"><strong>Informativa commerciale obbligatoria ai sensi della legge giapponese.</strong> Dettagli del venditore, prezzo, pagamento, consegna e rimborso per l'acquisto della chiave di licenza Grab All Files.</span>
+        <span data-lang="zh_CN"><strong>依据日本《特定商业交易法》的强制披露。</strong>关于 Grab All Files 许可证密钥购买的销售方信息、价格、付款、交付和退款条款。</span>
+        <span data-lang="zh_TW"><strong>依據日本《特定商業交易法》之強制揭露。</strong>關於 Grab All Files 授權金鑰購買的銷售方資訊、價格、付款、交付與退款條款。</span>
+        <span data-lang="pt_BR"><strong>Divulgação obrigatória conforme a Lei Japonesa de Transações Comerciais Especificadas.</strong> Detalhes do vendedor, preço, pagamento, entrega e reembolso para a compra da chave de licença Grab All Files.</span>
+        <span data-lang="de"><strong>Pflichtangaben nach dem japanischen Gesetz über besondere Handelsgeschäfte.</strong> Verkäuferinformationen, Preis, Zahlung, Lieferung und Rückerstattung beim Kauf des Grab All Files Lizenzschlüssels.</span>
+      </p>
+
+      <h2 id="cd-1"><span class="num">1</span>
+        <span data-lang="en" class="active">Seller information</span><span data-lang="ja">販売者情報</span><span data-lang="es">Información del vendedor</span><span data-lang="fr">Vendeur</span><span data-lang="ko">판매자 정보</span><span data-lang="it">Informazioni venditore</span><span data-lang="zh_CN">销售方信息</span><span data-lang="zh_TW">銷售方資訊</span><span data-lang="pt_BR">Informações do vendedor</span><span data-lang="de">Verkäuferinformationen</span>
+      </h2>
+      <dl class="disclosure">
+        <div class="row">
+          <dt><span class="ic">👤</span><span data-lang="en" class="active">Seller</span><span data-lang="ja">販売業者</span><span data-lang="es">Vendedor</span><span data-lang="fr">Vendeur</span><span data-lang="ko">판매자</span><span data-lang="it">Venditore</span><span data-lang="zh_CN">销售商</span><span data-lang="zh_TW">銷售商</span><span data-lang="pt_BR">Vendedor</span><span data-lang="de">Verkäufer</span></dt>
+          <dd>Tetsunobu Kawai</dd>
+        </div>
+        <div class="row">
+          <dt><span class="ic">👤</span><span data-lang="en" class="active">Responsible person</span><span data-lang="ja">運営統括責任者</span><span data-lang="es">Responsable</span><span data-lang="fr">Responsable</span><span data-lang="ko">책임자</span><span data-lang="it">Responsabile</span><span data-lang="zh_CN">负责人</span><span data-lang="zh_TW">負責人</span><span data-lang="pt_BR">Responsável</span><span data-lang="de">Verantwortlicher</span></dt>
+          <dd>Tetsunobu Kawai</dd>
+        </div>
+        <div class="row">
+          <dt><span class="ic">📍</span><span data-lang="en" class="active">Address</span><span data-lang="ja">所在地</span><span data-lang="es">Dirección</span><span data-lang="fr">Adresse</span><span data-lang="ko">주소</span><span data-lang="it">Indirizzo</span><span data-lang="zh_CN">地址</span><span data-lang="zh_TW">地址</span><span data-lang="pt_BR">Endereço</span><span data-lang="de">Adresse</span></dt>
+          <dd>
+            <span data-lang="en" class="active">Disclosed promptly upon request via the e-mail address below.</span>
+            <span data-lang="ja">請求があった場合に遅滞なくメールにて開示いたします。</span>
+            <span data-lang="es">Se revela a solicitud por correo electrónico.</span>
+            <span data-lang="fr">Divulgué sur demande par e-mail.</span>
+            <span data-lang="ko">이메일 요청 시 공개.</span>
+            <span data-lang="it">Divulgato su richiesta via email.</span>
+            <span data-lang="zh_CN">应要求通过电子邮件披露。</span>
+            <span data-lang="zh_TW">應要求透過電子郵件揭露。</span>
+            <span data-lang="pt_BR">Divulgado mediante solicitação por e-mail.</span>
+            <span data-lang="de">Auf Anfrage per E-Mail offengelegt.</span>
+          </dd>
+        </div>
+        <div class="row">
+          <dt><span class="ic">☎</span><span data-lang="en" class="active">Phone</span><span data-lang="ja">電話番号</span><span data-lang="es">Teléfono</span><span data-lang="fr">Téléphone</span><span data-lang="ko">전화</span><span data-lang="it">Telefono</span><span data-lang="zh_CN">电话</span><span data-lang="zh_TW">電話</span><span data-lang="pt_BR">Telefone</span><span data-lang="de">Telefon</span></dt>
+          <dd>
+            <span data-lang="en" class="active">Disclosed promptly upon request via the e-mail address below.</span>
+            <span data-lang="ja">請求があった場合に遅滞なくメールにて開示いたします。</span>
+            <span data-lang="es">Se revela a solicitud por correo electrónico.</span>
+            <span data-lang="fr">Divulgué sur demande par e-mail.</span>
+            <span data-lang="ko">이메일 요청 시 공개.</span>
+            <span data-lang="it">Divulgato su richiesta via email.</span>
+            <span data-lang="zh_CN">应要求通过电子邮件披露。</span>
+            <span data-lang="zh_TW">應要求透過電子郵件揭露。</span>
+            <span data-lang="pt_BR">Divulgado mediante solicitação por e-mail.</span>
+            <span data-lang="de">Auf Anfrage per E-Mail offengelegt.</span>
+          </dd>
+        </div>
+        <div class="row">
+          <dt><span class="ic">✉</span><span data-lang="en" class="active">E-mail</span><span data-lang="ja">メールアドレス</span><span data-lang="es">Email</span><span data-lang="fr">Email</span><span data-lang="ko">이메일</span><span data-lang="it">Email</span><span data-lang="zh_CN">电子邮件</span><span data-lang="zh_TW">電子郵件</span><span data-lang="pt_BR">E-mail</span><span data-lang="de">E-Mail</span></dt>
+          <dd><a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></dd>
+        </div>
+        <div class="row">
+          <dt><span class="ic">🌐</span><span data-lang="en" class="active">Website</span><span data-lang="ja">販売URL</span><span data-lang="es">Sitio web</span><span data-lang="fr">Site web</span><span data-lang="ko">웹사이트</span><span data-lang="it">Sito web</span><span data-lang="zh_CN">网站</span><span data-lang="zh_TW">網站</span><span data-lang="pt_BR">Site</span><span data-lang="de">Website</span></dt>
+          <dd><a href="index.html">https://grab-all-files.app/</a></dd>
+        </div>
+      </dl>
+
+      <h2 id="cd-2"><span class="num">2</span>
+        <span data-lang="en" class="active">Product &amp; price</span><span data-lang="ja">商品と価格</span><span data-lang="es">Producto y precio</span><span data-lang="fr">Produit et prix</span><span data-lang="ko">제품과 가격</span><span data-lang="it">Prodotto e prezzo</span><span data-lang="zh_CN">产品和价格</span><span data-lang="zh_TW">產品與價格</span><span data-lang="pt_BR">Produto e preço</span><span data-lang="de">Produkt &amp; Preis</span>
+      </h2>
+      <dl class="disclosure">
+        <div class="row">
+          <dt><span class="ic">📦</span><span data-lang="en" class="active">Product</span><span data-lang="ja">商品名</span><span data-lang="es">Producto</span><span data-lang="fr">Produit</span><span data-lang="ko">제품</span><span data-lang="it">Prodotto</span><span data-lang="zh_CN">产品</span><span data-lang="zh_TW">產品</span><span data-lang="pt_BR">Produto</span><span data-lang="de">Produkt</span></dt>
+          <dd>
+            <span data-lang="en" class="active">Grab All Files — license key</span>
+            <span data-lang="ja">ファイル一括ダウンロード（英文表記: Grab All Files）ライセンスキー</span>
+            <span data-lang="es">Descargar todos los archivos (Grab All Files) – clave de licencia</span>
+            <span data-lang="fr">Télécharger tous les fichiers (Grab All Files) – clé de licence</span>
+            <span data-lang="ko">파일 일괄 다운로드 (Grab All Files) – 라이선스 키</span>
+            <span data-lang="it">Scarica tutti i file (Grab All Files) – chiave di licenza</span>
+            <span data-lang="zh_CN">批量下载文件（Grab All Files）许可证密钥</span>
+            <span data-lang="zh_TW">批次下載檔案（Grab All Files）授權金鑰</span>
+            <span data-lang="pt_BR">Baixar todos os arquivos (Grab All Files) – chave de licença</span>
+            <span data-lang="de">Alle Dateien herunterladen (Grab All Files) – Lizenzschlüssel</span>
+          </dd>
+        </div>
+        <div class="row">
+          <dt><span class="ic">¥</span><span data-lang="en" class="active">Price</span><span data-lang="ja">販売価格</span><span data-lang="es">Precio</span><span data-lang="fr">Prix</span><span data-lang="ko">가격</span><span data-lang="it">Prezzo</span><span data-lang="zh_CN">价格</span><span data-lang="zh_TW">價格</span><span data-lang="pt_BR">Preço</span><span data-lang="de">Preis</span></dt>
+          <dd class="highlight">
+            <span data-lang="en" class="active">USD $19.99 (tax included)</span>
+            <span data-lang="ja">$19.99 USD（税込）</span>
+            <span data-lang="es">$19.99 USD (impuestos incluidos)</span>
+            <span data-lang="fr">$19.99 USD (taxes incluses)</span>
+            <span data-lang="ko">$19.99 USD (세금 포함)</span>
+            <span data-lang="it">$19.99 USD (tasse incluse)</span>
+            <span data-lang="zh_CN">$19.99 USD（含税）</span>
+            <span data-lang="zh_TW">$19.99 USD（含稅）</span>
+            <span data-lang="pt_BR">$19.99 USD (impostos inclusos)</span>
+            <span data-lang="de">$19.99 USD (inkl. Steuer)</span>
+          </dd>
+        </div>
+        <div class="row">
+          <dt><span class="ic">+</span><span data-lang="en" class="active">Additional fees</span><span data-lang="ja">商品代金以外の必要料金</span><span data-lang="es">Cargos adicionales</span><span data-lang="fr">Frais supplémentaires</span><span data-lang="ko">추가 요금</span><span data-lang="it">Costi aggiuntivi</span><span data-lang="zh_CN">额外费用</span><span data-lang="zh_TW">額外費用</span><span data-lang="pt_BR">Taxas adicionais</span><span data-lang="de">Zusätzliche Gebühren</span></dt>
+          <dd>
+            <span data-lang="en" class="active">None.</span>
+            <span data-lang="ja">なし。</span>
+            <span data-lang="es">Ninguno.</span>
+            <span data-lang="fr">Aucun.</span>
+            <span data-lang="ko">없음.</span>
+            <span data-lang="it">Nessuno.</span>
+            <span data-lang="zh_CN">无。</span>
+            <span data-lang="zh_TW">無。</span>
+            <span data-lang="pt_BR">Nenhuma.</span>
+            <span data-lang="de">Keine.</span>
+          </dd>
+        </div>
+      </dl>
+
+      <h2 id="cd-3"><span class="num">3</span>
+        <span data-lang="en" class="active">Payment</span><span data-lang="ja">お支払い</span><span data-lang="es">Pago</span><span data-lang="fr">Paiement</span><span data-lang="ko">결제</span><span data-lang="it">Pagamento</span><span data-lang="zh_CN">付款</span><span data-lang="zh_TW">付款</span><span data-lang="pt_BR">Pagamento</span><span data-lang="de">Zahlung</span>
+      </h2>
+      <dl class="disclosure">
+        <div class="row">
+          <dt><span class="ic">💳</span><span data-lang="en" class="active">Method</span><span data-lang="ja">お支払い方法</span><span data-lang="es">Método</span><span data-lang="fr">Méthode</span><span data-lang="ko">방법</span><span data-lang="it">Metodo</span><span data-lang="zh_CN">方式</span><span data-lang="zh_TW">方式</span><span data-lang="pt_BR">Método</span><span data-lang="de">Methode</span></dt>
+          <dd>
+            <span data-lang="en" class="active">Credit card via Stripe Checkout.</span>
+            <span data-lang="ja">クレジットカード（Stripe決済）</span>
+            <span data-lang="es">Tarjeta de crédito (Stripe Checkout).</span>
+            <span data-lang="fr">Carte de crédit (Stripe Checkout).</span>
+            <span data-lang="ko">신용카드 (Stripe Checkout).</span>
+            <span data-lang="it">Carta di credito (Stripe Checkout).</span>
+            <span data-lang="zh_CN">信用卡（Stripe Checkout）。</span>
+            <span data-lang="zh_TW">信用卡（Stripe Checkout）。</span>
+            <span data-lang="pt_BR">Cartão de crédito (Stripe Checkout).</span>
+            <span data-lang="de">Kreditkarte (Stripe Checkout).</span>
+          </dd>
+        </div>
+        <div class="row">
+          <dt><span class="ic">🕒</span><span data-lang="en" class="active">Timing</span><span data-lang="ja">支払時期</span><span data-lang="es">Momento del pago</span><span data-lang="fr">Moment du paiement</span><span data-lang="ko">결제 시기</span><span data-lang="it">Momento del pagamento</span><span data-lang="zh_CN">付款时间</span><span data-lang="zh_TW">付款時間</span><span data-lang="pt_BR">Momento do pagamento</span><span data-lang="de">Zahlungszeitpunkt</span></dt>
+          <dd>
+            <span data-lang="en" class="active">Charged at the time the order is confirmed.</span>
+            <span data-lang="ja">商品注文確定時に課金されます。</span>
+            <span data-lang="es">Cobro al confirmar el pedido.</span>
+            <span data-lang="fr">Facturé lors de la confirmation de commande.</span>
+            <span data-lang="ko">주문 확정 시 청구.</span>
+            <span data-lang="it">Addebitato al momento della conferma dell'ordine.</span>
+            <span data-lang="zh_CN">订单确认时收取。</span>
+            <span data-lang="zh_TW">訂單確認時收取。</span>
+            <span data-lang="pt_BR">Cobrado no momento da confirmação do pedido.</span>
+            <span data-lang="de">Belastung bei Bestellbestätigung.</span>
+          </dd>
+        </div>
+      </dl>
+
+      <h2 id="cd-4"><span class="num">4</span>
+        <span data-lang="en" class="active">Delivery</span><span data-lang="ja">引渡し</span><span data-lang="es">Entrega</span><span data-lang="fr">Livraison</span><span data-lang="ko">배송</span><span data-lang="it">Consegna</span><span data-lang="zh_CN">交付</span><span data-lang="zh_TW">交付</span><span data-lang="pt_BR">Entrega</span><span data-lang="de">Lieferung</span>
+      </h2>
+      <dl class="disclosure">
+        <div class="row">
+          <dt><span class="ic">📨</span><span data-lang="en" class="active">Delivery time</span><span data-lang="ja">引渡し時期</span><span data-lang="es">Tiempo de entrega</span><span data-lang="fr">Délai de livraison</span><span data-lang="ko">배송 시간</span><span data-lang="it">Tempi di consegna</span><span data-lang="zh_CN">交付时间</span><span data-lang="zh_TW">交付時間</span><span data-lang="pt_BR">Prazo de entrega</span><span data-lang="de">Lieferzeit</span></dt>
+          <dd>
+            <span data-lang="en" class="active">License key delivered immediately by e-mail after payment.</span>
+            <span data-lang="ja">購入完了後、即時にメールにてライセンスキーをお送りします。</span>
+            <span data-lang="es">Clave de licencia entregada por email inmediatamente tras el pago.</span>
+            <span data-lang="fr">Clé de licence livrée immédiatement par e-mail après paiement.</span>
+            <span data-lang="ko">결제 후 라이선스 키가 이메일로 즉시 전송됩니다.</span>
+            <span data-lang="it">Chiave di licenza inviata immediatamente via email dopo il pagamento.</span>
+            <span data-lang="zh_CN">付款后许可证密钥立即通过电子邮件发送。</span>
+            <span data-lang="zh_TW">付款後授權金鑰立即透過電子郵件傳送。</span>
+            <span data-lang="pt_BR">Chave de licença entregue por e-mail imediatamente após o pagamento.</span>
+            <span data-lang="de">Lizenzschlüssel wird sofort nach Zahlung per E-Mail geliefert.</span>
+          </dd>
+        </div>
+      </dl>
+
+      <h2 id="cd-5"><span class="num">5</span>
+        <span data-lang="en" class="active">Returns &amp; refunds</span><span data-lang="ja">返品・キャンセル</span><span data-lang="es">Devoluciones y reembolsos</span><span data-lang="fr">Retours et remboursements</span><span data-lang="ko">반품 및 환불</span><span data-lang="it">Resi e rimborsi</span><span data-lang="zh_CN">退货与退款</span><span data-lang="zh_TW">退貨與退款</span><span data-lang="pt_BR">Devoluções e reembolsos</span><span data-lang="de">Rückgaben und Erstattungen</span>
+      </h2>
+      <div class="callout">
+        <span data-lang="en" class="active"><strong>14-day free trial provided.</strong> Because the product is a digital license key delivered immediately, all sales are final once the key is sent. If a technical defect prevents use, contact us within 30 days for a full refund.</span>
+        <span data-lang="ja"><strong>14日間の無料トライアルをご提供しています。</strong>本商品は即時引渡しのデジタルライセンスキーのため、原則として返金不可です。技術的な不具合により利用できない場合は、30日以内にご連絡いただければ全額返金いたします。</span>
+        <span data-lang="es"><strong>Prueba gratuita de 14 días.</strong> Como el producto es una clave de licencia digital entregada de inmediato, todas las ventas son finales una vez enviada la clave. Si un defecto técnico impide el uso, contáctenos en 30 días para reembolso completo.</span>
+        <span data-lang="fr"><strong>Essai gratuit de 14 jours.</strong> Le produit étant une clé de licence numérique livrée immédiatement, toutes les ventes sont finales une fois la clé envoyée. Si un défaut technique empêche l'utilisation, contactez-nous sous 30 jours pour un remboursement intégral.</span>
+        <span data-lang="ko"><strong>14일 무료 체험 제공.</strong> 본 제품은 즉시 제공되는 디지털 라이선스 키이므로 키가 전송된 후에는 원칙적으로 환불 불가. 기술적 결함으로 사용할 수 없는 경우 30일 이내 연락 시 전액 환불.</span>
+        <span data-lang="it"><strong>Prova gratuita di 14 giorni.</strong> Trattandosi di una chiave di licenza digitale consegnata immediatamente, le vendite sono definitive una volta inviata la chiave. Se un difetto tecnico impedisce l'uso, contattaci entro 30 giorni per rimborso completo.</span>
+        <span data-lang="zh_CN"><strong>提供14天免费试用。</strong>因本产品为即时交付的数字许可证密钥，密钥发送后原则上不予退款。如因技术故障无法使用，请在30天内联系我们以获得全额退款。</span>
+        <span data-lang="zh_TW"><strong>提供14天免費試用。</strong>因本產品為即時交付的數位授權金鑰，金鑰發送後原則上不予退款。如因技術故障無法使用，請在30天內聯絡我們以獲得全額退款。</span>
+        <span data-lang="pt_BR"><strong>Teste gratuito de 14 dias.</strong> Como o produto é uma chave de licença digital entregue imediatamente, todas as vendas são finais após o envio. Se um defeito técnico impedir o uso, contate-nos em 30 dias para reembolso integral.</span>
+        <span data-lang="de"><strong>14 Tage kostenlose Testphase.</strong> Da das Produkt ein digital sofort gelieferter Lizenzschlüssel ist, sind alle Käufe nach Versand der Schlüssel endgültig. Bei technischem Defekt kontaktieren Sie uns innerhalb von 30 Tagen für eine vollständige Rückerstattung.</span>
+      </div>
+
+      <h2 id="cd-6"><span class="num">6</span>
+        <span data-lang="en" class="active">System requirements</span><span data-lang="ja">動作環境</span><span data-lang="es">Requisitos del sistema</span><span data-lang="fr">Configuration requise</span><span data-lang="ko">시스템 요구사항</span><span data-lang="it">Requisiti di sistema</span><span data-lang="zh_CN">系统要求</span><span data-lang="zh_TW">系統需求</span><span data-lang="pt_BR">Requisitos do sistema</span><span data-lang="de">Systemanforderungen</span>
+      </h2>
+      <dl class="disclosure">
+        <div class="row">
+          <dt><span class="ic">💻</span><span data-lang="en" class="active">Browser</span><span data-lang="ja">対応ブラウザ</span><span data-lang="es">Navegador</span><span data-lang="fr">Navigateur</span><span data-lang="ko">브라우저</span><span data-lang="it">Browser</span><span data-lang="zh_CN">浏览器</span><span data-lang="zh_TW">瀏覽器</span><span data-lang="pt_BR">Navegador</span><span data-lang="de">Browser</span></dt>
+          <dd>Google Chrome™ / Microsoft Edge™ <span data-lang="en" class="active">(Manifest V3, Chromium 102 or later)</span><span data-lang="ja">（Manifest V3 / Chromium 102以降）</span><span data-lang="es">(Manifest V3, Chromium 102 o posterior)</span><span data-lang="fr">(Manifest V3, Chromium 102 ou ultérieur)</span><span data-lang="ko">(Manifest V3, Chromium 102 이상)</span><span data-lang="it">(Manifest V3, Chromium 102 o successivo)</span><span data-lang="zh_CN">（Manifest V3，Chromium 102 或更高版本）</span><span data-lang="zh_TW">（Manifest V3，Chromium 102 或更新版本）</span><span data-lang="pt_BR">(Manifest V3, Chromium 102 ou posterior)</span><span data-lang="de">(Manifest V3, Chromium 102 oder neuer)</span></dd>
+        </div>
+        <div class="row">
+          <dt><span class="ic">🖥</span><span data-lang="en" class="active">Activations</span><span data-lang="ja">有効化台数</span><span data-lang="es">Activaciones</span><span data-lang="fr">Activations</span><span data-lang="ko">활성화 수</span><span data-lang="it">Attivazioni</span><span data-lang="zh_CN">激活数</span><span data-lang="zh_TW">啟用數</span><span data-lang="pt_BR">Ativações</span><span data-lang="de">Aktivierungen</span></dt>
+          <dd>
+            <span data-lang="en" class="active">Up to 3 devices per license key.</span>
+            <span data-lang="ja">1ライセンスキーにつき最大3台まで。</span>
+            <span data-lang="es">Hasta 3 dispositivos por clave de licencia.</span>
+            <span data-lang="fr">Jusqu'à 3 appareils par clé de licence.</span>
+            <span data-lang="ko">라이선스 키당 최대 3대 기기.</span>
+            <span data-lang="it">Fino a 3 dispositivi per chiave di licenza.</span>
+            <span data-lang="zh_CN">每个许可证密钥最多 3 台设备。</span>
+            <span data-lang="zh_TW">每組授權金鑰最多 3 台裝置。</span>
+            <span data-lang="pt_BR">Até 3 dispositivos por chave de licença.</span>
+            <span data-lang="de">Bis zu 3 Geräte pro Lizenzschlüssel.</span>
+          </dd>
+        </div>
+      </dl>
+
+      <div class="contact-card">
+        <div class="ic">✉</div>
+        <div>
+          <h3>
+            <span data-lang="en" class="active">Questions about this disclosure</span><span data-lang="ja">本表記に関するお問い合わせ</span><span data-lang="es">Preguntas sobre este aviso</span><span data-lang="fr">Questions sur ces mentions</span><span data-lang="ko">본 표기에 관한 문의</span><span data-lang="it">Domande su questo avviso</span><span data-lang="zh_CN">关于本披露的问题</span><span data-lang="zh_TW">關於本揭露的問題</span><span data-lang="pt_BR">Perguntas sobre esta divulgação</span><span data-lang="de">Fragen zu diesem Hinweis</span>
+          </h3>
+          <p>
+            <span data-lang="en" class="active">E-mail us at </span><span data-lang="ja">メールにてご連絡ください：</span><span data-lang="es">Escríbanos a </span><span data-lang="fr">Écrivez-nous à </span><span data-lang="ko">이메일: </span><span data-lang="it">Scrivici a </span><span data-lang="zh_CN">请发送邮件至 </span><span data-lang="zh_TW">請發送郵件至 </span><span data-lang="pt_BR">Escreva para </span><span data-lang="de">Schreiben Sie uns an </span>
+            <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a>
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ── Tab 2: Terms of Service summary ── -->
+    <section class="doc" data-doc="terms" id="doc-terms">
+
+      <p class="lead">
+        <span data-lang="en" class="active"><strong>Terms of Service</strong> govern your use of the Grab All Files extension, license key, trial period, and license-management services. Below is a plain-language summary of the key points; the full legal text is linked below.</span>
+        <span data-lang="ja"><strong>利用規約</strong>では、ファイル一括ダウンロードの拡張機能、ライセンスキー、無料トライアル、ライセンス管理サービスのご利用条件を定めています。以下は主要なポイントの要約です。完全な条文は下のリンクをご覧ください。</span>
+        <span data-lang="es"><strong>Los Términos del servicio</strong> rigen el uso de la extensión Grab All Files, la clave de licencia, el periodo de prueba y los servicios de gestión de licencias. A continuación, un resumen sencillo de los puntos clave; el texto legal completo está enlazado más abajo.</span>
+        <span data-lang="fr"><strong>Les Conditions d'utilisation</strong> régissent votre utilisation de l'extension Grab All Files, de la clé de licence, de la période d'essai et des services de gestion de licence. Ci-dessous un résumé en langage clair ; le texte juridique complet est lié ci-dessous.</span>
+        <span data-lang="ko"><strong>이용약관</strong>은 Grab All Files 확장 프로그램, 라이선스 키, 체험 기간, 라이선스 관리 서비스 이용 조건을 정합니다. 아래는 핵심 사항의 평이한 요약이며, 전체 법적 문구는 아래 링크에서 확인하세요.</span>
+        <span data-lang="it"><strong>I Termini di servizio</strong> regolano l'uso dell'estensione Grab All Files, della chiave di licenza, del periodo di prova e dei servizi di gestione licenze. Di seguito un riassunto in linguaggio semplice; il testo legale completo è collegato sotto.</span>
+        <span data-lang="zh_CN"><strong>服务条款</strong>规定了您对 Grab All Files 扩展程序、许可证密钥、试用期和许可证管理服务的使用条件。以下是要点的通俗摘要，完整法律条文在下方链接。</span>
+        <span data-lang="zh_TW"><strong>服務條款</strong>規範您對 Grab All Files 擴充功能、授權金鑰、試用期間與授權管理服務的使用條件。以下為要點的通俗摘要，完整法律條文於下方連結。</span>
+        <span data-lang="pt_BR"><strong>Os Termos de Serviço</strong> regem o uso da extensão Grab All Files, da chave de licença, do período de teste e dos serviços de gerenciamento de licenças. Abaixo está um resumo em linguagem simples; o texto legal completo está vinculado abaixo.</span>
+        <span data-lang="de"><strong>Die Nutzungsbedingungen</strong> regeln Ihre Nutzung der Grab All Files-Erweiterung, des Lizenzschlüssels, der Testphase und der Lizenzverwaltungsdienste. Nachstehend eine einfache Zusammenfassung der Kernpunkte; der vollständige Rechtstext ist unten verlinkt.</span>
+      </p>
+
+      <div class="cta-row">
+        <a class="primary" href="terms.html">
+          <span data-lang="en" class="active">Read full Terms of Service</span><span data-lang="ja">利用規約の全文を読む</span><span data-lang="es">Leer Términos completos</span><span data-lang="fr">Lire les Conditions complètes</span><span data-lang="ko">전체 이용약관 보기</span><span data-lang="it">Leggi i Termini completi</span><span data-lang="zh_CN">阅读完整服务条款</span><span data-lang="zh_TW">閱讀完整服務條款</span><span data-lang="pt_BR">Ler Termos completos</span><span data-lang="de">Vollständige Nutzungsbedingungen lesen</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <h2 id="t-1"><span class="num">1</span>
+        <span data-lang="en" class="active">License grant</span><span data-lang="ja">ライセンスの付与</span><span data-lang="es">Concesión de licencia</span><span data-lang="fr">Octroi de licence</span><span data-lang="ko">라이선스 부여</span><span data-lang="it">Concessione della licenza</span><span data-lang="zh_CN">许可授予</span><span data-lang="zh_TW">授權授予</span><span data-lang="pt_BR">Concessão de licença</span><span data-lang="de">Lizenzgewährung</span>
+      </h2>
+      <p>
+        <span data-lang="en" class="active">A non-exclusive, non-transferable, revocable license to install and use the extension for personal or internal business purposes on up to <strong>three (3) devices</strong> per license key. You may release a device slot from the license-management screen inside the extension.</span>
+        <span data-lang="ja">1ライセンスキーにつき最大 <strong>3台</strong> までの端末に対し、個人または社内業務目的での非独占的・譲渡不可・撤回可能なライセンスを付与します。拡張機能内のライセンス管理画面から、登録済みデバイスを解放できます。</span>
+        <span data-lang="es">Licencia no exclusiva, intransferible y revocable para instalar y usar la extensión con fines personales o de empresa interna en hasta <strong>tres (3) dispositivos</strong> por clave. Puede liberar un dispositivo desde la pantalla de gestión de licencia dentro de la extensión.</span>
+        <span data-lang="fr">Licence non exclusive, non transférable et révocable pour installer et utiliser l'extension à des fins personnelles ou d'entreprise interne sur jusqu'à <strong>trois (3) appareils</strong> par clé. Vous pouvez libérer un emplacement d'appareil depuis l'écran de gestion de licence dans l'extension.</span>
+        <span data-lang="ko">라이선스 키당 최대 <strong>3대 기기</strong>에서 개인 또는 사내 업무 용도로 설치·사용할 수 있는 비독점·양도불가·취소가능 라이선스. 확장 프로그램 내 라이선스 관리 화면에서 기기 슬롯을 해제할 수 있습니다.</span>
+        <span data-lang="it">Licenza non esclusiva, non trasferibile e revocabile per installare e utilizzare l'estensione per scopi personali o aziendali interni su un massimo di <strong>tre (3) dispositivi</strong> per chiave. È possibile rilasciare uno slot dispositivo dalla schermata di gestione licenze nell'estensione.</span>
+        <span data-lang="zh_CN">非独占、不可转让、可撤销的许可证，可在每个许可证密钥的 <strong>3 台设备</strong> 上为个人或内部业务用途安装和使用本扩展程序。您可以在扩展程序内的许可证管理界面中释放设备插槽。</span>
+        <span data-lang="zh_TW">非獨佔、不可轉讓、可撤銷的授權，可在每組授權金鑰的 <strong>3 台裝置</strong> 上為個人或內部業務用途安裝與使用本擴充功能。您可在擴充功能內的授權管理畫面中釋放裝置插槽。</span>
+        <span data-lang="pt_BR">Licença não exclusiva, intransferível e revogável para instalar e usar a extensão para fins pessoais ou empresariais internos em até <strong>três (3) dispositivos</strong> por chave. Você pode liberar um slot de dispositivo na tela de gerenciamento de licença dentro da extensão.</span>
+        <span data-lang="de">Eine nicht exklusive, nicht übertragbare, widerrufliche Lizenz zur Installation und Nutzung der Erweiterung für persönliche oder interne geschäftliche Zwecke auf bis zu <strong>drei (3) Geräten</strong> pro Lizenzschlüssel. Sie können einen Geräteplatz über den Lizenzverwaltungsbildschirm in der Erweiterung freigeben.</span>
+      </p>
+
+      <h2 id="t-2"><span class="num">2</span>
+        <span data-lang="en" class="active">Trial</span><span data-lang="ja">無料トライアル</span><span data-lang="es">Prueba gratuita</span><span data-lang="fr">Essai gratuit</span><span data-lang="ko">무료 체험</span><span data-lang="it">Prova gratuita</span><span data-lang="zh_CN">免费试用</span><span data-lang="zh_TW">免費試用</span><span data-lang="pt_BR">Teste gratuito</span><span data-lang="de">Kostenlose Testphase</span>
+      </h2>
+      <p>
+        <span data-lang="en" class="active">14 days, no credit card. All features unlocked. Trial eligibility is verified using a randomly generated device UUID — no personal information is collected to start a trial.</span>
+        <span data-lang="ja">14日間・カード登録不要・全機能ご利用可能。ランダム生成のデバイスUUIDで利用資格を確認しており、トライアル開始時に個人情報は収集しません。</span>
+        <span data-lang="es">14 días, sin tarjeta de crédito. Todas las funciones desbloqueadas. La elegibilidad se verifica mediante un UUID de dispositivo aleatorio — no se recopila información personal para iniciar la prueba.</span>
+        <span data-lang="fr">14 jours, sans carte de crédit. Toutes les fonctionnalités déverrouillées. L'éligibilité est vérifiée par un UUID d'appareil aléatoire — aucune information personnelle n'est collectée pour démarrer l'essai.</span>
+        <span data-lang="ko">14일간, 신용카드 불필요. 모든 기능 잠금 해제. 무작위 생성된 기기 UUID로 자격을 확인하며, 체험 시작 시 개인정보를 수집하지 않습니다.</span>
+        <span data-lang="it">14 giorni, senza carta di credito. Tutte le funzionalità sbloccate. L'idoneità viene verificata tramite un UUID dispositivo casuale — nessuna informazione personale viene raccolta per iniziare la prova.</span>
+        <span data-lang="zh_CN">14 天，无需信用卡。所有功能解锁。试用资格通过随机生成的设备 UUID 验证 — 启动试用时不收集个人信息。</span>
+        <span data-lang="zh_TW">14 天，無需信用卡。所有功能解鎖。試用資格透過隨機產生的裝置 UUID 驗證 — 啟動試用時不收集個人資訊。</span>
+        <span data-lang="pt_BR">14 dias, sem cartão de crédito. Todos os recursos liberados. A elegibilidade do teste é verificada por um UUID de dispositivo aleatório — nenhuma informação pessoal é coletada para iniciar o teste.</span>
+        <span data-lang="de">14 Tage, ohne Kreditkarte. Alle Funktionen freigeschaltet. Die Testberechtigung wird über eine zufällig generierte Geräte-UUID geprüft — beim Start der Testphase werden keine personenbezogenen Daten erhoben.</span>
+      </p>
+
+      <h2 id="t-3"><span class="num">3</span>
+        <span data-lang="en" class="active">Refunds</span><span data-lang="ja">返金</span><span data-lang="es">Reembolsos</span><span data-lang="fr">Remboursements</span><span data-lang="ko">환불</span><span data-lang="it">Rimborsi</span><span data-lang="zh_CN">退款</span><span data-lang="zh_TW">退款</span><span data-lang="pt_BR">Reembolsos</span><span data-lang="de">Erstattungen</span>
+      </h2>
+      <p>
+        <span data-lang="en" class="active">License keys are delivered immediately and treated as digital content with consent to immediate delivery. If a technical defect prevents use, contact support within 30 days for a full refund. Consumer protections of your country of residence (EU/EEA, Brazil, Korea, etc.) are preserved where mandatory.</span>
+        <span data-lang="ja">ライセンスキーは即時引渡しのデジタルコンテンツとして、即時提供への同意のもとに発行されます。技術的な不具合により利用できない場合は、30日以内にサポートまでご連絡いただければ全額返金いたします。EU/EEA、ブラジル、韓国等にお住まいの消費者の方の強行法規上の権利は維持されます。</span>
+        <span data-lang="es">Las claves de licencia se entregan de inmediato y se tratan como contenido digital con consentimiento de entrega inmediata. Si un defecto técnico impide el uso, contacte con soporte en 30 días para reembolso completo. Las protecciones del consumidor de su país (UE/EEE, Brasil, Corea, etc.) se preservan donde sean obligatorias.</span>
+        <span data-lang="fr">Les clés de licence sont livrées immédiatement et traitées comme contenu numérique avec consentement à la livraison immédiate. En cas de défaut technique empêchant l'utilisation, contactez le support sous 30 jours pour un remboursement intégral. Les protections consommateurs de votre pays de résidence (UE/EEE, Brésil, Corée, etc.) sont préservées lorsqu'elles sont obligatoires.</span>
+        <span data-lang="ko">라이선스 키는 즉시 제공되는 디지털 콘텐츠로서 즉시 인도에 대한 동의를 전제로 발급됩니다. 기술적 결함으로 사용할 수 없는 경우 30일 이내에 지원팀에 연락하면 전액 환불됩니다. 거주 국가(EU/EEA, 브라질, 한국 등)의 강행 소비자 보호는 유지됩니다.</span>
+        <span data-lang="it">Le chiavi di licenza vengono consegnate immediatamente e trattate come contenuto digitale con consenso alla consegna immediata. Se un difetto tecnico impedisce l'uso, contattare il supporto entro 30 giorni per rimborso completo. Le tutele dei consumatori del paese di residenza (UE/SEE, Brasile, Corea, ecc.) sono preservate ove obbligatorie.</span>
+        <span data-lang="zh_CN">许可证密钥立即交付，并视为已同意立即交付的数字内容。如因技术故障无法使用，请在 30 天内联系支持以获得全额退款。在强制性规定的情况下，您居住国（欧盟/欧洲经济区、巴西、韩国等）的消费者保护权利得到保留。</span>
+        <span data-lang="zh_TW">授權金鑰立即交付，並視為已同意立即交付的數位內容。如因技術故障無法使用，請在 30 天內聯絡支援以獲得全額退款。在強制性規定的情況下，您居住國（歐盟／歐洲經濟區、巴西、韓國等）的消費者保護權利得以維持。</span>
+        <span data-lang="pt_BR">As chaves de licença são entregues imediatamente e tratadas como conteúdo digital com consentimento de entrega imediata. Se um defeito técnico impedir o uso, contate o suporte em 30 dias para reembolso integral. Proteções ao consumidor do seu país de residência (UE/EEE, Brasil, Coreia, etc.) são preservadas onde obrigatórias.</span>
+        <span data-lang="de">Lizenzschlüssel werden sofort geliefert und gelten als digitaler Inhalt mit Zustimmung zur sofortigen Lieferung. Wenn ein technischer Defekt die Nutzung verhindert, wenden Sie sich innerhalb von 30 Tagen an den Support für eine vollständige Rückerstattung. Verbraucherschutzrechte Ihres Wohnsitzlandes (EU/EWR, Brasilien, Korea usw.) bleiben dort gewahrt, wo sie zwingend gelten.</span>
+      </p>
+
+      <h2 id="t-4"><span class="num">4</span>
+        <span data-lang="en" class="active">Governing law</span><span data-lang="ja">準拠法・管轄</span><span data-lang="es">Ley aplicable</span><span data-lang="fr">Loi applicable</span><span data-lang="ko">준거법</span><span data-lang="it">Legge applicabile</span><span data-lang="zh_CN">适用法律</span><span data-lang="zh_TW">適用法律</span><span data-lang="pt_BR">Lei aplicável</span><span data-lang="de">Anwendbares Recht</span>
+      </h2>
+      <p>
+        <span data-lang="en" class="active">Japanese law applies; Tokyo District Court is the first-instance forum. <strong>Consumers retain mandatory protections of their habitual residence</strong> (EU Rome I / Brussels Ia; Brazilian CDC; Korean PIPA; PRC and Taiwan consumer-protection rules).</span>
+        <span data-lang="ja">日本法に準拠し、東京地方裁判所を第一審の専属管轄とします。<strong>消費者の常居所地法による強行的保護</strong>（EU Rome I / Brussels Ia、ブラジルCDC、韓国国際私法・約款規制法、中国・台湾の消費者保護法令）は維持されます。</span>
+        <span data-lang="es">Se aplica la ley japonesa; el Tribunal de Distrito de Tokio es el foro de primera instancia. <strong>Los consumidores conservan las protecciones obligatorias de su residencia habitual</strong> (UE Roma I / Bruselas Ia, CDC brasileño, PIPA coreana, normas de protección al consumidor de RPC y Taiwán).</span>
+        <span data-lang="fr">Le droit japonais s'applique ; le Tribunal de district de Tokyo est compétent en première instance. <strong>Les consommateurs conservent les protections impératives de leur résidence habituelle</strong> (UE Rome I / Bruxelles Ia, CDC brésilien, PIPA coréen, règles de protection RPC et Taïwan).</span>
+        <span data-lang="ko">일본법이 적용되며 도쿄 지방법원이 1심 관할입니다. <strong>소비자의 상거소지법에 의한 강행적 보호</strong>(EU Rome I / Brussels Ia, 브라질 CDC, 한국 PIPA, 중국·대만 소비자보호 규정)는 유지됩니다.</span>
+        <span data-lang="it">Si applica la legge giapponese; il Tribunale Distrettuale di Tokyo è il foro di primo grado. <strong>I consumatori mantengono le protezioni obbligatorie della residenza abituale</strong> (UE Roma I / Bruxelles Ia, CDC brasiliano, PIPA coreana, regole di protezione consumatori RPC e Taiwan).</span>
+        <span data-lang="zh_CN">适用日本法律；东京地方法院为第一审专属管辖。<strong>消费者保留其惯常居所地法的强制性保护</strong>（欧盟 Rome I / Brussels Ia、巴西 CDC、韩国 PIPA、中国和台湾的消费者保护规则）。</span>
+        <span data-lang="zh_TW">適用日本法律；東京地方法院為第一審專屬管轄。<strong>消費者保留其慣常居所地法的強制性保護</strong>（歐盟 Rome I / Brussels Ia、巴西 CDC、韓國 PIPA、中國與台灣的消費者保護規則）。</span>
+        <span data-lang="pt_BR">Aplica-se a lei japonesa; a Corte Distrital de Tóquio é o foro de primeira instância. <strong>Os consumidores mantêm as proteções obrigatórias de sua residência habitual</strong> (UE Roma I / Bruxelas Ia, CDC brasileiro, PIPA coreana, regras de proteção ao consumidor da RPC e Taiwan).</span>
+        <span data-lang="de">Es gilt japanisches Recht; das Bezirksgericht Tokio ist Gericht erster Instanz. <strong>Verbraucher behalten zwingende Schutzrechte ihres gewöhnlichen Aufenthaltsorts</strong> (EU Rome I / Brüssel Ia, brasilianisches CDC, koreanisches PIPA, Verbraucherschutzvorschriften der VR China und Taiwans).</span>
+      </p>
+
+      <div class="contact-card">
+        <div class="ic">⚖️</div>
+        <div>
+          <h3>
+            <span data-lang="en" class="active">This is a summary — read the full Terms</span><span data-lang="ja">本ページは要約です — 全文をご確認ください</span><span data-lang="es">Esto es un resumen — lea los Términos completos</span><span data-lang="fr">Ceci est un résumé — lisez les Conditions complètes</span><span data-lang="ko">본 페이지는 요약입니다 — 전체 약관을 확인하세요</span><span data-lang="it">Questo è un riassunto — leggi i Termini completi</span><span data-lang="zh_CN">本页为摘要 — 请阅读完整条款</span><span data-lang="zh_TW">本頁為摘要 — 請閱讀完整條款</span><span data-lang="pt_BR">Este é um resumo — leia os Termos completos</span><span data-lang="de">Dies ist eine Zusammenfassung — lesen Sie die vollständigen Bedingungen</span>
+          </h3>
+          <p>
+            <span data-lang="en" class="active">In the event of any conflict, the full <a href="terms.html">Terms of Service</a> document controls.</span>
+            <span data-lang="ja">本要約と<a href="terms.html">利用規約の全文</a>に齟齬がある場合、全文の内容が優先します。</span>
+            <span data-lang="es">En caso de conflicto, el documento completo de <a href="terms.html">Términos del servicio</a> prevalece.</span>
+            <span data-lang="fr">En cas de conflit, le document complet des <a href="terms.html">Conditions d'utilisation</a> prévaut.</span>
+            <span data-lang="ko">충돌이 있는 경우 <a href="terms.html">전체 이용약관</a> 문서가 우선합니다.</span>
+            <span data-lang="it">In caso di conflitto, il documento completo dei <a href="terms.html">Termini di servizio</a> prevale.</span>
+            <span data-lang="zh_CN">如有冲突，以完整的<a href="terms.html">服务条款</a>文件为准。</span>
+            <span data-lang="zh_TW">如有衝突，以完整的<a href="terms.html">服務條款</a>文件為準。</span>
+            <span data-lang="pt_BR">Em caso de conflito, o documento completo dos <a href="terms.html">Termos de Serviço</a> prevalece.</span>
+            <span data-lang="de">Bei Widersprüchen ist das vollständige Dokument der <a href="terms.html">Nutzungsbedingungen</a> maßgeblich.</span>
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ── Tab 3: Privacy summary ── -->
+    <section class="doc" data-doc="privacy" id="doc-privacy">
+
+      <p class="lead">
+        <span data-lang="en" class="active"><strong>Files stay on your device.</strong> No upload, no server analysis, no advertising trackers in the extension. The only data that reaches our servers is the minimum needed to verify your license, your free-trial eligibility, and to enforce the 3-device limit.</span>
+        <span data-lang="ja"><strong>ファイルはお客様の端末から離れません。</strong>本拡張機能は、アップロード・サーバー側解析・広告トラッキングを一切行いません。当方サーバーに到達するのは、ライセンス認証・トライアル資格確認・3台までの台数制限の照合に必要な最小限の情報のみです。</span>
+        <span data-lang="es"><strong>Los archivos permanecen en tu dispositivo.</strong> Sin subida, sin análisis en servidor, sin rastreadores publicitarios en la extensión. Los únicos datos que llegan a nuestros servidores son los mínimos necesarios para verificar tu licencia, tu elegibilidad de prueba y para hacer cumplir el límite de 3 dispositivos.</span>
+        <span data-lang="fr"><strong>Les fichiers restent sur votre appareil.</strong> Aucun téléchargement, aucune analyse serveur, aucun traceur publicitaire dans l'extension. Les seules données qui atteignent nos serveurs sont le minimum nécessaire pour vérifier votre licence, votre éligibilité à l'essai et pour appliquer la limite de 3 appareils.</span>
+        <span data-lang="ko"><strong>파일은 기기에 머무릅니다.</strong> 확장 프로그램은 업로드·서버 분석·광고 추적기를 일체 두지 않습니다. 당사 서버에 도달하는 데이터는 라이선스 확인, 체험 자격, 3대 기기 제한 시행에 필요한 최소한입니다.</span>
+        <span data-lang="it"><strong>I file rimangono sul tuo dispositivo.</strong> Nessun upload, nessuna analisi server, nessun tracker pubblicitario nell'estensione. Gli unici dati che raggiungono i nostri server sono il minimo necessario per verificare la licenza, l'idoneità alla prova e per applicare il limite di 3 dispositivi.</span>
+        <span data-lang="zh_CN"><strong>文件保留在您的设备上。</strong>扩展程序不进行上传、服务器分析或广告追踪。到达我们服务器的数据仅限于验证您的许可证、试用资格以及执行 3 台设备限制所必需的最少信息。</span>
+        <span data-lang="zh_TW"><strong>檔案保留在您的裝置上。</strong>擴充功能不進行上傳、伺服器分析或廣告追蹤。到達我們伺服器的資料僅限於驗證您的授權、試用資格以及執行 3 台裝置限制所必需的最少資訊。</span>
+        <span data-lang="pt_BR"><strong>Os arquivos permanecem no seu dispositivo.</strong> Sem upload, sem análise no servidor, sem rastreadores publicitários na extensão. Os únicos dados que chegam aos nossos servidores são o mínimo necessário para verificar sua licença, sua elegibilidade ao teste e aplicar o limite de 3 dispositivos.</span>
+        <span data-lang="de"><strong>Dateien bleiben auf Ihrem Gerät.</strong> Kein Upload, keine Server-Analyse, keine Werbe-Tracker in der Erweiterung. Die einzigen Daten, die unsere Server erreichen, sind das Mindestmaß zur Lizenzprüfung, Testberechtigung und Durchsetzung des 3-Geräte-Limits.</span>
+      </p>
+
+      <div class="cta-row">
+        <a class="primary" href="privacy-policy.html">
+          <span data-lang="en" class="active">Read full Privacy Policy</span><span data-lang="ja">プライバシーポリシーの全文を読む</span><span data-lang="es">Leer Política de privacidad completa</span><span data-lang="fr">Lire la Politique complète</span><span data-lang="ko">전체 개인정보 처리방침 보기</span><span data-lang="it">Leggi l'Informativa completa</span><span data-lang="zh_CN">阅读完整隐私政策</span><span data-lang="zh_TW">閱讀完整隱私政策</span><span data-lang="pt_BR">Ler Política completa</span><span data-lang="de">Vollständige Datenschutzrichtlinie lesen</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <h2 id="p-1"><span class="num">1</span>
+        <span data-lang="en" class="active">What never leaves your browser</span><span data-lang="ja">ブラウザの外に出ない情報</span><span data-lang="es">Lo que nunca sale del navegador</span><span data-lang="fr">Ce qui ne quitte jamais votre navigateur</span><span data-lang="ko">브라우저 밖으로 나가지 않는 정보</span><span data-lang="it">Cosa non lascia mai il tuo browser</span><span data-lang="zh_CN">不会离开浏览器的内容</span><span data-lang="zh_TW">不會離開瀏覽器的內容</span><span data-lang="pt_BR">O que nunca sai do seu navegador</span><span data-lang="de">Was Ihren Browser nie verlässt</span>
+      </h2>
+      <p>
+        <span data-lang="en" class="active">Scan history, page HTML, downloaded file contents, UI preferences, custom extension list, and per-session network file records all stay locally in your browser.</span>
+        <span data-lang="ja">スキャン履歴、ページHTML、ダウンロードしたファイルの内容、UI設定、カスタム拡張子リスト、セッション中のネットワーク監視記録は、すべてブラウザ内に留まります。</span>
+        <span data-lang="es">El historial de escaneo, el HTML de la página, el contenido de los archivos descargados, las preferencias de UI, la lista de extensiones personalizadas y los registros de red por sesión permanecen localmente en tu navegador.</span>
+        <span data-lang="fr">L'historique de scan, le HTML de la page, le contenu des fichiers téléchargés, les préférences UI, la liste d'extensions personnalisée et les enregistrements réseau par session restent localement dans votre navigateur.</span>
+        <span data-lang="ko">스캔 기록, 페이지 HTML, 다운로드한 파일 내용, UI 설정, 사용자 정의 확장자 목록, 세션별 네트워크 기록은 모두 브라우저에 로컬로 보관됩니다.</span>
+        <span data-lang="it">Cronologia di scansione, HTML della pagina, contenuti dei file scaricati, preferenze UI, elenco estensioni personalizzato e registri di rete per sessione restano localmente nel tuo browser.</span>
+        <span data-lang="zh_CN">扫描历史、页面 HTML、下载的文件内容、UI 偏好、自定义扩展名列表和每会话的网络文件记录都保留在您的浏览器本地。</span>
+        <span data-lang="zh_TW">掃描歷史、頁面 HTML、下載的檔案內容、UI 偏好、自訂副檔名清單與每工作階段的網路檔案記錄都保留在您的瀏覽器本機。</span>
+        <span data-lang="pt_BR">Histórico de varredura, HTML da página, conteúdos de arquivos baixados, preferências de UI, lista de extensões personalizada e registros de rede por sessão permanecem localmente no seu navegador.</span>
+        <span data-lang="de">Scan-Historie, Seiten-HTML, Inhalte heruntergeladener Dateien, UI-Einstellungen, benutzerdefinierte Erweiterungsliste und Netzwerk-Datensätze pro Sitzung bleiben lokal in Ihrem Browser.</span>
+      </p>
+
+      <h2 id="p-2"><span class="num">2</span>
+        <span data-lang="en" class="active">What is sent to our server</span><span data-lang="ja">当方サーバーへ送信される情報</span><span data-lang="es">Lo que se envía a nuestro servidor</span><span data-lang="fr">Ce qui est envoyé à notre serveur</span><span data-lang="ko">당사 서버로 전송되는 정보</span><span data-lang="it">Cosa viene inviato al nostro server</span><span data-lang="zh_CN">发送到我们服务器的内容</span><span data-lang="zh_TW">傳送到我們伺服器的內容</span><span data-lang="pt_BR">O que é enviado ao nosso servidor</span><span data-lang="de">Was an unseren Server gesendet wird</span>
+      </h2>
+      <p>
+        <span data-lang="en" class="active">Only what's needed for license activation (license key + random device UUID), trial verification (device UUID only), revocation refresh (no identifying data), and device management. Activation returns a 7-day signed JWT.</span>
+        <span data-lang="ja">ライセンス認証（ライセンスキー＋ランダムなデバイスUUID）、トライアル認証（デバイスUUIDのみ）、失効リスト更新（識別情報なし）、デバイス管理に必要な情報のみ。認証時に7日間有効の署名付きJWTを返します。</span>
+        <span data-lang="es">Solo lo necesario para activación de licencia (clave + UUID aleatorio del dispositivo), verificación de prueba (solo UUID), actualización de revocación (sin datos identificativos) y gestión de dispositivos. La activación devuelve un JWT firmado de 7 días.</span>
+        <span data-lang="fr">Uniquement le nécessaire pour l'activation de licence (clé + UUID aléatoire de l'appareil), la vérification d'essai (UUID seul), la mise à jour de révocation (sans données identifiantes) et la gestion des appareils. L'activation renvoie un JWT signé de 7 jours.</span>
+        <span data-lang="ko">라이선스 활성화(라이선스 키 + 무작위 기기 UUID), 체험 인증(기기 UUID만), 폐기 목록 갱신(식별 정보 없음), 기기 관리에 필요한 정보만. 활성화 시 7일 유효 서명 JWT를 반환합니다.</span>
+        <span data-lang="it">Solo ciò che serve per l'attivazione licenza (chiave + UUID dispositivo casuale), la verifica prova (solo UUID), il refresh di revoca (nessun dato identificativo) e la gestione dispositivi. L'attivazione restituisce un JWT firmato di 7 giorni.</span>
+        <span data-lang="zh_CN">仅许可证激活（密钥 + 随机设备 UUID）、试用验证（仅 UUID）、撤销列表更新（无识别数据）和设备管理所需的信息。激活会返回 7 天有效的签名 JWT。</span>
+        <span data-lang="zh_TW">僅授權啟用（金鑰 + 隨機裝置 UUID）、試用驗證（僅 UUID）、撤銷清單更新（無識別資料）與裝置管理所需的資訊。啟用會回傳 7 天有效的簽章 JWT。</span>
+        <span data-lang="pt_BR">Apenas o necessário para ativação de licença (chave + UUID aleatório do dispositivo), verificação de teste (apenas UUID), atualização de revogação (sem dados identificadores) e gerenciamento de dispositivos. A ativação retorna um JWT assinado de 7 dias.</span>
+        <span data-lang="de">Nur das, was für Lizenzaktivierung (Schlüssel + zufällige Geräte-UUID), Testprüfung (nur UUID), Widerrufs-Refresh (keine identifizierenden Daten) und Geräteverwaltung benötigt wird. Die Aktivierung gibt ein 7-Tage signiertes JWT zurück.</span>
+      </p>
+
+      <h2 id="p-3"><span class="num">3</span>
+        <span data-lang="en" class="active">Hosting &amp; international transfers</span><span data-lang="ja">ホスティングと国際移転</span><span data-lang="es">Alojamiento y transferencias internacionales</span><span data-lang="fr">Hébergement et transferts internationaux</span><span data-lang="ko">호스팅과 국제 이전</span><span data-lang="it">Hosting e trasferimenti internazionali</span><span data-lang="zh_CN">托管与国际传输</span><span data-lang="zh_TW">託管與國際傳輸</span><span data-lang="pt_BR">Hospedagem e transferências internacionais</span><span data-lang="de">Hosting und internationale Übermittlungen</span>
+      </h2>
+      <p>
+        <span data-lang="en" class="active">The license backend is hosted on <strong>Supabase</strong> (AWS-backed, United States). Transfers from the EU/EEA, Brazil, and Korea are made under Standard Contractual Clauses and the equivalent local instruments described in the full policy.</span>
+        <span data-lang="ja">ライセンスバックエンドは <strong>Supabase</strong>（AWS基盤、米国）でホストされています。EU/EEA、ブラジル、韓国からの越境移転は、標準契約条項（SCC）および各国対応条項に基づき行われます。詳細は全文に記載しています。</span>
+        <span data-lang="es">El backend de licencias está alojado en <strong>Supabase</strong> (basado en AWS, Estados Unidos). Las transferencias desde UE/EEE, Brasil y Corea se realizan bajo Cláusulas Contractuales Tipo y los instrumentos locales equivalentes descritos en la política completa.</span>
+        <span data-lang="fr">Le backend de licence est hébergé sur <strong>Supabase</strong> (basé sur AWS, États-Unis). Les transferts depuis l'UE/EEE, le Brésil et la Corée s'effectuent sous Clauses Contractuelles Types et les instruments locaux équivalents décrits dans la politique complète.</span>
+        <span data-lang="ko">라이선스 백엔드는 <strong>Supabase</strong>(AWS 기반, 미국)에 호스팅됩니다. EU/EEA, 브라질, 한국에서의 이전은 표준계약조항(SCC) 및 전체 정책에 기술된 동등한 현지 수단에 따라 이루어집니다.</span>
+        <span data-lang="it">Il backend di licenza è ospitato su <strong>Supabase</strong> (basato su AWS, Stati Uniti). I trasferimenti da UE/SEE, Brasile e Corea avvengono ai sensi delle Clausole Contrattuali Standard e degli strumenti locali equivalenti descritti nella policy completa.</span>
+        <span data-lang="zh_CN">许可证后端托管在 <strong>Supabase</strong>（基于 AWS，美国）。来自欧盟/欧洲经济区、巴西和韩国的传输根据标准合同条款和完整政策中描述的同等本地工具进行。</span>
+        <span data-lang="zh_TW">授權後端託管於 <strong>Supabase</strong>（基於 AWS，美國）。來自歐盟／歐洲經濟區、巴西與韓國的傳輸依據標準合約條款與完整政策中所述的同等本地工具進行。</span>
+        <span data-lang="pt_BR">O backend de licenças é hospedado no <strong>Supabase</strong> (baseado em AWS, Estados Unidos). Transferências da UE/EEE, Brasil e Coreia são feitas sob Cláusulas Contratuais Padrão e instrumentos locais equivalentes descritos na política completa.</span>
+        <span data-lang="de">Das Lizenz-Backend wird auf <strong>Supabase</strong> (AWS-basiert, USA) gehostet. Übermittlungen aus EU/EWR, Brasilien und Korea erfolgen auf Grundlage von Standardvertragsklauseln und gleichwertigen lokalen Instrumenten, wie in der vollständigen Richtlinie beschrieben.</span>
+      </p>
+
+      <h2 id="p-4"><span class="num">4</span>
+        <span data-lang="en" class="active">Website analytics</span><span data-lang="ja">マーケティングサイトの解析</span><span data-lang="es">Analítica del sitio web</span><span data-lang="fr">Analyse du site web</span><span data-lang="ko">웹사이트 분석</span><span data-lang="it">Analisi del sito web</span><span data-lang="zh_CN">网站分析</span><span data-lang="zh_TW">網站分析</span><span data-lang="pt_BR">Análise do site</span><span data-lang="de">Website-Analyse</span>
+      </h2>
+      <p>
+        <span data-lang="en" class="active">The marketing site (separate from the extension) uses <strong>Google Analytics 4</strong> with Consent Mode v2 for aggregate traffic counts. No advertising tags are loaded. EU/EEA/UK/CH visitors are anonymous by default until consent is granted.</span>
+        <span data-lang="ja">本マーケティングサイト（拡張機能とは別）では、<strong>Google Analytics 4</strong>（Consent Mode v2）により集計トラフィックを計測しています。広告タグは読み込みません。EU/EEA・英国・スイスからのアクセスは、同意があるまで匿名扱いがデフォルトです。</span>
+        <span data-lang="es">El sitio de marketing (separado de la extensión) usa <strong>Google Analytics 4</strong> con Consent Mode v2 para conteos agregados. No se cargan etiquetas publicitarias. Los visitantes de UE/EEE/UK/CH son anónimos por defecto hasta que se otorga el consentimiento.</span>
+        <span data-lang="fr">Le site marketing (distinct de l'extension) utilise <strong>Google Analytics 4</strong> avec Consent Mode v2 pour les comptages agrégés. Aucune balise publicitaire n'est chargée. Les visiteurs de l'UE/EEE/Royaume-Uni/Suisse sont anonymes par défaut jusqu'au consentement.</span>
+        <span data-lang="ko">마케팅 사이트(확장 프로그램과 별개)는 <strong>Google Analytics 4</strong>(Consent Mode v2)로 집계 트래픽을 측정합니다. 광고 태그는 로드되지 않습니다. EU/EEA/영국/스위스 방문자는 동의 전까지 기본 익명입니다.</span>
+        <span data-lang="it">Il sito di marketing (separato dall'estensione) utilizza <strong>Google Analytics 4</strong> con Consent Mode v2 per conteggi aggregati. Nessun tag pubblicitario viene caricato. I visitatori di UE/SEE/UK/CH sono anonimi per impostazione predefinita fino al consenso.</span>
+        <span data-lang="zh_CN">营销网站（与扩展程序分离）使用 <strong>Google Analytics 4</strong> 和 Consent Mode v2 进行汇总流量统计。不加载广告标签。欧盟/欧洲经济区/英国/瑞士访客在获得同意前默认匿名。</span>
+        <span data-lang="zh_TW">行銷網站（與擴充功能分離）使用 <strong>Google Analytics 4</strong> 與 Consent Mode v2 進行彙總流量統計。不載入廣告標籤。歐盟／歐洲經濟區／英國／瑞士訪客在獲得同意前預設為匿名。</span>
+        <span data-lang="pt_BR">O site de marketing (separado da extensão) usa <strong>Google Analytics 4</strong> com Consent Mode v2 para contagens agregadas. Nenhuma tag publicitária é carregada. Visitantes da UE/EEE/Reino Unido/Suíça são anônimos por padrão até o consentimento.</span>
+        <span data-lang="de">Die Marketing-Website (getrennt von der Erweiterung) nutzt <strong>Google Analytics 4</strong> mit Consent Mode v2 für aggregierte Verkehrszahlen. Es werden keine Werbe-Tags geladen. Besucher aus EU/EWR/UK/CH sind standardmäßig anonym, bis eine Einwilligung erteilt wird.</span>
+      </p>
+
+      <div class="contact-card">
+        <div class="ic">🔐</div>
+        <div>
+          <h3>
+            <span data-lang="en" class="active">Data controller</span><span data-lang="ja">データ管理者</span><span data-lang="es">Responsable del tratamiento</span><span data-lang="fr">Responsable du traitement</span><span data-lang="ko">데이터 관리자</span><span data-lang="it">Titolare del trattamento</span><span data-lang="zh_CN">数据控制者</span><span data-lang="zh_TW">資料控制者</span><span data-lang="pt_BR">Controlador de dados</span><span data-lang="de">Datenverantwortlicher</span>
+          </h3>
+          <p>Tetsunobu Kawai — <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
+        </div>
+      </div>
+
+    </section>
+
+    <footer class="doc-foot">
+      <div class="links">
+        <a href="index.html"><span data-lang="en" class="active">Home</span><span data-lang="ja">トップ</span><span data-lang="es">Inicio</span><span data-lang="fr">Accueil</span><span data-lang="ko">홈</span><span data-lang="it">Home</span><span data-lang="zh_CN">首页</span><span data-lang="zh_TW">首頁</span><span data-lang="pt_BR">Início</span><span data-lang="de">Start</span></a>
+        <a href="purchase/"><span data-lang="en" class="active">Purchase</span><span data-lang="ja">購入</span><span data-lang="es">Comprar</span><span data-lang="fr">Acheter</span><span data-lang="ko">구매</span><span data-lang="it">Acquisto</span><span data-lang="zh_CN">购买</span><span data-lang="zh_TW">購買</span><span data-lang="pt_BR">Comprar</span><span data-lang="de">Kauf</span></a>
+        <a href="https://github.com/SerimaTeddyBear/grab-all-files" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p class="trademark">
+        <span data-lang="en" class="active">"Google Chrome" and "Chrome Web Store" are trademarks of Google LLC. "Microsoft Edge" and "Microsoft Edge Add-ons" are trademarks of Microsoft Corporation. Use is descriptive only and does not imply affiliation or endorsement. Grab All Files is an independent product of Tetsunobu Kawai.</span>
+        <span data-lang="ja">「Google Chrome」「Chrome Web Store」は Google LLC の商標、「Microsoft Edge」「Microsoft Edge Add-ons」は Microsoft Corporation の商標です。本書面における使用は説明目的に限られ、提携や推奨を意味しません。Grab All Files は Tetsunobu Kawai が独立して提供する製品です。</span>
+        <span data-lang="es">"Google Chrome" y "Chrome Web Store" son marcas comerciales de Google LLC. "Microsoft Edge" y "Microsoft Edge Add-ons" son marcas de Microsoft Corporation. El uso es solo descriptivo y no implica afiliación ni respaldo. Grab All Files es un producto independiente de Tetsunobu Kawai.</span>
+        <span data-lang="fr">« Google Chrome » et « Chrome Web Store » sont des marques de Google LLC. « Microsoft Edge » et « Microsoft Edge Add-ons » sont des marques de Microsoft Corporation. Usage descriptif uniquement, sans affiliation ni approbation. Grab All Files est un produit indépendant de Tetsunobu Kawai.</span>
+        <span data-lang="ko">"Google Chrome"와 "Chrome Web Store"는 Google LLC의 상표입니다. "Microsoft Edge"와 "Microsoft Edge Add-ons"는 Microsoft Corporation의 상표입니다. 사용은 설명 목적에 한하며 제휴나 보증을 의미하지 않습니다. Grab All Files는 Tetsunobu Kawai의 독립 제품입니다.</span>
+        <span data-lang="it">"Google Chrome" e "Chrome Web Store" sono marchi di Google LLC. "Microsoft Edge" e "Microsoft Edge Add-ons" sono marchi di Microsoft Corporation. L'uso è solo descrittivo e non implica affiliazione o approvazione. Grab All Files è un prodotto indipendente di Tetsunobu Kawai.</span>
+        <span data-lang="zh_CN">"Google Chrome" 和 "Chrome Web Store" 是 Google LLC 的商标。"Microsoft Edge" 和 "Microsoft Edge Add-ons" 是 Microsoft Corporation 的商标。使用仅为描述目的，不构成任何关联或背书。Grab All Files 是 Tetsunobu Kawai 的独立产品。</span>
+        <span data-lang="zh_TW">「Google Chrome」與「Chrome Web Store」是 Google LLC 的商標。「Microsoft Edge」與「Microsoft Edge Add-ons」是 Microsoft Corporation 的商標。使用僅為描述目的，不構成任何關聯或背書。Grab All Files 是 Tetsunobu Kawai 的獨立產品。</span>
+        <span data-lang="pt_BR">"Google Chrome" e "Chrome Web Store" são marcas da Google LLC. "Microsoft Edge" e "Microsoft Edge Add-ons" são marcas da Microsoft Corporation. O uso é apenas descritivo e não implica afiliação ou endosso. Grab All Files é um produto independente de Tetsunobu Kawai.</span>
+        <span data-lang="de">„Google Chrome" und „Chrome Web Store" sind Marken von Google LLC. „Microsoft Edge" und „Microsoft Edge Add-ons" sind Marken der Microsoft Corporation. Die Nutzung ist rein beschreibend und impliziert keine Zugehörigkeit oder Befürwortung. Grab All Files ist ein unabhängiges Produkt von Tetsunobu Kawai.</span>
+      </p>
+    </footer>
+
+  </article>
+</main>
+
+<script>
+  var SUPPORTED = ['en','ja','es','fr','de','it','ko','pt_BR','zh_CN','zh_TW'];
+  var LANGUAGE_LABELS = {
+    en: 'Language', ja: '言語', es: 'Idioma', fr: 'Langue', ko: '언어', it: 'Lingua',
+    zh_CN: '语言', zh_TW: '語言', pt_BR: 'Idioma', de: 'Sprache'
+  };
+  function getLang() {
+    var s = localStorage.getItem('gaf-lang');
+    if (s && SUPPORTED.indexOf(s) >= 0) return s;
+    var n = (navigator.language || '').toLowerCase();
+    if (n.startsWith('ja')) return 'ja';
+    if (n.startsWith('ko')) return 'ko';
+    if (n.startsWith('it')) return 'it';
+    if (n.startsWith('de')) return 'de';
+    if (n.startsWith('es')) return 'es';
+    if (n.startsWith('fr')) return 'fr';
+    if (n.startsWith('pt')) return 'pt_BR';
+    if (n === 'zh-tw' || n === 'zh-hant' || n.startsWith('zh-hant')) return 'zh_TW';
+    if (n.startsWith('zh')) return 'zh_CN';
+    return 'en';
+  }
+  function setLang(l) {
+    localStorage.setItem('gaf-lang', l);
+    document.querySelectorAll('[data-lang]').forEach(function(e) {
+      e.classList.toggle('active', e.getAttribute('data-lang') === l);
+    });
+    document.documentElement.lang = l.replace('_','-');
+    var sel = document.getElementById('lang-sel');
+    if (sel) {
+      sel.value = l;
+      sel.setAttribute('aria-label', LANGUAGE_LABELS[l] || LANGUAGE_LABELS.en);
     }
-    function setLang(l) {
-      localStorage.setItem('gaf-lang', l);
-      document.querySelectorAll('[data-lang]').forEach(function(e) {
-        e.classList.toggle('active', e.getAttribute('data-lang') === l);
+    buildToc();
+  }
+  function onLangChange(e) { setLang(e.target.value); }
+
+  function getTheme() {
+    try { var t = localStorage.getItem('gaf-theme'); if (t === 'light' || t === 'dark') return t; } catch (_) {}
+    return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+  }
+  function setTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    try { localStorage.setItem('gaf-theme', t); } catch (_) {}
+  }
+  var themeBtn = document.getElementById('theme-toggle');
+  if (themeBtn) {
+    themeBtn.addEventListener('click', function() { setTheme(getTheme() === 'dark' ? 'light' : 'dark'); });
+  }
+  if (window.matchMedia) {
+    try {
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+        var stored = null;
+        try { stored = localStorage.getItem('gaf-theme'); } catch (_) {}
+        if (stored !== 'light' && stored !== 'dark') setTheme(e.matches ? 'dark' : 'light');
       });
-      document.documentElement.lang = l.replace('_','-');
-      var sel = document.getElementById('lang-sel');
-      if (sel) {
-        sel.value = l;
-        sel.setAttribute('aria-label', LANGUAGE_LABELS[l] || LANGUAGE_LABELS.en);
-      }
-      var active = document.querySelector('[data-lang="' + l + '"] h1');
-      if (active && active.textContent.trim()) document.title = active.textContent.trim() + ' - Grab All Files';
-    }
-    function onLangChange(e) { setLang(e.target.value); }
-    setLang(getLang());
+    } catch (_) {}
+  }
 
-    function getTheme() {
-      try { var t = localStorage.getItem('gaf-theme'); if (t === 'light' || t === 'dark') return t; } catch (_) {}
-      return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+  // Tabs
+  var tabs = document.querySelectorAll('.doc-tab');
+  var docs = document.querySelectorAll('.doc');
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      var key = tab.getAttribute('data-doc');
+      tabs.forEach(function (t) { t.classList.toggle('is-active', t === tab); });
+      docs.forEach(function (d) { d.classList.toggle('is-active', d.getAttribute('data-doc') === key); });
+      try { history.replaceState(null, '', '#' + key); } catch (_) {}
+      buildToc();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+  // initial tab from hash (also accepts #ja for terms.html-style fragments)
+  (function() {
+    var initial = (location.hash || '').replace('#', '');
+    if (initial === 'terms' || initial === 'privacy' || initial === 'commercial') {
+      tabs.forEach(function (t) { if (t.getAttribute('data-doc') === initial) t.click(); });
     }
-    function setTheme(t) {
-      document.documentElement.setAttribute('data-theme', t);
-      try { localStorage.setItem('gaf-theme', t); } catch (_) {}
-    }
-    var themeBtn = document.getElementById('theme-toggle');
-    if (themeBtn) {
-      themeBtn.addEventListener('click', function() { setTheme(getTheme() === 'dark' ? 'light' : 'dark'); });
-    }
-    if (window.matchMedia) {
-      try {
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
-          var stored = null;
-          try { stored = localStorage.getItem('gaf-theme'); } catch (_) {}
-          if (stored !== 'light' && stored !== 'dark') setTheme(e.matches ? 'dark' : 'light');
-        });
-      } catch (_) {}
-    }
-  </script>
+  })();
+
+  function buildToc() {
+    var active = document.querySelector('.doc.is-active');
+    var toc = document.getElementById('toc');
+    if (!active || !toc) return;
+    var heads = active.querySelectorAll('h2[id]');
+    var lang = document.documentElement.lang.replace('-','_') || 'en';
+    if (SUPPORTED.indexOf(lang) < 0) lang = 'en';
+    var tocHeading = ({
+      en: 'On this page', ja: '目次', es: 'En esta página', fr: 'Sur cette page',
+      ko: '이 페이지', it: 'In questa pagina', zh_CN: '本页内容', zh_TW: '本頁內容',
+      pt_BR: 'Nesta página', de: 'Auf dieser Seite'
+    })[lang] || 'On this page';
+    var html = '<h4>' + tocHeading + '</h4><ul>';
+    heads.forEach(function (h) {
+      var text = '';
+      h.querySelectorAll('[data-lang]').forEach(function (s) {
+        if (s.getAttribute('data-lang') === lang) text = s.textContent;
+      });
+      if (!text) text = h.textContent.replace(/^\s*\d+\s*/, '').trim();
+      html += '<li><a href="#' + h.id + '" data-link="' + h.id + '">' + text + '</a></li>';
+    });
+    html += '</ul>';
+    toc.innerHTML = html;
+    toc.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        var id = a.getAttribute('data-link');
+        var t = document.getElementById(id);
+        if (t) {
+          var y = t.getBoundingClientRect().top + window.pageYOffset - 70;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      });
+    });
+  }
+  function onScroll() {
+    var active = document.querySelector('.doc.is-active');
+    if (!active) return;
+    var heads = active.querySelectorAll('h2[id]');
+    var current = null;
+    heads.forEach(function (h) {
+      var rect = h.getBoundingClientRect();
+      if (rect.top <= 100) current = h.id;
+    });
+    document.querySelectorAll('#toc a').forEach(function (a) {
+      a.classList.toggle('is-current', a.getAttribute('data-link') === current);
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  setLang(getLang());
+</script>
 </body>
 </html>
