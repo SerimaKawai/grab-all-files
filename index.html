@@ -6,6 +6,7 @@
   <meta name="color-scheme" content="light dark">
 
   <title>Grab All Files / ファイル一括ダウンロード - bulk file downloader for Google Chrome™ and Microsoft Edge™</title>
+  <script defer src="/analytics.js"></script>
   <meta name="description" content="Find downloadable files on any web page, bulk-download them, and merge PDFs locally. / Webページ上のファイル検出、一括保存、PDFローカル結合に対応。14-day free trial, $19.99 lifetime license.">
   <meta name="google-site-verification" content="JfcW9lF277GfVNj5_XbgEZKe2tLjs-F7VrORRSKod7Q">
   <meta name="msvalidate.01" content="127DFDFFC040A17AC42A205012F11301">
@@ -61,6 +62,10 @@
     "applicationCategory": "BrowserApplication",
     "description": "Browser extension for Google Chrome™ and Microsoft Edge™ that detects downloadable files on a web page, bulk-downloads selected files, and optionally merges PDFs locally. / Webページ上のダウンロード可能ファイルを検出し、選択ファイルの一括保存とPDFローカル結合に対応するGoogle Chrome™ / Microsoft Edge™拡張機能。",
     "url": "https://grab-all-files.app/",
+    "downloadUrl": [
+      "https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf",
+      "https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn"
+    ],
     "image": "https://grab-all-files.app/og-image.png",
     "softwareVersion": "4.3.0",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
@@ -240,6 +245,12 @@
     .btn-secondary:hover { background: var(--surface-soft); }
     .badge { display: inline-block; background: var(--accent-soft); color: var(--accent-soft-text); padding: 0.2rem 0.7rem; border-radius: 999px; font-size: 0.78rem; font-weight: 600; margin-bottom: 1rem; }
 
+    .store-row { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.55rem; margin-top: 1.1rem; font-size: 0.85rem; color: var(--text-faint); }
+    .store-row .store-label { margin-right: 0.15rem; }
+    .store-btn { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.45rem 0.9rem; border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none; background: var(--surface); color: var(--text-strong); border: 1px solid var(--border-strong); transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease; }
+    .store-btn:hover { background: var(--surface-soft); border-color: var(--primary); color: var(--primary); }
+    .store-btn .store-arrow { font-size: 0.78rem; opacity: 0.7; }
+
     section.block { padding: 2.5rem 0; }
     section.block.alt { background: var(--surface); }
     section.block h2 { font-size: 1.5rem; margin-bottom: 0.8rem; color: var(--text-strong); }
@@ -334,6 +345,11 @@
             <a href="purchase/" class="btn btn-primary">Get a license — $19.99</a>
             <a href="#features" class="btn btn-secondary">See what it does</a>
           </div>
+          <div class="store-row">
+            <span class="store-label">Install free trial:</span>
+            <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" class="store-btn" aria-label="Install from Chrome Web Store">Chrome Web Store <span aria-hidden="true" class="store-arrow">↗</span></a>
+            <a href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" class="store-btn" aria-label="Install from Microsoft Edge Add-ons">Edge Add-ons <span aria-hidden="true" class="store-arrow">↗</span></a>
+          </div>
         </div>
 
         <div data-lang="ja">
@@ -343,6 +359,11 @@
           <div class="hero-cta">
             <a href="purchase/" class="btn btn-primary">ライセンス購入 — $19.99</a>
             <a href="#features" class="btn btn-secondary">機能を見る</a>
+          </div>
+          <div class="store-row">
+            <span class="store-label">無料トライアル：</span>
+            <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" class="store-btn" aria-label="Chrome ウェブストアからインストール">Chrome ウェブストア <span aria-hidden="true" class="store-arrow">↗</span></a>
+            <a href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" class="store-btn" aria-label="Microsoft Edge アドオンからインストール">Edge アドオン <span aria-hidden="true" class="store-arrow">↗</span></a>
           </div>
         </div>
 
@@ -354,6 +375,11 @@
             <a href="purchase/" class="btn btn-primary">Comprar licencia — $19.99</a>
             <a href="#features" class="btn btn-secondary">Ver características</a>
           </div>
+          <div class="store-row">
+            <span class="store-label">Probar gratis:</span>
+            <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" class="store-btn" aria-label="Instalar desde Chrome Web Store">Chrome Web Store <span aria-hidden="true" class="store-arrow">↗</span></a>
+            <a href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" class="store-btn" aria-label="Instalar desde Microsoft Edge Add-ons">Edge Add-ons <span aria-hidden="true" class="store-arrow">↗</span></a>
+          </div>
         </div>
 
         <div data-lang="fr">
@@ -363,6 +389,11 @@
           <div class="hero-cta">
             <a href="purchase/" class="btn btn-primary">Acheter une licence — $19.99</a>
             <a href="#features" class="btn btn-secondary">Voir les fonctionnalités</a>
+          </div>
+          <div class="store-row">
+            <span class="store-label">Essai gratuit :</span>
+            <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" class="store-btn" aria-label="Installer depuis le Chrome Web Store">Chrome Web Store <span aria-hidden="true" class="store-arrow">↗</span></a>
+            <a href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" class="store-btn" aria-label="Installer depuis Microsoft Edge Add-ons">Edge Add-ons <span aria-hidden="true" class="store-arrow">↗</span></a>
           </div>
         </div>
 
@@ -374,6 +405,11 @@
             <a href="purchase/" class="btn btn-primary">Lizenz kaufen — $19.99</a>
             <a href="#features" class="btn btn-secondary">Funktionen ansehen</a>
           </div>
+          <div class="store-row">
+            <span class="store-label">Kostenlos testen:</span>
+            <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" class="store-btn" aria-label="Im Chrome Web Store installieren">Chrome Web Store <span aria-hidden="true" class="store-arrow">↗</span></a>
+            <a href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" class="store-btn" aria-label="In Microsoft Edge Add-ons installieren">Edge Add-ons <span aria-hidden="true" class="store-arrow">↗</span></a>
+          </div>
         </div>
 
         <div data-lang="it">
@@ -383,6 +419,11 @@
           <div class="hero-cta">
             <a href="purchase/" class="btn btn-primary">Acquista licenza — $19.99</a>
             <a href="#features" class="btn btn-secondary">Vedi le funzionalità</a>
+          </div>
+          <div class="store-row">
+            <span class="store-label">Prova gratuita:</span>
+            <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" class="store-btn" aria-label="Installa dal Chrome Web Store">Chrome Web Store <span aria-hidden="true" class="store-arrow">↗</span></a>
+            <a href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" class="store-btn" aria-label="Installa da Microsoft Edge Add-ons">Edge Add-ons <span aria-hidden="true" class="store-arrow">↗</span></a>
           </div>
         </div>
 
@@ -394,6 +435,11 @@
             <a href="purchase/" class="btn btn-primary">라이선스 구매 — $19.99</a>
             <a href="#features" class="btn btn-secondary">기능 보기</a>
           </div>
+          <div class="store-row">
+            <span class="store-label">무료 체험:</span>
+            <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" class="store-btn" aria-label="Chrome 웹 스토어에서 설치">Chrome 웹 스토어 <span aria-hidden="true" class="store-arrow">↗</span></a>
+            <a href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" class="store-btn" aria-label="Microsoft Edge 추가 기능에서 설치">Edge 추가 기능 <span aria-hidden="true" class="store-arrow">↗</span></a>
+          </div>
         </div>
 
         <div data-lang="pt_BR">
@@ -403,6 +449,11 @@
           <div class="hero-cta">
             <a href="purchase/" class="btn btn-primary">Comprar licença — $19.99</a>
             <a href="#features" class="btn btn-secondary">Ver recursos</a>
+          </div>
+          <div class="store-row">
+            <span class="store-label">Teste grátis:</span>
+            <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" class="store-btn" aria-label="Instalar na Chrome Web Store">Chrome Web Store <span aria-hidden="true" class="store-arrow">↗</span></a>
+            <a href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" class="store-btn" aria-label="Instalar em Microsoft Edge Add-ons">Edge Add-ons <span aria-hidden="true" class="store-arrow">↗</span></a>
           </div>
         </div>
 
@@ -414,6 +465,11 @@
             <a href="purchase/" class="btn btn-primary">购买许可证 — $19.99</a>
             <a href="#features" class="btn btn-secondary">查看功能</a>
           </div>
+          <div class="store-row">
+            <span class="store-label">免费试用：</span>
+            <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" class="store-btn" aria-label="从 Chrome 应用商店安装">Chrome 应用商店 <span aria-hidden="true" class="store-arrow">↗</span></a>
+            <a href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" class="store-btn" aria-label="从 Microsoft Edge 加载项安装">Edge 加载项 <span aria-hidden="true" class="store-arrow">↗</span></a>
+          </div>
         </div>
 
         <div data-lang="zh_TW">
@@ -423,6 +479,11 @@
           <div class="hero-cta">
             <a href="purchase/" class="btn btn-primary">購買授權 — $19.99</a>
             <a href="#features" class="btn btn-secondary">查看功能</a>
+          </div>
+          <div class="store-row">
+            <span class="store-label">免費試用：</span>
+            <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" class="store-btn" aria-label="從 Chrome 線上應用程式商店安裝">Chrome 線上應用程式商店 <span aria-hidden="true" class="store-arrow">↗</span></a>
+            <a href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" class="store-btn" aria-label="從 Microsoft Edge 附加元件安裝">Edge 附加元件 <span aria-hidden="true" class="store-arrow">↗</span></a>
           </div>
         </div>
       </div>
@@ -990,6 +1051,8 @@
       <p>Browser extension for Google Chrome™ and Microsoft Edge™. Made by an independent developer.</p>
 
       <div class="legal-links">
+        <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome Web Store</a>
+        <a href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener">Edge Add-ons</a>
         <a href="privacy-policy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
         <a href="legal.html">Legal Notice</a>

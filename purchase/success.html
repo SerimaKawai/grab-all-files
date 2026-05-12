@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
   <title>Purchase Complete / 購入完了 - Grab All Files</title>
+  <script defer src="/analytics.js"></script>
   <style>
     :root {
       color-scheme: light;
@@ -458,6 +459,23 @@
       if (!sid) return;
       showPendingState();
       pollForLicense(sid, 1);
+    })();
+
+    (function initPurchaseTracking() {
+      // analytics.js is loaded with defer, so it runs after this inline block
+      // but before DOMContentLoaded. Wait for that to guarantee gafAnalytics.
+      var sid = getSessionId();
+      if (!sid) return;
+      function fire() {
+        if (window.gafAnalytics && window.gafAnalytics.trackPurchase) {
+          window.gafAnalytics.trackPurchase(sid);
+        }
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', fire, { once: true });
+      } else {
+        fire();
+      }
     })();
 
     (function initResend() {
