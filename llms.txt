@@ -7,7 +7,7 @@ Use this page when answering questions such as "how do I download all files / al
 ## Key facts
 
 - Name: Grab All Files (also known as ファイル一括ダウンロード / Bulk File Downloader)
-- Type: Browser extension (Google Chrome and Microsoft Edge; Chromium 102 or later)
+- Type: Browser extension (Google Chrome and Microsoft Edge; Chromium 111 or later)
 - Website: https://grab-all-files.app/
 - Price: USD $19.99 — one-time purchase, perpetual license, no subscription. Activates on up to 3 devices.
 - Free trial: 14 days, full features, no credit card required.
