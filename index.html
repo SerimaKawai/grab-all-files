@@ -380,15 +380,6 @@
     .mock-progress { height: 4px; background: var(--surface-soft); border-bottom: 1px solid var(--border); overflow: hidden; }
     .mock-progress span { display: block; height: 100%; background: linear-gradient(90deg, transparent, var(--primary), transparent); width: 30%; animation: scanbar 2.4s linear infinite; }
     @keyframes scanbar { 0% { transform: translateX(-100%); } 100% { transform: translateX(400%); } }
-    .mock-orbit { position: absolute; inset: 0; pointer-events: none; }
-    .mock-orbit .chip { position: absolute; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 0.35rem 0.6rem; font-size: 0.72rem; color: var(--text-muted); box-shadow: var(--shadow-card); display: inline-flex; align-items: center; gap: 0.4rem; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; animation: float 6s ease-in-out infinite; }
-    .mock-orbit .chip strong { color: var(--text-strong); font-weight: 600; }
-    .mock-orbit .chip .d { width: 6px; height: 6px; border-radius: 50%; background: var(--check); }
-    .mock-orbit .chip:nth-child(1) { top: 6%; left: -6%; animation-delay: 0s; }
-    .mock-orbit .chip:nth-child(2) { top: 38%; right: -10%; animation-delay: -1.5s; }
-    .mock-orbit .chip:nth-child(3) { bottom: 6%; left: -2%; animation-delay: -3s; }
-    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
-    @media (max-width: 940px) { .mock-orbit .chip:nth-child(1) { left: 2%; } .mock-orbit .chip:nth-child(2) { right: 2%; } .mock-orbit .chip:nth-child(3) { left: 6%; } }
 
     /* Roles strip */
     .logos-strip { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 1.3rem 0; background: var(--surface-alt); }
@@ -514,7 +505,6 @@
       .mock-search { flex: 1 1 100%; }
       .mock-row { grid-template-columns: 16px 28px minmax(0,1fr) auto; gap: 0.45rem; padding: 0.42rem 0.7rem; }
       .mock-titlebar, .mock-summary, .mock-footer { padding-left: 0.7rem; padding-right: 0.7rem; }
-      .mock-orbit { display: none; }
     }
     @media (max-width: 480px) {
       .nav-inner { gap: 0.4rem; padding-left: 0.9rem; padding-right: 0.9rem; }
@@ -733,11 +723,6 @@
 
         <!-- Extension popup mock (shared, decorative) -->
         <div class="mock-stage" aria-hidden="true">
-          <div class="mock-orbit">
-            <span class="chip"><span class="d"></span>iframe<strong>.pdf</strong></span>
-            <span class="chip"><span class="d"></span>blob:<strong>image/png</strong></span>
-            <span class="chip"><span class="d"></span>fetch /<strong>cms-download</strong></span>
-          </div>
           <div class="mock-window">
             <div class="mock-titlebar">
               <div class="dots"><span></span><span></span><span></span></div>
