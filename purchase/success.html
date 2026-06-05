@@ -98,6 +98,9 @@
     .resend-status.is-ok { color: var(--success); }
     .resend-status.is-warn { color: var(--warn); }
     .resend-status.is-err { color: var(--err); }
+  /* mobile overflow safety (added) */
+  body{overflow-x:hidden}
+  @supports (overflow-x:clip){body{overflow-x:clip}}
   </style>
   <script>
     (function(){

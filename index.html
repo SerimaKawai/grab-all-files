@@ -498,6 +498,30 @@
     footer .brand-block p { font-size: 0.85rem; color: var(--footer-text); margin-top: 0.8rem; line-height: 1.6; }
     footer .meta { margin-top: 2.2rem; padding-top: 1.4rem; border-top: 1px solid var(--footer-border); font-size: 0.78rem; color: var(--footer-meta); display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
     footer .meta p { font-size: 0.78rem; color: var(--footer-meta); margin: 0; }
+    /* ── Mobile overflow safety + hardening (added) ─────────── */
+    body { overflow-x: hidden; }
+    @supports (overflow-x: clip) { body { overflow-x: clip; } }
+    .brand { min-width: 0; }
+    .brand-name { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .nav-controls { flex-shrink: 0; }
+    .mock-search { min-width: 0; }
+    .mock-search > span:not([aria-hidden]) { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    @media (max-width: 600px) { .hero-trust { gap: 1rem 1.4rem; } }
+    @media (max-width: 560px) {
+      .mock-stage { min-height: 0; }
+      .mock-titlebar .url { display: none; }
+      .mock-toolbar { padding: 0.6rem 0.7rem; gap: 0.4rem; }
+      .mock-search { flex: 1 1 100%; }
+      .mock-row { grid-template-columns: 16px 28px minmax(0,1fr) auto; gap: 0.45rem; padding: 0.42rem 0.7rem; }
+      .mock-titlebar, .mock-summary, .mock-footer { padding-left: 0.7rem; padding-right: 0.7rem; }
+      .mock-orbit { display: none; }
+    }
+    @media (max-width: 480px) {
+      .nav-inner { gap: 0.4rem; padding-left: 0.9rem; padding-right: 0.9rem; }
+      .nav-controls { gap: 0.3rem; }
+      .lang-sel { max-width: 96px; }
+      .nav-cta { padding: 0 0.7rem; }
+    }
   </style>
 
   <script>
