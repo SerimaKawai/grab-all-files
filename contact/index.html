@@ -112,6 +112,10 @@
     .links { font-size: 0.78rem; color: var(--text-faint); text-align: center; margin-top: 1.4rem; }
     .links a { color: var(--text-muted); }
     .links a:hover { color: var(--primary); }
+  /* mobile overflow safety (added) */
+  body{overflow-x:hidden}
+  @supports (overflow-x:clip){body{overflow-x:clip}}
+  ul li{overflow-wrap:anywhere}
   </style>
   <script>
     (function(){

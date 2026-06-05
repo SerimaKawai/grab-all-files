@@ -114,6 +114,10 @@
 
     .btn-spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid rgba(255,255,255,0.45); border-top-color: #fff; border-radius: 50%; animation: btn-spin 0.7s linear infinite; vertical-align: -2px; margin-right: 8px; }
     @keyframes btn-spin { to { transform: rotate(360deg); } }
+  /* mobile overflow safety (added) */
+  body{overflow-x:hidden}
+  @supports (overflow-x:clip){body{overflow-x:clip}}
+  ul li{overflow-wrap:anywhere}
   </style>
   <script>
     (function(){
