@@ -312,6 +312,7 @@
     /* Layout */
     .wrap { max-width: 1160px; margin: 0 auto; padding: 0 1.4rem; }
     .wrap-narrow { max-width: 880px; margin: 0 auto; padding: 0 1.4rem; }
+    .install-anchor { display: block; height: 0; scroll-margin-top: 86px; }
 
     /* Hero */
     .hero { padding: 4.5rem 0 4rem; position: relative; overflow: hidden; }
@@ -578,7 +579,7 @@
           <option value="zh_CN">简体中文</option>
           <option value="zh_TW">繁體中文</option>
         </select>
-        <a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" class="nav-cta" target="_blank" rel="noopener">
+        <a href="#install" class="nav-cta" data-install-scroll>
           <span><span data-lang="en" class="active">Install free trial</span><span data-lang="ja">無料インストール</span><span data-lang="es">Instalar gratis</span><span data-lang="fr">Installer gratuitement</span><span data-lang="de">Kostenlos installieren</span><span data-lang="it">Installa gratis</span><span data-lang="ko">무료 설치</span><span data-lang="pt_BR">Instalar grátis</span><span data-lang="zh_CN">免费安装</span><span data-lang="zh_TW">免費安裝</span></span><span class="nav-cta-price"> · 14 days</span>
         </a>
       </div>
@@ -589,6 +590,7 @@
 
     <!-- HERO -->
     <section class="hero" id="top">
+      <span id="install" class="install-anchor" aria-hidden="true"></span>
       <div class="wrap hero-grid">
         <div>
           <div data-lang="en">
@@ -1423,6 +1425,82 @@
       zh_CN: { title: '批量下载文件 — Google Chrome™ / Microsoft Edge™ / Mozilla Firefox™ 扩展程序', desc: '查找任何网页上所有可下载的PDF、Office文档、图片、ZIP和CSV文件。批量下载、PDF合并、ZIP打包。14天免费试用，$19.99 永久授权。' },
       zh_TW: { title: '批次下載檔案 — Google Chrome™ / Microsoft Edge™ / Mozilla Firefox™ 擴充功能', desc: '在任何網頁找出所有可下載的PDF、Office文件、圖片、ZIP和CSV檔案。批次下載、PDF合併、ZIP封存。14天免費試用，$19.99 永久授權。' }
     };
+    var STORE_LINKS = {
+      chrome: 'https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf',
+      edge: 'https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn',
+      firefox: 'https://addons.mozilla.org/firefox/addon/grab-all-files/'
+    };
+    var INSTALL_LABELS = {
+      en: { chrome: 'Install for Chrome', edge: 'Install for Edge', firefox: 'Install for Firefox', choose: 'Choose browser' },
+      ja: { chrome: 'Chromeに無料インストール', edge: 'Edgeに無料インストール', firefox: 'Firefoxに無料インストール', choose: 'ブラウザを選んでインストール' },
+      es: { chrome: 'Instalar en Chrome', edge: 'Instalar en Edge', firefox: 'Instalar en Firefox', choose: 'Elegir navegador' },
+      fr: { chrome: 'Installer pour Chrome', edge: 'Installer pour Edge', firefox: 'Installer pour Firefox', choose: 'Choisir le navigateur' },
+      de: { chrome: 'Für Chrome installieren', edge: 'Für Edge installieren', firefox: 'Für Firefox installieren', choose: 'Browser auswählen' },
+      it: { chrome: 'Installa per Chrome', edge: 'Installa per Edge', firefox: 'Installa per Firefox', choose: 'Scegli il browser' },
+      ko: { chrome: 'Chrome에 무료 설치', edge: 'Edge에 무료 설치', firefox: 'Firefox에 무료 설치', choose: '브라우저 선택' },
+      pt_BR: { chrome: 'Instalar no Chrome', edge: 'Instalar no Edge', firefox: 'Instalar no Firefox', choose: 'Escolher navegador' },
+      zh_CN: { chrome: '安装到 Chrome', edge: '安装到 Edge', firefox: '安装到 Firefox', choose: '选择浏览器' },
+      zh_TW: { chrome: '安裝到 Chrome', edge: '安裝到 Edge', firefox: '安裝到 Firefox', choose: '選擇瀏覽器' }
+    };
+
+    function detectInstallBrowser() {
+      var ua = (navigator.userAgent || '').toLowerCase();
+      if (ua.indexOf('edg/') >= 0 || ua.indexOf('edgios') >= 0 || ua.indexOf('edga') >= 0) return 'edge';
+      if (ua.indexOf('firefox/') >= 0 || ua.indexOf('fxios') >= 0) return 'firefox';
+      if ((ua.indexOf('chrome/') >= 0 || ua.indexOf('crios') >= 0 || ua.indexOf('chromium/') >= 0) && ua.indexOf('opr/') < 0 && ua.indexOf('opera') < 0) return 'chrome';
+      return null;
+    }
+
+    function setInstallLabel(link, label) {
+      var arrow = link.querySelector('.arrow');
+      if (!arrow) {
+        arrow = document.createElement('span');
+        arrow.className = 'arrow';
+        arrow.setAttribute('aria-hidden', 'true');
+        arrow.textContent = '\u2192';
+      }
+      link.textContent = label + ' ';
+      link.appendChild(arrow);
+      link.setAttribute('aria-label', label);
+    }
+
+    function updateInstallCtas(lang) {
+      var browser = detectInstallBrowser();
+      document.querySelectorAll('section.hero .hero-cta .btn-primary').forEach(function(link) {
+        var block = link.closest('[data-lang]');
+        var blockLang = block ? block.getAttribute('data-lang') : lang;
+        var labels = INSTALL_LABELS[blockLang] || INSTALL_LABELS.en;
+        if (browser && STORE_LINKS[browser]) {
+          link.href = STORE_LINKS[browser];
+          link.target = '_blank';
+          link.rel = 'noopener';
+          link.removeAttribute('data-install-scroll');
+          link.setAttribute('data-detected-browser', browser);
+          setInstallLabel(link, labels[browser] || labels.chrome);
+        } else {
+          link.href = '#install';
+          link.removeAttribute('target');
+          link.removeAttribute('rel');
+          link.removeAttribute('data-detected-browser');
+          link.setAttribute('data-install-scroll', '');
+          setInstallLabel(link, labels.choose || INSTALL_LABELS.en.choose);
+        }
+      });
+    }
+
+    function scrollToInstallOptions() {
+      var target = document.querySelector('section.hero [data-lang].active .hero-stores') || document.querySelector('section.hero .hero-stores') || document.getElementById('install');
+      if (target && target.scrollIntoView) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+
+    document.addEventListener('click', function(e) {
+      var link = e.target.closest('[data-install-scroll]');
+      if (!link || link.getAttribute('href') !== '#install') return;
+      e.preventDefault();
+      scrollToInstallOptions();
+    });
 
     function getLangFromUrl() {
       var m = location.search.match(/[?&]lang=([a-zA-Z_-]+)/);
@@ -1472,6 +1550,7 @@
         sel.value = l;
         sel.setAttribute('aria-label', LANGUAGE_LABELS[l] || LANGUAGE_LABELS.en);
       }
+      updateInstallCtas(l);
     }
     var langSel = document.getElementById('lang-sel');
     if (langSel) langSel.addEventListener('change', function(e) { setLang(e.target.value); });
