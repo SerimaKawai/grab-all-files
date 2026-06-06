@@ -335,6 +335,10 @@
     .btn-primary:hover .arrow { transform: translateX(2px); }
     .btn-ghost { background: var(--surface); color: var(--text-strong); border-color: var(--border-strong); }
     .btn-ghost:hover { background: var(--surface-soft); }
+    .btn-release { background: color-mix(in srgb, var(--primary) 7%, var(--surface)); color: var(--primary); border-color: color-mix(in srgb, var(--primary) 26%, var(--border)); }
+    .btn-release:hover { background: color-mix(in srgb, var(--primary) 11%, var(--surface)); border-color: color-mix(in srgb, var(--primary) 48%, var(--border)); box-shadow: var(--shadow-soft); }
+    .btn-release .arrow { transition: transform 0.15s ease; }
+    .btn-release:hover .arrow { transform: translateX(2px); }
 
     .hero-stores { display: flex; align-items: center; gap: 1.05rem; margin-top: 1rem; padding: 0.9rem 1.2rem; width: fit-content; max-width: 100%; background: linear-gradient(90deg, #e9f7f4 0%, #edf2ff 100%); border: 1px solid color-mix(in srgb, var(--primary) 12%, transparent); border-radius: 24px; flex-wrap: wrap; box-shadow: 0 14px 34px rgba(15, 23, 42, 0.06); }
     .hero-stores > span { flex: 0 0 150px; max-width: 150px; color: #0f172a; font-size: 0.82rem; line-height: 1.45; font-weight: 500; }
@@ -413,6 +417,18 @@
     .section-eyebrow { display: inline-block; background: var(--accent-soft); color: var(--accent-soft-text); padding: 0.25rem 0.65rem; border-radius: 999px; font-size: 0.74rem; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; margin-bottom: 0.85rem; }
     .section-head h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); line-height: 1.15; letter-spacing: -0.02em; color: var(--text-strong); font-weight: 700; }
     .section-head p { color: var(--text-muted); font-size: 1.02rem; margin-top: 0.8rem; }
+    #latest-version { scroll-margin-top: 86px; }
+    .latest-panel { display: grid; grid-template-columns: minmax(180px, 0.55fr) minmax(0, 1fr); gap: 1.4rem; align-items: stretch; background: linear-gradient(135deg, color-mix(in srgb, var(--primary) 8%, var(--surface)), var(--surface)); border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border)); border-radius: 18px; padding: 1.4rem; box-shadow: var(--shadow-card); }
+    .latest-badge { display: flex; flex-direction: column; justify-content: center; gap: 0.45rem; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 1.1rem; }
+    .latest-badge span { color: var(--text-faint); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; }
+    .latest-badge strong { color: var(--primary); font-size: clamp(2rem, 5vw, 3.3rem); line-height: 1; letter-spacing: -0.04em; }
+    .latest-copy { display: grid; align-content: center; }
+    .latest-copy h3 { color: var(--text-strong); font-size: clamp(1.2rem, 2.3vw, 1.65rem); line-height: 1.2; letter-spacing: -0.02em; }
+    .latest-copy p { color: var(--text-muted); margin-top: 0.55rem; font-size: 0.95rem; line-height: 1.65; }
+    .latest-points { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; margin-top: 1rem; }
+    .latest-points li { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.8rem 0.9rem; color: var(--text-muted); font-size: 0.86rem; line-height: 1.45; }
+    .latest-points li::before { content: ""; display: block; width: 18px; height: 3px; border-radius: 999px; background: var(--primary); margin-bottom: 0.5rem; }
+    @media (max-width: 820px) { .latest-panel { grid-template-columns: 1fr; } .latest-points { grid-template-columns: 1fr; } }
 
     /* Detect grid */
     .detect-grid { display: grid; grid-template-columns: 1fr 1.1fr 1fr; gap: 1rem; align-items: stretch; }
@@ -605,7 +621,7 @@
             <p class="hero-lead">Find every downloadable PDF, Office document, image, ZIP and CSV on any web page — even files hidden behind iframes, viewers, lazy loading, fetch/XHR, blob URLs, and CMS download routes. Select what you need, save them all in one click, and optionally merge PDFs locally in your browser.</p>
             <div class="hero-cta">
               <a href="#install" class="btn btn-primary" data-install-scroll>Install free trial <span class="arrow" aria-hidden="true">→</span></a>
-              <a href="#features" class="btn btn-ghost">See what it does</a>
+              <a href="#latest-version" class="btn btn-release">See what’s new in the latest version <span class="arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="hero-stores"><span>Download Grab All Files in your browser:</span>
               <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Install from Chrome Web Store">Download for Chrome <span aria-hidden="true">↗</span></a>
@@ -619,7 +635,7 @@
             <p class="hero-lead">Webページ上のPDF・Word・Excel・PowerPoint・画像・ZIP・CSVなど、ダウンロード可能なファイルをまとめて検出します。iframe、PDFビューア、遅延読み込み、fetch/XHRレスポンス、blob URL、CMSダウンロードルートなど、通常見落としがちな場所のファイルもカバー。必要なものを選んで一括保存、PDF結合もブラウザ内で完結します。</p>
             <div class="hero-cta">
               <a href="#install" class="btn btn-primary" data-install-scroll>無料インストール <span class="arrow" aria-hidden="true">→</span></a>
-              <a href="#features" class="btn btn-ghost">機能を見る</a>
+              <a href="#latest-version" class="btn btn-release">最新バージョンの新機能を見る <span class="arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="hero-stores"><span>お使いのブラウザで Grab All Files をダウンロード:</span>
               <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Chrome ウェブストアからインストール">Chrome 用をダウンロード <span aria-hidden="true">↗</span></a>
@@ -633,7 +649,7 @@
             <p class="hero-lead">Encuentra todos los PDF, documentos de Office, imágenes, ZIP y CSV descargables en cualquier página web — incluso los ocultos en iframes, visores, carga diferida, fetch/XHR, URLs blob y rutas de descarga de CMS. Selecciona lo que necesitas, guárdalo todo con un clic y combina PDFs localmente.</p>
             <div class="hero-cta">
               <a href="#install" class="btn btn-primary" data-install-scroll>Instalar gratis <span class="arrow" aria-hidden="true">→</span></a>
-              <a href="#features" class="btn btn-ghost">Ver características</a>
+              <a href="#latest-version" class="btn btn-release">Ver novedades de la última versión <span class="arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="hero-stores"><span>Descarga Grab All Files en tu navegador:</span>
               <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Instalar desde Chrome Web Store">Descargar para Chrome <span aria-hidden="true">↗</span></a>
@@ -647,7 +663,7 @@
             <p class="hero-lead">Trouvez tous les PDF, documents Office, images, ZIP et CSV téléchargeables sur n'importe quelle page web — même ceux cachés derrière des iframes, des visionneuses, du chargement différé, fetch/XHR, des URLs blob et des routes de téléchargement CMS. Sélectionnez ce dont vous avez besoin, enregistrez tout en un clic et fusionnez des PDF localement.</p>
             <div class="hero-cta">
               <a href="#install" class="btn btn-primary" data-install-scroll>Installer gratuitement <span class="arrow" aria-hidden="true">→</span></a>
-              <a href="#features" class="btn btn-ghost">Voir les fonctionnalités</a>
+              <a href="#latest-version" class="btn btn-release">Voir les nouveautés de la dernière version <span class="arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="hero-stores"><span>Téléchargez Grab All Files dans votre navigateur :</span>
               <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Installer depuis le Chrome Web Store">Télécharger pour Chrome <span aria-hidden="true">↗</span></a>
@@ -661,7 +677,7 @@
             <p class="hero-lead">Finden Sie jede herunterladbare PDF-, Office-, Bild-, ZIP- und CSV-Datei auf jeder Webseite — auch solche, die in iFrames, Viewern, Lazy Loading, fetch/XHR, Blob-URLs und CMS-Download-Routen versteckt sind. Wählen Sie aus, was Sie brauchen, speichern Sie alles mit einem Klick und führen Sie PDFs lokal zusammen.</p>
             <div class="hero-cta">
               <a href="#install" class="btn btn-primary" data-install-scroll>Kostenlos installieren <span class="arrow" aria-hidden="true">→</span></a>
-              <a href="#features" class="btn btn-ghost">Funktionen ansehen</a>
+              <a href="#latest-version" class="btn btn-release">Neuigkeiten der neuesten Version ansehen <span class="arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="hero-stores"><span>Grab All Files in Ihrem Browser herunterladen:</span>
               <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Im Chrome Web Store installieren">Für Chrome herunterladen <span aria-hidden="true">↗</span></a>
@@ -675,7 +691,7 @@
             <p class="hero-lead">Trova ogni PDF, documento Office, immagine, ZIP e CSV scaricabile su qualsiasi pagina web — anche quelli nascosti dietro iframe, visualizzatori, caricamento differito, fetch/XHR, URL blob e percorsi di download CMS. Seleziona ciò che ti serve, salva tutto con un clic e unisci i PDF localmente.</p>
             <div class="hero-cta">
               <a href="#install" class="btn btn-primary" data-install-scroll>Installa gratis <span class="arrow" aria-hidden="true">→</span></a>
-              <a href="#features" class="btn btn-ghost">Vedi le funzionalità</a>
+              <a href="#latest-version" class="btn btn-release">Scopri le novità dell’ultima versione <span class="arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="hero-stores"><span>Scarica Grab All Files nel tuo browser:</span>
               <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Installa dal Chrome Web Store">Scarica per Chrome <span aria-hidden="true">↗</span></a>
@@ -689,7 +705,7 @@
             <p class="hero-lead">웹 페이지의 다운로드 가능한 PDF, Office 문서, 이미지, ZIP, CSV 파일을 모두 찾습니다 — iframe, 뷰어, 지연 로딩, fetch/XHR 응답, blob URL, CMS 다운로드 경로에 숨겨진 파일까지. 필요한 항목을 선택하여 한 번의 클릭으로 모두 저장하고, PDF를 브라우저에서 로컬로 병합할 수 있습니다.</p>
             <div class="hero-cta">
               <a href="#install" class="btn btn-primary" data-install-scroll>무료 설치 <span class="arrow" aria-hidden="true">→</span></a>
-              <a href="#features" class="btn btn-ghost">기능 보기</a>
+              <a href="#latest-version" class="btn btn-release">최신 버전의 새로운 기능 보기 <span class="arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="hero-stores"><span>브라우저에서 Grab All Files 다운로드:</span>
               <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Chrome 웹 스토어에서 설치">Chrome용 다운로드 <span aria-hidden="true">↗</span></a>
@@ -703,7 +719,7 @@
             <p class="hero-lead">Encontre todos os PDFs, documentos do Office, imagens, ZIPs e CSVs disponíveis em qualquer página web — incluindo os ocultos em iframes, visualizadores, carregamento preguiçoso, fetch/XHR, URLs blob e rotas de download de CMS. Selecione o que precisa, salve tudo com um clique e mescle PDFs localmente.</p>
             <div class="hero-cta">
               <a href="#install" class="btn btn-primary" data-install-scroll>Instalar grátis <span class="arrow" aria-hidden="true">→</span></a>
-              <a href="#features" class="btn btn-ghost">Ver recursos</a>
+              <a href="#latest-version" class="btn btn-release">Ver novidades da versão mais recente <span class="arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="hero-stores"><span>Baixe o Grab All Files no seu navegador:</span>
               <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Instalar na Chrome Web Store">Baixar para Chrome <span aria-hidden="true">↗</span></a>
@@ -717,7 +733,7 @@
             <p class="hero-lead">在任何网页上查找所有可下载的PDF、Office文档、图片、ZIP和CSV文件 — 包括隐藏在iframe、查看器、懒加载、fetch/XHR、blob URL和CMS下载路径中的文件。选择所需文件，一键全部保存，并可在浏览器中本地合并PDF。</p>
             <div class="hero-cta">
               <a href="#install" class="btn btn-primary" data-install-scroll>免费安装 <span class="arrow" aria-hidden="true">→</span></a>
-              <a href="#features" class="btn btn-ghost">查看功能</a>
+              <a href="#latest-version" class="btn btn-release">查看最新版本的新功能 <span class="arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="hero-stores"><span>在浏览器中下载 Grab All Files：</span>
               <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="从 Chrome 应用商店安装">下载 Chrome 版 <span aria-hidden="true">↗</span></a>
@@ -731,7 +747,7 @@
             <p class="hero-lead">在任何網頁上找出所有可下載的PDF、Office文件、圖片、ZIP和CSV — 包括隱藏在iframe、檢視器、延遲載入、fetch/XHR、blob URL和CMS下載路徑中的檔案。選擇所需檔案，一鍵全部儲存，並可在瀏覽器中本機合併PDF。</p>
             <div class="hero-cta">
               <a href="#install" class="btn btn-primary" data-install-scroll>免費安裝 <span class="arrow" aria-hidden="true">→</span></a>
-              <a href="#features" class="btn btn-ghost">查看功能</a>
+              <a href="#latest-version" class="btn btn-release">查看最新版本的新功能 <span class="arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="hero-stores"><span>在瀏覽器中下載 Grab All Files：</span>
               <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="從 Chrome 線上應用程式商店安裝">下載 Chrome 版 <span aria-hidden="true">↗</span></a>
@@ -801,6 +817,72 @@
                 <button class="mock-btn" type="button"><span aria-hidden="true">📊</span> CSV</button>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest version -->
+    <section class="block alt" id="latest-version">
+      <div class="wrap">
+        <div data-lang="en">
+          <div class="latest-panel">
+            <div class="latest-badge"><span>Latest version</span><strong>4.5.0</strong></div>
+            <div class="latest-copy"><h3>Built to find more files on complex pages.</h3><p>The current release highlights deeper detection, stronger same-site collection, and local output tools for large download jobs.</p><ul class="latest-points"><li>Broader detection for iframe PDFs, lazy images, fetch/XHR files, blob URLs, and CMS download routes.</li><li>Same-site crawl reaches subpages, viewer URLs, search/pagination links, and CMS document routes.</li><li>PDF merge, ZIP archive, and CSV export stay local in your browser.</li></ul></div>
+          </div>
+        </div>
+        <div data-lang="ja">
+          <div class="latest-panel">
+            <div class="latest-badge"><span>最新バージョン</span><strong>4.5.0</strong></div>
+            <div class="latest-copy"><h3>複雑なページでも、より多くのファイルを見つけやすく。</h3><p>現在のリリースでは、深い検出、同一サイト収集、大量ダウンロード後のローカル出力機能を重点的に整理しています。</p><ul class="latest-points"><li>iframe内PDF、遅延画像、fetch/XHRファイル、blob URL、CMSダウンロードルートの検出を強化。</li><li>サブページ、ビューアURL、検索/ページャリンク、CMS文書ルートまで同一サイトクロールで到達。</li><li>PDF結合、ZIP化、CSV出力はブラウザ内で完結し、ファイルをアップロードしません。</li></ul></div>
+          </div>
+        </div>
+        <div data-lang="es">
+          <div class="latest-panel">
+            <div class="latest-badge"><span>Última versión</span><strong>4.5.0</strong></div>
+            <div class="latest-copy"><h3>Preparada para encontrar más archivos en páginas complejas.</h3><p>La versión actual destaca una detección más profunda, mejor recopilación dentro del mismo sitio y herramientas locales para trabajos grandes.</p><ul class="latest-points"><li>Más detección de PDFs en iframes, imágenes diferidas, archivos fetch/XHR, URLs blob y rutas CMS.</li><li>El rastreo del mismo sitio llega a subpáginas, visores, búsqueda/paginación y rutas de documentos CMS.</li><li>Fusión PDF, ZIP y exportación CSV permanecen locales en tu navegador.</li></ul></div>
+          </div>
+        </div>
+        <div data-lang="fr">
+          <div class="latest-panel">
+            <div class="latest-badge"><span>Dernière version</span><strong>4.5.0</strong></div>
+            <div class="latest-copy"><h3>Conçue pour trouver plus de fichiers sur les pages complexes.</h3><p>La version actuelle met en avant une détection plus profonde, une meilleure collecte sur le même site et des sorties locales pour les gros téléchargements.</p><ul class="latest-points"><li>Détection élargie des PDF en iframe, images différées, fichiers fetch/XHR, URLs blob et routes CMS.</li><li>Le crawl du même site atteint sous-pages, visionneuses, recherche/pagination et routes de documents CMS.</li><li>Fusion PDF, archive ZIP et export CSV restent locaux dans votre navigateur.</li></ul></div>
+          </div>
+        </div>
+        <div data-lang="de">
+          <div class="latest-panel">
+            <div class="latest-badge"><span>Neueste Version</span><strong>4.5.0</strong></div>
+            <div class="latest-copy"><h3>Gemacht, um auf komplexen Seiten mehr Dateien zu finden.</h3><p>Die aktuelle Version hebt tiefere Erkennung, stärkere Same-Site-Sammlung und lokale Ausgabe-Tools für große Download-Aufgaben hervor.</p><ul class="latest-points"><li>Breitere Erkennung für iFrame-PDFs, Lazy-Images, fetch/XHR-Dateien, Blob-URLs und CMS-Download-Routen.</li><li>Same-Site-Crawl erreicht Unterseiten, Viewer-URLs, Suche/Paginierung und CMS-Dokumentrouten.</li><li>PDF-Zusammenführung, ZIP-Archiv und CSV-Export bleiben lokal im Browser.</li></ul></div>
+          </div>
+        </div>
+        <div data-lang="it">
+          <div class="latest-panel">
+            <div class="latest-badge"><span>Ultima versione</span><strong>4.5.0</strong></div>
+            <div class="latest-copy"><h3>Progettata per trovare più file nelle pagine complesse.</h3><p>La versione attuale evidenzia rilevamento più profondo, raccolta nello stesso sito e strumenti locali per grandi download.</p><ul class="latest-points"><li>Rilevamento più ampio per PDF in iframe, immagini lazy, file fetch/XHR, URL blob e percorsi CMS.</li><li>Il crawl dello stesso sito raggiunge sottopagine, visualizzatori, ricerca/paginazione e percorsi documentali CMS.</li><li>Unione PDF, archivio ZIP ed esportazione CSV restano locali nel browser.</li></ul></div>
+          </div>
+        </div>
+        <div data-lang="ko">
+          <div class="latest-panel">
+            <div class="latest-badge"><span>최신 버전</span><strong>4.5.0</strong></div>
+            <div class="latest-copy"><h3>복잡한 페이지에서 더 많은 파일을 찾도록 구성했습니다.</h3><p>현재 릴리스는 더 깊은 감지, 같은 사이트 수집, 대량 다운로드 후 로컬 출력 도구를 강조합니다.</p><ul class="latest-points"><li>iframe PDF, 지연 로딩 이미지, fetch/XHR 파일, blob URL, CMS 다운로드 경로 감지 범위 확대.</li><li>같은 사이트 크롤링으로 하위 페이지, 뷰어 URL, 검색/페이지네이션, CMS 문서 경로까지 도달.</li><li>PDF 병합, ZIP 압축, CSV 내보내기는 브라우저 안에서 로컬로 처리됩니다.</li></ul></div>
+          </div>
+        </div>
+        <div data-lang="pt_BR">
+          <div class="latest-panel">
+            <div class="latest-badge"><span>Versão mais recente</span><strong>4.5.0</strong></div>
+            <div class="latest-copy"><h3>Feita para encontrar mais arquivos em páginas complexas.</h3><p>A versão atual destaca detecção mais profunda, coleta no mesmo site e ferramentas locais para grandes downloads.</p><ul class="latest-points"><li>Detecção ampliada para PDFs em iframe, imagens lazy, arquivos fetch/XHR, URLs blob e rotas CMS.</li><li>O rastreamento no mesmo site alcança subpáginas, visualizadores, busca/paginação e rotas de documentos CMS.</li><li>Mesclagem PDF, arquivo ZIP e exportação CSV ficam locais no navegador.</li></ul></div>
+          </div>
+        </div>
+        <div data-lang="zh_CN">
+          <div class="latest-panel">
+            <div class="latest-badge"><span>最新版本</span><strong>4.5.0</strong></div>
+            <div class="latest-copy"><h3>面向复杂网页，发现更多文件。</h3><p>当前版本重点呈现更深入的检测、同站点收集能力，以及适合大量下载任务的本地输出工具。</p><ul class="latest-points"><li>扩展检测 iframe PDF、懒加载图片、fetch/XHR 文件、blob URL 和 CMS 下载路径。</li><li>同站点抓取可到达子页面、查看器 URL、搜索/分页链接和 CMS 文档路径。</li><li>PDF 合并、ZIP 打包和 CSV 导出都在浏览器本地完成。</li></ul></div>
+          </div>
+        </div>
+        <div data-lang="zh_TW">
+          <div class="latest-panel">
+            <div class="latest-badge"><span>最新版本</span><strong>4.5.0</strong></div>
+            <div class="latest-copy"><h3>面向複雜網頁，找出更多檔案。</h3><p>目前版本重點呈現更深入的偵測、同站點收集能力，以及適合大量下載任務的本機輸出工具。</p><ul class="latest-points"><li>擴展偵測 iframe PDF、延遲載入圖片、fetch/XHR 檔案、blob URL 和 CMS 下載路徑。</li><li>同站點抓取可到達子頁面、檢視器 URL、搜尋/分頁連結和 CMS 文件路徑。</li><li>PDF 合併、ZIP 封存和 CSV 匯出都在瀏覽器本機完成。</li></ul></div>
           </div>
         </div>
       </div>
