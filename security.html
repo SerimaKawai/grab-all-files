@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>Security & Permissions / セキュリティと権限 - Grab All Files</title>
+  <meta name="description" content="How Grab All Files handles permissions, local file processing, license verification, and privacy-sensitive browser extension access.">
+  <link rel="canonical" href="https://grab-all-files.app/security.html">
+  <script defer src="/analytics.js"></script>
+  <link rel="icon" type="image/png" sizes="128x128" href="favicon-128.png">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --surface-alt: #f1f5f9;
+      --text: #1f2937;
+      --text-strong: #0f172a;
+      --text-muted: #475569;
+      --border: #e2e8f0;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --accent: #dbeafe;
+      --accent-text: #1e40af;
+      --ok: #16a34a;
+      --warn: #b45309;
+      --shadow: 0 16px 36px rgba(15, 23, 42, 0.08);
+    }
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #0b1220;
+      --surface: #111827;
+      --surface-alt: #1f2937;
+      --text: #e2e8f0;
+      --text-strong: #f8fafc;
+      --text-muted: #cbd5e1;
+      --border: #334155;
+      --primary: #60a5fa;
+      --primary-hover: #93c5fd;
+      --accent: #1e3a8a;
+      --accent-text: #bfdbfe;
+      --shadow: 0 16px 36px rgba(0, 0, 0, 0.36);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: color-mix(in srgb, var(--bg) 88%, transparent);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(14px);
+    }
+    .topbar-inner, main, footer {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding-left: 1.4rem;
+      padding-right: 1.4rem;
+    }
+    .topbar-inner {
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      color: var(--text-strong);
+      font-weight: 700;
+    }
+    .brand img { width: 28px; height: 28px; border-radius: 7px; }
+    .top-links { display: flex; align-items: center; gap: 0.85rem; flex-wrap: wrap; font-size: 0.88rem; }
+    .hero {
+      padding: 3.6rem 1.4rem 2rem;
+    }
+    .hero-inner {
+      max-width: 1080px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.8fr);
+      gap: 2rem;
+      align-items: start;
+    }
+    @media (max-width: 820px) {
+      .hero-inner { grid-template-columns: 1fr; }
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      color: var(--ok);
+      font-weight: 700;
+      font-size: 0.82rem;
+      margin-bottom: 0.8rem;
+    }
+    h1 {
+      color: var(--text-strong);
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.08;
+      letter-spacing: -0.02em;
+      max-width: 760px;
+    }
+    .lead {
+      margin-top: 1rem;
+      color: var(--text-muted);
+      font-size: 1.02rem;
+      max-width: 760px;
+    }
+    .hero-card, .section-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+    }
+    .hero-card { padding: 1.2rem; }
+    .hero-card h2 {
+      color: var(--text-strong);
+      font-size: 1rem;
+      margin-bottom: 0.7rem;
+    }
+    .check-list {
+      list-style: none;
+      display: grid;
+      gap: 0.65rem;
+      font-size: 0.93rem;
+    }
+    .check-list li {
+      display: grid;
+      grid-template-columns: 22px 1fr;
+      gap: 0.55rem;
+      align-items: start;
+    }
+    .check-list span:first-child {
+      width: 22px;
+      height: 22px;
+      border-radius: 6px;
+      background: var(--accent);
+      color: var(--accent-text);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 0.72rem;
+    }
+    main {
+      display: grid;
+      gap: 1.3rem;
+      padding-top: 1.2rem;
+      padding-bottom: 3rem;
+    }
+    .section-card { padding: 1.4rem; }
+    .section-card h2 {
+      color: var(--text-strong);
+      font-size: 1.25rem;
+      margin-bottom: 0.65rem;
+    }
+    .section-card h3 {
+      color: var(--text-strong);
+      font-size: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 0.35rem;
+    }
+    .section-card p, .section-card li {
+      color: var(--text);
+      font-size: 0.94rem;
+    }
+    .section-card ul { margin: 0.45rem 0 0.5rem 1.25rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.85rem;
+      font-size: 0.9rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.7rem;
+      text-align: left;
+      vertical-align: top;
+      overflow-wrap: anywhere;
+    }
+    th {
+      background: var(--surface-alt);
+      color: var(--text-strong);
+      font-weight: 700;
+    }
+    .callout {
+      margin-top: 0.9rem;
+      padding: 0.9rem 1rem;
+      border-left: 4px solid var(--primary);
+      background: color-mix(in srgb, var(--primary) 9%, var(--surface));
+      border-radius: 0 10px 10px 0;
+    }
+    .ja {
+      border-top: 1px solid var(--border);
+      margin-top: 1rem;
+      padding-top: 1rem;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 0.65rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-strong);
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+    .btn.primary {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+    }
+    .btn:hover { text-decoration: none; background: var(--surface-alt); }
+    .btn.primary:hover { background: var(--primary-hover); border-color: var(--primary-hover); }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 1.4rem;
+      padding-bottom: 2rem;
+      color: var(--text-muted);
+      font-size: 0.82rem;
+    }
+  </style>
+  <script>
+    (function(){
+      try {
+        var t = localStorage.getItem('gaf-theme');
+        if (t !== 'light' && t !== 'dark') {
+          t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+        }
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (_) {}
+    })();
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html">
+        <img src="icon-512.png" alt="">
+        <span>Grab All Files</span>
+      </a>
+      <nav class="top-links" aria-label="Security page navigation">
+        <a href="index.html">Home</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow">0 files uploaded / ファイルはアップロードされません</div>
+        <h1>Security, privacy, and permissions for Grab All Files</h1>
+        <p class="lead">Grab All Files needs broad browser permissions because it can scan the page or URL you choose, including pages behind your current login session. The extension is designed so file discovery, downloads, ZIP creation, CSV export, and PDF merging happen locally in your browser.</p>
+        <p class="lead ja">Grab All Files は、ユーザーが指定したページやURLをスキャンするため、ブラウザ上で広い権限表示が出ることがあります。ただし、ファイル検出・ダウンロード・ZIP作成・CSV出力・PDF結合はブラウザ内で実行され、ファイル本文やページHTMLを当方サーバーへ送信しません。</p>
+      </div>
+      <aside class="hero-card">
+        <h2>Plain-language summary / 要点</h2>
+        <ul class="check-list">
+          <li><span>1</span><strong>Your files never pass through our servers.</strong></li>
+          <li><span>2</span><strong>PDF merge, ZIP, and CSV export run locally in the browser.</strong></li>
+          <li><span>3</span><strong>License checks send only license-related identifiers, not file contents.</strong></li>
+          <li><span>4</span><strong>The extension should be used only for pages and files you are allowed to access.</strong></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <main>
+    <section class="section-card">
+      <h2>What is sent to our servers</h2>
+      <p>Only license and trial verification data is sent to the developer's license backend.</p>
+      <table>
+        <thead>
+          <tr><th>Purpose</th><th>Data sent</th><th>Not sent</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Trial eligibility</td><td>Random device UUID and timing needed to check the 14-day trial.</td><td>File contents, page HTML, browsing history, cookies, passwords.</td></tr>
+          <tr><td>License activation and refresh</td><td>License key, random device UUID, and license token metadata.</td><td>Downloaded files, detected URLs list, source-page contents.</td></tr>
+          <tr><td>Revocation list refresh</td><td>No user-identifying payload; the extension downloads a signed revocation list.</td><td>License key and file data are not included in this request.</td></tr>
+        </tbody>
+      </table>
+      <div class="ja">
+        <h2>当方サーバーへ送信されるもの</h2>
+        <p>送信されるのは、無料トライアルとライセンス確認に必要な情報だけです。ファイル本文、ページHTML、閲覧履歴、Cookie、パスワード、検出したURL一覧は送信しません。</p>
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>Why broad website permissions are needed</h2>
+      <p>Browsers may show a warning that the extension can access website data. Grab All Files needs this because the user may choose any target site, and the extension must inspect the selected page, frames, file responses, and download links before it can list files.</p>
+      <table>
+        <thead>
+          <tr><th>Permission area</th><th>Why it is needed</th><th>How it is limited in practice</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Read the selected page</td><td>Find visible links, embedded files, PDF viewers, and lazy-loaded assets.</td><td>Used for pages or URLs the user chooses to scan.</td></tr>
+          <tr><td>Monitor file-like network responses</td><td>Surface files loaded through fetch/XHR, CMS routes, or viewer endpoints.</td><td>Used to build the local result list; the list is not uploaded to our server.</td></tr>
+          <tr><td>Use the current browser session</td><td>Download files from internal portals, LMS pages, or member areas that the user can already open manually.</td><td>No separate credential collection; use only where you have permission to access the content.</td></tr>
+        </tbody>
+      </table>
+      <div class="callout">
+        The extension does not grant access to content you are not authorized to view. It works with access your browser session already has.
+      </div>
+      <div class="ja">
+        <h2>広いWebサイト権限が必要な理由</h2>
+        <p>ブラウザ拡張の権限表示では強く見えることがありますが、対象サイトは事前に固定できないため、ユーザーが選んだページ・iframe・ファイルレスポンス・ダウンロードリンクを調べる権限が必要です。これは、権限のないコンテンツへアクセスするためのものではありません。</p>
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>What stays local</h2>
+      <ul>
+        <li>Detected file list, filters, and scan results.</li>
+        <li>Downloaded file contents.</li>
+        <li>PDF merge processing.</li>
+        <li>ZIP archive generation.</li>
+        <li>CSV export generation.</li>
+      </ul>
+      <div class="ja">
+        <h2>ローカルに残る処理</h2>
+        <ul>
+          <li>検出ファイル一覧、絞り込み、スキャン結果。</li>
+          <li>ダウンロードしたファイル本文。</li>
+          <li>PDF結合処理。</li>
+          <li>ZIP作成処理。</li>
+          <li>CSV出力処理。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-card">
+      <h2>Responsible use</h2>
+      <p>Grab All Files is intended for legitimate document collection and workflow automation: research, public records, internal portals, LMS materials, design assets, and similar work. Use it only for files you are allowed to access and download, and respect the target site's terms, copyright rules, and rate limits.</p>
+      <div class="ja">
+        <h2>責任ある利用</h2>
+        <p>Grab All Files は、研究資料、公開資料、社内ポータル、LMS教材、デザイン素材など、正当にアクセスできる資料を効率よく収集するためのツールです。対象サイトの利用規約、著作権、アクセス権限、レート制限を守って利用してください。</p>
+      </div>
+      <div class="cta-row">
+        <a class="btn primary" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Install free trial</a>
+        <a class="btn" href="privacy-policy.html">Read full privacy policy</a>
+        <a class="btn" href="contact/">Contact support</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Sold by Serima Kawai (sole proprietor, Japan). Independent product, not affiliated with Google, Microsoft, or Mozilla.</p>
+  </footer>
+</body>
+</html>
