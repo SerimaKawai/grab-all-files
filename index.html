@@ -336,16 +336,22 @@
     .btn-ghost { background: var(--surface); color: var(--text-strong); border-color: var(--border-strong); }
     .btn-ghost:hover { background: var(--surface-soft); }
 
-    .hero-stores { position: relative; display: flex; align-items: center; gap: 0.55rem; margin-top: 0.85rem; padding-top: 0.75rem; width: fit-content; max-width: 100%; border-top: 1px solid var(--border); flex-wrap: wrap; }
-    .hero-stores > span { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
-    .store-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.45rem; min-height: 38px; padding: 0 0.78rem 0 0.62rem; color: var(--text-strong); font-size: 0.8rem; line-height: 1; font-weight: 600; text-decoration: none; white-space: nowrap; background: var(--surface); border: 1px solid var(--border); border-radius: 9px; transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.15s ease; }
-    .store-btn::before { content: ""; width: 20px; height: 20px; flex: 0 0 20px; background-position: center; background-repeat: no-repeat; background-size: contain; }
+    .hero-stores { display: flex; align-items: center; gap: 1.05rem; margin-top: 1rem; padding: 0.9rem 1.2rem; width: fit-content; max-width: 100%; background: linear-gradient(90deg, #e9f7f4 0%, #edf2ff 100%); border: 1px solid color-mix(in srgb, var(--primary) 12%, transparent); border-radius: 24px; flex-wrap: wrap; box-shadow: 0 14px 34px rgba(15, 23, 42, 0.06); }
+    .hero-stores > span { flex: 0 0 150px; max-width: 150px; color: #0f172a; font-size: 0.82rem; line-height: 1.45; font-weight: 500; }
+    .store-btn { display: inline-flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 0.55rem; width: 92px; min-height: 112px; padding: 0; color: #3550a8; font-size: 0.72rem; line-height: 1.35; font-weight: 500; text-align: center; text-decoration: underline; text-underline-offset: 2px; white-space: normal; background: transparent; border: 0; border-radius: 10px; transition: color 0.15s ease, transform 0.15s ease; }
+    .store-btn::before { content: ""; width: 82px; height: 84px; flex: 0 0 84px; background-color: #fff; background-position: center; background-repeat: no-repeat; background-size: 42px 42px; border-radius: 9px; box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08); }
     .store-btn > span { display: none; }
-    .store-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
-    .store-btn:hover { background: var(--surface-soft); border-color: var(--border-strong); color: var(--primary); transform: translateY(-1px); }
+    .store-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 4px; }
+    .store-btn:hover { color: var(--primary); transform: translateY(-2px); }
     .store-btn[href*="chromewebstore.google.com"]::before { background-image: url("assets/browser-logos/chrome.svg"); }
     .store-btn[href*="microsoftedge.microsoft.com"]::before { background-image: url("assets/browser-logos/edge.svg"); }
     .store-btn[href*="addons.mozilla.org"]::before { background-image: url("assets/browser-logos/firefox.svg"); }
+    @media (max-width: 560px) {
+      .hero-stores { width: 100%; justify-content: center; gap: 0.85rem; padding: 1rem; border-radius: 20px; }
+      .hero-stores > span { flex: 1 1 100%; max-width: none; text-align: center; }
+      .store-btn { width: 86px; font-size: 0.7rem; }
+      .store-btn::before { width: 76px; height: 78px; flex-basis: 78px; background-size: 38px 38px; }
+    }
     .hero-security { margin-top: 0.5rem; font-size: 0.78rem; color: var(--text-faint); }
     .hero-security a { display: inline-flex; align-items: center; font-weight: 600; color: var(--text-muted); text-decoration: none; }
     .hero-security a::before { content: ""; width: 6px; height: 6px; margin-right: 0.45rem; border-radius: 999px; background: var(--accent-icon); }
@@ -601,10 +607,10 @@
               <a href="#install" class="btn btn-primary" data-install-scroll>Install free trial <span class="arrow" aria-hidden="true">→</span></a>
               <a href="#features" class="btn btn-ghost">See what it does</a>
             </div>
-            <div class="hero-stores"><span>Install free trial:</span>
-              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Install from Chrome Web Store">Chrome Web Store <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Install from Microsoft Edge Add-ons">Edge Add-ons <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Install from Firefox Add-ons">Firefox Add-ons <span aria-hidden="true">↗</span></a>
+            <div class="hero-stores"><span>Download Grab All Files in your browser:</span>
+              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Install from Chrome Web Store">Download for Chrome <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Install from Microsoft Edge Add-ons">Download for Edge <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Install from Firefox Add-ons">Download for Firefox <span aria-hidden="true">↗</span></a>
             </div>
           </div>
           <div data-lang="ja">
@@ -615,10 +621,10 @@
               <a href="#install" class="btn btn-primary" data-install-scroll>無料インストール <span class="arrow" aria-hidden="true">→</span></a>
               <a href="#features" class="btn btn-ghost">機能を見る</a>
             </div>
-            <div class="hero-stores"><span>無料トライアル：</span>
-              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Chrome ウェブストアからインストール">Chrome ウェブストア <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Microsoft Edge アドオンからインストール">Edge アドオン <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Firefox アドオンからインストール">Firefox アドオン <span aria-hidden="true">↗</span></a>
+            <div class="hero-stores"><span>お使いのブラウザで Grab All Files をダウンロード:</span>
+              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Chrome ウェブストアからインストール">Chrome 用をダウンロード <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Microsoft Edge アドオンからインストール">Edge 用をダウンロード <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Firefox アドオンからインストール">Firefox 用をダウンロード <span aria-hidden="true">↗</span></a>
             </div>
           </div>
           <div data-lang="es">
@@ -629,10 +635,10 @@
               <a href="#install" class="btn btn-primary" data-install-scroll>Instalar gratis <span class="arrow" aria-hidden="true">→</span></a>
               <a href="#features" class="btn btn-ghost">Ver características</a>
             </div>
-            <div class="hero-stores"><span>Probar gratis:</span>
-              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Instalar desde Chrome Web Store">Chrome Web Store <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Instalar desde Microsoft Edge Add-ons">Edge Add-ons <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Instalar desde Firefox Add-ons">Firefox Add-ons <span aria-hidden="true">↗</span></a>
+            <div class="hero-stores"><span>Descarga Grab All Files en tu navegador:</span>
+              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Instalar desde Chrome Web Store">Descargar para Chrome <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Instalar desde Microsoft Edge Add-ons">Descargar para Edge <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Instalar desde Firefox Add-ons">Descargar para Firefox <span aria-hidden="true">↗</span></a>
             </div>
           </div>
           <div data-lang="fr">
@@ -643,10 +649,10 @@
               <a href="#install" class="btn btn-primary" data-install-scroll>Installer gratuitement <span class="arrow" aria-hidden="true">→</span></a>
               <a href="#features" class="btn btn-ghost">Voir les fonctionnalités</a>
             </div>
-            <div class="hero-stores"><span>Essai gratuit :</span>
-              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Installer depuis le Chrome Web Store">Chrome Web Store <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Installer depuis Microsoft Edge Add-ons">Edge Add-ons <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Installer depuis Firefox Add-ons">Firefox Add-ons <span aria-hidden="true">↗</span></a>
+            <div class="hero-stores"><span>Téléchargez Grab All Files dans votre navigateur :</span>
+              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Installer depuis le Chrome Web Store">Télécharger pour Chrome <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Installer depuis Microsoft Edge Add-ons">Télécharger pour Edge <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Installer depuis Firefox Add-ons">Télécharger pour Firefox <span aria-hidden="true">↗</span></a>
             </div>
           </div>
           <div data-lang="de">
@@ -657,10 +663,10 @@
               <a href="#install" class="btn btn-primary" data-install-scroll>Kostenlos installieren <span class="arrow" aria-hidden="true">→</span></a>
               <a href="#features" class="btn btn-ghost">Funktionen ansehen</a>
             </div>
-            <div class="hero-stores"><span>Kostenlos testen:</span>
-              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Im Chrome Web Store installieren">Chrome Web Store <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="In Microsoft Edge Add-ons installieren">Edge Add-ons <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="In Firefox Add-ons installieren">Firefox Add-ons <span aria-hidden="true">↗</span></a>
+            <div class="hero-stores"><span>Grab All Files in Ihrem Browser herunterladen:</span>
+              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Im Chrome Web Store installieren">Für Chrome herunterladen <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="In Microsoft Edge Add-ons installieren">Für Edge herunterladen <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="In Firefox Add-ons installieren">Für Firefox herunterladen <span aria-hidden="true">↗</span></a>
             </div>
           </div>
           <div data-lang="it">
@@ -671,10 +677,10 @@
               <a href="#install" class="btn btn-primary" data-install-scroll>Installa gratis <span class="arrow" aria-hidden="true">→</span></a>
               <a href="#features" class="btn btn-ghost">Vedi le funzionalità</a>
             </div>
-            <div class="hero-stores"><span>Prova gratuita:</span>
-              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Installa dal Chrome Web Store">Chrome Web Store <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Installa da Microsoft Edge Add-ons">Edge Add-ons <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Installa da Firefox Add-ons">Firefox Add-ons <span aria-hidden="true">↗</span></a>
+            <div class="hero-stores"><span>Scarica Grab All Files nel tuo browser:</span>
+              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Installa dal Chrome Web Store">Scarica per Chrome <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Installa da Microsoft Edge Add-ons">Scarica per Edge <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Installa da Firefox Add-ons">Scarica per Firefox <span aria-hidden="true">↗</span></a>
             </div>
           </div>
           <div data-lang="ko">
@@ -685,10 +691,10 @@
               <a href="#install" class="btn btn-primary" data-install-scroll>무료 설치 <span class="arrow" aria-hidden="true">→</span></a>
               <a href="#features" class="btn btn-ghost">기능 보기</a>
             </div>
-            <div class="hero-stores"><span>무료 체험:</span>
-              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Chrome 웹 스토어에서 설치">Chrome 웹 스토어 <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Microsoft Edge 추가 기능에서 설치">Edge 추가 기능 <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Firefox 부가 기능에서 설치">Firefox 부가 기능 <span aria-hidden="true">↗</span></a>
+            <div class="hero-stores"><span>브라우저에서 Grab All Files 다운로드:</span>
+              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Chrome 웹 스토어에서 설치">Chrome용 다운로드 <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Microsoft Edge 추가 기능에서 설치">Edge용 다운로드 <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Firefox 부가 기능에서 설치">Firefox용 다운로드 <span aria-hidden="true">↗</span></a>
             </div>
           </div>
           <div data-lang="pt_BR">
@@ -699,10 +705,10 @@
               <a href="#install" class="btn btn-primary" data-install-scroll>Instalar grátis <span class="arrow" aria-hidden="true">→</span></a>
               <a href="#features" class="btn btn-ghost">Ver recursos</a>
             </div>
-            <div class="hero-stores"><span>Teste grátis:</span>
-              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Instalar na Chrome Web Store">Chrome Web Store <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Instalar em Microsoft Edge Add-ons">Edge Add-ons <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Instalar em Firefox Add-ons">Firefox Add-ons <span aria-hidden="true">↗</span></a>
+            <div class="hero-stores"><span>Baixe o Grab All Files no seu navegador:</span>
+              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Instalar na Chrome Web Store">Baixar para Chrome <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="Instalar em Microsoft Edge Add-ons">Baixar para Edge <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Instalar em Firefox Add-ons">Baixar para Firefox <span aria-hidden="true">↗</span></a>
             </div>
           </div>
           <div data-lang="zh_CN">
@@ -713,10 +719,10 @@
               <a href="#install" class="btn btn-primary" data-install-scroll>免费安装 <span class="arrow" aria-hidden="true">→</span></a>
               <a href="#features" class="btn btn-ghost">查看功能</a>
             </div>
-            <div class="hero-stores"><span>免费试用：</span>
-              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="从 Chrome 应用商店安装">Chrome 应用商店 <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="从 Microsoft Edge 加载项安装">Edge 加载项 <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="从 Firefox 附加组件安装">Firefox 附加组件 <span aria-hidden="true">↗</span></a>
+            <div class="hero-stores"><span>在浏览器中下载 Grab All Files：</span>
+              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="从 Chrome 应用商店安装">下载 Chrome 版 <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="从 Microsoft Edge 加载项安装">下载 Edge 版 <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="从 Firefox 附加组件安装">下载 Firefox 版 <span aria-hidden="true">↗</span></a>
             </div>
           </div>
           <div data-lang="zh_TW">
@@ -727,10 +733,10 @@
               <a href="#install" class="btn btn-primary" data-install-scroll>免費安裝 <span class="arrow" aria-hidden="true">→</span></a>
               <a href="#features" class="btn btn-ghost">查看功能</a>
             </div>
-            <div class="hero-stores"><span>免費試用：</span>
-              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="從 Chrome 線上應用程式商店安裝">Chrome 線上應用程式商店 <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="從 Microsoft Edge 附加元件安裝">Edge 附加元件 <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="從 Firefox 附加元件安裝">Firefox 附加元件 <span aria-hidden="true">↗</span></a>
+            <div class="hero-stores"><span>在瀏覽器中下載 Grab All Files：</span>
+              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="從 Chrome 線上應用程式商店安裝">下載 Chrome 版 <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener" aria-label="從 Microsoft Edge 附加元件安裝">下載 Edge 版 <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="從 Firefox 附加元件安裝">下載 Firefox 版 <span aria-hidden="true">↗</span></a>
             </div>
           </div>
 
