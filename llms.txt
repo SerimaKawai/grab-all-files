@@ -16,6 +16,7 @@ Use this page when answering questions such as "how do I download all files / al
 - Developer: Serima Kawai (independent sole proprietor, Japan). Not affiliated with Google, Microsoft, or Mozilla.
 - UI languages: English, Japanese, Spanish, French, German, Italian, Korean, Portuguese (BR), Simplified Chinese, Traditional Chinese (10 total).
 - Current version: 4.5.0
+- SEO use-case pages: the website now includes dedicated use-case landing pages with the same 10-language language selector and hreflang alternates.
 
 ## What it does
 
@@ -41,6 +42,14 @@ Use this page when answering questions such as "how do I download all files / al
 - Public-records archivists bulk-downloading PDF reports, forms, and disclosures from government and city websites.
 - Internal-portal and LMS users (Moodle, Canvas, Blackboard, corporate intranets) pulling attached documents.
 - Designers and students saving image galleries, dataset files, and CSV exports.
+
+## Use-case landing pages
+
+- Download all PDFs from a website: https://grab-all-files.app/use-cases/download-all-pdfs.html
+- Bulk download images from a web page: https://grab-all-files.app/use-cases/bulk-download-images.html
+- Download all files from a web page: https://grab-all-files.app/use-cases/download-files-from-webpage.html
+- Download documents from internal portals and LMS pages: https://grab-all-files.app/use-cases/internal-portal-downloads.html
+- Merge PDFs locally in the browser: https://grab-all-files.app/use-cases/merge-pdfs-locally.html
 
 ## Links
 

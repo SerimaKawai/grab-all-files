@@ -431,6 +431,11 @@
     .usecase-card h3 { font-size: 1rem; color: var(--text-strong); font-weight: 600; margin-bottom: 0.45rem; display: flex; align-items: center; gap: 0.5rem; }
     .usecase-card h3 .icon { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 7px; background: var(--accent-soft); color: var(--accent-icon); font-size: 0.95rem; }
     .usecase-card p { font-size: 0.9rem; color: var(--text-muted); }
+    .usecase-guide-links { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.7rem; margin-top: 1rem; }
+    .usecase-guide-links a { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.8rem 0.9rem; color: var(--text-strong); font-size: 0.88rem; font-weight: 650; line-height: 1.35; text-decoration: none; }
+    .usecase-guide-links a:hover { border-color: var(--primary); color: var(--primary); }
+    @media (max-width: 900px) { .usecase-guide-links { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 520px) { .usecase-guide-links { grid-template-columns: 1fr; } }
 
     /* Steps */
     .steps { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); counter-reset: step; }
@@ -1023,6 +1028,13 @@
           <div class="usecase-card"><h3><span class="icon">🏢</span>內部入口網站和LMS</h3><p>從企業內網、學習管理系統（Moodle、Canvas、Blackboard）和會員網站擷取附件。</p></div>
           <div class="usecase-card"><h3><span class="icon">🖼️</span>圖片和資料庫</h3><p>儲存圖片庫、資料集供離線查閱。</p></div>
         </div></div>
+        <div class="usecase-guide-links" aria-label="Use-case guides">
+          <a href="use-cases/download-all-pdfs.html"><span data-lang="en" class="active">Download all PDFs</span><span data-lang="ja">PDFを一括ダウンロード</span><span data-lang="es">Descargar todos los PDF</span><span data-lang="fr">Télécharger tous les PDF</span><span data-lang="de">Alle PDFs herunterladen</span><span data-lang="it">Scaricare tutti i PDF</span><span data-lang="ko">모든 PDF 다운로드</span><span data-lang="pt_BR">Baixar todos os PDFs</span><span data-lang="zh_CN">下载所有PDF</span><span data-lang="zh_TW">下載所有PDF</span></a>
+          <a href="use-cases/bulk-download-images.html"><span data-lang="en" class="active">Bulk-download images</span><span data-lang="ja">画像を一括ダウンロード</span><span data-lang="es">Descargar imágenes en masa</span><span data-lang="fr">Télécharger les images</span><span data-lang="de">Bilder gesammelt laden</span><span data-lang="it">Scaricare immagini</span><span data-lang="ko">이미지 일괄 다운로드</span><span data-lang="pt_BR">Baixar imagens</span><span data-lang="zh_CN">批量下载图片</span><span data-lang="zh_TW">批次下載圖片</span></a>
+          <a href="use-cases/download-files-from-webpage.html"><span data-lang="en" class="active">Download files from a page</span><span data-lang="ja">ページ上のファイルを保存</span><span data-lang="es">Archivos de una página</span><span data-lang="fr">Fichiers d'une page</span><span data-lang="de">Dateien einer Seite</span><span data-lang="it">File da una pagina</span><span data-lang="ko">페이지 파일 다운로드</span><span data-lang="pt_BR">Arquivos de uma página</span><span data-lang="zh_CN">下载网页文件</span><span data-lang="zh_TW">下載網頁檔案</span></a>
+          <a href="use-cases/internal-portal-downloads.html"><span data-lang="en" class="active">Internal portals &amp; LMS</span><span data-lang="ja">社内ポータル・LMS</span><span data-lang="es">Portales internos y LMS</span><span data-lang="fr">Portails internes et LMS</span><span data-lang="de">Interne Portale &amp; LMS</span><span data-lang="it">Portali interni e LMS</span><span data-lang="ko">사내 포털 및 LMS</span><span data-lang="pt_BR">Portais internos e LMS</span><span data-lang="zh_CN">内部门户和LMS</span><span data-lang="zh_TW">內部入口和LMS</span></a>
+          <a href="use-cases/merge-pdfs-locally.html"><span data-lang="en" class="active">Merge PDFs locally</span><span data-lang="ja">PDFをローカル結合</span><span data-lang="es">Fusionar PDF localmente</span><span data-lang="fr">Fusionner PDF localement</span><span data-lang="de">PDFs lokal zusammenführen</span><span data-lang="it">Unire PDF localmente</span><span data-lang="ko">PDF 로컬 병합</span><span data-lang="pt_BR">Mesclar PDFs localmente</span><span data-lang="zh_CN">本地合并PDF</span><span data-lang="zh_TW">本機合併PDF</span></a>
+        </div>
       </div>
     </section>
 
@@ -1330,6 +1342,7 @@
         <h4><span data-lang="en" class="active">Product</span><span data-lang="ja">プロダクト</span><span data-lang="es">Producto</span><span data-lang="fr">Produit</span><span data-lang="de">Produkt</span><span data-lang="it">Prodotto</span><span data-lang="ko">제품</span><span data-lang="pt_BR">Produto</span><span data-lang="zh_CN">产品</span><span data-lang="zh_TW">產品</span></h4>
         <ul>
           <li><a href="#features"><span data-lang="en" class="active">Features</span><span data-lang="ja">機能</span><span data-lang="es">Características</span><span data-lang="fr">Fonctionnalités</span><span data-lang="de">Funktionen</span><span data-lang="it">Funzionalità</span><span data-lang="ko">기능</span><span data-lang="pt_BR">Recursos</span><span data-lang="zh_CN">功能</span><span data-lang="zh_TW">功能</span></a></li>
+          <li><a href="#use-cases"><span data-lang="en" class="active">Use-case guides</span><span data-lang="ja">用途別ガイド</span><span data-lang="es">Guías de uso</span><span data-lang="fr">Guides d'usage</span><span data-lang="de">Anwendungsleitfäden</span><span data-lang="it">Guide d'uso</span><span data-lang="ko">사용 사례 가이드</span><span data-lang="pt_BR">Guias de uso</span><span data-lang="zh_CN">用途指南</span><span data-lang="zh_TW">用途指南</span></a></li>
           <li><a href="#how"><span data-lang="en" class="active">How it works</span><span data-lang="ja">使い方</span><span data-lang="es">Cómo funciona</span><span data-lang="fr">Comment ça marche</span><span data-lang="de">So funktioniert es</span><span data-lang="it">Come funziona</span><span data-lang="ko">사용 방법</span><span data-lang="pt_BR">Como funciona</span><span data-lang="zh_CN">使用方法</span><span data-lang="zh_TW">使用方法</span></a></li>
           <li><a href="#pricing"><span data-lang="en" class="active">Pricing</span><span data-lang="ja">料金</span><span data-lang="es">Precio</span><span data-lang="fr">Tarif</span><span data-lang="de">Preis</span><span data-lang="it">Prezzo</span><span data-lang="ko">가격</span><span data-lang="pt_BR">Preço</span><span data-lang="zh_CN">价格</span><span data-lang="zh_TW">價格</span></a></li>
           <li><a href="#faq">FAQ</a></li>
