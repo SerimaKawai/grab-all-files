@@ -8,29 +8,34 @@
   <title>Privacy Policy - Grab All Files</title>
   <script defer src="/analytics.js"></script>
   <link rel="icon" type="image/png" sizes="128x128" href="favicon-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       color-scheme: light;
-      --bg: #f8f9fa; --surface: #ffffff; --surface-alt: #f8fafc; --surface-soft: #f1f5f9;
-      --text: #1a1a1a; --text-strong: #0f172a; --text-muted: #475569; --text-faint: #64748b;
-      --border: #e2e8f0; --border-strong: #cbd5e1;
-      --primary: #2563eb; --primary-hover: #1d4ed8;
-      --accent-soft: #dbeafe; --accent-soft-text: #1e40af;
+      --font-display: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+      --font-body: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif;
+      --bg: #f5f7fb; --surface: #ffffff; --surface-alt: #f3f6fc; --surface-soft: #eef2f9;
+      --text: #2c3650; --text-strong: #0b1020; --text-muted: #54607a; --text-faint: #8893a8;
+      --border: #e7ecf3; --border-strong: #d2dae6;
+      --primary: #2f55ec; --primary-hover: #2143cf;
+      --accent-soft: #e7edff; --accent-soft-text: #243fbf;
       --note-bg: #fffbe6; --note-border: #f59e0b; --note-text: #78350f;
-      --shadow-soft: 0 1px 3px rgba(15,23,42,0.05);
+      --shadow-soft: 0 1px 2px rgba(13,20,38,0.05);
     }
     :root[data-theme="dark"] {
       color-scheme: dark;
-      --bg: #0b1220; --surface: #111827; --surface-alt: #0f172a; --surface-soft: #1f2937;
-      --text: #e2e8f0; --text-strong: #f1f5f9; --text-muted: #cbd5e1; --text-faint: #94a3b8;
-      --border: #1f2937; --border-strong: #334155;
-      --primary: #3b82f6; --primary-hover: #60a5fa;
-      --accent-soft: #1e3a8a; --accent-soft-text: #bfdbfe;
+      --bg: #080b14; --surface: #111726; --surface-alt: #0c1120; --surface-soft: #1a2233;
+      --text: #c2cbdd; --text-strong: #f2f5fc; --text-muted: #97a3bb; --text-faint: #69748a;
+      --border: #1d2535; --border-strong: #2f3a51;
+      --primary: #5e7dff; --primary-hover: #859aff;
+      --accent-soft: #1a2649; --accent-soft-text: #bccbff;
       --note-bg: #2a2310; --note-border: #f59e0b; --note-text: #fde68a;
       --shadow-soft: 0 1px 3px rgba(0,0,0,0.5);
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; min-height: 100vh; display: flex; flex-direction: column; transition: background-color 0.2s ease, color 0.2s ease; -webkit-font-smoothing: antialiased; }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--text); line-height: 1.7; min-height: 100vh; display: flex; flex-direction: column; transition: background-color 0.2s ease, color 0.2s ease; -webkit-font-smoothing: antialiased; }
     a { color: var(--primary); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
@@ -91,6 +96,7 @@
       article table, main table { table-layout: fixed; width: 100%; }
     }
     th, td { overflow-wrap: anywhere; }
+    h1, h2, h3, .page-head h1, .doc h2 { font-family: var(--font-display); }
   </style>
   <script>
     (function(){

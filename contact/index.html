@@ -8,34 +8,39 @@
   <title>Contact - Grab All Files</title>
   <script defer src="/analytics.js"></script>
   <link rel="icon" type="image/png" sizes="128x128" href="../favicon-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="canonical" href="https://grab-all-files.app/contact/">
   <style>
     :root {
       color-scheme: light;
-      --bg: #f8f9fa; --surface: #ffffff; --surface-alt: #f8fafc; --surface-soft: #f1f5f9;
-      --text: #1a1a1a; --text-strong: #0f172a; --text-muted: #475569; --text-faint: #64748b;
-      --border: #e2e8f0; --border-strong: #cbd5e1;
-      --primary: #2563eb; --primary-hover: #1d4ed8; --primary-text: #ffffff; --primary-disabled: #94a3b8;
-      --accent-soft: #dbeafe; --accent-soft-text: #1e40af;
+      --font-display: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+      --font-body: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif;
+      --bg: #f5f7fb; --surface: #ffffff; --surface-alt: #f3f6fc; --surface-soft: #eef2f9;
+      --text: #2c3650; --text-strong: #0b1020; --text-muted: #54607a; --text-faint: #8893a8;
+      --border: #e7ecf3; --border-strong: #d2dae6;
+      --primary: #2f55ec; --primary-hover: #2143cf; --primary-text: #ffffff; --primary-disabled: #9aa6bd;
+      --accent-soft: #e7edff; --accent-soft-text: #243fbf;
       --success-bg: #dcfce7; --success-text: #14532d; --success-border: #86efac;
       --error-bg: #fee2e2; --error-text: #7f1d1d; --error-border: #fca5a5;
-      --shadow-soft: 0 1px 3px rgba(15,23,42,0.05);
-      --shadow-card-lg: 0 1px 2px rgba(15,23,42,0.05), 0 20px 50px -16px rgba(15,23,42,0.18);
+      --shadow-soft: 0 1px 2px rgba(13,20,38,0.05);
+      --shadow-card-lg: 0 2px 6px rgba(13,20,38,0.06), 0 34px 64px -28px rgba(13,20,38,0.30);
     }
     :root[data-theme="dark"] {
       color-scheme: dark;
-      --bg: #0b1220; --surface: #111827; --surface-alt: #0f172a; --surface-soft: #1f2937;
-      --text: #e2e8f0; --text-strong: #f1f5f9; --text-muted: #cbd5e1; --text-faint: #94a3b8;
-      --border: #1f2937; --border-strong: #334155;
-      --primary: #3b82f6; --primary-hover: #60a5fa; --primary-disabled: #475569;
-      --accent-soft: #1e3a8a; --accent-soft-text: #bfdbfe;
+      --bg: #080b14; --surface: #111726; --surface-alt: #0c1120; --surface-soft: #1a2233;
+      --text: #c2cbdd; --text-strong: #f2f5fc; --text-muted: #97a3bb; --text-faint: #69748a;
+      --border: #1d2535; --border-strong: #2f3a51;
+      --primary: #5e7dff; --primary-hover: #859aff; --primary-disabled: #3a465f;
+      --accent-soft: #1a2649; --accent-soft-text: #bccbff;
       --success-bg: #14532d; --success-text: #bbf7d0; --success-border: #16a34a;
       --error-bg: #7f1d1d; --error-text: #fecaca; --error-border: #ef4444;
       --shadow-soft: 0 1px 3px rgba(0,0,0,0.5);
-      --shadow-card-lg: 0 1px 2px rgba(0,0,0,0.5), 0 30px 60px -20px rgba(0,0,0,0.7);
+      --shadow-card-lg: 0 2px 6px rgba(0,0,0,0.5), 0 36px 70px -26px rgba(0,0,0,0.75);
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; transition: background-color 0.2s ease, color 0.2s ease; -webkit-font-smoothing: antialiased; }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; transition: background-color 0.2s ease, color 0.2s ease; -webkit-font-smoothing: antialiased; }
     a { color: var(--primary); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
@@ -116,6 +121,7 @@
   body{overflow-x:hidden}
   @supports (overflow-x:clip){body{overflow-x:clip}}
   ul li{overflow-wrap:anywhere}
+    h1, h2, h3 { font-family: var(--font-display); }
   </style>
   <script>
     (function(){

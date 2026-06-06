@@ -29,6 +29,10 @@
   <link rel="icon" type="image/png" sizes="128x128" href="favicon-128.png">
   <link rel="apple-touch-icon" sizes="128x128" href="favicon-128.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Grab All Files">
   <meta property="og:title" content="Grab All Files - bulk file downloader for Chrome, Edge &amp; Firefox">
@@ -248,35 +252,39 @@
   <style>
     :root {
       color-scheme: light;
-      --bg: #f8f9fa; --surface: #ffffff; --surface-alt: #f8fafc; --surface-soft: #f1f5f9; --surface-deep: #eef2f7;
-      --text: #1a1a1a; --text-strong: #0f172a; --text-muted: #475569; --text-faint: #64748b;
-      --border: #e2e8f0; --border-strong: #cbd5e1;
-      --primary: #2563eb; --primary-hover: #1d4ed8; --primary-text: #ffffff;
-      --accent-soft: #dbeafe; --accent-soft-text: #1e40af; --accent-icon: #2563eb;
-      --check: #16a34a;
-      --footer-bg: #0f172a; --footer-text: #cbd5e1; --footer-link: #93c5fd; --footer-border: #1e293b; --footer-meta: #94a3b8; --footer-h: #f8fafc;
-      --shadow-soft: 0 1px 3px rgba(15,23,42,0.05);
-      --shadow-card: 0 1px 2px rgba(15,23,42,0.04), 0 4px 18px rgba(15,23,42,0.04);
-      --shadow-card-lg: 0 1px 2px rgba(15,23,42,0.05), 0 20px 50px -16px rgba(15,23,42,0.18);
-      --shadow-primary: 0 8px 24px rgba(37,99,235,0.18);
+      --font-display: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+      --font-body: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif;
+      --bg: #f5f7fb; --surface: #ffffff; --surface-alt: #f3f6fc; --surface-soft: #eef2f9; --surface-deep: #e5ebf5;
+      --text: #2c3650; --text-strong: #0b1020; --text-muted: #54607a; --text-faint: #8893a8;
+      --border: #e7ecf3; --border-strong: #d2dae6;
+      --primary: #2f55ec; --primary-hover: #2143cf; --primary-text: #ffffff;
+      --accent-soft: #e7edff; --accent-soft-text: #243fbf; --accent-icon: #2f55ec;
+      --check: #18a558;
+      --footer-bg: #0a0e1a; --footer-text: #aab4c8; --footer-link: #9db4ff; --footer-border: #1a2236; --footer-meta: #7b8499; --footer-h: #f4f7fc;
+      --shadow-soft: 0 1px 2px rgba(13,20,38,0.05);
+      --shadow-card: 0 1px 3px rgba(13,20,38,0.05), 0 10px 28px -16px rgba(13,20,38,0.12);
+      --shadow-card-lg: 0 2px 6px rgba(13,20,38,0.06), 0 34px 64px -28px rgba(13,20,38,0.30);
+      --shadow-primary: 0 12px 30px -10px rgba(47,85,236,0.5);
     }
     :root[data-theme="dark"] {
       color-scheme: dark;
-      --bg: #0b1220; --surface: #111827; --surface-alt: #0f172a; --surface-soft: #1f2937; --surface-deep: #0a1019;
-      --text: #e2e8f0; --text-strong: #f1f5f9; --text-muted: #cbd5e1; --text-faint: #94a3b8;
-      --border: #1f2937; --border-strong: #334155;
-      --primary: #3b82f6; --primary-hover: #60a5fa;
-      --accent-soft: #1e3a8a; --accent-soft-text: #bfdbfe; --accent-icon: #93c5fd;
-      --check: #4ade80;
-      --footer-bg: #04070d; --footer-text: #94a3b8; --footer-border: #1f2937; --footer-meta: #64748b; --footer-h: #f1f5f9;
+      --bg: #080b14; --surface: #111726; --surface-alt: #0c1120; --surface-soft: #1a2233; --surface-deep: #05080f;
+      --text: #c2cbdd; --text-strong: #f2f5fc; --text-muted: #97a3bb; --text-faint: #69748a;
+      --border: #1d2535; --border-strong: #2f3a51;
+      --primary: #5e7dff; --primary-hover: #859aff;
+      --accent-soft: #1a2649; --accent-soft-text: #bccbff; --accent-icon: #93a8ff;
+      --check: #45d483;
+      --footer-bg: #04060c; --footer-text: #8f9bb2; --footer-link: #9db4ff; --footer-border: #1a2236; --footer-meta: #606a80; --footer-h: #f2f5fc;
       --shadow-soft: 0 1px 3px rgba(0,0,0,0.5);
-      --shadow-card: 0 1px 2px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.35);
-      --shadow-card-lg: 0 1px 2px rgba(0,0,0,0.5), 0 30px 60px -20px rgba(0,0,0,0.7);
-      --shadow-primary: 0 8px 24px rgba(0,0,0,0.6);
+      --shadow-card: 0 1px 2px rgba(0,0,0,0.45), 0 12px 30px -14px rgba(0,0,0,0.6);
+      --shadow-card-lg: 0 2px 6px rgba(0,0,0,0.5), 0 36px 70px -26px rgba(0,0,0,0.75);
+      --shadow-primary: 0 12px 32px -10px rgba(0,0,0,0.7);
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif; line-height: 1.65; color: var(--text); background: var(--bg); transition: background-color 0.2s ease, color 0.2s ease; -webkit-font-smoothing: antialiased; }
+    body { font-family: var(--font-body); line-height: 1.65; color: var(--text); background: var(--bg); transition: background-color 0.2s ease, color 0.2s ease; -webkit-font-smoothing: antialiased; letter-spacing: -0.005em; }
+    h1, h2, h3 { font-family: var(--font-display); }
+    .brand-name, .pricing-card .price, .latest-badge strong, .hero-trust .ti strong, .detect-core h3 { font-family: var(--font-display); }
     img { max-width: 100%; height: auto; display: block; }
     a { color: inherit; }
 
@@ -316,7 +324,7 @@
 
     /* Hero */
     .hero { padding: 4.5rem 0 4rem; position: relative; overflow: hidden; }
-    .hero::before { content: ""; position: absolute; inset: 0; background: radial-gradient(800px 380px at 14% 0%, color-mix(in srgb, var(--primary) 10%, transparent), transparent 60%), radial-gradient(700px 340px at 90% 30%, color-mix(in srgb, var(--primary) 7%, transparent), transparent 65%); pointer-events: none; }
+    .hero::before { content: ""; position: absolute; inset: 0; background: radial-gradient(900px 460px at 80% -12%, color-mix(in srgb, var(--primary) 14%, transparent), transparent 60%), linear-gradient(to right, color-mix(in srgb, var(--border) 60%, transparent) 1px, transparent 1px), linear-gradient(to bottom, color-mix(in srgb, var(--border) 60%, transparent) 1px, transparent 1px); background-size: 100% 100%, 54px 54px, 54px 54px; -webkit-mask-image: radial-gradient(125% 92% at 50% 0%, #000 52%, transparent 100%); mask-image: radial-gradient(125% 92% at 50% 0%, #000 52%, transparent 100%); pointer-events: none; }
     .hero-grid { display: grid; gap: 3rem; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); align-items: center; position: relative; }
     @media (max-width: 940px) { .hero-grid { grid-template-columns: 1fr; gap: 2.5rem; } }
     .hero-eyebrow { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 0.3rem 0.5rem; background: var(--surface); border: 1px solid var(--border); color: var(--text-strong); padding: 0.3rem 0.75rem 0.3rem 0.4rem; border-radius: 999px; font-size: 0.78rem; font-weight: 500; box-shadow: var(--shadow-soft); }
@@ -564,6 +572,104 @@
       .nav-controls { gap: 0.3rem; }
       .lang-sel { max-width: 96px; }
       .nav-cta { padding: 0 0.7rem; }
+    }
+
+    /* ── Design refresh (icons + component polish) ─────────── */
+    .feature-card .tile svg { width: 22px; height: 22px; display: block; }
+    .usecase-card h3 .icon svg, .pricing-aside .mini-card h4 .icon svg { width: 16px; height: 16px; display: block; }
+    .logos-inner .role .icon svg { width: 17px; height: 17px; display: block; }
+    .mock-search svg, .mock-footer-actions .mock-btn svg { width: 14px; height: 14px; display: block; }
+
+    .feature-card { border-radius: 16px; padding: 1.55rem 1.5rem 1.65rem; transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease; }
+    .feature-card:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--primary) 30%, var(--border)); box-shadow: var(--shadow-card); }
+    .feature-card h3 { font-size: 1.05rem; letter-spacing: -0.01em; }
+    .feature-card .tile {
+      width: 46px; height: 46px; border-radius: 13px; font-size: 0;
+      background: linear-gradient(150deg, color-mix(in srgb, var(--primary) 18%, var(--surface)), color-mix(in srgb, var(--primary) 6%, var(--surface)));
+      color: var(--accent-icon);
+      box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--primary) 18%, transparent);
+      margin-bottom: 1.05rem;
+    }
+
+    .usecase-card h3 .icon, .pricing-aside .mini-card h4 .icon { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--primary) 16%, transparent); }
+    .usecase-card, .step, .pricing-aside .mini-card { border-radius: 14px; }
+
+    .btn { border-radius: 11px; padding: 0.8rem 1.2rem; }
+    .nav-cta { border-radius: 10px; font-weight: 700; }
+    .mock-btn { border-radius: 8px; }
+    .mock-window { border-radius: 16px; }
+
+    .section-eyebrow {
+      background: color-mix(in srgb, var(--primary) 9%, var(--surface));
+      color: var(--accent-soft-text);
+      box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--primary) 18%, transparent);
+      font-weight: 700; letter-spacing: 0.07em;
+    }
+    .hero-eyebrow { box-shadow: var(--shadow-soft), inset 0 0 0 1px color-mix(in srgb, var(--primary) 9%, transparent); }
+    .hero h1 { letter-spacing: -0.032em; }
+
+    .latest-panel { border-radius: 20px; }
+    .pricing-card { border-radius: 20px; }
+    .cta-strip { border-radius: 22px; }
+
+    .logos-strip { background: var(--surface-alt); }
+    .logos-inner { gap: 1rem 2rem; }
+    .logos-inner .role { font-weight: 600; gap: 0.55rem; }
+    .logos-inner .role .icon {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 30px; height: 30px; border-radius: 8px; color: var(--primary);
+      background: color-mix(in srgb, var(--primary) 9%, var(--surface));
+      box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--primary) 16%, transparent);
+    }
+
+    /* ── Download buttons restyle (browser stores) ────────── */
+    .hero-stores {
+      display: flex; flex-wrap: wrap; align-items: center; gap: 0.55rem;
+      width: 100%; max-width: 540px; margin-top: 1.1rem;
+      padding: 0; background: none; border: 0; border-radius: 0; box-shadow: none;
+    }
+    .hero-stores > span {
+      flex: 1 1 100%; max-width: none; margin-bottom: 0.2rem;
+      color: var(--text-muted); font-size: 0.82rem; font-weight: 600; letter-spacing: 0.01em; line-height: 1.4;
+    }
+    .store-btn {
+      display: inline-flex; flex-direction: row; align-items: center; gap: 0.55rem;
+      width: auto; min-height: 0; padding: 0.66rem 1rem;
+      color: var(--text-strong); font-size: 0.86rem; font-weight: 600; line-height: 1;
+      text-align: left; text-decoration: none; white-space: nowrap;
+      background: var(--surface); border: 1px solid var(--border-strong); border-radius: 11px;
+      box-shadow: var(--shadow-soft);
+      transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+    .store-btn::before {
+      content: ""; width: 20px; height: 20px; flex: 0 0 20px;
+      background-color: transparent; background-position: center; background-repeat: no-repeat;
+      background-size: 20px 20px; border-radius: 0; box-shadow: none;
+    }
+    .store-btn::after {
+      content: "↗"; margin-left: 0.15rem; color: var(--text-faint); font-size: 0.82rem; font-weight: 600;
+      transition: transform 0.15s ease, color 0.15s ease;
+    }
+    .store-btn:hover {
+      color: var(--primary); border-color: color-mix(in srgb, var(--primary) 55%, var(--border-strong));
+      background: color-mix(in srgb, var(--primary) 6%, var(--surface));
+      transform: translateY(-1px); box-shadow: var(--shadow-card); text-decoration: none;
+    }
+    .store-btn:hover::after { color: var(--primary); transform: translate(2px, -2px); }
+    .store-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+
+    /* Pricing variant: full-width stacked buttons */
+    .pricing-stores { width: 100%; max-width: none; margin: 0 0 0.3rem; padding: 0; gap: 0.55rem; justify-content: flex-start; background: none; border: 0; box-shadow: none; }
+    .pricing-stores > span { flex: 1 1 100%; max-width: none; color: var(--text-muted); }
+    .pricing-stores .store-btn { width: 100%; min-height: 0; font-size: 0.9rem; justify-content: flex-start; }
+    .pricing-stores .store-btn::before { width: 20px; height: 20px; flex-basis: 20px; background-size: 20px 20px; box-shadow: none; }
+    .pricing-stores .store-btn::after { margin-left: auto; }
+
+    @media (max-width: 560px) {
+      .hero-stores { width: 100%; }
+      .store-btn { width: 100%; justify-content: flex-start; }
+      .store-btn::after { margin-left: auto; }
+      .store-btn::before { width: 20px; height: 20px; flex-basis: 20px; background-size: 20px 20px; }
     }
   </style>
 
@@ -1670,6 +1776,38 @@
         });
       } catch (_) {}
     }
+  </script>
+  <script>
+  /* Emoji → unified SVG line icons (added in design refresh) */
+  (function(){
+    var A = 'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"';
+    var P = {
+      '\u{1F50E}': '<circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/>',
+      '\u2699':    '<path d="M4 6h9"/><path d="M17 6h3"/><path d="M4 12h3"/><path d="M11 12h9"/><path d="M4 18h6"/><path d="M14 18h6"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="12" cy="18" r="2"/>',
+      '\u{1F578}': '<circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="6" r="2.6"/><circle cx="18" cy="18" r="2.6"/><path d="M8.3 10.8l7.2-3.4"/><path d="M8.3 13.2l7.2 3.4"/>',
+      '\u{1F4DA}': '<path d="M12 4l8 4-8 4-8-4 8-4z"/><path d="M4 12l8 4 8-4"/><path d="M4 16l8 4 8-4"/>',
+      '\u{1F5DC}': '<path d="M5 7l1.4-3h11.2L19 7"/><rect x="5" y="7" width="14" height="13" rx="1.6"/><path d="M10 11.5h4"/><path d="M10 14.5h4"/>',
+      '\u{1F4CA}': '<path d="M4 20h16"/><rect x="6" y="11" width="3" height="6" rx="0.6"/><rect x="11" y="7" width="3" height="10" rx="0.6"/><rect x="16" y="13" width="3" height="4" rx="0.6"/>',
+      '\u{1F510}': '<rect x="4.5" y="10" width="15" height="10" rx="2.2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><path d="M9.4 15l1.7 1.7 3.4-3.4"/>',
+      '\u{1F6E1}': '<path d="M12 3l7 3v5c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/>',
+      '\u{1F3DB}': '<path d="M4 9l8-5 8 5"/><path d="M5 9v8"/><path d="M9.5 9v8"/><path d="M14.5 9v8"/><path d="M19 9v8"/><path d="M3.5 20h17"/>',
+      '\u{1F393}': '<path d="M3 8.5l9-4 9 4-9 4-9-4z"/><path d="M7 11v4.2c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5V11"/><path d="M21 8.5V13"/>',
+      '\u{1F3E2}': '<rect x="5" y="3.5" width="14" height="17" rx="1.5"/><path d="M9 7h2"/><path d="M13 7h2"/><path d="M9 11h2"/><path d="M13 11h2"/><path d="M9 15h2"/><path d="M13 15h2"/><path d="M3.5 20.5h17"/>',
+      '\u{1F5BC}': '<rect x="4" y="5" width="16" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M5 17l4.5-4 3 2.5L16 11l3 3.2"/>',
+      '\u{1F512}': '<rect x="4.5" y="10" width="15" height="10" rx="2.2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15" r="1.3"/>',
+      '\u{1F4B3}': '<rect x="3.5" y="6" width="17" height="12" rx="2"/><path d="M3.5 10h17"/><path d="M7 14.5h4"/>',
+      '\u{1F310}': '<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17"/><path d="M12 3.5c2.5 2.4 2.5 14.6 0 17"/><path d="M12 3.5c-2.5 2.4-2.5 14.6 0 17"/>',
+      '\u{1F4D1}': '<path d="M7 3.5h7l4 4V20a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4.5a1 1 0 0 1 1-1z"/><path d="M13.5 3.5V8h4"/><path d="M9 13h6"/><path d="M9 16.5h4"/>',
+      '\u{1F3A8}': '<path d="M12 3.5a8.5 8.5 0 0 0 0 17c1.4 0 2-1 2-2 0-1.3-1-1.6-1-2.6 0-.8.7-1.4 1.6-1.4H17a4 4 0 0 0 4-4c0-3.9-4-7-9-7z"/><circle cx="8" cy="11" r="1"/><circle cx="12" cy="8" r="1"/><circle cx="16" cy="11" r="1"/>',
+      '\u2B07':    '<path d="M12 4v10"/><path d="M8 11l4 4 4-4"/><path d="M5 19h14"/>'
+    };
+    function svg(p){ return '<svg ' + A + '>' + p + '</svg>'; }
+    var sel = '.feature-card .tile, .usecase-card h3 .icon, .pricing-aside .mini-card h4 .icon, .logos-inner .role .icon, .mock-search > span[aria-hidden], .mock-footer-actions .mock-btn > span[aria-hidden]';
+    document.querySelectorAll(sel).forEach(function(el){
+      var key = el.textContent.replace(/[\uFE0F\s]/g, '');
+      if (P[key]) { el.innerHTML = svg(P[key]); el.setAttribute('aria-hidden', 'true'); }
+    });
+  })();
   </script>
 </body>
 </html>
