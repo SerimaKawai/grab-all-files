@@ -346,6 +346,7 @@
     .store-btn { display: inline-flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 0.55rem; width: 92px; min-height: 112px; padding: 0; color: #3550a8; font-size: 0.72rem; line-height: 1.35; font-weight: 500; text-align: center; text-decoration: underline; text-underline-offset: 2px; white-space: normal; background: transparent; border: 0; border-radius: 10px; transition: color 0.15s ease, transform 0.15s ease; }
     .store-btn::before { content: ""; width: 82px; height: 84px; flex: 0 0 84px; background-color: #fff; background-position: center; background-repeat: no-repeat; background-size: 42px 42px; border-radius: 9px; box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08); }
     .store-btn > span { display: none; }
+    .pricing-stores .store-btn > [data-lang].active { display: inline; }
     .store-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 4px; }
     .store-btn:hover { color: var(--primary); transform: translateY(-2px); }
     .store-btn[href*="chromewebstore.google.com"]::before { background-image: url("assets/browser-logos/chrome.svg"); }
@@ -490,7 +491,14 @@
     .pricing-card ul li { font-size: 0.92rem; color: var(--text-muted); padding: 0.35rem 0; display: flex; align-items: flex-start; gap: 0.55rem; }
     .pricing-card ul li::before { content: "✓"; color: var(--check); font-weight: 700; flex-shrink: 0; }
     .pricing-card .pricing-cta { display: flex; flex-wrap: wrap; gap: 0.55rem; position: relative; }
-    .pricing-card .pricing-cta .btn { flex: 1 1 100%; justify-content: center; text-align: center; }
+    .pricing-stores { flex: 1 1 100%; width: 100%; max-width: none; margin: 0 0 0.2rem; justify-content: space-between; gap: 0.9rem; padding: 0.85rem 1rem; }
+    .pricing-stores > span { flex: 1 1 145px; max-width: 185px; }
+    .pricing-stores .store-btn { width: 86px; min-height: 108px; font-size: 0.7rem; }
+    .pricing-stores .store-btn::before { width: 78px; height: 80px; flex-basis: 80px; background-size: 40px 40px; }
+    @media (max-width: 560px) {
+      .pricing-stores { justify-content: center; padding: 1rem; }
+      .pricing-stores > span { flex: 1 1 100%; max-width: none; text-align: center; }
+    }
     .pricing-aside { display: grid; align-content: center; gap: 1rem; }
     .pricing-aside .mini-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.1rem 1.3rem; }
     .pricing-aside .mini-card h4 { font-size: 0.92rem; color: var(--text-strong); font-weight: 600; margin-bottom: 0.3rem; display: flex; align-items: center; gap: 0.45rem; }
@@ -1238,6 +1246,20 @@
             <div data-lang="zh_CN"><ul><li>14天免费试用</li><li>永久授权，无订阅</li><li>最多3台设备</li><li>免费更新</li><li>Stripe支付，许可证密钥邮件发送</li></ul></div>
             <div data-lang="zh_TW"><ul><li>14天免費試用</li><li>永久授權，無訂閱</li><li>最多3台裝置</li><li>免費更新</li><li>Stripe付款，授權金鑰電子郵件寄送</li></ul></div>
             <div class="pricing-cta">
+              <div class="hero-stores pricing-stores">
+                <span>
+                  <span data-lang="en" class="active">Download Grab All Files in your browser:</span><span data-lang="ja">お使いのブラウザで Grab All Files をダウンロード:</span><span data-lang="es">Descarga Grab All Files en tu navegador:</span><span data-lang="fr">Téléchargez Grab All Files dans votre navigateur :</span><span data-lang="de">Grab All Files in Ihrem Browser herunterladen:</span><span data-lang="it">Scarica Grab All Files nel tuo browser:</span><span data-lang="ko">브라우저에서 Grab All Files 다운로드:</span><span data-lang="pt_BR">Baixe o Grab All Files no seu navegador:</span><span data-lang="zh_CN">在浏览器中下载 Grab All Files：</span><span data-lang="zh_TW">在瀏覽器中下載 Grab All Files：</span>
+                </span>
+                <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">
+                  <span data-lang="en" class="active">Download for Chrome</span><span data-lang="ja">Chrome 用をダウンロード</span><span data-lang="es">Descargar para Chrome</span><span data-lang="fr">Télécharger pour Chrome</span><span data-lang="de">Für Chrome herunterladen</span><span data-lang="it">Scarica per Chrome</span><span data-lang="ko">Chrome용 다운로드</span><span data-lang="pt_BR">Baixar para Chrome</span><span data-lang="zh_CN">下载 Chrome 版</span><span data-lang="zh_TW">下載 Chrome 版</span>
+                </a>
+                <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn" target="_blank" rel="noopener">
+                  <span data-lang="en" class="active">Download for Edge</span><span data-lang="ja">Edge 用をダウンロード</span><span data-lang="es">Descargar para Edge</span><span data-lang="fr">Télécharger pour Edge</span><span data-lang="de">Für Edge herunterladen</span><span data-lang="it">Scarica per Edge</span><span data-lang="ko">Edge용 다운로드</span><span data-lang="pt_BR">Baixar para Edge</span><span data-lang="zh_CN">下载 Edge 版</span><span data-lang="zh_TW">下載 Edge 版</span>
+                </a>
+                <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">
+                  <span data-lang="en" class="active">Download for Firefox</span><span data-lang="ja">Firefox 用をダウンロード</span><span data-lang="es">Descargar para Firefox</span><span data-lang="fr">Télécharger pour Firefox</span><span data-lang="de">Für Firefox herunterladen</span><span data-lang="it">Scarica per Firefox</span><span data-lang="ko">Firefox용 다운로드</span><span data-lang="pt_BR">Baixar para Firefox</span><span data-lang="zh_CN">下载 Firefox 版</span><span data-lang="zh_TW">下載 Firefox 版</span>
+                </a>
+              </div>
               <a class="btn btn-ghost" href="purchase/">
                 <span data-lang="en" class="active">Buy license — $19.99</span><span data-lang="ja">ライセンス購入 — $19.99</span><span data-lang="es">Comprar — $19.99</span><span data-lang="fr">Acheter — $19.99</span><span data-lang="de">Jetzt kaufen — $19.99</span><span data-lang="it">Acquista — $19.99</span><span data-lang="ko">구매 — $19.99</span><span data-lang="pt_BR">Comprar — $19.99</span><span data-lang="zh_CN">立即购买 — $19.99</span><span data-lang="zh_TW">立即購買 — $19.99</span>
               </a>
