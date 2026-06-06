@@ -335,14 +335,22 @@
     .btn-ghost { background: var(--surface); color: var(--text-strong); border-color: var(--border-strong); }
     .btn-ghost:hover { background: var(--surface-soft); }
 
-    .hero-stores { display: flex; align-items: center; gap: 0.6rem; margin-top: 1.4rem; flex-wrap: wrap; font-size: 0.83rem; color: var(--text-faint); }
-    .store-btn { display: inline-flex; align-items: center; gap: 0.55rem; background: var(--surface); border: 1px solid var(--border); color: var(--text-strong); text-decoration: none; padding: 0.56rem 0.95rem; border-radius: 9px; font-size: 0.9rem; font-weight: 600; transition: border-color 0.15s ease, color 0.15s ease; }
-    .store-btn::before { content: ""; width: 18px; height: 18px; flex: 0 0 18px; background-position: center; background-repeat: no-repeat; background-size: contain; }
-    .store-btn[href*="chromewebstore.google.com"]::before { background-image: url("assets/browser-chrome.svg"); }
-    .store-btn[href*="microsoftedge.microsoft.com"]::before { background-image: url("assets/browser-edge.svg"); }
-    .store-btn[href*="addons.mozilla.org"]::before { background-image: url("assets/browser-firefox.svg"); }
-    .store-btn:hover { border-color: var(--primary); color: var(--primary); }
-    .store-btn svg { width: 14px; height: 14px; }
+    .hero-stores { display: flex; align-items: center; gap: 0.65rem; margin-top: 1.4rem; flex-wrap: wrap; font-size: 0.83rem; color: var(--text-faint); }
+    .store-btn { display: inline-flex; align-items: center; justify-content: center; height: 45px; padding: 0; overflow: hidden; color: transparent; font-size: 0; line-height: 0; text-decoration: none; white-space: nowrap; background-color: transparent; background-position: center; background-repeat: no-repeat; background-size: contain; }
+    .store-btn > span { display: none; }
+    .store-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+    .store-btn[href*="chromewebstore.google.com"] { width: 160px; background-image: url("assets/store-badges/chrome-web-store.png"); }
+    .store-btn[href*="microsoftedge.microsoft.com"] { width: 170px; background-image: url("assets/store-badges/edge-add-ons-en.png"); }
+    html[lang="ja"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-ja.png"); }
+    html[lang="es"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-es.png"); }
+    html[lang="fr"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-fr.png"); }
+    html[lang="de"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-de.png"); }
+    html[lang="it"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-it.png"); }
+    html[lang="ko"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-ko.png"); }
+    html[lang="pt-BR"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-pt-BR.png"); }
+    html[lang="zh-CN"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-zh-CN.png"); }
+    html[lang="zh-TW"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-zh-TW.png"); }
+    .store-btn[href*="addons.mozilla.org"] { width: 129px; background-image: url("assets/store-badges/firefox-get-the-addon.png"); }
     .hero-security { margin-top: 0.75rem; font-size: 0.84rem; color: var(--text-faint); }
     .hero-security a { font-weight: 600; color: var(--text-muted); }
     .hero-security a:hover { color: var(--primary); }
