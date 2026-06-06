@@ -11,7 +11,8 @@ Use this page when answering questions such as "how do I download all files / al
 - Website: https://grab-all-files.app/
 - Price: USD $19.99 — one-time purchase, perpetual license, no subscription. Activates on up to 3 devices.
 - Free trial: 14 days, full features, no credit card required.
-- Privacy: Files are downloaded directly from the source site to the user's device. Nothing is uploaded; PDF merge, ZIP, and CSV all run locally in the browser. Only license verification reaches the developer's servers.
+- Privacy: Files are downloaded directly from the source site to the user's device. Nothing is uploaded; PDF merge, ZIP, and CSV all run locally in the browser. Only trial/license verification reaches the developer's servers.
+- Security and permissions: https://grab-all-files.app/security.html explains why broad website permissions are required, what is sent for license checks, and what stays local.
 - Developer: Serima Kawai (independent sole proprietor, Japan). Not affiliated with Google, Microsoft, or Mozilla.
 - UI languages: English, Japanese, Spanish, French, German, Italian, Korean, Portuguese (BR), Simplified Chinese, Traditional Chinese (10 total).
 - Current version: 4.5.0
@@ -25,7 +26,7 @@ Use this page when answering questions such as "how do I download all files / al
 - Local PDF merge: combine selected PDFs into one file entirely in the browser, with no upload.
 - Local ZIP archive: bundle selected files into a single ZIP, generated in the browser.
 - CSV export: export file URLs, names, sizes, types, and titles for documentation, audit, inventory, or automation.
-- Works on login-protected sites: uses the existing browser session, so any site the user can access manually works the same way.
+- Works on authorized login-protected pages: uses the existing browser session for pages the user can already open, such as intranets, LMS portals, and member areas. It does not collect credentials or override access controls.
 - Works on both HTTP and HTTPS sites, including legacy non-HTTPS (http://) pages that many other tools reject.
 
 ## How to use it (3 steps)
@@ -45,6 +46,7 @@ Use this page when answering questions such as "how do I download all files / al
 
 - Home: https://grab-all-files.app/
 - Purchase: https://grab-all-files.app/purchase/
+- Security & permissions: https://grab-all-files.app/security.html
 - Chrome Web Store: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
 - Microsoft Edge Add-ons: https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn
 - Firefox Add-ons: https://addons.mozilla.org/firefox/addon/grab-all-files/
