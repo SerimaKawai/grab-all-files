@@ -4,9 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
-  <title>Security & Permissions / セキュリティと権限 - Grab All Files</title>
-  <meta name="description" content="How Grab All Files handles permissions, local file processing, license verification, and privacy-sensitive browser extension access.">
+  <title>Security and permissions | Grab All Files</title>
+  <meta name="description" content="How Grab All Files handles browser permissions, local file processing, license verification, and privacy-sensitive access.">
   <link rel="canonical" href="https://grab-all-files.app/security.html">
+  <link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html">
+  <link rel="alternate" hreflang="en" href="https://grab-all-files.app/security.html?lang=en">
+  <link rel="alternate" hreflang="ja" href="https://grab-all-files.app/security.html?lang=ja">
+  <link rel="alternate" hreflang="es" href="https://grab-all-files.app/security.html?lang=es">
+  <link rel="alternate" hreflang="fr" href="https://grab-all-files.app/security.html?lang=fr">
+  <link rel="alternate" hreflang="de" href="https://grab-all-files.app/security.html?lang=de">
+  <link rel="alternate" hreflang="it" href="https://grab-all-files.app/security.html?lang=it">
+  <link rel="alternate" hreflang="ko" href="https://grab-all-files.app/security.html?lang=ko">
+  <link rel="alternate" hreflang="pt-BR" href="https://grab-all-files.app/security.html?lang=pt_BR">
+  <link rel="alternate" hreflang="zh-CN" href="https://grab-all-files.app/security.html?lang=zh_CN">
+  <link rel="alternate" hreflang="zh-TW" href="https://grab-all-files.app/security.html?lang=zh_TW">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Grab All Files">
+  <meta property="og:title" content="Security and permissions | Grab All Files">
+  <meta property="og:description" content="How Grab All Files handles browser permissions, local file processing, license verification, and privacy-sensitive access.">
+  <meta property="og:url" content="https://grab-all-files.app/security.html">
+  <meta property="og:image" content="https://grab-all-files.app/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Security and permissions | Grab All Files">
+  <meta name="twitter:description" content="How Grab All Files handles browser permissions, local file processing, license verification, and privacy-sensitive access.">
+  <meta name="twitter:image" content="https://grab-all-files.app/og-image.png">
   <script defer src="/analytics.js"></script>
   <link rel="icon" type="image/png" sizes="128x128" href="favicon-128.png">
   <style>
@@ -14,18 +35,19 @@
       color-scheme: light;
       --bg: #f8fafc;
       --surface: #ffffff;
-      --surface-alt: #f1f5f9;
+      --surface-alt: #eef2f7;
       --text: #1f2937;
       --text-strong: #0f172a;
       --text-muted: #475569;
+      --text-faint: #64748b;
       --border: #e2e8f0;
+      --border-strong: #cbd5e1;
       --primary: #2563eb;
       --primary-hover: #1d4ed8;
-      --accent: #dbeafe;
-      --accent-text: #1e40af;
-      --ok: #16a34a;
-      --warn: #b45309;
-      --shadow: 0 16px 36px rgba(15, 23, 42, 0.08);
+      --primary-text: #ffffff;
+      --accent-soft: #ccfbf1;
+      --accent-text: #0f766e;
+      --shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
     }
     :root[data-theme="dark"] {
       color-scheme: dark;
@@ -35,12 +57,15 @@
       --text: #e2e8f0;
       --text-strong: #f8fafc;
       --text-muted: #cbd5e1;
+      --text-faint: #94a3b8;
       --border: #334155;
+      --border-strong: #475569;
       --primary: #60a5fa;
       --primary-hover: #93c5fd;
-      --accent: #1e3a8a;
-      --accent-text: #bfdbfe;
-      --shadow: 0 16px 36px rgba(0, 0, 0, 0.36);
+      --primary-text: #0f172a;
+      --accent-soft: #134e4a;
+      --accent-text: #99f6e4;
+      --shadow: 0 18px 40px rgba(0, 0, 0, 0.36);
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -48,30 +73,27 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif;
       background: var(--bg);
       color: var(--text);
-      line-height: 1.7;
+      line-height: 1.68;
       -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
     }
     a { color: var(--primary); text-decoration: none; }
     a:hover { text-decoration: underline; }
     .topbar {
       position: sticky;
       top: 0;
-      z-index: 10;
-      background: color-mix(in srgb, var(--bg) 88%, transparent);
+      z-index: 20;
       border-bottom: 1px solid var(--border);
+      background: color-mix(in srgb, var(--bg) 90%, transparent);
       backdrop-filter: blur(14px);
     }
-    .topbar-inner, main, footer {
-      max-width: 1080px;
-      margin: 0 auto;
-      padding-left: 1.4rem;
-      padding-right: 1.4rem;
-    }
     .topbar-inner {
-      min-height: 58px;
+      max-width: 1120px;
+      min-height: 62px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
       display: flex;
       align-items: center;
-      justify-content: space-between;
       gap: 1rem;
     }
     .brand {
@@ -79,114 +101,126 @@
       align-items: center;
       gap: 0.55rem;
       color: var(--text-strong);
-      font-weight: 700;
+      font-weight: 750;
+      white-space: nowrap;
     }
-    .brand img { width: 28px; height: 28px; border-radius: 7px; }
-    .top-links { display: flex; align-items: center; gap: 0.85rem; flex-wrap: wrap; font-size: 0.88rem; }
-    .hero {
-      padding: 3.6rem 1.4rem 2rem;
+    .brand img { width: 30px; height: 30px; border-radius: 8px; }
+    .nav-links { display: flex; align-items: center; gap: 0.9rem; font-size: 0.9rem; }
+    .nav-links a { color: var(--text-muted); }
+    .nav-links a:hover { color: var(--primary); }
+    .nav-spacer { flex: 1; }
+    .nav-controls { display: inline-flex; align-items: center; gap: 0.45rem; }
+    .lang-sel, .icon-btn {
+      min-height: 36px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      border-radius: 8px;
+      font: inherit;
     }
-    .hero-inner {
-      max-width: 1080px;
+    .lang-sel { padding: 0 0.55rem; max-width: 148px; }
+    .icon-btn {
+      width: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .theme-icon-light { display: none; }
+    :root[data-theme="dark"] .theme-icon-dark { display: none; }
+    :root[data-theme="dark"] .theme-icon-light { display: inline; }
+    main {
+      max-width: 1120px;
       margin: 0 auto;
+      padding: 3.1rem 1.25rem 3.4rem;
+    }
+    .hero {
       display: grid;
-      grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.8fr);
+      grid-template-columns: minmax(0, 1.08fr) minmax(290px, 0.82fr);
       gap: 2rem;
       align-items: start;
-    }
-    @media (max-width: 820px) {
-      .hero-inner { grid-template-columns: 1fr; }
     }
     .eyebrow {
       display: inline-flex;
       align-items: center;
       gap: 0.45rem;
-      color: var(--ok);
-      font-weight: 700;
+      color: var(--accent-text);
+      background: var(--accent-soft);
+      border-radius: 999px;
+      padding: 0.38rem 0.72rem;
       font-size: 0.82rem;
-      margin-bottom: 0.8rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
     }
     h1 {
       color: var(--text-strong);
-      font-size: clamp(2rem, 5vw, 3.4rem);
-      line-height: 1.08;
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      line-height: 1.06;
       letter-spacing: -0.02em;
-      max-width: 760px;
+      max-width: 820px;
     }
     .lead {
       margin-top: 1rem;
+      max-width: 780px;
       color: var(--text-muted);
-      font-size: 1.02rem;
-      max-width: 760px;
+      font-size: 1.06rem;
     }
-    .hero-card, .section-card {
+    .panel, .section-card {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 12px;
       box-shadow: var(--shadow);
     }
-    .hero-card { padding: 1.2rem; }
-    .hero-card h2 {
+    .panel { padding: 1.25rem; }
+    .panel h2, .section-card h2 {
       color: var(--text-strong);
-      font-size: 1rem;
-      margin-bottom: 0.7rem;
+      font-size: clamp(1.2rem, 2.4vw, 1.55rem);
+      line-height: 1.25;
     }
-    .check-list {
+    .fact-list, .local-list {
       list-style: none;
       display: grid;
-      gap: 0.65rem;
-      font-size: 0.93rem;
+      gap: 0.72rem;
+      margin-top: 1rem;
     }
-    .check-list li {
+    .fact-list li, .local-list li {
       display: grid;
-      grid-template-columns: 22px 1fr;
-      gap: 0.55rem;
-      align-items: start;
+      grid-template-columns: 28px 1fr;
+      gap: 0.65rem;
+      color: var(--text-muted);
+      font-size: 0.94rem;
     }
-    .check-list span:first-child {
-      width: 22px;
-      height: 22px;
-      border-radius: 6px;
-      background: var(--accent);
+    .mark {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: var(--accent-soft);
       color: var(--accent-text);
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      font-weight: 800;
-      font-size: 0.72rem;
+      font-weight: 900;
+      font-size: 0.8rem;
     }
-    main {
+    .section-stack {
       display: grid;
-      gap: 1.3rem;
-      padding-top: 1.2rem;
-      padding-bottom: 3rem;
+      gap: 1.1rem;
+      margin-top: 2.2rem;
     }
-    .section-card { padding: 1.4rem; }
-    .section-card h2 {
-      color: var(--text-strong);
-      font-size: 1.25rem;
-      margin-bottom: 0.65rem;
-    }
-    .section-card h3 {
-      color: var(--text-strong);
-      font-size: 1rem;
-      margin-top: 1rem;
-      margin-bottom: 0.35rem;
-    }
-    .section-card p, .section-card li {
-      color: var(--text);
+    .section-card { padding: 1.35rem; }
+    .section-card p, .section-card li, td {
+      color: var(--text-muted);
       font-size: 0.94rem;
     }
-    .section-card ul { margin: 0.45rem 0 0.5rem 1.25rem; }
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 0.85rem;
-      font-size: 0.9rem;
+      margin-top: 1rem;
+      table-layout: fixed;
     }
     th, td {
       border: 1px solid var(--border);
-      padding: 0.7rem;
+      padding: 0.72rem;
       text-align: left;
       vertical-align: top;
       overflow-wrap: anywhere;
@@ -194,52 +228,65 @@
     th {
       background: var(--surface-alt);
       color: var(--text-strong);
-      font-weight: 700;
+      font-weight: 750;
     }
     .callout {
-      margin-top: 0.9rem;
+      margin-top: 1rem;
       padding: 0.9rem 1rem;
       border-left: 4px solid var(--primary);
-      background: color-mix(in srgb, var(--primary) 9%, var(--surface));
+      background: color-mix(in srgb, var(--primary) 8%, var(--surface));
       border-radius: 0 10px 10px 0;
-    }
-    .ja {
-      border-top: 1px solid var(--border);
-      margin-top: 1rem;
-      padding-top: 1rem;
+      color: var(--text);
+      font-size: 0.94rem;
     }
     .cta-row {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.7rem;
-      margin-top: 1rem;
+      gap: 0.65rem;
+      margin-top: 1.1rem;
     }
     .btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
       min-height: 42px;
-      padding: 0.65rem 1rem;
+      padding: 0 1rem;
       border-radius: 8px;
-      border: 1px solid var(--border);
+      border: 1px solid var(--border-strong);
       background: var(--surface);
       color: var(--text-strong);
-      font-weight: 700;
-      font-size: 0.9rem;
+      font-weight: 750;
+      white-space: nowrap;
     }
-    .btn.primary {
-      background: var(--primary);
-      border-color: var(--primary);
-      color: #fff;
-    }
-    .btn:hover { text-decoration: none; background: var(--surface-alt); }
+    .btn.primary { background: var(--primary); border-color: var(--primary); color: var(--primary-text); }
+    .btn:hover { border-color: var(--primary); text-decoration: none; }
     .btn.primary:hover { background: var(--primary-hover); border-color: var(--primary-hover); }
     footer {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 1.25rem 2rem;
+      color: var(--text-faint);
+      font-size: 0.84rem;
+    }
+    .footer-line {
       border-top: 1px solid var(--border);
-      padding-top: 1.4rem;
-      padding-bottom: 2rem;
-      color: var(--text-muted);
-      font-size: 0.82rem;
+      padding-top: 1.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-between;
+    }
+    .footer-links { display: flex; gap: 0.85rem; flex-wrap: wrap; }
+    @media (max-width: 880px) {
+      .nav-links { display: none; }
+      .hero { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 560px) {
+      .topbar-inner { padding: 0 0.85rem; gap: 0.55rem; }
+      .brand span { max-width: 126px; overflow: hidden; text-overflow: ellipsis; }
+      .lang-sel { max-width: 108px; }
+      main { padding: 2.4rem 0.9rem 3rem; }
+      .panel, .section-card { padding: 1.1rem; }
     }
   </style>
   <script>
@@ -257,118 +304,257 @@
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <a class="brand" href="index.html">
-        <img src="icon-512.png" alt="">
-        <span>Grab All Files</span>
-      </a>
-      <nav class="top-links" aria-label="Security page navigation">
-        <a href="index.html">Home</a>
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <a href="contact/">Contact</a>
+      <a class="brand" href="index.html" data-href="home"><img src="icon-512.png" alt=""><span>Grab All Files</span></a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html#use-cases" data-href="useCases" data-ui="useCases">Use cases</a>
+        <a href="index.html#pricing" data-href="pricing" data-ui="pricing">Pricing</a>
+        <a href="contact/" data-href="contact" data-ui="contact">Contact</a>
       </nav>
+      <div class="nav-spacer"></div>
+      <div class="nav-controls">
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">
+          <span class="theme-icon-dark" aria-hidden="true">🌙</span>
+          <span class="theme-icon-light" aria-hidden="true">☀️</span>
+        </button>
+        <select id="lang-sel" class="lang-sel" aria-label="Language">
+          <option value="en">English</option>
+          <option value="ja">日本語</option>
+          <option value="es">Español</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+          <option value="it">Italiano</option>
+          <option value="ko">한국어</option>
+          <option value="pt_BR">Português (BR)</option>
+          <option value="zh_CN">简体中文</option>
+          <option value="zh_TW">繁體中文</option>
+        </select>
+      </div>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="hero-inner">
+  <main id="security-root">
+    <section class="hero">
       <div>
-        <div class="eyebrow">0 files uploaded / ファイルはアップロードされません</div>
+        <div class="eyebrow"><span>✓</span><span>0 files uploaded</span></div>
         <h1>Security, privacy, and permissions for Grab All Files</h1>
-        <p class="lead">Grab All Files needs broad browser permissions because it can scan the page or URL you choose, including pages behind your current login session. The extension is designed so file discovery, downloads, ZIP creation, CSV export, and PDF merging happen locally in your browser.</p>
-        <p class="lead ja">Grab All Files は、ユーザーが指定したページやURLをスキャンするため、ブラウザ上で広い権限表示が出ることがあります。ただし、ファイル検出・ダウンロード・ZIP作成・CSV出力・PDF結合はブラウザ内で実行され、ファイル本文やページHTMLを当方サーバーへ送信しません。</p>
+        <p class="lead">Grab All Files needs broad browser permissions because it scans the page or URL you choose, including pages behind your current login session. File discovery, downloads, ZIP creation, CSV export, and PDF merging happen locally in your browser.</p>
       </div>
-      <aside class="hero-card">
-        <h2>Plain-language summary / 要点</h2>
-        <ul class="check-list">
-          <li><span>1</span><strong>Your files never pass through our servers.</strong></li>
-          <li><span>2</span><strong>PDF merge, ZIP, and CSV export run locally in the browser.</strong></li>
-          <li><span>3</span><strong>License checks send only license-related identifiers, not file contents.</strong></li>
-          <li><span>4</span><strong>The extension should be used only for pages and files you are allowed to access.</strong></li>
+      <aside class="panel">
+        <h2>Plain-language summary</h2>
+        <ul class="fact-list">
+          <li><span class="mark">1</span><span>Your files never pass through our servers.</span></li>
+          <li><span class="mark">2</span><span>PDF merge, ZIP, and CSV export run locally.</span></li>
+          <li><span class="mark">3</span><span>License checks do not include file contents.</span></li>
+          <li><span class="mark">4</span><span>Use it only for files you are allowed to access.</span></li>
         </ul>
       </aside>
-    </div>
-  </section>
-
-  <main>
-    <section class="section-card">
-      <h2>What is sent to our servers</h2>
-      <p>Only license and trial verification data is sent to the developer's license backend.</p>
-      <table>
-        <thead>
-          <tr><th>Purpose</th><th>Data sent</th><th>Not sent</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Trial eligibility</td><td>Random device UUID and timing needed to check the 14-day trial.</td><td>File contents, page HTML, browsing history, cookies, passwords.</td></tr>
-          <tr><td>License activation and refresh</td><td>License key, random device UUID, and license token metadata.</td><td>Downloaded files, detected URLs list, source-page contents.</td></tr>
-          <tr><td>Revocation list refresh</td><td>No user-identifying payload; the extension downloads a signed revocation list.</td><td>License key and file data are not included in this request.</td></tr>
-        </tbody>
-      </table>
-      <div class="ja">
-        <h2>当方サーバーへ送信されるもの</h2>
-        <p>送信されるのは、無料トライアルとライセンス確認に必要な情報だけです。ファイル本文、ページHTML、閲覧履歴、Cookie、パスワード、検出したURL一覧は送信しません。</p>
-      </div>
-    </section>
-
-    <section class="section-card">
-      <h2>Why broad website permissions are needed</h2>
-      <p>Browsers may show a warning that the extension can access website data. Grab All Files needs this because the user may choose any target site, and the extension must inspect the selected page, frames, file responses, and download links before it can list files.</p>
-      <table>
-        <thead>
-          <tr><th>Permission area</th><th>Why it is needed</th><th>How it is limited in practice</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Read the selected page</td><td>Find visible links, embedded files, PDF viewers, and lazy-loaded assets.</td><td>Used for pages or URLs the user chooses to scan.</td></tr>
-          <tr><td>Monitor file-like network responses</td><td>Surface files loaded through fetch/XHR, CMS routes, or viewer endpoints.</td><td>Used to build the local result list; the list is not uploaded to our server.</td></tr>
-          <tr><td>Use the current browser session</td><td>Download files from internal portals, LMS pages, or member areas that the user can already open manually.</td><td>No separate credential collection; use only where you have permission to access the content.</td></tr>
-        </tbody>
-      </table>
-      <div class="callout">
-        The extension does not grant access to content you are not authorized to view. It works with access your browser session already has.
-      </div>
-      <div class="ja">
-        <h2>広いWebサイト権限が必要な理由</h2>
-        <p>ブラウザ拡張の権限表示では強く見えることがありますが、対象サイトは事前に固定できないため、ユーザーが選んだページ・iframe・ファイルレスポンス・ダウンロードリンクを調べる権限が必要です。これは、権限のないコンテンツへアクセスするためのものではありません。</p>
-      </div>
-    </section>
-
-    <section class="section-card">
-      <h2>What stays local</h2>
-      <ul>
-        <li>Detected file list, filters, and scan results.</li>
-        <li>Downloaded file contents.</li>
-        <li>PDF merge processing.</li>
-        <li>ZIP archive generation.</li>
-        <li>CSV export generation.</li>
-      </ul>
-      <div class="ja">
-        <h2>ローカルに残る処理</h2>
-        <ul>
-          <li>検出ファイル一覧、絞り込み、スキャン結果。</li>
-          <li>ダウンロードしたファイル本文。</li>
-          <li>PDF結合処理。</li>
-          <li>ZIP作成処理。</li>
-          <li>CSV出力処理。</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section-card">
-      <h2>Responsible use</h2>
-      <p>Grab All Files is intended for legitimate document collection and workflow automation: research, public records, internal portals, LMS materials, design assets, and similar work. Use it only for files you are allowed to access and download, and respect the target site's terms, copyright rules, and rate limits.</p>
-      <div class="ja">
-        <h2>責任ある利用</h2>
-        <p>Grab All Files は、研究資料、公開資料、社内ポータル、LMS教材、デザイン素材など、正当にアクセスできる資料を効率よく収集するためのツールです。対象サイトの利用規約、著作権、アクセス権限、レート制限を守って利用してください。</p>
-      </div>
-      <div class="cta-row">
-        <a class="btn primary" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Install free trial</a>
-        <a class="btn" href="privacy-policy.html">Read full privacy policy</a>
-        <a class="btn" href="contact/">Contact support</a>
-      </div>
     </section>
   </main>
 
   <footer>
-    <p>Sold by Serima Kawai (sole proprietor, Japan). Independent product, not affiliated with Google, Microsoft, or Mozilla.</p>
+    <div class="footer-line">
+      <p id="footer-copy">Independent browser extension by Serima Kawai. Not affiliated with Google, Microsoft, or Mozilla.</p>
+      <div class="footer-links">
+        <a href="privacy-policy.html" data-href="privacy" data-ui="privacy">Privacy Policy</a>
+        <a href="terms.html" data-href="terms" data-ui="terms">Terms</a>
+        <a href="legal.html" data-href="legal" data-ui="legal">Legal</a>
+      </div>
+    </div>
   </footer>
+
+  <script>
+  (function() {
+    var SUPPORTED = ['en','ja','es','fr','de','it','ko','pt_BR','zh_CN','zh_TW'];
+    var LANG_LABELS = {
+      en: 'Language', ja: '言語', es: 'Idioma', fr: 'Langue', de: 'Sprache', it: 'Lingua',
+      ko: '언어', pt_BR: 'Idioma', zh_CN: '语言', zh_TW: '語言'
+    };
+    var BASE_LINKS = {
+      home: 'index.html',
+      useCases: 'index.html#use-cases',
+      pricing: 'index.html#pricing',
+      contact: 'contact/',
+      privacy: 'privacy-policy.html',
+      terms: 'terms.html',
+      legal: 'legal.html'
+    };
+    var UI = {
+      en: { useCases: 'Use cases', pricing: 'Pricing', contact: 'Contact', privacy: 'Privacy Policy', terms: 'Terms', legal: 'Legal', install: 'Install free trial', readPrivacy: 'Read privacy policy', footer: 'Independent browser extension by Serima Kawai. Not affiliated with Google, Microsoft, or Mozilla.' },
+      ja: { useCases: '用途別', pricing: '料金', contact: 'お問い合わせ', privacy: 'プライバシーポリシー', terms: '利用規約', legal: '法務情報', install: '無料インストール', readPrivacy: 'プライバシーポリシーを読む', footer: 'Serima Kawai による独立したブラウザ拡張機能。Google、Microsoft、Mozillaとは提携していません。' },
+      es: { useCases: 'Casos de uso', pricing: 'Precio', contact: 'Contacto', privacy: 'Privacidad', terms: 'Términos', legal: 'Legal', install: 'Instalar gratis', readPrivacy: 'Leer privacidad', footer: 'Extensión independiente de Serima Kawai. Sin afiliación con Google, Microsoft ni Mozilla.' },
+      fr: { useCases: "Cas d'usage", pricing: 'Tarif', contact: 'Contact', privacy: 'Confidentialité', terms: 'Conditions', legal: 'Mentions légales', install: 'Installer gratuitement', readPrivacy: 'Lire la confidentialité', footer: 'Extension indépendante par Serima Kawai. Non affiliée à Google, Microsoft ou Mozilla.' },
+      de: { useCases: 'Anwendungsfälle', pricing: 'Preis', contact: 'Kontakt', privacy: 'Datenschutz', terms: 'Bedingungen', legal: 'Rechtliches', install: 'Kostenlos installieren', readPrivacy: 'Datenschutz lesen', footer: 'Unabhängige Browser-Erweiterung von Serima Kawai. Nicht mit Google, Microsoft oder Mozilla verbunden.' },
+      it: { useCases: "Casi d'uso", pricing: 'Prezzo', contact: 'Contatti', privacy: 'Privacy', terms: 'Termini', legal: 'Legale', install: 'Installa gratis', readPrivacy: 'Leggi la privacy', footer: 'Estensione indipendente di Serima Kawai. Non affiliata a Google, Microsoft o Mozilla.' },
+      ko: { useCases: '사용 사례', pricing: '가격', contact: '문의하기', privacy: '개인정보 처리방침', terms: '약관', legal: '법적 정보', install: '무료 설치', readPrivacy: '개인정보 처리방침 읽기', footer: 'Serima Kawai의 독립 브라우저 확장 프로그램. Google, Microsoft, Mozilla와 제휴하지 않습니다.' },
+      pt_BR: { useCases: 'Casos de uso', pricing: 'Preço', contact: 'Contato', privacy: 'Privacidade', terms: 'Termos', legal: 'Legal', install: 'Instalar grátis', readPrivacy: 'Ler privacidade', footer: 'Extensão independente de Serima Kawai. Sem afiliação com Google, Microsoft ou Mozilla.' },
+      zh_CN: { useCases: '用途', pricing: '价格', contact: '联系我们', privacy: '隐私政策', terms: '条款', legal: '法律', install: '免费安装', readPrivacy: '阅读隐私政策', footer: 'Serima Kawai 的独立浏览器扩展程序。与 Google、Microsoft 或 Mozilla 无关联。' },
+      zh_TW: { useCases: '用途', pricing: '價格', contact: '聯絡我們', privacy: '隱私政策', terms: '條款', legal: '法律', install: '免費安裝', readPrivacy: '閱讀隱私政策', footer: 'Serima Kawai 的獨立瀏覽器擴充功能。與 Google、Microsoft 或 Mozilla 無關聯。' }
+    };
+    function page(title, desc, eyebrow, h1, lead, summaryTitle, facts, sentTitle, sentIntro, sentHeaders, sentRows, permTitle, permIntro, permHeaders, permRows, callout, localTitle, localItems, respTitle, respText) {
+      return { title: title, desc: desc, eyebrow: eyebrow, h1: h1, lead: lead, summaryTitle: summaryTitle, facts: facts, sentTitle: sentTitle, sentIntro: sentIntro, sentHeaders: sentHeaders, sentRows: sentRows, permTitle: permTitle, permIntro: permIntro, permHeaders: permHeaders, permRows: permRows, callout: callout, localTitle: localTitle, localItems: localItems, respTitle: respTitle, respText: respText };
+    }
+    var COPY = {
+      en: page(
+        'Security and permissions | Grab All Files',
+        'How Grab All Files handles browser permissions, local file processing, license verification, and privacy-sensitive access.',
+        '0 files uploaded',
+        'Security, privacy, and permissions for Grab All Files',
+        'Grab All Files needs broad browser permissions because it scans the page or URL you choose, including pages behind your current login session. File discovery, downloads, ZIP creation, CSV export, and PDF merging happen locally in your browser.',
+        'Plain-language summary',
+        ['Your files never pass through our servers.', 'PDF merge, ZIP, and CSV export run locally.', 'License checks do not include file contents.', 'Use it only for files you are allowed to access.'],
+        'What is sent to our servers',
+        "Only license and trial verification data is sent to the developer's license backend.",
+        ['Purpose', 'Data sent', 'Not sent'],
+        [['Trial eligibility', 'Random device UUID and timing needed to check the 14-day trial.', 'File contents, page HTML, browsing history, cookies, passwords.'], ['License activation and refresh', 'License key, random device UUID, and license token metadata.', 'Downloaded files, detected URL lists, source-page contents.'], ['Revocation list refresh', 'No user-identifying payload; the extension downloads a signed revocation list.', 'License key and file data are not included in this request.']],
+        'Why broad website permissions are needed',
+        'Browsers may show a warning that the extension can access website data. The extension needs this because the target site is chosen by the user and files may be inside frames, viewer URLs, or network responses.',
+        ['Permission area', 'Why it is needed', 'How it is limited in practice'],
+        [['Read the selected page', 'Find visible links, embedded files, PDF viewers, and lazy-loaded assets.', 'Used for pages or URLs the user chooses to scan.'], ['Monitor file-like responses', 'Surface files loaded through fetch/XHR, CMS routes, or viewer endpoints.', 'Used to build the local result list; the list is not uploaded.'], ['Use the current browser session', 'Download files from portals or member areas that the user can already open manually.', 'No credential collection; use only where you have permission.']],
+        'The extension does not grant access to content you are not authorized to view. It works with access your browser session already has.',
+        'What stays local',
+        ['Detected file lists, filters, and scan results.', 'Downloaded file contents.', 'PDF merge processing.', 'ZIP archive generation.', 'CSV export generation.'],
+        'Responsible use',
+        'Use Grab All Files only for legitimate document collection and workflow automation, and respect the target site terms, copyright rules, access rights, and rate limits.'
+      ),
+      ja: page(
+        'セキュリティと権限 | Grab All Files',
+        'Grab All Files のブラウザ権限、ローカル処理、ライセンス確認、プライバシーに関わるアクセスの扱い。',
+        'ファイルはアップロードされません',
+        'Grab All Files のセキュリティ、プライバシー、権限',
+        'Grab All Files は、ユーザーが選んだページやURLをスキャンするため、広いブラウザ権限が必要です。現在のログインセッションで開けるページも対象にできます。ファイル検出、ダウンロード、ZIP作成、CSV出力、PDF結合はブラウザ内でローカルに実行されます。',
+        '要点',
+        ['ファイル本文は当方サーバーを通過しません。', 'PDF結合、ZIP作成、CSV出力はローカル処理です。', 'ライセンス確認にファイル本文は含まれません。', 'アクセス権のあるファイルにのみ使用してください。'],
+        '当方サーバーへ送信されるもの',
+        '送信されるのは、無料トライアルとライセンス確認に必要な情報だけです。',
+        ['目的', '送信されるデータ', '送信されないもの'],
+        [['トライアル判定', '14日間トライアルを確認するためのランダムな端末UUIDと時刻情報。', 'ファイル本文、ページHTML、閲覧履歴、Cookie、パスワード。'], ['ライセンス有効化・更新', 'ライセンスキー、ランダム端末UUID、ライセンストークンのメタデータ。', 'ダウンロードファイル、検出URL一覧、元ページ内容。'], ['失効リスト更新', '個人を特定するペイロードはなく、署名済み失効リストを取得します。', 'ライセンスキーやファイルデータは含まれません。']],
+        '広いWebサイト権限が必要な理由',
+        'ブラウザは「Webサイトデータへアクセスできる」という警告を表示することがあります。対象サイトはユーザーが選び、ファイルはフレーム、ビューアURL、通信レスポンス内にある場合があるためです。',
+        ['権限の範囲', '必要な理由', '実際の制限'],
+        [['選択ページの読み取り', '表示リンク、埋め込みファイル、PDFビューア、遅延読み込みアセットを見つけるため。', 'ユーザーがスキャン対象に選んだページやURLで使用します。'], ['ファイルらしい通信レスポンスの確認', 'fetch/XHR、CMSルート、ビューアエンドポイント経由のファイルを見つけるため。', 'ローカル結果一覧の作成に使い、一覧はアップロードされません。'], ['現在のブラウザセッションの利用', 'ユーザーが手動で開けるポータルや会員ページのファイルを取得するため。', '認証情報は収集しません。権限のある場所でのみ使用してください。']],
+        'この拡張機能は、権限のないコンテンツへアクセスする機能ではありません。ブラウザセッションがすでに持っているアクセス権の範囲で動作します。',
+        'ローカルに残る処理',
+        ['検出ファイル一覧、絞り込み、スキャン結果。', 'ダウンロードしたファイル本文。', 'PDF結合処理。', 'ZIP作成処理。', 'CSV出力処理。'],
+        '責任ある利用',
+        'Grab All Files は正当な資料収集と作業効率化のために使用し、対象サイトの規約、著作権、アクセス権限、レート制限を守ってください。'
+      ),
+      es: page('Seguridad y permisos | Grab All Files', 'Cómo Grab All Files gestiona permisos, procesamiento local, verificación de licencia y acceso sensible.', '0 archivos subidos', 'Seguridad, privacidad y permisos de Grab All Files', 'Grab All Files necesita permisos amplios porque escanea la página o URL que usted elige, incluidas páginas abiertas con su sesión actual. La detección, descarga, ZIP, CSV y fusión PDF se ejecutan localmente en el navegador.', 'Resumen claro', ['Sus archivos no pasan por nuestros servidores.', 'PDF, ZIP y CSV se procesan localmente.', 'La verificación de licencia no incluye contenido de archivos.', 'Úselo solo con archivos a los que tenga permiso de acceso.'], 'Qué se envía a nuestros servidores', 'Solo se envían datos de verificación de prueba y licencia.', ['Finalidad', 'Datos enviados', 'No enviado'], [['Prueba gratuita', 'UUID aleatorio del dispositivo y tiempos para comprobar la prueba de 14 días.', 'Contenido de archivos, HTML, historial, cookies, contraseñas.'], ['Activación de licencia', 'Clave de licencia, UUID aleatorio y metadatos del token.', 'Archivos descargados, listas de URLs, contenido de la página.'], ['Lista de revocación', 'Sin carga identificativa; descarga una lista firmada.', 'La clave y los datos de archivos no se incluyen.']], 'Por qué se necesitan permisos amplios', 'El navegador puede advertir que la extensión accede a datos de sitios. Es necesario porque usted elige el sitio y los archivos pueden estar en marcos, visores o respuestas de red.', ['Área', 'Motivo', 'Límite práctico'], [['Leer la página seleccionada', 'Encontrar enlaces, archivos incrustados, visores PDF y recursos lazy-loaded.', 'Solo para páginas o URLs elegidas.'], ['Revisar respuestas tipo archivo', 'Detectar archivos cargados por fetch/XHR, CMS o visores.', 'Crea la lista local; no se sube.'], ['Usar la sesión actual', 'Descargar archivos de portales que usted ya puede abrir.', 'No recopila credenciales; úselo solo con permiso.']], 'La extensión no concede acceso a contenido no autorizado. Trabaja con el acceso que ya tiene su sesión del navegador.', 'Qué permanece local', ['Listas detectadas, filtros y resultados.', 'Contenido descargado.', 'Fusión PDF.', 'Generación ZIP.', 'Exportación CSV.'], 'Uso responsable', 'Úselo solo para recopilación legítima y respete términos, derechos de autor, permisos y límites del sitio.'),
+      fr: page('Sécurité et autorisations | Grab All Files', 'Gestion des autorisations, du traitement local, de la vérification de licence et des accès sensibles.', '0 fichier envoyé', 'Sécurité, confidentialité et autorisations de Grab All Files', 'Grab All Files a besoin d’autorisations larges car il scanne la page ou l’URL choisie, y compris les pages ouvertes par votre session. Détection, téléchargement, ZIP, CSV et fusion PDF restent locaux dans le navigateur.', 'Résumé simple', ['Vos fichiers ne passent jamais par nos serveurs.', 'PDF, ZIP et CSV sont traités localement.', 'La vérification de licence n’inclut pas le contenu des fichiers.', 'Utilisez-le uniquement pour les fichiers autorisés.'], 'Ce qui est envoyé à nos serveurs', 'Seules les données de vérification d’essai et de licence sont envoyées.', ['Objectif', 'Données envoyées', 'Non envoyé'], [['Essai', 'UUID aléatoire de l’appareil et dates nécessaires pour l’essai de 14 jours.', 'Fichiers, HTML, historique, cookies, mots de passe.'], ['Licence', 'Clé, UUID aléatoire et métadonnées du jeton.', 'Fichiers téléchargés, listes d’URLs, contenu source.'], ['Liste de révocation', 'Aucune charge identifiante; téléchargement d’une liste signée.', 'Clé et données de fichiers exclues.']], 'Pourquoi ces autorisations sont nécessaires', 'Le navigateur peut indiquer que l’extension accède aux données des sites. C’est nécessaire car le site est choisi par l’utilisateur et les fichiers peuvent se trouver dans des frames, viewers ou réponses réseau.', ['Zone', 'Pourquoi', 'Limite'], [['Lire la page choisie', 'Trouver liens, fichiers intégrés, viewers PDF et ressources différées.', 'Uniquement pour les pages ou URLs choisies.'], ['Observer les réponses fichier', 'Détecter les fichiers via fetch/XHR, CMS ou viewers.', 'Liste locale; pas d’upload.'], ['Utiliser la session actuelle', 'Télécharger depuis des portails déjà accessibles.', 'Pas de collecte d’identifiants.']], 'L’extension ne donne pas accès à des contenus non autorisés. Elle utilise l’accès déjà présent dans votre session navigateur.', 'Ce qui reste local', ['Listes détectées, filtres et résultats.', 'Contenu téléchargé.', 'Fusion PDF.', 'Création ZIP.', 'Export CSV.'], 'Utilisation responsable', 'Utilisez-la uniquement pour une collecte légitime et respectez les conditions, droits d’auteur, permissions et limites du site.'),
+      de: page('Sicherheit und Berechtigungen | Grab All Files', 'Umgang mit Browser-Berechtigungen, lokaler Verarbeitung, Lizenzprüfung und sensiblen Zugriffen.', '0 Dateien hochgeladen', 'Sicherheit, Datenschutz und Berechtigungen für Grab All Files', 'Grab All Files benötigt breite Berechtigungen, weil es die von Ihnen gewählte Seite oder URL scannt, einschließlich Seiten in Ihrer aktuellen Sitzung. Erkennung, Downloads, ZIP, CSV und PDF-Zusammenführung laufen lokal im Browser.', 'Kurzfassung', ['Ihre Dateien laufen nie über unsere Server.', 'PDF, ZIP und CSV werden lokal verarbeitet.', 'Lizenzprüfungen enthalten keine Dateiinhalte.', 'Nur für Dateien verwenden, auf die Sie Zugriff haben.'], 'Was an unsere Server gesendet wird', 'Nur Test- und Lizenzprüfdaten werden gesendet.', ['Zweck', 'Gesendete Daten', 'Nicht gesendet'], [['Testphase', 'Zufällige Geräte-UUID und Zeitdaten für den 14-Tage-Test.', 'Dateien, HTML, Verlauf, Cookies, Passwörter.'], ['Lizenzaktivierung', 'Lizenzschlüssel, zufällige UUID und Token-Metadaten.', 'Downloads, URL-Listen, Seiteninhalt.'], ['Sperrliste', 'Keine identifizierende Nutzlast; eine signierte Liste wird geladen.', 'Lizenzschlüssel und Dateidaten sind nicht enthalten.']], 'Warum breite Berechtigungen nötig sind', 'Browser können warnen, dass Website-Daten zugänglich sind. Das ist nötig, weil der Nutzer die Zielseite wählt und Dateien in Frames, Viewern oder Netzwerkantworten liegen können.', ['Bereich', 'Grund', 'Praktische Grenze'], [['Gewählte Seite lesen', 'Links, eingebettete Dateien, PDF-Viewer und Lazy-Assets finden.', 'Nur für gewählte Seiten oder URLs.'], ['Dateiartige Antworten prüfen', 'Dateien über fetch/XHR, CMS oder Viewer finden.', 'Lokale Liste; kein Upload.'], ['Aktuelle Sitzung nutzen', 'Dateien aus bereits zugänglichen Portalen laden.', 'Keine Zugangsdaten-Sammlung; nur mit Berechtigung nutzen.']], 'Die Erweiterung verschafft keinen Zugriff auf unautorisierte Inhalte. Sie nutzt nur den Zugriff Ihrer bestehenden Browsersitzung.', 'Was lokal bleibt', ['Ergebnislisten, Filter und Scans.', 'Heruntergeladene Inhalte.', 'PDF-Zusammenführung.', 'ZIP-Erstellung.', 'CSV-Export.'], 'Verantwortliche Nutzung', 'Nur für legitime Sammlung verwenden und Bedingungen, Urheberrecht, Zugriffsrechte und Limits der Zielseite beachten.'),
+      it: page('Sicurezza e permessi | Grab All Files', 'Come Grab All Files gestisce permessi, elaborazione locale, verifica licenza e accessi sensibili.', '0 file caricati', 'Sicurezza, privacy e permessi di Grab All Files', 'Grab All Files richiede permessi ampi perché scansiona la pagina o URL scelto, incluse pagine della sessione attuale. Rilevamento, download, ZIP, CSV e unione PDF avvengono localmente nel browser.', 'Riepilogo semplice', ['I file non passano mai dai nostri server.', 'PDF, ZIP e CSV sono elaborati localmente.', 'La verifica licenza non include contenuti dei file.', 'Usalo solo per file a cui puoi accedere.'], 'Cosa viene inviato ai nostri server', 'Solo dati di verifica prova e licenza.', ['Scopo', 'Dati inviati', 'Non inviato'], [['Prova', 'UUID casuale dispositivo e tempi per la prova di 14 giorni.', 'File, HTML, cronologia, cookie, password.'], ['Licenza', 'Chiave, UUID casuale e metadati token.', 'File scaricati, liste URL, contenuti pagina.'], ['Lista revoche', 'Nessun payload identificativo; scarica una lista firmata.', 'Chiave e dati file esclusi.']], 'Perché servono permessi ampi', 'Il browser può avvisare che l’estensione accede ai dati dei siti. Serve perché il sito è scelto dall’utente e i file possono essere in frame, viewer o risposte di rete.', ['Area', 'Motivo', 'Limite'], [['Leggere la pagina scelta', 'Trovare link, file incorporati, viewer PDF e asset lazy-loaded.', 'Solo pagine o URL scelti.'], ['Controllare risposte file-like', 'Trovare file via fetch/XHR, CMS o viewer.', 'Lista locale; nessun upload.'], ['Usare la sessione attuale', 'Scaricare da portali già accessibili.', 'Nessuna raccolta credenziali.']], 'L’estensione non consente accesso a contenuti non autorizzati. Usa solo l’accesso già presente nella sessione del browser.', 'Cosa resta locale', ['Liste, filtri e risultati.', 'Contenuti scaricati.', 'Unione PDF.', 'Creazione ZIP.', 'Export CSV.'], 'Uso responsabile', 'Usalo solo per raccolte legittime e rispetta termini, copyright, permessi e limiti del sito.'),
+      ko: page('보안 및 권한 | Grab All Files', '브라우저 권한, 로컬 처리, 라이선스 확인, 민감한 접근 처리 방식.', '업로드되는 파일 0개', 'Grab All Files의 보안, 개인정보, 권한', 'Grab All Files는 사용자가 선택한 페이지나 URL을 스캔하기 때문에 넓은 브라우저 권한이 필요합니다. 현재 로그인 세션으로 열 수 있는 페이지도 포함됩니다. 파일 검색, 다운로드, ZIP, CSV, PDF 병합은 브라우저에서 로컬 처리됩니다.', '요약', ['파일은 서버를 거치지 않습니다.', 'PDF 병합, ZIP, CSV는 로컬 처리됩니다.', '라이선스 확인에는 파일 내용이 포함되지 않습니다.', '접근 권한이 있는 파일에만 사용하세요.'], '서버로 전송되는 정보', '무료 체험 및 라이선스 확인 데이터만 전송됩니다.', ['목적', '전송 데이터', '전송되지 않음'], [['체험 확인', '14일 체험 확인용 임의 기기 UUID와 시간 정보.', '파일 내용, HTML, 기록, 쿠키, 비밀번호.'], ['라이선스 활성화', '라이선스 키, 임의 UUID, 토큰 메타데이터.', '다운로드 파일, URL 목록, 페이지 내용.'], ['철회 목록', '식별 페이로드 없음; 서명된 목록 다운로드.', '라이선스 키와 파일 데이터 제외.']], '넓은 권한이 필요한 이유', '브라우저는 사이트 데이터 접근 경고를 표시할 수 있습니다. 대상 사이트는 사용자가 선택하고 파일은 프레임, 뷰어, 네트워크 응답에 있을 수 있기 때문입니다.', ['영역', '이유', '실제 제한'], [['선택 페이지 읽기', '링크, 내장 파일, PDF 뷰어, 지연 로딩 자산 찾기.', '선택한 페이지/URL에 사용.'], ['파일형 응답 확인', 'fetch/XHR, CMS, 뷰어를 통한 파일 찾기.', '로컬 목록 생성; 업로드 없음.'], ['현재 세션 사용', '이미 열 수 있는 포털의 파일 다운로드.', '인증 정보 수집 없음.']], '확장 프로그램은 권한 없는 콘텐츠 접근을 제공하지 않습니다. 기존 브라우저 세션의 접근 범위에서만 작동합니다.', '로컬에 남는 것', ['검출 목록, 필터, 스캔 결과.', '다운로드한 파일 내용.', 'PDF 병합 처리.', 'ZIP 생성.', 'CSV 내보내기.'], '책임 있는 사용', '정당한 자료 수집에만 사용하고 대상 사이트 약관, 저작권, 접근 권한, 제한을 준수하세요.'),
+      pt_BR: page('Segurança e permissões | Grab All Files', 'Como o Grab All Files lida com permissões, processamento local, licença e acessos sensíveis.', '0 arquivos enviados', 'Segurança, privacidade e permissões do Grab All Files', 'Grab All Files precisa de permissões amplas porque escaneia a página ou URL escolhida, incluindo páginas da sua sessão atual. Detecção, download, ZIP, CSV e mesclagem PDF rodam localmente no navegador.', 'Resumo simples', ['Seus arquivos nunca passam por nossos servidores.', 'PDF, ZIP e CSV são processados localmente.', 'A verificação de licença não inclui conteúdo de arquivos.', 'Use apenas com arquivos que você pode acessar.'], 'O que é enviado aos nossos servidores', 'Somente dados de verificação de teste e licença.', ['Finalidade', 'Dados enviados', 'Não enviado'], [['Teste', 'UUID aleatório do dispositivo e tempos para o teste de 14 dias.', 'Arquivos, HTML, histórico, cookies, senhas.'], ['Licença', 'Chave, UUID aleatório e metadados do token.', 'Arquivos baixados, listas de URLs, conteúdo da página.'], ['Lista de revogação', 'Sem payload identificador; baixa uma lista assinada.', 'Chave e dados de arquivos excluídos.']], 'Por que permissões amplas são necessárias', 'O navegador pode avisar que a extensão acessa dados de sites. Isso é necessário porque o site é escolhido pelo usuário e arquivos podem estar em frames, viewers ou respostas de rede.', ['Área', 'Motivo', 'Limite prático'], [['Ler página escolhida', 'Encontrar links, arquivos incorporados, viewers PDF e lazy loading.', 'Somente páginas ou URLs escolhidos.'], ['Ver respostas de arquivo', 'Encontrar arquivos via fetch/XHR, CMS ou viewers.', 'Lista local; sem upload.'], ['Usar sessão atual', 'Baixar de portais já acessíveis.', 'Sem coleta de credenciais.']], 'A extensão não concede acesso a conteúdo não autorizado. Ela usa apenas o acesso já existente na sessão do navegador.', 'O que fica local', ['Listas, filtros e resultados.', 'Conteúdo baixado.', 'Mesclagem PDF.', 'Geração ZIP.', 'Exportação CSV.'], 'Uso responsável', 'Use apenas para coleta legítima e respeite termos, direitos autorais, permissões e limites do site.'),
+      zh_CN: page('安全和权限 | Grab All Files', 'Grab All Files 如何处理浏览器权限、本地文件处理、许可证验证和敏感访问。', '0 个文件上传', 'Grab All Files 的安全、隐私和权限', 'Grab All Files 需要较广的浏览器权限，因为它会扫描您选择的页面或URL，包括当前登录会话后的页面。文件检测、下载、ZIP、CSV和PDF合并均在浏览器本地运行。', '简要说明', ['文件不会经过我们的服务器。', 'PDF合并、ZIP和CSV在本地处理。', '许可证检查不包含文件内容。', '只对您有权访问的文件使用。'], '发送到我们服务器的内容', '仅发送试用和许可证验证所需数据。', ['目的', '发送的数据', '不会发送'], [['试用资格', '检查14天试用所需的随机设备UUID和时间信息。', '文件内容、页面HTML、浏览历史、Cookie、密码。'], ['许可证激活和刷新', '许可证密钥、随机设备UUID和令牌元数据。', '下载文件、检测URL列表、源页面内容。'], ['撤销列表刷新', '无用户识别载荷；扩展下载签名撤销列表。', '请求中不含许可证密钥和文件数据。']], '为什么需要广泛的网站权限', '浏览器可能提示扩展可访问网站数据。因为目标站点由用户选择，文件可能位于框架、查看器URL或网络响应中。', ['权限范围', '原因', '实际限制'], [['读取选定页面', '查找可见链接、嵌入文件、PDF查看器和懒加载资源。', '仅用于用户选择扫描的页面或URL。'], ['监测类似文件的响应', '发现通过fetch/XHR、CMS路径或查看器端点加载的文件。', '用于生成本地结果列表；不会上传。'], ['使用当前浏览器会话', '下载用户已能手动打开的门户或会员区文件。', '不收集凭据；仅在有权限时使用。']], '扩展程序不会授予您未被授权查看内容的访问权限。它只使用浏览器会话已有的访问权限。', '本地保留的处理', ['检测文件列表、筛选和扫描结果。', '下载的文件内容。', 'PDF合并处理。', 'ZIP生成。', 'CSV导出。'], '负责任使用', '请仅将 Grab All Files 用于合法资料收集和工作自动化，并遵守目标网站条款、版权、访问权限和速率限制。'),
+      zh_TW: page('安全和權限 | Grab All Files', 'Grab All Files 如何處理瀏覽器權限、本機檔案處理、授權驗證和敏感存取。', '0 個檔案上傳', 'Grab All Files 的安全、隱私和權限', 'Grab All Files 需要較廣的瀏覽器權限，因為它會掃描您選擇的頁面或URL，包括目前登入工作階段後的頁面。檔案偵測、下載、ZIP、CSV和PDF合併均在瀏覽器本機執行。', '簡要說明', ['檔案不會經過我們的伺服器。', 'PDF合併、ZIP和CSV在本機處理。', '授權檢查不包含檔案內容。', '只對您有權存取的檔案使用。'], '傳送到我們伺服器的內容', '僅傳送試用和授權驗證所需資料。', ['目的', '傳送的資料', '不會傳送'], [['試用資格', '檢查14天試用所需的隨機裝置UUID和時間資訊。', '檔案內容、頁面HTML、瀏覽歷史、Cookie、密碼。'], ['授權啟用和刷新', '授權金鑰、隨機裝置UUID和權杖中繼資料。', '下載檔案、偵測URL清單、來源頁內容。'], ['撤銷清單刷新', '無使用者識別載荷；擴充功能下載簽署撤銷清單。', '請求中不含授權金鑰和檔案資料。']], '為什麼需要廣泛網站權限', '瀏覽器可能提示擴充功能可存取網站資料。因為目標網站由使用者選擇，檔案可能位於框架、檢視器URL或網路回應中。', ['權限範圍', '原因', '實際限制'], [['讀取選定頁面', '查找可見連結、嵌入檔案、PDF檢視器和延遲載入資源。', '僅用於使用者選擇掃描的頁面或URL。'], ['監測類似檔案的回應', '發現透過fetch/XHR、CMS路徑或檢視器端點載入的檔案。', '用於產生本機結果清單；不會上傳。'], ['使用目前瀏覽器工作階段', '下載使用者已能手動開啟的入口或會員區檔案。', '不收集憑證；僅在有權限時使用。']], '擴充功能不會授予您未被授權查看內容的存取權限。它只使用瀏覽器工作階段已有的存取權限。', '本機保留的處理', ['偵測檔案清單、篩選和掃描結果。', '下載的檔案內容。', 'PDF合併處理。', 'ZIP產生。', 'CSV匯出。'], '負責任使用', '請僅將 Grab All Files 用於合法資料收集和工作自動化，並遵守目標網站條款、著作權、存取權限和速率限制。')
+    };
+    function esc(v) {
+      return String(v).replace(/[&<>"']/g, function(ch) {
+        return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch];
+      });
+    }
+    function getLangFromUrl() {
+      var m = location.search.match(/[?&]lang=([a-zA-Z_-]+)/);
+      return m && SUPPORTED.indexOf(m[1]) >= 0 ? m[1] : null;
+    }
+    function detectLang() {
+      var u = getLangFromUrl();
+      if (u) return u;
+      try {
+        var s = localStorage.getItem('gaf-lang');
+        if (SUPPORTED.indexOf(s) >= 0) return s;
+      } catch (_) {}
+      var n = (navigator.language || '').toLowerCase();
+      if (n.indexOf('ja') === 0) return 'ja';
+      if (n.indexOf('ko') === 0) return 'ko';
+      if (n.indexOf('it') === 0) return 'it';
+      if (n.indexOf('de') === 0) return 'de';
+      if (n.indexOf('es') === 0) return 'es';
+      if (n.indexOf('fr') === 0) return 'fr';
+      if (n.indexOf('pt') === 0) return 'pt_BR';
+      if (n === 'zh-tw' || n === 'zh-hant' || n.indexOf('zh-hant') === 0) return 'zh_TW';
+      if (n.indexOf('zh') === 0) return 'zh_CN';
+      return 'en';
+    }
+    function withLang(path, lang) {
+      if (path.indexOf('#') >= 0) {
+        var parts = path.split('#');
+        return withLang(parts[0], lang) + '#' + parts.slice(1).join('#');
+      }
+      return path + (path.indexOf('?') >= 0 ? '&' : '?') + 'lang=' + encodeURIComponent(lang);
+    }
+    function table(headers, rows) {
+      return '<table><thead><tr>' + headers.map(function(h){ return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+        rows.map(function(row){ return '<tr>' + row.map(function(cell){ return '<td>' + esc(cell) + '</td>'; }).join('') + '</tr>'; }).join('') +
+        '</tbody></table>';
+    }
+    function render(lang, updateUrl) {
+      var c = COPY[lang] || COPY.en;
+      var ui = UI[lang] || UI.en;
+      document.documentElement.lang = lang.replace('_', '-');
+      document.title = c.title;
+      var desc = document.querySelector('meta[name="description"]');
+      if (desc) desc.setAttribute('content', c.desc);
+      var ogt = document.querySelector('meta[property="og:title"]');
+      if (ogt) ogt.setAttribute('content', c.title);
+      var ogd = document.querySelector('meta[property="og:description"]');
+      if (ogd) ogd.setAttribute('content', c.desc);
+      var twt = document.querySelector('meta[name="twitter:title"]');
+      if (twt) twt.setAttribute('content', c.title);
+      var twd = document.querySelector('meta[name="twitter:description"]');
+      if (twd) twd.setAttribute('content', c.desc);
+      try { localStorage.setItem('gaf-lang', lang); } catch (_) {}
+      var sel = document.getElementById('lang-sel');
+      if (sel) {
+        sel.value = lang;
+        sel.setAttribute('aria-label', LANG_LABELS[lang] || LANG_LABELS.en);
+      }
+      if (updateUrl && window.history && window.URL) {
+        var url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState(null, '', url.toString());
+      }
+      document.querySelectorAll('[data-ui]').forEach(function(node) {
+        var key = node.getAttribute('data-ui');
+        if (ui[key]) node.textContent = ui[key];
+      });
+      document.querySelectorAll('[data-href]').forEach(function(node) {
+        var key = node.getAttribute('data-href');
+        if (BASE_LINKS[key]) node.href = withLang(BASE_LINKS[key], lang);
+      });
+      var footerCopy = document.getElementById('footer-copy');
+      if (footerCopy) footerCopy.textContent = ui.footer;
+      var root = document.getElementById('security-root');
+      root.innerHTML = [
+        '<section class="hero">',
+          '<div><div class="eyebrow"><span>✓</span><span>' + esc(c.eyebrow) + '</span></div><h1>' + esc(c.h1) + '</h1><p class="lead">' + esc(c.lead) + '</p>',
+          '<div class="cta-row"><a class="btn primary" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">' + esc(ui.install) + ' ↗</a><a class="btn" href="' + esc(withLang('privacy-policy.html', lang)) + '">' + esc(ui.readPrivacy) + '</a></div></div>',
+          '<aside class="panel"><h2>' + esc(c.summaryTitle) + '</h2><ul class="fact-list">' + c.facts.map(function(item, i){ return '<li><span class="mark">' + (i + 1) + '</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></aside>',
+        '</section>',
+        '<div class="section-stack">',
+          '<section class="section-card"><h2>' + esc(c.sentTitle) + '</h2><p>' + esc(c.sentIntro) + '</p>' + table(c.sentHeaders, c.sentRows) + '</section>',
+          '<section class="section-card"><h2>' + esc(c.permTitle) + '</h2><p>' + esc(c.permIntro) + '</p>' + table(c.permHeaders, c.permRows) + '<div class="callout">' + esc(c.callout) + '</div></section>',
+          '<section class="section-card"><h2>' + esc(c.localTitle) + '</h2><ul class="local-list">' + c.localItems.map(function(item){ return '<li><span class="mark">✓</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></section>',
+          '<section class="section-card"><h2>' + esc(c.respTitle) + '</h2><p>' + esc(c.respText) + '</p></section>',
+        '</div>'
+      ].join('');
+    }
+    function getTheme() {
+      try {
+        var t = localStorage.getItem('gaf-theme');
+        if (t === 'light' || t === 'dark') return t;
+      } catch (_) {}
+      return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    }
+    function setTheme(t) {
+      document.documentElement.setAttribute('data-theme', t);
+      try { localStorage.setItem('gaf-theme', t); } catch (_) {}
+    }
+    var themeBtn = document.getElementById('theme-toggle');
+    if (themeBtn) themeBtn.addEventListener('click', function(){ setTheme(getTheme() === 'dark' ? 'light' : 'dark'); });
+    var langSel = document.getElementById('lang-sel');
+    if (langSel) langSel.addEventListener('change', function(e){ render(e.target.value, true); });
+    render(detectLang(), false);
+  })();
+  </script>
 </body>
 </html>

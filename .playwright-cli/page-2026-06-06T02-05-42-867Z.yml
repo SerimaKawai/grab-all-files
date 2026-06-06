@@ -1,0 +1,113 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Grab All Files" [ref=e4] [cursor=pointer]:
+        - /url: ../
+        - generic [ref=e5]: Grab All Files
+      - link "戻る" [ref=e6] [cursor=pointer]:
+        - /url: ../
+        - generic [ref=e7]: ←
+        - generic [ref=e8]: 戻る
+      - button "Toggle dark mode / ダークモード切替" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: 🌙
+      - combobox "言語" [ref=e11] [cursor=pointer]:
+        - option "English"
+        - option "日本語" [selected]
+        - option "Español"
+        - option "Français"
+        - option "한국어"
+        - option "Italiano"
+        - option "简体中文"
+        - option "繁體中文"
+        - option "Português"
+        - option "Deutsch"
+  - main [ref=e12]:
+    - text: ✓ ✓ ✓ ✓ ✓ +
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]: 14日間無料トライアル付き
+        - generic [ref=e17]:
+          - heading "ファイル一括ダウンロード" [level=2] [ref=e18]
+          - generic [ref=e19]: 永続ライセンス · Chrome™ / Edge™ / Firefox™ 対応
+        - generic [ref=e20]:
+          - generic [ref=e21]: $19.99
+          - generic [ref=e22]: USD
+          - generic [ref=e23]: 買い切り（一度のみ）
+        - paragraph [ref=e24]: サブスクなし・自動更新なし。一度の購入で永続利用。
+        - list [ref=e25]:
+          - listitem [ref=e26]:
+            - text: ✓ 1ライセンスで最大
+            - strong [ref=e27]: 3台
+            - text: まで有効化
+          - listitem [ref=e28]: ✓ 全機能ロック解除（一括保存・PDF結合・ZIP・CSV）
+          - listitem [ref=e29]: ✓ 今後のアップデート込み（Manifest V3 対応）
+          - listitem [ref=e30]: ✓ ローカル処理 — アップロード/サーバー送信なし
+          - listitem [ref=e31]: ✓ 10言語UI（EN/JA/ES/FR/DE/IT/KO/PT-BR/ZH）
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - heading "1 まずは14日間 無料でお試し" [level=3] [ref=e34]:
+            - generic [ref=e35]: "1"
+            - text: まずは14日間 無料でお試し
+          - generic [ref=e36]:
+            - generic [ref=e37]: Day 0
+            - text: インストール →
+            - generic [ref=e38]: Day 1–14
+            - text: 全機能・カード不要 →
+            - generic [ref=e39]: Day 15+
+            - text: 納得して購入
+          - paragraph [ref=e40]: まだ試していない方は、まず無料トライアルから。カード登録なしで14日間、全機能をご利用いただけます。
+        - generic [ref=e41]:
+          - heading "2 確認してお支払い" [level=3] [ref=e42]:
+            - generic [ref=e43]: "2"
+            - text: 確認してお支払い
+          - generic [ref=e44]:
+            - group [ref=e45]:
+              - generic "この同意について +" [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]: この同意について
+                - text: +
+            - generic [ref=e48] [cursor=pointer]:
+              - checkbox "ライセンスキーを購入後すぐに受け取ることに同意します。 EU/EEA在住の方：これにより14日間の撤回権が適用されないことを了承します。" [ref=e49]
+              - generic [ref=e50]:
+                - text: ライセンスキーを
+                - strong [ref=e51]: 購入後すぐに受け取ること
+                - text: に同意します。
+                - generic [ref=e52]: EU/EEA在住の方：これにより14日間の撤回権が適用されないことを了承します。
+          - button "安全な決済へ進む — $19.99" [disabled]:
+            - generic: 🔒
+            - text: 安全な決済へ進む — $19.99
+            - generic: →
+          - generic [ref=e53]: 購入後、ライセンスキーがメールで送信されます。
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - heading "🔒 安全な決済" [level=4] [ref=e56]:
+              - generic [ref=e57]: 🔒
+              - text: 安全な決済
+            - paragraph [ref=e58]:
+              - text: 決済は
+              - strong [ref=e59]: Stripe
+              - text: 。カード情報は当方サーバーに到達しません。
+          - generic [ref=e60]:
+            - heading "📨 即時お届け" [level=4] [ref=e61]:
+              - generic [ref=e62]: 📨
+              - text: 即時お届け
+            - paragraph [ref=e63]: ライセンスキーは数秒でメール到着。
+          - generic [ref=e64]:
+            - heading "↺ 30日不具合返金" [level=4] [ref=e65]:
+              - generic [ref=e66]: ↺
+              - text: 30日不具合返金
+            - paragraph [ref=e67]: 技術的な不具合で動作しない場合、30日以内のご連絡で全額返金。
+          - generic [ref=e68]:
+            - heading "🌐 Sold by" [level=4] [ref=e69]:
+              - generic [ref=e70]: 🌐
+              - text: Sold by
+            - paragraph [ref=e71]: Serima Kawai (sole proprietor, Japan). Independent.
+        - paragraph [ref=e72]:
+          - link "利用規約" [ref=e73] [cursor=pointer]:
+            - /url: ../terms.html
+          - text: ·
+          - link "プライバシーポリシー" [ref=e74] [cursor=pointer]:
+            - /url: ../privacy-policy.html
+          - text: ·
+          - link "特定商取引法に基づく表記" [ref=e75] [cursor=pointer]:
+            - /url: ../legal.html
+    - text: ✓ ✓ ✓ ✓ ✓ + ✓ ✓ ✓ ✓ ✓ + ✓ ✓ ✓ ✓ ✓ + ✓ ✓ ✓ ✓ ✓ + ✓ ✓ ✓ ✓ ✓ + ✓ ✓ ✓ ✓ ✓ + ✓ ✓ ✓ ✓ ✓ + ✓ ✓ ✓ ✓ ✓ +

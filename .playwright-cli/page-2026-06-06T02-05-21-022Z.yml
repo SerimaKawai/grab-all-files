@@ -1,0 +1,132 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Grab All Files" [ref=e4] [cursor=pointer]:
+        - /url: index.html?lang=ja
+        - generic [ref=e5]: Grab All Files
+      - navigation "Primary" [ref=e6]:
+        - link "用途別" [ref=e7] [cursor=pointer]:
+          - /url: index.html?lang=ja#use-cases
+        - link "料金" [ref=e8] [cursor=pointer]:
+          - /url: index.html?lang=ja#pricing
+        - link "お問い合わせ" [ref=e9] [cursor=pointer]:
+          - /url: contact/?lang=ja
+      - generic [ref=e10]:
+        - button "Toggle dark mode" [ref=e11] [cursor=pointer]:
+          - generic [ref=e12]: 🌙
+        - combobox "言語" [ref=e13]:
+          - option "English"
+          - option "日本語" [selected]
+          - option "Español"
+          - option "Français"
+          - option "Deutsch"
+          - option "Italiano"
+          - option "한국어"
+          - option "Português (BR)"
+          - option "简体中文"
+          - option "繁體中文"
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: ✓
+          - generic [ref=e19]: ファイルはアップロードされません
+        - heading "Grab All Files のセキュリティ、プライバシー、権限" [level=1] [ref=e20]
+        - paragraph [ref=e21]: Grab All Files は、ユーザーが選んだページやURLをスキャンするため、広いブラウザ権限が必要です。現在のログインセッションで開けるページも対象にできます。ファイル検出、ダウンロード、ZIP作成、CSV出力、PDF結合はブラウザ内でローカルに実行されます。
+        - generic [ref=e22]:
+          - link "無料インストール ↗" [ref=e23] [cursor=pointer]:
+            - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+          - link "プライバシーポリシーを読む" [ref=e24] [cursor=pointer]:
+            - /url: privacy-policy.html?lang=ja
+      - complementary [ref=e25]:
+        - heading "要点" [level=2] [ref=e26]
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - generic [ref=e29]: "1"
+            - generic [ref=e30]: ファイル本文は当方サーバーを通過しません。
+          - listitem [ref=e31]:
+            - generic [ref=e32]: "2"
+            - generic [ref=e33]: PDF結合、ZIP作成、CSV出力はローカル処理です。
+          - listitem [ref=e34]:
+            - generic [ref=e35]: "3"
+            - generic [ref=e36]: ライセンス確認にファイル本文は含まれません。
+          - listitem [ref=e37]:
+            - generic [ref=e38]: "4"
+            - generic [ref=e39]: アクセス権のあるファイルにのみ使用してください。
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - heading "当方サーバーへ送信されるもの" [level=2] [ref=e42]
+        - paragraph [ref=e43]: 送信されるのは、無料トライアルとライセンス確認に必要な情報だけです。
+        - table [ref=e44]:
+          - rowgroup [ref=e45]:
+            - row "目的 送信されるデータ 送信されないもの" [ref=e46]:
+              - columnheader "目的" [ref=e47]
+              - columnheader "送信されるデータ" [ref=e48]
+              - columnheader "送信されないもの" [ref=e49]
+          - rowgroup [ref=e50]:
+            - row "トライアル判定 14日間トライアルを確認するためのランダムな端末UUIDと時刻情報。 ファイル本文、ページHTML、閲覧履歴、Cookie、パスワード。" [ref=e51]:
+              - cell "トライアル判定" [ref=e52]
+              - cell "14日間トライアルを確認するためのランダムな端末UUIDと時刻情報。" [ref=e53]
+              - cell "ファイル本文、ページHTML、閲覧履歴、Cookie、パスワード。" [ref=e54]
+            - row "ライセンス有効化・更新 ライセンスキー、ランダム端末UUID、ライセンストークンのメタデータ。 ダウンロードファイル、検出URL一覧、元ページ内容。" [ref=e55]:
+              - cell "ライセンス有効化・更新" [ref=e56]
+              - cell "ライセンスキー、ランダム端末UUID、ライセンストークンのメタデータ。" [ref=e57]
+              - cell "ダウンロードファイル、検出URL一覧、元ページ内容。" [ref=e58]
+            - row "失効リスト更新 個人を特定するペイロードはなく、署名済み失効リストを取得します。 ライセンスキーやファイルデータは含まれません。" [ref=e59]:
+              - cell "失効リスト更新" [ref=e60]
+              - cell "個人を特定するペイロードはなく、署名済み失効リストを取得します。" [ref=e61]
+              - cell "ライセンスキーやファイルデータは含まれません。" [ref=e62]
+      - generic [ref=e63]:
+        - heading "広いWebサイト権限が必要な理由" [level=2] [ref=e64]
+        - paragraph [ref=e65]: ブラウザは「Webサイトデータへアクセスできる」という警告を表示することがあります。対象サイトはユーザーが選び、ファイルはフレーム、ビューアURL、通信レスポンス内にある場合があるためです。
+        - table [ref=e66]:
+          - rowgroup [ref=e67]:
+            - row "権限の範囲 必要な理由 実際の制限" [ref=e68]:
+              - columnheader "権限の範囲" [ref=e69]
+              - columnheader "必要な理由" [ref=e70]
+              - columnheader "実際の制限" [ref=e71]
+          - rowgroup [ref=e72]:
+            - row "選択ページの読み取り 表示リンク、埋め込みファイル、PDFビューア、遅延読み込みアセットを見つけるため。 ユーザーがスキャン対象に選んだページやURLで使用します。" [ref=e73]:
+              - cell "選択ページの読み取り" [ref=e74]
+              - cell "表示リンク、埋め込みファイル、PDFビューア、遅延読み込みアセットを見つけるため。" [ref=e75]
+              - cell "ユーザーがスキャン対象に選んだページやURLで使用します。" [ref=e76]
+            - row "ファイルらしい通信レスポンスの確認 fetch/XHR、CMSルート、ビューアエンドポイント経由のファイルを見つけるため。 ローカル結果一覧の作成に使い、一覧はアップロードされません。" [ref=e77]:
+              - cell "ファイルらしい通信レスポンスの確認" [ref=e78]
+              - cell "fetch/XHR、CMSルート、ビューアエンドポイント経由のファイルを見つけるため。" [ref=e79]
+              - cell "ローカル結果一覧の作成に使い、一覧はアップロードされません。" [ref=e80]
+            - row "現在のブラウザセッションの利用 ユーザーが手動で開けるポータルや会員ページのファイルを取得するため。 認証情報は収集しません。権限のある場所でのみ使用してください。" [ref=e81]:
+              - cell "現在のブラウザセッションの利用" [ref=e82]
+              - cell "ユーザーが手動で開けるポータルや会員ページのファイルを取得するため。" [ref=e83]
+              - cell "認証情報は収集しません。権限のある場所でのみ使用してください。" [ref=e84]
+        - generic [ref=e85]: この拡張機能は、権限のないコンテンツへアクセスする機能ではありません。ブラウザセッションがすでに持っているアクセス権の範囲で動作します。
+      - generic [ref=e86]:
+        - heading "ローカルに残る処理" [level=2] [ref=e87]
+        - list [ref=e88]:
+          - listitem [ref=e89]:
+            - generic [ref=e90]: ✓
+            - generic [ref=e91]: 検出ファイル一覧、絞り込み、スキャン結果。
+          - listitem [ref=e92]:
+            - generic [ref=e93]: ✓
+            - generic [ref=e94]: ダウンロードしたファイル本文。
+          - listitem [ref=e95]:
+            - generic [ref=e96]: ✓
+            - generic [ref=e97]: PDF結合処理。
+          - listitem [ref=e98]:
+            - generic [ref=e99]: ✓
+            - generic [ref=e100]: ZIP作成処理。
+          - listitem [ref=e101]:
+            - generic [ref=e102]: ✓
+            - generic [ref=e103]: CSV出力処理。
+      - generic [ref=e104]:
+        - heading "責任ある利用" [level=2] [ref=e105]
+        - paragraph [ref=e106]: Grab All Files は正当な資料収集と作業効率化のために使用し、対象サイトの規約、著作権、アクセス権限、レート制限を守ってください。
+  - contentinfo [ref=e107]:
+    - generic [ref=e108]:
+      - paragraph [ref=e109]: Serima Kawai による独立したブラウザ拡張機能。Google、Microsoft、Mozillaとは提携していません。
+      - generic [ref=e110]:
+        - link "プライバシーポリシー" [ref=e111] [cursor=pointer]:
+          - /url: privacy-policy.html?lang=ja
+        - link "利用規約" [ref=e112] [cursor=pointer]:
+          - /url: terms.html?lang=ja
+        - link "法務情報" [ref=e113] [cursor=pointer]:
+          - /url: legal.html?lang=ja

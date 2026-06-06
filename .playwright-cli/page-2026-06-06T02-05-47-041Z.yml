@@ -1,0 +1,142 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#case-root"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Grab All Files" [ref=e5] [cursor=pointer]:
+        - /url: ../?lang=ja
+        - generic [ref=e6]: Grab All Files
+      - navigation "Primary" [ref=e7]:
+        - link "用途別" [ref=e8] [cursor=pointer]:
+          - /url: ../?lang=ja#use-cases
+        - link "セキュリティ" [ref=e9] [cursor=pointer]:
+          - /url: ../security.html?lang=ja
+        - link "料金" [ref=e10] [cursor=pointer]:
+          - /url: ../?lang=ja#pricing
+      - generic [ref=e11]:
+        - button "Toggle dark mode" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: 🌙
+        - combobox "Language" [ref=e14]:
+          - option "English"
+          - option "日本語" [selected]
+          - option "Español"
+          - option "Français"
+          - option "Deutsch"
+          - option "Italiano"
+          - option "한국어"
+          - option "Português (BR)"
+          - option "简体中文"
+          - option "繁體中文"
+        - link "無料インストール" [ref=e15] [cursor=pointer]:
+          - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - link "← 用途別" [ref=e19] [cursor=pointer]:
+          - /url: ../?lang=ja#use-cases
+        - generic [ref=e20]:
+          - generic [ref=e21]: ✓
+          - generic [ref=e22]: PDF収集
+        - heading "Webサイト上のPDFを、1つずつ開かずに一括ダウンロード。" [level=1] [ref=e23]
+        - paragraph [ref=e24]: 通常リンク、埋め込みPDFビューア、iframe、遅延読み込み、fetch/XHRレスポンス、CMSのダウンロードルートにあるPDFを検出します。PDFで絞り込み、必要なものだけ選び、保存またはブラウザ内で結合できます。
+        - generic [ref=e25]:
+          - link "無料インストール ↗" [ref=e26] [cursor=pointer]:
+            - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+          - link "セキュリティ" [ref=e27] [cursor=pointer]:
+            - /url: ../security.html?lang=ja
+      - complementary "Grab All Files" [ref=e28]:
+        - generic [ref=e30]: Grab All Files
+        - list [ref=e31]:
+          - listitem [ref=e32]:
+            - generic [ref=e33]: ✓
+            - generic [ref=e34]: 14日間フル機能無料トライアル
+          - listitem [ref=e35]:
+            - generic [ref=e36]: ✓
+            - generic [ref=e37]: $19.99 永続ライセンス
+          - listitem [ref=e38]:
+            - generic [ref=e39]: ✓
+            - generic [ref=e40]: PDF結合・ZIP化・CSV出力はブラウザ内でローカル処理
+          - listitem [ref=e41]:
+            - generic [ref=e42]: ✓
+            - generic [ref=e43]: ファイルは元サイトから端末へ直接ダウンロード
+        - generic [ref=e44]:
+          - link "Chrome ウェブストア ↗" [ref=e45] [cursor=pointer]:
+            - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+            - generic [ref=e46]: Chrome ウェブストア
+            - generic [ref=e47]: ↗
+          - link "Edge アドオン ↗" [ref=e48] [cursor=pointer]:
+            - /url: https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn
+            - generic [ref=e49]: Edge アドオン
+            - generic [ref=e50]: ↗
+          - link "Firefox アドオン ↗" [ref=e51] [cursor=pointer]:
+            - /url: https://addons.mozilla.org/firefox/addon/grab-all-files/
+            - generic [ref=e52]: Firefox アドオン
+            - generic [ref=e53]: ↗
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - heading "向いている用途" [level=2] [ref=e57]
+          - list [ref=e58]:
+            - listitem [ref=e59]:
+              - generic [ref=e60]: ✓
+              - generic [ref=e61]: 複数ページに分散した公開報告書、申請書、開示資料。
+            - listitem [ref=e62]:
+              - generic [ref=e63]: ✓
+              - generic [ref=e64]: 大学・研究機関の講義資料、論文、配布PDF。
+            - listitem [ref=e65]:
+              - generic [ref=e66]: ✓
+              - generic [ref=e67]: 直接URLが見えないPDFビューアページ。
+            - listitem [ref=e68]:
+              - generic [ref=e69]: ✓
+              - generic [ref=e70]: sitemap.xmlやJavaScriptメニューも追いたい同一サイト内クロール。
+        - generic [ref=e71]:
+          - heading "使い方" [level=2] [ref=e72]
+          - list [ref=e73]:
+            - listitem [ref=e74]:
+              - generic [ref=e75]: "1"
+              - generic [ref=e76]: 対象ページを開く、または開始URLを貼り付けてクロール深度を選ぶ。
+            - listitem [ref=e77]:
+              - generic [ref=e78]: "2"
+              - generic [ref=e79]: 検出結果をPDFで絞り込み、タイトル、元ページ、サイズ、URLを確認。
+            - listitem [ref=e80]:
+              - generic [ref=e81]: "3"
+              - generic [ref=e82]: 選択PDFを一括保存、ZIP化、またはローカルで1つのPDFに結合。
+      - generic [ref=e83]:
+        - heading "よくある質問" [level=2] [ref=e84]
+        - generic [ref=e85]:
+          - group [ref=e86]:
+            - generic "PDFビューアやiframe内のPDFも見つかりますか？" [ref=e87] [cursor=pointer]
+          - group [ref=e88]:
+            - generic "複数ページをクロールできますか？" [ref=e89] [cursor=pointer]
+          - group [ref=e90]:
+            - generic "PDF結合でファイルはアップロードされますか？" [ref=e91] [cursor=pointer]
+      - generic [ref=e92]:
+        - heading "関連する用途別ガイド" [level=2] [ref=e93]
+        - generic [ref=e94]:
+          - link "Webページから集めたPDFを、そのままブラウザ内で結合。 Webページで検出したPDFを選択し、サーバーへアップロードせず1つのPDFに結合します。" [ref=e95] [cursor=pointer]:
+            - /url: merge-pdfs-locally.html?lang=ja
+            - strong [ref=e96]: Webページから集めたPDFを、そのままブラウザ内で結合。
+            - generic [ref=e97]: Webページで検出したPDFを選択し、サーバーへアップロードせず1つのPDFに結合します。
+          - link "Webページ上のファイルを、整理された1回の作業で一括ダウンロード。 文書、画像、ZIP、CSV、隠れたファイルレスポンスを検出。絞り込み、一括保存、ZIP化、PDF結合、CSV出力に対応。" [ref=e98] [cursor=pointer]:
+            - /url: download-files-from-webpage.html?lang=ja
+            - strong [ref=e99]: Webページ上のファイルを、整理された1回の作業で一括ダウンロード。
+            - generic [ref=e100]: 文書、画像、ZIP、CSV、隠れたファイルレスポンスを検出。絞り込み、一括保存、ZIP化、PDF結合、CSV出力に対応。
+          - link "認証情報を渡さず、社内ポータルのファイルをダウンロード。 既存のブラウザログイン状態を使い、イントラネット、LMS、会員ページ、資料の多いダッシュボードから許可されたファイルを収集します。" [ref=e101] [cursor=pointer]:
+            - /url: internal-portal-downloads.html?lang=ja
+            - strong [ref=e102]: 認証情報を渡さず、社内ポータルのファイルをダウンロード。
+            - generic [ref=e103]: 既存のブラウザログイン状態を使い、イントラネット、LMS、会員ページ、資料の多いダッシュボードから許可されたファイルを収集します。
+    - generic [ref=e104]:
+      - heading "実際のページで Grab All Files を試せます。" [level=2] [ref=e105]
+      - paragraph [ref=e106]: 拡張機能をインストールし、対象ページでスキャンを実行。14日間の無料トライアル中に判断できます。
+      - link "無料インストール ↗" [ref=e107] [cursor=pointer]:
+        - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+  - contentinfo [ref=e108]:
+    - generic [ref=e109]:
+      - paragraph [ref=e110]: Serima Kawai による独立したブラウザ拡張機能。Google、Microsoft、Mozillaとは提携していません。
+      - generic [ref=e111]:
+        - link "ホーム" [ref=e112] [cursor=pointer]:
+          - /url: ../?lang=ja
+        - link "購入" [ref=e113] [cursor=pointer]:
+          - /url: ../purchase/?lang=ja
+        - link "セキュリティ" [ref=e114] [cursor=pointer]:
+          - /url: ../security.html?lang=ja

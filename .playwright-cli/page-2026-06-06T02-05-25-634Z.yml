@@ -1,0 +1,305 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Grab All Files" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=e5]: Grab All Files
+      - link "トップ" [ref=e6] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=e7]: ←
+        - generic [ref=e8]: トップ
+      - button "Toggle dark mode" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: 🌙
+      - combobox "言語" [ref=e11] [cursor=pointer]:
+        - option "English"
+        - option "日本語" [selected]
+        - option "Español"
+        - option "Français"
+        - option "한국어"
+        - option "Italiano"
+        - option "简体中文"
+        - option "繁體中文"
+        - option "Português"
+        - option "Deutsch"
+  - generic [ref=e13]:
+    - link "トップ" [ref=e14] [cursor=pointer]:
+      - /url: index.html
+    - generic [ref=e15]: ›
+    - link "法務情報" [ref=e16] [cursor=pointer]:
+      - /url: legal.html
+    - generic [ref=e17]: ›
+    - generic [ref=e18]: 利用規約
+  - main [ref=e19]:
+    - complementary [ref=e20]:
+      - heading "目次" [level=4] [ref=e21]
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "1. 用語の定義" [ref=e24] [cursor=pointer]:
+            - /url: "#sec-0"
+        - listitem [ref=e25]:
+          - link "2. 無料トライアル" [ref=e26] [cursor=pointer]:
+            - /url: "#sec-1"
+        - listitem [ref=e27]:
+          - link "3. ライセンスの付与" [ref=e28] [cursor=pointer]:
+            - /url: "#sec-2"
+        - listitem [ref=e29]:
+          - link "4. ライセンスキーの引渡し" [ref=e30] [cursor=pointer]:
+            - /url: "#sec-3"
+        - listitem [ref=e31]:
+          - link "5. 許諾された利用" [ref=e32] [cursor=pointer]:
+            - /url: "#sec-4"
+        - listitem [ref=e33]:
+          - link "6. 禁止事項" [ref=e34] [cursor=pointer]:
+            - /url: "#sec-5"
+        - listitem [ref=e35]:
+          - link "7. アップデートおよび本拡張機能の変更" [ref=e36] [cursor=pointer]:
+            - /url: "#sec-6"
+        - listitem [ref=e37]:
+          - link "7a. サポート対応" [ref=e38] [cursor=pointer]:
+            - /url: "#sec-7"
+        - listitem [ref=e39]:
+          - link "8. ライセンスの失効" [ref=e40] [cursor=pointer]:
+            - /url: "#sec-8"
+        - listitem [ref=e41]:
+          - link "9. 保証の否認" [ref=e42] [cursor=pointer]:
+            - /url: "#sec-9"
+        - listitem [ref=e43]:
+          - link "10. 責任の制限" [ref=e44] [cursor=pointer]:
+            - /url: "#sec-10"
+        - listitem [ref=e45]:
+          - link "11. 対象 Web サイトについてのお客様の責任" [ref=e46] [cursor=pointer]:
+            - /url: "#sec-11"
+        - listitem [ref=e47]:
+          - link "12. プライバシー" [ref=e48] [cursor=pointer]:
+            - /url: "#sec-12"
+        - listitem [ref=e49]:
+          - link "13. 本規約の変更" [ref=e50] [cursor=pointer]:
+            - /url: "#sec-13"
+        - listitem [ref=e51]:
+          - link "14. 準拠法・管轄" [ref=e52] [cursor=pointer]:
+            - /url: "#sec-14"
+        - listitem [ref=e53]:
+          - link "14a. 輸出管理" [ref=e54] [cursor=pointer]:
+            - /url: "#sec-15"
+        - listitem [ref=e55]:
+          - link "15. 可分性および存続" [ref=e56] [cursor=pointer]:
+            - /url: "#sec-16"
+        - listitem [ref=e57]:
+          - link "15a. 商標" [ref=e58] [cursor=pointer]:
+            - /url: "#sec-17"
+        - listitem [ref=e59]:
+          - link "15b. 準拠法・管轄" [ref=e60] [cursor=pointer]:
+            - /url: "#sec-18"
+        - listitem [ref=e61]:
+          - link "15c. クーリングオフ・撤回権" [ref=e62] [cursor=pointer]:
+            - /url: "#sec-19"
+        - listitem [ref=e63]:
+          - link "15d. 韓国消費者向け事前情報開示（전자상거래법 第13條）" [ref=e64] [cursor=pointer]:
+            - /url: "#sec-20"
+        - listitem [ref=e65]:
+          - link "16. お問い合わせ" [ref=e66] [cursor=pointer]:
+            - /url: "#sec-21"
+    - article [ref=e67]:
+      - generic [ref=e68]:
+        - heading "利用規約" [level=1] [ref=e69]
+        - paragraph [ref=e70]: "最終更新日: 2026年5月4日"
+        - paragraph [ref=e71]:
+          - text: 本利用規約（以下「本規約」）は、
+          - strong [ref=e72]: Serima Kawai
+          - text: （以下「当方」）が提供するブラウザ拡張機能「
+          - strong [ref=e73]: ファイル一括ダウンロード
+          - text: "」（英文表記: Grab All Files、以下「本拡張機能」）、付随するライセンスキー、無料トライアル期間、およびライセンス管理サービス（以下これらを総称して「本サービス」）の利用条件を定めるものです。本拡張機能のインストールまたはライセンスキーの有効化をもって、利用者（以下「お客様」）は本規約に同意したものとみなします。"
+        - paragraph [ref=e74]: 日本、EU/EEA、ブラジルその他の法域における消費者であるお客様について、本規約のいかなる条項も、強行法規により認められる放棄不能な消費者の権利、法定保証、適合性に関する救済、準拠法および管轄に関する強行的保護を制限するものではありません。本規約の条項が当該強行的保護に抵触する範囲においては、当該強行的保護が優先します。
+        - heading "1. 用語の定義" [level=2] [ref=e75]
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - strong [ref=e78]: 本拡張機能
+            - text: "— Google Chrome™ / Microsoft Edge™ / Mozilla Firefox™ 向けブラウザ拡張機能「ファイル一括ダウンロード（英文表記: Grab All Files）」をいう。"
+          - listitem [ref=e79]:
+            - strong [ref=e80]: ライセンスキー
+            - text: — 購入時に発行される
+            - code [ref=e81]: GAF-XXXX-XXXX-XXXX
+            - text: 形式の文字列で、本拡張機能の有料機能を有効化するもの。
+          - listitem [ref=e82]:
+            - strong [ref=e83]: デバイス
+            - text: — 1台のコンピュータ上の1つのブラウザプロファイルをいい、本拡張機能がローカルに保存するランダムな UUID により識別される。
+          - listitem [ref=e84]:
+            - strong [ref=e85]: トライアル
+            - text: — 初回有効化から14日間の無料トライアル。
+        - heading "2. 無料トライアル" [level=2] [ref=e86]
+        - paragraph [ref=e87]: お客様は、初回有効化から14日間、本拡張機能を無料でご利用いただけます。本サービスは、ランダムなデバイス UUID を当方のライセンスバックエンドに送信し、トライアル利用資格を確認します。トライアル期間終了後、有料機能のご利用には有効なライセンスキーが必要です。
+        - heading "3. ライセンスの付与" [level=2] [ref=e88]
+        - paragraph [ref=e89]:
+          - text: 本規約への完全かつ継続的な遵守、および所定のご購入代金のお支払いを条件に、当方はお客様に対し、1ライセンスにつき最大
+          - strong [ref=e90]: 3デバイス
+          - text: の範囲内において、お客様の個人的利用または社内業務目的で本拡張機能をインストール・利用する非独占的、譲渡不可、サブライセンス不可、撤回可能なライセンスを付与します。本拡張機能内のライセンス管理画面から登録済みデバイスを削除することで、デバイス枠を解放できます。
+        - heading "4. ライセンスキーの引渡し" [level=2] [ref=e91]
+        - paragraph [ref=e92]: Stripe による決済確認後、Stripe Checkout 画面でご登録いただいたメールアドレス宛に、ライセンスキーをお送りします。お客様は、当該メールアドレスを有効な状態に保ち、ライセンスキーを第三者に開示しない責任を負います。
+        - heading "5. 許諾された利用" [level=2] [ref=e93]
+        - paragraph [ref=e94]: お客様は、本拡張機能を、お客様自身がアクセスする権利およびダウンロードする権利を有する Web ページおよび URL に対して使用することができます。各対象 Web サイトの利用規約、著作権表示、robots ポリシー、アクセス制限、ならびにお客様に適用される法令の遵守は、すべてお客様の自己責任となります。
+        - heading "6. 禁止事項" [level=2] [ref=e95]
+        - paragraph [ref=e96]: お客様は、以下の行為を行わないことに同意します。
+        - list [ref=e97]:
+          - listitem [ref=e98]: ライセンスキーを第三者に転売・サブライセンス・共有・貸与・譲渡する行為。
+          - listitem [ref=e99]: 1つのライセンスキーをご購入プランで認められた数を超えるデバイス（従業員、顧客、コミュニティメンバー間での共有を含む）で使用する行為。
+          - listitem [ref=e100]: 本サービスのライセンス検証、トライアル検証、デバイス数制限、失効処理を回避、無効化、または無力化しようとする行為。
+          - listitem [ref=e101]: 本拡張機能を、第三者の Web サイトまたはサービスの DRM、ペイウォール、コンテンツ保護機構、アクセス制限を迂回する目的で使用する行為。
+          - listitem [ref=e102]: 対象 Web サイトの利用規約、robots.txt 指示、または適用法令に違反するクローリング、データマイニング、一括取得を本拡張機能で行う行為。
+          - listitem [ref=e103]: 本拡張機能を、第三者の知的財産権、プライバシー、その他の権利を侵害する目的で使用する行為。
+          - listitem [ref=e104]: 本拡張機能を、マルウェア、スパム、その他の違法コンテンツの送信、保管、配布のために使用する行為。
+          - listitem [ref=e105]: 本拡張機能のリバースエンジニアリング、逆コンパイル、逆アセンブルを行う行為（強行法規により明示的に認められる範囲、たとえば著作権法第30条の4に基づく互換性解析を除く）。
+          - listitem [ref=e106]: 本拡張機能またはそのソースファイルに含まれる著作権表示、商標表示、その他の権利表示を削除、改変、または不可視にする行為。
+          - listitem [ref=e107]: その他、当方が合理的に濫用的・不正・他のユーザーまたは本サービスに有害と判断する方法での利用。
+        - heading "7. アップデートおよび本拡張機能の変更" [level=2] [ref=e108]
+        - paragraph [ref=e109]: 本拡張機能のアップデートは、Chrome Web Store™、Microsoft Edge™ Add-ons および Firefox Add-ons により自動配信されます。当方は、機能の追加、変更、削除を行うことがあります。ただし、本拡張機能が送信するデータの種類を実質的に拡大する場合は、必ず事前にプライバシーポリシーを更新します。
+        - heading "7a. サポート対応" [level=2] [ref=e110]
+        - paragraph [ref=e111]:
+          - text: サポートに関するお問い合わせは、すべて
+          - link "support@grab-all-files.app" [ref=e112] [cursor=pointer]:
+            - /url: mailto:support@grab-all-files.app
+          - text: までお願いいたします。通常のお問い合わせには
+          - strong [ref=e113]: 3営業日以内
+          - text: 、本拡張機能の利用を妨げる緊急のお問い合わせには
+          - strong [ref=e114]: 24時間以内
+          - text: に受領のご連絡をいたします。受領の連絡は問題の解決を保証するものではなく、実際の解決時期は問題の性質および関連するプラットフォーム事業者の対応状況により異なります。
+        - heading "8. ライセンスの失効" [level=2] [ref=e115]
+        - paragraph [ref=e116]: 当方は、以下のいずれかに該当する場合、事前通知の有無を問わずライセンスキーを失効させることができます。
+        - list [ref=e117]:
+          - listitem [ref=e118]: 対応するお支払いの取消し、チャージバック、または返金が行われた場合。
+          - listitem [ref=e119]: お客様が本規約に違反し、当方が当該違反を重大と合理的に判断した場合。
+          - listitem [ref=e120]: 法令、裁判所の命令、またはプラットフォームポリシーにより必要となった場合。
+          - listitem [ref=e121]: ライセンスキーが公に開示された、または明らかに漏洩したと認められる態様で使用された場合。
+        - paragraph [ref=e122]: 失効後は、次回オンライン検証時、またはオフライン猶予期間（現状14日間）満了時に、有料機能が停止します。
+        - heading "9. 保証の否認" [level=2] [ref=e123]
+        - paragraph [ref=e124]: 強行法規により認められる最大限の範囲において、本サービスは「現状有姿（as is）」かつ「提供可能な範囲で（as available）」提供されるものとし、商品性、特定目的適合性、非侵害性、正確性、無中断性、無瑕疵性のいかなる保証も行いません。本拡張機能が、すべての Web サイトであらゆるダウンロード可能ファイルを検出することや、あらゆるサーバー構成に対してダウンロードが成功することを保証するものではありません。
+        - paragraph [ref=e125]: 消費者であるお客様について、本条は、法定保証、適合性に関する権利、解除権その他強行法規により放棄できない救済を排除するものではなく、当方の故意または重過失その他適用される強行法規により免責が禁止される事由に起因する責任を制限するものではありません。
+        - heading "10. 責任の制限" [level=2] [ref=e126]
+        - paragraph [ref=e127]: 強行法規により認められる最大限の範囲において、本規約または本サービスのご利用に起因または関連する当方の累積的責任の総額は、お客様が当該請求の原因となったライセンスキーについて当方に対して実際にお支払いいただいた金額を上限とします。当方は、間接損害、付随的損害、特別損害、結果的損害、懲罰的損害、逸失利益、データ喪失、事業中断について責任を負いません。
+        - paragraph [ref=e128]: 消費者であるお客様について、本条は、当方の故意または重過失に起因する損害、適用法上制限が禁止される死亡または身体傷害、法定の適合性・保証に関する救済、その他適用される強行的な消費者保護法により制限できない責任には適用されません。
+        - heading "11. 対象 Web サイトについてのお客様の責任" [level=2] [ref=e129]
+        - paragraph [ref=e130]: 本拡張機能は、お客様がご自身で選択した Web ページおよび URL に対してのみ動作します。当方は、これらの Web サイトの運営者と何ら関係を有さず、その内容について何ら保証しません。お客様がアクセス権限を持たないコンテンツのダウンロードや、その結果生じる一切の事象について、当方は責任を負いません。強行法規により認められる範囲で、お客様は、本拡張機能を対象 Web サイトに対して権限なく利用したことに起因する第三者からの請求から、当方を補償することに同意します。
+        - heading "12. プライバシー" [level=2] [ref=e131]
+        - paragraph [ref=e132]: 本サービスのご利用には、当方のプライバシーポリシーが適用され、本規約の一部として組み込まれます。プライバシーポリシーには、本拡張機能が取り扱うデータ、当方ライセンスバックエンドに送信されるデータ、および当該データに関するお客様の権利が記載されています。
+        - heading "13. 本規約の変更" [level=2] [ref=e133]
+        - paragraph [ref=e134]: 当方は、本規約を随時改定することがあります。改定後の規約は、新たな「最終更新日」を付して掲載します。重要な変更については、本拡張機能の UI、またはライセンスキー保有者へのメールで追加的にお知らせします。改定の効力発生後にお客様が本サービスのご利用を継続された場合、改定後の規約に同意したものとみなします。
+        - heading "14. 準拠法・管轄" [level=2] [ref=e135]
+        - paragraph [ref=e136]:
+          - text: 本規約は、日本法に準拠します。強行法規により認められる最大限の範囲において、本規約または本サービスのご利用に関する紛争については、
+          - strong [ref=e137]: 東京地方裁判所
+          - text: を第一審の専属合意管轄裁判所とします。ただし、消費者であるお客様について、本準拠法・管轄条項は、お客様の常居所地または住所地の法により認められる放棄不能な保護、または強行的な消費者管轄規則により利用可能な裁判所（当該規則により認められる住所地・居所地の裁判所を含みます）において請求を提起し、または防御する権利を奪うものではありません。
+        - heading "14a. 輸出管理" [level=2] [ref=e138]
+        - paragraph [ref=e139]: お客様は、米国輸出管理規則（EAR）、外国為替及び外国貿易法その他お客様に適用される一切の輸出管理および経済制裁に関する法令を遵守することに同意します。お客様は、米国または日本が禁輸措置を講じている国・地域に所在せず、当該国・地域の国民または居住者でもなく、米国政府または日本政府の禁止対象当事者リストに記載されていないことを表明します。
+        - heading "15. 可分性および存続" [level=2] [ref=e140]
+        - paragraph [ref=e141]: 本規約のいずれかの条項が管轄裁判所により無効または執行不能と判断された場合でも、その他の条項は引き続き効力を有します。第6条、第7a条、第8条、第9条、第10条、第11条、第12条、第14条、第14a条、第15a条は、お客様のライセンスが終了した後も存続します。
+        - heading "15a. 商標" [level=2] [ref=e142]
+        - paragraph [ref=e143]: 「Google Chrome」および「Chrome Web Store」は Google LLC の商標です。「Microsoft Edge」および「Microsoft Edge Add-ons」は Microsoft Corporation の商標です。「Firefox」は Mozilla Foundation の商標です。本書面におけるこれらの名称の使用は説明目的に限られ、Google、Microsoft または Mozilla との提携、後援、推奨を意味するものではありません。本拡張機能は Serima Kawai が独立して開発・配布する製品です。
+        - paragraph [ref=e144]:
+          - strong [ref=e145]: 強行法規上の消費者の権利 — 日本以外の消費者。
+          - text: "本条のいかなる規定も、欧州経済領域（EU/EEA）の消費者（デジタルコンテンツ指令 (EU) 2019/770 第7条・第8条・第11条 — 2年間の適合性責任。各国法への置換: ドイツ BGB §§327–327u、フランス Code de la consommation L.224-25-1 以下、スペイン TRLGDCU 第115条の2 以下、イタリア Codice del Consumo 第135条の8 以下）、ブラジル（CDC Lei 8.078/1990 第18条・第20条・第26条）、大韓民国（전자상거래법 第17條、약관규제법 第7條、소비자기본법）、中華人民共和国（《消费者权益保护法》第二十四条／第二十六条；《民法典》第四百九十七条）、台湾（消保法 第7條／第22條；民法 §247-1）の消費者の放棄不能な強行法規上の権利を制限するものではありません。"
+        - paragraph [ref=e146]:
+          - strong [ref=e147]: 責任の上限 — 日本以外の消費者向けの除外規定。
+          - text: 上記の責任上限は、以下については適用されません。(a) 当方の行為または不作為による死亡または身体的傷害、(b) 故意または重過失（Vorsatz / grobe Fahrlässigkeit；faute lourde；colpa grave；culpa grave；고의·중과실；故意/重大过失/重大過失）に起因する損害、(c) EU 製造物責任指令 85/374/EEC（2024/2853 によりリキャスト）に基づく責任、(d) 消費者の常居所地の強行法規により排除できない一切の責任 — 例として、BGB §309 Nr. 7（ドイツ）、Codice del Consumo 第33条第2項（イタリア）、Code civil 第1170条 + Code de la consommation 第L.221-15条（フランス）、TRLGDCU 第86条（スペイン）、CDC 第51条 I 号・IV 号（ブラジル）、약관규제법 第7條（韓国）、《民法典》第四百九十七条 + 《消法》第二十六条（中国）、民法 §247-1 + 消保法 §12（台湾）。
+        - heading "15b. 準拠法・管轄" [level=2] [ref=e148]
+        - paragraph [ref=e149]:
+          - text: 本規約は、日本法に準拠します。本規約または本サービスのご利用に関する紛争については、
+          - strong [ref=e150]: 東京地方裁判所
+          - text: を第一審の専属合意管轄裁判所とします。ただし、消費者については以下に定める例外が適用されます。
+        - paragraph [ref=e151]:
+          - strong [ref=e152]: 強行法規上の消費者保護に関する除外。
+          - text: 日本法の選択および東京地裁の専属管轄条項は、消費者の常居所地の強行法規により与えられる保護を奪わない範囲においてのみ適用されます。具体的には、以下のとおりです。
+        - list [ref=e153]:
+          - listitem [ref=e154]:
+            - strong [ref=e155]: 日本：
+            - text: 消費者契約法その他の強行法規により消費者に認められる権利（住所地を管轄する裁判所に提訴する権利を含む）はいずれも制限されません。
+          - listitem [ref=e156]:
+            - strong [ref=e157]: 欧州連合 / EEA
+            - text: （規則 (EC) 593/2008 第6条第2項 — Rome I；規則 (EU) 1215/2012 第17条–第19条 — Brussels Ia）：EU/EEA 内に常居所を有する消費者は、自己の住所地の裁判所に提訴することができ、また当方からはその住所地の裁判所においてのみ訴えを提起されます。日本法の選択にかかわらず、当該消費者の常居所地の強行法規が適用されます。EU の消費者は、欧州委員会の Consumer Redress 案内ページ（
+            - link "https://consumer-redress.ec.europa.eu/index_en" [ref=e158] [cursor=pointer]:
+              - /url: https://consumer-redress.ec.europa.eu/index_en
+            - text: ）を参照できます。
+          - listitem [ref=e159]:
+            - strong [ref=e160]: ブラジル
+            - text: （CDC Lei 8.078/1990 第51条 IX 号・第101条 I 号；LINDB 第9条）：ブラジルに住所を有する消費者は、自己の住所地の裁判所（Juizado Especial Cível を含む）に提訴できます。日本法の選択にかかわらず、ブラジルの公序（ordem pública）に係る消費者保護規定が適用されます。
+          - listitem [ref=e161]:
+            - strong [ref=e162]: 大韓民国
+            - text: （국제사법 第43條；약관규제법 第14條）：韓国に常居所を有する消費者は、自己の住所地の裁判所に提訴できます。日本法の選択にかかわらず、韓国消費者法の強行的保護が適用されます（국제사법 第42條）。
+          - listitem [ref=e163]:
+            - strong [ref=e164]: 中華人民共和国
+            - text: （《民事诉讼法》第三十五条；《消费者权益保护法实施条例》第十七条）：中国の消費者は、自己の住所地または契約履行地を管轄する人民法院に提訴できます。
+          - listitem [ref=e165]:
+            - strong [ref=e166]: 台湾
+            - text: （消保法 第11條–第12條；民法 §247-1）：台湾の消費者は、自己の住所地の裁判所に提訴でき、小額訴訟程序または簡易程序を含みます。
+        - heading "15c. クーリングオフ・撤回権" [level=2] [ref=e167]
+        - paragraph [ref=e168]: 多くの法域では、消費者に対し、距離販売契約を理由なく解除できる法定の冷却期間（クーリングオフ／撤回権）が認められています。
+        - list [ref=e169]:
+          - listitem [ref=e170]:
+            - strong [ref=e171]: EU/EEA — 14日間
+            - text: （指令 2011/83/EU 第9条）。即時提供されるデジタルコンテンツについては、消費者が事前に明示的に同意し、かつ撤回権を喪失することを承認した場合に放棄できます（第16条(m)）。消費者は購入時のチェックボックスにより即時提供への同意と撤回権の放棄を行います。本拡張機能は購入前に14日間の無料トライアルを提供します。
+          - listitem [ref=e172]:
+            - strong [ref=e173]: ブラジル — 7日間
+            - text: （CDC 第49条）。購入前の14日間の無料トライアルが消費者の評価期間として機能し、購入時のチェックボックスにより即時提供のライセンスキー受領に同意することで放棄されます。
+          - listitem [ref=e174]:
+            - strong [ref=e175]: 大韓民国 — 7日間
+            - text: （전자상거래법 第17條）。14日間の無料トライアルは 第17條 第2項 第5號 および 시행령 第21條 にいう「시험 사용 상품」に該当し、購入時のチェックボックスによる同意で放棄されます。
+          - listitem [ref=e176]:
+            - strong [ref=e177]: 中華人民共和国 — 7日間
+            - text: （《消法》第二十五条）。デジタル商品は、購入時に消費者へ告知された場合、《网络购买商品七日无理由退货暂行办法》により例外として除外されます。消費者は購入時にこれを確認します。
+          - listitem [ref=e178]:
+            - strong [ref=e179]: 台湾 — 7日間
+            - text: （消保法 第19條）。オンラインのデジタルサービスは、消費者が事前に明示的に同意した場合、通訊交易解除權合理例外情事適用準則 第2條 第6款 により例外となります。これは購入時のチェックボックスによる同意で行われます。
+        - paragraph [ref=e180]:
+          - text: 撤回権を放棄していない場合、または現地強行法規により当該放棄が無効とされる場合、適用されるクーリングオフ期間内に
+          - link "support@grab-all-files.app" [ref=e181] [cursor=pointer]:
+            - /url: mailto:support@grab-all-files.app
+          - text: までメールで返金をご請求いただけます。請求受領から14日以内に返金処理いたします。
+        - paragraph [ref=e182]:
+          - strong [ref=e183]: 撤回モデル書式（EU CRD 附属書 I(B)）。
+          - text: 「私／私たちは、Grab All Files ライセンスの購入契約を撤回することを通知します。注文日：[日付]。氏名：[お客様名]。メール：[お客様メール]。ライセンスキー：[判明している場合]。日付：[本日]。」送付先：
+          - link "support@grab-all-files.app" [ref=e184] [cursor=pointer]:
+            - /url: mailto:support@grab-all-files.app
+          - text: 。
+        - heading "15d. 韓国消費者向け事前情報開示（전자상거래법 第13條）" [level=2] [ref=e185]
+        - paragraph [ref=e186]: 大韓民国の消費者向けに、전자상거래등에서의소비자보호에관한법률 第13條 に基づき以下を開示します。
+        - list [ref=e187]:
+          - listitem [ref=e188]:
+            - strong [ref=e189]: 상호 / 商号：
+            - text: Grab All Files（個人事業主）
+          - listitem [ref=e190]:
+            - strong [ref=e191]: 대표자 / 代表者：
+            - text: Serima Kawai
+          - listitem [ref=e192]:
+            - strong [ref=e193]: 해외 사업자 / 海外事業者：
+            - text: はい — 日本拠点。韓国非居住の販売者として 통신판매업 신고 義務はありませんが、韓国の消費者を対象とする限り 전자상거래법 の実体規定に服します。
+          - listitem [ref=e194]:
+            - strong [ref=e195]: 주소 / 住所：
+            - text: 下記メールアドレス宛にご請求ください。
+          - listitem [ref=e196]:
+            - strong [ref=e197]: 전자우편 / メール：
+            - link "support@grab-all-files.app" [ref=e198] [cursor=pointer]:
+              - /url: mailto:support@grab-all-files.app
+          - listitem [ref=e199]:
+            - strong [ref=e200]: 가격 / 価格：
+            - text: US$19.99（買い切り、永続ライセンス。KRW 換算は Stripe Checkout で表示）
+          - listitem [ref=e201]:
+            - strong [ref=e202]: 결제수단 / 決済方法：
+            - text: Stripe Checkout（クレジット／デビットカード）
+          - listitem [ref=e203]:
+            - strong [ref=e204]: 청약철회 / 撤回権：
+            - text: 第17條 第1項 に基づく7日間の権利。第17條 第2項 第5號 に基づき購入時のチェックボックス同意により放棄され、14日間の無料トライアルが 시행령 第21條 にいう 시험 사용 상품 に該当します。
+          - listitem [ref=e205]:
+            - strong [ref=e206]: 고객 불만 · 분쟁 처리 / 苦情・紛争処理：
+            - text: 上記メール宛にご連絡ください。韓国の消費者は 한국소비자원（韓国消費者院、www.kca.go.kr）または 공정거래위원회（公正取引委員会、www.ftc.go.kr）の調停を利用することもできます。
+        - generic [ref=e207]:
+          - heading "16. お問い合わせ" [level=2] [ref=e208]
+          - paragraph [ref=e209]: 本規約に関するお問い合わせは、以下までお願いいたします。
+          - paragraph [ref=e210]:
+            - strong [ref=e211]: メール：
+            - link "support@grab-all-files.app" [ref=e212] [cursor=pointer]:
+              - /url: mailto:support@grab-all-files.app
+      - generic [ref=e214]:
+        - link "トップ" [ref=e215] [cursor=pointer]:
+          - /url: index.html
+        - link "特商法・運営情報" [ref=e216] [cursor=pointer]:
+          - /url: legal.html
+        - link "プライバシーポリシー" [ref=e217] [cursor=pointer]:
+          - /url: privacy-policy.html
