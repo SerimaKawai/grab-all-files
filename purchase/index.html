@@ -540,6 +540,7 @@
 </main>
 
 <script>
+  var SUPPORTED = ['en','ja','es','fr','de','it','ko','pt_BR','zh_CN','zh_TW'];
   var LANGUAGE_LABELS = {
     en: 'Language', ja: '言語', es: 'Idioma', fr: 'Langue', ko: '언어', it: 'Lingua',
     zh_CN: '语言', zh_TW: '語言', pt_BR: 'Idioma', de: 'Sprache'
@@ -556,9 +557,16 @@
     pt_BR: 'Comprar - Baixar todos os arquivos',
     de: 'Kauf - Alle Dateien herunterladen'
   };
+  function getLangFromUrl() {
+    var m = location.search.match(/[?&]lang=([a-zA-Z_-]+)/);
+    if (!m) return null;
+    return SUPPORTED.indexOf(m[1]) >= 0 ? m[1] : null;
+  }
   function getLang() {
+    var u = getLangFromUrl();
+    if (u) return u;
     var s = localStorage.getItem('gaf-lang');
-    if (s) return s;
+    if (s && SUPPORTED.indexOf(s) >= 0) return s;
     var n = (navigator.language || '').toLowerCase();
     if (n.startsWith('ja')) return 'ja';
     if (n.startsWith('ko')) return 'ko';

@@ -279,6 +279,7 @@
     </div>
   </div>
   <script>
+    var SUPPORTED = ['en','ja','es','fr','de','it','ko','pt_BR','zh_CN','zh_TW'];
     var LANGUAGE_LABELS = {
       en: 'Language',
       ja: '言語',
@@ -323,9 +324,16 @@
     var POLL_INTERVAL_MS = 2000;
     var POLL_MAX_ATTEMPTS = 30;
 
+    function getLangFromUrl() {
+      var m = location.search.match(/[?&]lang=([a-zA-Z_-]+)/);
+      if (!m) return null;
+      return SUPPORTED.indexOf(m[1]) >= 0 ? m[1] : null;
+    }
     function getLang() {
+      var u = getLangFromUrl();
+      if (u) return u;
       var s = localStorage.getItem('gaf-lang');
-      if (s) return s;
+      if (s && SUPPORTED.indexOf(s) >= 0) return s;
       var n = (navigator.language || '').toLowerCase();
       if (n.startsWith('ja')) return 'ja';
       if (n.startsWith('ko')) return 'ko';
