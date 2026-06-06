@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Microsoft Edge">
+  <defs>
+    <linearGradient id="edge-a" x1="4" y1="4" x2="20" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0aa9f5"/>
+      <stop offset="0.55" stop-color="#0b78d0"/>
+      <stop offset="1" stop-color="#1958c9"/>
+    </linearGradient>
+    <linearGradient id="edge-b" x1="5" y1="20" x2="20" y2="7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19c37d"/>
+      <stop offset="0.55" stop-color="#10a8aa"/>
+      <stop offset="1" stop-color="#0b78d0"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#edge-a)" d="M21.6 13.7A9.8 9.8 0 0 0 11.8 2C6.4 2 2 6.4 2 11.8c0 .8.1 1.6.3 2.3 1.2-3.5 4.6-6 8.5-6 3.9 0 7.1 2.4 8.4 5.7h2.4z"/>
+  <path fill="url(#edge-b)" d="M21.4 13.5c-.7 4.8-4.8 8.5-9.8 8.5-4.2 0-7.8-2.6-9.2-6.3.7-2.8 3.2-4.8 6.2-4.8 2.5 0 4.7 1.4 5.8 3.5H8.8c.5 2 2.3 3.4 4.5 3.4 1.8 0 3.4-.8 4.5-2.2.9-1.1 2-1.7 3.4-1.7h.2z"/>
+  <path fill="#0a67c6" d="M8.5 14.4h13c-.7 1.9-2.8 3.3-5.2 3.3H13.2c-2.1 0-3.8-1.3-4.3-3.1l-.4-.2z" opacity=".9"/>
+</svg>
