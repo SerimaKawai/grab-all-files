@@ -244,6 +244,87 @@
     return { title: title, desc: desc, eyebrow: eyebrow, h1: h1, lead: lead, best: best, steps: steps, faq: faq };
   }
 
+  var GUIDE_ORDER = [
+    "download-all-pdfs",
+    "bulk-download-images",
+    "download-files-from-webpage",
+    "internal-portal-downloads",
+    "merge-pdfs-locally"
+  ];
+
+  var GUIDE_LABELS = {
+    en: {
+      "download-all-pdfs": "Download all PDFs",
+      "bulk-download-images": "Bulk-download images",
+      "download-files-from-webpage": "Download files from a page",
+      "internal-portal-downloads": "Internal portals & LMS",
+      "merge-pdfs-locally": "Merge PDFs locally"
+    },
+    ja: {
+      "download-all-pdfs": "PDFを一括ダウンロード",
+      "bulk-download-images": "画像を一括ダウンロード",
+      "download-files-from-webpage": "ページ上のファイルを保存",
+      "internal-portal-downloads": "社内ポータル・LMS",
+      "merge-pdfs-locally": "PDFをローカル結合"
+    },
+    es: {
+      "download-all-pdfs": "Descargar todos los PDF",
+      "bulk-download-images": "Descargar imágenes en masa",
+      "download-files-from-webpage": "Archivos de una página",
+      "internal-portal-downloads": "Portales internos y LMS",
+      "merge-pdfs-locally": "Fusionar PDF localmente"
+    },
+    fr: {
+      "download-all-pdfs": "Télécharger tous les PDF",
+      "bulk-download-images": "Télécharger les images",
+      "download-files-from-webpage": "Fichiers d'une page",
+      "internal-portal-downloads": "Portails internes et LMS",
+      "merge-pdfs-locally": "Fusionner PDF localement"
+    },
+    de: {
+      "download-all-pdfs": "Alle PDFs herunterladen",
+      "bulk-download-images": "Bilder gesammelt laden",
+      "download-files-from-webpage": "Dateien einer Seite",
+      "internal-portal-downloads": "Interne Portale & LMS",
+      "merge-pdfs-locally": "PDFs lokal zusammenführen"
+    },
+    it: {
+      "download-all-pdfs": "Scaricare tutti i PDF",
+      "bulk-download-images": "Scaricare immagini",
+      "download-files-from-webpage": "File da una pagina",
+      "internal-portal-downloads": "Portali interni e LMS",
+      "merge-pdfs-locally": "Unire PDF localmente"
+    },
+    ko: {
+      "download-all-pdfs": "모든 PDF 다운로드",
+      "bulk-download-images": "이미지 일괄 다운로드",
+      "download-files-from-webpage": "페이지 파일 다운로드",
+      "internal-portal-downloads": "사내 포털 및 LMS",
+      "merge-pdfs-locally": "PDF 로컬 병합"
+    },
+    pt_BR: {
+      "download-all-pdfs": "Baixar todos os PDFs",
+      "bulk-download-images": "Baixar imagens",
+      "download-files-from-webpage": "Arquivos de uma página",
+      "internal-portal-downloads": "Portais internos e LMS",
+      "merge-pdfs-locally": "Mesclar PDFs localmente"
+    },
+    zh_CN: {
+      "download-all-pdfs": "下载所有PDF",
+      "bulk-download-images": "批量下载图片",
+      "download-files-from-webpage": "下载网页文件",
+      "internal-portal-downloads": "内部门户和LMS",
+      "merge-pdfs-locally": "本地合并PDF"
+    },
+    zh_TW: {
+      "download-all-pdfs": "下載所有PDF",
+      "bulk-download-images": "批次下載圖片",
+      "download-files-from-webpage": "下載網頁檔案",
+      "internal-portal-downloads": "內部入口和LMS",
+      "merge-pdfs-locally": "本機合併PDF"
+    }
+  };
+
   var CASES = {
     "download-all-pdfs": {
       path: "download-all-pdfs.html",
@@ -497,11 +578,13 @@
   }
 
   function renderRelated(current, lang) {
-    var ids = current.data.related || [];
-    return ids.map(function (id) {
+    var labels = GUIDE_LABELS[lang] || GUIDE_LABELS.en;
+    return GUIDE_ORDER.map(function (id) {
       var item = CASES[id];
-      var copy = (item.copy[lang] || item.copy.en);
-      return "<a class=\"related-card\" href=\"" + esc(withLang(item.path, lang)) + "\"><strong>" + esc(copy.h1) + "</strong><span>" + esc(copy.desc) + "</span></a>";
+      if (!item) return "";
+      var currentClass = id === current.id ? " current" : "";
+      var currentAttr = id === current.id ? " aria-current=\"page\"" : "";
+      return "<a class=\"usecase-guide-link" + currentClass + "\" href=\"" + esc(withLang(item.path, lang)) + "\"" + currentAttr + ">" + esc(labels[id] || item.copy.en.h1) + "</a>";
     }).join("");
   }
 
@@ -605,7 +688,7 @@
           "<section class=\"section-card\"><h2>" + esc(ui.workflow) + "</h2><ol class=\"step-list\">" + renderList(copy.steps, "num") + "</ol></section>",
         "</div>",
         "<section class=\"section-card\"><h2>" + esc(ui.faq) + "</h2><div class=\"faq-list\">" + renderFaq(copy.faq) + "</div></section>",
-        "<section class=\"section-card\"><h2>" + esc(ui.related) + "</h2><div class=\"related-grid\">" + renderRelated(current, lang) + "</div></section>",
+        "<section class=\"section-card usecase-guide-section\"><h2>" + esc(ui.related) + "</h2><div class=\"usecase-guide-links\" aria-label=\"" + esc(ui.related) + "\">" + renderRelated(current, lang) + "</div></section>",
       "</div>",
       "<section class=\"final-cta\"><h2>" + esc(ui.ctaTitle) + "</h2><p>" + esc(ui.ctaText) + "</p><a class=\"btn\" href=\"" + esc(STORE.chrome) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.install) + " ↗</a></section>"
     ].join("");
