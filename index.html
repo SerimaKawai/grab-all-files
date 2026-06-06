@@ -335,23 +335,16 @@
     .btn-ghost { background: var(--surface); color: var(--text-strong); border-color: var(--border-strong); }
     .btn-ghost:hover { background: var(--surface-soft); }
 
-    .hero-stores { position: relative; display: flex; align-items: center; gap: 0.45rem; margin-top: 0.85rem; padding-top: 0.7rem; width: fit-content; max-width: 100%; border-top: 1px solid var(--border); flex-wrap: wrap; }
+    .hero-stores { position: relative; display: flex; align-items: center; gap: 0.55rem; margin-top: 0.85rem; padding-top: 0.75rem; width: fit-content; max-width: 100%; border-top: 1px solid var(--border); flex-wrap: wrap; }
     .hero-stores > span { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
-    .store-btn { display: inline-flex; align-items: center; justify-content: center; height: 36px; padding: 0; overflow: hidden; color: transparent; font-size: 0; line-height: 0; text-decoration: none; white-space: nowrap; background-color: transparent; background-position: center; background-repeat: no-repeat; background-size: contain; }
+    .store-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.45rem; min-height: 38px; padding: 0 0.78rem 0 0.62rem; color: var(--text-strong); font-size: 0.8rem; line-height: 1; font-weight: 600; text-decoration: none; white-space: nowrap; background: var(--surface); border: 1px solid var(--border); border-radius: 9px; transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.15s ease; }
+    .store-btn::before { content: ""; width: 20px; height: 20px; flex: 0 0 20px; background-position: center; background-repeat: no-repeat; background-size: contain; }
     .store-btn > span { display: none; }
     .store-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
-    .store-btn[href*="chromewebstore.google.com"] { width: 128px; background-image: url("assets/store-badges/chrome-web-store.png"); }
-    .store-btn[href*="microsoftedge.microsoft.com"] { width: 136px; background-image: url("assets/store-badges/edge-add-ons-en.png"); }
-    html[lang="ja"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-ja.png"); }
-    html[lang="es"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-es.png"); }
-    html[lang="fr"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-fr.png"); }
-    html[lang="de"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-de.png"); }
-    html[lang="it"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-it.png"); }
-    html[lang="ko"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-ko.png"); }
-    html[lang="pt-BR"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-pt-BR.png"); }
-    html[lang="zh-CN"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-zh-CN.png"); }
-    html[lang="zh-TW"] .store-btn[href*="microsoftedge.microsoft.com"] { background-image: url("assets/store-badges/edge-add-ons-zh-TW.png"); }
-    .store-btn[href*="addons.mozilla.org"] { width: 103px; background-image: url("assets/store-badges/firefox-get-the-addon.png"); }
+    .store-btn:hover { background: var(--surface-soft); border-color: var(--border-strong); color: var(--primary); transform: translateY(-1px); }
+    .store-btn[href*="chromewebstore.google.com"]::before { background-image: url("assets/browser-logos/chrome.svg"); }
+    .store-btn[href*="microsoftedge.microsoft.com"]::before { background-image: url("assets/browser-logos/edge.svg"); }
+    .store-btn[href*="addons.mozilla.org"]::before { background-image: url("assets/browser-logos/firefox.svg"); }
     .hero-security { margin-top: 0.5rem; font-size: 0.78rem; color: var(--text-faint); }
     .hero-security a { display: inline-flex; align-items: center; font-weight: 600; color: var(--text-muted); text-decoration: none; }
     .hero-security a::before { content: ""; width: 6px; height: 6px; margin-right: 0.45rem; border-radius: 999px; background: var(--accent-icon); }
