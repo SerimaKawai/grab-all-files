@@ -356,6 +356,40 @@ h1 {
 .related-card span { color: var(--text-muted); font-size: 0.88rem; }
 .related-card:hover { border-color: var(--primary); text-decoration: none; }
 
+.usecase-guide-section {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+.usecase-guide-links {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+.usecase-guide-link {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.8rem 0.9rem;
+  color: var(--text-strong);
+  font-size: 0.88rem;
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none;
+}
+.usecase-guide-link:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  text-decoration: none;
+}
+.usecase-guide-link.current {
+  border-color: color-mix(in srgb, var(--primary) 45%, var(--border));
+  background: color-mix(in srgb, var(--primary) 8%, var(--surface));
+  color: var(--primary);
+}
+
 .final-cta {
   margin-top: 2.4rem;
   padding: 2rem;
@@ -393,6 +427,7 @@ footer {
   .case-hero,
   .two-col,
   .related-grid { grid-template-columns: 1fr; }
+  .usecase-guide-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 560px) {
@@ -404,4 +439,5 @@ footer {
   .section-card,
   .product-panel,
   .final-cta { padding: 1.1rem; }
+  .usecase-guide-links { grid-template-columns: 1fr; }
 }
