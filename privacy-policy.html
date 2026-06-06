@@ -1591,7 +1591,14 @@
     en: 'Language', ja: '言語', es: 'Idioma', fr: 'Langue', ko: '언어', it: 'Lingua',
     zh_CN: '语言', zh_TW: '語言', pt_BR: 'Idioma', de: 'Sprache'
   };
+  function getLangFromUrl() {
+    var m = location.search.match(/[?&]lang=([a-zA-Z_-]+)/);
+    if (!m) return null;
+    return SUPPORTED.indexOf(m[1]) >= 0 ? m[1] : null;
+  }
   function getLang() {
+    var u = getLangFromUrl();
+    if (u) return u;
     var s = localStorage.getItem('gaf-lang');
     if (s && SUPPORTED.indexOf(s) >= 0) return s;
     var n = (navigator.language || '').toLowerCase();
