@@ -313,9 +313,6 @@
     :root:not([data-theme="dark"]) .icon-btn .theme-icon-dark { display: inline; }
     .lang-sel { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; color: var(--text-strong); cursor: pointer; font-family: inherit; height: 34px; padding: 0 0.55rem; font-size: 0.82rem; font-weight: 500; transition: background 0.15s ease, border-color 0.15s ease; }
     .lang-sel:hover { background: var(--surface-soft); border-color: var(--border-strong); }
-    .nav-cta { background: var(--primary); color: var(--primary-text); border: 0; padding: 0 0.95rem; height: 34px; border-radius: 8px; font-weight: 600; font-size: 0.85rem; text-decoration: none; display: inline-flex; align-items: center; gap: 0.35rem; transition: background 0.15s ease; }
-    .nav-cta:hover { background: var(--primary-hover); }
-    @media (max-width: 540px) { .nav-cta .nav-cta-price { display: none; } }
 
     /* Layout */
     .wrap { max-width: 1160px; margin: 0 auto; padding: 0 1.4rem; }
@@ -571,7 +568,6 @@
       .nav-inner { gap: 0.4rem; padding-left: 0.9rem; padding-right: 0.9rem; }
       .nav-controls { gap: 0.3rem; }
       .lang-sel { max-width: 96px; }
-      .nav-cta { padding: 0 0.7rem; }
     }
 
     /* ── Design refresh (icons + component polish) ─────────── */
@@ -595,7 +591,6 @@
     .usecase-card, .step, .pricing-aside .mini-card { border-radius: 14px; }
 
     .btn { border-radius: 11px; padding: 0.8rem 1.2rem; }
-    .nav-cta { border-radius: 10px; font-weight: 700; }
     .mock-btn { border-radius: 8px; }
     .mock-window { border-radius: 16px; }
 
@@ -719,9 +714,6 @@
           <option value="zh_CN">简体中文</option>
           <option value="zh_TW">繁體中文</option>
         </select>
-        <a href="#install" class="nav-cta" data-install-scroll>
-          <span><span data-lang="en" class="active">Install free trial</span><span data-lang="ja">無料インストール</span><span data-lang="es">Instalar gratis</span><span data-lang="fr">Installer gratuitement</span><span data-lang="de">Kostenlos installieren</span><span data-lang="it">Installa gratis</span><span data-lang="ko">무료 설치</span><span data-lang="pt_BR">Instalar grátis</span><span data-lang="zh_CN">免费安装</span><span data-lang="zh_TW">免費安裝</span></span><span class="nav-cta-price"> · 14 days</span>
-        </a>
       </div>
     </div>
   </header>
