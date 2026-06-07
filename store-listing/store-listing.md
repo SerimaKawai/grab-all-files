@@ -1,8 +1,21 @@
 # Grab All Files Store Listing Pack
 
-Last updated: 2026-06-06
+Last updated: 2026-06-07
 
 Use this file when updating Chrome Web Store, Microsoft Edge Add-ons, and Firefox Add-ons listings.
+
+Supported listing locales:
+
+- `en` English
+- `ja` Japanese
+- `es` Spanish
+- `fr` French
+- `de` German
+- `it` Italian
+- `ko` Korean
+- `pt_BR` Portuguese (Brazil)
+- `zh_CN` Simplified Chinese
+- `zh_TW` Traditional Chinese
 
 Primary positioning:
 
@@ -12,33 +25,41 @@ Primary positioning:
 
 ### Title
 
-Recommended:
+Keep the brand stable and let the summary/description carry the search phrases.
 
-```text
-Grab All Files - Bulk PDF & File Downloader
-```
-
-Do not add more keywords to the title. Keep the brand stable and let the summary/description carry the search phrases.
+| Locale | Title |
+| --- | --- |
+| en | Grab All Files - Bulk PDF & File Downloader |
+| ja | Grab All Files - PDF・ファイル一括ダウンローダー |
+| es | Grab All Files - Descargador masivo de PDF y archivos |
+| fr | Grab All Files - Téléchargeur groupé de PDF et fichiers |
+| de | Grab All Files - Massen-Downloader für PDFs und Dateien |
+| it | Grab All Files - Downloader in massa di PDF e file |
+| ko | Grab All Files - PDF 및 파일 일괄 다운로더 |
+| pt_BR | Grab All Files - Downloader em massa de PDFs e arquivos |
+| zh_CN | Grab All Files - PDF与文件批量下载器 |
+| zh_TW | Grab All Files - PDF與檔案批次下載器 |
 
 ### Short Summary
 
 Chrome Web Store summary must be 132 characters or less.
 
-```text
-Find hidden PDFs, files and images on any page. Bulk-download, ZIP, export CSV and merge PDFs locally.
-```
+| Locale | Length | Summary |
+| --- | ---: | --- |
+| en | 102 | Find hidden PDFs, files and images on any page. Bulk-download, ZIP, export CSV and merge PDFs locally. |
+| ja | 69 | PDF・Office・画像・ZIP・CSVを検出して一括保存。iframe・XHR・blob URLにも対応。PDF結合はローカルで完結。 |
+| es | 109 | Detecta PDFs, archivos e imágenes ocultos. Descarga en lote, crea ZIP, exporta CSV y fusiona PDFs localmente. |
+| fr | 121 | Trouvez PDFs, fichiers et images cachés. Téléchargez en lot, créez des ZIP, exportez CSV et fusionnez les PDF localement. |
+| de | 106 | Findet versteckte PDFs, Dateien und Bilder. Massendownload, ZIP, CSV-Export und PDF-Zusammenführung lokal. |
+| it | 101 | Trova PDF, file e immagini nascosti. Scarica in massa, crea ZIP, esporta CSV e unisci PDF localmente. |
+| ko | 62 | 숨겨진 PDF, 파일, 이미지를 찾고 일괄 다운로드, ZIP, CSV 내보내기, PDF 로컬 병합을 지원합니다. |
+| pt_BR | 105 | Encontre PDFs, arquivos e imagens ocultos. Baixe em lote, crie ZIP, exporte CSV e mescle PDFs localmente. |
+| zh_CN | 42 | 查找隐藏的PDF、文件和图片。批量下载、创建ZIP、导出CSV，并在本地合并PDF。 |
+| zh_TW | 42 | 找出隱藏的PDF、檔案和圖片。批次下載、建立ZIP、匯出CSV，並在本機合併PDF。 |
 
-Length: 102 characters.
+## Descriptions
 
-Japanese summary:
-
-```text
-PDF・Office・画像・ZIP・CSVを検出して一括保存。iframe・XHR・blob URLにも対応。PDF結合はローカルで完結。
-```
-
-Length: 69 characters.
-
-## English Description
+### en
 
 ```text
 Grab All Files helps researchers, archivists, students, and office teams collect downloadable files from pages they are allowed to access. It detects PDFs, Office documents, images, ZIPs, and CSVs that ordinary link-only tools may miss, including iframe viewers, lazy-loaded assets, fetch/XHR responses, blob URLs, and CMS download routes.
@@ -70,7 +91,7 @@ Trial and license:
 Use responsibly. Grab All Files is intended for legitimate research, public records, internal portal, LMS, archive, documentation, and design workflows. Use it only for pages and files you are allowed to access and download.
 ```
 
-## Japanese Description
+### ja
 
 ```text
 Grab All Files は、研究資料、公開資料、社内ポータル、LMS教材、画像素材、文書アーカイブなどを扱う人向けの一括ファイル取得ツールです。PDF、Office文書、画像、ZIP、CSVを検出し、通常のリンク抽出では見落としやすい iframe、PDFビューア、遅延読み込み、fetch/XHRレスポンス、blob URL、CMSダウンロードルートにも対応します。
@@ -102,31 +123,337 @@ Grab All Files は、研究資料、公開資料、社内ポータル、LMS教�
 Grab All Files は、研究、公開資料収集、社内ポータル、LMS、アーカイブ、文書整理、デザイン業務などの正当な作業を効率化するためのツールです。対象サイトの利用規約、著作権、アクセス権限を守って利用してください。
 ```
 
-## Permission / Privacy Note For Store Forms
+### es
 
-Use this when a store asks why broad host permissions are needed:
+```text
+Grab All Files ayuda a investigadores, archivistas, estudiantes y equipos de oficina a recopilar archivos descargables de páginas a las que tienen permiso para acceder. Detecta PDFs, documentos de Office, imágenes, ZIPs y CSVs que las herramientas basadas solo en enlaces pueden pasar por alto, incluidos visores en iframe, recursos de carga diferida, respuestas fetch/XHR, URLs blob y rutas de descarga de CMS.
+
+Qué puedes hacer:
+- Detectar PDFs, archivos de Office, imágenes, ZIPs y CSVs en la página actual
+- Encontrar archivos cargados mediante iframes, visores, respuestas fetch/XHR, URLs blob y rutas de CMS
+- Rastrear páginas del mismo sitio para recopilar documentos de subpáginas y archivos documentales
+- Filtrar, ordenar, buscar, seleccionar y reordenar la lista de archivos detectados
+- Descargar en lote los archivos seleccionados con un clic
+- Fusionar PDFs seleccionados localmente en el navegador
+- Crear un archivo ZIP localmente
+- Exportar URLs, nombres, tamaños, tipos y títulos de página como CSV
+
+Privacidad y seguridad:
+- Los archivos se descargan directamente del sitio fuente a tu dispositivo
+- La fusión de PDF, la creación de ZIP y la exportación CSV se ejecutan localmente en el navegador
+- El contenido de los archivos, el HTML de la página, las listas de URLs detectadas, las cookies y las contraseñas no se envían a nuestros servidores
+- Solo la verificación de prueba y licencia llega al servidor de licencias
+- Usa tu sesión existente del navegador solo para páginas a las que ya tienes autorización de acceso
+
+Prueba y licencia:
+- Prueba gratuita de 14 días con todas las funciones
+- No se requiere tarjeta de crédito para la prueba
+- Licencia vitalicia de pago único de USD $19.99 después de la prueba
+- Sin suscripción
+- Activación en hasta 3 dispositivos
+
+Úsalo de forma responsable. Grab All Files está pensado para flujos legítimos de investigación, registros públicos, portales internos, LMS, archivos, documentación y diseño. Úsalo solo en páginas y archivos a los que tengas permiso para acceder y descargar.
+```
+
+### fr
+
+```text
+Grab All Files aide les chercheurs, archivistes, étudiants et équipes de bureau à collecter des fichiers téléchargeables depuis les pages auxquelles ils sont autorisés à accéder. Il détecte les PDF, documents Office, images, ZIP et CSV que les outils limités aux liens peuvent manquer, y compris les visionneuses en iframe, les ressources chargées tardivement, les réponses fetch/XHR, les URLs blob et les routes de téléchargement CMS.
+
+Ce que vous pouvez faire:
+- Détecter les PDF, fichiers Office, images, ZIP et CSV sur la page actuelle
+- Trouver les fichiers chargés via iframes, visionneuses, réponses fetch/XHR, URLs blob et routes CMS
+- Explorer les pages du même site pour collecter des documents depuis les sous-pages et archives
+- Filtrer, trier, rechercher, sélectionner et réordonner la liste des fichiers détectés
+- Télécharger en lot les fichiers sélectionnés en un clic
+- Fusionner les PDF sélectionnés localement dans le navigateur
+- Créer une archive ZIP localement
+- Exporter les URLs, noms, tailles, types et titres de page au format CSV
+
+Confidentialité et sécurité:
+- Les fichiers sont téléchargés directement depuis le site source vers votre appareil
+- La fusion PDF, la création ZIP et l'export CSV s'exécutent localement dans le navigateur
+- Le contenu des fichiers, le HTML des pages, les listes d'URLs détectées, les cookies et les mots de passe ne sont pas envoyés à nos serveurs
+- Seule la vérification de l'essai et de la licence atteint le serveur de licences
+- Utilise votre session de navigateur existante uniquement pour les pages auxquelles vous êtes déjà autorisé à accéder
+
+Essai et licence:
+- Essai gratuit de 14 jours avec toutes les fonctionnalités
+- Aucune carte de crédit requise pour l'essai
+- Licence à vie en paiement unique de USD $19.99 après l'essai
+- Sans abonnement
+- Activation sur jusqu'à 3 appareils
+
+Utilisez-le de manière responsable. Grab All Files est destiné aux workflows légitimes de recherche, documents publics, portails internes, LMS, archives, documentation et design. Utilisez-le uniquement pour les pages et fichiers auxquels vous êtes autorisé à accéder et à télécharger.
+```
+
+### de
+
+```text
+Grab All Files hilft Forschern, Archivaren, Studierenden und Büroteams, herunterladbare Dateien von Seiten zu sammeln, auf die sie zugreifen dürfen. Es erkennt PDFs, Office-Dokumente, Bilder, ZIPs und CSVs, die reine Link-Tools übersehen können, einschließlich iframe-Viewer, verzögert geladener Inhalte, fetch/XHR-Antworten, Blob-URLs und CMS-Downloadrouten.
+
+Was Sie tun können:
+- PDFs, Office-Dateien, Bilder, ZIPs und CSVs auf der aktuellen Seite erkennen
+- Dateien finden, die über iframes, Viewer, fetch/XHR-Antworten, Blob-URLs und CMS-Routen geladen werden
+- Seiten derselben Website crawlen, um Dokumente aus Unterseiten und Archiven zu sammeln
+- Die erkannte Dateiliste filtern, sortieren, durchsuchen, auswählen und neu ordnen
+- Ausgewählte Dateien mit einem Klick massenhaft herunterladen
+- Ausgewählte PDFs lokal im Browser zusammenführen
+- Lokal ein ZIP-Archiv erstellen
+- URLs, Namen, Größen, Typen und Seitentitel als CSV exportieren
+
+Datenschutz und Sicherheit:
+- Dateien werden direkt von der Quellseite auf Ihr Gerät heruntergeladen
+- PDF-Zusammenführung, ZIP-Erstellung und CSV-Export laufen lokal im Browser
+- Dateiinhalte, Seiten-HTML, erkannte URL-Listen, Cookies und Passwörter werden nicht an unsere Server gesendet
+- Nur Test- und Lizenzprüfung erreichen den Lizenzserver
+- Nutzt Ihre bestehende Browsersitzung nur für Seiten, auf die Sie bereits zugreifen dürfen
+
+Testphase und Lizenz:
+- 14 Tage kostenlose Testphase mit vollem Funktionsumfang
+- Keine Kreditkarte für die Testphase erforderlich
+- Lebenslange Lizenz nach der Testphase als Einmalzahlung von USD $19.99
+- Kein Abonnement
+- Aktivierung auf bis zu 3 Geräten
+
+Verwenden Sie es verantwortungsvoll. Grab All Files ist für legitime Arbeitsabläufe in Forschung, öffentlichen Unterlagen, internen Portalen, LMS, Archiven, Dokumentation und Design gedacht. Verwenden Sie es nur für Seiten und Dateien, auf die Sie zugreifen und die Sie herunterladen dürfen.
+```
+
+### it
+
+```text
+Grab All Files aiuta ricercatori, archivisti, studenti e team d'ufficio a raccogliere file scaricabili da pagine a cui sono autorizzati ad accedere. Rileva PDF, documenti Office, immagini, ZIP e CSV che gli strumenti basati solo sui link possono perdere, inclusi viewer in iframe, risorse caricate in modo differito, risposte fetch/XHR, URL blob e percorsi di download CMS.
+
+Cosa puoi fare:
+- Rilevare PDF, file Office, immagini, ZIP e CSV nella pagina corrente
+- Trovare file caricati tramite iframe, viewer, risposte fetch/XHR, URL blob e percorsi CMS
+- Scansionare pagine dello stesso sito per raccogliere documenti da sottopagine e archivi
+- Filtrare, ordinare, cercare, selezionare e riordinare l'elenco dei file rilevati
+- Scaricare in massa i file selezionati con un clic
+- Unire localmente nel browser i PDF selezionati
+- Creare un archivio ZIP localmente
+- Esportare URL, nomi, dimensioni, tipi e titoli pagina come CSV
+
+Privacy e sicurezza:
+- I file vengono scaricati direttamente dal sito sorgente al tuo dispositivo
+- Unione PDF, creazione ZIP ed esportazione CSV vengono eseguite localmente nel browser
+- Contenuti dei file, HTML della pagina, elenchi di URL rilevati, cookie e password non vengono inviati ai nostri server
+- Solo la verifica della prova e della licenza raggiunge il server delle licenze
+- Usa la sessione esistente del browser solo per pagine a cui sei già autorizzato ad accedere
+
+Prova e licenza:
+- Prova gratuita di 14 giorni con tutte le funzionalità
+- Nessuna carta di credito richiesta per la prova
+- Licenza a vita con pagamento unico di USD $19.99 dopo la prova
+- Nessun abbonamento
+- Attivazione su un massimo di 3 dispositivi
+
+Usalo responsabilmente. Grab All Files è pensato per flussi legittimi di ricerca, registri pubblici, portali interni, LMS, archivi, documentazione e design. Usalo solo per pagine e file a cui hai il permesso di accedere e scaricare.
+```
+
+### ko
+
+```text
+Grab All Files는 연구자, 기록 보관 담당자, 학생, 사무팀이 접근 권한이 있는 페이지에서 다운로드 가능한 파일을 수집하도록 돕습니다. 일반 링크 추출 도구가 놓치기 쉬운 PDF, Office 문서, 이미지, ZIP, CSV를 감지하며, iframe 뷰어, 지연 로딩 리소스, fetch/XHR 응답, blob URL, CMS 다운로드 경로도 포함합니다.
+
+할 수 있는 일:
+- 현재 페이지의 PDF, Office 파일, 이미지, ZIP, CSV 감지
+- iframe, 뷰어, fetch/XHR 응답, blob URL, CMS 경로로 로드된 파일 찾기
+- 동일 사이트 페이지를 크롤링하여 하위 페이지와 문서 아카이브의 자료 수집
+- 감지된 파일 목록 필터링, 정렬, 검색, 선택, 순서 변경
+- 선택한 파일을 한 번의 클릭으로 일괄 다운로드
+- 선택한 PDF를 브라우저에서 로컬로 병합
+- 로컬 ZIP 아카이브 생성
+- URL, 이름, 크기, 유형, 페이지 제목을 CSV로 내보내기
+
+개인정보 및 보안:
+- 파일은 원본 사이트에서 기기로 직접 다운로드됩니다
+- PDF 병합, ZIP 생성, CSV 내보내기는 브라우저에서 로컬로 실행됩니다
+- 파일 내용, 페이지 HTML, 감지된 URL 목록, 쿠키, 비밀번호는 당사 서버로 전송되지 않습니다
+- 체험 및 라이선스 확인만 라이선스 서버에 도달합니다
+- 이미 접근 권한이 있는 페이지에 한해 기존 브라우저 세션을 사용합니다
+
+체험 및 라이선스:
+- 모든 기능을 사용할 수 있는 14일 무료 체험
+- 체험에 신용카드가 필요하지 않음
+- 체험 후 USD $19.99 일회성 평생 라이선스
+- 구독 없음
+- 최대 3대 기기에서 활성화 가능
+
+책임 있게 사용하세요. Grab All Files는 연구, 공공 기록, 내부 포털, LMS, 아카이브, 문서화, 디자인 업무 등 합법적인 작업 흐름을 위한 도구입니다. 접근 및 다운로드 권한이 있는 페이지와 파일에만 사용하세요.
+```
+
+### pt_BR
+
+```text
+Grab All Files ajuda pesquisadores, arquivistas, estudantes e equipes de escritório a coletar arquivos baixáveis de páginas às quais têm permissão de acesso. Ele detecta PDFs, documentos do Office, imagens, ZIPs e CSVs que ferramentas baseadas apenas em links podem deixar passar, incluindo visualizadores em iframe, recursos carregados tardiamente, respostas fetch/XHR, URLs blob e rotas de download de CMS.
+
+O que você pode fazer:
+- Detectar PDFs, arquivos do Office, imagens, ZIPs e CSVs na página atual
+- Encontrar arquivos carregados por iframes, visualizadores, respostas fetch/XHR, URLs blob e rotas de CMS
+- Rastrear páginas do mesmo site para coletar documentos de subpáginas e arquivos
+- Filtrar, ordenar, pesquisar, selecionar e reorganizar a lista de arquivos detectados
+- Baixar em lote os arquivos selecionados com um clique
+- Mesclar PDFs selecionados localmente no navegador
+- Criar um arquivo ZIP localmente
+- Exportar URLs, nomes, tamanhos, tipos e títulos de página como CSV
+
+Privacidade e segurança:
+- Os arquivos são baixados diretamente do site fonte para o seu dispositivo
+- Mesclagem de PDF, criação de ZIP e exportação CSV rodam localmente no navegador
+- Conteúdo dos arquivos, HTML da página, listas de URLs detectadas, cookies e senhas não são enviados aos nossos servidores
+- Apenas a verificação de teste e licença chega ao servidor de licenças
+- Usa sua sessão existente do navegador apenas para páginas às quais você já tem autorização de acesso
+
+Teste e licença:
+- Teste gratuito de 14 dias com todos os recursos
+- Não exige cartão de crédito para o teste
+- Licença vitalícia de pagamento único de USD $19.99 após o teste
+- Sem assinatura
+- Ativação em até 3 dispositivos
+
+Use com responsabilidade. Grab All Files foi criado para fluxos legítimos de pesquisa, registros públicos, portais internos, LMS, arquivos, documentação e design. Use apenas em páginas e arquivos que você tem permissão para acessar e baixar.
+```
+
+### zh_CN
+
+```text
+Grab All Files 帮助研究人员、档案管理人员、学生和办公团队，从他们有权访问的页面收集可下载文件。它可以检测普通链接工具可能遗漏的 PDF、Office 文档、图片、ZIP 和 CSV，包括 iframe 查看器、延迟加载资源、fetch/XHR 响应、blob URL 和 CMS 下载路径。
+
+你可以做什么:
+- 检测当前页面上的 PDF、Office 文件、图片、ZIP 和 CSV
+- 查找通过 iframe、查看器、fetch/XHR 响应、blob URL 和 CMS 路径加载的文件
+- 爬取同一站点页面，从子页面和文档档案中收集资料
+- 筛选、排序、搜索、选择并重新排列检测到的文件列表
+- 一键批量下载选中文件
+- 在浏览器中本地合并选中的 PDF
+- 在本地创建 ZIP 压缩包
+- 将 URL、名称、大小、类型和页面标题导出为 CSV
+
+隐私与安全:
+- 文件直接从源网站下载到你的设备
+- PDF 合并、ZIP 创建和 CSV 导出都在浏览器本地运行
+- 文件内容、页面 HTML、检测到的 URL 列表、Cookie 和密码不会发送到我们的服务器
+- 只有试用和许可证验证会到达许可证服务器
+- 仅对你已经有权访问的页面使用现有浏览器会话
+
+试用与许可证:
+- 14 天全功能免费试用
+- 试用无需信用卡
+- 试用后一次性支付 USD $19.99 获得永久许可证
+- 无订阅
+- 最多可在 3 台设备上激活
+
+请负责任地使用。Grab All Files 旨在服务于研究、公开资料、内部门户、LMS、档案、文档整理和设计等合法工作流程。请仅用于你有权访问和下载的页面与文件。
+```
+
+### zh_TW
+
+```text
+Grab All Files 協助研究人員、檔案管理人員、學生與辦公團隊，從他們有權存取的頁面收集可下載檔案。它可以偵測一般連結工具可能遺漏的 PDF、Office 文件、圖片、ZIP 和 CSV，包括 iframe 檢視器、延遲載入資源、fetch/XHR 回應、blob URL 和 CMS 下載路徑。
+
+你可以做什麼:
+- 偵測目前頁面上的 PDF、Office 檔案、圖片、ZIP 和 CSV
+- 找出透過 iframe、檢視器、fetch/XHR 回應、blob URL 和 CMS 路徑載入的檔案
+- 爬取同一網站頁面，從子頁面和文件檔案庫中收集資料
+- 篩選、排序、搜尋、選取並重新排列偵測到的檔案清單
+- 一鍵批次下載選取檔案
+- 在瀏覽器中本機合併選取的 PDF
+- 在本機建立 ZIP 封存檔
+- 將 URL、名稱、大小、類型和頁面標題匯出為 CSV
+
+隱私與安全:
+- 檔案直接從來源網站下載到你的裝置
+- PDF 合併、ZIP 建立和 CSV 匯出都在瀏覽器本機執行
+- 檔案內容、頁面 HTML、偵測到的 URL 清單、Cookie 和密碼不會傳送到我們的伺服器
+- 只有試用和授權驗證會到達授權伺服器
+- 僅對你已經有權存取的頁面使用既有瀏覽器工作階段
+
+試用與授權:
+- 14 天全功能免費試用
+- 試用不需要信用卡
+- 試用後一次性支付 USD $19.99 取得永久授權
+- 無訂閱
+- 最多可在 3 台裝置上啟用
+
+請負責任地使用。Grab All Files 旨在服務於研究、公開資料、內部入口網站、LMS、檔案庫、文件整理和設計等合法工作流程。請僅用於你有權存取和下載的頁面與檔案。
+```
+
+## Permission / Privacy Notes For Store Forms
+
+Use this when a store asks why broad host permissions are needed.
+
+### en
 
 ```text
 Grab All Files lets the user choose any web page or URL to scan. Broad website access is required because the target domain is not known in advance, and the extension must inspect the selected page, frames, file-like network responses, and download links before it can show the detected file list. The extension uses this access only for pages or URLs the user chooses to scan. File contents, page HTML, detected URL lists, cookies, passwords, and browsing history are not sent to the developer's servers. Only trial and license verification data reaches the license backend.
 ```
 
-Japanese:
+### ja
 
 ```text
 Grab All Files は、ユーザーが選択した任意のWebページまたはURLをスキャンするため、対象ドメインを事前に固定できません。そのため、選択されたページ、iframe、ファイルらしいネットワークレスポンス、ダウンロードリンクを確認する権限が必要です。この権限は、ユーザーがスキャン対象として選んだページまたはURLに対してのみ利用します。ファイル本文、ページHTML、検出URL一覧、Cookie、パスワード、閲覧履歴は当方サーバーへ送信されません。当方サーバーへ送信されるのは、無料トライアルとライセンス確認に必要な情報のみです。
 ```
 
+### es
+
+```text
+Grab All Files permite al usuario elegir cualquier página web o URL para escanear. Se requiere acceso amplio a sitios web porque el dominio objetivo no se conoce de antemano, y la extensión debe inspeccionar la página seleccionada, sus marcos, respuestas de red parecidas a archivos y enlaces de descarga antes de mostrar la lista de archivos detectados. La extensión usa este acceso solo para las páginas o URLs que el usuario elige escanear. El contenido de archivos, HTML de páginas, listas de URLs detectadas, cookies, contraseñas e historial de navegación no se envían a los servidores del desarrollador. Solo los datos de verificación de prueba y licencia llegan al backend de licencias.
+```
+
+### fr
+
+```text
+Grab All Files permet à l'utilisateur de choisir n'importe quelle page web ou URL à analyser. Un accès large aux sites web est nécessaire car le domaine cible n'est pas connu à l'avance, et l'extension doit inspecter la page sélectionnée, ses cadres, les réponses réseau ressemblant à des fichiers et les liens de téléchargement avant d'afficher la liste des fichiers détectés. L'extension utilise cet accès uniquement pour les pages ou URLs que l'utilisateur choisit d'analyser. Le contenu des fichiers, le HTML des pages, les listes d'URLs détectées, les cookies, les mots de passe et l'historique de navigation ne sont pas envoyés aux serveurs du développeur. Seules les données de vérification de l'essai et de la licence atteignent le backend de licences.
+```
+
+### de
+
+```text
+Grab All Files lässt den Nutzer eine beliebige Webseite oder URL zum Scannen auswählen. Breiter Website-Zugriff ist erforderlich, weil die Zieldomain im Voraus nicht bekannt ist und die Erweiterung die ausgewählte Seite, Frames, dateiähnliche Netzwerkantworten und Downloadlinks prüfen muss, bevor sie die erkannte Dateiliste anzeigen kann. Die Erweiterung nutzt diesen Zugriff nur für Seiten oder URLs, die der Nutzer zum Scannen auswählt. Dateiinhalte, Seiten-HTML, erkannte URL-Listen, Cookies, Passwörter und Browserverlauf werden nicht an die Server des Entwicklers gesendet. Nur Daten zur Test- und Lizenzprüfung erreichen das Lizenz-Backend.
+```
+
+### it
+
+```text
+Grab All Files consente all'utente di scegliere qualsiasi pagina web o URL da scansionare. È necessario un accesso ampio ai siti web perché il dominio di destinazione non è noto in anticipo, e l'estensione deve ispezionare la pagina selezionata, i frame, le risposte di rete simili a file e i link di download prima di mostrare l'elenco dei file rilevati. L'estensione usa questo accesso solo per le pagine o URL che l'utente sceglie di scansionare. Contenuti dei file, HTML delle pagine, elenchi di URL rilevati, cookie, password e cronologia di navigazione non vengono inviati ai server dello sviluppatore. Solo i dati di verifica della prova e della licenza raggiungono il backend delle licenze.
+```
+
+### ko
+
+```text
+Grab All Files는 사용자가 스캔할 웹페이지나 URL을 직접 선택하게 합니다. 대상 도메인을 미리 알 수 없고, 감지된 파일 목록을 표시하기 전에 선택한 페이지, 프레임, 파일처럼 보이는 네트워크 응답, 다운로드 링크를 검사해야 하므로 광범위한 웹사이트 접근 권한이 필요합니다. 이 확장 프로그램은 사용자가 스캔 대상으로 선택한 페이지나 URL에만 이 접근 권한을 사용합니다. 파일 내용, 페이지 HTML, 감지된 URL 목록, 쿠키, 비밀번호, 브라우징 기록은 개발자 서버로 전송되지 않습니다. 체험 및 라이선스 확인 데이터만 라이선스 백엔드에 도달합니다.
+```
+
+### pt_BR
+
+```text
+Grab All Files permite que o usuário escolha qualquer página web ou URL para escanear. É necessário acesso amplo a sites porque o domínio de destino não é conhecido antecipadamente, e a extensão precisa inspecionar a página selecionada, frames, respostas de rede semelhantes a arquivos e links de download antes de mostrar a lista de arquivos detectados. A extensão usa esse acesso apenas para páginas ou URLs que o usuário escolhe escanear. Conteúdo de arquivos, HTML da página, listas de URLs detectadas, cookies, senhas e histórico de navegação não são enviados aos servidores do desenvolvedor. Apenas dados de verificação de teste e licença chegam ao backend de licenças.
+```
+
+### zh_CN
+
+```text
+Grab All Files 允许用户选择任意网页或 URL 进行扫描。由于无法预先知道目标域名，扩展程序必须在显示检测到的文件列表之前检查用户选择的页面、框架、类似文件的网络响应和下载链接，因此需要较广泛的网站访问权限。扩展程序仅对用户选择扫描的页面或 URL 使用该权限。文件内容、页面 HTML、检测到的 URL 列表、Cookie、密码和浏览历史不会发送到开发者服务器。只有试用和许可证验证数据会到达许可证后端。
+```
+
+### zh_TW
+
+```text
+Grab All Files 允許使用者選擇任意網頁或 URL 進行掃描。由於無法預先知道目標網域，擴充功能必須在顯示偵測到的檔案清單之前檢查使用者選擇的頁面、框架、類似檔案的網路回應和下載連結，因此需要較廣泛的網站存取權限。擴充功能僅對使用者選擇掃描的頁面或 URL 使用該權限。檔案內容、頁面 HTML、偵測到的 URL 清單、Cookie、密碼和瀏覽記錄不會傳送到開發者伺服器。只有試用和授權驗證資料會到達授權後端。
+```
+
 ## Dashboard Checklist
 
-- Keep the title unchanged unless there is a strong reason to rebrand.
-- Paste the short summary first and confirm it is under the store limit.
-- Use the English description as the default listing description.
-- Add the Japanese summary/description as the Japanese locale if the store supports localized listing text.
+- Keep the brand name stable unless there is a strong reason to rebrand.
+- Paste the localized short summary first and confirm it is under the store limit.
+- Use the matching localized description for each supported locale.
+- Add all 10 locales if the store supports localized listing text.
 - Link privacy/security fields to:
   - https://grab-all-files.app/privacy-policy.html
   - https://grab-all-files.app/security.html
 - Upload five screenshots in the order defined in `screenshot-plan.md`.
-- After publishing, verify the public listing shows the new summary, privacy text, and screenshot order.
+- After publishing, verify the public listing shows the localized summary, privacy text, and screenshot order.
 
 ## References
 
