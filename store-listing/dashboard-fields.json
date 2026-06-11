@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07",
+  "updated": "2026-06-11",
   "canonical_source": {
     "extension_repo": "C:/xampp/htdocs/filescanner",
     "manifest": "C:/xampp/htdocs/filescanner/manifest.json",
@@ -7,7 +7,7 @@
     "descriptions": "C:/xampp/htdocs/filescanner/docs/store-listings/description-<locale>.txt",
     "search_terms": "C:/xampp/htdocs/filescanner/docs/store-listings/search-terms-<locale>.txt"
   },
-  "package_version": "4.5.1",
+  "package_version": "4.5.2",
   "stores": [
     "chrome",
     "edge",
@@ -350,9 +350,9 @@
       "https://*/*",
       "http://*/*"
     ],
-    "chrome_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-chrome-v4.5.1.zip",
-    "edge_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-edge-v4.5.1.zip",
-    "firefox_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-firefox-v4.5.1.zip",
-    "firefox_source_zip_status": "No v4.5.1 source ZIP found in C:/xampp/htdocs/filescanner; regenerate if AMO requests source code for the current version."
+    "chrome_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-chrome-v4.5.2.zip",
+    "edge_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-edge-v4.5.2.zip",
+    "firefox_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-firefox-v4.5.2.zip",
+    "firefox_source_zip_status": "v4.5.2 source ZIP available at C:/xampp/htdocs/filescanner/grab-all-files-source-v4.5.2.zip; verified to reproduce dist/firefox byte-for-byte via npm install + npm run build."
   }
 }
