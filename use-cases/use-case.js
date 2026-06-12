@@ -2,7 +2,7 @@
   var SUPPORTED = ["en", "ja", "es", "fr", "de", "it", "ko", "pt_BR", "zh_CN", "zh_TW"];
   var STORE = {
     chrome: "https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf",
-    edge: "https://microsoftedge.microsoft.com/addons/detail/jednlijeohcagfehggnffjbkgjijbjgn",
+    edge: "https://microsoftedge.microsoft.com/addons/detail/ebacgdhmcofpoilfllhkoioabjbaemef",
     firefox: "https://addons.mozilla.org/firefox/addon/grab-all-files/"
   };
   var LANG_LABELS = {
