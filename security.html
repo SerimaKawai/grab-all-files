@@ -304,6 +304,13 @@
     .store-btn[href*="microsoftedge.microsoft.com"]::before { background-image: url("assets/browser-logos/edge.svg"); }
     .store-btn[href*="addons.mozilla.org"]::before { background-image: url("assets/browser-logos/firefox.svg"); }
     @media (max-width: 560px) { .store-btn { width: 100%; } .store-btn::after { margin-left: auto; } }
+    /* TEMPORARY: Edge listing re-created (new CRX ID) awaiting review — remove with the JS block when Edge is live. */
+    a.edge-pending { opacity: 0.6; cursor: not-allowed; }
+    a.edge-pending:hover { transform: none; }
+    .store-btn.edge-pending:hover { background: var(--surface); border-color: var(--border-strong); color: var(--text-strong); }
+    .store-btn.edge-pending:hover::after { transform: none; color: var(--text-faint); }
+    .store-btn.edge-pending::after { content: ""; }
+    .review-badge { display: inline-flex; align-items: center; margin-left: 0.4rem; padding: 0.05rem 0.42rem; font-size: 0.66rem; font-weight: 700; line-height: 1.55; letter-spacing: 0.02em; color: #92590a; background: #fef3c7; border: 1px solid #fcd34d; border-radius: 999px; white-space: nowrap; vertical-align: middle; }
   </style>
   <script>
     (function(){
@@ -553,6 +560,17 @@
           '<section class="section-card"><h2>' + esc(c.respTitle) + '</h2><p>' + esc(c.respText) + '</p></section>',
         '</div>'
       ].join('');
+      // TEMPORARY: Edge Add-ons listing re-created (new CRX ID) and awaiting review,
+      // so its store link 404s. Flag the Edge button as under review + stop the dead
+      // click. Remove this block (and the .edge-pending CSS) when Edge is published.
+      var _edgeBadge = ({ en: "Under review", ja: "審査中", es: "En revisión", fr: "En cours d'examen", de: "In Prüfung", it: "In revisione", ko: "심사 중", pt_BR: "Em análise", zh_CN: "审核中", zh_TW: "審核中" })[lang] || "Under review";
+      root.querySelectorAll('a[href*="microsoftedge.microsoft.com"]').forEach(function(a) {
+        a.classList.add('edge-pending');
+        a.setAttribute('aria-disabled', 'true');
+        a.setAttribute('title', _edgeBadge);
+        a.addEventListener('click', function(e) { e.preventDefault(); e.stopPropagation(); });
+        var b = document.createElement('span'); b.className = 'review-badge'; b.textContent = _edgeBadge; a.appendChild(b);
+      });
     }
     function getTheme() {
       try {
