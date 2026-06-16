@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Uninstall - Grab All Files</title>
+  <script defer src="/analytics.js"></script>
+  <link rel="icon" type="image/png" sizes="128x128" href="../favicon-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="canonical" href="https://grab-all-files.app/uninstall/">
+  <style>
+    :root {
+      color-scheme: light;
+      --font-display: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+      --font-body: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif;
+      --bg: #f5f7fb; --surface: #ffffff; --surface-alt: #f3f6fc; --surface-soft: #eef2f9;
+      --text: #2c3650; --text-strong: #0b1020; --text-muted: #54607a; --text-faint: #8893a8;
+      --border: #e7ecf3; --border-strong: #d2dae6;
+      --primary: #2f55ec; --primary-hover: #2143cf; --primary-text: #ffffff; --primary-disabled: #9aa6bd;
+      --accent-soft: #e7edff; --accent-soft-text: #243fbf;
+      --success-bg: #dcfce7; --success-text: #14532d; --success-border: #86efac;
+      --error-bg: #fee2e2; --error-text: #7f1d1d; --error-border: #fca5a5;
+      --shadow-soft: 0 1px 2px rgba(13,20,38,0.05);
+      --shadow-card-lg: 0 2px 6px rgba(13,20,38,0.06), 0 34px 64px -28px rgba(13,20,38,0.30);
+    }
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #080b14; --surface: #111726; --surface-alt: #0c1120; --surface-soft: #1a2233;
+      --text: #c2cbdd; --text-strong: #f2f5fc; --text-muted: #97a3bb; --text-faint: #69748a;
+      --border: #1d2535; --border-strong: #2f3a51;
+      --primary: #5e7dff; --primary-hover: #859aff; --primary-disabled: #3a465f;
+      --accent-soft: #1a2649; --accent-soft-text: #bccbff;
+      --success-bg: #14532d; --success-text: #bbf7d0; --success-border: #16a34a;
+      --error-bg: #7f1d1d; --error-text: #fecaca; --error-border: #ef4444;
+      --shadow-soft: 0 1px 3px rgba(0,0,0,0.5);
+      --shadow-card-lg: 0 2px 6px rgba(0,0,0,0.5), 0 36px 70px -26px rgba(0,0,0,0.75);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; transition: background-color 0.2s ease, color 0.2s ease; -webkit-font-smoothing: antialiased; }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: saturate(180%) blur(14px); -webkit-backdrop-filter: saturate(180%) blur(14px); border-bottom: 1px solid color-mix(in srgb, var(--border) 70%, transparent); }
+    .topbar-inner { max-width: 720px; margin: 0 auto; padding: 0.7rem 1.4rem; display: flex; align-items: center; gap: 0.7rem; }
+    .brand { display: flex; align-items: center; gap: 0.55rem; text-decoration: none; color: var(--text-strong); font-weight: 700; font-size: 0.95rem; }
+    .brand:hover { text-decoration: none; }
+    .brand img { width: 26px; height: 26px; border-radius: 6px; }
+    .topbar-spacer { flex: 1; }
+    .icon-btn, .back-link, .lang-sel { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; color: var(--text-strong); cursor: pointer; font-family: inherit; height: 32px; padding: 0 0.65rem; font-size: 0.82rem; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; transition: background 0.15s ease, border-color 0.15s ease; text-decoration: none; }
+    .icon-btn { width: 32px; padding: 0; font-size: 0.9rem; }
+    .icon-btn:hover, .back-link:hover, .lang-sel:hover { background: var(--surface-soft); border-color: var(--border-strong); text-decoration: none; }
+    .icon-btn .theme-icon-light, .icon-btn .theme-icon-dark { display: none; }
+    :root[data-theme="dark"] .icon-btn .theme-icon-light { display: inline; }
+    :root:not([data-theme="dark"]) .icon-btn .theme-icon-dark { display: inline; }
+    @media (max-width: 540px) { .back-link span:last-child { display: none; } }
+
+    main { flex: 1; padding: 2.5rem 1.4rem 4rem; display: flex; align-items: flex-start; justify-content: center; }
+    .wrap { max-width: 720px; width: 100%; }
+
+    .hero { text-align: center; margin-bottom: 2rem; }
+    .hero h1 { font-size: 1.8rem; font-weight: 700; color: var(--text-strong); letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .hero p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; max-width: 520px; margin: 0 auto; }
+
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 1.8rem; box-shadow: var(--shadow-soft); }
+    @media (max-width: 540px) { .card { padding: 1.2rem; } }
+
+    form { display: grid; gap: 1.4rem; }
+
+    .reasons { border: 0; display: grid; gap: 0.5rem; }
+    .reasons legend { font-size: 0.92rem; font-weight: 600; color: var(--text-strong); margin-bottom: 0.55rem; padding: 0; }
+    .reason { display: flex; align-items: flex-start; gap: 0.65rem; padding: 0.7rem 0.85rem; border: 1px solid var(--border); border-radius: 10px; cursor: pointer; transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease; font-size: 0.92rem; color: var(--text); }
+    .reason:hover { background: var(--surface-soft); border-color: var(--border-strong); }
+    .reason input { margin-top: 0.18rem; accent-color: var(--primary); width: auto; flex: none; cursor: pointer; }
+    .reason:has(input:checked) { border-color: var(--primary); background: var(--accent-soft); color: var(--accent-soft-text); font-weight: 600; }
+
+    .field { display: grid; gap: 0.35rem; }
+    .field label { font-size: 0.85rem; font-weight: 600; color: var(--text-strong); }
+    .field textarea {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 9px;
+      padding: 0.65rem 0.8rem; font-size: 0.92rem; font-family: inherit; color: var(--text);
+      transition: border-color 0.15s ease, box-shadow 0.15s ease; width: 100%;
+      min-height: 110px; resize: vertical; line-height: 1.55;
+    }
+    .field textarea:focus {
+      outline: none; border-color: var(--primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 18%, transparent);
+    }
+
+    .honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+
+    .submit-btn {
+      background: var(--primary); color: var(--primary-text); border: 0;
+      padding: 0.85rem 1.2rem; border-radius: 11px; font-family: inherit;
+      font-size: 1rem; font-weight: 600; cursor: pointer;
+      transition: background 0.15s ease, box-shadow 0.15s ease;
+      display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+    }
+    .submit-btn:hover:not(:disabled) { background: var(--primary-hover); box-shadow: 0 8px 24px rgba(37,99,235,0.22); }
+    .submit-btn:disabled { background: var(--primary-disabled); cursor: not-allowed; }
+
+    .status { padding: 0.85rem 1rem; border-radius: 10px; font-size: 0.9rem; line-height: 1.5; display: none; }
+    .status.show { display: block; }
+    .status.error { background: var(--error-bg); color: var(--error-text); border: 1px solid var(--error-border); }
+
+    .btn-spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid rgba(255,255,255,0.45); border-top-color: #fff; border-radius: 50%; animation: btn-spin 0.7s linear infinite; }
+    @keyframes btn-spin { to { transform: rotate(360deg); } }
+
+    .thankyou { display: none; text-align: center; padding: 0.5rem 0.5rem 0.25rem; }
+    .thankyou.show { display: block; }
+    .thankyou .check { width: 48px; height: 48px; border-radius: 50%; background: var(--success-bg); color: var(--success-text); border: 1px solid var(--success-border); display: inline-flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 1rem; }
+    .thankyou h2 { font-size: 1.25rem; color: var(--text-strong); margin-bottom: 0.5rem; }
+    .thankyou p { color: var(--text-muted); font-size: 0.92rem; margin-bottom: 1.2rem; }
+
+    .links { font-size: 0.78rem; color: var(--text-faint); text-align: center; margin-top: 1.4rem; }
+    .links a { color: var(--text-muted); }
+    .links a:hover { color: var(--primary); }
+  /* mobile overflow safety */
+  body{overflow-x:hidden}
+  @supports (overflow-x:clip){body{overflow-x:clip}}
+    h1, h2, h3 { font-family: var(--font-display); }
+  </style>
+  <script>
+    (function(){
+      try {
+        var t = localStorage.getItem('gaf-theme');
+        if (t !== 'light' && t !== 'dark') {
+          t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+        }
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (_) {}
+    })();
+  </script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../">
+      <img src="../favicon-128.png" alt="">
+      <span>Grab All Files</span>
+    </a>
+    <div class="topbar-spacer"></div>
+    <a class="back-link" href="../" id="back-link">
+      <span aria-hidden="true">←</span>
+      <span id="back-label">Back</span>
+    </a>
+    <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode / ダークモード切替" title="Toggle dark mode / ダークモード切替">
+      <span class="theme-icon-dark" aria-hidden="true">🌙</span>
+      <span class="theme-icon-light" aria-hidden="true">☀️</span>
+    </button>
+    <select id="lang-sel" class="lang-sel" aria-label="Language">
+      <option value="en">English</option>
+      <option value="ja">日本語</option>
+      <option value="es">Español</option>
+      <option value="fr">Français</option>
+      <option value="ko">한국어</option>
+      <option value="it">Italiano</option>
+      <option value="zh_CN">简体中文</option>
+      <option value="zh_TW">繁體中文</option>
+      <option value="pt_BR">Português</option>
+      <option value="de">Deutsch</option>
+    </select>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="hero">
+      <h1 id="t-title">Sorry to see you go</h1>
+      <p id="t-subtitle">Before you leave, would you tell us why you uninstalled? It takes a few seconds and helps us improve. Your answer is anonymous.</p>
+    </div>
+
+    <div class="card">
+      <form id="survey-form" novalidate>
+        <fieldset class="reasons">
+          <legend id="t-legend">Why did you uninstall?</legend>
+          <label class="reason"><input type="radio" name="reason" value="not_working"><span id="r-not_working">It didn't work / I couldn't get it to work</span></label>
+          <label class="reason"><input type="radio" name="reason" value="missing_feature"><span id="r-missing_feature">It was missing a feature I needed</span></label>
+          <label class="reason"><input type="radio" name="reason" value="too_complicated"><span id="r-too_complicated">It was too complicated to use</span></label>
+          <label class="reason"><input type="radio" name="reason" value="bug"><span id="r-bug">Too many bugs or errors</span></label>
+          <label class="reason"><input type="radio" name="reason" value="too_expensive"><span id="r-too_expensive">It was too expensive</span></label>
+          <label class="reason"><input type="radio" name="reason" value="found_alternative"><span id="r-found_alternative">I found a better alternative</span></label>
+          <label class="reason"><input type="radio" name="reason" value="no_longer_needed"><span id="r-no_longer_needed">I no longer need it</span></label>
+          <label class="reason"><input type="radio" name="reason" value="privacy"><span id="r-privacy">Privacy or permissions concerns</span></label>
+          <label class="reason"><input type="radio" name="reason" value="other"><span id="r-other">Other</span></label>
+        </fieldset>
+
+        <div class="field">
+          <label for="f-comment" id="l-comment">Anything else you'd like to share? (optional)</label>
+          <textarea id="f-comment" name="comment" maxlength="2000"></textarea>
+        </div>
+
+        <div class="honeypot" aria-hidden="true">
+          <label for="f-company">Company (leave empty)</label>
+          <input type="text" id="f-company" name="company" tabindex="-1" autocomplete="off">
+        </div>
+
+        <button type="submit" class="submit-btn" id="submit-btn">
+          <span id="submit-label">Send feedback</span>
+        </button>
+
+        <div class="status" id="status" role="status" aria-live="polite"></div>
+      </form>
+
+      <div class="thankyou" id="thankyou">
+        <div class="check" aria-hidden="true">✓</div>
+        <h2 id="ty-title">Thank you for your feedback</h2>
+        <p id="ty-body">Your response has been recorded. We appreciate you taking the time.</p>
+        <p><a id="ty-reinstall" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf">Uninstalled by mistake? Reinstall the extension</a></p>
+      </div>
+    </div>
+
+    <p class="links">
+      <a href="../terms.html" id="lnk-terms">Terms of Service</a> ·
+      <a href="../privacy-policy.html" id="lnk-privacy">Privacy Policy</a> ·
+      <a href="../legal.html" id="lnk-legal">Legal Notice</a>
+    </p>
+  </div>
+</main>
+
+<script>
+(function() {
+  var ENDPOINT = 'https://umczaaooqinddgnhxbvp.supabase.co/functions/v1/uninstall-feedback';
+  var STORE_URL = 'https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf';
+
+  var REASONS = ['not_working','missing_feature','too_complicated','bug','too_expensive','found_alternative','no_longer_needed','privacy','other'];
+
+  var STRINGS = {
+    en: {
+      title: 'Sorry to see you go',
+      subtitle: "Before you leave, would you tell us why you uninstalled? It takes a few seconds and helps us improve. Your answer is anonymous.",
+      back: 'Back',
+      legend: 'Why did you uninstall?',
+      r_not_working: "It didn't work / I couldn't get it to work",
+      r_missing_feature: 'It was missing a feature I needed',
+      r_too_complicated: 'It was too complicated to use',
+      r_bug: 'Too many bugs or errors',
+      r_too_expensive: 'It was too expensive',
+      r_found_alternative: 'I found a better alternative',
+      r_no_longer_needed: 'I no longer need it',
+      r_privacy: 'Privacy or permissions concerns',
+      r_other: 'Other',
+      lComment: "Anything else you'd like to share? (optional)",
+      submit: 'Send feedback',
+      submitting: 'Sending…',
+      errReason: 'Please choose a reason.',
+      errNetwork: 'Could not send your feedback. Please check your connection and try again.',
+      errServer: 'Sorry, the server rejected the request. Please try again later.',
+      tyTitle: 'Thank you for your feedback',
+      tyBody: 'Your response has been recorded. We appreciate you taking the time.',
+      tyReinstall: 'Uninstalled by mistake? Reinstall the extension',
+      docTitle: 'Uninstall - Grab All Files',
+      langLabel: 'Language',
+    },
+    ja: {
+      title: 'ご利用ありがとうございました',
+      subtitle: 'お別れの前に、アンインストールの理由を教えていただけますか？数秒で終わり、今後の改善に役立てます。回答は匿名です。',
+      back: '戻る',
+      legend: 'アンインストールの理由を教えてください',
+      r_not_working: 'うまく動かなかった／使い方がわからなかった',
+      r_missing_feature: '必要な機能が足りなかった',
+      r_too_complicated: '操作が難しかった',
+      r_bug: '不具合やエラーが多かった',
+      r_too_expensive: '価格が高かった',
+      r_found_alternative: 'もっと良い代替ツールを見つけた',
+      r_no_longer_needed: 'もう必要なくなった',
+      r_privacy: 'プライバシー・権限が不安だった',
+      r_other: 'その他',
+      lComment: 'その他、ご意見があればお書きください（任意）',
+      submit: 'フィードバックを送信',
+      submitting: '送信中…',
+      errReason: '理由を選択してください。',
+      errNetwork: '送信できませんでした。通信状況をご確認のうえ、もう一度お試しください。',
+      errServer: 'サーバーがリクエストを拒否しました。時間をおいてもう一度お試しください。',
+      tyTitle: 'ご協力ありがとうございました',
+      tyBody: '回答を受け付けました。お時間をいただきありがとうございます。',
+      tyReinstall: '誤ってアンインストールしましたか？拡張機能を再インストール',
+      docTitle: 'アンインストール - ファイル一括ダウンロード',
+      langLabel: '言語',
+    },
+    es: {
+      title: 'Lamentamos que te vayas',
+      subtitle: 'Antes de irte, ¿nos dirías por qué desinstalaste la extensión? Toma unos segundos y nos ayuda a mejorar. Tu respuesta es anónima.',
+      back: 'Atrás',
+      legend: '¿Por qué la desinstalaste?',
+      r_not_working: 'No funcionó / no logré que funcionara',
+      r_missing_feature: 'Le faltaba una función que necesitaba',
+      r_too_complicated: 'Era demasiado complicada de usar',
+      r_bug: 'Demasiados errores o fallos',
+      r_too_expensive: 'Era demasiado cara',
+      r_found_alternative: 'Encontré una alternativa mejor',
+      r_no_longer_needed: 'Ya no la necesito',
+      r_privacy: 'Preocupaciones de privacidad o permisos',
+      r_other: 'Otro',
+      lComment: '¿Algo más que quieras compartir? (opcional)',
+      submit: 'Enviar comentarios',
+      submitting: 'Enviando…',
+      errReason: 'Por favor elige un motivo.',
+      errNetwork: 'No se pudieron enviar tus comentarios. Verifica tu conexión e inténtalo de nuevo.',
+      errServer: 'El servidor rechazó la solicitud. Inténtalo de nuevo más tarde.',
+      tyTitle: 'Gracias por tus comentarios',
+      tyBody: 'Tu respuesta ha sido registrada. Agradecemos tu tiempo.',
+      tyReinstall: '¿La desinstalaste por error? Reinstalar la extensión',
+      docTitle: 'Desinstalar - Grab All Files',
+      langLabel: 'Idioma',
+    },
+    fr: {
+      title: 'Désolé de vous voir partir',
+      subtitle: "Avant de partir, pourriez-vous nous dire pourquoi vous avez désinstallé l'extension ? Cela prend quelques secondes et nous aide à nous améliorer. Votre réponse est anonyme.",
+      back: 'Retour',
+      legend: 'Pourquoi avez-vous désinstallé ?',
+      r_not_working: "Ça n'a pas fonctionné / je n'ai pas réussi à m'en servir",
+      r_missing_feature: "Il manquait une fonctionnalité dont j'avais besoin",
+      r_too_complicated: 'Trop compliqué à utiliser',
+      r_bug: 'Trop de bugs ou d\'erreurs',
+      r_too_expensive: 'Trop cher',
+      r_found_alternative: 'J\'ai trouvé une meilleure alternative',
+      r_no_longer_needed: "Je n'en ai plus besoin",
+      r_privacy: 'Préoccupations de confidentialité ou de permissions',
+      r_other: 'Autre',
+      lComment: 'Autre chose à partager ? (facultatif)',
+      submit: 'Envoyer',
+      submitting: 'Envoi…',
+      errReason: 'Veuillez choisir une raison.',
+      errNetwork: 'Impossible d\'envoyer votre retour. Vérifiez votre connexion et réessayez.',
+      errServer: 'Le serveur a rejeté la requête. Veuillez réessayer plus tard.',
+      tyTitle: 'Merci pour votre retour',
+      tyBody: 'Votre réponse a été enregistrée. Merci d\'avoir pris le temps.',
+      tyReinstall: 'Désinstallé par erreur ? Réinstaller l\'extension',
+      docTitle: 'Désinstaller - Grab All Files',
+      langLabel: 'Langue',
+    },
+    ko: {
+      title: '떠나신다니 아쉽습니다',
+      subtitle: '떠나시기 전에, 제거하신 이유를 알려주시겠어요? 몇 초면 되고 개선에 큰 도움이 됩니다. 답변은 익명으로 처리됩니다.',
+      back: '뒤로',
+      legend: '왜 제거하셨나요?',
+      r_not_working: '작동하지 않았어요 / 사용할 수 없었어요',
+      r_missing_feature: '필요한 기능이 없었어요',
+      r_too_complicated: '사용하기 너무 복잡했어요',
+      r_bug: '버그나 오류가 너무 많았어요',
+      r_too_expensive: '너무 비쌌어요',
+      r_found_alternative: '더 나은 대안을 찾았어요',
+      r_no_longer_needed: '더 이상 필요 없어요',
+      r_privacy: '개인정보나 권한이 걱정됐어요',
+      r_other: '기타',
+      lComment: '더 하고 싶은 말씀이 있으신가요? (선택)',
+      submit: '의견 보내기',
+      submitting: '전송 중…',
+      errReason: '이유를 선택해 주세요.',
+      errNetwork: '의견을 보낼 수 없습니다. 연결을 확인하고 다시 시도해 주세요.',
+      errServer: '서버가 요청을 거부했습니다. 잠시 후 다시 시도해 주세요.',
+      tyTitle: '의견을 보내주셔서 감사합니다',
+      tyBody: '답변이 기록되었습니다. 시간 내주셔서 감사합니다.',
+      tyReinstall: '실수로 제거하셨나요? 확장 프로그램 다시 설치',
+      docTitle: '제거 - Grab All Files',
+      langLabel: '언어',
+    },
+    it: {
+      title: 'Ci dispiace vederti andare',
+      subtitle: "Prima di andare, ci diresti perché hai disinstallato l'estensione? Richiede pochi secondi e ci aiuta a migliorare. La tua risposta è anonima.",
+      back: 'Indietro',
+      legend: 'Perché hai disinstallato?',
+      r_not_working: 'Non funzionava / non sono riuscito a usarla',
+      r_missing_feature: 'Mancava una funzione che mi serviva',
+      r_too_complicated: 'Troppo complicata da usare',
+      r_bug: 'Troppi bug o errori',
+      r_too_expensive: 'Troppo costosa',
+      r_found_alternative: 'Ho trovato un\'alternativa migliore',
+      r_no_longer_needed: 'Non mi serve più',
+      r_privacy: 'Preoccupazioni su privacy o permessi',
+      r_other: 'Altro',
+      lComment: 'Vuoi aggiungere altro? (facoltativo)',
+      submit: 'Invia feedback',
+      submitting: 'Invio in corso…',
+      errReason: 'Scegli un motivo.',
+      errNetwork: 'Impossibile inviare il feedback. Controlla la connessione e riprova.',
+      errServer: 'Il server ha rifiutato la richiesta. Riprova più tardi.',
+      tyTitle: 'Grazie per il tuo feedback',
+      tyBody: 'La tua risposta è stata registrata. Grazie per il tempo dedicato.',
+      tyReinstall: 'Disinstallata per errore? Reinstalla l\'estensione',
+      docTitle: 'Disinstalla - Grab All Files',
+      langLabel: 'Lingua',
+    },
+    zh_CN: {
+      title: '很遗憾您要离开',
+      subtitle: '在离开之前，能否告诉我们您卸载的原因？只需几秒钟，有助于我们改进。您的回答是匿名的。',
+      back: '返回',
+      legend: '您为什么卸载？',
+      r_not_working: '无法正常工作／没能用起来',
+      r_missing_feature: '缺少我需要的功能',
+      r_too_complicated: '使用太复杂',
+      r_bug: '错误或故障太多',
+      r_too_expensive: '价格太高',
+      r_found_alternative: '找到了更好的替代品',
+      r_no_longer_needed: '不再需要了',
+      r_privacy: '担心隐私或权限',
+      r_other: '其他',
+      lComment: '还有什么想告诉我们的吗？（可选）',
+      submit: '提交反馈',
+      submitting: '提交中…',
+      errReason: '请选择一个原因。',
+      errNetwork: '无法提交反馈。请检查网络后重试。',
+      errServer: '服务器拒绝了请求。请稍后重试。',
+      tyTitle: '感谢您的反馈',
+      tyBody: '您的回答已记录。感谢您抽出时间。',
+      tyReinstall: '误删了？重新安装扩展程序',
+      docTitle: '卸载 - Grab All Files',
+      langLabel: '语言',
+    },
+    zh_TW: {
+      title: '很遺憾您要離開',
+      subtitle: '在離開之前，能否告訴我們您解除安裝的原因？只需幾秒鐘，有助於我們改進。您的回答將以匿名方式處理。',
+      back: '返回',
+      legend: '您為什麼解除安裝？',
+      r_not_working: '無法正常運作／沒能用起來',
+      r_missing_feature: '缺少我需要的功能',
+      r_too_complicated: '使用太複雜',
+      r_bug: '錯誤或故障太多',
+      r_too_expensive: '價格太高',
+      r_found_alternative: '找到了更好的替代品',
+      r_no_longer_needed: '不再需要了',
+      r_privacy: '擔心隱私或權限',
+      r_other: '其他',
+      lComment: '還有什麼想告訴我們的嗎？（選填）',
+      submit: '送出意見',
+      submitting: '送出中…',
+      errReason: '請選擇一個原因。',
+      errNetwork: '無法送出意見。請檢查網路連線後再試。',
+      errServer: '伺服器拒絕了要求。請稍後再試。',
+      tyTitle: '感謝您的意見',
+      tyBody: '您的回答已記錄。感謝您撥冗填寫。',
+      tyReinstall: '誤刪了嗎？重新安裝擴充功能',
+      docTitle: '解除安裝 - Grab All Files',
+      langLabel: '語言',
+    },
+    pt_BR: {
+      title: 'Que pena que você está saindo',
+      subtitle: 'Antes de sair, você poderia nos dizer por que desinstalou a extensão? Leva alguns segundos e nos ajuda a melhorar. Sua resposta é anônima.',
+      back: 'Voltar',
+      legend: 'Por que você desinstalou?',
+      r_not_working: 'Não funcionou / não consegui usar',
+      r_missing_feature: 'Faltava um recurso de que eu precisava',
+      r_too_complicated: 'Era complicada demais de usar',
+      r_bug: 'Muitos bugs ou erros',
+      r_too_expensive: 'Era cara demais',
+      r_found_alternative: 'Encontrei uma alternativa melhor',
+      r_no_longer_needed: 'Não preciso mais',
+      r_privacy: 'Preocupações com privacidade ou permissões',
+      r_other: 'Outro',
+      lComment: 'Quer compartilhar mais alguma coisa? (opcional)',
+      submit: 'Enviar feedback',
+      submitting: 'Enviando…',
+      errReason: 'Por favor, escolha um motivo.',
+      errNetwork: 'Não foi possível enviar seu feedback. Verifique sua conexão e tente novamente.',
+      errServer: 'O servidor rejeitou a solicitação. Tente novamente mais tarde.',
+      tyTitle: 'Obrigado pelo seu feedback',
+      tyBody: 'Sua resposta foi registrada. Agradecemos o seu tempo.',
+      tyReinstall: 'Desinstalou por engano? Reinstalar a extensão',
+      docTitle: 'Desinstalar - Grab All Files',
+      langLabel: 'Idioma',
+    },
+    de: {
+      title: 'Schade, dass Sie gehen',
+      subtitle: 'Bevor Sie gehen: Würden Sie uns sagen, warum Sie die Erweiterung deinstalliert haben? Es dauert nur ein paar Sekunden und hilft uns, besser zu werden. Ihre Antwort ist anonym.',
+      back: 'Zurück',
+      legend: 'Warum haben Sie deinstalliert?',
+      r_not_working: 'Es hat nicht funktioniert / ich kam nicht damit zurecht',
+      r_missing_feature: 'Eine benötigte Funktion hat gefehlt',
+      r_too_complicated: 'Zu kompliziert in der Anwendung',
+      r_bug: 'Zu viele Fehler oder Bugs',
+      r_too_expensive: 'Zu teuer',
+      r_found_alternative: 'Ich habe eine bessere Alternative gefunden',
+      r_no_longer_needed: 'Ich brauche sie nicht mehr',
+      r_privacy: 'Bedenken zu Datenschutz oder Berechtigungen',
+      r_other: 'Sonstiges',
+      lComment: 'Möchten Sie uns noch etwas mitteilen? (optional)',
+      submit: 'Feedback senden',
+      submitting: 'Senden…',
+      errReason: 'Bitte wählen Sie einen Grund.',
+      errNetwork: 'Ihr Feedback konnte nicht gesendet werden. Bitte Verbindung prüfen und erneut versuchen.',
+      errServer: 'Der Server hat die Anfrage abgelehnt. Bitte später erneut versuchen.',
+      tyTitle: 'Danke für Ihr Feedback',
+      tyBody: 'Ihre Antwort wurde gespeichert. Vielen Dank für Ihre Zeit.',
+      tyReinstall: 'Versehentlich deinstalliert? Erweiterung neu installieren',
+      docTitle: 'Deinstallieren - Grab All Files',
+      langLabel: 'Sprache',
+    },
+  };
+
+  function detectLang() {
+    var p = new URLSearchParams(location.search);
+    var fromQuery = p.get('lang');
+    if (fromQuery && STRINGS[fromQuery]) return fromQuery;
+    // Tolerate region/script variants from chrome.i18n.getUILanguage (e.g. en-US, zh-Hant).
+    if (fromQuery) {
+      var q = fromQuery.toLowerCase().replace('-', '_');
+      if (STRINGS[q]) return q;
+      var base = q.split('_')[0];
+      if (base === 'zh') return (q.indexOf('tw') !== -1 || q.indexOf('hant') !== -1) ? 'zh_TW' : 'zh_CN';
+      if (base === 'pt') return 'pt_BR';
+      if (STRINGS[base]) return base;
+    }
+    try {
+      var stored = localStorage.getItem('gaf-lang');
+      if (stored && STRINGS[stored]) return stored;
+    } catch (_) {}
+    var n = (navigator.language || 'en').toLowerCase();
+    if (n.startsWith('ja')) return 'ja';
+    if (n.startsWith('ko')) return 'ko';
+    if (n.startsWith('it')) return 'it';
+    if (n.startsWith('de')) return 'de';
+    if (n.startsWith('es')) return 'es';
+    if (n.startsWith('fr')) return 'fr';
+    if (n.startsWith('pt')) return 'pt_BR';
+    if (n === 'zh-tw' || n === 'zh-hant' || n.startsWith('zh-hant')) return 'zh_TW';
+    if (n.startsWith('zh')) return 'zh_CN';
+    return 'en';
+  }
+
+  function setText(id, value) {
+    var el = document.getElementById(id);
+    if (el) el.textContent = value;
+  }
+
+  var currentLang = 'en';
+
+  function applyLang(lang) {
+    currentLang = lang;
+    var t = STRINGS[lang] || STRINGS.en;
+    document.documentElement.lang = lang.replace('_', '-');
+    document.title = t.docTitle;
+    setText('t-title', t.title);
+    setText('t-subtitle', t.subtitle);
+    setText('back-label', t.back);
+    setText('t-legend', t.legend);
+    REASONS.forEach(function(code) { setText('r-' + code, t['r_' + code]); });
+    setText('l-comment', t.lComment);
+    setText('submit-label', t.submit);
+    setText('ty-title', t.tyTitle);
+    setText('ty-body', t.tyBody);
+    setText('ty-reinstall', t.tyReinstall);
+    var sel = document.getElementById('lang-sel');
+    if (sel) {
+      sel.value = lang;
+      sel.setAttribute('aria-label', t.langLabel);
+    }
+    try { localStorage.setItem('gaf-lang', lang); } catch (_) {}
+  }
+
+  function detectBrowser() {
+    var ua = navigator.userAgent || '';
+    if (/Edg\//.test(ua)) return 'Microsoft Edge';
+    if (/OPR\//.test(ua) || /Opera/.test(ua)) return 'Opera';
+    if (/Firefox\//.test(ua)) return 'Firefox';
+    if (/Chrome\//.test(ua)) return 'Google Chrome';
+    if (/Safari\//.test(ua) && !/Chrome\//.test(ua)) return 'Safari';
+    return 'Other';
+  }
+
+  function showStatus(kind, text) {
+    var el = document.getElementById('status');
+    el.className = 'status show ' + kind;
+    el.textContent = text;
+  }
+  function hideStatus() {
+    var el = document.getElementById('status');
+    el.className = 'status';
+    el.textContent = '';
+  }
+
+  function selectedReason() {
+    var r = document.querySelector('input[name="reason"]:checked');
+    return r ? r.value : '';
+  }
+
+  function submitForm(e) {
+    e.preventDefault();
+    var t = STRINGS[currentLang] || STRINGS.en;
+    hideStatus();
+
+    var reason = selectedReason();
+    if (!reason) {
+      showStatus('error', t.errReason);
+      return;
+    }
+
+    var p = new URLSearchParams(location.search);
+    var payload = {
+      reason: reason,
+      comment: document.getElementById('f-comment').value,
+      v: p.get('v') || '',
+      lang: currentLang,
+      days: p.get('days') || '',
+      lic: p.get('lic') || '',
+      browser: detectBrowser(),
+      company: document.getElementById('f-company').value,
+    };
+
+    var btn = document.getElementById('submit-btn');
+    var labelEl = document.getElementById('submit-label');
+    btn.disabled = true;
+    labelEl.innerHTML = '<span class="btn-spinner" aria-hidden="true"></span> ' + t.submitting;
+
+    fetch(ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    }).then(function(res) {
+      return res.json().then(function(j) { return { ok: res.ok, body: j }; })
+        .catch(function() { return { ok: res.ok, body: null }; });
+    }).then(function(r) {
+      if (r.ok && r.body && r.body.ok) {
+        document.getElementById('survey-form').style.display = 'none';
+        document.getElementById('thankyou').classList.add('show');
+      } else {
+        showStatus('error', t.errServer);
+        btn.disabled = false;
+        labelEl.textContent = t.submit;
+      }
+    }).catch(function() {
+      showStatus('error', t.errNetwork);
+      btn.disabled = false;
+      labelEl.textContent = t.submit;
+    });
+  }
+
+  function init() {
+    applyLang(detectLang());
+
+    document.getElementById('lang-sel').addEventListener('change', function(e) {
+      applyLang(e.target.value);
+    });
+
+    var themeBtn = document.getElementById('theme-toggle');
+    themeBtn.addEventListener('click', function() {
+      var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', current);
+      try { localStorage.setItem('gaf-theme', current); } catch (_) {}
+    });
+
+    var reinstall = document.getElementById('ty-reinstall');
+    if (reinstall) reinstall.href = STORE_URL;
+
+    document.getElementById('survey-form').addEventListener('submit', submitForm);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+</body>
+</html>
