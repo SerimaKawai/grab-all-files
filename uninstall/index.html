@@ -171,7 +171,6 @@
   <div class="wrap">
     <div class="hero">
       <h1 id="t-title">Sorry to see you go</h1>
-      <p id="t-subtitle">Before you leave, would you tell us why you uninstalled? It takes a few seconds and helps us improve. Your answer is anonymous.</p>
     </div>
 
     <div class="card">
@@ -232,7 +231,6 @@
   var STRINGS = {
     en: {
       title: 'Sorry to see you go',
-      subtitle: "Before you leave, would you tell us why you uninstalled? It takes a few seconds and helps us improve. Your answer is anonymous.",
       back: 'Back',
       legend: 'Why did you uninstall?',
       r_not_working: "It didn't work / I couldn't get it to work",
@@ -258,7 +256,6 @@
     },
     ja: {
       title: 'ご利用ありがとうございました',
-      subtitle: 'お別れの前に、アンインストールの理由を教えていただけますか？数秒で終わり、今後の改善に役立てます。回答は匿名です。',
       back: '戻る',
       legend: 'アンインストールの理由を教えてください',
       r_not_working: 'うまく動かなかった／使い方がわからなかった',
@@ -284,7 +281,6 @@
     },
     es: {
       title: 'Lamentamos que te vayas',
-      subtitle: 'Antes de irte, ¿nos dirías por qué desinstalaste la extensión? Toma unos segundos y nos ayuda a mejorar. Tu respuesta es anónima.',
       back: 'Atrás',
       legend: '¿Por qué la desinstalaste?',
       r_not_working: 'No funcionó / no logré que funcionara',
@@ -310,7 +306,6 @@
     },
     fr: {
       title: 'Désolé de vous voir partir',
-      subtitle: "Avant de partir, pourriez-vous nous dire pourquoi vous avez désinstallé l'extension ? Cela prend quelques secondes et nous aide à nous améliorer. Votre réponse est anonyme.",
       back: 'Retour',
       legend: 'Pourquoi avez-vous désinstallé ?',
       r_not_working: "Ça n'a pas fonctionné / je n'ai pas réussi à m'en servir",
@@ -336,7 +331,6 @@
     },
     ko: {
       title: '떠나신다니 아쉽습니다',
-      subtitle: '떠나시기 전에, 제거하신 이유를 알려주시겠어요? 몇 초면 되고 개선에 큰 도움이 됩니다. 답변은 익명으로 처리됩니다.',
       back: '뒤로',
       legend: '왜 제거하셨나요?',
       r_not_working: '작동하지 않았어요 / 사용할 수 없었어요',
@@ -362,7 +356,6 @@
     },
     it: {
       title: 'Ci dispiace vederti andare',
-      subtitle: "Prima di andare, ci diresti perché hai disinstallato l'estensione? Richiede pochi secondi e ci aiuta a migliorare. La tua risposta è anonima.",
       back: 'Indietro',
       legend: 'Perché hai disinstallato?',
       r_not_working: 'Non funzionava / non sono riuscito a usarla',
@@ -388,7 +381,6 @@
     },
     zh_CN: {
       title: '很遗憾您要离开',
-      subtitle: '在离开之前，能否告诉我们您卸载的原因？只需几秒钟，有助于我们改进。您的回答是匿名的。',
       back: '返回',
       legend: '您为什么卸载？',
       r_not_working: '无法正常工作／没能用起来',
@@ -414,7 +406,6 @@
     },
     zh_TW: {
       title: '很遺憾您要離開',
-      subtitle: '在離開之前，能否告訴我們您解除安裝的原因？只需幾秒鐘，有助於我們改進。您的回答將以匿名方式處理。',
       back: '返回',
       legend: '您為什麼解除安裝？',
       r_not_working: '無法正常運作／沒能用起來',
@@ -440,7 +431,6 @@
     },
     pt_BR: {
       title: 'Que pena que você está saindo',
-      subtitle: 'Antes de sair, você poderia nos dizer por que desinstalou a extensão? Leva alguns segundos e nos ajuda a melhorar. Sua resposta é anônima.',
       back: 'Voltar',
       legend: 'Por que você desinstalou?',
       r_not_working: 'Não funcionou / não consegui usar',
@@ -466,7 +456,6 @@
     },
     de: {
       title: 'Schade, dass Sie gehen',
-      subtitle: 'Bevor Sie gehen: Würden Sie uns sagen, warum Sie die Erweiterung deinstalliert haben? Es dauert nur ein paar Sekunden und hilft uns, besser zu werden. Ihre Antwort ist anonym.',
       back: 'Zurück',
       legend: 'Warum haben Sie deinstalliert?',
       r_not_working: 'Es hat nicht funktioniert / ich kam nicht damit zurecht',
@@ -535,7 +524,6 @@
     document.documentElement.lang = lang.replace('_', '-');
     document.title = t.docTitle;
     setText('t-title', t.title);
-    setText('t-subtitle', t.subtitle);
     setText('back-label', t.back);
     setText('t-legend', t.legend);
     REASONS.forEach(function(code) { setText('r-' + code, t['r_' + code]); });
