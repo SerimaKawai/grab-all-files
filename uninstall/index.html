@@ -176,6 +176,7 @@
   <div class="wrap">
     <div class="hero">
       <h1 id="t-title">Sorry to see you go</h1>
+      <p id="t-body">Tell us what did not work so we can support more cases.</p>
     </div>
 
     <div class="card">
@@ -261,6 +262,7 @@
   var STRINGS = {
     en: {
       title: 'Sorry to see you go',
+      body: 'Tell us what did not work so we can support more cases.',
       back: 'Back',
       legend: 'Why did you uninstall? (select all that apply)',
       r_not_working: 'Files could not be detected or downloaded',
@@ -290,7 +292,8 @@
       langLabel: 'Language',
     },
     ja: {
-      title: 'ご利用ありがとうございました',
+      title: '期待どおりに見つかりませんでしたか？',
+      body: 'うまくいかなかったサイトや状況を教えていただけると、対応できるケースを増やせます。',
       back: '戻る',
       legend: 'アンインストールの理由を教えてください（複数選択可）',
       r_not_working: 'ファイルが検知・ダウンロードできなった',
@@ -308,7 +311,7 @@
       detailFixNote: '修正が可能な場合は1週間程度でアップデートいたします。',
       commentDetailsHeading: '選択理由の詳細:',
       lComment: 'その他、ご意見があればお書きください（任意）',
-      submit: 'フィードバックを送信',
+      submit: '改善に協力する',
       submitting: '送信中…',
       errReason: '理由を選択してください。',
       errNetwork: '送信できませんでした。通信状況をご確認のうえ、もう一度お試しください。',
@@ -321,6 +324,7 @@
     },
     es: {
       title: 'Lamentamos que te vayas',
+      body: 'Cuéntanos qué sitio o situación no funcionó para que podamos admitir más casos.',
       back: 'Atrás',
       legend: '¿Por qué la desinstalaste? (selecciona todas las opciones que correspondan)',
       r_not_working: 'No pudo detectar ni descargar archivos',
@@ -351,6 +355,7 @@
     },
     fr: {
       title: 'Désolé de vous voir partir',
+      body: 'Indiquez-nous le site ou la situation qui n\'a pas fonctionné afin que nous puissions prendre en charge davantage de cas.',
       back: 'Retour',
       legend: 'Pourquoi avez-vous désinstallé ? (plusieurs choix possibles)',
       r_not_working: 'Les fichiers n\'ont pas pu être détectés ou téléchargés',
@@ -381,6 +386,7 @@
     },
     ko: {
       title: '떠나신다니 아쉽습니다',
+      body: '잘 되지 않았던 사이트나 상황을 알려주시면 지원할 수 있는 사례를 늘릴 수 있습니다.',
       back: '뒤로',
       legend: '왜 제거하셨나요? (복수 선택 가능)',
       r_not_working: '파일을 감지하거나 다운로드할 수 없었어요',
@@ -411,6 +417,7 @@
     },
     it: {
       title: 'Ci dispiace vederti andare',
+      body: 'Dicci quale sito o situazione non ha funzionato, così possiamo supportare più casi.',
       back: 'Indietro',
       legend: 'Perché hai disinstallato? (seleziona tutte le opzioni pertinenti)',
       r_not_working: 'Non riusciva a rilevare o scaricare i file',
@@ -441,6 +448,7 @@
     },
     zh_CN: {
       title: '很遗憾您要离开',
+      body: '请告诉我们哪些网站或情况没有正常工作，以便我们支持更多场景。',
       back: '返回',
       legend: '您为什么卸载？（可多选）',
       r_not_working: '无法检测或下载文件',
@@ -471,6 +479,7 @@
     },
     zh_TW: {
       title: '很遺憾您要離開',
+      body: '請告訴我們哪些網站或情況沒有正常運作，讓我們能支援更多情境。',
       back: '返回',
       legend: '您為什麼解除安裝？（可複選）',
       r_not_working: '無法偵測或下載檔案',
@@ -501,6 +510,7 @@
     },
     pt_BR: {
       title: 'Que pena que você está saindo',
+      body: 'Conte-nos qual site ou situação não funcionou para que possamos oferecer suporte a mais casos.',
       back: 'Voltar',
       legend: 'Por que você desinstalou? (selecione todas as opções aplicáveis)',
       r_not_working: 'Não foi possível detectar ou baixar arquivos',
@@ -531,6 +541,7 @@
     },
     de: {
       title: 'Schade, dass Sie gehen',
+      body: 'Teilen Sie uns mit, welche Website oder Situation nicht funktioniert hat, damit wir mehr Fälle unterstützen können.',
       back: 'Zurück',
       legend: 'Warum haben Sie deinstalliert? (Mehrfachauswahl möglich)',
       r_not_working: 'Dateien konnten nicht erkannt oder heruntergeladen werden',
@@ -608,6 +619,7 @@
     document.documentElement.lang = lang.replace('_', '-');
     document.title = tr(t, 'docTitle');
     setText('t-title', tr(t, 'title'));
+    setText('t-body', tr(t, 'body'));
     setText('back-label', tr(t, 'back'));
     setText('t-legend', tr(t, 'legend'));
     REASONS.forEach(function(code) { setText('r-' + code, tr(t, 'r_' + code)); });
