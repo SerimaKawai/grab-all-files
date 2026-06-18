@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14",
+  "updated": "2026-06-18",
   "canonical_source": {
     "extension_repo": "C:/xampp/htdocs/filescanner",
     "manifest": "C:/xampp/htdocs/filescanner/manifest.json",
@@ -7,7 +7,7 @@
     "descriptions": "C:/xampp/htdocs/filescanner/docs/store-listings/description-<locale>.txt",
     "search_terms": "C:/xampp/htdocs/filescanner/docs/store-listings/search-terms-<locale>.txt"
   },
-  "package_version": "4.5.7",
+  "package_version": "4.5.8",
   "stores": [
     "chrome",
     "edge",
@@ -350,9 +350,9 @@
       "https://*/*",
       "http://*/*"
     ],
-    "chrome_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-chrome-v4.5.7.zip",
-    "edge_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-edge-v4.5.7.zip",
-    "firefox_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-firefox-v4.5.7.zip",
-    "firefox_source_zip_status": "v4.5.7 source ZIP available at C:/xampp/htdocs/filescanner/grab-all-files-source-v4.5.7.zip; verified to reproduce dist/firefox byte-for-byte via npm install + npm run build."
+    "chrome_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-chrome-v4.5.8.zip",
+    "edge_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-edge-v4.5.8.zip",
+    "firefox_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-firefox-v4.5.8.zip",
+    "firefox_source_zip_status": "v4.5.8 source ZIP available at C:/xampp/htdocs/filescanner/grab-all-files-source-v4.5.8.zip; verified to reproduce dist/firefox byte-for-byte via npm install + npm run build."
   }
 }
