@@ -10,9 +10,9 @@ Use this file when updating Chrome Web Store, Microsoft Edge Add-ons, and Firefo
 - Manifest-backed short summary: C:\xampp\htdocs\filescanner\_locales\<locale>\messages.json -> extDescription
 - Long description: C:\xampp\htdocs\filescanner\docs\store-listings\description-<locale>.txt
 - Edge search terms / ASO reference: C:\xampp\htdocs\filescanner\docs\store-listings\search-terms-<locale>.txt
-- Chrome package: C:\xampp\htdocs\filescanner\dist\grab-all-files-chrome-v4.5.10.zip
-- Edge package: C:\xampp\htdocs\filescanner\dist\grab-all-files-edge-v4.5.10.zip
-- Firefox package: C:\xampp\htdocs\filescanner\dist\grab-all-files-firefox-v4.5.10.zip
+- Chrome package: C:\xampp\htdocs\filescanner\dist\grab-all-files-chrome-v4.5.11.zip
+- Edge package: C:\xampp\htdocs\filescanner\dist\grab-all-files-edge-v4.5.11.zip
+- Firefox package: C:\xampp\htdocs\filescanner\dist\grab-all-files-firefox-v4.5.11.zip
 
 Supported listing locales:
 
@@ -413,7 +413,7 @@ Grab All Files 要求廣泛的 HTTP/HTTPS 主機權限，以便使用者可以�
 ## Dashboard Checklist
 
 - Use the matching browser ZIP from C:\xampp\htdocs\filescanner\dist.
-- Confirm the submitted package version is 4.5.10.
+- Confirm the submitted package version is 4.5.11.
 - For Chrome and Edge, remember that title and short summary are package-backed through __MSG_extName__ and __MSG_extDescription__.
 - Manifest host permissions are https://*/* and http://*/*, so permission explanations must mention broad HTTP/HTTPS host access.
 - Paste the matching localized long description for each supported locale.
@@ -422,7 +422,7 @@ Grab All Files 要求廣泛的 HTTP/HTTPS 主機權限，以便使用者可以�
   - https://grab-all-files.app/privacy-policy.html
   - https://grab-all-files.app/security.html
 - **Data-practices / privacy form (new in 4.5.6):** declare the optional, anonymous uninstall survey. On uninstall the extension opens grab-all-files.app/uninstall with non-identifying URL params (extension version, UI language, days installed, license tier); if the user chooses to submit, those plus the selected reason and an optional free-text comment are stored on the Supabase backend. No device ID, e-mail, or IP is collected. Disclose under the applicable "user activity / feedback" data category; it is covered in privacy-policy.html §5c. (The extension build itself still sends no telemetry; the survey is submitted from the website only on user action.)
-- Firefox/AMO may request source code for review. The v4.5.10 source ZIP is available at C:\xampp\htdocs\filescanner\grab-all-files-source-v4.5.10.zip and is verified to reproduce dist/firefox byte-for-byte via npm install + npm run build.
+- Firefox/AMO may request source code for review. The v4.5.11 source ZIP is available at C:\xampp\htdocs\filescanner\grab-all-files-source-v4.5.11.zip and is verified to reproduce dist/firefox byte-for-byte via npm install + npm run build.
 - After publishing, verify the public listing shows the package-backed title/summary, localized description, privacy text, and screenshot order.
 
 ## References
