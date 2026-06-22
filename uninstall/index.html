@@ -184,11 +184,20 @@
         <fieldset class="reasons">
           <legend id="t-legend">Why did you uninstall?</legend>
           <div class="reason-choice">
-            <label class="reason"><input type="checkbox" name="reason" value="not_working"><span id="r-not_working">Files could not be detected or downloaded</span></label>
-            <div class="field reason-detail hidden" id="detail-not_working" data-reason-detail="not_working">
-              <label for="f-detail-not_working" id="l-detail-not_working">URL where detection or download failed (optional)</label>
-              <textarea id="f-detail-not_working" name="detail_not_working" maxlength="2000"></textarea>
-              <p class="reason-note" id="note-detail-not_working">If we can fix it, we will ship an update in about a week.</p>
+            <label class="reason"><input type="checkbox" name="reason" value="not_detected"><span id="r-not_detected">Files could not be detected</span></label>
+            <div class="field reason-detail hidden" id="detail-not_detected" data-reason-detail="not_detected">
+              <label for="f-detail-not_detected" id="l-detail-not_detected">URL where detection failed (optional)</label>
+              <textarea id="f-detail-not_detected" name="detail_not_detected" maxlength="2000"></textarea>
+              <p class="reason-note" id="note-detail-not_detected">If we can fix it, we will ship an update in about a week.</p>
+            </div>
+          </div>
+
+          <div class="reason-choice">
+            <label class="reason"><input type="checkbox" name="reason" value="not_downloaded"><span id="r-not_downloaded">Files were detected but could not be downloaded</span></label>
+            <div class="field reason-detail hidden" id="detail-not_downloaded" data-reason-detail="not_downloaded">
+              <label for="f-detail-not_downloaded" id="l-detail-not_downloaded">URL where the download failed (optional)</label>
+              <textarea id="f-detail-not_downloaded" name="detail_not_downloaded" maxlength="2000"></textarea>
+              <p class="reason-note" id="note-detail-not_downloaded">If we can fix it, we will ship an update in about a week.</p>
             </div>
           </div>
 
@@ -256,8 +265,8 @@
   var ENDPOINT = 'https://umczaaooqinddgnhxbvp.supabase.co/functions/v1/uninstall-feedback';
   var STORE_URL = 'https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf';
 
-  var REASONS = ['not_working','missing_feature','too_complicated','bug','too_expensive','found_alternative','no_longer_needed','privacy','other'];
-  var DETAIL_REASONS = ['not_working','missing_feature','bug'];
+  var REASONS = ['not_detected','not_downloaded','missing_feature','too_complicated','bug','too_expensive','found_alternative','no_longer_needed','privacy','other'];
+  var DETAIL_REASONS = ['not_detected','not_downloaded','missing_feature','bug'];
 
   var STRINGS = {
     en: {
@@ -265,7 +274,8 @@
       body: 'Tell us what did not work so we can support more cases.',
       back: 'Back',
       legend: 'Why did you uninstall? (select all that apply)',
-      r_not_working: 'Files could not be detected or downloaded',
+      r_not_detected: 'Files could not be detected',
+      r_not_downloaded: 'Files were detected but could not be downloaded',
       r_missing_feature: 'It was missing a feature I needed',
       r_too_complicated: 'It was too complicated to use',
       r_bug: 'Too many bugs or errors',
@@ -274,7 +284,8 @@
       r_no_longer_needed: 'I no longer need it',
       r_privacy: 'Privacy or permissions concerns',
       r_other: 'Other',
-      detail_not_working_label: 'URL where detection or download failed (optional)',
+      detail_not_detected_label: 'URL where detection failed (optional)',
+      detail_not_downloaded_label: 'URL where the download failed (optional)',
       detail_missing_feature_label: 'Please describe the feature you wanted (optional)',
       detail_bug_label: 'Please describe the bug or error (optional)',
       detailFixNote: 'If we can fix it, we will ship an update in about a week.',
@@ -296,7 +307,8 @@
       body: 'うまくいかなかったサイトや状況を教えていただけると、対応できるケースを増やせます。',
       back: '戻る',
       legend: 'アンインストールの理由を教えてください（複数選択可）',
-      r_not_working: 'ファイルが検知・ダウンロードできなった',
+      r_not_detected: 'ファイルを検知できなかった',
+      r_not_downloaded: 'ファイルは検知できたが、ダウンロードできなかった',
       r_missing_feature: '必要な機能が足りなかった',
       r_too_complicated: '操作が難しかった',
       r_bug: '不具合やエラーが多かった',
@@ -305,7 +317,8 @@
       r_no_longer_needed: 'もう必要なくなった',
       r_privacy: 'プライバシー・権限が不安だった',
       r_other: 'その他',
-      detail_not_working_label: '検知・ダウンロードできなったURL（アドレス）をご記入ください（任意）',
+      detail_not_detected_label: '検知できなかったURL（アドレス）をご記入ください（任意）',
+      detail_not_downloaded_label: 'ダウンロードできなかったURL（アドレス）をご記入ください（任意）',
       detail_missing_feature_label: '希望する機能をご記入ください（任意）',
       detail_bug_label: '不具合やエラーの内容をご記入ください（任意）',
       detailFixNote: '修正が可能な場合は1週間程度でアップデートいたします。',
@@ -327,7 +340,8 @@
       body: 'Cuéntanos qué sitio o situación no funcionó para que podamos admitir más casos.',
       back: 'Atrás',
       legend: '¿Por qué la desinstalaste? (selecciona todas las opciones que correspondan)',
-      r_not_working: 'No pudo detectar ni descargar archivos',
+      r_not_detected: 'No se pudieron detectar los archivos',
+      r_not_downloaded: 'Se detectaron los archivos, pero no se pudieron descargar',
       r_missing_feature: 'Le faltaba una función que necesitaba',
       r_too_complicated: 'Era demasiado complicada de usar',
       r_bug: 'Demasiados errores o fallos',
@@ -336,7 +350,8 @@
       r_no_longer_needed: 'Ya no la necesito',
       r_privacy: 'Preocupaciones de privacidad o permisos',
       r_other: 'Otro',
-      detail_not_working_label: 'URL donde falló la detección o descarga (opcional)',
+      detail_not_detected_label: 'URL donde falló la detección (opcional)',
+      detail_not_downloaded_label: 'URL donde falló la descarga (opcional)',
       detail_missing_feature_label: 'Describe la función que querías (opcional)',
       detail_bug_label: 'Describe el bug o error (opcional)',
       detailFixNote: 'Si podemos corregirlo, publicaremos una actualización en aproximadamente una semana.',
@@ -358,7 +373,8 @@
       body: 'Indiquez-nous le site ou la situation qui n\'a pas fonctionné afin que nous puissions prendre en charge davantage de cas.',
       back: 'Retour',
       legend: 'Pourquoi avez-vous désinstallé ? (plusieurs choix possibles)',
-      r_not_working: 'Les fichiers n\'ont pas pu être détectés ou téléchargés',
+      r_not_detected: 'Les fichiers n\'ont pas pu être détectés',
+      r_not_downloaded: 'Les fichiers ont été détectés mais n\'ont pas pu être téléchargés',
       r_missing_feature: "Il manquait une fonctionnalité dont j'avais besoin",
       r_too_complicated: 'Trop compliqué à utiliser',
       r_bug: 'Trop de bugs ou d\'erreurs',
@@ -367,7 +383,8 @@
       r_no_longer_needed: "Je n'en ai plus besoin",
       r_privacy: 'Préoccupations de confidentialité ou de permissions',
       r_other: 'Autre',
-      detail_not_working_label: 'URL où la détection ou le téléchargement a échoué (facultatif)',
+      detail_not_detected_label: 'URL où la détection a échoué (facultatif)',
+      detail_not_downloaded_label: 'URL où le téléchargement a échoué (facultatif)',
       detail_missing_feature_label: 'Décrivez la fonctionnalité souhaitée (facultatif)',
       detail_bug_label: 'Décrivez le bug ou l\'erreur (facultatif)',
       detailFixNote: 'Si nous pouvons le corriger, nous publierons une mise à jour sous environ une semaine.',
@@ -389,7 +406,8 @@
       body: '잘 되지 않았던 사이트나 상황을 알려주시면 지원할 수 있는 사례를 늘릴 수 있습니다.',
       back: '뒤로',
       legend: '왜 제거하셨나요? (복수 선택 가능)',
-      r_not_working: '파일을 감지하거나 다운로드할 수 없었어요',
+      r_not_detected: '파일을 감지할 수 없었어요',
+      r_not_downloaded: '파일은 감지됐지만 다운로드할 수 없었어요',
       r_missing_feature: '필요한 기능이 없었어요',
       r_too_complicated: '사용하기 너무 복잡했어요',
       r_bug: '버그나 오류가 너무 많았어요',
@@ -398,7 +416,8 @@
       r_no_longer_needed: '더 이상 필요 없어요',
       r_privacy: '개인정보나 권한이 걱정됐어요',
       r_other: '기타',
-      detail_not_working_label: '감지 또는 다운로드가 되지 않은 URL(주소)을 입력해 주세요 (선택)',
+      detail_not_detected_label: '감지되지 않은 URL(주소)을 입력해 주세요 (선택)',
+      detail_not_downloaded_label: '다운로드되지 않은 URL(주소)을 입력해 주세요 (선택)',
       detail_missing_feature_label: '원하는 기능을 입력해 주세요 (선택)',
       detail_bug_label: '버그나 오류 내용을 입력해 주세요 (선택)',
       detailFixNote: '수정이 가능하면 약 1주일 내에 업데이트하겠습니다.',
@@ -420,7 +439,8 @@
       body: 'Dicci quale sito o situazione non ha funzionato, così possiamo supportare più casi.',
       back: 'Indietro',
       legend: 'Perché hai disinstallato? (seleziona tutte le opzioni pertinenti)',
-      r_not_working: 'Non riusciva a rilevare o scaricare i file',
+      r_not_detected: 'Non riusciva a rilevare i file',
+      r_not_downloaded: 'I file venivano rilevati ma non era possibile scaricarli',
       r_missing_feature: 'Mancava una funzione che mi serviva',
       r_too_complicated: 'Troppo complicata da usare',
       r_bug: 'Troppi bug o errori',
@@ -429,7 +449,8 @@
       r_no_longer_needed: 'Non mi serve più',
       r_privacy: 'Preoccupazioni su privacy o permessi',
       r_other: 'Altro',
-      detail_not_working_label: 'URL in cui il rilevamento o il download non è riuscito (facoltativo)',
+      detail_not_detected_label: 'URL in cui il rilevamento non è riuscito (facoltativo)',
+      detail_not_downloaded_label: 'URL in cui il download non è riuscito (facoltativo)',
       detail_missing_feature_label: 'Descrivi la funzione che desideravi (facoltativo)',
       detail_bug_label: 'Descrivi il bug o l\'errore (facoltativo)',
       detailFixNote: 'Se possiamo correggerlo, pubblicheremo un aggiornamento entro circa una settimana.',
@@ -451,7 +472,8 @@
       body: '请告诉我们哪些网站或情况没有正常工作，以便我们支持更多场景。',
       back: '返回',
       legend: '您为什么卸载？（可多选）',
-      r_not_working: '无法检测或下载文件',
+      r_not_detected: '无法检测到文件',
+      r_not_downloaded: '可以检测到文件，但无法下载',
       r_missing_feature: '缺少我需要的功能',
       r_too_complicated: '使用太复杂',
       r_bug: '错误或故障太多',
@@ -460,7 +482,8 @@
       r_no_longer_needed: '不再需要了',
       r_privacy: '担心隐私或权限',
       r_other: '其他',
-      detail_not_working_label: '请填写无法检测或下载的 URL（地址）（可选）',
+      detail_not_detected_label: '请填写无法检测的 URL（地址）（可选）',
+      detail_not_downloaded_label: '请填写无法下载的 URL（地址）（可选）',
       detail_missing_feature_label: '请填写您希望添加的功能（可选）',
       detail_bug_label: '请填写错误或故障内容（可选）',
       detailFixNote: '如果可以修复，我们会在约 1 周内更新。',
@@ -482,7 +505,8 @@
       body: '請告訴我們哪些網站或情況沒有正常運作，讓我們能支援更多情境。',
       back: '返回',
       legend: '您為什麼解除安裝？（可複選）',
-      r_not_working: '無法偵測或下載檔案',
+      r_not_detected: '無法偵測到檔案',
+      r_not_downloaded: '可以偵測到檔案，但無法下載',
       r_missing_feature: '缺少我需要的功能',
       r_too_complicated: '使用太複雜',
       r_bug: '錯誤或故障太多',
@@ -491,7 +515,8 @@
       r_no_longer_needed: '不再需要了',
       r_privacy: '擔心隱私或權限',
       r_other: '其他',
-      detail_not_working_label: '請填寫無法偵測或下載的 URL（地址）（選填）',
+      detail_not_detected_label: '請填寫無法偵測的 URL（地址）（選填）',
+      detail_not_downloaded_label: '請填寫無法下載的 URL（地址）（選填）',
       detail_missing_feature_label: '請填寫您希望加入的功能（選填）',
       detail_bug_label: '請填寫錯誤或故障內容（選填）',
       detailFixNote: '如果可以修正，我們會在約 1 週內更新。',
@@ -513,7 +538,8 @@
       body: 'Conte-nos qual site ou situação não funcionou para que possamos oferecer suporte a mais casos.',
       back: 'Voltar',
       legend: 'Por que você desinstalou? (selecione todas as opções aplicáveis)',
-      r_not_working: 'Não foi possível detectar ou baixar arquivos',
+      r_not_detected: 'Não foi possível detectar os arquivos',
+      r_not_downloaded: 'Os arquivos foram detectados, mas não foi possível baixá-los',
       r_missing_feature: 'Faltava um recurso de que eu precisava',
       r_too_complicated: 'Era complicada demais de usar',
       r_bug: 'Muitos bugs ou erros',
@@ -522,7 +548,8 @@
       r_no_longer_needed: 'Não preciso mais',
       r_privacy: 'Preocupações com privacidade ou permissões',
       r_other: 'Outro',
-      detail_not_working_label: 'URL em que a detecção ou o download falhou (opcional)',
+      detail_not_detected_label: 'URL em que a detecção falhou (opcional)',
+      detail_not_downloaded_label: 'URL em que o download falhou (opcional)',
       detail_missing_feature_label: 'Descreva o recurso que você queria (opcional)',
       detail_bug_label: 'Descreva o bug ou erro (opcional)',
       detailFixNote: 'Se pudermos corrigir, lançaremos uma atualização em cerca de uma semana.',
