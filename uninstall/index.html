@@ -191,6 +191,7 @@
               <p class="reason-note" id="note-detail-not_detected">If we can fix it, we will ship an update in about a week.</p>
             </div>
           </div>
+          <label class="reason"><input type="checkbox" name="reason" value="non_video_not_detected"><span id="r-non_video_not_detected">Non-video files could not be detected</span></label>
 
           <div class="reason-choice">
             <label class="reason"><input type="checkbox" name="reason" value="not_downloaded"><span id="r-not_downloaded">Files were detected but could not be downloaded</span></label>
@@ -265,7 +266,7 @@
   var ENDPOINT = 'https://umczaaooqinddgnhxbvp.supabase.co/functions/v1/uninstall-feedback';
   var STORE_URL = 'https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf';
 
-  var REASONS = ['not_detected','not_downloaded','missing_feature','too_complicated','bug','too_expensive','found_alternative','no_longer_needed','privacy','other'];
+  var REASONS = ['not_detected','non_video_not_detected','not_downloaded','missing_feature','too_complicated','bug','too_expensive','found_alternative','no_longer_needed','privacy','other'];
   var DETAIL_REASONS = ['not_detected','not_downloaded','missing_feature','bug'];
 
   var STRINGS = {
@@ -274,7 +275,8 @@
       body: 'Tell us what did not work so we can support more cases.',
       back: 'Back',
       legend: 'Why did you uninstall? (select all that apply)',
-      r_not_detected: 'Files could not be detected',
+      r_not_detected: 'Video files could not be detected',
+      r_non_video_not_detected: 'Non-video files could not be detected',
       r_not_downloaded: 'Files were detected but could not be downloaded',
       r_missing_feature: 'It was missing a feature I needed',
       r_too_complicated: 'It was too complicated to use',
@@ -307,7 +309,8 @@
       body: 'うまくいかなかったサイトや状況を教えていただけると、対応できるケースを増やせます。',
       back: '戻る',
       legend: 'アンインストールの理由を教えてください（複数選択可）',
-      r_not_detected: 'ファイルを検知できなかった',
+      r_not_detected: '動画のファイルが探知できなかった',
+      r_non_video_not_detected: '動画以外のファイルが探知できなかった',
       r_not_downloaded: 'ファイルは検知できたが、ダウンロードできなかった',
       r_missing_feature: '必要な機能が足りなかった',
       r_too_complicated: '操作が難しかった',
