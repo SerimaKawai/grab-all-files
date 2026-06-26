@@ -76,6 +76,7 @@
     .reason:hover { background: var(--surface-soft); border-color: var(--border-strong); }
     .reason input { margin-top: 0.18rem; accent-color: var(--primary); width: auto; flex: none; cursor: pointer; }
     .reason:has(input:checked) { border-color: var(--primary); background: var(--accent-soft); color: var(--accent-soft-text); font-weight: 600; }
+    .reason-underline { text-decoration: underline; text-decoration-thickness: 0.08em; text-underline-offset: 0.14em; }
     .reason-choice { display: grid; gap: 0.45rem; }
     .reason-detail { margin-left: 1.9rem; padding-left: 0.75rem; border-left: 2px solid var(--primary); }
     .reason-detail.hidden { display: none; }
@@ -643,6 +644,22 @@
     return t[key] || STRINGS.en[key] || '';
   }
 
+  function setReasonText(lang, t, code) {
+    var el = document.getElementById('r-' + code);
+    if (!el) return;
+    if (lang === 'ja' && code === 'non_video_not_detected') {
+      el.textContent = '';
+      el.appendChild(document.createTextNode('動画'));
+      var underline = document.createElement('span');
+      underline.className = 'reason-underline';
+      underline.textContent = '以外';
+      el.appendChild(underline);
+      el.appendChild(document.createTextNode('のファイルが探知できなかった'));
+      return;
+    }
+    el.textContent = tr(t, 'r_' + code);
+  }
+
   var currentLang = 'en';
 
   function applyLang(lang) {
@@ -654,7 +671,7 @@
     setText('t-body', tr(t, 'body'));
     setText('back-label', tr(t, 'back'));
     setText('t-legend', tr(t, 'legend'));
-    REASONS.forEach(function(code) { setText('r-' + code, tr(t, 'r_' + code)); });
+    REASONS.forEach(function(code) { setReasonText(lang, t, code); });
     DETAIL_REASONS.forEach(function(code) {
       setText('l-detail-' + code, tr(t, 'detail_' + code + '_label'));
       setText('note-detail-' + code, tr(t, 'detailFixNote'));
