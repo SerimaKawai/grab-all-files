@@ -667,17 +667,6 @@
       .store-btn::before { width: 20px; height: 20px; flex-basis: 20px; background-size: 20px 20px; }
     }
 
-    /* ── Edge "under review" pending state ─────────────────────────────────────
-       TEMPORARY: the Edge Add-ons listing was re-created (new CRX ID) and is
-       awaiting Microsoft review, so every Edge store link 404s until it
-       publishes. Flag Edge buttons as under review + stop the dead click.
-       Remove this block AND markEdgePending() in the script when Edge is live. */
-    a.edge-pending { opacity: 0.6; cursor: not-allowed; }
-    a.edge-pending:hover { transform: none; }
-    .store-btn.edge-pending:hover { background: var(--surface); border-color: var(--border-strong); color: var(--text-strong); box-shadow: var(--shadow-soft); }
-    .store-btn.edge-pending:hover::after { transform: none; color: var(--text-faint); }
-    .store-btn.edge-pending::after { content: ""; }
-    .review-badge { display: inline-flex; align-items: center; margin-left: 0.4rem; padding: 0.05rem 0.42rem; font-size: 0.66rem; font-weight: 700; line-height: 1.55; letter-spacing: 0.02em; color: #92590a; background: #fef3c7; border: 1px solid #fcd34d; border-radius: 999px; white-space: nowrap; vertical-align: middle; }
   </style>
 
   <script>
@@ -1701,31 +1690,6 @@
       });
     }
 
-    // Edge Add-ons listing re-created 2026-06-12 → new CRX ID, currently "In review".
-    // Until Microsoft publishes it, every Edge store link 404s, so flag all Edge
-    // buttons as "under review" and stop the dead click. TEMPORARY: delete this
-    // map + markEdgePending() (and the .edge-pending / .review-badge CSS) once Edge is live.
-    var EDGE_REVIEW_BADGE = {
-      en: "Under review", ja: "審査中", es: "En revisión", fr: "En cours d'examen",
-      de: "In Prüfung", it: "In revisione", ko: "심사 중", pt_BR: "Em análise",
-      zh_CN: "审核中", zh_TW: "審核中"
-    };
-    function markEdgePending(lang) {
-      var txt = EDGE_REVIEW_BADGE[lang] || EDGE_REVIEW_BADGE.en;
-      document.querySelectorAll('a[href*="microsoftedge.microsoft.com"]').forEach(function(a) {
-        a.classList.add('edge-pending');
-        a.setAttribute('aria-disabled', 'true');
-        a.setAttribute('title', txt);
-        if (!a.dataset.edgePendingBound) {
-          a.addEventListener('click', function(e) { e.preventDefault(); e.stopPropagation(); });
-          a.dataset.edgePendingBound = '1';
-        }
-        var b = a.querySelector('.review-badge');
-        if (!b) { b = document.createElement('span'); b.className = 'review-badge'; a.appendChild(b); }
-        b.textContent = txt;
-      });
-    }
-
     function scrollToInstallOptions() {
       var target = document.querySelector('section.hero [data-lang].active .hero-stores') || document.querySelector('section.hero .hero-stores') || document.getElementById('install');
       if (target && target.scrollIntoView) {
@@ -1790,7 +1754,6 @@
         sel.setAttribute('aria-label', LANGUAGE_LABELS[l] || LANGUAGE_LABELS.en);
       }
       updateInstallCtas(l);
-      markEdgePending(l);
     }
     var langSel = document.getElementById('lang-sel');
     if (langSel) langSel.addEventListener('change', function(e) { setLang(e.target.value); });
