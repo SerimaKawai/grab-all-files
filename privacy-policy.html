@@ -162,7 +162,7 @@
         <li><strong>network file records</strong> (URLs and metadata of files detected via network monitoring) stored temporarily in session storage during your browsing session.</li>
       </ul>
       <p>We do not send your scan history, page HTML, file contents, or browsing activity to our servers.</p>
-      <p><strong>Trial and paid license:</strong> The Extension includes a 14-day free trial. After the trial expires, continued use requires a paid license key. Trial eligibility, license activation, license refresh, device-limit enforcement, and revocation checks are handled by the license backend using a random device UUID and, when applicable, the license key.</p>
+      <p><strong>Free plan and paid license:</strong> The Extension is free to use. Every feature is included and scanning, detection, listing, and preview are unlimited; the only limit is that a single download saves up to 20 files at once (you can repeat the download to save the rest, still free). An optional one-time paid license removes the per-download limit so you can save everything at once, and covers up to 3 devices. There is no trial. License activation, license refresh, device-limit enforcement, and revocation checks are handled by the license backend using a random device UUID and, when applicable, the license key.</p>
       <p><strong>Access to websites:</strong> The Extension requests access to <code>https://*/*</code> because users can choose to scan any website and the target domain is not known in advance. This access is used to detect downloadable links and file responses on pages or URLs you choose to scan, and to download files you select. It is not used to send page HTML, browsing activity, or file contents to our servers.</p>
 
       <h2>2. Network Requests</h2>
@@ -171,7 +171,6 @@
         <li><strong>License verification</strong> &mdash; When a license key is entered or revalidated, the Extension sends the license key and a randomly generated device identifier (UUID) to our server to verify the license and enforce device limits.</li>
         <li><strong>License token (JWT) issuance and refresh</strong> &mdash; After a successful verification, our server returns a short-lived signed access token (ES256 JWT, 7-day TTL) that contains the license key, device identifier, granted features, and expiry. The Extension caches this token locally so most subsequent license checks happen offline. The token is refreshed by sending the same license key and device identifier to our server, typically once a day.</li>
         <li><strong>Revocation list refresh</strong> &mdash; Once a day, the Extension downloads a small signed list of revoked token identifiers (no license keys) so revocations take effect within 24 hours, even offline. This request sends no user-identifying data.</li>
-        <li><strong>Trial verification</strong> &mdash; During the free trial period, the Extension sends the device identifier (UUID) to our server to verify trial eligibility.</li>
         <li><strong>Device management</strong> &mdash; When you view or remove activated devices on the license screen, the Extension sends the license key, your current device identifier, and, if you remove a device, the target device identifier to our server.</li>
         <li><strong>User-requested page and file access</strong> &mdash; When you scan a page, enter a URL, fetch file metadata, download files, or merge PDFs, the Extension connects directly to the target website you selected. These requests do not pass through our servers.</li>
       </ul>
@@ -182,11 +181,11 @@
       <table>
         <tr><th>Data</th><th>Storage</th><th>Purpose</th></tr>
         <tr><td>License key</td><td>Local</td><td>Keep the Extension activated after license verification.</td></tr>
-        <tr><td>Device ID (random UUID)</td><td>Local</td><td>Identify this installation for license limits and trial checks.</td></tr>
-        <tr><td>Install date</td><td>Local</td><td>Manage the 14-day free trial period.</td></tr>
-        <tr><td>Last verified / last trial-checked timestamps</td><td>Local</td><td>Allow a limited offline grace period after a successful license check and avoid redundant server calls.</td></tr>
+        <tr><td>Device ID (random UUID)</td><td>Local</td><td>Identify this installation for license limits.</td></tr>
+        <tr><td>Install date</td><td>Local</td><td>Show days-since-install in the optional uninstall survey.</td></tr>
+        <tr><td>Last verified timestamp</td><td>Local</td><td>Allow a limited offline grace period after a successful license check and avoid redundant server calls.</td></tr>
         <tr><td>License JWT and revocation cache (signed access token, expiry, token ID, granted features, list of revoked token IDs)</td><td>Local</td><td>Verify license offline using a server-issued signed token, and block tokens that have been revoked.</td></tr>
-        <tr><td>Trial-expired flag and license error/status returned by server</td><td>Local</td><td>Preserve the result of trial expiry and failed server-side license checks across browser restarts.</td></tr>
+        <tr><td>License error/status returned by server</td><td>Local</td><td>Preserve the result of failed server-side license checks across browser restarts.</td></tr>
         <tr><td>Recent scan history (URLs, titles/hostnames, timestamps)</td><td>Local</td><td>Show recently scanned pages and entered URLs for quick access.</td></tr>
         <tr><td>Last source tab ID</td><td>Local</td><td>Reconnect the popup to the tab you were scanning.</td></tr>
         <tr><td>Window size</td><td>Local</td><td>Remember the popup window dimensions.</td></tr>
@@ -206,7 +205,7 @@
         <tr><td><code>alarms</code></td><td>Refresh license and revocation status on a periodic schedule.</td></tr>
         <tr><td><code>notifications</code></td><td>Show download completion and license status notifications.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Add right-click actions for scanning and downloading files from pages, links, images, and selections.</td></tr>
-        <tr><td>Required host permission:<br><code>https://*/*</code></td><td>Let you scan any website you choose and connect to the license / trial verification backend at <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>. The target scan domain is not known before you choose a page or enter a URL, so broad HTTPS host access is required. The permission is used to detect downloadable links, in-page fetch/XHR file responses, file metadata, selected file downloads on the chosen site, and license/trial checks. Scan history, page HTML, browsing activity, and file contents are not sent to our servers.</td></tr>
+        <tr><td>Required host permission:<br><code>https://*/*</code></td><td>Let you scan any website you choose and connect to the license verification backend at <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>. The target scan domain is not known before you choose a page or enter a URL, so broad HTTPS host access is required. The permission is used to detect downloadable links, in-page fetch/XHR file responses, file metadata, selected file downloads on the chosen site, and license checks. Scan history, page HTML, browsing activity, and file contents are not sent to our servers.</td></tr>
       </table>
 
       <h2>5. Use of Browsing-Related Data</h2>
@@ -235,23 +234,23 @@
       </ul>
 
       <h2>5c. Uninstall Survey (grab-all-files.app)</h2>
-      <p>When you remove the Extension, your browser opens a short, optional feedback page at <code>grab-all-files.app/uninstall</code>. Its address carries a few non-identifying details so we can group responses: the Extension version, your interface language, the number of days since installation, and your license tier (trial or paid). This page is part of the website and is separate from the Extension build described in &sect;5a.</p>
+      <p>When you remove the Extension, your browser opens a short, optional feedback page at <code>grab-all-files.app/uninstall</code>. Its address carries a few non-identifying details so we can group responses: the Extension version, your interface language, the number of days since installation, and your plan (free or paid). This page is part of the website and is separate from the Extension build described in &sect;5a.</p>
       <p>If &mdash; and only if &mdash; you choose to submit the survey, the reason you select, any free-text comment you write, and the details above are sent to our Supabase backend (see &sect;7) and stored to help us improve the Extension. The survey is <strong>anonymous</strong>: it contains <strong>no device ID, e-mail address, IP address, or account identifier</strong>. Submitting is entirely voluntary &mdash; you may simply close the page. Please do not include personal information in the free-text comment.</p>
 
       <h2>6. Legal Basis for Processing (GDPR Article 6)</h2>
       <p>For users in the EU/EEA, we rely on the following legal bases where applicable:</p>
       <ul>
-        <li><strong>Contract performance</strong> (Article 6(1)(b)) &mdash; License verification, trial eligibility checks, and device limit enforcement for paid licenses.</li>
+        <li><strong>Contract performance</strong> (Article 6(1)(b)) &mdash; License verification and device limit enforcement for paid licenses.</li>
         <li><strong>Legitimate interest</strong> (Article 6(1)(f)) &mdash; Storing local preferences and recent scan history needed to provide the Extension's core functionality on your device.</li>
       </ul>
 
       <h2>7. Third-Party Services and International Transfers</h2>
-      <p>The Extension communicates with a license backend hosted on <strong>Supabase</strong>. Supabase acts as our infrastructure provider for license verification, trial verification, and device management. We do not sell or disclose Extension user data to unrelated third parties.</p>
+      <p>The Extension communicates with a license backend hosted on <strong>Supabase</strong>. Supabase acts as our infrastructure provider for license verification and device management. We do not sell or disclose Extension user data to unrelated third parties.</p>
       <p>Supabase infrastructure is hosted on Amazon Web Services (AWS). Data sent to our backend may be processed outside the EU/EEA. Supabase states that it relies on <strong>Standard Contractual Clauses (SCCs)</strong> for international transfers. See <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase's Privacy Policy</a> for more details.</p>
 
       <h2>8. Data Retention and Deletion</h2>
       <ul>
-        <li>License, device, and trial-related records on our backend are retained for as long as needed to operate the license/trial system, generally for the duration of your license unless you request deletion.</li>
+        <li>License and device records on our backend are retained for as long as needed to operate the license system, generally for the duration of your license unless you request deletion.</li>
         <li>We will process deletion requests for backend records within <strong>30 days</strong>.</li>
         <li>Recent scan history is limited to the most recent 20 entries stored locally.</li>
         <li>Session storage is cleared when the browser session ends.</li>
@@ -317,7 +316,7 @@
         <li><strong>ネットワークファイル記録</strong>（ネットワーク監視で検出されたファイルのURLとメタデータ）のセッション中の一時保存</li>
       </ul>
       <p>スキャン履歴、ページHTML、ファイル内容、閲覧行動を当社サーバーへ送信することはありません。</p>
-      <p><strong>トライアルと有料ライセンス：</strong>本拡張機能には14日間の無料トライアルがあります。トライアル終了後も継続利用するには、有料ライセンスキーが必要です。トライアル資格確認、ライセンス有効化、ライセンス更新、デバイス台数制限、失効確認は、ランダムなデバイスUUIDと、該当する場合はライセンスキーを使用して、ライセンスバックエンドで処理されます。</p>
+      <p><strong>無料プランと有料ライセンス：</strong>本拡張機能は無料で利用できます。すべての機能が含まれ、スキャン、検出、一覧表示、プレビューは無制限です。唯一の制限は、1回のダウンロードで一度に保存できるファイルが最大20件までという点です（残りはダウンロードを繰り返せば無料で保存できます）。任意の買い切りライセンスを購入すると、この1回あたりの制限が解除され、一度にすべて保存できるようになり、最大3台の端末で利用できます。トライアルはありません。ライセンス有効化、ライセンス更新、デバイス台数制限、失効確認は、ランダムなデバイスUUIDと、該当する場合はライセンスキーを使用して、ライセンスバックエンドで処理されます。</p>
       <p><strong>Webサイトへのアクセス：</strong>本拡張機能は、ユーザーが任意のWebサイトをスキャン対象として選択でき、対象ドメインを事前に特定できないため、<code>https://*/*</code> へのアクセス権限を要求します。この権限は、ユーザーが選択したページまたはURL上のダウンロード可能リンクやファイルレスポンスを検出し、ユーザーが選択したファイルをダウンロードするために使用されます。ページHTML、閲覧行動、ファイル内容を当社サーバーへ送信するためには使用しません。</p>
 
       <h2>2. ネットワークリクエスト</h2>
@@ -326,7 +325,6 @@
         <li><strong>ライセンス認証</strong> &mdash; ライセンスキーの入力時または再検証時に、ライセンスキーとランダム生成されたデバイス識別子（UUID）を当社サーバーへ送信し、ライセンスの有効性とデバイス数制限を確認します。</li>
         <li><strong>ライセンストークン（JWT）の発行と更新</strong> &mdash; 認証成功後、当社サーバーは短期有効な署名付きアクセストークン（ES256 JWT、有効期間7日）を返します。このトークンにはライセンスキー、デバイス識別子、付与された機能、有効期限が含まれます。本拡張機能はこのトークンを端末内にキャッシュし、その後のライセンス確認の大半をオフラインで処理します。トークンは通常1日1回、同じライセンスキーとデバイス識別子を当社サーバーへ送信して更新されます。</li>
         <li><strong>失効リストの更新</strong> &mdash; 1日1回、失効済みトークンID（ライセンスキーは含みません）の小さな署名付きリストをダウンロードし、オフラインでも24時間以内に失効を反映できるようにします。このリクエストにはユーザー識別情報を一切送信しません。</li>
-        <li><strong>トライアル認証</strong> &mdash; 無料トライアル期間中に、デバイス識別子（UUID）を当社サーバーへ送信し、トライアル利用資格を確認します。</li>
         <li><strong>デバイス管理</strong> &mdash; ライセンス画面で有効化済みデバイスを表示または削除する際に、ライセンスキー、現在のデバイス識別子、および削除時には対象デバイス識別子を当社サーバーへ送信します。</li>
         <li><strong>ユーザーが指定したWebサイトへのアクセス</strong> &mdash; ページのスキャン、URL入力、ファイルメタデータ取得、ファイルダウンロード、PDF結合時に、本拡張機能はユーザーが選択した対象Webサイトへ直接接続します。これらのリクエストは当社サーバーを経由しません。</li>
       </ul>
@@ -337,11 +335,11 @@
       <table>
         <tr><th>データ</th><th>保存先</th><th>目的</th></tr>
         <tr><td>ライセンスキー</td><td>Local</td><td>ライセンス認証後も有効化状態を維持するため。</td></tr>
-        <tr><td>デバイスID（ランダムUUID）</td><td>Local</td><td>ライセンス台数制限とトライアル確認のためにこの端末を識別するため。</td></tr>
-        <tr><td>インストール日</td><td>Local</td><td>14日間の無料トライアル期間を管理するため。</td></tr>
-        <tr><td>最終認証 / 最終トライアル確認タイムスタンプ</td><td>Local</td><td>直近の認証成功後に限定的なオフライン猶予を与え、不要なサーバー通信を避けるため。</td></tr>
+        <tr><td>デバイスID（ランダムUUID）</td><td>Local</td><td>ライセンス台数制限のためにこの端末を識別するため。</td></tr>
+        <tr><td>インストール日</td><td>Local</td><td>任意のアンインストールアンケートでインストールからの経過日数を表示するため。</td></tr>
+        <tr><td>最終認証タイムスタンプ</td><td>Local</td><td>直近の認証成功後に限定的なオフライン猶予を与え、不要なサーバー通信を避けるため。</td></tr>
         <tr><td>ライセンスJWTおよび失効リストキャッシュ（署名付きアクセストークン、有効期限、トークンID、付与機能、失効済みトークンIDリスト）</td><td>Local</td><td>サーバーが発行した署名付きトークンでオフラインでもライセンスを検証し、失効したトークンを拒否するため。</td></tr>
-        <tr><td>トライアル期限切れフラグ、サーバーから返されたライセンスエラー/状態</td><td>Local</td><td>トライアル期限切れや失敗した検証結果をブラウザ再起動後も保持するため。</td></tr>
+        <tr><td>サーバーから返されたライセンスエラー/状態</td><td>Local</td><td>失敗したサーバー側ライセンス検証の結果をブラウザ再起動後も保持するため。</td></tr>
         <tr><td>最近のスキャン履歴（URL、タイトル/ホスト名、時刻）</td><td>Local</td><td>最近スキャンしたページや入力URLを再表示するため。</td></tr>
         <tr><td>直前に使用したソースタブID</td><td>Local</td><td>ポップアップをスキャン対象タブへ再接続するため。</td></tr>
         <tr><td>ウィンドウサイズ</td><td>Local</td><td>ポップアップウィンドウのサイズを記憶するため。</td></tr>
@@ -361,7 +359,7 @@
         <tr><td><code>alarms</code></td><td>ライセンスおよび失効リストを定期的に更新するため。</td></tr>
         <tr><td><code>notifications</code></td><td>ダウンロード完了およびライセンス状態の通知を表示するため。</td></tr>
         <tr><td><code>contextMenus</code></td><td>ページ・リンク・画像・選択範囲からスキャンやダウンロードを行うための右クリックメニューを追加するため。</td></tr>
-        <tr><td>必須ホスト権限:<br><code>https://*/*</code></td><td>ユーザーが選択した任意のWebサイトをスキャンし、<code>https://umczaaooqinddgnhxbvp.supabase.co/*</code> のライセンス認証・トライアル認証バックエンドへ接続するため。対象ドメインは、ユーザーがページを選択またはURLを入力するまで事前に特定できないため、広いHTTPSホスト権限が必要です。この権限は、選択されたサイト上のダウンロード可能リンク、ページ内 fetch/XHR ファイルレスポンス、ファイルメタデータ、選択ファイルのダウンロード、ライセンス/トライアル確認に使用されます。スキャン履歴、ページHTML、閲覧行動、ファイル内容を当社サーバーへ送信することはありません。</td></tr>
+        <tr><td>必須ホスト権限:<br><code>https://*/*</code></td><td>ユーザーが選択した任意のWebサイトをスキャンし、<code>https://umczaaooqinddgnhxbvp.supabase.co/*</code> のライセンス認証バックエンドへ接続するため。対象ドメインは、ユーザーがページを選択またはURLを入力するまで事前に特定できないため、広いHTTPSホスト権限が必要です。この権限は、選択されたサイト上のダウンロード可能リンク、ページ内 fetch/XHR ファイルレスポンス、ファイルメタデータ、選択ファイルのダウンロード、ライセンス確認に使用されます。スキャン履歴、ページHTML、閲覧行動、ファイル内容を当社サーバーへ送信することはありません。</td></tr>
       </table>
 
       <h2>5. 閲覧関連データの利用方法</h2>
@@ -390,7 +388,7 @@
       </ul>
 
       <h2>5c. アンインストールアンケート（grab-all-files.app）</h2>
-      <p>本拡張機能を削除すると、ブラウザは <code>grab-all-files.app/uninstall</code> にある短い任意のフィードバックページを開きます。そのアドレスには、回答をグループ分けできるよう、識別につながらないいくつかの情報が含まれます。すなわち、本拡張機能のバージョン、お使いのインターフェース言語、インストールからの経過日数、およびライセンス区分（トライアルまたは有料）です。このページはウェブサイトの一部であり、第5a条で説明する本拡張機能のビルドとは別のものです。</p>
+      <p>本拡張機能を削除すると、ブラウザは <code>grab-all-files.app/uninstall</code> にある短い任意のフィードバックページを開きます。そのアドレスには、回答をグループ分けできるよう、識別につながらないいくつかの情報が含まれます。すなわち、本拡張機能のバージョン、お使いのインターフェース言語、インストールからの経過日数、およびプラン（無料または有料）です。このページはウェブサイトの一部であり、第5a条で説明する本拡張機能のビルドとは別のものです。</p>
       <p>アンケートを送信することを選択した場合 &mdash; かつその場合に限り &mdash; 選択した理由、入力した自由記述コメント、および上記の情報が、当社の Supabase バックエンド（第7条参照）へ送信され、本拡張機能の改善のために保存されます。このアンケートは<strong>匿名</strong>であり、<strong>デバイスID、メールアドレス、IPアドレス、アカウント識別子は一切含まれません</strong>。送信は完全に任意です &mdash; ページをそのまま閉じていただいて構いません。自由記述コメントには個人情報を含めないでください。</p>
 
       <h2>6. 処理の法的根拠（GDPR 第6条）</h2>
