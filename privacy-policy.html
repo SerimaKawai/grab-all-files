@@ -394,17 +394,17 @@
       <h2>6. 処理の法的根拠（GDPR 第6条）</h2>
       <p>EU/EEA内のユーザーについて、該当する場合は以下の法的根拠に基づいて処理を行います：</p>
       <ul>
-        <li><strong>契約の履行</strong>（第6条1項(b)） &mdash; 有料ライセンスの認証、トライアル資格確認、デバイス台数制限の実施。</li>
+        <li><strong>契約の履行</strong>（第6条1項(b)） &mdash; 有料ライセンスの認証、デバイス台数制限の実施。</li>
         <li><strong>正当な利益</strong>（第6条1項(f)） &mdash; 端末上で拡張機能の基本機能を提供するために必要なローカル設定および最近のスキャン履歴の保存。</li>
       </ul>
 
       <h2>7. サードパーティサービスと国際データ移転</h2>
-      <p>本拡張機能は、ライセンス認証、トライアル認証、デバイス管理のために <strong>Supabase</strong> 上のバックエンドを利用します。Supabase は当社のインフラ提供者です。当社は、本拡張機能のユーザーデータを無関係な第三者へ販売または開示しません。</p>
+      <p>本拡張機能は、ライセンス認証、デバイス管理のために <strong>Supabase</strong> 上のバックエンドを利用します。Supabase は当社のインフラ提供者です。当社は、本拡張機能のユーザーデータを無関係な第三者へ販売または開示しません。</p>
       <p>Supabase のインフラは Amazon Web Services（AWS）上で運用されています。当社バックエンドへ送信されるデータは、EU/EEA外で処理される場合があります。Supabase は国際データ移転について <strong>標準契約条項（SCC）</strong> に依拠すると説明しています。詳細は <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase のプライバシーポリシー</a> をご確認ください。</p>
 
       <h2>8. 保持期間と削除</h2>
       <ul>
-        <li>ライセンス、デバイス、トライアル関連のバックエンド記録は、ライセンス/トライアル制度の運用に必要な期間、通常はライセンス有効期間中保持されます。削除請求があれば対応します。</li>
+        <li>ライセンス、デバイス関連のバックエンド記録は、ライセンス制度の運用に必要な期間、通常はライセンス有効期間中保持されます。削除請求があれば対応します。</li>
         <li>バックエンド記録の削除請求には <strong>30日以内</strong> に対応します。</li>
         <li>最近のスキャン履歴はローカルに最大20件まで保存されます。</li>
         <li>Session ストレージはブラウザセッション終了時に消去されます。</li>
@@ -471,7 +471,7 @@
         <li><strong>Netzwerkdateieinträge</strong> (URLs und Metadaten der über Netzwerküberwachung erkannten Dateien), die während Ihrer Browsersitzung temporär im Sitzungsspeicher abgelegt werden.</li>
       </ul>
       <p>Wir senden weder Ihren Scan-Verlauf, noch Seiten-HTML, Dateiinhalte oder Surfaktivitäten an unsere Server.</p>
-      <p><strong>Testversion und kostenpflichtige Lizenz:</strong> Die Erweiterung enthält eine 14-tägige kostenlose Testversion. Nach Ablauf der Testversion erfordert die weitere Nutzung einen kostenpflichtigen Lizenzschlüssel. Berechtigung zur Testversion, Lizenzaktivierung, Lizenzaktualisierung, Durchsetzung der Gerätelimitierung und Widerrufsprüfungen werden vom Lizenz-Backend unter Verwendung einer zufälligen Geräte-UUID und, sofern zutreffend, des Lizenzschlüssels abgewickelt.</p>
+      <p><strong>Kostenloser Plan und kostenpflichtige Lizenz:</strong> Die Erweiterung ist kostenlos nutzbar. Alle Funktionen sind enthalten, und Scannen, Erkennung, Auflistung und Vorschau sind unbegrenzt; die einzige Einschränkung besteht darin, dass ein einzelner Download bis zu 20 Dateien auf einmal speichert (Sie können den Download wiederholen, um die restlichen Dateien zu speichern, weiterhin kostenlos). Eine optionale einmalige kostenpflichtige Lizenz hebt das Limit pro Download auf, sodass Sie alles auf einmal speichern können, und deckt bis zu 3 Geräte ab. Es gibt keine Testversion. Lizenzaktivierung, Lizenzaktualisierung, Durchsetzung der Gerätelimitierung und Widerrufsprüfungen werden vom Lizenz-Backend unter Verwendung einer zufälligen Geräte-UUID und, sofern zutreffend, des Lizenzschlüssels abgewickelt.</p>
       <p><strong>Zugriff auf Websites:</strong> Die Erweiterung benötigt Zugriff auf <code>https://*/*</code>, da Nutzer beliebige Websites zum Scannen auswählen können und die Zieldomain im Voraus nicht bekannt ist. Dieser Zugriff wird verwendet, um herunterladbare Links und Dateiantworten auf den von Ihnen zum Scannen ausgewählten Seiten oder URLs zu erkennen und um die von Ihnen ausgewählten Dateien herunterzuladen. Er wird nicht verwendet, um Seiten-HTML, Surfaktivitäten oder Dateiinhalte an unsere Server zu senden.</p>
 
       <h2>2. Netzwerkanfragen</h2>
@@ -480,7 +480,6 @@
         <li><strong>Lizenzverifizierung</strong> &mdash; Bei der Eingabe oder erneuten Validierung eines Lizenzschlüssels sendet die Erweiterung den Lizenzschlüssel und einen zufällig generierten Geräte-Identifikator (UUID) an unseren Server, um die Lizenz zu verifizieren und Gerätelimits durchzusetzen.</li>
         <li><strong>Ausstellung und Erneuerung des Lizenz-Tokens (JWT)</strong> &mdash; Nach erfolgreicher Verifizierung gibt unser Server einen kurzlebigen signierten Zugriffstoken zurück (ES256 JWT, Gültigkeit 7 Tage), der den Lizenzschlüssel, den Geräte-Identifikator, die gewährten Funktionen und das Ablaufdatum enthält. Die Erweiterung speichert diesen Token lokal zwischen, sodass die meisten nachfolgenden Lizenzprüfungen offline erfolgen. Der Token wird üblicherweise einmal pro Tag erneuert, indem derselbe Lizenzschlüssel und Geräte-Identifikator an unseren Server gesendet wird.</li>
         <li><strong>Aktualisierung der Widerrufsliste</strong> &mdash; Einmal pro Tag lädt die Erweiterung eine kleine, signierte Liste widerrufener Token-Identifikatoren herunter (keine Lizenzschlüssel), damit Widerrufe auch offline innerhalb von 24 Stunden wirksam werden. Diese Anfrage übermittelt keine den Nutzer identifizierenden Daten.</li>
-        <li><strong>Verifizierung der Testversion</strong> &mdash; Während der kostenlosen Testphase sendet die Erweiterung den Geräte-Identifikator (UUID) an unseren Server, um die Berechtigung zur Testversion zu verifizieren.</li>
         <li><strong>Geräteverwaltung</strong> &mdash; Wenn Sie auf dem Lizenzbildschirm aktivierte Geräte einsehen oder entfernen, sendet die Erweiterung den Lizenzschlüssel, Ihren aktuellen Geräte-Identifikator und, falls Sie ein Gerät entfernen, den Geräte-Identifikator des Zielgeräts an unseren Server.</li>
         <li><strong>Vom Nutzer angeforderter Seiten- und Dateizugriff</strong> &mdash; Wenn Sie eine Seite scannen, eine URL eingeben, Dateimetadaten abrufen, Dateien herunterladen oder PDFs zusammenführen, verbindet sich die Erweiterung direkt mit der von Ihnen ausgewählten Zielwebsite. Diese Anfragen laufen nicht über unsere Server.</li>
       </ul>
@@ -491,11 +490,11 @@
       <table>
         <tr><th>Daten</th><th>Speicher</th><th>Zweck</th></tr>
         <tr><td>Lizenzschlüssel</td><td>Local</td><td>Erweiterung nach der Lizenzverifizierung aktiviert halten.</td></tr>
-        <tr><td>Geräte-ID (zufällige UUID)</td><td>Local</td><td>Diese Installation für Lizenzlimits und Testprüfungen identifizieren.</td></tr>
-        <tr><td>Installationsdatum</td><td>Local</td><td>Verwaltung der 14-tägigen kostenlosen Testphase.</td></tr>
-        <tr><td>Zeitstempel der letzten Verifizierung / letzten Testprüfung</td><td>Local</td><td>Eine begrenzte Offline-Karenzzeit nach erfolgreicher Lizenzprüfung ermöglichen und überflüssige Serveraufrufe vermeiden.</td></tr>
+        <tr><td>Geräte-ID (zufällige UUID)</td><td>Local</td><td>Diese Installation für Lizenzlimits identifizieren.</td></tr>
+        <tr><td>Installationsdatum</td><td>Local</td><td>Die Anzahl der Tage seit der Installation in der optionalen Deinstallations-Umfrage anzeigen.</td></tr>
+        <tr><td>Zeitstempel der letzten Verifizierung</td><td>Local</td><td>Eine begrenzte Offline-Karenzzeit nach erfolgreicher Lizenzprüfung ermöglichen und überflüssige Serveraufrufe vermeiden.</td></tr>
         <tr><td>Lizenz-JWT und Widerrufs-Cache (signierter Zugriffstoken, Ablaufdatum, Token-ID, gewährte Funktionen, Liste widerrufener Token-IDs)</td><td>Local</td><td>Lizenz offline mittels eines vom Server ausgestellten signierten Tokens prüfen und widerrufene Token blockieren.</td></tr>
-        <tr><td>Flag für abgelaufene Testversion und vom Server zurückgegebener Lizenzfehler/-status</td><td>Local</td><td>Das Ergebnis des Testablaufs und fehlgeschlagener serverseitiger Lizenzprüfungen über Browser-Neustarts hinweg erhalten.</td></tr>
+        <tr><td>Vom Server zurückgegebener Lizenzfehler/-status</td><td>Local</td><td>Das Ergebnis fehlgeschlagener serverseitiger Lizenzprüfungen über Browser-Neustarts hinweg erhalten.</td></tr>
         <tr><td>Letzte Scan-Historie (URLs, Titel/Hostnamen, Zeitstempel)</td><td>Local</td><td>Kürzlich gescannte Seiten und eingegebene URLs für schnellen Zugriff anzeigen.</td></tr>
         <tr><td>ID des letzten Quell-Tabs</td><td>Local</td><td>Das Popup mit dem zuletzt gescannten Tab erneut verbinden.</td></tr>
         <tr><td>Fenstergröße</td><td>Local</td><td>Die Abmessungen des Popup-Fensters merken.</td></tr>
@@ -515,7 +514,7 @@
         <tr><td><code>alarms</code></td><td>Lizenz- und Widerrufsstatus regelmäßig aktualisieren.</td></tr>
         <tr><td><code>notifications</code></td><td>Benachrichtigungen über abgeschlossene Downloads und Lizenzstatus anzeigen.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Rechtsklick-Aktionen zum Scannen und Herunterladen von Dateien aus Seiten, Links, Bildern und Auswahlen hinzufügen.</td></tr>
-        <tr><td>Erforderliche Host-Berechtigung:<br><code>https://*/*</code></td><td>Ihnen das Scannen jeder beliebigen Website Ihrer Wahl ermöglichen und die Verbindung zum Backend für Lizenz-/Testverifizierung unter <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code> herstellen. Die Zieldomain für den Scan ist nicht bekannt, bevor Sie eine Seite auswählen oder eine URL eingeben, daher ist ein breiter HTTPS-Hostzugriff erforderlich. Die Berechtigung wird genutzt, um herunterladbare Links, Fetch/XHR-Dateiantworten innerhalb der Seite, Dateimetadaten, Downloads ausgewählter Dateien auf der gewählten Website sowie Lizenz-/Testprüfungen durchzuführen. Scan-Verlauf, Seiten-HTML, Surfaktivitäten und Dateiinhalte werden nicht an unsere Server gesendet.</td></tr>
+        <tr><td>Erforderliche Host-Berechtigung:<br><code>https://*/*</code></td><td>Ihnen das Scannen jeder beliebigen Website Ihrer Wahl ermöglichen und die Verbindung zum Backend für Lizenzverifizierung unter <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code> herstellen. Die Zieldomain für den Scan ist nicht bekannt, bevor Sie eine Seite auswählen oder eine URL eingeben, daher ist ein breiter HTTPS-Hostzugriff erforderlich. Die Berechtigung wird genutzt, um herunterladbare Links, Fetch/XHR-Dateiantworten innerhalb der Seite, Dateimetadaten, Downloads ausgewählter Dateien auf der gewählten Website sowie Lizenzprüfungen durchzuführen. Scan-Verlauf, Seiten-HTML, Surfaktivitäten und Dateiinhalte werden nicht an unsere Server gesendet.</td></tr>
       </table>
 
       <h2>5. Verwendung browserbezogener Daten</h2>
@@ -534,23 +533,23 @@
       <p>Im Quellcode-Baum existiert ein optionaler Hook für Fehlerberichte (Sentry) für interne Debug-Builds, der jedoch durch ein Build-Geheimnis abgesichert ist und im über den Chrome Web Store&trade;, Microsoft Edge&trade; Add-ons und Firefox Add-ons verteilten Build niemals aktiviert ist. Sollte er in einem zukünftigen Release jemals aktiviert werden, wird diese Datenschutzerklärung vor der Auslieferung aktualisiert, und alle übermittelten Daten werden so gefiltert, dass Lizenzschlüssel, E-Mail-Adressen, JWTs, Bearer-Tokens, UUIDs, Query-String-Werte, Dateisystempfade und URL-Pfade entfernt (redacted) werden.</p>
 
       <h2>5c. Deinstallations-Umfrage (grab-all-files.app)</h2>
-      <p>Wenn Sie die Erweiterung entfernen, öffnet Ihr Browser eine kurze, optionale Feedback-Seite unter <code>grab-all-files.app/uninstall</code>. Ihre Adresse enthält einige nicht identifizierende Angaben, damit wir Antworten gruppieren können: die Version der Erweiterung, Ihre Oberflächensprache, die Anzahl der Tage seit der Installation sowie Ihre Lizenzstufe (Testversion oder kostenpflichtig). Diese Seite ist Teil der Website und ist vom in &sect;5a beschriebenen Build der Erweiterung getrennt.</p>
+      <p>Wenn Sie die Erweiterung entfernen, öffnet Ihr Browser eine kurze, optionale Feedback-Seite unter <code>grab-all-files.app/uninstall</code>. Ihre Adresse enthält einige nicht identifizierende Angaben, damit wir Antworten gruppieren können: die Version der Erweiterung, Ihre Oberflächensprache, die Anzahl der Tage seit der Installation sowie Ihr Plan (kostenlos oder kostenpflichtig). Diese Seite ist Teil der Website und ist vom in &sect;5a beschriebenen Build der Erweiterung getrennt.</p>
       <p>Wenn &mdash; und nur wenn &mdash; Sie sich dafür entscheiden, die Umfrage abzusenden, werden der von Ihnen ausgewählte Grund, ein etwaiger von Ihnen verfasster Freitextkommentar sowie die oben genannten Angaben an unser Supabase-Backend (siehe &sect;7) gesendet und gespeichert, um uns bei der Verbesserung der Erweiterung zu helfen. Die Umfrage ist <strong>anonym</strong>: Sie enthält <strong>keine Geräte-ID, E-Mail-Adresse, IP-Adresse und keine Kontokennung</strong>. Das Absenden ist vollkommen freiwillig &mdash; Sie können die Seite auch einfach schließen. Bitte geben Sie im Freitextkommentar keine personenbezogenen Daten an.</p>
 
       <h2>6. Rechtsgrundlage der Verarbeitung (Art. 6 DSGVO)</h2>
       <p>Für Nutzer in der EU/im EWR stützen wir uns gegebenenfalls auf folgende Rechtsgrundlagen:</p>
       <ul>
-        <li><strong>Vertragserfüllung</strong> (Art. 6 Abs. 1 lit. b DSGVO) &mdash; Lizenzverifizierung, Prüfung der Berechtigung zur Testversion und Durchsetzung des Gerätelimits bei kostenpflichtigen Lizenzen.</li>
+        <li><strong>Vertragserfüllung</strong> (Art. 6 Abs. 1 lit. b DSGVO) &mdash; Lizenzverifizierung und Durchsetzung des Gerätelimits bei kostenpflichtigen Lizenzen.</li>
         <li><strong>Berechtigte Interessen</strong> (Art. 6 Abs. 1 lit. f DSGVO) &mdash; Lokales Speichern von Einstellungen und der jüngsten Scan-Historie, das zur Bereitstellung der Kernfunktionen der Erweiterung auf Ihrem Gerät erforderlich ist.</li>
       </ul>
 
       <h2>7. Drittanbieterdienste und internationale Datenübermittlungen</h2>
-      <p>Die Erweiterung kommuniziert mit einem Lizenz-Backend, das auf <strong>Supabase</strong> gehostet wird. Supabase fungiert als unser Infrastrukturanbieter für Lizenzverifizierung, Testverifizierung und Geräteverwaltung. Wir verkaufen oder geben Nutzerdaten der Erweiterung nicht an unverbundene Dritte weiter.</p>
+      <p>Die Erweiterung kommuniziert mit einem Lizenz-Backend, das auf <strong>Supabase</strong> gehostet wird. Supabase fungiert als unser Infrastrukturanbieter für Lizenzverifizierung und Geräteverwaltung. Wir verkaufen oder geben Nutzerdaten der Erweiterung nicht an unverbundene Dritte weiter.</p>
       <p>Die Supabase-Infrastruktur wird auf Amazon Web Services (AWS) betrieben. An unser Backend gesendete Daten können außerhalb der EU/des EWR verarbeitet werden. Supabase erklärt, sich für internationale Übermittlungen auf <strong>Standardvertragsklauseln (SCCs)</strong> zu stützen. Weitere Einzelheiten finden Sie in der <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Datenschutzerklärung von Supabase</a>.</p>
 
       <h2>8. Aufbewahrung und Löschung von Daten</h2>
       <ul>
-        <li>Lizenz-, Geräte- und testbezogene Datensätze in unserem Backend werden so lange aufbewahrt, wie es für den Betrieb des Lizenz-/Testsystems erforderlich ist, in der Regel für die Dauer Ihrer Lizenz, sofern Sie keine Löschung verlangen.</li>
+        <li>Lizenz- und Gerätedatensätze in unserem Backend werden so lange aufbewahrt, wie es für den Betrieb des Lizenzsystems erforderlich ist, in der Regel für die Dauer Ihrer Lizenz, sofern Sie keine Löschung verlangen.</li>
         <li>Löschungsanträge für Backend-Datensätze bearbeiten wir innerhalb von <strong>30 Tagen</strong>.</li>
         <li>Die jüngste Scan-Historie ist auf die letzten 20 lokal gespeicherten Einträge begrenzt.</li>
         <li>Der Sitzungsspeicher wird am Ende der Browsersitzung gelöscht.</li>
@@ -616,7 +615,7 @@
         <li><strong>registros de archivos de red</strong> (URL y metadatos de archivos detectados mediante la monitorización de red) almacenados temporalmente en el almacenamiento de sesión durante su sesión de navegación.</li>
       </ul>
       <p>No enviamos su historial de escaneos, el HTML de las páginas, el contenido de los archivos ni su actividad de navegación a nuestros servidores.</p>
-      <p><strong>Período de prueba y licencia de pago:</strong> La Extensión incluye un período de prueba gratuito de 14 días. Una vez expirada la prueba, para continuar usándola se requiere una clave de licencia de pago. La elegibilidad para la prueba, la activación de la licencia, su renovación, la aplicación de los límites de dispositivos y las comprobaciones de revocación se gestionan en el backend de licencias mediante un UUID aleatorio del dispositivo y, cuando proceda, la clave de licencia.</p>
+      <p><strong>Plan gratuito y licencia de pago:</strong> La Extensión es de uso gratuito. Todas las funcionalidades están incluidas y el escaneo, la detección, el listado y la vista previa son ilimitados; el único límite es que una sola descarga guarda hasta 20 archivos a la vez (puede repetir la descarga para guardar el resto, también de forma gratuita). Una licencia de pago opcional de pago único elimina el límite por descarga, de modo que puede guardarlo todo a la vez, y cubre hasta 3 dispositivos. No hay período de prueba. La activación de la licencia, su renovación, la aplicación de los límites de dispositivos y las comprobaciones de revocación se gestionan en el backend de licencias mediante un UUID aleatorio del dispositivo y, cuando proceda, la clave de licencia.</p>
       <p><strong>Acceso a sitios web:</strong> La Extensión solicita acceso a <code>https://*/*</code> porque los usuarios pueden optar por escanear cualquier sitio web y el dominio objetivo no se conoce con antelación. Este acceso se utiliza para detectar enlaces descargables y respuestas de archivos en las páginas o URL que usted decida escanear, así como para descargar los archivos que seleccione. No se utiliza para enviar a nuestros servidores el HTML de las páginas, su actividad de navegación ni el contenido de los archivos.</p>
 
       <h2>2. Solicitudes de Red</h2>
@@ -625,7 +624,6 @@
         <li><strong>Verificación de la licencia</strong> &mdash; Cuando se introduce o se vuelve a validar una clave de licencia, la Extensión envía la clave y un identificador de dispositivo (UUID) generado aleatoriamente a nuestro servidor para verificar la licencia y aplicar los límites de dispositivos.</li>
         <li><strong>Emisión y renovación del token de licencia (JWT)</strong> &mdash; Tras una verificación correcta, nuestro servidor devuelve un token de acceso firmado y de corta duración (ES256 JWT, TTL de 7 días) que contiene la clave de licencia, el identificador del dispositivo, las funcionalidades concedidas y la fecha de expiración. La Extensión guarda este token en caché localmente, de modo que la mayoría de las comprobaciones posteriores se realicen sin conexión. El token se renueva enviando la misma clave de licencia y el mismo identificador de dispositivo a nuestro servidor, normalmente una vez al día.</li>
         <li><strong>Actualización de la lista de revocaciones</strong> &mdash; Una vez al día, la Extensión descarga una pequeña lista firmada de identificadores de tokens revocados (sin claves de licencia) para que las revocaciones surtan efecto en un plazo de 24 horas, incluso sin conexión. Esta solicitud no envía datos identificativos del usuario.</li>
-        <li><strong>Verificación del período de prueba</strong> &mdash; Durante el período de prueba gratuito, la Extensión envía el identificador del dispositivo (UUID) a nuestro servidor para verificar la elegibilidad para la prueba.</li>
         <li><strong>Gestión de dispositivos</strong> &mdash; Cuando consulta o elimina dispositivos activados desde la pantalla de licencia, la Extensión envía a nuestro servidor la clave de licencia, el identificador de su dispositivo actual y, si elimina un dispositivo, el identificador del dispositivo de destino.</li>
         <li><strong>Acceso a páginas y archivos solicitado por el usuario</strong> &mdash; Cuando usted escanea una página, introduce una URL, obtiene metadatos de archivos, descarga archivos o combina PDF, la Extensión se conecta directamente al sitio web de destino que usted haya seleccionado. Estas solicitudes no pasan por nuestros servidores.</li>
       </ul>
@@ -636,11 +634,11 @@
       <table>
         <tr><th>Datos</th><th>Almacenamiento</th><th>Finalidad</th></tr>
         <tr><td>Clave de licencia</td><td>Local</td><td>Mantener la Extensión activada después de la verificación de la licencia.</td></tr>
-        <tr><td>ID del dispositivo (UUID aleatorio)</td><td>Local</td><td>Identificar esta instalación a efectos de los límites de licencia y de las comprobaciones de la prueba.</td></tr>
-        <tr><td>Fecha de instalación</td><td>Local</td><td>Gestionar el período de prueba gratuito de 14 días.</td></tr>
-        <tr><td>Marcas de tiempo de la última verificación / última comprobación de prueba</td><td>Local</td><td>Permitir un período de gracia limitado sin conexión tras una verificación de licencia satisfactoria y evitar llamadas redundantes al servidor.</td></tr>
+        <tr><td>ID del dispositivo (UUID aleatorio)</td><td>Local</td><td>Identificar esta instalación a efectos de los límites de licencia.</td></tr>
+        <tr><td>Fecha de instalación</td><td>Local</td><td>Mostrar los días transcurridos desde la instalación en la encuesta de desinstalación opcional.</td></tr>
+        <tr><td>Marca de tiempo de la última verificación</td><td>Local</td><td>Permitir un período de gracia limitado sin conexión tras una verificación de licencia satisfactoria y evitar llamadas redundantes al servidor.</td></tr>
         <tr><td>JWT de licencia y caché de revocaciones (token de acceso firmado, expiración, ID del token, funcionalidades concedidas, lista de IDs de tokens revocados)</td><td>Local</td><td>Verificar la licencia sin conexión utilizando un token firmado emitido por el servidor y bloquear los tokens que hayan sido revocados.</td></tr>
-        <tr><td>Indicador de prueba expirada y error/estado de licencia devuelto por el servidor</td><td>Local</td><td>Conservar el resultado de la expiración de la prueba y de las verificaciones fallidas en el servidor entre reinicios del navegador.</td></tr>
+        <tr><td>Error/estado de licencia devuelto por el servidor</td><td>Local</td><td>Conservar el resultado de las verificaciones fallidas en el servidor entre reinicios del navegador.</td></tr>
         <tr><td>Historial reciente de escaneos (URL, títulos/nombres de host, marcas de tiempo)</td><td>Local</td><td>Mostrar las páginas escaneadas recientemente y las URL introducidas para acceso rápido.</td></tr>
         <tr><td>ID de la última pestaña de origen</td><td>Local</td><td>Reconectar la ventana emergente con la pestaña que estaba escaneando.</td></tr>
         <tr><td>Tamaño de la ventana</td><td>Local</td><td>Recordar las dimensiones de la ventana emergente.</td></tr>
@@ -660,7 +658,7 @@
         <tr><td><code>alarms</code></td><td>Actualizar de forma periódica el estado de la licencia y de las revocaciones.</td></tr>
         <tr><td><code>notifications</code></td><td>Mostrar notificaciones de finalización de descargas y de estado de la licencia.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Añadir acciones del menú contextual (clic derecho) para escanear y descargar archivos desde páginas, enlaces, imágenes y selecciones.</td></tr>
-        <tr><td>Permiso de host obligatorio:<br><code>https://*/*</code></td><td>Permitirle escanear cualquier sitio web que elija y conectarse al backend de verificación de licencia/prueba en <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>. El dominio de destino del escaneo no se conoce hasta que usted elige una página o introduce una URL, por lo que se requiere un acceso amplio por host HTTPS. El permiso se utiliza para detectar enlaces descargables, respuestas de archivos por fetch/XHR en la página, metadatos de archivos, descargas de los archivos seleccionados en el sitio elegido y comprobaciones de licencia/prueba. No se envía a nuestros servidores el historial de escaneos, el HTML de las páginas, la actividad de navegación ni el contenido de los archivos.</td></tr>
+        <tr><td>Permiso de host obligatorio:<br><code>https://*/*</code></td><td>Permitirle escanear cualquier sitio web que elija y conectarse al backend de verificación de licencia en <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>. El dominio de destino del escaneo no se conoce hasta que usted elige una página o introduce una URL, por lo que se requiere un acceso amplio por host HTTPS. El permiso se utiliza para detectar enlaces descargables, respuestas de archivos por fetch/XHR en la página, metadatos de archivos, descargas de los archivos seleccionados en el sitio elegido y comprobaciones de licencia. No se envía a nuestros servidores el historial de escaneos, el HTML de las páginas, la actividad de navegación ni el contenido de los archivos.</td></tr>
       </table>
 
       <h2>5. Uso de los Datos Relacionados con la Navegación</h2>
@@ -679,23 +677,23 @@
       <p>En el árbol de código fuente existe un gancho opcional de notificación de errores (Sentry) destinado a las compilaciones internas de depuración, pero está controlado por un secreto en tiempo de compilación y nunca se activa en la versión distribuida a través de Chrome Web Store&trade;, Microsoft Edge&trade; Add-ons y Firefox Add-ons. Si en una futura versión se llegara a activar, esta Política de Privacidad se actualizaría antes del lanzamiento de dicha versión, y los datos enviados serían filtrados para suprimir las claves de licencia, las direcciones de correo electrónico, los JWT, los tokens portadores (bearer), los UUID, los valores de las cadenas de consulta, las rutas del sistema de archivos y el cuerpo de las rutas de URL.</p>
 
       <h2>5c. Encuesta de Desinstalación (grab-all-files.app)</h2>
-      <p>Cuando elimina la Extensión, su navegador abre una breve página opcional de comentarios en <code>grab-all-files.app/uninstall</code>. Su dirección incluye algunos datos no identificativos para que podamos agrupar las respuestas: la versión de la Extensión, el idioma de su interfaz, el número de días transcurridos desde la instalación y su nivel de licencia (prueba o de pago). Esta página forma parte del sitio web y es independiente de la compilación de la Extensión descrita en el §5a.</p>
+      <p>Cuando elimina la Extensión, su navegador abre una breve página opcional de comentarios en <code>grab-all-files.app/uninstall</code>. Su dirección incluye algunos datos no identificativos para que podamos agrupar las respuestas: la versión de la Extensión, el idioma de su interfaz, el número de días transcurridos desde la instalación y su plan (gratuito o de pago). Esta página forma parte del sitio web y es independiente de la compilación de la Extensión descrita en el §5a.</p>
       <p>Si &mdash; y solo si &mdash; usted decide enviar la encuesta, el motivo que seleccione, cualquier comentario de texto libre que escriba y los datos anteriores se envían a nuestro backend de Supabase (véase el §7) y se almacenan para ayudarnos a mejorar la Extensión. La encuesta es <strong>anónima</strong>: no contiene <strong>ningún ID de dispositivo, dirección de correo electrónico, dirección IP ni identificador de cuenta</strong>. El envío es totalmente voluntario &mdash; puede simplemente cerrar la página. Le rogamos que no incluya información personal en el comentario de texto libre.</p>
 
       <h2>6. Base jurídica del tratamiento (artículo 6 del RGPD)</h2>
       <p>Para los usuarios de la UE/EEE, nos basamos en las siguientes bases jurídicas según corresponda:</p>
       <ul>
-        <li><strong>Ejecución de un contrato</strong> (artículo 6, apartado 1, letra b), del RGPD) &mdash; Verificación de la licencia, comprobación de la elegibilidad para la prueba y aplicación del límite de dispositivos en las licencias de pago.</li>
+        <li><strong>Ejecución de un contrato</strong> (artículo 6, apartado 1, letra b), del RGPD) &mdash; Verificación de la licencia y aplicación del límite de dispositivos en las licencias de pago.</li>
         <li><strong>Intereses legítimos</strong> (artículo 6, apartado 1, letra f), del RGPD) &mdash; Almacenamiento de las preferencias locales y del historial reciente de escaneos necesarios para prestar la funcionalidad básica de la Extensión en su dispositivo.</li>
       </ul>
 
       <h2>7. Servicios de Terceros y Transferencias Internacionales</h2>
-      <p>La Extensión se comunica con un backend de licencias alojado en <strong>Supabase</strong>. Supabase actúa como nuestro proveedor de infraestructura para la verificación de licencias, la verificación del período de prueba y la gestión de dispositivos. No vendemos ni divulgamos los datos de los usuarios de la Extensión a terceros no relacionados.</p>
+      <p>La Extensión se comunica con un backend de licencias alojado en <strong>Supabase</strong>. Supabase actúa como nuestro proveedor de infraestructura para la verificación de licencias y la gestión de dispositivos. No vendemos ni divulgamos los datos de los usuarios de la Extensión a terceros no relacionados.</p>
       <p>La infraestructura de Supabase está alojada en Amazon Web Services (AWS). Los datos enviados a nuestro backend pueden ser tratados fuera de la UE/EEE. Supabase declara que se basa en <strong>Cláusulas Contractuales Tipo (SCC)</strong> para las transferencias internacionales. Para más detalles, consulte la <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Supabase</a>.</p>
 
       <h2>8. Conservación y Eliminación de Datos</h2>
       <ul>
-        <li>Los registros de licencia, dispositivo y prueba en nuestro backend se conservan durante el tiempo necesario para operar el sistema de licencias/pruebas, generalmente durante el período de vigencia de su licencia, salvo que solicite su eliminación.</li>
+        <li>Los registros de licencia y dispositivo en nuestro backend se conservan durante el tiempo necesario para operar el sistema de licencias, generalmente durante el período de vigencia de su licencia, salvo que solicite su eliminación.</li>
         <li>Tramitaremos las solicitudes de eliminación de los registros del backend en un plazo de <strong>30 días</strong>.</li>
         <li>El historial reciente de escaneos se limita a las 20 entradas más recientes almacenadas localmente.</li>
         <li>El almacenamiento de sesión se borra al finalizar la sesión del navegador.</li>
@@ -761,7 +759,7 @@
         <li><strong>les enregistrements de fichiers réseau</strong> (URL et métadonnées des fichiers détectés via la surveillance du réseau) stockés temporairement dans le stockage de session pendant votre session de navigation.</li>
       </ul>
       <p>Nous n'envoyons pas votre historique d'analyses, le HTML des pages, le contenu des fichiers ou votre activité de navigation à nos serveurs.</p>
-      <p><strong>Période d'essai et licence payante :</strong> L'Extension comprend une période d'essai gratuite de 14 jours. Après l'expiration de la période d'essai, l'utilisation continue nécessite une clé de licence payante. L'éligibilité à la période d'essai, l'activation de la licence, le rafraîchissement de la licence, l'application de la limite d'appareils et les vérifications de révocation sont gérés par le serveur de licences à l'aide d'un UUID d'appareil aléatoire et, le cas échéant, de la clé de licence.</p>
+      <p><strong>Formule gratuite et licence payante :</strong> L'Extension est gratuite. Toutes les fonctionnalités sont incluses et l'analyse, la détection, la liste et l'aperçu sont illimités ; la seule limite est qu'un seul téléchargement enregistre jusqu'à 20 fichiers à la fois (vous pouvez répéter le téléchargement pour enregistrer le reste, toujours gratuitement). Une licence payante facultative à paiement unique supprime la limite par téléchargement, ce qui vous permet de tout enregistrer en une seule fois, et couvre jusqu'à 3 appareils. Il n'y a pas de période d'essai. L'activation de la licence, le rafraîchissement de la licence, l'application de la limite d'appareils et les vérifications de révocation sont gérés par le serveur de licences à l'aide d'un UUID d'appareil aléatoire et, le cas échéant, de la clé de licence.</p>
       <p><strong>Accès aux sites Web :</strong> L'Extension demande un accès à <code>https://*/*</code> car les utilisateurs peuvent choisir d'analyser n'importe quel site Web et le domaine cible n'est pas connu à l'avance. Cet accès sert à détecter les liens téléchargeables et les réponses de fichiers sur les pages ou URL que vous choisissez d'analyser, et à télécharger les fichiers que vous sélectionnez. Il n'est pas utilisé pour envoyer le HTML des pages, l'activité de navigation ou le contenu des fichiers à nos serveurs.</p>
 
       <h2>2. Requêtes réseau</h2>
@@ -770,7 +768,6 @@
         <li><strong>Vérification de licence</strong> &mdash; Lorsqu'une clé de licence est saisie ou revalidée, l'Extension envoie la clé de licence et un identifiant d'appareil généré aléatoirement (UUID) à notre serveur afin de vérifier la licence et d'appliquer les limites d'appareils.</li>
         <li><strong>Émission et renouvellement du jeton de licence (JWT)</strong> &mdash; Après une vérification réussie, notre serveur renvoie un jeton d'accès signé à courte durée de vie (JWT ES256, durée de vie de 7 jours) contenant la clé de licence, l'identifiant de l'appareil, les fonctionnalités accordées et la date d'expiration. L'Extension met ce jeton en cache localement afin que la plupart des vérifications de licence ultérieures se fassent hors ligne. Le jeton est renouvelé en envoyant la même clé de licence et le même identifiant d'appareil à notre serveur, généralement une fois par jour.</li>
         <li><strong>Mise à jour de la liste de révocation</strong> &mdash; Une fois par jour, l'Extension télécharge une petite liste signée d'identifiants de jetons révoqués (sans clés de licence) afin que les révocations prennent effet sous 24 heures, même hors ligne. Cette requête n'envoie aucune donnée identifiant l'utilisateur.</li>
-        <li><strong>Vérification de la période d'essai</strong> &mdash; Pendant la période d'essai gratuite, l'Extension envoie l'identifiant d'appareil (UUID) à notre serveur pour vérifier l'éligibilité à la période d'essai.</li>
         <li><strong>Gestion des appareils</strong> &mdash; Lorsque vous consultez ou supprimez des appareils activés sur l'écran de licence, l'Extension envoie à notre serveur la clé de licence, votre identifiant d'appareil actuel et, si vous supprimez un appareil, l'identifiant de l'appareil ciblé.</li>
         <li><strong>Accès aux pages et fichiers à la demande de l'utilisateur</strong> &mdash; Lorsque vous analysez une page, saisissez une URL, récupérez les métadonnées de fichiers, téléchargez des fichiers ou fusionnez des PDF, l'Extension se connecte directement au site Web cible que vous avez sélectionné. Ces requêtes ne transitent pas par nos serveurs.</li>
       </ul>
@@ -781,11 +778,11 @@
       <table>
         <tr><th>Données</th><th>Stockage</th><th>Finalité</th></tr>
         <tr><td>Clé de licence</td><td>Local</td><td>Maintenir l'Extension activée après vérification de la licence.</td></tr>
-        <tr><td>ID d'appareil (UUID aléatoire)</td><td>Local</td><td>Identifier cette installation pour les limites de licence et les vérifications de période d'essai.</td></tr>
-        <tr><td>Date d'installation</td><td>Local</td><td>Gérer la période d'essai gratuite de 14 jours.</td></tr>
-        <tr><td>Horodatages de la dernière vérification / dernière vérification de période d'essai</td><td>Local</td><td>Permettre une période de grâce hors ligne limitée après une vérification de licence réussie et éviter des appels redondants au serveur.</td></tr>
+        <tr><td>ID d'appareil (UUID aléatoire)</td><td>Local</td><td>Identifier cette installation pour les limites de licence.</td></tr>
+        <tr><td>Date d'installation</td><td>Local</td><td>Afficher le nombre de jours écoulés depuis l'installation dans l'enquête de désinstallation facultative.</td></tr>
+        <tr><td>Horodatage de la dernière vérification</td><td>Local</td><td>Permettre une période de grâce hors ligne limitée après une vérification de licence réussie et éviter des appels redondants au serveur.</td></tr>
         <tr><td>JWT de licence et cache de révocation (jeton d'accès signé, expiration, identifiant de jeton, fonctionnalités accordées, liste des identifiants de jetons révoqués)</td><td>Local</td><td>Vérifier la licence hors ligne à l'aide d'un jeton signé émis par le serveur, et bloquer les jetons ayant été révoqués.</td></tr>
-        <tr><td>Indicateur d'expiration de la période d'essai et erreur/état de licence renvoyés par le serveur</td><td>Local</td><td>Conserver le résultat de l'expiration de la période d'essai et des vérifications côté serveur ayant échoué entre les redémarrages du navigateur.</td></tr>
+        <tr><td>Erreur/état de licence renvoyés par le serveur</td><td>Local</td><td>Conserver le résultat des vérifications côté serveur ayant échoué entre les redémarrages du navigateur.</td></tr>
         <tr><td>Historique récent des analyses (URL, titres/noms d'hôtes, horodatages)</td><td>Local</td><td>Afficher les pages récemment analysées et les URL saisies pour un accès rapide.</td></tr>
         <tr><td>ID du dernier onglet source</td><td>Local</td><td>Reconnecter la fenêtre contextuelle à l'onglet que vous étiez en train d'analyser.</td></tr>
         <tr><td>Taille de la fenêtre</td><td>Local</td><td>Mémoriser les dimensions de la fenêtre contextuelle.</td></tr>
@@ -805,7 +802,7 @@
         <tr><td><code>alarms</code></td><td>Rafraîchir périodiquement l'état de la licence et de la révocation.</td></tr>
         <tr><td><code>notifications</code></td><td>Afficher les notifications de fin de téléchargement et d'état de licence.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Ajouter des actions de clic droit pour analyser et télécharger des fichiers depuis des pages, liens, images et sélections.</td></tr>
-        <tr><td>Permission d'hôte requise :<br><code>https://*/*</code></td><td>Vous permettre d'analyser tout site Web de votre choix et de vous connecter au serveur de vérification de licence / période d'essai à l'adresse <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>. Le domaine cible de l'analyse n'est pas connu avant que vous choisissiez une page ou saisissiez une URL ; un accès large aux hôtes HTTPS est donc nécessaire. La permission est utilisée pour détecter les liens téléchargeables, les réponses de fichiers fetch/XHR dans la page, les métadonnées de fichiers, les téléchargements de fichiers sélectionnés sur le site choisi et les vérifications de licence/période d'essai. L'historique des analyses, le HTML des pages, l'activité de navigation et le contenu des fichiers ne sont pas envoyés à nos serveurs.</td></tr>
+        <tr><td>Permission d'hôte requise :<br><code>https://*/*</code></td><td>Vous permettre d'analyser tout site Web de votre choix et de vous connecter au serveur de vérification de licence à l'adresse <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>. Le domaine cible de l'analyse n'est pas connu avant que vous choisissiez une page ou saisissiez une URL ; un accès large aux hôtes HTTPS est donc nécessaire. La permission est utilisée pour détecter les liens téléchargeables, les réponses de fichiers fetch/XHR dans la page, les métadonnées de fichiers, les téléchargements de fichiers sélectionnés sur le site choisi et les vérifications de licence. L'historique des analyses, le HTML des pages, l'activité de navigation et le contenu des fichiers ne sont pas envoyés à nos serveurs.</td></tr>
       </table>
 
       <h2>5. Utilisation des données liées à la navigation</h2>
@@ -824,23 +821,23 @@
       <p>Un point d'ancrage optionnel pour les rapports d'erreurs (Sentry) est présent dans l'arborescence des sources pour les versions de débogage internes, mais il est conditionné par un secret de compilation et n'est jamais activé dans la version distribuée via le Chrome Web Store&trade;, Microsoft Edge&trade; Add-ons et Firefox Add-ons. Si une future version venait à l'activer, la présente Politique de confidentialité serait mise à jour avant la publication, et les données envoyées seraient filtrées pour expurger les clés de licence, les adresses e-mail, les JWT, les jetons « bearer », les UUID, les valeurs de chaînes de requête, les chemins de système de fichiers et les corps des chemins d'URL.</p>
 
       <h2>5c. Enquête de désinstallation (grab-all-files.app)</h2>
-      <p>Lorsque vous supprimez l'Extension, votre navigateur ouvre une courte page de retour facultative à l'adresse <code>grab-all-files.app/uninstall</code>. Son adresse contient quelques informations non identifiantes afin que nous puissions regrouper les réponses : la version de l'Extension, la langue de votre interface, le nombre de jours écoulés depuis l'installation et votre niveau de licence (essai ou payante). Cette page fait partie du site Web et est distincte de la version compilée de l'Extension décrite au &sect;5a.</p>
+      <p>Lorsque vous supprimez l'Extension, votre navigateur ouvre une courte page de retour facultative à l'adresse <code>grab-all-files.app/uninstall</code>. Son adresse contient quelques informations non identifiantes afin que nous puissions regrouper les réponses : la version de l'Extension, la langue de votre interface, le nombre de jours écoulés depuis l'installation et votre formule (gratuite ou payante). Cette page fait partie du site Web et est distincte de la version compilée de l'Extension décrite au &sect;5a.</p>
       <p>Si &mdash; et seulement si &mdash; vous choisissez d'envoyer l'enquête, le motif que vous sélectionnez, tout commentaire en texte libre que vous rédigez ainsi que les informations ci-dessus sont transmis à notre serveur Supabase (voir le &sect;7) et stockés afin de nous aider à améliorer l'Extension. L'enquête est <strong>anonyme</strong> : elle ne contient <strong>aucun ID d'appareil, aucune adresse e-mail, aucune adresse IP ni aucun identifiant de compte</strong>. L'envoi est entièrement volontaire &mdash; vous pouvez simplement fermer la page. Veuillez ne pas inclure d'informations personnelles dans le commentaire en texte libre.</p>
 
       <h2>6. Base juridique du traitement (article 6 du RGPD)</h2>
       <p>Pour les utilisateurs dans l'UE/EEE, nous nous appuyons, le cas échéant, sur les bases juridiques suivantes :</p>
       <ul>
-        <li><strong>Exécution d'un contrat</strong> (article 6, paragraphe 1, point b), du RGPD) &mdash; Vérification de licence, contrôle de l'éligibilité à la période d'essai et application de la limite d'appareils pour les licences payantes.</li>
+        <li><strong>Exécution d'un contrat</strong> (article 6, paragraphe 1, point b), du RGPD) &mdash; Vérification de licence et application de la limite d'appareils pour les licences payantes.</li>
         <li><strong>Intérêts légitimes</strong> (article 6, paragraphe 1, point f), du RGPD) &mdash; Stockage local des préférences et de l'historique récent des analyses nécessaires au fonctionnement essentiel de l'Extension sur votre appareil.</li>
       </ul>
 
       <h2>7. Services tiers et transferts internationaux</h2>
-      <p>L'Extension communique avec un serveur de licences hébergé sur <strong>Supabase</strong>. Supabase agit en tant que prestataire d'infrastructure pour la vérification de licence, la vérification de la période d'essai et la gestion des appareils. Nous ne vendons ni ne divulguons les données des utilisateurs de l'Extension à des tiers non liés.</p>
+      <p>L'Extension communique avec un serveur de licences hébergé sur <strong>Supabase</strong>. Supabase agit en tant que prestataire d'infrastructure pour la vérification de licence et la gestion des appareils. Nous ne vendons ni ne divulguons les données des utilisateurs de l'Extension à des tiers non liés.</p>
       <p>L'infrastructure de Supabase est hébergée sur Amazon Web Services (AWS). Les données envoyées à notre serveur peuvent être traitées en dehors de l'UE/EEE. Supabase indique qu'il s'appuie sur les <strong>Clauses Contractuelles Types (CCT)</strong> pour les transferts internationaux. Voir la <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Politique de confidentialité de Supabase</a> pour plus de détails.</p>
 
       <h2>8. Conservation et suppression des données</h2>
       <ul>
-        <li>Les enregistrements relatifs à la licence, à l'appareil et à la période d'essai conservés sur notre serveur sont conservés aussi longtemps que nécessaire au fonctionnement du système de licence/période d'essai, généralement pendant la durée de votre licence, sauf demande de suppression de votre part.</li>
+        <li>Les enregistrements relatifs à la licence et à l'appareil conservés sur notre serveur sont conservés aussi longtemps que nécessaire au fonctionnement du système de licence, généralement pendant la durée de votre licence, sauf demande de suppression de votre part.</li>
         <li>Nous traiterons les demandes de suppression d'enregistrements côté serveur dans un délai de <strong>30 jours</strong>.</li>
         <li>L'historique récent des analyses est limité aux 20 entrées les plus récentes stockées localement.</li>
         <li>Le stockage de session est effacé à la fin de la session du navigateur.</li>
@@ -906,7 +903,7 @@
         <li><strong>i record dei file di rete</strong> (URL e metadati dei file rilevati tramite il monitoraggio della rete) archiviati temporaneamente nello storage di sessione durante la sessione di navigazione.</li>
       </ul>
       <p>Non inviamo ai nostri server la cronologia delle scansioni, l'HTML delle pagine, il contenuto dei file o l'attività di navigazione.</p>
-      <p><strong>Periodo di prova e licenza a pagamento:</strong> L'Estensione include un periodo di prova gratuito di 14 giorni. Allo scadere della prova, per continuare a utilizzarla è necessaria una chiave di licenza a pagamento. L'idoneità alla prova, l'attivazione della licenza, il rinnovo della licenza, l'applicazione del limite di dispositivi e i controlli di revoca sono gestiti dal backend di licenza utilizzando un UUID casuale del dispositivo e, ove applicabile, la chiave di licenza.</p>
+      <p><strong>Piano gratuito e licenza a pagamento:</strong> L'Estensione è gratuita. Tutte le funzionalità sono incluse e la scansione, il rilevamento, l'elenco e l'anteprima sono illimitati; l'unico limite è che un singolo download salva fino a 20 file per volta (può ripetere il download per salvare i restanti, sempre gratuitamente). Una licenza a pagamento facoltativa e una tantum rimuove il limite per download, così può salvare tutto in una volta, e copre fino a 3 dispositivi. Non è previsto alcun periodo di prova. L'attivazione della licenza, il rinnovo della licenza, l'applicazione del limite di dispositivi e i controlli di revoca sono gestiti dal backend di licenza utilizzando un UUID casuale del dispositivo e, ove applicabile, la chiave di licenza.</p>
       <p><strong>Accesso ai siti web:</strong> L'Estensione richiede l'accesso a <code>https://*/*</code> in quanto gli utenti possono scegliere di sottoporre a scansione qualsiasi sito web e il dominio di destinazione non è noto in anticipo. Tale accesso è utilizzato per rilevare i collegamenti scaricabili e le risposte di file presenti sulle pagine o sugli URL che Lei sceglie di scansionare, nonché per scaricare i file da Lei selezionati. Non viene utilizzato per inviare ai nostri server l'HTML delle pagine, l'attività di navigazione o il contenuto dei file.</p>
 
       <h2>2. Richieste di Rete</h2>
@@ -915,7 +912,6 @@
         <li><strong>Verifica della licenza</strong> &mdash; Quando viene inserita o riconvalidata una chiave di licenza, l'Estensione invia al nostro server la chiave di licenza e un identificativo del dispositivo (UUID) generato casualmente, al fine di verificare la licenza e applicare i limiti di dispositivo.</li>
         <li><strong>Emissione e rinnovo del token di licenza (JWT)</strong> &mdash; A seguito di una verifica andata a buon fine, il nostro server restituisce un token di accesso firmato e di breve durata (ES256 JWT, TTL di 7 giorni) contenente la chiave di licenza, l'identificativo del dispositivo, le funzionalità concesse e la scadenza. L'Estensione memorizza tale token localmente nella cache, in modo che la maggior parte dei successivi controlli di licenza avvenga offline. Il token viene rinnovato inviando al nostro server la stessa chiave di licenza e lo stesso identificativo del dispositivo, di norma una volta al giorno.</li>
         <li><strong>Aggiornamento dell'elenco delle revoche</strong> &mdash; Una volta al giorno l'Estensione scarica un piccolo elenco firmato di identificativi di token revocati (senza chiavi di licenza) affinché le revoche abbiano effetto entro 24 ore, anche offline. Tale richiesta non invia alcun dato identificativo dell'utente.</li>
-        <li><strong>Verifica del periodo di prova</strong> &mdash; Durante il periodo di prova gratuito, l'Estensione invia al nostro server l'identificativo del dispositivo (UUID) per verificare l'idoneità alla prova.</li>
         <li><strong>Gestione dei dispositivi</strong> &mdash; Quando Lei visualizza o rimuove i dispositivi attivati dalla schermata della licenza, l'Estensione invia al nostro server la chiave di licenza, l'identificativo del Suo dispositivo attuale e, in caso di rimozione di un dispositivo, l'identificativo del dispositivo di destinazione.</li>
         <li><strong>Accesso a pagine e file richiesto dall'utente</strong> &mdash; Quando Lei effettua la scansione di una pagina, inserisce un URL, recupera metadati di file, scarica file o unisce PDF, l'Estensione si collega direttamente al sito web di destinazione da Lei selezionato. Tali richieste non transitano dai nostri server.</li>
       </ul>
@@ -926,11 +922,11 @@
       <table>
         <tr><th>Dati</th><th>Archiviazione</th><th>Finalità</th></tr>
         <tr><td>Chiave di licenza</td><td>Local</td><td>Mantenere attiva l'Estensione dopo la verifica della licenza.</td></tr>
-        <tr><td>ID dispositivo (UUID casuale)</td><td>Local</td><td>Identificare questa installazione ai fini dei limiti di licenza e dei controlli sulla prova.</td></tr>
-        <tr><td>Data di installazione</td><td>Local</td><td>Gestire il periodo di prova gratuito di 14 giorni.</td></tr>
-        <tr><td>Marca temporale dell'ultima verifica / dell'ultimo controllo della prova</td><td>Local</td><td>Consentire un periodo di tolleranza offline limitato dopo una verifica della licenza riuscita ed evitare chiamate ridondanti al server.</td></tr>
+        <tr><td>ID dispositivo (UUID casuale)</td><td>Local</td><td>Identificare questa installazione ai fini dei limiti di licenza.</td></tr>
+        <tr><td>Data di installazione</td><td>Local</td><td>Mostrare i giorni trascorsi dall'installazione nel sondaggio di disinstallazione facoltativo.</td></tr>
+        <tr><td>Marca temporale dell'ultima verifica</td><td>Local</td><td>Consentire un periodo di tolleranza offline limitato dopo una verifica della licenza riuscita ed evitare chiamate ridondanti al server.</td></tr>
         <tr><td>JWT della licenza e cache delle revoche (token di accesso firmato, scadenza, ID del token, funzionalità concesse, elenco di ID di token revocati)</td><td>Local</td><td>Verificare la licenza offline tramite un token firmato emesso dal server e bloccare i token che sono stati revocati.</td></tr>
-        <tr><td>Indicatore di prova scaduta ed errore/stato della licenza restituiti dal server</td><td>Local</td><td>Conservare l'esito della scadenza della prova e dei controlli di licenza falliti lato server tra un riavvio e l'altro del browser.</td></tr>
+        <tr><td>Errore/stato della licenza restituito dal server</td><td>Local</td><td>Conservare l'esito dei controlli di licenza falliti lato server tra un riavvio e l'altro del browser.</td></tr>
         <tr><td>Cronologia recente delle scansioni (URL, titoli/nomi host, marche temporali)</td><td>Local</td><td>Mostrare le pagine scansionate di recente e gli URL inseriti per un accesso rapido.</td></tr>
         <tr><td>ID dell'ultima scheda di origine</td><td>Local</td><td>Ricollegare il popup alla scheda che si stava scansionando.</td></tr>
         <tr><td>Dimensioni della finestra</td><td>Local</td><td>Memorizzare le dimensioni della finestra del popup.</td></tr>
@@ -950,7 +946,7 @@
         <tr><td><code>alarms</code></td><td>Aggiornare periodicamente lo stato della licenza e delle revoche.</td></tr>
         <tr><td><code>notifications</code></td><td>Mostrare notifiche di completamento dei download e di stato della licenza.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Aggiungere azioni del menu contestuale (clic destro) per scansionare e scaricare file da pagine, collegamenti, immagini e selezioni.</td></tr>
-        <tr><td>Permesso host obbligatorio:<br><code>https://*/*</code></td><td>PermetterLe di sottoporre a scansione qualsiasi sito web da Lei scelto e di connettersi al backend di verifica della licenza/prova all'indirizzo <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>. Il dominio di destinazione della scansione non è noto prima che Lei scelga una pagina o inserisca un URL, pertanto è necessario un ampio permesso di host HTTPS. Il permesso è utilizzato per rilevare i collegamenti scaricabili, le risposte di file via fetch/XHR all'interno della pagina, i metadati dei file, il download dei file selezionati sul sito scelto e i controlli di licenza/prova. La cronologia delle scansioni, l'HTML delle pagine, l'attività di navigazione e il contenuto dei file non vengono inviati ai nostri server.</td></tr>
+        <tr><td>Permesso host obbligatorio:<br><code>https://*/*</code></td><td>PermetterLe di sottoporre a scansione qualsiasi sito web da Lei scelto e di connettersi al backend di verifica della licenza all'indirizzo <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>. Il dominio di destinazione della scansione non è noto prima che Lei scelga una pagina o inserisca un URL, pertanto è necessario un ampio permesso di host HTTPS. Il permesso è utilizzato per rilevare i collegamenti scaricabili, le risposte di file via fetch/XHR all'interno della pagina, i metadati dei file, il download dei file selezionati sul sito scelto e i controlli di licenza. La cronologia delle scansioni, l'HTML delle pagine, l'attività di navigazione e il contenuto dei file non vengono inviati ai nostri server.</td></tr>
       </table>
 
       <h2>5. Utilizzo dei Dati Relativi alla Navigazione</h2>
@@ -969,23 +965,23 @@
       <p>All'interno del codice sorgente è presente un hook opzionale di segnalazione errori (Sentry) destinato alle build interne di debug, ma è subordinato a un segreto definito al momento della compilazione e non viene mai abilitato nella build distribuita tramite Chrome Web Store&trade;, Microsoft Edge&trade; Add-ons e Firefox Add-ons. Qualora una futura release dovesse abilitarlo, la presente Informativa sulla privacy verrà aggiornata prima del rilascio di tale versione e i dati eventualmente inviati saranno filtrati per oscurare chiavi di licenza, indirizzi e-mail, JWT, bearer token, UUID, valori delle stringhe di query, percorsi del file system e corpo dei percorsi degli URL.</p>
 
       <h2>5c. Sondaggio di disinstallazione (grab-all-files.app)</h2>
-      <p>Quando Lei rimuove l'Estensione, il Suo browser apre una breve pagina facoltativa di feedback all'indirizzo <code>grab-all-files.app/uninstall</code>. Tale indirizzo riporta alcuni dettagli non identificativi che ci consentono di raggruppare le risposte: la versione dell'Estensione, la lingua della Sua interfaccia, il numero di giorni trascorsi dall'installazione e il livello della Sua licenza (di prova o a pagamento). Questa pagina fa parte del sito web ed è distinta dalla build dell'Estensione descritta nel &sect;5a.</p>
+      <p>Quando Lei rimuove l'Estensione, il Suo browser apre una breve pagina facoltativa di feedback all'indirizzo <code>grab-all-files.app/uninstall</code>. Tale indirizzo riporta alcuni dettagli non identificativi che ci consentono di raggruppare le risposte: la versione dell'Estensione, la lingua della Sua interfaccia, il numero di giorni trascorsi dall'installazione e il Suo piano (gratuito o a pagamento). Questa pagina fa parte del sito web ed è distinta dalla build dell'Estensione descritta nel &sect;5a.</p>
       <p>Se &mdash; e soltanto se &mdash; Lei sceglie di inviare il sondaggio, il motivo da Lei selezionato, l'eventuale commento in testo libero che Lei scrive e i dettagli sopra indicati vengono inviati al nostro backend Supabase (si veda il &sect;7) e archiviati per aiutarci a migliorare l'Estensione. Il sondaggio è <strong>anonimo</strong>: non contiene <strong>alcun ID dispositivo, indirizzo e-mail, indirizzo IP o identificativo dell'account</strong>. L'invio è del tutto volontario &mdash; Lei può semplicemente chiudere la pagina. La preghiamo di non includere informazioni personali nel commento in testo libero.</p>
 
       <h2>6. Base giuridica del trattamento (articolo 6 del GDPR)</h2>
       <p>Per gli utenti residenti nell'UE/SEE, ci basiamo sulle seguenti basi giuridiche, ove applicabili:</p>
       <ul>
-        <li><strong>Esecuzione di un contratto</strong> (articolo 6, paragrafo 1, lettera b), del GDPR) &mdash; Verifica della licenza, controlli di idoneità alla prova e applicazione del limite di dispositivi per le licenze a pagamento.</li>
+        <li><strong>Esecuzione di un contratto</strong> (articolo 6, paragrafo 1, lettera b), del GDPR) &mdash; Verifica della licenza e applicazione del limite di dispositivi per le licenze a pagamento.</li>
         <li><strong>Legittimi interessi</strong> (articolo 6, paragrafo 1, lettera f), del GDPR) &mdash; Memorizzazione delle preferenze locali e della cronologia recente delle scansioni necessarie per fornire le funzionalità di base dell'Estensione sul Suo dispositivo.</li>
       </ul>
 
       <h2>7. Servizi di Terzi e Trasferimenti Internazionali</h2>
-      <p>L'Estensione comunica con un backend di licenza ospitato su <strong>Supabase</strong>. Supabase agisce come nostro fornitore di infrastruttura per la verifica della licenza, la verifica della prova e la gestione dei dispositivi. Non vendiamo né divulghiamo i dati degli utenti dell'Estensione a terzi non collegati.</p>
+      <p>L'Estensione comunica con un backend di licenza ospitato su <strong>Supabase</strong>. Supabase agisce come nostro fornitore di infrastruttura per la verifica della licenza e la gestione dei dispositivi. Non vendiamo né divulghiamo i dati degli utenti dell'Estensione a terzi non collegati.</p>
       <p>L'infrastruttura di Supabase è ospitata su Amazon Web Services (AWS). I dati inviati al nostro backend possono essere trattati al di fuori dell'UE/SEE. Supabase dichiara di basarsi sulle <strong>Clausole Contrattuali Standard (SCC)</strong> per i trasferimenti internazionali. Per maggiori dettagli, si rimanda all'<a href="https://supabase.com/privacy" target="_blank" rel="noopener">Informativa sulla privacy di Supabase</a>.</p>
 
       <h2>8. Conservazione e Cancellazione dei Dati</h2>
       <ul>
-        <li>I record relativi a licenza, dispositivo e prova presenti sul nostro backend vengono conservati per il tempo necessario al funzionamento del sistema di licenze/prove, generalmente per la durata della Sua licenza, salvo che Lei richieda la cancellazione.</li>
+        <li>I record relativi a licenza e dispositivo presenti sul nostro backend vengono conservati per il tempo necessario al funzionamento del sistema di licenze, generalmente per la durata della Sua licenza, salvo che Lei richieda la cancellazione.</li>
         <li>Tratteremo le richieste di cancellazione dei record di backend entro <strong>30 giorni</strong>.</li>
         <li>La cronologia recente delle scansioni è limitata alle 20 voci più recenti archiviate localmente.</li>
         <li>Lo storage di sessione viene cancellato al termine della sessione del browser.</li>
@@ -1051,7 +1047,7 @@
         <li>브라우징 세션 중 세션 스토리지에 일시적으로 저장되는 <strong>네트워크 파일 기록</strong>(네트워크 모니터링을 통해 검출된 파일의 URL 및 메타데이터).</li>
       </ul>
       <p>당사는 귀하의 스캔 이력, 페이지 HTML, 파일 내용 또는 브라우징 활동을 당사 서버로 전송하지 않습니다.</p>
-      <p><strong>무료 체험 및 유료 라이선스:</strong> 본 확장 프로그램에는 14일 무료 체험 기간이 포함되어 있습니다. 무료 체험 기간이 만료된 후에도 계속 사용하시려면 유료 라이선스 키가 필요합니다. 체험 자격, 라이선스 활성화, 라이선스 갱신, 디바이스 수 제한 적용 및 실효 확인은 임의 디바이스 UUID와 해당하는 경우 라이선스 키를 사용하여 라이선스 백엔드에서 처리됩니다.</p>
+      <p><strong>무료 플랜 및 유료 라이선스:</strong> 본 확장 프로그램은 무료로 이용할 수 있습니다. 모든 기능이 포함되어 있으며 스캔, 검출, 목록 표시 및 미리보기는 무제한입니다. 유일한 제한은 1회 다운로드로 한 번에 최대 20개의 파일을 저장할 수 있다는 점입니다(다운로드를 반복하면 나머지도 무료로 저장할 수 있습니다). 선택 사항인 일회성 유료 라이선스는 이 다운로드당 제한을 해제하여 한 번에 모두 저장할 수 있게 하며, 최대 3대의 디바이스를 지원합니다. 체험 기간은 없습니다. 라이선스 활성화, 라이선스 갱신, 디바이스 수 제한 적용 및 실효 확인은 임의 디바이스 UUID와 해당하는 경우 라이선스 키를 사용하여 라이선스 백엔드에서 처리됩니다.</p>
       <p><strong>웹사이트에 대한 접근:</strong> 본 확장 프로그램은 이용자가 임의의 웹사이트를 스캔할 수 있고 대상 도메인을 사전에 알 수 없으므로 <code>https://*/*</code>에 대한 접근 권한을 요청합니다. 이 권한은 이용자가 스캔하기로 선택한 페이지 또는 URL에서 다운로드 가능한 링크와 파일 응답을 검출하고, 이용자가 선택한 파일을 다운로드하기 위하여 사용됩니다. 페이지 HTML, 브라우징 활동 또는 파일 내용을 당사 서버로 전송하기 위하여 사용되지 않습니다.</p>
 
       <h2>2. 네트워크 요청</h2>
@@ -1060,7 +1056,6 @@
         <li><strong>라이선스 검증</strong> &mdash; 라이선스 키가 입력되거나 재검증될 때, 본 확장 프로그램은 라이선스 키와 임의로 생성된 디바이스 식별자(UUID)를 당사 서버로 전송하여 라이선스를 검증하고 디바이스 수 제한을 적용합니다.</li>
         <li><strong>라이선스 토큰(JWT) 발급 및 갱신</strong> &mdash; 검증 성공 후 당사 서버는 라이선스 키, 디바이스 식별자, 부여된 기능 및 만료일을 포함한 단기 유효 서명 액세스 토큰(ES256 JWT, 7일 TTL)을 반환합니다. 본 확장 프로그램은 이 토큰을 로컬에 캐시하므로 이후 대부분의 라이선스 확인은 오프라인으로 처리됩니다. 토큰은 동일한 라이선스 키와 디바이스 식별자를 당사 서버로 송신하여, 통상 1일 1회 갱신됩니다.</li>
         <li><strong>실효 목록 갱신</strong> &mdash; 1일 1회, 본 확장 프로그램은 실효된 토큰 식별자(라이선스 키 미포함)의 작은 서명된 목록을 다운로드하여, 오프라인에서도 24시간 이내에 실효가 반영되도록 합니다. 이 요청에는 이용자 식별 정보가 일체 송신되지 않습니다.</li>
-        <li><strong>체험 검증</strong> &mdash; 무료 체험 기간 중에 본 확장 프로그램은 디바이스 식별자(UUID)를 당사 서버로 전송하여 체험 자격을 확인합니다.</li>
         <li><strong>디바이스 관리</strong> &mdash; 라이선스 화면에서 활성화된 디바이스를 보거나 제거할 때, 본 확장 프로그램은 라이선스 키, 현재 디바이스 식별자, 그리고 디바이스를 제거하는 경우 대상 디바이스 식별자를 당사 서버로 전송합니다.</li>
         <li><strong>이용자가 요청한 페이지 및 파일 접근</strong> &mdash; 페이지를 스캔하거나, URL을 입력하거나, 파일 메타데이터를 가져오거나, 파일을 다운로드하거나, PDF를 결합할 때, 본 확장 프로그램은 이용자가 선택한 대상 웹사이트에 직접 연결합니다. 이러한 요청은 당사 서버를 경유하지 않습니다.</li>
       </ul>
@@ -1071,11 +1066,11 @@
       <table>
         <tr><th>데이터</th><th>저장 위치</th><th>목적</th></tr>
         <tr><td>라이선스 키</td><td>Local</td><td>라이선스 검증 후 본 확장 프로그램의 활성화 상태를 유지하기 위함.</td></tr>
-        <tr><td>디바이스 ID(임의 UUID)</td><td>Local</td><td>라이선스 제한 및 체험 확인을 위해 본 설치를 식별하기 위함.</td></tr>
-        <tr><td>설치일</td><td>Local</td><td>14일 무료 체험 기간을 관리하기 위함.</td></tr>
-        <tr><td>최종 검증 / 최종 체험 확인 타임스탬프</td><td>Local</td><td>라이선스 검증 성공 후 제한된 오프라인 유예 기간을 허용하고 불필요한 서버 호출을 회피하기 위함.</td></tr>
+        <tr><td>디바이스 ID(임의 UUID)</td><td>Local</td><td>라이선스 제한을 위해 본 설치를 식별하기 위함.</td></tr>
+        <tr><td>설치일</td><td>Local</td><td>선택형 제거 설문조사에서 설치 후 경과 일수를 표시하기 위함.</td></tr>
+        <tr><td>최종 검증 타임스탬프</td><td>Local</td><td>라이선스 검증 성공 후 제한된 오프라인 유예 기간을 허용하고 불필요한 서버 호출을 회피하기 위함.</td></tr>
         <tr><td>라이선스 JWT 및 실효 캐시(서명 액세스 토큰, 만료일, 토큰 ID, 부여된 기능, 실효된 토큰 ID 목록)</td><td>Local</td><td>서버가 발급한 서명 토큰을 사용하여 오프라인에서 라이선스를 검증하고, 실효된 토큰을 차단하기 위함.</td></tr>
-        <tr><td>체험 만료 플래그 및 서버에서 반환된 라이선스 오류/상태</td><td>Local</td><td>브라우저 재시작 후에도 체험 만료 결과 및 서버 측 라이선스 검증 실패 결과를 유지하기 위함.</td></tr>
+        <tr><td>서버에서 반환된 라이선스 오류/상태</td><td>Local</td><td>브라우저 재시작 후에도 서버 측 라이선스 검증 실패 결과를 유지하기 위함.</td></tr>
         <tr><td>최근 스캔 이력(URL, 제목/호스트명, 타임스탬프)</td><td>Local</td><td>최근에 스캔한 페이지 및 입력한 URL을 빠른 접근을 위해 표시하기 위함.</td></tr>
         <tr><td>최종 소스 탭 ID</td><td>Local</td><td>팝업을 스캔 중이던 탭에 다시 연결하기 위함.</td></tr>
         <tr><td>창 크기</td><td>Local</td><td>팝업 창의 크기를 기억하기 위함.</td></tr>
@@ -1095,7 +1090,7 @@
         <tr><td><code>alarms</code></td><td>라이선스 및 실효 상태를 정기 일정으로 갱신하기 위함.</td></tr>
         <tr><td><code>notifications</code></td><td>다운로드 완료 및 라이선스 상태 알림을 표시하기 위함.</td></tr>
         <tr><td><code>contextMenus</code></td><td>페이지, 링크, 이미지 및 선택 영역에서 파일을 스캔하고 다운로드할 수 있도록 마우스 오른쪽 버튼 메뉴를 추가하기 위함.</td></tr>
-        <tr><td>필수 호스트 권한:<br><code>https://*/*</code></td><td>이용자가 선택한 임의의 웹사이트를 스캔할 수 있도록 하고, <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>의 라이선스/체험 검증 백엔드에 연결하기 위함. 대상 스캔 도메인은 이용자가 페이지를 선택하거나 URL을 입력하기 전에는 알 수 없으므로 광범위한 HTTPS 호스트 접근 권한이 필요합니다. 이 권한은 다운로드 가능한 링크, 페이지 내 fetch/XHR 파일 응답, 파일 메타데이터, 선택한 사이트에서의 선택 파일 다운로드, 라이선스/체험 확인을 검출하기 위해 사용됩니다. 스캔 이력, 페이지 HTML, 브라우징 활동 및 파일 내용은 당사 서버로 송신되지 않습니다.</td></tr>
+        <tr><td>필수 호스트 권한:<br><code>https://*/*</code></td><td>이용자가 선택한 임의의 웹사이트를 스캔할 수 있도록 하고, <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>의 라이선스 검증 백엔드에 연결하기 위함. 대상 스캔 도메인은 이용자가 페이지를 선택하거나 URL을 입력하기 전에는 알 수 없으므로 광범위한 HTTPS 호스트 접근 권한이 필요합니다. 이 권한은 다운로드 가능한 링크, 페이지 내 fetch/XHR 파일 응답, 파일 메타데이터, 선택한 사이트에서의 선택 파일 다운로드, 라이선스 확인을 검출하기 위해 사용됩니다. 스캔 이력, 페이지 HTML, 브라우징 활동 및 파일 내용은 당사 서버로 송신되지 않습니다.</td></tr>
       </table>
 
       <h2>5. 브라우징 관련 데이터의 이용</h2>
@@ -1114,23 +1109,23 @@
       <p>소스 트리에는 내부 디버깅 빌드용 임의의 오류 보고 후크(Sentry)가 존재하지만, 이는 빌드 타임 시크릿으로 게이트되어 있으며 Chrome Web Store&trade;, Microsoft Edge&trade; Add-ons 및 Firefox Add-ons를 통해 배포되는 빌드에서는 결코 활성화되지 않습니다. 향후 릴리스에서 이를 활성화하는 경우, 해당 릴리스가 출시되기 전에 본 개인정보처리방침이 갱신되며, 송신되는 데이터에서는 라이선스 키, 이메일 주소, JWT, 베어러 토큰, UUID, 쿼리 문자열 값, 파일 시스템 경로 및 URL 경로 본문이 사전에 마스킹됩니다.</p>
 
       <h2>5c. 제거 설문조사 (grab-all-files.app)</h2>
-      <p>본 확장 프로그램을 제거하면, 귀하의 브라우저가 <code>grab-all-files.app/uninstall</code>에서 간단한 선택형 피드백 페이지를 엽니다. 이 페이지의 주소에는 응답을 그룹화할 수 있도록 신원을 식별하지 않는 몇 가지 정보, 즉 본 확장 프로그램의 버전, 귀하의 인터페이스 언어, 설치 후 경과 일수, 그리고 귀하의 라이선스 등급(무료 체험 또는 유료)이 포함됩니다. 이 페이지는 웹사이트의 일부이며, 제5a조에 기재된 본 확장 프로그램 빌드와는 별개입니다.</p>
+      <p>본 확장 프로그램을 제거하면, 귀하의 브라우저가 <code>grab-all-files.app/uninstall</code>에서 간단한 선택형 피드백 페이지를 엽니다. 이 페이지의 주소에는 응답을 그룹화할 수 있도록 신원을 식별하지 않는 몇 가지 정보, 즉 본 확장 프로그램의 버전, 귀하의 인터페이스 언어, 설치 후 경과 일수, 그리고 귀하의 플랜(무료 또는 유료)이 포함됩니다. 이 페이지는 웹사이트의 일부이며, 제5a조에 기재된 본 확장 프로그램 빌드와는 별개입니다.</p>
       <p>귀하가 설문조사를 제출하기로 선택하는 경우 &mdash; 그리고 그 경우에 한하여 &mdash; 귀하가 선택한 사유, 귀하가 작성한 자유 입력 의견, 그리고 위에 기재된 정보가 당사의 Supabase 백엔드로 송신되어(제7조 참조) 본 확장 프로그램 개선에 활용하기 위하여 저장됩니다. 본 설문조사는 <strong>익명</strong>이며, <strong>디바이스 ID, 이메일 주소, IP 주소 또는 계정 식별자를 일체 포함하지 않습니다</strong>. 제출은 전적으로 임의이며 &mdash; 페이지를 그대로 닫으셔도 됩니다. 자유 입력 의견란에는 개인정보를 기재하지 말아 주십시오.</p>
 
       <h2>6. 처리의 법적 근거(GDPR 제6조)</h2>
       <p>EU/EEA 소재 이용자에 대해, 해당하는 경우 다음 법적 근거에 의거합니다.</p>
       <ul>
-        <li><strong>계약의 이행</strong>(GDPR Article 6(1)(b)) &mdash; 라이선스 검증, 체험 자격 확인 및 유료 라이선스에 대한 디바이스 수 제한 적용.</li>
+        <li><strong>계약의 이행</strong>(GDPR Article 6(1)(b)) &mdash; 라이선스 검증 및 유료 라이선스에 대한 디바이스 수 제한 적용.</li>
         <li><strong>정당한 이익</strong>(GDPR Article 6(1)(f)) &mdash; 귀하의 디바이스에서 본 확장 프로그램의 핵심 기능을 제공하기 위해 필요한 로컬 환경설정 및 최근 스캔 이력의 저장.</li>
       </ul>
 
       <h2>7. 제3자 서비스 및 국제 데이터 이전</h2>
-      <p>본 확장 프로그램은 <strong>Supabase</strong>에서 호스팅되는 라이선스 백엔드와 통신합니다. Supabase는 라이선스 검증, 체험 검증 및 디바이스 관리에 대한 당사의 인프라 제공자입니다. 당사는 본 확장 프로그램 이용자 데이터를 무관한 제3자에게 판매하거나 공개하지 않습니다.</p>
+      <p>본 확장 프로그램은 <strong>Supabase</strong>에서 호스팅되는 라이선스 백엔드와 통신합니다. Supabase는 라이선스 검증 및 디바이스 관리에 대한 당사의 인프라 제공자입니다. 당사는 본 확장 프로그램 이용자 데이터를 무관한 제3자에게 판매하거나 공개하지 않습니다.</p>
       <p>Supabase 인프라는 Amazon Web Services(AWS) 위에서 호스팅됩니다. 당사 백엔드로 송신되는 데이터는 EU/EEA 외부에서 처리될 수 있습니다. Supabase는 국제 이전에 대해 <strong>표준 계약 조항(SCC)</strong>에 의거한다고 명시하고 있습니다. 자세한 내용은 <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase의 개인정보처리방침</a>을 참조하시기 바랍니다.</p>
 
       <h2>8. 데이터 보유 및 삭제</h2>
       <ul>
-        <li>당사 백엔드의 라이선스, 디바이스 및 체험 관련 기록은 라이선스/체험 시스템의 운영에 필요한 기간 동안, 일반적으로 귀하가 삭제를 요청하지 않는 한 라이선스 유효 기간 동안 보유됩니다.</li>
+        <li>당사 백엔드의 라이선스 및 디바이스 관련 기록은 라이선스 시스템의 운영에 필요한 기간 동안, 일반적으로 귀하가 삭제를 요청하지 않는 한 라이선스 유효 기간 동안 보유됩니다.</li>
         <li>당사는 백엔드 기록에 대한 삭제 요청을 <strong>30일 이내</strong>에 처리합니다.</li>
         <li>최근 스캔 이력은 로컬에 저장되는 가장 최근 20개 항목으로 제한됩니다.</li>
         <li>세션 스토리지는 브라우저 세션이 종료되면 삭제됩니다.</li>
@@ -1196,7 +1191,7 @@
         <li><strong>registros de arquivos de rede</strong> (URLs e metadados de arquivos detectados via monitoramento de rede) armazenados temporariamente no armazenamento de sessão durante sua sessão de navegação.</li>
       </ul>
       <p>Não enviamos seu histórico de varreduras, o HTML das páginas, o conteúdo dos arquivos ou sua atividade de navegação aos nossos servidores.</p>
-      <p><strong>Período de avaliação e licença paga:</strong> A Extensão inclui um período de avaliação gratuita de 14 dias. Após o término do período de avaliação, o uso continuado exige uma chave de licença paga. A elegibilidade do período de avaliação, a ativação de licença, a renovação de licença, a aplicação de limite de dispositivos e as verificações de revogação são tratadas pelo backend de licenças usando um UUID aleatório do dispositivo e, quando aplicável, a chave de licença.</p>
+      <p><strong>Plano gratuito e licença paga:</strong> A Extensão é gratuita. Todos os recursos estão incluídos e a varredura, a detecção, a listagem e a pré-visualização são ilimitadas; o único limite é que um único download salva até 20 arquivos de uma vez (você pode repetir o download para salvar o restante, também gratuitamente). Uma licença paga opcional de pagamento único remove o limite por download, de modo que você pode salvar tudo de uma vez, e cobre até 3 dispositivos. Não há período de avaliação. A ativação de licença, a renovação de licença, a aplicação de limite de dispositivos e as verificações de revogação são tratadas pelo backend de licenças usando um UUID aleatório do dispositivo e, quando aplicável, a chave de licença.</p>
       <p><strong>Acesso a sites:</strong> A Extensão solicita acesso a <code>https://*/*</code> porque os usuários podem optar por escanear qualquer site e o domínio de destino não é conhecido com antecedência. Esse acesso é usado para detectar links baixáveis e respostas de arquivos em páginas ou URLs que você opta por escanear, e para baixar os arquivos que você seleciona. Não é usado para enviar HTML de páginas, atividade de navegação ou conteúdo de arquivos aos nossos servidores.</p>
 
       <h2>2. Solicitações de Rede</h2>
@@ -1205,7 +1200,6 @@
         <li><strong>Verificação de licença</strong> &mdash; Quando uma chave de licença é inserida ou revalidada, a Extensão envia a chave de licença e um identificador de dispositivo gerado aleatoriamente (UUID) ao nosso servidor para verificar a licença e aplicar os limites de dispositivos.</li>
         <li><strong>Emissão e renovação de token de licença (JWT)</strong> &mdash; Após uma verificação bem-sucedida, nosso servidor retorna um token de acesso assinado e de curta duração (ES256 JWT, TTL de 7 dias) que contém a chave de licença, o identificador do dispositivo, os recursos concedidos e a data de expiração. A Extensão armazena esse token localmente em cache, de forma que a maioria das verificações de licença subsequentes ocorra offline. O token é renovado pelo envio da mesma chave de licença e do identificador de dispositivo ao nosso servidor, geralmente uma vez por dia.</li>
         <li><strong>Atualização da lista de revogações</strong> &mdash; Uma vez por dia, a Extensão baixa uma pequena lista assinada de identificadores de tokens revogados (sem chaves de licença) para que as revogações entrem em vigor em até 24 horas, mesmo offline. Essa solicitação não envia nenhum dado de identificação do usuário.</li>
-        <li><strong>Verificação do período de avaliação</strong> &mdash; Durante o período de avaliação gratuito, a Extensão envia o identificador do dispositivo (UUID) ao nosso servidor para verificar a elegibilidade do período de avaliação.</li>
         <li><strong>Gerenciamento de dispositivos</strong> &mdash; Ao visualizar ou remover dispositivos ativados na tela de licença, a Extensão envia ao nosso servidor a chave de licença, o identificador do seu dispositivo atual e, se você remover um dispositivo, o identificador do dispositivo de destino.</li>
         <li><strong>Acesso a páginas e arquivos solicitado pelo usuário</strong> &mdash; Ao escanear uma página, inserir uma URL, obter metadados de arquivo, baixar arquivos ou mesclar PDFs, a Extensão se conecta diretamente ao site de destino selecionado por você. Essas solicitações não passam pelos nossos servidores.</li>
       </ul>
@@ -1216,11 +1210,11 @@
       <table>
         <tr><th>Dado</th><th>Armazenamento</th><th>Finalidade</th></tr>
         <tr><td>Chave de licença</td><td>Local</td><td>Manter a Extensão ativada após a verificação da licença.</td></tr>
-        <tr><td>ID do dispositivo (UUID aleatório)</td><td>Local</td><td>Identificar esta instalação para os limites de licença e as verificações do período de avaliação.</td></tr>
-        <tr><td>Data de instalação</td><td>Local</td><td>Gerenciar o período de avaliação gratuito de 14 dias.</td></tr>
-        <tr><td>Carimbos de hora da última verificação / da última checagem do período de avaliação</td><td>Local</td><td>Permitir um período de tolerância offline limitado após uma verificação de licença bem-sucedida e evitar chamadas redundantes ao servidor.</td></tr>
+        <tr><td>ID do dispositivo (UUID aleatório)</td><td>Local</td><td>Identificar esta instalação para os limites de licença.</td></tr>
+        <tr><td>Data de instalação</td><td>Local</td><td>Mostrar os dias desde a instalação na pesquisa de desinstalação opcional.</td></tr>
+        <tr><td>Carimbo de hora da última verificação</td><td>Local</td><td>Permitir um período de tolerância offline limitado após uma verificação de licença bem-sucedida e evitar chamadas redundantes ao servidor.</td></tr>
         <tr><td>JWT de licença e cache de revogações (token de acesso assinado, expiração, ID do token, recursos concedidos, lista de IDs de tokens revogados)</td><td>Local</td><td>Verificar a licença offline usando um token assinado emitido pelo servidor e bloquear tokens que tenham sido revogados.</td></tr>
-        <tr><td>Sinalizador de período de avaliação expirado e erro/status de licença retornados pelo servidor</td><td>Local</td><td>Preservar o resultado da expiração do período de avaliação e de verificações de licença que falharam no servidor entre reinicializações do navegador.</td></tr>
+        <tr><td>Erro/status de licença retornados pelo servidor</td><td>Local</td><td>Preservar o resultado de verificações de licença que falharam no servidor entre reinicializações do navegador.</td></tr>
         <tr><td>Histórico recente de varreduras (URLs, títulos/nomes de host, carimbos de hora)</td><td>Local</td><td>Mostrar páginas recentemente escaneadas e URLs inseridas para acesso rápido.</td></tr>
         <tr><td>ID da última aba de origem</td><td>Local</td><td>Reconectar o popup à aba que você estava escaneando.</td></tr>
         <tr><td>Tamanho da janela</td><td>Local</td><td>Lembrar as dimensões da janela do popup.</td></tr>
@@ -1240,7 +1234,7 @@
         <tr><td><code>alarms</code></td><td>Atualizar o status de licença e de revogações em uma programação periódica.</td></tr>
         <tr><td><code>notifications</code></td><td>Exibir notificações de conclusão de download e de status de licença.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Adicionar ações de clique direito para escanear e baixar arquivos a partir de páginas, links, imagens e seleções.</td></tr>
-        <tr><td>Permissão de host obrigatória:<br><code>https://*/*</code></td><td>Permitir que você escaneie qualquer site de sua escolha e conecte-se ao backend de verificação de licença/período de avaliação em <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>. O domínio-alvo da varredura não é conhecido antes que você escolha uma página ou insira uma URL, por isso é necessário um amplo acesso a hosts HTTPS. A permissão é usada para detectar links baixáveis, respostas de arquivo via fetch/XHR na página, metadados de arquivo, downloads de arquivos selecionados no site escolhido e verificações de licença/período de avaliação. Histórico de varreduras, HTML das páginas, atividade de navegação e conteúdo de arquivos não são enviados aos nossos servidores.</td></tr>
+        <tr><td>Permissão de host obrigatória:<br><code>https://*/*</code></td><td>Permitir que você escaneie qualquer site de sua escolha e conecte-se ao backend de verificação de licença em <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code>. O domínio-alvo da varredura não é conhecido antes que você escolha uma página ou insira uma URL, por isso é necessário um amplo acesso a hosts HTTPS. A permissão é usada para detectar links baixáveis, respostas de arquivo via fetch/XHR na página, metadados de arquivo, downloads de arquivos selecionados no site escolhido e verificações de licença. Histórico de varreduras, HTML das páginas, atividade de navegação e conteúdo de arquivos não são enviados aos nossos servidores.</td></tr>
       </table>
 
       <h2>5. Uso de Dados Relacionados à Navegação</h2>
@@ -1259,24 +1253,24 @@
       <p>Um gancho opcional de relatório de erros (Sentry) está presente na árvore de código-fonte para builds internos de depuração, mas é controlado por um segredo definido em tempo de build e nunca é habilitado no build distribuído pela Chrome Web Store&trade;, pela Microsoft Edge&trade; Add-ons e pela Firefox Add-ons. Se uma versão futura vier a habilitá-lo, esta Política de Privacidade será atualizada antes do lançamento dessa versão, e quaisquer dados enviados serão filtrados para remover (redact) chaves de licença, endereços de e-mail, JWTs, bearer tokens, UUIDs, valores de query string, caminhos do sistema de arquivos e corpos de caminhos de URL.</p>
 
       <h2>5c. Pesquisa de Desinstalação (grab-all-files.app)</h2>
-      <p>Quando você remove a Extensão, o seu navegador abre uma página de feedback curta e opcional em <code>grab-all-files.app/uninstall</code>. Seu endereço carrega alguns detalhes não identificadores para que possamos agrupar as respostas: a versão da Extensão, o idioma da sua interface, o número de dias desde a instalação e o seu nível de licença (período de avaliação ou licença paga). Esta página faz parte do site e é separada do build da Extensão descrito no &sect;5a.</p>
+      <p>Quando você remove a Extensão, o seu navegador abre uma página de feedback curta e opcional em <code>grab-all-files.app/uninstall</code>. Seu endereço carrega alguns detalhes não identificadores para que possamos agrupar as respostas: a versão da Extensão, o idioma da sua interface, o número de dias desde a instalação e o seu plano (gratuito ou pago). Esta página faz parte do site e é separada do build da Extensão descrito no &sect;5a.</p>
       <p>Se &mdash; e somente se &mdash; você optar por enviar a pesquisa, o motivo que você selecionar, qualquer comentário em texto livre que você escrever e os detalhes acima são enviados ao nosso backend no Supabase (consulte o &sect;7) e armazenados para nos ajudar a aprimorar a Extensão. A pesquisa é <strong>anônima</strong>: ela não contém <strong>nenhum ID de dispositivo, endereço de e-mail, endereço de IP ou identificador de conta</strong>. O envio é totalmente voluntário &mdash; você pode simplesmente fechar a página. Por favor, não inclua informações pessoais no comentário em texto livre.</p>
 
       <h2>6. Base legal para tratamento (RGPD/GDPR, artigo 6.º; LGPD, art. 7º, quando aplicável)</h2>
       <p>Para usuários na UE/EEE, baseamo-nos nas seguintes bases legais previstas no RGPD/GDPR, quando aplicáveis:</p>
       <ul>
-        <li><strong>Execução de contrato</strong> (artigo 6.º, n.º 1, alínea b), do RGPD/GDPR) &mdash; Verificação de licença, checagens de elegibilidade do período de avaliação e aplicação dos limites de dispositivos para licenças pagas.</li>
+        <li><strong>Execução de contrato</strong> (artigo 6.º, n.º 1, alínea b), do RGPD/GDPR) &mdash; Verificação de licença e aplicação dos limites de dispositivos para licenças pagas.</li>
         <li><strong>Interesses legítimos</strong> (artigo 6.º, n.º 1, alínea f), do RGPD/GDPR) &mdash; Armazenamento de preferências locais e do histórico recente de varreduras necessários para fornecer a funcionalidade central da Extensão em seu dispositivo.</li>
       </ul>
       <p>Para usuários no Brasil, quando a Lei Geral de Proteção de Dados (LGPD) se aplicar, as bases correspondentes incluem a execução de contrato (art. 7º, V) e, quando cabível, o legítimo interesse (art. 7º, IX), sempre observado o balanceamento exigido pela lei.</p>
 
       <h2>7. Serviços de Terceiros e Transferências Internacionais</h2>
-      <p>A Extensão se comunica com um backend de licenças hospedado no <strong>Supabase</strong>. O Supabase atua como nosso provedor de infraestrutura para verificação de licença, verificação do período de avaliação e gerenciamento de dispositivos. Não vendemos nem divulgamos os dados dos usuários da Extensão a terceiros não relacionados.</p>
+      <p>A Extensão se comunica com um backend de licenças hospedado no <strong>Supabase</strong>. O Supabase atua como nosso provedor de infraestrutura para verificação de licença e gerenciamento de dispositivos. Não vendemos nem divulgamos os dados dos usuários da Extensão a terceiros não relacionados.</p>
       <p>A infraestrutura do Supabase é hospedada na Amazon Web Services (AWS). Os dados enviados ao nosso backend podem ser tratados fora da UE/EEE. O Supabase declara que se baseia em <strong>Cláusulas Contratuais Padrão (SCCs)</strong> para transferências internacionais. Consulte a <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Supabase</a> para mais detalhes.</p>
 
       <h2>8. Retenção e Exclusão de Dados</h2>
       <ul>
-        <li>Os registros relativos a licença, dispositivo e período de avaliação em nosso backend são retidos pelo tempo necessário para operar o sistema de licença/período de avaliação, geralmente pela duração da sua licença, salvo se você solicitar exclusão.</li>
+        <li>Os registros relativos a licença e dispositivo em nosso backend são retidos pelo tempo necessário para operar o sistema de licença, geralmente pela duração da sua licença, salvo se você solicitar exclusão.</li>
         <li>Atenderemos solicitações de exclusão de registros do backend em até <strong>30 dias</strong>.</li>
         <li>O histórico recente de varreduras é limitado às 20 entradas mais recentes armazenadas localmente.</li>
         <li>O armazenamento de sessão é apagado quando a sessão do navegador é encerrada.</li>
@@ -1342,7 +1336,7 @@
   <li><strong>网络文件记录</strong>（通过网络监控所检测到的文件 URL 与元数据），在您浏览会话期间临时存储于会话存储中。</li>
 </ul>
 <p>我们不会将您的扫描历史、页面 HTML、文件内容或浏览活动发送至我方服务器。</p>
-<p><strong>试用与付费许可证：</strong>本扩展程序提供 14 天免费试用。试用期届满后，继续使用须使用付费许可证密钥。试用资格、许可证激活、许可证刷新、设备数量限制及撤销检查均由许可证后端使用随机设备 UUID 处理，并在适用情形下使用许可证密钥。</p>
+<p><strong>免费方案与付费许可证：</strong>本扩展程序可免费使用。所有功能均包含在内，扫描、检测、列表与预览均不受限制；唯一的限制是单次下载一次最多保存 20 个文件（您可重复下载以保存其余文件，仍然免费）。可选的一次性付费许可证将解除该每次下载的限制，让您可一次性保存全部文件，并支持最多 3 台设备。没有试用。许可证激活、许可证刷新、设备数量限制及撤销检查均由许可证后端使用随机设备 UUID 处理，并在适用情形下使用许可证密钥。</p>
 <p><strong>对网站的访问：</strong>由于用户可选择扫描任何网站且无法事先得知目标域名，本扩展程序请求 <code>https://*/*</code> 的访问权限。该权限用于在您选择扫描的页面或 URL 上检测可下载的链接和文件响应，以及下载您所选择的文件。该权限不用于将页面 HTML、浏览活动或文件内容发送至我方服务器。</p>
 
 <h2>2. 网络请求</h2>
@@ -1351,7 +1345,6 @@
   <li><strong>许可证验证</strong> &mdash; 输入或重新验证许可证密钥时，本扩展程序将向我方服务器发送许可证密钥及随机生成的设备标识符（UUID），以验证许可证并执行设备数量限制。</li>
   <li><strong>许可证令牌（JWT）签发与刷新</strong> &mdash; 验证成功后，我方服务器返回一份短期签名访问令牌（ES256 JWT，TTL 为 7 天），其中包含许可证密钥、设备标识符、所授功能及到期时间。本扩展程序将该令牌缓存于本地，使大多数后续许可证检查可在离线状态下完成。本扩展程序通常每日一次将相同的许可证密钥与设备标识符发送至我方服务器以刷新令牌。</li>
   <li><strong>撤销列表刷新</strong> &mdash; 本扩展程序每日下载一份小型的、已签名的已撤销令牌标识符列表（不含许可证密钥），以使撤销在 24 小时内即使在离线状态下也能生效。该请求不发送任何识别用户的数据。</li>
-  <li><strong>试用验证</strong> &mdash; 在免费试用期间，本扩展程序将向我方服务器发送设备标识符（UUID）以验证试用资格。</li>
   <li><strong>设备管理</strong> &mdash; 当您在许可证界面查看或移除已激活设备时，本扩展程序将向我方服务器发送许可证密钥、当前设备标识符，以及在您移除某台设备时所选目标设备的标识符。</li>
   <li><strong>用户发起的页面与文件访问</strong> &mdash; 当您扫描页面、输入 URL、获取文件元数据、下载文件或合并 PDF 时，本扩展程序将直接连接至您所选定的目标网站。该等请求不经由我方服务器中转。</li>
 </ul>
@@ -1362,11 +1355,11 @@
 <table>
   <tr><th>数据</th><th>存储位置</th><th>用途</th></tr>
   <tr><td>许可证密钥</td><td>Local</td><td>在许可证验证后保持本扩展程序的激活状态。</td></tr>
-  <tr><td>设备 ID（随机 UUID）</td><td>Local</td><td>识别本次安装，用于许可证数量限制及试用检查。</td></tr>
-  <tr><td>安装日期</td><td>Local</td><td>管理 14 天免费试用期。</td></tr>
-  <tr><td>上次验证 / 上次试用检查时间戳</td><td>Local</td><td>在许可证检查成功后给予有限的离线宽限期，并避免重复的服务器调用。</td></tr>
+  <tr><td>设备 ID（随机 UUID）</td><td>Local</td><td>识别本次安装，用于许可证数量限制。</td></tr>
+  <tr><td>安装日期</td><td>Local</td><td>在可选的卸载调查问卷中显示自安装以来的天数。</td></tr>
+  <tr><td>上次验证时间戳</td><td>Local</td><td>在许可证检查成功后给予有限的离线宽限期，并避免重复的服务器调用。</td></tr>
   <tr><td>许可证 JWT 与撤销缓存（已签名访问令牌、到期时间、令牌 ID、所授功能、已撤销令牌 ID 列表）</td><td>Local</td><td>使用服务器签发的已签名令牌进行离线验证，并阻止已被撤销的令牌。</td></tr>
-  <tr><td>试用过期标志及服务器返回的许可证错误／状态</td><td>Local</td><td>在浏览器重启后保留试用过期及服务器端许可证检查失败的结果。</td></tr>
+  <tr><td>服务器返回的许可证错误／状态</td><td>Local</td><td>在浏览器重启后保留服务器端许可证检查失败的结果。</td></tr>
   <tr><td>近期扫描历史（URL、标题／主机名、时间戳）</td><td>Local</td><td>展示近期扫描过的页面及输入过的 URL，便于快速访问。</td></tr>
   <tr><td>上次源标签页 ID</td><td>Local</td><td>将弹出窗口重新连接至您先前正在扫描的标签页。</td></tr>
   <tr><td>窗口大小</td><td>Local</td><td>记忆弹出窗口的尺寸。</td></tr>
@@ -1386,7 +1379,7 @@
   <tr><td><code>alarms</code></td><td>按周期性计划刷新许可证及撤销状态。</td></tr>
   <tr><td><code>notifications</code></td><td>显示下载完成及许可证状态通知。</td></tr>
   <tr><td><code>contextMenus</code></td><td>添加用于从页面、链接、图片及选中内容扫描和下载文件的右键菜单操作。</td></tr>
-  <tr><td>必需的主机权限：<br><code>https://*/*</code></td><td>允许您扫描任意所选网站，并连接至 <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code> 处的许可证／试用验证后端。在您选择页面或输入 URL 之前，目标扫描域名无法事先得知，因此需要广泛的 HTTPS 主机访问权限。该权限用于检测所选网站上的可下载链接、页面内 fetch/XHR 文件响应、文件元数据、所选文件下载，以及许可证／试用检查。扫描历史、页面 HTML、浏览活动及文件内容均不会发送至我方服务器。</td></tr>
+  <tr><td>必需的主机权限：<br><code>https://*/*</code></td><td>允许您扫描任意所选网站，并连接至 <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code> 处的许可证验证后端。在您选择页面或输入 URL 之前，目标扫描域名无法事先得知，因此需要广泛的 HTTPS 主机访问权限。该权限用于检测所选网站上的可下载链接、页面内 fetch/XHR 文件响应、文件元数据、所选文件下载，以及许可证检查。扫描历史、页面 HTML、浏览活动及文件内容均不会发送至我方服务器。</td></tr>
 </table>
 
 <h2>5. 浏览相关数据的使用</h2>
@@ -1405,23 +1398,23 @@
 <p>源代码树中存在一项可选的错误报告挂钩（Sentry）以供内部调试构建使用，但其受构建期密钥控制，且在通过 Chrome Web Store&trade;、Microsoft Edge&trade; Add-ons 与 Firefox Add-ons 分发的版本中绝不会启用。如未来某次发布拟启用该功能，本隐私政策将于该版本发布前先行更新，且所发送的任何数据将经过过滤以隐去许可证密钥、邮箱地址、JWT、Bearer 令牌、UUID、查询字符串值、文件系统路径以及 URL 路径主体。</p>
 
 <h2>5c. 卸载调查问卷（grab-all-files.app）</h2>
-<p>当您移除本扩展程序时，您的浏览器会打开一个简短的、可选的反馈页面，地址为 <code>grab-all-files.app/uninstall</code>。该地址附带少量不具识别性的信息，以便我们对回复进行归类：本扩展程序版本、您的界面语言、自安装以来的天数，以及您的许可证级别（试用或付费）。该页面属于本网站的一部分，与第5a条所述的本扩展程序构建版本相互独立。</p>
+<p>当您移除本扩展程序时，您的浏览器会打开一个简短的、可选的反馈页面，地址为 <code>grab-all-files.app/uninstall</code>。该地址附带少量不具识别性的信息，以便我们对回复进行归类：本扩展程序版本、您的界面语言、自安装以来的天数，以及您的方案（免费或付费）。该页面属于本网站的一部分，与第5a条所述的本扩展程序构建版本相互独立。</p>
 <p>仅在 &mdash; 且只有在 &mdash; 您选择提交该问卷时，您所选择的原因、您所填写的任何自由文本意见，以及上述信息，才会被发送至我方的 Supabase 后端（参见第7条）并予以存储，以协助我们改进本扩展程序。该问卷为 <strong>匿名</strong>：其中 <strong>不包含任何设备 ID、电子邮件地址、IP 地址或账户标识符</strong>。提交完全出于自愿 &mdash; 您也可以直接关闭该页面。请勿在自由文本意见中填写个人信息。</p>
 
 <h2>6. 处理的法律依据（GDPR 第 6 条）</h2>
 <p>对于位于欧盟／欧洲经济区的用户，我们在适用情形下依据下列法律依据处理数据：</p>
 <ul>
-  <li><strong>合同履行</strong>（第 6(1)(b) 条） &mdash; 用于付费许可证的许可证验证、试用资格检查及设备数量限制执行。</li>
+  <li><strong>合同履行</strong>（第 6(1)(b) 条） &mdash; 用于付费许可证的许可证验证及设备数量限制执行。</li>
   <li><strong>正当利益</strong>（第 6(1)(f) 条） &mdash; 用于在您设备上存储为提供本扩展程序核心功能所必需的本地偏好设置和近期扫描历史。</li>
 </ul>
 
 <h2>7. 第三方服务与国际数据传输</h2>
-<p>本扩展程序与托管于 <strong>Supabase</strong> 的许可证后端通信。Supabase 在许可证验证、试用验证和设备管理方面充当我方的基础设施提供商。我们不会将本扩展程序的用户数据出售或披露给无关的第三方。</p>
+<p>本扩展程序与托管于 <strong>Supabase</strong> 的许可证后端通信。Supabase 在许可证验证和设备管理方面充当我方的基础设施提供商。我们不会将本扩展程序的用户数据出售或披露给无关的第三方。</p>
 <p>Supabase 的基础设施托管于 Amazon Web Services（AWS）。发送至我方后端的数据可能在欧盟／欧洲经济区以外被处理。Supabase 表示其国际传输依赖 <strong>标准合同条款（SCC）</strong>。详情请参阅 <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase 的隐私政策</a>。</p>
 
 <h2>8. 数据保留与删除</h2>
 <ul>
-  <li>我方后端上的许可证、设备及试用相关记录将保留至运行许可证／试用系统所必需的期间，通常为您的许可证有效期，除非您请求删除。</li>
+  <li>我方后端上的许可证及设备相关记录将保留至运行许可证系统所必需的期间，通常为您的许可证有效期，除非您请求删除。</li>
   <li>我们将在 <strong>30 天内</strong> 处理对后端记录的删除请求。</li>
   <li>近期扫描历史在本地最多保存最近 20 条记录。</li>
   <li>会话存储在浏览器会话结束时清除。</li>
@@ -1487,7 +1480,7 @@
   <li><strong>網路檔案紀錄</strong>（透過網路監控所偵測到之檔案 URL 與中繼資料），於您之瀏覽工作階段期間暫存於工作階段儲存空間中。</li>
 </ul>
 <p>我方不會將您之掃描紀錄、頁面 HTML、檔案內容或瀏覽活動傳送至我方伺服器。</p>
-<p><strong>試用與付費授權：</strong>本擴充功能提供 14 天之免費試用。試用期屆滿後，繼續使用須使用付費授權金鑰。試用資格、授權啟用、授權更新、裝置數量限制及撤銷檢查均由授權後端使用隨機裝置 UUID 處理；於適用情形下，並使用授權金鑰。</p>
+<p><strong>免費方案與付費授權：</strong>本擴充功能可免費使用。所有功能均包含在內，掃描、偵測、列表與預覽均不受限制；唯一之限制為單次下載一次最多儲存 20 個檔案（您可重複下載以儲存其餘檔案，仍為免費）。選用之一次性付費授權將解除該每次下載之限制，使您得一次儲存全部檔案，並支援最多 3 台裝置。並無試用。授權啟用、授權更新、裝置數量限制及撤銷檢查均由授權後端使用隨機裝置 UUID 處理；於適用情形下，並使用授權金鑰。</p>
 <p><strong>對網站之存取：</strong>由於使用者得選擇掃描任何網站，且目標網域無法事先得知，本擴充功能因此申請 <code>https://*/*</code> 之存取權限。此權限用於偵測您所選掃描之頁面或 URL 上之可下載連結與檔案回應，並下載您所選擇之檔案。此權限不用於將頁面 HTML、瀏覽活動或檔案內容傳送至我方伺服器。</p>
 
 <h2>2. 網路請求</h2>
@@ -1496,7 +1489,6 @@
   <li><strong>授權驗證</strong> &mdash; 於輸入或重新驗證授權金鑰時，本擴充功能將向我方伺服器傳送授權金鑰及隨機產生之裝置識別碼（UUID），以驗證授權並執行裝置數量限制。</li>
   <li><strong>授權權杖（JWT）核發與更新</strong> &mdash; 驗證成功後，我方伺服器將回傳一份短期之簽署存取權杖（ES256 JWT，TTL 為 7 天），其中含有授權金鑰、裝置識別碼、所授功能及到期時間。本擴充功能將該權杖快取於本地，使後續多數授權檢查得於離線狀態下進行。本擴充功能通常每日一次將相同之授權金鑰與裝置識別碼傳送至我方伺服器，以更新權杖。</li>
   <li><strong>撤銷清單更新</strong> &mdash; 本擴充功能每日下載一份小型之、已簽署之已撤銷權杖識別碼清單（不含授權金鑰），俾撤銷得於 24 小時內生效，縱於離線狀態亦然。此請求不傳送任何使用者識別資料。</li>
-  <li><strong>試用驗證</strong> &mdash; 於免費試用期間，本擴充功能將向我方伺服器傳送裝置識別碼（UUID）以驗證試用資格。</li>
   <li><strong>裝置管理</strong> &mdash; 當您於授權畫面檢視或移除已啟用之裝置時，本擴充功能將向我方伺服器傳送授權金鑰、目前之裝置識別碼，並於您移除某台裝置時，傳送目標裝置之識別碼。</li>
   <li><strong>使用者要求之頁面與檔案存取</strong> &mdash; 當您掃描頁面、輸入 URL、取得檔案中繼資料、下載檔案或合併 PDF 時，本擴充功能將直接連線至您所選定之目標網站。該等請求不會經由我方伺服器中轉。</li>
 </ul>
@@ -1507,11 +1499,11 @@
 <table>
   <tr><th>資料</th><th>儲存位置</th><th>用途</th></tr>
   <tr><td>授權金鑰</td><td>Local</td><td>於授權驗證後維持本擴充功能之啟用狀態。</td></tr>
-  <tr><td>裝置 ID（隨機 UUID）</td><td>Local</td><td>識別本次安裝，用於授權數量限制及試用檢查。</td></tr>
-  <tr><td>安裝日期</td><td>Local</td><td>管理 14 天免費試用期。</td></tr>
-  <tr><td>上次驗證／上次試用檢查時間戳記</td><td>Local</td><td>於授權檢查成功後給予有限之離線寬限期，並避免重複向伺服器發出請求。</td></tr>
+  <tr><td>裝置 ID（隨機 UUID）</td><td>Local</td><td>識別本次安裝，用於授權數量限制。</td></tr>
+  <tr><td>安裝日期</td><td>Local</td><td>於選用之解除安裝問卷中顯示自安裝起算之天數。</td></tr>
+  <tr><td>上次驗證時間戳記</td><td>Local</td><td>於授權檢查成功後給予有限之離線寬限期，並避免重複向伺服器發出請求。</td></tr>
   <tr><td>授權 JWT 與撤銷快取（已簽署存取權杖、到期時間、權杖 ID、所授功能、已撤銷權杖 ID 清單）</td><td>Local</td><td>使用伺服器核發之已簽署權杖進行離線授權驗證，並阻擋已遭撤銷之權杖。</td></tr>
-  <tr><td>試用過期旗標及伺服器回傳之授權錯誤／狀態</td><td>Local</td><td>於瀏覽器重新啟動後保留試用過期及伺服器端授權檢查失敗之結果。</td></tr>
+  <tr><td>伺服器回傳之授權錯誤／狀態</td><td>Local</td><td>於瀏覽器重新啟動後保留伺服器端授權檢查失敗之結果。</td></tr>
   <tr><td>近期掃描紀錄（URL、標題／主機名稱、時間戳記）</td><td>Local</td><td>顯示近期掃描過之頁面及輸入過之 URL 以便快速存取。</td></tr>
   <tr><td>上次來源分頁 ID</td><td>Local</td><td>將彈出視窗重新連接至您先前掃描之分頁。</td></tr>
   <tr><td>視窗大小</td><td>Local</td><td>記憶彈出視窗之尺寸。</td></tr>
@@ -1531,7 +1523,7 @@
   <tr><td><code>alarms</code></td><td>依週期性排程更新授權及撤銷狀態。</td></tr>
   <tr><td><code>notifications</code></td><td>顯示下載完成及授權狀態之通知。</td></tr>
   <tr><td><code>contextMenus</code></td><td>新增可從頁面、連結、圖片與選取範圍掃描及下載檔案之滑鼠右鍵動作。</td></tr>
-  <tr><td>必要之主機權限：<br><code>https://*/*</code></td><td>使您得掃描任何所選網站，並連線至 <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code> 之授權／試用驗證後端。在您選擇頁面或輸入 URL 之前，目標掃描網域無法事先得知，故需要廣泛之 HTTPS 主機存取權。此權限用於偵測所選網站上之可下載連結、頁面內 fetch/XHR 檔案回應、檔案中繼資料、所選檔案之下載，以及授權／試用檢查。掃描紀錄、頁面 HTML、瀏覽活動及檔案內容均不會傳送至我方伺服器。</td></tr>
+  <tr><td>必要之主機權限：<br><code>https://*/*</code></td><td>使您得掃描任何所選網站，並連線至 <code>https://umczaaooqinddgnhxbvp.supabase.co/*</code> 之授權驗證後端。在您選擇頁面或輸入 URL 之前，目標掃描網域無法事先得知，故需要廣泛之 HTTPS 主機存取權。此權限用於偵測所選網站上之可下載連結、頁面內 fetch/XHR 檔案回應、檔案中繼資料、所選檔案之下載，以及授權檢查。掃描紀錄、頁面 HTML、瀏覽活動及檔案內容均不會傳送至我方伺服器。</td></tr>
 </table>
 
 <h2>5. 瀏覽相關資料之使用</h2>
@@ -1550,23 +1542,23 @@
 <p>原始碼樹中存在一項供內部除錯版本使用之選用錯誤報告掛勾（Sentry），惟其受建置期密碼控管，並於透過 Chrome Web Store&trade;、Microsoft Edge&trade; Add-ons 與 Firefox Add-ons 散布之版本中絕不啟用。如未來某次版本擬予啟用，本隱私權政策將於該版本發行前先行更新，且所傳送之任何資料將經過濾以遮蔽授權金鑰、電子郵件地址、JWT、Bearer 權杖、UUID、查詢字串值、檔案系統路徑及 URL 路徑主體。</p>
 
 <h2>5c. 解除安裝問卷（grab-all-files.app）</h2>
-<p>當您移除本擴充功能時，您之瀏覽器將開啟一個簡短且選用之意見回饋頁面，網址為 <code>grab-all-files.app/uninstall</code>。該網址附帶若干不具識別性之資訊，俾使我方得以將回應加以分組：本擴充功能之版本、您之介面語言、自安裝起算之天數，以及您之授權等級（試用或付費）。此頁面為本網站之一部分，與第 5a 節所述之本擴充功能建置版本相互獨立。</p>
+<p>當您移除本擴充功能時，您之瀏覽器將開啟一個簡短且選用之意見回饋頁面，網址為 <code>grab-all-files.app/uninstall</code>。該網址附帶若干不具識別性之資訊，俾使我方得以將回應加以分組：本擴充功能之版本、您之介面語言、自安裝起算之天數，以及您之方案（免費或付費）。此頁面為本網站之一部分，與第 5a 節所述之本擴充功能建置版本相互獨立。</p>
 <p>唯有 &mdash; 且僅當 &mdash; 您選擇提交該問卷時，您所選定之理由、您所撰寫之任何自由文字意見，以及上述各項資訊，方會傳送至我方 Supabase 後端（詳見第 7 節）並予以儲存，以協助我方改善本擴充功能。該問卷為<strong>匿名</strong>：其<strong>不含任何裝置 ID、電子郵件地址、IP 位址或帳號識別碼</strong>。提交與否完全出於自願 &mdash; 您亦可逕行關閉該頁面。請勿於自由文字意見中填入個人資訊。</p>
 
 <h2>6. 處理之法律依據（GDPR 第 6 條）</h2>
 <p>就位於歐盟／歐洲經濟區之使用者，我方於適用情形下依據下列法律依據進行處理：</p>
 <ul>
-  <li><strong>契約之履行</strong>（第 6(1)(b) 條） &mdash; 用於付費授權之授權驗證、試用資格檢查及裝置數量限制之執行。</li>
+  <li><strong>契約之履行</strong>（第 6(1)(b) 條） &mdash; 用於付費授權之授權驗證及裝置數量限制之執行。</li>
   <li><strong>正當利益</strong>（第 6(1)(f) 條） &mdash; 用於儲存於您裝置上之本地偏好設定及近期掃描紀錄，以提供本擴充功能之核心功能。</li>
 </ul>
 
 <h2>7. 第三方服務與國際資料移轉</h2>
-<p>本擴充功能與託管於 <strong>Supabase</strong> 之授權後端進行通訊。Supabase 於授權驗證、試用驗證及裝置管理方面擔任我方之基礎設施提供者。我方不會將本擴充功能使用者之資料販售或揭露予無關之第三人。</p>
+<p>本擴充功能與託管於 <strong>Supabase</strong> 之授權後端進行通訊。Supabase 於授權驗證及裝置管理方面擔任我方之基礎設施提供者。我方不會將本擴充功能使用者之資料販售或揭露予無關之第三人。</p>
 <p>Supabase 之基礎設施託管於 Amazon Web Services（AWS）。傳送至我方後端之資料可能於歐盟／歐洲經濟區以外處理。Supabase 表示其國際移轉係依賴 <strong>標準契約條款（SCC）</strong>。詳情請參閱 <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase 之隱私權政策</a>。</p>
 
 <h2>8. 資料保存與刪除</h2>
 <ul>
-  <li>我方後端上之授權、裝置及試用相關紀錄，將保存至運作授權／試用系統所必要之期間，通常為您授權之有效期間，除非您要求刪除。</li>
+  <li>我方後端上之授權及裝置相關紀錄，將保存至運作授權系統所必要之期間，通常為您授權之有效期間，除非您要求刪除。</li>
   <li>我方將於 <strong>30 日內</strong> 處理對後端紀錄之刪除請求。</li>
   <li>近期掃描紀錄於本地最多保留最近 20 筆。</li>
   <li>工作階段儲存於瀏覽器工作階段結束時清除。</li>
