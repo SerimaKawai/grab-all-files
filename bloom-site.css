@@ -30,6 +30,13 @@
   --border: #363442; --border-strong: #433F4F;
 
   --primary: #8194FF; --primary-hover: #9AA8FF;
+  /* On-primary LABEL only. In dark mode --primary is a light periwinkle (#8194FF),
+     so white text on it is 2.76:1 (sub-AA). --primary-text is used exclusively on
+     `background: var(--primary)` fills (.btn-primary, .step-num, .ribbon,
+     .mock-btn.primary, .skip-link) — never on links/outline text — so a dark ink
+     here makes those filled labels 6.2:1 (AA) without dimming any --primary text.
+     Global --primary is left untouched (links/accent-icon stay #8194FF). */
+  --primary-text: #1A1922;
   --accent-soft: #2E2C48; --accent-soft-text: #B8C0FF; --accent-icon: #9AA6FF;
   --check: #3FBE88;
 
@@ -88,6 +95,13 @@ h1, h2, h3, .brand-name { font-weight: 700; }
 .final-cta .store-btn:hover { color: #4B66E1 !important; }
 .final-cta .store-btn::after,
 .final-cta .store-btn:hover::after { color: #4B66E1 !important; }
+
+/* Landing cta-strip primary is an INVERTED button (white fill,
+   `color: var(--primary)` label). In dark mode --primary is light (#8194FF), so
+   its label is light-on-white (2.76:1). Pin it to Bloom periwinkle #4B66E1
+   (4.90:1 on white, identical to light mode). This is a filled button label, not
+   a link/outline on a dark surface, so it honors "keep --primary text #8194FF". */
+.cta-strip .btn-primary { color: #4B66E1; }
 
 .ext-pdf  { background: #C0443C !important; }
 .ext-docx { background: #2C5EB8 !important; }
