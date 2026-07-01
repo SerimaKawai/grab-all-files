@@ -23,7 +23,7 @@
       useCases: "Use cases",
       security: "Security",
       pricing: "Pricing",
-      install: "Install free trial",
+      install: "Install free",
       dlHeading: "Download Grab All Files in your browser:",
       dlChrome: "Download for Chrome",
       dlEdge: "Download for Edge",
@@ -37,11 +37,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Purchase",
       license: "$19.99 lifetime license",
-      trial: "14-day full-feature trial",
+      trial: "Free plan — every feature",
       local: "PDF merge, ZIP, and CSV run locally in the browser",
       privacy: "Files download directly from the source site to your device",
       ctaTitle: "Try Grab All Files on your browser.",
-      ctaText: "Install the extension, run a real scan on the page you need, and decide during the 14-day free trial.",
+      ctaText: "Install the extension and run a real scan on the page you need — free to use, every feature included, up to 20 files per download. Pro ($19.99, one-time) removes the per-download limit.",
       footer: "Independent browser extension by Serima Kawai. Not affiliated with Google, Microsoft, or Mozilla."
     },
     ja: {
@@ -63,11 +63,11 @@
       firefox: "Firefox アドオン",
       purchase: "購入",
       license: "$19.99 永続ライセンス",
-      trial: "14日間フル機能無料トライアル",
+      trial: "無料プラン — 全機能を利用可能",
       local: "PDF結合・ZIP化・CSV出力はブラウザ内でローカル処理",
       privacy: "ファイルは元サイトから端末へ直接ダウンロード",
       ctaTitle: "実際のページで Grab All Files を試せます。",
-      ctaText: "拡張機能をインストールし、対象ページでスキャンを実行。14日間の無料トライアル中に判断できます。",
+      ctaText: "拡張機能をインストールし、対象ページで実際にスキャン。無料で全機能を利用でき、1回のダウンロードで最大20件まで保存できます。Pro（$19.99・買い切り）で1回あたりの上限を解除。",
       footer: "Serima Kawai による独立したブラウザ拡張機能。Google、Microsoft、Mozillaとは提携していません。"
     },
     es: {
@@ -89,11 +89,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Comprar",
       license: "Licencia de por vida por $19.99",
-      trial: "Prueba completa de 14 días",
+      trial: "Plan gratuito — todas las funciones",
       local: "PDF, ZIP y CSV se procesan localmente en el navegador",
       privacy: "Los archivos se descargan del sitio fuente a tu dispositivo",
       ctaTitle: "Prueba Grab All Files en tu navegador.",
-      ctaText: "Instala la extensión, escanea una página real y decide durante la prueba gratuita.",
+      ctaText: "Instala la extensión y escanea una página real: gratis, con todas las funciones y hasta 20 archivos por descarga. Pro ($19.99, pago único) elimina el límite por descarga.",
       footer: "Extensión independiente de Serima Kawai. Sin afiliación con Google, Microsoft ni Mozilla."
     },
     fr: {
@@ -115,11 +115,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Acheter",
       license: "Licence à vie $19.99",
-      trial: "Essai complet de 14 jours",
+      trial: "Offre gratuite — toutes les fonctions",
       local: "PDF, ZIP et CSV restent traités localement dans le navigateur",
       privacy: "Les fichiers se téléchargent du site source vers votre appareil",
       ctaTitle: "Essayez Grab All Files dans votre navigateur.",
-      ctaText: "Installez l'extension, lancez un vrai scan et décidez pendant l'essai gratuit.",
+      ctaText: "Installez l'extension et lancez un vrai scan : gratuit, toutes les fonctions incluses, jusqu'à 20 fichiers par téléchargement. Pro (19,99 $, achat unique) supprime la limite par téléchargement.",
       footer: "Extension indépendante par Serima Kawai. Non affiliée à Google, Microsoft ou Mozilla."
     },
     de: {
@@ -141,11 +141,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Kaufen",
       license: "$19.99 lebenslange Lizenz",
-      trial: "14 Tage Test mit allen Funktionen",
+      trial: "Kostenloser Plan — alle Funktionen",
       local: "PDF, ZIP und CSV werden lokal im Browser verarbeitet",
       privacy: "Dateien werden direkt von der Quellseite auf Ihr Gerät geladen",
       ctaTitle: "Testen Sie Grab All Files in Ihrem Browser.",
-      ctaText: "Installieren Sie die Erweiterung, scannen Sie eine echte Seite und entscheiden Sie im Testzeitraum.",
+      ctaText: "Installieren Sie die Erweiterung und scannen Sie eine echte Seite – kostenlos, mit allen Funktionen und bis zu 20 Dateien pro Download. Pro (19,99 $, einmalig) hebt das Limit pro Download auf.",
       footer: "Unabhängige Browser-Erweiterung von Serima Kawai. Nicht mit Google, Microsoft oder Mozilla verbunden."
     },
     it: {
@@ -167,11 +167,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Acquista",
       license: "Licenza a vita $19.99",
-      trial: "Prova completa di 14 giorni",
+      trial: "Piano gratuito — tutte le funzioni",
       local: "PDF, ZIP e CSV vengono elaborati localmente nel browser",
       privacy: "I file vengono scaricati dal sito sorgente al dispositivo",
       ctaTitle: "Prova Grab All Files nel tuo browser.",
-      ctaText: "Installa l'estensione, scansiona una pagina reale e decidi durante la prova gratuita.",
+      ctaText: "Installa l'estensione e scansiona una pagina reale: gratis, con tutte le funzioni e fino a 20 file per download. Pro ($19.99, acquisto unico) rimuove il limite per download.",
       footer: "Estensione indipendente di Serima Kawai. Non affiliata a Google, Microsoft o Mozilla."
     },
     ko: {
@@ -193,11 +193,11 @@
       firefox: "Firefox 부가 기능",
       purchase: "구매",
       license: "$19.99 평생 라이선스",
-      trial: "14일 전체 기능 무료 체험",
+      trial: "무료 플랜 — 모든 기능 포함",
       local: "PDF 병합, ZIP, CSV는 브라우저에서 로컬 처리",
       privacy: "파일은 원본 사이트에서 기기로 직접 다운로드됩니다",
       ctaTitle: "브라우저에서 Grab All Files를 사용해 보세요.",
-      ctaText: "확장 프로그램을 설치하고 실제 페이지를 스캔한 뒤 무료 체험 기간에 판단하세요.",
+      ctaText: "확장 프로그램을 설치하고 실제 페이지를 스캔하세요. 모든 기능을 무료로 사용할 수 있으며, 한 번의 다운로드로 최대 20개까지 저장됩니다. Pro($19.99, 1회 구매)로 다운로드당 제한을 해제하세요.",
       footer: "Serima Kawai의 독립 브라우저 확장 프로그램. Google, Microsoft, Mozilla와 제휴하지 않습니다."
     },
     pt_BR: {
@@ -219,11 +219,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Comprar",
       license: "Licença vitalícia por $19.99",
-      trial: "Teste completo de 14 dias",
+      trial: "Plano gratuito — todos os recursos",
       local: "PDF, ZIP e CSV são processados localmente no navegador",
       privacy: "Os arquivos são baixados do site fonte para o seu dispositivo",
       ctaTitle: "Teste o Grab All Files no seu navegador.",
-      ctaText: "Instale a extensão, escaneie uma página real e decida durante o teste gratuito.",
+      ctaText: "Instale a extensão e escaneie uma página real: grátis, com todos os recursos e até 20 arquivos por download. O Pro ($19.99, compra única) remove o limite por download.",
       footer: "Extensão independente de Serima Kawai. Sem afiliação com Google, Microsoft ou Mozilla."
     },
     zh_CN: {
@@ -245,11 +245,11 @@
       firefox: "Firefox 附加组件",
       purchase: "购买",
       license: "$19.99 永久授权",
-      trial: "14天全功能免费试用",
+      trial: "免费版 — 包含全部功能",
       local: "PDF合并、ZIP和CSV均在浏览器本地处理",
       privacy: "文件从源网站直接下载到您的设备",
       ctaTitle: "在浏览器中试用 Grab All Files。",
-      ctaText: "安装扩展程序，在真实页面上运行扫描，并在免费试用期内决定。",
+      ctaText: "安装扩展程序，在真实页面上运行扫描。免费使用，包含全部功能，单次下载最多保存20个文件。Pro（$19.99，一次性购买）可解除单次下载限制。",
       footer: "Serima Kawai 的独立浏览器扩展程序。与 Google、Microsoft 或 Mozilla 无关联。"
     },
     zh_TW: {
@@ -271,11 +271,11 @@
       firefox: "Firefox 附加元件",
       purchase: "購買",
       license: "$19.99 永久授權",
-      trial: "14天全功能免費試用",
+      trial: "免費版 — 包含全部功能",
       local: "PDF合併、ZIP和CSV均在瀏覽器本機處理",
       privacy: "檔案從來源網站直接下載到您的裝置",
       ctaTitle: "在瀏覽器中試用 Grab All Files。",
-      ctaText: "安裝擴充功能，在真實頁面執行掃描，並在免費試用期內決定。",
+      ctaText: "安裝擴充功能，在真實頁面執行掃描。免費使用，包含全部功能，單次下載最多儲存20個檔案。Pro（$19.99，一次性購買）可解除單次下載限制。",
       footer: "Serima Kawai 的獨立瀏覽器擴充功能。與 Google、Microsoft 或 Mozilla 無關聯。"
     }
   };
