@@ -78,9 +78,22 @@ h1, h2, h3, .brand-name { font-weight: 700; }
 .store-btn { color: var(--accent-soft-text) !important; }
 .store-btn:hover { color: var(--primary) !important; }
 
+/* Scope-back: the use-cases pages have a DIFFERENT store button — a solid-white
+   pill inside the dark-gradient final CTA (.final-cta .store-btn). The generic
+   .store-btn recolor above is meant for the landing hero/pricing store links
+   (transparent bg); on the white final-CTA pill it would leave a light lavender
+   label on white in dark mode (~1.9:1). Re-assert a fixed AA color (Bloom
+   periwinkle #4B66E1 on white = 4.90:1) for label + arrow, both themes. */
+.final-cta .store-btn,
+.final-cta .store-btn:hover { color: #4B66E1 !important; }
+.final-cta .store-btn::after,
+.final-cta .store-btn:hover::after { color: #4B66E1 !important; }
+
 .ext-pdf  { background: #C0443C !important; }
 .ext-docx { background: #2C5EB8 !important; }
 .ext-xlsx { background: #1B7F55 !important; }
 .ext-zip  { background: #7A54C4 !important; }
 .ext-csv  { background: #1F7E93 !important; }
-.ext-png  { background: #B5732A !important; }
+/* png darkened from #B5732A (white text 3.85:1, sub-AA) to the app's Bloom
+   img-category color #956525 → white text 5.04:1, WCAG AA. */
+.ext-png  { background: #956525 !important; }
