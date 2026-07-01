@@ -1,0 +1,86 @@
+/* bloom-site.css — Grab All Files landing page "Bloom" repalette
+   Additive & reversible: redefines the site's own tokens. No markup/JS changes.
+   Remove the <link> that pulls this file in to fully revert. */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --font-display: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+
+  --bg: #FBF5EF; --surface: #FFFFFF; --surface-alt: #FBF6F1; --surface-soft: #F5EDE4; --surface-deep: #EFE6DB;
+  --text: #2A241E; --text-strong: #1A140E; --text-muted: #6B5F52; --text-faint: #8A7D6E;
+  --border: #F0E8DF; --border-strong: #E8DCCF;
+
+  --primary: #4B66E1; --primary-hover: #3A54CC; --primary-text: #ffffff;
+  --accent-soft: #E9ECFB; --accent-soft-text: #37489E; --accent-icon: #4B66E1;
+  --check: #1B7F55;
+
+  --footer-bg: #241F1A; --footer-text: #C3B8AA; --footer-link: #AEB8FF; --footer-border: #3A332B; --footer-meta: #9A8F80; --footer-h: #FBF6F1;
+
+  --shadow-soft: 0 1px 2px rgba(80,55,35,0.05);
+  --shadow-card: 0 1px 3px rgba(80,55,35,0.05), 0 10px 28px -16px rgba(80,55,35,0.14);
+  --shadow-card-lg: 0 2px 6px rgba(80,55,35,0.06), 0 34px 64px -28px rgba(80,55,35,0.30);
+  --shadow-primary: 0 12px 30px -10px rgba(75,102,225,0.42);
+}
+
+:root[data-theme="dark"] {
+  --bg: #1A1922; --surface: #24232E; --surface-alt: #201F29; --surface-soft: #2B2A36; --surface-deep: #141320;
+  --text: #EFEBF3; --text-strong: #F6F2F9; --text-muted: #A39CAE; --text-faint: #857E92;
+  --border: #363442; --border-strong: #433F4F;
+
+  --primary: #8194FF; --primary-hover: #9AA8FF;
+  --accent-soft: #2E2C48; --accent-soft-text: #B8C0FF; --accent-icon: #9AA6FF;
+  --check: #3FBE88;
+
+  --footer-bg: #141320; --footer-text: #9A93A5; --footer-link: #AEB8FF; --footer-border: #2C2A38; --footer-meta: #6E687C; --footer-h: #F2EFF6;
+
+  --shadow-soft: 0 1px 3px rgba(0,0,0,0.5);
+  --shadow-card: 0 1px 2px rgba(0,0,0,0.45), 0 12px 30px -14px rgba(0,0,0,0.6);
+  --shadow-card-lg: 0 2px 6px rgba(0,0,0,0.5), 0 36px 70px -26px rgba(0,0,0,0.75);
+  --shadow-primary: 0 12px 32px -10px rgba(0,0,0,0.7);
+}
+
+/* Site-token aliases — use-cases/style.css names a few tokens differently
+   (--accent / --accent-text / --ok / --shadow). Map them onto the Bloom
+   tokens above so the use-cases pages recolor with the same palette.
+   These reference per-mode tokens via var(), so light/dark follow automatically.
+   Inert on pages that don't use these names. */
+:root {
+  --accent: var(--accent-icon);
+  --accent-text: var(--accent-soft-text);
+  --ok: var(--check);
+  --shadow: var(--shadow-card);
+}
+
+.btn { border-radius: 999px !important; }
+.icon-btn, .lang-sel { border-radius: 999px !important; }
+.mock-btn, .mock-chip, .mock-search { border-radius: 999px !important; }
+.mock-check { border-radius: 6px !important; }
+.hero-eyebrow { border-radius: 999px !important; }
+
+.feature-card, .usecase-card, .step, .pricing-aside .mini-card,
+.latest-badge, .latest-points li, .src-row, .res-row { border-radius: 16px !important; }
+.pricing-card, .latest-panel, .detect-core, .cta-strip { border-radius: 22px !important; }
+.mock-window { border-radius: 18px !important; }
+
+h1, h2, h3, .brand-name { font-weight: 700; }
+
+.hero-stores {
+  background: linear-gradient(90deg, #F3ECFB 0%, #E9ECFB 100%) !important;
+  border-color: color-mix(in srgb, var(--primary) 14%, transparent) !important;
+  box-shadow: 0 14px 34px rgba(80,55,35,0.06) !important;
+}
+:root[data-theme="dark"] .hero-stores {
+  background: linear-gradient(90deg, #2A2740 0%, #2E2C48 100%) !important;
+}
+.hero-stores > span { color: var(--text-strong) !important; }
+.store-btn { color: var(--accent-soft-text) !important; }
+.store-btn:hover { color: var(--primary) !important; }
+
+.ext-pdf  { background: #C0443C !important; }
+.ext-docx { background: #2C5EB8 !important; }
+.ext-xlsx { background: #1B7F55 !important; }
+.ext-zip  { background: #7A54C4 !important; }
+.ext-csv  { background: #1F7E93 !important; }
+.ext-png  { background: #B5732A !important; }
