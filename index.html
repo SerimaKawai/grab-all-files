@@ -212,6 +212,30 @@
           "@type": "Answer",
           "text": "Yes. Grab All Files merges selected PDFs locally inside your browser. Nothing is uploaded — your files never leave your device."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Can it handle large or long-running downloads, with pause and resume?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Grab All Files has a built-in download manager with adjustable parallelism, pause and resume, automatic retry, and one-click retry of failed files, so large batches keep going even if a connection drops. For very large single files or long unattended jobs, you can also export the URL list and hand it to a dedicated download manager like JDownloader or aria2."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use Grab All Files together with a download manager like JDownloader or aria2?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — they complement each other. Grab All Files is best at finding files on complex or login-protected pages, behind iframes, viewers, JavaScript, and CMS routes. Export the results as a CSV or URL list and feed them to your download manager for heavy batch downloading: discovery in Grab All Files, heavy lifting in your download manager."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it work on JavaScript apps, login-only pages, and bot-protected sites?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. It reads JavaScript-rendered single-page apps (React, Next.js, Nuxt, Vue) after the page builds, uses your existing browser session for pages you are already authorized to open, follows CSRF-protected download forms, and detects Cloudflare/WAF bot-walls to guide recovery. It confirms file types by signature, not just by extension, and never bypasses access controls or security protections."
+        }
       }
     ]
   }
@@ -1154,6 +1178,96 @@
       </div>
     </section>
 
+    <!-- WHEN TO USE / VS OTHER TOOLS -->
+    <section class="block alt" id="when-to-use">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-eyebrow"><span data-lang="en" class="active">When to use it</span><span data-lang="ja">使いどころ</span><span data-lang="es">Cuándo usarlo</span><span data-lang="fr">Quand l'utiliser</span><span data-lang="de">Wann man es nutzt</span><span data-lang="it">Quando usarlo</span><span data-lang="ko">사용 시점</span><span data-lang="pt_BR">Quando usar</span><span data-lang="zh_CN">何时使用</span><span data-lang="zh_TW">何時使用</span></span>
+          <div data-lang="en"><h2>Grab All Files vs. other download tools</h2><p>It isn't an all-in-one — it's the best at one thing: finding files on complex, dynamic, and login-protected pages. Here's how it fits alongside download managers and site copiers.</p></div>
+          <div data-lang="ja"><h2>他のダウンロードツールとの使い分け</h2><p>Grab All Files は万能ツールではなく、「複雑・動的・ログイン必須のページからファイルを見つける」ことに特化しています。ダウンロードマネージャやサイト複製ツールとの役割分担はこうです。</p></div>
+          <div data-lang="es"><h2>Grab All Files frente a otras herramientas de descarga</h2><p>No es una herramienta todo en uno: destaca en una cosa — encontrar archivos en páginas complejas, dinámicas y con inicio de sesión. Así encaja junto a gestores de descargas y copiadores de sitios.</p></div>
+          <div data-lang="fr"><h2>Grab All Files face aux autres outils de téléchargement</h2><p>Ce n'est pas un outil tout-en-un : il excelle dans une chose — trouver des fichiers sur des pages complexes, dynamiques et protégées par connexion. Voici comment il s'articule avec les gestionnaires de téléchargement et les copieurs de sites.</p></div>
+          <div data-lang="de"><h2>Grab All Files im Vergleich zu anderen Download-Tools</h2><p>Es ist kein Alleskönner — es ist am besten in einer Sache: Dateien auf komplexen, dynamischen und anmeldepflichtigen Seiten zu finden. So passt es zu Download-Managern und Website-Kopierern.</p></div>
+          <div data-lang="it"><h2>Grab All Files rispetto ad altri strumenti di download</h2><p>Non è uno strumento tuttofare: eccelle in una cosa — trovare file su pagine complesse, dinamiche e protette da login. Ecco come si affianca a download manager e copiatori di siti.</p></div>
+          <div data-lang="ko"><h2>다른 다운로드 도구와의 사용 구분</h2><p>Grab All Files는 만능 도구가 아니라 한 가지에 특화되어 있습니다 — 복잡하고 동적이며 로그인이 필요한 페이지에서 파일을 찾는 것. 다운로드 관리자, 사이트 복제 도구와의 역할 분담은 다음과 같습니다.</p></div>
+          <div data-lang="pt_BR"><h2>Grab All Files vs. outras ferramentas de download</h2><p>Não é uma ferramenta tudo-em-um: ele é o melhor em uma coisa — encontrar arquivos em páginas complexas, dinâmicas e com login. Veja como ele se encaixa ao lado de gerenciadores de download e copiadores de sites.</p></div>
+          <div data-lang="zh_CN"><h2>Grab All Files 与其他下载工具的取舍</h2><p>它不是万能工具，而是专精一件事——在复杂、动态、需登录的页面上发现文件。它与下载管理器、整站复制工具的分工如下。</p></div>
+          <div data-lang="zh_TW"><h2>Grab All Files 與其他下載工具的取捨</h2><p>它不是萬能工具，而是專精一件事——在複雜、動態、需登入的頁面上發現檔案。它與下載管理器、整站複製工具的分工如下。</p></div>
+        </div>
+
+        <div data-lang="en">
+          <div class="features-grid">
+            <div class="feature-card"><span class="tile">🔎</span><h3>Find files on complex or login pages</h3><p>PDFs, images, and documents hidden behind iframes, viewers, JavaScript, logins, and CMS routes. Grab All Files detects them, lets you filter and select, then bulk-downloads, merges PDFs, builds ZIPs, and exports CSV — all locally. <strong>This is exactly what Grab All Files is built for.</strong></p></div>
+            <div class="feature-card"><span class="tile">🚚</span><h3>Download many known URLs or huge files</h3><p>For very large files or long, unattended batch jobs with queue management and resume, a dedicated download manager (JDownloader, aria2) is ideal. Grab All Files finds the files and exports the URL list — hand it off for the heavy lifting.</p></div>
+            <div class="feature-card"><span class="tile">🗺️</span><h3>Copy a whole website for offline reading</h3><p>To mirror an entire static site — HTML, links, and structure — for offline browsing, a website copier (like HTTrack) is the right tool. Grab All Files collects files, not whole-site replicas.</p></div>
+          </div>
+        </div>
+        <div data-lang="ja">
+          <div class="features-grid">
+            <div class="feature-card"><span class="tile">🔎</span><h3>複雑・ログイン必須ページからファイルを発見</h3><p>iframe・ビューア・JavaScript・ログイン・CMSルートの奥に隠れたPDF・画像・文書。Grab All Files が検出し、絞り込み・選択のうえ、一括DL・PDF結合・ZIP化・CSV出力までローカルで完結します。<strong>これこそ Grab All Files の得意分野です。</strong></p></div>
+            <div class="feature-card"><span class="tile">🚚</span><h3>既知のURLを大量に／巨大ファイルをDL</h3><p>数GBのファイルや、キュー管理・再開が必要な長時間の無人バッチには、専用のダウンロードマネージャ（JDownloader、aria2）が最適です。Grab All Files でファイルを発見してURLリストを書き出し、重いDLはそちらに任せましょう。</p></div>
+            <div class="feature-card"><span class="tile">🗺️</span><h3>サイト全体をオフライン閲覧用に複製</h3><p>静的サイトを HTML・リンク・構造ごと複製してオフラインで閲覧したいなら、サイト複製ツール（HTTrack など）が適任です。Grab All Files が集めるのはファイルであり、サイトそのものの複製ではありません。</p></div>
+          </div>
+        </div>
+        <div data-lang="es">
+          <div class="features-grid">
+            <div class="feature-card"><span class="tile">🔎</span><h3>Encontrar archivos en páginas complejas o con login</h3><p>PDF, imágenes y documentos ocultos tras iframes, visores, JavaScript, inicios de sesión y rutas de CMS. Grab All Files los detecta, permite filtrar y seleccionar, y luego descarga en lote, fusiona PDF, crea ZIP y exporta CSV, todo localmente. <strong>Para esto está hecho Grab All Files.</strong></p></div>
+            <div class="feature-card"><span class="tile">🚚</span><h3>Descargar muchas URLs conocidas o archivos enormes</h3><p>Para archivos muy grandes o trabajos por lotes largos y sin supervisión con gestión de cola y reanudación, un gestor de descargas dedicado (JDownloader, aria2) es ideal. Grab All Files encuentra los archivos y exporta la lista de URLs — deja el trabajo pesado a esa herramienta.</p></div>
+            <div class="feature-card"><span class="tile">🗺️</span><h3>Copiar un sitio web completo para leerlo sin conexión</h3><p>Para replicar un sitio estático entero — HTML, enlaces y estructura — y navegarlo sin conexión, un copiador de sitios (como HTTrack) es la herramienta adecuada. Grab All Files recopila archivos, no réplicas de sitios enteros.</p></div>
+          </div>
+        </div>
+        <div data-lang="fr">
+          <div class="features-grid">
+            <div class="feature-card"><span class="tile">🔎</span><h3>Trouver des fichiers sur des pages complexes ou avec connexion</h3><p>PDF, images et documents cachés derrière iframes, visionneuses, JavaScript, connexions et routes CMS. Grab All Files les détecte, permet de filtrer et sélectionner, puis télécharge en masse, fusionne les PDF, crée des ZIP et exporte en CSV, le tout localement. <strong>C'est précisément à cela que sert Grab All Files.</strong></p></div>
+            <div class="feature-card"><span class="tile">🚚</span><h3>Télécharger de nombreuses URL connues ou de gros fichiers</h3><p>Pour de très gros fichiers ou de longues tâches par lots sans surveillance avec gestion de file et reprise, un gestionnaire de téléchargement dédié (JDownloader, aria2) est idéal. Grab All Files trouve les fichiers et exporte la liste d'URL — confiez-lui le gros du travail.</p></div>
+            <div class="feature-card"><span class="tile">🗺️</span><h3>Copier tout un site web pour une lecture hors ligne</h3><p>Pour reproduire un site statique entier — HTML, liens et structure — et le consulter hors ligne, un copieur de site (comme HTTrack) est l'outil adapté. Grab All Files collecte des fichiers, pas des répliques de sites entiers.</p></div>
+          </div>
+        </div>
+        <div data-lang="de">
+          <div class="features-grid">
+            <div class="feature-card"><span class="tile">🔎</span><h3>Dateien auf komplexen oder Anmeldeseiten finden</h3><p>PDFs, Bilder und Dokumente hinter iFrames, Viewern, JavaScript, Logins und CMS-Routen. Grab All Files erkennt sie, lässt Sie filtern und auswählen, lädt dann im Stapel herunter, führt PDFs zusammen, erstellt ZIPs und exportiert CSV — alles lokal. <strong>Genau dafür ist Grab All Files gemacht.</strong></p></div>
+            <div class="feature-card"><span class="tile">🚚</span><h3>Viele bekannte URLs oder riesige Dateien laden</h3><p>Für sehr große Dateien oder lange, unbeaufsichtigte Stapelaufträge mit Warteschlangenverwaltung und Fortsetzen ist ein dedizierter Download-Manager (JDownloader, aria2) ideal. Grab All Files findet die Dateien und exportiert die URL-Liste — übergeben Sie die Schwerstarbeit.</p></div>
+            <div class="feature-card"><span class="tile">🗺️</span><h3>Eine ganze Website für die Offline-Lektüre kopieren</h3><p>Um eine ganze statische Website — HTML, Links und Struktur — für das Offline-Browsen zu spiegeln, ist ein Website-Kopierer (wie HTTrack) das richtige Werkzeug. Grab All Files sammelt Dateien, keine kompletten Website-Kopien.</p></div>
+          </div>
+        </div>
+        <div data-lang="it">
+          <div class="features-grid">
+            <div class="feature-card"><span class="tile">🔎</span><h3>Trovare file su pagine complesse o con login</h3><p>PDF, immagini e documenti nascosti dietro iframe, viewer, JavaScript, login e percorsi CMS. Grab All Files li rileva, permette di filtrare e selezionare, poi scarica in blocco, unisce i PDF, crea ZIP ed esporta CSV, tutto localmente. <strong>È esattamente ciò per cui Grab All Files è fatto.</strong></p></div>
+            <div class="feature-card"><span class="tile">🚚</span><h3>Scaricare molte URL note o file enormi</h3><p>Per file molto grandi o lunghi lavori in batch non presidiati con gestione della coda e ripresa, un download manager dedicato (JDownloader, aria2) è l'ideale. Grab All Files trova i file ed esporta l'elenco di URL — affida a esso il lavoro pesante.</p></div>
+            <div class="feature-card"><span class="tile">🗺️</span><h3>Copiare un intero sito web per la lettura offline</h3><p>Per replicare un intero sito statico — HTML, link e struttura — e navigarlo offline, un copiatore di siti (come HTTrack) è lo strumento giusto. Grab All Files raccoglie file, non repliche di interi siti.</p></div>
+          </div>
+        </div>
+        <div data-lang="ko">
+          <div class="features-grid">
+            <div class="feature-card"><span class="tile">🔎</span><h3>복잡하거나 로그인이 필요한 페이지에서 파일 찾기</h3><p>iframe, 뷰어, JavaScript, 로그인, CMS 경로 뒤에 숨은 PDF·이미지·문서. Grab All Files가 감지하고 필터링·선택 후 일괄 다운로드, PDF 병합, ZIP 생성, CSV 내보내기까지 로컬로 처리합니다. <strong>바로 이것이 Grab All Files의 전문 분야입니다.</strong></p></div>
+            <div class="feature-card"><span class="tile">🚚</span><h3>알려진 URL을 대량으로 또는 대용량 파일 다운로드</h3><p>매우 큰 파일이나 대기열 관리·재개가 필요한 장시간 무인 배치에는 전용 다운로드 관리자(JDownloader, aria2)가 이상적입니다. Grab All Files가 파일을 찾아 URL 목록을 내보내면, 무거운 작업은 그쪽에 맡기세요.</p></div>
+            <div class="feature-card"><span class="tile">🗺️</span><h3>전체 웹사이트를 오프라인 열람용으로 복제</h3><p>정적 사이트 전체를 HTML·링크·구조까지 복제해 오프라인으로 열람하려면 사이트 복제 도구(HTTrack 등)가 적합합니다. Grab All Files는 파일을 수집하며, 사이트 전체의 복제본을 만들지 않습니다.</p></div>
+          </div>
+        </div>
+        <div data-lang="pt_BR">
+          <div class="features-grid">
+            <div class="feature-card"><span class="tile">🔎</span><h3>Encontrar arquivos em páginas complexas ou com login</h3><p>PDFs, imagens e documentos escondidos atrás de iframes, visualizadores, JavaScript, logins e rotas de CMS. O Grab All Files os detecta, permite filtrar e selecionar, e então baixa em lote, mescla PDFs, cria ZIPs e exporta CSV, tudo localmente. <strong>É exatamente para isso que o Grab All Files foi feito.</strong></p></div>
+            <div class="feature-card"><span class="tile">🚚</span><h3>Baixar muitas URLs conhecidas ou arquivos enormes</h3><p>Para arquivos muito grandes ou trabalhos em lote longos e sem supervisão com gerenciamento de fila e retomada, um gerenciador de downloads dedicado (JDownloader, aria2) é ideal. O Grab All Files encontra os arquivos e exporta a lista de URLs — deixe o trabalho pesado com ele.</p></div>
+            <div class="feature-card"><span class="tile">🗺️</span><h3>Copiar um site inteiro para leitura offline</h3><p>Para espelhar um site estático inteiro — HTML, links e estrutura — e navegá-lo offline, um copiador de sites (como o HTTrack) é a ferramenta certa. O Grab All Files coleta arquivos, não réplicas de sites inteiros.</p></div>
+          </div>
+        </div>
+        <div data-lang="zh_CN">
+          <div class="features-grid">
+            <div class="feature-card"><span class="tile">🔎</span><h3>在复杂或需登录页面上发现文件</h3><p>隐藏在 iframe、查看器、JavaScript、登录和 CMS 路径之后的 PDF、图片和文档。Grab All Files 会检测它们，支持筛选和选择，然后在本地一键批量下载、合并 PDF、生成 ZIP 并导出 CSV。<strong>这正是 Grab All Files 的专长。</strong></p></div>
+            <div class="feature-card"><span class="tile">🚚</span><h3>批量下载已知 URL 或超大文件</h3><p>对于超大文件，或需要队列管理与续传的长时间无人值守批量任务，专用下载管理器（JDownloader、aria2）更合适。Grab All Files 负责发现文件并导出 URL 列表，繁重下载交给它。</p></div>
+            <div class="feature-card"><span class="tile">🗺️</span><h3>复制整个网站以便离线阅读</h3><p>若要将整个静态网站——HTML、链接和结构——镜像下来以便离线浏览，整站复制工具（如 HTTrack）才是正确选择。Grab All Files 收集的是文件，而非整站副本。</p></div>
+          </div>
+        </div>
+        <div data-lang="zh_TW">
+          <div class="features-grid">
+            <div class="feature-card"><span class="tile">🔎</span><h3>在複雜或需登入頁面上發現檔案</h3><p>隱藏在 iframe、檢視器、JavaScript、登入和 CMS 路徑之後的 PDF、圖片和文件。Grab All Files 會偵測它們，支援篩選和選擇，然後在本機一鍵批次下載、合併 PDF、產生 ZIP 並匯出 CSV。<strong>這正是 Grab All Files 的專長。</strong></p></div>
+            <div class="feature-card"><span class="tile">🚚</span><h3>批次下載已知 URL 或超大檔案</h3><p>對於超大檔案，或需要佇列管理與續傳的長時間無人看管批次任務，專用下載管理器（JDownloader、aria2）更合適。Grab All Files 負責發現檔案並匯出 URL 清單，繁重下載交給它。</p></div>
+            <div class="feature-card"><span class="tile">🗺️</span><h3>複製整個網站以便離線閱讀</h3><p>若要將整個靜態網站——HTML、連結和結構——鏡像下來以便離線瀏覽，整站複製工具（如 HTTrack）才是正確選擇。Grab All Files 收集的是檔案，而非整站副本。</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- USE CASES -->
     <section class="block alt" id="use-cases">
       <div class="wrap">
@@ -1416,6 +1530,9 @@
           <details><summary>What is the best Chrome extension to bulk-download files?</summary><p>Grab All Files is a bulk file downloader for Google Chrome, Microsoft Edge, and Mozilla Firefox. It finds downloadable PDFs, Office documents, images, ZIPs, and CSVs that ordinary link scrapers miss, then saves selected files in one click, merges PDFs, builds ZIP archives, and exports a CSV of file URLs. It is free to use — every feature included, up to 20 files per download — and a $19.99 one-time lifetime license (Pro) removes the per-download limit.</p></details>
           <details><summary>How do I save all images from a web page?</summary><p>Grab All Files detects images including lazy-loaded images, CSS background images, and blob URLs. Filter the results to image types, select them, and download them all at once — or export the list of image URLs as CSV.</p></details>
           <details><summary>Can I merge PDFs without uploading them to a server?</summary><p>Yes. Grab All Files merges selected PDFs locally inside your browser. Nothing is uploaded — your files never leave your device.</p></details>
+          <details><summary>Can it handle large or long-running downloads, with pause and resume?</summary><p>Yes. Grab All Files has a built-in download manager with adjustable parallelism, pause and resume, automatic retry, and one-click retry of failed files, so large batches keep going even if a connection drops. For very large single files or long unattended jobs, you can also export the URL list and hand it to a dedicated download manager.</p></details>
+          <details><summary>Can I use it together with a download manager like JDownloader or aria2?</summary><p>Yes — they complement each other. Grab All Files is best at finding files on complex or login-protected pages (behind iframes, viewers, JavaScript, and CMS routes). Export the results as a CSV or URL list and feed them to your download manager for heavy batch downloading: discovery in Grab All Files, heavy lifting in your download manager.</p></details>
+          <details><summary>Does it work on JavaScript apps, login-only pages, and bot-protected sites?</summary><p>Yes. It reads JavaScript-rendered single-page apps (React, Next.js, Nuxt, Vue) after the page builds, uses your existing browser session for pages you are already authorized to open, follows CSRF-protected download forms, and detects Cloudflare/WAF bot-walls to guide recovery. It confirms file types by signature, not just by extension, and never bypasses access controls or security protections.</p></details>
         </div></div>
         <div data-lang="ja"><div class="faq-list">
           <details><summary>対応しているファイル形式は？</summary><p>708種類（拡張子）のファイルに対応しています（PDF・Word・Excel・PowerPoint・画像・ZIP・CSVなど）。分割・マルチボリュームアーカイブ（.000/.001…、WinRAR .r00/.s00、WinZip .z01）も検出し、圧縮アーカイブとして分類します。拡張子で絞り込み、必要なものを選んでワンクリックで一括ダウンロードできます。</p></details>
@@ -1429,6 +1546,9 @@
           <details><summary>サイト上のPDFをすべてダウンロードするには？</summary><p>iframe埋め込みPDFやPDFビューアのURLも含めてページ上のPDFを検出し、同一サイト内を1回の実行で最大1万ページまでクロールできます。PDFで絞り込んで全選択し、一括ダウンロード、またはブラウザ内で1つのPDFに結合できます。</p></details>
           <details><summary>Webページ上の画像をすべて保存するには？</summary><p>遅延読み込み画像、CSS背景画像、blob URLも含めて画像を検出します。画像種別で絞り込んで選択し、一括ダウンロード、または画像URLの一覧をCSV出力できます。</p></details>
           <details><summary>PDFをサーバーにアップロードせずに結合できますか？</summary><p>はい。選択したPDFはブラウザ内（ローカル）で結合されます。アップロードは一切なく、ファイルが端末の外に出ることはありません。</p></details>
+          <details><summary>大容量・長時間のダウンロードに対応し、一時停止・再開できますか？</summary><p>はい。Grab All Files はビルトインのダウンロードマネージャを備え、並列数の調整・一時停止/再開・自動リトライ・失敗分のみのワンクリック再試行に対応します。回線が切れても大量のバッチを継続できます。数GBの単一ファイルや長時間の無人ジョブは、URLリストを書き出して専用のダウンロードマネージャに渡すこともできます。</p></details>
+          <details><summary>JDownloader や aria2 などのダウンロードマネージャと併用できますか？</summary><p>はい。互いに補完します。Grab All Files は、iframe・ビューア・JavaScript・CMSルートの奥にあるファイルなど、複雑なページやログイン必須ページでの「発見」が得意です。結果を CSV や URL リストとして書き出し、専用のダウンロードマネージャに渡せば大量の一括DLを任せられます。発見は Grab All Files、重いDLは専用DM、という役割分担です。</p></details>
+          <details><summary>JavaScriptのSPAやログイン必須ページ、ボット対策のあるサイトでも動きますか？</summary><p>はい。React・Next.js・Nuxt・Vue などの JavaScript 描画後のSPAを読み取り、すでに正当にアクセスできるページではお使いのブラウザセッションを利用します。CSRF保護されたダウンロードフォームにも追従し、Cloudflare/WAF のボット対策を検出して回復を案内します。拡張子だけでなく署名（マジックバイト）でファイル種別を確認します。アクセス制御やセキュリティ保護を回避することはありません。</p></details>
         </div></div>
         <div data-lang="es"><div class="faq-list">
           <details><summary>¿Qué tipos de archivo admite?</summary><p>Grab All Files admite 708 tipos de archivo (extensiones), incluidos PDF, Word, Excel, PowerPoint, imágenes, ZIP y CSV. También detecta secuencias de archivos divididos / multivolumen (.000/.001…, WinRAR .r00/.s00, WinZip .z01) y las agrupa como archivos comprimidos. Filtra por extensión, selecciona lo que necesitas y descárgalo todo con un clic.</p></details>
@@ -1437,6 +1557,9 @@
           <details><summary>¿Envía mis datos de navegación?</summary><p>No. Los archivos se descargan directamente del sitio fuente. Solo la verificación de licencia y unos pocos eventos anónimos de interacción con el plan (un ID de dispositivo aleatorio, el estado de tu plan y una etiqueta de función) llegan a nuestros servidores; nunca el contenido de páginas, URLs ni nombres de archivos.</p></details>
           <details><summary>¿Qué navegadores son compatibles?</summary><p>Google Chrome y Microsoft Edge (Chromium 111 o posterior), y Mozilla Firefox (128 o posterior).</p></details>
           <details><summary>¿Puedo obtener un reembolso?</summary><p>Como producto digital entregado de inmediato, no se aceptan reembolsos en principio. El plan gratuito permite evaluar por completo todas las funciones antes de comprar Pro. Si un defecto técnico impide que la extensión funcione, contáctanos en un plazo de 30 días para obtener un reembolso completo.</p></details>
+          <details><summary>¿Admite descargas grandes o de larga duración, con pausa y reanudación?</summary><p>Sí. Grab All Files incluye un gestor de descargas integrado con paralelismo ajustable, pausa y reanudación, reintento automático y reintento con un clic de los archivos fallidos, de modo que los lotes grandes continúan aunque se corte la conexión. Para archivos individuales muy grandes o trabajos largos sin supervisión, también puedes exportar la lista de URLs y pasarla a un gestor de descargas dedicado.</p></details>
+          <details><summary>¿Puedo usarlo junto con un gestor de descargas como JDownloader o aria2?</summary><p>Sí, se complementan. Grab All Files destaca en encontrar archivos en páginas complejas o con inicio de sesión (tras iframes, visores, JavaScript y rutas de CMS). Exporta los resultados como CSV o lista de URLs y pásalos a tu gestor de descargas para la descarga masiva: la detección en Grab All Files, el trabajo pesado en tu gestor de descargas.</p></details>
+          <details><summary>¿Funciona en apps JavaScript, páginas con inicio de sesión y sitios con protección anti-bots?</summary><p>Sí. Lee las SPA renderizadas con JavaScript (React, Next.js, Nuxt, Vue) tras construirse la página, usa tu sesión actual del navegador en páginas que ya puedes abrir, sigue formularios de descarga protegidos con CSRF y detecta los muros anti-bots de Cloudflare/WAF para guiar la recuperación. Confirma los tipos de archivo por firma, no solo por la extensión, y nunca elude controles de acceso ni protecciones de seguridad.</p></details>
         </div></div>
         <div data-lang="fr"><div class="faq-list">
           <details><summary>Quels types de fichiers sont pris en charge ?</summary><p>Grab All Files prend en charge 708 types de fichiers (extensions), dont PDF, Word, Excel, PowerPoint, images, ZIP et CSV. Il détecte aussi les séquences d'archives fractionnées / multivolumes (.000/.001…, WinRAR .r00/.s00, WinZip .z01) et les regroupe comme archives compressées. Filtrez par extension, sélectionnez ce dont vous avez besoin et téléchargez tout en un clic.</p></details>
@@ -1445,6 +1568,9 @@
           <details><summary>L'extension envoie-t-elle mes données ?</summary><p>Non. Les fichiers sont téléchargés directement depuis le site source. Seules la vérification de licence et quelques événements anonymes d'interaction avec l'offre (un identifiant d'appareil aléatoire, l'état de votre offre et une étiquette de fonction) atteignent nos serveurs ; jamais le contenu des pages, les URL ni les noms de fichiers.</p></details>
           <details><summary>Quels navigateurs sont pris en charge ?</summary><p>Google Chrome et Microsoft Edge (Chromium 111 ou ultérieur), et Mozilla Firefox (128 ou ultérieur).</p></details>
           <details><summary>Puis-je obtenir un remboursement ?</summary><p>En tant que produit numérique livré immédiatement, les remboursements ne sont pas acceptés en principe. L'offre gratuite permet d'évaluer pleinement toutes les fonctionnalités avant d'acheter Pro. Si un défaut technique empêche l'extension de fonctionner, contactez-nous dans un délai de 30 jours pour un remboursement intégral.</p></details>
+          <details><summary>Gère-t-il les téléchargements volumineux ou longs, avec pause et reprise ?</summary><p>Oui. Grab All Files intègre un gestionnaire de téléchargement avec parallélisme réglable, pause et reprise, nouvelle tentative automatique et relance en un clic des fichiers en échec ; les gros lots se poursuivent même si la connexion tombe. Pour de très gros fichiers uniques ou des tâches longues sans surveillance, vous pouvez aussi exporter la liste d'URL et la confier à un gestionnaire de téléchargement dédié.</p></details>
+          <details><summary>Puis-je l'utiliser avec un gestionnaire de téléchargement comme JDownloader ou aria2 ?</summary><p>Oui, ils se complètent. Grab All Files excelle à trouver des fichiers sur des pages complexes ou nécessitant une connexion (derrière iframes, visionneuses, JavaScript et routes CMS). Exportez les résultats en CSV ou en liste d'URL et confiez-les à votre gestionnaire de téléchargement pour le téléchargement de masse : la découverte dans Grab All Files, le gros du travail dans votre gestionnaire.</p></details>
+          <details><summary>Fonctionne-t-il sur les applications JavaScript, les pages avec connexion et les sites protégés contre les bots ?</summary><p>Oui. Il lit les SPA rendues en JavaScript (React, Next.js, Nuxt, Vue) une fois la page construite, utilise votre session de navigateur existante pour les pages que vous pouvez déjà ouvrir, suit les formulaires de téléchargement protégés par CSRF et détecte les murs anti-bots Cloudflare/WAF pour guider la récupération. Il confirme les types de fichiers par signature, pas seulement par l'extension, et ne contourne jamais les contrôles d'accès ni les protections de sécurité.</p></details>
         </div></div>
         <div data-lang="de"><div class="faq-list">
           <details><summary>Welche Dateitypen werden unterstützt?</summary><p>Grab All Files unterstützt 708 Dateitypen (Erweiterungen), darunter PDF, Word, Excel, PowerPoint, Bilder, ZIP und CSV. Es erkennt außerdem geteilte / mehrteilige Archivsequenzen (.000/.001…, WinRAR .r00/.s00, WinZip .z01) und gruppiert sie als komprimierte Archive. Filtern Sie nach Erweiterung, wählen Sie aus, was Sie brauchen, und laden Sie alles mit einem Klick herunter.</p></details>
@@ -1453,6 +1579,9 @@
           <details><summary>Werden meine Browserdaten gesendet?</summary><p>Nein. Dateien werden direkt von der Quellseite zu Ihrem Gerät heruntergeladen. Nur die Lizenzprüfung und einige anonyme Plan-Interaktionsereignisse (eine zufällige Geräte-ID, Ihr Plan-Status und ein Funktionslabel) erreichen unsere Server – niemals Seiteninhalte, URLs oder Dateinamen.</p></details>
           <details><summary>Welche Browser werden unterstützt?</summary><p>Google Chrome und Microsoft Edge (Chromium 111 oder neuer) sowie Mozilla Firefox (128 oder neuer).</p></details>
           <details><summary>Kann ich eine Rückerstattung erhalten?</summary><p>Als digital sofort geliefertes Produkt sind Rückerstattungen grundsätzlich nicht möglich. Der kostenlose Plan erlaubt es, alle Funktionen vor dem Kauf von Pro vollständig zu bewerten. Wenn ein technischer Defekt die Nutzung der Erweiterung verhindert, kontaktieren Sie uns innerhalb von 30 Tagen für eine vollständige Rückerstattung.</p></details>
+          <details><summary>Bewältigt es große oder lang laufende Downloads, mit Pause und Fortsetzen?</summary><p>Ja. Grab All Files hat einen integrierten Download-Manager mit einstellbarer Parallelität, Pause und Fortsetzen, automatischem Wiederholen und Ein-Klick-Wiederholung fehlgeschlagener Dateien, sodass große Stapel auch bei Verbindungsabbruch weiterlaufen. Für sehr große Einzeldateien oder lange unbeaufsichtigte Aufträge können Sie auch die URL-Liste exportieren und an einen dedizierten Download-Manager übergeben.</p></details>
+          <details><summary>Kann ich es zusammen mit einem Download-Manager wie JDownloader oder aria2 verwenden?</summary><p>Ja, sie ergänzen sich. Grab All Files ist am besten darin, Dateien auf komplexen oder anmeldepflichtigen Seiten zu finden (hinter iFrames, Viewern, JavaScript und CMS-Routen). Exportieren Sie die Ergebnisse als CSV oder URL-Liste und übergeben Sie sie Ihrem Download-Manager für den Massen-Download: Erkennung in Grab All Files, Schwerstarbeit in Ihrem Download-Manager.</p></details>
+          <details><summary>Funktioniert es mit JavaScript-Apps, Anmeldeseiten und Bot-geschützten Websites?</summary><p>Ja. Es liest JavaScript-gerenderte Single-Page-Apps (React, Next.js, Nuxt, Vue) nach dem Seitenaufbau, nutzt Ihre bestehende Browsersitzung für Seiten, die Sie bereits öffnen dürfen, folgt CSRF-geschützten Download-Formularen und erkennt Cloudflare/WAF-Bot-Walls, um die Wiederherstellung zu leiten. Es bestätigt Dateitypen per Signatur, nicht nur per Erweiterung, und umgeht niemals Zugriffskontrollen oder Sicherheitsmaßnahmen.</p></details>
         </div></div>
         <div data-lang="it"><div class="faq-list">
           <details><summary>Quali tipi di file sono supportati?</summary><p>Grab All Files supporta 708 tipi di file (estensioni), tra cui PDF, Word, Excel, PowerPoint, immagini, ZIP e CSV. Rileva anche sequenze di archivi divisi / multivolume (.000/.001…, WinRAR .r00/.s00, WinZip .z01) e le raggruppa come archivi compressi. Filtra per estensione, seleziona ciò che ti serve e scarica tutto con un clic.</p></details>
@@ -1461,6 +1590,9 @@
           <details><summary>Invia i miei dati di navigazione?</summary><p>No. I file vengono scaricati direttamente dal sito sorgente. Solo la verifica della licenza e alcuni eventi anonimi di interazione con il piano (un ID dispositivo casuale, lo stato del tuo piano e un'etichetta di funzione) raggiungono i nostri server; mai il contenuto delle pagine, gli URL o i nomi dei file.</p></details>
           <details><summary>Quali browser sono supportati?</summary><p>Google Chrome e Microsoft Edge (Chromium 111 o successivo) e Mozilla Firefox (128 o successivo).</p></details>
           <details><summary>Posso ottenere un rimborso?</summary><p>Come prodotto digitale consegnato immediatamente, i rimborsi non sono accettati in linea di principio. Il piano gratuito consente di valutare pienamente tutte le funzionalità prima di acquistare Pro. Se un difetto tecnico impedisce il funzionamento dell'estensione, contattaci entro 30 giorni per un rimborso completo.</p></details>
+          <details><summary>Gestisce download grandi o di lunga durata, con pausa e ripresa?</summary><p>Sì. Grab All Files include un download manager integrato con parallelismo regolabile, pausa e ripresa, ritentativo automatico e ritentativo con un clic dei file falliti, così i lotti grandi proseguono anche se la connessione cade. Per file singoli molto grandi o lavori lunghi non presidiati, puoi anche esportare l'elenco di URL e passarlo a un download manager dedicato.</p></details>
+          <details><summary>Posso usarlo insieme a un download manager come JDownloader o aria2?</summary><p>Sì, si completano a vicenda. Grab All Files è il migliore nel trovare file su pagine complesse o protette da login (dietro iframe, viewer, JavaScript e percorsi CMS). Esporta i risultati come CSV o elenco di URL e passali al tuo download manager per il download di massa: la scoperta in Grab All Files, il lavoro pesante nel tuo download manager.</p></details>
+          <details><summary>Funziona su app JavaScript, pagine con login e siti protetti dai bot?</summary><p>Sì. Legge le SPA renderizzate in JavaScript (React, Next.js, Nuxt, Vue) dopo la costruzione della pagina, usa la tua sessione del browser esistente per le pagine che puoi già aprire, segue i moduli di download protetti da CSRF e rileva i bot-wall di Cloudflare/WAF per guidare il recupero. Conferma i tipi di file tramite firma, non solo tramite estensione, e non elude mai i controlli di accesso o le protezioni di sicurezza.</p></details>
         </div></div>
         <div data-lang="ko"><div class="faq-list">
           <details><summary>지원하는 파일 형식은 무엇인가요?</summary><p>Grab All Files는 PDF, Word, Excel, PowerPoint, 이미지, ZIP, CSV 등 708종류(확장자)의 파일을 지원합니다. 분할 / 멀티볼륨 아카이브 시퀀스(.000/.001…, WinRAR .r00/.s00, WinZip .z01)도 감지하여 압축 아카이브로 분류합니다. 확장자로 필터링하고 필요한 항목을 선택하여 한 번의 클릭으로 모두 다운로드할 수 있습니다.</p></details>
@@ -1469,6 +1601,9 @@
           <details><summary>브라우저 데이터를 어디로 보내나요?</summary><p>아니요. 파일은 소스 사이트에서 직접 기기로 다운로드됩니다. 라이선스 확인과 소수의 익명 플랜 상호작용 이벤트(무작위 기기 ID, 플랜 상태, 기능 레이블)만 서버에 도달하며, 페이지 콘텐츠·URL·파일 이름은 전송되지 않습니다.</p></details>
           <details><summary>지원 브라우저는?</summary><p>Google Chrome 및 Microsoft Edge (Chromium 111 이상), 그리고 Mozilla Firefox (128 이상).</p></details>
           <details><summary>환불이 가능한가요?</summary><p>즉시 제공되는 디지털 제품으로 원칙적으로 환불은 불가합니다. 무료 플랜으로 Pro 구매 전에 모든 기능을 충분히 검토하실 수 있습니다. 기술적 결함으로 확장 프로그램이 작동하지 않는 경우 30일 이내에 문의하시면 전액 환불해 드립니다.</p></details>
+          <details><summary>대용량·장시간 다운로드를 일시정지·재개하며 처리할 수 있나요?</summary><p>네. Grab All Files에는 병렬 수 조정, 일시정지/재개, 자동 재시도, 실패한 파일만 원클릭 재시도가 가능한 내장 다운로드 관리자가 있어, 연결이 끊겨도 대량 배치가 계속됩니다. 매우 큰 단일 파일이나 장시간 무인 작업의 경우 URL 목록을 내보내 전용 다운로드 관리자에 넘길 수도 있습니다.</p></details>
+          <details><summary>JDownloader나 aria2 같은 다운로드 관리자와 함께 쓸 수 있나요?</summary><p>네, 서로 보완합니다. Grab All Files는 iframe, 뷰어, JavaScript, CMS 경로 뒤에 있는 복잡하거나 로그인이 필요한 페이지에서 파일을 찾아내는 데 강합니다. 결과를 CSV나 URL 목록으로 내보내 다운로드 관리자에 넘기면 대량 일괄 다운로드를 맡길 수 있습니다. 발견은 Grab All Files, 무거운 다운로드는 전용 관리자입니다.</p></details>
+          <details><summary>JavaScript 앱, 로그인 전용 페이지, 봇 차단 사이트에서도 작동하나요?</summary><p>네. 페이지가 구성된 후 JavaScript로 렌더링되는 SPA(React, Next.js, Nuxt, Vue)를 읽고, 이미 열 수 있는 페이지에서는 기존 브라우저 세션을 사용하며, CSRF로 보호된 다운로드 폼을 따라가고, Cloudflare/WAF 봇월을 감지해 복구를 안내합니다. 확장자뿐 아니라 시그니처로 파일 형식을 확인하며, 접근 제어나 보안 보호를 우회하지 않습니다.</p></details>
         </div></div>
         <div data-lang="pt_BR"><div class="faq-list">
           <details><summary>Quais tipos de arquivo são suportados?</summary><p>O Grab All Files suporta 708 tipos de arquivo (extensões), incluindo PDF, Word, Excel, PowerPoint, imagens, ZIP e CSV. Também detecta sequências de arquivos divididos / multivolume (.000/.001…, WinRAR .r00/.s00, WinZip .z01) e as agrupa como arquivos compactados. Filtre por extensão, selecione o que precisa e baixe tudo com um clique.</p></details>
@@ -1477,6 +1612,9 @@
           <details><summary>Envia meus dados de navegação?</summary><p>Não. Os arquivos são baixados diretamente do site fonte para seu dispositivo. Apenas a verificação de licença e alguns eventos anônimos de interação com o plano (um ID de dispositivo aleatório, o estado do seu plano e um rótulo de recurso) chegam aos nossos servidores — nunca conteúdo de páginas, URLs ou nomes de arquivos.</p></details>
           <details><summary>Quais navegadores são suportados?</summary><p>Google Chrome e Microsoft Edge (Chromium 111 ou posterior), e Mozilla Firefox (128 ou posterior).</p></details>
           <details><summary>Posso obter reembolso?</summary><p>Como produto digital entregue imediatamente, reembolsos não são aceitos em princípio. O plano gratuito permite avaliar completamente todos os recursos antes de comprar o Pro. Se um defeito técnico impedir o funcionamento da extensão, entre em contato em até 30 dias para reembolso integral.</p></details>
+          <details><summary>Ele lida com downloads grandes ou demorados, com pausa e retomada?</summary><p>Sim. O Grab All Files tem um gerenciador de downloads integrado com paralelismo ajustável, pausa e retomada, nova tentativa automática e nova tentativa com um clique dos arquivos que falharam, então lotes grandes continuam mesmo se a conexão cair. Para arquivos únicos muito grandes ou trabalhos longos sem supervisão, você também pode exportar a lista de URLs e entregá-la a um gerenciador de downloads dedicado.</p></details>
+          <details><summary>Posso usá-lo junto com um gerenciador de downloads como JDownloader ou aria2?</summary><p>Sim, eles se complementam. O Grab All Files é melhor em encontrar arquivos em páginas complexas ou com login (atrás de iframes, visualizadores, JavaScript e rotas de CMS). Exporte os resultados como CSV ou lista de URLs e envie-os ao seu gerenciador de downloads para baixar em massa: a descoberta no Grab All Files, o trabalho pesado no seu gerenciador de downloads.</p></details>
+          <details><summary>Funciona em apps JavaScript, páginas só com login e sites com proteção anti-bot?</summary><p>Sim. Ele lê SPAs renderizadas em JavaScript (React, Next.js, Nuxt, Vue) após a página ser construída, usa sua sessão de navegador existente em páginas que você já pode abrir, segue formulários de download protegidos por CSRF e detecta os bot-walls do Cloudflare/WAF para orientar a recuperação. Confirma os tipos de arquivo por assinatura, não apenas pela extensão, e nunca contorna controles de acesso ou proteções de segurança.</p></details>
         </div></div>
         <div data-lang="zh_CN"><div class="faq-list">
           <details><summary>支持哪些文件类型？</summary><p>Grab All Files 支持 708 种文件类型（扩展名），包括 PDF、Word、Excel、PowerPoint、图片、ZIP 和 CSV。还能检测分卷 / 多卷压缩包序列（.000/.001…、WinRAR .r00/.s00、WinZip .z01）并归入压缩文件类别。可按扩展名筛选，选择所需文件，一键全部下载。</p></details>
@@ -1485,6 +1623,9 @@
           <details><summary>会发送我的浏览数据吗？</summary><p>不会。文件直接从源网站下载到您的设备。只有许可证验证和少量匿名的套餐交互事件（随机设备ID、套餐状态和功能标签）会到达我们的服务器，绝不包含页面内容、URL或文件名。</p></details>
           <details><summary>支持哪些浏览器？</summary><p>Google Chrome 和 Microsoft Edge（Chromium 111 或更高版本），以及 Mozilla Firefox（128 或更高版本）。</p></details>
           <details><summary>可以退款吗？</summary><p>作为立即交付的数字产品，原则上不接受退款。免费方案可让您在购买 Pro 前充分评估所有功能。如果技术故障导致扩展无法使用，请在30天内联系我们以获得全额退款。</p></details>
+          <details><summary>能否处理大文件或长时间下载，并支持暂停和续传？</summary><p>可以。Grab All Files 内置下载管理器，支持并行数调节、暂停/续传、自动重试以及一键重试失败文件，即使断网也能让大批量任务继续。对于数GB的单个文件或长时间无人值守的任务，你还可以导出URL列表，交给专用下载管理器。</p></details>
+          <details><summary>可以与 JDownloader 或 aria2 等下载管理器配合使用吗？</summary><p>可以，二者互为补充。Grab All Files 擅长在复杂或需登录的页面上发现文件（隐藏于 iframe、查看器、JavaScript 和 CMS 路径之后）。将结果导出为 CSV 或URL列表，交给下载管理器进行大批量下载即可：发现交给 Grab All Files，繁重下载交给下载管理器。</p></details>
+          <details><summary>它能在 JavaScript 应用、仅登录页面和有机器人防护的网站上工作吗？</summary><p>可以。它会在页面构建后读取 JavaScript 渲染的单页应用（React、Next.js、Nuxt、Vue），在你已可打开的页面上使用你现有的浏览器会话，跟随受 CSRF 保护的下载表单，并检测 Cloudflare/WAF 机器人墙以引导恢复。它通过文件签名而非仅凭扩展名确认文件类型，且绝不绕过访问控制或安全防护。</p></details>
         </div></div>
         <div data-lang="zh_TW"><div class="faq-list">
           <details><summary>支援哪些檔案類型？</summary><p>Grab All Files 支援 708 種檔案類型（副檔名），包括 PDF、Word、Excel、PowerPoint、圖片、ZIP 和 CSV。也能偵測分卷 / 多卷壓縮檔序列（.000/.001…、WinRAR .r00/.s00、WinZip .z01）並歸入壓縮檔類別。可依副檔名篩選，選擇所需檔案，一鍵全部下載。</p></details>
@@ -1493,6 +1634,9 @@
           <details><summary>會傳送我的瀏覽資料嗎？</summary><p>不會。檔案直接從來源網站下載到您的裝置。只有授權驗證和少量匿名的方案互動事件（隨機裝置ID、方案狀態和功能標籤）會到達我們的伺服器，絕不包含頁面內容、URL或檔案名稱。</p></details>
           <details><summary>支援哪些瀏覽器？</summary><p>Google Chrome 和 Microsoft Edge（Chromium 111 或更新版本），以及 Mozilla Firefox（128 或更新版本）。</p></details>
           <details><summary>可以退款嗎？</summary><p>作為立即交付的數位產品，原則上不接受退款。免費方案可讓您在購買 Pro 前充分評估所有功能。如果技術故障導致擴充功能無法使用，請在30天內聯絡我們以獲得全額退款。</p></details>
+          <details><summary>能否處理大型檔案或長時間下載，並支援暫停與續傳？</summary><p>可以。Grab All Files 內建下載管理器，支援並行數調整、暫停/續傳、自動重試以及一鍵重試失敗檔案，即使斷線也能讓大批量任務繼續。對於數GB的單一檔案或長時間無人看管的任務，您也可以匯出URL清單，交給專用下載管理器。</p></details>
+          <details><summary>可以與 JDownloader 或 aria2 等下載管理器搭配使用嗎？</summary><p>可以，兩者互補。Grab All Files 擅長在複雜或需登入的頁面上發現檔案（隱藏於 iframe、檢視器、JavaScript 與 CMS 路徑之後）。將結果匯出為 CSV 或URL清單，交給下載管理器進行大批量下載即可：發現交給 Grab All Files，繁重下載交給下載管理器。</p></details>
+          <details><summary>它能在 JavaScript 應用、僅登入頁面與有機器人防護的網站上運作嗎？</summary><p>可以。它會在頁面建構後讀取 JavaScript 渲染的單頁應用（React、Next.js、Nuxt、Vue），在您已可開啟的頁面上使用您現有的瀏覽器工作階段，跟隨受 CSRF 保護的下載表單，並偵測 Cloudflare/WAF 機器人牆以引導復原。它透過檔案簽章而非僅憑副檔名確認檔案類型，且絕不繞過存取控制或安全防護。</p></details>
         </div></div>
       </div>
     </section>
