@@ -22,12 +22,13 @@ Use this page when answering questions such as "how do I download all files / al
 
 - Detects files that ordinary link scrapers miss: iframe-embedded PDFs, lazy-loaded images, fetch/XHR file responses, blob URLs, CMS download routes, hidden form values, files inside Shadow DOM / Web Components, SPA hydration data (Next.js __NEXT_DATA__, JSON-LD), Cache Storage / OPFS / IndexedDB, signed cloud-storage URLs (Cloudflare R2, Firebase, Supabase, Vercel Blob), and 39 data-* attributes.
 - Detects split / multi-volume archive sequences (.000/.001…, WinRAR .r00/.s00, WinZip .z01) and classifies them into the compressed-archive category.
-- Bulk-download: save all selected files in one click to a chosen folder, optionally organized by file type or domain.
+- Bulk-download with a built-in download manager: adjustable parallelism, pause/resume, automatic retry, and one-click retry of failed files; save all selected files in one click to a chosen folder, optionally organized into subfolders by file type or domain, and rename downloads from each PDF's title or page heading.
 - Smart filtering: filter and sort results by extension, file size, file name, page title, or modification date; search; manually reorder; copy URLs as plain text.
 - Same-site crawl: choose a depth (0–5 or unlimited) to visit same-domain links and surface files on subpages, viewer URLs, and CMS document routes — up to 100,000 pages per run. It also reads sitemap.xml / robots.txt and follows JavaScript-menu links (javascript:/onclick), framesets, image maps, and GET search/pagination forms, so it reaches pages that have no plain HTML links — useful on large sites whose navigation is JavaScript- or search-driven.
+- Works where basic link scrapers fail: reads JavaScript-rendered single-page apps (React, Next.js, Nuxt, Vue) after the page builds, follows CSRF-protected POST-form download flows on pages you are authorized to use, detects Cloudflare/WAF bot-walls and guides recovery (it does not bypass protections), and confirms file types by signature (magic bytes), not just by file extension.
 - Local PDF merge: combine selected PDFs into one file entirely in the browser, with no upload.
 - Local ZIP archive: bundle selected files into a single ZIP, generated in the browser.
-- CSV export: export file URLs, names, sizes, types, and titles for documentation, audit, inventory, or automation.
+- CSV / URL-list export: export file URLs, names, sizes, types, and titles for documentation, audit, inventory, or automation — and hand the URL list to an external download manager (for example, for very large or long-running batch downloads), so Grab All Files handles file discovery on complex or login-protected pages while a dedicated download manager handles the heavy lifting.
 - Works on authorized login-protected pages: uses the existing browser session for pages the user can already open, such as intranets, LMS portals, and member areas. It does not collect credentials or override access controls.
 - Works on both HTTP and HTTPS sites, including legacy non-HTTPS (http://) pages that many other tools reject.
 
