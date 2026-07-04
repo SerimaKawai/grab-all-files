@@ -95,6 +95,8 @@
       outline: none; border-color: var(--primary);
       box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 18%, transparent);
     }
+    .field textarea.invalid { border-color: var(--error-border); background: color-mix(in srgb, var(--error-bg) 22%, var(--surface)); }
+    .field textarea.invalid:focus { border-color: var(--error-border); box-shadow: 0 0 0 3px color-mix(in srgb, var(--error-border) 40%, transparent); }
 
     .honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 
@@ -188,17 +190,24 @@
           <div class="reason-choice">
             <label class="reason"><input type="checkbox" name="reason" value="not_detected"><span id="r-not_detected">Files could not be detected</span></label>
             <div class="field reason-detail hidden" id="detail-not_detected" data-reason-detail="not_detected">
-              <label for="f-detail-not_detected" id="l-detail-not_detected">URL where detection failed (optional)</label>
+              <label for="f-detail-not_detected" id="l-detail-not_detected">URL where detection failed (required)</label>
               <textarea id="f-detail-not_detected" name="detail_not_detected" maxlength="2000"></textarea>
               <p class="reason-note" id="note-detail-not_detected">If we can fix it, we will ship an update in about a week.</p>
             </div>
           </div>
-          <label class="reason"><input type="checkbox" name="reason" value="non_video_not_detected"><span id="r-non_video_not_detected">Non-video files could not be detected</span></label>
+          <div class="reason-choice">
+            <label class="reason"><input type="checkbox" name="reason" value="non_video_not_detected"><span id="r-non_video_not_detected">Non-video files could not be detected</span></label>
+            <div class="field reason-detail hidden" id="detail-non_video_not_detected" data-reason-detail="non_video_not_detected">
+              <label for="f-detail-non_video_not_detected" id="l-detail-non_video_not_detected">Please tell us the file type or extension that could not be detected (required)</label>
+              <textarea id="f-detail-non_video_not_detected" name="detail_non_video_not_detected" maxlength="2000"></textarea>
+              <p class="reason-note" id="note-detail-non_video_not_detected">If we can fix it, we will ship an update in about a week.</p>
+            </div>
+          </div>
 
           <div class="reason-choice">
             <label class="reason"><input type="checkbox" name="reason" value="not_downloaded"><span id="r-not_downloaded">Files were detected but could not be downloaded</span></label>
             <div class="field reason-detail hidden" id="detail-not_downloaded" data-reason-detail="not_downloaded">
-              <label for="f-detail-not_downloaded" id="l-detail-not_downloaded">URL where the download failed (optional)</label>
+              <label for="f-detail-not_downloaded" id="l-detail-not_downloaded">URL where the download failed (required)</label>
               <textarea id="f-detail-not_downloaded" name="detail_not_downloaded" maxlength="2000"></textarea>
               <p class="reason-note" id="note-detail-not_downloaded">If we can fix it, we will ship an update in about a week.</p>
             </div>
@@ -207,7 +216,7 @@
           <div class="reason-choice">
             <label class="reason"><input type="checkbox" name="reason" value="missing_feature"><span id="r-missing_feature">It was missing a feature I needed</span></label>
             <div class="field reason-detail hidden" id="detail-missing_feature" data-reason-detail="missing_feature">
-              <label for="f-detail-missing_feature" id="l-detail-missing_feature">Please describe the feature you wanted (optional)</label>
+              <label for="f-detail-missing_feature" id="l-detail-missing_feature">Please describe the feature you wanted (required)</label>
               <textarea id="f-detail-missing_feature" name="detail_missing_feature" maxlength="2000"></textarea>
               <p class="reason-note" id="note-detail-missing_feature">If we can fix it, we will ship an update in about a week.</p>
             </div>
@@ -217,7 +226,7 @@
           <div class="reason-choice">
             <label class="reason"><input type="checkbox" name="reason" value="bug"><span id="r-bug">Too many bugs or errors</span></label>
             <div class="field reason-detail hidden" id="detail-bug" data-reason-detail="bug">
-              <label for="f-detail-bug" id="l-detail-bug">Please describe the bug or error (optional)</label>
+              <label for="f-detail-bug" id="l-detail-bug">Please describe the bug or error (required)</label>
               <textarea id="f-detail-bug" name="detail_bug" maxlength="2000"></textarea>
               <p class="reason-note" id="note-detail-bug">If we can fix it, we will ship an update in about a week.</p>
             </div>
@@ -269,7 +278,7 @@
   var STORE_URL = 'https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf';
 
   var REASONS = ['not_detected','non_video_not_detected','not_downloaded','missing_feature','too_complicated','bug','too_expensive','found_alternative','no_longer_needed','privacy','other'];
-  var DETAIL_REASONS = ['not_detected','not_downloaded','missing_feature','bug'];
+  var DETAIL_REASONS = ['not_detected','non_video_not_detected','not_downloaded','missing_feature','bug'];
 
   var STRINGS = {
     en: {
@@ -288,10 +297,12 @@
       r_no_longer_needed: 'I no longer need it',
       r_privacy: 'Privacy or permissions concerns',
       r_other: 'Other',
-      detail_not_detected_label: 'URL where detection failed (optional)',
-      detail_not_downloaded_label: 'URL where the download failed (optional)',
-      detail_missing_feature_label: 'Please describe the feature you wanted (optional)',
-      detail_bug_label: 'Please describe the bug or error (optional)',
+      detail_not_detected_label: 'URL where detection failed (required)',
+      detail_non_video_not_detected_label: 'Please tell us the file type or extension that could not be detected (required)',
+      detail_not_downloaded_label: 'URL where the download failed (required)',
+      detail_missing_feature_label: 'Please describe the feature you wanted (required)',
+      detail_bug_label: 'Please describe the bug or error (required)',
+      errDetail: 'Please fill in the required details for the reason(s) you selected.',
       detailFixNote: 'If we can fix it, we will ship an update in about a week.',
       commentDetailsHeading: 'Details for selected reasons:',
       lComment: "Anything else you'd like to share? (optional)",
@@ -322,10 +333,12 @@
       r_no_longer_needed: 'もう必要なくなった',
       r_privacy: 'プライバシー・権限が不安だった',
       r_other: 'その他',
-      detail_not_detected_label: '検知できなかったURL（アドレス）をご記入ください（任意）',
-      detail_not_downloaded_label: 'ダウンロードできなかったURL（アドレス）をご記入ください（任意）',
-      detail_missing_feature_label: '希望する機能をご記入ください（任意）',
-      detail_bug_label: '不具合やエラーの内容をご記入ください（任意）',
+      detail_not_detected_label: '検知できなかったURL（アドレス）をご記入ください（必須）',
+      detail_non_video_not_detected_label: '探知できなかったファイルの種類・拡張子をご記入ください（必須）',
+      detail_not_downloaded_label: 'ダウンロードできなかったURL（アドレス）をご記入ください（必須）',
+      detail_missing_feature_label: '希望する機能をご記入ください（必須）',
+      detail_bug_label: '不具合やエラーの内容をご記入ください（必須）',
+      errDetail: '選択した理由の詳細をご記入ください。',
       detailFixNote: '修正が可能な場合は1週間程度でアップデートいたします。',
       commentDetailsHeading: '選択理由の詳細:',
       lComment: 'その他、ご意見があればお書きください（任意）',
@@ -356,10 +369,12 @@
       r_no_longer_needed: 'Ya no la necesito',
       r_privacy: 'Preocupaciones de privacidad o permisos',
       r_other: 'Otro',
-      detail_not_detected_label: 'URL donde falló la detección (opcional)',
-      detail_not_downloaded_label: 'URL donde falló la descarga (opcional)',
-      detail_missing_feature_label: 'Describe la función que querías (opcional)',
-      detail_bug_label: 'Describe el bug o error (opcional)',
+      detail_not_detected_label: 'URL donde falló la detección (obligatorio)',
+      detail_non_video_not_detected_label: 'Indícanos el tipo o la extensión del archivo que no se pudo detectar (obligatorio)',
+      detail_not_downloaded_label: 'URL donde falló la descarga (obligatorio)',
+      detail_missing_feature_label: 'Describe la función que querías (obligatorio)',
+      detail_bug_label: 'Describe el bug o error (obligatorio)',
+      errDetail: 'Proporciona los detalles solicitados para los motivos que seleccionaste.',
       detailFixNote: 'Si podemos corregirlo, publicaremos una actualización en aproximadamente una semana.',
       commentDetailsHeading: 'Detalles de los motivos seleccionados:',
       lComment: '¿Algo más que quieras compartir? (opcional)',
@@ -390,10 +405,12 @@
       r_no_longer_needed: "Je n'en ai plus besoin",
       r_privacy: 'Préoccupations de confidentialité ou de permissions',
       r_other: 'Autre',
-      detail_not_detected_label: 'URL où la détection a échoué (facultatif)',
-      detail_not_downloaded_label: 'URL où le téléchargement a échoué (facultatif)',
-      detail_missing_feature_label: 'Décrivez la fonctionnalité souhaitée (facultatif)',
-      detail_bug_label: 'Décrivez le bug ou l\'erreur (facultatif)',
+      detail_not_detected_label: 'URL où la détection a échoué (obligatoire)',
+      detail_non_video_not_detected_label: 'Indiquez-nous le type ou l\'extension du fichier qui n\'a pas pu être détecté (obligatoire)',
+      detail_not_downloaded_label: 'URL où le téléchargement a échoué (obligatoire)',
+      detail_missing_feature_label: 'Décrivez la fonctionnalité souhaitée (obligatoire)',
+      detail_bug_label: 'Décrivez le bug ou l\'erreur (obligatoire)',
+      errDetail: 'Veuillez fournir les détails demandés pour les raisons sélectionnées.',
       detailFixNote: 'Si nous pouvons le corriger, nous publierons une mise à jour sous environ une semaine.',
       commentDetailsHeading: 'Détails des raisons sélectionnées:',
       lComment: 'Autre chose à partager ? (facultatif)',
@@ -424,10 +441,12 @@
       r_no_longer_needed: '더 이상 필요 없어요',
       r_privacy: '개인정보나 권한이 걱정됐어요',
       r_other: '기타',
-      detail_not_detected_label: '감지되지 않은 URL(주소)을 입력해 주세요 (선택)',
-      detail_not_downloaded_label: '다운로드되지 않은 URL(주소)을 입력해 주세요 (선택)',
-      detail_missing_feature_label: '원하는 기능을 입력해 주세요 (선택)',
-      detail_bug_label: '버그나 오류 내용을 입력해 주세요 (선택)',
+      detail_not_detected_label: '감지되지 않은 URL(주소)을 입력해 주세요 (필수)',
+      detail_non_video_not_detected_label: '감지되지 않은 파일의 종류·확장자를 입력해 주세요 (필수)',
+      detail_not_downloaded_label: '다운로드되지 않은 URL(주소)을 입력해 주세요 (필수)',
+      detail_missing_feature_label: '원하는 기능을 입력해 주세요 (필수)',
+      detail_bug_label: '버그나 오류 내용을 입력해 주세요 (필수)',
+      errDetail: '선택한 이유의 상세 내용을 입력해 주세요.',
       detailFixNote: '수정이 가능하면 약 1주일 내에 업데이트하겠습니다.',
       commentDetailsHeading: '선택한 이유의 상세 내용:',
       lComment: '더 하고 싶은 말씀이 있으신가요? (선택)',
@@ -458,10 +477,12 @@
       r_no_longer_needed: 'Non mi serve più',
       r_privacy: 'Preoccupazioni su privacy o permessi',
       r_other: 'Altro',
-      detail_not_detected_label: 'URL in cui il rilevamento non è riuscito (facoltativo)',
-      detail_not_downloaded_label: 'URL in cui il download non è riuscito (facoltativo)',
-      detail_missing_feature_label: 'Descrivi la funzione che desideravi (facoltativo)',
-      detail_bug_label: 'Descrivi il bug o l\'errore (facoltativo)',
+      detail_not_detected_label: 'URL in cui il rilevamento non è riuscito (obbligatorio)',
+      detail_non_video_not_detected_label: 'Indica il tipo o l\'estensione del file che non è stato rilevato (obbligatorio)',
+      detail_not_downloaded_label: 'URL in cui il download non è riuscito (obbligatorio)',
+      detail_missing_feature_label: 'Descrivi la funzione che desideravi (obbligatorio)',
+      detail_bug_label: 'Descrivi il bug o l\'errore (obbligatorio)',
+      errDetail: 'Fornisci i dettagli richiesti per i motivi selezionati.',
       detailFixNote: 'Se possiamo correggerlo, pubblicheremo un aggiornamento entro circa una settimana.',
       commentDetailsHeading: 'Dettagli per i motivi selezionati:',
       lComment: 'Vuoi aggiungere altro? (facoltativo)',
@@ -492,10 +513,12 @@
       r_no_longer_needed: '不再需要了',
       r_privacy: '担心隐私或权限',
       r_other: '其他',
-      detail_not_detected_label: '请填写无法检测的 URL（地址）（可选）',
-      detail_not_downloaded_label: '请填写无法下载的 URL（地址）（可选）',
-      detail_missing_feature_label: '请填写您希望添加的功能（可选）',
-      detail_bug_label: '请填写错误或故障内容（可选）',
+      detail_not_detected_label: '请填写无法检测的 URL（地址）（必填）',
+      detail_non_video_not_detected_label: '请填写无法检测的文件类型或扩展名（必填）',
+      detail_not_downloaded_label: '请填写无法下载的 URL（地址）（必填）',
+      detail_missing_feature_label: '请填写您希望添加的功能（必填）',
+      detail_bug_label: '请填写错误或故障内容（必填）',
+      errDetail: '请填写所选原因的详情。',
       detailFixNote: '如果可以修复，我们会在约 1 周内更新。',
       commentDetailsHeading: '所选原因的详情：',
       lComment: '还有什么想告诉我们的吗？（可选）',
@@ -526,10 +549,12 @@
       r_no_longer_needed: '不再需要了',
       r_privacy: '擔心隱私或權限',
       r_other: '其他',
-      detail_not_detected_label: '請填寫無法偵測的 URL（地址）（選填）',
-      detail_not_downloaded_label: '請填寫無法下載的 URL（地址）（選填）',
-      detail_missing_feature_label: '請填寫您希望加入的功能（選填）',
-      detail_bug_label: '請填寫錯誤或故障內容（選填）',
+      detail_not_detected_label: '請填寫無法偵測的 URL（地址）（必填）',
+      detail_non_video_not_detected_label: '請填寫無法偵測的檔案類型或副檔名（必填）',
+      detail_not_downloaded_label: '請填寫無法下載的 URL（地址）（必填）',
+      detail_missing_feature_label: '請填寫您希望加入的功能（必填）',
+      detail_bug_label: '請填寫錯誤或故障內容（必填）',
+      errDetail: '請填寫所選原因的詳細內容。',
       detailFixNote: '如果可以修正，我們會在約 1 週內更新。',
       commentDetailsHeading: '所選原因的詳細內容：',
       lComment: '還有什麼想告訴我們的嗎？（選填）',
@@ -560,10 +585,12 @@
       r_no_longer_needed: 'Não preciso mais',
       r_privacy: 'Preocupações com privacidade ou permissões',
       r_other: 'Outro',
-      detail_not_detected_label: 'URL em que a detecção falhou (opcional)',
-      detail_not_downloaded_label: 'URL em que o download falhou (opcional)',
-      detail_missing_feature_label: 'Descreva o recurso que você queria (opcional)',
-      detail_bug_label: 'Descreva o bug ou erro (opcional)',
+      detail_not_detected_label: 'URL em que a detecção falhou (obrigatório)',
+      detail_non_video_not_detected_label: 'Informe o tipo ou a extensão do arquivo que não pôde ser detectado (obrigatório)',
+      detail_not_downloaded_label: 'URL em que o download falhou (obrigatório)',
+      detail_missing_feature_label: 'Descreva o recurso que você queria (obrigatório)',
+      detail_bug_label: 'Descreva o bug ou erro (obrigatório)',
+      errDetail: 'Forneça os detalhes solicitados para os motivos selecionados.',
       detailFixNote: 'Se pudermos corrigir, lançaremos uma atualização em cerca de uma semana.',
       commentDetailsHeading: 'Detalhes dos motivos selecionados:',
       lComment: 'Quer compartilhar mais alguma coisa? (opcional)',
@@ -594,10 +621,12 @@
       r_no_longer_needed: 'Ich brauche sie nicht mehr',
       r_privacy: 'Bedenken zu Datenschutz oder Berechtigungen',
       r_other: 'Sonstiges',
-      detail_not_detected_label: 'URL, bei der die Erkennung fehlgeschlagen ist (optional)',
-      detail_not_downloaded_label: 'URL, bei der der Download fehlgeschlagen ist (optional)',
-      detail_missing_feature_label: 'Bitte beschreiben Sie die gewünschte Funktion (optional)',
-      detail_bug_label: 'Bitte beschreiben Sie den Fehler oder Bug (optional)',
+      detail_not_detected_label: 'URL, bei der die Erkennung fehlgeschlagen ist (erforderlich)',
+      detail_non_video_not_detected_label: 'Bitte nennen Sie den Dateityp oder die Dateiendung, die nicht erkannt werden konnte (erforderlich)',
+      detail_not_downloaded_label: 'URL, bei der der Download fehlgeschlagen ist (erforderlich)',
+      detail_missing_feature_label: 'Bitte beschreiben Sie die gewünschte Funktion (erforderlich)',
+      detail_bug_label: 'Bitte beschreiben Sie den Fehler oder Bug (erforderlich)',
+      errDetail: 'Bitte geben Sie die angeforderten Details zu den ausgewählten Gründen an.',
       detailFixNote: 'Wenn wir es beheben können, veröffentlichen wir innerhalb von etwa einer Woche ein Update.',
       commentDetailsHeading: 'Details zu den ausgewählten Gründen:',
       lComment: 'Möchten Sie uns noch etwas mitteilen? (optional)',
@@ -730,7 +759,13 @@
     var selected = selectedReasons();
     DETAIL_REASONS.forEach(function(code) {
       var panel = document.querySelector('[data-reason-detail="' + code + '"]');
-      if (panel) panel.classList.toggle('hidden', selected.indexOf(code) === -1);
+      if (!panel) return;
+      var hidden = selected.indexOf(code) === -1;
+      panel.classList.toggle('hidden', hidden);
+      if (hidden) {
+        var el = document.getElementById('f-detail-' + code);
+        if (el) el.classList.remove('invalid');
+      }
     });
   }
 
@@ -769,6 +804,23 @@
     var reasons = selectedReasons();
     if (!reasons.length) {
       showStatus('error', tr(t, 'errReason'));
+      return;
+    }
+
+    var firstMissingDetail = null;
+    DETAIL_REASONS.forEach(function(code) {
+      var el = document.getElementById('f-detail-' + code);
+      if (!el) return;
+      if (reasons.indexOf(code) !== -1 && !el.value.trim()) {
+        el.classList.add('invalid');
+        if (!firstMissingDetail) firstMissingDetail = el;
+      } else {
+        el.classList.remove('invalid');
+      }
+    });
+    if (firstMissingDetail) {
+      showStatus('error', tr(t, 'errDetail'));
+      firstMissingDetail.focus();
       return;
     }
 
@@ -834,6 +886,13 @@
 
     Array.prototype.forEach.call(document.querySelectorAll('input[name="reason"]'), function(input) {
       input.addEventListener('change', syncReasonDetails);
+    });
+
+    DETAIL_REASONS.forEach(function(code) {
+      var el = document.getElementById('f-detail-' + code);
+      if (el) el.addEventListener('input', function() {
+        if (el.value.trim()) el.classList.remove('invalid');
+      });
     });
 
     document.getElementById('survey-form').addEventListener('submit', submitForm);
