@@ -26,7 +26,7 @@
 
 :root[data-theme="dark"] {
   --bg: #1A1922; --surface: #24232E; --surface-alt: #201F29; --surface-soft: #2B2A36; --surface-deep: #141320;
-  --text: #EFEBF3; --text-strong: #F6F2F9; --text-muted: #A39CAE; --text-faint: #948DA0;
+  --text: #EFEBF3; --text-strong: #F6F2F9; --text-muted: #A39CAE; --text-faint: #9C96A8;
   --border: #363442; --border-strong: #433F4F;
 
   --primary: #8194FF; --primary-hover: #9AA8FF;
