@@ -9,7 +9,7 @@
   --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
 
   --bg: #FBF5EF; --surface: #FFFFFF; --surface-alt: #FBF6F1; --surface-soft: #F5EDE4; --surface-deep: #EFE6DB;
-  --text: #2A241E; --text-strong: #1A140E; --text-muted: #6B5F52; --text-faint: #8A7D6E;
+  --text: #2A241E; --text-strong: #1A140E; --text-muted: #6B5F52; --text-faint: #766A5B;
   --border: #F0E8DF; --border-strong: #E8DCCF;
 
   --primary: #4B66E1; --primary-hover: #3A54CC; --primary-text: #ffffff;
@@ -26,7 +26,7 @@
 
 :root[data-theme="dark"] {
   --bg: #1A1922; --surface: #24232E; --surface-alt: #201F29; --surface-soft: #2B2A36; --surface-deep: #141320;
-  --text: #EFEBF3; --text-strong: #F6F2F9; --text-muted: #A39CAE; --text-faint: #857E92;
+  --text: #EFEBF3; --text-strong: #F6F2F9; --text-muted: #A39CAE; --text-faint: #948DA0;
   --border: #363442; --border-strong: #433F4F;
 
   --primary: #8194FF; --primary-hover: #9AA8FF;
@@ -40,7 +40,7 @@
   --accent-soft: #2E2C48; --accent-soft-text: #B8C0FF; --accent-icon: #9AA6FF;
   --check: #3FBE88;
 
-  --footer-bg: #141320; --footer-text: #9A93A5; --footer-link: #AEB8FF; --footer-border: #2C2A38; --footer-meta: #6E687C; --footer-h: #F2EFF6;
+  --footer-bg: #141320; --footer-text: #9A93A5; --footer-link: #AEB8FF; --footer-border: #2C2A38; --footer-meta: #8B8598; --footer-h: #F2EFF6;
 
   --shadow-soft: 0 1px 3px rgba(0,0,0,0.5);
   --shadow-card: 0 1px 2px rgba(0,0,0,0.45), 0 12px 30px -14px rgba(0,0,0,0.6);
@@ -102,6 +102,17 @@ h1, h2, h3, .brand-name { font-weight: 700; }
    (4.90:1 on white, identical to light mode). This is a filled button label, not
    a link/outline on a dark surface, so it honors "keep --primary text #8194FF". */
 .cta-strip .btn-primary { color: #4B66E1; }
+
+/* CTA gradient AA fix (dark mode). The .cta-strip / .final-cta gradient starts at
+   var(--primary), which in dark mode is the light periwinkle #8194FF — so the
+   white <h2>, white <p> (0.85 alpha) and white .btn-ghost label sat at only
+   2.76:1. Pin the dark gradient start to the Bloom --primary-hover #3A54CC
+   (white = 7.5:1, the 0.85-alpha body ≈ 6:1) so every white element on the most
+   conversion-critical block clears WCAG AA. Light mode is unaffected. */
+:root[data-theme="dark"] .cta-strip,
+:root[data-theme="dark"] .final-cta {
+  background: linear-gradient(135deg, #3A54CC, #0f172a) !important;
+}
 
 .ext-pdf  { background: #C0443C !important; }
 .ext-docx { background: #2C5EB8 !important; }

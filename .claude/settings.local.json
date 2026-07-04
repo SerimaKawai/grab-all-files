@@ -8,7 +8,9 @@
       "Bash(git push origin HEAD:main)",
       "mcp__smtp-gmail__send_email",
       "PowerShell(git pull --rebase origin main 2>&1 | Out-String; \"PULL_EXIT=$LASTEXITCODE\")",
-      "PowerShell(\"---\")"
+      "PowerShell(\"---\")",
+      "Bash(mkdir -p '/c/Users/Tetsunobu Kawai/.claude/claude-work-log/logs/2026')",
+      "Bash(cat)"
     ]
   }
 }
