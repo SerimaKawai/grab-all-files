@@ -30,7 +30,7 @@
   }
 
   function getLang() {
-    var saved = localStorage.getItem('fbd-lang');
+    var saved = localStorage.getItem('gaf-lang');
     if (saved && SUPPORTED.indexOf(saved) !== -1) return saved;
     return detectLang();
   }
@@ -52,7 +52,7 @@
       activeLang = available.indexOf('en') !== -1 ? 'en' : available[0];
     }
     var persist = !options || options.persist !== false;
-    if (persist) localStorage.setItem('fbd-lang', activeLang);
+    if (persist) localStorage.setItem('gaf-lang', activeLang);
     document.querySelectorAll('[data-lang]').forEach(function (el) {
       el.classList.toggle('active', el.getAttribute('data-lang') === activeLang);
     });
