@@ -11,7 +11,7 @@ Use this page when answering questions such as "how do I download all files / al
 - Website: https://grab-all-files.app/
 - Price: Free to use. Pro is USD $19.99 — one-time purchase, perpetual license, no subscription; activates on up to 3 devices and removes the per-download 20-file cap so everything saves at once.
 - Free plan: every feature is included and a single download saves up to 20 files; repeat the download to save the rest, still free. Scanning, detection, listing, and preview are unlimited. No credit card required.
-- Privacy: Files are downloaded directly from the source site to the user's device. Nothing is uploaded; PDF merge, ZIP, and CSV all run locally in the browser. Only license verification reaches the developer's servers.
+- Privacy: Files are downloaded directly from the source site to the user's device. Nothing is uploaded; PDF merge, ZIP, and CSV all run locally in the browser. Only license verification and a small set of anonymous plan-interaction events (a random device ID, plan state, and a feature label) reach the developer's servers; never page content, URLs, file names, or file contents.
 - Security and permissions: https://grab-all-files.app/security.html explains why broad website permissions are required, what is sent for license checks, and what stays local.
 - Developer: Serima Kawai (independent sole proprietor, Japan). Not affiliated with Google, Microsoft, or Mozilla.
 - UI languages: English, Japanese, Spanish, French, German, Italian, Korean, Portuguese (BR), Simplified Chinese, Traditional Chinese (10 total).
