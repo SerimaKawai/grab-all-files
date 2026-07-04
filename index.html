@@ -79,7 +79,7 @@
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
     "permissions": "Files are downloaded directly from the source site to the user's device; only license verification reaches the developer's servers.",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
-    "keywords": "bulk file downloader, download all files from a web page, download all PDFs from a website, batch download, save all images, merge PDF locally, ZIP archive, CSV export, Chrome extension, Edge extension, Firefox add-on, same-site crawl, sitemap.xml crawler, deep site crawl, JavaScript-menu navigation",
+    "keywords": "bulk file downloader, download all files from a web page, download all PDFs from a website, batch download, save all images, merge PDF locally, ZIP archive, CSV export, 708 file types, 38 file categories, split archive downloader, multi-volume RAR download, Chrome extension, Edge extension, Firefox add-on, same-site crawl, sitemap.xml crawler, deep site crawl, JavaScript-menu navigation",
     "sameAs": [
       "https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf",
       "https://microsoftedge.microsoft.com/addons/detail/ebacgdhmcofpoilfllhkoioabjbaemef",
@@ -112,6 +112,7 @@
       "Bulk download with smart filtering / 拡張子、サイズ、名前、日付で絞り込んで一括保存",
       "Local PDF merge in the browser / サーバーへアップロードせずブラウザ内でPDF結合",
       "Local ZIP archive generation / 選択ファイルのZIPをローカル生成",
+      "Detects split / multi-volume archive sequences (.000/.001…, WinRAR .r00/.s00, WinZip .z01) grouped as compressed archives / 分割・マルチボリュームアーカイブ（.000/.001…、WinRAR .r00/.s00、WinZip .z01）を検出し圧縮アーカイブとして分類",
       "CSV export of file URLs and metadata / ファイルURLとメタデータをCSV出力",
       "Scans HTTP and HTTPS sites, including legacy non-HTTPS pages / HTTP・HTTPS両対応、非HTTPSの旧サイトもスキャン",
       "10-language UI / 10言語UI対応"
@@ -931,61 +932,61 @@
         <div data-lang="en">
           <div class="latest-panel">
             <div class="latest-badge"><span>Latest version</span><strong>5.1.5</strong></div>
-            <div class="latest-copy"><h3>Built to find more files on complex pages.</h3><p>The current release highlights deeper detection, stronger same-site collection, and local output tools for large download jobs.</p><ul class="latest-points"><li>Broader detection for iframe PDFs, lazy images, fetch/XHR files, blob URLs, and CMS download routes.</li><li>Same-site crawl reaches subpages, viewer URLs, search/pagination links, and CMS document routes.</li><li>PDF merge, ZIP archive, and CSV export stay local in your browser.</li></ul></div>
+            <div class="latest-copy"><h3>Built to find more files on complex pages.</h3><p>The current release highlights deeper detection, stronger same-site collection, and local output tools for large download jobs.</p><ul class="latest-points"><li>Broader detection for iframe PDFs, lazy images, fetch/XHR files, blob URLs, and CMS download routes.</li><li>New: detects split / multi-volume archive sequences (.000/.001…, WinRAR .r00/.s00, WinZip .z01) and groups them as compressed archives.</li><li>Same-site crawl reaches subpages, viewer URLs, search/pagination links, and CMS document routes.</li><li>PDF merge, ZIP archive, and CSV export stay local in your browser.</li></ul></div>
           </div>
         </div>
         <div data-lang="ja">
           <div class="latest-panel">
             <div class="latest-badge"><span>最新バージョン</span><strong>5.1.5</strong></div>
-            <div class="latest-copy"><h3>複雑なページでも、より多くのファイルを見つけやすく。</h3><p>現在のリリースでは、深い検出、同一サイト収集、大量ダウンロード後のローカル出力機能を重点的に整理しています。</p><ul class="latest-points"><li>iframe内PDF、遅延画像、fetch/XHRファイル、blob URL、CMSダウンロードルートの検出を強化。</li><li>サブページ、ビューアURL、検索/ページャリンク、CMS文書ルートまで同一サイトクロールで到達。</li><li>PDF結合、ZIP化、CSV出力はブラウザ内で完結し、ファイルをアップロードしません。</li></ul></div>
+            <div class="latest-copy"><h3>複雑なページでも、より多くのファイルを見つけやすく。</h3><p>現在のリリースでは、深い検出、同一サイト収集、大量ダウンロード後のローカル出力機能を重点的に整理しています。</p><ul class="latest-points"><li>iframe内PDF、遅延画像、fetch/XHRファイル、blob URL、CMSダウンロードルートの検出を強化。</li><li>新機能：分割・マルチボリュームアーカイブの連番（.000/.001…、WinRAR .r00/.s00、WinZip .z01）を検出し、圧縮アーカイブとしてまとめます。</li><li>サブページ、ビューアURL、検索/ページャリンク、CMS文書ルートまで同一サイトクロールで到達。</li><li>PDF結合、ZIP化、CSV出力はブラウザ内で完結し、ファイルをアップロードしません。</li></ul></div>
           </div>
         </div>
         <div data-lang="es">
           <div class="latest-panel">
             <div class="latest-badge"><span>Última versión</span><strong>5.1.5</strong></div>
-            <div class="latest-copy"><h3>Preparada para encontrar más archivos en páginas complejas.</h3><p>La versión actual destaca una detección más profunda, mejor recopilación dentro del mismo sitio y herramientas locales para trabajos grandes.</p><ul class="latest-points"><li>Más detección de PDFs en iframes, imágenes diferidas, archivos fetch/XHR, URLs blob y rutas CMS.</li><li>El rastreo del mismo sitio llega a subpáginas, visores, búsqueda/paginación y rutas de documentos CMS.</li><li>Fusión PDF, ZIP y exportación CSV permanecen locales en tu navegador.</li></ul></div>
+            <div class="latest-copy"><h3>Preparada para encontrar más archivos en páginas complejas.</h3><p>La versión actual destaca una detección más profunda, mejor recopilación dentro del mismo sitio y herramientas locales para trabajos grandes.</p><ul class="latest-points"><li>Más detección de PDFs en iframes, imágenes diferidas, archivos fetch/XHR, URLs blob y rutas CMS.</li><li>Nuevo: detecta secuencias de archivos divididos / multivolumen (.000/.001…, WinRAR .r00/.s00, WinZip .z01) y los agrupa como archivos comprimidos.</li><li>El rastreo del mismo sitio llega a subpáginas, visores, búsqueda/paginación y rutas de documentos CMS.</li><li>Fusión PDF, ZIP y exportación CSV permanecen locales en tu navegador.</li></ul></div>
           </div>
         </div>
         <div data-lang="fr">
           <div class="latest-panel">
             <div class="latest-badge"><span>Dernière version</span><strong>5.1.5</strong></div>
-            <div class="latest-copy"><h3>Conçue pour trouver plus de fichiers sur les pages complexes.</h3><p>La version actuelle met en avant une détection plus profonde, une meilleure collecte sur le même site et des sorties locales pour les gros téléchargements.</p><ul class="latest-points"><li>Détection élargie des PDF en iframe, images différées, fichiers fetch/XHR, URLs blob et routes CMS.</li><li>Le crawl du même site atteint sous-pages, visionneuses, recherche/pagination et routes de documents CMS.</li><li>Fusion PDF, archive ZIP et export CSV restent locaux dans votre navigateur.</li></ul></div>
+            <div class="latest-copy"><h3>Conçue pour trouver plus de fichiers sur les pages complexes.</h3><p>La version actuelle met en avant une détection plus profonde, une meilleure collecte sur le même site et des sorties locales pour les gros téléchargements.</p><ul class="latest-points"><li>Détection élargie des PDF en iframe, images différées, fichiers fetch/XHR, URLs blob et routes CMS.</li><li>Nouveau : détecte les séquences d'archives fractionnées / multivolumes (.000/.001…, WinRAR .r00/.s00, WinZip .z01) et les regroupe comme archives compressées.</li><li>Le crawl du même site atteint sous-pages, visionneuses, recherche/pagination et routes de documents CMS.</li><li>Fusion PDF, archive ZIP et export CSV restent locaux dans votre navigateur.</li></ul></div>
           </div>
         </div>
         <div data-lang="de">
           <div class="latest-panel">
             <div class="latest-badge"><span>Neueste Version</span><strong>5.1.5</strong></div>
-            <div class="latest-copy"><h3>Gemacht, um auf komplexen Seiten mehr Dateien zu finden.</h3><p>Die aktuelle Version hebt tiefere Erkennung, stärkere Same-Site-Sammlung und lokale Ausgabe-Tools für große Download-Aufgaben hervor.</p><ul class="latest-points"><li>Breitere Erkennung für iFrame-PDFs, Lazy-Images, fetch/XHR-Dateien, Blob-URLs und CMS-Download-Routen.</li><li>Same-Site-Crawl erreicht Unterseiten, Viewer-URLs, Suche/Paginierung und CMS-Dokumentrouten.</li><li>PDF-Zusammenführung, ZIP-Archiv und CSV-Export bleiben lokal im Browser.</li></ul></div>
+            <div class="latest-copy"><h3>Gemacht, um auf komplexen Seiten mehr Dateien zu finden.</h3><p>Die aktuelle Version hebt tiefere Erkennung, stärkere Same-Site-Sammlung und lokale Ausgabe-Tools für große Download-Aufgaben hervor.</p><ul class="latest-points"><li>Breitere Erkennung für iFrame-PDFs, Lazy-Images, fetch/XHR-Dateien, Blob-URLs und CMS-Download-Routen.</li><li>Neu: erkennt geteilte / mehrteilige Archivsequenzen (.000/.001…, WinRAR .r00/.s00, WinZip .z01) und gruppiert sie als komprimierte Archive.</li><li>Same-Site-Crawl erreicht Unterseiten, Viewer-URLs, Suche/Paginierung und CMS-Dokumentrouten.</li><li>PDF-Zusammenführung, ZIP-Archiv und CSV-Export bleiben lokal im Browser.</li></ul></div>
           </div>
         </div>
         <div data-lang="it">
           <div class="latest-panel">
             <div class="latest-badge"><span>Ultima versione</span><strong>5.1.5</strong></div>
-            <div class="latest-copy"><h3>Progettata per trovare più file nelle pagine complesse.</h3><p>La versione attuale evidenzia rilevamento più profondo, raccolta nello stesso sito e strumenti locali per grandi download.</p><ul class="latest-points"><li>Rilevamento più ampio per PDF in iframe, immagini lazy, file fetch/XHR, URL blob e percorsi CMS.</li><li>Il crawl dello stesso sito raggiunge sottopagine, visualizzatori, ricerca/paginazione e percorsi documentali CMS.</li><li>Unione PDF, archivio ZIP ed esportazione CSV restano locali nel browser.</li></ul></div>
+            <div class="latest-copy"><h3>Progettata per trovare più file nelle pagine complesse.</h3><p>La versione attuale evidenzia rilevamento più profondo, raccolta nello stesso sito e strumenti locali per grandi download.</p><ul class="latest-points"><li>Rilevamento più ampio per PDF in iframe, immagini lazy, file fetch/XHR, URL blob e percorsi CMS.</li><li>Novità: rileva sequenze di archivi divisi / multivolume (.000/.001…, WinRAR .r00/.s00, WinZip .z01) e le raggruppa come archivi compressi.</li><li>Il crawl dello stesso sito raggiunge sottopagine, visualizzatori, ricerca/paginazione e percorsi documentali CMS.</li><li>Unione PDF, archivio ZIP ed esportazione CSV restano locali nel browser.</li></ul></div>
           </div>
         </div>
         <div data-lang="ko">
           <div class="latest-panel">
             <div class="latest-badge"><span>최신 버전</span><strong>5.1.5</strong></div>
-            <div class="latest-copy"><h3>복잡한 페이지에서 더 많은 파일을 찾도록 구성했습니다.</h3><p>현재 릴리스는 더 깊은 감지, 같은 사이트 수집, 대량 다운로드 후 로컬 출력 도구를 강조합니다.</p><ul class="latest-points"><li>iframe PDF, 지연 로딩 이미지, fetch/XHR 파일, blob URL, CMS 다운로드 경로 감지 범위 확대.</li><li>같은 사이트 크롤링으로 하위 페이지, 뷰어 URL, 검색/페이지네이션, CMS 문서 경로까지 도달.</li><li>PDF 병합, ZIP 압축, CSV 내보내기는 브라우저 안에서 로컬로 처리됩니다.</li></ul></div>
+            <div class="latest-copy"><h3>복잡한 페이지에서 더 많은 파일을 찾도록 구성했습니다.</h3><p>현재 릴리스는 더 깊은 감지, 같은 사이트 수집, 대량 다운로드 후 로컬 출력 도구를 강조합니다.</p><ul class="latest-points"><li>iframe PDF, 지연 로딩 이미지, fetch/XHR 파일, blob URL, CMS 다운로드 경로 감지 범위 확대.</li><li>신규: 분할 / 멀티볼륨 아카이브 시퀀스(.000/.001…, WinRAR .r00/.s00, WinZip .z01)를 감지하여 압축 아카이브로 묶습니다.</li><li>같은 사이트 크롤링으로 하위 페이지, 뷰어 URL, 검색/페이지네이션, CMS 문서 경로까지 도달.</li><li>PDF 병합, ZIP 압축, CSV 내보내기는 브라우저 안에서 로컬로 처리됩니다.</li></ul></div>
           </div>
         </div>
         <div data-lang="pt_BR">
           <div class="latest-panel">
             <div class="latest-badge"><span>Versão mais recente</span><strong>5.1.5</strong></div>
-            <div class="latest-copy"><h3>Feita para encontrar mais arquivos em páginas complexas.</h3><p>A versão atual destaca detecção mais profunda, coleta no mesmo site e ferramentas locais para grandes downloads.</p><ul class="latest-points"><li>Detecção ampliada para PDFs em iframe, imagens lazy, arquivos fetch/XHR, URLs blob e rotas CMS.</li><li>O rastreamento no mesmo site alcança subpáginas, visualizadores, busca/paginação e rotas de documentos CMS.</li><li>Mesclagem PDF, arquivo ZIP e exportação CSV ficam locais no navegador.</li></ul></div>
+            <div class="latest-copy"><h3>Feita para encontrar mais arquivos em páginas complexas.</h3><p>A versão atual destaca detecção mais profunda, coleta no mesmo site e ferramentas locais para grandes downloads.</p><ul class="latest-points"><li>Detecção ampliada para PDFs em iframe, imagens lazy, arquivos fetch/XHR, URLs blob e rotas CMS.</li><li>Novo: detecta sequências de arquivos divididos / multivolume (.000/.001…, WinRAR .r00/.s00, WinZip .z01) e as agrupa como arquivos compactados.</li><li>O rastreamento no mesmo site alcança subpáginas, visualizadores, busca/paginação e rotas de documentos CMS.</li><li>Mesclagem PDF, arquivo ZIP e exportação CSV ficam locais no navegador.</li></ul></div>
           </div>
         </div>
         <div data-lang="zh_CN">
           <div class="latest-panel">
             <div class="latest-badge"><span>最新版本</span><strong>5.1.5</strong></div>
-            <div class="latest-copy"><h3>面向复杂网页，发现更多文件。</h3><p>当前版本重点呈现更深入的检测、同站点收集能力，以及适合大量下载任务的本地输出工具。</p><ul class="latest-points"><li>扩展检测 iframe PDF、懒加载图片、fetch/XHR 文件、blob URL 和 CMS 下载路径。</li><li>同站点抓取可到达子页面、查看器 URL、搜索/分页链接和 CMS 文档路径。</li><li>PDF 合并、ZIP 打包和 CSV 导出都在浏览器本地完成。</li></ul></div>
+            <div class="latest-copy"><h3>面向复杂网页，发现更多文件。</h3><p>当前版本重点呈现更深入的检测、同站点收集能力，以及适合大量下载任务的本地输出工具。</p><ul class="latest-points"><li>扩展检测 iframe PDF、懒加载图片、fetch/XHR 文件、blob URL 和 CMS 下载路径。</li><li>新增：检测分卷 / 多卷压缩包序列（.000/.001…、WinRAR .r00/.s00、WinZip .z01），并归入压缩文件类别。</li><li>同站点抓取可到达子页面、查看器 URL、搜索/分页链接和 CMS 文档路径。</li><li>PDF 合并、ZIP 打包和 CSV 导出都在浏览器本地完成。</li></ul></div>
           </div>
         </div>
         <div data-lang="zh_TW">
           <div class="latest-panel">
             <div class="latest-badge"><span>最新版本</span><strong>5.1.5</strong></div>
-            <div class="latest-copy"><h3>面向複雜網頁，找出更多檔案。</h3><p>目前版本重點呈現更深入的偵測、同站點收集能力，以及適合大量下載任務的本機輸出工具。</p><ul class="latest-points"><li>擴展偵測 iframe PDF、延遲載入圖片、fetch/XHR 檔案、blob URL 和 CMS 下載路徑。</li><li>同站點抓取可到達子頁面、檢視器 URL、搜尋/分頁連結和 CMS 文件路徑。</li><li>PDF 合併、ZIP 封存和 CSV 匯出都在瀏覽器本機完成。</li></ul></div>
+            <div class="latest-copy"><h3>面向複雜網頁，找出更多檔案。</h3><p>目前版本重點呈現更深入的偵測、同站點收集能力，以及適合大量下載任務的本機輸出工具。</p><ul class="latest-points"><li>擴展偵測 iframe PDF、延遲載入圖片、fetch/XHR 檔案、blob URL 和 CMS 下載路徑。</li><li>新增：偵測分卷 / 多卷壓縮檔序列（.000/.001…、WinRAR .r00/.s00、WinZip .z01），並歸入壓縮檔類別。</li><li>同站點抓取可到達子頁面、檢視器 URL、搜尋/分頁連結和 CMS 文件路徑。</li><li>PDF 合併、ZIP 封存和 CSV 匯出都在瀏覽器本機完成。</li></ul></div>
           </div>
         </div>
       </div>
@@ -1022,7 +1023,7 @@
 
         <div data-lang="en">
           <div class="features-grid">
-            <div class="feature-card"><span class="tile">🔎</span><h3>Finds files others miss</h3><p><strong>708 file types (extensions)</strong> supported. Detects iframe-embedded PDFs, lazy-loaded images, fetch/XHR file responses, blob URLs, CMS download routes, hidden form values, and 30+ data-* attributes that plain link scrapers ignore. Also reaches into Shadow DOM / Web Components, SPA hydration data (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB, and signed cloud-storage URLs (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
+            <div class="feature-card"><span class="tile">🔎</span><h3>Finds files others miss</h3><p><strong>708 file types (extensions)</strong> supported. Detects iframe-embedded PDFs, lazy-loaded images, fetch/XHR file responses, blob URLs, CMS download routes, hidden form values, and 39 data-* attributes that plain link scrapers ignore. Also reaches into Shadow DOM / Web Components, SPA hydration data (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB, and signed cloud-storage URLs (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Smart filtering</h3><p>Filter results by extension, file size, file name, page title, or modification date. Sort, manually reorder, and copy URLs as plain text.</p></div>
             <div class="feature-card"><span class="tile">🕸️</span><h3>Same-site crawl</h3><p>Choose a depth (0–5 or unlimited) and visit every same-domain link to surface PDFs on subpages, viewer URLs, and CMS document routes — up to 100,000 pages per run. It also reads sitemap.xml / robots.txt and follows JavaScript-menu (javascript:/onclick), frameset, image-map, and GET search/pagination links, reaching pages that have no plain HTML links.</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>Local PDF merge</h3><p>Combine selected PDFs into a single file with one click. No upload, no server. Your files stay on your device.</p></div>
@@ -1035,7 +1036,7 @@
         </div>
         <div data-lang="ja">
           <div class="features-grid">
-            <div class="feature-card"><span class="tile">🔎</span><h3>見落としがちなファイルも検出</h3><p><strong>708種類（拡張子）</strong>のファイルに対応。iframe内のPDF、遅延読み込み画像、fetch/XHRで取得されるファイル、blob URL、CMSダウンロードルート、hidden inputの値、30種類以上のdata-*属性まで網羅。通常のリンクスクレイパーでは拾えないファイルも検出します。さらにShadow DOM／Web Components内、SPAのハイドレーションデータ（Next.js・JSON-LD）、Cache Storage／OPFS／IndexedDB、署名付きクラウドストレージURL（Cloudflare R2・Firebase・Supabase・Vercel Blob）まで踏み込んで検出します。</p></div>
+            <div class="feature-card"><span class="tile">🔎</span><h3>見落としがちなファイルも検出</h3><p><strong>708種類（拡張子）</strong>のファイルに対応。iframe内のPDF、遅延読み込み画像、fetch/XHRで取得されるファイル、blob URL、CMSダウンロードルート、hidden inputの値、39種類のdata-*属性まで網羅。通常のリンクスクレイパーでは拾えないファイルも検出します。さらにShadow DOM／Web Components内、SPAのハイドレーションデータ（Next.js・JSON-LD）、Cache Storage／OPFS／IndexedDB、署名付きクラウドストレージURL（Cloudflare R2・Firebase・Supabase・Vercel Blob）まで踏み込んで検出します。</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>スマートフィルタ</h3><p>拡張子、ファイルサイズ、ファイル名、ページタイトル、更新日で絞り込み・並べ替え・手動並べ替え。URLのプレーンテキストコピーにも対応。</p></div>
             <div class="feature-card"><span class="tile">🕸️</span><h3>同一サイトクロール</h3><p>深度0〜5または無制限を選んで、同一ドメインのリンク先を巡回。サブページに散らばったPDF、ビューアURL、CMS文書ルートまで一気に収集。1回の実行で最大1万ページまで。さらに sitemap.xml／robots.txt を解析し、JavaScriptメニュー（javascript:／onclick）・フレームセット・イメージマップ・GET検索/ページャのリンクも辿るので、通常の&lt;a&gt;リンクが無いページにも到達します。</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>PDF結合（ローカル）</h3><p>選択したPDFを1つにまとめます。アップロード不要・サーバー送信なし。ファイルは端末から外に出ません。</p></div>
@@ -1048,7 +1049,7 @@
         </div>
         <div data-lang="es">
           <div class="features-grid">
-            <div class="feature-card"><span class="tile">🔎</span><h3>Encuentra archivos ocultos</h3><p>Compatibilidad con <strong>708 tipos de archivo (extensiones)</strong>. Detecta PDFs en iframes, imágenes con carga diferida, respuestas fetch/XHR, URLs blob, rutas de descarga de CMS y más de 30 atributos data-*. Llega incluso al Shadow DOM / Web Components, los datos de hidratación de SPA (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB y las URLs firmadas de almacenamiento en la nube (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
+            <div class="feature-card"><span class="tile">🔎</span><h3>Encuentra archivos ocultos</h3><p>Compatibilidad con <strong>708 tipos de archivo (extensiones)</strong>. Detecta PDFs en iframes, imágenes con carga diferida, respuestas fetch/XHR, URLs blob, rutas de descarga de CMS y 39 atributos data-*. Llega incluso al Shadow DOM / Web Components, los datos de hidratación de SPA (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB y las URLs firmadas de almacenamiento en la nube (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Filtrado inteligente</h3><p>Filtra por extensión, tamaño, nombre, fecha. Ordena, reordena manualmente y copia URLs como texto plano.</p></div>
             <div class="feature-card"><span class="tile">🕸️</span><h3>Rastreo del mismo sitio</h3><p>Elige una profundidad (0–5 o ilimitada) y visita cada enlace del mismo dominio. Hasta 100,000 páginas por ejecución. También lee sitemap.xml / robots.txt y sigue enlaces de menús JavaScript (javascript:/onclick), framesets, mapas de imagen y formularios GET de búsqueda/paginación, alcanzando páginas sin enlaces HTML normales.</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>Fusión local de PDF</h3><p>Combina PDFs seleccionados en un solo archivo. Sin subida, sin servidor. Tus archivos permanecen en tu dispositivo.</p></div>
@@ -1061,7 +1062,7 @@
         </div>
         <div data-lang="fr">
           <div class="features-grid">
-            <div class="feature-card"><span class="tile">🔎</span><h3>Trouve les fichiers cachés</h3><p>Prise en charge de <strong>708 types de fichiers (extensions)</strong>. Détecte les PDF dans les iframes, les images chargées paresseusement, les réponses fetch/XHR, les URLs blob, les routes CMS et plus de 30 attributs data-*. Va même chercher dans le Shadow DOM / Web Components, les données d'hydratation des SPA (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB et les URLs signées de stockage cloud (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
+            <div class="feature-card"><span class="tile">🔎</span><h3>Trouve les fichiers cachés</h3><p>Prise en charge de <strong>708 types de fichiers (extensions)</strong>. Détecte les PDF dans les iframes, les images chargées paresseusement, les réponses fetch/XHR, les URLs blob, les routes CMS et 39 attributs data-*. Va même chercher dans le Shadow DOM / Web Components, les données d'hydratation des SPA (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB et les URLs signées de stockage cloud (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Filtrage intelligent</h3><p>Filtrez par extension, taille, nom, date. Triez, réorganisez manuellement et copiez les URLs en texte brut.</p></div>
             <div class="feature-card"><span class="tile">🕸️</span><h3>Crawl du même site</h3><p>Choisissez une profondeur (0–5 ou illimitée) et visitez chaque lien du même domaine. Jusqu'à 100 000 pages par exécution. Lit aussi sitemap.xml / robots.txt et suit les liens des menus JavaScript (javascript:/onclick), des framesets, des image maps et des formulaires GET de recherche/pagination, atteignant les pages sans liens HTML classiques.</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>Fusion PDF locale</h3><p>Combinez les PDF sélectionnés en un seul fichier. Aucun téléchargement, aucun serveur. Vos fichiers restent sur votre appareil.</p></div>
@@ -1074,7 +1075,7 @@
         </div>
         <div data-lang="de">
           <div class="features-grid">
-            <div class="feature-card"><span class="tile">🔎</span><h3>Findet versteckte Dateien</h3><p>Unterstützt <strong>708 Dateitypen (Erweiterungen)</strong>. Erkennt PDFs in iFrames, lazy-loaded Bilder, fetch/XHR-Antworten, Blob-URLs, CMS-Download-Routen und über 30 data-*-Attribute. Greift sogar auf Shadow DOM / Web Components, SPA-Hydration-Daten (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB und signierte Cloud-Storage-URLs (Cloudflare R2, Firebase, Supabase, Vercel Blob) zu.</p></div>
+            <div class="feature-card"><span class="tile">🔎</span><h3>Findet versteckte Dateien</h3><p>Unterstützt <strong>708 Dateitypen (Erweiterungen)</strong>. Erkennt PDFs in iFrames, lazy-loaded Bilder, fetch/XHR-Antworten, Blob-URLs, CMS-Download-Routen und 39 data-*-Attribute. Greift sogar auf Shadow DOM / Web Components, SPA-Hydration-Daten (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB und signierte Cloud-Storage-URLs (Cloudflare R2, Firebase, Supabase, Vercel Blob) zu.</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Intelligente Filterung</h3><p>Filtern nach Erweiterung, Größe, Name, Datum. Sortieren, manuell neu anordnen und URLs als Klartext kopieren.</p></div>
             <div class="feature-card"><span class="tile">🕸️</span><h3>Same-Site-Crawl</h3><p>Wählen Sie eine Tiefe (0–5 oder unbegrenzt) und besuchen Sie jeden Link derselben Domain. Bis zu 100.000 Seiten pro Lauf. Liest außerdem sitemap.xml / robots.txt und folgt Links aus JavaScript-Menüs (javascript:/onclick), Framesets, Image-Maps und GET-Such-/Paginierungsformularen — erreicht so Seiten ohne normale HTML-Links.</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>Lokale PDF-Zusammenführung</h3><p>Kombinieren Sie ausgewählte PDFs zu einer Datei. Kein Upload, kein Server. Ihre Dateien bleiben auf Ihrem Gerät.</p></div>
@@ -1087,7 +1088,7 @@
         </div>
         <div data-lang="it">
           <div class="features-grid">
-            <div class="feature-card"><span class="tile">🔎</span><h3>Trova file nascosti</h3><p>Supporta <strong>708 tipi di file (estensioni)</strong>. Rileva PDF in iframe, immagini lazy-loaded, risposte fetch/XHR, URL blob, percorsi di download CMS e oltre 30 attributi data-*. Arriva persino nello Shadow DOM / Web Components, nei dati di hydration delle SPA (Next.js, JSON-LD), in Cache Storage / OPFS / IndexedDB e negli URL firmati di cloud storage (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
+            <div class="feature-card"><span class="tile">🔎</span><h3>Trova file nascosti</h3><p>Supporta <strong>708 tipi di file (estensioni)</strong>. Rileva PDF in iframe, immagini lazy-loaded, risposte fetch/XHR, URL blob, percorsi di download CMS e 39 attributi data-*. Arriva persino nello Shadow DOM / Web Components, nei dati di hydration delle SPA (Next.js, JSON-LD), in Cache Storage / OPFS / IndexedDB e negli URL firmati di cloud storage (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Filtro intelligente</h3><p>Filtra per estensione, dimensione, nome, data. Ordina, riordina manualmente e copia URL come testo semplice.</p></div>
             <div class="feature-card"><span class="tile">🕸️</span><h3>Crawl dello stesso sito</h3><p>Scegli una profondità (0–5 o illimitata) e visita ogni link dello stesso dominio. Fino a 100.000 pagine per esecuzione. Legge anche sitemap.xml / robots.txt e segue i link dei menu JavaScript (javascript:/onclick), dei frameset, delle image map e dei moduli GET di ricerca/paginazione, raggiungendo pagine senza link HTML normali.</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>Unione PDF locale</h3><p>Combina i PDF selezionati in un unico file. Nessun upload, nessun server. I tuoi file rimangono sul tuo dispositivo.</p></div>
@@ -1100,7 +1101,7 @@
         </div>
         <div data-lang="ko">
           <div class="features-grid">
-            <div class="feature-card"><span class="tile">🔎</span><h3>숨겨진 파일 검출</h3><p><strong>708종류(확장자)</strong>의 파일을 지원합니다. iframe 내 PDF, 지연 로딩 이미지, fetch/XHR 응답, blob URL, CMS 다운로드 경로, 30개 이상의 data-* 속성을 감지합니다. Shadow DOM / Web Components 내부, SPA 하이드레이션 데이터(Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB, 서명된 클라우드 스토리지 URL(Cloudflare R2, Firebase, Supabase, Vercel Blob)까지 찾아냅니다.</p></div>
+            <div class="feature-card"><span class="tile">🔎</span><h3>숨겨진 파일 검출</h3><p><strong>708종류(확장자)</strong>의 파일을 지원합니다. iframe 내 PDF, 지연 로딩 이미지, fetch/XHR 응답, blob URL, CMS 다운로드 경로, 39개의 data-* 속성을 감지합니다. Shadow DOM / Web Components 내부, SPA 하이드레이션 데이터(Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB, 서명된 클라우드 스토리지 URL(Cloudflare R2, Firebase, Supabase, Vercel Blob)까지 찾아냅니다.</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>스마트 필터링</h3><p>확장자, 크기, 이름, 날짜로 필터링. 정렬, 수동 재정렬, URL 일반 텍스트 복사 지원.</p></div>
             <div class="feature-card"><span class="tile">🕸️</span><h3>동일 사이트 크롤링</h3><p>깊이(0~5 또는 무제한)를 선택하여 동일 도메인의 모든 링크를 방문. 한 번 실행에 최대 100,000 페이지. sitemap.xml / robots.txt도 읽고 JavaScript 메뉴(javascript:/onclick), 프레임셋, 이미지 맵, GET 검색/페이지네이션 폼의 링크까지 따라가 일반 HTML 링크가 없는 페이지에도 도달합니다.</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>로컬 PDF 병합</h3><p>선택한 PDF를 하나의 파일로 결합. 업로드 없음, 서버 없음. 파일은 기기에 남아 있습니다.</p></div>
@@ -1113,7 +1114,7 @@
         </div>
         <div data-lang="pt_BR">
           <div class="features-grid">
-            <div class="feature-card"><span class="tile">🔎</span><h3>Encontra arquivos ocultos</h3><p>Compatível com <strong>708 tipos de arquivo (extensões)</strong>. Detecta PDFs em iframes, imagens com carregamento preguiçoso, respostas fetch/XHR, URLs blob, rotas de download de CMS e mais de 30 atributos data-*. Chega até o Shadow DOM / Web Components, os dados de hidratação de SPAs (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB e URLs assinadas de armazenamento em nuvem (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
+            <div class="feature-card"><span class="tile">🔎</span><h3>Encontra arquivos ocultos</h3><p>Compatível com <strong>708 tipos de arquivo (extensões)</strong>. Detecta PDFs em iframes, imagens com carregamento preguiçoso, respostas fetch/XHR, URLs blob, rotas de download de CMS e 39 atributos data-*. Chega até o Shadow DOM / Web Components, os dados de hidratação de SPAs (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB e URLs assinadas de armazenamento em nuvem (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Filtragem inteligente</h3><p>Filtre por extensão, tamanho, nome, data. Ordene, reordene manualmente e copie URLs como texto simples.</p></div>
             <div class="feature-card"><span class="tile">🕸️</span><h3>Rastreamento do mesmo site</h3><p>Escolha uma profundidade (0–5 ou ilimitada) e visite cada link do mesmo domínio. Até 100.000 páginas por execução. Também lê sitemap.xml / robots.txt e segue links de menus JavaScript (javascript:/onclick), framesets, mapas de imagem e formulários GET de busca/paginação, alcançando páginas sem links HTML comuns.</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>Mesclagem local de PDF</h3><p>Combine PDFs selecionados em um único arquivo. Sem upload, sem servidor. Seus arquivos ficam no seu dispositivo.</p></div>
@@ -1126,7 +1127,7 @@
         </div>
         <div data-lang="zh_CN">
           <div class="features-grid">
-            <div class="feature-card"><span class="tile">🔎</span><h3>查找隐藏文件</h3><p>支持 <strong>708 种文件类型（扩展名）</strong>。检测iframe中的PDF、懒加载图片、fetch/XHR响应、blob URL、CMS下载路径以及30多个data-*属性。还能深入 Shadow DOM / Web Components、SPA 水合数据（Next.js、JSON-LD）、Cache Storage / OPFS / IndexedDB 以及带签名的云存储 URL（Cloudflare R2、Firebase、Supabase、Vercel Blob）。</p></div>
+            <div class="feature-card"><span class="tile">🔎</span><h3>查找隐藏文件</h3><p>支持 <strong>708 种文件类型（扩展名）</strong>。检测iframe中的PDF、懒加载图片、fetch/XHR响应、blob URL、CMS下载路径以及39个data-*属性。还能深入 Shadow DOM / Web Components、SPA 水合数据（Next.js、JSON-LD）、Cache Storage / OPFS / IndexedDB 以及带签名的云存储 URL（Cloudflare R2、Firebase、Supabase、Vercel Blob）。</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>智能过滤</h3><p>按扩展名、大小、名称、日期过滤。排序、手动重排序，将URL复制为纯文本。</p></div>
             <div class="feature-card"><span class="tile">🕸️</span><h3>同站点爬取</h3><p>选择深度（0–5或无限）访问同一域名的每个链接。每次运行最多100,000页。还会读取 sitemap.xml / robots.txt，并跟随 JavaScript 菜单（javascript:/onclick）、框架集、图像映射和 GET 搜索/分页表单中的链接，到达没有普通 HTML 链接的页面。</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>本地PDF合并</h3><p>将选定的PDF合并为单个文件。无上传，无服务器。文件保留在您的设备上。</p></div>
@@ -1139,7 +1140,7 @@
         </div>
         <div data-lang="zh_TW">
           <div class="features-grid">
-            <div class="feature-card"><span class="tile">🔎</span><h3>找出隱藏檔案</h3><p>支援 <strong>708 種檔案類型（副檔名）</strong>。偵測iframe內的PDF、延遲載入圖片、fetch/XHR回應、blob URL、CMS下載路徑及30多種data-*屬性。更能深入 Shadow DOM / Web Components、SPA 水合資料（Next.js、JSON-LD）、Cache Storage / OPFS / IndexedDB 以及帶簽章的雲端儲存 URL（Cloudflare R2、Firebase、Supabase、Vercel Blob）。</p></div>
+            <div class="feature-card"><span class="tile">🔎</span><h3>找出隱藏檔案</h3><p>支援 <strong>708 種檔案類型（副檔名）</strong>。偵測iframe內的PDF、延遲載入圖片、fetch/XHR回應、blob URL、CMS下載路徑及39種data-*屬性。更能深入 Shadow DOM / Web Components、SPA 水合資料（Next.js、JSON-LD）、Cache Storage / OPFS / IndexedDB 以及帶簽章的雲端儲存 URL（Cloudflare R2、Firebase、Supabase、Vercel Blob）。</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>智慧篩選</h3><p>依副檔名、大小、名稱、日期篩選。排序、手動重新排序、將URL複製為純文字。</p></div>
             <div class="feature-card"><span class="tile">🕸️</span><h3>同站爬取</h3><p>選擇深度（0–5或無限）造訪同網域的每個連結。每次執行最多100,000頁。還會讀取 sitemap.xml / robots.txt，並跟隨 JavaScript 選單（javascript:/onclick）、框架集、影像地圖與 GET 搜尋/分頁表單中的連結，到達沒有普通 HTML 連結的頁面。</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>本機PDF合併</h3><p>將選取的PDF合併為單一檔案。無需上傳、無需伺服器。檔案保留在您的裝置上。</p></div>
@@ -1403,7 +1404,7 @@
           <div data-lang="zh_TW"><h2>常見問題</h2></div>
         </div>
         <div data-lang="en"><div class="faq-list">
-          <details><summary>What file types can I download?</summary><p>Grab All Files supports 708 file types (extensions) — including PDF, Word, Excel, PowerPoint, images, ZIP, and CSV. Filter the results by extension, select what you need, and download them all in one click.</p></details>
+          <details><summary>What file types can I download?</summary><p>Grab All Files supports 708 file types (extensions) — including PDF, Word, Excel, PowerPoint, images, ZIP, and CSV. It also detects split / multi-volume archive sequences (.000/.001…, WinRAR .r00/.s00, WinZip .z01) and groups them with the other compressed archives. Filter the results by extension, select what you need, and download them all in one click.</p></details>
           <details><summary>Is it free to use?</summary><p>Yes. Every feature is free; a single download saves up to 20 files, and you can repeat the download to save the rest at no cost. Pro (a one-time $19.99 purchase) removes the per-download limit.</p></details>
           <details><summary>How much does Pro cost?</summary><p>$19.99 USD as a one-time purchase. Lifetime license, no subscription. Activates on up to 3 devices.</p></details>
           <details><summary>Does it send my browsing data anywhere?</summary><p>No. Files are downloaded directly from the source site to your device. Only license verification reaches our servers.</p></details>
@@ -1417,20 +1418,20 @@
           <details><summary>Can I merge PDFs without uploading them to a server?</summary><p>Yes. Grab All Files merges selected PDFs locally inside your browser. Nothing is uploaded — your files never leave your device.</p></details>
         </div></div>
         <div data-lang="ja"><div class="faq-list">
-          <details><summary>対応しているファイル形式は？</summary><p>708種類（拡張子）のファイルに対応しています（PDF・Word・Excel・PowerPoint・画像・ZIP・CSVなど）。拡張子で絞り込み、必要なものを選んでワンクリックで一括ダウンロードできます。</p></details>
+          <details><summary>対応しているファイル形式は？</summary><p>708種類（拡張子）のファイルに対応しています（PDF・Word・Excel・PowerPoint・画像・ZIP・CSVなど）。分割・マルチボリュームアーカイブ（.000/.001…、WinRAR .r00/.s00、WinZip .z01）も検出し、圧縮アーカイブとして分類します。拡張子で絞り込み、必要なものを選んでワンクリックで一括ダウンロードできます。</p></details>
           <details><summary>無料で使えますか？</summary><p>はい。全機能を無料でご利用いただけます。1回のダウンロードで最大20件まで保存でき、ダウンロードを繰り返せば残りも無料で保存できます。Pro（$19.99の買い切り）にすると1回あたりの上限が解除されます。</p></details>
           <details><summary>Proの料金は？</summary><p>$19.99 USDの永続ライセンス（サブスクなし）です。最大3台のデバイスで利用できます。</p></details>
           <details><summary>閲覧データはどこかへ送信されますか？</summary><p>いいえ。ファイルはソースサイトから端末へ直接ダウンロードされます。当社サーバーへ送信されるのはライセンス検証のみです。</p></details>
           <details><summary>対応ブラウザは？</summary><p>Google Chrome および Microsoft Edge（Chromium 111 以降）、および Mozilla Firefox（128 以降）。</p></details>
           <details><summary>返金はできますか？</summary><p>即時提供のデジタル製品のため、原則として返金には応じておりません。無料プランでProご購入前にすべての機能を十分にご確認いただけます。技術的な不具合により動作しない場合は、初回報告から30日以内であれば全額返金いたします。</p></details>
           <details><summary>ログインが必要なサイトでも動きますか？</summary><p>はい。お使いのブラウザのセッションを利用し、社内ポータル、LMS、会員ページなど、すでに正当にアクセスできるページをスキャンできます。認証情報を収集したり、アクセス制御を回避したりするものではありません。</p></details>
-          <details><summary>Webページ上のファイルをまとめてダウンロードするには？</summary><p>Grab All Files を Google Chrome または Microsoft Edge にインストールし、対象ページを開く（またはURLを貼り付ける）だけで、iframe、ビューア、遅延読み込み、fetch/XHR、blob URL、CMSダウンロードルートに隠れたファイルまで含めて検出・一覧表示します。必要なファイルを選んでワンクリックで一括保存できます。</p></details>
+          <details><summary>Webページ上のファイルをまとめてダウンロードするには？</summary><p>Grab All Files を Google Chrome、Microsoft Edge、または Mozilla Firefox にインストールし、対象ページを開く（またはURLを貼り付ける）だけで、iframe、ビューア、遅延読み込み、fetch/XHR、blob URL、CMSダウンロードルートに隠れたファイルまで含めて検出・一覧表示します。必要なファイルを選んでワンクリックで一括保存できます。</p></details>
           <details><summary>サイト上のPDFをすべてダウンロードするには？</summary><p>iframe埋め込みPDFやPDFビューアのURLも含めてページ上のPDFを検出し、同一サイト内を1回の実行で最大1万ページまでクロールできます。PDFで絞り込んで全選択し、一括ダウンロード、またはブラウザ内で1つのPDFに結合できます。</p></details>
           <details><summary>Webページ上の画像をすべて保存するには？</summary><p>遅延読み込み画像、CSS背景画像、blob URLも含めて画像を検出します。画像種別で絞り込んで選択し、一括ダウンロード、または画像URLの一覧をCSV出力できます。</p></details>
           <details><summary>PDFをサーバーにアップロードせずに結合できますか？</summary><p>はい。選択したPDFはブラウザ内（ローカル）で結合されます。アップロードは一切なく、ファイルが端末の外に出ることはありません。</p></details>
         </div></div>
         <div data-lang="es"><div class="faq-list">
-          <details><summary>¿Qué tipos de archivo admite?</summary><p>Grab All Files admite 708 tipos de archivo (extensiones), incluidos PDF, Word, Excel, PowerPoint, imágenes, ZIP y CSV. Filtra por extensión, selecciona lo que necesitas y descárgalo todo con un clic.</p></details>
+          <details><summary>¿Qué tipos de archivo admite?</summary><p>Grab All Files admite 708 tipos de archivo (extensiones), incluidos PDF, Word, Excel, PowerPoint, imágenes, ZIP y CSV. También detecta secuencias de archivos divididos / multivolumen (.000/.001…, WinRAR .r00/.s00, WinZip .z01) y las agrupa como archivos comprimidos. Filtra por extensión, selecciona lo que necesitas y descárgalo todo con un clic.</p></details>
           <details><summary>¿Es gratis de usar?</summary><p>Sí. Todas las funciones son gratuitas; una sola descarga guarda hasta 20 archivos, y puedes repetir la descarga para guardar el resto sin coste. Pro (una compra única de $19.99) elimina el límite por descarga.</p></details>
           <details><summary>¿Cuánto cuesta Pro?</summary><p>$19.99 USD pago único. Licencia de por vida, sin suscripción. Hasta 3 dispositivos.</p></details>
           <details><summary>¿Envía mis datos de navegación?</summary><p>No. Los archivos se descargan directamente del sitio fuente. Solo la verificación de licencia llega a nuestros servidores.</p></details>
@@ -1438,7 +1439,7 @@
           <details><summary>¿Puedo obtener un reembolso?</summary><p>Como producto digital entregado de inmediato, no se aceptan reembolsos en principio. El plan gratuito permite evaluar por completo todas las funciones antes de comprar Pro.</p></details>
         </div></div>
         <div data-lang="fr"><div class="faq-list">
-          <details><summary>Quels types de fichiers sont pris en charge ?</summary><p>Grab All Files prend en charge 708 types de fichiers (extensions), dont PDF, Word, Excel, PowerPoint, images, ZIP et CSV. Filtrez par extension, sélectionnez ce dont vous avez besoin et téléchargez tout en un clic.</p></details>
+          <details><summary>Quels types de fichiers sont pris en charge ?</summary><p>Grab All Files prend en charge 708 types de fichiers (extensions), dont PDF, Word, Excel, PowerPoint, images, ZIP et CSV. Il détecte aussi les séquences d'archives fractionnées / multivolumes (.000/.001…, WinRAR .r00/.s00, WinZip .z01) et les regroupe comme archives compressées. Filtrez par extension, sélectionnez ce dont vous avez besoin et téléchargez tout en un clic.</p></details>
           <details><summary>Est-ce gratuit à utiliser ?</summary><p>Oui. Toutes les fonctionnalités sont gratuites ; un seul téléchargement enregistre jusqu'à 20 fichiers, et vous pouvez répéter le téléchargement pour enregistrer le reste sans frais. Pro (un achat unique de $19.99) supprime la limite par téléchargement.</p></details>
           <details><summary>Combien coûte Pro ?</summary><p>$19.99 USD en paiement unique. Licence à vie, sans abonnement. Jusqu'à 3 appareils.</p></details>
           <details><summary>L'extension envoie-t-elle mes données ?</summary><p>Non. Les fichiers sont téléchargés directement depuis le site source. Seule la vérification de licence atteint nos serveurs.</p></details>
@@ -1446,7 +1447,7 @@
           <details><summary>Puis-je obtenir un remboursement ?</summary><p>En tant que produit numérique livré immédiatement, les remboursements ne sont pas acceptés en principe. L'offre gratuite permet d'évaluer pleinement toutes les fonctionnalités avant d'acheter Pro.</p></details>
         </div></div>
         <div data-lang="de"><div class="faq-list">
-          <details><summary>Welche Dateitypen werden unterstützt?</summary><p>Grab All Files unterstützt 708 Dateitypen (Erweiterungen), darunter PDF, Word, Excel, PowerPoint, Bilder, ZIP und CSV. Filtern Sie nach Erweiterung, wählen Sie aus, was Sie brauchen, und laden Sie alles mit einem Klick herunter.</p></details>
+          <details><summary>Welche Dateitypen werden unterstützt?</summary><p>Grab All Files unterstützt 708 Dateitypen (Erweiterungen), darunter PDF, Word, Excel, PowerPoint, Bilder, ZIP und CSV. Es erkennt außerdem geteilte / mehrteilige Archivsequenzen (.000/.001…, WinRAR .r00/.s00, WinZip .z01) und gruppiert sie als komprimierte Archive. Filtern Sie nach Erweiterung, wählen Sie aus, was Sie brauchen, und laden Sie alles mit einem Klick herunter.</p></details>
           <details><summary>Ist die Nutzung kostenlos?</summary><p>Ja. Alle Funktionen sind kostenlos; ein einzelner Download speichert bis zu 20 Dateien, und Sie können den Download wiederholen, um den Rest kostenlos zu speichern. Pro (ein einmaliger Kauf für $19.99) hebt das Limit pro Download auf.</p></details>
           <details><summary>Was kostet Pro?</summary><p>$19.99 USD als Einmalzahlung. Lebenslange Lizenz, kein Abo. Bis zu 3 Geräte.</p></details>
           <details><summary>Werden meine Browserdaten gesendet?</summary><p>Nein. Dateien werden direkt von der Quellseite zu Ihrem Gerät heruntergeladen. Nur die Lizenzprüfung erreicht unsere Server.</p></details>
@@ -1454,7 +1455,7 @@
           <details><summary>Kann ich eine Rückerstattung erhalten?</summary><p>Als digital sofort geliefertes Produkt sind Rückerstattungen grundsätzlich nicht möglich. Der kostenlose Plan erlaubt es, alle Funktionen vor dem Kauf von Pro vollständig zu bewerten.</p></details>
         </div></div>
         <div data-lang="it"><div class="faq-list">
-          <details><summary>Quali tipi di file sono supportati?</summary><p>Grab All Files supporta 708 tipi di file (estensioni), tra cui PDF, Word, Excel, PowerPoint, immagini, ZIP e CSV. Filtra per estensione, seleziona ciò che ti serve e scarica tutto con un clic.</p></details>
+          <details><summary>Quali tipi di file sono supportati?</summary><p>Grab All Files supporta 708 tipi di file (estensioni), tra cui PDF, Word, Excel, PowerPoint, immagini, ZIP e CSV. Rileva anche sequenze di archivi divisi / multivolume (.000/.001…, WinRAR .r00/.s00, WinZip .z01) e le raggruppa come archivi compressi. Filtra per estensione, seleziona ciò che ti serve e scarica tutto con un clic.</p></details>
           <details><summary>È gratis da usare?</summary><p>Sì. Tutte le funzionalità sono gratuite; un singolo download salva fino a 20 file e puoi ripetere il download per salvare il resto senza costi. Pro (un acquisto singolo di $19.99) rimuove il limite per download.</p></details>
           <details><summary>Quanto costa Pro?</summary><p>$19.99 USD acquisto singolo. Licenza a vita, nessun abbonamento. Fino a 3 dispositivi.</p></details>
           <details><summary>Invia i miei dati di navigazione?</summary><p>No. I file vengono scaricati direttamente dal sito sorgente. Solo la verifica della licenza raggiunge i nostri server.</p></details>
@@ -1462,7 +1463,7 @@
           <details><summary>Posso ottenere un rimborso?</summary><p>Come prodotto digitale consegnato immediatamente, i rimborsi non sono accettati in linea di principio. Il piano gratuito consente di valutare pienamente tutte le funzionalità prima di acquistare Pro.</p></details>
         </div></div>
         <div data-lang="ko"><div class="faq-list">
-          <details><summary>지원하는 파일 형식은 무엇인가요?</summary><p>Grab All Files는 PDF, Word, Excel, PowerPoint, 이미지, ZIP, CSV 등 708종류(확장자)의 파일을 지원합니다. 확장자로 필터링하고 필요한 항목을 선택하여 한 번의 클릭으로 모두 다운로드할 수 있습니다.</p></details>
+          <details><summary>지원하는 파일 형식은 무엇인가요?</summary><p>Grab All Files는 PDF, Word, Excel, PowerPoint, 이미지, ZIP, CSV 등 708종류(확장자)의 파일을 지원합니다. 분할 / 멀티볼륨 아카이브 시퀀스(.000/.001…, WinRAR .r00/.s00, WinZip .z01)도 감지하여 압축 아카이브로 분류합니다. 확장자로 필터링하고 필요한 항목을 선택하여 한 번의 클릭으로 모두 다운로드할 수 있습니다.</p></details>
           <details><summary>무료로 사용할 수 있나요?</summary><p>네. 모든 기능이 무료입니다. 한 번의 다운로드로 최대 20개 파일을 저장할 수 있으며, 다운로드를 반복하면 나머지도 무료로 저장할 수 있습니다. Pro($19.99 일회성 구매)는 다운로드당 제한을 해제합니다.</p></details>
           <details><summary>Pro 가격은?</summary><p>$19.99 USD 일회성 결제. 평생 라이선스, 구독 없음. 최대 3대 기기.</p></details>
           <details><summary>브라우저 데이터를 어디로 보내나요?</summary><p>아니요. 파일은 소스 사이트에서 직접 기기로 다운로드됩니다. 라이선스 확인만 서버에 도달합니다.</p></details>
@@ -1470,7 +1471,7 @@
           <details><summary>환불이 가능한가요?</summary><p>즉시 제공되는 디지털 제품으로 원칙적으로 환불은 불가합니다. 무료 플랜으로 Pro 구매 전에 모든 기능을 충분히 검토하실 수 있습니다.</p></details>
         </div></div>
         <div data-lang="pt_BR"><div class="faq-list">
-          <details><summary>Quais tipos de arquivo são suportados?</summary><p>O Grab All Files suporta 708 tipos de arquivo (extensões), incluindo PDF, Word, Excel, PowerPoint, imagens, ZIP e CSV. Filtre por extensão, selecione o que precisa e baixe tudo com um clique.</p></details>
+          <details><summary>Quais tipos de arquivo são suportados?</summary><p>O Grab All Files suporta 708 tipos de arquivo (extensões), incluindo PDF, Word, Excel, PowerPoint, imagens, ZIP e CSV. Também detecta sequências de arquivos divididos / multivolume (.000/.001…, WinRAR .r00/.s00, WinZip .z01) e as agrupa como arquivos compactados. Filtre por extensão, selecione o que precisa e baixe tudo com um clique.</p></details>
           <details><summary>É gratuito para usar?</summary><p>Sim. Todos os recursos são gratuitos; um único download salva até 20 arquivos, e você pode repetir o download para salvar o restante sem custo. O Pro (uma compra única de $19.99) remove o limite por download.</p></details>
           <details><summary>Quanto custa o Pro?</summary><p>$19.99 USD compra única. Licença vitalícia, sem assinatura. Até 3 dispositivos.</p></details>
           <details><summary>Envia meus dados de navegação?</summary><p>Não. Os arquivos são baixados diretamente do site fonte para seu dispositivo. Apenas a verificação de licença chega aos nossos servidores.</p></details>
@@ -1478,7 +1479,7 @@
           <details><summary>Posso obter reembolso?</summary><p>Como produto digital entregue imediatamente, reembolsos não são aceitos em princípio. O plano gratuito permite avaliar completamente todos os recursos antes de comprar o Pro.</p></details>
         </div></div>
         <div data-lang="zh_CN"><div class="faq-list">
-          <details><summary>支持哪些文件类型？</summary><p>Grab All Files 支持 708 种文件类型（扩展名），包括 PDF、Word、Excel、PowerPoint、图片、ZIP 和 CSV。可按扩展名筛选，选择所需文件，一键全部下载。</p></details>
+          <details><summary>支持哪些文件类型？</summary><p>Grab All Files 支持 708 种文件类型（扩展名），包括 PDF、Word、Excel、PowerPoint、图片、ZIP 和 CSV。还能检测分卷 / 多卷压缩包序列（.000/.001…、WinRAR .r00/.s00、WinZip .z01）并归入压缩文件类别。可按扩展名筛选，选择所需文件，一键全部下载。</p></details>
           <details><summary>可以免费使用吗？</summary><p>可以。所有功能均免费；单次下载最多保存20个文件，您可以重复下载以免费保存其余文件。Pro（$19.99 一次性购买）可解除每次下载的数量限制。</p></details>
           <details><summary>Pro 费用是多少？</summary><p>$19.99 USD 一次性购买。永久授权，无订阅。最多3台设备。</p></details>
           <details><summary>会发送我的浏览数据吗？</summary><p>不会。文件直接从源网站下载到您的设备。只有许可证验证会到达我们的服务器。</p></details>
@@ -1486,7 +1487,7 @@
           <details><summary>可以退款吗？</summary><p>作为立即交付的数字产品，原则上不接受退款。免费方案可让您在购买 Pro 前充分评估所有功能。</p></details>
         </div></div>
         <div data-lang="zh_TW"><div class="faq-list">
-          <details><summary>支援哪些檔案類型？</summary><p>Grab All Files 支援 708 種檔案類型（副檔名），包括 PDF、Word、Excel、PowerPoint、圖片、ZIP 和 CSV。可依副檔名篩選，選擇所需檔案，一鍵全部下載。</p></details>
+          <details><summary>支援哪些檔案類型？</summary><p>Grab All Files 支援 708 種檔案類型（副檔名），包括 PDF、Word、Excel、PowerPoint、圖片、ZIP 和 CSV。也能偵測分卷 / 多卷壓縮檔序列（.000/.001…、WinRAR .r00/.s00、WinZip .z01）並歸入壓縮檔類別。可依副檔名篩選，選擇所需檔案，一鍵全部下載。</p></details>
           <details><summary>可以免費使用嗎？</summary><p>可以。所有功能均免費；單次下載最多儲存20個檔案，您可以重複下載以免費儲存其餘檔案。Pro（$19.99 一次性購買）可解除每次下載的數量限制。</p></details>
           <details><summary>Pro 費用是多少？</summary><p>$19.99 USD 一次性購買。永久授權，無訂閱。最多3台裝置。</p></details>
           <details><summary>會傳送我的瀏覽資料嗎？</summary><p>不會。檔案直接從來源網站下載到您的裝置。只有授權驗證會到達我們的伺服器。</p></details>

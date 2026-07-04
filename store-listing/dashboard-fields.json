@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18",
+  "updated": "2026-07-04",
   "canonical_source": {
     "extension_repo": "C:/xampp/htdocs/filescanner",
     "manifest": "C:/xampp/htdocs/filescanner/manifest.json",
@@ -353,6 +353,7 @@
     "chrome_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-chrome-v5.1.5.zip",
     "edge_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-edge-v5.1.5.zip",
     "firefox_zip": "C:/xampp/htdocs/filescanner/dist/grab-all-files-firefox-v5.1.5.zip",
+    "whats_new_5_1_5": "5.1.5 (2026-07-04): detects split / multi-volume archive sequences (.000/.001…, WinRAR .r00/.s00, WinZip/zip-s .z01) and classifies them into the compressed-archive category.",
     "firefox_source_zip_status": "v5.1.5 source ZIP available at C:/xampp/htdocs/filescanner/grab-all-files-source-v5.1.5.zip; verified to reproduce dist/firefox byte-for-byte via npm install + npm run build."
   }
 }
