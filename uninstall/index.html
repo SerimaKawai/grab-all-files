@@ -875,10 +875,12 @@
     });
 
     var themeBtn = document.getElementById('theme-toggle');
+    themeBtn.setAttribute('aria-pressed', document.documentElement.getAttribute('data-theme') === 'dark' ? 'true' : 'false');
     themeBtn.addEventListener('click', function() {
       var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       document.documentElement.setAttribute('data-theme', current);
       try { localStorage.setItem('gaf-theme', current); } catch (_) {}
+      themeBtn.setAttribute('aria-pressed', current === 'dark' ? 'true' : 'false');
     });
 
     var reinstall = document.getElementById('ty-reinstall');

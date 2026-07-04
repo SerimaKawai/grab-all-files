@@ -223,7 +223,7 @@
       },
       {
         "@type": "Question",
-        "name": "Can I use Grab All Files together with a download manager like JDownloader or aria2?",
+        "name": "Can I use it together with a download manager like JDownloader or aria2?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes — they complement each other. Grab All Files is best at finding files on complex or login-protected pages, behind iframes, viewers, JavaScript, and CMS routes. Export the results as a CSV or URL list and feed them to your download manager for heavy batch downloading: discovery in Grab All Files, heavy lifting in your download manager."
@@ -531,8 +531,8 @@
     }
     .pricing-aside { display: grid; align-content: center; gap: 1rem; }
     .pricing-aside .mini-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.1rem 1.3rem; }
-    .pricing-aside .mini-card h4 { font-size: 0.92rem; color: var(--text-strong); font-weight: 600; margin-bottom: 0.3rem; display: flex; align-items: center; gap: 0.45rem; }
-    .pricing-aside .mini-card h4 .icon { width: 24px; height: 24px; border-radius: 6px; background: var(--accent-soft); color: var(--accent-icon); display: inline-flex; align-items: center; justify-content: center; font-size: 0.85rem; }
+    .pricing-aside .mini-card h3 { font-size: 0.92rem; color: var(--text-strong); font-weight: 600; margin-bottom: 0.3rem; display: flex; align-items: center; gap: 0.45rem; }
+    .pricing-aside .mini-card h3 .icon { width: 24px; height: 24px; border-radius: 6px; background: var(--accent-soft); color: var(--accent-icon); display: inline-flex; align-items: center; justify-content: center; font-size: 0.85rem; }
     .pricing-aside .mini-card p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; }
 
     /* FAQ */
@@ -562,7 +562,7 @@
     footer .foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 2rem; }
     @media (max-width: 760px) { footer .foot-grid { grid-template-columns: 1fr 1fr; } }
     @media (max-width: 460px) { footer .foot-grid { grid-template-columns: 1fr; } }
-    footer h4 { color: var(--footer-h); font-size: 0.85rem; font-weight: 600; margin-bottom: 0.7rem; letter-spacing: 0.02em; text-transform: uppercase; }
+    footer h3 { color: var(--footer-h); font-size: 0.85rem; font-weight: 600; margin-bottom: 0.7rem; letter-spacing: 0.02em; text-transform: uppercase; }
     footer ul { list-style: none; display: grid; gap: 0.4rem; }
     footer a { color: var(--footer-link); text-decoration: none; font-size: 0.88rem; }
     footer a:hover { text-decoration: underline; }
@@ -597,7 +597,7 @@
 
     /* ── Design refresh (icons + component polish) ─────────── */
     .feature-card .tile svg { width: 22px; height: 22px; display: block; }
-    .usecase-card h3 .icon svg, .pricing-aside .mini-card h4 .icon svg { width: 16px; height: 16px; display: block; }
+    .usecase-card h3 .icon svg, .pricing-aside .mini-card h3 .icon svg { width: 16px; height: 16px; display: block; }
     .logos-inner .role .icon svg { width: 17px; height: 17px; display: block; }
     .mock-search svg, .mock-footer-actions .mock-btn svg { width: 14px; height: 14px; display: block; }
 
@@ -612,7 +612,7 @@
       margin-bottom: 1.05rem;
     }
 
-    .usecase-card h3 .icon, .pricing-aside .mini-card h4 .icon { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--primary) 16%, transparent); }
+    .usecase-card h3 .icon, .pricing-aside .mini-card h3 .icon { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--primary) 16%, transparent); }
     .usecase-card, .step, .pricing-aside .mini-card { border-radius: 14px; }
 
     .btn { border-radius: 11px; padding: 0.8rem 1.2rem; }
@@ -1062,7 +1062,7 @@
           <div class="features-grid">
             <div class="feature-card"><span class="tile">🔎</span><h3>見落としがちなファイルも検出</h3><p><strong>708種類（拡張子）</strong>のファイルに対応。iframe内のPDF、遅延読み込み画像、fetch/XHRで取得されるファイル、blob URL、CMSダウンロードルート、hidden inputの値、39種類のdata-*属性まで網羅。通常のリンクスクレイパーでは拾えないファイルも検出します。さらにShadow DOM／Web Components内、SPAのハイドレーションデータ（Next.js・JSON-LD）、Cache Storage／OPFS／IndexedDB、署名付きクラウドストレージURL（Cloudflare R2・Firebase・Supabase・Vercel Blob）まで踏み込んで検出します。</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>スマートフィルタ</h3><p>拡張子、ファイルサイズ、ファイル名、ページタイトル、更新日で絞り込み・並べ替え・手動並べ替え。URLのプレーンテキストコピーにも対応。</p></div>
-            <div class="feature-card"><span class="tile">🕸️</span><h3>同一サイトクロール</h3><p>深度0〜5または無制限を選んで、同一ドメインのリンク先を巡回。サブページに散らばったPDF、ビューアURL、CMS文書ルートまで一気に収集。1回の実行で最大1万ページまで。さらに sitemap.xml／robots.txt を解析し、JavaScriptメニュー（javascript:／onclick）・フレームセット・イメージマップ・GET検索/ページャのリンクも辿るので、通常の&lt;a&gt;リンクが無いページにも到達します。</p></div>
+            <div class="feature-card"><span class="tile">🕸️</span><h3>同一サイトクロール</h3><p>深度0〜5または無制限を選んで、同一ドメインのリンク先を巡回。サブページに散らばったPDF、ビューアURL、CMS文書ルートまで一気に収集。1回の実行で最大10万ページまで。さらに sitemap.xml／robots.txt を解析し、JavaScriptメニュー（javascript:／onclick）・フレームセット・イメージマップ・GET検索/ページャのリンクも辿るので、通常の&lt;a&gt;リンクが無いページにも到達します。</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>PDF結合（ローカル）</h3><p>選択したPDFを1つにまとめます。アップロード不要・サーバー送信なし。ファイルは端末から外に出ません。</p></div>
             <div class="feature-card"><span class="tile">🗜️</span><h3>ZIP化</h3><p>選択したファイルを1つのZIPにまとめて配布・アーカイブ・共有しやすく。ブラウザ内ですべて完結します。</p></div>
             <div class="feature-card"><span class="tile">📊</span><h3>CSV出力</h3><p>URL、ファイル名、サイズ、種類、タイトルをCSV出力。資料台帳、棚卸し、報告書、後続の自動処理にそのまま使えます。</p></div>
@@ -1486,15 +1486,15 @@
 
           <div class="pricing-aside">
             <div class="mini-card">
-              <h4><span class="icon">🔒</span><span data-lang="en" class="active">Your files stay on your device</span><span data-lang="ja">ファイルは端末から出ません</span><span data-lang="es">Tus archivos permanecen en tu dispositivo</span><span data-lang="fr">Vos fichiers restent sur votre appareil</span><span data-lang="de">Ihre Dateien bleiben auf Ihrem Gerät</span><span data-lang="it">I tuoi file rimangono sul tuo dispositivo</span><span data-lang="ko">파일은 기기에 남아 있습니다</span><span data-lang="pt_BR">Seus arquivos ficam no seu dispositivo</span><span data-lang="zh_CN">文件保留在您的设备上</span><span data-lang="zh_TW">檔案保留在您的裝置上</span></h4>
+              <h3><span class="icon">🔒</span><span data-lang="en" class="active">Your files stay on your device</span><span data-lang="ja">ファイルは端末から出ません</span><span data-lang="es">Tus archivos permanecen en tu dispositivo</span><span data-lang="fr">Vos fichiers restent sur votre appareil</span><span data-lang="de">Ihre Dateien bleiben auf Ihrem Gerät</span><span data-lang="it">I tuoi file rimangono sul tuo dispositivo</span><span data-lang="ko">파일은 기기에 남아 있습니다</span><span data-lang="pt_BR">Seus arquivos ficam no seu dispositivo</span><span data-lang="zh_CN">文件保留在您的设备上</span><span data-lang="zh_TW">檔案保留在您的裝置上</span></h3>
               <p><span data-lang="en" class="active">Files are downloaded directly from the source site to your computer. Only license verification and anonymous plan-interaction events touch our servers.</span><span data-lang="ja">ファイルはサイトから直接お使いのPCへ。サーバーに届くのはライセンス認証と匿名のプラン操作イベントのみです。</span><span data-lang="es">Los archivos se descargan directamente del sitio fuente. Solo la verificación de licencia y eventos anónimos de interacción con el plan llegan a nuestros servidores.</span><span data-lang="fr">Les fichiers sont téléchargés directement depuis le site source. Seuls la vérification de licence et des événements anonymes d'interaction avec l'offre atteignent nos serveurs.</span><span data-lang="de">Dateien werden direkt von der Quellseite heruntergeladen. Nur die Lizenzprüfung und anonyme Plan-Interaktionsereignisse erreichen unsere Server.</span><span data-lang="it">I file vengono scaricati direttamente dal sito sorgente. Solo la verifica della licenza e alcuni eventi anonimi di interazione con il piano raggiungono i nostri server.</span><span data-lang="ko">파일은 소스 사이트에서 직접 기기로 다운로드됩니다. 라이선스 확인과 익명 플랜 상호작용 이벤트만 서버에 도달합니다.</span><span data-lang="pt_BR">Os arquivos são baixados diretamente do site fonte. Apenas a verificação de licença e eventos anônimos de interação com o plano chegam aos nossos servidores.</span><span data-lang="zh_CN">文件直接从源网站下载到您的电脑。只有许可证验证和匿名的套餐交互事件会到达我们的服务器。</span><span data-lang="zh_TW">檔案直接從來源網站下載到您的電腦。只有授權驗證和匿名的方案互動事件會到達我們的伺服器。</span></p>
             </div>
             <div class="mini-card">
-              <h4><span class="icon">💳</span><span data-lang="en" class="active">Pay once, keep forever</span><span data-lang="ja">買い切り・永続利用</span><span data-lang="es">Paga una vez, conserva para siempre</span><span data-lang="fr">Payez une fois, gardez pour toujours</span><span data-lang="de">Einmal zahlen, immer behalten</span><span data-lang="it">Paghi una volta, mantieni per sempre</span><span data-lang="ko">한 번 결제, 평생 사용</span><span data-lang="pt_BR">Pague uma vez, mantenha para sempre</span><span data-lang="zh_CN">一次付款，永久使用</span><span data-lang="zh_TW">一次付款，永久使用</span></h4>
+              <h3><span class="icon">💳</span><span data-lang="en" class="active">Pay once, keep forever</span><span data-lang="ja">買い切り・永続利用</span><span data-lang="es">Paga una vez, conserva para siempre</span><span data-lang="fr">Payez une fois, gardez pour toujours</span><span data-lang="de">Einmal zahlen, immer behalten</span><span data-lang="it">Paghi una volta, mantieni per sempre</span><span data-lang="ko">한 번 결제, 평생 사용</span><span data-lang="pt_BR">Pague uma vez, mantenha para sempre</span><span data-lang="zh_CN">一次付款，永久使用</span><span data-lang="zh_TW">一次付款，永久使用</span></h3>
               <p><span data-lang="en" class="active">Stripe checkout. No subscriptions, no auto-renew. License key delivered by email.</span><span data-lang="ja">Stripe決済。サブスクなし・自動更新なし。ライセンスキーはメールでお送りします。</span><span data-lang="es">Pago Stripe. Sin suscripciones, sin renovación automática. Clave por email.</span><span data-lang="fr">Paiement Stripe. Sans abonnement, sans renouvellement automatique. Clé par e-mail.</span><span data-lang="de">Stripe-Zahlung. Keine Abos, keine automatische Verlängerung. Schlüssel per E-Mail.</span><span data-lang="it">Pagamento Stripe. Nessun abbonamento, nessun rinnovo automatico. Chiave via email.</span><span data-lang="ko">Stripe 결제. 구독 없음, 자동 갱신 없음. 라이선스 키는 이메일로.</span><span data-lang="pt_BR">Pagamento Stripe. Sem assinatura, sem renovação automática. Chave por e-mail.</span><span data-lang="zh_CN">Stripe支付。无订阅，无自动续费。许可证密钥邮件发送。</span><span data-lang="zh_TW">Stripe付款。無訂閱，無自動續費。授權金鑰電子郵件寄送。</span></p>
             </div>
             <div class="mini-card">
-              <h4><span class="icon">🌐</span><span data-lang="en" class="active">10 UI languages, sessions reused</span><span data-lang="ja">10言語UI・ログインも継続</span><span data-lang="es">10 idiomas, sesiones reutilizadas</span><span data-lang="fr">10 langues, sessions réutilisées</span><span data-lang="de">10 UI-Sprachen, Sitzungen wiederverwendet</span><span data-lang="it">10 lingue UI, sessioni riutilizzate</span><span data-lang="ko">10개 언어 UI, 세션 재사용</span><span data-lang="pt_BR">10 idiomas, sessões reutilizadas</span><span data-lang="zh_CN">10种界面语言，复用登录会话</span><span data-lang="zh_TW">10種介面語言，重複使用登入工作階段</span></h4>
+              <h3><span class="icon">🌐</span><span data-lang="en" class="active">10 UI languages, sessions reused</span><span data-lang="ja">10言語UI・ログインも継続</span><span data-lang="es">10 idiomas, sesiones reutilizadas</span><span data-lang="fr">10 langues, sessions réutilisées</span><span data-lang="de">10 UI-Sprachen, Sitzungen wiederverwendet</span><span data-lang="it">10 lingue UI, sessioni riutilizzate</span><span data-lang="ko">10개 언어 UI, 세션 재사용</span><span data-lang="pt_BR">10 idiomas, sessões reutilizadas</span><span data-lang="zh_CN">10种界面语言，复用登录会话</span><span data-lang="zh_TW">10種介面語言，重複使用登入工作階段</span></h3>
               <p><span data-lang="en" class="active">EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW. Logged-in sessions are reused — works on protected portals.</span><span data-lang="ja">EN/JA/ES/FR/DE/IT/KO/PT-BR/ZH-CN/ZH-TW。ブラウザのログイン状態をそのまま使うので、社内ポータルにも対応。</span><span data-lang="es">EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW. Reutiliza tu sesión iniciada — funciona en portales protegidos.</span><span data-lang="fr">EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW. Réutilise vos sessions — fonctionne sur les portails protégés.</span><span data-lang="de">EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW. Angemeldete Sitzungen werden wiederverwendet — funktioniert auf geschützten Portalen.</span><span data-lang="it">EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW. Le sessioni di login vengono riutilizzate — funziona su portali protetti.</span><span data-lang="ko">EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW. 로그인된 세션을 재사용 — 보호된 포털에서도 작동.</span><span data-lang="pt_BR">EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW. Sessões logadas são reutilizadas — funciona em portais protegidos.</span><span data-lang="zh_CN">EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW。复用浏览器登录会话——在受保护的门户上也可使用。</span><span data-lang="zh_TW">EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW。重複使用瀏覽器登入工作階段——在受保護的入口網站上也可使用。</span></p>
             </div>
           </div>
@@ -1543,7 +1543,7 @@
           <details><summary>返金はできますか？</summary><p>即時提供のデジタル製品のため、原則として返金には応じておりません。無料プランでProご購入前にすべての機能を十分にご確認いただけます。技術的な不具合により動作しない場合は、初回報告から30日以内であれば全額返金いたします。</p></details>
           <details><summary>ログインが必要なサイトでも動きますか？</summary><p>はい。お使いのブラウザのセッションを利用し、社内ポータル、LMS、会員ページなど、すでに正当にアクセスできるページをスキャンできます。認証情報を収集したり、アクセス制御を回避したりするものではありません。</p></details>
           <details><summary>Webページ上のファイルをまとめてダウンロードするには？</summary><p>Grab All Files を Google Chrome、Microsoft Edge、または Mozilla Firefox にインストールし、対象ページを開く（またはURLを貼り付ける）だけで、iframe、ビューア、遅延読み込み、fetch/XHR、blob URL、CMSダウンロードルートに隠れたファイルまで含めて検出・一覧表示します。必要なファイルを選んでワンクリックで一括保存できます。</p></details>
-          <details><summary>サイト上のPDFをすべてダウンロードするには？</summary><p>iframe埋め込みPDFやPDFビューアのURLも含めてページ上のPDFを検出し、同一サイト内を1回の実行で最大1万ページまでクロールできます。PDFで絞り込んで全選択し、一括ダウンロード、またはブラウザ内で1つのPDFに結合できます。</p></details>
+          <details><summary>サイト上のPDFをすべてダウンロードするには？</summary><p>iframe埋め込みPDFやPDFビューアのURLも含めてページ上のPDFを検出し、同一サイト内を1回の実行で最大10万ページまでクロールできます。PDFで絞り込んで全選択し、一括ダウンロード、またはブラウザ内で1つのPDFに結合できます。</p></details>
           <details><summary>Webページ上の画像をすべて保存するには？</summary><p>遅延読み込み画像、CSS背景画像、blob URLも含めて画像を検出します。画像種別で絞り込んで選択し、一括ダウンロード、または画像URLの一覧をCSV出力できます。</p></details>
           <details><summary>PDFをサーバーにアップロードせずに結合できますか？</summary><p>はい。選択したPDFはブラウザ内（ローカル）で結合されます。アップロードは一切なく、ファイルが端末の外に出ることはありません。</p></details>
           <details><summary>大容量・長時間のダウンロードに対応し、一時停止・再開できますか？</summary><p>はい。Grab All Files はビルトインのダウンロードマネージャを備え、並列数の調整・一時停止/再開・自動リトライ・失敗分のみのワンクリック再試行に対応します。回線が切れても大量のバッチを継続できます。数GBの単一ファイルや長時間の無人ジョブは、URLリストを書き出して専用のダウンロードマネージャに渡すこともできます。</p></details>
@@ -1696,7 +1696,7 @@
         <div data-lang="zh_TW"><p>Google Chrome™、Microsoft Edge™ 和 Mozilla Firefox™ 瀏覽器擴充功能。由獨立開發者製作。</p></div>
       </div>
       <div>
-        <h4><span data-lang="en" class="active">Product</span><span data-lang="ja">プロダクト</span><span data-lang="es">Producto</span><span data-lang="fr">Produit</span><span data-lang="de">Produkt</span><span data-lang="it">Prodotto</span><span data-lang="ko">제품</span><span data-lang="pt_BR">Produto</span><span data-lang="zh_CN">产品</span><span data-lang="zh_TW">產品</span></h4>
+        <h3><span data-lang="en" class="active">Product</span><span data-lang="ja">プロダクト</span><span data-lang="es">Producto</span><span data-lang="fr">Produit</span><span data-lang="de">Produkt</span><span data-lang="it">Prodotto</span><span data-lang="ko">제품</span><span data-lang="pt_BR">Produto</span><span data-lang="zh_CN">产品</span><span data-lang="zh_TW">產品</span></h3>
         <ul>
           <li><a href="#features"><span data-lang="en" class="active">Features</span><span data-lang="ja">機能</span><span data-lang="es">Características</span><span data-lang="fr">Fonctionnalités</span><span data-lang="de">Funktionen</span><span data-lang="it">Funzionalità</span><span data-lang="ko">기능</span><span data-lang="pt_BR">Recursos</span><span data-lang="zh_CN">功能</span><span data-lang="zh_TW">功能</span></a></li>
           <li><a href="#use-cases"><span data-lang="en" class="active">Use-case guides</span><span data-lang="ja">用途別ガイド</span><span data-lang="es">Guías de uso</span><span data-lang="fr">Guides d'usage</span><span data-lang="de">Anwendungsleitfäden</span><span data-lang="it">Guide d'uso</span><span data-lang="ko">사용 사례 가이드</span><span data-lang="pt_BR">Guias de uso</span><span data-lang="zh_CN">用途指南</span><span data-lang="zh_TW">用途指南</span></a></li>
@@ -1706,7 +1706,7 @@
         </ul>
       </div>
       <div>
-        <h4><span data-lang="en" class="active">Install</span><span data-lang="ja">インストール</span><span data-lang="es">Instalar</span><span data-lang="fr">Installer</span><span data-lang="de">Installieren</span><span data-lang="it">Installa</span><span data-lang="ko">설치</span><span data-lang="pt_BR">Instalar</span><span data-lang="zh_CN">安装</span><span data-lang="zh_TW">安裝</span></h4>
+        <h3><span data-lang="en" class="active">Install</span><span data-lang="ja">インストール</span><span data-lang="es">Instalar</span><span data-lang="fr">Installer</span><span data-lang="de">Installieren</span><span data-lang="it">Installa</span><span data-lang="ko">설치</span><span data-lang="pt_BR">Instalar</span><span data-lang="zh_CN">安装</span><span data-lang="zh_TW">安裝</span></h3>
         <ul>
           <li><a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome Web Store ↗</a></li>
           <li><a href="https://microsoftedge.microsoft.com/addons/detail/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Edge Add-ons ↗</a></li>
@@ -1717,7 +1717,7 @@
         </ul>
       </div>
       <div>
-        <h4><span data-lang="en" class="active">Legal</span><span data-lang="ja">規約</span><span data-lang="es">Legal</span><span data-lang="fr">Mentions légales</span><span data-lang="de">Rechtliches</span><span data-lang="it">Legale</span><span data-lang="ko">법적 고지</span><span data-lang="pt_BR">Legal</span><span data-lang="zh_CN">法律</span><span data-lang="zh_TW">法律</span></h4>
+        <h3><span data-lang="en" class="active">Legal</span><span data-lang="ja">規約</span><span data-lang="es">Legal</span><span data-lang="fr">Mentions légales</span><span data-lang="de">Rechtliches</span><span data-lang="it">Legale</span><span data-lang="ko">법적 고지</span><span data-lang="pt_BR">Legal</span><span data-lang="zh_CN">法律</span><span data-lang="zh_TW">法律</span></h3>
         <ul>
           <li><a href="legal.html"><span data-lang="en" class="active">Legal info</span><span data-lang="ja">特商法・運営情報</span><span data-lang="es">Información legal</span><span data-lang="fr">Informations légales</span><span data-lang="de">Rechtliche Hinweise</span><span data-lang="it">Informazioni legali</span><span data-lang="ko">법적 정보</span><span data-lang="pt_BR">Informações legais</span><span data-lang="zh_CN">法律信息</span><span data-lang="zh_TW">法律資訊</span></a></li>
           <li><a href="terms.html"><span data-lang="en" class="active">Terms of Service</span><span data-lang="ja">利用規約</span><span data-lang="es">Términos del servicio</span><span data-lang="fr">Conditions d'utilisation</span><span data-lang="de">Nutzungsbedingungen</span><span data-lang="it">Termini di servizio</span><span data-lang="ko">서비스 약관</span><span data-lang="pt_BR">Termos de serviço</span><span data-lang="zh_CN">服务条款</span><span data-lang="zh_TW">服務條款</span></a></li>
@@ -1912,9 +1912,12 @@
     function setTheme(t) {
       document.documentElement.setAttribute('data-theme', t);
       try { localStorage.setItem('gaf-theme', t); } catch (_) {}
+      var tb = document.getElementById('theme-toggle');
+      if (tb) tb.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false');
     }
     var themeBtn = document.getElementById('theme-toggle');
     if (themeBtn) {
+      themeBtn.setAttribute('aria-pressed', document.documentElement.getAttribute('data-theme') === 'dark' ? 'true' : 'false');
       themeBtn.addEventListener('click', function() { setTheme(getTheme() === 'dark' ? 'light' : 'dark'); });
     }
     if (window.matchMedia) {
@@ -1952,7 +1955,7 @@
       '\u2B07':    '<path d="M12 4v10"/><path d="M8 11l4 4 4-4"/><path d="M5 19h14"/>'
     };
     function svg(p){ return '<svg ' + A + '>' + p + '</svg>'; }
-    var sel = '.feature-card .tile, .usecase-card h3 .icon, .pricing-aside .mini-card h4 .icon, .logos-inner .role .icon, .mock-search > span[aria-hidden], .mock-footer-actions .mock-btn > span[aria-hidden]';
+    var sel = '.feature-card .tile, .usecase-card h3 .icon, .pricing-aside .mini-card h3 .icon, .logos-inner .role .icon, .mock-search > span[aria-hidden], .mock-footer-actions .mock-btn > span[aria-hidden]';
     document.querySelectorAll(sel).forEach(function(el){
       var key = el.textContent.replace(/[\uFE0F\s]/g, '');
       if (P[key]) { el.innerHTML = svg(P[key]); el.setAttribute('aria-hidden', 'true'); }
