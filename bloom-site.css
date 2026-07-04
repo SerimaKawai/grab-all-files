@@ -2,7 +2,7 @@
    Additive & reversible: redefines the site's own tokens. No markup/JS changes.
    Remove the <link> that pulls this file in to fully revert. */
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('fonts/fonts.css');
 
 :root {
   --font-display: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
