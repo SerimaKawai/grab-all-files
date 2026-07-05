@@ -8,16 +8,16 @@
   <meta name="description" content="How Grab All Files handles browser permissions, local file processing, license verification, and privacy-sensitive access.">
   <link rel="canonical" href="https://grab-all-files.app/security.html">
   <link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html">
-  <link rel="alternate" hreflang="en" href="https://grab-all-files.app/security.html?lang=en">
-  <link rel="alternate" hreflang="ja" href="https://grab-all-files.app/security.html?lang=ja">
-  <link rel="alternate" hreflang="es" href="https://grab-all-files.app/security.html?lang=es">
-  <link rel="alternate" hreflang="fr" href="https://grab-all-files.app/security.html?lang=fr">
-  <link rel="alternate" hreflang="de" href="https://grab-all-files.app/security.html?lang=de">
-  <link rel="alternate" hreflang="it" href="https://grab-all-files.app/security.html?lang=it">
-  <link rel="alternate" hreflang="ko" href="https://grab-all-files.app/security.html?lang=ko">
-  <link rel="alternate" hreflang="pt-BR" href="https://grab-all-files.app/security.html?lang=pt_BR">
-  <link rel="alternate" hreflang="zh-CN" href="https://grab-all-files.app/security.html?lang=zh_CN">
-  <link rel="alternate" hreflang="zh-TW" href="https://grab-all-files.app/security.html?lang=zh_TW">
+  <link rel="alternate" hreflang="en" href="https://grab-all-files.app/security.html">
+  <link rel="alternate" hreflang="ja" href="https://grab-all-files.app/ja/security.html">
+  <link rel="alternate" hreflang="es" href="https://grab-all-files.app/es/security.html">
+  <link rel="alternate" hreflang="fr" href="https://grab-all-files.app/fr/security.html">
+  <link rel="alternate" hreflang="de" href="https://grab-all-files.app/de/security.html">
+  <link rel="alternate" hreflang="it" href="https://grab-all-files.app/it/security.html">
+  <link rel="alternate" hreflang="ko" href="https://grab-all-files.app/ko/security.html">
+  <link rel="alternate" hreflang="pt-BR" href="https://grab-all-files.app/pt_BR/security.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://grab-all-files.app/zh_CN/security.html">
+  <link rel="alternate" hreflang="zh-TW" href="https://grab-all-files.app/zh_TW/security.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Grab All Files">
   <meta property="og:title" content="Security and permissions | Grab All Files">
@@ -387,10 +387,10 @@
       home: 'index.html',
       useCases: 'index.html#use-cases',
       pricing: 'index.html#pricing',
-      contact: 'contact/',
-      privacy: 'privacy-policy.html',
-      terms: 'terms.html',
-      legal: 'legal.html'
+      contact: '/contact/',
+      privacy: '/privacy-policy.html',
+      terms: '/terms.html',
+      legal: '/legal.html'
     };
     var UI = {
       en: { useCases: 'Use cases', pricing: 'Pricing', contact: 'Contact', privacy: 'Privacy Policy', terms: 'Terms', legal: 'Legal', install: 'Install free', dlHeading: 'Download Grab All Files in your browser:', dlChrome: 'Download for Chrome', dlEdge: 'Download for Edge', dlFirefox: 'Download for Firefox', readPrivacy: 'Read privacy policy', footer: 'Independent browser extension by Serima Kawai. Not affiliated with Google, Microsoft, or Mozilla.' },
@@ -542,7 +542,7 @@
       root.innerHTML = [
         '<section class="hero">',
           '<div><div class="eyebrow"><span>✓</span><span>' + esc(c.eyebrow) + '</span></div><h1>' + esc(c.h1) + '</h1><p class="lead">' + esc(c.lead) + '</p>',
-          '<div class="cta-row"><span class="store-cta-label">' + esc(ui.dlHeading) + '</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">' + esc(ui.dlChrome) + '</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">' + esc(ui.dlEdge) + '</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">' + esc(ui.dlFirefox) + '</a><a class="btn" href="' + esc(withLang('privacy-policy.html', lang)) + '">' + esc(ui.readPrivacy) + '</a></div></div>',
+          '<div class="cta-row"><span class="store-cta-label">' + esc(ui.dlHeading) + '</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">' + esc(ui.dlChrome) + '</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">' + esc(ui.dlEdge) + '</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">' + esc(ui.dlFirefox) + '</a><a class="btn" href="' + esc(withLang('/privacy-policy.html', lang)) + '">' + esc(ui.readPrivacy) + '</a></div></div>',
           '<aside class="panel"><h2>' + esc(c.summaryTitle) + '</h2><ul class="fact-list">' + c.facts.map(function(item, i){ return '<li><span class="mark">' + (i + 1) + '</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></aside>',
         '</section>',
         '<div class="section-stack">',
