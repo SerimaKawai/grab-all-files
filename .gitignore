@@ -30,3 +30,6 @@ node_modules/
 
 # Work-in-progress prototypes that should not ship to the public site
 _redesign/
+
+# Internal store-submission working docs — never publish (served publicly if committed)
+store-listing/
