@@ -1,6 +1,6 @@
 /* Self-hosted web fonts (Quicksand + Plus Jakarta Sans, latin + latin-ext).
-   Generated from Google Fonts woff2; replaces the previous fonts.googleapis.com @import
-   so no visitor IP is sent to Google. CJK/Korean use system fonts (Hiragino/Noto). */
+   Locally hosted woff2 (Google Fonts, OFL) so no visitor IP is sent to any font CDN.
+   CJK/Korean use system fonts (Hiragino/Noto). */
 
 /* Quicksand 500 latin-ext */
 @font-face {
