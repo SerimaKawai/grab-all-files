@@ -566,6 +566,7 @@
   }
 
   function detectLang() {
+    try { var _f = window.__FORCE_LANG__; if (_f && SUPPORTED.indexOf(_f) >= 0) return _f; } catch (_) {}
     var urlLang = getLangFromUrl();
     if (urlLang) return urlLang;
     try {
