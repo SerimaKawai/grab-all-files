@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
+  <script>window.__FORCE_LANG__="ja";</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
   <title>Security and permissions | Grab All Files</title>
   <meta name="description" content="How Grab All Files handles browser permissions, local file processing, license verification, and privacy-sensitive access.">
-  <link rel="canonical" href="https://grab-all-files.app/security.html">
+  <link rel="canonical" href="https://grab-all-files.app/ja/security.html">
   <link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html">
   <link rel="alternate" hreflang="en" href="https://grab-all-files.app/security.html">
   <link rel="alternate" hreflang="ja" href="https://grab-all-files.app/ja/security.html">
@@ -22,14 +23,15 @@
   <meta property="og:site_name" content="Grab All Files">
   <meta property="og:title" content="Security and permissions | Grab All Files">
   <meta property="og:description" content="How Grab All Files handles browser permissions, local file processing, license verification, and privacy-sensitive access.">
-  <meta property="og:url" content="https://grab-all-files.app/security.html">
+  <meta property="og:url" content="https://grab-all-files.app/ja/security.html">
   <meta property="og:image" content="https://grab-all-files.app/og-image.png">
+  <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Security and permissions | Grab All Files">
   <meta name="twitter:description" content="How Grab All Files handles browser permissions, local file processing, license verification, and privacy-sensitive access.">
   <meta name="twitter:image" content="https://grab-all-files.app/og-image.png">
   <script defer src="/analytics.js"></script>
-  <link rel="icon" type="image/png" sizes="128x128" href="favicon-128.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128.png">
   <style>
     :root {
       color-scheme: light;
@@ -313,16 +315,16 @@
       } catch (_) {}
     })();
   </script>
-  <link rel="stylesheet" href="bloom-site.css">
+  <link rel="stylesheet" href="/bloom-site.css">
 </head>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <a class="brand" href="index.html" data-href="home"><img src="favicon-128.png" alt=""><span>Grab All Files</span></a>
+      <a class="brand" href="/ja/" data-href="home"><img src="/favicon-128.png" alt=""><span>Grab All Files</span></a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="index.html#use-cases" data-href="useCases" data-ui="useCases">Use cases</a>
-        <a href="index.html#pricing" data-href="pricing" data-ui="pricing">Pricing</a>
-        <a href="contact/" data-href="contact" data-ui="contact">Contact</a>
+        <a href="/index.html#use-cases" data-href="useCases" data-ui="useCases">Use cases</a>
+        <a href="/index.html#pricing" data-href="pricing" data-ui="pricing">Pricing</a>
+        <a href="/contact/" data-href="contact" data-ui="contact">Contact</a>
       </nav>
       <div class="nav-spacer"></div>
       <div class="nav-controls">
@@ -369,9 +371,9 @@
     <div class="footer-line">
       <p id="footer-copy">Independent browser extension by Serima Kawai. Not affiliated with Google, Microsoft, or Mozilla.</p>
       <div class="footer-links">
-        <a href="privacy-policy.html" data-href="privacy" data-ui="privacy">Privacy Policy</a>
-        <a href="terms.html" data-href="terms" data-ui="terms">Terms</a>
-        <a href="legal.html" data-href="legal" data-ui="legal">Legal</a>
+        <a href="/privacy-policy.html" data-href="privacy" data-ui="privacy">Privacy Policy</a>
+        <a href="/terms.html" data-href="terms" data-ui="terms">Terms</a>
+        <a href="/legal.html" data-href="legal" data-ui="legal">Legal</a>
       </div>
     </div>
   </footer>
@@ -542,7 +544,7 @@
       root.innerHTML = [
         '<section class="hero">',
           '<div><div class="eyebrow"><span>✓</span><span>' + esc(c.eyebrow) + '</span></div><h1>' + esc(c.h1) + '</h1><p class="lead">' + esc(c.lead) + '</p>',
-          '<div class="cta-row"><span class="store-cta-label">' + esc(ui.dlHeading) + '</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">' + esc(ui.dlChrome) + '</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">' + esc(ui.dlEdge) + '</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">' + esc(ui.dlFirefox) + '</a><a class="btn" href="' + esc(withLang('privacy-policy.html', lang)) + '">' + esc(ui.readPrivacy) + '</a></div></div>',
+          '<div class="cta-row"><span class="store-cta-label">' + esc(ui.dlHeading) + '</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">' + esc(ui.dlChrome) + '</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">' + esc(ui.dlEdge) + '</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">' + esc(ui.dlFirefox) + '</a><a class="btn" href="/' + esc(withLang('privacy-policy.html', lang)) + '">' + esc(ui.readPrivacy) + '</a></div></div>',
           '<aside class="panel"><h2>' + esc(c.summaryTitle) + '</h2><ul class="fact-list">' + c.facts.map(function(item, i){ return '<li><span class="mark">' + (i + 1) + '</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></aside>',
         '</section>',
         '<div class="section-stack">',
@@ -571,5 +573,6 @@
     render(detectLang(), false);
   })();
   </script>
+<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="security.html";s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>
 </body>
 </html>
