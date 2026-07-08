@@ -84,6 +84,50 @@ h1, h2, h3, .brand-name { font-weight: 700; }
 .hero-stores > span { color: var(--text-strong) !important; }
 .store-btn { color: var(--accent-soft-text) !important; }
 .store-btn:hover { color: var(--primary) !important; }
+.store-btn.is-pending,
+.final-cta .store-btn.is-pending,
+.btn.is-pending {
+  opacity: 0.48 !important;
+  cursor: default !important;
+  pointer-events: none !important;
+  filter: grayscale(0.18);
+  text-decoration: none !important;
+}
+.store-btn.is-pending:hover,
+.final-cta .store-btn.is-pending:hover,
+.btn.is-pending:hover {
+  transform: none !important;
+}
+.store-btn.is-pending::before { filter: grayscale(1); opacity: 0.68; }
+.store-btn.is-pending::after { content: none !important; }
+.pending-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.2rem;
+  padding: 0.12rem 0.46rem;
+  border-radius: 999px;
+  border: 1px solid #f0d585;
+  background: #fff8df;
+  color: #8a5f00;
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+}
+:root[data-theme="dark"] .pending-badge {
+  border-color: #6c5622;
+  background: #332910;
+  color: #ffd978;
+}
+.footer-pending {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  color: var(--footer-meta);
+}
 
 /* Scope-back: the use-cases pages have a DIFFERENT store button — a solid-white
    pill inside the dark-gradient final CTA (.final-cta .store-btn). The generic
