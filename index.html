@@ -367,7 +367,7 @@
     .hero-cta .btn-release { flex: 1 1 100%; justify-content: center; text-align: center; }
 
     .hero-stores { display: flex; align-items: center; gap: 1.05rem; margin-top: 1rem; padding: 0.9rem 1.2rem; width: fit-content; max-width: 100%; background: linear-gradient(90deg, #e9f7f4 0%, #edf2ff 100%); border: 1px solid color-mix(in srgb, var(--primary) 12%, transparent); border-radius: 24px; flex-wrap: wrap; box-shadow: 0 14px 34px rgba(15, 23, 42, 0.06); }
-    .hero-stores > span { flex: 0 0 150px; max-width: 150px; color: #0f172a; font-size: 0.82rem; line-height: 1.45; font-weight: 500; }
+    .hero-stores > span:not(.store-btn) { flex: 0 0 150px; max-width: 150px; color: #0f172a; font-size: 0.82rem; line-height: 1.45; font-weight: 500; }
     .store-btn { display: inline-flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 0.55rem; width: 92px; min-height: 112px; padding: 0; color: #3550a8; font-size: 0.72rem; line-height: 1.35; font-weight: 500; text-align: center; text-decoration: underline; text-underline-offset: 2px; white-space: normal; background: transparent; border: 0; border-radius: 10px; transition: color 0.15s ease, transform 0.15s ease; }
     .store-btn::before { content: ""; width: 82px; height: 84px; flex: 0 0 84px; background-color: #fff; background-position: center; background-repeat: no-repeat; background-size: 42px 42px; border-radius: 9px; box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08); }
     .store-btn > span { display: none; }
@@ -379,7 +379,7 @@
     .store-btn[href*="addons.mozilla.org"]::before { background-image: url("assets/browser-logos/firefox.svg"); }
     @media (max-width: 560px) {
       .hero-stores { width: 100%; justify-content: center; gap: 0.85rem; padding: 1rem; border-radius: 20px; }
-      .hero-stores > span { flex: 1 1 100%; max-width: none; text-align: center; }
+      .hero-stores > span:not(.store-btn) { flex: 1 1 100%; max-width: none; text-align: center; }
       .store-btn { width: 86px; font-size: 0.7rem; }
       .store-btn::before { width: 76px; height: 78px; flex-basis: 78px; background-size: 38px 38px; }
     }
@@ -517,12 +517,12 @@
     .pricing-card ul li::before { content: "✓"; color: var(--check); font-weight: 700; flex-shrink: 0; }
     .pricing-card .pricing-cta { display: flex; flex-wrap: wrap; gap: 0.55rem; position: relative; }
     .pricing-stores { flex: 1 1 100%; width: 100%; max-width: none; margin: 0 0 0.2rem; justify-content: space-between; gap: 0.9rem; padding: 0.85rem 1rem; }
-    .pricing-stores > span { flex: 1 1 145px; max-width: 185px; }
+    .pricing-stores > span:not(.store-btn) { flex: 1 1 145px; max-width: 185px; }
     .pricing-stores .store-btn { width: 86px; min-height: 108px; font-size: 0.7rem; }
     .pricing-stores .store-btn::before { width: 78px; height: 80px; flex-basis: 80px; background-size: 40px 40px; }
     @media (max-width: 560px) {
       .pricing-stores { justify-content: center; padding: 1rem; }
-      .pricing-stores > span { flex: 1 1 100%; max-width: none; text-align: center; }
+      .pricing-stores > span:not(.store-btn) { flex: 1 1 100%; max-width: none; text-align: center; }
     }
     .pricing-aside { display: grid; align-content: center; gap: 1rem; }
     .pricing-aside .mini-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.1rem 1.3rem; }
@@ -643,7 +643,7 @@
       width: 100%; max-width: 540px; margin-top: 1.1rem;
       padding: 0; background: none; border: 0; border-radius: 0; box-shadow: none;
     }
-    .hero-stores > span {
+    .hero-stores > span:not(.store-btn) {
       flex: 1 1 100%; max-width: none; margin-bottom: 0.2rem;
       color: var(--text-muted); font-size: 0.82rem; font-weight: 600; letter-spacing: 0.01em; line-height: 1.4;
     }
@@ -655,6 +655,16 @@
       background: var(--surface); border: 1px solid var(--border-strong); border-radius: 11px;
       box-shadow: var(--shadow-soft);
       transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+    .hero-stores .store-btn {
+      flex: 1 1 0;
+      min-width: 0;
+      min-height: 64px;
+      justify-content: center;
+      text-align: center;
+      white-space: normal;
+      line-height: 1.2;
+      position: relative;
     }
     .store-btn::before {
       content: ""; width: 20px; height: 20px; flex: 0 0 20px;
@@ -676,6 +686,10 @@
     .store-btn.is-pending:hover { color: var(--text-muted); border-color: var(--border-strong); background: var(--surface); transform: none; box-shadow: var(--shadow-soft); }
     .store-btn.is-pending::before { filter: grayscale(1); opacity: 0.68; }
     .store-btn.is-pending::after { content: none; }
+    .hero-stores:not(.pricing-stores) .store-btn.is-pending { padding-bottom: 1.55rem; }
+    .hero-stores:not(.pricing-stores) .store-btn.is-pending .pending-badge {
+      position: absolute; right: 0.55rem; bottom: 0.35rem; margin-left: 0;
+    }
     .pending-badge { display: inline-flex; align-items: center; justify-content: center; margin-left: 0.2rem; padding: 0.12rem 0.46rem; border-radius: 999px; border: 1px solid #f0d585; background: #fff8df; color: #8a5f00; font-size: 0.68rem; font-weight: 800; line-height: 1.2; white-space: nowrap; text-decoration: none; }
     :root[data-theme="dark"] .pending-badge { border-color: #6c5622; background: #332910; color: #ffd978; }
     .btn.is-pending { opacity: 0.58; cursor: default; pointer-events: none; filter: grayscale(0.18); }
@@ -684,13 +698,14 @@
 
     /* Pricing variant: full-width stacked buttons */
     .pricing-stores { width: 100%; max-width: none; margin: 0 0 0.3rem; padding: 0; gap: 0.55rem; justify-content: flex-start; background: none; border: 0; box-shadow: none; }
-    .pricing-stores > span { flex: 1 1 100%; max-width: none; color: var(--text-muted); }
-    .pricing-stores .store-btn { width: 100%; min-height: 0; font-size: 0.9rem; justify-content: flex-start; }
+    .pricing-stores > span:not(.store-btn) { flex: 1 1 100%; max-width: none; color: var(--text-muted); }
+    .pricing-stores .store-btn { flex: 1 1 100%; width: 100%; min-height: 0; font-size: 0.9rem; justify-content: flex-start; text-align: left; }
     .pricing-stores .store-btn::before { width: 20px; height: 20px; flex-basis: 20px; background-size: 20px 20px; box-shadow: none; }
     .pricing-stores .store-btn::after { margin-left: auto; }
 
     @media (max-width: 560px) {
       .hero-stores { width: 100%; }
+      .hero-stores .store-btn { flex: 1 1 100%; width: 100%; justify-content: flex-start; text-align: left; }
       .store-btn { width: 100%; justify-content: flex-start; }
       .store-btn::after { margin-left: auto; }
       .store-btn::before { width: 20px; height: 20px; flex-basis: 20px; background-size: 20px 20px; }
