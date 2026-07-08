@@ -2,9 +2,10 @@
   var SUPPORTED = ["en", "ja", "es", "fr", "de", "it", "ko", "pt_BR", "zh_CN", "zh_TW"];
   var STORE = {
     chrome: "https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf",
-    edge: "https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf",
+    edge: "",
     firefox: "https://addons.mozilla.org/firefox/addon/grab-all-files/"
   };
+  var EDGE_PENDING = { en: "Under review", ja: "\u7533\u8acb\u4e2d", es: "En revisi\u00f3n", fr: "En cours d'examen", de: "In Pr\u00fcfung", it: "In revisione", ko: "\uc2ec\uc0ac \uc911", pt_BR: "Em an\u00e1lise", zh_CN: "\u5ba1\u6838\u4e2d", zh_TW: "\u5be9\u6838\u4e2d" };
   var LANG_LABELS = {
     en: "English",
     ja: "日本語",
@@ -706,7 +707,7 @@
           "<div class=\"cta-row\">",
             "<span class=\"store-cta-label\">" + esc(ui.dlHeading) + "</span>",
             "<a class=\"store-btn\" href=\"" + esc(STORE.chrome) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlChrome) + "</a>",
-            "<a class=\"store-btn\" href=\"" + esc(STORE.edge) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlEdge) + "</a>",
+            "<span class=\"store-btn is-pending is-pending-edge\" role=\"status\" aria-disabled=\"true\">" + esc(ui.dlEdge) + " <small class=\"pending-badge\">" + esc(EDGE_PENDING[lang] || EDGE_PENDING.en) + "</small></span>",
             "<a class=\"store-btn\" href=\"" + esc(STORE.firefox) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlFirefox) + "</a>",
             "<a class=\"btn btn-secondary\" href=\"" + esc(withLang("../security.html", lang)) + "\">" + esc(ui.security) + "</a>",
           "</div>",
@@ -721,7 +722,7 @@
           "</ul>",
           "<div class=\"store-row\">",
             "<a href=\"" + esc(STORE.chrome) + "\" target=\"_blank\" rel=\"noopener\"><span>" + esc(ui.chrome) + "</span><span>↗</span></a>",
-            "<a href=\"" + esc(STORE.edge) + "\" target=\"_blank\" rel=\"noopener\"><span>" + esc(ui.edge) + "</span><span>↗</span></a>",
+            "<span class=\"store-link-pending\" role=\"status\" aria-disabled=\"true\"><span>" + esc(ui.edge) + "</span><small class=\"pending-badge\">" + esc(EDGE_PENDING[lang] || EDGE_PENDING.en) + "</small></span>",
             "<a href=\"" + esc(STORE.firefox) + "\" target=\"_blank\" rel=\"noopener\"><span>" + esc(ui.firefox) + "</span><span>↗</span></a>",
           "</div>",
         "</aside>",
@@ -734,7 +735,7 @@
         "<section class=\"section-card\"><h2>" + esc(ui.faq) + "</h2><div class=\"faq-list\">" + renderFaq(copy.faq) + "</div></section>",
         "<section class=\"section-card usecase-guide-section\"><h2>" + esc(ui.related) + "</h2><div class=\"usecase-guide-links\" aria-label=\"" + esc(ui.related) + "\">" + renderRelated(current, lang) + "</div></section>",
       "</div>",
-      "<section class=\"final-cta\"><h2>" + esc(ui.ctaTitle) + "</h2><p>" + esc(ui.ctaText) + "</p><div class=\"final-dl\"><a class=\"store-btn\" href=\"" + esc(STORE.chrome) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlChrome) + "</a><a class=\"store-btn\" href=\"" + esc(STORE.edge) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlEdge) + "</a><a class=\"store-btn\" href=\"" + esc(STORE.firefox) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlFirefox) + "</a></div></section>"
+      "<section class=\"final-cta\"><h2>" + esc(ui.ctaTitle) + "</h2><p>" + esc(ui.ctaText) + "</p><div class=\"final-dl\"><a class=\"store-btn\" href=\"" + esc(STORE.chrome) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlChrome) + "</a><span class=\"store-btn is-pending is-pending-edge\" role=\"status\" aria-disabled=\"true\">" + esc(ui.dlEdge) + " <small class=\"pending-badge\">" + esc(EDGE_PENDING[lang] || EDGE_PENDING.en) + "</small></span><a class=\"store-btn\" href=\"" + esc(STORE.firefox) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlFirefox) + "</a></div></section>"
     ].join("");
 
     updateStructuredData(current, copy, lang);
