@@ -211,9 +211,26 @@
 
           <div class="reason-choice">
             <label class="reason"><input type="checkbox" name="reason" value="not_downloaded"><span id="r-not_downloaded">Files were detected but could not be downloaded</span></label>
-            <div class="field reason-detail hidden" id="detail-not_downloaded" data-reason-detail="not_downloaded">
-              <label for="f-detail-not_downloaded" id="l-detail-not_downloaded">URL where the download failed (required)</label>
-              <textarea id="f-detail-not_downloaded" name="detail_not_downloaded" maxlength="2000"></textarea>
+            <div class="reason-detail hidden" id="detail-not_downloaded" data-reason-detail="not_downloaded">
+              <div class="field">
+                <label for="f-detail-not_downloaded_source_page" id="l-detail-not_downloaded_source_page">Page URL where you ran the scan (required)</label>
+                <textarea id="f-detail-not_downloaded_source_page" name="detail_not_downloaded_source_page" maxlength="2000" inputmode="url" spellcheck="false"></textarea>
+                <p class="reason-note" id="help-detail-not_downloaded_source_page">This is the URL shown in your browser's address bar when you opened the extension and ran the scan. It is not the URL of the detected file itself.</p>
+              </div>
+              <div class="field">
+                <label for="f-detail-not_downloaded_file_link" id="l-detail-not_downloaded_file_link">Link URL of the detected file (required)</label>
+                <textarea id="f-detail-not_downloaded_file_link" name="detail_not_downloaded_file_link" maxlength="2000" inputmode="url" spellcheck="false"></textarea>
+                <p class="reason-note" id="help-detail-not_downloaded_file_link">Copy the file URL shown by the extension, or right-click the target link on the page and choose "Copy link address".</p>
+              </div>
+              <div class="field">
+                <label for="f-detail-not_downloaded_direct_open_result" id="l-detail-not_downloaded_direct_open_result">What happened when you opened the link URL directly? (required)</label>
+                <textarea id="f-detail-not_downloaded_direct_open_result" name="detail_not_downloaded_direct_open_result" maxlength="1000"></textarea>
+                <p class="reason-note" id="help-detail-not_downloaded_direct_open_result">For example: it downloaded normally, showed a 403 error or login page, opened a web page, or did nothing.</p>
+              </div>
+              <div class="field">
+                <label for="f-detail-not_downloaded" id="l-detail-not_downloaded">Other details or error messages (optional)</label>
+                <textarea id="f-detail-not_downloaded" name="detail_not_downloaded" maxlength="1000"></textarea>
+              </div>
               <p class="reason-note" id="note-detail-not_downloaded">If we can fix it, we will ship an update in about a week.</p>
             </div>
           </div>
@@ -286,11 +303,12 @@
   var DETAIL_FIELDS = {
     not_detected: ['not_detected_source_page', 'not_detected_file_link'],
     non_video_not_detected: ['non_video_not_detected'],
-    not_downloaded: ['not_downloaded'],
+    not_downloaded: ['not_downloaded_source_page', 'not_downloaded_file_link', 'not_downloaded_direct_open_result', 'not_downloaded'],
     missing_feature: ['missing_feature'],
     bug: ['bug'],
   };
   var DETAIL_REASONS = Object.keys(DETAIL_FIELDS);
+  var OPTIONAL_DETAIL_FIELDS = ['not_downloaded'];
 
   var STRINGS = {
     en: {
@@ -314,7 +332,13 @@
       detail_not_detected_file_link_label: 'Link URL of the file that was not detected (required)',
       detail_not_detected_file_link_help: 'Right-click the target link on the page, choose "Copy link address", and paste it here.',
       detail_non_video_not_detected_label: 'Please tell us the file type or extension that could not be detected (required)',
-      detail_not_downloaded_label: 'URL where the download failed (required)',
+      detail_not_downloaded_source_page_label: 'Page URL where you ran the scan (required)',
+      detail_not_downloaded_source_page_help: "This is the URL shown in your browser's address bar when you opened the extension and ran the scan. It is not the URL of the detected file itself.",
+      detail_not_downloaded_file_link_label: 'Link URL of the detected file (required)',
+      detail_not_downloaded_file_link_help: 'Copy the file URL shown by the extension, or right-click the target link on the page and choose "Copy link address".',
+      detail_not_downloaded_direct_open_result_label: 'What happened when you opened the link URL directly? (required)',
+      detail_not_downloaded_direct_open_result_help: 'For example: it downloaded normally, showed a 403 error or login page, opened a web page, or did nothing.',
+      detail_not_downloaded_label: 'Other details or error messages (optional)',
       detail_missing_feature_label: 'Please describe the feature you wanted (required)',
       detail_bug_label: 'Please describe the bug or error (required)',
       errDetail: 'Please fill in the required details for the reason(s) you selected.',
@@ -353,7 +377,13 @@
       detail_not_detected_file_link_label: '見つからなかったファイルのリンクURL（必須）',
       detail_not_detected_file_link_help: 'ページ上の対象リンクを右クリックし、「リンクのアドレスをコピー」を選んで貼り付けてください。',
       detail_non_video_not_detected_label: '探知できなかったファイルの種類・拡張子をご記入ください（必須）',
-      detail_not_downloaded_label: 'ダウンロードできなかったURL（アドレス）をご記入ください（必須）',
+      detail_not_downloaded_source_page_label: 'スキャンした元ページのURL（必須）',
+      detail_not_downloaded_source_page_help: '拡張機能を開いてスキャンを実行したときに、ブラウザーのアドレスバーに表示されていたページのURLです。検出されたファイル自体のURLではありません。',
+      detail_not_downloaded_file_link_label: '検出されたファイルのリンクURL（必須）',
+      detail_not_downloaded_file_link_help: '拡張機能に表示されたファイルURLをコピーするか、ページ上の対象リンクを右クリックして「リンクのアドレスをコピー」を選んでください。',
+      detail_not_downloaded_direct_open_result_label: 'リンクURLを直接開いた結果（必須）',
+      detail_not_downloaded_direct_open_result_help: '例：正常にダウンロードできた、403エラーまたはログイン画面が表示された、Webページが開いた、何も起きなかった。',
+      detail_not_downloaded_label: 'その他の状況・エラーメッセージ（任意）',
       detail_missing_feature_label: '希望する機能をご記入ください（必須）',
       detail_bug_label: '不具合やエラーの内容をご記入ください（必須）',
       errDetail: '選択した理由の詳細をご記入ください。',
@@ -392,7 +422,13 @@
       detail_not_detected_file_link_label: 'URL del enlace del archivo que no se detectó (obligatorio)',
       detail_not_detected_file_link_help: 'Haz clic con el botón derecho en el enlace correspondiente de la página, elige "Copiar dirección del enlace" y pégala aquí.',
       detail_non_video_not_detected_label: 'Indícanos el tipo o la extensión del archivo que no se pudo detectar (obligatorio)',
-      detail_not_downloaded_label: 'URL donde falló la descarga (obligatorio)',
+      detail_not_downloaded_source_page_label: 'URL de la página original donde ejecutaste el análisis (obligatorio)',
+      detail_not_downloaded_source_page_help: 'Es la URL que aparecía en la barra de direcciones del navegador cuando abriste la extensión y ejecutaste el análisis. No es la URL del archivo detectado.',
+      detail_not_downloaded_file_link_label: 'URL del enlace del archivo detectado (obligatorio)',
+      detail_not_downloaded_file_link_help: 'Copia la URL del archivo que muestra la extensión o haz clic con el botón derecho en el enlace de la página y elige "Copiar dirección del enlace".',
+      detail_not_downloaded_direct_open_result_label: '¿Qué ocurrió al abrir directamente la URL del enlace? (obligatorio)',
+      detail_not_downloaded_direct_open_result_help: 'Por ejemplo: se descargó normalmente, apareció un error 403 o una página de inicio de sesión, se abrió una página web o no ocurrió nada.',
+      detail_not_downloaded_label: 'Otros detalles o mensajes de error (opcional)',
       detail_missing_feature_label: 'Describe la función que querías (obligatorio)',
       detail_bug_label: 'Describe el bug o error (obligatorio)',
       errDetail: 'Proporciona los detalles solicitados para los motivos que seleccionaste.',
@@ -431,7 +467,13 @@
       detail_not_detected_file_link_label: 'URL du lien du fichier qui n\'a pas été détecté (obligatoire)',
       detail_not_detected_file_link_help: 'Faites un clic droit sur le lien concerné dans la page, choisissez « Copier l\'adresse du lien », puis collez-la ici.',
       detail_non_video_not_detected_label: 'Indiquez-nous le type ou l\'extension du fichier qui n\'a pas pu être détecté (obligatoire)',
-      detail_not_downloaded_label: 'URL où le téléchargement a échoué (obligatoire)',
+      detail_not_downloaded_source_page_label: 'URL de la page d\'origine où vous avez lancé l\'analyse (obligatoire)',
+      detail_not_downloaded_source_page_help: 'Il s\'agit de l\'URL affichée dans la barre d\'adresse du navigateur lorsque vous avez ouvert l\'extension et lancé l\'analyse. Ce n\'est pas l\'URL du fichier détecté.',
+      detail_not_downloaded_file_link_label: 'URL du lien du fichier détecté (obligatoire)',
+      detail_not_downloaded_file_link_help: 'Copiez l\'URL du fichier affichée par l\'extension ou faites un clic droit sur le lien de la page et choisissez « Copier l\'adresse du lien ».',
+      detail_not_downloaded_direct_open_result_label: 'Que s\'est-il passé lorsque vous avez ouvert directement l\'URL du lien ? (obligatoire)',
+      detail_not_downloaded_direct_open_result_help: 'Par exemple : téléchargement normal, erreur 403 ou page de connexion, ouverture d\'une page web, ou aucune réaction.',
+      detail_not_downloaded_label: 'Autres détails ou messages d\'erreur (facultatif)',
       detail_missing_feature_label: 'Décrivez la fonctionnalité souhaitée (obligatoire)',
       detail_bug_label: 'Décrivez le bug ou l\'erreur (obligatoire)',
       errDetail: 'Veuillez fournir les détails demandés pour les raisons sélectionnées.',
@@ -470,7 +512,13 @@
       detail_not_detected_file_link_label: '감지되지 않은 파일의 링크 URL (필수)',
       detail_not_detected_file_link_help: '페이지에서 해당 링크를 마우스 오른쪽 버튼으로 클릭하고 "링크 주소 복사"를 선택한 다음 여기에 붙여넣어 주세요.',
       detail_non_video_not_detected_label: '감지되지 않은 파일의 종류·확장자를 입력해 주세요 (필수)',
-      detail_not_downloaded_label: '다운로드되지 않은 URL(주소)을 입력해 주세요 (필수)',
+      detail_not_downloaded_source_page_label: '스캔을 실행한 원본 페이지의 URL (필수)',
+      detail_not_downloaded_source_page_help: '확장 프로그램을 열어 스캔을 실행했을 때 브라우저 주소 표시줄에 표시되어 있던 페이지 URL입니다. 감지된 파일 자체의 URL이 아닙니다.',
+      detail_not_downloaded_file_link_label: '감지된 파일의 링크 URL (필수)',
+      detail_not_downloaded_file_link_help: '확장 프로그램에 표시된 파일 URL을 복사하거나 페이지의 대상 링크를 마우스 오른쪽 버튼으로 클릭하고 "링크 주소 복사"를 선택해 주세요.',
+      detail_not_downloaded_direct_open_result_label: '링크 URL을 직접 열었을 때의 결과 (필수)',
+      detail_not_downloaded_direct_open_result_help: '예: 정상적으로 다운로드됨, 403 오류 또는 로그인 페이지가 표시됨, 웹페이지가 열림, 아무 반응이 없음.',
+      detail_not_downloaded_label: '기타 상황 또는 오류 메시지 (선택)',
       detail_missing_feature_label: '원하는 기능을 입력해 주세요 (필수)',
       detail_bug_label: '버그나 오류 내용을 입력해 주세요 (필수)',
       errDetail: '선택한 이유의 상세 내용을 입력해 주세요.',
@@ -509,7 +557,13 @@
       detail_not_detected_file_link_label: 'URL del collegamento al file non rilevato (obbligatorio)',
       detail_not_detected_file_link_help: 'Fai clic con il pulsante destro sul collegamento nella pagina, scegli "Copia indirizzo link" e incollalo qui.',
       detail_non_video_not_detected_label: 'Indica il tipo o l\'estensione del file che non è stato rilevato (obbligatorio)',
-      detail_not_downloaded_label: 'URL in cui il download non è riuscito (obbligatorio)',
+      detail_not_downloaded_source_page_label: 'URL della pagina originale in cui hai eseguito la scansione (obbligatorio)',
+      detail_not_downloaded_source_page_help: 'È l\'URL visualizzato nella barra degli indirizzi del browser quando hai aperto l\'estensione ed eseguito la scansione. Non è l\'URL del file rilevato.',
+      detail_not_downloaded_file_link_label: 'URL del collegamento al file rilevato (obbligatorio)',
+      detail_not_downloaded_file_link_help: 'Copia l\'URL del file mostrato dall\'estensione oppure fai clic con il pulsante destro sul collegamento nella pagina e scegli "Copia indirizzo link".',
+      detail_not_downloaded_direct_open_result_label: 'Cosa è successo aprendo direttamente l\'URL del collegamento? (obbligatorio)',
+      detail_not_downloaded_direct_open_result_help: 'Ad esempio: download normale, errore 403 o pagina di accesso, apertura di una pagina web oppure nessuna reazione.',
+      detail_not_downloaded_label: 'Altri dettagli o messaggi di errore (facoltativo)',
       detail_missing_feature_label: 'Descrivi la funzione che desideravi (obbligatorio)',
       detail_bug_label: 'Descrivi il bug o l\'errore (obbligatorio)',
       errDetail: 'Fornisci i dettagli richiesti per i motivi selezionati.',
@@ -548,7 +602,13 @@
       detail_not_detected_file_link_label: '未检测到的文件链接 URL（必填）',
       detail_not_detected_file_link_help: '在页面上右键单击目标链接，选择“复制链接地址”，然后粘贴到此处。',
       detail_non_video_not_detected_label: '请填写无法检测的文件类型或扩展名（必填）',
-      detail_not_downloaded_label: '请填写无法下载的 URL（地址）（必填）',
+      detail_not_downloaded_source_page_label: '执行扫描的原始页面 URL（必填）',
+      detail_not_downloaded_source_page_help: '这是您打开扩展程序并执行扫描时，浏览器地址栏中显示的页面 URL。不是已检测到的文件本身的 URL。',
+      detail_not_downloaded_file_link_label: '已检测到的文件链接 URL（必填）',
+      detail_not_downloaded_file_link_help: '请复制扩展程序中显示的文件 URL，或在页面上右键单击目标链接并选择“复制链接地址”。',
+      detail_not_downloaded_direct_open_result_label: '直接打开链接 URL 后的结果（必填）',
+      detail_not_downloaded_direct_open_result_help: '例如：正常下载、显示 403 错误或登录页面、打开了网页，或者没有任何反应。',
+      detail_not_downloaded_label: '其他情况或错误信息（可选）',
       detail_missing_feature_label: '请填写您希望添加的功能（必填）',
       detail_bug_label: '请填写错误或故障内容（必填）',
       errDetail: '请填写所选原因的详情。',
@@ -587,7 +647,13 @@
       detail_not_detected_file_link_label: '未偵測到的檔案連結 URL（必填）',
       detail_not_detected_file_link_help: '在頁面上的目標連結按一下滑鼠右鍵，選擇「複製連結網址」，然後貼到此處。',
       detail_non_video_not_detected_label: '請填寫無法偵測的檔案類型或副檔名（必填）',
-      detail_not_downloaded_label: '請填寫無法下載的 URL（地址）（必填）',
+      detail_not_downloaded_source_page_label: '執行掃描的原始頁面 URL（必填）',
+      detail_not_downloaded_source_page_help: '這是您開啟擴充功能並執行掃描時，瀏覽器網址列中顯示的頁面 URL。不是已偵測到之檔案本身的 URL。',
+      detail_not_downloaded_file_link_label: '已偵測到的檔案連結 URL（必填）',
+      detail_not_downloaded_file_link_help: '請複製擴充功能中顯示的檔案 URL，或在頁面上的目標連結按一下滑鼠右鍵並選擇「複製連結網址」。',
+      detail_not_downloaded_direct_open_result_label: '直接開啟連結 URL 後的結果（必填）',
+      detail_not_downloaded_direct_open_result_help: '例如：正常下載、顯示 403 錯誤或登入頁面、開啟了網頁，或沒有任何反應。',
+      detail_not_downloaded_label: '其他情況或錯誤訊息（選填）',
       detail_missing_feature_label: '請填寫您希望加入的功能（必填）',
       detail_bug_label: '請填寫錯誤或故障內容（必填）',
       errDetail: '請填寫所選原因的詳細內容。',
@@ -626,7 +692,13 @@
       detail_not_detected_file_link_label: 'URL do link do arquivo que não foi detectado (obrigatório)',
       detail_not_detected_file_link_help: 'Clique com o botão direito no link correspondente da página, escolha "Copiar endereço do link" e cole-o aqui.',
       detail_non_video_not_detected_label: 'Informe o tipo ou a extensão do arquivo que não pôde ser detectado (obrigatório)',
-      detail_not_downloaded_label: 'URL em que o download falhou (obrigatório)',
+      detail_not_downloaded_source_page_label: 'URL da página original em que você executou a verificação (obrigatório)',
+      detail_not_downloaded_source_page_help: 'É a URL exibida na barra de endereços do navegador quando você abriu a extensão e executou a verificação. Não é a URL do arquivo detectado.',
+      detail_not_downloaded_file_link_label: 'URL do link do arquivo detectado (obrigatório)',
+      detail_not_downloaded_file_link_help: 'Copie a URL do arquivo exibida pela extensão ou clique com o botão direito no link da página e escolha "Copiar endereço do link".',
+      detail_not_downloaded_direct_open_result_label: 'O que aconteceu ao abrir diretamente a URL do link? (obrigatório)',
+      detail_not_downloaded_direct_open_result_help: 'Por exemplo: download normal, erro 403 ou página de login, abertura de uma página web ou nenhuma reação.',
+      detail_not_downloaded_label: 'Outros detalhes ou mensagens de erro (opcional)',
       detail_missing_feature_label: 'Descreva o recurso que você queria (obrigatório)',
       detail_bug_label: 'Descreva o bug ou erro (obrigatório)',
       errDetail: 'Forneça os detalhes solicitados para os motivos selecionados.',
@@ -665,7 +737,13 @@
       detail_not_detected_file_link_label: 'Link-URL der nicht erkannten Datei (erforderlich)',
       detail_not_detected_file_link_help: 'Klicken Sie auf der Seite mit der rechten Maustaste auf den betreffenden Link, wählen Sie „Linkadresse kopieren“ und fügen Sie ihn hier ein.',
       detail_non_video_not_detected_label: 'Bitte nennen Sie den Dateityp oder die Dateiendung, die nicht erkannt werden konnte (erforderlich)',
-      detail_not_downloaded_label: 'URL, bei der der Download fehlgeschlagen ist (erforderlich)',
+      detail_not_downloaded_source_page_label: 'URL der Ausgangsseite, auf der Sie den Scan ausgeführt haben (erforderlich)',
+      detail_not_downloaded_source_page_help: 'Dies ist die URL, die in der Adressleiste des Browsers angezeigt wurde, als Sie die Erweiterung geöffnet und den Scan ausgeführt haben. Es ist nicht die URL der erkannten Datei.',
+      detail_not_downloaded_file_link_label: 'Link-URL der erkannten Datei (erforderlich)',
+      detail_not_downloaded_file_link_help: 'Kopieren Sie die von der Erweiterung angezeigte Datei-URL oder klicken Sie auf der Seite mit der rechten Maustaste auf den Link und wählen Sie „Linkadresse kopieren“.',
+      detail_not_downloaded_direct_open_result_label: 'Was geschah beim direkten Öffnen der Link-URL? (erforderlich)',
+      detail_not_downloaded_direct_open_result_help: 'Zum Beispiel: normaler Download, 403-Fehler oder Anmeldeseite, Öffnen einer Webseite oder keine Reaktion.',
+      detail_not_downloaded_label: 'Weitere Details oder Fehlermeldungen (optional)',
       detail_missing_feature_label: 'Bitte beschreiben Sie die gewünschte Funktion (erforderlich)',
       detail_bug_label: 'Bitte beschreiben Sie den Fehler oder Bug (erforderlich)',
       errDetail: 'Bitte geben Sie die angeforderten Details zu den ausgewählten Gründen an.',
@@ -863,7 +941,8 @@
       DETAIL_FIELDS[code].forEach(function(field) {
         var el = document.getElementById('f-detail-' + field);
         if (!el) return;
-        if (reasons.indexOf(code) !== -1 && !el.value.trim()) {
+        var required = OPTIONAL_DETAIL_FIELDS.indexOf(field) === -1;
+        if (reasons.indexOf(code) !== -1 && required && !el.value.trim()) {
           el.classList.add('invalid');
           if (!firstMissingDetail) firstMissingDetail = el;
         } else {
