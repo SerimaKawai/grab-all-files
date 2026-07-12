@@ -78,6 +78,14 @@
     .reason-detail { margin-left: 1.9rem; padding-left: 0.75rem; border-left: 2px solid var(--primary); display: grid; gap: 0.9rem; }
     .reason-detail.hidden { display: none; }
     .reason-note { margin: 0; color: var(--text-muted); font-size: 0.82rem; line-height: 1.5; }
+    .detail-question { font-size: 0.85rem; font-weight: 600; color: var(--text-strong); }
+    .detail-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
+    .detail-option { display: flex; align-items: center; gap: 0.55rem; padding: 0.65rem 0.75rem; border: 1px solid var(--border); border-radius: 8px; cursor: pointer; color: var(--text); font-size: 0.88rem; }
+    .detail-option:hover { background: var(--surface-soft); border-color: var(--border-strong); }
+    .detail-option:has(input:checked) { border-color: var(--primary); background: var(--accent-soft); color: var(--accent-soft-text); font-weight: 600; }
+    .detail-option input { accent-color: var(--primary); flex: none; }
+    .detail-options.invalid { outline: 2px solid var(--error-border); outline-offset: 2px; border-radius: 8px; }
+    @media (max-width: 540px) { .detail-options { grid-template-columns: 1fr; } }
 
     .field { display: grid; gap: 0.35rem; }
     .field label { font-size: 0.85rem; font-weight: 600; color: var(--text-strong); }
@@ -256,7 +264,18 @@
 
           <label class="reason"><input type="checkbox" name="reason" value="too_expensive"><span id="r-too_expensive">It was too expensive</span></label>
           <label class="reason"><input type="checkbox" name="reason" value="found_alternative"><span id="r-found_alternative">I found a better alternative</span></label>
-          <label class="reason"><input type="checkbox" name="reason" value="no_longer_needed"><span id="r-no_longer_needed">I no longer need it</span></label>
+          <div class="reason-choice">
+            <label class="reason"><input type="checkbox" name="reason" value="no_longer_needed"><span id="r-no_longer_needed">I no longer need it</span></label>
+            <div class="reason-detail hidden" id="detail-no_longer_needed" data-reason-detail="no_longer_needed">
+              <div class="field">
+                <p class="detail-question" id="l-detail-no_longer_needed_helpfulness">Was this extension useful while you were using it? (required)</p>
+                <div class="detail-options" id="f-detail-no_longer_needed_helpfulness" role="radiogroup" aria-labelledby="l-detail-no_longer_needed_helpfulness">
+                  <label class="detail-option"><input type="radio" name="detail_no_longer_needed_helpfulness" value="helpful"><span id="o-detail-no_longer_needed_helpfulness-helpful">It was useful</span></label>
+                  <label class="detail-option"><input type="radio" name="detail_no_longer_needed_helpfulness" value="not_helpful"><span id="o-detail-no_longer_needed_helpfulness-not_helpful">It was not useful</span></label>
+                </div>
+              </div>
+            </div>
+          </div>
           <label class="reason"><input type="checkbox" name="reason" value="privacy"><span id="r-privacy">Privacy or permissions concerns</span></label>
           <label class="reason"><input type="checkbox" name="reason" value="other"><span id="r-other">Other</span></label>
         </fieldset>
@@ -306,9 +325,13 @@
     not_downloaded: ['not_downloaded_source_page', 'not_downloaded_file_link', 'not_downloaded_direct_open_result', 'not_downloaded'],
     missing_feature: ['missing_feature'],
     bug: ['bug'],
+    no_longer_needed: ['no_longer_needed_helpfulness'],
   };
   var DETAIL_REASONS = Object.keys(DETAIL_FIELDS);
   var OPTIONAL_DETAIL_FIELDS = ['not_downloaded'];
+  var DETAIL_CHOICES = {
+    no_longer_needed_helpfulness: ['helpful', 'not_helpful'],
+  };
 
   var STRINGS = {
     en: {
