@@ -1,0 +1,77 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Grab All Files" [ref=e4] [cursor=pointer]:
+        - /url: ../
+      - link "戻る" [ref=e6] [cursor=pointer]:
+        - /url: ../
+        - generic [ref=e7]: ←
+      - button "Toggle dark mode / ダークモード切替" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: 🌙
+      - combobox "言語" [ref=e11] [cursor=pointer]:
+        - option "English"
+        - option "日本語" [selected]
+        - option "Español"
+        - option "Français"
+        - option "한국어"
+        - option "Italiano"
+        - option "简体中文"
+        - option "繁體中文"
+        - option "Português"
+        - option "Deutsch"
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - heading "期待どおりに見つかりませんでしたか？" [level=1] [ref=e15]
+        - paragraph [ref=e16]: うまくいかなかったサイトや状況を教えていただけると、対応できるケースを増やせます。
+      - generic [ref=e18]:
+        - group "アンインストールの理由を教えてください（複数選択可）" [ref=e19]:
+          - generic [ref=e22] [cursor=pointer]:
+            - checkbox "ファイルが検出できませんでした" [ref=e23]
+            - generic [ref=e24]: ファイルが検出できませんでした
+          - generic [ref=e26] [cursor=pointer]:
+            - checkbox "動画以外のファイルが探知できなかった" [ref=e27]
+            - generic [ref=e28]: 動画以外のファイルが探知できなかった
+          - generic [ref=e30] [cursor=pointer]:
+            - checkbox "ファイルは検知できたが、ダウンロードできなかった" [ref=e31]
+            - generic [ref=e32]: ファイルは検知できたが、ダウンロードできなかった
+          - generic [ref=e34] [cursor=pointer]:
+            - checkbox "必要な機能が足りなかった" [ref=e35]
+            - generic [ref=e36]: 必要な機能が足りなかった
+          - generic [ref=e37] [cursor=pointer]:
+            - checkbox "操作が難しかった" [ref=e38]
+            - generic [ref=e39]: 操作が難しかった
+          - generic [ref=e41] [cursor=pointer]:
+            - checkbox "不具合やエラーが多かった" [ref=e42]
+            - generic [ref=e43]: 不具合やエラーが多かった
+          - generic [ref=e44] [cursor=pointer]:
+            - checkbox "価格が高かった" [ref=e45]
+            - generic [ref=e46]: 価格が高かった
+          - generic [ref=e47] [cursor=pointer]:
+            - checkbox "もっと良い代替ツールを見つけた" [ref=e48]
+            - generic [ref=e49]: もっと良い代替ツールを見つけた
+          - generic [ref=e51] [cursor=pointer]:
+            - checkbox "もう必要なくなった" [ref=e52]
+            - generic [ref=e53]: もう必要なくなった
+          - generic [ref=e54] [cursor=pointer]:
+            - checkbox "プライバシー・権限が不安だった" [ref=e55]
+            - generic [ref=e56]: プライバシー・権限が不安だった
+          - generic [ref=e57] [cursor=pointer]:
+            - checkbox "その他" [ref=e58]
+            - generic [ref=e59]: その他
+        - generic [ref=e60]:
+          - generic [ref=e61]: その他連絡事項（任意）
+          - textbox "その他連絡事項（任意）" [ref=e62]
+        - generic:
+          - text: Company (leave empty)
+          - textbox
+        - button "改善に協力する" [ref=e63] [cursor=pointer]
+      - paragraph [ref=e65]:
+        - link "Terms of Service" [ref=e66] [cursor=pointer]:
+          - /url: ../terms.html
+        - text: ·
+        - link "Privacy Policy" [ref=e67] [cursor=pointer]:
+          - /url: ../privacy-policy.html
+        - text: ·
+        - link "Legal Notice" [ref=e68] [cursor=pointer]:
+          - /url: ../legal.html
