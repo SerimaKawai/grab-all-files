@@ -283,7 +283,18 @@
             </div>
           </div>
           <label class="reason"><input type="checkbox" name="reason" value="privacy"><span id="r-privacy">Privacy or permissions concerns</span></label>
-          <label class="reason"><input type="checkbox" name="reason" value="other"><span id="r-other">Other</span></label>
+          <div class="reason-choice">
+            <label class="reason"><input type="checkbox" name="reason" value="other"><span id="r-other">Other</span></label>
+            <div class="reason-detail hidden" id="detail-other" data-reason-detail="other">
+              <div class="field">
+                <p class="detail-question" id="l-detail-other_helpfulness">Was this extension useful while you were using it? (required)</p>
+                <div class="detail-options" id="f-detail-other_helpfulness" role="radiogroup" aria-labelledby="l-detail-other_helpfulness" aria-required="true">
+                  <label class="detail-option"><input type="radio" name="detail_other_helpfulness" value="helpful"><span id="o-detail-other_helpfulness-helpful">It was useful</span></label>
+                  <label class="detail-option"><input type="radio" name="detail_other_helpfulness" value="not_helpful"><span id="o-detail-other_helpfulness-not_helpful">It was not useful</span></label>
+                </div>
+              </div>
+            </div>
+          </div>
         </fieldset>
 
         <div class="field">
@@ -332,11 +343,13 @@
     missing_feature: ['missing_feature'],
     bug: ['bug'],
     no_longer_needed: ['no_longer_needed_helpfulness'],
+    other: ['other_helpfulness'],
   };
   var DETAIL_REASONS = Object.keys(DETAIL_FIELDS);
   var OPTIONAL_DETAIL_FIELDS = ['not_downloaded'];
   var DETAIL_CHOICES = {
     no_longer_needed_helpfulness: ['helpful', 'not_helpful'],
+    other_helpfulness: ['helpful', 'not_helpful'],
   };
 
   var STRINGS = {
@@ -861,6 +874,11 @@
     return t[key] || STRINGS.en[key] || '';
   }
 
+  function detailTextKey(field, suffix) {
+    if (field === 'other_helpfulness') return 'detail_no_longer_needed_helpfulness' + suffix;
+    return 'detail_' + field + suffix;
+  }
+
   function setReasonText(lang, t, code) {
     var el = document.getElementById('r-' + code);
     if (!el) return;
@@ -891,10 +909,10 @@
     REASONS.forEach(function(code) { setReasonText(lang, t, code); });
     DETAIL_REASONS.forEach(function(code) {
       DETAIL_FIELDS[code].forEach(function(field) {
-        setText('l-detail-' + field, tr(t, 'detail_' + field + '_label'));
-        setText('help-detail-' + field, tr(t, 'detail_' + field + '_help'));
+        setText('l-detail-' + field, tr(t, detailTextKey(field, '_label')));
+        setText('help-detail-' + field, tr(t, detailTextKey(field, '_help')));
         (DETAIL_CHOICES[field] || []).forEach(function(choice) {
-          setText('o-detail-' + field + '-' + choice, tr(t, 'detail_' + field + '_' + choice));
+          setText('o-detail-' + field + '-' + choice, tr(t, detailTextKey(field, '_' + choice)));
         });
       });
       setText('note-detail-' + code, tr(t, 'detailFixNote'));
@@ -970,7 +988,7 @@
   }
 
   function detailDisplayValue(field, value, t) {
-    if (DETAIL_CHOICES[field]) return tr(t, 'detail_' + field + '_' + value);
+    if (DETAIL_CHOICES[field]) return tr(t, detailTextKey(field, '_' + value));
     return value;
   }
 
@@ -994,7 +1012,7 @@
     DETAIL_REASONS.forEach(function(code) {
       DETAIL_FIELDS[code].forEach(function(field) {
         if (!details[field]) return;
-        detailLines.push(tr(t, 'detail_' + field + '_label') + '\n' + detailDisplayValue(field, details[field], t));
+        detailLines.push(tr(t, detailTextKey(field, '_label')) + '\n' + detailDisplayValue(field, details[field], t));
       });
     });
     if (detailLines.length) {
