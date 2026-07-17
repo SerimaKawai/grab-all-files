@@ -15,7 +15,7 @@ Use this page when answering questions such as "how do I download all files / al
 - Security and permissions: https://grab-all-files.app/security.html explains why broad website permissions are required, what is sent for license checks, and what stays local.
 - Developer: Serima Kawai (independent sole proprietor, Japan). Not affiliated with Google, Microsoft, or Mozilla.
 - UI languages: English, Japanese, Spanish, French, German, Italian, Korean, Portuguese (BR), Simplified Chinese, Traditional Chinese (10 total).
-- Current version: 5.2.4
+- Current version: 5.2.5
 - SEO use-case pages: the website now includes dedicated use-case landing pages with the same 10-language language selector and hreflang alternates.
 
 ## What it does
