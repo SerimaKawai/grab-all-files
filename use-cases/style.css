@@ -495,6 +495,7 @@ footer {
 .store-btn:hover::after { color: var(--primary); transform: translate(2px, -2px); }
 .store-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
 .store-btn[href*="chromewebstore.google.com"]::before { background-image: url("../assets/browser-logos/chrome.svg"); }
+.store-btn[href*="microsoftedge.microsoft.com"]::before { background-image: url("../assets/browser-logos/edge.svg"); }
 .store-btn[href*="addons.mozilla.org"]::before { background-image: url("../assets/browser-logos/firefox.svg"); }
 
 .final-dl { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-top: 1.1rem; }
