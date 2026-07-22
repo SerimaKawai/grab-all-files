@@ -1,0 +1,148 @@
+- generic [active] [ref=f15e1]:
+  - link "Skip to content" [ref=f15e2] [cursor=pointer]:
+    - /url: "#case-root"
+  - banner [ref=f15e3]:
+    - generic [ref=f15e4]:
+      - link "Grab All Files" [ref=f15e5] [cursor=pointer]:
+        - /url: ../?lang=ja
+      - navigation "Primary" [ref=f15e7]:
+        - link "用途別" [ref=f15e8] [cursor=pointer]:
+          - /url: ../?lang=ja#use-cases
+        - link "セキュリティ" [ref=f15e9] [cursor=pointer]:
+          - /url: ../security.html?lang=ja
+        - link "料金" [ref=f15e10] [cursor=pointer]:
+          - /url: ../?lang=ja#pricing
+      - generic [ref=f15e11]:
+        - button "Toggle dark mode" [ref=f15e12] [cursor=pointer]:
+          - generic [ref=f15e13]: 🌙
+        - combobox "Language" [ref=f15e14]:
+          - option "English"
+          - option "日本語" [selected]
+          - option "Español"
+          - option "Français"
+          - option "Deutsch"
+          - option "Italiano"
+          - option "한국어"
+          - option "Português (BR)"
+          - option "简体中文"
+          - option "繁體中文"
+        - link "無料インストール" [ref=f15e15] [cursor=pointer]:
+          - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+  - main [ref=f15e16]:
+    - generic [ref=f15e17]:
+      - generic [ref=f15e18]:
+        - link "← 用途別" [ref=f15e19] [cursor=pointer]:
+          - /url: ../?lang=ja#use-cases
+        - generic [ref=f15e20]:
+          - generic [ref=f15e21]: ✓
+          - generic [ref=f15e22]: ローカルPDF結合
+        - heading "Webページから集めたPDFを、そのままブラウザ内で結合。" [level=1] [ref=f15e23]
+        - paragraph [ref=f15e24]: Grab All Files はダウンローダーだけではありません。ページまたは同一サイトクロールでPDFを検出した後、必要なファイルを選び、ブラウザ内で結合できます。元PDFは端末上に残ります。
+        - generic [ref=f15e25]:
+          - generic [ref=f15e26]: "お使いのブラウザで Grab All Files をダウンロード:"
+          - link "Chrome 用をダウンロード ↗" [ref=f15e27] [cursor=pointer]:
+            - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+          - link "Edge 用をダウンロード ↗" [ref=f15e28] [cursor=pointer]:
+            - /url: https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf
+          - link "Firefox 用をダウンロード ↗" [ref=f15e29] [cursor=pointer]:
+            - /url: https://addons.mozilla.org/firefox/addon/grab-all-files/
+          - link "セキュリティ" [ref=f15e30] [cursor=pointer]:
+            - /url: ../security.html?lang=ja
+      - complementary "Grab All Files" [ref=f15e31]:
+        - list [ref=f15e34]:
+          - listitem [ref=f15e35]:
+            - generic [ref=f15e36]: ✓
+            - generic [ref=f15e37]: 無料プラン — 全機能を利用可能
+          - listitem [ref=f15e38]:
+            - generic [ref=f15e39]: ✓
+            - generic [ref=f15e40]: $19.99 永続ライセンス
+          - listitem [ref=f15e41]:
+            - generic [ref=f15e42]: ✓
+            - generic [ref=f15e43]: PDF結合・ZIP化・CSV出力はブラウザ内でローカル処理
+          - listitem [ref=f15e44]:
+            - generic [ref=f15e45]: ✓
+            - generic [ref=f15e46]: ファイルは元サイトから端末へ直接ダウンロード
+        - generic [ref=f15e47]:
+          - link "Chrome ウェブストア ↗" [ref=f15e48] [cursor=pointer]:
+            - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+            - generic [ref=f15e49]: Chrome ウェブストア
+            - generic [ref=f15e50]: ↗
+          - link "Edge アドオン →" [ref=f15e51] [cursor=pointer]:
+            - /url: https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf
+            - generic [ref=f15e52]: Edge アドオン
+            - generic [ref=f15e53]: →
+          - link "Firefox アドオン ↗" [ref=f15e54] [cursor=pointer]:
+            - /url: https://addons.mozilla.org/firefox/addon/grab-all-files/
+            - generic [ref=f15e55]: Firefox アドオン
+            - generic [ref=f15e56]: ↗
+    - generic [ref=f15e57]:
+      - generic [ref=f15e58]:
+        - generic [ref=f15e59]:
+          - heading "向いている用途" [level=2] [ref=f15e60]
+          - list [ref=f15e61]:
+            - listitem [ref=f15e62]:
+              - generic [ref=f15e63]: ✓
+              - generic [ref=f15e64]: 報告書、通知、配布資料、申請書を一括収集後にまとめる。
+            - listitem [ref=f15e65]:
+              - generic [ref=f15e66]: ✓
+              - generic [ref=f15e67]: 機密文書をオンラインPDF結合サービスに出したくない。
+            - listitem [ref=f15e68]:
+              - generic [ref=f15e69]: ✓
+              - generic [ref=f15e70]: 複数PDFを1つの確認用パケットにする。
+            - listitem [ref=f15e71]:
+              - generic [ref=f15e72]: ✓
+              - generic [ref=f15e73]: 結合ファイルと合わせて元URLのCSV記録も残す。
+        - generic [ref=f15e74]:
+          - heading "使い方" [level=2] [ref=f15e75]
+          - list [ref=f15e76]:
+            - listitem [ref=f15e77]:
+              - generic [ref=f15e78]: "1"
+              - generic [ref=f15e79]: ページをスキャン、または同一サイトリンクをクロールしてPDFを検出。
+            - listitem [ref=f15e80]:
+              - generic [ref=f15e81]: "2"
+              - generic [ref=f15e82]: PDFで絞り込み、結合したい順番でファイルを選択。
+            - listitem [ref=f15e83]:
+              - generic [ref=f15e84]: "3"
+              - generic [ref=f15e85]: ブラウザ内でローカル結合を実行し、結合PDFを保存。
+      - generic [ref=f15e86]:
+        - heading "よくある質問" [level=2] [ref=f15e87]
+        - generic [ref=f15e88]:
+          - group [ref=f15e89]:
+            - generic "オンラインPDF結合サービスですか？" [ref=f15e90] [cursor=pointer]
+          - group [ref=f15e91]:
+            - generic "結合順を指定できますか？" [ref=f15e92] [cursor=pointer]
+          - group [ref=f15e93]:
+            - generic "元のPDFも保存できますか？" [ref=f15e94] [cursor=pointer]
+      - generic [ref=f15e95]:
+        - heading "関連する用途別ガイド" [level=2] [ref=f15e96]
+        - generic "関連する用途別ガイド" [ref=f15e97]:
+          - link "PDFを一括ダウンロード" [ref=f15e98] [cursor=pointer]:
+            - /url: download-all-pdfs.html?lang=ja
+          - link "画像を一括ダウンロード" [ref=f15e99] [cursor=pointer]:
+            - /url: bulk-download-images.html?lang=ja
+          - link "ページ上のファイルを保存" [ref=f15e100] [cursor=pointer]:
+            - /url: download-files-from-webpage.html?lang=ja
+          - link "社内ポータル・LMS" [ref=f15e101] [cursor=pointer]:
+            - /url: internal-portal-downloads.html?lang=ja
+          - link "PDFをローカル結合" [ref=f15e102] [cursor=pointer]:
+            - /url: merge-pdfs-locally.html?lang=ja
+    - generic [ref=f15e103]:
+      - heading "実際のページで Grab All Files を試せます。" [level=2] [ref=f15e104]
+      - paragraph [ref=f15e105]: 拡張機能をインストールし、対象ページで実際にスキャン。無料で全機能を利用でき、1回のダウンロードで最大20件まで保存できます。Pro（$19.99・買い切り）で1回あたりの上限を解除。
+      - generic [ref=f15e106]:
+        - link "Chrome 用をダウンロード ↗" [ref=f15e107] [cursor=pointer]:
+          - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+        - link "Edge 用をダウンロード ↗" [ref=f15e108] [cursor=pointer]:
+          - /url: https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf
+        - link "Firefox 用をダウンロード ↗" [ref=f15e109] [cursor=pointer]:
+          - /url: https://addons.mozilla.org/firefox/addon/grab-all-files/
+  - contentinfo [ref=f15e110]:
+    - generic [ref=f15e111]:
+      - paragraph [ref=f15e112]: Serima Kawai による独立したブラウザ拡張機能。Google、Microsoft、Mozillaとは提携していません。
+      - generic [ref=f15e113]:
+        - link "ホーム" [ref=f15e114] [cursor=pointer]:
+          - /url: ../?lang=ja
+        - link "購入" [ref=f15e115] [cursor=pointer]:
+          - /url: /purchase/?lang=ja
+        - link "セキュリティ" [ref=f15e116] [cursor=pointer]:
+          - /url: ../security.html?lang=ja

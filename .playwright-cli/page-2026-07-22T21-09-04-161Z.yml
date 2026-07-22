@@ -1,0 +1,437 @@
+- generic [active] [ref=f16e1]:
+  - link "本文へ移動" [ref=f16e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f16e3]:
+    - generic [ref=f16e4]:
+      - link "Grab All Files home" [ref=f16e5] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=f16e6]: Grab All Files
+      - navigation "Primary" [ref=f16e7]:
+        - link "機能" [ref=f16e8] [cursor=pointer]:
+          - /url: "#features"
+        - link "使い方" [ref=f16e9] [cursor=pointer]:
+          - /url: "#how"
+        - link "料金" [ref=f16e10] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "セキュリティ" [ref=f16e11] [cursor=pointer]:
+          - /url: security.html
+        - link "FAQ" [ref=f16e12] [cursor=pointer]:
+          - /url: "#faq"
+      - generic [ref=f16e13]:
+        - button "Toggle dark mode / ダークモード切替" [ref=f16e14] [cursor=pointer]:
+          - generic [ref=f16e15]: 🌙
+        - combobox "言語" [ref=f16e16] [cursor=pointer]:
+          - option "English"
+          - option "日本語" [selected]
+          - option "Español"
+          - option "Français"
+          - option "Deutsch"
+          - option "Italiano"
+          - option "한국어"
+          - option "Português (BR)"
+          - option "简体中文"
+          - option "繁體中文"
+  - main [ref=f16e17]:
+    - generic [ref=f16e19]:
+      - generic [ref=f16e20]:
+        - text: ↗ ↗ ↗
+        - generic [ref=f16e21]:
+          - generic [ref=f16e22]:
+            - generic [ref=f16e23]: ✓
+            - generic [ref=f16e24]: 無料プラン — 全機能
+            - generic [ref=f16e25]: ·
+            - generic [ref=f16e26]: $19.99
+            - generic [ref=f16e27]: 永続ライセンス（サブスクなし）
+          - heading "ページ上のすべてのファイルを 一括ダウンロード。" [level=1] [ref=f16e28]
+          - paragraph [ref=f16e29]:
+            - strong [ref=f16e30]: 708種類（拡張子）
+            - text: のファイルに対応。Webページ上のPDF・Word・Excel・PowerPoint・画像・ZIP・CSVなど、ダウンロード可能なファイルをまとめて検出します。iframe、PDFビューア、遅延読み込み、fetch/XHRレスポンス、blob URL、CMSダウンロードルートなど、通常見落としがちな場所のファイルもカバー。必要なものを選んで一括保存、PDF結合もブラウザ内で完結します。
+          - link "最新バージョンの新機能を見る" [ref=f16e32] [cursor=pointer]:
+            - /url: "#latest-version"
+            - text: 最新バージョンの新機能を見る
+            - generic [ref=f16e33]: →
+          - generic [ref=f16e34]:
+            - generic [ref=f16e35]: "お使いのブラウザで Grab All Files をダウンロード:"
+            - link "Chrome ウェブストアからインストール" [ref=f16e36] [cursor=pointer]:
+              - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+              - text: Chrome 用をダウンロード ↗
+            - link "Edge 用をダウンロード ↗" [ref=f16e37] [cursor=pointer]:
+              - /url: https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf
+            - link "Firefox アドオンからインストール" [ref=f16e38] [cursor=pointer]:
+              - /url: https://addons.mozilla.org/firefox/addon/grab-all-files/
+              - text: Firefox 用をダウンロード ↗
+        - text: ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗
+        - paragraph [ref=f16e39]:
+          - link "セキュリティと権限" [ref=f16e40] [cursor=pointer]:
+            - /url: security.html
+        - generic [ref=f16e42]:
+          - generic [ref=f16e43]:
+            - strong [ref=f16e44]: "708"
+            - text: ファイル形式（拡張子）
+          - generic [ref=f16e45]:
+            - strong [ref=f16e46]: 100,000
+            - text: ページ / 実行
+          - generic [ref=f16e47]:
+            - strong [ref=f16e48]: 30+
+            - text: 検出シグナル
+          - generic [ref=f16e49]:
+            - strong [ref=f16e50]: "10"
+            - text: UI言語
+          - generic [ref=f16e51]:
+            - strong [ref=f16e52]: "0"
+            - text: アップロードファイル
+      - generic [ref=f16e54]:
+        - generic [ref=f16e55]:
+          - generic [ref=f16e60]: city.example.go.jp/reports/2025
+          - generic [ref=f16e61]: 47件
+        - generic [ref=f16e65]:
+          - generic [ref=f16e66]: ファイル名またはURLで検索…
+          - generic [ref=f16e72]:
+            - text: PDF
+            - generic [ref=f16e73]: "23"
+          - generic [ref=f16e74]:
+            - text: DOCX
+            - generic [ref=f16e75]: "8"
+          - generic [ref=f16e76]:
+            - text: XLSX
+            - generic [ref=f16e77]: "6"
+          - generic [ref=f16e78]:
+            - text: ZIP
+            - generic [ref=f16e79]: "4"
+          - generic [ref=f16e80]: "+3"
+        - generic [ref=f16e81]:
+          - generic [ref=f16e82]:
+            - generic [ref=f16e83]: 12件 選択中
+            - text: · 47件 検出
+          - generic [ref=f16e84]: 合計 84.3 MB
+        - generic [ref=f16e85]:
+          - generic [ref=f16e86]:
+            - generic [ref=f16e90]: PDF
+            - generic [ref=f16e91]:
+              - text: 2025-budget-annex-A.pdf
+              - generic [ref=f16e92]: iframe · /viewer?id=4821
+            - generic [ref=f16e93]: 3.2 MB
+          - generic [ref=f16e94]:
+            - generic [ref=f16e98]: PDF
+            - generic [ref=f16e99]:
+              - text: council-minutes-jun.pdf
+              - generic [ref=f16e100]: "blob: · resolved"
+            - generic [ref=f16e101]: 812 KB
+          - generic [ref=f16e102]:
+            - generic [ref=f16e106]: XLS
+            - generic [ref=f16e107]:
+              - text: tax-rates-2025-q2.xlsx
+              - generic [ref=f16e108]: fetch · /api/dl/8821
+            - generic [ref=f16e109]: 96 KB
+          - generic [ref=f16e110]:
+            - generic [ref=f16e112]: DOC
+            - generic [ref=f16e113]:
+              - text: working-paper-draft.docx
+              - generic [ref=f16e114]: CMS · /download/v2
+            - generic [ref=f16e115]: 214 KB
+          - generic [ref=f16e116]:
+            - generic [ref=f16e120]: ZIP
+            - generic [ref=f16e121]:
+              - text: 附属資料-1〜8.zip
+              - generic [ref=f16e122]: data-href · lazy
+            - generic [ref=f16e123]: 21.4 MB
+          - generic [ref=f16e124]:
+            - generic [ref=f16e126]: CSV
+            - generic [ref=f16e127]:
+              - text: attendance-2024.csv
+              - generic [ref=f16e128]: XHR · /export
+            - generic [ref=f16e129]: 38 KB
+          - generic [ref=f16e130]:
+            - generic [ref=f16e132]: PNG
+            - generic [ref=f16e133]:
+              - text: map-overlay-tile-04.png
+              - generic [ref=f16e134]: data-bgimg · スキャン中…
+            - generic [ref=f16e135]: —
+        - generic [ref=f16e137]:
+          - button [ref=f16e138] [cursor=pointer]:
+            - generic [ref=f16e142]: 12件ダウンロード
+          - button [ref=f16e143] [cursor=pointer]:
+            - generic [ref=f16e149]: PDF結合
+          - button [ref=f16e150] [cursor=pointer]: ZIP
+          - button [ref=f16e155] [cursor=pointer]: CSV
+    - generic [ref=f16e164]:
+      - generic [ref=f16e165]:
+        - generic [ref=f16e166]: 最新バージョン
+        - strong [ref=f16e167]: 5.2.5
+      - generic [ref=f16e168]:
+        - heading "複雑なページでも、より多くのファイルを見つけやすく。" [level=3] [ref=f16e169]
+        - paragraph [ref=f16e170]: 最新のWebに合わせて設計し、こまめに更新しています。現在のリリースでは、深い検出、同一サイト収集、大量ダウンロード後のローカル出力機能を重点的に整理しています。
+        - list [ref=f16e171]:
+          - listitem [ref=f16e172]:
+            - strong [ref=f16e173]: 新機能：
+            - text: 失敗したファイルだけをワンクリックで一括再試行（完了しなかった分のみ再取得）。
+          - listitem [ref=f16e174]:
+            - strong [ref=f16e175]: 新機能：
+            - text: パネルを閉じたりリロードしても、前回の結果を復元して続きから作業できます。
+          - listitem [ref=f16e176]: iframe内PDF、遅延画像、fetch/XHRファイル、blob URL、CMSダウンロードルート、分割・マルチボリュームアーカイブまで幅広く検出。
+          - listitem [ref=f16e177]: PDF結合・ZIP化・CSV出力はブラウザ内で完結し、ファイルをアップロードしません。
+    - generic [ref=f16e179]:
+      - generic [ref=f16e180]: 研究者
+      - generic [ref=f16e186]: 公開資料の収集
+      - generic [ref=f16e191]: 社内ポータル利用者
+      - generic [ref=f16e196]: 学生
+      - generic [ref=f16e202]: デザイナー
+    - generic [ref=f16e211]:
+      - generic [ref=f16e212]:
+        - generic [ref=f16e213]: 主な機能
+        - generic [ref=f16e214]:
+          - heading "主な機能" [level=2] [ref=f16e215]
+          - paragraph [ref=f16e216]: 複数ページから資料を集める人のためのツールです。調査・研究、自治体・大学公開資料の収集、社内ポータル業務、デザイン素材集め、論文・教材ダウンロードなど、「保存」を何度もクリックする作業から解放します。
+      - generic [ref=f16e218]:
+        - generic [ref=f16e219]:
+          - heading "見落としがちなファイルも検出" [level=3] [ref=f16e224]
+          - paragraph [ref=f16e225]:
+            - strong [ref=f16e226]: 708種類（拡張子）
+            - text: のファイルに対応。iframe内のPDF、遅延読み込み画像、fetch/XHRで取得されるファイル、blob URL、CMSダウンロードルート、hidden inputの値、39種類のdata-*属性まで網羅。通常のリンクスクレイパーでは拾えないファイルも検出します。さらにShadow DOM／Web Components内、SPAのハイドレーションデータ（Next.js・JSON-LD）、Cache Storage／OPFS／IndexedDB、署名付きクラウドストレージURL（Cloudflare R2・Firebase・Supabase・Vercel Blob）まで踏み込んで検出します。
+        - generic [ref=f16e227]:
+          - heading "スマートフィルタ" [level=3] [ref=f16e233]
+          - paragraph [ref=f16e234]: 拡張子、ファイルサイズ、ファイル名、ページタイトル、更新日で絞り込み・並べ替え・手動並べ替え。URLのプレーンテキストコピーにも対応。
+        - generic [ref=f16e235]:
+          - heading "同一サイトクロール" [level=3] [ref=f16e243]
+          - paragraph [ref=f16e244]: 深度0〜5または無制限を選んで、同一ドメインのリンク先を巡回。サブページに散らばったPDF、ビューアURL、CMS文書ルートまで一気に収集。1回の実行で最大10万ページまで。さらに sitemap.xml／robots.txt を解析し、JavaScriptメニュー（javascript:／onclick）・フレームセット・イメージマップ・GET検索/ページャのリンクも辿るので、通常の<a>リンクが無いページにも到達します。
+        - generic [ref=f16e245]:
+          - heading "PDF結合（ローカル）" [level=3] [ref=f16e251]
+          - paragraph [ref=f16e252]: 選択したPDFを1つにまとめます。アップロード不要・サーバー送信なし。ファイルは端末から外に出ません。
+        - generic [ref=f16e253]:
+          - heading "ZIP化" [level=3] [ref=f16e258]
+          - paragraph [ref=f16e259]: 選択したファイルを1つのZIPにまとめて配布・アーカイブ・共有しやすく。ブラウザ内ですべて完結します。
+        - generic [ref=f16e260]:
+          - heading "CSV出力" [level=3] [ref=f16e266]
+          - paragraph [ref=f16e267]: URL、ファイル名、サイズ、種類、タイトルをCSV出力。資料台帳、棚卸し、報告書、後続の自動処理にそのまま使えます。
+        - generic [ref=f16e268]:
+          - heading "アクセス権のあるページをスキャン" [level=3] [ref=f16e274]
+          - paragraph [ref=f16e275]: お使いのブラウザのセッションを利用し、すでに正当に開ける社内ポータル、LMS、会員ページ内の資料を確認できます。認証情報を収集したり、アクセス制御を回避したりするものではありません。
+        - generic [ref=f16e276]:
+          - heading "複雑なページにも対応" [level=3] [ref=f16e281]
+          - paragraph [ref=f16e282]: 正当にアクセスできるページ内であれば、JavaScript描画のSPA（React・Next・Nuxt・Vue）、ビューア経由のURL、CSRF保護フォームなど、通常のダウンローダーが取りこぼす経路も確認します。種別は拡張子だけでなくバイト署名でも判定し、HTTP（非HTTPS）の旧サイトもスキャンできます。
+        - generic [ref=f16e283]:
+          - heading "大量処理に対応" [level=3] [ref=f16e289]
+          - paragraph [ref=f16e290]: 複数URLを一度にスキャン、またはサイト全体をクロール。並列数の調整、一時停止/再開、失敗の自動リトライ、種類別・ドメイン別のフォルダ仕分け、PDFタイトルからのファイル名変更まで。
+    - generic [ref=f16e292]:
+      - generic [ref=f16e293]:
+        - generic [ref=f16e294]: 使いどころ
+        - generic [ref=f16e295]:
+          - heading "他のダウンロードツールとの使い分け" [level=2] [ref=f16e296]
+          - paragraph [ref=f16e297]: Grab All Files は万能ツールではなく、「複雑・動的・ログイン必須のページからファイルを見つける」ことに特化しています。ダウンロードマネージャやサイト複製ツールとの役割分担はこうです。
+      - generic [ref=f16e299]:
+        - generic [ref=f16e300]:
+          - heading "複雑・ログイン必須ページからファイルを発見" [level=3] [ref=f16e305]
+          - paragraph [ref=f16e306]:
+            - text: iframe・ビューア・JavaScript・ログイン・CMSルートの奥に隠れたPDF・画像・文書。Grab All Files が検出し、絞り込み・選択のうえ、一括DL・PDF結合・ZIP化・CSV出力までローカルで完結します。
+            - strong [ref=f16e307]: これこそ Grab All Files の得意分野です。
+        - generic [ref=f16e308]:
+          - generic [ref=f16e309]: 🚚
+          - heading "既知のURLを大量に／巨大ファイルをDL" [level=3] [ref=f16e310]
+          - paragraph [ref=f16e311]: 数GBのファイルや、キュー管理・再開が必要な長時間の無人バッチには、専用のダウンロードマネージャ（JDownloader、aria2）が最適です。Grab All Files でファイルを発見してURLリストを書き出し、重いDLはそちらに任せましょう。
+        - generic [ref=f16e312]:
+          - generic [ref=f16e313]: 🗺️
+          - heading "サイト全体をオフライン閲覧用に複製" [level=3] [ref=f16e314]
+          - paragraph [ref=f16e315]: 静的サイトを HTML・リンク・構造ごと複製してオフラインで閲覧したいなら、サイト複製ツール（HTTrack など）が適任です。Grab All Files が集めるのはファイルであり、サイトそのものの複製ではありません。
+    - generic [ref=f16e317]:
+      - heading "こんな方が使っています" [level=2] [ref=f16e320]
+      - generic [ref=f16e322]:
+        - generic [ref=f16e323]:
+          - heading "自治体・官公庁の公開資料収集" [level=3] [ref=f16e324]
+          - paragraph [ref=f16e328]: 市区町村・都道府県・省庁のサイトから報告書PDF、申請書、公開資料をまとめてダウンロード。
+        - generic [ref=f16e329]:
+          - heading "大学・研究機関" [level=3] [ref=f16e330]
+          - paragraph [ref=f16e335]: 各教員ページや論文リポジトリに分散した論文・講義資料・実験レポート・データセットを一括取得。
+        - generic [ref=f16e336]:
+          - heading "社内ポータル・LMS" [level=3] [ref=f16e337]
+          - paragraph [ref=f16e341]: イントラネット、学習管理システム（Moodle、Canvas、Blackboard）、会員サイトの添付資料を効率収集。
+        - generic [ref=f16e342]:
+          - heading "画像・データライブラリ" [level=3] [ref=f16e343]
+          - paragraph [ref=f16e349]: 画像ギャラリー、データセット、CSV出力をオフライン閲覧・後処理用に一括保存。
+      - generic "Use-case guides" [ref=f16e350]:
+        - link "PDFを一括ダウンロード" [ref=f16e351] [cursor=pointer]:
+          - /url: use-cases/download-all-pdfs.html
+        - link "画像を一括ダウンロード" [ref=f16e352] [cursor=pointer]:
+          - /url: use-cases/bulk-download-images.html
+        - link "ページ上のファイルを保存" [ref=f16e353] [cursor=pointer]:
+          - /url: use-cases/download-files-from-webpage.html
+        - link "社内ポータル・LMS" [ref=f16e354] [cursor=pointer]:
+          - /url: use-cases/internal-portal-downloads.html
+        - link "PDFをローカル結合" [ref=f16e355] [cursor=pointer]:
+          - /url: use-cases/merge-pdfs-locally.html
+    - generic [ref=f16e357]:
+      - generic [ref=f16e359]:
+        - heading "使い方" [level=2] [ref=f16e360]
+        - paragraph [ref=f16e361]: たった3ステップ。アカウント不要・アップロード不要・拡張機能内に登録フローもありません。
+      - generic [ref=f16e363]:
+        - generic [ref=f16e364]:
+          - heading "ページを開く / URLを貼り付ける" [level=3] [ref=f16e366]
+          - paragraph [ref=f16e367]: 現在のタブを使うか、ポップアップにURLを貼り付け。クロール深度を「このページのみ」「同一サイト内1〜5段」「無制限」から選びます。
+        - generic [ref=f16e368]:
+          - heading "検出可能なファイルが一覧表示される" [level=3] [ref=f16e370]
+          - paragraph [ref=f16e371]: ファイル名、種類、サイズ、ページタイトル、ソースURLを確認できます。保存前に絞り込み・並べ替え・検索・手動並べ替えが可能。
+        - generic [ref=f16e372]:
+          - heading "選んで保存・ZIP化・PDF結合" [level=3] [ref=f16e374]
+          - paragraph [ref=f16e375]: 指定フォルダへ一括保存（種類別・ドメイン別整理オプションあり）、ZIPにまとめる、選択したPDFを1つに結合 — すべてブラウザ内で完結。
+    - generic [ref=f16e377]:
+      - heading "買い切り、永続ライセンス、サブスクなし。" [level=2] [ref=f16e380]
+      - generic [ref=f16e381]:
+        - generic [ref=f16e382]:
+          - generic [ref=f16e383]: 無料プランあり
+          - generic [ref=f16e384]:
+            - text: $19.99
+            - generic [ref=f16e385]: USD
+          - generic [ref=f16e386]: 永続ライセンス（サブスクなし）
+          - text: ✓ ✓ ✓ ✓ ✓ ✓
+          - list [ref=f16e388]:
+            - listitem [ref=f16e389]: ✓ 全機能を無料で利用可能
+            - listitem [ref=f16e390]: ✓ 1回のダウンロードで最大20件
+            - listitem [ref=f16e391]: ✓ 永続ライセンス（サブスクなし）
+            - listitem [ref=f16e392]: ✓ 最大3台で利用可能
+            - listitem [ref=f16e393]: ✓ アップデート無償
+            - listitem [ref=f16e394]: ✓ Stripe決済 / ライセンスキーはメール送付
+          - text: ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+          - generic [ref=f16e395]:
+            - generic [ref=f16e396]:
+              - generic [ref=f16e397]: "お使いのブラウザで Grab All Files をダウンロード:"
+              - link "Chrome 用をダウンロード ↗" [ref=f16e398] [cursor=pointer]:
+                - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+                - generic [ref=f16e399]: Chrome 用をダウンロード
+                - text: ↗
+              - link "Edge 用をダウンロード ↗" [ref=f16e400] [cursor=pointer]:
+                - /url: https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf
+                - generic [ref=f16e401]: Edge 用をダウンロード
+                - text: ↗
+              - link "Firefox 用をダウンロード ↗" [ref=f16e402] [cursor=pointer]:
+                - /url: https://addons.mozilla.org/firefox/addon/grab-all-files/
+                - generic [ref=f16e403]: Firefox 用をダウンロード
+                - text: ↗
+            - link "ライセンス購入 — $19.99" [ref=f16e404] [cursor=pointer]:
+              - /url: purchase/
+        - generic [ref=f16e406]:
+          - generic [ref=f16e407]:
+            - heading "ファイルは端末から出ません" [level=3] [ref=f16e408]
+            - paragraph [ref=f16e415]: ファイルはサイトから直接お使いのPCへ。サーバーに届くのはライセンス認証と匿名のプラン操作イベントのみです。
+          - generic [ref=f16e416]:
+            - heading "買い切り・永続利用" [level=3] [ref=f16e417]
+            - paragraph [ref=f16e422]: Stripe決済。サブスクなし・自動更新なし。ライセンスキーはメールでお送りします。
+          - generic [ref=f16e423]:
+            - heading "10言語UI・ログインも継続" [level=3] [ref=f16e424]
+            - paragraph [ref=f16e431]: EN/JA/ES/FR/DE/IT/KO/PT-BR/ZH-CN/ZH-TW。ブラウザのログイン状態をそのまま使うので、社内ポータルにも対応。
+    - generic [ref=f16e433]:
+      - heading "よくある質問" [level=2] [ref=f16e436]
+      - text: + + + + + + + + + + + + + + +
+      - generic [ref=f16e438]:
+        - group [ref=f16e439]:
+          - generic "対応しているファイル形式は？ +" [ref=f16e440] [cursor=pointer]
+        - group [ref=f16e441]:
+          - generic "無料で使えますか？ +" [ref=f16e442] [cursor=pointer]
+        - group [ref=f16e443]:
+          - generic "Proの料金は？ +" [ref=f16e444] [cursor=pointer]
+        - group [ref=f16e445]:
+          - generic "閲覧データはどこかへ送信されますか？ +" [ref=f16e446] [cursor=pointer]
+        - group [ref=f16e447]:
+          - generic "対応ブラウザは？ +" [ref=f16e448] [cursor=pointer]
+        - group [ref=f16e449]:
+          - generic "返金はできますか？ +" [ref=f16e450] [cursor=pointer]
+        - group [ref=f16e451]:
+          - generic "ログインが必要なサイトでも動きますか？ +" [ref=f16e452] [cursor=pointer]
+        - group [ref=f16e453]:
+          - generic "Webページ上のファイルをまとめてダウンロードするには？ +" [ref=f16e454] [cursor=pointer]
+        - group [ref=f16e455]:
+          - generic "サイト上のPDFをすべてダウンロードするには？ +" [ref=f16e456] [cursor=pointer]
+        - group [ref=f16e457]:
+          - generic "Webページ上の画像をすべて保存するには？ +" [ref=f16e458] [cursor=pointer]
+        - group [ref=f16e459]:
+          - generic "PDFをサーバーにアップロードせずに結合できますか？ +" [ref=f16e460] [cursor=pointer]
+        - group [ref=f16e461]:
+          - generic "大容量・長時間のダウンロードに対応し、一時停止・再開できますか？ +" [ref=f16e462] [cursor=pointer]
+        - group [ref=f16e463]:
+          - generic "JDownloader や aria2 などのダウンロードマネージャと併用できますか？ +" [ref=f16e464] [cursor=pointer]
+        - group [ref=f16e465]:
+          - generic "JavaScriptのSPAやログイン必須ページ、ボット対策のあるサイトでも動きますか？ +" [ref=f16e466] [cursor=pointer]
+      - text: + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+    - generic [ref=f16e469]:
+      - generic [ref=f16e470]:
+        - heading "「保存」を何度もクリックする作業から、解放されよう。" [level=2] [ref=f16e471]
+        - paragraph [ref=f16e472]: 無料でインストール — 全機能が使え、1回のダウンロードで最大20件まで。Pro（$19.99）にすればすべてを一括保存できます。
+      - generic [ref=f16e473]:
+        - link "Chromeに無料インストール" [ref=f16e474] [cursor=pointer]:
+          - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+          - generic [ref=f16e476]: →
+        - link "Edgeに無料インストール" [ref=f16e477] [cursor=pointer]:
+          - /url: https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf
+          - generic [ref=f16e479]: →
+        - link "Firefoxに無料インストール" [ref=f16e480] [cursor=pointer]:
+          - /url: https://addons.mozilla.org/firefox/addon/grab-all-files/
+          - generic [ref=f16e482]: →
+        - link "ライセンス購入" [ref=f16e483] [cursor=pointer]:
+          - /url: purchase/
+  - contentinfo [ref=f16e485]:
+    - generic [ref=f16e486]:
+      - generic [ref=f16e487]:
+        - generic [ref=f16e488]: Grab All Files
+        - paragraph [ref=f16e491]: Google Chrome™ / Microsoft Edge™ / Mozilla Firefox™ 向けの拡張機能。個人開発者による独立した製品です。
+      - generic [ref=f16e492]:
+        - heading "プロダクト" [level=3] [ref=f16e493]
+        - list [ref=f16e494]:
+          - listitem [ref=f16e495]:
+            - link "機能" [ref=f16e496] [cursor=pointer]:
+              - /url: "#features"
+          - listitem [ref=f16e497]:
+            - link "用途別ガイド" [ref=f16e498] [cursor=pointer]:
+              - /url: "#use-cases"
+          - listitem [ref=f16e499]:
+            - link "使い方" [ref=f16e500] [cursor=pointer]:
+              - /url: "#how"
+          - listitem [ref=f16e501]:
+            - link "料金" [ref=f16e502] [cursor=pointer]:
+              - /url: "#pricing"
+          - listitem [ref=f16e503]:
+            - link "FAQ" [ref=f16e504] [cursor=pointer]:
+              - /url: "#faq"
+      - generic [ref=f16e505]:
+        - heading "インストール" [level=3] [ref=f16e506]
+        - list [ref=f16e507]:
+          - listitem [ref=f16e508]:
+            - link "Chrome Web Store ↗" [ref=f16e509] [cursor=pointer]:
+              - /url: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
+          - listitem [ref=f16e510]:
+            - link "Edge Add-ons →" [ref=f16e511] [cursor=pointer]:
+              - /url: https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf
+          - listitem [ref=f16e512]:
+            - link "Firefox Add-ons ↗" [ref=f16e513] [cursor=pointer]:
+              - /url: https://addons.mozilla.org/firefox/addon/grab-all-files/
+          - listitem [ref=f16e514]:
+            - link "GitHub ↗" [ref=f16e515] [cursor=pointer]:
+              - /url: https://github.com/SerimaKawai/grab-all-files
+          - listitem [ref=f16e516]:
+            - link "購入" [ref=f16e517] [cursor=pointer]:
+              - /url: purchase/
+          - listitem [ref=f16e518]:
+            - link "お問い合わせ" [ref=f16e519] [cursor=pointer]:
+              - /url: contact/
+      - generic [ref=f16e520]:
+        - heading "規約" [level=3] [ref=f16e521]
+        - list [ref=f16e522]:
+          - listitem [ref=f16e523]:
+            - link "特商法・運営情報" [ref=f16e524] [cursor=pointer]:
+              - /url: legal.html
+          - listitem [ref=f16e525]:
+            - link "利用規約" [ref=f16e526] [cursor=pointer]:
+              - /url: terms.html
+          - listitem [ref=f16e527]:
+            - link "セキュリティと権限" [ref=f16e528] [cursor=pointer]:
+              - /url: security.html
+          - listitem [ref=f16e529]:
+            - link "プライバシー" [ref=f16e530] [cursor=pointer]:
+              - /url: privacy-policy.html
+          - listitem [ref=f16e531]:
+            - link "特定商取引法に基づく表記" [ref=f16e532] [cursor=pointer]:
+              - /url: tokushoho.html
+    - generic [ref=f16e533]:
+      - paragraph [ref=f16e534]: © 2025 Serima Kawai. 無断複製・転載を禁じます。
+      - paragraph [ref=f16e535]:
+        - generic [ref=f16e536]:
+          - text: 販売者：
+          - strong [ref=f16e537]: Serima Kawai
+          - text: （個人事業主、日本）。独立した製品であり、Google、Microsoft および Mozilla とは提携関係にありません。「Google Chrome」および「Chrome ウェブストア」は Google LLC の商標です。「Microsoft Edge」および「Microsoft Edge アドオン」は Microsoft Corporation の商標です。「Firefox」は Mozilla Foundation の商標です。
