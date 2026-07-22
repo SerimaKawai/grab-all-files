@@ -263,8 +263,7 @@ h1 {
   gap: 0.5rem;
   margin-top: 1.1rem;
 }
-.store-row a,
-.store-row .store-link-pending {
+.store-row a {
   min-height: 38px;
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -276,7 +275,6 @@ h1 {
   font-size: 0.9rem;
 }
 .store-row a:hover { border-color: var(--primary); text-decoration: none; }
-.store-row .store-link-pending { opacity: 0.54; cursor: default; filter: grayscale(0.18); }
 
 .section-stack {
   display: grid;
@@ -496,14 +494,7 @@ footer {
 }
 .store-btn:hover::after { color: var(--primary); transform: translate(2px, -2px); }
 .store-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
-.store-btn.is-pending { opacity: 0.48; cursor: default; pointer-events: none; filter: grayscale(0.18); text-decoration: none; transform: none; }
-.store-btn.is-pending:hover { color: var(--text-muted); border-color: var(--border-strong); background: var(--surface); transform: none; box-shadow: var(--shadow); }
-.store-btn.is-pending::before { filter: grayscale(1); opacity: 0.68; }
-.store-btn.is-pending::after { content: none; }
-.pending-badge { display: inline-flex; align-items: center; justify-content: center; margin-left: 0.2rem; padding: 0.12rem 0.46rem; border-radius: 999px; border: 1px solid #f0d585; background: #fff8df; color: #8a5f00; font-size: 0.68rem; font-weight: 800; line-height: 1.2; white-space: nowrap; text-decoration: none; }
-:root[data-theme="dark"] .pending-badge { border-color: #6c5622; background: #332910; color: #ffd978; }
 .store-btn[href*="chromewebstore.google.com"]::before { background-image: url("../assets/browser-logos/chrome.svg"); }
-.store-btn.is-pending-edge::before { background-image: url("../assets/browser-logos/edge.svg"); }
 .store-btn[href*="addons.mozilla.org"]::before { background-image: url("../assets/browser-logos/firefox.svg"); }
 
 .final-dl { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-top: 1.1rem; }

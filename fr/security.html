@@ -300,13 +300,6 @@
     .store-btn:hover { border-color: color-mix(in srgb, var(--primary) 55%, var(--border-strong)); color: var(--primary); background: color-mix(in srgb, var(--primary) 6%, var(--surface)); transform: translateY(-1px); text-decoration: none; }
     .store-btn:hover::after { color: var(--primary); transform: translate(2px, -2px); }
     .store-btn[href*="chromewebstore.google.com"]::before { background-image: url("../assets/browser-logos/chrome.svg"); }
-    .store-btn.is-pending { opacity: 0.48; cursor: default; pointer-events: none; filter: grayscale(0.18); text-decoration: none; transform: none; }
-    .store-btn.is-pending:hover { color: var(--text-muted); border-color: var(--border-strong); background: var(--surface); transform: none; }
-    .store-btn.is-pending::before { filter: grayscale(1); opacity: 0.68; }
-    .store-btn.is-pending::after { content: none; }
-    .pending-badge { display: inline-flex; align-items: center; justify-content: center; margin-left: 0.2rem; padding: 0.12rem 0.46rem; border-radius: 999px; border: 1px solid #f0d585; background: #fff8df; color: #8a5f00; font-size: 0.68rem; font-weight: 800; line-height: 1.2; white-space: nowrap; text-decoration: none; }
-    :root[data-theme="dark"] .pending-badge { border-color: #6c5622; background: #332910; color: #ffd978; }
-    .store-btn.is-pending-edge::before { background-image: url("../assets/browser-logos/edge.svg"); }
     .store-btn[href*="addons.mozilla.org"]::before { background-image: url("../assets/browser-logos/firefox.svg"); }
     @media (max-width: 560px) { .store-btn { width: 100%; } .store-btn::after { margin-left: auto; } }
   </style>
@@ -400,7 +393,6 @@
       terms: '/terms.html',
       legal: '/legal.html'
     };
-    var EDGE_PENDING = { en: "Under review", ja: "\u7533\u8acb\u4e2d", es: "En revisi\u00f3n", fr: "En cours d'examen", de: "In Pr\u00fcfung", it: "In revisione", ko: "\uc2ec\uc0ac \uc911", pt_BR: "Em an\u00e1lise", zh_CN: "\u5ba1\u6838\u4e2d", zh_TW: "\u5be9\u6838\u4e2d" };
     var UI = {
       en: { useCases: 'Use cases', pricing: 'Pricing', contact: 'Contact', privacy: 'Privacy Policy', terms: 'Terms', legal: 'Legal', install: 'Install free', dlHeading: 'Download Grab All Files in your browser:', dlChrome: 'Download for Chrome', dlEdge: 'Download for Edge', dlFirefox: 'Download for Firefox', readPrivacy: 'Read privacy policy', footer: 'Independent browser extension by Serima Kawai. Not affiliated with Google, Microsoft, or Mozilla.' },
       ja: { useCases: '用途別', pricing: '料金', contact: 'お問い合わせ', privacy: 'プライバシーポリシー', terms: '利用規約', legal: '法務情報', install: '無料インストール', dlHeading: 'お使いのブラウザで Grab All Files をダウンロード:', dlChrome: 'Chrome 用をダウンロード', dlEdge: 'Edge 用をダウンロード', dlFirefox: 'Firefox 用をダウンロード', readPrivacy: 'プライバシーポリシーを読む', footer: 'Serima Kawai による独立したブラウザ拡張機能。Google、Microsoft、Mozillaとは提携していません。' },
@@ -551,7 +543,7 @@
       root.innerHTML = [
         '<section class="hero">',
           '<div><div class="eyebrow"><span>✓</span><span>' + esc(c.eyebrow) + '</span></div><h1>' + esc(c.h1) + '</h1><p class="lead">' + esc(c.lead) + '</p>',
-          '<div class="cta-row"><span class="store-cta-label">' + esc(ui.dlHeading) + '</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">' + esc(ui.dlChrome) + '</a><span class="store-btn is-pending is-pending-edge" role="status" aria-disabled="true">' + esc(ui.dlEdge) + ' <small class="pending-badge">' + esc(EDGE_PENDING[lang] || EDGE_PENDING.en) + '</small></span><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">' + esc(ui.dlFirefox) + '</a><a class="btn" href="' + esc(withLang('/privacy-policy.html', lang)) + '">' + esc(ui.readPrivacy) + '</a></div></div>',
+          '<div class="cta-row"><span class="store-cta-label">' + esc(ui.dlHeading) + '</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">' + esc(ui.dlChrome) + '</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener">' + esc(ui.dlEdge) + '</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">' + esc(ui.dlFirefox) + '</a><a class="btn" href="' + esc(withLang('/privacy-policy.html', lang)) + '">' + esc(ui.readPrivacy) + '</a></div></div>',
           '<aside class="panel"><h2>' + esc(c.summaryTitle) + '</h2><ul class="fact-list">' + c.facts.map(function(item, i){ return '<li><span class="mark">' + (i + 1) + '</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></aside>',
         '</section>',
         '<div class="section-stack">',
