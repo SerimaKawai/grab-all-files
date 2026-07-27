@@ -635,13 +635,18 @@
   }
 
   function updateStructuredData(current, copy, lang) {
-    var canonical = "https://grab-all-files.app/use-cases/" + current.data.path;
+    // Read the page's own canonical so the breadcrumb matches the locale URL it
+    // is served on. Hardcoding the English tree made /ja/, /de/, … re-emit
+    // English breadcrumb URLs once this script ran on top of the static markup.
+    var canonicalNode = document.querySelector('link[rel="canonical"]');
+    var canonical = (canonicalNode && canonicalNode.href) || "https://grab-all-files.app/use-cases/" + current.data.path;
+    var home = canonical.replace(/use-cases\/[^/]*$/, "");
     setJsonLd("case-breadcrumb-schema", {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Grab All Files", "item": "https://grab-all-files.app/" },
-        { "@type": "ListItem", "position": 2, "name": UI[lang].useCases, "item": "https://grab-all-files.app/#use-cases" },
+        { "@type": "ListItem", "position": 1, "name": "Grab All Files", "item": home },
+        { "@type": "ListItem", "position": 2, "name": UI[lang].useCases, "item": home + "#use-cases" },
         { "@type": "ListItem", "position": 3, "name": copy.h1, "item": canonical }
       ]
     });

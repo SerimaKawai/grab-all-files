@@ -222,8 +222,11 @@ function smAlternates(rel) {
   for (const c of ALL) l.push(`    <xhtml:link rel="alternate" hreflang="${BCP47[c]}" href="${url(c, rel)}" />`);
   return l.join('\n');
 }
-// These pages are rewritten by this run, so "today" is their true last-modified date.
-const LASTMOD = new Date().toISOString().slice(0, 10);
+// These pages are rewritten by this run, so "today" is their true last-modified
+// date. Use the LOCAL date (the site is maintained in JST); toISOString() would
+// report the previous day for most of the working day.
+const now = new Date();
+const LASTMOD = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 const entries = [];
 for (const page of PAGES) {
   for (const c of ALL) {
