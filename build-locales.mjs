@@ -131,6 +131,14 @@ function bakeCase(html, data, L) {
     (m, a, b) => a + jsonForScript(data.faq) + b);
 
   h = h.replace(/(<main id="case-root">)[\s\S]*?(<\/main>)/, (m, a, b) => a + '\n' + data.body + '\n  ' + b);
+
+  // The topbar/footer/CTA chrome lives OUTSIDE #case-root and is localized at
+  // runtime through [data-ui]. Bake those strings too, or a JS-less crawler gets
+  // a Japanese <main> wrapped in an English shell under <html lang="ja">.
+  for (const [key, text] of Object.entries(data.ui || {})) {
+    const re = new RegExp(`(<[^<>]*\\sdata-ui="${key}"[^<>]*>)([^<]*)`, 'g');
+    h = h.replace(re, (m, open) => open + textEsc(text));
+  }
   return h;
 }
 
@@ -191,7 +199,32 @@ for (const page of PAGES) {
 const prerendered = renderAll(ALL);
 const META = extractIndexMeta(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8'));
 
-let genCount = 0, rootCount = 0, bakedCount = 0;
+// Previous <lastmod> per URL, read back from the sitemap we wrote last time.
+// A page keeps its old date unless its bytes actually changed — stamping all 70
+// URLs with the build date on every run is a freshness signal Google discounts.
+function previousLastmod() {
+  const map = new Map();
+  try {
+    const xml = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
+    for (const m of xml.matchAll(/<loc>([^<]*)<\/loc>\s*<lastmod>([^<]*)<\/lastmod>/g)) map.set(m[1], m[2]);
+  } catch (_) { /* first run */ }
+  return map;
+}
+const PREV = previousLastmod();
+const now = new Date();
+const TODAY = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+const lastmodFor = new Map();
+
+function writeIfChanged(dest, content) {
+  let old = null;
+  try { old = fs.readFileSync(dest, 'utf8'); } catch (_) { /* new file */ }
+  if (old === content) return false;
+  fs.mkdirSync(path.dirname(dest), { recursive: true });
+  fs.writeFileSync(dest, content);
+  return true;
+}
+
+let genCount = 0, rootCount = 0, bakedCount = 0, changedCount = 0;
 for (const page of PAGES) {
   const srcPath = path.join(ROOT, page.src);
   const srcHtml = fs.readFileSync(srcPath, 'utf8');
@@ -202,17 +235,23 @@ for (const page of PAGES) {
     let out = genLocale(base, page, L);
     if (page.rel === '') out = localizeIndexMeta(out, L, META);
     const dest = path.join(ROOT, L, page.src);
-    fs.mkdirSync(path.dirname(dest), { recursive: true });
-    fs.writeFileSync(dest, out);
+    const changed = writeIfChanged(dest, out);
+    const u = url(L, page.rel);
+    lastmodFor.set(u, changed ? TODAY : (PREV.get(u) || TODAY));
+    if (changed) changedCount++;
     genCount++;
   }
   let en = srcHtml.replace(/[ \t]*<link rel="alternate" hreflang="x-default"[\s\S]*?<link rel="alternate" hreflang="zh-TW"[^>]*>/, () => hreflangBlock(page.rel));
   if (caseId) { en = bakeCase(en, prerendered[caseId].en, 'en'); bakedCount++; }
-  fs.writeFileSync(srcPath, en);
+  const enChanged = writeIfChanged(srcPath, en);
+  const enUrl = url('en', page.rel);
+  lastmodFor.set(enUrl, enChanged ? TODAY : (PREV.get(enUrl) || TODAY));
+  if (enChanged) changedCount++;
   rootCount++;
 }
 console.log(`Generated ${genCount} per-locale pages; updated ${rootCount} English root page(s)' hreflang.`);
 console.log(`Baked static body + JSON-LD into ${bakedCount} use-case page(s).`);
+console.log(`${changedCount} page(s) changed this run (their sitemap lastmod becomes ${TODAY}).`);
 
 // Regenerate sitemap.xml — every page-version as its own <url> with the full
 // xhtml:link alternate set (Google's recommended hreflang-sitemap form). Covers
@@ -222,18 +261,17 @@ function smAlternates(rel) {
   for (const c of ALL) l.push(`    <xhtml:link rel="alternate" hreflang="${BCP47[c]}" href="${url(c, rel)}" />`);
   return l.join('\n');
 }
-// These pages are rewritten by this run, so "today" is their true last-modified
-// date. Use the LOCAL date (the site is maintained in JST); toISOString() would
-// report the previous day for most of the working day.
-const now = new Date();
-const LASTMOD = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+// lastmod is per URL: TODAY only for pages whose bytes changed this run, else the
+// date carried over from the previous sitemap (see lastmodFor / previousLastmod).
 const entries = [];
 for (const page of PAGES) {
   for (const c of ALL) {
     const pri = page.rel === '' ? (c === 'en' ? '1.0' : '0.9') : (c === 'en' ? '0.8' : '0.7');
-    entries.push(`  <url>\n    <loc>${url(c, page.rel)}</loc>\n    <lastmod>${LASTMOD}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${pri}</priority>\n${smAlternates(page.rel)}\n  </url>`);
+    const u = url(c, page.rel);
+    entries.push(`  <url>\n    <loc>${u}</loc>\n    <lastmod>${lastmodFor.get(u) || TODAY}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${pri}</priority>\n${smAlternates(page.rel)}\n  </url>`);
   }
 }
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n\n${entries.join('\n\n')}\n\n</urlset>\n`;
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap);
-console.log(`Wrote sitemap.xml with ${entries.length} per-locale URLs (lastmod ${LASTMOD}).`);
+const dates = [...new Set(entries.map((e) => e.match(/<lastmod>([^<]*)</)[1]))].sort();
+console.log(`Wrote sitemap.xml with ${entries.length} per-locale URLs (lastmod: ${dates.join(', ')}).`);
