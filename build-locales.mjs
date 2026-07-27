@@ -28,7 +28,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
-import { renderAll } from './prerender-cases.mjs';
+import { renderAll, getTables, CASE_IDS } from './prerender-cases.mjs';
 
 const ROOT = 'c:/xampp/htdocs/grab-all-files';
 const BASE = 'https://grab-all-files.app';
@@ -41,6 +41,7 @@ const OG = { en: 'en_US', ja: 'ja_JP', es: 'es_ES', fr: 'fr_FR', de: 'de_DE', it
 const PAGES = [
   { src: 'index.html', rel: '' },
   { src: 'security.html', rel: 'security.html' },
+  { src: 'use-cases/index.html', rel: 'use-cases/' },
   { src: 'use-cases/bulk-download-images.html', rel: 'use-cases/bulk-download-images.html' },
   { src: 'use-cases/download-all-pdfs.html', rel: 'use-cases/download-all-pdfs.html' },
   { src: 'use-cases/download-files-from-webpage.html', rel: 'use-cases/download-files-from-webpage.html' },
@@ -51,7 +52,7 @@ const PAGES = [
 // absolute root paths that HAVE per-locale versions (localized cross-links get /<L>/ prefix).
 // NOTE: use-case.js and use-cases/style.css are SHARED (not per-locale) and stay at /use-cases/.
 const LOCALIZED = new Set([
-  '/', '/security.html',
+  '/', '/security.html', '/use-cases/',
   '/use-cases/bulk-download-images.html', '/use-cases/download-all-pdfs.html',
   '/use-cases/download-files-from-webpage.html', '/use-cases/internal-portal-downloads.html',
   '/use-cases/merge-pdfs-locally.html',
@@ -142,6 +143,94 @@ function bakeCase(html, data, L) {
   return h;
 }
 
+/* The /use-cases/ hub: a real parent page for the five guides, which previously
+ * had no parent at all (their breadcrumb pointed at a "#use-cases" anchor on the
+ * homepage). Fully generated — every string comes from use-case.js's own tables
+ * and the prerendered per-case metadata, so no new translations are invented. */
+// The language-selector script is stripped and re-added on every bake. Guarding
+// with an "already present?" check is what let it accumulate once (the probe
+// string was case-sensitive and never matched getElementById); removing first is
+// unconditional and keeps the build idempotent.
+const LANG_NAV_RE = /\n?<script>\(function\(\)\{var s=document\.getElementById\('lang-sel'\);[\s\S]*?<\/script>/g;
+
+function bakeHub(html, lang, tables, cases) {
+  const ui = tables.UI[lang] || tables.UI.en;
+  const labels = tables.GUIDE_LABELS[lang] || tables.GUIDE_LABELS.en;
+  const order = tables.GUIDE_ORDER;
+  const title = `${ui.useCases} | Grab All Files`;
+  const desc = order.map((id) => labels[id]).join(' · ');
+  const guideUrl = (id) => `/use-cases/${id}.html`;
+
+  let h = html.replace(LANG_NAV_RE, '');
+  h = h.replace(/<title>[\s\S]*?<\/title>/, () => `<title>${textEsc(title)}</title>`);
+  h = setMetaContent(h, 'name', 'description', desc);
+  h = setMetaContent(h, 'property', 'og:title', title);
+  h = setMetaContent(h, 'property', 'og:description', desc);
+  h = setMetaContent(h, 'name', 'twitter:title', title);
+  h = setMetaContent(h, 'name', 'twitter:description', desc);
+
+  const site = lang === 'en' ? `${BASE}/` : `${BASE}/${lang}/`;
+  const hubUrl = `${site}use-cases/`;
+  const breadcrumb = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Grab All Files', item: site },
+      { '@type': 'ListItem', position: 2, name: ui.useCases, item: hubUrl },
+    ],
+  });
+  const itemList = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: ui.useCases,
+    inLanguage: lang.replace('_', '-'),
+    itemListElement: order.map((id, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: labels[id],
+      url: `${site}use-cases/${id}.html`,
+    })),
+  });
+  h = h.replace(/(<script id="hub-breadcrumb-schema" type="application\/ld\+json">)[\s\S]*?(<\/script>)/, (m, a, b) => a + jsonForScript(breadcrumb) + b);
+  h = h.replace(/(<script id="hub-itemlist-schema" type="application\/ld\+json">)[\s\S]*?(<\/script>)/, (m, a, b) => a + jsonForScript(itemList) + b);
+
+  const cards = order.map((id) => {
+    const meta = cases[id] && cases[id][lang];
+    const blurb = meta ? meta.desc : '';
+    return `        <section class="section-card"><h2><a href="${guideUrl(id)}">${textEsc(labels[id])}</a></h2><p>${textEsc(blurb)}</p></section>`;
+  }).join('\n');
+
+  const body = [
+    '    <section class="case-hero">',
+    '      <div>',
+    `        <a class="breadcrumb" href="/">← ${textEsc(ui.home)}</a>`,
+    `        <h1>${textEsc(ui.useCases)}</h1>`,
+    `        <p class="lead">${textEsc(desc)}</p>`,
+    '      </div>',
+    '    </section>',
+    '    <div class="section-stack">',
+    '      <div class="two-col">',
+    cards,
+    '      </div>',
+    '    </div>',
+    `    <section class="final-cta"><h2>${textEsc(ui.ctaTitle)}</h2><p>${textEsc(ui.ctaText)}</p><div class="final-dl">` +
+      `<a class="store-btn" href="${tables.STORE.chrome}" target="_blank" rel="noopener">${textEsc(ui.dlChrome)}</a>` +
+      `<a class="store-btn" href="${tables.STORE.edge}" target="_blank" rel="noopener">${textEsc(ui.dlEdge)}</a>` +
+      `<a class="store-btn" href="${tables.STORE.firefox}" target="_blank" rel="noopener">${textEsc(ui.dlFirefox)}</a>` +
+      '</div></section>',
+  ].join('\n');
+  h = h.replace(/(<main id="hub-root">)[\s\S]*?(<\/main>)/, (m, a, b) => `${a}\n${body}\n  ${b}`);
+
+  for (const [key, text] of Object.entries(ui)) {
+    const re = new RegExp(`(<[^<>]*\\sdata-ui="${key}"[^<>]*>)([^<]*)`, 'g');
+    h = h.replace(re, (m, open) => open + textEsc(text));
+  }
+  // The hub has no client-side i18n script to sync the selector, so mark the
+  // current locale statically — otherwise /ja/use-cases/ shows "English".
+  h = h.replace(/<option value="([^"]*)"( selected)?>/g, (m, v) => `<option value="${v}"${v === lang ? ' selected' : ''}>`);
+  return h;
+}
+
 // Locale homepages carried English <title>/<meta description> in the raw HTML and
 // only swapped them in JS. Bake the page's own language in instead.
 function localizeIndexMeta(html, L, META) {
@@ -162,6 +251,48 @@ function extractIndexMeta(indexHtml) {
   return vm.runInNewContext('(' + m[1] + ')');
 }
 
+/* index.html carries all ten languages inline as <span|div data-lang="xx"> and
+ * hides the inactive nine with CSS. On a /<L>/ page the other nine are dead
+ * weight: ~268KB per document, ten <h1> elements, and ten languages of body copy
+ * on a URL whose hreflang promises one. Strip them.
+ *
+ * Safe because the markup was checked first: only span/div carry data-lang, none
+ * are void or self-closing, and no data-lang element contains another. Scripts,
+ * styles and comments are stashed so their contents can't be mistaken for tags.
+ * The English root keeps all ten — "/" still switches in place and honours
+ * "?lang=", which real links use. Locale pages force their own language
+ * (__FORCE_LANG__ outranks ?lang=), so nothing there needs the other nine.
+ */
+function stripOtherLanguages(html, L) {
+  const stash = [];
+  const h = html.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>|<!--[\s\S]*?-->/gi, (m) => {
+    stash.push(m);
+    return `${NUL}S${stash.length - 1}${NUL}`;
+  });
+
+  const openRe = /<(span|div)\b[^>]*\sdata-lang="([^"]+)"[^>]*>/i;
+  let out = '';
+  let rest = h;
+  let guard = 0;
+  for (;;) {
+    const m = rest.match(openRe);
+    if (!m) { out += rest; break; }
+    if (++guard > 5000) throw new Error('stripOtherLanguages: runaway scan');
+    const tag = m[1].toLowerCase();
+    const scan = new RegExp(`<${tag}\\b[^>]*>|</${tag}\\s*>`, 'gi');
+    scan.lastIndex = m.index;
+    let depth = 0, end = -1, s;
+    while ((s = scan.exec(rest))) {
+      if (s[0][1] === '/') { depth--; if (depth === 0) { end = s.index + s[0].length; break; } }
+      else depth++;
+    }
+    if (end < 0) throw new Error(`stripOtherLanguages: unbalanced <${tag} data-lang="${m[2]}">`);
+    out += m[2] === L ? rest.slice(0, end) : rest.slice(0, m.index);
+    rest = rest.slice(end);
+  }
+  return out.replace(new RegExp(NUL + 'S(\\d+)' + NUL, 'g'), (mm, i) => stash[+i]);
+}
+
 /* ---------- per-locale page generation ---------- */
 
 function genLocale(srcHtml, page, L) {
@@ -174,6 +305,8 @@ function genLocale(srcHtml, page, L) {
   h = h.replace(/<meta property="og:url"[^>]*>/, () => `<meta property="og:url" content="${self}">`);
   h = h.replace(/<meta property="og:locale" content="en_US">/, () => `<meta property="og:locale" content="${OG[L]}">`);
   if (!/property="og:locale"/.test(h)) h = h.replace(/(<meta property="og:image"[^>]*>)/, (m, a) => `${a}\n  <meta property="og:locale" content="${OG[L]}">`);
+  // drop the nine other languages (index.html is the only page built this way)
+  if (/\sdata-lang="/.test(h)) h = stripOtherLanguages(h, L);
   // move static .active from en -> L (no-JS crawlers) — protect scripts
   const stash = [];
   h = h.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, (m) => { stash.push(m); return `${NUL}A${stash.length - 1}${NUL}`; });
@@ -194,9 +327,12 @@ function genLocale(srcHtml, page, L) {
 const CASE_ID_BY_SRC = {};
 for (const page of PAGES) {
   const m = page.src.match(/^use-cases\/(.+)\.html$/);
-  if (m) CASE_ID_BY_SRC[page.src] = m[1];
+  // use-cases/index.html is the hub, not a case — it has no entry in CASE_IDS.
+  if (m && CASE_IDS.includes(m[1])) CASE_ID_BY_SRC[page.src] = m[1];
 }
+const HUB_SRC = 'use-cases/index.html';
 const prerendered = renderAll(ALL);
+const tables = getTables();
 const META = extractIndexMeta(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8'));
 
 // Previous <lastmod> per URL, read back from the sitemap we wrote last time.
@@ -224,7 +360,7 @@ function writeIfChanged(dest, content) {
   return true;
 }
 
-let genCount = 0, rootCount = 0, bakedCount = 0, changedCount = 0;
+let genCount = 0, rootCount = 0, bakedCount = 0, changedCount = 0, hubCount = 0;
 for (const page of PAGES) {
   const srcPath = path.join(ROOT, page.src);
   const srcHtml = fs.readFileSync(srcPath, 'utf8');
@@ -232,6 +368,7 @@ for (const page of PAGES) {
   for (const L of LOCALES) {
     let base = srcHtml;
     if (caseId) { base = bakeCase(base, prerendered[caseId][L], L); bakedCount++; }
+    if (page.src === HUB_SRC) { base = bakeHub(base, L, tables, prerendered); hubCount++; }
     let out = genLocale(base, page, L);
     if (page.rel === '') out = localizeIndexMeta(out, L, META);
     const dest = path.join(ROOT, L, page.src);
@@ -243,6 +380,12 @@ for (const page of PAGES) {
   }
   let en = srcHtml.replace(/[ \t]*<link rel="alternate" hreflang="x-default"[\s\S]*?<link rel="alternate" hreflang="zh-TW"[^>]*>/, () => hreflangBlock(page.rel));
   if (caseId) { en = bakeCase(en, prerendered[caseId].en, 'en'); bakedCount++; }
+  if (page.src === HUB_SRC) {
+    en = bakeHub(en, 'en', tables, prerendered); hubCount++;
+    // genLocale adds this for the /<L>/ copies; the English hub needs its own.
+    const nav = `<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+'use-cases/';},true);})();</script>`;
+    en = en.replace(/<\/body>/, () => nav + '\n</body>');
+  }
   const enChanged = writeIfChanged(srcPath, en);
   const enUrl = url('en', page.rel);
   lastmodFor.set(enUrl, enChanged ? TODAY : (PREV.get(enUrl) || TODAY));
@@ -250,7 +393,7 @@ for (const page of PAGES) {
   rootCount++;
 }
 console.log(`Generated ${genCount} per-locale pages; updated ${rootCount} English root page(s)' hreflang.`);
-console.log(`Baked static body + JSON-LD into ${bakedCount} use-case page(s).`);
+console.log(`Baked static body + JSON-LD into ${bakedCount} use-case page(s); generated ${hubCount} hub page(s).`);
 console.log(`${changedCount} page(s) changed this run (their sitemap lastmod becomes ${TODAY}).`);
 
 // Regenerate sitemap.xml — every page-version as its own <url> with the full

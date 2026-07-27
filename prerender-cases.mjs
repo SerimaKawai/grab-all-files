@@ -50,6 +50,7 @@ export function getTables() {
     UI: grab('UI', '  \\}'),
     GUIDE_LABELS: grab('GUIDE_LABELS', '  \\}'),
     GUIDE_ORDER: grab('GUIDE_ORDER', '  \\]'),
+    STORE: grab('STORE', '  \\}'),
   };
 }
 
