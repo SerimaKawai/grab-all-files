@@ -36,8 +36,38 @@ function normalizeLinks(html) {
   });
 }
 
-function makeSandbox(caseId, lang) {
-  const captured = { title: '', meta: {}, body: '', jsonld: {} };
+/** The localized string tables use-case.js keeps in module scope.
+ *  Used by build-locales.mjs to generate the /use-cases/ hub without inventing
+ *  any new translations — every string comes from the same source of truth. */
+export function getTables() {
+  const src = fs.readFileSync(SCRIPT, 'utf8');
+  const grab = (name, close) => {
+    const m = src.match(new RegExp(`var ${name} = ([\\s\\S]*?\\n${close});`));
+    if (!m) throw new Error(`could not extract ${name} from use-case.js`);
+    return vm.runInNewContext('(' + m[1] + ')');
+  };
+  return {
+    UI: grab('UI', '  \\}'),
+    GUIDE_LABELS: grab('GUIDE_LABELS', '  \\}'),
+    GUIDE_ORDER: grab('GUIDE_ORDER', '  \\]'),
+  };
+}
+
+/** Unique data-ui keys used by a page's static chrome (topbar / footer / CTA). */
+export function uiKeysFromHtml(html) {
+  return [...new Set([...html.matchAll(/data-ui="([^"]+)"/g)].map((m) => m[1]))];
+}
+
+function makeSandbox(caseId, lang, uiKeys) {
+  const captured = { title: '', meta: {}, body: '', jsonld: {}, ui: {} };
+  // render() localizes the static chrome via querySelectorAll("[data-ui]").
+  // Hand it one probe per key so the translated strings are captured too —
+  // without this the baked locale pages kept an English topbar and footer.
+  const uiProbes = uiKeys.map((key) => ({
+    getAttribute: (a) => (a === 'data-ui' ? key : null),
+    set textContent(v) { captured.ui[key] = v; },
+    get textContent() { return ''; },
+  }));
   const node = (onText) => ({
     set textContent(v) { onText(v); },
     get textContent() { return ''; },
@@ -67,7 +97,10 @@ function makeSandbox(caseId, lang) {
       if (sel.includes('twitter:description')) return metaNode('twDesc');
       return null;
     },
-    querySelectorAll() { return []; }, // [data-ui] / [data-lang-href] are static in the HTML
+    // Only [data-ui] is shimmed. [data-lang-href] must stay unshimmed: render()
+    // would rewrite those hrefs to "?lang=" form, clobbering the clean per-locale
+    // paths that build-locales.mjs produces.
+    querySelectorAll(sel) { return sel === '[data-ui]' ? uiProbes : []; },
   };
   const sandbox = {
     document,
@@ -88,18 +121,22 @@ export function renderAll(locales) {
   const script = new vm.Script(source, { filename: 'use-case.js' });
   const out = {};
   for (const caseId of CASE_IDS) {
+    const pageHtml = fs.readFileSync(path.join(ROOT, 'use-cases', `${caseId}.html`), 'utf8');
+    const uiKeys = uiKeysFromHtml(pageHtml);
     out[caseId] = {};
     for (const lang of locales) {
-      const { sandbox, captured } = makeSandbox(caseId, lang);
+      const { sandbox, captured } = makeSandbox(caseId, lang, uiKeys);
       script.runInNewContext(sandbox);
       if (!captured.body) throw new Error(`prerender produced no body for ${caseId}/${lang}`);
       if (!captured.jsonld.faq) throw new Error(`prerender produced no FAQ JSON-LD for ${caseId}/${lang}`);
+      if (!Object.keys(captured.ui).length) throw new Error(`prerender captured no data-ui strings for ${caseId}/${lang}`);
       out[caseId][lang] = {
         title: captured.title,
         desc: captured.meta.description || '',
         body: normalizeLinks(captured.body),
         breadcrumb: captured.jsonld.breadcrumb,
         faq: captured.jsonld.faq,
+        ui: captured.ui,
       };
     }
   }
