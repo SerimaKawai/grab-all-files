@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
-  <title>Download all PDFs from a website | Grab All Files</title>
-  <meta name="description" content="Find PDFs across a page or same-site crawl, including iframe viewers and CMS download routes. Bulk-download selected PDFs or merge them locally.">
+  <title>Webサイト上のPDFを一括ダウンロード | Grab All Files</title>
+  <meta name="description" content="iframeビューアやCMSダウンロードルートを含め、ページ内・同一サイト内のPDFを検出。一括保存またはローカル結合できます。">
   <link rel="canonical" href="https://grab-all-files.app/ja/use-cases/download-all-pdfs.html">
   <link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/download-all-pdfs.html">
   <link rel="alternate" hreflang="en" href="https://grab-all-files.app/use-cases/download-all-pdfs.html">
@@ -21,21 +21,21 @@
   <link rel="alternate" hreflang="zh-TW" href="https://grab-all-files.app/zh_TW/use-cases/download-all-pdfs.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Grab All Files">
-  <meta property="og:title" content="Download all PDFs from a website | Grab All Files">
-  <meta property="og:description" content="Find PDFs across a page or same-site crawl, including iframe viewers and CMS download routes. Bulk-download selected PDFs or merge them locally.">
+  <meta property="og:title" content="Webサイト上のPDFを一括ダウンロード | Grab All Files">
+  <meta property="og:description" content="iframeビューアやCMSダウンロードルートを含め、ページ内・同一サイト内のPDFを検出。一括保存またはローカル結合できます。">
   <meta property="og:url" content="https://grab-all-files.app/ja/use-cases/download-all-pdfs.html">
   <meta property="og:image" content="https://grab-all-files.app/og-image.png">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Download all PDFs from a website | Grab All Files">
-  <meta name="twitter:description" content="Find PDFs across a page or same-site crawl, including iframe viewers and CMS download routes.">
+  <meta name="twitter:title" content="Webサイト上のPDFを一括ダウンロード | Grab All Files">
+  <meta name="twitter:description" content="iframeビューアやCMSダウンロードルートを含め、ページ内・同一サイト内のPDFを検出。一括保存またはローカル結合できます。">
   <meta name="twitter:image" content="https://grab-all-files.app/og-image.png">
   <script defer src="/analytics.js"></script>
   <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128.png">
   <link rel="stylesheet" href="/use-cases/style.css">
   <script>(function(){try{var t=localStorage.getItem('gaf-theme');if(t!=='light'&&t!=='dark'){t=(matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light'}document.documentElement.setAttribute('data-theme',t)}catch(_){}})();</script>
-  <script id="case-breadcrumb-schema" type="application/ld+json"></script>
-  <script id="case-faq-schema" type="application/ld+json"></script>
+  <script id="case-breadcrumb-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Grab All Files","item":"https://grab-all-files.app/ja/"},{"@type":"ListItem","position":2,"name":"用途別","item":"https://grab-all-files.app/ja/#use-cases"},{"@type":"ListItem","position":3,"name":"Webサイト上のPDFを、1つずつ開かずに一括ダウンロード。","item":"https://grab-all-files.app/ja/use-cases/download-all-pdfs.html"}]}</script>
+  <script id="case-faq-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"ja","mainEntity":[{"@type":"Question","name":"PDFビューアやiframe内のPDFも見つかりますか？","acceptedAnswer":{"@type":"Answer","text":"はい。iframe、ビューアURL、fetch/XHRレスポンス、blob URL、CMSルートなど直接リンクが見えにくい場所も確認します。"}},{"@type":"Question","name":"複数ページをクロールできますか？","acceptedAnswer":{"@type":"Answer","text":"はい。同一サイト内の深度を選べます。sitemap.xml、robots.txt、JavaScriptメニューのリンクにも対応します。"}},{"@type":"Question","name":"PDF結合でファイルはアップロードされますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。PDF結合はブラウザ内でローカル処理されます。"}}]}</script>
   <link rel="stylesheet" href="/bloom-site.css">
 </head>
 <body data-use-case="download-all-pdfs">
@@ -44,9 +44,9 @@
     <div class="topbar-inner">
       <a class="brand" href="/ja/" data-lang-href="home"><img src="/favicon-128.png" alt=""><span>Grab All Files</span></a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="/#use-cases" data-lang-href="use-cases" data-ui="useCases">Use cases</a>
+        <a href="/ja/#use-cases" data-lang-href="use-cases" data-ui="useCases">Use cases</a>
         <a href="/ja/security.html" data-lang-href="security" data-ui="security">Security</a>
-        <a href="/#pricing" data-lang-href="pricing" data-ui="pricing">Pricing</a>
+        <a href="/ja/#pricing" data-lang-href="pricing" data-ui="pricing">Pricing</a>
       </nav>
       <div class="nav-spacer"></div>
       <div class="nav-controls">
@@ -59,15 +59,7 @@
     </div>
   </header>
   <main id="case-root">
-    <section class="case-hero">
-      <div>
-        <a class="breadcrumb" href="/#use-cases">← Use cases</a>
-        <div class="eyebrow"><span>✓</span><span>PDF collection</span></div>
-        <h1>Download all PDFs from a website without opening each file.</h1>
-        <p class="lead">Find PDFs exposed as normal links, embedded viewers, iframe sources, lazy-loaded assets, fetch/XHR responses, and CMS download routes. Filter to PDF, then bulk-download or merge locally.</p>
-        <div class="cta-row"><a class="btn btn-primary" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Install free ↗</a><a class="btn btn-secondary" href="/ja/security.html">Security</a></div>
-      </div>
-    </section>
+<section class="case-hero"><div><a class="breadcrumb" href="/ja/#use-cases">← 用途別</a><div class="eyebrow"><span>✓</span><span>PDF収集</span></div><h1>Webサイト上のPDFを、1つずつ開かずに一括ダウンロード。</h1><p class="lead">通常リンク、埋め込みPDFビューア、iframe、遅延読み込み、fetch/XHRレスポンス、CMSのダウンロードルートにあるPDFを検出します。PDFで絞り込み、必要なものだけ選び、保存またはブラウザ内で結合できます。</p><div class="cta-row"><span class="store-cta-label">お使いのブラウザで Grab All Files をダウンロード:</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome 用をダウンロード</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener">Edge 用をダウンロード</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Firefox 用をダウンロード</a><a class="btn btn-secondary" href="/ja/security.html">セキュリティ</a></div></div><aside class="product-panel" aria-label="Grab All Files"><div class="panel-brand"><img src="/icon-512.png" alt=""><span>Grab All Files</span></div><ul class="quick-facts"><li><span class="mark">✓</span><span>無料プラン — 全機能を利用可能</span></li><li><span class="mark">✓</span><span>$19.99 永続ライセンス</span></li><li><span class="mark">✓</span><span>PDF結合・ZIP化・CSV出力はブラウザ内でローカル処理</span></li><li><span class="mark">✓</span><span>ファイルは元サイトから端末へ直接ダウンロード</span></li></ul><div class="store-row"><a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener"><span>Chrome ウェブストア</span><span>↗</span></a><a href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener"><span>Edge アドオン</span><span>&rarr;</span></a><a href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener"><span>Firefox アドオン</span><span>↗</span></a></div></aside></section><div class="section-stack"><div class="two-col"><section class="section-card"><h2>向いている用途</h2><ul class="check-list"><li><span class="check">✓</span><span>複数ページに分散した公開報告書、申請書、開示資料。</span></li><li><span class="check">✓</span><span>大学・研究機関の講義資料、論文、配布PDF。</span></li><li><span class="check">✓</span><span>直接URLが見えないPDFビューアページ。</span></li><li><span class="check">✓</span><span>sitemap.xmlやJavaScriptメニューも追いたい同一サイト内クロール。</span></li></ul></section><section class="section-card"><h2>使い方</h2><ol class="step-list"><li><span class="num">1</span><span>対象ページを開く、または開始URLを貼り付けてクロール深度を選ぶ。</span></li><li><span class="num">2</span><span>検出結果をPDFで絞り込み、タイトル、元ページ、サイズ、URLを確認。</span></li><li><span class="num">3</span><span>選択PDFを一括保存、ZIP化、またはローカルで1つのPDFに結合。</span></li></ol></section></div><section class="section-card"><h2>よくある質問</h2><div class="faq-list"><details><summary>PDFビューアやiframe内のPDFも見つかりますか？</summary><p>はい。iframe、ビューアURL、fetch/XHRレスポンス、blob URL、CMSルートなど直接リンクが見えにくい場所も確認します。</p></details><details><summary>複数ページをクロールできますか？</summary><p>はい。同一サイト内の深度を選べます。sitemap.xml、robots.txt、JavaScriptメニューのリンクにも対応します。</p></details><details><summary>PDF結合でファイルはアップロードされますか？</summary><p>いいえ。PDF結合はブラウザ内でローカル処理されます。</p></details></div></section><section class="section-card usecase-guide-section"><h2>関連する用途別ガイド</h2><div class="usecase-guide-links" aria-label="関連する用途別ガイド"><a class="usecase-guide-link current" href="/ja/use-cases/download-all-pdfs.html" aria-current="page">PDFを一括ダウンロード</a><a class="usecase-guide-link" href="/ja/use-cases/bulk-download-images.html">画像を一括ダウンロード</a><a class="usecase-guide-link" href="/ja/use-cases/download-files-from-webpage.html">ページ上のファイルを保存</a><a class="usecase-guide-link" href="/ja/use-cases/internal-portal-downloads.html">社内ポータル・LMS</a><a class="usecase-guide-link" href="/ja/use-cases/merge-pdfs-locally.html">PDFをローカル結合</a></div></section></div><section class="final-cta"><h2>実際のページで Grab All Files を試せます。</h2><p>拡張機能をインストールし、対象ページで実際にスキャン。無料で全機能を利用でき、1回のダウンロードで最大20件まで保存できます。Pro（$19.99・買い切り）で1回あたりの上限を解除。</p><div class="final-dl"><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome 用をダウンロード</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener">Edge 用をダウンロード</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Firefox 用をダウンロード</a></div></section>
   </main>
   <footer>
     <div class="footer-line">
@@ -75,7 +67,7 @@
       <div class="footer-links"><a href="/ja/" data-lang-href="home" data-ui="home">Home</a><a href="/purchase/" data-lang-href="purchase" data-ui="purchase">Purchase</a><a href="/ja/security.html" data-lang-href="security" data-ui="security">Security</a></div>
     </div>
   </footer>
-  <script defer src="use-case.js"></script>
+  <script defer src="/use-cases/use-case.js"></script>
 <script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/download-all-pdfs.html";s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>
 </body>
 </html>

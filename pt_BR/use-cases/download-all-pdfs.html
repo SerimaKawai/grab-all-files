@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
-  <title>Download all PDFs from a website | Grab All Files</title>
-  <meta name="description" content="Find PDFs across a page or same-site crawl, including iframe viewers and CMS download routes. Bulk-download selected PDFs or merge them locally.">
+  <title>Baixar todos os PDFs de um site | Grab All Files</title>
+  <meta name="description" content="Encontre PDFs em uma página ou rastreamento do mesmo site, incluindo viewers iframe e rotas CMS. Baixe em massa ou mescle localmente.">
   <link rel="canonical" href="https://grab-all-files.app/pt_BR/use-cases/download-all-pdfs.html">
   <link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/download-all-pdfs.html">
   <link rel="alternate" hreflang="en" href="https://grab-all-files.app/use-cases/download-all-pdfs.html">
@@ -21,21 +21,21 @@
   <link rel="alternate" hreflang="zh-TW" href="https://grab-all-files.app/zh_TW/use-cases/download-all-pdfs.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Grab All Files">
-  <meta property="og:title" content="Download all PDFs from a website | Grab All Files">
-  <meta property="og:description" content="Find PDFs across a page or same-site crawl, including iframe viewers and CMS download routes. Bulk-download selected PDFs or merge them locally.">
+  <meta property="og:title" content="Baixar todos os PDFs de um site | Grab All Files">
+  <meta property="og:description" content="Encontre PDFs em uma página ou rastreamento do mesmo site, incluindo viewers iframe e rotas CMS. Baixe em massa ou mescle localmente.">
   <meta property="og:url" content="https://grab-all-files.app/pt_BR/use-cases/download-all-pdfs.html">
   <meta property="og:image" content="https://grab-all-files.app/og-image.png">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Download all PDFs from a website | Grab All Files">
-  <meta name="twitter:description" content="Find PDFs across a page or same-site crawl, including iframe viewers and CMS download routes.">
+  <meta name="twitter:title" content="Baixar todos os PDFs de um site | Grab All Files">
+  <meta name="twitter:description" content="Encontre PDFs em uma página ou rastreamento do mesmo site, incluindo viewers iframe e rotas CMS. Baixe em massa ou mescle localmente.">
   <meta name="twitter:image" content="https://grab-all-files.app/og-image.png">
   <script defer src="/analytics.js"></script>
   <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128.png">
   <link rel="stylesheet" href="/use-cases/style.css">
   <script>(function(){try{var t=localStorage.getItem('gaf-theme');if(t!=='light'&&t!=='dark'){t=(matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light'}document.documentElement.setAttribute('data-theme',t)}catch(_){}})();</script>
-  <script id="case-breadcrumb-schema" type="application/ld+json"></script>
-  <script id="case-faq-schema" type="application/ld+json"></script>
+  <script id="case-breadcrumb-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Grab All Files","item":"https://grab-all-files.app/pt_BR/"},{"@type":"ListItem","position":2,"name":"Casos de uso","item":"https://grab-all-files.app/pt_BR/#use-cases"},{"@type":"ListItem","position":3,"name":"Baixe todos os PDFs de um site sem abrir cada arquivo.","item":"https://grab-all-files.app/pt_BR/use-cases/download-all-pdfs.html"}]}</script>
+  <script id="case-faq-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"pt-BR","mainEntity":[{"@type":"Question","name":"Ele encontra PDFs em viewers ou iframes?","acceptedAnswer":{"@type":"Answer","text":"Sim. Verifica iframes, URLs de viewer, respostas fetch/XHR, blob URLs e rotas CMS."}},{"@type":"Question","name":"Pode rastrear mais de uma página?","acceptedAnswer":{"@type":"Answer","text":"Sim. Escolha a profundidade do mesmo site; ele também lê sitemap.xml e robots.txt."}},{"@type":"Question","name":"Os PDFs são enviados para mesclar?","acceptedAnswer":{"@type":"Answer","text":"Não. A mesclagem roda localmente no navegador."}}]}</script>
   <link rel="stylesheet" href="/bloom-site.css">
 </head>
 <body data-use-case="download-all-pdfs">
@@ -44,9 +44,9 @@
     <div class="topbar-inner">
       <a class="brand" href="/pt_BR/" data-lang-href="home"><img src="/favicon-128.png" alt=""><span>Grab All Files</span></a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="/#use-cases" data-lang-href="use-cases" data-ui="useCases">Use cases</a>
+        <a href="/pt_BR/#use-cases" data-lang-href="use-cases" data-ui="useCases">Use cases</a>
         <a href="/pt_BR/security.html" data-lang-href="security" data-ui="security">Security</a>
-        <a href="/#pricing" data-lang-href="pricing" data-ui="pricing">Pricing</a>
+        <a href="/pt_BR/#pricing" data-lang-href="pricing" data-ui="pricing">Pricing</a>
       </nav>
       <div class="nav-spacer"></div>
       <div class="nav-controls">
@@ -59,15 +59,7 @@
     </div>
   </header>
   <main id="case-root">
-    <section class="case-hero">
-      <div>
-        <a class="breadcrumb" href="/#use-cases">← Use cases</a>
-        <div class="eyebrow"><span>✓</span><span>PDF collection</span></div>
-        <h1>Download all PDFs from a website without opening each file.</h1>
-        <p class="lead">Find PDFs exposed as normal links, embedded viewers, iframe sources, lazy-loaded assets, fetch/XHR responses, and CMS download routes. Filter to PDF, then bulk-download or merge locally.</p>
-        <div class="cta-row"><a class="btn btn-primary" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Install free ↗</a><a class="btn btn-secondary" href="/pt_BR/security.html">Security</a></div>
-      </div>
-    </section>
+<section class="case-hero"><div><a class="breadcrumb" href="/pt_BR/#use-cases">← Casos de uso</a><div class="eyebrow"><span>✓</span><span>Coleta de PDF</span></div><h1>Baixe todos os PDFs de um site sem abrir cada arquivo.</h1><p class="lead">Grab All Files detecta PDFs em links comuns, viewers incorporados, iframes, lazy loading, respostas fetch/XHR e rotas CMS. Filtre por PDF, selecione e baixe ou mescle localmente.</p><div class="cta-row"><span class="store-cta-label">Baixe o Grab All Files no seu navegador:</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Baixar para Chrome</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener">Baixar para Edge</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Baixar para Firefox</a><a class="btn btn-secondary" href="/pt_BR/security.html">Segurança</a></div></div><aside class="product-panel" aria-label="Grab All Files"><div class="panel-brand"><img src="/icon-512.png" alt=""><span>Grab All Files</span></div><ul class="quick-facts"><li><span class="mark">✓</span><span>Plano gratuito — todos os recursos</span></li><li><span class="mark">✓</span><span>Licença vitalícia por $19.99</span></li><li><span class="mark">✓</span><span>PDF, ZIP e CSV são processados localmente no navegador</span></li><li><span class="mark">✓</span><span>Os arquivos são baixados do site fonte para o seu dispositivo</span></li></ul><div class="store-row"><a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener"><span>Chrome Web Store</span><span>↗</span></a><a href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener"><span>Edge Add-ons</span><span>&rarr;</span></a><a href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener"><span>Firefox Add-ons</span><span>↗</span></a></div></aside></section><div class="section-stack"><div class="two-col"><section class="section-card"><h2>Ideal para</h2><ul class="check-list"><li><span class="check">✓</span><span>Relatórios públicos, formulários e divulgações espalhados por várias páginas.</span></li><li><span class="check">✓</span><span>Materiais de curso, artigos e PDFs de pesquisa.</span></li><li><span class="check">✓</span><span>Páginas com viewer PDF onde a URL direta fica oculta.</span></li><li><span class="check">✓</span><span>Rastreamento do mesmo site com sitemap.xml e menus JavaScript.</span></li></ul></section><section class="section-card"><h2>Fluxo</h2><ol class="step-list"><li><span class="num">1</span><span>Abra a página ou cole a URL inicial e escolha a profundidade.</span></li><li><span class="num">2</span><span>Filtre os resultados por PDF e revise título, página fonte, tamanho e URL.</span></li><li><span class="num">3</span><span>Baixe, crie um ZIP ou mescle PDFs localmente.</span></li></ol></section></div><section class="section-card"><h2>Perguntas frequentes</h2><div class="faq-list"><details><summary>Ele encontra PDFs em viewers ou iframes?</summary><p>Sim. Verifica iframes, URLs de viewer, respostas fetch/XHR, blob URLs e rotas CMS.</p></details><details><summary>Pode rastrear mais de uma página?</summary><p>Sim. Escolha a profundidade do mesmo site; ele também lê sitemap.xml e robots.txt.</p></details><details><summary>Os PDFs são enviados para mesclar?</summary><p>Não. A mesclagem roda localmente no navegador.</p></details></div></section><section class="section-card usecase-guide-section"><h2>Guias relacionados</h2><div class="usecase-guide-links" aria-label="Guias relacionados"><a class="usecase-guide-link current" href="/pt_BR/use-cases/download-all-pdfs.html" aria-current="page">Baixar todos os PDFs</a><a class="usecase-guide-link" href="/pt_BR/use-cases/bulk-download-images.html">Baixar imagens</a><a class="usecase-guide-link" href="/pt_BR/use-cases/download-files-from-webpage.html">Arquivos de uma página</a><a class="usecase-guide-link" href="/pt_BR/use-cases/internal-portal-downloads.html">Portais internos e LMS</a><a class="usecase-guide-link" href="/pt_BR/use-cases/merge-pdfs-locally.html">Mesclar PDFs localmente</a></div></section></div><section class="final-cta"><h2>Teste o Grab All Files no seu navegador.</h2><p>Instale a extensão e escaneie uma página real: grátis, com todos os recursos e até 20 arquivos por download. O Pro ($19.99, compra única) remove o limite por download.</p><div class="final-dl"><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Baixar para Chrome</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener">Baixar para Edge</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Baixar para Firefox</a></div></section>
   </main>
   <footer>
     <div class="footer-line">
@@ -75,7 +67,7 @@
       <div class="footer-links"><a href="/pt_BR/" data-lang-href="home" data-ui="home">Home</a><a href="/purchase/" data-lang-href="purchase" data-ui="purchase">Purchase</a><a href="/pt_BR/security.html" data-lang-href="security" data-ui="security">Security</a></div>
     </div>
   </footer>
-  <script defer src="use-case.js"></script>
+  <script defer src="/use-cases/use-case.js"></script>
 <script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/download-all-pdfs.html";s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>
 </body>
 </html>

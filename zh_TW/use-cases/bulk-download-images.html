@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
-  <title>Bulk download images from a web page | Grab All Files</title>
-  <meta name="description" content="Detect visible, lazy-loaded, background, and blob images, then save selected image files in bulk or export their URLs.">
+  <title>批次下載網頁圖片 | Grab All Files</title>
+  <meta name="description" content="偵測可見圖片、延遲載入圖片、背景圖和blob圖片，並批次儲存或匯出URL。">
   <link rel="canonical" href="https://grab-all-files.app/zh_TW/use-cases/bulk-download-images.html">
   <link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/bulk-download-images.html">
   <link rel="alternate" hreflang="en" href="https://grab-all-files.app/use-cases/bulk-download-images.html">
@@ -21,21 +21,21 @@
   <link rel="alternate" hreflang="zh-TW" href="https://grab-all-files.app/zh_TW/use-cases/bulk-download-images.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Grab All Files">
-  <meta property="og:title" content="Bulk download images from a web page | Grab All Files">
-  <meta property="og:description" content="Detect visible, lazy-loaded, background, and blob images, then save selected image files in bulk or export their URLs.">
+  <meta property="og:title" content="批次下載網頁圖片 | Grab All Files">
+  <meta property="og:description" content="偵測可見圖片、延遲載入圖片、背景圖和blob圖片，並批次儲存或匯出URL。">
   <meta property="og:url" content="https://grab-all-files.app/zh_TW/use-cases/bulk-download-images.html">
   <meta property="og:image" content="https://grab-all-files.app/og-image.png">
   <meta property="og:locale" content="zh_TW">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Bulk download images from a web page | Grab All Files">
-  <meta name="twitter:description" content="Detect visible, lazy-loaded, background, and blob images, then save selected image files in bulk.">
+  <meta name="twitter:title" content="批次下載網頁圖片 | Grab All Files">
+  <meta name="twitter:description" content="偵測可見圖片、延遲載入圖片、背景圖和blob圖片，並批次儲存或匯出URL。">
   <meta name="twitter:image" content="https://grab-all-files.app/og-image.png">
   <script defer src="/analytics.js"></script>
   <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128.png">
   <link rel="stylesheet" href="/use-cases/style.css">
   <script>(function(){try{var t=localStorage.getItem('gaf-theme');if(t!=='light'&&t!=='dark'){t=(matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light'}document.documentElement.setAttribute('data-theme',t)}catch(_){}})();</script>
-  <script id="case-breadcrumb-schema" type="application/ld+json"></script>
-  <script id="case-faq-schema" type="application/ld+json"></script>
+  <script id="case-breadcrumb-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Grab All Files","item":"https://grab-all-files.app/zh_TW/"},{"@type":"ListItem","position":2,"name":"用途","item":"https://grab-all-files.app/zh_TW/#use-cases"},{"@type":"ListItem","position":3,"name":"批次下載網頁圖片，包括延遲載入資源。","item":"https://grab-all-files.app/zh_TW/use-cases/bulk-download-images.html"}]}</script>
+  <script id="case-faq-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"zh-TW","mainEntity":[{"@type":"Question","name":"能偵測延遲載入圖片嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。會檢查DOM屬性、srcset、背景圖、blob URL和網路檔案回應。"}},{"@type":"Question","name":"能只下載某些圖片類型嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。依副檔名、大小、名稱或來源頁面篩選。"}},{"@type":"Question","name":"能只匯出圖片URL嗎？","acceptedAnswer":{"@type":"Answer","text":"可以。偵測清單可匯出為CSV。"}}]}</script>
   <link rel="stylesheet" href="/bloom-site.css">
 </head>
 <body data-use-case="bulk-download-images">
@@ -43,7 +43,7 @@
   <header class="topbar">
     <div class="topbar-inner">
       <a class="brand" href="/zh_TW/" data-lang-href="home"><img src="/favicon-128.png" alt=""><span>Grab All Files</span></a>
-      <nav class="nav-links" aria-label="Primary"><a href="/#use-cases" data-lang-href="use-cases" data-ui="useCases">Use cases</a><a href="/zh_TW/security.html" data-lang-href="security" data-ui="security">Security</a><a href="/#pricing" data-lang-href="pricing" data-ui="pricing">Pricing</a></nav>
+      <nav class="nav-links" aria-label="Primary"><a href="/zh_TW/#use-cases" data-lang-href="use-cases" data-ui="useCases">Use cases</a><a href="/zh_TW/security.html" data-lang-href="security" data-ui="security">Security</a><a href="/zh_TW/#pricing" data-lang-href="pricing" data-ui="pricing">Pricing</a></nav>
       <div class="nav-spacer"></div>
       <div class="nav-controls">
         <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode"><span class="theme-icon-dark" aria-hidden="true">🌙</span><span class="theme-icon-light" aria-hidden="true">☀️</span></button>
@@ -53,18 +53,10 @@
     </div>
   </header>
   <main id="case-root">
-    <section class="case-hero">
-      <div>
-        <a class="breadcrumb" href="/#use-cases">← Use cases</a>
-        <div class="eyebrow"><span>✓</span><span>Image collection</span></div>
-        <h1>Bulk download images from a web page, including lazy-loaded assets.</h1>
-        <p class="lead">Surface detectable image URLs from visible images, lazy-loaded attributes, CSS backgrounds, srcset values, blob URLs, and network responses. Filter and save in one run.</p>
-        <div class="cta-row"><a class="btn btn-primary" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Install free ↗</a><a class="btn btn-secondary" href="/zh_TW/security.html">Security</a></div>
-      </div>
-    </section>
+<section class="case-hero"><div><a class="breadcrumb" href="/zh_TW/#use-cases">← 用途</a><div class="eyebrow"><span>✓</span><span>圖片收集</span></div><h1>批次下載網頁圖片，包括延遲載入資源。</h1><p class="lead">圖片庫常把檔案藏在延遲載入、CSS背景、srcset、blob URL和腳本中。Grab All Files 會列出可偵測的圖片URL，方便篩選、選取和儲存。</p><div class="cta-row"><span class="store-cta-label">在瀏覽器中下載 Grab All Files：</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">下載 Chrome 版</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener">下載 Edge 版</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">下載 Firefox 版</a><a class="btn btn-secondary" href="/zh_TW/security.html">安全</a></div></div><aside class="product-panel" aria-label="Grab All Files"><div class="panel-brand"><img src="/icon-512.png" alt=""><span>Grab All Files</span></div><ul class="quick-facts"><li><span class="mark">✓</span><span>免費版 — 包含全部功能</span></li><li><span class="mark">✓</span><span>$19.99 永久授權</span></li><li><span class="mark">✓</span><span>PDF合併、ZIP和CSV均在瀏覽器本機處理</span></li><li><span class="mark">✓</span><span>檔案從來源網站直接下載到您的裝置</span></li></ul><div class="store-row"><a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener"><span>Chrome 線上應用程式商店</span><span>↗</span></a><a href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener"><span>Edge 附加元件</span><span>&rarr;</span></a><a href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener"><span>Firefox 附加元件</span><span>↗</span></a></div></aside></section><div class="section-stack"><div class="two-col"><section class="section-card"><h2>適合用途</h2><ul class="check-list"><li><span class="check">✓</span><span>圖片庫和媒體庫。</span></li><li><span class="check">✓</span><span>包含大量圖片的產品、作品集或文件頁面。</span></li><li><span class="check">✓</span><span>使用延遲載入、srcset或CSS背景圖的頁面。</span></li><li><span class="check">✓</span><span>將圖片URL匯出為CSV以便後續處理。</span></li></ul></section><section class="section-card"><h2>工作流程</h2><ol class="step-list"><li><span class="num">1</span><span>開啟頁面或貼上URL。</span></li><li><span class="num">2</span><span>依JPG、PNG、WebP、GIF、SVG等圖片類型篩選。</span></li><li><span class="num">3</span><span>下載選取檔案，依網域/類型整理，或匯出CSV。</span></li></ol></section></div><section class="section-card"><h2>常見問題</h2><div class="faq-list"><details><summary>能偵測延遲載入圖片嗎？</summary><p>可以。會檢查DOM屬性、srcset、背景圖、blob URL和網路檔案回應。</p></details><details><summary>能只下載某些圖片類型嗎？</summary><p>可以。依副檔名、大小、名稱或來源頁面篩選。</p></details><details><summary>能只匯出圖片URL嗎？</summary><p>可以。偵測清單可匯出為CSV。</p></details></div></section><section class="section-card usecase-guide-section"><h2>相關用途指南</h2><div class="usecase-guide-links" aria-label="相關用途指南"><a class="usecase-guide-link" href="/zh_TW/use-cases/download-all-pdfs.html">下載所有PDF</a><a class="usecase-guide-link current" href="/zh_TW/use-cases/bulk-download-images.html" aria-current="page">批次下載圖片</a><a class="usecase-guide-link" href="/zh_TW/use-cases/download-files-from-webpage.html">下載網頁檔案</a><a class="usecase-guide-link" href="/zh_TW/use-cases/internal-portal-downloads.html">內部入口和LMS</a><a class="usecase-guide-link" href="/zh_TW/use-cases/merge-pdfs-locally.html">本機合併PDF</a></div></section></div><section class="final-cta"><h2>在瀏覽器中試用 Grab All Files。</h2><p>安裝擴充功能，在真實頁面執行掃描。免費使用，包含全部功能，單次下載最多儲存20個檔案。Pro（$19.99，一次性購買）可解除單次下載限制。</p><div class="final-dl"><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">下載 Chrome 版</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener">下載 Edge 版</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">下載 Firefox 版</a></div></section>
   </main>
   <footer><div class="footer-line"><p data-ui="footer">Independent browser extension by Serima Kawai. Not affiliated with Google, Microsoft, or Mozilla.</p><div class="footer-links"><a href="/zh_TW/" data-lang-href="home" data-ui="home">Home</a><a href="/purchase/" data-lang-href="purchase" data-ui="purchase">Purchase</a><a href="/zh_TW/security.html" data-lang-href="security" data-ui="security">Security</a></div></div></footer>
-  <script defer src="use-case.js"></script>
+  <script defer src="/use-cases/use-case.js"></script>
 <script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/bulk-download-images.html";s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>
 </body>
 </html>
