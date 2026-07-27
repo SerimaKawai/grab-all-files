@@ -717,7 +717,7 @@
           "</div>",
         "</div>",
         "<aside class=\"product-panel\" aria-label=\"Grab All Files\">",
-          "<div class=\"panel-brand\"><img src=\"/icon-512.png\" alt=\"\"><span>Grab All Files</span></div>",
+          "<div class=\"panel-brand\"><img src=\"/favicon-128.png\" alt=\"\" width=\"42\" height=\"42\"><span>Grab All Files</span></div>",
           "<ul class=\"quick-facts\">",
             "<li><span class=\"mark\">✓</span><span>" + esc(ui.trial) + "</span></li>",
             "<li><span class=\"mark\">✓</span><span>" + esc(ui.license) + "</span></li>",
