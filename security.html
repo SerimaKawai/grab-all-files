@@ -314,6 +314,7 @@
     })();
   </script>
   <link rel="stylesheet" href="bloom-site.css">
+  <script id="security-breadcrumb-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Grab All Files","item":"https://grab-all-files.app/"},{"@type":"ListItem","position":2,"name":"Security and permissions","item":"https://grab-all-files.app/security.html"}]}</script>
 </head>
 <body>
   <header class="topbar">
@@ -347,22 +348,7 @@
   </header>
 
   <main id="security-root">
-    <section class="hero">
-      <div>
-        <div class="eyebrow"><span>✓</span><span>0 files uploaded</span></div>
-        <h1>Security, privacy, and permissions for Grab All Files</h1>
-        <p class="lead">Grab All Files needs broad browser permissions because it scans the page or URL you choose, including pages behind your current login session. File discovery, downloads, ZIP creation, CSV export, and PDF merging happen locally in your browser.</p>
-      </div>
-      <aside class="panel">
-        <h2>Plain-language summary</h2>
-        <ul class="fact-list">
-          <li><span class="mark">1</span><span>Your files never pass through our servers.</span></li>
-          <li><span class="mark">2</span><span>PDF merge, ZIP, and CSV export run locally.</span></li>
-          <li><span class="mark">3</span><span>License checks do not include file contents.</span></li>
-          <li><span class="mark">4</span><span>Use it only for files you are allowed to access.</span></li>
-        </ul>
-      </aside>
-    </section>
+<section class="hero"><div><div class="eyebrow"><span>✓</span><span>0 files uploaded</span></div><h1>Security, privacy, and permissions for Grab All Files</h1><p class="lead">Grab All Files needs broad browser permissions because it scans the page or URL you choose, including pages behind your current login session. File discovery, downloads, ZIP creation, CSV export, and PDF merging happen locally in your browser.</p><div class="cta-row"><span class="store-cta-label">Download Grab All Files in your browser:</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Download for Chrome</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Download for Edge</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Download for Firefox</a><a class="btn" href="/privacy-policy.html">Read privacy policy</a></div></div><aside class="panel"><h2>Plain-language summary</h2><ul class="fact-list"><li><span class="mark">1</span><span>Your files never pass through our servers.</span></li><li><span class="mark">2</span><span>PDF merge, ZIP, and CSV export run locally.</span></li><li><span class="mark">3</span><span>License checks do not include file contents.</span></li><li><span class="mark">4</span><span>Use it only for files you are allowed to access.</span></li></ul></aside></section><div class="section-stack"><section class="section-card"><h2>What is sent to our servers</h2><p>License verification data and a small set of anonymous plan-interaction events are sent to the developer&#39;s license backend; the events contain only a random device ID, your plan state, and a feature label.</p><table><thead><tr><th>Purpose</th><th>Data sent</th><th>Not sent</th></tr></thead><tbody><tr><td>License activation and refresh</td><td>License key, random device UUID, and license token metadata.</td><td>Downloaded files, detected URL lists, source-page contents.</td></tr><tr><td>Revocation list refresh</td><td>No user-identifying payload; the extension downloads a signed revocation list.</td><td>License key and file data are not included in this request.</td></tr><tr><td>Plan-interaction events</td><td>Random device ID, plan state, and a feature label.</td><td>Page content, URLs, file names, downloaded files, or personal data.</td></tr></tbody></table></section><section class="section-card"><h2>Why broad website permissions are needed</h2><p>Browsers may show a warning that the extension can access website data. The extension needs this because the target site is chosen by the user and files may be inside frames, viewer URLs, or network responses.</p><table><thead><tr><th>Permission area</th><th>Why it is needed</th><th>How it is limited in practice</th></tr></thead><tbody><tr><td>Read the selected page</td><td>Find visible links, embedded files, PDF viewers, and lazy-loaded assets.</td><td>Used for pages or URLs the user chooses to scan.</td></tr><tr><td>Monitor file-like responses</td><td>Surface files loaded through fetch/XHR, CMS routes, or viewer endpoints.</td><td>Used to build the local result list; the list is not uploaded.</td></tr><tr><td>Use the current browser session</td><td>Download files from portals or member areas that the user can already open manually.</td><td>No credential collection; use only where you have permission.</td></tr></tbody></table><div class="callout">The extension does not grant access to content you are not authorized to view. It works with access your browser session already has.</div></section><section class="section-card"><h2>What stays local</h2><ul class="local-list"><li><span class="mark">✓</span><span>Detected file lists, filters, and scan results.</span></li><li><span class="mark">✓</span><span>Downloaded file contents.</span></li><li><span class="mark">✓</span><span>PDF merge processing.</span></li><li><span class="mark">✓</span><span>ZIP archive generation.</span></li><li><span class="mark">✓</span><span>CSV export generation.</span></li></ul></section><section class="section-card"><h2>Responsible use</h2><p>Use Grab All Files only for legitimate document collection and workflow automation, and respect the target site terms, copyright rules, access rights, and rate limits.</p></section></div>
   </main>
 
   <footer>

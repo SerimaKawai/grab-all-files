@@ -29,6 +29,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import { renderAll, getTables, CASE_IDS } from './prerender-cases.mjs';
+import { renderAll as renderSecurity } from './prerender-security.mjs';
 
 const ROOT = 'c:/xampp/htdocs/grab-all-files';
 const BASE = 'https://grab-all-files.app';
@@ -139,6 +140,44 @@ function bakeCase(html, data, L) {
   for (const [key, text] of Object.entries(data.ui || {})) {
     const re = new RegExp(`(<[^<>]*\\sdata-ui="${key}"[^<>]*>)([^<]*)`, 'g');
     h = h.replace(re, (m, open) => open + textEsc(text));
+  }
+  return h;
+}
+
+/* security.html renders its body through #security-root.innerHTML and swaps the
+ * chrome via [data-ui], so every locale copy used to ship the whole English page
+ * under <html lang="xx">. Bake the locale's own text in, exactly as bakeCase does
+ * for the use-case pages, and fill the BreadcrumbList (the page carried no
+ * structured data at all before). */
+function bakeSecurity(html, data, L) {
+  let h = html;
+  h = h.replace(/<title>[\s\S]*?<\/title>/, () => `<title>${textEsc(data.title)}</title>`);
+  h = setMetaContent(h, 'name', 'description', data.desc);
+  h = setMetaContent(h, 'property', 'og:title', data.title);
+  h = setMetaContent(h, 'property', 'og:description', data.desc);
+  h = setMetaContent(h, 'name', 'twitter:title', data.title);
+  h = setMetaContent(h, 'name', 'twitter:description', data.desc);
+
+  const site = L === 'en' ? `${BASE}/` : `${BASE}/${L}/`;
+  const breadcrumb = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Grab All Files', item: site },
+      { '@type': 'ListItem', position: 2, name: data.title.split('|')[0].trim(), item: `${site}security.html` },
+    ],
+  });
+  h = h.replace(/(<script id="security-breadcrumb-schema" type="application\/ld\+json">)[\s\S]*?(<\/script>)/,
+    (m, a, b) => a + jsonForScript(breadcrumb) + b);
+
+  h = h.replace(/(<main id="security-root">)[\s\S]*?(<\/main>)/, (m, a, b) => a + '\n' + data.body + '\n  ' + b);
+
+  for (const [key, text] of Object.entries(data.ui || {})) {
+    const re = new RegExp(`(<[^<>]*\\sdata-ui="${key}"[^<>]*>)([^<]*)`, 'g');
+    h = h.replace(re, (m, open) => open + textEsc(text));
+  }
+  if (data.footer) {
+    h = h.replace(/(<p id="footer-copy">)([^<]*)/, (m, open) => open + textEsc(data.footer));
   }
   return h;
 }
@@ -334,7 +373,9 @@ for (const page of PAGES) {
   if (m && CASE_IDS.includes(m[1])) CASE_ID_BY_SRC[page.src] = m[1];
 }
 const HUB_SRC = 'use-cases/index.html';
+const SEC_SRC = 'security.html';
 const prerendered = renderAll(ALL);
+const prerenderedSecurity = renderSecurity(ALL);
 const tables = getTables();
 const META = extractIndexMeta(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8'));
 
@@ -363,7 +404,7 @@ function writeIfChanged(dest, content) {
   return true;
 }
 
-let genCount = 0, rootCount = 0, bakedCount = 0, changedCount = 0, hubCount = 0;
+let genCount = 0, rootCount = 0, bakedCount = 0, changedCount = 0, hubCount = 0, secCount = 0;
 for (const page of PAGES) {
   const srcPath = path.join(ROOT, page.src);
   const srcHtml = fs.readFileSync(srcPath, 'utf8');
@@ -372,6 +413,7 @@ for (const page of PAGES) {
     let base = srcHtml;
     if (caseId) { base = bakeCase(base, prerendered[caseId][L], L); bakedCount++; }
     if (page.src === HUB_SRC) { base = bakeHub(base, L, tables, prerendered); hubCount++; }
+    if (page.src === SEC_SRC) { base = bakeSecurity(base, prerenderedSecurity[L], L); secCount++; }
     let out = genLocale(base, page, L);
     if (page.rel === '') out = localizeIndexMeta(out, L, META);
     const dest = path.join(ROOT, L, page.src);
@@ -383,6 +425,7 @@ for (const page of PAGES) {
   }
   let en = srcHtml.replace(/[ \t]*<link rel="alternate" hreflang="x-default"[\s\S]*?<link rel="alternate" hreflang="zh-TW"[^>]*>/, () => hreflangBlock(page.rel));
   if (caseId) { en = bakeCase(en, prerendered[caseId].en, 'en'); bakedCount++; }
+  if (page.src === SEC_SRC) { en = bakeSecurity(en, prerenderedSecurity.en, 'en'); secCount++; }
   if (page.src === HUB_SRC) {
     en = bakeHub(en, 'en', tables, prerendered); hubCount++;
     // genLocale adds this for the /<L>/ copies; the English hub needs its own.
@@ -396,7 +439,7 @@ for (const page of PAGES) {
   rootCount++;
 }
 console.log(`Generated ${genCount} per-locale pages; updated ${rootCount} English root page(s)' hreflang.`);
-console.log(`Baked static body + JSON-LD into ${bakedCount} use-case page(s); generated ${hubCount} hub page(s).`);
+console.log(`Baked static body + JSON-LD into ${bakedCount} use-case page(s); generated ${hubCount} hub page(s); localized ${secCount} security page(s).`);
 console.log(`${changedCount} page(s) changed this run (their sitemap lastmod becomes ${TODAY}).`);
 
 // Regenerate sitemap.xml — every page-version as its own <url> with the full

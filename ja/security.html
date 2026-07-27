@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
-  <title>Security and permissions | Grab All Files</title>
-  <meta name="description" content="How Grab All Files handles browser permissions, local file processing, license verification, and privacy-sensitive access.">
+  <title>セキュリティと権限 | Grab All Files</title>
+  <meta name="description" content="Grab All Files のブラウザ権限、ローカル処理、ライセンス確認、プライバシーに関わるアクセスの扱い。">
   <link rel="canonical" href="https://grab-all-files.app/ja/security.html">
   <link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html">
   <link rel="alternate" hreflang="en" href="https://grab-all-files.app/security.html">
@@ -21,14 +21,14 @@
   <link rel="alternate" hreflang="zh-TW" href="https://grab-all-files.app/zh_TW/security.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Grab All Files">
-  <meta property="og:title" content="Security and permissions | Grab All Files">
-  <meta property="og:description" content="How Grab All Files handles browser permissions, local file processing, license verification, and privacy-sensitive access.">
+  <meta property="og:title" content="セキュリティと権限 | Grab All Files">
+  <meta property="og:description" content="Grab All Files のブラウザ権限、ローカル処理、ライセンス確認、プライバシーに関わるアクセスの扱い。">
   <meta property="og:url" content="https://grab-all-files.app/ja/security.html">
   <meta property="og:image" content="https://grab-all-files.app/og-image.png">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Security and permissions | Grab All Files">
-  <meta name="twitter:description" content="How Grab All Files handles browser permissions, local file processing, license verification, and privacy-sensitive access.">
+  <meta name="twitter:title" content="セキュリティと権限 | Grab All Files">
+  <meta name="twitter:description" content="Grab All Files のブラウザ権限、ローカル処理、ライセンス確認、プライバシーに関わるアクセスの扱い。">
   <meta name="twitter:image" content="https://grab-all-files.app/og-image.png">
   <script defer src="/analytics.js"></script>
   <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128.png">
@@ -316,15 +316,16 @@
     })();
   </script>
   <link rel="stylesheet" href="/bloom-site.css">
+  <script id="security-breadcrumb-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Grab All Files","item":"https://grab-all-files.app/ja/"},{"@type":"ListItem","position":2,"name":"セキュリティと権限","item":"https://grab-all-files.app/ja/security.html"}]}</script>
 </head>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
       <a class="brand" href="/ja/" data-href="home"><img src="/favicon-128.png" alt=""><span>Grab All Files</span></a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="/ja/#use-cases" data-href="useCases" data-ui="useCases">Use cases</a>
-        <a href="/ja/#pricing" data-href="pricing" data-ui="pricing">Pricing</a>
-        <a href="/contact/" data-href="contact" data-ui="contact">Contact</a>
+        <a href="/ja/#use-cases" data-href="useCases" data-ui="useCases">用途別</a>
+        <a href="/ja/#pricing" data-href="pricing" data-ui="pricing">料金</a>
+        <a href="/contact/" data-href="contact" data-ui="contact">お問い合わせ</a>
       </nav>
       <div class="nav-spacer"></div>
       <div class="nav-controls">
@@ -349,31 +350,16 @@
   </header>
 
   <main id="security-root">
-    <section class="hero">
-      <div>
-        <div class="eyebrow"><span>✓</span><span>0 files uploaded</span></div>
-        <h1>Security, privacy, and permissions for Grab All Files</h1>
-        <p class="lead">Grab All Files needs broad browser permissions because it scans the page or URL you choose, including pages behind your current login session. File discovery, downloads, ZIP creation, CSV export, and PDF merging happen locally in your browser.</p>
-      </div>
-      <aside class="panel">
-        <h2>Plain-language summary</h2>
-        <ul class="fact-list">
-          <li><span class="mark">1</span><span>Your files never pass through our servers.</span></li>
-          <li><span class="mark">2</span><span>PDF merge, ZIP, and CSV export run locally.</span></li>
-          <li><span class="mark">3</span><span>License checks do not include file contents.</span></li>
-          <li><span class="mark">4</span><span>Use it only for files you are allowed to access.</span></li>
-        </ul>
-      </aside>
-    </section>
+<section class="hero"><div><div class="eyebrow"><span>✓</span><span>ファイルはアップロードされません</span></div><h1>Grab All Files のセキュリティ、プライバシー、権限</h1><p class="lead">Grab All Files は、ユーザーが選んだページやURLをスキャンするため、広いブラウザ権限が必要です。現在のログインセッションで開けるページも対象にできます。ファイル検出、ダウンロード、ZIP作成、CSV出力、PDF結合はブラウザ内でローカルに実行されます。</p><div class="cta-row"><span class="store-cta-label">お使いのブラウザで Grab All Files をダウンロード:</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome 用をダウンロード</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Edge 用をダウンロード</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Firefox 用をダウンロード</a><a class="btn" href="/privacy-policy.html">プライバシーポリシーを読む</a></div></div><aside class="panel"><h2>要点</h2><ul class="fact-list"><li><span class="mark">1</span><span>ファイル本文は当方サーバーを通過しません。</span></li><li><span class="mark">2</span><span>PDF結合、ZIP作成、CSV出力はローカル処理です。</span></li><li><span class="mark">3</span><span>ライセンス確認にファイル本文は含まれません。</span></li><li><span class="mark">4</span><span>アクセス権のあるファイルにのみ使用してください。</span></li></ul></aside></section><div class="section-stack"><section class="section-card"><h2>当方サーバーへ送信されるもの</h2><p>送信されるのは、ライセンス確認に必要な情報と、少数の匿名のプラン操作イベント（ランダムなデバイスID・プラン状態・機能ラベルのみ）だけです。</p><table><thead><tr><th>目的</th><th>送信されるデータ</th><th>送信されないもの</th></tr></thead><tbody><tr><td>ライセンス有効化・更新</td><td>ライセンスキー、ランダム端末UUID、ライセンストークンのメタデータ。</td><td>ダウンロードファイル、検出URL一覧、元ページ内容。</td></tr><tr><td>失効リスト更新</td><td>個人を特定するペイロードはなく、署名済み失効リストを取得します。</td><td>ライセンスキーやファイルデータは含まれません。</td></tr><tr><td>プラン操作イベント</td><td>ランダムなデバイスID、プラン状態、機能ラベル。</td><td>ページ内容、URL、ファイル名、ダウンロードしたファイル、個人データ。</td></tr></tbody></table></section><section class="section-card"><h2>広いWebサイト権限が必要な理由</h2><p>ブラウザは「Webサイトデータへアクセスできる」という警告を表示することがあります。対象サイトはユーザーが選び、ファイルはフレーム、ビューアURL、通信レスポンス内にある場合があるためです。</p><table><thead><tr><th>権限の範囲</th><th>必要な理由</th><th>実際の制限</th></tr></thead><tbody><tr><td>選択ページの読み取り</td><td>表示リンク、埋め込みファイル、PDFビューア、遅延読み込みアセットを見つけるため。</td><td>ユーザーがスキャン対象に選んだページやURLで使用します。</td></tr><tr><td>ファイルらしい通信レスポンスの確認</td><td>fetch/XHR、CMSルート、ビューアエンドポイント経由のファイルを見つけるため。</td><td>ローカル結果一覧の作成に使い、一覧はアップロードされません。</td></tr><tr><td>現在のブラウザセッションの利用</td><td>ユーザーが手動で開けるポータルや会員ページのファイルを取得するため。</td><td>認証情報は収集しません。権限のある場所でのみ使用してください。</td></tr></tbody></table><div class="callout">この拡張機能は、権限のないコンテンツへアクセスする機能ではありません。ブラウザセッションがすでに持っているアクセス権の範囲で動作します。</div></section><section class="section-card"><h2>ローカルに残る処理</h2><ul class="local-list"><li><span class="mark">✓</span><span>検出ファイル一覧、絞り込み、スキャン結果。</span></li><li><span class="mark">✓</span><span>ダウンロードしたファイル本文。</span></li><li><span class="mark">✓</span><span>PDF結合処理。</span></li><li><span class="mark">✓</span><span>ZIP作成処理。</span></li><li><span class="mark">✓</span><span>CSV出力処理。</span></li></ul></section><section class="section-card"><h2>責任ある利用</h2><p>Grab All Files は正当な資料収集と作業効率化のために使用し、対象サイトの規約、著作権、アクセス権限、レート制限を守ってください。</p></section></div>
   </main>
 
   <footer>
     <div class="footer-line">
-      <p id="footer-copy">Independent browser extension by Serima Kawai. Not affiliated with Google, Microsoft, or Mozilla.</p>
+      <p id="footer-copy">Serima Kawai による独立したブラウザ拡張機能。Google、Microsoft、Mozillaとは提携していません。</p>
       <div class="footer-links">
-        <a href="/privacy-policy.html" data-href="privacy" data-ui="privacy">Privacy Policy</a>
-        <a href="/terms.html" data-href="terms" data-ui="terms">Terms</a>
-        <a href="/legal.html" data-href="legal" data-ui="legal">Legal</a>
+        <a href="/privacy-policy.html" data-href="privacy" data-ui="privacy">プライバシーポリシー</a>
+        <a href="/terms.html" data-href="terms" data-ui="terms">利用規約</a>
+        <a href="/legal.html" data-href="legal" data-ui="legal">法務情報</a>
       </div>
     </div>
   </footer>
