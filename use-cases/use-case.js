@@ -646,7 +646,7 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Grab All Files", "item": home },
-        { "@type": "ListItem", "position": 2, "name": UI[lang].useCases, "item": home + "#use-cases" },
+        { "@type": "ListItem", "position": 2, "name": UI[lang].useCases, "item": home + "use-cases/" },
         { "@type": "ListItem", "position": 3, "name": copy.h1, "item": canonical }
       ]
     });
@@ -695,7 +695,7 @@
     document.querySelectorAll("[data-lang-href]").forEach(function (node) {
       var kind = node.getAttribute("data-lang-href");
       if (kind === "home") node.href = withLang("../", lang);
-      if (kind === "use-cases") node.href = withLang("../", lang) + "#use-cases";
+      if (kind === "use-cases") node.href = withLang("../use-cases/", lang);
       if (kind === "security") node.href = withLang("../security.html", lang);
       if (kind === "pricing") node.href = withLang("../", lang) + "#pricing";
       if (kind === "purchase") node.href = withLang("/purchase/", lang);
@@ -704,7 +704,7 @@
     root.innerHTML = [
       "<section class=\"case-hero\">",
         "<div>",
-          "<a class=\"breadcrumb\" href=\"" + esc(withLang("../", lang) + "#use-cases") + "\">← " + esc(ui.useCases) + "</a>",
+          "<a class=\"breadcrumb\" href=\"" + esc(withLang("../use-cases/", lang)) + "\">← " + esc(ui.useCases) + "</a>",
           "<div class=\"eyebrow\"><span>✓</span><span>" + esc(copy.eyebrow) + "</span></div>",
           "<h1>" + esc(copy.h1) + "</h1>",
           "<p class=\"lead\">" + esc(copy.lead) + "</p>",
