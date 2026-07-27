@@ -34,3 +34,6 @@ _redesign/
 
 # Internal store-submission working docs — never publish (served publicly if committed)
 store-listing/
+
+# Local agent settings — contains local paths; never publish
+.claude/settings.local.json
