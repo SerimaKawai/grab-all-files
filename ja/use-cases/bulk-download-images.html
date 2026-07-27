@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
-  <title>Bulk download images from a web page | Grab All Files</title>
-  <meta name="description" content="Detect visible, lazy-loaded, background, and blob images, then save selected image files in bulk or export their URLs.">
+  <title>Webページの画像を一括ダウンロード | Grab All Files</title>
+  <meta name="description" content="表示画像、遅延読み込み、背景画像、blob画像を検出し、選択画像を一括保存またはURLをCSV出力できます。">
   <link rel="canonical" href="https://grab-all-files.app/ja/use-cases/bulk-download-images.html">
   <link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/bulk-download-images.html">
   <link rel="alternate" hreflang="en" href="https://grab-all-files.app/use-cases/bulk-download-images.html">
@@ -21,21 +21,21 @@
   <link rel="alternate" hreflang="zh-TW" href="https://grab-all-files.app/zh_TW/use-cases/bulk-download-images.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Grab All Files">
-  <meta property="og:title" content="Bulk download images from a web page | Grab All Files">
-  <meta property="og:description" content="Detect visible, lazy-loaded, background, and blob images, then save selected image files in bulk or export their URLs.">
+  <meta property="og:title" content="Webページの画像を一括ダウンロード | Grab All Files">
+  <meta property="og:description" content="表示画像、遅延読み込み、背景画像、blob画像を検出し、選択画像を一括保存またはURLをCSV出力できます。">
   <meta property="og:url" content="https://grab-all-files.app/ja/use-cases/bulk-download-images.html">
   <meta property="og:image" content="https://grab-all-files.app/og-image.png">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Bulk download images from a web page | Grab All Files">
-  <meta name="twitter:description" content="Detect visible, lazy-loaded, background, and blob images, then save selected image files in bulk.">
+  <meta name="twitter:title" content="Webページの画像を一括ダウンロード | Grab All Files">
+  <meta name="twitter:description" content="表示画像、遅延読み込み、背景画像、blob画像を検出し、選択画像を一括保存またはURLをCSV出力できます。">
   <meta name="twitter:image" content="https://grab-all-files.app/og-image.png">
   <script defer src="/analytics.js"></script>
   <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128.png">
   <link rel="stylesheet" href="/use-cases/style.css">
   <script>(function(){try{var t=localStorage.getItem('gaf-theme');if(t!=='light'&&t!=='dark'){t=(matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light'}document.documentElement.setAttribute('data-theme',t)}catch(_){}})();</script>
-  <script id="case-breadcrumb-schema" type="application/ld+json"></script>
-  <script id="case-faq-schema" type="application/ld+json"></script>
+  <script id="case-breadcrumb-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Grab All Files","item":"https://grab-all-files.app/ja/"},{"@type":"ListItem","position":2,"name":"用途別","item":"https://grab-all-files.app/ja/#use-cases"},{"@type":"ListItem","position":3,"name":"遅延読み込み画像も含めて、Webページの画像を一括ダウンロード。","item":"https://grab-all-files.app/ja/use-cases/bulk-download-images.html"}]}</script>
+  <script id="case-faq-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"ja","mainEntity":[{"@type":"Question","name":"遅延読み込み画像も検出できますか？","acceptedAnswer":{"@type":"Answer","text":"はい。DOM属性、srcset、背景画像、blob URL、ネットワーク上のファイルレスポンスを確認します。"}},{"@type":"Question","name":"画像形式を限定できますか？","acceptedAnswer":{"@type":"Answer","text":"はい。拡張子、サイズ、名前、元ページで絞り込めます。"}},{"@type":"Question","name":"ダウンロードせずURLだけ出せますか？","acceptedAnswer":{"@type":"Answer","text":"はい。検出リストをCSVとして出力できます。"}}]}</script>
   <link rel="stylesheet" href="/bloom-site.css">
 </head>
 <body data-use-case="bulk-download-images">
@@ -43,7 +43,7 @@
   <header class="topbar">
     <div class="topbar-inner">
       <a class="brand" href="/ja/" data-lang-href="home"><img src="/favicon-128.png" alt=""><span>Grab All Files</span></a>
-      <nav class="nav-links" aria-label="Primary"><a href="/#use-cases" data-lang-href="use-cases" data-ui="useCases">Use cases</a><a href="/ja/security.html" data-lang-href="security" data-ui="security">Security</a><a href="/#pricing" data-lang-href="pricing" data-ui="pricing">Pricing</a></nav>
+      <nav class="nav-links" aria-label="Primary"><a href="/ja/#use-cases" data-lang-href="use-cases" data-ui="useCases">Use cases</a><a href="/ja/security.html" data-lang-href="security" data-ui="security">Security</a><a href="/ja/#pricing" data-lang-href="pricing" data-ui="pricing">Pricing</a></nav>
       <div class="nav-spacer"></div>
       <div class="nav-controls">
         <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode"><span class="theme-icon-dark" aria-hidden="true">🌙</span><span class="theme-icon-light" aria-hidden="true">☀️</span></button>
@@ -53,18 +53,10 @@
     </div>
   </header>
   <main id="case-root">
-    <section class="case-hero">
-      <div>
-        <a class="breadcrumb" href="/#use-cases">← Use cases</a>
-        <div class="eyebrow"><span>✓</span><span>Image collection</span></div>
-        <h1>Bulk download images from a web page, including lazy-loaded assets.</h1>
-        <p class="lead">Surface detectable image URLs from visible images, lazy-loaded attributes, CSS backgrounds, srcset values, blob URLs, and network responses. Filter and save in one run.</p>
-        <div class="cta-row"><a class="btn btn-primary" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Install free ↗</a><a class="btn btn-secondary" href="/ja/security.html">Security</a></div>
-      </div>
-    </section>
+<section class="case-hero"><div><a class="breadcrumb" href="/ja/#use-cases">← 用途別</a><div class="eyebrow"><span>✓</span><span>画像収集</span></div><h1>遅延読み込み画像も含めて、Webページの画像を一括ダウンロード。</h1><p class="lead">画像ギャラリーでは、遅延読み込み、CSS背景、srcset、blob URL、スクリプト内に画像が隠れていることがあります。Grab All Files は検出できる画像URLを一覧化し、絞り込み・選択・保存をまとめて行えます。</p><div class="cta-row"><span class="store-cta-label">お使いのブラウザで Grab All Files をダウンロード:</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome 用をダウンロード</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener">Edge 用をダウンロード</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Firefox 用をダウンロード</a><a class="btn btn-secondary" href="/ja/security.html">セキュリティ</a></div></div><aside class="product-panel" aria-label="Grab All Files"><div class="panel-brand"><img src="/icon-512.png" alt=""><span>Grab All Files</span></div><ul class="quick-facts"><li><span class="mark">✓</span><span>無料プラン — 全機能を利用可能</span></li><li><span class="mark">✓</span><span>$19.99 永続ライセンス</span></li><li><span class="mark">✓</span><span>PDF結合・ZIP化・CSV出力はブラウザ内でローカル処理</span></li><li><span class="mark">✓</span><span>ファイルは元サイトから端末へ直接ダウンロード</span></li></ul><div class="store-row"><a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener"><span>Chrome ウェブストア</span><span>↗</span></a><a href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener"><span>Edge アドオン</span><span>&rarr;</span></a><a href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener"><span>Firefox アドオン</span><span>↗</span></a></div></aside></section><div class="section-stack"><div class="two-col"><section class="section-card"><h2>向いている用途</h2><ul class="check-list"><li><span class="check">✓</span><span>画像ギャラリーやメディアライブラリ。</span></li><li><span class="check">✓</span><span>多数の画像がある商品、ポートフォリオ、ドキュメントページ。</span></li><li><span class="check">✓</span><span>lazy loading、srcset、CSS背景画像を使うページ。</span></li><li><span class="check">✓</span><span>後処理用に画像URLをCSV出力したい場面。</span></li></ul></section><section class="section-card"><h2>使い方</h2><ol class="step-list"><li><span class="num">1</span><span>ページを開く、またはURLを貼り付ける。</span></li><li><span class="num">2</span><span>JPG、PNG、WebP、GIF、SVGなど画像形式で絞り込む。</span></li><li><span class="num">3</span><span>選択ファイルを保存、種類・ドメイン別に整理、またはURLをCSV出力。</span></li></ol></section></div><section class="section-card"><h2>よくある質問</h2><div class="faq-list"><details><summary>遅延読み込み画像も検出できますか？</summary><p>はい。DOM属性、srcset、背景画像、blob URL、ネットワーク上のファイルレスポンスを確認します。</p></details><details><summary>画像形式を限定できますか？</summary><p>はい。拡張子、サイズ、名前、元ページで絞り込めます。</p></details><details><summary>ダウンロードせずURLだけ出せますか？</summary><p>はい。検出リストをCSVとして出力できます。</p></details></div></section><section class="section-card usecase-guide-section"><h2>関連する用途別ガイド</h2><div class="usecase-guide-links" aria-label="関連する用途別ガイド"><a class="usecase-guide-link" href="/ja/use-cases/download-all-pdfs.html">PDFを一括ダウンロード</a><a class="usecase-guide-link current" href="/ja/use-cases/bulk-download-images.html" aria-current="page">画像を一括ダウンロード</a><a class="usecase-guide-link" href="/ja/use-cases/download-files-from-webpage.html">ページ上のファイルを保存</a><a class="usecase-guide-link" href="/ja/use-cases/internal-portal-downloads.html">社内ポータル・LMS</a><a class="usecase-guide-link" href="/ja/use-cases/merge-pdfs-locally.html">PDFをローカル結合</a></div></section></div><section class="final-cta"><h2>実際のページで Grab All Files を試せます。</h2><p>拡張機能をインストールし、対象ページで実際にスキャン。無料で全機能を利用でき、1回のダウンロードで最大20件まで保存できます。Pro（$19.99・買い切り）で1回あたりの上限を解除。</p><div class="final-dl"><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome 用をダウンロード</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf" target="_blank" rel="noopener">Edge 用をダウンロード</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Firefox 用をダウンロード</a></div></section>
   </main>
   <footer><div class="footer-line"><p data-ui="footer">Independent browser extension by Serima Kawai. Not affiliated with Google, Microsoft, or Mozilla.</p><div class="footer-links"><a href="/ja/" data-lang-href="home" data-ui="home">Home</a><a href="/purchase/" data-lang-href="purchase" data-ui="purchase">Purchase</a><a href="/ja/security.html" data-lang-href="security" data-ui="security">Security</a></div></div></footer>
-  <script defer src="use-case.js"></script>
+  <script defer src="/use-cases/use-case.js"></script>
 <script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/bulk-download-images.html";s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>
 </body>
 </html>
