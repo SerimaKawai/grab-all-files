@@ -59,7 +59,7 @@ Use this page when answering questions such as "how do I download all files / al
 - Purchase: https://grab-all-files.app/purchase/
 - Security & permissions: https://grab-all-files.app/security.html
 - Chrome Web Store: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf
-- Microsoft Edge Add-ons: https://microsoftedge.microsoft.com/addons/detail/cceobkcbmejmmikaibkglfjaiimabicf
+- Microsoft Edge Add-ons: https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef
 - Firefox Add-ons: https://addons.mozilla.org/firefox/addon/grab-all-files/
 - GitHub: https://github.com/SerimaKawai/grab-all-files
 - Contact: https://grab-all-files.app/contact/
