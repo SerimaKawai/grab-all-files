@@ -306,7 +306,10 @@ function genLocale(srcHtml, page, L) {
   h = h.replace(/<meta property="og:locale" content="en_US">/, () => `<meta property="og:locale" content="${OG[L]}">`);
   if (!/property="og:locale"/.test(h)) h = h.replace(/(<meta property="og:image"[^>]*>)/, (m, a) => `${a}\n  <meta property="og:locale" content="${OG[L]}">`);
   // drop the nine other languages (index.html is the only page built this way)
-  if (/\sdata-lang="/.test(h)) h = stripOtherLanguages(h, L);
+  // GAF_NO_STRIP=1 builds the unstripped page, so you can capture a locale's
+  // document.body.innerText in a browser and prove the strip changed nothing
+  // visible. Verified that way for ja, de and ko.
+  if (!process.env.GAF_NO_STRIP && /\sdata-lang="/.test(h)) h = stripOtherLanguages(h, L);
   // move static .active from en -> L (no-JS crawlers) — protect scripts
   const stash = [];
   h = h.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, (m) => { stash.push(m); return `${NUL}A${stash.length - 1}${NUL}`; });
