@@ -43,6 +43,7 @@ const PAGES = [
   { src: 'index.html', rel: '' },
   { src: 'security.html', rel: 'security.html' },
   { src: 'use-cases/index.html', rel: 'use-cases/' },
+  { src: 'use-cases/combine-web-pages-into-one-html.html', rel: 'use-cases/combine-web-pages-into-one-html.html' },
   { src: 'use-cases/bulk-download-images.html', rel: 'use-cases/bulk-download-images.html' },
   { src: 'use-cases/download-all-pdfs.html', rel: 'use-cases/download-all-pdfs.html' },
   { src: 'use-cases/download-files-from-webpage.html', rel: 'use-cases/download-files-from-webpage.html' },
@@ -54,6 +55,7 @@ const PAGES = [
 // NOTE: use-case.js and use-cases/style.css are SHARED (not per-locale) and stay at /use-cases/.
 const LOCALIZED = new Set([
   '/', '/security.html', '/use-cases/',
+  '/use-cases/combine-web-pages-into-one-html.html',
   '/use-cases/bulk-download-images.html', '/use-cases/download-all-pdfs.html',
   '/use-cases/download-files-from-webpage.html', '/use-cases/internal-portal-downloads.html',
   '/use-cases/merge-pdfs-locally.html',
@@ -110,7 +112,16 @@ function setMetaContent(html, selectorAttr, name, value) {
   return html.replace(re, (m, a, _old, c) => a + attrEsc(value) + c);
 }
 
-function bakeCase(html, data, L) {
+function localizeUseCaseChrome(html, ui) {
+  let h = html;
+  h = h.replace(/(<a class="skip-link"[^>]*>)[\s\S]*?(<\/a>)/, (m, a, b) => a + textEsc(ui.skip) + b);
+  h = h.replace(/(<nav class="nav-links" aria-label=")[^"]*(")/, (m, a, b) => a + attrEsc(ui.primaryNav) + b);
+  h = h.replace(/(<button\b(?=[^>]*\bid="theme-toggle")[^>]*\baria-label=")[^"]*(")/, (m, a, b) => a + attrEsc(ui.themeToggle) + b);
+  h = h.replace(/(<select\b(?=[^>]*\bid="lang-sel")[^>]*\baria-label=")[^"]*(")/, (m, a, b) => a + attrEsc(ui.languageLabel) + b);
+  return setMetaContent(h, 'property', 'og:image:alt', 'Grab All Files');
+}
+
+function bakeCase(html, data, L, ui) {
   let h = html;
   h = h.replace(/<title>[\s\S]*?<\/title>/, () => `<title>${textEsc(data.title)}</title>`);
   h = setMetaContent(h, 'name', 'description', data.desc);
@@ -141,7 +152,7 @@ function bakeCase(html, data, L) {
     const re = new RegExp(`(<[^<>]*\\sdata-ui="${key}"[^<>]*>)([^<]*)`, 'g');
     h = h.replace(re, (m, open) => open + textEsc(text));
   }
-  return h;
+  return localizeUseCaseChrome(h, ui);
 }
 
 /* security.html renders its body through #security-root.innerHTML and swaps the
@@ -182,7 +193,7 @@ function bakeSecurity(html, data, L) {
   return h;
 }
 
-/* The /use-cases/ hub: a real parent page for the five guides, which previously
+/* The /use-cases/ hub: a real parent page for the use-case guides, which previously
  * had no parent at all (their breadcrumb pointed at a "#use-cases" anchor on the
  * homepage). Fully generated — every string comes from use-case.js's own tables
  * and the prerendered per-case metadata, so no new translations are invented. */
@@ -191,6 +202,8 @@ function bakeSecurity(html, data, L) {
 // string was case-sensitive and never matched getElementById); removing first is
 // unconditional and keeps the build idempotent.
 const LANG_NAV_RE = /\n?<script>\(function\(\)\{var s=document\.getElementById\('lang-sel'\);[\s\S]*?<\/script>/g;
+const FORCE_LANG_RE = /\n?[ \t]*<script>window\.__FORCE_LANG__="[^"]+";<\/script>/g;
+const localeNavScript = (rel) => `<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R=${JSON.stringify(rel)};s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>`;
 
 function bakeHub(html, lang, tables, cases) {
   const ui = tables.UI[lang] || tables.UI.en;
@@ -267,7 +280,7 @@ function bakeHub(html, lang, tables, cases) {
   // The hub has no client-side i18n script to sync the selector, so mark the
   // current locale statically — otherwise /ja/use-cases/ shows "English".
   h = h.replace(/<option value="([^"]*)"( selected)?>/g, (m, v) => `<option value="${v}"${v === lang ? ' selected' : ''}>`);
-  return h;
+  return localizeUseCaseChrome(h, ui);
 }
 
 // Locale homepages carried English <title>/<meta description> in the raw HTML and
@@ -335,7 +348,7 @@ function stripOtherLanguages(html, L) {
 /* ---------- per-locale page generation ---------- */
 
 function genLocale(srcHtml, page, L) {
-  let h = srcHtml;
+  let h = srcHtml.replace(FORCE_LANG_RE, '').replace(LANG_NAV_RE, '');
   const self = url(L, page.rel);
   h = h.replace(/<html lang="en">/, () => `<html lang="${BCP47[L]}">`);
   h = h.replace(/<head>/, () => `<head>\n  <script>window.__FORCE_LANG__=${JSON.stringify(L)};</script>`);
@@ -366,8 +379,7 @@ function genLocale(srcHtml, page, L) {
   const srcDir = path.posix.dirname('/' + page.src).replace(/^\//, '');
   h = rewritePaths(h, srcDir === '.' ? '' : srcDir, L);
   // selector navigates to sibling locale URLs
-  const nav = `<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R=${JSON.stringify(page.rel)};s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>`;
-  h = h.replace(/<\/body>/, () => nav + '\n</body>');
+  h = h.replace(/<\/body>/, () => localeNavScript(page.rel) + '\n</body>');
   return h;
 }
 
@@ -418,7 +430,7 @@ for (const page of PAGES) {
   const caseId = CASE_ID_BY_SRC[page.src];
   for (const L of LOCALES) {
     let base = srcHtml;
-    if (caseId) { base = bakeCase(base, prerendered[caseId][L], L); bakedCount++; }
+    if (caseId) { base = bakeCase(base, prerendered[caseId][L], L, tables.UI[L]); bakedCount++; }
     if (page.src === HUB_SRC) { base = bakeHub(base, L, tables, prerendered); hubCount++; }
     if (page.src === SEC_SRC) { base = bakeSecurity(base, prerenderedSecurity[L], L); secCount++; }
     let out = genLocale(base, page, L);
@@ -430,14 +442,23 @@ for (const page of PAGES) {
     if (changed) changedCount++;
     genCount++;
   }
-  let en = srcHtml.replace(/[ \t]*<link rel="alternate" hreflang="x-default"[\s\S]*?<link rel="alternate" hreflang="zh-TW"[^>]*>/, () => hreflangBlock(page.rel));
-  if (caseId) { en = bakeCase(en, prerendered[caseId].en, 'en'); bakedCount++; }
+  let en = srcHtml
+    .replace(FORCE_LANG_RE, '')
+    .replace(LANG_NAV_RE, '')
+    .replace(/[ \t]*<link rel="alternate" hreflang="x-default"[\s\S]*?<link rel="alternate" hreflang="zh-TW"[^>]*>/, () => hreflangBlock(page.rel));
+  if (caseId) { en = bakeCase(en, prerendered[caseId].en, 'en', tables.UI.en); bakedCount++; }
   if (page.src === SEC_SRC) { en = bakeSecurity(en, prerenderedSecurity.en, 'en'); secCount++; }
   if (page.src === HUB_SRC) {
     en = bakeHub(en, 'en', tables, prerendered); hubCount++;
     // genLocale adds this for the /<L>/ copies; the English hub needs its own.
-    const nav = `<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+'use-cases/';},true);})();</script>`;
-    en = en.replace(/<\/body>/, () => nav + '\n</body>');
+    en = en.replace(/<\/body>/, () => localeNavScript('use-cases/') + '\n</body>');
+  }
+  // English case/security URLs are self-canonical English pages. Keep their
+  // rendered language fixed and navigate the selector to the matching locale
+  // URL, instead of swapping only the body while leaving English SEO metadata.
+  if (caseId || page.src === SEC_SRC) {
+    en = en.replace(/<head>/, () => '<head>\n  <script>window.__FORCE_LANG__="en";</script>');
+    en = en.replace(/<\/body>/, () => localeNavScript(page.rel) + '\n</body>');
   }
   const enChanged = writeIfChanged(srcPath, en);
   const enUrl = url('en', page.rel);

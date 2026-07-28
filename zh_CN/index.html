@@ -72,7 +72,7 @@
     "screenshot": "https://grab-all-files.app/og-image.png",
     "softwareVersion": "5.2.5",
     "datePublished": "2025-05-05",
-    "dateModified": "2026-07-28",
+    "dateModified": "2026-07-29",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
     "permissions": "Files are downloaded directly from the source site to the user's device; only license verification reaches the developer's servers.",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
@@ -540,6 +540,8 @@
     .spotlight-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.05rem; }
     .spotlight-item strong { display: block; color: var(--text-strong); font-size: 0.94rem; margin-bottom: 0.3rem; }
     .feature-card--spotlight p.spotlight-plan { margin-top: 1rem; padding: 0.75rem 0.9rem; border-radius: 10px; background: color-mix(in srgb, var(--primary) 8%, var(--surface)); color: var(--accent-soft-text); font-weight: 650; }
+    .spotlight-link { display: inline-flex; margin-top: 0.85rem; color: var(--primary); font-size: 0.9rem; font-weight: 700; text-decoration: none; }
+    .spotlight-link:hover { text-decoration: underline; }
     @media (max-width: 880px) { .spotlight-grid { grid-template-columns: 1fr; } }
     @media (max-width: 560px) {
       .feature-card.feature-card--spotlight { padding: 1.35rem; }
@@ -553,9 +555,10 @@
     .usecase-card h3 { font-size: 1rem; color: var(--text-strong); font-weight: 600; margin-bottom: 0.45rem; display: flex; align-items: center; gap: 0.5rem; }
     .usecase-card h3 .icon { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 7px; background: var(--accent-soft); color: var(--accent-icon); font-size: 0.95rem; }
     .usecase-card p { font-size: 0.9rem; color: var(--text-muted); }
-    .usecase-guide-links { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.7rem; margin-top: 1rem; }
+    .usecase-guide-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.7rem; margin-top: 1rem; }
     .usecase-guide-links a { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.8rem 0.9rem; color: var(--text-strong); font-size: 0.88rem; font-weight: 650; line-height: 1.35; text-decoration: none; }
     .usecase-guide-links a:hover { border-color: var(--primary); color: var(--primary); }
+    .usecase-guide-links .usecase-all { grid-column: 1 / -1; text-align: center; }
     @media (max-width: 900px) { .usecase-guide-links { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 520px) { .usecase-guide-links { grid-template-columns: 1fr; } }
 
@@ -984,6 +987,7 @@
                 <div class="spotlight-item"><strong>按需导出 AI 就绪数据</strong><p>可生成来源可追溯的 Markdown、JSONL、manifest 和表格数据，用于分析。页面收集和 HTML 生成均在您的设备本地运行；页面内容不会上传到我们的服务器。</p></div>
               </div>
               <p class="spotlight-plan">Free 方案也提供相同的输出质量。每收集 20 个页面，Free 会暂停并等待确认；Pro 则会自动继续，直到您设定的安全上限。</p>
+              <a class="spotlight-link" href="/zh_CN/use-cases/combine-web-pages-into-one-html.html">查看如何将多个网页合并为一个 HTML →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>查找隐藏文件</h3><p>支持 <strong>708 种文件类型（扩展名）</strong>。检测iframe中的PDF、懒加载图片、fetch/XHR响应、blob URL、CMS下载路径以及39个data-*属性。还能深入 Shadow DOM / Web Components、SPA 水合数据（Next.js、JSON-LD）、Cache Storage / OPFS / IndexedDB 以及带签名的云存储 URL（Cloudflare R2、Firebase、Supabase、Vercel Blob）。</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>智能过滤</h3><p>按扩展名、大小、名称、日期过滤。排序、手动重排序，将URL复制为纯文本。</p></div>
@@ -1067,6 +1071,7 @@
         </div></div>
         
         <div class="usecase-guide-links" aria-label="Use-case guides">
+          <a href="/zh_CN/use-cases/combine-web-pages-into-one-html.html"><span data-lang="zh_CN" class="active">将网页合并为 HTML</span></a>
           <a href="/zh_CN/use-cases/download-all-pdfs.html"><span data-lang="zh_CN" class="active">下载所有PDF</span></a>
           <a href="/zh_CN/use-cases/bulk-download-images.html"><span data-lang="zh_CN" class="active">批量下载图片</span></a>
           <a href="/zh_CN/use-cases/download-files-from-webpage.html"><span data-lang="zh_CN" class="active">下载网页文件</span></a>
