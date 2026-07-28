@@ -149,7 +149,7 @@
       <span>Grab All Files</span>
     </a>
     <div class="topbar-spacer"></div>
-    <a class="back-link" href="index.html">
+    <a class="back-link" href="index.html" aria-label="Back">
       <span aria-hidden="true">←</span>
       <span data-lang="en" class="active">Home</span><span data-lang="ja">トップ</span><span data-lang="es">Inicio</span><span data-lang="fr">Accueil</span><span data-lang="ko">홈</span><span data-lang="it">Home</span><span data-lang="zh_CN">首页</span><span data-lang="zh_TW">首頁</span><span data-lang="pt_BR">Início</span><span data-lang="de">Start</span>
     </a>
@@ -730,6 +730,9 @@
       sel.value = l;
       sel.setAttribute('aria-label', LANGUAGE_LABELS[l] || LANGUAGE_LABELS.en);
     }
+    var back = document.querySelector('.back-link');
+    var backLabel = back && back.querySelector('[data-lang="' + l + '"]');
+    if (back && backLabel) back.setAttribute('aria-label', backLabel.textContent.trim());
     buildToc();
   }
   function onLangChange(e) { setLang(e.target.value); }

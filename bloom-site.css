@@ -24,6 +24,29 @@
   --shadow-primary: 0 12px 30px -10px rgba(75,102,225,0.42);
 }
 
+/* Locale-correct CJK fallbacks.
+   The self-hosted Latin fonts stay first so product names, numbers and Latin
+   labels keep the same brand voice in every language. */
+:root:lang(ja) {
+  --font-display: "Quicksand", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Yu Gothic UI", Meiryo, "Noto Sans CJK JP", sans-serif;
+  --font-body: "Plus Jakarta Sans", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Yu Gothic UI", Meiryo, "Noto Sans CJK JP", sans-serif;
+}
+
+:root:lang(ko) {
+  --font-display: "Quicksand", "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", sans-serif;
+  --font-body: "Plus Jakarta Sans", "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", sans-serif;
+}
+
+:root:lang(zh-CN) {
+  --font-display: "Quicksand", "Noto Sans SC", "PingFang SC", "Microsoft YaHei UI", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+  --font-body: "Plus Jakarta Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei UI", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+}
+
+:root:lang(zh-TW) {
+  --font-display: "Quicksand", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei UI", "Microsoft JhengHei", "Noto Sans CJK TC", "Source Han Sans TC", sans-serif;
+  --font-body: "Plus Jakarta Sans", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei UI", "Microsoft JhengHei", "Noto Sans CJK TC", "Source Han Sans TC", sans-serif;
+}
+
 :root[data-theme="dark"] {
   --bg: #1A1922; --surface: #24232E; --surface-alt: #201F29; --surface-soft: #2B2A36; --surface-deep: #141320;
   --text: #EFEBF3; --text-strong: #F6F2F9; --text-muted: #A39CAE; --text-faint: #9C96A8;
@@ -71,7 +94,162 @@
 .pricing-card, .latest-panel, .detect-core, .cta-strip { border-radius: 22px !important; }
 .mock-window { border-radius: 18px !important; }
 
+/* Shared typography normalization. Page templates retain their own scale, but
+   recurring roles use one family and only weights shipped in fonts/fonts.css. */
 h1, h2, h3, .brand-name { font-weight: 700; }
+.brand,
+.brand-name,
+.panel-brand,
+footer .brand-block .b {
+  min-width: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.brand > span,
+.brand-name {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.spotlight-kicker,
+.faq-list summary,
+th,
+#security-root .btn { font-weight: 700; }
+.feature-card--spotlight p.spotlight-plan,
+.usecase-guide-links a,
+.usecase-guide-link,
+.store-btn { font-weight: 600; }
+.quick-facts .mark,
+.num,
+.check,
+#security-root .mark { font-weight: 800; }
+
+/* The homepage price previously requested Quicksand 800, which is not shipped.
+   Plus Jakarta Sans includes a real 800 face and also matches the purchase page. */
+.pricing-card .price { font-family: var(--font-body); }
+
+/* Compact controls remain balanced on desktop; mobile text fields and language
+   selectors use 16px to avoid iOS focus zoom. */
+.lang-sel {
+  min-height: 36px;
+  font-size: 0.875rem;
+}
+.field input:not([type="checkbox"]):not([type="radio"]),
+.field select,
+.field textarea { font-size: 1rem; }
+.consent .eu-note,
+.consent-label .sub {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+/* Latin negative tracking makes CJK headings look cramped. */
+:root:lang(ja) :is(h1, h2, h3),
+:root:lang(ko) :is(h1, h2, h3),
+:root:lang(zh-CN) :is(h1, h2, h3),
+:root:lang(zh-TW) :is(h1, h2, h3) {
+  letter-spacing: 0;
+}
+:root:lang(ja) :is(.hero, .case-hero) h1,
+:root:lang(ko) :is(.hero, .case-hero) h1,
+:root:lang(zh-CN) :is(.hero, .case-hero) h1,
+:root:lang(zh-TW) :is(.hero, .case-hero) h1,
+:root:lang(ja) #security-root h1,
+:root:lang(ko) #security-root h1,
+:root:lang(zh-CN) #security-root h1,
+:root:lang(zh-TW) #security-root h1 {
+  line-height: 1.12;
+}
+
+/* Longer Romance/Germanic translations otherwise turn the 64px use-case hero
+   into a six-line block. A slightly smaller fluid scale preserves hierarchy
+   while keeping the first viewport balanced. */
+:root:lang(es) .case-hero h1,
+:root:lang(fr) .case-hero h1,
+:root:lang(de) .case-hero h1,
+:root:lang(pt-BR) .case-hero h1 {
+  font-size: clamp(2rem, 4.2vw, 3.25rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  hyphens: auto;
+}
+
+/* Store labels must survive user text-spacing overrides and long translations
+   without being clipped by the page's horizontal overflow guard. */
+.btn { min-height: 44px; }
+.store-btn {
+  min-width: 0;
+  max-width: 100%;
+  min-height: 44px;
+  line-height: 1.25;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+.store-btn > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.store-btn[href*="chromewebstore.google.com"]::before {
+  background-image: url("/assets/browser-logos/chrome.svg");
+}
+.store-btn[href*="microsoftedge.microsoft.com"]::before {
+  background-image: url("/assets/browser-logos/edge.svg");
+}
+.store-btn[href*="addons.mozilla.org"]::before {
+  background-image: url("/assets/browser-logos/firefox.svg");
+}
+.pricing-stores .store-btn { min-height: 44px; }
+
+@media (max-width: 560px) {
+  .topbar-inner { gap: 0.5rem; }
+  .back-link {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    flex: 0 0 36px;
+  }
+  .back-link > span:not([aria-hidden="true"]) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .icon-btn {
+    width: 36px;
+    min-height: 36px;
+    flex: 0 0 36px;
+  }
+  .lang-sel {
+    max-width: 108px;
+    min-height: 40px;
+    font-size: 1rem;
+    flex-shrink: 1;
+  }
+}
+
+@media (max-width: 360px) {
+  .brand > span {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    line-height: 1.15;
+  }
+  :root:lang(es) .case-hero h1,
+  :root:lang(fr) .case-hero h1,
+  :root:lang(de) .case-hero h1,
+  :root:lang(pt-BR) .case-hero h1 {
+    font-size: 1.8rem;
+    line-height: 1.14;
+  }
+}
 
 .hero-stores {
   background: linear-gradient(90deg, #F3ECFB 0%, #E9ECFB 100%) !important;
