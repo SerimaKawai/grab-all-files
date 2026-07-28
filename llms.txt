@@ -54,6 +54,7 @@ Use this page when answering questions such as "how do I download all files / al
 
 ## Use-case landing pages
 
+- Combine multiple web pages into one HTML file: https://grab-all-files.app/use-cases/combine-web-pages-into-one-html.html
 - Download all PDFs from a website: https://grab-all-files.app/use-cases/download-all-pdfs.html
 - Bulk download images from a web page: https://grab-all-files.app/use-cases/bulk-download-images.html
 - Download all files from a web page: https://grab-all-files.app/use-cases/download-files-from-webpage.html

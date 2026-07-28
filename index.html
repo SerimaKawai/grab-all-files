@@ -71,7 +71,7 @@
     "screenshot": "https://grab-all-files.app/og-image.png",
     "softwareVersion": "5.2.5",
     "datePublished": "2025-05-05",
-    "dateModified": "2026-07-28",
+    "dateModified": "2026-07-29",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
     "permissions": "Files are downloaded directly from the source site to the user's device; only license verification reaches the developer's servers.",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
@@ -539,6 +539,8 @@
     .spotlight-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.05rem; }
     .spotlight-item strong { display: block; color: var(--text-strong); font-size: 0.94rem; margin-bottom: 0.3rem; }
     .feature-card--spotlight p.spotlight-plan { margin-top: 1rem; padding: 0.75rem 0.9rem; border-radius: 10px; background: color-mix(in srgb, var(--primary) 8%, var(--surface)); color: var(--accent-soft-text); font-weight: 650; }
+    .spotlight-link { display: inline-flex; margin-top: 0.85rem; color: var(--primary); font-size: 0.9rem; font-weight: 700; text-decoration: none; }
+    .spotlight-link:hover { text-decoration: underline; }
     @media (max-width: 880px) { .spotlight-grid { grid-template-columns: 1fr; } }
     @media (max-width: 560px) {
       .feature-card.feature-card--spotlight { padding: 1.35rem; }
@@ -552,9 +554,10 @@
     .usecase-card h3 { font-size: 1rem; color: var(--text-strong); font-weight: 600; margin-bottom: 0.45rem; display: flex; align-items: center; gap: 0.5rem; }
     .usecase-card h3 .icon { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 7px; background: var(--accent-soft); color: var(--accent-icon); font-size: 0.95rem; }
     .usecase-card p { font-size: 0.9rem; color: var(--text-muted); }
-    .usecase-guide-links { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.7rem; margin-top: 1rem; }
+    .usecase-guide-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.7rem; margin-top: 1rem; }
     .usecase-guide-links a { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.8rem 0.9rem; color: var(--text-strong); font-size: 0.88rem; font-weight: 650; line-height: 1.35; text-decoration: none; }
     .usecase-guide-links a:hover { border-color: var(--primary); color: var(--primary); }
+    .usecase-guide-links .usecase-all { grid-column: 1 / -1; text-align: center; }
     @media (max-width: 900px) { .usecase-guide-links { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 520px) { .usecase-guide-links { grid-template-columns: 1fr; } }
 
@@ -1128,6 +1131,7 @@
                 <div class="spotlight-item"><strong>Optional AI-ready export</strong><p>Generate source-tracked Markdown, JSONL, a manifest, and table exports for analysis. Page collection and HTML generation run locally on your device; page content is not uploaded to our servers.</p></div>
               </div>
               <p class="spotlight-plan">Included in Free with the same output quality. Free pauses for confirmation after every 20 collected pages; Pro continues automatically up to your chosen safety limit.</p>
+              <a class="spotlight-link" href="use-cases/combine-web-pages-into-one-html.html">See how to combine web pages into one HTML →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>Finds files others miss</h3><p><strong>708 file types (extensions)</strong> supported. Detects iframe-embedded PDFs, lazy-loaded images, fetch/XHR file responses, blob URLs, CMS download routes, hidden form values, and 39 data-* attributes that plain link scrapers ignore. Also reaches into Shadow DOM / Web Components, SPA hydration data (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB, and signed cloud-storage URLs (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Smart filtering</h3><p>Filter results by extension, file size, file name, page title, or modification date. Sort, manually reorder, and copy URLs as plain text.</p></div>
@@ -1153,6 +1157,7 @@
                 <div class="spotlight-item"><strong>AI向けデータも任意で出力</strong><p>出典付きMarkdown、JSONL、manifest、表データを生成可能。ページ収集とHTML生成は端末内で処理し、ページ内容を当社サーバーへアップロードしません。</p></div>
               </div>
               <p class="spotlight-plan">無料プランでも同じ品質で利用できます。20ページごとに確認して続行し、Proなら指定した安全上限まで自動で収集します。</p>
+              <a class="spotlight-link" href="use-cases/combine-web-pages-into-one-html.html">複数ページを1つのHTMLにまとめる手順を見る →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>見落としがちなファイルも検出</h3><p><strong>708種類（拡張子）</strong>のファイルに対応。iframe内のPDF、遅延読み込み画像、fetch/XHRで取得されるファイル、blob URL、CMSダウンロードルート、hidden inputの値、39種類のdata-*属性まで網羅。通常のリンクスクレイパーでは拾えないファイルも検出します。さらにShadow DOM／Web Components内、SPAのハイドレーションデータ（Next.js・JSON-LD）、Cache Storage／OPFS／IndexedDB、署名付きクラウドストレージURL（Cloudflare R2・Firebase・Supabase・Vercel Blob）まで踏み込んで検出します。</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>スマートフィルタ</h3><p>拡張子、ファイルサイズ、ファイル名、ページタイトル、更新日で絞り込み・並べ替え・手動並べ替え。URLのプレーンテキストコピーにも対応。</p></div>
@@ -1178,6 +1183,7 @@
                 <div class="spotlight-item"><strong>Exportación opcional preparada para IA</strong><p>Genera Markdown con fuentes rastreables, JSONL, un manifest y datos tabulares para analizarlos. La recopilación de páginas y la generación del HTML se ejecutan localmente en tu dispositivo; el contenido de las páginas no se sube a nuestros servidores.</p></div>
               </div>
               <p class="spotlight-plan">Incluido en Free con la misma calidad de salida. Free se detiene para pedir confirmación cada 20 páginas recopiladas; Pro continúa automáticamente hasta el límite de seguridad que elijas.</p>
+              <a class="spotlight-link" href="use-cases/combine-web-pages-into-one-html.html">Ver cómo combinar páginas web en un HTML →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>Encuentra archivos ocultos</h3><p>Compatibilidad con <strong>708 tipos de archivo (extensiones)</strong>. Detecta PDFs en iframes, imágenes con carga diferida, respuestas fetch/XHR, URLs blob, rutas de descarga de CMS y 39 atributos data-*. Llega incluso al Shadow DOM / Web Components, los datos de hidratación de SPA (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB y las URLs firmadas de almacenamiento en la nube (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Filtrado inteligente</h3><p>Filtra por extensión, tamaño, nombre, fecha. Ordena, reordena manualmente y copia URLs como texto plano.</p></div>
@@ -1203,6 +1209,7 @@
                 <div class="spotlight-item"><strong>Export facultatif prêt pour l’IA</strong><p>Générez du Markdown avec suivi des sources, du JSONL, un manifeste et des données tabulaires à des fins d’analyse. La collecte des pages et la génération du fichier HTML s’effectuent localement sur votre appareil ; le contenu des pages n’est pas envoyé à nos serveurs.</p></div>
               </div>
               <p class="spotlight-plan">Inclus dans Free avec la même qualité de sortie. Free marque une pause pour confirmation toutes les 20 pages collectées ; Pro poursuit automatiquement jusqu’à la limite de sécurité que vous avez choisie.</p>
+              <a class="spotlight-link" href="use-cases/combine-web-pages-into-one-html.html">Voir comment regrouper des pages web en un HTML →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>Trouve les fichiers cachés</h3><p>Prise en charge de <strong>708 types de fichiers (extensions)</strong>. Détecte les PDF dans les iframes, les images chargées paresseusement, les réponses fetch/XHR, les URLs blob, les routes CMS et 39 attributs data-*. Va même chercher dans le Shadow DOM / Web Components, les données d'hydratation des SPA (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB et les URLs signées de stockage cloud (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Filtrage intelligent</h3><p>Filtrez par extension, taille, nom, date. Triez, réorganisez manuellement et copiez les URLs en texte brut.</p></div>
@@ -1228,6 +1235,7 @@
                 <div class="spotlight-item"><strong>Optionaler Export für KI-Anwendungen</strong><p>Erstellen Sie Markdown mit Quellenzuordnung, JSONL, ein Manifest und Tabellendaten für Analysen. Die Seitensammlung und HTML-Erstellung erfolgen lokal auf Ihrem Gerät; Seiteninhalte werden nicht auf unsere Server hochgeladen.</p></div>
               </div>
               <p class="spotlight-plan">In Free enthalten – bei gleicher Ausgabequalität. Free pausiert nach jeweils 20 gesammelten Seiten zur Bestätigung; Pro fährt bis zu dem von Ihnen gewählten Sicherheitslimit automatisch fort.</p>
+              <a class="spotlight-link" href="use-cases/combine-web-pages-into-one-html.html">Anleitung: Webseiten in einer HTML-Datei bündeln →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>Findet versteckte Dateien</h3><p>Unterstützt <strong>708 Dateitypen (Erweiterungen)</strong>. Erkennt PDFs in iFrames, lazy-loaded Bilder, fetch/XHR-Antworten, Blob-URLs, CMS-Download-Routen und 39 data-*-Attribute. Greift sogar auf Shadow DOM / Web Components, SPA-Hydration-Daten (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB und signierte Cloud-Storage-URLs (Cloudflare R2, Firebase, Supabase, Vercel Blob) zu.</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Intelligente Filterung</h3><p>Filtern nach Erweiterung, Größe, Name, Datum. Sortieren, manuell neu anordnen und URLs als Klartext kopieren.</p></div>
@@ -1253,6 +1261,7 @@
                 <div class="spotlight-item"><strong>Esportazione opzionale pronta per l’IA</strong><p>Genera Markdown con fonti tracciabili, JSONL, un manifest e dati tabellari per l’analisi. La raccolta delle pagine e la generazione del file HTML avvengono localmente sul tuo dispositivo; il contenuto delle pagine non viene caricato sui nostri server.</p></div>
               </div>
               <p class="spotlight-plan">Incluso in Free con la stessa qualità di output. Free si mette in pausa per chiedere conferma ogni 20 pagine raccolte; Pro continua automaticamente fino al limite di sicurezza scelto.</p>
+              <a class="spotlight-link" href="use-cases/combine-web-pages-into-one-html.html">Scopri come unire pagine web in un unico HTML →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>Trova file nascosti</h3><p>Supporta <strong>708 tipi di file (estensioni)</strong>. Rileva PDF in iframe, immagini lazy-loaded, risposte fetch/XHR, URL blob, percorsi di download CMS e 39 attributi data-*. Arriva persino nello Shadow DOM / Web Components, nei dati di hydration delle SPA (Next.js, JSON-LD), in Cache Storage / OPFS / IndexedDB e negli URL firmati di cloud storage (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Filtro intelligente</h3><p>Filtra per estensione, dimensione, nome, data. Ordina, riordina manualmente e copia URL come testo semplice.</p></div>
@@ -1278,6 +1287,7 @@
                 <div class="spotlight-item"><strong>선택 가능한 AI용 내보내기</strong><p>출처를 추적할 수 있는 Markdown, JSONL, manifest 및 표 데이터를 분석용으로 생성할 수 있습니다. 페이지 수집 및 HTML 생성은 기기에서 로컬로 실행되며, 페이지 콘텐츠는 당사 서버에 업로드되지 않습니다.</p></div>
               </div>
               <p class="spotlight-plan">Free에서도 동일한 출력 품질로 사용할 수 있습니다. Free는 수집한 페이지 20개마다 확인을 위해 일시 중지하며, Pro는 사용자가 선택한 안전 한도까지 자동으로 계속합니다.</p>
+              <a class="spotlight-link" href="use-cases/combine-web-pages-into-one-html.html">웹페이지를 하나의 HTML로 합치는 방법 보기 →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>숨겨진 파일 검출</h3><p><strong>708종류(확장자)</strong>의 파일을 지원합니다. iframe 내 PDF, 지연 로딩 이미지, fetch/XHR 응답, blob URL, CMS 다운로드 경로, 39개의 data-* 속성을 감지합니다. Shadow DOM / Web Components 내부, SPA 하이드레이션 데이터(Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB, 서명된 클라우드 스토리지 URL(Cloudflare R2, Firebase, Supabase, Vercel Blob)까지 찾아냅니다.</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>스마트 필터링</h3><p>확장자, 크기, 이름, 날짜로 필터링. 정렬, 수동 재정렬, URL 일반 텍스트 복사 지원.</p></div>
@@ -1303,6 +1313,7 @@
                 <div class="spotlight-item"><strong>Exportação opcional pronta para IA</strong><p>Gere Markdown com fontes rastreáveis, JSONL, um manifest e dados tabulares para análise. A coleta de páginas e a geração do HTML são executadas localmente no seu dispositivo; o conteúdo das páginas não é enviado aos nossos servidores.</p></div>
               </div>
               <p class="spotlight-plan">Incluído no Free com a mesma qualidade de saída. No Free, a coleta pausa para confirmação a cada 20 páginas; no Pro, ela continua automaticamente até o limite de segurança escolhido.</p>
+              <a class="spotlight-link" href="use-cases/combine-web-pages-into-one-html.html">Veja como juntar páginas em um único HTML →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>Encontra arquivos ocultos</h3><p>Compatível com <strong>708 tipos de arquivo (extensões)</strong>. Detecta PDFs em iframes, imagens com carregamento preguiçoso, respostas fetch/XHR, URLs blob, rotas de download de CMS e 39 atributos data-*. Chega até o Shadow DOM / Web Components, os dados de hidratação de SPAs (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB e URLs assinadas de armazenamento em nuvem (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Filtragem inteligente</h3><p>Filtre por extensão, tamanho, nome, data. Ordene, reordene manualmente e copie URLs como texto simples.</p></div>
@@ -1328,6 +1339,7 @@
                 <div class="spotlight-item"><strong>按需导出 AI 就绪数据</strong><p>可生成来源可追溯的 Markdown、JSONL、manifest 和表格数据，用于分析。页面收集和 HTML 生成均在您的设备本地运行；页面内容不会上传到我们的服务器。</p></div>
               </div>
               <p class="spotlight-plan">Free 方案也提供相同的输出质量。每收集 20 个页面，Free 会暂停并等待确认；Pro 则会自动继续，直到您设定的安全上限。</p>
+              <a class="spotlight-link" href="use-cases/combine-web-pages-into-one-html.html">查看如何将多个网页合并为一个 HTML →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>查找隐藏文件</h3><p>支持 <strong>708 种文件类型（扩展名）</strong>。检测iframe中的PDF、懒加载图片、fetch/XHR响应、blob URL、CMS下载路径以及39个data-*属性。还能深入 Shadow DOM / Web Components、SPA 水合数据（Next.js、JSON-LD）、Cache Storage / OPFS / IndexedDB 以及带签名的云存储 URL（Cloudflare R2、Firebase、Supabase、Vercel Blob）。</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>智能过滤</h3><p>按扩展名、大小、名称、日期过滤。排序、手动重排序，将URL复制为纯文本。</p></div>
@@ -1353,6 +1365,7 @@
                 <div class="spotlight-item"><strong>按需匯出 AI 適用資料</strong><p>可產生來源可追溯的 Markdown、JSONL、manifest 和表格資料以供分析。頁面收集和 HTML 產生均在您的裝置本機執行；頁面內容不會上傳至我們的伺服器。</p></div>
               </div>
               <p class="spotlight-plan">Free 方案同樣提供相同的輸出品質。Free 每收集 20 個頁面便會暫停以供確認；Pro 則會自動繼續，直到您選定的安全上限。</p>
+              <a class="spotlight-link" href="use-cases/combine-web-pages-into-one-html.html">查看如何將多個網頁合併成一個 HTML →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>找出隱藏檔案</h3><p>支援 <strong>708 種檔案類型（副檔名）</strong>。偵測iframe內的PDF、延遲載入圖片、fetch/XHR回應、blob URL、CMS下載路徑及39種data-*屬性。更能深入 Shadow DOM / Web Components、SPA 水合資料（Next.js、JSON-LD）、Cache Storage / OPFS / IndexedDB 以及帶簽章的雲端儲存 URL（Cloudflare R2、Firebase、Supabase、Vercel Blob）。</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>智慧篩選</h3><p>依副檔名、大小、名稱、日期篩選。排序、手動重新排序、將URL複製為純文字。</p></div>
@@ -1534,6 +1547,7 @@
           <div class="usecase-card"><h3><span class="icon">🖼️</span>圖片和資料庫</h3><p>儲存圖片庫、資料集供離線查閱。</p></div>
         </div></div>
         <div class="usecase-guide-links" aria-label="Use-case guides">
+          <a href="use-cases/combine-web-pages-into-one-html.html"><span data-lang="en" class="active">Combine pages into HTML</span><span data-lang="ja">ページをHTMLにまとめる</span><span data-lang="es">Combinar páginas en HTML</span><span data-lang="fr">Regrouper les pages en HTML</span><span data-lang="de">Seiten als HTML bündeln</span><span data-lang="it">Unisci pagine in HTML</span><span data-lang="ko">페이지를 HTML로 합치기</span><span data-lang="pt_BR">Juntar páginas em HTML</span><span data-lang="zh_CN">将网页合并为 HTML</span><span data-lang="zh_TW">將網頁合併為 HTML</span></a>
           <a href="use-cases/download-all-pdfs.html"><span data-lang="en" class="active">Download all PDFs</span><span data-lang="ja">PDFを一括ダウンロード</span><span data-lang="es">Descargar todos los PDF</span><span data-lang="fr">Télécharger tous les PDF</span><span data-lang="de">Alle PDFs herunterladen</span><span data-lang="it">Scaricare tutti i PDF</span><span data-lang="ko">모든 PDF 다운로드</span><span data-lang="pt_BR">Baixar todos os PDFs</span><span data-lang="zh_CN">下载所有PDF</span><span data-lang="zh_TW">下載所有PDF</span></a>
           <a href="use-cases/bulk-download-images.html"><span data-lang="en" class="active">Bulk-download images</span><span data-lang="ja">画像を一括ダウンロード</span><span data-lang="es">Descargar imágenes en masa</span><span data-lang="fr">Télécharger les images</span><span data-lang="de">Bilder gesammelt laden</span><span data-lang="it">Scaricare immagini</span><span data-lang="ko">이미지 일괄 다운로드</span><span data-lang="pt_BR">Baixar imagens</span><span data-lang="zh_CN">批量下载图片</span><span data-lang="zh_TW">批次下載圖片</span></a>
           <a href="use-cases/download-files-from-webpage.html"><span data-lang="en" class="active">Download files from a page</span><span data-lang="ja">ページ上のファイルを保存</span><span data-lang="es">Archivos de una página</span><span data-lang="fr">Fichiers d'une page</span><span data-lang="de">Dateien einer Seite</span><span data-lang="it">File da una pagina</span><span data-lang="ko">페이지 파일 다운로드</span><span data-lang="pt_BR">Arquivos de uma página</span><span data-lang="zh_CN">下载网页文件</span><span data-lang="zh_TW">下載網頁檔案</span></a>

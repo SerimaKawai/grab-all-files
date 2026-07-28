@@ -42,6 +42,10 @@
       privacy: "Files download directly from the source site to your device",
       ctaTitle: "Try Grab All Files on your browser.",
       ctaText: "Install the extension and run a real scan on the page you need — free to use, every feature included, up to 20 files per download. Pro ($19.99, one-time) removes the per-download limit.",
+      skip: "Skip to content",
+      primaryNav: "Primary navigation",
+      themeToggle: "Toggle theme",
+      languageLabel: "Language",
       footer: "Independent browser extension by Serima Kawai. Not affiliated with Google, Microsoft, or Mozilla."
     },
     ja: {
@@ -68,6 +72,10 @@
       privacy: "ファイルは元サイトから端末へ直接ダウンロード",
       ctaTitle: "実際のページで Grab All Files を試せます。",
       ctaText: "拡張機能をインストールし、対象ページで実際にスキャン。無料で全機能を利用でき、1回のダウンロードで最大20件まで保存できます。Pro（$19.99・買い切り）で1回あたりの上限を解除。",
+      skip: "本文へスキップ",
+      primaryNav: "メインナビゲーション",
+      themeToggle: "表示テーマを切り替え",
+      languageLabel: "言語",
       footer: "Serima Kawai による独立したブラウザ拡張機能。Google、Microsoft、Mozillaとは提携していません。"
     },
     es: {
@@ -94,6 +102,10 @@
       privacy: "Los archivos se descargan del sitio fuente a tu dispositivo",
       ctaTitle: "Prueba Grab All Files en tu navegador.",
       ctaText: "Instala la extensión y escanea una página real: gratis, con todas las funciones y hasta 20 archivos por descarga. Pro ($19.99, pago único) elimina el límite por descarga.",
+      skip: "Saltar al contenido",
+      primaryNav: "Navegación principal",
+      themeToggle: "Cambiar tema",
+      languageLabel: "Idioma",
       footer: "Extensión independiente de Serima Kawai. Sin afiliación con Google, Microsoft ni Mozilla."
     },
     fr: {
@@ -120,6 +132,10 @@
       privacy: "Les fichiers se téléchargent du site source vers votre appareil",
       ctaTitle: "Essayez Grab All Files dans votre navigateur.",
       ctaText: "Installez l'extension et lancez un vrai scan : gratuit, toutes les fonctions incluses, jusqu'à 20 fichiers par téléchargement. Pro (19,99 $, achat unique) supprime la limite par téléchargement.",
+      skip: "Aller au contenu",
+      primaryNav: "Navigation principale",
+      themeToggle: "Changer de thème",
+      languageLabel: "Langue",
       footer: "Extension indépendante par Serima Kawai. Non affiliée à Google, Microsoft ou Mozilla."
     },
     de: {
@@ -146,6 +162,10 @@
       privacy: "Dateien werden direkt von der Quellseite auf Ihr Gerät geladen",
       ctaTitle: "Testen Sie Grab All Files in Ihrem Browser.",
       ctaText: "Installieren Sie die Erweiterung und scannen Sie eine echte Seite – kostenlos, mit allen Funktionen und bis zu 20 Dateien pro Download. Pro (19,99 $, einmalig) hebt das Limit pro Download auf.",
+      skip: "Zum Inhalt springen",
+      primaryNav: "Hauptnavigation",
+      themeToggle: "Darstellung wechseln",
+      languageLabel: "Sprache",
       footer: "Unabhängige Browser-Erweiterung von Serima Kawai. Nicht mit Google, Microsoft oder Mozilla verbunden."
     },
     it: {
@@ -172,6 +192,10 @@
       privacy: "I file vengono scaricati dal sito sorgente al dispositivo",
       ctaTitle: "Prova Grab All Files nel tuo browser.",
       ctaText: "Installa l'estensione e scansiona una pagina reale: gratis, con tutte le funzioni e fino a 20 file per download. Pro ($19.99, acquisto unico) rimuove il limite per download.",
+      skip: "Vai al contenuto",
+      primaryNav: "Navigazione principale",
+      themeToggle: "Cambia tema",
+      languageLabel: "Lingua",
       footer: "Estensione indipendente di Serima Kawai. Non affiliata a Google, Microsoft o Mozilla."
     },
     ko: {
@@ -198,6 +222,10 @@
       privacy: "파일은 원본 사이트에서 기기로 직접 다운로드됩니다",
       ctaTitle: "브라우저에서 Grab All Files를 사용해 보세요.",
       ctaText: "확장 프로그램을 설치하고 실제 페이지를 스캔하세요. 모든 기능을 무료로 사용할 수 있으며, 한 번의 다운로드로 최대 20개까지 저장됩니다. Pro($19.99, 1회 구매)로 다운로드당 제한을 해제하세요.",
+      skip: "본문으로 건너뛰기",
+      primaryNav: "주요 탐색",
+      themeToggle: "테마 전환",
+      languageLabel: "언어",
       footer: "Serima Kawai의 독립 브라우저 확장 프로그램. Google, Microsoft, Mozilla와 제휴하지 않습니다."
     },
     pt_BR: {
@@ -224,6 +252,10 @@
       privacy: "Os arquivos são baixados do site fonte para o seu dispositivo",
       ctaTitle: "Teste o Grab All Files no seu navegador.",
       ctaText: "Instale a extensão e escaneie uma página real: grátis, com todos os recursos e até 20 arquivos por download. O Pro ($19.99, compra única) remove o limite por download.",
+      skip: "Ir para o conteúdo",
+      primaryNav: "Navegação principal",
+      themeToggle: "Alternar tema",
+      languageLabel: "Idioma",
       footer: "Extensão independente de Serima Kawai. Sem afiliação com Google, Microsoft ou Mozilla."
     },
     zh_CN: {
@@ -250,6 +282,10 @@
       privacy: "文件从源网站直接下载到您的设备",
       ctaTitle: "在浏览器中试用 Grab All Files。",
       ctaText: "安装扩展程序，在真实页面上运行扫描。免费使用，包含全部功能，单次下载最多保存20个文件。Pro（$19.99，一次性购买）可解除单次下载限制。",
+      skip: "跳至主要内容",
+      primaryNav: "主导航",
+      themeToggle: "切换主题",
+      languageLabel: "语言",
       footer: "Serima Kawai 的独立浏览器扩展程序。与 Google、Microsoft 或 Mozilla 无关联。"
     },
     zh_TW: {
@@ -276,6 +312,10 @@
       privacy: "檔案從來源網站直接下載到您的裝置",
       ctaTitle: "在瀏覽器中試用 Grab All Files。",
       ctaText: "安裝擴充功能，在真實頁面執行掃描。免費使用，包含全部功能，單次下載最多儲存20個檔案。Pro（$19.99，一次性購買）可解除單次下載限制。",
+      skip: "跳至主要內容",
+      primaryNav: "主要導覽",
+      themeToggle: "切換主題",
+      languageLabel: "語言",
       footer: "Serima Kawai 的獨立瀏覽器擴充功能。與 Google、Microsoft 或 Mozilla 無關聯。"
     }
   };
@@ -285,6 +325,7 @@
   }
 
   var GUIDE_ORDER = [
+    "combine-web-pages-into-one-html",
     "download-all-pdfs",
     "bulk-download-images",
     "download-files-from-webpage",
@@ -294,6 +335,7 @@
 
   var GUIDE_LABELS = {
     en: {
+      "combine-web-pages-into-one-html": "Combine pages into HTML",
       "download-all-pdfs": "Download all PDFs",
       "bulk-download-images": "Bulk-download images",
       "download-files-from-webpage": "Download files from a page",
@@ -301,6 +343,7 @@
       "merge-pdfs-locally": "Merge PDFs locally"
     },
     ja: {
+      "combine-web-pages-into-one-html": "ページをHTMLにまとめる",
       "download-all-pdfs": "PDFを一括ダウンロード",
       "bulk-download-images": "画像を一括ダウンロード",
       "download-files-from-webpage": "ページ上のファイルを保存",
@@ -308,6 +351,7 @@
       "merge-pdfs-locally": "PDFをローカル結合"
     },
     es: {
+      "combine-web-pages-into-one-html": "Combinar páginas en HTML",
       "download-all-pdfs": "Descargar todos los PDF",
       "bulk-download-images": "Descargar imágenes en masa",
       "download-files-from-webpage": "Archivos de una página",
@@ -315,6 +359,7 @@
       "merge-pdfs-locally": "Fusionar PDF localmente"
     },
     fr: {
+      "combine-web-pages-into-one-html": "Regrouper les pages en HTML",
       "download-all-pdfs": "Télécharger tous les PDF",
       "bulk-download-images": "Télécharger les images",
       "download-files-from-webpage": "Fichiers d'une page",
@@ -322,6 +367,7 @@
       "merge-pdfs-locally": "Fusionner PDF localement"
     },
     de: {
+      "combine-web-pages-into-one-html": "Seiten als HTML bündeln",
       "download-all-pdfs": "Alle PDFs herunterladen",
       "bulk-download-images": "Bilder gesammelt laden",
       "download-files-from-webpage": "Dateien einer Seite",
@@ -329,6 +375,7 @@
       "merge-pdfs-locally": "PDFs lokal zusammenführen"
     },
     it: {
+      "combine-web-pages-into-one-html": "Unisci pagine in HTML",
       "download-all-pdfs": "Scaricare tutti i PDF",
       "bulk-download-images": "Scaricare immagini",
       "download-files-from-webpage": "File da una pagina",
@@ -336,6 +383,7 @@
       "merge-pdfs-locally": "Unire PDF localmente"
     },
     ko: {
+      "combine-web-pages-into-one-html": "페이지를 HTML로 합치기",
       "download-all-pdfs": "모든 PDF 다운로드",
       "bulk-download-images": "이미지 일괄 다운로드",
       "download-files-from-webpage": "페이지 파일 다운로드",
@@ -343,6 +391,7 @@
       "merge-pdfs-locally": "PDF 로컬 병합"
     },
     pt_BR: {
+      "combine-web-pages-into-one-html": "Juntar páginas em HTML",
       "download-all-pdfs": "Baixar todos os PDFs",
       "bulk-download-images": "Baixar imagens",
       "download-files-from-webpage": "Arquivos de uma página",
@@ -350,6 +399,7 @@
       "merge-pdfs-locally": "Mesclar PDFs localmente"
     },
     zh_CN: {
+      "combine-web-pages-into-one-html": "将网页合并为 HTML",
       "download-all-pdfs": "下载所有PDF",
       "bulk-download-images": "批量下载图片",
       "download-files-from-webpage": "下载网页文件",
@@ -357,6 +407,7 @@
       "merge-pdfs-locally": "本地合并PDF"
     },
     zh_TW: {
+      "combine-web-pages-into-one-html": "將網頁合併為 HTML",
       "download-all-pdfs": "下載所有PDF",
       "bulk-download-images": "批次下載圖片",
       "download-files-from-webpage": "下載網頁檔案",
@@ -366,6 +417,152 @@
   };
 
   var CASES = {
+    "combine-web-pages-into-one-html": {
+      path: "combine-web-pages-into-one-html.html",
+      related: ["download-files-from-webpage", "internal-portal-downloads", "download-all-pdfs"],
+      cta: {
+        en: { title: "Turn related pages into one HTML file.", text: "Page collection and HTML generation stay on your device. Free pauses for confirmation every 20 pages; Pro continues automatically up to your chosen safety limit." },
+        ja: { title: "関連ページを、1つのHTMLにまとめよう。", text: "ページ収集とHTML生成は端末内で処理します。無料プランは20ページごとに確認し、Proは指定した安全上限まで自動で続行します。" },
+        es: { title: "Reúne páginas relacionadas en un único archivo HTML.", text: "La recopilación de páginas y la generación del HTML se realizan en tu dispositivo. Free se detiene para pedir confirmación cada 20 páginas; Pro continúa automáticamente hasta el límite de seguridad que elijas." },
+        fr: { title: "Regroupez les pages associées dans un seul fichier HTML.", text: "La collecte des pages et la génération du fichier HTML s’effectuent sur votre appareil. Free marque une pause pour confirmation toutes les 20 pages ; Pro poursuit automatiquement jusqu’à la limite de sécurité choisie." },
+        de: { title: "Fassen Sie zugehörige Seiten in einer HTML-Datei zusammen.", text: "Die Seitensammlung und HTML-Erstellung erfolgen auf Ihrem Gerät. Free pausiert nach jeweils 20 Seiten zur Bestätigung; Pro fährt bis zum gewählten Sicherheitslimit automatisch fort." },
+        it: { title: "Riunisci le pagine correlate in un unico file HTML.", text: "La raccolta delle pagine e la generazione del file HTML avvengono sul tuo dispositivo. Free si mette in pausa per chiedere conferma ogni 20 pagine; Pro continua automaticamente fino al limite di sicurezza scelto." },
+        ko: { title: "관련 페이지를 하나의 HTML 파일로 합치세요.", text: "페이지 수집 및 HTML 생성은 기기에서 실행됩니다. Free는 20페이지마다 확인을 위해 일시 중지하며, Pro는 선택한 안전 한도까지 자동으로 계속합니다." },
+        pt_BR: { title: "Reúna páginas relacionadas em um único arquivo HTML.", text: "A coleta de páginas e a geração do HTML são executadas no seu dispositivo. No Free, a coleta pausa para confirmação a cada 20 páginas; no Pro, ela continua automaticamente até o limite de segurança escolhido." },
+        zh_CN: { title: "将相关页面合并为一个 HTML 文件。", text: "页面收集和 HTML 生成均在您的设备上运行。Free 每 20 个页面暂停一次以供确认；Pro 会自动继续，直到您设定的安全上限。" },
+        zh_TW: { title: "將相關頁面合併成一個 HTML 檔案。", text: "頁面收集和 HTML 產生均在您的裝置上執行。Free 每 20 個頁面暫停一次以供確認；Pro 會自動繼續，直到您設定的安全上限。" }
+      },
+      copy: {
+        en: c(
+          "Combine multiple web pages into one HTML file | Grab All Files",
+          "Combine related web pages into one searchable, printable HTML with a table of contents. Review the selection; processing stays on-device.",
+          "Web-page HTML collection",
+          "Combine multiple web pages into one searchable HTML file.",
+          "Start from the page open in your browser. Grab All Files finds related pages, lets you review titles and order, then saves the selected readable content as one HTML file with a table of contents.",
+          [
+            "Research, documentation, manuals, and reference sites spread across many pages.",
+            "Saving related articles or public information as one portable offline document.",
+            "Creating a searchable, printable archive with clear source links.",
+            "Preparing optional source-tracked Markdown, JSONL, manifest, and table exports for AI analysis."
+          ],
+          [
+            "Open the starting page and choose “Combine pages into HTML” in Grab All Files.",
+            "Find related pages, then remove or reorder items before collection.",
+            "Choose image and linked-document options, then save one HTML file with a table of contents."
+          ],
+          [
+            { q: "Can I choose which pages to include?", a: "Yes. Review page titles before collection, remove pages you do not need, and reorder the rest." },
+            { q: "Can I read the result offline?", a: "Yes. Embed images for offline reading, or keep online references for a smaller HTML file. Linked documents can also be saved alongside it." },
+            { q: "Is page content uploaded to your servers?", a: "No. Page collection and HTML generation run on your device. The Free plan pauses for confirmation every 20 pages; Pro continues automatically up to the chosen safety limit." },
+            { q: "How is this different from a one-page saver such as SingleFile?", a: "One-page savers preserve the page currently open. Grab All Files can discover related pages, let you review and reorder them, and combine the selected readable content into one HTML file with a shared table of contents." }
+          ]
+        ),
+        ja: c(
+          "複数のWebページを1つのHTMLにまとめる | Grab All Files",
+          "関連ページを探して収録対象を確認し、選択した内容を目次付きで検索・印刷できる1つのHTMLにまとめます。処理は端末内で完結します。",
+          "WebページHTML収集",
+          "複数のWebページを、検索できる1つのHTMLにまとめる。",
+          "ブラウザで開いているページを起点に、Grab All Files が関連ページを探索。タイトルと順番を確認し、選択した読みやすい本文を目次付きの1つのHTMLに保存します。",
+          [
+            "複数ページに分かれた調査資料、マニュアル、ドキュメント、参考サイト。",
+            "関連記事や公開情報を、持ち運べる1つのオフライン資料として保存。",
+            "出典リンクが分かる、検索・印刷可能なアーカイブを作成。",
+            "AI解析向けに、出典付きMarkdown、JSONL、manifest、表データを任意出力。"
+          ],
+          [
+            "起点ページを開き、Grab All Files で「ページをHTMLにまとめる」を選びます。",
+            "関連ページを探し、収集前に不要なページを除外または並べ替えます。",
+            "画像とリンク先文書の保存方法を選び、目次付きの1つのHTMLを保存します。"
+          ],
+          [
+            { q: "収録するページを選べますか？", a: "はい。収集前にページタイトルを確認し、不要なページを除外して、残すページの順番を変更できます。" },
+            { q: "作成したHTMLはオフラインで読めますか？", a: "はい。画像を埋め込めばオフラインで閲覧できます。HTMLを軽くしたい場合はオンライン参照も選べ、リンク先の文書をHTMLと一緒に保存することもできます。" },
+            { q: "ページ内容はサーバーへアップロードされますか？", a: "いいえ。ページ収集とHTML生成は端末内で処理します。無料プランは20ページごとに確認し、Proは指定した安全上限まで自動で続行します。" },
+            { q: "SingleFileのような1ページ保存ツールとの違いは？", a: "1ページ保存ツールは、現在開いているページを保存する用途に向いています。Grab All Files は関連ページを探し、対象と順番を確認して、選択した読みやすい本文を共通の目次付きで1つのHTMLにまとめます。" }
+          ]
+        ),
+        es: c(
+          "Combinar páginas web en un archivo HTML | Grab All Files",
+          "Combina páginas relacionadas en un único HTML con índice, búsqueda e impresión. Revisa la selección; todo se procesa en tu dispositivo.",
+          "Recopilación HTML de páginas web",
+          "Combina varias páginas web en un único archivo HTML en el que puedes hacer búsquedas.",
+          "Empieza por la página abierta en tu navegador. Grab All Files encuentra páginas relacionadas, te permite revisar los títulos y el orden, y guarda el contenido legible seleccionado en un único archivo HTML con índice.",
+          ["Investigaciones, documentación, manuales y sitios de referencia repartidos en muchas páginas.", "Guardar artículos relacionados o información pública como un único documento portátil para consultar sin conexión.", "Crear un archivo en el que se puedan hacer búsquedas e imprimir, con enlaces claros a las fuentes.", "Preparar opcionalmente Markdown con fuentes rastreables, JSONL, un manifest y datos tabulares para el análisis con IA."],
+          ["Abre la página inicial y elige «Combinar páginas en HTML» en Grab All Files.", "Busca páginas relacionadas y elimina o reordena los elementos antes de recopilarlos.", "Elige las opciones para imágenes y documentos enlazados, y guarda un único archivo HTML con índice."],
+          [{ q: "¿Puedo elegir qué páginas incluir?", a: "Sí. Revisa los títulos antes de recopilar las páginas, elimina las que no necesites y reordena las demás." }, { q: "¿Puedo consultar el resultado sin conexión?", a: "Sí. Incorpora las imágenes para leer sin conexión o conserva las referencias en línea para reducir el tamaño del archivo HTML. Los documentos enlazados también se pueden guardar junto con él." }, { q: "¿Se sube el contenido de las páginas a sus servidores?", a: "No. La recopilación de páginas y la generación del HTML se ejecutan en tu dispositivo. Free se detiene para pedir confirmación cada 20 páginas; Pro continúa automáticamente hasta el límite de seguridad elegido." }, { q: "¿En qué se diferencia de una herramienta para guardar una sola página, como SingleFile?", a: "Las herramientas de este tipo conservan la página que está abierta en ese momento. Grab All Files puede encontrar páginas relacionadas, permitirte revisarlas y reordenarlas, y reunir el contenido legible seleccionado en un único archivo HTML con un índice común." }]
+        ),
+        fr: c(
+          "Regrouper des pages web dans un fichier HTML | Grab All Files",
+          "Regroupez des pages associées dans un seul HTML avec sommaire, recherche et impression. Vérifiez la sélection ; tout reste sur votre appareil.",
+          "Collecte HTML de pages web",
+          "Regroupez plusieurs pages web dans un seul fichier HTML dans lequel vous pouvez effectuer des recherches.",
+          "Partez de la page ouverte dans votre navigateur. Grab All Files trouve les pages associées, vous permet de vérifier les titres et leur ordre, puis enregistre le contenu lisible sélectionné dans un seul fichier HTML avec table des matières.",
+          ["Les recherches, la documentation, les manuels et les sites de référence répartis sur de nombreuses pages.", "Enregistrer des articles associés ou des informations publiques dans un seul document portable consultable hors ligne.", "Créer une archive dans laquelle vous pouvez effectuer des recherches et que vous pouvez imprimer, avec des liens clairs vers les sources.", "Préparer, si nécessaire, du Markdown avec suivi des sources, du JSONL, un manifeste et des données tabulaires pour l’analyse par IA."],
+          ["Ouvrez la page de départ et choisissez « Regrouper les pages en HTML » dans Grab All Files.", "Trouvez les pages associées, puis retirez ou réorganisez les éléments avant la collecte.", "Choisissez les options relatives aux images et aux documents liés, puis enregistrez un seul fichier HTML avec table des matières."],
+          [{ q: "Puis-je choisir les pages à inclure ?", a: "Oui. Vérifiez les titres avant la collecte, retirez les pages dont vous n’avez pas besoin et réorganisez les autres." }, { q: "Puis-je consulter le résultat hors ligne ?", a: "Oui. Intégrez les images pour une consultation hors ligne, ou conservez les références en ligne afin d’alléger le fichier HTML. Les documents liés peuvent également être enregistrés avec celui-ci." }, { q: "Le contenu des pages est-il envoyé à vos serveurs ?", a: "Non. La collecte des pages et la génération du fichier HTML s’effectuent sur votre appareil. Free marque une pause pour confirmation toutes les 20 pages ; Pro poursuit automatiquement jusqu’à la limite de sécurité choisie." }, { q: "Quelle est la différence avec un outil d’enregistrement d’une seule page tel que SingleFile ?", a: "Les outils de ce type conservent la page actuellement ouverte. Grab All Files peut trouver les pages associées, vous permettre de les vérifier et de les réorganiser, puis regrouper le contenu lisible sélectionné dans un seul fichier HTML avec une table des matières commune." }]
+        ),
+        de: c(
+          "Webseiten in einer HTML-Datei bündeln | Grab All Files",
+          "Fassen Sie zugehörige Webseiten in einer durchsuchbaren HTML-Datei mit Inhaltsverzeichnis zusammen. Auswahl und Verarbeitung bleiben auf Ihrem Gerät.",
+          "HTML-Sammlung für Webseiten",
+          "Fassen Sie mehrere Webseiten in einer einzigen durchsuchbaren HTML-Datei zusammen.",
+          "Beginnen Sie mit der Seite, die in Ihrem Browser geöffnet ist. Grab All Files findet zugehörige Seiten, lässt Sie Titel und Reihenfolge prüfen und speichert die ausgewählten lesbaren Inhalte anschließend als eine HTML-Datei mit Inhaltsverzeichnis.",
+          ["Recherchen, Dokumentationen, Handbücher und Referenzseiten, deren Inhalte sich über viele Seiten verteilen.", "Zusammengehörige Artikel oder öffentliche Informationen als ein portables Offline-Dokument speichern.", "Ein durchsuchbares und druckbares Archiv mit eindeutigen Quellenlinks erstellen.", "Optional Markdown mit Quellenzuordnung, JSONL, ein Manifest und Tabellendaten für KI-Analysen vorbereiten."],
+          ["Öffnen Sie die Startseite und wählen Sie in Grab All Files „Seiten zu HTML zusammenfassen“.", "Finden Sie zugehörige Seiten und entfernen oder sortieren Sie Einträge vor der Sammlung neu.", "Wählen Sie die Optionen für Bilder und verlinkte Dokumente und speichern Sie anschließend eine HTML-Datei mit Inhaltsverzeichnis."],
+          [{ q: "Kann ich auswählen, welche Seiten aufgenommen werden?", a: "Ja. Prüfen Sie vor der Sammlung die Seitentitel, entfernen Sie nicht benötigte Seiten und sortieren Sie die übrigen neu." }, { q: "Kann ich das Ergebnis offline lesen?", a: "Ja. Betten Sie Bilder für die Offline-Nutzung ein oder behalten Sie Online-Verweise bei, um die HTML-Datei kleiner zu halten. Verlinkte Dokumente können ebenfalls zusammen mit ihr gespeichert werden." }, { q: "Werden Seiteninhalte auf Ihre Server hochgeladen?", a: "Nein. Die Seitensammlung und HTML-Erstellung erfolgen auf Ihrem Gerät. Free pausiert nach jeweils 20 Seiten zur Bestätigung; Pro fährt bis zum gewählten Sicherheitslimit automatisch fort." }, { q: "Worin unterscheidet sich dies von einem Tool zum Speichern einzelner Seiten wie SingleFile?", a: "Tools zum Speichern einzelner Seiten sichern jeweils die aktuell geöffnete Seite. Grab All Files kann zugehörige Seiten finden, Ihnen das Prüfen und Neuanordnen ermöglichen und die ausgewählten lesbaren Inhalte in einer HTML-Datei mit gemeinsamem Inhaltsverzeichnis zusammenfassen." }]
+        ),
+        it: c(
+          "Unire più pagine web in un unico file HTML | Grab All Files",
+          "Unisci pagine correlate in un unico HTML con indice, ricerca e stampa. Controlla la selezione; l’elaborazione resta sul dispositivo.",
+          "Raccolta HTML di pagine web",
+          "Unisci più pagine web in un unico file HTML ricercabile.",
+          "Parti dalla pagina aperta nel browser. Grab All Files trova le pagine correlate, ti consente di controllare i titoli e l’ordine, quindi salva il contenuto leggibile selezionato in un unico file HTML con indice.",
+          ["Ricerche, documentazione, manuali e siti di riferimento distribuiti su molte pagine.", "Salvare articoli correlati o informazioni pubbliche come un unico documento portatile da consultare offline.", "Creare un archivio ricercabile e stampabile con link chiari alle fonti.", "Preparare facoltativamente Markdown con fonti tracciabili, JSONL, un manifest e dati tabellari per l’analisi con IA."],
+          ["Apri la pagina iniziale e scegli «Unisci pagine in HTML» in Grab All Files.", "Trova le pagine correlate, quindi rimuovi o riordina gli elementi prima della raccolta.", "Scegli le opzioni per le immagini e i documenti collegati, quindi salva un unico file HTML con indice."],
+          [{ q: "Posso scegliere quali pagine includere?", a: "Sì. Controlla i titoli prima della raccolta, rimuovi le pagine che non ti servono e riordina le altre." }, { q: "Posso leggere il risultato offline?", a: "Sì. Incorpora le immagini per la lettura offline oppure mantieni i riferimenti online per ridurre le dimensioni del file HTML. Anche i documenti collegati possono essere salvati insieme al file." }, { q: "Il contenuto delle pagine viene caricato sui vostri server?", a: "No. La raccolta delle pagine e la generazione del file HTML avvengono sul tuo dispositivo. Free si mette in pausa per chiedere conferma ogni 20 pagine; Pro continua automaticamente fino al limite di sicurezza scelto." }, { q: "In cosa si differenzia da uno strumento come SingleFile, che salva una sola pagina?", a: "Gli strumenti di questo tipo conservano la pagina attualmente aperta. Grab All Files può trovare le pagine correlate, consentirti di controllarle e riordinarle, quindi riunire il contenuto leggibile selezionato in un unico file HTML con un indice comune." }]
+        ),
+        ko: c(
+          "여러 웹페이지를 하나의 HTML 파일로 합치기 | Grab All Files",
+          "관련 페이지를 찾고 포함할 항목을 검토한 뒤, 선택한 콘텐츠를 목차가 있는 하나의 검색·인쇄 가능한 HTML 파일로 통합하세요. 모든 처리는 기기에서 이루어집니다.",
+          "웹페이지 HTML 수집",
+          "여러 웹페이지를 검색 가능한 하나의 HTML 파일로 합치세요.",
+          "브라우저에 열려 있는 페이지에서 시작하세요. Grab All Files가 관련 페이지를 찾고 제목과 순서를 검토할 수 있게 한 뒤, 선택한 페이지의 읽기 쉬운 콘텐츠를 목차가 있는 하나의 HTML 파일로 저장합니다.",
+          ["여러 페이지에 흩어진 조사 자료, 문서, 설명서 및 참고 사이트.", "관련 기사나 공개 정보를 휴대 가능한 하나의 오프라인 문서로 저장.", "명확한 출처 링크가 있는 검색·인쇄 가능한 아카이브 생성.", "AI 분석을 위해 출처를 추적할 수 있는 Markdown, JSONL, manifest 및 표 데이터를 선택적으로 준비."],
+          ["시작 페이지를 열고 Grab All Files에서 “페이지를 HTML로 합치기”를 선택하세요.", "관련 페이지를 찾은 뒤 수집 전에 필요 없는 항목을 제거하거나 순서를 바꾸세요.", "이미지와 링크된 문서 옵션을 선택한 뒤 목차가 있는 하나의 HTML 파일로 저장하세요."],
+          [{ q: "포함할 페이지를 직접 선택할 수 있나요?", a: "네. 수집 전에 페이지 제목을 검토하고 필요 없는 페이지를 제거한 뒤 나머지 페이지의 순서를 바꿀 수 있습니다." }, { q: "결과를 오프라인에서 읽을 수 있나요?", a: "네. 이미지를 포함해 오프라인에서 읽거나 온라인 참조를 유지해 HTML 파일 크기를 줄일 수 있습니다. 링크된 문서도 HTML 파일과 함께 저장할 수 있습니다." }, { q: "페이지 콘텐츠가 서버에 업로드되나요?", a: "아니요. 페이지 수집 및 HTML 생성은 기기에서 실행됩니다. Free는 20페이지마다 확인을 위해 일시 중지하며, Pro는 선택한 안전 한도까지 자동으로 계속합니다." }, { q: "SingleFile 같은 단일 페이지 저장 도구와는 무엇이 다른가요?", a: "단일 페이지 저장 도구는 현재 열려 있는 페이지만 보존합니다. Grab All Files는 관련 페이지를 탐색하고, 사용자가 이를 검토하고 순서를 바꿀 수 있게 하며, 선택한 읽기 쉬운 콘텐츠를 통합 목차가 있는 하나의 HTML 파일로 합칩니다." }]
+        ),
+        pt_BR: c(
+          "Juntar páginas da web em um arquivo HTML | Grab All Files",
+          "Reúna páginas relacionadas em um único HTML com sumário, pesquisa e impressão. Revise a seleção; todo o processamento fica no dispositivo.",
+          "Coleta de páginas da web em HTML",
+          "Combine várias páginas da web em um único arquivo HTML pesquisável.",
+          "Comece pela página aberta no navegador. O Grab All Files encontra páginas relacionadas, permite revisar os títulos e a ordem, e salva o conteúdo legível selecionado em um único arquivo HTML com sumário.",
+          ["Pesquisas, documentações, manuais e sites de referência distribuídos por várias páginas.", "Salvar artigos relacionados ou informações públicas como um único documento portátil para leitura offline.", "Criar um arquivo pesquisável e pronto para impressão, com links claros para as fontes.", "Preparar opcionalmente Markdown com fontes rastreáveis, JSONL, um manifest e dados tabulares para análise por IA."],
+          ["Abra a página inicial e selecione “Combinar páginas em HTML” no Grab All Files.", "Encontre páginas relacionadas e remova ou reordene os itens antes da coleta.", "Escolha as opções de imagens e documentos vinculados e salve um único arquivo HTML com sumário."],
+          [{ q: "Posso escolher quais páginas serão incluídas?", a: "Sim. Revise os títulos antes da coleta, remova as páginas de que não precisa e reordene as demais." }, { q: "Posso ler o resultado offline?", a: "Sim. Incorpore imagens para leitura offline ou mantenha referências online para reduzir o tamanho do arquivo HTML. Os documentos vinculados também podem ser salvos junto com ele." }, { q: "O conteúdo das páginas é enviado aos seus servidores?", a: "Não. A coleta de páginas e a geração do HTML são executadas no seu dispositivo. No Free, a coleta pausa para confirmação a cada 20 páginas; no Pro, ela continua automaticamente até o limite de segurança escolhido." }, { q: "Qual é a diferença entre isso e uma ferramenta que salva uma única página, como o SingleFile?", a: "As ferramentas desse tipo preservam a página que está aberta no momento. O Grab All Files pode encontrar páginas relacionadas, permitir que você as revise e reordene, e reunir o conteúdo legível selecionado em um único arquivo HTML com um sumário comum." }]
+        ),
+        zh_CN: c(
+          "将多个网页合并为一个 HTML 文件 | Grab All Files",
+          "查找相关页面、检查要收录的内容，并将所选内容合并为一个带目录、可搜索、可打印的 HTML 文件。所有处理均在设备本地完成。",
+          "网页 HTML 收集",
+          "将多个网页合并为一个可搜索的 HTML 文件。",
+          "从浏览器中当前打开的页面开始。Grab All Files 会查找相关页面，让您检查标题和顺序，然后将所选页面中便于阅读的内容保存为一个带目录的 HTML 文件。",
+          ["分散在多个页面中的研究资料、文档、手册和参考网站。", "将相关文章或公开信息保存为一个便于携带的离线文档。", "创建带有清晰来源链接、可搜索、可打印的存档。", "按需准备来源可追溯的 Markdown、JSONL、manifest 和表格数据，用于 AI 分析。"],
+          ["打开起始页面，在 Grab All Files 中选择“将页面合并为 HTML”。", "查找相关页面，然后在收集前删除不需要的项目或调整顺序。", "选择图片和链接文档选项，然后保存为一个带目录的 HTML 文件。"],
+          [{ q: "可以选择要收录哪些页面吗？", a: "可以。收集前请检查页面标题，删除不需要的页面，并调整其余页面的顺序。" }, { q: "结果可以离线阅读吗？", a: "可以。您可以嵌入图片以便离线阅读，也可以保留在线引用以减小 HTML 文件的大小。链接的文档也可与 HTML 文件一并保存。" }, { q: "页面内容会上传到你们的服务器吗？", a: "不会。页面收集和 HTML 生成均在您的设备上运行。Free 每 20 个页面暂停一次以供确认；Pro 会自动继续，直到所选的安全上限。" }, { q: "这与 SingleFile 等单页面保存工具有何不同？", a: "单页面保存工具只会保留当前打开的页面。Grab All Files 可以查找相关页面，让您检查并调整其顺序，再将所选页面中便于阅读的内容合并为一个带统一目录的 HTML 文件。" }]
+        ),
+        zh_TW: c(
+          "將多個網頁合併成一個 HTML 檔案 | Grab All Files",
+          "尋找相關頁面、檢視要收錄的內容，並將所選內容合併成一個附有目錄、可搜尋且可列印的 HTML 檔案。所有處理都在裝置本機完成。",
+          "網頁 HTML 收集",
+          "將多個網頁合併成一個可搜尋的 HTML 檔案。",
+          "從瀏覽器目前開啟的頁面開始。Grab All Files 會尋找相關頁面，讓您檢視標題和順序，然後將所選頁面中便於閱讀的內容儲存為一個附有目錄的 HTML 檔案。",
+          ["分散在多個頁面中的研究資料、文件、手冊和參考網站。", "將相關文章或公開資訊儲存為一個便於攜帶的離線文件。", "建立附有清楚來源連結、可搜尋且可列印的封存檔。", "按需準備來源可追溯的 Markdown、JSONL、manifest 和表格資料，用於 AI 分析。"],
+          ["開啟起始頁面，並在 Grab All Files 中選擇「將頁面合併成 HTML」。", "尋找相關頁面，然後在收集前移除不需要的項目或調整順序。", "選擇圖片和連結文件選項，然後儲存為一個附有目錄的 HTML 檔案。"],
+          [{ q: "可以選擇要收錄哪些頁面嗎？", a: "可以。收集前請檢視頁面標題，移除不需要的頁面，並調整其餘頁面的順序。" }, { q: "結果可以離線閱讀嗎？", a: "可以。您可以嵌入圖片以供離線閱讀，也可以保留線上參照以縮小 HTML 檔案。連結的文件也可與 HTML 檔案一併儲存。" }, { q: "頁面內容會上傳到你們的伺服器嗎？", a: "不會。頁面收集和 HTML 產生均在您的裝置上執行。Free 每 20 個頁面暫停一次以供確認；Pro 會自動繼續，直到所選的安全上限。" }, { q: "這與 SingleFile 等單頁儲存工具有何不同？", a: "單頁儲存工具只會保留目前開啟的頁面。Grab All Files 可以尋找相關頁面，讓您檢視並調整順序，再將所選頁面中便於閱讀的內容合併成一個附有統一目錄的 HTML 檔案。" }]
+        )
+      }
+    },
     "download-all-pdfs": {
       path: "download-all-pdfs.html",
       related: ["merge-pdfs-locally", "download-files-from-webpage", "internal-portal-downloads"],
@@ -668,6 +865,7 @@
     var current = getCase();
     var copy = current.data.copy[lang] || current.data.copy.en;
     var ui = UI[lang] || UI.en;
+    var cta = current.data.cta && (current.data.cta[lang] || current.data.cta.en);
     var root = document.getElementById("case-root");
     if (!root) return;
 
@@ -739,7 +937,7 @@
         "<section class=\"section-card\"><h2>" + esc(ui.faq) + "</h2><div class=\"faq-list\">" + renderFaq(copy.faq) + "</div></section>",
         "<section class=\"section-card usecase-guide-section\"><h2>" + esc(ui.related) + "</h2><div class=\"usecase-guide-links\" aria-label=\"" + esc(ui.related) + "\">" + renderRelated(current, lang) + "</div></section>",
       "</div>",
-      "<section class=\"final-cta\"><h2>" + esc(ui.ctaTitle) + "</h2><p>" + esc(ui.ctaText) + "</p><div class=\"final-dl\"><a class=\"store-btn\" href=\"" + esc(STORE.chrome) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlChrome) + "</a><a class=\"store-btn\" href=\"" + esc(STORE.edge) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlEdge) + "</a><a class=\"store-btn\" href=\"" + esc(STORE.firefox) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlFirefox) + "</a></div></section>"
+      "<section class=\"final-cta\"><h2>" + esc(cta ? cta.title : ui.ctaTitle) + "</h2><p>" + esc(cta ? cta.text : ui.ctaText) + "</p><div class=\"final-dl\"><a class=\"store-btn\" href=\"" + esc(STORE.chrome) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlChrome) + "</a><a class=\"store-btn\" href=\"" + esc(STORE.edge) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlEdge) + "</a><a class=\"store-btn\" href=\"" + esc(STORE.firefox) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlFirefox) + "</a></div></section>"
     ].join("");
 
     updateStructuredData(current, copy, lang);

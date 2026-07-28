@@ -72,7 +72,7 @@
     "screenshot": "https://grab-all-files.app/og-image.png",
     "softwareVersion": "5.2.5",
     "datePublished": "2025-05-05",
-    "dateModified": "2026-07-28",
+    "dateModified": "2026-07-29",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
     "permissions": "Files are downloaded directly from the source site to the user's device; only license verification reaches the developer's servers.",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
@@ -540,6 +540,8 @@
     .spotlight-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.05rem; }
     .spotlight-item strong { display: block; color: var(--text-strong); font-size: 0.94rem; margin-bottom: 0.3rem; }
     .feature-card--spotlight p.spotlight-plan { margin-top: 1rem; padding: 0.75rem 0.9rem; border-radius: 10px; background: color-mix(in srgb, var(--primary) 8%, var(--surface)); color: var(--accent-soft-text); font-weight: 650; }
+    .spotlight-link { display: inline-flex; margin-top: 0.85rem; color: var(--primary); font-size: 0.9rem; font-weight: 700; text-decoration: none; }
+    .spotlight-link:hover { text-decoration: underline; }
     @media (max-width: 880px) { .spotlight-grid { grid-template-columns: 1fr; } }
     @media (max-width: 560px) {
       .feature-card.feature-card--spotlight { padding: 1.35rem; }
@@ -553,9 +555,10 @@
     .usecase-card h3 { font-size: 1rem; color: var(--text-strong); font-weight: 600; margin-bottom: 0.45rem; display: flex; align-items: center; gap: 0.5rem; }
     .usecase-card h3 .icon { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 7px; background: var(--accent-soft); color: var(--accent-icon); font-size: 0.95rem; }
     .usecase-card p { font-size: 0.9rem; color: var(--text-muted); }
-    .usecase-guide-links { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.7rem; margin-top: 1rem; }
+    .usecase-guide-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.7rem; margin-top: 1rem; }
     .usecase-guide-links a { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.8rem 0.9rem; color: var(--text-strong); font-size: 0.88rem; font-weight: 650; line-height: 1.35; text-decoration: none; }
     .usecase-guide-links a:hover { border-color: var(--primary); color: var(--primary); }
+    .usecase-guide-links .usecase-all { grid-column: 1 / -1; text-align: center; }
     @media (max-width: 900px) { .usecase-guide-links { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 520px) { .usecase-guide-links { grid-template-columns: 1fr; } }
 
@@ -977,6 +980,7 @@
                 <div class="spotlight-item"><strong>AI向けデータも任意で出力</strong><p>出典付きMarkdown、JSONL、manifest、表データを生成可能。ページ収集とHTML生成は端末内で処理し、ページ内容を当社サーバーへアップロードしません。</p></div>
               </div>
               <p class="spotlight-plan">無料プランでも同じ品質で利用できます。20ページごとに確認して続行し、Proなら指定した安全上限まで自動で収集します。</p>
+              <a class="spotlight-link" href="/ja/use-cases/combine-web-pages-into-one-html.html">複数ページを1つのHTMLにまとめる手順を見る →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>見落としがちなファイルも検出</h3><p><strong>708種類（拡張子）</strong>のファイルに対応。iframe内のPDF、遅延読み込み画像、fetch/XHRで取得されるファイル、blob URL、CMSダウンロードルート、hidden inputの値、39種類のdata-*属性まで網羅。通常のリンクスクレイパーでは拾えないファイルも検出します。さらにShadow DOM／Web Components内、SPAのハイドレーションデータ（Next.js・JSON-LD）、Cache Storage／OPFS／IndexedDB、署名付きクラウドストレージURL（Cloudflare R2・Firebase・Supabase・Vercel Blob）まで踏み込んで検出します。</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>スマートフィルタ</h3><p>拡張子、ファイルサイズ、ファイル名、ページタイトル、更新日で絞り込み・並べ替え・手動並べ替え。URLのプレーンテキストコピーにも対応。</p></div>
@@ -1067,6 +1071,7 @@
         
         
         <div class="usecase-guide-links" aria-label="Use-case guides">
+          <a href="/ja/use-cases/combine-web-pages-into-one-html.html"><span data-lang="ja" class="active">ページをHTMLにまとめる</span></a>
           <a href="/ja/use-cases/download-all-pdfs.html"><span data-lang="ja" class="active">PDFを一括ダウンロード</span></a>
           <a href="/ja/use-cases/bulk-download-images.html"><span data-lang="ja" class="active">画像を一括ダウンロード</span></a>
           <a href="/ja/use-cases/download-files-from-webpage.html"><span data-lang="ja" class="active">ページ上のファイルを保存</span></a>

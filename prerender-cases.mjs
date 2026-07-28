@@ -18,6 +18,7 @@ const ROOT = 'c:/xampp/htdocs/grab-all-files';
 const SCRIPT = path.join(ROOT, 'use-cases', 'use-case.js');
 
 export const CASE_IDS = [
+  'combine-web-pages-into-one-html',
   'bulk-download-images',
   'download-all-pdfs',
   'download-files-from-webpage',

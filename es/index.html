@@ -72,7 +72,7 @@
     "screenshot": "https://grab-all-files.app/og-image.png",
     "softwareVersion": "5.2.5",
     "datePublished": "2025-05-05",
-    "dateModified": "2026-07-28",
+    "dateModified": "2026-07-29",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
     "permissions": "Files are downloaded directly from the source site to the user's device; only license verification reaches the developer's servers.",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
@@ -540,6 +540,8 @@
     .spotlight-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.05rem; }
     .spotlight-item strong { display: block; color: var(--text-strong); font-size: 0.94rem; margin-bottom: 0.3rem; }
     .feature-card--spotlight p.spotlight-plan { margin-top: 1rem; padding: 0.75rem 0.9rem; border-radius: 10px; background: color-mix(in srgb, var(--primary) 8%, var(--surface)); color: var(--accent-soft-text); font-weight: 650; }
+    .spotlight-link { display: inline-flex; margin-top: 0.85rem; color: var(--primary); font-size: 0.9rem; font-weight: 700; text-decoration: none; }
+    .spotlight-link:hover { text-decoration: underline; }
     @media (max-width: 880px) { .spotlight-grid { grid-template-columns: 1fr; } }
     @media (max-width: 560px) {
       .feature-card.feature-card--spotlight { padding: 1.35rem; }
@@ -553,9 +555,10 @@
     .usecase-card h3 { font-size: 1rem; color: var(--text-strong); font-weight: 600; margin-bottom: 0.45rem; display: flex; align-items: center; gap: 0.5rem; }
     .usecase-card h3 .icon { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 7px; background: var(--accent-soft); color: var(--accent-icon); font-size: 0.95rem; }
     .usecase-card p { font-size: 0.9rem; color: var(--text-muted); }
-    .usecase-guide-links { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.7rem; margin-top: 1rem; }
+    .usecase-guide-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.7rem; margin-top: 1rem; }
     .usecase-guide-links a { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.8rem 0.9rem; color: var(--text-strong); font-size: 0.88rem; font-weight: 650; line-height: 1.35; text-decoration: none; }
     .usecase-guide-links a:hover { border-color: var(--primary); color: var(--primary); }
+    .usecase-guide-links .usecase-all { grid-column: 1 / -1; text-align: center; }
     @media (max-width: 900px) { .usecase-guide-links { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 520px) { .usecase-guide-links { grid-template-columns: 1fr; } }
 
@@ -978,6 +981,7 @@
                 <div class="spotlight-item"><strong>Exportación opcional preparada para IA</strong><p>Genera Markdown con fuentes rastreables, JSONL, un manifest y datos tabulares para analizarlos. La recopilación de páginas y la generación del HTML se ejecutan localmente en tu dispositivo; el contenido de las páginas no se sube a nuestros servidores.</p></div>
               </div>
               <p class="spotlight-plan">Incluido en Free con la misma calidad de salida. Free se detiene para pedir confirmación cada 20 páginas recopiladas; Pro continúa automáticamente hasta el límite de seguridad que elijas.</p>
+              <a class="spotlight-link" href="/es/use-cases/combine-web-pages-into-one-html.html">Ver cómo combinar páginas web en un HTML →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>Encuentra archivos ocultos</h3><p>Compatibilidad con <strong>708 tipos de archivo (extensiones)</strong>. Detecta PDFs en iframes, imágenes con carga diferida, respuestas fetch/XHR, URLs blob, rutas de descarga de CMS y 39 atributos data-*. Llega incluso al Shadow DOM / Web Components, los datos de hidratación de SPA (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB y las URLs firmadas de almacenamiento en la nube (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>Filtrado inteligente</h3><p>Filtra por extensión, tamaño, nombre, fecha. Ordena, reordena manualmente y copia URLs como texto plano.</p></div>
@@ -1067,6 +1071,7 @@
         
         
         <div class="usecase-guide-links" aria-label="Use-case guides">
+          <a href="/es/use-cases/combine-web-pages-into-one-html.html"><span data-lang="es" class="active">Combinar páginas en HTML</span></a>
           <a href="/es/use-cases/download-all-pdfs.html"><span data-lang="es" class="active">Descargar todos los PDF</span></a>
           <a href="/es/use-cases/bulk-download-images.html"><span data-lang="es" class="active">Descargar imágenes en masa</span></a>
           <a href="/es/use-cases/download-files-from-webpage.html"><span data-lang="es" class="active">Archivos de una página</span></a>
