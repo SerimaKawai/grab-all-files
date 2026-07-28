@@ -344,6 +344,13 @@ function genLocale(srcHtml, page, L) {
   h = h.replace(/<meta property="og:url"[^>]*>/, () => `<meta property="og:url" content="${self}">`);
   h = h.replace(/<meta property="og:locale" content="en_US">/, () => `<meta property="og:locale" content="${OG[L]}">`);
   if (!/property="og:locale"/.test(h)) h = h.replace(/(<meta property="og:image"[^>]*>)/, (m, a) => `${a}\n  <meta property="og:locale" content="${OG[L]}">`);
+  // og:locale:alternate must list the OTHER locales. The English source lists the
+  // nine non-English ones; copying that run verbatim made /ja/ advertise ja_JP as
+  // its own alternate while omitting en_US. Rebuild it as ALL minus this locale.
+  if (/og:locale:alternate/.test(h)) {
+    const alts = ALL.filter((x) => x !== L).map((x) => `  <meta property="og:locale:alternate" content="${OG[x]}">`).join('\n');
+    h = h.replace(/[ \t]*<meta property="og:locale:alternate"[^>]*>(?:\s*<meta property="og:locale:alternate"[^>]*>)*/, () => alts);
+  }
   // drop the nine other languages (index.html is the only page built this way)
   // GAF_NO_STRIP=1 builds the unstripped page, so you can capture a locale's
   // document.body.innerText in a browser and prove the strip changed nothing
