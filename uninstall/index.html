@@ -920,6 +920,15 @@
     syncReasonDetails();
   }
 
+  function syncLangInUrl(lang) {
+    if (!window.history || !window.URL) return;
+    try {
+      var url = new URL(window.location.href);
+      url.searchParams.set('lang', lang);
+      window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+    } catch (_) {}
+  }
+
   function detectBrowser() {
     var ua = navigator.userAgent || '';
     if (/Edg\//.test(ua)) return 'Microsoft Edge';
@@ -1091,6 +1100,7 @@
 
     document.getElementById('lang-sel').addEventListener('change', function(e) {
       applyLang(e.target.value);
+      syncLangInUrl(e.target.value);
     });
 
     var themeBtn = document.getElementById('theme-toggle');

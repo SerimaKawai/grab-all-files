@@ -599,7 +599,18 @@
     if (back && backLabel) back.setAttribute('aria-label', backLabel.textContent.trim());
     document.title = PAGE_TITLES[l] || PAGE_TITLES.en;
   }
-  function onLangChange(e) { setLang(e.target.value); }
+  function syncLangInUrl(lang) {
+    if (!window.history || !window.URL) return;
+    try {
+      var url = new URL(window.location.href);
+      url.searchParams.set('lang', lang);
+      window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+    } catch (_) {}
+  }
+  function onLangChange(e) {
+    setLang(e.target.value);
+    syncLangInUrl(e.target.value);
+  }
   setLang(getLang());
 
   function getTheme() {

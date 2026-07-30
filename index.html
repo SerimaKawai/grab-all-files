@@ -2092,12 +2092,27 @@
       if (n.indexOf('zh') === 0) return 'zh_CN';
       return 'en';
     }
-    function updateUseCaseGuideLinks(lang) {
+    function updateLocalizedLinks(lang) {
       var prefix = lang === 'en' ? '/' : '/' + lang + '/';
-      var target = prefix + 'use-cases/combine-web-pages-into-one-html.html';
-      document.querySelectorAll('a[href$="use-cases/combine-web-pages-into-one-html.html"]').forEach(function(link) {
-        link.href = target;
+      document.querySelectorAll('a[href]').forEach(function(link) {
+        var href = link.getAttribute('href') || '';
+        if (/^(?:[a-z]+:|#|\/\/)/i.test(href)) return;
+        var useCaseAt = href.indexOf('use-cases/');
+        if (useCaseAt >= 0) {
+          link.href = prefix + href.slice(useCaseAt);
+          return;
+        }
+        var security = href.match(/(?:^|\/)security\.html([?#].*)?$/);
+        if (security) link.href = prefix + 'security.html' + (security[1] || '');
       });
+    }
+    function syncLangInUrl(lang) {
+      if (!window.history || !window.URL) return;
+      try {
+        var url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+      } catch (_) {}
     }
     function setLang(l) {
       try { localStorage.setItem('gaf-lang', l); } catch (_) {}
@@ -2127,11 +2142,14 @@
         sel.value = l;
         sel.setAttribute('aria-label', LANGUAGE_LABELS[l] || LANGUAGE_LABELS.en);
       }
-      updateUseCaseGuideLinks(l);
+      updateLocalizedLinks(l);
       updateInstallCtas(l);
     }
     var langSel = document.getElementById('lang-sel');
-    if (langSel) langSel.addEventListener('change', function(e) { setLang(e.target.value); });
+    if (langSel) langSel.addEventListener('change', function(e) {
+      setLang(e.target.value);
+      syncLangInUrl(e.target.value);
+    });
     setLang(detectLang());
 
     function getTheme() {
