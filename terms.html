@@ -1474,7 +1474,18 @@
     if (h1 && h1.textContent.trim()) document.title = h1.textContent.trim() + ' - Grab All Files';
     buildToc();
   }
-  function onLangChange(e) { setLang(e.target.value); }
+  function syncLangInUrl(lang) {
+    if (!window.history || !window.URL) return;
+    try {
+      var url = new URL(window.location.href);
+      url.searchParams.set('lang', lang);
+      window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+    } catch (_) {}
+  }
+  function onLangChange(e) {
+    setLang(e.target.value);
+    syncLangInUrl(e.target.value);
+  }
 
   function getTheme() {
     try { var t = localStorage.getItem('gaf-theme'); if (t === 'light' || t === 'dark') return t; } catch (_) {}
