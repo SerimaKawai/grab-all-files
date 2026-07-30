@@ -70,9 +70,9 @@
     ],
     "image": "https://grab-all-files.app/og-image.png",
     "screenshot": "https://grab-all-files.app/og-image.png",
-    "softwareVersion": "5.2.5",
+    "softwareVersion": "5.3.1",
     "datePublished": "2025-05-05",
-    "dateModified": "2026-07-29",
+    "dateModified": "2026-07-30",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
     "permissions": "Files are downloaded directly from the source site to the user's device; only license verification reaches the developer's servers.",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
@@ -925,7 +925,7 @@
         
         <div data-lang="de" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>Neueste Version</span><strong>5.2.5</strong></div>
+            <div class="latest-badge"><span>Neueste Version</span><strong>5.3.1</strong></div>
             <div class="latest-copy"><h3>Gemacht, um auf komplexen Seiten mehr Dateien zu finden.</h3><p>Für das heutige Web entwickelt und häufig aktualisiert. Die aktuelle Version hebt tiefere Erkennung, stärkere Same-Site-Sammlung und lokale Ausgabe-Tools für große Download-Aufgaben hervor.</p><ul class="latest-points"><li><strong>Neu:</strong> verwandte Webseiten in einer durchsuchbaren, druckbaren HTML-Datei mit Inhaltsverzeichnis bündeln; optionale KI-Exporte bleiben auf dem Gerät.</li><li><strong>Neu:</strong> nur die fehlgeschlagenen Dateien erneut versuchen — ein Klick wiederholt ausschließlich die nicht abgeschlossenen.</li><li><strong>Neu:</strong> letzte Ergebnisse wiederherstellen, wenn Sie das Panel schließen oder neu laden — dort weitermachen, wo Sie aufgehört haben.</li><li>Breite Erkennung: iFrame-PDFs, Lazy-Images, fetch/XHR-Dateien, Blob-URLs, CMS-Download-Routen und geteilte / mehrteilige Archive.</li><li>PDF-Zusammenführung, ZIP-Archiv und CSV-Export bleiben lokal im Browser — nichts wird hochgeladen.</li></ul></div>
           </div>
         </div>
@@ -1470,6 +1470,28 @@
       if (n.indexOf('zh') === 0) return 'zh_CN';
       return 'en';
     }
+    function updateLocalizedLinks(lang) {
+      var prefix = lang === 'en' ? '/' : '/' + lang + '/';
+      document.querySelectorAll('a[href]').forEach(function(link) {
+        var href = link.getAttribute('href') || '';
+        if (/^(?:[a-z]+:|#|\/\/)/i.test(href)) return;
+        var useCaseAt = href.indexOf('use-cases/');
+        if (useCaseAt >= 0) {
+          link.href = prefix + href.slice(useCaseAt);
+          return;
+        }
+        var security = href.match(/(?:^|\/)security\.html([?#].*)?$/);
+        if (security) link.href = prefix + 'security.html' + (security[1] || '');
+      });
+    }
+    function syncLangInUrl(lang) {
+      if (!window.history || !window.URL) return;
+      try {
+        var url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+      } catch (_) {}
+    }
     function setLang(l) {
       try { localStorage.setItem('gaf-lang', l); } catch (_) {}
       document.querySelectorAll('[data-lang]').forEach(function(e) {
@@ -1498,10 +1520,14 @@
         sel.value = l;
         sel.setAttribute('aria-label', LANGUAGE_LABELS[l] || LANGUAGE_LABELS.en);
       }
+      updateLocalizedLinks(l);
       updateInstallCtas(l);
     }
     var langSel = document.getElementById('lang-sel');
-    if (langSel) langSel.addEventListener('change', function(e) { setLang(e.target.value); });
+    if (langSel) langSel.addEventListener('change', function(e) {
+      setLang(e.target.value);
+      syncLangInUrl(e.target.value);
+    });
     setLang(detectLang());
 
     function getTheme() {
