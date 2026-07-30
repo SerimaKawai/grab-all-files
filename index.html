@@ -2092,6 +2092,13 @@
       if (n.indexOf('zh') === 0) return 'zh_CN';
       return 'en';
     }
+    function updateUseCaseGuideLinks(lang) {
+      var prefix = lang === 'en' ? '/' : '/' + lang + '/';
+      var target = prefix + 'use-cases/combine-web-pages-into-one-html.html';
+      document.querySelectorAll('a[href$="use-cases/combine-web-pages-into-one-html.html"]').forEach(function(link) {
+        link.href = target;
+      });
+    }
     function setLang(l) {
       try { localStorage.setItem('gaf-lang', l); } catch (_) {}
       document.querySelectorAll('[data-lang]').forEach(function(e) {
@@ -2120,6 +2127,7 @@
         sel.value = l;
         sel.setAttribute('aria-label', LANGUAGE_LABELS[l] || LANGUAGE_LABELS.en);
       }
+      updateUseCaseGuideLinks(l);
       updateInstallCtas(l);
     }
     var langSel = document.getElementById('lang-sel');
