@@ -269,7 +269,6 @@
           </div>
 
           <label class="reason"><input type="checkbox" name="reason" value="too_expensive"><span id="r-too_expensive">It was too expensive</span></label>
-          <label class="reason"><input type="checkbox" name="reason" value="found_alternative"><span id="r-found_alternative">I found a better alternative</span></label>
           <div class="reason-choice">
             <label class="reason"><input type="checkbox" name="reason" value="no_longer_needed"><span id="r-no_longer_needed">I no longer need it</span></label>
             <div class="reason-detail hidden" id="detail-no_longer_needed" data-reason-detail="no_longer_needed">
@@ -335,7 +334,7 @@
   var ENDPOINT = 'https://umczaaooqinddgnhxbvp.supabase.co/functions/v1/uninstall-feedback';
   var STORE_URL = 'https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf';
 
-  var REASONS = ['not_detected','non_video_not_detected','not_downloaded','missing_feature','too_complicated','bug','too_expensive','found_alternative','no_longer_needed','privacy','other'];
+  var REASONS = ['not_detected','non_video_not_detected','not_downloaded','missing_feature','too_complicated','bug','too_expensive','no_longer_needed','privacy','other'];
   var DETAIL_FIELDS = {
     not_detected: ['not_detected_source_page', 'not_detected_file_link'],
     non_video_not_detected: ['non_video_not_detected'],
@@ -365,7 +364,6 @@
       r_too_complicated: 'It was too complicated to use',
       r_bug: 'Too many bugs or errors',
       r_too_expensive: 'It was too expensive',
-      r_found_alternative: 'I found a better alternative',
       r_no_longer_needed: 'I no longer need it',
       r_privacy: 'Privacy or permissions concerns',
       r_other: 'Other',
@@ -413,7 +411,6 @@
       r_too_complicated: '操作が難しかった',
       r_bug: '不具合やエラーが多かった',
       r_too_expensive: '価格が高かった',
-      r_found_alternative: 'もっと良い代替ツールを見つけた',
       r_no_longer_needed: 'もう必要なくなった',
       r_privacy: 'プライバシー・権限が不安だった',
       r_other: 'その他',
@@ -461,7 +458,6 @@
       r_too_complicated: 'Era demasiado complicada de usar',
       r_bug: 'Demasiados errores o fallos',
       r_too_expensive: 'Era demasiado cara',
-      r_found_alternative: 'Encontré una alternativa mejor',
       r_no_longer_needed: 'Ya no la necesito',
       r_privacy: 'Preocupaciones de privacidad o permisos',
       r_other: 'Otro',
@@ -509,7 +505,6 @@
       r_too_complicated: 'Trop compliqué à utiliser',
       r_bug: 'Trop de bugs ou d\'erreurs',
       r_too_expensive: 'Trop cher',
-      r_found_alternative: 'J\'ai trouvé une meilleure alternative',
       r_no_longer_needed: "Je n'en ai plus besoin",
       r_privacy: 'Préoccupations de confidentialité ou de permissions',
       r_other: 'Autre',
@@ -557,7 +552,6 @@
       r_too_complicated: '사용하기 너무 복잡했어요',
       r_bug: '버그나 오류가 너무 많았어요',
       r_too_expensive: '너무 비쌌어요',
-      r_found_alternative: '더 나은 대안을 찾았어요',
       r_no_longer_needed: '더 이상 필요 없어요',
       r_privacy: '개인정보나 권한이 걱정됐어요',
       r_other: '기타',
@@ -605,7 +599,6 @@
       r_too_complicated: 'Troppo complicata da usare',
       r_bug: 'Troppi bug o errori',
       r_too_expensive: 'Troppo costosa',
-      r_found_alternative: 'Ho trovato un\'alternativa migliore',
       r_no_longer_needed: 'Non mi serve più',
       r_privacy: 'Preoccupazioni su privacy o permessi',
       r_other: 'Altro',
@@ -653,7 +646,6 @@
       r_too_complicated: '使用太复杂',
       r_bug: '错误或故障太多',
       r_too_expensive: '价格太高',
-      r_found_alternative: '找到了更好的替代品',
       r_no_longer_needed: '不再需要了',
       r_privacy: '担心隐私或权限',
       r_other: '其他',
@@ -701,7 +693,6 @@
       r_too_complicated: '使用太複雜',
       r_bug: '錯誤或故障太多',
       r_too_expensive: '價格太高',
-      r_found_alternative: '找到了更好的替代品',
       r_no_longer_needed: '不再需要了',
       r_privacy: '擔心隱私或權限',
       r_other: '其他',
@@ -749,7 +740,6 @@
       r_too_complicated: 'Era complicada demais de usar',
       r_bug: 'Muitos bugs ou erros',
       r_too_expensive: 'Era cara demais',
-      r_found_alternative: 'Encontrei uma alternativa melhor',
       r_no_longer_needed: 'Não preciso mais',
       r_privacy: 'Preocupações com privacidade ou permissões',
       r_other: 'Outro',
@@ -797,7 +787,6 @@
       r_too_complicated: 'Zu kompliziert in der Anwendung',
       r_bug: 'Zu viele Fehler oder Bugs',
       r_too_expensive: 'Zu teuer',
-      r_found_alternative: 'Ich habe eine bessere Alternative gefunden',
       r_no_longer_needed: 'Ich brauche sie nicht mehr',
       r_privacy: 'Bedenken zu Datenschutz oder Berechtigungen',
       r_other: 'Sonstiges',
