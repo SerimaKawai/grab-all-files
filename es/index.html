@@ -70,9 +70,9 @@
     ],
     "image": "https://grab-all-files.app/og-image.png",
     "screenshot": "https://grab-all-files.app/og-image.png",
-    "softwareVersion": "5.2.5",
+    "softwareVersion": "5.3.1",
     "datePublished": "2025-05-05",
-    "dateModified": "2026-07-29",
+    "dateModified": "2026-07-30",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
     "permissions": "Files are downloaded directly from the source site to the user's device; only license verification reaches the developer's servers.",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
@@ -923,7 +923,7 @@
         
         <div data-lang="es" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>Última versión</span><strong>5.2.5</strong></div>
+            <div class="latest-badge"><span>Última versión</span><strong>5.3.1</strong></div>
             <div class="latest-copy"><h3>Preparada para encontrar más archivos en páginas complejas.</h3><p>Diseñado para la web actual y actualizado con frecuencia. La versión actual destaca una detección más profunda, mejor recopilación dentro del mismo sitio y herramientas locales para trabajos grandes.</p><ul class="latest-points"><li><strong>Nuevo:</strong> reúne páginas web relacionadas en un único HTML con índice, buscable e imprimible; las exportaciones opcionales para IA se generan en el dispositivo.</li><li><strong>Nuevo:</strong> reintenta solo los archivos que fallaron — un clic reejecuta únicamente los que no terminaron.</li><li><strong>Nuevo:</strong> restaura tus últimos resultados si cierras el panel o recargas — continúa donde lo dejaste.</li><li>Detección amplia: PDFs en iframe, imágenes diferidas, archivos fetch/XHR, URLs blob, rutas CMS y archivos divididos / multivolumen.</li><li>Fusión PDF, ZIP y exportación CSV permanecen locales en tu navegador — no se sube nada.</li></ul></div>
           </div>
         </div>
@@ -1470,6 +1470,28 @@
       if (n.indexOf('zh') === 0) return 'zh_CN';
       return 'en';
     }
+    function updateLocalizedLinks(lang) {
+      var prefix = lang === 'en' ? '/' : '/' + lang + '/';
+      document.querySelectorAll('a[href]').forEach(function(link) {
+        var href = link.getAttribute('href') || '';
+        if (/^(?:[a-z]+:|#|\/\/)/i.test(href)) return;
+        var useCaseAt = href.indexOf('use-cases/');
+        if (useCaseAt >= 0) {
+          link.href = prefix + href.slice(useCaseAt);
+          return;
+        }
+        var security = href.match(/(?:^|\/)security\.html([?#].*)?$/);
+        if (security) link.href = prefix + 'security.html' + (security[1] || '');
+      });
+    }
+    function syncLangInUrl(lang) {
+      if (!window.history || !window.URL) return;
+      try {
+        var url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+      } catch (_) {}
+    }
     function setLang(l) {
       try { localStorage.setItem('gaf-lang', l); } catch (_) {}
       document.querySelectorAll('[data-lang]').forEach(function(e) {
@@ -1498,10 +1520,14 @@
         sel.value = l;
         sel.setAttribute('aria-label', LANGUAGE_LABELS[l] || LANGUAGE_LABELS.en);
       }
+      updateLocalizedLinks(l);
       updateInstallCtas(l);
     }
     var langSel = document.getElementById('lang-sel');
-    if (langSel) langSel.addEventListener('change', function(e) { setLang(e.target.value); });
+    if (langSel) langSel.addEventListener('change', function(e) {
+      setLang(e.target.value);
+      syncLangInUrl(e.target.value);
+    });
     setLang(detectLang());
 
     function getTheme() {
