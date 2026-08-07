@@ -196,11 +196,6 @@
         </div>
 
         <div class="field">
-          <label for="f-subject" id="l-subject">Subject</label>
-          <input type="text" id="f-subject" name="subject" maxlength="200">
-        </div>
-
-        <div class="field">
           <label for="f-message" id="l-message">Message <span class="req">*</span></label>
           <textarea id="f-message" name="message" required maxlength="5000"></textarea>
           <span class="help" id="l-message-help">Please include steps to reproduce if reporting a bug.</span>
@@ -269,7 +264,6 @@
       optOther: 'Other',
       lName: 'Your name',
       lEmail: 'Your email',
-      lSubject: 'Subject',
       lMessage: 'Message',
       lMessageHelp: 'Please include steps to reproduce if reporting a bug.',
       lVersion: 'Extension version',
@@ -298,7 +292,6 @@
       optOther: 'その他',
       lName: 'お名前',
       lEmail: 'メールアドレス',
-      lSubject: '件名',
       lMessage: 'メッセージ',
       lMessageHelp: '不具合の場合は再現手順もご記入いただけると助かります。',
       lVersion: '拡張機能のバージョン',
@@ -327,7 +320,6 @@
       optOther: 'Otro',
       lName: 'Su nombre',
       lEmail: 'Su correo electrónico',
-      lSubject: 'Asunto',
       lMessage: 'Mensaje',
       lMessageHelp: 'Si reporta un error, incluya los pasos para reproducirlo.',
       lVersion: 'Versión de la extensión',
@@ -356,7 +348,6 @@
       optOther: 'Autre',
       lName: 'Votre nom',
       lEmail: 'Votre e-mail',
-      lSubject: 'Sujet',
       lMessage: 'Message',
       lMessageHelp: 'Si vous signalez un bug, incluez les étapes pour le reproduire.',
       lVersion: 'Version de l\'extension',
@@ -385,7 +376,6 @@
       optOther: '기타',
       lName: '이름',
       lEmail: '이메일',
-      lSubject: '제목',
       lMessage: '메시지',
       lMessageHelp: '버그 신고 시 재현 단계도 함께 알려주세요.',
       lVersion: '확장 프로그램 버전',
@@ -414,7 +404,6 @@
       optOther: 'Altro',
       lName: 'Il tuo nome',
       lEmail: 'La tua email',
-      lSubject: 'Oggetto',
       lMessage: 'Messaggio',
       lMessageHelp: 'Se segnali un bug, includi i passaggi per riprodurlo.',
       lVersion: 'Versione estensione',
@@ -443,7 +432,6 @@
       optOther: '其他',
       lName: '您的姓名',
       lEmail: '您的邮箱',
-      lSubject: '主题',
       lMessage: '消息',
       lMessageHelp: '若报告错误，请附上复现步骤。',
       lVersion: '扩展程序版本',
@@ -472,7 +460,6 @@
       optOther: '其他',
       lName: '您的姓名',
       lEmail: '您的電子郵件',
-      lSubject: '主旨',
       lMessage: '訊息',
       lMessageHelp: '若回報錯誤，請附上重現步驟。',
       lVersion: '擴充功能版本',
@@ -501,7 +488,6 @@
       optOther: 'Outro',
       lName: 'Seu nome',
       lEmail: 'Seu e-mail',
-      lSubject: 'Assunto',
       lMessage: 'Mensagem',
       lMessageHelp: 'Se relatar um bug, inclua os passos para reproduzi-lo.',
       lVersion: 'Versão da extensão',
@@ -530,7 +516,6 @@
       optOther: 'Sonstiges',
       lName: 'Ihr Name',
       lEmail: 'Ihre E-Mail',
-      lSubject: 'Betreff',
       lMessage: 'Nachricht',
       lMessageHelp: 'Bei einem Fehlerbericht bitte die Schritte zur Reproduktion angeben.',
       lVersion: 'Erweiterungsversion',
@@ -577,6 +562,18 @@
   }
 
   var currentLang = 'en';
+  // Set from ?subject= when present. The visible Subject field was removed, but
+  // the backend still receives a subject so notification mail keeps a usable
+  // heading — see derivedSubject().
+  var prefilledSubject = '';
+
+  // Stable English label regardless of the sender's UI language, so the inbox
+  // stays filterable. Version is appended when the extension supplied one.
+  function derivedSubject(category, version) {
+    var labels = { bug: 'Bug report', feature: 'Feature request', question: 'Question', other: 'Other' };
+    var s = labels[category] || 'Contact';
+    return version ? s + ' (v' + version + ')' : s;
+  }
 
   function applyLang(lang) {
     currentLang = lang;
@@ -602,7 +599,6 @@
     setText('opt-other', t.optOther);
     setText('l-name', t.lName);
     setText('l-email', t.lEmail);
-    setText('l-subject', t.lSubject);
     setText('l-message', t.lMessage);
     setText('l-message-help', t.lMessageHelp);
     setText('l-version', t.lVersion);
@@ -674,7 +670,9 @@
     if (category && ['bug', 'feature', 'question', 'other'].indexOf(category) !== -1) {
       document.getElementById('f-category').value = category;
     }
-    if (subject) document.getElementById('f-subject').value = subject;
+    // The Subject field was removed from the form; a ?subject= link still wins
+    // over the derived one so the extension can keep overriding it.
+    prefilledSubject = subject || '';
     // Open the metadata details if any was prefilled by the extension link.
     if (version || os || browser || pageUrl) {
       var details = document.getElementById('meta-toggle');
@@ -706,7 +704,7 @@
       category: document.getElementById('f-category').value,
       name: document.getElementById('f-name').value,
       email: document.getElementById('f-email').value.trim(),
-      subject: document.getElementById('f-subject').value,
+      subject: prefilledSubject || derivedSubject(document.getElementById('f-category').value, document.getElementById('f-version').value),
       message: document.getElementById('f-message').value,
       version: document.getElementById('f-version').value,
       os: document.getElementById('f-os').value,
