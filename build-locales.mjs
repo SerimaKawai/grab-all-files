@@ -95,6 +95,21 @@ function rewritePaths(html, srcDir, L) {
     const out = LOCALIZED.has(loc) ? `/${L}${loc === '/' ? '/' : loc}` : abs;
     return `${attr}"${out}${suffix}"`;
   });
+  // <source srcset="…"> is neither href nor src, so the loop above never saw it:
+  // the locale copies kept a relative asset path, resolved it against /<L>/ and
+  // 404-ed every WebP screenshot. srcset may hold a candidate list, so rewrite
+  // each URL and keep its descriptor.
+  html = html.replace(/(?<![-\w])(srcset=)"([^"]*)"/g, (m, attr, v) => {
+    const out = v.split(',').map((part) => {
+      const seg = part.trim();
+      if (!seg) return '';
+      const bits = seg.split(/\s+/);
+      const u = bits[0];
+      if (!u || /^(https?:|\/\/|data:)/i.test(u) || u.startsWith('/')) return seg;
+      return [path.posix.normalize('/' + (srcDir ? srcDir + '/' : '') + u), ...bits.slice(1)].join(' ');
+    }).filter(Boolean).join(', ');
+    return `${attr}"${out}"`;
+  });
   return html.replace(new RegExp(NUL + 'B(\\d+)' + NUL, 'g'), (m, i) => stash[+i]);
 }
 
@@ -315,6 +330,8 @@ function extractIndexMeta(indexHtml) {
  * "?lang=", which real links use. Locale pages force their own language
  * (__FORCE_LANG__ outranks ?lang=), so nothing there needs the other nine.
  */
+const VOID_TAGS = new Set(['img', 'br', 'input', 'meta', 'link', 'hr', 'source', 'area', 'col', 'embed', 'track', 'wbr']);
+
 function stripOtherLanguages(html, L) {
   const stash = [];
   const h = html.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>|<!--[\s\S]*?-->/gi, (m) => {
@@ -322,7 +339,9 @@ function stripOtherLanguages(html, L) {
     return `${NUL}S${stash.length - 1}${NUL}`;
   });
 
-  const openRe = /<(span|div)\b[^>]*\sdata-lang="([^"]+)"[^>]*>/i;
+  // Tag-agnostic: hardcoding span|div silently skipped the <figure data-lang="…">
+  // screenshots added later, so every locale page kept all ten of them.
+  const openRe = /<([a-zA-Z][\w-]*)\b[^>]*\sdata-lang="([^"]+)"[^>]*>/i;
   let out = '';
   let rest = h;
   let guard = 0;
@@ -331,6 +350,9 @@ function stripOtherLanguages(html, L) {
     if (!m) { out += rest; break; }
     if (++guard > 5000) throw new Error('stripOtherLanguages: runaway scan');
     const tag = m[1].toLowerCase();
+    // The depth scan below assumes a real closing tag. Fail loudly rather than
+    // corrupt the document if a void element ever carries data-lang.
+    if (VOID_TAGS.has(tag)) throw new Error(`stripOtherLanguages: <${tag}> is a void element and cannot carry data-lang`);
     const scan = new RegExp(`<${tag}\\b[^>]*>|</${tag}\\s*>`, 'gi');
     scan.lastIndex = m.index;
     let depth = 0, end = -1, s;
@@ -372,8 +394,23 @@ function genLocale(srcHtml, page, L) {
   // move static .active from en -> L (no-JS crawlers) — protect scripts
   const stash = [];
   h = h.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, (m) => { stash.push(m); return `${NUL}A${stash.length - 1}${NUL}`; });
-  h = h.replace(/data-lang="en" class="active"/g, 'data-lang="en"');
-  h = h.replace(new RegExp(`data-lang="${L}"(?![^>]*class=)`, 'g'), `data-lang="${L}" class="active"`);
+  // Set .active per element rather than pattern-matching `data-lang="x" class=`.
+  // The old form only looked FORWARD for a class attribute, so markup where class
+  // comes first (<figure class="product-shot" data-lang="ja">) got a SECOND class
+  // attribute appended — invalid HTML, and browsers keep the first, leaving the
+  // locale's own figure hidden while the English one stayed visible.
+  h = h.replace(/<([a-zA-Z][\w-]*)\b([^>]*\sdata-lang="([^"]+)"[^>]*)>/g, (m, tag, attrs, lang) => {
+    let a = attrs.replace(/\sclass="([^"]*)"/g, (mm, cls) => {
+      const kept = cls.split(/\s+/).filter((c) => c && c !== 'active');
+      return kept.length ? ` class="${kept.join(' ')}"` : '';
+    });
+    if (lang === L) {
+      a = /\sclass="/.test(a)
+        ? a.replace(/\sclass="([^"]*)"/, (mm, cls) => ` class="${cls} active"`)
+        : `${a} class="active"`;
+    }
+    return `<${tag}${a}>`;
+  });
   h = h.replace(new RegExp(NUL + 'A(\\d+)' + NUL, 'g'), (m, i) => stash[+i]);
   // rewrite paths (own script/style protection)
   const srcDir = path.posix.dirname('/' + page.src).replace(/^\//, '');
