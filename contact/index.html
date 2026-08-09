@@ -103,7 +103,10 @@
     .submit-btn:hover:not(:disabled) { background: var(--primary-hover); box-shadow: 0 8px 24px rgba(37,99,235,0.22); }
     .submit-btn:disabled { background: var(--primary-disabled); cursor: not-allowed; }
 
-    .status { padding: 0.85rem 1rem; border-radius: 10px; font-size: 0.9rem; line-height: 1.5; display: none; }
+    .status { padding: 0.85rem 1rem; border-radius: 10px; font-size: 0.9rem; line-height: 1.5; display: none; white-space: pre-line; }
+    .email-suggest { font-size: 0.76rem; color: var(--text-muted); display: none; }
+    .email-suggest.show { display: block; }
+    .email-suggest button { background: none; border: 0; padding: 0; font: inherit; color: var(--primary); cursor: pointer; text-decoration: underline; }
     .status.show { display: block; }
     .status.success { background: var(--success-bg); color: var(--success-text); border: 1px solid var(--success-border); }
     .status.error { background: var(--error-bg); color: var(--error-text); border: 1px solid var(--error-border); }
@@ -192,6 +195,7 @@
           <div class="field">
             <label for="f-email" id="l-email">Your email <span class="req">*</span></label>
             <input type="email" id="f-email" name="email" autocomplete="email" required maxlength="254">
+            <span class="email-suggest" id="email-suggest" aria-live="polite"></span>
           </div>
         </div>
 
@@ -280,6 +284,9 @@
       errServer: 'Sorry, the server rejected the request. Please try again later.',
       docTitle: 'Contact - Grab All Files',
       langLabel: 'Language',
+
+      emailSuggest: 'Did you mean {email}?',
+      successNote: 'If you have not heard back within 3 business days, please e-mail support@grab-all-files.app directly.',
     },
     ja: {
       title: 'お問い合わせ',
@@ -308,6 +315,9 @@
       errServer: 'サーバーがリクエストを拒否しました。時間をおいてもう一度お試しください。',
       docTitle: 'お問い合わせ - ファイル一括ダウンロード',
       langLabel: '言語',
+
+      emailSuggest: 'もしかして {email} ではありませんか？',
+      successNote: '3営業日以内に返信がない場合は、support@grab-all-files.app まで直接ご連絡ください。',
     },
     es: {
       title: 'Contacto',
@@ -336,6 +346,9 @@
       errServer: 'El servidor rechazó la solicitud. Inténtelo de nuevo más tarde.',
       docTitle: 'Contacto - Grab All Files',
       langLabel: 'Idioma',
+
+      emailSuggest: '¿Quiso decir {email}?',
+      successNote: 'Si no recibe respuesta en 3 días hábiles, escríbanos directamente a support@grab-all-files.app.',
     },
     fr: {
       title: 'Contact',
@@ -364,6 +377,9 @@
       errServer: 'Le serveur a rejeté la requête. Veuillez réessayer plus tard.',
       docTitle: 'Contact - Grab All Files',
       langLabel: 'Langue',
+
+      emailSuggest: 'Vouliez-vous dire {email} ?',
+      successNote: 'Sans réponse de notre part sous 3 jours ouvrés, écrivez-nous directement à support@grab-all-files.app.',
     },
     ko: {
       title: '문의하기',
@@ -392,6 +408,9 @@
       errServer: '서버가 요청을 거부했습니다. 잠시 후 다시 시도해 주세요.',
       docTitle: '문의하기 - Grab All Files',
       langLabel: '언어',
+
+      emailSuggest: '혹시 {email} 아닌가요?',
+      successNote: '3영업일 이내에 답장이 없으면 support@grab-all-files.app 으로 직접 연락해 주세요.',
     },
     it: {
       title: 'Contatti',
@@ -420,6 +439,9 @@
       errServer: 'Il server ha rifiutato la richiesta. Riprova più tardi.',
       docTitle: 'Contatti - Grab All Files',
       langLabel: 'Lingua',
+
+      emailSuggest: 'Intendevi {email}?',
+      successNote: 'Se non ricevi risposta entro 3 giorni lavorativi, scrivici direttamente a support@grab-all-files.app.',
     },
     zh_CN: {
       title: '联系我们',
@@ -448,6 +470,9 @@
       errServer: '服务器拒绝了请求。请稍后重试。',
       docTitle: '联系我们 - Grab All Files',
       langLabel: '语言',
+
+      emailSuggest: '您是否想输入 {email}？',
+      successNote: '如果 3 个工作日内没有收到回复，请直接发送邮件至 support@grab-all-files.app。',
     },
     zh_TW: {
       title: '聯絡我們',
@@ -476,6 +501,9 @@
       errServer: '伺服器拒絕了要求。請稍後再試。',
       docTitle: '聯絡我們 - Grab All Files',
       langLabel: '語言',
+
+      emailSuggest: '您是否想輸入 {email}？',
+      successNote: '如果 3 個工作天內沒有收到回覆，請直接寄信至 support@grab-all-files.app。',
     },
     pt_BR: {
       title: 'Contato',
@@ -504,6 +532,9 @@
       errServer: 'O servidor rejeitou a solicitação. Tente novamente mais tarde.',
       docTitle: 'Contato - Grab All Files',
       langLabel: 'Idioma',
+
+      emailSuggest: 'Você quis dizer {email}?',
+      successNote: 'Se não receber resposta em 3 dias úteis, escreva diretamente para support@grab-all-files.app.',
     },
     de: {
       title: 'Kontakt',
@@ -532,6 +563,9 @@
       errServer: 'Der Server hat die Anfrage abgelehnt. Bitte versuchen Sie es später erneut.',
       docTitle: 'Kontakt - Grab All Files',
       langLabel: 'Sprache',
+
+      emailSuggest: 'Meinten Sie {email}?',
+      successNote: 'Falls Sie innerhalb von 3 Werktagen keine Antwort erhalten, schreiben Sie uns bitte direkt an support@grab-all-files.app.',
     },
   };
 
@@ -653,6 +687,13 @@
     return 'Unknown';
   }
 
+  (function wireEmailSuggestion() {
+    var input = document.getElementById('f-email');
+    if (!input) return;
+    input.addEventListener('blur', renderEmailSuggestion);
+    input.addEventListener('input', clearEmailSuggestion);
+  })();
+
   function prefillFromQuery() {
     var p = new URLSearchParams(location.search);
     var version = p.get('version');
@@ -678,6 +719,80 @@
       var details = document.getElementById('meta-toggle');
       if (details) details.open = true;
     }
+  }
+
+  // --- e-mail typo suggestion ------------------------------------------------
+  // Suggest, never block: a false positive must not stop a real message.
+  var COMMON_DOMAINS = ['gmail.com','googlemail.com','yahoo.co.jp','yahoo.com','ymail.com','outlook.com','outlook.jp','hotmail.com','hotmail.co.jp','live.com','live.jp','msn.com','icloud.com','me.com','mac.com','aol.com','proton.me','protonmail.com','docomo.ne.jp','ezweb.ne.jp','au.com','softbank.ne.jp','i.softbank.jp','nifty.com','biglobe.ne.jp','ocn.ne.jp','so-net.ne.jp','plala.or.jp','naver.com','daum.net','hanmail.net','qq.com','163.com','126.com','foxmail.com','gmx.de','gmx.net','web.de','t-online.de','orange.fr','free.fr','wanadoo.fr','libero.it','virgilio.it','alice.it','uol.com.br','bol.com.br','terra.com.br'];
+  var DOMAIN_TYPOS = {
+    'gmial.com':'gmail.com','gmai.com':'gmail.com','gmail.co':'gmail.com','gmail.con':'gmail.com',
+    'gmail.cm':'gmail.com','gmail.om':'gmail.com','gnail.com':'gmail.com','gamil.com':'gmail.com',
+    'gmaill.com':'gmail.com','gmial.co':'gmail.com','hotmial.com':'hotmail.com','hotmai.com':'hotmail.com',
+    'hotmail.co':'hotmail.com','outlok.com':'outlook.com','outloo.com':'outlook.com','outlook.co':'outlook.com',
+    'icloud.co':'icloud.com','iclould.com':'icloud.com','yahoo.co':'yahoo.com','yaho.com':'yahoo.com',
+    'yaho.co.jp':'yahoo.co.jp','yahooo.co.jp':'yahoo.co.jp','yahoo.ne.jp':'yahoo.co.jp','yahoo.jp':'yahoo.co.jp',
+    'docomo.ne.j':'docomo.ne.jp','softbank.jp':'softbank.ne.jp'
+  };
+
+  // Damerau-Levenshtein: counts a transposition ("gmial") as one edit.
+  function editDistance(a, b) {
+    if (a === b) return 0;
+    if (Math.abs(a.length - b.length) > 2) return 99;
+    var d = [], i, j;
+    for (i = 0; i <= a.length; i++) { d[i] = [i]; }
+    for (j = 0; j <= b.length; j++) { d[0][j] = j; }
+    for (i = 1; i <= a.length; i++) {
+      for (j = 1; j <= b.length; j++) {
+        var cost = a.charAt(i - 1) === b.charAt(j - 1) ? 0 : 1;
+        d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + cost);
+        if (i > 1 && j > 1 && a.charAt(i - 1) === b.charAt(j - 2) && a.charAt(i - 2) === b.charAt(j - 1)) {
+          d[i][j] = Math.min(d[i][j], d[i - 2][j - 2] + 1);
+        }
+      }
+    }
+    return d[a.length][b.length];
+  }
+
+  function suggestEmail(value) {
+    var at = value.lastIndexOf('@');
+    if (at < 1) return '';
+    var local = value.slice(0, at);
+    var domain = value.slice(at + 1).toLowerCase();
+    if (!domain || domain.indexOf('.') === -1) return '';
+    if (DOMAIN_TYPOS[domain]) return local + '@' + DOMAIN_TYPOS[domain];
+    if (COMMON_DOMAINS.indexOf(domain) !== -1) return '';
+    for (var i = 0; i < COMMON_DOMAINS.length; i++) {
+      if (editDistance(domain, COMMON_DOMAINS[i]) === 1) return local + '@' + COMMON_DOMAINS[i];
+    }
+    return '';
+  }
+
+  function renderEmailSuggestion() {
+    var el = document.getElementById('email-suggest');
+    if (!el) return;
+    var input = document.getElementById('f-email');
+    var t = STRINGS[currentLang] || STRINGS.en;
+    var s = suggestEmail(input.value.trim());
+    el.textContent = '';
+    if (!s) { el.className = 'email-suggest'; return; }
+    el.className = 'email-suggest show';
+    var parts = String(t.emailSuggest || 'Did you mean {email}?').split('{email}');
+    el.appendChild(document.createTextNode(parts[0]));
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = s;
+    b.addEventListener('click', function () {
+      input.value = s;
+      renderEmailSuggestion();
+      input.focus();
+    });
+    el.appendChild(b);
+    if (parts.length > 1) el.appendChild(document.createTextNode(parts[1]));
+  }
+
+  function clearEmailSuggestion() {
+    var el = document.getElementById('email-suggest');
+    if (el) { el.textContent = ''; el.className = 'email-suggest'; }
   }
 
   function isPlausibleEmail(s) {
@@ -740,7 +855,8 @@
         .catch(function() { return { ok: res.ok, status: res.status, body: null }; });
     }).then(function(r) {
       if (r.ok && r.body && r.body.ok) {
-        showStatus('success', t.success);
+        showStatus('success', t.success + (t.successNote ? '\n' + t.successNote : ''));
+        clearEmailSuggestion();
         document.getElementById('contact-form').reset();
         // Re-fill auto-detected meta after reset.
         prefillFromQuery();
