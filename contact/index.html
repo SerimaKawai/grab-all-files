@@ -601,12 +601,12 @@
   // heading — see derivedSubject().
   var prefilledSubject = '';
 
-  // Stable English label regardless of the sender's UI language, so the inbox
-  // stays filterable. Version is appended when the extension supplied one.
-  function derivedSubject(category, version) {
-    var labels = { bug: 'Bug report', feature: 'Feature request', question: 'Question', other: 'Other' };
-    var s = labels[category] || 'Contact';
-    return version ? s + ' (v' + version + ')' : s;
+  // The backend already prefixes the mail subject with the category label
+  // ("[GAF Contact / Bug report / 不具合報告] …"), so repeating the category here
+  // only duplicates it. Contribute the one thing that prefix lacks — the
+  // extension version. Empty is fine: the backend then writes "(no subject)".
+  function derivedSubject(version) {
+    return version ? 'v' + version : '';
   }
 
   function applyLang(lang) {
@@ -819,7 +819,7 @@
       category: document.getElementById('f-category').value,
       name: document.getElementById('f-name').value,
       email: document.getElementById('f-email').value.trim(),
-      subject: prefilledSubject || derivedSubject(document.getElementById('f-category').value, document.getElementById('f-version').value),
+      subject: prefilledSubject || derivedSubject(document.getElementById('f-version').value),
       message: document.getElementById('f-message').value,
       version: document.getElementById('f-version').value,
       os: document.getElementById('f-os').value,
