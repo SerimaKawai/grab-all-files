@@ -70,9 +70,9 @@
     ],
     "image": "https://grab-all-files.app/og-image.png",
     "screenshot": "https://grab-all-files.app/og-image.png",
-    "softwareVersion": "5.4.4",
+    "softwareVersion": "5.5.0",
     "datePublished": "2025-05-05",
-    "dateModified": "2026-08-14",
+    "dateModified": "2026-08-16",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
     "permissions": "Files are downloaded directly from the source site to the user's device; only license verification reaches the developer's servers.",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
@@ -88,7 +88,7 @@
       "priceCurrency": "USD",
       "category": "OneTimePayment",
       "availability": "https://schema.org/InStock",
-      "description": "One-time purchase, perpetual license, activates on up to 3 devices. Every feature is free. Free saves 20 files per download and pauses for confirmation every 20 collected web pages; Pro removes those pauses. / 永続ライセンス（サブスクなし）。最大3台まで有効化。全機能は無料で利用でき、無料プランはファイルを1回20件ずつ保存し、Webページ収集は20ページごとに確認します。Proはこれらの区切りを解除します。",
+      "description": "One-time purchase, perpetual license, activates on up to 3 devices. Every feature is free. Free saves 20 files per download and collects web pages 10 per run; Pro removes both limits. / 永続ライセンス（サブスクなし）。最大3台まで有効化。全機能は無料で利用でき、無料プランはファイルを1回20件ずつ保存し、Webページ収集は1回10ページずつ。Proはどちらも上限なしです。",
       "url": "https://grab-all-files.app/purchase/"
     },
     "author": {
@@ -128,7 +128,7 @@
         "name": "Is it free to use?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Every feature is free; a single download saves up to 20 files, and you can repeat the download to save the rest at no cost. Web-page collection pauses for confirmation every 20 pages. Pro (a one-time $19.99 purchase) removes the download limit and continues page collection automatically."
+          "text": "Yes. Every feature is free; a single download saves up to 20 files, and you can repeat the download to save the rest at no cost. Web-page collection saves up to 10 pages per run as one HTML file, and you can run it again for the rest. Pro (a one-time $19.99 purchase) removes the download limit and the per-run page limit."
         }
       },
       {
@@ -176,7 +176,7 @@
         "name": "Can I combine multiple web pages into one HTML file?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Open the extension and choose “Combine pages into HTML.” It finds related pages, lets you review the list, and saves the selected pages as one searchable, printable HTML file with a table of contents. The Free plan pauses for confirmation every 20 pages; Pro continues automatically."
+          "text": "Yes. Open the extension and choose “Combine pages into HTML.” It finds related pages, lets you review the list, and saves the selected pages as one searchable, printable HTML file with a table of contents. The Free plan collects up to 10 pages per run (each run saves its own HTML); Pro collects automatically up to your chosen safety limit."
         }
       },
       {
@@ -934,7 +934,7 @@
         
         <div data-lang="pt_BR" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>Versão mais recente</span><strong>5.4.4</strong></div>
+            <div class="latest-badge"><span>Versão mais recente</span><strong>5.5.0</strong></div>
             <div class="latest-copy"><h3>Feita para encontrar mais arquivos em páginas complexas.</h3><p>Feito para a web de hoje e atualizado com frequência. A versão atual destaca detecção mais profunda, coleta no mesmo site e ferramentas locais para grandes downloads.</p><ul class="latest-points"><li><strong>Novo:</strong> Avisa quando um site retorna a página web em vez do arquivo: uma tela de login salva como PDF não parece mais um download corrompido.</li><li><strong>Novo:</strong> Melhores nomes em tabelas de links: quando todos os links dizem apenas “aqui” ou “Baixar”, o nome vem do cabeçalho da coluna acima.</li><li><strong>Novo:</strong> “Remover duplicatas por título” não descarta mais arquivos diferentes que compartilham um rótulo de link genérico, e mostra quantas linhas ocultou.</li><li>Reúna páginas web relacionadas em um único HTML com sumário, pesquisável e imprimível; tente novamente apenas os arquivos que falharam; restaure seus últimos resultados após recarregar.</li><li>Detecção ampla: PDFs em iframe, imagens lazy, arquivos fetch/XHR, URLs blob, rotas CMS e arquivos divididos / multivolume.</li><li>Mesclagem PDF, arquivo ZIP e exportação CSV ficam locais no navegador — nada é enviado.</li></ul></div>
           </div>
         </div>
@@ -1008,7 +1008,7 @@
                 <div class="spotlight-item"><strong>Salve um único documento portátil</strong><p>Incorpore imagens para leitura offline ou mantenha referências online para reduzir o tamanho do arquivo. PDFs, arquivos do Office e outros documentos vinculados podem ser salvos junto com o HTML.</p></div>
                 <div class="spotlight-item"><strong>Exportação opcional pronta para IA</strong><p>Gere Markdown com fontes rastreáveis, JSONL, um manifest e dados tabulares para análise. A coleta de páginas e a geração do HTML são executadas localmente no seu dispositivo; o conteúdo das páginas não é enviado aos nossos servidores.</p></div>
               </div>
-              <p class="spotlight-plan">Incluído no Free com a mesma qualidade de saída. No Free, a coleta pausa para confirmação a cada 20 páginas; no Pro, ela continua automaticamente até o limite de segurança escolhido.</p>
+              <p class="spotlight-plan">Incluído no Free com a mesma qualidade de saída. No Free, cada execução coleta 10 páginas e salva seu próprio HTML; no Pro, ela continua automaticamente até o limite de segurança escolhido.</p>
               <a class="spotlight-link" href="/pt_BR/use-cases/combine-web-pages-into-one-html.html">Veja como juntar páginas em um único HTML →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>Encontra arquivos ocultos</h3><p>Compatível com <strong>708 tipos de arquivo (extensões)</strong>. Detecta PDFs em iframes, imagens com carregamento preguiçoso, respostas fetch/XHR, URLs blob, rotas de download de CMS e 39 atributos data-*. Chega até o Shadow DOM / Web Components, os dados de hidratação de SPAs (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB e URLs assinadas de armazenamento em nuvem (Cloudflare R2, Firebase, Supabase, Vercel Blob).</p></div>
@@ -1242,8 +1242,8 @@
         
         <div data-lang="pt_BR" class="active"><div class="faq-list">
           <details><summary>Quais tipos de arquivo são suportados?</summary><p>O Grab All Files suporta 708 tipos de arquivo (extensões), incluindo PDF, Word, Excel, PowerPoint, imagens, ZIP e CSV. Também detecta sequências de arquivos divididos / multivolume (.000/.001…, WinRAR .r00/.s00, WinZip .z01) e as agrupa como arquivos compactados. Filtre por extensão, selecione o que precisa e baixe tudo com um clique.</p></details>
-          <details><summary>É gratuito para usar?</summary><p>Sim. Todos os recursos são gratuitos; um único download salva até 20 arquivos, e você pode repetir o download para salvar o restante sem custo. A coleta de páginas pausa para confirmação a cada 20 páginas. O Pro (uma compra única de $19.99) remove o limite de download e continua a coleta automaticamente.</p></details>
-          <details><summary>Posso combinar várias páginas da web em um único arquivo HTML?</summary><p>Sim. Abra a extensão e selecione “Juntar páginas em HTML”. Ela encontra páginas relacionadas, permite revisar a lista e salva as páginas selecionadas em um único arquivo HTML com sumário, pesquisável e pronto para impressão. No Free, a coleta pausa para confirmação a cada 20 páginas; no Pro, ela continua automaticamente.</p></details>
+          <details><summary>É gratuito para usar?</summary><p>Sim. Todos os recursos são gratuitos; um único download salva até 20 arquivos, e você pode repetir o download para salvar o restante sem custo. A coleta de páginas salva até 10 páginas por execução como um HTML; repita a execução para o restante. O Pro (uma compra única de $19.99) remove o limite de download e o limite de páginas por execução.</p></details>
+          <details><summary>Posso combinar várias páginas da web em um único arquivo HTML?</summary><p>Sim. Abra a extensão e selecione “Juntar páginas em HTML”. Ela encontra páginas relacionadas, permite revisar a lista e salva as páginas selecionadas em um único arquivo HTML com sumário, pesquisável e pronto para impressão. No Free, cada execução coleta até 10 páginas (cada execução salva seu próprio HTML); no Pro, não há limite.</p></details>
           <details><summary>Quanto custa o Pro?</summary><p>$19.99 USD compra única. Licença vitalícia, sem assinatura. Até 3 dispositivos.</p></details>
           <details><summary>Envia meus dados de navegação?</summary><p>Não. Os arquivos são baixados diretamente do site fonte para seu dispositivo. Apenas a verificação de licença e alguns eventos anônimos de interação com o plano (um ID de dispositivo aleatório, o estado do seu plano e um rótulo de recurso) chegam aos nossos servidores — nunca conteúdo de páginas, URLs ou nomes de arquivos.</p></details>
           <details><summary>Quais navegadores são suportados?</summary><p>Google Chrome e Microsoft Edge (Chromium 111 ou posterior), e Mozilla Firefox (128 ou posterior).</p></details>

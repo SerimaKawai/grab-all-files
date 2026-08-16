@@ -70,9 +70,9 @@
     ],
     "image": "https://grab-all-files.app/og-image.png",
     "screenshot": "https://grab-all-files.app/og-image.png",
-    "softwareVersion": "5.4.4",
+    "softwareVersion": "5.5.0",
     "datePublished": "2025-05-05",
-    "dateModified": "2026-08-14",
+    "dateModified": "2026-08-16",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
     "permissions": "Files are downloaded directly from the source site to the user's device; only license verification reaches the developer's servers.",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
@@ -88,7 +88,7 @@
       "priceCurrency": "USD",
       "category": "OneTimePayment",
       "availability": "https://schema.org/InStock",
-      "description": "One-time purchase, perpetual license, activates on up to 3 devices. Every feature is free. Free saves 20 files per download and pauses for confirmation every 20 collected web pages; Pro removes those pauses. / 永続ライセンス（サブスクなし）。最大3台まで有効化。全機能は無料で利用でき、無料プランはファイルを1回20件ずつ保存し、Webページ収集は20ページごとに確認します。Proはこれらの区切りを解除します。",
+      "description": "One-time purchase, perpetual license, activates on up to 3 devices. Every feature is free. Free saves 20 files per download and collects web pages 10 per run; Pro removes both limits. / 永続ライセンス（サブスクなし）。最大3台まで有効化。全機能は無料で利用でき、無料プランはファイルを1回20件ずつ保存し、Webページ収集は1回10ページずつ。Proはどちらも上限なしです。",
       "url": "https://grab-all-files.app/purchase/"
     },
     "author": {
@@ -128,7 +128,7 @@
         "name": "Is it free to use?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Every feature is free; a single download saves up to 20 files, and you can repeat the download to save the rest at no cost. Web-page collection pauses for confirmation every 20 pages. Pro (a one-time $19.99 purchase) removes the download limit and continues page collection automatically."
+          "text": "Yes. Every feature is free; a single download saves up to 20 files, and you can repeat the download to save the rest at no cost. Web-page collection saves up to 10 pages per run as one HTML file, and you can run it again for the rest. Pro (a one-time $19.99 purchase) removes the download limit and the per-run page limit."
         }
       },
       {
@@ -176,7 +176,7 @@
         "name": "Can I combine multiple web pages into one HTML file?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Open the extension and choose “Combine pages into HTML.” It finds related pages, lets you review the list, and saves the selected pages as one searchable, printable HTML file with a table of contents. The Free plan pauses for confirmation every 20 pages; Pro continues automatically."
+          "text": "Yes. Open the extension and choose “Combine pages into HTML.” It finds related pages, lets you review the list, and saves the selected pages as one searchable, printable HTML file with a table of contents. The Free plan collects up to 10 pages per run (each run saves its own HTML); Pro collects automatically up to your chosen safety limit."
         }
       },
       {
@@ -928,7 +928,7 @@
         
         <div data-lang="ja" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>最新バージョン</span><strong>5.4.4</strong></div>
+            <div class="latest-badge"><span>最新バージョン</span><strong>5.5.0</strong></div>
             <div class="latest-copy"><h3>複雑なページでも、より多くのファイルを見つけやすく。</h3><p>最新のWebに合わせて設計し、こまめに更新しています。現在のリリースでは、深い検出、同一サイト収集、大量ダウンロード後のローカル出力機能を重点的に整理しています。</p><ul class="latest-points"><li><strong>新機能：</strong> ファイルではなくサイトのWebページが保存された場合にお知らせします。ログイン画面がPDFとして保存されても、「壊れたファイル」に見えることがなくなります。</li><li><strong>新機能：</strong> リンク文字が「こちら」「ダウンロード」ばかりの表でも、すぐ上の見出しから名前を取得。ファイル名が区別できるようになりました。</li><li><strong>新機能：</strong> 「タイトルで重複排除」が、同じリンク文字を持つ別のファイルまで消さないように。非表示にした件数も表示します。</li><li>関連Webページを目次付きの1つのHTMLに結合。失敗したファイルだけを再試行。リロード後も前回の結果を復元。</li><li>iframe内PDF、遅延画像、fetch/XHRファイル、blob URL、CMSダウンロードルート、分割・マルチボリュームアーカイブまで幅広く検出。</li><li>PDF結合・ZIP化・CSV出力はブラウザ内で完結し、ファイルをアップロードしません。</li></ul></div>
           </div>
         </div>
@@ -1002,7 +1002,7 @@
                 <div class="spotlight-item"><strong>持ち運べる1つの資料に</strong><p>画像を埋め込んでオフライン閲覧、またはオンライン参照で軽量化。リンク先のPDF・Office文書などもHTMLと一緒に保存できます。</p></div>
                 <div class="spotlight-item"><strong>AI向けデータも任意で出力</strong><p>出典付きMarkdown、JSONL、manifest、表データを生成可能。ページ収集とHTML生成は端末内で処理し、ページ内容を当社サーバーへアップロードしません。</p></div>
               </div>
-              <p class="spotlight-plan">無料プランでも同じ品質で利用できます。20ページごとに確認して続行し、Proなら指定した安全上限まで自動で収集します。</p>
+              <p class="spotlight-plan">無料プランでも同じ品質で利用できます。1回に10ページずつ収集して1つのHTMLに保存し、続きは次の実行で。Proなら指定した安全上限まで一度に収集します。</p>
               <a class="spotlight-link" href="/ja/use-cases/combine-web-pages-into-one-html.html">複数ページを1つのHTMLにまとめる手順を見る →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>見落としがちなファイルも検出</h3><p><strong>708種類（拡張子）</strong>のファイルに対応。iframe内のPDF、遅延読み込み画像、fetch/XHRで取得されるファイル、blob URL、CMSダウンロードルート、hidden inputの値、39種類のdata-*属性まで網羅。通常のリンクスクレイパーでは拾えないファイルも検出します。さらにShadow DOM／Web Components内、SPAのハイドレーションデータ（Next.js・JSON-LD）、Cache Storage／OPFS／IndexedDB、署名付きクラウドストレージURL（Cloudflare R2・Firebase・Supabase・Vercel Blob）まで踏み込んで検出します。</p></div>
@@ -1170,7 +1170,7 @@
               
             </div>
             
-            <div data-lang="ja" class="active"><ul><li>全機能を無料で利用可能</li><li>1回のダウンロードで最大20件</li><li>Webページ収集は無料版で20ページごとに確認、Proは自動続行</li><li>永続ライセンス（サブスクなし）</li><li>最大3台で利用可能</li><li>アップデート無償</li><li>Stripe決済 / ライセンスキーはメール送付</li></ul></div>
+            <div data-lang="ja" class="active"><ul><li>全機能を無料で利用可能</li><li>1回のダウンロードで最大20件</li><li>Webページ収集は無料版で1回10ページずつ、Proは上限なし</li><li>永続ライセンス（サブスクなし）</li><li>最大3台で利用可能</li><li>アップデート無償</li><li>Stripe決済 / ライセンスキーはメール送付</li></ul></div>
             
             
             
@@ -1236,8 +1236,8 @@
         
         <div data-lang="ja" class="active"><div class="faq-list">
           <details><summary>対応しているファイル形式は？</summary><p>708種類（拡張子）のファイルに対応しています（PDF・Word・Excel・PowerPoint・画像・ZIP・CSVなど）。分割・マルチボリュームアーカイブ（.000/.001…、WinRAR .r00/.s00、WinZip .z01）も検出し、圧縮アーカイブとして分類します。拡張子で絞り込み、必要なものを選んでワンクリックで一括ダウンロードできます。</p></details>
-          <details><summary>無料で使えますか？</summary><p>はい。全機能を無料でご利用いただけます。1回のダウンロードで最大20件まで保存でき、ダウンロードを繰り返せば残りも無料で保存できます。Webページ収集は20ページごとに確認して続行できます。Pro（$19.99の買い切り）ではダウンロード上限がなくなり、ページ収集も自動で続行します。</p></details>
-          <details><summary>複数のWebページを1つのHTMLにまとめられますか？</summary><p>はい。拡張機能で「ページをHTMLにまとめる」を選ぶと、関連ページを探索し、一覧を確認して、選択したページを目次付きで検索・印刷できる1つのHTMLとして保存できます。無料プランは20ページごとに確認し、Proは自動で続行します。</p></details>
+          <details><summary>無料で使えますか？</summary><p>はい。全機能を無料でご利用いただけます。1回のダウンロードで最大20件まで保存でき、ダウンロードを繰り返せば残りも無料で保存できます。Webページ収集は1回に10ページずつ保存でき、繰り返せば続きも収集できます。Pro（$19.99の買い切り）ではダウンロード上限も1回あたりのページ上限もなくなります。</p></details>
+          <details><summary>複数のWebページを1つのHTMLにまとめられますか？</summary><p>はい。拡張機能で「ページをHTMLにまとめる」を選ぶと、関連ページを探索し、一覧を確認して、選択したページを目次付きで検索・印刷できる1つのHTMLとして保存できます。無料プランは1回に10ページずつ（実行ごとに1つのHTML）、Proは上限なしで収集します。</p></details>
           <details><summary>Proの料金は？</summary><p>$19.99 USDの永続ライセンス（サブスクなし）です。最大3台のデバイスで利用できます。</p></details>
           <details><summary>閲覧データはどこかへ送信されますか？</summary><p>いいえ。ファイルはソースサイトから端末へ直接ダウンロードされます。当社サーバーへ送信されるのはライセンス検証と、少数の匿名のプラン操作イベント（ランダムなデバイスID・プラン状態・機能ラベル）のみで、ページ内容・URL・ファイル名は一切送信しません。</p></details>
           <details><summary>対応ブラウザは？</summary><p>Google Chrome および Microsoft Edge（Chromium 111 以降）、および Mozilla Firefox（128 以降）。</p></details>
