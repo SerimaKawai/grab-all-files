@@ -224,7 +224,10 @@ function bakeHub(html, lang, tables, cases) {
   const ui = tables.UI[lang] || tables.UI.en;
   const labels = tables.GUIDE_LABELS[lang] || tables.GUIDE_LABELS.en;
   const order = tables.GUIDE_ORDER;
-  const title = `${ui.useCases} | Grab All Files`;
+  // ui.useCases はナビ用の短いラベルで、es/pt_BR ("Casos de uso") と
+  // zh_CN/zh_TW ("用途") が衝突し、別URLに同一 title が生まれていた。
+  // ハブ専用の title があればそれを優先する。
+  const title = `${ui.useCasesTitle || ui.useCases} | Grab All Files`;
   const desc = order.map((id) => labels[id]).join(' · ');
   const guideUrl = (id) => `/use-cases/${id}.html`;
 
