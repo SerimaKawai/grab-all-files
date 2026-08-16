@@ -772,6 +772,28 @@
       .store-btn::before { width: 20px; height: 20px; flex-basis: 20px; background-size: 20px 20px; }
     }
 
+  
+    /* Two-tool section: both panels are deliberately identical — same box, same
+       type scale, same affordances. Any visual hierarchy between them would
+       re-create the imbalance this section exists to correct. */
+    .tools-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.1rem; }
+    .tool-panel { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 1.6rem; }
+    .tool-panel .tile { margin-bottom: 0.85rem; }
+    .tool-kicker { display: block; color: var(--primary); font-size: 0.74rem; font-weight: 750; letter-spacing: 0.07em; text-transform: uppercase; margin-bottom: 0.3rem; }
+    /* color is NOT optional here: no global h3 colour rule exists, so an h3
+       without it falls through to a light-mode-only default and drops to a
+       1.01 contrast ratio in dark mode. Every other card sets this too. */
+    .tool-panel h3 { color: var(--text-strong); font-size: clamp(1.15rem, 1.9vw, 1.45rem); line-height: 1.3; margin-bottom: 0.5rem; }
+    .tool-panel > p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.05rem; }
+    .tool-points { list-style: none; margin: 0 0 1.15rem; padding: 0; display: grid; gap: 0.55rem; }
+    .tool-points li { position: relative; padding-left: 1.45rem; font-size: 0.92rem; line-height: 1.6; color: var(--text); }
+    .tool-points li::before { content: "\2713"; position: absolute; left: 0; top: 0; color: var(--check); font-weight: 800; }
+    .tool-link { margin-top: auto; align-self: flex-start; color: var(--primary); font-size: 0.9rem; font-weight: 700; text-decoration: none; }
+    .tool-link:hover { text-decoration: underline; }
+    @media (max-width: 760px) {
+      .tools-grid { grid-template-columns: 1fr; }
+      .tool-panel { padding: 1.3rem; }
+    }
   </style>
 
   <script>
@@ -797,6 +819,7 @@
         <span class="brand-name">Grab All Files</span>
       </a>
       <nav class="nav-links" aria-label="Primary">
+        <a href="#tools"><span data-lang="ko" class="active">두 가지 도구</span></a>
         <a href="#features"><span data-lang="ko" class="active">기능</span></a>
         <a href="#how"><span data-lang="ko" class="active">사용 방법</span></a>
         <a href="#pricing"><span data-lang="ko" class="active">가격</span></a>
@@ -923,6 +946,39 @@
     </section>
 
     <!-- Latest version -->
+
+    <!-- TWO TOOLS — the extension treats the downloader and the page
+         collector as peer tabs (popup.html #tool-tabs); this section is
+         where the site says so. Hero title/h1 deliberately unchanged. -->
+    <section class="block" id="tools">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-eyebrow"><span data-lang="ko" class="active">두 가지 도구</span></span>
+          
+          
+          
+          
+          
+          
+          <div data-lang="ko" class="active"><h2>하나의 확장 프로그램에 두 가지 도구.</h2><p>둘 다 무료 플랜에 포함되며, 확장 프로그램 안의 같은 탭 바에서 전환할 수 있습니다.</p></div>
+          
+          
+          
+        </div>
+        
+        
+        
+        
+        
+        
+        <div data-lang="ko" class="active">
+          <div class="tools-grid"><article class="tool-panel"><span class="tile" aria-hidden="true">📥</span><span class="tool-kicker">도구 1</span><h3>파일 일괄 다운로드</h3><p>페이지에서 다운로드할 수 있는 모든 파일(708종류)을 찾아, 선택한 파일을 한 번의 클릭으로 저장합니다.</p><ul class="tool-points"><li>iframe, 뷰어, 지연 로딩, fetch/XHR, blob URL 뒤에 있는 파일까지 감지</li><li>PDF 병합, ZIP 생성, CSV 내보내기까지 모두 브라우저 안에서 처리</li><li>무료 플랜은 다운로드 1회당 20개. 반복하면 나머지도 저장할 수 있습니다</li></ul><a class="tool-link" href="#features">다운로드 기능 보기 <span class="arrow" aria-hidden="true">&rarr;</span></a></article><article class="tool-panel"><span class="tile" aria-hidden="true">📑</span><span class="tool-kicker">도구 2</span><h3>페이지를 하나의 HTML로</h3><p>열려 있는 페이지에서 시작해 관련 페이지를 찾고, 선택한 페이지를 목차가 있는 검색 가능한 HTML 한 파일로 묶습니다.</p><ul class="tool-points"><li>자동 탐색은 물론 메뉴·경로·사이트맵·붙여넣은 URL 목록으로도 지정할 수 있습니다</li><li>수집을 시작하기 전에 목록에서 확인하고 순서 변경이나 제외를 할 수 있습니다</li><li>무료 플랜은 실행당 10페이지. 반복하면 나머지도 수집할 수 있습니다</li></ul><a class="tool-link" href="/ko/use-cases/combine-web-pages-into-one-html.html">페이지 수집 사용법 보기 <span class="arrow" aria-hidden="true">&rarr;</span></a></article></div>
+        </div>
+        
+        
+        
+      </div>
+    </section>
     <section class="block alt" id="latest-version">
       <div class="wrap">
         

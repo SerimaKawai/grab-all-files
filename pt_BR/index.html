@@ -772,6 +772,28 @@
       .store-btn::before { width: 20px; height: 20px; flex-basis: 20px; background-size: 20px 20px; }
     }
 
+  
+    /* Two-tool section: both panels are deliberately identical — same box, same
+       type scale, same affordances. Any visual hierarchy between them would
+       re-create the imbalance this section exists to correct. */
+    .tools-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.1rem; }
+    .tool-panel { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 1.6rem; }
+    .tool-panel .tile { margin-bottom: 0.85rem; }
+    .tool-kicker { display: block; color: var(--primary); font-size: 0.74rem; font-weight: 750; letter-spacing: 0.07em; text-transform: uppercase; margin-bottom: 0.3rem; }
+    /* color is NOT optional here: no global h3 colour rule exists, so an h3
+       without it falls through to a light-mode-only default and drops to a
+       1.01 contrast ratio in dark mode. Every other card sets this too. */
+    .tool-panel h3 { color: var(--text-strong); font-size: clamp(1.15rem, 1.9vw, 1.45rem); line-height: 1.3; margin-bottom: 0.5rem; }
+    .tool-panel > p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.05rem; }
+    .tool-points { list-style: none; margin: 0 0 1.15rem; padding: 0; display: grid; gap: 0.55rem; }
+    .tool-points li { position: relative; padding-left: 1.45rem; font-size: 0.92rem; line-height: 1.6; color: var(--text); }
+    .tool-points li::before { content: "\2713"; position: absolute; left: 0; top: 0; color: var(--check); font-weight: 800; }
+    .tool-link { margin-top: auto; align-self: flex-start; color: var(--primary); font-size: 0.9rem; font-weight: 700; text-decoration: none; }
+    .tool-link:hover { text-decoration: underline; }
+    @media (max-width: 760px) {
+      .tools-grid { grid-template-columns: 1fr; }
+      .tool-panel { padding: 1.3rem; }
+    }
   </style>
 
   <script>
@@ -797,6 +819,7 @@
         <span class="brand-name">Grab All Files</span>
       </a>
       <nav class="nav-links" aria-label="Primary">
+        <a href="#tools"><span data-lang="pt_BR" class="active">Duas ferramentas</span></a>
         <a href="#features"><span data-lang="pt_BR" class="active">Recursos</span></a>
         <a href="#how"><span data-lang="pt_BR" class="active">Como funciona</span></a>
         <a href="#pricing"><span data-lang="pt_BR" class="active">Preço</span></a>
@@ -923,6 +946,39 @@
     </section>
 
     <!-- Latest version -->
+
+    <!-- TWO TOOLS — the extension treats the downloader and the page
+         collector as peer tabs (popup.html #tool-tabs); this section is
+         where the site says so. Hero title/h1 deliberately unchanged. -->
+    <section class="block" id="tools">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-eyebrow"><span data-lang="pt_BR" class="active">Duas ferramentas</span></span>
+          
+          
+          
+          
+          
+          
+          
+          <div data-lang="pt_BR" class="active"><h2>Duas ferramentas em uma extensão.</h2><p>Ambas estão incluídas no plano gratuito e você alterna entre elas na mesma barra de abas, dentro da extensão.</p></div>
+          
+          
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <div data-lang="pt_BR" class="active">
+          <div class="tools-grid"><article class="tool-panel"><span class="tile" aria-hidden="true">📥</span><span class="tool-kicker">Ferramenta 1</span><h3>Download em lote de arquivos</h3><p>Encontre todos os arquivos baixáveis de uma página — 708 tipos — e salve os que escolher com um único clique.</p><ul class="tool-points"><li>Detecta arquivos atrás de iframes, visualizadores, carregamento tardio, fetch/XHR e URLs blob</li><li>Mescle PDFs, crie um ZIP ou exporte um CSV, tudo dentro do navegador</li><li>O Free salva 20 arquivos por download; repita o download para o restante</li></ul><a class="tool-link" href="#features">Ver os recursos de download <span class="arrow" aria-hidden="true">&rarr;</span></a></article><article class="tool-panel"><span class="tile" aria-hidden="true">📑</span><span class="tool-kicker">Ferramenta 2</span><h3>Combine páginas em um único HTML</h3><p>Comece pela página que você tem aberta, encontre as páginas relacionadas e combine sua seleção em um único HTML pesquisável com sumário.</p><ul class="tool-points"><li>Descoberta automática ou controle detalhado de menus, caminhos, sitemaps e listas de URL coladas</li><li>Revise, reordene e remova páginas antes de coletar qualquer coisa</li><li>O Free coleta 10 páginas por execução; repita a execução para o restante</li></ul><a class="tool-link" href="/pt_BR/use-cases/combine-web-pages-into-one-html.html">Veja como funciona a coleta de páginas <span class="arrow" aria-hidden="true">&rarr;</span></a></article></div>
+        </div>
+        
+        
+      </div>
+    </section>
     <section class="block alt" id="latest-version">
       <div class="wrap">
         
