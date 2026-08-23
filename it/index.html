@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
 
-  <title>Scarica tutti i file — Estensione Chrome/Edge/Firefox</title>
+  <title>Grab All Files — Download in blocco e pagine in un HTML</title>
   <script defer src="/analytics.js"></script>
-  <meta name="description" content="Trova e scarica file in blocco, unisci PDF in locale o riunisci pagine web in un unico HTML ricercabile con indice. Gratis; Pro costa $19.99 una tantum.">
+  <meta name="description" content="Due strumenti in un’estensione: scarica in blocco 708 tipi di file oppure riunisci le pagine scelte in un HTML ricercabile con indice. Piano gratuito.">
   <meta name="google-site-verification" content="JfcW9lF277GfVNj5_XbgEZKe2tLjs-F7VrORRSKod7Q">
   <meta name="msvalidate.01" content="127DFDFFC040A17AC42A205012F11301">
 
   <link rel="canonical" href="https://grab-all-files.app/it/">
+  <link rel="alternate" type="text/plain" href="https://grab-all-files.app/llms.txt" title="AI-readable product summary">
   <link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/">
   <link rel="alternate" hreflang="en" href="https://grab-all-files.app/">
   <link rel="alternate" hreflang="ja" href="https://grab-all-files.app/ja/">
@@ -33,8 +34,8 @@
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Grab All Files">
-  <meta property="og:title" content="Scarica tutti i file — Estensione Chrome/Edge/Firefox">
-  <meta property="og:description" content="Trova e scarica file in blocco, unisci PDF in locale o riunisci pagine web in un unico HTML ricercabile con indice. Gratis; Pro costa $19.99 una tantum.">
+  <meta property="og:title" content="Grab All Files — Download in blocco e pagine in un HTML">
+  <meta property="og:description" content="Due strumenti in un’estensione: scarica in blocco 708 tipi di file oppure riunisci le pagine scelte in un HTML ricercabile con indice. Piano gratuito.">
   <meta property="og:url" content="https://grab-all-files.app/it/">
   <meta property="og:image" content="https://grab-all-files.app/og-image.png">
   <meta property="og:image:alt" content="Grab All Files logo">
@@ -50,8 +51,8 @@
   <meta property="og:locale:alternate" content="zh_TW">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Scarica tutti i file — Estensione Chrome/Edge/Firefox">
-  <meta name="twitter:description" content="Trova e scarica file in blocco, unisci PDF in locale o riunisci pagine web in un unico HTML ricercabile con indice. Gratis; Pro costa $19.99 una tantum.">
+  <meta name="twitter:title" content="Grab All Files — Download in blocco e pagine in un HTML">
+  <meta name="twitter:description" content="Due strumenti in un’estensione: scarica in blocco 708 tipi di file oppure riunisci le pagine scelte in un HTML ricercabile con indice. Piano gratuito.">
   <meta name="twitter:image" content="https://grab-all-files.app/og-image.png">
 
   <script type="application/ld+json">
@@ -59,10 +60,26 @@
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "Grab All Files",
-    "alternateName": ["ファイル一括ダウンロード", "Bulk File Downloader"],
+    "alternateName": ["ファイル一括ダウンロード", "Bulk File Downloader", "Web Page Collector", "ページ収集", "Combine Pages into HTML"],
     "operatingSystem": "Windows, macOS, Linux, ChromeOS",
     "applicationCategory": "BrowserApplication",
-    "description": "Browser extension for Google Chrome™, Microsoft Edge™, and Mozilla Firefox™ that detects and bulk-downloads files, merges PDFs locally, and combines selected web pages into one searchable, printable HTML file with a table of contents. / Webページ上のファイル一括保存、PDFローカル結合、選択した複数ページの目次付きHTML化に対応するGoogle Chrome™ / Microsoft Edge™ / Mozilla Firefox™拡張機能。",
+    "description": "Browser extension with two equally central tools: Bulk File Download detects, filters, and saves files from web pages; Web Page Collector finds related pages and combines selected content into one searchable, printable HTML file with a table of contents. / 2つの主要機能を備えたブラウザ拡張機能。ファイル一括ダウンロードはWebページ上のファイルを検出・絞り込み・保存し、ページ収集は関連ページを探して選択した内容を目次付きで検索・印刷できる1つのHTMLにまとめます。",
+    "hasPart": [
+      {
+        "@type": "CreativeWork",
+        "name": "Bulk File Download",
+        "alternateName": "ファイル一括ダウンロード",
+        "url": "https://grab-all-files.app/use-cases/download-files-from-webpage.html",
+        "description": "Detect up to 708 file types on web pages, review and filter the results, then bulk-download selected files or create local PDF, ZIP, and CSV outputs."
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Web Page Collector",
+        "alternateName": ["ページ収集", "Combine Pages into HTML"],
+        "url": "https://grab-all-files.app/use-cases/combine-web-pages-into-one-html.html",
+        "description": "Discover and review related pages, then combine selected readable content into one searchable, printable HTML file with a table of contents and optional AI-ready exports."
+      }
+    ],
     "url": "https://grab-all-files.app/",
     "downloadUrl": [
       "https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf",
@@ -102,19 +119,30 @@
       "logo": "https://grab-all-files.app/icon-512.png"
     },
     "featureList": [
-      "Detects iframe PDFs, lazy-loaded assets, fetch/XHR responses, blob URLs, CMS download routes, hidden form values, Shadow DOM / Web Components, SPA hydration data (Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB, and signed cloud-storage URLs (Cloudflare R2, Firebase, Supabase, Vercel Blob) / iframe PDF、遅延読み込み、fetch/XHR、blob URL、CMSダウンロード経路、hidden inputの値、Shadow DOM／Web Components、SPAハイドレーションデータ（Next.js・JSON-LD）、Cache Storage／OPFS／IndexedDB、署名付きクラウドストレージURL（Cloudflare R2・Firebase・Supabase・Vercel Blob）を検出",
-      "Selectable same-site crawl depth / 同一サイト内クロール深度を選択可能",
-      "Reaches pages without plain HTML links — reads sitemap.xml / robots.txt and follows JavaScript-menu (javascript:/onclick), frameset, image-map, and GET search/pagination links / sitemap.xml・robots.txt を解析し、JavaScriptメニュー（javascript:／onclick）・フレームセット・イメージマップ・GET検索/ページャのリンクも辿り、通常のHTMLリンクが無いページにも到達",
-      "Bulk download with smart filtering / 拡張子、サイズ、名前、日付で絞り込んで一括保存",
-      "Local PDF merge in the browser / サーバーへアップロードせずブラウザ内でPDF結合",
-      "Local ZIP archive generation / 選択ファイルのZIPをローカル生成",
-      "Detects split / multi-volume archive sequences (.000/.001…, WinRAR .r00/.s00, WinZip .z01) grouped as compressed archives / 分割・マルチボリュームアーカイブ（.000/.001…、WinRAR .r00/.s00、WinZip .z01）を検出し圧縮アーカイブとして分類",
-      "CSV export of file URLs and metadata / ファイルURLとメタデータをCSV出力",
-      "Combines selected web pages into one searchable, printable HTML file with a table of contents / 選択した複数のWebページを目次付きで検索・印刷できる1つのHTMLに結合",
-      "Optional source-tracked Markdown, JSONL, manifest, and table export for AI analysis / AI解析向けに出典付きMarkdown、JSONL、manifest、表データを任意出力",
-      "Scans HTTP and HTTPS sites, including legacy non-HTTPS pages / HTTP・HTTPS両対応、非HTTPSの旧サイトもスキャン",
-      "10-language UI / 10言語UI対応"
+      "Bulk File Download: detects 708 file types, including iframe PDFs, lazy-loaded assets, fetch/XHR responses, blob URLs, CMS routes, Shadow DOM, SPA data, browser storage, and signed cloud URLs / ファイル一括ダウンロード：iframe PDF、遅延読み込み、fetch/XHR、blob URL、CMS経路などを含む708種類のファイルを検出",
+      "Web Page Collector: discovers related pages, lets users review, reorder, and exclude pages, then combines the selection into one HTML file / ページ収集：関連ページを探索し、確認・並べ替え・除外してから1つのHTMLに結合",
+      "Bulk File Download: filters by type, size, name, page title, and date; supports same-site crawling and sitemap discovery / ファイル一括ダウンロード：種類・サイズ・名前・ページタイトル・日付で絞り込み、同一サイト巡回やサイトマップ探索にも対応",
+      "Web Page Collector: automatic discovery plus detailed controls for menus, paths, sitemaps, and pasted URL lists / ページ収集：自動探索に加え、メニュー・パス・サイトマップ・貼り付けたURL一覧から詳細指定",
+      "Bulk File Download: saves selected files and creates PDF merges, ZIP archives, and CSV exports locally / ファイル一括ダウンロード：選択ファイルの保存、PDF結合、ZIP作成、CSV出力を端末内で実行",
+      "Web Page Collector: creates searchable, printable HTML with a table of contents, optional embedded images, and linked documents / ページ収集：目次付きで検索・印刷できるHTMLを生成し、画像埋め込みやリンク先文書の保存にも対応",
+      "Bulk File Download: pause, resume, automatic retry, retry only failed files, and restore previous results / ファイル一括ダウンロード：一時停止・再開・自動再試行・失敗分だけの再試行・前回結果の復元",
+      "Web Page Collector: optional source-tracked Markdown, JSONL, manifest, and table exports for AI analysis; file-size splitting defaults to 25 MB and is configurable / ページ収集：AI解析向けの出典付きMarkdown・JSONL・manifest・表データを任意出力し、既定25MBまたは指定サイズで分割",
+      "Both tools process page content and outputs locally and work on authorized HTTP, HTTPS, and login-protected pages / 両機能ともページ内容と出力を端末内で処理し、正当にアクセスできるHTTP・HTTPS・ログインページに対応",
+      "Both tools are available in the Free plan and use the same 10-language interface / 両機能とも無料プランと同じ10言語UIで利用可能"
     ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://grab-all-files.app/#website",
+    "url": "https://grab-all-files.app/",
+    "name": "Grab All Files",
+    "alternateName": "Grab All Files Browser Extension",
+    "description": "Official website for the Grab All Files browser extension and its two core tools: Bulk File Download and Web Page Collector.",
+    "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"]
   }
   </script>
 
@@ -571,6 +599,8 @@
     /* Steps */
     .steps { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); counter-reset: step; }
     @media (max-width: 880px) { .steps { grid-template-columns: 1fr; } }
+    .workflow-title { margin: 2rem 0 1rem; color: var(--text-strong); font-size: clamp(1.15rem, 2vw, 1.4rem); }
+    .section-head + [data-lang] > .workflow-title:first-child { margin-top: 0; }
     .step { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.4rem; position: relative; }
     .step .step-num { counter-increment: step; display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: var(--primary); color: var(--primary-text); font-weight: 700; font-size: 0.9rem; margin-bottom: 0.9rem; }
     .step .step-num::before { content: counter(step); }
@@ -862,8 +892,8 @@
           
           <div data-lang="it" class="active">
             <span class="hero-eyebrow"><span class="dot">✓</span><span class="eb-seg">Piano gratuito — tutte le funzionalità</span><span class="sep">·</span><span class="price-tag">$19.99</span> <span class="eb-seg">a vita</span></span>
-            <h1>Cattura ogni file di una pagina — anche quelli <span class="em">nascosti</span>.</h1>
-            <p class="hero-lead">Supporta <strong>708 tipi di file (estensioni)</strong>. Trova ogni PDF, documento Office, immagine, ZIP e CSV scaricabile su qualsiasi pagina web — anche quelli nascosti dietro iframe, visualizzatori, caricamento differito, fetch/XHR, URL blob e percorsi di download CMS. Seleziona ciò che ti serve, salva tutto con un clic e unisci i PDF localmente.</p>
+            <h1>Scarica file in blocco. Riunisci le pagine in <span class="em">un solo HTML</span>.</h1>
+            <p class="hero-lead">Due strumenti completi in un’unica estensione. <strong>Download in blocco</strong> trova 708 tipi di file — anche dietro iframe, visualizzatori, fetch/XHR e URL blob — poi filtra e salva la tua selezione. <strong>Raccolta pagine web</strong> trova le pagine correlate, permette di verificarle e crea un HTML con indice, ricerca e stampa. Entrambi funzionano in locale sul dispositivo.</p>
             <div class="hero-cta">
               <a href="#latest-version" class="btn btn-release">Scopri le novità dell’ultima versione <span class="arrow" aria-hidden="true">→</span></a>
             </div>
@@ -971,7 +1001,7 @@
         
         
         <div data-lang="it" class="active">
-          <div class="tools-grid"><article class="tool-panel"><span class="tile" aria-hidden="true">📥</span><span class="tool-kicker">Strumento 1</span><h3>Download in blocco dei file</h3><p>Trova ogni file scaricabile di una pagina — 708 tipi — e salva quelli che selezioni con un solo clic.</p><ul class="tool-points"><li>Rileva i file dietro iframe, visualizzatori, lazy loading, fetch/XHR e URL blob</li><li>Unisci PDF, crea uno ZIP o esporta un CSV, tutto dentro il browser</li><li>Free salva 20 file per download; ripeti il download per il resto</li></ul><a class="tool-link" href="#features">Vedi le funzioni di download <span class="arrow" aria-hidden="true">&rarr;</span></a></article><article class="tool-panel"><span class="tile" aria-hidden="true">📑</span><span class="tool-kicker">Strumento 2</span><h3>Unisci le pagine in un solo HTML</h3><p>Parti dalla pagina aperta, trova le pagine correlate e unisci la tua selezione in un unico file HTML con indice e ricerca.</p><ul class="tool-points"><li>Ricerca automatica oppure controllo dettagliato su menu, percorsi, sitemap ed elenchi di URL incollati</li><li>Controlla, riordina e rimuovi le pagine prima che venga raccolto qualsiasi contenuto</li><li>Free raccoglie 10 pagine per esecuzione; ripeti l’esecuzione per il resto</li></ul><a class="tool-link" href="/it/use-cases/combine-web-pages-into-one-html.html">Scopri come funziona la raccolta <span class="arrow" aria-hidden="true">&rarr;</span></a></article></div>
+          <div class="tools-grid"><article class="tool-panel"><span class="tile" aria-hidden="true">📥</span><span class="tool-kicker">Strumento 1</span><h3>Download in blocco dei file</h3><p>Trova ogni file scaricabile di una pagina — 708 tipi — e salva quelli che selezioni con un solo clic.</p><ul class="tool-points"><li>Rileva i file dietro iframe, visualizzatori, lazy loading, fetch/XHR e URL blob</li><li>Unisci PDF, crea uno ZIP o esporta un CSV, tutto dentro il browser</li><li>Free salva 20 file per download; ripeti il download per il resto</li></ul><a class="tool-link" href="/it/use-cases/download-files-from-webpage.html">Vedi le funzioni di download <span class="arrow" aria-hidden="true">&rarr;</span></a></article><article class="tool-panel"><span class="tile" aria-hidden="true">📑</span><span class="tool-kicker">Strumento 2</span><h3>Unisci le pagine in un solo HTML</h3><p>Parti dalla pagina aperta, trova le pagine correlate e unisci la tua selezione in un unico file HTML con indice e ricerca.</p><ul class="tool-points"><li>Ricerca automatica oppure controllo dettagliato su menu, percorsi, sitemap ed elenchi di URL incollati</li><li>Controlla, riordina e rimuovi le pagine prima che venga raccolto qualsiasi contenuto</li><li>Free raccoglie 10 pagine per esecuzione; ripeti l’esecuzione per il resto</li></ul><a class="tool-link" href="/it/use-cases/combine-web-pages-into-one-html.html">Scopri come funziona la raccolta <span class="arrow" aria-hidden="true">&rarr;</span></a></article></div>
         </div>
         
         
@@ -1093,7 +1123,7 @@
           
           
           
-          <div data-lang="it" class="active"><h2>Grab All Files rispetto ad altri strumenti di download</h2><p>Non è uno strumento tuttofare: eccelle in una cosa — trovare file su pagine complesse, dinamiche e protette da login. Ecco come si affianca a download manager e copiatori di siti.</p></div>
+          <div data-lang="it" class="active"><h2>Come Grab All Files si integra con altri strumenti</h2><p>Grab All Files si concentra su due attività: trovare file in pagine complesse o protette da login e riunire le pagine scelte in un HTML leggibile. Download manager e copiatori di siti coprono altre parti del flusso.</p></div>
           
           
           
@@ -1170,7 +1200,7 @@
           
           
           
-          <div data-lang="it" class="active"><h2>Come funziona</h2></div>
+          <div data-lang="it" class="active"><h2>Due flussi, tre passaggi ciascuno</h2><p>Scegli lo strumento adatto. Nessun account e nessun caricamento del contenuto delle pagine.</p></div>
           
           
           
@@ -1181,10 +1211,14 @@
         
         
         
-        <div data-lang="it" class="active"><div class="steps">
+        <div data-lang="it" class="active"><h3 class="workflow-title">Download in blocco dei file</h3><div class="steps">
           <div class="step"><div class="step-num"></div><h3>Apri la pagina o incolla un URL</h3><p>Usa la scheda corrente o incolla un URL. Scegli la profondità: solo questa pagina, 1–5 livelli o illimitato.</p></div>
           <div class="step"><div class="step-num"></div><h3>L'estensione elenca tutti i file rilevabili</h3><p>I risultati mostrano nome, tipo, dimensione, titolo e URL. Filtra, ordina e cerca prima di salvare.</p></div>
           <div class="step"><div class="step-num"></div><h3>Seleziona e salva, archivia o unisci</h3><p>Download in massa nella cartella scelta, archivio ZIP o unione PDF — tutto in locale.</p></div>
+        </div><h3 class="workflow-title">Raccolta pagine web</h3><div class="steps">
+          <div class="step"><div class="step-num"></div><h3>Apri la pagina iniziale e scegli la raccolta</h3><p>Usa la ricerca automatica o i controlli per menu, percorsi, sitemap ed elenchi di URL.</p></div>
+          <div class="step"><div class="step-num"></div><h3>Controlla le pagine prima della raccolta</h3><p>Verifica i titoli, rimuovi o riordina le pagine e scegli le opzioni per immagini e documenti collegati.</p></div>
+          <div class="step"><div class="step-num"></div><h3>Salva un HTML e dati IA facoltativi</h3><p>Crea un HTML con indice e ricerca; dividi i file IA a 25 MB per impostazione predefinita o alla dimensione scelta.</p></div>
         </div></div>
         
         
@@ -1322,7 +1356,7 @@
           
           
           
-          <div data-lang="it" class="active"><h2>Smetti di fare clic su "Salva con nome…" centinaia di volte.</h2><p>Installa gratis — tutte le funzionalità, fino a 20 per download. Passa a Pro ($19.99) per salvare tutto in una volta.</p></div>
+          <div data-lang="it" class="active"><h2>Salva file in blocco o trasforma le pagine in un documento.</h2><p>Installa gratis. Il download in blocco salva 20 file per download e la raccolta riunisce 10 pagine per esecuzione. Ripeti gratis oppure Pro rimuove entrambi i limiti.</p></div>
           
           
           
@@ -1434,16 +1468,16 @@
       ko: '언어', pt_BR: 'Idioma', zh_CN: '语言', zh_TW: '語言'
     };
     var META = {
-      en: { title: 'Grab All Files — Bulk file downloader for Chrome, Edge & Firefox', desc: 'Find and bulk-download files, merge PDFs locally, or combine selected web pages into one searchable HTML with a table of contents. Free; Pro is $19.99 once.' },
-      ja: { title: 'ファイル一括ダウンロード — Chrome / Edge / Firefox 拡張機能', desc: 'Webページ上のファイルを一括保存、PDFを端末内で結合、選択した複数ページを目次付きで検索できる1つのHTMLにまとめます。全機能無料、Proは$19.99の買い切り。' },
-      es: { title: 'Descargar todos los archivos — Extensión Chrome/Edge/Firefox', desc: 'Encuentra y descarga archivos en lote, fusiona PDF localmente o combina páginas web en un solo HTML. Gratis; Pro por 19,99 $ una vez.' },
-      fr: { title: 'Télécharger tous les fichiers — Extension Chrome/Edge/Firefox', desc: 'Trouvez et téléchargez des fichiers en masse, fusionnez des PDF localement ou réunissez des pages web en un seul HTML. Gratuit ; Pro à 19,99 $ une fois.' },
-      de: { title: 'Alle Dateien herunterladen — Erweiterung Chrome/Edge/Firefox', desc: 'Dateien finden und gesammelt laden, PDFs lokal zusammenführen oder Webseiten in einer HTML-Datei bündeln. Kostenlos; Pro einmalig 19,99 $.' },
-      it: { title: 'Scarica tutti i file — Estensione Chrome/Edge/Firefox', desc: 'Trova e scarica file in blocco, unisci PDF in locale o riunisci pagine web in un unico HTML ricercabile con indice. Gratis; Pro costa $19.99 una tantum.' },
-      ko: { title: '파일 일괄 다운로드 — Chrome / Edge / Firefox 확장 프로그램', desc: '웹페이지의 파일을 일괄 다운로드하고 PDF를 기기에서 병합하거나, 여러 페이지를 목차가 있는 검색 가능한 HTML 하나로 합칩니다. 모든 기능 무료, Pro는 $19.99 일회성 결제입니다.' },
-      pt_BR: { title: 'Baixar todos os arquivos — Extensão Chrome/Edge/Firefox', desc: 'Encontre e baixe arquivos em lote, mescle PDFs localmente ou reúna páginas web em um único HTML pesquisável com sumário. Grátis; Pro custa $19.99 uma vez.' },
-      zh_CN: { title: '批量下载文件 — Chrome / Edge / Firefox 扩展程序', desc: '批量查找并下载网页文件，在本地合并PDF，或将所选网页整理为一个带目录、可搜索的HTML文件。所有功能免费；Pro一次性购买$19.99。' },
-      zh_TW: { title: '批次下載檔案 — Chrome / Edge / Firefox 擴充功能', desc: '批次尋找並下載網頁檔案，在本機合併PDF，或將所選網頁整理成一個附有目錄、可搜尋的HTML檔案。所有功能免費；Pro一次性購買$19.99。' }
+      en: { title: 'Grab All Files — Bulk file download & web pages to one HTML', desc: 'Two tools in one extension: bulk-download 708 file types from web pages, or combine selected pages into one searchable HTML with a table of contents. Free plan.' },
+      ja: { title: 'Grab All Files｜ファイル一括保存・複数Webページを1つのHTMLに', desc: '2つの機能を1つの拡張機能に。Webページ上のファイルを一括保存するか、選んだ複数ページを目次付きで検索できる1つのHTMLにまとめます。全機能無料。' },
+      es: { title: 'Grab All Files — Descarga masiva y páginas en un HTML', desc: 'Dos herramientas en una extensión: descarga 708 tipos de archivo en lote o combina las páginas elegidas en un HTML con índice y búsqueda. Plan gratuito.' },
+      fr: { title: 'Grab All Files — Téléchargement groupé et pages en un HTML', desc: 'Deux outils dans une extension : téléchargez 708 types de fichiers en masse ou réunissez les pages choisies dans un HTML avec sommaire et recherche. Offre gratuite.' },
+      de: { title: 'Grab All Files — Stapel-Download & Webseiten in einer HTML-Datei', desc: 'Zwei Werkzeuge in einer Erweiterung: 708 Dateitypen gesammelt laden oder gewählte Webseiten in einer durchsuchbaren HTML-Datei mit Inhaltsverzeichnis bündeln.' },
+      it: { title: 'Grab All Files — Download in blocco e pagine in un HTML', desc: 'Due strumenti in un’estensione: scarica in blocco 708 tipi di file oppure riunisci le pagine scelte in un HTML ricercabile con indice. Piano gratuito.' },
+      ko: { title: 'Grab All Files｜파일 일괄 저장·여러 페이지를 HTML 하나로', desc: '하나의 확장 프로그램에 두 가지 도구: 웹페이지에서 708종류의 파일을 일괄 저장하거나, 선택한 여러 페이지를 목차가 있는 검색 가능한 HTML 하나로 합칩니다.' },
+      pt_BR: { title: 'Grab All Files — Download em lote e páginas em um HTML', desc: 'Duas ferramentas em uma extensão: baixe 708 tipos de arquivo em lote ou reúna as páginas escolhidas em um HTML pesquisável com sumário. Plano gratuito.' },
+      zh_CN: { title: 'Grab All Files｜文件批量下载与多网页合并为一个HTML', desc: '一个扩展内含两项工具：批量下载网页中的708种文件，或将所选多个页面合并为一个带目录、可搜索的HTML。所有功能均可免费使用。' },
+      zh_TW: { title: 'Grab All Files｜檔案批次下載與多網頁合併成一個HTML', desc: '一個擴充功能內含兩項工具：批次下載網頁中的708種檔案，或將所選多個頁面合併成一個附目錄、可搜尋的HTML。所有功能皆可免費使用。' }
     };
     var STORE_LINKS = {
       chrome: 'https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf',
