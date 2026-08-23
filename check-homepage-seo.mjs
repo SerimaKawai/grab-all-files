@@ -27,6 +27,8 @@ for (const locale of locales) {
   const grids = [...html.matchAll(/<div class="tools-grid">([\s\S]*?)<\/div>/gi)].map((m) => m[1]);
   const grid = grids[0] || '';
   const how = attr(html, /<section class="block" id="how">([\s\S]*?)<\/section>/i);
+  const screenshotGroups = [...html.matchAll(/<div class="product-shots[^"]*" data-lang="([^"]+)">([\s\S]*?)<\/div>/gi)];
+  const screenshotGroup = screenshotGroups.find((group) => group[1] === locale.code)?.[2] || '';
 
   assert(title.length <= 70, `${locale.file}: title is over 70 characters (${title.length})`);
   assert(description.length >= 40 && description.length <= 180, `${locale.file}: meta description length is ${description.length}`);
@@ -45,6 +47,12 @@ for (const locale of locales) {
   assert((how.match(/class="workflow-title"/g) || []).length === expectedWorkflowCount, `${locale.file}: expected two workflow titles per visible language`);
   assert((how.match(/class="steps"/g) || []).length === expectedStepGridCount, `${locale.file}: expected two three-step workflow grids per visible language`);
   assert((how.match(/class="step"/g) || []).length === expectedStepCount, `${locale.file}: expected three steps for each of the two tools`);
+  assert(screenshotGroups.length === (locale.code === 'en' ? 10 : 1), `${locale.file}: expected one localized two-tool screenshot group per available language`);
+  assert((screenshotGroup.match(/class="product-shot"/g) || []).length === 2, `${locale.file}: visible screenshot group must contain two equal product screenshots`);
+  assert(screenshotGroup.includes(`shot-${locale.code}.jpg`) && screenshotGroup.includes(`shot-${locale.code}.webp`), `${locale.file}: missing localized Bulk File Download screenshot sources`);
+  assert(screenshotGroup.includes(`collector-${locale.code}.jpg`) && screenshotGroup.includes(`collector-${locale.code}.webp`), `${locale.file}: missing localized Web Page Collector screenshot sources`);
+  assert((screenshotGroup.match(/width="1600" height="1429"/g) || []).length === 2, `${locale.file}: both screenshots must reserve the same 1600x1429 layout`);
+  assert((screenshotGroup.match(/<figcaption><strong>/g) || []).length === 2, `${locale.file}: both screenshots need visible tool labels and captions`);
   assert((html.match(/hreflang=/g) || []).length === 11, `${locale.file}: expected 11 hreflang links`);
   assert(html.includes('type="text/plain"') && html.includes('/llms.txt'), `${locale.file}: missing AI-readable summary link`);
   assert(!html.includes('5.3.11'), `${locale.file}: stale version 5.3.11 remains`);
@@ -61,9 +69,20 @@ for (const locale of locales) {
   assert(app?.hasPart?.length === 2, `${locale.file}: SoftwareApplication must describe two core tools in hasPart`);
   assert(app?.hasPart?.some((part) => part.name === 'Bulk File Download'), `${locale.file}: structured data is missing Bulk File Download`);
   assert(app?.hasPart?.some((part) => part.name === 'Web Page Collector'), `${locale.file}: structured data is missing Web Page Collector`);
+  assert(Array.isArray(app?.screenshot) && app.screenshot.length === 2, `${locale.file}: SoftwareApplication must expose screenshots for both core tools`);
+  assert(app?.screenshot?.some((shot) => shot.url?.endsWith('/shot-en.jpg') && shot.caption?.includes('Bulk File Download')), `${locale.file}: structured data is missing the Bulk File Download screenshot`);
+  assert(app?.screenshot?.some((shot) => shot.url?.endsWith('/collector-en.jpg') && shot.caption?.includes('Web Page Collector')), `${locale.file}: structured data is missing the Web Page Collector screenshot`);
   assert(website?.name === 'Grab All Files', `${locale.file}: WebSite structured data is missing the site name`);
   assert(website?.description?.includes('Bulk File Download') && website?.description?.includes('Web Page Collector'), `${locale.file}: WebSite structured data must describe both core tools`);
   assert(schemas.filter((schema) => schema['@type'] === 'HowTo').length === 2, `${locale.file}: expected one HowTo for each core tool`);
+}
+
+for (const locale of locales) {
+  for (const stem of [`shot-${locale.code}`, `collector-${locale.code}`]) {
+    for (const ext of ['jpg', 'webp']) {
+      assert(fs.existsSync(`assets/screenshots/${stem}.${ext}`), `assets/screenshots/${stem}.${ext}: referenced screenshot file is missing`);
+    }
+  }
 }
 
 const llms = fs.readFileSync('llms.txt', 'utf8');

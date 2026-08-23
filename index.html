@@ -85,7 +85,18 @@
       "https://addons.mozilla.org/firefox/addon/grab-all-files/"
     ],
     "image": "https://grab-all-files.app/og-image.png",
-    "screenshot": "https://grab-all-files.app/assets/screenshots/shot-en.jpg",
+    "screenshot": [
+      {
+        "@type": "ImageObject",
+        "url": "https://grab-all-files.app/assets/screenshots/shot-en.jpg",
+        "caption": "Bulk File Download: detected files with type, size, date, ZIP, and PDF merge controls"
+      },
+      {
+        "@type": "ImageObject",
+        "url": "https://grab-all-files.app/assets/screenshots/collector-en.jpg",
+        "caption": "Web Page Collector: reviewed page candidates, 25 MB AI upload splitting, and combined HTML output"
+      }
+    ],
     "softwareVersion": "5.6.4",
     "datePublished": "2025-05-05",
     "dateModified": "2026-08-23",
@@ -381,12 +392,16 @@
 
     [data-lang] { display: none; }
     [data-lang].active { display: revert; }
-/* Product screenshot. Sits between the section intro and the feature cards. */
-    .product-shot { margin: 1.6rem auto 2rem; max-width: 980px; }
+/* Both core tools get the same visual weight between the intro and feature cards. */
+    .product-shots { margin: 1.6rem auto 2rem; max-width: 1160px; }
+    .product-shots.active { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; align-items: start; }
+    .product-shot { min-width: 0; }
     .product-shot picture { display: block; border: 1px solid var(--border); border-radius: 14px; overflow: hidden; background: var(--surface); box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
     .product-shot img { width: 100%; height: auto; }
     .product-shot figcaption { margin-top: 0.7rem; text-align: center; font-size: 0.9rem; color: var(--text-faint); line-height: 1.6; }
-    @media (max-width: 640px) { .product-shot { margin-top: 1.1rem; } .product-shot figcaption { font-size: 0.84rem; text-align: left; } }
+    .product-shot figcaption strong { display: block; color: var(--text-strong); font-family: var(--font-display); font-size: 0.98rem; }
+    .product-shot figcaption span { display: block; }
+    @media (max-width: 760px) { .product-shots.active { grid-template-columns: 1fr; gap: 1.8rem; } .product-shot figcaption { font-size: 0.84rem; text-align: left; } }
 
     .skip-link { position: absolute; left: -9999px; top: 0; padding: 0.5rem 1rem; background: var(--primary); color: var(--primary-text); }
     .skip-link:focus { left: 0; z-index: 200; }
@@ -1227,86 +1242,106 @@
           <div data-lang="zh_CN"><h2>功能概览</h2><p>为从多个网页收集文档的用户设计 — 研究人员、档案管理员、内部门户用户、设计师和学生。</p></div>
           <div data-lang="zh_TW"><h2>功能概覽</h2><p>為從多個網頁收集文件的使用者設計 — 研究人員、檔案管理員、內部入口網站使用者、設計師和學生。</p></div>
         </div>
-          <figure class="product-shot active" data-lang="en">
-            <picture>
-              <source type="image/webp" srcset="assets/screenshots/shot-en.webp">
-              <img src="assets/screenshots/shot-en.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="Grab All Files panel listing 17 detected files with type, size and modified date, plus download, ZIP and Merge PDFs controls">
-            </picture>
-            <figcaption>A real scan of a test page: 17 files found, with type, size and date — ready to download, ZIP, or merge the PDFs.</figcaption>
+<div class="product-shots active" data-lang="en">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/shot-en.webp"><img src="assets/screenshots/shot-en.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Grab All Files Bulk File Download listing 17 detected files with type, size, date, ZIP, and PDF merge controls"></picture>
+            <figcaption><strong>Bulk File Download</strong><span>A real scan: 17 files found, ready to download, ZIP, or merge as PDFs.</span></figcaption>
           </figure>
-          <figure class="product-shot" data-lang="ja">
-            <picture>
-              <source type="image/webp" srcset="assets/screenshots/shot-ja.webp">
-              <img src="assets/screenshots/shot-ja.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="検出した17件のファイルを種類・サイズ・更新日つきで一覧表示し、ダウンロード・ZIP・PDF結合のボタンが並ぶ画面">
-            </picture>
-            <figcaption>テストページを実際にスキャンした画面。17件を検出し、種類・サイズ・更新日まで表示。そのままダウンロード／ZIP／PDF結合ができます。</figcaption>
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/collector-en.webp"><img src="assets/screenshots/collector-en.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Grab All Files Web Page Collector showing reviewed page candidates, optional 25 MB AI upload splitting, and the collect-and-save HTML button"></picture>
+            <figcaption><strong>Web Page Collector</strong><span>A real page search: review candidates, split AI uploads every 25 MB, then save one combined HTML.</span></figcaption>
           </figure>
-          <figure class="product-shot" data-lang="de">
-            <picture>
-              <source type="image/webp" srcset="assets/screenshots/shot-de.webp">
-              <img src="assets/screenshots/shot-de.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="Panel mit 17 erkannten Dateien samt Typ, Größe und Änderungsdatum sowie Schaltflächen für Download, ZIP und PDF-Zusammenführung">
-            </picture>
-            <figcaption>Ein echter Scan einer Testseite: 17 Dateien mit Typ, Größe und Datum — direkt herunterladen, als ZIP packen oder PDFs zusammenführen.</figcaption>
+        </div>
+<div class="product-shots" data-lang="ja">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/shot-ja.webp"><img src="assets/screenshots/shot-ja.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="ファイル一括ダウンロードで検出した17件を種類・サイズ・更新日つきで一覧表示し、ZIP・PDF結合も選べる画面"></picture>
+            <figcaption><strong>ファイル一括ダウンロード</strong><span>実際のスキャンで17件を検出。ダウンロード・ZIP・PDF結合まで一画面で操作できます。</span></figcaption>
           </figure>
-          <figure class="product-shot" data-lang="es">
-            <picture>
-              <source type="image/webp" srcset="assets/screenshots/shot-es.webp">
-              <img src="assets/screenshots/shot-es.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="Panel con 17 archivos detectados, con tipo, tamaño y fecha de modificación, y botones de descarga, ZIP y combinar PDF">
-            </picture>
-            <figcaption>Un análisis real de una página de prueba: 17 archivos con tipo, tamaño y fecha — listos para descargar, comprimir en ZIP o combinar los PDF.</figcaption>
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/collector-ja.webp"><img src="assets/screenshots/collector-ja.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="ページ収集で候補ページを確認し、AIアップロード用25MB分割を選び、1つのHTMLとして自動保存できる画面"></picture>
+            <figcaption><strong>ページをHTMLにまとめる</strong><span>実際のページ探索画面。候補を確認し、25MB分割も選んで、1つのHTMLへまとめます。</span></figcaption>
           </figure>
-          <figure class="product-shot" data-lang="fr">
-            <picture>
-              <source type="image/webp" srcset="assets/screenshots/shot-fr.webp">
-              <img src="assets/screenshots/shot-fr.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="Panneau listant 17 fichiers détectés avec type, taille et date de modification, et les boutons téléchargement, ZIP et fusion PDF">
-            </picture>
-            <figcaption>Une analyse réelle d’une page de test : 17 fichiers avec type, taille et date — à télécharger, compresser en ZIP ou fusionner en PDF.</figcaption>
+        </div>
+<div class="product-shots" data-lang="de">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/shot-de.webp"><img src="assets/screenshots/shot-de.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Datei-Downloader mit 17 erkannten Dateien, Typ, Größe, Datum sowie ZIP- und PDF-Zusammenführung"></picture>
+            <figcaption><strong>Datei-Downloader</strong><span>Ein echter Scan mit 17 Dateien — herunterladen, als ZIP packen oder PDFs zusammenführen.</span></figcaption>
           </figure>
-          <figure class="product-shot" data-lang="it">
-            <picture>
-              <source type="image/webp" srcset="assets/screenshots/shot-it.webp">
-              <img src="assets/screenshots/shot-it.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="Pannello con 17 file rilevati, con tipo, dimensione e data di modifica, e i pulsanti download, ZIP e unione PDF">
-            </picture>
-            <figcaption>Una scansione reale di una pagina di prova: 17 file con tipo, dimensione e data — pronti da scaricare, comprimere in ZIP o unire in PDF.</figcaption>
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/collector-de.webp"><img src="assets/screenshots/collector-de.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Seitensammlung mit geprüften Kandidatenseiten, optionaler 25-MB-Aufteilung für KI-Uploads und automatischer HTML-Speicherung"></picture>
+            <figcaption><strong>Seiten als HTML bündeln</strong><span>Ein echter Suchlauf: Seiten prüfen, KI-Uploads alle 25 MB teilen und als eine HTML-Datei speichern.</span></figcaption>
           </figure>
-          <figure class="product-shot" data-lang="ko">
-            <picture>
-              <source type="image/webp" srcset="assets/screenshots/shot-ko.webp">
-              <img src="assets/screenshots/shot-ko.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="감지된 17개 파일을 형식, 크기, 수정일과 함께 나열하고 다운로드, ZIP, PDF 병합 버튼이 있는 패널">
-            </picture>
-            <figcaption>테스트 페이지를 실제로 스캔한 화면. 17개 파일을 형식·크기·수정일과 함께 표시하고, 바로 다운로드·ZIP·PDF 병합을 할 수 있습니다.</figcaption>
+        </div>
+<div class="product-shots" data-lang="es">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/shot-es.webp"><img src="assets/screenshots/shot-es.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Descargador con 17 archivos detectados, tipo, tamaño, fecha y controles de ZIP y combinación de PDF"></picture>
+            <figcaption><strong>Descargador de archivos</strong><span>Un análisis real con 17 archivos, listos para descargar, comprimir en ZIP o combinar como PDF.</span></figcaption>
           </figure>
-          <figure class="product-shot" data-lang="pt_BR">
-            <picture>
-              <source type="image/webp" srcset="assets/screenshots/shot-pt_BR.webp">
-              <img src="assets/screenshots/shot-pt_BR.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="Painel listando 17 arquivos detectados com tipo, tamanho e data de modificação, além dos botões de download, ZIP e juntar PDFs">
-            </picture>
-            <figcaption>Uma varredura real de uma página de teste: 17 arquivos com tipo, tamanho e data — prontos para baixar, compactar em ZIP ou juntar os PDFs.</figcaption>
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/collector-es.webp"><img src="assets/screenshots/collector-es.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Recopilador de páginas con candidatos revisados, división opcional de 25 MB para IA y guardado automático en HTML"></picture>
+            <figcaption><strong>Combinar páginas en HTML</strong><span>Una búsqueda real: revisa páginas, divide cargas para IA cada 25 MB y guarda un único HTML.</span></figcaption>
           </figure>
-          <figure class="product-shot" data-lang="zh_CN">
-            <picture>
-              <source type="image/webp" srcset="assets/screenshots/shot-zh_CN.webp">
-              <img src="assets/screenshots/shot-zh_CN.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="面板列出检测到的 17 个文件及其类型、大小和修改日期，并提供下载、ZIP 和合并 PDF 按钮">
-            </picture>
-            <figcaption>对测试页面的真实扫描：检测到 17 个文件，并显示类型、大小和修改日期 — 可直接下载、打包 ZIP 或合并 PDF。</figcaption>
+        </div>
+<div class="product-shots" data-lang="fr">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/shot-fr.webp"><img src="assets/screenshots/shot-fr.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Téléchargeur listant 17 fichiers détectés avec type, taille, date, archive ZIP et fusion PDF"></picture>
+            <figcaption><strong>Téléchargeur de fichiers</strong><span>Une analyse réelle de 17 fichiers, prêts à télécharger, compresser en ZIP ou fusionner en PDF.</span></figcaption>
           </figure>
-          <figure class="product-shot" data-lang="zh_TW">
-            <picture>
-              <source type="image/webp" srcset="assets/screenshots/shot-zh_TW.webp">
-              <img src="assets/screenshots/shot-zh_TW.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="面板列出偵測到的 17 個檔案及其類型、大小與修改日期，並提供下載、ZIP 與合併 PDF 按鈕">
-            </picture>
-            <figcaption>對測試頁面的真實掃描：偵測到 17 個檔案，並顯示類型、大小與修改日期 — 可直接下載、打包 ZIP 或合併 PDF。</figcaption>
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/collector-fr.webp"><img src="assets/screenshots/collector-fr.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Collecteur de pages avec candidats vérifiés, découpage facultatif de 25 Mo pour l’IA et enregistrement HTML automatique"></picture>
+            <figcaption><strong>Regrouper les pages en HTML</strong><span>Une recherche réelle : vérifiez les pages, découpez les données IA tous les 25 Mo et enregistrez un HTML.</span></figcaption>
           </figure>
+        </div>
+<div class="product-shots" data-lang="it">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/shot-it.webp"><img src="assets/screenshots/shot-it.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Downloader con 17 file rilevati, tipo, dimensione, data e comandi ZIP e unione PDF"></picture>
+            <figcaption><strong>Downloader di file</strong><span>Una scansione reale di 17 file, pronti da scaricare, comprimere in ZIP o unire come PDF.</span></figcaption>
+          </figure>
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/collector-it.webp"><img src="assets/screenshots/collector-it.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Raccolta pagine con candidati verificati, divisione facoltativa ogni 25 MB per l’IA e salvataggio HTML automatico"></picture>
+            <figcaption><strong>Unire pagine in HTML</strong><span>Una ricerca reale: verifica le pagine, dividi i dati IA ogni 25 MB e salva un unico HTML.</span></figcaption>
+          </figure>
+        </div>
+<div class="product-shots" data-lang="ko">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/shot-ko.webp"><img src="assets/screenshots/shot-ko.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="17개 파일을 형식·크기·수정일과 함께 표시하고 ZIP과 PDF 병합을 선택할 수 있는 파일 다운로더"></picture>
+            <figcaption><strong>파일 일괄 다운로드</strong><span>실제 스캔으로 17개 파일을 찾아 다운로드·ZIP·PDF 병합까지 한 화면에서 처리합니다.</span></figcaption>
+          </figure>
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/collector-ko.webp"><img src="assets/screenshots/collector-ko.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="후보 페이지 확인, AI 업로드용 25MB 분할, HTML 자동 저장을 보여 주는 페이지 수집 화면"></picture>
+            <figcaption><strong>여러 페이지를 HTML로 묶기</strong><span>실제 페이지 탐색 화면입니다. 후보를 확인하고 25MB 분할을 선택해 하나의 HTML로 저장합니다.</span></figcaption>
+          </figure>
+        </div>
+<div class="product-shots" data-lang="pt_BR">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/shot-pt_BR.webp"><img src="assets/screenshots/shot-pt_BR.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Baixador com 17 arquivos detectados, tipo, tamanho, data e controles de ZIP e união de PDFs"></picture>
+            <figcaption><strong>Download de arquivos</strong><span>Uma varredura real com 17 arquivos, prontos para baixar, compactar em ZIP ou juntar como PDF.</span></figcaption>
+          </figure>
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/collector-pt_BR.webp"><img src="assets/screenshots/collector-pt_BR.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Coletor de páginas com candidatos revisados, divisão opcional de 25 MB para IA e salvamento automático em HTML"></picture>
+            <figcaption><strong>Juntar páginas em HTML</strong><span>Uma busca real: revise as páginas, divida dados para IA a cada 25 MB e salve um único HTML.</span></figcaption>
+          </figure>
+        </div>
+<div class="product-shots" data-lang="zh_CN">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/shot-zh_CN.webp"><img src="assets/screenshots/shot-zh_CN.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="文件下载器列出检测到的17个文件及类型、大小、日期，并提供ZIP和PDF合并操作"></picture>
+            <figcaption><strong>文件批量下载</strong><span>真实扫描检测到17个文件，可直接下载、打包ZIP或合并PDF。</span></figcaption>
+          </figure>
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/collector-zh_CN.webp"><img src="assets/screenshots/collector-zh_CN.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="网页收集器显示已审核的候选页面、可选的AI上传25MB分割和HTML自动保存按钮"></picture>
+            <figcaption><strong>将网页合并为HTML</strong><span>真实页面搜索：审核候选页面，按25MB分割AI数据，再保存为一个HTML。</span></figcaption>
+          </figure>
+        </div>
+<div class="product-shots" data-lang="zh_TW">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/shot-zh_TW.webp"><img src="assets/screenshots/shot-zh_TW.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="檔案下載器列出偵測到的17個檔案及類型、大小、日期，並提供ZIP與PDF合併操作"></picture>
+            <figcaption><strong>檔案批次下載</strong><span>真實掃描偵測到17個檔案，可直接下載、打包ZIP或合併PDF。</span></figcaption>
+          </figure>
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="assets/screenshots/collector-zh_TW.webp"><img src="assets/screenshots/collector-zh_TW.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="網頁收集器顯示已檢查的候選頁面、可選的AI上傳25MB分割與HTML自動儲存按鈕"></picture>
+            <figcaption><strong>將網頁合併為HTML</strong><span>真實頁面搜尋：檢查候選頁面，按25MB分割AI資料，再儲存為一個HTML。</span></figcaption>
+          </figure>
+        </div>
 
         <div data-lang="en">
           <div class="features-grid">

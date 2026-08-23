@@ -86,7 +86,18 @@
       "https://addons.mozilla.org/firefox/addon/grab-all-files/"
     ],
     "image": "https://grab-all-files.app/og-image.png",
-    "screenshot": "https://grab-all-files.app/assets/screenshots/shot-en.jpg",
+    "screenshot": [
+      {
+        "@type": "ImageObject",
+        "url": "https://grab-all-files.app/assets/screenshots/shot-en.jpg",
+        "caption": "Bulk File Download: detected files with type, size, date, ZIP, and PDF merge controls"
+      },
+      {
+        "@type": "ImageObject",
+        "url": "https://grab-all-files.app/assets/screenshots/collector-en.jpg",
+        "caption": "Web Page Collector: reviewed page candidates, 25 MB AI upload splitting, and combined HTML output"
+      }
+    ],
     "softwareVersion": "5.6.4",
     "datePublished": "2025-05-05",
     "dateModified": "2026-08-23",
@@ -382,12 +393,16 @@
 
     [data-lang] { display: none; }
     [data-lang].active { display: revert; }
-/* Product screenshot. Sits between the section intro and the feature cards. */
-    .product-shot { margin: 1.6rem auto 2rem; max-width: 980px; }
+/* Both core tools get the same visual weight between the intro and feature cards. */
+    .product-shots { margin: 1.6rem auto 2rem; max-width: 1160px; }
+    .product-shots.active { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; align-items: start; }
+    .product-shot { min-width: 0; }
     .product-shot picture { display: block; border: 1px solid var(--border); border-radius: 14px; overflow: hidden; background: var(--surface); box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
     .product-shot img { width: 100%; height: auto; }
     .product-shot figcaption { margin-top: 0.7rem; text-align: center; font-size: 0.9rem; color: var(--text-faint); line-height: 1.6; }
-    @media (max-width: 640px) { .product-shot { margin-top: 1.1rem; } .product-shot figcaption { font-size: 0.84rem; text-align: left; } }
+    .product-shot figcaption strong { display: block; color: var(--text-strong); font-family: var(--font-display); font-size: 0.98rem; }
+    .product-shot figcaption span { display: block; }
+    @media (max-width: 760px) { .product-shots.active { grid-template-columns: 1fr; gap: 1.8rem; } .product-shot figcaption { font-size: 0.84rem; text-align: left; } }
 
     .skip-link { position: absolute; left: -9999px; top: 0; padding: 0.5rem 1rem; background: var(--primary); color: var(--primary-text); }
     .skip-link:focus { left: 0; z-index: 200; }
@@ -1057,23 +1072,25 @@
           
           
         </div>
-          
-          
-          
-          <figure class="product-shot active" data-lang="es">
-            <picture>
-              <source type="image/webp" srcset="/assets/screenshots/shot-es.webp">
-              <img src="/assets/screenshots/shot-es.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="Panel con 17 archivos detectados, con tipo, tamaño y fecha de modificación, y botones de descarga, ZIP y combinar PDF">
-            </picture>
-            <figcaption>Un análisis real de una página de prueba: 17 archivos con tipo, tamaño y fecha — listos para descargar, comprimir en ZIP o combinar los PDF.</figcaption>
+
+
+
+<div class="product-shots active" data-lang="es">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="/assets/screenshots/shot-es.webp"><img src="/assets/screenshots/shot-es.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Descargador con 17 archivos detectados, tipo, tamaño, fecha y controles de ZIP y combinación de PDF"></picture>
+            <figcaption><strong>Descargador de archivos</strong><span>Un análisis real con 17 archivos, listos para descargar, comprimir en ZIP o combinar como PDF.</span></figcaption>
           </figure>
-          
-          
-          
-          
-          
-          
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="/assets/screenshots/collector-es.webp"><img src="/assets/screenshots/collector-es.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Recopilador de páginas con candidatos revisados, división opcional de 25 MB para IA y guardado automático en HTML"></picture>
+            <figcaption><strong>Combinar páginas en HTML</strong><span>Una búsqueda real: revisa páginas, divide cargas para IA cada 25 MB y guarda un único HTML.</span></figcaption>
+          </figure>
+        </div>
+
+
+
+
+
+
 
         
         
