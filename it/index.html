@@ -86,7 +86,18 @@
       "https://addons.mozilla.org/firefox/addon/grab-all-files/"
     ],
     "image": "https://grab-all-files.app/og-image.png",
-    "screenshot": "https://grab-all-files.app/assets/screenshots/shot-en.jpg",
+    "screenshot": [
+      {
+        "@type": "ImageObject",
+        "url": "https://grab-all-files.app/assets/screenshots/shot-en.jpg",
+        "caption": "Bulk File Download: detected files with type, size, date, ZIP, and PDF merge controls"
+      },
+      {
+        "@type": "ImageObject",
+        "url": "https://grab-all-files.app/assets/screenshots/collector-en.jpg",
+        "caption": "Web Page Collector: reviewed page candidates, 25 MB AI upload splitting, and combined HTML output"
+      }
+    ],
     "softwareVersion": "5.6.4",
     "datePublished": "2025-05-05",
     "dateModified": "2026-08-23",
@@ -382,12 +393,16 @@
 
     [data-lang] { display: none; }
     [data-lang].active { display: revert; }
-/* Product screenshot. Sits between the section intro and the feature cards. */
-    .product-shot { margin: 1.6rem auto 2rem; max-width: 980px; }
+/* Both core tools get the same visual weight between the intro and feature cards. */
+    .product-shots { margin: 1.6rem auto 2rem; max-width: 1160px; }
+    .product-shots.active { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; align-items: start; }
+    .product-shot { min-width: 0; }
     .product-shot picture { display: block; border: 1px solid var(--border); border-radius: 14px; overflow: hidden; background: var(--surface); box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
     .product-shot img { width: 100%; height: auto; }
     .product-shot figcaption { margin-top: 0.7rem; text-align: center; font-size: 0.9rem; color: var(--text-faint); line-height: 1.6; }
-    @media (max-width: 640px) { .product-shot { margin-top: 1.1rem; } .product-shot figcaption { font-size: 0.84rem; text-align: left; } }
+    .product-shot figcaption strong { display: block; color: var(--text-strong); font-family: var(--font-display); font-size: 0.98rem; }
+    .product-shot figcaption span { display: block; }
+    @media (max-width: 760px) { .product-shots.active { grid-template-columns: 1fr; gap: 1.8rem; } .product-shot figcaption { font-size: 0.84rem; text-align: left; } }
 
     .skip-link { position: absolute; left: -9999px; top: 0; padding: 0.5rem 1rem; background: var(--primary); color: var(--primary-text); }
     .skip-link:focus { left: 0; z-index: 200; }
@@ -1057,23 +1072,25 @@
           
           
         </div>
-          
-          
-          
-          
-          
-          <figure class="product-shot active" data-lang="it">
-            <picture>
-              <source type="image/webp" srcset="/assets/screenshots/shot-it.webp">
-              <img src="/assets/screenshots/shot-it.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="Pannello con 17 file rilevati, con tipo, dimensione e data di modifica, e i pulsanti download, ZIP e unione PDF">
-            </picture>
-            <figcaption>Una scansione reale di una pagina di prova: 17 file con tipo, dimensione e data — pronti da scaricare, comprimere in ZIP o unire in PDF.</figcaption>
+
+
+
+
+
+<div class="product-shots active" data-lang="it">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="/assets/screenshots/shot-it.webp"><img src="/assets/screenshots/shot-it.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Downloader con 17 file rilevati, tipo, dimensione, data e comandi ZIP e unione PDF"></picture>
+            <figcaption><strong>Downloader di file</strong><span>Una scansione reale di 17 file, pronti da scaricare, comprimere in ZIP o unire come PDF.</span></figcaption>
           </figure>
-          
-          
-          
-          
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="/assets/screenshots/collector-it.webp"><img src="/assets/screenshots/collector-it.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Raccolta pagine con candidati verificati, divisione facoltativa ogni 25 MB per l’IA e salvataggio HTML automatico"></picture>
+            <figcaption><strong>Unire pagine in HTML</strong><span>Una ricerca reale: verifica le pagine, dividi i dati IA ogni 25 MB e salva un unico HTML.</span></figcaption>
+          </figure>
+        </div>
+
+
+
+
 
         
         

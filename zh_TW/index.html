@@ -86,7 +86,18 @@
       "https://addons.mozilla.org/firefox/addon/grab-all-files/"
     ],
     "image": "https://grab-all-files.app/og-image.png",
-    "screenshot": "https://grab-all-files.app/assets/screenshots/shot-en.jpg",
+    "screenshot": [
+      {
+        "@type": "ImageObject",
+        "url": "https://grab-all-files.app/assets/screenshots/shot-en.jpg",
+        "caption": "Bulk File Download: detected files with type, size, date, ZIP, and PDF merge controls"
+      },
+      {
+        "@type": "ImageObject",
+        "url": "https://grab-all-files.app/assets/screenshots/collector-en.jpg",
+        "caption": "Web Page Collector: reviewed page candidates, 25 MB AI upload splitting, and combined HTML output"
+      }
+    ],
     "softwareVersion": "5.6.4",
     "datePublished": "2025-05-05",
     "dateModified": "2026-08-23",
@@ -382,12 +393,16 @@
 
     [data-lang] { display: none; }
     [data-lang].active { display: revert; }
-/* Product screenshot. Sits between the section intro and the feature cards. */
-    .product-shot { margin: 1.6rem auto 2rem; max-width: 980px; }
+/* Both core tools get the same visual weight between the intro and feature cards. */
+    .product-shots { margin: 1.6rem auto 2rem; max-width: 1160px; }
+    .product-shots.active { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; align-items: start; }
+    .product-shot { min-width: 0; }
     .product-shot picture { display: block; border: 1px solid var(--border); border-radius: 14px; overflow: hidden; background: var(--surface); box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
     .product-shot img { width: 100%; height: auto; }
     .product-shot figcaption { margin-top: 0.7rem; text-align: center; font-size: 0.9rem; color: var(--text-faint); line-height: 1.6; }
-    @media (max-width: 640px) { .product-shot { margin-top: 1.1rem; } .product-shot figcaption { font-size: 0.84rem; text-align: left; } }
+    .product-shot figcaption strong { display: block; color: var(--text-strong); font-family: var(--font-display); font-size: 0.98rem; }
+    .product-shot figcaption span { display: block; }
+    @media (max-width: 760px) { .product-shots.active { grid-template-columns: 1fr; gap: 1.8rem; } .product-shot figcaption { font-size: 0.84rem; text-align: left; } }
 
     .skip-link { position: absolute; left: -9999px; top: 0; padding: 0.5rem 1rem; background: var(--primary); color: var(--primary-text); }
     .skip-link:focus { left: 0; z-index: 200; }
@@ -1057,23 +1072,25 @@
           
           <div data-lang="zh_TW" class="active"><h2>功能概覽</h2><p>為從多個網頁收集文件的使用者設計 — 研究人員、檔案管理員、內部入口網站使用者、設計師和學生。</p></div>
         </div>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <figure class="product-shot active" data-lang="zh_TW">
-            <picture>
-              <source type="image/webp" srcset="/assets/screenshots/shot-zh_TW.webp">
-              <img src="/assets/screenshots/shot-zh_TW.jpg" width="1600" height="1429" loading="lazy" decoding="async"
-                   alt="面板列出偵測到的 17 個檔案及其類型、大小與修改日期，並提供下載、ZIP 與合併 PDF 按鈕">
-            </picture>
-            <figcaption>對測試頁面的真實掃描：偵測到 17 個檔案，並顯示類型、大小與修改日期 — 可直接下載、打包 ZIP 或合併 PDF。</figcaption>
+
+
+
+
+
+
+
+
+
+<div class="product-shots active" data-lang="zh_TW">
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="/assets/screenshots/shot-zh_TW.webp"><img src="/assets/screenshots/shot-zh_TW.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="檔案下載器列出偵測到的17個檔案及類型、大小、日期，並提供ZIP與PDF合併操作"></picture>
+            <figcaption><strong>檔案批次下載</strong><span>真實掃描偵測到17個檔案，可直接下載、打包ZIP或合併PDF。</span></figcaption>
           </figure>
+          <figure class="product-shot">
+            <picture><source type="image/webp" srcset="/assets/screenshots/collector-zh_TW.webp"><img src="/assets/screenshots/collector-zh_TW.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="網頁收集器顯示已檢查的候選頁面、可選的AI上傳25MB分割與HTML自動儲存按鈕"></picture>
+            <figcaption><strong>將網頁合併為HTML</strong><span>真實頁面搜尋：檢查候選頁面，按25MB分割AI資料，再儲存為一個HTML。</span></figcaption>
+          </figure>
+        </div>
 
         
         
