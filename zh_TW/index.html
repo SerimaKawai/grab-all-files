@@ -98,7 +98,7 @@
         "caption": "Web Page Collector: reviewed page candidates, 25 MB AI upload splitting, and combined HTML output"
       }
     ],
-    "softwareVersion": "5.6.7",
+    "softwareVersion": "5.6.8",
     "datePublished": "2025-05-05",
     "dateModified": "2026-08-26",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
@@ -1037,8 +1037,8 @@
         
         <div data-lang="zh_TW" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>最新版本</span><strong>5.6.7</strong></div>
-            <div class="latest-copy"><h3>收集現在可以可靠地完成。</h3><p>5.6.7 版修正了收集停滯或無法結束的多個問題，並讓儲存更可靠。</p><ul class="latest-points"><li><strong>不再停滯：</strong> 單一 HTTP 403 頁面、一個卡住的連結檔案或公開頁面被誤判為登入畫面，都不再導致整體中斷。</li><li><strong>狀態如實：</strong> 中斷的收集可以再次刪除，不再誤顯示為「執行中」，並修正了誤導性提示。</li><li><strong>儲存可靠：</strong> 完成的HTML會可靠地儲存到所選資料夾，重新啟動後仍核對精確的儲存憑據，不會產生重複。</li><li><strong>Firefox改進：</strong> 輔助分頁不再不斷增加，暫時網站權限在重新啟動後仍受保護。</li></ul></div>
+            <div class="latest-badge"><span>最新版本</span><strong>5.6.8</strong></div>
+            <div class="latest-copy"><h3>登入牆與檔案連結，都已妥善處理。</h3><p>5.6.8 版在需要登入的頁面前仍能推進收集，並把連結檔案儲存為真正的檔案。</p><ul class="latest-points"><li><strong>登入處理：</strong> 單一登入頁面不再停止探索，略過按整個網站生效，登入提示也更清晰。</li><li><strong>真正的檔案：</strong> GitHub 資料和 DOI 引用連結會儲存為實際檔案，而不是檢視頁面或無法開啟的下載。</li><li><strong>不再狂開分頁：</strong> 被重新導向或重試的檔案不再無止盡地開啟分頁，空下載也不計為已儲存。</li><li><strong>更大的檔案、更清晰的結果：</strong> 單一檔案上限從 32MB 提高到 100MB，完成的HTML將頁面與連結檔案的結果分開顯示。</li></ul></div>
           </div>
         </div>
       </div>
