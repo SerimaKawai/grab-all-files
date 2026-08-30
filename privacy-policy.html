@@ -147,7 +147,7 @@
 
     <div data-lang="en" lang="en">
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: August 11, 2026</p>
+      <p class="updated">Last updated: August 30, 2026</p>
       <p><strong>Grab All Files</strong> ("the Extension") is a browser extension that helps users find, inspect, download, and optionally merge files from web pages they choose. This policy explains what data the Extension handles, how it is used, where it is stored, and when it is transmitted.</p>
 
       <h2>1. Summary of Data Handling</h2>
@@ -159,7 +159,7 @@
         <li><strong>network file records</strong> (URLs and metadata of files detected via network monitoring) stored temporarily in session storage during your browsing session.</li>
       </ul>
       <p>We do not send your scan history, page HTML, file contents, or browsing activity to our servers. Optional pseudonymous usage statistics are off by default and are sent only after you explicitly enable them in the Extension.</p>
-      <p><strong>Free plan and paid license:</strong> This extension has a permanent free plan from the first launch. Every feature and the same output quality are included. Free saves files 20 at a time and asks for confirmation after each 20 completed Web Page Collector pages while retaining the same resumable job. A one-time Pro license removes those pauses and continues automatically up to the configured safety limit. There is no subscription.</p>
+      <p><strong>Free plan and paid license:</strong> Free is available without an expiry. It bulk-saves up to 20 files per run and lets you choose exactly one related candidate page to save as HTML. Images and directly linked files on that page have no plan-based count cap; ordinary page links remain clickable, but their linked page bodies are not collected. A one-time Pro license removes the file cap and combines multiple selected page bodies into one HTML. Safety, authentication, permission, source-site, and device-protection limits still apply. There is no subscription.</p>
       <p><strong>Access to websites:</strong> The manifest declares <code>https://*/*</code> and <code>http://*/*</code> as optional site access. The Extension does not receive all-site access at installation. It requests only the origin selected by the user, following a user action and an explanation of why access is needed. Additional origins are not granted automatically. Access is used only to detect downloadable links and file responses, download selected files, and fetch user-reviewed HTML pages and allowed images for the Web Page Collector. As a limited exception, while scanning a page the extension may send an anonymous metadata request — with no cookies, no credentials, and no referrer — to a small fixed list of well-known public cloud file-storage hosts (such as Amazon S3, Google Cloud Storage, Azure Blob Storage, and Cloudflare R2) when a scanned file link points to one, solely to read that file's size and type so it can be shown in the results. These requests never carry your browser login session, are skipped entirely in session-safe scanning mode, and are only sent to that fixed provider list — never to arbitrary sites.</p>
 
       <h2>2. Network Requests</h2>
@@ -284,6 +284,7 @@
       <div class="contact">
         <h2 style="margin-top:0;">12. Contact / Data Controller</h2>
         <p><strong>Data Controller:</strong> Tetsunobu Kawai</p>
+        <p><strong>Role clarification:</strong> Tetsunobu Kawai is the Data Controller and Developer for privacy matters. Serima Kawai is the Seller / Service Provider identified in the <a href="legal.html">Legal Information</a> and purchase terms.</p>
         <p>If you have questions about this Privacy Policy or want to exercise your data rights, please contact us at:</p>
         <p><strong>Email:</strong> <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/SerimaTeddyBear" target="_blank" rel="noopener">github.com/SerimaTeddyBear</a></p>
@@ -301,7 +302,7 @@
 
     <div data-lang="ja" lang="ja">
       <h1>プライバシーポリシー</h1>
-      <p class="updated">最終更新日: 2026年8月11日</p>
+      <p class="updated">最終更新日: 2026年8月30日</p>
       <p><strong>ファイル一括ダウンロード（英文表記: Grab All Files）</strong>（以下「本拡張機能」）は、ユーザーが選択したWebページからファイルを検索・確認・ダウンロードし、必要に応じてPDFをローカル結合できるブラウザ拡張機能です。本ポリシーでは、本拡張機能が取り扱うデータ、その利用目的、保存先、送信される場面について説明します。</p>
 
       <h2>1. データ取り扱いの概要</h2>
@@ -313,7 +314,7 @@
         <li><strong>ネットワークファイル記録</strong>（ネットワーク監視で検出されたファイルのURLとメタデータ）のセッション中の一時保存</li>
       </ul>
       <p>スキャン履歴、ページHTML、ファイル内容、閲覧行動を当社サーバーへ送信することはありません。</p>
-      <p><strong>無料プランと有料ライセンス：</strong> 本拡張機能は、初回起動時から永続無料プランですべての機能と同じ出力品質を利用できます。無料版はファイルを20件ずつ保存し、Webページ収集は同じ再開可能なジョブ内で20ページ完了ごとに確認します。買い切りの Pro ライセンスではこれらの区切りがなくなり、設定した安全上限まで自動で続行します。サブスクリプションはありません。</p>
+      <p><strong>無料プランと有料ライセンス：</strong> 無料プランは期限なく利用でき、ファイルを1回20件まで保存し、関連候補から常に1ページだけ選んでHTML保存できます。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。通常ページリンクはクリック可能に残りますが、リンク先本文は収集しません。買い切りのProライセンスではファイル上限を解除し、複数ページ本文を1つのHTMLに結合できます。安全上限・認証・権限・サイト側・端末保護上の制限は適用されます。サブスクリプションはありません。</p>
       <p><strong>Webサイトへのアクセス：</strong>マニフェストでは <code>https://*/*</code> と <code>http://*/*</code> を任意のサイトアクセスとして宣言しています。インストール時に全サイト権限は取得せず、理由を表示したうえで、ユーザー操作により選択されたオリジンだけを要求します。外部オリジンは自動追加しません。この権限は、ダウンロード可能なリンクやファイル応答の検出、選択ファイルの保存、確認済みHTMLページと許可画像の取得にだけ使用します。限定的な例外として、スキャンしたファイルへのリンクが著名な公開クラウドファイルストレージ（Amazon S3、Google Cloud Storage、Azure Blob Storage、Cloudflare R2 など）上のファイルを指している場合、本拡張機能は、ページのスキャン中に、そのファイルのサイズと種別を読み取って検出結果に表示することだけを目的として、Cookie・認証情報・リファラーを一切含まない匿名のメタデータリクエストを、これら決められた提供元の小さな固定リストに対してのみ送信することがあります。これらのリクエストにブラウザのログインセッションが含まれることはなく、session-safe スキャンモードでは一切送信されず、送信先は上記の固定された提供元リストに限られ、任意のサイトへ送信することはありません。</p>
 
       <h2>2. ネットワークリクエスト</h2>
@@ -438,6 +439,7 @@
       <div class="contact">
         <h2 style="margin-top:0;">12. お問い合わせ / データ管理者</h2>
         <p><strong>データ管理者:</strong> Tetsunobu Kawai</p>
+        <p><strong>役割の明確化:</strong> プライバシーに関するデータ管理者および開発者は Tetsunobu Kawai です。<a href="legal.html">法務情報</a>および購入条件に記載する販売者・サービス提供者は Serima Kawai です。</p>
         <p>本ポリシーに関するご質問やデータに関する権利行使については、以下までご連絡ください：</p>
         <p><strong>メール:</strong> <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/SerimaTeddyBear" target="_blank" rel="noopener">github.com/SerimaTeddyBear</a></p>
@@ -456,7 +458,7 @@
     <!--AUTO_TRANSLATIONS_BEGIN-->
     <div data-lang="de" lang="de">
       <h1>Datenschutzerklärung</h1>
-      <p class="updated">Stand: 11. August 2026</p>
+      <p class="updated">Stand: 30. August 2026</p>
       <p><strong>Grab All Files</strong> (nachfolgend „die Erweiterung") ist eine Browser-Erweiterung, die Nutzern hilft, Dateien auf von ihnen ausgewählten Webseiten zu finden, zu prüfen, herunterzuladen und optional zusammenzuführen. Diese Erklärung beschreibt, welche Daten die Erweiterung verarbeitet, wie sie verwendet werden, wo sie gespeichert sind und wann sie übermittelt werden.</p>
 
       <h2>1. Zusammenfassung der Datenverarbeitung</h2>
@@ -468,7 +470,7 @@
         <li><strong>Netzwerkdateieinträge</strong> (URLs und Metadaten der über Netzwerküberwachung erkannten Dateien), die während Ihrer Browsersitzung temporär im Sitzungsspeicher abgelegt werden.</li>
       </ul>
       <p>Wir senden weder Ihren Scan-Verlauf, noch Seiten-HTML, Dateiinhalte oder Surfaktivitäten an unsere Server.</p>
-      <p><strong>Kostenloser Plan und kostenpflichtige Lizenz:</strong> Diese Erweiterung hat ab dem ersten Start einen dauerhaft kostenlosen Plan. Alle Funktionen und dieselbe Ausgabequalität sind enthalten. Kostenlos speichert Dateien in 20er-Schritten und fragt im selben fortsetzbaren Web-Page-Collector-Auftrag nach jeweils 20 abgeschlossenen Seiten nach. Eine einmalig zu zahlende Pro-Lizenz entfernt diese Pausen und setzt die Sammlung automatisch bis zum festgelegten Sicherheitslimit fort. Es gibt kein Abonnement.</p>
+      <p><strong>Kostenloser Plan und kostenpflichtige Lizenz:</strong> Free ist ohne Ablaufdatum verfügbar, speichert bis zu 20 Dateien je Durchlauf und genau eine gewählte Kandidatenseite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit; normale Seitenlinks bleiben klickbar, ihre Seiteninhalte werden nicht gesammelt. Pro hebt das Dateilimit auf und bündelt mehrere gewählte Seiteninhalte in einer HTML-Datei. Sicherheits-, Authentifizierungs-, Berechtigungs-, Quellseiten- und Geräteschutzlimits gelten weiterhin. Es gibt kein Abonnement.</p>
       <p><strong>Zugriff auf Websites:</strong> Das Manifest deklariert <code>https://*/*</code> und <code>http://*/*</code> ausschließlich als optionale Website-Berechtigungen. Bei der Installation wird kein Zugriff auf alle Websites erteilt. Nach einer Erklärung fordert die Erweiterung per Nutzeraktion nur den ausgewählten Ursprung an; weitere Ursprünge werden nicht automatisch hinzugefügt. Als eng begrenzte Ausnahme kann die Erweiterung während des Scannens einer Seite eine anonyme Metadaten-Anfrage — ohne Cookies, ohne Anmeldedaten und ohne Referrer — an eine kleine feste Liste bekannter öffentlicher Cloud-Dateispeicher-Hosts (etwa Amazon S3, Google Cloud Storage, Azure Blob Storage und Cloudflare R2) senden, wenn ein gescannter Dateilink auf einen solchen verweist, ausschließlich um Größe und Typ dieser Datei auszulesen und im Ergebnis anzuzeigen. Diese Anfragen übertragen niemals Ihre Browser-Anmeldesitzung, werden im session-safe-Scanmodus vollständig übersprungen und gehen nur an diese feste Anbieterliste — niemals an beliebige Websites.</p>
 
       <h2>2. Netzwerkanfragen</h2>
@@ -590,6 +592,7 @@
       <div class="contact">
         <h2 style="margin-top:0;">12. Kontakt / Verantwortlicher</h2>
         <p><strong>Verantwortlicher:</strong> Tetsunobu Kawai</p>
+        <p><strong>Rollenklärung:</strong> Tetsunobu Kawai ist Verantwortlicher und Entwickler für Datenschutzangelegenheiten. Serima Kawai ist die in den <a href="legal.html">Rechtlichen Hinweisen</a> und Kaufbedingungen genannte Verkäuferin / Diensteanbieterin.</p>
         <p>Wenn Sie Fragen zu dieser Datenschutzerklärung haben oder Ihre Datenschutzrechte ausüben möchten, wenden Sie sich bitte an:</p>
         <p><strong>E-Mail:</strong> <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/SerimaTeddyBear" target="_blank" rel="noopener">github.com/SerimaTeddyBear</a></p>
@@ -607,7 +610,7 @@
 
     <div data-lang="es" lang="es">
       <h1>Política de Privacidad</h1>
-      <p class="updated">Última actualización: 11 de agosto de 2026</p>
+      <p class="updated">Última actualización: 30 de agosto de 2026</p>
       <p><strong>Grab All Files</strong> (la «Extensión») es una extensión de navegador que ayuda a los usuarios a buscar, inspeccionar, descargar y, opcionalmente, combinar archivos de las páginas web que ellos elijan. La presente política explica qué datos trata la Extensión, cómo se utilizan, dónde se almacenan y cuándo se transmiten.</p>
 
       <h2>1. Resumen del Tratamiento de Datos</h2>
@@ -619,7 +622,7 @@
         <li><strong>registros de archivos de red</strong> (URL y metadatos de archivos detectados mediante la monitorización de red) almacenados temporalmente en el almacenamiento de sesión durante su sesión de navegación.</li>
       </ul>
       <p>No enviamos su historial de escaneos, el HTML de las páginas, el contenido de los archivos ni su actividad de navegación a nuestros servidores.</p>
-      <p><strong>Plan gratuito y licencia de pago:</strong> Esta extensión tiene un plan gratuito permanente desde el primer inicio. Incluye todas las funciones y la misma calidad de salida. Gratis guarda archivos de 20 en 20 y pide confirmación cada 20 páginas terminadas en el mismo trabajo reanudable de Web Page Collector. Una licencia Pro de pago único elimina esas pausas y continúa automáticamente hasta el límite de seguridad configurado. No hay suscripción.</p>
+      <p><strong>Plan gratuito y licencia de pago:</strong> Free no caduca, guarda hasta 20 archivos por ejecución y exactamente una página candidata elegida como HTML. Las imágenes y archivos enlazados directamente no tienen límite de cantidad por plan; los enlaces de página siguen siendo clicables, pero no se recopila el contenido de sus destinos. Pro elimina el límite de archivos y combina el contenido de varias páginas seleccionadas. Siguen aplicándose los límites de seguridad, autenticación, permisos, sitio fuente y protección del dispositivo. No hay suscripción.</p>
       <p><strong>Acceso a sitios web:</strong> El manifiesto declara <code>https://*/*</code> y <code>http://*/*</code> solo como permisos opcionales. No se concede acceso a todos los sitios durante la instalación. Tras explicar el motivo, la Extensión solicita mediante una acción del usuario únicamente el origen seleccionado y no añade orígenes externos automáticamente. Como excepción limitada, mientras escanea una página la Extensión puede enviar una solicitud de metadatos anónima —sin cookies, sin credenciales y sin referente— a una pequeña lista fija de conocidos hosts públicos de almacenamiento de archivos en la nube (como Amazon S3, Google Cloud Storage, Azure Blob Storage y Cloudflare R2) cuando el enlace de un archivo escaneado apunta a uno de ellos, con el único fin de leer el tamaño y el tipo de ese archivo para mostrarlos en los resultados. Estas solicitudes nunca incluyen la sesión de inicio de sesión de su navegador, se omiten por completo en el modo de escaneo session-safe y solo se envían a esa lista fija de proveedores, nunca a sitios arbitrarios.</p>
 
       <h2>2. Solicitudes de Red</h2>
@@ -741,6 +744,7 @@
       <div class="contact">
         <h2 style="margin-top:0;">12. Contacto / Responsable del Tratamiento</h2>
         <p><strong>Responsable del tratamiento:</strong> Tetsunobu Kawai</p>
+        <p><strong>Aclaración de funciones:</strong> Tetsunobu Kawai es el Responsable del tratamiento y el Desarrollador para asuntos de privacidad. Serima Kawai es la Vendedora / Proveedora del servicio indicada en la <a href="legal.html">Información legal</a> y en las condiciones de compra.</p>
         <p>Si tiene preguntas sobre esta Política de Privacidad o desea ejercer sus derechos en materia de datos, contáctenos en:</p>
         <p><strong>Correo electrónico:</strong> <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/SerimaTeddyBear" target="_blank" rel="noopener">github.com/SerimaTeddyBear</a></p>
@@ -758,7 +762,7 @@
 
     <div data-lang="fr" lang="fr">
       <h1>Politique de confidentialité</h1>
-      <p class="updated">Dernière mise à jour : 11 août 2026</p>
+      <p class="updated">Dernière mise à jour : 30 août 2026</p>
       <p><strong>Grab All Files</strong> (ci-après « l'Extension ») est une extension de navigateur qui aide les utilisateurs à trouver, examiner, télécharger et, en option, fusionner des fichiers à partir des pages Web qu'ils choisissent. La présente politique explique quelles données l'Extension traite, comment elles sont utilisées, où elles sont stockées et quand elles sont transmises.</p>
 
       <h2>1. Synthèse du traitement des données</h2>
@@ -770,7 +774,7 @@
         <li><strong>les enregistrements de fichiers réseau</strong> (URL et métadonnées des fichiers détectés via la surveillance du réseau) stockés temporairement dans le stockage de session pendant votre session de navigation.</li>
       </ul>
       <p>Nous n'envoyons pas votre historique d'analyses, le HTML des pages, le contenu des fichiers ou votre activité de navigation à nos serveurs.</p>
-      <p><strong>Forfait gratuit et licence payante :</strong> Cette extension propose un forfait gratuit permanent dès le premier lancement. Toutes les fonctions et la même qualité de sortie sont incluses. La version gratuite enregistre les fichiers par 20 et demande confirmation toutes les 20 pages terminées dans la même tâche Web Page Collector réutilisable. Une licence Pro à achat unique supprime ces pauses et continue automatiquement jusqu'à la limite de sécurité configurée. Il n'y a pas d'abonnement.</p>
+      <p><strong>Forfait gratuit et licence payante :</strong> Free n’expire pas, enregistre jusqu’à 20 fichiers par lot et exactement une page candidate choisie en HTML. Les images et fichiers directement liés n’ont pas de plafond lié au forfait ; les liens de page restent cliquables, mais le contenu de leurs destinations n’est pas collecté. Pro supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Les limites de sécurité, d’authentification, d’autorisation, du site source et de protection de l’appareil s’appliquent. Il n’y a pas d’abonnement.</p>
       <p><strong>Accès aux sites Web :</strong> Le manifeste déclare <code>https://*/*</code> et <code>http://*/*</code> uniquement comme autorisations facultatives. Aucun accès à tous les sites n'est accordé à l'installation. Après explication, l'Extension demande, par une action de l'utilisateur, uniquement l'origine sélectionnée et n'ajoute pas automatiquement d'autres origines. À titre d'exception limitée, pendant l'analyse d'une page, l'Extension peut envoyer une requête de métadonnées anonyme — sans cookies, sans identifiants et sans référent — à une petite liste fixe d'hébergeurs publics et bien connus de stockage de fichiers dans le cloud (tels qu'Amazon S3, Google Cloud Storage, Azure Blob Storage et Cloudflare R2) lorsqu'un lien de fichier analysé pointe vers l'un d'eux, uniquement afin de lire la taille et le type de ce fichier pour les afficher dans les résultats. Ces requêtes ne transportent jamais votre session de connexion au navigateur, sont entièrement ignorées en mode d'analyse session-safe et ne sont envoyées qu'à cette liste fixe de fournisseurs, jamais à des sites arbitraires.</p>
 
       <h2>2. Requêtes réseau</h2>
@@ -884,14 +888,12 @@
       <!--CONSUMER_ADDENDUM_BEGIN-->
       <h2>11a. Informations spécifiques par région sur les transferts transfrontaliers et la vie privée des consommateurs</h2>
       <p><strong>Union européenne / EEE (GDPR).</strong> Les bases légales sont décrites au §6 ci-dessus. Les transferts internationaux vers AWS (États-Unis) et vers le Développeur (Japon) — aucun des deux ne bénéficiant à ce jour d'une décision d'adéquation de l'UE — sont effectués sur le fondement de Clauses Contractuelles Types (Reg. (EU) 2021/914) intégrées à notre Supabase Data Processing Addendum. Les personnes concernées peuvent introduire une réclamation auprès de leur autorité nationale de contrôle (DPA) : Allemagne — <a href="https://www.bfdi.bund.de" target="_blank" rel="noopener">BfDI</a> ; France — <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a> ; Espagne — <a href="https://www.aepd.es" target="_blank" rel="noopener">AEPD</a> ; Italie — <a href="https://www.gpdp.it" target="_blank" rel="noopener">Garante per la protezione dei dati personali</a>.</p>
-      <p><strong>Forfait gratuit et licence payante :</strong> Cette extension propose un forfait gratuit permanent dès le premier lancement. Toutes les fonctions et la même qualité de sortie sont incluses. La version gratuite enregistre les fichiers par 20 et demande confirmation toutes les 20 pages terminées dans la même tâche Web Page Collector réutilisable. Une licence Pro à achat unique supprime ces pauses et continue automatiquement jusqu'à la limite de sécurité configurée. Il n'y a pas d'abonnement.</p>
-      <p><strong>Forfait gratuit et licence payante :</strong> Cette extension propose un forfait gratuit permanent dès le premier lancement. Toutes les fonctions et la même qualité de sortie sont incluses. La version gratuite enregistre les fichiers par 20 et demande confirmation toutes les 20 pages terminées dans la même tâche Web Page Collector réutilisable. Une licence Pro à achat unique supprime ces pauses et continue automatiquement jusqu'à la limite de sécurité configurée. Il n'y a pas d'abonnement.</p>
-      <p><strong>Forfait gratuit et licence payante :</strong> Cette extension propose un forfait gratuit permanent dès le premier lancement. Toutes les fonctions et la même qualité de sortie sont incluses. La version gratuite enregistre les fichiers par 20 et demande confirmation toutes les 20 pages terminées dans la même tâche Web Page Collector réutilisable. Une licence Pro à achat unique supprime ces pauses et continue automatiquement jusqu'à la limite de sécurité configurée. Il n'y a pas d'abonnement.</p>
       <p><strong>Taïwan (個人資料保護法 / PDPA).</strong> Le transfert transfrontalier vers AWS-États-Unis et le Développeur au Japon est communiqué conformément à PDPA 第8條 (告知義務) et n'est actuellement soumis à aucune restriction par décision de l'autorité centrale au titre du 第21條. Les données collectées, la finalité, la durée de conservation, les destinataires et les droits liés au transfert sont décrits ci-dessus. Les personnes concernées à Taïwan peuvent introduire une réclamation auprès de la 個人資料保護委員會 (Personal Data Protection Committee) une fois celle-ci formellement établie ou, dans l'intervalle, auprès de la 中央目的事業主管機關 compétente ou du 行政院消費者保護會 à l'adresse <a href="https://cpc.ey.gov.tw" target="_blank" rel="noopener">cpc.ey.gov.tw</a>.</p>
     <!--CONSUMER_ADDENDUM_END-->
       <div class="contact">
         <h2 style="margin-top:0;">12. Contact / Responsable du traitement</h2>
         <p><strong>Responsable du traitement :</strong> Tetsunobu Kawai</p>
+        <p><strong>Clarification des rôles :</strong> Tetsunobu Kawai est le Responsable du traitement et le Développeur pour les questions de confidentialité. Serima Kawai est la Vendeuse / Prestataire de services indiquée dans les <a href="legal.html">Informations légales</a> et les conditions d'achat.</p>
         <p>Si vous avez des questions concernant cette Politique de confidentialité ou souhaitez exercer vos droits sur les données, veuillez nous contacter à :</p>
         <p><strong>E-mail :</strong> <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
         <p><strong>GitHub :</strong> <a href="https://github.com/SerimaTeddyBear" target="_blank" rel="noopener">github.com/SerimaTeddyBear</a></p>
@@ -909,7 +911,7 @@
 
     <div data-lang="it" lang="it">
       <h1>Informativa sulla Privacy</h1>
-      <p class="updated">Ultimo aggiornamento: 11 agosto 2026</p>
+      <p class="updated">Ultimo aggiornamento: 30 agosto 2026</p>
       <p><strong>Grab All Files</strong> (l'«Estensione») è un'estensione per browser che aiuta gli utenti a trovare, ispezionare, scaricare e, facoltativamente, unire file dalle pagine web da loro scelte. La presente informativa illustra quali dati l'Estensione tratta, come vengono utilizzati, dove sono archiviati e quando vengono trasmessi.</p>
 
       <h2>1. Sintesi del Trattamento dei Dati</h2>
@@ -921,7 +923,7 @@
         <li><strong>i record dei file di rete</strong> (URL e metadati dei file rilevati tramite il monitoraggio della rete) archiviati temporaneamente nello storage di sessione durante la sessione di navigazione.</li>
       </ul>
       <p>Non inviamo ai nostri server la cronologia delle scansioni, l'HTML delle pagine, il contenuto dei file o l'attività di navigazione.</p>
-      <p><strong>Piano gratuito e licenza a pagamento:</strong> Questa estensione offre un piano gratuito permanente fin dal primo avvio. Include tutte le funzioni e la stessa qualità di uscita. Gratuito salva i file 20 alla volta e chiede conferma ogni 20 pagine completate nello stesso processo Web Page Collector ripristinabile. Una licenza Pro a pagamento una tantum elimina queste pause e continua automaticamente fino al limite di sicurezza configurato. Non ci sono abbonamenti.</p>
+      <p><strong>Piano gratuito e licenza a pagamento:</strong> Free non scade, salva fino a 20 file per esecuzione ed esattamente una pagina candidata scelta come HTML. Immagini e file collegati direttamente non hanno un limite numerico del piano; i normali link di pagina restano cliccabili, ma il contenuto delle destinazioni non viene raccolto. Pro rimuove il limite e unisce il contenuto di più pagine selezionate. Restano validi i limiti di sicurezza, autenticazione, autorizzazione, sito sorgente e protezione del dispositivo. Non ci sono abbonamenti.</p>
       <p><strong>Accesso ai siti web:</strong> Il manifest dichiara <code>https://*/*</code> e <code>http://*/*</code> solo come autorizzazioni facoltative. All'installazione non viene concesso l'accesso a tutti i siti. Dopo una spiegazione, l'Estensione richiede con un'azione dell'utente solo l'origine selezionata e non aggiunge automaticamente altre origini. Come eccezione limitata, durante la scansione di una pagina l'Estensione può inviare una richiesta di metadati anonima — senza cookie, senza credenziali e senza referrer — a un piccolo elenco fisso di noti host pubblici di archiviazione file su cloud (come Amazon S3, Google Cloud Storage, Azure Blob Storage e Cloudflare R2) quando il link di un file scansionato punta a uno di essi, al solo scopo di leggere la dimensione e il tipo di quel file per mostrarli nei risultati. Queste richieste non trasmettono mai la sessione di accesso del browser, vengono completamente saltate nella modalità di scansione session-safe e vengono inviate solo a quell'elenco fisso di provider, mai a siti arbitrari.</p>
 
       <h2>2. Richieste di Rete</h2>
@@ -1035,7 +1037,6 @@
       <!--CONSUMER_ADDENDUM_BEGIN-->
       <h2>11a. Informativa sui Trasferimenti Transfrontalieri e sulla Privacy del Consumatore per Regione</h2>
       <p><strong>Unione Europea / SEE (GDPR).</strong> Le basi giuridiche sono descritte nel §6 precedente. I trasferimenti internazionali ad AWS (Stati Uniti) e allo Sviluppatore (Giappone) — nessuno dei quali dispone attualmente di una decisione di adeguatezza dell'UE — sono effettuati in base alle Clausole Contrattuali Tipo (Reg. (UE) 2021/914) incorporate nel nostro Addendum sul Trattamento dei Dati con Supabase. Gli interessati possono presentare reclamo alla rispettiva autorità nazionale di controllo (DPA): Germania — <a href="https://www.bfdi.bund.de" target="_blank" rel="noopener">BfDI</a>; Francia — <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a>; Spagna — <a href="https://www.aepd.es" target="_blank" rel="noopener">AEPD</a>; Italia — <a href="https://www.gpdp.it" target="_blank" rel="noopener">Garante per la protezione dei dati personali</a>.</p>
-      <p><strong>Piano gratuito e licenza a pagamento:</strong> Questa estensione offre un piano gratuito permanente fin dal primo avvio. Include tutte le funzioni e la stessa qualità di uscita. Gratuito salva i file 20 alla volta e chiede conferma ogni 20 pagine completate nello stesso processo Web Page Collector ripristinabile. Una licenza Pro a pagamento una tantum elimina queste pause e continua automaticamente fino al limite di sicurezza configurato. Non ci sono abbonamenti.</p>
       <p><strong>Corea del Sud (개인정보 보호법 / PIPA).</strong> Il trasferimento transfrontaliero ad AWS (Stati Uniti) e allo Sviluppatore (Giappone) è effettuato ai sensi del PIPA 第28條의8 第1項 第3號 — necessario per l'esecuzione del contratto con l'interessato — unitamente alle informazioni richieste dal 第28條의8 第2項: (i) <em>elementi trasferiti</em>: chiave di licenza, UUID del dispositivo generato casualmente, indirizzo e-mail, marca temporale di rilascio della licenza; (ii) <em>destinatario</em>: Supabase Inc. (USA, ospitato su AWS) e Tetsunobu Kawai (Giappone); (iii) <em>Paesi destinatari</em>: Stati Uniti, Giappone; (iv) <em>data e modalità del trasferimento</em>: al momento dell'attivazione/verifica della licenza, mediante richiesta API HTTPS; (v) <em>finalità</em>: verifica della licenza, applicazione del limite di dispositivi, revoca; (vi) <em>periodo di conservazione</em>: durata della licenza + 30 giorni successivi alla richiesta di cancellazione; (vii) <em>contatto privacy</em>: <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a>. Il 개인정보 보호책임자 (Responsabile della Privacy) è Tetsunobu Kawai, contattabile al medesimo indirizzo e-mail. Gli interessati coreani possono presentare reclamo alla 개인정보보호위원회 (PIPC) all'indirizzo <a href="https://www.pipc.go.kr" target="_blank" rel="noopener">www.pipc.go.kr</a>, all'e-Privacy clean-service della 한국인터넷진흥원 (KISA) all'indirizzo privacy.kisa.or.kr, oppure alla 한국소비자원 (KCA).</p>
       <p><strong>Repubblica Popolare Cinese (《个人信息保护法》/ PIPL).</strong> Il trasferimento transfrontaliero ad AWS-USA e allo Sviluppatore-Giappone è effettuato sulla base del PIPL Art. 13(2) — necessario per la conclusione o l'esecuzione del contratto con l'interessato — unitamente al consenso ottenuto al momento dell'attivazione della licenza. Si comunicano i seguenti elementi richiesti dal PIPL Art. 39: (i) <em>destinatari esteri</em>: Supabase Inc. (USA), Tetsunobu Kawai (Giappone); (ii) <em>contatto</em>: <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a>; (iii) <em>finalità del trattamento</em>: verifica della licenza, limiti dei dispositivi, revoca; (iv) <em>modalità del trattamento</em>: archiviazione e consultazione tramite API HTTPS; (v) <em>diritti dell'interessato</em>: accesso, rettifica, cancellazione, limitazione, revoca del consenso — esercitabili tramite l'e-mail sopra indicata. Ove richiesto dal PIPL Art. 53, lo Sviluppatore designerà un rappresentante nazionale nella Repubblica Popolare Cinese al raggiungimento della soglia applicabile in termini di numero di utenti. I consumatori della RPC possono presentare reclami tramite la piattaforma 12315 all'indirizzo <a href="https://www.12315.cn" target="_blank" rel="noopener">www.12315.cn</a>.</p>
       <p><strong>Taiwan (個人資料保護法 / PDPA).</strong> Il trasferimento transfrontaliero ad AWS-USA e allo Sviluppatore-Giappone è comunicato ai sensi del PDPA 第8條 (告知義務) e attualmente non è soggetto ad alcuna restrizione disposta dall'autorità centrale ai sensi del 第21條. I dati raccolti, la finalità, la conservazione, il destinatario e i diritti relativi al trasferimento sono descritti sopra. Gli interessati di Taiwan possono presentare reclamo alla 個人資料保護委員會 (Personal Data Protection Committee) una volta formalmente costituita, oppure, nel frattempo, al competente 中央目的事業主管機關 o all'行政院消費者保護會 all'indirizzo <a href="https://cpc.ey.gov.tw" target="_blank" rel="noopener">cpc.ey.gov.tw</a>.</p>
@@ -1043,6 +1044,7 @@
       <div class="contact">
         <h2 style="margin-top:0;">12. Contatti / Titolare del Trattamento</h2>
         <p><strong>Titolare del trattamento:</strong> Tetsunobu Kawai</p>
+        <p><strong>Chiarimento dei ruoli:</strong> Tetsunobu Kawai è il Titolare del trattamento e lo Sviluppatore per le questioni relative alla privacy. Serima Kawai è la Venditrice / Fornitrice del servizio indicata nelle <a href="legal.html">Informazioni legali</a> e nelle condizioni di acquisto.</p>
         <p>Per domande sulla presente Informativa sulla privacy o per esercitare i diritti relativi ai dati, può contattarci all'indirizzo:</p>
         <p><strong>E-mail:</strong> <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/SerimaTeddyBear" target="_blank" rel="noopener">github.com/SerimaTeddyBear</a></p>
@@ -1060,7 +1062,7 @@
 
     <div data-lang="ko" lang="ko">
       <h1>개인정보처리방침</h1>
-      <p class="updated">최종 업데이트: 2026년 8월 11일</p>
+      <p class="updated">최종 업데이트: 2026년 8월 30일</p>
       <p><strong>Grab All Files</strong>(이하 "본 확장 프로그램")는 이용자가 선택한 웹 페이지에서 파일을 검색, 확인, 다운로드하고 필요에 따라 결합할 수 있도록 도와주는 브라우저 확장 프로그램입니다. 본 방침은 본 확장 프로그램이 처리하는 데이터, 그 이용 방법, 저장 위치 및 송신 시점에 대하여 설명합니다.</p>
 
       <h2>1. 데이터 처리 개요</h2>
@@ -1072,7 +1074,7 @@
         <li>브라우징 세션 중 세션 스토리지에 일시적으로 저장되는 <strong>네트워크 파일 기록</strong>(네트워크 모니터링을 통해 검출된 파일의 URL 및 메타데이터).</li>
       </ul>
       <p>당사는 귀하의 스캔 이력, 페이지 HTML, 파일 내용 또는 브라우징 활동을 당사 서버로 전송하지 않습니다.</p>
-      <p><strong>무료 플랜 및 유료 라이선스:</strong> 이 확장 프로그램은 첫 실행부터 영구 무료 플랜으로 모든 기능과 동일한 출력 품질을 사용할 수 있습니다. 무료는 파일을 20개씩 저장하고 동일한 재개 가능한 Web Page Collector 작업에서 20페이지 완료마다 확인합니다. 일회성 Pro 라이선스는 이러한 구분을 없애고 설정한 안전 한도까지 자동으로 계속합니다. 구독은 없습니다.</p>
+      <p><strong>무료 플랜 및 유료 라이선스:</strong> Free는 만료 없이 실행당 파일을 최대 20개 저장하고 관련 후보 중 선택한 정확히 1페이지를 HTML로 저장합니다. 해당 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없으며 일반 페이지 링크는 클릭 가능하지만 대상 페이지 본문은 수집하지 않습니다. Pro는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. 안전, 인증, 권한, 원본 사이트 및 기기 보호 제한은 계속 적용됩니다. 구독은 없습니다.</p>
       <p><strong>웹사이트 접근:</strong> manifest는 <code>https://*/*</code> 및 <code>http://*/*</code>를 선택적 사이트 권한으로만 선언합니다. 설치 시 모든 사이트 접근 권한을 받지 않습니다. 이유를 설명한 뒤 사용자 동작으로 선택한 origin만 요청하며 외부 origin을 자동 추가하지 않습니다. 제한적인 예외로서, 스캔한 파일 링크가 잘 알려진 공개 클라우드 파일 스토리지 호스트(예: Amazon S3, Google Cloud Storage, Azure Blob Storage, Cloudflare R2)의 파일을 가리키는 경우, 본 확장 프로그램은 페이지를 스캔하는 동안 해당 파일의 크기와 형식만 읽어 결과에 표시하기 위해, 쿠키·자격 증명·리퍼러(Referrer)를 전혀 포함하지 않는 익명 메타데이터 요청을 이 고정된 소수의 제공업체 목록에만 보낼 수 있습니다. 이러한 요청에는 브라우저 로그인 세션이 절대 포함되지 않으며, session-safe 스캔 모드에서는 전혀 전송되지 않고, 오직 위의 고정된 제공업체 목록으로만 전송되며 임의의 사이트로는 전송되지 않습니다.</p>
 
       <h2>2. 네트워크 요청</h2>
@@ -1194,6 +1196,7 @@
       <div class="contact">
         <h2 style="margin-top:0;">12. 문의 / 데이터 관리자</h2>
         <p><strong>데이터 관리자:</strong> Tetsunobu Kawai</p>
+        <p><strong>역할 안내:</strong> 개인정보 관련 데이터 관리자 및 개발자는 Tetsunobu Kawai입니다. <a href="legal.html">법적 정보</a>와 구매 조건에 명시된 판매자 / 서비스 제공자는 Serima Kawai입니다.</p>
         <p>본 개인정보처리방침에 관한 문의 또는 데이터 권리 행사에 관해서는 다음으로 연락해 주십시오.</p>
         <p><strong>이메일:</strong> <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/SerimaTeddyBear" target="_blank" rel="noopener">github.com/SerimaTeddyBear</a></p>
@@ -1211,7 +1214,7 @@
 
     <div data-lang="pt_BR" lang="pt-BR">
       <h1>Política de Privacidade</h1>
-      <p class="updated">Última atualização: 11 de agosto de 2026</p>
+      <p class="updated">Última atualização: 30 de agosto de 2026</p>
       <p><strong>Grab All Files</strong> ("a Extensão") é uma extensão de navegador que ajuda os usuários a localizar, inspecionar, baixar e, opcionalmente, mesclar arquivos a partir de páginas da web por eles escolhidas. Esta política explica quais dados a Extensão manipula, como eles são usados, onde são armazenados e quando são transmitidos.</p>
 
       <h2>1. Resumo do Tratamento de Dados</h2>
@@ -1223,7 +1226,7 @@
         <li><strong>registros de arquivos de rede</strong> (URLs e metadados de arquivos detectados via monitoramento de rede) armazenados temporariamente no armazenamento de sessão durante sua sessão de navegação.</li>
       </ul>
       <p>Não enviamos seu histórico de varreduras, o HTML das páginas, o conteúdo dos arquivos ou sua atividade de navegação aos nossos servidores.</p>
-      <p><strong>Plano gratuito e licença paga:</strong> Esta extensão tem um plano gratuito permanente desde a primeira execução. Todos os recursos e a mesma qualidade de saída estão incluídos. O Grátis salva arquivos de 20 em 20 e pede confirmação a cada 20 páginas concluídas no mesmo trabalho retomável do Web Page Collector. Uma licença Pro de pagamento único remove essas pausas e continua automaticamente até o limite de segurança configurado. Não há assinatura.</p>
+      <p><strong>Plano gratuito e licença paga:</strong> O Free não expira, salva até 20 arquivos por execução e exatamente uma página candidata escolhida como HTML. Imagens e arquivos diretamente vinculados não têm limite de quantidade do plano; links de página continuam clicáveis, mas o conteúdo de seus destinos não é coletado. O Pro remove o limite e reúne o conteúdo de várias páginas selecionadas. Continuam válidos os limites de segurança, autenticação, permissão, site de origem e proteção do dispositivo. Não há assinatura.</p>
       <p><strong>Acesso a sites:</strong> O manifesto declara <code>https://*/*</code> e <code>http://*/*</code> somente como permissões opcionais. O acesso a todos os sites não é concedido na instalação. Após explicar o motivo, a Extensão solicita por ação do usuário somente a origem selecionada e não adiciona origens externas automaticamente. Como exceção limitada, enquanto varre uma página a Extensão pode enviar uma solicitação de metadados anônima — sem cookies, sem credenciais e sem referenciador — a uma pequena lista fixa de conhecidos hosts públicos de armazenamento de arquivos em nuvem (como Amazon S3, Google Cloud Storage, Azure Blob Storage e Cloudflare R2) quando o link de um arquivo verificado aponta para um deles, com o único fim de ler o tamanho e o tipo desse arquivo para exibi-los nos resultados. Essas solicitações nunca transportam a sessão de login do seu navegador, são totalmente ignoradas no modo de varredura session-safe e são enviadas somente a essa lista fixa de provedores, nunca a sites arbitrários.</p>
 
       <h2>2. Solicitações de Rede</h2>
@@ -1338,7 +1341,6 @@
       <!--CONSUMER_ADDENDUM_BEGIN-->
       <h2>11a. Divulgações Específicas por Região sobre Transferência Internacional e Privacidade do Consumidor</h2>
       <p><strong>União Europeia / EEE (GDPR).</strong> As bases legais estão descritas no §6 acima. As transferências internacionais para a AWS (Estados Unidos) e para o Desenvolvedor (Japão) — nenhum dos dois detém atualmente decisão de adequação da UE — são realizadas com base nas Cláusulas Contratuais Padrão (Reg. (UE) 2021/914) incorporadas ao nosso Adendo de Tratamento de Dados da Supabase. Os titulares de dados podem apresentar reclamação à autoridade nacional de supervisão (DPA): Alemanha — <a href="https://www.bfdi.bund.de" target="_blank" rel="noopener">BfDI</a>; França — <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a>; Espanha — <a href="https://www.aepd.es" target="_blank" rel="noopener">AEPD</a>; Itália — <a href="https://www.gpdp.it" target="_blank" rel="noopener">Garante per la protezione dei dati personali</a>.</p>
-      <p><strong>Plano gratuito e licença paga:</strong> Esta extensão tem um plano gratuito permanente desde a primeira execução. Todos os recursos e a mesma qualidade de saída estão incluídos. O Grátis salva arquivos de 20 em 20 e pede confirmação a cada 20 páginas concluídas no mesmo trabalho retomável do Web Page Collector. Uma licença Pro de pagamento único remove essas pausas e continua automaticamente até o limite de segurança configurado. Não há assinatura.</p>
       <p><strong>Coreia do Sul (개인정보 보호법 / PIPA).</strong> A transferência transfronteiriça para a AWS (Estados Unidos) e para o Desenvolvedor (Japão) é realizada com base no PIPA 第28條의8 第1項 第3號 — necessária para a execução do contrato com o titular dos dados — com as divulgações exigidas pelo 第28條의8 第2項: (i) <em>itens transferidos</em>: chave de licença, UUID do dispositivo gerado aleatoriamente, endereço de e-mail, data e hora de emissão da licença; (ii) <em>destinatário</em>: Supabase Inc. (EUA, hospedado na AWS) e Tetsunobu Kawai (Japão); (iii) <em>países destinatários</em>: Estados Unidos, Japão; (iv) <em>data e método da transferência</em>: na ativação/verificação da licença, por requisição HTTPS de API; (v) <em>finalidade</em>: verificação da licença, aplicação do limite de dispositivos, revogação; (vi) <em>período de retenção</em>: vigência da licença + 30 dias após pedido de exclusão; (vii) <em>contato de privacidade</em>: <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a>. O 개인정보 보호책임자 (Encarregado de Privacidade) é Tetsunobu Kawai, contatável pelo mesmo endereço de e-mail. Os titulares de dados coreanos podem apresentar reclamação ao 개인정보보호위원회 (PIPC) em <a href="https://www.pipc.go.kr" target="_blank" rel="noopener">www.pipc.go.kr</a>, à 한국인터넷진흥원 (KISA) e-Privacy clean-service em privacy.kisa.or.kr, ou à 한국소비자원 (KCA).</p>
       <p><strong>República Popular da China (《个人信息保护法》/ PIPL).</strong> A transferência transfronteiriça para a AWS-EUA e para o Desenvolvedor-Japão é realizada com fundamento no PIPL Art. 13(2) — necessária para a celebração ou execução do contrato com o titular dos dados — em conjunto com o consentimento obtido na ativação da licença. Divulgamos os seguintes itens do PIPL Art. 39: (i) <em>destinatários no exterior</em>: Supabase Inc. (EUA), Tetsunobu Kawai (Japão); (ii) <em>contato</em>: <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a>; (iii) <em>finalidades do tratamento</em>: verificação da licença, limites de dispositivos, revogação; (iv) <em>métodos de tratamento</em>: armazenamento e consulta via API HTTPS; (v) <em>direitos do titular</em>: acesso, retificação, eliminação, restrição, retirada do consentimento — exercíveis pelo e-mail acima. Quando exigido pelo PIPL Art. 53, o Desenvolvedor designará um representante doméstico na República Popular da China ao atingir o limite de volume de usuários aplicável. Os consumidores chineses podem apresentar reclamações pela plataforma 12315 em <a href="https://www.12315.cn" target="_blank" rel="noopener">www.12315.cn</a>.</p>
       <p><strong>Taiwan (個人資料保護法 / PDPA).</strong> A transferência transfronteiriça para a AWS-EUA e para o Desenvolvedor-Japão é divulgada nos termos do PDPA 第8條 (告知義務) e atualmente não é restringida por ordem da autoridade central nos termos do 第21條. Os dados coletados, a finalidade, a retenção, o destinatário e os direitos relacionados à transferência estão descritos acima. Os titulares de dados em Taiwan podem apresentar reclamação ao 個人資料保護委員會 (Comitê de Proteção de Dados Pessoais) após sua instituição formal, ou, no interregno, ao 中央目的事業主管機關 competente, ou ainda ao 行政院消費者保護會 em <a href="https://cpc.ey.gov.tw" target="_blank" rel="noopener">cpc.ey.gov.tw</a>.</p>
@@ -1346,6 +1348,7 @@
       <div class="contact">
         <h2 style="margin-top:0;">12. Contato / Controlador de Dados</h2>
         <p><strong>Controlador de Dados:</strong> Tetsunobu Kawai</p>
+        <p><strong>Esclarecimento de funções:</strong> Tetsunobu Kawai é o Controlador de Dados e o Desenvolvedor para assuntos de privacidade. Serima Kawai é a Vendedora / Provedora do serviço indicada nas <a href="legal.html">Informações legais</a> e nas condições de compra.</p>
         <p>Se você tiver dúvidas sobre esta Política de Privacidade ou desejar exercer seus direitos sobre dados, entre em contato conosco em:</p>
         <p><strong>E-mail:</strong> <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/SerimaTeddyBear" target="_blank" rel="noopener">github.com/SerimaTeddyBear</a></p>
@@ -1363,7 +1366,7 @@
 
     <div data-lang="zh_CN" lang="zh-CN">
       <h1>隐私政策</h1>
-<p class="updated">最后更新：2026年8月11日</p>
+<p class="updated">最后更新：2026年8月30日</p>
 <p><strong>Grab All Files</strong>（以下简称"本扩展程序"）是一款帮助用户从其所选网页中查找、检视、下载并选择性合并文件的浏览器扩展程序。本政策说明本扩展程序所处理的数据、其使用方式、存储位置以及发生传输的情形。</p>
 
 <h2>1. 数据处理概要</h2>
@@ -1375,7 +1378,7 @@
   <li><strong>网络文件记录</strong>（通过网络监控所检测到的文件 URL 与元数据），在您浏览会话期间临时存储于会话存储中。</li>
 </ul>
 <p>我们不会将您的扫描历史、页面 HTML、文件内容或浏览活动发送至我方服务器。</p>
-      <p><strong>免费方案与付费许可证：</strong> 本扩展程序从首次启动起即提供永久免费方案，包含全部功能和相同的输出质量。免费版每次保存20个文件，并在同一个可恢复的Web Page Collector任务中每完成20页确认一次。一次性付费的Pro许可证可取消这些暂停，并自动继续到设定的安全上限。没有订阅。</p>
+      <p><strong>免费方案与付费许可：</strong> Free无期限，每次最多保存20个文件，并仅将所选的1个相关候选页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限；普通页面链接仍可点击，但不会收集其目标页面正文。Pro解除文件上限，并将多个所选页面正文合并为一个HTML。安全、身份验证、权限、源网站和设备保护限制仍然适用。没有订阅。</p>
 <p><strong>网站访问：</strong>清单仅将 <code>https://*/*</code> 和 <code>http://*/*</code> 声明为可选网站权限。安装时不会获得所有网站访问权。说明原因后，仅通过用户操作请求所选来源，且不会自动添加外部来源。作为有限的例外，在扫描页面时，若扫描到的文件链接指向知名公有云文件存储主机（如 Amazon S3、Google Cloud Storage、Azure Blob Storage 和 Cloudflare R2）上的文件，本扩展程序可能会发送一个匿名元数据请求（不含 Cookie、认证信息和 Referer 来源），其唯一目的是读取该文件的大小和类型以在结果中显示。此类请求绝不会携带您的浏览器登录会话，在 session-safe 扫描模式下会被完全跳过，并且仅发送至该固定的提供商列表，绝不发送至任意网站。</p>
 
 <h2>2. 网络请求</h2>
@@ -1497,6 +1500,7 @@
       <div class="contact">
   <h2 style="margin-top:0;">12. 联系方式 / 数据控制者</h2>
   <p><strong>数据控制者：</strong> Tetsunobu Kawai</p>
+  <p><strong>角色说明：</strong>隐私事务的数据控制者及开发者为 Tetsunobu Kawai。<a href="legal.html">法律信息</a>及购买条款中列明的销售方 / 服务提供者为 Serima Kawai。</p>
   <p>如您对本隐私政策有任何疑问，或希望行使您的数据权利，请通过下列方式联系我们：</p>
   <p><strong>邮箱：</strong> <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
   <p><strong>GitHub：</strong> <a href="https://github.com/SerimaTeddyBear" target="_blank" rel="noopener">github.com/SerimaTeddyBear</a></p>
@@ -1514,7 +1518,7 @@
 
     <div data-lang="zh_TW" lang="zh-TW">
       <h1>隱私權政策</h1>
-<p class="updated">最後更新：2026年8月11日</p>
+<p class="updated">最後更新：2026年8月30日</p>
 <p><strong>Grab All Files</strong>（以下簡稱「本擴充功能」）係一款協助使用者於其所選定之網頁中搜尋、檢視、下載檔案，並可選擇性合併檔案之瀏覽器擴充功能。本政策說明本擴充功能所處理之資料、其使用方式、儲存位置以及傳輸發生之情形。</p>
 
 <h2>1. 資料處理概要</h2>
@@ -1526,7 +1530,7 @@
   <li><strong>網路檔案紀錄</strong>（透過網路監控所偵測到之檔案 URL 與中繼資料），於您之瀏覽工作階段期間暫存於工作階段儲存空間中。</li>
 </ul>
 <p>我方不會將您之掃描紀錄、頁面 HTML、檔案內容或瀏覽活動傳送至我方伺服器。</p>
-      <p><strong>免費方案與付費授權：</strong> 本擴充功能自首次啟動起即提供永久免費方案，包含全部功能和相同的輸出品質。免費版每次儲存20個檔案，並在同一個可恢復的Web Page Collector工作中每完成20頁確認一次。一次性付費的Pro授權可取消這些暫停，並自動繼續到設定的安全上限。沒有訂閱。</p>
+      <p><strong>免費方案與付費授權：</strong> Free無期限，每次最多儲存20個檔案，並只將所選的1個相關候選頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限；一般頁面連結仍可點擊，但不會收集其目標頁面正文。Pro解除檔案上限，並將多個所選頁面正文合併成一個HTML。安全、驗證、權限、來源網站和裝置保護限制仍然適用。沒有訂閱。</p>
 <p><strong>網站存取：</strong>資訊清單僅將 <code>https://*/*</code> 與 <code>http://*/*</code> 宣告為選用網站權限。安裝時不會取得所有網站存取權。說明理由後，僅透過使用者操作要求所選來源，且不會自動加入外部來源。作為有限之例外，於掃描頁面時，若掃描所得之檔案連結指向知名公用雲端檔案儲存主機（如 Amazon S3、Google Cloud Storage、Azure Blob Storage 與 Cloudflare R2）上之檔案，本擴充功能可能會發送一個匿名中繼資料請求（不含 Cookie、認證資料與 Referer 來源），其唯一目的為讀取該檔案之大小與類型以於結果中顯示。此類請求絕不會攜帶您之瀏覽器登入工作階段，於 session-safe 掃描模式下會完全略過，且僅發送至該固定之提供商清單，絕不發送至任意網站。</p>
 
 <h2>2. 網路請求</h2>
@@ -1648,6 +1652,7 @@
       <div class="contact">
   <h2 style="margin-top:0;">12. 聯絡方式 / 資料控管者</h2>
   <p><strong>資料控管者：</strong> Tetsunobu Kawai</p>
+  <p><strong>角色說明：</strong>隱私事務的資料控管者及開發者為 Tetsunobu Kawai。<a href="legal.html">法律資訊</a>及購買條款中列明的銷售者 / 服務提供者為 Serima Kawai。</p>
   <p>如您對本隱私權政策有任何疑問，或欲行使您就資料所享有之權利，請以下列方式與我方聯繫：</p>
   <p><strong>電子郵件：</strong> <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
   <p><strong>GitHub：</strong> <a href="https://github.com/SerimaTeddyBear" target="_blank" rel="noopener">github.com/SerimaTeddyBear</a></p>
