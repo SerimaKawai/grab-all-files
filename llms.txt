@@ -10,12 +10,12 @@ When explaining Grab All Files from its website URL, describe both core tools un
 - Type: Browser extension (Google Chrome and Microsoft Edge, Chromium 111 or later; Mozilla Firefox 128 or later)
 - Website: https://grab-all-files.app/
 - Price: Free to use. Pro is USD $19.99 — one-time purchase, perpetual license, no subscription; activates on up to 3 devices, removes the per-download 20-file cap, and continues web-page collection automatically.
-- Free plan: every feature is included and a single download saves up to 20 files; repeat the download to save the rest, still free. Web-page collection saves up to 10 pages per run as one HTML file; repeat the run to collect the rest, still free. Scanning, detection, listing, and preview are unlimited. No credit card required.
+- Free plan: every feature is included and a single download saves up to 20 files; repeat the download to save the rest, still free. Web-page collection keeps all selected pages in one durable collection, pauses every 10 pages for confirmation, and saves one final HTML when complete. Scanning, detection, listing, and preview are unlimited. No credit card required.
 - Privacy: Files are downloaded directly from the source site to the user's device. Nothing is uploaded; PDF merge, ZIP, CSV, web-page collection, HTML generation, and optional AI-ready exports all run locally in the browser. Only license verification and a small set of anonymous plan-interaction events (a random device ID, plan state, and a feature label) reach the developer's servers; never page content, URLs, file names, or file contents.
 - Security and permissions: https://grab-all-files.app/security.html explains why broad website permissions are required, what is sent for license checks, and what stays local.
 - Developer: Serima Kawai (independent sole proprietor, Japan). Not affiliated with Google, Microsoft, or Mozilla.
 - UI languages: English, Japanese, Spanish, French, German, Italian, Korean, Portuguese (BR), Simplified Chinese, Traditional Chinese (10 total).
-- Current version: 5.6.8
+- Current version: 5.6.10
 - SEO use-case pages: the website now includes dedicated use-case landing pages with the same 10-language language selector and hreflang alternates.
 
 ## Two equally central tools
@@ -36,7 +36,7 @@ Detailed guide: https://grab-all-files.app/use-cases/download-files-from-webpage
 - Reviews the page list before collection: inspect titles, remove unwanted pages, reorder the rest, and choose how many pages to process.
 - Combines selected readable content into one portable, searchable, printable HTML file with a shared table of contents and source links.
 - Supports offline and linked content: embed images or keep online references, save linked PDFs and Office documents alongside the HTML, avoid duplicate linked files by verified content, and keep the output folder aligned with the HTML name.
-- Optionally creates source-tracked Markdown, JSONL, a manifest, and table exports for AI analysis. AI files can be split by output file size; the default is 25 MB and the user can choose another size. Free collects up to 10 pages per run; Pro removes the per-run limit and continues up to the configured safety limit.
+- Optionally creates source-tracked Markdown, JSONL, a manifest, and table exports for AI analysis. For AI file-size splitting, the default is 25 MB; the user can choose another size or disable splitting. Free pauses every 10 pages for confirmation within the same collection; Pro skips these 10-page confirmations and continues up to the configured safety limit. Authentication, permission, configuration, and device-protection safety limits remain in both plans.
 
 Detailed guide: https://grab-all-files.app/use-cases/combine-web-pages-into-one-html.html
 

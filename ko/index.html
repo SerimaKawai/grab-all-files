@@ -98,9 +98,9 @@
         "caption": "Web Page Collector: reviewed page candidates, 25 MB AI upload splitting, and combined HTML output"
       }
     ],
-    "softwareVersion": "5.6.8",
+    "softwareVersion": "5.6.10",
     "datePublished": "2025-05-05",
-    "dateModified": "2026-08-26",
+    "dateModified": "2026-08-29",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
     "permissions": "Files are downloaded directly from the source site to the user's device; only license verification reaches the developer's servers.",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
@@ -116,7 +116,7 @@
       "priceCurrency": "USD",
       "category": "OneTimePayment",
       "availability": "https://schema.org/InStock",
-      "description": "One-time purchase, perpetual license, activates on up to 3 devices. Every feature is free. Free saves 20 files per download and collects web pages 10 per run; Pro removes both limits. / 永続ライセンス（サブスクなし）。最大3台まで有効化。全機能は無料で利用でき、無料プランはファイルを1回20件ずつ保存し、Webページ収集は1回10ページずつ。Proはどちらも上限なしです。",
+      "description": "One-time purchase, perpetual license, activates on up to 3 devices. Every feature is free. Free saves 20 files per download and pauses web-page collection every 10 pages for confirmation; Pro skips those 10-page confirmations. / 永続ライセンス（サブスクなし）。最大3台まで有効化。全機能は無料で利用でき、無料プランはファイルを1回20件ずつ保存し、Webページ収集は10ページごとに続行を確認。Proはプラン上の途中確認を省略します。",
       "url": "https://grab-all-files.app/purchase/"
     },
     "author": {
@@ -167,7 +167,7 @@
         "name": "Is it free to use?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Every feature is free; a single download saves up to 20 files, and you can repeat the download to save the rest at no cost. Web-page collection saves up to 10 pages per run as one HTML file, and you can run it again for the rest. Pro (a one-time $19.99 purchase) removes the download limit and the per-run page limit."
+          "text": "Yes. Every feature is free; a single download saves up to 20 files, and you can repeat the download to save the rest at no cost. Web-page collection keeps all selected pages in one collection, pauses every 10 pages for confirmation, and saves one final HTML when complete. Pro (a one-time $19.99 purchase) removes the download limit and skips those 10-page confirmations."
         }
       },
       {
@@ -215,7 +215,7 @@
         "name": "Can I combine multiple web pages into one HTML file?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Open the extension and choose “Combine pages into HTML.” It finds related pages, lets you review the list, and saves the selected pages as one searchable, printable HTML file with a table of contents. The Free plan collects up to 10 pages per run (each run saves its own HTML); Pro collects automatically up to your chosen safety limit."
+          "text": "Yes. Open the extension and choose “Combine pages into HTML.” It finds related pages, lets you review the list, and saves the selected pages as one searchable, printable HTML file with a table of contents. Free pauses every 10 pages for confirmation within the same collection; Pro skips those 10-page confirmations and continues automatically up to your chosen safety limit."
         }
       },
       {
@@ -1017,7 +1017,7 @@
         
         
         <div data-lang="ko" class="active">
-          <div class="tools-grid"><article class="tool-panel"><span class="tile" aria-hidden="true">📥</span><span class="tool-kicker">도구 1</span><h3>파일 일괄 다운로드</h3><p>페이지에서 다운로드할 수 있는 모든 파일(708종류)을 찾아, 선택한 파일을 한 번의 클릭으로 저장합니다.</p><ul class="tool-points"><li>iframe, 뷰어, 지연 로딩, fetch/XHR, blob URL 뒤에 있는 파일까지 감지</li><li>PDF 병합, ZIP 생성, CSV 내보내기까지 모두 브라우저 안에서 처리</li><li>무료 플랜은 다운로드 1회당 20개. 반복하면 나머지도 저장할 수 있습니다</li></ul><a class="tool-link" href="/ko/use-cases/download-files-from-webpage.html">다운로드 기능 보기 <span class="arrow" aria-hidden="true">&rarr;</span></a></article><article class="tool-panel"><span class="tile" aria-hidden="true">📑</span><span class="tool-kicker">도구 2</span><h3>페이지를 하나의 HTML로</h3><p>열려 있는 페이지에서 시작해 관련 페이지를 찾고, 선택한 페이지를 목차가 있는 검색 가능한 HTML 한 파일로 묶습니다.</p><ul class="tool-points"><li>자동 탐색은 물론 메뉴·경로·사이트맵·붙여넣은 URL 목록으로도 지정할 수 있습니다</li><li>수집을 시작하기 전에 목록에서 확인하고 순서 변경이나 제외를 할 수 있습니다</li><li>무료 플랜은 실행당 10페이지. 반복하면 나머지도 수집할 수 있습니다</li></ul><a class="tool-link" href="/ko/use-cases/combine-web-pages-into-one-html.html">페이지 수집 사용법 보기 <span class="arrow" aria-hidden="true">&rarr;</span></a></article></div>
+          <div class="tools-grid"><article class="tool-panel"><span class="tile" aria-hidden="true">📥</span><span class="tool-kicker">도구 1</span><h3>파일 일괄 다운로드</h3><p>페이지에서 다운로드할 수 있는 모든 파일(708종류)을 찾아, 선택한 파일을 한 번의 클릭으로 저장합니다.</p><ul class="tool-points"><li>iframe, 뷰어, 지연 로딩, fetch/XHR, blob URL 뒤에 있는 파일까지 감지</li><li>PDF 병합, ZIP 생성, CSV 내보내기까지 모두 브라우저 안에서 처리</li><li>무료 플랜은 다운로드 1회당 20개. 반복하면 나머지도 저장할 수 있습니다</li></ul><a class="tool-link" href="/ko/use-cases/download-files-from-webpage.html">다운로드 기능 보기 <span class="arrow" aria-hidden="true">&rarr;</span></a></article><article class="tool-panel"><span class="tile" aria-hidden="true">📑</span><span class="tool-kicker">도구 2</span><h3>페이지를 하나의 HTML로</h3><p>열려 있는 페이지에서 시작해 관련 페이지를 찾고, 선택한 페이지를 목차가 있는 검색 가능한 HTML 한 파일로 묶습니다.</p><ul class="tool-points"><li>자동 탐색은 물론 메뉴·경로·사이트맵·붙여넣은 URL 목록으로도 지정할 수 있습니다</li><li>수집을 시작하기 전에 목록에서 확인하고 순서 변경이나 제외를 할 수 있습니다</li><li>무료 플랜은 10페이지마다 계속할지 확인하며, 모두 같은 수집에 유지됩니다</li></ul><a class="tool-link" href="/ko/use-cases/combine-web-pages-into-one-html.html">페이지 수집 사용법 보기 <span class="arrow" aria-hidden="true">&rarr;</span></a></article></div>
         </div>
         
         
@@ -1034,8 +1034,8 @@
         
         <div data-lang="ko" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>최신 버전</span><strong>5.6.8</strong></div>
-            <div class="latest-copy"><h3>로그인 장벽도, 파일 링크도 해결.</h3><p>버전 5.6.8은 로그인이 필요한 페이지에서도 수집을 이어가고, 링크 파일을 실제 파일로 저장합니다.</p><ul class="latest-points"><li><strong>로그인 대응:</strong> 로그인 페이지 1건이 탐색을 멈추지 않고, 건너뛰기는 사이트 단위로 적용되며, 안내도 더 명확해졌습니다.</li><li><strong>실제 파일:</strong> GitHub 자료와 DOI 인용 링크를 보기 페이지나 열 수 없는 파일이 아닌 실제 파일로 저장합니다.</li><li><strong>탭 폭주 해소:</strong> 리디렉션·재시도되는 파일로 탭이 끝없이 열리지 않으며, 빈 다운로드를 저장으로 세지 않습니다.</li><li><strong>더 큰 파일, 더 명확한 결과:</strong> 파일당 상한을 32MB에서 100MB로 올렸고, 완성 HTML은 페이지와 링크 파일 결과를 나누어 표시합니다.</li></ul></div>
+            <div class="latest-badge"><span>최신 버전</span><strong>5.6.10</strong></div>
+            <div class="latest-copy"><h3>로그인 장벽도, 파일 링크도 해결.</h3><p>버전 5.6.10은 로그인이 필요한 페이지에서도 수집을 이어가고, 링크 파일을 실제 파일로 저장합니다.</p><ul class="latest-points"><li><strong>로그인 대응:</strong> 로그인 페이지 1건이 탐색을 멈추지 않고, 건너뛰기는 사이트 단위로 적용되며, 안내도 더 명확해졌습니다.</li><li><strong>실제 파일:</strong> GitHub 자료와 DOI 인용 링크를 보기 페이지나 열 수 없는 파일이 아닌 실제 파일로 저장합니다.</li><li><strong>탭 폭주 해소:</strong> 리디렉션·재시도되는 파일로 탭이 끝없이 열리지 않으며, 빈 다운로드를 저장으로 세지 않습니다.</li><li><strong>더 큰 파일, 더 명확한 결과:</strong> 파일당 상한을 32MB에서 100MB로 올렸고, 완성 HTML은 페이지와 링크 파일 결과를 나누어 표시합니다.</li></ul></div>
           </div>
         </div>
         
@@ -1110,7 +1110,7 @@
                 <div class="spotlight-item"><strong>휴대 가능한 문서 하나로 저장</strong><p>이미지를 포함해 오프라인에서 읽거나 온라인 참조를 유지해 파일 크기를 줄일 수 있습니다. 링크된 PDF, Office 파일 및 기타 문서도 HTML과 함께 저장할 수 있습니다.</p></div>
                 <div class="spotlight-item"><strong>선택 가능한 AI용 내보내기</strong><p>출처를 추적할 수 있는 Markdown, JSONL, manifest 및 표 데이터를 분석용으로 생성할 수 있습니다. 페이지 수집 및 HTML 생성은 기기에서 로컬로 실행되며, 페이지 콘텐츠는 당사 서버에 업로드되지 않습니다.</p></div>
               </div>
-              <p class="spotlight-plan">Free에서도 동일한 출력 품질로 사용할 수 있습니다. Free는 실행당 10페이지씩 수집해 실행마다 별도의 HTML로 저장하며, Pro는 사용자가 선택한 안전 한도까지 자동으로 계속합니다.</p>
+              <p class="spotlight-plan">Free에서도 동일한 출력 품질을 제공합니다. Free는 하나의 수집을 유지하며 10페이지마다 계속할지 확인한 뒤 완료 시 HTML 하나를 저장합니다. Pro는 이 확인을 건너뛰고 선택한 안전 한도까지 자동으로 계속합니다.</p>
               <a class="spotlight-link" href="/ko/use-cases/combine-web-pages-into-one-html.html">웹페이지를 하나의 HTML로 합치는 방법 보기 →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>숨겨진 파일 검출</h3><p><strong>708종류(확장자)</strong>의 파일을 지원합니다. iframe 내 PDF, 지연 로딩 이미지, fetch/XHR 응답, blob URL, CMS 다운로드 경로, 39개의 data-* 속성을 감지합니다. Shadow DOM / Web Components 내부, SPA 하이드레이션 데이터(Next.js, JSON-LD), Cache Storage / OPFS / IndexedDB, 서명된 클라우드 스토리지 URL(Cloudflare R2, Firebase, Supabase, Vercel Blob)까지 찾아냅니다.</p></div>
@@ -1282,7 +1282,7 @@
             
             
             
-            <div data-lang="ko" class="active"><ul><li>모든 기능 무료</li><li>다운로드당 최대 20개 파일</li><li>웹페이지 수집: Free는 실행당 10페이지, Pro는 무제한</li><li>평생 라이선스, 구독 없음</li><li>최대 3대 기기</li><li>무료 업데이트</li><li>Stripe 결제, 라이선스 키는 이메일로</li></ul></div>
+            <div data-lang="ko" class="active"><ul><li>모든 기능 무료</li><li>다운로드당 최대 20개 파일</li><li>웹페이지 수집: Free는 10페이지마다 확인, Pro는 중간 확인 없음</li><li>평생 라이선스, 구독 없음</li><li>최대 3대 기기</li><li>무료 업데이트</li><li>Stripe 결제, 라이선스 키는 이메일로</li></ul></div>
             
             
             
@@ -1348,8 +1348,8 @@
         
         <div data-lang="ko" class="active"><div class="faq-list">
           <details><summary>지원하는 파일 형식은 무엇인가요?</summary><p>Grab All Files는 PDF, Word, Excel, PowerPoint, 이미지, ZIP, CSV 등 708종류(확장자)의 파일을 지원합니다. 분할 / 멀티볼륨 아카이브 시퀀스(.000/.001…, WinRAR .r00/.s00, WinZip .z01)도 감지하여 압축 아카이브로 분류합니다. 확장자로 필터링하고 필요한 항목을 선택하여 한 번의 클릭으로 모두 다운로드할 수 있습니다.</p></details>
-          <details><summary>무료로 사용할 수 있나요?</summary><p>네. 모든 기능이 무료입니다. 한 번의 다운로드로 최대 20개 파일을 저장할 수 있으며, 다운로드를 반복하면 나머지도 무료로 저장할 수 있습니다. 웹페이지 수집은 실행당 최대 10페이지를 하나의 HTML로 저장하며, 반복 실행하면 나머지도 수집할 수 있습니다. Pro($19.99 일회성 구매)는 다운로드 제한과 실행당 페이지 제한을 해제합니다.</p></details>
-          <details><summary>여러 웹페이지를 하나의 HTML 파일로 합칠 수 있나요?</summary><p>네. 확장 프로그램을 열고 “페이지를 HTML로 합치기”를 선택하세요. 관련 페이지를 찾은 후 목록을 검토할 수 있으며, 선택한 페이지를 목차가 있는 하나의 검색·인쇄 가능한 HTML 파일로 저장합니다. Free는 실행당 최대 10페이지(실행마다 별도의 HTML), Pro는 제한 없이 수집합니다.</p></details>
+          <details><summary>무료로 사용할 수 있나요?</summary><p>네. 모든 기능이 무료입니다. 한 번의 다운로드로 최대 20개 파일을 저장하고 나머지는 반복할 수 있습니다. 웹페이지 수집은 선택한 모든 페이지를 하나의 수집에 유지하고 10페이지마다 계속할지 확인한 뒤 완료 시 HTML 하나를 저장합니다. Pro($19.99 일회성 구매)는 다운로드 제한을 해제하고 이 중간 확인을 건너뜁니다.</p></details>
+          <details><summary>여러 웹페이지를 하나의 HTML 파일로 합칠 수 있나요?</summary><p>네. 확장 프로그램을 열고 “페이지를 HTML로 합치기”를 선택하세요. 관련 페이지를 찾아 목록을 검토한 뒤 선택한 페이지를 목차가 있는 검색·인쇄 가능한 HTML 하나로 저장합니다. Free는 같은 수집 안에서 10페이지마다 확인하고, Pro는 이 확인을 건너뛰어 선택한 안전 한도까지 계속합니다.</p></details>
           <details><summary>Pro 가격은?</summary><p>$19.99 USD 일회성 결제. 평생 라이선스, 구독 없음. 최대 3대 기기.</p></details>
           <details><summary>브라우저 데이터를 어디로 보내나요?</summary><p>아니요. 파일은 소스 사이트에서 직접 기기로 다운로드됩니다. 라이선스 확인과 소수의 익명 플랜 상호작용 이벤트(무작위 기기 ID, 플랜 상태, 기능 레이블)만 서버에 도달하며, 페이지 콘텐츠·URL·파일 이름은 전송되지 않습니다.</p></details>
           <details><summary>지원 브라우저는?</summary><p>Google Chrome 및 Microsoft Edge (Chromium 111 이상), 그리고 Mozilla Firefox (128 이상).</p></details>
@@ -1374,7 +1374,7 @@
           
           
           
-          <div data-lang="ko" class="active"><h2>파일은 일괄 저장하고, 페이지는 문서 하나로.</h2><p>무료로 모든 기능을 사용하세요. 파일 일괄 저장은 다운로드당 20개, 페이지 수집은 실행당 10페이지입니다. 무료로 반복하거나 Pro에서 두 제한을 모두 해제할 수 있습니다.</p></div>
+          <div data-lang="ko" class="active"><h2>파일은 일괄 저장하고, 페이지는 문서 하나로.</h2><p>무료로 모든 기능을 사용하세요. 파일 일괄 저장은 다운로드당 20개입니다. 페이지 수집은 하나의 수집을 유지하며 10페이지마다 확인하고 완료 시 HTML 하나를 저장합니다. Pro는 이 확인을 건너뜁니다.</p></div>
           
           
           
