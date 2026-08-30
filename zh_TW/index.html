@@ -98,9 +98,9 @@
         "caption": "Web Page Collector: reviewed page candidates, 25 MB AI upload splitting, and combined HTML output"
       }
     ],
-    "softwareVersion": "5.6.8",
+    "softwareVersion": "5.6.10",
     "datePublished": "2025-05-05",
-    "dateModified": "2026-08-26",
+    "dateModified": "2026-08-29",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
     "permissions": "Files are downloaded directly from the source site to the user's device; only license verification reaches the developer's servers.",
     "inLanguage": ["en", "ja", "es", "fr", "de", "it", "ko", "pt-BR", "zh-CN", "zh-TW"],
@@ -116,7 +116,7 @@
       "priceCurrency": "USD",
       "category": "OneTimePayment",
       "availability": "https://schema.org/InStock",
-      "description": "One-time purchase, perpetual license, activates on up to 3 devices. Every feature is free. Free saves 20 files per download and collects web pages 10 per run; Pro removes both limits. / 永続ライセンス（サブスクなし）。最大3台まで有効化。全機能は無料で利用でき、無料プランはファイルを1回20件ずつ保存し、Webページ収集は1回10ページずつ。Proはどちらも上限なしです。",
+      "description": "One-time purchase, perpetual license, activates on up to 3 devices. Every feature is free. Free saves 20 files per download and pauses web-page collection every 10 pages for confirmation; Pro skips those 10-page confirmations. / 永続ライセンス（サブスクなし）。最大3台まで有効化。全機能は無料で利用でき、無料プランはファイルを1回20件ずつ保存し、Webページ収集は10ページごとに続行を確認。Proはプラン上の途中確認を省略します。",
       "url": "https://grab-all-files.app/purchase/"
     },
     "author": {
@@ -167,7 +167,7 @@
         "name": "Is it free to use?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Every feature is free; a single download saves up to 20 files, and you can repeat the download to save the rest at no cost. Web-page collection saves up to 10 pages per run as one HTML file, and you can run it again for the rest. Pro (a one-time $19.99 purchase) removes the download limit and the per-run page limit."
+          "text": "Yes. Every feature is free; a single download saves up to 20 files, and you can repeat the download to save the rest at no cost. Web-page collection keeps all selected pages in one collection, pauses every 10 pages for confirmation, and saves one final HTML when complete. Pro (a one-time $19.99 purchase) removes the download limit and skips those 10-page confirmations."
         }
       },
       {
@@ -215,7 +215,7 @@
         "name": "Can I combine multiple web pages into one HTML file?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Open the extension and choose “Combine pages into HTML.” It finds related pages, lets you review the list, and saves the selected pages as one searchable, printable HTML file with a table of contents. The Free plan collects up to 10 pages per run (each run saves its own HTML); Pro collects automatically up to your chosen safety limit."
+          "text": "Yes. Open the extension and choose “Combine pages into HTML.” It finds related pages, lets you review the list, and saves the selected pages as one searchable, printable HTML file with a table of contents. Free pauses every 10 pages for confirmation within the same collection; Pro skips those 10-page confirmations and continues automatically up to your chosen safety limit."
         }
       },
       {
@@ -1020,7 +1020,7 @@
         
         
         <div data-lang="zh_TW" class="active">
-          <div class="tools-grid"><article class="tool-panel"><span class="tile" aria-hidden="true">📥</span><span class="tool-kicker">工具 1</span><h3>檔案批次下載</h3><p>找出頁面上所有可下載的檔案（708 種），一鍵儲存您選取的檔案。</p><ul class="tool-points"><li>可偵測 iframe、閱讀器、延遲載入、fetch/XHR 與 blob URL 背後的檔案</li><li>合併 PDF、打包 ZIP、匯出 CSV，全部在瀏覽器內完成</li><li>免費方案每次下載儲存 20 個檔案，重複下載即可儲存其餘檔案</li></ul><a class="tool-link" href="/zh_TW/use-cases/download-files-from-webpage.html">查看下載功能 <span class="arrow" aria-hidden="true">&rarr;</span></a></article><article class="tool-panel"><span class="tile" aria-hidden="true">📑</span><span class="tool-kicker">工具 2</span><h3>將頁面合併為一個 HTML</h3><p>從您開啟的頁面出發，尋找相關頁面，並將所選頁面合併為一個附目錄、可搜尋的 HTML 檔案。</p><ul class="tool-points"><li>可自動尋找，也可透過選單、路徑、網站地圖與貼上的 URL 清單精確指定</li><li>開始收集前可在清單中檢視、調整順序或移除頁面</li><li>免費方案每次執行收集 10 個頁面，重複執行即可收集其餘頁面</li></ul><a class="tool-link" href="/zh_TW/use-cases/combine-web-pages-into-one-html.html">查看頁面收集的使用方法 <span class="arrow" aria-hidden="true">&rarr;</span></a></article></div>
+          <div class="tools-grid"><article class="tool-panel"><span class="tile" aria-hidden="true">📥</span><span class="tool-kicker">工具 1</span><h3>檔案批次下載</h3><p>找出頁面上所有可下載的檔案（708 種），一鍵儲存您選取的檔案。</p><ul class="tool-points"><li>可偵測 iframe、閱讀器、延遲載入、fetch/XHR 與 blob URL 背後的檔案</li><li>合併 PDF、打包 ZIP、匯出 CSV，全部在瀏覽器內完成</li><li>免費方案每次下載儲存 20 個檔案，重複下載即可儲存其餘檔案</li></ul><a class="tool-link" href="/zh_TW/use-cases/download-files-from-webpage.html">查看下載功能 <span class="arrow" aria-hidden="true">&rarr;</span></a></article><article class="tool-panel"><span class="tile" aria-hidden="true">📑</span><span class="tool-kicker">工具 2</span><h3>將頁面合併為一個 HTML</h3><p>從您開啟的頁面出發，尋找相關頁面，並將所選頁面合併為一個附目錄、可搜尋的 HTML 檔案。</p><ul class="tool-points"><li>可自動尋找，也可透過選單、路徑、網站地圖與貼上的 URL 清單精確指定</li><li>開始收集前可在清單中檢視、調整順序或移除頁面</li><li>免費方案每 10 頁確認是否繼續，所有頁面保留在同一次收集中</li></ul><a class="tool-link" href="/zh_TW/use-cases/combine-web-pages-into-one-html.html">查看頁面收集的使用方法 <span class="arrow" aria-hidden="true">&rarr;</span></a></article></div>
         </div>
       </div>
     </section>
@@ -1037,8 +1037,8 @@
         
         <div data-lang="zh_TW" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>最新版本</span><strong>5.6.8</strong></div>
-            <div class="latest-copy"><h3>登入牆與檔案連結，都已妥善處理。</h3><p>5.6.8 版在需要登入的頁面前仍能推進收集，並把連結檔案儲存為真正的檔案。</p><ul class="latest-points"><li><strong>登入處理：</strong> 單一登入頁面不再停止探索，略過按整個網站生效，登入提示也更清晰。</li><li><strong>真正的檔案：</strong> GitHub 資料和 DOI 引用連結會儲存為實際檔案，而不是檢視頁面或無法開啟的下載。</li><li><strong>不再狂開分頁：</strong> 被重新導向或重試的檔案不再無止盡地開啟分頁，空下載也不計為已儲存。</li><li><strong>更大的檔案、更清晰的結果：</strong> 單一檔案上限從 32MB 提高到 100MB，完成的HTML將頁面與連結檔案的結果分開顯示。</li></ul></div>
+            <div class="latest-badge"><span>最新版本</span><strong>5.6.10</strong></div>
+            <div class="latest-copy"><h3>登入牆與檔案連結，都已妥善處理。</h3><p>5.6.10 版在需要登入的頁面前仍能推進收集，並把連結檔案儲存為真正的檔案。</p><ul class="latest-points"><li><strong>登入處理：</strong> 單一登入頁面不再停止探索，略過按整個網站生效，登入提示也更清晰。</li><li><strong>真正的檔案：</strong> GitHub 資料和 DOI 引用連結會儲存為實際檔案，而不是檢視頁面或無法開啟的下載。</li><li><strong>不再狂開分頁：</strong> 被重新導向或重試的檔案不再無止盡地開啟分頁，空下載也不計為已儲存。</li><li><strong>更大的檔案、更清晰的結果：</strong> 單一檔案上限從 32MB 提高到 100MB，完成的HTML將頁面與連結檔案的結果分開顯示。</li></ul></div>
           </div>
         </div>
       </div>
@@ -1113,7 +1113,7 @@
                 <div class="spotlight-item"><strong>儲存為單一可攜文件</strong><p>可嵌入圖片以供離線閱讀，也可保留線上參照以縮小檔案。連結的 PDF、Office 檔案及其他文件也可與 HTML 一併儲存。</p></div>
                 <div class="spotlight-item"><strong>按需匯出 AI 適用資料</strong><p>可產生來源可追溯的 Markdown、JSONL、manifest 和表格資料以供分析。頁面收集和 HTML 產生均在您的裝置本機執行；頁面內容不會上傳至我們的伺服器。</p></div>
               </div>
-              <p class="spotlight-plan">Free 方案同樣提供相同的輸出品質。Free 每次執行收集 10 個頁面並儲存為獨立的 HTML；Pro 則會自動收集，直到您選定的安全上限。</p>
+              <p class="spotlight-plan">Free 方案提供相同的輸出品質。Free 在同一次收集中每 10 頁確認是否繼續，完成後儲存一個最終 HTML；Pro 略過這些確認，並自動繼續到您選定的安全上限。</p>
               <a class="spotlight-link" href="/zh_TW/use-cases/combine-web-pages-into-one-html.html">查看如何將多個網頁合併成一個 HTML →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>找出隱藏檔案</h3><p>支援 <strong>708 種檔案類型（副檔名）</strong>。偵測iframe內的PDF、延遲載入圖片、fetch/XHR回應、blob URL、CMS下載路徑及39種data-*屬性。更能深入 Shadow DOM / Web Components、SPA 水合資料（Next.js、JSON-LD）、Cache Storage / OPFS / IndexedDB 以及帶簽章的雲端儲存 URL（Cloudflare R2、Firebase、Supabase、Vercel Blob）。</p></div>
@@ -1285,7 +1285,7 @@
             
             
             
-            <div data-lang="zh_TW" class="active"><ul><li>全部功能免費</li><li>每次下載最多20個檔案</li><li>網頁收集：Free 每次執行 10 頁；Pro 無限制</li><li>永久授權，無訂閱</li><li>最多3台裝置</li><li>免費更新</li><li>Stripe付款，授權金鑰電子郵件寄送</li></ul></div>
+            <div data-lang="zh_TW" class="active"><ul><li>全部功能免費</li><li>每次下載最多20個檔案</li><li>網頁收集：Free 每 10 頁確認一次；Pro 略過這些確認</li><li>永久授權，無訂閱</li><li>最多3台裝置</li><li>免費更新</li><li>Stripe付款，授權金鑰電子郵件寄送</li></ul></div>
             <div class="pricing-cta">
               <div class="hero-stores pricing-stores">
                 <span>
@@ -1351,8 +1351,8 @@
         
         <div data-lang="zh_TW" class="active"><div class="faq-list">
           <details><summary>支援哪些檔案類型？</summary><p>Grab All Files 支援 708 種檔案類型（副檔名），包括 PDF、Word、Excel、PowerPoint、圖片、ZIP 和 CSV。也能偵測分卷 / 多卷壓縮檔序列（.000/.001…、WinRAR .r00/.s00、WinZip .z01）並歸入壓縮檔類別。可依副檔名篩選，選擇所需檔案，一鍵全部下載。</p></details>
-          <details><summary>可以免費使用嗎？</summary><p>可以。所有功能均免費；單次下載最多儲存20個檔案，您可以重複下載以免費儲存其餘檔案。網頁收集每次執行最多儲存 10 個頁面為一個 HTML，重複執行即可收集其餘頁面。Pro（$19.99 一次性購買）可解除下載數量限制與每次執行的頁面限制。</p></details>
-          <details><summary>可以將多個網頁合併成一個 HTML 檔案嗎？</summary><p>可以。開啟擴充功能並選擇「將網頁合併為 HTML」。它會尋找相關頁面，讓您檢視清單，並將所選頁面儲存為一個附有目錄、可搜尋且可列印的 HTML 檔案。Free 每次執行最多收集 10 個頁面（每次執行儲存為獨立的 HTML）；Pro 無限制。</p></details>
+          <details><summary>可以免費使用嗎？</summary><p>可以。所有功能均免費；單次下載最多儲存20個檔案，其餘檔案可重複下載。網頁收集會把所有選定頁面保留在同一次收集中，每 10 頁確認是否繼續，完成後儲存一個最終 HTML。Pro（$19.99 一次性購買）可解除下載數量限制並略過這些確認。</p></details>
+          <details><summary>可以將多個網頁合併成一個 HTML 檔案嗎？</summary><p>可以。開啟擴充功能並選擇「將網頁合併為 HTML」。它會尋找相關頁面，讓您檢視清單，並將所選頁面儲存為一個附有目錄、可搜尋且可列印的 HTML 檔案。Free 在同一次收集中每 10 頁確認一次；Pro 略過這些確認並繼續到您選擇的安全上限。</p></details>
           <details><summary>Pro 費用是多少？</summary><p>$19.99 USD 一次性購買。永久授權，無訂閱。最多3台裝置。</p></details>
           <details><summary>會傳送我的瀏覽資料嗎？</summary><p>不會。檔案直接從來源網站下載到您的裝置。只有授權驗證和少量匿名的方案互動事件（隨機裝置ID、方案狀態和功能標籤）會到達我們的伺服器，絕不包含頁面內容、URL或檔案名稱。</p></details>
           <details><summary>支援哪些瀏覽器？</summary><p>Google Chrome 和 Microsoft Edge（Chromium 111 或更新版本），以及 Mozilla Firefox（128 或更新版本）。</p></details>
@@ -1377,7 +1377,7 @@
           
           
           
-          <div data-lang="zh_TW" class="active"><h2>批次儲存檔案，或將多個頁面整理成一個文件。</h2><p>免費使用全部功能。檔案批次下載每次儲存20個，網頁收集每次合併10頁。可免費重複執行，Pro可同時解除兩項限制。</p></div>
+          <div data-lang="zh_TW" class="active"><h2>批次儲存檔案，或將多個頁面整理成一個文件。</h2><p>免費使用全部功能。檔案批次下載每次儲存20個。網頁收集維持同一次收集，每 10 頁確認一次並在完成後儲存一個最終 HTML；Pro 略過這些確認。</p></div>
           <div class="cta-btns">
             <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">
               <span data-lang="zh_TW" class="active">安裝到 Chrome</span>
