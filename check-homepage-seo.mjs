@@ -111,7 +111,7 @@ for (const locale of locales) {
   assert(app?.hasPart?.length === 2, `${locale.file}: SoftwareApplication must describe two core tools in hasPart`);
   assert(app?.hasPart?.some((part) => part.name === 'Bulk File Download'), `${locale.file}: structured data is missing Bulk File Download`);
   assert(app?.hasPart?.some((part) => part.name === 'Web Page Collector'), `${locale.file}: structured data is missing Web Page Collector`);
-  assert(app?.softwareVersion === '5.7.3', `${locale.file}: SoftwareApplication version must be 5.7.3`);
+  assert(app?.softwareVersion === '5.7.4', `${locale.file}: SoftwareApplication version must be 5.7.4`);
   assert(app?.author?.name === 'Tetsunobu Kawai', `${locale.file}: SoftwareApplication author must identify the Developer, Tetsunobu Kawai`);
   assert(Array.isArray(app?.screenshot) && app.screenshot.length === 2, `${locale.file}: SoftwareApplication must expose screenshots for both core tools`);
   assert(app?.screenshot?.some((shot) => shot.url?.endsWith('/shot-en.jpg') && shot.caption?.includes('Bulk File Download')), `${locale.file}: structured data is missing the Bulk File Download screenshot`);
@@ -147,7 +147,7 @@ for (const required of [
   'download-files-from-webpage.html',
   'combine-web-pages-into-one-html.html',
   'default is 25 MB',
-  'Current version: 5.7.3',
+  'Current version: 5.7.4',
   'keeps exactly one page selected',
   'combines multiple selected readable page bodies',
   'Tetsunobu Kawai is the independent Developer and Data Controller',
