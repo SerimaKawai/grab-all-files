@@ -70,7 +70,7 @@
     <div class="section-stack">
       <div class="two-col">
         <section class="section-card"><h2><a href="/ja/use-cases/combine-web-pages-into-one-html.html">ページをHTMLにまとめる</a></h2><p>無料版は関連候補を探して選んだ1ページをHTML保存。Proは複数ページ本文を共通目次付きで検索・印刷できる1つのHTMLに結合します。処理は端末内で完結します。</p></section>
-        <section class="section-card"><h2><a href="/ja/use-cases/download-all-pdfs.html">PDFを一括ダウンロード</a></h2><p>iframeビューアやCMSダウンロードルートを含め、ページ内・同一サイト内のPDFを検出。一括保存またはローカル結合できます。</p></section>
+        <section class="section-card"><h2><a href="/ja/use-cases/download-all-pdfs.html">PDFを一括ダウンロード</a></h2><p>Chrome・Edge・FirefoxでWebサイトのPDFを一括ダウンロード。起点ページのフォルダ配下を巡回し、PDFだけに絞って無料で1回20件まで保存。ZIP保存やローカルPDF結合にも対応。</p></section>
         <section class="section-card"><h2><a href="/ja/use-cases/bulk-download-images.html">画像を一括ダウンロード</a></h2><p>表示画像、遅延読み込み、背景画像、blob画像を検出し、選択画像を一括保存またはURLをCSV出力できます。</p></section>
         <section class="section-card"><h2><a href="/ja/use-cases/download-files-from-webpage.html">ページ上のファイルを保存</a></h2><p>文書、画像、ZIP、CSV、隠れたファイルレスポンスを検出。絞り込み、一括保存、ZIP化、PDF結合、CSV出力に対応。</p></section>
         <section class="section-card"><h2><a href="/ja/use-cases/internal-portal-downloads.html">社内ポータル・LMS</a></h2><p>既存のブラウザログイン状態を使い、イントラネット、LMS、会員ページ、資料の多いダッシュボードから許可されたファイルを収集します。</p></section>
@@ -86,6 +86,6 @@
     </div>
   </footer>
   <script>(function(){var b=document.getElementById('theme-toggle');if(!b)return;b.addEventListener('click',function(){var d=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',d);try{localStorage.setItem('gaf-theme',d)}catch(_){}});})();</script>
-<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/";s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>
+<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/";var q=new URLSearchParams(location.search||'');var requested=q.get('lang');if(["en","ja","es","fr","de","it","ko","pt_BR","zh_CN","zh_TW"].indexOf(requested)>=0){q.delete('lang');var destination=(requested==='en'?'/':'/'+requested+'/')+R;var query=q.toString();if(destination!==location.pathname){location.replace(destination+(query?'?'+query:'')+location.hash);return;}}s.addEventListener('change',function(e){e.stopImmediatePropagation();var c=e.target.value;try{localStorage.setItem('gaf-lang',c);}catch(_){}location.href=(c==='en'?'/':'/'+c+'/')+R+location.hash;},true);})();</script>
 </body>
 </html>

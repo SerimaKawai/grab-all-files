@@ -218,7 +218,7 @@ function bakeSecurity(html, data, L) {
 // unconditional and keeps the build idempotent.
 const LANG_NAV_RE = /\n?<script>\(function\(\)\{var s=document\.getElementById\('lang-sel'\);[\s\S]*?<\/script>/g;
 const FORCE_LANG_RE = /\n?[ \t]*<script>window\.__FORCE_LANG__="[^"]+";<\/script>/g;
-const localeNavScript = (rel) => `<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R=${JSON.stringify(rel)};s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>`;
+const localeNavScript = (rel) => `<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R=${JSON.stringify(rel)};var q=new URLSearchParams(location.search||'');var requested=q.get('lang');if(${JSON.stringify(ALL)}.indexOf(requested)>=0){q.delete('lang');var destination=(requested==='en'?'/':'/'+requested+'/')+R;var query=q.toString();if(destination!==location.pathname){location.replace(destination+(query?'?'+query:'')+location.hash);return;}}s.addEventListener('change',function(e){e.stopImmediatePropagation();var c=e.target.value;try{localStorage.setItem('gaf-lang',c);}catch(_){}location.href=(c==='en'?'/':'/'+c+'/')+R+location.hash;},true);})();</script>`;
 
 function bakeHub(html, lang, tables, cases) {
   const ui = tables.UI[lang] || tables.UI.en;
@@ -496,7 +496,7 @@ for (const page of PAGES) {
   // English case/security URLs are self-canonical English pages. Keep their
   // rendered language fixed and navigate the selector to the matching locale
   // URL, instead of swapping only the body while leaving English SEO metadata.
-  if (caseId || page.src === SEC_SRC) {
+  if (caseId || page.src === SEC_SRC || page.rel === '') {
     en = en.replace(/<head>/, () => '<head>\n  <script>window.__FORCE_LANG__="en";</script>');
     en = en.replace(/<\/body>/, () => localeNavScript(page.rel) + '\n</body>');
   }
