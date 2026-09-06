@@ -69,7 +69,7 @@
     <div class="section-stack">
       <div class="two-col">
         <section class="section-card"><h2><a href="/use-cases/combine-web-pages-into-one-html.html">Combine pages into HTML</a></h2><p>Free finds related candidates and saves one chosen page as HTML. Pro combines multiple selected page bodies into one searchable, printable HTML with a shared table of contents.</p></section>
-        <section class="section-card"><h2><a href="/use-cases/download-all-pdfs.html">Download all PDFs</a></h2><p>Find PDFs across a page or same-site crawl, including iframe viewers and CMS download routes. Bulk-download selected PDFs or merge them locally.</p></section>
+        <section class="section-card"><h2><a href="/use-cases/download-all-pdfs.html">Download all PDFs</a></h2><p>Download linked PDFs from a page or its folder on Chrome, Edge or Firefox. Filter results, save up to 20 files per run for free, or merge PDFs locally.</p></section>
         <section class="section-card"><h2><a href="/use-cases/bulk-download-images.html">Bulk-download images</a></h2><p>Detect visible, lazy-loaded, background, and blob images, then save selected image files in bulk or export their URLs.</p></section>
         <section class="section-card"><h2><a href="/use-cases/download-files-from-webpage.html">Download files from a page</a></h2><p>Find documents, images, ZIPs, CSVs, and hidden file responses on a page. Filter, select, bulk-download, ZIP, merge PDFs, or export CSV.</p></section>
         <section class="section-card"><h2><a href="/use-cases/internal-portal-downloads.html">Internal portals &amp; LMS</a></h2><p>Use your existing browser session to collect authorized files from intranets, LMS portals, member areas, and document-heavy dashboards.</p></section>
@@ -85,6 +85,6 @@
     </div>
   </footer>
   <script>(function(){var b=document.getElementById('theme-toggle');if(!b)return;b.addEventListener('click',function(){var d=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',d);try{localStorage.setItem('gaf-theme',d)}catch(_){}});})();</script>
-<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/";s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>
+<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/";var q=new URLSearchParams(location.search||'');var requested=q.get('lang');if(["en","ja","es","fr","de","it","ko","pt_BR","zh_CN","zh_TW"].indexOf(requested)>=0){q.delete('lang');var destination=(requested==='en'?'/':'/'+requested+'/')+R;var query=q.toString();if(destination!==location.pathname){location.replace(destination+(query?'?'+query:'')+location.hash);return;}}s.addEventListener('change',function(e){e.stopImmediatePropagation();var c=e.target.value;try{localStorage.setItem('gaf-lang',c);}catch(_){}location.href=(c==='en'?'/':'/'+c+'/')+R+location.hash;},true);})();</script>
 </body>
 </html>

@@ -47,6 +47,6 @@
   </main>
   <footer><div class="footer-line"><p data-ui="footer">Serima Kawai 的独立浏览器扩展程序。与 Google、Microsoft 或 Mozilla 无关联。</p><div class="footer-links"><a href="/zh_CN/" data-lang-href="home" data-ui="home">首页</a><a href="/purchase/" data-lang-href="purchase" data-ui="purchase">购买</a><a href="/zh_CN/security.html" data-lang-href="security" data-ui="security">安全</a></div></div></footer>
   <script defer src="/use-cases/use-case.js"></script>
-<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/merge-pdfs-locally.html";s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>
+<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/merge-pdfs-locally.html";var q=new URLSearchParams(location.search||'');var requested=q.get('lang');if(["en","ja","es","fr","de","it","ko","pt_BR","zh_CN","zh_TW"].indexOf(requested)>=0){q.delete('lang');var destination=(requested==='en'?'/':'/'+requested+'/')+R;var query=q.toString();if(destination!==location.pathname){location.replace(destination+(query?'?'+query:'')+location.hash);return;}}s.addEventListener('change',function(e){e.stopImmediatePropagation();var c=e.target.value;try{localStorage.setItem('gaf-lang',c);}catch(_){}location.href=(c==='en'?'/':'/'+c+'/')+R+location.hash;},true);})();</script>
 </body>
 </html>

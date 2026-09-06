@@ -579,23 +579,23 @@
       copy: {
         en: c(
           "Download all PDFs from a website | Grab All Files",
-          "Find PDFs across a page or same-site crawl, including iframe viewers and CMS download routes. Bulk-download selected PDFs or merge them locally.",
+          "Download linked PDFs from a page or its folder on Chrome, Edge or Firefox. Filter results, save up to 20 files per run for free, or merge PDFs locally.",
           "PDF collection",
           "Download all PDFs from a website without opening each file.",
           "Grab All Files finds PDFs exposed as normal links, embedded viewers, iframe sources, lazy-loaded assets, fetch/XHR responses, and CMS download routes. Filter to PDF, select what you need, then download or merge locally in your browser.",
           ["Public reports, forms, and disclosures spread across multiple pages.", "Course materials, papers, and research PDFs on faculty sites.", "PDF viewer pages where the direct file URL is hidden.", "Same-site crawls that need sitemap.xml and JavaScript-menu coverage."],
-          ["Open the page or paste the starting URL, then choose a same-site crawl depth.", "Filter the detected results to PDF and review title, source page, size, and URL.", "Download selected PDFs, build a ZIP, or merge them into one local PDF."],
-          [{ q: "Can it find PDFs inside viewers or iframes?", a: "Yes. It checks iframe sources, viewer URLs, fetch/XHR responses, blob URLs, and common CMS routes where the direct PDF link is not visible." }, { q: "Can it crawl more than one page?", a: "Yes. Choose a same-site depth from the popup. The extension can also read sitemap.xml and robots.txt and follow JavaScript-menu links." }, { q: "Are PDFs uploaded for merging?", a: "No. PDF merge runs locally in your browser." }]
+          ["Open the starting page and choose the link depth. Linked pages are scanned within the starting page’s folder; depth 0 checks only that page.", "Filter the detected results to PDF and review title, source page, size, and URL.", "Download selected PDFs, build a ZIP, or merge them into one local PDF."],
+          [{ q: "Can it find PDFs inside viewers or iframes?", a: "Yes. It checks iframe sources, viewer URLs, fetch/XHR responses, blob URLs, and common CMS routes where the direct PDF link is not visible." }, { q: "Can it crawl more than one page?", a: "Yes. Increase the link depth to scan linked pages within the starting page’s folder. For example, /~name/course.html stays within /~name/. Pages outside that folder are not crawled." }, { q: "Are PDFs uploaded for merging?", a: "No. PDF merge runs locally in your browser." }, { q: "Can I download PDFs for free?", a: "Yes. Free saves up to 20 selected files per run. Pro removes that file-count limit. ZIP, local PDF merge and file-information CSV export are available in Free." }, { q: "Does it guarantee every PDF will be saved?", a: "No. Results depend on the links found, scan depth, site access and browser support. Review failed downloads, retry them or export the failed URLs with their reasons. The extension does not bypass login or site restrictions." }]
         ),
         ja: c(
           "Webサイト上のPDFを一括ダウンロード | Grab All Files",
-          "iframeビューアやCMSダウンロードルートを含め、ページ内・同一サイト内のPDFを検出。一括保存またはローカル結合できます。",
+          "Chrome・Edge・FirefoxでWebサイトのPDFを一括ダウンロード。起点ページのフォルダ配下を巡回し、PDFだけに絞って無料で1回20件まで保存。ZIP保存やローカルPDF結合にも対応。",
           "PDF収集",
           "Webサイト上のPDFを、1つずつ開かずに一括ダウンロード。",
           "通常リンク、埋め込みPDFビューア、iframe、遅延読み込み、fetch/XHRレスポンス、CMSのダウンロードルートにあるPDFを検出します。PDFで絞り込み、必要なものだけ選び、保存またはブラウザ内で結合できます。",
           ["複数ページに分散した公開報告書、申請書、開示資料。", "大学・研究機関の講義資料、論文、配布PDF。", "直接URLが見えないPDFビューアページ。", "sitemap.xmlやJavaScriptメニューも追いたい同一サイト内クロール。"],
-          ["対象ページを開く、または開始URLを貼り付けてクロール深度を選ぶ。", "検出結果をPDFで絞り込み、タイトル、元ページ、サイズ、URLを確認。", "選択PDFを一括保存、ZIP化、またはローカルで1つのPDFに結合。"],
-          [{ q: "PDFビューアやiframe内のPDFも見つかりますか？", a: "はい。iframe、ビューアURL、fetch/XHRレスポンス、blob URL、CMSルートなど直接リンクが見えにくい場所も確認します。" }, { q: "複数ページをクロールできますか？", a: "はい。同一サイト内の深度を選べます。sitemap.xml、robots.txt、JavaScriptメニューのリンクにも対応します。" }, { q: "PDF結合でファイルはアップロードされますか？", a: "いいえ。PDF結合はブラウザ内でローカル処理されます。" }]
+          ["起点ページを開き、リンクをたどる深さを選びます。深さ0はそのページのみ、1以上は起点ページのフォルダ配下を巡回します。", "検出結果をPDFで絞り込み、タイトル、元ページ、サイズ、URLを確認。", "選択PDFを一括保存、ZIP化、またはローカルで1つのPDFに結合。"],
+          [{ q: "PDFビューアやiframe内のPDFも見つかりますか？", a: "はい。iframe、ビューアURL、fetch/XHRレスポンス、blob URL、CMSルートなど直接リンクが見えにくい場所も確認します。" }, { q: "複数ページをクロールできますか？", a: "はい。深さを上げると、起点ページのフォルダ配下にあるリンク先を巡回します。例えば /~name/course.html が起点なら /~name/ 配下が対象で、大学のサイト全体には広がりません。" }, { q: "PDF結合でファイルはアップロードされますか？", a: "いいえ。PDF結合はブラウザ内でローカル処理されます。" }, { q: "PDFを無料で一括ダウンロードできますか？", a: "はい。無料版は1回20件まで選択して保存できます。Proではこの件数上限がなくなります。ZIP保存、ローカルPDF結合、ファイル情報CSV出力も無料版で利用できます。" }, { q: "サイト内のすべてのPDFを必ず保存できますか？", a: "保証はできません。見つかったリンク、巡回の深さ、サイトへのアクセス権限、ブラウザーの対応状況によって結果が変わります。失敗したダウンロードは再試行するか、原因付きの失敗URL一覧をCSV出力して確認できます。ログインやサイトの制限を回避する機能ではありません。" }]
         ),
         es: c(
           "Descargar todos los PDF de un sitio web | Grab All Files",
@@ -798,7 +798,10 @@
       var parts = path.split("#");
       return withLang(parts[0], lang) + "#" + parts.slice(1).join("#");
     }
-    return path + (path.indexOf("?") >= 0 ? "&" : "?") + "lang=" + encodeURIComponent(lang);
+    // Indexed guides already live at a dedicated language URL. Keep links
+    // canonical; only the shared checkout still needs its language parameter.
+    if (path === "/purchase/") return path + "?lang=" + encodeURIComponent(lang);
+    return path;
   }
 
   function setMeta(selector, attr, value) {

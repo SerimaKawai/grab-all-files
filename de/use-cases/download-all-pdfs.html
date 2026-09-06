@@ -69,6 +69,6 @@
     </div>
   </footer>
   <script defer src="/use-cases/use-case.js"></script>
-<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/download-all-pdfs.html";s.addEventListener('change',function(e){var c=e.target.value;location.href=(c==='en'?'/':'/'+c+'/')+R;},true);})();</script>
+<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="use-cases/download-all-pdfs.html";var q=new URLSearchParams(location.search||'');var requested=q.get('lang');if(["en","ja","es","fr","de","it","ko","pt_BR","zh_CN","zh_TW"].indexOf(requested)>=0){q.delete('lang');var destination=(requested==='en'?'/':'/'+requested+'/')+R;var query=q.toString();if(destination!==location.pathname){location.replace(destination+(query?'?'+query:'')+location.hash);return;}}s.addEventListener('change',function(e){e.stopImmediatePropagation();var c=e.target.value;try{localStorage.setItem('gaf-lang',c);}catch(_){}location.href=(c==='en'?'/':'/'+c+'/')+R+location.hash;},true);})();</script>
 </body>
 </html>
