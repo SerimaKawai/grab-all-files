@@ -194,6 +194,7 @@
         <tr><td>Window size</td><td>Local</td><td>Remember the popup window dimensions.</td></tr>
         <tr><td>UI preferences (selected file types, custom extension list, organize/concurrency choices, theme, onboarding/category-picker completion flags)</td><td>Local</td><td>Remember the choices you have made in the Extension UI between sessions.</td></tr>
         <tr><td>Network file records (file URLs, types, sizes detected via network monitoring)</td><td>Session</td><td>Detect downloadable files loaded via JavaScript, XHR, or fetch requests that are not visible in page HTML. Automatically cleared when the tab is closed or the browser session ends.</td></tr>
+        <tr><td>Active Capture records (source and final download URLs, referring page URL, saved file names, MIME types, browser download ID and status, and the capture target host)</td><td>Session</td><td>Match files downloaded during an explicit Active Capture run so they can be renamed or zipped. Up to 500 records; automatically cleared when the browser session ends.</td></tr>
 
       </table>
       <p>You can clear recent scan history from within the Extension UI. Network file records can be cleared by clicking the "Reset" button in the results panel or by closing the tab. Deleting a Web Page Collector job removes that job's metadata and saved page bodies; reusable imported profiles are managed separately. Uninstalling the Extension removes its local storage. Session data is automatically cleared when the browser session ends.</p>
@@ -349,6 +350,7 @@
         <tr><td>ウィンドウサイズ</td><td>Local</td><td>ポップアップウィンドウのサイズを記憶するため。</td></tr>
         <tr><td>UI設定（選択中のファイル種別、カスタム拡張子リスト、フォルダ整理／同時DL数の選択、テーマ、オンボーディング・カテゴリピッカーの完了フラグ）</td><td>Local</td><td>拡張機能UIで選択した内容をセッション間で記憶するため。</td></tr>
         <tr><td>ネットワークファイル記録（ネットワーク監視で検出したファイルのURL、種別、サイズ）</td><td>Session</td><td>ページHTMLに含まれないJavaScript、XHR、fetch経由でロードされるダウンロード可能ファイルを検出するため。タブを閉じた時またはブラウザセッション終了時に自動消去。</td></tr>
+        <tr><td>アクティブキャプチャの記録（取得元URL・最終URL・参照元ページURL、保存されたファイル名、MIME種別、ブラウザーのダウンロードIDと状態、キャプチャ対象ホスト）</td><td>Session</td><td>明示的なアクティブキャプチャ中にページがダウンロードしたファイルを照合し、リネームやZIP化に使うため。最大500件。ブラウザセッション終了時に自動消去。</td></tr>
 
       </table>
       <p>最近のスキャン履歴は拡張機能UIから消去できます。ネットワークファイル記録は結果パネルの「Reset」ボタンをクリックするか、タブを閉じることで消去できます。Webページ結合ジョブを削除すると、そのジョブのメタデータと保存済み本文が削除されます。再利用可能なインポート済みプロファイルは別に管理します。拡張機能をアンインストールすると、ブラウザ管理下のローカル保存データは削除されます。Session データはブラウザセッション終了時に自動消去されます。</p>
@@ -504,6 +506,7 @@
         <tr><td>Fenstergröße</td><td>Local</td><td>Die Abmessungen des Popup-Fensters merken.</td></tr>
         <tr><td>UI-Einstellungen (ausgewählte Dateitypen, benutzerdefinierte Erweiterungsliste, Optionen für Organisation/Parallelität, Theme, Abschluss-Flags für Onboarding/Kategorieauswahl)</td><td>Local</td><td>Die in der Benutzeroberfläche der Erweiterung getroffenen Einstellungen sitzungsübergreifend merken.</td></tr>
         <tr><td>Netzwerkdateieinträge (über Netzwerküberwachung erkannte Datei-URLs, -typen, -größen)</td><td>Session</td><td>Herunterladbare Dateien erkennen, die per JavaScript, XHR oder Fetch geladen werden und nicht im Seiten-HTML sichtbar sind. Werden beim Schließen des Tabs oder am Ende der Browsersitzung automatisch gelöscht.</td></tr>
+        <tr><td>Active-Capture-Einträge (Quell- und finale Download-URLs, URL der verweisenden Seite, gespeicherte Dateinamen, MIME-Typen, Browser-Download-ID und Status sowie der Ziel-Host der Erfassung)</td><td>Session</td><td>Zuordnen der Dateien einer ausdrücklich gestarteten Active Capture zum Umbenennen oder ZIP-Erstellen. Bis zu 500 Einträge; werden am Ende der Browsersitzung automatisch gelöscht.</td></tr>
 
       </table>
       <p>Sie können die Scan-Historie aus der Benutzeroberfläche der Erweiterung heraus löschen. Netzwerkdateieinträge können durch Klicken auf die Schaltfläche „Reset" im Ergebnisbereich oder durch Schließen des Tabs gelöscht werden. Beim Löschen eines Web-Page-Collector-Auftrags werden dessen Metadaten und gespeicherte Seiteninhalte entfernt; wiederverwendbare importierte Profile werden separat verwaltet. Bei der Deinstallation der Erweiterung wird ihr lokaler Speicher entfernt. Sitzungsdaten werden am Ende der Browsersitzung automatisch gelöscht.</p>
@@ -656,6 +659,7 @@
         <tr><td>Tamaño de la ventana</td><td>Local</td><td>Recordar las dimensiones de la ventana emergente.</td></tr>
         <tr><td>Preferencias de la interfaz (tipos de archivo seleccionados, lista de extensiones personalizadas, opciones de organización/concurrencia, tema, indicadores de finalización del onboarding/selector de categorías)</td><td>Local</td><td>Recordar entre sesiones las elecciones que usted ha realizado en la interfaz de la Extensión.</td></tr>
         <tr><td>Registros de archivos de red (URL, tipos y tamaños de archivos detectados mediante monitorización de red)</td><td>Session</td><td>Detectar archivos descargables cargados mediante JavaScript, XHR o solicitudes fetch que no son visibles en el HTML de la página. Se borran automáticamente al cerrar la pestaña o al finalizar la sesión del navegador.</td></tr>
+        <tr><td>Registros de Active Capture (URL de origen y de descarga final, URL de la página de referencia, nombres de archivo guardados, tipos MIME, ID y estado de descarga del navegador y host objetivo de la captura)</td><td>Session</td><td>Asociar los archivos descargados durante una ejecución explícita de Active Capture para renombrarlos o comprimirlos en ZIP. Hasta 500 registros; se borran al finalizar la sesión del navegador.</td></tr>
 
       </table>
       <p>Puede borrar el historial reciente de escaneos desde la interfaz de la Extensión. Los registros de archivos de red pueden borrarse pulsando el botón «Reset» en el panel de resultados o cerrando la pestaña. Al borrar un trabajo del Web Page Collector se eliminan sus metadatos y contenidos de página guardados; los perfiles importados reutilizables se administran por separado. Al desinstalar la Extensión se elimina su almacenamiento local. Los datos de sesión se borran automáticamente al finalizar la sesión del navegador.</p>
@@ -808,6 +812,7 @@
         <tr><td>Taille de la fenêtre</td><td>Local</td><td>Mémoriser les dimensions de la fenêtre contextuelle.</td></tr>
         <tr><td>Préférences d'interface (types de fichiers sélectionnés, liste d'extensions personnalisées, choix d'organisation/de concurrence, thème, indicateurs d'achèvement de l'intégration/du sélecteur de catégories)</td><td>Local</td><td>Mémoriser les choix que vous avez effectués dans l'interface de l'Extension d'une session à l'autre.</td></tr>
         <tr><td>Enregistrements de fichiers réseau (URL, types et tailles de fichiers détectés via la surveillance du réseau)</td><td>Session</td><td>Détecter les fichiers téléchargeables chargés via JavaScript, XHR ou des requêtes fetch qui ne sont pas visibles dans le HTML de la page. Effacés automatiquement à la fermeture de l'onglet ou à la fin de la session du navigateur.</td></tr>
+        <tr><td>Enregistrements Active Capture (URL source et URL finale de téléchargement, URL de la page référente, noms de fichiers enregistrés, types MIME, identifiant et état du téléchargement du navigateur et hôte cible de la capture)</td><td>Session</td><td>Associer les fichiers téléchargés pendant une exécution explicite d’Active Capture pour les renommer ou les compresser en ZIP. Jusqu’à 500 enregistrements ; effacés à la fin de la session du navigateur.</td></tr>
 
       </table>
       <p>Vous pouvez effacer l'historique récent des analyses depuis l'interface de l'Extension. Les enregistrements de fichiers réseau peuvent être effacés en cliquant sur le bouton « Reset » dans le panneau des résultats ou en fermant l'onglet. La suppression d'une tâche du Web Page Collector efface ses métadonnées et contenus de page enregistrés ; les profils importés réutilisables sont gérés séparément. La désinstallation de l'Extension supprime son stockage local. Les données de session sont effacées automatiquement à la fin de la session du navigateur.</p>
@@ -957,6 +962,7 @@
         <tr><td>Dimensioni della finestra</td><td>Local</td><td>Memorizzare le dimensioni della finestra del popup.</td></tr>
         <tr><td>Preferenze dell'interfaccia (tipi di file selezionati, elenco personalizzato di estensioni, scelte di organizzazione/concorrenza, tema, indicatori di completamento dell'onboarding/del selettore di categorie)</td><td>Local</td><td>Memorizzare tra una sessione e l'altra le scelte effettuate nell'interfaccia dell'Estensione.</td></tr>
         <tr><td>Record dei file di rete (URL, tipi e dimensioni dei file rilevati tramite il monitoraggio della rete)</td><td>Session</td><td>Rilevare file scaricabili caricati tramite JavaScript, XHR o richieste fetch e non visibili nell'HTML della pagina. Cancellati automaticamente alla chiusura della scheda o al termine della sessione del browser.</td></tr>
+        <tr><td>Record di Active Capture (URL di origine e URL finale del download, URL della pagina di provenienza, nomi dei file salvati, tipi MIME, ID e stato del download del browser e host di destinazione della cattura)</td><td>Session</td><td>Abbinare i file scaricati durante un’esecuzione esplicita di Active Capture per rinominarli o comprimerli in ZIP. Fino a 500 record; cancellati al termine della sessione del browser.</td></tr>
 
       </table>
       <p>È possibile cancellare la cronologia recente delle scansioni dall'interfaccia dell'Estensione. I record dei file di rete possono essere cancellati premendo il pulsante «Reset» nel pannello dei risultati o chiudendo la scheda. Eliminando un processo del Web Page Collector si rimuovono metadati e contenuti di pagina salvati del processo; i profili importati riutilizzabili sono gestiti separatamente. La disinstallazione dell'Estensione rimuove il relativo storage locale. I dati di sessione vengono cancellati automaticamente al termine della sessione del browser.</p>
@@ -1108,6 +1114,7 @@
         <tr><td>창 크기</td><td>Local</td><td>팝업 창의 크기를 기억하기 위함.</td></tr>
         <tr><td>UI 환경설정(선택된 파일 형식, 사용자 정의 확장자 목록, 정리/동시성 선택 사항, 테마, 온보딩/카테고리 선택기 완료 플래그)</td><td>Local</td><td>본 확장 프로그램 UI에서 한 선택 사항을 세션 간에 기억하기 위함.</td></tr>
         <tr><td>네트워크 파일 기록(네트워크 모니터링을 통해 검출된 파일 URL, 형식, 크기)</td><td>Session</td><td>페이지 HTML에 표시되지 않는 JavaScript, XHR 또는 fetch 요청을 통해 로드되는 다운로드 가능 파일을 검출하기 위함. 탭이 닫히거나 브라우저 세션이 종료되면 자동 삭제됨.</td></tr>
+        <tr><td>액티브 캡처 기록(원본 및 최종 다운로드 URL, 참조 페이지 URL, 저장된 파일명, MIME 형식, 브라우저 다운로드 ID와 상태, 캡처 대상 호스트)</td><td>Session</td><td>명시적으로 실행한 액티브 캡처 중 다운로드한 파일을 대조하여 이름 변경이나 ZIP 생성에 사용합니다. 최대 500건이며 브라우저 세션 종료 시 자동 삭제됩니다.</td></tr>
 
       </table>
       <p>최근 스캔 이력은 본 확장 프로그램 UI 내에서 삭제할 수 있습니다. 네트워크 파일 기록은 결과 패널에서 "Reset" 버튼을 클릭하거나 탭을 닫음으로써 삭제할 수 있습니다. Web Page Collector 작업을 삭제하면 해당 작업의 메타데이터와 저장된 페이지 본문이 삭제되며, 재사용 가능한 가져온 프로필은 별도로 관리됩니다. 본 확장 프로그램을 제거하면 그 로컬 스토리지가 삭제됩니다. 세션 데이터는 브라우저 세션이 종료되면 자동으로 삭제됩니다.</p>
@@ -1260,6 +1267,7 @@
         <tr><td>Tamanho da janela</td><td>Local</td><td>Lembrar as dimensões da janela do popup.</td></tr>
         <tr><td>Preferências de UI (tipos de arquivo selecionados, lista de extensões personalizadas, escolhas de organização/concorrência, tema, sinalizadores de conclusão de onboarding/seletor de categorias)</td><td>Local</td><td>Lembrar as escolhas que você fez na interface da Extensão entre sessões.</td></tr>
         <tr><td>Registros de arquivos de rede (URLs, tipos e tamanhos de arquivos detectados via monitoramento de rede)</td><td>Session</td><td>Detectar arquivos baixáveis carregados via JavaScript, XHR ou fetch que não estão visíveis no HTML da página. Apagados automaticamente quando a aba é fechada ou quando a sessão do navegador é encerrada.</td></tr>
+        <tr><td>Registros do Active Capture (URLs de origem e de download final, URL da página de referência, nomes de arquivos salvos, tipos MIME, ID e estado do download no navegador e host alvo da captura)</td><td>Session</td><td>Associar os arquivos baixados durante uma execução explícita do Active Capture para renomear ou compactar em ZIP. Até 500 registros; apagados quando a sessão do navegador termina.</td></tr>
 
       </table>
       <p>Você pode limpar o histórico recente de varreduras pela interface da Extensão. Os registros de arquivos de rede podem ser limpos clicando no botão "Reset" no painel de resultados ou fechando a aba. Excluir um trabalho do Web Page Collector remove seus metadados e conteúdos de página salvos; perfis importados reutilizáveis são gerenciados separadamente. Desinstalar a Extensão remove seu armazenamento local. Os dados de sessão são apagados automaticamente quando a sessão do navegador é encerrada.</p>
@@ -1412,6 +1420,7 @@
   <tr><td>窗口大小</td><td>Local</td><td>记忆弹出窗口的尺寸。</td></tr>
   <tr><td>界面偏好设置（所选文件类型、自定义扩展名列表、整理／并发选择、主题、引导／类别选择器完成标志）</td><td>Local</td><td>跨会话记忆您在本扩展程序界面中所做的选择。</td></tr>
   <tr><td>网络文件记录（通过网络监控所检测到的文件 URL、类型、大小）</td><td>Session</td><td>检测通过 JavaScript、XHR 或 fetch 请求加载的、不在页面 HTML 中可见的可下载文件。在标签页关闭或浏览器会话结束时自动清除。</td></tr>
+  <tr><td>Active Capture 记录（来源 URL 与最终下载 URL、引用页面 URL、已保存的文件名、MIME 类型、浏览器下载 ID 和状态及捕获目标主机）</td><td>Session</td><td>比对在您明确执行 Active Capture 期间页面下载的文件，以便重命名或打包为 ZIP。最多 500 条；在浏览器会话结束时自动清除。</td></tr>
 
 </table>
 <p>您可在本扩展程序界面中清除近期扫描历史。网络文件记录可通过点击结果面板中的"Reset"按钮或关闭标签页来清除。删除 Web Page Collector 任务会移除该任务的元数据和已保存页面内容；可复用的导入配置文件另行管理。卸载本扩展程序将移除其本地存储。会话数据将在浏览器会话结束时自动清除。</p>
@@ -1564,6 +1573,7 @@
   <tr><td>視窗大小</td><td>Local</td><td>記憶彈出視窗之尺寸。</td></tr>
   <tr><td>介面偏好設定（已選之檔案類型、自訂副檔名清單、整理／並行下載選項、佈景主題、引導／類別選擇器之完成旗標）</td><td>Local</td><td>跨工作階段記憶您於本擴充功能介面中所做之選擇。</td></tr>
   <tr><td>網路檔案紀錄（透過網路監控所偵測到之檔案 URL、類型、大小）</td><td>Session</td><td>偵測透過 JavaScript、XHR 或 fetch 請求載入之、不存在於頁面 HTML 中之可下載檔案。於關閉分頁或瀏覽器工作階段結束時自動清除。</td></tr>
+  <tr><td>Active Capture 紀錄（來源 URL 與最終下載 URL、參照頁面 URL、已儲存之檔案名稱、MIME 類型、瀏覽器下載 ID 與狀態及擷取目標主機）</td><td>Session</td><td>比對您明確執行 Active Capture 期間頁面下載的檔案，以便重新命名或封裝為 ZIP。最多 500 筆；於瀏覽器工作階段結束時自動清除。</td></tr>
 
 </table>
 <p>您可於本擴充功能介面內清除近期掃描紀錄。網路檔案紀錄可透過點擊結果面板中之「Reset」按鈕或關閉分頁加以清除。刪除 Web Page Collector 工作會移除該工作之中繼資料與已儲存頁面內容；可重複使用的匯入設定檔另行管理。解除安裝本擴充功能將移除其本地儲存之資料。工作階段資料於瀏覽器工作階段結束時自動清除。</p>
