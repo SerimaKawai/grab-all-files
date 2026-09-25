@@ -108,6 +108,12 @@
     }
     .field textarea.invalid { border-color: var(--error-border); background: color-mix(in srgb, var(--error-bg) 22%, var(--surface)); }
     .field textarea.invalid:focus { border-color: var(--error-border); box-shadow: 0 0 0 3px color-mix(in srgb, var(--error-border) 40%, transparent); }
+    .notify-choice { margin: 0; }
+    .notify-email { margin: -0.7rem 0 0 1.9rem; }
+    .notify-email.hidden { display: none; }
+    .field input[type="email"] { background: var(--surface); border: 1px solid var(--border); border-radius: 9px; padding: 0.65rem 0.8rem; font-size: 0.92rem; font-family: inherit; color: var(--text); width: 100%; }
+    .field input[type="email"]:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 18%, transparent); }
+    .field input[type="email"].invalid { border-color: var(--error-border); background: color-mix(in srgb, var(--error-bg) 22%, var(--surface)); }
 
     .honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 
@@ -301,6 +307,16 @@
           <textarea id="f-comment" name="comment" maxlength="2000"></textarea>
         </div>
 
+        <label class="reason notify-choice" for="notify-opt-in">
+          <input type="checkbox" id="notify-opt-in" name="notify-opt-in" aria-controls="notify-email">
+          <span id="l-notify-opt-in">Email me once when a fix or improvement related to this report is released</span>
+        </label>
+        <div class="field notify-email hidden" id="notify-email">
+          <label for="f-notify-email" id="l-notify-email">Email address</label>
+          <input type="email" id="f-notify-email" name="notify-email" maxlength="254" autocomplete="email" inputmode="email" disabled>
+          <p class="reason-note" id="help-notify-email">Only for this report. No marketing. Confirm by email; unsubscribe anytime.</p>
+        </div>
+
         <div class="honeypot" aria-hidden="true">
           <label for="f-company">Company (leave empty)</label>
           <input type="text" id="f-company" name="company" tabindex="-1" autocomplete="off">
@@ -317,6 +333,7 @@
         <div class="check" aria-hidden="true">✓</div>
         <h2 id="ty-title">Thank you for your feedback</h2>
         <p id="ty-body">Your response has been recorded. We appreciate you taking the time.</p>
+        <p id="ty-support" hidden><a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a></p>
         <p><a id="ty-reinstall" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf">Uninstalled by mistake? Reinstall the extension</a></p>
       </div>
     </div>
@@ -388,6 +405,10 @@
       detailFixNote: 'If we can fix it, we will ship an update in about a week.',
       commentDetailsHeading: 'Details for selected reasons:',
       lComment: 'Additional comments (optional)',
+      notifyOptIn: 'Email me once when a fix or improvement related to this report is released.',
+      emailLabel: 'Email address',
+      emailPrivacyHint: 'Only for this report. No marketing. Confirm by email; unsubscribe anytime.',
+      emailInvalid: 'Enter a valid email address to receive updates.',
       submit: 'Send feedback',
       submitting: 'Sending…',
       errReason: 'Please choose a reason.',
@@ -395,6 +416,8 @@
       errServer: 'Sorry, the server rejected the request. Please try again later.',
       tyTitle: 'Thank you for your feedback',
       tyBody: 'Your response has been recorded. We appreciate you taking the time.',
+      tyEmailPending: 'We saved your feedback. Please check your inbox and confirm your email address to receive one related update.',
+      tyEmailFailed: 'Your feedback was saved, but we could not start email notifications. No subscription was created. Please contact support if you still want an update.',
       tyReinstall: 'Uninstalled by mistake? Reinstall the extension',
       docTitle: 'Uninstall - Grab All Files',
       langLabel: 'Language',
@@ -435,6 +458,10 @@
       detailFixNote: '修正が可能な場合は1週間程度でアップデートいたします。１週間後に再度インストールしてご確認ください。',
       commentDetailsHeading: '選択理由の詳細:',
       lComment: 'その他連絡事項（任意）',
+      notifyOptIn: 'この報告に関連する修正・改善が公開されたら、メールで1回お知らせする',
+      emailLabel: 'メールアドレス',
+      emailPrivacyHint: 'この報告に関する連絡のみに使用します。宣伝メールは送りません。確認メールで登録を確定した後、いつでも配信を停止できます。',
+      emailInvalid: 'お知らせを受け取るには、有効なメールアドレスを入力してください。',
       submit: '改善に協力する',
       submitting: '送信中…',
       errReason: '理由を選択してください。',
@@ -442,6 +469,8 @@
       errServer: 'サーバーがリクエストを拒否しました。時間をおいてもう一度お試しください。',
       tyTitle: 'ご協力ありがとうございました',
       tyBody: '回答を受け付けました。お時間をいただきありがとうございます。',
+      tyEmailPending: 'ご意見を受け付けました。関連するお知らせを1回受け取るには、受信トレイをご確認のうえ、メールアドレスを確認してください。',
+      tyEmailFailed: 'ご意見は受け付けましたが、通知メールの登録を開始できませんでした。通知は届きません。希望される場合はサポートにご連絡ください。',
       tyReinstall: '誤ってアンインストールしましたか？拡張機能を再インストール',
       docTitle: 'アンインストール - ファイル一括ダウンロード',
       langLabel: '言語',
@@ -482,6 +511,10 @@
       detailFixNote: 'Si podemos corregirlo, publicaremos una actualización en aproximadamente una semana.',
       commentDetailsHeading: 'Detalles de los motivos seleccionados:',
       lComment: '¿Algo más que quieras compartir? (opcional)',
+      notifyOptIn: 'Envíame un correo cuando se publique una corrección o mejora relacionada con este informe.',
+      emailLabel: 'Correo electrónico',
+      emailPrivacyHint: 'Solo para este informe. Sin publicidad. Confirma tu dirección por correo; puedes cancelar la suscripción cuando quieras.',
+      emailInvalid: 'Introduce una dirección de correo válida para recibir avisos.',
       submit: 'Enviar comentarios',
       submitting: 'Enviando…',
       errReason: 'Por favor elige un motivo.',
@@ -489,6 +522,8 @@
       errServer: 'El servidor rechazó la solicitud. Inténtalo de nuevo más tarde.',
       tyTitle: 'Gracias por tus comentarios',
       tyBody: 'Tu respuesta ha sido registrada. Agradecemos tu tiempo.',
+      tyEmailPending: 'Hemos guardado tus comentarios. Revisa tu bandeja de entrada y confirma tu correo para recibir un aviso relacionado.',
+      tyEmailFailed: 'Guardamos tus comentarios, pero no pudimos iniciar los avisos por correo. No se creó ninguna suscripción. Ponte en contacto con soporte si deseas recibir una actualización.',
       tyReinstall: '¿La desinstalaste por error? Reinstalar la extensión',
       docTitle: 'Desinstalar - Grab All Files',
       langLabel: 'Idioma',
@@ -529,6 +564,10 @@
       detailFixNote: 'Si nous pouvons le corriger, nous publierons une mise à jour sous environ une semaine.',
       commentDetailsHeading: 'Détails des raisons sélectionnées:',
       lComment: 'Autre chose à partager ? (facultatif)',
+      notifyOptIn: 'Envoyez-moi un e-mail lorsqu’une correction ou amélioration liée à ce signalement sera publiée.',
+      emailLabel: 'Adresse e-mail',
+      emailPrivacyHint: 'Utilisée uniquement pour ce signalement. Aucun message promotionnel. Confirmez votre adresse par e-mail ; désabonnez-vous à tout moment.',
+      emailInvalid: 'Saisissez une adresse e-mail valide pour recevoir les notifications.',
       submit: 'Envoyer',
       submitting: 'Envoi…',
       errReason: 'Veuillez choisir une raison.',
@@ -536,6 +575,8 @@
       errServer: 'Le serveur a rejeté la requête. Veuillez réessayer plus tard.',
       tyTitle: 'Merci pour votre retour',
       tyBody: 'Votre réponse a été enregistrée. Merci d\'avoir pris le temps.',
+      tyEmailPending: 'Votre retour a été enregistré. Consultez votre boîte de réception et confirmez votre adresse e-mail pour recevoir une notification liée à ce signalement.',
+      tyEmailFailed: 'Votre retour a été enregistré, mais nous n’avons pas pu activer les notifications par e-mail. Aucun abonnement n’a été créé. Contactez l’assistance si vous souhaitez être informé.',
       tyReinstall: 'Désinstallé par erreur ? Réinstaller l\'extension',
       docTitle: 'Désinstaller - Grab All Files',
       langLabel: 'Langue',
@@ -576,6 +617,10 @@
       detailFixNote: '수정이 가능하면 약 1주일 내에 업데이트하겠습니다.',
       commentDetailsHeading: '선택한 이유의 상세 내용:',
       lComment: '더 하고 싶은 말씀이 있으신가요? (선택)',
+      notifyOptIn: '이 신고와 관련된 수정 또는 개선 사항이 공개되면 이메일로 한 번 알려 주세요.',
+      emailLabel: '이메일 주소',
+      emailPrivacyHint: '이 신고 관련 안내에만 사용하며 광고 메일은 보내지 않습니다. 이메일로 확인한 뒤 언제든 수신을 취소할 수 있습니다.',
+      emailInvalid: '알림을 받으려면 올바른 이메일 주소를 입력해 주세요.',
       submit: '의견 보내기',
       submitting: '전송 중…',
       errReason: '이유를 선택해 주세요.',
@@ -583,6 +628,8 @@
       errServer: '서버가 요청을 거부했습니다. 잠시 후 다시 시도해 주세요.',
       tyTitle: '의견을 보내주셔서 감사합니다',
       tyBody: '답변이 기록되었습니다. 시간 내주셔서 감사합니다.',
+      tyEmailPending: '의견이 접수되었습니다. 관련 알림을 한 번 받으려면 받은 편지함에서 이메일 주소를 확인해 주세요.',
+      tyEmailFailed: '의견은 접수되었지만 이메일 알림을 시작하지 못했습니다. 구독은 등록되지 않았습니다. 알림을 원하시면 지원팀에 문의해 주세요.',
       tyReinstall: '실수로 제거하셨나요? 확장 프로그램 다시 설치',
       docTitle: '제거 - Grab All Files',
       langLabel: '언어',
@@ -623,6 +670,10 @@
       detailFixNote: 'Se possiamo correggerlo, pubblicheremo un aggiornamento entro circa una settimana.',
       commentDetailsHeading: 'Dettagli per i motivi selezionati:',
       lComment: 'Vuoi aggiungere altro? (facoltativo)',
+      notifyOptIn: 'Avvisami via e-mail quando sarà disponibile una correzione o un miglioramento relativo a questa segnalazione.',
+      emailLabel: 'Indirizzo e-mail',
+      emailPrivacyHint: 'Solo per questa segnalazione. Niente messaggi promozionali. Conferma via e-mail; puoi annullare l’iscrizione in qualsiasi momento.',
+      emailInvalid: 'Inserisci un indirizzo e-mail valido per ricevere gli aggiornamenti.',
       submit: 'Invia feedback',
       submitting: 'Invio in corso…',
       errReason: 'Scegli un motivo.',
@@ -630,6 +681,8 @@
       errServer: 'Il server ha rifiutato la richiesta. Riprova più tardi.',
       tyTitle: 'Grazie per il tuo feedback',
       tyBody: 'La tua risposta è stata registrata. Grazie per il tempo dedicato.',
+      tyEmailPending: 'Abbiamo salvato il tuo feedback. Controlla la posta in arrivo e conferma il tuo indirizzo e-mail per ricevere un aggiornamento correlato.',
+      tyEmailFailed: 'Il feedback è stato salvato, ma non siamo riusciti ad attivare le notifiche e-mail. Nessuna iscrizione è stata creata. Contatta l’assistenza se desideri un aggiornamento.',
       tyReinstall: 'Disinstallata per errore? Reinstalla l\'estensione',
       docTitle: 'Disinstalla - Grab All Files',
       langLabel: 'Lingua',
@@ -670,6 +723,10 @@
       detailFixNote: '如果可以修复，我们会在约 1 周内更新。',
       commentDetailsHeading: '所选原因的详情：',
       lComment: '还有什么想告诉我们的吗？（可选）',
+      notifyOptIn: '如果发布了与此反馈相关的修复或改进，请通过电子邮件通知我一次。',
+      emailLabel: '电子邮箱',
+      emailPrivacyHint: '仅用于此反馈，不发送营销邮件。请通过邮件确认；您可以随时取消订阅。',
+      emailInvalid: '请输入有效的电子邮箱地址以接收通知。',
       submit: '提交反馈',
       submitting: '提交中…',
       errReason: '请选择一个原因。',
@@ -677,6 +734,8 @@
       errServer: '服务器拒绝了请求。请稍后重试。',
       tyTitle: '感谢您的反馈',
       tyBody: '您的回答已记录。感谢您抽出时间。',
+      tyEmailPending: '已收到您的反馈。请查看收件箱并确认电子邮箱，以便接收一条相关更新通知。',
+      tyEmailFailed: '已收到您的反馈，但无法启动邮件通知。您尚未订阅。如仍希望收到更新，请联系支持团队。',
       tyReinstall: '误删了？重新安装扩展程序',
       docTitle: '卸载 - Grab All Files',
       langLabel: '语言',
@@ -717,6 +776,10 @@
       detailFixNote: '如果可以修正，我們會在約 1 週內更新。',
       commentDetailsHeading: '所選原因的詳細內容：',
       lComment: '還有什麼想告訴我們的嗎？（選填）',
+      notifyOptIn: '若發布了與此意見相關的修正或改善，請透過電子郵件通知我一次。',
+      emailLabel: '電子郵件地址',
+      emailPrivacyHint: '僅用於此意見，不會寄送行銷郵件。請透過電子郵件確認；您可隨時取消訂閱。',
+      emailInvalid: '請輸入有效的電子郵件地址以接收通知。',
       submit: '送出意見',
       submitting: '送出中…',
       errReason: '請選擇一個原因。',
@@ -724,6 +787,8 @@
       errServer: '伺服器拒絕了要求。請稍後再試。',
       tyTitle: '感謝您的意見',
       tyBody: '您的回答已記錄。感謝您撥冗填寫。',
+      tyEmailPending: '已收到您的意見。請查看收件匣並確認電子郵件地址，以便接收一則相關更新通知。',
+      tyEmailFailed: '已收到您的意見，但無法啟用電子郵件通知。您尚未訂閱。如仍希望收到更新，請聯絡支援團隊。',
       tyReinstall: '誤刪了嗎？重新安裝擴充功能',
       docTitle: '解除安裝 - Grab All Files',
       langLabel: '語言',
@@ -764,6 +829,10 @@
       detailFixNote: 'Se pudermos corrigir, lançaremos uma atualização em cerca de uma semana.',
       commentDetailsHeading: 'Detalhes dos motivos selecionados:',
       lComment: 'Quer compartilhar mais alguma coisa? (opcional)',
+      notifyOptIn: 'Envie-me um e-mail quando uma correção ou melhoria relacionada a este relato for lançada.',
+      emailLabel: 'Endereço de e-mail',
+      emailPrivacyHint: 'Usaremos seu e-mail somente para este relato, sem mensagens de marketing. Confirme por e-mail; você pode cancelar a inscrição quando quiser.',
+      emailInvalid: 'Digite um endereço de e-mail válido para receber avisos.',
       submit: 'Enviar feedback',
       submitting: 'Enviando…',
       errReason: 'Por favor, escolha um motivo.',
@@ -771,6 +840,8 @@
       errServer: 'O servidor rejeitou a solicitação. Tente novamente mais tarde.',
       tyTitle: 'Obrigado pelo seu feedback',
       tyBody: 'Sua resposta foi registrada. Agradecemos o seu tempo.',
+      tyEmailPending: 'Recebemos seu feedback. Verifique sua caixa de entrada e confirme seu e-mail para receber um aviso relacionado.',
+      tyEmailFailed: 'Seu feedback foi salvo, mas não foi possível ativar os avisos por e-mail. Nenhuma inscrição foi criada. Entre em contato com o suporte se quiser receber uma atualização.',
       tyReinstall: 'Desinstalou por engano? Reinstalar a extensão',
       docTitle: 'Desinstalar - Grab All Files',
       langLabel: 'Idioma',
@@ -811,6 +882,10 @@
       detailFixNote: 'Wenn wir es beheben können, veröffentlichen wir innerhalb von etwa einer Woche ein Update.',
       commentDetailsHeading: 'Details zu den ausgewählten Gründen:',
       lComment: 'Möchten Sie uns noch etwas mitteilen? (optional)',
+      notifyOptIn: 'Benachrichtigen Sie mich per E-Mail, sobald eine Korrektur oder Verbesserung zu dieser Meldung veröffentlicht wird.',
+      emailLabel: 'E-Mail-Adresse',
+      emailPrivacyHint: 'Nur für diese Meldung. Keine Werbung. Bitte bestätigen Sie Ihre Adresse per E-Mail; Sie können sich jederzeit abmelden.',
+      emailInvalid: 'Geben Sie eine gültige E-Mail-Adresse ein, um Benachrichtigungen zu erhalten.',
       submit: 'Feedback senden',
       submitting: 'Senden…',
       errReason: 'Bitte wählen Sie einen Grund.',
@@ -818,6 +893,8 @@
       errServer: 'Der Server hat die Anfrage abgelehnt. Bitte später erneut versuchen.',
       tyTitle: 'Danke für Ihr Feedback',
       tyBody: 'Ihre Antwort wurde gespeichert. Vielen Dank für Ihre Zeit.',
+      tyEmailPending: 'Ihr Feedback wurde gespeichert. Bitte prüfen Sie Ihren Posteingang und bestätigen Sie Ihre E-Mail-Adresse, um eine passende Benachrichtigung zu erhalten.',
+      tyEmailFailed: 'Ihr Feedback wurde gespeichert, aber E-Mail-Benachrichtigungen konnten nicht gestartet werden. Es wurde kein Abonnement erstellt. Bitte wenden Sie sich an den Support, wenn Sie informiert werden möchten.',
       tyReinstall: 'Versehentlich deinstalliert? Erweiterung neu installieren',
       docTitle: 'Deinstallieren - Grab All Files',
       langLabel: 'Sprache',
@@ -885,6 +962,7 @@
   }
 
   var currentLang = 'en';
+  var submittedFollowupState = '';
 
   function applyLang(lang) {
     currentLang = lang;
@@ -907,9 +985,12 @@
       setText('note-detail-' + code, tr(t, 'detailFixNote'));
     });
     setText('l-comment', tr(t, 'lComment'));
+    setText('l-notify-opt-in', tr(t, 'notifyOptIn'));
+    setText('l-notify-email', tr(t, 'emailLabel'));
+    setText('help-notify-email', tr(t, 'emailPrivacyHint'));
     setText('submit-label', tr(t, 'submit'));
     setText('ty-title', tr(t, 'tyTitle'));
-    setText('ty-body', tr(t, 'tyBody'));
+    setText('ty-body', tr(t, submittedFollowupState || 'tyBody'));
     setText('ty-reinstall', tr(t, 'tyReinstall'));
     var sel = document.getElementById('lang-sel');
     if (sel) {
@@ -948,6 +1029,20 @@
     var el = document.getElementById('status');
     el.className = 'status';
     el.textContent = '';
+  }
+
+  function syncNotifyOptIn() {
+    var checked = document.getElementById('notify-opt-in').checked;
+    var panel = document.getElementById('notify-email');
+    var input = document.getElementById('f-notify-email');
+    panel.classList.toggle('hidden', !checked);
+    input.disabled = !checked;
+    input.required = checked;
+    if (!checked) {
+      input.value = '';
+      input.classList.remove('invalid');
+      input.removeAttribute('aria-invalid');
+    }
   }
 
   function selectedReasons() {
@@ -1053,6 +1148,17 @@
       return;
     }
 
+    var notifyRequested = document.getElementById('notify-opt-in').checked;
+    var notifyInput = document.getElementById('f-notify-email');
+    var notifyEmail = notifyRequested ? notifyInput.value.trim() : '';
+    if (notifyRequested && (!notifyEmail || notifyEmail.length > 254 || !notifyInput.checkValidity())) {
+      notifyInput.classList.add('invalid');
+      notifyInput.setAttribute('aria-invalid', 'true');
+      showStatus('error', tr(t, 'emailInvalid'));
+      notifyInput.focus();
+      return;
+    }
+
     var p = new URLSearchParams(location.search);
     var reasonDetails = collectReasonDetails(reasons);
     var payload = {
@@ -1066,6 +1172,10 @@
       browser: detectBrowser(),
       company: document.getElementById('f-company').value,
     };
+    if (notifyRequested) {
+      payload.notify_opt_in = true;
+      payload.notify_email = notifyEmail;
+    }
 
     var btn = document.getElementById('submit-btn');
     var labelEl = document.getElementById('submit-label');
@@ -1083,6 +1193,11 @@
       if (r.ok && r.body && r.body.ok) {
         document.getElementById('survey-form').style.display = 'none';
         document.getElementById('thankyou').classList.add('show');
+        if (notifyRequested) {
+          submittedFollowupState = r.body.followup_pending === true ? 'tyEmailPending' : 'tyEmailFailed';
+          setText('ty-body', tr(t, submittedFollowupState));
+          document.getElementById('ty-support').hidden = r.body.followup_pending === true;
+        }
       } else {
         showStatus('error', tr(t, 'errServer'));
         btn.disabled = false;
@@ -1128,6 +1243,13 @@
         });
       });
     });
+
+    document.getElementById('notify-opt-in').addEventListener('change', syncNotifyOptIn);
+    document.getElementById('f-notify-email').addEventListener('input', function() {
+      this.classList.remove('invalid');
+      this.removeAttribute('aria-invalid');
+    });
+    syncNotifyOptIn();
 
     document.getElementById('survey-form').addEventListener('submit', submitForm);
   }
