@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <title>Notification preference - Grab All Files</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f5f7fb; color: #182238; }
+    main { width: min(100% - 2rem, 34rem); padding: 2rem; box-sizing: border-box; background: #fff; border: 1px solid #dfe5ef; border-radius: 16px; box-shadow: 0 12px 36px #14204016; }
+    h1 { margin: 0 0 .8rem; font-size: 1.45rem; }
+    p { line-height: 1.6; }
+    a { color: #284bd4; }
+    form[hidden] { display: none; }
+    button { font: inherit; font-weight: 700; color: #fff; background: #3457c8; border: 0; border-radius: 10px; padding: .75rem 1.3rem; cursor: pointer; }
+    button:focus-visible { outline: 3px solid #e98725; outline-offset: 3px; }
+    @media (prefers-color-scheme: dark) { body { background: #0b1020; color: #e5eaf3; } main { background: #151e2e; border-color: #334058; } a { color: #a8baff; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1 id="heading">Notification preference</h1>
+    <p id="message">This link is invalid or has expired.</p>
+    <form id="preference-form" method="post" hidden>
+      <input type="hidden" name="token" id="token">
+      <button type="submit" id="action-button">Continue</button>
+    </form>
+    <p><a id="home" href="/">Grab All Files</a></p>
+  </main>
+  <script>
+  (function () {
+    var text = {
+      en: { confirmed: ['Email confirmed', 'Thank you. We will email you once if a related fix or improvement is released. You can unsubscribe using the link in that email.'], unsubscribed: ['Notifications stopped', 'Your address has been removed from this notification request.'], invalid: ['Link unavailable', 'This link is invalid, expired, or has already been used. No notification preference was changed.'] },
+      ja: { confirmed: ['メールアドレスを確認しました', '関連する修正・改善が公開された場合に、1回だけお知らせします。メール内のリンクからいつでも配信を停止できます。'], unsubscribed: ['配信を停止しました', 'この通知希望に登録したメールアドレスを削除しました。'], invalid: ['リンクを利用できません', 'リンクが無効、期限切れ、または使用済みです。通知設定は変更されていません。'] },
+      es: { confirmed: ['Correo confirmado', 'Gracias. Te enviaremos un único aviso si se publica una corrección o mejora relacionada. Puedes cancelar la suscripción desde el correo.'], unsubscribed: ['Avisos detenidos', 'Hemos eliminado tu dirección de esta solicitud de aviso.'], invalid: ['Enlace no disponible', 'El enlace no es válido, ha caducado o ya se ha utilizado. No se modificó ninguna preferencia.'] },
+      fr: { confirmed: ['Adresse e-mail confirmée', 'Merci. Nous vous enverrons une seule notification si une correction ou amélioration liée est publiée. Vous pourrez vous désabonner depuis cet e-mail.'], unsubscribed: ['Notifications arrêtées', 'Votre adresse a été supprimée de cette demande de notification.'], invalid: ['Lien indisponible', 'Ce lien est invalide, expiré ou déjà utilisé. Aucune préférence de notification n’a été modifiée.'] },
+      ko: { confirmed: ['이메일 주소가 확인되었습니다', '관련 수정 또는 개선 사항이 공개되면 한 번만 안내합니다. 이메일의 링크에서 언제든 수신을 취소할 수 있습니다.'], unsubscribed: ['알림을 중지했습니다', '이 알림 신청에 등록된 이메일 주소를 삭제했습니다.'], invalid: ['링크를 사용할 수 없습니다', '링크가 잘못되었거나 만료되었거나 이미 사용되었습니다. 알림 설정은 변경되지 않았습니다.'] },
+      it: { confirmed: ['Indirizzo e-mail confermato', 'Grazie. Ti invieremo un solo avviso se verrà pubblicata una correzione o un miglioramento pertinente. Potrai annullare l’iscrizione dal messaggio.'], unsubscribed: ['Notifiche interrotte', 'Il tuo indirizzo è stato rimosso da questa richiesta di notifica.'], invalid: ['Link non disponibile', 'Il link non è valido, è scaduto o è già stato usato. Nessuna preferenza è stata modificata.'] },
+      zh_CN: { confirmed: ['邮箱已确认', '谢谢。若发布相关修复或改进，我们将只发送一封通知。您可通过邮件中的链接随时取消订阅。'], unsubscribed: ['通知已停止', '您的邮箱已从此通知申请中删除。'], invalid: ['链接不可用', '此链接无效、已过期或已使用。通知设置未更改。'] },
+      zh_TW: { confirmed: ['電子郵件地址已確認', '謝謝。若發布相關修正或改善，我們只會寄送一封通知。您可透過郵件中的連結隨時取消訂閱。'], unsubscribed: ['通知已停止', '您的電子郵件地址已從這項通知申請中刪除。'], invalid: ['連結無法使用', '此連結無效、已過期或已使用。通知設定未變更。'] },
+      pt_BR: { confirmed: ['E-mail confirmado', 'Obrigado. Enviaremos um único aviso se uma correção ou melhoria relacionada for lançada. Você poderá cancelar a inscrição pelo e-mail.'], unsubscribed: ['Avisos interrompidos', 'Seu endereço foi removido desta solicitação de aviso.'], invalid: ['Link indisponível', 'Este link é inválido, expirou ou já foi usado. Nenhuma preferência foi alterada.'] },
+      de: { confirmed: ['E-Mail-Adresse bestätigt', 'Vielen Dank. Wir senden Ihnen höchstens eine Nachricht, falls eine passende Fehlerbehebung oder Verbesserung veröffentlicht wird. Sie können sich über den Link in der E-Mail abmelden.'], unsubscribed: ['Benachrichtigungen beendet', 'Ihre Adresse wurde aus dieser Benachrichtigungsanfrage entfernt.'], invalid: ['Link nicht verfügbar', 'Dieser Link ist ungültig, abgelaufen oder bereits verwendet. Ihre Einstellungen wurden nicht geändert.'] }
+    };
+    var actionText = {
+      en: { confirm: ['Confirm email notifications', 'Confirm this email address to receive one notification if a fix or improvement related to your report is released.', 'Confirm email'], unsubscribe: ['Stop notifications', 'Remove your email address from this notification request.', 'Unsubscribe'] },
+      ja: { confirm: ['メールアドレスを確認', 'この報告に関連する修正・改善が公開された場合に1回だけ通知を受け取るには、メールアドレスを確認してください。', 'メールアドレスを確認する'], unsubscribe: ['通知を停止', 'この通知希望に登録したメールアドレスを削除します。', '配信を停止する'] },
+      es: { confirm: ['Confirma tu correo', 'Confirma esta dirección para recibir un único aviso si se publica una corrección o mejora relacionada con tu informe.', 'Confirmar correo'], unsubscribe: ['Detener avisos', 'Elimina tu dirección de esta solicitud de aviso.', 'Cancelar suscripción'] },
+      fr: { confirm: ['Confirmer votre adresse e-mail', 'Confirmez cette adresse pour recevoir une seule notification si une correction ou amélioration liée à votre signalement est publiée.', 'Confirmer l’adresse'], unsubscribe: ['Arrêter les notifications', 'Supprimez votre adresse de cette demande de notification.', 'Se désabonner'] },
+      ko: { confirm: ['이메일 주소 확인', '신고와 관련된 수정 또는 개선 사항이 공개될 때 알림을 한 번 받으려면 이메일 주소를 확인해 주세요.', '이메일 확인'], unsubscribe: ['알림 중지', '이 알림 신청에서 이메일 주소를 삭제합니다.', '수신 취소'] },
+      it: { confirm: ['Conferma l’indirizzo e-mail', 'Conferma questo indirizzo per ricevere un solo avviso se verrà pubblicata una correzione o un miglioramento relativo alla tua segnalazione.', 'Conferma indirizzo'], unsubscribe: ['Interrompi le notifiche', 'Rimuovi il tuo indirizzo da questa richiesta di notifica.', 'Annulla iscrizione'] },
+      zh_CN: { confirm: ['确认邮箱', '确认此邮箱后，若发布与您的反馈相关的修复或改进，我们将只发送一封通知。', '确认邮箱'], unsubscribe: ['停止通知', '从这项通知申请中删除您的邮箱。', '取消订阅'] },
+      zh_TW: { confirm: ['確認電子郵件地址', '確認此地址後，若發布與您的意見相關的修正或改善，我們只會寄送一封通知。', '確認地址'], unsubscribe: ['停止通知', '從這項通知申請中刪除您的電子郵件地址。', '取消訂閱'] },
+      pt_BR: { confirm: ['Confirme seu e-mail', 'Confirme este endereço para receber um único aviso se uma correção ou melhoria relacionada ao seu relato for lançada.', 'Confirmar e-mail'], unsubscribe: ['Interromper avisos', 'Remova seu endereço desta solicitação de aviso.', 'Cancelar inscrição'] },
+      de: { confirm: ['E-Mail-Adresse bestätigen', 'Bestätigen Sie diese Adresse, um einmalig über eine passende Fehlerbehebung oder Verbesserung informiert zu werden.', 'E-Mail bestätigen'], unsubscribe: ['Benachrichtigungen beenden', 'Entfernen Sie Ihre Adresse aus dieser Benachrichtigungsanfrage.', 'Abmelden'] }
+    };
+    var params = new URLSearchParams(location.search);
+    var fragment = new URLSearchParams(location.hash.slice(1));
+    var action = fragment.get('action');
+    var token = fragment.get('token');
+    var lang = fragment.get('lang') || params.get('lang') || (navigator.language || 'en').replace('-', '_');
+    if (!text[lang]) lang = lang.slice(0, 2);
+    if (lang === 'zh') lang = /tw|hant/i.test(params.get('lang') || navigator.language) ? 'zh_TW' : 'zh_CN';
+    if (lang === 'pt') lang = 'pt_BR';
+    if (!text[lang]) lang = 'en';
+    if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+    var status = params.get('status');
+    if (status !== 'confirmed' && status !== 'unsubscribed') status = 'invalid';
+    var validAction = (action === 'confirm' || action === 'unsubscribe') && /^[0-9a-f]{64}$/.test(token || '');
+    var msg = validAction ? actionText[lang][action] : text[lang][status];
+    document.documentElement.lang = lang.replace('_', '-');
+    document.title = msg[0] + ' - Grab All Files';
+    document.getElementById('heading').textContent = msg[0];
+    document.getElementById('message').textContent = msg[1];
+    if (validAction) {
+      var form = document.getElementById('preference-form');
+      var url = new URL('https://umczaaooqinddgnhxbvp.supabase.co/functions/v1/uninstall-feedback');
+      url.searchParams.set('action', action);
+      url.searchParams.set('lang', lang);
+      form.action = url.href;
+      document.getElementById('token').value = token;
+      document.getElementById('action-button').textContent = msg[2];
+      form.hidden = false;
+    }
+  }());
+  </script>
+</body>
+</html>
