@@ -1,0 +1,8 @@
+# GitHub Pages (legacy Jekyll build) config. Only used to keep repo-only
+# tooling off the public site; no page uses front matter or Liquid.
+exclude:
+  - build-locales.mjs
+  - check-homepage-seo.mjs
+  - check-seo-integrity.mjs
+  - prerender-cases.mjs
+  - prerender-security.mjs

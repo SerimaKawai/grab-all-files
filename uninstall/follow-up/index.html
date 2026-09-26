@@ -82,6 +82,14 @@
       document.getElementById('token').value = token;
       document.getElementById('action-button').textContent = msg[2];
       form.hidden = false;
+      var actionButton = document.getElementById('action-button');
+      // The POST navigates away; lock the button so a double-click sends one request.
+      form.addEventListener('submit', function (e) {
+        if (actionButton.disabled) { e.preventDefault(); return; }
+        actionButton.disabled = true;
+      });
+      // Coming back via the back/forward cache must not leave the button locked.
+      window.addEventListener('pageshow', function () { actionButton.disabled = false; });
     }
   }());
   </script>
