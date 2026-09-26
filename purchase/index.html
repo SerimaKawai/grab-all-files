@@ -63,16 +63,17 @@
     .order .head img { width: 42px; height: 42px; border-radius: 10px; border: 1px solid var(--border); }
     .order .head h2 { font-size: 1.05rem; color: var(--text-strong); font-weight: 700; letter-spacing: -0.01em; }
     .order .head .sub { font-size: 0.78rem; color: var(--text-faint); margin-top: 0.1rem; }
-    .order .price-row { display: flex; align-items: baseline; gap: 0.5rem; padding: 1rem 0 0.4rem; border-top: 1px dashed var(--border-strong); position: relative; }
+    .order .price-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem; padding: 1rem 0 0.4rem; border-top: 1px dashed var(--border-strong); position: relative; }
     .order .price-row .price { font-size: 2.6rem; font-weight: 800; color: var(--primary); letter-spacing: -0.03em; }
     .order .price-row .ccy { font-size: 0.85rem; color: var(--text-faint); font-weight: 500; }
     .order .price-row .strike { margin-left: auto; font-size: 0.85rem; color: var(--text-faint); }
     .order .price-sub { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem; }
     .order ul { list-style: none; display: grid; gap: 0.3rem; margin-bottom: 0.4rem; }
-    .order ul li { font-size: 0.9rem; color: var(--text-muted); display: flex; gap: 0.55rem; align-items: flex-start; padding: 0.18rem 0; }
-    .order ul li::before { content: "✓"; color: var(--check); font-weight: 700; flex-shrink: 0; }
+    .order ul li { font-size: 0.9rem; color: var(--text-muted); position: relative; padding: 0.18rem 0 0.18rem 1.35rem; }
+    .order ul li::before { content: "✓"; color: var(--check); font-weight: 700; position: absolute; left: 0; top: 0.18rem; }
     .order .ribbon { display: inline-flex; align-items: center; gap: 0.35rem; background: var(--primary); color: var(--primary-text); padding: 0.22rem 0.6rem; border-radius: 999px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.9rem; position: relative; }
 
+    .grid > .order, .grid > .checkout { min-width: 0; }
     .checkout { display: grid; gap: 1rem; align-content: start; }
     .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 1.4rem; }
     .panel h3 { font-size: 0.95rem; font-weight: 600; color: var(--text-strong); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.5rem; letter-spacing: -0.005em; }
@@ -104,7 +105,8 @@
     .pay-btn .lock, .btn .lock { font-size: 0.95rem; }
     .pay-meta, .note { font-size: 0.78rem; color: var(--text-faint); text-align: center; margin-top: 0.7rem; }
 
-    .trust-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin-top: 0.4rem; }
+    .trust-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; margin-top: 0.4rem; }
+    @media (max-width: 380px) { .trust-row { grid-template-columns: 1fr; } }
     .trust-row .t { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.7rem 0.8rem; }
     .trust-row .t h4 { font-size: 0.82rem; color: var(--text-strong); font-weight: 600; display: flex; gap: 0.4rem; align-items: center; margin-bottom: 0.2rem; }
     .trust-row .t h4 .ic { width: 22px; height: 22px; border-radius: 6px; background: var(--accent-soft); color: var(--accent-soft-text); display: inline-flex; align-items: center; justify-content: center; font-size: 0.78rem; }

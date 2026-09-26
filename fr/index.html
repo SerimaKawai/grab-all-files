@@ -652,13 +652,13 @@
     /* FAQ */
     #faq .wrap-narrow { max-width: 1120px; }
     .faq-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 0.7rem; max-width: 1040px; margin: 0 auto; }
-    .faq-list details { background: var(--surface); border: 1px solid var(--border); border-radius: 11px; padding: 1rem 1.2rem; transition: border-color 0.15s ease; }
+    .faq-list details { background: var(--surface); border: 1px solid var(--border); border-radius: 11px; padding: 0; transition: border-color 0.15s ease; }
     .faq-list details[open] { border-color: var(--primary); }
-    .faq-list summary { cursor: pointer; font-weight: 600; color: var(--text-strong); font-size: 0.97rem; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .faq-list summary { cursor: pointer; padding: 1rem 1.2rem; min-height: 44px; font-weight: 600; color: var(--text-strong); font-size: 0.97rem; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
     .faq-list summary::-webkit-details-marker { display: none; }
     .faq-list summary::after { content: "+"; color: var(--text-faint); font-size: 1.3rem; line-height: 1; font-weight: 400; transition: transform 0.15s ease; }
     .faq-list details[open] summary::after { content: "−"; color: var(--primary); }
-    .faq-list details p { font-size: 0.9rem; color: var(--text-muted); margin-top: 0.6rem; line-height: 1.6; }
+    .faq-list details p { font-size: 0.9rem; color: var(--text-muted); margin-top: -0.4rem; padding: 0 1.2rem 1rem; line-height: 1.6; }
     @media (max-width: 760px) { .faq-list { grid-template-columns: 1fr; } }
 
     /* CTA strip */
@@ -708,6 +708,31 @@
       .nav-controls { gap: 0.3rem; }
       .lang-sel { max-width: 96px; }
     }
+
+    /* Phones/tablets: keep section links reachable as a swipeable second header row */
+    @media (max-width: 820px) {
+      .nav-inner { flex-wrap: wrap; row-gap: 0.4rem; padding-bottom: 0.55rem; }
+      .nav-links { display: flex; order: 99; flex: 1 1 100%; margin-left: 0; gap: 0.4rem; overflow-x: auto; white-space: nowrap; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+      .nav-links::-webkit-scrollbar { display: none; }
+      .nav-links a { flex: 0 0 auto; display: inline-flex; align-items: center; min-height: 36px; padding: 0 0.8rem; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); }
+      main section[id], .install-anchor, #latest-version { scroll-margin-top: 7.5rem; }
+      footer ul { gap: 0; }
+      footer li a { display: inline-block; padding: 0.6rem 0; }
+      .product-shot .shot-zoom::after { opacity: 1; }
+    }
+    /* Extensions cannot be installed on phones/tablets: say so where the install buttons are */
+    .mobile-note { display: none; }
+    @media (max-width: 820px) {
+      .hero-stores .mobile-note { display: block; flex: 1 1 100%; max-width: none; margin: 0 0 0.2rem; padding: 0.85rem 1rem; border-radius: 12px; background: var(--surface); border: 1px solid var(--border); color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; text-align: left; }
+      .mobile-note strong { display: block; color: var(--text-strong); margin-bottom: 0.2rem; }
+      .send-link-btn { display: flex; align-items: center; justify-content: center; width: 100%; min-height: 44px; margin-top: 0.7rem; border-radius: 10px; border: 1px solid var(--primary); background: var(--primary); color: var(--primary-text); font: inherit; font-weight: 600; cursor: pointer; }
+      .send-link-status { display: block; margin-top: 0.4rem; font-size: 0.85rem; color: var(--text-strong); }
+      .send-link-status:empty { display: none; }
+    }
+    /* Screenshots open full size so the UI text is readable on small screens */
+    .product-shot .shot-zoom { display: block; position: relative; }
+    .product-shot .shot-zoom::after { content: "⤢"; position: absolute; right: 10px; bottom: 10px; width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: rgba(15, 23, 42, 0.72); color: #fff; font-size: 1.05rem; opacity: 0; transition: opacity 0.15s ease; pointer-events: none; }
+    .product-shot .shot-zoom:hover::after, .product-shot .shot-zoom:focus-visible::after { opacity: 1; }
 
     /* ── Design refresh (icons + component polish) ─────────── */
     .feature-card .tile svg { width: 22px; height: 22px; display: block; }
@@ -921,9 +946,9 @@
             <div class="hero-cta">
               <a href="#latest-version" class="btn btn-release">Voir les nouveautés de la dernière version <span class="arrow" aria-hidden="true">→</span></a>
             </div>
-            <div class="hero-stores"><span>Téléchargez Grab All Files dans votre navigateur :</span>
+            <div class="hero-stores"><p class="mobile-note"><strong>Sur mobile ou tablette ?</strong> L’extension s’installe sur Chrome, Edge ou Firefox pour ordinateur. Ouvrez cette page sur votre ordinateur pour l’installer. <button type="button" class="send-link-btn" data-copied="Lien copié">Envoyer ce lien vers votre ordinateur</button><span class="send-link-status" role="status" aria-live="polite"></span></p><span>Téléchargez Grab All Files dans votre navigateur :</span>
               <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Installer depuis le Chrome Web Store">Télécharger pour Chrome <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Télécharger pour Edge <span aria-hidden="true">&rarr;</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Télécharger pour Edge <span aria-hidden="true">↗</span></a>
               <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Installer depuis Firefox Add-ons">Télécharger pour Firefox <span aria-hidden="true">↗</span></a>
             </div>
           </div>
@@ -1089,11 +1114,11 @@
 
 <div class="product-shots active" data-lang="fr">
           <figure class="product-shot">
-            <picture><source type="image/webp" srcset="/assets/screenshots/shot-fr.webp"><img src="/assets/screenshots/shot-fr.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Téléchargeur listant 17 fichiers détectés avec type, taille, date, archive ZIP et fusion PDF"></picture>
+            <a class="shot-zoom" href="/assets/screenshots/shot-fr.jpg" target="_blank" rel="noopener"><picture><source type="image/webp" srcset="/assets/screenshots/shot-fr.webp"><img src="/assets/screenshots/shot-fr.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Téléchargeur listant 17 fichiers détectés avec type, taille, date, archive ZIP et fusion PDF"></picture></a>
             <figcaption><strong>Téléchargeur de fichiers</strong><span>Une analyse réelle de 17 fichiers, prêts à télécharger, compresser en ZIP ou fusionner en PDF.</span></figcaption>
           </figure>
           <figure class="product-shot">
-            <picture><source type="image/webp" srcset="/assets/screenshots/collector-fr.webp"><img src="/assets/screenshots/collector-fr.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Collecteur de pages avec candidats vérifiés, découpage facultatif de 25 Mo pour l’IA et enregistrement HTML automatique"></picture>
+            <a class="shot-zoom" href="/assets/screenshots/collector-fr.jpg" target="_blank" rel="noopener"><picture><source type="image/webp" srcset="/assets/screenshots/collector-fr.webp"><img src="/assets/screenshots/collector-fr.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Collecteur de pages avec candidats vérifiés, découpage facultatif de 25 Mo pour l’IA et enregistrement HTML automatique"></picture></a>
             <figcaption><strong>Collecteur de pages web — vue Pro</strong><span>Free utilise la même liste avec une seule page choisie ; Pro regroupe plusieurs pages dans un HTML.</span></figcaption>
           </figure>
         </div>
@@ -1430,7 +1455,7 @@
         <h3><span data-lang="fr" class="active">Installer</span></h3>
         <ul>
           <li><a href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome Web Store ↗</a></li>
-          <li><a href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Edge Add-ons &rarr;</a></li>
+          <li><a href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Edge Add-ons ↗</a></li>
           <li><a href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Firefox Add-ons ↗</a></li>
           <li><a href="https://github.com/SerimaKawai/grab-all-files" target="_blank" rel="noopener">GitHub ↗</a></li>
           <li><a href="/purchase/"><span data-lang="fr" class="active">Achat</span></a></li>
@@ -1453,7 +1478,7 @@
         
         
         
-        <span data-lang="fr" class="active">© 2025 Serima Kawai. Tous droits réservés.</span>
+        <span data-lang="fr" class="active">© 2025–2026 Serima Kawai. Tous droits réservés.</span>
         
         
         
@@ -1715,6 +1740,25 @@
     });
   })();
   </script>
+  <script>
+  (function () {
+    document.addEventListener("click", function (e) {
+      var btn = e.target.closest && e.target.closest(".send-link-btn");
+      if (!btn) return;
+      var status = btn.parentNode.querySelector(".send-link-status");
+      var url = location.origin + location.pathname;
+      function say(text) { if (status) status.textContent = text; }
+      function copy() {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(function () { say(btn.getAttribute("data-copied")); }, function () { say(url); });
+        } else { say(url); }
+      }
+      if (navigator.share) {
+        navigator.share({ title: document.title, url: url }).catch(function (err) { if (!err || err.name !== "AbortError") copy(); });
+      } else { copy(); }
+    });
+  })();
+  </script>
 <script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R="";var q=new URLSearchParams(location.search||'');var requested=q.get('lang');if(["en","ja","es","fr","de","it","ko","pt_BR","zh_CN","zh_TW"].indexOf(requested)>=0){q.delete('lang');var destination=(requested==='en'?'/':'/'+requested+'/')+R;var query=q.toString();if(destination!==location.pathname){location.replace(destination+(query?'?'+query:'')+location.hash);return;}}s.addEventListener('change',function(e){e.stopImmediatePropagation();var c=e.target.value;try{localStorage.setItem('gaf-lang',c);}catch(_){}location.href=(c==='en'?'/':'/'+c+'/')+R+location.hash;},true);})();</script>
 </body>
 </html>

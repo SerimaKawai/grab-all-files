@@ -37,3 +37,4 @@ store-listing/
 
 # Local agent settings — contains local paths; never publish
 .claude/settings.local.json
+.claude/launch.json

@@ -937,7 +937,7 @@
           "</ul>",
           "<div class=\"store-row\">",
             "<a href=\"" + esc(STORE.chrome) + "\" target=\"_blank\" rel=\"noopener\"><span>" + esc(ui.chrome) + "</span><span>↗</span></a>",
-            "<a href=\"" + esc(STORE.edge) + "\" target=\"_blank\" rel=\"noopener\"><span>" + esc(ui.edge) + "</span><span>&rarr;</span></a>",
+            "<a href=\"" + esc(STORE.edge) + "\" target=\"_blank\" rel=\"noopener\"><span>" + esc(ui.edge) + "</span><span>↗</span></a>",
             "<a href=\"" + esc(STORE.firefox) + "\" target=\"_blank\" rel=\"noopener\"><span>" + esc(ui.firefox) + "</span><span>↗</span></a>",
           "</div>",
         "</aside>",
@@ -969,7 +969,18 @@
     try { localStorage.setItem("gaf-theme", theme); } catch (_) {}
   }
 
-  setTheme(getTheme());
+  // Apply without saving: only an explicit toggle click may pin a theme, so the
+  // page keeps following the OS light/dark setting until the visitor chooses.
+  document.documentElement.setAttribute("data-theme", getTheme());
+  if (window.matchMedia) {
+    try {
+      window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
+        var stored = null;
+        try { stored = localStorage.getItem("gaf-theme"); } catch (_) {}
+        if (stored !== "light" && stored !== "dark") document.documentElement.setAttribute("data-theme", getTheme());
+      });
+    } catch (_) {}
+  }
   var langSel = document.getElementById("lang-sel");
   if (langSel) langSel.addEventListener("change", function (event) { render(event.target.value, true); });
   var themeBtn = document.getElementById("theme-toggle");

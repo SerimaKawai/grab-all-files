@@ -300,3 +300,16 @@ th,
 /* png darkened from #B5732A (white text 3.85:1, sub-AA) to the app's Bloom
    img-category color #956525 → white text 5.04:1, WCAG AA. */
 .ext-png  { background: #956525 !important; }
+
+/* Subpage headers on phones: section links become a swipeable second row instead
+   of disappearing, and the language menu narrows so the brand name is not cut. */
+@media (max-width: 920px) {
+  .topbar-inner:has(.nav-links) { flex-wrap: wrap; row-gap: 0.4rem; }
+  .topbar .nav-links { display: flex; order: 99; flex: 1 1 100%; gap: 0.4rem; margin: 0 0 0.55rem; overflow-x: auto; white-space: nowrap; scrollbar-width: none; }
+  .topbar .nav-links::-webkit-scrollbar { display: none; }
+  .topbar .nav-links a { flex: 0 0 auto; display: inline-flex; align-items: center; min-height: 36px; padding: 0 0.8rem; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); }
+}
+@media (max-width: 420px) {
+  .topbar-inner { gap: 0.4rem; }
+  .lang-sel { max-width: 88px; }
+}
