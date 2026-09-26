@@ -1182,14 +1182,19 @@
     btn.disabled = true;
     labelEl.innerHTML = '<span class="btn-spinner" aria-hidden="true"></span> ' + tr(t, 'submitting');
 
+    // Without a timeout a hung connection leaves the button disabled for good.
+    var ctrl = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+    var timer = ctrl ? setTimeout(function() { ctrl.abort(); }, 20000) : 0;
     fetch(ENDPOINT, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
+      signal: ctrl ? ctrl.signal : undefined,
     }).then(function(res) {
       return res.json().then(function(j) { return { ok: res.ok, body: j }; })
         .catch(function() { return { ok: res.ok, body: null }; });
     }).then(function(r) {
+      if (timer) clearTimeout(timer);
       if (r.ok && r.body && r.body.ok) {
         document.getElementById('survey-form').style.display = 'none';
         document.getElementById('thankyou').classList.add('show');
@@ -1204,6 +1209,7 @@
         labelEl.textContent = tr(t, 'submit');
       }
     }).catch(function() {
+      if (timer) clearTimeout(timer);
       showStatus('error', tr(t, 'errNetwork'));
       btn.disabled = false;
       labelEl.textContent = tr(t, 'submit');

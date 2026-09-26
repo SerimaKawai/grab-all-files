@@ -127,7 +127,7 @@
     <select id="lang-sel" class="lang-sel" onchange="onLangChange(event)"><option value="en">English</option><option value="ja">日本語</option><option value="es">Español</option><option value="fr">Français</option><option value="ko">한국어</option><option value="it">Italiano</option><option value="zh_CN">简体中文</option><option value="zh_TW">繁體中文</option><option value="pt_BR">Português</option><option value="de">Deutsch</option></select>
   </div>
   <div class="container">
-    <div id="license-pending" class="license-pending" hidden></div>
+    <div id="license-pending" class="license-pending" role="status" aria-live="polite" hidden></div>
     <div id="license-box" class="license-box" hidden>
       <p class="license-label" id="lic-label"></p>
       <div class="license-row">
@@ -139,7 +139,7 @@
     </div>
     <div id="resend-block" class="resend-block" hidden>
       <button type="button" class="btn-resend" id="resend-btn"></button>
-      <p class="resend-status" id="resend-status"></p>
+      <p class="resend-status" id="resend-status" role="status" aria-live="polite"></p>
     </div>
     <div data-lang="en">
       <div class="icon">&#10003;</div>

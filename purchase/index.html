@@ -728,6 +728,7 @@
       if (!res.ok) throw new Error('http ' + res.status);
       return res.json();
     }).then(function(data) {
+      if (timer) clearTimeout(timer);
       if (!data || !data.url) throw new Error('no url');
       window.location.href = data.url;
     }).catch(function() {
