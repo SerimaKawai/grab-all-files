@@ -150,21 +150,23 @@ for (const required of [
   'Current version: 5.8.8',
   'keeps exactly one page selected',
   'combines multiple selected readable page bodies',
-  'Serima Kawai is the independent Developer and Data Controller',
-  'Serima Kawai is the Seller and Service Provider',
+  'Serima Kawai (sole proprietor, Japan) is the independent Developer, Data Controller, Seller and Service Provider',
 ]) assert(llms.includes(required), `llms.txt: missing "${required}"`);
 
 const legal = fs.readFileSync('legal.html', 'utf8');
 assert(/Data controller[\s\S]*?Serima Kawai/.test(legal), 'legal.html: Data controller contact must be Serima Kawai');
-assert(legal.includes('developed by Serima Kawai and provided by Serima Kawai'), 'legal.html: English role clarification is missing');
+assert(legal.includes('independently developed and provided by Serima Kawai'), 'legal.html: English role clarification is missing');
 
 const terms = fs.readFileSync('terms.html', 'utf8');
-assert(terms.includes('independently developed by Serima Kawai and provided and distributed by Serima Kawai'), 'terms.html: English Developer/Service Provider roles are missing');
-assert(!terms.includes('developed and distributed by Serima Kawai'), 'terms.html: Seller must not also be described as the Developer');
+assert(terms.includes('independently developed, provided and distributed by Serima Kawai'), 'terms.html: English Developer/Service Provider roles are missing');
 
 const privacy = fs.readFileSync('privacy-policy.html', 'utf8');
 assert(privacy.includes('Serima Kawai is the Data Controller and Developer'), 'privacy-policy.html: English Data Controller/Developer role is missing');
-assert(privacy.includes('Serima Kawai is the Seller / Service Provider'), 'privacy-policy.html: English Seller/Service Provider role is missing');
+assert(privacy.includes('the Seller / Service Provider identified in the'), 'privacy-policy.html: English Seller/Service Provider role is missing');
+for (const [name, text] of [['legal.html', legal], ['terms.html', terms], ['privacy-policy.html', privacy], ['llms.txt', llms]]) {
+  // The former developer name is kept out of this public source file too.
+  assert(!text.toLowerCase().includes(Buffer.from('dGV0c3Vub2J1', 'base64').toString()), `${name}: the operator is published as Serima Kawai only`);
+}
 
 const robots = fs.readFileSync('robots.txt', 'utf8');
 for (const required of ['ChatGPT-User', 'OAI-SearchBot', 'Claude-User', 'Google-Extended', 'Sitemap: https://grab-all-files.app/sitemap.xml']) {
