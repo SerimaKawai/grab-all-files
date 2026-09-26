@@ -565,7 +565,7 @@
     @keyframes corepulse { 0% { transform: scale(1); opacity: 0.6; } 100% { transform: scale(1.04); opacity: 0; } }
 
     /* Features grid */
-    .features-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); }
+    .features-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); align-items: start; }
     @media (max-width: 880px) { .features-grid { grid-template-columns: 1fr 1fr; } }
     @media (max-width: 560px) { .features-grid { grid-template-columns: 1fr; } }
     .feature-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.4rem 1.4rem 1.5rem; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
@@ -733,6 +733,17 @@
     .product-shot .shot-zoom { display: block; position: relative; }
     .product-shot .shot-zoom::after { content: "⤢"; position: absolute; right: 10px; bottom: 10px; width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: rgba(15, 23, 42, 0.72); color: #fff; font-size: 1.05rem; opacity: 0; transition: opacity 0.15s ease; pointer-events: none; }
     .product-shot .shot-zoom:hover::after, .product-shot .shot-zoom:focus-visible::after { opacity: 1; }
+
+    /* Phones: tighter section rhythm and left-aligned multi-line intros */
+    @media (max-width: 640px) {
+      .hero { padding: 3rem 0 2.75rem; }
+      section.block { padding: 3rem 0; }
+      footer { margin-top: 3rem; }
+      .section-head { text-align: left; margin-bottom: 1.8rem; }
+      .cta-strip { text-align: left; padding: 2rem 1.4rem; }
+      .cta-strip p { margin-left: 0; margin-right: 0; }
+      .cta-strip .cta-btns { justify-content: flex-start; }
+    }
 
     /* ── Design refresh (icons + component polish) ─────────── */
     .feature-card .tile svg { width: 22px; height: 22px; display: block; }
