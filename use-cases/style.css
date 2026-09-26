@@ -168,7 +168,8 @@ main {
   align-items: start;
 }
 .breadcrumb {
-  display: inline-flex;
+  display: flex;
+  width: fit-content;
   color: var(--text-faint);
   font-size: 0.88rem;
   margin-bottom: 1.2rem;
@@ -334,17 +335,19 @@ h1 {
 .faq-list details {
   border: 1px solid var(--border);
   border-radius: 10px;
-  padding: 0.95rem 1rem;
+  padding: 0;
   background: var(--surface-alt);
 }
 .faq-list summary {
   cursor: pointer;
+  padding: 0.95rem 1rem;
+  min-height: 44px;
   color: var(--text-strong);
   font-weight: 750;
   list-style: none;
 }
 .faq-list summary::-webkit-details-marker { display: none; }
-.faq-list p { margin-top: 0.55rem; }
+.faq-list p { margin-top: -0.4rem; padding: 0 1rem 0.95rem; }
 
 .related-grid {
   display: grid;
@@ -426,6 +429,7 @@ footer {
   flex-wrap: wrap;
   gap: 0.8rem;
 }
+.footer-links a { display: inline-block; padding: 0.55rem 0; }
 
 @media (max-width: 920px) {
   .nav-links { display: none; }
