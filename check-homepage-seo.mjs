@@ -1,5 +1,9 @@
 import fs from 'node:fs';
 
+const llms = fs.readFileSync(new URL('./llms.txt', import.meta.url), 'utf8');
+const currentVersion = llms.match(/^- Current version:\s*(\d+\.\d+\.\d+)\s*$/m)?.[1];
+if (!currentVersion) throw new Error('llms.txt: missing or invalid "Current version:" entry');
+
 const locales = [
   { code: 'en', file: 'index.html', title: ['Bulk file download', 'web pages', 'HTML'], h1: ['Bulk-download files', 'web pages', 'HTML'] },
   { code: 'ja', file: 'ja/index.html', title: ['ファイル一括保存', 'Webページ', 'HTML'], h1: ['ファイル', '複数ページ', 'HTML'] },
@@ -111,7 +115,7 @@ for (const locale of locales) {
   assert(app?.hasPart?.length === 2, `${locale.file}: SoftwareApplication must describe two core tools in hasPart`);
   assert(app?.hasPart?.some((part) => part.name === 'Bulk File Download'), `${locale.file}: structured data is missing Bulk File Download`);
   assert(app?.hasPart?.some((part) => part.name === 'Web Page Collector'), `${locale.file}: structured data is missing Web Page Collector`);
-  assert(app?.softwareVersion === '5.8.8', `${locale.file}: SoftwareApplication version must be 5.8.8`);
+  assert(app?.softwareVersion === currentVersion, `${locale.file}: SoftwareApplication version must be ${currentVersion}`);
   assert(app?.author?.name === 'Serima Kawai', `${locale.file}: SoftwareApplication author must identify the Developer, Serima Kawai`);
   assert(Array.isArray(app?.screenshot) && app.screenshot.length === 2, `${locale.file}: SoftwareApplication must expose screenshots for both core tools`);
   assert(app?.screenshot?.some((shot) => shot.url?.endsWith('/shot-en.jpg') && shot.caption?.includes('Bulk File Download')), `${locale.file}: structured data is missing the Bulk File Download screenshot`);
@@ -138,7 +142,6 @@ for (const locale of locales) {
   for (const staleClaim of stalePlanClaims) assert(!html.toLowerCase().includes(staleClaim.toLowerCase()), `${file}: stale plan claim remains: "${staleClaim}"`);
 }
 
-const llms = fs.readFileSync('llms.txt', 'utf8');
 for (const required of [
   'two equally central tools',
   'Tool 1 — Bulk File Download',
@@ -147,7 +150,7 @@ for (const required of [
   'download-files-from-webpage.html',
   'combine-web-pages-into-one-html.html',
   'default is 25 MB',
-  'Current version: 5.8.8',
+  `Current version: ${currentVersion}`,
   'keeps exactly one page selected',
   'combines multiple selected readable page bodies',
   'Serima Kawai (sole proprietor, Japan) is the independent Developer, Data Controller, Seller and Service Provider',
