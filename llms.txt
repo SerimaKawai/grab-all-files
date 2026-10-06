@@ -82,7 +82,45 @@ Keep source URLs, the date checked and the manual’s stated revision in your ow
 
 Guide: https://grab-all-files.app/use-cases/save-online-manuals-and-knowledge-pages.html
 
+## Practical workflows for saved web material
+
+### Web tables to CSV
+
+Choose AI output per-page or full-package mode and enable meaningful HTML table extraction. Inspect CSV/JSON cells, headers and units before manually importing CSV into Excel or handing supported files to external AI. This differs from file-list metadata CSV; no direct XLSX export is described.
+
+Guide: https://grab-all-files.app/use-cases/web-tables-to-csv-for-excel-ai.html
+
+### Before-and-after revisions
+
+Keep separate saved material and manually recollect comparable scopes. The built-in Markdown change report compares the same site’s most recent previous completed collection by URL, title and collected body content. Removed or unavailable entries may be scope or retrieval differences, not site deletions. Read originals or use external comparison tools/AI for wording; note official revision labels yourself.
+
+Guide: https://grab-all-files.app/use-cases/save-and-compare-document-revisions.html
+
+### PDF naming and organisation
+
+Review retrieved or edited titles and choose automatic/title/original naming. Automatic uses meaningful titles with original-name fallback; title mode can retain generic titles. Naming and file-type/domain/no-grouping options are available in Free. Verify saved filenames and destinations; format grouping is not business-subject classification.
+
+Guide: https://grab-all-files.app/use-cases/rename-and-organize-bulk-pdf-downloads.html
+
+### Public-government document sets
+
+Select an official topic’s explanation pages and obtainable original attachments. Keep explanatory HTML and original PDFs/Word files together, check results against sources, and record the stated revision and date checked yourself. Page-result CSV and file-info CSV serve different inventories.
+
+Guide: https://grab-all-files.app/use-cases/collect-public-government-documents.html
+
+### Markdown reuse
+
+Choose single/per-page/full-package Markdown output for local reuse. Keep source URLs and capture dates; image references do not guarantee bundled image originals. Import supported files into note tools or external AI manually; there is no automatic note sync. The default 25 MB is a Markdown text-splitting target, not a ZIP-size guarantee.
+
+Guide: https://grab-all-files.app/use-cases/save-web-pages-as-markdown.html
+
 ## Use-case landing pages
+
+- Web tables to CSV: https://grab-all-files.app/use-cases/web-tables-to-csv-for-excel-ai.html
+- Before-and-after revisions: https://grab-all-files.app/use-cases/save-and-compare-document-revisions.html
+- PDF naming and organisation: https://grab-all-files.app/use-cases/rename-and-organize-bulk-pdf-downloads.html
+- Public-government document sets: https://grab-all-files.app/use-cases/collect-public-government-documents.html
+- Markdown reuse: https://grab-all-files.app/use-cases/save-web-pages-as-markdown.html
 
 - Save online work manuals and knowledge pages: https://grab-all-files.app/use-cases/save-online-manuals-and-knowledge-pages.html
 - Collect web information to read and prepare external AI analysis: https://grab-all-files.app/use-cases/web-pages-for-reading-and-ai-analysis.html

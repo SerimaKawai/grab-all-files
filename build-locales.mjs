@@ -43,6 +43,11 @@ const PAGES = [
   { src: 'index.html', rel: '' },
   { src: 'security.html', rel: 'security.html' },
   { src: 'use-cases/index.html', rel: 'use-cases/' },
+  { src: 'use-cases/web-tables-to-csv-for-excel-ai.html', rel: 'use-cases/web-tables-to-csv-for-excel-ai.html' },
+  { src: 'use-cases/save-and-compare-document-revisions.html', rel: 'use-cases/save-and-compare-document-revisions.html' },
+  { src: 'use-cases/rename-and-organize-bulk-pdf-downloads.html', rel: 'use-cases/rename-and-organize-bulk-pdf-downloads.html' },
+  { src: 'use-cases/collect-public-government-documents.html', rel: 'use-cases/collect-public-government-documents.html' },
+  { src: 'use-cases/save-web-pages-as-markdown.html', rel: 'use-cases/save-web-pages-as-markdown.html' },
   { src: 'use-cases/save-online-manuals-and-knowledge-pages.html', rel: 'use-cases/save-online-manuals-and-knowledge-pages.html' },
   { src: 'use-cases/web-pages-for-reading-and-ai-analysis.html', rel: 'use-cases/web-pages-for-reading-and-ai-analysis.html' },
   { src: 'use-cases/combine-web-pages-into-one-html.html', rel: 'use-cases/combine-web-pages-into-one-html.html' },
@@ -57,6 +62,11 @@ const PAGES = [
 // NOTE: use-case.js and use-cases/style.css are SHARED (not per-locale) and stay at /use-cases/.
 const LOCALIZED = new Set([
   '/', '/security.html', '/use-cases/',
+  '/use-cases/web-tables-to-csv-for-excel-ai.html',
+  '/use-cases/save-and-compare-document-revisions.html',
+  '/use-cases/rename-and-organize-bulk-pdf-downloads.html',
+  '/use-cases/collect-public-government-documents.html',
+  '/use-cases/save-web-pages-as-markdown.html',
   '/use-cases/save-online-manuals-and-knowledge-pages.html',
   '/use-cases/web-pages-for-reading-and-ai-analysis.html',
   '/use-cases/combine-web-pages-into-one-html.html',
@@ -497,6 +507,11 @@ for (const page of PAGES) {
   const srcHtml = fs.readFileSync(srcPath, 'utf8');
   const caseId = CASE_ID_BY_SRC[page.src];
   const repairLineEndings = [
+    'use-cases/web-tables-to-csv-for-excel-ai.html',
+    'use-cases/save-and-compare-document-revisions.html',
+    'use-cases/rename-and-organize-bulk-pdf-downloads.html',
+    'use-cases/collect-public-government-documents.html',
+    'use-cases/save-web-pages-as-markdown.html',
     'use-cases/web-pages-for-reading-and-ai-analysis.html',
     'use-cases/save-online-manuals-and-knowledge-pages.html',
   ].includes(page.src);

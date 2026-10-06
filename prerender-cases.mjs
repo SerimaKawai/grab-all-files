@@ -18,6 +18,11 @@ const ROOT = 'c:/xampp/htdocs/grab-all-files';
 const SCRIPT = path.join(ROOT, 'use-cases', 'use-case.js');
 
 export const CASE_IDS = [
+  'web-tables-to-csv-for-excel-ai',
+  'save-and-compare-document-revisions',
+  'rename-and-organize-bulk-pdf-downloads',
+  'collect-public-government-documents',
+  'save-web-pages-as-markdown',
   'save-online-manuals-and-knowledge-pages',
   'web-pages-for-reading-and-ai-analysis',
   'combine-web-pages-into-one-html',

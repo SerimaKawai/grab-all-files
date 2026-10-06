@@ -335,6 +335,11 @@
   }
 
   var GUIDE_ORDER = [
+    "web-tables-to-csv-for-excel-ai",
+    "save-and-compare-document-revisions",
+    "rename-and-organize-bulk-pdf-downloads",
+    "collect-public-government-documents",
+    "save-web-pages-as-markdown",
     "save-online-manuals-and-knowledge-pages",
     "web-pages-for-reading-and-ai-analysis",
     "combine-web-pages-into-one-html",
@@ -347,6 +352,11 @@
 
   var GUIDE_LABELS = {
     en: {
+      "web-tables-to-csv-for-excel-ai": "Web tables to CSV",
+      "save-and-compare-document-revisions": "Save & compare revisions",
+      "rename-and-organize-bulk-pdf-downloads": "Name & organise PDF downloads",
+      "collect-public-government-documents": "Public guidance & documents",
+      "save-web-pages-as-markdown": "Web sources as Markdown",
       "save-online-manuals-and-knowledge-pages": "Save manuals & knowledge pages",
       "web-pages-for-reading-and-ai-analysis": "Collect, read & analyse with AI",
       "combine-web-pages-into-one-html": "Combine pages into HTML",
@@ -357,6 +367,11 @@
       "merge-pdfs-locally": "Merge PDFs locally"
     },
     ja: {
+      "web-tables-to-csv-for-excel-ai": "Web表をCSVで活用",
+      "save-and-compare-document-revisions": "改訂前後の資料を比較",
+      "rename-and-organize-bulk-pdf-downloads": "PDFの題名・種類別整理",
+      "collect-public-government-documents": "自治体・公的機関の資料セット",
+      "save-web-pages-as-markdown": "Web資料をMarkdownで再利用",
       "save-online-manuals-and-knowledge-pages": "業務マニュアル・ナレッジを保存",
       "web-pages-for-reading-and-ai-analysis": "集めて読む・AIで分析する",
       "combine-web-pages-into-one-html": "ページをHTMLにまとめる",
@@ -367,6 +382,11 @@
       "merge-pdfs-locally": "PDFをローカル結合"
     },
     es: {
+      "web-tables-to-csv-for-excel-ai": "Tablas web a CSV",
+      "save-and-compare-document-revisions": "Guardar y comparar versiones",
+      "rename-and-organize-bulk-pdf-downloads": "Nombrar y organizar PDF",
+      "collect-public-government-documents": "Guías y documentos públicos",
+      "save-web-pages-as-markdown": "Fuentes web en Markdown",
       "save-online-manuals-and-knowledge-pages": "Guardar manuales y conocimiento",
       "web-pages-for-reading-and-ai-analysis": "Recopilar, leer y analizar con IA",
       "combine-web-pages-into-one-html": "Combinar páginas en HTML",
@@ -377,6 +397,11 @@
       "merge-pdfs-locally": "Fusionar PDF localmente"
     },
     fr: {
+      "web-tables-to-csv-for-excel-ai": "Tableaux web en CSV",
+      "save-and-compare-document-revisions": "Enregistrer et comparer les versions",
+      "rename-and-organize-bulk-pdf-downloads": "Nommer et classer les PDF",
+      "collect-public-government-documents": "Guides et documents publics",
+      "save-web-pages-as-markdown": "Sources web en Markdown",
       "save-online-manuals-and-knowledge-pages": "Enregistrer manuels et connaissances",
       "web-pages-for-reading-and-ai-analysis": "Collecter, lire et analyser avec l’IA",
       "combine-web-pages-into-one-html": "Regrouper les pages en HTML",
@@ -387,6 +412,11 @@
       "merge-pdfs-locally": "Fusionner PDF localement"
     },
     de: {
+      "web-tables-to-csv-for-excel-ai": "Webtabellen als CSV",
+      "save-and-compare-document-revisions": "Dokumentstände vergleichen",
+      "rename-and-organize-bulk-pdf-downloads": "PDFs benennen und ordnen",
+      "collect-public-government-documents": "Öffentliche Hinweise & Dokumente",
+      "save-web-pages-as-markdown": "Webquellen als Markdown",
       "save-online-manuals-and-knowledge-pages": "Handbücher und Wissensseiten sichern",
       "web-pages-for-reading-and-ai-analysis": "Sammeln, lesen und mit KI analysieren",
       "combine-web-pages-into-one-html": "Seiten als HTML bündeln",
@@ -397,6 +427,11 @@
       "merge-pdfs-locally": "PDFs lokal zusammenführen"
     },
     it: {
+      "web-tables-to-csv-for-excel-ai": "Tabelle web in CSV",
+      "save-and-compare-document-revisions": "Salvare e confrontare versioni",
+      "rename-and-organize-bulk-pdf-downloads": "Nominare e organizzare PDF",
+      "collect-public-government-documents": "Guide e documenti pubblici",
+      "save-web-pages-as-markdown": "Fonti web in Markdown",
       "save-online-manuals-and-knowledge-pages": "Salvare manuali e pagine di conoscenza",
       "web-pages-for-reading-and-ai-analysis": "Raccogliere, leggere e analizzare con IA",
       "combine-web-pages-into-one-html": "Unisci pagine in HTML",
@@ -407,6 +442,11 @@
       "merge-pdfs-locally": "Unire PDF localmente"
     },
     ko: {
+      "web-tables-to-csv-for-excel-ai": "웹 표를 CSV로 활용",
+      "save-and-compare-document-revisions": "개정 전후 자료 비교",
+      "rename-and-organize-bulk-pdf-downloads": "PDF 제목 저장·종류별 정리",
+      "collect-public-government-documents": "공공기관 자료 세트",
+      "save-web-pages-as-markdown": "웹 자료를 Markdown으로",
       "save-online-manuals-and-knowledge-pages": "업무 매뉴얼·지식 페이지 저장",
       "web-pages-for-reading-and-ai-analysis": "정보 수집·읽기·AI 분석",
       "combine-web-pages-into-one-html": "페이지를 HTML로 합치기",
@@ -417,6 +457,11 @@
       "merge-pdfs-locally": "PDF 로컬 병합"
     },
     pt_BR: {
+      "web-tables-to-csv-for-excel-ai": "Tabelas web em CSV",
+      "save-and-compare-document-revisions": "Salvar e comparar revisões",
+      "rename-and-organize-bulk-pdf-downloads": "Nomear e organizar PDFs",
+      "collect-public-government-documents": "Orientações e documentos públicos",
+      "save-web-pages-as-markdown": "Fontes web em Markdown",
       "save-online-manuals-and-knowledge-pages": "Salvar manuais e conhecimento",
       "web-pages-for-reading-and-ai-analysis": "Coletar, ler e analisar com IA",
       "combine-web-pages-into-one-html": "Juntar páginas em HTML",
@@ -427,6 +472,11 @@
       "merge-pdfs-locally": "Mesclar PDFs localmente"
     },
     zh_CN: {
+      "web-tables-to-csv-for-excel-ai": "网页表格转CSV",
+      "save-and-compare-document-revisions": "保存并比较修订前后资料",
+      "rename-and-organize-bulk-pdf-downloads": "PDF题名保存与格式整理",
+      "collect-public-government-documents": "公共机构资料集",
+      "save-web-pages-as-markdown": "用Markdown复用Web资料",
       "save-online-manuals-and-knowledge-pages": "保存业务手册与知识文章",
       "web-pages-for-reading-and-ai-analysis": "收集信息·阅读·AI分析",
       "combine-web-pages-into-one-html": "将网页合并为 HTML",
@@ -437,6 +487,11 @@
       "merge-pdfs-locally": "本地合并PDF"
     },
     zh_TW: {
+      "web-tables-to-csv-for-excel-ai": "網頁表格轉CSV",
+      "save-and-compare-document-revisions": "儲存並比較修訂前後資料",
+      "rename-and-organize-bulk-pdf-downloads": "PDF題名儲存與格式整理",
+      "collect-public-government-documents": "公部門資料集",
+      "save-web-pages-as-markdown": "用Markdown重用Web資料",
       "save-online-manuals-and-knowledge-pages": "儲存業務手冊與知識文章",
       "web-pages-for-reading-and-ai-analysis": "收集資訊·閱讀·AI分析",
       "combine-web-pages-into-one-html": "將網頁合併為 HTML",
@@ -449,6 +504,4153 @@
   };
 
   var CASES = {
+    "web-tables-to-csv-for-excel-ai": {
+      "path": "web-tables-to-csv-for-excel-ai.html",
+      "related": [
+        "web-pages-for-reading-and-ai-analysis",
+        "save-web-pages-as-markdown"
+      ],
+      "copy": {
+        "en": {
+          "title": "Web tables to CSV for Excel & AI analysis | Grab All Files",
+          "h1": "Use web tables in Excel or AI.",
+          "desc": "Export supported web tables as CSV, check headers and units, then import them into Excel or give selected files to an external AI tool.",
+          "lead": "Turn a useful web table into data you can sort, filter and compare. Prepare table files through the page collector’s AI output, then choose whether to work in Excel or ask an external AI tool. You decide which pages and files to use.",
+          "best": [
+            "Compare public fee or eligibility tables while keeping units and footnotes.",
+            "Reuse a published list for filtering and checking in Excel."
+          ],
+          "steps": [
+            "Open the permitted source and choose “Combine pages into HTML” in the extension. Select the page with the table.",
+            "Before collection, enable “AI analysis data (Markdown with sources)”, choose “Per-page Markdown” or “Full package”, and enable “Also export tables as CSV/JSON”.",
+            "Collect the page and save the AI ZIP. Inspect the CSV/JSON table files against the original headings, cells, units and notes. “Save AI analysis ZIP”",
+            "Import a CSV into Excel or manually give supported files to your external AI service. Check dates, identifiers and the resulting analysis."
+          ],
+          "faq": [
+            {
+              "q": "Is this the file-list CSV?",
+              "a": "No. File-list CSV describes downloaded-file URLs and metadata. This workflow extracts supported HTML table data through the collector’s AI output."
+            },
+            {
+              "q": "Will every table become CSV?",
+              "a": "Table export applies to meaningful HTML tables within extraction limits when per-page or full-package output is selected. Layout tables are excluded; images and PDF screenshots are not guaranteed table data."
+            },
+            {
+              "q": "Can I export XLSX directly?",
+              "a": "This workflow produces CSV/JSON table files. Open or import CSV in Excel yourself; a direct XLSX export is not described."
+            },
+            {
+              "q": "Can I start with Free?",
+              "a": "Free collects one chosen page; Pro can select multiple page bodies. The extension prepares files locally. You pass them to Excel or an external AI tool yourself."
+            }
+          ],
+          "guide": {
+            "title": "Choose how to use the table",
+            "modes": [
+              [
+                "Work in Excel",
+                "Import CSV, check data types, then filter or sort the rows. Keep identifiers as text where needed."
+              ],
+              [
+                "Ask external AI",
+                "Choose the relevant table and source material and ask for a comparison or summary. Verify the answer against the original table."
+              ]
+            ],
+            "examplesTitle": "Useful questions for a table",
+            "examples": [
+              [
+                "Compare stated conditions",
+                "Compare the rows using only the supplied values. Keep units and footnotes, cite the source page, and mark unavailable values rather than guessing."
+              ],
+              [
+                "Check a list",
+                "Identify duplicate entries and missing fields. Explain the rule used and leave the original values available for review."
+              ]
+            ],
+            "formatsTitle": "Files and settings",
+            "headers": [
+              "Output",
+              "Use"
+            ],
+            "rows": [
+              [
+                "CSV / JSON tables",
+                "Enable table export with per-page or full-package output. Check extracted cells before reuse."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "Source URLs and capture dates in AI output help you check where the material came from."
+              ],
+              [
+                "HTML",
+                "Read the collected page and compare the table with its context."
+              ]
+            ]
+          },
+          "eyebrow": "Web tables to CSV"
+        },
+        "ja": {
+          "title": "Web表をCSV保存してExcel・AIで分析 | Grab All Files",
+          "h1": "Webの表をCSVで活用。",
+          "desc": "Webページの表をCSVに保存し、Excelで集計・比較、外部AIで分析する手順。表の出力設定、単位・注記の確認、ファイル一覧CSVとの違いを紹介します。",
+          "lead": "必要なWeb表を、並べ替え・集計・比較できる資料に。ページ収集のAI向け出力から表のファイルを準備し、Excelで使うか、外部AIへ質問するかを選べます。利用するページと資料は自分で確認します。",
+          "best": [
+            "公開された料金・条件の表を、単位や注記を保って比較する。",
+            "公開リストをExcelで絞り込み、重複や記載を確認する。"
+          ],
+          "steps": [
+            "閲覧・保存が許可された起点ページを開き、拡張機能の「ページをHTMLにまとめる」を選びます。表があるページを選択します。",
+            "収集前に「AI分析用データ（Markdown・出典付き）」を有効にし、「ページ別Markdown」または「フルパッケージ」と「表をCSV/JSONとしても書き出す」を選びます。",
+            "ページを収集してAI ZIPを保存。CSV・JSONの表ファイルを開き、見出し・セル・単位・注記を原文と照合します。 “AI分析用ZIPを保存”",
+            "CSVをExcelへ取り込むか、対応する資料を外部AIへ自分で渡します。日付や識別番号の扱い、分析結果を確認します。"
+          ],
+          "faq": [
+            {
+              "q": "ファイル一覧のCSVとは違いますか？",
+              "a": "違います。ファイル一覧CSVはURLやファイル情報の一覧です。この手順は、ページ収集のAI向け出力から対応するHTML表のデータを抽出します。"
+            },
+            {
+              "q": "どんな表でもCSVになりますか？",
+              "a": "ページ別／完全パッケージで表の出力を有効にした場合に、意味のあるHTML表を対応範囲・上限内で抽出します。レイアウト表は除外され、画像やPDFの見た目の表が必ずデータになるわけではありません。"
+            },
+            {
+              "q": "XLSXを直接出力できますか？",
+              "a": "この手順ではCSV・JSONの表ファイルを作ります。CSVは利用者がExcelで開く・取り込む使い方です。XLSX直接出力としては案内していません。"
+            },
+            {
+              "q": "無料版から試せますか？",
+              "a": "無料版は選んだ1ページを収集し、Proは複数ページ本文を選べます。資料の準備は端末内で行い、Excelや外部AIへは自分で渡します。"
+            }
+          ],
+          "guide": {
+            "title": "表を使う目的に合わせて選ぶ",
+            "modes": [
+              [
+                "Excelで集計する",
+                "CSVを取り込み、データ型を確認して行を絞り込み・並べ替えます。識別番号などは必要に応じて文字列として扱います。"
+              ],
+              [
+                "外部AIで比較する",
+                "必要な表と出典資料を選び、比較や要約を依頼します。回答は元の表と照合して確認します。"
+              ]
+            ],
+            "examplesTitle": "表の内容に合わせて質問する",
+            "examples": [
+              [
+                "条件の比較",
+                "提供した数値と記載だけを使って各行を比較してください。単位・注記を保ち、出典ページを示してください。値がない場合は推測せず、その旨を記載してください。"
+              ],
+              [
+                "リストの確認",
+                "重複する項目や未記入欄を確認してください。判定方法を説明し、元の値を確認できる形にしてください。"
+              ]
+            ],
+            "formatsTitle": "出力ファイルと設定",
+            "headers": [
+              "出力",
+              "使い方"
+            ],
+            "rows": [
+              [
+                "表のCSV / JSON",
+                "ページ別／完全パッケージで表の出力を有効にします。再利用前に抽出セルを確認します。"
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "AI出力の元URLと取得日を使い、資料の出典を確認します。"
+              ],
+              [
+                "HTML",
+                "表の周囲の説明を読み返し、内容を照合します。"
+              ]
+            ]
+          },
+          "eyebrow": "Web表をCSVで活用"
+        },
+        "es": {
+          "title": "Tablas web a CSV para Excel e IA | Grab All Files",
+          "h1": "Usa tablas web en Excel o IA.",
+          "desc": "Exporta tablas web compatibles a CSV, revisa encabezados y unidades e impórtalas en Excel o entrégalas a una IA externa.",
+          "lead": "Convierte una tabla útil en datos para ordenar, filtrar y comparar. Prepara los archivos mediante la salida IA del recopilador y elige Excel o una IA externa. Revisa qué páginas y materiales usas.",
+          "best": [
+            "Comparar tablas públicas de tarifas o requisitos con unidades y notas.",
+            "Filtrar listas publicadas y comprobar entradas en Excel."
+          ],
+          "steps": [
+            "Abre la fuente permitida y elige «Combinar páginas en HTML» en la extensión. Elige la página con la tabla.",
+            "Antes de recopilar, activa «Datos para análisis con IA (Markdown con fuentes)», elige «Markdown por página» o «Paquete completo» y activa «Exportar también las tablas como CSV/JSON».",
+            "Recopila y guarda el ZIP IA. Contrasta archivos CSV/JSON con encabezados, celdas, unidades y notas originales. “Guardar ZIP de análisis IA”",
+            "Importa CSV en Excel o entrega manualmente archivos aceptados a tu IA externa. Revisa fechas, identificadores y resultados."
+          ],
+          "faq": [
+            {
+              "q": "¿Es el CSV de la lista de archivos?",
+              "a": "No. Ese CSV enumera URL y metadatos de archivos. Aquí se extraen datos de tablas HTML mediante la salida IA del recopilador."
+            },
+            {
+              "q": "¿Cualquier tabla se convierte en CSV?",
+              "a": "Con salida por página o paquete completo y exportación de tablas activada se extraen tablas HTML significativas dentro de los límites. Se excluyen tablas de diseño; no se garantiza convertir imágenes o capturas PDF."
+            },
+            {
+              "q": "¿Exporta XLSX directamente?",
+              "a": "Este flujo genera CSV/JSON. Abre o importa CSV en Excel tú mismo; no se describe exportación XLSX directa."
+            },
+            {
+              "q": "¿Puedo empezar gratis?",
+              "a": "Free recopila una página elegida; Pro selecciona varias. La preparación es local y tú entregas los archivos a Excel o IA externa."
+            }
+          ],
+          "guide": {
+            "title": "Elige cómo usar la tabla",
+            "modes": [
+              [
+                "Trabajar en Excel",
+                "Importa CSV, revisa tipos de datos y filtra u ordena filas. Conserva identificadores como texto si hace falta."
+              ],
+              [
+                "Consultar una IA externa",
+                "Elige tabla y fuentes y pide una comparación o resumen. Verifica la respuesta con el original."
+              ]
+            ],
+            "examplesTitle": "Preguntas útiles sobre una tabla",
+            "examples": [
+              [
+                "Comparar condiciones",
+                "Compara filas solo con los valores proporcionados. Conserva unidades y notas, cita la fuente y señala valores ausentes sin inventarlos."
+              ],
+              [
+                "Revisar una lista",
+                "Identifica duplicados y campos vacíos. Explica la regla y conserva los valores originales para comprobarlos."
+              ]
+            ],
+            "formatsTitle": "Archivos y ajustes",
+            "headers": [
+              "Salida",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "CSV / JSON",
+                "Activa tablas con salida por página o paquete completo y revisa las celdas extraídas."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "URL y fechas de captura de la salida IA ayudan a comprobar las fuentes."
+              ],
+              [
+                "HTML",
+                "Lee el contexto y contrasta la tabla."
+              ]
+            ]
+          },
+          "eyebrow": "Tablas web a CSV"
+        },
+        "fr": {
+          "title": "Tableaux web en CSV pour Excel et IA | Grab All Files",
+          "h1": "Utiliser les tableaux web dans Excel ou l’IA.",
+          "desc": "Exportez les tableaux web compatibles en CSV, vérifiez colonnes et unités, puis importez dans Excel ou transmettez à une IA externe.",
+          "lead": "Transformez un tableau utile en données à trier, filtrer et comparer. Préparez les fichiers via l’export IA du collecteur, puis choisissez Excel ou une IA externe. Vérifiez les pages et documents utilisés.",
+          "best": [
+            "Comparer tarifs ou critères publiés avec unités et notes.",
+            "Filtrer des listes publiées et contrôler les entrées dans Excel."
+          ],
+          "steps": [
+            "Ouvrez la source autorisée puis «Regrouper les pages en HTML» dans l’extension. Choisissez la page avec le tableau.",
+            "Avant collecte, activez «Données pour analyse par IA (Markdown avec sources)», choisissez «Markdown par page» ou «Paquet complet» et «Exporter aussi les tableaux en CSV/JSON».",
+            "Collectez et enregistrez le ZIP IA. Comparez CSV/JSON aux colonnes, cellules, unités et notes originales. “Enregistrer le ZIP d’analyse IA”",
+            "Importez CSV dans Excel ou transmettez vous-même les fichiers acceptés à une IA externe. Vérifiez dates, identifiants et résultats."
+          ],
+          "faq": [
+            {
+              "q": "Est-ce le CSV de la liste de fichiers ?",
+              "a": "Non. Ce CSV liste URL et métadonnées des fichiers. Ce flux extrait les données de tableaux HTML par l’export IA du collecteur."
+            },
+            {
+              "q": "Tout tableau devient-il CSV ?",
+              "a": "Avec sortie par page ou paquet complet et export de tableaux activé, les tableaux HTML significatifs sont extraits dans les limites prévues. Les tableaux de mise en page sont exclus ; images et captures PDF ne sont pas garantis."
+            },
+            {
+              "q": "Peut-on exporter directement en XLSX ?",
+              "a": "Ce flux produit CSV/JSON. Ouvrez ou importez CSV vous-même dans Excel ; aucun export XLSX direct n’est présenté."
+            },
+            {
+              "q": "Puis-je commencer gratuitement ?",
+              "a": "Free collecte une page choisie ; Pro en sélectionne plusieurs. Les fichiers sont préparés localement et vous les transmettez à Excel ou à une IA externe."
+            }
+          ],
+          "guide": {
+            "title": "Choisir l’usage du tableau",
+            "modes": [
+              [
+                "Travailler dans Excel",
+                "Importez CSV, vérifiez les types et triez ou filtrez les lignes. Gardez les identifiants en texte si nécessaire."
+              ],
+              [
+                "Interroger une IA externe",
+                "Choisissez tableau et sources pour demander comparaison ou résumé. Vérifiez la réponse dans l’original."
+              ]
+            ],
+            "examplesTitle": "Questions utiles sur un tableau",
+            "examples": [
+              [
+                "Comparer des conditions",
+                "Comparez les lignes avec les seules valeurs fournies. Gardez unités et notes, citez la source et indiquez les valeurs absentes sans les deviner."
+              ],
+              [
+                "Contrôler une liste",
+                "Identifiez doublons et champs manquants. Expliquez la règle et gardez les valeurs originales vérifiables."
+              ]
+            ],
+            "formatsTitle": "Fichiers et réglages",
+            "headers": [
+              "Sortie",
+              "Usage"
+            ],
+            "rows": [
+              [
+                "CSV / JSON",
+                "Activez les tableaux avec sortie par page ou paquet complet et vérifiez les cellules extraites."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "Les URL et dates de capture de l’export IA aident à vérifier les sources."
+              ],
+              [
+                "HTML",
+                "Relisez le contexte et comparez le tableau."
+              ]
+            ]
+          },
+          "eyebrow": "Tableaux web en CSV"
+        },
+        "de": {
+          "title": "Webtabellen als CSV für Excel und KI | Grab All Files",
+          "h1": "Webtabellen in Excel oder KI nutzen.",
+          "desc": "Unterstützte Webtabellen als CSV exportieren, Spalten und Einheiten prüfen und in Excel importieren oder an externe KI übergeben.",
+          "lead": "Machen Sie eine Webtabelle zu Daten zum Sortieren, Filtern und Vergleichen. Bereiten Sie Dateien über die KI-Ausgabe des Collectors vor und wählen Sie Excel oder externe KI. Prüfen Sie die ausgewählten Seiten und Materialien.",
+          "best": [
+            "Öffentliche Gebühren oder Kriterien mit Einheiten und Fußnoten vergleichen.",
+            "Veröffentlichte Listen in Excel filtern und Einträge prüfen."
+          ],
+          "steps": [
+            "Öffnen Sie die erlaubte Quelle und wählen Sie „Seiten als HTML bündeln“ in der Erweiterung. Wählen Sie die Seite mit der Tabelle.",
+            "Aktivieren Sie vor der Sammlung „KI-Analysedaten (Markdown mit Quellen)“, wählen Sie „Markdown je Seite“ oder „Komplettpaket“ und „Tabellen zusätzlich als CSV/JSON exportieren“.",
+            "Sammeln und speichern Sie das KI-ZIP. Prüfen Sie CSV/JSON an Originalspalten, Zellen, Einheiten und Hinweisen. “KI-Analyse-ZIP speichern”",
+            "Importieren Sie CSV in Excel oder übergeben Sie passende Dateien selbst an externe KI. Prüfen Sie Datumswerte, Kennungen und Ergebnisse."
+          ],
+          "faq": [
+            {
+              "q": "Ist das die CSV-Dateiliste?",
+              "a": "Nein. Diese listet Datei-URLs und Metadaten auf. Hier werden HTML-Tabellendaten über die KI-Ausgabe des Collectors extrahiert."
+            },
+            {
+              "q": "Wird jede Tabelle zu CSV?",
+              "a": "Bei seitenweiser Ausgabe oder vollständigem Paket und aktivem Tabellenexport werden inhaltliche HTML-Tabellen innerhalb der Grenzen extrahiert. Layouttabellen sind ausgeschlossen; Bilder oder PDF-Abbildungen sind nicht garantiert."
+            },
+            {
+              "q": "Gibt es direkten XLSX-Export?",
+              "a": "Dieser Ablauf erzeugt CSV/JSON. Öffnen oder importieren Sie CSV selbst in Excel; direkter XLSX-Export wird nicht beschrieben."
+            },
+            {
+              "q": "Kann ich kostenlos beginnen?",
+              "a": "Free sammelt eine gewählte Seite, Pro mehrere. Die Vorbereitung ist lokal; Dateien übergeben Sie selbst an Excel oder externe KI."
+            }
+          ],
+          "guide": {
+            "title": "Die Tabelle passend verwenden",
+            "modes": [
+              [
+                "In Excel arbeiten",
+                "CSV importieren, Datentypen prüfen und Zeilen filtern oder sortieren. Kennungen bei Bedarf als Text erhalten."
+              ],
+              [
+                "Externe KI fragen",
+                "Tabelle und Quellen auswählen und Vergleich oder Zusammenfassung anfragen. Die Antwort am Original prüfen."
+              ]
+            ],
+            "examplesTitle": "Nützliche Fragen zu Tabellen",
+            "examples": [
+              [
+                "Bedingungen vergleichen",
+                "Vergleiche Zeilen nur mit gelieferten Werten. Behalte Einheiten und Fußnoten, nenne die Quelle und markiere fehlende Werte statt zu raten."
+              ],
+              [
+                "Liste prüfen",
+                "Finde doppelte Einträge und fehlende Felder. Erkläre die Regel und erhalte Originalwerte zur Prüfung."
+              ]
+            ],
+            "formatsTitle": "Dateien und Einstellungen",
+            "headers": [
+              "Ausgabe",
+              "Verwendung"
+            ],
+            "rows": [
+              [
+                "CSV / JSON",
+                "Tabellenexport bei seitenweiser Ausgabe oder vollständigem Paket aktivieren und Zellen prüfen."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "Quell-URLs und Erfassungsdaten der KI-Ausgabe helfen beim Quellencheck."
+              ],
+              [
+                "HTML",
+                "Kontext nachlesen und die Tabelle vergleichen."
+              ]
+            ]
+          },
+          "eyebrow": "Webtabellen als CSV"
+        },
+        "it": {
+          "title": "Tabelle web in CSV per Excel e IA | Grab All Files",
+          "h1": "Usa le tabelle web in Excel o IA.",
+          "desc": "Esporta tabelle web supportate in CSV, verifica colonne e unità e importa in Excel o fornisci file scelti a un’IA esterna.",
+          "lead": "Trasforma una tabella utile in dati da ordinare, filtrare e confrontare. Prepara i file tramite l’output IA del raccoglitore e scegli Excel o un’IA esterna. Controlla pagine e materiali utilizzati.",
+          "best": [
+            "Confrontare tariffe o criteri pubblicati con unità e note.",
+            "Filtrare liste pubblicate e controllare voci in Excel."
+          ],
+          "steps": [
+            "Apri la fonte consentita e scegli «Unisci pagine in HTML» nell’estensione. Scegli la pagina con la tabella.",
+            "Prima della raccolta attiva «Dati per analisi con IA (Markdown con fonti)», scegli «Markdown per pagina» o «Pacchetto completo» e «Esporta anche le tabelle come CSV/JSON».",
+            "Raccogli e salva lo ZIP IA. Confronta CSV/JSON con colonne, celle, unità e note originali. “Salva ZIP di analisi IA”",
+            "Importa CSV in Excel o consegna manualmente file accettati all’IA esterna. Verifica date, identificatori e risultati."
+          ],
+          "faq": [
+            {
+              "q": "È il CSV della lista dei file?",
+              "a": "No. Quel CSV elenca URL e metadati dei file. Questo flusso estrae tabelle HTML tramite l’output IA del raccoglitore."
+            },
+            {
+              "q": "Ogni tabella diventa CSV?",
+              "a": "Con output per pagina o pacchetto completo e tabelle attivate si estraggono tabelle HTML significative entro i limiti previsti. Sono escluse tabelle di impaginazione; immagini o tabelle in PDF non sono garantite."
+            },
+            {
+              "q": "Si esporta XLSX direttamente?",
+              "a": "Questo flusso crea CSV/JSON. Apri o importa CSV in Excel tu stesso; non si presenta un export XLSX diretto."
+            },
+            {
+              "q": "Posso iniziare gratis?",
+              "a": "Free raccoglie una pagina scelta; Pro ne seleziona più. I file si preparano localmente e li fornisci tu a Excel o IA esterna."
+            }
+          ],
+          "guide": {
+            "title": "Scegli come usare la tabella",
+            "modes": [
+              [
+                "Lavorare in Excel",
+                "Importa CSV, verifica i tipi e filtra o ordina righe. Mantieni gli identificatori come testo se serve."
+              ],
+              [
+                "Chiedere a un’IA esterna",
+                "Scegli tabella e fonti per un confronto o riassunto. Controlla la risposta con l’originale."
+              ]
+            ],
+            "examplesTitle": "Domande utili su una tabella",
+            "examples": [
+              [
+                "Confrontare condizioni",
+                "Confronta righe solo con i valori forniti. Mantieni unità e note, cita la fonte e segnala valori assenti senza indovinarli."
+              ],
+              [
+                "Controllare una lista",
+                "Identifica duplicati e campi vuoti. Spiega la regola e conserva i valori originali verificabili."
+              ]
+            ],
+            "formatsTitle": "File e impostazioni",
+            "headers": [
+              "Output",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "CSV / JSON",
+                "Attiva tabelle con output per pagina o pacchetto completo e controlla le celle estratte."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "URL fonte e date di acquisizione nell’output IA aiutano a verificare le fonti."
+              ],
+              [
+                "HTML",
+                "Rileggi il contesto e confronta la tabella."
+              ]
+            ]
+          },
+          "eyebrow": "Tabelle web in CSV"
+        },
+        "ko": {
+          "title": "웹 표를 CSV로 저장해 Excel·AI로 분석 | Grab All Files",
+          "h1": "웹 표를 Excel이나 AI에서 사용하세요.",
+          "desc": "지원되는 웹 표를 CSV로 내보내고 열과 단위를 확인한 후 Excel에 가져오거나 외부 AI에 선택한 파일을 전달하는 방법입니다.",
+          "lead": "필요한 웹 표를 정렬·필터·비교할 데이터로 준비하세요. 페이지 수집기의 AI 출력으로 표 파일을 만들고 Excel 또는 외부 AI에서 활용할 수 있습니다. 사용할 페이지와 자료는 직접 확인합니다.",
+          "best": [
+            "공개된 요금·조건 표를 단위와 주석을 유지해 비교합니다.",
+            "공개 목록을 Excel에서 필터링하고 항목을 확인합니다."
+          ],
+          "steps": [
+            "허용된 시작 페이지를 열고 확장 프로그램의 “페이지를 HTML로 합치기”를 선택합니다.표가 있는 페이지를 선택합니다.",
+            "수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 켜고 “페이지별 Markdown” 또는 “전체 패키지”, “표도 CSV/JSON으로 내보내기”를 선택합니다.",
+            "수집 후 AI ZIP을 저장합니다. CSV·JSON 표의 열·셀·단위·주석을 원본과 대조합니다. “AI 분석용 ZIP 저장”",
+            "CSV를 Excel로 가져오거나 지원 자료를 외부 AI에 직접 전달합니다. 날짜·식별번호와 분석 결과를 확인합니다."
+          ],
+          "faq": [
+            {
+              "q": "파일 목록 CSV와 같은 기능인가요?",
+              "a": "아니요. 파일 목록 CSV는 파일 URL과 정보를 나열합니다. 이 절차는 수집기의 AI 출력에서 HTML 표 데이터를 추출합니다."
+            },
+            {
+              "q": "모든 표가 CSV가 되나요?",
+              "a": "페이지별 또는 전체 패키지 출력에서 표 내보내기를 켜면 의미 있는 HTML 표를 지원 한도 안에서 추출합니다. 레이아웃 표는 제외되며 이미지나 PDF 화면 표의 변환은 보장하지 않습니다."
+            },
+            {
+              "q": "XLSX를 바로 출력하나요?",
+              "a": "이 절차는 CSV·JSON을 만듭니다. CSV는 직접 Excel로 열거나 가져오며 XLSX 직접 출력으로 안내하지 않습니다."
+            },
+            {
+              "q": "무료로 시작할 수 있나요?",
+              "a": "Free는 선택한 1페이지, Pro는 여러 본문을 수집합니다. 파일은 기기에서 준비하고 Excel이나 외부 AI에 직접 전달합니다."
+            }
+          ],
+          "guide": {
+            "title": "표를 사용할 목적에 맞게 선택",
+            "modes": [
+              [
+                "Excel에서 집계",
+                "CSV를 가져와 데이터 형식을 확인하고 행을 필터링·정렬합니다. 식별번호는 필요하면 텍스트로 유지합니다."
+              ],
+              [
+                "외부 AI로 비교",
+                "필요한 표와 출처 자료를 골라 비교나 요약을 요청하고 원본과 답변을 대조합니다."
+              ]
+            ],
+            "examplesTitle": "표에 맞춘 질문 예시",
+            "examples": [
+              [
+                "조건 비교",
+                "제공한 값으로만 행을 비교해 주세요. 단위·주석·출처를 유지하고 없는 값은 추측하지 말고 표시해 주세요."
+              ],
+              [
+                "목록 확인",
+                "중복 항목과 빈칸을 확인해 주세요. 판단 규칙을 설명하고 원래 값을 검토할 수 있게 남겨 주세요."
+              ]
+            ],
+            "formatsTitle": "출력 파일과 설정",
+            "headers": [
+              "출력",
+              "사용 방법"
+            ],
+            "rows": [
+              [
+                "CSV / JSON",
+                "페이지별 또는 전체 패키지 출력과 표 설정을 켜고 추출한 셀을 확인합니다."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "AI 출력의 출처 URL과 수집일로 자료의 출처를 확인합니다."
+              ],
+              [
+                "HTML",
+                "주변 설명을 읽고 표를 대조합니다."
+              ]
+            ]
+          },
+          "eyebrow": "웹 표를 CSV로 활용"
+        },
+        "pt_BR": {
+          "title": "Tabelas web em CSV para Excel e IA | Grab All Files",
+          "h1": "Use tabelas web no Excel ou na IA.",
+          "desc": "Exporte tabelas web compatíveis em CSV, confira colunas e unidades e importe no Excel ou entregue arquivos escolhidos a uma IA externa.",
+          "lead": "Transforme uma tabela útil em dados para ordenar, filtrar e comparar. Prepare arquivos pela saída IA do coletor e escolha Excel ou IA externa. Confira as páginas e os materiais utilizados.",
+          "best": [
+            "Comparar tarifas ou critérios publicados mantendo unidades e notas.",
+            "Filtrar listas publicadas e conferir entradas no Excel."
+          ],
+          "steps": [
+            "Abra a fonte permitida e escolha “Juntar páginas em HTML” na extensão. Escolha a página com a tabela.",
+            "Antes da coleta ative “Dados para análise com IA (Markdown com fontes)”, escolha “Markdown por página” ou “Pacote completo” e “Também exportar tabelas como CSV/JSON”.",
+            "Colete e salve o ZIP IA. Compare CSV/JSON com colunas, células, unidades e notas originais. “Salvar ZIP de análise IA”",
+            "Importe CSV no Excel ou entregue manualmente arquivos aceitos à IA externa. Confira datas, identificadores e resultados."
+          ],
+          "faq": [
+            {
+              "q": "É o CSV da lista de arquivos?",
+              "a": "Não. Esse CSV lista URLs e metadados dos arquivos. Este fluxo extrai dados de tabelas HTML pela saída IA do coletor."
+            },
+            {
+              "q": "Toda tabela vira CSV?",
+              "a": "Com saída por página ou pacote completo e tabelas ativadas, são extraídas tabelas HTML significativas dentro dos limites. Tabelas de layout são excluídas; imagens ou capturas PDF não são garantidas."
+            },
+            {
+              "q": "Exporta XLSX diretamente?",
+              "a": "Este fluxo produz CSV/JSON. Abra ou importe CSV no Excel você mesmo; não se apresenta exportação XLSX direta."
+            },
+            {
+              "q": "Posso começar grátis?",
+              "a": "O Free coleta uma página escolhida, o Pro várias. Os arquivos são preparados localmente e você os entrega ao Excel ou IA externa."
+            }
+          ],
+          "guide": {
+            "title": "Escolha como usar a tabela",
+            "modes": [
+              [
+                "Trabalhar no Excel",
+                "Importe CSV, confira tipos e filtre ou ordene linhas. Mantenha identificadores como texto quando necessário."
+              ],
+              [
+                "Perguntar à IA externa",
+                "Escolha tabela e fontes para pedir comparação ou resumo. Confira a resposta com o original."
+              ]
+            ],
+            "examplesTitle": "Perguntas úteis sobre tabelas",
+            "examples": [
+              [
+                "Comparar condições",
+                "Compare linhas usando apenas valores fornecidos. Preserve unidades e notas, cite a fonte e indique valores ausentes sem adivinhar."
+              ],
+              [
+                "Conferir uma lista",
+                "Identifique duplicatas e campos vazios. Explique a regra e deixe os valores originais verificáveis."
+              ]
+            ],
+            "formatsTitle": "Arquivos e configurações",
+            "headers": [
+              "Saída",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "CSV / JSON",
+                "Ative tabelas na saída por página ou pacote completo e confira as células extraídas."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "URLs e datas de captura da saída IA ajudam a conferir as fontes."
+              ],
+              [
+                "HTML",
+                "Leia o contexto e confira a tabela."
+              ]
+            ]
+          },
+          "eyebrow": "Tabelas web em CSV"
+        },
+        "zh_CN": {
+          "title": "网页表格保存为CSV供Excel与AI分析 | Grab All Files",
+          "h1": "将网页表格用于Excel或AI。",
+          "desc": "将支持的网页表格导出为CSV，检查列名与单位，再导入Excel或手动交给外部AI进行比较与分析。",
+          "lead": "将需要的网页表格整理为可排序、筛选与比较的数据。通过页面收集器的AI输出准备表格文件，选择在Excel或外部AI中使用。请确认使用的页面和资料。",
+          "best": [
+            "保留单位与注释，比较公开费用或条件表。",
+            "在Excel中筛选公开列表并检查条目。"
+          ],
+          "steps": [
+            "打开允许保存的来源，在扩展中选择“将网页合并为 HTML”。选择含表格的页面。",
+            "收集前启用“AI分析数据（带出处的Markdown）”，选择“按页Markdown”或“完整包”并启用“同时将表格导出为CSV/JSON”。",
+            "收集后保存AI ZIP，将CSV、JSON表格的列名、单元格、单位与注释同原表核对。 “保存AI分析ZIP”",
+            "将CSV导入Excel，或手动将支持的文件交给外部AI。检查日期、标识编号与分析结果。"
+          ],
+          "faq": [
+            {
+              "q": "这是文件列表CSV吗？",
+              "a": "不是。文件列表CSV记录文件URL和信息，此流程通过收集器的AI输出提取HTML表格数据。"
+            },
+            {
+              "q": "任何表格都能变成CSV吗？",
+              "a": "选择按页面或完整资料包并启用表格导出后，在支持范围内提取有意义的HTML表格。布局表格被排除，不保证图片或PDF画面中的表格能转为数据。"
+            },
+            {
+              "q": "能直接输出XLSX吗？",
+              "a": "此流程生成CSV、JSON。由您在Excel中打开或导入CSV，并非直接导出XLSX。"
+            },
+            {
+              "q": "可以从免费版开始吗？",
+              "a": "Free收集所选1页，Pro可选择多个页面正文。文件在设备上准备，由您交给Excel或外部AI。"
+            }
+          ],
+          "guide": {
+            "title": "按用途选择表格的使用方式",
+            "modes": [
+              [
+                "在Excel中处理",
+                "导入CSV后确认数据类型，再筛选、排序。需要时将标识编号作为文本保留。"
+              ],
+              [
+                "使用外部AI比较",
+                "选择相关表格和来源资料，请求比较或摘要，并将回答与原表核对。"
+              ]
+            ],
+            "examplesTitle": "针对表格提出问题",
+            "examples": [
+              [
+                "比较条件",
+                "请仅使用提供的值比较各行。保留单位与注释，引用来源，缺失值请明确标出，不要推测。"
+              ],
+              [
+                "检查列表",
+                "请查找重复条目与空白字段，解释判断规则，并保留可核对的原始值。"
+              ]
+            ],
+            "formatsTitle": "输出文件与设置",
+            "headers": [
+              "输出",
+              "用途"
+            ],
+            "rows": [
+              [
+                "CSV / JSON",
+                "选择按页面或完整资料包并启用表格导出，检查提取的单元格。"
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "利用AI输出的来源URL与采集时间核对出处。"
+              ],
+              [
+                "HTML",
+                "阅读周围说明，与表格内容核对。"
+              ]
+            ]
+          },
+          "eyebrow": "网页表格转CSV"
+        },
+        "zh_TW": {
+          "title": "網頁表格儲存為CSV供Excel與AI分析 | Grab All Files",
+          "h1": "將網頁表格用於Excel或AI。",
+          "desc": "將支援的網頁表格匯出為CSV，檢查欄名與單位，再匯入Excel或手動交給外部AI進行比較與分析。",
+          "lead": "將需要的網頁表格整理為可排序、篩選與比較的資料。透過頁面收集器的AI輸出準備表格檔案，選擇在Excel或外部AI中使用。請確認使用的頁面及資料。",
+          "best": [
+            "保留單位與註記，比較公開費用或條件表。",
+            "在Excel中篩選公開清單並檢查項目。"
+          ],
+          "steps": [
+            "開啟允許儲存的來源，在擴充功能中選擇「將網頁合併為 HTML」。選擇含表格的頁面。",
+            "收集前啟用「AI分析資料（附出處的Markdown）」，選擇「逐頁Markdown」或「完整套件」並啟用「同時將表格匯出為CSV/JSON」。",
+            "收集後儲存AI ZIP，將CSV、JSON表格的欄名、儲存格、單位與註記和原表核對。 “儲存AI分析ZIP”",
+            "將CSV匯入Excel，或手動將支援檔案交給外部AI。檢查日期、識別編號與分析結果。"
+          ],
+          "faq": [
+            {
+              "q": "這是檔案清單CSV嗎？",
+              "a": "不是。檔案清單CSV記錄檔案URL與資訊，此流程透過收集器的AI輸出擷取HTML表格資料。"
+            },
+            {
+              "q": "任何表格都能變成CSV嗎？",
+              "a": "選擇按頁面或完整資料包並啟用表格匯出後，在支援範圍內擷取有意義的HTML表格。排版表格會被排除，不保證圖片或PDF畫面中的表格能轉為資料。"
+            },
+            {
+              "q": "能直接輸出XLSX嗎？",
+              "a": "此流程產生CSV、JSON。由您在Excel中開啟或匯入CSV，並非直接匯出XLSX。"
+            },
+            {
+              "q": "可以從免費版開始嗎？",
+              "a": "Free收集所選1頁，Pro可選擇多個頁面本文。檔案在裝置上準備，由您交給Excel或外部AI。"
+            }
+          ],
+          "guide": {
+            "title": "依用途選擇表格的使用方式",
+            "modes": [
+              [
+                "在Excel中處理",
+                "匯入CSV後確認資料類型，再篩選、排序。需要時將識別編號保留為文字。"
+              ],
+              [
+                "使用外部AI比較",
+                "選擇相關表格與來源資料，請求比較或摘要，並將回答和原表核對。"
+              ]
+            ],
+            "examplesTitle": "針對表格提出問題",
+            "examples": [
+              [
+                "比較條件",
+                "請僅使用提供的值比較各列。保留單位與註記，引用來源，缺少值請明確標出，不要推測。"
+              ],
+              [
+                "檢查清單",
+                "請找出重複項目與空白欄位，解釋判斷規則，並保留可核對的原始值。"
+              ]
+            ],
+            "formatsTitle": "輸出檔案與設定",
+            "headers": [
+              "輸出",
+              "用途"
+            ],
+            "rows": [
+              [
+                "CSV / JSON",
+                "選擇按頁面或完整資料包並啟用表格匯出，檢查擷取的儲存格。"
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "利用AI輸出的來源URL與擷取時間核對出處。"
+              ],
+              [
+                "HTML",
+                "閱讀周圍說明，與表格內容核對。"
+              ]
+            ]
+          },
+          "eyebrow": "網頁表格轉CSV"
+        }
+      }
+    },
+    "save-and-compare-document-revisions": {
+      "path": "save-and-compare-document-revisions.html",
+      "related": [
+        "web-pages-for-reading-and-ai-analysis",
+        "save-online-manuals-and-knowledge-pages"
+      ],
+      "copy": {
+        "en": {
+          "title": "Save and compare document revisions | Grab All Files",
+          "h1": "Keep before and after. Review what changed.",
+          "desc": "Save material before and after an update, review the previous-collection change report and compare wording with saved originals or external tools.",
+          "lead": "Keep separate copies so you can explain which wording you reviewed. Use the collector’s previous-run change report to find affected pages, then read the before-and-after material or ask an external comparison tool or AI about the actual content.",
+          "best": [
+            "Check revised procedures, requirements or public guidance against a saved copy.",
+            "Retain the stated revision and source so an update can be explained later."
+          ],
+          "steps": [
+            "Open the permitted source and choose “Combine pages into HTML” in the extension. Select the pages and note the source’s stated revision yourself.",
+            "Save the collection with a recognisable before label. Later, manually collect the same site and comparable page scope and save a separate after copy.",
+            "After the later collection, save the previous-run change report. Check added, updated and removed-or-unavailable entries against collection results. “Save change report vs. previous run”",
+            "Read the two originals side by side or manually give supported before/after files to an external comparison tool or AI. Confirm any claimed change in the source wording."
+          ],
+          "faq": [
+            {
+              "q": "What does the built-in change report compare?",
+              "a": "The report uses this extension’s most recent completed collection before the current one on the same site. It summarises page-URL, title and collected-body changes, not line-by-line or official-revision interpretation. For arbitrary saved PDFs or other before/after files, compare their content in an external tool."
+            },
+            {
+              "q": "Does a removed entry prove the site deleted that page?",
+              "a": "No. It may reflect different selection, collection failure or unavailable content. Compare the page scope and results before treating it as a source deletion."
+            },
+            {
+              "q": "Does the extension watch for updates or recover old versions?",
+              "a": "You collect again manually. Use previously saved material or versions published by the source; automatic monitoring and recovery of an unseen older version are not described."
+            },
+            {
+              "q": "How do I identify the revision and use Free?",
+              "a": "Record the source’s revision yourself in titles or notes. AI output source URLs and capture dates help with tracing. Free selects one page; Pro can collect multiple page bodies."
+            }
+          ],
+          "guide": {
+            "title": "Separate change detection from content comparison",
+            "modes": [
+              [
+                "Find pages to review",
+                "Use the previous-collection report to narrow down added or changed pages. Keep collection scope comparable."
+              ],
+              [
+                "Compare the wording",
+                "Read saved originals or use external tools to compare requirements and exceptions. Verify findings in both versions."
+              ]
+            ],
+            "examplesTitle": "Ask for evidence of a change",
+            "examples": [
+              [
+                "Compare a procedure",
+                "Compare only the supplied before and after materials. List changed steps, requirements and exceptions with supporting passages and source URLs. Mark uncertain comparisons rather than inferring a revision."
+              ]
+            ],
+            "formatsTitle": "Keep a clear comparison set",
+            "headers": [
+              "Material",
+              "Role"
+            ],
+            "rows": [
+              [
+                "Before / after HTML",
+                "Store separately and read collected page content with context."
+              ],
+              [
+                "Previous-run Markdown report",
+                "Summarises changes relative to the same site’s previous completed collection."
+              ],
+              [
+                "Source notes / AI export",
+                "Record the manual’s stated revision yourself. Use AI source URLs and capture dates for checking."
+              ]
+            ]
+          },
+          "eyebrow": "Save & compare revisions"
+        },
+        "ja": {
+          "title": "改訂前後のWeb資料を保存して比較する | Grab All Files",
+          "h1": "改訂資料を保存・比較。",
+          "desc": "改訂前後の資料を分けて保存し、前回との差分レポートで対象ページを確認。原文や外部AI・比較ツールで、手順・条件・例外の変更を確かめる使い方です。",
+          "lead": "確認した時点の資料を残し、どの記載が変わったかを説明しやすく。ページ収集の前回との差分レポートで確認対象を絞り、前後の原文を読むか、外部AIや比較ツールへ資料を渡して内容を見比べます。",
+          "best": [
+            "手順・要件・公開案内の改訂を、保存済みの資料と照合する。",
+            "表記版と出典を控え、あとで変更内容を説明できるようにする。"
+          ],
+          "steps": [
+            "閲覧・保存が許可された起点ページを開き、拡張機能の「ページをHTMLにまとめる」を選びます。対象ページを選び、資料に表記された版は自分のメモへ控えます。",
+            "「改訂前」など分かる名前で収集資料を保存。あとで同じサイト・比較できる取得範囲を手動で再収集し、「改訂後」として別に保存します。",
+            "後の収集が完了したら、前回との差分レポートを保存します。追加・更新・削除または取得不可の項目を、収集結果と照合します。 “前回との差分レポートを保存”",
+            "前後の原文を並べて読むか、対応ファイルを外部AI・比較ツールへ自分で渡します。変更と判断した箇所は、両方の原文で確認します。"
+          ],
+          "faq": [
+            {
+              "q": "拡張機能の差分レポートは何を比べますか？",
+              "a": "この拡張機能で同じサイトを収集した直近の完了履歴と、ページURL・タイトル・取得本文を使って変化をまとめます。ページ単位の変化一覧で、行単位比較や公式の改訂判断ではありません。任意の手元PDFや別に保存した旧版ファイルの内容比較は、外部ツールへ資料を渡して行います。"
+            },
+            {
+              "q": "削除と出たら元サイトから消えたということですか？",
+              "a": "取得範囲の違い、取得失敗、内容の取得不可などの可能性があります。実際のサイト削除と判断する前に、選択範囲と収集結果を照合します。"
+            },
+            {
+              "q": "更新の監視や過去版の復元もしますか？",
+              "a": "再収集は利用者が手動で行います。保存済みの資料や元サイトが公開している過去版を使います。自動監視や、取得していない過去版の復元としては案内していません。"
+            },
+            {
+              "q": "資料の版や無料版の扱いは？",
+              "a": "元資料に表記された版は、利用者がタイトルやメモへ控えます。AI出力の元URL・取得日は出典の照合に使えます。無料版は選んだ1ページ、Proは複数ページ本文を収集できます。"
+            }
+          ],
+          "guide": {
+            "title": "変化の一覧と、内容の比較を使い分ける",
+            "modes": [
+              [
+                "確認するページを絞る",
+                "前回との差分レポートで、追加や更新されたページを確認します。比較できる取得範囲にそろえると照合しやすくなります。"
+              ],
+              [
+                "記載内容を見比べる",
+                "保存した原文を読むか、外部ツールで手順・条件・例外を比較します。結果は前後の原文で確認します。"
+              ]
+            ],
+            "examplesTitle": "変更の根拠を付けて質問する",
+            "examples": [
+              [
+                "手順の改訂確認",
+                "提供した改訂前・改訂後の資料だけを比較してください。変わった手順・要件・例外を、根拠の原文と出典URL付きで整理してください。比較できない点は推測せず明示してください。"
+              ]
+            ],
+            "formatsTitle": "前後を確認できる資料セット",
+            "headers": [
+              "資料",
+              "役割"
+            ],
+            "rows": [
+              [
+                "改訂前／改訂後のHTML",
+                "別に保存し、取得した本文と周囲の説明を読み返します。"
+              ],
+              [
+                "前回との差分Markdown",
+                "同じサイトの直近の完了済み収集からの変化を一覧にします。"
+              ],
+              [
+                "資料メモ／AI出力",
+                "表記版は自分で控え、AI出力の元URLと取得日を照合に使います。"
+              ]
+            ]
+          },
+          "eyebrow": "改訂前後の資料を比較"
+        },
+        "es": {
+          "title": "Guardar y comparar revisiones de documentos | Grab All Files",
+          "h1": "Conserva antes y después. Revisa los cambios.",
+          "desc": "Guarda materiales antes y después, revisa el informe de cambios de la recopilación anterior y compara el texto con originales o herramientas externas.",
+          "lead": "Conserva copias separadas para explicar qué texto revisaste. El informe de la recopilación anterior ayuda a localizar páginas afectadas; después lee los originales o entrega archivos a una herramienta externa o IA para comparar el contenido.",
+          "best": [
+            "Comprobar procedimientos o requisitos revisados frente a una copia guardada.",
+            "Conservar versión declarada y fuente para explicar una actualización."
+          ],
+          "steps": [
+            "Abre la fuente permitida y elige «Combinar páginas en HTML» en la extensión. Elige páginas y anota la revisión declarada.",
+            "Guarda el conjunto como «antes». Más tarde recopila manualmente el mismo sitio con un alcance comparable y guarda «después» por separado.",
+            "Tras la nueva recopilación guarda el informe de cambios. Contrasta añadidos, actualizados y eliminados o no disponibles con los resultados. “Guardar informe de cambios vs. ejecución anterior”",
+            "Lee los dos originales o entrega manualmente archivos compatibles a una herramienta externa o IA. Confirma cada cambio en los textos."
+          ],
+          "faq": [
+            {
+              "q": "¿Qué compara el informe integrado?",
+              "a": "Usa la última recopilación completada anterior del mismo sitio realizada por esta extensión. Resume cambios de URL, títulos y textos, sin comparación por líneas ni interpretación oficial. Para PDF guardados u otros archivos anteriores y posteriores, compara el contenido con una herramienta externa."
+            },
+            {
+              "q": "¿Eliminado significa que el sitio borró la página?",
+              "a": "No. Puede deberse a otra selección, errores o contenido no disponible. Compara alcance y resultados antes de concluir que se eliminó."
+            },
+            {
+              "q": "¿Vigila actualizaciones o recupera versiones antiguas?",
+              "a": "Tú recopilas de nuevo manualmente. Usa copias guardadas o versiones publicadas; no se presenta vigilancia automática ni recuperación de versiones nunca recopiladas."
+            },
+            {
+              "q": "¿Cómo registro la versión y uso Free?",
+              "a": "Anota tú mismo la versión en títulos o notas. URL y fechas del export IA ayudan a rastrear. Free elige una página; Pro puede recopilar varias."
+            }
+          ],
+          "guide": {
+            "title": "Distingue detección de cambios y comparación",
+            "modes": [
+              [
+                "Localizar páginas",
+                "Usa el informe anterior para enfocar páginas añadidas o modificadas y mantener un alcance comparable."
+              ],
+              [
+                "Comparar el texto",
+                "Lee originales o usa herramientas externas para requisitos y excepciones. Verifica hallazgos en ambas versiones."
+              ]
+            ],
+            "examplesTitle": "Pide evidencias de los cambios",
+            "examples": [
+              [
+                "Comparar procedimientos",
+                "Compara solo el material anterior y posterior proporcionado. Enumera pasos, requisitos y excepciones cambiados con pasajes y URL fuente; marca lo incierto sin inferir una revisión."
+              ]
+            ],
+            "formatsTitle": "Un conjunto claro de comparación",
+            "headers": [
+              "Material",
+              "Función"
+            ],
+            "rows": [
+              [
+                "HTML antes / después",
+                "Guarda por separado y lee el contenido con contexto."
+              ],
+              [
+                "Informe Markdown anterior",
+                "Resume cambios frente a la recopilación completada anterior del mismo sitio."
+              ],
+              [
+                "Notas / salida IA",
+                "Anota la versión declarada y usa URL y fechas IA para comprobar fuentes."
+              ]
+            ]
+          },
+          "eyebrow": "Guardar y comparar versiones"
+        },
+        "fr": {
+          "title": "Enregistrer et comparer les révisions | Grab All Files",
+          "h1": "Garder avant et après. Vérifier les changements.",
+          "desc": "Conservez les documents avant et après, consultez le rapport de la collecte précédente et comparez le texte avec les originaux ou des outils externes.",
+          "lead": "Gardez des copies séparées pour expliquer le texte consulté. Le rapport de la collecte précédente repère les pages concernées ; lisez ensuite les originaux ou utilisez un outil externe ou une IA pour comparer leur contenu.",
+          "best": [
+            "Contrôler procédures ou critères révisés face à une copie enregistrée.",
+            "Conserver la révision annoncée et la source pour expliquer une mise à jour."
+          ],
+          "steps": [
+            "Ouvrez la source autorisée puis «Regrouper les pages en HTML» dans l’extension. Choisissez les pages et notez la révision affichée.",
+            "Enregistrez un ensemble «avant». Plus tard, recollectez manuellement le même site avec un périmètre comparable et gardez «après» séparément.",
+            "Après la nouvelle collecte, enregistrez le rapport de changements. Comparez ajouts, mises à jour et suppressions ou indisponibilités aux résultats. “Enregistrer le rapport de modifications vs exécution précédente”",
+            "Lisez les originaux ou transmettez vous-même les fichiers acceptés à un outil externe ou IA. Confirmez chaque changement dans les textes."
+          ],
+          "faq": [
+            {
+              "q": "Que compare le rapport intégré ?",
+              "a": "Il utilise la dernière collecte terminée antérieure du même site réalisée dans cette extension. Il résume URL, titres et textes, sans comparaison ligne par ligne ni interprétation officielle. Comparez les PDF enregistrés ou autres fichiers avant/après dans un outil externe."
+            },
+            {
+              "q": "Une suppression prouve-t-elle le retrait sur le site ?",
+              "a": "Non. Elle peut refléter sélection différente, échec ou contenu indisponible. Comparez périmètre et résultats avant de conclure."
+            },
+            {
+              "q": "Surveille-t-il les mises à jour ou récupère-t-il des versions ?",
+              "a": "Vous recollectez manuellement. Utilisez les copies conservées ou versions publiées ; aucune surveillance automatique ni récupération d’une version jamais collectée n’est présentée."
+            },
+            {
+              "q": "Comment noter la révision et utiliser Free ?",
+              "a": "Notez vous-même la révision dans titre ou notes. URL et dates de l’export IA aident au suivi. Free sélectionne une page ; Pro peut en collecter plusieurs."
+            }
+          ],
+          "guide": {
+            "title": "Séparer repérage et comparaison du contenu",
+            "modes": [
+              [
+                "Repérer les pages",
+                "Le rapport précédent aide à cibler les pages ajoutées ou modifiées avec un périmètre comparable."
+              ],
+              [
+                "Comparer les textes",
+                "Lisez les originaux ou utilisez des outils externes pour critères et exceptions. Vérifiez dans les deux versions."
+              ]
+            ],
+            "examplesTitle": "Demander les preuves d’un changement",
+            "examples": [
+              [
+                "Comparer une procédure",
+                "Comparez uniquement les documents avant et après fournis. Listez étapes, critères et exceptions modifiés avec passages et URL sources. Signalez les incertitudes sans déduire une révision."
+              ]
+            ],
+            "formatsTitle": "Un ensemble de comparaison clair",
+            "headers": [
+              "Document",
+              "Rôle"
+            ],
+            "rows": [
+              [
+                "HTML avant / après",
+                "Conserver séparément et relire le contexte."
+              ],
+              [
+                "Rapport Markdown précédent",
+                "Résume les changements depuis la collecte terminée précédente du même site."
+              ],
+              [
+                "Notes / export IA",
+                "Notez la révision affichée et utilisez URL et dates IA pour vérifier."
+              ]
+            ]
+          },
+          "eyebrow": "Enregistrer et comparer les versions"
+        },
+        "de": {
+          "title": "Dokumentstände speichern und vergleichen | Grab All Files",
+          "h1": "Vorher und nachher sichern. Änderungen prüfen.",
+          "desc": "Material vor und nach einer Änderung sichern, den Bericht zur vorherigen Sammlung prüfen und Formulierungen mit Originalen oder externen Werkzeugen vergleichen.",
+          "lead": "Bewahren Sie getrennte Kopien auf, um geprüfte Formulierungen nachvollziehbar zu machen. Der Bericht zur vorherigen Sammlung zeigt betroffene Seiten; lesen Sie danach die Originale oder vergleichen Sie Inhalte mit externen Werkzeugen oder KI.",
+          "best": [
+            "Geänderte Abläufe oder Voraussetzungen mit gesicherten Kopien prüfen.",
+            "Angegebene Revision und Quelle für spätere Erläuterungen erhalten."
+          ],
+          "steps": [
+            "Öffnen Sie die erlaubte Quelle und wählen Sie „Seiten als HTML bündeln“ in der Erweiterung. Wählen Sie Seiten und notieren Sie die genannte Revision.",
+            "Speichern Sie einen erkennbaren Vorher-Stand. Sammeln Sie später dieselbe Site manuell mit vergleichbarem Umfang und speichern Sie einen separaten Nachher-Stand.",
+            "Speichern Sie nach der neuen Sammlung den Änderungsbericht. Prüfen Sie hinzugefügte, aktualisierte und entfernte oder nicht verfügbare Einträge an den Ergebnissen. “Änderungsbericht zum vorherigen Lauf speichern”",
+            "Lesen Sie beide Originale oder geben Sie passende Dateien selbst an externe Werkzeuge oder KI. Prüfen Sie behauptete Änderungen an den Texten."
+          ],
+          "faq": [
+            {
+              "q": "Was vergleicht der eingebaute Bericht?",
+              "a": "Er nutzt die zuletzt abgeschlossene vorherige Sammlung derselben Site in dieser Erweiterung. Er fasst URLs, Titel und gesammelte Texte zusammen, ohne zeilenweisen Vergleich oder offizielle Revisionsbewertung. Beliebige gespeicherte PDFs oder andere Vorher-/Nachher-Dateien vergleichen Sie in externen Werkzeugen."
+            },
+            {
+              "q": "Beweist entfernt eine Löschung auf der Site?",
+              "a": "Nein. Andere Auswahl, Fehler oder nicht erreichbare Inhalte sind möglich. Prüfen Sie Umfang und Ergebnisse zuerst."
+            },
+            {
+              "q": "Überwacht es Änderungen oder stellt alte Versionen wieder her?",
+              "a": "Sie sammeln erneut manuell. Verwenden Sie gesicherte oder veröffentlichte Versionen; automatische Überwachung und Wiederherstellung nie gesammelter Stände werden nicht beschrieben."
+            },
+            {
+              "q": "Wie notiere ich Revisionen und nutze Free?",
+              "a": "Notieren Sie die Revision selbst im Titel oder in Notizen. KI-Quell-URLs und Erfassungsdaten helfen beim Nachweis. Free wählt eine Seite, Pro mehrere."
+            }
+          ],
+          "guide": {
+            "title": "Änderungsübersicht und Textvergleich trennen",
+            "modes": [
+              [
+                "Seiten eingrenzen",
+                "Der Bericht zur vorherigen Sammlung zeigt neue oder geänderte Seiten bei vergleichbarem Umfang."
+              ],
+              [
+                "Formulierungen vergleichen",
+                "Originale lesen oder externe Werkzeuge für Voraussetzungen und Ausnahmen nutzen. Beide Stände prüfen."
+              ]
+            ],
+            "examplesTitle": "Änderungen mit Belegen anfragen",
+            "examples": [
+              [
+                "Ablauf vergleichen",
+                "Vergleiche nur geliefertes Vorher- und Nachher-Material. Liste geänderte Schritte, Voraussetzungen und Ausnahmen mit Quellenstellen und URLs. Markiere unsichere Vergleiche statt Revisionen zu vermuten."
+              ]
+            ],
+            "formatsTitle": "Ein nachvollziehbarer Vergleichssatz",
+            "headers": [
+              "Material",
+              "Rolle"
+            ],
+            "rows": [
+              [
+                "Vorher- / Nachher-HTML",
+                "Getrennt sichern und im Kontext lesen."
+              ],
+              [
+                "Vorheriger Markdown-Bericht",
+                "Änderungen zur vorherigen abgeschlossenen Sammlung derselben Site zusammenfassen."
+              ],
+              [
+                "Notizen / KI-Ausgabe",
+                "Genannte Revision selbst notieren und KI-URLs und Daten prüfen."
+              ]
+            ]
+          },
+          "eyebrow": "Dokumentstände vergleichen"
+        },
+        "it": {
+          "title": "Salvare e confrontare revisioni dei documenti | Grab All Files",
+          "h1": "Conserva prima e dopo. Verifica i cambiamenti.",
+          "desc": "Salva materiali prima e dopo, consulta il rapporto della raccolta precedente e confronta il testo con originali o strumenti esterni.",
+          "lead": "Conserva copie separate per spiegare quale testo hai verificato. Il rapporto della raccolta precedente individua le pagine interessate; poi leggi gli originali o usa strumenti esterni o IA per confrontare il contenuto.",
+          "best": [
+            "Controllare procedure o requisiti aggiornati con una copia salvata.",
+            "Conservare revisione dichiarata e fonte per spiegare un aggiornamento."
+          ],
+          "steps": [
+            "Apri la fonte consentita e scegli «Unisci pagine in HTML» nell’estensione. Scegli le pagine e annota la revisione dichiarata.",
+            "Salva un insieme «prima». Più tardi raccogli manualmente lo stesso sito con un ambito comparabile e salva «dopo» separatamente.",
+            "Dopo la nuova raccolta salva il rapporto di cambiamenti. Confronta aggiunte, aggiornamenti e voci rimosse o non disponibili con i risultati. “Salva rapporto modifiche vs esecuzione precedente”",
+            "Leggi i due originali o fornisci manualmente file accettati a strumenti esterni o IA. Conferma i cambiamenti nei testi."
+          ],
+          "faq": [
+            {
+              "q": "Cosa confronta il rapporto integrato?",
+              "a": "Usa l’ultima raccolta completata precedente dello stesso sito effettuata in questa estensione. Riassume URL, titoli e testi senza confronto riga per riga o interpretazione ufficiale. Per PDF salvati o altri file prima/dopo confronta i contenuti con uno strumento esterno."
+            },
+            {
+              "q": "Rimosso prova che il sito ha eliminato la pagina?",
+              "a": "No. Può dipendere da selezione, errori o contenuti non disponibili. Confronta ambito e risultati prima."
+            },
+            {
+              "q": "Monitora aggiornamenti o recupera vecchie versioni?",
+              "a": "Raccogli di nuovo manualmente. Usa copie salvate o versioni pubblicate; non si descrivono monitoraggio automatico o recupero di versioni mai raccolte."
+            },
+            {
+              "q": "Come registro revisioni e uso Free?",
+              "a": "Annota la revisione in titoli o note. URL e date nell’output IA aiutano la tracciabilità. Free sceglie una pagina; Pro può raccoglierne più."
+            }
+          ],
+          "guide": {
+            "title": "Separare rilevamento e confronto del testo",
+            "modes": [
+              [
+                "Individuare pagine",
+                "Il rapporto precedente aiuta a scegliere pagine nuove o modificate con ambito comparabile."
+              ],
+              [
+                "Confrontare le parole",
+                "Leggi originali o usa strumenti esterni per requisiti ed eccezioni. Verifica entrambe le versioni."
+              ]
+            ],
+            "examplesTitle": "Chiedere prove dei cambiamenti",
+            "examples": [
+              [
+                "Confrontare una procedura",
+                "Confronta solo materiali prima e dopo forniti. Elenca passi, requisiti ed eccezioni cambiati con passaggi e URL fonte. Segnala confronti incerti senza dedurre una revisione."
+              ]
+            ],
+            "formatsTitle": "Un insieme chiaro per il confronto",
+            "headers": [
+              "Materiale",
+              "Ruolo"
+            ],
+            "rows": [
+              [
+                "HTML prima / dopo",
+                "Salva separatamente e rileggi il contesto."
+              ],
+              [
+                "Rapporto Markdown precedente",
+                "Riassume cambiamenti rispetto alla raccolta completata precedente dello stesso sito."
+              ],
+              [
+                "Note / output IA",
+                "Annota la revisione dichiarata e usa URL e date IA per controllare."
+              ]
+            ]
+          },
+          "eyebrow": "Salvare e confrontare versioni"
+        },
+        "ko": {
+          "title": "개정 전후 웹자료를 저장해 비교하기 | Grab All Files",
+          "h1": "개정 전후 자료를 쉽게 비교하세요.",
+          "desc": "전후 자료를 따로 저장하고 이전 수집과의 변경 보고서로 대상 페이지를 확인합니다. 원문이나 외부 AI·비교 도구로 절차와 조건의 변화를 확인하세요.",
+          "lead": "확인한 시점의 자료를 남겨 어떤 문구가 변했는지 설명하기 쉽게 만드세요. 이전 수집 변경 보고서로 대상을 좁히고 전후 원문을 읽거나 외부 비교 도구·AI로 내용을 비교할 수 있습니다.",
+          "best": [
+            "절차·요건·공개 안내의 개정을 저장 자료와 대조합니다.",
+            "표기된 버전과 출처를 남겨 나중에 변경을 설명합니다."
+          ],
+          "steps": [
+            "허용된 시작 페이지를 열고 확장 프로그램의 “페이지를 HTML로 합치기”를 선택합니다.페이지를 선택하고 표기된 버전을 직접 메모합니다.",
+            "‘개정 전’처럼 알아볼 이름으로 저장합니다. 나중에 같은 사이트의 비교 가능한 범위를 직접 재수집해 ‘개정 후’를 따로 저장합니다.",
+            "다음 수집이 완료되면 이전 수집과의 변경 보고서를 저장하고 추가·갱신·삭제 또는 이용 불가 항목을 결과와 비교합니다. “이전 실행과의 변경 보고서 저장”",
+            "원문을 나란히 읽거나 지원 파일을 외부 AI·비교 도구에 직접 전달합니다. 변경 판단은 양쪽 원문에서 확인합니다."
+          ],
+          "faq": [
+            {
+              "q": "기본 변경 보고서는 무엇을 비교하나요?",
+              "a": "이 확장 프로그램에서 같은 사이트를 수집한 직전 완료 기록과 URL·제목·수집 본문으로 변화를 요약합니다. 줄 단위 비교나 공식 개정 판단은 아닙니다. 임의의 저장 PDF나 다른 전후 파일은 외부 도구에서 내용을 비교합니다."
+            },
+            {
+              "q": "삭제 표시는 원사이트 삭제를 뜻하나요?",
+              "a": "선택 범위 차이·수집 실패·접근 불가 때문일 수도 있습니다. 범위와 결과를 확인한 후 판단하세요."
+            },
+            {
+              "q": "업데이트 감시나 과거 버전 복원도 하나요?",
+              "a": "재수집은 직접 실행합니다. 이미 저장했거나 사이트가 공개한 과거 자료를 사용하며 자동 감시나 미수집 과거 버전 복원으로 안내하지 않습니다."
+            },
+            {
+              "q": "버전 기록과 무료 이용은 어떻게 하나요?",
+              "a": "자료 버전은 제목이나 메모에 직접 적습니다. AI 출력의 출처 URL·수집일은 대조에 쓸 수 있습니다. Free는 1페이지, Pro는 여러 본문을 수집합니다."
+            }
+          ],
+          "guide": {
+            "title": "변경 목록과 내용 비교를 나눠 사용",
+            "modes": [
+              [
+                "확인할 페이지 선택",
+                "이전 보고서에서 추가·변경 페이지를 확인하고 비교 가능한 범위를 유지합니다."
+              ],
+              [
+                "문구 비교",
+                "원문을 읽거나 외부 도구로 조건·예외를 비교하고 전후 원문에서 확인합니다."
+              ]
+            ],
+            "examplesTitle": "변경 근거와 함께 질문하기",
+            "examples": [
+              [
+                "절차 개정 확인",
+                "제공한 전후 자료만 비교해 주세요. 달라진 단계·요건·예외를 근거 원문과 출처 URL로 정리하고 불확실한 부분은 추측하지 말고 표시해 주세요."
+              ]
+            ],
+            "formatsTitle": "전후를 확인할 자료 세트",
+            "headers": [
+              "자료",
+              "역할"
+            ],
+            "rows": [
+              [
+                "전후 HTML",
+                "따로 저장하고 수집 내용과 주변 설명을 읽습니다."
+              ],
+              [
+                "이전 변경 Markdown 보고서",
+                "같은 사이트의 이전 완료 수집과의 변화를 요약합니다."
+              ],
+              [
+                "메모 / AI 출력",
+                "표기 버전을 직접 기록하고 AI 출처 URL·수집일로 확인합니다."
+              ]
+            ]
+          },
+          "eyebrow": "개정 전후 자료 비교"
+        },
+        "pt_BR": {
+          "title": "Salvar e comparar revisões de documentos | Grab All Files",
+          "h1": "Guarde antes e depois. Confira as mudanças.",
+          "desc": "Salve materiais antes e depois, revise o relatório da coleta anterior e compare a redação com originais ou ferramentas externas.",
+          "lead": "Guarde cópias separadas para explicar qual texto você conferiu. O relatório da coleta anterior indica páginas afetadas; depois leia os originais ou use ferramentas externas ou IA para comparar o conteúdo.",
+          "best": [
+            "Conferir procedimentos ou requisitos revisados com uma cópia salva.",
+            "Manter revisão declarada e fonte para explicar atualizações."
+          ],
+          "steps": [
+            "Abra a fonte permitida e escolha “Juntar páginas em HTML” na extensão. Escolha as páginas e anote a revisão declarada.",
+            "Salve um conjunto ‘antes’. Depois colete manualmente o mesmo site com escopo comparável e guarde ‘depois’ separadamente.",
+            "Após a nova coleta salve o relatório de mudanças. Confira itens adicionados, atualizados e removidos ou indisponíveis com os resultados. “Salvar relatório de mudanças vs. execução anterior”",
+            "Leia os dois originais ou entregue arquivos aceitos manualmente a ferramenta externa ou IA. Confirme mudanças nos textos."
+          ],
+          "faq": [
+            {
+              "q": "O que o relatório integrado compara?",
+              "a": "Usa a coleta concluída anterior mais recente do mesmo site nesta extensão. Resume URLs, títulos e textos, sem comparação linha a linha ou interpretação oficial. Compare PDFs salvos ou outros arquivos antes/depois com ferramentas externas."
+            },
+            {
+              "q": "Removido prova exclusão no site?",
+              "a": "Não. Pode refletir seleção diferente, falhas ou conteúdo indisponível. Confira escopo e resultados antes de concluir."
+            },
+            {
+              "q": "Monitora atualizações ou recupera versões antigas?",
+              "a": "Você coleta novamente de forma manual. Use cópias salvas ou versões publicadas; não se descrevem monitoramento automático ou recuperação de versões nunca coletadas."
+            },
+            {
+              "q": "Como registro revisão e uso Free?",
+              "a": "Anote a revisão em títulos ou notas. URLs e datas do export IA ajudam a rastrear. O Free escolhe uma página; o Pro pode coletar várias."
+            }
+          ],
+          "guide": {
+            "title": "Separe identificação e comparação do conteúdo",
+            "modes": [
+              [
+                "Localizar páginas",
+                "O relatório anterior ajuda a focar páginas novas ou alteradas com escopo comparável."
+              ],
+              [
+                "Comparar a redação",
+                "Leia originais ou use ferramentas externas para requisitos e exceções. Confira nas duas versões."
+              ]
+            ],
+            "examplesTitle": "Peça evidências de uma mudança",
+            "examples": [
+              [
+                "Comparar procedimento",
+                "Compare apenas os materiais antes e depois fornecidos. Liste etapas, requisitos e exceções alterados com trechos e URLs fonte. Marque incertezas sem inferir uma revisão."
+              ]
+            ],
+            "formatsTitle": "Um conjunto claro para comparar",
+            "headers": [
+              "Material",
+              "Papel"
+            ],
+            "rows": [
+              [
+                "HTML antes / depois",
+                "Guarde separado e leia o contexto."
+              ],
+              [
+                "Relatório Markdown anterior",
+                "Resume mudanças frente à coleta concluída anterior do mesmo site."
+              ],
+              [
+                "Notas / saída IA",
+                "Anote a revisão declarada e use URLs e datas IA para conferir."
+              ]
+            ]
+          },
+          "eyebrow": "Salvar e comparar revisões"
+        },
+        "zh_CN": {
+          "title": "保存修订前后的网页资料并比较 | Grab All Files",
+          "h1": "保留前后资料，方便核对变化。",
+          "desc": "分别保存修订前后资料，用与前次收集比较的报告确定页面，再通过原文或外部AI、比较工具核对步骤、条件与例外的变化。",
+          "lead": "保留确认时的资料，便于解释哪些文字发生变化。先用前次收集变化报告找到相关页面，再阅读前后原文，或将资料交给外部比较工具、AI比较内容。",
+          "best": [
+            "将修订后的步骤、要求或公开说明与保存副本核对。",
+            "记录标明的版本和来源，便于以后说明更新。"
+          ],
+          "steps": [
+            "打开允许保存的来源，在扩展中选择“将网页合并为 HTML”。选择页面并自行记录资料标明的版本。",
+            "以“修订前”等清晰名称保存。之后手动重新收集同一网站的可比较范围，另存“修订后”。",
+            "后次收集完成后保存与前次比较的变化报告，将新增、更新、移除或无法获取的条目同结果核对。 “保存与上次收集的变更报告”",
+            "并排阅读原文，或手动将支持的文件交给外部AI、比较工具。判断为变化的内容须在两份原文中确认。"
+          ],
+          "faq": [
+            {
+              "q": "内置变化报告比较什么？",
+              "a": "它使用本扩展在同一网站本次之前最近完成的收集，通过URL、标题和正文汇总变化，不是逐行比较或官方修订判断。任意已保存PDF或其他前后文件的内容，请交给外部工具比较。"
+            },
+            {
+              "q": "移除表示原网站删除页面吗？",
+              "a": "可能是选择范围不同、收集失败或内容无法获取。请先比较范围和结果再作判断。"
+            },
+            {
+              "q": "会监控更新或恢复旧版吗？",
+              "a": "由您手动重新收集，使用已保存资料或来源公开的旧版。此处不介绍自动监控或恢复从未收集的旧资料。"
+            },
+            {
+              "q": "如何记录版本及使用Free？",
+              "a": "资料版本由您写在标题或备注中。AI输出的来源URL与采集时间有助核对。Free选择1页，Pro可收集多个页面正文。"
+            }
+          ],
+          "guide": {
+            "title": "区分变化列表与内容比较",
+            "modes": [
+              [
+                "确定核对页面",
+                "用前次报告找到新增或更新的页面，并保持可比较的收集范围。"
+              ],
+              [
+                "比较文字",
+                "阅读原文或用外部工具比较要求与例外，在前后两份来源中验证。"
+              ]
+            ],
+            "examplesTitle": "要求提供变化的依据",
+            "examples": [
+              [
+                "核对步骤修订",
+                "请仅比较提供的修订前后资料，列出变化的步骤、要求与例外，附原文和来源URL。不确定的比较请明确标出，不要推测修订。"
+              ]
+            ],
+            "formatsTitle": "准备清晰的前后资料集",
+            "headers": [
+              "资料",
+              "作用"
+            ],
+            "rows": [
+              [
+                "前后HTML",
+                "分别保存并阅读正文及上下文。"
+              ],
+              [
+                "前次变化Markdown报告",
+                "汇总同一网站前次已完成收集以来的变化。"
+              ],
+              [
+                "备注 / AI输出",
+                "手动记录版本，利用AI来源URL和采集时间核对。"
+              ]
+            ]
+          },
+          "eyebrow": "保存并比较修订前后资料"
+        },
+        "zh_TW": {
+          "title": "儲存修訂前後的網頁資料並比較 | Grab All Files",
+          "h1": "保留前後資料，方便核對變化。",
+          "desc": "分別儲存修訂前後資料，用與前次收集比較的報告確認頁面，再透過原文或外部AI、比較工具核對步驟、條件及例外的變化。",
+          "lead": "保留確認時的資料，便於解釋哪些文字發生變化。先用前次收集變化報告找到相關頁面，再閱讀前後原文，或將資料交給外部比較工具、AI比較內容。",
+          "best": [
+            "將修訂後的步驟、要求或公開說明與儲存副本核對。",
+            "記錄標明的版本及來源，便於日後說明更新。"
+          ],
+          "steps": [
+            "開啟允許儲存的來源，在擴充功能中選擇「將網頁合併為 HTML」。選擇頁面並自行記錄資料標明的版本。",
+            "以「修訂前」等清楚名稱儲存。之後手動重新收集同一網站的可比較範圍，另存「修訂後」。",
+            "後次收集完成後儲存與前次比較的變化報告，將新增、更新、移除或無法取得的項目和結果核對。 “儲存與上次收集的變更報告”",
+            "並排閱讀原文，或手動將支援檔案交給外部AI、比較工具。判斷為變化的內容須在兩份原文中確認。"
+          ],
+          "faq": [
+            {
+              "q": "內建變化報告比較什麼？",
+              "a": "它使用本擴充功能在同一網站本次之前最近完成的收集，透過URL、標題及本文彙整變化，不是逐行比較或官方修訂判斷。任意已儲存PDF或其他前後檔案的內容，請交給外部工具比較。"
+            },
+            {
+              "q": "移除表示原網站刪除頁面嗎？",
+              "a": "可能是選擇範圍不同、收集失敗或內容無法取得。請先比較範圍和結果再判斷。"
+            },
+            {
+              "q": "會監控更新或恢復舊版嗎？",
+              "a": "由您手動重新收集，使用已儲存資料或來源公開的舊版。此處不介紹自動監控或恢復從未收集的舊資料。"
+            },
+            {
+              "q": "如何記錄版本及使用Free？",
+              "a": "資料版本由您寫在標題或備註中。AI輸出的來源URL與擷取時間有助核對。Free選擇1頁，Pro可收集多個頁面本文。"
+            }
+          ],
+          "guide": {
+            "title": "區分變化清單與內容比較",
+            "modes": [
+              [
+                "確認核對頁面",
+                "用前次報告找到新增或更新的頁面，並保持可比較的收集範圍。"
+              ],
+              [
+                "比較文字",
+                "閱讀原文或用外部工具比較要求與例外，在前後兩份來源中驗證。"
+              ]
+            ],
+            "examplesTitle": "要求提供變化的依據",
+            "examples": [
+              [
+                "核對步驟修訂",
+                "請僅比較提供的修訂前後資料，列出變化的步驟、要求及例外，附原文和來源URL。不確定的比較請明確標出，不要推測修訂。"
+              ]
+            ],
+            "formatsTitle": "準備清楚的前後資料集",
+            "headers": [
+              "資料",
+              "作用"
+            ],
+            "rows": [
+              [
+                "前後HTML",
+                "分別儲存並閱讀本文及上下文。"
+              ],
+              [
+                "前次變化Markdown報告",
+                "彙整同一網站前次已完成收集以來的變化。"
+              ],
+              [
+                "備註 / AI輸出",
+                "手動記錄版本，利用AI來源URL及擷取時間核對。"
+              ]
+            ]
+          },
+          "eyebrow": "儲存並比較修訂前後資料"
+        }
+      }
+    },
+    "rename-and-organize-bulk-pdf-downloads": {
+      "path": "rename-and-organize-bulk-pdf-downloads.html",
+      "related": [
+        "download-all-pdfs",
+        "internal-portal-downloads"
+      ],
+      "copy": {
+        "en": {
+          "title": "Name PDF downloads and organise files by type | Grab All Files",
+          "h1": "Give PDFs useful names. Keep files organised.",
+          "desc": "Save PDFs using retrieved or edited titles, choose file-type or source-site folders and check the downloaded results. Keep original names when more useful.",
+          "lead": "A readable filename and a predictable folder make a document set easier to revisit. Review the titles found for your PDFs, choose a naming mode, and organise a mixed file set by format or source site. Check the saved results rather than assuming every title is useful.",
+          "best": [
+            "Keep PDFs from a manual or public-document list easier to recognise.",
+            "Separate a mixed set of PDFs, spreadsheets and other files by format."
+          ],
+          "steps": [
+            "Open a page you are permitted to use and scan for downloadable files. Filter the results to the PDFs you need.",
+            "Review each selected title and original filename. Edit a title when appropriate; keep the original name if it identifies the document better.",
+            "Choose “Save as”: “Auto (title when usable)”, “Title” or “Original file name”. For “Organize”, choose “By type”, “By domain” or “No folders”.",
+            "Download the selected files or create a ZIP. Check filenames, extensions, grouping, duplicates and any failed downloads in the saved result."
+          ],
+          "faq": [
+            {
+              "q": "Does it always find the PDF’s real title?",
+              "a": "No. Available metadata or page headings may be missing or generic. Review the retrieved title; automatic mode can use the original filename when no useful title is found."
+            },
+            {
+              "q": "Does type grouping understand document subjects?",
+              "a": "It groups files by file type or source domain, not by an inferred business subject. A PDF-only set is still the same file format."
+            },
+            {
+              "q": "Can I choose any destination folder in every browser?",
+              "a": "Destination depends on browser support and download settings. Chromium can offer a folder picker; Firefox uses its Downloads/GrabAllFiles route. Check the resulting destination."
+            },
+            {
+              "q": "Can I keep using Free for a large set?",
+              "a": "The naming and grouping settings are also available in Free. Free file actions use the version-specific per-run cap shown on this page; select the next batch and repeat. Pro removes that file-count cap. Scan and review the results before saving."
+            }
+          ],
+          "guide": {
+            "title": "Names and folders serve different purposes",
+            "modes": [
+              [
+                "Recognise a document",
+                "Use a meaningful retrieved or edited title, or deliberately keep the original filename. Check the extension as well."
+              ],
+              [
+                "Find a file set",
+                "Group a mixed set by file type or source site. Choose no grouping when a single folder is easier."
+              ]
+            ],
+            "examplesTitle": "Decide what makes a name useful",
+            "examples": [
+              [
+                "Procedure materials",
+                "Check that titles distinguish the procedure, required documents and supporting guidance. Add a stated revision to your own title only after confirming it."
+              ],
+              [
+                "Mixed reference set",
+                "Keep PDFs and spreadsheets in file-type groups, and verify that the files you expected were saved."
+              ]
+            ],
+            "formatsTitle": "Save-name and grouping choices",
+            "headers": [
+              "Choice",
+              "Use"
+            ],
+            "rows": [
+              [
+                "Automatic / title / original name",
+                "Choose based on the title quality and the original name. Title mode can retain generic titles, so review them."
+              ],
+              [
+                "File type / domain / no grouping",
+                "Organise by format or source site; this is not automatic subject classification."
+              ],
+              [
+                "Download / ZIP",
+                "Use an ordinary file set or archive and check the saved structure."
+              ]
+            ]
+          },
+          "eyebrow": "Name & organise PDF downloads"
+        },
+        "ja": {
+          "title": "大量PDFを題名で保存・ファイル形式別に整理 | Grab All Files",
+          "h1": "PDFを題名で整理。",
+          "desc": "取得したタイトルや編集した題名でPDFを保存し、ファイル形式・取得元サイト別に整理する手順。元のファイル名との使い分けと保存結果の確認も紹介します。",
+          "lead": "読み返せる名前と整理されたフォルダで、資料セットを探しやすく。PDFのタイトルを確認して保存名を選び、PDFや表計算ファイルが混じった資料は形式・取得元で整理できます。取得した題名が適切か、保存後の結果も確かめます。",
+          "best": [
+            "マニュアルや公開資料のPDFを、名前から見つけやすくする。",
+            "PDF・表計算・その他のファイルを、形式別にまとめる。"
+          ],
+          "steps": [
+            "利用が許可されたページでファイルをスキャンし、必要なPDFに絞って選択します。",
+            "選択したタイトルと元のファイル名を確認します。必要ならタイトルを編集し、元の名前の方が分かりやすければ残します。",
+            "「保存名」で「自動（タイトル優先）」「タイトル」「元のファイル名」を選びます。「整理」は「種類別」「ドメイン別」「フォルダ分けなし」から選べます。",
+            "選択したファイルをダウンロードするかZIP保存します。保存された名前・拡張子・分類・重複・取得失敗を確認します。"
+          ],
+          "faq": [
+            {
+              "q": "PDFの本来の題名が必ず分かりますか？",
+              "a": "取得できるメタデータやページ見出しがない、汎用的な場合があります。取得したタイトルを確認し、自動モードでは有用なタイトルがなければ元のファイル名を使えます。"
+            },
+            {
+              "q": "種類別は資料の内容を自動分類しますか？",
+              "a": "ファイル形式や取得元ドメインによる整理です。業務上の内容を推測して分類するものではありません。PDFだけの資料は同じファイル形式です。"
+            },
+            {
+              "q": "どのブラウザでも任意フォルダを選べますか？",
+              "a": "保存先はブラウザの対応やダウンロード設定に従います。Chromiumではフォルダ選択が使える場合があり、FirefoxはDownloads/GrabAllFilesの保存経路です。実際の保存先を確認します。"
+            },
+            {
+              "q": "大量の資料を無料で続けて保存できますか？",
+              "a": "保存名・整理の設定は無料版でも使えます。無料のファイル操作は、このページに示す版別の1回上限に従います。次の対象を選んで繰り返せます。Proはこの件数上限を解除します。保存前には一覧を確認してください。"
+            }
+          ],
+          "guide": {
+            "title": "名前とフォルダを使い分ける",
+            "modes": [
+              [
+                "資料を名前で見分ける",
+                "取得・編集したタイトルを使うか、元のファイル名を残すかを選びます。拡張子も確認します。"
+              ],
+              [
+                "資料セットを整理する",
+                "混在するファイルを形式別・取得元別にまとめます。1つの場所が分かりやすい場合はフォルダ分けなしを選べます。"
+              ]
+            ],
+            "examplesTitle": "資料を見分けられる名前を考える",
+            "examples": [
+              [
+                "手順の資料",
+                "手順・必要書類・補足説明を区別できる題名か確認します。表記版を自分で題名へ加える場合は、原文で確認してから付けます。"
+              ],
+              [
+                "混在する資料セット",
+                "PDFや表計算を形式別に整理し、必要なファイルが実際に保存されたか照合します。"
+              ]
+            ],
+            "formatsTitle": "保存名・整理・保存形式",
+            "headers": [
+              "選択",
+              "使い方"
+            ],
+            "rows": [
+              [
+                "自動／タイトル／元の名前",
+                "取得したタイトルと元の名前の分かりやすさで選びます。タイトルモードは汎用的な題名も使うため確認します。"
+              ],
+              [
+                "種類別／ドメイン別／なし",
+                "形式や取得元による整理で、内容の自動分類ではありません。"
+              ],
+              [
+                "ダウンロード／ZIP",
+                "ファイル一式かアーカイブとして保存し、構成を確認します。"
+              ]
+            ]
+          },
+          "eyebrow": "PDFの題名・種類別整理"
+        },
+        "es": {
+          "title": "Nombrar PDF y organizar archivos por tipo | Grab All Files",
+          "h1": "Nombres útiles para PDF y archivos ordenados.",
+          "desc": "Guarda PDF con títulos obtenidos o editados, organiza por tipo o sitio fuente y comprueba los resultados. Conserva nombres originales cuando sean más útiles.",
+          "lead": "Un nombre claro y una carpeta predecible facilitan volver a los documentos. Revisa títulos, elige el modo de nombre y organiza conjuntos mixtos por formato o sitio. Comprueba los archivos guardados.",
+          "best": [
+            "Reconocer PDF de manuales o listas públicas por su nombre.",
+            "Separar PDF, hojas de cálculo y otros archivos por formato."
+          ],
+          "steps": [
+            "Escanea archivos en una página permitida y filtra los PDF necesarios.",
+            "Revisa títulos y nombres originales. Edita un título si corresponde o conserva el original cuando sea mejor.",
+            "Elige «Guardar como»: «Automático (título si sirve)», «Título» o «Nombre de archivo original». En «Organizar», elige «Por tipo», «Por dominio» o «Sin carpetas».",
+            "Descarga la selección o crea ZIP. Comprueba nombres, extensiones, grupos, duplicados y errores."
+          ],
+          "faq": [
+            {
+              "q": "¿Siempre encuentra el título real del PDF?",
+              "a": "No. Metadatos o encabezados pueden faltar o ser genéricos. Revisa el título; el modo automático puede usar el nombre original si no encuentra uno útil."
+            },
+            {
+              "q": "¿Agrupar por tipo interpreta temas?",
+              "a": "Agrupa por formato o dominio fuente, no por tema de negocio inferido. Un conjunto solo PDF sigue siendo un único formato."
+            },
+            {
+              "q": "¿Puedo elegir cualquier carpeta en todo navegador?",
+              "a": "Depende del navegador y ajustes. Chromium puede ofrecer selector de carpeta; Firefox usa Downloads/GrabAllFiles. Comprueba el destino real."
+            },
+            {
+              "q": "¿Puedo guardar un conjunto grande gratis?",
+              "a": "Los ajustes de nombre y agrupación también están disponibles en Free. Las acciones Free siguen el límite por operación y versión mostrado aquí. Selecciona otro lote y repite. Pro elimina ese límite; revisa la lista antes de guardar."
+            }
+          ],
+          "guide": {
+            "title": "Nombres y carpetas tienen funciones distintas",
+            "modes": [
+              [
+                "Reconocer documentos",
+                "Usa un título útil obtenido o editado, o conserva el original. Revisa la extensión."
+              ],
+              [
+                "Encontrar el conjunto",
+                "Agrupa por tipo o sitio fuente, o elige sin agrupación si resulta más claro."
+              ]
+            ],
+            "examplesTitle": "Decidir qué nombre ayuda",
+            "examples": [
+              [
+                "Materiales de un procedimiento",
+                "Comprueba que los títulos distinguen pasos, documentos y ayudas. Añade tú mismo una revisión solo después de confirmarla."
+              ],
+              [
+                "Conjunto mixto",
+                "Agrupa PDF y hojas de cálculo por formato y verifica los archivos esperados."
+              ]
+            ],
+            "formatsTitle": "Opciones de nombre y organización",
+            "headers": [
+              "Opción",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "Automático / título / original",
+                "Elige según calidad del título. El modo título puede mantener títulos genéricos."
+              ],
+              [
+                "Tipo / dominio / sin grupos",
+                "Organiza formatos o sitios, sin clasificación automática por tema."
+              ],
+              [
+                "Descarga / ZIP",
+                "Guarda archivos o un archivo ZIP y revisa su estructura."
+              ]
+            ]
+          },
+          "eyebrow": "Nombrar y organizar PDF"
+        },
+        "fr": {
+          "title": "Nommer les PDF et classer les fichiers par type | Grab All Files",
+          "h1": "Des PDF bien nommés et des fichiers organisés.",
+          "desc": "Nommez les PDF avec les titres récupérés ou modifiés, classez par format ou site source et vérifiez les résultats. Gardez le nom original si plus utile.",
+          "lead": "Un nom lisible et un rangement prévisible facilitent les consultations. Vérifiez les titres, choisissez le mode de nommage et classez les ensembles mixtes par format ou source. Contrôlez les fichiers enregistrés.",
+          "best": [
+            "Reconnaître les PDF de manuels ou listes publiques par leur nom.",
+            "Séparer PDF, tableurs et autres fichiers par format."
+          ],
+          "steps": [
+            "Analysez les fichiers d’une page autorisée et filtrez les PDF utiles.",
+            "Vérifiez titres et noms originaux. Modifiez un titre si nécessaire ou gardez le nom original plus clair.",
+            "Choisissez «Enregistrer sous» : «Automatique (titre si utilisable)», «Titre» ou «Nom de fichier d'origine». Pour «Classement», choisissez «Par type», «Par domaine» ou «Sans dossiers».",
+            "Téléchargez la sélection ou créez ZIP. Vérifiez noms, extensions, classement, doublons et échecs."
+          ],
+          "faq": [
+            {
+              "q": "Le vrai titre du PDF est-il toujours trouvé ?",
+              "a": "Non. Métadonnées ou titres de page peuvent manquer ou être génériques. Vérifiez le titre ; le mode automatique peut reprendre le nom original."
+            },
+            {
+              "q": "Le classement par type comprend-il les sujets ?",
+              "a": "Il classe par format ou domaine source, pas par sujet métier déduit. Un lot uniquement PDF reste un seul format."
+            },
+            {
+              "q": "Peut-on choisir toute destination sur chaque navigateur ?",
+              "a": "Cela dépend du navigateur et des réglages. Chromium peut proposer un dossier ; Firefox utilise Downloads/GrabAllFiles. Vérifiez la destination réelle."
+            },
+            {
+              "q": "Puis-je enregistrer beaucoup de fichiers gratuitement ?",
+              "a": "Les réglages de nom et de classement sont aussi disponibles avec Free. Free suit la limite par opération et version affichée ici. Sélectionnez le lot suivant et recommencez. Pro retire cette limite ; vérifiez la liste avant enregistrement."
+            }
+          ],
+          "guide": {
+            "title": "Noms et dossiers ont deux rôles",
+            "modes": [
+              [
+                "Reconnaître le document",
+                "Utilisez un titre pertinent récupéré ou modifié, ou gardez le nom original. Vérifiez l’extension."
+              ],
+              [
+                "Retrouver l’ensemble",
+                "Classez les fichiers mixtes par type ou source, ou gardez un seul dossier si plus pratique."
+              ]
+            ],
+            "examplesTitle": "Choisir un nom utile",
+            "examples": [
+              [
+                "Documents de procédure",
+                "Vérifiez que les noms distinguent étapes, pièces et aide. Ajoutez vous-même une révision seulement après confirmation."
+              ],
+              [
+                "Ensemble mixte",
+                "Classez PDF et tableurs par format et contrôlez les fichiers attendus."
+              ]
+            ],
+            "formatsTitle": "Choix de noms et classement",
+            "headers": [
+              "Choix",
+              "Usage"
+            ],
+            "rows": [
+              [
+                "Automatique / titre / original",
+                "Choisir selon la pertinence du titre. Le mode titre conserve aussi les titres génériques."
+              ],
+              [
+                "Type / domaine / sans classement",
+                "Organiser formats ou sources, sans classement thématique automatique."
+              ],
+              [
+                "Téléchargement / ZIP",
+                "Enregistrer un ensemble ou une archive et vérifier sa structure."
+              ]
+            ]
+          },
+          "eyebrow": "Nommer et classer les PDF"
+        },
+        "de": {
+          "title": "PDFs benennen und nach Dateityp ordnen | Grab All Files",
+          "h1": "PDFs verständlich benennen und ordnen.",
+          "desc": "PDFs nach erfassten oder bearbeiteten Titeln benennen, nach Format oder Quellsite ordnen und gespeicherte Ergebnisse prüfen. Originalnamen bei Bedarf behalten.",
+          "lead": "Lesbare Namen und klare Ordner erleichtern das Nachschlagen. Prüfen Sie Titel, wählen Sie den Namensmodus und ordnen Sie gemischte Dateien nach Format oder Quelle. Kontrollieren Sie gespeicherte Ergebnisse.",
+          "best": [
+            "PDFs aus Handbüchern oder öffentlichen Listen besser erkennen.",
+            "PDFs, Tabellen und andere Dateien nach Format trennen."
+          ],
+          "steps": [
+            "Scannen Sie Dateien einer erlaubten Seite und filtern Sie benötigte PDFs.",
+            "Prüfen Sie Titel und Originalnamen. Bearbeiten Sie einen Titel bei Bedarf oder behalten Sie den verständlicheren Originalnamen.",
+            "Wählen Sie unter „Speichern als“: „Automatisch (Titel, wenn brauchbar)“, „Titel“ oder „Ursprünglicher Dateiname“. Unter „Ablage“ wählen Sie „Nach Typ“, „Nach Domain“ oder „Keine Ordner“.",
+            "Laden Sie die Auswahl herunter oder erstellen Sie ZIP. Prüfen Sie Namen, Erweiterungen, Ordner, Duplikate und Fehler."
+          ],
+          "faq": [
+            {
+              "q": "Wird immer der echte PDF-Titel erkannt?",
+              "a": "Nein. Metadaten oder Seitenüberschriften können fehlen oder allgemein sein. Prüfen Sie den Titel; Automatik kann den Originalnamen verwenden."
+            },
+            {
+              "q": "Versteht Typgruppierung Dokumentthemen?",
+              "a": "Sie ordnet nach Dateiformat oder Quelldomain, nicht nach vermutetem Geschäftsthema. Ein reiner PDF-Satz bleibt ein Format."
+            },
+            {
+              "q": "Ist jeder Zielordner in jedem Browser wählbar?",
+              "a": "Das hängt von Browser und Einstellungen ab. Chromium kann eine Ordnerwahl bieten, Firefox nutzt Downloads/GrabAllFiles. Prüfen Sie das tatsächliche Ziel."
+            },
+            {
+              "q": "Kann ich große Sätze kostenlos speichern?",
+              "a": "Namens- und Gruppierungsoptionen sind auch in Free verfügbar. Free folgt der hier genannten versionsabhängigen Grenze je Vorgang. Nächsten Satz wählen und wiederholen; Pro entfernt diese Dateigrenze. Die Liste vorher prüfen."
+            }
+          ],
+          "guide": {
+            "title": "Namen und Ordner erfüllen verschiedene Zwecke",
+            "modes": [
+              [
+                "Dokument erkennen",
+                "Sinnvollen erfassten oder bearbeiteten Titel nutzen oder Originalnamen behalten. Erweiterung prüfen."
+              ],
+              [
+                "Dateisatz finden",
+                "Gemischte Dateien nach Format oder Quelle gruppieren oder bei Bedarf flach speichern."
+              ]
+            ],
+            "examplesTitle": "Nützliche Namen wählen",
+            "examples": [
+              [
+                "Ablaufunterlagen",
+                "Prüfen Sie, ob Titel Schritte, Unterlagen und Hinweise unterscheiden. Eine genannte Revision erst nach eigener Prüfung ergänzen."
+              ],
+              [
+                "Gemischter Satz",
+                "PDFs und Tabellen nach Format ordnen und erwartete Dateien prüfen."
+              ]
+            ],
+            "formatsTitle": "Namens- und Gruppierungsoptionen",
+            "headers": [
+              "Wahl",
+              "Verwendung"
+            ],
+            "rows": [
+              [
+                "Automatisch / Titel / Original",
+                "Nach Titelqualität entscheiden. Titelmodus kann allgemeine Titel erhalten."
+              ],
+              [
+                "Typ / Domain / keine Gruppen",
+                "Formate oder Quellen ordnen, keine automatische Themenklassifikation."
+              ],
+              [
+                "Download / ZIP",
+                "Dateisatz oder Archiv speichern und Struktur prüfen."
+              ]
+            ]
+          },
+          "eyebrow": "PDFs benennen und ordnen"
+        },
+        "it": {
+          "title": "Nominare PDF e organizzare file per tipo | Grab All Files",
+          "h1": "Nomi utili per i PDF e file ordinati.",
+          "desc": "Salva PDF con titoli trovati o modificati, organizza per formato o sito fonte e controlla i risultati. Mantieni nomi originali quando più chiari.",
+          "lead": "Un nome leggibile e una cartella prevedibile aiutano a ritrovare i documenti. Controlla titoli, scegli il modo di nomina e organizza file misti per formato o fonte. Verifica i risultati salvati.",
+          "best": [
+            "Riconoscere PDF di manuali o liste pubbliche dal nome.",
+            "Separare PDF, fogli di calcolo e altri file per formato."
+          ],
+          "steps": [
+            "Scansiona file di una pagina consentita e filtra i PDF necessari.",
+            "Controlla titoli e nomi originali. Modifica un titolo se utile o conserva il nome originale più chiaro.",
+            "Scegli «Salva come»: «Automatico (titolo se utilizzabile)», «Titolo» o «Nome file originale». Per «Organizza» scegli «Per tipo», «Per dominio» o «Nessuna cartella».",
+            "Scarica la selezione o crea ZIP. Controlla nomi, estensioni, gruppi, duplicati ed errori."
+          ],
+          "faq": [
+            {
+              "q": "Trova sempre il vero titolo PDF?",
+              "a": "No. Metadati o intestazioni possono mancare o essere generici. Controlla il titolo; automatico può usare il nome originale."
+            },
+            {
+              "q": "Il raggruppamento per tipo capisce gli argomenti?",
+              "a": "Organizza per formato o dominio fonte, non per argomento dedotto. Un insieme solo PDF resta lo stesso formato."
+            },
+            {
+              "q": "Posso scegliere ogni cartella in ogni browser?",
+              "a": "Dipende da browser e impostazioni. Chromium può offrire scelta cartella; Firefox usa Downloads/GrabAllFiles. Controlla il percorso effettivo."
+            },
+            {
+              "q": "Posso salvare grandi insiemi gratis?",
+              "a": "Le impostazioni di nome e raggruppamento sono disponibili anche in Free. Free segue il limite per operazione e versione indicato qui. Scegli il lotto successivo e ripeti; Pro rimuove quel limite. Controlla la lista prima di salvare."
+            }
+          ],
+          "guide": {
+            "title": "Nomi e cartelle hanno scopi distinti",
+            "modes": [
+              [
+                "Riconoscere un documento",
+                "Usa un titolo utile trovato o modificato oppure mantieni l’originale. Verifica l’estensione."
+              ],
+              [
+                "Ritrovare il gruppo",
+                "Raggruppa file misti per formato o fonte, o scegli nessun gruppo se più pratico."
+              ]
+            ],
+            "examplesTitle": "Scegliere un nome utile",
+            "examples": [
+              [
+                "Materiali di procedura",
+                "Controlla che i titoli distinguano passi, documenti e spiegazioni. Aggiungi una revisione solo dopo averla verificata."
+              ],
+              [
+                "Insieme misto",
+                "Ordina PDF e fogli di calcolo per formato e verifica i file attesi."
+              ]
+            ],
+            "formatsTitle": "Opzioni di nomi e organizzazione",
+            "headers": [
+              "Scelta",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "Automatico / titolo / originale",
+                "Scegli secondo il titolo. Il modo titolo può mantenere titoli generici."
+              ],
+              [
+                "Tipo / dominio / nessun gruppo",
+                "Organizza formati o fonti, senza classificazione automatica per argomento."
+              ],
+              [
+                "Download / ZIP",
+                "Salva file o archivio e controlla la struttura."
+              ]
+            ]
+          },
+          "eyebrow": "Nominare e organizzare PDF"
+        },
+        "ko": {
+          "title": "PDF를 제목으로 저장하고 파일 형식별로 정리 | Grab All Files",
+          "h1": "PDF를 알아보기 좋은 이름으로 저장하세요.",
+          "desc": "가져오거나 편집한 제목으로 PDF를 저장하고 파일 형식·출처별로 정리합니다. 원래 파일명과의 선택 및 저장 결과 확인 방법을 안내합니다.",
+          "lead": "읽기 좋은 이름과 정돈된 폴더로 자료를 찾기 쉽게 만드세요. PDF 제목을 확인해 저장 이름을 선택하고 혼합 파일은 형식이나 출처별로 정리합니다. 저장 결과도 직접 확인합니다.",
+          "best": [
+            "매뉴얼·공개 목록의 PDF를 이름으로 쉽게 찾습니다.",
+            "PDF·스프레드시트·다른 파일을 형식별로 구분합니다."
+          ],
+          "steps": [
+            "허용된 페이지에서 파일을 스캔해 필요한 PDF로 필터링합니다.",
+            "선택한 제목과 원래 이름을 확인하고 필요하면 제목을 편집하거나 더 나은 원래 이름을 유지합니다.",
+            "“저장 이름”에서 “자동(쓸 수 있으면 제목)”, “제목”, “원래 파일 이름” 중 선택합니다. “정리”는 “유형별”, “도메인별”, “폴더 없음” 중 선택합니다.",
+            "다운로드 또는 ZIP으로 저장하고 이름·확장자·분류·중복·실패를 확인합니다."
+          ],
+          "faq": [
+            {
+              "q": "PDF의 실제 제목을 항상 찾나요?",
+              "a": "아니요. 메타데이터나 페이지 제목이 없거나 일반적인 값일 수 있습니다. 제목을 확인하고 자동 모드에서는 유용한 제목이 없으면 원래 이름을 쓸 수 있습니다."
+            },
+            {
+              "q": "종류별은 내용 주제를 자동 분류하나요?",
+              "a": "파일 형식이나 출처 도메인으로 정리하며 업무 주제를 추론하지 않습니다. PDF만 있는 자료는 같은 형식입니다."
+            },
+            {
+              "q": "모든 브라우저에서 임의 폴더를 고르나요?",
+              "a": "브라우저·다운로드 설정에 따릅니다. Chromium은 폴더 선택을 제공할 수 있고 Firefox는 Downloads/GrabAllFiles 경로를 씁니다. 실제 저장 위치를 확인하세요."
+            },
+            {
+              "q": "많은 자료를 무료로 계속 저장하나요?",
+              "a": "저장 이름과 정리 설정은 Free에서도 사용할 수 있습니다. Free는 여기 표시된 버전별 실행당 제한을 따릅니다. 다음 묶음을 골라 반복할 수 있고 Pro는 파일 개수 제한을 없앱니다. 저장 전 목록을 확인하세요."
+            }
+          ],
+          "guide": {
+            "title": "이름과 폴더의 역할을 나눠 선택",
+            "modes": [
+              [
+                "자료 이름으로 구별",
+                "가져오거나 편집한 제목 또는 원래 이름을 선택하고 확장자도 확인합니다."
+              ],
+              [
+                "자료 세트 정리",
+                "혼합 파일을 형식·출처별로 모으거나 한 폴더가 더 편하면 분류 없이 저장합니다."
+              ]
+            ],
+            "examplesTitle": "자료를 구별할 이름을 생각하기",
+            "examples": [
+              [
+                "절차 자료",
+                "단계·필요 서류·설명을 구별할 제목인지 확인하고 표기 버전은 원문을 확인한 뒤 직접 추가합니다."
+              ],
+              [
+                "혼합 자료 세트",
+                "PDF와 스프레드시트를 형식별로 정리하고 필요한 파일의 실제 저장 여부를 확인합니다."
+              ]
+            ],
+            "formatsTitle": "저장 이름과 정리 옵션",
+            "headers": [
+              "선택",
+              "사용 방법"
+            ],
+            "rows": [
+              [
+                "자동 / 제목 / 원래 이름",
+                "제목 품질로 선택합니다. 제목 모드는 일반적인 제목도 유지할 수 있습니다."
+              ],
+              [
+                "종류 / 도메인 / 없음",
+                "형식이나 출처로 정리하며 내용 주제의 자동 분류는 아닙니다."
+              ],
+              [
+                "다운로드 / ZIP",
+                "파일 세트나 압축으로 저장하고 구성을 확인합니다."
+              ]
+            ]
+          },
+          "eyebrow": "PDF 제목 저장·종류별 정리"
+        },
+        "pt_BR": {
+          "title": "Nomear PDFs e organizar arquivos por tipo | Grab All Files",
+          "h1": "Nomes úteis para PDFs e arquivos organizados.",
+          "desc": "Salve PDFs com títulos obtidos ou editados, organize por formato ou site fonte e confira resultados. Mantenha nomes originais quando mais úteis.",
+          "lead": "Um nome claro e uma pasta previsível facilitam revisitar documentos. Confira títulos, escolha a forma do nome e organize conjuntos mistos por formato ou fonte. Verifique os arquivos salvos.",
+          "best": [
+            "Reconhecer PDFs de manuais ou listas públicas pelo nome.",
+            "Separar PDFs, planilhas e outros arquivos por formato."
+          ],
+          "steps": [
+            "Escaneie arquivos de uma página permitida e filtre os PDFs necessários.",
+            "Confira títulos e nomes originais. Edite um título quando útil ou preserve o nome original mais claro.",
+            "Escolha “Salvar como”: “Automático (título quando útil)”, “Título” ou “Nome de arquivo original”. Em “Organizar”, escolha “Por tipo”, “Por domínio” ou “Sem pastas”.",
+            "Baixe a seleção ou crie ZIP. Confira nomes, extensões, grupos, duplicatas e falhas."
+          ],
+          "faq": [
+            {
+              "q": "Sempre encontra o verdadeiro título do PDF?",
+              "a": "Não. Metadados ou títulos da página podem faltar ou ser genéricos. Confira o título; automático pode usar o nome original."
+            },
+            {
+              "q": "Agrupar por tipo entende assuntos?",
+              "a": "Agrupa por formato ou domínio fonte, não por assunto de negócio inferido. Um conjunto só PDF continua um único formato."
+            },
+            {
+              "q": "Posso escolher qualquer pasta em todo navegador?",
+              "a": "Depende do navegador e ajustes. Chromium pode oferecer seleção de pasta; Firefox usa Downloads/GrabAllFiles. Confira o destino real."
+            },
+            {
+              "q": "Posso salvar grandes conjuntos grátis?",
+              "a": "Os ajustes de nome e agrupamento também estão disponíveis no Free. Free segue o limite por operação e versão mostrado aqui. Selecione outro lote e repita. Pro remove esse limite; confira a lista antes de salvar."
+            }
+          ],
+          "guide": {
+            "title": "Nomes e pastas têm funções distintas",
+            "modes": [
+              [
+                "Reconhecer documentos",
+                "Use título útil obtido ou editado, ou mantenha o original. Confira a extensão."
+              ],
+              [
+                "Encontrar o conjunto",
+                "Agrupe arquivos mistos por formato ou fonte, ou escolha sem grupos se mais prático."
+              ]
+            ],
+            "examplesTitle": "Escolher um nome útil",
+            "examples": [
+              [
+                "Materiais de procedimento",
+                "Confira se títulos distinguem etapas, documentos e orientação. Acrescente revisão por conta própria após confirmar."
+              ],
+              [
+                "Conjunto misto",
+                "Agrupe PDFs e planilhas por formato e confira os arquivos esperados."
+              ]
+            ],
+            "formatsTitle": "Opções de nome e organização",
+            "headers": [
+              "Opção",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "Automático / título / original",
+                "Escolha conforme qualidade do título. Modo título pode manter títulos genéricos."
+              ],
+              [
+                "Tipo / domínio / sem grupos",
+                "Organize formatos ou fontes, sem classificação temática automática."
+              ],
+              [
+                "Download / ZIP",
+                "Salve arquivos ou arquivo ZIP e confira a estrutura."
+              ]
+            ]
+          },
+          "eyebrow": "Nomear e organizar PDFs"
+        },
+        "zh_CN": {
+          "title": "按题名保存PDF并按文件格式整理 | Grab All Files",
+          "h1": "用易读的名称保存PDF，方便查找。",
+          "desc": "用获取或编辑的标题保存PDF，按文件格式或来源网站整理，并检查保存结果。根据需要保留原始文件名。",
+          "lead": "清晰的文件名和可预期的文件夹能让资料更容易查找。确认PDF标题，选择命名方式，并按格式或来源整理混合文件。请检查保存结果，而不是假定每个标题都适用。",
+          "best": [
+            "按名称识别手册或公开列表中的PDF。",
+            "将PDF、表格文件与其他文件按格式区分。"
+          ],
+          "steps": [
+            "在允许使用的页面扫描文件，筛选并选择所需PDF。",
+            "检查标题与原始文件名，需要时编辑标题；原名更清晰时可保留。",
+            "在“保存名称”中选择“自动（可用时使用标题）”“标题”或“原始文件名”。在“整理”中选择“按类型”“按域名”或“不分文件夹”。",
+            "下载所选文件或保存ZIP，检查名称、扩展名、分类、重复及失败项。"
+          ],
+          "faq": [
+            {
+              "q": "总能找到PDF的真实题名吗？",
+              "a": "不能保证。元数据或页面标题可能缺失或过于通用。请检查标题，自动模式可在没有有用标题时采用原名。"
+            },
+            {
+              "q": "按类型会自动判断资料主题吗？",
+              "a": "这是按文件格式或来源域名整理，并非推断业务主题。全部为PDF的集合仍是同一格式。"
+            },
+            {
+              "q": "所有浏览器都能选择任意文件夹吗？",
+              "a": "依浏览器和下载设置而定。Chromium可能提供文件夹选择，Firefox使用Downloads/GrabAllFiles路径。请确认实际保存位置。"
+            },
+            {
+              "q": "大量文件可以继续免费保存吗？",
+              "a": "保存名称与整理设置在Free中也可使用。Free遵循本页标明的版本对应每次上限，可选择下一批重复操作。Pro解除文件数量上限；保存前请检查列表。"
+            }
+          ],
+          "guide": {
+            "title": "区分名称与文件夹的作用",
+            "modes": [
+              [
+                "按名称识别资料",
+                "选用获取或编辑的有效标题，或保留原始文件名，同时检查扩展名。"
+              ],
+              [
+                "整理资料集",
+                "将混合文件按格式或来源整理，需要时选择不分类存放。"
+              ]
+            ],
+            "examplesTitle": "选择能区分资料的名称",
+            "examples": [
+              [
+                "步骤资料",
+                "确认标题能区分步骤、所需文件与补充说明。自行添加版本时先确认原文标记。"
+              ],
+              [
+                "混合资料集",
+                "按格式整理PDF与表格，并确认需要的文件实际已保存。"
+              ]
+            ],
+            "formatsTitle": "保存名称与整理选项",
+            "headers": [
+              "选择",
+              "用途"
+            ],
+            "rows": [
+              [
+                "自动 / 标题 / 原始名称",
+                "按标题质量选择。标题模式也可能保留通用标题。"
+              ],
+              [
+                "类型 / 域名 / 不分类",
+                "按格式或来源整理，不自动判断内容主题。"
+              ],
+              [
+                "下载 / ZIP",
+                "保存文件集或压缩包，并检查结构。"
+              ]
+            ]
+          },
+          "eyebrow": "PDF题名保存与格式整理"
+        },
+        "zh_TW": {
+          "title": "依題名儲存PDF並依檔案格式整理 | Grab All Files",
+          "h1": "用易讀的名稱儲存PDF，方便查找。",
+          "desc": "用取得或編輯的標題儲存PDF，依檔案格式或來源網站整理並檢查結果。依需要保留原始檔名。",
+          "lead": "清楚的檔名和可預期的資料夾讓資料更容易查找。確認PDF標題，選擇命名方式，並依格式或來源整理混合檔案。請檢查儲存結果，不要假定每個標題都適用。",
+          "best": [
+            "依名稱識別手冊或公開清單中的PDF。",
+            "將PDF、試算表與其他檔案依格式區分。"
+          ],
+          "steps": [
+            "在允許使用的頁面掃描檔案，篩選並選擇所需PDF。",
+            "檢查標題與原始檔名，需要時編輯標題；原名更清楚時可保留。",
+            "在「儲存名稱」中選擇「自動（可用時使用標題）」「標題」或「原始檔名」。在「整理」中選擇「依類型」「依網域」或「不分資料夾」。",
+            "下載所選檔案或儲存ZIP，檢查名稱、副檔名、分類、重複及失敗項。"
+          ],
+          "faq": [
+            {
+              "q": "總能找到PDF的真實題名嗎？",
+              "a": "不能保證。中繼資料或頁面標題可能缺少或過於通用。請檢查標題，自動模式可在沒有有用標題時採用原名。"
+            },
+            {
+              "q": "依類型會自動判斷資料主題嗎？",
+              "a": "這是依檔案格式或來源網域整理，並非推測業務主題。全部為PDF的集合仍是同一格式。"
+            },
+            {
+              "q": "所有瀏覽器都能選擇任意資料夾嗎？",
+              "a": "依瀏覽器及下載設定而定。Chromium可能提供資料夾選擇，Firefox使用Downloads/GrabAllFiles路徑。請確認實際儲存位置。"
+            },
+            {
+              "q": "大量檔案可以繼續免費儲存嗎？",
+              "a": "儲存名稱與整理設定在Free中也可使用。Free遵循本頁標明的版本對應每次上限，可選擇下一批重複操作。Pro解除檔案數量上限；儲存前請檢查清單。"
+            }
+          ],
+          "guide": {
+            "title": "區分名稱與資料夾的作用",
+            "modes": [
+              [
+                "依名稱識別資料",
+                "選用取得或編輯的有效標題，或保留原始檔名，同時檢查副檔名。"
+              ],
+              [
+                "整理資料集",
+                "將混合檔案依格式或來源整理，需要時選擇不分類存放。"
+              ]
+            ],
+            "examplesTitle": "選擇能區分資料的名稱",
+            "examples": [
+              [
+                "步驟資料",
+                "確認標題能區分步驟、所需文件及補充說明。自行加入版本時先確認原文標記。"
+              ],
+              [
+                "混合資料集",
+                "依格式整理PDF與試算表，並確認需要的檔案實際已儲存。"
+              ]
+            ],
+            "formatsTitle": "儲存名稱與整理選項",
+            "headers": [
+              "選擇",
+              "用途"
+            ],
+            "rows": [
+              [
+                "自動 / 標題 / 原始名稱",
+                "依標題品質選擇。標題模式也可能保留通用標題。"
+              ],
+              [
+                "類型 / 網域 / 不分類",
+                "依格式或來源整理，不自動判斷內容主題。"
+              ],
+              [
+                "下載 / ZIP",
+                "儲存檔案集或壓縮包，並檢查結構。"
+              ]
+            ]
+          },
+          "eyebrow": "PDF題名儲存與格式整理"
+        }
+      }
+    },
+    "collect-public-government-documents": {
+      "path": "collect-public-government-documents.html",
+      "related": [
+        "download-all-pdfs",
+        "save-online-manuals-and-knowledge-pages",
+        "save-web-pages-as-markdown"
+      ],
+      "copy": {
+        "en": {
+          "title": "Keep public guidance and attachments together | Grab All Files",
+          "desc": "Collect public-scheme guidance, instructions and linked PDF or Word files. Keep a readable reference, a document ZIP and source notes ready for later checking.",
+          "eyebrow": "Public guidance & documents",
+          "h1": "Keep public guidance and its documents together.",
+          "lead": "Put a scheme overview, its detailed guidance and the relevant attachments in one reference folder. Read selected page bodies as HTML and keep original documents beside them, so you can return to the right source without searching again.",
+          "best": [
+            "Prepare a reference set for one publicly described scheme or service.",
+            "Keep a guidance page with its linked PDF and Word forms.",
+            "Record sources and dates for research or an internal briefing."
+          ],
+          "steps": [
+            "Open the official guidance page you are allowed to save. In “Combine pages into HTML”, compare candidates with the source menu and choose one relevant topic. Free saves one chosen page; Pro combines multiple selected page bodies.",
+            "If you want source-tracked AI files, enable “AI analysis data (Markdown with sources)” before collecting. Choose image and linked-document settings. Save the explanation as HTML; use the file downloader to select obtainable PDF or Word attachments. Check document titles and revisions before downloading.",
+            "Package selected original files as ZIP and keep it beside the HTML. Open the saved result and compare needed headings, attachments and any reported failures with the official page.",
+            "After collection, save “Save AI analysis ZIP”. Check source_url and captured_at, and keep the stated revision and date checked in your own notes.",
+            "Name the folder by topic and date, and group overview, guidance and forms. Before using the material later, revisit the official source for revised documents and dates."
+          ],
+          "faq": [
+            {
+              "q": "Which pages belong in a useful set?",
+              "a": "Start with one scheme or service: overview, detailed guidance and the forms it links to. Review discovered candidates against the menu and remove unrelated news or topics. Site structure affects which links can be found."
+            },
+            {
+              "q": "Can the PDF or Word text be included in the HTML?",
+              "a": "Keep the original document separately. Linked PDF and Word text is not merged into the readable HTML. Successfully extracted text from supported documents can be included in AI output; check missing or failed documents."
+            },
+            {
+              "q": "Does saving a set confirm that it is complete or current?",
+              "a": "Compare the saved pages and files with the needed official list. Record a stated revision yourself; capture time is not a document version. Recheck the current source before relying on a deadline or requirement."
+            },
+            {
+              "q": "How do I use a source list in a briefing?",
+              "a": "Use source_url and captured_at from the AI output to identify saved material. Add the official document title and stated revision in your notes, and link each briefing point to the supporting source."
+            },
+            {
+              "q": "Can I start with one guidance page?",
+              "a": "Yes. Free discovers candidates and saves one chosen page as HTML; Pro combines multiple selected page bodies. Start with the overview and needed attachments, then check the saved results against the source."
+            }
+          ],
+          "guide": {
+            "title": "Build a set you can revisit",
+            "modes": [
+              [
+                "Readable guidance",
+                "Use HTML for the overview and selected explanation pages. Its contents and search help you find a section."
+              ],
+              [
+                "Original documents",
+                "Keep PDF and Word files in a separate ZIP or folder, with their original names where useful."
+              ]
+            ],
+            "examplesTitle": "A generic reference set",
+            "examples": [
+              [
+                "One public scheme",
+                "Overview → detailed guidance → linked PDF instructions and Word forms. Choose only the items needed for that topic."
+              ],
+              [
+                "A briefing note",
+                "For each point, note the source URL, date checked and any stated revision. Mark material you could not obtain as missing."
+              ]
+            ],
+            "formatsTitle": "Choose the output for the job",
+            "headers": [
+              "Output",
+              "Use"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Read selected guidance pages with contents and search."
+              ],
+              [
+                "Original files / ZIP",
+                "Keep attachments in their original formats for reference."
+              ],
+              [
+                "Markdown / manifest",
+                "Review saved text and its source_url and captured_at."
+              ],
+              [
+                "Page list / file-information CSV",
+                "Keep the collected page URL, title, status and failure reason list, and use the file downloader’s file-information CSV to organise attachments."
+              ],
+              [
+                "Your reference note",
+                "Record stated revisions and your date checked; revise it when the source changes."
+              ]
+            ]
+          }
+        },
+        "ja": {
+          "title": "自治体・公的機関の案内と添付資料をまとめて保存 | Grab All Files",
+          "desc": "公的制度の案内、申請要領、PDF・Wordの添付資料を必要な単位で収集。HTML・ZIP・出典一覧を整理し、後から確認しやすい資料セットにします。",
+          "eyebrow": "自治体・公的機関の資料セット",
+          "h1": "公的な案内と添付資料を、ひとまとまりに。",
+          "lead": "制度の概要、詳しい要領、関係する添付資料を同じフォルダーに。説明ページはHTMLで読み返し、PDF・Wordの原本を横に置けば、探し直さずに出典へ戻れます。",
+          "best": [
+            "1つの制度や行政サービスに必要な資料を集める。",
+            "説明ページと、リンク先のPDF・Word様式を一緒に整理する。",
+            "調査や社内説明に使う出典と確認日を残す。"
+          ],
+          "steps": [
+            "保存が許可された公式案内ページを開き、「ページをHTMLにまとめる」で候補を元のメニューと照合します。必要な制度・テーマに絞って選択。無料版は選んだ1ページ、Proは複数ページ本文をまとめられます。",
+            "出典付きAI資料も使う場合は、収集前に「AI分析用データ（Markdown・出典付き）」を有効にします。 画像・リンク文書の設定を選び、説明ページをHTMLで保存します。添付PDF・Wordはファイルダウンローダーで取得可能なリンクを選び、名称と記載された版を確認します。",
+            "必要な原本ファイルをZIPにまとめ、HTMLと同じフォルダーへ。保存物を開き、必要な見出し・添付資料と失敗した項目を公式ページと照合します。",
+            "収集完了後に「AI分析用ZIPを保存」で出典付き資料を保存します。source_url・captured_atを確認し、表記版と確認日は自分のメモに残します。",
+            "テーマと日付でフォルダー名を付け、概要・要領・様式を整理します。後日使うときは公式ページを再確認し、文書や日付の更新を確かめます。"
+          ],
+          "faq": [
+            {
+              "q": "どのページを集めると使いやすいですか？",
+              "a": "1つの制度・サービスについて、概要、詳しい要領、そこから案内される様式を選びます。候補と元のメニューを比較し、無関係なニュースや別制度を外してください。候補の見つかり方はサイトの構成で異なります。"
+            },
+            {
+              "q": "PDFやWordの本文もHTMLにまとまりますか？",
+              "a": "原本は別ファイルとして保存します。PDF・Wordの本文は閲覧用HTMLには統合されません。対応文書で抽出に成功した本文はAI向け出力へ含められますが、不足や失敗を確認してください。"
+            },
+            {
+              "q": "保存すれば、必要資料が全部そろい最新だと分かりますか？",
+              "a": "必要な公式資料の一覧と保存結果を照合します。文書に記載された版は自分で記録し、取得日時と区別してください。期限や条件を使う前には最新の出典も確認します。"
+            },
+            {
+              "q": "出典一覧を社内説明に使うには？",
+              "a": "AI向け出力のsource_urlとcaptured_atで保存した資料を特定できます。自分のメモに公式の文書名と記載された版を補い、説明する項目と根拠の出典を対応させます。"
+            },
+            {
+              "q": "まず1つの案内ページで試せますか？",
+              "a": "無料版で候補を探し、選んだ1ページをHTML保存できます。Proは複数ページ本文を結合できます。まず概要ページと必要な添付資料を選び、保存結果を元の資料と照合してください。"
+            }
+          ],
+          "guide": {
+            "title": "後から確認しやすい資料セットにする",
+            "modes": [
+              [
+                "読める案内",
+                "概要や必要な説明ページはHTMLへ。目次と本文検索で確認したい箇所に戻れます。"
+              ],
+              [
+                "原本の添付資料",
+                "PDF・Wordは別のZIPやフォルダーへ。照合に役立つ原本の名前も残します。"
+              ]
+            ],
+            "examplesTitle": "架空のテーマで整理する例",
+            "examples": [
+              [
+                "1つの公開制度",
+                "概要 → 詳しい要領 → 添付PDFの説明とWord様式。テーマに必要な項目だけを選びます。"
+              ],
+              [
+                "説明用のメモ",
+                "項目ごとに出典URL、確認日、記載された版をメモ。取得できなかった資料は不足として残します。"
+              ]
+            ],
+            "formatsTitle": "目的で出力を選ぶ",
+            "headers": [
+              "出力",
+              "使い方"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "選んだ案内ページを目次と検索で読み返す。"
+              ],
+              [
+                "原本ファイル／ZIP",
+                "添付資料を元の形式でまとめて参照する。"
+              ],
+              [
+                "Markdown／manifest",
+                "保存した本文とsource_url・captured_atを確認する。"
+              ],
+              [
+                "ページ一覧／ファイル情報CSV",
+                "収集ページのURL・タイトル・状態・失敗理由の一覧を残し、添付資料はファイルダウンローダーのファイル情報CSVで整理します。"
+              ],
+              [
+                "自分の資料メモ",
+                "記載された版と確認日を記録し、出典の更新時に見直す。"
+              ]
+            ]
+          }
+        },
+        "es": {
+          "title": "Guarda guías públicas y sus documentos juntos | Grab All Files",
+          "desc": "Recopila guías de programas públicos y archivos PDF o Word enlazados. Organiza HTML, ZIP y fuentes para consultarlos más tarde.",
+          "eyebrow": "Guías y documentos públicos",
+          "h1": "Reúne las guías públicas y sus documentos.",
+          "lead": "Pon la descripción de un programa, sus instrucciones y los adjuntos pertinentes en una carpeta. Lee las páginas elegidas en HTML y conserva los documentos originales al lado para volver a la fuente sin buscar de nuevo.",
+          "best": [
+            "Preparar referencias sobre un programa o servicio público.",
+            "Guardar una guía junto a sus PDF y formularios Word.",
+            "Anotar fuentes y fechas para una investigación o informe interno."
+          ],
+          "steps": [
+            "Abre la guía oficial que tengas permiso para guardar. En «Combinar páginas en HTML», compara las candidatas con el menú y elige un tema. Free guarda una página elegida; Pro combina el contenido de varias.",
+            "Si necesitas archivos IA con fuentes, activa «Datos para análisis con IA (Markdown con fuentes)» antes de recopilar. Elige opciones de imágenes y documentos enlazados. Guarda la explicación en HTML y selecciona los PDF o Word accesibles en el descargador. Comprueba títulos y versiones.",
+            "Agrupa los originales elegidos en un ZIP junto al HTML. Abre el resultado y coteja secciones, adjuntos y fallos con la página oficial.",
+            "Tras recopilar, usa «Guardar ZIP de análisis IA». Comprueba source_url y captured_at y anota versión declarada y fecha revisada.",
+            "Nombra la carpeta por tema y fecha y organiza descripción, instrucciones y formularios. Antes de volver a usarlos, revisa si la fuente oficial cambió documentos o fechas."
+          ],
+          "faq": [
+            {
+              "q": "¿Qué páginas conviene reunir?",
+              "a": "Elige un programa: descripción, instrucciones detalladas y formularios enlazados. Compara las candidatas con el menú y excluye noticias o temas ajenos. Los enlaces detectables varían según el sitio."
+            },
+            {
+              "q": "¿El texto de PDF o Word se integra en el HTML?",
+              "a": "Guarda los originales aparte. Su texto no se combina con el HTML de lectura. El texto extraído correctamente de documentos compatibles puede incluirse en la salida para IA; revisa lo que falta."
+            },
+            {
+              "q": "¿Guardar garantiza un conjunto completo y actualizado?",
+              "a": "Compara el resultado con la lista oficial que necesitas. Anota tú la versión publicada: la fecha de captura no es una versión. Revisa la fuente actual antes de usar plazos o requisitos."
+            },
+            {
+              "q": "¿Cómo uso las fuentes en un informe?",
+              "a": "Identifica el material guardado con source_url y captured_at de la salida para IA. Añade el título oficial y la versión indicada a tus notas y vincula cada punto con su fuente."
+            },
+            {
+              "q": "¿Puedo empezar con una sola guía?",
+              "a": "Sí. Free descubre candidatas y guarda una página elegida en HTML; Pro combina el contenido de varias. Empieza con la descripción y los adjuntos necesarios y verifica el resultado con la fuente."
+            }
+          ],
+          "guide": {
+            "title": "Un conjunto fácil de consultar",
+            "modes": [
+              [
+                "Guías legibles",
+                "Usa HTML para la descripción y las explicaciones; consulta su índice y búsqueda."
+              ],
+              [
+                "Documentos originales",
+                "Conserva PDF y Word en una carpeta o ZIP aparte, con nombres originales útiles."
+              ]
+            ],
+            "examplesTitle": "Ejemplo de referencias genéricas",
+            "examples": [
+              [
+                "Un programa público",
+                "Descripción → instrucciones → PDF y formularios Word enlazados. Elige solo lo necesario."
+              ],
+              [
+                "Una nota informativa",
+                "Anota la URL, fecha de consulta y versión indicada para cada punto. Señala los documentos no obtenidos."
+              ]
+            ],
+            "formatsTitle": "Elige el formato según la tarea",
+            "headers": [
+              "Salida",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Leer las guías con índice y búsqueda."
+              ],
+              [
+                "Originales / ZIP",
+                "Consultar adjuntos en su formato original."
+              ],
+              [
+                "Markdown / manifest",
+                "Revisar texto, source_url y captured_at."
+              ],
+              [
+                "Lista de páginas / CSV de archivos",
+                "Conserva la lista de URL, título, estado y motivo de fallo de las páginas recopiladas. Usa el CSV de información del descargador para ordenar los adjuntos."
+              ],
+              [
+                "Tus notas",
+                "Registrar versiones y fecha de consulta y revisarlas si cambia la fuente."
+              ]
+            ]
+          }
+        },
+        "fr": {
+          "title": "Réunir les guides publics et leurs documents | Grab All Files",
+          "desc": "Collectez les guides de dispositifs publics et leurs PDF ou Word. Organisez HTML, ZIP et sources pour retrouver facilement vos références.",
+          "eyebrow": "Guides et documents publics",
+          "h1": "Gardez les guides publics avec leurs documents.",
+          "lead": "Réunissez la présentation d’un dispositif, les consignes et les pièces utiles dans un dossier. Lisez les pages choisies en HTML et conservez les originaux à côté pour retrouver la bonne source.",
+          "best": [
+            "Préparer des références sur un dispositif ou service public.",
+            "Associer une page explicative à ses PDF et formulaires Word.",
+            "Noter les sources et dates pour une recherche ou une présentation interne."
+          ],
+          "steps": [
+            "Ouvrez le guide officiel que vous pouvez enregistrer. Dans « Regrouper les pages en HTML », comparez les pages proposées au menu et choisissez un sujet. Free enregistre une page choisie ; Pro regroupe plusieurs contenus.",
+            "Pour des fichiers IA avec sources, activez «Données pour analyse par IA (Markdown avec sources)» avant la collecte. Réglez les images et documents liés. Enregistrez les explications en HTML et sélectionnez les PDF ou Word accessibles dans le téléchargeur. Vérifiez titres et versions.",
+            "Regroupez les originaux choisis en ZIP à côté du HTML. Ouvrez les résultats et comparez rubriques, pièces jointes et échecs signalés à la page officielle.",
+            "Après collecte, utilisez «Enregistrer le ZIP d’analyse IA». Vérifiez source_url et captured_at et notez révision affichée et date de vérification.",
+            "Nommez le dossier par sujet et date, puis classez présentation, consignes et formulaires. Avant de les réutiliser, vérifiez les documents et dates sur la source officielle actuelle."
+          ],
+          "faq": [
+            {
+              "q": "Quelles pages réunir ?",
+              "a": "Choisissez un dispositif : présentation, consignes détaillées et formulaires liés. Comparez les propositions au menu et écartez les actualités sans rapport. La détection dépend de la structure du site."
+            },
+            {
+              "q": "Le texte PDF ou Word entre-t-il dans le HTML ?",
+              "a": "Conservez les originaux séparément. Leur texte n’est pas fusionné avec le HTML de lecture. Le texte extrait avec succès des documents compatibles peut entrer dans la sortie IA ; vérifiez les manques."
+            },
+            {
+              "q": "L’ensemble enregistré est-il complet et à jour ?",
+              "a": "Comparez les résultats à la liste officielle nécessaire. Notez vous-même la version publiée : la date de capture n’est pas une version. Revérifiez la source avant d’utiliser un délai ou une condition."
+            },
+            {
+              "q": "Comment citer les sources dans une présentation ?",
+              "a": "Identifiez les données avec source_url et captured_at de la sortie IA. Ajoutez le titre officiel et la version indiquée dans vos notes et reliez chaque point à sa source."
+            },
+            {
+              "q": "Puis-je commencer par un seul guide ?",
+              "a": "Oui. Free recherche les pages candidates et enregistre une page choisie en HTML ; Pro regroupe plusieurs contenus. Commencez par la présentation et les pièces utiles, puis comparez le résultat à la source."
+            }
+          ],
+          "guide": {
+            "title": "Des références faciles à retrouver",
+            "modes": [
+              [
+                "Guides à lire",
+                "Utilisez le HTML pour la présentation et les explications, avec sommaire et recherche."
+              ],
+              [
+                "Documents originaux",
+                "Gardez les PDF et Word dans un dossier ou ZIP séparé, avec des noms utiles pour les reconnaître."
+              ]
+            ],
+            "examplesTitle": "Un exemple de dossier générique",
+            "examples": [
+              [
+                "Un dispositif public",
+                "Présentation → consignes → PDF et formulaires Word liés. Sélectionnez les seules pièces utiles."
+              ],
+              [
+                "Une note de présentation",
+                "Pour chaque point, notez URL, date de consultation et version indiquée. Signalez les pièces non obtenues."
+              ]
+            ],
+            "formatsTitle": "Choisir le format selon le besoin",
+            "headers": [
+              "Sortie",
+              "Usage"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Relire les guides avec sommaire et recherche."
+              ],
+              [
+                "Originaux / ZIP",
+                "Consulter les pièces dans leur format initial."
+              ],
+              [
+                "Markdown / manifest",
+                "Vérifier le texte, source_url et captured_at."
+              ],
+              [
+                "Liste des pages / CSV des fichiers",
+                "Gardez la liste des URL, titres, états et motifs d’échec des pages collectées. Utilisez le CSV d’information du téléchargeur pour classer les pièces."
+              ],
+              [
+                "Vos notes",
+                "Consigner versions et date de consultation, puis réviser si la source évolue."
+              ]
+            ]
+          }
+        },
+        "de": {
+          "title": "Öffentliche Hinweise und Dokumente bündeln | Grab All Files",
+          "desc": "Sammeln Sie öffentliche Programminformationen, Anleitungen und verlinkte PDF- oder Word-Dateien. Ordnen Sie HTML, ZIP und Quellen für die spätere Prüfung.",
+          "eyebrow": "Öffentliche Hinweise & Dokumente",
+          "h1": "Öffentliche Hinweise und Unterlagen beisammen.",
+          "lead": "Legen Sie Programmübersicht, genaue Hinweise und zugehörige Anlagen in einem Ordner ab. Lesen Sie ausgewählte Seiten als HTML und bewahren Sie Originaldokumente daneben auf, um die Quelle wiederzufinden.",
+          "best": [
+            "Unterlagen für ein öffentlich beschriebenes Programm zusammenstellen.",
+            "Eine Erklärung zusammen mit PDF und Word-Formularen sichern.",
+            "Quellen und Prüfdaten für Recherche oder interne Information festhalten."
+          ],
+          "steps": [
+            "Öffnen Sie die offizielle Seite, die Sie speichern dürfen. Vergleichen Sie in „Seiten als HTML bündeln“ die Vorschläge mit dem Quellmenü und wählen Sie ein Thema. Free speichert eine gewählte Seite; Pro bündelt mehrere Seiteninhalte.",
+            "Für KI-Dateien mit Quellen aktivieren Sie „KI-Analysedaten (Markdown mit Quellen)“ vor der Sammlung. Wählen Sie Einstellungen für Bilder und Dokumente. Speichern Sie die Erklärung als HTML und wählen Sie erreichbare PDF- oder Word-Anlagen im Datei-Downloader. Prüfen Sie Titel und Versionsangaben.",
+            "Packen Sie ausgewählte Originaldateien als ZIP neben das HTML. Öffnen Sie das Ergebnis und vergleichen Sie benötigte Abschnitte, Anlagen und gemeldete Fehler mit der offiziellen Seite.",
+            "Nach der Sammlung speichern Sie mit „KI-Analyse-ZIP speichern“. Prüfen Sie source_url und captured_at und notieren Sie Revision und Prüfdatum selbst.",
+            "Benennen Sie den Ordner nach Thema und Datum und ordnen Sie Übersicht, Hinweise und Formulare. Prüfen Sie vor späterer Nutzung aktuelle Dokumente und Datumsangaben an der offiziellen Quelle."
+          ],
+          "faq": [
+            {
+              "q": "Welche Seiten gehören zusammen?",
+              "a": "Wählen Sie ein Programm oder einen Dienst: Übersicht, genaue Hinweise und verlinkte Formulare. Gleichen Sie Vorschläge mit dem Menü ab und entfernen Sie fremde Themen. Auffindbare Links hängen vom Seitenaufbau ab."
+            },
+            {
+              "q": "Wird PDF- oder Word-Text in das HTML aufgenommen?",
+              "a": "Bewahren Sie Originale separat auf. Ihr Text wird nicht in das Lese-HTML eingefügt. Erfolgreich extrahierter Text unterstützter Dokumente kann in die KI-Ausgabe eingehen; prüfen Sie fehlende Inhalte."
+            },
+            {
+              "q": "Ist das gespeicherte Material vollständig und aktuell?",
+              "a": "Vergleichen Sie es mit der benötigten offiziellen Liste. Erfassen Sie Versionsangaben selbst: Aufnahmezeit ist keine Dokumentversion. Prüfen Sie die aktuelle Quelle vor Verwendung von Fristen oder Bedingungen."
+            },
+            {
+              "q": "Wie nutze ich die Quellen in einer Information?",
+              "a": "Identifizieren Sie Material anhand von source_url und captured_at der KI-Ausgabe. Ergänzen Sie amtlichen Titel und Versionsangabe in Ihren Notizen und ordnen Sie Aussagen ihren Quellen zu."
+            },
+            {
+              "q": "Kann ich mit einer Hinweisseite beginnen?",
+              "a": "Ja. Free findet Vorschläge und speichert eine gewählte Seite als HTML; Pro bündelt mehrere Seiteninhalte. Beginnen Sie mit Übersicht und benötigten Anlagen und gleichen Sie das Ergebnis mit der Quelle ab."
+            }
+          ],
+          "guide": {
+            "title": "Unterlagen zum späteren Nachschlagen",
+            "modes": [
+              [
+                "Lesbare Hinweise",
+                "Nutzen Sie HTML für Übersicht und Erläuterungen, mit Inhaltsverzeichnis und Suche."
+              ],
+              [
+                "Originaldokumente",
+                "Legen Sie PDF und Word in einem separaten ZIP oder Ordner ab; behalten Sie hilfreiche Originalnamen."
+              ]
+            ],
+            "examplesTitle": "Ein allgemeines Beispiel",
+            "examples": [
+              [
+                "Ein öffentliches Programm",
+                "Übersicht → genaue Hinweise → verlinkte PDF und Word-Formulare. Wählen Sie nur benötigte Teile."
+              ],
+              [
+                "Eine Informationsnotiz",
+                "Notieren Sie je Punkt URL, Prüfdatum und angegebene Version. Kennzeichnen Sie nicht erhaltene Unterlagen."
+              ]
+            ],
+            "formatsTitle": "Das passende Ausgabeformat",
+            "headers": [
+              "Ausgabe",
+              "Verwendung"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Hinweise mit Inhaltsverzeichnis und Suche lesen."
+              ],
+              [
+                "Originaldateien / ZIP",
+                "Anlagen im ursprünglichen Format nachschlagen."
+              ],
+              [
+                "Markdown / manifest",
+                "Text, source_url und captured_at prüfen."
+              ],
+              [
+                "Seitenliste / Dateiinformationen als CSV",
+                "Bewahren Sie URL, Titel, Status und Fehlergrund der gesammelten Seiten auf. Ordnen Sie Anlagen mit der Datei-Informations-CSV des Downloaders."
+              ],
+              [
+                "Eigene Notiz",
+                "Versionsangaben und Prüfdatum festhalten und bei Quellenänderungen aktualisieren."
+              ]
+            ]
+          }
+        },
+        "it": {
+          "title": "Riunisci guide pubbliche e documenti | Grab All Files",
+          "desc": "Raccogli guide di programmi pubblici, istruzioni e PDF o Word collegati. Organizza HTML, ZIP e fonti per consultare di nuovo i materiali.",
+          "eyebrow": "Guide e documenti pubblici",
+          "h1": "Tieni le guide pubbliche insieme ai documenti.",
+          "lead": "Metti la presentazione di un programma, le istruzioni e gli allegati pertinenti in una cartella. Leggi le pagine scelte in HTML e conserva gli originali accanto, per ritrovare la fonte senza una nuova ricerca.",
+          "best": [
+            "Preparare riferimenti su un programma o servizio pubblico.",
+            "Conservare una guida con PDF e moduli Word collegati.",
+            "Annotare fonti e date per ricerche o comunicazioni interne."
+          ],
+          "steps": [
+            "Apri la guida ufficiale che puoi salvare. In «Unisci pagine in HTML», confronta le candidate con il menu e scegli un argomento. Free salva una pagina scelta; Pro unisce il contenuto di più pagine.",
+            "Per file IA con fonti attiva «Dati per analisi con IA (Markdown con fonti)» prima della raccolta. Scegli le impostazioni per immagini e documenti. Salva la spiegazione in HTML e seleziona PDF o Word accessibili nel downloader. Controlla titoli e versioni indicate.",
+            "Raggruppa gli originali scelti in uno ZIP accanto all’HTML. Apri il risultato e confronta sezioni, allegati ed errori segnalati con la pagina ufficiale.",
+            "Dopo la raccolta usa «Salva ZIP di analisi IA». Controlla source_url e captured_at e annota revisione dichiarata e data verificata.",
+            "Nomina la cartella per argomento e data e organizza presentazione, istruzioni e moduli. Prima di riutilizzarli, verifica aggiornamenti di documenti e date sulla fonte ufficiale."
+          ],
+          "faq": [
+            {
+              "q": "Quali pagine conviene raccogliere?",
+              "a": "Scegli un programma: presentazione, istruzioni dettagliate e moduli collegati. Confronta le candidate con il menu ed elimina notizie e temi estranei. I collegamenti trovati dipendono dalla struttura del sito."
+            },
+            {
+              "q": "Il testo PDF o Word viene unito all’HTML?",
+              "a": "Salva gli originali separatamente. Il loro testo non viene integrato nell’HTML di lettura. Il testo estratto correttamente da documenti supportati può entrare nell’output IA; verifica le parti mancanti."
+            },
+            {
+              "q": "Il materiale salvato è completo e aggiornato?",
+              "a": "Confronta il risultato con l’elenco ufficiale necessario. Annota tu la versione pubblicata: la data di acquisizione non è una versione. Ricontrolla la fonte attuale prima di usare scadenze o requisiti."
+            },
+            {
+              "q": "Come uso le fonti in una nota informativa?",
+              "a": "Identifica i materiali con source_url e captured_at dell’output IA. Aggiungi titolo ufficiale e versione indicata nelle note e associa ogni punto alla sua fonte."
+            },
+            {
+              "q": "Posso iniziare da una sola guida?",
+              "a": "Sì. Free trova le candidate e salva una pagina scelta in HTML; Pro unisce più contenuti. Parti dalla presentazione e dagli allegati necessari e confronta il risultato con la fonte."
+            }
+          ],
+          "guide": {
+            "title": "Riferimenti facili da ritrovare",
+            "modes": [
+              [
+                "Guide da leggere",
+                "Usa HTML per presentazione e spiegazioni, con indice e ricerca."
+              ],
+              [
+                "Documenti originali",
+                "Conserva PDF e Word in una cartella o ZIP separato, mantenendo nomi originali utili."
+              ]
+            ],
+            "examplesTitle": "Un esempio generico",
+            "examples": [
+              [
+                "Un programma pubblico",
+                "Presentazione → istruzioni → PDF e moduli Word collegati. Scegli solo ciò che serve."
+              ],
+              [
+                "Una nota informativa",
+                "Per ogni punto annota URL, data di verifica e versione indicata. Segnala i documenti non ottenuti."
+              ]
+            ],
+            "formatsTitle": "Scegliere il formato per l’attività",
+            "headers": [
+              "Output",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Rileggere guide con indice e ricerca."
+              ],
+              [
+                "Originali / ZIP",
+                "Consultare allegati nel formato originale."
+              ],
+              [
+                "Markdown / manifest",
+                "Verificare testo, source_url e captured_at."
+              ],
+              [
+                "Elenco pagine / CSV dei file",
+                "Conserva URL, titolo, stato e motivo di errore delle pagine raccolte. Usa il CSV delle informazioni del downloader per ordinare gli allegati."
+              ],
+              [
+                "Le tue note",
+                "Registrare versioni e data di verifica; aggiornarle se cambia la fonte."
+              ]
+            ]
+          }
+        },
+        "ko": {
+          "title": "공공기관 안내와 첨부 자료를 함께 저장 | Grab All Files",
+          "desc": "공공 제도 안내, 신청 요령과 연결된 PDF·Word를 필요한 단위로 모읍니다. HTML·ZIP·출처 목록을 정리해 다시 확인할 자료 세트를 준비하세요.",
+          "eyebrow": "공공기관 자료 세트",
+          "h1": "공공 안내와 첨부 자료를 한곳에.",
+          "lead": "제도 개요, 자세한 안내와 관련 첨부 자료를 같은 폴더에 둡니다. 선택한 설명 페이지는 HTML로 읽고 원본 PDF·Word를 함께 보관하면 다시 검색하지 않고 출처를 찾을 수 있습니다.",
+          "best": [
+            "하나의 공공 제도나 서비스에 필요한 참고 자료를 모으기.",
+            "설명 페이지와 연결된 PDF·Word 양식을 함께 정리하기.",
+            "조사나 내부 설명에 쓸 출처와 확인일 기록하기."
+          ],
+          "steps": [
+            "저장이 허용된 공식 안내 페이지를 엽니다. “페이지를 HTML로 합치기”에서 후보를 원본 메뉴와 비교하고 필요한 주제만 선택합니다. 무료 버전은 선택한 한 페이지, Pro는 여러 페이지 본문을 저장·결합합니다.",
+            "출처가 있는 AI 파일도 사용하려면 수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 켭니다. 이미지·연결 문서 설정을 선택하고 설명을 HTML로 저장합니다. 첨부 PDF·Word는 파일 다운로더에서 가져올 수 있는 링크를 선택하고 제목과 표기된 버전을 확인합니다.",
+            "선택한 원본 파일을 ZIP으로 묶어 HTML 옆에 둡니다. 저장 결과를 열어 필요한 제목·첨부 자료와 실패 항목을 공식 페이지와 비교합니다.",
+            "수집 완료 후 “AI 분석용 ZIP 저장”로 저장하고 source_url·captured_at을 확인합니다. 표기 버전과 확인일은 직접 기록합니다.",
+            "주제와 날짜로 폴더 이름을 정하고 개요·안내·양식을 구분합니다. 나중에 사용할 때 공식 출처에서 문서와 날짜의 변경 여부를 확인합니다."
+          ],
+          "faq": [
+            {
+              "q": "어떤 페이지를 함께 모으면 좋을까요?",
+              "a": "하나의 제도나 서비스에서 개요, 자세한 안내, 연결된 양식을 고릅니다. 후보와 원본 메뉴를 비교해 관련 없는 뉴스나 다른 주제를 제외하세요. 링크 탐색은 사이트 구성에 따라 달라집니다."
+            },
+            {
+              "q": "PDF·Word 본문도 HTML에 합쳐지나요?",
+              "a": "원본은 별도 파일로 보관합니다. 해당 본문은 읽기용 HTML에 통합되지 않습니다. 지원 문서에서 추출에 성공한 텍스트는 AI 출력에 포함될 수 있으므로 누락과 실패를 확인하세요."
+            },
+            {
+              "q": "저장하면 자료가 모두 있고 최신인지 알 수 있나요?",
+              "a": "필요한 공식 목록과 저장 결과를 비교합니다. 문서에 표기된 버전은 직접 기록하며, 취득 시각과 구별하세요. 기한이나 조건을 사용하기 전에 최신 출처를 확인합니다."
+            },
+            {
+              "q": "내부 설명에 출처를 활용하려면요?",
+              "a": "AI 출력의 source_url과 captured_at으로 저장한 자료를 확인합니다. 공식 문서명과 표기된 버전을 메모에 덧붙이고 설명 항목을 근거 출처와 연결하세요."
+            },
+            {
+              "q": "안내 페이지 하나로 시작할 수 있나요?",
+              "a": "무료 버전은 후보를 탐색하고 선택한 한 페이지를 HTML로 저장합니다. Pro는 여러 페이지 본문을 결합합니다. 개요와 필요한 첨부 자료부터 고르고 저장 결과를 원본과 비교하세요."
+            }
+          ],
+          "guide": {
+            "title": "다시 확인하기 쉬운 자료 세트",
+            "modes": [
+              [
+                "읽기용 안내",
+                "개요와 설명은 HTML로 저장하고 목차·검색으로 필요한 부분을 찾습니다."
+              ],
+              [
+                "첨부 원본",
+                "PDF·Word는 별도 ZIP이나 폴더에 보관하고 대조에 도움이 되는 원본 이름을 남깁니다."
+              ]
+            ],
+            "examplesTitle": "일반적인 정리 예시",
+            "examples": [
+              [
+                "공개 제도 하나",
+                "개요 → 자세한 안내 → 연결된 PDF 설명과 Word 양식. 해당 주제에 필요한 항목만 선택합니다."
+              ],
+              [
+                "설명 메모",
+                "항목별 출처 URL, 확인일과 표기된 버전을 기록합니다. 가져오지 못한 자료는 누락으로 표시합니다."
+              ]
+            ],
+            "formatsTitle": "목적에 맞게 출력 선택",
+            "headers": [
+              "출력",
+              "사용 방법"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "목차와 검색으로 안내 페이지를 다시 읽기."
+              ],
+              [
+                "원본 파일 / ZIP",
+                "첨부 자료를 원래 형식으로 보관·참조하기."
+              ],
+              [
+                "Markdown / manifest",
+                "본문과 source_url·captured_at 확인하기."
+              ],
+              [
+                "페이지 목록 / 파일 정보 CSV",
+                "수집 페이지의 URL·제목·상태·실패 이유 목록을 남깁니다. 첨부 자료는 파일 다운로더의 파일 정보 CSV로 정리합니다."
+              ],
+              [
+                "직접 작성한 메모",
+                "표기된 버전과 확인일을 기록하고 출처 변경 시 갱신하기."
+              ]
+            ]
+          }
+        },
+        "pt_BR": {
+          "title": "Reúna orientações públicas e seus documentos | Grab All Files",
+          "desc": "Colete orientações de programas públicos, instruções e PDF ou Word vinculados. Organize HTML, ZIP e fontes para consultar o material depois.",
+          "eyebrow": "Orientações e documentos públicos",
+          "h1": "Guarde orientações públicas com seus documentos.",
+          "lead": "Coloque a apresentação de um programa, as instruções e os anexos relevantes na mesma pasta. Leia páginas escolhidas em HTML e mantenha os documentos originais ao lado para voltar à fonte sem pesquisar tudo novamente.",
+          "best": [
+            "Preparar referências sobre um programa ou serviço público.",
+            "Guardar uma orientação com PDF e formulários Word vinculados.",
+            "Registrar fontes e datas para pesquisa ou apresentação interna."
+          ],
+          "steps": [
+            "Abra a orientação oficial que você pode salvar. Em “Juntar páginas em HTML”, compare as candidatas com o menu e escolha um tema. Free salva uma página escolhida; Pro combina o conteúdo de várias.",
+            "Para arquivos IA com fontes, ative “Dados para análise com IA (Markdown com fontes)” antes da coleta. Escolha opções de imagens e documentos vinculados. Salve a explicação em HTML e selecione PDF ou Word acessíveis no downloader. Confira títulos e versões indicadas.",
+            "Reúna os originais escolhidos em um ZIP junto do HTML. Abra o resultado e compare seções, anexos e falhas informadas com a página oficial.",
+            "Após a coleta use “Salvar ZIP de análise IA”. Confira source_url e captured_at e anote revisão declarada e data verificada.",
+            "Nomeie a pasta por tema e data e organize apresentação, instruções e formulários. Antes de reutilizar, confira mudanças nos documentos e datas na fonte oficial."
+          ],
+          "faq": [
+            {
+              "q": "Quais páginas vale reunir?",
+              "a": "Escolha um programa: apresentação, instruções detalhadas e formulários vinculados. Compare candidatas com o menu e retire notícias e temas sem relação. Os links detectados dependem da estrutura do site."
+            },
+            {
+              "q": "O texto de PDF ou Word entra no HTML?",
+              "a": "Guarde os originais separadamente. O texto não se integra ao HTML de leitura. Texto extraído com sucesso de documentos compatíveis pode entrar na saída para IA; confira lacunas e falhas."
+            },
+            {
+              "q": "O conjunto salvo está completo e atualizado?",
+              "a": "Compare o resultado com a lista oficial necessária. Registre você a versão publicada: data de captura não é versão de documento. Consulte a fonte atual antes de usar prazos ou requisitos."
+            },
+            {
+              "q": "Como uso as fontes em uma apresentação?",
+              "a": "Identifique o material com source_url e captured_at da saída para IA. Acrescente título oficial e versão indicada nas notas e relacione cada ponto à sua fonte."
+            },
+            {
+              "q": "Posso começar com uma única orientação?",
+              "a": "Sim. Free encontra candidatas e salva uma página escolhida em HTML; Pro combina vários conteúdos. Comece pela apresentação e pelos anexos necessários e compare o resultado com a fonte."
+            }
+          ],
+          "guide": {
+            "title": "Referências fáceis de consultar",
+            "modes": [
+              [
+                "Orientações para leitura",
+                "Use HTML para apresentação e explicações, com sumário e busca."
+              ],
+              [
+                "Documentos originais",
+                "Guarde PDF e Word em outra pasta ou ZIP, mantendo nomes originais úteis."
+              ]
+            ],
+            "examplesTitle": "Um exemplo genérico",
+            "examples": [
+              [
+                "Um programa público",
+                "Apresentação → instruções → PDF e formulários Word vinculados. Escolha apenas o necessário."
+              ],
+              [
+                "Uma nota informativa",
+                "Anote URL, data de consulta e versão indicada para cada ponto. Marque documentos não obtidos."
+              ]
+            ],
+            "formatsTitle": "Escolha o formato conforme a tarefa",
+            "headers": [
+              "Saída",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Ler orientações com sumário e busca."
+              ],
+              [
+                "Originais / ZIP",
+                "Consultar anexos no formato original."
+              ],
+              [
+                "Markdown / manifest",
+                "Verificar texto, source_url e captured_at."
+              ],
+              [
+                "Lista de páginas / CSV dos arquivos",
+                "Guarde URL, título, status e motivo de falha das páginas coletadas. Use o CSV de informações do downloader para organizar anexos."
+              ],
+              [
+                "Suas notas",
+                "Registrar versões e data de consulta e revisar se a fonte mudar."
+              ]
+            ]
+          }
+        },
+        "zh_CN": {
+          "title": "集中保存公共机构说明与附件资料 | Grab All Files",
+          "desc": "按需要收集公共制度说明、申请指南及PDF、Word附件。整理HTML、ZIP与来源列表，准备便于日后核对的参考资料。",
+          "eyebrow": "公共机构资料集",
+          "h1": "把公共说明与附件放在一起。",
+          "lead": "将制度概览、详细指南及相关附件放在同一个文件夹中。选中的说明页面用HTML阅读，原始PDF、Word放在旁边，日后无需重新搜索就能找到来源。",
+          "best": [
+            "为一个公共制度或服务准备参考资料。",
+            "把说明页面与链接的PDF、Word表格一起整理。",
+            "为研究或内部说明记录来源和核对日期。"
+          ],
+          "steps": [
+            "打开允许保存的官方说明页面，在“将网页合并为 HTML”中将候选与原菜单核对，只选择需要的主题。免费版保存所选的一个页面，Pro可合并多个页面正文。",
+            "需要带来源的AI文件时，收集前启用“AI分析数据（带出处的Markdown）”。 选择图片和链接文档设置，保存说明HTML。在文件下载器中选择可获取的PDF、Word附件链接，并核对文件名称和标示版本。",
+            "将选中的原始文件打包为ZIP，与HTML一起保存。打开保存结果，对照官方页面检查所需标题、附件及报告的失败项目。",
+            "收集完成后使用“保存AI分析ZIP”保存资料，核对source_url与captured_at，版本及确认日期自行记录。",
+            "按主题与日期命名文件夹，整理概览、指南和表格。日后使用前回到官方来源，检查文档和日期是否更新。"
+          ],
+          "faq": [
+            {
+              "q": "哪些页面适合一起收集？",
+              "a": "以一个制度或服务为单位，选择概览、详细指南及链接的表格。比较候选和原菜单，排除无关新闻或其他主题。链接的发现情况因网站结构而异。"
+            },
+            {
+              "q": "PDF、Word正文会合并到HTML吗？",
+              "a": "原件作为独立文件保存，其正文不会并入阅读用HTML。支持文档中成功提取的文字可加入AI输出，但需检查缺失与失败内容。"
+            },
+            {
+              "q": "保存后能确定资料完整且最新吗？",
+              "a": "请将结果与所需官方资料列表核对。自行记录标示版本，获取时间不等于文档版本。使用期限或条件前还需查看最新来源。"
+            },
+            {
+              "q": "如何在内部说明中使用来源列表？",
+              "a": "通过AI输出中的source_url和captured_at识别已保存资料。在自己的笔记中补充正式文档名称及标示版本，并把每个说明项目与依据来源对应。"
+            },
+            {
+              "q": "可以先从一个说明页面开始吗？",
+              "a": "免费版可查找候选，将所选的一个页面保存为HTML；Pro可合并多个页面正文。先选概览与所需附件，再将保存结果与来源核对。"
+            }
+          ],
+          "guide": {
+            "title": "整理成便于回查的资料集",
+            "modes": [
+              [
+                "可阅读的说明",
+                "概览和说明页面保存为HTML，通过目录与搜索定位内容。"
+              ],
+              [
+                "原始附件",
+                "PDF、Word另存为ZIP或文件夹，并保留有助核对的原文件名。"
+              ]
+            ],
+            "examplesTitle": "通用整理示例",
+            "examples": [
+              [
+                "一个公开制度",
+                "概览 → 详细指南 → 链接的PDF说明与Word表格。仅选择该主题需要的项目。"
+              ],
+              [
+                "说明笔记",
+                "逐项记录来源URL、核对日期及标示版本；无法取得的资料标为缺失。"
+              ]
+            ],
+            "formatsTitle": "按用途选择输出",
+            "headers": [
+              "输出",
+              "用途"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "通过目录与搜索重读说明页面。"
+              ],
+              [
+                "原始文件／ZIP",
+                "以原格式保存和查阅附件。"
+              ],
+              [
+                "Markdown／manifest",
+                "核对正文、source_url和captured_at。"
+              ],
+              [
+                "页面列表／文件信息CSV",
+                "保留收集页面的URL、标题、状态与失败原因列表。通过文件下载器的文件信息CSV整理附件。"
+              ],
+              [
+                "自己的资料笔记",
+                "记录标示版本及核对日期，在来源更新时调整。"
+              ]
+            ]
+          }
+        },
+        "zh_TW": {
+          "title": "集中儲存公部門說明與附件資料 | Grab All Files",
+          "desc": "依需要收集公共制度說明、申請指南及PDF、Word附件。整理HTML、ZIP與來源清單，準備便於日後核對的參考資料。",
+          "eyebrow": "公部門資料集",
+          "h1": "把公共說明與附件放在一起。",
+          "lead": "將制度概覽、詳細指南及相關附件放在同一個資料夾。選取的說明頁面用HTML閱讀，原始PDF、Word放在旁邊，日後無須重新搜尋就能找到來源。",
+          "best": [
+            "為一個公共制度或服務準備參考資料。",
+            "把說明頁面與連結的PDF、Word表格一起整理。",
+            "為研究或內部說明記錄來源和核對日期。"
+          ],
+          "steps": [
+            "開啟允許儲存的官方說明頁面，在「將網頁合併為 HTML」中將候選與原選單核對，只選需要的主題。免費版儲存選取的一個頁面，Pro可合併多個頁面本文。",
+            "需要附來源的AI檔案時，收集前啟用「AI分析資料（附出處的Markdown）」。 選擇圖片和連結文件設定，儲存說明HTML。在檔案下載器中選取可取得的PDF、Word附件連結，核對檔案名稱與標示版本。",
+            "將選取的原始檔案打包為ZIP，與HTML一起儲存。開啟儲存結果，對照官方頁面檢查所需標題、附件及回報的失敗項目。",
+            "收集完成後使用「儲存AI分析ZIP」儲存資料，核對source_url與captured_at，版本及確認日期自行記錄。",
+            "依主題與日期命名資料夾，整理概覽、指南與表格。日後使用前回到官方來源，檢查文件和日期是否更新。"
+          ],
+          "faq": [
+            {
+              "q": "哪些頁面適合一起收集？",
+              "a": "以一個制度或服務為單位，選取概覽、詳細指南及連結的表格。比較候選和原選單，排除無關新聞或其他主題。連結的發現情況因網站結構而異。"
+            },
+            {
+              "q": "PDF、Word本文會合併到HTML嗎？",
+              "a": "原件作為獨立檔案儲存，其本文不會併入閱讀用HTML。支援文件中成功擷取的文字可加入AI輸出，但需檢查缺漏與失敗內容。"
+            },
+            {
+              "q": "儲存後能確定資料完整且最新嗎？",
+              "a": "請將結果與所需官方資料清單核對。自行記錄標示版本，取得時間不等於文件版本。使用期限或條件前仍需查看最新來源。"
+            },
+            {
+              "q": "如何在內部說明使用來源清單？",
+              "a": "透過AI輸出的source_url和captured_at識別已儲存資料。在自己的筆記中補充正式文件名稱及標示版本，並把每個說明項目與依據來源對應。"
+            },
+            {
+              "q": "可以先從一個說明頁面開始嗎？",
+              "a": "免費版可尋找候選，將選取的一個頁面儲存為HTML；Pro可合併多個頁面本文。先選概覽與所需附件，再將儲存結果與來源核對。"
+            }
+          ],
+          "guide": {
+            "title": "整理成便於回查的資料集",
+            "modes": [
+              [
+                "可閱讀的說明",
+                "概覽和說明頁面儲存為HTML，透過目錄與搜尋定位內容。"
+              ],
+              [
+                "原始附件",
+                "PDF、Word另存為ZIP或資料夾，並保留有助核對的原檔名。"
+              ]
+            ],
+            "examplesTitle": "通用整理範例",
+            "examples": [
+              [
+                "一個公開制度",
+                "概覽 → 詳細指南 → 連結的PDF說明與Word表格。僅選該主題需要的項目。"
+              ],
+              [
+                "說明筆記",
+                "逐項記錄來源URL、核對日期及標示版本；無法取得的資料標為缺漏。"
+              ]
+            ],
+            "formatsTitle": "依用途選擇輸出",
+            "headers": [
+              "輸出",
+              "用途"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "透過目錄與搜尋重讀說明頁面。"
+              ],
+              [
+                "原始檔案／ZIP",
+                "以原格式儲存和查閱附件。"
+              ],
+              [
+                "Markdown／manifest",
+                "核對本文、source_url與captured_at。"
+              ],
+              [
+                "頁面清單／檔案資訊CSV",
+                "保留收集頁面的URL、標題、狀態與失敗原因清單。透過檔案下載器的檔案資訊CSV整理附件。"
+              ],
+              [
+                "自己的資料筆記",
+                "記錄標示版本及核對日期，在來源更新時調整。"
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "save-web-pages-as-markdown": {
+      "path": "save-web-pages-as-markdown.html",
+      "related": [
+        "web-pages-for-reading-and-ai-analysis",
+        "save-online-manuals-and-knowledge-pages",
+        "collect-public-government-documents"
+      ],
+      "copy": {
+        "en": {
+          "title": "Save web sources as reusable Markdown | Grab All Files",
+          "desc": "Export collected web text as one Markdown file, per-page notes or a full package. Keep sources for research, writing and manual reuse in notes or external AI.",
+          "eyebrow": "Web sources as Markdown",
+          "h1": "Turn web sources into notes you can reuse.",
+          "lead": "Keep collected headings, text, lists, supported HTML tables and ordinary links in Markdown, with sources and capture dates. Choose one reading file or separate page notes, then reuse the saved material in research, writing or a tool you choose.",
+          "best": [
+            "Build source-linked research notes from related articles.",
+            "Keep reference text beside your writing or manual notes.",
+            "Prepare selected Markdown files for questions in an external AI tool."
+          ],
+          "steps": [
+            "Open a page you are allowed to save and start “Combine pages into HTML”. Review related candidates and choose needed pages. Free saves one chosen page as HTML; Pro combines multiple selected page bodies.",
+            "Before collecting, enable “AI analysis data (Markdown with sources)”. Choose “One Markdown file”, “Per-page Markdown” or “Full package” to suit a reading file, separate notes or structured reuse.",
+            "Collect and review the result. Compare headings, links and important text with the source and check any failures. Save the HTML too if you want its table of contents and search.",
+            "Use “Save AI analysis ZIP”, extract the ZIP and open the Markdown files in a compatible editor. Keep source_url and captured_at with your notes; add your own topic labels and date checked.",
+            "Copy or import supported files manually into your notes workflow. For external AI, choose suitable files and use “Copy AI request text” with your question. Check conclusions against the supplied text and current source."
+          ],
+          "faq": [
+            {
+              "q": "Does it sync with Obsidian or Notion?",
+              "a": "Export files first, then manually copy or import them using the destination’s supported method. Check headings, tables and links after import. The extension does not automatically sync a vault or workspace, and import support varies."
+            },
+            {
+              "q": "Are images and interactive content preserved?",
+              "a": "Markdown can reference images using their original URLs; image files are not always included in the package. Extraction is not a complete site clone. Review important images and content that depends on interaction at the original page."
+            },
+            {
+              "q": "Does the 25 MB setting limit the entire package?",
+              "a": "The default 25 MB is a splitting target for Markdown text. It does not guarantee the total ZIP size or acceptance by another tool. Extract the ZIP and select or split the files to match the destination’s limits."
+            },
+            {
+              "q": "What happens to linked PDFs and Word files?",
+              "a": "Successfully extracted text from selected supported documents can enter AI output. Keep needed originals separately and review unreadable or missing text; scanned material is not guaranteed to be extracted. Document text is not merged into the readable HTML."
+            },
+            {
+              "q": "Does exporting send the material to AI?",
+              "a": "No. Export prepares files on your device. You choose an external service and manually provide supported files and your question. Keep source_url and captured_at when checking answers; a capture date does not prove that the source is still current."
+            }
+          ],
+          "guide": {
+            "title": "Two ways to reuse the saved text",
+            "modes": [
+              [
+                "Read and annotate",
+                "Use one Markdown file for a compact reference. Add your own comments while retaining the source information."
+              ],
+              [
+                "Organise page notes",
+                "Use per-page Markdown to group sources by topic and link them from your own research or writing notes."
+              ]
+            ],
+            "examplesTitle": "Examples for research and writing",
+            "examples": [
+              [
+                "A research note",
+                "Summarise the points stated in these pages. Link each point to its source URL and separate source wording from my own observations."
+              ],
+              [
+                "A writing reference",
+                "List the facts that support this draft. Include source URLs and capture dates, and mark claims that the supplied material does not support."
+              ]
+            ],
+            "formatsTitle": "Choose your Markdown output",
+            "headers": [
+              "Format",
+              "When to use it"
+            ],
+            "rows": [
+              [
+                "One Markdown file",
+                "Collected text in one reading file with per-page sources; large text may be split."
+              ],
+              [
+                "Per-page Markdown",
+                "A Markdown file for each page plus manifest.json in a ZIP, useful for separate source notes."
+              ],
+              [
+                "Full package",
+                "corpus.md, chunks.jsonl, manifest.json, request text and readable HTML in a ZIP for structured reuse. In a full package, reading HTML is included. In masking mode, HTML is not included."
+              ],
+              [
+                "HTML / original documents",
+                "Keep the readable reference and any needed original attachments beside your Markdown."
+              ]
+            ]
+          }
+        },
+        "ja": {
+          "title": "Web資料を出典付きMarkdownで保存・再利用 | Grab All Files",
+          "desc": "Web本文を1つのMarkdown、ページ別、フルパッケージで保存。出典を残し、ノート・調査・執筆・外部AIへ手動で再利用する手順を紹介します。",
+          "eyebrow": "Web資料をMarkdownで再利用",
+          "h1": "Web資料を、使い回せるMarkdownノートに。",
+          "lead": "集めた見出し・本文・箇条書き・対応するHTML表・通常のリンクを、出典と取得日時付きのMarkdownへ。1つの読み物にもページ別のノートにもでき、調査・執筆や選んだツールで資料を活用できます。",
+          "best": [
+            "関連記事を、出典付きの調査ノートとして整理する。",
+            "執筆中の原稿や手動ノートの横に、根拠となる本文を置く。",
+            "必要なMarkdownファイルを選び、外部AIへの質問に使う。"
+          ],
+          "steps": [
+            "保存が許可されたページを開き、「ページをHTMLにまとめる」で関連候補を確認し、必要なページを選びます。無料版は選んだ1ページをHTML保存し、Proは複数ページ本文をまとめられます。",
+            "収集前に「AI分析用データ（Markdown・出典付き）」を有効にします。読み物なら「1つのMarkdown」、出典別ノートなら「ページ別Markdown」、構造化データも使うなら「フルパッケージ」を選びます。",
+            "収集結果を確認し、見出し・リンク・重要な本文を元ページと照合します。失敗した項目も確認。目次や本文検索で読むならHTMLも保存します。",
+            "「AI分析用ZIPを保存」を使い、ZIPを展開して対応するエディターでMarkdownを開きます。source_url・captured_atを残し、自分のテーマ名や確認日をメモに加えます。",
+            "ノートで使うファイルは、対応する方法で自分でコピー・取り込みます。外部AIへは必要なファイルと「AIへの依頼文をコピー」で用意した依頼文・質問を渡し、回答を原文と最新の出典で確認します。"
+          ],
+          "faq": [
+            {
+              "q": "ObsidianやNotionと自動同期できますか？",
+              "a": "ファイルを書き出してから、取り込み先が対応する方法で手動コピー・インポートします。取り込み後に見出し・表・リンクを確認してください。拡張機能は保管庫やワークスペースを自動同期せず、対応する取り込み方法もツールで異なります。"
+            },
+            {
+              "q": "画像や動きのあるページもそのまま残りますか？",
+              "a": "Markdownでは画像が元URLへのリンクなどとして残り、画像ファイル本体が常に同梱されるわけではありません。サイトの完全な複製ではないため、重要な画像や操作で表示される内容は元ページでも確認してください。"
+            },
+            {
+              "q": "25MBの設定ならZIP全体も25MB以内になりますか？",
+              "a": "既定の25MBはMarkdown本文の分割目安です。ZIP全体のサイズや他のツールでの受け入れを保証するものではありません。ZIPを展開し、取り込み先の制限に合わせてファイルを選択・分割します。"
+            },
+            {
+              "q": "リンク先のPDFやWordはどうなりますか？",
+              "a": "選んだ対応文書で抽出に成功した本文はAI向け出力に含められます。必要な原本は別に保存し、読めなかった部分や不足も確認してください。スキャン資料の本文抽出は保証されず、文書本文は閲覧用HTMLには統合されません。"
+            },
+            {
+              "q": "書き出すとAIへ送信されますか？",
+              "a": "端末内でファイルを準備します。外部サービスは利用者が選び、対応ファイルと質問を手動で渡します。回答の確認ではsource_url・captured_atを残して使い、取得日時と出典の現在の内容を区別します。"
+            }
+          ],
+          "guide": {
+            "title": "保存した本文を、2つの形で活用する",
+            "modes": [
+              [
+                "読む・書き込む",
+                "1つのMarkdownを手元の資料に。出典を残しながら、自分のコメントを付けて読み返します。"
+              ],
+              [
+                "ページ別に整理する",
+                "ページ別Markdownをテーマでまとめ、自分の調査・執筆ノートから出典ごとに参照します。"
+              ]
+            ],
+            "examplesTitle": "調査・執筆で使う例",
+            "examples": [
+              [
+                "調査ノート",
+                "このページ群に記載された要点をまとめてください。各項目に出典URLを付け、原文の内容と自分の考察を分けて整理します。"
+              ],
+              [
+                "執筆用の参考資料",
+                "この原稿の根拠となる事実を資料から列挙してください。出典URLと取得日時を付け、提供資料で確認できない主張は明示してください。"
+              ]
+            ],
+            "formatsTitle": "Markdownの出力形式を選ぶ",
+            "headers": [
+              "形式",
+              "向いている使い方"
+            ],
+            "rows": [
+              [
+                "1つのMarkdown",
+                "本文を1つの読み物に。ページごとの出典を含み、大きな本文は分割される場合があります。"
+              ],
+              [
+                "ページ別Markdown",
+                "ページごとの.mdとmanifest.jsonをZIPに。出典別ノートとして整理しやすい形式です。"
+              ],
+              [
+                "フルパッケージ",
+                "corpus.md・chunks.jsonl・manifest.json・依頼文・閲覧用HTMLをZIPにまとめ、構造化データも再利用します。フルパッケージでは閲覧用HTMLを同梱します。伏字モードではHTMLを同梱しません。"
+              ],
+              [
+                "HTML／原本文書",
+                "読み返すHTMLや必要な添付原本を、Markdownと一緒に保管します。"
+              ]
+            ]
+          }
+        },
+        "es": {
+          "title": "Guarda fuentes web como Markdown reutilizable | Grab All Files",
+          "desc": "Exporta texto web en un Markdown, notas por página o un paquete completo. Conserva fuentes para investigar, escribir y reutilizar manualmente en notas o IA.",
+          "eyebrow": "Fuentes web en Markdown",
+          "h1": "Convierte fuentes web en notas reutilizables.",
+          "lead": "Conserva títulos, texto, listas, tablas HTML compatibles y enlaces normales en Markdown, con fuentes y fechas de captura. Elige un archivo de lectura o notas separadas y reutilízalo en investigación, escritura o la herramienta que prefieras.",
+          "best": [
+            "Crear notas de investigación con fuentes de artículos relacionados.",
+            "Tener el texto de referencia junto a tu borrador o notas.",
+            "Preparar Markdown seleccionado para preguntar a una IA externa."
+          ],
+          "steps": [
+            "Abre una página que puedas guardar y usa «Combinar páginas en HTML». Revisa las candidatas y elige las necesarias. Free guarda una página elegida en HTML; Pro combina el contenido de varias.",
+            "Activa «Datos para análisis con IA (Markdown con fuentes)» antes de recopilar. Elige «Un solo Markdown», «Markdown por página» o «Paquete completo» para lectura, notas separadas o reutilización estructurada.",
+            "Recopila y revisa el resultado. Compara títulos, enlaces y texto importante con la fuente y comprueba fallos. Guarda también HTML si quieres índice y búsqueda.",
+            "Usa «Guardar ZIP de análisis IA», extrae el ZIP y abre los Markdown en un editor compatible. Conserva source_url y captured_at y añade tus temas y fecha de consulta.",
+            "Copia o importa archivos compatibles manualmente a tus notas. Para IA externa, elige archivos y usa «Copiar petición para la IA» con tu pregunta. Verifica las conclusiones con el texto y la fuente actual."
+          ],
+          "faq": [
+            {
+              "q": "¿Se sincroniza con Obsidian o Notion?",
+              "a": "Exporta primero y copia o importa manualmente mediante el método compatible del destino. Revisa títulos, tablas y enlaces tras importar. La extensión no sincroniza automáticamente tu almacén o espacio; la compatibilidad de importación varía."
+            },
+            {
+              "q": "¿Se conservan imágenes y contenido interactivo?",
+              "a": "Markdown puede referenciar imágenes con sus URL originales; sus archivos no siempre se incluyen. La extracción no clona todo el sitio. Comprueba imágenes importantes y contenido que requiere interacción en la página original."
+            },
+            {
+              "q": "¿25 MB limita el paquete completo?",
+              "a": "El valor predeterminado de 25 MB es un objetivo para dividir el texto Markdown. No garantiza el tamaño total del ZIP ni su aceptación por otra herramienta. Extrae y selecciona o divide archivos según los límites del destino."
+            },
+            {
+              "q": "¿Qué pasa con PDF o Word enlazados?",
+              "a": "El texto extraído correctamente de documentos seleccionados compatibles puede entrar en la salida para IA. Guarda los originales necesarios aparte y revisa texto ilegible o faltante. No se garantiza la extracción de escaneos; el texto de documentos no se integra en el HTML de lectura."
+            },
+            {
+              "q": "¿Exportar envía los datos a IA?",
+              "a": "No. Los archivos se preparan en tu dispositivo. Tú eliges el servicio y le entregas manualmente archivos compatibles y preguntas. Conserva source_url y captured_at para verificar respuestas; la captura no prueba que la fuente siga actualizada."
+            }
+          ],
+          "guide": {
+            "title": "Dos formas de reutilizar el texto",
+            "modes": [
+              [
+                "Leer y anotar",
+                "Usa un Markdown como referencia compacta y añade comentarios conservando las fuentes."
+              ],
+              [
+                "Organizar notas por página",
+                "Agrupa Markdown por temas y enlaza cada fuente desde tus notas de investigación o escritura."
+              ]
+            ],
+            "examplesTitle": "Ejemplos para investigar y escribir",
+            "examples": [
+              [
+                "Una nota de investigación",
+                "Resume los puntos de estas páginas. Enlaza cada punto a su URL fuente y separa el texto original de mis observaciones."
+              ],
+              [
+                "Una referencia de escritura",
+                "Enumera los hechos que respaldan este borrador. Incluye URL y fechas de captura y marca las afirmaciones sin respaldo en los documentos."
+              ]
+            ],
+            "formatsTitle": "Elige la salida Markdown",
+            "headers": [
+              "Formato",
+              "Cuándo usarlo"
+            ],
+            "rows": [
+              [
+                "Un solo Markdown",
+                "Texto en un archivo de lectura con fuentes por página; el texto grande puede dividirse."
+              ],
+              [
+                "Markdown por página",
+                "Un .md por página y manifest.json en ZIP, para notas de fuentes separadas."
+              ],
+              [
+                "Paquete completo",
+                "corpus.md, chunks.jsonl, manifest.json, petición y HTML en ZIP para reutilización estructurada. El paquete completo incluye HTML de lectura. En modo de enmascaramiento no se incluye HTML."
+              ],
+              [
+                "HTML / originales",
+                "Guarda la referencia legible y los adjuntos originales junto al Markdown."
+              ]
+            ]
+          }
+        },
+        "fr": {
+          "title": "Enregistrer des sources web en Markdown | Grab All Files",
+          "desc": "Exportez le texte web en un Markdown, des notes par page ou un dossier complet. Gardez les sources pour la recherche, la rédaction et la réutilisation manuelle.",
+          "eyebrow": "Sources web en Markdown",
+          "h1": "Des sources web aux notes réutilisables.",
+          "lead": "Conservez titres, texte, listes, tableaux HTML compatibles et liens ordinaires en Markdown, avec sources et dates de capture. Choisissez un fichier de lecture ou des notes distinctes pour vos recherches, votre rédaction ou l’outil choisi.",
+          "best": [
+            "Créer des notes de recherche avec les sources d’articles associés.",
+            "Garder le texte de référence à côté d’un brouillon ou de notes.",
+            "Préparer des Markdown sélectionnés pour interroger une IA externe."
+          ],
+          "steps": [
+            "Ouvrez une page que vous pouvez enregistrer et utilisez « Regrouper les pages en HTML ». Vérifiez les propositions et choisissez les pages utiles. Free enregistre une page choisie en HTML ; Pro regroupe plusieurs contenus.",
+            "Avant la collecte, activez « Données pour analyse par IA (Markdown avec sources) ». Choisissez « Un seul Markdown », « Markdown par page » ou « Paquet complet » selon vos besoins de lecture, de notes distinctes ou de données structurées.",
+            "Collectez et vérifiez le résultat. Comparez titres, liens et texte important à la source et examinez les échecs. Gardez aussi le HTML pour son sommaire et sa recherche.",
+            "Utilisez « Enregistrer le ZIP d’analyse IA », extrayez le ZIP et ouvrez les Markdown dans un éditeur compatible. Gardez source_url et captured_at et ajoutez vos thèmes et la date de consultation.",
+            "Copiez ou importez manuellement les fichiers compatibles dans vos notes. Pour une IA externe, choisissez les fichiers et utilisez « Copier la demande pour l’IA » avec votre question. Vérifiez les conclusions avec le texte et la source actuelle."
+          ],
+          "faq": [
+            {
+              "q": "Y a-t-il une synchronisation avec Obsidian ou Notion ?",
+              "a": "Exportez les fichiers, puis copiez-les ou importez-les manuellement selon les possibilités de la destination. Vérifiez titres, tableaux et liens. L’extension ne synchronise pas automatiquement votre coffre ou espace ; les imports pris en charge varient."
+            },
+            {
+              "q": "Les images et contenus interactifs sont-ils conservés ?",
+              "a": "Le Markdown peut référencer des images par leur URL d’origine ; les fichiers images ne sont pas toujours inclus. L’extraction ne clone pas le site entier. Consultez les images importantes et les contenus interactifs à la source."
+            },
+            {
+              "q": "Le réglage de 25 Mo limite-t-il tout le dossier ?",
+              "a": "Les 25 Mo par défaut servent de cible pour découper le texte Markdown. Ils ne garantissent ni la taille totale du ZIP ni l’acceptation par un autre outil. Extrayez, sélectionnez ou découpez les fichiers selon les limites du destinataire."
+            },
+            {
+              "q": "Que deviennent les PDF ou Word liés ?",
+              "a": "Le texte extrait avec succès des documents sélectionnés compatibles peut entrer dans la sortie IA. Gardez les originaux utiles à part et vérifiez le texte manquant ou illisible. L’extraction des scans n’est pas garantie ; le texte des documents n’entre pas dans le HTML de lecture."
+            },
+            {
+              "q": "L’export envoie-t-il les données à une IA ?",
+              "a": "Non. Les fichiers sont préparés sur votre appareil. Vous choisissez le service et fournissez manuellement les fichiers compatibles et questions. Gardez source_url et captured_at pour vérifier les réponses ; une capture ne prouve pas que la source est toujours actuelle."
+            }
+          ],
+          "guide": {
+            "title": "Deux usages du texte enregistré",
+            "modes": [
+              [
+                "Lire et annoter",
+                "Utilisez un Markdown comme référence compacte et ajoutez vos commentaires en gardant les sources."
+              ],
+              [
+                "Classer les notes par page",
+                "Regroupez les Markdown par thème et reliez les sources à vos notes de recherche ou de rédaction."
+              ]
+            ],
+            "examplesTitle": "Exemples pour la recherche et la rédaction",
+            "examples": [
+              [
+                "Une note de recherche",
+                "Résumez les points de ces pages. Reliez chaque point à son URL source et distinguez le texte source de mes observations."
+              ],
+              [
+                "Une référence de rédaction",
+                "Listez les faits qui étayent ce brouillon. Ajoutez URL et dates de capture et signalez les affirmations non étayées par les documents."
+              ]
+            ],
+            "formatsTitle": "Choisir la sortie Markdown",
+            "headers": [
+              "Format",
+              "Usage conseillé"
+            ],
+            "rows": [
+              [
+                "Un seul Markdown",
+                "Texte dans un fichier de lecture avec sources par page ; les gros textes peuvent être découpés."
+              ],
+              [
+                "Markdown par page",
+                "Un .md par page et manifest.json en ZIP pour séparer les sources."
+              ],
+              [
+                "Paquet complet",
+                "corpus.md, chunks.jsonl, manifest.json, demande et HTML en ZIP pour la réutilisation structurée. Le paquet complet inclut le HTML de lecture. En mode de masquage, le HTML n’est pas inclus."
+              ],
+              [
+                "HTML / originaux",
+                "Conservez la référence lisible et les pièces originales à côté du Markdown."
+              ]
+            ]
+          }
+        },
+        "de": {
+          "title": "Webquellen als Markdown wiederverwenden | Grab All Files",
+          "desc": "Exportieren Sie Webtext als eine Markdown-Datei, Seitennotizen oder Komplettpaket. Bewahren Sie Quellen für Recherche, Schreiben und manuelle Nutzung in Notizen oder KI.",
+          "eyebrow": "Webquellen als Markdown",
+          "h1": "Webquellen zu wiederverwendbaren Notizen machen.",
+          "lead": "Bewahren Sie Überschriften, Text, Listen, unterstützte HTML-Tabellen und normale Links als Markdown auf, mit Quellen und Aufnahmezeiten. Nutzen Sie eine Lesedatei oder getrennte Seitennotizen für Recherche, Schreiben und Ihr gewähltes Werkzeug.",
+          "best": [
+            "Quellenbezogene Recherchenotizen aus verwandten Artikeln erstellen.",
+            "Referenztext neben Entwürfen oder eigenen Notizen aufbewahren.",
+            "Ausgewählte Markdown-Dateien für Fragen an externe KI vorbereiten."
+          ],
+          "steps": [
+            "Öffnen Sie eine Seite, die Sie speichern dürfen, und starten Sie „Seiten als HTML bündeln“. Prüfen Sie Vorschläge und wählen Sie benötigte Seiten. Free speichert eine gewählte Seite als HTML; Pro bündelt mehrere Seiteninhalte.",
+            "Aktivieren Sie vor der Sammlung „KI-Analysedaten (Markdown mit Quellen)“. Wählen Sie „Eine Markdown-Datei“, „Markdown je Seite“ oder „Komplettpaket“ für Lesen, getrennte Notizen oder strukturierte Weiterverwendung.",
+            "Sammeln und prüfen Sie das Ergebnis. Vergleichen Sie Überschriften, Links und wichtigen Text mit der Quelle und prüfen Sie Fehler. Speichern Sie auch HTML für Inhaltsverzeichnis und Suche.",
+            "Nutzen Sie „KI-Analyse-ZIP speichern“, entpacken Sie das ZIP und öffnen Sie Markdown in einem passenden Editor. Behalten Sie source_url und captured_at und ergänzen Sie Themen und Ihr Prüfdatum.",
+            "Kopieren oder importieren Sie passende Dateien manuell in Ihre Notizen. Für externe KI wählen Sie Dateien und nutzen „KI-Anfragetext kopieren“ mit Ihrer Frage. Prüfen Sie Aussagen anhand des Textes und der aktuellen Quelle."
+          ],
+          "faq": [
+            {
+              "q": "Wird mit Obsidian oder Notion synchronisiert?",
+              "a": "Exportieren Sie Dateien und kopieren oder importieren Sie sie manuell nach den Möglichkeiten des Zielprogramms. Prüfen Sie Überschriften, Tabellen und Links. Die Erweiterung synchronisiert keinen Vault oder Arbeitsbereich automatisch; Importmöglichkeiten unterscheiden sich."
+            },
+            {
+              "q": "Bleiben Bilder und interaktive Inhalte erhalten?",
+              "a": "Markdown kann Bilder über ihre Original-URLs referenzieren; Bilddateien sind nicht immer enthalten. Die Ausgabe klont keine vollständige Website. Prüfen Sie wichtige Bilder und interaktive Inhalte an der Originalquelle."
+            },
+            {
+              "q": "Begrenzt die Einstellung 25 MB das ganze Paket?",
+              "a": "Die voreingestellten 25 MB sind ein Ziel für die Teilung von Markdown-Text. Das garantiert weder ZIP-Gesamtgröße noch Annahme durch andere Werkzeuge. Entpacken und wählen oder teilen Sie Dateien passend zum Zielprogramm."
+            },
+            {
+              "q": "Was geschieht mit verlinkten PDF- und Word-Dateien?",
+              "a": "Erfolgreich extrahierter Text ausgewählter unterstützter Dokumente kann in die KI-Ausgabe gelangen. Behalten Sie Originale separat und prüfen Sie fehlenden oder unlesbaren Text. Textextraktion aus Scans ist nicht garantiert; Dokumenttext wird nicht in das Lese-HTML integriert."
+            },
+            {
+              "q": "Sendet der Export Material an KI?",
+              "a": "Nein. Dateien werden auf Ihrem Gerät vorbereitet. Sie wählen den Dienst und übergeben passende Dateien und Fragen manuell. Behalten Sie source_url und captured_at zur Antwortprüfung; ein Aufnahmedatum beweist keine fortdauernde Aktualität."
+            }
+          ],
+          "guide": {
+            "title": "Zwei Wege zur Weiterverwendung",
+            "modes": [
+              [
+                "Lesen und kommentieren",
+                "Nutzen Sie eine Markdown-Datei als kompakte Referenz und fügen Sie eigene Kommentare mit Quellenbezug hinzu."
+              ],
+              [
+                "Seitennotizen ordnen",
+                "Gruppieren Sie Markdown nach Themen und verknüpfen Sie einzelne Quellen mit Ihren Recherche- oder Schreibnotizen."
+              ]
+            ],
+            "examplesTitle": "Beispiele für Recherche und Schreiben",
+            "examples": [
+              [
+                "Eine Recherchenotiz",
+                "Fasse die Aussagen dieser Seiten zusammen. Verlinke jede Aussage mit ihrer Quell-URL und trenne Quelltext von meinen Beobachtungen."
+              ],
+              [
+                "Eine Schreibreferenz",
+                "Liste die Fakten auf, die diesen Entwurf stützen. Füge Quell-URLs und Aufnahmezeiten hinzu und kennzeichne nicht belegte Aussagen."
+              ]
+            ],
+            "formatsTitle": "Markdown-Ausgabe wählen",
+            "headers": [
+              "Format",
+              "Passende Nutzung"
+            ],
+            "rows": [
+              [
+                "Eine Markdown-Datei",
+                "Gesammelter Text in einer Lesedatei mit Quellen je Seite; große Texte können geteilt werden."
+              ],
+              [
+                "Markdown je Seite",
+                "Eine .md je Seite mit manifest.json im ZIP für getrennte Quellnotizen."
+              ],
+              [
+                "Komplettpaket",
+                "corpus.md, chunks.jsonl, manifest.json, Anfragetext und HTML im ZIP für strukturierte Nutzung. Das vollständige Paket enthält das Lese-HTML. Im Maskierungsmodus wird HTML nicht beigelegt."
+              ],
+              [
+                "HTML / Originaldokumente",
+                "Lesbare Referenz und benötigte Originalanlagen neben Markdown aufbewahren."
+              ]
+            ]
+          }
+        },
+        "it": {
+          "title": "Salva fonti web come Markdown riutilizzabile | Grab All Files",
+          "desc": "Esporta testo web in un Markdown, note per pagina o un pacchetto completo. Conserva le fonti per ricerca, scrittura e riuso manuale in note o IA esterna.",
+          "eyebrow": "Fonti web in Markdown",
+          "h1": "Trasforma le fonti web in note riutilizzabili.",
+          "lead": "Conserva titoli, testo, elenchi, tabelle HTML supportate e link normali in Markdown, con fonti e date di acquisizione. Scegli un file di lettura o note separate e riusalo per ricerca, scrittura o lo strumento preferito.",
+          "best": [
+            "Creare note di ricerca con fonti da articoli correlati.",
+            "Tenere il testo di riferimento accanto a bozze o note personali.",
+            "Preparare Markdown selezionati per domande a un’IA esterna."
+          ],
+          "steps": [
+            "Apri una pagina che puoi salvare e usa «Unisci pagine in HTML». Controlla le candidate e scegli quelle necessarie. Free salva una pagina scelta in HTML; Pro unisce il contenuto di più pagine.",
+            "Prima della raccolta, attiva «Dati per analisi con IA (Markdown con fonti)». Scegli «Un unico Markdown», «Markdown per pagina» o «Pacchetto completo» per lettura, note separate o riuso strutturato.",
+            "Raccogli e controlla il risultato. Confronta titoli, link e testo importante con la fonte e verifica gli errori. Salva anche HTML per indice e ricerca.",
+            "Usa «Salva ZIP di analisi IA», estrai lo ZIP e apri i Markdown in un editor compatibile. Mantieni source_url e captured_at e aggiungi argomenti e data di verifica alle note.",
+            "Copia o importa manualmente i file compatibili nelle note. Per un’IA esterna, scegli i file e usa «Copia richiesta per l’IA» con la domanda. Verifica le conclusioni con il testo e la fonte attuale."
+          ],
+          "faq": [
+            {
+              "q": "Si sincronizza con Obsidian o Notion?",
+              "a": "Esporta prima i file, poi copiali o importali manualmente con il metodo supportato dalla destinazione. Controlla titoli, tabelle e link. L’estensione non sincronizza automaticamente archivio o spazio di lavoro; il supporto d’importazione varia."
+            },
+            {
+              "q": "Immagini e contenuti interattivi vengono conservati?",
+              "a": "Markdown può riferirsi alle immagini tramite URL originali; i file immagine non sono sempre inclusi. L’estrazione non clona il sito intero. Controlla immagini importanti e contenuti interattivi sulla pagina originale."
+            },
+            {
+              "q": "25 MB limita tutto il pacchetto?",
+              "a": "Il valore predefinito di 25 MB è un obiettivo per dividere il testo Markdown. Non garantisce dimensioni totali dello ZIP o accettazione da altri strumenti. Estrai e seleziona o dividi file secondo i limiti della destinazione."
+            },
+            {
+              "q": "Che succede ai PDF o Word collegati?",
+              "a": "Il testo estratto correttamente da documenti selezionati supportati può entrare nell’output IA. Tieni gli originali utili separati e verifica testo mancante o illeggibile. L’estrazione dalle scansioni non è garantita; il testo non viene integrato nell’HTML di lettura."
+            },
+            {
+              "q": "L’esportazione invia dati a un’IA?",
+              "a": "No. I file vengono preparati sul dispositivo. Scegli tu il servizio e fornisci manualmente file compatibili e domande. Mantieni source_url e captured_at per verificare le risposte; la data di acquisizione non prova che la fonte sia ancora attuale."
+            }
+          ],
+          "guide": {
+            "title": "Due modi per riusare il testo",
+            "modes": [
+              [
+                "Leggere e annotare",
+                "Usa un Markdown come riferimento compatto e aggiungi commenti mantenendo le fonti."
+              ],
+              [
+                "Organizzare note per pagina",
+                "Raggruppa i Markdown per argomento e collega le fonti alle note di ricerca o scrittura."
+              ]
+            ],
+            "examplesTitle": "Esempi per ricerca e scrittura",
+            "examples": [
+              [
+                "Una nota di ricerca",
+                "Riassumi i punti di queste pagine. Collega ogni punto alla sua URL fonte e separa il testo originale dalle mie osservazioni."
+              ],
+              [
+                "Un riferimento di scrittura",
+                "Elenca i fatti che sostengono questa bozza. Includi URL e date di acquisizione e segnala le affermazioni non supportate dai documenti."
+              ]
+            ],
+            "formatsTitle": "Scegliere l’output Markdown",
+            "headers": [
+              "Formato",
+              "Quando usarlo"
+            ],
+            "rows": [
+              [
+                "Un unico Markdown",
+                "Testo in un file di lettura con fonti per pagina; il testo grande può essere diviso."
+              ],
+              [
+                "Markdown per pagina",
+                "Un .md per pagina e manifest.json in ZIP, per note distinte delle fonti."
+              ],
+              [
+                "Pacchetto completo",
+                "corpus.md, chunks.jsonl, manifest.json, richiesta e HTML in ZIP per riuso strutturato. Il pacchetto completo include l’HTML di lettura. In modalità di mascheramento l’HTML non viene incluso."
+              ],
+              [
+                "HTML / originali",
+                "Conserva il riferimento leggibile e gli allegati originali accanto al Markdown."
+              ]
+            ]
+          }
+        },
+        "ko": {
+          "title": "웹 자료를 출처 있는 Markdown으로 재사용 | Grab All Files",
+          "desc": "웹 본문을 하나의 Markdown, 페이지별 노트 또는 전체 패키지로 내보냅니다. 출처를 남기고 조사·글쓰기·노트나 외부 AI에 수동으로 재사용하세요.",
+          "eyebrow": "웹 자료를 Markdown으로",
+          "h1": "웹 자료를 다시 쓸 수 있는 노트로.",
+          "lead": "수집한 제목·본문·목록·지원 HTML 표·일반 링크를 출처와 취득 시각이 있는 Markdown으로 보관합니다. 하나의 읽기 파일이나 페이지별 노트로 만들어 조사·글쓰기와 선택한 도구에서 활용하세요.",
+          "best": [
+            "관련 글에서 출처 있는 조사 노트를 만들기.",
+            "작성 중인 글이나 직접 만든 노트 옆에 참고 본문 두기.",
+            "필요한 Markdown을 골라 외부 AI에 질문하기."
+          ],
+          "steps": [
+            "저장이 허용된 페이지를 열고 “페이지를 HTML로 합치기”을 시작합니다. 관련 후보를 확인해 필요한 페이지만 선택하세요. 무료 버전은 선택한 한 페이지를 HTML로 저장하고 Pro는 여러 페이지 본문을 결합합니다.",
+            "수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 활성화합니다. 읽기용은 “하나의 Markdown”, 개별 노트는 “페이지별 Markdown”, 구조화 자료도 쓸 때는 “전체 패키지”를 선택합니다.",
+            "수집 결과를 확인합니다. 제목·링크·중요한 본문을 원본과 대조하고 실패 항목도 확인하세요. 목차와 본문 검색을 쓰려면 HTML도 저장합니다.",
+            "“AI 분석용 ZIP 저장”을 사용해 ZIP을 풀고 지원 편집기에서 Markdown을 엽니다. source_url·captured_at을 남기고 주제 이름과 확인일을 메모에 추가합니다.",
+            "노트 도구에 지원 파일을 직접 복사·가져옵니다. 외부 AI에는 필요한 파일과 “AI 요청문 복사”으로 준비한 요청문·질문을 수동으로 전달하고 답변을 본문과 최신 출처로 확인합니다."
+          ],
+          "faq": [
+            {
+              "q": "Obsidian이나 Notion과 자동 동기화되나요?",
+              "a": "먼저 파일을 내보낸 후 대상 도구가 지원하는 방법으로 직접 복사·가져옵니다. 제목·표·링크를 확인하세요. 확장 기능은 보관함이나 작업 공간을 자동 동기화하지 않으며 가져오기 지원은 도구에 따라 다릅니다."
+            },
+            {
+              "q": "이미지와 동적 콘텐츠도 그대로 남나요?",
+              "a": "Markdown은 이미지를 원래 URL로 참조할 수 있으며 이미지 파일이 항상 패키지에 포함되는 것은 아닙니다. 사이트 전체 복제는 아니므로 중요한 이미지와 조작이 필요한 내용은 원본에서 확인하세요."
+            },
+            {
+              "q": "25MB 설정이 패키지 전체 크기를 제한하나요?",
+              "a": "기본 25MB는 Markdown 본문의 분할 기준입니다. ZIP 전체 크기나 다른 도구의 수용을 보장하지 않습니다. ZIP을 풀고 대상 도구 제한에 맞춰 파일을 선택하거나 나눕니다."
+            },
+            {
+              "q": "연결된 PDF·Word는 어떻게 되나요?",
+              "a": "선택한 지원 문서에서 추출에 성공한 본문은 AI 출력에 포함될 수 있습니다. 필요한 원본은 따로 보관하고 읽지 못한 부분·누락을 확인하세요. 스캔 문서 추출은 보장되지 않으며 문서 본문은 읽기용 HTML에 합쳐지지 않습니다."
+            },
+            {
+              "q": "내보내면 AI로 전송되나요?",
+              "a": "아닙니다. 기기에서 파일을 준비하고 사용자가 외부 서비스를 골라 지원 파일과 질문을 직접 전달합니다. source_url·captured_at을 남겨 답변을 확인하세요. 취득 시각이 출처의 현재 내용을 보장하지는 않습니다."
+            }
+          ],
+          "guide": {
+            "title": "저장한 본문의 두 가지 활용",
+            "modes": [
+              [
+                "읽고 메모하기",
+                "하나의 Markdown을 참고 자료로 읽으며 출처를 유지한 채 직접 의견을 덧붙입니다."
+              ],
+              [
+                "페이지별 정리",
+                "페이지별 Markdown을 주제로 묶고 조사·글쓰기 노트에서 각 출처를 연결합니다."
+              ]
+            ],
+            "examplesTitle": "조사·글쓰기 활용 예시",
+            "examples": [
+              [
+                "조사 노트",
+                "이 페이지들에 적힌 요점을 정리해 주세요. 항목마다 출처 URL을 연결하고 원문 내용과 내 관찰을 구분합니다."
+              ],
+              [
+                "글쓰기 참고 자료",
+                "이 초안을 뒷받침하는 사실을 자료에서 나열해 주세요. 출처 URL과 취득 시각을 넣고 자료가 뒷받침하지 않는 주장을 표시해 주세요."
+              ]
+            ],
+            "formatsTitle": "Markdown 출력 선택",
+            "headers": [
+              "형식",
+              "적합한 용도"
+            ],
+            "rows": [
+              [
+                "하나의 Markdown",
+                "페이지별 출처를 포함한 하나의 읽기 파일. 큰 본문은 나뉠 수 있습니다."
+              ],
+              [
+                "페이지별 Markdown",
+                "페이지별 .md와 manifest.json을 ZIP으로 묶어 출처별 노트로 정리합니다."
+              ],
+              [
+                "전체 패키지",
+                "corpus.md·chunks.jsonl·manifest.json·요청문·HTML을 ZIP에 담아 구조화 자료도 재사용합니다.전체 패키지에는 열람용 HTML이 포함됩니다. 마스킹 모드에서는 HTML을 포함하지 않습니다."
+              ],
+              [
+                "HTML / 원본 문서",
+                "읽기용 자료와 필요한 첨부 원본을 Markdown과 함께 보관합니다."
+              ]
+            ]
+          }
+        },
+        "pt_BR": {
+          "title": "Salve fontes web como Markdown reutilizável | Grab All Files",
+          "desc": "Exporte texto web em um Markdown, notas por página ou pacote completo. Preserve fontes para pesquisa, escrita e reutilização manual em notas ou IA externa.",
+          "eyebrow": "Fontes web em Markdown",
+          "h1": "Transforme fontes web em notas reutilizáveis.",
+          "lead": "Guarde títulos, texto, listas, tabelas HTML compatíveis e links comuns em Markdown, com fontes e datas de captura. Escolha um arquivo de leitura ou notas separadas para pesquisa, escrita ou sua ferramenta preferida.",
+          "best": [
+            "Criar notas de pesquisa com fontes de artigos relacionados.",
+            "Manter o texto de referência ao lado de rascunhos ou notas.",
+            "Preparar Markdown selecionado para perguntas a uma IA externa."
+          ],
+          "steps": [
+            "Abra uma página que você pode salvar e use “Juntar páginas em HTML”. Confira as candidatas e escolha as necessárias. Free salva uma página escolhida em HTML; Pro combina o conteúdo de várias.",
+            "Antes da coleta, ative “Dados para análise com IA (Markdown com fontes)”. Escolha “Um único Markdown”, “Markdown por página” ou “Pacote completo” para leitura, notas separadas ou reutilização estruturada.",
+            "Colete e confira o resultado. Compare títulos, links e texto importante com a fonte e verifique falhas. Salve também HTML para usar sumário e busca.",
+            "Use “Salvar ZIP de análise IA”, extraia o ZIP e abra os Markdown em um editor compatível. Mantenha source_url e captured_at e acrescente temas e data de consulta às notas.",
+            "Copie ou importe arquivos compatíveis manualmente para suas notas. Para IA externa, escolha arquivos e use “Copiar pedido para a IA” com a pergunta. Confira conclusões com o texto e a fonte atual."
+          ],
+          "faq": [
+            {
+              "q": "Sincroniza com Obsidian ou Notion?",
+              "a": "Exporte os arquivos e copie ou importe manualmente pelo método compatível da ferramenta de destino. Confira títulos, tabelas e links. A extensão não sincroniza automaticamente um cofre ou espaço de trabalho; o suporte à importação varia."
+            },
+            {
+              "q": "Imagens e conteúdo interativo são preservados?",
+              "a": "Markdown pode referenciar imagens pelas URLs originais; arquivos de imagem nem sempre são incluídos. A extração não clona o site inteiro. Confira imagens importantes e conteúdos interativos na página original."
+            },
+            {
+              "q": "25 MB limita o pacote inteiro?",
+              "a": "O padrão de 25 MB é uma meta para dividir o texto Markdown. Não garante o tamanho total do ZIP nem aceitação por outra ferramenta. Extraia e escolha ou divida arquivos conforme os limites do destino."
+            },
+            {
+              "q": "O que acontece com PDF ou Word vinculados?",
+              "a": "Texto extraído com sucesso de documentos selecionados compatíveis pode entrar na saída para IA. Guarde os originais necessários à parte e confira texto faltante ou ilegível. A extração de digitalizações não é garantida; o texto não se integra ao HTML de leitura."
+            },
+            {
+              "q": "Exportar envia o material para IA?",
+              "a": "Não. Os arquivos são preparados no dispositivo. Você escolhe o serviço e fornece manualmente arquivos compatíveis e perguntas. Mantenha source_url e captured_at para conferir respostas; a data de captura não prova que a fonte ainda esteja atualizada."
+            }
+          ],
+          "guide": {
+            "title": "Duas formas de reutilizar o texto",
+            "modes": [
+              [
+                "Ler e anotar",
+                "Use um Markdown como referência compacta e acrescente comentários mantendo as fontes."
+              ],
+              [
+                "Organizar notas por página",
+                "Agrupe Markdown por tema e vincule cada fonte às suas notas de pesquisa ou escrita."
+              ]
+            ],
+            "examplesTitle": "Exemplos para pesquisa e escrita",
+            "examples": [
+              [
+                "Uma nota de pesquisa",
+                "Resuma os pontos destas páginas. Vincule cada ponto à URL da fonte e separe o texto original das minhas observações."
+              ],
+              [
+                "Uma referência de escrita",
+                "Liste os fatos que sustentam este rascunho. Inclua URLs e datas de captura e sinalize afirmações sem apoio nos documentos."
+              ]
+            ],
+            "formatsTitle": "Escolha a saída Markdown",
+            "headers": [
+              "Formato",
+              "Quando usar"
+            ],
+            "rows": [
+              [
+                "Um único Markdown",
+                "Texto em um arquivo de leitura com fontes por página; textos grandes podem ser divididos."
+              ],
+              [
+                "Markdown por página",
+                "Um .md por página e manifest.json em ZIP para notas de fontes separadas."
+              ],
+              [
+                "Pacote completo",
+                "corpus.md, chunks.jsonl, manifest.json, pedido e HTML em ZIP para reutilização estruturada. O pacote completo inclui o HTML de leitura. No modo de mascaramento, o HTML não é incluído."
+              ],
+              [
+                "HTML / originais",
+                "Guarde a referência legível e anexos originais junto do Markdown."
+              ]
+            ]
+          }
+        },
+        "zh_CN": {
+          "title": "将Web资料保存为可复用的Markdown | Grab All Files",
+          "desc": "把Web正文导出为单个Markdown、按页笔记或完整包。保留来源，用于研究、写作及手动复用到笔记或外部AI。",
+          "eyebrow": "用Markdown复用Web资料",
+          "h1": "把Web资料变成能复用的笔记。",
+          "lead": "将收集的标题、正文、列表、支持的HTML表格和普通链接保存为Markdown，并保留来源与获取时间。选择单份阅读文件或按页笔记，用于研究、写作及自己选择的工具。",
+          "best": [
+            "将相关文章整理为带来源的研究笔记。",
+            "在草稿或手动笔记旁保留参考正文。",
+            "选择所需Markdown文件，向外部AI提问。"
+          ],
+          "steps": [
+            "打开允许保存的页面，启动“将网页合并为 HTML”。核对相关候选，选择需要的页面。免费版将所选的一个页面保存为HTML，Pro可合并多个页面正文。",
+            "收集前启用“AI分析数据（带出处的Markdown）”。阅读用“单个Markdown”，分开记笔记用“按页Markdown”，需要结构化资料则选“完整包”。",
+            "收集并核对结果，将标题、链接和重要正文与来源比较，检查失败项目。如需目录和正文搜索，也保存HTML。",
+            "使用“保存AI分析ZIP”，解压ZIP，在支持的编辑器中打开Markdown。保留source_url和captured_at，添加自己的主题标签与核对日期。",
+            "通过支持的方法手动复制或导入笔记工具。外部AI需自行选择文件，用“复制给AI的请求文”准备请求与问题，再以提供的原文和最新来源核对回答。"
+          ],
+          "faq": [
+            {
+              "q": "会与Obsidian或Notion自动同步吗？",
+              "a": "先导出文件，再通过目标工具支持的方法手动复制或导入。导入后核对标题、表格和链接。扩展不会自动同步资料库或工作区，导入支持因工具而异。"
+            },
+            {
+              "q": "图片和交互内容能原样保留吗？",
+              "a": "Markdown可通过原URL引用图片，图片文件本身不一定包含在包内。提取并非完整复制网站，重要图片或需操作才显示的内容请回到原页面确认。"
+            },
+            {
+              "q": "25MB设置会限制整个包的大小吗？",
+              "a": "默认25MB是Markdown正文的分割目标，不保证整个ZIP的大小，也不保证其他工具能接收。请解压后按目标工具的限制选择或拆分文件。"
+            },
+            {
+              "q": "链接的PDF、Word会怎样处理？",
+              "a": "所选支持文档中成功提取的文字可进入AI输出。所需原件另存，核对无法读取或缺失的文字。扫描资料的提取不受保证，文档正文不会并入阅读用HTML。"
+            },
+            {
+              "q": "导出会把资料发送给AI吗？",
+              "a": "不会。文件在设备上准备，由你选择外部服务，手动提供支持文件与问题。保留source_url和captured_at核对回答；获取时间并不证明来源仍是最新。"
+            }
+          ],
+          "guide": {
+            "title": "保存正文的两种用法",
+            "modes": [
+              [
+                "阅读并加注",
+                "用一个Markdown作为简洁参考，保留来源并添加自己的评论。"
+              ],
+              [
+                "按页整理笔记",
+                "按主题组织各页Markdown，从研究或写作笔记链接到不同来源。"
+              ]
+            ],
+            "examplesTitle": "研究与写作示例",
+            "examples": [
+              [
+                "研究笔记",
+                "请汇总这些页面中记载的要点。为每项附上来源URL，并把原文内容与我的观察分开。"
+              ],
+              [
+                "写作参考",
+                "请列出资料中支持这份草稿的事实。添加来源URL和获取时间，标出提供资料无法支持的主张。"
+              ]
+            ],
+            "formatsTitle": "选择Markdown输出",
+            "headers": [
+              "格式",
+              "适合的用法"
+            ],
+            "rows": [
+              [
+                "单个Markdown",
+                "正文汇成一份阅读文件，包含各页来源；大型正文可能拆分。"
+              ],
+              [
+                "按页Markdown",
+                "每页一个.md与manifest.json打包为ZIP，便于按来源整理笔记。"
+              ],
+              [
+                "完整包",
+                "corpus.md、chunks.jsonl、manifest.json、请求文与HTML打包为ZIP，便于结构化复用。完整资料包包含阅读用HTML。遮蔽模式不包含HTML。"
+              ],
+              [
+                "HTML／原始文档",
+                "将可阅读的资料及所需原始附件与Markdown一起保存。"
+              ]
+            ]
+          }
+        },
+        "zh_TW": {
+          "title": "將Web資料儲存為可重用的Markdown | Grab All Files",
+          "desc": "把Web本文匯出為單一Markdown、逐頁筆記或完整套件。保留來源，用於研究、寫作及手動重用到筆記或外部AI。",
+          "eyebrow": "用Markdown重用Web資料",
+          "h1": "把Web資料變成能重用的筆記。",
+          "lead": "將收集的標題、本文、清單、支援的HTML表格和一般連結儲存為Markdown，保留來源與取得時間。選擇單份閱讀檔或逐頁筆記，用於研究、寫作及自己選擇的工具。",
+          "best": [
+            "將相關文章整理為附來源的研究筆記。",
+            "在草稿或手動筆記旁保留參考本文。",
+            "選擇所需Markdown檔案，向外部AI提問。"
+          ],
+          "steps": [
+            "開啟允許儲存的頁面，啟動「將網頁合併為 HTML」。核對相關候選並選取需要的頁面。免費版將選取的一個頁面儲存為HTML，Pro可合併多個頁面本文。",
+            "收集前啟用「AI分析資料（附出處的Markdown）」。閱讀用「單一Markdown」，分開記筆記用「逐頁Markdown」，需要結構化資料則選「完整套件」。",
+            "收集並核對結果，將標題、連結和重要本文與來源比較，檢查失敗項目。若需目錄和本文搜尋，也儲存HTML。",
+            "使用「儲存AI分析ZIP」，解壓縮ZIP，在支援的編輯器中開啟Markdown。保留source_url和captured_at，添加自己的主題標籤與核對日期。",
+            "透過支援的方法手動複製或匯入筆記工具。外部AI需自行選擇檔案，用「複製給AI的請求文」準備請求與問題，再以提供的原文和最新來源核對回答。"
+          ],
+          "faq": [
+            {
+              "q": "會與Obsidian或Notion自動同步嗎？",
+              "a": "先匯出檔案，再透過目標工具支援的方法手動複製或匯入。匯入後核對標題、表格和連結。擴充功能不會自動同步資料庫或工作區，匯入支援因工具而異。"
+            },
+            {
+              "q": "圖片和互動內容能原樣保留嗎？",
+              "a": "Markdown可透過原URL引用圖片，圖片檔本身不一定包含在套件內。擷取並非完整複製網站，重要圖片或需操作才顯示的內容請回到原頁面確認。"
+            },
+            {
+              "q": "25MB設定會限制整個套件的大小嗎？",
+              "a": "預設25MB是Markdown本文的分割目標，不保證整個ZIP的大小，也不保證其他工具能接收。請解壓縮後依目標工具的限制選擇或拆分檔案。"
+            },
+            {
+              "q": "連結的PDF、Word會如何處理？",
+              "a": "選取的支援文件中成功擷取的文字可進入AI輸出。所需原件另存，核對無法讀取或缺漏的文字。掃描資料的擷取不受保證，文件本文不會併入閱讀用HTML。"
+            },
+            {
+              "q": "匯出會把資料傳送給AI嗎？",
+              "a": "不會。檔案在裝置上準備，由你選擇外部服務，手動提供支援檔案與問題。保留source_url和captured_at核對回答；取得時間並不證明來源仍是最新。"
+            }
+          ],
+          "guide": {
+            "title": "儲存本文的兩種用法",
+            "modes": [
+              [
+                "閱讀並加註",
+                "用一個Markdown作為簡潔參考，保留來源並添加自己的評論。"
+              ],
+              [
+                "逐頁整理筆記",
+                "依主題組織各頁Markdown，從研究或寫作筆記連結到不同來源。"
+              ]
+            ],
+            "examplesTitle": "研究與寫作範例",
+            "examples": [
+              [
+                "研究筆記",
+                "請彙整這些頁面中記載的要點。為每項附上來源URL，並把原文內容與我的觀察分開。"
+              ],
+              [
+                "寫作參考",
+                "請列出資料中支持這份草稿的事實。添加來源URL和取得時間，標出提供資料無法支持的主張。"
+              ]
+            ],
+            "formatsTitle": "選擇Markdown輸出",
+            "headers": [
+              "格式",
+              "適合的用法"
+            ],
+            "rows": [
+              [
+                "單一Markdown",
+                "本文彙成一份閱讀檔，包含各頁來源；大型本文可能拆分。"
+              ],
+              [
+                "逐頁Markdown",
+                "每頁一個.md與manifest.json打包為ZIP，便於依來源整理筆記。"
+              ],
+              [
+                "完整套件",
+                "corpus.md、chunks.jsonl、manifest.json、請求文與HTML打包為ZIP，便於結構化重用。完整資料包包含閱讀用HTML。遮蔽模式不包含HTML。"
+              ],
+              [
+                "HTML／原始文件",
+                "將可閱讀的資料及所需原始附件與Markdown一起儲存。"
+              ]
+            ]
+          }
+        }
+      }
+    },
     "save-online-manuals-and-knowledge-pages": {
       "path": "save-online-manuals-and-knowledge-pages.html",
       "related": [
