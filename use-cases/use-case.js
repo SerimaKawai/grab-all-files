@@ -6910,6 +6910,1009 @@
       }).join('') + '</tbody></table></div></details></section>';
   }
 
+  var VISUAL_KIND = {
+  "web-tables-to-csv-for-excel-ai": "tables",
+  "save-and-compare-document-revisions": "revisions",
+  "rename-and-organize-bulk-pdf-downloads": "pdf",
+  "collect-public-government-documents": "public",
+  "save-web-pages-as-markdown": "markdown"
+};
+
+  var VISUAL_COPY = {
+  "en": {
+    "example": "Illustrative example · fictional, simplified data",
+    "common": {
+      "item": "Item",
+      "value": "Value",
+      "itemA": "A",
+      "itemB": "B",
+      "before": "Before",
+      "after": "After",
+      "requirement": "Documents",
+      "form": "Form",
+      "attachment": "Attachment",
+      "added": "Added",
+      "bodyUpdated": "Body updated",
+      "titleChanged": "Title changed",
+      "originalName": "Original name",
+      "checkedTitle": "Title checked / edited",
+      "procedure": "Application guide",
+      "documents": "Required documents",
+      "noTitle": "No useful title",
+      "automatic": "Automatic naming",
+      "byType": "By file type",
+      "byDomain": "By source site",
+      "overview": "Overview",
+      "guidelines": "Guidelines",
+      "formPdf": "Form PDF",
+      "selected": "Selected material",
+      "bundle": "Reference set",
+      "url": "Page URL",
+      "status": "State",
+      "saved": "Saved",
+      "unavailable": "Unavailable",
+      "sourceTitle": "Application guide",
+      "body": "Check the required documents.",
+      "source": "Source",
+      "image": "Image reference",
+      "note": "Research note",
+      "request": "Example question",
+      "aiQuestion": "Summarise the requirements and cite the source.",
+      "manual": "Manual handoff",
+      "excel": "Excel",
+      "externalAI": "External AI",
+      "aiTableQuestion": "Compare the values of A and B and explain their difference."
+    },
+    "topics": {
+      "tables": {
+        "title": "From a web table to reusable data",
+        "stages": [
+          "Read an HTML table",
+          "Prepare CSV / JSON",
+          "Use Excel or external AI"
+        ],
+        "note": "Per-page or full-package output + table export enabled. You import or hand off the files manually."
+      },
+      "revisions": {
+        "title": "Find changes, then compare the originals",
+        "stages": [
+          "Keep previous and current pages",
+          "Save the change report",
+          "Review before and after"
+        ],
+        "note": "Compare this extension’s most recent completed collection on the same site with the current pages, using comparable scopes. You review the originals; this is not automatic monitoring or a line-by-line diff. Unavailable entries do not prove site deletion."
+      },
+      "pdf": {
+        "title": "From opaque filenames to a useful file set",
+        "stages": [
+          "Review the PDF filenames",
+          "Confirm titles and naming",
+          "Save names and folder groups"
+        ],
+        "note": "Automatic naming falls back to the original name when no useful title is available. Folder examples show alternatives."
+      },
+      "public": {
+        "title": "Build a focused public-document set",
+        "stages": [
+          "Find pages and original PDFs",
+          "Choose the needed material",
+          "Keep a set and page-state CSV"
+        ],
+        "note": "Collect what you need and check the originals. A complete set is not guaranteed; PDFs remain separate files."
+      },
+      "markdown": {
+        "title": "Turn collected content into reusable notes",
+        "stages": [
+          "Read headings, text and links",
+          "Prepare Markdown",
+          "Copy or import it yourself"
+        ],
+        "note": "Manual reuse in notes or external AI. Image references do not mean every image file is bundled."
+      }
+    }
+  },
+  "ja": {
+    "example": "図解例 · 架空データの簡略表示",
+    "common": {
+      "item": "項目",
+      "value": "値",
+      "itemA": "A",
+      "itemB": "B",
+      "before": "前",
+      "after": "後",
+      "requirement": "必要書類",
+      "form": "申請書",
+      "attachment": "添付資料",
+      "added": "追加",
+      "bodyUpdated": "本文更新",
+      "titleChanged": "題名変更",
+      "originalName": "元の名前",
+      "checkedTitle": "題名を確認・編集",
+      "procedure": "申請手順",
+      "documents": "必要書類",
+      "noTitle": "有用な題名なし",
+      "automatic": "自動で命名",
+      "byType": "種類別の例",
+      "byDomain": "取得元別の例",
+      "overview": "概要",
+      "guidelines": "要領",
+      "formPdf": "様式PDF",
+      "selected": "選んだ資料",
+      "bundle": "資料セット",
+      "url": "ページURL",
+      "status": "状態",
+      "saved": "保存済",
+      "unavailable": "未取得",
+      "sourceTitle": "申請の案内",
+      "body": "必要書類を確認します。",
+      "source": "出典",
+      "image": "画像の参照",
+      "note": "調査ノート",
+      "request": "質問の例",
+      "aiQuestion": "要件を整理し、根拠の出典を示してください。",
+      "manual": "自分で受け渡す",
+      "excel": "Excel",
+      "externalAI": "外部AI",
+      "aiTableQuestion": "AとBの値を比較し、差を説明してください。"
+    },
+    "topics": {
+      "tables": {
+        "title": "Webの表を、使えるデータに",
+        "stages": [
+          "HTMLの表を確認",
+          "CSV・JSONを準備",
+          "Excel・外部AIで使う"
+        ],
+        "note": "ページ別／フルパッケージ＋表の出力を有効にします。ファイルは自分で取り込み・受け渡しします。"
+      },
+      "revisions": {
+        "title": "変化を探し、前後の原文を確認",
+        "stages": [
+          "前回・今回のページを残す",
+          "差分レポートを保存",
+          "前後の原文を見比べる"
+        ],
+        "note": "同じサイトの直近完了済み収集と今回を、比較できる範囲で確認します。最後は利用者が原文を見比べます。自動監視・行単位差分ではなく、取得不可はサイト削除と断定しません。"
+      },
+      "pdf": {
+        "title": "分かりにくい名前を、探せる資料に",
+        "stages": [
+          "PDFの元の名前を確認",
+          "題名と保存名を選ぶ",
+          "名前とフォルダで整理"
+        ],
+        "note": "自動では有用な題名がなければ元の名前へ戻ります。フォルダ木は選べる整理方法の例です。"
+      },
+      "public": {
+        "title": "必要な公的資料を、ひとまとまりに",
+        "stages": [
+          "案内ページ・PDFを確認",
+          "必要な資料を選ぶ",
+          "資料セットと状態CSVへ"
+        ],
+        "note": "必要な範囲を選び、原本と照合します。全資料がそろう保証ではなく、PDFは別ファイルで管理します。"
+      },
+      "markdown": {
+        "title": "集めた本文を、使い回せるノートに",
+        "stages": [
+          "見出し・本文・リンク",
+          "Markdownを準備",
+          "自分でコピー・取り込み"
+        ],
+        "note": "ノートや外部AIへ手動で渡します。画像の参照リンクは、画像本体の同梱を保証するものではありません。"
+      }
+    }
+  },
+  "es": {
+    "example": "Ejemplo ilustrativo · datos ficticios simplificados",
+    "common": {
+      "item": "Elemento",
+      "value": "Valor",
+      "itemA": "A",
+      "itemB": "B",
+      "before": "Antes",
+      "after": "Después",
+      "requirement": "Documentos",
+      "form": "Formulario",
+      "attachment": "Adjunto",
+      "added": "Añadido",
+      "bodyUpdated": "Texto actualizado",
+      "titleChanged": "Título cambiado",
+      "originalName": "Nombre original",
+      "checkedTitle": "Título revisado / editado",
+      "procedure": "Procedimiento",
+      "documents": "Documentos necesarios",
+      "noTitle": "Sin título útil",
+      "automatic": "Nombre automático",
+      "byType": "Por formato",
+      "byDomain": "Por sitio fuente",
+      "overview": "Resumen",
+      "guidelines": "Instrucciones",
+      "formPdf": "PDF de formulario",
+      "selected": "Material elegido",
+      "bundle": "Conjunto de referencia",
+      "url": "URL de página",
+      "status": "Estado",
+      "saved": "Guardado",
+      "unavailable": "No disponible",
+      "sourceTitle": "Guía de solicitud",
+      "body": "Revisa los documentos necesarios.",
+      "source": "Fuente",
+      "image": "Referencia de imagen",
+      "note": "Nota de investigación",
+      "request": "Pregunta de ejemplo",
+      "aiQuestion": "Resume requisitos y cita la fuente.",
+      "manual": "Entrega manual",
+      "excel": "Excel",
+      "externalAI": "IA externa",
+      "aiTableQuestion": "Compara los valores de A y B y explica su diferencia."
+    },
+    "topics": {
+      "tables": {
+        "title": "De tabla web a datos reutilizables",
+        "stages": [
+          "Revisar una tabla HTML",
+          "Preparar CSV / JSON",
+          "Usar Excel o IA externa"
+        ],
+        "note": "Salida por página o paquete completo y tablas activadas. Importas o entregas los archivos manualmente."
+      },
+      "revisions": {
+        "title": "Localizar cambios y comparar originales",
+        "stages": [
+          "Guardar páginas anteriores y actuales",
+          "Guardar informe de cambios",
+          "Revisar antes y después"
+        ],
+        "note": "Compara la última recopilación completada del mismo sitio con la actual, en ámbitos comparables. Tú revisas los originales; no es vigilancia automática ni diferencia por líneas. No disponible no prueba eliminación."
+      },
+      "pdf": {
+        "title": "De nombres opacos a archivos útiles",
+        "stages": [
+          "Revisar nombres PDF",
+          "Confirmar títulos y nombres",
+          "Guardar nombres y grupos"
+        ],
+        "note": "El modo automático vuelve al nombre original sin un título útil. Las carpetas muestran alternativas."
+      },
+      "public": {
+        "title": "Un conjunto público enfocado",
+        "stages": [
+          "Localizar páginas y PDF",
+          "Elegir el material necesario",
+          "Conjunto y CSV de estado"
+        ],
+        "note": "Selecciona y contrasta con originales. No se garantiza todo el material; los PDF siguen como archivos separados."
+      },
+      "markdown": {
+        "title": "Contenido recopilado a notas reutilizables",
+        "stages": [
+          "Leer títulos, texto y enlaces",
+          "Preparar Markdown",
+          "Copiar o importar tú mismo"
+        ],
+        "note": "Uso manual en notas o IA externa. Las referencias de imagen no garantizan incluir todos los archivos de imagen."
+      }
+    }
+  },
+  "fr": {
+    "example": "Exemple illustratif · données fictives simplifiées",
+    "common": {
+      "item": "Élément",
+      "value": "Valeur",
+      "itemA": "A",
+      "itemB": "B",
+      "before": "Avant",
+      "after": "Après",
+      "requirement": "Documents",
+      "form": "Formulaire",
+      "attachment": "Pièce jointe",
+      "added": "Ajout",
+      "bodyUpdated": "Texte mis à jour",
+      "titleChanged": "Titre modifié",
+      "originalName": "Nom original",
+      "checkedTitle": "Titre vérifié / modifié",
+      "procedure": "Procédure",
+      "documents": "Documents requis",
+      "noTitle": "Pas de titre pertinent",
+      "automatic": "Nom automatique",
+      "byType": "Par format",
+      "byDomain": "Par site source",
+      "overview": "Présentation",
+      "guidelines": "Instructions",
+      "formPdf": "Formulaire PDF",
+      "selected": "Documents choisis",
+      "bundle": "Ensemble de référence",
+      "url": "URL de page",
+      "status": "État",
+      "saved": "Enregistré",
+      "unavailable": "Indisponible",
+      "sourceTitle": "Guide de demande",
+      "body": "Vérifiez les documents requis.",
+      "source": "Source",
+      "image": "Référence d’image",
+      "note": "Note de recherche",
+      "request": "Exemple de question",
+      "aiQuestion": "Résumez les critères et citez la source.",
+      "manual": "Transmission manuelle",
+      "excel": "Excel",
+      "externalAI": "IA externe",
+      "aiTableQuestion": "Comparez les valeurs de A et B et expliquez leur différence."
+    },
+    "topics": {
+      "tables": {
+        "title": "Du tableau web aux données réutilisables",
+        "stages": [
+          "Lire un tableau HTML",
+          "Préparer CSV / JSON",
+          "Utiliser Excel ou une IA externe"
+        ],
+        "note": "Sortie par page ou paquet complet et tableaux activés. Vous importez ou transmettez les fichiers manuellement."
+      },
+      "revisions": {
+        "title": "Repérer les changements et lire les originaux",
+        "stages": [
+          "Garder les pages avant et après",
+          "Enregistrer le rapport",
+          "Comparer les originaux"
+        ],
+        "note": "Comparez la dernière collecte terminée du même site avec les pages actuelles, sur des périmètres comparables. Vous relisez les originaux ; pas de surveillance automatique ni différence ligne par ligne. Indisponible ne prouve pas un retrait."
+      },
+      "pdf": {
+        "title": "Des noms opaques à un ensemble utile",
+        "stages": [
+          "Vérifier les noms PDF",
+          "Confirmer titres et noms",
+          "Enregistrer et classer"
+        ],
+        "note": "Le mode automatique reprend le nom original sans titre pertinent. Les dossiers illustrent des alternatives."
+      },
+      "public": {
+        "title": "Un ensemble public ciblé",
+        "stages": [
+          "Trouver pages et PDF",
+          "Choisir les documents utiles",
+          "Ensemble et CSV d’état"
+        ],
+        "note": "Sélectionnez et vérifiez les originaux. L’exhaustivité n’est pas garantie ; les PDF restent des fichiers séparés."
+      },
+      "markdown": {
+        "title": "Du contenu collecté aux notes",
+        "stages": [
+          "Lire titres, texte et liens",
+          "Préparer Markdown",
+          "Copier ou importer soi-même"
+        ],
+        "note": "Réutilisation manuelle dans les notes ou une IA externe. Les références d’images ne garantissent pas les fichiers image joints."
+      }
+    }
+  },
+  "de": {
+    "example": "Anschauliches Beispiel · fiktive, vereinfachte Daten",
+    "common": {
+      "item": "Eintrag",
+      "value": "Wert",
+      "itemA": "A",
+      "itemB": "B",
+      "before": "Vorher",
+      "after": "Nachher",
+      "requirement": "Unterlagen",
+      "form": "Formular",
+      "attachment": "Anlage",
+      "added": "Hinzugefügt",
+      "bodyUpdated": "Text aktualisiert",
+      "titleChanged": "Titel geändert",
+      "originalName": "Originalname",
+      "checkedTitle": "Titel geprüft / bearbeitet",
+      "procedure": "Antragsablauf",
+      "documents": "Benötigte Unterlagen",
+      "noTitle": "Kein sinnvoller Titel",
+      "automatic": "Automatischer Name",
+      "byType": "Nach Dateityp",
+      "byDomain": "Nach Quellsite",
+      "overview": "Übersicht",
+      "guidelines": "Anleitung",
+      "formPdf": "Formular-PDF",
+      "selected": "Gewähltes Material",
+      "bundle": "Referenzsatz",
+      "url": "Seiten-URL",
+      "status": "Status",
+      "saved": "Gespeichert",
+      "unavailable": "Nicht verfügbar",
+      "sourceTitle": "Antragsanleitung",
+      "body": "Benötigte Unterlagen prüfen.",
+      "source": "Quelle",
+      "image": "Bildreferenz",
+      "note": "Recherche-Notiz",
+      "request": "Beispielfrage",
+      "aiQuestion": "Fasse Voraussetzungen zusammen und nenne die Quelle.",
+      "manual": "Manuelle Übergabe",
+      "excel": "Excel",
+      "externalAI": "Externe KI",
+      "aiTableQuestion": "Vergleiche die Werte von A und B und erkläre ihren Unterschied."
+    },
+    "topics": {
+      "tables": {
+        "title": "Webtabelle als nutzbare Daten",
+        "stages": [
+          "HTML-Tabelle prüfen",
+          "CSV / JSON vorbereiten",
+          "Excel oder externe KI nutzen"
+        ],
+        "note": "Seitenweise Ausgabe oder vollständiges Paket mit Tabellenexport. Dateien selbst importieren oder übergeben."
+      },
+      "revisions": {
+        "title": "Änderungen finden und Originale vergleichen",
+        "stages": [
+          "Vorherige und aktuelle Seiten sichern",
+          "Änderungsbericht speichern",
+          "Originale vergleichen"
+        ],
+        "note": "Vergleichen Sie die zuletzt abgeschlossene Sammlung derselben Site mit den aktuellen Seiten in vergleichbarem Umfang. Sie prüfen Originale; keine automatische Überwachung oder Zeilendifferenz. Nicht verfügbar beweist keine Löschung."
+      },
+      "pdf": {
+        "title": "Unklare Namen zu einem nutzbaren Dateisatz",
+        "stages": [
+          "PDF-Namen prüfen",
+          "Titel und Namen bestätigen",
+          "Namen und Ordner speichern"
+        ],
+        "note": "Automatik nutzt den Originalnamen ohne sinnvollen Titel. Ordnerbeispiele zeigen Alternativen."
+      },
+      "public": {
+        "title": "Einen gezielten öffentlichen Satz sammeln",
+        "stages": [
+          "Seiten und PDFs finden",
+          "Benötigtes Material auswählen",
+          "Satz und Status-CSV sichern"
+        ],
+        "note": "Auswahl an Originalen prüfen. Vollständigkeit ist nicht garantiert; PDFs bleiben eigene Dateien."
+      },
+      "markdown": {
+        "title": "Gesammelten Inhalt als Notizen nutzen",
+        "stages": [
+          "Überschriften, Text und Links",
+          "Markdown vorbereiten",
+          "Selbst kopieren oder importieren"
+        ],
+        "note": "Manuelle Nutzung in Notizen oder externer KI. Bildreferenzen garantieren keine beigefügten Bilddateien."
+      }
+    }
+  },
+  "it": {
+    "example": "Esempio illustrativo · dati fittizi semplificati",
+    "common": {
+      "item": "Elemento",
+      "value": "Valore",
+      "itemA": "A",
+      "itemB": "B",
+      "before": "Prima",
+      "after": "Dopo",
+      "requirement": "Documenti",
+      "form": "Modulo",
+      "attachment": "Allegato",
+      "added": "Aggiunto",
+      "bodyUpdated": "Testo aggiornato",
+      "titleChanged": "Titolo cambiato",
+      "originalName": "Nome originale",
+      "checkedTitle": "Titolo verificato / modificato",
+      "procedure": "Procedura",
+      "documents": "Documenti richiesti",
+      "noTitle": "Nessun titolo utile",
+      "automatic": "Nome automatico",
+      "byType": "Per formato",
+      "byDomain": "Per sito fonte",
+      "overview": "Panoramica",
+      "guidelines": "Istruzioni",
+      "formPdf": "Modulo PDF",
+      "selected": "Materiale scelto",
+      "bundle": "Insieme di riferimento",
+      "url": "URL pagina",
+      "status": "Stato",
+      "saved": "Salvato",
+      "unavailable": "Non disponibile",
+      "sourceTitle": "Guida alla domanda",
+      "body": "Verifica i documenti richiesti.",
+      "source": "Fonte",
+      "image": "Riferimento immagine",
+      "note": "Nota di ricerca",
+      "request": "Domanda di esempio",
+      "aiQuestion": "Riassumi i requisiti e cita la fonte.",
+      "manual": "Consegna manuale",
+      "excel": "Excel",
+      "externalAI": "IA esterna",
+      "aiTableQuestion": "Confronta i valori di A e B e spiega la differenza."
+    },
+    "topics": {
+      "tables": {
+        "title": "Dalla tabella web ai dati riutilizzabili",
+        "stages": [
+          "Leggere una tabella HTML",
+          "Preparare CSV / JSON",
+          "Usare Excel o IA esterna"
+        ],
+        "note": "Output per pagina o pacchetto completo con tabelle attivate. Importi o consegni i file manualmente."
+      },
+      "revisions": {
+        "title": "Trovare cambiamenti e confrontare originali",
+        "stages": [
+          "Conservare pagine prima e dopo",
+          "Salvare il rapporto",
+          "Confrontare gli originali"
+        ],
+        "note": "Confronta l’ultima raccolta completata dello stesso sito con le pagine attuali, con ambiti comparabili. Verifichi tu gli originali; non è monitoraggio automatico o differenza per righe. Non disponibile non prova eliminazione."
+      },
+      "pdf": {
+        "title": "Da nomi opachi a file riconoscibili",
+        "stages": [
+          "Verificare nomi PDF",
+          "Confermare titoli e nomi",
+          "Salvare nomi e cartelle"
+        ],
+        "note": "Automatico usa il nome originale se manca un titolo utile. Le cartelle mostrano alternative."
+      },
+      "public": {
+        "title": "Un insieme pubblico mirato",
+        "stages": [
+          "Trovare pagine e PDF",
+          "Scegliere materiali utili",
+          "Insieme e CSV degli stati"
+        ],
+        "note": "Seleziona e verifica originali. La completezza non è garantita; i PDF restano separati."
+      },
+      "markdown": {
+        "title": "Contenuti raccolti in note riutilizzabili",
+        "stages": [
+          "Titoli, testo e link",
+          "Preparare Markdown",
+          "Copiare o importare da sé"
+        ],
+        "note": "Uso manuale in note o IA esterna. I riferimenti immagine non garantiscono tutti i file immagine inclusi."
+      }
+    }
+  },
+  "ko": {
+    "example": "도해 예시 · 가상 데이터를 단순화한 표시",
+    "common": {
+      "item": "항목",
+      "value": "값",
+      "itemA": "A",
+      "itemB": "B",
+      "before": "이전",
+      "after": "이후",
+      "requirement": "필요 서류",
+      "form": "신청서",
+      "attachment": "첨부 자료",
+      "added": "추가",
+      "bodyUpdated": "본문 갱신",
+      "titleChanged": "제목 변경",
+      "originalName": "원래 이름",
+      "checkedTitle": "제목 확인 / 편집",
+      "procedure": "신청 절차",
+      "documents": "필요 서류",
+      "noTitle": "유용한 제목 없음",
+      "automatic": "자동 이름",
+      "byType": "형식별 예시",
+      "byDomain": "출처별 예시",
+      "overview": "개요",
+      "guidelines": "요령",
+      "formPdf": "양식 PDF",
+      "selected": "선택한 자료",
+      "bundle": "자료 세트",
+      "url": "페이지 URL",
+      "status": "상태",
+      "saved": "저장됨",
+      "unavailable": "미수집",
+      "sourceTitle": "신청 안내",
+      "body": "필요 서류를 확인합니다.",
+      "source": "출처",
+      "image": "이미지 참조",
+      "note": "조사 노트",
+      "request": "질문 예시",
+      "aiQuestion": "요건을 정리하고 출처를 제시해 주세요.",
+      "manual": "직접 전달",
+      "excel": "Excel",
+      "externalAI": "외부 AI",
+      "aiTableQuestion": "A와 B의 값을 비교하고 차이를 설명해 주세요."
+    },
+    "topics": {
+      "tables": {
+        "title": "웹 표를 사용할 데이터로",
+        "stages": [
+          "HTML 표 확인",
+          "CSV / JSON 준비",
+          "Excel·외부 AI에서 활용"
+        ],
+        "note": "페이지별 또는 전체 패키지와 표 출력을 켭니다. 파일은 직접 가져오거나 전달합니다."
+      },
+      "revisions": {
+        "title": "변화를 찾고 전후 원문 확인",
+        "stages": [
+          "이전·현재 페이지 보관",
+          "변경 보고서 저장",
+          "전후 원문 비교"
+        ],
+        "note": "같은 사이트의 직전 완료 수집과 현재 페이지를 비교 가능한 범위로 확인합니다. 직접 원문을 읽으며 자동 감시·줄 단위 차이는 아닙니다. 미수집이 사이트 삭제를 증명하지 않습니다."
+      },
+      "pdf": {
+        "title": "불명확한 이름을 찾기 좋은 자료로",
+        "stages": [
+          "PDF 원래 이름 확인",
+          "제목과 저장 이름 선택",
+          "이름과 폴더로 정리"
+        ],
+        "note": "자동 모드는 유용한 제목이 없으면 원래 이름을 씁니다. 폴더 트리는 대안 예시입니다."
+      },
+      "public": {
+        "title": "필요한 공공 자료를 한 세트로",
+        "stages": [
+          "안내 페이지·PDF 확인",
+          "필요한 자료 선택",
+          "자료 세트와 상태 CSV"
+        ],
+        "note": "필요 범위를 선택해 원본과 대조합니다. 모든 자료를 보장하지 않으며 PDF는 별도 파일입니다."
+      },
+      "markdown": {
+        "title": "수집한 본문을 재사용 노트로",
+        "stages": [
+          "제목·본문·링크",
+          "Markdown 준비",
+          "직접 복사·가져오기"
+        ],
+        "note": "노트나 외부 AI로 직접 전달합니다. 이미지 참조가 이미지 파일 동봉을 보장하지는 않습니다."
+      }
+    }
+  },
+  "pt_BR": {
+    "example": "Exemplo ilustrativo · dados fictícios simplificados",
+    "common": {
+      "item": "Item",
+      "value": "Valor",
+      "itemA": "A",
+      "itemB": "B",
+      "before": "Antes",
+      "after": "Depois",
+      "requirement": "Documentos",
+      "form": "Formulário",
+      "attachment": "Anexo",
+      "added": "Adicionado",
+      "bodyUpdated": "Texto atualizado",
+      "titleChanged": "Título alterado",
+      "originalName": "Nome original",
+      "checkedTitle": "Título conferido / editado",
+      "procedure": "Procedimento",
+      "documents": "Documentos necessários",
+      "noTitle": "Sem título útil",
+      "automatic": "Nome automático",
+      "byType": "Por formato",
+      "byDomain": "Por site fonte",
+      "overview": "Visão geral",
+      "guidelines": "Orientações",
+      "formPdf": "Formulário PDF",
+      "selected": "Material escolhido",
+      "bundle": "Conjunto de referência",
+      "url": "URL da página",
+      "status": "Estado",
+      "saved": "Salvo",
+      "unavailable": "Indisponível",
+      "sourceTitle": "Guia de solicitação",
+      "body": "Confira os documentos necessários.",
+      "source": "Fonte",
+      "image": "Referência de imagem",
+      "note": "Nota de pesquisa",
+      "request": "Pergunta de exemplo",
+      "aiQuestion": "Resuma requisitos e cite a fonte.",
+      "manual": "Entrega manual",
+      "excel": "Excel",
+      "externalAI": "IA externa",
+      "aiTableQuestion": "Compare os valores de A e B e explique a diferença."
+    },
+    "topics": {
+      "tables": {
+        "title": "Da tabela web aos dados reutilizáveis",
+        "stages": [
+          "Conferir uma tabela HTML",
+          "Preparar CSV / JSON",
+          "Usar Excel ou IA externa"
+        ],
+        "note": "Saída por página ou pacote completo com tabelas ativadas. Você importa ou entrega os arquivos manualmente."
+      },
+      "revisions": {
+        "title": "Localizar mudanças e comparar originais",
+        "stages": [
+          "Guardar páginas anteriores e atuais",
+          "Salvar o relatório",
+          "Conferir antes e depois"
+        ],
+        "note": "Compare a coleta concluída mais recente do mesmo site com páginas atuais, em escopos comparáveis. Você confere os originais; não é monitoramento automático ou diferença por linhas. Indisponível não prova exclusão."
+      },
+      "pdf": {
+        "title": "De nomes opacos a arquivos úteis",
+        "stages": [
+          "Conferir nomes PDF",
+          "Confirmar títulos e nomes",
+          "Salvar nomes e pastas"
+        ],
+        "note": "Automático volta ao nome original sem título útil. As pastas mostram alternativas."
+      },
+      "public": {
+        "title": "Um conjunto público focado",
+        "stages": [
+          "Localizar páginas e PDFs",
+          "Escolher materiais úteis",
+          "Conjunto e CSV de estados"
+        ],
+        "note": "Selecione e confira originais. Não se garante tudo; PDFs permanecem separados."
+      },
+      "markdown": {
+        "title": "Conteúdo coletado em notas reutilizáveis",
+        "stages": [
+          "Títulos, texto e links",
+          "Preparar Markdown",
+          "Copiar ou importar você mesmo"
+        ],
+        "note": "Reuso manual em notas ou IA externa. Referências de imagens não garantem os arquivos de imagem incluídos."
+      }
+    }
+  },
+  "zh_CN": {
+    "example": "图解示例 · 虚构数据的简化展示",
+    "common": {
+      "item": "项目",
+      "value": "值",
+      "itemA": "A",
+      "itemB": "B",
+      "before": "之前",
+      "after": "之后",
+      "requirement": "所需文件",
+      "form": "申请表",
+      "attachment": "附件",
+      "added": "新增",
+      "bodyUpdated": "正文更新",
+      "titleChanged": "标题变更",
+      "originalName": "原始名称",
+      "checkedTitle": "确认 / 编辑标题",
+      "procedure": "申请步骤",
+      "documents": "所需文件",
+      "noTitle": "无有效标题",
+      "automatic": "自动命名",
+      "byType": "按格式示例",
+      "byDomain": "按来源示例",
+      "overview": "概要",
+      "guidelines": "指南",
+      "formPdf": "表格 PDF",
+      "selected": "选中的资料",
+      "bundle": "资料集",
+      "url": "页面 URL",
+      "status": "状态",
+      "saved": "已保存",
+      "unavailable": "未获取",
+      "sourceTitle": "申请指南",
+      "body": "确认所需文件。",
+      "source": "来源",
+      "image": "图片参照",
+      "note": "研究笔记",
+      "request": "问题示例",
+      "aiQuestion": "请整理要求并提供来源。",
+      "manual": "手动传递",
+      "excel": "Excel",
+      "externalAI": "外部 AI",
+      "aiTableQuestion": "请比较A和B的值并解释差异。"
+    },
+    "topics": {
+      "tables": {
+        "title": "将网页表格变成可用数据",
+        "stages": [
+          "确认HTML表格",
+          "准备 CSV / JSON",
+          "用于 Excel 或外部 AI"
+        ],
+        "note": "选择按页面或完整资料包并启用表格输出。文件由您手动导入或传递。"
+      },
+      "revisions": {
+        "title": "找到变化并核对前后原文",
+        "stages": [
+          "保留前次与本次页面",
+          "保存变化报告",
+          "比较前后原文"
+        ],
+        "note": "在可比较范围内，比较同一网站最近完成的收集与本次页面。最后由您核对原文；不是自动监控或逐行差异，无法获取不代表网站删除。"
+      },
+      "pdf": {
+        "title": "将模糊名称整理为易找资料",
+        "stages": [
+          "确认 PDF 原名",
+          "确认标题与保存名称",
+          "按名称及文件夹整理"
+        ],
+        "note": "自动模式无有效标题时使用原名。文件夹树是可选方式示例。"
+      },
+      "public": {
+        "title": "将所需公共资料整理成一组",
+        "stages": [
+          "确认页面与 PDF",
+          "选择所需资料",
+          "资料集与状态 CSV"
+        ],
+        "note": "选择所需范围并核对原件。不保证获取所有资料；PDF为独立文件。"
+      },
+      "markdown": {
+        "title": "将收集正文用作笔记",
+        "stages": [
+          "标题、正文及链接",
+          "准备 Markdown",
+          "自行复制或导入"
+        ],
+        "note": "手动交给笔记或外部 AI。图片参照不保证图片文件同包保存。"
+      }
+    }
+  },
+  "zh_TW": {
+    "example": "圖解範例 · 虛構資料的簡化展示",
+    "common": {
+      "item": "項目",
+      "value": "值",
+      "itemA": "A",
+      "itemB": "B",
+      "before": "之前",
+      "after": "之後",
+      "requirement": "所需文件",
+      "form": "申請表",
+      "attachment": "附件",
+      "added": "新增",
+      "bodyUpdated": "本文更新",
+      "titleChanged": "標題變更",
+      "originalName": "原始名稱",
+      "checkedTitle": "確認 / 編輯標題",
+      "procedure": "申請步驟",
+      "documents": "所需文件",
+      "noTitle": "無有效標題",
+      "automatic": "自動命名",
+      "byType": "依格式範例",
+      "byDomain": "依來源範例",
+      "overview": "概要",
+      "guidelines": "指南",
+      "formPdf": "表格 PDF",
+      "selected": "選取的資料",
+      "bundle": "資料集",
+      "url": "頁面 URL",
+      "status": "狀態",
+      "saved": "已儲存",
+      "unavailable": "未取得",
+      "sourceTitle": "申請指南",
+      "body": "確認所需文件。",
+      "source": "來源",
+      "image": "圖片參照",
+      "note": "研究筆記",
+      "request": "問題範例",
+      "aiQuestion": "請整理要求並提供來源。",
+      "manual": "手動傳遞",
+      "excel": "Excel",
+      "externalAI": "外部 AI",
+      "aiTableQuestion": "請比較A與B的值並解釋差異。"
+    },
+    "topics": {
+      "tables": {
+        "title": "將網頁表格變成可用資料",
+        "stages": [
+          "確認HTML表格",
+          "準備 CSV / JSON",
+          "用於 Excel 或外部 AI"
+        ],
+        "note": "選擇按頁面或完整資料包並啟用表格輸出。檔案由您手動匯入或傳遞。"
+      },
+      "revisions": {
+        "title": "找到變化並核對前後原文",
+        "stages": [
+          "保留前次與本次頁面",
+          "儲存變化報告",
+          "比較前後原文"
+        ],
+        "note": "在可比較範圍內，比較同一網站最近完成的收集與本次頁面。最後由您核對原文；不是自動監控或逐行差異，無法取得不代表網站刪除。"
+      },
+      "pdf": {
+        "title": "將模糊名稱整理為易找資料",
+        "stages": [
+          "確認 PDF 原名",
+          "確認標題與儲存名稱",
+          "依名稱及資料夾整理"
+        ],
+        "note": "自動模式無有效標題時使用原名。資料夾樹是可選方式範例。"
+      },
+      "public": {
+        "title": "將所需公共資料整理成一組",
+        "stages": [
+          "確認頁面與 PDF",
+          "選擇所需資料",
+          "資料集與狀態 CSV"
+        ],
+        "note": "選擇所需範圍並核對原件。不保證取得所有資料；PDF為獨立檔案。"
+      },
+      "markdown": {
+        "title": "將收集本文用作筆記",
+        "stages": [
+          "標題、本文及連結",
+          "準備 Markdown",
+          "自行複製或匯入"
+        ],
+        "note": "手動交給筆記或外部 AI。圖片參照不保證圖片檔案同包儲存。"
+      }
+    }
+  }
+};
+
+  function visualTable(headers, rows) {
+    return '<table class="visual-table"><thead><tr>' + headers.map(function (head) {
+      return '<th scope="col">' + esc(head) + '</th>';
+    }).join('') + '</tr></thead><tbody>' + rows.map(function (row) {
+      return '<tr>' + row.map(function (cell) { return '<td>' + esc(cell) + '</td>'; }).join('') + '</tr>';
+    }).join('') + '</tbody></table>';
+  }
+
+  function visualCode(text, className) {
+    return '<pre class="visual-code ' + (className || '') + '"><code>' + esc(text) + '</code></pre>';
+  }
+
+  function visualFiles(names) {
+    return '<ul class="visual-files">' + names.map(function (name) {
+      return '<li><span class="visual-file-fold" aria-hidden="true"></span><span>' + esc(name) + '</span></li>';
+    }).join('') + '</ul>';
+  }
+
+  function renderVisualSample(kind, stage, c) {
+    var rows = [[c.itemA, '120'], [c.itemB, '180']];
+    var headers = [c.item, c.value];
+    if (kind === 'tables') {
+      if (stage === 0) return '<div class="visual-paper"><strong class="visual-label">HTML</strong>' + visualTable(headers, rows) + '</div>';
+      if (stage === 1) return '<strong class="visual-label">table.csv</strong>' + visualCode(headers.join(',') + '\n' + c.itemA + ',120\n' + c.itemB + ',180') +
+        '<strong class="visual-label">table.json</strong>' + visualCode('[["A",120],["B",180]]');
+      return '<p class="visual-manual">' + esc(c.manual) + '</p><div class="visual-output"><strong class="visual-label">' + esc(c.excel) + '</strong>' +
+        visualTable(headers, rows) + '</div><div class="visual-output"><strong class="visual-label">' + esc(c.externalAI) + '</strong><p>' + esc(c.aiTableQuestion) + '</p></div>';
+    }
+    if (kind === 'revisions') {
+      if (stage === 0) return '<div class="visual-pair"><div class="visual-paper"><strong class="visual-label">' + esc(c.before) + '</strong>' +
+        visualFiles(['guide.html', 'notes.html']) + '</div><div class="visual-paper"><strong class="visual-label">' + esc(c.after) + '</strong>' + visualFiles(['guide.html', 'notes.html', 'new.html']) + '</div></div>';
+      if (stage === 1) return '<strong class="visual-label">changes.md</strong><ul class="visual-changes"><li><span>+ ' + esc(c.added) + '</span><code>/new</code></li>' +
+        '<li><span>~ ' + esc(c.bodyUpdated) + '</span><code>/guide</code></li><li><span>~ ' + esc(c.titleChanged) + '</span><code>/notes</code></li></ul>';
+      return '<p class="visual-manual">' + esc(c.manual) + '</p><div class="visual-paper">' + visualTable([c.before, c.after], [[c.form, c.form + ' + ' + c.attachment]]) + '</div>';
+    }
+    if (kind === 'pdf') {
+      if (stage === 0) return visualFiles(['a013.pdf', 'b072.pdf', 'c103.pdf']);
+      if (stage === 1) return visualTable([c.originalName, c.checkedTitle], [['a013.pdf', c.procedure], ['b072.pdf', c.documents], ['c103.pdf', c.noTitle]]) +
+        '<p class="visual-manual">' + esc(c.automatic) + '</p>';
+      var names = '├ ' + c.procedure + '.pdf\n├ ' + c.documents + '.pdf\n└ c103.pdf';
+      return '<strong class="visual-label">' + esc(c.byType) + '</strong>' + visualCode('PDF/\n' + names, 'visual-tree') +
+        '<strong class="visual-label">' + esc(c.byDomain) + '</strong>' + visualCode('example.org/\n' + names, 'visual-tree');
+    }
+    if (kind === 'public') {
+      if (stage === 0) return '<div class="visual-stack">' + visualFiles([c.overview + '.html', c.guidelines + '.html', c.form + '.pdf']) + '</div>';
+      if (stage === 1) return '<strong class="visual-label">' + esc(c.selected) + '</strong><ul class="visual-selection"><li><span aria-hidden="true">✓</span> ' +
+        esc(c.overview) + '</li><li><span aria-hidden="true">✓</span> ' + esc(c.guidelines) + '</li><li><span aria-hidden="true">✓</span> ' + esc(c.formPdf) + '</li></ul>';
+      return visualCode(c.bundle + '/\n├ ' + c.overview + '.html\n├ ' + c.form + '.pdf\n└ pages.csv', 'visual-tree') +
+        '<strong class="visual-label">pages.csv</strong>' + visualTable([c.url, c.status], [['example.org/overview.html', c.saved], ['example.org/guide.html', c.unavailable]]);
+    }
+    if (stage === 0) return '<div class="visual-paper"><strong class="visual-label">' + esc(c.sourceTitle) + '</strong><p>' + esc(c.body) + '</p>' +
+      visualTable(headers, rows) + '<p><code>example.org/guide</code></p></div>';
+    if (stage === 1) return '<strong class="visual-label">notes.md</strong>' + visualCode('# ' + c.sourceTitle + '\n\n' + c.body + '\n\n- ' + c.form +
+      '\n\n| ' + c.item + ' | ' + c.value + ' |\n| --- | --- |\n| A | 120 |\n| B | 180 |\n\n[' + c.source + '](https://example.org/guide)\n![' + c.image + '](https://example.org/figure.png)');
+    return '<p class="visual-manual">' + esc(c.manual) + '</p><div class="visual-paper visual-note-paper"><strong class="visual-label">' + esc(c.note) + '</strong><p>' +
+      esc(c.sourceTitle) + '</p><span class="visual-writing-line" aria-hidden="true"></span><span class="visual-writing-line" aria-hidden="true"></span></div>' +
+      '<div class="visual-output"><strong class="visual-label">' + esc(c.externalAI) + ' · ' + esc(c.request) + '</strong><p>' + esc(c.aiQuestion) + '</p></div>';
+  }
+
+  function renderFeatureVisual(current, lang) {
+    var kind = VISUAL_KIND[current.id];
+    if (!kind) return "";
+    var copy = VISUAL_COPY[lang] || VISUAL_COPY.en;
+    var topic = copy.topics[kind];
+    return '<figure class="feature-visual" aria-labelledby="feature-visual-caption"><figcaption id="feature-visual-caption"><strong>' + esc(topic.title) +
+      '</strong><span>' + esc(copy.example) + '</span></figcaption><ol class="visual-flow">' + topic.stages.map(function (title, stage) {
+        return '<li class="visual-stage"><h3><span class="visual-index" aria-hidden="true">' + String(stage + 1) + '</span><span>' + esc(title) + '</span></h3>' +
+          '<div class="visual-demo">' + renderVisualSample(kind, stage, copy.common) + '</div>' + (stage < 2 ?
+            '<span class="visual-arrow visual-arrow-horizontal" aria-hidden="true">→</span><span class="visual-arrow visual-arrow-vertical" aria-hidden="true">↓</span>' : '') + '</li>';
+      }).join('') + '</ol><p class="visual-note">' + esc(topic.note) + '</p></figure>';
+  }
+
   function renderManualGuide(manual, section, lang) {
     if (!manual) return "";
     if (section === "patterns") {
@@ -7043,6 +8046,7 @@
         "</aside>",
       "</section>",
       "<div class=\"section-stack\">",
+        renderFeatureVisual(current, lang),
         renderResearchGuide(copy.guide, "modes"),
         renderManualGuide(copy.manual, "patterns", lang),
         "<div class=\"two-col\">",
