@@ -493,8 +493,14 @@ function writeIfChanged(dest, content, { repairLineEndings = false } = {}) {
       return endings && endings.length ? text + endings.shift() : line;
     }).join('\n');
   }
+  // A cache-key change makes the case asset line part of the current edit.
+  // Normalize that line without touching older, unchanged script endings.
+  const caseAssetEnding = /(<script[^\n]*src="[^"\n]*use-case\.js\?[^"\n]+"[^\n]*)\r{2,}(?=\n)/g;
+  const repairCaseAsset = old !== null && caseAssetEnding.test(old);
+  caseAssetEnding.lastIndex = 0;
+  content = content.replace(caseAssetEnding, (_, line) => line.replace(/\r+$/, '') + '\r');
   if (old === content) return false;
-  if (!repairLineEndings && old !== null &&
+  if (!repairLineEndings && !repairCaseAsset && old !== null &&
       old.replace(/\r+(?=\n)/g, '') === content.replace(/\r+(?=\n)/g, '')) return false;
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   fs.writeFileSync(dest, content);
