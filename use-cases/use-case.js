@@ -335,6 +335,7 @@
   }
 
   var GUIDE_ORDER = [
+    "web-pages-for-reading-and-ai-analysis",
     "combine-web-pages-into-one-html",
     "download-all-pdfs",
     "bulk-download-images",
@@ -345,6 +346,7 @@
 
   var GUIDE_LABELS = {
     en: {
+      "web-pages-for-reading-and-ai-analysis": "Collect, read & analyse with AI",
       "combine-web-pages-into-one-html": "Combine pages into HTML",
       "download-all-pdfs": "Download all PDFs",
       "bulk-download-images": "Bulk-download images",
@@ -353,6 +355,7 @@
       "merge-pdfs-locally": "Merge PDFs locally"
     },
     ja: {
+      "web-pages-for-reading-and-ai-analysis": "集めて読む・AIで分析する",
       "combine-web-pages-into-one-html": "ページをHTMLにまとめる",
       "download-all-pdfs": "PDFを一括ダウンロード",
       "bulk-download-images": "画像を一括ダウンロード",
@@ -361,6 +364,7 @@
       "merge-pdfs-locally": "PDFをローカル結合"
     },
     es: {
+      "web-pages-for-reading-and-ai-analysis": "Recopilar, leer y analizar con IA",
       "combine-web-pages-into-one-html": "Combinar páginas en HTML",
       "download-all-pdfs": "Descargar todos los PDF",
       "bulk-download-images": "Descargar imágenes en masa",
@@ -369,6 +373,7 @@
       "merge-pdfs-locally": "Fusionar PDF localmente"
     },
     fr: {
+      "web-pages-for-reading-and-ai-analysis": "Collecter, lire et analyser avec l’IA",
       "combine-web-pages-into-one-html": "Regrouper les pages en HTML",
       "download-all-pdfs": "Télécharger tous les PDF",
       "bulk-download-images": "Télécharger les images",
@@ -377,6 +382,7 @@
       "merge-pdfs-locally": "Fusionner PDF localement"
     },
     de: {
+      "web-pages-for-reading-and-ai-analysis": "Sammeln, lesen und mit KI analysieren",
       "combine-web-pages-into-one-html": "Seiten als HTML bündeln",
       "download-all-pdfs": "Alle PDFs herunterladen",
       "bulk-download-images": "Bilder gesammelt laden",
@@ -385,6 +391,7 @@
       "merge-pdfs-locally": "PDFs lokal zusammenführen"
     },
     it: {
+      "web-pages-for-reading-and-ai-analysis": "Raccogliere, leggere e analizzare con IA",
       "combine-web-pages-into-one-html": "Unisci pagine in HTML",
       "download-all-pdfs": "Scaricare tutti i PDF",
       "bulk-download-images": "Scaricare immagini",
@@ -393,6 +400,7 @@
       "merge-pdfs-locally": "Unire PDF localmente"
     },
     ko: {
+      "web-pages-for-reading-and-ai-analysis": "정보 수집·읽기·AI 분석",
       "combine-web-pages-into-one-html": "페이지를 HTML로 합치기",
       "download-all-pdfs": "모든 PDF 다운로드",
       "bulk-download-images": "이미지 일괄 다운로드",
@@ -401,6 +409,7 @@
       "merge-pdfs-locally": "PDF 로컬 병합"
     },
     pt_BR: {
+      "web-pages-for-reading-and-ai-analysis": "Coletar, ler e analisar com IA",
       "combine-web-pages-into-one-html": "Juntar páginas em HTML",
       "download-all-pdfs": "Baixar todos os PDFs",
       "bulk-download-images": "Baixar imagens",
@@ -409,6 +418,7 @@
       "merge-pdfs-locally": "Mesclar PDFs localmente"
     },
     zh_CN: {
+      "web-pages-for-reading-and-ai-analysis": "收集信息·阅读·AI分析",
       "combine-web-pages-into-one-html": "将网页合并为 HTML",
       "download-all-pdfs": "下载所有PDF",
       "bulk-download-images": "批量下载图片",
@@ -417,6 +427,7 @@
       "merge-pdfs-locally": "本地合并PDF"
     },
     zh_TW: {
+      "web-pages-for-reading-and-ai-analysis": "收集資訊·閱讀·AI分析",
       "combine-web-pages-into-one-html": "將網頁合併為 HTML",
       "download-all-pdfs": "下載所有PDF",
       "bulk-download-images": "批次下載圖片",
@@ -427,6 +438,885 @@
   };
 
   var CASES = {
+    "web-pages-for-reading-and-ai-analysis": {
+      "path": "web-pages-for-reading-and-ai-analysis.html",
+      "related": [
+        "combine-web-pages-into-one-html",
+        "download-all-pdfs"
+      ],
+      "copy": {
+        "en": {
+          "title": "Combine web pages to read & prepare AI inputs | Grab All Files",
+          "desc": "Collect web information as readable HTML, or prepare source-tracked files for summarising, comparing and extracting conditions in an external AI tool.",
+          "eyebrow": "Collect, read & analyse with AI",
+          "h1": "Collect web information to read—or prepare it for AI analysis.",
+          "lead": "Save one chosen page with Free, or combine several into one readable HTML with Pro. Prepare source-tracked files for summaries, comparisons and condition extraction. Material preparation happens on your device; analysis happens in the external AI service you choose.",
+          "best": [
+            "Compare published insurance-product conditions using the wording you collected.",
+            "Read several manual sections together before asking about a procedure.",
+            "Organise public-scheme information and identify stated requirements and dates."
+          ],
+          "steps": [
+            "Open a permitted source page and start “Combine pages into HTML”. Review the related candidates and select only the material you need.",
+            "Choose image and linked-document settings. For AI output, enable “AI analysis data (Markdown with sources)” before collecting. Collect and save the HTML; read it with the table of contents and text search.",
+            "After collection, use “Save AI analysis ZIP” and “Copy AI request text”. Review the files and extract the ZIP if your AI service needs individual files.",
+            "Manually give supported files and your question to an external AI tool. Check its answer against the source wording and capture dates."
+          ],
+          "faq": [
+            {
+              "q": "Does Grab All Files analyse or upload my information to AI?",
+              "a": "No. Collection and export run on your device. You save the AI ZIP, copy the request and decide which files to pass to an external AI tool. Its supported formats and privacy settings apply."
+            },
+            {
+              "q": "Which pages and documents can I use?",
+              "a": "Use pages you are allowed to access. Successfully read text from selected linked documents, such as supported PDF, text, CSV, Word or Excel files, can be included in AI output. Not every document or image can be read; review failures and missing content."
+            },
+            {
+              "q": "Can I try this with the Free plan?",
+              "a": "Free discovers candidates and saves exactly one chosen page as HTML. Pro lets you select and combine multiple page bodies. Authentication, permissions and safety limits still apply."
+            },
+            {
+              "q": "Which file formats and sizes should I give to AI?",
+              "a": "Support varies. Extract the ZIP and provide accepted files if needed. The default 25 MB setting is a Markdown-text splitting target, not a guarantee of total ZIP size. Confirm the AI service’s upload limits."
+            },
+            {
+              "q": "How do I check an AI answer?",
+              "a": "Follow the source URLs and captured_at values in the AI output, then compare the answer with the actual wording and current source. Missing material does not prove that a condition or exception is absent."
+            }
+          ],
+          "guide": {
+            "title": "Two ways to use the same collected information",
+            "modes": [
+              [
+                "Read and revisit",
+                "Use the HTML table of contents to jump to a section and search words across the collected material. Revisit the saved information whenever you need it."
+              ],
+              [
+                "Analyse with an external AI tool",
+                "Use source-tracked material and the request text to ask an external AI tool for summaries, comparisons or condition extraction. Select the files you need and reuse the same material with different questions."
+              ]
+            ],
+            "examplesTitle": "Ask concrete questions about your material",
+            "examples": [
+              [
+                "Insurance conditions",
+                "Compare eligibility, exclusions and exceptions stated in these documents. Cite the source URL for each finding and mark missing information as ‘not stated in the supplied material’."
+              ],
+              [
+                "Manuals",
+                "List the steps and prerequisites for this task. Identify where the manuals disagree and cite the relevant source passages."
+              ],
+              [
+                "Public schemes",
+                "Extract the stated eligibility, documents and deadlines into a comparison table. Include source URLs and capture dates; check the current official page before acting."
+              ]
+            ],
+            "formatsTitle": "Files for reading, AI input and source checking",
+            "headers": [
+              "Output",
+              "How to use it"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Read with a table of contents and text search. Linked documents remain links; their text is not merged into the HTML."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "AI inputs include source_url and captured_at. Markdown carries readable text; JSONL organises headings and the manifest lists the material."
+              ],
+              [
+                "CSV / JSON tables",
+                "With per-page or full-package output selected and table export enabled, meaningful HTML tables can be extracted within supported limits. Layout tables are excluded; review the result."
+              ]
+            ]
+          }
+        },
+        "ja": {
+          "title": "複数のWebページをまとめて読む・AI分析用の資料を作る | Grab All Files",
+          "desc": "Web情報を集めてHTMLで読み返す。AI向け資料を出典付きで書き出し、外部AIで要約・比較・条件抽出する手順と質問例を紹介します。",
+          "eyebrow": "集めて読む・AIで分析する",
+          "h1": "Web情報を集めて読む。AIへ渡して分析する。",
+          "lead": "必要なWeb情報を集めて読む。Proなら複数ページの本文を1つのHTMLにまとめられます。WebページをAIに読み込ませる準備として資料を書き出し、外部AIに要約・比較・条件抽出を依頼できます。資料作成は端末内、分析は選んだAIサービスで行います。",
+          "best": [
+            "公開されている保険商品の条件を、集めた原文に沿って比較する。",
+            "複数のマニュアルをまとめて読み、作業手順を確認する。",
+            "公開制度の案内を整理し、記載された要件や日付を調べる。"
+          ],
+          "steps": [
+            "閲覧が許可された起点ページを開き、「ページをHTMLにまとめる」を開始。候補一覧を確認し、必要な資料だけを選びます。",
+            "画像・リンク文書の設定を選び、AIで使う場合は収集前に「AI分析用データ（Markdown・出典付き）」を有効にします。収集してHTMLを保存し、目次と本文検索で読み返します。",
+            "収集完了後に「AI分析用ZIPを保存」と「AIへの依頼文をコピー」を使い、中身を確認します。AIサービスが個別ファイルを求める場合はZIPを展開します。",
+            "対応するファイルと質問を外部AIへ自分で渡します。回答は原文・出典・取得日時と照らし合わせて確認します。"
+          ],
+          "faq": [
+            {
+              "q": "拡張機能がAI分析やAIへの送信も行いますか？",
+              "a": "行いません。収集と出力は端末内で処理します。AI ZIPを保存し、依頼文をコピーして、外部AIへ渡すファイルを利用者が選びます。AI側の対応形式とプライバシー設定を確認してください。"
+            },
+            {
+              "q": "どのページや文書を資料にできますか？",
+              "a": "閲覧が許可されたページが対象です。選択したリンク先文書のうち、対応するPDF・テキスト・CSV・Word・Excelなどで読取に成功した本文はAI出力へ含められます。すべての文書や画像を読めるわけではないため、失敗や不足を確認してください。"
+            },
+            {
+              "q": "無料版でも試せますか？",
+              "a": "無料版は候補を探索し、選んだ1ページだけをHTML保存できます。Proでは複数ページの本文を選んで結合できます。認証・権限・安全上限は適用されます。"
+            },
+            {
+              "q": "AIに渡すファイルの形式とサイズは？",
+              "a": "AIサービスによって異なります。必要ならZIPを展開し、対応するファイルを渡してください。既定の25MBはMarkdown本文の分割目安で、ZIP全体のサイズ保証ではありません。AI側のアップロード制限も確認します。"
+            },
+            {
+              "q": "AIの回答はどう確認しますか？",
+              "a": "AI出力のsource_urlとcaptured_atを手掛かりに、原文と最新の掲載情報を確認します。資料に見当たらないことだけで、条件や例外が存在しないとは判断しません。"
+            }
+          ],
+          "guide": {
+            "title": "集めた情報を、2つの用途で使う",
+            "modes": [
+              [
+                "読む・読み返す",
+                "HTMLの目次から必要な箇所へ移動し、資料全体から語句を検索して読み返せます。保存した資料を繰り返し参照できます。"
+              ],
+              [
+                "外部AIで分析する",
+                "出典付きの資料と依頼文を使い、外部AIへ要約・比較・条件抽出を依頼できます。使う資料を選び、質問を変えて同じ資料を活用できます。"
+              ]
+            ],
+            "examplesTitle": "資料の範囲を決めて、具体的に質問する",
+            "examples": [
+              [
+                "保険商品の条件",
+                "この資料に記載された加入条件・免責・例外を比較してください。各項目に出典URLを付け、資料に見当たらない内容は「提供資料に記載なし」としてください。"
+              ],
+              [
+                "マニュアル",
+                "この作業の手順と前提条件を整理してください。資料間で説明が異なる箇所は、該当する原文と出典を示してください。"
+              ],
+              [
+                "公開制度",
+                "記載された対象条件・必要書類・期限を比較表にしてください。出典URLと取得日時を付け、利用前には最新の公式ページを確認します。"
+              ]
+            ],
+            "formatsTitle": "読む資料・AIに渡す資料・出典確認の形式",
+            "headers": [
+              "出力",
+              "使い方"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "目次と本文検索で読み返します。リンク文書はリンクとして残り、その本文はHTMLに統合されません。"
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "AI向け出力にはsource_urlとcaptured_atが記録されます。Markdownは本文、JSONLは見出し単位の情報、manifestは資料一覧の確認に使えます。"
+              ],
+              [
+                "表のCSV / JSON",
+                "ページ別／完全パッケージを選び、表の出力を有効にした場合に、意味のあるHTML表を対応範囲・上限内で抽出できます。レイアウト用の表は除外されるため、結果を確認してください。"
+              ]
+            ]
+          }
+        },
+        "es": {
+          "title": "Unir páginas para leer y preparar el análisis con IA | Grab All Files",
+          "desc": "Recopila información web en HTML legible o prepara archivos con fuentes para resumir, comparar y extraer condiciones en una herramienta de IA externa.",
+          "eyebrow": "Recopilar, leer y analizar con IA",
+          "h1": "Recopila información web para leerla o analizarla con IA.",
+          "lead": "Guarda una página elegida con Free o combina varias en un HTML con Pro. Prepara archivos con fuentes para resumir, comparar y extraer condiciones. Los documentos se preparan en tu dispositivo; el análisis se realiza en la IA externa que elijas.",
+          "best": [
+            "Comparar condiciones publicadas de seguros según los textos recopilados.",
+            "Leer secciones de manuales juntas y consultar un procedimiento.",
+            "Organizar información de programas públicos y sus requisitos y fechas."
+          ],
+          "steps": [
+            "Abre una página a la que tengas acceso y elige combinar páginas en HTML. Revisa las candidatas y selecciona el material necesario.",
+            "Elige opciones de imágenes y documentos. Para IA, activa «Datos para análisis con IA (Markdown con fuentes)» antes de recopilar. Guarda el HTML y léelo con el índice y la búsqueda.",
+            "Tras recopilar, usa «Guardar ZIP de análisis IA» y «Copiar petición para la IA». Revisa los archivos y descomprime el ZIP si la IA necesita archivos individuales.",
+            "Entrega manualmente archivos compatibles y tu pregunta a una IA externa. Verifica la respuesta con el texto fuente y las fechas de captura."
+          ],
+          "faq": [
+            {
+              "q": "¿La extensión analiza o envía información a la IA?",
+              "a": "No. Recopila y exporta en tu dispositivo. Guardas el ZIP, copias la solicitud y decides qué archivos enviar a una IA externa según sus formatos y privacidad."
+            },
+            {
+              "q": "¿Qué páginas y documentos puedo usar?",
+              "a": "Páginas a las que tengas acceso. El texto leído correctamente de documentos enlazados compatibles, como PDF, texto, CSV, Word o Excel, puede incluirse en la salida para IA. Revisa errores y contenido faltante; no todos los documentos o imágenes se pueden leer."
+            },
+            {
+              "q": "¿Puedo probarlo gratis?",
+              "a": "Free descubre candidatas y guarda exactamente una página elegida como HTML. Pro selecciona y combina varias. Se mantienen los límites de seguridad, permisos y autenticación."
+            },
+            {
+              "q": "¿Qué formatos y tamaños de archivo debo entregar a la IA?",
+              "a": "Depende del servicio. Si hace falta, descomprime el ZIP y entrega archivos compatibles. Los 25 MB predeterminados son un objetivo de división del texto Markdown, no una garantía del tamaño del ZIP. Revisa los límites de carga."
+            },
+            {
+              "q": "¿Cómo verifico una respuesta?",
+              "a": "Usa source_url y captured_at para revisar el texto original y la fuente actual. La falta de material no prueba que no exista una condición o excepción."
+            }
+          ],
+          "guide": {
+            "title": "Dos usos de la información recopilada",
+            "modes": [
+              [
+                "Leer y volver a consultar",
+                "Usa el índice del HTML para ir a una sección y buscar palabras en todo el material recopilado. Vuelve a consultar la información guardada cuando la necesites."
+              ],
+              [
+                "Analizar con una IA externa",
+                "Usa material con fuentes y el texto de solicitud para pedir resúmenes, comparaciones o extracción de condiciones a una IA externa. Elige los archivos necesarios y reutiliza el material con preguntas distintas."
+              ]
+            ],
+            "examplesTitle": "Preguntas concretas sobre tus documentos",
+            "examples": [
+              [
+                "Condiciones de seguros",
+                "Compara requisitos, exclusiones y excepciones expresados en estos documentos. Cita la URL fuente y marca la información ausente como «no indicada en el material proporcionado»."
+              ],
+              [
+                "Manuales",
+                "Ordena los pasos y requisitos previos de esta tarea. Señala diferencias entre manuales y cita los pasajes fuente."
+              ],
+              [
+                "Programas públicos",
+                "Extrae requisitos, documentos y plazos en una tabla comparativa con URL y fechas de captura. Comprueba la página oficial actual antes de actuar."
+              ]
+            ],
+            "formatsTitle": "Formatos para leer, consultar con IA y verificar fuentes",
+            "headers": [
+              "Salida",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Lectura con índice y búsqueda. Los documentos enlazados permanecen como enlaces; su texto no se integra en el HTML."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "Incluyen source_url y captured_at. Markdown contiene texto, JSONL organiza secciones y el manifest enumera el material."
+              ],
+              [
+                "Tablas CSV / JSON",
+                "Con salida por página o paquete completo y la exportación de tablas activada, se extraen tablas HTML significativas dentro de los límites admitidos. Se excluyen las tablas de diseño; revisa el resultado."
+              ]
+            ]
+          }
+        },
+        "fr": {
+          "title": "Réunir des pages à lire et préparer l’analyse IA | Grab All Files",
+          "desc": "Rassemblez des pages en HTML lisible ou préparez des fichiers avec leurs sources pour résumer, comparer et extraire des conditions avec une IA externe.",
+          "eyebrow": "Collecter, lire et analyser avec l’IA",
+          "h1": "Rassembler des informations web pour les lire ou les analyser avec l’IA.",
+          "lead": "Enregistrez une page choisie avec Free ou réunissez-en plusieurs dans un HTML avec Pro. Préparez des fichiers avec leurs sources pour résumer, comparer et extraire des conditions. La préparation reste sur votre appareil ; l’analyse a lieu dans l’IA externe choisie.",
+          "best": [
+            "Comparer les conditions publiées d’assurances à partir des textes collectés.",
+            "Lire plusieurs sections de manuels et clarifier une procédure.",
+            "Organiser les critères et dates mentionnés dans des dispositifs publics."
+          ],
+          "steps": [
+            "Ouvrez une page autorisée et lancez le regroupement en HTML. Vérifiez les candidates et sélectionnez les documents utiles.",
+            "Réglez images et documents. Pour l’IA, activez «Données pour analyse par IA (Markdown avec sources)» avant la collecte. Enregistrez le HTML et relisez-le avec le sommaire et la recherche.",
+            "Après collecte, utilisez «Enregistrer le ZIP d’analyse IA» et «Copier la demande pour l’IA». Vérifiez les fichiers et décompressez le ZIP si l’IA demande des fichiers individuels.",
+            "Transmettez vous-même les fichiers acceptés et votre question à une IA externe. Vérifiez sa réponse dans les sources et leurs dates de capture."
+          ],
+          "faq": [
+            {
+              "q": "L’extension analyse-t-elle ou transmet-elle mes documents à l’IA ?",
+              "a": "Non. La collecte et l’export restent sur votre appareil. Vous enregistrez le ZIP, copiez la demande et choisissez les fichiers à transmettre à une IA externe selon ses formats et réglages de confidentialité."
+            },
+            {
+              "q": "Quels documents puis-je utiliser ?",
+              "a": "Les pages auxquelles vous avez accès. Le texte lu avec succès dans des documents liés compatibles, comme PDF, texte, CSV, Word ou Excel, peut rejoindre l’export IA. Vérifiez les erreurs et les manques ; tous les documents ou images ne sont pas lisibles."
+            },
+            {
+              "q": "Puis-je essayer avec Free ?",
+              "a": "Free trouve les candidates et enregistre exactement une page choisie en HTML. Pro sélectionne et combine plusieurs pages. Les limites de sécurité, d’accès et d’authentification restent applicables."
+            },
+            {
+              "q": "Quels formats et tailles de fichiers transmettre à l’IA ?",
+              "a": "Cela dépend du service. Décompressez le ZIP et fournissez les fichiers acceptés si nécessaire. Les 25 MB par défaut visent le découpage du texte Markdown, pas la taille totale du ZIP. Vérifiez les limites d’envoi."
+            },
+            {
+              "q": "Comment vérifier une réponse ?",
+              "a": "Utilisez source_url et captured_at pour contrôler le texte original et la source actuelle. Une information non collectée ne prouve pas l’absence d’une condition ou d’une exception."
+            }
+          ],
+          "guide": {
+            "title": "Deux usages des informations collectées",
+            "modes": [
+              [
+                "Lire et relire",
+                "Utilisez le sommaire HTML pour accéder à une section et rechercher des mots dans les documents collectés. Consultez à nouveau les informations enregistrées quand vous en avez besoin."
+              ],
+              [
+                "Analyser avec une IA externe",
+                "Utilisez les documents avec leurs sources et le texte de demande pour solliciter résumés, comparaisons ou extraction de conditions auprès d’une IA externe. Sélectionnez vos fichiers et réutilisez les mêmes documents avec différentes questions."
+              ]
+            ],
+            "examplesTitle": "Poser des questions précises sur vos documents",
+            "examples": [
+              [
+                "Conditions d’assurance",
+                "Comparez les critères, exclusions et exceptions indiqués. Citez l’URL source et marquez les informations absentes «non précisées dans les documents fournis»."
+              ],
+              [
+                "Manuels",
+                "Listez les étapes et prérequis de cette tâche. Relevez les différences entre manuels en citant les passages sources."
+              ],
+              [
+                "Dispositifs publics",
+                "Comparez critères, pièces et délais dans un tableau avec URL et dates de capture. Vérifiez la page officielle actuelle avant toute démarche."
+              ]
+            ],
+            "formatsTitle": "Formats pour lire, interroger l’IA et vérifier les sources",
+            "headers": [
+              "Sortie",
+              "Usage"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Lecture avec sommaire et recherche. Les documents liés restent des liens ; leur texte n’est pas intégré au HTML."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "source_url et captured_at permettent la vérification. Markdown contient le texte, JSONL les sections et le manifest la liste des documents."
+              ],
+              [
+                "Tableaux CSV / JSON",
+                "Avec la sortie par page ou le paquet complet et l’export de tableaux activé, les tableaux HTML significatifs sont extraits dans les limites prises en charge. Les tableaux de mise en page sont exclus ; vérifiez les résultats."
+              ]
+            ]
+          }
+        },
+        "de": {
+          "title": "Webseiten bündeln, lesen und KI-Analyse vorbereiten | Grab All Files",
+          "desc": "Webinformationen als lesbares HTML sammeln oder Dateien mit Quellen für Zusammenfassungen, Vergleiche und Bedingungsanalysen in einer externen KI vorbereiten.",
+          "eyebrow": "Sammeln, lesen und mit KI analysieren",
+          "h1": "Webinformationen sammeln, nachlesen und für KI-Analysen vorbereiten.",
+          "lead": "Speichern Sie eine Seite mit Free oder bündeln Sie mehrere in einem HTML mit Pro. Bereiten Sie Dateien mit Quellen für Zusammenfassungen, Vergleiche und Bedingungsanalysen vor. Die Vorbereitung erfolgt auf Ihrem Gerät, die Analyse im gewählten externen KI-Dienst.",
+          "best": [
+            "Veröffentlichte Versicherungsbedingungen anhand der gesammelten Texte vergleichen.",
+            "Handbuchabschnitte gemeinsam lesen und Abläufe klären.",
+            "Voraussetzungen und Termine öffentlicher Programme ordnen."
+          ],
+          "steps": [
+            "Öffnen Sie eine erlaubte Ausgangsseite und starten Sie das Bündeln in HTML. Prüfen Sie Kandidaten und wählen Sie benötigte Inhalte.",
+            "Wählen Sie Bild- und Dokumenteinstellungen. Aktivieren Sie für KI-Ausgaben vor der Sammlung „KI-Analysedaten (Markdown mit Quellen)“. Speichern und lesen Sie das HTML mit Inhaltsverzeichnis und Textsuche.",
+            "Verwenden Sie nach der Sammlung „KI-Analyse-ZIP speichern“ und „KI-Anfragetext kopieren“. Prüfen Sie die Dateien und entpacken Sie das ZIP, wenn die KI einzelne Dateien benötigt.",
+            "Übergeben Sie passende Dateien und Fragen selbst an eine externe KI. Prüfen Sie Antworten anhand der Quellen und Erfassungszeitpunkte."
+          ],
+          "faq": [
+            {
+              "q": "Analysiert oder übermittelt die Erweiterung Inhalte an KI?",
+              "a": "Nein. Sammlung und Export erfolgen auf Ihrem Gerät. Sie speichern das ZIP, kopieren die Anfrage und wählen selbst Dateien für eine externe KI. Deren Format- und Datenschutzeinstellungen gelten."
+            },
+            {
+              "q": "Welche Seiten und Dokumente eignen sich?",
+              "a": "Seiten mit erlaubtem Zugriff. Erfolgreich gelesener Text verknüpfter unterstützter PDF-, Text-, CSV-, Word- oder Excel-Dateien kann in die KI-Ausgabe eingehen. Nicht jedes Dokument oder Bild ist lesbar; prüfen Sie Fehler und Lücken."
+            },
+            {
+              "q": "Kann ich Free verwenden?",
+              "a": "Free findet Kandidaten und speichert genau eine ausgewählte Seite als HTML. Pro wählt und kombiniert mehrere Seiten. Sicherheits-, Berechtigungs- und Anmeldegrenzen gelten weiter."
+            },
+            {
+              "q": "Welche Dateiformate und Größen sollte ich der KI geben?",
+              "a": "Das hängt vom Dienst ab. Entpacken Sie das ZIP und übergeben Sie unterstützte Dateien, falls nötig. Die voreingestellten 25 MB sind ein Ziel für Markdown-Textaufteilung, keine Garantie für die ZIP-Gesamtgröße. Prüfen Sie Uploadgrenzen."
+            },
+            {
+              "q": "Wie prüfe ich KI-Antworten?",
+              "a": "Folgen Sie source_url und captured_at zur Originalformulierung und aktuellen Quelle. Fehlendes Material beweist nicht, dass eine Bedingung oder Ausnahme fehlt."
+            }
+          ],
+          "guide": {
+            "title": "Zwei Nutzungswege für gesammelte Informationen",
+            "modes": [
+              [
+                "Lesen und nachschlagen",
+                "Springen Sie mit dem HTML-Inhaltsverzeichnis zu einem Abschnitt und suchen Sie Begriffe im gesammelten Material. Nutzen Sie die gespeicherten Informationen immer wieder zum Nachschlagen."
+              ],
+              [
+                "Mit externer KI analysieren",
+                "Bitten Sie eine externe KI mit Quellenmaterial und Anfragetext um Zusammenfassungen, Vergleiche oder die Extraktion von Bedingungen. Wählen Sie benötigte Dateien und nutzen Sie dasselbe Material für verschiedene Fragen."
+              ]
+            ],
+            "examplesTitle": "Konkrete Fragen an Ihr Material",
+            "examples": [
+              [
+                "Versicherungsbedingungen",
+                "Vergleiche Voraussetzungen, Ausschlüsse und Ausnahmen in diesen Dokumenten. Nenne die Quell-URL und kennzeichne fehlende Angaben als ‚im bereitgestellten Material nicht angegeben‘."
+              ],
+              [
+                "Handbücher",
+                "Liste Schritte und Voraussetzungen dieser Aufgabe auf. Zeige Widersprüche zwischen Handbüchern mit den entsprechenden Quellenstellen."
+              ],
+              [
+                "Öffentliche Programme",
+                "Erstelle eine Tabelle der genannten Voraussetzungen, Unterlagen und Fristen mit Quell-URLs und Erfassungszeitpunkten. Prüfe vor der Nutzung die aktuelle offizielle Seite."
+              ]
+            ],
+            "formatsTitle": "Formate zum Lesen, für KI und zur Quellenprüfung",
+            "headers": [
+              "Ausgabe",
+              "Verwendung"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Lesen mit Inhaltsverzeichnis und Suche. Verknüpfte Dokumente bleiben Links; ihr Text wird nicht in das HTML eingefügt."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "Enthalten source_url und captured_at. Markdown liefert Text, JSONL gliedert Überschriften und das manifest listet Material auf."
+              ],
+              [
+                "CSV- / JSON-Tabellen",
+                "Bei seitenweiser Ausgabe oder vollständigem Paket und aktivem Tabellenexport werden inhaltliche HTML-Tabellen innerhalb unterstützter Grenzen extrahiert. Layouttabellen sind ausgeschlossen; prüfen Sie das Ergebnis."
+              ]
+            ]
+          }
+        },
+        "it": {
+          "title": "Unire pagine da leggere e preparare analisi IA | Grab All Files",
+          "desc": "Raccogli informazioni web in HTML leggibile o prepara file con le fonti per riassumere, confrontare ed estrarre condizioni con un’IA esterna.",
+          "eyebrow": "Raccogliere, leggere e analizzare con IA",
+          "h1": "Raccogli informazioni web per leggerle o analizzarle con IA.",
+          "lead": "Salva una pagina scelta con Free o uniscine più in un HTML con Pro. Prepara file con le fonti per riassumere, confrontare ed estrarre condizioni. I materiali vengono preparati sul dispositivo; l’analisi avviene nell’IA esterna che scegli.",
+          "best": [
+            "Confrontare condizioni assicurative pubblicate usando i testi raccolti.",
+            "Leggere sezioni di manuali insieme e chiarire una procedura.",
+            "Organizzare requisiti e date indicati nei programmi pubblici."
+          ],
+          "steps": [
+            "Apri una pagina a cui hai accesso e avvia l’unione in HTML. Controlla le candidate e seleziona il materiale utile.",
+            "Scegli immagini e documenti. Per l’IA, attiva «Dati per analisi con IA (Markdown con fonti)» prima della raccolta. Salva e leggi l’HTML con indice e ricerca.",
+            "Dopo la raccolta usa «Salva ZIP di analisi IA» e «Copia richiesta per l’IA». Controlla i file e decomprimi lo ZIP se l’IA richiede file singoli.",
+            "Fornisci manualmente file compatibili e domanda a un’IA esterna. Verifica la risposta con testo originale e date di acquisizione."
+          ],
+          "faq": [
+            {
+              "q": "L’estensione analizza o invia informazioni all’IA?",
+              "a": "No. Raccolta ed esportazione avvengono sul dispositivo. Salvi lo ZIP, copi la richiesta e decidi i file da passare a un’IA esterna, secondo i suoi formati e impostazioni di privacy."
+            },
+            {
+              "q": "Quali pagine e documenti posso usare?",
+              "a": "Pagine a cui hai accesso. Il testo letto correttamente da documenti collegati supportati, come PDF, testo, CSV, Word o Excel, può essere incluso nell’output IA. Non ogni documento o immagine è leggibile; controlla errori e mancanze."
+            },
+            {
+              "q": "Posso provare con Free?",
+              "a": "Free trova candidate e salva esattamente una pagina scelta in HTML. Pro seleziona e combina più pagine. Restano limiti di sicurezza, permessi e autenticazione."
+            },
+            {
+              "q": "Quali formati e dimensioni dei file devo fornire all’IA?",
+              "a": "Dipende dal servizio. Se necessario decomprimi lo ZIP e fornisci file accettati. I 25 MB predefiniti sono un obiettivo per dividere il testo Markdown, non una garanzia del peso totale ZIP. Controlla i limiti di caricamento."
+            },
+            {
+              "q": "Come verifico una risposta?",
+              "a": "Usa source_url e captured_at per controllare il testo originale e la fonte attuale. Materiale mancante non dimostra l’assenza di una condizione o eccezione."
+            }
+          ],
+          "guide": {
+            "title": "Due usi delle informazioni raccolte",
+            "modes": [
+              [
+                "Leggere e consultare",
+                "Usa l’indice HTML per raggiungere una sezione e cercare parole in tutto il materiale raccolto. Consulta di nuovo le informazioni salvate quando servono."
+              ],
+              [
+                "Analizzare con un’IA esterna",
+                "Usa materiali con le fonti e il testo della richiesta per chiedere riassunti, confronti o estrazione di condizioni a un’IA esterna. Scegli i file utili e riutilizza lo stesso materiale con domande diverse."
+              ]
+            ],
+            "examplesTitle": "Domande concrete sui tuoi documenti",
+            "examples": [
+              [
+                "Condizioni assicurative",
+                "Confronta requisiti, esclusioni ed eccezioni dichiarati. Cita la URL fonte e indica gli elementi mancanti come «non specificati nel materiale fornito»."
+              ],
+              [
+                "Manuali",
+                "Elenca passi e prerequisiti dell’attività. Segnala le differenze tra manuali citando i passaggi originali."
+              ],
+              [
+                "Programmi pubblici",
+                "Estrai requisiti, documenti e scadenze in una tabella con URL e date di acquisizione. Verifica la pagina ufficiale aggiornata prima di agire."
+              ]
+            ],
+            "formatsTitle": "Formati per leggere, usare l’IA e controllare le fonti",
+            "headers": [
+              "Output",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Lettura con indice e ricerca. I documenti collegati restano link; il loro testo non viene unito all’HTML."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "Includono source_url e captured_at. Markdown contiene testo, JSONL organizza sezioni e il manifest elenca i materiali."
+              ],
+              [
+                "Tabelle CSV / JSON",
+                "Con output per pagina o pacchetto completo ed esportazione delle tabelle attivata, si estraggono tabelle HTML significative entro i limiti supportati. Le tabelle di impaginazione sono escluse; controlla il risultato."
+              ]
+            ]
+          }
+        },
+        "ko": {
+          "title": "여러 웹페이지를 모아 읽고 AI 분석 자료 만들기 | Grab All Files",
+          "desc": "웹정보를 읽기 쉬운 HTML로 모으거나 출처가 있는 파일로 내보내 외부 AI에서 요약·비교·조건 추출하는 방법과 질문 예시를 안내합니다.",
+          "eyebrow": "정보 수집·읽기·AI 분석",
+          "h1": "웹정보를 모아 읽고, 수집한 정보를 AI로 분석하세요.",
+          "lead": "Free로 선택한 1페이지를 저장하거나 Pro로 여러 페이지를 하나의 HTML에 모아 읽으세요. 출처가 있는 AI 자료로 요약·비교·조건 추출을 요청할 수 있습니다. 자료 준비는 기기에서, 분석은 선택한 외부 AI 서비스에서 합니다.",
+          "best": [
+            "공개된 보험 상품 조건을 수집한 원문에 따라 비교합니다.",
+            "여러 매뉴얼 항목을 함께 읽고 작업 절차를 확인합니다.",
+            "공개 제도의 자료에서 명시된 요건과 날짜를 정리합니다."
+          ],
+          "steps": [
+            "접근이 허용된 시작 페이지에서 페이지 HTML 결합을 실행합니다. 후보를 검토하고 필요한 자료만 선택합니다.",
+            "이미지와 링크 문서 설정을 선택합니다. AI 출력이 필요하면 수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 활성화합니다. HTML을 저장하고 목차와 본문 검색으로 읽습니다.",
+            "수집 완료 후 “AI 분석용 ZIP 저장”와 “AI 요청문 복사”를 사용하고 내용을 확인합니다. AI 서비스가 개별 파일을 요구하면 ZIP을 풉니다.",
+            "지원 파일과 질문을 외부 AI에 직접 전달합니다. 답변을 원문·출처·수집 시점과 대조합니다."
+          ],
+          "faq": [
+            {
+              "q": "확장 프로그램이 AI 분석이나 AI 전송도 하나요?",
+              "a": "아니요. 수집과 출력은 기기에서 처리합니다. AI ZIP을 저장하고 요청문을 복사해 외부 AI에 전달할 파일을 직접 선택합니다. AI의 지원 형식과 개인정보 설정을 확인하세요."
+            },
+            {
+              "q": "어떤 페이지와 문서를 사용할 수 있나요?",
+              "a": "접근이 허용된 페이지입니다. 선택한 링크 문서 중 지원되는 PDF·텍스트·CSV·Word·Excel 등의 읽기에 성공한 본문은 AI 출력에 포함할 수 있습니다. 모든 문서와 이미지를 읽지는 못하므로 실패와 누락을 확인하세요."
+            },
+            {
+              "q": "Free로도 시도할 수 있나요?",
+              "a": "Free는 후보를 찾고 선택한 정확히 1페이지를 HTML로 저장합니다. Pro는 여러 페이지 본문을 선택하고 결합합니다. 인증·권한·안전 제한은 계속 적용됩니다."
+            },
+            {
+              "q": "AI에 전달할 파일의 형식과 크기는 어떻게 선택하나요?",
+              "a": "서비스마다 다릅니다. 필요하면 압축을 풀고 지원 파일을 전달하세요. 기본 25 MB는 Markdown 본문 분할 기준이며 ZIP 전체 크기 보장이 아닙니다. AI의 업로드 제한도 확인하세요."
+            },
+            {
+              "q": "AI 답변은 어떻게 확인하나요?",
+              "a": "AI 출력의 source_url과 captured_at으로 원문과 최신 출처를 확인하세요. 수집 자료에 없다는 사실만으로 조건이나 예외가 없다고 판단하지 않습니다."
+            }
+          ],
+          "guide": {
+            "title": "수집한 정보를 사용하는 두 가지 방법",
+            "modes": [
+              [
+                "읽고 다시 확인하기",
+                "HTML 목차로 필요한 부분에 이동하고 수집한 자료 전체에서 단어를 검색해 다시 읽을 수 있습니다. 저장한 정보를 필요할 때마다 반복해서 참고하세요."
+              ],
+              [
+                "외부 AI로 분석하기",
+                "출처가 있는 자료와 요청문으로 외부 AI에 요약·비교·조건 추출을 요청할 수 있습니다. 필요한 파일을 선택하고 질문을 바꾸어 같은 자료를 활용하세요."
+              ]
+            ],
+            "examplesTitle": "자료의 범위를 정하고 구체적으로 질문하기",
+            "examples": [
+              [
+                "보험 상품 조건",
+                "자료에 명시된 가입 요건·면책·예외를 비교해 주세요. 항목마다 출처 URL을 붙이고 없는 정보는 ‘제공 자료에 명시되지 않음’으로 표시해 주세요."
+              ],
+              [
+                "매뉴얼",
+                "작업 단계와 전제 조건을 정리해 주세요. 매뉴얼 간 설명이 다른 부분은 원문과 출처를 제시해 주세요."
+              ],
+              [
+                "공개 제도",
+                "명시된 대상 요건·서류·기한을 비교표로 만들어 주세요. 출처 URL과 수집 시점을 포함하고 이용 전 최신 공식 페이지를 확인합니다."
+              ]
+            ],
+            "formatsTitle": "읽기·AI 전달·출처 확인에 쓰는 형식",
+            "headers": [
+              "출력",
+              "사용 방법"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "목차와 검색으로 읽습니다. 링크 문서는 링크로 유지되며 문서 본문은 HTML에 통합되지 않습니다."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "source_url과 captured_at이 기록됩니다. Markdown은 본문, JSONL은 제목 단위 정보, manifest는 자료 목록을 확인하는 데 씁니다."
+              ],
+              [
+                "표 CSV / JSON",
+                "페이지별 또는 전체 패키지 출력을 선택하고 표 내보내기를 켜면 의미 있는 HTML 표를 지원 범위와 제한 안에서 추출합니다. 레이아웃 표는 제외되므로 결과를 확인하세요."
+              ]
+            ]
+          }
+        },
+        "pt_BR": {
+          "title": "Reunir páginas para ler e preparar análise com IA | Grab All Files",
+          "desc": "Reúna informações web em HTML legível ou prepare arquivos com fontes para resumir, comparar e extrair condições usando uma ferramenta de IA externa.",
+          "eyebrow": "Coletar, ler e analisar com IA",
+          "h1": "Reúna informações web para ler ou analisar com IA.",
+          "lead": "Salve uma página escolhida com Free ou reúna várias em um HTML com Pro. Prepare arquivos com fontes para resumos, comparações e extração de condições. Os materiais são preparados no dispositivo; a análise ocorre na IA externa que você escolher.",
+          "best": [
+            "Comparar condições publicadas de seguros com base nos textos coletados.",
+            "Ler seções de manuais juntas e esclarecer procedimentos.",
+            "Organizar requisitos e datas indicados em programas públicos."
+          ],
+          "steps": [
+            "Abra uma página com acesso permitido e inicie a combinação em HTML. Revise as candidatas e selecione o material necessário.",
+            "Escolha imagens e documentos. Para IA, ative “Dados para análise com IA (Markdown com fontes)” antes da coleta. Salve e leia o HTML com sumário e busca.",
+            "Após a coleta, use “Salvar ZIP de análise IA” e “Copiar pedido para a IA”. Confira os arquivos e extraia o ZIP se a IA precisar de arquivos individuais.",
+            "Entregue manualmente arquivos aceitos e sua pergunta a uma IA externa. Confira a resposta com o texto fonte e as datas de captura."
+          ],
+          "faq": [
+            {
+              "q": "A extensão analisa ou envia minhas informações para IA?",
+              "a": "Não. Coleta e exportação ocorrem no dispositivo. Você salva o ZIP, copia o pedido e decide quais arquivos entregar a uma IA externa conforme seus formatos e privacidade."
+            },
+            {
+              "q": "Quais páginas e documentos posso usar?",
+              "a": "Páginas com acesso permitido. Texto lido com sucesso de documentos vinculados compatíveis, como PDF, texto, CSV, Word ou Excel, pode entrar na saída para IA. Confira erros e lacunas; nem todo documento ou imagem pode ser lido."
+            },
+            {
+              "q": "Posso experimentar no Free?",
+              "a": "O Free encontra candidatas e salva exatamente uma página escolhida como HTML. O Pro seleciona e combina várias. Limites de segurança, permissão e autenticação continuam aplicáveis."
+            },
+            {
+              "q": "Quais formatos e tamanhos de arquivo devo entregar à IA?",
+              "a": "Depende do serviço. Extraia o ZIP e forneça arquivos aceitos se necessário. Os 25 MB padrão são uma meta de divisão do texto Markdown, não garantia do tamanho total do ZIP. Confira os limites de envio."
+            },
+            {
+              "q": "Como verifico uma resposta?",
+              "a": "Use source_url e captured_at para conferir a redação original e a fonte atual. Material ausente não prova que uma condição ou exceção não existe."
+            }
+          ],
+          "guide": {
+            "title": "Dois usos para as informações coletadas",
+            "modes": [
+              [
+                "Ler e consultar novamente",
+                "Use o sumário HTML para ir a uma seção e buscar palavras em todo o material coletado. Consulte novamente as informações salvas sempre que precisar."
+              ],
+              [
+                "Analisar com uma IA externa",
+                "Use materiais com fontes e o texto do pedido para solicitar resumos, comparações ou extração de condições a uma IA externa. Escolha os arquivos necessários e reutilize o mesmo material com perguntas diferentes."
+              ]
+            ],
+            "examplesTitle": "Faça perguntas concretas sobre seus documentos",
+            "examples": [
+              [
+                "Condições de seguros",
+                "Compare requisitos, exclusões e exceções declarados. Cite a URL fonte e marque informações ausentes como ‘não informado no material fornecido’."
+              ],
+              [
+                "Manuais",
+                "Liste etapas e pré-requisitos desta tarefa. Identifique diferenças entre manuais e cite os trechos de origem."
+              ],
+              [
+                "Programas públicos",
+                "Extraia requisitos, documentos e prazos em uma tabela com URLs e datas de captura. Confira a página oficial atual antes de agir."
+              ]
+            ],
+            "formatsTitle": "Formatos para ler, consultar IA e verificar fontes",
+            "headers": [
+              "Saída",
+              "Uso"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "Leitura com sumário e busca. Documentos vinculados permanecem como links; seu texto não é integrado ao HTML."
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "Incluem source_url e captured_at. Markdown traz o texto, JSONL organiza seções e o manifest lista os materiais."
+              ],
+              [
+                "Tabelas CSV / JSON",
+                "Com saída por página ou pacote completo e exportação de tabelas ativada, tabelas HTML significativas são extraídas dentro dos limites aceitos. Tabelas de layout são excluídas; confira o resultado."
+              ]
+            ]
+          }
+        },
+        "zh_CN": {
+          "title": "合并网页信息阅读并准备AI分析资料 | Grab All Files",
+          "desc": "将网页信息收集为易读的HTML，或导出带来源的资料，手动交给外部AI进行摘要、比较和条件提取。提供操作步骤与提问示例。",
+          "eyebrow": "收集信息·阅读·AI分析",
+          "h1": "收集网页信息阅读，再将资料交给AI分析。",
+          "lead": "Free可保存所选1页，Pro可将多个页面正文合并为一个易读的HTML。导出带来源的资料，准备向AI提出摘要、比较与条件提取问题。资料准备在您的设备上完成，分析由您选择的外部AI服务进行。",
+          "best": [
+            "依据收集的原文比较公开保险产品的条件。",
+            "一起阅读多份手册并确认操作步骤。",
+            "整理公共制度资料中明示的要求与日期。"
+          ],
+          "steps": [
+            "打开您有权访问的起始页面并启动页面HTML合并。检查候选列表，只选择需要的资料。",
+            "选择图片和链接文档设置。需要AI输出时，请在收集前启用“AI分析数据（带出处的Markdown）”。收集并保存HTML，使用目录和正文搜索阅读。",
+            "收集完成后使用“保存AI分析ZIP”和“复制给AI的请求文”，检查内容。如果AI服务需要单独文件，请解压ZIP。",
+            "手动将支持的文件与问题交给外部AI，将回答与原文、来源及采集时间核对。"
+          ],
+          "faq": [
+            {
+              "q": "扩展会自动分析或把信息发给AI吗？",
+              "a": "不会。收集和导出均在您的设备上完成。您保存AI ZIP、复制请求文本，并自行选择交给外部AI的文件。请确认AI的格式支持与隐私设置。"
+            },
+            {
+              "q": "可以使用哪些页面和文档？",
+              "a": "仅限您有权访问的页面。选中的链接文档中，支持的PDF、文本、CSV、Word、Excel等成功读取的正文可加入AI输出。并非所有文档或图片都能读取，请检查失败和遗漏。"
+            },
+            {
+              "q": "可以用Free试用吗？",
+              "a": "Free查找候选并只保存选中的1页为HTML。Pro可选择并合并多个页面正文。仍适用身份验证、权限与安全上限。"
+            },
+            {
+              "q": "交给AI的文件应采用什么格式和大小？",
+              "a": "依服务而异。需要时请解压ZIP，提供支持的文件。默认25 MB是Markdown正文分块目标，不保证ZIP整体大小。也请确认AI的上传限制。"
+            },
+            {
+              "q": "如何核对AI回答？",
+              "a": "通过AI输出中的source_url与captured_at检查原文和当前来源。所收集资料中没有记载，不代表条件或例外不存在。"
+            }
+          ],
+          "guide": {
+            "title": "收集的信息可以这样使用",
+            "modes": [
+              [
+                "阅读与重新查阅",
+                "通过HTML目录跳转到所需段落，在收集的资料中搜索词语并重新阅读。保存的资料可以反复查阅。"
+              ],
+              [
+                "使用外部AI分析",
+                "使用带来源的资料和请求文本，向外部AI提出摘要、比较或条件提取问题。选择所需文件，改变问题，反复使用同一批资料。"
+              ]
+            ],
+            "examplesTitle": "根据资料范围提出具体问题",
+            "examples": [
+              [
+                "保险产品条件",
+                "请比较资料中明确记载的投保要求、免责和例外。每项附来源URL，缺失信息标为“所提供资料中未记载”。"
+              ],
+              [
+                "手册",
+                "请整理此操作的步骤与前提条件。对不同手册的差异，引用相应原文和来源。"
+              ],
+              [
+                "公共制度",
+                "请将记载的对象要求、材料和期限整理为比较表，附来源URL与采集时间。实际使用前确认最新官方页面。"
+              ]
+            ],
+            "formatsTitle": "阅读、AI输入与来源核对的文件格式",
+            "headers": [
+              "输出",
+              "用法"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "使用目录和正文搜索阅读。链接文档保留为链接，文档正文不会合并至HTML。"
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "记录source_url和captured_at。Markdown用于正文，JSONL组织标题层级信息，manifest用于资料清单核对。"
+              ],
+              [
+                "表格CSV / JSON",
+                "选择按页面输出或完整资料包并启用表格导出后，可在支持范围与上限内提取有意义的HTML表格。布局表格被排除，请检查结果。"
+              ]
+            ]
+          }
+        },
+        "zh_TW": {
+          "title": "合併網頁資訊閱讀並準備AI分析資料 | Grab All Files",
+          "desc": "將網頁資訊收集為易讀的HTML，或匯出附來源的資料，手動交給外部AI進行摘要、比較與條件擷取。提供操作步驟及提問範例。",
+          "eyebrow": "收集資訊·閱讀·AI分析",
+          "h1": "收集網頁資訊閱讀，再將資料交給AI分析。",
+          "lead": "Free可儲存所選1頁，Pro可將多個頁面本文合併為一個易讀的HTML。匯出附來源的資料，準備向AI提出摘要、比較及條件擷取問題。資料準備在您的裝置上完成，分析由您選擇的外部AI服務進行。",
+          "best": [
+            "依據收集的原文比較公開保險商品的條件。",
+            "一起閱讀多份手冊並確認操作步驟。",
+            "整理公共制度資料中明示的要求與日期。"
+          ],
+          "steps": [
+            "開啟您有權存取的起始頁面並啟動頁面HTML結合。檢查候選清單，只選取需要的資料。",
+            "選擇圖片與連結文件設定。需要AI輸出時，請在收集前啟用「AI分析資料（附出處的Markdown）」。收集並儲存HTML，使用目錄與本文搜尋閱讀。",
+            "收集完成後使用「儲存AI分析ZIP」與「複製給AI的請求文」，檢查內容。如果AI服務需要個別檔案，請解壓縮ZIP。",
+            "手動將支援的檔案與問題交給外部AI，將回答與原文、來源及擷取時間核對。"
+          ],
+          "faq": [
+            {
+              "q": "擴充功能會自動分析或將資訊傳送給AI嗎？",
+              "a": "不會。收集及匯出均在您的裝置上完成。您儲存AI ZIP、複製請求文字，並自行選擇交給外部AI的檔案。請確認AI支援的格式及隱私設定。"
+            },
+            {
+              "q": "可使用哪些頁面與文件？",
+              "a": "僅限您有權存取的頁面。選取的連結文件中，支援的PDF、文字、CSV、Word、Excel等成功讀取的本文可加入AI輸出。並非所有文件或圖片都能讀取，請檢查失敗及遺漏。"
+            },
+            {
+              "q": "可以用Free試用嗎？",
+              "a": "Free尋找候選並只儲存選取的1頁為HTML。Pro可選擇並結合多個頁面本文。仍適用驗證、權限與安全上限。"
+            },
+            {
+              "q": "交給AI的檔案應採用什麼格式與大小？",
+              "a": "依服務而異。需要時請解壓縮ZIP，提供支援的檔案。預設25 MB是Markdown本文分割目標，不保證ZIP整體大小。也請確認AI的上傳限制。"
+            },
+            {
+              "q": "如何核對AI回答？",
+              "a": "透過AI輸出中的source_url與captured_at檢查原文及目前來源。收集資料中沒有記載，不代表條件或例外不存在。"
+            }
+          ],
+          "guide": {
+            "title": "收集的資訊可以這樣使用",
+            "modes": [
+              [
+                "閱讀與重新查閱",
+                "透過HTML目錄跳轉到所需段落，在收集的資料中搜尋詞語並重新閱讀。儲存的資料可以反覆查閱。"
+              ],
+              [
+                "使用外部AI分析",
+                "使用附來源的資料與請求文字，向外部AI提出摘要、比較或條件擷取問題。選擇所需檔案，改變問題，反覆使用同一批資料。"
+              ]
+            ],
+            "examplesTitle": "依據資料範圍提出具體問題",
+            "examples": [
+              [
+                "保險商品條件",
+                "請比較資料中明確記載的投保要求、除外及例外。每項附來源URL，缺少的資訊標為「提供資料中未記載」。"
+              ],
+              [
+                "手冊",
+                "請整理此操作的步驟與前提條件。對不同手冊的差異，引用相應原文及來源。"
+              ],
+              [
+                "公共制度",
+                "請將記載的對象要求、文件及期限整理為比較表，附來源URL與擷取時間。實際使用前確認最新官方頁面。"
+              ]
+            ],
+            "formatsTitle": "閱讀、AI輸入與來源核對的檔案格式",
+            "headers": [
+              "輸出",
+              "用法"
+            ],
+            "rows": [
+              [
+                "HTML",
+                "使用目錄與本文搜尋閱讀。連結文件保留為連結，文件本文不會合併至HTML。"
+              ],
+              [
+                "Markdown / JSONL / manifest",
+                "記錄source_url與captured_at。Markdown用於本文，JSONL組織標題單位資訊，manifest用於資料清單核對。"
+              ],
+              [
+                "表格CSV / JSON",
+                "選擇按頁面輸出或完整資料包並啟用表格匯出後，可在支援範圍與上限內擷取有意義的HTML表格。排版表格會被排除，請檢查結果。"
+              ]
+            ]
+          }
+        }
+      }
+    },
     "combine-web-pages-into-one-html": {
       path: "combine-web-pages-into-one-html.html",
       related: ["download-files-from-webpage", "internal-portal-downloads", "download-all-pdfs"],
@@ -828,6 +1718,25 @@
     }).join("");
   }
 
+  function renderResearchGuide(guide, section) {
+    if (!guide) return "";
+    if (section === "modes") {
+      return '<section class="section-card research-guide"><h2>' + esc(guide.title) + '</h2><div class="two-col">' +
+        guide.modes.map(function (mode) {
+          return '<article class="research-mode"><h3>' + esc(mode[0]) + '</h3><p>' + esc(mode[1]) + '</p></article>';
+        }).join('') + '</div></section>';
+    }
+    return '<section class="section-card research-guide"><h2>' + esc(guide.examplesTitle) + '</h2>' +
+      guide.examples.map(function (example) {
+        return '<article class="research-example"><h3>' + esc(example[0]) + '</h3><blockquote>' + esc(example[1]) + '</blockquote></article>';
+      }).join('') + '</section><section class="section-card research-guide"><details class="research-formats"><summary>' +
+      esc(guide.formatsTitle) + '</summary><div class="research-table-wrap"><table><thead><tr>' +
+      guide.headers.map(function (head) { return '<th scope="col">' + esc(head) + '</th>'; }).join('') +
+      '</tr></thead><tbody>' + guide.rows.map(function (row) {
+        return '<tr><th scope="row">' + esc(row[0]) + '</th><td>' + esc(row[1]) + '</td></tr>';
+      }).join('') + '</tbody></table></div></details></section>';
+  }
+
   function renderRelated(current, lang) {
     var labels = GUIDE_LABELS[lang] || GUIDE_LABELS.en;
     return GUIDE_ORDER.map(function (id) {
@@ -943,10 +1852,12 @@
         "</aside>",
       "</section>",
       "<div class=\"section-stack\">",
+        renderResearchGuide(copy.guide, "modes"),
         "<div class=\"two-col\">",
           "<section class=\"section-card\"><h2>" + esc(ui.bestFor) + "</h2><ul class=\"check-list\">" + renderList(copy.best, "check") + "</ul></section>",
           "<section class=\"section-card\"><h2>" + esc(ui.workflow) + "</h2><ol class=\"step-list\">" + renderList(copy.steps, "num") + "</ol></section>",
         "</div>",
+        renderResearchGuide(copy.guide, "details"),
         "<section class=\"section-card\"><h2>" + esc(ui.faq) + "</h2><div class=\"faq-list\">" + renderFaq(copy.faq) + "</div></section>",
         "<section class=\"section-card usecase-guide-section\"><h2>" + esc(ui.related) + "</h2><div class=\"usecase-guide-links\" aria-label=\"" + esc(ui.related) + "\">" + renderRelated(current, lang) + "</div></section>",
       "</div>",

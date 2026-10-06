@@ -66,8 +66,17 @@ Detailed guide: https://grab-all-files.app/use-cases/combine-web-pages-into-one-
 - Internal-portal and LMS users (Moodle, Canvas, Blackboard, corporate intranets) pulling attached documents.
 - Designers and students saving image galleries, dataset files, and CSV exports.
 
+## Reading collected information and preparing AI analysis
+
+Save and read collected page content in HTML with a table of contents and text search. Free saves one chosen candidate page; Pro combines multiple selected page bodies. For external AI analysis, save the AI ZIP, copy the request, review the material, and manually provide supported files to your chosen AI service. Extract the ZIP if the service needs individual files. The extension prepares material locally; it does not analyse content or send it to AI automatically.
+
+AI Markdown, heading-level JSONL and the manifest carry source_url and captured_at for source checking. Table CSV/JSON exports are optional and subject to extraction limits. Successfully read text from supported selected linked documents can be included in AI output; linked document text is not merged into the HTML. Images and complete retrieval are not guaranteed. The default 25 MB is a Markdown-text splitting target, not the total ZIP-size limit. Check answers against the source wording and current official material.
+
+Guide: https://grab-all-files.app/use-cases/web-pages-for-reading-and-ai-analysis.html
+
 ## Use-case landing pages
 
+- Collect web information to read and prepare external AI analysis: https://grab-all-files.app/use-cases/web-pages-for-reading-and-ai-analysis.html
 - Combine multiple web pages into one HTML file: https://grab-all-files.app/use-cases/combine-web-pages-into-one-html.html
 - Download all PDFs from a website: https://grab-all-files.app/use-cases/download-all-pdfs.html
 - Bulk download images from a web page: https://grab-all-files.app/use-cases/bulk-download-images.html

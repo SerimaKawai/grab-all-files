@@ -8,7 +8,7 @@ const base = 'https://grab-all-files.app';
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 const entries = [...sitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)];
 const urls = new Set(entries.map(m => m[1].match(/<loc>([^<]+)<\/loc>/)[1]));
-assert.equal(urls.size, 90);
+assert.equal(urls.size, 100);
 let links = 0;
 for (const entry of entries) {
   const url = entry[1].match(/<loc>([^<]+)<\/loc>/)[1];

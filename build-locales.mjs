@@ -43,6 +43,7 @@ const PAGES = [
   { src: 'index.html', rel: '' },
   { src: 'security.html', rel: 'security.html' },
   { src: 'use-cases/index.html', rel: 'use-cases/' },
+  { src: 'use-cases/web-pages-for-reading-and-ai-analysis.html', rel: 'use-cases/web-pages-for-reading-and-ai-analysis.html' },
   { src: 'use-cases/combine-web-pages-into-one-html.html', rel: 'use-cases/combine-web-pages-into-one-html.html' },
   { src: 'use-cases/bulk-download-images.html', rel: 'use-cases/bulk-download-images.html' },
   { src: 'use-cases/download-all-pdfs.html', rel: 'use-cases/download-all-pdfs.html' },
@@ -55,6 +56,7 @@ const PAGES = [
 // NOTE: use-case.js and use-cases/style.css are SHARED (not per-locale) and stay at /use-cases/.
 const LOCALIZED = new Set([
   '/', '/security.html', '/use-cases/',
+  '/use-cases/web-pages-for-reading-and-ai-analysis.html',
   '/use-cases/combine-web-pages-into-one-html.html',
   '/use-cases/bulk-download-images.html', '/use-cases/download-all-pdfs.html',
   '/use-cases/download-files-from-webpage.html', '/use-cases/internal-portal-downloads.html',
@@ -216,8 +218,8 @@ function bakeSecurity(html, data, L) {
 // with an "already present?" check is what let it accumulate once (the probe
 // string was case-sensitive and never matched getElementById); removing first is
 // unconditional and keeps the build idempotent.
-const LANG_NAV_RE = /\n?<script>\(function\(\)\{var s=document\.getElementById\('lang-sel'\);[\s\S]*?<\/script>/g;
-const FORCE_LANG_RE = /\n?[ \t]*<script>window\.__FORCE_LANG__="[^"]+";<\/script>/g;
+const LANG_NAV_RE = /(?:\r*\n)?<script>\(function\(\)\{var s=document\.getElementById\('lang-sel'\);[\s\S]*?<\/script>\r*(?=\n|$)/g;
+const FORCE_LANG_RE = /(?:\r*\n)?[ \t]*<script>window\.__FORCE_LANG__="[^"]+";<\/script>\r*(?=\n|$)/g;
 const localeNavScript = (rel) => `<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R=${JSON.stringify(rel)};var q=new URLSearchParams(location.search||'');var requested=q.get('lang');if(${JSON.stringify(ALL)}.indexOf(requested)>=0){q.delete('lang');var destination=(requested==='en'?'/':'/'+requested+'/')+R;var query=q.toString();if(destination!==location.pathname){location.replace(destination+(query?'?'+query:'')+location.hash);return;}}s.addEventListener('change',function(e){e.stopImmediatePropagation();var c=e.target.value;try{localStorage.setItem('gaf-lang',c);}catch(_){}location.href=(c==='en'?'/':'/'+c+'/')+R+location.hash;},true);})();</script>`;
 
 function bakeHub(html, lang, tables, cases) {
@@ -454,10 +456,16 @@ const now = new Date();
 const TODAY = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 const lastmodFor = new Map();
 
-function writeIfChanged(dest, content) {
+function writeIfChanged(dest, content, { repairLineEndings = false } = {}) {
+  // Older CRLF templates could leave orphaned CRs when generated scripts were
+  // removed and reinserted. Clean generated output while preserving existing
+  // pages whose only difference is their historical line-ending format.
+  content = content.replace(/\r{2,}(?=\n)/g, '\r');
   let old = null;
   try { old = fs.readFileSync(dest, 'utf8'); } catch (_) { /* new file */ }
   if (old === content) return false;
+  if (!repairLineEndings && old !== null &&
+      old.replace(/\r+(?=\n)/g, '') === content.replace(/\r+(?=\n)/g, '')) return false;
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   fs.writeFileSync(dest, content);
   return true;
@@ -468,6 +476,7 @@ for (const page of PAGES) {
   const srcPath = path.join(ROOT, page.src);
   const srcHtml = fs.readFileSync(srcPath, 'utf8');
   const caseId = CASE_ID_BY_SRC[page.src];
+  const repairLineEndings = page.src === 'use-cases/web-pages-for-reading-and-ai-analysis.html';
   for (const L of LOCALES) {
     let base = srcHtml;
     if (caseId) { base = bakeCase(base, prerendered[caseId][L], L, tables.UI[L]); bakedCount++; }
@@ -476,7 +485,7 @@ for (const page of PAGES) {
     let out = genLocale(base, page, L);
     if (page.rel === '') out = localizeIndexMeta(out, L, META);
     const dest = path.join(ROOT, L, page.src);
-    const changed = writeIfChanged(dest, out);
+    const changed = writeIfChanged(dest, out, { repairLineEndings });
     const u = url(L, page.rel);
     lastmodFor.set(u, changed ? TODAY : (PREV.get(u) || TODAY));
     if (changed) changedCount++;
@@ -500,7 +509,7 @@ for (const page of PAGES) {
     en = en.replace(/<head>/, () => '<head>\n  <script>window.__FORCE_LANG__="en";</script>');
     en = en.replace(/<\/body>/, () => localeNavScript(page.rel) + '\n</body>');
   }
-  const enChanged = writeIfChanged(srcPath, en);
+  const enChanged = writeIfChanged(srcPath, en, { repairLineEndings });
   const enUrl = url('en', page.rel);
   lastmodFor.set(enUrl, enChanged ? TODAY : (PREV.get(enUrl) || TODAY));
   if (enChanged) changedCount++;
