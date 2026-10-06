@@ -43,6 +43,7 @@ const PAGES = [
   { src: 'index.html', rel: '' },
   { src: 'security.html', rel: 'security.html' },
   { src: 'use-cases/index.html', rel: 'use-cases/' },
+  { src: 'use-cases/save-online-manuals-and-knowledge-pages.html', rel: 'use-cases/save-online-manuals-and-knowledge-pages.html' },
   { src: 'use-cases/web-pages-for-reading-and-ai-analysis.html', rel: 'use-cases/web-pages-for-reading-and-ai-analysis.html' },
   { src: 'use-cases/combine-web-pages-into-one-html.html', rel: 'use-cases/combine-web-pages-into-one-html.html' },
   { src: 'use-cases/bulk-download-images.html', rel: 'use-cases/bulk-download-images.html' },
@@ -56,6 +57,7 @@ const PAGES = [
 // NOTE: use-case.js and use-cases/style.css are SHARED (not per-locale) and stay at /use-cases/.
 const LOCALIZED = new Set([
   '/', '/security.html', '/use-cases/',
+  '/use-cases/save-online-manuals-and-knowledge-pages.html',
   '/use-cases/web-pages-for-reading-and-ai-analysis.html',
   '/use-cases/combine-web-pages-into-one-html.html',
   '/use-cases/bulk-download-images.html', '/use-cases/download-all-pdfs.html',
@@ -460,9 +462,27 @@ function writeIfChanged(dest, content, { repairLineEndings = false } = {}) {
   // Older CRLF templates could leave orphaned CRs when generated scripts were
   // removed and reinserted. Clean generated output while preserving existing
   // pages whose only difference is their historical line-ending format.
-  content = content.replace(/\r{2,}(?=\n)/g, '\r');
   let old = null;
   try { old = fs.readFileSync(dest, 'utf8'); } catch (_) { /* new file */ }
+  if (old === null || repairLineEndings) {
+    content = content.replace(/\r{2,}(?=\n)/g, '\r');
+  } else {
+    // A meaningful edit elsewhere must not also rewrite an old template's
+    // unchanged script lines. Keep their historical endings until that page
+    // is explicitly selected for repair; new pages always get clean output.
+    const oldLines = old.split('\n');
+    const keys = new Set(oldLines.filter((line) => /\r{2,}$/.test(line)).map((line) => line.replace(/\r+$/, '')));
+    const historical = new Map([...keys].map((key) => [key, []]));
+    for (const line of oldLines) {
+      const text = line.replace(/\r+$/, '');
+      if (historical.has(text)) historical.get(text).push((line.match(/\r*$/) || [''])[0]);
+    }
+    content = content.split('\n').map((line) => {
+      const text = line.replace(/\r+$/, '');
+      const endings = historical.get(text);
+      return endings && endings.length ? text + endings.shift() : line;
+    }).join('\n');
+  }
   if (old === content) return false;
   if (!repairLineEndings && old !== null &&
       old.replace(/\r+(?=\n)/g, '') === content.replace(/\r+(?=\n)/g, '')) return false;
@@ -476,7 +496,10 @@ for (const page of PAGES) {
   const srcPath = path.join(ROOT, page.src);
   const srcHtml = fs.readFileSync(srcPath, 'utf8');
   const caseId = CASE_ID_BY_SRC[page.src];
-  const repairLineEndings = page.src === 'use-cases/web-pages-for-reading-and-ai-analysis.html';
+  const repairLineEndings = [
+    'use-cases/web-pages-for-reading-and-ai-analysis.html',
+    'use-cases/save-online-manuals-and-knowledge-pages.html',
+  ].includes(page.src);
   for (const L of LOCALES) {
     let base = srcHtml;
     if (caseId) { base = bakeCase(base, prerendered[caseId][L], L, tables.UI[L]); bakedCount++; }

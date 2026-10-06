@@ -335,6 +335,7 @@
   }
 
   var GUIDE_ORDER = [
+    "save-online-manuals-and-knowledge-pages",
     "web-pages-for-reading-and-ai-analysis",
     "combine-web-pages-into-one-html",
     "download-all-pdfs",
@@ -346,6 +347,7 @@
 
   var GUIDE_LABELS = {
     en: {
+      "save-online-manuals-and-knowledge-pages": "Save manuals & knowledge pages",
       "web-pages-for-reading-and-ai-analysis": "Collect, read & analyse with AI",
       "combine-web-pages-into-one-html": "Combine pages into HTML",
       "download-all-pdfs": "Download all PDFs",
@@ -355,6 +357,7 @@
       "merge-pdfs-locally": "Merge PDFs locally"
     },
     ja: {
+      "save-online-manuals-and-knowledge-pages": "業務マニュアル・ナレッジを保存",
       "web-pages-for-reading-and-ai-analysis": "集めて読む・AIで分析する",
       "combine-web-pages-into-one-html": "ページをHTMLにまとめる",
       "download-all-pdfs": "PDFを一括ダウンロード",
@@ -364,6 +367,7 @@
       "merge-pdfs-locally": "PDFをローカル結合"
     },
     es: {
+      "save-online-manuals-and-knowledge-pages": "Guardar manuales y conocimiento",
       "web-pages-for-reading-and-ai-analysis": "Recopilar, leer y analizar con IA",
       "combine-web-pages-into-one-html": "Combinar páginas en HTML",
       "download-all-pdfs": "Descargar todos los PDF",
@@ -373,6 +377,7 @@
       "merge-pdfs-locally": "Fusionar PDF localmente"
     },
     fr: {
+      "save-online-manuals-and-knowledge-pages": "Enregistrer manuels et connaissances",
       "web-pages-for-reading-and-ai-analysis": "Collecter, lire et analyser avec l’IA",
       "combine-web-pages-into-one-html": "Regrouper les pages en HTML",
       "download-all-pdfs": "Télécharger tous les PDF",
@@ -382,6 +387,7 @@
       "merge-pdfs-locally": "Fusionner PDF localement"
     },
     de: {
+      "save-online-manuals-and-knowledge-pages": "Handbücher und Wissensseiten sichern",
       "web-pages-for-reading-and-ai-analysis": "Sammeln, lesen und mit KI analysieren",
       "combine-web-pages-into-one-html": "Seiten als HTML bündeln",
       "download-all-pdfs": "Alle PDFs herunterladen",
@@ -391,6 +397,7 @@
       "merge-pdfs-locally": "PDFs lokal zusammenführen"
     },
     it: {
+      "save-online-manuals-and-knowledge-pages": "Salvare manuali e pagine di conoscenza",
       "web-pages-for-reading-and-ai-analysis": "Raccogliere, leggere e analizzare con IA",
       "combine-web-pages-into-one-html": "Unisci pagine in HTML",
       "download-all-pdfs": "Scaricare tutti i PDF",
@@ -400,6 +407,7 @@
       "merge-pdfs-locally": "Unire PDF localmente"
     },
     ko: {
+      "save-online-manuals-and-knowledge-pages": "업무 매뉴얼·지식 페이지 저장",
       "web-pages-for-reading-and-ai-analysis": "정보 수집·읽기·AI 분석",
       "combine-web-pages-into-one-html": "페이지를 HTML로 합치기",
       "download-all-pdfs": "모든 PDF 다운로드",
@@ -409,6 +417,7 @@
       "merge-pdfs-locally": "PDF 로컬 병합"
     },
     pt_BR: {
+      "save-online-manuals-and-knowledge-pages": "Salvar manuais e conhecimento",
       "web-pages-for-reading-and-ai-analysis": "Coletar, ler e analisar com IA",
       "combine-web-pages-into-one-html": "Juntar páginas em HTML",
       "download-all-pdfs": "Baixar todos os PDFs",
@@ -418,6 +427,7 @@
       "merge-pdfs-locally": "Mesclar PDFs localmente"
     },
     zh_CN: {
+      "save-online-manuals-and-knowledge-pages": "保存业务手册与知识文章",
       "web-pages-for-reading-and-ai-analysis": "收集信息·阅读·AI分析",
       "combine-web-pages-into-one-html": "将网页合并为 HTML",
       "download-all-pdfs": "下载所有PDF",
@@ -427,6 +437,7 @@
       "merge-pdfs-locally": "本地合并PDF"
     },
     zh_TW: {
+      "save-online-manuals-and-knowledge-pages": "儲存業務手冊與知識文章",
       "web-pages-for-reading-and-ai-analysis": "收集資訊·閱讀·AI分析",
       "combine-web-pages-into-one-html": "將網頁合併為 HTML",
       "download-all-pdfs": "下載所有PDF",
@@ -438,6 +449,966 @@
   };
 
   var CASES = {
+    "save-online-manuals-and-knowledge-pages": {
+      "path": "save-online-manuals-and-knowledge-pages.html",
+      "related": [
+        "web-pages-for-reading-and-ai-analysis",
+        "internal-portal-downloads",
+        "combine-web-pages-into-one-html"
+      ],
+      "copy": {
+        "en": {
+          "title": "Save work manuals & knowledge pages together | Grab All Files",
+          "desc": "Save permitted online manuals and knowledge articles as a readable reference. Organise chapter HTML, embedded PDFs and menu-based articles, then prepare AI questions.",
+          "eyebrow": "Save manuals & knowledge pages",
+          "h1": "Turn work manuals and knowledge pages into a useful reference.",
+          "lead": "Keep the chapters and articles you need together, find a procedure with the table of contents or text search, and keep original PDFs beside their explanation pages. Use material you are permitted to view and save. Free saves one selected page; Pro combines multiple page bodies.",
+          "best": [
+            "Read application procedures, required-document guidance and operating instructions together.",
+            "Organise the explanatory page and original PDF as related materials.",
+            "Prepare selected source material for asking an external AI tool about steps or conditions."
+          ],
+          "steps": [
+            "Open a page you are permitted to view and save using your normal browser session. Then open “Combine pages into HTML” in the extension.",
+            "Review the candidates against the source menu. Select needed chapters or articles; with Pro, remove extras and arrange their order.",
+            "Choose image and linked-document settings, collect and save the HTML. For an embedded PDF, confirm an accessible file URL or download link in the file downloader and save the PDF itself separately.",
+            "Open the saved HTML and use its contents and search. Compare saved headings and reported results with the source; check any missing or failed material.",
+            "Keep the HTML and PDFs together. Note original URLs, the date you checked and any stated revision in your own reference notes. If using AI, prepare an export and manually pass supported files and your question to your chosen service."
+          ],
+          "faq": [
+            {
+              "q": "What if a chapter or article is missing?",
+              "a": "Compare the candidate list with the original menu and add needed URLs where appropriate. After saving, compare the headings and collection results with the originals. This lets you review what was saved without assuming every menu item was found."
+            },
+            {
+              "q": "How do I save an embedded PDF with its explanation?",
+              "a": "Check the actual PDF URL or download link in the file downloader, then save the obtainable PDF as a separate file. Collect the explanation as HTML and manage both together; the PDF text is not merged into the HTML body."
+            },
+            {
+              "q": "Can I try one page with Free?",
+              "a": "Yes. Free discovers candidates and saves one chosen page as HTML. Pro lets you select, reorder and combine multiple page bodies. Existing authentication, permission and safety limits apply."
+            },
+            {
+              "q": "How do I identify the source and revision?",
+              "a": "Check the original page’s revision label and record it in your own title or notes, along with its URL and the date checked. The HTML’s overall capture date and AI output’s page-level source URLs and capture dates can help with checking; a manual’s revision needs your confirmation."
+            },
+            {
+              "q": "Can I ask AI to extract procedures or conditions?",
+              "a": "Enable AI output before collection, then save the AI ZIP and copy the request after collection. Choose appropriate files and manually give them to your external AI service, extracting the ZIP if needed. Check its answer against the supplied source wording."
+            }
+          ],
+          "manual": {
+            "patternsTitle": "Three formats, three useful collection approaches",
+            "patterns": [
+              [
+                "Chapter-based HTML",
+                [
+                  "Guide",
+                  "Preparation",
+                  "Procedure"
+                ],
+                "Select the chapters you need and arrange them as a readable HTML reference. Its table of contents and search help you return to the relevant section."
+              ],
+              [
+                "Embedded PDF",
+                [
+                  "Explanation page",
+                  "Original PDF",
+                  "Reference note"
+                ],
+                "Check whether the PDF file URL or download link can be obtained. Save the PDF itself with the file downloader and keep it alongside the explanatory HTML."
+              ],
+              [
+                "Articles in a menu hierarchy",
+                [
+                  "Topic menu",
+                  "Article A",
+                  "Article B"
+                ],
+                "Review discovered candidates against the menu, choose relevant articles and adjust their order. Check the saved result against the original articles."
+              ]
+            ],
+            "organizeTitle": "Keep the material easy to check later",
+            "headers": [
+              "Material",
+              "How to keep it"
+            ],
+            "rows": [
+              [
+                "HTML reference",
+                "Read the collected page bodies with contents and search. Check the sections you actually saved."
+              ],
+              [
+                "Original PDFs",
+                "Keep them as separate files beside the explanatory HTML. Document links in HTML do not merge the PDF text into the page body."
+              ],
+              [
+                "Reference notes",
+                "Record source URLs, the date checked and the revision stated in the manual. Note when the revision is not stated."
+              ]
+            ],
+            "promptTitle": "Ask about the wording you collected",
+            "prompt": "Using only this material, list the procedure, prerequisites and required documents. Cite the supporting passages and source URLs. Mark missing information as ‘not stated in the supplied material’ instead of guessing.",
+            "aiLink": "See how to prepare files and questions for external AI analysis"
+          }
+        },
+        "ja": {
+          "title": "業務マニュアル・ナレッジをまとめて保存 | Grab All Files",
+          "desc": "閲覧・保存が許可された業務マニュアルやナレッジを資料集に。章別HTML・埋め込みPDF・階層メニューの記事を整理し、読み返す手順と外部AIへの依頼例を紹介します。",
+          "eyebrow": "業務マニュアル・ナレッジを保存",
+          "h1": "業務マニュアルを、読み返せる資料集に。",
+          "lead": "必要な章や記事をまとめて読み、目次や本文検索から手順を探す。説明ページとPDF本体を併せて管理する。閲覧・保存が許可された資料を、繰り返し参照できる形に整理できます。無料版は選んだ1ページ、Proは複数ページの本文をまとめられます。",
+          "best": [
+            "申請手順・必要書類の案内・操作マニュアルをまとめて読み返す。",
+            "説明ページとPDF本体を関連する資料として整理する。",
+            "原文を選び、外部AIへ手順や条件の抽出を依頼する準備に使う。"
+          ],
+          "steps": [
+            "閲覧・保存が許可された起点ページを、通常のブラウザのログイン状態で開きます。続けて、拡張機能の「ページをHTMLにまとめる」を開きます。",
+            "候補一覧を元のメニューと見比べ、必要な章や記事を選びます。Proでは不要な候補を外し、読む順番に並べ替えます。",
+            "画像・リンク文書の設定を選んで収集し、HTMLを保存します。埋め込みPDFはファイル一括保存側でPDF本体URLやダウンロードリンクを確認し、取得できるPDF本体を別途保存します。",
+            "保存したHTMLを開き、目次と検索で読み返します。保存された見出しや結果を原文と照合し、不足や取得失敗を確認します。",
+            "HTMLとPDFを併せて管理し、元URL・確認日・表記されている版を資料メモに控えます。AIを使う場合は資料を書き出し、対応ファイルと質問を選んだ外部AIへ自分で渡します。"
+          ],
+          "faq": [
+            {
+              "q": "必要な章や記事が候補にない場合は？",
+              "a": "候補一覧を元のメニューと見比べ、必要に応じてURLを追加します。保存後も見出しや収集結果を原文と照合すると、実際に保存された資料を確認できます。すべてのメニュー項目が見つかったと決めつけず、必要な範囲を見比べます。"
+            },
+            {
+              "q": "埋め込みPDFと説明文を一緒に保存するには？",
+              "a": "ファイル一括保存側でPDF本体URLやダウンロードリンクを確認し、取得できるPDFを別ファイルで保存します。説明はHTMLとして収集し、両方を併せて管理します。PDF本文はHTML本文へ統合されません。"
+            },
+            {
+              "q": "無料版で1ページから試せますか？",
+              "a": "はい。無料版は候補を探索し、選んだ1ページをHTML保存できます。Proでは複数ページ本文を選び、並べ替えて結合できます。認証・権限・安全上限は適用されます。"
+            },
+            {
+              "q": "出典やマニュアルの版はどう確認しますか？",
+              "a": "元ページの改訂日や版の表記を確認し、元URL・確認日とともに資料のタイトルやメモへ控えます。HTML全体の取得日やAI出力のページ別URL・取得日も照合に使えますが、マニュアルの版は利用者が確認します。"
+            },
+            {
+              "q": "AIへ手順や条件の抽出を依頼できますか？",
+              "a": "収集前にAI向け出力を有効にし、収集後にAI ZIPを保存して依頼文をコピーします。使う資料を選び、必要ならZIPを展開して対応ファイルを外部AIへ自分で渡します。回答は提供した原文と照合してください。"
+            }
+          ],
+          "manual": {
+            "patternsTitle": "3つの資料形式に合わせて保存する",
+            "patterns": [
+              [
+                "章別HTMLの手引き",
+                [
+                  "手引き",
+                  "準備",
+                  "手順"
+                ],
+                "必要な章を選び、読む順番に並べてHTMLの資料集に。目次と本文検索から、確認したい箇所へ戻れます。"
+              ],
+              [
+                "埋め込みPDF",
+                [
+                  "説明ページ",
+                  "PDF本体",
+                  "資料メモ"
+                ],
+                "PDF本体のURLやダウンロードリンクが取得できるか確認します。PDFはファイル一括保存側で保存し、説明ページのHTMLと併せて管理します。"
+              ],
+              [
+                "階層メニューのナレッジ",
+                [
+                  "分野メニュー",
+                  "記事A",
+                  "記事B"
+                ],
+                "見つかった候補を元のメニューと照合して必要な記事を選び、順番を調整。保存結果を元の記事と見比べて確認します。"
+              ]
+            ],
+            "organizeTitle": "あとで確認しやすい資料として管理する",
+            "headers": [
+              "資料",
+              "管理のしかた"
+            ],
+            "rows": [
+              [
+                "HTMLの資料集",
+                "取得したページ本文を、目次と検索で読み返します。必要な章が実際に保存されたか確認します。"
+              ],
+              [
+                "PDF本体",
+                "説明ページのHTMLと同じ資料一式として、別ファイルで保管します。HTMLの文書リンクは、PDF本文をページ本文に統合するものではありません。"
+              ],
+              [
+                "資料メモ",
+                "元URL・確認日・マニュアルに表記された版を控えます。版の記載が確認できない場合も、その旨を記録します。"
+              ]
+            ],
+            "promptTitle": "集めた原文の範囲で質問する",
+            "prompt": "この資料に書かれた手順・前提条件・必要書類を整理してください。根拠となる原文と出典URLを付け、見当たらない内容は推測せず「提供資料に記載なし」としてください。",
+            "aiLink": "外部AIへ渡す資料と質問の準備を詳しく見る"
+          }
+        },
+        "es": {
+          "title": "Guardar manuales y páginas de conocimiento | Grab All Files",
+          "desc": "Guarda manuales y artículos permitidos como referencia legible. Organiza capítulos HTML, PDF incrustados y artículos de menús, y prepara preguntas para IA.",
+          "eyebrow": "Guardar manuales y conocimiento",
+          "h1": "Reúne manuales y artículos de conocimiento para consultarlos.",
+          "lead": "Lee juntos los capítulos útiles, encuentra procedimientos con índice y búsqueda y conserva los PDF originales junto a sus explicaciones. Usa material que puedas ver y guardar. Free guarda una página elegida; Pro combina varias.",
+          "best": [
+            "Consultar procedimientos de solicitud, documentos necesarios e instrucciones de uso.",
+            "Organizar la explicación y el PDF original como materiales relacionados.",
+            "Preparar fuentes seleccionadas para consultar pasos o condiciones con una IA externa."
+          ],
+          "steps": [
+            "Abre una página que puedas ver y guardar con tu sesión normal del navegador. Después abre «Combinar páginas en HTML» en la extensión.",
+            "Compara candidatas con el menú original y elige capítulos o artículos. Con Pro, elimina extras y ordena las páginas.",
+            "Configura imágenes y documentos, recopila y guarda HTML. Para un PDF incrustado, verifica una URL o enlace de descarga accesible en el descargador y guarda el PDF aparte.",
+            "Abre el HTML y usa índice y búsqueda. Compara los encabezados y resultados con las fuentes y revisa faltas o errores.",
+            "Mantén HTML y PDF juntos. Anota URL originales, fecha de revisión y versión declarada. Para IA, exporta y entrega manualmente archivos aceptados y tu pregunta al servicio elegido."
+          ],
+          "faq": [
+            {
+              "q": "¿Qué hago si falta un capítulo o artículo?",
+              "a": "Compara candidatas con el menú y añade las URL necesarias cuando corresponda. Tras guardar, compara encabezados y resultados con los originales para revisar lo obtenido sin asumir que se encontró todo."
+            },
+            {
+              "q": "¿Cómo guardo un PDF incrustado y su explicación?",
+              "a": "Comprueba la URL o enlace del PDF en el descargador y guarda el archivo accesible por separado. Recopila la explicación en HTML y conserva ambos juntos; el texto PDF no se integra en el HTML."
+            },
+            {
+              "q": "¿Puedo probar una página gratis?",
+              "a": "Sí. Free encuentra candidatas y guarda una página elegida en HTML. Pro permite seleccionar, ordenar y combinar varias. Se mantienen autenticación, permisos y límites de seguridad."
+            },
+            {
+              "q": "¿Cómo identifico la fuente y versión?",
+              "a": "Comprueba la versión indicada en la fuente y anótala junto con URL y fecha revisada. La fecha general del HTML y las URL y fechas por página de la salida IA ayudan a contrastar; debes confirmar la versión del manual."
+            },
+            {
+              "q": "¿Puedo pedir a IA pasos o condiciones?",
+              "a": "Activa la salida IA antes de recopilar y luego guarda el ZIP y copia la solicitud. Elige los archivos y entrégalos manualmente a tu IA externa, descomprimiendo el ZIP si hace falta. Verifica la respuesta con las fuentes."
+            }
+          ],
+          "manual": {
+            "patternsTitle": "Tres formatos y formas de organizarlos",
+            "patterns": [
+              [
+                "Guía HTML por capítulos",
+                [
+                  "Guía",
+                  "Preparación",
+                  "Procedimiento"
+                ],
+                "Selecciona capítulos y ordénalos en una referencia HTML. El índice y la búsqueda ayudan a volver a la sección necesaria."
+              ],
+              [
+                "PDF incrustado",
+                [
+                  "Explicación",
+                  "PDF original",
+                  "Notas"
+                ],
+                "Comprueba si puedes obtener la URL o el enlace del PDF. Guárdalo con el descargador de archivos y conserva el HTML explicativo a su lado."
+              ],
+              [
+                "Artículos en menús jerárquicos",
+                [
+                  "Menú de temas",
+                  "Artículo A",
+                  "Artículo B"
+                ],
+                "Contrasta candidatas con el menú, elige artículos y ordénalos. Comprueba el resultado guardado con los originales."
+              ]
+            ],
+            "organizeTitle": "Organiza el material para comprobarlo después",
+            "headers": [
+              "Material",
+              "Cómo conservarlo"
+            ],
+            "rows": [
+              [
+                "Referencia HTML",
+                "Lee los textos recopilados con índice y búsqueda. Comprueba qué secciones guardaste."
+              ],
+              [
+                "PDF originales",
+                "Guárdalos como archivos separados junto al HTML. Los enlaces del HTML no integran el texto del PDF en la página."
+              ],
+              [
+                "Notas de referencia",
+                "Anota URL, fecha de revisión y versión declarada. Indica cuando no se menciona una versión."
+              ]
+            ],
+            "promptTitle": "Pregunta sobre el texto recopilado",
+            "prompt": "Usando solo este material, enumera el procedimiento, requisitos previos y documentos necesarios. Cita los pasajes y URL fuente. Marca lo ausente como «no indicado en el material proporcionado», sin suponerlo.",
+            "aiLink": "Cómo preparar archivos y preguntas para una IA externa"
+          }
+        },
+        "fr": {
+          "title": "Enregistrer manuels et pages de connaissances | Grab All Files",
+          "desc": "Conservez les manuels et articles autorisés en référence lisible. Organisez chapitres HTML, PDF intégrés et articles de menus, puis préparez vos questions pour l’IA.",
+          "eyebrow": "Enregistrer manuels et connaissances",
+          "h1": "Réunir manuels et articles dans une référence facile à consulter.",
+          "lead": "Lisez les chapitres utiles ensemble, retrouvez une procédure avec sommaire et recherche, et gardez les PDF avec leurs explications. Utilisez les documents que vous pouvez consulter et enregistrer. Free garde une page ; Pro en combine plusieurs.",
+          "best": [
+            "Relire démarches, pièces nécessaires et modes d’emploi ensemble.",
+            "Organiser la page explicative et le PDF original comme documents associés.",
+            "Préparer les sources choisies pour interroger une IA externe sur étapes ou conditions."
+          ],
+          "steps": [
+            "Ouvrez une page que vous êtes autorisé à consulter et enregistrer avec votre session habituelle. Ouvrez ensuite «Regrouper les pages en HTML» dans l’extension.",
+            "Comparez les candidates au menu original et choisissez les chapitres ou articles. Avec Pro, retirez les éléments inutiles et réordonnez-les.",
+            "Réglez images et documents, collectez puis enregistrez le HTML. Pour un PDF intégré, vérifiez son URL ou lien de téléchargement accessible dans l’outil fichiers et enregistrez-le séparément.",
+            "Ouvrez le HTML et utilisez sommaire et recherche. Comparez titres et résultats aux sources, puis vérifiez manques ou échecs.",
+            "Gardez HTML et PDF ensemble. Notez URL sources, date de vérification et révision affichée. Pour l’IA, exportez et transmettez vous-même les fichiers acceptés et votre question au service choisi."
+          ],
+          "faq": [
+            {
+              "q": "Que faire si un chapitre ou article manque ?",
+              "a": "Comparez les candidates au menu et ajoutez les URL nécessaires si possible. Après enregistrement, confrontez titres et résultats aux sources pour vérifier les documents obtenus sans supposer que tout a été trouvé."
+            },
+            {
+              "q": "Comment garder un PDF intégré et son explication ?",
+              "a": "Vérifiez l’URL ou lien PDF dans l’outil fichiers et enregistrez le fichier accessible séparément. Collectez l’explication en HTML et gérez les deux ensemble ; le texte PDF n’est pas fusionné dans le HTML."
+            },
+            {
+              "q": "Puis-je essayer une page gratuitement ?",
+              "a": "Oui. Free trouve les candidates et enregistre une page choisie en HTML. Pro sélectionne, réordonne et combine plusieurs pages. Authentification, permissions et limites de sécurité s’appliquent."
+            },
+            {
+              "q": "Comment identifier source et révision ?",
+              "a": "Vérifiez la révision affichée et notez-la avec URL et date de vérification. La date générale du HTML et les URL et dates par page de l’export IA aident à comparer ; la révision du manuel reste à confirmer."
+            },
+            {
+              "q": "Puis-je demander des étapes ou conditions à l’IA ?",
+              "a": "Activez l’export IA avant collecte, puis enregistrez le ZIP et copiez la demande. Choisissez les fichiers et transmettez-les vous-même à votre IA externe, après décompression si nécessaire. Vérifiez la réponse dans les sources."
+            }
+          ],
+          "manual": {
+            "patternsTitle": "Trois formats et leurs usages",
+            "patterns": [
+              [
+                "Guide HTML par chapitres",
+                [
+                  "Guide",
+                  "Préparation",
+                  "Procédure"
+                ],
+                "Choisissez les chapitres et ordonnez-les dans une référence HTML. Sommaire et recherche facilitent les consultations ultérieures."
+              ],
+              [
+                "PDF intégré",
+                [
+                  "Explication",
+                  "PDF original",
+                  "Notes"
+                ],
+                "Vérifiez si l’URL ou le lien du PDF est accessible. Enregistrez le PDF avec l’outil fichiers et conservez-le avec l’explication HTML."
+              ],
+              [
+                "Articles dans un menu hiérarchique",
+                [
+                  "Menu des thèmes",
+                  "Article A",
+                  "Article B"
+                ],
+                "Comparez les candidates au menu, choisissez les articles et ordonnez-les. Vérifiez les contenus enregistrés face aux originaux."
+              ]
+            ],
+            "organizeTitle": "Conserver des documents faciles à vérifier",
+            "headers": [
+              "Document",
+              "Organisation"
+            ],
+            "rows": [
+              [
+                "Référence HTML",
+                "Lisez les textes collectés avec sommaire et recherche. Vérifiez les sections effectivement enregistrées."
+              ],
+              [
+                "PDF originaux",
+                "Conservez-les en fichiers séparés avec le HTML. Les liens documentaires ne fusionnent pas le texte PDF dans la page."
+              ],
+              [
+                "Notes de référence",
+                "Notez URL, date de vérification et révision indiquée. Précisez si aucune révision n’est mentionnée."
+              ]
+            ],
+            "promptTitle": "Interroger le texte collecté",
+            "prompt": "À partir de ces documents uniquement, listez procédure, prérequis et pièces nécessaires. Citez les passages et URL sources. Indiquez «non précisé dans les documents fournis» pour les informations manquantes, sans les déduire.",
+            "aiLink": "Préparer des fichiers et questions pour une IA externe"
+          }
+        },
+        "de": {
+          "title": "Handbücher und Wissensseiten zusammen speichern | Grab All Files",
+          "desc": "Erlaubte Online-Handbücher und Wissensartikel als Referenz sichern. HTML-Kapitel, eingebettete PDFs und Menüartikel ordnen und Fragen für externe KI vorbereiten.",
+          "eyebrow": "Handbücher und Wissensseiten sichern",
+          "h1": "Handbücher und Wissensartikel als gut nutzbare Referenz sammeln.",
+          "lead": "Lesen Sie benötigte Kapitel zusammen, finden Sie Abläufe mit Inhaltsverzeichnis und Suche und bewahren Sie PDFs neben Erklärungen auf. Nutzen Sie Material mit erlaubtem Lese- und Speicherzugriff. Free speichert eine Seite, Pro kombiniert mehrere.",
+          "best": [
+            "Antragsabläufe, erforderliche Unterlagen und Bedienungsanleitungen gemeinsam nachlesen.",
+            "Erklärseite und Original-PDF als zusammengehörige Materialien ordnen.",
+            "Ausgewählte Quellen für Fragen zu Schritten oder Bedingungen an externe KI vorbereiten."
+          ],
+          "steps": [
+            "Öffnen Sie eine Seite mit erlaubtem Lese- und Speicherzugriff in Ihrer üblichen Browsersitzung. Öffnen Sie anschließend „Seiten als HTML bündeln“ in der Erweiterung.",
+            "Vergleichen Sie Kandidaten mit dem Quellmenü und wählen Sie Kapitel oder Artikel. Mit Pro entfernen Sie Extras und ändern die Reihenfolge.",
+            "Wählen Sie Bild- und Dokumentoptionen, sammeln und speichern Sie HTML. Prüfen Sie für eingebettete PDFs die erreichbare Datei-URL oder den Downloadlink im Dateiwerkzeug und speichern Sie das PDF separat.",
+            "Öffnen Sie HTML mit Verzeichnis und Suche. Vergleichen Sie Überschriften und Ergebnisse mit den Quellen und prüfen Sie Lücken oder Fehler.",
+            "Bewahren Sie HTML und PDFs zusammen auf. Notieren Sie Quell-URLs, Prüfdatum und angegebene Revision. Für KI exportieren Sie und übergeben passende Dateien und Fragen selbst an den gewählten Dienst."
+          ],
+          "faq": [
+            {
+              "q": "Was tun bei fehlenden Kapiteln oder Artikeln?",
+              "a": "Vergleichen Sie Kandidaten mit dem Menü und ergänzen Sie benötigte URLs, soweit möglich. Vergleichen Sie nach dem Speichern Überschriften und Ergebnisse mit den Quellen, ohne anzunehmen, dass alles gefunden wurde."
+            },
+            {
+              "q": "Wie sichere ich ein eingebettetes PDF mit Erklärung?",
+              "a": "Prüfen Sie die PDF-URL oder den Downloadlink im Dateiwerkzeug und speichern Sie das erreichbare PDF separat. Sammeln Sie die Erklärung als HTML und verwalten Sie beides zusammen; PDF-Text wird nicht in das HTML eingefügt."
+            },
+            {
+              "q": "Kann ich eine Seite kostenlos testen?",
+              "a": "Ja. Free findet Kandidaten und speichert eine gewählte Seite als HTML. Pro wählt, ordnet und kombiniert mehrere Seiten. Anmelde-, Berechtigungs- und Sicherheitsgrenzen gelten."
+            },
+            {
+              "q": "Wie erkenne ich Quelle und Revision?",
+              "a": "Prüfen Sie die genannte Revision und notieren Sie sie mit URL und Prüfdatum. HTML-Erfassungsdatum und seitenbezogene URLs und Daten im KI-Export helfen bei der Prüfung; die Handbuchrevision bestätigen Sie selbst."
+            },
+            {
+              "q": "Kann KI Schritte oder Bedingungen extrahieren?",
+              "a": "Aktivieren Sie KI-Ausgabe vor der Sammlung, speichern Sie danach das ZIP und kopieren Sie die Anfrage. Übergeben Sie gewählte Dateien selbst an externe KI, bei Bedarf entpackt. Prüfen Sie die Antwort an den Quellen."
+            }
+          ],
+          "manual": {
+            "patternsTitle": "Drei Formate und passende Vorgehensweisen",
+            "patterns": [
+              [
+                "HTML-Handbuch mit Kapiteln",
+                [
+                  "Handbuch",
+                  "Vorbereitung",
+                  "Ablauf"
+                ],
+                "Wählen und ordnen Sie benötigte Kapitel als HTML-Referenz. Verzeichnis und Suche helfen beim Nachschlagen."
+              ],
+              [
+                "Eingebettetes PDF",
+                [
+                  "Erklärung",
+                  "Original-PDF",
+                  "Notizen"
+                ],
+                "Prüfen Sie die verfügbare PDF-URL oder den Downloadlink. Speichern Sie das PDF im Dateiwerkzeug und ordnen Sie es neben dem erklärenden HTML ein."
+              ],
+              [
+                "Artikel in hierarchischen Menüs",
+                [
+                  "Themenmenü",
+                  "Artikel A",
+                  "Artikel B"
+                ],
+                "Vergleichen Sie Kandidaten mit dem Menü, wählen und ordnen Sie Artikel. Prüfen Sie die gespeicherten Ergebnisse an den Originalen."
+              ]
+            ],
+            "organizeTitle": "Material für spätere Prüfungen ordnen",
+            "headers": [
+              "Material",
+              "Aufbewahrung"
+            ],
+            "rows": [
+              [
+                "HTML-Referenz",
+                "Gesammelte Texte mit Verzeichnis und Suche lesen. Tatsächlich gespeicherte Abschnitte prüfen."
+              ],
+              [
+                "Original-PDFs",
+                "Als eigene Dateien neben dem erklärenden HTML speichern. Dokumentlinks fügen PDF-Text nicht in den HTML-Inhalt ein."
+              ],
+              [
+                "Referenznotizen",
+                "Quell-URLs, Prüfdatum und genannte Revision notieren. Eine fehlende Revisionsangabe ebenfalls vermerken."
+              ]
+            ],
+            "promptTitle": "Fragen zur gesammelten Formulierung stellen",
+            "prompt": "Liste nur anhand dieses Materials Ablauf, Voraussetzungen und erforderliche Unterlagen auf. Nenne Quellenstellen und URLs. Markiere fehlende Angaben als ‚im bereitgestellten Material nicht angegeben‘ statt zu raten.",
+            "aiLink": "Dateien und Fragen für externe KI vorbereiten"
+          }
+        },
+        "it": {
+          "title": "Salvare insieme manuali e pagine di conoscenza | Grab All Files",
+          "desc": "Salva manuali e articoli consentiti come riferimento leggibile. Organizza capitoli HTML, PDF incorporati e articoli nei menu, e prepara domande per un’IA esterna.",
+          "eyebrow": "Salvare manuali e pagine di conoscenza",
+          "h1": "Riunisci manuali e articoli in un riferimento da consultare.",
+          "lead": "Leggi insieme i capitoli utili, trova procedure con indice e ricerca e conserva i PDF accanto alle spiegazioni. Usa materiali che sei autorizzato a vedere e salvare. Free salva una pagina scelta; Pro combina più pagine.",
+          "best": [
+            "Consultare procedure di richiesta, documenti necessari e istruzioni operative insieme.",
+            "Organizzare la pagina esplicativa e il PDF originale come materiali collegati.",
+            "Preparare fonti selezionate per chiedere passi o condizioni a un’IA esterna."
+          ],
+          "steps": [
+            "Apri una pagina che puoi vedere e salvare nella tua normale sessione del browser. Poi apri «Unisci pagine in HTML» nell’estensione.",
+            "Confronta le candidate con il menu originale e scegli capitoli o articoli. Con Pro rimuovi gli extra e riordina le pagine.",
+            "Imposta immagini e documenti, raccogli e salva HTML. Per PDF incorporati controlla URL o link di download accessibili nello strumento file e salva il PDF separatamente.",
+            "Apri l’HTML e usa indice e ricerca. Confronta titoli e risultati con le fonti e controlla mancanze o errori.",
+            "Conserva HTML e PDF insieme. Annota URL, data controllata e revisione dichiarata. Per IA esporta e fornisci manualmente file accettati e domanda al servizio scelto."
+          ],
+          "faq": [
+            {
+              "q": "Se manca un capitolo o articolo?",
+              "a": "Confronta candidate e menu e aggiungi URL utili quando possibile. Dopo il salvataggio confronta titoli e risultati con le fonti per controllare il materiale ottenuto senza supporre che sia stato trovato tutto."
+            },
+            {
+              "q": "Come salvo PDF incorporato e spiegazione?",
+              "a": "Controlla URL o link PDF nello strumento file e salva il PDF accessibile separatamente. Raccogli la spiegazione in HTML e conserva entrambi insieme; il testo PDF non viene unito al corpo HTML."
+            },
+            {
+              "q": "Posso provare una pagina gratis?",
+              "a": "Sì. Free trova candidate e salva una pagina scelta in HTML. Pro seleziona, riordina e combina più pagine. Restano autenticazione, permessi e limiti di sicurezza."
+            },
+            {
+              "q": "Come identifico fonte e revisione?",
+              "a": "Controlla la revisione dichiarata e annotala con URL e data verificata. La data complessiva HTML e URL e date per pagina dell’output IA aiutano il controllo; devi confermare la revisione del manuale."
+            },
+            {
+              "q": "Posso chiedere all’IA passi o condizioni?",
+              "a": "Attiva l’output IA prima della raccolta, poi salva lo ZIP e copia la richiesta. Scegli file e forniscili manualmente all’IA esterna, decomprimendo se serve. Verifica la risposta nelle fonti."
+            }
+          ],
+          "manual": {
+            "patternsTitle": "Tre formati e modi per raccoglierli",
+            "patterns": [
+              [
+                "Guida HTML a capitoli",
+                [
+                  "Guida",
+                  "Preparazione",
+                  "Procedura"
+                ],
+                "Scegli e ordina i capitoli utili come riferimento HTML. Indice e ricerca aiutano a tornare alla sezione necessaria."
+              ],
+              [
+                "PDF incorporato",
+                [
+                  "Spiegazione",
+                  "PDF originale",
+                  "Note"
+                ],
+                "Controlla se URL o link del PDF sono disponibili. Salva il PDF nello strumento file e conservalo con l’HTML esplicativo."
+              ],
+              [
+                "Articoli in menu gerarchici",
+                [
+                  "Menu temi",
+                  "Articolo A",
+                  "Articolo B"
+                ],
+                "Confronta candidate e menu, scegli articoli e riordinali. Verifica i risultati salvati con gli originali."
+              ]
+            ],
+            "organizeTitle": "Organizzare materiali facili da verificare",
+            "headers": [
+              "Materiale",
+              "Conservazione"
+            ],
+            "rows": [
+              [
+                "Riferimento HTML",
+                "Leggi i testi raccolti con indice e ricerca. Controlla le sezioni effettivamente salvate."
+              ],
+              [
+                "PDF originali",
+                "Conservali come file separati accanto all’HTML. I link ai documenti non integrano il testo PDF nel corpo HTML."
+              ],
+              [
+                "Note di riferimento",
+                "Annota URL, data controllata e revisione indicata. Segnala quando la revisione non è dichiarata."
+              ]
+            ],
+            "promptTitle": "Fare domande sul testo raccolto",
+            "prompt": "Usando solo questi materiali, elenca procedura, prerequisiti e documenti necessari. Cita passaggi e URL fonte. Segna le informazioni mancanti come «non indicate nel materiale fornito», senza indovinarle.",
+            "aiLink": "Preparare file e domande per un’IA esterna"
+          }
+        },
+        "ko": {
+          "title": "업무 매뉴얼과 지식 페이지를 함께 저장하기 | Grab All Files",
+          "desc": "열람·저장이 허용된 업무 매뉴얼과 지식 문서를 읽기 쉬운 자료집으로 정리합니다. 장별 HTML, 삽입 PDF, 메뉴형 기사를 저장하고 외부 AI 질문을 준비하세요.",
+          "eyebrow": "업무 매뉴얼·지식 페이지 저장",
+          "h1": "업무 매뉴얼과 지식 문서를 다시 읽기 좋은 자료집으로.",
+          "lead": "필요한 장과 기사를 모아 읽고 목차와 검색으로 절차를 찾으세요. 설명 페이지와 PDF 원본을 함께 관리합니다. 열람·저장이 허용된 자료를 사용하세요. Free는 선택한 1페이지를 저장하고 Pro는 여러 페이지 본문을 결합합니다.",
+          "best": [
+            "신청 절차·필요 서류 안내·조작 매뉴얼을 함께 참고합니다.",
+            "설명 페이지와 PDF 원본을 관련 자료로 정리합니다.",
+            "선택한 원문으로 외부 AI에 절차나 조건 추출을 요청할 준비를 합니다."
+          ],
+          "steps": [
+            "열람·저장이 허용된 시작 페이지를 평소 브라우저 로그인 상태에서 엽니다. 이어서 확장 프로그램의 “페이지를 HTML로 합치기”를 엽니다.",
+            "후보를 원래 메뉴와 비교하고 필요한 장과 기사를 선택합니다. Pro에서는 불필요한 항목을 빼고 순서를 바꿉니다.",
+            "이미지·링크 문서 설정을 선택하고 수집해 HTML을 저장합니다. 삽입 PDF는 파일 다운로드 도구에서 접근 가능한 PDF URL이나 다운로드 링크를 확인해 별도 저장합니다.",
+            "HTML을 열어 목차와 검색으로 읽습니다. 저장된 제목과 결과를 원문과 비교하고 부족하거나 실패한 자료를 확인합니다.",
+            "HTML과 PDF를 함께 관리하며 원래 URL·확인일·표기된 버전을 자료 메모에 기록합니다. AI 사용 시 자료를 내보내고 지원 파일과 질문을 외부 AI에 직접 전달합니다."
+          ],
+          "faq": [
+            {
+              "q": "필요한 장이나 기사가 후보에 없다면?",
+              "a": "후보와 원래 메뉴를 비교해 필요하면 URL을 추가합니다. 저장 후 제목과 수집 결과도 원문과 비교하면 실제 저장한 자료를 확인할 수 있습니다. 모든 메뉴 항목을 찾았다고 가정하지 않습니다."
+            },
+            {
+              "q": "삽입 PDF와 설명을 함께 저장하려면?",
+              "a": "파일 다운로드 도구에서 PDF URL이나 다운로드 링크를 확인해 접근 가능한 PDF를 별도 저장합니다. 설명은 HTML로 수집하고 함께 관리하며 PDF 본문은 HTML에 통합되지 않습니다."
+            },
+            {
+              "q": "Free로 1페이지부터 시도할 수 있나요?",
+              "a": "네. Free는 후보를 찾고 선택한 1페이지를 HTML로 저장합니다. Pro는 여러 본문을 선택·정렬·결합합니다. 인증·권한·안전 제한은 적용됩니다."
+            },
+            {
+              "q": "출처와 매뉴얼 버전은 어떻게 확인하나요?",
+              "a": "원래 페이지의 개정일·버전 표기를 확인해 URL·확인일과 함께 제목이나 메모에 적습니다. HTML 전체 수집일과 AI 출력의 페이지별 URL·수집일도 대조에 쓸 수 있지만 매뉴얼 버전은 직접 확인합니다."
+            },
+            {
+              "q": "AI에 절차나 조건 추출을 요청할 수 있나요?",
+              "a": "수집 전에 AI 출력을 켜고 수집 후 AI ZIP을 저장해 요청문을 복사합니다. 파일을 골라 필요하면 압축을 풀고 외부 AI에 직접 전달합니다. 답변은 제공한 원문과 비교하세요."
+            }
+          ],
+          "manual": {
+            "patternsTitle": "세 가지 자료 형식에 맞춰 저장하기",
+            "patterns": [
+              [
+                "장별 HTML 안내서",
+                [
+                  "안내서",
+                  "준비",
+                  "절차"
+                ],
+                "필요한 장을 골라 순서대로 HTML 자료집을 만듭니다. 목차와 본문 검색으로 필요한 부분을 다시 찾습니다."
+              ],
+              [
+                "삽입 PDF",
+                [
+                  "설명 페이지",
+                  "PDF 원본",
+                  "자료 메모"
+                ],
+                "PDF URL이나 다운로드 링크를 얻을 수 있는지 확인합니다. 파일 다운로드 도구로 PDF를 저장하고 설명 HTML과 함께 관리합니다."
+              ],
+              [
+                "계층 메뉴의 지식 기사",
+                [
+                  "분야 메뉴",
+                  "기사 A",
+                  "기사 B"
+                ],
+                "발견된 후보를 메뉴와 비교해 필요한 기사를 골라 순서를 조정합니다. 저장 결과를 원래 기사와 대조합니다."
+              ]
+            ],
+            "organizeTitle": "나중에 확인하기 쉬운 자료로 관리하기",
+            "headers": [
+              "자료",
+              "관리 방법"
+            ],
+            "rows": [
+              [
+                "HTML 자료집",
+                "수집한 페이지 본문을 목차와 검색으로 읽습니다. 필요한 장이 실제 저장됐는지 확인합니다."
+              ],
+              [
+                "PDF 원본",
+                "설명 HTML과 함께 별도 파일로 보관합니다. HTML 문서 링크는 PDF 본문을 HTML에 통합하지 않습니다."
+              ],
+              [
+                "자료 메모",
+                "원래 URL·확인일·매뉴얼에 표기된 버전을 적습니다. 버전 표기가 없을 때도 기록합니다."
+              ]
+            ],
+            "promptTitle": "수집한 원문의 범위에서 질문하기",
+            "prompt": "이 자료에 명시된 절차·전제 조건·필요 서류를 정리해 주세요. 근거 원문과 출처 URL을 붙이고 없는 정보는 추측하지 말고 ‘제공 자료에 명시되지 않음’으로 표시해 주세요.",
+            "aiLink": "외부 AI에 전달할 자료와 질문 준비 방법"
+          }
+        },
+        "pt_BR": {
+          "title": "Salvar manuais e páginas de conhecimento juntos | Grab All Files",
+          "desc": "Salve manuais e artigos permitidos como referência legível. Organize capítulos HTML, PDFs incorporados e artigos de menus e prepare perguntas para IA externa.",
+          "eyebrow": "Salvar manuais e conhecimento",
+          "h1": "Reúna manuais e artigos em uma referência fácil de consultar.",
+          "lead": "Leia capítulos úteis juntos, encontre procedimentos com sumário e busca e guarde os PDFs com suas explicações. Use materiais que você pode visualizar e salvar. O Free salva uma página escolhida; o Pro reúne várias.",
+          "best": [
+            "Consultar procedimentos de solicitação, documentos necessários e instruções operacionais juntos.",
+            "Organizar a página explicativa e o PDF original como materiais relacionados.",
+            "Preparar fontes escolhidas para perguntar a uma IA externa sobre etapas ou condições."
+          ],
+          "steps": [
+            "Abra uma página que você pode visualizar e salvar na sessão normal do navegador. Depois abra “Juntar páginas em HTML” na extensão.",
+            "Compare candidatas com o menu original e escolha capítulos ou artigos. Com Pro remova extras e ajuste a ordem.",
+            "Escolha imagens e documentos, colete e salve HTML. Para PDF incorporado, confira URL ou link acessível na ferramenta de arquivos e salve o PDF separadamente.",
+            "Abra o HTML e use sumário e busca. Compare títulos e resultados com as fontes e verifique lacunas ou falhas.",
+            "Mantenha HTML e PDFs juntos. Anote URLs, data conferida e revisão declarada. Para IA exporte e entregue manualmente arquivos aceitos e sua pergunta ao serviço escolhido."
+          ],
+          "faq": [
+            {
+              "q": "E se faltar um capítulo ou artigo?",
+              "a": "Compare candidatas com o menu e acrescente URLs úteis quando apropriado. Depois de salvar, confronte títulos e resultados com as fontes para conferir o que obteve sem presumir que tudo foi encontrado."
+            },
+            {
+              "q": "Como guardo PDF incorporado e explicação?",
+              "a": "Confira URL ou link do PDF na ferramenta de arquivos e salve o PDF acessível separadamente. Colete a explicação em HTML e gerencie ambos juntos; o texto PDF não é integrado ao HTML."
+            },
+            {
+              "q": "Posso testar uma página no Free?",
+              "a": "Sim. O Free encontra candidatas e salva uma página escolhida em HTML. O Pro seleciona, reordena e combina várias. Autenticação, permissões e limites de segurança se aplicam."
+            },
+            {
+              "q": "Como identifico fonte e revisão?",
+              "a": "Confira a revisão declarada e registre com URL e data verificada. A data geral do HTML e URLs e datas por página na saída IA ajudam na conferência; confirme você mesmo a revisão do manual."
+            },
+            {
+              "q": "Posso pedir etapas ou condições à IA?",
+              "a": "Ative a saída IA antes da coleta, depois salve o ZIP e copie o pedido. Escolha arquivos e entregue manualmente à IA externa, extraindo o ZIP se preciso. Confira a resposta nas fontes."
+            }
+          ],
+          "manual": {
+            "patternsTitle": "Três formatos e formas de coletá-los",
+            "patterns": [
+              [
+                "Guia HTML por capítulos",
+                [
+                  "Guia",
+                  "Preparação",
+                  "Procedimento"
+                ],
+                "Escolha capítulos e ordene-os em uma referência HTML. Sumário e busca ajudam a voltar ao trecho necessário."
+              ],
+              [
+                "PDF incorporado",
+                [
+                  "Explicação",
+                  "PDF original",
+                  "Notas"
+                ],
+                "Confira se a URL ou o link do PDF pode ser obtido. Salve o PDF na ferramenta de arquivos e guarde-o com o HTML explicativo."
+              ],
+              [
+                "Artigos em menus hierárquicos",
+                [
+                  "Menu de temas",
+                  "Artigo A",
+                  "Artigo B"
+                ],
+                "Compare candidatas com o menu, escolha artigos e ajuste a ordem. Confira os resultados salvos com os originais."
+              ]
+            ],
+            "organizeTitle": "Organize materiais fáceis de conferir depois",
+            "headers": [
+              "Material",
+              "Organização"
+            ],
+            "rows": [
+              [
+                "Referência HTML",
+                "Leia os textos coletados com sumário e busca. Confira as seções realmente salvas."
+              ],
+              [
+                "PDFs originais",
+                "Guarde-os como arquivos separados com o HTML. Links de documentos não integram o texto PDF ao corpo HTML."
+              ],
+              [
+                "Notas de referência",
+                "Anote URLs, data conferida e revisão indicada. Registre quando a revisão não está declarada."
+              ]
+            ],
+            "promptTitle": "Pergunte sobre o texto coletado",
+            "prompt": "Usando apenas este material, liste procedimento, pré-requisitos e documentos necessários. Cite trechos e URLs fonte. Marque informações ausentes como ‘não informado no material fornecido’, sem adivinhar.",
+            "aiLink": "Preparar arquivos e perguntas para análise em IA externa"
+          }
+        },
+        "zh_CN": {
+          "title": "集中保存业务手册与知识页面 | Grab All Files",
+          "desc": "将允许查看与保存的业务手册和知识文章整理为易读资料集。按章节HTML、嵌入PDF与层级菜单文章选择保存方式，并准备向外部AI提问。",
+          "eyebrow": "保存业务手册与知识文章",
+          "h1": "将业务手册与知识文章整理为便于查阅的资料集。",
+          "lead": "把需要的章节和文章放在一起阅读，通过目录和正文搜索找到操作步骤，并将PDF原件与说明页面一起管理。使用允许查看和保存的资料。Free保存所选1页，Pro可合并多个页面正文。",
+          "best": [
+            "一起查阅申请步骤、所需材料说明与操作手册。",
+            "将说明页面与PDF原件整理为相关资料。",
+            "选择原文资料，为向外部AI提取步骤或条件作准备。"
+          ],
+          "steps": [
+            "在正常浏览器登录状态下打开允许查看与保存的起始页面。然后打开扩展中的“将网页合并为 HTML”。",
+            "对照原始菜单检查候选列表，选择所需章节或文章。Pro可移除多余候选并调整顺序。",
+            "选择图片与链接文档设置，收集并保存HTML。对嵌入PDF，请在文件下载工具中确认可访问的PDF URL或下载链接，再单独保存PDF原件。",
+            "打开HTML使用目录和搜索阅读。将保存的标题与结果同原文核对，检查缺少或获取失败的资料。",
+            "将HTML与PDF一起管理，在资料备注中记录原URL、确认日期与手册标明的版本。使用AI时导出资料，手动将支持的文件和问题交给所选外部AI。"
+          ],
+          "faq": [
+            {
+              "q": "所需章节或文章没有出现在候选中怎么办？",
+              "a": "将候选列表与原始菜单对照，适当补充所需URL。保存后也核对标题与收集结果，检查实际保存的资料，不假定所有菜单项目都已被找到。"
+            },
+            {
+              "q": "如何一起保存嵌入PDF与说明？",
+              "a": "在文件下载工具中确认PDF URL或下载链接，单独保存可获取的PDF。将说明收集为HTML并一起管理；PDF正文不会合并进HTML正文。"
+            },
+            {
+              "q": "可以用Free从1页开始确认吗？",
+              "a": "可以。Free查找候选并保存所选1页为HTML。Pro可选择、排序与合并多个页面正文。仍适用验证、权限与安全上限。"
+            },
+            {
+              "q": "如何确认来源与手册版本？",
+              "a": "检查原页面标明的修订日期或版本，连同URL与确认日期记在标题或备注中。HTML整体采集日期与AI输出的页面URL、采集日期也可帮助核对，但手册版本由您确认。"
+            },
+            {
+              "q": "能请AI提取步骤或条件吗？",
+              "a": "收集前启用AI输出，收集后保存AI ZIP并复制请求文字。选择资料，必要时解压ZIP，手动将支持的文件交给外部AI。请将回答与提供的原文核对。"
+            }
+          ],
+          "manual": {
+            "patternsTitle": "根据三种资料格式选择保存方式",
+            "patterns": [
+              [
+                "按章节HTML手册",
+                [
+                  "手册",
+                  "准备",
+                  "步骤"
+                ],
+                "选择所需章节并按阅读顺序整理为HTML资料集。通过目录和正文搜索返回需要确认的段落。"
+              ],
+              [
+                "嵌入PDF",
+                [
+                  "说明页面",
+                  "PDF原件",
+                  "资料备注"
+                ],
+                "确认是否能取得PDF URL或下载链接。使用文件下载工具保存PDF，再与说明HTML一起管理。"
+              ],
+              [
+                "层级菜单中的知识文章",
+                [
+                  "主题菜单",
+                  "文章A",
+                  "文章B"
+                ],
+                "对照菜单检查找到的候选，选择相关文章并调整顺序。将保存结果与原始文章核对。"
+              ]
+            ],
+            "organizeTitle": "整理为以后便于核对的资料",
+            "headers": [
+              "资料",
+              "管理方式"
+            ],
+            "rows": [
+              [
+                "HTML资料集",
+                "通过目录和搜索阅读已获取的页面正文，确认需要的章节实际保存了哪些。"
+              ],
+              [
+                "PDF原件",
+                "作为独立文件与说明HTML一起保管。HTML中的文档链接不会将PDF正文合并进页面正文。"
+              ],
+              [
+                "资料备注",
+                "记录原URL、确认日期与手册标明的版本。没有明确版本时也记录这一情况。"
+              ]
+            ],
+            "promptTitle": "依据收集的原文提问",
+            "prompt": "请仅根据这些资料整理步骤、前提条件与所需材料。引用支持的原文和来源URL。找不到的信息请标为“所提供资料中未记载”，不要推测。",
+            "aiLink": "了解如何准备交给外部AI的资料与问题"
+          }
+        },
+        "zh_TW": {
+          "title": "集中儲存業務手冊與知識頁面 | Grab All Files",
+          "desc": "將允許查看與儲存的業務手冊及知識文章整理為易讀資料集。依章節HTML、內嵌PDF與階層選單文章選擇儲存方式，並準備向外部AI提問。",
+          "eyebrow": "儲存業務手冊與知識文章",
+          "h1": "將業務手冊與知識文章整理為便於查閱的資料集。",
+          "lead": "把需要的章節與文章一起閱讀，透過目錄與本文搜尋找到操作步驟，並將PDF原件與說明頁面一起管理。使用允許查看與儲存的資料。Free儲存所選1頁，Pro可合併多個頁面本文。",
+          "best": [
+            "一起查閱申請步驟、所需文件說明與操作手冊。",
+            "將說明頁面與PDF原件整理為相關資料。",
+            "選擇原文資料，為向外部AI擷取步驟或條件作準備。"
+          ],
+          "steps": [
+            "在平常瀏覽器登入狀態下開啟允許查看與儲存的起始頁面。接著開啟擴充功能中的「將網頁合併為 HTML」。",
+            "對照原始選單檢查候選清單，選擇所需章節或文章。Pro可移除多餘候選並調整順序。",
+            "選擇圖片與連結文件設定，收集並儲存HTML。內嵌PDF請在檔案下載工具中確認可存取的PDF URL或下載連結，再單獨儲存PDF原件。",
+            "開啟HTML使用目錄與搜尋閱讀。將儲存的標題及結果與原文核對，檢查缺少或取得失敗的資料。",
+            "將HTML與PDF一起管理，在資料備註中記錄原URL、確認日期及手冊標明的版本。使用AI時匯出資料，手動將支援的檔案與問題交給所選外部AI。"
+          ],
+          "faq": [
+            {
+              "q": "所需章節或文章未出現在候選中怎麼辦？",
+              "a": "將候選清單與原始選單對照，適當補充所需URL。儲存後也核對標題及收集結果，檢查實際儲存的資料，不假定所有選單項目都已被找到。"
+            },
+            {
+              "q": "如何一起儲存內嵌PDF與說明？",
+              "a": "在檔案下載工具中確認PDF URL或下載連結，單獨儲存可取得的PDF。將說明收集為HTML並一起管理；PDF本文不會合併進HTML本文。"
+            },
+            {
+              "q": "可以用Free從1頁開始確認嗎？",
+              "a": "可以。Free尋找候選並儲存所選1頁為HTML。Pro可選擇、排序及合併多個頁面本文。仍適用驗證、權限與安全上限。"
+            },
+            {
+              "q": "如何確認來源與手冊版本？",
+              "a": "檢查原頁面標明的修訂日期或版本，連同URL與確認日期記在標題或備註中。HTML整體擷取日期與AI輸出的頁面URL、擷取日期也可協助核對，但手冊版本由您確認。"
+            },
+            {
+              "q": "能請AI擷取步驟或條件嗎？",
+              "a": "收集前啟用AI輸出，收集後儲存AI ZIP並複製請求文字。選擇資料，需要時解壓縮ZIP，手動將支援的檔案交給外部AI。請將回答與提供的原文核對。"
+            }
+          ],
+          "manual": {
+            "patternsTitle": "依三種資料格式選擇儲存方式",
+            "patterns": [
+              [
+                "按章節HTML手冊",
+                [
+                  "手冊",
+                  "準備",
+                  "步驟"
+                ],
+                "選擇所需章節並按閱讀順序整理為HTML資料集。透過目錄與本文搜尋返回需要確認的段落。"
+              ],
+              [
+                "內嵌PDF",
+                [
+                  "說明頁面",
+                  "PDF原件",
+                  "資料備註"
+                ],
+                "確認是否能取得PDF URL或下載連結。使用檔案下載工具儲存PDF，再與說明HTML一起管理。"
+              ],
+              [
+                "階層選單中的知識文章",
+                [
+                  "主題選單",
+                  "文章A",
+                  "文章B"
+                ],
+                "對照選單檢查找到的候選，選擇相關文章並調整順序。將儲存結果與原始文章核對。"
+              ]
+            ],
+            "organizeTitle": "整理為日後便於核對的資料",
+            "headers": [
+              "資料",
+              "管理方式"
+            ],
+            "rows": [
+              [
+                "HTML資料集",
+                "透過目錄與搜尋閱讀已取得的頁面本文，確認需要的章節實際儲存了哪些。"
+              ],
+              [
+                "PDF原件",
+                "作為獨立檔案與說明HTML一起保管。HTML中的文件連結不會將PDF本文合併進頁面本文。"
+              ],
+              [
+                "資料備註",
+                "記錄原URL、確認日期及手冊標明的版本。沒有明確版本時也記錄此情況。"
+              ]
+            ],
+            "promptTitle": "依據收集的原文提問",
+            "prompt": "請僅依據這些資料整理步驟、前提條件及所需文件。引用支持的原文與來源URL。找不到的資訊請標為「提供資料中未記載」，不要推測。",
+            "aiLink": "了解如何準備交給外部AI的資料與問題"
+          }
+        }
+      }
+    },
     "web-pages-for-reading-and-ai-analysis": {
       "path": "web-pages-for-reading-and-ai-analysis.html",
       "related": [
@@ -1737,6 +2708,24 @@
       }).join('') + '</tbody></table></div></details></section>';
   }
 
+  function renderManualGuide(manual, section, lang) {
+    if (!manual) return "";
+    if (section === "patterns") {
+      return '<section class="section-card research-guide"><h2>' + esc(manual.patternsTitle) + '</h2><div class="manual-patterns">' +
+        manual.patterns.map(function (pattern) {
+          return '<article class="manual-pattern"><h3>' + esc(pattern[0]) + '</h3><div class="manual-sketch" aria-hidden="true">' +
+            pattern[1].map(function (line) { return '<span>' + esc(line) + '</span>'; }).join('') +
+            '</div><p>' + esc(pattern[2]) + '</p></article>';
+        }).join('') + '</div></section>';
+    }
+    return '<section class="section-card research-guide"><h2>' + esc(manual.organizeTitle) + '</h2><div class="research-table-wrap"><table class="manual-table"><thead><tr>' +
+      manual.headers.map(function (head) { return '<th scope="col">' + esc(head) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+      manual.rows.map(function (row) { return '<tr><th scope="row">' + esc(row[0]) + '</th><td>' + esc(row[1]) + '</td></tr>'; }).join('') +
+      '</tbody></table></div></section><section class="section-card research-guide"><h2>' + esc(manual.promptTitle) + '</h2><article class="research-example"><blockquote>' +
+      esc(manual.prompt) + '</blockquote></article><p class="manual-ai-link"><a href="' +
+      esc(withLang('web-pages-for-reading-and-ai-analysis.html', lang)) + '">' + esc(manual.aiLink) + ' →</a></p></section>';
+  }
+
   function renderRelated(current, lang) {
     var labels = GUIDE_LABELS[lang] || GUIDE_LABELS.en;
     return GUIDE_ORDER.map(function (id) {
@@ -1853,11 +2842,13 @@
       "</section>",
       "<div class=\"section-stack\">",
         renderResearchGuide(copy.guide, "modes"),
+        renderManualGuide(copy.manual, "patterns", lang),
         "<div class=\"two-col\">",
           "<section class=\"section-card\"><h2>" + esc(ui.bestFor) + "</h2><ul class=\"check-list\">" + renderList(copy.best, "check") + "</ul></section>",
           "<section class=\"section-card\"><h2>" + esc(ui.workflow) + "</h2><ol class=\"step-list\">" + renderList(copy.steps, "num") + "</ol></section>",
         "</div>",
         renderResearchGuide(copy.guide, "details"),
+        renderManualGuide(copy.manual, "details", lang),
         "<section class=\"section-card\"><h2>" + esc(ui.faq) + "</h2><div class=\"faq-list\">" + renderFaq(copy.faq) + "</div></section>",
         "<section class=\"section-card usecase-guide-section\"><h2>" + esc(ui.related) + "</h2><div class=\"usecase-guide-links\" aria-label=\"" + esc(ui.related) + "\">" + renderRelated(current, lang) + "</div></section>",
       "</div>",

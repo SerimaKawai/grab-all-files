@@ -74,8 +74,17 @@ AI Markdown, heading-level JSONL and the manifest carry source_url and captured_
 
 Guide: https://grab-all-files.app/use-cases/web-pages-for-reading-and-ai-analysis.html
 
+## Saving online work manuals and knowledge articles
+
+Use material you are permitted to view and save. For chapter-based HTML, review candidates, choose needed chapters and arrange them as a readable reference (Free: one selected page; Pro: multiple page bodies). For embedded PDFs, check an obtainable original file URL or download link in the file downloader and save the PDF separately alongside the explanatory HTML. For hierarchical knowledge menus, compare candidates and saved results with the source articles rather than assuming every menu entry was found. HTML document links do not merge PDF text into the HTML body.
+
+Keep source URLs, the date checked and the manual’s stated revision in your own reference notes; the extension does not automatically record a manual’s revision. For external AI questions about steps or conditions, prepare selected source material, then manually give supported files and the request to your chosen AI service.
+
+Guide: https://grab-all-files.app/use-cases/save-online-manuals-and-knowledge-pages.html
+
 ## Use-case landing pages
 
+- Save online work manuals and knowledge pages: https://grab-all-files.app/use-cases/save-online-manuals-and-knowledge-pages.html
 - Collect web information to read and prepare external AI analysis: https://grab-all-files.app/use-cases/web-pages-for-reading-and-ai-analysis.html
 - Combine multiple web pages into one HTML file: https://grab-all-files.app/use-cases/combine-web-pages-into-one-html.html
 - Download all PDFs from a website: https://grab-all-files.app/use-cases/download-all-pdfs.html
