@@ -335,6 +335,7 @@
   }
 
   var GUIDE_ORDER = [
+    "download-arxiv-pdfs-and-research-files",
     "web-tables-to-csv-for-excel-ai",
     "save-and-compare-document-revisions",
     "rename-and-organize-bulk-pdf-downloads",
@@ -352,6 +353,7 @@
 
   var GUIDE_LABELS = {
     en: {
+      "download-arxiv-pdfs-and-research-files": "arXiv PDFs & research files",
       "web-tables-to-csv-for-excel-ai": "Web tables to CSV",
       "save-and-compare-document-revisions": "Save & compare revisions",
       "rename-and-organize-bulk-pdf-downloads": "Name & organise PDF downloads",
@@ -367,6 +369,7 @@
       "merge-pdfs-locally": "Merge PDFs locally"
     },
     ja: {
+      "download-arxiv-pdfs-and-research-files": "arXivのPDF・研究資料",
       "web-tables-to-csv-for-excel-ai": "Web表をCSVで活用",
       "save-and-compare-document-revisions": "改訂前後の資料を比較",
       "rename-and-organize-bulk-pdf-downloads": "PDFの題名・種類別整理",
@@ -382,6 +385,7 @@
       "merge-pdfs-locally": "PDFをローカル結合"
     },
     es: {
+      "download-arxiv-pdfs-and-research-files": "PDF y archivos de arXiv",
       "web-tables-to-csv-for-excel-ai": "Tablas web a CSV",
       "save-and-compare-document-revisions": "Guardar y comparar versiones",
       "rename-and-organize-bulk-pdf-downloads": "Nombrar y organizar PDF",
@@ -397,6 +401,7 @@
       "merge-pdfs-locally": "Fusionar PDF localmente"
     },
     fr: {
+      "download-arxiv-pdfs-and-research-files": "PDF et fichiers arXiv",
       "web-tables-to-csv-for-excel-ai": "Tableaux web en CSV",
       "save-and-compare-document-revisions": "Enregistrer et comparer les versions",
       "rename-and-organize-bulk-pdf-downloads": "Nommer et classer les PDF",
@@ -412,6 +417,7 @@
       "merge-pdfs-locally": "Fusionner PDF localement"
     },
     de: {
+      "download-arxiv-pdfs-and-research-files": "arXiv-PDFs und Forschungsdateien",
       "web-tables-to-csv-for-excel-ai": "Webtabellen als CSV",
       "save-and-compare-document-revisions": "Dokumentstände vergleichen",
       "rename-and-organize-bulk-pdf-downloads": "PDFs benennen und ordnen",
@@ -427,6 +433,7 @@
       "merge-pdfs-locally": "PDFs lokal zusammenführen"
     },
     it: {
+      "download-arxiv-pdfs-and-research-files": "PDF e file di ricerca arXiv",
       "web-tables-to-csv-for-excel-ai": "Tabelle web in CSV",
       "save-and-compare-document-revisions": "Salvare e confrontare versioni",
       "rename-and-organize-bulk-pdf-downloads": "Nominare e organizzare PDF",
@@ -442,6 +449,7 @@
       "merge-pdfs-locally": "Unire PDF localmente"
     },
     ko: {
+      "download-arxiv-pdfs-and-research-files": "arXiv PDF·연구 파일",
       "web-tables-to-csv-for-excel-ai": "웹 표를 CSV로 활용",
       "save-and-compare-document-revisions": "개정 전후 자료 비교",
       "rename-and-organize-bulk-pdf-downloads": "PDF 제목 저장·종류별 정리",
@@ -457,6 +465,7 @@
       "merge-pdfs-locally": "PDF 로컬 병합"
     },
     pt_BR: {
+      "download-arxiv-pdfs-and-research-files": "PDFs e arquivos do arXiv",
       "web-tables-to-csv-for-excel-ai": "Tabelas web em CSV",
       "save-and-compare-document-revisions": "Salvar e comparar revisões",
       "rename-and-organize-bulk-pdf-downloads": "Nomear e organizar PDFs",
@@ -472,6 +481,7 @@
       "merge-pdfs-locally": "Mesclar PDFs localmente"
     },
     zh_CN: {
+      "download-arxiv-pdfs-and-research-files": "arXiv PDF与研究文件",
       "web-tables-to-csv-for-excel-ai": "网页表格转CSV",
       "save-and-compare-document-revisions": "保存并比较修订前后资料",
       "rename-and-organize-bulk-pdf-downloads": "PDF题名保存与格式整理",
@@ -487,6 +497,7 @@
       "merge-pdfs-locally": "本地合并PDF"
     },
     zh_TW: {
+      "download-arxiv-pdfs-and-research-files": "arXiv PDF與研究檔案",
       "web-tables-to-csv-for-excel-ai": "網頁表格轉CSV",
       "save-and-compare-document-revisions": "儲存並比較修訂前後資料",
       "rename-and-organize-bulk-pdf-downloads": "PDF題名儲存與格式整理",
@@ -504,6 +515,716 @@
   };
 
   var CASES = {
+    "download-arxiv-pdfs-and-research-files": {
+      "path": "download-arxiv-pdfs-and-research-files.html",
+      "related": [
+        "download-all-pdfs",
+        "rename-and-organize-bulk-pdf-downloads",
+        "web-pages-for-reading-and-ai-analysis"
+      ],
+      "copy": {
+        "en": {
+          "title": "Download arXiv PDFs & research files | Grab All Files",
+          "desc": "Scan an arXiv results page, filter PDFs and save selected papers with titles, folders, ZIP or a file-list CSV. See the real extension screen.",
+          "eyebrow": "arXiv PDFs & research files",
+          "h1": "Save the arXiv papers you need.",
+          "lead": "Search on arXiv first, then turn the results you are viewing into a useful reading folder. Grab All Files scans that page for PDFs and supported public file links; you review the list and choose what to save.",
+          "best": [
+            "Build a reading list from a focused search or category page.",
+            "Save selected paper PDFs with names you can recognize.",
+            "Keep public, supported linked files and a file-list CSV alongside your papers."
+          ],
+          "steps": [
+            "Use arXiv search to narrow the topic, category and date range. Open the results or paper list you want to work with.",
+            "Open Grab All Files and scan the displayed page. Start with that page, then review the detected file titles and source URLs.",
+            "Filter by PDF and select the papers you need. Review other public file links separately and choose only supported files relevant to your work.",
+            "Check or edit titles, choose title-based saving and a folder option. Save the selection as files or ZIP; export the file-list CSV for a record of the URLs.",
+            "Open the saved PDFs and review the results. Keep the source URL and paper version in your notes. For a large corpus, use arXiv’s official bulk services."
+          ],
+          "faq": [
+            {
+              "q": "Does the extension search all of arXiv for my topic?",
+              "a": "No. Search and refine the results on arXiv itself. The extension scans the page you choose; it is not a scholarly search engine or a complete arXiv downloader."
+            },
+            {
+              "q": "What about PDF links without a .pdf extension?",
+              "a": "arXiv PDF URLs such as /pdf/paper-id can be recognized as PDFs. Review the detected file type and URL before saving."
+            },
+            {
+              "q": "Can I save TeX, datasets and code too?",
+              "a": "Only public links that are found and match a supported file format can be selected. TeX sources, datasets and code are not present or downloadable for every paper; following an external repository may require a separate visit."
+            },
+            {
+              "q": "Can I save these papers for free?",
+              "a": "Free saves up to 10 selected files per run, and you can repeat the operation. Pro removes that file-count cap. Free page collection saves one chosen page as HTML; Pro can combine multiple selected pages."
+            },
+            {
+              "q": "How do title names, ZIP and CSV help?",
+              "a": "Review or edit a title before saving. Automatic naming can fall back to the original name when no useful title is available. Type and domain folders are alternative options. ZIP packages selected files; CSV records their file information and URLs."
+            },
+            {
+              "q": "Is this an official arXiv tool?",
+              "a": "No. Grab All Files is an independent tool, not affiliated with arXiv. Follow arXiv’s access guidance and each paper’s reuse terms. Use the official API for metadata, and official bulk access for large-scale PDF or full-text collection."
+            }
+          ],
+          "arxiv": {
+            "searchLabel": "Search on arXiv",
+            "visualTitle": "From a focused list to a reading folder",
+            "stages": [
+              "Choose the paper list",
+              "Review and select PDFs",
+              "Save a research folder"
+            ],
+            "sample": [
+              "Graph learning overview",
+              "A method comparison",
+              "Research papers"
+            ],
+            "visualNote": "Illustrative example with fictional titles. Search on arXiv first; scan and save only the files you choose.",
+            "screenTitle": "The actual extension on arXiv",
+            "screenAlt": "Grab All Files scanning public arXiv paper links, with PDF filtering and file selection controls",
+            "screenCaption": "Actual extension in an isolated test environment using a previously fetched public paper page. This example shows titles checked and edited.",
+            "officialTitle": "Use the right arXiv access route",
+            "officialText": "For a personal reading set, review a focused list and save the papers you need. For large collections, use arXiv’s official bulk access; its API provides metadata. Read the access guidance before automated collection.",
+            "officialLabels": [
+              "arXiv access guidance",
+              "Official bulk data access",
+              "arXiv metadata API"
+            ]
+          }
+        },
+        "ja": {
+          "title": "arXivのPDF・研究資料を一括保存 | Grab All Files",
+          "desc": "arXivで絞り込んだ論文一覧をスキャンし、必要なPDFを選んで保存。題名での命名、フォルダ分け、ZIP、ファイル一覧CSVを実画面と図解で紹介します。",
+          "eyebrow": "arXivのPDF・研究資料",
+          "h1": "arXivの論文を、必要な分だけ保存。",
+          "lead": "まずarXivで探し、表示した検索結果や論文一覧を読み返しやすい資料フォルダへ。Grab All FilesはそのページのPDFや対応形式の公開ファイルリンクを検出します。一覧を確認し、必要な資料を選んで保存できます。",
+          "best": [
+            "検索語やカテゴリで絞った論文の読書リストを作る。",
+            "必要な論文PDFを、見つけやすい題名で保存する。",
+            "公開されている対応形式の関連ファイルと、URLを記録したCSVを一緒に管理する。"
+          ],
+          "steps": [
+            "arXivの検索でキーワード・カテゴリ・期間を絞り、対象の検索結果や論文一覧を開きます。",
+            "Grab All Filesを開き、表示したページをスキャンします。まずそのページを対象にして、検出したファイルの題名と元URLを確認します。",
+            "PDFで絞り込み、必要な論文を選択します。他の公開ファイルリンクは別に確認し、対応形式で研究に必要なものだけを選びます。",
+            "題名を確認・編集し、保存名とフォルダ分けを選びます。選択したファイルを個別保存またはZIPで保存し、元URLの記録用にファイル一覧CSVも出力します。",
+            "保存したPDFを開いて結果を確認します。元URLと論文の版を資料メモに控え、大規模な論文集合にはarXiv公式の一括取得手段を使います。"
+          ],
+          "faq": [
+            {
+              "q": "拡張機能がarXiv全体をキーワード検索しますか？",
+              "a": "検索と絞り込みはarXiv側で行います。拡張機能は表示したページをスキャンするため、学術検索エンジンやarXiv全件ダウンローダーではありません。"
+            },
+            {
+              "q": "末尾に.pdfがないPDFリンクも対象ですか？",
+              "a": "/pdf/論文IDのようなarXivのPDF URLもPDFとして検出できます。保存前に検出した種類とURLを確認してください。"
+            },
+            {
+              "q": "TeX・データ・コードも保存できますか？",
+              "a": "検出できた公開リンクのうち、対応するファイル形式を選択できます。すべての論文にTeXソース・データ・コードがあるわけではなく、外部のリポジトリは別途開いて確認する場合があります。"
+            },
+            {
+              "q": "無料で論文を保存できますか？",
+              "a": "無料版は1回10ファイルまで保存でき、繰り返し実行できます。Proはファイル件数上限を解除します。ページ収集は無料版で選んだ1ページをHTML保存し、Proで複数の選択ページを結合できます。"
+            },
+            {
+              "q": "題名での命名・ZIP・CSVはどう役立ちますか？",
+              "a": "保存前に題名を確認・編集できます。自動命名で有用な題名がない場合は元名を使います。種類別とドメイン別のフォルダ分けは選択肢です。ZIPは選択ファイルをまとめ、CSVはファイル情報と元URLを記録します。"
+            },
+            {
+              "q": "arXiv公式のツールですか？",
+              "a": "Grab All FilesはarXivと提携していない独立したツールです。arXivのアクセス案内と各論文の利用条件に従ってください。メタデータには公式API、大規模なPDF・本文取得には公式の一括取得手段を利用してください。"
+            }
+          ],
+          "arxiv": {
+            "searchLabel": "arXivで検索する",
+            "visualTitle": "絞った論文一覧から、読み返す資料フォルダへ",
+            "stages": [
+              "対象の論文一覧を開く",
+              "PDFを確認・選択する",
+              "研究用フォルダへ保存"
+            ],
+            "sample": [
+              "グラフ学習の概要",
+              "手法の比較",
+              "研究資料"
+            ],
+            "visualNote": "架空の論文名による図解例です。arXivで探してから、必要なファイルを選んで保存します。",
+            "screenTitle": "arXivで使う実際の拡張画面",
+            "screenAlt": "arXivの公開論文リンクを検出し、PDFの絞り込みとファイル選択を行うGrab All Filesの実画面",
+            "screenCaption": "取得済みの公開論文ページを使った隔離検証環境の実画面です。題名を確認・編集した例を示しています。",
+            "officialTitle": "用途に合ったarXivの取得手段を選ぶ",
+            "officialText": "読むための資料集は、絞った一覧を確認して必要な論文を選びます。大量の取得にはarXiv公式の一括アクセスを利用し、メタデータにはAPIを使えます。自動取得の前に公式のアクセス案内を確認してください。",
+            "officialLabels": [
+              "arXivのアクセス案内",
+              "公式の一括データ取得",
+              "arXivメタデータAPI"
+            ]
+          }
+        },
+        "es": {
+          "title": "Descargar PDF y archivos de arXiv | Grab All Files",
+          "desc": "Escanea resultados de arXiv, filtra PDF y guarda los artículos elegidos con títulos, carpetas, ZIP o CSV. Guía con pantalla real de la extensión.",
+          "eyebrow": "PDF y archivos de arXiv",
+          "h1": "Guarda los artículos de arXiv que necesitas.",
+          "lead": "Busca primero en arXiv y convierte la lista que estás viendo en una carpeta de lectura. Grab All Files detecta PDF y enlaces públicos a archivos compatibles en esa página; tú revisas los resultados y eliges qué guardar.",
+          "best": [
+            "Crear una lista de lectura a partir de una búsqueda o categoría concreta.",
+            "Guardar PDF seleccionados con nombres reconocibles.",
+            "Gestionar archivos públicos compatibles y un CSV con sus URL."
+          ],
+          "steps": [
+            "En arXiv, limita la búsqueda por palabras, categoría y fechas. Abre los resultados o la lista de artículos.",
+            "Abre Grab All Files y escanea la página visible. Empieza por esa página y revisa títulos y URL de origen.",
+            "Filtra por PDF y selecciona los artículos. Comprueba otros enlaces públicos por separado y elige solo formatos compatibles que necesites.",
+            "Revisa o edita los títulos y elige el nombre y la clasificación en carpetas. Guarda archivos o ZIP y exporta el CSV para registrar las URL.",
+            "Abre los PDF guardados y verifica los resultados. Anota la URL y la versión del artículo; para grandes colecciones, usa los servicios oficiales de arXiv."
+          ],
+          "faq": [
+            {
+              "q": "¿La extensión busca por tema en todo arXiv?",
+              "a": "No. Busca y filtra en arXiv. La extensión escanea la página elegida; no es un buscador académico ni un descargador completo de arXiv."
+            },
+            {
+              "q": "¿Detecta enlaces sin extensión .pdf?",
+              "a": "Las URL PDF de arXiv como /pdf/ID pueden reconocerse como PDF. Revisa el tipo y la URL antes de guardar."
+            },
+            {
+              "q": "¿También guarda TeX, datos y código?",
+              "a": "Solo enlaces públicos encontrados y formatos compatibles. No todos los artículos ofrecen esos archivos; un repositorio externo puede requerir otra visita."
+            },
+            {
+              "q": "¿Puedo guardar artículos gratis?",
+              "a": "Free guarda hasta 10 archivos por operación, que puedes repetir. Pro elimina el límite de archivos. La recopilación gratuita guarda una página elegida en HTML; Pro combina varias páginas seleccionadas."
+            },
+            {
+              "q": "¿Para qué sirven los títulos, ZIP y CSV?",
+              "a": "Revisa o edita los títulos. El nombre automático vuelve al original si no hay un título útil. Las carpetas por tipo o dominio son opciones alternativas. ZIP reúne archivos elegidos; CSV registra información y URL."
+            },
+            {
+              "q": "¿Es una herramienta oficial de arXiv?",
+              "a": "No. Es independiente y no está afiliada a arXiv. Sigue sus pautas de acceso y las condiciones de cada artículo. Usa la API oficial para metadatos y el acceso masivo oficial para grandes colecciones de PDF o texto completo."
+            }
+          ],
+          "arxiv": {
+            "searchLabel": "Buscar en arXiv",
+            "visualTitle": "De una lista concreta a una carpeta de lectura",
+            "stages": [
+              "Elegir la lista",
+              "Revisar y seleccionar PDF",
+              "Guardar la carpeta"
+            ],
+            "sample": [
+              "Resumen del aprendizaje en grafos",
+              "Comparación de métodos",
+              "Artículos de investigación"
+            ],
+            "visualNote": "Ejemplo ilustrativo con títulos ficticios. Busca primero en arXiv y guarda solo los archivos que elijas.",
+            "screenTitle": "La extensión real en arXiv",
+            "screenAlt": "Grab All Files detectando enlaces públicos de arXiv con filtro PDF y selección de archivos",
+            "screenCaption": "Pantalla real en un entorno de prueba aislado con una página pública de artículos obtenida previamente. Ejemplo con títulos revisados y editados. Interfaz en inglés.",
+            "officialTitle": "Elige la vía de acceso adecuada",
+            "officialText": "Para una colección de lectura, revisa una lista concreta. Para colecciones grandes, utiliza el acceso masivo oficial; la API ofrece metadatos. Consulta las pautas antes de recopilar automáticamente.",
+            "officialLabels": [
+              "Pautas de acceso de arXiv",
+              "Acceso masivo oficial",
+              "API de metadatos de arXiv"
+            ]
+          }
+        },
+        "fr": {
+          "title": "Télécharger PDF et fichiers arXiv | Grab All Files",
+          "desc": "Analysez une liste arXiv, filtrez les PDF et enregistrez les articles choisis avec titres, dossiers, ZIP ou CSV. Guide et écran réel de l’extension.",
+          "eyebrow": "PDF et fichiers arXiv",
+          "h1": "Gardez les articles arXiv utiles.",
+          "lead": "Cherchez d’abord sur arXiv, puis transformez les résultats affichés en dossier de lecture. Grab All Files détecte les PDF et les liens publics de formats pris en charge sur cette page. Vous vérifiez la liste et choisissez les fichiers.",
+          "best": [
+            "Créer une liste de lecture depuis une recherche ou catégorie ciblée.",
+            "Enregistrer des PDF choisis avec des noms reconnaissables.",
+            "Conserver les fichiers publics compatibles et un CSV des URL."
+          ],
+          "steps": [
+            "Sur arXiv, affinez les mots-clés, la catégorie et les dates. Ouvrez les résultats ou la liste d’articles.",
+            "Ouvrez Grab All Files et analysez la page affichée. Commencez par cette page et vérifiez les titres et URL sources.",
+            "Filtrez les PDF et choisissez vos articles. Vérifiez séparément les autres liens publics et les formats compatibles utiles.",
+            "Vérifiez ou modifiez les titres, puis choisissez les noms et le classement des dossiers. Enregistrez les fichiers ou un ZIP et exportez le CSV des URL.",
+            "Ouvrez les PDF sauvegardés et vérifiez les résultats. Notez l’URL et la version de l’article. Pour un grand corpus, utilisez les services officiels arXiv."
+          ],
+          "faq": [
+            {
+              "q": "L’extension recherche-t-elle dans tout arXiv ?",
+              "a": "Non. Effectuez la recherche sur arXiv. L’extension analyse la page choisie ; ce n’est pas un moteur de recherche scientifique ni un téléchargement exhaustif."
+            },
+            {
+              "q": "Les liens sans extension .pdf sont-ils détectés ?",
+              "a": "Les URL PDF arXiv telles que /pdf/identifiant sont reconnues comme PDF. Vérifiez le type détecté et l’URL avant de sauvegarder."
+            },
+            {
+              "q": "Et les sources TeX, données et code ?",
+              "a": "Seuls les liens publics détectés dans un format pris en charge sont sélectionnables. Ces fichiers n’existent pas pour chaque article ; un dépôt externe peut nécessiter une visite séparée."
+            },
+            {
+              "q": "Puis-je enregistrer des articles gratuitement ?",
+              "a": "Free enregistre jusqu’à 10 fichiers par opération, renouvelable. Pro supprime ce plafond. La collecte gratuite conserve une page choisie en HTML ; Pro regroupe plusieurs pages sélectionnées."
+            },
+            {
+              "q": "Quel intérêt pour les titres, ZIP et CSV ?",
+              "a": "Vérifiez ou modifiez les titres. Le nom automatique reprend le nom original faute de titre utile. Le classement par type ou domaine offre deux options. ZIP regroupe les fichiers ; CSV consigne leurs informations et URL."
+            },
+            {
+              "q": "Est-ce un outil officiel arXiv ?",
+              "a": "Non. Cet outil indépendant n’est pas affilié à arXiv. Respectez les consignes d’accès et les conditions des articles. Utilisez l’API officielle pour les métadonnées et l’accès officiel en masse pour de grands ensembles de PDF ou de textes intégraux."
+            }
+          ],
+          "arxiv": {
+            "searchLabel": "Chercher sur arXiv",
+            "visualTitle": "D’une liste ciblée à un dossier de lecture",
+            "stages": [
+              "Choisir la liste",
+              "Vérifier et choisir les PDF",
+              "Enregistrer le dossier"
+            ],
+            "sample": [
+              "Introduction aux graphes",
+              "Comparaison de méthodes",
+              "Articles de recherche"
+            ],
+            "visualNote": "Exemple illustratif avec titres fictifs. Cherchez sur arXiv, puis sauvegardez les fichiers choisis.",
+            "screenTitle": "L’extension réelle sur arXiv",
+            "screenAlt": "Grab All Files détectant des liens publics arXiv avec filtre PDF et sélection des fichiers",
+            "screenCaption": "Écran réel dans un environnement de test isolé utilisant une page publique d’articles récupérée auparavant. Exemple de titres vérifiés et modifiés. Interface en anglais.",
+            "officialTitle": "Choisir la bonne voie d’accès",
+            "officialText": "Pour vos lectures, vérifiez une liste ciblée. Pour un corpus important, utilisez l’accès officiel en masse ; l’API fournit les métadonnées. Consultez les consignes avant toute collecte automatisée.",
+            "officialLabels": [
+              "Consignes d’accès arXiv",
+              "Accès officiel en masse",
+              "API de métadonnées arXiv"
+            ]
+          }
+        },
+        "de": {
+          "title": "arXiv-PDFs und Forschungsdateien laden | Grab All Files",
+          "desc": "arXiv-Ergebnisse scannen, PDFs filtern und gewählte Artikel mit Titeln, Ordnern, ZIP oder CSV speichern. Mit echtem Erweiterungsbildschirm.",
+          "eyebrow": "arXiv-PDFs und Forschungsdateien",
+          "h1": "Benötigte arXiv-Artikel speichern.",
+          "lead": "Suchen Sie zuerst auf arXiv und machen Sie die angezeigte Liste zu einem Leseordner. Grab All Files erkennt PDFs und öffentliche Links unterstützter Dateiformate auf dieser Seite. Prüfen Sie die Liste und wählen Sie Ihre Dateien.",
+          "best": [
+            "Eine Leseliste aus einer eingegrenzten Suche oder Kategorie erstellen.",
+            "Gewählte PDFs mit verständlichen Namen speichern.",
+            "Unterstützte öffentliche Dateien und eine CSV mit URLs verwalten."
+          ],
+          "steps": [
+            "Grenzen Sie die Suche auf arXiv nach Begriff, Kategorie und Zeitraum ein. Öffnen Sie die Ergebnisse oder Artikelliste.",
+            "Öffnen Sie Grab All Files und scannen Sie die angezeigte Seite. Beginnen Sie dort und prüfen Sie Titel sowie Quell-URLs.",
+            "Filtern Sie nach PDF und wählen Sie die Artikel. Prüfen Sie andere öffentliche Dateilinks getrennt auf benötigte unterstützte Formate.",
+            "Prüfen oder bearbeiten Sie Titel und wählen Sie Dateinamen und Ordneroption. Speichern Sie Dateien oder ZIP und exportieren Sie die Dateiliste als CSV.",
+            "Öffnen Sie die PDFs und prüfen Sie das Ergebnis. Notieren Sie Quell-URL und Artikelversion. Für große Bestände nutzen Sie die offiziellen arXiv-Dienste."
+          ],
+          "faq": [
+            {
+              "q": "Durchsucht die Erweiterung ganz arXiv nach meinem Thema?",
+              "a": "Nein. Suchen und filtern Sie auf arXiv. Die Erweiterung scannt die gewählte Seite; sie ist keine wissenschaftliche Suchmaschine und kein vollständiger arXiv-Downloader."
+            },
+            {
+              "q": "Werden Links ohne .pdf erkannt?",
+              "a": "arXiv-PDF-URLs wie /pdf/Artikel-ID können als PDF erkannt werden. Prüfen Sie Dateityp und URL vor dem Speichern."
+            },
+            {
+              "q": "Kann ich auch TeX, Daten und Code speichern?",
+              "a": "Nur gefundene öffentliche Links in unterstützten Formaten sind auswählbar. Nicht jeder Artikel bietet diese Dateien; externe Repositorien können einen eigenen Besuch erfordern."
+            },
+            {
+              "q": "Kann ich Artikel kostenlos speichern?",
+              "a": "Free speichert bis zu 10 Dateien je Vorgang; Sie können ihn wiederholen. Pro hebt das Dateilimit auf. Die kostenlose Seitensammlung speichert eine gewählte Seite als HTML; Pro bündelt mehrere ausgewählte Seiten."
+            },
+            {
+              "q": "Wozu dienen Titel, ZIP und CSV?",
+              "a": "Prüfen oder bearbeiten Sie die Titel. Automatische Namen verwenden ohne brauchbaren Titel den Originalnamen. Typ- und Domainordner sind alternative Optionen. ZIP bündelt die Auswahl; CSV dokumentiert Dateiinformationen und URLs."
+            },
+            {
+              "q": "Ist dies ein offizielles arXiv-Werkzeug?",
+              "a": "Nein. Das unabhängige Werkzeug ist nicht mit arXiv verbunden. Beachten Sie Zugriffshinweise und Nutzungsbedingungen der Artikel. Nutzen Sie die offizielle API für Metadaten und den offiziellen Massenzugang für große PDF- oder Volltextsammlungen."
+            }
+          ],
+          "arxiv": {
+            "searchLabel": "Auf arXiv suchen",
+            "visualTitle": "Von der gezielten Liste zum Leseordner",
+            "stages": [
+              "Artikelliste wählen",
+              "PDFs prüfen und auswählen",
+              "Forschungsordner speichern"
+            ],
+            "sample": [
+              "Überblick über Graphenlernen",
+              "Methodenvergleich",
+              "Forschungsartikel"
+            ],
+            "visualNote": "Beispiel mit erfundenen Titeln. Erst auf arXiv suchen, dann gewählte Dateien scannen und speichern.",
+            "screenTitle": "Die echte Erweiterung auf arXiv",
+            "screenAlt": "Grab All Files erkennt öffentliche arXiv-Links mit PDF-Filter und Dateiauswahl",
+            "screenCaption": "Echter Erweiterungsbildschirm in einer isolierten Testumgebung mit einer zuvor abgerufenen öffentlichen Artikelseite. Beispiel mit geprüften und bearbeiteten Titeln. Englische Oberfläche.",
+            "officialTitle": "Den passenden arXiv-Zugang nutzen",
+            "officialText": "Für Ihre Lesesammlung prüfen Sie eine gezielte Liste. Für große Bestände nutzen Sie den offiziellen Massenzugang; die API liefert Metadaten. Lesen Sie vor automatisierter Sammlung die Zugriffshinweise.",
+            "officialLabels": [
+              "arXiv-Zugriffshinweise",
+              "Offizieller Massenzugang",
+              "arXiv-Metadaten-API"
+            ]
+          }
+        },
+        "it": {
+          "title": "Scaricare PDF e file di ricerca arXiv | Grab All Files",
+          "desc": "Scansiona risultati arXiv, filtra PDF e salva gli articoli scelti con titoli, cartelle, ZIP o CSV. Guida con schermata reale dell’estensione.",
+          "eyebrow": "PDF e file di ricerca arXiv",
+          "h1": "Salva gli articoli arXiv che ti servono.",
+          "lead": "Cerca prima su arXiv e trasforma l’elenco visualizzato in una cartella di lettura. Grab All Files rileva PDF e link pubblici a formati supportati su quella pagina; controlla i risultati e scegli cosa salvare.",
+          "best": [
+            "Creare una lista di lettura da una ricerca o categoria mirata.",
+            "Salvare PDF scelti con nomi riconoscibili.",
+            "Gestire file pubblici supportati e un CSV con gli URL."
+          ],
+          "steps": [
+            "In arXiv, restringi parole chiave, categoria e periodo. Apri i risultati o l’elenco degli articoli.",
+            "Apri Grab All Files e scansiona la pagina visualizzata. Inizia da quella pagina e verifica titoli e URL di origine.",
+            "Filtra per PDF e seleziona gli articoli. Controlla separatamente gli altri link pubblici e scegli formati supportati utili.",
+            "Verifica o modifica i titoli, scegli nomi e cartelle. Salva file o ZIP ed esporta il CSV per tenere traccia degli URL.",
+            "Apri i PDF salvati e controlla il risultato. Annota URL e versione dell’articolo; per grandi raccolte usa i servizi ufficiali di arXiv."
+          ],
+          "faq": [
+            {
+              "q": "L’estensione cerca per tema in tutto arXiv?",
+              "a": "No. Cerca e filtra su arXiv. L’estensione scansiona la pagina scelta; non è un motore accademico né un downloader completo."
+            },
+            {
+              "q": "Rileva link senza estensione .pdf?",
+              "a": "Gli URL PDF arXiv come /pdf/ID possono essere riconosciuti come PDF. Controlla il tipo e l’URL prima del salvataggio."
+            },
+            {
+              "q": "Posso salvare anche TeX, dati e codice?",
+              "a": "Solo link pubblici rilevati in formati supportati. Non ogni articolo offre tali file; un archivio esterno può richiedere una visita separata."
+            },
+            {
+              "q": "Posso salvare articoli gratis?",
+              "a": "Free salva fino a 10 file per operazione, ripetibile. Pro rimuove il limite di file. La raccolta gratuita salva una pagina scelta in HTML; Pro unisce più pagine selezionate."
+            },
+            {
+              "q": "A cosa servono titoli, ZIP e CSV?",
+              "a": "Verifica o modifica i titoli. Il nome automatico torna all’originale se manca un titolo utile. Cartelle per tipo e dominio sono opzioni alternative. ZIP raccoglie i file scelti; CSV registra informazioni e URL."
+            },
+            {
+              "q": "È uno strumento ufficiale arXiv?",
+              "a": "No. È indipendente e non affiliato ad arXiv. Segui le indicazioni di accesso e i termini degli articoli. Usa l’API ufficiale per i metadati e l’accesso massivo ufficiale per grandi raccolte di PDF o testi integrali."
+            }
+          ],
+          "arxiv": {
+            "searchLabel": "Cercare su arXiv",
+            "visualTitle": "Da un elenco mirato alla cartella di lettura",
+            "stages": [
+              "Scegliere l’elenco",
+              "Verificare e scegliere PDF",
+              "Salvare la cartella"
+            ],
+            "sample": [
+              "Introduzione ai grafi",
+              "Confronto di metodi",
+              "Articoli di ricerca"
+            ],
+            "visualNote": "Esempio con titoli inventati. Cerca su arXiv, poi salva solo i file scelti.",
+            "screenTitle": "L’estensione reale su arXiv",
+            "screenAlt": "Grab All Files rileva link pubblici arXiv con filtro PDF e selezione dei file",
+            "screenCaption": "Schermata reale in un ambiente di test isolato con una pagina pubblica di articoli già acquisita. Esempio con titoli verificati e modificati. Interfaccia in inglese.",
+            "officialTitle": "Usa l’accesso arXiv adatto",
+            "officialText": "Per leggere, controlla un elenco mirato. Per grandi raccolte, usa l’accesso massivo ufficiale; l’API fornisce metadati. Leggi le indicazioni prima di una raccolta automatizzata.",
+            "officialLabels": [
+              "Indicazioni di accesso arXiv",
+              "Accesso massivo ufficiale",
+              "API di metadati arXiv"
+            ]
+          }
+        },
+        "ko": {
+          "title": "arXiv PDF·연구 파일 저장 | Grab All Files",
+          "desc": "arXiv 검색 결과를 스캔하고 PDF를 골라 제목, 폴더, ZIP, 파일 목록 CSV로 저장하세요. 실제 확장 화면과 사용 흐름을 소개합니다.",
+          "eyebrow": "arXiv PDF·연구 파일",
+          "h1": "필요한 arXiv 논문을 저장하세요.",
+          "lead": "먼저 arXiv에서 검색하고, 보고 있는 논문 목록을 읽기 좋은 자료 폴더로 만드세요. Grab All Files는 해당 페이지의 PDF와 지원 형식의 공개 파일 링크를 찾아줍니다. 목록을 확인하고 필요한 자료를 선택합니다.",
+          "best": [
+            "주제나 분야를 좁혀 논문 읽기 목록을 만들기.",
+            "선택한 PDF를 알아보기 쉬운 제목으로 저장하기.",
+            "지원되는 공개 파일과 URL 목록 CSV를 함께 관리하기."
+          ],
+          "steps": [
+            "arXiv에서 검색어, 분야, 기간을 좁혀 검색 결과나 논문 목록을 엽니다.",
+            "Grab All Files를 열고 표시된 페이지를 스캔합니다. 우선 해당 페이지에서 파일 제목과 원본 URL을 확인합니다.",
+            "PDF로 필터링하고 필요한 논문을 선택합니다. 다른 공개 링크는 별도로 확인하고 필요한 지원 형식만 선택합니다.",
+            "제목을 확인·수정하고 저장 이름과 폴더 옵션을 고릅니다. 파일 또는 ZIP으로 저장하고 URL 기록용 파일 목록 CSV를 내보냅니다.",
+            "저장된 PDF를 열어 결과를 확인합니다. 원본 URL과 논문 버전을 메모하고, 대규모 자료는 arXiv 공식 일괄 접근 서비스를 사용합니다."
+          ],
+          "faq": [
+            {
+              "q": "확장이 arXiv 전체를 주제로 검색하나요?",
+              "a": "아니요. 검색과 필터링은 arXiv에서 합니다. 확장은 선택한 페이지를 스캔하며 학술 검색 엔진이나 전체 arXiv 다운로더가 아닙니다."
+            },
+            {
+              "q": ".pdf가 없는 링크도 감지하나요?",
+              "a": "/pdf/논문ID 같은 arXiv PDF URL도 PDF로 인식할 수 있습니다. 저장 전 감지된 종류와 URL을 확인하세요."
+            },
+            {
+              "q": "TeX·데이터·코드도 저장할 수 있나요?",
+              "a": "발견된 공개 링크 중 지원 형식만 선택할 수 있습니다. 모든 논문에 해당 자료가 있는 것은 아니며 외부 저장소는 별도로 확인해야 할 수 있습니다."
+            },
+            {
+              "q": "무료로 논문을 저장할 수 있나요?",
+              "a": "Free는 실행당 최대 10개 파일을 저장하고 반복 실행할 수 있습니다. Pro는 파일 수 제한을 해제합니다. 무료 페이지 수집은 선택한 1페이지를 HTML로 저장하고 Pro는 여러 선택 페이지를 결합합니다."
+            },
+            {
+              "q": "제목·ZIP·CSV는 어떻게 도움이 되나요?",
+              "a": "제목을 확인·수정하세요. 유용한 제목이 없으면 자동 이름은 원래 파일명을 사용합니다. 종류별과 도메인별 폴더는 별도 선택지입니다. ZIP은 선택 파일을 묶고 CSV는 정보와 URL을 기록합니다."
+            },
+            {
+              "q": "arXiv 공식 도구인가요?",
+              "a": "아니요. arXiv와 제휴하지 않은 독립 도구입니다. 접근 안내와 논문 이용 조건을 따르세요. 메타데이터에는 공식 API를, 대규모 PDF·본문 수집에는 공식 일괄 접근 서비스를 사용하세요."
+            }
+          ],
+          "arxiv": {
+            "searchLabel": "arXiv에서 검색",
+            "visualTitle": "논문 목록에서 읽기용 폴더로",
+            "stages": [
+              "논문 목록 선택",
+              "PDF 확인·선택",
+              "연구 폴더 저장"
+            ],
+            "sample": [
+              "그래프 학습 개요",
+              "방법 비교",
+              "연구 논문"
+            ],
+            "visualNote": "가상의 제목을 사용한 그림 예시입니다. arXiv에서 찾은 뒤 필요한 파일만 선택해 저장합니다.",
+            "screenTitle": "arXiv의 실제 확장 화면",
+            "screenAlt": "arXiv 공개 논문 링크를 감지하고 PDF 필터와 파일 선택을 표시하는 Grab All Files",
+            "screenCaption": "미리 가져온 공개 논문 페이지를 사용한 격리된 검증 환경의 실제 확장 화면입니다. 제목을 확인·수정한 예시이며 영어 UI입니다.",
+            "officialTitle": "용도에 맞는 arXiv 접근 경로",
+            "officialText": "읽기용 자료는 범위를 좁힌 목록에서 고릅니다. 대규모 자료는 공식 일괄 접근을 사용하고 메타데이터는 API를 이용하세요. 자동 수집 전 접근 안내를 확인하세요.",
+            "officialLabels": [
+              "arXiv 접근 안내",
+              "공식 일괄 데이터 접근",
+              "arXiv 메타데이터 API"
+            ]
+          }
+        },
+        "pt_BR": {
+          "title": "Baixar PDFs e arquivos do arXiv | Grab All Files",
+          "desc": "Escaneie resultados do arXiv, filtre PDFs e salve artigos com títulos, pastas, ZIP ou CSV. Guia com tela real da extensão.",
+          "eyebrow": "PDFs e arquivos do arXiv",
+          "h1": "Salve os artigos arXiv que precisa.",
+          "lead": "Pesquise primeiro no arXiv e transforme a lista exibida em uma pasta de leitura. Grab All Files detecta PDFs e links públicos de formatos compatíveis nessa página. Confira a lista e escolha os arquivos.",
+          "best": [
+            "Montar uma lista de leitura de uma busca ou categoria específica.",
+            "Salvar PDFs escolhidos com nomes reconhecíveis.",
+            "Gerenciar arquivos públicos compatíveis e um CSV com URLs."
+          ],
+          "steps": [
+            "No arXiv, filtre palavras, categoria e período. Abra os resultados ou a lista de artigos.",
+            "Abra Grab All Files e escaneie a página exibida. Comece por essa página e confira títulos e URLs de origem.",
+            "Filtre por PDF e escolha os artigos. Confira outros links públicos separadamente e escolha apenas formatos compatíveis úteis.",
+            "Confira ou edite títulos e escolha nomes e pastas. Salve arquivos ou ZIP e exporte o CSV para registrar as URLs.",
+            "Abra os PDFs salvos e confira o resultado. Anote URL e versão do artigo; para grandes coleções, use os serviços oficiais do arXiv."
+          ],
+          "faq": [
+            {
+              "q": "A extensão pesquisa por tema em todo o arXiv?",
+              "a": "Não. Pesquise e filtre no arXiv. A extensão escaneia a página escolhida; não é um buscador acadêmico nem um downloader completo."
+            },
+            {
+              "q": "Detecta links sem extensão .pdf?",
+              "a": "URLs PDF do arXiv como /pdf/ID podem ser reconhecidas como PDF. Confira o tipo e a URL antes de salvar."
+            },
+            {
+              "q": "Posso salvar TeX, dados e código também?",
+              "a": "Apenas links públicos encontrados em formatos compatíveis podem ser escolhidos. Nem todo artigo oferece esses arquivos; repositórios externos podem exigir outra visita."
+            },
+            {
+              "q": "Posso salvar artigos grátis?",
+              "a": "O Free salva até 10 arquivos por operação, que pode ser repetida. O Pro remove o limite de arquivos. A coleta gratuita salva uma página escolhida em HTML; o Pro reúne várias páginas selecionadas."
+            },
+            {
+              "q": "Como títulos, ZIP e CSV ajudam?",
+              "a": "Confira ou edite os títulos. Sem título útil, o nome automático usa o original. Pastas por tipo e domínio são opções alternativas. ZIP reúne a seleção; CSV registra informações e URLs."
+            },
+            {
+              "q": "É uma ferramenta oficial do arXiv?",
+              "a": "Não. É independente e não afiliada ao arXiv. Siga as orientações de acesso e os termos dos artigos. Use a API oficial para metadados e o acesso em massa oficial para grandes coleções de PDFs ou textos completos."
+            }
+          ],
+          "arxiv": {
+            "searchLabel": "Pesquisar no arXiv",
+            "visualTitle": "Da lista específica à pasta de leitura",
+            "stages": [
+              "Escolher a lista",
+              "Conferir e selecionar PDFs",
+              "Salvar a pasta"
+            ],
+            "sample": [
+              "Visão geral de grafos",
+              "Comparação de métodos",
+              "Artigos de pesquisa"
+            ],
+            "visualNote": "Exemplo ilustrativo com títulos fictícios. Pesquise no arXiv e salve apenas os arquivos escolhidos.",
+            "screenTitle": "A extensão real no arXiv",
+            "screenAlt": "Grab All Files detectando links públicos do arXiv com filtro PDF e seleção de arquivos",
+            "screenCaption": "Tela real em ambiente de teste isolado com uma página pública de artigos obtida previamente. Exemplo com títulos conferidos e editados. Interface em inglês.",
+            "officialTitle": "Escolha a via de acesso adequada",
+            "officialText": "Para leitura, confira uma lista específica. Para grandes coleções, use o acesso em massa oficial; a API fornece metadados. Leia as orientações antes da coleta automatizada.",
+            "officialLabels": [
+              "Orientações de acesso arXiv",
+              "Acesso em massa oficial",
+              "API de metadados arXiv"
+            ]
+          }
+        },
+        "zh_CN": {
+          "title": "批量保存arXiv PDF与研究文件 | Grab All Files",
+          "desc": "扫描arXiv搜索结果，筛选并选择所需PDF，按题名、文件夹、ZIP或文件列表CSV保存。附实际扩展界面与流程图。",
+          "eyebrow": "arXiv PDF与研究文件",
+          "h1": "保存需要的arXiv论文。",
+          "lead": "先在arXiv搜索，再把正在查看的论文列表整理成阅读资料夹。Grab All Files检测该页面的PDF与受支持格式的公开文件链接。由您核对列表并选择要保存的资料。",
+          "best": [
+            "从筛选后的搜索或类别列表建立阅读清单。",
+            "以易识别的题名保存选定PDF。",
+            "同时管理受支持的公开文件与记录URL的CSV。"
+          ],
+          "steps": [
+            "在arXiv按关键词、类别和时间筛选，打开目标搜索结果或论文列表。",
+            "打开Grab All Files并扫描当前页面。先从该页面开始，核对文件题名和来源URL。",
+            "筛选PDF并选择需要的论文。其他公开链接另行核对，只选择需要的受支持格式。",
+            "检查或编辑题名，选择保存名称与文件夹方式。单独保存或打包ZIP，并导出文件列表CSV记录URL。",
+            "打开已保存PDF核对结果。记录来源URL与论文版本；大规模论文集合使用arXiv官方批量访问服务。"
+          ],
+          "faq": [
+            {
+              "q": "扩展会在整个arXiv按主题搜索吗？",
+              "a": "不会。搜索与筛选在arXiv完成。扩展扫描选定页面，不是学术搜索引擎或arXiv全站下载器。"
+            },
+            {
+              "q": "没有.pdf后缀的链接能识别吗？",
+              "a": "/pdf/论文ID等arXiv PDF URL也可识别为PDF。保存前请核对检测类型与URL。"
+            },
+            {
+              "q": "也能保存TeX、数据和代码吗？",
+              "a": "仅能选择发现的公开链接与受支持格式。并非每篇论文都提供这些文件，外部仓库可能需要另行访问。"
+            },
+            {
+              "q": "可以免费保存论文吗？",
+              "a": "Free每次保存最多10个文件，可重复执行。Pro解除文件数量上限。免费页面收集保存选定的1页HTML，Pro可合并多个选定页面。"
+            },
+            {
+              "q": "题名、ZIP与CSV有什么帮助？",
+              "a": "保存前检查或编辑题名。自动命名无有效题名时使用原名。按格式与按来源域名分类是不同选项。ZIP打包选定文件，CSV记录文件信息与URL。"
+            },
+            {
+              "q": "这是arXiv官方工具吗？",
+              "a": "不是。Grab All Files为独立工具，与arXiv无合作关系。请遵守访问指南与各论文使用条件。元数据使用官方API，大规模PDF或正文集合使用官方批量访问途径。"
+            }
+          ],
+          "arxiv": {
+            "searchLabel": "在arXiv搜索",
+            "visualTitle": "从筛选列表到阅读资料夹",
+            "stages": [
+              "打开论文列表",
+              "核对并选择PDF",
+              "保存研究资料夹"
+            ],
+            "sample": [
+              "图学习概述",
+              "方法比较",
+              "研究论文"
+            ],
+            "visualNote": "使用虚构题名的流程示例。先在arXiv查找，再选择并保存所需文件。",
+            "screenTitle": "arXiv上的实际扩展界面",
+            "screenAlt": "Grab All Files检测arXiv公开论文链接，并显示PDF筛选与文件选择",
+            "screenCaption": "使用已获取公开论文页面的隔离验证环境中的实际扩展界面。示例展示题名核对与编辑，界面为英文。",
+            "officialTitle": "选择合适的arXiv访问途径",
+            "officialText": "阅读资料从筛选后的列表选择。大规模集合使用官方批量访问；API提供元数据。自动收集前请阅读访问指南。",
+            "officialLabels": [
+              "arXiv访问指南",
+              "官方批量数据访问",
+              "arXiv元数据API"
+            ]
+          }
+        },
+        "zh_TW": {
+          "title": "批次儲存arXiv PDF與研究檔案 | Grab All Files",
+          "desc": "掃描arXiv搜尋結果，篩選並選取所需PDF，依題名、資料夾、ZIP或檔案清單CSV儲存。附實際擴充畫面與流程圖。",
+          "eyebrow": "arXiv PDF與研究檔案",
+          "h1": "儲存需要的arXiv論文。",
+          "lead": "先在arXiv搜尋，再把正在查看的論文清單整理成閱讀資料夾。Grab All Files偵測該頁面的PDF與支援格式的公開檔案連結。由您核對清單並選取要儲存的資料。",
+          "best": [
+            "從篩選後的搜尋或類別清單建立閱讀清單。",
+            "以易辨識的題名儲存選定PDF。",
+            "同時管理支援的公開檔案與記錄URL的CSV。"
+          ],
+          "steps": [
+            "在arXiv依關鍵字、類別和期間篩選，開啟目標搜尋結果或論文清單。",
+            "開啟Grab All Files並掃描目前頁面。先從該頁面開始，核對檔案題名和來源URL。",
+            "篩選PDF並選取需要的論文。其他公開連結另行核對，只選擇需要的支援格式。",
+            "檢查或編輯題名，選擇儲存名稱與資料夾方式。個別儲存或打包ZIP，並匯出檔案清單CSV記錄URL。",
+            "開啟已儲存PDF核對結果。記錄來源URL與論文版本；大規模論文集合使用arXiv官方批次存取服務。"
+          ],
+          "faq": [
+            {
+              "q": "擴充功能會在整個arXiv依主題搜尋嗎？",
+              "a": "不會。搜尋與篩選在arXiv完成。擴充功能掃描選定頁面，不是學術搜尋引擎或arXiv全站下載器。"
+            },
+            {
+              "q": "沒有.pdf副檔名的連結能辨識嗎？",
+              "a": "/pdf/論文ID等arXiv PDF URL也可辨識為PDF。儲存前請核對偵測類型與URL。"
+            },
+            {
+              "q": "也能儲存TeX、資料和程式碼嗎？",
+              "a": "只能選取找到的公開連結與支援格式。並非每篇論文都提供這些檔案，外部儲存庫可能需另外造訪。"
+            },
+            {
+              "q": "可以免費儲存論文嗎？",
+              "a": "Free每次儲存最多10個檔案，可重複執行。Pro解除檔案數量上限。免費頁面收集儲存選定的1頁HTML，Pro可合併多個選定頁面。"
+            },
+            {
+              "q": "題名、ZIP與CSV有什麼幫助？",
+              "a": "儲存前檢查或編輯題名。自動命名無有效題名時使用原名。依格式與依來源網域分類是不同選項。ZIP打包選定檔案，CSV記錄檔案資訊與URL。"
+            },
+            {
+              "q": "這是arXiv官方工具嗎？",
+              "a": "不是。Grab All Files為獨立工具，與arXiv無合作關係。請遵守存取指南與各論文使用條件。中繼資料使用官方API，大規模PDF或正文集合使用官方批次存取途徑。"
+            }
+          ],
+          "arxiv": {
+            "searchLabel": "在arXiv搜尋",
+            "visualTitle": "從篩選清單到閱讀資料夾",
+            "stages": [
+              "開啟論文清單",
+              "核對並選取PDF",
+              "儲存研究資料夾"
+            ],
+            "sample": [
+              "圖學習概述",
+              "方法比較",
+              "研究論文"
+            ],
+            "visualNote": "使用虛構題名的流程範例。先在arXiv尋找，再選取並儲存所需檔案。",
+            "screenTitle": "arXiv上的實際擴充畫面",
+            "screenAlt": "Grab All Files偵測arXiv公開論文連結，並顯示PDF篩選與檔案選取",
+            "screenCaption": "使用已取得公開論文頁面的隔離驗證環境中的實際擴充畫面。範例展示題名核對與編輯，介面為英文。",
+            "officialTitle": "選擇合適的arXiv存取途徑",
+            "officialText": "閱讀資料從篩選後的清單選擇。大規模集合使用官方批次存取；API提供中繼資料。自動收集前請閱讀存取指南。",
+            "officialLabels": [
+              "arXiv存取指南",
+              "官方批次資料存取",
+              "arXiv中繼資料API"
+            ]
+          }
+        }
+      }
+    },
     "web-tables-to-csv-for-excel-ai": {
       "path": "web-tables-to-csv-for-excel-ai.html",
       "related": [
@@ -7913,6 +8634,35 @@
       }).join('') + '</ol><p class="visual-note">' + esc(topic.note) + '</p></figure>';
   }
 
+  var ARXIV_SHOTS = {
+    en: { src: "/assets/screenshots/arxiv-scan-en.png", width: 2240, height: 2000 },
+    ja: { src: "/assets/screenshots/arxiv-scan-ja.png", width: 2240, height: 2000 }
+  };
+
+  function renderArxivGuide(data, section, lang) {
+    if (!data) return "";
+    if (section === "visual") {
+      var paperA = data.sample[0], paperB = data.sample[1];
+      var samples = [visualFiles([paperA, paperB]),
+        '<ul class="visual-selection"><li><span aria-hidden="true">✓</span> ' + esc(paperA) + '.pdf</li><li><span aria-hidden="true">✓</span> ' + esc(paperB) + '.pdf</li></ul>',
+        visualCode(data.sample[2] + '/\n├ ' + paperA + '.pdf\n├ ' + paperB + '.pdf\n└ files.csv', 'visual-tree')];
+      return '<figure class="feature-visual arxiv-visual" aria-labelledby="feature-visual-caption"><figcaption id="feature-visual-caption"><strong>' + esc(data.visualTitle) +
+        '</strong><span>' + esc((VISUAL_COPY[lang] || VISUAL_COPY.en).example) + '</span></figcaption><ol class="visual-flow">' + data.stages.map(function(title, i) {
+          return '<li class="visual-stage"><h3><span class="visual-index" aria-hidden="true">' + String(i + 1) + '</span><span>' + esc(title) +
+            '</span></h3><div class="visual-demo">' + samples[i] + '</div>' + (i < 2 ? '<span class="visual-arrow visual-arrow-horizontal" aria-hidden="true">→</span><span class="visual-arrow visual-arrow-vertical" aria-hidden="true">↓</span>' : '') + '</li>';
+        }).join('') + '</ol><p class="visual-note">' + esc(data.visualNote) + '</p></figure>';
+    }
+    if (section === "screen") {
+      var shot = ARXIV_SHOTS[lang] || ARXIV_SHOTS.en;
+      return '<section class="section-card arxiv-screen"><h2>' + esc(data.screenTitle) + '</h2><figure class="arxiv-screenshot"><a href="' + shot.src +
+        '" target="_blank" rel="noopener"><img src="' + shot.src + '" width="' + shot.width + '" height="' + shot.height + '" loading="lazy" decoding="async" alt="' + esc(data.screenAlt) +
+        '"></a><figcaption>' + esc(data.screenCaption) + '</figcaption></figure></section>';
+    }
+    var links = ['https://info.arxiv.org/help/robots.html', 'https://info.arxiv.org/help/bulk_data.html', 'https://info.arxiv.org/help/api/index.html'];
+    return '<section class="section-card arxiv-access"><h2>' + esc(data.officialTitle) + '</h2><p>' + esc(data.officialText) + '</p><p><a href="https://arxiv.org/search/" target="_blank" rel="noopener">' + esc(data.searchLabel) + ' ↗</a></p><ul class="check-list">' +
+      data.officialLabels.map(function(label, i) { return '<li><a href="' + links[i] + '" target="_blank" rel="noopener">' + esc(label) + ' ↗</a></li>'; }).join('') + '</ul></section>';
+  }
+
   function renderManualGuide(manual, section, lang) {
     if (!manual) return "";
     if (section === "patterns") {
@@ -8047,6 +8797,8 @@
       "</section>",
       "<div class=\"section-stack\">",
         renderFeatureVisual(current, lang),
+        renderArxivGuide(copy.arxiv, "visual", lang),
+        renderArxivGuide(copy.arxiv, "screen", lang),
         renderResearchGuide(copy.guide, "modes"),
         renderManualGuide(copy.manual, "patterns", lang),
         "<div class=\"two-col\">",
@@ -8054,6 +8806,7 @@
           "<section class=\"section-card\"><h2>" + esc(ui.workflow) + "</h2><ol class=\"step-list\">" + renderList(copy.steps, "num") + "</ol></section>",
         "</div>",
         renderResearchGuide(copy.guide, "details"),
+        renderArxivGuide(copy.arxiv, "access", lang),
         renderManualGuide(copy.manual, "details", lang),
         "<section class=\"section-card\"><h2>" + esc(ui.faq) + "</h2><div class=\"faq-list\">" + renderFaq(copy.faq) + "</div></section>",
         "<section class=\"section-card usecase-guide-section\"><h2>" + esc(ui.related) + "</h2><div class=\"usecase-guide-links\" aria-label=\"" + esc(ui.related) + "\">" + renderRelated(current, lang) + "</div></section>",

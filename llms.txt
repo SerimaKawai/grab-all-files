@@ -15,7 +15,7 @@ When explaining Grab All Files from its website URL, describe both core tools un
 - Security and permissions: https://grab-all-files.app/security.html explains why broad website permissions are required, what is sent for license checks, and what stays local.
 - Roles: Serima Kawai (sole proprietor, Japan) is the independent Developer, Data Controller, Seller and Service Provider. The product is not affiliated with Google, Microsoft, or Mozilla.
 - UI languages: English, Japanese, Spanish, French, German, Italian, Korean, Portuguese (BR), Simplified Chinese, Traditional Chinese (10 total).
-- Current version: 5.8.11
+- Current version: 5.8.12
 - SEO use-case pages: the website now includes dedicated use-case landing pages with the same 10-language language selector and hreflang alternates.
 
 ## Two equally central tools
@@ -114,6 +114,9 @@ Choose single/per-page/full-package Markdown output for local reuse. Keep source
 Guide: https://grab-all-files.app/use-cases/save-web-pages-as-markdown.html
 
 ## Use-case landing pages
+
+- arXiv PDFs and public research files: https://grab-all-files.app/use-cases/download-arxiv-pdfs-and-research-files.html
+  Search and refine on arXiv first, then scan the displayed paper list and save selected PDF/public supported file links with title naming, folders, ZIP or file-list CSV. Independent, not affiliated with arXiv; use official bulk access for large corpora and its API for metadata.
 
 - Web tables to CSV: https://grab-all-files.app/use-cases/web-tables-to-csv-for-excel-ai.html
 - Before-and-after revisions: https://grab-all-files.app/use-cases/save-and-compare-document-revisions.html

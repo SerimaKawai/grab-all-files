@@ -572,3 +572,8 @@ footer {
   .store-btn { width: 100%; }
   .store-btn::after { margin-left: auto; }
 }
+
+.arxiv-screenshot { margin: 0; }
+.arxiv-screenshot img { display: block; width: 100%; height: auto; border: 1px solid var(--border-strong); border-radius: 12px; }
+.arxiv-screenshot figcaption { margin-top: .9rem; color: var(--text-muted); font-size: 1rem; line-height: 1.65; }
+.arxiv-access p { margin-bottom: 1rem; }
