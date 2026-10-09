@@ -212,16 +212,19 @@
       gap: 1.1rem;
       margin-top: 2.2rem;
     }
-    .section-card { padding: 1.35rem; }
+    .section-card { min-width: 0; padding: 1.35rem; }
     .section-card p, .section-card li, td {
       color: var(--text-muted);
       font-size: 0.94rem;
     }
+    .table-scroll { min-width: 0; max-width: 100%; overflow-x: auto; }
+    .table-scroll:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
       table-layout: fixed;
+      min-width: 560px;
     }
     th, td {
       border: 1px solid var(--border);
@@ -351,7 +354,7 @@
   </header>
 
   <main id="security-root">
-<section class="hero"><div><div class="eyebrow"><span>✓</span><span>ファイルはアップロードされません</span></div><h1>Grab All Files のセキュリティ、プライバシー、権限</h1><p class="lead">Grab All Files は、ユーザーが選んだページやURLをスキャンするため、広いブラウザ権限が必要です。現在のログインセッションで開けるページも対象にできます。ファイル検出、ダウンロード、ZIP作成、CSV出力、PDF結合はブラウザ内でローカルに実行されます。</p><div class="cta-row"><span class="store-cta-label">お使いのブラウザで Grab All Files をダウンロード:</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome 用をダウンロード</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Edge 用をダウンロード</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Firefox 用をダウンロード</a><a class="btn" href="/privacy-policy.html">プライバシーポリシーを読む</a></div></div><aside class="panel"><h2>要点</h2><ul class="fact-list"><li><span class="mark">1</span><span>ファイル本文は当方サーバーを通過しません。</span></li><li><span class="mark">2</span><span>PDF結合、ZIP作成、CSV出力はローカル処理です。</span></li><li><span class="mark">3</span><span>ライセンス確認にファイル本文は含まれません。</span></li><li><span class="mark">4</span><span>アクセス権のあるファイルにのみ使用してください。</span></li></ul></aside></section><div class="section-stack"><section class="section-card"><h2>当方サーバーへ送信されるもの</h2><p>送信されるのは、ライセンス確認に必要な情報と任意の仮名化利用統計です。利用統計は初期設定でオフであり、明示的な同意後にのみ送信されます。</p><table><thead><tr><th>目的</th><th>送信されるデータ</th><th>送信されないもの</th></tr></thead><tbody><tr><td>ライセンス有効化・更新</td><td>ライセンスキー、ランダム端末UUID、ライセンストークンのメタデータ。</td><td>ダウンロードファイル、検出URL一覧、元ページ内容。</td></tr><tr><td>失効リスト更新</td><td>個人を特定するペイロードはなく、署名済み失効リストを取得します。</td><td>ライセンスキーやファイルデータは含まれません。</td></tr><tr><td>任意の利用統計</td><td>同意後のみ、ランダムなデバイスID、プラン状態、イベント名、粗い件数・所要時間。</td><td>ページ内容、URL、ファイル名、ダウンロードしたファイル、個人データ。</td></tr></tbody></table></section><section class="section-card"><h2>広いWebサイト権限が必要な理由</h2><p>ブラウザは「Webサイトデータへアクセスできる」という警告を表示することがあります。対象サイトはユーザーが選び、ファイルはフレーム、ビューアURL、通信レスポンス内にある場合があるためです。</p><table><thead><tr><th>権限の範囲</th><th>必要な理由</th><th>実際の制限</th></tr></thead><tbody><tr><td>選択ページの読み取り</td><td>表示リンク、埋め込みファイル、PDFビューア、遅延読み込みアセットを見つけるため。</td><td>ユーザーがスキャン対象に選んだページやURLで使用します。</td></tr><tr><td>ファイルらしい通信レスポンスの確認</td><td>fetch/XHR、CMSルート、ビューアエンドポイント経由のファイルを見つけるため。</td><td>ローカル結果一覧の作成に使い、一覧はアップロードされません。</td></tr><tr><td>現在のブラウザセッションの利用</td><td>ユーザーが手動で開けるポータルや会員ページのファイルを取得するため。</td><td>認証情報は収集しません。権限のある場所でのみ使用してください。</td></tr></tbody></table><div class="callout">この拡張機能は、権限のないコンテンツへアクセスする機能ではありません。ブラウザセッションがすでに持っているアクセス権の範囲で動作します。</div></section><section class="section-card"><h2>ローカルに残る処理</h2><ul class="local-list"><li><span class="mark">✓</span><span>検出ファイル一覧、絞り込み、スキャン結果。</span></li><li><span class="mark">✓</span><span>ダウンロードしたファイル本文。</span></li><li><span class="mark">✓</span><span>PDF結合処理。</span></li><li><span class="mark">✓</span><span>ZIP作成処理。</span></li><li><span class="mark">✓</span><span>CSV出力処理。</span></li></ul></section><section class="section-card"><h2>責任ある利用</h2><p>Grab All Files は正当な資料収集と作業効率化のために使用し、対象サイトの規約、著作権、アクセス権限、レート制限を守ってください。</p></section></div>
+<section class="hero"><div><div class="eyebrow"><span>✓</span><span>ファイルはアップロードされません</span></div><h1>Grab All Files のセキュリティ、プライバシー、権限</h1><p class="lead">Grab All Files は、ユーザーが選んだページやURLをスキャンするため、広いブラウザ権限が必要です。現在のログインセッションで開けるページも対象にできます。ファイル検出、ダウンロード、ZIP作成、CSV出力、PDF結合はブラウザ内でローカルに実行されます。</p><div class="cta-row"><span class="store-cta-label">お使いのブラウザで Grab All Files をダウンロード:</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome 用をダウンロード</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Edge 用をダウンロード</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Firefox 用をダウンロード</a><a class="btn" href="/privacy-policy.html">プライバシーポリシーを読む</a></div></div><aside class="panel"><h2>要点</h2><ul class="fact-list"><li><span class="mark">1</span><span>ファイル本文は当方サーバーを通過しません。</span></li><li><span class="mark">2</span><span>PDF結合、ZIP作成、CSV出力はローカル処理です。</span></li><li><span class="mark">3</span><span>ライセンス確認にファイル本文は含まれません。</span></li><li><span class="mark">4</span><span>アクセス権のあるファイルにのみ使用してください。</span></li></ul></aside></section><div class="section-stack"><section class="section-card"><h2>当方サーバーへ送信されるもの</h2><p>送信されるのは、ライセンス確認に必要な情報と任意の仮名化利用統計です。利用統計は初期設定でオフであり、明示的な同意後にのみ送信されます。</p><div class="table-scroll" role="region" tabindex="0" aria-label="当方サーバーへ送信されるもの"><table><thead><tr><th>目的</th><th>送信されるデータ</th><th>送信されないもの</th></tr></thead><tbody><tr><td>ライセンス有効化・更新</td><td>ライセンスキー、ランダム端末UUID、ライセンストークンのメタデータ。</td><td>ダウンロードファイル、検出URL一覧、元ページ内容。</td></tr><tr><td>失効リスト更新</td><td>個人を特定するペイロードはなく、署名済み失効リストを取得します。</td><td>ライセンスキーやファイルデータは含まれません。</td></tr><tr><td>任意の利用統計</td><td>同意後のみ、ランダムなデバイスID、プラン状態、イベント名、粗い件数・所要時間。</td><td>ページ内容、URL、ファイル名、ダウンロードしたファイル、個人データ。</td></tr></tbody></table></div></section><section class="section-card"><h2>広いWebサイト権限が必要な理由</h2><p>ブラウザは「Webサイトデータへアクセスできる」という警告を表示することがあります。対象サイトはユーザーが選び、ファイルはフレーム、ビューアURL、通信レスポンス内にある場合があるためです。</p><div class="table-scroll" role="region" tabindex="0" aria-label="広いWebサイト権限が必要な理由"><table><thead><tr><th>権限の範囲</th><th>必要な理由</th><th>実際の制限</th></tr></thead><tbody><tr><td>選択ページの読み取り</td><td>表示リンク、埋め込みファイル、PDFビューア、遅延読み込みアセットを見つけるため。</td><td>ユーザーがスキャン対象に選んだページやURLで使用します。</td></tr><tr><td>ファイルらしい通信レスポンスの確認</td><td>fetch/XHR、CMSルート、ビューアエンドポイント経由のファイルを見つけるため。</td><td>ローカル結果一覧の作成に使い、一覧はアップロードされません。</td></tr><tr><td>現在のブラウザセッションの利用</td><td>ユーザーが手動で開けるポータルや会員ページのファイルを取得するため。</td><td>認証情報は収集しません。権限のある場所でのみ使用してください。</td></tr></tbody></table></div><div class="callout">この拡張機能は、権限のないコンテンツへアクセスする機能ではありません。ブラウザセッションがすでに持っているアクセス権の範囲で動作します。</div></section><section class="section-card"><h2>ローカルに残る処理</h2><ul class="local-list"><li><span class="mark">✓</span><span>検出ファイル一覧、絞り込み、スキャン結果。</span></li><li><span class="mark">✓</span><span>ダウンロードしたファイル本文。</span></li><li><span class="mark">✓</span><span>PDF結合処理。</span></li><li><span class="mark">✓</span><span>ZIP作成処理。</span></li><li><span class="mark">✓</span><span>CSV出力処理。</span></li></ul></section><section class="section-card"><h2>責任ある利用</h2><p>Grab All Files は正当な資料収集と作業効率化のために使用し、対象サイトの規約、著作権、アクセス権限、レート制限を守ってください。</p></section></div>
   </main>
 
   <footer>
@@ -486,10 +489,10 @@
       }
       return path + (path.indexOf('?') >= 0 ? '&' : '?') + 'lang=' + encodeURIComponent(lang);
     }
-    function table(headers, rows) {
-      return '<table><thead><tr>' + headers.map(function(h){ return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+    function table(headers, rows, title) {
+      return '<div class="table-scroll" role="region" tabindex="0" aria-label="' + esc(title) + '"><table><thead><tr>' + headers.map(function(h){ return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' +
         rows.map(function(row){ return '<tr>' + row.map(function(cell){ return '<td>' + esc(cell) + '</td>'; }).join('') + '</tr>'; }).join('') +
-        '</tbody></table>';
+        '</tbody></table></div>';
     }
     function render(lang, updateUrl) {
       var c = COPY[lang] || COPY.en;
@@ -535,8 +538,8 @@
           '<aside class="panel"><h2>' + esc(c.summaryTitle) + '</h2><ul class="fact-list">' + c.facts.map(function(item, i){ return '<li><span class="mark">' + (i + 1) + '</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></aside>',
         '</section>',
         '<div class="section-stack">',
-          '<section class="section-card"><h2>' + esc(c.sentTitle) + '</h2><p>' + esc(c.sentIntro) + '</p>' + table(c.sentHeaders, c.sentRows) + '</section>',
-          '<section class="section-card"><h2>' + esc(c.permTitle) + '</h2><p>' + esc(c.permIntro) + '</p>' + table(c.permHeaders, c.permRows) + '<div class="callout">' + esc(c.callout) + '</div></section>',
+          '<section class="section-card"><h2>' + esc(c.sentTitle) + '</h2><p>' + esc(c.sentIntro) + '</p>' + table(c.sentHeaders, c.sentRows, c.sentTitle) + '</section>',
+          '<section class="section-card"><h2>' + esc(c.permTitle) + '</h2><p>' + esc(c.permIntro) + '</p>' + table(c.permHeaders, c.permRows, c.permTitle) + '<div class="callout">' + esc(c.callout) + '</div></section>',
           '<section class="section-card"><h2>' + esc(c.localTitle) + '</h2><ul class="local-list">' + c.localItems.map(function(item){ return '<li><span class="mark">✓</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></section>',
           '<section class="section-card"><h2>' + esc(c.respTitle) + '</h2><p>' + esc(c.respText) + '</p></section>',
         '</div>'

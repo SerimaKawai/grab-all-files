@@ -67,14 +67,16 @@
     .sticky-toc a:hover { color: var(--text-strong); background: var(--surface-soft); text-decoration: none; }
     .sticky-toc a.is-current { color: var(--primary); border-left-color: var(--primary); font-weight: 600; background: color-mix(in srgb, var(--primary) 5%, transparent); }
 
-    article > [data-lang] > h1 { font-size: 1.85rem; font-weight: 700; color: var(--text-strong); letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 0.3rem; }
+    article > [data-lang] > h1 { font-size: 1.85rem; font-weight: 700; color: var(--text-strong); letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 0.3rem; overflow-wrap: anywhere; hyphens: auto; }
     article > [data-lang] > .updated { font-size: 0.78rem; color: var(--text-faint); margin: 0.4rem 0 1.6rem; display: flex; align-items: center; gap: 0.4rem; }
     article > [data-lang] > .updated::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #16a34a; }
     article > [data-lang] h2 { font-size: 1.1rem; font-weight: 600; color: var(--text-strong); margin-top: 2.3rem; margin-bottom: 0.6rem; letter-spacing: -0.01em; scroll-margin-top: 5rem; }
     article > [data-lang] p, article > [data-lang] li { font-size: 0.93rem; color: var(--text); line-height: 1.75; margin-bottom: 0.6rem; }
     article > [data-lang] ul, article > [data-lang] ol { margin: 0.4rem 0 0.8rem 1.4rem; }
     article > [data-lang] code { background: var(--surface-soft); padding: 0.05rem 0.35rem; border-radius: 4px; font-size: 0.85em; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace; color: var(--text-strong); }
-    article > [data-lang] table { width: 100%; border-collapse: collapse; margin: 0.8rem 0; font-size: 0.88rem; }
+    article > [data-lang] table { width: 100%; table-layout: fixed; border-collapse: collapse; margin: 0.8rem 0; font-size: 0.88rem; }
+    .table-scroll { min-width: 0; max-width: 100%; overflow-x: auto; }
+    .table-scroll:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
     article > [data-lang] th, article > [data-lang] td { border: 1px solid var(--border); padding: 0.55rem 0.8rem; text-align: left; vertical-align: top; line-height: 1.55; }
     article > [data-lang] th { background: var(--surface-alt); color: var(--text-strong); font-weight: 600; font-size: 0.82rem; }
     article > [data-lang] .contact { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem 1.3rem; margin-top: 1.8rem; }
@@ -90,7 +92,7 @@
     .doc-tab { flex: 0 0 auto; }
     @media (max-width: 820px) {
       main { grid-template-columns: minmax(0, 1fr); }
-      article table, main table { table-layout: fixed; width: 100%; }
+      article table, main table { table-layout: fixed; width: 100%; min-width: 640px; }
     }
     th, td { overflow-wrap: anywhere; }
     h1, h2, h3, .page-head h1, .doc h2 { font-family: var(--font-display); }
@@ -179,7 +181,7 @@
 
       <h2>3. Data Stored on Your Device</h2>
       <p>The Extension stores the following data locally using <code>chrome.storage.local</code>, <code>chrome.storage.session</code>, and extension IndexedDB. Except for the license-related requests described above and pseudonymous usage statistics you explicitly enable, this data remains on your device.</p>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="3. Data Stored on Your Device"><table>
         <tr><th>Data</th><th>Storage</th><th>Purpose</th></tr>
         <tr><td>License key</td><td>Local</td><td>Keep the Extension activated after license verification.</td></tr>
         <tr><td>Device ID (random UUID)</td><td>Local</td><td>Identify this installation for license verification and device limits and, only after opt-in, correlate its usage events.</td></tr>
@@ -197,11 +199,11 @@
         <tr><td>Network file records (file URLs, types, sizes detected via network monitoring)</td><td>Session</td><td>Detect downloadable files loaded via JavaScript, XHR, or fetch requests that are not visible in page HTML. Automatically cleared when the tab is closed or the browser session ends.</td></tr>
         <tr><td>Active Capture records (source and final download URLs, referring page URL, saved file names, MIME types, browser download ID and status, and the capture target host)</td><td>Session</td><td>Match files downloaded during an explicit Active Capture run so they can be renamed or zipped. Up to 500 records; automatically cleared when the browser session ends.</td></tr>
 
-      </table>
+      </table></div>
       <p>You can clear recent scan history from within the Extension UI. Network file records can be cleared by clicking the "Reset" button in the results panel or by closing the tab. Deleting a Web Page Collector job removes that job's metadata and saved page bodies; reusable imported profiles are managed separately. Uninstalling the Extension removes its local storage. Session data is automatically cleared when the browser session ends.</p>
 
       <h2>4. Permissions</h2>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="4. Permissions"><table>
         <tr><th>Permission</th><th>Why it is needed</th></tr>
         <tr><td><code>activeTab</code></td><td>Temporarily inspect the current tab after a direct user action, without requiring permanent access to that site.</td></tr>
         <tr><td><code>tabs</code></td><td>Read the active source tab selected by the user and, when rendered collector content is needed, open an inactive selected target-page tab.</td></tr>
@@ -215,7 +217,7 @@
         <tr><td><code>declarativeNetRequestWithHostAccess</code> (Chromium browsers)</td><td>In the user-selected strict read-only Collector mode, create temporary tab-scoped session rules that block POST, PUT, PATCH, and DELETE requests. Rules are removed when that collection tab/job ends.</td></tr>
         <tr><td>Optional site access:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>These patterns are declared only as optional permissions. The Extension requests the selected origin after a user action, registers content scripts only for granted origins, and removes the registration when permission is revoked. It does not send page content, URLs, file names, or browsing history to developer-controlled servers.</td></tr>
         <tr><td>Required first-party backend access:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>This single required host permission is used for license verification, token/revocation refresh, device management, and—only after explicit opt-in—the usage events in Section 5a. It is never used to send page contents, browsing URLs, file names, Collector profiles, or collected documents.</td></tr>
-      </table>
+      </table></div>
 
       <h2>5. Use of Browsing-Related Data</h2>
       <p>The Extension uses browsing-related data and website content only to provide its user-facing features: scanning the current page, scanning a URL you enter, showing recent scans, checking file metadata, downloading selected files, and merging PDFs locally.</p>
@@ -336,7 +338,7 @@
 
       <h2>3. 端末に保存されるデータ</h2>
       <p>本拡張機能は、<code>chrome.storage.local</code>、<code>chrome.storage.session</code> および拡張機能の IndexedDB を使って以下のデータをローカル保存します。ライセンス関連の通信およびユーザーが明示的に有効化した仮名化利用統計を除き、これらのデータは端末の外へ送信されません。</p>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="3. 端末に保存されるデータ"><table>
         <tr><th>データ</th><th>保存先</th><th>目的</th></tr>
         <tr><td>ライセンスキー</td><td>Local</td><td>ライセンス認証後も有効化状態を維持するため。</td></tr>
         <tr><td>デバイスID（ランダムUUID）</td><td>Local</td><td>この端末をライセンス確認・デバイス数制限、およびオプトイン後に限り利用イベントの関連付けに使用するため。</td></tr>
@@ -354,11 +356,11 @@
         <tr><td>ネットワークファイル記録（ネットワーク監視で検出したファイルのURL、種別、サイズ）</td><td>Session</td><td>ページHTMLに含まれないJavaScript、XHR、fetch経由でロードされるダウンロード可能ファイルを検出するため。タブを閉じた時またはブラウザセッション終了時に自動消去。</td></tr>
         <tr><td>アクティブキャプチャの記録（取得元URL・最終URL・参照元ページURL、保存されたファイル名、MIME種別、ブラウザーのダウンロードIDと状態、キャプチャ対象ホスト）</td><td>Session</td><td>明示的なアクティブキャプチャ中にページがダウンロードしたファイルを照合し、リネームやZIP化に使うため。最大500件。ブラウザセッション終了時に自動消去。</td></tr>
 
-      </table>
+      </table></div>
       <p>最近のスキャン履歴は拡張機能UIから消去できます。ネットワークファイル記録は結果パネルの「Reset」ボタンをクリックするか、タブを閉じることで消去できます。Webページ結合ジョブを削除すると、そのジョブのメタデータと保存済み本文が削除されます。再利用可能なインポート済みプロファイルは別に管理します。拡張機能をアンインストールすると、ブラウザ管理下のローカル保存データは削除されます。Session データはブラウザセッション終了時に自動消去されます。</p>
 
       <h2>4. 権限（パーミッション）</h2>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="4. 権限（パーミッション）"><table>
         <tr><th>権限</th><th>必要な理由</th></tr>
         <tr><td><code>activeTab</code></td><td>ユーザーの直接操作後に現在のタブを一時的に調べ、恒久的なサイトアクセスを不要にするため。</td></tr>
         <tr><td><code>tabs</code></td><td>ユーザーが選択したアクティブなソースタブを読み、Webページ結合でレンダリング済み本文が必要な場合に、選択対象ページを非アクティブタブで開くため。</td></tr>
@@ -372,7 +374,7 @@
         <tr><td><code>declarativeNetRequestWithHostAccess</code>（Chromium系ブラウザ）</td><td>ユーザーが選択したCollectorのstrict read-onlyモードで、POST・PUT・PATCH・DELETEを遮断する一時的なタブ限定session ruleを作成するため。対象タブ/ジョブの終了時に削除します。</td></tr>
         <tr><td>任意のサイトアクセス：<br><code>https://*/*</code> + <code>http://*/*</code></td><td>これらは任意権限としてのみ宣言します。ユーザー操作後に選択オリジンだけを要求し、許可済みオリジンにだけコンテンツスクリプトを登録し、権限取消時に登録を解除します。ページ内容、URL、ファイル名、閲覧履歴を開発者管理サーバーへ送信しません。</td></tr>
         <tr><td>必須の自社バックエンドアクセス：<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>この1件の必須ホスト権限は、ライセンス確認、トークン/失効リスト更新、デバイス管理、および明示的なオプトイン後だけ第5a節の利用イベントに使用します。ページ内容、閲覧URL、ファイル名、Collectorプロファイル、収集文書は送信しません。</td></tr>
-      </table>
+      </table></div>
 
       <h2>5. 閲覧関連データの利用方法</h2>
       <p>本拡張機能は、閲覧関連データやWebサイトのコンテンツを、現在ページのスキャン、入力URLのスキャン、最近のスキャン表示、ファイルメタデータ確認、選択ファイルのダウンロード、PDFのローカル結合というユーザー向け機能のためにのみ使用します。</p>
@@ -493,7 +495,7 @@
 
       <h2>3. Auf Ihrem Gerät gespeicherte Daten</h2>
       <p>Die Erweiterung speichert die folgenden Daten lokal mittels <code>chrome.storage.local</code>, <code>chrome.storage.session</code> und der IndexedDB der Erweiterung. Mit Ausnahme der oben beschriebenen lizenzbezogenen Anfragen und der von Ihnen ausdrücklich aktivierten pseudonymen Nutzungsstatistiken verbleiben diese Daten auf Ihrem Gerät.</p>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="3. Auf Ihrem Gerät gespeicherte Daten"><table>
         <tr><th>Daten</th><th>Speicher</th><th>Zweck</th></tr>
         <tr><td>Lizenzschlüssel</td><td>Local</td><td>Erweiterung nach der Lizenzverifizierung aktiviert halten.</td></tr>
         <tr><td>Geräte-ID (zufällige UUID)</td><td>Local</td><td>Diese Installation für Lizenzprüfung und Gerätebegrenzung identifizieren.</td></tr>
@@ -511,11 +513,11 @@
         <tr><td>Netzwerkdateieinträge (über Netzwerküberwachung erkannte Datei-URLs, -typen, -größen)</td><td>Session</td><td>Herunterladbare Dateien erkennen, die per JavaScript, XHR oder Fetch geladen werden und nicht im Seiten-HTML sichtbar sind. Werden beim Schließen des Tabs oder am Ende der Browsersitzung automatisch gelöscht.</td></tr>
         <tr><td>Active-Capture-Einträge (Quell- und finale Download-URLs, URL der verweisenden Seite, gespeicherte Dateinamen, MIME-Typen, Browser-Download-ID und Status sowie der Ziel-Host der Erfassung)</td><td>Session</td><td>Zuordnen der Dateien einer ausdrücklich gestarteten Active Capture zum Umbenennen oder ZIP-Erstellen. Bis zu 500 Einträge; werden am Ende der Browsersitzung automatisch gelöscht.</td></tr>
 
-      </table>
+      </table></div>
       <p>Sie können die Scan-Historie aus der Benutzeroberfläche der Erweiterung heraus löschen. Netzwerkdateieinträge können durch Klicken auf die Schaltfläche „Reset" im Ergebnisbereich oder durch Schließen des Tabs gelöscht werden. Beim Löschen eines Web-Page-Collector-Auftrags werden dessen Metadaten und gespeicherte Seiteninhalte entfernt; wiederverwendbare importierte Profile werden separat verwaltet. Bei der Deinstallation der Erweiterung wird ihr lokaler Speicher entfernt. Sitzungsdaten werden am Ende der Browsersitzung automatisch gelöscht.</p>
 
       <h2>4. Berechtigungen</h2>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="4. Berechtigungen"><table>
         <tr><th>Berechtigung</th><th>Begründung</th></tr>
         <tr><td><code>tabs</code></td><td>Den vom Nutzer gewählten aktiven Quell-Tab lesen und bei Bedarf einen inaktiven ausgewählten Zielseiten-Tab für gerenderten Collector-Inhalt öffnen.</td></tr>
         <tr><td><code>scripting</code></td><td>Dateilinks finden, gerendertes DOM ausgewählter Collector-Seiten erfassen und den vom Nutzer aufgerufenen Selektor-Picker ausführen.</td></tr>
@@ -527,7 +529,7 @@
         <tr><td><code>offscreen</code> (Chromium)</td><td>Abgerufenes HTML lokal für fortsetzbare Sammelaufträge analysieren und bereinigen.</td></tr>
         <tr><td>Optionaler Website-Zugriff:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>Diese Muster sind nur optionale Berechtigungen. Die Erweiterung fordert nach einer Nutzeraktion nur den ausgewählten Ursprung an, registriert Inhaltsskripte nur dort und entfernt die Registrierung beim Widerruf. Seiteninhalte, URLs, Dateinamen und Browserverlauf werden nicht an Server des Entwicklers gesendet.</td></tr>
         <tr><td>Erforderlicher Zugriff auf das eigene Backend:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>Diese einzige erforderliche Host-Berechtigung dient der Lizenzprüfung, Token-/Sperrlisten-Aktualisierung, Geräteverwaltung und &mdash; nur nach ausdrücklicher Einwilligung &mdash; den Nutzungsereignissen in Abschnitt 5a. Seiten-, Browser- oder Collector-Inhalte werden darüber nie übermittelt.</td></tr>
-      </table>
+      </table></div>
 
       <h2>5. Verwendung browserbezogener Daten</h2>
       <p>Die Erweiterung nutzt browserbezogene Daten und Website-Inhalte ausschließlich zur Bereitstellung ihrer nutzerseitigen Funktionen: Scannen der aktuellen Seite, Scannen einer von Ihnen eingegebenen URL, Anzeige der letzten Scans, Prüfung von Dateimetadaten, Herunterladen ausgewählter Dateien und lokales Zusammenführen von PDFs.</p>
@@ -647,7 +649,7 @@
 
       <h2>3. Datos Almacenados en su Dispositivo</h2>
       <p>La Extensión almacena los siguientes datos localmente mediante <code>chrome.storage.local</code>, <code>chrome.storage.session</code> e IndexedDB de la Extensión. Salvo las solicitudes de licencia descritas anteriormente y las estadísticas de uso seudónimas que usted habilite expresamente, estos datos permanecen en su dispositivo.</p>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="3. Datos Almacenados en su Dispositivo"><table>
         <tr><th>Datos</th><th>Almacenamiento</th><th>Finalidad</th></tr>
         <tr><td>Clave de licencia</td><td>Local</td><td>Mantener la Extensión activada después de la verificación de la licencia.</td></tr>
         <tr><td>ID del dispositivo (UUID aleatorio)</td><td>Local</td><td>Identificar esta instalación para verificar la licencia y sus límites de dispositivos.</td></tr>
@@ -665,11 +667,11 @@
         <tr><td>Registros de archivos de red (URL, tipos y tamaños de archivos detectados mediante monitorización de red)</td><td>Session</td><td>Detectar archivos descargables cargados mediante JavaScript, XHR o solicitudes fetch que no son visibles en el HTML de la página. Se borran automáticamente al cerrar la pestaña o al finalizar la sesión del navegador.</td></tr>
         <tr><td>Registros de Active Capture (URL de origen y de descarga final, URL de la página de referencia, nombres de archivo guardados, tipos MIME, ID y estado de descarga del navegador y host objetivo de la captura)</td><td>Session</td><td>Asociar los archivos descargados durante una ejecución explícita de Active Capture para renombrarlos o comprimirlos en ZIP. Hasta 500 registros; se borran al finalizar la sesión del navegador.</td></tr>
 
-      </table>
+      </table></div>
       <p>Puede borrar el historial reciente de escaneos desde la interfaz de la Extensión. Los registros de archivos de red pueden borrarse pulsando el botón «Reset» en el panel de resultados o cerrando la pestaña. Al borrar un trabajo del Web Page Collector se eliminan sus metadatos y contenidos de página guardados; los perfiles importados reutilizables se administran por separado. Al desinstalar la Extensión se elimina su almacenamiento local. Los datos de sesión se borran automáticamente al finalizar la sesión del navegador.</p>
 
       <h2>4. Permisos</h2>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="4. Permisos"><table>
         <tr><th>Permiso</th><th>Por qué se necesita</th></tr>
         <tr><td><code>tabs</code></td><td>Leer la pestaña de origen activa elegida por el usuario y abrir una pestaña de destino inactiva cuando se necesite contenido renderizado para el Collector.</td></tr>
         <tr><td><code>scripting</code></td><td>Detectar enlaces descargables, capturar el DOM renderizado de páginas seleccionadas y ejecutar el selector visual solicitado por el usuario.</td></tr>
@@ -681,7 +683,7 @@
         <tr><td><code>offscreen</code> (Chromium)</td><td>Analizar y sanear localmente el HTML obtenido para trabajos de recopilación reanudables.</td></tr>
         <tr><td>Acceso opcional a sitios:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>Estos patrones son únicamente permisos opcionales. La Extensión solicita el origen seleccionado tras una acción del usuario, registra scripts solo en orígenes autorizados y elimina el registro al revocar el permiso. No envía contenidos, URL, nombres de archivos ni historial a servidores del desarrollador.</td></tr>
         <tr><td>Acceso obligatorio al backend propio:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>Este único permiso de host obligatorio se usa para verificar licencias, actualizar tokens/listas de revocación, gestionar dispositivos y &mdash; solo tras el consentimiento expreso &mdash; enviar los eventos de uso de la sección 5a. Nunca se envían por él contenidos de páginas, navegación o del Collector.</td></tr>
-      </table>
+      </table></div>
 
       <h2>5. Uso de los Datos Relacionados con la Navegación</h2>
       <p>La Extensión utiliza los datos relacionados con la navegación y el contenido de los sitios web únicamente para prestar sus funcionalidades dirigidas al usuario: escanear la página actual, escanear una URL que usted introduzca, mostrar los escaneos recientes, comprobar metadatos de archivos, descargar los archivos seleccionados y combinar PDF localmente.</p>
@@ -801,7 +803,7 @@
 
       <h2>3. Données stockées sur votre appareil</h2>
       <p>L'Extension stocke localement les données suivantes au moyen de <code>chrome.storage.local</code>, <code>chrome.storage.session</code> et l'IndexedDB de l'Extension. À l'exception des requêtes liées à la licence décrites ci-dessus et des statistiques d'utilisation pseudonymes que vous activez expressément, ces données restent sur votre appareil.</p>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="3. Données stockées sur votre appareil"><table>
         <tr><th>Données</th><th>Stockage</th><th>Finalité</th></tr>
         <tr><td>Clé de licence</td><td>Local</td><td>Maintenir l'Extension activée après vérification de la licence.</td></tr>
         <tr><td>ID d'appareil (UUID aléatoire)</td><td>Local</td><td>Identifier cette installation pour la vérification de licence et la limite d'appareils.</td></tr>
@@ -819,11 +821,11 @@
         <tr><td>Enregistrements de fichiers réseau (URL, types et tailles de fichiers détectés via la surveillance du réseau)</td><td>Session</td><td>Détecter les fichiers téléchargeables chargés via JavaScript, XHR ou des requêtes fetch qui ne sont pas visibles dans le HTML de la page. Effacés automatiquement à la fermeture de l'onglet ou à la fin de la session du navigateur.</td></tr>
         <tr><td>Enregistrements Active Capture (URL source et URL finale de téléchargement, URL de la page référente, noms de fichiers enregistrés, types MIME, identifiant et état du téléchargement du navigateur et hôte cible de la capture)</td><td>Session</td><td>Associer les fichiers téléchargés pendant une exécution explicite d’Active Capture pour les renommer ou les compresser en ZIP. Jusqu’à 500 enregistrements ; effacés à la fin de la session du navigateur.</td></tr>
 
-      </table>
+      </table></div>
       <p>Vous pouvez effacer l'historique récent des analyses depuis l'interface de l'Extension. Les enregistrements de fichiers réseau peuvent être effacés en cliquant sur le bouton « Reset » dans le panneau des résultats ou en fermant l'onglet. La suppression d'une tâche du Web Page Collector efface ses métadonnées et contenus de page enregistrés ; les profils importés réutilisables sont gérés séparément. La désinstallation de l'Extension supprime son stockage local. Les données de session sont effacées automatiquement à la fin de la session du navigateur.</p>
 
       <h2>4. Permissions</h2>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="4. Permissions"><table>
         <tr><th>Permission</th><th>Pourquoi elle est nécessaire</th></tr>
         <tr><td><code>tabs</code></td><td>Lire l'onglet source actif choisi par l'utilisateur et ouvrir un onglet cible inactif lorsque le Collector a besoin du contenu rendu.</td></tr>
         <tr><td><code>scripting</code></td><td>Détecter les liens téléchargeables, capturer le DOM rendu des pages sélectionnées et exécuter le sélecteur visuel demandé par l'utilisateur.</td></tr>
@@ -835,7 +837,7 @@
         <tr><td><code>offscreen</code> (Chromium)</td><td>Analyser et assainir localement le HTML récupéré pour les collectes pouvant être reprises.</td></tr>
         <tr><td>Accès facultatif aux sites :<br><code>https://*/*</code> + <code>http://*/*</code></td><td>Ces motifs sont uniquement des autorisations facultatives. L'Extension demande l'origine sélectionnée après une action de l'utilisateur, enregistre les scripts uniquement pour les origines autorisées et les retire quand l'autorisation est révoquée. Aucun contenu, URL, nom de fichier ou historique n'est envoyé aux serveurs du développeur.</td></tr>
         <tr><td>Accès requis au backend propriétaire :<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>Cette unique autorisation d'hôte requise sert à la vérification de licence, à l'actualisation des jetons/listes de révocation, à la gestion des appareils et &mdash; uniquement après consentement explicite &mdash; aux événements d'utilisation de la section 5a. Aucun contenu de page, de navigation ou du Collector n'y est transmis.</td></tr>
-      </table>
+      </table></div>
 
       <h2>5. Utilisation des données liées à la navigation</h2>
       <p>L'Extension utilise les données liées à la navigation et le contenu des sites Web uniquement pour fournir ses fonctionnalités destinées à l'utilisateur : analyse de la page courante, analyse d'une URL que vous saisissez, affichage des analyses récentes, vérification des métadonnées de fichiers, téléchargement des fichiers sélectionnés et fusion locale de PDF.</p>
@@ -952,7 +954,7 @@
 
       <h2>3. Dati Archiviati sul Suo Dispositivo</h2>
       <p>L'Estensione archivia i seguenti dati localmente tramite <code>chrome.storage.local</code>, <code>chrome.storage.session</code> e l'IndexedDB dell'Estensione. Fatte salve le richieste relative alla licenza descritte sopra e le statistiche d'uso pseudonime da Lei abilitate espressamente, tali dati restano sul Suo dispositivo.</p>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="3. Dati Archiviati sul Suo Dispositivo"><table>
         <tr><th>Dati</th><th>Archiviazione</th><th>Finalità</th></tr>
         <tr><td>Chiave di licenza</td><td>Local</td><td>Mantenere attiva l'Estensione dopo la verifica della licenza.</td></tr>
         <tr><td>ID dispositivo (UUID casuale)</td><td>Local</td><td>Identificare questa installazione per la verifica della licenza e i limiti dei dispositivi.</td></tr>
@@ -970,11 +972,11 @@
         <tr><td>Record dei file di rete (URL, tipi e dimensioni dei file rilevati tramite il monitoraggio della rete)</td><td>Session</td><td>Rilevare file scaricabili caricati tramite JavaScript, XHR o richieste fetch e non visibili nell'HTML della pagina. Cancellati automaticamente alla chiusura della scheda o al termine della sessione del browser.</td></tr>
         <tr><td>Record di Active Capture (URL di origine e URL finale del download, URL della pagina di provenienza, nomi dei file salvati, tipi MIME, ID e stato del download del browser e host di destinazione della cattura)</td><td>Session</td><td>Abbinare i file scaricati durante un’esecuzione esplicita di Active Capture per rinominarli o comprimerli in ZIP. Fino a 500 record; cancellati al termine della sessione del browser.</td></tr>
 
-      </table>
+      </table></div>
       <p>È possibile cancellare la cronologia recente delle scansioni dall'interfaccia dell'Estensione. I record dei file di rete possono essere cancellati premendo il pulsante «Reset» nel pannello dei risultati o chiudendo la scheda. Eliminando un processo del Web Page Collector si rimuovono metadati e contenuti di pagina salvati del processo; i profili importati riutilizzabili sono gestiti separatamente. La disinstallazione dell'Estensione rimuove il relativo storage locale. I dati di sessione vengono cancellati automaticamente al termine della sessione del browser.</p>
 
       <h2>4. Permessi</h2>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="4. Permessi"><table>
         <tr><th>Permesso</th><th>Motivo per cui è necessario</th></tr>
         <tr><td><code>tabs</code></td><td>Leggere la scheda sorgente attiva scelta dall'utente e aprire una scheda di destinazione inattiva quando il Collector necessita del contenuto renderizzato.</td></tr>
         <tr><td><code>scripting</code></td><td>Rilevare collegamenti scaricabili, acquisire il DOM renderizzato delle pagine selezionate ed eseguire il selettore visivo richiesto dall'utente.</td></tr>
@@ -986,7 +988,7 @@
         <tr><td><code>offscreen</code> (Chromium)</td><td>Analizzare e sanificare localmente l’HTML recuperato per raccolte ripristinabili.</td></tr>
         <tr><td>Accesso facoltativo ai siti:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>Questi pattern sono solo permessi facoltativi. L'Estensione richiede l'origine selezionata dopo un'azione dell'utente, registra script solo per le origini autorizzate e li rimuove quando il permesso viene revocato. Contenuti, URL, nomi di file e cronologia non vengono inviati ai server dello sviluppatore.</td></tr>
         <tr><td>Accesso obbligatorio al backend proprietario:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>Questa unica autorizzazione host obbligatoria serve per la verifica della licenza, l'aggiornamento di token/liste di revoca, la gestione dei dispositivi e &mdash; solo dopo il consenso esplicito &mdash; gli eventi di utilizzo della sezione 5a. Non trasmette mai contenuti di pagine, navigazione o del Collector.</td></tr>
-      </table>
+      </table></div>
 
       <h2>5. Utilizzo dei Dati Relativi alla Navigazione</h2>
       <p>L'Estensione utilizza i dati relativi alla navigazione e i contenuti dei siti web esclusivamente per fornire le proprie funzionalità rivolte all'utente: scansione della pagina corrente, scansione di un URL inserito dall'utente, visualizzazione delle scansioni recenti, controllo dei metadati dei file, download dei file selezionati e unione locale di PDF.</p>
@@ -1105,7 +1107,7 @@
 
       <h2>3. 디바이스에 저장되는 데이터</h2>
       <p>본 확장 프로그램은 <code>chrome.storage.local</code>, <code>chrome.storage.session</code> 및 확장 프로그램 IndexedDB를 사용하여 다음 데이터를 로컬에 저장합니다. 위에서 설명된 라이선스 관련 요청과 사용자가 명시적으로 활성화한 가명 사용 통계를 제외하고, 이 데이터는 귀하의 디바이스에 머무릅니다.</p>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="3. 디바이스에 저장되는 데이터"><table>
         <tr><th>데이터</th><th>저장 위치</th><th>목적</th></tr>
         <tr><td>라이선스 키</td><td>Local</td><td>라이선스 검증 후 본 확장 프로그램의 활성화 상태를 유지하기 위함.</td></tr>
         <tr><td>디바이스 ID(임의 UUID)</td><td>Local</td><td>라이선스 확인 및 기기 수 제한을 위해 이 설치를 식별합니다.</td></tr>
@@ -1123,11 +1125,11 @@
         <tr><td>네트워크 파일 기록(네트워크 모니터링을 통해 검출된 파일 URL, 형식, 크기)</td><td>Session</td><td>페이지 HTML에 표시되지 않는 JavaScript, XHR 또는 fetch 요청을 통해 로드되는 다운로드 가능 파일을 검출하기 위함. 탭이 닫히거나 브라우저 세션이 종료되면 자동 삭제됨.</td></tr>
         <tr><td>액티브 캡처 기록(원본 및 최종 다운로드 URL, 참조 페이지 URL, 저장된 파일명, MIME 형식, 브라우저 다운로드 ID와 상태, 캡처 대상 호스트)</td><td>Session</td><td>명시적으로 실행한 액티브 캡처 중 다운로드한 파일을 대조하여 이름 변경이나 ZIP 생성에 사용합니다. 최대 500건이며 브라우저 세션 종료 시 자동 삭제됩니다.</td></tr>
 
-      </table>
+      </table></div>
       <p>최근 스캔 이력은 본 확장 프로그램 UI 내에서 삭제할 수 있습니다. 네트워크 파일 기록은 결과 패널에서 "Reset" 버튼을 클릭하거나 탭을 닫음으로써 삭제할 수 있습니다. Web Page Collector 작업을 삭제하면 해당 작업의 메타데이터와 저장된 페이지 본문이 삭제되며, 재사용 가능한 가져온 프로필은 별도로 관리됩니다. 본 확장 프로그램을 제거하면 그 로컬 스토리지가 삭제됩니다. 세션 데이터는 브라우저 세션이 종료되면 자동으로 삭제됩니다.</p>
 
       <h2>4. 권한</h2>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="4. 권한"><table>
         <tr><th>권한</th><th>필요한 이유</th></tr>
         <tr><td><code>tabs</code></td><td>사용자가 선택한 활성 원본 탭을 읽고 Collector에 렌더링된 콘텐츠가 필요한 경우 비활성 대상 페이지 탭을 열기 위함.</td></tr>
         <tr><td><code>scripting</code></td><td>다운로드 링크를 찾고, 선택한 페이지의 렌더링된 DOM을 캡처하며, 사용자가 요청한 선택자 도구를 실행하기 위함.</td></tr>
@@ -1139,7 +1141,7 @@
         <tr><td><code>offscreen</code> (Chromium)</td><td>재개 가능한 수집 작업을 위해 가져온 HTML을 로컬에서 분석하고 안전하게 처리합니다.</td></tr>
         <tr><td>선택적 사이트 접근:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>이 패턴은 선택적 권한으로만 선언됩니다. 사용자 동작 후 선택한 origin만 요청하고 허용된 origin에만 콘텐츠 스크립트를 등록하며 권한 취소 시 등록을 제거합니다. 페이지 콘텐츠, URL, 파일 이름 및 검색 기록은 개발자 서버로 전송되지 않습니다.</td></tr>
         <tr><td>필수 자사 backend 접근:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>이 단일 필수 host 권한은 라이선스 확인, 토큰/해지 목록 갱신, 기기 관리 및 &mdash; 명시적 동의 후에만 &mdash; 제5a절의 사용 이벤트에 사용됩니다. 페이지, 탐색 또는 Collector 내용은 전송하지 않습니다.</td></tr>
-      </table>
+      </table></div>
 
       <h2>5. 브라우징 관련 데이터의 이용</h2>
       <p>본 확장 프로그램은 브라우징 관련 데이터 및 웹사이트 콘텐츠를 그 이용자 대상 기능, 즉 현재 페이지 스캔, 입력 URL 스캔, 최근 스캔 표시, 파일 메타데이터 확인, 선택 파일 다운로드 및 PDF의 로컬 결합을 제공하기 위해서만 이용합니다.</p>
@@ -1259,7 +1261,7 @@
 
       <h2>3. Dados Armazenados em seu Dispositivo</h2>
       <p>A Extensão armazena os dados a seguir localmente usando <code>chrome.storage.local</code>, <code>chrome.storage.session</code> e o IndexedDB da Extensão. Exceto pelas solicitações relativas à licença descritas acima e pelas estatísticas de uso pseudônimas que você habilitar expressamente, esses dados permanecem em seu dispositivo.</p>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="3. Dados Armazenados em seu Dispositivo"><table>
         <tr><th>Dado</th><th>Armazenamento</th><th>Finalidade</th></tr>
         <tr><td>Chave de licença</td><td>Local</td><td>Manter a Extensão ativada após a verificação da licença.</td></tr>
         <tr><td>ID do dispositivo (UUID aleatório)</td><td>Local</td><td>Identificar esta instalação para verificação de licença e limites de dispositivos.</td></tr>
@@ -1277,11 +1279,11 @@
         <tr><td>Registros de arquivos de rede (URLs, tipos e tamanhos de arquivos detectados via monitoramento de rede)</td><td>Session</td><td>Detectar arquivos baixáveis carregados via JavaScript, XHR ou fetch que não estão visíveis no HTML da página. Apagados automaticamente quando a aba é fechada ou quando a sessão do navegador é encerrada.</td></tr>
         <tr><td>Registros do Active Capture (URLs de origem e de download final, URL da página de referência, nomes de arquivos salvos, tipos MIME, ID e estado do download no navegador e host alvo da captura)</td><td>Session</td><td>Associar os arquivos baixados durante uma execução explícita do Active Capture para renomear ou compactar em ZIP. Até 500 registros; apagados quando a sessão do navegador termina.</td></tr>
 
-      </table>
+      </table></div>
       <p>Você pode limpar o histórico recente de varreduras pela interface da Extensão. Os registros de arquivos de rede podem ser limpos clicando no botão "Reset" no painel de resultados ou fechando a aba. Excluir um trabalho do Web Page Collector remove seus metadados e conteúdos de página salvos; perfis importados reutilizáveis são gerenciados separadamente. Desinstalar a Extensão remove seu armazenamento local. Os dados de sessão são apagados automaticamente quando a sessão do navegador é encerrada.</p>
 
       <h2>4. Permissões</h2>
-      <table>
+      <div class="table-scroll" role="region" tabindex="0" aria-label="4. Permissões"><table>
         <tr><th>Permissão</th><th>Por que é necessária</th></tr>
         <tr><td><code>tabs</code></td><td>Ler a aba de origem ativa escolhida pelo usuário e abrir uma aba de destino inativa quando o Collector precisar do conteúdo renderizado.</td></tr>
         <tr><td><code>scripting</code></td><td>Detectar links baixáveis, capturar o DOM renderizado das páginas selecionadas e executar o seletor visual solicitado pelo usuário.</td></tr>
@@ -1293,7 +1295,7 @@
         <tr><td><code>offscreen</code> (Chromium)</td><td>Analisar e higienizar localmente o HTML obtido para coletas retomáveis.</td></tr>
         <tr><td>Acesso opcional a sites:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>Esses padrões são apenas permissões opcionais. A Extensão solicita a origem selecionada após uma ação do usuário, registra scripts somente em origens permitidas e remove o registro quando a permissão é revogada. Conteúdo, URLs, nomes de arquivos e histórico não são enviados aos servidores do desenvolvedor.</td></tr>
         <tr><td>Acesso obrigatório ao backend próprio:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>Esta única permissão de host obrigatória é usada para verificação de licença, atualização de tokens/listas de revogação, gerenciamento de dispositivos e &mdash; somente após consentimento explícito &mdash; os eventos de uso da seção 5a. Conteúdo de páginas, navegação ou do Collector nunca é enviado por ela.</td></tr>
-      </table>
+      </table></div>
 
       <h2>5. Uso de Dados Relacionados à Navegação</h2>
       <p>A Extensão usa dados relacionados à navegação e o conteúdo dos sites apenas para oferecer suas funcionalidades voltadas ao usuário: escanear a página atual, escanear uma URL inserida por você, mostrar varreduras recentes, verificar metadados de arquivo, baixar arquivos selecionados e mesclar PDFs localmente.</p>
@@ -1413,7 +1415,7 @@
 
 <h2>3. 存储于您设备上的数据</h2>
 <p>本扩展程序使用 <code>chrome.storage.local</code>、<code>chrome.storage.session</code> 与扩展程序 IndexedDB 在本地存储下列数据。除上文所述与许可证相关的请求以及您明确启用的假名化使用统计外，该等数据均保留在您的设备上。</p>
-<table>
+<div class="table-scroll" role="region" tabindex="0" aria-label="3. 存储于您设备上的数据"><table>
   <tr><th>数据</th><th>存储位置</th><th>用途</th></tr>
   <tr><td>许可证密钥</td><td>Local</td><td>在许可证验证后保持本扩展程序的激活状态。</td></tr>
   <tr><td>设备 ID（随机 UUID）</td><td>Local</td><td>用于许可证验证和设备数量限制的安装标识。</td></tr>
@@ -1431,11 +1433,11 @@
   <tr><td>网络文件记录（通过网络监控所检测到的文件 URL、类型、大小）</td><td>Session</td><td>检测通过 JavaScript、XHR 或 fetch 请求加载的、不在页面 HTML 中可见的可下载文件。在标签页关闭或浏览器会话结束时自动清除。</td></tr>
   <tr><td>Active Capture 记录（来源 URL 与最终下载 URL、引用页面 URL、已保存的文件名、MIME 类型、浏览器下载 ID 和状态及捕获目标主机）</td><td>Session</td><td>比对在您明确执行 Active Capture 期间页面下载的文件，以便重命名或打包为 ZIP。最多 500 条；在浏览器会话结束时自动清除。</td></tr>
 
-</table>
+</table></div>
 <p>您可在本扩展程序界面中清除近期扫描历史。网络文件记录可通过点击结果面板中的"Reset"按钮或关闭标签页来清除。删除 Web Page Collector 任务会移除该任务的元数据和已保存页面内容；可复用的导入配置文件另行管理。卸载本扩展程序将移除其本地存储。会话数据将在浏览器会话结束时自动清除。</p>
 
 <h2>4. 权限</h2>
-<table>
+<div class="table-scroll" role="region" tabindex="0" aria-label="4. 权限"><table>
   <tr><th>权限</th><th>所需理由</th></tr>
   <tr><td><code>tabs</code></td><td>读取用户选择的活动源标签页，并在 Collector 需要渲染内容时打开非活动目标页面标签页。</td></tr>
   <tr><td><code>scripting</code></td><td>查找可下载链接、捕获所选页面的渲染 DOM，并运行用户调用的选择器工具。</td></tr>
@@ -1447,7 +1449,7 @@
   <tr><td><code>offscreen</code>（Chromium）</td><td>在本地解析和清理获取的 HTML，以支持可恢复的收集任务。</td></tr>
         <tr><td>可选网站访问：<br><code>https://*/*</code> + <code>http://*/*</code></td><td>这些模式仅声明为可选权限。扩展程序在用户操作后仅请求所选来源，仅在已授权来源注册内容脚本，并在撤销权限时移除注册。页面内容、URL、文件名和浏览记录不会发送到开发者服务器。</td></tr>
         <tr><td>必需的自有后端访问：<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>此唯一必需的主机权限用于许可证验证、令牌/撤销列表更新、设备管理，以及 &mdash; 仅在明确同意后 &mdash; 第 5a 节的使用事件。绝不通过该权限发送页面、浏览或 Collector 内容。</td></tr>
-</table>
+</table></div>
 
 <h2>5. 浏览相关数据的使用</h2>
 <p>本扩展程序仅将浏览相关数据及网站内容用于其面向用户的功能：扫描当前页面、扫描您输入的 URL、显示近期扫描记录、检查文件元数据、下载所选文件，以及在本地合并 PDF。</p>
@@ -1567,7 +1569,7 @@
 
 <h2>3. 儲存於您裝置之資料</h2>
 <p>本擴充功能使用 <code>chrome.storage.local</code>、<code>chrome.storage.session</code> 與擴充功能 IndexedDB 於本地儲存下列資料。除上述與授權相關之請求及您明確啟用的假名化使用統計外，該等資料均保留於您之裝置內。</p>
-<table>
+<div class="table-scroll" role="region" tabindex="0" aria-label="3. 儲存於您裝置之資料"><table>
   <tr><th>資料</th><th>儲存位置</th><th>用途</th></tr>
   <tr><td>授權金鑰</td><td>Local</td><td>於授權驗證後維持本擴充功能之啟用狀態。</td></tr>
   <tr><td>裝置 ID（隨機 UUID）</td><td>Local</td><td>用於授權驗證與裝置數量限制的安裝識別。</td></tr>
@@ -1585,11 +1587,11 @@
   <tr><td>網路檔案紀錄（透過網路監控所偵測到之檔案 URL、類型、大小）</td><td>Session</td><td>偵測透過 JavaScript、XHR 或 fetch 請求載入之、不存在於頁面 HTML 中之可下載檔案。於關閉分頁或瀏覽器工作階段結束時自動清除。</td></tr>
   <tr><td>Active Capture 紀錄（來源 URL 與最終下載 URL、參照頁面 URL、已儲存之檔案名稱、MIME 類型、瀏覽器下載 ID 與狀態及擷取目標主機）</td><td>Session</td><td>比對您明確執行 Active Capture 期間頁面下載的檔案，以便重新命名或封裝為 ZIP。最多 500 筆；於瀏覽器工作階段結束時自動清除。</td></tr>
 
-</table>
+</table></div>
 <p>您可於本擴充功能介面內清除近期掃描紀錄。網路檔案紀錄可透過點擊結果面板中之「Reset」按鈕或關閉分頁加以清除。刪除 Web Page Collector 工作會移除該工作之中繼資料與已儲存頁面內容；可重複使用的匯入設定檔另行管理。解除安裝本擴充功能將移除其本地儲存之資料。工作階段資料於瀏覽器工作階段結束時自動清除。</p>
 
 <h2>4. 權限</h2>
-<table>
+<div class="table-scroll" role="region" tabindex="0" aria-label="4. 權限"><table>
   <tr><th>權限</th><th>所需理由</th></tr>
   <tr><td><code>tabs</code></td><td>讀取使用者選擇之作用中來源分頁，並於 Collector 需要渲染內容時開啟非作用中目標頁面分頁。</td></tr>
   <tr><td><code>scripting</code></td><td>尋找可下載連結、擷取所選頁面之渲染 DOM，並執行使用者叫用之選擇器工具。</td></tr>
@@ -1601,7 +1603,7 @@
   <tr><td><code>offscreen</code>（Chromium）</td><td>在本機解析並清理取得的 HTML，以支援可繼續的收集工作。</td></tr>
         <tr><td>選用網站存取：<br><code>https://*/*</code> + <code>http://*/*</code></td><td>這些模式僅宣告為選用權限。本擴充功能在使用者操作後只要求所選來源，只在已授權來源註冊內容指令碼，並在權限撤銷時移除註冊。頁面內容、URL、檔案名稱與瀏覽紀錄不會傳送至開發者伺服器。</td></tr>
         <tr><td>必要的自有後端存取：<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>此唯一必要的主機權限用於授權驗證、權杖/撤銷清單更新、裝置管理，以及 &mdash; 僅在明確同意後 &mdash; 第 5a 節的使用事件。絕不透過該權限傳送頁面、瀏覽或 Collector 內容。</td></tr>
-</table>
+</table></div>
 
 <h2>5. 瀏覽相關資料之使用</h2>
 <p>本擴充功能僅將瀏覽相關資料及網站內容用於其使用者導向之功能：掃描目前頁面、掃描您所輸入之 URL、顯示近期掃描、檢查檔案中繼資料、下載所選檔案，以及在本地合併 PDF。</p>

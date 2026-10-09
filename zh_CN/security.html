@@ -212,16 +212,19 @@
       gap: 1.1rem;
       margin-top: 2.2rem;
     }
-    .section-card { padding: 1.35rem; }
+    .section-card { min-width: 0; padding: 1.35rem; }
     .section-card p, .section-card li, td {
       color: var(--text-muted);
       font-size: 0.94rem;
     }
+    .table-scroll { min-width: 0; max-width: 100%; overflow-x: auto; }
+    .table-scroll:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
       table-layout: fixed;
+      min-width: 560px;
     }
     th, td {
       border: 1px solid var(--border);
@@ -351,7 +354,7 @@
   </header>
 
   <main id="security-root">
-<section class="hero"><div><div class="eyebrow"><span>✓</span><span>0 个文件上传</span></div><h1>Grab All Files 的安全、隐私和权限</h1><p class="lead">Grab All Files 需要较广的浏览器权限，因为它会扫描您选择的页面或URL，包括当前登录会话后的页面。文件检测、下载、ZIP、CSV和PDF合并均在浏览器本地运行。</p><div class="cta-row"><span class="store-cta-label">在浏览器中下载 Grab All Files：</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">下载 Chrome 版</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">下载 Edge 版</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">下载 Firefox 版</a><a class="btn" href="/privacy-policy.html">阅读隐私政策</a></div></div><aside class="panel"><h2>简要说明</h2><ul class="fact-list"><li><span class="mark">1</span><span>文件不会经过我们的服务器。</span></li><li><span class="mark">2</span><span>PDF合并、ZIP和CSV在本地处理。</span></li><li><span class="mark">3</span><span>许可证检查不包含文件内容。</span></li><li><span class="mark">4</span><span>只对您有权访问的文件使用。</span></li></ul></aside></section><div class="section-stack"><section class="section-card"><h2>发送到我们服务器的内容</h2><p>发送许可证验证数据和可选的假名化使用统计。使用统计默认关闭，仅在明确同意后发送。</p><table><thead><tr><th>目的</th><th>发送的数据</th><th>不会发送</th></tr></thead><tbody><tr><td>许可证激活和刷新</td><td>许可证密钥、随机设备UUID和令牌元数据。</td><td>下载文件、检测URL列表、源页面内容。</td></tr><tr><td>撤销列表刷新</td><td>无用户识别载荷；扩展下载签名撤销列表。</td><td>请求中不含许可证密钥和文件数据。</td></tr><tr><td>可选使用统计</td><td>同意后：随机设备ID、套餐状态、事件名称以及粗略次数或耗时。</td><td>页面内容、URL、文件名、下载文件或个人数据。</td></tr></tbody></table></section><section class="section-card"><h2>为什么需要广泛的网站权限</h2><p>浏览器可能提示扩展可访问网站数据。因为目标站点由用户选择，文件可能位于框架、查看器URL或网络响应中。</p><table><thead><tr><th>权限范围</th><th>原因</th><th>实际限制</th></tr></thead><tbody><tr><td>读取选定页面</td><td>查找可见链接、嵌入文件、PDF查看器和懒加载资源。</td><td>仅用于用户选择扫描的页面或URL。</td></tr><tr><td>监测类似文件的响应</td><td>发现通过fetch/XHR、CMS路径或查看器端点加载的文件。</td><td>用于生成本地结果列表；不会上传。</td></tr><tr><td>使用当前浏览器会话</td><td>下载用户已能手动打开的门户或会员区文件。</td><td>不收集凭据；仅在有权限时使用。</td></tr></tbody></table><div class="callout">扩展程序不会授予您未被授权查看内容的访问权限。它只使用浏览器会话已有的访问权限。</div></section><section class="section-card"><h2>本地保留的处理</h2><ul class="local-list"><li><span class="mark">✓</span><span>检测文件列表、筛选和扫描结果。</span></li><li><span class="mark">✓</span><span>下载的文件内容。</span></li><li><span class="mark">✓</span><span>PDF合并处理。</span></li><li><span class="mark">✓</span><span>ZIP生成。</span></li><li><span class="mark">✓</span><span>CSV导出。</span></li></ul></section><section class="section-card"><h2>负责任使用</h2><p>请仅将 Grab All Files 用于合法资料收集和工作自动化，并遵守目标网站条款、版权、访问权限和速率限制。</p></section></div>
+<section class="hero"><div><div class="eyebrow"><span>✓</span><span>0 个文件上传</span></div><h1>Grab All Files 的安全、隐私和权限</h1><p class="lead">Grab All Files 需要较广的浏览器权限，因为它会扫描您选择的页面或URL，包括当前登录会话后的页面。文件检测、下载、ZIP、CSV和PDF合并均在浏览器本地运行。</p><div class="cta-row"><span class="store-cta-label">在浏览器中下载 Grab All Files：</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">下载 Chrome 版</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">下载 Edge 版</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">下载 Firefox 版</a><a class="btn" href="/privacy-policy.html">阅读隐私政策</a></div></div><aside class="panel"><h2>简要说明</h2><ul class="fact-list"><li><span class="mark">1</span><span>文件不会经过我们的服务器。</span></li><li><span class="mark">2</span><span>PDF合并、ZIP和CSV在本地处理。</span></li><li><span class="mark">3</span><span>许可证检查不包含文件内容。</span></li><li><span class="mark">4</span><span>只对您有权访问的文件使用。</span></li></ul></aside></section><div class="section-stack"><section class="section-card"><h2>发送到我们服务器的内容</h2><p>发送许可证验证数据和可选的假名化使用统计。使用统计默认关闭，仅在明确同意后发送。</p><div class="table-scroll" role="region" tabindex="0" aria-label="发送到我们服务器的内容"><table><thead><tr><th>目的</th><th>发送的数据</th><th>不会发送</th></tr></thead><tbody><tr><td>许可证激活和刷新</td><td>许可证密钥、随机设备UUID和令牌元数据。</td><td>下载文件、检测URL列表、源页面内容。</td></tr><tr><td>撤销列表刷新</td><td>无用户识别载荷；扩展下载签名撤销列表。</td><td>请求中不含许可证密钥和文件数据。</td></tr><tr><td>可选使用统计</td><td>同意后：随机设备ID、套餐状态、事件名称以及粗略次数或耗时。</td><td>页面内容、URL、文件名、下载文件或个人数据。</td></tr></tbody></table></div></section><section class="section-card"><h2>为什么需要广泛的网站权限</h2><p>浏览器可能提示扩展可访问网站数据。因为目标站点由用户选择，文件可能位于框架、查看器URL或网络响应中。</p><div class="table-scroll" role="region" tabindex="0" aria-label="为什么需要广泛的网站权限"><table><thead><tr><th>权限范围</th><th>原因</th><th>实际限制</th></tr></thead><tbody><tr><td>读取选定页面</td><td>查找可见链接、嵌入文件、PDF查看器和懒加载资源。</td><td>仅用于用户选择扫描的页面或URL。</td></tr><tr><td>监测类似文件的响应</td><td>发现通过fetch/XHR、CMS路径或查看器端点加载的文件。</td><td>用于生成本地结果列表；不会上传。</td></tr><tr><td>使用当前浏览器会话</td><td>下载用户已能手动打开的门户或会员区文件。</td><td>不收集凭据；仅在有权限时使用。</td></tr></tbody></table></div><div class="callout">扩展程序不会授予您未被授权查看内容的访问权限。它只使用浏览器会话已有的访问权限。</div></section><section class="section-card"><h2>本地保留的处理</h2><ul class="local-list"><li><span class="mark">✓</span><span>检测文件列表、筛选和扫描结果。</span></li><li><span class="mark">✓</span><span>下载的文件内容。</span></li><li><span class="mark">✓</span><span>PDF合并处理。</span></li><li><span class="mark">✓</span><span>ZIP生成。</span></li><li><span class="mark">✓</span><span>CSV导出。</span></li></ul></section><section class="section-card"><h2>负责任使用</h2><p>请仅将 Grab All Files 用于合法资料收集和工作自动化，并遵守目标网站条款、版权、访问权限和速率限制。</p></section></div>
   </main>
 
   <footer>
@@ -486,10 +489,10 @@
       }
       return path + (path.indexOf('?') >= 0 ? '&' : '?') + 'lang=' + encodeURIComponent(lang);
     }
-    function table(headers, rows) {
-      return '<table><thead><tr>' + headers.map(function(h){ return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+    function table(headers, rows, title) {
+      return '<div class="table-scroll" role="region" tabindex="0" aria-label="' + esc(title) + '"><table><thead><tr>' + headers.map(function(h){ return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' +
         rows.map(function(row){ return '<tr>' + row.map(function(cell){ return '<td>' + esc(cell) + '</td>'; }).join('') + '</tr>'; }).join('') +
-        '</tbody></table>';
+        '</tbody></table></div>';
     }
     function render(lang, updateUrl) {
       var c = COPY[lang] || COPY.en;
@@ -535,8 +538,8 @@
           '<aside class="panel"><h2>' + esc(c.summaryTitle) + '</h2><ul class="fact-list">' + c.facts.map(function(item, i){ return '<li><span class="mark">' + (i + 1) + '</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></aside>',
         '</section>',
         '<div class="section-stack">',
-          '<section class="section-card"><h2>' + esc(c.sentTitle) + '</h2><p>' + esc(c.sentIntro) + '</p>' + table(c.sentHeaders, c.sentRows) + '</section>',
-          '<section class="section-card"><h2>' + esc(c.permTitle) + '</h2><p>' + esc(c.permIntro) + '</p>' + table(c.permHeaders, c.permRows) + '<div class="callout">' + esc(c.callout) + '</div></section>',
+          '<section class="section-card"><h2>' + esc(c.sentTitle) + '</h2><p>' + esc(c.sentIntro) + '</p>' + table(c.sentHeaders, c.sentRows, c.sentTitle) + '</section>',
+          '<section class="section-card"><h2>' + esc(c.permTitle) + '</h2><p>' + esc(c.permIntro) + '</p>' + table(c.permHeaders, c.permRows, c.permTitle) + '<div class="callout">' + esc(c.callout) + '</div></section>',
           '<section class="section-card"><h2>' + esc(c.localTitle) + '</h2><ul class="local-list">' + c.localItems.map(function(item){ return '<li><span class="mark">✓</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></section>',
           '<section class="section-card"><h2>' + esc(c.respTitle) + '</h2><p>' + esc(c.respText) + '</p></section>',
         '</div>'

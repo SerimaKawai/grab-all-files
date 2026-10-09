@@ -212,16 +212,19 @@
       gap: 1.1rem;
       margin-top: 2.2rem;
     }
-    .section-card { padding: 1.35rem; }
+    .section-card { min-width: 0; padding: 1.35rem; }
     .section-card p, .section-card li, td {
       color: var(--text-muted);
       font-size: 0.94rem;
     }
+    .table-scroll { min-width: 0; max-width: 100%; overflow-x: auto; }
+    .table-scroll:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
       table-layout: fixed;
+      min-width: 560px;
     }
     th, td {
       border: 1px solid var(--border);
@@ -351,7 +354,7 @@
   </header>
 
   <main id="security-root">
-<section class="hero"><div><div class="eyebrow"><span>✓</span><span>0 個檔案上傳</span></div><h1>Grab All Files 的安全、隱私和權限</h1><p class="lead">Grab All Files 需要較廣的瀏覽器權限，因為它會掃描您選擇的頁面或URL，包括目前登入工作階段後的頁面。檔案偵測、下載、ZIP、CSV和PDF合併均在瀏覽器本機執行。</p><div class="cta-row"><span class="store-cta-label">在瀏覽器中下載 Grab All Files：</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">下載 Chrome 版</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">下載 Edge 版</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">下載 Firefox 版</a><a class="btn" href="/privacy-policy.html">閱讀隱私政策</a></div></div><aside class="panel"><h2>簡要說明</h2><ul class="fact-list"><li><span class="mark">1</span><span>檔案不會經過我們的伺服器。</span></li><li><span class="mark">2</span><span>PDF合併、ZIP和CSV在本機處理。</span></li><li><span class="mark">3</span><span>授權檢查不包含檔案內容。</span></li><li><span class="mark">4</span><span>只對您有權存取的檔案使用。</span></li></ul></aside></section><div class="section-stack"><section class="section-card"><h2>傳送到我們伺服器的內容</h2><p>傳送授權驗證資料和選用的假名化使用統計。使用統計預設關閉，僅在明確同意後傳送。</p><table><thead><tr><th>目的</th><th>傳送的資料</th><th>不會傳送</th></tr></thead><tbody><tr><td>授權啟用和刷新</td><td>授權金鑰、隨機裝置UUID和權杖中繼資料。</td><td>下載檔案、偵測URL清單、來源頁內容。</td></tr><tr><td>撤銷清單刷新</td><td>無使用者識別載荷；擴充功能下載簽署撤銷清單。</td><td>請求中不含授權金鑰和檔案資料。</td></tr><tr><td>選用使用統計</td><td>同意後：隨機裝置ID、方案狀態、事件名稱，以及粗略次數或耗時。</td><td>頁面內容、URL、檔案名稱、下載檔案或個人資料。</td></tr></tbody></table></section><section class="section-card"><h2>為什麼需要廣泛網站權限</h2><p>瀏覽器可能提示擴充功能可存取網站資料。因為目標網站由使用者選擇，檔案可能位於框架、檢視器URL或網路回應中。</p><table><thead><tr><th>權限範圍</th><th>原因</th><th>實際限制</th></tr></thead><tbody><tr><td>讀取選定頁面</td><td>查找可見連結、嵌入檔案、PDF檢視器和延遲載入資源。</td><td>僅用於使用者選擇掃描的頁面或URL。</td></tr><tr><td>監測類似檔案的回應</td><td>發現透過fetch/XHR、CMS路徑或檢視器端點載入的檔案。</td><td>用於產生本機結果清單；不會上傳。</td></tr><tr><td>使用目前瀏覽器工作階段</td><td>下載使用者已能手動開啟的入口或會員區檔案。</td><td>不收集憑證；僅在有權限時使用。</td></tr></tbody></table><div class="callout">擴充功能不會授予您未被授權查看內容的存取權限。它只使用瀏覽器工作階段已有的存取權限。</div></section><section class="section-card"><h2>本機保留的處理</h2><ul class="local-list"><li><span class="mark">✓</span><span>偵測檔案清單、篩選和掃描結果。</span></li><li><span class="mark">✓</span><span>下載的檔案內容。</span></li><li><span class="mark">✓</span><span>PDF合併處理。</span></li><li><span class="mark">✓</span><span>ZIP產生。</span></li><li><span class="mark">✓</span><span>CSV匯出。</span></li></ul></section><section class="section-card"><h2>負責任使用</h2><p>請僅將 Grab All Files 用於合法資料收集和工作自動化，並遵守目標網站條款、著作權、存取權限和速率限制。</p></section></div>
+<section class="hero"><div><div class="eyebrow"><span>✓</span><span>0 個檔案上傳</span></div><h1>Grab All Files 的安全、隱私和權限</h1><p class="lead">Grab All Files 需要較廣的瀏覽器權限，因為它會掃描您選擇的頁面或URL，包括目前登入工作階段後的頁面。檔案偵測、下載、ZIP、CSV和PDF合併均在瀏覽器本機執行。</p><div class="cta-row"><span class="store-cta-label">在瀏覽器中下載 Grab All Files：</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">下載 Chrome 版</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">下載 Edge 版</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">下載 Firefox 版</a><a class="btn" href="/privacy-policy.html">閱讀隱私政策</a></div></div><aside class="panel"><h2>簡要說明</h2><ul class="fact-list"><li><span class="mark">1</span><span>檔案不會經過我們的伺服器。</span></li><li><span class="mark">2</span><span>PDF合併、ZIP和CSV在本機處理。</span></li><li><span class="mark">3</span><span>授權檢查不包含檔案內容。</span></li><li><span class="mark">4</span><span>只對您有權存取的檔案使用。</span></li></ul></aside></section><div class="section-stack"><section class="section-card"><h2>傳送到我們伺服器的內容</h2><p>傳送授權驗證資料和選用的假名化使用統計。使用統計預設關閉，僅在明確同意後傳送。</p><div class="table-scroll" role="region" tabindex="0" aria-label="傳送到我們伺服器的內容"><table><thead><tr><th>目的</th><th>傳送的資料</th><th>不會傳送</th></tr></thead><tbody><tr><td>授權啟用和刷新</td><td>授權金鑰、隨機裝置UUID和權杖中繼資料。</td><td>下載檔案、偵測URL清單、來源頁內容。</td></tr><tr><td>撤銷清單刷新</td><td>無使用者識別載荷；擴充功能下載簽署撤銷清單。</td><td>請求中不含授權金鑰和檔案資料。</td></tr><tr><td>選用使用統計</td><td>同意後：隨機裝置ID、方案狀態、事件名稱，以及粗略次數或耗時。</td><td>頁面內容、URL、檔案名稱、下載檔案或個人資料。</td></tr></tbody></table></div></section><section class="section-card"><h2>為什麼需要廣泛網站權限</h2><p>瀏覽器可能提示擴充功能可存取網站資料。因為目標網站由使用者選擇，檔案可能位於框架、檢視器URL或網路回應中。</p><div class="table-scroll" role="region" tabindex="0" aria-label="為什麼需要廣泛網站權限"><table><thead><tr><th>權限範圍</th><th>原因</th><th>實際限制</th></tr></thead><tbody><tr><td>讀取選定頁面</td><td>查找可見連結、嵌入檔案、PDF檢視器和延遲載入資源。</td><td>僅用於使用者選擇掃描的頁面或URL。</td></tr><tr><td>監測類似檔案的回應</td><td>發現透過fetch/XHR、CMS路徑或檢視器端點載入的檔案。</td><td>用於產生本機結果清單；不會上傳。</td></tr><tr><td>使用目前瀏覽器工作階段</td><td>下載使用者已能手動開啟的入口或會員區檔案。</td><td>不收集憑證；僅在有權限時使用。</td></tr></tbody></table></div><div class="callout">擴充功能不會授予您未被授權查看內容的存取權限。它只使用瀏覽器工作階段已有的存取權限。</div></section><section class="section-card"><h2>本機保留的處理</h2><ul class="local-list"><li><span class="mark">✓</span><span>偵測檔案清單、篩選和掃描結果。</span></li><li><span class="mark">✓</span><span>下載的檔案內容。</span></li><li><span class="mark">✓</span><span>PDF合併處理。</span></li><li><span class="mark">✓</span><span>ZIP產生。</span></li><li><span class="mark">✓</span><span>CSV匯出。</span></li></ul></section><section class="section-card"><h2>負責任使用</h2><p>請僅將 Grab All Files 用於合法資料收集和工作自動化，並遵守目標網站條款、著作權、存取權限和速率限制。</p></section></div>
   </main>
 
   <footer>
@@ -486,10 +489,10 @@
       }
       return path + (path.indexOf('?') >= 0 ? '&' : '?') + 'lang=' + encodeURIComponent(lang);
     }
-    function table(headers, rows) {
-      return '<table><thead><tr>' + headers.map(function(h){ return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+    function table(headers, rows, title) {
+      return '<div class="table-scroll" role="region" tabindex="0" aria-label="' + esc(title) + '"><table><thead><tr>' + headers.map(function(h){ return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' +
         rows.map(function(row){ return '<tr>' + row.map(function(cell){ return '<td>' + esc(cell) + '</td>'; }).join('') + '</tr>'; }).join('') +
-        '</tbody></table>';
+        '</tbody></table></div>';
     }
     function render(lang, updateUrl) {
       var c = COPY[lang] || COPY.en;
@@ -535,8 +538,8 @@
           '<aside class="panel"><h2>' + esc(c.summaryTitle) + '</h2><ul class="fact-list">' + c.facts.map(function(item, i){ return '<li><span class="mark">' + (i + 1) + '</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></aside>',
         '</section>',
         '<div class="section-stack">',
-          '<section class="section-card"><h2>' + esc(c.sentTitle) + '</h2><p>' + esc(c.sentIntro) + '</p>' + table(c.sentHeaders, c.sentRows) + '</section>',
-          '<section class="section-card"><h2>' + esc(c.permTitle) + '</h2><p>' + esc(c.permIntro) + '</p>' + table(c.permHeaders, c.permRows) + '<div class="callout">' + esc(c.callout) + '</div></section>',
+          '<section class="section-card"><h2>' + esc(c.sentTitle) + '</h2><p>' + esc(c.sentIntro) + '</p>' + table(c.sentHeaders, c.sentRows, c.sentTitle) + '</section>',
+          '<section class="section-card"><h2>' + esc(c.permTitle) + '</h2><p>' + esc(c.permIntro) + '</p>' + table(c.permHeaders, c.permRows, c.permTitle) + '<div class="callout">' + esc(c.callout) + '</div></section>',
           '<section class="section-card"><h2>' + esc(c.localTitle) + '</h2><ul class="local-list">' + c.localItems.map(function(item){ return '<li><span class="mark">✓</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></section>',
           '<section class="section-card"><h2>' + esc(c.respTitle) + '</h2><p>' + esc(c.respText) + '</p></section>',
         '</div>'

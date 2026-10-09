@@ -212,16 +212,19 @@
       gap: 1.1rem;
       margin-top: 2.2rem;
     }
-    .section-card { padding: 1.35rem; }
+    .section-card { min-width: 0; padding: 1.35rem; }
     .section-card p, .section-card li, td {
       color: var(--text-muted);
       font-size: 0.94rem;
     }
+    .table-scroll { min-width: 0; max-width: 100%; overflow-x: auto; }
+    .table-scroll:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
       table-layout: fixed;
+      min-width: 560px;
     }
     th, td {
       border: 1px solid var(--border);
@@ -351,7 +354,7 @@
   </header>
 
   <main id="security-root">
-<section class="hero"><div><div class="eyebrow"><span>✓</span><span>업로드되는 파일 0개</span></div><h1>Grab All Files의 보안, 개인정보, 권한</h1><p class="lead">Grab All Files는 사용자가 선택한 페이지나 URL을 스캔하기 때문에 넓은 브라우저 권한이 필요합니다. 현재 로그인 세션으로 열 수 있는 페이지도 포함됩니다. 파일 검색, 다운로드, ZIP, CSV, PDF 병합은 브라우저에서 로컬 처리됩니다.</p><div class="cta-row"><span class="store-cta-label">브라우저에서 Grab All Files 다운로드:</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome용 다운로드</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Edge용 다운로드</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Firefox용 다운로드</a><a class="btn" href="/privacy-policy.html">개인정보 처리방침 읽기</a></div></div><aside class="panel"><h2>요약</h2><ul class="fact-list"><li><span class="mark">1</span><span>파일은 서버를 거치지 않습니다.</span></li><li><span class="mark">2</span><span>PDF 병합, ZIP, CSV는 로컬 처리됩니다.</span></li><li><span class="mark">3</span><span>라이선스 확인에는 파일 내용이 포함되지 않습니다.</span></li><li><span class="mark">4</span><span>접근 권한이 있는 파일에만 사용하세요.</span></li></ul></aside></section><div class="section-stack"><section class="section-card"><h2>서버로 전송되는 정보</h2><p>라이선스 확인 데이터와 선택적 가명 사용 통계가 전송됩니다. 사용 통계는 기본적으로 꺼져 있으며 명시적으로 동의한 뒤에만 전송됩니다.</p><table><thead><tr><th>목적</th><th>전송 데이터</th><th>전송되지 않음</th></tr></thead><tbody><tr><td>라이선스 활성화</td><td>라이선스 키, 임의 UUID, 토큰 메타데이터.</td><td>다운로드 파일, URL 목록, 페이지 내용.</td></tr><tr><td>철회 목록</td><td>식별 페이로드 없음; 서명된 목록 다운로드.</td><td>라이선스 키와 파일 데이터 제외.</td></tr><tr><td>선택적 사용 통계</td><td>동의 후: 무작위 기기 ID, 플랜 상태, 이벤트 이름, 대략적인 횟수 또는 소요 시간.</td><td>페이지 내용, URL, 파일 이름, 다운로드 파일, 개인 데이터.</td></tr></tbody></table></section><section class="section-card"><h2>넓은 권한이 필요한 이유</h2><p>브라우저는 사이트 데이터 접근 경고를 표시할 수 있습니다. 대상 사이트는 사용자가 선택하고 파일은 프레임, 뷰어, 네트워크 응답에 있을 수 있기 때문입니다.</p><table><thead><tr><th>영역</th><th>이유</th><th>실제 제한</th></tr></thead><tbody><tr><td>선택 페이지 읽기</td><td>링크, 내장 파일, PDF 뷰어, 지연 로딩 자산 찾기.</td><td>선택한 페이지/URL에 사용.</td></tr><tr><td>파일형 응답 확인</td><td>fetch/XHR, CMS, 뷰어를 통한 파일 찾기.</td><td>로컬 목록 생성; 업로드 없음.</td></tr><tr><td>현재 세션 사용</td><td>이미 열 수 있는 포털의 파일 다운로드.</td><td>인증 정보 수집 없음.</td></tr></tbody></table><div class="callout">확장 프로그램은 권한 없는 콘텐츠 접근을 제공하지 않습니다. 기존 브라우저 세션의 접근 범위에서만 작동합니다.</div></section><section class="section-card"><h2>로컬에 남는 것</h2><ul class="local-list"><li><span class="mark">✓</span><span>검출 목록, 필터, 스캔 결과.</span></li><li><span class="mark">✓</span><span>다운로드한 파일 내용.</span></li><li><span class="mark">✓</span><span>PDF 병합 처리.</span></li><li><span class="mark">✓</span><span>ZIP 생성.</span></li><li><span class="mark">✓</span><span>CSV 내보내기.</span></li></ul></section><section class="section-card"><h2>책임 있는 사용</h2><p>정당한 자료 수집에만 사용하고 대상 사이트 약관, 저작권, 접근 권한, 제한을 준수하세요.</p></section></div>
+<section class="hero"><div><div class="eyebrow"><span>✓</span><span>업로드되는 파일 0개</span></div><h1>Grab All Files의 보안, 개인정보, 권한</h1><p class="lead">Grab All Files는 사용자가 선택한 페이지나 URL을 스캔하기 때문에 넓은 브라우저 권한이 필요합니다. 현재 로그인 세션으로 열 수 있는 페이지도 포함됩니다. 파일 검색, 다운로드, ZIP, CSV, PDF 병합은 브라우저에서 로컬 처리됩니다.</p><div class="cta-row"><span class="store-cta-label">브라우저에서 Grab All Files 다운로드:</span><a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">Chrome용 다운로드</a><a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Edge용 다운로드</a><a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">Firefox용 다운로드</a><a class="btn" href="/privacy-policy.html">개인정보 처리방침 읽기</a></div></div><aside class="panel"><h2>요약</h2><ul class="fact-list"><li><span class="mark">1</span><span>파일은 서버를 거치지 않습니다.</span></li><li><span class="mark">2</span><span>PDF 병합, ZIP, CSV는 로컬 처리됩니다.</span></li><li><span class="mark">3</span><span>라이선스 확인에는 파일 내용이 포함되지 않습니다.</span></li><li><span class="mark">4</span><span>접근 권한이 있는 파일에만 사용하세요.</span></li></ul></aside></section><div class="section-stack"><section class="section-card"><h2>서버로 전송되는 정보</h2><p>라이선스 확인 데이터와 선택적 가명 사용 통계가 전송됩니다. 사용 통계는 기본적으로 꺼져 있으며 명시적으로 동의한 뒤에만 전송됩니다.</p><div class="table-scroll" role="region" tabindex="0" aria-label="서버로 전송되는 정보"><table><thead><tr><th>목적</th><th>전송 데이터</th><th>전송되지 않음</th></tr></thead><tbody><tr><td>라이선스 활성화</td><td>라이선스 키, 임의 UUID, 토큰 메타데이터.</td><td>다운로드 파일, URL 목록, 페이지 내용.</td></tr><tr><td>철회 목록</td><td>식별 페이로드 없음; 서명된 목록 다운로드.</td><td>라이선스 키와 파일 데이터 제외.</td></tr><tr><td>선택적 사용 통계</td><td>동의 후: 무작위 기기 ID, 플랜 상태, 이벤트 이름, 대략적인 횟수 또는 소요 시간.</td><td>페이지 내용, URL, 파일 이름, 다운로드 파일, 개인 데이터.</td></tr></tbody></table></div></section><section class="section-card"><h2>넓은 권한이 필요한 이유</h2><p>브라우저는 사이트 데이터 접근 경고를 표시할 수 있습니다. 대상 사이트는 사용자가 선택하고 파일은 프레임, 뷰어, 네트워크 응답에 있을 수 있기 때문입니다.</p><div class="table-scroll" role="region" tabindex="0" aria-label="넓은 권한이 필요한 이유"><table><thead><tr><th>영역</th><th>이유</th><th>실제 제한</th></tr></thead><tbody><tr><td>선택 페이지 읽기</td><td>링크, 내장 파일, PDF 뷰어, 지연 로딩 자산 찾기.</td><td>선택한 페이지/URL에 사용.</td></tr><tr><td>파일형 응답 확인</td><td>fetch/XHR, CMS, 뷰어를 통한 파일 찾기.</td><td>로컬 목록 생성; 업로드 없음.</td></tr><tr><td>현재 세션 사용</td><td>이미 열 수 있는 포털의 파일 다운로드.</td><td>인증 정보 수집 없음.</td></tr></tbody></table></div><div class="callout">확장 프로그램은 권한 없는 콘텐츠 접근을 제공하지 않습니다. 기존 브라우저 세션의 접근 범위에서만 작동합니다.</div></section><section class="section-card"><h2>로컬에 남는 것</h2><ul class="local-list"><li><span class="mark">✓</span><span>검출 목록, 필터, 스캔 결과.</span></li><li><span class="mark">✓</span><span>다운로드한 파일 내용.</span></li><li><span class="mark">✓</span><span>PDF 병합 처리.</span></li><li><span class="mark">✓</span><span>ZIP 생성.</span></li><li><span class="mark">✓</span><span>CSV 내보내기.</span></li></ul></section><section class="section-card"><h2>책임 있는 사용</h2><p>정당한 자료 수집에만 사용하고 대상 사이트 약관, 저작권, 접근 권한, 제한을 준수하세요.</p></section></div>
   </main>
 
   <footer>
@@ -486,10 +489,10 @@
       }
       return path + (path.indexOf('?') >= 0 ? '&' : '?') + 'lang=' + encodeURIComponent(lang);
     }
-    function table(headers, rows) {
-      return '<table><thead><tr>' + headers.map(function(h){ return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+    function table(headers, rows, title) {
+      return '<div class="table-scroll" role="region" tabindex="0" aria-label="' + esc(title) + '"><table><thead><tr>' + headers.map(function(h){ return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' +
         rows.map(function(row){ return '<tr>' + row.map(function(cell){ return '<td>' + esc(cell) + '</td>'; }).join('') + '</tr>'; }).join('') +
-        '</tbody></table>';
+        '</tbody></table></div>';
     }
     function render(lang, updateUrl) {
       var c = COPY[lang] || COPY.en;
@@ -535,8 +538,8 @@
           '<aside class="panel"><h2>' + esc(c.summaryTitle) + '</h2><ul class="fact-list">' + c.facts.map(function(item, i){ return '<li><span class="mark">' + (i + 1) + '</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></aside>',
         '</section>',
         '<div class="section-stack">',
-          '<section class="section-card"><h2>' + esc(c.sentTitle) + '</h2><p>' + esc(c.sentIntro) + '</p>' + table(c.sentHeaders, c.sentRows) + '</section>',
-          '<section class="section-card"><h2>' + esc(c.permTitle) + '</h2><p>' + esc(c.permIntro) + '</p>' + table(c.permHeaders, c.permRows) + '<div class="callout">' + esc(c.callout) + '</div></section>',
+          '<section class="section-card"><h2>' + esc(c.sentTitle) + '</h2><p>' + esc(c.sentIntro) + '</p>' + table(c.sentHeaders, c.sentRows, c.sentTitle) + '</section>',
+          '<section class="section-card"><h2>' + esc(c.permTitle) + '</h2><p>' + esc(c.permIntro) + '</p>' + table(c.permHeaders, c.permRows, c.permTitle) + '<div class="callout">' + esc(c.callout) + '</div></section>',
           '<section class="section-card"><h2>' + esc(c.localTitle) + '</h2><ul class="local-list">' + c.localItems.map(function(item){ return '<li><span class="mark">✓</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul></section>',
           '<section class="section-card"><h2>' + esc(c.respTitle) + '</h2><p>' + esc(c.respText) + '</p></section>',
         '</div>'
