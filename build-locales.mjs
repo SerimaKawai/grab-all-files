@@ -43,6 +43,11 @@ const PAGES = [
   { src: 'index.html', rel: '' },
   { src: 'security.html', rel: 'security.html' },
   { src: 'use-cases/index.html', rel: 'use-cases/' },
+  { src: 'use-cases/download-product-catalogs-and-datasheets.html', rel: 'use-cases/download-product-catalogs-and-datasheets.html' },
+  { src: 'use-cases/download-ir-and-financial-report-pdfs.html', rel: 'use-cases/download-ir-and-financial-report-pdfs.html' },
+  { src: 'use-cases/download-tender-and-application-documents.html', rel: 'use-cases/download-tender-and-application-documents.html' },
+  { src: 'use-cases/export-file-links-to-csv.html', rel: 'use-cases/export-file-links-to-csv.html' },
+  { src: 'use-cases/download-sds-and-technical-documents.html', rel: 'use-cases/download-sds-and-technical-documents.html' },
   { src: 'use-cases/download-arxiv-pdfs-and-research-files.html', rel: 'use-cases/download-arxiv-pdfs-and-research-files.html' },
   { src: 'use-cases/web-tables-to-csv-for-excel-ai.html', rel: 'use-cases/web-tables-to-csv-for-excel-ai.html' },
   { src: 'use-cases/save-and-compare-document-revisions.html', rel: 'use-cases/save-and-compare-document-revisions.html' },
@@ -63,6 +68,11 @@ const PAGES = [
 // NOTE: use-case.js and use-cases/style.css are SHARED (not per-locale) and stay at /use-cases/.
 const LOCALIZED = new Set([
   '/', '/security.html', '/use-cases/',
+  '/use-cases/download-product-catalogs-and-datasheets.html',
+  '/use-cases/download-ir-and-financial-report-pdfs.html',
+  '/use-cases/download-tender-and-application-documents.html',
+  '/use-cases/export-file-links-to-csv.html',
+  '/use-cases/download-sds-and-technical-documents.html',
   '/use-cases/download-arxiv-pdfs-and-research-files.html',
   '/use-cases/web-tables-to-csv-for-excel-ai.html',
   '/use-cases/save-and-compare-document-revisions.html',
@@ -515,6 +525,11 @@ for (const page of PAGES) {
   const srcHtml = fs.readFileSync(srcPath, 'utf8');
   const caseId = CASE_ID_BY_SRC[page.src];
   const repairLineEndings = [
+    'use-cases/download-product-catalogs-and-datasheets.html',
+    'use-cases/download-ir-and-financial-report-pdfs.html',
+    'use-cases/download-tender-and-application-documents.html',
+    'use-cases/export-file-links-to-csv.html',
+    'use-cases/download-sds-and-technical-documents.html',
     'use-cases/download-arxiv-pdfs-and-research-files.html',
     'use-cases/web-tables-to-csv-for-excel-ai.html',
     'use-cases/save-and-compare-document-revisions.html',

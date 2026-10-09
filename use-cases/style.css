@@ -593,3 +593,7 @@ footer {
 .screenshot-context-title { margin: 1rem 0 .8rem; color: var(--text-strong); font-size: 1.15rem; overflow-wrap: anywhere; }
 .screenshot-details { margin-top: 1.6rem; padding-top: 1.2rem; border-top: 1px solid var(--border); }
 .screenshot-details .usecase-screenshot { max-width: 780px; }
+
+/* New industry diagram titles can contain long model/document words. */
+.industry-visual, .industry-visual figcaption { min-width: 0; }
+.industry-visual figcaption strong { min-width: 0; overflow-wrap: anywhere; hyphens: auto; }

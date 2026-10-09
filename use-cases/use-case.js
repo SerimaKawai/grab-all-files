@@ -335,6 +335,11 @@
   }
 
   var GUIDE_ORDER = [
+    "download-product-catalogs-and-datasheets",
+    "download-ir-and-financial-report-pdfs",
+    "download-tender-and-application-documents",
+    "export-file-links-to-csv",
+    "download-sds-and-technical-documents",
     "download-arxiv-pdfs-and-research-files",
     "web-tables-to-csv-for-excel-ai",
     "save-and-compare-document-revisions",
@@ -353,6 +358,11 @@
 
   var GUIDE_LABELS = {
     en: {
+      "download-product-catalogs-and-datasheets": "Product catalogs & datasheets",
+      "download-ir-and-financial-report-pdfs": "IR & financial report PDFs",
+      "download-tender-and-application-documents": "Tender & application documents",
+      "export-file-links-to-csv": "File links to CSV",
+      "download-sds-and-technical-documents": "SDS & technical documents",
       "download-arxiv-pdfs-and-research-files": "arXiv PDFs & research files",
       "web-tables-to-csv-for-excel-ai": "Web tables to CSV",
       "save-and-compare-document-revisions": "Save & compare revisions",
@@ -369,6 +379,11 @@
       "merge-pdfs-locally": "Merge PDFs locally"
     },
     ja: {
+      "download-product-catalogs-and-datasheets": "製品カタログ・仕様資料",
+      "download-ir-and-financial-report-pdfs": "IR・決算資料PDF",
+      "download-tender-and-application-documents": "入札・公募書類一式",
+      "export-file-links-to-csv": "資料リンクをCSV一覧に",
+      "download-sds-and-technical-documents": "SDS・技術資料を保存",
       "download-arxiv-pdfs-and-research-files": "arXivのPDF・研究資料",
       "web-tables-to-csv-for-excel-ai": "Web表をCSVで活用",
       "save-and-compare-document-revisions": "改訂前後の資料を比較",
@@ -385,6 +400,11 @@
       "merge-pdfs-locally": "PDFをローカル結合"
     },
     es: {
+      "download-product-catalogs-and-datasheets": "Catálogos y fichas de producto",
+      "download-ir-and-financial-report-pdfs": "PDF de IR y resultados",
+      "download-tender-and-application-documents": "Documentos de licitación y convocatoria",
+      "export-file-links-to-csv": "Enlaces de archivos a CSV",
+      "download-sds-and-technical-documents": "SDS y documentos técnicos",
       "download-arxiv-pdfs-and-research-files": "PDF y archivos de arXiv",
       "web-tables-to-csv-for-excel-ai": "Tablas web a CSV",
       "save-and-compare-document-revisions": "Guardar y comparar versiones",
@@ -401,6 +421,11 @@
       "merge-pdfs-locally": "Fusionar PDF localmente"
     },
     fr: {
+      "download-product-catalogs-and-datasheets": "Catalogues et fiches produit",
+      "download-ir-and-financial-report-pdfs": "PDF de résultats et rapports IR",
+      "download-tender-and-application-documents": "Documents d’appels d’offres",
+      "export-file-links-to-csv": "Liens de fichiers en CSV",
+      "download-sds-and-technical-documents": "SDS et documents techniques",
       "download-arxiv-pdfs-and-research-files": "PDF et fichiers arXiv",
       "web-tables-to-csv-for-excel-ai": "Tableaux web en CSV",
       "save-and-compare-document-revisions": "Enregistrer et comparer les versions",
@@ -417,6 +442,11 @@
       "merge-pdfs-locally": "Fusionner PDF localement"
     },
     de: {
+      "download-product-catalogs-and-datasheets": "Kataloge und Datenblätter",
+      "download-ir-and-financial-report-pdfs": "IR- und Finanzbericht-PDFs",
+      "download-tender-and-application-documents": "Ausschreibungsunterlagen",
+      "export-file-links-to-csv": "Dateilinks als CSV",
+      "download-sds-and-technical-documents": "SDS und technische Dokumente",
       "download-arxiv-pdfs-and-research-files": "arXiv-PDFs und Forschungsdateien",
       "web-tables-to-csv-for-excel-ai": "Webtabellen als CSV",
       "save-and-compare-document-revisions": "Dokumentstände vergleichen",
@@ -433,6 +463,11 @@
       "merge-pdfs-locally": "PDFs lokal zusammenführen"
     },
     it: {
+      "download-product-catalogs-and-datasheets": "Cataloghi e schede prodotto",
+      "download-ir-and-financial-report-pdfs": "PDF IR e bilanci",
+      "download-tender-and-application-documents": "Documenti di bandi e gare",
+      "export-file-links-to-csv": "Link ai file in CSV",
+      "download-sds-and-technical-documents": "SDS e documenti tecnici",
       "download-arxiv-pdfs-and-research-files": "PDF e file di ricerca arXiv",
       "web-tables-to-csv-for-excel-ai": "Tabelle web in CSV",
       "save-and-compare-document-revisions": "Salvare e confrontare versioni",
@@ -449,6 +484,11 @@
       "merge-pdfs-locally": "Unire PDF localmente"
     },
     ko: {
+      "download-product-catalogs-and-datasheets": "제품 카탈로그·데이터시트",
+      "download-ir-and-financial-report-pdfs": "IR·실적 보고서 PDF",
+      "download-tender-and-application-documents": "입찰·공모 서류",
+      "export-file-links-to-csv": "파일 링크를 CSV로",
+      "download-sds-and-technical-documents": "SDS·기술 자료",
       "download-arxiv-pdfs-and-research-files": "arXiv PDF·연구 파일",
       "web-tables-to-csv-for-excel-ai": "웹 표를 CSV로 활용",
       "save-and-compare-document-revisions": "개정 전후 자료 비교",
@@ -465,6 +505,11 @@
       "merge-pdfs-locally": "PDF 로컬 병합"
     },
     pt_BR: {
+      "download-product-catalogs-and-datasheets": "Catálogos e fichas técnicas",
+      "download-ir-and-financial-report-pdfs": "PDFs de RI e resultados financeiros",
+      "download-tender-and-application-documents": "Documentos de licitação e seleção",
+      "export-file-links-to-csv": "Links de arquivos em CSV",
+      "download-sds-and-technical-documents": "SDS e documentos técnicos",
       "download-arxiv-pdfs-and-research-files": "PDFs e arquivos do arXiv",
       "web-tables-to-csv-for-excel-ai": "Tabelas web em CSV",
       "save-and-compare-document-revisions": "Salvar e comparar revisões",
@@ -481,6 +526,11 @@
       "merge-pdfs-locally": "Mesclar PDFs localmente"
     },
     zh_CN: {
+      "download-product-catalogs-and-datasheets": "产品目录与数据表",
+      "download-ir-and-financial-report-pdfs": "IR与财务报告PDF",
+      "download-tender-and-application-documents": "招标与申请文件",
+      "export-file-links-to-csv": "文件链接导出为CSV",
+      "download-sds-and-technical-documents": "SDS与技术资料",
       "download-arxiv-pdfs-and-research-files": "arXiv PDF与研究文件",
       "web-tables-to-csv-for-excel-ai": "网页表格转CSV",
       "save-and-compare-document-revisions": "保存并比较修订前后资料",
@@ -497,6 +547,11 @@
       "merge-pdfs-locally": "本地合并PDF"
     },
     zh_TW: {
+      "download-product-catalogs-and-datasheets": "產品型錄與資料表",
+      "download-ir-and-financial-report-pdfs": "IR與財務報告PDF",
+      "download-tender-and-application-documents": "招標與申請文件",
+      "export-file-links-to-csv": "檔案連結匯出為CSV",
+      "download-sds-and-technical-documents": "SDS與技術資料",
       "download-arxiv-pdfs-and-research-files": "arXiv PDF與研究檔案",
       "web-tables-to-csv-for-excel-ai": "網頁表格轉CSV",
       "save-and-compare-document-revisions": "儲存並比較修訂前後資料",
@@ -515,6 +570,3266 @@
   };
 
   var CASES = {
+    "download-product-catalogs-and-datasheets": {
+      "path": "download-product-catalogs-and-datasheets.html",
+      "related": [
+        "export-file-links-to-csv",
+        "rename-and-organize-bulk-pdf-downloads",
+        "web-pages-for-reading-and-ai-analysis"
+      ],
+      "copy": {
+        "en": {
+          "title": "Download product catalogs & datasheets | Grab All Files",
+          "desc": "Build a working set of catalogs, specification PDFs and datasheets for the products you are comparing.",
+          "eyebrow": "Product catalogs & datasheets",
+          "h1": "Keep product documents together.",
+          "lead": "Build a working set of catalogs, specification PDFs and datasheets for the products you are comparing. Choose the correct model, region and edition before saving; keep source links with the files for later checking.",
+          "best": [
+            "Product shortlists that need a catalog and a detailed specification.",
+            "Equipment or component records organized by a reviewed model name."
+          ],
+          "steps": [
+            "Open the manufacturer’s download page for the product family you need. Keep other models, software and member-only areas outside your chosen set.",
+            "Open Grab All Files, scan the chosen page, and filter the file types you need. Review the source links and select the relevant files.",
+            "Check model numbers, language, revision dates and document roles. Edit titles to distinguish a catalog from a specification or datasheet.",
+            "Check or edit titles, choose the save-name and type/domain folder options, then save files or ZIP. Export File Info CSV to keep a URL record.",
+            "Open the saved documents and compare the stated conditions against the source. Keep a note of the model and edition; this folder is reference material, not an automatic product suitability assessment."
+          ],
+          "faq": [
+            {
+              "q": "Will it collect every model’s documents?",
+              "a": "It finds supported file links in the scope you scan. Select the right models and check the source list; hidden or separate download areas may require another visit."
+            },
+            {
+              "q": "Does it classify files by model automatically?",
+              "a": "No. You review the model and name files or split your work into model-specific batches. Native folder grouping is by type or domain."
+            },
+            {
+              "q": "Can it extract a specification comparison automatically?",
+              "a": "The file-information CSV lists files, not values from their specification tables. Use the original documents or a separate table/AI workflow and verify any comparison."
+            },
+            {
+              "q": "Can I use this for free?",
+              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images and directly linked files on that page have no plan-based count cap. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+            },
+            {
+              "q": "What does the file-information CSV contain?",
+              "a": "Selected file URLs, filenames, titles, types, detection confidence/evidence and available size, modification date and source page. Unknown metadata can be blank. It is not a table extracted from the document body."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Product catalogs & datasheets",
+            "stages": [
+              "Review the source list",
+              "Choose the required files",
+              "Prepare an organized set"
+            ],
+            "files": [
+              "Product-A-catalog.pdf",
+              "Product-A-specification.pdf",
+              "Product-A-datasheet.pdf"
+            ],
+            "column": [
+              "File",
+              "Type"
+            ],
+            "output": "Sample set",
+            "example": "Illustrative example · fictional materials",
+            "note": "Names and groups shown here are examples. Check and name files yourself; native folder options are by type or domain.",
+            "referenceTitle": "An example of published source materials",
+            "referenceNote": "This link illustrates how documents are published. It is not an affiliation or a compatibility test.",
+            "referenceLabel": "Panasonic Connect",
+            "referenceUrl": "https://connect.panasonic.com/jp-ja/products-services/proav_it-ip-platform/downloads"
+          }
+        },
+        "ja": {
+          "title": "製品カタログ・仕様PDF・データシートを保存 | Grab All Files",
+          "desc": "比較したい製品のカタログ、仕様PDF、データシートを読み返しやすい資料セットへ。",
+          "eyebrow": "製品カタログ・仕様資料",
+          "h1": "製品資料を、型番でまとめて保存。",
+          "lead": "比較したい製品のカタログ、仕様PDF、データシートを読み返しやすい資料セットへ。型番・対象地域・版を確認して選び、あとで原文を確かめられるよう元リンクも記録します。",
+          "best": [
+            "製品候補のカタログと詳細仕様を一緒に管理する。",
+            "機器や部品の資料を、確認した型番の名前で見つけやすくする。"
+          ],
+          "steps": [
+            "メーカーの対象製品・シリーズの配布ページを開きます。他の型番、ソフトウェア、会員専用の領域は必要な資料と分けて確認します。",
+            "Grab All Filesを開き、対象ページをスキャンします。必要な種類で絞り込み、元リンクを確認して資料を選択します。",
+            "型番、言語、改訂日、資料の役割を確認します。カタログ・仕様書・データシートを区別できる題名へ編集します。",
+            "題名を確認・編集し、保存名と種類別／ドメイン別のフォルダ分けを選び、個別ファイルまたはZIPで保存します。「ファイル情報CSV出力」でURLの記録も残せます。",
+            "保存した資料を開き、記載条件を元ページ・原文と照合します。型番と版をメモに残し、製品の適否は資料整理とは別に判断します。"
+          ],
+          "faq": [
+            {
+              "q": "すべての型番の資料を自動で集めますか？",
+              "a": "スキャン範囲で検出できた対応形式のリンクが対象です。必要な型番を選び、元の資料一覧と照合してください。別の配布画面は開いて確認する場合があります。"
+            },
+            {
+              "q": "型番別に自動分類しますか？",
+              "a": "型番の確認、命名、型番ごとの作業分けは利用者が行います。拡張のフォルダ分けは種類別・ドメイン別です。"
+            },
+            {
+              "q": "仕様の比較表も自動で作れますか？",
+              "a": "ファイル情報CSVは資料の一覧で、仕様表の数値ではありません。原文や別の表抽出・AI用資料の手順を使い、比較結果は原資料と照合します。"
+            },
+            {
+              "q": "無料で使えますか？",
+              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+            },
+            {
+              "q": "ファイル情報CSVには何が入りますか？",
+              "a": "選択したファイルのURL、ファイル名、題名、種類、検出の確度・根拠と、取得できたサイズ・更新日・リンク元ページを記録します。不明な情報は空になる場合があり、資料本文の表を抽出したCSVではありません。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "製品カタログ・仕様資料",
+            "stages": [
+              "配布資料を確認",
+              "必要なファイルを選択",
+              "整理した資料セットへ"
+            ],
+            "files": [
+              "Product-A-catalog.pdf",
+              "Product-A-specification.pdf",
+              "Product-A-datasheet.pdf"
+            ],
+            "column": [
+              "ファイル",
+              "種類"
+            ],
+            "output": "資料セット例",
+            "example": "図解例 · 架空のサンプル資料",
+            "note": "名前やまとめ方は例です。資料の確認・命名は利用者が行い、拡張のフォルダ分けは種類別またはドメイン別です。",
+            "referenceTitle": "公開資料の配布構成の例",
+            "referenceNote": "資料の公開方法を示す参考リンクです。提携や対応動作の確認を示すものではありません。",
+            "referenceLabel": "Panasonic Connect",
+            "referenceUrl": "https://connect.panasonic.com/jp-ja/products-services/proav_it-ip-platform/downloads"
+          }
+        },
+        "es": {
+          "title": "Catálogos y fichas de producto | Grab All Files",
+          "desc": "Reúne catálogos, especificaciones y fichas técnicas del producto correcto.",
+          "eyebrow": "Catálogos y fichas de producto",
+          "h1": "Guarda documentos por modelo.",
+          "lead": "Reúne catálogos, especificaciones y fichas técnicas del producto correcto. Conserva modelo, edición y enlaces de origen para revisar la comparación.",
+          "best": [
+            "Comparar una selección de productos.",
+            "Localizar especificaciones por modelo."
+          ],
+          "steps": [
+            "Abre las descargas oficiales de la familia de producto elegida, separando software y áreas de miembros.",
+            "Abre Grab All Files, escanea la página elegida, filtra los formatos y revisa los enlaces antes de seleccionar los archivos.",
+            "Comprueba modelo, idioma, revisión y función del documento. Edita títulos y trabaja por modelo.",
+            "Revisa o edita títulos, elige nombres y carpetas por tipo o dominio y guarda archivos o ZIP. Exporta la información CSV para registrar las URL.",
+            "Abre los archivos guardados y contrasta sus condiciones con el original; organizar no determina la idoneidad del producto."
+          ],
+          "faq": [
+            {
+              "q": "¿Recopila todos los modelos?",
+              "a": "Solo enlaces compatibles encontrados. Comprueba la lista oficial y visita otras áreas si hace falta."
+            },
+            {
+              "q": "¿Clasifica por modelo automáticamente?",
+              "a": "No. Tú verificas modelos, nombres y lotes; las carpetas nativas son por tipo o dominio."
+            },
+            {
+              "q": "¿Extrae una comparación de especificaciones?",
+              "a": "El CSV lista archivos, no valores de las tablas. Usa los originales o un flujo separado de tablas/IA y verifica los resultados."
+            },
+            {
+              "q": "¿Puedo usarlo gratis?",
+              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes y los archivos enlazados directamente en esa página no tienen límite de cantidad por plan. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+            },
+            {
+              "q": "¿Qué contiene el CSV de información?",
+              "a": "URL, nombres, títulos, tipos, confianza y evidencia de detección, y tamaño, fecha y página origen cuando se conocen. Los campos desconocidos pueden quedar vacíos; no extrae tablas del documento."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Catálogos y fichas de producto",
+            "stages": [
+              "Revisar la lista",
+              "Elegir archivos",
+              "Preparar el conjunto"
+            ],
+            "files": [
+              "Product-A-catalog.pdf",
+              "Product-A-specification.pdf",
+              "Product-A-datasheet.pdf"
+            ],
+            "column": [
+              "Archivo",
+              "Tipo"
+            ],
+            "output": "Conjunto de ejemplo",
+            "example": "Ejemplo ilustrativo · materiales ficticios",
+            "note": "Los nombres y grupos son ejemplos manuales. La clasificación nativa es por tipo o dominio.",
+            "referenceTitle": "Ejemplo de documentos publicados",
+            "referenceNote": "Referencia sobre cómo se publican documentos; no implica afiliación ni una prueba de compatibilidad.",
+            "referenceLabel": "Panasonic Connect",
+            "referenceUrl": "https://connect.panasonic.com/jp-ja/products-services/proav_it-ip-platform/downloads"
+          }
+        },
+        "fr": {
+          "title": "Catalogues et fiches produit | Grab All Files",
+          "desc": "Conservez catalogues, spécifications et fiches du bon produit.",
+          "eyebrow": "Catalogues et fiches produit",
+          "h1": "Regroupez les documents par modèle.",
+          "lead": "Conservez catalogues, spécifications et fiches du bon produit. Vérifiez modèle, région et édition et gardez les liens sources.",
+          "best": [
+            "Comparer une sélection de produits.",
+            "Retrouver les spécifications par modèle."
+          ],
+          "steps": [
+            "Ouvrez les téléchargements de la famille choisie ; séparez logiciels et espaces réservés.",
+            "Ouvrez Grab All Files, analysez la page choisie, filtrez les formats et vérifiez les liens avant de sélectionner les fichiers.",
+            "Vérifiez modèle, langue, révision et rôle. Modifiez les titres et travaillez par modèle.",
+            "Vérifiez ou modifiez les titres, choisissez les noms et dossiers par type ou domaine, puis enregistrez des fichiers ou un ZIP. Exportez les informations CSV pour garder les URL.",
+            "Ouvrez les fichiers et comparez les conditions aux originaux ; ce classement ne décide pas si un produit convient."
+          ],
+          "faq": [
+            {
+              "q": "Tous les modèles sont-ils collectés ?",
+              "a": "Seuls les liens compatibles trouvés. Vérifiez la liste et les autres espaces."
+            },
+            {
+              "q": "Classement automatique par modèle ?",
+              "a": "Non. Vous vérifiez noms et lots ; les dossiers natifs sont par type ou domaine."
+            },
+            {
+              "q": "Une comparaison des valeurs est-elle extraite ?",
+              "a": "Le CSV liste des fichiers. Pour leurs tableaux, utilisez les originaux ou un autre flux tableaux/IA puis vérifiez."
+            },
+            {
+              "q": "Puis-je l’utiliser gratuitement ?",
+              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images et fichiers directement liés sur cette page n’ont pas de plafond lié au forfait. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+            },
+            {
+              "q": "Que contient le CSV d’informations ?",
+              "a": "URL, noms, titres, types, confiance et preuves de détection, taille, date et page source si connues. Les champs inconnus peuvent rester vides ; ce ne sont pas les tableaux du document."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Catalogues et fiches produit",
+            "stages": [
+              "Vérifier la liste",
+              "Choisir les fichiers",
+              "Préparer l’ensemble"
+            ],
+            "files": [
+              "Product-A-catalog.pdf",
+              "Product-A-specification.pdf",
+              "Product-A-datasheet.pdf"
+            ],
+            "column": [
+              "Fichier",
+              "Type"
+            ],
+            "output": "Ensemble d’exemple",
+            "example": "Exemple illustratif · documents fictifs",
+            "note": "Noms et groupes sont des exemples manuels. Le classement natif est par type ou domaine.",
+            "referenceTitle": "Exemple de documents publiés",
+            "referenceNote": "Référence sur la publication des documents ; ni affiliation ni test de compatibilité.",
+            "referenceLabel": "Panasonic Connect",
+            "referenceUrl": "https://connect.panasonic.com/jp-ja/products-services/proav_it-ip-platform/downloads"
+          }
+        },
+        "de": {
+          "title": "Kataloge und Datenblätter | Grab All Files",
+          "desc": "Sammeln Sie Kataloge, Spezifikationen und Datenblätter des richtigen Produkts.",
+          "eyebrow": "Kataloge und Datenblätter",
+          "h1": "Produktdateien klar ordnen.",
+          "lead": "Sammeln Sie Kataloge, Spezifikationen und Datenblätter des richtigen Produkts. Prüfen Sie Modell, Region und Ausgabe und behalten Sie die Quelllinks.",
+          "best": [
+            "Unterlagen für einen Produktvergleich.",
+            "Dateien unter geprüften Modellnamen."
+          ],
+          "steps": [
+            "Öffnen Sie die Downloadseite der gewählten Produktfamilie; trennen Sie Software und Mitgliederbereiche.",
+            "Öffnen Sie Grab All Files, scannen Sie die gewählte Seite, filtern Sie die Formate und prüfen Sie die Links vor der Auswahl.",
+            "Prüfen Sie Modell, Sprache, Revision und Dokumentrolle. Bearbeiten Sie Titel und arbeiten Sie modellweise.",
+            "Prüfen oder bearbeiten Sie Titel, wählen Sie Namen und Typ-/Domainordner und speichern Sie Dateien oder ZIP. Exportieren Sie die Dateiinfo-CSV als URL-Nachweis.",
+            "Öffnen Sie die Dateien und prüfen Sie Bedingungen am Original. Die Sammlung entscheidet nicht über die Eignung eines Produkts."
+          ],
+          "faq": [
+            {
+              "q": "Werden alle Modelle gesammelt?",
+              "a": "Nur gefundene unterstützte Links. Prüfen Sie die veröffentlichte Liste und weitere Bereiche bei Bedarf."
+            },
+            {
+              "q": "Wird automatisch nach Modell sortiert?",
+              "a": "Nein. Sie prüfen Namen und Chargen; native Ordner sind nach Typ oder Domain."
+            },
+            {
+              "q": "Werden Spezifikationswerte verglichen?",
+              "a": "Die CSV listet Dateien. Nutzen Sie Originale oder einen separaten Tabellen-/KI-Ablauf und prüfen Sie Ergebnisse."
+            },
+            {
+              "q": "Ist dies kostenlos nutzbar?",
+              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+            },
+            {
+              "q": "Was enthält die Dateiinfo-CSV?",
+              "a": "URLs, Namen, Titel, Typen, Erkennungsbewertung und -hinweise sowie bekannte Größe, Änderungsdatum und Quellseite. Unbekannte Felder können leer sein; Dokumenttabellen werden nicht extrahiert."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Kataloge und Datenblätter",
+            "stages": [
+              "Liste prüfen",
+              "Dateien wählen",
+              "Unterlagen ordnen"
+            ],
+            "files": [
+              "Product-A-catalog.pdf",
+              "Product-A-specification.pdf",
+              "Product-A-datasheet.pdf"
+            ],
+            "column": [
+              "Datei",
+              "Typ"
+            ],
+            "output": "Beispielsammlung",
+            "example": "Beispielgrafik · fiktive Materialien",
+            "note": "Namen und Gruppen sind manuelle Beispiele. Native Ordneroptionen sind Typ oder Domain.",
+            "referenceTitle": "Beispiel veröffentlichter Unterlagen",
+            "referenceNote": "Referenz zur Dokumentveröffentlichung; keine Partnerschaft oder Kompatibilitätsprüfung.",
+            "referenceLabel": "Panasonic Connect",
+            "referenceUrl": "https://connect.panasonic.com/jp-ja/products-services/proav_it-ip-platform/downloads"
+          }
+        },
+        "it": {
+          "title": "Cataloghi e schede prodotto | Grab All Files",
+          "desc": "Raccogli cataloghi, specifiche e schede del prodotto corretto.",
+          "eyebrow": "Cataloghi e schede prodotto",
+          "h1": "Documenti del prodotto in ordine.",
+          "lead": "Raccogli cataloghi, specifiche e schede del prodotto corretto. Verifica modello, regione ed edizione e conserva i link originali.",
+          "best": [
+            "Materiali per confrontare prodotti.",
+            "Specifiche sotto nomi di modello verificati."
+          ],
+          "steps": [
+            "Apri i download della famiglia scelta e separa software e aree riservate.",
+            "Apri Grab All Files, scansiona la pagina scelta, filtra i formati e verifica i link prima di selezionare i file.",
+            "Verifica modello, lingua, revisione e ruolo del documento. Modifica titoli e lavora per modello.",
+            "Verifica o modifica i titoli, scegli nomi e cartelle per tipo o dominio, poi salva file o ZIP. Esporta le informazioni CSV per conservare gli URL.",
+            "Apri i file e confronta le condizioni con gli originali; la raccolta non decide l’idoneità del prodotto."
+          ],
+          "faq": [
+            {
+              "q": "Raccoglie tutti i modelli?",
+              "a": "Solo link compatibili trovati. Verifica l’elenco e altre aree se necessario."
+            },
+            {
+              "q": "Classifica per modello automaticamente?",
+              "a": "No. Controlli nomi e gruppi; le cartelle native sono per tipo o dominio."
+            },
+            {
+              "q": "Estrae un confronto delle specifiche?",
+              "a": "Il CSV elenca file. Usa originali o un altro flusso tabelle/IA e verifica i risultati."
+            },
+            {
+              "q": "Posso usarlo gratis?",
+              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Immagini e file collegati direttamente in quella pagina non hanno un limite numerico del piano. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+            },
+            {
+              "q": "Cosa contiene il CSV delle informazioni?",
+              "a": "URL, nomi, titoli, tipi, confidenza e prove del rilevamento, dimensione, data e pagina origine se note. I campi ignoti possono essere vuoti; non estrae tabelle dai documenti."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Cataloghi e schede prodotto",
+            "stages": [
+              "Verificare l’elenco",
+              "Scegliere i file",
+              "Preparare la raccolta"
+            ],
+            "files": [
+              "Product-A-catalog.pdf",
+              "Product-A-specification.pdf",
+              "Product-A-datasheet.pdf"
+            ],
+            "column": [
+              "File",
+              "Tipo"
+            ],
+            "output": "Raccolta di esempio",
+            "example": "Esempio illustrativo · materiali fittizi",
+            "note": "Nomi e gruppi sono esempi manuali. Le cartelle native sono per tipo o dominio.",
+            "referenceTitle": "Esempio di documenti pubblicati",
+            "referenceNote": "Riferimento alla pubblicazione dei documenti; non indica affiliazione o test di compatibilità.",
+            "referenceLabel": "Panasonic Connect",
+            "referenceUrl": "https://connect.panasonic.com/jp-ja/products-services/proav_it-ip-platform/downloads"
+          }
+        },
+        "ko": {
+          "title": "제품 카탈로그·데이터시트 다운로드 | Grab All Files",
+          "desc": "비교할 제품의 카탈로그, 사양 PDF와 데이터시트를 참고 자료 세트로 모읍니다.",
+          "eyebrow": "제품 카탈로그·데이터시트",
+          "h1": "제품 자료를 한곳에 모으세요.",
+          "lead": "비교할 제품의 카탈로그, 사양 PDF와 데이터시트를 참고 자료 세트로 모읍니다. 저장하기 전에 정확한 모델·지역·버전을 선택하고, 나중에 확인할 수 있도록 파일과 함께 출처 링크를 남기세요.",
+          "best": [
+            "카탈로그와 상세 사양이 필요한 제품 후보 목록을 정리하기.",
+            "확인한 모델명을 기준으로 장비·부품 자료를 관리하기."
+          ],
+          "steps": [
+            "필요한 제품군의 제조사 다운로드 페이지를 엽니다. 다른 모델, 소프트웨어와 회원 전용 영역은 선택한 자료 세트와 구분합니다.",
+            "Grab All Files를 열고 대상 페이지를 스캔합니다. 필요한 형식을 필터링하고 원본 링크를 확인해 파일을 선택합니다.",
+            "모델 번호, 언어, 개정일과 문서의 용도를 확인합니다. 카탈로그·사양서·데이터시트를 구분할 수 있도록 제목을 편집합니다.",
+            "제목을 확인·편집하고 저장 이름과 종류별·도메인별 폴더를 선택해 파일 또는 ZIP을 저장합니다. 파일 정보 CSV로 URL도 기록합니다.",
+            "저장한 문서를 열어 기재된 조건을 출처와 대조합니다. 모델과 버전을 메모하세요. 이 폴더는 참고 자료이며 제품의 적합성을 자동으로 평가하는 기능은 아닙니다."
+          ],
+          "faq": [
+            {
+              "q": "모든 모델의 자료를 수집하나요?",
+              "a": "스캔한 범위에서 지원되는 파일 링크를 찾습니다. 필요한 모델을 선택하고 원본 자료 목록과 비교하세요. 숨겨진 영역이나 별도의 다운로드 페이지는 다시 방문해야 할 수 있습니다."
+            },
+            {
+              "q": "모델별로 파일을 자동 분류하나요?",
+              "a": "아닙니다. 모델을 확인하고 파일 이름을 정하거나 모델별로 작업을 나누는 것은 사용자가 합니다. 확장 기능의 폴더 분류는 종류별 또는 도메인별입니다."
+            },
+            {
+              "q": "사양 비교를 자동으로 추출할 수 있나요?",
+              "a": "파일 정보 CSV는 파일 목록이며 사양표의 값이 아닙니다. 원본 문서나 별도의 표 추출·AI 작업 흐름을 사용하고 비교 결과를 확인하세요."
+            },
+            {
+              "q": "무료로 사용할 수 있나요?",
+              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+            },
+            {
+              "q": "파일 정보 CSV에는 무엇이 있나요?",
+              "a": "URL, 파일명, 제목, 종류, 감지 신뢰도·근거와 확인 가능한 크기·수정일·원본 페이지입니다. 미확인 정보는 비어 있을 수 있으며 문서 본문 표를 추출한 CSV가 아닙니다."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "제품 카탈로그·데이터시트",
+            "stages": [
+              "자료 목록 확인",
+              "필요한 파일 선택",
+              "자료 세트 준비"
+            ],
+            "files": [
+              "Product-A-catalog.pdf",
+              "Product-A-specification.pdf",
+              "Product-A-datasheet.pdf"
+            ],
+            "column": [
+              "파일",
+              "종류"
+            ],
+            "output": "자료 세트 예시",
+            "example": "그림 예시 · 가상 샘플 자료",
+            "note": "이름과 묶음은 수동 정리 예시입니다. 확장의 폴더 옵션은 종류별 또는 도메인별입니다.",
+            "referenceTitle": "공개 자료 배포 구성 예시",
+            "referenceNote": "자료 공개 방식을 보여 주는 참고 링크이며 제휴나 호환성 검증을 뜻하지 않습니다.",
+            "referenceLabel": "Panasonic Connect",
+            "referenceUrl": "https://connect.panasonic.com/jp-ja/products-services/proav_it-ip-platform/downloads"
+          }
+        },
+        "pt_BR": {
+          "title": "Baixar catálogos e fichas técnicas | Grab All Files",
+          "desc": "Monte um conjunto de catálogos, especificações em PDF e fichas técnicas dos produtos que você está comparando.",
+          "eyebrow": "Catálogos e fichas técnicas",
+          "h1": "Reúna os documentos dos produtos.",
+          "lead": "Monte um conjunto de catálogos, especificações em PDF e fichas técnicas dos produtos que você está comparando. Escolha o modelo, a região e a edição corretos antes de salvar e mantenha os links de origem junto dos arquivos para conferir depois.",
+          "best": [
+            "Organizar uma seleção de produtos que exige catálogo e especificações detalhadas.",
+            "Manter registros de equipamentos ou componentes pelo nome do modelo já conferido."
+          ],
+          "steps": [
+            "Abra a página de downloads do fabricante para a família de produtos necessária. Mantenha outros modelos, software e áreas exclusivas para membros fora do conjunto escolhido.",
+            "Abra Grab All Files, escaneie a página escolhida, filtre os formatos e confira os links antes de selecionar arquivos.",
+            "Confira os números dos modelos, o idioma, as datas de revisão e a função de cada documento. Edite os títulos para distinguir catálogo, especificação e ficha técnica.",
+            "Confira ou edite títulos, escolha nomes e pastas por tipo ou domínio e salve arquivos ou ZIP. Exporte informações CSV para registrar URLs.",
+            "Abra os documentos salvos e compare as condições descritas com a fonte. Anote modelo e edição: a pasta é material de referência e não uma avaliação automática da adequação do produto."
+          ],
+          "faq": [
+            {
+              "q": "Ele coleta os documentos de todos os modelos?",
+              "a": "Ele encontra links de arquivos compatíveis no escopo que você escaneia. Escolha os modelos certos e confira a lista de origem; áreas ocultas ou páginas separadas de download podem exigir outra visita."
+            },
+            {
+              "q": "Os arquivos são classificados automaticamente por modelo?",
+              "a": "Não. Você confere o modelo, nomeia os arquivos ou divide o trabalho em lotes por modelo. A organização nativa de pastas é por tipo ou domínio."
+            },
+            {
+              "q": "Ele extrai automaticamente uma comparação de especificações?",
+              "a": "O CSV de informações de arquivos lista arquivos, não os valores das tabelas de especificações. Use os documentos originais ou um fluxo separado de tabelas/IA e confira a comparação."
+            },
+            {
+              "q": "Posso usar grátis?",
+              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. Imagens e arquivos diretamente vinculados nessa página não têm limite de quantidade do plano. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+            },
+            {
+              "q": "O que contém o CSV de informações?",
+              "a": "URLs, nomes, títulos, tipos, confiança e evidências de detecção, tamanho, data e página de origem quando conhecidos. Campos desconhecidos podem ficar vazios; não extrai tabelas do documento."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Catálogos e fichas técnicas",
+            "stages": [
+              "Conferir a lista",
+              "Escolher arquivos",
+              "Preparar o conjunto"
+            ],
+            "files": [
+              "Product-A-catalog.pdf",
+              "Product-A-specification.pdf",
+              "Product-A-datasheet.pdf"
+            ],
+            "column": [
+              "Arquivo",
+              "Tipo"
+            ],
+            "output": "Conjunto de exemplo",
+            "example": "Exemplo ilustrativo · materiais fictícios",
+            "note": "Nomes e grupos são exemplos manuais. As pastas nativas são por tipo ou domínio.",
+            "referenceTitle": "Exemplo de documentos publicados",
+            "referenceNote": "Referência sobre a publicação; não indica parceria ou teste de compatibilidade.",
+            "referenceLabel": "Panasonic Connect",
+            "referenceUrl": "https://connect.panasonic.com/jp-ja/products-services/proav_it-ip-platform/downloads"
+          }
+        },
+        "zh_CN": {
+          "title": "下载产品目录与数据表 | Grab All Files",
+          "desc": "将要比较的产品目录、规格PDF和数据表整理成便于查阅的资料集。",
+          "eyebrow": "产品目录与数据表",
+          "h1": "把产品资料集中保存。",
+          "lead": "将要比较的产品目录、规格PDF和数据表整理成便于查阅的资料集。保存前确认正确的型号、地区与版本，并把来源链接和文件一起保留，便于日后核对。",
+          "best": [
+            "为需要目录和详细规格的候选产品整理资料。",
+            "以确认过的型号名称管理设备或部件资料。"
+          ],
+          "steps": [
+            "打开制造商所需产品系列的下载页面。将其他型号、软件及会员专用区域与所选资料集分开。",
+            "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
+            "核对型号、语言、修订日期及文档用途。编辑标题，区分目录、规格文件和数据表。",
+            "检查或编辑题名，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "打开已保存文档，将记载的条件与来源核对。记录型号与版本；这个文件夹是参考资料，不会自动评估产品是否适用。"
+          ],
+          "faq": [
+            {
+              "q": "会收集每个型号的全部资料吗？",
+              "a": "它查找扫描范围内支持的文件链接。请选择正确型号，并与来源列表核对；隐藏区域或独立下载页面可能需要另行访问。"
+            },
+            {
+              "q": "会自动按型号分类文件吗？",
+              "a": "不会。型号确认、文件命名或按型号分批处理由你完成。扩展内置的文件夹分类按文件类型或来源域名进行。"
+            },
+            {
+              "q": "能自动提取规格对比吗？",
+              "a": "文件信息CSV列出文件，不包含规格表中的数值。请使用原始文档或另一个表格提取、AI流程，并核对比较结果。"
+            },
+            {
+              "q": "可以免费使用吗？",
+              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+            },
+            {
+              "q": "文件信息CSV包含什么？",
+              "a": "URL、文件名、题名、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "产品目录与数据表",
+            "stages": [
+              "核对资料列表",
+              "选择所需文件",
+              "整理资料集"
+            ],
+            "files": [
+              "Product-A-catalog.pdf",
+              "Product-A-specification.pdf",
+              "Product-A-datasheet.pdf"
+            ],
+            "column": [
+              "文件",
+              "格式"
+            ],
+            "output": "示例资料集",
+            "example": "流程示例 · 虚构示例资料",
+            "note": "名称和分组为手动整理示例。扩展的文件夹分类仅按格式或来源域名。",
+            "referenceTitle": "公开资料分发结构示例",
+            "referenceNote": "仅用于参考资料公开方式，不表示合作或兼容性测试。",
+            "referenceLabel": "Panasonic Connect",
+            "referenceUrl": "https://connect.panasonic.com/jp-ja/products-services/proav_it-ip-platform/downloads"
+          }
+        },
+        "zh_TW": {
+          "title": "下載產品型錄與資料表 | Grab All Files",
+          "desc": "將要比較的產品型錄、規格PDF與資料表整理成便於查閱的資料集。",
+          "eyebrow": "產品型錄與資料表",
+          "h1": "把產品資料集中儲存。",
+          "lead": "將要比較的產品型錄、規格PDF與資料表整理成便於查閱的資料集。儲存前確認正確的型號、地區與版本，並把來源連結和檔案一起保留，便於日後核對。",
+          "best": [
+            "為需要型錄與詳細規格的候選產品整理資料。",
+            "以確認過的型號名稱管理設備或零組件資料。"
+          ],
+          "steps": [
+            "開啟製造商所需產品系列的下載頁面。將其他型號、軟體及會員專用區域與選取的資料集分開。",
+            "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
+            "核對型號、語言、修訂日期與文件用途。編輯標題，區分型錄、規格文件和資料表。",
+            "檢查或編輯題名，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "開啟已儲存文件，將記載的條件與來源核對。記錄型號與版本；這個資料夾是參考資料，不會自動評估產品是否適用。"
+          ],
+          "faq": [
+            {
+              "q": "會收集每個型號的全部資料嗎？",
+              "a": "它尋找掃描範圍內支援的檔案連結。請選擇正確型號，並與來源清單核對；隱藏區域或獨立下載頁面可能需要另行造訪。"
+            },
+            {
+              "q": "會自動依型號分類檔案嗎？",
+              "a": "不會。型號確認、檔案命名或依型號分批處理由你完成。擴充功能內建的資料夾分類依檔案類型或來源網域進行。"
+            },
+            {
+              "q": "能自動擷取規格比較嗎？",
+              "a": "檔案資訊CSV列出檔案，不包含規格表中的數值。請使用原始文件或另一個表格擷取、AI流程，並核對比較結果。"
+            },
+            {
+              "q": "可以免費使用嗎？",
+              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+            },
+            {
+              "q": "檔案資訊CSV包含什麼？",
+              "a": "URL、檔名、題名、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "產品型錄與資料表",
+            "stages": [
+              "核對資料清單",
+              "選取所需檔案",
+              "整理資料集"
+            ],
+            "files": [
+              "Product-A-catalog.pdf",
+              "Product-A-specification.pdf",
+              "Product-A-datasheet.pdf"
+            ],
+            "column": [
+              "檔案",
+              "格式"
+            ],
+            "output": "範例資料集",
+            "example": "流程範例 · 虛構範例資料",
+            "note": "名稱和分組為手動整理範例。擴充功能的資料夾分類僅依格式或來源網域。",
+            "referenceTitle": "公開資料分發結構範例",
+            "referenceNote": "僅用於參考資料公開方式，不表示合作或相容性測試。",
+            "referenceLabel": "Panasonic Connect",
+            "referenceUrl": "https://connect.panasonic.com/jp-ja/products-services/proav_it-ip-platform/downloads"
+          }
+        }
+      }
+    },
+    "download-ir-and-financial-report-pdfs": {
+      "path": "download-ir-and-financial-report-pdfs.html",
+      "related": [
+        "export-file-links-to-csv",
+        "rename-and-organize-bulk-pdf-downloads",
+        "web-pages-for-reading-and-ai-analysis"
+      ],
+      "copy": {
+        "en": {
+          "title": "Download IR & financial report PDFs | Grab All Files",
+          "desc": "Keep an issuer’s earnings releases, presentations and annual reports in a traceable reading set.",
+          "eyebrow": "IR & financial report PDFs",
+          "h1": "Organize reports by reporting period.",
+          "lead": "Keep an issuer’s earnings releases, presentations and annual reports in a traceable reading set. Check the fiscal year and quarter on each original document, then use clear names to prepare material for your own review or an external AI tool.",
+          "best": [
+            "Collecting a single issuer’s annual or quarterly disclosure package.",
+            "Preparing selected source documents for a manually requested summary or comparison."
+          ],
+          "steps": [
+            "Open the issuer’s official IR archive and choose a fiscal year or quarter. Review releases, presentation material and published Q&A separately.",
+            "Open Grab All Files, scan the chosen page, and filter the file types you need. Review the source links and select the relevant files.",
+            "Verify issuer, reporting period, publication date and revisions. Add a period prefix to titles where useful; work in separate period batches to avoid mixing reports.",
+            "Check or edit titles, choose the save-name and type/domain folder options, then save files or ZIP. Export File Info CSV to keep a URL record.",
+            "Read the saved sources or manually give supported files to your chosen AI service. Check units, accounting scope and numbers against the original PDFs. The extension does not make investment decisions or guarantee numeric extraction."
+          ],
+          "faq": [
+            {
+              "q": "Are fiscal years and quarters detected automatically?",
+              "a": "No. Review the period labels in the issuer’s documents and choose names or batches yourself. Fiscal years need not match calendar years."
+            },
+            {
+              "q": "Does the CSV contain financial statement values?",
+              "a": "No. File-information CSV records file metadata and links. It does not extract financial statement tables or guarantee complete numerical data."
+            },
+            {
+              "q": "Can it analyze investments or send reports to AI?",
+              "a": "It prepares files and links. You choose and send suitable materials to an external AI service manually and verify its output. No investment recommendation or analysis accuracy is promised."
+            },
+            {
+              "q": "Can I use this for free?",
+              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images and directly linked files on that page have no plan-based count cap. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+            },
+            {
+              "q": "What does the file-information CSV contain?",
+              "a": "Selected file URLs, filenames, titles, types, detection confidence/evidence and available size, modification date and source page. Unknown metadata can be blank. It is not a table extracted from the document body."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "IR & financial report PDFs",
+            "stages": [
+              "Review the source list",
+              "Choose the required files",
+              "Prepare an organized set"
+            ],
+            "files": [
+              "FY2026-Q1.pdf",
+              "FY2026-annual.pdf",
+              "FY2026-presentation.pdf"
+            ],
+            "column": [
+              "File",
+              "Type"
+            ],
+            "output": "Sample set",
+            "example": "Illustrative example · fictional materials",
+            "note": "Names and groups shown here are examples. Check and name files yourself; native folder options are by type or domain.",
+            "referenceTitle": "An example of published source materials",
+            "referenceNote": "This link illustrates how documents are published. It is not an affiliation or a compatibility test.",
+            "referenceLabel": "Toyota",
+            "referenceUrl": "https://global.toyota/jp/ir/financial-results/"
+          }
+        },
+        "ja": {
+          "title": "IR・決算資料PDFを年度・四半期で整理 | Grab All Files",
+          "desc": "1社の決算要旨、説明資料、年次報告書を、出典を追える読書セットへ。",
+          "eyebrow": "IR・決算資料PDF",
+          "h1": "決算資料を、年度ごとに整理。",
+          "lead": "1社の決算要旨、説明資料、年次報告書を、出典を追える読書セットへ。原資料で会計年度と四半期を確認して名前を整え、自分で読む資料や外部AIに渡す材料を用意します。",
+          "best": [
+            "1社の通期・四半期の開示資料をまとめる。",
+            "選んだ原資料を使い、外部AIへ要約や比較を手動で依頼する準備をする。"
+          ],
+          "steps": [
+            "企業の公式IRアーカイブを開き、年度・四半期を選びます。決算要旨、説明資料、公表された質疑応答は役割を分けて確認します。",
+            "Grab All Filesを開き、対象ページをスキャンします。必要な種類で絞り込み、元リンクを確認して資料を選択します。",
+            "企業名、対象期間、公表日、訂正版を確認します。題名に年度・四半期を付け、期間ごとに作業を分けて混在を防ぎます。",
+            "題名を確認・編集し、保存名と種類別／ドメイン別のフォルダ分けを選び、個別ファイルまたはZIPで保存します。「ファイル情報CSV出力」でURLの記録も残せます。",
+            "保存した原資料を読むか、利用するAIが対応する資料ファイルを、質問とともに手動で渡します。単位、会計範囲、数値を元PDFと照合してください。拡張は投資判断を行う機能ではなく、数値抽出の完全性も保証しません。"
+          ],
+          "faq": [
+            {
+              "q": "会計年度や四半期を自動で判別しますか？",
+              "a": "原資料の対象期間を確認し、利用者が命名・作業分けします。会計年度は暦年と一致するとは限りません。"
+            },
+            {
+              "q": "CSVには財務諸表の数値も入りますか？",
+              "a": "ファイル情報CSVはファイルの情報とリンクを記録します。財務諸表の表や完全な数値データを抽出する機能ではありません。"
+            },
+            {
+              "q": "投資分析やAIへの自動送信をしますか？",
+              "a": "資料とリンクを準備する用途です。利用者が対応資料を外部AIへ手動で渡し、出力を検証します。投資推奨や分析精度を保証するものではありません。"
+            },
+            {
+              "q": "無料で使えますか？",
+              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+            },
+            {
+              "q": "ファイル情報CSVには何が入りますか？",
+              "a": "選択したファイルのURL、ファイル名、題名、種類、検出の確度・根拠と、取得できたサイズ・更新日・リンク元ページを記録します。不明な情報は空になる場合があり、資料本文の表を抽出したCSVではありません。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "IR・決算資料PDF",
+            "stages": [
+              "配布資料を確認",
+              "必要なファイルを選択",
+              "整理した資料セットへ"
+            ],
+            "files": [
+              "FY2026-Q1.pdf",
+              "FY2026-annual.pdf",
+              "FY2026-presentation.pdf"
+            ],
+            "column": [
+              "ファイル",
+              "種類"
+            ],
+            "output": "資料セット例",
+            "example": "図解例 · 架空のサンプル資料",
+            "note": "名前やまとめ方は例です。資料の確認・命名は利用者が行い、拡張のフォルダ分けは種類別またはドメイン別です。",
+            "referenceTitle": "公開資料の配布構成の例",
+            "referenceNote": "資料の公開方法を示す参考リンクです。提携や対応動作の確認を示すものではありません。",
+            "referenceLabel": "Toyota",
+            "referenceUrl": "https://global.toyota/jp/ir/financial-results/"
+          }
+        },
+        "es": {
+          "title": "PDF de IR y resultados | Grab All Files",
+          "desc": "Prepara informes anuales, resultados y presentaciones de un emisor.",
+          "eyebrow": "PDF de IR y resultados",
+          "h1": "Ordena informes por período.",
+          "lead": "Prepara informes anuales, resultados y presentaciones de un emisor. Revisa el ejercicio y trimestre antes de leerlos o entregarlos manualmente a una IA externa.",
+          "best": [
+            "Una empresa y un período por conjunto.",
+            "Materiales para resúmenes verificables."
+          ],
+          "steps": [
+            "Abre el archivo IR oficial y elige ejercicio o trimestre; distingue resultados, presentaciones y preguntas publicadas.",
+            "Abre Grab All Files, escanea la página elegida, filtra los formatos y revisa los enlaces antes de seleccionar los archivos.",
+            "Confirma emisor, período, fecha y correcciones. Añade el período al título y separa los lotes.",
+            "Revisa o edita títulos, elige nombres y carpetas por tipo o dominio y guarda archivos o ZIP. Exporta la información CSV para registrar las URL.",
+            "Comprueba unidades y cifras en los PDF originales. La entrega a IA es manual y no garantiza extracción numérica ni decisiones de inversión."
+          ],
+          "faq": [
+            {
+              "q": "¿Detecta ejercicios automáticamente?",
+              "a": "No. Revisa las etiquetas del emisor; ejercicio y año natural pueden diferir."
+            },
+            {
+              "q": "¿El CSV contiene cifras financieras?",
+              "a": "No. Son metadatos y enlaces, no tablas financieras ni una extracción numérica completa."
+            },
+            {
+              "q": "¿Recomienda inversiones o envía a IA?",
+              "a": "No. Tú entregas materiales compatibles a tu IA y verificas su respuesta."
+            },
+            {
+              "q": "¿Puedo usarlo gratis?",
+              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes y los archivos enlazados directamente en esa página no tienen límite de cantidad por plan. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+            },
+            {
+              "q": "¿Qué contiene el CSV de información?",
+              "a": "URL, nombres, títulos, tipos, confianza y evidencia de detección, y tamaño, fecha y página origen cuando se conocen. Los campos desconocidos pueden quedar vacíos; no extrae tablas del documento."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "PDF de IR y resultados",
+            "stages": [
+              "Revisar la lista",
+              "Elegir archivos",
+              "Preparar el conjunto"
+            ],
+            "files": [
+              "FY2026-Q1.pdf",
+              "FY2026-annual.pdf",
+              "FY2026-presentation.pdf"
+            ],
+            "column": [
+              "Archivo",
+              "Tipo"
+            ],
+            "output": "Conjunto de ejemplo",
+            "example": "Ejemplo ilustrativo · materiales ficticios",
+            "note": "Los nombres y grupos son ejemplos manuales. La clasificación nativa es por tipo o dominio.",
+            "referenceTitle": "Ejemplo de documentos publicados",
+            "referenceNote": "Referencia sobre cómo se publican documentos; no implica afiliación ni una prueba de compatibilidad.",
+            "referenceLabel": "Toyota",
+            "referenceUrl": "https://global.toyota/jp/ir/financial-results/"
+          }
+        },
+        "fr": {
+          "title": "PDF de résultats et rapports IR | Grab All Files",
+          "desc": "Réunissez résultats, présentations et rapports annuels d’un émetteur.",
+          "eyebrow": "PDF de résultats et rapports IR",
+          "h1": "Classez les rapports par période.",
+          "lead": "Réunissez résultats, présentations et rapports annuels d’un émetteur. Vérifiez exercice et trimestre pour la lecture ou une transmission manuelle à une IA externe.",
+          "best": [
+            "Un émetteur et une période par ensemble.",
+            "Sources pour des résumés vérifiables."
+          ],
+          "steps": [
+            "Ouvrez l’archive IR officielle et choisissez la période, en distinguant résultats, présentations et questions.",
+            "Ouvrez Grab All Files, analysez la page choisie, filtrez les formats et vérifiez les liens avant de sélectionner les fichiers.",
+            "Confirmez émetteur, période, date et corrections. Ajoutez la période aux titres et séparez les lots.",
+            "Vérifiez ou modifiez les titres, choisissez les noms et dossiers par type ou domaine, puis enregistrez des fichiers ou un ZIP. Exportez les informations CSV pour garder les URL.",
+            "Vérifiez unités et chiffres dans les PDF originaux. Transmission IA manuelle ; ni extraction numérique garantie ni décision d’investissement."
+          ],
+          "faq": [
+            {
+              "q": "Les exercices sont-ils reconnus automatiquement ?",
+              "a": "Non. Vérifiez les libellés ; exercice comptable et année civile peuvent différer."
+            },
+            {
+              "q": "Le CSV contient-il les valeurs financières ?",
+              "a": "Non. Il contient des métadonnées et liens, sans extraction complète des tableaux."
+            },
+            {
+              "q": "Recommande-t-il des investissements ou envoie-t-il à l’IA ?",
+              "a": "Non. Vous transmettez des fichiers compatibles et vérifiez la réponse de votre IA."
+            },
+            {
+              "q": "Puis-je l’utiliser gratuitement ?",
+              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images et fichiers directement liés sur cette page n’ont pas de plafond lié au forfait. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+            },
+            {
+              "q": "Que contient le CSV d’informations ?",
+              "a": "URL, noms, titres, types, confiance et preuves de détection, taille, date et page source si connues. Les champs inconnus peuvent rester vides ; ce ne sont pas les tableaux du document."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "PDF de résultats et rapports IR",
+            "stages": [
+              "Vérifier la liste",
+              "Choisir les fichiers",
+              "Préparer l’ensemble"
+            ],
+            "files": [
+              "FY2026-Q1.pdf",
+              "FY2026-annual.pdf",
+              "FY2026-presentation.pdf"
+            ],
+            "column": [
+              "Fichier",
+              "Type"
+            ],
+            "output": "Ensemble d’exemple",
+            "example": "Exemple illustratif · documents fictifs",
+            "note": "Noms et groupes sont des exemples manuels. Le classement natif est par type ou domaine.",
+            "referenceTitle": "Exemple de documents publiés",
+            "referenceNote": "Référence sur la publication des documents ; ni affiliation ni test de compatibilité.",
+            "referenceLabel": "Toyota",
+            "referenceUrl": "https://global.toyota/jp/ir/financial-results/"
+          }
+        },
+        "de": {
+          "title": "IR- und Finanzbericht-PDFs | Grab All Files",
+          "desc": "Bereiten Sie Ergebnisberichte, Präsentationen und Jahresberichte eines Emittenten vor.",
+          "eyebrow": "IR- und Finanzbericht-PDFs",
+          "h1": "Berichte nach Periode ordnen.",
+          "lead": "Bereiten Sie Ergebnisberichte, Präsentationen und Jahresberichte eines Emittenten vor. Prüfen Sie Geschäftsjahr und Quartal vor dem Lesen oder der manuellen Übergabe an externe KI.",
+          "best": [
+            "Ein Emittent und eine Periode pro Satz.",
+            "Quellen für überprüfbare Zusammenfassungen."
+          ],
+          "steps": [
+            "Öffnen Sie das offizielle IR-Archiv und wählen Sie die Periode; unterscheiden Sie Berichte, Präsentationen und Fragen.",
+            "Öffnen Sie Grab All Files, scannen Sie die gewählte Seite, filtern Sie die Formate und prüfen Sie die Links vor der Auswahl.",
+            "Prüfen Sie Emittent, Periode, Datum und Korrekturen. Ergänzen Sie Perioden im Titel und trennen Sie Chargen.",
+            "Prüfen oder bearbeiten Sie Titel, wählen Sie Namen und Typ-/Domainordner und speichern Sie Dateien oder ZIP. Exportieren Sie die Dateiinfo-CSV als URL-Nachweis.",
+            "Prüfen Sie Einheiten und Zahlen in den Original-PDFs. Die KI-Übergabe ist manuell; die Erweiterung trifft keine Anlageentscheidungen und garantiert keine Zahlenextraktion."
+          ],
+          "faq": [
+            {
+              "q": "Werden Geschäftsjahre automatisch erkannt?",
+              "a": "Nein. Prüfen Sie die Angaben; Geschäftsjahr und Kalenderjahr können abweichen."
+            },
+            {
+              "q": "Enthält die CSV Finanzzahlen?",
+              "a": "Nein. Sie enthält Dateimetadaten und Links, keine vollständigen Finanztabellen."
+            },
+            {
+              "q": "Gibt es Anlageempfehlungen oder KI-Versand?",
+              "a": "Nein. Sie übergeben geeignete Dateien selbst und prüfen die KI-Antwort."
+            },
+            {
+              "q": "Ist dies kostenlos nutzbar?",
+              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+            },
+            {
+              "q": "Was enthält die Dateiinfo-CSV?",
+              "a": "URLs, Namen, Titel, Typen, Erkennungsbewertung und -hinweise sowie bekannte Größe, Änderungsdatum und Quellseite. Unbekannte Felder können leer sein; Dokumenttabellen werden nicht extrahiert."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "IR- und Finanzbericht-PDFs",
+            "stages": [
+              "Liste prüfen",
+              "Dateien wählen",
+              "Unterlagen ordnen"
+            ],
+            "files": [
+              "FY2026-Q1.pdf",
+              "FY2026-annual.pdf",
+              "FY2026-presentation.pdf"
+            ],
+            "column": [
+              "Datei",
+              "Typ"
+            ],
+            "output": "Beispielsammlung",
+            "example": "Beispielgrafik · fiktive Materialien",
+            "note": "Namen und Gruppen sind manuelle Beispiele. Native Ordneroptionen sind Typ oder Domain.",
+            "referenceTitle": "Beispiel veröffentlichter Unterlagen",
+            "referenceNote": "Referenz zur Dokumentveröffentlichung; keine Partnerschaft oder Kompatibilitätsprüfung.",
+            "referenceLabel": "Toyota",
+            "referenceUrl": "https://global.toyota/jp/ir/financial-results/"
+          }
+        },
+        "it": {
+          "title": "PDF IR e bilanci | Grab All Files",
+          "desc": "Prepara risultati, presentazioni e rapporti annuali di un emittente.",
+          "eyebrow": "PDF IR e bilanci",
+          "h1": "Rapporti ordinati per periodo.",
+          "lead": "Prepara risultati, presentazioni e rapporti annuali di un emittente. Verifica esercizio e trimestre prima di leggere o passare manualmente i file a un’IA esterna.",
+          "best": [
+            "Un emittente e un periodo per raccolta.",
+            "Fonti per riassunti verificabili."
+          ],
+          "steps": [
+            "Apri l’archivio IR ufficiale e scegli il periodo, distinguendo rapporti, presentazioni e domande.",
+            "Apri Grab All Files, scansiona la pagina scelta, filtra i formati e verifica i link prima di selezionare i file.",
+            "Conferma emittente, periodo, data e correzioni. Aggiungi il periodo al titolo e separa i gruppi.",
+            "Verifica o modifica i titoli, scegli nomi e cartelle per tipo o dominio, poi salva file o ZIP. Esporta le informazioni CSV per conservare gli URL.",
+            "Verifica unità e numeri nei PDF originali. Il passaggio a IA è manuale; l’estensione non prende decisioni d’investimento né garantisce l’estrazione numerica."
+          ],
+          "faq": [
+            {
+              "q": "Riconosce gli esercizi automaticamente?",
+              "a": "No. Controlla le etichette; esercizio e anno solare possono differire."
+            },
+            {
+              "q": "Il CSV contiene valori finanziari?",
+              "a": "No. Contiene metadati e link, non tabelle finanziarie complete."
+            },
+            {
+              "q": "Consiglia investimenti o invia all’IA?",
+              "a": "No. Passi tu i file compatibili e verifichi la risposta dell’IA."
+            },
+            {
+              "q": "Posso usarlo gratis?",
+              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Immagini e file collegati direttamente in quella pagina non hanno un limite numerico del piano. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+            },
+            {
+              "q": "Cosa contiene il CSV delle informazioni?",
+              "a": "URL, nomi, titoli, tipi, confidenza e prove del rilevamento, dimensione, data e pagina origine se note. I campi ignoti possono essere vuoti; non estrae tabelle dai documenti."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "PDF IR e bilanci",
+            "stages": [
+              "Verificare l’elenco",
+              "Scegliere i file",
+              "Preparare la raccolta"
+            ],
+            "files": [
+              "FY2026-Q1.pdf",
+              "FY2026-annual.pdf",
+              "FY2026-presentation.pdf"
+            ],
+            "column": [
+              "File",
+              "Tipo"
+            ],
+            "output": "Raccolta di esempio",
+            "example": "Esempio illustrativo · materiali fittizi",
+            "note": "Nomi e gruppi sono esempi manuali. Le cartelle native sono per tipo o dominio.",
+            "referenceTitle": "Esempio di documenti pubblicati",
+            "referenceNote": "Riferimento alla pubblicazione dei documenti; non indica affiliazione o test di compatibilità.",
+            "referenceLabel": "Toyota",
+            "referenceUrl": "https://global.toyota/jp/ir/financial-results/"
+          }
+        },
+        "ko": {
+          "title": "IR·실적 보고서 PDF 다운로드 | Grab All Files",
+          "desc": "한 기업의 실적 발표 자료, 설명 자료와 연차 보고서를 출처를 확인할 수 있는 읽기 자료로 모읍니다.",
+          "eyebrow": "IR·실적 보고서 PDF",
+          "h1": "보고서를 보고 기간별로 정리하세요.",
+          "lead": "한 기업의 실적 발표 자료, 설명 자료와 연차 보고서를 출처를 확인할 수 있는 읽기 자료로 모읍니다. 각 원본 문서에서 회계연도와 분기를 확인한 뒤 명확한 이름을 붙여 직접 검토하거나 외부 AI에 전달할 자료를 준비하세요.",
+          "best": [
+            "한 기업의 연간·분기 공시 자료를 모으기.",
+            "요약이나 비교를 수동으로 요청할 때 사용할 원본 자료를 선택해 준비하기."
+          ],
+          "steps": [
+            "기업의 공식 IR 자료실을 열고 회계연도나 분기를 선택합니다. 실적 발표 자료, 설명 자료와 공개된 질의응답을 구분해 확인합니다.",
+            "Grab All Files를 열고 대상 페이지를 스캔합니다. 필요한 형식을 필터링하고 원본 링크를 확인해 파일을 선택합니다.",
+            "기업, 보고 기간, 공개일과 개정 사항을 확인합니다. 필요하면 제목 앞에 기간을 붙이고, 기간별로 작업을 나눠 보고서가 섞이지 않도록 합니다.",
+            "제목을 확인·편집하고 저장 이름과 종류별·도메인별 폴더를 선택해 파일 또는 ZIP을 저장합니다. 파일 정보 CSV로 URL도 기록합니다.",
+            "저장한 원본을 읽거나 선택한 AI 서비스가 지원하는 자료 파일과 질문을 직접 전달합니다. 단위, 회계 범위와 수치를 원본 PDF와 대조하세요. 확장 기능은 투자 판단을 하지 않으며 수치 추출의 완전성을 보장하지 않습니다."
+          ],
+          "faq": [
+            {
+              "q": "회계연도와 분기를 자동으로 감지하나요?",
+              "a": "아닙니다. 기업 문서의 기간 표기를 확인하고 이름과 작업 단위를 직접 정하세요. 회계연도는 달력상의 연도와 다를 수 있습니다."
+            },
+            {
+              "q": "CSV에 재무제표 수치가 포함되나요?",
+              "a": "아닙니다. 파일 정보 CSV는 파일의 메타데이터와 링크를 기록합니다. 재무제표의 표를 추출하거나 완전한 수치 데이터를 보장하는 기능은 아닙니다."
+            },
+            {
+              "q": "투자를 분석하거나 보고서를 AI에 보내나요?",
+              "a": "파일과 링크를 준비하는 용도입니다. 적절한 자료를 선택해 외부 AI 서비스에 직접 전달하고 그 출력을 확인합니다. 투자 권고나 분석 정확성을 보장하지 않습니다."
+            },
+            {
+              "q": "무료로 사용할 수 있나요?",
+              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+            },
+            {
+              "q": "파일 정보 CSV에는 무엇이 있나요?",
+              "a": "URL, 파일명, 제목, 종류, 감지 신뢰도·근거와 확인 가능한 크기·수정일·원본 페이지입니다. 미확인 정보는 비어 있을 수 있으며 문서 본문 표를 추출한 CSV가 아닙니다."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "IR·실적 보고서 PDF",
+            "stages": [
+              "자료 목록 확인",
+              "필요한 파일 선택",
+              "자료 세트 준비"
+            ],
+            "files": [
+              "FY2026-Q1.pdf",
+              "FY2026-annual.pdf",
+              "FY2026-presentation.pdf"
+            ],
+            "column": [
+              "파일",
+              "종류"
+            ],
+            "output": "자료 세트 예시",
+            "example": "그림 예시 · 가상 샘플 자료",
+            "note": "이름과 묶음은 수동 정리 예시입니다. 확장의 폴더 옵션은 종류별 또는 도메인별입니다.",
+            "referenceTitle": "공개 자료 배포 구성 예시",
+            "referenceNote": "자료 공개 방식을 보여 주는 참고 링크이며 제휴나 호환성 검증을 뜻하지 않습니다.",
+            "referenceLabel": "Toyota",
+            "referenceUrl": "https://global.toyota/jp/ir/financial-results/"
+          }
+        },
+        "pt_BR": {
+          "title": "Baixar PDFs de RI e resultados financeiros | Grab All Files",
+          "desc": "Reúna comunicados de resultados, apresentações e relatórios anuais de um emissor em um conjunto de leitura com fontes rastreáveis.",
+          "eyebrow": "PDFs de RI e resultados financeiros",
+          "h1": "Organize relatórios por período.",
+          "lead": "Reúna comunicados de resultados, apresentações e relatórios anuais de um emissor em um conjunto de leitura com fontes rastreáveis. Confira o exercício fiscal e o trimestre em cada original e use nomes claros para preparar sua própria análise ou o envio a uma IA externa.",
+          "best": [
+            "Coletar o conjunto de divulgações anuais ou trimestrais de um único emissor.",
+            "Preparar documentos originais selecionados para solicitar manualmente um resumo ou uma comparação."
+          ],
+          "steps": [
+            "Abra o arquivo oficial de relações com investidores do emissor e escolha o exercício fiscal ou trimestre. Confira separadamente comunicados, apresentações e perguntas e respostas publicadas.",
+            "Abra Grab All Files, escaneie a página escolhida, filtre os formatos e confira os links antes de selecionar arquivos.",
+            "Verifique emissor, período, data de publicação e revisões. Acrescente o período ao início dos títulos quando útil e trabalhe em lotes separados para não misturar relatórios.",
+            "Confira ou edite títulos, escolha nomes e pastas por tipo ou domínio e salve arquivos ou ZIP. Exporte informações CSV para registrar URLs.",
+            "Leia as fontes salvas ou entregue manualmente os arquivos compatíveis e sua pergunta à IA escolhida. Confira unidades, escopo contábil e números nos PDFs originais. A extensão não toma decisões de investimento nem garante a extração completa de dados numéricos."
+          ],
+          "faq": [
+            {
+              "q": "Exercícios fiscais e trimestres são identificados automaticamente?",
+              "a": "Não. Confira as indicações de período nos documentos do emissor e escolha nomes e lotes por conta própria. O exercício fiscal pode não coincidir com o ano civil."
+            },
+            {
+              "q": "O CSV contém valores das demonstrações financeiras?",
+              "a": "Não. O CSV de informações de arquivos registra metadados e links. Ele não extrai tabelas de demonstrações financeiras nem garante dados numéricos completos."
+            },
+            {
+              "q": "Ele analisa investimentos ou envia relatórios à IA?",
+              "a": "Ele prepara arquivos e links. Você escolhe os materiais adequados, envia-os manualmente à IA externa e verifica a resposta. Não há promessa de recomendação de investimento ou de precisão da análise."
+            },
+            {
+              "q": "Posso usar grátis?",
+              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. Imagens e arquivos diretamente vinculados nessa página não têm limite de quantidade do plano. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+            },
+            {
+              "q": "O que contém o CSV de informações?",
+              "a": "URLs, nomes, títulos, tipos, confiança e evidências de detecção, tamanho, data e página de origem quando conhecidos. Campos desconhecidos podem ficar vazios; não extrai tabelas do documento."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "PDFs de RI e resultados financeiros",
+            "stages": [
+              "Conferir a lista",
+              "Escolher arquivos",
+              "Preparar o conjunto"
+            ],
+            "files": [
+              "FY2026-Q1.pdf",
+              "FY2026-annual.pdf",
+              "FY2026-presentation.pdf"
+            ],
+            "column": [
+              "Arquivo",
+              "Tipo"
+            ],
+            "output": "Conjunto de exemplo",
+            "example": "Exemplo ilustrativo · materiais fictícios",
+            "note": "Nomes e grupos são exemplos manuais. As pastas nativas são por tipo ou domínio.",
+            "referenceTitle": "Exemplo de documentos publicados",
+            "referenceNote": "Referência sobre a publicação; não indica parceria ou teste de compatibilidade.",
+            "referenceLabel": "Toyota",
+            "referenceUrl": "https://global.toyota/jp/ir/financial-results/"
+          }
+        },
+        "zh_CN": {
+          "title": "下载IR与财务报告PDF | Grab All Files",
+          "desc": "将一家发行人的业绩公告、演示资料与年报整理成可追溯来源的阅读资料集。",
+          "eyebrow": "IR与财务报告PDF",
+          "h1": "按报告期间整理资料。",
+          "lead": "将一家发行人的业绩公告、演示资料与年报整理成可追溯来源的阅读资料集。在每份原件上核对会计年度和季度，再用清晰的名称为自行查阅或交给外部AI准备材料。",
+          "best": [
+            "收集一家发行人的年度或季度披露资料。",
+            "选择原始文档，为手动请求摘要或比较准备材料。"
+          ],
+          "steps": [
+            "打开发行人的官方IR资料库，选择会计年度或季度。分别核对业绩公告、演示资料与公开的问答。",
+            "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
+            "确认发行人、报告期间、发布日期与修订。需要时在标题前加上期间标识，并按期间分批处理，避免混合报告。",
+            "检查或编辑题名，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "阅读已保存原件，或手动将所选AI服务支持的资料文件与问题交给它。将单位、会计范围和数值与原始PDF核对。扩展不作投资判断，也不保证数值提取的完整性。"
+          ],
+          "faq": [
+            {
+              "q": "会自动识别会计年度和季度吗？",
+              "a": "不会。请查看发行人文档中的期间标识，自行决定命名和分批方式。会计年度不一定与自然年一致。"
+            },
+            {
+              "q": "CSV包含财务报表数值吗？",
+              "a": "不包含。文件信息CSV记录文件元数据和链接，不提取财务报表中的表格，也不保证完整的数值数据。"
+            },
+            {
+              "q": "会分析投资或把报告发送给AI吗？",
+              "a": "它准备文件与链接。你自行选择适合的材料，手动交给外部AI服务并核对输出。不承诺投资建议或分析准确性。"
+            },
+            {
+              "q": "可以免费使用吗？",
+              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+            },
+            {
+              "q": "文件信息CSV包含什么？",
+              "a": "URL、文件名、题名、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "IR与财务报告PDF",
+            "stages": [
+              "核对资料列表",
+              "选择所需文件",
+              "整理资料集"
+            ],
+            "files": [
+              "FY2026-Q1.pdf",
+              "FY2026-annual.pdf",
+              "FY2026-presentation.pdf"
+            ],
+            "column": [
+              "文件",
+              "格式"
+            ],
+            "output": "示例资料集",
+            "example": "流程示例 · 虚构示例资料",
+            "note": "名称和分组为手动整理示例。扩展的文件夹分类仅按格式或来源域名。",
+            "referenceTitle": "公开资料分发结构示例",
+            "referenceNote": "仅用于参考资料公开方式，不表示合作或兼容性测试。",
+            "referenceLabel": "Toyota",
+            "referenceUrl": "https://global.toyota/jp/ir/financial-results/"
+          }
+        },
+        "zh_TW": {
+          "title": "下載IR與財務報告PDF | Grab All Files",
+          "desc": "將一家發行人的業績公告、簡報與年報整理成可追溯來源的閱讀資料集。",
+          "eyebrow": "IR與財務報告PDF",
+          "h1": "依報告期間整理資料。",
+          "lead": "將一家發行人的業績公告、簡報與年報整理成可追溯來源的閱讀資料集。在每份原件上核對會計年度與季度，再用清楚的名稱為自行查閱或交給外部AI準備材料。",
+          "best": [
+            "收集一家發行人的年度或季度揭露資料。",
+            "選取原始文件，為手動請求摘要或比較準備材料。"
+          ],
+          "steps": [
+            "開啟發行人的官方IR資料庫，選擇會計年度或季度。分別核對業績公告、簡報與公開的問答。",
+            "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
+            "確認發行人、報告期間、發布日期與修訂。需要時在標題前加上期間標示，並依期間分批處理，避免混合報告。",
+            "檢查或編輯題名，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "閱讀已儲存原件，或手動將所選AI服務支援的資料檔與問題交給它。將單位、會計範圍與數值和原始PDF核對。擴充功能不作投資判斷，也不保證數值擷取的完整性。"
+          ],
+          "faq": [
+            {
+              "q": "會自動識別會計年度與季度嗎？",
+              "a": "不會。請查看發行人文件中的期間標示，自行決定命名和分批方式。會計年度不一定與曆年一致。"
+            },
+            {
+              "q": "CSV包含財務報表數值嗎？",
+              "a": "不包含。檔案資訊CSV記錄檔案中繼資料與連結，不擷取財務報表中的表格，也不保證完整的數值資料。"
+            },
+            {
+              "q": "會分析投資或把報告傳送給AI嗎？",
+              "a": "它準備檔案與連結。你自行選擇適合的材料，手動交給外部AI服務並核對輸出。不承諾投資建議或分析準確性。"
+            },
+            {
+              "q": "可以免費使用嗎？",
+              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+            },
+            {
+              "q": "檔案資訊CSV包含什麼？",
+              "a": "URL、檔名、題名、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "IR與財務報告PDF",
+            "stages": [
+              "核對資料清單",
+              "選取所需檔案",
+              "整理資料集"
+            ],
+            "files": [
+              "FY2026-Q1.pdf",
+              "FY2026-annual.pdf",
+              "FY2026-presentation.pdf"
+            ],
+            "column": [
+              "檔案",
+              "格式"
+            ],
+            "output": "範例資料集",
+            "example": "流程範例 · 虛構範例資料",
+            "note": "名稱和分組為手動整理範例。擴充功能的資料夾分類僅依格式或來源網域。",
+            "referenceTitle": "公開資料分發結構範例",
+            "referenceNote": "僅用於參考資料公開方式，不表示合作或相容性測試。",
+            "referenceLabel": "Toyota",
+            "referenceUrl": "https://global.toyota/jp/ir/financial-results/"
+          }
+        }
+      }
+    },
+    "download-tender-and-application-documents": {
+      "path": "download-tender-and-application-documents.html",
+      "related": [
+        "export-file-links-to-csv",
+        "rename-and-organize-bulk-pdf-downloads",
+        "web-pages-for-reading-and-ai-analysis"
+      ],
+      "copy": {
+        "en": {
+          "title": "Download tender & application documents | Grab All Files",
+          "desc": "Prepare a review set for one tender or application call: notice, specifications, forms and published questions or answers.",
+          "eyebrow": "Tender & application documents",
+          "h1": "Keep one opportunity’s documents together.",
+          "lead": "Prepare a review set for one tender or application call: notice, specifications, forms and published questions or answers. Preserve document roles and revisions so you can compare your saved set with the official listing.",
+          "best": [
+            "Collecting the PDF, Word and Excel documents for one opportunity.",
+            "Keeping amended notices, forms and clarification material distinguishable."
+          ],
+          "steps": [
+            "Open the official page for one opportunity. Identify the notice, specifications, forms and any separate clarification or amendment links.",
+            "Open Grab All Files, scan the chosen page, and filter the file types you need. Review the source links and select the relevant files.",
+            "Check the opportunity name, version, deadlines and required document list. Keep forms in their original supported formats and use role-based filenames.",
+            "Check or edit titles, choose the save-name and type/domain folder options, then save files or ZIP. Export File Info CSV to keep a URL record.",
+            "Compare saved files and the CSV with the official listing. Revisit the source for amendments or answers before preparing an application. Saving documents does not fill, sign or submit an application."
+          ],
+          "faq": [
+            {
+              "q": "Does one scan guarantee a complete application pack?",
+              "a": "No. Check the official list and follow separate amendment or Q&A pages as needed. The result is limited to links found and files you choose."
+            },
+            {
+              "q": "Can it submit a bid or application?",
+              "a": "No. This workflow saves reference files. Filling forms, signatures and submission remain separate actions under the issuer’s instructions."
+            },
+            {
+              "q": "Are later amendments monitored automatically?",
+              "a": "No. Revisit the source and rescan manually. Keep revision notes and compare the originals; do not assume a saved copy is the latest."
+            },
+            {
+              "q": "Can I use this for free?",
+              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images and directly linked files on that page have no plan-based count cap. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+            },
+            {
+              "q": "What does the file-information CSV contain?",
+              "a": "Selected file URLs, filenames, titles, types, detection confidence/evidence and available size, modification date and source page. Unknown metadata can be blank. It is not a table extracted from the document body."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Tender & application documents",
+            "stages": [
+              "Review the source list",
+              "Choose the required files",
+              "Prepare an organized set"
+            ],
+            "files": [
+              "notice.pdf",
+              "specification.pdf",
+              "application.docx"
+            ],
+            "column": [
+              "File",
+              "Type"
+            ],
+            "output": "Sample set",
+            "example": "Illustrative example · fictional materials",
+            "note": "Names and groups shown here are examples. Check and name files yourself; native folder options are by type or domain.",
+            "referenceTitle": "An example of published source materials",
+            "referenceNote": "This link illustrates how documents are published. It is not an affiliation or a compatibility test.",
+            "referenceLabel": "Ministry of the Environment, Japan",
+            "referenceUrl": "https://kyushu.env.go.jp/okinawa/procure_00339.html"
+          }
+        },
+        "ja": {
+          "title": "入札・公募の公告・仕様書・様式をまとめて保存 | Grab All Files",
+          "desc": "1つの入札・公募案件の公告、仕様書、様式、公表された質問回答を、確認用の資料セットへ。",
+          "eyebrow": "入札・公募書類一式",
+          "h1": "1案件の公募資料をまとめて保存。",
+          "lead": "1つの入札・公募案件の公告、仕様書、様式、公表された質問回答を、確認用の資料セットへ。役割と改訂版を区別して保存し、公式の配布一覧と照合しやすくします。",
+          "best": [
+            "1案件に必要なPDF・Word・Excel資料をまとめる。",
+            "訂正公告、様式、質問回答を区別して管理する。"
+          ],
+          "steps": [
+            "1案件の公式ページを開きます。公告、仕様書、様式に加え、別ページの質問回答や訂正資料のリンクを確認します。",
+            "Grab All Filesを開き、対象ページをスキャンします。必要な種類で絞り込み、元リンクを確認して資料を選択します。",
+            "案件名、版、期限、必要資料の一覧を確認します。様式は対応する元形式を保ち、資料の役割で名前を付けます。",
+            "題名を確認・編集し、保存名と種類別／ドメイン別のフォルダ分けを選び、個別ファイルまたはZIPで保存します。「ファイル情報CSV出力」でURLの記録も残せます。",
+            "保存した資料とCSVを公式一覧に照合します。応募準備前に訂正や回答も原サイトで再確認してください。資料保存は入力・署名・応募送信とは別の作業です。"
+          ],
+          "faq": [
+            {
+              "q": "1回のスキャンで必要書類が全部そろいますか？",
+              "a": "検出したリンクと選択資料が対象です。公式一覧や別の訂正・質問回答ページも確認し、必要書類の有無を照合してください。"
+            },
+            {
+              "q": "入札や応募の送信もできますか？",
+              "a": "この手順は資料保存のためのものです。様式入力、署名、提出は発行元の案内に従う別の操作です。"
+            },
+            {
+              "q": "追加資料や訂正を自動監視しますか？",
+              "a": "利用者が原サイトを再訪し、手動で再スキャンします。改訂メモを残し、保存済み資料が最新版とは限らないことを原文で確認します。"
+            },
+            {
+              "q": "無料で使えますか？",
+              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+            },
+            {
+              "q": "ファイル情報CSVには何が入りますか？",
+              "a": "選択したファイルのURL、ファイル名、題名、種類、検出の確度・根拠と、取得できたサイズ・更新日・リンク元ページを記録します。不明な情報は空になる場合があり、資料本文の表を抽出したCSVではありません。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "入札・公募書類一式",
+            "stages": [
+              "配布資料を確認",
+              "必要なファイルを選択",
+              "整理した資料セットへ"
+            ],
+            "files": [
+              "notice.pdf",
+              "specification.pdf",
+              "application.docx"
+            ],
+            "column": [
+              "ファイル",
+              "種類"
+            ],
+            "output": "資料セット例",
+            "example": "図解例 · 架空のサンプル資料",
+            "note": "名前やまとめ方は例です。資料の確認・命名は利用者が行い、拡張のフォルダ分けは種類別またはドメイン別です。",
+            "referenceTitle": "公開資料の配布構成の例",
+            "referenceNote": "資料の公開方法を示す参考リンクです。提携や対応動作の確認を示すものではありません。",
+            "referenceLabel": "Ministry of the Environment, Japan",
+            "referenceUrl": "https://kyushu.env.go.jp/okinawa/procure_00339.html"
+          }
+        },
+        "es": {
+          "title": "Documentos de licitación y convocatoria | Grab All Files",
+          "desc": "Guarda anuncio, especificaciones, formularios y aclaraciones de una oportunidad.",
+          "eyebrow": "Documentos de licitación y convocatoria",
+          "h1": "Reúne los documentos de una convocatoria.",
+          "lead": "Guarda anuncio, especificaciones, formularios y aclaraciones de una oportunidad. Mantén roles y versiones distinguibles para cotejar el conjunto oficial.",
+          "best": [
+            "PDF, Word y Excel de un proyecto.",
+            "Versiones y aclaraciones separadas."
+          ],
+          "steps": [
+            "Abre la página oficial de una convocatoria y localiza documentos, correcciones y preguntas.",
+            "Abre Grab All Files, escanea la página elegida, filtra los formatos y revisa los enlaces antes de seleccionar los archivos.",
+            "Confirma nombre, versión, fechas y lista requerida. Conserva los formularios en su formato original.",
+            "Revisa o edita títulos, elige nombres y carpetas por tipo o dominio y guarda archivos o ZIP. Exporta la información CSV para registrar las URL.",
+            "Contrasta el conjunto con la fuente antes de preparar la solicitud. Guardar no rellena, firma ni presenta formularios."
+          ],
+          "faq": [
+            {
+              "q": "¿Garantiza un expediente completo?",
+              "a": "No. Revisa la lista y los enlaces separados de cambios o respuestas."
+            },
+            {
+              "q": "¿Presenta la solicitud?",
+              "a": "No. Cumplimentación, firma y envío son operaciones separadas."
+            },
+            {
+              "q": "¿Vigila cambios automáticamente?",
+              "a": "No. Vuelve a la fuente y escanea manualmente; conserva notas de revisión."
+            },
+            {
+              "q": "¿Puedo usarlo gratis?",
+              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes y los archivos enlazados directamente en esa página no tienen límite de cantidad por plan. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+            },
+            {
+              "q": "¿Qué contiene el CSV de información?",
+              "a": "URL, nombres, títulos, tipos, confianza y evidencia de detección, y tamaño, fecha y página origen cuando se conocen. Los campos desconocidos pueden quedar vacíos; no extrae tablas del documento."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Documentos de licitación y convocatoria",
+            "stages": [
+              "Revisar la lista",
+              "Elegir archivos",
+              "Preparar el conjunto"
+            ],
+            "files": [
+              "notice.pdf",
+              "specification.pdf",
+              "application.docx"
+            ],
+            "column": [
+              "Archivo",
+              "Tipo"
+            ],
+            "output": "Conjunto de ejemplo",
+            "example": "Ejemplo ilustrativo · materiales ficticios",
+            "note": "Los nombres y grupos son ejemplos manuales. La clasificación nativa es por tipo o dominio.",
+            "referenceTitle": "Ejemplo de documentos publicados",
+            "referenceNote": "Referencia sobre cómo se publican documentos; no implica afiliación ni una prueba de compatibilidad.",
+            "referenceLabel": "Ministry of the Environment, Japan",
+            "referenceUrl": "https://kyushu.env.go.jp/okinawa/procure_00339.html"
+          }
+        },
+        "fr": {
+          "title": "Documents d’appels d’offres | Grab All Files",
+          "desc": "Gardez avis, spécifications, formulaires et réponses publiées d’une opportunité.",
+          "eyebrow": "Documents d’appels d’offres",
+          "h1": "Regroupez les pièces d’un seul appel.",
+          "lead": "Gardez avis, spécifications, formulaires et réponses publiées d’une opportunité. Distinguez rôles et révisions pour vérifier la liste officielle.",
+          "best": [
+            "PDF, Word et Excel d’un dossier.",
+            "Rectificatifs et réponses distincts."
+          ],
+          "steps": [
+            "Ouvrez la page officielle d’un appel et repérez pièces, rectificatifs et questions.",
+            "Ouvrez Grab All Files, analysez la page choisie, filtrez les formats et vérifiez les liens avant de sélectionner les fichiers.",
+            "Confirmez nom, version, échéances et liste requise. Gardez les formulaires dans leur format original.",
+            "Vérifiez ou modifiez les titres, choisissez les noms et dossiers par type ou domaine, puis enregistrez des fichiers ou un ZIP. Exportez les informations CSV pour garder les URL.",
+            "Vérifiez les fichiers contre la source avant la candidature. Enregistrer ne remplit, signe ou dépose rien."
+          ],
+          "faq": [
+            {
+              "q": "Le dossier complet est-il garanti ?",
+              "a": "Non. Vérifiez la liste et les pages séparées de rectificatifs ou réponses."
+            },
+            {
+              "q": "Dépose-t-il une candidature ?",
+              "a": "Non. Remplissage, signature et dépôt restent séparés."
+            },
+            {
+              "q": "Les changements sont-ils surveillés ?",
+              "a": "Non. Revisitez et analysez manuellement la source ; gardez des notes de révision."
+            },
+            {
+              "q": "Puis-je l’utiliser gratuitement ?",
+              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images et fichiers directement liés sur cette page n’ont pas de plafond lié au forfait. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+            },
+            {
+              "q": "Que contient le CSV d’informations ?",
+              "a": "URL, noms, titres, types, confiance et preuves de détection, taille, date et page source si connues. Les champs inconnus peuvent rester vides ; ce ne sont pas les tableaux du document."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Documents d’appels d’offres",
+            "stages": [
+              "Vérifier la liste",
+              "Choisir les fichiers",
+              "Préparer l’ensemble"
+            ],
+            "files": [
+              "notice.pdf",
+              "specification.pdf",
+              "application.docx"
+            ],
+            "column": [
+              "Fichier",
+              "Type"
+            ],
+            "output": "Ensemble d’exemple",
+            "example": "Exemple illustratif · documents fictifs",
+            "note": "Noms et groupes sont des exemples manuels. Le classement natif est par type ou domaine.",
+            "referenceTitle": "Exemple de documents publiés",
+            "referenceNote": "Référence sur la publication des documents ; ni affiliation ni test de compatibilité.",
+            "referenceLabel": "Ministry of the Environment, Japan",
+            "referenceUrl": "https://kyushu.env.go.jp/okinawa/procure_00339.html"
+          }
+        },
+        "de": {
+          "title": "Ausschreibungsunterlagen | Grab All Files",
+          "desc": "Sichern Sie Bekanntmachung, Spezifikation, Formulare und veröffentlichte Antworten eines Verfahrens.",
+          "eyebrow": "Ausschreibungsunterlagen",
+          "h1": "Unterlagen eines Verfahrens sichern.",
+          "lead": "Sichern Sie Bekanntmachung, Spezifikation, Formulare und veröffentlichte Antworten eines Verfahrens. Unterscheiden Sie Rollen und Revisionen zum Abgleich mit der offiziellen Liste.",
+          "best": [
+            "PDF, Word und Excel für einen Vorgang.",
+            "Korrekturen und Antworten getrennt halten."
+          ],
+          "steps": [
+            "Öffnen Sie die offizielle Verfahrensseite und suchen Sie Unterlagen, Korrekturen und Fragen.",
+            "Öffnen Sie Grab All Files, scannen Sie die gewählte Seite, filtern Sie die Formate und prüfen Sie die Links vor der Auswahl.",
+            "Prüfen Sie Namen, Version, Fristen und benötigte Liste. Bewahren Sie Formulare im Originalformat.",
+            "Prüfen oder bearbeiten Sie Titel, wählen Sie Namen und Typ-/Domainordner und speichern Sie Dateien oder ZIP. Exportieren Sie die Dateiinfo-CSV als URL-Nachweis.",
+            "Gleichen Sie Dateien vor der Vorbereitung mit der Quelle ab. Speichern füllt, unterschreibt oder übermittelt keine Bewerbung."
+          ],
+          "faq": [
+            {
+              "q": "Ist der vollständige Satz garantiert?",
+              "a": "Nein. Prüfen Sie Liste und separate Seiten mit Korrekturen oder Antworten."
+            },
+            {
+              "q": "Wird eine Bewerbung abgegeben?",
+              "a": "Nein. Ausfüllen, Unterschrift und Einreichung bleiben getrennte Schritte."
+            },
+            {
+              "q": "Werden Änderungen überwacht?",
+              "a": "Nein. Besuchen und scannen Sie die Quelle manuell; behalten Sie Revisionsnotizen."
+            },
+            {
+              "q": "Ist dies kostenlos nutzbar?",
+              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+            },
+            {
+              "q": "Was enthält die Dateiinfo-CSV?",
+              "a": "URLs, Namen, Titel, Typen, Erkennungsbewertung und -hinweise sowie bekannte Größe, Änderungsdatum und Quellseite. Unbekannte Felder können leer sein; Dokumenttabellen werden nicht extrahiert."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Ausschreibungsunterlagen",
+            "stages": [
+              "Liste prüfen",
+              "Dateien wählen",
+              "Unterlagen ordnen"
+            ],
+            "files": [
+              "notice.pdf",
+              "specification.pdf",
+              "application.docx"
+            ],
+            "column": [
+              "Datei",
+              "Typ"
+            ],
+            "output": "Beispielsammlung",
+            "example": "Beispielgrafik · fiktive Materialien",
+            "note": "Namen und Gruppen sind manuelle Beispiele. Native Ordneroptionen sind Typ oder Domain.",
+            "referenceTitle": "Beispiel veröffentlichter Unterlagen",
+            "referenceNote": "Referenz zur Dokumentveröffentlichung; keine Partnerschaft oder Kompatibilitätsprüfung.",
+            "referenceLabel": "Ministry of the Environment, Japan",
+            "referenceUrl": "https://kyushu.env.go.jp/okinawa/procure_00339.html"
+          }
+        },
+        "it": {
+          "title": "Documenti di bandi e gare | Grab All Files",
+          "desc": "Conserva avviso, specifiche, moduli e risposte pubblicate di una singola opportunità.",
+          "eyebrow": "Documenti di bandi e gare",
+          "h1": "Tutti i documenti di un bando.",
+          "lead": "Conserva avviso, specifiche, moduli e risposte pubblicate di una singola opportunità. Distingui ruoli e revisioni per verificare l’elenco ufficiale.",
+          "best": [
+            "PDF, Word ed Excel di un progetto.",
+            "Correzioni e risposte distinguibili."
+          ],
+          "steps": [
+            "Apri la pagina ufficiale del bando e individua documenti, correzioni e domande.",
+            "Apri Grab All Files, scansiona la pagina scelta, filtra i formati e verifica i link prima di selezionare i file.",
+            "Conferma nome, versione, scadenze ed elenco richiesto. Conserva i moduli nel formato originale.",
+            "Verifica o modifica i titoli, scegli nomi e cartelle per tipo o dominio, poi salva file o ZIP. Esporta le informazioni CSV per conservare gli URL.",
+            "Confronta i file con la fonte prima della candidatura. Salvare non compila, firma o presenta moduli."
+          ],
+          "faq": [
+            {
+              "q": "Garantisce una raccolta completa?",
+              "a": "No. Controlla elenco e pagine separate con modifiche o risposte."
+            },
+            {
+              "q": "Invia la candidatura?",
+              "a": "No. Compilazione, firma e presentazione restano operazioni separate."
+            },
+            {
+              "q": "Sorveglia gli aggiornamenti?",
+              "a": "No. Torna alla fonte e scansiona manualmente; mantieni note di revisione."
+            },
+            {
+              "q": "Posso usarlo gratis?",
+              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Immagini e file collegati direttamente in quella pagina non hanno un limite numerico del piano. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+            },
+            {
+              "q": "Cosa contiene il CSV delle informazioni?",
+              "a": "URL, nomi, titoli, tipi, confidenza e prove del rilevamento, dimensione, data e pagina origine se note. I campi ignoti possono essere vuoti; non estrae tabelle dai documenti."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Documenti di bandi e gare",
+            "stages": [
+              "Verificare l’elenco",
+              "Scegliere i file",
+              "Preparare la raccolta"
+            ],
+            "files": [
+              "notice.pdf",
+              "specification.pdf",
+              "application.docx"
+            ],
+            "column": [
+              "File",
+              "Tipo"
+            ],
+            "output": "Raccolta di esempio",
+            "example": "Esempio illustrativo · materiali fittizi",
+            "note": "Nomi e gruppi sono esempi manuali. Le cartelle native sono per tipo o dominio.",
+            "referenceTitle": "Esempio di documenti pubblicati",
+            "referenceNote": "Riferimento alla pubblicazione dei documenti; non indica affiliazione o test di compatibilità.",
+            "referenceLabel": "Ministry of the Environment, Japan",
+            "referenceUrl": "https://kyushu.env.go.jp/okinawa/procure_00339.html"
+          }
+        },
+        "ko": {
+          "title": "입찰·공모 서류 다운로드 | Grab All Files",
+          "desc": "하나의 입찰·공모 건에 대한 공고, 사양서, 양식과 공개된 질문·답변을 검토용 자료 세트로 준비합니다.",
+          "eyebrow": "입찰·공모 서류",
+          "h1": "한 공고의 자료를 함께 모으세요.",
+          "lead": "하나의 입찰·공모 건에 대한 공고, 사양서, 양식과 공개된 질문·답변을 검토용 자료 세트로 준비합니다. 문서의 역할과 개정판을 구분해 보관하면 저장한 자료를 공식 목록과 비교하기 쉽습니다.",
+          "best": [
+            "한 공고에 필요한 PDF·Word·Excel 자료를 모으기.",
+            "정정 공고, 양식과 추가 설명 자료를 구분해 관리하기."
+          ],
+          "steps": [
+            "한 공고의 공식 페이지를 엽니다. 공고, 사양서, 양식과 별도의 추가 설명·정정 자료 링크를 확인합니다.",
+            "Grab All Files를 열고 대상 페이지를 스캔합니다. 필요한 형식을 필터링하고 원본 링크를 확인해 파일을 선택합니다.",
+            "공고명, 버전, 기한과 필요한 문서 목록을 확인합니다. 양식은 지원되는 원래 형식으로 보관하고 문서 역할에 따라 파일 이름을 붙입니다.",
+            "제목을 확인·편집하고 저장 이름과 종류별·도메인별 폴더를 선택해 파일 또는 ZIP을 저장합니다. 파일 정보 CSV로 URL도 기록합니다.",
+            "저장한 파일과 CSV를 공식 목록과 비교합니다. 신청을 준비하기 전에 출처를 다시 방문해 정정 사항이나 답변을 확인하세요. 문서를 저장한다고 신청서를 작성·서명·제출하는 것은 아닙니다."
+          ],
+          "faq": [
+            {
+              "q": "한 번의 스캔으로 신청 자료가 모두 모이나요?",
+              "a": "아닙니다. 공식 목록을 확인하고 필요하면 별도의 정정·질의응답 페이지도 방문하세요. 결과는 발견한 링크와 사용자가 선택한 파일로 한정됩니다."
+            },
+            {
+              "q": "입찰이나 신청을 제출할 수 있나요?",
+              "a": "아닙니다. 이 작업 흐름은 참고 파일을 저장합니다. 양식 작성, 서명과 제출은 발행 기관의 안내에 따라 별도로 진행합니다."
+            },
+            {
+              "q": "이후의 정정 사항을 자동으로 감시하나요?",
+              "a": "아닙니다. 출처를 다시 방문해 수동으로 재스캔합니다. 개정 내용을 메모하고 원본과 비교하세요. 저장한 사본이 최신이라고 가정하지 마세요."
+            },
+            {
+              "q": "무료로 사용할 수 있나요?",
+              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+            },
+            {
+              "q": "파일 정보 CSV에는 무엇이 있나요?",
+              "a": "URL, 파일명, 제목, 종류, 감지 신뢰도·근거와 확인 가능한 크기·수정일·원본 페이지입니다. 미확인 정보는 비어 있을 수 있으며 문서 본문 표를 추출한 CSV가 아닙니다."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "입찰·공모 서류",
+            "stages": [
+              "자료 목록 확인",
+              "필요한 파일 선택",
+              "자료 세트 준비"
+            ],
+            "files": [
+              "notice.pdf",
+              "specification.pdf",
+              "application.docx"
+            ],
+            "column": [
+              "파일",
+              "종류"
+            ],
+            "output": "자료 세트 예시",
+            "example": "그림 예시 · 가상 샘플 자료",
+            "note": "이름과 묶음은 수동 정리 예시입니다. 확장의 폴더 옵션은 종류별 또는 도메인별입니다.",
+            "referenceTitle": "공개 자료 배포 구성 예시",
+            "referenceNote": "자료 공개 방식을 보여 주는 참고 링크이며 제휴나 호환성 검증을 뜻하지 않습니다.",
+            "referenceLabel": "Ministry of the Environment, Japan",
+            "referenceUrl": "https://kyushu.env.go.jp/okinawa/procure_00339.html"
+          }
+        },
+        "pt_BR": {
+          "title": "Baixar documentos de licitação e seleção | Grab All Files",
+          "desc": "Prepare um conjunto para revisar uma licitação ou chamada de seleção: aviso, especificações, formulários e perguntas ou respostas publicadas.",
+          "eyebrow": "Documentos de licitação e seleção",
+          "h1": "Reúna os documentos de uma oportunidade.",
+          "lead": "Prepare um conjunto para revisar uma licitação ou chamada de seleção: aviso, especificações, formulários e perguntas ou respostas publicadas. Preserve a função e a revisão de cada documento para comparar os arquivos salvos com a lista oficial.",
+          "best": [
+            "Coletar os documentos PDF, Word e Excel de uma única oportunidade.",
+            "Distinguir avisos retificados, formulários e materiais de esclarecimento."
+          ],
+          "steps": [
+            "Abra a página oficial de uma oportunidade. Identifique aviso, especificações, formulários e links separados para esclarecimentos ou retificações.",
+            "Abra Grab All Files, escaneie a página escolhida, filtre os formatos e confira os links antes de selecionar arquivos.",
+            "Confira o nome da oportunidade, a versão, os prazos e a lista de documentos exigidos. Mantenha os formulários nos formatos originais compatíveis e nomeie os arquivos pela função.",
+            "Confira ou edite títulos, escolha nomes e pastas por tipo ou domínio e salve arquivos ou ZIP. Exporte informações CSV para registrar URLs.",
+            "Compare os arquivos salvos e o CSV com a lista oficial. Volte à fonte para conferir retificações ou respostas antes de preparar a candidatura. Salvar documentos não preenche, assina nem envia uma inscrição."
+          ],
+          "faq": [
+            {
+              "q": "Um único escaneamento garante todos os documentos necessários?",
+              "a": "Não. Confira a lista oficial e visite páginas separadas de retificações ou perguntas e respostas quando necessário. O resultado se limita aos links encontrados e aos arquivos que você escolhe."
+            },
+            {
+              "q": "Ele envia uma proposta ou inscrição?",
+              "a": "Não. Este fluxo salva arquivos de referência. Preenchimento de formulários, assinaturas e envio continuam sendo ações separadas, conforme as instruções do órgão ou responsável pela publicação."
+            },
+            {
+              "q": "Retificações posteriores são monitoradas automaticamente?",
+              "a": "Não. Volte à fonte e escaneie novamente de forma manual. Mantenha notas de revisão e compare os originais; não presuma que a cópia salva seja a mais recente."
+            },
+            {
+              "q": "Posso usar grátis?",
+              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. Imagens e arquivos diretamente vinculados nessa página não têm limite de quantidade do plano. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+            },
+            {
+              "q": "O que contém o CSV de informações?",
+              "a": "URLs, nomes, títulos, tipos, confiança e evidências de detecção, tamanho, data e página de origem quando conhecidos. Campos desconhecidos podem ficar vazios; não extrai tabelas do documento."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "Documentos de licitação e seleção",
+            "stages": [
+              "Conferir a lista",
+              "Escolher arquivos",
+              "Preparar o conjunto"
+            ],
+            "files": [
+              "notice.pdf",
+              "specification.pdf",
+              "application.docx"
+            ],
+            "column": [
+              "Arquivo",
+              "Tipo"
+            ],
+            "output": "Conjunto de exemplo",
+            "example": "Exemplo ilustrativo · materiais fictícios",
+            "note": "Nomes e grupos são exemplos manuais. As pastas nativas são por tipo ou domínio.",
+            "referenceTitle": "Exemplo de documentos publicados",
+            "referenceNote": "Referência sobre a publicação; não indica parceria ou teste de compatibilidade.",
+            "referenceLabel": "Ministry of the Environment, Japan",
+            "referenceUrl": "https://kyushu.env.go.jp/okinawa/procure_00339.html"
+          }
+        },
+        "zh_CN": {
+          "title": "下载招标与申请文件 | Grab All Files",
+          "desc": "为一个招标或公开征集项目准备核对用资料集，包括公告、规格、表格及公开的问题或回答。",
+          "eyebrow": "招标与申请文件",
+          "h1": "把同一项目的文件放在一起。",
+          "lead": "为一个招标或公开征集项目准备核对用资料集，包括公告、规格、表格及公开的问题或回答。保留文档用途与修订信息，便于将保存的文件与官方列表对照。",
+          "best": [
+            "收集同一项目的PDF、Word和Excel文件。",
+            "区分修订公告、表格和补充说明资料。"
+          ],
+          "steps": [
+            "打开一个项目的官方页面。找到公告、规格、表格及单独发布的补充说明或修订链接。",
+            "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
+            "核对项目名称、版本、截止日期与所需文件列表。保留表格支持的原始格式，按文档用途命名文件。",
+            "检查或编辑题名，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "将已保存文件和CSV与官方列表核对。准备申请前，回到来源检查修订或回答。保存文档不会填写、签署或提交申请。"
+          ],
+          "faq": [
+            {
+              "q": "一次扫描能保证申请资料完整吗？",
+              "a": "不能。请核对官方列表，并按需要访问单独的修订或问答页面。结果仅限于找到的链接与自行选择的文件。"
+            },
+            {
+              "q": "能提交投标或申请吗？",
+              "a": "不能。此流程保存参考文件。填写表格、签署和提交仍需按发布方的说明另行操作。"
+            },
+            {
+              "q": "会自动监控后续修订吗？",
+              "a": "不会。请重新访问来源并手动再扫描。保留修订笔记，与原件核对，不要默认保存的副本就是最新版。"
+            },
+            {
+              "q": "可以免费使用吗？",
+              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+            },
+            {
+              "q": "文件信息CSV包含什么？",
+              "a": "URL、文件名、题名、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "招标与申请文件",
+            "stages": [
+              "核对资料列表",
+              "选择所需文件",
+              "整理资料集"
+            ],
+            "files": [
+              "notice.pdf",
+              "specification.pdf",
+              "application.docx"
+            ],
+            "column": [
+              "文件",
+              "格式"
+            ],
+            "output": "示例资料集",
+            "example": "流程示例 · 虚构示例资料",
+            "note": "名称和分组为手动整理示例。扩展的文件夹分类仅按格式或来源域名。",
+            "referenceTitle": "公开资料分发结构示例",
+            "referenceNote": "仅用于参考资料公开方式，不表示合作或兼容性测试。",
+            "referenceLabel": "Ministry of the Environment, Japan",
+            "referenceUrl": "https://kyushu.env.go.jp/okinawa/procure_00339.html"
+          }
+        },
+        "zh_TW": {
+          "title": "下載招標與申請文件 | Grab All Files",
+          "desc": "為一個招標或公開徵選案件準備核對用資料集，包含公告、規格、表格及公開的問題或回答。",
+          "eyebrow": "招標與申請文件",
+          "h1": "把同一案件的文件放在一起。",
+          "lead": "為一個招標或公開徵選案件準備核對用資料集，包含公告、規格、表格及公開的問題或回答。保留文件用途與修訂資訊，便於將儲存的檔案與官方清單對照。",
+          "best": [
+            "收集同一案件的PDF、Word與Excel文件。",
+            "區分修訂公告、表格和補充說明資料。"
+          ],
+          "steps": [
+            "開啟一個案件的官方頁面。找到公告、規格、表格及單獨發布的補充說明或修訂連結。",
+            "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
+            "核對案件名稱、版本、截止日期與所需文件清單。保留表格支援的原始格式，依文件用途命名檔案。",
+            "檢查或編輯題名，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "將已儲存檔案和CSV與官方清單核對。準備申請前，回到來源檢查修訂或回答。儲存文件不會填寫、簽署或提交申請。"
+          ],
+          "faq": [
+            {
+              "q": "一次掃描能保證申請資料完整嗎？",
+              "a": "不能。請核對官方清單，並依需要造訪獨立的修訂或問答頁面。結果僅限於找到的連結與自行選取的檔案。"
+            },
+            {
+              "q": "能提交投標或申請嗎？",
+              "a": "不能。此流程儲存參考檔案。填寫表格、簽署與提交仍需依發布方的說明另行操作。"
+            },
+            {
+              "q": "會自動監控後續修訂嗎？",
+              "a": "不會。請重新造訪來源並手動再掃描。保留修訂筆記，與原件核對，不要預設儲存的副本就是最新版。"
+            },
+            {
+              "q": "可以免費使用嗎？",
+              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+            },
+            {
+              "q": "檔案資訊CSV包含什麼？",
+              "a": "URL、檔名、題名、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "招標與申請文件",
+            "stages": [
+              "核對資料清單",
+              "選取所需檔案",
+              "整理資料集"
+            ],
+            "files": [
+              "notice.pdf",
+              "specification.pdf",
+              "application.docx"
+            ],
+            "column": [
+              "檔案",
+              "格式"
+            ],
+            "output": "範例資料集",
+            "example": "流程範例 · 虛構範例資料",
+            "note": "名稱和分組為手動整理範例。擴充功能的資料夾分類僅依格式或來源網域。",
+            "referenceTitle": "公開資料分發結構範例",
+            "referenceNote": "僅用於參考資料公開方式，不表示合作或相容性測試。",
+            "referenceLabel": "Ministry of the Environment, Japan",
+            "referenceUrl": "https://kyushu.env.go.jp/okinawa/procure_00339.html"
+          }
+        }
+      }
+    },
+    "export-file-links-to-csv": {
+      "path": "export-file-links-to-csv.html",
+      "related": [
+        "export-file-links-to-csv",
+        "rename-and-organize-bulk-pdf-downloads",
+        "web-pages-for-reading-and-ai-analysis"
+      ],
+      "copy": {
+        "en": {
+          "title": "Export file links to CSV for Excel | Grab All Files",
+          "desc": "Export a reusable inventory of selected files: URL, filename, title, type and available metadata.",
+          "eyebrow": "File links to CSV",
+          "h1": "Turn selected file links into a list.",
+          "lead": "Export a reusable inventory of selected files: URL, filename, title, type and available metadata. Import the CSV into Excel to filter, check and share a document list without treating it as the contents of the documents themselves.",
+          "best": [
+            "Maintaining an inventory of a selected document set.",
+            "Checking source URLs or comparing filenames and available metadata in Excel."
+          ],
+          "steps": [
+            "Open a source page and scan it. Decide which files should be rows in your inventory rather than exporting an unexplained list.",
+            "Open Grab All Files, scan the chosen page, and filter the file types you need. Review the source links and select the relevant files.",
+            "Select the required files and review titles and source pages. Use “Export File Info CSV”; Free exports up to 10 selected rows per operation, so split larger lists into batches.",
+            "Selected file URLs, filenames, titles, types, detection confidence/evidence and available size, modification date and source page. Unknown metadata can be blank. It is not a table extracted from the document body.",
+            "Import the CSV through Excel’s text/CSV import and review columns and encoding. Keep URLs and identifiers as text where needed, retain blank unknown fields, and check rows against the selected files."
+          ],
+          "faq": [
+            {
+              "q": "Is this the same as exporting a web table?",
+              "a": "No. This CSV is a file inventory. The separate web-table workflow extracts supported HTML tables through the Collector’s AI output."
+            },
+            {
+              "q": "Which columns are exported?",
+              "a": "The stable headers are URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified and Source page. Unknown size, date or source information can be blank."
+            },
+            {
+              "q": "Does it include every file on the site?",
+              "a": "No. CSV exports the selected detected items, subject to the per-operation plan cap. Review coverage and use additional scoped scans if needed."
+            },
+            {
+              "q": "Can I use this for free?",
+              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images and directly linked files on that page have no plan-based count cap. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+            }
+          ],
+          "industry": {
+            "kind": "filecsv",
+            "title": "File links to CSV",
+            "stages": [
+              "Choose file rows",
+              "Export File Info CSV",
+              "Import manually into Excel"
+            ],
+            "files": [
+              "catalog.pdf",
+              "form.docx",
+              "data.csv"
+            ],
+            "column": [
+              "File",
+              "Type"
+            ],
+            "output": "Sample set",
+            "example": "Illustrative example · fictional materials",
+            "note": "Names and groups shown here are examples. Check and name files yourself; native folder options are by type or domain. The CSV drawing shows a four-column excerpt; the actual ten headers are described in the FAQ.",
+            "referenceTitle": "An example of published source materials",
+            "referenceNote": "This link illustrates how documents are published. It is not an affiliation or a compatibility test.",
+            "referenceLabel": "",
+            "referenceUrl": null
+          }
+        },
+        "ja": {
+          "title": "ファイルのリンク一覧をCSVでExcelへ | Grab All Files",
+          "desc": "選択した資料のURL、ファイル名、題名、種類、取得できた情報を一覧にします。",
+          "eyebrow": "資料リンクをCSV一覧に",
+          "h1": "資料のリンク一覧をCSVに。",
+          "lead": "選択した資料のURL、ファイル名、題名、種類、取得できた情報を一覧にします。CSVをExcelへ取り込み、資料の中身と区別しながらリンクやファイル情報を確認・共有できます。",
+          "best": [
+            "選んだ資料セットの一覧表を管理する。",
+            "Excelで元URLやファイル名、取得できた情報を確認する。"
+          ],
+          "steps": [
+            "元の配布ページを開いてスキャンします。何の資料一覧を作るのか決め、一覧に含めるファイルを確認します。",
+            "Grab All Filesを開き、対象ページをスキャンします。必要な種類で絞り込み、元リンクを確認して資料を選択します。",
+            "必要なファイルを選択して題名・リンク元を確認し、「ファイル情報CSV出力」を使います。無料版は1操作10行までのため、多い一覧は分けて出力します。",
+            "選択したファイルのURL、ファイル名、題名、種類、検出の確度・根拠と、取得できたサイズ・更新日・リンク元ページを記録します。不明な情報は空になる場合があり、資料本文の表を抽出したCSVではありません。",
+            "Excelのテキスト／CSV取り込みで列や文字コードを確認します。URL・識別子は必要に応じて文字列として扱い、不明欄を勝手に補わず選択した資料と行を照合します。"
+          ],
+          "faq": [
+            {
+              "q": "Webページの表をCSVにする機能と同じですか？",
+              "a": "これはファイルの一覧CSVです。Web表の手順は、ページ収集のAI出力で対応するHTML表を抽出する別の用途です。"
+            },
+            {
+              "q": "どの列を出力しますか？",
+              "a": "URL、Filename、Title、Type、Confidence、Evidence、Size、Size (bytes)、Modified、Source pageという固定の列名です。不明なサイズ、日付、リンク元は空になる場合があります。"
+            },
+            {
+              "q": "サイトの全ファイルを自動で一覧にしますか？",
+              "a": "検出結果から選択した項目を、プランの1操作上限内で出力します。対象範囲を確認し、必要なら範囲を決めた追加スキャンを行います。"
+            },
+            {
+              "q": "無料で使えますか？",
+              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+            }
+          ],
+          "industry": {
+            "kind": "filecsv",
+            "title": "資料リンクをCSV一覧に",
+            "stages": [
+              "資料の行を選ぶ",
+              "ファイル情報CSVを出力",
+              "Excelへ手動で取り込む"
+            ],
+            "files": [
+              "catalog.pdf",
+              "form.docx",
+              "data.csv"
+            ],
+            "column": [
+              "ファイル",
+              "種類"
+            ],
+            "output": "資料セット例",
+            "example": "図解例 · 架空のサンプル資料",
+            "note": "名前やまとめ方は例です。資料の確認・命名は利用者が行い、拡張のフォルダ分けは種類別またはドメイン別です。 図のCSVは4列の抜粋です。実際の固定10列はFAQで説明しています。",
+            "referenceTitle": "公開資料の配布構成の例",
+            "referenceNote": "資料の公開方法を示す参考リンクです。提携や対応動作の確認を示すものではありません。",
+            "referenceLabel": "",
+            "referenceUrl": null
+          }
+        },
+        "es": {
+          "title": "Enlaces de archivos a CSV | Grab All Files",
+          "desc": "Exporta URL, nombres, títulos, tipos y metadatos disponibles de los archivos seleccionados.",
+          "eyebrow": "Enlaces de archivos a CSV",
+          "h1": "Crea una lista de enlaces en CSV.",
+          "lead": "Exporta URL, nombres, títulos, tipos y metadatos disponibles de los archivos seleccionados. Importa en Excel para revisar el inventario, no el contenido de los documentos.",
+          "best": [
+            "Inventario de un conjunto elegido.",
+            "Comprobar URL y nombres en Excel."
+          ],
+          "steps": [
+            "Escanea una página y decide qué archivos deben formar el inventario.",
+            "Abre Grab All Files, escanea la página elegida, filtra los formatos y revisa los enlaces antes de seleccionar los archivos.",
+            "Selecciona filas y usa el CSV de información de archivos; Free permite 10 por operación y puedes repetir.",
+            "URL, nombres, títulos, tipos, confianza y evidencia de detección, y tamaño, fecha y página origen cuando se conocen. Los campos desconocidos pueden quedar vacíos; no extrae tablas del documento.",
+            "Importa desde texto/CSV en Excel, comprueba columnas y codificación, y conserva los campos desconocidos vacíos."
+          ],
+          "faq": [
+            {
+              "q": "¿Es el CSV de una tabla web?",
+              "a": "No. Las tablas HTML se extraen en otro flujo del Collector."
+            },
+            {
+              "q": "¿Qué columnas incluye?",
+              "a": "URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified y Source page; lo desconocido puede quedar vacío."
+            },
+            {
+              "q": "¿Lista todo el sitio?",
+              "a": "Solo elementos detectados y seleccionados dentro del límite por operación. Comprueba el alcance."
+            },
+            {
+              "q": "¿Puedo usarlo gratis?",
+              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes y los archivos enlazados directamente en esa página no tienen límite de cantidad por plan. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+            }
+          ],
+          "industry": {
+            "kind": "filecsv",
+            "title": "Enlaces de archivos a CSV",
+            "stages": [
+              "Elegir filas",
+              "Exportar información CSV",
+              "Importar manualmente en Excel"
+            ],
+            "files": [
+              "catalog.pdf",
+              "form.docx",
+              "data.csv"
+            ],
+            "column": [
+              "Archivo",
+              "Tipo"
+            ],
+            "output": "Conjunto de ejemplo",
+            "example": "Ejemplo ilustrativo · materiales ficticios",
+            "note": "Los nombres y grupos son ejemplos manuales. La clasificación nativa es por tipo o dominio. El dibujo CSV muestra cuatro columnas; las diez reales se describen en las preguntas.",
+            "referenceTitle": "Ejemplo de documentos publicados",
+            "referenceNote": "Referencia sobre cómo se publican documentos; no implica afiliación ni una prueba de compatibilidad.",
+            "referenceLabel": "",
+            "referenceUrl": null
+          }
+        },
+        "fr": {
+          "title": "Liens de fichiers en CSV | Grab All Files",
+          "desc": "Exportez URL, noms, titres, types et métadonnées disponibles des fichiers choisis.",
+          "eyebrow": "Liens de fichiers en CSV",
+          "h1": "Créez un inventaire CSV de liens.",
+          "lead": "Exportez URL, noms, titres, types et métadonnées disponibles des fichiers choisis. Importez dans Excel pour vérifier l’inventaire, pas le contenu des documents.",
+          "best": [
+            "Inventorier un ensemble choisi.",
+            "Vérifier URL et noms dans Excel."
+          ],
+          "steps": [
+            "Analysez une page et choisissez les fichiers de l’inventaire.",
+            "Ouvrez Grab All Files, analysez la page choisie, filtrez les formats et vérifiez les liens avant de sélectionner les fichiers.",
+            "Sélectionnez les lignes et exportez les informations CSV ; Free permet 10 lignes par opération renouvelable.",
+            "URL, noms, titres, types, confiance et preuves de détection, taille, date et page source si connues. Les champs inconnus peuvent rester vides ; ce ne sont pas les tableaux du document.",
+            "Importez comme texte/CSV dans Excel, vérifiez colonnes et encodage et gardez les champs inconnus vides."
+          ],
+          "faq": [
+            {
+              "q": "Est-ce un tableau web exporté ?",
+              "a": "Non. Les tableaux HTML passent par un autre flux du Collector."
+            },
+            {
+              "q": "Quelles colonnes ?",
+              "a": "URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified et Source page ; données inconnues éventuellement vides."
+            },
+            {
+              "q": "Tout le site est-il listé ?",
+              "a": "Seulement les éléments trouvés et choisis, dans la limite par opération. Vérifiez le périmètre."
+            },
+            {
+              "q": "Puis-je l’utiliser gratuitement ?",
+              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images et fichiers directement liés sur cette page n’ont pas de plafond lié au forfait. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+            }
+          ],
+          "industry": {
+            "kind": "filecsv",
+            "title": "Liens de fichiers en CSV",
+            "stages": [
+              "Choisir les lignes",
+              "Exporter les informations CSV",
+              "Importer manuellement dans Excel"
+            ],
+            "files": [
+              "catalog.pdf",
+              "form.docx",
+              "data.csv"
+            ],
+            "column": [
+              "Fichier",
+              "Type"
+            ],
+            "output": "Ensemble d’exemple",
+            "example": "Exemple illustratif · documents fictifs",
+            "note": "Noms et groupes sont des exemples manuels. Le classement natif est par type ou domaine. Le dessin CSV montre quatre colonnes ; les dix en-têtes réels sont dans la FAQ.",
+            "referenceTitle": "Exemple de documents publiés",
+            "referenceNote": "Référence sur la publication des documents ; ni affiliation ni test de compatibilité.",
+            "referenceLabel": "",
+            "referenceUrl": null
+          }
+        },
+        "de": {
+          "title": "Dateilinks als CSV | Grab All Files",
+          "desc": "Exportieren Sie URLs, Namen, Titel, Typen und verfügbare Metadaten gewählter Dateien.",
+          "eyebrow": "Dateilinks als CSV",
+          "h1": "Eine CSV-Liste der Dateien.",
+          "lead": "Exportieren Sie URLs, Namen, Titel, Typen und verfügbare Metadaten gewählter Dateien. Importieren Sie die Liste in Excel; sie enthält nicht die Dokumentinhalte.",
+          "best": [
+            "Ein ausgewähltes Dateiinventar.",
+            "URLs und Namen in Excel prüfen."
+          ],
+          "steps": [
+            "Scannen Sie eine Seite und bestimmen Sie die Dateien für Ihr Inventar.",
+            "Öffnen Sie Grab All Files, scannen Sie die gewählte Seite, filtern Sie die Formate und prüfen Sie die Links vor der Auswahl.",
+            "Wählen Sie Zeilen und exportieren Sie Dateiinfo-CSV; Free erlaubt 10 je wiederholbarem Vorgang.",
+            "URLs, Namen, Titel, Typen, Erkennungsbewertung und -hinweise sowie bekannte Größe, Änderungsdatum und Quellseite. Unbekannte Felder können leer sein; Dokumenttabellen werden nicht extrahiert.",
+            "Importieren Sie Text/CSV in Excel, prüfen Sie Spalten und Codierung und behalten Sie unbekannte Felder leer."
+          ],
+          "faq": [
+            {
+              "q": "Ist dies eine exportierte Webtabelle?",
+              "a": "Nein. HTML-Tabellen verwenden einen anderen Collector-Ablauf."
+            },
+            {
+              "q": "Welche Spalten gibt es?",
+              "a": "URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified und Source page; unbekannte Angaben können leer sein."
+            },
+            {
+              "q": "Wird die ganze Website gelistet?",
+              "a": "Nur gefundene gewählte Einträge im Aktionslimit. Prüfen Sie den Umfang."
+            },
+            {
+              "q": "Ist dies kostenlos nutzbar?",
+              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+            }
+          ],
+          "industry": {
+            "kind": "filecsv",
+            "title": "Dateilinks als CSV",
+            "stages": [
+              "Dateizeilen wählen",
+              "Dateiinfo-CSV exportieren",
+              "Manuell in Excel importieren"
+            ],
+            "files": [
+              "catalog.pdf",
+              "form.docx",
+              "data.csv"
+            ],
+            "column": [
+              "Datei",
+              "Typ"
+            ],
+            "output": "Beispielsammlung",
+            "example": "Beispielgrafik · fiktive Materialien",
+            "note": "Namen und Gruppen sind manuelle Beispiele. Native Ordneroptionen sind Typ oder Domain. Die CSV-Grafik zeigt vier Spalten; die zehn echten Überschriften stehen in den FAQ.",
+            "referenceTitle": "Beispiel veröffentlichter Unterlagen",
+            "referenceNote": "Referenz zur Dokumentveröffentlichung; keine Partnerschaft oder Kompatibilitätsprüfung.",
+            "referenceLabel": "",
+            "referenceUrl": null
+          }
+        },
+        "it": {
+          "title": "Link ai file in CSV | Grab All Files",
+          "desc": "Esporta URL, nomi, titoli, tipi e metadati disponibili dei file scelti.",
+          "eyebrow": "Link ai file in CSV",
+          "h1": "Una lista CSV dei documenti.",
+          "lead": "Esporta URL, nomi, titoli, tipi e metadati disponibili dei file scelti. Importa l’inventario in Excel, distinguendolo dal contenuto dei documenti.",
+          "best": [
+            "Inventario di una raccolta scelta.",
+            "Controllare URL e nomi in Excel."
+          ],
+          "steps": [
+            "Scansiona una pagina e decidi quali file includere nell’inventario.",
+            "Apri Grab All Files, scansiona la pagina scelta, filtra i formati e verifica i link prima di selezionare i file.",
+            "Seleziona righe ed esporta le informazioni CSV; Free consente 10 righe per operazione ripetibile.",
+            "URL, nomi, titoli, tipi, confidenza e prove del rilevamento, dimensione, data e pagina origine se note. I campi ignoti possono essere vuoti; non estrae tabelle dai documenti.",
+            "Importa testo/CSV in Excel, verifica colonne e codifica e mantieni vuoti i campi sconosciuti."
+          ],
+          "faq": [
+            {
+              "q": "È l’esportazione di una tabella web?",
+              "a": "No. Le tabelle HTML usano un altro flusso del Collector."
+            },
+            {
+              "q": "Quali colonne contiene?",
+              "a": "URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified e Source page; le informazioni ignote possono essere vuote."
+            },
+            {
+              "q": "Elenca l’intero sito?",
+              "a": "Solo elementi trovati e selezionati entro il limite per operazione. Controlla l’ambito."
+            },
+            {
+              "q": "Posso usarlo gratis?",
+              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Immagini e file collegati direttamente in quella pagina non hanno un limite numerico del piano. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+            }
+          ],
+          "industry": {
+            "kind": "filecsv",
+            "title": "Link ai file in CSV",
+            "stages": [
+              "Scegliere righe",
+              "Esportare informazioni CSV",
+              "Importare manualmente in Excel"
+            ],
+            "files": [
+              "catalog.pdf",
+              "form.docx",
+              "data.csv"
+            ],
+            "column": [
+              "File",
+              "Tipo"
+            ],
+            "output": "Raccolta di esempio",
+            "example": "Esempio illustrativo · materiali fittizi",
+            "note": "Nomi e gruppi sono esempi manuali. Le cartelle native sono per tipo o dominio. Il disegno CSV mostra quattro colonne; le dieci intestazioni reali sono nelle FAQ.",
+            "referenceTitle": "Esempio di documenti pubblicati",
+            "referenceNote": "Riferimento alla pubblicazione dei documenti; non indica affiliazione o test di compatibilità.",
+            "referenceLabel": "",
+            "referenceUrl": null
+          }
+        },
+        "ko": {
+          "title": "파일 링크를 Excel용 CSV로 내보내기 | Grab All Files",
+          "desc": "선택한 파일의 URL, 파일명, 제목, 종류와 확인 가능한 메타데이터를 재사용 가능한 목록으로 내보냅니다.",
+          "eyebrow": "파일 링크를 CSV로",
+          "h1": "선택한 파일 링크를 목록으로 만드세요.",
+          "lead": "선택한 파일의 URL, 파일명, 제목, 종류와 확인 가능한 메타데이터를 재사용 가능한 목록으로 내보냅니다. CSV를 Excel로 가져와 문서 본문의 내용과 구분하면서 자료 목록을 필터링·확인·공유할 수 있습니다.",
+          "best": [
+            "선택한 문서 세트의 목록을 관리하기.",
+            "Excel에서 출처 URL을 확인하거나 파일명과 확인 가능한 메타데이터를 비교하기."
+          ],
+          "steps": [
+            "출처 페이지를 열고 스캔합니다. 용도가 불분명한 목록을 내보내기보다 어떤 파일을 목록의 행으로 포함할지 정합니다.",
+            "Grab All Files를 열고 대상 페이지를 스캔합니다. 필요한 형식을 필터링하고 원본 링크를 확인해 파일을 선택합니다.",
+            "필요한 파일을 선택하고 제목과 출처 페이지를 확인합니다. ‘파일 정보 CSV 내보내기’를 사용하세요. 무료 버전은 실행당 선택한 행을 최대 10개 내보내므로 큰 목록은 나누어 출력합니다.",
+            "URL, 파일명, 제목, 종류, 감지 신뢰도·근거와 확인 가능한 크기·수정일·원본 페이지입니다. 미확인 정보는 비어 있을 수 있으며 문서 본문 표를 추출한 CSV가 아닙니다.",
+            "Excel의 텍스트/CSV 가져오기로 열과 인코딩을 확인합니다. 필요하면 URL과 식별자를 텍스트로 처리하고, 알 수 없는 정보의 빈칸은 유지하며 행을 선택한 파일과 대조합니다."
+          ],
+          "faq": [
+            {
+              "q": "웹 표를 내보내는 기능과 같은가요?",
+              "a": "아닙니다. 이 CSV는 파일 목록입니다. 별도의 웹 표 작업 흐름은 Collector의 AI 출력을 통해 지원되는 HTML 표를 추출합니다."
+            },
+            {
+              "q": "어떤 열을 내보내나요?",
+              "a": "고정 열 이름은 URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified, Source page입니다. 알 수 없는 크기, 날짜나 출처 정보는 비어 있을 수 있습니다."
+            },
+            {
+              "q": "사이트의 모든 파일을 포함하나요?",
+              "a": "아닙니다. 감지된 항목 중 선택한 것만 사용 중인 플랜의 실행당 한도에 따라 CSV로 내보냅니다. 포함 범위를 확인하고 필요하면 범위를 정해 추가 스캔하세요."
+            },
+            {
+              "q": "무료로 사용할 수 있나요?",
+              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+            }
+          ],
+          "industry": {
+            "kind": "filecsv",
+            "title": "파일 링크를 CSV로",
+            "stages": [
+              "파일 행 선택",
+              "파일 정보 CSV 출력",
+              "Excel에 수동 가져오기"
+            ],
+            "files": [
+              "catalog.pdf",
+              "form.docx",
+              "data.csv"
+            ],
+            "column": [
+              "파일",
+              "종류"
+            ],
+            "output": "자료 세트 예시",
+            "example": "그림 예시 · 가상 샘플 자료",
+            "note": "이름과 묶음은 수동 정리 예시입니다. 확장의 폴더 옵션은 종류별 또는 도메인별입니다. CSV 그림은4열 발췌이며 실제10개 헤더는 FAQ에 설명되어 있습니다.",
+            "referenceTitle": "공개 자료 배포 구성 예시",
+            "referenceNote": "자료 공개 방식을 보여 주는 참고 링크이며 제휴나 호환성 검증을 뜻하지 않습니다.",
+            "referenceLabel": "",
+            "referenceUrl": null
+          }
+        },
+        "pt_BR": {
+          "title": "Exportar links de arquivos em CSV para Excel | Grab All Files",
+          "desc": "Exporte um inventário reutilizável dos arquivos selecionados: URL, nome, título, tipo e metadados disponíveis.",
+          "eyebrow": "Links de arquivos em CSV",
+          "h1": "Crie uma lista dos links selecionados.",
+          "lead": "Exporte um inventário reutilizável dos arquivos selecionados: URL, nome, título, tipo e metadados disponíveis. Importe o CSV no Excel para filtrar, conferir e compartilhar a lista, sem confundi-la com o conteúdo dos documentos.",
+          "best": [
+            "Manter um inventário de um conjunto de documentos escolhido.",
+            "Conferir URLs de origem ou comparar nomes e metadados disponíveis no Excel."
+          ],
+          "steps": [
+            "Abra uma página de origem e escaneie. Decida quais arquivos devem formar as linhas do inventário, em vez de exportar uma lista sem finalidade definida.",
+            "Abra Grab All Files, escaneie a página escolhida, filtre os formatos e confira os links antes de selecionar arquivos.",
+            "Selecione os arquivos necessários e confira títulos e páginas de origem. Use ‘Exportar info de arquivos em CSV’. O Free exporta até 10 linhas selecionadas por operação; divida listas maiores em lotes.",
+            "URLs, nomes, títulos, tipos, confiança e evidências de detecção, tamanho, data e página de origem quando conhecidos. Campos desconhecidos podem ficar vazios; não extrai tabelas do documento.",
+            "Importe o CSV pela opção de texto/CSV do Excel e confira colunas e codificação. Trate URLs e identificadores como texto quando necessário, mantenha vazios os campos desconhecidos e compare as linhas com os arquivos selecionados."
+          ],
+          "faq": [
+            {
+              "q": "É o mesmo que exportar uma tabela web?",
+              "a": "Não. Este CSV é um inventário de arquivos. O fluxo separado de tabelas web extrai tabelas HTML compatíveis por meio da saída para IA do Collector."
+            },
+            {
+              "q": "Quais colunas são exportadas?",
+              "a": "Os cabeçalhos fixos são URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified e Source page. Tamanho, data ou origem desconhecidos podem ficar vazios."
+            },
+            {
+              "q": "Inclui todos os arquivos do site?",
+              "a": "Não. O CSV exporta os itens detectados e selecionados, dentro do limite por operação do plano. Confira a cobertura e faça escaneamentos adicionais com escopo definido se necessário."
+            },
+            {
+              "q": "Posso usar grátis?",
+              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. Imagens e arquivos diretamente vinculados nessa página não têm limite de quantidade do plano. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+            }
+          ],
+          "industry": {
+            "kind": "filecsv",
+            "title": "Links de arquivos em CSV",
+            "stages": [
+              "Escolher linhas",
+              "Exportar informações CSV",
+              "Importar manualmente no Excel"
+            ],
+            "files": [
+              "catalog.pdf",
+              "form.docx",
+              "data.csv"
+            ],
+            "column": [
+              "Arquivo",
+              "Tipo"
+            ],
+            "output": "Conjunto de exemplo",
+            "example": "Exemplo ilustrativo · materiais fictícios",
+            "note": "Nomes e grupos são exemplos manuais. As pastas nativas são por tipo ou domínio. O desenho CSV mostra quatro colunas; os dez cabeçalhos reais estão nas perguntas.",
+            "referenceTitle": "Exemplo de documentos publicados",
+            "referenceNote": "Referência sobre a publicação; não indica parceria ou teste de compatibilidade.",
+            "referenceLabel": "",
+            "referenceUrl": null
+          }
+        },
+        "zh_CN": {
+          "title": "将文件链接导出为Excel用CSV | Grab All Files",
+          "desc": "导出可复用的所选文件清单，包含URL、文件名、标题、类型及可获取的元数据。",
+          "eyebrow": "文件链接导出为CSV",
+          "h1": "把所选文件链接整理成列表。",
+          "lead": "导出可复用的所选文件清单，包含URL、文件名、标题、类型及可获取的元数据。将CSV导入Excel后筛选、核对并分享文档列表，同时与文档本身的内容区分。",
+          "best": [
+            "管理所选文档集的文件清单。",
+            "在Excel中核对来源URL，或比较文件名与可获取的元数据。"
+          ],
+          "steps": [
+            "打开来源页面并扫描。先决定哪些文件应成为清单中的行，避免导出用途不明的列表。",
+            "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
+            "选择所需文件，核对标题和来源页面，使用“导出文件信息CSV”。免费版每次最多导出10个选中行，较大的列表需分批导出。",
+            "URL、文件名、题名、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。",
+            "通过Excel的文本/CSV导入功能核对列和编码。按需要将URL和标识符作为文本处理，保留未知字段的空白，并将各行与所选文件对照。"
+          ],
+          "faq": [
+            {
+              "q": "这与导出网页表格是同一功能吗？",
+              "a": "不是。此CSV是文件清单。另一个网页表格流程通过Collector的AI输出，提取支持的HTML表格。"
+            },
+            {
+              "q": "会导出哪些列？",
+              "a": "固定列名为URL、Filename、Title、Type、Confidence、Evidence、Size、Size (bytes)、Modified和Source page。未知的大小、日期或来源信息可能为空。"
+            },
+            {
+              "q": "会包含网站的每个文件吗？",
+              "a": "不会。CSV导出已检测并选中的项目，受所用方案的每次操作上限限制。请检查覆盖范围，必要时另行进行限定范围的扫描。"
+            },
+            {
+              "q": "可以免费使用吗？",
+              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+            }
+          ],
+          "industry": {
+            "kind": "filecsv",
+            "title": "文件链接导出为CSV",
+            "stages": [
+              "选择文件行",
+              "导出文件信息CSV",
+              "手动导入Excel"
+            ],
+            "files": [
+              "catalog.pdf",
+              "form.docx",
+              "data.csv"
+            ],
+            "column": [
+              "文件",
+              "格式"
+            ],
+            "output": "示例资料集",
+            "example": "流程示例 · 虚构示例资料",
+            "note": "名称和分组为手动整理示例。扩展的文件夹分类仅按格式或来源域名。 图中CSV为4列节选，实际固定10列在FAQ中说明。",
+            "referenceTitle": "公开资料分发结构示例",
+            "referenceNote": "仅用于参考资料公开方式，不表示合作或兼容性测试。",
+            "referenceLabel": "",
+            "referenceUrl": null
+          }
+        },
+        "zh_TW": {
+          "title": "將檔案連結匯出為Excel用CSV | Grab All Files",
+          "desc": "匯出可重用的所選檔案清單，包含URL、檔名、標題、類型與可取得的中繼資料。",
+          "eyebrow": "檔案連結匯出為CSV",
+          "h1": "把選取的檔案連結整理成清單。",
+          "lead": "匯出可重用的所選檔案清單，包含URL、檔名、標題、類型與可取得的中繼資料。將CSV匯入Excel後篩選、核對並分享文件清單，同時與文件本身的內容區分。",
+          "best": [
+            "管理所選文件集的檔案清單。",
+            "在Excel中核對來源URL，或比較檔名與可取得的中繼資料。"
+          ],
+          "steps": [
+            "開啟來源頁面並掃描。先決定哪些檔案應成為清單中的列，避免匯出用途不明的清單。",
+            "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
+            "選取所需檔案，核對標題和來源頁面，使用「匯出檔案資訊CSV」。免費版每次最多匯出10個選取列，較大的清單需分批匯出。",
+            "URL、檔名、題名、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。",
+            "透過Excel的文字/CSV匯入功能核對欄位與編碼。依需要將URL和識別碼作為文字處理，保留未知欄位的空白，並將各列與所選檔案對照。"
+          ],
+          "faq": [
+            {
+              "q": "這與匯出網頁表格是同一功能嗎？",
+              "a": "不是。此CSV是檔案清單。另一個網頁表格流程透過Collector的AI輸出，擷取支援的HTML表格。"
+            },
+            {
+              "q": "會匯出哪些欄位？",
+              "a": "固定欄位名稱為URL、Filename、Title、Type、Confidence、Evidence、Size、Size (bytes)、Modified和Source page。未知的大小、日期或來源資訊可能為空。"
+            },
+            {
+              "q": "會包含網站的每個檔案嗎？",
+              "a": "不會。CSV匯出已偵測並選取的項目，受所用方案的每次操作上限限制。請檢查涵蓋範圍，必要時另行進行限定範圍的掃描。"
+            },
+            {
+              "q": "可以免費使用嗎？",
+              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+            }
+          ],
+          "industry": {
+            "kind": "filecsv",
+            "title": "檔案連結匯出為CSV",
+            "stages": [
+              "選取檔案列",
+              "匯出檔案資訊CSV",
+              "手動匯入Excel"
+            ],
+            "files": [
+              "catalog.pdf",
+              "form.docx",
+              "data.csv"
+            ],
+            "column": [
+              "檔案",
+              "格式"
+            ],
+            "output": "範例資料集",
+            "example": "流程範例 · 虛構範例資料",
+            "note": "名稱和分組為手動整理範例。擴充功能的資料夾分類僅依格式或來源網域。 圖中CSV為4欄節錄，實際固定10欄在FAQ中說明。",
+            "referenceTitle": "公開資料分發結構範例",
+            "referenceNote": "僅用於參考資料公開方式，不表示合作或相容性測試。",
+            "referenceLabel": "",
+            "referenceUrl": null
+          }
+        }
+      }
+    },
+    "download-sds-and-technical-documents": {
+      "path": "download-sds-and-technical-documents.html",
+      "related": [
+        "export-file-links-to-csv",
+        "rename-and-organize-bulk-pdf-downloads",
+        "web-pages-for-reading-and-ai-analysis"
+      ],
+      "copy": {
+        "en": {
+          "title": "Download SDS & technical documents | Grab All Files",
+          "desc": "Select the supplier documents for the exact product and keep SDS, TDS and related technical PDFs distinguishable.",
+          "eyebrow": "SDS & technical documents",
+          "h1": "Organize SDS and technical files by product.",
+          "lead": "Select the supplier documents for the exact product and keep SDS, TDS and related technical PDFs distinguishable. Check product names, language and revision details on the original documents before building a product reference set.",
+          "best": [
+            "Maintaining a selected product’s SDS and technical reference files.",
+            "Keeping language and revision versions separate for later review."
+          ],
+          "steps": [
+            "Open the supplier’s document search or product page and narrow it to the exact product. Look for SDS and technical documents rather than unrelated product families.",
+            "Open Grab All Files, scan the chosen page, and filter the file types you need. Review the source links and select the relevant files.",
+            "Check product name, document type, language and revision date. Review or edit titles and work in product-specific batches; keep the original file and source link.",
+            "Check or edit titles, choose the save-name and type/domain folder options, then save files or ZIP. Export File Info CSV to keep a URL record.",
+            "Open the saved documents and confirm the matching product and edition with the supplier’s current source. This organizes reference material; it does not decide safe use, hazard classification or legal compliance."
+          ],
+          "faq": [
+            {
+              "q": "Does it choose the correct SDS for me?",
+              "a": "No. You check the product, region, language and edition on the supplier’s source and in the original document. Similar product names are not enough."
+            },
+            {
+              "q": "Can it decide safety or compliance?",
+              "a": "No. The extension detects and saves files. It does not interpret hazards or determine whether a product or procedure complies with requirements."
+            },
+            {
+              "q": "Are SDS and TDS always available in every language?",
+              "a": "Availability depends on the supplier and product. Check the published options and retain language and revision labels in your own names or notes."
+            },
+            {
+              "q": "Can I use this for free?",
+              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images and directly linked files on that page have no plan-based count cap. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+            },
+            {
+              "q": "What does the file-information CSV contain?",
+              "a": "Selected file URLs, filenames, titles, types, detection confidence/evidence and available size, modification date and source page. Unknown metadata can be blank. It is not a table extracted from the document body."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "SDS & technical documents",
+            "stages": [
+              "Review the source list",
+              "Choose the required files",
+              "Prepare an organized set"
+            ],
+            "files": [
+              "Product-A-SDS.pdf",
+              "Product-A-TDS.pdf",
+              "Product-B-SDS.pdf"
+            ],
+            "column": [
+              "File",
+              "Type"
+            ],
+            "output": "Sample set",
+            "example": "Illustrative example · fictional materials",
+            "note": "Names and groups shown here are examples. Check and name files yourself; native folder options are by type or domain.",
+            "referenceTitle": "An example of published source materials",
+            "referenceNote": "This link illustrates how documents are published. It is not an affiliation or a compatibility test.",
+            "referenceLabel": "Shin-Etsu",
+            "referenceUrl": "https://www.shinetsusilicone-global.com/sdstds/showSdsTdsList.do"
+          }
+        },
+        "ja": {
+          "title": "SDS・TDS・技術資料を製品名で整理して保存 | Grab All Files",
+          "desc": "対象製品の供給元資料を選び、SDS、TDS、関連技術PDFを区別して管理します。",
+          "eyebrow": "SDS・技術資料を保存",
+          "h1": "SDS・技術資料を製品別に保存。",
+          "lead": "対象製品の供給元資料を選び、SDS、TDS、関連技術PDFを区別して管理します。製品名、言語、改訂情報を原資料で確認してから、製品の参照資料セットを作ります。",
+          "best": [
+            "選んだ製品のSDSと技術資料を管理する。",
+            "言語や改訂版を区別して、あとで確認しやすくする。"
+          ],
+          "steps": [
+            "供給元の資料検索や製品ページで、対象製品を絞ります。他の製品群と混ぜず、SDSと技術資料の配布先を確認します。",
+            "Grab All Filesを開き、対象ページをスキャンします。必要な種類で絞り込み、元リンクを確認して資料を選択します。",
+            "製品名、資料種類、言語、改訂日を確認します。題名を編集し、製品ごとに作業を分け、元ファイルとリンクを残します。",
+            "題名を確認・編集し、保存名と種類別／ドメイン別のフォルダ分けを選び、個別ファイルまたはZIPで保存します。「ファイル情報CSV出力」でURLの記録も残せます。",
+            "保存した資料を開き、供給元の現在の資料と製品・版を照合します。これは資料整理の手順で、安全な使用方法、危険有害性分類、法令適合を判断するものではありません。"
+          ],
+          "faq": [
+            {
+              "q": "正しいSDSを拡張が選んでくれますか？",
+              "a": "製品、地域、言語、版を供給元と原資料で利用者が確認します。似た製品名だけで一致とは判断できません。"
+            },
+            {
+              "q": "安全性や法令適合を判断できますか？",
+              "a": "拡張はファイルの検出・保存を行います。危険有害性の解釈や、製品・手順の適合判断を行う機能ではありません。"
+            },
+            {
+              "q": "SDSとTDSは必ず全言語で提供されますか？",
+              "a": "供給元と製品によって異なります。公開された選択肢を確認し、名前やメモに言語・改訂版を残してください。"
+            },
+            {
+              "q": "無料で使えますか？",
+              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+            },
+            {
+              "q": "ファイル情報CSVには何が入りますか？",
+              "a": "選択したファイルのURL、ファイル名、題名、種類、検出の確度・根拠と、取得できたサイズ・更新日・リンク元ページを記録します。不明な情報は空になる場合があり、資料本文の表を抽出したCSVではありません。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "SDS・技術資料を保存",
+            "stages": [
+              "配布資料を確認",
+              "必要なファイルを選択",
+              "整理した資料セットへ"
+            ],
+            "files": [
+              "Product-A-SDS.pdf",
+              "Product-A-TDS.pdf",
+              "Product-B-SDS.pdf"
+            ],
+            "column": [
+              "ファイル",
+              "種類"
+            ],
+            "output": "資料セット例",
+            "example": "図解例 · 架空のサンプル資料",
+            "note": "名前やまとめ方は例です。資料の確認・命名は利用者が行い、拡張のフォルダ分けは種類別またはドメイン別です。",
+            "referenceTitle": "公開資料の配布構成の例",
+            "referenceNote": "資料の公開方法を示す参考リンクです。提携や対応動作の確認を示すものではありません。",
+            "referenceLabel": "Shin-Etsu",
+            "referenceUrl": "https://www.shinetsusilicone-global.com/sdstds/showSdsTdsList.do"
+          }
+        },
+        "es": {
+          "title": "SDS y documentos técnicos | Grab All Files",
+          "desc": "Elige SDS, TDS y PDF técnicos para el producto exacto.",
+          "eyebrow": "SDS y documentos técnicos",
+          "h1": "Guarda SDS y fichas por producto.",
+          "lead": "Elige SDS, TDS y PDF técnicos para el producto exacto. Confirma idioma y revisión en los originales para crear una colección de referencia.",
+          "best": [
+            "SDS y datos técnicos de un producto.",
+            "Versiones e idiomas separados."
+          ],
+          "steps": [
+            "Filtra la búsqueda del proveedor por producto y localiza SDS y documentos técnicos.",
+            "Abre Grab All Files, escanea la página elegida, filtra los formatos y revisa los enlaces antes de seleccionar los archivos.",
+            "Confirma producto, tipo, idioma y fecha; edita títulos y divide el trabajo por producto.",
+            "Revisa o edita títulos, elige nombres y carpetas por tipo o dominio y guarda archivos o ZIP. Exporta la información CSV para registrar las URL.",
+            "Abre los archivos y coteja la edición actual del proveedor. No determina seguridad, clasificación de peligros ni cumplimiento."
+          ],
+          "faq": [
+            {
+              "q": "¿Elige la SDS correcta?",
+              "a": "Tú verificas producto, región, idioma y edición; un nombre parecido no basta."
+            },
+            {
+              "q": "¿Evalúa seguridad o cumplimiento?",
+              "a": "No. Detecta y guarda archivos sin interpretar esos requisitos."
+            },
+            {
+              "q": "¿Siempre hay todos los idiomas?",
+              "a": "Depende del proveedor. Conserva idioma y versión en nombres o notas."
+            },
+            {
+              "q": "¿Puedo usarlo gratis?",
+              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes y los archivos enlazados directamente en esa página no tienen límite de cantidad por plan. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+            },
+            {
+              "q": "¿Qué contiene el CSV de información?",
+              "a": "URL, nombres, títulos, tipos, confianza y evidencia de detección, y tamaño, fecha y página origen cuando se conocen. Los campos desconocidos pueden quedar vacíos; no extrae tablas del documento."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "SDS y documentos técnicos",
+            "stages": [
+              "Revisar la lista",
+              "Elegir archivos",
+              "Preparar el conjunto"
+            ],
+            "files": [
+              "Product-A-SDS.pdf",
+              "Product-A-TDS.pdf",
+              "Product-B-SDS.pdf"
+            ],
+            "column": [
+              "Archivo",
+              "Tipo"
+            ],
+            "output": "Conjunto de ejemplo",
+            "example": "Ejemplo ilustrativo · materiales ficticios",
+            "note": "Los nombres y grupos son ejemplos manuales. La clasificación nativa es por tipo o dominio.",
+            "referenceTitle": "Ejemplo de documentos publicados",
+            "referenceNote": "Referencia sobre cómo se publican documentos; no implica afiliación ni una prueba de compatibilidad.",
+            "referenceLabel": "Shin-Etsu",
+            "referenceUrl": "https://www.shinetsusilicone-global.com/sdstds/showSdsTdsList.do"
+          }
+        },
+        "fr": {
+          "title": "SDS et documents techniques | Grab All Files",
+          "desc": "Choisissez SDS, TDS et PDF techniques du produit exact.",
+          "eyebrow": "SDS et documents techniques",
+          "h1": "Classez SDS et fiches par produit.",
+          "lead": "Choisissez SDS, TDS et PDF techniques du produit exact. Vérifiez langue et révision dans les originaux pour un ensemble de référence.",
+          "best": [
+            "Documents d’un produit précis.",
+            "Langues et éditions séparées."
+          ],
+          "steps": [
+            "Affinez la recherche du fournisseur par produit et repérez SDS et fiches techniques.",
+            "Ouvrez Grab All Files, analysez la page choisie, filtrez les formats et vérifiez les liens avant de sélectionner les fichiers.",
+            "Confirmez produit, type, langue et date ; modifiez les titres et séparez les lots.",
+            "Vérifiez ou modifiez les titres, choisissez les noms et dossiers par type ou domaine, puis enregistrez des fichiers ou un ZIP. Exportez les informations CSV pour garder les URL.",
+            "Ouvrez les fichiers et vérifiez l’édition du fournisseur. Cela ne décide ni sécurité, ni classification des dangers, ni conformité."
+          ],
+          "faq": [
+            {
+              "q": "La bonne SDS est-elle choisie automatiquement ?",
+              "a": "Vous vérifiez produit, région, langue et édition ; un nom voisin ne suffit pas."
+            },
+            {
+              "q": "Évalue-t-il la sécurité ou la conformité ?",
+              "a": "Non. Il détecte et enregistre les fichiers sans interpréter ces exigences."
+            },
+            {
+              "q": "Toutes les langues existent-elles ?",
+              "a": "Cela dépend du fournisseur. Gardez langue et édition dans les noms ou notes."
+            },
+            {
+              "q": "Puis-je l’utiliser gratuitement ?",
+              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images et fichiers directement liés sur cette page n’ont pas de plafond lié au forfait. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+            },
+            {
+              "q": "Que contient le CSV d’informations ?",
+              "a": "URL, noms, titres, types, confiance et preuves de détection, taille, date et page source si connues. Les champs inconnus peuvent rester vides ; ce ne sont pas les tableaux du document."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "SDS et documents techniques",
+            "stages": [
+              "Vérifier la liste",
+              "Choisir les fichiers",
+              "Préparer l’ensemble"
+            ],
+            "files": [
+              "Product-A-SDS.pdf",
+              "Product-A-TDS.pdf",
+              "Product-B-SDS.pdf"
+            ],
+            "column": [
+              "Fichier",
+              "Type"
+            ],
+            "output": "Ensemble d’exemple",
+            "example": "Exemple illustratif · documents fictifs",
+            "note": "Noms et groupes sont des exemples manuels. Le classement natif est par type ou domaine.",
+            "referenceTitle": "Exemple de documents publiés",
+            "referenceNote": "Référence sur la publication des documents ; ni affiliation ni test de compatibilité.",
+            "referenceLabel": "Shin-Etsu",
+            "referenceUrl": "https://www.shinetsusilicone-global.com/sdstds/showSdsTdsList.do"
+          }
+        },
+        "de": {
+          "title": "SDS und technische Dokumente | Grab All Files",
+          "desc": "Wählen Sie SDS, TDS und technische PDFs des exakten Produkts.",
+          "eyebrow": "SDS und technische Dokumente",
+          "h1": "SDS-Dateien nach Produkt ordnen.",
+          "lead": "Wählen Sie SDS, TDS und technische PDFs des exakten Produkts. Prüfen Sie Sprache und Revision an den Originalen für Ihre Referenzsammlung.",
+          "best": [
+            "Unterlagen eines geprüften Produkts.",
+            "Sprachen und Ausgaben auseinanderhalten."
+          ],
+          "steps": [
+            "Grenzen Sie die Lieferantensuche nach Produkt ein und suchen Sie SDS und technische Dokumente.",
+            "Öffnen Sie Grab All Files, scannen Sie die gewählte Seite, filtern Sie die Formate und prüfen Sie die Links vor der Auswahl.",
+            "Prüfen Sie Produkt, Typ, Sprache und Datum; bearbeiten Sie Titel und trennen Sie Produktchargen.",
+            "Prüfen oder bearbeiten Sie Titel, wählen Sie Namen und Typ-/Domainordner und speichern Sie Dateien oder ZIP. Exportieren Sie die Dateiinfo-CSV als URL-Nachweis.",
+            "Öffnen Sie Dateien und vergleichen Sie die aktuelle Lieferantenausgabe. Dies entscheidet weder Sicherheit noch Gefahrenklassifizierung oder Regelkonformität."
+          ],
+          "faq": [
+            {
+              "q": "Wählt die Erweiterung das richtige SDS?",
+              "a": "Sie prüfen Produkt, Region, Sprache und Ausgabe; ähnliche Namen reichen nicht."
+            },
+            {
+              "q": "Bewertet sie Sicherheit oder Konformität?",
+              "a": "Nein. Sie findet und speichert Dateien ohne diese Anforderungen auszulegen."
+            },
+            {
+              "q": "Sind alle Sprachen verfügbar?",
+              "a": "Das hängt vom Lieferanten ab. Halten Sie Sprache und Ausgabe in Namen oder Notizen fest."
+            },
+            {
+              "q": "Ist dies kostenlos nutzbar?",
+              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+            },
+            {
+              "q": "Was enthält die Dateiinfo-CSV?",
+              "a": "URLs, Namen, Titel, Typen, Erkennungsbewertung und -hinweise sowie bekannte Größe, Änderungsdatum und Quellseite. Unbekannte Felder können leer sein; Dokumenttabellen werden nicht extrahiert."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "SDS und technische Dokumente",
+            "stages": [
+              "Liste prüfen",
+              "Dateien wählen",
+              "Unterlagen ordnen"
+            ],
+            "files": [
+              "Product-A-SDS.pdf",
+              "Product-A-TDS.pdf",
+              "Product-B-SDS.pdf"
+            ],
+            "column": [
+              "Datei",
+              "Typ"
+            ],
+            "output": "Beispielsammlung",
+            "example": "Beispielgrafik · fiktive Materialien",
+            "note": "Namen und Gruppen sind manuelle Beispiele. Native Ordneroptionen sind Typ oder Domain.",
+            "referenceTitle": "Beispiel veröffentlichter Unterlagen",
+            "referenceNote": "Referenz zur Dokumentveröffentlichung; keine Partnerschaft oder Kompatibilitätsprüfung.",
+            "referenceLabel": "Shin-Etsu",
+            "referenceUrl": "https://www.shinetsusilicone-global.com/sdstds/showSdsTdsList.do"
+          }
+        },
+        "it": {
+          "title": "SDS e documenti tecnici | Grab All Files",
+          "desc": "Seleziona SDS, TDS e PDF tecnici del prodotto preciso.",
+          "eyebrow": "SDS e documenti tecnici",
+          "h1": "SDS e schede per prodotto.",
+          "lead": "Seleziona SDS, TDS e PDF tecnici del prodotto preciso. Controlla lingua e revisione negli originali per creare una raccolta di riferimento.",
+          "best": [
+            "Documenti di un prodotto verificato.",
+            "Lingue ed edizioni separate."
+          ],
+          "steps": [
+            "Restringi la ricerca del fornitore al prodotto e individua SDS e documenti tecnici.",
+            "Apri Grab All Files, scansiona la pagina scelta, filtra i formati e verifica i link prima di selezionare i file.",
+            "Conferma prodotto, tipo, lingua e data; modifica i titoli e separa i gruppi per prodotto.",
+            "Verifica o modifica i titoli, scegli nomi e cartelle per tipo o dominio, poi salva file o ZIP. Esporta le informazioni CSV per conservare gli URL.",
+            "Apri i file e verifica l’edizione del fornitore. Non determina sicurezza, classificazione dei pericoli o conformità."
+          ],
+          "faq": [
+            {
+              "q": "Sceglie la SDS corretta?",
+              "a": "Verifichi tu prodotto, regione, lingua ed edizione; nomi simili non bastano."
+            },
+            {
+              "q": "Valuta sicurezza o conformità?",
+              "a": "No. Rileva e salva file senza interpretare tali requisiti."
+            },
+            {
+              "q": "Sono sempre disponibili tutte le lingue?",
+              "a": "Dipende dal fornitore. Conserva lingua e revisione nei nomi o nelle note."
+            },
+            {
+              "q": "Posso usarlo gratis?",
+              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Immagini e file collegati direttamente in quella pagina non hanno un limite numerico del piano. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+            },
+            {
+              "q": "Cosa contiene il CSV delle informazioni?",
+              "a": "URL, nomi, titoli, tipi, confidenza e prove del rilevamento, dimensione, data e pagina origine se note. I campi ignoti possono essere vuoti; non estrae tabelle dai documenti."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "SDS e documenti tecnici",
+            "stages": [
+              "Verificare l’elenco",
+              "Scegliere i file",
+              "Preparare la raccolta"
+            ],
+            "files": [
+              "Product-A-SDS.pdf",
+              "Product-A-TDS.pdf",
+              "Product-B-SDS.pdf"
+            ],
+            "column": [
+              "File",
+              "Tipo"
+            ],
+            "output": "Raccolta di esempio",
+            "example": "Esempio illustrativo · materiali fittizi",
+            "note": "Nomi e gruppi sono esempi manuali. Le cartelle native sono per tipo o dominio.",
+            "referenceTitle": "Esempio di documenti pubblicati",
+            "referenceNote": "Riferimento alla pubblicazione dei documenti; non indica affiliazione o test di compatibilità.",
+            "referenceLabel": "Shin-Etsu",
+            "referenceUrl": "https://www.shinetsusilicone-global.com/sdstds/showSdsTdsList.do"
+          }
+        },
+        "ko": {
+          "title": "SDS·기술 자료 다운로드 | Grab All Files",
+          "desc": "정확한 제품에 대한 공급업체 자료를 선택하고 SDS, TDS와 관련 기술 PDF를 구분해 관리합니다.",
+          "eyebrow": "SDS·기술 자료",
+          "h1": "SDS와 기술 파일을 제품별로 정리하세요.",
+          "lead": "정확한 제품에 대한 공급업체 자료를 선택하고 SDS, TDS와 관련 기술 PDF를 구분해 관리합니다. 원본 문서의 제품명, 언어와 개정 정보를 확인한 뒤 제품 참고 자료 세트를 만드세요.",
+          "best": [
+            "선택한 제품의 SDS와 기술 참고 파일을 관리하기.",
+            "나중에 검토하기 쉽도록 언어와 개정판을 구분하기."
+          ],
+          "steps": [
+            "공급업체의 자료 검색이나 제품 페이지를 열고 정확한 제품으로 범위를 좁힙니다. 무관한 제품군 대신 해당 제품의 SDS와 기술 문서를 찾습니다.",
+            "Grab All Files를 열고 대상 페이지를 스캔합니다. 필요한 형식을 필터링하고 원본 링크를 확인해 파일을 선택합니다.",
+            "제품명, 문서 종류, 언어와 개정일을 확인합니다. 제목을 확인·편집하고 제품별로 작업을 나누며 원본 파일과 출처 링크를 남깁니다.",
+            "제목을 확인·편집하고 저장 이름과 종류별·도메인별 폴더를 선택해 파일 또는 ZIP을 저장합니다. 파일 정보 CSV로 URL도 기록합니다.",
+            "저장한 문서를 열어 공급업체의 현재 출처와 제품·버전이 일치하는지 확인합니다. 이 과정은 참고 자료를 정리하며 안전한 사용, 유해·위험성 분류나 법규 준수를 판단하지 않습니다."
+          ],
+          "faq": [
+            {
+              "q": "적합한 SDS를 대신 선택해 주나요?",
+              "a": "아닙니다. 공급업체의 출처와 원본 문서에서 제품, 지역, 언어와 버전을 직접 확인합니다. 제품명이 비슷하다는 것만으로는 충분하지 않습니다."
+            },
+            {
+              "q": "안전성이나 법규 준수를 판단할 수 있나요?",
+              "a": "아닙니다. 확장 기능은 파일을 감지하고 저장합니다. 유해·위험성을 해석하거나 제품·절차가 요구 사항에 적합한지 판단하지 않습니다."
+            },
+            {
+              "q": "SDS와 TDS는 항상 모든 언어로 제공되나요?",
+              "a": "제공 여부는 공급업체와 제품에 따라 다릅니다. 공개된 선택지를 확인하고 파일 이름이나 메모에 언어와 개정판 정보를 남기세요."
+            },
+            {
+              "q": "무료로 사용할 수 있나요?",
+              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+            },
+            {
+              "q": "파일 정보 CSV에는 무엇이 있나요?",
+              "a": "URL, 파일명, 제목, 종류, 감지 신뢰도·근거와 확인 가능한 크기·수정일·원본 페이지입니다. 미확인 정보는 비어 있을 수 있으며 문서 본문 표를 추출한 CSV가 아닙니다."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "SDS·기술 자료",
+            "stages": [
+              "자료 목록 확인",
+              "필요한 파일 선택",
+              "자료 세트 준비"
+            ],
+            "files": [
+              "Product-A-SDS.pdf",
+              "Product-A-TDS.pdf",
+              "Product-B-SDS.pdf"
+            ],
+            "column": [
+              "파일",
+              "종류"
+            ],
+            "output": "자료 세트 예시",
+            "example": "그림 예시 · 가상 샘플 자료",
+            "note": "이름과 묶음은 수동 정리 예시입니다. 확장의 폴더 옵션은 종류별 또는 도메인별입니다.",
+            "referenceTitle": "공개 자료 배포 구성 예시",
+            "referenceNote": "자료 공개 방식을 보여 주는 참고 링크이며 제휴나 호환성 검증을 뜻하지 않습니다.",
+            "referenceLabel": "Shin-Etsu",
+            "referenceUrl": "https://www.shinetsusilicone-global.com/sdstds/showSdsTdsList.do"
+          }
+        },
+        "pt_BR": {
+          "title": "Baixar SDS e documentos técnicos | Grab All Files",
+          "desc": "Selecione os documentos do fornecedor para o produto exato e mantenha SDS, TDS e PDFs técnicos relacionados identificáveis.",
+          "eyebrow": "SDS e documentos técnicos",
+          "h1": "Organize SDS e arquivos técnicos por produto.",
+          "lead": "Selecione os documentos do fornecedor para o produto exato e mantenha SDS, TDS e PDFs técnicos relacionados identificáveis. Confira nomes dos produtos, idioma e revisões nos originais antes de montar o conjunto de referência.",
+          "best": [
+            "Manter a SDS e os arquivos de referência técnica de um produto escolhido.",
+            "Separar idiomas e revisões para conferir depois."
+          ],
+          "steps": [
+            "Abra a busca de documentos ou a página de produto do fornecedor e restrinja ao produto exato. Procure SDS e documentos técnicos, separando famílias de produtos sem relação.",
+            "Abra Grab All Files, escaneie a página escolhida, filtre os formatos e confira os links antes de selecionar arquivos.",
+            "Confira nome do produto, tipo de documento, idioma e data de revisão. Revise ou edite títulos, trabalhe em lotes por produto e mantenha o arquivo original e o link da fonte.",
+            "Confira ou edite títulos, escolha nomes e pastas por tipo ou domínio e salve arquivos ou ZIP. Exporte informações CSV para registrar URLs.",
+            "Abra os documentos salvos e confirme produto e edição com a fonte atual do fornecedor. Isso organiza referências; não determina uso seguro, classificação de perigos ou conformidade legal."
+          ],
+          "faq": [
+            {
+              "q": "Ele escolhe a SDS correta para mim?",
+              "a": "Não. Você confere produto, região, idioma e edição na fonte do fornecedor e no documento original. Nomes de produtos parecidos não são suficientes."
+            },
+            {
+              "q": "Pode determinar segurança ou conformidade?",
+              "a": "Não. A extensão detecta e salva arquivos. Ela não interpreta perigos nem determina se um produto ou procedimento atende aos requisitos."
+            },
+            {
+              "q": "SDS e TDS estão sempre disponíveis em todos os idiomas?",
+              "a": "A disponibilidade depende do fornecedor e do produto. Confira as opções publicadas e mantenha as indicações de idioma e revisão nos seus próprios nomes ou notas."
+            },
+            {
+              "q": "Posso usar grátis?",
+              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. Imagens e arquivos diretamente vinculados nessa página não têm limite de quantidade do plano. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+            },
+            {
+              "q": "O que contém o CSV de informações?",
+              "a": "URLs, nomes, títulos, tipos, confiança e evidências de detecção, tamanho, data e página de origem quando conhecidos. Campos desconhecidos podem ficar vazios; não extrai tabelas do documento."
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "SDS e documentos técnicos",
+            "stages": [
+              "Conferir a lista",
+              "Escolher arquivos",
+              "Preparar o conjunto"
+            ],
+            "files": [
+              "Product-A-SDS.pdf",
+              "Product-A-TDS.pdf",
+              "Product-B-SDS.pdf"
+            ],
+            "column": [
+              "Arquivo",
+              "Tipo"
+            ],
+            "output": "Conjunto de exemplo",
+            "example": "Exemplo ilustrativo · materiais fictícios",
+            "note": "Nomes e grupos são exemplos manuais. As pastas nativas são por tipo ou domínio.",
+            "referenceTitle": "Exemplo de documentos publicados",
+            "referenceNote": "Referência sobre a publicação; não indica parceria ou teste de compatibilidade.",
+            "referenceLabel": "Shin-Etsu",
+            "referenceUrl": "https://www.shinetsusilicone-global.com/sdstds/showSdsTdsList.do"
+          }
+        },
+        "zh_CN": {
+          "title": "下载SDS与技术资料 | Grab All Files",
+          "desc": "选择供应商提供的准确产品资料，区分SDS、TDS与相关技术PDF。",
+          "eyebrow": "SDS与技术资料",
+          "h1": "按产品整理SDS与技术文件。",
+          "lead": "选择供应商提供的准确产品资料，区分SDS、TDS与相关技术PDF。建立产品参考资料集之前，先在原始文档中核对产品名、语言及修订信息。",
+          "best": [
+            "管理所选产品的SDS与技术参考文件。",
+            "区分语言和修订版本，便于日后检查。"
+          ],
+          "steps": [
+            "打开供应商的文档搜索或产品页面，将范围缩小到准确产品。寻找其SDS与技术文档，避免混入无关产品系列。",
+            "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
+            "核对产品名、文档类型、语言和修订日期。检查或编辑标题，按产品分批处理，并保留原文件和来源链接。",
+            "检查或编辑题名，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "打开已保存文档，与供应商当前来源确认产品和版本相符。此流程整理参考资料，不判断安全使用方式、危险性分类或法规符合性。"
+          ],
+          "faq": [
+            {
+              "q": "会替我选择正确的SDS吗？",
+              "a": "不会。你需在供应商来源及原始文档中核对产品、地区、语言与版本。产品名相似并不足以确认匹配。"
+            },
+            {
+              "q": "能判断安全性或合规性吗？",
+              "a": "不能。扩展检测并保存文件，不解释危险性，也不判断产品或操作流程是否符合要求。"
+            },
+            {
+              "q": "SDS和TDS总是有所有语言版本吗？",
+              "a": "是否提供取决于供应商与产品。请核对公开的选项，并在自己的文件名或笔记中保留语言和修订标识。"
+            },
+            {
+              "q": "可以免费使用吗？",
+              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+            },
+            {
+              "q": "文件信息CSV包含什么？",
+              "a": "URL、文件名、题名、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "SDS与技术资料",
+            "stages": [
+              "核对资料列表",
+              "选择所需文件",
+              "整理资料集"
+            ],
+            "files": [
+              "Product-A-SDS.pdf",
+              "Product-A-TDS.pdf",
+              "Product-B-SDS.pdf"
+            ],
+            "column": [
+              "文件",
+              "格式"
+            ],
+            "output": "示例资料集",
+            "example": "流程示例 · 虚构示例资料",
+            "note": "名称和分组为手动整理示例。扩展的文件夹分类仅按格式或来源域名。",
+            "referenceTitle": "公开资料分发结构示例",
+            "referenceNote": "仅用于参考资料公开方式，不表示合作或兼容性测试。",
+            "referenceLabel": "Shin-Etsu",
+            "referenceUrl": "https://www.shinetsusilicone-global.com/sdstds/showSdsTdsList.do"
+          }
+        },
+        "zh_TW": {
+          "title": "下載SDS與技術資料 | Grab All Files",
+          "desc": "選擇供應商提供的確切產品資料，區分SDS、TDS與相關技術PDF。",
+          "eyebrow": "SDS與技術資料",
+          "h1": "依產品整理SDS與技術檔案。",
+          "lead": "選擇供應商提供的確切產品資料，區分SDS、TDS與相關技術PDF。建立產品參考資料集之前，先在原始文件中核對產品名、語言與修訂資訊。",
+          "best": [
+            "管理所選產品的SDS與技術參考檔案。",
+            "區分語言與修訂版本，便於日後檢查。"
+          ],
+          "steps": [
+            "開啟供應商的文件搜尋或產品頁面，將範圍縮小到確切產品。尋找其SDS與技術文件，避免混入無關產品系列。",
+            "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
+            "核對產品名、文件類型、語言與修訂日期。檢查或編輯標題，依產品分批處理，並保留原檔案與來源連結。",
+            "檢查或編輯題名，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "開啟已儲存文件，與供應商目前的來源確認產品和版本相符。此流程整理參考資料，不判斷安全使用方式、危害分類或法規符合性。"
+          ],
+          "faq": [
+            {
+              "q": "會替我選擇正確的SDS嗎？",
+              "a": "不會。你需在供應商來源及原始文件中核對產品、地區、語言與版本。產品名相似並不足以確認匹配。"
+            },
+            {
+              "q": "能判斷安全性或合規性嗎？",
+              "a": "不能。擴充功能偵測並儲存檔案，不解釋危害，也不判斷產品或操作程序是否符合要求。"
+            },
+            {
+              "q": "SDS和TDS總是有所有語言版本嗎？",
+              "a": "是否提供取決於供應商與產品。請核對公開的選項，並在自己的檔名或筆記中保留語言和修訂標示。"
+            },
+            {
+              "q": "可以免費使用嗎？",
+              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+            },
+            {
+              "q": "檔案資訊CSV包含什麼？",
+              "a": "URL、檔名、題名、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+            }
+          ],
+          "industry": {
+            "kind": "files",
+            "title": "SDS與技術資料",
+            "stages": [
+              "核對資料清單",
+              "選取所需檔案",
+              "整理資料集"
+            ],
+            "files": [
+              "Product-A-SDS.pdf",
+              "Product-A-TDS.pdf",
+              "Product-B-SDS.pdf"
+            ],
+            "column": [
+              "檔案",
+              "格式"
+            ],
+            "output": "範例資料集",
+            "example": "流程範例 · 虛構範例資料",
+            "note": "名稱和分組為手動整理範例。擴充功能的資料夾分類僅依格式或來源網域。",
+            "referenceTitle": "公開資料分發結構範例",
+            "referenceNote": "僅用於參考資料公開方式，不表示合作或相容性測試。",
+            "referenceLabel": "Shin-Etsu",
+            "referenceUrl": "https://www.shinetsusilicone-global.com/sdstds/showSdsTdsList.do"
+          }
+        }
+      }
+    },
     "download-arxiv-pdfs-and-research-files": {
       "path": "download-arxiv-pdfs-and-research-files.html",
       "related": [
@@ -8621,6 +11936,19 @@
       '<div class="visual-output"><strong class="visual-label">' + esc(c.externalAI) + ' · ' + esc(c.request) + '</strong><p>' + esc(c.aiQuestion) + '</p></div>';
   }
 
+  function renderIndustryVisual(data) {
+    if (!data) return "";
+    var rows = data.files.map(function(name) { return [name, name.split('.').pop().toUpperCase()]; });
+    var samples = [visualFiles(data.files), '<ul class="visual-selection">' + data.files.map(function(name) { return '<li><span aria-hidden="true">✓</span> ' + esc(name) + '</li>'; }).join('') + '</ul>', visualCode(data.output + '/\n' + data.files.map(function(name) { return '├ ' + name; }).join('\n') + '\n└ files.csv', 'visual-tree')];
+    if (data.kind === 'filecsv') samples = [visualTable(data.column, rows), visualCode('URL,Filename,Type,Source page\nhttps://example.org/catalog.pdf,catalog.pdf,PDF,https://example.org/downloads'), '<strong class="visual-label">Excel</strong>' + visualTable(data.column, rows)];
+    return '<figure class="feature-visual industry-visual" aria-labelledby="feature-visual-caption"><figcaption id="feature-visual-caption"><strong>' + esc(data.title) + '</strong><span>' + esc(data.example) + '</span></figcaption><ol class="visual-flow">' + data.stages.map(function(title, i) { return '<li class="visual-stage"><h3><span class="visual-index" aria-hidden="true">' + String(i + 1) + '</span><span>' + esc(title) + '</span></h3><div class="visual-demo">' + samples[i] + '</div>' + (i < 2 ? '<span class="visual-arrow visual-arrow-horizontal" aria-hidden="true">→</span><span class="visual-arrow visual-arrow-vertical" aria-hidden="true">↓</span>' : '') + '</li>'; }).join('') + '</ol><p class="visual-note">' + esc(data.note) + '</p></figure>';
+  }
+
+  function renderIndustryReference(data) {
+    if (!data || !data.referenceUrl) return "";
+    return '<section class="section-card industry-reference"><h2>' + esc(data.referenceTitle) + '</h2><p><a href="' + data.referenceUrl + '" target="_blank" rel="noopener">' + esc(data.referenceLabel) + ' ↗</a></p><p>' + esc(data.referenceNote) + '</p></section>';
+  }
+
   function renderFeatureVisual(current, lang) {
     var kind = VISUAL_KIND[current.id];
     if (!kind) return "";
@@ -8840,6 +12168,76 @@
       "width": 2240,
       "height": 2000
     }
+  },
+  "download-product-catalogs-and-datasheets": {
+    "collector": false,
+    "portal": false,
+    "ja": {
+      "src": "/assets/screenshots/use-case-download-product-catalogs-and-datasheets-ja.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "en": {
+      "src": "/assets/screenshots/use-case-download-product-catalogs-and-datasheets-en.png",
+      "width": 2240,
+      "height": 2000
+    }
+  },
+  "download-ir-and-financial-report-pdfs": {
+    "collector": false,
+    "portal": false,
+    "ja": {
+      "src": "/assets/screenshots/use-case-download-ir-and-financial-report-pdfs-ja.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "en": {
+      "src": "/assets/screenshots/use-case-download-ir-and-financial-report-pdfs-en.png",
+      "width": 2240,
+      "height": 2000
+    }
+  },
+  "download-tender-and-application-documents": {
+    "collector": false,
+    "portal": false,
+    "ja": {
+      "src": "/assets/screenshots/use-case-download-tender-and-application-documents-ja.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "en": {
+      "src": "/assets/screenshots/use-case-download-tender-and-application-documents-en.png",
+      "width": 2240,
+      "height": 2000
+    }
+  },
+  "export-file-links-to-csv": {
+    "collector": false,
+    "portal": false,
+    "ja": {
+      "src": "/assets/screenshots/use-case-export-file-links-to-csv-ja.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "en": {
+      "src": "/assets/screenshots/use-case-export-file-links-to-csv-en.png",
+      "width": 2240,
+      "height": 2000
+    }
+  },
+  "download-sds-and-technical-documents": {
+    "collector": false,
+    "portal": false,
+    "ja": {
+      "src": "/assets/screenshots/use-case-download-sds-and-technical-documents-ja.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "en": {
+      "src": "/assets/screenshots/use-case-download-sds-and-technical-documents-en.png",
+      "width": 2240,
+      "height": 2000
+    }
   }
 };
 
@@ -8866,7 +12264,12 @@
       "download-all-pdfs": "PDF filtering and selection on a sample page",
       "download-files-from-webpage": "Selecting supported files on a sample page",
       "internal-portal-downloads": "Selecting attachments in a fictional portal",
-      "merge-pdfs-locally": "Local merge controls for selected sample PDFs"
+      "merge-pdfs-locally": "Local merge controls for selected sample PDFs",
+      "download-product-catalogs-and-datasheets": "Reviewed sample model PDFs, title saving and file-type folders",
+      "download-ir-and-financial-report-pdfs": "Edited sample reporting-period titles and PDF save-name settings",
+      "download-tender-and-application-documents": "A fictional opportunity’s documents and ZIP/file-saving menu",
+      "export-file-links-to-csv": "Selected sample files and the file-information CSV menu",
+      "download-sds-and-technical-documents": "Reviewed sample product/revision titles, PDFs and file-type folders"
     }
   },
   "ja": {
@@ -8891,7 +12294,12 @@
       "download-all-pdfs": "サンプルページのPDFの絞り込みと選択",
       "download-files-from-webpage": "サンプルページの対応ファイルの選択",
       "internal-portal-downloads": "架空ポータルの添付ファイルの選択",
-      "merge-pdfs-locally": "選んだサンプルPDFの結合メニュー"
+      "merge-pdfs-locally": "選んだサンプルPDFの結合メニュー",
+      "download-product-catalogs-and-datasheets": "確認したサンプル型番のPDF選択と保存名・形式別整理設定",
+      "download-ir-and-financial-report-pdfs": "確認・編集したサンプル年度・四半期題名のPDF選択と保存名設定",
+      "download-tender-and-application-documents": "1つの架空案件の資料選択とZIP等の保存メニュー",
+      "export-file-links-to-csv": "選択したサンプル資料のファイル情報CSV出力メニュー",
+      "download-sds-and-technical-documents": "確認したサンプル製品名・版の題名とPDF選択・形式別整理設定"
     }
   },
   "es": {
@@ -8916,7 +12324,12 @@
       "download-all-pdfs": "Filtro y selección de PDF de ejemplo",
       "download-files-from-webpage": "Selección de archivos compatibles de ejemplo",
       "internal-portal-downloads": "Selección de adjuntos en un portal ficticio",
-      "merge-pdfs-locally": "Menú de combinación local de los PDF de ejemplo seleccionados"
+      "merge-pdfs-locally": "Menú de combinación local de los PDF de ejemplo seleccionados",
+      "download-product-catalogs-and-datasheets": "PDF de modelos revisados, nombres y carpetas por formato",
+      "download-ir-and-financial-report-pdfs": "Títulos de períodos de ejemplo editados y nombres PDF",
+      "download-tender-and-application-documents": "Documentos de una convocatoria ficticia y menú ZIP",
+      "export-file-links-to-csv": "Archivos elegidos y menú CSV de información",
+      "download-sds-and-technical-documents": "Productos y revisiones de ejemplo revisados, PDF y carpetas por formato"
     }
   },
   "fr": {
@@ -8941,7 +12354,12 @@
       "download-all-pdfs": "Filtrage et sélection de PDF fictifs",
       "download-files-from-webpage": "Sélection de fichiers compatibles fictifs",
       "internal-portal-downloads": "Sélection de pièces jointes d’un portail fictif",
-      "merge-pdfs-locally": "Menu de fusion locale des PDF d’exemple sélectionnés"
+      "merge-pdfs-locally": "Menu de fusion locale des PDF d’exemple sélectionnés",
+      "download-product-catalogs-and-datasheets": "PDF de modèles vérifiés, noms et dossiers par format",
+      "download-ir-and-financial-report-pdfs": "Titres de périodes fictives modifiés et noms PDF",
+      "download-tender-and-application-documents": "Pièces d’un appel fictif et menu ZIP",
+      "export-file-links-to-csv": "Fichiers choisis et menu CSV d’informations",
+      "download-sds-and-technical-documents": "Produits et révisions fictifs vérifiés, PDF et dossiers par format"
     }
   },
   "de": {
@@ -8966,7 +12384,12 @@
       "download-all-pdfs": "PDF-Filter und Auswahl auf einer Beispielseite",
       "download-files-from-webpage": "Auswahl unterstützter Beispieldateien",
       "internal-portal-downloads": "Anhangsauswahl in einem fiktiven Portal",
-      "merge-pdfs-locally": "Menü zur lokalen Zusammenführung gewählter Beispiel-PDFs"
+      "merge-pdfs-locally": "Menü zur lokalen Zusammenführung gewählter Beispiel-PDFs",
+      "download-product-catalogs-and-datasheets": "Geprüfte Beispielmodelle, PDF-Namen und Dateitypordner",
+      "download-ir-and-financial-report-pdfs": "Bearbeitete Beispielperioden-Titel und PDF-Namenseinstellungen",
+      "download-tender-and-application-documents": "Dokumente eines fiktiven Verfahrens und ZIP-Menü",
+      "export-file-links-to-csv": "Gewählte Beispieldateien und Dateiinfo-CSV-Menü",
+      "download-sds-and-technical-documents": "Geprüfte Beispielprodukte und Revisionen, PDFs und Dateitypordner"
     }
   },
   "it": {
@@ -8991,7 +12414,12 @@
       "download-all-pdfs": "Filtro e selezione di PDF dimostrativi",
       "download-files-from-webpage": "Selezione di file dimostrativi supportati",
       "internal-portal-downloads": "Selezione di allegati in un portale fittizio",
-      "merge-pdfs-locally": "Menu di unione locale dei PDF dimostrativi selezionati"
+      "merge-pdfs-locally": "Menu di unione locale dei PDF dimostrativi selezionati",
+      "download-product-catalogs-and-datasheets": "PDF di modelli verificati, nomi e cartelle per formato",
+      "download-ir-and-financial-report-pdfs": "Titoli di periodi di esempio modificati e nomi PDF",
+      "download-tender-and-application-documents": "Documenti di un bando fittizio e menu ZIP",
+      "export-file-links-to-csv": "File scelti e menu CSV delle informazioni",
+      "download-sds-and-technical-documents": "Prodotti e revisioni di esempio verificati, PDF e cartelle per formato"
     }
   },
   "ko": {
@@ -9016,7 +12444,12 @@
       "download-all-pdfs": "샘플 페이지의 PDF 필터·선택",
       "download-files-from-webpage": "샘플 페이지의 지원 파일 선택",
       "internal-portal-downloads": "가상 포털의 첨부 파일 선택",
-      "merge-pdfs-locally": "선택한 샘플 PDF의 병합 메뉴"
+      "merge-pdfs-locally": "선택한 샘플 PDF의 병합 메뉴",
+      "download-product-catalogs-and-datasheets": "확인한 샘플 모델 PDF와 저장 이름·파일 종류별 폴더",
+      "download-ir-and-financial-report-pdfs": "확인·편집한 샘플 보고기간 제목과 PDF 저장 이름 설정",
+      "download-tender-and-application-documents": "가상 공모 자료 선택과 ZIP 저장 메뉴",
+      "export-file-links-to-csv": "선택한 샘플 자료의 파일 정보 CSV 메뉴",
+      "download-sds-and-technical-documents": "확인한 샘플 제품·개정 제목과 PDF·종류별 폴더"
     }
   },
   "pt_BR": {
@@ -9041,7 +12474,12 @@
       "download-all-pdfs": "Filtro e seleção de PDFs de exemplo",
       "download-files-from-webpage": "Seleção de arquivos de exemplo compatíveis",
       "internal-portal-downloads": "Seleção de anexos em um portal fictício",
-      "merge-pdfs-locally": "Menu de mesclagem local dos PDFs de exemplo selecionados"
+      "merge-pdfs-locally": "Menu de mesclagem local dos PDFs de exemplo selecionados",
+      "download-product-catalogs-and-datasheets": "PDFs de modelos conferidos, nomes e pastas por formato",
+      "download-ir-and-financial-report-pdfs": "Títulos de períodos de exemplo editados e nomes PDF",
+      "download-tender-and-application-documents": "Documentos de uma chamada fictícia e menu ZIP",
+      "export-file-links-to-csv": "Arquivos escolhidos e menu CSV de informações",
+      "download-sds-and-technical-documents": "Produtos e revisões conferidos, PDFs e pastas por formato"
     }
   },
   "zh_CN": {
@@ -9066,7 +12504,12 @@
       "download-all-pdfs": "示例页面PDF筛选与选择",
       "download-files-from-webpage": "选择示例页面的受支持文件",
       "internal-portal-downloads": "选择虚构门户附件",
-      "merge-pdfs-locally": "选定示例PDF的合并菜单"
+      "merge-pdfs-locally": "选定示例PDF的合并菜单",
+      "download-product-catalogs-and-datasheets": "核对示例型号PDF、保存名称与格式文件夹",
+      "download-ir-and-financial-report-pdfs": "核对编辑示例报告期间题名与PDF保存名称",
+      "download-tender-and-application-documents": "选择单一虚构项目资料与ZIP保存菜单",
+      "export-file-links-to-csv": "选定示例资料的文件信息CSV菜单",
+      "download-sds-and-technical-documents": "核对示例产品与修订题名、PDF与格式文件夹"
     }
   },
   "zh_TW": {
@@ -9091,7 +12534,12 @@
       "download-all-pdfs": "範例頁面的PDF篩選與選取",
       "download-files-from-webpage": "選取範例頁面的支援檔案",
       "internal-portal-downloads": "選取虛構入口網站附件",
-      "merge-pdfs-locally": "選定範例PDF的合併選單"
+      "merge-pdfs-locally": "選定範例PDF的合併選單",
+      "download-product-catalogs-and-datasheets": "核對範例型號PDF、儲存名稱與格式資料夾",
+      "download-ir-and-financial-report-pdfs": "核對編輯範例報告期間題名與PDF儲存名稱",
+      "download-tender-and-application-documents": "選取單一虛構案件資料與ZIP儲存選單",
+      "export-file-links-to-csv": "選定範例資料的檔案資訊CSV選單",
+      "download-sds-and-technical-documents": "核對範例產品與修訂題名、PDF與格式資料夾"
     }
   }
 };
@@ -9443,6 +12891,7 @@
       "</section>",
       "<div class=\"section-stack\">",
         renderFeatureVisual(current, lang),
+        renderIndustryVisual(copy.industry),
         renderCaseScreenshot(current, lang),
         renderArxivGuide(copy.arxiv, "visual", lang),
         renderArxivGuide(copy.arxiv, "screen", lang),
@@ -9455,6 +12904,7 @@
         renderResearchGuide(copy.guide, "details"),
         renderArxivGuide(copy.arxiv, "access", lang),
         renderManualGuide(copy.manual, "details", lang),
+        renderIndustryReference(copy.industry),
         "<section class=\"section-card\"><h2>" + esc(ui.faq) + "</h2><div class=\"faq-list\">" + renderFaq(copy.faq) + "</div></section>",
         "<section class=\"section-card usecase-guide-section\"><h2>" + esc(ui.related) + "</h2><div class=\"usecase-guide-links\" aria-label=\"" + esc(ui.related) + "\">" + renderRelated(current, lang) + "</div></section>",
       "</div>",
