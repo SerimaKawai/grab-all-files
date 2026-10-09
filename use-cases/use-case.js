@@ -8653,14 +8653,26 @@
     "collector": true,
     "portal": false,
     "en": {
-      "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-en.png",
-      "width": 1810,
-      "height": 314
+      "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-context-en.png",
+      "width": 2560,
+      "height": 4000
     },
     "ja": {
-      "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-ja.png",
-      "width": 1810,
-      "height": 314
+      "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-context-ja.png",
+      "width": 2560,
+      "height": 4000
+    },
+    "detail": {
+      "en": {
+        "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-en.png",
+        "width": 1810,
+        "height": 314
+      },
+      "ja": {
+        "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-ja.png",
+        "width": 1810,
+        "height": 314
+      }
     }
   },
   "rename-and-organize-bulk-pdf-downloads": {
@@ -8723,14 +8735,26 @@
     "collector": true,
     "portal": false,
     "en": {
-      "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-en.png",
-      "width": 1810,
-      "height": 190
+      "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-context-en.png",
+      "width": 2560,
+      "height": 4000
     },
     "ja": {
-      "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-ja.png",
-      "width": 1810,
-      "height": 190
+      "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-context-ja.png",
+      "width": 2560,
+      "height": 4000
+    },
+    "detail": {
+      "en": {
+        "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-en.png",
+        "width": 1810,
+        "height": 190
+      },
+      "ja": {
+        "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-ja.png",
+        "width": 1810,
+        "height": 190
+      }
     }
   },
   "combine-web-pages-into-one-html": {
@@ -9072,10 +9096,173 @@
   }
 };
 
+  var CONTEXT_SCREEN_TEXT = {
+  "en": {
+    "web-pages-for-reading-and-ai-analysis": {
+      "primaryTitle": "Choose pages and AI export settings",
+      "primaryPurpose": "Check the selected page and choose Full package for AI-ready data before collection",
+      "detailTitle": "After collection: AI output menu",
+      "detailCaption": "This menu offers AI ZIP saving and request-text copying."
+    },
+    "save-and-compare-document-revisions": {
+      "primaryTitle": "Choose the pages to collect again",
+      "primaryPurpose": "Confirm the pages to collect again and their output settings before recollection",
+      "detailTitle": "After collection: change-report menu",
+      "detailCaption": "Choose the action for saving a change report against the previous completed collection on the same site."
+    }
+  },
+  "ja": {
+    "web-pages-for-reading-and-ai-analysis": {
+      "primaryTitle": "集めるページとAI出力を設定",
+      "primaryPurpose": "対象ページを確認し、AI分析用データの「フルパッケージ」を選ぶ実際の設定画面（収集前）",
+      "detailTitle": "収集後のAI出力メニュー",
+      "detailCaption": "AI用ZIPの保存や依頼文のコピーを選ぶメニューです。"
+    },
+    "save-and-compare-document-revisions": {
+      "primaryTitle": "再収集するページを確認",
+      "primaryPurpose": "再収集する資料ページと出力設定を確認する実際の画面",
+      "detailTitle": "収集後の差分レポートメニュー",
+      "detailCaption": "同じサイトの前回の完了済み収集との差分レポートを保存する操作を選べます。"
+    }
+  },
+  "es": {
+    "web-pages-for-reading-and-ai-analysis": {
+      "primaryTitle": "Elegir páginas y la salida para IA",
+      "primaryPurpose": "Comprobar la página elegida y seleccionar el paquete completo de datos para IA antes de recopilar",
+      "detailTitle": "Después de recopilar: menú de IA",
+      "detailCaption": "El menú permite elegir el guardado del ZIP para IA o copiar el texto de la solicitud."
+    },
+    "save-and-compare-document-revisions": {
+      "primaryTitle": "Elegir las páginas que recopilar de nuevo",
+      "primaryPurpose": "Confirmar las páginas y la salida antes de volver a recopilar",
+      "detailTitle": "Después de recopilar: menú de cambios",
+      "detailCaption": "Elige guardar un informe frente a la última recopilación completada del mismo sitio."
+    }
+  },
+  "fr": {
+    "web-pages-for-reading-and-ai-analysis": {
+      "primaryTitle": "Choisir les pages et l’export pour l’IA",
+      "primaryPurpose": "Vérifier la page choisie et sélectionner le paquet complet de données IA avant la collecte",
+      "detailTitle": "Après collecte : menu IA",
+      "detailCaption": "Le menu propose l’enregistrement du ZIP IA et la copie du texte de demande."
+    },
+    "save-and-compare-document-revisions": {
+      "primaryTitle": "Choisir les pages à collecter à nouveau",
+      "primaryPurpose": "Vérifier les pages et leurs paramètres de sortie avant une nouvelle collecte",
+      "detailTitle": "Après collecte : menu des changements",
+      "detailCaption": "Choisissez l’enregistrement du rapport par rapport à la dernière collecte achevée du même site."
+    }
+  },
+  "de": {
+    "web-pages-for-reading-and-ai-analysis": {
+      "primaryTitle": "Seiten und KI-Ausgabe einstellen",
+      "primaryPurpose": "Gewählte Seite prüfen und das vollständige KI-Datenpaket vor der Sammlung auswählen",
+      "detailTitle": "Nach der Sammlung: KI-Ausgabemenü",
+      "detailCaption": "Das Menü bietet das Speichern des KI-ZIP und das Kopieren des Auftragstexts."
+    },
+    "save-and-compare-document-revisions": {
+      "primaryTitle": "Seiten für die erneute Sammlung wählen",
+      "primaryPurpose": "Seiten und Ausgabeeinstellungen vor der erneuten Sammlung prüfen",
+      "detailTitle": "Nach der Sammlung: Änderungsmenü",
+      "detailCaption": "Wählen Sie den Bericht zur letzten abgeschlossenen Sammlung derselben Website zum Speichern."
+    }
+  },
+  "it": {
+    "web-pages-for-reading-and-ai-analysis": {
+      "primaryTitle": "Scegliere pagine e uscita per IA",
+      "primaryPurpose": "Controllare la pagina scelta e selezionare il pacchetto completo di dati IA prima della raccolta",
+      "detailTitle": "Dopo la raccolta: menu IA",
+      "detailCaption": "Il menu offre il salvataggio dello ZIP IA e la copia del testo della richiesta."
+    },
+    "save-and-compare-document-revisions": {
+      "primaryTitle": "Scegliere le pagine da raccogliere di nuovo",
+      "primaryPurpose": "Verificare pagine e impostazioni di uscita prima di una nuova raccolta",
+      "detailTitle": "Dopo la raccolta: menu modifiche",
+      "detailCaption": "Scegli il salvataggio del rapporto rispetto all’ultima raccolta completata dello stesso sito."
+    }
+  },
+  "ko": {
+    "web-pages-for-reading-and-ai-analysis": {
+      "primaryTitle": "페이지와 AI 출력 설정",
+      "primaryPurpose": "수집 전 대상 페이지를 확인하고 AI 데이터의 전체 패키지를 선택하는 실제 설정 화면",
+      "detailTitle": "수집 후 AI 출력 메뉴",
+      "detailCaption": "AI ZIP 저장과 요청문 복사를 선택하는 메뉴입니다."
+    },
+    "save-and-compare-document-revisions": {
+      "primaryTitle": "다시 수집할 페이지 확인",
+      "primaryPurpose": "재수집할 자료 페이지와 출력 설정을 확인하는 실제 화면",
+      "detailTitle": "수집 후 변경 보고서 메뉴",
+      "detailCaption": "같은 사이트의 이전 완료 수집과 비교한 변경 보고서 저장을 선택할 수 있습니다."
+    }
+  },
+  "pt_BR": {
+    "web-pages-for-reading-and-ai-analysis": {
+      "primaryTitle": "Escolher páginas e saída para IA",
+      "primaryPurpose": "Conferir a página escolhida e selecionar o pacote completo de dados IA antes da coleta",
+      "detailTitle": "Após a coleta: menu de IA",
+      "detailCaption": "O menu oferece salvar o ZIP para IA e copiar o texto da solicitação."
+    },
+    "save-and-compare-document-revisions": {
+      "primaryTitle": "Escolher páginas para coletar novamente",
+      "primaryPurpose": "Conferir páginas e configurações de saída antes de coletar novamente",
+      "detailTitle": "Após a coleta: menu de alterações",
+      "detailCaption": "Escolha salvar o relatório em relação à última coleta concluída do mesmo site."
+    }
+  },
+  "zh_CN": {
+    "web-pages-for-reading-and-ai-analysis": {
+      "primaryTitle": "设置收集页面与AI输出",
+      "primaryPurpose": "收集前确认目标页面并选择AI数据完整包的实际设置界面",
+      "detailTitle": "收集后的AI输出菜单",
+      "detailCaption": "此菜单提供AI ZIP保存与请求文本复制操作。"
+    },
+    "save-and-compare-document-revisions": {
+      "primaryTitle": "确认要重新收集的页面",
+      "primaryPurpose": "确认要重新收集的资料页面与输出设置的实际界面",
+      "detailTitle": "收集后的变化报告菜单",
+      "detailCaption": "可选择保存与同一网站上次已完成收集相比的变化报告。"
+    }
+  },
+  "zh_TW": {
+    "web-pages-for-reading-and-ai-analysis": {
+      "primaryTitle": "設定收集頁面與AI輸出",
+      "primaryPurpose": "收集前確認目標頁面並選擇AI資料完整資料包的實際設定畫面",
+      "detailTitle": "收集後的AI輸出選單",
+      "detailCaption": "此選單提供AI ZIP儲存與請求文字複製操作。"
+    },
+    "save-and-compare-document-revisions": {
+      "primaryTitle": "確認要重新收集的頁面",
+      "primaryPurpose": "確認要重新收集的資料頁面與輸出設定的實際畫面",
+      "detailTitle": "收集後的變更報告選單",
+      "detailCaption": "可選擇儲存與同一網站上次已完成收集相比的變更報告。"
+    }
+  }
+};
+
+  function renderContextualScreens(scene, current, lang, text) {
+    var context = (CONTEXT_SCREEN_TEXT[lang] || CONTEXT_SCREEN_TEXT.en)[current.id];
+    var common = text.common, labels = GUIDE_LABELS[lang] || GUIDE_LABELS.en;
+    var punctuation = lang === "ja" || lang.indexOf("zh_") === 0 ? "。" : ".";
+    var primaryCaption = common.example + " " + context.primaryPurpose + punctuation + " " + common.collector + (common.english ? " " + common.english : "");
+    var detailCaption = context.detailCaption + (common.english ? " " + common.english : "");
+    function figure(shot, purpose, caption, kind) {
+      var dimensions = shot.width && shot.height ? ' width="' + shot.width + '" height="' + shot.height + '"' : '';
+      var alt = common.heading + ": " + purpose + (common.english ? " " + common.english : "");
+      return '<figure class="usecase-screenshot screenshot-' + kind + '"><a href="' + shot.src + '" target="_blank" rel="noopener" aria-label="' + esc(common.zoom + ' — ' + purpose) +
+        '"><img src="' + shot.src + '"' + dimensions + ' loading="lazy" decoding="async" alt="' + esc(alt) +
+        '"></a><figcaption><p>' + esc(caption) + '</p><a class="screenshot-enlarge" href="' + shot.src + '" target="_blank" rel="noopener">' + esc(common.zoom) + ' ↗</a></figcaption></figure>';
+    }
+    var locale = lang === "ja" ? "ja" : "en";
+    return '<section class="section-card usecase-screen" id="extension-screens"><h2>' + esc(common.heading) + ' — ' + esc(labels[current.id]) +
+      '</h2><h3 class="screenshot-context-title">' + esc(context.primaryTitle) + '</h3>' + figure(scene[locale], context.primaryPurpose, primaryCaption, 'primary') +
+      '<div class="screenshot-details"><h3 class="screenshot-context-title">' + esc(context.detailTitle) + '</h3>' + figure(scene.detail[locale], text.purposes[current.id], detailCaption, 'secondary') + '</div></section>';
+  }
+
   function renderCaseScreenshot(current, lang) {
     var scene = CASE_SCREENSHOTS[current.id];
     if (!scene) return "";
     var text = CASE_SCREEN_TEXT[lang] || CASE_SCREEN_TEXT.en;
+    if (scene.detail) return renderContextualScreens(scene, current, lang, text);
     var common = text.common, purpose = text.purposes[current.id];
     var labels = GUIDE_LABELS[lang] || GUIDE_LABELS.en;
     var shot = scene[lang === "ja" ? "ja" : "en"];

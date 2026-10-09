@@ -588,3 +588,8 @@ footer {
 .usecase-screenshot figcaption p { margin-bottom: .55rem; }
 .screenshot-enlarge { font-weight: 650; text-decoration: underline; text-underline-offset: .18em; }
 .usecase-screenshot a:focus-visible { outline: 2px solid var(--primary); outline-offset: 4px; }
+
+.usecase-screen#extension-screens { scroll-margin-top: 8rem; }
+.screenshot-context-title { margin: 1rem 0 .8rem; color: var(--text-strong); font-size: 1.15rem; overflow-wrap: anywhere; }
+.screenshot-details { margin-top: 1.6rem; padding-top: 1.2rem; border-top: 1px solid var(--border); }
+.screenshot-details .usecase-screenshot { max-width: 780px; }
