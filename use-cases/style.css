@@ -577,3 +577,6 @@ footer {
 .arxiv-screenshot img { display: block; width: 100%; height: auto; border: 1px solid var(--border-strong); border-radius: 12px; }
 .arxiv-screenshot figcaption { margin-top: .9rem; color: var(--text-muted); font-size: 1rem; line-height: 1.65; }
 .arxiv-access p { margin-bottom: 1rem; }
+
+/* Official arXiv links have no leading checkmark cell. */
+.arxiv-access .check-list li { display: block; }
