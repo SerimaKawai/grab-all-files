@@ -597,3 +597,7 @@ footer {
 /* New industry diagram titles can contain long model/document words. */
 .industry-visual, .industry-visual figcaption { min-width: 0; }
 .industry-visual figcaption strong { min-width: 0; overflow-wrap: anywhere; hyphens: auto; }
+
+/* Workflow cards keep their own heights; research modes and the hub remain paired. */
+.two-col.workflow-cards { align-items: start; }
+.usecase-guide-links .usecase-guide-link { min-width: 0; overflow-wrap: anywhere; hyphens: auto; }

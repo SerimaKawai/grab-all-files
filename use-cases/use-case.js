@@ -12897,7 +12897,7 @@
         renderArxivGuide(copy.arxiv, "screen", lang),
         renderResearchGuide(copy.guide, "modes"),
         renderManualGuide(copy.manual, "patterns", lang),
-        "<div class=\"two-col\">",
+        "<div class=\"two-col workflow-cards\">",
           "<section class=\"section-card\"><h2>" + esc(ui.bestFor) + "</h2><ul class=\"check-list\">" + renderList(copy.best, "check") + "</ul></section>",
           "<section class=\"section-card\"><h2>" + esc(ui.workflow) + "</h2><ol class=\"step-list\">" + renderList(copy.steps, "num") + "</ol></section>",
         "</div>",
