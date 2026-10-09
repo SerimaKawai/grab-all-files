@@ -361,3 +361,16 @@ body:has(.topbar) :is(.footer-links, .doc-foot .links) a {
   color: var(--text-muted);
 }
 body:has(.topbar) :is(.footer-links, .doc-foot .links) a:hover { color: var(--primary); }
+
+/* ── Line breaking (all pages, all languages) ─────────────────────────────────
+   Headings and buttons never split a word: Japanese breaks at phrase
+   boundaries (auto-phrase where supported, else only at spaces/punctuation),
+   Korean at spaces, German hyphenates long compounds. text-wrap: balance
+   evens heading lines so no last line is left with one word or two kana.
+   overflow-wrap: anywhere is only the fallback for a string that cannot fit. */
+:is(h1, h2, h3, .store-btn, .btn, summary) { overflow-wrap: anywhere; }
+:is(h1, h2, h3) { text-wrap: balance; }
+:is(.section-head p, .cta-strip p, .lead, .hero-lead) { text-wrap: pretty; }
+:root:lang(ja) :is(h1, h2, h3, .store-btn, .btn, summary, .plan-name, .hero-eyebrow) { word-break: keep-all; word-break: auto-phrase; }
+:root:lang(ko) :is(h1, h2, h3, h4, p, li, a, button, summary, span) { word-break: keep-all; }
+:root:lang(de) :is(h1, h2, h3, .store-btn, .btn) { hyphens: auto; }

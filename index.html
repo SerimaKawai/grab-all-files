@@ -565,7 +565,7 @@
     @keyframes corepulse { 0% { transform: scale(1); opacity: 0.6; } 100% { transform: scale(1.04); opacity: 0; } }
 
     /* Features grid */
-    .features-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); align-items: start; }
+    .features-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); }
     @media (max-width: 880px) { .features-grid { grid-template-columns: 1fr 1fr; } }
     @media (max-width: 560px) { .features-grid { grid-template-columns: 1fr; } }
     .feature-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.4rem 1.4rem 1.5rem; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
@@ -885,6 +885,70 @@
     @media (max-width: 760px) {
       .tools-grid { grid-template-columns: 1fr; }
       .tool-panel { padding: 1.3rem; }
+    }
+
+    /* ── Balance pass (UI review 2026-10-10) ───────────────────────────── */
+    /* Feature cards: long, medium and short descriptions share rows, so equal-height
+       rows no longer leave a tall empty card beside a short one. */
+    @media (min-width: 881px) {
+      .features-grid > :nth-child(2) { order: 1; }
+      .features-grid > :nth-child(4) { order: 2; }
+      .features-grid > :nth-child(9) { order: 3; }
+      .features-grid > :nth-child(8) { order: 4; }
+      .features-grid > :nth-child(10) { order: 5; }
+      .features-grid > :nth-child(3) { order: 6; }
+      .features-grid > :nth-child(5) { order: 7; }
+      .features-grid > :nth-child(6) { order: 8; }
+      .features-grid > :nth-child(7) { order: 9; }
+    }
+    .tool-panel .tile svg { width: 22px; height: 22px; display: block; }
+    .tool-panel .tile { display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px; border-radius: 13px; font-size: 0; background: linear-gradient(150deg, color-mix(in srgb, var(--primary) 18%, var(--surface)), color-mix(in srgb, var(--primary) 6%, var(--surface))); color: var(--accent-icon); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--primary) 18%, transparent); }
+    /* Hero store buttons: one full-width row each (same as pricing), labels on one line */
+    .hero-stores .store-btn { flex: 1 1 100%; width: 100%; min-height: 0; justify-content: flex-start; text-align: left; white-space: nowrap; }
+    .hero-stores .store-btn::after { margin-left: auto; }
+    /* Hero stats: five equal columns, no orphan on a second row */
+    .hero-trust { display: grid; grid-template-columns: repeat(5, auto); justify-content: space-between; gap: 1rem 1.1rem; }
+    .hero-trust .ti > span { word-break: keep-all; word-break: auto-phrase; overflow-wrap: anywhere; }
+    @media (max-width: 600px) {
+      .hero-trust { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+      .hero-trust .ti:nth-child(-n+3) { grid-column: span 2; }
+      .hero-trust .ti:nth-child(n+4) { grid-column: span 3; }
+    }
+    /* Latest version: the points share the full width whatever their count */
+    .latest-points { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); }
+    @media (max-width: 820px) { .latest-points { grid-auto-flow: row; grid-template-columns: 1fr; } }
+    /* Use-case links: last row centred instead of one chip stranded on the left */
+    .usecase-guide-links { display: flex; flex-wrap: wrap; justify-content: center; }
+    .usecase-guide-links a { flex: 0 1 calc((100% - 1.4rem) / 3); box-sizing: border-box; }
+    .usecase-guide-links .usecase-all { flex: 1 1 100%; margin-top: 0.4rem; background: none; border-color: transparent; color: var(--primary); }
+    @media (max-width: 900px) { .usecase-guide-links a { flex-basis: calc((100% - 0.7rem) / 2); } }
+    @media (max-width: 520px) { .usecase-guide-links a { flex-basis: 100%; } }
+    /* Pricing: plans get the full width; the three facts sit below them in a row */
+    .pricing-split { grid-template-columns: 1fr; gap: 1.5rem; }
+    .pricing-aside { grid-template-columns: repeat(3, minmax(0, 1fr)); align-content: start; }
+    .pricing-card .pricing-stores { margin-top: 1.1rem; }
+    .pricing-card .pricing-stores .store-btn { flex: 1 1 0; min-width: 0; }
+    @media (max-width: 880px) {
+      .pricing-aside { grid-template-columns: 1fr; }
+      .pricing-card .pricing-stores .store-btn { flex: 1 1 100%; }
+    }
+    @media (max-width: 640px) {
+      .pricing-card { padding: 0; border: 0; background: none; box-shadow: none; overflow: visible; }
+      .pricing-card::before { display: none; }
+      .plan-card { padding: 1.1rem 1rem; }
+      .plan-card ul { padding-left: 1.1rem; }
+    }
+    /* Phones: buttons right after the intro; full-width CTA buttons; even mock buttons */
+    @media (max-width: 560px) {
+      section.hero [data-lang].active:has(> .hero-stores) { display: flex; flex-direction: column; align-items: flex-start; }
+      section.hero [data-lang].active > .hero-stores { order: 1; align-self: stretch; }
+      section.hero [data-lang].active > .hero-cta { order: 2; align-self: stretch; }
+      .hero-lead { font-size: 0.98rem; }
+      .cta-strip .cta-btns { display: flex; flex-direction: column; align-items: stretch; }
+      .cta-strip .cta-btns .btn { justify-content: center; }
+      .mock-footer-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; }
+      .mock-footer-actions .mock-btn { justify-content: center; }
+      .logos-inner { gap: 0.7rem 1.1rem; }
     }
   </style>
 
@@ -2532,10 +2596,13 @@
       '\u{1F310}': '<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17"/><path d="M12 3.5c2.5 2.4 2.5 14.6 0 17"/><path d="M12 3.5c-2.5 2.4-2.5 14.6 0 17"/>',
       '\u{1F4D1}': '<path d="M7 3.5h7l4 4V20a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4.5a1 1 0 0 1 1-1z"/><path d="M13.5 3.5V8h4"/><path d="M9 13h6"/><path d="M9 16.5h4"/>',
       '\u{1F3A8}': '<path d="M12 3.5a8.5 8.5 0 0 0 0 17c1.4 0 2-1 2-2 0-1.3-1-1.6-1-2.6 0-.8.7-1.4 1.6-1.4H17a4 4 0 0 0 4-4c0-3.9-4-7-9-7z"/><circle cx="8" cy="11" r="1"/><circle cx="12" cy="8" r="1"/><circle cx="16" cy="11" r="1"/>',
-      '\u2B07':    '<path d="M12 4v10"/><path d="M8 11l4 4 4-4"/><path d="M5 19h14"/>'
+      '\u2B07':    '<path d="M12 4v10"/><path d="M8 11l4 4 4-4"/><path d="M5 19h14"/>',
+      '\u{1F69A}': '<path d="M3 6.5h11v9H3z"/><path d="M14 9.5h3.6l3.4 3.4v2.6H14"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/>',
+      '\u{1F5FA}': '<path d="M9 4.5L3.5 6.5v13l5.5-2 6 2 5.5-2v-13l-5.5 2-6-2z"/><path d="M9 4.5v13"/><path d="M15 6.5v13"/>',
+      '\u{1F4E5}': '<path d="M12 3.5v9"/><path d="M8.5 9.5L12 13l3.5-3.5"/><path d="M4 14.5v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4h-4.5a3.5 3.5 0 0 1-7 0H4z"/>'
     };
     function svg(p){ return '<svg ' + A + '>' + p + '</svg>'; }
-    var sel = '.feature-card .tile, .usecase-card h3 .icon, .pricing-aside .mini-card h3 .icon, .logos-inner .role .icon, .mock-search > span[aria-hidden], .mock-footer-actions .mock-btn > span[aria-hidden]';
+    var sel = '.feature-card .tile, .tool-panel .tile, .usecase-card h3 .icon, .pricing-aside .mini-card h3 .icon, .logos-inner .role .icon, .mock-search > span[aria-hidden], .mock-footer-actions .mock-btn > span[aria-hidden]';
     document.querySelectorAll(sel).forEach(function(el){
       var key = el.textContent.replace(/[\uFE0F\s]/g, '');
       if (P[key]) { el.innerHTML = svg(P[key]); el.setAttribute('aria-hidden', 'true'); }
