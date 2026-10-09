@@ -8634,6 +8634,465 @@
       }).join('') + '</ol><p class="visual-note">' + esc(topic.note) + '</p></figure>';
   }
 
+  var CASE_SCREENSHOTS = {
+  "web-tables-to-csv-for-excel-ai": {
+    "collector": true,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-web-tables-to-csv-for-excel-ai-en.png",
+      "width": 2560,
+      "height": 2800
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-web-tables-to-csv-for-excel-ai-ja.png",
+      "width": 2560,
+      "height": 2800
+    }
+  },
+  "save-and-compare-document-revisions": {
+    "collector": true,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-en.png",
+      "width": 1810,
+      "height": 314
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-ja.png",
+      "width": 1810,
+      "height": 314
+    }
+  },
+  "rename-and-organize-bulk-pdf-downloads": {
+    "collector": false,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-rename-and-organize-bulk-pdf-downloads-en.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-rename-and-organize-bulk-pdf-downloads-ja.png",
+      "width": 2240,
+      "height": 2000
+    }
+  },
+  "collect-public-government-documents": {
+    "collector": false,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-collect-public-government-documents-en.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-collect-public-government-documents-ja.png",
+      "width": 2240,
+      "height": 2000
+    }
+  },
+  "save-web-pages-as-markdown": {
+    "collector": true,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-save-web-pages-as-markdown-en.png",
+      "width": 2560,
+      "height": 2800
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-save-web-pages-as-markdown-ja.png",
+      "width": 2560,
+      "height": 2800
+    }
+  },
+  "save-online-manuals-and-knowledge-pages": {
+    "collector": true,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-save-online-manuals-and-knowledge-pages-en.png",
+      "width": 2560,
+      "height": 2800
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-save-online-manuals-and-knowledge-pages-ja.png",
+      "width": 2560,
+      "height": 2800
+    }
+  },
+  "web-pages-for-reading-and-ai-analysis": {
+    "collector": true,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-en.png",
+      "width": 1810,
+      "height": 190
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-ja.png",
+      "width": 1810,
+      "height": 190
+    }
+  },
+  "combine-web-pages-into-one-html": {
+    "collector": true,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-combine-web-pages-into-one-html-en.png",
+      "width": 2560,
+      "height": 2800
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-combine-web-pages-into-one-html-ja.png",
+      "width": 2560,
+      "height": 2800
+    }
+  },
+  "bulk-download-images": {
+    "collector": false,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-bulk-download-images-en.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-bulk-download-images-ja.png",
+      "width": 2240,
+      "height": 2000
+    }
+  },
+  "download-all-pdfs": {
+    "collector": false,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-download-all-pdfs-en.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-download-all-pdfs-ja.png",
+      "width": 2240,
+      "height": 2000
+    }
+  },
+  "download-files-from-webpage": {
+    "collector": false,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-download-files-from-webpage-en.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-download-files-from-webpage-ja.png",
+      "width": 2240,
+      "height": 2000
+    }
+  },
+  "internal-portal-downloads": {
+    "collector": false,
+    "portal": true,
+    "en": {
+      "src": "/assets/screenshots/use-case-internal-portal-downloads-en.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-internal-portal-downloads-ja.png",
+      "width": 2240,
+      "height": 2000
+    }
+  },
+  "merge-pdfs-locally": {
+    "collector": false,
+    "portal": false,
+    "en": {
+      "src": "/assets/screenshots/use-case-merge-pdfs-locally-en.png",
+      "width": 2240,
+      "height": 2000
+    },
+    "ja": {
+      "src": "/assets/screenshots/use-case-merge-pdfs-locally-ja.png",
+      "width": 2240,
+      "height": 2000
+    }
+  }
+};
+
+  var CASE_SCREEN_TEXT = {
+  "en": {
+    "common": {
+      "heading": "Actual extension screen",
+      "example": "Actual extension screen using sample materials.",
+      "collector": "A Free example with one selected page, showing settings and controls before saving. Pro combines multiple selected pages as described in this guide.",
+      "portal": "This is a fictional demo portal, with no real account or customer data.",
+      "english": "",
+      "zoom": "Open the full-size image"
+    },
+    "purposes": {
+      "web-tables-to-csv-for-excel-ai": "Table CSV/JSON export settings",
+      "save-and-compare-document-revisions": "Menu for saving a change report",
+      "rename-and-organize-bulk-pdf-downloads": "Reviewed PDF titles, save names and folder options",
+      "collect-public-government-documents": "Selecting sample public files and file-information CSV controls",
+      "save-web-pages-as-markdown": "Markdown output format settings",
+      "save-online-manuals-and-knowledge-pages": "Selecting pages from a sample manual",
+      "web-pages-for-reading-and-ai-analysis": "Menu for exporting AI-ready data",
+      "combine-web-pages-into-one-html": "Page candidates and one-page HTML selection",
+      "bulk-download-images": "Image filtering and selection on a sample page",
+      "download-all-pdfs": "PDF filtering and selection on a sample page",
+      "download-files-from-webpage": "Selecting supported files on a sample page",
+      "internal-portal-downloads": "Selecting attachments in a fictional portal",
+      "merge-pdfs-locally": "Local merge controls for selected sample PDFs"
+    }
+  },
+  "ja": {
+    "common": {
+      "heading": "実際の拡張画面",
+      "example": "サンプル資料を使った実際の拡張画面です。",
+      "collector": "無料版で1ページを選択した、保存前の設定・操作例です。Proでは本文の説明どおり、複数の選択ページを結合できます。",
+      "portal": "架空のデモポータルで、実際のアカウントや顧客情報は使っていません。",
+      "english": "",
+      "zoom": "画像を開いて拡大する"
+    },
+    "purposes": {
+      "web-tables-to-csv-for-excel-ai": "表のCSV/JSON出力設定",
+      "save-and-compare-document-revisions": "差分レポートを保存するメニュー",
+      "rename-and-organize-bulk-pdf-downloads": "PDF題名の確認・保存名・フォルダ分けの選択",
+      "collect-public-government-documents": "サンプル公的資料の選択とファイル情報CSVの操作",
+      "save-web-pages-as-markdown": "Markdownの出力形式設定",
+      "save-online-manuals-and-knowledge-pages": "サンプルマニュアルのページ選択",
+      "web-pages-for-reading-and-ai-analysis": "AI用データの出力メニュー",
+      "combine-web-pages-into-one-html": "ページ候補の確認と1ページHTMLの選択",
+      "bulk-download-images": "サンプルページの画像の絞り込みと選択",
+      "download-all-pdfs": "サンプルページのPDFの絞り込みと選択",
+      "download-files-from-webpage": "サンプルページの対応ファイルの選択",
+      "internal-portal-downloads": "架空ポータルの添付ファイルの選択",
+      "merge-pdfs-locally": "選んだサンプルPDFの結合メニュー"
+    }
+  },
+  "es": {
+    "common": {
+      "heading": "Pantalla real de la extensión",
+      "example": "Pantalla real de la extensión con materiales de ejemplo.",
+      "collector": "Ejemplo Free con una página elegida y controles previos al guardado. Pro combina varias páginas seleccionadas como se explica en esta guía.",
+      "portal": "Es un portal ficticio sin cuentas reales ni datos de clientes.",
+      "english": "Interfaz en inglés.",
+      "zoom": "Abrir la imagen a tamaño completo"
+    },
+    "purposes": {
+      "web-tables-to-csv-for-excel-ai": "Configuración de tablas CSV/JSON",
+      "save-and-compare-document-revisions": "Menú para guardar un informe de cambios",
+      "rename-and-organize-bulk-pdf-downloads": "Títulos PDF revisados, nombres y carpetas",
+      "collect-public-government-documents": "Selección de archivos públicos de ejemplo y controles CSV de información de archivos",
+      "save-web-pages-as-markdown": "Formatos de salida Markdown",
+      "save-online-manuals-and-knowledge-pages": "Selección de páginas de un manual de ejemplo",
+      "web-pages-for-reading-and-ai-analysis": "Menú para exportar datos para IA",
+      "combine-web-pages-into-one-html": "Páginas candidatas y elección de una página HTML",
+      "bulk-download-images": "Filtro y selección de imágenes de ejemplo",
+      "download-all-pdfs": "Filtro y selección de PDF de ejemplo",
+      "download-files-from-webpage": "Selección de archivos compatibles de ejemplo",
+      "internal-portal-downloads": "Selección de adjuntos en un portal ficticio",
+      "merge-pdfs-locally": "Menú de combinación local de los PDF de ejemplo seleccionados"
+    }
+  },
+  "fr": {
+    "common": {
+      "heading": "Écran réel de l’extension",
+      "example": "Écran réel de l’extension avec des documents d’exemple.",
+      "collector": "Exemple Free avec une page choisie et les paramètres avant l’enregistrement. Pro regroupe plusieurs pages sélectionnées comme expliqué dans ce guide.",
+      "portal": "Portail fictif, sans compte réel ni données de clients.",
+      "english": "Interface en anglais.",
+      "zoom": "Ouvrir l’image en taille réelle"
+    },
+    "purposes": {
+      "web-tables-to-csv-for-excel-ai": "Paramètres d’export des tableaux CSV/JSON",
+      "save-and-compare-document-revisions": "Menu pour enregistrer un rapport de changements",
+      "rename-and-organize-bulk-pdf-downloads": "Titres PDF vérifiés, noms et dossiers",
+      "collect-public-government-documents": "Sélection de fichiers publics fictifs et commandes CSV d’informations sur les fichiers",
+      "save-web-pages-as-markdown": "Formats de sortie Markdown",
+      "save-online-manuals-and-knowledge-pages": "Sélection des pages d’un manuel fictif",
+      "web-pages-for-reading-and-ai-analysis": "Menu d’export des données pour l’IA",
+      "combine-web-pages-into-one-html": "Pages candidates et choix d’une page HTML",
+      "bulk-download-images": "Filtrage et sélection d’images fictives",
+      "download-all-pdfs": "Filtrage et sélection de PDF fictifs",
+      "download-files-from-webpage": "Sélection de fichiers compatibles fictifs",
+      "internal-portal-downloads": "Sélection de pièces jointes d’un portail fictif",
+      "merge-pdfs-locally": "Menu de fusion locale des PDF d’exemple sélectionnés"
+    }
+  },
+  "de": {
+    "common": {
+      "heading": "Echter Erweiterungsbildschirm",
+      "example": "Echte Erweiterung mit Beispielmaterialien.",
+      "collector": "Free-Beispiel mit einer gewählten Seite und Einstellungen vor dem Speichern. Pro bündelt mehrere ausgewählte Seiten, wie in diesem Leitfaden beschrieben.",
+      "portal": "Fiktives Demoportal ohne echte Konten oder Kundendaten.",
+      "english": "Englische Oberfläche.",
+      "zoom": "Bild in voller Größe öffnen"
+    },
+    "purposes": {
+      "web-tables-to-csv-for-excel-ai": "CSV/JSON-Einstellungen für Tabellen",
+      "save-and-compare-document-revisions": "Menü zum Speichern eines Änderungsberichts",
+      "rename-and-organize-bulk-pdf-downloads": "Geprüfte PDF-Titel, Dateinamen und Ordneroptionen",
+      "collect-public-government-documents": "Auswahl öffentlicher Beispieldateien und Dateiinfo-CSV-Steuerung",
+      "save-web-pages-as-markdown": "Markdown-Ausgabeformate",
+      "save-online-manuals-and-knowledge-pages": "Seitenauswahl eines Beispielhandbuchs",
+      "web-pages-for-reading-and-ai-analysis": "Menü zum Export von KI-Daten",
+      "combine-web-pages-into-one-html": "Seitenkandidaten und Auswahl einer HTML-Seite",
+      "bulk-download-images": "Bildfilter und Auswahl auf einer Beispielseite",
+      "download-all-pdfs": "PDF-Filter und Auswahl auf einer Beispielseite",
+      "download-files-from-webpage": "Auswahl unterstützter Beispieldateien",
+      "internal-portal-downloads": "Anhangsauswahl in einem fiktiven Portal",
+      "merge-pdfs-locally": "Menü zur lokalen Zusammenführung gewählter Beispiel-PDFs"
+    }
+  },
+  "it": {
+    "common": {
+      "heading": "Schermata reale dell’estensione",
+      "example": "Schermata reale dell’estensione con materiali di esempio.",
+      "collector": "Esempio Free con una pagina scelta e impostazioni prima del salvataggio. Pro unisce più pagine selezionate come descritto nella guida.",
+      "portal": "Portale dimostrativo fittizio, senza account reali o dati dei clienti.",
+      "english": "Interfaccia in inglese.",
+      "zoom": "Apri l’immagine a dimensione intera"
+    },
+    "purposes": {
+      "web-tables-to-csv-for-excel-ai": "Impostazioni di esportazione tabelle CSV/JSON",
+      "save-and-compare-document-revisions": "Menu per salvare un rapporto delle modifiche",
+      "rename-and-organize-bulk-pdf-downloads": "Titoli PDF verificati, nomi e cartelle",
+      "collect-public-government-documents": "Scelta di file pubblici dimostrativi e comandi CSV delle informazioni sui file",
+      "save-web-pages-as-markdown": "Formati di uscita Markdown",
+      "save-online-manuals-and-knowledge-pages": "Selezione delle pagine di un manuale dimostrativo",
+      "web-pages-for-reading-and-ai-analysis": "Menu di esportazione dei dati per IA",
+      "combine-web-pages-into-one-html": "Pagine candidate e scelta di una pagina HTML",
+      "bulk-download-images": "Filtro e selezione di immagini dimostrative",
+      "download-all-pdfs": "Filtro e selezione di PDF dimostrativi",
+      "download-files-from-webpage": "Selezione di file dimostrativi supportati",
+      "internal-portal-downloads": "Selezione di allegati in un portale fittizio",
+      "merge-pdfs-locally": "Menu di unione locale dei PDF dimostrativi selezionati"
+    }
+  },
+  "ko": {
+    "common": {
+      "heading": "실제 확장 화면",
+      "example": "샘플 자료를 사용한 실제 확장 화면입니다.",
+      "collector": "Free에서 1페이지를 선택한 저장 전 설정·조작 예시입니다. Pro는 이 가이드의 설명대로 여러 선택 페이지를 결합합니다.",
+      "portal": "실제 계정이나 고객 정보를 사용하지 않은 가상의 데모 포털입니다.",
+      "english": "영어 UI입니다.",
+      "zoom": "원본 크기로 이미지 열기"
+    },
+    "purposes": {
+      "web-tables-to-csv-for-excel-ai": "표의 CSV/JSON 출력 설정",
+      "save-and-compare-document-revisions": "변경 보고서를 저장하는 메뉴",
+      "rename-and-organize-bulk-pdf-downloads": "PDF 제목 확인·저장 이름·폴더 옵션",
+      "collect-public-government-documents": "샘플 공공 파일 선택과 파일 정보 CSV 조작",
+      "save-web-pages-as-markdown": "Markdown 출력 형식 설정",
+      "save-online-manuals-and-knowledge-pages": "샘플 매뉴얼 페이지 선택",
+      "web-pages-for-reading-and-ai-analysis": "AI용 데이터 출력 메뉴",
+      "combine-web-pages-into-one-html": "후보 페이지와 1페이지 HTML 선택",
+      "bulk-download-images": "샘플 페이지의 이미지 필터·선택",
+      "download-all-pdfs": "샘플 페이지의 PDF 필터·선택",
+      "download-files-from-webpage": "샘플 페이지의 지원 파일 선택",
+      "internal-portal-downloads": "가상 포털의 첨부 파일 선택",
+      "merge-pdfs-locally": "선택한 샘플 PDF의 병합 메뉴"
+    }
+  },
+  "pt_BR": {
+    "common": {
+      "heading": "Tela real da extensão",
+      "example": "Tela real da extensão com materiais de exemplo.",
+      "collector": "Exemplo Free com uma página escolhida e controles antes de salvar. O Pro reúne várias páginas selecionadas como explicado neste guia.",
+      "portal": "Portal fictício, sem contas reais ou dados de clientes.",
+      "english": "Interface em inglês.",
+      "zoom": "Abrir a imagem em tamanho completo"
+    },
+    "purposes": {
+      "web-tables-to-csv-for-excel-ai": "Configurações de tabelas CSV/JSON",
+      "save-and-compare-document-revisions": "Menu para salvar um relatório de alterações",
+      "rename-and-organize-bulk-pdf-downloads": "Títulos PDF conferidos, nomes e pastas",
+      "collect-public-government-documents": "Seleção de arquivos públicos de exemplo e controles CSV de informações dos arquivos",
+      "save-web-pages-as-markdown": "Formatos de saída Markdown",
+      "save-online-manuals-and-knowledge-pages": "Seleção de páginas de um manual de exemplo",
+      "web-pages-for-reading-and-ai-analysis": "Menu de exportação de dados para IA",
+      "combine-web-pages-into-one-html": "Páginas candidatas e escolha de uma página HTML",
+      "bulk-download-images": "Filtro e seleção de imagens de exemplo",
+      "download-all-pdfs": "Filtro e seleção de PDFs de exemplo",
+      "download-files-from-webpage": "Seleção de arquivos de exemplo compatíveis",
+      "internal-portal-downloads": "Seleção de anexos em um portal fictício",
+      "merge-pdfs-locally": "Menu de mesclagem local dos PDFs de exemplo selecionados"
+    }
+  },
+  "zh_CN": {
+    "common": {
+      "heading": "实际扩展界面",
+      "example": "使用示例资料的实际扩展界面。",
+      "collector": "Free选择1页的保存前设置与操作示例。Pro可按本文说明合并多个选定页面。",
+      "portal": "这是虚构的演示门户，未使用真实账号或客户资料。",
+      "english": "界面为英文。",
+      "zoom": "打开原尺寸图片"
+    },
+    "purposes": {
+      "web-tables-to-csv-for-excel-ai": "表格CSV/JSON输出设置",
+      "save-and-compare-document-revisions": "保存变化报告的菜单",
+      "rename-and-organize-bulk-pdf-downloads": "PDF题名核对、保存名称与文件夹选项",
+      "collect-public-government-documents": "选择示例公共文件与文件信息CSV操作",
+      "save-web-pages-as-markdown": "Markdown输出格式设置",
+      "save-online-manuals-and-knowledge-pages": "选择示例手册页面",
+      "web-pages-for-reading-and-ai-analysis": "AI数据输出菜单",
+      "combine-web-pages-into-one-html": "候选页面与单页HTML选择",
+      "bulk-download-images": "示例页面图片筛选与选择",
+      "download-all-pdfs": "示例页面PDF筛选与选择",
+      "download-files-from-webpage": "选择示例页面的受支持文件",
+      "internal-portal-downloads": "选择虚构门户附件",
+      "merge-pdfs-locally": "选定示例PDF的合并菜单"
+    }
+  },
+  "zh_TW": {
+    "common": {
+      "heading": "實際擴充畫面",
+      "example": "使用範例資料的實際擴充畫面。",
+      "collector": "Free選取1頁的儲存前設定與操作範例。Pro可依本文說明合併多個選定頁面。",
+      "portal": "這是虛構的示範入口網站，未使用真實帳號或客戶資料。",
+      "english": "介面為英文。",
+      "zoom": "開啟原尺寸圖片"
+    },
+    "purposes": {
+      "web-tables-to-csv-for-excel-ai": "表格CSV/JSON輸出設定",
+      "save-and-compare-document-revisions": "儲存變更報告的選單",
+      "rename-and-organize-bulk-pdf-downloads": "PDF題名核對、儲存名稱與資料夾選項",
+      "collect-public-government-documents": "選取範例公共檔案與檔案資訊CSV操作",
+      "save-web-pages-as-markdown": "Markdown輸出格式設定",
+      "save-online-manuals-and-knowledge-pages": "選取範例手冊頁面",
+      "web-pages-for-reading-and-ai-analysis": "AI資料輸出選單",
+      "combine-web-pages-into-one-html": "候選頁面與單頁HTML選取",
+      "bulk-download-images": "範例頁面圖片篩選與選取",
+      "download-all-pdfs": "範例頁面的PDF篩選與選取",
+      "download-files-from-webpage": "選取範例頁面的支援檔案",
+      "internal-portal-downloads": "選取虛構入口網站附件",
+      "merge-pdfs-locally": "選定範例PDF的合併選單"
+    }
+  }
+};
+
+  function renderCaseScreenshot(current, lang) {
+    var scene = CASE_SCREENSHOTS[current.id];
+    if (!scene) return "";
+    var text = CASE_SCREEN_TEXT[lang] || CASE_SCREEN_TEXT.en;
+    var common = text.common, purpose = text.purposes[current.id];
+    var labels = GUIDE_LABELS[lang] || GUIDE_LABELS.en;
+    var shot = scene[lang === "ja" ? "ja" : "en"];
+    var punctuation = lang === "ja" || lang.indexOf("zh_") === 0 ? "。" : ".";
+    var caption = common.example + " " + purpose + punctuation;
+    if (scene.collector) caption += " " + common.collector;
+    if (scene.portal) caption += " " + common.portal;
+    if (common.english) caption += " " + common.english;
+    var alt = common.heading + ": " + purpose + punctuation + (common.english ? " " + common.english : "");
+    var dimensions = shot.width && shot.height ? ' width="' + shot.width + '" height="' + shot.height + '"' : '';
+    return '<section class="section-card usecase-screen"><h2>' + esc(common.heading) + ' — ' + esc(labels[current.id]) +
+      '</h2><figure class="usecase-screenshot"><a href="' + shot.src + '" target="_blank" rel="noopener" aria-label="' + esc(common.zoom + ' — ' + purpose) +
+      '"><img src="' + shot.src + '"' + dimensions + ' loading="lazy" decoding="async" alt="' + esc(alt) +
+      '"></a><figcaption><p>' + esc(caption) + '</p><a class="screenshot-enlarge" href="' + shot.src + '" target="_blank" rel="noopener">' + esc(common.zoom) +
+      ' ↗</a></figcaption></figure></section>';
+  }
+
   var ARXIV_SHOTS = {
     en: { src: "/assets/screenshots/arxiv-scan-en.png", width: 2240, height: 2000 },
     ja: { src: "/assets/screenshots/arxiv-scan-ja.png", width: 2240, height: 2000 }
@@ -8797,6 +9256,7 @@
       "</section>",
       "<div class=\"section-stack\">",
         renderFeatureVisual(current, lang),
+        renderCaseScreenshot(current, lang),
         renderArxivGuide(copy.arxiv, "visual", lang),
         renderArxivGuide(copy.arxiv, "screen", lang),
         renderResearchGuide(copy.guide, "modes"),

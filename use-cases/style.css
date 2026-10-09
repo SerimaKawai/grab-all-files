@@ -580,3 +580,11 @@ footer {
 
 /* Official arXiv links have no leading checkmark cell. */
 .arxiv-access .check-list li { display: block; }
+
+.usecase-screen h2 { overflow-wrap: anywhere; }
+.usecase-screenshot { margin: 0; }
+.usecase-screenshot img { display: block; width: 100%; height: auto; border: 1px solid var(--border-strong); border-radius: 12px; }
+.usecase-screenshot figcaption { margin-top: 1rem; color: var(--text-muted); font-size: 1rem; line-height: 1.65; }
+.usecase-screenshot figcaption p { margin-bottom: .55rem; }
+.screenshot-enlarge { font-weight: 650; text-decoration: underline; text-underline-offset: .18em; }
+.usecase-screenshot a:focus-visible { outline: 2px solid var(--primary); outline-offset: 4px; }
