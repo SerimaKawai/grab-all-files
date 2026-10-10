@@ -42,7 +42,7 @@
       local: "PDF merge, ZIP, and CSV run locally in the browser",
       privacy: "Files download directly from the source site to your device",
       ctaTitle: "Try Grab All Files on your browser.",
-      ctaText: "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images and directly linked files on that page have no plan-based count cap. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML.",
+      ctaText: "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; its directly linked files are saved 10 at a time, and the result screen saves the next 10. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML.",
       skip: "Skip to content",
       primaryNav: "Primary navigation",
       themeToggle: "Toggle theme",
@@ -73,7 +73,7 @@
       local: "PDF結合・ZIP化・CSV出力はブラウザ内でローカル処理",
       privacy: "ファイルは元サイトから端末へ直接ダウンロード",
       ctaTitle: "実際のページで Grab All Files を試せます。",
-      ctaText: "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。",
+      ctaText: "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がなく、直接リンクされたファイルは1回10件ずつ保存します（残りは結果画面の「次の10件を保存」で続けて保存できます）。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。",
       skip: "本文へスキップ",
       primaryNav: "メインナビゲーション",
       themeToggle: "表示テーマを切り替え",
@@ -104,7 +104,7 @@
       local: "PDF, ZIP y CSV se procesan localmente en el navegador",
       privacy: "Los archivos se descargan del sitio fuente a tu dispositivo",
       ctaTitle: "Prueba Grab All Files en tu navegador.",
-      ctaText: "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes y los archivos enlazados directamente en esa página no tienen límite de cantidad por plan. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas.",
+      ctaText: "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan de 10 en 10 y la pantalla de resultados guarda los 10 siguientes. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas.",
       skip: "Saltar al contenido",
       primaryNav: "Navegación principal",
       themeToggle: "Cambiar tema",
@@ -135,7 +135,7 @@
       local: "PDF, ZIP et CSV restent traités localement dans le navigateur",
       privacy: "Les fichiers se téléchargent du site source vers votre appareil",
       ctaTitle: "Essayez Grab All Files dans votre navigateur.",
-      ctaText: "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images et fichiers directement liés sur cette page n’ont pas de plafond lié au forfait. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées.",
+      ctaText: "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; ses fichiers directement liés sont enregistrés par groupes de 10, et l’écran de résultat enregistre les 10 suivants. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées.",
       skip: "Aller au contenu",
       primaryNav: "Navigation principale",
       themeToggle: "Changer de thème",
@@ -166,7 +166,7 @@
       local: "PDF, ZIP und CSV werden lokal im Browser verarbeitet",
       privacy: "Dateien werden direkt von der Quellseite auf Ihr Gerät geladen",
       ctaTitle: "Testen Sie Grab All Files in Ihrem Browser.",
-      ctaText: "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte.",
+      ctaText: "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden in 10er-Schritten gespeichert, die nächsten 10 über den Ergebnisbildschirm. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte.",
       skip: "Zum Inhalt springen",
       primaryNav: "Hauptnavigation",
       themeToggle: "Darstellung wechseln",
@@ -197,7 +197,7 @@
       local: "PDF, ZIP e CSV vengono elaborati localmente nel browser",
       privacy: "I file vengono scaricati dal sito sorgente al dispositivo",
       ctaTitle: "Prova Grab All Files nel tuo browser.",
-      ctaText: "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Immagini e file collegati direttamente in quella pagina non hanno un limite numerico del piano. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate.",
+      ctaText: "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati 10 alla volta e la schermata dei risultati salva i 10 successivi. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate.",
       skip: "Vai al contenuto",
       primaryNav: "Navigazione principale",
       themeToggle: "Cambia tema",
@@ -228,7 +228,7 @@
       local: "PDF 병합, ZIP, CSV는 브라우저에서 로컬 처리",
       privacy: "파일은 원본 사이트에서 기기로 직접 다운로드됩니다",
       ctaTitle: "브라우저에서 Grab All Files를 사용해 보세요.",
-      ctaText: "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다.",
+      ctaText: "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없고, 직접 연결된 파일은 한 번에 10개씩 저장하며 결과 화면에서 다음 10개를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다.",
       skip: "본문으로 건너뛰기",
       primaryNav: "주요 탐색",
       themeToggle: "테마 전환",
@@ -259,7 +259,7 @@
       local: "PDF, ZIP e CSV são processados localmente no navegador",
       privacy: "Os arquivos são baixados do site fonte para o seu dispositivo",
       ctaTitle: "Teste o Grab All Files no seu navegador.",
-      ctaText: "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. Imagens e arquivos diretamente vinculados nessa página não têm limite de quantidade do plano. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas.",
+      ctaText: "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos diretamente vinculados são salvos de 10 em 10, e a tela de resultado salva os 10 seguintes. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas.",
       skip: "Ir para o conteúdo",
       primaryNav: "Navegação principal",
       themeToggle: "Alternar tema",
@@ -290,7 +290,7 @@
       local: "PDF合并、ZIP和CSV均在浏览器本地处理",
       privacy: "文件从源网站直接下载到您的设备",
       ctaTitle: "在浏览器中试用 Grab All Files。",
-      ctaText: "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。",
+      ctaText: "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接文件每次保存10个，可在结果画面继续保存下一批10个。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。",
       skip: "跳至主要内容",
       primaryNav: "主导航",
       themeToggle: "切换主题",
@@ -321,7 +321,7 @@
       local: "PDF合併、ZIP和CSV均在瀏覽器本機處理",
       privacy: "檔案從來源網站直接下載到您的裝置",
       ctaTitle: "在瀏覽器中試用 Grab All Files。",
-      ctaText: "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。",
+      ctaText: "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結檔案每次儲存10個，可在結果畫面繼續儲存下一批10個。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。",
       skip: "跳至主要內容",
       primaryNav: "主要導覽",
       themeToggle: "切換主題",
@@ -610,7 +610,7 @@
             },
             {
               "q": "Can I use this for free?",
-              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images and directly linked files on that page have no plan-based count cap. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; its directly linked files are saved 10 at a time, and the result screen saves the next 10. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
             },
             {
               "q": "What does the file-information CSV contain?",
@@ -675,7 +675,7 @@
             },
             {
               "q": "無料で使えますか？",
-              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がなく、直接リンクされたファイルは1回10件ずつ保存します（残りは結果画面の「次の10件を保存」で続けて保存できます）。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
             },
             {
               "q": "ファイル情報CSVには何が入りますか？",
@@ -740,7 +740,7 @@
             },
             {
               "q": "¿Puedo usarlo gratis?",
-              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes y los archivos enlazados directamente en esa página no tienen límite de cantidad por plan. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan de 10 en 10 y la pantalla de resultados guarda los 10 siguientes. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
             },
             {
               "q": "¿Qué contiene el CSV de información?",
@@ -805,7 +805,7 @@
             },
             {
               "q": "Puis-je l’utiliser gratuitement ?",
-              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images et fichiers directement liés sur cette page n’ont pas de plafond lié au forfait. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; ses fichiers directement liés sont enregistrés par groupes de 10, et l’écran de résultat enregistre les 10 suivants. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
             },
             {
               "q": "Que contient le CSV d’informations ?",
@@ -870,7 +870,7 @@
             },
             {
               "q": "Ist dies kostenlos nutzbar?",
-              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden in 10er-Schritten gespeichert, die nächsten 10 über den Ergebnisbildschirm. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
             },
             {
               "q": "Was enthält die Dateiinfo-CSV?",
@@ -935,7 +935,7 @@
             },
             {
               "q": "Posso usarlo gratis?",
-              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Immagini e file collegati direttamente in quella pagina non hanno un limite numerico del piano. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati 10 alla volta e la schermata dei risultati salva i 10 successivi. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
             },
             {
               "q": "Cosa contiene il CSV delle informazioni?",
@@ -1000,7 +1000,7 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없고, 직접 연결된 파일은 한 번에 10개씩 저장하며 결과 화면에서 다음 10개를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
             },
             {
               "q": "파일 정보 CSV에는 무엇이 있나요?",
@@ -1065,7 +1065,7 @@
             },
             {
               "q": "Posso usar grátis?",
-              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. Imagens e arquivos diretamente vinculados nessa página não têm limite de quantidade do plano. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos diretamente vinculados são salvos de 10 em 10, e a tela de resultado salva os 10 seguintes. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
             },
             {
               "q": "O que contém o CSV de informações?",
@@ -1130,7 +1130,7 @@
             },
             {
               "q": "可以免费使用吗？",
-              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接文件每次保存10个，可在结果画面继续保存下一批10个。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
             },
             {
               "q": "文件信息CSV包含什么？",
@@ -1195,7 +1195,7 @@
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結檔案每次儲存10個，可在結果畫面繼續儲存下一批10個。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
             },
             {
               "q": "檔案資訊CSV包含什麼？",
@@ -1270,7 +1270,7 @@
             },
             {
               "q": "Can I use this for free?",
-              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images and directly linked files on that page have no plan-based count cap. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; its directly linked files are saved 10 at a time, and the result screen saves the next 10. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
             },
             {
               "q": "What does the file-information CSV contain?",
@@ -1335,7 +1335,7 @@
             },
             {
               "q": "無料で使えますか？",
-              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がなく、直接リンクされたファイルは1回10件ずつ保存します（残りは結果画面の「次の10件を保存」で続けて保存できます）。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
             },
             {
               "q": "ファイル情報CSVには何が入りますか？",
@@ -1400,7 +1400,7 @@
             },
             {
               "q": "¿Puedo usarlo gratis?",
-              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes y los archivos enlazados directamente en esa página no tienen límite de cantidad por plan. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan de 10 en 10 y la pantalla de resultados guarda los 10 siguientes. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
             },
             {
               "q": "¿Qué contiene el CSV de información?",
@@ -1465,7 +1465,7 @@
             },
             {
               "q": "Puis-je l’utiliser gratuitement ?",
-              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images et fichiers directement liés sur cette page n’ont pas de plafond lié au forfait. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; ses fichiers directement liés sont enregistrés par groupes de 10, et l’écran de résultat enregistre les 10 suivants. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
             },
             {
               "q": "Que contient le CSV d’informations ?",
@@ -1530,7 +1530,7 @@
             },
             {
               "q": "Ist dies kostenlos nutzbar?",
-              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden in 10er-Schritten gespeichert, die nächsten 10 über den Ergebnisbildschirm. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
             },
             {
               "q": "Was enthält die Dateiinfo-CSV?",
@@ -1595,7 +1595,7 @@
             },
             {
               "q": "Posso usarlo gratis?",
-              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Immagini e file collegati direttamente in quella pagina non hanno un limite numerico del piano. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati 10 alla volta e la schermata dei risultati salva i 10 successivi. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
             },
             {
               "q": "Cosa contiene il CSV delle informazioni?",
@@ -1660,7 +1660,7 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없고, 직접 연결된 파일은 한 번에 10개씩 저장하며 결과 화면에서 다음 10개를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
             },
             {
               "q": "파일 정보 CSV에는 무엇이 있나요?",
@@ -1725,7 +1725,7 @@
             },
             {
               "q": "Posso usar grátis?",
-              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. Imagens e arquivos diretamente vinculados nessa página não têm limite de quantidade do plano. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos diretamente vinculados são salvos de 10 em 10, e a tela de resultado salva os 10 seguintes. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
             },
             {
               "q": "O que contém o CSV de informações?",
@@ -1790,7 +1790,7 @@
             },
             {
               "q": "可以免费使用吗？",
-              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接文件每次保存10个，可在结果画面继续保存下一批10个。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
             },
             {
               "q": "文件信息CSV包含什么？",
@@ -1855,7 +1855,7 @@
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結檔案每次儲存10個，可在結果畫面繼續儲存下一批10個。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
             },
             {
               "q": "檔案資訊CSV包含什麼？",
@@ -1930,7 +1930,7 @@
             },
             {
               "q": "Can I use this for free?",
-              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images and directly linked files on that page have no plan-based count cap. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; its directly linked files are saved 10 at a time, and the result screen saves the next 10. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
             },
             {
               "q": "What does the file-information CSV contain?",
@@ -1995,7 +1995,7 @@
             },
             {
               "q": "無料で使えますか？",
-              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がなく、直接リンクされたファイルは1回10件ずつ保存します（残りは結果画面の「次の10件を保存」で続けて保存できます）。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
             },
             {
               "q": "ファイル情報CSVには何が入りますか？",
@@ -2060,7 +2060,7 @@
             },
             {
               "q": "¿Puedo usarlo gratis?",
-              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes y los archivos enlazados directamente en esa página no tienen límite de cantidad por plan. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan de 10 en 10 y la pantalla de resultados guarda los 10 siguientes. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
             },
             {
               "q": "¿Qué contiene el CSV de información?",
@@ -2125,7 +2125,7 @@
             },
             {
               "q": "Puis-je l’utiliser gratuitement ?",
-              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images et fichiers directement liés sur cette page n’ont pas de plafond lié au forfait. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; ses fichiers directement liés sont enregistrés par groupes de 10, et l’écran de résultat enregistre les 10 suivants. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
             },
             {
               "q": "Que contient le CSV d’informations ?",
@@ -2190,7 +2190,7 @@
             },
             {
               "q": "Ist dies kostenlos nutzbar?",
-              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden in 10er-Schritten gespeichert, die nächsten 10 über den Ergebnisbildschirm. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
             },
             {
               "q": "Was enthält die Dateiinfo-CSV?",
@@ -2255,7 +2255,7 @@
             },
             {
               "q": "Posso usarlo gratis?",
-              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Immagini e file collegati direttamente in quella pagina non hanno un limite numerico del piano. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati 10 alla volta e la schermata dei risultati salva i 10 successivi. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
             },
             {
               "q": "Cosa contiene il CSV delle informazioni?",
@@ -2320,7 +2320,7 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없고, 직접 연결된 파일은 한 번에 10개씩 저장하며 결과 화면에서 다음 10개를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
             },
             {
               "q": "파일 정보 CSV에는 무엇이 있나요?",
@@ -2385,7 +2385,7 @@
             },
             {
               "q": "Posso usar grátis?",
-              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. Imagens e arquivos diretamente vinculados nessa página não têm limite de quantidade do plano. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos diretamente vinculados são salvos de 10 em 10, e a tela de resultado salva os 10 seguintes. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
             },
             {
               "q": "O que contém o CSV de informações?",
@@ -2450,7 +2450,7 @@
             },
             {
               "q": "可以免费使用吗？",
-              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接文件每次保存10个，可在结果画面继续保存下一批10个。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
             },
             {
               "q": "文件信息CSV包含什么？",
@@ -2515,7 +2515,7 @@
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結檔案每次儲存10個，可在結果畫面繼續儲存下一批10個。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
             },
             {
               "q": "檔案資訊CSV包含什麼？",
@@ -2590,7 +2590,7 @@
             },
             {
               "q": "Can I use this for free?",
-              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images and directly linked files on that page have no plan-based count cap. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; its directly linked files are saved 10 at a time, and the result screen saves the next 10. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
             }
           ],
           "industry": {
@@ -2651,7 +2651,7 @@
             },
             {
               "q": "無料で使えますか？",
-              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がなく、直接リンクされたファイルは1回10件ずつ保存します（残りは結果画面の「次の10件を保存」で続けて保存できます）。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
             }
           ],
           "industry": {
@@ -2712,7 +2712,7 @@
             },
             {
               "q": "¿Puedo usarlo gratis?",
-              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes y los archivos enlazados directamente en esa página no tienen límite de cantidad por plan. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan de 10 en 10 y la pantalla de resultados guarda los 10 siguientes. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
             }
           ],
           "industry": {
@@ -2773,7 +2773,7 @@
             },
             {
               "q": "Puis-je l’utiliser gratuitement ?",
-              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images et fichiers directement liés sur cette page n’ont pas de plafond lié au forfait. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; ses fichiers directement liés sont enregistrés par groupes de 10, et l’écran de résultat enregistre les 10 suivants. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
             }
           ],
           "industry": {
@@ -2834,7 +2834,7 @@
             },
             {
               "q": "Ist dies kostenlos nutzbar?",
-              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden in 10er-Schritten gespeichert, die nächsten 10 über den Ergebnisbildschirm. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
             }
           ],
           "industry": {
@@ -2895,7 +2895,7 @@
             },
             {
               "q": "Posso usarlo gratis?",
-              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Immagini e file collegati direttamente in quella pagina non hanno un limite numerico del piano. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati 10 alla volta e la schermata dei risultati salva i 10 successivi. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
             }
           ],
           "industry": {
@@ -2956,7 +2956,7 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없고, 직접 연결된 파일은 한 번에 10개씩 저장하며 결과 화면에서 다음 10개를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
             }
           ],
           "industry": {
@@ -3017,7 +3017,7 @@
             },
             {
               "q": "Posso usar grátis?",
-              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. Imagens e arquivos diretamente vinculados nessa página não têm limite de quantidade do plano. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos diretamente vinculados são salvos de 10 em 10, e a tela de resultado salva os 10 seguintes. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
             }
           ],
           "industry": {
@@ -3078,7 +3078,7 @@
             },
             {
               "q": "可以免费使用吗？",
-              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接文件每次保存10个，可在结果画面继续保存下一批10个。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
             }
           ],
           "industry": {
@@ -3139,7 +3139,7 @@
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結檔案每次儲存10個，可在結果畫面繼續儲存下一批10個。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
             }
           ],
           "industry": {
@@ -3210,7 +3210,7 @@
             },
             {
               "q": "Can I use this for free?",
-              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images and directly linked files on that page have no plan-based count cap. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; its directly linked files are saved 10 at a time, and the result screen saves the next 10. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
             },
             {
               "q": "What does the file-information CSV contain?",
@@ -3275,7 +3275,7 @@
             },
             {
               "q": "無料で使えますか？",
-              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がなく、直接リンクされたファイルは1回10件ずつ保存します（残りは結果画面の「次の10件を保存」で続けて保存できます）。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
             },
             {
               "q": "ファイル情報CSVには何が入りますか？",
@@ -3340,7 +3340,7 @@
             },
             {
               "q": "¿Puedo usarlo gratis?",
-              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes y los archivos enlazados directamente en esa página no tienen límite de cantidad por plan. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan de 10 en 10 y la pantalla de resultados guarda los 10 siguientes. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
             },
             {
               "q": "¿Qué contiene el CSV de información?",
@@ -3405,7 +3405,7 @@
             },
             {
               "q": "Puis-je l’utiliser gratuitement ?",
-              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images et fichiers directement liés sur cette page n’ont pas de plafond lié au forfait. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; ses fichiers directement liés sont enregistrés par groupes de 10, et l’écran de résultat enregistre les 10 suivants. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
             },
             {
               "q": "Que contient le CSV d’informations ?",
@@ -3470,7 +3470,7 @@
             },
             {
               "q": "Ist dies kostenlos nutzbar?",
-              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder und direkt verlinkte Dateien auf dieser Seite haben kein planbedingtes Mengenlimit. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden in 10er-Schritten gespeichert, die nächsten 10 über den Ergebnisbildschirm. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
             },
             {
               "q": "Was enthält die Dateiinfo-CSV?",
@@ -3535,7 +3535,7 @@
             },
             {
               "q": "Posso usarlo gratis?",
-              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Immagini e file collegati direttamente in quella pagina non hanno un limite numerico del piano. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati 10 alla volta e la schermata dei risultati salva i 10 successivi. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
             },
             {
               "q": "Cosa contiene il CSV delle informazioni?",
@@ -3600,7 +3600,7 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없고, 직접 연결된 파일은 한 번에 10개씩 저장하며 결과 화면에서 다음 10개를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
             },
             {
               "q": "파일 정보 CSV에는 무엇이 있나요?",
@@ -3665,7 +3665,7 @@
             },
             {
               "q": "Posso usar grátis?",
-              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. Imagens e arquivos diretamente vinculados nessa página não têm limite de quantidade do plano. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos diretamente vinculados são salvos de 10 em 10, e a tela de resultado salva os 10 seguintes. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
             },
             {
               "q": "O que contém o CSV de informações?",
@@ -3730,7 +3730,7 @@
             },
             {
               "q": "可以免费使用吗？",
-              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片和直接链接文件没有套餐数量上限。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接文件每次保存10个，可在结果画面继续保存下一批10个。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
             },
             {
               "q": "文件信息CSV包含什么？",
@@ -3795,7 +3795,7 @@
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結檔案每次儲存10個，可在結果畫面繼續儲存下一批10個。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
             },
             {
               "q": "檔案資訊CSV包含什麼？",
@@ -10530,16 +10530,16 @@
       path: "combine-web-pages-into-one-html.html",
       related: ["download-files-from-webpage", "internal-portal-downloads", "download-all-pdfs"],
       cta: {
-        en: { title: "Save one related page free—or combine several with Pro.", text: "Discovery and HTML generation stay on your device. Free lists related candidates and saves exactly the one page you choose; images and directly linked files on that page have no plan-based count cap. Pro selects multiple candidates and combines their readable page bodies into one HTML. Safety and source-site limits apply." },
-        ja: { title: "無料版は選んだ1ページ。Proは複数ページを1つに。", text: "探索とHTML生成は端末内で処理します。無料版は関連候補を一覧表示し、常に選んだ1ページだけを保存。そのページ内の画像・直接リンクされたファイルにはプラン上の件数制限がありません。Proは複数候補の本文を1つのHTMLに結合します。安全上限・サイト側制限は適用されます。" },
-        es: { title: "Guarda una página gratis o combina varias con Pro.", text: "La búsqueda y la generación de HTML permanecen en tu dispositivo. Free enumera las candidatas y guarda exactamente la página que elijas; las imágenes y archivos enlazados directamente no tienen límite de cantidad por plan. Pro combina el contenido de varias páginas seleccionadas. Se aplican límites de seguridad y del sitio fuente." },
-        fr: { title: "Enregistrez une page gratuitement ou regroupez-en plusieurs avec Pro.", text: "La découverte et la génération HTML restent sur votre appareil. Free liste les pages candidates et enregistre exactement celle que vous choisissez ; les images et fichiers directement liés n’ont pas de plafond lié au forfait. Pro regroupe le contenu de plusieurs pages sélectionnées. Les limites de sécurité et du site source s’appliquent." },
-        de: { title: "Eine Seite kostenlos speichern oder mehrere mit Pro bündeln.", text: "Suche und HTML-Erstellung bleiben auf Ihrem Gerät. Free listet Kandidaten und speichert genau die gewählte Seite; Bilder und direkt verlinkte Dateien haben kein planbedingtes Mengenlimit. Pro bündelt die Inhalte mehrerer gewählter Seiten. Sicherheits- und Quellseitenlimits gelten weiterhin." },
-        it: { title: "Salva gratis una pagina o uniscine più con Pro.", text: "Ricerca e generazione HTML restano sul dispositivo. Free elenca le pagine candidate e salva esattamente quella scelta; immagini e file collegati direttamente non hanno un limite numerico del piano. Pro unisce il contenuto di più pagine selezionate. Restano validi i limiti di sicurezza e del sito sorgente." },
-        ko: { title: "Free로 1페이지를 저장하거나 Pro로 여러 페이지를 결합하세요.", text: "탐색과 HTML 생성은 기기에서 처리됩니다. Free는 관련 후보를 나열하고 선택한 정확히 1페이지만 저장합니다. 그 페이지의 이미지와 직접 연결된 파일에는 플랜상 개수 제한이 없습니다. Pro는 여러 후보의 본문을 하나의 HTML로 결합합니다. 안전 및 원본 사이트 제한은 적용됩니다." },
-        pt_BR: { title: "Salve uma página grátis ou reúna várias com o Pro.", text: "A descoberta e a geração de HTML ficam no dispositivo. O Free lista candidatas e salva exatamente a página escolhida; imagens e arquivos diretamente vinculados não têm limite de quantidade do plano. O Pro reúne o conteúdo de várias páginas selecionadas. Aplicam-se limites de segurança e do site de origem." },
-        zh_CN: { title: "免费保存1个页面，或使用Pro合并多个页面。", text: "候选查找和HTML生成均在设备上完成。Free列出相关候选，并仅保存您选择的1个页面；该页面内的图片和直接链接文件没有套餐数量上限。Pro可选择多个候选并将其正文合并为一个HTML。仍适用安全和源网站限制。" },
-        zh_TW: { title: "免費儲存1個頁面，或使用Pro合併多個頁面。", text: "候選探索和HTML產生均在裝置上完成。Free列出相關候選，並只儲存您選擇的1個頁面；該頁面內的圖片和直接連結檔案沒有方案數量上限。Pro可選擇多個候選並將其正文合併成一個HTML。仍適用安全和來源網站限制。" }
+        en: { title: "Save one related page free—or combine several with Pro.", text: "Discovery and HTML generation stay on your device. Free lists related candidates and saves exactly the one page you choose; images on that page have no plan-based count cap, and its directly linked files are saved 10 at a time (the result screen saves the next 10). Pro selects multiple candidates and combines their readable page bodies into one HTML. Safety and source-site limits apply." },
+        ja: { title: "無料版は選んだ1ページ。Proは複数ページを1つに。", text: "探索とHTML生成は端末内で処理します。無料版は関連候補を一覧表示し、常に選んだ1ページだけを保存。そのページ内の画像にはプラン上の件数制限がなく、直接リンクされたファイルは1回10件ずつ保存します（残りは結果画面の「次の10件を保存」で続けて保存できます）。Proは複数候補の本文を1つのHTMLに結合します。安全上限・サイト側制限は適用されます。" },
+        es: { title: "Guarda una página gratis o combina varias con Pro.", text: "La búsqueda y la generación de HTML permanecen en tu dispositivo. Free enumera las candidatas y guarda exactamente la página que elijas; las imágenes no tienen límite de cantidad por plan y los archivos enlazados directamente se guardan de 10 en 10 (la pantalla de resultados guarda los 10 siguientes). Pro combina el contenido de varias páginas seleccionadas. Se aplican límites de seguridad y del sitio fuente." },
+        fr: { title: "Enregistrez une page gratuitement ou regroupez-en plusieurs avec Pro.", text: "La découverte et la génération HTML restent sur votre appareil. Free liste les pages candidates et enregistre exactement celle que vous choisissez ; les images n’ont pas de plafond lié au forfait et les fichiers directement liés sont enregistrés par groupes de 10 (l’écran de résultat enregistre les 10 suivants). Pro regroupe le contenu de plusieurs pages sélectionnées. Les limites de sécurité et du site source s’appliquent." },
+        de: { title: "Eine Seite kostenlos speichern oder mehrere mit Pro bündeln.", text: "Suche und HTML-Erstellung bleiben auf Ihrem Gerät. Free listet Kandidaten und speichert genau die gewählte Seite; Bilder haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden in 10er-Schritten gespeichert, die nächsten 10 über den Ergebnisbildschirm. Pro bündelt die Inhalte mehrerer gewählter Seiten. Sicherheits- und Quellseitenlimits gelten weiterhin." },
+        it: { title: "Salva gratis una pagina o uniscine più con Pro.", text: "Ricerca e generazione HTML restano sul dispositivo. Free elenca le pagine candidate e salva esattamente quella scelta; le immagini non hanno un limite numerico del piano e i file collegati direttamente vengono salvati 10 alla volta (la schermata dei risultati salva i 10 successivi). Pro unisce il contenuto di più pagine selezionate. Restano validi i limiti di sicurezza e del sito sorgente." },
+        ko: { title: "Free로 1페이지를 저장하거나 Pro로 여러 페이지를 결합하세요.", text: "탐색과 HTML 생성은 기기에서 처리됩니다. Free는 관련 후보를 나열하고 선택한 정확히 1페이지만 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없고, 직접 연결된 파일은 한 번에 10개씩 저장하며 결과 화면에서 다음 10개를 저장할 수 있습니다. Pro는 여러 후보의 본문을 하나의 HTML로 결합합니다. 안전 및 원본 사이트 제한은 적용됩니다." },
+        pt_BR: { title: "Salve uma página grátis ou reúna várias com o Pro.", text: "A descoberta e a geração de HTML ficam no dispositivo. O Free lista candidatas e salva exatamente a página escolhida; as imagens não têm limite de quantidade do plano e os arquivos diretamente vinculados são salvos de 10 em 10 (a tela de resultado salva os 10 seguintes). O Pro reúne o conteúdo de várias páginas selecionadas. Aplicam-se limites de segurança e do site de origem." },
+        zh_CN: { title: "免费保存1个页面，或使用Pro合并多个页面。", text: "候选查找和HTML生成均在设备上完成。Free列出相关候选，并仅保存您选择的1个页面；该页面内的图片没有套餐数量上限；直接链接文件每次保存10个，可在结果画面继续保存下一批10个。Pro可选择多个候选并将其正文合并为一个HTML。仍适用安全和源网站限制。" },
+        zh_TW: { title: "免費儲存1個頁面，或使用Pro合併多個頁面。", text: "候選探索和HTML產生均在裝置上完成。Free列出相關候選，並只儲存您選擇的1個頁面；該頁面內的圖片沒有方案數量上限；直接連結檔案每次儲存10個，可在結果畫面繼續儲存下一批10個。Pro可選擇多個候選並將其正文合併成一個HTML。仍適用安全和來源網站限制。" }
       },
       copy: {
         en: c(
