@@ -108,6 +108,30 @@
     .email-suggest.show { display: block; }
     .email-suggest button { background: none; border: 0; padding: 0; font: inherit; color: var(--primary); cursor: pointer; text-decoration: underline; }
     .status.show { display: block; }
+
+    /* E-mail confirmation (6-digit code), same flow as the hokenkikaku forms */
+    .verify-card { border: 1px solid var(--border-strong); border-radius: 12px; padding: 1rem 1.1rem 1.1rem; display: grid; gap: 0.75rem; min-width: 0; }
+    .verify-card legend { font-size: 0.9rem; font-weight: 700; color: var(--text-strong); padding: 0 0.35rem; }
+    .verify-card .lead { font-size: 0.82rem; color: var(--text-muted); line-height: 1.55; }
+    .verify-row { display: flex; gap: 0.6rem; align-items: stretch; flex-wrap: wrap; }
+    .verify-row > input { flex: 1 1 14rem; min-width: 0; }
+    .verify-btn { background: var(--primary); color: var(--primary-text); border: 0; border-radius: 9px; padding: 0.6rem 1rem; font: inherit; font-size: 0.88rem; font-weight: 600; cursor: pointer; white-space: nowrap; display: inline-flex; align-items: center; justify-content: center; gap: 0.45rem; }
+    @media (max-width: 540px) { .verify-row { flex-direction: column; } .verify-row > input { flex: none; } .verify-btn { padding: 0.7rem 1rem; } }
+    .verify-btn:hover:not(:disabled) { background: var(--primary-hover); }
+    .verify-btn:disabled { background: var(--primary-disabled); cursor: not-allowed; }
+    .link-btn { background: none; border: 0; padding: 0; font: inherit; font-size: 0.8rem; color: var(--primary); cursor: pointer; text-decoration: underline; }
+    .link-btn:disabled { color: var(--text-faint); cursor: default; text-decoration: none; }
+    .code-input { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 1.15rem !important; letter-spacing: 0.35em; }
+    .verify-btn[hidden], .code-step[hidden], .verified-line[hidden], #after-verify[hidden] { display: none !important; }
+    .code-step { display: grid; gap: 0.55rem; }
+    .code-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; }
+    .verify-status { font-size: 0.82rem; line-height: 1.5; min-height: 0; }
+    .verify-status.error { color: var(--error-text); }
+    .verify-status.ok { color: var(--success-text); }
+    .verified-line { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.9rem; font-size: 0.84rem; }
+    .verified-badge { display: inline-flex; align-items: center; gap: 0.3rem; background: var(--success-bg); color: var(--success-text); border: 1px solid var(--success-border); border-radius: 999px; padding: 0.12rem 0.6rem; font-weight: 600; font-size: 0.78rem; }
+    .field input[readonly] { background: var(--surface-soft); color: var(--text-muted); }
+    #after-verify { display: grid; gap: 1rem; }
     .status.success { background: var(--success-bg); color: var(--success-text); border: 1px solid var(--success-border); }
     .status.error { background: var(--error-bg); color: var(--error-text); border: 1px solid var(--error-border); }
 
@@ -177,6 +201,39 @@
 
     <div class="card">
       <form id="contact-form" novalidate>
+        <fieldset class="verify-card" id="verify-card">
+          <legend id="l-verify-title">Confirm your email</legend>
+          <p class="lead" id="l-verify-lead">We'll send a 6-digit code to this address. Enter it to continue to the message form.</p>
+          <div class="field">
+            <label for="f-email" id="l-email">Your email <span class="req">*</span></label>
+            <div class="verify-row">
+              <input type="email" id="f-email" name="email" autocomplete="email" inputmode="email" required maxlength="254">
+              <button type="button" class="verify-btn" id="send-code-btn"><span id="send-code-label">Send code</span></button>
+            </div>
+            <span class="email-suggest" id="email-suggest" aria-live="polite"></span>
+          </div>
+          <div class="code-step" id="code-step" hidden>
+            <div class="field">
+              <label for="f-code" id="l-code">Confirmation code</label>
+              <div class="verify-row">
+                <input type="text" id="f-code" class="code-input" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="[0-9]*" aria-describedby="code-help verify-status">
+                <button type="button" class="verify-btn" id="verify-btn"><span id="verify-label">Confirm</span></button>
+              </div>
+              <span class="help" id="code-help"></span>
+            </div>
+            <div class="code-links">
+              <button type="button" class="link-btn" id="resend-btn">Resend code</button>
+              <button type="button" class="link-btn" id="change-email-btn">Change address</button>
+            </div>
+          </div>
+          <div class="verified-line" id="verified-line" hidden>
+            <span class="verified-badge" id="l-verified">✓ Confirmed</span>
+            <button type="button" class="link-btn" id="change-email-btn2">Change address</button>
+          </div>
+          <p class="verify-status" id="verify-status" role="status" aria-live="polite"></p>
+        </fieldset>
+
+        <div id="after-verify" hidden inert>
         <div class="field">
           <label for="f-category" id="l-category">What is this about? <span class="req">*</span></label>
           <select id="f-category" name="category" required>
@@ -187,16 +244,9 @@
           </select>
         </div>
 
-        <div class="row-2">
-          <div class="field">
-            <label for="f-name" id="l-name">Your name</label>
-            <input type="text" id="f-name" name="name" autocomplete="name" maxlength="100">
-          </div>
-          <div class="field">
-            <label for="f-email" id="l-email">Your email <span class="req">*</span></label>
-            <input type="email" id="f-email" name="email" autocomplete="email" required maxlength="254">
-            <span class="email-suggest" id="email-suggest" aria-live="polite"></span>
-          </div>
+        <div class="field">
+          <label for="f-name" id="l-name">Your name</label>
+          <input type="text" id="f-name" name="name" autocomplete="name" maxlength="100">
         </div>
 
         <div class="field">
@@ -239,6 +289,7 @@
         <button type="submit" class="submit-btn" id="submit-btn">
           <span id="submit-label">Send message</span>
         </button>
+        </div>
 
         <div class="status" id="status" role="status" aria-live="polite"></div>
       </form>
@@ -287,6 +338,25 @@
 
       emailSuggest: 'Did you mean {email}?',
       successNote: 'If you have not heard back within 3 business days, please e-mail support@grab-all-files.app directly.',
+      verifyTitle: "Confirm your email",
+      verifyLead: "We'll send a 6-digit code to this address. Enter it to continue to the message form.",
+      sendCode: "Send code",
+      sendingCode: "Sending…",
+      lCode: "Confirmation code",
+      codeHelp: "Enter the 6-digit code sent to {email}. It expires in 10 minutes. If it doesn't arrive, check your spam folder.",
+      verify: "Confirm",
+      verifying: "Checking…",
+      resend: "Resend code",
+      resendIn: "Resend in {s}s",
+      changeEmail: "Change address",
+      verified: "✓ Confirmed",
+      codeSent: "Code sent. Check your inbox.",
+      errCodeInvalid: "That code is not correct. Please check it and try again.",
+      errCodeExpired: "This code has expired. Please request a new one.",
+      errCodeAttempts: "Too many attempts. Please request a new code.",
+      errRateLimited: "Too many requests. Please wait a while and try again.",
+      errSendCode: "Could not send the code. Please check the address and try again.",
+      errVerifyAgain: "Your email confirmation has expired. Please confirm your address again.",
     },
     ja: {
       title: 'お問い合わせ',
@@ -318,6 +388,25 @@
 
       emailSuggest: 'もしかして {email} ではありませんか？',
       successNote: '3営業日以内に返信がない場合は、support@grab-all-files.app まで直接ご連絡ください。',
+      verifyTitle: "メールアドレスの確認",
+      verifyLead: "入力されたメールアドレスに6桁の確認コードを送信します。コードを入力すると、お問い合わせ内容の入力に進めます。",
+      sendCode: "確認コードを送信",
+      sendingCode: "送信中…",
+      lCode: "確認コード",
+      codeHelp: "{email} に届いた6桁のコードを入力してください。有効期限は10分です。届かない場合は迷惑メールフォルダーをご確認ください。",
+      verify: "確認して進む",
+      verifying: "確認中…",
+      resend: "コードを再送信",
+      resendIn: "{s}秒後に再送信できます",
+      changeEmail: "メールアドレスを変更",
+      verified: "✓ 確認済み",
+      codeSent: "確認コードを送信しました。メールをご確認ください。",
+      errCodeInvalid: "確認コードが正しくありません。もう一度ご確認ください。",
+      errCodeExpired: "確認コードの有効期限が切れました。もう一度送信してください。",
+      errCodeAttempts: "入力回数の上限に達しました。新しいコードを送信してください。",
+      errRateLimited: "短時間に操作が集中しています。しばらく待ってからお試しください。",
+      errSendCode: "確認コードを送信できませんでした。メールアドレスをご確認のうえ、もう一度お試しください。",
+      errVerifyAgain: "メールアドレスの確認の有効期限が切れました。もう一度確認してください。",
     },
     es: {
       title: 'Contacto',
@@ -349,6 +438,25 @@
 
       emailSuggest: '¿Quiso decir {email}?',
       successNote: 'Si no recibe respuesta en 3 días hábiles, escríbanos directamente a support@grab-all-files.app.',
+      verifyTitle: "Confirme su correo electrónico",
+      verifyLead: "Enviaremos un código de 6 dígitos a esta dirección. Introdúzcalo para continuar con el formulario.",
+      sendCode: "Enviar código",
+      sendingCode: "Enviando…",
+      lCode: "Código de confirmación",
+      codeHelp: "Introduzca el código de 6 dígitos enviado a {email}. Caduca en 10 minutos. Si no llega, revise la carpeta de spam.",
+      verify: "Confirmar",
+      verifying: "Comprobando…",
+      resend: "Reenviar código",
+      resendIn: "Reenviar en {s} s",
+      changeEmail: "Cambiar dirección",
+      verified: "✓ Confirmado",
+      codeSent: "Código enviado. Revise su bandeja de entrada.",
+      errCodeInvalid: "El código no es correcto. Revíselo e inténtelo de nuevo.",
+      errCodeExpired: "El código ha caducado. Solicite uno nuevo.",
+      errCodeAttempts: "Demasiados intentos. Solicite un código nuevo.",
+      errRateLimited: "Demasiadas solicitudes. Espere un momento e inténtelo de nuevo.",
+      errSendCode: "No se pudo enviar el código. Revise la dirección e inténtelo de nuevo.",
+      errVerifyAgain: "La confirmación de su correo ha caducado. Confirme su dirección de nuevo.",
     },
     fr: {
       title: 'Contact',
@@ -380,6 +488,25 @@
 
       emailSuggest: 'Vouliez-vous dire {email} ?',
       successNote: 'Sans réponse de notre part sous 3 jours ouvrés, écrivez-nous directement à support@grab-all-files.app.',
+      verifyTitle: "Confirmez votre e-mail",
+      verifyLead: "Nous enverrons un code à 6 chiffres à cette adresse. Saisissez-le pour accéder au formulaire.",
+      sendCode: "Envoyer le code",
+      sendingCode: "Envoi…",
+      lCode: "Code de confirmation",
+      codeHelp: "Saisissez le code à 6 chiffres envoyé à {email}. Il expire dans 10 minutes. S’il n’arrive pas, vérifiez vos spams.",
+      verify: "Confirmer",
+      verifying: "Vérification…",
+      resend: "Renvoyer le code",
+      resendIn: "Renvoyer dans {s} s",
+      changeEmail: "Changer d’adresse",
+      verified: "✓ Confirmé",
+      codeSent: "Code envoyé. Consultez votre boîte de réception.",
+      errCodeInvalid: "Ce code est incorrect. Vérifiez-le et réessayez.",
+      errCodeExpired: "Ce code a expiré. Demandez-en un nouveau.",
+      errCodeAttempts: "Trop de tentatives. Demandez un nouveau code.",
+      errRateLimited: "Trop de demandes. Patientez un moment puis réessayez.",
+      errSendCode: "Impossible d’envoyer le code. Vérifiez l’adresse et réessayez.",
+      errVerifyAgain: "La confirmation de votre e-mail a expiré. Veuillez confirmer à nouveau votre adresse.",
     },
     ko: {
       title: '문의하기',
@@ -411,6 +538,25 @@
 
       emailSuggest: '혹시 {email} 아닌가요?',
       successNote: '3영업일 이내에 답장이 없으면 support@grab-all-files.app 으로 직접 연락해 주세요.',
+      verifyTitle: "이메일 주소 확인",
+      verifyLead: "입력한 이메일 주소로 6자리 확인 코드를 보냅니다. 코드를 입력하면 문의 내용 입력으로 넘어갑니다.",
+      sendCode: "확인 코드 보내기",
+      sendingCode: "보내는 중…",
+      lCode: "확인 코드",
+      codeHelp: "{email}(으)로 받은 6자리 코드를 입력해 주세요. 유효 시간은 10분입니다. 메일이 오지 않으면 스팸함을 확인해 주세요.",
+      verify: "확인하고 계속",
+      verifying: "확인 중…",
+      resend: "코드 다시 보내기",
+      resendIn: "{s}초 후 다시 보낼 수 있습니다",
+      changeEmail: "이메일 주소 변경",
+      verified: "✓ 확인 완료",
+      codeSent: "확인 코드를 보냈습니다. 메일함을 확인해 주세요.",
+      errCodeInvalid: "확인 코드가 올바르지 않습니다. 다시 확인해 주세요.",
+      errCodeExpired: "확인 코드가 만료되었습니다. 새 코드를 요청해 주세요.",
+      errCodeAttempts: "입력 횟수를 초과했습니다. 새 코드를 요청해 주세요.",
+      errRateLimited: "요청이 너무 많습니다. 잠시 후 다시 시도해 주세요.",
+      errSendCode: "확인 코드를 보낼 수 없습니다. 이메일 주소를 확인하고 다시 시도해 주세요.",
+      errVerifyAgain: "이메일 확인이 만료되었습니다. 이메일 주소를 다시 확인해 주세요.",
     },
     it: {
       title: 'Contatti',
@@ -442,6 +588,25 @@
 
       emailSuggest: 'Intendevi {email}?',
       successNote: 'Se non ricevi risposta entro 3 giorni lavorativi, scrivici direttamente a support@grab-all-files.app.',
+      verifyTitle: "Conferma la tua email",
+      verifyLead: "Invieremo un codice di 6 cifre a questo indirizzo. Inseriscilo per passare al modulo.",
+      sendCode: "Invia codice",
+      sendingCode: "Invio in corso…",
+      lCode: "Codice di conferma",
+      codeHelp: "Inserisci il codice di 6 cifre inviato a {email}. Scade tra 10 minuti. Se non arriva, controlla la cartella spam.",
+      verify: "Conferma",
+      verifying: "Verifica…",
+      resend: "Invia di nuovo",
+      resendIn: "Nuovo invio tra {s} s",
+      changeEmail: "Cambia indirizzo",
+      verified: "✓ Confermato",
+      codeSent: "Codice inviato. Controlla la tua casella di posta.",
+      errCodeInvalid: "Il codice non è corretto. Controllalo e riprova.",
+      errCodeExpired: "Il codice è scaduto. Richiedine uno nuovo.",
+      errCodeAttempts: "Troppi tentativi. Richiedi un nuovo codice.",
+      errRateLimited: "Troppe richieste. Attendi un momento e riprova.",
+      errSendCode: "Impossibile inviare il codice. Controlla l’indirizzo e riprova.",
+      errVerifyAgain: "La conferma della tua email è scaduta. Conferma di nuovo l’indirizzo.",
     },
     zh_CN: {
       title: '联系我们',
@@ -473,6 +638,25 @@
 
       emailSuggest: '您是否想输入 {email}？',
       successNote: '如果 3 个工作日内没有收到回复，请直接发送邮件至 support@grab-all-files.app。',
+      verifyTitle: "确认邮箱地址",
+      verifyLead: "我们会向该邮箱发送 6 位确认码。输入确认码后即可填写咨询内容。",
+      sendCode: "发送确认码",
+      sendingCode: "发送中…",
+      lCode: "确认码",
+      codeHelp: "请输入发送到 {email} 的 6 位确认码，10 分钟内有效。如未收到，请检查垃圾邮件文件夹。",
+      verify: "确认并继续",
+      verifying: "确认中…",
+      resend: "重新发送",
+      resendIn: "{s} 秒后可重新发送",
+      changeEmail: "更改邮箱地址",
+      verified: "✓ 已确认",
+      codeSent: "确认码已发送，请查收邮件。",
+      errCodeInvalid: "确认码不正确，请检查后重试。",
+      errCodeExpired: "确认码已过期，请重新发送。",
+      errCodeAttempts: "尝试次数过多，请重新获取确认码。",
+      errRateLimited: "请求过于频繁，请稍后再试。",
+      errSendCode: "无法发送确认码。请检查邮箱地址后重试。",
+      errVerifyAgain: "邮箱确认已过期，请重新确认邮箱地址。",
     },
     zh_TW: {
       title: '聯絡我們',
@@ -504,6 +688,25 @@
 
       emailSuggest: '您是否想輸入 {email}？',
       successNote: '如果 3 個工作天內沒有收到回覆，請直接寄信至 support@grab-all-files.app。',
+      verifyTitle: "確認電子郵件地址",
+      verifyLead: "我們會寄送 6 位數確認碼到此地址。輸入確認碼後即可填寫諮詢內容。",
+      sendCode: "傳送確認碼",
+      sendingCode: "傳送中…",
+      lCode: "確認碼",
+      codeHelp: "請輸入寄到 {email} 的 6 位數確認碼，10 分鐘內有效。若未收到，請檢查垃圾郵件資料夾。",
+      verify: "確認並繼續",
+      verifying: "確認中…",
+      resend: "重新傳送",
+      resendIn: "{s} 秒後可重新傳送",
+      changeEmail: "變更電子郵件地址",
+      verified: "✓ 已確認",
+      codeSent: "確認碼已寄出，請查看信箱。",
+      errCodeInvalid: "確認碼不正確，請檢查後再試。",
+      errCodeExpired: "確認碼已過期，請重新傳送。",
+      errCodeAttempts: "嘗試次數過多，請重新取得確認碼。",
+      errRateLimited: "要求過於頻繁，請稍後再試。",
+      errSendCode: "無法傳送確認碼。請檢查電子郵件地址後再試。",
+      errVerifyAgain: "電子郵件確認已過期，請重新確認地址。",
     },
     pt_BR: {
       title: 'Contato',
@@ -535,6 +738,25 @@
 
       emailSuggest: 'Você quis dizer {email}?',
       successNote: 'Se não receber resposta em 3 dias úteis, escreva diretamente para support@grab-all-files.app.',
+      verifyTitle: "Confirme seu e-mail",
+      verifyLead: "Enviaremos um código de 6 dígitos para este endereço. Digite-o para continuar no formulário.",
+      sendCode: "Enviar código",
+      sendingCode: "Enviando…",
+      lCode: "Código de confirmação",
+      codeHelp: "Digite o código de 6 dígitos enviado para {email}. Ele expira em 10 minutos. Se não chegar, verifique a pasta de spam.",
+      verify: "Confirmar",
+      verifying: "Verificando…",
+      resend: "Reenviar código",
+      resendIn: "Reenviar em {s} s",
+      changeEmail: "Alterar endereço",
+      verified: "✓ Confirmado",
+      codeSent: "Código enviado. Verifique sua caixa de entrada.",
+      errCodeInvalid: "O código não está correto. Confira e tente novamente.",
+      errCodeExpired: "O código expirou. Solicite um novo.",
+      errCodeAttempts: "Tentativas demais. Solicite um novo código.",
+      errRateLimited: "Solicitações demais. Aguarde um pouco e tente novamente.",
+      errSendCode: "Não foi possível enviar o código. Confira o endereço e tente novamente.",
+      errVerifyAgain: "A confirmação do seu e-mail expirou. Confirme o endereço novamente.",
     },
     de: {
       title: 'Kontakt',
@@ -566,6 +788,25 @@
 
       emailSuggest: 'Meinten Sie {email}?',
       successNote: 'Falls Sie innerhalb von 3 Werktagen keine Antwort erhalten, schreiben Sie uns bitte direkt an support@grab-all-files.app.',
+      verifyTitle: "E-Mail-Adresse bestätigen",
+      verifyLead: "Wir senden einen 6-stelligen Code an diese Adresse. Geben Sie ihn ein, um zum Formular zu gelangen.",
+      sendCode: "Code senden",
+      sendingCode: "Senden…",
+      lCode: "Bestätigungscode",
+      codeHelp: "Geben Sie den 6-stelligen Code ein, der an {email} gesendet wurde. Er ist 10 Minuten gültig. Falls er nicht ankommt, prüfen Sie den Spam-Ordner.",
+      verify: "Bestätigen",
+      verifying: "Prüfen…",
+      resend: "Code erneut senden",
+      resendIn: "Erneut senden in {s} s",
+      changeEmail: "Adresse ändern",
+      verified: "✓ Bestätigt",
+      codeSent: "Code gesendet. Bitte prüfen Sie Ihr Postfach.",
+      errCodeInvalid: "Der Code ist nicht korrekt. Bitte prüfen und erneut versuchen.",
+      errCodeExpired: "Der Code ist abgelaufen. Bitte fordern Sie einen neuen an.",
+      errCodeAttempts: "Zu viele Versuche. Bitte fordern Sie einen neuen Code an.",
+      errRateLimited: "Zu viele Anfragen. Bitte warten Sie kurz und versuchen Sie es erneut.",
+      errSendCode: "Der Code konnte nicht gesendet werden. Bitte Adresse prüfen und erneut versuchen.",
+      errVerifyAgain: "Die Bestätigung Ihrer E-Mail-Adresse ist abgelaufen. Bitte bestätigen Sie sie erneut.",
     },
   };
 
@@ -641,6 +882,17 @@
     setText('l-page-url', t.lPageUrl);
     setText('l-meta-toggle', t.lMetaToggle);
     setText('submit-label', t.submit);
+    setText('l-verify-title', t.verifyTitle);
+    setText('l-verify-lead', t.verifyLead);
+    setText('l-code', t.lCode);
+    setText('l-verified', t.verified);
+    setText('change-email-btn', t.changeEmail);
+    setText('change-email-btn2', t.changeEmail);
+    if (!verify.busy) {
+      setText('send-code-label', t.sendCode);
+      setText('verify-label', t.verify);
+    }
+    renderVerify();
     // Re-add required asterisks (textContent above clobbered them).
     ['l-category', 'l-email', 'l-message'].forEach(function(id) {
       var el = document.getElementById(id);
@@ -810,15 +1062,223 @@
     el.textContent = '';
   }
 
+  // --- e-mail confirmation (6-digit code) ------------------------------------
+  // Same flow as the hokenkikaku public forms: send a code, type it back, and
+  // only then is the rest of the form shown. The server (contact-form v10)
+  // refuses a submission without the verified token for the same address.
+  var RESEND_COOLDOWN_MS = 60000;
+  var verify = {
+    step: 'email',      // 'email' | 'code' | 'done'
+    email: '',
+    challenge: '',
+    token: '',
+    sentAt: 0,
+    busy: false,
+    status: '',         // key into STRINGS, or ''
+    statusKind: '',
+  };
+  var resendTimer = null;
+
+  function setVerifyStatus(key, kind) {
+    verify.status = key || '';
+    verify.statusKind = kind || '';
+  }
+
+  function renderVerify() {
+    var t = STRINGS[currentLang] || STRINGS.en;
+    var emailInput = document.getElementById('f-email');
+    var sendBtn = document.getElementById('send-code-btn');
+    var codeStep = document.getElementById('code-step');
+    var done = document.getElementById('verified-line');
+    var after = document.getElementById('after-verify');
+    var status = document.getElementById('verify-status');
+    if (!emailInput || !codeStep) return;
+
+    emailInput.readOnly = verify.step !== 'email';
+    sendBtn.hidden = verify.step !== 'email';
+    sendBtn.disabled = verify.busy;
+    codeStep.hidden = verify.step !== 'code';
+    done.hidden = verify.step !== 'done';
+    after.hidden = verify.step !== 'done';
+    if (verify.step === 'done') after.removeAttribute('inert'); else after.setAttribute('inert', '');
+    document.getElementById('verify-btn').disabled = verify.busy;
+
+    if (verify.step === 'code') {
+      var parts = String(t.codeHelp).split('{email}');
+      var help = document.getElementById('code-help');
+      help.textContent = '';
+      help.appendChild(document.createTextNode(parts[0]));
+      var b = document.createElement('strong');
+      b.textContent = verify.email;
+      help.appendChild(b);
+      if (parts.length > 1) help.appendChild(document.createTextNode(parts[1]));
+    }
+
+    var resendBtn = document.getElementById('resend-btn');
+    var wait = Math.ceil((verify.sentAt + RESEND_COOLDOWN_MS - Date.now()) / 1000);
+    if (wait > 0) {
+      resendBtn.disabled = true;
+      resendBtn.textContent = String(t.resendIn).replace('{s}', wait);
+    } else {
+      resendBtn.disabled = verify.busy;
+      resendBtn.textContent = t.resend;
+    }
+
+    status.className = 'verify-status' + (verify.statusKind ? ' ' + verify.statusKind : '');
+    status.textContent = verify.status ? (t[verify.status] || '') : '';
+  }
+
+  function startResendTimer() {
+    clearInterval(resendTimer);
+    resendTimer = setInterval(function () {
+      renderVerify();
+      if (Date.now() >= verify.sentAt + RESEND_COOLDOWN_MS) clearInterval(resendTimer);
+    }, 1000);
+  }
+
+  function resetVerification(statusKey) {
+    clearInterval(resendTimer);
+    verify.step = 'email';
+    verify.challenge = '';
+    verify.token = '';
+    verify.sentAt = 0;
+    setVerifyStatus(statusKey, statusKey ? 'error' : '');
+    document.getElementById('f-code').value = '';
+    renderVerify();
+  }
+
+  function postJson(body) {
+    return fetch(ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    }).then(function (res) {
+      return res.json().then(function (j) { return { ok: res.ok, status: res.status, body: j }; })
+        .catch(function () { return { ok: res.ok, status: res.status, body: null }; });
+    });
+  }
+
+  function withBusy(btnLabelId, busyKey, idleKey, work) {
+    var t = STRINGS[currentLang] || STRINGS.en;
+    verify.busy = true;
+    var label = document.getElementById(btnLabelId);
+    label.innerHTML = '<span class="btn-spinner" aria-hidden="true"></span> ';
+    label.appendChild(document.createTextNode(t[busyKey]));
+    renderVerify();
+    return work().catch(function () {
+      setVerifyStatus('errNetwork', 'error');
+    }).then(function () {
+      verify.busy = false;
+      setText(btnLabelId, (STRINGS[currentLang] || STRINGS.en)[idleKey]);
+      renderVerify();
+    });
+  }
+
+  function sendCode() {
+    if (verify.busy) return;
+    var input = document.getElementById('f-email');
+    var email = (verify.step === 'code' ? verify.email : input.value.trim());
+    hideStatus();
+    if (!isPlausibleEmail(email)) {
+      setVerifyStatus('errEmail', 'error');
+      renderVerify();
+      input.focus();
+      return;
+    }
+    var fromCodeStep = verify.step === 'code';
+    withBusy(fromCodeStep ? 'verify-label' : 'send-code-label', 'sendingCode', fromCodeStep ? 'verify' : 'sendCode', function () {
+      return postJson({ mode: 'send-code', email: email, locale: currentLang }).then(function (r) {
+        if (r.ok && r.body && r.body.ok && r.body.challenge) {
+          verify.step = 'code';
+          verify.email = email;
+          verify.challenge = r.body.challenge;
+          verify.sentAt = Date.now();
+          setVerifyStatus('codeSent', 'ok');
+          startResendTimer();
+          setTimeout(function () { var c = document.getElementById('f-code'); c.value = ''; c.focus(); }, 0);
+        } else if (r.status === 429) {
+          setVerifyStatus('errRateLimited', 'error');
+        } else if (r.body && r.body.error === 'invalid-email') {
+          setVerifyStatus('errEmail', 'error');
+        } else {
+          setVerifyStatus('errSendCode', 'error');
+        }
+      });
+    });
+  }
+
+  function normalizeCode(v) {
+    return String(v || '').replace(/[０-９]/g, function (d) {
+      return String.fromCharCode(d.charCodeAt(0) - 0xfee0);
+    }).replace(/[^0-9]/g, '').slice(0, 6);
+  }
+
+  function verifyCode() {
+    if (verify.busy || verify.step !== 'code') return;
+    var codeInput = document.getElementById('f-code');
+    var code = normalizeCode(codeInput.value);
+    codeInput.value = code;
+    if (code.length !== 6) {
+      setVerifyStatus('errCodeInvalid', 'error');
+      renderVerify();
+      codeInput.focus();
+      return;
+    }
+    withBusy('verify-label', 'verifying', 'verify', function () {
+      return postJson({ mode: 'verify-code', email: verify.email, challenge: verify.challenge, code: code }).then(function (r) {
+        if (r.ok && r.body && r.body.ok && r.body.email_token) {
+          clearInterval(resendTimer);
+          verify.step = 'done';
+          verify.token = r.body.email_token;
+          setVerifyStatus('', '');
+          setTimeout(function () { document.getElementById('f-category').focus(); }, 0);
+        } else {
+          var err = r.body && r.body.error;
+          setVerifyStatus(err === 'code-expired' ? 'errCodeExpired'
+            : err === 'code-attempts' ? 'errCodeAttempts'
+            : r.status === 429 ? 'errRateLimited'
+            : 'errCodeInvalid', 'error');
+          setTimeout(function () { codeInput.select(); }, 0);
+        }
+      });
+    });
+  }
+
+  (function wireVerification() {
+    document.getElementById('send-code-btn').addEventListener('click', sendCode);
+    document.getElementById('resend-btn').addEventListener('click', sendCode);
+    document.getElementById('verify-btn').addEventListener('click', verifyCode);
+    ['change-email-btn', 'change-email-btn2'].forEach(function (id) {
+      document.getElementById(id).addEventListener('click', function () {
+        resetVerification('');
+        var input = document.getElementById('f-email');
+        input.focus();
+        input.select();
+      });
+    });
+    var codeInput = document.getElementById('f-code');
+    codeInput.addEventListener('input', function () {
+      var v = normalizeCode(codeInput.value);
+      if (v !== codeInput.value) codeInput.value = v;
+      if (v.length === 6 && !verify.busy) verifyCode();
+    });
+    renderVerify();
+  })();
+
   function submitForm(e) {
     e.preventDefault();
     var t = STRINGS[currentLang] || STRINGS.en;
     hideStatus();
 
+    // Enter inside the confirmation step drives that step, not a submission.
+    if (verify.step === 'email') { sendCode(); return; }
+    if (verify.step === 'code') { verifyCode(); return; }
+
     var payload = {
       category: document.getElementById('f-category').value,
       name: document.getElementById('f-name').value,
-      email: document.getElementById('f-email').value.trim(),
+      email: verify.email,
+      email_token: verify.token,
       subject: prefilledSubject || derivedSubject(document.getElementById('f-version').value),
       message: document.getElementById('f-message').value,
       version: document.getElementById('f-version').value,
@@ -829,11 +1289,6 @@
       company: document.getElementById('f-company').value,
     };
 
-    if (!isPlausibleEmail(payload.email)) {
-      showStatus('error', t.errEmail);
-      document.getElementById('f-email').focus();
-      return;
-    }
     if (!payload.message || payload.message.trim().length < 5) {
       showStatus('error', t.errMessage);
       document.getElementById('f-message').focus();
@@ -842,24 +1297,22 @@
 
     var btn = document.getElementById('submit-btn');
     var labelEl = document.getElementById('submit-label');
-    var originalLabel = labelEl.textContent;
     btn.disabled = true;
     labelEl.innerHTML = '<span class="btn-spinner" aria-hidden="true"></span> ' + t.submitting;
 
-    fetch(ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-    }).then(function(res) {
-      return res.json().then(function(j) { return { ok: res.ok, status: res.status, body: j }; })
-        .catch(function() { return { ok: res.ok, status: res.status, body: null }; });
-    }).then(function(r) {
+    postJson(payload).then(function(r) {
       if (r.ok && r.body && r.body.ok) {
         showStatus('success', t.success + (t.successNote ? '\n' + t.successNote : ''));
         clearEmailSuggestion();
         document.getElementById('contact-form').reset();
+        resetVerification('');
         // Re-fill auto-detected meta after reset.
         prefillFromQuery();
+      } else if (r.status === 403 && r.body && /^verification-/.test(r.body.error || '')) {
+        resetVerification('errVerifyAgain');
+        document.getElementById('f-email').focus();
+      } else if (r.status === 429) {
+        showStatus('error', t.errRateLimited);
       } else {
         showStatus('error', t.errServer);
       }
@@ -867,7 +1320,7 @@
       showStatus('error', t.errNetwork);
     }).then(function() {
       btn.disabled = false;
-      labelEl.textContent = originalLabel;
+      labelEl.textContent = (STRINGS[currentLang] || STRINGS.en).submit;
     });
   }
 
