@@ -40,6 +40,10 @@ Detailed guide: https://grab-all-files.app/use-cases/download-files-from-webpage
 
 Detailed guide: https://grab-all-files.app/use-cases/combine-web-pages-into-one-html.html
 
+From a computer folder: the same tool can also read a folder or ZIP of .html/.htm/.xhtml files already on the user's computer (a saved website, exported help or documentation, a manual delivered as HTML pages) and combine them into one offline HTML with a table of contents. Page order follows the links from index.html; local images are embedded and links between the combined pages become in-file jumps; legacy Shift_JIS, EUC-JP and ISO-2022-JP pages are detected automatically. Nothing is uploaded and no site permission is needed. Free converts one chosen HTML file per run; combining multiple files requires Pro.
+
+Detailed guide: https://grab-all-files.app/use-cases/combine-local-html-files-into-one.html
+
 ### Shared behavior
 
 - Both tools process page content and output locally on the user's device; page content, URLs, file names, and file contents are not uploaded to the developer's servers.
@@ -134,6 +138,7 @@ Guide: https://grab-all-files.app/use-cases/save-web-pages-as-markdown.html
 - Save online work manuals and knowledge pages: https://grab-all-files.app/use-cases/save-online-manuals-and-knowledge-pages.html
 - Collect web information to read and prepare external AI analysis: https://grab-all-files.app/use-cases/web-pages-for-reading-and-ai-analysis.html
 - Combine multiple web pages into one HTML file: https://grab-all-files.app/use-cases/combine-web-pages-into-one-html.html
+- Combine local HTML files (a folder or ZIP on your computer) into one HTML file: https://grab-all-files.app/use-cases/combine-local-html-files-into-one.html
 - Download all PDFs from a website: https://grab-all-files.app/use-cases/download-all-pdfs.html
 - Bulk download images from a web page: https://grab-all-files.app/use-cases/bulk-download-images.html
 - Download all files from a web page: https://grab-all-files.app/use-cases/download-files-from-webpage.html

@@ -32,6 +32,7 @@ export const CASE_IDS = [
   'save-online-manuals-and-knowledge-pages',
   'web-pages-for-reading-and-ai-analysis',
   'combine-web-pages-into-one-html',
+  'combine-local-html-files-into-one',
   'bulk-download-images',
   'download-all-pdfs',
   'download-files-from-webpage',
