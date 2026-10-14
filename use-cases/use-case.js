@@ -349,6 +349,7 @@
     "save-online-manuals-and-knowledge-pages",
     "web-pages-for-reading-and-ai-analysis",
     "combine-web-pages-into-one-html",
+    "combine-local-html-files-into-one",
     "download-all-pdfs",
     "bulk-download-images",
     "download-files-from-webpage",
@@ -372,6 +373,7 @@
       "save-online-manuals-and-knowledge-pages": "Save manuals & knowledge pages",
       "web-pages-for-reading-and-ai-analysis": "Collect, read & analyse with AI",
       "combine-web-pages-into-one-html": "Combine pages into HTML",
+      "combine-local-html-files-into-one": "Local HTML files into one",
       "download-all-pdfs": "Download all PDFs",
       "bulk-download-images": "Bulk-download images",
       "download-files-from-webpage": "Download files from a page",
@@ -393,6 +395,7 @@
       "save-online-manuals-and-knowledge-pages": "業務マニュアル・ナレッジを保存",
       "web-pages-for-reading-and-ai-analysis": "集めて読む・AIで分析する",
       "combine-web-pages-into-one-html": "ページをHTMLにまとめる",
+      "combine-local-html-files-into-one": "パソコン内のHTMLを1つに",
       "download-all-pdfs": "PDFを一括ダウンロード",
       "bulk-download-images": "画像を一括ダウンロード",
       "download-files-from-webpage": "ページ上のファイルを保存",
@@ -414,6 +417,7 @@
       "save-online-manuals-and-knowledge-pages": "Guardar manuales y conocimiento",
       "web-pages-for-reading-and-ai-analysis": "Recopilar, leer y analizar con IA",
       "combine-web-pages-into-one-html": "Combinar páginas en HTML",
+      "combine-local-html-files-into-one": "HTML locales en uno",
       "download-all-pdfs": "Descargar todos los PDF",
       "bulk-download-images": "Descargar imágenes en masa",
       "download-files-from-webpage": "Archivos de una página",
@@ -435,6 +439,7 @@
       "save-online-manuals-and-knowledge-pages": "Enregistrer manuels et connaissances",
       "web-pages-for-reading-and-ai-analysis": "Collecter, lire et analyser avec l’IA",
       "combine-web-pages-into-one-html": "Regrouper les pages en HTML",
+      "combine-local-html-files-into-one": "Fichiers HTML locaux en un seul",
       "download-all-pdfs": "Télécharger tous les PDF",
       "bulk-download-images": "Télécharger les images",
       "download-files-from-webpage": "Fichiers d'une page",
@@ -456,6 +461,7 @@
       "save-online-manuals-and-knowledge-pages": "Handbücher und Wissensseiten sichern",
       "web-pages-for-reading-and-ai-analysis": "Sammeln, lesen und mit KI analysieren",
       "combine-web-pages-into-one-html": "Seiten als HTML bündeln",
+      "combine-local-html-files-into-one": "Lokale HTML-Dateien in eins",
       "download-all-pdfs": "Alle PDFs herunterladen",
       "bulk-download-images": "Bilder gesammelt laden",
       "download-files-from-webpage": "Dateien einer Seite",
@@ -477,6 +483,7 @@
       "save-online-manuals-and-knowledge-pages": "Salvare manuali e pagine di conoscenza",
       "web-pages-for-reading-and-ai-analysis": "Raccogliere, leggere e analizzare con IA",
       "combine-web-pages-into-one-html": "Unisci pagine in HTML",
+      "combine-local-html-files-into-one": "File HTML locali in uno",
       "download-all-pdfs": "Scaricare tutti i PDF",
       "bulk-download-images": "Scaricare immagini",
       "download-files-from-webpage": "File da una pagina",
@@ -498,6 +505,7 @@
       "save-online-manuals-and-knowledge-pages": "업무 매뉴얼·지식 페이지 저장",
       "web-pages-for-reading-and-ai-analysis": "정보 수집·읽기·AI 분석",
       "combine-web-pages-into-one-html": "페이지를 HTML로 합치기",
+      "combine-local-html-files-into-one": "컴퓨터의 HTML을 하나로",
       "download-all-pdfs": "모든 PDF 다운로드",
       "bulk-download-images": "이미지 일괄 다운로드",
       "download-files-from-webpage": "페이지 파일 다운로드",
@@ -519,6 +527,7 @@
       "save-online-manuals-and-knowledge-pages": "Salvar manuais e conhecimento",
       "web-pages-for-reading-and-ai-analysis": "Coletar, ler e analisar com IA",
       "combine-web-pages-into-one-html": "Juntar páginas em HTML",
+      "combine-local-html-files-into-one": "HTMLs locais em um só",
       "download-all-pdfs": "Baixar todos os PDFs",
       "bulk-download-images": "Baixar imagens",
       "download-files-from-webpage": "Arquivos de uma página",
@@ -540,6 +549,7 @@
       "save-online-manuals-and-knowledge-pages": "保存业务手册与知识文章",
       "web-pages-for-reading-and-ai-analysis": "收集信息·阅读·AI分析",
       "combine-web-pages-into-one-html": "将网页合并为 HTML",
+      "combine-local-html-files-into-one": "电脑里的 HTML 合为一个",
       "download-all-pdfs": "下载所有PDF",
       "bulk-download-images": "批量下载图片",
       "download-files-from-webpage": "下载网页文件",
@@ -561,6 +571,7 @@
       "save-online-manuals-and-knowledge-pages": "儲存業務手冊與知識文章",
       "web-pages-for-reading-and-ai-analysis": "收集資訊·閱讀·AI分析",
       "combine-web-pages-into-one-html": "將網頁合併為 HTML",
+      "combine-local-html-files-into-one": "電腦裡的 HTML 合為一個",
       "download-all-pdfs": "下載所有PDF",
       "bulk-download-images": "批次下載圖片",
       "download-files-from-webpage": "下載網頁檔案",
@@ -570,6 +581,1078 @@
   };
 
   var CASES = {
+    "combine-local-html-files-into-one": {
+      "path": "combine-local-html-files-into-one.html",
+      "related": [
+        "combine-web-pages-into-one-html",
+        "save-online-manuals-and-knowledge-pages",
+        "web-pages-for-reading-and-ai-analysis"
+      ],
+      "cta": {
+        "en": {
+          "title": "Turn a folder of HTML pages into one file.",
+          "text": "Free converts one chosen HTML file from the folder per run, with local images embedded. Pro ($19.99, one-time) combines all the pages you select into one HTML with a shared table of contents and internal links. Everything is processed on your device."
+        },
+        "ja": {
+          "title": "HTMLのフォルダを、1つのファイルに。",
+          "text": "無料版は、フォルダ内の選んだ1つのHTMLファイルを、画像を埋め込んだ1ファイルに変換します（1回につき1ファイル）。Pro（$19.99・買い切り）は、選んだページをすべて共通の目次とページ内リンク付きの1つのHTMLにまとめます。処理はすべてお使いのパソコン上で行います。"
+        },
+        "es": {
+          "title": "Convierte una carpeta de páginas HTML en un solo archivo.",
+          "text": "Free convierte un archivo HTML elegido de la carpeta por ejecución, con las imágenes locales incrustadas. Pro ($19.99, pago único) combina todas las páginas que selecciones en un solo HTML con índice común y enlaces internos. Todo se procesa en tu dispositivo."
+        },
+        "fr": {
+          "title": "Transformez un dossier de pages HTML en un seul fichier.",
+          "text": "Free convertit un fichier HTML choisi du dossier par exécution, avec les images locales intégrées. Pro (19,99 $, paiement unique) fusionne toutes les pages sélectionnées en un seul HTML avec sommaire commun et liens internes. Tout est traité sur votre appareil."
+        },
+        "de": {
+          "title": "Einen Ordner mit HTML-Seiten in eine Datei verwandeln.",
+          "text": "Free wandelt pro Durchlauf eine gewählte HTML-Datei aus dem Ordner um, mit eingebetteten lokalen Bildern. Pro (19,99 $, einmalig) führt alle ausgewählten Seiten zu einer HTML-Datei mit gemeinsamem Inhaltsverzeichnis und internen Links zusammen. Alles wird auf Ihrem Gerät verarbeitet."
+        },
+        "it": {
+          "title": "Trasforma una cartella di pagine HTML in un solo file.",
+          "text": "Free converte un file HTML scelto dalla cartella per esecuzione, con le immagini locali incorporate. Pro ($19.99, pagamento unico) unisce tutte le pagine che selezioni in un solo HTML con indice condiviso e link interni. Tutto viene elaborato sul tuo dispositivo."
+        },
+        "ko": {
+          "title": "HTML 페이지 폴더를 파일 하나로.",
+          "text": "Free는 폴더에서 선택한 HTML 파일 하나를 한 번에 변환하며 로컬 이미지가 포함됩니다. Pro($19.99, 1회 결제)는 선택한 모든 페이지를 공통 목차와 내부 링크가 있는 HTML 하나로 합칩니다. 모든 처리는 내 기기에서 이루어집니다."
+        },
+        "pt_BR": {
+          "title": "Transforme uma pasta de páginas HTML em um só arquivo.",
+          "text": "O Free converte um arquivo HTML escolhido da pasta por execução, com as imagens locais incorporadas. O Pro ($19.99, pagamento único) junta todas as páginas que você selecionar em um só HTML com índice compartilhado e links internos. Tudo é processado no seu dispositivo."
+        },
+        "zh_CN": {
+          "title": "把一个HTML页面文件夹，变成一个文件。",
+          "text": "Free 版每次转换文件夹中所选的一个 HTML 文件，并内嵌本地图片。Pro（$19.99，一次性付费）把您选中的所有页面合并成带统一目录和内部链接的一个 HTML。所有处理都在您的设备上完成。"
+        },
+        "zh_TW": {
+          "title": "把一個HTML頁面資料夾，變成一個檔案。",
+          "text": "Free 版每次轉換資料夾中所選的一個 HTML 檔案，並內嵌本機圖片。Pro（$19.99，一次性付費）把您選取的所有頁面合併成附共同目錄和內部連結的一個 HTML。所有處理都在您的裝置上完成。"
+        }
+      },
+      "copy": {
+        "en": {
+          "title": "Combine multiple local HTML files into one HTML file | Grab All Files",
+          "desc": "Merge a folder or ZIP of HTML files on your computer into one offline HTML file with a table of contents, embedded images and working internal links. Nothing is uploaded.",
+          "eyebrow": "Local HTML files → one HTML",
+          "h1": "Combine a folder of HTML files into one HTML file.",
+          "lead": "Have a saved website, an exported manual or a ZIP full of .html pages? Choose the folder or ZIP on your computer and Grab All Files combines the pages into a single HTML file with a table of contents. Pages keep the order of the site’s own links, local images are embedded, and links between pages jump inside the file. Everything runs in your browser; nothing is uploaded.",
+          "best": [
+            "A website you saved or mirrored years ago (index.html plus dozens of pages) that you want as one file to keep, read or search.",
+            "Help files, product manuals or documentation exported as a folder of HTML pages.",
+            "Sharing a multi-page HTML document as one attachment, or printing it to PDF in one go.",
+            "Handing a whole local document set to an AI tool as one source-tracked Markdown or data package."
+          ],
+          "steps": [
+            "Open Grab All Files, choose “Combine pages into HTML”, and switch the source to “From a computer folder”.",
+            "Choose the folder or a ZIP file, or drag it onto the page. .html, .htm and .xhtml files are listed in the order the site links them from index.html; unlinked pages follow by name.",
+            "Review the list: keep or remove pages, switch to file-name order, limit to a sub-folder or leave out paths. Pick a purpose — Keep the site, Share as one file, Print or make a PDF, or Give it to an AI.",
+            "Create the HTML. Check the report for files that could not be read, links to pages you left out and images that could not be embedded."
+          ],
+          "faq": [
+            {
+              "q": "Can I try this for free?",
+              "a": "Yes, with one page: in folder mode the Free plan converts one chosen HTML file per run into a self-contained HTML with its local images embedded. Combining multiple HTML files into one file with a shared table of contents requires Pro ($19.99, one-time)."
+            },
+            {
+              "q": "Are my files uploaded anywhere?",
+              "a": "No. The folder or ZIP is read in your browser and the combined HTML is created on your device. No site permission is needed, and online images referenced by the pages are left as links rather than downloaded."
+            },
+            {
+              "q": "Will old Japanese pages turn into garbled text?",
+              "a": "Pages without a charset declaration, or declared as UTF-8 but actually written in Shift_JIS, EUC-JP or ISO-2022-JP, are detected automatically and read correctly. If every page has the same <title>, the table of contents uses each page’s heading instead."
+            },
+            {
+              "q": "What happens to images, PDFs and links between pages?",
+              "a": "Local PNG, JPEG, GIF, WebP and AVIF images are embedded. Links between the combined pages become jumps inside the file. Linked files such as PDF, Office or ZIP can be copied next to the HTML (default), embedded (20 MiB per file and 100 MiB in total by default) or left as links."
+            },
+            {
+              "q": "Which files can it read?",
+              "a": ".html, .htm and .xhtml files in a folder or a ZIP file. Frame layout pages (frameset) are left out by default while the pages inside the frames are included. MHT files and CHM help files are not read directly; extract a CHM to HTML first."
+            },
+            {
+              "q": "How is this different from combining pages from a website?",
+              "a": "The browser-page mode collects related pages from a live website. Folder mode works only with files already on your computer, so it suits archived sites, offline manuals and documents that are no longer online."
+            }
+          ],
+          "industry": {
+            "kind": "localhtml",
+            "title": "From a folder of pages to one HTML",
+            "stages": [
+              "Choose the folder or ZIP",
+              "Check order and pages",
+              "One HTML with a table of contents"
+            ],
+            "files": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html",
+              "images/figure.png"
+            ],
+            "order": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html"
+            ],
+            "output": "manual.html",
+            "toc": "Table of contents",
+            "example": "Illustrative example · fictional files",
+            "note": "Free converts one chosen HTML file per run; Pro combines the selected files into one HTML. Order follows the links from index.html.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Typical folders people combine",
+            "items": [
+              [
+                "An old website backup",
+                "A site saved with “Save page”, HTTrack or wget, or copied off a server, with index.html and many sub-pages."
+              ],
+              [
+                "Exported documentation",
+                "HTML output from help authoring tools, Sphinx, Javadoc or Doxygen, or a CHM help file extracted to HTML."
+              ],
+              [
+                "Manuals and course material",
+                "Training material, product manuals or e-learning chapters delivered as a folder of pages."
+              ],
+              [
+                "Internal pages saved offline",
+                "Wiki or intranet pages you exported as HTML and want to keep as a single document."
+              ],
+              [
+                "Print or PDF in one go",
+                "Print one combined file instead of opening and printing every page separately."
+              ],
+              [
+                "Feed an AI the whole set",
+                "Create one Markdown file or a full AI package (corpus.md, chunks.jsonl, manifest.json) with page sources."
+              ]
+            ]
+          }
+        },
+        "ja": {
+          "title": "複数のHTMLファイルを1つに結合｜フォルダ・ZIPから目次付きで | Grab All Files",
+          "desc": "パソコンのフォルダやZIPにある複数のHTMLファイルを、目次付きの1つのHTMLにまとめます。画像は埋め込み、ページ間リンクはファイル内で移動。アップロードはしません。",
+          "eyebrow": "パソコン内のHTML → 1つのHTML",
+          "h1": "フォルダ内のHTMLファイルを、1つのHTMLにまとめる。",
+          "lead": "保存しておいたWebサイト、書き出したマニュアル、HTMLがたくさん入ったZIP。パソコンのフォルダかZIPを選ぶだけで、目次付きの1つのHTMLファイルにまとめます。ページはサイト内のリンク順に並び、パソコン内の画像は埋め込まれ、ページ間のリンクはファイル内の移動に変わります。処理はすべてブラウザーの中で行い、アップロードはしません。",
+          "best": [
+            "昔保存・ミラーしたWebサイト（index.htmlと多数のページ）を、1ファイルで保管・閲覧・検索したい。",
+            "HTMLのフォルダで書き出されたヘルプ・製品マニュアル・技術資料をまとめたい。",
+            "複数ページのHTML資料を1つの添付ファイルで配りたい、まとめて印刷・PDF化したい。",
+            "手元の資料一式を、出典つきのMarkdownやデータとしてAIにまとめて読ませたい。"
+          ],
+          "steps": [
+            "Grab All Filesで「ページをHTMLにまとめる」を開き、上部の切り替えを「パソコンのフォルダから」にします。",
+            "フォルダかZIPファイルを選びます（画面へのドラッグ＆ドロップも可）。.html・.htm・.xhtmlが、トップページ（index.htmlなど）からリンクをたどった順に並び、リンクされていないページは名前順で後ろに続きます。",
+            "一覧を確認し、不要なページを外す、ファイル名順に切り替える、対象のフォルダーや除外するパスを指定します。使い道（サイトを保存・1ファイルで配る・印刷・PDF化・AIに読ませる）を選びます。",
+            "HTMLを作成します。完了後の報告で、読めなかったファイル、まとめたHTMLに無いページへのリンク、埋め込めなかった画像を確認します。"
+          ],
+          "faq": [
+            {
+              "q": "無料で使えますか？",
+              "a": "1ページ分なら無料で使えます。フォルダから読む場合、無料版は1回につき選んだ1つのHTMLファイルを、画像を埋め込んだ1ファイルのHTMLに変換します。複数のHTMLファイルを共通の目次付きで1つにまとめるにはPro（$19.99・買い切り）が必要です。"
+            },
+            {
+              "q": "ファイルはどこかにアップロードされますか？",
+              "a": "いいえ。フォルダやZIPはブラウザーの中で読み込み、まとめたHTMLはお使いのパソコン上で作成します。サイトへのアクセス許可も不要です。ページが参照しているネット上の画像はダウンロードせず、リンクのまま残します。"
+            },
+            {
+              "q": "古いサイトのShift_JISのページは文字化けしませんか？",
+              "a": "文字コードの宣言がないページや、UTF-8と宣言されていても中身がShift_JIS・EUC-JP・ISO-2022-JPのページは、自動で判定して正しく読みます。全ページの<title>が同じサイトでは、目次に各ページの見出しを使います。"
+            },
+            {
+              "q": "画像やPDF、ページ間のリンクはどうなりますか？",
+              "a": "パソコン内のPNG・JPEG・GIF・WebP・AVIF画像は埋め込みます。まとめたページ同士のリンクは、ファイル内の該当箇所への移動になります。PDF・Office・ZIPなどのリンク先ファイルは「HTMLの隣にコピー」（既定）、「HTMLに埋め込む」（初期値は1ファイル20MiB・合計100MiBまで）、「リンクのまま」から選べます。"
+            },
+            {
+              "q": "どんなファイルを読めますか？",
+              "a": "フォルダまたはZIPの中の.html・.htm・.xhtmlです。フレーム構成のページ（frameset）は既定で外し、フレームの中身のページを含めます。MHTファイルやCHMヘルプは直接は読めないため、CHMは先にHTMLへ展開してください。"
+            },
+            {
+              "q": "Webサイトのページをまとめる機能とは何が違いますか？",
+              "a": "「ブラウザーのページ」は、公開中のWebサイトから関連ページを集めます。「パソコンのフォルダから」はパソコン内のファイルだけを使うので、閉鎖されたサイトの保存データやオフラインのマニュアル、もうネット上に無い資料に向いています。"
+            }
+          ],
+          "industry": {
+            "kind": "localhtml",
+            "title": "ページのフォルダから1つのHTMLへ",
+            "stages": [
+              "フォルダかZIPを選ぶ",
+              "順番とページを確認",
+              "目次付きの1つのHTML"
+            ],
+            "files": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html",
+              "images/figure.png"
+            ],
+            "order": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html"
+            ],
+            "output": "manual.html",
+            "toc": "目次",
+            "example": "図解例 · 架空のファイル",
+            "note": "無料版は1回に選んだ1つのHTMLファイルを変換し、Proは選んだファイルを1つのHTMLにまとめます。順番はindex.htmlからのリンク順です。",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "よくまとめられるフォルダの例",
+            "items": [
+              [
+                "昔のWebサイトの保存データ",
+                "「名前を付けて保存」やHTTrack、wgetで保存したサイト、サーバーから取り出したindex.htmlと多数のページ。"
+              ],
+              [
+                "書き出された技術資料",
+                "ヘルプ作成ツールやSphinx、Javadoc、Doxygenが出力したHTML、HTMLに展開したCHMヘルプ。"
+              ],
+              [
+                "マニュアル・研修資料",
+                "ページのフォルダで配布された研修資料、製品マニュアル、eラーニングの章。"
+              ],
+              [
+                "オフライン保存した社内ページ",
+                "HTMLで書き出したWikiや社内ポータルのページを、1つの資料として残す。"
+              ],
+              [
+                "まとめて印刷・PDF化",
+                "ページを1枚ずつ開いて印刷する代わりに、まとめた1ファイルを印刷する。"
+              ],
+              [
+                "資料一式をAIに読ませる",
+                "出典つきのMarkdown1ファイル、またはAI用の完全パッケージ（corpus.md・chunks.jsonl・manifest.json）を作る。"
+              ]
+            ]
+          }
+        },
+        "es": {
+          "title": "Combinar varios archivos HTML en uno solo | Grab All Files",
+          "desc": "Combina varios archivos HTML de una carpeta o ZIP de tu ordenador en un solo HTML sin conexión, con índice, imágenes incrustadas y enlaces internos. Sin subir nada.",
+          "eyebrow": "HTML del ordenador → un solo HTML",
+          "h1": "Combinar varios archivos HTML en uno solo.",
+          "lead": "¿Tienes un sitio web guardado, un manual exportado o un ZIP lleno de páginas .html? Elige la carpeta o el ZIP en tu ordenador y Grab All Files une las páginas en un único archivo HTML con índice. Las páginas siguen el orden de los enlaces del propio sitio, las imágenes locales se incrustan y los enlaces entre páginas saltan dentro del archivo. Todo se ejecuta en tu navegador; no se sube nada.",
+          "best": [
+            "Un sitio web que guardaste o copiaste hace años (index.html y decenas de páginas) y quieres conservar, leer o buscar como un solo archivo.",
+            "Archivos de ayuda, manuales de producto o documentación exportados como una carpeta de páginas HTML.",
+            "Compartir un documento HTML de varias páginas como un único adjunto, o imprimirlo a PDF de una vez.",
+            "Entregar a una herramienta de IA un conjunto completo de documentos locales como un paquete de Markdown o de datos con la fuente de cada página."
+          ],
+          "steps": [
+            "Abre Grab All Files, elige «Combinar páginas en HTML» y cambia el origen a «Desde una carpeta del ordenador».",
+            "Elige la carpeta o un archivo ZIP, o arrástralo a la página. Los archivos .html, .htm y .xhtml se listan en el orden en que el sitio los enlaza desde index.html; las páginas sin enlazar van después, por nombre.",
+            "Revisa la lista: conserva o quita páginas, cambia a «Orden por nombre de archivo», limita a «Solo esta carpeta» o usa «Excluir (uno por línea)». Elige un fin: «Conservar el sitio», «Compartir como un archivo», «Imprimir o crear un PDF» o «Dárselo a una IA».",
+            "Crea el HTML. Revisa el informe: archivos que no se pudieron leer, enlaces a páginas que dejaste fuera e imágenes que no se pudieron incrustar."
+          ],
+          "faq": [
+            {
+              "q": "¿Puedo probarlo gratis?",
+              "a": "Sí, con una página: en el modo carpeta, el plan Free convierte un archivo HTML elegido por ejecución en un HTML autónomo con sus imágenes locales incrustadas. Combinar varios archivos HTML en uno con un índice común requiere Pro ($19.99, pago único)."
+            },
+            {
+              "q": "¿Se suben mis archivos a algún sitio?",
+              "a": "No. La carpeta o el ZIP se leen en tu navegador y el HTML combinado se crea en tu dispositivo. No hace falta ningún permiso de sitio, y las imágenes en línea a las que hacen referencia las páginas se dejan como enlaces en lugar de descargarse."
+            },
+            {
+              "q": "¿Las páginas japonesas antiguas saldrán con caracteres ilegibles?",
+              "a": "Las páginas sin declaración de charset, o declaradas como UTF-8 pero escritas en realidad en Shift_JIS, EUC-JP o ISO-2022-JP, se detectan automáticamente y se leen bien. Si todas las páginas tienen el mismo <title>, el índice usa el encabezado de cada página."
+            },
+            {
+              "q": "¿Qué pasa con las imágenes, los PDF y los enlaces entre páginas?",
+              "a": "Las imágenes locales PNG, JPEG, GIF, WebP y AVIF se incrustan. Los enlaces entre las páginas combinadas pasan a ser saltos dentro del archivo. Los archivos enlazados, como PDF, Office o ZIP, pueden «Copiar junto al HTML» (opción por defecto), «Incrustar en el HTML» (20 MiB por archivo y 100 MiB en total por defecto) o «Dejarlos como enlaces»."
+            },
+            {
+              "q": "¿Qué archivos puede leer?",
+              "a": "Archivos .html, .htm y .xhtml dentro de una carpeta o un ZIP. Las páginas con «Diseño con marcos» (frameset) se dejan fuera por defecto, pero se incluyen las páginas que hay dentro de los marcos. Los archivos MHT y de ayuda CHM no se leen directamente; extrae primero el CHM a HTML."
+            },
+            {
+              "q": "¿En qué se diferencia de combinar páginas de un sitio web?",
+              "a": "El modo «Página del navegador» reúne páginas relacionadas de un sitio web en línea. El modo carpeta solo trabaja con archivos que ya están en tu ordenador, así que sirve para sitios archivados, manuales sin conexión y documentos que ya no están en línea."
+            }
+          ],
+          "industry": {
+            "kind": "localhtml",
+            "title": "De una carpeta de páginas a un solo HTML",
+            "stages": [
+              "Elige la carpeta o el ZIP",
+              "Revisa el orden y las páginas",
+              "Un HTML con índice"
+            ],
+            "files": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html",
+              "images/figure.png"
+            ],
+            "order": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html"
+            ],
+            "output": "manual.html",
+            "toc": "Índice",
+            "example": "Ejemplo ilustrativo · archivos ficticios",
+            "note": "Free convierte un archivo HTML elegido por ejecución; Pro combina los archivos seleccionados en un solo HTML. El orden sigue los enlaces desde index.html.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Carpetas que la gente suele combinar",
+            "items": [
+              [
+                "Una copia de un sitio antiguo",
+                "Un sitio guardado con «Guardar página», HTTrack o wget, o copiado de un servidor, con index.html y muchas subpáginas."
+              ],
+              [
+                "Documentación exportada",
+                "Salida HTML de herramientas de ayuda, Sphinx, Javadoc o Doxygen, o un archivo de ayuda CHM extraído a HTML."
+              ],
+              [
+                "Manuales y material de cursos",
+                "Material de formación, manuales de producto o capítulos de e-learning entregados como una carpeta de páginas."
+              ],
+              [
+                "Páginas internas guardadas sin conexión",
+                "Páginas de wiki o intranet exportadas como HTML que quieres conservar como un único documento."
+              ],
+              [
+                "Imprimir o crear un PDF de una vez",
+                "Imprime un solo archivo combinado en lugar de abrir e imprimir cada página por separado."
+              ],
+              [
+                "Dar todo el conjunto a una IA",
+                "Crea un archivo Markdown o un paquete completo para IA (corpus.md, chunks.jsonl, manifest.json) con las fuentes de las páginas."
+              ]
+            ]
+          }
+        },
+        "fr": {
+          "title": "Fusionner plusieurs fichiers HTML en un seul | Grab All Files",
+          "desc": "Fusionnez les fichiers HTML d’un dossier ou d’un ZIP en un seul HTML hors ligne, avec sommaire, images intégrées et liens internes. Aucun envoi de fichiers.",
+          "eyebrow": "HTML de l’ordinateur → un seul HTML",
+          "h1": "Fusionner plusieurs fichiers HTML en un seul.",
+          "lead": "Vous avez un site enregistré, un manuel exporté ou un ZIP rempli de pages .html ? Choisissez le dossier ou le ZIP sur votre ordinateur et Grab All Files réunit les pages dans un seul fichier HTML avec sommaire. Les pages suivent l’ordre des liens du site, les images locales sont intégrées et les liens entre pages deviennent des sauts à l’intérieur du fichier. Tout s’exécute dans votre navigateur ; rien n’est envoyé.",
+          "best": [
+            "Un site enregistré ou aspiré il y a des années (index.html et des dizaines de pages) que vous voulez conserver, lire ou rechercher en un seul fichier.",
+            "Des fichiers d’aide, des manuels de produit ou de la documentation exportés sous forme de dossier de pages HTML.",
+            "Partager un document HTML de plusieurs pages en une seule pièce jointe, ou l’imprimer en PDF d’un seul coup.",
+            "Confier à un outil d’IA tout un ensemble de documents locaux sous forme de Markdown ou de paquet de données avec la source de chaque page."
+          ],
+          "steps": [
+            "Ouvrez Grab All Files, choisissez « Regrouper les pages en HTML » et passez la source sur « Depuis un dossier de l’ordinateur ».",
+            "Choisissez le dossier ou un fichier ZIP, ou faites-le glisser sur la page. Les fichiers .html, .htm et .xhtml sont listés dans l’ordre où le site les relie depuis index.html ; les pages sans lien suivent, par nom.",
+            "Vérifiez la liste : gardez ou retirez des pages, passez à « Ordre des noms de fichier », limitez à « Ce dossier uniquement » ou utilisez « Exclure (un par ligne) ». Choisissez un usage : « Conserver le site », « Partager en un seul fichier », « Imprimer ou créer un PDF » ou « Le donner à une IA ».",
+            "Créez le HTML. Consultez le rapport : fichiers illisibles, liens vers des pages que vous avez exclues et images qui n’ont pas pu être intégrées."
+          ],
+          "faq": [
+            {
+              "q": "Puis-je l’essayer gratuitement ?",
+              "a": "Oui, avec une page : en mode dossier, l’offre Free convertit un fichier HTML choisi par exécution en un HTML autonome avec ses images locales intégrées. Fusionner plusieurs fichiers HTML en un seul avec un sommaire commun nécessite Pro (19,99 $, paiement unique)."
+            },
+            {
+              "q": "Mes fichiers sont-ils envoyés quelque part ?",
+              "a": "Non. Le dossier ou le ZIP est lu dans votre navigateur et le HTML fusionné est créé sur votre appareil. Aucune autorisation de site n’est nécessaire, et les images en ligne référencées par les pages restent des liens au lieu d’être téléchargées."
+            },
+            {
+              "q": "Les anciennes pages japonaises s’afficheront-elles avec des caractères illisibles ?",
+              "a": "Les pages sans déclaration de charset, ou déclarées en UTF-8 mais en réalité écrites en Shift_JIS, EUC-JP ou ISO-2022-JP, sont détectées automatiquement et lues correctement. Si toutes les pages ont le même <title>, le sommaire utilise le titre principal de chaque page."
+            },
+            {
+              "q": "Que deviennent les images, les PDF et les liens entre pages ?",
+              "a": "Les images locales PNG, JPEG, GIF, WebP et AVIF sont intégrées. Les liens entre les pages fusionnées deviennent des sauts à l’intérieur du fichier. Les fichiers liés, comme les PDF, Office ou ZIP, peuvent être « Copier à côté du HTML » (par défaut), « Intégrer dans le HTML » (20 MiB par fichier et 100 MiB au total par défaut) ou « Les laisser en liens »."
+            },
+            {
+              "q": "Quels fichiers peut-il lire ?",
+              "a": "Les fichiers .html, .htm et .xhtml d’un dossier ou d’un ZIP. Les pages en « Mise en page à cadres » (frameset) sont exclues par défaut, tandis que les pages contenues dans les cadres sont incluses. Les fichiers MHT et d’aide CHM ne sont pas lus directement ; extrayez d’abord le CHM en HTML."
+            },
+            {
+              "q": "En quoi est-ce différent de la fusion de pages d’un site web ?",
+              "a": "Le mode « Page du navigateur » rassemble des pages liées d’un site en ligne. Le mode dossier ne travaille qu’avec des fichiers déjà présents sur votre ordinateur ; il convient donc aux sites archivés, aux manuels hors ligne et aux documents qui ne sont plus en ligne."
+            }
+          ],
+          "industry": {
+            "kind": "localhtml",
+            "title": "D’un dossier de pages à un seul HTML",
+            "stages": [
+              "Choisir le dossier ou le ZIP",
+              "Vérifier l’ordre et les pages",
+              "Un HTML avec sommaire"
+            ],
+            "files": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html",
+              "images/figure.png"
+            ],
+            "order": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html"
+            ],
+            "output": "manual.html",
+            "toc": "Sommaire",
+            "example": "Exemple illustratif · fichiers fictifs",
+            "note": "Free convertit un fichier HTML choisi par exécution ; Pro fusionne les fichiers sélectionnés en un seul HTML. L’ordre suit les liens depuis index.html.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Dossiers que l’on fusionne souvent",
+            "items": [
+              [
+                "Une sauvegarde d’ancien site",
+                "Un site enregistré avec « Enregistrer la page », HTTrack ou wget, ou copié depuis un serveur, avec index.html et de nombreuses sous-pages."
+              ],
+              [
+                "Documentation exportée",
+                "Sortie HTML d’outils de création d’aide, de Sphinx, Javadoc ou Doxygen, ou fichier d’aide CHM extrait en HTML."
+              ],
+              [
+                "Manuels et supports de formation",
+                "Supports de formation, manuels de produit ou chapitres d’e-learning livrés sous forme de dossier de pages."
+              ],
+              [
+                "Pages internes enregistrées hors ligne",
+                "Pages de wiki ou d’intranet exportées en HTML que vous voulez conserver comme un seul document."
+              ],
+              [
+                "Imprimer ou créer un PDF d’un coup",
+                "Imprimez un seul fichier fusionné au lieu d’ouvrir et d’imprimer chaque page séparément."
+              ],
+              [
+                "Donner tout l’ensemble à une IA",
+                "Créez un fichier Markdown ou un paquet IA complet (corpus.md, chunks.jsonl, manifest.json) avec les sources des pages."
+              ]
+            ]
+          }
+        },
+        "de": {
+          "title": "Mehrere HTML-Dateien zu einer zusammenführen | Grab All Files",
+          "desc": "Führen Sie HTML-Dateien aus einem Ordner oder ZIP zu einer Offline-HTML-Datei zusammen: mit Inhaltsverzeichnis, eingebetteten Bildern und Links. Kein Upload.",
+          "eyebrow": "Lokale HTML-Dateien → eine HTML-Datei",
+          "h1": "Mehrere HTML-Dateien zu einer HTML-Datei zusammenführen.",
+          "lead": "Sie haben eine gespeicherte Website, ein exportiertes Handbuch oder ein ZIP voller .html-Seiten? Wählen Sie den Ordner oder das ZIP auf Ihrem Computer, und Grab All Files führt die Seiten zu einer einzigen HTML-Datei mit Inhaltsverzeichnis zusammen. Die Seiten folgen der Reihenfolge der Links der Website, lokale Bilder werden eingebettet, und Links zwischen den Seiten springen innerhalb der Datei. Alles läuft in Ihrem Browser; es wird nichts hochgeladen.",
+          "best": [
+            "Eine vor Jahren gespeicherte oder gespiegelte Website (index.html plus dutzende Seiten), die Sie als eine Datei aufbewahren, lesen oder durchsuchen möchten.",
+            "Hilfedateien, Produkthandbücher oder Dokumentationen, die als Ordner mit HTML-Seiten exportiert wurden.",
+            "Ein mehrseitiges HTML-Dokument als einen Anhang weitergeben oder in einem Zug als PDF drucken.",
+            "Einem KI-Werkzeug einen ganzen lokalen Dokumentbestand als Markdown- oder Datenpaket mit Quellenangabe übergeben."
+          ],
+          "steps": [
+            "Öffnen Sie Grab All Files, wählen Sie „Seiten als HTML bündeln“ und stellen Sie die Quelle auf „Aus einem Ordner auf dem Computer“.",
+            "Wählen Sie den Ordner oder eine ZIP-Datei oder ziehen Sie sie auf die Seite. .html-, .htm- und .xhtml-Dateien erscheinen in der Reihenfolge, in der die Website sie ab index.html verlinkt; nicht verlinkte Seiten folgen nach Name.",
+            "Prüfen Sie die Liste: Seiten behalten oder entfernen, auf „Nach Dateinamen“ umstellen, auf „Nur dieser Ordner“ begrenzen oder Pfade mit „Auslassen (eins pro Zeile)“ ausschließen. Wählen Sie einen Zweck: „Website aufbewahren“, „Als eine Datei weitergeben“, „Drucken oder PDF erstellen“ oder „Einer KI geben“.",
+            "Erstellen Sie das HTML. Prüfen Sie den Bericht auf nicht lesbare Dateien, Links zu ausgelassenen Seiten und Bilder, die sich nicht einbetten ließen."
+          ],
+          "faq": [
+            {
+              "q": "Kann ich das kostenlos testen?",
+              "a": "Ja, mit einer Seite: Im Ordnermodus wandelt der Free-Tarif pro Durchlauf eine gewählte HTML-Datei in ein eigenständiges HTML mit eingebetteten lokalen Bildern um. Mehrere HTML-Dateien mit gemeinsamem Inhaltsverzeichnis zu einer Datei zusammenzuführen, erfordert Pro (19,99 $, einmalig)."
+            },
+            {
+              "q": "Werden meine Dateien irgendwohin hochgeladen?",
+              "a": "Nein. Der Ordner oder das ZIP wird in Ihrem Browser gelesen, und das zusammengeführte HTML entsteht auf Ihrem Gerät. Es ist keine Website-Berechtigung nötig, und Online-Bilder, auf die die Seiten verweisen, bleiben Links und werden nicht heruntergeladen."
+            },
+            {
+              "q": "Werden alte japanische Seiten zu Zeichensalat?",
+              "a": "Seiten ohne Charset-Angabe oder mit UTF-8-Deklaration, die tatsächlich in Shift_JIS, EUC-JP oder ISO-2022-JP geschrieben sind, werden automatisch erkannt und korrekt gelesen. Haben alle Seiten denselben <title>, verwendet das Inhaltsverzeichnis stattdessen die Überschrift jeder Seite."
+            },
+            {
+              "q": "Was passiert mit Bildern, PDFs und Links zwischen Seiten?",
+              "a": "Lokale Bilder in PNG, JPEG, GIF, WebP und AVIF werden eingebettet. Links zwischen den zusammengeführten Seiten werden zu Sprüngen innerhalb der Datei. Verlinkte Dateien wie PDF, Office oder ZIP lassen sich „Neben das HTML kopieren“ (Standard), „In das HTML einbetten“ (standardmäßig 20 MiB pro Datei und 100 MiB insgesamt) oder „Als Links belassen“."
+            },
+            {
+              "q": "Welche Dateien kann es lesen?",
+              "a": ".html-, .htm- und .xhtml-Dateien in einem Ordner oder ZIP. Seiten mit „Frame-Layout“ (frameset) werden standardmäßig ausgelassen, die Seiten in den Frames aber einbezogen. MHT-Dateien und CHM-Hilfedateien werden nicht direkt gelesen; entpacken Sie ein CHM zuerst nach HTML."
+            },
+            {
+              "q": "Wie unterscheidet sich das vom Zusammenführen von Seiten einer Website?",
+              "a": "Der Modus „Browserseite“ sammelt zusammengehörige Seiten einer Live-Website. Der Ordnermodus arbeitet nur mit Dateien, die bereits auf Ihrem Computer liegen, und passt daher zu archivierten Websites, Offline-Handbüchern und Dokumenten, die nicht mehr online sind."
+            }
+          ],
+          "industry": {
+            "kind": "localhtml",
+            "title": "Von einem Ordner mit Seiten zu einer HTML-Datei",
+            "stages": [
+              "Ordner oder ZIP wählen",
+              "Reihenfolge und Seiten prüfen",
+              "Eine HTML-Datei mit Inhaltsverzeichnis"
+            ],
+            "files": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html",
+              "images/figure.png"
+            ],
+            "order": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html"
+            ],
+            "output": "manual.html",
+            "toc": "Inhaltsverzeichnis",
+            "example": "Anschauliches Beispiel · fiktive Dateien",
+            "note": "Free wandelt pro Durchlauf eine gewählte HTML-Datei um; Pro führt die ausgewählten Dateien zu einer HTML-Datei zusammen. Die Reihenfolge folgt den Links ab index.html.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Typische Ordner, die zusammengeführt werden",
+            "items": [
+              [
+                "Eine alte Website-Sicherung",
+                "Eine Website, gespeichert mit „Seite speichern“, HTTrack oder wget oder von einem Server kopiert, mit index.html und vielen Unterseiten."
+              ],
+              [
+                "Exportierte Dokumentation",
+                "HTML-Ausgabe von Hilfe-Autorenwerkzeugen, Sphinx, Javadoc oder Doxygen oder eine nach HTML entpackte CHM-Hilfedatei."
+              ],
+              [
+                "Handbücher und Kursmaterial",
+                "Schulungsunterlagen, Produkthandbücher oder E-Learning-Kapitel, die als Ordner mit Seiten geliefert werden."
+              ],
+              [
+                "Offline gespeicherte interne Seiten",
+                "Als HTML exportierte Wiki- oder Intranet-Seiten, die Sie als ein einziges Dokument behalten möchten."
+              ],
+              [
+                "Drucken oder PDF in einem Zug",
+                "Eine zusammengeführte Datei drucken, statt jede Seite einzeln zu öffnen und zu drucken."
+              ],
+              [
+                "Einer KI den ganzen Bestand geben",
+                "Eine Markdown-Datei oder ein vollständiges KI-Paket (corpus.md, chunks.jsonl, manifest.json) mit Seitenquellen erstellen."
+              ]
+            ]
+          }
+        },
+        "it": {
+          "title": "Unire più file HTML in uno solo | Grab All Files",
+          "desc": "Unisci i file HTML di una cartella o di uno ZIP in un unico HTML offline con indice, immagini incorporate e link interni funzionanti. Nessun caricamento.",
+          "eyebrow": "HTML sul computer → un solo HTML",
+          "h1": "Unire più file HTML in un solo file HTML.",
+          "lead": "Hai un sito web salvato, un manuale esportato o uno ZIP pieno di pagine .html? Scegli la cartella o lo ZIP sul tuo computer e Grab All Files unisce le pagine in un unico file HTML con indice. Le pagine seguono l’ordine dei link del sito, le immagini locali vengono incorporate e i link tra le pagine saltano all’interno del file. Tutto avviene nel tuo browser; non viene caricato nulla.",
+          "best": [
+            "Un sito web salvato o copiato anni fa (index.html e decine di pagine) che vuoi conservare, leggere o cercare come un solo file.",
+            "File della guida, manuali di prodotto o documentazione esportati come cartella di pagine HTML.",
+            "Condividere un documento HTML di più pagine come un solo allegato, o stamparlo in PDF in un colpo solo.",
+            "Passare a uno strumento di IA un intero insieme di documenti locali come pacchetto Markdown o di dati con la fonte di ogni pagina."
+          ],
+          "steps": [
+            "Apri Grab All Files, scegli «Unisci pagine in HTML» e cambia l’origine in «Da una cartella del computer».",
+            "Scegli la cartella o un file ZIP, oppure trascinalo sulla pagina. I file .html, .htm e .xhtml sono elencati nell’ordine in cui il sito li collega a partire da index.html; le pagine senza link seguono, per nome.",
+            "Controlla l’elenco: mantieni o rimuovi pagine, passa a «Ordine per nome file», limita a «Solo questa cartella» o usa «Escludi (uno per riga)». Scegli uno scopo: «Conservare il sito», «Condividere come un solo file», «Stampare o creare un PDF» o «Darlo a un’IA».",
+            "Crea l’HTML. Controlla il rapporto: file che non è stato possibile leggere, link a pagine che hai escluso e immagini che non è stato possibile incorporare."
+          ],
+          "faq": [
+            {
+              "q": "Posso provarlo gratis?",
+              "a": "Sì, con una pagina: in modalità cartella il piano Free converte un file HTML scelto per esecuzione in un HTML autonomo con le immagini locali incorporate. Unire più file HTML in uno con un indice condiviso richiede Pro ($19.99, pagamento unico)."
+            },
+            {
+              "q": "I miei file vengono caricati da qualche parte?",
+              "a": "No. La cartella o lo ZIP vengono letti nel tuo browser e l’HTML unito viene creato sul tuo dispositivo. Non serve alcun permesso per il sito, e le immagini online a cui le pagine fanno riferimento restano link e non vengono scaricate."
+            },
+            {
+              "q": "Le vecchie pagine giapponesi appariranno con caratteri illeggibili?",
+              "a": "Le pagine senza dichiarazione di charset, o dichiarate UTF-8 ma in realtà scritte in Shift_JIS, EUC-JP o ISO-2022-JP, vengono rilevate automaticamente e lette correttamente. Se tutte le pagine hanno lo stesso <title>, l’indice usa l’intestazione di ciascuna pagina."
+            },
+            {
+              "q": "Che cosa succede a immagini, PDF e link tra le pagine?",
+              "a": "Le immagini locali PNG, JPEG, GIF, WebP e AVIF vengono incorporate. I link tra le pagine unite diventano salti all’interno del file. I file collegati, come PDF, Office o ZIP, possono essere «Copia accanto all’HTML» (predefinito), «Incorpora nell’HTML» (20 MiB per file e 100 MiB in totale per impostazione predefinita) oppure «Lasciali come link»."
+            },
+            {
+              "q": "Quali file può leggere?",
+              "a": "File .html, .htm e .xhtml in una cartella o in uno ZIP. Le pagine con «Layout a frame» (frameset) sono escluse per impostazione predefinita, mentre le pagine dentro i frame sono incluse. I file MHT e i file della guida CHM non vengono letti direttamente; estrai prima il CHM in HTML."
+            },
+            {
+              "q": "In che cosa è diverso dall’unire le pagine di un sito web?",
+              "a": "La modalità «Pagina del browser» raccoglie pagine correlate da un sito online. La modalità cartella lavora solo con file già presenti sul tuo computer, quindi è adatta a siti archiviati, manuali offline e documenti non più online."
+            }
+          ],
+          "industry": {
+            "kind": "localhtml",
+            "title": "Da una cartella di pagine a un solo HTML",
+            "stages": [
+              "Scegli la cartella o lo ZIP",
+              "Controlla ordine e pagine",
+              "Un HTML con indice"
+            ],
+            "files": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html",
+              "images/figure.png"
+            ],
+            "order": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html"
+            ],
+            "output": "manual.html",
+            "toc": "Indice",
+            "example": "Esempio illustrativo · file fittizi",
+            "note": "Free converte un file HTML scelto per esecuzione; Pro unisce i file selezionati in un solo HTML. L’ordine segue i link a partire da index.html.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Cartelle che si uniscono di solito",
+            "items": [
+              [
+                "Il backup di un vecchio sito",
+                "Un sito salvato con «Salva pagina», HTTrack o wget, o copiato da un server, con index.html e molte sottopagine."
+              ],
+              [
+                "Documentazione esportata",
+                "Output HTML di strumenti di authoring della guida, Sphinx, Javadoc o Doxygen, oppure una guida CHM estratta in HTML."
+              ],
+              [
+                "Manuali e materiale per corsi",
+                "Materiale formativo, manuali di prodotto o capitoli di e-learning forniti come cartella di pagine."
+              ],
+              [
+                "Pagine interne salvate offline",
+                "Pagine di wiki o intranet esportate come HTML che vuoi conservare come un unico documento."
+              ],
+              [
+                "Stampa o PDF in un colpo solo",
+                "Stampa un solo file unito invece di aprire e stampare ogni pagina separatamente."
+              ],
+              [
+                "Dare tutto l’insieme a un’IA",
+                "Crea un file Markdown o un pacchetto IA completo (corpus.md, chunks.jsonl, manifest.json) con le fonti delle pagine."
+              ]
+            ]
+          }
+        },
+        "ko": {
+          "title": "여러 HTML 파일 하나로 합치기｜폴더·ZIP에서 목차까지 | Grab All Files",
+          "desc": "컴퓨터 폴더나 ZIP 속 여러 HTML 파일을 목차가 있는 HTML 하나로 합칩니다. 이미지는 포함되고 페이지 간 링크도 유지됩니다. 업로드하지 않습니다.",
+          "eyebrow": "컴퓨터의 HTML → HTML 하나",
+          "h1": "여러 HTML 파일을 하나의 HTML로 합치기.",
+          "lead": "저장해 둔 웹사이트, 내보낸 매뉴얼, .html 페이지가 가득한 ZIP이 있나요? 컴퓨터의 폴더나 ZIP을 고르면 Grab All Files가 페이지를 목차가 있는 HTML 파일 하나로 합칩니다. 페이지는 사이트 자체의 링크 순서를 따르고, 컴퓨터 안의 이미지는 포함되며, 페이지 사이의 링크는 파일 안에서 이동합니다. 모든 처리는 브라우저 안에서 이루어지며 업로드하지 않습니다.",
+          "best": [
+            "예전에 저장하거나 미러링한 웹사이트(index.html과 수십 개의 페이지)를 파일 하나로 보관하고, 읽고, 검색하고 싶을 때.",
+            "HTML 페이지 폴더로 내보낸 도움말, 제품 매뉴얼, 기술 문서.",
+            "여러 페이지의 HTML 문서를 첨부 파일 하나로 공유하거나, 한 번에 PDF로 인쇄하고 싶을 때.",
+            "컴퓨터에 있는 문서 묶음을 출처가 표시된 Markdown 또는 데이터 패키지로 AI 도구에 한꺼번에 넘기고 싶을 때."
+          ],
+          "steps": [
+            "Grab All Files를 열고 “페이지를 HTML로 합치기”를 선택한 다음, 소스를 “컴퓨터 폴더에서”로 바꿉니다.",
+            "폴더나 ZIP 파일을 선택하거나 화면으로 끌어다 놓습니다. .html, .htm, .xhtml 파일이 index.html에서 사이트가 연결한 순서대로 나열되고, 링크되지 않은 페이지는 이름순으로 뒤에 붙습니다.",
+            "목록을 확인합니다. 페이지를 남기거나 빼고, “파일 이름 순서”로 바꾸고, “대상 폴더”로 범위를 좁히거나 “제외(한 줄에 하나)”로 경로를 제외합니다. 용도로 “사이트 보관”, “파일 하나로 공유”, “인쇄·PDF 만들기”, “AI에게 읽히기” 중 하나를 고릅니다.",
+            "HTML을 만듭니다. 보고서에서 읽지 못한 파일, 제외한 페이지로 향하는 링크, 포함하지 못한 이미지를 확인합니다."
+          ],
+          "faq": [
+            {
+              "q": "무료로 써볼 수 있나요?",
+              "a": "페이지 하나라면 가능합니다. 폴더 모드에서 Free 플랜은 한 번에 선택한 HTML 파일 하나를, 로컬 이미지가 포함된 독립형 HTML로 변환합니다. 여러 HTML 파일을 공통 목차가 있는 파일 하나로 합치려면 Pro($19.99, 1회 결제)가 필요합니다."
+            },
+            {
+              "q": "파일이 어딘가에 업로드되나요?",
+              "a": "아니요. 폴더나 ZIP은 브라우저 안에서 읽고, 합친 HTML은 내 기기에서 만들어집니다. 사이트 접근 권한도 필요 없으며, 페이지가 참조하는 온라인 이미지는 다운로드하지 않고 링크로 남겨 둡니다."
+            },
+            {
+              "q": "오래된 일본어 페이지가 깨져 보이지 않나요?",
+              "a": "문자 인코딩 선언이 없거나, UTF-8로 선언되었지만 실제로는 Shift_JIS, EUC-JP, ISO-2022-JP로 작성된 페이지는 자동으로 판별해 올바르게 읽습니다. 모든 페이지의 <title>이 같다면 목차에는 각 페이지의 제목을 대신 사용합니다."
+            },
+            {
+              "q": "이미지, PDF, 페이지 간 링크는 어떻게 되나요?",
+              "a": "컴퓨터 안의 PNG, JPEG, GIF, WebP, AVIF 이미지는 포함됩니다. 합친 페이지 사이의 링크는 파일 안에서 이동하는 링크가 됩니다. PDF, Office, ZIP 같은 링크된 파일은 “HTML 옆에 복사”(기본값), “HTML 안에 포함”(기본값은 파일당 20 MiB, 전체 100 MiB까지), “링크로 그대로 두기” 중에서 고를 수 있습니다."
+            },
+            {
+              "q": "어떤 파일을 읽을 수 있나요?",
+              "a": "폴더나 ZIP 안의 .html, .htm, .xhtml 파일입니다. “프레임 틀”(frameset) 페이지는 기본적으로 제외하고 프레임 안의 페이지는 포함합니다. MHT 파일과 CHM 도움말 파일은 직접 읽지 않으므로, CHM은 먼저 HTML로 추출해 주세요."
+            },
+            {
+              "q": "웹사이트의 페이지를 합치는 기능과는 무엇이 다른가요?",
+              "a": "“브라우저 페이지” 모드는 공개 중인 웹사이트에서 관련 페이지를 모읍니다. 폴더 모드는 이미 컴퓨터에 있는 파일만 사용하므로, 보관해 둔 사이트, 오프라인 매뉴얼, 더 이상 온라인에 없는 문서에 알맞습니다."
+            }
+          ],
+          "industry": {
+            "kind": "localhtml",
+            "title": "페이지 폴더에서 HTML 하나로",
+            "stages": [
+              "폴더나 ZIP 선택",
+              "순서와 페이지 확인",
+              "목차가 있는 HTML 하나"
+            ],
+            "files": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html",
+              "images/figure.png"
+            ],
+            "order": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html"
+            ],
+            "output": "manual.html",
+            "toc": "목차",
+            "example": "설명용 예시 · 가상의 파일",
+            "note": "Free는 한 번에 선택한 HTML 파일 하나를 변환하고, Pro는 선택한 파일을 HTML 하나로 합칩니다. 순서는 index.html에서 시작하는 링크 순서를 따릅니다.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "자주 합치는 폴더의 예",
+            "items": [
+              [
+                "오래된 웹사이트 백업",
+                "“페이지 저장”, HTTrack, wget으로 저장했거나 서버에서 복사한 사이트. index.html과 많은 하위 페이지로 이루어집니다."
+              ],
+              [
+                "내보낸 기술 문서",
+                "도움말 제작 도구, Sphinx, Javadoc, Doxygen이 출력한 HTML, 또는 HTML로 추출한 CHM 도움말."
+              ],
+              [
+                "매뉴얼·교육 자료",
+                "페이지 폴더로 배포된 교육 자료, 제품 매뉴얼, e러닝 챕터."
+              ],
+              [
+                "오프라인으로 저장한 사내 페이지",
+                "HTML로 내보낸 위키나 사내 포털 페이지를 하나의 문서로 남기고 싶을 때."
+              ],
+              [
+                "한 번에 인쇄·PDF 만들기",
+                "페이지를 하나씩 열어 인쇄하는 대신, 합친 파일 하나를 인쇄합니다."
+              ],
+              [
+                "자료 전체를 AI에게 읽히기",
+                "출처가 표시된 Markdown 파일 하나, 또는 AI용 전체 패키지(corpus.md, chunks.jsonl, manifest.json)를 만듭니다."
+              ]
+            ]
+          }
+        },
+        "pt_BR": {
+          "title": "Juntar vários arquivos HTML em um só | Grab All Files",
+          "desc": "Junte os arquivos HTML de uma pasta ou ZIP em um único HTML offline, com índice, imagens incorporadas e links internos funcionando. Nada é enviado.",
+          "eyebrow": "HTML no computador → um só HTML",
+          "h1": "Juntar vários arquivos HTML em um só.",
+          "lead": "Tem um site salvo, um manual exportado ou um ZIP cheio de páginas .html? Escolha a pasta ou o ZIP no seu computador e o Grab All Files junta as páginas em um único arquivo HTML com índice. As páginas seguem a ordem dos links do próprio site, as imagens locais são incorporadas e os links entre páginas saltam dentro do arquivo. Tudo roda no seu navegador; nada é enviado.",
+          "best": [
+            "Um site que você salvou ou espelhou anos atrás (index.html e dezenas de páginas) e quer guardar, ler ou pesquisar como um só arquivo.",
+            "Arquivos de ajuda, manuais de produto ou documentação exportados como uma pasta de páginas HTML.",
+            "Compartilhar um documento HTML de várias páginas como um único anexo, ou imprimi-lo em PDF de uma vez.",
+            "Entregar a uma ferramenta de IA um conjunto completo de documentos locais como um pacote de Markdown ou de dados com a fonte de cada página."
+          ],
+          "steps": [
+            "Abra o Grab All Files, escolha “Juntar páginas em HTML” e mude a origem para “De uma pasta do computador”.",
+            "Escolha a pasta ou um arquivo ZIP, ou arraste-o para a página. Os arquivos .html, .htm e .xhtml aparecem na ordem em que o site os liga a partir de index.html; as páginas sem link vêm depois, por nome.",
+            "Revise a lista: mantenha ou remova páginas, mude para “Ordem do nome do arquivo”, limite a “Somente esta pasta” ou use “Excluir (um por linha)”. Escolha uma finalidade: “Guardar o site”, “Compartilhar como um arquivo”, “Imprimir ou gerar PDF” ou “Entregar a uma IA”.",
+            "Crie o HTML. Confira o relatório: arquivos que não puderam ser lidos, links para páginas que você deixou de fora e imagens que não puderam ser incorporadas."
+          ],
+          "faq": [
+            {
+              "q": "Posso testar de graça?",
+              "a": "Sim, com uma página: no modo pasta, o plano Free converte um arquivo HTML escolhido por execução em um HTML autônomo com as imagens locais incorporadas. Juntar vários arquivos HTML em um só, com índice compartilhado, exige o Pro ($19.99, pagamento único)."
+            },
+            {
+              "q": "Meus arquivos são enviados para algum lugar?",
+              "a": "Não. A pasta ou o ZIP é lido no seu navegador e o HTML combinado é criado no seu dispositivo. Nenhuma permissão de site é necessária, e as imagens online referenciadas pelas páginas ficam como links em vez de serem baixadas."
+            },
+            {
+              "q": "Páginas japonesas antigas vão ficar com caracteres ilegíveis?",
+              "a": "Páginas sem declaração de charset, ou declaradas como UTF-8 mas na verdade escritas em Shift_JIS, EUC-JP ou ISO-2022-JP, são detectadas automaticamente e lidas corretamente. Se todas as páginas tiverem o mesmo <title>, o índice usa o título principal de cada página."
+            },
+            {
+              "q": "O que acontece com imagens, PDFs e links entre páginas?",
+              "a": "Imagens locais PNG, JPEG, GIF, WebP e AVIF são incorporadas. Os links entre as páginas combinadas viram saltos dentro do arquivo. Arquivos ligados, como PDF, Office ou ZIP, podem ser “Copiar ao lado do HTML” (padrão), “Incorporar no HTML” (20 MiB por arquivo e 100 MiB no total por padrão) ou “Deixar como links”."
+            },
+            {
+              "q": "Quais arquivos ele consegue ler?",
+              "a": "Arquivos .html, .htm e .xhtml em uma pasta ou ZIP. Páginas com “Layout com frames” (frameset) ficam de fora por padrão, mas as páginas dentro dos frames são incluídas. Arquivos MHT e de ajuda CHM não são lidos diretamente; extraia o CHM para HTML antes."
+            },
+            {
+              "q": "Qual a diferença para juntar páginas de um site?",
+              "a": "O modo “Página do navegador” reúne páginas relacionadas de um site no ar. O modo pasta trabalha apenas com arquivos que já estão no seu computador, por isso serve para sites arquivados, manuais offline e documentos que não estão mais online."
+            }
+          ],
+          "industry": {
+            "kind": "localhtml",
+            "title": "De uma pasta de páginas a um só HTML",
+            "stages": [
+              "Escolha a pasta ou o ZIP",
+              "Confira a ordem e as páginas",
+              "Um HTML com índice"
+            ],
+            "files": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html",
+              "images/figure.png"
+            ],
+            "order": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html"
+            ],
+            "output": "manual.html",
+            "toc": "Índice",
+            "example": "Exemplo ilustrativo · arquivos fictícios",
+            "note": "O Free converte um arquivo HTML escolhido por execução; o Pro junta os arquivos selecionados em um só HTML. A ordem segue os links a partir de index.html.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Pastas que as pessoas costumam juntar",
+            "items": [
+              [
+                "O backup de um site antigo",
+                "Um site salvo com “Salvar página”, HTTrack ou wget, ou copiado de um servidor, com index.html e muitas subpáginas."
+              ],
+              [
+                "Documentação exportada",
+                "Saída HTML de ferramentas de criação de ajuda, Sphinx, Javadoc ou Doxygen, ou um arquivo de ajuda CHM extraído para HTML."
+              ],
+              [
+                "Manuais e material de cursos",
+                "Material de treinamento, manuais de produto ou capítulos de e-learning entregues como uma pasta de páginas."
+              ],
+              [
+                "Páginas internas salvas offline",
+                "Páginas de wiki ou intranet exportadas como HTML que você quer manter como um único documento."
+              ],
+              [
+                "Imprimir ou gerar PDF de uma vez",
+                "Imprima um só arquivo combinado em vez de abrir e imprimir cada página separadamente."
+              ],
+              [
+                "Dar o conjunto inteiro a uma IA",
+                "Crie um arquivo Markdown ou um pacote completo para IA (corpus.md, chunks.jsonl, manifest.json) com as fontes das páginas."
+              ]
+            ]
+          }
+        },
+        "zh_CN": {
+          "title": "多个HTML文件合并成一个｜文件夹或ZIP自动生成目录 | Grab All Files",
+          "desc": "把电脑文件夹或ZIP里的多个HTML文件合并成一个带目录的HTML。图片内嵌，页面间链接在文件内跳转，不上传。",
+          "eyebrow": "电脑里的 HTML → 一个 HTML",
+          "h1": "把多个HTML文件合并成一个HTML文件。",
+          "lead": "手头有保存下来的网站、导出的手册，或装满 .html 页面的 ZIP？在电脑上选择文件夹或 ZIP，Grab All Files 就会把这些页面合并成一个带目录的 HTML 文件。页面按网站自身的链接顺序排列，本地图片会内嵌，页面之间的链接变为文件内跳转。所有处理都在浏览器中完成，不会上传任何内容。",
+          "best": [
+            "多年前保存或镜像下来的网站（index.html 加几十个页面），想合成一个文件来保存、阅读或搜索。",
+            "以 HTML 页面文件夹形式导出的帮助文件、产品手册或技术文档。",
+            "把多页 HTML 文档作为一个附件分享，或一次性打印成 PDF。",
+            "把整套本地文档作为带出处的 Markdown 或数据包，一次交给 AI 工具。"
+          ],
+          "steps": [
+            "打开 Grab All Files，选择“将网页合并为 HTML”，并把来源切换为“从电脑文件夹”。",
+            "选择文件夹或 ZIP 文件，也可以直接拖到页面上。.html、.htm 和 .xhtml 文件会按网站从 index.html 出发的链接顺序排列，没有被链接的页面按名称排在后面。",
+            "检查列表：保留或移除页面，切换为“按文件名顺序”，限定为“仅此文件夹”，或用“排除（每行一个）”排除路径。再选择用途：“保存网站”、“作为一个文件分享”、“打印或生成 PDF”或“交给 AI 阅读”。",
+            "生成 HTML。在报告中查看无法读取的文件、指向被排除页面的链接，以及无法内嵌的图片。"
+          ],
+          "faq": [
+            {
+              "q": "可以免费试用吗？",
+              "a": "可以试用一页：在文件夹模式下，Free 版每次把所选的一个 HTML 文件转换为内嵌本地图片的独立 HTML。要把多个 HTML 文件合并成带统一目录的一个文件，需要 Pro（$19.99，一次性付费）。"
+            },
+            {
+              "q": "我的文件会被上传到哪里吗？",
+              "a": "不会。文件夹或 ZIP 在浏览器中读取，合并后的 HTML 在您的设备上生成。不需要任何网站权限，页面引用的网络图片也不会下载，而是保留为链接。"
+            },
+            {
+              "q": "日本的旧网页会变成乱码吗？",
+              "a": "没有声明字符集的页面，或声明为 UTF-8 但实际是 Shift_JIS、EUC-JP、ISO-2022-JP 的页面，会被自动识别并正确读取。如果所有页面的 <title> 都相同，目录会改用各页面的标题。"
+            },
+            {
+              "q": "图片、PDF 和页面间的链接会怎样？",
+              "a": "本地的 PNG、JPEG、GIF、WebP 和 AVIF 图片会被内嵌。合并后各页面之间的链接变为文件内跳转。PDF、Office、ZIP 等被链接的文件，可以选择“复制到 HTML 旁边”（默认）、“嵌入到 HTML 中”（默认每个文件最大 20 MiB，总计 100 MiB）或“保留为链接”。"
+            },
+            {
+              "q": "可以读取哪些文件？",
+              "a": "文件夹或 ZIP 中的 .html、.htm 和 .xhtml 文件。“框架外壳”（frameset）页面默认被排除，但框架内的页面会被包含。MHT 文件和 CHM 帮助文件不能直接读取，请先把 CHM 解压为 HTML。"
+            },
+            {
+              "q": "这和合并网站页面的功能有什么不同？",
+              "a": "“浏览器页面”模式从在线网站收集相关页面。文件夹模式只处理电脑上已有的文件，因此适合已存档的网站、离线手册，以及不再在线的文档。"
+            }
+          ],
+          "industry": {
+            "kind": "localhtml",
+            "title": "从页面文件夹到一个 HTML",
+            "stages": [
+              "选择文件夹或 ZIP",
+              "检查顺序和页面",
+              "带目录的一个 HTML"
+            ],
+            "files": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html",
+              "images/figure.png"
+            ],
+            "order": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html"
+            ],
+            "output": "manual.html",
+            "toc": "目录",
+            "example": "示意示例 · 虚构文件",
+            "note": "Free 版每次转换所选的一个 HTML 文件；Pro 把所选文件合并成一个 HTML。顺序按 index.html 出发的链接排列。",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "常被合并的文件夹",
+            "items": [
+              [
+                "旧网站的备份",
+                "用“另存为”、HTTrack 或 wget 保存的网站，或从服务器复制下来的 index.html 和大量子页面。"
+              ],
+              [
+                "导出的技术文档",
+                "帮助制作工具、Sphinx、Javadoc 或 Doxygen 输出的 HTML，或解压成 HTML 的 CHM 帮助文件。"
+              ],
+              [
+                "手册与培训资料",
+                "以页面文件夹形式交付的培训资料、产品手册或在线课程章节。"
+              ],
+              [
+                "离线保存的内部页面",
+                "导出为 HTML 的 Wiki 或内网页面，想保留成一份文档。"
+              ],
+              [
+                "一次性打印或生成 PDF",
+                "打印合并后的一个文件，而不用逐页打开再打印。"
+              ],
+              [
+                "把整套资料交给 AI",
+                "生成一个带出处的 Markdown 文件，或完整的 AI 数据包（corpus.md、chunks.jsonl、manifest.json）。"
+              ]
+            ]
+          }
+        },
+        "zh_TW": {
+          "title": "多個HTML檔案合併成一個｜資料夾或ZIP自動產生目錄 | Grab All Files",
+          "desc": "把電腦資料夾或ZIP裡的多個HTML檔案合併成一個附目錄的HTML。圖片內嵌，頁面間連結在檔案內跳轉，不上傳。",
+          "eyebrow": "電腦裡的 HTML → 一個 HTML",
+          "h1": "把多個HTML檔案合併成一個HTML檔案。",
+          "lead": "手邊有存下來的網站、匯出的手冊，或裝滿 .html 頁面的 ZIP？在電腦上選擇資料夾或 ZIP，Grab All Files 就會把這些頁面合併成一個附目錄的 HTML 檔案。頁面依網站本身的連結順序排列，本機圖片會內嵌，頁面之間的連結變為檔案內跳轉。所有處理都在瀏覽器中完成，不會上傳任何內容。",
+          "best": [
+            "多年前儲存或鏡像下來的網站（index.html 加上幾十個頁面），想合成一個檔案來保存、閱讀或搜尋。",
+            "以 HTML 頁面資料夾形式匯出的說明檔、產品手冊或技術文件。",
+            "把多頁 HTML 文件當成一個附件分享，或一次列印成 PDF。",
+            "把整套本機文件作為附出處的 Markdown 或資料包，一次交給 AI 工具。"
+          ],
+          "steps": [
+            "開啟 Grab All Files，選擇「將網頁合併為 HTML」，並把來源切換為「從電腦資料夾」。",
+            "選擇資料夾或 ZIP 檔案，也可以直接拖曳到頁面上。.html、.htm 和 .xhtml 檔案會依網站從 index.html 出發的連結順序排列，沒有被連結的頁面依名稱排在後面。",
+            "檢查清單：保留或移除頁面，切換為「依檔名順序」，限定為「僅此資料夾」，或用「排除（每行一個）」排除路徑。再選擇用途：「保存網站」、「以單一檔案分享」、「列印或製作 PDF」或「交給 AI 閱讀」。",
+            "產生 HTML。在報告中查看無法讀取的檔案、指向被排除頁面的連結，以及無法內嵌的圖片。"
+          ],
+          "faq": [
+            {
+              "q": "可以免費試用嗎？",
+              "a": "可以試用一頁：在資料夾模式下，Free 版每次把所選的一個 HTML 檔案轉換為內嵌本機圖片的獨立 HTML。要把多個 HTML 檔案合併成附共同目錄的一個檔案，需要 Pro（$19.99，一次性付費）。"
+            },
+            {
+              "q": "我的檔案會被上傳到哪裡嗎？",
+              "a": "不會。資料夾或 ZIP 在瀏覽器中讀取，合併後的 HTML 在您的裝置上產生。不需要任何網站權限，頁面引用的網路圖片也不會下載，而是保留為連結。"
+            },
+            {
+              "q": "日本的舊網頁會變成亂碼嗎？",
+              "a": "沒有宣告字元集的頁面，或宣告為 UTF-8 但實際是 Shift_JIS、EUC-JP、ISO-2022-JP 的頁面，會被自動辨識並正確讀取。如果所有頁面的 <title> 都相同，目錄會改用各頁面的標題。"
+            },
+            {
+              "q": "圖片、PDF 和頁面間的連結會怎樣？",
+              "a": "本機的 PNG、JPEG、GIF、WebP 和 AVIF 圖片會被內嵌。合併後各頁面之間的連結變為檔案內跳轉。PDF、Office、ZIP 等被連結的檔案，可以選擇「複製到 HTML 旁邊」（預設）、「嵌入到 HTML 中」（預設每個檔案上限 20 MiB，總計 100 MiB）或「保留為連結」。"
+            },
+            {
+              "q": "可以讀取哪些檔案？",
+              "a": "資料夾或 ZIP 中的 .html、.htm 和 .xhtml 檔案。「框架外框」（frameset）頁面預設會被排除，但框架內的頁面會被納入。MHT 檔案和 CHM 說明檔不能直接讀取，請先把 CHM 解壓縮為 HTML。"
+            },
+            {
+              "q": "這和合併網站頁面的功能有什麼不同？",
+              "a": "「瀏覽器頁面」模式從線上網站收集相關頁面。資料夾模式只處理電腦上已有的檔案，因此適合已封存的網站、離線手冊，以及不再於線上提供的文件。"
+            }
+          ],
+          "industry": {
+            "kind": "localhtml",
+            "title": "從頁面資料夾到一個 HTML",
+            "stages": [
+              "選擇資料夾或 ZIP",
+              "檢查順序和頁面",
+              "附目錄的一個 HTML"
+            ],
+            "files": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html",
+              "images/figure.png"
+            ],
+            "order": [
+              "index.html",
+              "chapter-1.html",
+              "chapter-2.html"
+            ],
+            "output": "manual.html",
+            "toc": "目錄",
+            "example": "示意範例 · 虛構檔案",
+            "note": "Free 版每次轉換所選的一個 HTML 檔案；Pro 把所選檔案合併成一個 HTML。順序依 index.html 出發的連結排列。",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "常被合併的資料夾",
+            "items": [
+              [
+                "舊網站的備份",
+                "用「另存新檔」、HTTrack 或 wget 儲存的網站，或從伺服器複製下來的 index.html 和大量子頁面。"
+              ],
+              [
+                "匯出的技術文件",
+                "說明檔製作工具、Sphinx、Javadoc 或 Doxygen 輸出的 HTML，或解壓縮成 HTML 的 CHM 說明檔。"
+              ],
+              [
+                "手冊與訓練教材",
+                "以頁面資料夾形式交付的訓練教材、產品手冊或線上課程章節。"
+              ],
+              [
+                "離線儲存的內部頁面",
+                "匯出為 HTML 的 Wiki 或內部網站頁面，想保留成一份文件。"
+              ],
+              [
+                "一次列印或製作 PDF",
+                "列印合併後的一個檔案，而不用逐頁開啟再列印。"
+              ],
+              [
+                "把整套資料交給 AI",
+                "產生一個附出處的 Markdown 檔案，或完整的 AI 資料包（corpus.md、chunks.jsonl、manifest.json）。"
+              ]
+            ]
+          }
+        }
+      }
+    },
     "download-product-catalogs-and-datasheets": {
       "path": "download-product-catalogs-and-datasheets.html",
       "related": [
@@ -10528,7 +11611,7 @@
     },
     "combine-web-pages-into-one-html": {
       path: "combine-web-pages-into-one-html.html",
-      related: ["download-files-from-webpage", "internal-portal-downloads", "download-all-pdfs"],
+      related: ["combine-local-html-files-into-one", "download-files-from-webpage", "internal-portal-downloads"],
       cta: {
         en: { title: "Save one related page free—or combine several with Pro.", text: "Discovery and HTML generation stay on your device. Free lists related candidates and saves exactly the one page you choose; images on that page have no plan-based count cap, and directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro selects multiple candidates and combines their readable page bodies into one HTML. Safety and source-site limits apply." },
         ja: { title: "無料版は選んだ1ページ。Proは複数ページを1つに。", text: "探索とHTML生成は端末内で処理します。無料版は関連候補を一覧表示し、常に選んだ1ページだけを保存。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Proは複数候補の本文を1つのHTMLに結合します。安全上限・サイト側制限は適用されます。" },
@@ -11940,8 +13023,17 @@
     if (!data) return "";
     var rows = data.files.map(function(name) { return [name, name.split('.').pop().toUpperCase()]; });
     var samples = [visualFiles(data.files), '<ul class="visual-selection">' + data.files.map(function(name) { return '<li><span aria-hidden="true">✓</span> ' + esc(name) + '</li>'; }).join('') + '</ul>', visualCode(data.output + '/\n' + data.files.map(function(name) { return '├ ' + name; }).join('\n') + '\n└ files.csv', 'visual-tree')];
+    if (data.kind === 'localhtml') samples = [visualFiles(data.files), '<ol class="visual-selection">' + data.order.map(function(name) { return '<li><span aria-hidden="true">✓</span> ' + esc(name) + '</li>'; }).join('') + '</ol>',
+      visualCode(data.output + '\n├ ' + data.toc + '\n' + data.order.map(function(name, i) { return (i === data.order.length - 1 ? '└ ' : '├ ') + name.replace(/\.x?html?$/, ''); }).join('\n'), 'visual-tree')];
     if (data.kind === 'filecsv') samples = [visualTable(data.column, rows), visualCode('URL,Filename,Type,Source page\nhttps://example.org/catalog.pdf,catalog.pdf,PDF,https://example.org/downloads'), '<strong class="visual-label">Excel</strong>' + visualTable(data.column, rows)];
     return '<figure class="feature-visual industry-visual" aria-labelledby="feature-visual-caption"><figcaption id="feature-visual-caption"><strong>' + esc(data.title) + '</strong><span>' + esc(data.example) + '</span></figcaption><ol class="visual-flow">' + data.stages.map(function(title, i) { return '<li class="visual-stage"><h3><span class="visual-index" aria-hidden="true">' + String(i + 1) + '</span><span>' + esc(title) + '</span></h3><div class="visual-demo">' + samples[i] + '</div>' + (i < 2 ? '<span class="visual-arrow visual-arrow-horizontal" aria-hidden="true">→</span><span class="visual-arrow visual-arrow-vertical" aria-hidden="true">↓</span>' : '') + '</li>'; }).join('') + '</ol><p class="visual-note">' + esc(data.note) + '</p></figure>';
+  }
+
+  function renderScenarios(data) {
+    if (!data) return "";
+    return '<section class="section-card research-guide"><h2>' + esc(data.title) + '</h2><div class="manual-patterns">' + data.items.map(function (item) {
+      return '<article class="manual-pattern"><h3>' + esc(item[0]) + '</h3><p>' + esc(item[1]) + '</p></article>';
+    }).join('') + '</div></section>';
   }
 
   function renderIndustryReference(data) {
@@ -12901,6 +13993,7 @@
           "<section class=\"section-card\"><h2>" + esc(ui.bestFor) + "</h2><ul class=\"check-list\">" + renderList(copy.best, "check") + "</ul></section>",
           "<section class=\"section-card\"><h2>" + esc(ui.workflow) + "</h2><ol class=\"step-list\">" + renderList(copy.steps, "num") + "</ol></section>",
         "</div>",
+        renderScenarios(copy.scenarios),
         renderResearchGuide(copy.guide, "details"),
         renderArxivGuide(copy.arxiv, "access", lang),
         renderManualGuide(copy.manual, "details", lang),
