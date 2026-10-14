@@ -13055,6 +13055,20 @@
   }
 
   var CASE_SCREENSHOTS = {
+  "combine-local-html-files-into-one": {
+    "collector": false,
+    "portal": false,
+    "ja": {
+      "src": "/assets/screenshots/use-case-combine-local-html-files-into-one-ja.png",
+      "width": 2560,
+      "height": 1760
+    },
+    "en": {
+      "src": "/assets/screenshots/use-case-combine-local-html-files-into-one-en.png",
+      "width": 2560,
+      "height": 1760
+    }
+  },
   "web-tables-to-csv-for-excel-ai": {
     "collector": true,
     "portal": false,
@@ -13344,6 +13358,7 @@
       "zoom": "Open the full-size image"
     },
     "purposes": {
+      "combine-local-html-files-into-one": "“From a computer folder” in Combine pages into HTML: choose a folder or ZIP file, or drag it onto the screen",
       "web-tables-to-csv-for-excel-ai": "Table CSV/JSON export settings",
       "save-and-compare-document-revisions": "Menu for saving a change report",
       "rename-and-organize-bulk-pdf-downloads": "Reviewed PDF titles, save names and folder options",
@@ -13374,6 +13389,7 @@
       "zoom": "画像を開いて拡大する"
     },
     "purposes": {
+      "combine-local-html-files-into-one": "「ページをHTMLにまとめる」の「パソコンのフォルダから」：フォルダかZIPファイルを選ぶか、画面へドラッグ",
       "web-tables-to-csv-for-excel-ai": "表のCSV/JSON出力設定",
       "save-and-compare-document-revisions": "差分レポートを保存するメニュー",
       "rename-and-organize-bulk-pdf-downloads": "PDF題名の確認・保存名・フォルダ分けの選択",
@@ -13404,6 +13420,7 @@
       "zoom": "Abrir la imagen a tamaño completo"
     },
     "purposes": {
+      "combine-local-html-files-into-one": "Modo de carpeta del equipo en la combinación de páginas: elige una carpeta o un ZIP, o arrástralo a la pantalla",
       "web-tables-to-csv-for-excel-ai": "Configuración de tablas CSV/JSON",
       "save-and-compare-document-revisions": "Menú para guardar un informe de cambios",
       "rename-and-organize-bulk-pdf-downloads": "Títulos PDF revisados, nombres y carpetas",
@@ -13434,6 +13451,7 @@
       "zoom": "Ouvrir l’image en taille réelle"
     },
     "purposes": {
+      "combine-local-html-files-into-one": "Mode dossier de l’ordinateur dans le regroupement de pages : choisissez un dossier ou un ZIP, ou faites-le glisser",
       "web-tables-to-csv-for-excel-ai": "Paramètres d’export des tableaux CSV/JSON",
       "save-and-compare-document-revisions": "Menu pour enregistrer un rapport de changements",
       "rename-and-organize-bulk-pdf-downloads": "Titres PDF vérifiés, noms et dossiers",
@@ -13464,6 +13482,7 @@
       "zoom": "Bild in voller Größe öffnen"
     },
     "purposes": {
+      "combine-local-html-files-into-one": "Ordnermodus beim Bündeln von Seiten: Ordner oder ZIP-Datei wählen oder auf den Bildschirm ziehen",
       "web-tables-to-csv-for-excel-ai": "CSV/JSON-Einstellungen für Tabellen",
       "save-and-compare-document-revisions": "Menü zum Speichern eines Änderungsberichts",
       "rename-and-organize-bulk-pdf-downloads": "Geprüfte PDF-Titel, Dateinamen und Ordneroptionen",
@@ -13494,6 +13513,7 @@
       "zoom": "Apri l’immagine a dimensione intera"
     },
     "purposes": {
+      "combine-local-html-files-into-one": "Modalità cartella del computer nell’unione di pagine: scegli una cartella o un file ZIP, oppure trascinalo",
       "web-tables-to-csv-for-excel-ai": "Impostazioni di esportazione tabelle CSV/JSON",
       "save-and-compare-document-revisions": "Menu per salvare un rapporto delle modifiche",
       "rename-and-organize-bulk-pdf-downloads": "Titoli PDF verificati, nomi e cartelle",
@@ -13524,6 +13544,7 @@
       "zoom": "원본 크기로 이미지 열기"
     },
     "purposes": {
+      "combine-local-html-files-into-one": "페이지 합치기의 컴퓨터 폴더 모드: 폴더나 ZIP 파일을 선택하거나 화면으로 끌어 놓기",
       "web-tables-to-csv-for-excel-ai": "표의 CSV/JSON 출력 설정",
       "save-and-compare-document-revisions": "변경 보고서를 저장하는 메뉴",
       "rename-and-organize-bulk-pdf-downloads": "PDF 제목 확인·저장 이름·폴더 옵션",
@@ -13554,6 +13575,7 @@
       "zoom": "Abrir a imagem em tamanho completo"
     },
     "purposes": {
+      "combine-local-html-files-into-one": "Modo de pasta do computador ao juntar páginas: escolha uma pasta ou um ZIP, ou arraste para a tela",
       "web-tables-to-csv-for-excel-ai": "Configurações de tabelas CSV/JSON",
       "save-and-compare-document-revisions": "Menu para salvar um relatório de alterações",
       "rename-and-organize-bulk-pdf-downloads": "Títulos PDF conferidos, nomes e pastas",
@@ -13584,6 +13606,7 @@
       "zoom": "打开原尺寸图片"
     },
     "purposes": {
+      "combine-local-html-files-into-one": "网页合并中的“电脑文件夹”模式：选择文件夹或ZIP文件，或拖到界面上",
       "web-tables-to-csv-for-excel-ai": "表格CSV/JSON输出设置",
       "save-and-compare-document-revisions": "保存变化报告的菜单",
       "rename-and-organize-bulk-pdf-downloads": "PDF题名核对、保存名称与文件夹选项",
@@ -13614,6 +13637,7 @@
       "zoom": "開啟原尺寸圖片"
     },
     "purposes": {
+      "combine-local-html-files-into-one": "網頁合併中的「電腦資料夾」模式：選擇資料夾或ZIP檔案，或拖曳到畫面上",
       "web-tables-to-csv-for-excel-ai": "表格CSV/JSON輸出設定",
       "save-and-compare-document-revisions": "儲存變更報告的選單",
       "rename-and-organize-bulk-pdf-downloads": "PDF題名核對、儲存名稱與資料夾選項",
