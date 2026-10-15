@@ -38,6 +38,16 @@ const LOCALES = ['ja', 'es', 'fr', 'de', 'it', 'ko', 'pt_BR', 'zh_CN', 'zh_TW'];
 const ALL = ['en', ...LOCALES];
 const BCP47 = { en: 'en', ja: 'ja', es: 'es', fr: 'fr', de: 'de', it: 'it', ko: 'ko', pt_BR: 'pt-BR', zh_CN: 'zh-CN', zh_TW: 'zh-TW' };
 const OG = { en: 'en_US', ja: 'ja_JP', es: 'es_ES', fr: 'fr_FR', de: 'de_DE', it: 'it_IT', ko: 'ko_KR', pt_BR: 'pt_BR', zh_CN: 'zh_CN', zh_TW: 'zh_TW' };
+// Screen-reader labels the English sources hard-code in attributes, so every
+// locale copy used to announce them in English. Same wording as use-case.js UI.
+const THEME_LABEL = { en: 'Toggle dark mode', ja: '表示テーマを切り替え', es: 'Cambiar tema', fr: 'Changer de thème', de: 'Darstellung wechseln', it: 'Cambia tema', ko: '테마 전환', pt_BR: 'Alternar tema', zh_CN: '切换主题', zh_TW: '切換主題' };
+const HOME_LABEL = { en: 'Grab All Files home', ja: 'Grab All Files ホーム', es: 'Inicio de Grab All Files', fr: 'Accueil Grab All Files', de: 'Grab All Files Startseite', it: 'Home di Grab All Files', ko: 'Grab All Files 홈', pt_BR: 'Início do Grab All Files', zh_CN: 'Grab All Files 首页', zh_TW: 'Grab All Files 首頁' };
+function localizeChromeLabels(h, L) {
+  h = h.replace(/(<button\b(?=[^>]*\bid="theme-toggle")[^>]*)>/, (m, open) =>
+    open.replace(/\b(aria-label|title)="[^"]*"/g, (mm, attr) => `${attr}="${attrEsc(THEME_LABEL[L])}"`) + '>');
+  h = h.replace(/(<a class="brand"[^>]*\baria-label=")[^"]*(")/, (m, a, b) => a + attrEsc(HOME_LABEL[L]) + b);
+  return h;
+}
 
 const PAGES = [
   { src: 'index.html', rel: '' },
@@ -233,7 +243,7 @@ function bakeSecurity(html, data, L) {
   if (data.footer) {
     h = h.replace(/(<p id="footer-copy">)([^<]*)/, (m, open) => open + textEsc(data.footer));
   }
-  return h;
+  return localizeChromeLabels(h, L);
 }
 
 /* The /use-cases/ hub: a real parent page for the use-case guides, which previously
@@ -408,6 +418,7 @@ function genLocale(srcHtml, page, L) {
   h = h.replace(/<link rel="canonical"[^>]*>/, () => `<link rel="canonical" href="${self}">`);
   h = h.replace(/[ \t]*<link rel="alternate" hreflang="x-default"[\s\S]*?<link rel="alternate" hreflang="zh-TW"[^>]*>/, () => hreflangBlock(page.rel));
   h = h.replace(/<meta property="og:url"[^>]*>/, () => `<meta property="og:url" content="${self}">`);
+  h = localizeChromeLabels(h, L);
   h = h.replace(/<meta property="og:locale" content="en_US">/, () => `<meta property="og:locale" content="${OG[L]}">`);
   if (!/property="og:locale"/.test(h)) h = h.replace(/(<meta property="og:image"[^>]*>)/, (m, a) => `${a}\n  <meta property="og:locale" content="${OG[L]}">`);
   // og:locale:alternate must list the OTHER locales. The English source lists the

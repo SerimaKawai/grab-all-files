@@ -367,11 +367,11 @@
       "download-arxiv-pdfs-and-research-files": "arXiv PDFs & research files",
       "web-tables-to-csv-for-excel-ai": "Web tables to CSV",
       "save-and-compare-document-revisions": "Save & compare revisions",
-      "rename-and-organize-bulk-pdf-downloads": "Name & organise PDF downloads",
+      "rename-and-organize-bulk-pdf-downloads": "Name & organize PDF downloads",
       "collect-public-government-documents": "Public guidance & documents",
       "save-web-pages-as-markdown": "Web sources as Markdown",
       "save-online-manuals-and-knowledge-pages": "Save manuals & knowledge pages",
-      "web-pages-for-reading-and-ai-analysis": "Collect, read & analyse with AI",
+      "web-pages-for-reading-and-ai-analysis": "Collect, read & analyze with AI",
       "combine-web-pages-into-one-html": "Combine pages into HTML",
       "combine-local-html-files-into-one": "Local HTML files into one",
       "download-all-pdfs": "Download all PDFs",
@@ -477,7 +477,7 @@
       "download-arxiv-pdfs-and-research-files": "PDF e file di ricerca arXiv",
       "web-tables-to-csv-for-excel-ai": "Tabelle web in CSV",
       "save-and-compare-document-revisions": "Salvare e confrontare versioni",
-      "rename-and-organize-bulk-pdf-downloads": "Nominare e organizzare PDF",
+      "rename-and-organize-bulk-pdf-downloads": "Rinominare e organizzare PDF",
       "collect-public-government-documents": "Guide e documenti pubblici",
       "save-web-pages-as-markdown": "Fonti web in Markdown",
       "save-online-manuals-and-knowledge-pages": "Salvare manuali e pagine di conoscenza",
@@ -543,7 +543,7 @@
       "download-arxiv-pdfs-and-research-files": "arXiv PDF与研究文件",
       "web-tables-to-csv-for-excel-ai": "网页表格转CSV",
       "save-and-compare-document-revisions": "保存并比较修订前后资料",
-      "rename-and-organize-bulk-pdf-downloads": "PDF题名保存与格式整理",
+      "rename-and-organize-bulk-pdf-downloads": "PDF标题保存与格式整理",
       "collect-public-government-documents": "公共机构资料集",
       "save-web-pages-as-markdown": "用Markdown复用Web资料",
       "save-online-manuals-and-knowledge-pages": "保存业务手册与知识文章",
@@ -565,7 +565,7 @@
       "download-arxiv-pdfs-and-research-files": "arXiv PDF與研究檔案",
       "web-tables-to-csv-for-excel-ai": "網頁表格轉CSV",
       "save-and-compare-document-revisions": "儲存並比較修訂前後資料",
-      "rename-and-organize-bulk-pdf-downloads": "PDF題名儲存與格式整理",
+      "rename-and-organize-bulk-pdf-downloads": "PDF標題儲存與格式整理",
       "collect-public-government-documents": "公部門資料集",
       "save-web-pages-as-markdown": "用Markdown重用Web資料",
       "save-online-manuals-and-knowledge-pages": "儲存業務手冊與知識文章",
@@ -830,7 +830,7 @@
               ],
               [
                 "資料一式をAIに読ませる",
-                "出典つきのMarkdown1ファイル、またはAI用の完全パッケージ（corpus.md・chunks.jsonl・manifest.json）を作る。"
+                "出典つきのMarkdown1ファイル、またはAI用のフルパッケージ（corpus.md・chunks.jsonl・manifest.json）を作る。"
               ]
             ]
           }
@@ -868,7 +868,7 @@
             },
             {
               "q": "¿Qué pasa con las imágenes, los PDF y los enlaces entre páginas?",
-              "a": "Las imágenes locales PNG, JPEG, GIF, WebP y AVIF se incrustan. Los enlaces entre las páginas combinadas pasan a ser saltos dentro del archivo. Los archivos enlazados, como PDF, Office o ZIP, pueden «Copiar junto al HTML» (opción por defecto), «Incrustar en el HTML» (20 MiB por archivo y 100 MiB en total por defecto) o «Dejarlos como enlaces»."
+              "a": "Las imágenes locales PNG, JPEG, GIF, WebP y AVIF se incrustan. Los enlaces entre las páginas combinadas pasan a ser saltos dentro del archivo. Los archivos enlazados, como PDF, Office o ZIP, se pueden «Copiar junto al HTML» (opción por defecto), «Incrustar en el HTML» (20 MiB por archivo y 100 MiB en total por defecto) o «Dejarlos como enlaces»."
             },
             {
               "q": "¿Qué archivos puede leer?",
@@ -1060,7 +1060,7 @@
           "faq": [
             {
               "q": "Kann ich das kostenlos testen?",
-              "a": "Ja, mit einer Seite: Im Ordnermodus wandelt der Free-Tarif pro Durchlauf eine gewählte HTML-Datei in ein eigenständiges HTML mit eingebetteten lokalen Bildern um. Mehrere HTML-Dateien mit gemeinsamem Inhaltsverzeichnis zu einer Datei zusammenzuführen, erfordert Pro (19,99 $, einmalig)."
+              "a": "Ja, mit einer Seite: Im Ordnermodus wandelt der Free-Plan pro Durchlauf eine gewählte HTML-Datei in ein eigenständiges HTML mit eingebetteten lokalen Bildern um. Mehrere HTML-Dateien mit gemeinsamem Inhaltsverzeichnis zu einer Datei zusammenzuführen, erfordert Pro (19,99 $, einmalig)."
             },
             {
               "q": "Werden meine Dateien irgendwohin hochgeladen?",
@@ -1072,7 +1072,7 @@
             },
             {
               "q": "Was passiert mit Bildern, PDFs und Links zwischen Seiten?",
-              "a": "Lokale Bilder in PNG, JPEG, GIF, WebP und AVIF werden eingebettet. Links zwischen den zusammengeführten Seiten werden zu Sprüngen innerhalb der Datei. Verlinkte Dateien wie PDF, Office oder ZIP lassen sich „Neben das HTML kopieren“ (Standard), „In das HTML einbetten“ (standardmäßig 20 MiB pro Datei und 100 MiB insgesamt) oder „Als Links belassen“."
+              "a": "Lokale Bilder in PNG, JPEG, GIF, WebP und AVIF werden eingebettet. Links zwischen den zusammengeführten Seiten werden zu Sprüngen innerhalb der Datei. Verlinkte Dateien wie PDF, Office oder ZIP behandeln Sie wahlweise mit „Neben das HTML kopieren“ (Standard), „In das HTML einbetten“ (standardmäßig 20 MiB pro Datei und 100 MiB insgesamt) oder „Als Links belassen“."
             },
             {
               "q": "Welche Dateien kann es lesen?",
@@ -1280,7 +1280,7 @@
             },
             {
               "q": "어떤 파일을 읽을 수 있나요?",
-              "a": "폴더나 ZIP 안의 .html, .htm, .xhtml 파일입니다. “프레임 틀”(frameset) 페이지는 기본적으로 제외하고 프레임 안의 페이지는 포함합니다. MHT 파일과 CHM 도움말 파일은 직접 읽지 않으므로, CHM은 먼저 HTML로 추출해 주세요."
+              "a": "폴더나 ZIP 안의 .html, .htm, .xhtml 파일입니다. 프레임셋(frameset) 페이지는 기본적으로 제외하고 프레임 안의 페이지는 포함합니다. MHT 파일과 CHM 도움말 파일은 직접 읽지 않으므로, CHM은 먼저 HTML로 추출해 주세요."
             },
             {
               "q": "웹사이트의 페이지를 합치는 기능과는 무엇이 다른가요?",
@@ -1350,7 +1350,7 @@
           "desc": "Junte os arquivos HTML de uma pasta ou ZIP em um único HTML offline, com índice, imagens incorporadas e links internos funcionando. Nada é enviado.",
           "eyebrow": "HTML no computador → um só HTML",
           "h1": "Juntar vários arquivos HTML em um só.",
-          "lead": "Tem um site salvo, um manual exportado ou um ZIP cheio de páginas .html? Escolha a pasta ou o ZIP no seu computador e o Grab All Files junta as páginas em um único arquivo HTML com índice. As páginas seguem a ordem dos links do próprio site, as imagens locais são incorporadas e os links entre páginas saltam dentro do arquivo. Tudo roda no seu navegador; nada é enviado.",
+          "lead": "Tem um site salvo, um manual exportado ou um ZIP cheio de páginas .html? Escolha a pasta ou o ZIP no seu computador e o Grab All Files junta as páginas em um único arquivo HTML com índice. As páginas seguem a ordem dos links do próprio site, as imagens locais são incorporadas e os links entre páginas passam a apontar para trechos dentro do arquivo. Tudo roda no seu navegador; nada é enviado.",
           "best": [
             "Um site que você salvou ou espelhou anos atrás (index.html e dezenas de páginas) e quer guardar, ler ou pesquisar como um só arquivo.",
             "Arquivos de ajuda, manuais de produto ou documentação exportados como uma pasta de páginas HTML.",
@@ -1378,7 +1378,7 @@
             },
             {
               "q": "O que acontece com imagens, PDFs e links entre páginas?",
-              "a": "Imagens locais PNG, JPEG, GIF, WebP e AVIF são incorporadas. Os links entre as páginas combinadas viram saltos dentro do arquivo. Arquivos ligados, como PDF, Office ou ZIP, podem ser “Copiar ao lado do HTML” (padrão), “Incorporar no HTML” (20 MiB por arquivo e 100 MiB no total por padrão) ou “Deixar como links”."
+              "a": "Imagens locais PNG, JPEG, GIF, WebP e AVIF são incorporadas. Os links entre as páginas combinadas viram links internos dentro do arquivo. Arquivos ligados, como PDF, Office ou ZIP, podem ser “Copiar ao lado do HTML” (padrão), “Incorporar no HTML” (20 MiB por arquivo e 100 MiB no total por padrão) ou “Deixar como links”."
             },
             {
               "q": "Quais arquivos ele consegue ler?",
@@ -2195,7 +2195,7 @@
             "打开制造商所需产品系列的下载页面。将其他型号、软件及会员专用区域与所选资料集分开。",
             "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
             "核对型号、语言、修订日期及文档用途。编辑标题，区分目录、规格文件和数据表。",
-            "检查或编辑题名，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "检查或编辑标题，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
             "打开已保存文档，将记载的条件与来源核对。记录型号与版本；这个文件夹是参考资料，不会自动评估产品是否适用。"
           ],
           "faq": [
@@ -2205,7 +2205,7 @@
             },
             {
               "q": "会自动按型号分类文件吗？",
-              "a": "不会。型号确认、文件命名或按型号分批处理由你完成。扩展内置的文件夹分类按文件类型或来源域名进行。"
+              "a": "不会。型号确认、文件命名或按型号分批处理由您完成。扩展内置的文件夹分类按文件类型或来源域名进行。"
             },
             {
               "q": "能自动提取规格对比吗？",
@@ -2217,7 +2217,7 @@
             },
             {
               "q": "文件信息CSV包含什么？",
-              "a": "URL、文件名、题名、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+              "a": "URL、文件名、标题、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
             }
           ],
           "industry": {
@@ -2260,7 +2260,7 @@
             "開啟製造商所需產品系列的下載頁面。將其他型號、軟體及會員專用區域與選取的資料集分開。",
             "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
             "核對型號、語言、修訂日期與文件用途。編輯標題，區分型錄、規格文件和資料表。",
-            "檢查或編輯題名，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "檢查或編輯標題，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
             "開啟已儲存文件，將記載的條件與來源核對。記錄型號與版本；這個資料夾是參考資料，不會自動評估產品是否適用。"
           ],
           "faq": [
@@ -2270,7 +2270,7 @@
             },
             {
               "q": "會自動依型號分類檔案嗎？",
-              "a": "不會。型號確認、檔案命名或依型號分批處理由你完成。擴充功能內建的資料夾分類依檔案類型或來源網域進行。"
+              "a": "不會。型號確認、檔案命名或依型號分批處理由您完成。擴充功能內建的資料夾分類依檔案類型或來源網域進行。"
             },
             {
               "q": "能自動擷取規格比較嗎？",
@@ -2282,7 +2282,7 @@
             },
             {
               "q": "檔案資訊CSV包含什麼？",
-              "a": "URL、檔名、題名、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+              "a": "URL、檔名、標題、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
             }
           ],
           "industry": {
@@ -2531,7 +2531,7 @@
             "Ouvrez Grab All Files, analysez la page choisie, filtrez les formats et vérifiez les liens avant de sélectionner les fichiers.",
             "Confirmez émetteur, période, date et corrections. Ajoutez la période aux titres et séparez les lots.",
             "Vérifiez ou modifiez les titres, choisissez les noms et dossiers par type ou domaine, puis enregistrez des fichiers ou un ZIP. Exportez les informations CSV pour garder les URL.",
-            "Vérifiez unités et chiffres dans les PDF originaux. Transmission IA manuelle ; ni extraction numérique garantie ni décision d’investissement."
+            "Vérifiez unités et chiffres dans les PDF originaux. Transmission IA manuelle ; l’extraction des chiffres n’est pas garantie et l’outil ne prend aucune décision d’investissement."
           ],
           "faq": [
             {
@@ -2855,7 +2855,7 @@
             "打开发行人的官方IR资料库，选择会计年度或季度。分别核对业绩公告、演示资料与公开的问答。",
             "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
             "确认发行人、报告期间、发布日期与修订。需要时在标题前加上期间标识，并按期间分批处理，避免混合报告。",
-            "检查或编辑题名，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "检查或编辑标题，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
             "阅读已保存原件，或手动将所选AI服务支持的资料文件与问题交给它。将单位、会计范围和数值与原始PDF核对。扩展不作投资判断，也不保证数值提取的完整性。"
           ],
           "faq": [
@@ -2869,7 +2869,7 @@
             },
             {
               "q": "会分析投资或把报告发送给AI吗？",
-              "a": "它准备文件与链接。你自行选择适合的材料，手动交给外部AI服务并核对输出。不承诺投资建议或分析准确性。"
+              "a": "它准备文件与链接。您自行选择适合的材料，手动交给外部AI服务并核对输出。不承诺投资建议或分析准确性。"
             },
             {
               "q": "可以免费使用吗？",
@@ -2877,7 +2877,7 @@
             },
             {
               "q": "文件信息CSV包含什么？",
-              "a": "URL、文件名、题名、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+              "a": "URL、文件名、标题、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
             }
           ],
           "industry": {
@@ -2920,7 +2920,7 @@
             "開啟發行人的官方IR資料庫，選擇會計年度或季度。分別核對業績公告、簡報與公開的問答。",
             "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
             "確認發行人、報告期間、發布日期與修訂。需要時在標題前加上期間標示，並依期間分批處理，避免混合報告。",
-            "檢查或編輯題名，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "檢查或編輯標題，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
             "閱讀已儲存原件，或手動將所選AI服務支援的資料檔與問題交給它。將單位、會計範圍與數值和原始PDF核對。擴充功能不作投資判斷，也不保證數值擷取的完整性。"
           ],
           "faq": [
@@ -2942,7 +2942,7 @@
             },
             {
               "q": "檔案資訊CSV包含什麼？",
-              "a": "URL、檔名、題名、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+              "a": "URL、檔名、標題、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
             }
           ],
           "industry": {
@@ -3515,7 +3515,7 @@
             "打开一个项目的官方页面。找到公告、规格、表格及单独发布的补充说明或修订链接。",
             "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
             "核对项目名称、版本、截止日期与所需文件列表。保留表格支持的原始格式，按文档用途命名文件。",
-            "检查或编辑题名，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "检查或编辑标题，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
             "将已保存文件和CSV与官方列表核对。准备申请前，回到来源检查修订或回答。保存文档不会填写、签署或提交申请。"
           ],
           "faq": [
@@ -3537,7 +3537,7 @@
             },
             {
               "q": "文件信息CSV包含什么？",
-              "a": "URL、文件名、题名、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+              "a": "URL、文件名、标题、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
             }
           ],
           "industry": {
@@ -3580,7 +3580,7 @@
             "開啟一個案件的官方頁面。找到公告、規格、表格及單獨發布的補充說明或修訂連結。",
             "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
             "核對案件名稱、版本、截止日期與所需文件清單。保留表格支援的原始格式，依文件用途命名檔案。",
-            "檢查或編輯題名，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "檢查或編輯標題，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
             "將已儲存檔案和CSV與官方清單核對。準備申請前，回到來源檢查修訂或回答。儲存文件不會填寫、簽署或提交申請。"
           ],
           "faq": [
@@ -3602,7 +3602,7 @@
             },
             {
               "q": "檔案資訊CSV包含什麼？",
-              "a": "URL、檔名、題名、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+              "a": "URL、檔名、標題、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
             }
           ],
           "industry": {
@@ -3817,7 +3817,7 @@
             ],
             "output": "Conjunto de ejemplo",
             "example": "Ejemplo ilustrativo · materiales ficticios",
-            "note": "Los nombres y grupos son ejemplos manuales. La clasificación nativa es por tipo o dominio. El dibujo CSV muestra cuatro columnas; las diez reales se describen en las preguntas.",
+            "note": "Los nombres y grupos son ejemplos manuales. La clasificación nativa es por tipo o dominio. La ilustración del CSV muestra cuatro columnas; las diez reales se describen en las preguntas.",
             "referenceTitle": "Ejemplo de documentos publicados",
             "referenceNote": "Referencia sobre cómo se publican documentos; no implica afiliación ni una prueba de compatibilidad.",
             "referenceLabel": "",
@@ -4000,7 +4000,7 @@
             ],
             "output": "Raccolta di esempio",
             "example": "Esempio illustrativo · materiali fittizi",
-            "note": "Nomi e gruppi sono esempi manuali. Le cartelle native sono per tipo o dominio. Il disegno CSV mostra quattro colonne; le dieci intestazioni reali sono nelle FAQ.",
+            "note": "Nomi e gruppi sono esempi manuali. Le cartelle native sono per tipo o dominio. L'esempio CSV mostra quattro colonne; le dieci intestazioni reali sono nelle FAQ.",
             "referenceTitle": "Esempio di documenti pubblicati",
             "referenceNote": "Riferimento alla pubblicazione dei documenti; non indica affiliazione o test di compatibilità.",
             "referenceLabel": "",
@@ -4061,7 +4061,7 @@
             ],
             "output": "자료 세트 예시",
             "example": "그림 예시 · 가상 샘플 자료",
-            "note": "이름과 묶음은 수동 정리 예시입니다. 확장의 폴더 옵션은 종류별 또는 도메인별입니다. CSV 그림은4열 발췌이며 실제10개 헤더는 FAQ에 설명되어 있습니다.",
+            "note": "이름과 묶음은 수동 정리 예시입니다. 확장의 폴더 옵션은 종류별 또는 도메인별입니다. CSV 그림은 4열 발췌이며 실제 10개 헤더는 FAQ에 설명되어 있습니다.",
             "referenceTitle": "공개 자료 배포 구성 예시",
             "referenceNote": "자료 공개 방식을 보여 주는 참고 링크이며 제휴나 호환성 검증을 뜻하지 않습니다.",
             "referenceLabel": "",
@@ -4081,7 +4081,7 @@
           "steps": [
             "Abra uma página de origem e escaneie. Decida quais arquivos devem formar as linhas do inventário, em vez de exportar uma lista sem finalidade definida.",
             "Abra Grab All Files, escaneie a página escolhida, filtre os formatos e confira os links antes de selecionar arquivos.",
-            "Selecione os arquivos necessários e confira títulos e páginas de origem. Use ‘Exportar info de arquivos em CSV’. O Free exporta até 10 linhas selecionadas por operação; divida listas maiores em lotes.",
+            "Selecione os arquivos necessários e confira títulos e páginas de origem. Use “Exportar info de arquivos em CSV”. O Free exporta até 10 linhas selecionadas por operação; divida listas maiores em lotes.",
             "URLs, nomes, títulos, tipos, confiança e evidências de detecção, tamanho, data e página de origem quando conhecidos. Campos desconhecidos podem ficar vazios; não extrai tabelas do documento.",
             "Importe o CSV pela opção de texto/CSV do Excel e confira colunas e codificação. Trate URLs e identificadores como texto quando necessário, mantenha vazios os campos desconhecidos e compare as linhas com os arquivos selecionados."
           ],
@@ -4143,7 +4143,7 @@
             "打开来源页面并扫描。先决定哪些文件应成为清单中的行，避免导出用途不明的列表。",
             "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
             "选择所需文件，核对标题和来源页面，使用“导出文件信息CSV”。免费版每次最多导出10个选中行，较大的列表需分批导出。",
-            "URL、文件名、题名、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。",
+            "URL、文件名、标题、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。",
             "通过Excel的文本/CSV导入功能核对列和编码。按需要将URL和标识符作为文本处理，保留未知字段的空白，并将各行与所选文件对照。"
           ],
           "faq": [
@@ -4204,7 +4204,7 @@
             "開啟來源頁面並掃描。先決定哪些檔案應成為清單中的列，避免匯出用途不明的清單。",
             "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
             "選取所需檔案，核對標題和來源頁面，使用「匯出檔案資訊CSV」。免費版每次最多匯出10個選取列，較大的清單需分批匯出。",
-            "URL、檔名、題名、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。",
+            "URL、檔名、標題、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。",
             "透過Excel的文字/CSV匯入功能核對欄位與編碼。依需要將URL和識別碼作為文字處理，保留未知欄位的空白，並將各列與所選檔案對照。"
           ],
           "faq": [
@@ -4545,7 +4545,7 @@
             },
             {
               "q": "Bewertet sie Sicherheit oder Konformität?",
-              "a": "Nein. Sie findet und speichert Dateien ohne diese Anforderungen auszulegen."
+              "a": "Nein. Sie findet und speichert Dateien, ohne diese Anforderungen auszulegen."
             },
             {
               "q": "Sind alle Sprachen verfügbar?",
@@ -4795,13 +4795,13 @@
             "打开供应商的文档搜索或产品页面，将范围缩小到准确产品。寻找其SDS与技术文档，避免混入无关产品系列。",
             "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
             "核对产品名、文档类型、语言和修订日期。检查或编辑标题，按产品分批处理，并保留原文件和来源链接。",
-            "检查或编辑题名，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "检查或编辑标题，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
             "打开已保存文档，与供应商当前来源确认产品和版本相符。此流程整理参考资料，不判断安全使用方式、危险性分类或法规符合性。"
           ],
           "faq": [
             {
               "q": "会替我选择正确的SDS吗？",
-              "a": "不会。你需在供应商来源及原始文档中核对产品、地区、语言与版本。产品名相似并不足以确认匹配。"
+              "a": "不会。您需在供应商来源及原始文档中核对产品、地区、语言与版本。产品名相似并不足以确认匹配。"
             },
             {
               "q": "能判断安全性或合规性吗？",
@@ -4817,7 +4817,7 @@
             },
             {
               "q": "文件信息CSV包含什么？",
-              "a": "URL、文件名、题名、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+              "a": "URL、文件名、标题、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
             }
           ],
           "industry": {
@@ -4860,7 +4860,7 @@
             "開啟供應商的文件搜尋或產品頁面，將範圍縮小到確切產品。尋找其SDS與技術文件，避免混入無關產品系列。",
             "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
             "核對產品名、文件類型、語言與修訂日期。檢查或編輯標題，依產品分批處理，並保留原檔案與來源連結。",
-            "檢查或編輯題名，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "檢查或編輯標題，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
             "開啟已儲存文件，與供應商目前的來源確認產品和版本相符。此流程整理參考資料，不判斷安全使用方式、危害分類或法規符合性。"
           ],
           "faq": [
@@ -4882,7 +4882,7 @@
             },
             {
               "q": "檔案資訊CSV包含什麼？",
-              "a": "URL、檔名、題名、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+              "a": "URL、檔名、標題、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
             }
           ],
           "industry": {
@@ -5415,7 +5415,7 @@
           "title": "Baixar PDFs e arquivos do arXiv | Grab All Files",
           "desc": "Escaneie resultados do arXiv, filtre PDFs e salve artigos com títulos, pastas, ZIP ou CSV. Guia com tela real da extensão.",
           "eyebrow": "PDFs e arquivos do arXiv",
-          "h1": "Salve os artigos arXiv que precisa.",
+          "h1": "Salve os artigos do arXiv de que você precisa.",
           "lead": "Pesquise primeiro no arXiv e transforme a lista exibida em uma pasta de leitura. Grab All Files detecta PDFs e links públicos de formatos compatíveis nessa página. Confira a lista e escolha os arquivos.",
           "best": [
             "Montar uma lista de leitura de uma busca ou categoria específica.",
@@ -5483,20 +5483,20 @@
         },
         "zh_CN": {
           "title": "批量保存arXiv PDF与研究文件 | Grab All Files",
-          "desc": "扫描arXiv搜索结果，筛选并选择所需PDF，按题名、文件夹、ZIP或文件列表CSV保存。附实际扩展界面与流程图。",
+          "desc": "扫描arXiv搜索结果，筛选并选择所需PDF，按标题、文件夹、ZIP或文件列表CSV保存。附实际扩展界面与流程图。",
           "eyebrow": "arXiv PDF与研究文件",
           "h1": "保存需要的arXiv论文。",
           "lead": "先在arXiv搜索，再把正在查看的论文列表整理成阅读资料夹。Grab All Files检测该页面的PDF与受支持格式的公开文件链接。由您核对列表并选择要保存的资料。",
           "best": [
             "从筛选后的搜索或类别列表建立阅读清单。",
-            "以易识别的题名保存选定PDF。",
+            "以易识别的标题保存选定PDF。",
             "同时管理受支持的公开文件与记录URL的CSV。"
           ],
           "steps": [
             "在arXiv按关键词、类别和时间筛选，打开目标搜索结果或论文列表。",
-            "打开Grab All Files并扫描当前页面。先从该页面开始，核对文件题名和来源URL。",
+            "打开Grab All Files并扫描当前页面。先从该页面开始，核对文件标题和来源URL。",
             "筛选PDF并选择需要的论文。其他公开链接另行核对，只选择需要的受支持格式。",
-            "检查或编辑题名，选择保存名称与文件夹方式。单独保存或打包ZIP，并导出文件列表CSV记录URL。",
+            "检查或编辑标题，选择保存名称与文件夹方式。单独保存或打包ZIP，并导出文件列表CSV记录URL。",
             "打开已保存PDF核对结果。记录来源URL与论文版本；大规模论文集合使用arXiv官方批量访问服务。"
           ],
           "faq": [
@@ -5517,8 +5517,8 @@
               "a": "Free每次保存最多10个文件，可重复执行。Pro解除文件数量上限。免费页面收集保存选定的1页HTML，Pro可合并多个选定页面。"
             },
             {
-              "q": "题名、ZIP与CSV有什么帮助？",
-              "a": "保存前检查或编辑题名。自动命名无有效题名时使用原名。按格式与按来源域名分类是不同选项。ZIP打包选定文件，CSV记录文件信息与URL。"
+              "q": "标题、ZIP与CSV有什么帮助？",
+              "a": "保存前检查或编辑标题。自动命名无有效标题时使用原名。按格式与按来源域名分类是不同选项。ZIP打包选定文件，CSV记录文件信息与URL。"
             },
             {
               "q": "这是arXiv官方工具吗？",
@@ -5538,10 +5538,10 @@
               "方法比较",
               "研究论文"
             ],
-            "visualNote": "使用虚构题名的流程示例。先在arXiv查找，再选择并保存所需文件。",
+            "visualNote": "使用虚构标题的流程示例。先在arXiv查找，再选择并保存所需文件。",
             "screenTitle": "arXiv上的实际扩展界面",
             "screenAlt": "Grab All Files检测arXiv公开论文链接，并显示PDF筛选与文件选择",
-            "screenCaption": "使用已获取公开论文页面的隔离验证环境中的实际扩展界面。示例展示题名核对与编辑，界面为英文。",
+            "screenCaption": "使用已获取公开论文页面的隔离验证环境中的实际扩展界面。示例展示标题核对与编辑，界面为英文。",
             "officialTitle": "选择合适的arXiv访问途径",
             "officialText": "阅读资料从筛选后的列表选择。大规模集合使用官方批量访问；API提供元数据。自动收集前请阅读访问指南。",
             "officialLabels": [
@@ -5553,20 +5553,20 @@
         },
         "zh_TW": {
           "title": "批次儲存arXiv PDF與研究檔案 | Grab All Files",
-          "desc": "掃描arXiv搜尋結果，篩選並選取所需PDF，依題名、資料夾、ZIP或檔案清單CSV儲存。附實際擴充畫面與流程圖。",
+          "desc": "掃描arXiv搜尋結果，篩選並選取所需PDF，依標題、資料夾、ZIP或檔案清單CSV儲存。附實際擴充畫面與流程圖。",
           "eyebrow": "arXiv PDF與研究檔案",
           "h1": "儲存需要的arXiv論文。",
           "lead": "先在arXiv搜尋，再把正在查看的論文清單整理成閱讀資料夾。Grab All Files偵測該頁面的PDF與支援格式的公開檔案連結。由您核對清單並選取要儲存的資料。",
           "best": [
             "從篩選後的搜尋或類別清單建立閱讀清單。",
-            "以易辨識的題名儲存選定PDF。",
+            "以易辨識的標題儲存選定PDF。",
             "同時管理支援的公開檔案與記錄URL的CSV。"
           ],
           "steps": [
             "在arXiv依關鍵字、類別和期間篩選，開啟目標搜尋結果或論文清單。",
-            "開啟Grab All Files並掃描目前頁面。先從該頁面開始，核對檔案題名和來源URL。",
+            "開啟Grab All Files並掃描目前頁面。先從該頁面開始，核對檔案標題和來源URL。",
             "篩選PDF並選取需要的論文。其他公開連結另行核對，只選擇需要的支援格式。",
-            "檢查或編輯題名，選擇儲存名稱與資料夾方式。個別儲存或打包ZIP，並匯出檔案清單CSV記錄URL。",
+            "檢查或編輯標題，選擇儲存名稱與資料夾方式。個別儲存或打包ZIP，並匯出檔案清單CSV記錄URL。",
             "開啟已儲存PDF核對結果。記錄來源URL與論文版本；大規模論文集合使用arXiv官方批次存取服務。"
           ],
           "faq": [
@@ -5587,8 +5587,8 @@
               "a": "Free每次儲存最多10個檔案，可重複執行。Pro解除檔案數量上限。免費頁面收集儲存選定的1頁HTML，Pro可合併多個選定頁面。"
             },
             {
-              "q": "題名、ZIP與CSV有什麼幫助？",
-              "a": "儲存前檢查或編輯題名。自動命名無有效題名時使用原名。依格式與依來源網域分類是不同選項。ZIP打包選定檔案，CSV記錄檔案資訊與URL。"
+              "q": "標題、ZIP與CSV有什麼幫助？",
+              "a": "儲存前檢查或編輯標題。自動命名無有效標題時使用原名。依格式與依來源網域分類是不同選項。ZIP打包選定檔案，CSV記錄檔案資訊與URL。"
             },
             {
               "q": "這是arXiv官方工具嗎？",
@@ -5608,10 +5608,10 @@
               "方法比較",
               "研究論文"
             ],
-            "visualNote": "使用虛構題名的流程範例。先在arXiv尋找，再選取並儲存所需檔案。",
+            "visualNote": "使用虛構標題的流程範例。先在arXiv尋找，再選取並儲存所需檔案。",
             "screenTitle": "arXiv上的實際擴充畫面",
             "screenAlt": "Grab All Files偵測arXiv公開論文連結，並顯示PDF篩選與檔案選取",
-            "screenCaption": "使用已取得公開論文頁面的隔離驗證環境中的實際擴充畫面。範例展示題名核對與編輯，介面為英文。",
+            "screenCaption": "使用已取得公開論文頁面的隔離驗證環境中的實際擴充畫面。範例展示標題核對與編輯，介面為英文。",
             "officialTitle": "選擇合適的arXiv存取途徑",
             "officialText": "閱讀資料從篩選後的清單選擇。大規模集合使用官方批次存取；API提供中繼資料。自動收集前請閱讀存取指南。",
             "officialLabels": [
@@ -5656,7 +5656,7 @@
             },
             {
               "q": "Can I export XLSX directly?",
-              "a": "This workflow produces CSV/JSON table files. Open or import CSV in Excel yourself; a direct XLSX export is not described."
+              "a": "This workflow produces CSV/JSON table files. Open or import CSV in Excel yourself; there is no direct XLSX export."
             },
             {
               "q": "Can I start with Free?",
@@ -5730,7 +5730,7 @@
             },
             {
               "q": "どんな表でもCSVになりますか？",
-              "a": "ページ別／完全パッケージで表の出力を有効にした場合に、意味のあるHTML表を対応範囲・上限内で抽出します。レイアウト表は除外され、画像やPDFの見た目の表が必ずデータになるわけではありません。"
+              "a": "ページ別／フルパッケージで表の出力を有効にした場合に、意味のあるHTML表を対応範囲・上限内で抽出します。レイアウト表は除外され、画像やPDFの見た目の表が必ずデータになるわけではありません。"
             },
             {
               "q": "XLSXを直接出力できますか？",
@@ -5772,7 +5772,7 @@
             "rows": [
               [
                 "表のCSV / JSON",
-                "ページ別／完全パッケージで表の出力を有効にします。再利用前に抽出セルを確認します。"
+                "ページ別／フルパッケージで表の出力を有効にします。再利用前に抽出セルを確認します。"
               ],
               [
                 "Markdown / JSONL / manifest",
@@ -6046,7 +6046,7 @@
             },
             {
               "q": "Si esporta XLSX direttamente?",
-              "a": "Questo flusso crea CSV/JSON. Apri o importa CSV in Excel tu stesso; non si presenta un export XLSX diretto."
+              "a": "Questo flusso crea CSV/JSON. Apri o importa CSV in Excel tu stesso; non è prevista un'esportazione XLSX diretta."
             },
             {
               "q": "Posso iniziare gratis?",
@@ -6202,7 +6202,7 @@
             },
             {
               "q": "Exporta XLSX diretamente?",
-              "a": "Este fluxo produz CSV/JSON. Abra ou importe CSV no Excel você mesmo; não se apresenta exportação XLSX direta."
+              "a": "Este fluxo produz CSV/JSON. Abra ou importe CSV no Excel você mesmo; não há exportação direta para XLSX."
             },
             {
               "q": "Posso começar grátis?",
@@ -6362,7 +6362,7 @@
             },
             {
               "q": "可以從免費版開始嗎？",
-              "a": "Free收集所選1頁，Pro可選擇多個頁面本文。檔案在裝置上準備，由您交給Excel或外部AI。"
+              "a": "Free收集所選1頁，Pro可選擇多個頁面正文。檔案在裝置上準備，由您交給Excel或外部AI。"
             }
           ],
           "guide": {
@@ -6430,14 +6430,14 @@
           ],
           "steps": [
             "Open the permitted source and choose “Combine pages into HTML” in the extension. Select the pages and note the source’s stated revision yourself.",
-            "Save the collection with a recognisable before label. Later, manually collect the same site and comparable page scope and save a separate after copy.",
+            "Save the collection with a recognizable before label. Later, manually collect the same site and comparable page scope and save a separate after copy.",
             "After the later collection, save the previous-run change report. Check added, updated and removed-or-unavailable entries against collection results. “Save change report vs. previous run”",
             "Read the two originals side by side or manually give supported before/after files to an external comparison tool or AI. Confirm any claimed change in the source wording."
           ],
           "faq": [
             {
               "q": "What does the built-in change report compare?",
-              "a": "The report uses this extension’s most recent completed collection before the current one on the same site. It summarises page-URL, title and collected-body changes, not line-by-line or official-revision interpretation. For arbitrary saved PDFs or other before/after files, compare their content in an external tool."
+              "a": "The report uses this extension’s most recent completed collection before the current one on the same site. It summarizes page-URL, title and collected-body changes, not line-by-line or official-revision interpretation. For arbitrary saved PDFs or other before/after files, compare their content in an external tool."
             },
             {
               "q": "Does a removed entry prove the site deleted that page?",
@@ -6445,7 +6445,7 @@
             },
             {
               "q": "Does the extension watch for updates or recover old versions?",
-              "a": "You collect again manually. Use previously saved material or versions published by the source; automatic monitoring and recovery of an unseen older version are not described."
+              "a": "You collect again manually. Use previously saved material or versions published by the source; it does not monitor pages automatically or recover an older version you never saved."
             },
             {
               "q": "How do I identify the revision and use Free?",
@@ -6483,7 +6483,7 @@
               ],
               [
                 "Previous-run Markdown report",
-                "Summarises changes relative to the same site’s previous completed collection."
+                "Summarizes changes relative to the same site’s previous completed collection."
               ],
               [
                 "Source notes / AI export",
@@ -6815,7 +6815,7 @@
             },
             {
               "q": "Monitora aggiornamenti o recupera vecchie versioni?",
-              "a": "Raccogli di nuovo manualmente. Usa copie salvate o versioni pubblicate; non si descrivono monitoraggio automatico o recupero di versioni mai raccolte."
+              "a": "Raccogli di nuovo manualmente. Usa copie salvate o versioni pubblicate; non sono previsti monitoraggio automatico né recupero di versioni mai raccolte."
             },
             {
               "q": "Come registro revisioni e uso Free?",
@@ -7097,13 +7097,13 @@
           "steps": [
             "開啟允許儲存的來源，在擴充功能中選擇「將網頁合併為 HTML」。選擇頁面並自行記錄資料標明的版本。",
             "以「修訂前」等清楚名稱儲存。之後手動重新收集同一網站的可比較範圍，另存「修訂後」。",
-            "後次收集完成後儲存與前次比較的變化報告，將新增、更新、移除或無法取得的項目和結果核對。 “儲存與上次收集的變更報告”",
+            "本次收集完成後，儲存與前次收集比較的變化報告，將新增、更新、移除或無法取得的項目和結果核對。 “儲存與上次收集的變更報告”",
             "並排閱讀原文，或手動將支援檔案交給外部AI、比較工具。判斷為變化的內容須在兩份原文中確認。"
           ],
           "faq": [
             {
               "q": "內建變化報告比較什麼？",
-              "a": "它使用本擴充功能在同一網站本次之前最近完成的收集，透過URL、標題及本文彙整變化，不是逐行比較或官方修訂判斷。任意已儲存PDF或其他前後檔案的內容，請交給外部工具比較。"
+              "a": "它使用本擴充功能在同一網站本次之前最近完成的收集，透過URL、標題及正文彙整變化，不是逐行比較或官方修訂判斷。任意已儲存PDF或其他前後檔案的內容，請交給外部工具比較。"
             },
             {
               "q": "移除表示原網站刪除頁面嗎？",
@@ -7115,7 +7115,7 @@
             },
             {
               "q": "如何記錄版本及使用Free？",
-              "a": "資料版本由您寫在標題或備註中。AI輸出的來源URL與擷取時間有助核對。Free選擇1頁，Pro可收集多個頁面本文。"
+              "a": "資料版本由您寫在標題或備註中。AI輸出的來源URL與擷取時間有助核對。Free選擇1頁，Pro可收集多個頁面正文。"
             }
           ],
           "guide": {
@@ -7145,7 +7145,7 @@
             "rows": [
               [
                 "前後HTML",
-                "分別儲存並閱讀本文及上下文。"
+                "分別儲存並閱讀正文及上下文。"
               ],
               [
                 "前次變化Markdown報告",
@@ -7169,12 +7169,12 @@
       ],
       "copy": {
         "en": {
-          "title": "Name PDF downloads and organise files by type | Grab All Files",
-          "h1": "Give PDFs useful names. Keep files organised.",
+          "title": "Name PDF downloads and organize files by type | Grab All Files",
+          "h1": "Give PDFs useful names. Keep files organized.",
           "desc": "Save PDFs using retrieved or edited titles, choose file-type or source-site folders and check the downloaded results. Keep original names when more useful.",
-          "lead": "A readable filename and a predictable folder make a document set easier to revisit. Review the titles found for your PDFs, choose a naming mode, and organise a mixed file set by format or source site. Check the saved results rather than assuming every title is useful.",
+          "lead": "A readable filename and a predictable folder make a document set easier to revisit. Review the titles found for your PDFs, choose a naming mode, and organize a mixed file set by format or source site. Check the saved results rather than assuming every title is useful.",
           "best": [
-            "Keep PDFs from a manual or public-document list easier to recognise.",
+            "Keep PDFs from a manual or public-document list easier to recognize.",
             "Separate a mixed set of PDFs, spreadsheets and other files by format."
           ],
           "steps": [
@@ -7205,7 +7205,7 @@
             "title": "Names and folders serve different purposes",
             "modes": [
               [
-                "Recognise a document",
+                "Recognize a document",
                 "Use a meaningful retrieved or edited title, or deliberately keep the original filename. Check the extension as well."
               ],
               [
@@ -7236,7 +7236,7 @@
               ],
               [
                 "File type / domain / no grouping",
-                "Organise by format or source site; this is not automatic subject classification."
+                "Organize by format or source site; this is not automatic subject classification."
               ],
               [
                 "Download / ZIP",
@@ -7244,7 +7244,7 @@
               ]
             ]
           },
-          "eyebrow": "Name & organise PDF downloads"
+          "eyebrow": "Name & organize PDF downloads"
         },
         "ja": {
           "title": "大量PDFを題名で保存・ファイル形式別に整理 | Grab All Files",
@@ -7264,7 +7264,7 @@
           "faq": [
             {
               "q": "PDFの本来の題名が必ず分かりますか？",
-              "a": "取得できるメタデータやページ見出しがない、汎用的な場合があります。取得したタイトルを確認し、自動モードでは有用なタイトルがなければ元のファイル名を使えます。"
+              "a": "取得できるメタデータやページ見出しがない場合や、汎用的な内容しかない場合があります。取得したタイトルを確認し、自動モードでは有用なタイトルがなければ元のファイル名を使えます。"
             },
             {
               "q": "種類別は資料の内容を自動分類しますか？",
@@ -7493,7 +7493,7 @@
             "Scannen Sie Dateien einer erlaubten Seite und filtern Sie benötigte PDFs.",
             "Prüfen Sie Titel und Originalnamen. Bearbeiten Sie einen Titel bei Bedarf oder behalten Sie den verständlicheren Originalnamen.",
             "Wählen Sie unter „Speichern als“: „Automatisch (Titel, wenn brauchbar)“, „Titel“ oder „Ursprünglicher Dateiname“. Unter „Ablage“ wählen Sie „Nach Typ“, „Nach Domain“ oder „Keine Ordner“.",
-            "Laden Sie die Auswahl herunter oder erstellen Sie ZIP. Prüfen Sie Namen, Erweiterungen, Ordner, Duplikate und Fehler."
+            "Laden Sie die Auswahl herunter oder erstellen Sie ZIP. Prüfen Sie Namen, Dateiendungen, Ordner, Duplikate und Fehler."
           ],
           "faq": [
             {
@@ -7518,7 +7518,7 @@
             "modes": [
               [
                 "Dokument erkennen",
-                "Sinnvollen erfassten oder bearbeiteten Titel nutzen oder Originalnamen behalten. Erweiterung prüfen."
+                "Sinnvollen erfassten oder bearbeiteten Titel nutzen oder Originalnamen behalten. Dateiendung prüfen."
               ],
               [
                 "Dateisatz finden",
@@ -7562,7 +7562,7 @@
           "title": "Nominare PDF e organizzare file per tipo | Grab All Files",
           "h1": "Nomi utili per i PDF e file ordinati.",
           "desc": "Salva PDF con titoli trovati o modificati, organizza per formato o sito fonte e controlla i risultati. Mantieni nomi originali quando più chiari.",
-          "lead": "Un nome leggibile e una cartella prevedibile aiutano a ritrovare i documenti. Controlla titoli, scegli il modo di nomina e organizza file misti per formato o fonte. Verifica i risultati salvati.",
+          "lead": "Un nome leggibile e una cartella prevedibile aiutano a ritrovare i documenti. Controlla titoli, scegli la modalità di denominazione e organizza file misti per formato o fonte. Verifica i risultati salvati.",
           "best": [
             "Riconoscere PDF di manuali o liste pubbliche dal nome.",
             "Separare PDF, fogli di calcolo e altri file per formato."
@@ -7634,7 +7634,7 @@
               ]
             ]
           },
-          "eyebrow": "Nominare e organizzare PDF"
+          "eyebrow": "Rinominare e organizzare PDF"
         },
         "ko": {
           "title": "PDF를 제목으로 저장하고 파일 형식별로 정리 | Grab All Files",
@@ -7793,7 +7793,7 @@
           "eyebrow": "Nomear e organizar PDFs"
         },
         "zh_CN": {
-          "title": "按题名保存PDF并按文件格式整理 | Grab All Files",
+          "title": "按标题保存PDF并按文件格式整理 | Grab All Files",
           "h1": "用易读的名称保存PDF，方便查找。",
           "desc": "用获取或编辑的标题保存PDF，按文件格式或来源网站整理，并检查保存结果。根据需要保留原始文件名。",
           "lead": "清晰的文件名和可预期的文件夹能让资料更容易查找。确认PDF标题，选择命名方式，并按格式或来源整理混合文件。请检查保存结果，而不是假定每个标题都适用。",
@@ -7809,7 +7809,7 @@
           ],
           "faq": [
             {
-              "q": "总能找到PDF的真实题名吗？",
+              "q": "总能找到PDF的真实标题吗？",
               "a": "不能保证。元数据或页面标题可能缺失或过于通用。请检查标题，自动模式可在没有有用标题时采用原名。"
             },
             {
@@ -7868,10 +7868,10 @@
               ]
             ]
           },
-          "eyebrow": "PDF题名保存与格式整理"
+          "eyebrow": "PDF标题保存与格式整理"
         },
         "zh_TW": {
-          "title": "依題名儲存PDF並依檔案格式整理 | Grab All Files",
+          "title": "依標題儲存PDF並依檔案格式整理 | Grab All Files",
           "h1": "用易讀的名稱儲存PDF，方便查找。",
           "desc": "用取得或編輯的標題儲存PDF，依檔案格式或來源網站整理並檢查結果。依需要保留原始檔名。",
           "lead": "清楚的檔名和可預期的資料夾讓資料更容易查找。確認PDF標題，選擇命名方式，並依格式或來源整理混合檔案。請檢查儲存結果，不要假定每個標題都適用。",
@@ -7887,7 +7887,7 @@
           ],
           "faq": [
             {
-              "q": "總能找到PDF的真實題名嗎？",
+              "q": "總能找到PDF的真實標題嗎？",
               "a": "不能保證。中繼資料或頁面標題可能缺少或過於通用。請檢查標題，自動模式可在沒有有用標題時採用原名。"
             },
             {
@@ -7946,7 +7946,7 @@
               ]
             ]
           },
-          "eyebrow": "PDF題名儲存與格式整理"
+          "eyebrow": "PDF標題儲存與格式整理"
         }
       }
     },
@@ -8041,7 +8041,7 @@
               ],
               [
                 "Page list / file-information CSV",
-                "Keep the collected page URL, title, status and failure reason list, and use the file downloader’s file-information CSV to organise attachments."
+                "Keep the list of collected page URLs, titles, statuses and failure reasons, and use the file downloader’s file-information CSV to organize attachments."
               ],
               [
                 "Your reference note",
@@ -8525,7 +8525,7 @@
             "저장이 허용된 공식 안내 페이지를 엽니다. “페이지를 HTML로 합치기”에서 후보를 원본 메뉴와 비교하고 필요한 주제만 선택합니다. 무료 버전은 선택한 한 페이지, Pro는 여러 페이지 본문을 저장·결합합니다.",
             "출처가 있는 AI 파일도 사용하려면 수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 켭니다. 이미지·연결 문서 설정을 선택하고 설명을 HTML로 저장합니다. 첨부 PDF·Word는 파일 다운로더에서 가져올 수 있는 링크를 선택하고 제목과 표기된 버전을 확인합니다.",
             "선택한 원본 파일을 ZIP으로 묶어 HTML 옆에 둡니다. 저장 결과를 열어 필요한 제목·첨부 자료와 실패 항목을 공식 페이지와 비교합니다.",
-            "수집 완료 후 “AI 분석용 ZIP 저장”로 저장하고 source_url·captured_at을 확인합니다. 표기 버전과 확인일은 직접 기록합니다.",
+            "수집 완료 후 “AI 분석용 ZIP 저장”으로 저장하고 source_url·captured_at을 확인합니다. 표기 버전과 확인일은 직접 기록합니다.",
             "주제와 날짜로 폴더 이름을 정하고 개요·안내·양식을 구분합니다. 나중에 사용할 때 공식 출처에서 문서와 날짜의 변경 여부를 확인합니다."
           ],
           "faq": [
@@ -8631,7 +8631,7 @@
             },
             {
               "q": "O conjunto salvo está completo e atualizado?",
-              "a": "Compare o resultado com a lista oficial necessária. Registre você a versão publicada: data de captura não é versão de documento. Consulte a fonte atual antes de usar prazos ou requisitos."
+              "a": "Compare o resultado com a lista oficial necessária. Registre você mesmo a versão publicada: data de captura não é versão de documento. Consulte a fonte atual antes de usar prazos ou requisitos."
             },
             {
               "q": "Como uso as fontes em uma apresentação?",
@@ -8798,7 +8798,7 @@
             "為研究或內部說明記錄來源和核對日期。"
           ],
           "steps": [
-            "開啟允許儲存的官方說明頁面，在「將網頁合併為 HTML」中將候選與原選單核對，只選需要的主題。免費版儲存選取的一個頁面，Pro可合併多個頁面本文。",
+            "開啟允許儲存的官方說明頁面，在「將網頁合併為 HTML」中將候選與原選單核對，只選需要的主題。免費版儲存選取的一個頁面，Pro可合併多個頁面正文。",
             "需要附來源的AI檔案時，收集前啟用「AI分析資料（附出處的Markdown）」。 選擇圖片和連結文件設定，儲存說明HTML。在檔案下載器中選取可取得的PDF、Word附件連結，核對檔案名稱與標示版本。",
             "將選取的原始檔案打包為ZIP，與HTML一起儲存。開啟儲存結果，對照官方頁面檢查所需標題、附件及回報的失敗項目。",
             "收集完成後使用「儲存AI分析ZIP」儲存資料，核對source_url與captured_at，版本及確認日期自行記錄。",
@@ -8810,8 +8810,8 @@
               "a": "以一個制度或服務為單位，選取概覽、詳細指南及連結的表格。比較候選和原選單，排除無關新聞或其他主題。連結的發現情況因網站結構而異。"
             },
             {
-              "q": "PDF、Word本文會合併到HTML嗎？",
-              "a": "原件作為獨立檔案儲存，其本文不會併入閱讀用HTML。支援文件中成功擷取的文字可加入AI輸出，但需檢查缺漏與失敗內容。"
+              "q": "PDF、Word正文會合併到HTML嗎？",
+              "a": "原件作為獨立檔案儲存，其正文不會併入閱讀用HTML。支援文件中成功擷取的文字可加入AI輸出，但需檢查缺漏與失敗內容。"
             },
             {
               "q": "儲存後能確定資料完整且最新嗎？",
@@ -8823,7 +8823,7 @@
             },
             {
               "q": "可以先從一個說明頁面開始嗎？",
-              "a": "免費版可尋找候選，將選取的一個頁面儲存為HTML；Pro可合併多個頁面本文。先選概覽與所需附件，再將儲存結果與來源核對。"
+              "a": "免費版可尋找候選，將選取的一個頁面儲存為HTML；Pro可合併多個頁面正文。先選概覽與所需附件，再將儲存結果與來源核對。"
             }
           ],
           "guide": {
@@ -8865,7 +8865,7 @@
               ],
               [
                 "Markdown／manifest",
-                "核對本文、source_url與captured_at。"
+                "核對正文、source_url與captured_at。"
               ],
               [
                 "頁面清單／檔案資訊CSV",
@@ -8936,7 +8936,7 @@
                 "Use one Markdown file for a compact reference. Add your own comments while retaining the source information."
               ],
               [
-                "Organise page notes",
+                "Organize page notes",
                 "Use per-page Markdown to group sources by topic and link them from your own research or writing notes."
               ]
             ],
@@ -8944,7 +8944,7 @@
             "examples": [
               [
                 "A research note",
-                "Summarise the points stated in these pages. Link each point to its source URL and separate source wording from my own observations."
+                "Summarize the points stated in these pages. Link each point to its source URL and separate source wording from my own observations."
               ],
               [
                 "A writing reference",
@@ -9032,7 +9032,7 @@
             "examples": [
               [
                 "調査ノート",
-                "このページ群に記載された要点をまとめてください。各項目に出典URLを付け、原文の内容と自分の考察を分けて整理します。"
+                "このページ群に記載された要点をまとめてください。各項目に出典URLを付け、原文の内容と考察を分けて整理してください。"
               ],
               [
                 "執筆用の参考資料",
@@ -9428,11 +9428,11 @@
             "필요한 Markdown을 골라 외부 AI에 질문하기."
           ],
           "steps": [
-            "저장이 허용된 페이지를 열고 “페이지를 HTML로 합치기”을 시작합니다. 관련 후보를 확인해 필요한 페이지만 선택하세요. 무료 버전은 선택한 한 페이지를 HTML로 저장하고 Pro는 여러 페이지 본문을 결합합니다.",
+            "저장이 허용된 페이지를 열고 “페이지를 HTML로 합치기”를 시작합니다. 관련 후보를 확인해 필요한 페이지만 선택하세요. 무료 버전은 선택한 한 페이지를 HTML로 저장하고 Pro는 여러 페이지 본문을 결합합니다.",
             "수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 활성화합니다. 읽기용은 “하나의 Markdown”, 개별 노트는 “페이지별 Markdown”, 구조화 자료도 쓸 때는 “전체 패키지”를 선택합니다.",
             "수집 결과를 확인합니다. 제목·링크·중요한 본문을 원본과 대조하고 실패 항목도 확인하세요. 목차와 본문 검색을 쓰려면 HTML도 저장합니다.",
             "“AI 분석용 ZIP 저장”을 사용해 ZIP을 풀고 지원 편집기에서 Markdown을 엽니다. source_url·captured_at을 남기고 주제 이름과 확인일을 메모에 추가합니다.",
-            "노트 도구에 지원 파일을 직접 복사·가져옵니다. 외부 AI에는 필요한 파일과 “AI 요청문 복사”으로 준비한 요청문·질문을 수동으로 전달하고 답변을 본문과 최신 출처로 확인합니다."
+            "노트 도구에 지원 파일을 직접 복사·가져옵니다. 외부 AI에는 필요한 파일과 “AI 요청문 복사”로 준비한 요청문·질문을 수동으로 전달하고 답변을 본문과 최신 출처로 확인합니다."
           ],
           "faq": [
             {
@@ -9629,7 +9629,7 @@
             },
             {
               "q": "导出会把资料发送给AI吗？",
-              "a": "不会。文件在设备上准备，由你选择外部服务，手动提供支持文件与问题。保留source_url和captured_at核对回答；获取时间并不证明来源仍是最新。"
+              "a": "不会。文件在设备上准备，由您选择外部服务，手动提供支持文件与问题。保留source_url和captured_at核对回答；获取时间并不证明来源仍是最新。"
             }
           ],
           "guide": {
@@ -9682,19 +9682,19 @@
         },
         "zh_TW": {
           "title": "將Web資料儲存為可重用的Markdown | Grab All Files",
-          "desc": "把Web本文匯出為單一Markdown、逐頁筆記或完整套件。保留來源，用於研究、寫作及手動重用到筆記或外部AI。",
+          "desc": "把Web正文匯出為單一Markdown、逐頁筆記或完整套件。保留來源，用於研究、寫作及手動重用到筆記或外部AI。",
           "eyebrow": "用Markdown重用Web資料",
           "h1": "把Web資料變成能重用的筆記。",
-          "lead": "將收集的標題、本文、清單、支援的HTML表格和一般連結儲存為Markdown，保留來源與取得時間。選擇單份閱讀檔或逐頁筆記，用於研究、寫作及自己選擇的工具。",
+          "lead": "將收集的標題、正文、清單、支援的HTML表格和一般連結儲存為Markdown，保留來源與取得時間。選擇單份閱讀檔或逐頁筆記，用於研究、寫作及自己選擇的工具。",
           "best": [
             "將相關文章整理為附來源的研究筆記。",
-            "在草稿或手動筆記旁保留參考本文。",
+            "在草稿或手動筆記旁保留參考正文。",
             "選擇所需Markdown檔案，向外部AI提問。"
           ],
           "steps": [
-            "開啟允許儲存的頁面，啟動「將網頁合併為 HTML」。核對相關候選並選取需要的頁面。免費版將選取的一個頁面儲存為HTML，Pro可合併多個頁面本文。",
+            "開啟允許儲存的頁面，啟動「將網頁合併為 HTML」。核對相關候選並選取需要的頁面。免費版將選取的一個頁面儲存為HTML，Pro可合併多個頁面正文。",
             "收集前啟用「AI分析資料（附出處的Markdown）」。閱讀用「單一Markdown」，分開記筆記用「逐頁Markdown」，需要結構化資料則選「完整套件」。",
-            "收集並核對結果，將標題、連結和重要本文與來源比較，檢查失敗項目。若需目錄和本文搜尋，也儲存HTML。",
+            "收集並核對結果，將標題、連結和重要正文與來源比較，檢查失敗項目。若需目錄和正文搜尋，也儲存HTML。",
             "使用「儲存AI分析ZIP」，解壓縮ZIP，在支援的編輯器中開啟Markdown。保留source_url和captured_at，添加自己的主題標籤與核對日期。",
             "透過支援的方法手動複製或匯入筆記工具。外部AI需自行選擇檔案，用「複製給AI的請求文」準備請求與問題，再以提供的原文和最新來源核對回答。"
           ],
@@ -9709,11 +9709,11 @@
             },
             {
               "q": "25MB設定會限制整個套件的大小嗎？",
-              "a": "預設25MB是Markdown本文的分割目標，不保證整個ZIP的大小，也不保證其他工具能接收。請解壓縮後依目標工具的限制選擇或拆分檔案。"
+              "a": "預設25MB是Markdown正文的分割目標，不保證整個ZIP的大小，也不保證其他工具能接收。請解壓縮後依目標工具的限制選擇或拆分檔案。"
             },
             {
               "q": "連結的PDF、Word會如何處理？",
-              "a": "選取的支援文件中成功擷取的文字可進入AI輸出。所需原件另存，核對無法讀取或缺漏的文字。掃描資料的擷取不受保證，文件本文不會併入閱讀用HTML。"
+              "a": "選取的支援文件中成功擷取的文字可進入AI輸出。所需原件另存，核對無法讀取或缺漏的文字。掃描資料的擷取不受保證，文件正文不會併入閱讀用HTML。"
             },
             {
               "q": "匯出會把資料傳送給AI嗎？",
@@ -9721,7 +9721,7 @@
             }
           ],
           "guide": {
-            "title": "儲存本文的兩種用法",
+            "title": "儲存正文的兩種用法",
             "modes": [
               [
                 "閱讀並加註",
@@ -9751,7 +9751,7 @@
             "rows": [
               [
                 "單一Markdown",
-                "本文彙成一份閱讀檔，包含各頁來源；大型本文可能拆分。"
+                "正文彙成一份閱讀檔，包含各頁來源；大型正文可能拆分。"
               ],
               [
                 "逐頁Markdown",
@@ -9780,13 +9780,13 @@
       "copy": {
         "en": {
           "title": "Save work manuals & knowledge pages together | Grab All Files",
-          "desc": "Save permitted online manuals and knowledge articles as a readable reference. Organise chapter HTML, embedded PDFs and menu-based articles, then prepare AI questions.",
+          "desc": "Save permitted online manuals and knowledge articles as a readable reference. Organize chapter HTML, embedded PDFs and menu-based articles, then prepare AI questions.",
           "eyebrow": "Save manuals & knowledge pages",
           "h1": "Turn work manuals and knowledge pages into a useful reference.",
           "lead": "Keep the chapters and articles you need together, find a procedure with the table of contents or text search, and keep original PDFs beside their explanation pages. Use material you are permitted to view and save. Free saves one selected page; Pro combines multiple page bodies.",
           "best": [
             "Read application procedures, required-document guidance and operating instructions together.",
-            "Organise the explanatory page and original PDF as related materials.",
+            "Organize the explanatory page and original PDF as related materials.",
             "Prepare selected source material for asking an external AI tool about steps or conditions."
           ],
           "steps": [
@@ -10638,7 +10638,7 @@
           "desc": "將允許查看與儲存的業務手冊及知識文章整理為易讀資料集。依章節HTML、內嵌PDF與階層選單文章選擇儲存方式，並準備向外部AI提問。",
           "eyebrow": "儲存業務手冊與知識文章",
           "h1": "將業務手冊與知識文章整理為便於查閱的資料集。",
-          "lead": "把需要的章節與文章一起閱讀，透過目錄與本文搜尋找到操作步驟，並將PDF原件與說明頁面一起管理。使用允許查看與儲存的資料。Free儲存所選1頁，Pro可合併多個頁面本文。",
+          "lead": "把需要的章節與文章一起閱讀，透過目錄與正文搜尋找到操作步驟，並將PDF原件與說明頁面一起管理。使用允許查看與儲存的資料。Free儲存所選1頁，Pro可合併多個頁面正文。",
           "best": [
             "一起查閱申請步驟、所需文件說明與操作手冊。",
             "將說明頁面與PDF原件整理為相關資料。",
@@ -10658,11 +10658,11 @@
             },
             {
               "q": "如何一起儲存內嵌PDF與說明？",
-              "a": "在檔案下載工具中確認PDF URL或下載連結，單獨儲存可取得的PDF。將說明收集為HTML並一起管理；PDF本文不會合併進HTML本文。"
+              "a": "在檔案下載工具中確認PDF URL或下載連結，單獨儲存可取得的PDF。將說明收集為HTML並一起管理；PDF正文不會合併進HTML正文。"
             },
             {
               "q": "可以用Free從1頁開始確認嗎？",
-              "a": "可以。Free尋找候選並儲存所選1頁為HTML。Pro可選擇、排序及合併多個頁面本文。仍適用驗證、權限與安全上限。"
+              "a": "可以。Free尋找候選並儲存所選1頁為HTML。Pro可選擇、排序及合併多個頁面正文。仍適用驗證、權限與安全上限。"
             },
             {
               "q": "如何確認來源與手冊版本？",
@@ -10683,7 +10683,7 @@
                   "準備",
                   "步驟"
                 ],
-                "選擇所需章節並按閱讀順序整理為HTML資料集。透過目錄與本文搜尋返回需要確認的段落。"
+                "選擇所需章節並按閱讀順序整理為HTML資料集。透過目錄與正文搜尋返回需要確認的段落。"
               ],
               [
                 "內嵌PDF",
@@ -10712,11 +10712,11 @@
             "rows": [
               [
                 "HTML資料集",
-                "透過目錄與搜尋閱讀已取得的頁面本文，確認需要的章節實際儲存了哪些。"
+                "透過目錄與搜尋閱讀已取得的頁面正文，確認需要的章節實際儲存了哪些。"
               ],
               [
                 "PDF原件",
-                "作為獨立檔案與說明HTML一起保管。HTML中的文件連結不會將PDF本文合併進頁面本文。"
+                "作為獨立檔案與說明HTML一起保管。HTML中的文件連結不會將PDF正文合併進頁面正文。"
               ],
               [
                 "資料備註",
@@ -10739,14 +10739,14 @@
       "copy": {
         "en": {
           "title": "Combine web pages to read & prepare AI inputs | Grab All Files",
-          "desc": "Collect web information as readable HTML, or prepare source-tracked files for summarising, comparing and extracting conditions in an external AI tool.",
-          "eyebrow": "Collect, read & analyse with AI",
+          "desc": "Collect web information as readable HTML, or prepare source-tracked files for summarizing, comparing and extracting conditions in an external AI tool.",
+          "eyebrow": "Collect, read & analyze with AI",
           "h1": "Collect web information to read—or prepare it for AI analysis.",
           "lead": "Save one chosen page with Free, or combine several into one readable HTML with Pro. Prepare source-tracked files for summaries, comparisons and condition extraction. Material preparation happens on your device; analysis happens in the external AI service you choose.",
           "best": [
             "Compare published insurance-product conditions using the wording you collected.",
             "Read several manual sections together before asking about a procedure.",
-            "Organise public-scheme information and identify stated requirements and dates."
+            "Organize public-scheme information and identify stated requirements and dates."
           ],
           "steps": [
             "Open a permitted source page and start “Combine pages into HTML”. Review the related candidates and select only the material you need.",
@@ -10756,7 +10756,7 @@
           ],
           "faq": [
             {
-              "q": "Does Grab All Files analyse or upload my information to AI?",
+              "q": "Does Grab All Files analyze or upload my information to AI?",
               "a": "No. Collection and export run on your device. You save the AI ZIP, copy the request and decide which files to pass to an external AI tool. Its supported formats and privacy settings apply."
             },
             {
@@ -10784,7 +10784,7 @@
                 "Use the HTML table of contents to jump to a section and search words across the collected material. Revisit the saved information whenever you need it."
               ],
               [
-                "Analyse with an external AI tool",
+                "Analyze with an external AI tool",
                 "Use source-tracked material and the request text to ask an external AI tool for summaries, comparisons or condition extraction. Select the files you need and reuse the same material with different questions."
               ]
             ],
@@ -10815,7 +10815,7 @@
               ],
               [
                 "Markdown / JSONL / manifest",
-                "AI inputs include source_url and captured_at. Markdown carries readable text; JSONL organises headings and the manifest lists the material."
+                "AI inputs include source_url and captured_at. Markdown carries readable text; JSONL organizes headings and the manifest lists the material."
               ],
               [
                 "CSV / JSON tables",
@@ -10887,7 +10887,7 @@
               ],
               [
                 "公開制度",
-                "記載された対象条件・必要書類・期限を比較表にしてください。出典URLと取得日時を付け、利用前には最新の公式ページを確認します。"
+                "記載された対象条件・必要書類・期限を比較表にしてください。出典URLと取得日時を付け、利用前に最新の公式ページを確認するよう注記してください。"
               ]
             ],
             "formatsTitle": "読む資料・AIに渡す資料・出典確認の形式",
@@ -10906,7 +10906,7 @@
               ],
               [
                 "表のCSV / JSON",
-                "ページ別／完全パッケージを選び、表の出力を有効にした場合に、意味のあるHTML表を対応範囲・上限内で抽出できます。レイアウト用の表は除外されるため、結果を確認してください。"
+                "ページ別／フルパッケージを選び、表の出力を有効にした場合に、意味のあるHTML表を対応範囲・上限内で抽出できます。レイアウト用の表は除外されるため、結果を確認してください。"
               ]
             ]
           }
@@ -11273,7 +11273,7 @@
           "steps": [
             "접근이 허용된 시작 페이지에서 페이지 HTML 결합을 실행합니다. 후보를 검토하고 필요한 자료만 선택합니다.",
             "이미지와 링크 문서 설정을 선택합니다. AI 출력이 필요하면 수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 활성화합니다. HTML을 저장하고 목차와 본문 검색으로 읽습니다.",
-            "수집 완료 후 “AI 분석용 ZIP 저장”와 “AI 요청문 복사”를 사용하고 내용을 확인합니다. AI 서비스가 개별 파일을 요구하면 ZIP을 풉니다.",
+            "수집 완료 후 “AI 분석용 ZIP 저장”과 “AI 요청문 복사”를 사용하고 내용을 확인합니다. AI 서비스가 개별 파일을 요구하면 ZIP을 풉니다.",
             "지원 파일과 질문을 외부 AI에 직접 전달합니다. 답변을 원문·출처·수집 시점과 대조합니다."
           ],
           "faq": [
@@ -11525,15 +11525,15 @@
           "desc": "將網頁資訊收集為易讀的HTML，或匯出附來源的資料，手動交給外部AI進行摘要、比較與條件擷取。提供操作步驟及提問範例。",
           "eyebrow": "收集資訊·閱讀·AI分析",
           "h1": "收集網頁資訊閱讀，再將資料交給AI分析。",
-          "lead": "Free可儲存所選1頁，Pro可將多個頁面本文合併為一個易讀的HTML。匯出附來源的資料，準備向AI提出摘要、比較及條件擷取問題。資料準備在您的裝置上完成，分析由您選擇的外部AI服務進行。",
+          "lead": "Free可儲存所選1頁，Pro可將多個頁面正文合併為一個易讀的HTML。匯出附來源的資料，準備向AI提出摘要、比較及條件擷取問題。資料準備在您的裝置上完成，分析由您選擇的外部AI服務進行。",
           "best": [
             "依據收集的原文比較公開保險商品的條件。",
             "一起閱讀多份手冊並確認操作步驟。",
             "整理公共制度資料中明示的要求與日期。"
           ],
           "steps": [
-            "開啟您有權存取的起始頁面並啟動頁面HTML結合。檢查候選清單，只選取需要的資料。",
-            "選擇圖片與連結文件設定。需要AI輸出時，請在收集前啟用「AI分析資料（附出處的Markdown）」。收集並儲存HTML，使用目錄與本文搜尋閱讀。",
+            "開啟您有權存取的起始頁面並選擇「將網頁合併為 HTML」。檢查候選清單，只選取需要的資料。",
+            "選擇圖片與連結文件設定。需要AI輸出時，請在收集前啟用「AI分析資料（附出處的Markdown）」。收集並儲存HTML，使用目錄與正文搜尋閱讀。",
             "收集完成後使用「儲存AI分析ZIP」與「複製給AI的請求文」，檢查內容。如果AI服務需要個別檔案，請解壓縮ZIP。",
             "手動將支援的檔案與問題交給外部AI，將回答與原文、來源及擷取時間核對。"
           ],
@@ -11544,15 +11544,15 @@
             },
             {
               "q": "可使用哪些頁面與文件？",
-              "a": "僅限您有權存取的頁面。選取的連結文件中，支援的PDF、文字、CSV、Word、Excel等成功讀取的本文可加入AI輸出。並非所有文件或圖片都能讀取，請檢查失敗及遺漏。"
+              "a": "僅限您有權存取的頁面。選取的連結文件中，支援的PDF、文字、CSV、Word、Excel等成功讀取的正文可加入AI輸出。並非所有文件或圖片都能讀取，請檢查失敗及遺漏。"
             },
             {
               "q": "可以用Free試用嗎？",
-              "a": "Free尋找候選並只儲存選取的1頁為HTML。Pro可選擇並結合多個頁面本文。仍適用驗證、權限與安全上限。"
+              "a": "Free尋找候選並只儲存選取的1頁為HTML。Pro可選擇並合併多個頁面正文。仍適用驗證、權限與安全上限。"
             },
             {
               "q": "交給AI的檔案應採用什麼格式與大小？",
-              "a": "依服務而異。需要時請解壓縮ZIP，提供支援的檔案。預設25 MB是Markdown本文分割目標，不保證ZIP整體大小。也請確認AI的上傳限制。"
+              "a": "依服務而異。需要時請解壓縮ZIP，提供支援的檔案。預設25 MB是Markdown正文分割目標，不保證ZIP整體大小。也請確認AI的上傳限制。"
             },
             {
               "q": "如何核對AI回答？",
@@ -11594,11 +11594,11 @@
             "rows": [
               [
                 "HTML",
-                "使用目錄與本文搜尋閱讀。連結文件保留為連結，文件本文不會合併至HTML。"
+                "使用目錄與正文搜尋閱讀。連結文件保留為連結，文件正文不會合併至HTML。"
               ],
               [
                 "Markdown / JSONL / manifest",
-                "記錄source_url與captured_at。Markdown用於本文，JSONL組織標題單位資訊，manifest用於資料清單核對。"
+                "記錄source_url與captured_at。Markdown用於正文，JSONL依標題整理內容單位，manifest用於資料清單核對。"
               ],
               [
                 "表格CSV / JSON",
@@ -11613,7 +11613,7 @@
       path: "combine-web-pages-into-one-html.html",
       related: ["combine-local-html-files-into-one", "download-files-from-webpage", "internal-portal-downloads"],
       cta: {
-        en: { title: "Save one related page free—or combine several with Pro.", text: "Discovery and HTML generation stay on your device. Free lists related candidates and saves exactly the one page you choose; images on that page have no plan-based count cap, and directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro selects multiple candidates and combines their readable page bodies into one HTML. Safety and source-site limits apply." },
+        en: { title: "Save one related page free—or combine several with Pro.", text: "Discovery and HTML generation stay on your device. Free lists related candidates and saves exactly the one page you choose; images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro selects multiple candidates and combines their readable page bodies into one HTML. Safety and source-site limits apply." },
         ja: { title: "無料版は選んだ1ページ。Proは複数ページを1つに。", text: "探索とHTML生成は端末内で処理します。無料版は関連候補を一覧表示し、常に選んだ1ページだけを保存。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Proは複数候補の本文を1つのHTMLに結合します。安全上限・サイト側制限は適用されます。" },
         es: { title: "Guarda una página gratis o combina varias con Pro.", text: "La búsqueda y la generación de HTML permanecen en tu dispositivo. Free enumera las candidatas y guarda exactamente la página que elijas; las imágenes no tienen límite de cantidad por plan y los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro combina el contenido de varias páginas seleccionadas. Se aplican límites de seguridad y del sitio fuente." },
         fr: { title: "Enregistrez une page gratuitement ou regroupez-en plusieurs avec Pro.", text: "La découverte et la génération HTML restent sur votre appareil. Free liste les pages candidates et enregistre exactement celle que vous choisissez ; les images n’ont pas de plafond lié au forfait et les fichiers directement liés sont enregistrés jusqu’à 10 par opération, et « Enregistrer les 10 suivants » sur l’écran de résultat enregistre le reste. Pro regroupe le contenu de plusieurs pages sélectionnées. Les limites de sécurité et du site source s’appliquent." },
@@ -11700,7 +11700,7 @@
           "Free speichert 1 Seite. Pro bündelt mehrere Seiten in einer HTML-Datei.",
           "Beginnen Sie mit der im Browser geöffneten Seite. Free listet zugehörige Kandidaten und hält genau einen für die HTML-Speicherung ausgewählt. Pro lässt Sie mehrere Kandidaten auswählen und anordnen und bündelt deren lesbare Inhalte in einer HTML-Datei mit gemeinsamem Inhaltsverzeichnis.",
           ["Recherchen, Dokumentationen, Handbücher und Referenzseiten, deren Inhalte sich über viele Seiten verteilen.", "Zusammengehörige Artikel oder öffentliche Informationen als ein portables Offline-Dokument speichern.", "Ein durchsuchbares und druckbares Archiv mit eindeutigen Quellenlinks erstellen.", "Optional Markdown mit Quellenzuordnung, JSONL, ein Manifest und Tabellendaten für KI-Analysen vorbereiten."],
-          ["Öffnen Sie die Startseite und wählen Sie in Grab All Files „Seiten zu HTML zusammenfassen“.", "Prüfen Sie die Kandidaten: Free hält genau einen ausgewählt; Pro kann mehrere auswählen und neu anordnen.", "Wählen Sie Optionen für Bilder und verlinkte Dateien. Free speichert die gewählte Seite; Pro erstellt eine gebündelte HTML-Datei mit gemeinsamem Inhaltsverzeichnis."],
+          ["Öffnen Sie die Startseite und wählen Sie in Grab All Files „Seiten als HTML bündeln“.", "Prüfen Sie die Kandidaten: Free hält genau einen ausgewählt; Pro kann mehrere auswählen und neu anordnen.", "Wählen Sie Optionen für Bilder und verlinkte Dateien. Free speichert die gewählte Seite; Pro erstellt eine gebündelte HTML-Datei mit gemeinsamem Inhaltsverzeichnis."],
           [{ q: "Kann ich auswählen, welche Seiten aufgenommen werden?", a: "Ja. Free hält immer genau eine Kandidatenseite ausgewählt; bei der Wahl einer anderen Seite wechselt die Auswahl. Pro lässt Sie mehrere Seiten auswählen, nicht benötigte entfernen und die übrigen neu anordnen." }, { q: "Kann ich das Ergebnis offline lesen?", a: "Ja. Betten Sie Bilder für die Offline-Nutzung ein oder behalten Sie Online-Verweise bei, um die HTML-Datei kleiner zu halten. Verlinkte Dokumente können ebenfalls zusammen mit ihr gespeichert werden." }, { q: "Werden Seiteninhalte auf Ihre Server hochgeladen?", a: "Nein. Alles wird auf Ihrem Gerät verarbeitet. Free speichert genau eine gewählte Kandidatenseite; Pro bündelt die Inhalte mehrerer gewählter Seiten. Sicherheits-, Authentifizierungs-, Berechtigungs-, Quellseiten- und Geräteschutzlimits gelten weiterhin." }, { q: "Worin unterscheidet sich dies von einem Tool zum Speichern einzelner Seiten wie SingleFile?", a: "Einzelseiten-Tools sichern die geöffnete Seite. Grab All Files findet zusätzlich zugehörige Kandidaten: Free speichert die gewählte Seite, Pro bündelt die lesbaren Inhalte mehrerer gewählter Seiten mit gemeinsamem Inhaltsverzeichnis." }]
         ),
         it: c(
@@ -11730,7 +11730,7 @@
           "Free salva 1 página. Pro reúne várias em um HTML.",
           "Comece pela página aberta no navegador. O Free lista candidatas relacionadas e mantém exatamente uma selecionada para salvar como HTML. O Pro permite selecionar e ordenar várias candidatas e reúne o conteúdo legível em um HTML com sumário comum.",
           ["Pesquisas, documentações, manuais e sites de referência distribuídos por várias páginas.", "Salvar artigos relacionados ou informações públicas como um único documento portátil para leitura offline.", "Criar um arquivo pesquisável e pronto para impressão, com links claros para as fontes.", "Preparar opcionalmente Markdown com fontes rastreáveis, JSONL, um manifest e dados tabulares para análise por IA."],
-          ["Abra a página inicial e selecione “Combinar páginas em HTML” no Grab All Files.", "Revise as candidatas: o Free mantém exatamente uma selecionada; o Pro permite selecionar e reordenar várias.", "Escolha opções de imagens e arquivos vinculados. O Free salva a página escolhida; o Pro cria um HTML combinado com sumário comum."],
+          ["Abra a página inicial e selecione “Juntar páginas em HTML” no Grab All Files.", "Revise as candidatas: o Free mantém exatamente uma selecionada; o Pro permite selecionar e reordenar várias.", "Escolha opções de imagens e arquivos vinculados. O Free salva a página escolhida; o Pro cria um HTML combinado com sumário comum."],
           [{ q: "Posso escolher quais páginas serão incluídas?", a: "Sim. O Free mantém exatamente uma candidata selecionada por vez; ao escolher outra, a seleção muda. O Pro permite selecionar várias páginas, remover as desnecessárias e reordenar as demais." }, { q: "Posso ler o resultado offline?", a: "Sim. Incorpore imagens para leitura offline ou mantenha referências online para reduzir o tamanho do arquivo HTML. Os documentos vinculados também podem ser salvos junto com ele." }, { q: "O conteúdo das páginas é enviado aos seus servidores?", a: "Não. Tudo é processado no dispositivo. O Free salva exatamente uma página candidata escolhida; o Pro reúne o conteúdo de várias páginas selecionadas. Aplicam-se limites de segurança, autenticação, permissão, site de origem e proteção do dispositivo." }, { q: "Qual é a diferença entre isso e uma ferramenta que salva uma única página, como o SingleFile?", a: "Ferramentas de uma página preservam a página aberta. O Grab All Files também encontra candidatas relacionadas: o Free salva a página escolhida e o Pro reúne o conteúdo legível de várias páginas selecionadas em um HTML com sumário comum." }]
         ),
         zh_CN: c(
@@ -11740,8 +11740,8 @@
           "Free 保存1页。Pro 将多页合并为一个 HTML。",
           "从浏览器当前打开的页面开始。Free 会列出相关候选，并始终仅保留1个选中项用于保存 HTML。Pro 可选择并排序多个候选，再将其便于阅读的正文合并为一个带统一目录的 HTML。",
           ["分散在多个页面中的研究资料、文档、手册和参考网站。", "将相关文章或公开信息保存为一个便于携带的离线文档。", "创建带有清晰来源链接、可搜索、可打印的存档。", "按需准备来源可追溯的 Markdown、JSONL、manifest 和表格数据，用于 AI 分析。"],
-          ["打开起始页面，在 Grab All Files 中选择“将页面合并为 HTML”。", "检查候选：Free 始终仅保留1个选中项；Pro 可选择多个页面并调整顺序。", "选择图片和链接文件选项。Free 保存所选页面；Pro 创建带统一目录的合并 HTML。"],
-          [{ q: "可以选择要收录哪些页面吗？", a: "可以。Free 每次始终仅选中1个候选；选择其他页面时，选中项会自动切换。Pro 可选择多个页面、删除不需要的页面并调整其余页面的顺序。" }, { q: "结果可以离线阅读吗？", a: "可以。您可以嵌入图片以便离线阅读，也可以保留在线引用以减小 HTML 文件的大小。链接的文档也可与 HTML 文件一并保存。" }, { q: "页面内容会上传到你们的服务器吗？", a: "不会。所有处理均在您的设备上完成。Free 仅保存所选的1个候选页面；Pro 将多个所选页面正文合并。安全、身份验证、权限、源网站和设备保护限制仍然适用。" }, { q: "这与 SingleFile 等单页面保存工具有何不同？", a: "单页面保存工具保留当前打开的页面。Grab All Files 还会查找相关候选：Free 保存所选的1页，Pro 将多个所选页面中便于阅读的正文合并为一个带统一目录的 HTML。" }]
+          ["打开起始页面，在 Grab All Files 中选择“将网页合并为 HTML”。", "检查候选：Free 始终仅保留1个选中项；Pro 可选择多个页面并调整顺序。", "选择图片和链接文件选项。Free 保存所选页面；Pro 创建带统一目录的合并 HTML。"],
+          [{ q: "可以选择要收录哪些页面吗？", a: "可以。Free 每次始终仅选中1个候选；选择其他页面时，选中项会自动切换。Pro 可选择多个页面、删除不需要的页面并调整其余页面的顺序。" }, { q: "结果可以离线阅读吗？", a: "可以。您可以嵌入图片以便离线阅读，也可以保留在线引用以减小 HTML 文件的大小。链接的文档也可与 HTML 文件一并保存。" }, { q: "页面内容会上传到开发者的服务器吗？", a: "不会。所有处理均在您的设备上完成。Free 仅保存所选的1个候选页面；Pro 将多个所选页面正文合并。安全、身份验证、权限、源网站和设备保护限制仍然适用。" }, { q: "这与 SingleFile 等单页面保存工具有何不同？", a: "单页面保存工具保留当前打开的页面。Grab All Files 还会查找相关候选：Free 保存所选的1页，Pro 将多个所选页面中便于阅读的正文合并为一个带统一目录的 HTML。" }]
         ),
         zh_TW: c(
           "將多個網頁合併成一個 HTML 檔案 | Grab All Files",
@@ -11750,7 +11750,7 @@
           "Free 儲存1頁。Pro 將多頁合併成一個 HTML。",
           "從瀏覽器目前開啟的頁面開始。Free 會列出相關候選，並始終只保留1個選取項目用於儲存 HTML。Pro 可選取並排序多個候選，再將其便於閱讀的正文合併成一個附有統一目錄的 HTML。",
           ["分散在多個頁面中的研究資料、文件、手冊和參考網站。", "將相關文章或公開資訊儲存為一個便於攜帶的離線文件。", "建立附有清楚來源連結、可搜尋且可列印的封存檔。", "按需準備來源可追溯的 Markdown、JSONL、manifest 和表格資料，用於 AI 分析。"],
-          ["開啟起始頁面，並在 Grab All Files 中選擇「將頁面合併成 HTML」。", "檢視候選：Free 始終只保留1個選取項目；Pro 可選取多個頁面並調整順序。", "選擇圖片和連結檔案選項。Free 儲存所選頁面；Pro 建立附有統一目錄的合併 HTML。"],
+          ["開啟起始頁面，並在 Grab All Files 中選擇「將網頁合併為 HTML」。", "檢視候選：Free 始終只保留1個選取項目；Pro 可選取多個頁面並調整順序。", "選擇圖片和連結檔案選項。Free 儲存所選頁面；Pro 建立附有統一目錄的合併 HTML。"],
           [{ q: "可以選擇要收錄哪些頁面嗎？", a: "可以。Free 每次始終只選取1個候選；選擇其他頁面時，選取項目會自動切換。Pro 可選取多個頁面、移除不需要的頁面並調整其餘頁面的順序。" }, { q: "結果可以離線閱讀嗎？", a: "可以。您可以嵌入圖片以供離線閱讀，也可以保留線上參照以縮小 HTML 檔案。連結的文件也可與 HTML 檔案一併儲存。" }, { q: "頁面內容會上傳到你們的伺服器嗎？", a: "不會。所有處理均在您的裝置上完成。Free 只儲存所選的1個候選頁面；Pro 將多個所選頁面正文合併。安全、驗證、權限、來源網站和裝置保護限制仍然適用。" }, { q: "這與 SingleFile 等單頁儲存工具有何不同？", a: "單頁儲存工具保留目前開啟的頁面。Grab All Files 還會尋找相關候選：Free 儲存所選的1頁，Pro 將多個所選頁面中便於閱讀的正文合併成一個附有統一目錄的 HTML。" }]
         )
       }
@@ -11794,7 +11794,7 @@
           "Téléchargez les PDF liés d'une page ou de son dossier sur Chrome, Edge ou Firefox. Filtrez, enregistrez gratuitement jusqu'à 10 fichiers par exécution ou fusionnez les PDF localement.",
           "Collecte PDF",
           "Téléchargez tous les PDF d'un site sans ouvrir chaque fichier.",
-          "Grab All Files détecte les PDF dans les liens, viewers intégrés, iframes, chargements différés, réponses fetch/XHR et routes CMS. Filtrez les PDF, sélectionnez, puis téléchargez ou fusionnez localement.",
+          "Grab All Files détecte les PDF dans les liens, visionneuses intégrées, iframes, chargements différés, réponses fetch/XHR et routes CMS. Filtrez les PDF, sélectionnez, puis téléchargez ou fusionnez localement.",
           ["Rapports publics, formulaires et publications répartis sur plusieurs pages.", "Supports de cours, articles et PDF de recherche.", "Pages avec viewer PDF où l'URL directe est masquée.", "Crawl du même site avec sitemap.xml et menus JavaScript."],
           ["Ouvrez la page de départ et choisissez la profondeur de liens. Les pages liées sont analysées dans le dossier de la page de départ ; la profondeur 0 ne vérifie que cette page.", "Filtrez les résultats sur PDF et vérifiez titre, page source, taille et URL.", "Téléchargez, créez un ZIP ou fusionnez les PDF localement."],
           [{ q: "Trouve-t-il les PDF dans les viewers ou iframes ?", a: "Oui. Il vérifie iframes, URLs de viewer, réponses fetch/XHR, blob URLs et routes CMS courantes." }, { q: "Peut-il crawler plusieurs pages ?", a: "Oui. Augmentez la profondeur pour analyser les pages liées dans le dossier de la page de départ. Par exemple, /~name/course.html reste dans /~name/. Les pages hors de ce dossier ne sont pas explorées." }, { q: "Les PDF sont-ils envoyés pour fusion ?", a: "Non. La fusion se fait localement dans le navigateur." }, { q: "Puis-je télécharger des PDF gratuitement ?", a: "Oui. La version gratuite enregistre jusqu'à 10 fichiers sélectionnés par exécution. Pro supprime cette limite. Le ZIP, la fusion PDF locale et l'export CSV des informations de fichiers sont disponibles gratuitement." }, { q: "Garantit-il que chaque PDF sera enregistré ?", a: "Non. Les résultats dépendent des liens trouvés, de la profondeur, de l'accès au site et de la prise en charge du navigateur. Vérifiez les téléchargements échoués, relancez-les ou exportez les URL en échec avec leurs motifs. L'extension ne contourne ni les connexions ni les restrictions du site." }]
@@ -11874,7 +11874,7 @@
         ko: c("웹페이지 이미지 일괄 다운로드 | Grab All Files", "표시 이미지, 지연 로딩, 배경 이미지, blob 이미지를 감지해 선택 이미지를 저장하거나 URL을 CSV로 내보냅니다.", "이미지 수집", "지연 로딩 자산까지 포함해 웹페이지 이미지를 한 번에 다운로드하세요.", "이미지 갤러리는 지연 로딩, CSS 배경, srcset, blob URL, 스크립트 안에 파일을 숨기는 경우가 많습니다. Grab All Files는 감지 가능한 이미지 URL을 보여주고 필터링, 선택, 저장을 한 번에 처리합니다.", ["이미지 갤러리와 미디어 라이브러리.", "이미지가 많은 제품, 포트폴리오, 문서 페이지.", "lazy loading, srcset, CSS 배경 이미지를 사용하는 페이지.", "이미지 URL CSV 내보내기."], ["페이지를 열거나 URL을 붙여넣습니다.", "JPG, PNG, WebP, GIF, SVG 등 이미지 유형으로 필터링합니다.", "선택 파일을 다운로드하거나 도메인/유형별 정리, CSV 내보내기를 합니다."], [{ q: "지연 로딩 이미지도 감지하나요?", a: "예. DOM 속성, srcset, 배경 이미지, blob URL, 네트워크 응답을 확인합니다." }, { q: "특정 이미지 형식만 받을 수 있나요?", a: "예. 확장자, 크기, 이름, 원본 페이지로 필터링할 수 있습니다." }, { q: "다운로드 대신 URL만 내보낼 수 있나요?", a: "예. 감지 목록을 CSV로 내보낼 수 있습니다." }]),
         pt_BR: c("Baixar imagens em massa de uma página | Grab All Files", "Detecta imagens visíveis, lazy-loaded, de fundo e blob; salva imagens selecionadas ou exporta URLs.", "Coleta de imagens", "Baixe imagens em massa, incluindo recursos lazy-loaded.", "Galerias costumam esconder arquivos em lazy loading, fundos CSS, srcset, blob URLs e scripts. Grab All Files mostra URLs detectáveis para filtrar, selecionar e salvar.", ["Galerias e bibliotecas de mídia.", "Páginas de produto, portfólio ou documentação com muitas imagens.", "Páginas com lazy loading, srcset ou fundos CSS.", "Exportação CSV de URLs de imagem."], ["Abra a página ou cole uma URL.", "Filtre por JPG, PNG, WebP, GIF ou SVG.", "Baixe, organize por domínio/tipo ou exporte URLs CSV."], [{ q: "Detecta imagens lazy-loaded?", a: "Sim. Verifica atributos DOM, srcset, fundos, blob URLs e respostas de rede." }, { q: "Posso baixar só alguns tipos?", a: "Sim. Filtre por extensão, tamanho, nome ou página fonte." }, { q: "Posso exportar URLs?", a: "Sim. Exporte a lista detectada como CSV." }]),
         zh_CN: c("批量下载网页图片 | Grab All Files", "检测可见图片、懒加载图片、背景图和blob图片，并批量保存或导出URL。", "图片收集", "批量下载网页图片，包括懒加载资源。", "图片库常把文件藏在懒加载、CSS背景、srcset、blob URL和脚本中。Grab All Files 会列出可检测的图片URL，便于筛选、选择和保存。", ["图片库和媒体库。", "包含大量图片的产品、作品集或文档页面。", "使用懒加载、srcset或CSS背景图的页面。", "将图片URL导出为CSV以便后续处理。"], ["打开页面或粘贴URL。", "按JPG、PNG、WebP、GIF、SVG等图片类型筛选。", "下载选中文件，按域名/类型整理，或导出CSV。"], [{ q: "能检测懒加载图片吗？", a: "可以。会检查DOM属性、srcset、背景图、blob URL和网络文件响应。" }, { q: "能只下载某些图片类型吗？", a: "可以。按扩展名、大小、名称或来源页面筛选。" }, { q: "能只导出图片URL吗？", a: "可以。检测列表可导出为CSV。" }]),
-        zh_TW: c("批次下載網頁圖片 | Grab All Files", "偵測可見圖片、延遲載入圖片、背景圖和blob圖片，並批次儲存或匯出URL。", "圖片收集", "批次下載網頁圖片，包括延遲載入資源。", "圖片庫常把檔案藏在延遲載入、CSS背景、srcset、blob URL和腳本中。Grab All Files 會列出可偵測的圖片URL，方便篩選、選取和儲存。", ["圖片庫和媒體庫。", "包含大量圖片的產品、作品集或文件頁面。", "使用延遲載入、srcset或CSS背景圖的頁面。", "將圖片URL匯出為CSV以便後續處理。"], ["開啟頁面或貼上URL。", "依JPG、PNG、WebP、GIF、SVG等圖片類型篩選。", "下載選取檔案，依網域/類型整理，或匯出CSV。"], [{ q: "能偵測延遲載入圖片嗎？", a: "可以。會檢查DOM屬性、srcset、背景圖、blob URL和網路檔案回應。" }, { q: "能只下載某些圖片類型嗎？", a: "可以。依副檔名、大小、名稱或來源頁面篩選。" }, { q: "能只匯出圖片URL嗎？", a: "可以。偵測清單可匯出為CSV。" }])
+        zh_TW: c("批次下載網頁圖片 | Grab All Files", "偵測可見圖片、延遲載入圖片、背景圖和blob圖片，並批次儲存或匯出URL。", "圖片收集", "批次下載網頁圖片，包括延遲載入資源。", "圖片庫常把檔案藏在延遲載入、CSS背景、srcset、blob URL和指令碼中。Grab All Files 會列出可偵測的圖片URL，方便篩選、選取和儲存。", ["圖片庫和媒體庫。", "包含大量圖片的產品、作品集或文件頁面。", "使用延遲載入、srcset或CSS背景圖的頁面。", "將圖片URL匯出為CSV以便後續處理。"], ["開啟頁面或貼上URL。", "依JPG、PNG、WebP、GIF、SVG等圖片類型篩選。", "下載選取檔案，依網域/類型整理，或匯出CSV。"], [{ q: "能偵測延遲載入圖片嗎？", a: "可以。會檢查DOM屬性、srcset、背景圖、blob URL和網路檔案回應。" }, { q: "能只下載某些圖片類型嗎？", a: "可以。依副檔名、大小、名稱或來源頁面篩選。" }, { q: "能只匯出圖片URL嗎？", a: "可以。偵測清單可匯出為CSV。" }])
       }
     },
     "download-files-from-webpage": {
@@ -11902,7 +11902,7 @@
       path: "internal-portal-downloads.html",
       related: ["download-files-from-webpage", "download-all-pdfs", "bulk-download-images"],
       copy: {
-        en: c("Download files from internal portals & LMS | Grab All Files", "Use your existing browser session to collect authorized files from intranets, LMS portals, member areas, and document-heavy dashboards.", "Authorized portal downloads", "Download files from internal portals without handing over credentials.", "For intranets, LMS pages, member areas, and dashboards, the browser already has the login session. Grab All Files runs in that browser context, scans pages you are authorized to access, and keeps credential handling outside the extension.", ["Corporate intranets with many attachments.", "LMS pages such as Moodle, Canvas, or Blackboard.", "Member-only libraries and client portals.", "Document dashboards where files are behind buttons, viewers, or forms."], ["Open the authorized page in your browser session.", "Run a page scan or same-site crawl within the portal area you can access.", "Filter, select, download, ZIP, merge PDFs, or export CSV locally."], [{ q: "Does it collect passwords?", a: "No. It uses the browser session you already have and does not collect credentials." }, { q: "Can it bypass access controls?", a: "No. It only works on pages and files your browser is already authorized to access." }, { q: "Is it suitable for confidential files?", a: "Files download directly to your device. Review your organization rules before using any download automation." }]),
+        en: c("Download files from internal portals & LMS | Grab All Files", "Use your existing browser session to collect authorized files from intranets, LMS portals, member areas, and document-heavy dashboards.", "Authorized portal downloads", "Download files from internal portals without handing over credentials.", "For intranets, LMS pages, member areas, and dashboards, the browser already has the login session. Grab All Files runs in that browser context, scans pages you are authorized to access, and keeps credential handling outside the extension.", ["Corporate intranets with many attachments.", "LMS pages such as Moodle, Canvas, or Blackboard.", "Member-only libraries and client portals.", "Document dashboards where files are behind buttons, viewers, or forms."], ["Open the authorized page in your browser session.", "Run a page scan or same-site crawl within the portal area you can access.", "Filter, select, download, ZIP, merge PDFs, or export CSV locally."], [{ q: "Does it collect passwords?", a: "No. It uses the browser session you already have and does not collect credentials." }, { q: "Can it bypass access controls?", a: "No. It only works on pages and files your browser is already authorized to access." }, { q: "Is it suitable for confidential files?", a: "Files download directly to your device, not through our servers. Review your organization's rules before using any download automation." }]),
         ja: c("社内ポータル・LMSの資料をダウンロード | Grab All Files", "既存のブラウザログイン状態を使い、イントラネット、LMS、会員ページ、資料の多いダッシュボードから許可されたファイルを収集します。", "認可済みポータルの取得", "認証情報を渡さず、社内ポータルのファイルをダウンロード。",
           "イントラネット、LMS、会員エリア、ダッシュボードでは、ブラウザにログイン状態があります。Grab All Files はそのブラウザ文脈で動作し、あなたがアクセス権を持つページをスキャンします。認証情報の取り扱いは拡張機能の外に残ります。",
           ["添付ファイルが多い社内イントラネット。", "Moodle、Canvas、BlackboardなどのLMSページ。", "会員限定ライブラリやクライアントポータル。", "ボタン、ビューア、フォームの背後にある文書ダッシュボード。"],
@@ -11914,7 +11914,7 @@
         de: c("Dateien aus internen Portalen und LMS laden | Grab All Files", "Nutzen Sie Ihre Browser-Sitzung, um autorisierte Dateien aus Intranets, LMS und Mitgliederbereichen zu sammeln.", "Autorisierte Downloads", "Laden Sie Dateien aus internen Portalen herunter, ohne Zugangsdaten weiterzugeben.", "Bei Intranets, LMS und Dashboards hat der Browser bereits die Sitzung. Grab All Files arbeitet in diesem Kontext und scannt autorisierte Seiten.", ["Intranets mit vielen Anhängen.", "LMS wie Moodle, Canvas oder Blackboard.", "Mitgliederbibliotheken und Kundenportale.", "Dashboards mit Dateien hinter Buttons, Viewern oder Formularen."], ["Autorisierte Seite im Browser öffnen.", "Scan oder Crawl im zugänglichen Bereich starten.", "Filtern, herunterladen, ZIP, PDF-Merge oder CSV-Export lokal ausführen."], [{ q: "Sammelt es Passwörter?", a: "Nein. Es nutzt Ihre vorhandene Browser-Sitzung und sammelt keine Zugangsdaten." }, { q: "Umgeht es Zugriffskontrollen?", a: "Nein. Nur Seiten, die Ihr Browser bereits öffnen darf." }, { q: "Für vertrauliche Dateien geeignet?", a: "Dateien gehen direkt auf Ihr Gerät. Prüfen Sie interne Regeln." }]),
         it: c("Scaricare documenti da portali interni e LMS | Grab All Files", "Usa la sessione del browser per raccogliere file autorizzati da intranet, LMS e aree membri.", "Download autorizzati", "Scarica file da portali interni senza consegnare credenziali.", "In intranet, LMS e dashboard il browser ha già la sessione. Grab All Files lavora in quel contesto e scansiona pagine autorizzate.", ["Intranet con molti allegati.", "LMS come Moodle, Canvas o Blackboard.", "Biblioteche membri e portali clienti.", "Dashboard con file dietro pulsanti, viewer o moduli."], ["Apri la pagina autorizzata nel browser.", "Esegui una scansione o crawl nell'area accessibile.", "Filtra, scarica, ZIP, unisci PDF o esporta CSV localmente."], [{ q: "Raccoglie password?", a: "No. Usa la sessione esistente e non raccoglie credenziali." }, { q: "Aggira i controlli di accesso?", a: "No. Funziona solo sulle pagine che il browser può già aprire." }, { q: "Adatto a file riservati?", a: "I file vanno direttamente al dispositivo. Verifica le regole aziendali." }]),
         ko: c("사내 포털 및 LMS 문서 다운로드 | Grab All Files", "기존 브라우저 세션을 사용해 인트라넷, LMS, 회원 영역, 문서 대시보드의 허가된 파일을 수집합니다.", "권한 있는 포털 다운로드", "인증 정보를 넘기지 않고 내부 포털 파일을 다운로드하세요.", "인트라넷, LMS, 회원 영역, 대시보드에서는 브라우저가 이미 로그인 세션을 갖고 있습니다. Grab All Files는 그 컨텍스트에서 권한 있는 페이지를 스캔합니다.", ["첨부 파일이 많은 사내 인트라넷.", "Moodle, Canvas, Blackboard 같은 LMS 페이지.", "회원 전용 라이브러리와 고객 포털.", "버튼, 뷰어, 폼 뒤에 파일이 있는 대시보드."], ["브라우저에서 권한 있는 페이지를 엽니다.", "접근 가능한 영역에서 페이지 스캔 또는 동일 사이트 크롤링을 실행합니다.", "필터링, 다운로드, ZIP, PDF 병합, CSV 내보내기를 로컬로 실행합니다."], [{ q: "비밀번호를 수집하나요?", a: "아니요. 기존 브라우저 세션을 사용하며 인증 정보를 수집하지 않습니다." }, { q: "접근 제어를 우회하나요?", a: "아니요. 브라우저가 이미 접근 가능한 페이지와 파일만 대상입니다." }, { q: "기밀 파일에 적합한가요?", a: "파일은 기기로 직접 다운로드됩니다. 조직의 규칙을 확인하세요." }]),
-        pt_BR: c("Baixar documentos de portais internos e LMS | Grab All Files", "Use a sessão do navegador para coletar arquivos autorizados de intranets, LMS e áreas de membros.", "Downloads autorizados", "Baixe arquivos de portais internos sem entregar credenciais.", "Em intranets, LMS e dashboards, o navegador já tem a sessão. Grab All Files trabalha nesse contexto e escaneia páginas autorizadas.", ["Intranets com muitos anexos.", "LMS como Moodle, Canvas ou Blackboard.", "Bibliotecas de membros e portais de clientes.", "Dashboards com arquivos atrás de botões, viewers ou formulários."], ["Abra a página autorizada no navegador.", "Execute scan ou rastreamento na área acessível.", "Filtre, baixe, ZIP, mescle PDF ou exporte CSV localmente."], [{ q: "Coleta senhas?", a: "Não. Usa sua sessão existente e não coleta credenciais." }, { q: "Contorna controles de acesso?", a: "Não. Só funciona em páginas que o navegador já pode abrir." }, { q: "Serve para arquivos confidenciais?", a: "Os arquivos vão direto ao dispositivo. Verifique as regras da sua organização." }]),
+        pt_BR: c("Baixar documentos de portais internos e LMS | Grab All Files", "Use a sessão do navegador para coletar arquivos autorizados de intranets, LMS e áreas de membros.", "Downloads autorizados", "Baixe arquivos de portais internos sem entregar credenciais.", "Em intranets, LMS e dashboards, o navegador já tem a sessão. Grab All Files trabalha nesse contexto e escaneia páginas autorizadas.", ["Intranets com muitos anexos.", "LMS como Moodle, Canvas ou Blackboard.", "Bibliotecas de membros e portais de clientes.", "Dashboards com arquivos atrás de botões, viewers ou formulários."], ["Abra a página autorizada no navegador.", "Execute uma varredura ou um rastreamento na área acessível.", "Filtre, baixe, ZIP, mescle PDF ou exporte CSV localmente."], [{ q: "Coleta senhas?", a: "Não. Usa sua sessão existente e não coleta credenciais." }, { q: "Contorna controles de acesso?", a: "Não. Só funciona em páginas que o navegador já pode abrir." }, { q: "Serve para arquivos confidenciais?", a: "Os arquivos vão direto ao dispositivo. Verifique as regras da sua organização." }]),
         zh_CN: c("从内部门户和LMS下载文档 | Grab All Files", "使用现有浏览器会话，从内网、LMS、会员区和文档仪表板收集已授权文件。", "已授权门户下载", "无需交出凭据，即可下载内部门户文件。", "在内网、LMS、会员区和仪表板中，浏览器已拥有登录会话。Grab All Files 在该浏览器环境中运行，扫描您有权访问的页面。", ["包含大量附件的企业内网。", "Moodle、Canvas、Blackboard等LMS页面。", "会员专属库和客户门户。", "文件位于按钮、查看器或表单之后的文档仪表板。"], ["在浏览器中打开已授权页面。", "在可访问范围内运行页面扫描或同站点爬取。", "本地筛选、下载、ZIP、PDF合并或CSV导出。"], [{ q: "会收集密码吗？", a: "不会。它使用您已有的浏览器会话，不收集凭据。" }, { q: "能绕过访问控制吗？", a: "不能。只处理浏览器已被授权访问的页面和文件。" }, { q: "适合机密文件吗？", a: "文件会直接下载到您的设备。使用前请确认组织规则。" }]),
         zh_TW: c("從內部入口網站和LMS下載文件 | Grab All Files", "使用現有瀏覽器工作階段，從內網、LMS、會員區和文件儀表板收集已授權檔案。", "已授權入口下載", "無需交出憑證，即可下載內部入口網站檔案。", "在內網、LMS、會員區和儀表板中，瀏覽器已擁有登入工作階段。Grab All Files 在該瀏覽器環境中執行，掃描您有權存取的頁面。", ["包含大量附件的企業內網。", "Moodle、Canvas、Blackboard等LMS頁面。", "會員專屬庫和客戶入口網站。", "檔案位於按鈕、檢視器或表單之後的文件儀表板。"], ["在瀏覽器中開啟已授權頁面。", "在可存取範圍內執行頁面掃描或同站爬取。", "本機篩選、下載、ZIP、PDF合併或CSV匯出。"], [{ q: "會收集密碼嗎？", a: "不會。它使用您已有的瀏覽器工作階段，不收集憑證。" }, { q: "能繞過存取控制嗎？", a: "不能。只處理瀏覽器已被授權存取的頁面和檔案。" }, { q: "適合機密檔案嗎？", a: "檔案會直接下載到您的裝置。使用前請確認組織規則。" }])
       }
@@ -12076,7 +12076,7 @@
       "image": "Image reference",
       "note": "Research note",
       "request": "Example question",
-      "aiQuestion": "Summarise the requirements and cite the source.",
+      "aiQuestion": "Summarize the requirements and cite the source.",
       "manual": "Manual handoff",
       "excel": "Excel",
       "externalAI": "External AI",
@@ -12143,8 +12143,8 @@
       "form": "申請書",
       "attachment": "添付資料",
       "added": "追加",
-      "bodyUpdated": "本文更新",
-      "titleChanged": "題名変更",
+      "bodyUpdated": "正文更新",
+      "titleChanged": "標題変更",
       "originalName": "元の名前",
       "checkedTitle": "題名を確認・編集",
       "procedure": "申請手順",
@@ -12200,7 +12200,7 @@
           "題名と保存名を選ぶ",
           "名前とフォルダで整理"
         ],
-        "note": "自動では有用な題名がなければ元の名前へ戻ります。フォルダ木は選べる整理方法の例です。"
+        "note": "自動命名で有用な題名が得られない場合は、元の名前を使います。フォルダ木は選べる整理方法の例です。"
       },
       "public": {
         "title": "必要な公的資料を、ひとまとまりに",
@@ -12301,7 +12301,7 @@
           "Elegir el material necesario",
           "Conjunto y CSV de estado"
         ],
-        "note": "Selecciona y contrasta con originales. No se garantiza todo el material; los PDF siguen como archivos separados."
+        "note": "Selecciona y contrasta con originales. No se garantiza que esté todo el material; los PDF siguen como archivos separados."
       },
       "markdown": {
         "title": "Contenido recopilado a notas reutilizables",
@@ -12591,7 +12591,7 @@
     }
   },
   "ko": {
-    "example": "도해 예시 · 가상 데이터를 단순화한 표시",
+    "example": "그림 예시 · 가상 데이터를 단순화한 표시",
     "common": {
       "item": "항목",
       "value": "값",
@@ -12651,7 +12651,7 @@
           "변경 보고서 저장",
           "전후 원문 비교"
         ],
-        "note": "같은 사이트의 직전 완료 수집과 현재 페이지를 비교 가능한 범위로 확인합니다. 직접 원문을 읽으며 자동 감시·줄 단위 차이는 아닙니다. 미수집이 사이트 삭제를 증명하지 않습니다."
+        "note": "같은 사이트의 직전 완료 수집과 현재 페이지를 비교 가능한 범위로 확인합니다. 원문은 직접 읽어 확인하며, 자동 감시나 줄 단위 차이 비교는 제공하지 않습니다. 미수집이 사이트 삭제를 증명하지 않습니다."
       },
       "pdf": {
         "title": "불명확한 이름을 찾기 좋은 자료로",
@@ -12761,7 +12761,7 @@
           "Escolher materiais úteis",
           "Conjunto e CSV de estados"
         ],
-        "note": "Selecione e confira originais. Não se garante tudo; PDFs permanecem separados."
+        "note": "Selecione e confira originais. Não se garante um conjunto completo; os PDFs permanecem separados."
       },
       "markdown": {
         "title": "Conteúdo coletado em notas reutilizáveis",
@@ -12879,7 +12879,7 @@
       "form": "申請表",
       "attachment": "附件",
       "added": "新增",
-      "bodyUpdated": "本文更新",
+      "bodyUpdated": "正文更新",
       "titleChanged": "標題變更",
       "originalName": "原始名稱",
       "checkedTitle": "確認 / 編輯標題",
@@ -12948,9 +12948,9 @@
         "note": "選擇所需範圍並核對原件。不保證取得所有資料；PDF為獨立檔案。"
       },
       "markdown": {
-        "title": "將收集本文用作筆記",
+        "title": "將收集正文用作筆記",
         "stages": [
-          "標題、本文及連結",
+          "標題、正文及連結",
           "準備 Markdown",
           "自行複製或匯入"
         ],
@@ -13609,7 +13609,7 @@
       "combine-local-html-files-into-one": "网页合并中的“电脑文件夹”模式：选择文件夹或ZIP文件，或拖到界面上",
       "web-tables-to-csv-for-excel-ai": "表格CSV/JSON输出设置",
       "save-and-compare-document-revisions": "保存变化报告的菜单",
-      "rename-and-organize-bulk-pdf-downloads": "PDF题名核对、保存名称与文件夹选项",
+      "rename-and-organize-bulk-pdf-downloads": "PDF标题核对、保存名称与文件夹选项",
       "collect-public-government-documents": "选择示例公共文件与文件信息CSV操作",
       "save-web-pages-as-markdown": "Markdown输出格式设置",
       "save-online-manuals-and-knowledge-pages": "选择示例手册页面",
@@ -13621,10 +13621,10 @@
       "internal-portal-downloads": "选择虚构门户附件",
       "merge-pdfs-locally": "选定示例PDF的合并菜单",
       "download-product-catalogs-and-datasheets": "核对示例型号PDF、保存名称与格式文件夹",
-      "download-ir-and-financial-report-pdfs": "核对编辑示例报告期间题名与PDF保存名称",
+      "download-ir-and-financial-report-pdfs": "核对编辑示例报告期间标题与PDF保存名称",
       "download-tender-and-application-documents": "选择单一虚构项目资料与ZIP保存菜单",
       "export-file-links-to-csv": "选定示例资料的文件信息CSV菜单",
-      "download-sds-and-technical-documents": "核对示例产品与修订题名、PDF与格式文件夹"
+      "download-sds-and-technical-documents": "核对示例产品与修订标题、PDF与格式文件夹"
     }
   },
   "zh_TW": {
@@ -13640,7 +13640,7 @@
       "combine-local-html-files-into-one": "網頁合併中的「電腦資料夾」模式：選擇資料夾或ZIP檔案，或拖曳到畫面上",
       "web-tables-to-csv-for-excel-ai": "表格CSV/JSON輸出設定",
       "save-and-compare-document-revisions": "儲存變更報告的選單",
-      "rename-and-organize-bulk-pdf-downloads": "PDF題名核對、儲存名稱與資料夾選項",
+      "rename-and-organize-bulk-pdf-downloads": "PDF標題核對、儲存名稱與資料夾選項",
       "collect-public-government-documents": "選取範例公共檔案與檔案資訊CSV操作",
       "save-web-pages-as-markdown": "Markdown輸出格式設定",
       "save-online-manuals-and-knowledge-pages": "選取範例手冊頁面",
@@ -13652,10 +13652,10 @@
       "internal-portal-downloads": "選取虛構入口網站附件",
       "merge-pdfs-locally": "選定範例PDF的合併選單",
       "download-product-catalogs-and-datasheets": "核對範例型號PDF、儲存名稱與格式資料夾",
-      "download-ir-and-financial-report-pdfs": "核對編輯範例報告期間題名與PDF儲存名稱",
+      "download-ir-and-financial-report-pdfs": "核對編輯範例報告期間標題與PDF儲存名稱",
       "download-tender-and-application-documents": "選取單一虛構案件資料與ZIP儲存選單",
       "export-file-links-to-csv": "選定範例資料的檔案資訊CSV選單",
-      "download-sds-and-technical-documents": "核對範例產品與修訂題名、PDF與格式資料夾"
+      "download-sds-and-technical-documents": "核對範例產品與修訂標題、PDF與格式資料夾"
     }
   }
 };
