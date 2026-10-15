@@ -96,7 +96,7 @@ for (const locale of locales) {
   const expectedPlanCards = locale.code === 'en' ? 20 : 2;
   assert((pricing.match(/class="plan-card /g) || []).length === expectedPlanCards, `${locale.file}: pricing must show one Free card and one Pro card per available language`);
   assert(pricing.includes('plan-free') && pricing.includes('plan-pro'), `${locale.file}: pricing is missing the explicit Free/Pro comparison`);
-  assert(pricing.includes('$19.99'), `${locale.file}: Pro one-time price is missing`);
+  assert(/(?:\$19\.99|19,99\s*\$)/.test(pricing), `${locale.file}: Pro one-time price is missing`);
   for (const term of planTerms[locale.code]) assert(pricing.includes(term), `${locale.file}: pricing is missing plan boundary "${term}"`);
   assert((html.match(/hreflang=/g) || []).length === 11, `${locale.file}: expected 11 hreflang links`);
   assert(html.includes('type="text/plain"') && html.includes('/llms.txt'), `${locale.file}: missing AI-readable summary link`);
