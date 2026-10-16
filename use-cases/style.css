@@ -512,6 +512,12 @@ footer {
 .research-formats th, .research-formats td { padding: .75rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--border); }
 .research-formats th { width: 30%; color: var(--text-strong); }
 .research-formats thead th { background: var(--surface-alt); }
+.compare-table { width: 100%; min-width: 560px; border-collapse: collapse; table-layout: fixed; overflow-wrap: anywhere; }
+.compare-table th, .compare-table td { padding: .75rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--border); }
+.compare-table thead th { background: var(--surface-alt); color: var(--text-strong); }
+.compare-table tbody th { width: 24%; color: var(--text-strong); }
+.compare-table thead td { width: 24%; }
+.visual-look-options li:not(.is-chosen) span { color: var(--text-muted); }
 
 .manual-patterns { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .manual-pattern { border: 1px solid var(--border); background: var(--surface-alt); border-radius: 12px; padding: 1rem; }

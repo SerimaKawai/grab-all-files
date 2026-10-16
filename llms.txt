@@ -44,6 +44,10 @@ From a computer folder: the same tool can also read a folder or ZIP of .html/.ht
 
 Detailed guide: https://grab-all-files.app/use-cases/combine-local-html-files-into-one.html
 
+Keep the original look: when combining pages (from a website or from a computer folder), the user can choose "Keep the original look" instead of "Easy to read". Each page is saved with its own stylesheets, web fonts and images, inside its own frame, so several pages with different designs sit in one self-contained HTML without clashing. Web pages are opened in a tab and scrolled to the end first (lazy-loaded images and infinite scroll are included, up to the 45/90/180-second scroll time). Shared stylesheets, images and fonts are stored once; the header, menu and footer that repeat on every page are kept only on the first page by default; ads can optionally be left out. Site scripts are removed and the file blocks network requests when opened; tabs, accordions and carousel arrows (Swiper, Slick, Splide, Glide, Flickity) still work. Each page shows its source URL and capture time. Free keeps one page per run this way; combining several pages requires Pro.
+
+Detailed guide: https://grab-all-files.app/use-cases/save-web-pages-with-original-design.html
+
 ### Shared behavior
 
 - Both tools process page content and output locally on the user's device; page content, URLs, file names, and file contents are not uploaded to the developer's servers.
@@ -139,6 +143,7 @@ Guide: https://grab-all-files.app/use-cases/save-web-pages-as-markdown.html
 - Collect web information to read and prepare external AI analysis: https://grab-all-files.app/use-cases/web-pages-for-reading-and-ai-analysis.html
 - Combine multiple web pages into one HTML file: https://grab-all-files.app/use-cases/combine-web-pages-into-one-html.html
 - Combine local HTML files (a folder or ZIP on your computer) into one HTML file: https://grab-all-files.app/use-cases/combine-local-html-files-into-one.html
+- Save web pages with their original design as one HTML file: https://grab-all-files.app/use-cases/save-web-pages-with-original-design.html
 - Download all PDFs from a website: https://grab-all-files.app/use-cases/download-all-pdfs.html
 - Bulk download images from a web page: https://grab-all-files.app/use-cases/bulk-download-images.html
 - Download all files from a web page: https://grab-all-files.app/use-cases/download-files-from-webpage.html

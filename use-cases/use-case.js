@@ -350,6 +350,7 @@
     "web-pages-for-reading-and-ai-analysis",
     "combine-web-pages-into-one-html",
     "combine-local-html-files-into-one",
+    "save-web-pages-with-original-design",
     "download-all-pdfs",
     "bulk-download-images",
     "download-files-from-webpage",
@@ -373,6 +374,7 @@
       "save-online-manuals-and-knowledge-pages": "Save manuals & knowledge pages",
       "web-pages-for-reading-and-ai-analysis": "Collect, read & analyze with AI",
       "combine-web-pages-into-one-html": "Combine pages into HTML",
+      "save-web-pages-with-original-design": "Pages with the original design",
       "combine-local-html-files-into-one": "Local HTML files into one",
       "download-all-pdfs": "Download all PDFs",
       "bulk-download-images": "Bulk-download images",
@@ -395,6 +397,7 @@
       "save-online-manuals-and-knowledge-pages": "業務マニュアル・ナレッジを保存",
       "web-pages-for-reading-and-ai-analysis": "集めて読む・AIで分析する",
       "combine-web-pages-into-one-html": "ページをHTMLにまとめる",
+      "save-web-pages-with-original-design": "見た目そのままHTML保存",
       "combine-local-html-files-into-one": "パソコン内のHTMLを1つに",
       "download-all-pdfs": "PDFを一括ダウンロード",
       "bulk-download-images": "画像を一括ダウンロード",
@@ -417,6 +420,7 @@
       "save-online-manuals-and-knowledge-pages": "Guardar manuales y conocimiento",
       "web-pages-for-reading-and-ai-analysis": "Recopilar, leer y analizar con IA",
       "combine-web-pages-into-one-html": "Combinar páginas en HTML",
+      "save-web-pages-with-original-design": "Páginas con su diseño original",
       "combine-local-html-files-into-one": "HTML locales en uno",
       "download-all-pdfs": "Descargar todos los PDF",
       "bulk-download-images": "Descargar imágenes en masa",
@@ -439,6 +443,7 @@
       "save-online-manuals-and-knowledge-pages": "Enregistrer manuels et connaissances",
       "web-pages-for-reading-and-ai-analysis": "Collecter, lire et analyser avec l’IA",
       "combine-web-pages-into-one-html": "Regrouper les pages en HTML",
+      "save-web-pages-with-original-design": "Pages au design d’origine",
       "combine-local-html-files-into-one": "Fichiers HTML locaux en un seul",
       "download-all-pdfs": "Télécharger tous les PDF",
       "bulk-download-images": "Télécharger les images",
@@ -461,6 +466,7 @@
       "save-online-manuals-and-knowledge-pages": "Handbücher und Wissensseiten sichern",
       "web-pages-for-reading-and-ai-analysis": "Sammeln, lesen und mit KI analysieren",
       "combine-web-pages-into-one-html": "Seiten als HTML bündeln",
+      "save-web-pages-with-original-design": "Seiten im Originaldesign",
       "combine-local-html-files-into-one": "Lokale HTML-Dateien in eins",
       "download-all-pdfs": "Alle PDFs herunterladen",
       "bulk-download-images": "Bilder gesammelt laden",
@@ -483,6 +489,7 @@
       "save-online-manuals-and-knowledge-pages": "Salvare manuali e pagine di conoscenza",
       "web-pages-for-reading-and-ai-analysis": "Raccogliere, leggere e analizzare con IA",
       "combine-web-pages-into-one-html": "Unisci pagine in HTML",
+      "save-web-pages-with-original-design": "Pagine con il design originale",
       "combine-local-html-files-into-one": "File HTML locali in uno",
       "download-all-pdfs": "Scaricare tutti i PDF",
       "bulk-download-images": "Scaricare immagini",
@@ -505,6 +512,7 @@
       "save-online-manuals-and-knowledge-pages": "업무 매뉴얼·지식 페이지 저장",
       "web-pages-for-reading-and-ai-analysis": "정보 수집·읽기·AI 분석",
       "combine-web-pages-into-one-html": "페이지를 HTML로 합치기",
+      "save-web-pages-with-original-design": "원래 디자인 그대로 저장",
       "combine-local-html-files-into-one": "컴퓨터의 HTML을 하나로",
       "download-all-pdfs": "모든 PDF 다운로드",
       "bulk-download-images": "이미지 일괄 다운로드",
@@ -527,6 +535,7 @@
       "save-online-manuals-and-knowledge-pages": "Salvar manuais e conhecimento",
       "web-pages-for-reading-and-ai-analysis": "Coletar, ler e analisar com IA",
       "combine-web-pages-into-one-html": "Juntar páginas em HTML",
+      "save-web-pages-with-original-design": "Páginas com o design original",
       "combine-local-html-files-into-one": "HTMLs locais em um só",
       "download-all-pdfs": "Baixar todos os PDFs",
       "bulk-download-images": "Baixar imagens",
@@ -549,6 +558,7 @@
       "save-online-manuals-and-knowledge-pages": "保存业务手册与知识文章",
       "web-pages-for-reading-and-ai-analysis": "收集信息·阅读·AI分析",
       "combine-web-pages-into-one-html": "将网页合并为 HTML",
+      "save-web-pages-with-original-design": "保留原样的网页保存",
       "combine-local-html-files-into-one": "电脑里的 HTML 合为一个",
       "download-all-pdfs": "下载所有PDF",
       "bulk-download-images": "批量下载图片",
@@ -571,6 +581,7 @@
       "save-online-manuals-and-knowledge-pages": "儲存業務手冊與知識文章",
       "web-pages-for-reading-and-ai-analysis": "收集資訊·閱讀·AI分析",
       "combine-web-pages-into-one-html": "將網頁合併為 HTML",
+      "save-web-pages-with-original-design": "保留原樣的網頁儲存",
       "combine-local-html-files-into-one": "電腦裡的 HTML 合為一個",
       "download-all-pdfs": "下載所有PDF",
       "bulk-download-images": "批次下載圖片",
@@ -581,12 +592,1824 @@
   };
 
   var CASES = {
+    "save-web-pages-with-original-design": {
+      "path": "save-web-pages-with-original-design.html",
+      "related": [
+        "combine-web-pages-into-one-html",
+        "combine-local-html-files-into-one",
+        "save-online-manuals-and-knowledge-pages"
+      ],
+      "cta": {
+        "en": {
+          "title": "Keep pages exactly as they looked.",
+          "text": "Free keeps one page per run with its original design, as one offline HTML file. Pro ($19.99, one-time) combines the pages you choose, each in its own design, with a table of contents and search. Pages are collected in your browser and saved on your device."
+        },
+        "ja": {
+          "title": "見えていたとおりに、ページを残す。",
+          "text": "無料版は1回1ページを、元のデザインのまま1つのオフラインHTMLに保存できます。Pro（$19.99・買い切り）は選んだページを、それぞれのデザインのまま、目次と検索つきで1つにまとめます。ページはブラウザで集めて、端末に保存します。"
+        },
+        "es": {
+          "title": "Conserva las páginas tal como se veían.",
+          "text": "El plan gratuito guarda una página por ejecución con su diseño original, en un archivo HTML sin conexión. Pro ($19.99, pago único) combina las páginas que elijas, cada una con su diseño, con un índice y búsqueda. Las páginas se recopilan en tu navegador y se guardan en tu dispositivo."
+        },
+        "fr": {
+          "title": "Gardez les pages exactement telles qu’elles étaient.",
+          "text": "La version gratuite enregistre une page par exécution avec son design d’origine, dans un fichier HTML hors ligne. Pro (19,99 $, paiement unique) regroupe les pages que vous choisissez, chacune avec son design, avec une table des matières et une recherche. Les pages sont collectées dans votre navigateur et enregistrées sur votre appareil."
+        },
+        "de": {
+          "title": "Seiten genau so aufbewahren, wie sie aussahen.",
+          "text": "Die kostenlose Version speichert pro Durchlauf eine Seite im Originaldesign als HTML-Datei für offline. Pro (19,99 $, einmalig) bündelt die von Ihnen gewählten Seiten, jede in ihrem Design, mit Inhaltsverzeichnis und Suche. Die Seiten werden in Ihrem Browser gesammelt und auf Ihrem Gerät gespeichert."
+        },
+        "it": {
+          "title": "Conserva le pagine esattamente come apparivano.",
+          "text": "Il piano gratuito salva una pagina per esecuzione con il suo design originale, in un file HTML offline. Pro ($19.99, pagamento unico) unisce le pagine che scegli, ciascuna con il proprio design, con un indice e la ricerca. Le pagine vengono raccolte nel tuo browser e salvate sul tuo dispositivo."
+        },
+        "ko": {
+          "title": "보이던 그대로 페이지를 보관하세요.",
+          "text": "무료 플랜은 1회 실행에 한 페이지를 원래 디자인 그대로 오프라인 HTML 파일 하나로 저장합니다. Pro($19.99, 1회 결제)는 선택한 페이지를 각각의 디자인을 유지한 채 목차와 검색이 있는 파일로 합칩니다. 페이지는 브라우저에서 수집되어 기기에 저장됩니다."
+        },
+        "pt_BR": {
+          "title": "Guarde as páginas exatamente como eram.",
+          "text": "O plano gratuito salva uma página por execução com o design original, em um arquivo HTML offline. O Pro ($19.99, pagamento único) combina as páginas que você escolher, cada uma com o próprio design, com sumário e busca. As páginas são coletadas no seu navegador e salvas no seu dispositivo."
+        },
+        "zh_CN": {
+          "title": "让网页保持它原本的样子。",
+          "text": "免费版每次运行保存一个保留原有设计的网页,生成一个可离线打开的 HTML 文件。Pro($19.99,一次性付费)可合并您选择的网页,每个网页保留各自的设计,并提供目录和搜索。网页在您的浏览器中收集,并保存到您的设备。"
+        },
+        "zh_TW": {
+          "title": "讓網頁保持它原本的樣子。",
+          "text": "免費版每次執行儲存一個保留原有設計的網頁,產生一個可離線開啟的 HTML 檔案。Pro($19.99,一次性付費)可合併您選擇的網頁,每個網頁保留各自的設計,並提供目錄與搜尋。網頁在您的瀏覽器中收集,並儲存到您的裝置。"
+        }
+      },
+      "copy": {
+        "en": {
+          "title": "Save web pages with their original design as one HTML file | Grab All Files",
+          "desc": "Save one page, or many pages combined, with their original layout, fonts and images in a single offline HTML file. Scripts are removed and nothing is uploaded.",
+          "eyebrow": "Keep the original look",
+          "h1": "Save pages exactly as they look, in one HTML file.",
+          "lead": "Choose “Keep the original look” and Grab All Files saves each page with its own stylesheets, fonts and images: the layout, colors and typography you saw in the browser, in one self-contained HTML file. Combine many pages from a website or from a folder on your computer, and each page keeps its own design inside its own frame, with a table of contents and search across all of them. Scripts are taken out, so the file opens offline without tracking or pop-ups.",
+          "best": [
+            "Keeping a record of how a website looked before a redesign, a migration or the site closing down.",
+            "Archiving pages with the date and address they were captured from, for evidence, compliance or audit records.",
+            "Sending a set of pages, including ones behind your login, to a client or colleague as one file that opens anywhere.",
+            "Turning a saved website folder or an exported help site into one file that still looks like the original."
+          ],
+          "steps": [
+            "Open Grab All Files and choose “Combine pages into HTML”. Start from the page open in your browser, let the extension find related pages, or switch the source to “From a computer folder” for a folder or ZIP of HTML files.",
+            "Check the pages to include. Under “Look”, choose “Keep the original look”. Leave on “Leave out the header, menu and footer that repeat on every page (keep the first)”, and turn on “Leave out ads” if you want a lighter file.",
+            "For web pages, allow access to the sites that serve the stylesheets and images when asked. It is asked once for all of them. Each page is opened in a tab and scrolled to the end so that images and content that load on scroll are included.",
+            "Save. Open the HTML: use the table of contents and search to move between pages. Each page shows the address it came from and when it was captured. The report lists any image or part that could not be kept."
+          ],
+          "faq": [
+            {
+              "q": "Can I use “Keep the original look” on the Free plan?",
+              "a": "Yes. The look option is not limited by plan. Free saves one page per run, so you can keep any single page with its original design as one HTML file. Combining several pages into one file with a shared table of contents requires Pro ($19.99, one-time, up to 3 devices)."
+            },
+            {
+              "q": "How is this different from saving with “Save page as” or a single-page saver?",
+              "a": "“Save page as” writes a folder of files next to the HTML, and single-page savers produce one file per page. Grab All Files puts many pages in one file and keeps each page in its own frame, so the designs of different pages do not clash. Shared stylesheets, images and fonts are stored once, links between the saved pages jump inside the file, and you can search all pages at once."
+            },
+            {
+              "q": "Will menus, tabs and sliders still work?",
+              "a": "The site’s scripts are removed for safety, so features that need them, such as maps, search forms, logins or video players that load on demand, do not run. Common parts are made to work without the site’s scripts: tabs and accordions built with standard accessibility markup or Bootstrap open and close, and carousel arrows (Swiper, Slick, Splide, Glide, Flickity) move one slide at a time. Forms are never submitted."
+            },
+            {
+              "q": "Does it include images that only appear when you scroll?",
+              "a": "Yes. For web pages, each page is opened in a tab and scrolled to the end before it is captured, so lazy-loaded images and pages that add more content as you scroll are included. Scrolling stops when the page stops growing or when the time set in “Scroll time” runs out (45, 90 or 180 seconds). Fixed headers, cookie notices and sticky headings appear in their original positions as you scroll the saved file."
+            },
+            {
+              "q": "Is the saved file safe to open and share?",
+              "a": "The file contains no scripts, and it blocks requests to the internet when opened, so it does not load trackers or ads from other sites. Login details found in links are removed. The pages are collected in your own browser and saved on your device; their content is not sent to our servers. Before sharing, check that you are allowed to share the pages you saved."
+            },
+            {
+              "q": "When should I choose “Easy to read” instead?",
+              "a": "Choose “Easy to read” when you want the text more than the design: for reading long material, printing, smaller files, or preparing Markdown and data for an AI tool. It shows every page in one clean style without the site’s header, menus and footer. “Keep the original look” is for keeping and sharing pages as they appeared."
+            }
+          ],
+          "industry": {
+            "kind": "originallook",
+            "title": "From pages to one file that keeps each design",
+            "stages": [
+              "Choose the pages",
+              "Choose the look",
+              "One HTML, each page in its own design"
+            ],
+            "files": [
+              "example.com/",
+              "example.com/products",
+              "example.com/pricing",
+              "example.com/support"
+            ],
+            "options": [
+              "Easy to read",
+              "Keep the original look"
+            ],
+            "order": [
+              "Home",
+              "Products",
+              "Pricing",
+              "Support"
+            ],
+            "output": "example-site.html",
+            "toc": "Table of contents · search",
+            "example": "Illustrative example · fictional site",
+            "note": "Free keeps one page per run with its original design; Pro combines the pages you select. Shared stylesheets, images and fonts are stored once.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Who keeps pages with their original design",
+            "items": [
+              [
+                "Before a redesign or migration",
+                "Web teams and agencies keep the current site as it looks today, page by page, before it is rebuilt, moved to a new system or taken offline."
+              ],
+              [
+                "Evidence and compliance records",
+                "Legal, compliance and advertising-review teams keep how a page, an offer or a notice was shown, with the source address and capture time on every page."
+              ],
+              [
+                "Sites and services that are closing",
+                "Researchers, communities and fans keep pages from a service that is shutting down, in a file that does not depend on the site still being online."
+              ],
+              [
+                "Sharing pages behind a login",
+                "Send pages from a portal, an intranet or a client area to someone without access, as one file they can open offline in any browser."
+              ],
+              [
+                "Design and competitor references",
+                "Designers and marketers collect landing pages and competitor sites as they appear, with the real fonts, colors and spacing."
+              ],
+              [
+                "Saved sites and exported help",
+                "A website backup folder, or help and manual pages exported as HTML, become one file that still looks like the original."
+              ]
+            ]
+          },
+          "compare": {
+            "title": "“Keep the original look” and “Easy to read” compared",
+            "headers": [
+              "",
+              "Keep the original look",
+              "Easy to read"
+            ],
+            "rows": [
+              [
+                "What it keeps",
+                "The whole page with the site’s own stylesheets, fonts and images",
+                "The main text, headings, tables and images in one clean style"
+              ],
+              [
+                "Header, menus and footer",
+                "Kept on the first page; left out of the following pages by default",
+                "Left out"
+              ],
+              [
+                "Several pages",
+                "Each page in its own frame, so designs do not clash",
+                "One continuous document"
+              ],
+              [
+                "Interactive parts",
+                "Tabs, accordions and carousel arrows work; other scripts do not run",
+                "Content is shown opened up for reading"
+              ],
+              [
+                "File size",
+                "Larger; shared files are stored once, unused CSS rules are left out",
+                "Smaller"
+              ],
+              [
+                "Best for",
+                "Keeping, evidence, sharing as it looked, design references",
+                "Reading, printing, Markdown and AI"
+              ]
+            ]
+          },
+          "keeps": {
+            "title": "What is kept in the saved file",
+            "items": [
+              [
+                "Layout, fonts and colors",
+                "Each page’s stylesheets are embedded, along with the web fonts it uses (one format per font, WOFF2 first) and its images, including backgrounds."
+              ],
+              [
+                "The page as it was shown",
+                "The page is captured after it settles, before any menu is opened, so closed menus stay closed. Content that fades in on scroll is saved visible."
+              ],
+              [
+                "Content loaded later",
+                "Lazy-loaded images, pages that grow as you scroll, frames from sites the extension may read, styles of web components, and icons drawn from SVG sprite files."
+              ],
+              [
+                "Images that block outside use",
+                "Images refused when requested from elsewhere are fetched again the way the original page loaded them, once each."
+              ],
+              [
+                "Source and capture time",
+                "Under each page title: the address it came from and when it was captured. Links to other saved pages and files open inside the file or the save folder."
+              ],
+              [
+                "A lighter file",
+                "The same stylesheet, image or font used on many pages is stored once. Optionally, ad slots from ad networks are left out."
+              ]
+            ]
+          }
+        },
+        "ja": {
+          "title": "Webページを見た目そのまま1つのHTMLに保存｜複数ページもデザインごとまとめる | Grab All Files",
+          "desc": "Webページやパソコン内のHTMLを、元のレイアウト・フォント・画像のまま1つのHTMLファイルに保存。複数ページをまとめてもデザインが崩れず、目次と検索付き。スクリプトは除去し、アップロードもしません。",
+          "eyebrow": "元の見た目のまま",
+          "h1": "見たままのデザインで、ページを1つのHTMLに保存。",
+          "lead": "「元の見た目のまま」を選ぶと、Grab All Files は各ページを、そのサイトのスタイルシート・フォント・画像ごと保存します。ブラウザで見ていたレイアウト・配色・文字組みのまま、1つのファイルに入ります。Webサイトやパソコンのフォルダから複数ページをまとめても、ページごとに独立した枠に入るのでデザインがぶつからず、目次と全ページ横断の検索で行き来できます。スクリプトは取り除くため、オフラインで開けて、追跡やポップアップもありません。",
+          "best": [
+            "リニューアル・システム移行・サイト閉鎖の前に、今のサイトの見た目を残しておきたい。",
+            "取得元のアドレスと取得日時つきでページを残し、証拠・コンプライアンス・監査の記録にしたい。",
+            "ログインが必要なページも含めて、取引先や同僚に「どのPCでも開ける1ファイル」で渡したい。",
+            "保存済みのサイトのフォルダや、HTMLで書き出したヘルプを、元の見た目のまま1ファイルにしたい。"
+          ],
+          "steps": [
+            "Grab All Files で「ページをHTMLにまとめる」を選びます。ブラウザで開いているページから始めるか、関連ページを探させるか、取得元を「パソコンのフォルダから」に切り替えてHTMLのフォルダやZIPを選びます。",
+            "まとめるページを確認し、「見た目」で「元の見た目のまま」を選びます。「毎ページ共通のヘッダー・メニュー・フッターは最初のページだけに残す」はオンのままで、ファイルを軽くしたいときは「広告を省く」もオンにします。",
+            "Webページの場合は、スタイルシートと画像の配信元へのアクセス許可を求められたら許可します（まとめて1回で聞きます）。各ページはタブで開いて最後までスクロールするので、スクロールで読み込まれる画像や続きも入ります。",
+            "保存します。HTMLを開くと、目次と検索でページ間を移動できます。各ページには取得元のアドレスと取得日時が出ます。残せなかった画像や部分は、まとめの報告に出ます。"
+          ],
+          "faq": [
+            {
+              "q": "無料版でも「元の見た目のまま」を使えますか？",
+              "a": "使えます。見た目の選択に料金プランの制限はありません。無料版は1回1ページなので、好きなページを1つ、元のデザインのまま1つのHTMLに保存できます。複数ページを目次つきで1ファイルにまとめるには Pro（$19.99・買い切り・最大3台）が必要です。"
+            },
+            {
+              "q": "ブラウザの「名前を付けて保存」や、1ページずつ保存する拡張機能とは何が違いますか？",
+              "a": "「名前を付けて保存」はHTMLの横にファイルのフォルダができ、1ページ保存型の拡張機能は1ページにつき1ファイルです。Grab All Files は複数ページを1つのファイルに入れ、各ページを独立した枠に収めるので、ページ同士のデザインがぶつかりません。共通のスタイルシート・画像・フォントは1回だけ入れ、保存したページ同士のリンクはファイル内で移動し、全ページをまとめて検索できます。"
+            },
+            {
+              "q": "メニューやタブ、スライダーは動きますか？",
+              "a": "安全のためサイトのスクリプトは取り除くので、地図・検索フォーム・ログイン・あとから読み込む動画プレーヤーなど、スクリプトが必要な機能は動きません。よく使われる部品は、サイトのスクリプトなしで動くようにしています。アクセシビリティの作法どおりに作られたタブやアコーディオン、Bootstrap の折りたたみは開閉でき、カルーセルの矢印（Swiper・Slick・Splide・Glide・Flickity）は1枚ずつ動きます。フォームが送信されることはありません。"
+            },
+            {
+              "q": "スクロールしないと出てこない画像も入りますか？",
+              "a": "入ります。Webページは1ページずつタブで開き、最後までスクロールしてから写すので、遅延読み込みの画像や、下へ進むと続きが足されるページも入ります。スクロールは、ページが伸びなくなるか、「読み込み時間」の設定（45秒・90秒・180秒）に達した時点で終わります。固定ヘッダー・Cookieの案内・スクロールで貼り付く見出しも、保存ファイルで元の位置に出ます。"
+            },
+            {
+              "q": "保存したファイルは安全に開けて、人に渡せますか？",
+              "a": "ファイルにはスクリプトが入っておらず、開いたときにインターネットへの通信も止めるので、ほかのサイトの追跡や広告は読み込まれません。リンクに含まれる認証情報も取り除きます。ページはご自身のブラウザで集めて端末に保存し、内容が当方のサーバーに送られることはありません。共有する前に、そのページを共有してよいかはご確認ください。"
+            },
+            {
+              "q": "「読みやすく整える」を選ぶのはどんなときですか？",
+              "a": "デザインより文字が大事なとき、つまり長い資料を読む・印刷する・ファイルを小さくする・AI向けのMarkdownやデータを作るときです。サイトのヘッダー・メニュー・フッターを除き、全ページを同じ読みやすい書式で表示します。「元の見た目のまま」は、見えていたとおりに残す・渡すための選択肢です。"
+            }
+          ],
+          "industry": {
+            "kind": "originallook",
+            "title": "ページを選んで、デザインごと1ファイルに",
+            "stages": [
+              "ページを選ぶ",
+              "見た目を選ぶ",
+              "各ページが元のデザインのまま1つのHTMLに"
+            ],
+            "files": [
+              "example.com/",
+              "example.com/products",
+              "example.com/pricing",
+              "example.com/support"
+            ],
+            "options": [
+              "読みやすく整える",
+              "元の見た目のまま"
+            ],
+            "order": [
+              "ホーム",
+              "製品",
+              "料金",
+              "サポート"
+            ],
+            "output": "example-site.html",
+            "toc": "目次・検索",
+            "example": "図解例・架空のサイト",
+            "note": "無料版は1回1ページを元のデザインで保存し、Proは選んだページをまとめます。共通のスタイルシート・画像・フォントは1回だけ入ります。",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "元の見た目のまま残したい場面",
+            "items": [
+              [
+                "リニューアル・移行の前に",
+                "制作会社やWeb担当者が、作り直し・新システムへの移行・公開終了の前に、今のサイトを今の見た目のまま1ページずつ残します。"
+              ],
+              [
+                "証拠・コンプライアンスの記録",
+                "法務・コンプライアンス・広告審査の担当者が、ページ・キャンペーン・告知がどう表示されていたかを、各ページの取得元と取得日時つきで残します。"
+              ],
+              [
+                "閉鎖されるサイトやサービス",
+                "研究者やコミュニティ、ファンが、終了するサービスのページを、サイトが残っていなくても開けるファイルとして残します。"
+              ],
+              [
+                "ログインが必要なページを共有",
+                "ポータル・社内サイト・会員ページを、アクセス権のない人にも、どのブラウザでもオフラインで開ける1ファイルで渡します。"
+              ],
+              [
+                "デザインや競合の参考資料",
+                "デザイナーやマーケターが、LPや競合サイトを、実際のフォント・配色・余白のまま集めます。"
+              ],
+              [
+                "保存済みのサイトや書き出したヘルプ",
+                "サイトのバックアップフォルダや、HTMLで書き出したヘルプ・マニュアルを、元の見た目のまま1ファイルにします。"
+              ]
+            ]
+          },
+          "compare": {
+            "title": "「元の見た目のまま」と「読みやすく整える」の違い",
+            "headers": [
+              "",
+              "元の見た目のまま",
+              "読みやすく整える"
+            ],
+            "rows": [
+              [
+                "残すもの",
+                "ページ全体を、サイトのスタイルシート・フォント・画像ごと",
+                "本文・見出し・表・画像を、1つの読みやすい書式で"
+              ],
+              [
+                "ヘッダー・メニュー・フッター",
+                "最初のページに残し、2ページ目以降は既定で省く",
+                "除く"
+              ],
+              [
+                "複数ページ",
+                "ページごとに独立した枠に入り、デザインがぶつからない",
+                "1続きの文書になる"
+              ],
+              [
+                "動く部品",
+                "タブ・アコーディオン・カルーセルの矢印は動く。ほかのスクリプトは動かない",
+                "読みやすいよう開いた状態で表示"
+              ],
+              [
+                "ファイルの大きさ",
+                "大きめ（共通ファイルは1回だけ、使われないCSSは省く）",
+                "小さめ"
+              ],
+              [
+                "向いている用途",
+                "保存・証拠・見たままの共有・デザイン参考",
+                "読む・印刷・Markdown・AI"
+              ]
+            ]
+          },
+          "keeps": {
+            "title": "保存したファイルに残るもの",
+            "items": [
+              [
+                "レイアウト・フォント・配色",
+                "各ページのスタイルシートと、使われているWebフォント（1書体につき1形式・WOFF2優先）、背景を含む画像を埋め込みます。"
+              ],
+              [
+                "表示されていたままの状態",
+                "ページの表示が落ち着いてから、メニューを開く前に写すので、閉じていたメニューは閉じたまま。スクロールでふわっと出る部分も、表示した状態で残ります。"
+              ],
+              [
+                "あとから読み込まれる中身",
+                "遅延読み込みの画像、スクロールで伸びるページ、読み取りを許可されたサイトの埋め込み枠、Webコンポーネントのスタイル、SVGのアイコン集から描くアイコンも入ります。"
+              ],
+              [
+                "直リンク禁止の画像",
+                "ほかのサイトから読むと拒否される画像も、元のページと同じ形で1回だけ取り直して入れます。"
+              ],
+              [
+                "取得元と取得日時",
+                "各ページのタイトルの下に、取得元のアドレスと取得日時を表示します。保存したほかのページやファイルへのリンクは、ファイル内や保存先フォルダで開きます。"
+              ],
+              [
+                "軽いファイル",
+                "多くのページで使われる同じスタイルシート・画像・フォントは1回だけ入れます。広告配信の枠を省くこともできます。"
+              ]
+            ]
+          }
+        },
+        "es": {
+          "title": "Guarda páginas web con su diseño original en un solo HTML | Grab All Files",
+          "desc": "Guarda una página, o varias combinadas, con su diseño, tipografías e imágenes originales en un único HTML sin conexión. Se quitan los scripts y no se sube nada.",
+          "eyebrow": "Mantener el aspecto original",
+          "h1": "Guarda las páginas tal como se ven, en un solo HTML.",
+          "lead": "Elige «Mantener el aspecto original» y Grab All Files guarda cada página con sus propias hojas de estilo, tipografías e imágenes: el diseño, los colores y la tipografía que veías en el navegador, en un único archivo HTML autónomo. Combina varias páginas de un sitio web o de una carpeta de tu ordenador y cada una conserva su diseño dentro de su propio marco, con un índice y una búsqueda que abarca todas. Los scripts se eliminan, así que el archivo se abre sin conexión, sin rastreo ni ventanas emergentes.",
+          "best": [
+            "Conservar un registro de cómo era un sitio web antes de un rediseño, una migración o su cierre.",
+            "Archivar páginas con la fecha y la dirección de las que se capturaron, como prueba o para registros de cumplimiento y auditoría.",
+            "Enviar a un cliente o a un compañero un conjunto de páginas, incluidas las que están tras tu inicio de sesión, en un solo archivo que se abre en cualquier equipo.",
+            "Convertir en un solo archivo una carpeta con un sitio web guardado o una ayuda exportada, y que siga viéndose como el original."
+          ],
+          "steps": [
+            "Abre Grab All Files y elige «Combinar páginas en HTML». Empieza desde la página abierta en tu navegador, deja que la extensión busque páginas relacionadas o cambia el origen a «Desde una carpeta del ordenador» para usar una carpeta o un ZIP de archivos HTML.",
+            "Revisa las páginas que quieres incluir. En «Aspecto», elige «Mantener el aspecto original». Deja activada la opción «Mantener solo en la primera página el encabezado, el menú y el pie que se repiten en todas» y activa «Omitir los anuncios» si quieres un archivo más ligero.",
+            "Con páginas web, cuando se te pida, permite el acceso a los sitios que sirven las hojas de estilo y las imágenes. Se pregunta una sola vez para todos. Cada página se abre en una pestaña y se desplaza hasta el final para que se incluyan las imágenes y el contenido que se cargan al hacer scroll.",
+            "Guarda. Abre el HTML: usa el índice y la búsqueda para moverte entre páginas. Cada página muestra la dirección de la que procede y cuándo se capturó. El informe indica qué imagen o parte no se pudo conservar."
+          ],
+          "faq": [
+            {
+              "q": "¿Puedo usar «Mantener el aspecto original» en el plan gratuito?",
+              "a": "Sí. La opción de aspecto no depende del plan. El plan gratuito guarda una página por ejecución, así que puedes conservar cualquier página con su diseño original en un archivo HTML. Para combinar varias páginas en un archivo con un índice común hace falta Pro ($19.99, pago único, hasta 3 dispositivos)."
+            },
+            {
+              "q": "¿En qué se diferencia de «Guardar página como» o de un guardador de una sola página?",
+              "a": "«Guardar página como» crea una carpeta de archivos junto al HTML, y los guardadores de una sola página generan un archivo por página. Grab All Files reúne muchas páginas en un solo archivo y mantiene cada una en su propio marco, de modo que los diseños de unas y otras no chocan. Las hojas de estilo, imágenes y tipografías compartidas se guardan una sola vez, los enlaces entre las páginas guardadas saltan dentro del archivo y puedes buscar en todas a la vez."
+            },
+            {
+              "q": "¿Seguirán funcionando los menús, las pestañas y los controles deslizantes?",
+              "a": "Los scripts del sitio se eliminan por seguridad, así que las funciones que dependen de ellos, como mapas, formularios de búsqueda, inicios de sesión o reproductores de vídeo que se cargan bajo demanda, no funcionan. Algunas partes comunes sí se hacen funcionar sin los scripts del sitio: las pestañas y los acordeones creados con marcado estándar de accesibilidad o con Bootstrap se abren y se cierran, y las flechas de los carruseles (Swiper, Slick, Splide, Glide, Flickity) avanzan de una diapositiva en una. Los formularios nunca se envían."
+            },
+            {
+              "q": "¿Incluye las imágenes que solo aparecen al hacer scroll?",
+              "a": "Sí. Con páginas web, cada página se abre en una pestaña y se desplaza hasta el final antes de capturarla, así que se incluyen las imágenes de carga diferida y las páginas que añaden contenido al hacer scroll. El desplazamiento se detiene cuando la página deja de crecer o cuando se acaba el tiempo fijado en «Tiempo de desplazamiento» (45, 90 o 180 segundos). Los encabezados fijos, los avisos de cookies y los títulos adhesivos aparecen en su posición original al desplazarte por el archivo guardado."
+            },
+            {
+              "q": "¿Es seguro abrir y compartir el archivo guardado?",
+              "a": "El archivo no contiene scripts y bloquea las solicitudes a internet al abrirse, por lo que no carga rastreadores ni anuncios de otros sitios. Los datos de acceso que aparezcan en los enlaces se eliminan. Las páginas se recopilan en tu propio navegador y se guardan en tu dispositivo; su contenido no se envía a nuestros servidores. Antes de compartir, comprueba que tienes permiso para compartir las páginas que has guardado."
+            },
+            {
+              "q": "¿Cuándo debería elegir «Fácil de leer»?",
+              "a": "Elige «Fácil de leer» cuando te interese más el texto que el diseño: para leer material extenso, imprimir, obtener archivos más pequeños o preparar Markdown y datos para una herramienta de IA. Muestra todas las páginas con un mismo estilo limpio, sin el encabezado, los menús ni el pie del sitio. «Mantener el aspecto original» sirve para conservar y compartir las páginas tal como se veían."
+            }
+          ],
+          "industry": {
+            "kind": "originallook",
+            "title": "De varias páginas a un archivo que conserva cada diseño",
+            "stages": [
+              "Elige las páginas",
+              "Elige el aspecto",
+              "Un HTML, cada página con su diseño"
+            ],
+            "files": [
+              "example.com/",
+              "example.com/products",
+              "example.com/pricing",
+              "example.com/support"
+            ],
+            "options": [
+              "Fácil de leer",
+              "Mantener el aspecto original"
+            ],
+            "order": [
+              "Inicio",
+              "Productos",
+              "Precios",
+              "Soporte"
+            ],
+            "output": "example-site.html",
+            "toc": "Índice · búsqueda",
+            "example": "Ejemplo ilustrativo · sitio ficticio",
+            "note": "El plan gratuito guarda una página por ejecución con su diseño original; Pro combina las páginas que selecciones. Las hojas de estilo, imágenes y tipografías compartidas se guardan una sola vez.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Quién conserva las páginas con su diseño original",
+            "items": [
+              [
+                "Antes de un rediseño o una migración",
+                "Los equipos web y las agencias conservan el sitio actual tal como se ve hoy, página a página, antes de reconstruirlo, trasladarlo a otro sistema o retirarlo."
+              ],
+              [
+                "Pruebas y registros de cumplimiento",
+                "Los equipos jurídicos, de cumplimiento y de revisión publicitaria conservan cómo se mostraba una página, una oferta o un aviso, con la dirección de origen y la hora de captura en cada página."
+              ],
+              [
+                "Sitios y servicios que cierran",
+                "Investigadores, comunidades y aficionados conservan páginas de un servicio que va a cerrar, en un archivo que no depende de que el sitio siga en línea."
+              ],
+              [
+                "Compartir páginas tras un inicio de sesión",
+                "Envía páginas de un portal, una intranet o un área de clientes a alguien sin acceso, en un solo archivo que puede abrir sin conexión en cualquier navegador."
+              ],
+              [
+                "Referencias de diseño y de la competencia",
+                "Diseñadores y profesionales del marketing reúnen páginas de destino y sitios de la competencia tal como se ven, con sus tipografías, colores y espacios reales."
+              ],
+              [
+                "Sitios guardados y ayuda exportada",
+                "Una carpeta con la copia de seguridad de un sitio web, o páginas de ayuda y manuales exportadas como HTML, se convierten en un solo archivo que sigue viéndose como el original."
+              ]
+            ]
+          },
+          "compare": {
+            "title": "«Mantener el aspecto original» y «Fácil de leer», comparados",
+            "headers": [
+              "",
+              "Mantener el aspecto original",
+              "Fácil de leer"
+            ],
+            "rows": [
+              [
+                "Qué conserva",
+                "La página completa con las hojas de estilo, tipografías e imágenes del propio sitio",
+                "El texto principal, los títulos, las tablas y las imágenes en un único estilo limpio"
+              ],
+              [
+                "Encabezado, menús y pie",
+                "Se conservan en la primera página; en las siguientes se omiten por defecto",
+                "Se omiten"
+              ],
+              [
+                "Varias páginas",
+                "Cada página en su propio marco, para que los diseños no choquen",
+                "Un documento continuo"
+              ],
+              [
+                "Partes interactivas",
+                "Funcionan las pestañas, los acordeones y las flechas de los carruseles; los demás scripts no se ejecutan",
+                "El contenido se muestra desplegado para leerlo"
+              ],
+              [
+                "Tamaño del archivo",
+                "Mayor; los archivos compartidos se guardan una vez y se omiten las reglas CSS sin usar",
+                "Menor"
+              ],
+              [
+                "Ideal para",
+                "Conservar, aportar pruebas, compartir tal como se veía, referencias de diseño",
+                "Leer, imprimir, Markdown e IA"
+              ]
+            ]
+          },
+          "keeps": {
+            "title": "Qué se conserva en el archivo guardado",
+            "items": [
+              [
+                "Diseño, tipografías y colores",
+                "Se incorporan las hojas de estilo de cada página, junto con las fuentes web que usa (un formato por fuente, WOFF2 primero) y sus imágenes, incluidos los fondos."
+              ],
+              [
+                "La página tal como se mostraba",
+                "La página se captura cuando se ha estabilizado y antes de abrir ningún menú, así que los menús cerrados siguen cerrados. El contenido que aparece con un fundido al hacer scroll se guarda visible."
+              ],
+              [
+                "Contenido que se carga después",
+                "Imágenes de carga diferida, páginas que crecen al hacer scroll, marcos de sitios que la extensión puede leer, estilos de web components e iconos dibujados desde archivos sprite SVG."
+              ],
+              [
+                "Imágenes que bloquean el uso externo",
+                "Las imágenes que se rechazan al pedirlas desde otro lugar se vuelven a descargar, una vez cada una, de la misma forma en que las cargaba la página original."
+              ],
+              [
+                "Origen y hora de captura",
+                "Bajo el título de cada página: la dirección de la que procede y cuándo se capturó. Los enlaces a otras páginas y archivos guardados se abren dentro del archivo o de la carpeta de guardado."
+              ],
+              [
+                "Un archivo más ligero",
+                "La misma hoja de estilo, imagen o tipografía usada en muchas páginas se guarda una sola vez. Opcionalmente, se omiten los espacios publicitarios de las redes de anuncios."
+              ]
+            ]
+          }
+        },
+        "fr": {
+          "title": "Enregistrez des pages web avec leur design d’origine en un seul HTML | Grab All Files",
+          "desc": "Enregistrez une page, ou plusieurs regroupées, avec leur mise en page, leurs polices et leurs images d’origine dans un seul fichier HTML hors ligne. Sans script ni envoi.",
+          "eyebrow": "Garder l’apparence d’origine",
+          "h1": "Enregistrez les pages telles qu’elles s’affichent, dans un seul HTML.",
+          "lead": "Choisissez « Garder l’apparence d’origine » et Grab All Files enregistre chaque page avec ses propres feuilles de style, polices et images : la mise en page, les couleurs et la typographie que vous voyiez dans le navigateur, dans un seul fichier HTML autonome. Regroupez plusieurs pages d’un site web ou d’un dossier de votre ordinateur : chaque page conserve son design dans son propre cadre, avec une table des matières et une recherche sur l’ensemble. Les scripts sont retirés, le fichier s’ouvre donc hors ligne, sans suivi ni fenêtres publicitaires.",
+          "best": [
+            "Garder une trace de l’aspect d’un site avant une refonte, une migration ou sa fermeture.",
+            "Archiver des pages avec la date et l’adresse de leur capture, comme preuve ou pour des dossiers de conformité et d’audit.",
+            "Envoyer à un client ou à un collègue un ensemble de pages, y compris celles qui sont derrière votre connexion, dans un seul fichier qui s’ouvre partout.",
+            "Transformer un dossier de site enregistré ou une aide exportée en un seul fichier qui ressemble toujours à l’original."
+          ],
+          "steps": [
+            "Ouvrez Grab All Files et choisissez « Regrouper les pages en HTML ». Partez de la page ouverte dans votre navigateur, laissez l’extension trouver les pages liées, ou passez la source sur « Depuis un dossier de l’ordinateur » pour un dossier ou un ZIP de fichiers HTML.",
+            "Vérifiez les pages à inclure. Sous « Apparence », choisissez « Garder l’apparence d’origine ». Laissez activée l’option « Ne garder que sur la première page l’en-tête, le menu et le pied de page répétés sur chaque page » et activez « Omettre les publicités » si vous voulez un fichier plus léger.",
+            "Pour les pages web, autorisez l’accès aux sites qui fournissent les feuilles de style et les images lorsque c’est demandé. La demande n’est faite qu’une fois pour tous. Chaque page est ouverte dans un onglet et défilée jusqu’en bas, afin d’inclure les images et le contenu qui se chargent au défilement.",
+            "Enregistrez. Ouvrez le HTML : utilisez la table des matières et la recherche pour passer d’une page à l’autre. Chaque page indique l’adresse d’où elle provient et la date de capture. Le rapport liste les images ou éléments qui n’ont pas pu être conservés."
+          ],
+          "faq": [
+            {
+              "q": "Puis-je utiliser « Garder l’apparence d’origine » avec l’offre gratuite ?",
+              "a": "Oui. L’option d’apparence n’est pas limitée par l’offre. La version gratuite enregistre une page par exécution : vous pouvez donc conserver n’importe quelle page avec son design d’origine dans un fichier HTML. Regrouper plusieurs pages dans un fichier avec une table des matières commune nécessite Pro (19,99 $, paiement unique, jusqu’à 3 appareils)."
+            },
+            {
+              "q": "En quoi est-ce différent d’« Enregistrer sous » ou d’une extension qui enregistre une seule page ?",
+              "a": "« Enregistrer sous » crée un dossier de fichiers à côté du HTML, et les extensions de capture d’une seule page produisent un fichier par page. Grab All Files place plusieurs pages dans un seul fichier et garde chaque page dans son propre cadre, de sorte que les designs ne se mélangent pas. Les feuilles de style, images et polices communes ne sont stockées qu’une fois, les liens entre les pages enregistrées mènent à l’intérieur du fichier, et vous pouvez rechercher dans toutes les pages à la fois."
+            },
+            {
+              "q": "Les menus, onglets et curseurs fonctionneront-ils encore ?",
+              "a": "Les scripts du site sont retirés par sécurité : les fonctions qui en dépendent, comme les cartes, les formulaires de recherche, les connexions ou les lecteurs vidéo chargés à la demande, ne s’exécutent pas. Certains éléments courants sont rendus fonctionnels sans les scripts du site : les onglets et accordéons conçus avec le balisage d’accessibilité standard ou avec Bootstrap s’ouvrent et se ferment, et les flèches des carrousels (Swiper, Slick, Splide, Glide, Flickity) font avancer une diapositive à la fois. Les formulaires ne sont jamais envoyés."
+            },
+            {
+              "q": "Les images qui n’apparaissent qu’au défilement sont-elles incluses ?",
+              "a": "Oui. Pour les pages web, chaque page est ouverte dans un onglet et défilée jusqu’en bas avant d’être capturée : les images à chargement différé et les pages qui ajoutent du contenu au défilement sont donc incluses. Le défilement s’arrête quand la page cesse de s’allonger ou quand le temps réglé dans « Durée de défilement » est écoulé (45, 90 ou 180 secondes). Les en-têtes fixes, les bandeaux de cookies et les titres collants apparaissent à leur place d’origine quand vous faites défiler le fichier enregistré."
+            },
+            {
+              "q": "Le fichier enregistré est-il sûr à ouvrir et à partager ?",
+              "a": "Le fichier ne contient aucun script et bloque les requêtes vers internet à l’ouverture : il ne charge donc ni traqueurs ni publicités venant d’autres sites. Les identifiants présents dans les liens sont supprimés. Les pages sont collectées dans votre propre navigateur et enregistrées sur votre appareil ; leur contenu n’est pas envoyé à nos serveurs. Avant de partager, vérifiez que vous avez le droit de partager les pages enregistrées."
+            },
+            {
+              "q": "Quand choisir plutôt « Facile à lire » ?",
+              "a": "Choisissez « Facile à lire » quand le texte compte plus que le design : pour lire de longs documents, imprimer, obtenir des fichiers plus petits ou préparer du Markdown et des données pour un outil d’IA. Toutes les pages s’affichent dans un même style épuré, sans l’en-tête, les menus ni le pied de page du site. « Garder l’apparence d’origine » sert à conserver et à partager les pages telles qu’elles s’affichaient."
+            }
+          ],
+          "industry": {
+            "kind": "originallook",
+            "title": "Des pages à un fichier qui garde chaque design",
+            "stages": [
+              "Choisir les pages",
+              "Choisir l’apparence",
+              "Un seul HTML, chaque page avec son design"
+            ],
+            "files": [
+              "example.com/",
+              "example.com/products",
+              "example.com/pricing",
+              "example.com/support"
+            ],
+            "options": [
+              "Facile à lire",
+              "Garder l’apparence d’origine"
+            ],
+            "order": [
+              "Accueil",
+              "Produits",
+              "Tarifs",
+              "Assistance"
+            ],
+            "output": "example-site.html",
+            "toc": "Table des matières · recherche",
+            "example": "Exemple illustratif · site fictif",
+            "note": "La version gratuite garde une page par exécution avec son design d’origine ; Pro regroupe les pages que vous sélectionnez. Les feuilles de style, images et polices communes ne sont stockées qu’une fois.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Qui conserve les pages avec leur design d’origine",
+            "items": [
+              [
+                "Avant une refonte ou une migration",
+                "Les équipes web et les agences conservent le site actuel tel qu’il s’affiche aujourd’hui, page par page, avant de le reconstruire, de le migrer vers un nouveau système ou de le mettre hors ligne."
+              ],
+              [
+                "Preuves et dossiers de conformité",
+                "Les équipes juridiques, de conformité et de validation publicitaire conservent la manière dont une page, une offre ou un avis était présenté, avec l’adresse source et l’heure de capture sur chaque page."
+              ],
+              [
+                "Sites et services qui ferment",
+                "Chercheurs, communautés et fans conservent les pages d’un service qui s’arrête, dans un fichier qui ne dépend pas de la mise en ligne du site."
+              ],
+              [
+                "Partager des pages derrière une connexion",
+                "Envoyez des pages d’un portail, d’un intranet ou d’un espace client à une personne sans accès, dans un seul fichier qu’elle peut ouvrir hors ligne dans n’importe quel navigateur."
+              ],
+              [
+                "Références de design et de concurrence",
+                "Designers et marketeurs rassemblent des pages d’atterrissage et des sites concurrents tels qu’ils s’affichent, avec les vraies polices, couleurs et espacements."
+              ],
+              [
+                "Sites enregistrés et aide exportée",
+                "Un dossier de sauvegarde de site web, ou des pages d’aide et de manuel exportées en HTML, deviennent un seul fichier qui ressemble toujours à l’original."
+              ]
+            ]
+          },
+          "compare": {
+            "title": "« Garder l’apparence d’origine » et « Facile à lire » comparés",
+            "headers": [
+              "",
+              "Garder l’apparence d’origine",
+              "Facile à lire"
+            ],
+            "rows": [
+              [
+                "Ce qui est conservé",
+                "La page entière avec les feuilles de style, polices et images du site",
+                "Le texte principal, les titres, les tableaux et les images dans un style épuré unique"
+              ],
+              [
+                "En-tête, menus et pied de page",
+                "Conservés sur la première page ; omis par défaut sur les pages suivantes",
+                "Omis"
+              ],
+              [
+                "Plusieurs pages",
+                "Chaque page dans son propre cadre, pour que les designs ne se mélangent pas",
+                "Un document continu"
+              ],
+              [
+                "Éléments interactifs",
+                "Onglets, accordéons et flèches de carrousel fonctionnent ; les autres scripts ne s’exécutent pas",
+                "Le contenu s’affiche déplié pour la lecture"
+              ],
+              [
+                "Taille du fichier",
+                "Plus grand ; les fichiers communs ne sont stockés qu’une fois et les règles CSS inutilisées sont omises",
+                "Plus petit"
+              ],
+              [
+                "Idéal pour",
+                "Conserver, prouver, partager tel quel, références de design",
+                "Lire, imprimer, Markdown et IA"
+              ]
+            ]
+          },
+          "keeps": {
+            "title": "Ce qui est conservé dans le fichier enregistré",
+            "items": [
+              [
+                "Mise en page, polices et couleurs",
+                "Les feuilles de style de chaque page sont intégrées, ainsi que les polices web utilisées (un format par police, WOFF2 d’abord) et ses images, y compris les arrière-plans."
+              ],
+              [
+                "La page telle qu’elle s’affichait",
+                "La page est capturée une fois stabilisée, avant l’ouverture de tout menu : les menus fermés restent fermés. Le contenu qui apparaît en fondu au défilement est enregistré visible."
+              ],
+              [
+                "Contenu chargé plus tard",
+                "Images à chargement différé, pages qui s’allongent au défilement, cadres de sites que l’extension peut lire, styles des web components et icônes dessinées à partir de fichiers sprite SVG."
+              ],
+              [
+                "Images qui bloquent l’usage externe",
+                "Les images refusées lorsqu’elles sont demandées depuis ailleurs sont récupérées à nouveau, une fois chacune, comme la page d’origine les chargeait."
+              ],
+              [
+                "Source et heure de capture",
+                "Sous le titre de chaque page : l’adresse d’où elle provient et la date de capture. Les liens vers d’autres pages et fichiers enregistrés s’ouvrent dans le fichier ou le dossier d’enregistrement."
+              ],
+              [
+                "Un fichier plus léger",
+                "La même feuille de style, image ou police utilisée sur de nombreuses pages n’est stockée qu’une fois. En option, les emplacements publicitaires des régies sont omis."
+              ]
+            ]
+          }
+        },
+        "de": {
+          "title": "Webseiten im Originaldesign in einer HTML-Datei speichern | Grab All Files",
+          "desc": "Speichern Sie eine oder mehrere Seiten mit Original-Layout, Schriften und Bildern in einer einzigen HTML-Datei für offline. Skripte werden entfernt, nichts wird hochgeladen.",
+          "eyebrow": "Ursprüngliches Aussehen behalten",
+          "h1": "Seiten genau so speichern, wie sie aussehen – in einer HTML-Datei.",
+          "lead": "Wählen Sie „Ursprüngliches Aussehen behalten“, und Grab All Files speichert jede Seite mit ihren eigenen Stylesheets, Schriften und Bildern: Layout, Farben und Typografie, wie Sie sie im Browser gesehen haben, in einer in sich geschlossenen HTML-Datei. Fassen Sie viele Seiten einer Website oder eines Ordners auf Ihrem Computer zusammen: Jede Seite behält ihr Design in einem eigenen Rahmen, dazu gibt es ein Inhaltsverzeichnis und eine Suche über alle Seiten. Skripte werden entfernt, daher lässt sich die Datei offline öffnen – ohne Tracking und ohne Pop-ups.",
+          "best": [
+            "Festhalten, wie eine Website vor einem Relaunch, einer Migration oder der Abschaltung aussah.",
+            "Seiten mit Datum und Adresse der Erfassung archivieren, als Nachweis oder für Compliance- und Prüfunterlagen.",
+            "Eine Reihe von Seiten, auch solche hinter Ihrem Login, als eine Datei an Kunden oder Kollegen schicken, die überall geöffnet werden kann.",
+            "Einen gespeicherten Website-Ordner oder eine exportierte Hilfe in eine Datei verwandeln, die weiterhin wie das Original aussieht."
+          ],
+          "steps": [
+            "Öffnen Sie Grab All Files und wählen Sie „Seiten als HTML bündeln“. Starten Sie mit der im Browser geöffneten Seite, lassen Sie die Erweiterung verwandte Seiten finden oder stellen Sie die Quelle auf „Aus einem Ordner auf dem Computer“ um, für einen Ordner oder ein ZIP mit HTML-Dateien.",
+            "Prüfen Sie die aufzunehmenden Seiten. Wählen Sie unter „Aussehen“ die Option „Ursprüngliches Aussehen behalten“. Lassen Sie „Kopfzeile, Menü und Fußzeile, die sich auf jeder Seite wiederholen, nur auf der ersten Seite behalten“ aktiviert und schalten Sie „Werbung weglassen“ ein, wenn Sie eine kleinere Datei möchten.",
+            "Bei Webseiten erlauben Sie auf Nachfrage den Zugriff auf die Seiten, die Stylesheets und Bilder ausliefern. Die Nachfrage erfolgt nur einmal für alle. Jede Seite wird in einem Tab geöffnet und bis zum Ende gescrollt, damit auch Bilder und Inhalte erfasst werden, die erst beim Scrollen nachladen.",
+            "Speichern Sie. Öffnen Sie die HTML-Datei: Mit Inhaltsverzeichnis und Suche wechseln Sie zwischen den Seiten. Jede Seite zeigt die Adresse, von der sie stammt, und den Zeitpunkt der Erfassung. Der Bericht listet Bilder oder Teile auf, die nicht übernommen werden konnten."
+          ],
+          "faq": [
+            {
+              "q": "Kann ich „Ursprüngliches Aussehen behalten“ im kostenlosen Tarif nutzen?",
+              "a": "Ja. Die Option für das Aussehen ist nicht vom Tarif abhängig. Die kostenlose Version speichert eine Seite pro Durchlauf, sodass Sie jede einzelne Seite mit ihrem Originaldesign als HTML-Datei sichern können. Mehrere Seiten mit gemeinsamem Inhaltsverzeichnis in einer Datei zu bündeln, erfordert Pro (19,99 $, einmalig, bis zu 3 Geräte)."
+            },
+            {
+              "q": "Worin unterscheidet sich das von „Seite speichern unter“ oder einem Ein-Seiten-Speicher?",
+              "a": "„Seite speichern unter“ legt neben der HTML-Datei einen Ordner mit Dateien an, und Ein-Seiten-Speicher erzeugen pro Seite eine Datei. Grab All Files packt viele Seiten in eine Datei und hält jede Seite in einem eigenen Rahmen, sodass sich die Designs der Seiten nicht ins Gehege kommen. Gemeinsame Stylesheets, Bilder und Schriften werden nur einmal abgelegt, Links zwischen den gespeicherten Seiten springen innerhalb der Datei, und Sie können alle Seiten gleichzeitig durchsuchen."
+            },
+            {
+              "q": "Funktionieren Menüs, Tabs und Slider noch?",
+              "a": "Die Skripte der Website werden aus Sicherheitsgründen entfernt; Funktionen, die sie benötigen, etwa Karten, Suchformulare, Logins oder bei Bedarf nachgeladene Videoplayer, laufen daher nicht. Gängige Bausteine werden auch ohne die Skripte der Website funktionsfähig gemacht: Tabs und Akkordeons, die mit standardkonformem Barrierefreiheits-Markup oder mit Bootstrap gebaut sind, lassen sich öffnen und schließen, und die Pfeile von Karussells (Swiper, Slick, Splide, Glide, Flickity) schalten jeweils eine Folie weiter. Formulare werden nie abgeschickt."
+            },
+            {
+              "q": "Sind auch Bilder enthalten, die erst beim Scrollen erscheinen?",
+              "a": "Ja. Bei Webseiten wird jede Seite in einem Tab geöffnet und bis zum Ende gescrollt, bevor sie erfasst wird; so sind per Lazy Loading nachgeladene Bilder und Seiten, die beim Scrollen weitere Inhalte ergänzen, enthalten. Das Scrollen endet, wenn die Seite nicht mehr länger wird oder wenn die unter „Scroll-Zeit“ eingestellte Zeit (45, 90 oder 180 Sekunden) abgelaufen ist. Fixierte Kopfzeilen, Cookie-Hinweise und haftende Überschriften erscheinen beim Scrollen in der gespeicherten Datei an ihrer ursprünglichen Position."
+            },
+            {
+              "q": "Ist die gespeicherte Datei sicher zu öffnen und weiterzugeben?",
+              "a": "Die Datei enthält keine Skripte und blockiert beim Öffnen Anfragen ins Internet, sodass keine Tracker oder Werbung von anderen Websites geladen werden. Zugangsdaten, die in Links stehen, werden entfernt. Die Seiten werden in Ihrem eigenen Browser gesammelt und auf Ihrem Gerät gespeichert; ihr Inhalt wird nicht an unsere Server gesendet. Prüfen Sie vor dem Teilen, ob Sie die gespeicherten Seiten weitergeben dürfen."
+            },
+            {
+              "q": "Wann sollte ich stattdessen „Gut lesbar“ wählen?",
+              "a": "Wählen Sie „Gut lesbar“, wenn Ihnen der Text wichtiger ist als das Design: zum Lesen langer Unterlagen, zum Drucken, für kleinere Dateien oder um Markdown und Daten für ein KI-Werkzeug vorzubereiten. Alle Seiten erscheinen in einem einheitlichen, aufgeräumten Stil, ohne Kopfzeile, Menüs und Fußzeile der Website. „Ursprüngliches Aussehen behalten“ ist dafür gedacht, Seiten so aufzubewahren und weiterzugeben, wie sie erschienen sind."
+            }
+          ],
+          "industry": {
+            "kind": "originallook",
+            "title": "Von Seiten zu einer Datei, die jedes Design bewahrt",
+            "stages": [
+              "Seiten auswählen",
+              "Aussehen wählen",
+              "Eine HTML-Datei, jede Seite in ihrem Design"
+            ],
+            "files": [
+              "example.com/",
+              "example.com/products",
+              "example.com/pricing",
+              "example.com/support"
+            ],
+            "options": [
+              "Gut lesbar",
+              "Ursprüngliches Aussehen behalten"
+            ],
+            "order": [
+              "Startseite",
+              "Produkte",
+              "Preise",
+              "Support"
+            ],
+            "output": "example-site.html",
+            "toc": "Inhaltsverzeichnis · Suche",
+            "example": "Anschauliches Beispiel · fiktive Website",
+            "note": "Die kostenlose Version speichert pro Durchlauf eine Seite im Originaldesign; Pro bündelt die ausgewählten Seiten. Gemeinsame Stylesheets, Bilder und Schriften werden nur einmal abgelegt.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Wer Seiten im Originaldesign aufbewahrt",
+            "items": [
+              [
+                "Vor einem Relaunch oder einer Migration",
+                "Web-Teams und Agenturen sichern die aktuelle Website so, wie sie heute aussieht, Seite für Seite, bevor sie neu aufgebaut, in ein neues System überführt oder abgeschaltet wird."
+              ],
+              [
+                "Nachweise und Compliance-Unterlagen",
+                "Rechts-, Compliance- und Werbeprüfungsteams halten fest, wie eine Seite, ein Angebot oder ein Hinweis dargestellt wurde, mit Quelladresse und Erfassungszeitpunkt auf jeder Seite."
+              ],
+              [
+                "Websites und Dienste, die schließen",
+                "Forschende, Communities und Fans bewahren Seiten eines Dienstes auf, der eingestellt wird – in einer Datei, die nicht davon abhängt, dass die Website noch online ist."
+              ],
+              [
+                "Seiten hinter einem Login weitergeben",
+                "Schicken Sie Seiten aus einem Portal, einem Intranet oder einem Kundenbereich an jemanden ohne Zugang, als eine Datei, die sich in jedem Browser offline öffnen lässt."
+              ],
+              [
+                "Design- und Wettbewerbsreferenzen",
+                "Designer und Marketingfachleute sammeln Landingpages und Websites von Wettbewerbern so, wie sie erscheinen, mit den echten Schriften, Farben und Abständen."
+              ],
+              [
+                "Gespeicherte Websites und exportierte Hilfe",
+                "Ein Website-Sicherungsordner oder als HTML exportierte Hilfe- und Handbuchseiten werden zu einer Datei, die weiterhin wie das Original aussieht."
+              ]
+            ]
+          },
+          "compare": {
+            "title": "„Ursprüngliches Aussehen behalten“ und „Gut lesbar“ im Vergleich",
+            "headers": [
+              "",
+              "Ursprüngliches Aussehen behalten",
+              "Gut lesbar"
+            ],
+            "rows": [
+              [
+                "Was erhalten bleibt",
+                "Die ganze Seite mit den eigenen Stylesheets, Schriften und Bildern der Website",
+                "Haupttext, Überschriften, Tabellen und Bilder in einem einheitlichen, aufgeräumten Stil"
+              ],
+              [
+                "Kopfzeile, Menüs und Fußzeile",
+                "Auf der ersten Seite erhalten; auf den folgenden Seiten standardmäßig weggelassen",
+                "Weggelassen"
+              ],
+              [
+                "Mehrere Seiten",
+                "Jede Seite in einem eigenen Rahmen, sodass sich Designs nicht ins Gehege kommen",
+                "Ein durchgehendes Dokument"
+              ],
+              [
+                "Interaktive Teile",
+                "Tabs, Akkordeons und Karussellpfeile funktionieren; andere Skripte laufen nicht",
+                "Inhalte werden zum Lesen aufgeklappt angezeigt"
+              ],
+              [
+                "Dateigröße",
+                "Größer; gemeinsame Dateien werden nur einmal abgelegt, ungenutzte CSS-Regeln entfallen",
+                "Kleiner"
+              ],
+              [
+                "Am besten für",
+                "Aufbewahren, Nachweise, Weitergabe wie gesehen, Designreferenzen",
+                "Lesen, Drucken, Markdown und KI"
+              ]
+            ]
+          },
+          "keeps": {
+            "title": "Was in der gespeicherten Datei erhalten bleibt",
+            "items": [
+              [
+                "Layout, Schriften und Farben",
+                "Die Stylesheets jeder Seite werden eingebettet, ebenso die verwendeten Webfonts (ein Format pro Schrift, zuerst WOFF2) und die Bilder, einschließlich Hintergründen."
+              ],
+              [
+                "Die Seite, wie sie angezeigt wurde",
+                "Die Seite wird erfasst, nachdem sie sich beruhigt hat und bevor ein Menü geöffnet wird; geschlossene Menüs bleiben also geschlossen. Inhalte, die beim Scrollen eingeblendet werden, werden sichtbar gespeichert."
+              ],
+              [
+                "Später geladene Inhalte",
+                "Per Lazy Loading geladene Bilder, Seiten, die beim Scrollen wachsen, Frames von Websites, die die Erweiterung lesen darf, Stile von Web Components und Symbole, die aus SVG-Sprite-Dateien gezeichnet werden."
+              ],
+              [
+                "Bilder, die externe Nutzung blockieren",
+                "Bilder, die bei Anforderung von anderer Stelle abgelehnt werden, werden einmalig so erneut abgerufen, wie die Originalseite sie geladen hat."
+              ],
+              [
+                "Quelle und Erfassungszeitpunkt",
+                "Unter dem Titel jeder Seite: die Adresse, von der sie stammt, und wann sie erfasst wurde. Links zu anderen gespeicherten Seiten und Dateien öffnen sich innerhalb der Datei oder des Speicherordners."
+              ],
+              [
+                "Eine kleinere Datei",
+                "Dasselbe Stylesheet, Bild oder dieselbe Schrift, die auf vielen Seiten genutzt wird, wird nur einmal abgelegt. Optional werden Werbeplätze von Werbenetzwerken weggelassen."
+              ]
+            ]
+          }
+        },
+        "it": {
+          "title": "Salva pagine web con il design originale in un solo file HTML | Grab All Files",
+          "desc": "Salva una pagina, o più pagine unite, con layout, caratteri e immagini originali in un unico file HTML offline. Gli script vengono rimossi e non viene caricato nulla.",
+          "eyebrow": "Mantieni l’aspetto originale",
+          "h1": "Salva le pagine esattamente come appaiono, in un solo file HTML.",
+          "lead": "Scegli «Mantieni l’aspetto originale» e Grab All Files salva ogni pagina con i suoi fogli di stile, caratteri e immagini: il layout, i colori e la tipografia che vedevi nel browser, in un unico file HTML autonomo. Unisci più pagine di un sito web o di una cartella del tuo computer: ognuna conserva il proprio design nel proprio riquadro, con un indice e una ricerca su tutte le pagine. Gli script vengono rimossi, quindi il file si apre offline, senza tracciamento né pop-up.",
+          "best": [
+            "Conservare l’aspetto di un sito web prima di un restyling, di una migrazione o della sua chiusura.",
+            "Archiviare pagine con la data e l’indirizzo da cui sono state acquisite, come prova o per registri di conformità e di audit.",
+            "Inviare a un cliente o a un collega un insieme di pagine, comprese quelle dietro il tuo accesso, in un solo file che si apre ovunque.",
+            "Trasformare una cartella di sito salvato o una guida esportata in un unico file che ha ancora l’aspetto dell’originale."
+          ],
+          "steps": [
+            "Apri Grab All Files e scegli «Unisci pagine in HTML». Parti dalla pagina aperta nel browser, lascia che l’estensione trovi le pagine correlate oppure cambia la fonte in «Da una cartella del computer» per una cartella o uno ZIP di file HTML.",
+            "Controlla le pagine da includere. Sotto «Aspetto», scegli «Mantieni l’aspetto originale». Lascia attiva l’opzione «Mantieni solo nella prima pagina intestazione, menu e piè di pagina ripetuti su ogni pagina» e attiva «Ometti gli annunci» se vuoi un file più leggero.",
+            "Per le pagine web, quando richiesto, consenti l’accesso ai siti che forniscono i fogli di stile e le immagini. La richiesta viene fatta una sola volta per tutti. Ogni pagina viene aperta in una scheda e fatta scorrere fino in fondo, così da includere le immagini e i contenuti che si caricano durante lo scorrimento.",
+            "Salva. Apri l’HTML: usa l’indice e la ricerca per spostarti tra le pagine. Ogni pagina mostra l’indirizzo di provenienza e quando è stata acquisita. Il report elenca le immagini o le parti che non è stato possibile conservare."
+          ],
+          "faq": [
+            {
+              "q": "Posso usare «Mantieni l’aspetto originale» con il piano gratuito?",
+              "a": "Sì. L’opzione di aspetto non dipende dal piano. Il piano gratuito salva una pagina per esecuzione, quindi puoi conservare qualsiasi singola pagina con il suo design originale in un file HTML. Per unire più pagine in un file con un indice comune serve Pro ($19.99, pagamento unico, fino a 3 dispositivi)."
+            },
+            {
+              "q": "In cosa si differenzia da «Salva pagina con nome» o da un’estensione che salva una sola pagina?",
+              "a": "«Salva pagina con nome» crea una cartella di file accanto all’HTML, e le estensioni per una sola pagina producono un file per pagina. Grab All Files riunisce molte pagine in un unico file e tiene ogni pagina nel proprio riquadro, così i design delle diverse pagine non si sovrappongono. Fogli di stile, immagini e caratteri condivisi vengono memorizzati una sola volta, i collegamenti tra le pagine salvate portano a punti all’interno del file e puoi cercare in tutte le pagine contemporaneamente."
+            },
+            {
+              "q": "Menu, schede e slider funzioneranno ancora?",
+              "a": "Gli script del sito vengono rimossi per sicurezza, quindi le funzioni che ne hanno bisogno, come mappe, moduli di ricerca, accessi o lettori video che si caricano su richiesta, non vengono eseguite. Alcune parti comuni sono fatte funzionare senza gli script del sito: le schede e le fisarmoniche costruite con il markup standard per l’accessibilità o con Bootstrap si aprono e si chiudono, e le frecce dei caroselli (Swiper, Slick, Splide, Glide, Flickity) fanno avanzare una diapositiva alla volta. I moduli non vengono mai inviati."
+            },
+            {
+              "q": "Include anche le immagini che compaiono solo con lo scorrimento?",
+              "a": "Sì. Per le pagine web, ogni pagina viene aperta in una scheda e fatta scorrere fino in fondo prima di essere acquisita, così sono incluse le immagini a caricamento differito e le pagine che aggiungono contenuti durante lo scorrimento. Lo scorrimento si ferma quando la pagina smette di allungarsi o quando scade il tempo impostato in «Tempo di scorrimento» (45, 90 o 180 secondi). Intestazioni fisse, avvisi sui cookie e titoli adesivi compaiono nella loro posizione originale quando scorri il file salvato."
+            },
+            {
+              "q": "Il file salvato è sicuro da aprire e condividere?",
+              "a": "Il file non contiene script e blocca le richieste a internet quando viene aperto, quindi non carica tracker né annunci da altri siti. Le credenziali presenti nei link vengono rimosse. Le pagine vengono raccolte nel tuo browser e salvate sul tuo dispositivo; il loro contenuto non viene inviato ai nostri server. Prima di condividere, verifica di avere il permesso di condividere le pagine che hai salvato."
+            },
+            {
+              "q": "Quando conviene scegliere invece «Facile da leggere»?",
+              "a": "Scegli «Facile da leggere» quando conta più il testo del design: per leggere materiale lungo, stampare, ottenere file più piccoli o preparare Markdown e dati per uno strumento di IA. Mostra tutte le pagine in un unico stile pulito, senza l’intestazione, i menu e il piè di pagina del sito. «Mantieni l’aspetto originale» serve a conservare e condividere le pagine così come apparivano."
+            }
+          ],
+          "industry": {
+            "kind": "originallook",
+            "title": "Da più pagine a un solo file che conserva ogni design",
+            "stages": [
+              "Scegli le pagine",
+              "Scegli l’aspetto",
+              "Un HTML, ogni pagina con il suo design"
+            ],
+            "files": [
+              "example.com/",
+              "example.com/products",
+              "example.com/pricing",
+              "example.com/support"
+            ],
+            "options": [
+              "Facile da leggere",
+              "Mantieni l’aspetto originale"
+            ],
+            "order": [
+              "Home",
+              "Prodotti",
+              "Prezzi",
+              "Assistenza"
+            ],
+            "output": "example-site.html",
+            "toc": "Indice · ricerca",
+            "example": "Esempio illustrativo · sito fittizio",
+            "note": "Il piano gratuito salva una pagina per esecuzione con il suo design originale; Pro unisce le pagine che selezioni. Fogli di stile, immagini e caratteri condivisi vengono memorizzati una sola volta.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Chi conserva le pagine con il design originale",
+            "items": [
+              [
+                "Prima di un restyling o di una migrazione",
+                "I team web e le agenzie conservano il sito attuale così com’è oggi, pagina per pagina, prima che venga ricostruito, spostato su un nuovo sistema o messo offline."
+              ],
+              [
+                "Prove e registri di conformità",
+                "I team legali, di compliance e di revisione pubblicitaria conservano come veniva mostrata una pagina, un’offerta o un avviso, con l’indirizzo di origine e l’ora di acquisizione su ogni pagina."
+              ],
+              [
+                "Siti e servizi in chiusura",
+                "Ricercatori, community e appassionati conservano le pagine di un servizio che sta per chiudere, in un file che non dipende dal fatto che il sito sia ancora online."
+              ],
+              [
+                "Condividere pagine dietro un accesso",
+                "Invia pagine di un portale, di un’intranet o di un’area clienti a chi non ha accesso, in un solo file che può aprire offline in qualsiasi browser."
+              ],
+              [
+                "Riferimenti di design e della concorrenza",
+                "Designer e professionisti del marketing raccolgono landing page e siti della concorrenza così come appaiono, con i caratteri, i colori e gli spazi reali."
+              ],
+              [
+                "Siti salvati e guide esportate",
+                "Una cartella di backup di un sito web, o pagine di guida e manuali esportate in HTML, diventano un unico file che ha ancora l’aspetto dell’originale."
+              ]
+            ]
+          },
+          "compare": {
+            "title": "«Mantieni l’aspetto originale» e «Facile da leggere» a confronto",
+            "headers": [
+              "",
+              "Mantieni l’aspetto originale",
+              "Facile da leggere"
+            ],
+            "rows": [
+              [
+                "Cosa conserva",
+                "L’intera pagina con i fogli di stile, i caratteri e le immagini del sito",
+                "Il testo principale, i titoli, le tabelle e le immagini in un unico stile pulito"
+              ],
+              [
+                "Intestazione, menu e piè di pagina",
+                "Mantenuti nella prima pagina; omessi di default nelle pagine successive",
+                "Omessi"
+              ],
+              [
+                "Più pagine",
+                "Ogni pagina nel proprio riquadro, così i design non si sovrappongono",
+                "Un unico documento continuo"
+              ],
+              [
+                "Parti interattive",
+                "Schede, fisarmoniche e frecce dei caroselli funzionano; gli altri script non vengono eseguiti",
+                "I contenuti sono mostrati aperti per la lettura"
+              ],
+              [
+                "Dimensione del file",
+                "Maggiore; i file condivisi sono memorizzati una volta e le regole CSS inutilizzate vengono omesse",
+                "Minore"
+              ],
+              [
+                "Ideale per",
+                "Conservare, prove, condivisione com’era, riferimenti di design",
+                "Lettura, stampa, Markdown e IA"
+              ]
+            ]
+          },
+          "keeps": {
+            "title": "Cosa viene conservato nel file salvato",
+            "items": [
+              [
+                "Layout, caratteri e colori",
+                "I fogli di stile di ogni pagina vengono incorporati, insieme ai web font utilizzati (un formato per carattere, prima WOFF2) e alle immagini, inclusi gli sfondi."
+              ],
+              [
+                "La pagina come era mostrata",
+                "La pagina viene acquisita dopo che si è stabilizzata e prima che venga aperto qualsiasi menu, quindi i menu chiusi restano chiusi. I contenuti che appaiono in dissolvenza durante lo scorrimento vengono salvati visibili."
+              ],
+              [
+                "Contenuti caricati in seguito",
+                "Immagini a caricamento differito, pagine che si allungano durante lo scorrimento, frame di siti che l’estensione può leggere, stili dei web component e icone disegnate da file sprite SVG."
+              ],
+              [
+                "Immagini che bloccano l’uso esterno",
+                "Le immagini rifiutate quando vengono richieste da altrove vengono scaricate di nuovo, una volta ciascuna, nel modo in cui le caricava la pagina originale."
+              ],
+              [
+                "Origine e ora di acquisizione",
+                "Sotto il titolo di ogni pagina: l’indirizzo da cui proviene e quando è stata acquisita. I link ad altre pagine e file salvati si aprono all’interno del file o della cartella di salvataggio."
+              ],
+              [
+                "Un file più leggero",
+                "Lo stesso foglio di stile, immagine o carattere usato in molte pagine viene memorizzato una sola volta. In via facoltativa, gli spazi pubblicitari delle reti pubblicitarie vengono omessi."
+              ]
+            ]
+          }
+        },
+        "ko": {
+          "title": "웹페이지를 원래 디자인 그대로 HTML 파일 하나로 저장 | Grab All Files",
+          "desc": "한 페이지든 여러 페이지를 합친 것이든 원래 레이아웃, 글꼴, 이미지 그대로 오프라인용 HTML 파일 하나에 저장합니다. 스크립트는 제거되고 아무것도 업로드되지 않습니다.",
+          "eyebrow": "원래 모양 그대로",
+          "h1": "보이는 그대로, 페이지를 HTML 파일 하나에 저장하세요.",
+          "lead": "“원래 모양 그대로”를 선택하면 Grab All Files가 각 페이지를 해당 사이트의 스타일시트, 글꼴, 이미지와 함께 저장합니다. 브라우저에서 보던 레이아웃, 색상, 글자 스타일이 그대로 독립된 HTML 파일 하나에 담깁니다. 웹사이트나 컴퓨터 폴더의 여러 페이지를 합쳐도 각 페이지가 자신만의 프레임 안에 디자인을 그대로 유지하며, 목차와 전체 페이지 검색으로 오갈 수 있습니다. 스크립트는 제거되므로 추적이나 팝업 없이 오프라인에서 열립니다.",
+          "best": [
+            "사이트를 개편하거나 이전하거나 폐쇄하기 전에 현재 웹사이트의 모습을 기록해 두고 싶을 때.",
+            "증거, 컴플라이언스, 감사 기록용으로 페이지를 가져온 주소와 날짜와 함께 보관하고 싶을 때.",
+            "로그인이 필요한 페이지를 포함해 여러 페이지를 어디서나 열 수 있는 파일 하나로 고객이나 동료에게 보내고 싶을 때.",
+            "저장해 둔 웹사이트 폴더나 내보낸 도움말 사이트를 원래 모습 그대로 파일 하나로 만들고 싶을 때."
+          ],
+          "steps": [
+            "Grab All Files를 열고 “페이지를 HTML로 합치기”를 선택합니다. 브라우저에서 열려 있는 페이지에서 시작하거나, 확장 프로그램이 관련 페이지를 찾게 하거나, 소스를 “컴퓨터 폴더에서”로 바꿔 HTML 파일이 든 폴더나 ZIP을 선택합니다.",
+            "포함할 페이지를 확인합니다. “보기”에서 “원래 모양 그대로”를 선택하세요. “모든 페이지에 반복되는 헤더·메뉴·푸터는 첫 페이지에만 남기기”는 켜 둔 채로 두고, 파일을 더 가볍게 하려면 “광고 제외”를 켭니다.",
+            "웹페이지의 경우 스타일시트와 이미지를 제공하는 사이트에 대한 접근 권한을 요청하면 허용해 주세요. 한 번에 모두 요청합니다. 각 페이지는 탭에서 열려 끝까지 스크롤되므로 스크롤할 때 불러오는 이미지와 콘텐츠도 포함됩니다.",
+            "저장합니다. HTML을 열어 목차와 검색으로 페이지 사이를 이동하세요. 각 페이지에는 가져온 주소와 저장한 시각이 표시됩니다. 보관하지 못한 이미지나 부분은 보고서에 나열됩니다."
+          ],
+          "faq": [
+            {
+              "q": "무료 플랜에서도 “원래 모양 그대로”를 사용할 수 있나요?",
+              "a": "네. 보기 옵션은 플랜에 따른 제한이 없습니다. 무료 플랜은 1회 실행에 한 페이지를 저장하므로 원하는 페이지 하나를 원래 디자인 그대로 HTML 파일 하나로 보관할 수 있습니다. 여러 페이지를 공용 목차가 있는 파일 하나로 합치려면 Pro($19.99, 1회 결제, 최대 3대 기기)가 필요합니다."
+            },
+            {
+              "q": "“다른 이름으로 저장”이나 한 페이지씩 저장하는 도구와는 무엇이 다른가요?",
+              "a": "“다른 이름으로 저장”은 HTML 옆에 파일 폴더가 생기고, 한 페이지 저장 도구는 페이지마다 파일이 하나씩 만들어집니다. Grab All Files는 여러 페이지를 파일 하나에 담고 각 페이지를 독립된 프레임에 넣어 페이지 간 디자인이 충돌하지 않습니다. 공용 스타일시트, 이미지, 글꼴은 한 번만 저장되고, 저장된 페이지 사이의 링크는 파일 안에서 이동하며, 모든 페이지를 한 번에 검색할 수 있습니다."
+            },
+            {
+              "q": "메뉴, 탭, 슬라이더는 그대로 작동하나요?",
+              "a": "안전을 위해 사이트의 스크립트는 제거되므로 지도, 검색 양식, 로그인, 필요할 때 불러오는 동영상 플레이어처럼 스크립트가 필요한 기능은 작동하지 않습니다. 자주 쓰는 요소는 사이트 스크립트 없이도 작동하도록 처리했습니다. 표준 접근성 마크업이나 Bootstrap으로 만든 탭과 아코디언은 열고 닫을 수 있고, 캐러셀 화살표(Swiper, Slick, Splide, Glide, Flickity)는 한 장씩 넘어갑니다. 양식은 전송되지 않습니다."
+            },
+            {
+              "q": "스크롤해야만 나타나는 이미지도 포함되나요?",
+              "a": "네. 웹페이지는 각 페이지를 탭에서 열고 끝까지 스크롤한 뒤 저장하므로, 지연 로딩 이미지와 스크롤하면 콘텐츠가 더 추가되는 페이지도 포함됩니다. 스크롤은 페이지가 더 이상 길어지지 않거나 “스크롤 시간”에 설정한 시간(45초, 90초, 180초)이 끝나면 멈춥니다. 고정 헤더, 쿠키 안내, 스크롤 시 고정되는 제목도 저장한 파일에서 원래 위치에 나타납니다."
+            },
+            {
+              "q": "저장한 파일을 열고 공유해도 안전한가요?",
+              "a": "파일에는 스크립트가 없으며 열 때 인터넷으로 나가는 요청도 차단되므로 다른 사이트의 추적기나 광고를 불러오지 않습니다. 링크에 들어 있는 로그인 정보도 제거됩니다. 페이지는 사용자의 브라우저에서 수집되어 기기에 저장되며, 내용이 저희 서버로 전송되지 않습니다. 공유하기 전에 저장한 페이지를 공유해도 되는지 확인하세요."
+            },
+            {
+              "q": "“읽기 쉽게 정리”는 언제 선택하나요?",
+              "a": "디자인보다 텍스트가 중요할 때 선택하세요. 긴 자료를 읽거나, 인쇄하거나, 파일을 작게 만들거나, AI 도구용 Markdown과 데이터를 준비할 때입니다. 사이트의 헤더, 메뉴, 푸터 없이 모든 페이지를 하나의 깔끔한 스타일로 보여 줍니다. “원래 모양 그대로”는 페이지를 보이던 모습 그대로 보관하고 공유하기 위한 옵션입니다."
+            }
+          ],
+          "industry": {
+            "kind": "originallook",
+            "title": "여러 페이지를 디자인 그대로 파일 하나로",
+            "stages": [
+              "페이지 선택",
+              "보기 방식 선택",
+              "각 페이지의 디자인을 유지한 HTML 하나"
+            ],
+            "files": [
+              "example.com/",
+              "example.com/products",
+              "example.com/pricing",
+              "example.com/support"
+            ],
+            "options": [
+              "읽기 쉽게 정리",
+              "원래 모양 그대로"
+            ],
+            "order": [
+              "홈",
+              "제품",
+              "요금",
+              "지원"
+            ],
+            "output": "example-site.html",
+            "toc": "목차 · 검색",
+            "example": "설명용 예시 · 가상의 사이트",
+            "note": "무료 플랜은 1회 실행에 한 페이지를 원래 디자인으로 저장하고, Pro는 선택한 페이지를 합칩니다. 공용 스타일시트, 이미지, 글꼴은 한 번만 저장됩니다.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "원래 디자인 그대로 페이지를 보관하는 사람들",
+            "items": [
+              [
+                "개편이나 이전 전에",
+                "웹 팀과 에이전시는 사이트를 다시 만들거나 새 시스템으로 옮기거나 폐쇄하기 전에 현재 사이트를 지금 모습 그대로 페이지별로 보관합니다."
+              ],
+              [
+                "증거 및 컴플라이언스 기록",
+                "법무, 컴플라이언스, 광고 심의 담당자는 페이지, 프로모션, 공지가 어떻게 표시되었는지를 모든 페이지에 출처 주소와 저장 시각을 남겨 보관합니다."
+              ],
+              [
+                "종료되는 사이트와 서비스",
+                "연구자, 커뮤니티, 팬은 종료되는 서비스의 페이지를 사이트가 온라인에 남아 있는지와 상관없이 열 수 있는 파일로 보관합니다."
+              ],
+              [
+                "로그인이 필요한 페이지 공유",
+                "포털, 인트라넷, 고객 전용 영역의 페이지를 접근 권한이 없는 사람에게 어떤 브라우저에서나 오프라인으로 열 수 있는 파일 하나로 보냅니다."
+              ],
+              [
+                "디자인 및 경쟁사 참고 자료",
+                "디자이너와 마케터는 랜딩 페이지와 경쟁사 사이트를 실제 글꼴, 색상, 여백 그대로 모읍니다."
+              ],
+              [
+                "저장해 둔 사이트와 내보낸 도움말",
+                "웹사이트 백업 폴더나 HTML로 내보낸 도움말과 매뉴얼 페이지를 원래 모습 그대로 파일 하나로 만듭니다."
+              ]
+            ]
+          },
+          "compare": {
+            "title": "“원래 모양 그대로”와 “읽기 쉽게 정리” 비교",
+            "headers": [
+              "",
+              "원래 모양 그대로",
+              "읽기 쉽게 정리"
+            ],
+            "rows": [
+              [
+                "보관하는 것",
+                "사이트 고유의 스타일시트, 글꼴, 이미지를 포함한 페이지 전체",
+                "본문, 제목, 표, 이미지를 하나의 깔끔한 스타일로"
+              ],
+              [
+                "헤더, 메뉴, 푸터",
+                "첫 페이지에는 유지하고, 이후 페이지에서는 기본적으로 제외",
+                "제외"
+              ],
+              [
+                "여러 페이지",
+                "각 페이지가 독립된 프레임에 들어가 디자인이 충돌하지 않음",
+                "이어지는 하나의 문서"
+              ],
+              [
+                "동작하는 요소",
+                "탭, 아코디언, 캐러셀 화살표는 작동하고 그 밖의 스크립트는 실행되지 않음",
+                "읽기 편하도록 펼친 상태로 표시"
+              ],
+              [
+                "파일 크기",
+                "더 큼. 공용 파일은 한 번만 저장하고 사용하지 않는 CSS 규칙은 제외",
+                "더 작음"
+              ],
+              [
+                "적합한 용도",
+                "보관, 증거, 보이던 그대로 공유, 디자인 참고",
+                "읽기, 인쇄, Markdown, AI"
+              ]
+            ]
+          },
+          "keeps": {
+            "title": "저장한 파일에 남는 것",
+            "items": [
+              [
+                "레이아웃, 글꼴, 색상",
+                "각 페이지의 스타일시트와 사용된 웹 글꼴(글꼴당 한 가지 형식, WOFF2 우선), 배경을 포함한 이미지가 포함됩니다."
+              ],
+              [
+                "표시되던 그대로의 페이지",
+                "페이지가 안정된 뒤 메뉴를 열기 전에 저장하므로 닫혀 있던 메뉴는 닫힌 채로 유지됩니다. 스크롤하면 서서히 나타나는 콘텐츠도 보이는 상태로 저장됩니다."
+              ],
+              [
+                "나중에 불러오는 콘텐츠",
+                "지연 로딩 이미지, 스크롤하면 늘어나는 페이지, 확장 프로그램이 읽을 수 있는 사이트의 프레임, 웹 컴포넌트의 스타일, SVG 스프라이트 파일로 그리는 아이콘이 포함됩니다."
+              ],
+              [
+                "외부 사용을 막는 이미지",
+                "다른 곳에서 요청하면 거부되는 이미지는 원래 페이지가 불러오던 방식으로 한 번씩 다시 가져옵니다."
+              ],
+              [
+                "출처와 저장 시각",
+                "각 페이지 제목 아래에 가져온 주소와 저장한 시각이 표시됩니다. 저장된 다른 페이지와 파일로 가는 링크는 파일 안이나 저장 폴더에서 열립니다."
+              ],
+              [
+                "더 가벼운 파일",
+                "여러 페이지에서 쓰는 같은 스타일시트, 이미지, 글꼴은 한 번만 저장됩니다. 선택하면 광고 네트워크의 광고 영역도 제외할 수 있습니다."
+              ]
+            ]
+          }
+        },
+        "pt_BR": {
+          "title": "Salve páginas da web com o design original em um único arquivo HTML | Grab All Files",
+          "desc": "Salve uma página, ou várias combinadas, com o layout, as fontes e as imagens originais em um único arquivo HTML offline. Os scripts são removidos e nada é enviado.",
+          "eyebrow": "Manter a aparência original",
+          "h1": "Salve as páginas exatamente como elas são, em um único arquivo HTML.",
+          "lead": "Escolha “Manter a aparência original” e o Grab All Files salva cada página com as próprias folhas de estilo, fontes e imagens: o layout, as cores e a tipografia que você viu no navegador, em um único arquivo HTML autossuficiente. Junte várias páginas de um site ou de uma pasta do seu computador, e cada página mantém o próprio design dentro do próprio quadro, com sumário e busca em todas elas. Os scripts são removidos, então o arquivo abre offline, sem rastreamento nem pop-ups.",
+          "best": [
+            "Guardar o registro de como um site era antes de uma reformulação, de uma migração ou do encerramento do site.",
+            "Arquivar páginas com a data e o endereço de onde foram capturadas, para evidências, conformidade ou auditoria.",
+            "Enviar um conjunto de páginas, inclusive as que ficam atrás do seu login, a um cliente ou colega em um único arquivo que abre em qualquer lugar.",
+            "Transformar uma pasta de site salvo ou um site de ajuda exportado em um único arquivo que continua com a aparência do original."
+          ],
+          "steps": [
+            "Abra o Grab All Files e escolha “Juntar páginas em HTML”. Comece pela página aberta no navegador, deixe a extensão encontrar páginas relacionadas ou mude a origem para “De uma pasta do computador” para usar uma pasta ou um ZIP de arquivos HTML.",
+            "Confira as páginas que serão incluídas. Em “Aparência”, escolha “Manter a aparência original”. Deixe ativada a opção “Manter só na primeira página o cabeçalho, o menu e o rodapé repetidos em todas” e ative “Deixar de fora os anúncios” se quiser um arquivo mais leve.",
+            "Para páginas da web, permita o acesso aos sites que fornecem as folhas de estilo e as imagens quando for solicitado. A permissão é pedida uma única vez para todos. Cada página é aberta em uma aba e rolada até o fim, para incluir as imagens e o conteúdo que carregam durante a rolagem.",
+            "Salve. Abra o HTML e use o sumário e a busca para navegar entre as páginas. Cada página mostra o endereço de origem e quando foi capturada. O relatório lista qualquer imagem ou parte que não pôde ser mantida."
+          ],
+          "faq": [
+            {
+              "q": "Posso usar “Manter a aparência original” no plano gratuito?",
+              "a": "Sim. A opção de aparência não depende do plano. O plano gratuito salva uma página por execução, então você pode guardar qualquer página com o design original em um arquivo HTML. Combinar várias páginas em um só arquivo com sumário compartilhado exige o Pro ($19.99, pagamento único, até 3 dispositivos)."
+            },
+            {
+              "q": "Qual é a diferença em relação a “Salvar página como” ou a um salvador de página única?",
+              "a": "“Salvar página como” grava uma pasta de arquivos ao lado do HTML, e os salvadores de página única geram um arquivo por página. O Grab All Files coloca várias páginas em um só arquivo e mantém cada página em seu próprio quadro, para que os designs de páginas diferentes não entrem em conflito. Folhas de estilo, imagens e fontes compartilhadas são guardadas uma só vez, os links entre as páginas salvas funcionam dentro do arquivo e você pode pesquisar todas as páginas de uma vez."
+            },
+            {
+              "q": "Menus, abas e sliders continuam funcionando?",
+              "a": "Os scripts do site são removidos por segurança, então recursos que dependem deles, como mapas, formulários de busca, logins ou players de vídeo carregados sob demanda, não funcionam. Os elementos mais comuns foram preparados para funcionar sem os scripts do site: abas e acordeões criados com marcação padrão de acessibilidade ou com Bootstrap abrem e fecham, e as setas de carrosséis (Swiper, Slick, Splide, Glide, Flickity) avançam um slide por vez. Formulários nunca são enviados."
+            },
+            {
+              "q": "Ele inclui imagens que só aparecem ao rolar a página?",
+              "a": "Sim. Para páginas da web, cada página é aberta em uma aba e rolada até o fim antes da captura, de modo que imagens com carregamento tardio e páginas que acrescentam conteúdo durante a rolagem são incluídas. A rolagem termina quando a página para de crescer ou quando acaba o tempo definido em “Tempo de rolagem” (45, 90 ou 180 segundos). Cabeçalhos fixos, avisos de cookies e títulos fixos aparecem nas posições originais conforme você rola o arquivo salvo."
+            },
+            {
+              "q": "O arquivo salvo é seguro para abrir e compartilhar?",
+              "a": "O arquivo não contém scripts e bloqueia requisições à internet quando é aberto, então não carrega rastreadores nem anúncios de outros sites. Dados de login presentes em links são removidos. As páginas são coletadas no seu próprio navegador e salvas no seu dispositivo; o conteúdo delas não é enviado aos nossos servidores. Antes de compartilhar, confirme que você tem permissão para compartilhar as páginas salvas."
+            },
+            {
+              "q": "Quando devo escolher “Fácil de ler”?",
+              "a": "Escolha “Fácil de ler” quando o texto importa mais que o design: para ler materiais longos, imprimir, gerar arquivos menores ou preparar Markdown e dados para uma ferramenta de IA. Ele mostra todas as páginas em um único estilo limpo, sem o cabeçalho, os menus e o rodapé do site. “Manter a aparência original” serve para guardar e compartilhar as páginas como elas apareciam."
+            }
+          ],
+          "industry": {
+            "kind": "originallook",
+            "title": "De várias páginas a um arquivo que mantém cada design",
+            "stages": [
+              "Escolha as páginas",
+              "Escolha a aparência",
+              "Um HTML, cada página com o próprio design"
+            ],
+            "files": [
+              "example.com/",
+              "example.com/products",
+              "example.com/pricing",
+              "example.com/support"
+            ],
+            "options": [
+              "Fácil de ler",
+              "Manter a aparência original"
+            ],
+            "order": [
+              "Início",
+              "Produtos",
+              "Preços",
+              "Suporte"
+            ],
+            "output": "example-site.html",
+            "toc": "Sumário · busca",
+            "example": "Exemplo ilustrativo · site fictício",
+            "note": "O plano gratuito salva uma página por execução com o design original; o Pro combina as páginas que você selecionar. Folhas de estilo, imagens e fontes compartilhadas são guardadas uma só vez.",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "Quem guarda páginas com o design original",
+            "items": [
+              [
+                "Antes de uma reformulação ou migração",
+                "Equipes de web e agências guardam o site atual como ele é hoje, página por página, antes de refazê-lo, migrá-lo para um novo sistema ou tirá-lo do ar."
+              ],
+              [
+                "Registros de evidência e conformidade",
+                "Equipes jurídicas, de conformidade e de revisão de publicidade guardam como uma página, uma oferta ou um aviso foi exibido, com o endereço de origem e o horário da captura em cada página."
+              ],
+              [
+                "Sites e serviços que estão sendo encerrados",
+                "Pesquisadores, comunidades e fãs guardam páginas de um serviço que vai acabar, em um arquivo que não depende de o site continuar no ar."
+              ],
+              [
+                "Compartilhar páginas protegidas por login",
+                "Envie páginas de um portal, de uma intranet ou de uma área de clientes a quem não tem acesso, em um único arquivo que abre offline em qualquer navegador."
+              ],
+              [
+                "Referências de design e de concorrentes",
+                "Designers e profissionais de marketing reúnem páginas de destino e sites de concorrentes como aparecem, com as fontes, cores e espaçamentos reais."
+              ],
+              [
+                "Sites salvos e ajuda exportada",
+                "Uma pasta de backup de site, ou páginas de ajuda e manuais exportadas como HTML, viram um único arquivo que continua com a aparência do original."
+              ]
+            ]
+          },
+          "compare": {
+            "title": "“Manter a aparência original” e “Fácil de ler” lado a lado",
+            "headers": [
+              "",
+              "Manter a aparência original",
+              "Fácil de ler"
+            ],
+            "rows": [
+              [
+                "O que mantém",
+                "A página inteira, com as folhas de estilo, fontes e imagens do próprio site",
+                "O texto principal, os títulos, as tabelas e as imagens em um único estilo limpo"
+              ],
+              [
+                "Cabeçalho, menus e rodapé",
+                "Mantidos na primeira página; omitidos nas páginas seguintes por padrão",
+                "Omitidos"
+              ],
+              [
+                "Várias páginas",
+                "Cada página em seu próprio quadro, sem conflito entre os designs",
+                "Um documento contínuo"
+              ],
+              [
+                "Partes interativas",
+                "Abas, acordeões e setas de carrossel funcionam; os demais scripts não são executados",
+                "O conteúdo aparece expandido para leitura"
+              ],
+              [
+                "Tamanho do arquivo",
+                "Maior; arquivos compartilhados são guardados uma só vez e regras de CSS não usadas ficam de fora",
+                "Menor"
+              ],
+              [
+                "Ideal para",
+                "Arquivar, evidências, compartilhar como era, referências de design",
+                "Ler, imprimir, Markdown e IA"
+              ]
+            ]
+          },
+          "keeps": {
+            "title": "O que fica no arquivo salvo",
+            "items": [
+              [
+                "Layout, fontes e cores",
+                "As folhas de estilo de cada página são incorporadas, junto com as fontes da web usadas (um formato por fonte, WOFF2 primeiro) e as imagens, inclusive as de fundo."
+              ],
+              [
+                "A página como foi exibida",
+                "A página é capturada depois de se estabilizar e antes de qualquer menu ser aberto, então menus fechados continuam fechados. Conteúdo que aparece gradualmente ao rolar é salvo já visível."
+              ],
+              [
+                "Conteúdo carregado depois",
+                "Imagens de carregamento tardio, páginas que crescem ao rolar, quadros de sites que a extensão pode ler, estilos de web components e ícones desenhados a partir de arquivos de sprite SVG."
+              ],
+              [
+                "Imagens que bloqueiam o uso externo",
+                "Imagens recusadas quando solicitadas de outro lugar são buscadas novamente da mesma forma que a página original as carregava, uma vez cada."
+              ],
+              [
+                "Origem e horário da captura",
+                "Abaixo do título de cada página: o endereço de onde veio e quando foi capturada. Links para outras páginas e arquivos salvos abrem dentro do arquivo ou da pasta de salvamento."
+              ],
+              [
+                "Um arquivo mais leve",
+                "A mesma folha de estilo, imagem ou fonte usada em várias páginas é guardada uma só vez. Opcionalmente, os espaços de anúncios de redes de publicidade ficam de fora."
+              ]
+            ]
+          }
+        },
+        "zh_CN": {
+          "title": "将网页按原样式保存为单个 HTML 文件 | Grab All Files",
+          "desc": "将单个网页或多个合并的网页,连同原有版式、字体和图片保存为一个可离线打开的 HTML 文件。脚本会被移除,不会上传任何内容。",
+          "eyebrow": "保持原样",
+          "h1": "网页什么样,就保存成什么样,存为一个 HTML 文件。",
+          "lead": "选择“保持原样”后,Grab All Files 会把每个网页连同它自己的样式表、字体和图片一起保存:您在浏览器中看到的版式、配色和字体排印,都装进一个独立完整的 HTML 文件。无论是把网站上的多个网页,还是电脑文件夹里的多个网页合并在一起,每个网页都在各自独立的框架中保留自己的设计,并提供目录和跨全部网页的搜索。脚本会被移除,因此文件可离线打开,没有跟踪,也没有弹窗。",
+          "best": [
+            "在网站改版、迁移或关闭之前,留下网站当前的样子。",
+            "连同抓取时的网址和日期一起归档网页,用作证据、合规或审计记录。",
+            "把一组网页(包括需要登录才能看到的)作为一个随处可打开的文件发给客户或同事。",
+            "把保存下来的网站文件夹或导出的帮助站点变成一个仍然保持原貌的文件。"
+          ],
+          "steps": [
+            "打开 Grab All Files,选择“将网页合并为 HTML”。可以从浏览器当前打开的网页开始,让扩展自动查找相关网页,也可以把来源切换为“从电脑文件夹”,选择包含 HTML 文件的文件夹或 ZIP。",
+            "确认要包含的网页。在“外观”中选择“保持原样”。保持开启“每页重复的页眉、菜单和页脚只保留在第一页”;如果想让文件更小,可以开启“不保存广告”。",
+            "对于网页,当系统请求访问提供样式表和图片的网站时,请予以允许。所有网站只会请求一次。每个网页都会在标签页中打开并滚动到底部,这样滚动时才加载的图片和内容也会被包含进来。",
+            "保存。打开 HTML 后,可通过目录和搜索在各网页之间切换。每个网页都会显示来源网址和抓取时间。报告会列出未能保留的图片或部分。"
+          ],
+          "faq": [
+            {
+              "q": "免费版可以使用“保持原样”吗?",
+              "a": "可以。外观选项不受套餐限制。免费版每次运行保存一个网页,因此您可以把任意单个网页按原有设计保存为一个 HTML 文件。若要把多个网页合并为带共享目录的一个文件,则需要 Pro($19.99,一次性付费,最多 3 台设备)。"
+            },
+            {
+              "q": "这与“另存为”或单页保存工具有什么区别?",
+              "a": "“另存为”会在 HTML 旁边生成一个文件夹,单页保存工具则是每个网页生成一个文件。Grab All Files 把多个网页放进一个文件,并让每个网页保留在各自的框架中,因此不同网页的设计互不冲突。共享的样式表、图片和字体只存储一份,已保存网页之间的链接在文件内部跳转,还可以一次搜索全部网页。"
+            },
+            {
+              "q": "菜单、标签页和滑块还能用吗?",
+              "a": "出于安全考虑,网站的脚本会被移除,因此依赖脚本的功能,如地图、搜索表单、登录或按需加载的视频播放器,将无法运行。常见的组件已做处理,无需网站脚本也能工作:使用标准无障碍标记或 Bootstrap 构建的标签页和折叠面板可以展开和收起,轮播箭头(Swiper、Slick、Splide、Glide、Flickity)可逐张切换。表单不会被提交。"
+            },
+            {
+              "q": "滚动后才出现的图片也会保存吗?",
+              "a": "会。对于网页,每个网页在抓取前都会在标签页中打开并滚动到底部,因此延迟加载的图片以及边滚动边追加内容的网页都会被包含。当页面不再变长,或“滚动时间”设置的时间(45、90 或 180 秒)用完时,滚动即停止。固定页眉、Cookie 提示和吸顶标题在您滚动已保存的文件时,会出现在原来的位置。"
+            },
+            {
+              "q": "保存的文件可以放心打开和分享吗?",
+              "a": "文件不含脚本,并且在打开时会阻止向互联网发出请求,因此不会加载来自其他网站的跟踪器或广告。链接中带有的登录信息会被移除。网页在您自己的浏览器中收集并保存到您的设备,内容不会发送到我们的服务器。分享之前,请确认您有权分享所保存的网页。"
+            },
+            {
+              "q": "什么时候应该改选“整理为易读格式”?",
+              "a": "当您更看重文字而不是设计时,请选择“整理为易读格式”:例如阅读长篇资料、打印、减小文件体积,或为 AI 工具准备 Markdown 和数据。它会以统一、简洁的样式显示所有网页,不含网站的页眉、菜单和页脚。“保持原样”则用于按网页原本的样子保存和分享。"
+            }
+          ],
+          "industry": {
+            "kind": "originallook",
+            "title": "从多个网页到一个保留各自设计的文件",
+            "stages": [
+              "选择网页",
+              "选择外观",
+              "一个 HTML,每个网页保留自己的设计"
+            ],
+            "files": [
+              "example.com/",
+              "example.com/products",
+              "example.com/pricing",
+              "example.com/support"
+            ],
+            "options": [
+              "整理为易读格式",
+              "保持原样"
+            ],
+            "order": [
+              "首页",
+              "产品",
+              "价格",
+              "支持"
+            ],
+            "output": "example-site.html",
+            "toc": "目录 · 搜索",
+            "example": "示意示例 · 虚构网站",
+            "note": "免费版每次运行保存一个保留原有设计的网页;Pro 可合并您选择的网页。共享的样式表、图片和字体只存储一份。",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "谁需要保留网页的原有设计",
+            "items": [
+              [
+                "改版或迁移之前",
+                "网站团队和代理公司在重建网站、迁移到新系统或下线之前,按页面留存网站当前的样子。"
+              ],
+              [
+                "证据与合规记录",
+                "法务、合规和广告审核团队留存页面、优惠或公告当时的展示效果,每个网页都附有来源网址和抓取时间。"
+              ],
+              [
+                "即将关闭的网站和服务",
+                "研究人员、社区和爱好者留存即将停止运营的服务的网页,保存为不依赖网站继续在线的文件。"
+              ],
+              [
+                "分享需要登录的网页",
+                "把门户、内网或客户专区的网页,以一个可在任意浏览器中离线打开的文件发给没有访问权限的人。"
+              ],
+              [
+                "设计与竞品参考",
+                "设计师和营销人员按真实的字体、配色和间距收集落地页和竞品网站。"
+              ],
+              [
+                "已保存的网站与导出的帮助文档",
+                "网站备份文件夹,或导出为 HTML 的帮助和手册页面,可变成一个仍保持原貌的文件。"
+              ]
+            ]
+          },
+          "compare": {
+            "title": "“保持原样”与“整理为易读格式”的对比",
+            "headers": [
+              "",
+              "保持原样",
+              "整理为易读格式"
+            ],
+            "rows": [
+              [
+                "保留什么",
+                "整个网页,连同网站自己的样式表、字体和图片",
+                "正文、标题、表格和图片,统一为一种简洁样式"
+              ],
+              [
+                "页眉、菜单和页脚",
+                "保留在第一页;后续页面默认不保存",
+                "不保存"
+              ],
+              [
+                "多个网页",
+                "每个网页在各自的框架中,设计互不冲突",
+                "连续的一份文档"
+              ],
+              [
+                "交互部分",
+                "标签页、折叠面板和轮播箭头可用;其他脚本不运行",
+                "内容以展开状态显示,便于阅读"
+              ],
+              [
+                "文件大小",
+                "较大;共享文件只存储一份,未使用的 CSS 规则不保存",
+                "较小"
+              ],
+              [
+                "适用场景",
+                "留存、证据、按原样分享、设计参考",
+                "阅读、打印、Markdown 和 AI"
+              ]
+            ]
+          },
+          "keeps": {
+            "title": "保存的文件中包含什么",
+            "items": [
+              [
+                "版式、字体和配色",
+                "嵌入每个网页的样式表、所用的网页字体(每种字体一种格式,优先 WOFF2)以及图片,包括背景图。"
+              ],
+              [
+                "网页呈现的样子",
+                "在页面稳定后、打开任何菜单之前抓取,因此关闭的菜单保持关闭。滚动时渐显的内容会以可见状态保存。"
+              ],
+              [
+                "稍后加载的内容",
+                "延迟加载的图片、边滚动边变长的网页、扩展有权读取的网站的内嵌框架、Web 组件的样式,以及由 SVG 精灵文件绘制的图标。"
+              ],
+              [
+                "禁止外部引用的图片",
+                "在其他地方请求时会被拒绝的图片,会按原网页加载它们的方式重新获取,每张只获取一次。"
+              ],
+              [
+                "来源与抓取时间",
+                "在每个网页标题下方显示来源网址和抓取时间。指向其他已保存网页和文件的链接,会在文件内或保存文件夹中打开。"
+              ],
+              [
+                "更小的文件",
+                "多个网页使用的同一个样式表、图片或字体只存储一份。还可以选择不保存广告联盟的广告位。"
+              ]
+            ]
+          }
+        },
+        "zh_TW": {
+          "title": "將網頁依原本樣式儲存成單一 HTML 檔案 | Grab All Files",
+          "desc": "將單一網頁或多個合併的網頁,連同原有版面、字型與圖片儲存成一個可離線開啟的 HTML 檔案。指令碼會被移除,也不會上傳任何內容。",
+          "eyebrow": "保持原樣",
+          "h1": "網頁長什麼樣,就儲存成什麼樣,存成一個 HTML 檔案。",
+          "lead": "選擇「保持原樣」後,Grab All Files 會將每個網頁連同它自己的樣式表、字型與圖片一併儲存:您在瀏覽器中看到的版面、配色與字體排印,都會放進一個獨立完整的 HTML 檔案。無論是把網站上的多個網頁,或電腦資料夾中的多個網頁合併在一起,每個網頁都在各自獨立的框架中保留自己的設計,並提供目錄與跨全部網頁的搜尋。指令碼會被移除,因此檔案可離線開啟,沒有追蹤,也沒有彈出視窗。",
+          "best": [
+            "在網站改版、遷移或關閉之前,留下網站目前的樣貌。",
+            "連同擷取時的網址與日期一起封存網頁,作為證據、法遵或稽核紀錄。",
+            "將一組網頁(包括需要登入才能看到的)以一個隨處都能開啟的檔案寄給客戶或同事。",
+            "將儲存下來的網站資料夾或匯出的說明網站,變成一個仍保持原貌的檔案。"
+          ],
+          "steps": [
+            "開啟 Grab All Files,選擇「將網頁合併為 HTML」。可以從瀏覽器目前開啟的網頁開始,讓擴充功能自動尋找相關網頁,也可以將來源切換為「從電腦資料夾」,選擇包含 HTML 檔案的資料夾或 ZIP。",
+            "確認要納入的網頁。在「外觀」中選擇「保持原樣」。維持開啟「每頁重複的頁首、選單和頁尾只保留在第一頁」;如果想讓檔案更小,可以開啟「不保存廣告」。",
+            "對於網頁,當系統要求存取提供樣式表與圖片的網站時,請予以允許。所有網站只會詢問一次。每個網頁都會在分頁中開啟並捲動到底部,讓捲動時才載入的圖片與內容也能納入。",
+            "儲存。開啟 HTML 後,可透過目錄與搜尋在各網頁之間切換。每個網頁都會顯示來源網址與擷取時間。報告會列出未能保留的圖片或部分。"
+          ],
+          "faq": [
+            {
+              "q": "免費版可以使用「保持原樣」嗎?",
+              "a": "可以。外觀選項不受方案限制。免費版每次執行儲存一個網頁,因此您可以將任一單一網頁依原有設計儲存成一個 HTML 檔案。若要將多個網頁合併成具有共用目錄的單一檔案,則需要 Pro($19.99,一次性付費,最多 3 台裝置)。"
+            },
+            {
+              "q": "這和「另存新檔」或單頁儲存工具有什麼不同?",
+              "a": "「另存新檔」會在 HTML 旁產生一個檔案資料夾,單頁儲存工具則是每個網頁產生一個檔案。Grab All Files 將多個網頁放進同一個檔案,並讓每個網頁保留在各自的框架中,因此不同網頁的設計不會互相衝突。共用的樣式表、圖片與字型只儲存一份,已儲存網頁之間的連結會在檔案內跳轉,還能一次搜尋全部網頁。"
+            },
+            {
+              "q": "選單、分頁標籤和滑動圖片還能用嗎?",
+              "a": "基於安全考量,網站的指令碼會被移除,因此依賴指令碼的功能,例如地圖、搜尋表單、登入或隨選載入的影片播放器,將無法運作。常見的元件已做處理,不需網站指令碼也能運作:以標準無障礙標記或 Bootstrap 建構的分頁標籤與收合面板可以展開和收合,輪播箭頭(Swiper、Slick、Splide、Glide、Flickity)可逐張切換。表單不會被送出。"
+            },
+            {
+              "q": "捲動後才出現的圖片也會儲存嗎?",
+              "a": "會。對於網頁,每個網頁在擷取前都會在分頁中開啟並捲動到底部,因此延遲載入的圖片,以及邊捲動邊增加內容的網頁都會被納入。當頁面不再變長,或「捲動時間」設定的時間(45、90 或 180 秒)用完時,捲動即停止。固定頁首、Cookie 提示與黏性標題在您捲動已儲存的檔案時,會出現在原本的位置。"
+            },
+            {
+              "q": "儲存的檔案可以放心開啟與分享嗎?",
+              "a": "檔案不含指令碼,且開啟時會封鎖對網際網路的請求,因此不會載入來自其他網站的追蹤器或廣告。連結中帶有的登入資訊會被移除。網頁在您自己的瀏覽器中收集並儲存到您的裝置,內容不會傳送到我們的伺服器。分享之前,請確認您有權分享所儲存的網頁。"
+            },
+            {
+              "q": "什麼時候應該改選「整理為易讀格式」?",
+              "a": "當您比較重視文字而非設計時,請選擇「整理為易讀格式」:例如閱讀長篇資料、列印、縮小檔案,或為 AI 工具準備 Markdown 與資料。它會以統一、簡潔的樣式顯示所有網頁,不含網站的頁首、選單與頁尾。「保持原樣」則用於依網頁原本的樣子保存與分享。"
+            }
+          ],
+          "industry": {
+            "kind": "originallook",
+            "title": "從多個網頁到一個保留各自設計的檔案",
+            "stages": [
+              "選擇網頁",
+              "選擇外觀",
+              "一個 HTML,每個網頁保留自己的設計"
+            ],
+            "files": [
+              "example.com/",
+              "example.com/products",
+              "example.com/pricing",
+              "example.com/support"
+            ],
+            "options": [
+              "整理為易讀格式",
+              "保持原樣"
+            ],
+            "order": [
+              "首頁",
+              "產品",
+              "價格",
+              "支援"
+            ],
+            "output": "example-site.html",
+            "toc": "目錄 · 搜尋",
+            "example": "示意範例 · 虛構網站",
+            "note": "免費版每次執行儲存一個保留原有設計的網頁;Pro 可合併您選擇的網頁。共用的樣式表、圖片與字型只儲存一份。",
+            "referenceTitle": "",
+            "referenceNote": "",
+            "referenceLabel": "",
+            "referenceUrl": null
+          },
+          "scenarios": {
+            "title": "誰需要保留網頁的原有設計",
+            "items": [
+              [
+                "改版或遷移之前",
+                "網站團隊與代理商在重建網站、遷移到新系統或下線之前,逐頁留存網站目前的樣貌。"
+              ],
+              [
+                "證據與法遵紀錄",
+                "法務、法遵與廣告審查團隊留存頁面、優惠或公告當時的呈現方式,每個網頁都附有來源網址與擷取時間。"
+              ],
+              [
+                "即將關閉的網站與服務",
+                "研究人員、社群與愛好者留存即將終止營運的服務的網頁,存成不依賴網站持續上線的檔案。"
+              ],
+              [
+                "分享需要登入的網頁",
+                "將入口網站、內部網路或客戶專區的網頁,以一個可在任何瀏覽器離線開啟的檔案,寄給沒有存取權限的人。"
+              ],
+              [
+                "設計與競品參考",
+                "設計師與行銷人員依真實的字型、配色與間距,收集登陸頁與競品網站。"
+              ],
+              [
+                "已儲存的網站與匯出的說明文件",
+                "網站備份資料夾,或匯出為 HTML 的說明與手冊頁面,可變成一個仍保持原貌的檔案。"
+              ]
+            ]
+          },
+          "compare": {
+            "title": "「保持原樣」與「整理為易讀格式」的比較",
+            "headers": [
+              "",
+              "保持原樣",
+              "整理為易讀格式"
+            ],
+            "rows": [
+              [
+                "保留什麼",
+                "整個網頁,連同網站自己的樣式表、字型與圖片",
+                "正文、標題、表格與圖片,統一為一種簡潔樣式"
+              ],
+              [
+                "頁首、選單與頁尾",
+                "保留在第一頁;後續頁面預設不保存",
+                "不保存"
+              ],
+              [
+                "多個網頁",
+                "每個網頁在各自的框架中,設計互不衝突",
+                "連續的一份文件"
+              ],
+              [
+                "互動部分",
+                "分頁標籤、收合面板與輪播箭頭可用;其他指令碼不執行",
+                "內容以展開狀態顯示,方便閱讀"
+              ],
+              [
+                "檔案大小",
+                "較大;共用檔案只儲存一份,未使用的 CSS 規則不保存",
+                "較小"
+              ],
+              [
+                "適用情境",
+                "留存、證據、依原樣分享、設計參考",
+                "閱讀、列印、Markdown 與 AI"
+              ]
+            ]
+          },
+          "keeps": {
+            "title": "儲存的檔案中包含什麼",
+            "items": [
+              [
+                "版面、字型與配色",
+                "內嵌每個網頁的樣式表、所用的網頁字型(每種字型一種格式,優先 WOFF2)以及圖片,包括背景圖。"
+              ],
+              [
+                "網頁呈現的樣子",
+                "在頁面穩定後、開啟任何選單之前擷取,因此關閉的選單會維持關閉。捲動時漸顯的內容會以可見狀態儲存。"
+              ],
+              [
+                "稍後載入的內容",
+                "延遲載入的圖片、邊捲動邊變長的網頁、擴充功能有權讀取的網站的內嵌框架、Web 元件的樣式,以及由 SVG 精靈檔案繪製的圖示。"
+              ],
+              [
+                "禁止外部引用的圖片",
+                "在其他地方請求時會被拒絕的圖片,會依原網頁載入它們的方式重新取得,每張只取得一次。"
+              ],
+              [
+                "來源與擷取時間",
+                "在每個網頁標題下方顯示來源網址與擷取時間。指向其他已儲存網頁與檔案的連結,會在檔案內或儲存資料夾中開啟。"
+              ],
+              [
+                "更小的檔案",
+                "多個網頁使用的同一個樣式表、圖片或字型只儲存一份。也可以選擇不保存廣告聯播網的廣告版位。"
+              ]
+            ]
+          }
+        }
+      }
+    },
     "combine-local-html-files-into-one": {
       "path": "combine-local-html-files-into-one.html",
       "related": [
         "combine-web-pages-into-one-html",
-        "save-online-manuals-and-knowledge-pages",
-        "web-pages-for-reading-and-ai-analysis"
+        "save-web-pages-with-original-design",
+        "save-online-manuals-and-knowledge-pages"
       ],
       "cta": {
         "en": {
@@ -11611,7 +13434,7 @@
     },
     "combine-web-pages-into-one-html": {
       path: "combine-web-pages-into-one-html.html",
-      related: ["combine-local-html-files-into-one", "download-files-from-webpage", "internal-portal-downloads"],
+      related: ["combine-local-html-files-into-one", "save-web-pages-with-original-design", "download-files-from-webpage"],
       cta: {
         en: { title: "Save one related page free—or combine several with Pro.", text: "Discovery and HTML generation stay on your device. Free lists related candidates and saves exactly the one page you choose; images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro selects multiple candidates and combines their readable page bodies into one HTML. Safety and source-site limits apply." },
         ja: { title: "無料版は選んだ1ページ。Proは複数ページを1つに。", text: "探索とHTML生成は端末内で処理します。無料版は関連候補を一覧表示し、常に選んだ1ページだけを保存。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Proは複数候補の本文を1つのHTMLに結合します。安全上限・サイト側制限は適用されます。" },
@@ -13025,6 +14848,8 @@
     var samples = [visualFiles(data.files), '<ul class="visual-selection">' + data.files.map(function(name) { return '<li><span aria-hidden="true">✓</span> ' + esc(name) + '</li>'; }).join('') + '</ul>', visualCode(data.output + '/\n' + data.files.map(function(name) { return '├ ' + name; }).join('\n') + '\n└ files.csv', 'visual-tree')];
     if (data.kind === 'localhtml') samples = [visualFiles(data.files), '<ol class="visual-selection">' + data.order.map(function(name) { return '<li><span aria-hidden="true">✓</span> ' + esc(name) + '</li>'; }).join('') + '</ol>',
       visualCode(data.output + '\n├ ' + data.toc + '\n' + data.order.map(function(name, i) { return (i === data.order.length - 1 ? '└ ' : '├ ') + name.replace(/\.x?html?$/, ''); }).join('\n'), 'visual-tree')];
+    if (data.kind === 'originallook') samples = [visualFiles(data.files), '<ul class="visual-selection visual-look-options">' + data.options.map(function(name, i) { return '<li' + (i === data.options.length - 1 ? ' class="is-chosen"' : '') + '><span aria-hidden="true">' + (i === data.options.length - 1 ? '●' : '○') + '</span> ' + esc(name) + '</li>'; }).join('') + '</ul>',
+      visualCode(data.output + '\n├ ' + data.toc + '\n' + data.order.map(function(name, i) { return (i === data.order.length - 1 ? '└ ' : '├ ') + name; }).join('\n'), 'visual-tree')];
     if (data.kind === 'filecsv') samples = [visualTable(data.column, rows), visualCode('URL,Filename,Type,Source page\nhttps://example.org/catalog.pdf,catalog.pdf,PDF,https://example.org/downloads'), '<strong class="visual-label">Excel</strong>' + visualTable(data.column, rows)];
     return '<figure class="feature-visual industry-visual" aria-labelledby="feature-visual-caption"><figcaption id="feature-visual-caption"><strong>' + esc(data.title) + '</strong><span>' + esc(data.example) + '</span></figcaption><ol class="visual-flow">' + data.stages.map(function(title, i) { return '<li class="visual-stage"><h3><span class="visual-index" aria-hidden="true">' + String(i + 1) + '</span><span>' + esc(title) + '</span></h3><div class="visual-demo">' + samples[i] + '</div>' + (i < 2 ? '<span class="visual-arrow visual-arrow-horizontal" aria-hidden="true">→</span><span class="visual-arrow visual-arrow-vertical" aria-hidden="true">↓</span>' : '') + '</li>'; }).join('') + '</ol><p class="visual-note">' + esc(data.note) + '</p></figure>';
   }
@@ -13034,6 +14859,14 @@
     return '<section class="section-card research-guide"><h2>' + esc(data.title) + '</h2><div class="manual-patterns">' + data.items.map(function (item) {
       return '<article class="manual-pattern"><h3>' + esc(item[0]) + '</h3><p>' + esc(item[1]) + '</p></article>';
     }).join('') + '</div></section>';
+  }
+
+  function renderCompare(data) {
+    if (!data) return "";
+    return '<section class="section-card research-guide"><h2>' + esc(data.title) + '</h2><div class="research-table-wrap"><table class="compare-table"><thead><tr>' +
+      data.headers.map(function (head, i) { return i ? '<th scope="col">' + esc(head) + '</th>' : '<td></td>'; }).join('') + '</tr></thead><tbody>' +
+      data.rows.map(function (row) { return '<tr><th scope="row">' + esc(row[0]) + '</th><td>' + esc(row[1]) + '</td><td>' + esc(row[2]) + '</td></tr>'; }).join('') +
+      '</tbody></table></div></section>';
   }
 
   function renderIndustryReference(data) {
@@ -14018,6 +15851,8 @@
           "<section class=\"section-card\"><h2>" + esc(ui.workflow) + "</h2><ol class=\"step-list\">" + renderList(copy.steps, "num") + "</ol></section>",
         "</div>",
         renderScenarios(copy.scenarios),
+        renderScenarios(copy.keeps),
+        renderCompare(copy.compare),
         renderResearchGuide(copy.guide, "details"),
         renderArxivGuide(copy.arxiv, "access", lang),
         renderManualGuide(copy.manual, "details", lang),

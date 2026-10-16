@@ -68,6 +68,7 @@ const PAGES = [
   { src: 'use-cases/web-pages-for-reading-and-ai-analysis.html', rel: 'use-cases/web-pages-for-reading-and-ai-analysis.html' },
   { src: 'use-cases/combine-web-pages-into-one-html.html', rel: 'use-cases/combine-web-pages-into-one-html.html' },
   { src: 'use-cases/combine-local-html-files-into-one.html', rel: 'use-cases/combine-local-html-files-into-one.html' },
+  { src: 'use-cases/save-web-pages-with-original-design.html', rel: 'use-cases/save-web-pages-with-original-design.html' },
   { src: 'use-cases/bulk-download-images.html', rel: 'use-cases/bulk-download-images.html' },
   { src: 'use-cases/download-all-pdfs.html', rel: 'use-cases/download-all-pdfs.html' },
   { src: 'use-cases/download-files-from-webpage.html', rel: 'use-cases/download-files-from-webpage.html' },
@@ -94,6 +95,7 @@ const LOCALIZED = new Set([
   '/use-cases/web-pages-for-reading-and-ai-analysis.html',
   '/use-cases/combine-web-pages-into-one-html.html',
   '/use-cases/combine-local-html-files-into-one.html',
+  '/use-cases/save-web-pages-with-original-design.html',
   '/use-cases/bulk-download-images.html', '/use-cases/download-all-pdfs.html',
   '/use-cases/download-files-from-webpage.html', '/use-cases/internal-portal-downloads.html',
   '/use-cases/merge-pdfs-locally.html',
@@ -552,6 +554,7 @@ for (const page of PAGES) {
     'use-cases/web-pages-for-reading-and-ai-analysis.html',
     'use-cases/save-online-manuals-and-knowledge-pages.html',
     'use-cases/combine-local-html-files-into-one.html',
+    'use-cases/save-web-pages-with-original-design.html',
   ].includes(page.src);
   for (const L of LOCALES) {
     let base = srcHtml;
