@@ -656,9 +656,9 @@
           ],
           "steps": [
             "Open Grab All Files and choose “Combine pages into HTML”. Start from the page open in your browser, let the extension find related pages, or switch the source to “From a computer folder” for a folder or ZIP of HTML files.",
-            "Check the pages to include. Under “Look”, choose “Keep the original look”. Leave on “Leave out the header, menu and footer that repeat on every page (keep the first)”, and turn on “Leave out ads” if you want a lighter file.",
+            "Check the pages to include. Under “Look”, choose “Keep the original look”. When you combine several pages from one site, turn on “Leave out the header, menu and footer that repeat on every page (keep the first)”. “Leave out ads” is on from the start for a lighter file; turn it off to keep the ad spaces.",
             "For web pages, allow access to the sites that serve the stylesheets and images when asked. It is asked once for all of them. Each page is opened in a tab and scrolled to the end so that images and content that load on scroll are included.",
-            "Save. Open the HTML: use the table of contents and search to move between pages. Each page shows the address it came from and when it was captured. The report lists any image or part that could not be kept."
+            "Save. Open the HTML: use the table of contents and search to move between pages. Each page shows the address it came from and when it was captured. Turn on “Include the collection details and the list of failures” if you also want the file to list any image or part that could not be kept."
           ],
           "faq": [
             {
@@ -763,7 +763,7 @@
               ],
               [
                 "Header, menus and footer",
-                "Kept on the first page; left out of the following pages by default",
+                "Kept on every page by default; one option keeps them on the first page only",
                 "Left out"
               ],
               [
@@ -813,7 +813,7 @@
               ],
               [
                 "A lighter file",
-                "The same stylesheet, image or font used on many pages is stored once. Optionally, ad slots from ad networks are left out."
+                "The same stylesheet, image or font used on many pages is stored once. Ad spaces from ad networks are left out by default, and you can keep them if you prefer."
               ]
             ]
           }
@@ -832,9 +832,9 @@
           ],
           "steps": [
             "Grab All Files で「ページをHTMLにまとめる」を選びます。ブラウザで開いているページから始めるか、関連ページを探させるか、取得元を「パソコンのフォルダから」に切り替えてHTMLのフォルダやZIPを選びます。",
-            "まとめるページを確認し、「見た目」で「元の見た目のまま」を選びます。「毎ページ共通のヘッダー・メニュー・フッターは最初のページだけに残す」はオンのままで、ファイルを軽くしたいときは「広告を省く」もオンにします。",
+            "まとめるページを確認し、「見た目」で「元の見た目のまま」を選びます。同じサイトの複数ページをまとめるときは「毎ページ共通のヘッダー・メニュー・フッターは最初のページだけに残す」をオンにします。「広告を省く」は最初からオンで、ファイルが軽くなります。広告枠も残したいときはオフにします。",
             "Webページの場合は、スタイルシートと画像の配信元へのアクセス許可を求められたら許可します（まとめて1回で聞きます）。各ページはタブで開いて最後までスクロールするので、スクロールで読み込まれる画像や続きも入ります。",
-            "保存します。HTMLを開くと、目次と検索でページ間を移動できます。各ページには取得元のアドレスと取得日時が出ます。残せなかった画像や部分は、まとめの報告に出ます。"
+            "保存します。HTMLを開くと、目次と検索でページを行き来できます。各ページには取得元のアドレスと取得日時が出ます。残せなかった画像や部分の一覧もファイルに入れたいときは「取得情報と失敗一覧を入れる」をオンにします。"
           ],
           "faq": [
             {
@@ -939,7 +939,7 @@
               ],
               [
                 "ヘッダー・メニュー・フッター",
-                "最初のページに残し、2ページ目以降は既定で省く",
+                "既定では全ページに残す。オプションで最初のページだけに残せる",
                 "除く"
               ],
               [
@@ -989,7 +989,7 @@
               ],
               [
                 "軽いファイル",
-                "多くのページで使われる同じスタイルシート・画像・フォントは1回だけ入れます。広告配信の枠を省くこともできます。"
+                "多くのページで使われる同じスタイルシート・画像・フォントは1回だけ入れます。広告配信の枠は既定で省きます（残すこともできます）。"
               ]
             ]
           }
@@ -1008,9 +1008,9 @@
           ],
           "steps": [
             "Abre Grab All Files y elige «Combinar páginas en HTML». Empieza desde la página abierta en tu navegador, deja que la extensión busque páginas relacionadas o cambia el origen a «Desde una carpeta del ordenador» para usar una carpeta o un ZIP de archivos HTML.",
-            "Revisa las páginas que quieres incluir. En «Aspecto», elige «Mantener el aspecto original». Deja activada la opción «Mantener solo en la primera página el encabezado, el menú y el pie que se repiten en todas» y activa «Omitir los anuncios» si quieres un archivo más ligero.",
+            "Revisa las páginas que quieres incluir. En «Aspecto», elige «Mantener el aspecto original». Si combinas varias páginas de un mismo sitio, activa «Mantener solo en la primera página el encabezado, el menú y el pie que se repiten en todas». «Omitir los anuncios» viene activado para que el archivo pese menos; desactívalo si quieres conservar los espacios publicitarios.",
             "Con páginas web, cuando se te pida, permite el acceso a los sitios que sirven las hojas de estilo y las imágenes. Se pregunta una sola vez para todos. Cada página se abre en una pestaña y se desplaza hasta el final para que se incluyan las imágenes y el contenido que se cargan al hacer scroll.",
-            "Guarda. Abre el HTML: usa el índice y la búsqueda para moverte entre páginas. Cada página muestra la dirección de la que procede y cuándo se capturó. El informe indica qué imagen o parte no se pudo conservar."
+            "Guarda. Abre el HTML: usa el índice y la búsqueda para moverte entre páginas. Cada página muestra la dirección de la que procede y cuándo se capturó. Activa «Incluir los datos de la recopilación y la lista de errores» si quieres que el archivo indique también qué imagen o parte no se pudo conservar."
           ],
           "faq": [
             {
@@ -1115,7 +1115,7 @@
               ],
               [
                 "Encabezado, menús y pie",
-                "Se conservan en la primera página; en las siguientes se omiten por defecto",
+                "Se conservan en todas las páginas por defecto; una opción los deja solo en la primera",
                 "Se omiten"
               ],
               [
@@ -1165,7 +1165,7 @@
               ],
               [
                 "Un archivo más ligero",
-                "La misma hoja de estilo, imagen o tipografía usada en muchas páginas se guarda una sola vez. Opcionalmente, se omiten los espacios publicitarios de las redes de anuncios."
+                "La misma hoja de estilo, imagen o tipografía usada en muchas páginas se guarda una sola vez. Los espacios publicitarios de las redes de anuncios se omiten por defecto, y puedes conservarlos si lo prefieres."
               ]
             ]
           }
@@ -1184,9 +1184,9 @@
           ],
           "steps": [
             "Ouvrez Grab All Files et choisissez « Regrouper les pages en HTML ». Partez de la page ouverte dans votre navigateur, laissez l’extension trouver les pages liées, ou passez la source sur « Depuis un dossier de l’ordinateur » pour un dossier ou un ZIP de fichiers HTML.",
-            "Vérifiez les pages à inclure. Sous « Apparence », choisissez « Garder l’apparence d’origine ». Laissez activée l’option « Ne garder que sur la première page l’en-tête, le menu et le pied de page répétés sur chaque page » et activez « Omettre les publicités » si vous voulez un fichier plus léger.",
+            "Vérifiez les pages à inclure. Sous « Apparence », choisissez « Garder l’apparence d’origine ». Si vous regroupez plusieurs pages d’un même site, activez « Ne garder que sur la première page l’en-tête, le menu et le pied de page répétés sur chaque page ». « Omettre les publicités » est activé d’emblée pour un fichier plus léger ; désactivez-le pour garder les emplacements publicitaires.",
             "Pour les pages web, autorisez l’accès aux sites qui fournissent les feuilles de style et les images lorsque c’est demandé. La demande n’est faite qu’une fois pour tous. Chaque page est ouverte dans un onglet et défilée jusqu’en bas, afin d’inclure les images et le contenu qui se chargent au défilement.",
-            "Enregistrez. Ouvrez le HTML : utilisez la table des matières et la recherche pour passer d’une page à l’autre. Chaque page indique l’adresse d’où elle provient et la date de capture. Le rapport liste les images ou éléments qui n’ont pas pu être conservés."
+            "Enregistrez. Ouvrez le HTML : utilisez la table des matières et la recherche pour passer d’une page à l’autre. Chaque page indique l’adresse d’où elle provient et la date de capture. Activez « Inclure les informations de collecte et la liste des échecs » si vous voulez aussi que le fichier liste les images ou éléments qui n’ont pas pu être conservés."
           ],
           "faq": [
             {
@@ -1291,7 +1291,7 @@
               ],
               [
                 "En-tête, menus et pied de page",
-                "Conservés sur la première page ; omis par défaut sur les pages suivantes",
+                "Conservés sur chaque page par défaut ; une option ne les garde que sur la première",
                 "Omis"
               ],
               [
@@ -1341,7 +1341,7 @@
               ],
               [
                 "Un fichier plus léger",
-                "La même feuille de style, image ou police utilisée sur de nombreuses pages n’est stockée qu’une fois. En option, les emplacements publicitaires des régies sont omis."
+                "La même feuille de style, image ou police utilisée sur de nombreuses pages n’est stockée qu’une fois. Les emplacements publicitaires des régies sont omis par défaut, et vous pouvez les garder si vous préférez."
               ]
             ]
           }
@@ -1360,9 +1360,9 @@
           ],
           "steps": [
             "Öffnen Sie Grab All Files und wählen Sie „Seiten als HTML bündeln“. Starten Sie mit der im Browser geöffneten Seite, lassen Sie die Erweiterung verwandte Seiten finden oder stellen Sie die Quelle auf „Aus einem Ordner auf dem Computer“ um, für einen Ordner oder ein ZIP mit HTML-Dateien.",
-            "Prüfen Sie die aufzunehmenden Seiten. Wählen Sie unter „Aussehen“ die Option „Ursprüngliches Aussehen behalten“. Lassen Sie „Kopfzeile, Menü und Fußzeile, die sich auf jeder Seite wiederholen, nur auf der ersten Seite behalten“ aktiviert und schalten Sie „Werbung weglassen“ ein, wenn Sie eine kleinere Datei möchten.",
+            "Prüfen Sie die aufzunehmenden Seiten. Wählen Sie unter „Aussehen“ die Option „Ursprüngliches Aussehen behalten“. Wenn Sie mehrere Seiten derselben Website bündeln, aktivieren Sie „Kopfzeile, Menü und Fußzeile, die sich auf jeder Seite wiederholen, nur auf der ersten Seite behalten“. „Werbung weglassen“ ist von Anfang an aktiviert und macht die Datei kleiner; schalten Sie es aus, um die Werbeflächen zu behalten.",
             "Bei Webseiten erlauben Sie auf Nachfrage den Zugriff auf die Seiten, die Stylesheets und Bilder ausliefern. Die Nachfrage erfolgt nur einmal für alle. Jede Seite wird in einem Tab geöffnet und bis zum Ende gescrollt, damit auch Bilder und Inhalte erfasst werden, die erst beim Scrollen nachladen.",
-            "Speichern Sie. Öffnen Sie die HTML-Datei: Mit Inhaltsverzeichnis und Suche wechseln Sie zwischen den Seiten. Jede Seite zeigt die Adresse, von der sie stammt, und den Zeitpunkt der Erfassung. Der Bericht listet Bilder oder Teile auf, die nicht übernommen werden konnten."
+            "Speichern Sie. Öffnen Sie die HTML-Datei: Mit Inhaltsverzeichnis und Suche wechseln Sie zwischen den Seiten. Jede Seite zeigt die Adresse, von der sie stammt, und den Zeitpunkt der Erfassung. Aktivieren Sie „Erfassungsangaben und Fehlerliste einfügen“, wenn die Datei auch Bilder oder Teile auflisten soll, die nicht übernommen werden konnten."
           ],
           "faq": [
             {
@@ -1467,7 +1467,7 @@
               ],
               [
                 "Kopfzeile, Menüs und Fußzeile",
-                "Auf der ersten Seite erhalten; auf den folgenden Seiten standardmäßig weggelassen",
+                "Standardmäßig auf jeder Seite erhalten; per Option nur auf der ersten Seite",
                 "Weggelassen"
               ],
               [
@@ -1517,7 +1517,7 @@
               ],
               [
                 "Eine kleinere Datei",
-                "Dasselbe Stylesheet, Bild oder dieselbe Schrift, die auf vielen Seiten genutzt wird, wird nur einmal abgelegt. Optional werden Werbeplätze von Werbenetzwerken weggelassen."
+                "Dasselbe Stylesheet, Bild oder dieselbe Schrift, die auf vielen Seiten genutzt wird, wird nur einmal abgelegt. Werbeplätze von Werbenetzwerken werden standardmäßig weggelassen; Sie können sie auch behalten."
               ]
             ]
           }
@@ -1536,9 +1536,9 @@
           ],
           "steps": [
             "Apri Grab All Files e scegli «Unisci pagine in HTML». Parti dalla pagina aperta nel browser, lascia che l’estensione trovi le pagine correlate oppure cambia la fonte in «Da una cartella del computer» per una cartella o uno ZIP di file HTML.",
-            "Controlla le pagine da includere. Sotto «Aspetto», scegli «Mantieni l’aspetto originale». Lascia attiva l’opzione «Mantieni solo nella prima pagina intestazione, menu e piè di pagina ripetuti su ogni pagina» e attiva «Ometti gli annunci» se vuoi un file più leggero.",
+            "Controlla le pagine da includere. Sotto «Aspetto», scegli «Mantieni l’aspetto originale». Se unisci più pagine dello stesso sito, attiva «Mantieni solo nella prima pagina intestazione, menu e piè di pagina ripetuti su ogni pagina». «Ometti gli annunci» è attivo fin dall’inizio per un file più leggero; disattivalo se vuoi conservare gli spazi pubblicitari.",
             "Per le pagine web, quando richiesto, consenti l’accesso ai siti che forniscono i fogli di stile e le immagini. La richiesta viene fatta una sola volta per tutti. Ogni pagina viene aperta in una scheda e fatta scorrere fino in fondo, così da includere le immagini e i contenuti che si caricano durante lo scorrimento.",
-            "Salva. Apri l’HTML: usa l’indice e la ricerca per spostarti tra le pagine. Ogni pagina mostra l’indirizzo di provenienza e quando è stata acquisita. Il report elenca le immagini o le parti che non è stato possibile conservare."
+            "Salva. Apri l’HTML: usa l’indice e la ricerca per spostarti tra le pagine. Ogni pagina mostra l’indirizzo di provenienza e quando è stata acquisita. Attiva «Includi i dati della raccolta e l’elenco degli errori» se vuoi che il file elenchi anche le immagini o le parti che non è stato possibile conservare."
           ],
           "faq": [
             {
@@ -1643,7 +1643,7 @@
               ],
               [
                 "Intestazione, menu e piè di pagina",
-                "Mantenuti nella prima pagina; omessi di default nelle pagine successive",
+                "Mantenuti su ogni pagina di default; un’opzione li lascia solo nella prima",
                 "Omessi"
               ],
               [
@@ -1693,7 +1693,7 @@
               ],
               [
                 "Un file più leggero",
-                "Lo stesso foglio di stile, immagine o carattere usato in molte pagine viene memorizzato una sola volta. In via facoltativa, gli spazi pubblicitari delle reti pubblicitarie vengono omessi."
+                "Lo stesso foglio di stile, immagine o carattere usato in molte pagine viene memorizzato una sola volta. Gli spazi pubblicitari delle reti pubblicitarie vengono omessi di default, e puoi conservarli se preferisci."
               ]
             ]
           }
@@ -1712,9 +1712,9 @@
           ],
           "steps": [
             "Grab All Files를 열고 “페이지를 HTML로 합치기”를 선택합니다. 브라우저에서 열려 있는 페이지에서 시작하거나, 확장 프로그램이 관련 페이지를 찾게 하거나, 소스를 “컴퓨터 폴더에서”로 바꿔 HTML 파일이 든 폴더나 ZIP을 선택합니다.",
-            "포함할 페이지를 확인합니다. “보기”에서 “원래 모양 그대로”를 선택하세요. “모든 페이지에 반복되는 헤더·메뉴·푸터는 첫 페이지에만 남기기”는 켜 둔 채로 두고, 파일을 더 가볍게 하려면 “광고 제외”를 켭니다.",
+            "포함할 페이지를 확인합니다. “보기”에서 “원래 모양 그대로”를 선택하세요. 같은 사이트의 여러 페이지를 합칠 때는 “모든 페이지에 반복되는 헤더·메뉴·푸터는 첫 페이지에만 남기기”를 켭니다. “광고 제외”는 처음부터 켜져 있어 파일이 가벼워집니다. 광고 영역도 남기려면 끄세요.",
             "웹페이지의 경우 스타일시트와 이미지를 제공하는 사이트에 대한 접근 권한을 요청하면 허용해 주세요. 한 번에 모두 요청합니다. 각 페이지는 탭에서 열려 끝까지 스크롤되므로 스크롤할 때 불러오는 이미지와 콘텐츠도 포함됩니다.",
-            "저장합니다. HTML을 열어 목차와 검색으로 페이지 사이를 이동하세요. 각 페이지에는 가져온 주소와 저장한 시각이 표시됩니다. 보관하지 못한 이미지나 부분은 보고서에 나열됩니다."
+            "저장합니다. HTML을 열어 목차와 검색으로 페이지 사이를 이동하세요. 각 페이지에는 가져온 주소와 저장한 시각이 표시됩니다. 보관하지 못한 이미지나 부분의 목록도 파일에 넣으려면 “수집 정보와 실패 목록 넣기”을 켭니다."
           ],
           "faq": [
             {
@@ -1819,7 +1819,7 @@
               ],
               [
                 "헤더, 메뉴, 푸터",
-                "첫 페이지에는 유지하고, 이후 페이지에서는 기본적으로 제외",
+                "기본적으로 모든 페이지에 유지하고, 옵션으로 첫 페이지에만 남길 수 있음",
                 "제외"
               ],
               [
@@ -1869,7 +1869,7 @@
               ],
               [
                 "더 가벼운 파일",
-                "여러 페이지에서 쓰는 같은 스타일시트, 이미지, 글꼴은 한 번만 저장됩니다. 선택하면 광고 네트워크의 광고 영역도 제외할 수 있습니다."
+                "여러 페이지에서 쓰는 같은 스타일시트, 이미지, 글꼴은 한 번만 저장됩니다. 광고 네트워크의 광고 영역은 기본적으로 제외하며, 남길 수도 있습니다."
               ]
             ]
           }
@@ -1888,9 +1888,9 @@
           ],
           "steps": [
             "Abra o Grab All Files e escolha “Juntar páginas em HTML”. Comece pela página aberta no navegador, deixe a extensão encontrar páginas relacionadas ou mude a origem para “De uma pasta do computador” para usar uma pasta ou um ZIP de arquivos HTML.",
-            "Confira as páginas que serão incluídas. Em “Aparência”, escolha “Manter a aparência original”. Deixe ativada a opção “Manter só na primeira página o cabeçalho, o menu e o rodapé repetidos em todas” e ative “Deixar de fora os anúncios” se quiser um arquivo mais leve.",
+            "Confira as páginas que serão incluídas. Em “Aparência”, escolha “Manter a aparência original”. Ao juntar várias páginas do mesmo site, ative “Manter só na primeira página o cabeçalho, o menu e o rodapé repetidos em todas”. “Deixar de fora os anúncios” já vem ativado para um arquivo mais leve; desative se quiser manter os espaços de anúncios.",
             "Para páginas da web, permita o acesso aos sites que fornecem as folhas de estilo e as imagens quando for solicitado. A permissão é pedida uma única vez para todos. Cada página é aberta em uma aba e rolada até o fim, para incluir as imagens e o conteúdo que carregam durante a rolagem.",
-            "Salve. Abra o HTML e use o sumário e a busca para navegar entre as páginas. Cada página mostra o endereço de origem e quando foi capturada. O relatório lista qualquer imagem ou parte que não pôde ser mantida."
+            "Salve. Abra o HTML e use o sumário e a busca para navegar entre as páginas. Cada página mostra o endereço de origem e quando foi capturada. Ative “Incluir os dados da coleta e a lista de falhas” se quiser que o arquivo também liste as imagens ou partes que não puderam ser mantidas."
           ],
           "faq": [
             {
@@ -1995,7 +1995,7 @@
               ],
               [
                 "Cabeçalho, menus e rodapé",
-                "Mantidos na primeira página; omitidos nas páginas seguintes por padrão",
+                "Mantidos em todas as páginas por padrão; uma opção os deixa só na primeira",
                 "Omitidos"
               ],
               [
@@ -2045,7 +2045,7 @@
               ],
               [
                 "Um arquivo mais leve",
-                "A mesma folha de estilo, imagem ou fonte usada em várias páginas é guardada uma só vez. Opcionalmente, os espaços de anúncios de redes de publicidade ficam de fora."
+                "A mesma folha de estilo, imagem ou fonte usada em várias páginas é guardada uma só vez. Os espaços de anúncios de redes de publicidade ficam de fora por padrão, e você pode mantê-los se preferir."
               ]
             ]
           }
@@ -2064,9 +2064,9 @@
           ],
           "steps": [
             "打开 Grab All Files,选择“将网页合并为 HTML”。可以从浏览器当前打开的网页开始,让扩展自动查找相关网页,也可以把来源切换为“从电脑文件夹”,选择包含 HTML 文件的文件夹或 ZIP。",
-            "确认要包含的网页。在“外观”中选择“保持原样”。保持开启“每页重复的页眉、菜单和页脚只保留在第一页”;如果想让文件更小,可以开启“不保存广告”。",
+            "确认要包含的网页。在“外观”中选择“保持原样”。合并同一网站的多个网页时,请开启“每页重复的页眉、菜单和页脚只保留在第一页”。“不保存广告”默认开启,可让文件更小;如需保留广告位,请将其关闭。",
             "对于网页,当系统请求访问提供样式表和图片的网站时,请予以允许。所有网站只会请求一次。每个网页都会在标签页中打开并滚动到底部,这样滚动时才加载的图片和内容也会被包含进来。",
-            "保存。打开 HTML 后,可通过目录和搜索在各网页之间切换。每个网页都会显示来源网址和抓取时间。报告会列出未能保留的图片或部分。"
+            "保存。打开 HTML 后,可通过目录和搜索在各网页之间切换。每个网页都会显示来源网址和抓取时间。如果还想在文件中列出未能保留的图片或部分,请开启“包含采集信息和失败列表”。"
           ],
           "faq": [
             {
@@ -2171,7 +2171,7 @@
               ],
               [
                 "页眉、菜单和页脚",
-                "保留在第一页;后续页面默认不保存",
+                "默认在所有页面保留;可通过选项只保留在第一页",
                 "不保存"
               ],
               [
@@ -2221,7 +2221,7 @@
               ],
               [
                 "更小的文件",
-                "多个网页使用的同一个样式表、图片或字体只存储一份。还可以选择不保存广告联盟的广告位。"
+                "多个网页使用的同一个样式表、图片或字体只存储一份。广告联盟的广告位默认不保存,也可以选择保留。"
               ]
             ]
           }
@@ -2240,9 +2240,9 @@
           ],
           "steps": [
             "開啟 Grab All Files,選擇「將網頁合併為 HTML」。可以從瀏覽器目前開啟的網頁開始,讓擴充功能自動尋找相關網頁,也可以將來源切換為「從電腦資料夾」,選擇包含 HTML 檔案的資料夾或 ZIP。",
-            "確認要納入的網頁。在「外觀」中選擇「保持原樣」。維持開啟「每頁重複的頁首、選單和頁尾只保留在第一頁」;如果想讓檔案更小,可以開啟「不保存廣告」。",
+            "確認要納入的網頁。在「外觀」中選擇「保持原樣」。合併同一網站的多個網頁時,請開啟「每頁重複的頁首、選單和頁尾只保留在第一頁」。「不保存廣告」預設為開啟,可讓檔案更小;如需保留廣告版位,請將其關閉。",
             "對於網頁,當系統要求存取提供樣式表與圖片的網站時,請予以允許。所有網站只會詢問一次。每個網頁都會在分頁中開啟並捲動到底部,讓捲動時才載入的圖片與內容也能納入。",
-            "儲存。開啟 HTML 後,可透過目錄與搜尋在各網頁之間切換。每個網頁都會顯示來源網址與擷取時間。報告會列出未能保留的圖片或部分。"
+            "儲存。開啟 HTML 後,可透過目錄與搜尋在各網頁之間切換。每個網頁都會顯示來源網址與擷取時間。如果也想在檔案中列出未能保留的圖片或部分,請開啟「包含擷取資訊與失敗清單」。"
           ],
           "faq": [
             {
@@ -2347,7 +2347,7 @@
               ],
               [
                 "頁首、選單與頁尾",
-                "保留在第一頁;後續頁面預設不保存",
+                "預設在所有頁面保留;可透過選項只保留在第一頁",
                 "不保存"
               ],
               [
@@ -2397,7 +2397,7 @@
               ],
               [
                 "更小的檔案",
-                "多個網頁使用的同一個樣式表、圖片或字型只儲存一份。也可以選擇不保存廣告聯播網的廣告版位。"
+                "多個網頁使用的同一個樣式表、圖片或字型只儲存一份。廣告聯播網的廣告版位預設不保存,也可以選擇保留。"
               ]
             ]
           }
@@ -15206,7 +15206,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "“From a computer folder” in Combine pages into HTML: choose a folder or ZIP file, or drag it onto the screen",
-      "save-web-pages-with-original-design": "“Look” in Combine pages into HTML: “Keep the original look” chosen, with the repeated header, menu and footer kept on the first page only",
+      "save-web-pages-with-original-design": "“Look” in Combine pages into HTML: “Keep the original look” chosen, with ads left out (the default)",
       "web-tables-to-csv-for-excel-ai": "Table CSV/JSON export settings",
       "save-and-compare-document-revisions": "Menu for saving a change report",
       "rename-and-organize-bulk-pdf-downloads": "Reviewed PDF titles, save names and folder options",
@@ -15238,7 +15238,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "「ページをHTMLにまとめる」の「パソコンのフォルダから」：フォルダかZIPファイルを選ぶか、画面へドラッグ",
-      "save-web-pages-with-original-design": "「ページをHTMLにまとめる」の「見た目」：「元の見た目のまま」を選び、共通のヘッダー・メニュー・フッターは最初のページだけに残す設定",
+      "save-web-pages-with-original-design": "「ページをHTMLにまとめる」の「見た目」：「元の見た目のまま」を選び、「広告を省く」がオン（既定）の状態",
       "web-tables-to-csv-for-excel-ai": "表のCSV/JSON出力設定",
       "save-and-compare-document-revisions": "差分レポートを保存するメニュー",
       "rename-and-organize-bulk-pdf-downloads": "PDF題名の確認・保存名・フォルダ分けの選択",
@@ -15270,7 +15270,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "Modo de carpeta del equipo en la combinación de páginas: elige una carpeta o un ZIP, o arrástralo a la pantalla",
-      "save-web-pages-with-original-design": "«Aspecto» al combinar páginas en HTML: «Mantener el aspecto original» elegido, con el encabezado, el menú y el pie repetidos solo en la primera página",
+      "save-web-pages-with-original-design": "«Aspecto» al combinar páginas en HTML: «Mantener el aspecto original» elegido, con los anuncios omitidos (opción predeterminada)",
       "web-tables-to-csv-for-excel-ai": "Configuración de tablas CSV/JSON",
       "save-and-compare-document-revisions": "Menú para guardar un informe de cambios",
       "rename-and-organize-bulk-pdf-downloads": "Títulos PDF revisados, nombres y carpetas",
@@ -15302,7 +15302,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "Mode dossier de l’ordinateur dans le regroupement de pages : choisissez un dossier ou un ZIP, ou faites-le glisser",
-      "save-web-pages-with-original-design": "« Apparence » dans le regroupement de pages en HTML : « Garder l’apparence d’origine » choisi, l’en-tête, le menu et le pied de page répétés n’étant gardés que sur la première page",
+      "save-web-pages-with-original-design": "« Apparence » dans le regroupement de pages en HTML : « Garder l’apparence d’origine » choisi, publicités omises (réglage par défaut)",
       "web-tables-to-csv-for-excel-ai": "Paramètres d’export des tableaux CSV/JSON",
       "save-and-compare-document-revisions": "Menu pour enregistrer un rapport de changements",
       "rename-and-organize-bulk-pdf-downloads": "Titres PDF vérifiés, noms et dossiers",
@@ -15334,7 +15334,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "Ordnermodus beim Bündeln von Seiten: Ordner oder ZIP-Datei wählen oder auf den Bildschirm ziehen",
-      "save-web-pages-with-original-design": "„Aussehen“ beim Bündeln von Seiten als HTML: „Ursprüngliches Aussehen behalten“ gewählt, wiederholte Kopfzeile, Menü und Fußzeile nur auf der ersten Seite",
+      "save-web-pages-with-original-design": "„Aussehen“ beim Bündeln von Seiten als HTML: „Ursprüngliches Aussehen behalten“ gewählt, Werbung weggelassen (Standard)",
       "web-tables-to-csv-for-excel-ai": "CSV/JSON-Einstellungen für Tabellen",
       "save-and-compare-document-revisions": "Menü zum Speichern eines Änderungsberichts",
       "rename-and-organize-bulk-pdf-downloads": "Geprüfte PDF-Titel, Dateinamen und Ordneroptionen",
@@ -15366,7 +15366,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "Modalità cartella del computer nell’unione di pagine: scegli una cartella o un file ZIP, oppure trascinalo",
-      "save-web-pages-with-original-design": "«Aspetto» nell’unione di pagine in HTML: scelto «Mantieni l’aspetto originale», con intestazione, menu e piè di pagina ripetuti solo nella prima pagina",
+      "save-web-pages-with-original-design": "«Aspetto» nell’unione di pagine in HTML: scelto «Mantieni l’aspetto originale», con gli annunci omessi (impostazione predefinita)",
       "web-tables-to-csv-for-excel-ai": "Impostazioni di esportazione tabelle CSV/JSON",
       "save-and-compare-document-revisions": "Menu per salvare un rapporto delle modifiche",
       "rename-and-organize-bulk-pdf-downloads": "Titoli PDF verificati, nomi e cartelle",
@@ -15398,7 +15398,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "페이지 합치기의 컴퓨터 폴더 모드: 폴더나 ZIP 파일을 선택하거나 화면으로 끌어 놓기",
-      "save-web-pages-with-original-design": "페이지를 HTML로 합치기의 “보기”: “원래 모양 그대로”를 선택하고, 반복되는 헤더·메뉴·푸터는 첫 페이지에만 남기는 설정",
+      "save-web-pages-with-original-design": "페이지를 HTML로 합치기의 “보기”: “원래 모양 그대로”를 선택하고 “광고 제외”가 켜진(기본값) 상태",
       "web-tables-to-csv-for-excel-ai": "표의 CSV/JSON 출력 설정",
       "save-and-compare-document-revisions": "변경 보고서를 저장하는 메뉴",
       "rename-and-organize-bulk-pdf-downloads": "PDF 제목 확인·저장 이름·폴더 옵션",
@@ -15430,7 +15430,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "Modo de pasta do computador ao juntar páginas: escolha uma pasta ou um ZIP, ou arraste para a tela",
-      "save-web-pages-with-original-design": "“Aparência” ao juntar páginas em HTML: “Manter a aparência original” escolhido, com o cabeçalho, o menu e o rodapé repetidos só na primeira página",
+      "save-web-pages-with-original-design": "“Aparência” ao juntar páginas em HTML: “Manter a aparência original” escolhido, com os anúncios de fora (padrão)",
       "web-tables-to-csv-for-excel-ai": "Configurações de tabelas CSV/JSON",
       "save-and-compare-document-revisions": "Menu para salvar um relatório de alterações",
       "rename-and-organize-bulk-pdf-downloads": "Títulos PDF conferidos, nomes e pastas",
@@ -15462,7 +15462,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "网页合并中的“电脑文件夹”模式：选择文件夹或ZIP文件，或拖到界面上",
-      "save-web-pages-with-original-design": "“将网页合并为 HTML”中的“外观”：选择“保持原样”，每页重复的页眉、菜单和页脚只保留在第一页",
+      "save-web-pages-with-original-design": "“将网页合并为 HTML”中的“外观”：选择“保持原样”，“不保存广告”为开启（默认）",
       "web-tables-to-csv-for-excel-ai": "表格CSV/JSON输出设置",
       "save-and-compare-document-revisions": "保存变化报告的菜单",
       "rename-and-organize-bulk-pdf-downloads": "PDF标题核对、保存名称与文件夹选项",
@@ -15494,7 +15494,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "網頁合併中的「電腦資料夾」模式：選擇資料夾或ZIP檔案，或拖曳到畫面上",
-      "save-web-pages-with-original-design": "「將網頁合併為 HTML」中的「外觀」：選擇「保持原樣」，每頁重複的頁首、選單和頁尾只保留在第一頁",
+      "save-web-pages-with-original-design": "「將網頁合併為 HTML」中的「外觀」：選擇「保持原樣」，「不保存廣告」為開啟（預設）",
       "web-tables-to-csv-for-excel-ai": "表格CSV/JSON輸出設定",
       "save-and-compare-document-revisions": "儲存變更報告的選單",
       "rename-and-organize-bulk-pdf-downloads": "PDF標題核對、儲存名稱與資料夾選項",
