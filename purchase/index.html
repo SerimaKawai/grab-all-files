@@ -79,6 +79,8 @@
     .panel h3 { font-size: 0.95rem; font-weight: 600; color: var(--text-strong); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.5rem; letter-spacing: -0.005em; }
     .panel h3 .num { width: 22px; height: 22px; border-radius: 50%; background: var(--accent-soft); color: var(--accent-soft-text); display: inline-flex; align-items: center; justify-content: center; font-size: 0.78rem; font-weight: 700; flex-shrink: 0; }
     .panel p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; }
+    .panel ol.steps { margin: 0.1rem 0 0 1.15rem; display: grid; gap: 0.35rem; }
+    .panel ol.steps li { font-size: 0.88rem; color: var(--text-muted); line-height: 1.55; padding-left: 0.15rem; }
 
     .trial-strip { display: flex; align-items: center; gap: 0.5rem; background: var(--accent-soft); color: var(--accent-soft-text); padding: 0.7rem 0.9rem; border-radius: 10px; font-size: 0.84rem; font-weight: 500; flex-wrap: wrap; }
     .trial-strip .day { background: #fff; color: var(--primary); padding: 0.1rem 0.5rem; border-radius: 999px; font-weight: 700; font-size: 0.78rem; }
@@ -173,25 +175,25 @@
   <!-- Each language has its own grid with order summary + checkout panel. -->
   <!-- IDs cc-0..cc-9 and pb-0..pb-9 must stay stable for the existing JS. -->
 
-  <div class="grid" data-lang="en">
+  <div class="grid active" data-lang="en">
     <div class="order">
-      <span class="ribbon">Free saves up to 10 files per run and 1 page — Pro removes the cap and combines pages</span>
+      <span class="ribbon">Free saves up to 10 files per download and 1 page — Pro removes the cap and combines pages</span>
       <div class="head"><img src="../favicon-128.png" alt="" width="42" height="42"><div><h1>Grab All Files</h1><div class="sub">Lifetime license · Chrome™, Edge™ &amp; Firefox™</div></div></div>
       <div class="price-row"><span class="price">$19.99</span><span class="ccy">USD</span><span class="strike">One-time payment</span></div>
       <p class="price-sub">No subscription. No auto-renew. Pay once, keep forever.</p>
       <ul>
-        <li>Activates on up to <strong>3 devices</strong> per license</li>
-        <li>Removes the Free plan's 10-file-per-run cap</li>
+        <li>Activates on up to <strong>3 devices</strong> per license (one device = one browser profile on one computer; to move to a new computer, remove the old device on the extension's license screen)</li>
+        <li>Removes the Free plan's 10-files-per-download cap</li>
         <li>Selects multiple related pages and combines their readable content into one searchable HTML</li>
-        <li>Future updates included — Manifest V3 ready</li>
-        <li>Local processing — no upload, no server</li>
+        <li>Future updates included — for Chrome / Edge 111+ and Firefox 128+</li>
+        <li>Your files are processed on your device and never uploaded — only license checks reach our server</li>
         <li>10 UI languages (EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW)</li>
       </ul>
     </div>
     <div class="checkout">
       <div class="panel"><h3><span class="num">1</span>Free plan — no trial, no expiry</h3>
-        <div class="trial-strip"><span class="day">Install</span>Free: 10 files per run + 1 chosen page →<span class="day">Pro</span>No file cap + multi-page HTML</div>
-        <p style="margin-top:.7rem">Free can be used forever: bulk-save up to 10 files per run and choose exactly one related candidate page to save as HTML. Images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro removes the file cap and combines multiple selected page bodies into one HTML.</p>
+        <div class="trial-strip"><span class="day">Install</span>Free: 10 files per download + 1 chosen page →<span class="day">Pro</span>No file cap + multi-page HTML</div>
+        <p style="margin-top:.7rem">Free can be used forever: save up to 10 files per download (select the next ones and click Download again) and choose exactly one related candidate page to save as HTML. ZIP, PDF merge, rename/organize, and CSV/JSON export of links are free too. Images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro removes the file cap and combines multiple selected page bodies into one HTML.</p>
       </div>
       <div class="panel"><h3><span class="num">2</span>Confirm &amp; pay</h3>
         <div class="consent">
@@ -201,11 +203,14 @@
         <button type="button" class="pay-btn" id="pb-0" disabled><span class="lock" aria-hidden="true">🔒</span>Proceed to secure payment — $19.99<span class="arrow" aria-hidden="true">→</span></button>
         <div class="pay-meta">After purchase, your license key will be sent to your email.</div>
       </div>
+      <div class="panel"><h3><span class="num">3</span>How activation works</h3>
+        <ol class="steps"><li>Pay by card on <strong>Stripe Checkout</strong> (tax included).</li><li>Your license key is shown on the next page and also e-mailed to you.</li><li>In the extension, click <strong>Free</strong> at the top right (or <strong>⋯</strong> → <strong>Pro &amp; license key</strong>), paste the key, and click <strong>Activate</strong>.</li></ol>
+      </div>
       <div class="trust-row">
         <div class="t"><h4><span class="ic">🔒</span>Secure checkout</h4><p>Powered by <strong>Stripe</strong>. Card details never touch our servers.</p></div>
         <div class="t"><h4><span class="ic">📨</span>Instant delivery</h4><p>License key arrives in your inbox within seconds.</p></div>
         <div class="t"><h4><span class="ic">↺</span>30-day defect refund</h4><p>If a technical defect prevents use, contact within 30 days for a full refund.</p></div>
-        <div class="t"><h4><span class="ic">🌐</span>Sold by</h4><p>Serima Kawai (sole proprietor, Japan). Independent.</p></div>
+        <div class="t"><h4><span class="ic">🌐</span>Sold by</h4><p>Serima Kawai (sole proprietor, Japan). Independent developer — not affiliated with Google, Microsoft or Mozilla.</p></div>
       </div>
       <p class="links"><a href="../terms.html">Terms of Service</a> · <a href="../privacy-policy.html">Privacy Policy</a> · <a href="../legal.html">Legal Notice</a></p>
     </div>
@@ -213,23 +218,23 @@
 
   <div class="grid" data-lang="ja">
     <div class="order">
-      <span class="ribbon">無料版は1回10ファイル＋選んだ1ページ — Proは上限解除＋複数ページ結合</span>
+      <span class="ribbon">無料版は1回のダウンロードで10ファイル＋選んだ1ページ — Proは上限解除＋複数ページ結合</span>
       <div class="head"><img src="../favicon-128.png" alt="" width="42" height="42"><div><h1>ファイル一括ダウンロード</h1><div class="sub">永続ライセンス · Chrome™ / Edge™ / Firefox™ 対応</div></div></div>
       <div class="price-row"><span class="price">$19.99</span><span class="ccy">USD</span><span class="strike">買い切り（一度のみ）</span></div>
       <p class="price-sub">サブスクなし・自動更新なし。一度の購入で永続利用。</p>
       <ul>
-        <li>1ライセンスで最大 <strong>3台</strong> まで有効化</li>
-        <li>無料版の「1回10ファイル」上限を解除</li>
+        <li>1ライセンスで最大 <strong>3台</strong> まで有効化（1台＝1台のPC上の1つのブラウザプロファイル。新しいPCへ移すときは、拡張機能のライセンス画面で古いデバイスを削除）</li>
+        <li>無料版の「1回のダウンロードで10ファイル」上限を解除</li>
         <li>複数の関連候補ページを選択し、読みやすい本文を検索可能な1つのHTMLに結合</li>
-        <li>今後のアップデート込み（Manifest V3 対応）</li>
-        <li>ローカル処理 — アップロード/サーバー送信なし</li>
+        <li>今後のアップデート込み — Chrome / Edge 111以降、Firefox 128以降に対応</li>
+        <li>ファイルはお使いの端末内で処理し、アップロードしません（当方サーバーと通信するのはライセンス確認のみ）</li>
         <li>10言語UI（EN/JA/ES/FR/DE/IT/KO/PT-BR/ZH-CN/ZH-TW）</li>
       </ul>
     </div>
     <div class="checkout">
       <div class="panel"><h3><span class="num">1</span>無料プラン — トライアルではなく期限なし</h3>
         <div class="trial-strip"><span class="day">インストール</span>無料版：1回10ファイル＋選んだ1ページ →<span class="day">Pro</span>上限解除＋複数ページHTML</div>
-        <p style="margin-top:.7rem">無料版は期限なく利用でき、ファイルを1回10件まで保存し、関連候補から常に1ページだけ選んでHTML保存できます。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Proはファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。</p>
+        <p style="margin-top:.7rem">無料版は期限なく利用でき、1回のダウンロードでファイルを10件まで保存し（続けるときは次のファイルを選んで、もう一度「ダウンロード」を押します）、関連候補から常に1ページだけ選んでHTML保存できます。ZIP・PDF結合・名前変更/整理・リンクのCSV/JSON書き出しも無料です。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Proはファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。</p>
       </div>
       <div class="panel"><h3><span class="num">2</span>確認してお支払い</h3>
         <div class="consent">
@@ -239,11 +244,14 @@
         <button type="button" class="pay-btn" id="pb-1" disabled><span class="lock" aria-hidden="true">🔒</span>安全な決済へ進む — $19.99<span class="arrow" aria-hidden="true">→</span></button>
         <div class="pay-meta">購入後、ライセンスキーがメールで送信されます。</div>
       </div>
+      <div class="panel"><h3><span class="num">3</span>有効化の流れ</h3>
+        <ol class="steps"><li><strong>Stripe Checkout</strong> でカード決済（税込）。</li><li>ライセンスキーが次の画面に表示され、メールでも届きます。</li><li>拡張機能の右上の<strong>「無料」</strong>（または<strong>「⋯」</strong>→<strong>「Pro・ライセンスキー」</strong>）を押し、キーを貼り付けて<strong>「有効化」</strong>を押します。</li></ol>
+      </div>
       <div class="trust-row">
         <div class="t"><h4><span class="ic">🔒</span>安全な決済</h4><p>決済は <strong>Stripe</strong>。カード情報は当方サーバーに到達しません。</p></div>
         <div class="t"><h4><span class="ic">📨</span>即時お届け</h4><p>ライセンスキーは数秒でメール到着。</p></div>
         <div class="t"><h4><span class="ic">↺</span>30日不具合返金</h4><p>技術的な不具合で動作しない場合、30日以内のご連絡で全額返金。</p></div>
-        <div class="t"><h4><span class="ic">🌐</span>販売者</h4><p>Serima Kawai（個人事業主、日本）。独立した製品。</p></div>
+        <div class="t"><h4><span class="ic">🌐</span>販売者</h4><p>Serima Kawai（個人事業主、日本）。独立した個人開発者で、Google・Microsoft・Mozillaとは提携していません。</p></div>
       </div>
       <p class="links"><a href="../terms.html">利用規約</a> · <a href="../privacy-policy.html">プライバシーポリシー</a> · <a href="../legal.html">特定商取引法に基づく表記</a></p>
     </div>
@@ -251,23 +259,23 @@
 
   <div class="grid" data-lang="es">
     <div class="order">
-      <span class="ribbon">Free: 10 archivos por ejecución y 1 página — Pro elimina el límite y combina páginas</span>
+      <span class="ribbon">Free: 10 archivos por descarga y 1 página — Pro elimina el límite y combina páginas</span>
       <div class="head"><img src="../favicon-128.png" alt="" width="42" height="42"><div><h1>Descargar todos los archivos</h1><div class="sub">Licencia de por vida · Chrome™, Edge™ y Firefox™</div></div></div>
       <div class="price-row"><span class="price">$19.99</span><span class="ccy">USD</span><span class="strike">Pago único</span></div>
       <p class="price-sub">Sin suscripción. Sin renovación automática. Paga una vez, conserva para siempre.</p>
       <ul>
-        <li>Activa hasta en <strong>3 dispositivos</strong> por licencia</li>
-        <li>Elimina el límite de 10 archivos por ejecución del plan Free</li>
+        <li>Activa hasta en <strong>3 dispositivos</strong> por licencia (un dispositivo = un perfil de navegador en un ordenador; para pasar a otro ordenador, elimina el dispositivo antiguo en la pantalla de licencia de la extensión)</li>
+        <li>Elimina el límite de 10 archivos por descarga del plan Free</li>
         <li>Selecciona varias páginas relacionadas y combina su contenido legible en un solo HTML con búsqueda</li>
-        <li>Actualizaciones futuras incluidas — compatible con Manifest V3</li>
-        <li>Procesamiento local — sin subida, sin servidor</li>
+        <li>Actualizaciones futuras incluidas — para Chrome / Edge 111+ y Firefox 128+</li>
+        <li>Tus archivos se procesan en tu dispositivo y nunca se suben; solo la verificación de la licencia llega a nuestro servidor</li>
         <li>10 idiomas de interfaz (EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW)</li>
       </ul>
     </div>
     <div class="checkout">
       <div class="panel"><h3><span class="num">1</span>Plan Free — sin prueba ni caducidad</h3>
         <div class="trial-strip"><span class="day">Instalar</span>Free: 10 archivos + 1 página elegida →<span class="day">Pro</span>Sin límite + HTML multipágina</div>
-        <p style="margin-top:.7rem">Free se puede usar siempre: guarda hasta 10 archivos por ejecución y exactamente una página candidata elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro elimina el límite de archivos y combina el contenido de varias páginas seleccionadas.</p>
+        <p style="margin-top:.7rem">Free se puede usar siempre: guarda hasta 10 archivos en cada descarga (selecciona los siguientes y vuelve a hacer clic en Descargar) y exactamente una página candidata elegida como HTML. ZIP, unión de PDF, renombrar/organizar y exportar enlaces a CSV/JSON también son gratis. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro elimina el límite de archivos y combina el contenido de varias páginas seleccionadas.</p>
       </div>
       <div class="panel"><h3><span class="num">2</span>Confirma y paga</h3>
         <div class="consent">
@@ -277,11 +285,14 @@
         <button type="button" class="pay-btn" id="pb-2" disabled><span class="lock" aria-hidden="true">🔒</span>Pago seguro — $19.99<span class="arrow" aria-hidden="true">→</span></button>
         <div class="pay-meta">Después de la compra, tu clave de licencia se enviará a tu correo electrónico.</div>
       </div>
+      <div class="panel"><h3><span class="num">3</span>Cómo se activa</h3>
+        <ol class="steps"><li>Paga con tarjeta en <strong>Stripe Checkout</strong> (impuestos incluidos).</li><li>Tu clave de licencia aparece en la página siguiente y también te llega por correo electrónico.</li><li>En la extensión, haz clic en <strong>Gratis</strong> arriba a la derecha (o en <strong>⋯</strong> → <strong>Pro y clave de licencia</strong>), pega la clave y haz clic en <strong>Activar</strong>.</li></ol>
+      </div>
       <div class="trust-row">
         <div class="t"><h4><span class="ic">🔒</span>Pago seguro</h4><p>Procesado por <strong>Stripe</strong>. Los datos de tarjeta no pasan por nuestros servidores.</p></div>
         <div class="t"><h4><span class="ic">📨</span>Entrega inmediata</h4><p>La clave de licencia llega a tu bandeja en segundos.</p></div>
         <div class="t"><h4><span class="ic">↺</span>Reembolso de 30 días por defecto técnico</h4><p>Si un defecto técnico impide el uso, contáctanos en 30 días para reembolso completo.</p></div>
-        <div class="t"><h4><span class="ic">🌐</span>Vendido por</h4><p>Serima Kawai (empresario individual, Japón). Independiente.</p></div>
+        <div class="t"><h4><span class="ic">🌐</span>Vendido por</h4><p>Serima Kawai (empresario individual, Japón). Desarrollador independiente, sin afiliación con Google, Microsoft ni Mozilla.</p></div>
       </div>
       <p class="links"><a href="../terms.html">Términos de servicio</a> · <a href="../privacy-policy.html">Política de privacidad</a> · <a href="../legal.html">Información legal</a></p>
     </div>
@@ -289,23 +300,23 @@
 
   <div class="grid" data-lang="fr">
     <div class="order">
-      <span class="ribbon">Free : 10 fichiers par lot et 1 page — Pro lève le plafond et regroupe les pages</span>
+      <span class="ribbon">Free : 10 fichiers par téléchargement et 1 page — Pro lève le plafond et regroupe les pages</span>
       <div class="head"><img src="../favicon-128.png" alt="" width="42" height="42"><div><h1>Télécharger tous les fichiers</h1><div class="sub">Licence à vie · Chrome™, Edge™ et Firefox™</div></div></div>
       <div class="price-row"><span class="price">19,99 $</span><span class="ccy">USD</span><span class="strike">Paiement unique</span></div>
       <p class="price-sub">Sans abonnement. Sans renouvellement automatique. Payez une fois, gardez pour toujours.</p>
       <ul>
-        <li>Activation jusqu'à <strong>3 appareils</strong> par licence</li>
-        <li>Supprime la limite de 10 fichiers par lot du forfait Free</li>
+        <li>Activation jusqu'à <strong>3 appareils</strong> par licence (un appareil = un profil de navigateur sur un ordinateur ; pour passer à un nouvel ordinateur, supprimez l’ancien appareil dans l’écran de licence de l’extension)</li>
+        <li>Supprime la limite de 10 fichiers par téléchargement du forfait Free</li>
         <li>Sélectionne plusieurs pages associées et regroupe leur contenu lisible dans un HTML consultable</li>
-        <li>Mises à jour futures incluses — compatible Manifest V3</li>
-        <li>Traitement local — aucun envoi, aucun serveur</li>
+        <li>Mises à jour futures incluses — pour Chrome / Edge 111+ et Firefox 128+</li>
+        <li>Vos fichiers sont traités sur votre appareil et jamais envoyés — seule la vérification de licence contacte notre serveur</li>
         <li>10 langues d'interface (EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW)</li>
       </ul>
     </div>
     <div class="checkout">
       <div class="panel"><h3><span class="num">1</span>Forfait Free — sans essai ni expiration</h3>
         <div class="trial-strip"><span class="day">Installer</span>Free : 10 fichiers + 1 page choisie →<span class="day">Pro</span>Sans plafond + HTML multipage</div>
-        <p style="margin-top:.7rem">Free reste utilisable sans limite de durée : jusqu’à 10 fichiers par lot et exactement une page candidate choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; les fichiers directement liés sont enregistrés jusqu’à 10 par opération, et « Enregistrer les 10 suivants » sur l’écran de résultat enregistre le reste. Pro lève la limite de fichiers et regroupe le contenu de plusieurs pages sélectionnées.</p>
+        <p style="margin-top:.7rem">Free reste utilisable sans limite de durée : jusqu’à 10 fichiers par téléchargement (sélectionnez les suivants puis cliquez à nouveau sur Télécharger) et exactement une page candidate choisie en HTML. ZIP, fusion PDF, renommage/rangement et export des liens en CSV/JSON sont aussi gratuits. Les images de cette page n’ont pas de plafond lié au forfait ; les fichiers directement liés sont enregistrés jusqu’à 10 par opération, et « Enregistrer les 10 suivants » sur l’écran de résultat enregistre le reste. Pro lève la limite de fichiers et regroupe le contenu de plusieurs pages sélectionnées.</p>
       </div>
       <div class="panel"><h3><span class="num">2</span>Confirmer et payer</h3>
         <div class="consent">
@@ -315,11 +326,14 @@
         <button type="button" class="pay-btn" id="pb-3" disabled><span class="lock" aria-hidden="true">🔒</span>Paiement sécurisé — 19,99 $<span class="arrow" aria-hidden="true">→</span></button>
         <div class="pay-meta">Après achat, votre clé de licence sera envoyée par e-mail.</div>
       </div>
+      <div class="panel"><h3><span class="num">3</span>Comment activer Pro</h3>
+        <ol class="steps"><li>Payez par carte sur <strong>Stripe Checkout</strong> (taxes incluses).</li><li>Votre clé de licence s’affiche sur la page suivante et vous est aussi envoyée par e-mail.</li><li>Dans l’extension, cliquez sur <strong>Gratuit</strong> en haut à droite (ou <strong>⋯</strong> → <strong>Pro et clé de licence</strong>), collez la clé et cliquez sur <strong>Activer</strong>.</li></ol>
+      </div>
       <div class="trust-row">
         <div class="t"><h4><span class="ic">🔒</span>Paiement sécurisé</h4><p>Propulsé par <strong>Stripe</strong>. Les détails de carte ne touchent jamais nos serveurs.</p></div>
         <div class="t"><h4><span class="ic">📨</span>Livraison instantanée</h4><p>La clé arrive dans votre boîte mail en quelques secondes.</p></div>
         <div class="t"><h4><span class="ic">↺</span>Remboursement sous 30 jours en cas de défaut</h4><p>Si un défaut technique empêche l'utilisation, contactez-nous sous 30 jours pour un remboursement intégral.</p></div>
-        <div class="t"><h4><span class="ic">🌐</span>Vendu par</h4><p>Serima Kawai (entrepreneur individuel, Japon). Indépendant.</p></div>
+        <div class="t"><h4><span class="ic">🌐</span>Vendu par</h4><p>Serima Kawai (entrepreneur individuel, Japon). Développeur indépendant, non affilié à Google, Microsoft ou Mozilla.</p></div>
       </div>
       <p class="links"><a href="../terms.html">Conditions d'utilisation</a> · <a href="../privacy-policy.html">Politique de confidentialité</a> · <a href="../legal.html">Mentions légales</a></p>
     </div>
@@ -327,23 +341,23 @@
 
   <div class="grid" data-lang="ko">
     <div class="order">
-      <span class="ribbon">Free는 실행당 파일 10개＋선택한 1페이지 — Pro는 제한 해제＋여러 페이지 결합</span>
+      <span class="ribbon">Free는 다운로드당 파일 10개＋선택한 1페이지 — Pro는 제한 해제＋여러 페이지 결합</span>
       <div class="head"><img src="../favicon-128.png" alt="" width="42" height="42"><div><h1>파일 일괄 다운로드</h1><div class="sub">평생 라이선스 · Chrome™ / Edge™ / Firefox™</div></div></div>
       <div class="price-row"><span class="price">$19.99</span><span class="ccy">USD</span><span class="strike">일회성 결제</span></div>
       <p class="price-sub">구독 없음. 자동 갱신 없음. 한 번 결제로 평생 사용.</p>
       <ul>
-        <li>라이선스당 <strong>최대 3대 기기</strong>에서 활성화</li>
-        <li>Free 플랜의 실행당 파일 10개 제한 해제</li>
+        <li>라이선스당 <strong>최대 3대 기기</strong>에서 활성화(기기 1대 = 컴퓨터 1대의 브라우저 프로필 1개. 새 컴퓨터로 옮길 때는 확장 프로그램의 라이선스 화면에서 이전 기기를 제거)</li>
+        <li>Free 플랜의 다운로드당 파일 10개 제한 해제</li>
         <li>관련 후보 여러 페이지를 선택해 읽기 쉬운 본문을 검색 가능한 하나의 HTML로 결합</li>
-        <li>향후 업데이트 포함 — Manifest V3 대응</li>
-        <li>로컬 처리 — 업로드 / 서버 전송 없음</li>
+        <li>향후 업데이트 포함 — Chrome / Edge 111 이상, Firefox 128 이상 지원</li>
+        <li>파일은 사용자의 기기에서 처리되며 업로드되지 않습니다 — 서버와 통신하는 것은 라이선스 확인뿐입니다</li>
         <li>10개 UI 언어 (EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW)</li>
       </ul>
     </div>
     <div class="checkout">
       <div class="panel"><h3><span class="num">1</span>Free 플랜 — 체험판이 아닌 무기한 사용</h3>
         <div class="trial-strip"><span class="day">설치</span>Free: 파일 10개 + 선택한 1페이지 →<span class="day">Pro</span>제한 없음 + 여러 페이지 HTML</div>
-        <p style="margin-top:.7rem">Free는 기간 제한 없이 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 해당 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 10건 저장’으로 나머지를 저장할 수 있습니다. Pro는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다.</p>
+        <p style="margin-top:.7rem">Free는 기간 제한 없이 다운로드당 파일을 최대 10개 저장하고(계속하려면 다음 항목을 선택한 뒤 “다운로드”를 다시 누르세요) 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. ZIP, PDF 병합, 이름 변경·정리, 링크 CSV/JSON 내보내기도 무료입니다. 해당 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 10건 저장’으로 나머지를 저장할 수 있습니다. Pro는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다.</p>
       </div>
       <div class="panel"><h3><span class="num">2</span>확인 후 결제</h3>
         <div class="consent">
@@ -353,11 +367,14 @@
         <button type="button" class="pay-btn" id="pb-4" disabled><span class="lock" aria-hidden="true">🔒</span>안전한 결제로 진행 — $19.99<span class="arrow" aria-hidden="true">→</span></button>
         <div class="pay-meta">구매 후 라이선스 키가 이메일로 전송됩니다.</div>
       </div>
+      <div class="panel"><h3><span class="num">3</span>활성화 방법</h3>
+        <ol class="steps"><li><strong>Stripe Checkout</strong>에서 카드로 결제합니다(세금 포함).</li><li>라이선스 키가 다음 화면에 표시되고 이메일로도 전송됩니다.</li><li>확장 프로그램 오른쪽 위의 <strong>「무료」</strong>(또는 <strong>「⋯」</strong> → <strong>「Pro·라이선스 키」</strong>)를 눌러 키를 붙여넣고 <strong>「활성화」</strong>를 누릅니다.</li></ol>
+      </div>
       <div class="trust-row">
         <div class="t"><h4><span class="ic">🔒</span>안전한 결제</h4><p><strong>Stripe</strong> 사용. 카드 정보는 당사 서버에 도달하지 않습니다.</p></div>
         <div class="t"><h4><span class="ic">📨</span>즉시 전달</h4><p>라이선스 키가 수 초 내에 받은편지함으로 도착합니다.</p></div>
         <div class="t"><h4><span class="ic">↺</span>30일 결함 환불</h4><p>기술적 결함으로 사용할 수 없는 경우 30일 이내 연락 주시면 전액 환불.</p></div>
-        <div class="t"><h4><span class="ic">🌐</span>판매자</h4><p>Serima Kawai (개인사업자, 일본). 독립 제품.</p></div>
+        <div class="t"><h4><span class="ic">🌐</span>판매자</h4><p>Serima Kawai (개인사업자, 일본). 독립 개발자이며 Google, Microsoft, Mozilla와 제휴 관계가 없습니다.</p></div>
       </div>
       <p class="links"><a href="../terms.html">이용약관</a> · <a href="../privacy-policy.html">개인정보 처리방침</a> · <a href="../legal.html">법적 고지</a></p>
     </div>
@@ -365,23 +382,23 @@
 
   <div class="grid" data-lang="it">
     <div class="order">
-      <span class="ribbon">Free: 10 file per esecuzione e 1 pagina — Pro rimuove il limite e unisce le pagine</span>
+      <span class="ribbon">Free: 10 file per download e 1 pagina — Pro rimuove il limite e unisce le pagine</span>
       <div class="head"><img src="../favicon-128.png" alt="" width="42" height="42"><div><h1>Scarica tutti i file</h1><div class="sub">Licenza a vita · Chrome™, Edge™ e Firefox™</div></div></div>
       <div class="price-row"><span class="price">$19.99</span><span class="ccy">USD</span><span class="strike">Acquisto singolo</span></div>
       <p class="price-sub">Nessun abbonamento. Nessun rinnovo automatico. Paghi una volta, mantieni per sempre.</p>
       <ul>
-        <li>Attivazione su un massimo di <strong>3 dispositivi</strong> per licenza</li>
-        <li>Rimuove il limite di 10 file per esecuzione del piano Free</li>
+        <li>Attivazione su un massimo di <strong>3 dispositivi</strong> per licenza (un dispositivo = un profilo del browser su un computer; per passare a un nuovo computer, rimuovi il dispositivo vecchio nella schermata della licenza dell’estensione)</li>
+        <li>Rimuove il limite di 10 file per download del piano Free</li>
         <li>Seleziona più pagine correlate e unisce il contenuto leggibile in un unico HTML ricercabile</li>
-        <li>Aggiornamenti futuri inclusi — compatibile con Manifest V3</li>
-        <li>Elaborazione locale — nessun upload, nessun server</li>
+        <li>Aggiornamenti futuri inclusi — per Chrome / Edge 111+ e Firefox 128+</li>
+        <li>I tuoi file vengono elaborati sul tuo dispositivo e mai caricati: solo la verifica della licenza raggiunge il nostro server</li>
         <li>10 lingue UI (EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW)</li>
       </ul>
     </div>
     <div class="checkout">
       <div class="panel"><h3><span class="num">1</span>Piano Free — nessuna prova, nessuna scadenza</h3>
         <div class="trial-strip"><span class="day">Installa</span>Free: 10 file + 1 pagina scelta →<span class="day">Pro</span>Nessun limite + HTML multipagina</div>
-        <p style="margin-top:.7rem">Free resta utilizzabile per sempre: fino a 10 file per esecuzione ed esattamente una pagina candidata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati fino a 10 per esecuzione e «Salva i prossimi 10» nella schermata dei risultati salva il resto. Pro rimuove il limite e unisce il contenuto di più pagine selezionate.</p>
+        <p style="margin-top:.7rem">Free resta utilizzabile per sempre: fino a 10 file per download (seleziona i successivi e fai di nuovo clic su Scarica) ed esattamente una pagina candidata scelta come HTML. Anche ZIP, unione PDF, rinomina/organizzazione ed esportazione dei link in CSV/JSON sono gratuiti. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati fino a 10 per esecuzione e «Salva i prossimi 10» nella schermata dei risultati salva il resto. Pro rimuove il limite e unisce il contenuto di più pagine selezionate.</p>
       </div>
       <div class="panel"><h3><span class="num">2</span>Conferma e paga</h3>
         <div class="consent">
@@ -391,11 +408,14 @@
         <button type="button" class="pay-btn" id="pb-5" disabled><span class="lock" aria-hidden="true">🔒</span>Pagamento sicuro — $19.99<span class="arrow" aria-hidden="true">→</span></button>
         <div class="pay-meta">Dopo l'acquisto, la chiave di licenza verrà inviata alla tua email.</div>
       </div>
+      <div class="panel"><h3><span class="num">3</span>Come si attiva</h3>
+        <ol class="steps"><li>Paga con carta su <strong>Stripe Checkout</strong> (tasse incluse).</li><li>La chiave di licenza compare nella pagina successiva e ti arriva anche via e-mail.</li><li>Nell’estensione fai clic su <strong>Gratis</strong> in alto a destra (oppure su <strong>⋯</strong> → <strong>Pro e chiave di licenza</strong>), incolla la chiave e fai clic su <strong>Attiva</strong>.</li></ol>
+      </div>
       <div class="trust-row">
         <div class="t"><h4><span class="ic">🔒</span>Pagamento sicuro</h4><p>Gestito da <strong>Stripe</strong>. I dati della carta non passano dai nostri server.</p></div>
         <div class="t"><h4><span class="ic">📨</span>Consegna immediata</h4><p>La chiave arriva nella tua casella in pochi secondi.</p></div>
         <div class="t"><h4><span class="ic">↺</span>Rimborso entro 30 giorni per difetto</h4><p>Se un difetto tecnico impedisce l'uso, contattaci entro 30 giorni per rimborso completo.</p></div>
-        <div class="t"><h4><span class="ic">🌐</span>Venduto da</h4><p>Serima Kawai (ditta individuale, Giappone). Indipendente.</p></div>
+        <div class="t"><h4><span class="ic">🌐</span>Venduto da</h4><p>Serima Kawai (ditta individuale, Giappone). Sviluppatore indipendente, non affiliato a Google, Microsoft o Mozilla.</p></div>
       </div>
       <p class="links"><a href="../terms.html">Termini di servizio</a> · <a href="../privacy-policy.html">Informativa sulla privacy</a> · <a href="../legal.html">Note legali</a></p>
     </div>
@@ -403,37 +423,40 @@
 
   <div class="grid" data-lang="zh_CN">
     <div class="order">
-      <span class="ribbon">Free每次10个文件＋所选1个页面 — Pro解除上限＋合并多个页面</span>
+      <span class="ribbon">Free每次下载10个文件＋所选1个页面 — Pro解除上限＋合并多个页面</span>
       <div class="head"><img src="../favicon-128.png" alt="" width="42" height="42"><div><h1>批量下载文件</h1><div class="sub">永久授权 · Chrome™ / Edge™ / Firefox™</div></div></div>
       <div class="price-row"><span class="price">$19.99</span><span class="ccy">USD</span><span class="strike">一次性付款</span></div>
       <p class="price-sub">无订阅。无自动续费。一次付款，永久使用。</p>
       <ul>
-        <li>每个许可证可在 <strong>3 台设备</strong> 上激活</li>
-        <li>解除Free每次10个文件的上限</li>
+        <li>每个授权可在 <strong>3 台设备</strong> 上激活（1台设备＝一台电脑上的一个浏览器配置文件；换用新电脑时，请在扩展程序的授权界面移除旧设备）</li>
+        <li>解除Free每次下载10个文件的上限</li>
         <li>选择多个相关候选页面，并将可读正文合并为一个可搜索的HTML</li>
-        <li>包含未来更新 — 兼容 Manifest V3</li>
-        <li>本地处理 — 无上传、无服务器</li>
+        <li>包含未来更新 — 支持 Chrome / Edge 111 及以上、Firefox 128 及以上</li>
+        <li>文件在您的设备上处理，绝不上传 — 只有授权验证会连接我们的服务器</li>
         <li>10 种界面语言 (EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW)</li>
       </ul>
     </div>
     <div class="checkout">
       <div class="panel"><h3><span class="num">1</span>Free方案 — 不是试用版，无期限</h3>
         <div class="trial-strip"><span class="day">安装</span>Free：10个文件＋所选1个页面 →<span class="day">Pro</span>解除上限＋多页面HTML</div>
-        <p style="margin-top:.7rem">Free可永久使用：每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro解除文件上限，并将多个所选页面正文合并为一个HTML。</p>
+        <p style="margin-top:.7rem">Free可永久使用：每次下载最多保存10个文件（继续时请选择接下来要下载的文件，再次点击“下载”），并从相关候选中仅选择1个页面保存为HTML。ZIP、PDF合并、重命名/整理以及链接的CSV/JSON导出也都免费。该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro解除文件上限，并将多个所选页面正文合并为一个HTML。</p>
       </div>
       <div class="panel"><h3><span class="num">2</span>确认并付款</h3>
         <div class="consent">
-          <details><summary><span>关于此同意</span></summary><p>购买Pro前，请先使用Free确认浏览器兼容性、10个文件保存流程和单页面HTML保存流程。Pro专属功能已在上方明确列出。购买后许可证密钥会立即通过电子邮件发送，因此请在下方确认。</p><small class="eu-note">EU/EEA居民请注意：在您明确同意的情况下，立即交付的数字内容不适用14天撤回权（欧盟消费者权利指令2011/83/EU 第16条(m)）。</small></details>
-          <label class="consent-label"><input type="checkbox" id="cc-6"><span>我同意在<strong>购买后立即收到</strong>许可证密钥。<small class="sub">EU/EEA居民：我了解此举意味着14天撤回权将不适用。</small></span></label>
+          <details><summary><span>关于此同意</span></summary><p>购买Pro前，请先使用Free确认浏览器兼容性、10个文件保存流程和单页面HTML保存流程。Pro专属功能已在上方明确列出。购买后授权密钥会立即通过电子邮件发送，因此请在下方确认。</p><small class="eu-note">EU/EEA居民请注意：在您明确同意的情况下，立即交付的数字内容不适用14天撤回权（欧盟消费者权利指令2011/83/EU 第16条(m)）。</small></details>
+          <label class="consent-label"><input type="checkbox" id="cc-6"><span>我同意在<strong>购买后立即收到</strong>授权密钥。<small class="sub">EU/EEA居民：我了解此举意味着14天撤回权将不适用。</small></span></label>
         </div>
         <button type="button" class="pay-btn" id="pb-6" disabled><span class="lock" aria-hidden="true">🔒</span>安全支付 — $19.99<span class="arrow" aria-hidden="true">→</span></button>
-        <div class="pay-meta">购买后，许可证密钥将发送至您的电子邮箱。</div>
+        <div class="pay-meta">购买后，授权密钥将发送至您的电子邮箱。</div>
+      </div>
+      <div class="panel"><h3><span class="num">3</span>激活步骤</h3>
+        <ol class="steps"><li>在 <strong>Stripe Checkout</strong> 用信用卡付款（含税）。</li><li>授权密钥会显示在下一页，同时发送到您的邮箱。</li><li>在扩展程序右上角点击<strong>「免费」</strong>（或<strong>「⋯」</strong>→<strong>「Pro·授权密钥」</strong>），粘贴密钥后点击<strong>「激活」</strong>。</li></ol>
       </div>
       <div class="trust-row">
         <div class="t"><h4><span class="ic">🔒</span>安全结账</h4><p>由 <strong>Stripe</strong> 提供支持。卡片信息不经过我们的服务器。</p></div>
-        <div class="t"><h4><span class="ic">📨</span>即时送达</h4><p>许可证密钥在数秒内送达您的收件箱。</p></div>
+        <div class="t"><h4><span class="ic">📨</span>即时送达</h4><p>授权密钥在数秒内送达您的收件箱。</p></div>
         <div class="t"><h4><span class="ic">↺</span>30天故障退款</h4><p>如因技术故障无法使用，30天内联系我们可全额退款。</p></div>
-        <div class="t"><h4><span class="ic">🌐</span>销售方</h4><p>Serima Kawai（个体经营者，日本）。独立开发。</p></div>
+        <div class="t"><h4><span class="ic">🌐</span>销售方</h4><p>Serima Kawai（个体经营者，日本）。独立开发者，与 Google、Microsoft、Mozilla 无关联。</p></div>
       </div>
       <p class="links"><a href="../terms.html">服务条款</a> · <a href="../privacy-policy.html">隐私政策</a> · <a href="../legal.html">法律声明</a></p>
     </div>
@@ -441,23 +464,23 @@
 
   <div class="grid" data-lang="zh_TW">
     <div class="order">
-      <span class="ribbon">Free每次10個檔案＋所選1個頁面 — Pro解除上限＋合併多個頁面</span>
+      <span class="ribbon">Free每次下載10個檔案＋所選1個頁面 — Pro解除上限＋合併多個頁面</span>
       <div class="head"><img src="../favicon-128.png" alt="" width="42" height="42"><div><h1>批次下載檔案</h1><div class="sub">永久授權 · Chrome™ / Edge™ / Firefox™</div></div></div>
       <div class="price-row"><span class="price">$19.99</span><span class="ccy">USD</span><span class="strike">一次性付款</span></div>
       <p class="price-sub">無訂閱。無自動續費。一次付款，永久使用。</p>
       <ul>
-        <li>每組授權可在 <strong>3 台裝置</strong> 上啟用</li>
-        <li>解除Free每次10個檔案的上限</li>
+        <li>每組授權可在 <strong>3 台裝置</strong> 上啟用（1台裝置＝一台電腦上的一個瀏覽器設定檔；換用新電腦時，請在擴充功能的授權畫面移除舊裝置）</li>
+        <li>解除Free每次下載10個檔案的上限</li>
         <li>選擇多個相關候選頁面，並將可讀正文合併成一個可搜尋的HTML</li>
-        <li>包含未來更新 — 相容 Manifest V3</li>
-        <li>本機處理 — 無上傳、無伺服器</li>
+        <li>包含未來更新 — 支援 Chrome / Edge 111 以上、Firefox 128 以上</li>
+        <li>檔案在您的裝置上處理，絕不上傳 — 只有授權驗證會連線到我們的伺服器</li>
         <li>10 種介面語言 (EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW)</li>
       </ul>
     </div>
     <div class="checkout">
       <div class="panel"><h3><span class="num">1</span>Free方案 — 不是試用版，無期限</h3>
         <div class="trial-strip"><span class="day">安裝</span>Free：10個檔案＋所選1個頁面 →<span class="day">Pro</span>解除上限＋多頁面HTML</div>
-        <p style="margin-top:.7rem">Free可永久使用：每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的10個」繼續儲存。Pro解除檔案上限，並將多個所選頁面正文合併成一個HTML。</p>
+        <p style="margin-top:.7rem">Free可永久使用：每次下載最多儲存10個檔案（繼續時請選取接下來要下載的檔案，再次點擊「下載」），並從相關候選中只選1個頁面儲存為HTML。ZIP、PDF合併、重新命名/整理以及連結的CSV/JSON匯出也都免費。該頁面內的圖片沒有方案數量上限；直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的10個」繼續儲存。Pro解除檔案上限，並將多個所選頁面正文合併成一個HTML。</p>
       </div>
       <div class="panel"><h3><span class="num">2</span>確認並付款</h3>
         <div class="consent">
@@ -467,11 +490,14 @@
         <button type="button" class="pay-btn" id="pb-7" disabled><span class="lock" aria-hidden="true">🔒</span>安全付款 — $19.99<span class="arrow" aria-hidden="true">→</span></button>
         <div class="pay-meta">購買後，授權金鑰將傳送至您的電子郵件地址。</div>
       </div>
+      <div class="panel"><h3><span class="num">3</span>啟用步驟</h3>
+        <ol class="steps"><li>在 <strong>Stripe Checkout</strong> 以信用卡付款（含稅）。</li><li>授權金鑰會顯示在下一頁，同時寄到您的電子郵件。</li><li>在擴充功能右上角點擊<strong>「免費」</strong>（或<strong>「⋯」</strong>→<strong>「Pro·授權金鑰」</strong>），貼上金鑰後點擊<strong>「啟用」</strong>。</li></ol>
+      </div>
       <div class="trust-row">
         <div class="t"><h4><span class="ic">🔒</span>安全結帳</h4><p>由 <strong>Stripe</strong> 提供。卡片資料不會經過我們的伺服器。</p></div>
         <div class="t"><h4><span class="ic">📨</span>即時送達</h4><p>授權金鑰在數秒內送達您的收件匣。</p></div>
         <div class="t"><h4><span class="ic">↺</span>30天瑕疵退款</h4><p>若技術瑕疵導致無法使用，30天內聯絡我們可全額退款。</p></div>
-        <div class="t"><h4><span class="ic">🌐</span>銷售方</h4><p>Serima Kawai（個人事業主，日本）。獨立開發。</p></div>
+        <div class="t"><h4><span class="ic">🌐</span>銷售方</h4><p>Serima Kawai（個人事業主，日本）。獨立開發者，與 Google、Microsoft、Mozilla 無關聯。</p></div>
       </div>
       <p class="links"><a href="../terms.html">服務條款</a> · <a href="../privacy-policy.html">隱私權政策</a> · <a href="../legal.html">法律資訊</a></p>
     </div>
@@ -479,23 +505,23 @@
 
   <div class="grid" data-lang="pt_BR">
     <div class="order">
-      <span class="ribbon">Free: 10 arquivos por execução e 1 página — Pro remove o limite e reúne páginas</span>
+      <span class="ribbon">Free: 10 arquivos por download e 1 página — Pro remove o limite e reúne páginas</span>
       <div class="head"><img src="../favicon-128.png" alt="" width="42" height="42"><div><h1>Baixar todos os arquivos</h1><div class="sub">Licença vitalícia · Chrome™, Edge™ e Firefox™</div></div></div>
       <div class="price-row"><span class="price">$19.99</span><span class="ccy">USD</span><span class="strike">Pagamento único</span></div>
       <p class="price-sub">Sem assinatura. Sem renovação automática. Pague uma vez, mantenha para sempre.</p>
       <ul>
-        <li>Ativação em até <strong>3 dispositivos</strong> por licença</li>
-        <li>Remove o limite de 10 arquivos por execução do plano Free</li>
+        <li>Ativação em até <strong>3 dispositivos</strong> por licença (um dispositivo = um perfil do navegador em um computador; para trocar de computador, remova o dispositivo antigo na tela de licença da extensão)</li>
+        <li>Remove o limite de 10 arquivos por download do plano Free</li>
         <li>Seleciona várias páginas relacionadas e reúne o conteúdo legível em um único HTML pesquisável</li>
-        <li>Atualizações futuras incluídas — pronto para Manifest V3</li>
-        <li>Processamento local — sem upload, sem servidor</li>
+        <li>Atualizações futuras incluídas — para Chrome / Edge 111+ e Firefox 128+</li>
+        <li>Seus arquivos são processados no seu dispositivo e nunca enviados; só a verificação da licença chega ao nosso servidor</li>
         <li>10 idiomas da interface (EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW)</li>
       </ul>
     </div>
     <div class="checkout">
       <div class="panel"><h3><span class="num">1</span>Plano Free — sem teste nem expiração</h3>
         <div class="trial-strip"><span class="day">Instalar</span>Free: 10 arquivos + 1 página escolhida →<span class="day">Pro</span>Sem limite + HTML multipágina</div>
-        <p style="margin-top:.7rem">O Free pode ser usado para sempre: até 10 arquivos por execução e exatamente uma página candidata escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos vinculados diretamente são salvos até 10 por execução, e “Salvar os próximos 10” na tela de resultado salva o restante. O Pro remove o limite e reúne o conteúdo de várias páginas selecionadas.</p>
+        <p style="margin-top:.7rem">O Free pode ser usado para sempre: até 10 arquivos por download (selecione os próximos e clique em Baixar novamente) e exatamente uma página candidata escolhida como HTML. ZIP, mesclagem de PDF, renomear/organizar e exportar links em CSV/JSON também são grátis. As imagens dessa página não têm limite de quantidade do plano; os arquivos vinculados diretamente são salvos até 10 por execução, e “Salvar os próximos 10” na tela de resultado salva o restante. O Pro remove o limite e reúne o conteúdo de várias páginas selecionadas.</p>
       </div>
       <div class="panel"><h3><span class="num">2</span>Confirmar e pagar</h3>
         <div class="consent">
@@ -505,11 +531,14 @@
         <button type="button" class="pay-btn" id="pb-8" disabled><span class="lock" aria-hidden="true">🔒</span>Pagamento seguro — $19.99<span class="arrow" aria-hidden="true">→</span></button>
         <div class="pay-meta">Após a compra, sua chave de licença será enviada para seu e-mail.</div>
       </div>
+      <div class="panel"><h3><span class="num">3</span>Como ativar</h3>
+        <ol class="steps"><li>Pague com cartão no <strong>Stripe Checkout</strong> (impostos inclusos).</li><li>Sua chave de licença aparece na página seguinte e também é enviada por e-mail.</li><li>Na extensão, clique em <strong>Grátis</strong> no canto superior direito (ou em <strong>⋯</strong> → <strong>Pro e chave de licença</strong>), cole a chave e clique em <strong>Ativar</strong>.</li></ol>
+      </div>
       <div class="trust-row">
         <div class="t"><h4><span class="ic">🔒</span>Checkout seguro</h4><p>Processado por <strong>Stripe</strong>. Dados do cartão não passam pelos nossos servidores.</p></div>
         <div class="t"><h4><span class="ic">📨</span>Entrega instantânea</h4><p>A chave de licença chega à sua caixa de entrada em segundos.</p></div>
         <div class="t"><h4><span class="ic">↺</span>Reembolso em 30 dias por defeito técnico</h4><p>Se um defeito técnico impedir o uso, entre em contato em até 30 dias para reembolso integral.</p></div>
-        <div class="t"><h4><span class="ic">🌐</span>Vendido por</h4><p>Serima Kawai (empresário individual, Japão). Independente.</p></div>
+        <div class="t"><h4><span class="ic">🌐</span>Vendido por</h4><p>Serima Kawai (empresário individual, Japão). Desenvolvedor independente, sem afiliação com Google, Microsoft ou Mozilla.</p></div>
       </div>
       <p class="links"><a href="../terms.html">Termos de Serviço</a> · <a href="../privacy-policy.html">Política de Privacidade</a> · <a href="../legal.html">Informações legais</a></p>
     </div>
@@ -517,23 +546,23 @@
 
   <div class="grid" data-lang="de">
     <div class="order">
-      <span class="ribbon">Free: 10 Dateien je Durchlauf und 1 Seite — Pro hebt das Limit auf und bündelt Seiten</span>
+      <span class="ribbon">Free: 10 Dateien pro Download und 1 Seite — Pro hebt das Limit auf und bündelt Seiten</span>
       <div class="head"><img src="../favicon-128.png" alt="" width="42" height="42"><div><h1>Alle Dateien herunterladen</h1><div class="sub">Lebenslange Lizenz · Chrome™, Edge™ &amp; Firefox™</div></div></div>
       <div class="price-row"><span class="price">19,99 $</span><span class="ccy">USD</span><span class="strike">Einmalige Zahlung</span></div>
       <p class="price-sub">Kein Abo. Keine automatische Verlängerung. Einmal zahlen, für immer behalten.</p>
       <ul>
-        <li>Aktivierung auf bis zu <strong>3 Geräten</strong> pro Lizenz</li>
-        <li>Hebt das Limit von 10 Dateien je Durchlauf im Free-Plan auf</li>
+        <li>Aktivierung auf bis zu <strong>3 Geräten</strong> pro Lizenz (ein Gerät = ein Browserprofil auf einem Computer; für einen neuen Computer entfernen Sie das alte Gerät im Lizenzbildschirm der Erweiterung)</li>
+        <li>Hebt das Limit von 10 Dateien pro Download im Free-Plan auf</li>
         <li>Wählt mehrere zugehörige Seiten und bündelt lesbare Inhalte in einer durchsuchbaren HTML-Datei</li>
-        <li>Zukünftige Updates inklusive — Manifest-V3-kompatibel</li>
-        <li>Lokale Verarbeitung — kein Upload, kein Server</li>
+        <li>Zukünftige Updates inklusive — für Chrome / Edge 111+ und Firefox 128+</li>
+        <li>Ihre Dateien werden auf Ihrem Gerät verarbeitet und nie hochgeladen — nur die Lizenzprüfung erreicht unseren Server</li>
         <li>10 UI-Sprachen (EN / JA / ES / FR / DE / IT / KO / PT-BR / ZH-CN / ZH-TW)</li>
       </ul>
     </div>
     <div class="checkout">
       <div class="panel"><h3><span class="num">1</span>Free-Plan — keine Testphase, kein Ablauf</h3>
         <div class="trial-strip"><span class="day">Installieren</span>Free: 10 Dateien + 1 gewählte Seite →<span class="day">Pro</span>Kein Limit + Mehrseiten-HTML</div>
-        <p style="margin-top:.7rem">Free bleibt dauerhaft nutzbar: bis zu 10 Dateien je Durchlauf und genau eine gewählte Kandidatenseite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert; „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro hebt das Dateilimit auf und bündelt die Inhalte mehrerer gewählter Seiten.</p>
+        <p style="margin-top:.7rem">Free bleibt dauerhaft nutzbar: bis zu 10 Dateien pro Download (danach die nächsten auswählen und erneut auf „Herunterladen“ klicken) und genau eine gewählte Kandidatenseite als HTML. ZIP, PDF-Zusammenführung, Umbenennen/Ordnen und der Export von Links als CSV/JSON sind ebenfalls kostenlos. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert; „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro hebt das Dateilimit auf und bündelt die Inhalte mehrerer gewählter Seiten.</p>
       </div>
       <div class="panel"><h3><span class="num">2</span>Bestätigen &amp; bezahlen</h3>
         <div class="consent">
@@ -543,11 +572,14 @@
         <button type="button" class="pay-btn" id="pb-9" disabled><span class="lock" aria-hidden="true">🔒</span>Sichere Zahlung — 19,99 $<span class="arrow" aria-hidden="true">→</span></button>
         <div class="pay-meta">Nach dem Kauf wird Ihr Lizenzschlüssel an Ihre E-Mail gesendet.</div>
       </div>
+      <div class="panel"><h3><span class="num">3</span>So aktivieren Sie Pro</h3>
+        <ol class="steps"><li>Mit Karte über <strong>Stripe Checkout</strong> bezahlen (inkl. Steuer).</li><li>Ihr Lizenzschlüssel erscheint auf der nächsten Seite und kommt zusätzlich per E-Mail.</li><li>Klicken Sie in der Erweiterung oben rechts auf <strong>Kostenlos</strong> (oder <strong>⋯</strong> → <strong>Pro &amp; Lizenzschlüssel</strong>), fügen Sie den Schlüssel ein und klicken Sie auf <strong>Aktivieren</strong>.</li></ol>
+      </div>
       <div class="trust-row">
         <div class="t"><h4><span class="ic">🔒</span>Sicherer Checkout</h4><p>Bereitgestellt von <strong>Stripe</strong>. Kartendaten erreichen nie unsere Server.</p></div>
         <div class="t"><h4><span class="ic">📨</span>Sofortige Lieferung</h4><p>Der Lizenzschlüssel landet in Sekunden in Ihrem Posteingang.</p></div>
         <div class="t"><h4><span class="ic">↺</span>30 Tage Defekt-Rückerstattung</h4><p>Wenn ein technischer Defekt die Nutzung verhindert, kontaktieren Sie uns innerhalb von 30 Tagen für volle Rückerstattung.</p></div>
-        <div class="t"><h4><span class="ic">🌐</span>Verkauft von</h4><p>Serima Kawai (Einzelunternehmer, Japan). Unabhängig.</p></div>
+        <div class="t"><h4><span class="ic">🌐</span>Verkauft von</h4><p>Serima Kawai (Einzelunternehmer, Japan). Unabhängiger Entwickler, nicht mit Google, Microsoft oder Mozilla verbunden.</p></div>
       </div>
       <p class="links"><a href="../terms.html">Nutzungsbedingungen</a> · <a href="../privacy-policy.html">Datenschutzerklärung</a> · <a href="../legal.html">Rechtliche Hinweise</a></p>
     </div>
@@ -581,8 +613,10 @@
   function getLang() {
     var u = getLangFromUrl();
     if (u) return u;
-    var s = localStorage.getItem('gaf-lang');
-    if (s && SUPPORTED.indexOf(s) >= 0) return s;
+    try {
+      var s = localStorage.getItem('gaf-lang');
+      if (s && SUPPORTED.indexOf(s) >= 0) return s;
+    } catch (_) {}
     var n = (navigator.language || '').toLowerCase();
     if (n.startsWith('ja')) return 'ja';
     if (n.startsWith('ko')) return 'ko';
@@ -596,7 +630,7 @@
     return 'en';
   }
   function setLang(l) {
-    localStorage.setItem('gaf-lang', l);
+    try { localStorage.setItem('gaf-lang', l); } catch (_) {}
     document.querySelectorAll('[data-lang]').forEach(function(e) {
       e.classList.toggle('active', e.getAttribute('data-lang') === l);
     });
@@ -669,6 +703,7 @@
   sc('cc-9','pb-9');
 
   var CHECKOUT_URL = 'https://umczaaooqinddgnhxbvp.supabase.co/functions/v1/create-checkout-session';
+  var CONTACT_URL = 'https://grab-all-files.app/contact/';
   var LOADING_MSG = {
     en: 'Redirecting…',
     ja: '決済画面へ移動中…',
@@ -687,16 +722,16 @@
     });
   }
   var ERR_MSG = {
-    en: 'Sorry, we could not start the payment. Please try again or contact support.',
-    ja: '申し訳ありません、決済を開始できませんでした。もう一度お試しいただくか、サポートまでご連絡ください。',
-    es: 'Lo sentimos, no se pudo iniciar el pago. Inténtelo de nuevo o contacte con soporte.',
-    fr: 'Désolé, le paiement n\'a pas pu démarrer. Veuillez réessayer ou contacter le support.',
-    ko: '죄송합니다. 결제를 시작할 수 없습니다. 다시 시도하시거나 지원팀에 문의해 주세요.',
-    it: 'Spiacenti, non è stato possibile avviare il pagamento. Riprova o contatta il supporto.',
-    zh_CN: '抱歉，无法启动付款。请重试或联系支持团队。',
-    zh_TW: '抱歉，無法啟動付款。請重試或聯絡支援團隊。',
-    pt_BR: 'Desculpe, não foi possível iniciar o pagamento. Tente novamente ou entre em contato com o suporte.',
-    de: 'Leider konnte die Zahlung nicht gestartet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie den Support.'
+    en: "Sorry, we could not start the payment. Please try again, or contact us through the contact form or at support@grab-all-files.app:",
+    ja: "申し訳ありません、決済を開始できませんでした。もう一度お試しいただくか、お問い合わせフォームまたは support@grab-all-files.app までご連絡ください：",
+    es: "Lo sentimos, no se pudo iniciar el pago. Vuelve a intentarlo o escríbenos mediante el formulario de contacto o a support@grab-all-files.app:",
+    fr: "Désolé, le paiement n'a pas pu démarrer. Veuillez réessayer ou nous contacter via le formulaire de contact ou à support@grab-all-files.app :",
+    ko: "죄송합니다. 결제를 시작할 수 없습니다. 다시 시도하시거나 문의 양식 또는 support@grab-all-files.app 으로 연락해 주세요:",
+    it: "Spiacenti, non è stato possibile avviare il pagamento. Riprova oppure contattaci tramite il modulo di contatto o all'indirizzo support@grab-all-files.app:",
+    zh_CN: "抱歉，无法启动付款。请重试，或通过联系表单或 support@grab-all-files.app 联系我们：",
+    zh_TW: "抱歉，無法啟動付款。請重試，或透過聯絡表單或 support@grab-all-files.app 與我們聯絡：",
+    pt_BR: "Desculpe, não foi possível iniciar o pagamento. Tente novamente ou fale conosco pelo formulário de contato ou em support@grab-all-files.app:",
+    de: "Leider konnte die Zahlung nicht gestartet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns über das Kontaktformular oder unter support@grab-all-files.app:"
   };
 
   // One idempotency key per page-load. If the user double-clicks or the
@@ -739,7 +774,7 @@
       btn.disabled = false;
       btn.innerHTML = original;
       btn.style.minWidth = '';
-      alert(ERR_MSG[lang] || ERR_MSG.en);
+      alert((ERR_MSG[lang] || ERR_MSG.en) + '\n' + CONTACT_URL + '?lang=' + encodeURIComponent(lang) + '&category=question');
     });
   }
 

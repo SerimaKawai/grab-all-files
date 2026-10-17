@@ -8,8 +8,9 @@
   <title>What's new - Grab All Files</title>
   <!-- The extension's "what's new" banner links here after an update.
        The curated, multilingual release notes live in the #latest-version
-       section on the home page, so send visitors straight there. -->
-  <link rel="canonical" href="https://grab-all-files.app/">
+       section on the home page, so send visitors straight there, keeping
+       ?lang= (each locale has its own home page: /ja/, /de/, ...).
+       No canonical: this is a noindex redirect stub. -->
   <meta http-equiv="refresh" content="0; url=/#latest-version">
   <link rel="icon" type="image/png" sizes="128x128" href="../favicon-128.png">
   <style>
@@ -27,14 +28,51 @@
   </style>
   <script>
     // Instant, history-clean redirect (back button skips this stub).
-    location.replace("/#latest-version");
+    (function () {
+      var SUPPORTED = ['en', 'ja', 'es', 'fr', 'de', 'it', 'ko', 'pt_BR', 'zh_CN', 'zh_TW'];
+      var m = location.search.match(/[?&]lang=([a-zA-Z_-]+)/);
+      var lang = m && SUPPORTED.indexOf(m[1]) >= 0 ? m[1] : '';
+      window.__gafWhatsNewLang = lang;
+      window.__gafWhatsNewTarget = (lang && lang !== 'en' ? '/' + lang + '/' : '/') + '#latest-version';
+      location.replace(window.__gafWhatsNewTarget);
+    })();
   </script>
   <link rel="stylesheet" href="../bloom-site.css">
 </head>
 <body>
   <div class="box">
-    <p>Redirecting to the latest release notes…</p>
-    <p><a href="/#latest-version">View what&rsquo;s new in Grab All Files</a></p>
+    <p id="msg">Redirecting to the latest release notes…</p>
+    <p><a id="lnk" href="/#latest-version">View what&rsquo;s new in Grab All Files</a></p>
   </div>
+  <script>
+    (function () {
+      var T = {
+        en: ['Redirecting to the latest release notes…', 'View what’s new in Grab All Files'],
+        ja: ['最新のリリースノートへ移動しています…', 'Grab All Files の最新情報を見る'],
+        es: ['Redirigiendo a las notas de la última versión…', 'Ver las novedades de Grab All Files'],
+        fr: ['Redirection vers les notes de la dernière version…', 'Voir les nouveautés de Grab All Files'],
+        de: ['Weiterleitung zu den aktuellen Versionshinweisen…', 'Neuigkeiten in Grab All Files ansehen'],
+        it: ['Reindirizzamento alle note dell’ultima versione…', 'Scopri le novità di Grab All Files'],
+        ko: ['최신 릴리스 노트로 이동하는 중…', 'Grab All Files 새 소식 보기'],
+        pt_BR: ['Redirecionando para as notas da versão mais recente…', 'Ver as novidades do Grab All Files'],
+        zh_CN: ['正在跳转到最新版本说明…', '查看 Grab All Files 的新功能'],
+        zh_TW: ['正在前往最新版本說明…', '查看 Grab All Files 的新功能']
+      };
+      var lang = window.__gafWhatsNewLang;
+      if (!lang) {
+        var n = (navigator.language || '').toLowerCase();
+        lang = n.indexOf('ja') === 0 ? 'ja' : n.indexOf('ko') === 0 ? 'ko' : n.indexOf('it') === 0 ? 'it'
+          : n.indexOf('de') === 0 ? 'de' : n.indexOf('es') === 0 ? 'es' : n.indexOf('fr') === 0 ? 'fr'
+          : n.indexOf('pt') === 0 ? 'pt_BR' : (n === 'zh-tw' || n.indexOf('zh-hant') === 0) ? 'zh_TW'
+          : n.indexOf('zh') === 0 ? 'zh_CN' : 'en';
+      }
+      var t = T[lang] || T.en;
+      document.documentElement.lang = lang.replace('_', '-');
+      document.getElementById('msg').textContent = t[0];
+      var a = document.getElementById('lnk');
+      a.textContent = t[1];
+      if (window.__gafWhatsNewTarget) a.href = window.__gafWhatsNewTarget;
+    })();
+  </script>
 </body>
 </html>

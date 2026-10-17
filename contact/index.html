@@ -196,7 +196,7 @@
   <div class="wrap">
     <div class="hero">
       <h1 id="t-title">Contact</h1>
-      <p id="t-subtitle">Have a bug to report, a feature to request, or a question? Send us a message and we'll get back to you by email.</p>
+      <p id="t-subtitle">A bug, a feature idea, or a question about your license or a refund? Send us a message and we'll reply by email — you should hear back within 3 business days. Prefer to write directly? Email <a href="mailto:support@grab-all-files.app">support@grab-all-files.app</a>. For license or refund questions, please write from the email address you paid with.</p>
     </div>
 
     <div class="card">
@@ -261,7 +261,7 @@
             <div class="row-2">
               <div class="field">
                 <label for="f-version" id="l-version">Extension version</label>
-                <input type="text" id="f-version" name="version" maxlength="200" placeholder="e.g. 5.1.5">
+                <input type="text" id="f-version" name="version" maxlength="200" placeholder="e.g. 5.8.16">
               </div>
               <div class="field">
                 <label for="f-browser" id="l-browser">Browser</label>
@@ -310,7 +310,7 @@
   var STRINGS = {
     en: {
       title: 'Contact',
-      subtitle: "Have a bug to report, a feature to request, or a question? Send us a message and we'll get back to you by email.",
+      subtitle: "A bug, a feature idea, or a question about your license or a refund? Send us a message and we'll reply by email — you should hear back within 3 business days. Prefer to write directly? Email support@grab-all-files.app. For license or refund questions, please write from the email address you paid with.",
       back: 'Back',
       lCategory: 'What is this about?',
       optBug: 'Bug report',
@@ -343,7 +343,7 @@
       sendCode: "Send code",
       sendingCode: "Sending…",
       lCode: "Confirmation code",
-      codeHelp: "Enter the 6-digit code sent to {email}. It expires in 10 minutes. If it doesn't arrive, check your spam folder.",
+      codeHelp: "Enter the 6-digit code sent to {email}. It expires in 10 minutes. If it doesn't arrive, check your spam folder. No code after a few minutes? Email support@grab-all-files.app directly.",
       verify: "Confirm",
       verifying: "Checking…",
       resend: "Resend code",
@@ -357,10 +357,15 @@
       errRateLimited: "Too many requests. Please wait a while and try again.",
       errSendCode: "Could not send the code. Please check the address and try again.",
       errVerifyAgain: "Your email confirmation has expired. Please confirm your address again.",
+      phVersion: "e.g. 5.8.16",
+      phAutoFilled: "auto-filled",
+      lnkTerms: "Terms of Service",
+      lnkPrivacy: "Privacy Policy",
+      lnkLegal: "Legal Notice",
     },
     ja: {
       title: 'お問い合わせ',
-      subtitle: '不具合報告・機能要望・ご質問など、お気軽にお送りください。メールでご返信いたします。',
+      subtitle: "不具合・機能のご要望、ライセンスや返金に関するご質問など、お気軽にお送りください。3営業日以内にメールでご返信します。直接メールする場合は support@grab-all-files.app まで。ライセンス・返金のご相談は、ご購入時のメールアドレスからお送りください。",
       back: '戻る',
       lCategory: 'お問い合わせの種類',
       optBug: '不具合報告',
@@ -393,7 +398,7 @@
       sendCode: "確認コードを送信",
       sendingCode: "送信中…",
       lCode: "確認コード",
-      codeHelp: "{email} に届いた6桁のコードを入力してください。有効期限は10分です。届かない場合は迷惑メールフォルダーをご確認ください。",
+      codeHelp: "{email} に届いた6桁のコードを入力してください。有効期限は10分です。届かない場合は迷惑メールフォルダーをご確認ください。数分たっても届かない場合は、support@grab-all-files.app へ直接ご連絡ください。",
       verify: "確認して進む",
       verifying: "確認中…",
       resend: "コードを再送信",
@@ -407,10 +412,15 @@
       errRateLimited: "短時間に操作が集中しています。しばらく待ってからお試しください。",
       errSendCode: "確認コードを送信できませんでした。メールアドレスをご確認のうえ、もう一度お試しください。",
       errVerifyAgain: "メールアドレスの確認の有効期限が切れました。もう一度確認してください。",
+      phVersion: "例：5.8.16",
+      phAutoFilled: "自動入力",
+      lnkTerms: "利用規約",
+      lnkPrivacy: "プライバシーポリシー",
+      lnkLegal: "特定商取引法に基づく表記",
     },
     es: {
       title: 'Contacto',
-      subtitle: '¿Tiene un error que reportar, una función que solicitar o una pregunta? Envíenos un mensaje y le responderemos por correo electrónico.',
+      subtitle: "¿Un error, una idea de función o una pregunta sobre su licencia o un reembolso? Envíenos un mensaje y le responderemos por correo electrónico en un plazo de 3 días hábiles. ¿Prefiere escribirnos directamente? support@grab-all-files.app. Para consultas sobre licencias o reembolsos, escríbanos desde la dirección de correo con la que pagó.",
       back: 'Atrás',
       lCategory: '¿De qué se trata?',
       optBug: 'Reporte de error',
@@ -443,7 +453,7 @@
       sendCode: "Enviar código",
       sendingCode: "Enviando…",
       lCode: "Código de confirmación",
-      codeHelp: "Introduzca el código de 6 dígitos enviado a {email}. Caduca en 10 minutos. Si no llega, revise la carpeta de spam.",
+      codeHelp: "Introduzca el código de 6 dígitos enviado a {email}. Caduca en 10 minutos. Si no llega, revise la carpeta de spam. ¿Sigue sin llegar después de unos minutos? Escriba directamente a support@grab-all-files.app.",
       verify: "Confirmar",
       verifying: "Comprobando…",
       resend: "Reenviar código",
@@ -457,10 +467,15 @@
       errRateLimited: "Demasiadas solicitudes. Espere un momento e inténtelo de nuevo.",
       errSendCode: "No se pudo enviar el código. Revise la dirección e inténtelo de nuevo.",
       errVerifyAgain: "La confirmación de su correo ha caducado. Confirme su dirección de nuevo.",
+      phVersion: "p. ej., 5.8.16",
+      phAutoFilled: "se rellena automáticamente",
+      lnkTerms: "Términos de servicio",
+      lnkPrivacy: "Política de privacidad",
+      lnkLegal: "Información legal",
     },
     fr: {
       title: 'Contact',
-      subtitle: 'Un bug à signaler, une fonctionnalité à demander ou une question ? Envoyez-nous un message et nous vous répondrons par e-mail.',
+      subtitle: "Un bug, une idée de fonctionnalité ou une question sur votre licence ou un remboursement ? Envoyez-nous un message : nous vous répondrons par e-mail sous 3 jours ouvrés. Vous préférez écrire directement ? support@grab-all-files.app. Pour une question de licence ou de remboursement, écrivez-nous depuis l’adresse e-mail utilisée pour le paiement.",
       back: 'Retour',
       lCategory: 'De quoi s\'agit-il ?',
       optBug: 'Signalement de bug',
@@ -493,7 +508,7 @@
       sendCode: "Envoyer le code",
       sendingCode: "Envoi…",
       lCode: "Code de confirmation",
-      codeHelp: "Saisissez le code à 6 chiffres envoyé à {email}. Il expire dans 10 minutes. S’il n’arrive pas, vérifiez vos spams.",
+      codeHelp: "Saisissez le code à 6 chiffres envoyé à {email}. Il expire dans 10 minutes. S’il n’arrive pas, vérifiez vos spams. Toujours rien après quelques minutes ? Écrivez directement à support@grab-all-files.app.",
       verify: "Confirmer",
       verifying: "Vérification…",
       resend: "Renvoyer le code",
@@ -507,10 +522,15 @@
       errRateLimited: "Trop de demandes. Patientez un moment puis réessayez.",
       errSendCode: "Impossible d’envoyer le code. Vérifiez l’adresse et réessayez.",
       errVerifyAgain: "La confirmation de votre e-mail a expiré. Veuillez confirmer à nouveau votre adresse.",
+      phVersion: "ex. : 5.8.16",
+      phAutoFilled: "rempli automatiquement",
+      lnkTerms: "Conditions d'utilisation",
+      lnkPrivacy: "Politique de confidentialité",
+      lnkLegal: "Mentions légales",
     },
     ko: {
       title: '문의하기',
-      subtitle: '버그 신고, 기능 요청, 질문이 있으신가요? 메시지를 보내주시면 이메일로 답변해 드립니다.',
+      subtitle: "버그 신고, 기능 제안, 라이선스나 환불에 관한 질문이 있으신가요? 메시지를 보내주시면 3영업일 이내에 이메일로 답변해 드립니다. 직접 메일을 보내시려면 support@grab-all-files.app 으로 보내 주세요. 라이선스·환불 문의는 결제할 때 사용한 이메일 주소로 보내 주세요.",
       back: '뒤로',
       lCategory: '문의 종류',
       optBug: '버그 신고',
@@ -543,7 +563,7 @@
       sendCode: "확인 코드 보내기",
       sendingCode: "보내는 중…",
       lCode: "확인 코드",
-      codeHelp: "{email}(으)로 받은 6자리 코드를 입력해 주세요. 유효 시간은 10분입니다. 메일이 오지 않으면 스팸함을 확인해 주세요.",
+      codeHelp: "{email}(으)로 받은 6자리 코드를 입력해 주세요. 유효 시간은 10분입니다. 메일이 오지 않으면 스팸함을 확인해 주세요. 몇 분이 지나도 오지 않으면 support@grab-all-files.app 으로 직접 연락해 주세요.",
       verify: "확인하고 계속",
       verifying: "확인 중…",
       resend: "코드 다시 보내기",
@@ -557,10 +577,15 @@
       errRateLimited: "요청이 너무 많습니다. 잠시 후 다시 시도해 주세요.",
       errSendCode: "확인 코드를 보낼 수 없습니다. 이메일 주소를 확인하고 다시 시도해 주세요.",
       errVerifyAgain: "이메일 확인이 만료되었습니다. 이메일 주소를 다시 확인해 주세요.",
+      phVersion: "예: 5.8.16",
+      phAutoFilled: "자동 입력",
+      lnkTerms: "이용약관",
+      lnkPrivacy: "개인정보 처리방침",
+      lnkLegal: "법적 고지",
     },
     it: {
       title: 'Contatti',
-      subtitle: 'Hai un bug da segnalare, una funzione da richiedere o una domanda? Inviaci un messaggio e ti risponderemo via email.',
+      subtitle: "Un bug, un’idea per una funzione o una domanda sulla licenza o su un rimborso? Inviaci un messaggio e ti risponderemo via email entro 3 giorni lavorativi. Preferisci scrivere direttamente? support@grab-all-files.app. Per domande su licenza o rimborsi, scrivici dall’indirizzo email con cui hai pagato.",
       back: 'Indietro',
       lCategory: 'Di cosa si tratta?',
       optBug: 'Segnalazione bug',
@@ -593,7 +618,7 @@
       sendCode: "Invia codice",
       sendingCode: "Invio in corso…",
       lCode: "Codice di conferma",
-      codeHelp: "Inserisci il codice di 6 cifre inviato a {email}. Scade tra 10 minuti. Se non arriva, controlla la cartella spam.",
+      codeHelp: "Inserisci il codice di 6 cifre inviato a {email}. Scade tra 10 minuti. Se non arriva, controlla la cartella spam. Ancora niente dopo qualche minuto? Scrivi direttamente a support@grab-all-files.app.",
       verify: "Conferma",
       verifying: "Verifica…",
       resend: "Invia di nuovo",
@@ -607,10 +632,15 @@
       errRateLimited: "Troppe richieste. Attendi un momento e riprova.",
       errSendCode: "Impossibile inviare il codice. Controlla l’indirizzo e riprova.",
       errVerifyAgain: "La conferma della tua email è scaduta. Conferma di nuovo l’indirizzo.",
+      phVersion: "es. 5.8.16",
+      phAutoFilled: "compilato automaticamente",
+      lnkTerms: "Termini di servizio",
+      lnkPrivacy: "Informativa sulla privacy",
+      lnkLegal: "Note legali",
     },
     zh_CN: {
       title: '联系我们',
-      subtitle: '想报告错误、申请新功能或有问题？请发送消息，我们将通过邮件回复您。',
+      subtitle: "想报告错误、提出功能建议，或咨询授权、退款相关问题？请发送消息，我们将在 3 个工作日内通过邮件回复您。也可以直接发送邮件至 support@grab-all-files.app。授权或退款相关咨询，请使用付款时的邮箱地址发送。",
       back: '返回',
       lCategory: '咨询类型',
       optBug: '错误报告',
@@ -643,7 +673,7 @@
       sendCode: "发送确认码",
       sendingCode: "发送中…",
       lCode: "确认码",
-      codeHelp: "请输入发送到 {email} 的 6 位确认码，10 分钟内有效。如未收到，请检查垃圾邮件文件夹。",
+      codeHelp: "请输入发送到 {email} 的 6 位确认码，10 分钟内有效。如未收到，请检查垃圾邮件文件夹。几分钟后仍未收到，请直接发送邮件至 support@grab-all-files.app。",
       verify: "确认并继续",
       verifying: "确认中…",
       resend: "重新发送",
@@ -657,10 +687,15 @@
       errRateLimited: "请求过于频繁，请稍后再试。",
       errSendCode: "无法发送确认码。请检查邮箱地址后重试。",
       errVerifyAgain: "邮箱确认已过期，请重新确认邮箱地址。",
+      phVersion: "例如：5.8.16",
+      phAutoFilled: "自动填写",
+      lnkTerms: "服务条款",
+      lnkPrivacy: "隐私政策",
+      lnkLegal: "法律声明",
     },
     zh_TW: {
       title: '聯絡我們',
-      subtitle: '想回報錯誤、建議新功能或有疑問？請傳送訊息，我們將透過電子郵件回覆您。',
+      subtitle: "想回報錯誤、建議新功能，或詢問授權、退款相關問題？請傳送訊息，我們將在 3 個工作天內透過電子郵件回覆您。也可以直接寄信至 support@grab-all-files.app。授權或退款相關問題，請使用付款時的電子郵件地址寄送。",
       back: '返回',
       lCategory: '諮詢類型',
       optBug: '錯誤回報',
@@ -693,7 +728,7 @@
       sendCode: "傳送確認碼",
       sendingCode: "傳送中…",
       lCode: "確認碼",
-      codeHelp: "請輸入寄到 {email} 的 6 位數確認碼，10 分鐘內有效。若未收到，請檢查垃圾郵件資料夾。",
+      codeHelp: "請輸入寄到 {email} 的 6 位數確認碼，10 分鐘內有效。若未收到，請檢查垃圾郵件資料夾。幾分鐘後仍未收到，請直接寄信至 support@grab-all-files.app。",
       verify: "確認並繼續",
       verifying: "確認中…",
       resend: "重新傳送",
@@ -707,10 +742,15 @@
       errRateLimited: "要求過於頻繁，請稍後再試。",
       errSendCode: "無法傳送確認碼。請檢查電子郵件地址後再試。",
       errVerifyAgain: "電子郵件確認已過期，請重新確認地址。",
+      phVersion: "例如：5.8.16",
+      phAutoFilled: "自動填寫",
+      lnkTerms: "服務條款",
+      lnkPrivacy: "隱私權政策",
+      lnkLegal: "法律資訊",
     },
     pt_BR: {
       title: 'Contato',
-      subtitle: 'Tem um bug para relatar, uma funcionalidade para solicitar ou uma dúvida? Envie-nos uma mensagem e responderemos por e-mail.',
+      subtitle: "Um bug, uma ideia de recurso ou uma dúvida sobre sua licença ou um reembolso? Envie-nos uma mensagem e responderemos por e-mail em até 3 dias úteis. Prefere escrever diretamente? support@grab-all-files.app. Para dúvidas sobre licença ou reembolso, escreva do e-mail que você usou no pagamento.",
       back: 'Voltar',
       lCategory: 'Sobre o que é?',
       optBug: 'Relato de bug',
@@ -743,7 +783,7 @@
       sendCode: "Enviar código",
       sendingCode: "Enviando…",
       lCode: "Código de confirmação",
-      codeHelp: "Digite o código de 6 dígitos enviado para {email}. Ele expira em 10 minutos. Se não chegar, verifique a pasta de spam.",
+      codeHelp: "Digite o código de 6 dígitos enviado para {email}. Ele expira em 10 minutos. Se não chegar, verifique a pasta de spam. Não chegou depois de alguns minutos? Escreva diretamente para support@grab-all-files.app.",
       verify: "Confirmar",
       verifying: "Verificando…",
       resend: "Reenviar código",
@@ -757,10 +797,15 @@
       errRateLimited: "Solicitações demais. Aguarde um pouco e tente novamente.",
       errSendCode: "Não foi possível enviar o código. Confira o endereço e tente novamente.",
       errVerifyAgain: "A confirmação do seu e-mail expirou. Confirme o endereço novamente.",
+      phVersion: "ex.: 5.8.16",
+      phAutoFilled: "preenchido automaticamente",
+      lnkTerms: "Termos de Serviço",
+      lnkPrivacy: "Política de Privacidade",
+      lnkLegal: "Informações legais",
     },
     de: {
       title: 'Kontakt',
-      subtitle: 'Einen Fehler zu melden, ein Feature zu wünschen oder eine Frage? Senden Sie uns eine Nachricht und wir antworten per E-Mail.',
+      subtitle: "Einen Fehler melden, eine Funktion vorschlagen oder eine Frage zu Ihrer Lizenz oder einer Rückerstattung? Senden Sie uns eine Nachricht – wir antworten innerhalb von 3 Werktagen per E-Mail. Lieber direkt schreiben? support@grab-all-files.app. Bei Fragen zu Lizenz oder Rückerstattung schreiben Sie bitte von der E-Mail-Adresse, mit der Sie bezahlt haben.",
       back: 'Zurück',
       lCategory: 'Worum geht es?',
       optBug: 'Fehlerbericht',
@@ -793,7 +838,7 @@
       sendCode: "Code senden",
       sendingCode: "Senden…",
       lCode: "Bestätigungscode",
-      codeHelp: "Geben Sie den 6-stelligen Code ein, der an {email} gesendet wurde. Er ist 10 Minuten gültig. Falls er nicht ankommt, prüfen Sie den Spam-Ordner.",
+      codeHelp: "Geben Sie den 6-stelligen Code ein, der an {email} gesendet wurde. Er ist 10 Minuten gültig. Falls er nicht ankommt, prüfen Sie den Spam-Ordner. Nach einigen Minuten immer noch kein Code? Schreiben Sie direkt an support@grab-all-files.app.",
       verify: "Bestätigen",
       verifying: "Prüfen…",
       resend: "Code erneut senden",
@@ -807,6 +852,11 @@
       errRateLimited: "Zu viele Anfragen. Bitte warten Sie kurz und versuchen Sie es erneut.",
       errSendCode: "Der Code konnte nicht gesendet werden. Bitte Adresse prüfen und erneut versuchen.",
       errVerifyAgain: "Die Bestätigung Ihrer E-Mail-Adresse ist abgelaufen. Bitte bestätigen Sie sie erneut.",
+      phVersion: "z. B. 5.8.16",
+      phAutoFilled: "wird automatisch ausgefüllt",
+      lnkTerms: "Nutzungsbedingungen",
+      lnkPrivacy: "Datenschutzerklärung",
+      lnkLegal: "Rechtliche Hinweise",
     },
   };
 
@@ -836,6 +886,27 @@
     if (el) el.textContent = value;
   }
 
+  var SUPPORT_EMAIL = 'support@grab-all-files.app';
+  // Append text to el, turning every occurrence of the support address into a mailto link.
+  function appendLinked(el, text) {
+    var parts = String(text).split(SUPPORT_EMAIL);
+    parts.forEach(function(part, i) {
+      if (i > 0) {
+        var a = document.createElement('a');
+        a.href = 'mailto:' + SUPPORT_EMAIL;
+        a.textContent = SUPPORT_EMAIL;
+        el.appendChild(a);
+      }
+      if (part) el.appendChild(document.createTextNode(part));
+    });
+  }
+  function setLinkedText(id, value) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    el.textContent = '';
+    appendLinked(el, value);
+  }
+
   var currentLang = 'en';
   // Set from ?subject= when present. The visible Subject field was removed, but
   // the backend still receives a subject so notification mail keeps a usable
@@ -856,7 +927,7 @@
     document.documentElement.lang = lang.replace('_', '-');
     document.title = t.docTitle;
     setText('t-title', t.title);
-    setText('t-subtitle', t.subtitle);
+    setLinkedText('t-subtitle', t.subtitle);
     setText('back-label', t.back);
     setText('l-category', t.lCategory);
     document.querySelector('#l-category .req') || (function() {
@@ -888,6 +959,17 @@
     setText('l-verified', t.verified);
     setText('change-email-btn', t.changeEmail);
     setText('change-email-btn2', t.changeEmail);
+    var phMap = { 'f-version': t.phVersion, 'f-browser': t.phAutoFilled, 'f-os': t.phAutoFilled };
+    Object.keys(phMap).forEach(function(id) {
+      var input = document.getElementById(id);
+      if (input && phMap[id]) input.placeholder = phMap[id];
+    });
+    [['lnk-terms', 'lnkTerms', '../terms.html'], ['lnk-privacy', 'lnkPrivacy', '../privacy-policy.html'], ['lnk-legal', 'lnkLegal', '../legal.html']].forEach(function(row) {
+      var a = document.getElementById(row[0]);
+      if (!a) return;
+      a.textContent = t[row[1]] || STRINGS.en[row[1]];
+      a.href = row[2] + '?lang=' + encodeURIComponent(lang);
+    });
     if (!verify.busy) {
       setText('send-code-label', t.sendCode);
       setText('verify-label', t.verify);
@@ -1107,11 +1189,11 @@
       var parts = String(t.codeHelp).split('{email}');
       var help = document.getElementById('code-help');
       help.textContent = '';
-      help.appendChild(document.createTextNode(parts[0]));
+      appendLinked(help, parts[0]);
       var b = document.createElement('strong');
       b.textContent = verify.email;
       help.appendChild(b);
-      if (parts.length > 1) help.appendChild(document.createTextNode(parts[1]));
+      if (parts.length > 1) appendLinked(help, parts[1]);
     }
 
     var resendBtn = document.getElementById('resend-btn');
