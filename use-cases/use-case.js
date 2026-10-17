@@ -22,6 +22,8 @@
       home: "Home",
       useCases: "Use cases",
       useCasesTitle: "Use cases — download & combine pages",
+      useCasesDesc: "Step-by-step guides for Grab All Files: download PDFs, images and files in bulk, export file lists, and combine web pages into one HTML file.",
+      useCasesIntro: "Pick the task you have in mind. Each guide shows the real steps, the labels you will see in the extension, and what the Free plan covers: 10 files per download and one page per collection.",
       security: "Security",
       pricing: "Pricing",
       install: "Install free",
@@ -38,11 +40,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Purchase",
       license: "Pro — $19.99 one-time: no file cap + multi-page HTML",
-      trial: "Free — 10 files per run + 1 chosen page as HTML",
+      trial: "Free — 10 files per download + 1 chosen page as HTML",
       local: "PDF merge, ZIP, and CSV run locally in the browser",
       privacy: "Files download directly from the source site to your device",
       ctaTitle: "Try Grab All Files on your browser.",
-      ctaText: "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML.",
+      ctaText: "Free saves up to 10 files per download in the file downloader, and one chosen page per run when you combine pages into HTML; that page’s linked files are saved 10 at a time with “Save the next 10”. Pro ($19.99 one-time, up to 3 devices) removes the per-download cap and combines multiple pages into one HTML.",
       skip: "Skip to content",
       primaryNav: "Primary navigation",
       themeToggle: "Toggle theme",
@@ -53,6 +55,8 @@
       home: "ホーム",
       useCases: "用途別",
       useCasesTitle: "用途別 — 一括DLとページのHTML化",
+      useCasesDesc: "Grab All Filesの用途別ガイド。PDF・画像・ファイルの一括ダウンロード、ファイル一覧のCSV出力、複数のWebページを1つのHTMLにまとめる手順を実際の画面で紹介します。",
+      useCasesIntro: "目的に近いガイドを選んでください。各ガイドで、実際の手順、拡張機能に表示される名前、無料版でできる範囲（1回のダウンロードで10件、ページ収集は1回1ページ）を紹介します。",
       security: "セキュリティ",
       pricing: "料金",
       install: "無料インストール",
@@ -69,11 +73,11 @@
       firefox: "Firefox アドオン",
       purchase: "購入",
       license: "Pro — $19.99買い切り：ファイル上限解除＋複数ページ結合",
-      trial: "無料版 — 1回10ファイル＋選んだ1ページをHTML保存",
+      trial: "無料版 — 1回のダウンロードで10ファイル＋選んだ1ページをHTML保存",
       local: "PDF結合・ZIP化・CSV出力はブラウザ内でローカル処理",
       privacy: "ファイルは元サイトから端末へ直接ダウンロード",
       ctaTitle: "実際のページで Grab All Files を試せます。",
-      ctaText: "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。",
+      ctaText: "無料版は、ファイル一括ダウンロードでは1回のダウンロードで10件まで、ページのHTML化では1回に選んだ1ページを保存できます。そのページから直接リンクされたファイルは「次の10件を保存」で10件ずつ保存します。Pro（$19.99・買い切り、3台まで）は1回あたりの件数上限がなく、複数ページを1つのHTMLにまとめられます。",
       skip: "本文へスキップ",
       primaryNav: "メインナビゲーション",
       themeToggle: "表示テーマを切り替え",
@@ -84,6 +88,8 @@
       home: "Inicio",
       useCases: "Casos de uso",
       useCasesTitle: "Casos de uso — descargar y unir páginas",
+      useCasesDesc: "Guías paso a paso de Grab All Files: descarga masiva de PDF, imágenes y archivos, exportación de listas de archivos y unión de páginas web en un solo HTML.",
+      useCasesIntro: "Elige la tarea que tienes en mente. Cada guía muestra los pasos reales, los nombres que verás en la extensión y lo que cubre la versión gratuita: 10 archivos por descarga y una página por recopilación.",
       security: "Seguridad",
       pricing: "Precio",
       install: "Instalar gratis",
@@ -100,11 +106,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Comprar",
       license: "Pro — $19.99, pago único: sin tope + HTML multipágina",
-      trial: "Free — 10 archivos por ejecución + 1 página elegida en HTML",
+      trial: "Gratis — 10 archivos por descarga + 1 página elegida en HTML",
       local: "PDF, ZIP y CSV se procesan localmente en el navegador",
       privacy: "Los archivos se descargan del sitio fuente a tu dispositivo",
       ctaTitle: "Prueba Grab All Files en tu navegador.",
-      ctaText: "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas.",
+      ctaText: "La versión gratuita guarda hasta 10 archivos por descarga en el descargador de archivos y una página elegida por vez al combinar páginas en HTML; los archivos enlazados de esa página se guardan de 10 en 10 con «Guardar los siguientes 10». Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga y combina varias páginas en un HTML.",
       skip: "Saltar al contenido",
       primaryNav: "Navegación principal",
       themeToggle: "Cambiar tema",
@@ -115,6 +121,8 @@
       home: "Accueil",
       useCases: "Cas d'usage",
       useCasesTitle: "Cas d'usage — télécharger et réunir",
+      useCasesDesc: "Guides pas à pas de Grab All Files : téléchargement en masse de PDF, d’images et de fichiers, export de listes de fichiers et regroupement de pages web en un HTML.",
+      useCasesIntro: "Choisissez la tâche qui vous intéresse. Chaque guide présente les étapes réelles, les libellés affichés dans l’extension et ce que couvre la version gratuite : 10 fichiers par téléchargement et une page par collecte.",
       security: "Sécurité",
       pricing: "Tarif",
       install: "Installer gratuitement",
@@ -131,11 +139,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Acheter",
       license: "Pro — 19,99 $, achat unique : sans plafond + HTML multipage",
-      trial: "Free — 10 fichiers par lot + 1 page choisie en HTML",
+      trial: "Gratuit — 10 fichiers par téléchargement + 1 page choisie en HTML",
       local: "PDF, ZIP et CSV restent traités localement dans le navigateur",
       privacy: "Les fichiers se téléchargent du site source vers votre appareil",
       ctaTitle: "Essayez Grab All Files dans votre navigateur.",
-      ctaText: "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; les fichiers directement liés sont enregistrés jusqu’à 10 par opération, et « Enregistrer les 10 suivants » sur l’écran de résultat enregistre le reste. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées.",
+      ctaText: "La version gratuite enregistre jusqu’à 10 fichiers par téléchargement dans le téléchargeur de fichiers, et une page choisie par passage pour regrouper des pages en HTML ; les fichiers liés de cette page sont enregistrés par 10 avec « Enregistrer les 10 suivants ». Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement et regroupe plusieurs pages en un HTML.",
       skip: "Aller au contenu",
       primaryNav: "Navigation principale",
       themeToggle: "Changer de thème",
@@ -146,6 +154,8 @@
       home: "Startseite",
       useCases: "Anwendungsfälle",
       useCasesTitle: "Anwendungsfälle — Dateien & Seiten",
+      useCasesDesc: "Schritt-für-Schritt-Anleitungen für Grab All Files: PDFs, Bilder und Dateien gesammelt laden, Dateilisten exportieren und Webseiten in einer HTML-Datei bündeln.",
+      useCasesIntro: "Wählen Sie die Aufgabe, die Sie vorhaben. Jede Anleitung zeigt die tatsächlichen Schritte, die Bezeichnungen in der Erweiterung und den Umfang der kostenlosen Version: 10 Dateien pro Download und eine Seite pro Sammlung.",
       security: "Sicherheit",
       pricing: "Preis",
       install: "Kostenlos installieren",
@@ -162,11 +172,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Kaufen",
       license: "Pro — 19,99 $, einmalig: kein Dateilimit + Mehrseiten-HTML",
-      trial: "Free — 10 Dateien je Durchlauf + 1 gewählte Seite als HTML",
+      trial: "Kostenlos — 10 Dateien pro Download + 1 gewählte Seite als HTML",
       local: "PDF, ZIP und CSV werden lokal im Browser verarbeitet",
       privacy: "Dateien werden direkt von der Quellseite auf Ihr Gerät geladen",
       ctaTitle: "Testen Sie Grab All Files in Ihrem Browser.",
-      ctaText: "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert; „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte.",
+      ctaText: "Die kostenlose Version speichert im Datei-Downloader bis zu 10 Dateien pro Download und beim Bündeln von Seiten eine gewählte Seite pro Durchgang; deren verlinkte Dateien werden mit „Nächste 10 speichern“ in Zehnergruppen gespeichert. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Download-Limit auf und bündelt mehrere Seiten in einem HTML.",
       skip: "Zum Inhalt springen",
       primaryNav: "Hauptnavigation",
       themeToggle: "Darstellung wechseln",
@@ -177,6 +187,8 @@
       home: "Home",
       useCases: "Casi d'uso",
       useCasesTitle: "Casi d'uso — scaricare e unire",
+      useCasesDesc: "Guide passo passo di Grab All Files: scaricare in blocco PDF, immagini e file, esportare elenchi di file e unire pagine web in un unico file HTML.",
+      useCasesIntro: "Scegli l’attività che ti interessa. Ogni guida mostra i passaggi reali, le etichette che vedrai nell’estensione e cosa include la versione gratuita: 10 file per download e una pagina per raccolta.",
       security: "Sicurezza",
       pricing: "Prezzo",
       install: "Installa gratis",
@@ -193,11 +205,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Acquista",
       license: "Pro — $19.99 una tantum: nessun limite + HTML multipagina",
-      trial: "Free — 10 file per esecuzione + 1 pagina scelta in HTML",
+      trial: "Gratis — 10 file per download + 1 pagina scelta in HTML",
       local: "PDF, ZIP e CSV vengono elaborati localmente nel browser",
       privacy: "I file vengono scaricati dal sito sorgente al dispositivo",
       ctaTitle: "Prova Grab All Files nel tuo browser.",
-      ctaText: "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati fino a 10 per esecuzione e «Salva i prossimi 10» nella schermata dei risultati salva il resto. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate.",
+      ctaText: "La versione gratuita salva fino a 10 file per download nel downloader di file e una pagina scelta per volta quando unisci pagine in HTML; i file collegati di quella pagina si salvano 10 alla volta con «Salva i prossimi 10». Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download e unisce più pagine in un unico HTML.",
       skip: "Vai al contenuto",
       primaryNav: "Navigazione principale",
       themeToggle: "Cambia tema",
@@ -208,6 +220,8 @@
       home: "홈",
       useCases: "사용 사례",
       useCasesTitle: "용도별 — 일괄 다운로드와 HTML화",
+      useCasesDesc: "Grab All Files 용도별 가이드. PDF·이미지·파일 일괄 다운로드, 파일 목록 CSV 내보내기, 여러 웹페이지를 하나의 HTML로 합치는 방법을 실제 화면으로 안내합니다.",
+      useCasesIntro: "하려는 작업에 맞는 가이드를 고르세요. 각 가이드에서 실제 단계, 확장 프로그램에 표시되는 이름, 무료 버전의 범위(다운로드당 10개, 수집당 1페이지)를 안내합니다.",
       security: "보안",
       pricing: "가격",
       install: "무료 설치",
@@ -224,11 +238,11 @@
       firefox: "Firefox 부가 기능",
       purchase: "구매",
       license: "Pro — $19.99 1회 결제: 파일 제한 해제 + 여러 페이지 결합",
-      trial: "Free — 실행당 파일 10개 + 선택한 1페이지 HTML 저장",
+      trial: "무료 — 다운로드당 파일 10개 + 선택한 1페이지 HTML 저장",
       local: "PDF 병합, ZIP, CSV는 브라우저에서 로컬 처리",
       privacy: "파일은 원본 사이트에서 기기로 직접 다운로드됩니다",
       ctaTitle: "브라우저에서 Grab All Files를 사용해 보세요.",
-      ctaText: "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 10건 저장’으로 나머지를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다.",
+      ctaText: "무료 버전은 파일 일괄 다운로드에서 다운로드당 최대 10개, 페이지를 HTML로 합칠 때는 한 번에 선택한 1페이지를 저장합니다. 그 페이지에 직접 링크된 파일은 “다음 10건 저장”으로 10개씩 저장합니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없고 여러 페이지를 하나의 HTML로 합칩니다.",
       skip: "본문으로 건너뛰기",
       primaryNav: "주요 탐색",
       themeToggle: "테마 전환",
@@ -239,6 +253,8 @@
       home: "Início",
       useCases: "Casos de uso",
       useCasesTitle: "Casos de uso — baixar e unir páginas",
+      useCasesDesc: "Guias passo a passo do Grab All Files: baixar PDFs, imagens e arquivos em massa, exportar listas de arquivos e juntar páginas da web em um único HTML.",
+      useCasesIntro: "Escolha a tarefa que você tem em mente. Cada guia mostra os passos reais, os nomes que você verá na extensão e o que a versão gratuita cobre: 10 arquivos por download e uma página por coleta.",
       security: "Segurança",
       pricing: "Preço",
       install: "Instalar grátis",
@@ -255,11 +271,11 @@
       firefox: "Firefox Add-ons",
       purchase: "Comprar",
       license: "Pro — $19.99, compra única: sem limite + HTML multipágina",
-      trial: "Free — 10 arquivos por execução + 1 página escolhida em HTML",
+      trial: "Grátis — 10 arquivos por download + 1 página escolhida em HTML",
       local: "PDF, ZIP e CSV são processados localmente no navegador",
       privacy: "Os arquivos são baixados do site fonte para o seu dispositivo",
       ctaTitle: "Teste o Grab All Files no seu navegador.",
-      ctaText: "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos vinculados diretamente são salvos até 10 por execução, e “Salvar os próximos 10” na tela de resultado salva o restante. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas.",
+      ctaText: "A versão gratuita salva até 10 arquivos por download no baixador de arquivos e uma página escolhida por vez ao juntar páginas em HTML; os arquivos vinculados dessa página são salvos de 10 em 10 com “Salvar os próximos 10”. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download e junta várias páginas em um HTML.",
       skip: "Ir para o conteúdo",
       primaryNav: "Navegação principal",
       themeToggle: "Alternar tema",
@@ -270,6 +286,8 @@
       home: "首页",
       useCases: "用途",
       useCasesTitle: "用途 — 批量下载与网页合并",
+      useCasesDesc: "Grab All Files用途指南：批量下载PDF、图片和文件，导出文件清单CSV，以及把多个网页合并为一个HTML，结合实际界面逐步说明。",
+      useCasesIntro: "请选择与您的任务最接近的指南。每篇指南都介绍实际步骤、扩展程序中显示的名称，以及免费版的范围：每次下载10个文件，每次收集1个页面。",
       security: "安全",
       pricing: "价格",
       install: "免费安装",
@@ -286,11 +304,11 @@
       firefox: "Firefox 附加组件",
       purchase: "购买",
       license: "Pro — $19.99一次性购买：解除文件上限＋多页面HTML",
-      trial: "Free — 每次10个文件＋将所选1个页面保存为HTML",
+      trial: "免费版 — 每次下载10个文件＋将所选1个页面保存为HTML",
       local: "PDF合并、ZIP和CSV均在浏览器本地处理",
       privacy: "文件从源网站直接下载到您的设备",
       ctaTitle: "在浏览器中试用 Grab All Files。",
-      ctaText: "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。",
+      ctaText: "免费版在文件批量下载中每次下载最多保存10个文件，将网页合并为HTML时每次保存1个选定页面；该页面直接链接的文件可用“保存接下来的10个”每次保存10个。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的上限，并可将多个页面合并为一个HTML。",
       skip: "跳至主要内容",
       primaryNav: "主导航",
       themeToggle: "切换主题",
@@ -301,6 +319,8 @@
       home: "首頁",
       useCases: "用途",
       useCasesTitle: "用途 — 批次下載與網頁合併",
+      useCasesDesc: "Grab All Files用途指南：批次下載PDF、圖片和檔案，匯出檔案清單CSV，以及把多個網頁合併為一個HTML，搭配實際畫面逐步說明。",
+      useCasesIntro: "請選擇與您的任務最接近的指南。每篇指南都介紹實際步驟、擴充功能中顯示的名稱，以及免費版的範圍：每次下載10個檔案，每次收集1個頁面。",
       security: "安全",
       pricing: "價格",
       install: "免費安裝",
@@ -317,11 +337,11 @@
       firefox: "Firefox 附加元件",
       purchase: "購買",
       license: "Pro — $19.99一次購買：解除檔案上限＋多頁面HTML",
-      trial: "Free — 每次10個檔案＋將所選1個頁面儲存為HTML",
+      trial: "免費版 — 每次下載10個檔案＋將所選1個頁面儲存為HTML",
       local: "PDF合併、ZIP和CSV均在瀏覽器本機處理",
       privacy: "檔案從來源網站直接下載到您的裝置",
       ctaTitle: "在瀏覽器中試用 Grab All Files。",
-      ctaText: "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的10個」繼續儲存。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。",
+      ctaText: "免費版在檔案批次下載中每次下載最多儲存10個檔案，將網頁合併為HTML時每次儲存1個選定頁面；該頁面直接連結的檔案可用「儲存接下來的10個」每次儲存10個。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的上限，並可將多個頁面合併為一個HTML。",
       skip: "跳至主要內容",
       primaryNav: "主要導覽",
       themeToggle: "切換主題",
@@ -368,8 +388,8 @@
       "download-arxiv-pdfs-and-research-files": "arXiv PDFs & research files",
       "web-tables-to-csv-for-excel-ai": "Web tables to CSV",
       "save-and-compare-document-revisions": "Save & compare revisions",
-      "rename-and-organize-bulk-pdf-downloads": "Name & organize PDF downloads",
-      "collect-public-government-documents": "Public guidance & documents",
+      "rename-and-organize-bulk-pdf-downloads": "Rename & organize PDF downloads",
+      "collect-public-government-documents": "Government documents & guidance",
       "save-web-pages-as-markdown": "Web sources as Markdown",
       "save-online-manuals-and-knowledge-pages": "Save manuals & knowledge pages",
       "web-pages-for-reading-and-ai-analysis": "Collect, read & analyze with AI",
@@ -391,8 +411,8 @@
       "download-arxiv-pdfs-and-research-files": "arXivのPDF・研究資料",
       "web-tables-to-csv-for-excel-ai": "Web表をCSVで活用",
       "save-and-compare-document-revisions": "改訂前後の資料を比較",
-      "rename-and-organize-bulk-pdf-downloads": "PDFの題名・種類別整理",
-      "collect-public-government-documents": "自治体・公的機関の資料セット",
+      "rename-and-organize-bulk-pdf-downloads": "PDFのファイル名変更・整理",
+      "collect-public-government-documents": "官公庁・自治体の公開資料",
       "save-web-pages-as-markdown": "Web資料をMarkdownで再利用",
       "save-online-manuals-and-knowledge-pages": "業務マニュアル・ナレッジを保存",
       "web-pages-for-reading-and-ai-analysis": "集めて読む・AIで分析する",
@@ -414,8 +434,8 @@
       "download-arxiv-pdfs-and-research-files": "PDF y archivos de arXiv",
       "web-tables-to-csv-for-excel-ai": "Tablas web a CSV",
       "save-and-compare-document-revisions": "Guardar y comparar versiones",
-      "rename-and-organize-bulk-pdf-downloads": "Nombrar y organizar PDF",
-      "collect-public-government-documents": "Guías y documentos públicos",
+      "rename-and-organize-bulk-pdf-downloads": "Renombrar y organizar PDF",
+      "collect-public-government-documents": "Documentos y guías oficiales",
       "save-web-pages-as-markdown": "Fuentes web en Markdown",
       "save-online-manuals-and-knowledge-pages": "Guardar manuales y conocimiento",
       "web-pages-for-reading-and-ai-analysis": "Recopilar, leer y analizar con IA",
@@ -437,8 +457,8 @@
       "download-arxiv-pdfs-and-research-files": "PDF et fichiers arXiv",
       "web-tables-to-csv-for-excel-ai": "Tableaux web en CSV",
       "save-and-compare-document-revisions": "Enregistrer et comparer les versions",
-      "rename-and-organize-bulk-pdf-downloads": "Nommer et classer les PDF",
-      "collect-public-government-documents": "Guides et documents publics",
+      "rename-and-organize-bulk-pdf-downloads": "Renommer et classer les PDF",
+      "collect-public-government-documents": "Documents administratifs et guides",
       "save-web-pages-as-markdown": "Sources web en Markdown",
       "save-online-manuals-and-knowledge-pages": "Enregistrer manuels et connaissances",
       "web-pages-for-reading-and-ai-analysis": "Collecter, lire et analyser avec l’IA",
@@ -460,8 +480,8 @@
       "download-arxiv-pdfs-and-research-files": "arXiv-PDFs und Forschungsdateien",
       "web-tables-to-csv-for-excel-ai": "Webtabellen als CSV",
       "save-and-compare-document-revisions": "Dokumentstände vergleichen",
-      "rename-and-organize-bulk-pdf-downloads": "PDFs benennen und ordnen",
-      "collect-public-government-documents": "Öffentliche Hinweise & Dokumente",
+      "rename-and-organize-bulk-pdf-downloads": "PDFs umbenennen und ordnen",
+      "collect-public-government-documents": "Behördendokumente & Hinweise",
       "save-web-pages-as-markdown": "Webquellen als Markdown",
       "save-online-manuals-and-knowledge-pages": "Handbücher und Wissensseiten sichern",
       "web-pages-for-reading-and-ai-analysis": "Sammeln, lesen und mit KI analysieren",
@@ -484,7 +504,7 @@
       "web-tables-to-csv-for-excel-ai": "Tabelle web in CSV",
       "save-and-compare-document-revisions": "Salvare e confrontare versioni",
       "rename-and-organize-bulk-pdf-downloads": "Rinominare e organizzare PDF",
-      "collect-public-government-documents": "Guide e documenti pubblici",
+      "collect-public-government-documents": "Documenti e guide della PA",
       "save-web-pages-as-markdown": "Fonti web in Markdown",
       "save-online-manuals-and-knowledge-pages": "Salvare manuali e pagine di conoscenza",
       "web-pages-for-reading-and-ai-analysis": "Raccogliere, leggere e analizzare con IA",
@@ -506,8 +526,8 @@
       "download-arxiv-pdfs-and-research-files": "arXiv PDF·연구 파일",
       "web-tables-to-csv-for-excel-ai": "웹 표를 CSV로 활용",
       "save-and-compare-document-revisions": "개정 전후 자료 비교",
-      "rename-and-organize-bulk-pdf-downloads": "PDF 제목 저장·종류별 정리",
-      "collect-public-government-documents": "공공기관 자료 세트",
+      "rename-and-organize-bulk-pdf-downloads": "PDF 파일명 변경·정리",
+      "collect-public-government-documents": "정부·공공기관 문서",
       "save-web-pages-as-markdown": "웹 자료를 Markdown으로",
       "save-online-manuals-and-knowledge-pages": "업무 매뉴얼·지식 페이지 저장",
       "web-pages-for-reading-and-ai-analysis": "정보 수집·읽기·AI 분석",
@@ -529,8 +549,8 @@
       "download-arxiv-pdfs-and-research-files": "PDFs e arquivos do arXiv",
       "web-tables-to-csv-for-excel-ai": "Tabelas web em CSV",
       "save-and-compare-document-revisions": "Salvar e comparar revisões",
-      "rename-and-organize-bulk-pdf-downloads": "Nomear e organizar PDFs",
-      "collect-public-government-documents": "Orientações e documentos públicos",
+      "rename-and-organize-bulk-pdf-downloads": "Renomear e organizar PDFs",
+      "collect-public-government-documents": "Documentos e orientações do governo",
       "save-web-pages-as-markdown": "Fontes web em Markdown",
       "save-online-manuals-and-knowledge-pages": "Salvar manuais e conhecimento",
       "web-pages-for-reading-and-ai-analysis": "Coletar, ler e analisar com IA",
@@ -552,8 +572,8 @@
       "download-arxiv-pdfs-and-research-files": "arXiv PDF与研究文件",
       "web-tables-to-csv-for-excel-ai": "网页表格转CSV",
       "save-and-compare-document-revisions": "保存并比较修订前后资料",
-      "rename-and-organize-bulk-pdf-downloads": "PDF标题保存与格式整理",
-      "collect-public-government-documents": "公共机构资料集",
+      "rename-and-organize-bulk-pdf-downloads": "PDF重命名与整理",
+      "collect-public-government-documents": "政府公开文件与指南",
       "save-web-pages-as-markdown": "用Markdown复用Web资料",
       "save-online-manuals-and-knowledge-pages": "保存业务手册与知识文章",
       "web-pages-for-reading-and-ai-analysis": "收集信息·阅读·AI分析",
@@ -575,8 +595,8 @@
       "download-arxiv-pdfs-and-research-files": "arXiv PDF與研究檔案",
       "web-tables-to-csv-for-excel-ai": "網頁表格轉CSV",
       "save-and-compare-document-revisions": "儲存並比較修訂前後資料",
-      "rename-and-organize-bulk-pdf-downloads": "PDF標題儲存與格式整理",
-      "collect-public-government-documents": "公部門資料集",
+      "rename-and-organize-bulk-pdf-downloads": "PDF重新命名與整理",
+      "collect-public-government-documents": "政府公開文件與說明",
       "save-web-pages-as-markdown": "用Markdown重用Web資料",
       "save-online-manuals-and-knowledge-pages": "儲存業務手冊與知識文章",
       "web-pages-for-reading-and-ai-analysis": "收集資訊·閱讀·AI分析",
@@ -644,7 +664,7 @@
       "copy": {
         "en": {
           "title": "Save web pages with their original design as one HTML file | Grab All Files",
-          "desc": "Save one page, or many pages combined, with their original layout, fonts and images in a single offline HTML file. Scripts are removed and nothing is uploaded.",
+          "desc": "Save one page, or many combined, with the original layout, fonts and images in a single offline HTML file. Scripts are removed; nothing is uploaded.",
           "eyebrow": "Keep the original look",
           "h1": "Save pages exactly as they look, in one HTML file.",
           "lead": "Choose “Keep the original look” and Grab All Files saves each page with its own stylesheets, fonts and images: the layout, colors and typography you saw in the browser, in one self-contained HTML file. Combine many pages from a website or from a folder on your computer, and each page keeps its own design inside its own frame, with a table of contents and search across all of them. Scripts are taken out, so the file opens offline without tracking or pop-ups.",
@@ -684,6 +704,10 @@
             {
               "q": "When should I choose “Easy to read” instead?",
               "a": "Choose “Easy to read” when you want the text more than the design: for reading long material, printing, smaller files, or preparing Markdown and data for an AI tool. It shows every page in one clean style without the site’s header, menus and footer. “Keep the original look” is for keeping and sharing pages as they appeared."
+            },
+            {
+              "q": "What if a page needs me to sign in?",
+              "a": "Collection uses your own browser session and does not collect credentials. If a page is marked “Sign-in needed”, press “Open the site to sign in”, sign in in that tab, then press “Resume”. Pages that still need a sign-in are not saved, and the result says how many were left out."
             }
           ],
           "industry": {
@@ -819,7 +843,7 @@
           }
         },
         "ja": {
-          "title": "Webページを見た目そのまま1つのHTMLに保存｜複数ページもデザインごとまとめる | Grab All Files",
+          "title": "Webページを見た目そのまま1つのHTMLに保存 | Grab All Files",
           "desc": "Webページやパソコン内のHTMLを、元のレイアウト・フォント・画像のまま1つのHTMLファイルに保存。複数ページをまとめてもデザインが崩れず、目次と検索付き。スクリプトは除去し、アップロードもしません。",
           "eyebrow": "元の見た目のまま",
           "h1": "見たままのデザインで、ページを1つのHTMLに保存。",
@@ -860,6 +884,10 @@
             {
               "q": "「読みやすく整える」を選ぶのはどんなときですか？",
               "a": "デザインより文字が大事なとき、つまり長い資料を読む・印刷する・ファイルを小さくする・AI向けのMarkdownやデータを作るときです。サイトのヘッダー・メニュー・フッターを除き、全ページを同じ読みやすい書式で表示します。「元の見た目のまま」は、見えていたとおりに残す・渡すための選択肢です。"
+            },
+            {
+              "q": "ログインが必要なページはどうなりますか？",
+              "a": "収集はブラウザのログイン状態をそのまま使い、認証情報は収集しません。「ログインが必要」と表示されたら「対象サイトを開いてログイン」を押し、開いたタブでログインしてから「再開」を押します。ログインできないままのページは保存されず、残ったページ数が結果に表示されます。"
             }
           ],
           "industry": {
@@ -996,7 +1024,7 @@
         },
         "es": {
           "title": "Guarda páginas web con su diseño original en un solo HTML | Grab All Files",
-          "desc": "Guarda una página, o varias combinadas, con su diseño, tipografías e imágenes originales en un único HTML sin conexión. Se quitan los scripts y no se sube nada.",
+          "desc": "Guarda una página, o varias combinadas, con su diseño, fuentes e imágenes originales en un único HTML sin conexión. Sin scripts y sin subir nada.",
           "eyebrow": "Mantener el aspecto original",
           "h1": "Guarda las páginas tal como se ven, en un solo HTML.",
           "lead": "Elige «Mantener el aspecto original» y Grab All Files guarda cada página con sus propias hojas de estilo, tipografías e imágenes: el diseño, los colores y la tipografía que veías en el navegador, en un único archivo HTML autónomo. Combina varias páginas de un sitio web o de una carpeta de tu ordenador y cada una conserva su diseño dentro de su propio marco, con un índice y una búsqueda que abarca todas. Los scripts se eliminan, así que el archivo se abre sin conexión, sin rastreo ni ventanas emergentes.",
@@ -1036,6 +1064,10 @@
             {
               "q": "¿Cuándo debería elegir «Fácil de leer»?",
               "a": "Elige «Fácil de leer» cuando te interese más el texto que el diseño: para leer material extenso, imprimir, obtener archivos más pequeños o preparar Markdown y datos para una herramienta de IA. Muestra todas las páginas con un mismo estilo limpio, sin el encabezado, los menús ni el pie del sitio. «Mantener el aspecto original» sirve para conservar y compartir las páginas tal como se veían."
+            },
+            {
+              "q": "¿Y si una página me pide iniciar sesión?",
+              "a": "La recopilación usa tu propia sesión del navegador y no recopila credenciales. Si una página aparece como «Inicio de sesión necesario», pulsa «Abrir el sitio para iniciar sesión», inicia sesión en esa pestaña y pulsa «Reanudar». Las páginas que sigan pidiendo sesión no se guardan, y el resultado indica cuántas quedaron fuera."
             }
           ],
           "industry": {
@@ -1171,8 +1203,8 @@
           }
         },
         "fr": {
-          "title": "Enregistrez des pages web avec leur design d’origine en un seul HTML | Grab All Files",
-          "desc": "Enregistrez une page, ou plusieurs regroupées, avec leur mise en page, leurs polices et leurs images d’origine dans un seul fichier HTML hors ligne. Sans script ni envoi.",
+          "title": "Enregistrer des pages web avec leur design d’origine | Grab All Files",
+          "desc": "Enregistrez une ou plusieurs pages avec leur mise en page, leurs polices et leurs images d’origine dans un seul HTML hors ligne. Sans script ni envoi.",
           "eyebrow": "Garder l’apparence d’origine",
           "h1": "Enregistrez les pages telles qu’elles s’affichent, dans un seul HTML.",
           "lead": "Choisissez « Garder l’apparence d’origine » et Grab All Files enregistre chaque page avec ses propres feuilles de style, polices et images : la mise en page, les couleurs et la typographie que vous voyiez dans le navigateur, dans un seul fichier HTML autonome. Regroupez plusieurs pages d’un site web ou d’un dossier de votre ordinateur : chaque page conserve son design dans son propre cadre, avec une table des matières et une recherche sur l’ensemble. Les scripts sont retirés, le fichier s’ouvre donc hors ligne, sans suivi ni fenêtres publicitaires.",
@@ -1212,6 +1244,10 @@
             {
               "q": "Quand choisir plutôt « Facile à lire » ?",
               "a": "Choisissez « Facile à lire » quand le texte compte plus que le design : pour lire de longs documents, imprimer, obtenir des fichiers plus petits ou préparer du Markdown et des données pour un outil d’IA. Toutes les pages s’affichent dans un même style épuré, sans l’en-tête, les menus ni le pied de page du site. « Garder l’apparence d’origine » sert à conserver et à partager les pages telles qu’elles s’affichaient."
+            },
+            {
+              "q": "Et si une page me demande de me connecter ?",
+              "a": "La collecte utilise votre propre session de navigateur et ne collecte aucun identifiant. Si une page est marquée « Connexion nécessaire », cliquez sur « Ouvrir le site pour se connecter », connectez-vous dans cet onglet, puis cliquez sur « Reprendre ». Les pages qui exigent encore une connexion ne sont pas enregistrées, et le résultat indique combien ont été laissées de côté."
             }
           ],
           "industry": {
@@ -1348,7 +1384,7 @@
         },
         "de": {
           "title": "Webseiten im Originaldesign in einer HTML-Datei speichern | Grab All Files",
-          "desc": "Speichern Sie eine oder mehrere Seiten mit Original-Layout, Schriften und Bildern in einer einzigen HTML-Datei für offline. Skripte werden entfernt, nichts wird hochgeladen.",
+          "desc": "Eine oder mehrere Seiten mit Original-Layout, Schriften und Bildern in einer Offline-HTML-Datei speichern. Ohne Skripte, ohne Upload.",
           "eyebrow": "Ursprüngliches Aussehen behalten",
           "h1": "Seiten genau so speichern, wie sie aussehen – in einer HTML-Datei.",
           "lead": "Wählen Sie „Ursprüngliches Aussehen behalten“, und Grab All Files speichert jede Seite mit ihren eigenen Stylesheets, Schriften und Bildern: Layout, Farben und Typografie, wie Sie sie im Browser gesehen haben, in einer in sich geschlossenen HTML-Datei. Fassen Sie viele Seiten einer Website oder eines Ordners auf Ihrem Computer zusammen: Jede Seite behält ihr Design in einem eigenen Rahmen, dazu gibt es ein Inhaltsverzeichnis und eine Suche über alle Seiten. Skripte werden entfernt, daher lässt sich die Datei offline öffnen – ohne Tracking und ohne Pop-ups.",
@@ -1388,6 +1424,10 @@
             {
               "q": "Wann sollte ich stattdessen „Gut lesbar“ wählen?",
               "a": "Wählen Sie „Gut lesbar“, wenn Ihnen der Text wichtiger ist als das Design: zum Lesen langer Unterlagen, zum Drucken, für kleinere Dateien oder um Markdown und Daten für ein KI-Werkzeug vorzubereiten. Alle Seiten erscheinen in einem einheitlichen, aufgeräumten Stil, ohne Kopfzeile, Menüs und Fußzeile der Website. „Ursprüngliches Aussehen behalten“ ist dafür gedacht, Seiten so aufzubewahren und weiterzugeben, wie sie erschienen sind."
+            },
+            {
+              "q": "Was passiert, wenn eine Seite eine Anmeldung verlangt?",
+              "a": "Die Sammlung nutzt Ihre eigene Browser-Sitzung und sammelt keine Zugangsdaten. Ist eine Seite mit „Anmeldung erforderlich“ markiert, klicken Sie auf „Website zum Anmelden öffnen“, melden sich in diesem Tab an und klicken dann auf „Fortsetzen“. Seiten, die weiterhin eine Anmeldung verlangen, werden nicht gespeichert; das Ergebnis nennt ihre Anzahl."
             }
           ],
           "industry": {
@@ -1523,8 +1563,8 @@
           }
         },
         "it": {
-          "title": "Salva pagine web con il design originale in un solo file HTML | Grab All Files",
-          "desc": "Salva una pagina, o più pagine unite, con layout, caratteri e immagini originali in un unico file HTML offline. Gli script vengono rimossi e non viene caricato nulla.",
+          "title": "Salvare pagine web con il design originale | Grab All Files",
+          "desc": "Salva una o più pagine con layout, caratteri e immagini originali in un unico file HTML offline. Gli script vengono rimossi e nulla viene caricato.",
           "eyebrow": "Mantieni l’aspetto originale",
           "h1": "Salva le pagine esattamente come appaiono, in un solo file HTML.",
           "lead": "Scegli «Mantieni l’aspetto originale» e Grab All Files salva ogni pagina con i suoi fogli di stile, caratteri e immagini: il layout, i colori e la tipografia che vedevi nel browser, in un unico file HTML autonomo. Unisci più pagine di un sito web o di una cartella del tuo computer: ognuna conserva il proprio design nel proprio riquadro, con un indice e una ricerca su tutte le pagine. Gli script vengono rimossi, quindi il file si apre offline, senza tracciamento né pop-up.",
@@ -1564,6 +1604,10 @@
             {
               "q": "Quando conviene scegliere invece «Facile da leggere»?",
               "a": "Scegli «Facile da leggere» quando conta più il testo del design: per leggere materiale lungo, stampare, ottenere file più piccoli o preparare Markdown e dati per uno strumento di IA. Mostra tutte le pagine in un unico stile pulito, senza l’intestazione, i menu e il piè di pagina del sito. «Mantieni l’aspetto originale» serve a conservare e condividere le pagine così come apparivano."
+            },
+            {
+              "q": "E se una pagina mi chiede di accedere?",
+              "a": "La raccolta usa la tua sessione del browser e non raccoglie credenziali. Se una pagina è segnata «Accesso necessario», fai clic su «Apri il sito per accedere», accedi in quella scheda e poi fai clic su «Riprendi». Le pagine che richiedono ancora l’accesso non vengono salvate e il risultato indica quante sono rimaste fuori."
             }
           ],
           "industry": {
@@ -1699,7 +1743,7 @@
           }
         },
         "ko": {
-          "title": "웹페이지를 원래 디자인 그대로 HTML 파일 하나로 저장 | Grab All Files",
+          "title": "웹페이지를 원래 디자인 그대로 HTML로 저장 | Grab All Files",
           "desc": "한 페이지든 여러 페이지를 합친 것이든 원래 레이아웃, 글꼴, 이미지 그대로 오프라인용 HTML 파일 하나에 저장합니다. 스크립트는 제거되고 아무것도 업로드되지 않습니다.",
           "eyebrow": "원래 모양 그대로",
           "h1": "보이는 그대로, 페이지를 HTML 파일 하나에 저장하세요.",
@@ -1740,6 +1784,10 @@
             {
               "q": "“읽기 쉽게 정리”는 언제 선택하나요?",
               "a": "디자인보다 텍스트가 중요할 때 선택하세요. 긴 자료를 읽거나, 인쇄하거나, 파일을 작게 만들거나, AI 도구용 Markdown과 데이터를 준비할 때입니다. 사이트의 헤더, 메뉴, 푸터 없이 모든 페이지를 하나의 깔끔한 스타일로 보여 줍니다. “원래 모양 그대로”는 페이지를 보이던 모습 그대로 보관하고 공유하기 위한 옵션입니다."
+            },
+            {
+              "q": "로그인이 필요한 페이지는 어떻게 되나요?",
+              "a": "수집은 브라우저의 로그인 상태를 그대로 사용하며 인증 정보를 수집하지 않습니다. “로그인 필요”로 표시되면 “사이트를 열어 로그인”을 누르고 열린 탭에서 로그인한 뒤 “재개”를 누르세요. 계속 로그인이 필요한 페이지는 저장되지 않으며, 남은 페이지 수가 결과에 표시됩니다."
             }
           ],
           "industry": {
@@ -1875,8 +1923,8 @@
           }
         },
         "pt_BR": {
-          "title": "Salve páginas da web com o design original em um único arquivo HTML | Grab All Files",
-          "desc": "Salve uma página, ou várias combinadas, com o layout, as fontes e as imagens originais em um único arquivo HTML offline. Os scripts são removidos e nada é enviado.",
+          "title": "Salvar páginas da web com o design original | Grab All Files",
+          "desc": "Salve uma ou várias páginas com layout, fontes e imagens originais em um único arquivo HTML offline. Os scripts são removidos e nada é enviado.",
           "eyebrow": "Manter a aparência original",
           "h1": "Salve as páginas exatamente como elas são, em um único arquivo HTML.",
           "lead": "Escolha “Manter a aparência original” e o Grab All Files salva cada página com as próprias folhas de estilo, fontes e imagens: o layout, as cores e a tipografia que você viu no navegador, em um único arquivo HTML autossuficiente. Junte várias páginas de um site ou de uma pasta do seu computador, e cada página mantém o próprio design dentro do próprio quadro, com sumário e busca em todas elas. Os scripts são removidos, então o arquivo abre offline, sem rastreamento nem pop-ups.",
@@ -1916,6 +1964,10 @@
             {
               "q": "Quando devo escolher “Fácil de ler”?",
               "a": "Escolha “Fácil de ler” quando o texto importa mais que o design: para ler materiais longos, imprimir, gerar arquivos menores ou preparar Markdown e dados para uma ferramenta de IA. Ele mostra todas as páginas em um único estilo limpo, sem o cabeçalho, os menus e o rodapé do site. “Manter a aparência original” serve para guardar e compartilhar as páginas como elas apareciam."
+            },
+            {
+              "q": "E se uma página pedir login?",
+              "a": "A coleta usa a sua própria sessão do navegador e não coleta credenciais. Se uma página aparecer como “Login necessário”, clique em “Abrir o site para fazer login”, entre nessa aba e clique em “Retomar”. Páginas que continuarem exigindo login não são salvas, e o resultado informa quantas ficaram de fora."
             }
           ],
           "industry": {
@@ -2092,6 +2144,10 @@
             {
               "q": "什么时候应该改选“整理为易读格式”?",
               "a": "当您更看重文字而不是设计时,请选择“整理为易读格式”:例如阅读长篇资料、打印、减小文件体积,或为 AI 工具准备 Markdown 和数据。它会以统一、简洁的样式显示所有网页,不含网站的页眉、菜单和页脚。“保持原样”则用于按网页原本的样子保存和分享。"
+            },
+            {
+              "q": "需要登录的页面怎么办？",
+              "a": "收集直接使用您浏览器的登录状态，不收集凭据。页面显示“需要登录”时，请点击“打开网站进行登录”，在打开的标签页中登录后点击“继续”。仍需登录的页面不会被保存，结果中会显示剩余页面数。"
             }
           ],
           "industry": {
@@ -2268,6 +2324,10 @@
             {
               "q": "什麼時候應該改選「整理為易讀格式」?",
               "a": "當您比較重視文字而非設計時,請選擇「整理為易讀格式」:例如閱讀長篇資料、列印、縮小檔案,或為 AI 工具準備 Markdown 與資料。它會以統一、簡潔的樣式顯示所有網頁,不含網站的頁首、選單與頁尾。「保持原樣」則用於依網頁原本的樣子保存與分享。"
+            },
+            {
+              "q": "需要登入的頁面怎麼辦？",
+              "a": "收集直接使用您瀏覽器的登入狀態，不收集憑證。頁面顯示「需要登入」時，請點擊「開啟網站進行登入」，在開啟的分頁中登入後點擊「繼續」。仍需登入的頁面不會被儲存，結果中會顯示剩餘頁面數。"
             }
           ],
           "industry": {
@@ -2456,7 +2516,7 @@
       "copy": {
         "en": {
           "title": "Combine multiple local HTML files into one HTML file | Grab All Files",
-          "desc": "Merge a folder or ZIP of HTML files on your computer into one offline HTML file with a table of contents, embedded images and working internal links. Nothing is uploaded.",
+          "desc": "Merge a folder or ZIP of HTML files on your computer into one offline HTML with a table of contents, embedded images and working links. No upload.",
           "eyebrow": "Local HTML files → one HTML",
           "h1": "Combine a folder of HTML files into one HTML file.",
           "lead": "Have a saved website, an exported manual or a ZIP full of .html pages? Choose the folder or ZIP on your computer and Grab All Files combines the pages into a single HTML file with a table of contents. Pages keep the order of the site’s own links, local images are embedded, and links between pages jump inside the file. Everything runs in your browser; nothing is uploaded.",
@@ -2496,6 +2556,10 @@
             {
               "q": "How is this different from combining pages from a website?",
               "a": "The browser-page mode collects related pages from a live website. Folder mode works only with files already on your computer, so it suits archived sites, offline manuals and documents that are no longer online."
+            },
+            {
+              "q": "Why is a page or image missing from the result?",
+              "a": "Check the report after creating the HTML: it lists files that could not be read, links to pages you left out and images that could not be embedded. Pages outside the chosen sub-folder or in excluded paths are not included, online images stay as links, and frameset layout pages are skipped by default while the pages inside the frames are kept."
             }
           ],
           "industry": {
@@ -2557,11 +2621,11 @@
           }
         },
         "ja": {
-          "title": "複数のHTMLファイルを1つに結合｜フォルダ・ZIPから目次付きで | Grab All Files",
+          "title": "複数のHTMLファイルを目次付きで1つに結合 | Grab All Files",
           "desc": "パソコンのフォルダやZIPにある複数のHTMLファイルを、目次付きの1つのHTMLにまとめます。画像は埋め込み、ページ間リンクはファイル内で移動。アップロードはしません。",
           "eyebrow": "パソコン内のHTML → 1つのHTML",
           "h1": "フォルダ内のHTMLファイルを、1つのHTMLにまとめる。",
-          "lead": "保存しておいたWebサイト、書き出したマニュアル、HTMLがたくさん入ったZIP。パソコンのフォルダかZIPを選ぶだけで、目次付きの1つのHTMLファイルにまとめます。ページはサイト内のリンク順に並び、パソコン内の画像は埋め込まれ、ページ間のリンクはファイル内の移動に変わります。処理はすべてブラウザーの中で行い、アップロードはしません。",
+          "lead": "保存しておいたWebサイト、書き出したマニュアル、HTMLがたくさん入ったZIP。パソコンのフォルダかZIPを選ぶだけで、目次付きの1つのHTMLファイルにまとめます。ページはサイト内のリンク順に並び、パソコン内の画像は埋め込まれ、ページ間のリンクはファイル内の移動に変わります。処理はすべてブラウザの中で行い、アップロードはしません。",
           "best": [
             "昔保存・ミラーしたWebサイト（index.htmlと多数のページ）を、1ファイルで保管・閲覧・検索したい。",
             "HTMLのフォルダで書き出されたヘルプ・製品マニュアル・技術資料をまとめたい。",
@@ -2581,7 +2645,7 @@
             },
             {
               "q": "ファイルはどこかにアップロードされますか？",
-              "a": "いいえ。フォルダやZIPはブラウザーの中で読み込み、まとめたHTMLはお使いのパソコン上で作成します。サイトへのアクセス許可も不要です。ページが参照しているネット上の画像はダウンロードせず、リンクのまま残します。"
+              "a": "いいえ。フォルダやZIPはブラウザの中で読み込み、まとめたHTMLはお使いのパソコン上で作成します。サイトへのアクセス許可も不要です。ページが参照しているネット上の画像はダウンロードせず、リンクのまま残します。"
             },
             {
               "q": "古いサイトのShift_JISのページは文字化けしませんか？",
@@ -2589,7 +2653,7 @@
             },
             {
               "q": "画像やPDF、ページ間のリンクはどうなりますか？",
-              "a": "パソコン内のPNG・JPEG・GIF・WebP・AVIF画像は埋め込みます。まとめたページ同士のリンクは、ファイル内の該当箇所への移動になります。PDF・Office・ZIPなどのリンク先ファイルは「HTMLの隣にコピー」（既定）、「HTMLに埋め込む」（初期値は1ファイル20MiB・合計100MiBまで）、「リンクのまま」から選べます。"
+              "a": "パソコン内のPNG・JPEG・GIF・WebP・AVIF画像は埋め込みます。まとめたページ同士のリンクは、ファイル内の該当箇所への移動になります。PDF・Office・ZIPなどのリンク先ファイルは「HTMLの隣にコピー」（既定）、「HTMLの中に埋め込む」（初期値は1ファイル20MiB・合計100MiBまで）、「リンクのまま」から選べます。"
             },
             {
               "q": "どんなファイルを読めますか？",
@@ -2597,7 +2661,11 @@
             },
             {
               "q": "Webサイトのページをまとめる機能とは何が違いますか？",
-              "a": "「ブラウザーのページ」は、公開中のWebサイトから関連ページを集めます。「パソコンのフォルダから」はパソコン内のファイルだけを使うので、閉鎖されたサイトの保存データやオフラインのマニュアル、もうネット上に無い資料に向いています。"
+              "a": "「ブラウザのページ」は、公開中のWebサイトから関連ページを集めます。「パソコンのフォルダから」はパソコン内のファイルだけを使うので、閉鎖されたサイトの保存データやオフラインのマニュアル、もうネット上に無い資料に向いています。"
+            },
+            {
+              "q": "結果にページや画像が含まれないのはなぜですか？",
+              "a": "HTML作成後のレポートを確認してください。読み込めなかったファイル、除外したページへのリンク、埋め込めなかった画像が一覧で表示されます。選んだサブフォルダ外や除外したパスのページは含まれず、オンライン上の画像はリンクのまま残ります。フレーム構成のページ（frameset）は既定で除外され、フレーム内のページは含まれます。"
             }
           ],
           "industry": {
@@ -2660,7 +2728,7 @@
         },
         "es": {
           "title": "Combinar varios archivos HTML en uno solo | Grab All Files",
-          "desc": "Combina varios archivos HTML de una carpeta o ZIP de tu ordenador en un solo HTML sin conexión, con índice, imágenes incrustadas y enlaces internos. Sin subir nada.",
+          "desc": "Une los archivos HTML de una carpeta o ZIP de tu ordenador en un solo HTML sin conexión, con índice, imágenes incrustadas y enlaces internos.",
           "eyebrow": "HTML del ordenador → un solo HTML",
           "h1": "Combinar varios archivos HTML en uno solo.",
           "lead": "¿Tienes un sitio web guardado, un manual exportado o un ZIP lleno de páginas .html? Elige la carpeta o el ZIP en tu ordenador y Grab All Files une las páginas en un único archivo HTML con índice. Las páginas siguen el orden de los enlaces del propio sitio, las imágenes locales se incrustan y los enlaces entre páginas saltan dentro del archivo. Todo se ejecuta en tu navegador; no se sube nada.",
@@ -2700,6 +2768,10 @@
             {
               "q": "¿En qué se diferencia de combinar páginas de un sitio web?",
               "a": "El modo «Página del navegador» reúne páginas relacionadas de un sitio web en línea. El modo carpeta solo trabaja con archivos que ya están en tu ordenador, así que sirve para sitios archivados, manuales sin conexión y documentos que ya no están en línea."
+            },
+            {
+              "q": "¿Por qué falta una página o una imagen en el resultado?",
+              "a": "Revisa el informe tras crear el HTML: enumera los archivos que no se pudieron leer, los enlaces a páginas que dejaste fuera y las imágenes que no se pudieron incrustar. Las páginas fuera de la subcarpeta elegida o en rutas excluidas no se incluyen, las imágenes en línea quedan como enlaces y las páginas de marcos (frameset) se omiten por defecto, aunque se conservan las páginas de dentro de los marcos."
             }
           ],
           "industry": {
@@ -2762,7 +2834,7 @@
         },
         "fr": {
           "title": "Fusionner plusieurs fichiers HTML en un seul | Grab All Files",
-          "desc": "Fusionnez les fichiers HTML d’un dossier ou d’un ZIP en un seul HTML hors ligne, avec sommaire, images intégrées et liens internes. Aucun envoi de fichiers.",
+          "desc": "Fusionnez les fichiers HTML d’un dossier ou d’un ZIP en un seul HTML hors ligne, avec sommaire, images intégrées et liens internes. Sans envoi.",
           "eyebrow": "HTML de l’ordinateur → un seul HTML",
           "h1": "Fusionner plusieurs fichiers HTML en un seul.",
           "lead": "Vous avez un site enregistré, un manuel exporté ou un ZIP rempli de pages .html ? Choisissez le dossier ou le ZIP sur votre ordinateur et Grab All Files réunit les pages dans un seul fichier HTML avec sommaire. Les pages suivent l’ordre des liens du site, les images locales sont intégrées et les liens entre pages deviennent des sauts à l’intérieur du fichier. Tout s’exécute dans votre navigateur ; rien n’est envoyé.",
@@ -2802,6 +2874,10 @@
             {
               "q": "En quoi est-ce différent de la fusion de pages d’un site web ?",
               "a": "Le mode « Page du navigateur » rassemble des pages liées d’un site en ligne. Le mode dossier ne travaille qu’avec des fichiers déjà présents sur votre ordinateur ; il convient donc aux sites archivés, aux manuels hors ligne et aux documents qui ne sont plus en ligne."
+            },
+            {
+              "q": "Pourquoi une page ou une image manque-t-elle dans le résultat ?",
+              "a": "Consultez le rapport après la création du HTML : il liste les fichiers illisibles, les liens vers les pages laissées de côté et les images non intégrées. Les pages hors du sous-dossier choisi ou dans des chemins exclus ne sont pas incluses, les images en ligne restent des liens, et les pages de cadres (frameset) sont ignorées par défaut tandis que les pages à l’intérieur des cadres sont gardées."
             }
           ],
           "industry": {
@@ -2864,7 +2940,7 @@
         },
         "de": {
           "title": "Mehrere HTML-Dateien zu einer zusammenführen | Grab All Files",
-          "desc": "Führen Sie HTML-Dateien aus einem Ordner oder ZIP zu einer Offline-HTML-Datei zusammen: mit Inhaltsverzeichnis, eingebetteten Bildern und Links. Kein Upload.",
+          "desc": "HTML-Dateien aus einem Ordner oder ZIP zu einer Offline-HTML-Datei zusammenführen – mit Inhaltsverzeichnis, eingebetteten Bildern und Links.",
           "eyebrow": "Lokale HTML-Dateien → eine HTML-Datei",
           "h1": "Mehrere HTML-Dateien zu einer HTML-Datei zusammenführen.",
           "lead": "Sie haben eine gespeicherte Website, ein exportiertes Handbuch oder ein ZIP voller .html-Seiten? Wählen Sie den Ordner oder das ZIP auf Ihrem Computer, und Grab All Files führt die Seiten zu einer einzigen HTML-Datei mit Inhaltsverzeichnis zusammen. Die Seiten folgen der Reihenfolge der Links der Website, lokale Bilder werden eingebettet, und Links zwischen den Seiten springen innerhalb der Datei. Alles läuft in Ihrem Browser; es wird nichts hochgeladen.",
@@ -2904,6 +2980,10 @@
             {
               "q": "Wie unterscheidet sich das vom Zusammenführen von Seiten einer Website?",
               "a": "Der Modus „Browserseite“ sammelt zusammengehörige Seiten einer Live-Website. Der Ordnermodus arbeitet nur mit Dateien, die bereits auf Ihrem Computer liegen, und passt daher zu archivierten Websites, Offline-Handbüchern und Dokumenten, die nicht mehr online sind."
+            },
+            {
+              "q": "Warum fehlt eine Seite oder ein Bild im Ergebnis?",
+              "a": "Prüfen Sie den Bericht nach dem Erstellen der HTML-Datei: Er listet nicht lesbare Dateien, Links auf ausgelassene Seiten und Bilder, die nicht eingebettet werden konnten. Seiten außerhalb des gewählten Unterordners oder in ausgeschlossenen Pfaden fehlen bewusst, Online-Bilder bleiben Links, und Frameset-Seiten werden standardmäßig übersprungen, während die Seiten in den Frames erhalten bleiben."
             }
           ],
           "industry": {
@@ -3006,6 +3086,10 @@
             {
               "q": "In che cosa è diverso dall’unire le pagine di un sito web?",
               "a": "La modalità «Pagina del browser» raccoglie pagine correlate da un sito online. La modalità cartella lavora solo con file già presenti sul tuo computer, quindi è adatta a siti archiviati, manuali offline e documenti non più online."
+            },
+            {
+              "q": "Perché nel risultato manca una pagina o un’immagine?",
+              "a": "Controlla il rapporto dopo aver creato l’HTML: elenca i file non leggibili, i link a pagine escluse e le immagini che non è stato possibile incorporare. Le pagine fuori dalla sottocartella scelta o in percorsi esclusi non vengono incluse, le immagini online restano link e le pagine a frame (frameset) sono saltate per impostazione predefinita, mentre le pagine dentro i frame vengono mantenute."
             }
           ],
           "industry": {
@@ -3067,7 +3151,7 @@
           }
         },
         "ko": {
-          "title": "여러 HTML 파일 하나로 합치기｜폴더·ZIP에서 목차까지 | Grab All Files",
+          "title": "여러 HTML 파일을 목차와 함께 하나로 합치기 | Grab All Files",
           "desc": "컴퓨터 폴더나 ZIP 속 여러 HTML 파일을 목차가 있는 HTML 하나로 합칩니다. 이미지는 포함되고 페이지 간 링크도 유지됩니다. 업로드하지 않습니다.",
           "eyebrow": "컴퓨터의 HTML → HTML 하나",
           "h1": "여러 HTML 파일을 하나의 HTML로 합치기.",
@@ -3108,6 +3192,10 @@
             {
               "q": "웹사이트의 페이지를 합치는 기능과는 무엇이 다른가요?",
               "a": "“브라우저 페이지” 모드는 공개 중인 웹사이트에서 관련 페이지를 모읍니다. 폴더 모드는 이미 컴퓨터에 있는 파일만 사용하므로, 보관해 둔 사이트, 오프라인 매뉴얼, 더 이상 온라인에 없는 문서에 알맞습니다."
+            },
+            {
+              "q": "결과에 페이지나 이미지가 빠진 이유는요?",
+              "a": "HTML을 만든 뒤 보고서를 확인하세요. 읽지 못한 파일, 제외한 페이지로 가는 링크, 포함하지 못한 이미지가 나열됩니다. 선택한 하위 폴더 밖이나 제외한 경로의 페이지는 포함되지 않고, 온라인 이미지는 링크로 남으며, 프레임 구성 페이지(frameset)는 기본적으로 제외되지만 프레임 안의 페이지는 포함됩니다."
             }
           ],
           "industry": {
@@ -3210,6 +3298,10 @@
             {
               "q": "Qual a diferença para juntar páginas de um site?",
               "a": "O modo “Página do navegador” reúne páginas relacionadas de um site no ar. O modo pasta trabalha apenas com arquivos que já estão no seu computador, por isso serve para sites arquivados, manuais offline e documentos que não estão mais online."
+            },
+            {
+              "q": "Por que falta uma página ou imagem no resultado?",
+              "a": "Confira o relatório depois de criar o HTML: ele lista os arquivos que não puderam ser lidos, os links para páginas deixadas de fora e as imagens que não puderam ser incorporadas. Páginas fora da subpasta escolhida ou em caminhos excluídos não entram, imagens on-line ficam como links e páginas de frames (frameset) são ignoradas por padrão, enquanto as páginas dentro dos frames são mantidas."
             }
           ],
           "industry": {
@@ -3271,8 +3363,8 @@
           }
         },
         "zh_CN": {
-          "title": "多个HTML文件合并成一个｜文件夹或ZIP自动生成目录 | Grab All Files",
-          "desc": "把电脑文件夹或ZIP里的多个HTML文件合并成一个带目录的HTML。图片内嵌，页面间链接在文件内跳转，不上传。",
+          "title": "把多个HTML文件合并成一个带目录的文件 | Grab All Files",
+          "desc": "把电脑上文件夹或ZIP里的多个HTML文件合并成一个带目录的离线HTML。图片内嵌，页面间链接在文件内跳转，全程在浏览器中完成，不上传任何文件。",
           "eyebrow": "电脑里的 HTML → 一个 HTML",
           "h1": "把多个HTML文件合并成一个HTML文件。",
           "lead": "手头有保存下来的网站、导出的手册，或装满 .html 页面的 ZIP？在电脑上选择文件夹或 ZIP，Grab All Files 就会把这些页面合并成一个带目录的 HTML 文件。页面按网站自身的链接顺序排列，本地图片会内嵌，页面之间的链接变为文件内跳转。所有处理都在浏览器中完成，不会上传任何内容。",
@@ -3312,6 +3404,10 @@
             {
               "q": "这和合并网站页面的功能有什么不同？",
               "a": "“浏览器页面”模式从在线网站收集相关页面。文件夹模式只处理电脑上已有的文件，因此适合已存档的网站、离线手册，以及不再在线的文档。"
+            },
+            {
+              "q": "为什么结果中缺少某个页面或图片？",
+              "a": "生成HTML后请查看报告：其中列出了无法读取的文件、指向已排除页面的链接以及无法嵌入的图片。所选子文件夹以外或已排除路径中的页面不会包含，在线图片保留为链接；框架布局页面（frameset）默认跳过，但框架内的页面会保留。"
             }
           ],
           "industry": {
@@ -3373,8 +3469,8 @@
           }
         },
         "zh_TW": {
-          "title": "多個HTML檔案合併成一個｜資料夾或ZIP自動產生目錄 | Grab All Files",
-          "desc": "把電腦資料夾或ZIP裡的多個HTML檔案合併成一個附目錄的HTML。圖片內嵌，頁面間連結在檔案內跳轉，不上傳。",
+          "title": "把多個HTML檔案合併成一個附目錄的檔案 | Grab All Files",
+          "desc": "把電腦上資料夾或ZIP裡的多個HTML檔案合併成一個附目錄的離線HTML。圖片內嵌，頁面間連結在檔案內跳轉，全程在瀏覽器中完成，不上傳任何檔案。",
           "eyebrow": "電腦裡的 HTML → 一個 HTML",
           "h1": "把多個HTML檔案合併成一個HTML檔案。",
           "lead": "手邊有存下來的網站、匯出的手冊，或裝滿 .html 頁面的 ZIP？在電腦上選擇資料夾或 ZIP，Grab All Files 就會把這些頁面合併成一個附目錄的 HTML 檔案。頁面依網站本身的連結順序排列，本機圖片會內嵌，頁面之間的連結變為檔案內跳轉。所有處理都在瀏覽器中完成，不會上傳任何內容。",
@@ -3414,6 +3510,10 @@
             {
               "q": "這和合併網站頁面的功能有什麼不同？",
               "a": "「瀏覽器頁面」模式從線上網站收集相關頁面。資料夾模式只處理電腦上已有的檔案，因此適合已封存的網站、離線手冊，以及不再於線上提供的文件。"
+            },
+            {
+              "q": "為什麼結果中缺少某個頁面或圖片？",
+              "a": "產生HTML後請查看報告：其中列出無法讀取的檔案、指向已排除頁面的連結以及無法嵌入的圖片。所選子資料夾以外或已排除路徑中的頁面不會包含，線上圖片保留為連結；框架版面頁面（frameset）預設略過，但框架內的頁面會保留。"
             }
           ],
           "industry": {
@@ -3486,7 +3586,7 @@
       "copy": {
         "en": {
           "title": "Download product catalogs & datasheets | Grab All Files",
-          "desc": "Build a working set of catalogs, specification PDFs and datasheets for the products you are comparing.",
+          "desc": "Save catalogs, spec sheets and datasheets for the models you compare, named by model with their source links kept. Free saves 10 files per download.",
           "eyebrow": "Product catalogs & datasheets",
           "h1": "Keep product documents together.",
           "lead": "Build a working set of catalogs, specification PDFs and datasheets for the products you are comparing. Choose the correct model, region and edition before saving; keep source links with the files for later checking.",
@@ -3496,9 +3596,9 @@
           ],
           "steps": [
             "Open the manufacturer’s download page for the product family you need. Keep other models, software and member-only areas outside your chosen set.",
-            "Open Grab All Files, scan the chosen page, and filter the file types you need. Review the source links and select the relevant files.",
+            "Open Grab All Files and scan the product family page. If each model has its own page inside the starting page’s folder, raise “Depth” to 1. Filter to PDF and tick the catalog, specification and datasheet for the models you need.",
             "Check model numbers, language, revision dates and document roles. Edit titles to distinguish a catalog from a specification or datasheet.",
-            "Check or edit titles, choose the save-name and type/domain folder options, then save files or ZIP. Export File Info CSV to keep a URL record.",
+            "In “Details”, set “Save as” to “Title” so your edited names are used, and in “More actions” set “Organize” to “By type” to keep PDFs apart from spreadsheets and archives. Download or save a ZIP (Free: 10 files per download); “Export File Info CSV” keeps the source URLs.",
             "Open the saved documents and compare the stated conditions against the source. Keep a note of the model and edition; this folder is reference material, not an automatic product suitability assessment."
           ],
           "faq": [
@@ -3516,11 +3616,11 @@
             },
             {
               "q": "Can I use this for free?",
-              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+              "a": "Yes. Free saves up to 10 selected files per download, ZIP or file-information CSV. To continue, select the next files and press the button again — nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-action cap."
             },
             {
-              "q": "What does the file-information CSV contain?",
-              "a": "Selected file URLs, filenames, titles, types, detection confidence/evidence and available size, modification date and source page. Unknown metadata can be blank. It is not a table extracted from the document body."
+              "q": "A datasheet appears only after a form or a download button. Can it get it?",
+              "a": "If the site asks for a request form, submit it yourself first, then scan the page that lists the files. When a download is started by the site’s own JavaScript, “Active Capture” lets the page start each download so the files can still be saved together. Member-only documents are available only while your browser is signed in."
             }
           ],
           "industry": {
@@ -3551,7 +3651,7 @@
         },
         "ja": {
           "title": "製品カタログ・仕様PDF・データシートを保存 | Grab All Files",
-          "desc": "比較したい製品のカタログ、仕様PDF、データシートを読み返しやすい資料セットへ。",
+          "desc": "比較する製品のカタログ・仕様書・データシートを、型番が分かる名前で元URLと一緒に保存。無料版は1回10件までダウンロードできます。",
           "eyebrow": "製品カタログ・仕様資料",
           "h1": "製品資料を、型番でまとめて保存。",
           "lead": "比較したい製品のカタログ、仕様PDF、データシートを読み返しやすい資料セットへ。型番・対象地域・版を確認して選び、あとで原文を確かめられるよう元リンクも記録します。",
@@ -3561,9 +3661,9 @@
           ],
           "steps": [
             "メーカーの対象製品・シリーズの配布ページを開きます。他の型番、ソフトウェア、会員専用の領域は必要な資料と分けて確認します。",
-            "Grab All Filesを開き、対象ページをスキャンします。必要な種類で絞り込み、元リンクを確認して資料を選択します。",
-            "型番、言語、改訂日、資料の役割を確認します。カタログ・仕様書・データシートを区別できる題名へ編集します。",
-            "題名を確認・編集し、保存名と種類別／ドメイン別のフォルダ分けを選び、個別ファイルまたはZIPで保存します。「ファイル情報CSV出力」でURLの記録も残せます。",
+            "Grab All Filesを開き、製品シリーズのページをスキャンします。型番ごとのページが起点ページのフォルダ配下にあるときは「深さ」を1に上げます。PDFで絞り込み、必要な型番のカタログ・仕様書・データシートにチェックを入れます。",
+            "型番、言語、改訂日、資料の役割を確認します。カタログ・仕様書・データシートを区別できるタイトルへ編集します。",
+            "編集したタイトルで保存されるよう「詳細設定」の「保存名」を「タイトル」にし、「その他の操作」の「整理」を「種類別」にしてPDFと表計算・圧縮ファイルを分けます。ダウンロードまたはZIP保存し（無料版は1回10件まで）、「ファイル情報CSV出力」で元URLを残します。",
             "保存した資料を開き、記載条件を元ページ・原文と照合します。型番と版をメモに残し、製品の適否は資料整理とは別に判断します。"
           ],
           "faq": [
@@ -3581,11 +3681,11 @@
             },
             {
               "q": "無料で使えますか？",
-              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+              "a": "はい。無料版はダウンロード・ZIP・ファイル情報CSVのいずれも、1回の操作で選択した10件までです。続けるときは次のファイルを選んでもう一度押してください。ロックはかかりません。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。"
             },
             {
-              "q": "ファイル情報CSVには何が入りますか？",
-              "a": "選択したファイルのURL、ファイル名、題名、種類、検出の確度・根拠と、取得できたサイズ・更新日・リンク元ページを記録します。不明な情報は空になる場合があり、資料本文の表を抽出したCSVではありません。"
+              "q": "フォームやダウンロードボタンの先にあるデータシートも取れますか？",
+              "a": "資料請求フォームがある場合は、先に自分でフォームを送信してから、ファイルが並ぶページをスキャンします。サイト自身のJavaScriptでダウンロードが始まる場合は、「アクティブ取得」でページに各ダウンロードを開始させ、まとめて保存できます。会員限定の資料は、ブラウザでログインしているときだけ取得できます。"
             }
           ],
           "industry": {
@@ -3615,42 +3715,42 @@
           }
         },
         "es": {
-          "title": "Catálogos y fichas de producto | Grab All Files",
-          "desc": "Reúne catálogos, especificaciones y fichas técnicas del producto correcto.",
+          "title": "Descargar catálogos de productos y fichas técnicas | Grab All Files",
+          "desc": "Guarda catálogos, especificaciones y fichas técnicas de los modelos que comparas, con el modelo en el nombre y su origen. Gratis: 10 por descarga.",
           "eyebrow": "Catálogos y fichas de producto",
-          "h1": "Guarda documentos por modelo.",
-          "lead": "Reúne catálogos, especificaciones y fichas técnicas del producto correcto. Conserva modelo, edición y enlaces de origen para revisar la comparación.",
+          "h1": "Mantén juntos los documentos de cada producto.",
+          "lead": "Crea un conjunto de trabajo con los catálogos, PDF de especificaciones y fichas técnicas de los productos que comparas. Elige el modelo, la región y la edición correctos antes de guardar, y conserva los enlaces de origen junto a los archivos para comprobarlos después.",
           "best": [
-            "Comparar una selección de productos.",
-            "Localizar especificaciones por modelo."
+            "Listas cortas de productos que necesitan un catálogo y una especificación detallada.",
+            "Registros de equipos o componentes ordenados por un nombre de modelo revisado."
           ],
           "steps": [
-            "Abre las descargas oficiales de la familia de producto elegida, separando software y áreas de miembros.",
-            "Abre Grab All Files, escanea la página elegida, filtra los formatos y revisa los enlaces antes de seleccionar los archivos.",
-            "Comprueba modelo, idioma, revisión y función del documento. Edita títulos y trabaja por modelo.",
-            "Revisa o edita títulos, elige nombres y carpetas por tipo o dominio y guarda archivos o ZIP. Exporta la información CSV para registrar las URL.",
-            "Abre los archivos guardados y contrasta sus condiciones con el original; organizar no determina la idoneidad del producto."
+            "Abre la página de descargas del fabricante para la familia de productos que necesitas. Deja fuera otros modelos, software y áreas solo para socios.",
+            "Abre Grab All Files y escanea la página de la familia de productos. Si cada modelo tiene su propia página dentro de la carpeta de la página de partida, sube la «Profundidad» a 1. Filtra por PDF y marca catálogo, especificación y ficha técnica de los modelos que necesitas.",
+            "Comprueba números de modelo, idioma, fechas de revisión y la función de cada documento. Edita los títulos para distinguir un catálogo de una especificación o ficha técnica.",
+            "En «Detalles», elige «Título» en «Guardar como» para usar los nombres editados, y en «Más acciones» pon «Organizar» en «Por tipo» para separar los PDF de hojas de cálculo y archivos comprimidos. Descarga o guarda un ZIP (gratis: 10 archivos por descarga); «Exportar info de archivos en CSV» conserva las URL de origen.",
+            "Abre los documentos guardados y compara las condiciones indicadas con la fuente. Anota modelo y edición; esta carpeta es material de referencia, no una evaluación automática de idoneidad del producto."
           ],
           "faq": [
             {
-              "q": "¿Recopila todos los modelos?",
-              "a": "Solo enlaces compatibles encontrados. Comprueba la lista oficial y visita otras áreas si hace falta."
+              "q": "¿Reúne los documentos de todos los modelos?",
+              "a": "Encuentra los enlaces a archivos compatibles dentro del ámbito que escaneas. Elige los modelos correctos y revisa la lista de origen; las áreas de descarga ocultas o separadas pueden requerir otra visita."
             },
             {
-              "q": "¿Clasifica por modelo automáticamente?",
-              "a": "No. Tú verificas modelos, nombres y lotes; las carpetas nativas son por tipo o dominio."
+              "q": "¿Clasifica los archivos por modelo automáticamente?",
+              "a": "No. Tú revisas el modelo y nombras los archivos, o divides el trabajo en lotes por modelo. Las carpetas integradas se agrupan por tipo o dominio."
             },
             {
-              "q": "¿Extrae una comparación de especificaciones?",
-              "a": "El CSV lista archivos, no valores de las tablas. Usa los originales o un flujo separado de tablas/IA y verifica los resultados."
+              "q": "¿Puede extraer automáticamente una comparación de especificaciones?",
+              "a": "El CSV de información de archivos enumera archivos, no valores de sus tablas de especificaciones. Usa los documentos originales o un flujo aparte con tablas o IA, y verifica cualquier comparación."
             },
             {
               "q": "¿Puedo usarlo gratis?",
-              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+              "a": "Sí. La versión gratuita guarda hasta 10 archivos seleccionados por descarga, ZIP o CSV de información de archivos. Para seguir, selecciona los siguientes archivos y vuelve a pulsar el botón; no se bloquea nada. Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por acción."
             },
             {
-              "q": "¿Qué contiene el CSV de información?",
-              "a": "URL, nombres, títulos, tipos, confianza y evidencia de detección, y tamaño, fecha y página origen cuando se conocen. Los campos desconocidos pueden quedar vacíos; no extrae tablas del documento."
+              "q": "Una ficha técnica solo aparece tras un formulario o un botón de descarga. ¿Puede obtenerla?",
+              "a": "Si el sitio pide un formulario de solicitud, envíalo tú primero y luego escanea la página que enumera los archivos. Cuando una descarga la inicia el propio JavaScript del sitio, «Captura activa» deja que la página inicie cada descarga para guardar los archivos juntos. Los documentos solo para socios están disponibles mientras tu navegador tenga la sesión iniciada."
             }
           ],
           "industry": {
@@ -3680,42 +3780,42 @@
           }
         },
         "fr": {
-          "title": "Catalogues et fiches produit | Grab All Files",
-          "desc": "Conservez catalogues, spécifications et fiches du bon produit.",
+          "title": "Télécharger catalogues produits et fiches techniques | Grab All Files",
+          "desc": "Enregistrez catalogues, spécifications et fiches techniques des modèles comparés, nommés par modèle avec leur source. Gratuit : 10 fichiers par lot.",
           "eyebrow": "Catalogues et fiches produit",
-          "h1": "Regroupez les documents par modèle.",
-          "lead": "Conservez catalogues, spécifications et fiches du bon produit. Vérifiez modèle, région et édition et gardez les liens sources.",
+          "h1": "Gardez ensemble les documents de chaque produit.",
+          "lead": "Constituez un ensemble de travail avec les catalogues, PDF de spécifications et fiches techniques des produits que vous comparez. Choisissez le bon modèle, la bonne région et la bonne édition avant d’enregistrer, et gardez les liens sources avec les fichiers pour les vérifier plus tard.",
           "best": [
-            "Comparer une sélection de produits.",
-            "Retrouver les spécifications par modèle."
+            "Présélections de produits qui demandent un catalogue et une spécification détaillée.",
+            "Dossiers d’équipements ou de composants classés selon un nom de modèle vérifié."
           ],
           "steps": [
-            "Ouvrez les téléchargements de la famille choisie ; séparez logiciels et espaces réservés.",
-            "Ouvrez Grab All Files, analysez la page choisie, filtrez les formats et vérifiez les liens avant de sélectionner les fichiers.",
-            "Vérifiez modèle, langue, révision et rôle. Modifiez les titres et travaillez par modèle.",
-            "Vérifiez ou modifiez les titres, choisissez les noms et dossiers par type ou domaine, puis enregistrez des fichiers ou un ZIP. Exportez les informations CSV pour garder les URL.",
-            "Ouvrez les fichiers et comparez les conditions aux originaux ; ce classement ne décide pas si un produit convient."
+            "Ouvrez la page de téléchargement du fabricant pour la gamme qui vous intéresse. Laissez de côté les autres modèles, les logiciels et les espaces réservés aux membres.",
+            "Ouvrez Grab All Files et analysez la page de la gamme. Si chaque modèle a sa propre page dans le dossier de la page de départ, passez la « Profondeur » à 1. Filtrez sur PDF et cochez catalogue, spécification et fiche technique des modèles utiles.",
+            "Vérifiez références, langue, dates de révision et rôle de chaque document. Modifiez les titres pour distinguer un catalogue d’une spécification ou d’une fiche technique.",
+            "Dans « Détails », choisissez « Titre » dans « Enregistrer sous » pour utiliser les noms modifiés, puis dans « Autres actions » réglez « Classement » sur « Par type » pour séparer les PDF des tableurs et archives. Téléchargez ou créez un ZIP (version gratuite : 10 fichiers par téléchargement) ; « Exporter les infos fichiers en CSV » conserve les URL sources.",
+            "Ouvrez les documents enregistrés et comparez les conditions indiquées avec la source. Notez modèle et édition ; ce dossier est un support de référence, pas une évaluation automatique de l’adéquation du produit."
           ],
           "faq": [
             {
-              "q": "Tous les modèles sont-ils collectés ?",
-              "a": "Seuls les liens compatibles trouvés. Vérifiez la liste et les autres espaces."
+              "q": "Récupère-t-il les documents de tous les modèles ?",
+              "a": "Il trouve les liens vers des fichiers pris en charge dans le périmètre analysé. Choisissez les bons modèles et vérifiez la liste des sources ; des espaces de téléchargement masqués ou distincts peuvent demander une autre visite."
             },
             {
-              "q": "Classement automatique par modèle ?",
-              "a": "Non. Vous vérifiez noms et lots ; les dossiers natifs sont par type ou domaine."
+              "q": "Classe-t-il les fichiers par modèle automatiquement ?",
+              "a": "Non. Vous vérifiez le modèle et nommez les fichiers, ou répartissez le travail en lots par modèle. Le classement intégré se fait par type ou par domaine."
             },
             {
-              "q": "Une comparaison des valeurs est-elle extraite ?",
-              "a": "Le CSV liste des fichiers. Pour leurs tableaux, utilisez les originaux ou un autre flux tableaux/IA puis vérifiez."
+              "q": "Peut-il extraire automatiquement une comparaison de spécifications ?",
+              "a": "Le CSV d’informations fichiers liste des fichiers, pas les valeurs de leurs tableaux de spécifications. Utilisez les documents d’origine ou un traitement séparé par tableau ou IA, et vérifiez toute comparaison."
             },
             {
-              "q": "Puis-je l’utiliser gratuitement ?",
-              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; les fichiers directement liés sont enregistrés jusqu’à 10 par opération, et « Enregistrer les 10 suivants » sur l’écran de résultat enregistre le reste. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+              "q": "Puis-je l’utiliser gratuitement ?",
+              "a": "Oui. La version gratuite enregistre jusqu’à 10 fichiers sélectionnés par téléchargement, ZIP ou CSV d’informations fichiers. Pour continuer, sélectionnez les fichiers suivants et cliquez à nouveau : rien n’est bloqué. Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par action."
             },
             {
-              "q": "Que contient le CSV d’informations ?",
-              "a": "URL, noms, titres, types, confiance et preuves de détection, taille, date et page source si connues. Les champs inconnus peuvent rester vides ; ce ne sont pas les tableaux du document."
+              "q": "Une fiche technique n’apparaît qu’après un formulaire ou un bouton de téléchargement : peut-il la récupérer ?",
+              "a": "Si le site demande un formulaire de demande, envoyez-le d’abord vous-même, puis analysez la page qui liste les fichiers. Quand un téléchargement est lancé par le JavaScript du site, « Capture active » laisse la page démarrer chaque téléchargement pour enregistrer les fichiers ensemble. Les documents réservés aux membres ne sont accessibles que si votre navigateur est connecté."
             }
           ],
           "industry": {
@@ -3745,42 +3845,42 @@
           }
         },
         "de": {
-          "title": "Kataloge und Datenblätter | Grab All Files",
-          "desc": "Sammeln Sie Kataloge, Spezifikationen und Datenblätter des richtigen Produkts.",
+          "title": "Produktkataloge und Datenblätter herunterladen | Grab All Files",
+          "desc": "Kataloge, Spezifikationen und Datenblätter der verglichenen Modelle speichern – nach Modell benannt, mit Quelllink. Kostenlos: 10 Dateien pro Download.",
           "eyebrow": "Kataloge und Datenblätter",
-          "h1": "Produktdateien klar ordnen.",
-          "lead": "Sammeln Sie Kataloge, Spezifikationen und Datenblätter des richtigen Produkts. Prüfen Sie Modell, Region und Ausgabe und behalten Sie die Quelllinks.",
+          "h1": "Produktunterlagen beisammen halten.",
+          "lead": "Stellen Sie einen Arbeitsbestand aus Katalogen, Spezifikations-PDFs und Datenblättern der Produkte zusammen, die Sie vergleichen. Wählen Sie vor dem Speichern das richtige Modell, die Region und die Ausgabe, und bewahren Sie die Quelllinks mit den Dateien für spätere Prüfungen auf.",
           "best": [
-            "Unterlagen für einen Produktvergleich.",
-            "Dateien unter geprüften Modellnamen."
+            "Produkt-Shortlists, die einen Katalog und eine detaillierte Spezifikation brauchen.",
+            "Unterlagen zu Geräten oder Komponenten, geordnet nach einem geprüften Modellnamen."
           ],
           "steps": [
-            "Öffnen Sie die Downloadseite der gewählten Produktfamilie; trennen Sie Software und Mitgliederbereiche.",
-            "Öffnen Sie Grab All Files, scannen Sie die gewählte Seite, filtern Sie die Formate und prüfen Sie die Links vor der Auswahl.",
-            "Prüfen Sie Modell, Sprache, Revision und Dokumentrolle. Bearbeiten Sie Titel und arbeiten Sie modellweise.",
-            "Prüfen oder bearbeiten Sie Titel, wählen Sie Namen und Typ-/Domainordner und speichern Sie Dateien oder ZIP. Exportieren Sie die Dateiinfo-CSV als URL-Nachweis.",
-            "Öffnen Sie die Dateien und prüfen Sie Bedingungen am Original. Die Sammlung entscheidet nicht über die Eignung eines Produkts."
+            "Öffnen Sie die Download-Seite des Herstellers für die benötigte Produktfamilie. Lassen Sie andere Modelle, Software und Mitgliederbereiche außen vor.",
+            "Öffnen Sie Grab All Files und scannen Sie die Seite der Produktfamilie. Hat jedes Modell eine eigene Seite im Ordner der Ausgangsseite, stellen Sie die „Tiefe“ auf 1. Filtern Sie auf PDF und haken Sie Katalog, Spezifikation und Datenblatt der benötigten Modelle an.",
+            "Prüfen Sie Modellnummern, Sprache, Revisionsdaten und die Rolle jedes Dokuments. Bearbeiten Sie Titel, um Katalog, Spezifikation und Datenblatt zu unterscheiden.",
+            "Wählen Sie unter „Details“ bei „Speichern als“ den „Titel“, damit Ihre bearbeiteten Namen verwendet werden, und stellen Sie in „Weitere Aktionen“ die „Ablage“ auf „Nach Typ“, um PDFs von Tabellen und Archiven zu trennen. Laden Sie herunter oder erstellen Sie ein ZIP (kostenlos: 10 Dateien pro Download); „Dateiinfo als CSV exportieren“ hält die Quell-URLs fest.",
+            "Öffnen Sie die gespeicherten Dokumente und vergleichen Sie die angegebenen Bedingungen mit der Quelle. Notieren Sie Modell und Ausgabe; der Ordner ist Referenzmaterial, keine automatische Eignungsbewertung des Produkts."
           ],
           "faq": [
             {
-              "q": "Werden alle Modelle gesammelt?",
-              "a": "Nur gefundene unterstützte Links. Prüfen Sie die veröffentlichte Liste und weitere Bereiche bei Bedarf."
+              "q": "Sammelt es die Unterlagen aller Modelle?",
+              "a": "Es findet Links zu unterstützten Dateien im gescannten Bereich. Wählen Sie die richtigen Modelle und prüfen Sie die Quellliste; versteckte oder separate Download-Bereiche können einen weiteren Besuch erfordern."
             },
             {
-              "q": "Wird automatisch nach Modell sortiert?",
-              "a": "Nein. Sie prüfen Namen und Chargen; native Ordner sind nach Typ oder Domain."
+              "q": "Ordnet es Dateien automatisch nach Modell?",
+              "a": "Nein. Sie prüfen das Modell und benennen die Dateien oder teilen die Arbeit in Gruppen je Modell auf. Die eingebaute Ablage ordnet nach Typ oder Domain."
             },
             {
-              "q": "Werden Spezifikationswerte verglichen?",
-              "a": "Die CSV listet Dateien. Nutzen Sie Originale oder einen separaten Tabellen-/KI-Ablauf und prüfen Sie Ergebnisse."
+              "q": "Kann es automatisch einen Spezifikationsvergleich erstellen?",
+              "a": "Die Dateiinfo-CSV listet Dateien auf, nicht die Werte ihrer Spezifikationstabellen. Nutzen Sie die Originaldokumente oder einen separaten Tabellen- bzw. KI-Ablauf und prüfen Sie jeden Vergleich."
             },
             {
-              "q": "Ist dies kostenlos nutzbar?",
-              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert; „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+              "q": "Kann ich das kostenlos nutzen?",
+              "a": "Ja. Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Download, ZIP oder Dateiinfo-CSV. Zum Weitermachen wählen Sie die nächsten Dateien aus und klicken erneut – gesperrt wird nichts. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Aktion auf."
             },
             {
-              "q": "Was enthält die Dateiinfo-CSV?",
-              "a": "URLs, Namen, Titel, Typen, Erkennungsbewertung und -hinweise sowie bekannte Größe, Änderungsdatum und Quellseite. Unbekannte Felder können leer sein; Dokumenttabellen werden nicht extrahiert."
+              "q": "Ein Datenblatt erscheint erst nach einem Formular oder einer Download-Schaltfläche. Kommt es heran?",
+              "a": "Verlangt die Website ein Anfrageformular, senden Sie es zuerst selbst ab und scannen dann die Seite mit den Dateien. Startet das JavaScript der Website den Download, lässt „Aktive Erfassung“ die Seite jeden Download selbst auslösen, sodass die Dateien trotzdem gemeinsam gespeichert werden. Unterlagen nur für Mitglieder sind nur verfügbar, solange Ihr Browser angemeldet ist."
             }
           ],
           "industry": {
@@ -3810,42 +3910,42 @@
           }
         },
         "it": {
-          "title": "Cataloghi e schede prodotto | Grab All Files",
-          "desc": "Raccogli cataloghi, specifiche e schede del prodotto corretto.",
+          "title": "Scaricare cataloghi prodotto e schede tecniche | Grab All Files",
+          "desc": "Salva cataloghi, specifiche e schede tecniche dei modelli che confronti, con il modello nel nome e il link di origine. Gratis: 10 file per download.",
           "eyebrow": "Cataloghi e schede prodotto",
-          "h1": "Documenti del prodotto in ordine.",
-          "lead": "Raccogli cataloghi, specifiche e schede del prodotto corretto. Verifica modello, regione ed edizione e conserva i link originali.",
+          "h1": "Tieni insieme i documenti di ogni prodotto.",
+          "lead": "Crea un insieme di lavoro con cataloghi, PDF di specifiche e schede tecniche dei prodotti che stai confrontando. Scegli modello, area geografica ed edizione corretti prima di salvare e conserva i link di origine accanto ai file per controllarli in seguito.",
           "best": [
-            "Materiali per confrontare prodotti.",
-            "Specifiche sotto nomi di modello verificati."
+            "Rose ristrette di prodotti che richiedono un catalogo e una specifica dettagliata.",
+            "Schede di apparecchiature o componenti ordinate per un nome di modello verificato."
           ],
           "steps": [
-            "Apri i download della famiglia scelta e separa software e aree riservate.",
-            "Apri Grab All Files, scansiona la pagina scelta, filtra i formati e verifica i link prima di selezionare i file.",
-            "Verifica modello, lingua, revisione e ruolo del documento. Modifica titoli e lavora per modello.",
-            "Verifica o modifica i titoli, scegli nomi e cartelle per tipo o dominio, poi salva file o ZIP. Esporta le informazioni CSV per conservare gli URL.",
-            "Apri i file e confronta le condizioni con gli originali; la raccolta non decide l’idoneità del prodotto."
+            "Apri la pagina di download del produttore per la famiglia di prodotti che ti serve. Lascia fuori altri modelli, software e aree riservate ai membri.",
+            "Apri Grab All Files e scansiona la pagina della famiglia di prodotti. Se ogni modello ha una pagina propria nella cartella della pagina di partenza, porta la «Profondità» a 1. Filtra per PDF e seleziona catalogo, specifica e scheda tecnica dei modelli necessari.",
+            "Controlla codici modello, lingua, date di revisione e ruolo di ogni documento. Modifica i titoli per distinguere un catalogo da una specifica o da una scheda tecnica.",
+            "In «Dettagli» scegli «Titolo» in «Salva come» per usare i nomi modificati, e in «Altre azioni» imposta «Organizza» su «Per tipo» per separare i PDF da fogli di calcolo e archivi. Scarica o crea uno ZIP (gratis: 10 file per download); «Esporta info file in CSV» conserva gli URL di origine.",
+            "Apri i documenti salvati e confronta le condizioni indicate con la fonte. Annota modello ed edizione; questa cartella è materiale di riferimento, non una valutazione automatica dell’idoneità del prodotto."
           ],
           "faq": [
             {
-              "q": "Raccoglie tutti i modelli?",
-              "a": "Solo link compatibili trovati. Verifica l’elenco e altre aree se necessario."
+              "q": "Raccoglie i documenti di tutti i modelli?",
+              "a": "Trova i link a file supportati nell’ambito che scansioni. Scegli i modelli giusti e controlla l’elenco delle fonti; aree di download nascoste o separate possono richiedere un’altra visita."
             },
             {
-              "q": "Classifica per modello automaticamente?",
-              "a": "No. Controlli nomi e gruppi; le cartelle native sono per tipo o dominio."
+              "q": "Classifica i file per modello automaticamente?",
+              "a": "No. Sei tu a verificare il modello e a nominare i file, oppure a dividere il lavoro in gruppi per modello. L’organizzazione integrata è per tipo o per dominio."
             },
             {
-              "q": "Estrae un confronto delle specifiche?",
-              "a": "Il CSV elenca file. Usa originali o un altro flusso tabelle/IA e verifica i risultati."
+              "q": "Può estrarre automaticamente un confronto di specifiche?",
+              "a": "Il CSV con le info dei file elenca i file, non i valori delle loro tabelle di specifiche. Usa i documenti originali o un flusso separato con tabelle o IA, e verifica ogni confronto."
             },
             {
               "q": "Posso usarlo gratis?",
-              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati fino a 10 per esecuzione e «Salva i prossimi 10» nella schermata dei risultati salva il resto. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+              "a": "Sì. La versione gratuita salva fino a 10 file selezionati per download, ZIP o CSV con le info dei file. Per continuare, seleziona i file successivi e premi di nuovo il pulsante: non viene bloccato nulla. Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per azione."
             },
             {
-              "q": "Cosa contiene il CSV delle informazioni?",
-              "a": "URL, nomi, titoli, tipi, confidenza e prove del rilevamento, dimensione, data e pagina origine se note. I campi ignoti possono essere vuoti; non estrae tabelle dai documenti."
+              "q": "Una scheda tecnica compare solo dopo un modulo o un pulsante di download. Riesce a prenderla?",
+              "a": "Se il sito chiede un modulo di richiesta, invialo prima tu, poi scansiona la pagina che elenca i file. Quando un download viene avviato dal JavaScript del sito, «Cattura attiva» lascia che la pagina avvii ogni download, così i file si salvano comunque insieme. I documenti riservati ai membri sono disponibili solo finché il browser ha l’accesso attivo."
             }
           ],
           "industry": {
@@ -3876,7 +3976,7 @@
         },
         "ko": {
           "title": "제품 카탈로그·데이터시트 다운로드 | Grab All Files",
-          "desc": "비교할 제품의 카탈로그, 사양 PDF와 데이터시트를 참고 자료 세트로 모읍니다.",
+          "desc": "비교하는 제품의 카탈로그, 사양서, 데이터시트를 모델명을 알 수 있는 이름으로 원본 링크와 함께 저장합니다. 무료 버전은 다운로드당 10개까지입니다.",
           "eyebrow": "제품 카탈로그·데이터시트",
           "h1": "제품 자료를 한곳에 모으세요.",
           "lead": "비교할 제품의 카탈로그, 사양 PDF와 데이터시트를 참고 자료 세트로 모읍니다. 저장하기 전에 정확한 모델·지역·버전을 선택하고, 나중에 확인할 수 있도록 파일과 함께 출처 링크를 남기세요.",
@@ -3886,9 +3986,9 @@
           ],
           "steps": [
             "필요한 제품군의 제조사 다운로드 페이지를 엽니다. 다른 모델, 소프트웨어와 회원 전용 영역은 선택한 자료 세트와 구분합니다.",
-            "Grab All Files를 열고 대상 페이지를 스캔합니다. 필요한 형식을 필터링하고 원본 링크를 확인해 파일을 선택합니다.",
+            "Grab All Files를 열고 제품군 페이지를 스캔합니다. 모델마다 시작 페이지 폴더 안에 별도 페이지가 있으면 “깊이”를 1로 올립니다. PDF로 필터링하고 필요한 모델의 카탈로그·사양서·데이터시트를 체크합니다.",
             "모델 번호, 언어, 개정일과 문서의 용도를 확인합니다. 카탈로그·사양서·데이터시트를 구분할 수 있도록 제목을 편집합니다.",
-            "제목을 확인·편집하고 저장 이름과 종류별·도메인별 폴더를 선택해 파일 또는 ZIP을 저장합니다. 파일 정보 CSV로 URL도 기록합니다.",
+            "편집한 제목으로 저장되도록 “상세 설정”의 “저장 이름”을 “제목”으로 하고, “기타 작업”의 “정리”를 “유형별”로 두어 PDF와 스프레드시트·압축 파일을 나눕니다. 다운로드하거나 ZIP으로 저장하고(무료: 다운로드당 10개), “파일 정보 CSV 내보내기”로 원본 URL을 남깁니다.",
             "저장한 문서를 열어 기재된 조건을 출처와 대조합니다. 모델과 버전을 메모하세요. 이 폴더는 참고 자료이며 제품의 적합성을 자동으로 평가하는 기능은 아닙니다."
           ],
           "faq": [
@@ -3906,11 +4006,11 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 10건 저장’으로 나머지를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+              "a": "예. 무료 버전은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
             },
             {
-              "q": "파일 정보 CSV에는 무엇이 있나요?",
-              "a": "URL, 파일명, 제목, 종류, 감지 신뢰도·근거와 확인 가능한 크기·수정일·원본 페이지입니다. 미확인 정보는 비어 있을 수 있으며 문서 본문 표를 추출한 CSV가 아닙니다."
+              "q": "양식이나 다운로드 버튼 뒤에 있는 데이터시트도 가져올 수 있나요?",
+              "a": "자료 요청 양식이 있으면 먼저 직접 제출한 뒤 파일 목록이 있는 페이지를 스캔하세요. 사이트 자체의 JavaScript로 다운로드가 시작될 때는 “액티브 캡처”가 페이지에서 각 다운로드를 시작하게 해 파일을 함께 저장할 수 있습니다. 회원 전용 문서는 브라우저가 로그인된 동안에만 가져올 수 있습니다."
             }
           ],
           "industry": {
@@ -3941,7 +4041,7 @@
         },
         "pt_BR": {
           "title": "Baixar catálogos e fichas técnicas | Grab All Files",
-          "desc": "Monte um conjunto de catálogos, especificações em PDF e fichas técnicas dos produtos que você está comparando.",
+          "desc": "Salve catálogos, especificações e fichas técnicas dos modelos que você compara, com o modelo no nome e o link de origem. Grátis: 10 arquivos por download.",
           "eyebrow": "Catálogos e fichas técnicas",
           "h1": "Reúna os documentos dos produtos.",
           "lead": "Monte um conjunto de catálogos, especificações em PDF e fichas técnicas dos produtos que você está comparando. Escolha o modelo, a região e a edição corretos antes de salvar e mantenha os links de origem junto dos arquivos para conferir depois.",
@@ -3951,9 +4051,9 @@
           ],
           "steps": [
             "Abra a página de downloads do fabricante para a família de produtos necessária. Mantenha outros modelos, software e áreas exclusivas para membros fora do conjunto escolhido.",
-            "Abra Grab All Files, escaneie a página escolhida, filtre os formatos e confira os links antes de selecionar arquivos.",
+            "Abra o Grab All Files e escaneie a página da linha de produtos. Se cada modelo tem a própria página dentro da pasta da página de partida, aumente a “Profundidade” para 1. Filtre por PDF e marque catálogo, especificação e ficha técnica dos modelos necessários.",
             "Confira os números dos modelos, o idioma, as datas de revisão e a função de cada documento. Edite os títulos para distinguir catálogo, especificação e ficha técnica.",
-            "Confira ou edite títulos, escolha nomes e pastas por tipo ou domínio e salve arquivos ou ZIP. Exporte informações CSV para registrar URLs.",
+            "Em “Detalhes”, escolha “Título” em “Salvar como” para usar os nomes editados e, em “Mais ações”, deixe “Organizar” em “Por tipo” para separar os PDFs de planilhas e arquivos compactados. Baixe ou crie um ZIP (grátis: 10 arquivos por download); “Exportar info de arquivos em CSV” guarda as URLs de origem.",
             "Abra os documentos salvos e compare as condições descritas com a fonte. Anote modelo e edição: a pasta é material de referência e não uma avaliação automática da adequação do produto."
           ],
           "faq": [
@@ -3970,12 +4070,12 @@
               "a": "O CSV de informações de arquivos lista arquivos, não os valores das tabelas de especificações. Use os documentos originais ou um fluxo separado de tabelas/IA e confira a comparação."
             },
             {
-              "q": "Posso usar grátis?",
-              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos vinculados diretamente são salvos até 10 por execução, e “Salvar os próximos 10” na tela de resultado salva o restante. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+              "q": "Posso usar de graça?",
+              "a": "Sim. A versão gratuita salva até 10 arquivos selecionados por download, ZIP ou CSV de informações de arquivos. Para continuar, selecione os próximos arquivos e clique de novo — nada fica bloqueado. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por ação."
             },
             {
-              "q": "O que contém o CSV de informações?",
-              "a": "URLs, nomes, títulos, tipos, confiança e evidências de detecção, tamanho, data e página de origem quando conhecidos. Campos desconhecidos podem ficar vazios; não extrai tabelas do documento."
+              "q": "A ficha técnica só aparece depois de um formulário ou botão de download. Ele consegue pegá-la?",
+              "a": "Se o site pede um formulário de solicitação, envie-o você mesmo primeiro e depois escaneie a página que lista os arquivos. Quando o download é iniciado pelo JavaScript do próprio site, a “Captura ativa” deixa a página iniciar cada download para que os arquivos sejam salvos juntos. Documentos exclusivos para membros só ficam disponíveis enquanto o navegador estiver com login."
             }
           ],
           "industry": {
@@ -4006,7 +4106,7 @@
         },
         "zh_CN": {
           "title": "下载产品目录与数据表 | Grab All Files",
-          "desc": "将要比较的产品目录、规格PDF和数据表整理成便于查阅的资料集。",
+          "desc": "按型号保存要比较的产品目录、规格书和数据表，标题中注明型号与文档类型，并保留来源链接。免费版每次下载最多10个文件，全程在浏览器中完成。",
           "eyebrow": "产品目录与数据表",
           "h1": "把产品资料集中保存。",
           "lead": "将要比较的产品目录、规格PDF和数据表整理成便于查阅的资料集。保存前确认正确的型号、地区与版本，并把来源链接和文件一起保留，便于日后核对。",
@@ -4016,9 +4116,9 @@
           ],
           "steps": [
             "打开制造商所需产品系列的下载页面。将其他型号、软件及会员专用区域与所选资料集分开。",
-            "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
+            "打开Grab All Files并扫描产品系列页面。如果每个型号在起始页面文件夹内都有单独页面，请将“深度”提高到1。按PDF筛选，勾选所需型号的目录、规格书和数据表。",
             "核对型号、语言、修订日期及文档用途。编辑标题，区分目录、规格文件和数据表。",
-            "检查或编辑标题，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "在“详细设置”的“保存名称”中选择“标题”以使用编辑后的名称，并在“其他操作”中将“整理”设为“按类型”，把PDF与表格、压缩文件分开。下载或保存为ZIP（免费版每次下载最多10个），用“导出文件信息CSV”保留来源URL。",
             "打开已保存文档，将记载的条件与来源核对。记录型号与版本；这个文件夹是参考资料，不会自动评估产品是否适用。"
           ],
           "faq": [
@@ -4036,11 +4136,11 @@
             },
             {
               "q": "可以免费使用吗？",
-              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+              "a": "可以。免费版的下载、ZIP和文件信息CSV每次操作最多处理10个选中的文件。要继续，请选择接下来的文件并再次点击按钮，不会被锁定。Pro（$19.99，一次性购买，最多3台设备）没有每次操作的上限。"
             },
             {
-              "q": "文件信息CSV包含什么？",
-              "a": "URL、文件名、标题、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+              "q": "数据表要填写表单或点击下载按钮后才出现，能获取吗？",
+              "a": "如果网站要求填写资料申请表，请先自行提交，再扫描列出文件的页面。如果下载由网站自身的JavaScript触发，“主动抓取”会让页面逐个启动下载，从而把文件一起保存。会员专属资料只有在浏览器已登录时才能获取。"
             }
           ],
           "industry": {
@@ -4071,7 +4171,7 @@
         },
         "zh_TW": {
           "title": "下載產品型錄與資料表 | Grab All Files",
-          "desc": "將要比較的產品型錄、規格PDF與資料表整理成便於查閱的資料集。",
+          "desc": "依型號儲存要比較的產品型錄、規格書和資料表，標題中註明型號與文件類型，並保留來源連結。免費版每次下載最多10個檔案，全程在瀏覽器中完成。",
           "eyebrow": "產品型錄與資料表",
           "h1": "把產品資料集中儲存。",
           "lead": "將要比較的產品型錄、規格PDF與資料表整理成便於查閱的資料集。儲存前確認正確的型號、地區與版本，並把來源連結和檔案一起保留，便於日後核對。",
@@ -4081,9 +4181,9 @@
           ],
           "steps": [
             "開啟製造商所需產品系列的下載頁面。將其他型號、軟體及會員專用區域與選取的資料集分開。",
-            "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
+            "開啟Grab All Files並掃描產品系列頁面。若每個型號在起始頁面資料夾內都有單獨頁面，請將「深度」提高到1。依PDF篩選，勾選所需型號的型錄、規格書和資料表。",
             "核對型號、語言、修訂日期與文件用途。編輯標題，區分型錄、規格文件和資料表。",
-            "檢查或編輯標題，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "在「詳細設定」的「儲存名稱」中選擇「標題」以使用編輯後的名稱，並在「其他操作」中將「整理」設為「依類型」，把PDF與試算表、壓縮檔分開。下載或儲存為ZIP（免費版每次下載最多10個），用「匯出檔案資訊CSV」保留來源URL。",
             "開啟已儲存文件，將記載的條件與來源核對。記錄型號與版本；這個資料夾是參考資料，不會自動評估產品是否適用。"
           ],
           "faq": [
@@ -4101,11 +4201,11 @@
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的10個」繼續儲存。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+              "a": "可以。免費版的下載、ZIP和檔案資訊CSV每次操作最多處理10個選取的檔案。若要繼續，請選取接下來的檔案並再次點擊按鈕，不會被鎖定。Pro（$19.99，一次購買，最多3台裝置）沒有每次操作的上限。"
             },
             {
-              "q": "檔案資訊CSV包含什麼？",
-              "a": "URL、檔名、標題、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+              "q": "資料表要填寫表單或點擊下載按鈕後才出現，能取得嗎？",
+              "a": "若網站要求填寫資料索取表單，請先自行送出，再掃描列出檔案的頁面。若下載由網站本身的JavaScript觸發，「主動擷取」會讓頁面逐一啟動下載，從而把檔案一起儲存。會員專屬資料只有在瀏覽器已登入時才能取得。"
             }
           ],
           "industry": {
@@ -4146,7 +4246,7 @@
       "copy": {
         "en": {
           "title": "Download IR & financial report PDFs | Grab All Files",
-          "desc": "Keep an issuer’s earnings releases, presentations and annual reports in a traceable reading set.",
+          "desc": "Save an issuer’s earnings releases, presentations and annual reports by fiscal period, with clear titles and source links. Free: 10 files per download.",
           "eyebrow": "IR & financial report PDFs",
           "h1": "Organize reports by reporting period.",
           "lead": "Keep an issuer’s earnings releases, presentations and annual reports in a traceable reading set. Check the fiscal year and quarter on each original document, then use clear names to prepare material for your own review or an external AI tool.",
@@ -4156,9 +4256,9 @@
           ],
           "steps": [
             "Open the issuer’s official IR archive and choose a fiscal year or quarter. Review releases, presentation material and published Q&A separately.",
-            "Open Grab All Files, scan the chosen page, and filter the file types you need. Review the source links and select the relevant files.",
+            "Open Grab All Files and scan the page for that period. Filter to PDF (add Excel if the issuer publishes data sheets) and tick only the release, presentation and report for that period.",
             "Verify issuer, reporting period, publication date and revisions. Add a period prefix to titles where useful; work in separate period batches to avoid mixing reports.",
-            "Check or edit titles, choose the save-name and type/domain folder options, then save files or ZIP. Export File Info CSV to keep a URL record.",
+            "Double-click each title to add the period (for example “FY2025 Q2 – Presentation”), set “Save as” to “Title” in “Details”, then download or save a ZIP per period (Free: 10 files per download). Use “Export File Info CSV” to keep the source URLs.",
             "Read the saved sources or manually give supported files to your chosen AI service. Check units, accounting scope and numbers against the original PDFs. The extension does not make investment decisions or guarantee numeric extraction."
           ],
           "faq": [
@@ -4176,11 +4276,11 @@
             },
             {
               "q": "Can I use this for free?",
-              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+              "a": "Yes. Free saves up to 10 selected files per download, ZIP or file-information CSV. To continue, select the next files and press the button again — nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-action cap."
             },
             {
-              "q": "What does the file-information CSV contain?",
-              "a": "Selected file URLs, filenames, titles, types, detection confidence/evidence and available size, modification date and source page. Unknown metadata can be blank. It is not a table extracted from the document body."
+              "q": "Older years sit behind “Show more” or a long list. Can it find them?",
+              "a": "Open “Scan options”, turn on “Scroll & load everything before scanning” and scan again so the list loads completely. If each year has its own tab or page, open and scan them in turn. Some IR sites link reports through a viewer; check the detected source page before saving."
             }
           ],
           "industry": {
@@ -4211,19 +4311,19 @@
         },
         "ja": {
           "title": "IR・決算資料PDFを年度・四半期で整理 | Grab All Files",
-          "desc": "1社の決算要旨、説明資料、年次報告書を、出典を追える読書セットへ。",
+          "desc": "1社の決算短信・決算説明資料・統合報告書などを、年度・四半期ごとに保存。タイトルに期間を付け、元URLも記録できます。無料版は1回10件までダウンロードできます。",
           "eyebrow": "IR・決算資料PDF",
           "h1": "決算資料を、年度ごとに整理。",
-          "lead": "1社の決算要旨、説明資料、年次報告書を、出典を追える読書セットへ。原資料で会計年度と四半期を確認して名前を整え、自分で読む資料や外部AIに渡す材料を用意します。",
+          "lead": "1社の決算短信、決算説明資料、有価証券報告書や統合報告書を、出典を追える資料セットへ。原資料で会計年度と四半期を確認して名前を整え、自分で読む資料や外部AIに渡す材料を用意します。",
           "best": [
             "1社の通期・四半期の開示資料をまとめる。",
             "選んだ原資料を使い、外部AIへ要約や比較を手動で依頼する準備をする。"
           ],
           "steps": [
-            "企業の公式IRアーカイブを開き、年度・四半期を選びます。決算要旨、説明資料、公表された質疑応答は役割を分けて確認します。",
-            "Grab All Filesを開き、対象ページをスキャンします。必要な種類で絞り込み、元リンクを確認して資料を選択します。",
-            "企業名、対象期間、公表日、訂正版を確認します。題名に年度・四半期を付け、期間ごとに作業を分けて混在を防ぎます。",
-            "題名を確認・編集し、保存名と種類別／ドメイン別のフォルダ分けを選び、個別ファイルまたはZIPで保存します。「ファイル情報CSV出力」でURLの記録も残せます。",
+            "企業の公式IRアーカイブを開き、年度・四半期を選びます。決算短信、説明資料、公表された質疑応答は役割を分けて確認します。",
+            "Grab All Filesを開き、その期間のページをスキャンします。PDFで絞り込み（データをExcelで公表している企業はExcelも）、その期間の決算短信・説明資料・報告書だけにチェックを入れます。",
+            "企業名、対象期間、公表日、訂正版を確認します。タイトルに年度・四半期を付け、期間ごとに作業を分けて混在を防ぎます。",
+            "タイトルをダブルクリックして期間を付け（例：「2025年度 第2四半期 決算説明資料」）、「詳細設定」の「保存名」を「タイトル」にして、期間ごとにダウンロードまたはZIP保存します（無料版は1回10件まで）。「ファイル情報CSV出力」で元URLも記録できます。",
             "保存した原資料を読むか、利用するAIが対応する資料ファイルを、質問とともに手動で渡します。単位、会計範囲、数値を元PDFと照合してください。拡張は投資判断を行う機能ではなく、数値抽出の完全性も保証しません。"
           ],
           "faq": [
@@ -4241,11 +4341,11 @@
             },
             {
               "q": "無料で使えますか？",
-              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+              "a": "はい。無料版はダウンロード・ZIP・ファイル情報CSVのいずれも、1回の操作で選択した10件までです。続けるときは次のファイルを選んでもう一度押してください。ロックはかかりません。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。"
             },
             {
-              "q": "ファイル情報CSVには何が入りますか？",
-              "a": "選択したファイルのURL、ファイル名、題名、種類、検出の確度・根拠と、取得できたサイズ・更新日・リンク元ページを記録します。不明な情報は空になる場合があり、資料本文の表を抽出したCSVではありません。"
+              "q": "過去の年度が「もっと見る」や長い一覧の奥にある場合は？",
+              "a": "「スキャン設定」で「スキャン前にスクロールして全て読み込む（ギャラリー・長い一覧）」をオンにして再スキャンすると、一覧を最後まで読み込んでから検出します。年度ごとにタブやページが分かれている場合は、それぞれを開いて順にスキャンします。ビューアー経由でリンクしているIRサイトもあるため、保存前に検出したリンク元ページを確認してください。"
             }
           ],
           "industry": {
@@ -4275,42 +4375,42 @@
           }
         },
         "es": {
-          "title": "PDF de IR y resultados | Grab All Files",
-          "desc": "Prepara informes anuales, resultados y presentaciones de un emisor.",
+          "title": "Descargar PDF de relación con inversores y resultados | Grab All Files",
+          "desc": "Guarda por período los comunicados de resultados, presentaciones e informes anuales de un emisor, con títulos claros y su origen. Gratis: 10 por descarga.",
           "eyebrow": "PDF de IR y resultados",
-          "h1": "Ordena informes por período.",
-          "lead": "Prepara informes anuales, resultados y presentaciones de un emisor. Revisa el ejercicio y trimestre antes de leerlos o entregarlos manualmente a una IA externa.",
+          "h1": "Ordena los informes por período.",
+          "lead": "Reúne los comunicados de resultados, presentaciones e informes anuales de un emisor en un conjunto de lectura con fuentes rastreables. Comprueba el ejercicio y el trimestre en cada documento original y usa nombres claros para preparar tu propia revisión o el material para una herramienta de IA externa.",
           "best": [
-            "Una empresa y un período por conjunto.",
-            "Materiales para resúmenes verificables."
+            "Reunir el paquete de divulgación anual o trimestral de un único emisor.",
+            "Preparar documentos de origen seleccionados para un resumen o una comparación que pidas manualmente."
           ],
           "steps": [
-            "Abre el archivo IR oficial y elige ejercicio o trimestre; distingue resultados, presentaciones y preguntas publicadas.",
-            "Abre Grab All Files, escanea la página elegida, filtra los formatos y revisa los enlaces antes de seleccionar los archivos.",
-            "Confirma emisor, período, fecha y correcciones. Añade el período al título y separa los lotes.",
-            "Revisa o edita títulos, elige nombres y carpetas por tipo o dominio y guarda archivos o ZIP. Exporta la información CSV para registrar las URL.",
-            "Comprueba unidades y cifras en los PDF originales. La entrega a IA es manual y no garantiza extracción numérica ni decisiones de inversión."
+            "Abre el archivo oficial de relación con inversores del emisor y elige un ejercicio o trimestre. Revisa por separado comunicados, presentaciones y las preguntas y respuestas publicadas.",
+            "Abre Grab All Files y escanea la página de ese período. Filtra por PDF (añade Excel si el emisor publica hojas de datos) y marca solo el comunicado, la presentación y el informe de ese período.",
+            "Verifica emisor, período, fecha de publicación y correcciones. Trabaja en lotes separados por período para no mezclar informes.",
+            "Haz doble clic en cada título para añadir el período (por ejemplo «FY2025 T2 – Presentación»), elige «Título» en «Guardar como» dentro de «Detalles» y descarga o guarda un ZIP por período (gratis: 10 archivos por descarga). Usa «Exportar info de archivos en CSV» para conservar las URL de origen.",
+            "Lee las fuentes guardadas o entrega tú mismo los archivos compatibles a la IA que elijas. Comprueba unidades, perímetro contable y cifras con los PDF originales. La extensión no toma decisiones de inversión ni garantiza la extracción de cifras."
           ],
           "faq": [
             {
-              "q": "¿Detecta ejercicios automáticamente?",
-              "a": "No. Revisa las etiquetas del emisor; ejercicio y año natural pueden diferir."
+              "q": "¿Detecta automáticamente ejercicios y trimestres?",
+              "a": "No. Revisa las etiquetas de período en los documentos del emisor y elige tú los nombres o lotes. El ejercicio fiscal no tiene por qué coincidir con el año natural."
             },
             {
-              "q": "¿El CSV contiene cifras financieras?",
-              "a": "No. Son metadatos y enlaces, no tablas financieras ni una extracción numérica completa."
+              "q": "¿El CSV contiene cifras de los estados financieros?",
+              "a": "No. El CSV de información de archivos registra metadatos y enlaces. No extrae tablas financieras ni garantiza datos numéricos completos."
             },
             {
-              "q": "¿Recomienda inversiones o envía a IA?",
-              "a": "No. Tú entregas materiales compatibles a tu IA y verificas su respuesta."
+              "q": "¿Puede analizar inversiones o enviar informes a una IA?",
+              "a": "Prepara archivos y enlaces. Tú eliges los materiales adecuados, los envías manualmente a un servicio de IA externo y verificas su respuesta. No se promete ninguna recomendación de inversión ni precisión del análisis."
             },
             {
               "q": "¿Puedo usarlo gratis?",
-              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+              "a": "Sí. La versión gratuita guarda hasta 10 archivos seleccionados por descarga, ZIP o CSV de información de archivos. Para seguir, selecciona los siguientes archivos y vuelve a pulsar el botón; no se bloquea nada. Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por acción."
             },
             {
-              "q": "¿Qué contiene el CSV de información?",
-              "a": "URL, nombres, títulos, tipos, confianza y evidencia de detección, y tamaño, fecha y página origen cuando se conocen. Los campos desconocidos pueden quedar vacíos; no extrae tablas del documento."
+              "q": "Los años anteriores están tras «Mostrar más» o en una lista larga. ¿Los encuentra?",
+              "a": "Abre «Opciones de escaneo», activa «Desplázate y carga todo antes de escanear» y vuelve a escanear para que la lista se cargue entera. Si cada año tiene su propia pestaña o página, ábrelas y escanéalas una a una. Algunos sitios enlazan los informes mediante un visor: comprueba la página de origen detectada antes de guardar."
             }
           ],
           "industry": {
@@ -4340,42 +4440,42 @@
           }
         },
         "fr": {
-          "title": "PDF de résultats et rapports IR | Grab All Files",
-          "desc": "Réunissez résultats, présentations et rapports annuels d’un émetteur.",
+          "title": "Télécharger les PDF de résultats et rapports IR | Grab All Files",
+          "desc": "Enregistrez par exercice les résultats, présentations et rapports annuels d’un émetteur, titres clairs et source à l’appui. Gratuit : 10 fichiers par lot.",
           "eyebrow": "PDF de résultats et rapports IR",
           "h1": "Classez les rapports par période.",
-          "lead": "Réunissez résultats, présentations et rapports annuels d’un émetteur. Vérifiez exercice et trimestre pour la lecture ou une transmission manuelle à une IA externe.",
+          "lead": "Réunissez les communiqués de résultats, présentations et rapports annuels d’un émetteur dans un ensemble de lecture aux sources traçables. Vérifiez l’exercice et le trimestre sur chaque document d’origine, puis utilisez des noms clairs pour préparer votre propre analyse ou les éléments destinés à un outil d’IA externe.",
           "best": [
-            "Un émetteur et une période par ensemble.",
-            "Sources pour des résumés vérifiables."
+            "Réunir le dossier de publication annuel ou trimestriel d’un seul émetteur.",
+            "Préparer des documents sources choisis pour un résumé ou une comparaison demandés manuellement."
           ],
           "steps": [
-            "Ouvrez l’archive IR officielle et choisissez la période, en distinguant résultats, présentations et questions.",
-            "Ouvrez Grab All Files, analysez la page choisie, filtrez les formats et vérifiez les liens avant de sélectionner les fichiers.",
-            "Confirmez émetteur, période, date et corrections. Ajoutez la période aux titres et séparez les lots.",
-            "Vérifiez ou modifiez les titres, choisissez les noms et dossiers par type ou domaine, puis enregistrez des fichiers ou un ZIP. Exportez les informations CSV pour garder les URL.",
-            "Vérifiez unités et chiffres dans les PDF originaux. Transmission IA manuelle ; l’extraction des chiffres n’est pas garantie et l’outil ne prend aucune décision d’investissement."
+            "Ouvrez l’archive IR officielle de l’émetteur et choisissez un exercice ou un trimestre. Examinez séparément communiqués, supports de présentation et questions-réponses publiées.",
+            "Ouvrez Grab All Files et analysez la page de cette période. Filtrez sur PDF (ajoutez Excel si l’émetteur publie des tableaux de données) et cochez uniquement le communiqué, la présentation et le rapport de la période.",
+            "Vérifiez émetteur, période, date de publication et correctifs. Travaillez par lots séparés selon la période pour ne pas mélanger les rapports.",
+            "Double-cliquez sur chaque titre pour ajouter la période (par exemple « FY2025 T2 – Présentation »), choisissez « Titre » dans « Enregistrer sous » sous « Détails », puis téléchargez ou créez un ZIP par période (version gratuite : 10 fichiers par téléchargement). « Exporter les infos fichiers en CSV » conserve les URL sources.",
+            "Lisez les sources enregistrées ou transmettez vous-même les fichiers pris en charge à l’IA de votre choix. Vérifiez unités, périmètre comptable et chiffres dans les PDF d’origine. L’extension ne prend aucune décision d’investissement et ne garantit pas l’extraction des chiffres."
           ],
           "faq": [
             {
-              "q": "Les exercices sont-ils reconnus automatiquement ?",
-              "a": "Non. Vérifiez les libellés ; exercice comptable et année civile peuvent différer."
+              "q": "Les exercices et trimestres sont-ils détectés automatiquement ?",
+              "a": "Non. Vérifiez les libellés de période dans les documents de l’émetteur et choisissez vous-même noms ou lots. L’exercice comptable ne correspond pas forcément à l’année civile."
             },
             {
-              "q": "Le CSV contient-il les valeurs financières ?",
-              "a": "Non. Il contient des métadonnées et liens, sans extraction complète des tableaux."
+              "q": "Le CSV contient-il des chiffres des états financiers ?",
+              "a": "Non. Le CSV d’informations fichiers enregistre des métadonnées et des liens. Il n’extrait pas de tableaux financiers et ne garantit pas des données chiffrées complètes."
             },
             {
-              "q": "Recommande-t-il des investissements ou envoie-t-il à l’IA ?",
-              "a": "Non. Vous transmettez des fichiers compatibles et vérifiez la réponse de votre IA."
+              "q": "Peut-il analyser des investissements ou envoyer les rapports à une IA ?",
+              "a": "Il prépare des fichiers et des liens. Vous choisissez les documents adaptés, les envoyez manuellement à un service d’IA externe et vérifiez sa réponse. Aucune recommandation d’investissement ni précision d’analyse n’est promise."
             },
             {
-              "q": "Puis-je l’utiliser gratuitement ?",
-              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; les fichiers directement liés sont enregistrés jusqu’à 10 par opération, et « Enregistrer les 10 suivants » sur l’écran de résultat enregistre le reste. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+              "q": "Puis-je l’utiliser gratuitement ?",
+              "a": "Oui. La version gratuite enregistre jusqu’à 10 fichiers sélectionnés par téléchargement, ZIP ou CSV d’informations fichiers. Pour continuer, sélectionnez les fichiers suivants et cliquez à nouveau : rien n’est bloqué. Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par action."
             },
             {
-              "q": "Que contient le CSV d’informations ?",
-              "a": "URL, noms, titres, types, confiance et preuves de détection, taille, date et page source si connues. Les champs inconnus peuvent rester vides ; ce ne sont pas les tableaux du document."
+              "q": "Les années précédentes sont derrière « Afficher plus » ou une longue liste : les trouve-t-il ?",
+              "a": "Ouvrez « Options d’analyse », activez « Faire défiler et tout charger avant l’analyse » et relancez l’analyse pour charger toute la liste. Si chaque année a son propre onglet ou sa propre page, ouvrez-les et analysez-les tour à tour. Certains sites IR passent par une visionneuse : vérifiez la page source détectée avant d’enregistrer."
             }
           ],
           "industry": {
@@ -4405,42 +4505,42 @@
           }
         },
         "de": {
-          "title": "IR- und Finanzbericht-PDFs | Grab All Files",
-          "desc": "Bereiten Sie Ergebnisberichte, Präsentationen und Jahresberichte eines Emittenten vor.",
+          "title": "IR- und Finanzbericht-PDFs herunterladen | Grab All Files",
+          "desc": "Ergebnismitteilungen, Präsentationen und Geschäftsberichte nach Periode speichern – mit klaren Titeln und Quelle. Kostenlos: 10 Dateien pro Download.",
           "eyebrow": "IR- und Finanzbericht-PDFs",
-          "h1": "Berichte nach Periode ordnen.",
-          "lead": "Bereiten Sie Ergebnisberichte, Präsentationen und Jahresberichte eines Emittenten vor. Prüfen Sie Geschäftsjahr und Quartal vor dem Lesen oder der manuellen Übergabe an externe KI.",
+          "h1": "Berichte nach Berichtsperiode ordnen.",
+          "lead": "Bündeln Sie Ergebnismitteilungen, Präsentationen und Geschäftsberichte eines Emittenten in einem Lesebestand mit nachvollziehbaren Quellen. Prüfen Sie Geschäftsjahr und Quartal im jeweiligen Originaldokument und vergeben Sie klare Namen, um Material für Ihre eigene Prüfung oder ein externes KI-Werkzeug vorzubereiten.",
           "best": [
-            "Ein Emittent und eine Periode pro Satz.",
-            "Quellen für überprüfbare Zusammenfassungen."
+            "Das Jahres- oder Quartalspaket eines einzelnen Emittenten zusammenstellen.",
+            "Ausgewählte Quelldokumente für eine manuell angeforderte Zusammenfassung oder einen Vergleich vorbereiten."
           ],
           "steps": [
-            "Öffnen Sie das offizielle IR-Archiv und wählen Sie die Periode; unterscheiden Sie Berichte, Präsentationen und Fragen.",
-            "Öffnen Sie Grab All Files, scannen Sie die gewählte Seite, filtern Sie die Formate und prüfen Sie die Links vor der Auswahl.",
-            "Prüfen Sie Emittent, Periode, Datum und Korrekturen. Ergänzen Sie Perioden im Titel und trennen Sie Chargen.",
-            "Prüfen oder bearbeiten Sie Titel, wählen Sie Namen und Typ-/Domainordner und speichern Sie Dateien oder ZIP. Exportieren Sie die Dateiinfo-CSV als URL-Nachweis.",
-            "Prüfen Sie Einheiten und Zahlen in den Original-PDFs. Die KI-Übergabe ist manuell; die Erweiterung trifft keine Anlageentscheidungen und garantiert keine Zahlenextraktion."
+            "Öffnen Sie das offizielle IR-Archiv des Emittenten und wählen Sie ein Geschäftsjahr oder Quartal. Prüfen Sie Mitteilungen, Präsentationen und veröffentlichte Fragen und Antworten getrennt.",
+            "Öffnen Sie Grab All Files und scannen Sie die Seite dieser Periode. Filtern Sie auf PDF (plus Excel, falls der Emittent Datenblätter veröffentlicht) und haken Sie nur Mitteilung, Präsentation und Bericht dieser Periode an.",
+            "Prüfen Sie Emittent, Berichtsperiode, Veröffentlichungsdatum und Korrekturen. Arbeiten Sie in getrennten Gruppen je Periode, damit sich Berichte nicht vermischen.",
+            "Doppelklicken Sie auf jeden Titel, um die Periode zu ergänzen (etwa „GJ2025 Q2 – Präsentation“), wählen Sie unter „Details“ bei „Speichern als“ den „Titel“ und laden Sie je Periode herunter oder erstellen Sie ein ZIP (kostenlos: 10 Dateien pro Download). „Dateiinfo als CSV exportieren“ hält die Quell-URLs fest.",
+            "Lesen Sie die gespeicherten Quellen oder geben Sie unterstützte Dateien selbst an die KI Ihrer Wahl. Prüfen Sie Einheiten, Konsolidierungskreis und Zahlen anhand der Original-PDFs. Die Erweiterung trifft keine Anlageentscheidungen und garantiert keine Zahlenextraktion."
           ],
           "faq": [
             {
-              "q": "Werden Geschäftsjahre automatisch erkannt?",
-              "a": "Nein. Prüfen Sie die Angaben; Geschäftsjahr und Kalenderjahr können abweichen."
+              "q": "Werden Geschäftsjahre und Quartale automatisch erkannt?",
+              "a": "Nein. Prüfen Sie die Periodenangaben in den Dokumenten des Emittenten und wählen Sie Namen oder Gruppen selbst. Ein Geschäftsjahr muss nicht dem Kalenderjahr entsprechen."
             },
             {
-              "q": "Enthält die CSV Finanzzahlen?",
-              "a": "Nein. Sie enthält Dateimetadaten und Links, keine vollständigen Finanztabellen."
+              "q": "Enthält die CSV Werte aus dem Jahresabschluss?",
+              "a": "Nein. Die Dateiinfo-CSV erfasst Dateimetadaten und Links. Sie extrahiert keine Finanztabellen und garantiert keine vollständigen Zahlenwerte."
             },
             {
-              "q": "Gibt es Anlageempfehlungen oder KI-Versand?",
-              "a": "Nein. Sie übergeben geeignete Dateien selbst und prüfen die KI-Antwort."
+              "q": "Kann es Anlagen analysieren oder Berichte an eine KI senden?",
+              "a": "Es bereitet Dateien und Links vor. Sie wählen geeignete Unterlagen, senden sie selbst an einen externen KI-Dienst und prüfen dessen Ausgabe. Anlageempfehlungen oder Analysegenauigkeit werden nicht zugesagt."
             },
             {
-              "q": "Ist dies kostenlos nutzbar?",
-              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert; „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+              "q": "Kann ich das kostenlos nutzen?",
+              "a": "Ja. Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Download, ZIP oder Dateiinfo-CSV. Zum Weitermachen wählen Sie die nächsten Dateien aus und klicken erneut – gesperrt wird nichts. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Aktion auf."
             },
             {
-              "q": "Was enthält die Dateiinfo-CSV?",
-              "a": "URLs, Namen, Titel, Typen, Erkennungsbewertung und -hinweise sowie bekannte Größe, Änderungsdatum und Quellseite. Unbekannte Felder können leer sein; Dokumenttabellen werden nicht extrahiert."
+              "q": "Ältere Jahre liegen hinter „Mehr anzeigen“ oder in einer langen Liste. Findet es sie?",
+              "a": "Öffnen Sie „Scan-Optionen“, aktivieren Sie „Vor dem Scan alles scrollen & laden“ und scannen Sie erneut, damit die Liste vollständig geladen wird. Hat jedes Jahr einen eigenen Reiter oder eine eigene Seite, öffnen und scannen Sie diese nacheinander. Manche IR-Seiten verlinken Berichte über einen Viewer; prüfen Sie vor dem Speichern die erkannte Quellseite."
             }
           ],
           "industry": {
@@ -4470,42 +4570,42 @@
           }
         },
         "it": {
-          "title": "PDF IR e bilanci | Grab All Files",
-          "desc": "Prepara risultati, presentazioni e rapporti annuali di un emittente.",
+          "title": "Scaricare PDF di investor relations e bilanci | Grab All Files",
+          "desc": "Salva per periodo comunicati sui risultati, presentazioni e relazioni annuali di un emittente, con titoli chiari e la fonte. Gratis: 10 file per download.",
           "eyebrow": "PDF IR e bilanci",
-          "h1": "Rapporti ordinati per periodo.",
-          "lead": "Prepara risultati, presentazioni e rapporti annuali di un emittente. Verifica esercizio e trimestre prima di leggere o passare manualmente i file a un’IA esterna.",
+          "h1": "Ordina le relazioni per periodo.",
+          "lead": "Riunisci comunicati sui risultati, presentazioni e relazioni annuali di un emittente in un insieme di lettura con fonti tracciabili. Controlla esercizio e trimestre su ogni documento originale, poi usa nomi chiari per preparare la tua revisione o il materiale per uno strumento di IA esterno.",
           "best": [
-            "Un emittente e un periodo per raccolta.",
-            "Fonti per riassunti verificabili."
+            "Raccogliere il pacchetto di informativa annuale o trimestrale di un singolo emittente.",
+            "Preparare documenti di origine scelti per un riepilogo o un confronto richiesti manualmente."
           ],
           "steps": [
-            "Apri l’archivio IR ufficiale e scegli il periodo, distinguendo rapporti, presentazioni e domande.",
-            "Apri Grab All Files, scansiona la pagina scelta, filtra i formati e verifica i link prima di selezionare i file.",
-            "Conferma emittente, periodo, data e correzioni. Aggiungi il periodo al titolo e separa i gruppi.",
-            "Verifica o modifica i titoli, scegli nomi e cartelle per tipo o dominio, poi salva file o ZIP. Esporta le informazioni CSV per conservare gli URL.",
-            "Verifica unità e numeri nei PDF originali. Il passaggio a IA è manuale; l’estensione non prende decisioni d’investimento né garantisce l’estrazione numerica."
+            "Apri l’archivio investor relations ufficiale dell’emittente e scegli un esercizio o un trimestre. Esamina separatamente comunicati, presentazioni e domande e risposte pubblicate.",
+            "Apri Grab All Files e scansiona la pagina di quel periodo. Filtra per PDF (aggiungi Excel se l’emittente pubblica fogli dati) e seleziona solo comunicato, presentazione e relazione di quel periodo.",
+            "Verifica emittente, periodo, data di pubblicazione e rettifiche. Lavora in gruppi separati per periodo per non mescolare le relazioni.",
+            "Fai doppio clic su ogni titolo per aggiungere il periodo (per esempio «FY2025 T2 – Presentazione»), scegli «Titolo» in «Salva come» dentro «Dettagli» e scarica o crea uno ZIP per periodo (gratis: 10 file per download). «Esporta info file in CSV» conserva gli URL di origine.",
+            "Leggi le fonti salvate o consegna tu stesso i file supportati all’IA che preferisci. Controlla unità, perimetro contabile e cifre sui PDF originali. L’estensione non prende decisioni di investimento e non garantisce l’estrazione dei numeri."
           ],
           "faq": [
             {
-              "q": "Riconosce gli esercizi automaticamente?",
-              "a": "No. Controlla le etichette; esercizio e anno solare possono differire."
+              "q": "Esercizi e trimestri vengono rilevati automaticamente?",
+              "a": "No. Controlla le indicazioni di periodo nei documenti dell’emittente e scegli tu nomi o gruppi. L’esercizio non coincide necessariamente con l’anno solare."
             },
             {
-              "q": "Il CSV contiene valori finanziari?",
-              "a": "No. Contiene metadati e link, non tabelle finanziarie complete."
+              "q": "Il CSV contiene valori di bilancio?",
+              "a": "No. Il CSV con le info dei file registra metadati e link. Non estrae tabelle finanziarie né garantisce dati numerici completi."
             },
             {
-              "q": "Consiglia investimenti o invia all’IA?",
-              "a": "No. Passi tu i file compatibili e verifichi la risposta dell’IA."
+              "q": "Può analizzare investimenti o inviare relazioni a un’IA?",
+              "a": "Prepara file e link. Sei tu a scegliere i materiali adatti, inviarli manualmente a un servizio di IA esterno e verificarne l’output. Non si promettono raccomandazioni di investimento né accuratezza dell’analisi."
             },
             {
               "q": "Posso usarlo gratis?",
-              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati fino a 10 per esecuzione e «Salva i prossimi 10» nella schermata dei risultati salva il resto. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+              "a": "Sì. La versione gratuita salva fino a 10 file selezionati per download, ZIP o CSV con le info dei file. Per continuare, seleziona i file successivi e premi di nuovo il pulsante: non viene bloccato nulla. Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per azione."
             },
             {
-              "q": "Cosa contiene il CSV delle informazioni?",
-              "a": "URL, nomi, titoli, tipi, confidenza e prove del rilevamento, dimensione, data e pagina origine se note. I campi ignoti possono essere vuoti; non estrae tabelle dai documenti."
+              "q": "Gli anni precedenti sono dietro «Mostra altro» o in un elenco lungo. Li trova?",
+              "a": "Apri «Opzioni di scansione», attiva «Scorri e carica tutto prima della scansione» e ripeti la scansione perché l’elenco si carichi per intero. Se ogni anno ha una scheda o una pagina propria, aprile e scansionale una alla volta. Alcuni siti collegano le relazioni tramite un visualizzatore: controlla la pagina di origine rilevata prima di salvare."
             }
           ],
           "industry": {
@@ -4536,7 +4636,7 @@
         },
         "ko": {
           "title": "IR·실적 보고서 PDF 다운로드 | Grab All Files",
-          "desc": "한 기업의 실적 발표 자료, 설명 자료와 연차 보고서를 출처를 확인할 수 있는 읽기 자료로 모읍니다.",
+          "desc": "한 기업의 실적 발표 자료, 설명 자료, 연차 보고서를 회계 기간별로 저장합니다. 제목에 기간을 붙이고 원본 URL도 기록할 수 있으며, 무료 버전은 다운로드당 10개까지입니다.",
           "eyebrow": "IR·실적 보고서 PDF",
           "h1": "보고서를 보고 기간별로 정리하세요.",
           "lead": "한 기업의 실적 발표 자료, 설명 자료와 연차 보고서를 출처를 확인할 수 있는 읽기 자료로 모읍니다. 각 원본 문서에서 회계연도와 분기를 확인한 뒤 명확한 이름을 붙여 직접 검토하거나 외부 AI에 전달할 자료를 준비하세요.",
@@ -4546,9 +4646,9 @@
           ],
           "steps": [
             "기업의 공식 IR 자료실을 열고 회계연도나 분기를 선택합니다. 실적 발표 자료, 설명 자료와 공개된 질의응답을 구분해 확인합니다.",
-            "Grab All Files를 열고 대상 페이지를 스캔합니다. 필요한 형식을 필터링하고 원본 링크를 확인해 파일을 선택합니다.",
+            "Grab All Files를 열고 해당 기간의 페이지를 스캔합니다. PDF로 필터링하고(데이터를 Excel로 공개하는 기업이면 Excel도), 그 기간의 실적 발표 자료·설명 자료·보고서만 체크합니다.",
             "기업, 보고 기간, 공개일과 개정 사항을 확인합니다. 필요하면 제목 앞에 기간을 붙이고, 기간별로 작업을 나눠 보고서가 섞이지 않도록 합니다.",
-            "제목을 확인·편집하고 저장 이름과 종류별·도메인별 폴더를 선택해 파일 또는 ZIP을 저장합니다. 파일 정보 CSV로 URL도 기록합니다.",
+            "제목을 더블클릭해 기간을 붙이고(예: “FY2025 2분기 – 설명 자료”), “상세 설정”의 “저장 이름”을 “제목”으로 바꾼 뒤 기간별로 다운로드하거나 ZIP으로 저장합니다(무료: 다운로드당 10개). “파일 정보 CSV 내보내기”로 원본 URL을 남깁니다.",
             "저장한 원본을 읽거나 선택한 AI 서비스가 지원하는 자료 파일과 질문을 직접 전달합니다. 단위, 회계 범위와 수치를 원본 PDF와 대조하세요. 확장 기능은 투자 판단을 하지 않으며 수치 추출의 완전성을 보장하지 않습니다."
           ],
           "faq": [
@@ -4566,11 +4666,11 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 10건 저장’으로 나머지를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+              "a": "예. 무료 버전은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
             },
             {
-              "q": "파일 정보 CSV에는 무엇이 있나요?",
-              "a": "URL, 파일명, 제목, 종류, 감지 신뢰도·근거와 확인 가능한 크기·수정일·원본 페이지입니다. 미확인 정보는 비어 있을 수 있으며 문서 본문 표를 추출한 CSV가 아닙니다."
+              "q": "지난 연도가 ‘더 보기’나 긴 목록 안쪽에 있으면요?",
+              "a": "“스캔 설정”에서 “스캔 전에 스크롤해 모두 불러오기(갤러리, 긴 목록)”를 켜고 다시 스캔하면 목록을 끝까지 불러온 뒤 감지합니다. 연도별로 탭이나 페이지가 나뉘어 있다면 하나씩 열어 차례로 스캔하세요. 뷰어를 거쳐 링크하는 IR 사이트도 있으니 저장 전에 감지된 링크 원본 페이지를 확인하세요."
             }
           ],
           "industry": {
@@ -4601,7 +4701,7 @@
         },
         "pt_BR": {
           "title": "Baixar PDFs de RI e resultados financeiros | Grab All Files",
-          "desc": "Reúna comunicados de resultados, apresentações e relatórios anuais de um emissor em um conjunto de leitura com fontes rastreáveis.",
+          "desc": "Salve por período os comunicados de resultados, apresentações e relatórios anuais de um emissor, com títulos claros e a fonte. Grátis: 10 por download.",
           "eyebrow": "PDFs de RI e resultados financeiros",
           "h1": "Organize relatórios por período.",
           "lead": "Reúna comunicados de resultados, apresentações e relatórios anuais de um emissor em um conjunto de leitura com fontes rastreáveis. Confira o exercício fiscal e o trimestre em cada original e use nomes claros para preparar sua própria análise ou o envio a uma IA externa.",
@@ -4611,9 +4711,9 @@
           ],
           "steps": [
             "Abra o arquivo oficial de relações com investidores do emissor e escolha o exercício fiscal ou trimestre. Confira separadamente comunicados, apresentações e perguntas e respostas publicadas.",
-            "Abra Grab All Files, escaneie a página escolhida, filtre os formatos e confira os links antes de selecionar arquivos.",
+            "Abra o Grab All Files e escaneie a página desse período. Filtre por PDF (inclua Excel se o emissor publica planilhas de dados) e marque só o comunicado, a apresentação e o relatório do período.",
             "Verifique emissor, período, data de publicação e revisões. Acrescente o período ao início dos títulos quando útil e trabalhe em lotes separados para não misturar relatórios.",
-            "Confira ou edite títulos, escolha nomes e pastas por tipo ou domínio e salve arquivos ou ZIP. Exporte informações CSV para registrar URLs.",
+            "Clique duas vezes em cada título para incluir o período (por exemplo “FY2025 T2 – Apresentação”), escolha “Título” em “Salvar como” dentro de “Detalhes” e baixe ou crie um ZIP por período (grátis: 10 arquivos por download). Use “Exportar info de arquivos em CSV” para guardar as URLs de origem.",
             "Leia as fontes salvas ou entregue manualmente os arquivos compatíveis e sua pergunta à IA escolhida. Confira unidades, escopo contábil e números nos PDFs originais. A extensão não toma decisões de investimento nem garante a extração completa de dados numéricos."
           ],
           "faq": [
@@ -4630,12 +4730,12 @@
               "a": "Ele prepara arquivos e links. Você escolhe os materiais adequados, envia-os manualmente à IA externa e verifica a resposta. Não há promessa de recomendação de investimento ou de precisão da análise."
             },
             {
-              "q": "Posso usar grátis?",
-              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos vinculados diretamente são salvos até 10 por execução, e “Salvar os próximos 10” na tela de resultado salva o restante. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+              "q": "Posso usar de graça?",
+              "a": "Sim. A versão gratuita salva até 10 arquivos selecionados por download, ZIP ou CSV de informações de arquivos. Para continuar, selecione os próximos arquivos e clique de novo — nada fica bloqueado. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por ação."
             },
             {
-              "q": "O que contém o CSV de informações?",
-              "a": "URLs, nomes, títulos, tipos, confiança e evidências de detecção, tamanho, data e página de origem quando conhecidos. Campos desconhecidos podem ficar vazios; não extrai tabelas do documento."
+              "q": "Os anos anteriores ficam atrás de “Mostrar mais” ou numa lista longa. Ele encontra?",
+              "a": "Abra “Opções de varredura”, ative “Role e carregue tudo antes de escanear” e escaneie de novo para a lista carregar inteira. Se cada ano tem a própria aba ou página, abra e escaneie uma por vez. Alguns sites de RI vinculam os relatórios por um visualizador; confira a página de origem detectada antes de salvar."
             }
           ],
           "industry": {
@@ -4666,7 +4766,7 @@
         },
         "zh_CN": {
           "title": "下载IR与财务报告PDF | Grab All Files",
-          "desc": "将一家发行人的业绩公告、演示资料与年报整理成可追溯来源的阅读资料集。",
+          "desc": "按会计年度和季度保存一家发行人的业绩公告、演示资料和年报，在标题中注明期间并保留来源链接，便于日后核对。免费版每次下载最多10个文件。",
           "eyebrow": "IR与财务报告PDF",
           "h1": "按报告期间整理资料。",
           "lead": "将一家发行人的业绩公告、演示资料与年报整理成可追溯来源的阅读资料集。在每份原件上核对会计年度和季度，再用清晰的名称为自行查阅或交给外部AI准备材料。",
@@ -4676,9 +4776,9 @@
           ],
           "steps": [
             "打开发行人的官方IR资料库，选择会计年度或季度。分别核对业绩公告、演示资料与公开的问答。",
-            "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
+            "打开Grab All Files并扫描该期间的页面。按PDF筛选（发行人以Excel公布数据时也加上Excel），只勾选该期间的业绩公告、演示资料和报告。",
             "确认发行人、报告期间、发布日期与修订。需要时在标题前加上期间标识，并按期间分批处理，避免混合报告。",
-            "检查或编辑标题，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "双击各标题加上期间（例如“FY2025 Q2 – 演示资料”），在“详细设置”的“保存名称”中选择“标题”，再按期间下载或保存为ZIP（免费版每次下载最多10个）。用“导出文件信息CSV”保留来源URL。",
             "阅读已保存原件，或手动将所选AI服务支持的资料文件与问题交给它。将单位、会计范围和数值与原始PDF核对。扩展不作投资判断，也不保证数值提取的完整性。"
           ],
           "faq": [
@@ -4696,11 +4796,11 @@
             },
             {
               "q": "可以免费使用吗？",
-              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+              "a": "可以。免费版的下载、ZIP和文件信息CSV每次操作最多处理10个选中的文件。要继续，请选择接下来的文件并再次点击按钮，不会被锁定。Pro（$19.99，一次性购买，最多3台设备）没有每次操作的上限。"
             },
             {
-              "q": "文件信息CSV包含什么？",
-              "a": "URL、文件名、标题、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+              "q": "往年资料藏在“显示更多”或长列表后面，能找到吗？",
+              "a": "在“扫描设置”中开启“扫描前先滚动并加载全部内容（图库、长列表）”后重新扫描，列表会完整加载后再检测。若每年各有标签页或页面，请逐一打开并扫描。有些IR网站通过查看器链接报告，保存前请确认检测到的来源页面。"
             }
           ],
           "industry": {
@@ -4731,7 +4831,7 @@
         },
         "zh_TW": {
           "title": "下載IR與財務報告PDF | Grab All Files",
-          "desc": "將一家發行人的業績公告、簡報與年報整理成可追溯來源的閱讀資料集。",
+          "desc": "依會計年度和季度儲存一家發行人的業績公告、簡報和年報，在標題中註明期間並保留來源連結，方便日後核對。免費版每次下載最多10個檔案。",
           "eyebrow": "IR與財務報告PDF",
           "h1": "依報告期間整理資料。",
           "lead": "將一家發行人的業績公告、簡報與年報整理成可追溯來源的閱讀資料集。在每份原件上核對會計年度與季度，再用清楚的名稱為自行查閱或交給外部AI準備材料。",
@@ -4741,9 +4841,9 @@
           ],
           "steps": [
             "開啟發行人的官方IR資料庫，選擇會計年度或季度。分別核對業績公告、簡報與公開的問答。",
-            "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
+            "開啟Grab All Files並掃描該期間的頁面。依PDF篩選（發行人以Excel公布資料時也加上Excel），只勾選該期間的業績公告、簡報和報告。",
             "確認發行人、報告期間、發布日期與修訂。需要時在標題前加上期間標示，並依期間分批處理，避免混合報告。",
-            "檢查或編輯標題，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "雙擊各標題加上期間（例如「FY2025 Q2 – 簡報」），在「詳細設定」的「儲存名稱」中選擇「標題」，再依期間下載或儲存為ZIP（免費版每次下載最多10個）。用「匯出檔案資訊CSV」保留來源URL。",
             "閱讀已儲存原件，或手動將所選AI服務支援的資料檔與問題交給它。將單位、會計範圍與數值和原始PDF核對。擴充功能不作投資判斷，也不保證數值擷取的完整性。"
           ],
           "faq": [
@@ -4757,15 +4857,15 @@
             },
             {
               "q": "會分析投資或把報告傳送給AI嗎？",
-              "a": "它準備檔案與連結。你自行選擇適合的材料，手動交給外部AI服務並核對輸出。不承諾投資建議或分析準確性。"
+              "a": "它準備檔案與連結。您自行選擇適合的材料，手動交給外部AI服務並核對輸出。不承諾投資建議或分析準確性。"
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的10個」繼續儲存。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+              "a": "可以。免費版的下載、ZIP和檔案資訊CSV每次操作最多處理10個選取的檔案。若要繼續，請選取接下來的檔案並再次點擊按鈕，不會被鎖定。Pro（$19.99，一次購買，最多3台裝置）沒有每次操作的上限。"
             },
             {
-              "q": "檔案資訊CSV包含什麼？",
-              "a": "URL、檔名、標題、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+              "q": "往年資料藏在「顯示更多」或長清單後面，能找到嗎？",
+              "a": "在「掃描設定」中開啟「掃描前先捲動並載入所有內容（圖庫、長清單）」後重新掃描，清單會完整載入後再偵測。若每年各有分頁或頁面，請逐一開啟並掃描。有些IR網站透過檢視器連結報告，儲存前請確認偵測到的來源頁面。"
             }
           ],
           "industry": {
@@ -4806,7 +4906,7 @@
       "copy": {
         "en": {
           "title": "Download tender & application documents | Grab All Files",
-          "desc": "Prepare a review set for one tender or application call: notice, specifications, forms and published questions or answers.",
+          "desc": "Save a tender or grant call’s notice, specifications, forms and Q&A in their original formats, named by role and checked against the official list.",
           "eyebrow": "Tender & application documents",
           "h1": "Keep one opportunity’s documents together.",
           "lead": "Prepare a review set for one tender or application call: notice, specifications, forms and published questions or answers. Preserve document roles and revisions so you can compare your saved set with the official listing.",
@@ -4816,9 +4916,9 @@
           ],
           "steps": [
             "Open the official page for one opportunity. Identify the notice, specifications, forms and any separate clarification or amendment links.",
-            "Open Grab All Files, scan the chosen page, and filter the file types you need. Review the source links and select the relevant files.",
+            "Open Grab All Files and scan the opportunity page. Filter to the formats published (PDF, Word, Excel, ZIP) and tick the notice, specifications, forms and any clarification files.",
             "Check the opportunity name, version, deadlines and required document list. Keep forms in their original supported formats and use role-based filenames.",
-            "Check or edit titles, choose the save-name and type/domain folder options, then save files or ZIP. Export File Info CSV to keep a URL record.",
+            "Give each file a role-based title (notice, specification, form, Q&A) and, in “More actions”, set “Organize” to “By type” so editable forms stay separate. Save a ZIP for the opportunity (Free: 10 files per download) and use “Export File Info CSV” to compare against the official list.",
             "Compare saved files and the CSV with the official listing. Revisit the source for amendments or answers before preparing an application. Saving documents does not fill, sign or submit an application."
           ],
           "faq": [
@@ -4836,11 +4936,11 @@
             },
             {
               "q": "Can I use this for free?",
-              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+              "a": "Yes. Free saves up to 10 selected files per download, ZIP or file-information CSV. To continue, select the next files and press the button again — nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-action cap."
             },
             {
-              "q": "What does the file-information CSV contain?",
-              "a": "Selected file URLs, filenames, titles, types, detection confidence/evidence and available size, modification date and source page. Unknown metadata can be blank. It is not a table extracted from the document body."
+              "q": "The portal needs a sign-in to show the documents. Does it still work?",
+              "a": "Yes, while you are signed in: the scan uses your browser session and does not collect credentials. Rows marked “Login required to access this file” mean the session ended — sign in again and retry. If the portal asks you to accept terms before downloading, do that on the site first."
             }
           ],
           "industry": {
@@ -4871,7 +4971,7 @@
         },
         "ja": {
           "title": "入札・公募の公告・仕様書・様式をまとめて保存 | Grab All Files",
-          "desc": "1つの入札・公募案件の公告、仕様書、様式、公表された質問回答を、確認用の資料セットへ。",
+          "desc": "1件の入札・公募の公告、仕様書、様式、質問回答を元の形式のまま保存。役割が分かる名前を付け、公式の資料一覧と照合できます。無料版は1回10件まで。",
           "eyebrow": "入札・公募書類一式",
           "h1": "1案件の公募資料をまとめて保存。",
           "lead": "1つの入札・公募案件の公告、仕様書、様式、公表された質問回答を、確認用の資料セットへ。役割と改訂版を区別して保存し、公式の配布一覧と照合しやすくします。",
@@ -4881,9 +4981,9 @@
           ],
           "steps": [
             "1案件の公式ページを開きます。公告、仕様書、様式に加え、別ページの質問回答や訂正資料のリンクを確認します。",
-            "Grab All Filesを開き、対象ページをスキャンします。必要な種類で絞り込み、元リンクを確認して資料を選択します。",
+            "Grab All Filesを開き、案件ページをスキャンします。公開されている形式（PDF・Word・Excel・ZIP）で絞り込み、公告・仕様書・様式・質問回答などにチェックを入れます。",
             "案件名、版、期限、必要資料の一覧を確認します。様式は対応する元形式を保ち、資料の役割で名前を付けます。",
-            "題名を確認・編集し、保存名と種類別／ドメイン別のフォルダ分けを選び、個別ファイルまたはZIPで保存します。「ファイル情報CSV出力」でURLの記録も残せます。",
+            "役割が分かるタイトル（公告・仕様書・様式・質問回答）を付け、「その他の操作」の「整理」を「種類別」にして編集用の様式を分けます。案件ごとにZIP保存し（無料版は1回10件まで）、「ファイル情報CSV出力」で公式の一覧と照合します。",
             "保存した資料とCSVを公式一覧に照合します。応募準備前に訂正や回答も原サイトで再確認してください。資料保存は入力・署名・応募送信とは別の作業です。"
           ],
           "faq": [
@@ -4901,11 +5001,11 @@
             },
             {
               "q": "無料で使えますか？",
-              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+              "a": "はい。無料版はダウンロード・ZIP・ファイル情報CSVのいずれも、1回の操作で選択した10件までです。続けるときは次のファイルを選んでもう一度押してください。ロックはかかりません。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。"
             },
             {
-              "q": "ファイル情報CSVには何が入りますか？",
-              "a": "選択したファイルのURL、ファイル名、題名、種類、検出の確度・根拠と、取得できたサイズ・更新日・リンク元ページを記録します。不明な情報は空になる場合があり、資料本文の表を抽出したCSVではありません。"
+              "q": "資料の表示にログインが必要なポータルでも使えますか？",
+              "a": "ログインしている間は使えます。スキャンはブラウザのログイン状態を使い、認証情報は収集しません。「ログインが必要です」と表示された行はセッションが切れているので、ログインし直して再試行してください。ダウンロード前に利用規約への同意を求めるポータルでは、先にサイト上で同意しておきます。"
             }
           ],
           "industry": {
@@ -4935,42 +5035,42 @@
           }
         },
         "es": {
-          "title": "Documentos de licitación y convocatoria | Grab All Files",
-          "desc": "Guarda anuncio, especificaciones, formularios y aclaraciones de una oportunidad.",
+          "title": "Descargar documentos de licitaciones y convocatorias | Grab All Files",
+          "desc": "Guarda el anuncio, los pliegos, formularios y respuestas de una licitación o convocatoria en su formato original, con nombres por función y cotejados.",
           "eyebrow": "Documentos de licitación y convocatoria",
-          "h1": "Reúne los documentos de una convocatoria.",
-          "lead": "Guarda anuncio, especificaciones, formularios y aclaraciones de una oportunidad. Mantén roles y versiones distinguibles para cotejar el conjunto oficial.",
+          "h1": "Reúne los documentos de una sola convocatoria.",
+          "lead": "Prepara un conjunto de revisión para una licitación o convocatoria: anuncio, pliegos, formularios y preguntas o respuestas publicadas. Conserva la función y la versión de cada documento para poder comparar lo guardado con la lista oficial.",
           "best": [
-            "PDF, Word y Excel de un proyecto.",
-            "Versiones y aclaraciones separadas."
+            "Reunir los documentos PDF, Word y Excel de una oportunidad.",
+            "Mantener diferenciados anuncios modificados, formularios y aclaraciones."
           ],
           "steps": [
-            "Abre la página oficial de una convocatoria y localiza documentos, correcciones y preguntas.",
-            "Abre Grab All Files, escanea la página elegida, filtra los formatos y revisa los enlaces antes de seleccionar los archivos.",
-            "Confirma nombre, versión, fechas y lista requerida. Conserva los formularios en su formato original.",
-            "Revisa o edita títulos, elige nombres y carpetas por tipo o dominio y guarda archivos o ZIP. Exporta la información CSV para registrar las URL.",
-            "Contrasta el conjunto con la fuente antes de preparar la solicitud. Guardar no rellena, firma ni presenta formularios."
+            "Abre la página oficial de una oportunidad. Identifica el anuncio, los pliegos, los formularios y los enlaces aparte de aclaraciones o modificaciones.",
+            "Abre Grab All Files y escanea la página de la oportunidad. Filtra por los formatos publicados (PDF, Word, Excel, ZIP) y marca anuncio, pliegos, formularios y cualquier archivo de aclaración.",
+            "Comprueba nombre de la oportunidad, versión, plazos y lista de documentos exigidos. Conserva los formularios en su formato original.",
+            "Da a cada archivo un título según su función (anuncio, pliego, formulario, preguntas) y, en «Más acciones», pon «Organizar» en «Por tipo» para separar los formularios editables. Guarda un ZIP de la oportunidad (gratis: 10 archivos por descarga) y usa «Exportar info de archivos en CSV» para cotejar con la lista oficial.",
+            "Compara los archivos guardados y el CSV con la lista oficial. Vuelve a la fuente para ver modificaciones o respuestas antes de preparar la solicitud. Guardar documentos no rellena, firma ni presenta ninguna solicitud."
           ],
           "faq": [
             {
-              "q": "¿Garantiza un expediente completo?",
-              "a": "No. Revisa la lista y los enlaces separados de cambios o respuestas."
+              "q": "¿Un escaneo garantiza el paquete completo?",
+              "a": "No. Revisa la lista oficial y sigue las páginas aparte de modificaciones o preguntas cuando haga falta. El resultado se limita a los enlaces encontrados y a los archivos que elijas."
             },
             {
-              "q": "¿Presenta la solicitud?",
-              "a": "No. Cumplimentación, firma y envío son operaciones separadas."
+              "q": "¿Puede presentar una oferta o solicitud?",
+              "a": "No. Este flujo guarda archivos de referencia. Rellenar formularios, firmar y presentar siguen siendo pasos aparte según las instrucciones del organismo."
             },
             {
-              "q": "¿Vigila cambios automáticamente?",
-              "a": "No. Vuelve a la fuente y escanea manualmente; conserva notas de revisión."
+              "q": "¿Vigila automáticamente las modificaciones posteriores?",
+              "a": "No. Vuelve a la fuente y escanea de nuevo manualmente. Anota las revisiones y compara los originales; no des por hecho que una copia guardada es la última."
             },
             {
               "q": "¿Puedo usarlo gratis?",
-              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+              "a": "Sí. La versión gratuita guarda hasta 10 archivos seleccionados por descarga, ZIP o CSV de información de archivos. Para seguir, selecciona los siguientes archivos y vuelve a pulsar el botón; no se bloquea nada. Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por acción."
             },
             {
-              "q": "¿Qué contiene el CSV de información?",
-              "a": "URL, nombres, títulos, tipos, confianza y evidencia de detección, y tamaño, fecha y página origen cuando se conocen. Los campos desconocidos pueden quedar vacíos; no extrae tablas del documento."
+              "q": "El portal exige iniciar sesión para ver los documentos. ¿Funciona igual?",
+              "a": "Sí, mientras tengas la sesión iniciada: el escaneo usa la sesión del navegador y no recopila credenciales. Las filas con «Se requiere iniciar sesión» indican que la sesión terminó: vuelve a entrar y reinténtalo. Si el portal pide aceptar condiciones antes de descargar, hazlo primero en el sitio."
             }
           ],
           "industry": {
@@ -5000,42 +5100,42 @@
           }
         },
         "fr": {
-          "title": "Documents d’appels d’offres | Grab All Files",
-          "desc": "Gardez avis, spécifications, formulaires et réponses publiées d’une opportunité.",
+          "title": "Télécharger les pièces d’un appel d’offres | Grab All Files",
+          "desc": "Enregistrez l’avis, le cahier des charges, les formulaires et les réponses d’un appel d’offres dans leur format d’origine, nommés par rôle et vérifiés.",
           "eyebrow": "Documents d’appels d’offres",
           "h1": "Regroupez les pièces d’un seul appel.",
-          "lead": "Gardez avis, spécifications, formulaires et réponses publiées d’une opportunité. Distinguez rôles et révisions pour vérifier la liste officielle.",
+          "lead": "Préparez un ensemble de relecture pour un appel d’offres ou un appel à projets : avis, cahier des charges, formulaires et questions-réponses publiées. Conservez le rôle et la version de chaque pièce pour comparer votre ensemble avec la liste officielle.",
           "best": [
-            "PDF, Word et Excel d’un dossier.",
-            "Rectificatifs et réponses distincts."
+            "Réunir les documents PDF, Word et Excel d’une même consultation.",
+            "Garder distincts les avis rectificatifs, les formulaires et les éclaircissements."
           ],
           "steps": [
-            "Ouvrez la page officielle d’un appel et repérez pièces, rectificatifs et questions.",
-            "Ouvrez Grab All Files, analysez la page choisie, filtrez les formats et vérifiez les liens avant de sélectionner les fichiers.",
-            "Confirmez nom, version, échéances et liste requise. Gardez les formulaires dans leur format original.",
-            "Vérifiez ou modifiez les titres, choisissez les noms et dossiers par type ou domaine, puis enregistrez des fichiers ou un ZIP. Exportez les informations CSV pour garder les URL.",
-            "Vérifiez les fichiers contre la source avant la candidature. Enregistrer ne remplit, signe ou dépose rien."
+            "Ouvrez la page officielle d’une consultation. Repérez l’avis, le cahier des charges, les formulaires et les liens distincts vers éclaircissements ou rectificatifs.",
+            "Ouvrez Grab All Files et analysez la page de la consultation. Filtrez sur les formats publiés (PDF, Word, Excel, ZIP) et cochez avis, cahier des charges, formulaires et fichiers d’éclaircissement.",
+            "Vérifiez intitulé de la consultation, version, dates limites et liste des pièces exigées. Gardez les formulaires dans leur format d’origine.",
+            "Donnez à chaque fichier un titre selon son rôle (avis, cahier des charges, formulaire, questions-réponses) et, dans « Autres actions », réglez « Classement » sur « Par type » pour isoler les formulaires modifiables. Créez un ZIP de la consultation (version gratuite : 10 fichiers par téléchargement) et utilisez « Exporter les infos fichiers en CSV » pour comparer avec la liste officielle.",
+            "Comparez les fichiers enregistrés et le CSV à la liste officielle. Revenez à la source pour les rectificatifs ou réponses avant de préparer votre dossier. Enregistrer des documents ne remplit, ne signe ni ne dépose aucune candidature."
           ],
           "faq": [
             {
-              "q": "Le dossier complet est-il garanti ?",
-              "a": "Non. Vérifiez la liste et les pages séparées de rectificatifs ou réponses."
+              "q": "Une analyse garantit-elle un dossier complet ?",
+              "a": "Non. Vérifiez la liste officielle et suivez si besoin les pages distinctes de rectificatifs ou de questions-réponses. Le résultat se limite aux liens trouvés et aux fichiers que vous choisissez."
             },
             {
-              "q": "Dépose-t-il une candidature ?",
-              "a": "Non. Remplissage, signature et dépôt restent séparés."
+              "q": "Peut-il déposer une offre ou une candidature ?",
+              "a": "Non. Ce flux enregistre des fichiers de référence. Remplir les formulaires, signer et déposer restent des étapes distinctes, selon les consignes de l’émetteur."
             },
             {
-              "q": "Les changements sont-ils surveillés ?",
-              "a": "Non. Revisitez et analysez manuellement la source ; gardez des notes de révision."
+              "q": "Les rectificatifs ultérieurs sont-ils suivis automatiquement ?",
+              "a": "Non. Revenez à la source et relancez l’analyse manuellement. Notez les révisions et comparez les originaux ; ne supposez pas qu’une copie enregistrée est la plus récente."
             },
             {
-              "q": "Puis-je l’utiliser gratuitement ?",
-              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; les fichiers directement liés sont enregistrés jusqu’à 10 par opération, et « Enregistrer les 10 suivants » sur l’écran de résultat enregistre le reste. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+              "q": "Puis-je l’utiliser gratuitement ?",
+              "a": "Oui. La version gratuite enregistre jusqu’à 10 fichiers sélectionnés par téléchargement, ZIP ou CSV d’informations fichiers. Pour continuer, sélectionnez les fichiers suivants et cliquez à nouveau : rien n’est bloqué. Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par action."
             },
             {
-              "q": "Que contient le CSV d’informations ?",
-              "a": "URL, noms, titres, types, confiance et preuves de détection, taille, date et page source si connues. Les champs inconnus peuvent rester vides ; ce ne sont pas les tableaux du document."
+              "q": "Le portail exige une connexion pour afficher les pièces : cela fonctionne-t-il ?",
+              "a": "Oui, tant que vous êtes connecté : l’analyse utilise la session du navigateur et ne collecte aucun identifiant. Les lignes « Connexion requise » signalent une session terminée : reconnectez-vous et relancez. Si le portail demande d’accepter des conditions avant téléchargement, faites-le d’abord sur le site."
             }
           ],
           "industry": {
@@ -5065,42 +5165,42 @@
           }
         },
         "de": {
-          "title": "Ausschreibungsunterlagen | Grab All Files",
-          "desc": "Sichern Sie Bekanntmachung, Spezifikation, Formulare und veröffentlichte Antworten eines Verfahrens.",
+          "title": "Ausschreibungs- und Antragsunterlagen herunterladen | Grab All Files",
+          "desc": "Bekanntmachung, Leistungsbeschreibung, Formulare und Antworten einer Ausschreibung im Originalformat speichern – nach Rolle benannt und abgeglichen.",
           "eyebrow": "Ausschreibungsunterlagen",
-          "h1": "Unterlagen eines Verfahrens sichern.",
-          "lead": "Sichern Sie Bekanntmachung, Spezifikation, Formulare und veröffentlichte Antworten eines Verfahrens. Unterscheiden Sie Rollen und Revisionen zum Abgleich mit der offiziellen Liste.",
+          "h1": "Die Unterlagen eines Verfahrens beisammen halten.",
+          "lead": "Stellen Sie einen Prüfsatz für eine Ausschreibung oder einen Förderaufruf zusammen: Bekanntmachung, Leistungsbeschreibung, Formulare und veröffentlichte Fragen und Antworten. Bewahren Sie Rolle und Version jedes Dokuments, damit Sie Ihren Satz mit der offiziellen Liste abgleichen können.",
           "best": [
-            "PDF, Word und Excel für einen Vorgang.",
-            "Korrekturen und Antworten getrennt halten."
+            "Die PDF-, Word- und Excel-Unterlagen eines Verfahrens sammeln.",
+            "Geänderte Bekanntmachungen, Formulare und Klarstellungen unterscheidbar halten."
           ],
           "steps": [
-            "Öffnen Sie die offizielle Verfahrensseite und suchen Sie Unterlagen, Korrekturen und Fragen.",
-            "Öffnen Sie Grab All Files, scannen Sie die gewählte Seite, filtern Sie die Formate und prüfen Sie die Links vor der Auswahl.",
-            "Prüfen Sie Namen, Version, Fristen und benötigte Liste. Bewahren Sie Formulare im Originalformat.",
-            "Prüfen oder bearbeiten Sie Titel, wählen Sie Namen und Typ-/Domainordner und speichern Sie Dateien oder ZIP. Exportieren Sie die Dateiinfo-CSV als URL-Nachweis.",
-            "Gleichen Sie Dateien vor der Vorbereitung mit der Quelle ab. Speichern füllt, unterschreibt oder übermittelt keine Bewerbung."
+            "Öffnen Sie die offizielle Seite eines Verfahrens. Ermitteln Sie Bekanntmachung, Leistungsbeschreibung, Formulare und separate Links zu Klarstellungen oder Änderungen.",
+            "Öffnen Sie Grab All Files und scannen Sie die Verfahrensseite. Filtern Sie auf die veröffentlichten Formate (PDF, Word, Excel, ZIP) und haken Sie Bekanntmachung, Leistungsbeschreibung, Formulare und Klarstellungsdateien an.",
+            "Prüfen Sie Verfahrensname, Version, Fristen und die Liste der geforderten Unterlagen. Behalten Sie Formulare im Originalformat.",
+            "Geben Sie jeder Datei einen Titel nach ihrer Rolle (Bekanntmachung, Leistungsbeschreibung, Formular, Fragen und Antworten) und stellen Sie in „Weitere Aktionen“ die „Ablage“ auf „Nach Typ“, damit bearbeitbare Formulare getrennt bleiben. Speichern Sie ein ZIP für das Verfahren (kostenlos: 10 Dateien pro Download) und gleichen Sie mit „Dateiinfo als CSV exportieren“ die offizielle Liste ab.",
+            "Vergleichen Sie gespeicherte Dateien und CSV mit der offiziellen Liste. Prüfen Sie die Quelle vor der Antragstellung erneut auf Änderungen oder Antworten. Das Speichern füllt, unterschreibt oder reicht keinen Antrag ein."
           ],
           "faq": [
             {
-              "q": "Ist der vollständige Satz garantiert?",
-              "a": "Nein. Prüfen Sie Liste und separate Seiten mit Korrekturen oder Antworten."
+              "q": "Garantiert ein Scan vollständige Unterlagen?",
+              "a": "Nein. Prüfen Sie die offizielle Liste und folgen Sie bei Bedarf separaten Änderungs- oder Fragen-Seiten. Das Ergebnis beschränkt sich auf gefundene Links und die von Ihnen gewählten Dateien."
             },
             {
-              "q": "Wird eine Bewerbung abgegeben?",
-              "a": "Nein. Ausfüllen, Unterschrift und Einreichung bleiben getrennte Schritte."
+              "q": "Kann es ein Angebot oder einen Antrag einreichen?",
+              "a": "Nein. Dieser Ablauf speichert Referenzdateien. Formulare ausfüllen, unterschreiben und einreichen bleiben eigene Schritte nach den Vorgaben der ausschreibenden Stelle."
             },
             {
-              "q": "Werden Änderungen überwacht?",
-              "a": "Nein. Besuchen und scannen Sie die Quelle manuell; behalten Sie Revisionsnotizen."
+              "q": "Werden spätere Änderungen automatisch überwacht?",
+              "a": "Nein. Rufen Sie die Quelle erneut auf und scannen Sie manuell. Notieren Sie Revisionen und vergleichen Sie die Originale; gehen Sie nicht davon aus, dass eine gespeicherte Kopie aktuell ist."
             },
             {
-              "q": "Ist dies kostenlos nutzbar?",
-              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert; „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+              "q": "Kann ich das kostenlos nutzen?",
+              "a": "Ja. Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Download, ZIP oder Dateiinfo-CSV. Zum Weitermachen wählen Sie die nächsten Dateien aus und klicken erneut – gesperrt wird nichts. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Aktion auf."
             },
             {
-              "q": "Was enthält die Dateiinfo-CSV?",
-              "a": "URLs, Namen, Titel, Typen, Erkennungsbewertung und -hinweise sowie bekannte Größe, Änderungsdatum und Quellseite. Unbekannte Felder können leer sein; Dokumenttabellen werden nicht extrahiert."
+              "q": "Das Portal zeigt die Unterlagen nur nach Anmeldung. Funktioniert es trotzdem?",
+              "a": "Ja, solange Sie angemeldet sind: Der Scan nutzt Ihre Browser-Sitzung und sammelt keine Zugangsdaten. Zeilen mit „Anmeldung erforderlich“ bedeuten, dass die Sitzung beendet ist – melden Sie sich erneut an und wiederholen Sie den Vorgang. Verlangt das Portal vor dem Download die Zustimmung zu Bedingungen, erledigen Sie das zuerst auf der Website."
             }
           ],
           "industry": {
@@ -5130,42 +5230,42 @@
           }
         },
         "it": {
-          "title": "Documenti di bandi e gare | Grab All Files",
-          "desc": "Conserva avviso, specifiche, moduli e risposte pubblicate di una singola opportunità.",
+          "title": "Scaricare documenti di gare d’appalto e bandi | Grab All Files",
+          "desc": "Salva avviso, capitolato, moduli e risposte di una gara o di un bando nel formato originale, con nomi per ruolo e confrontati con l’elenco ufficiale.",
           "eyebrow": "Documenti di bandi e gare",
-          "h1": "Tutti i documenti di un bando.",
-          "lead": "Conserva avviso, specifiche, moduli e risposte pubblicate di una singola opportunità. Distingui ruoli e revisioni per verificare l’elenco ufficiale.",
+          "h1": "Tutti i documenti di un solo bando.",
+          "lead": "Prepara un insieme da esaminare per una gara o un bando: avviso, capitolato, moduli e domande e risposte pubblicate. Conserva ruolo e versione di ogni documento per poter confrontare l’insieme salvato con l’elenco ufficiale.",
           "best": [
-            "PDF, Word ed Excel di un progetto.",
-            "Correzioni e risposte distinguibili."
+            "Raccogliere i documenti PDF, Word ed Excel di una singola opportunità.",
+            "Tenere distinti avvisi rettificati, moduli e chiarimenti."
           ],
           "steps": [
-            "Apri la pagina ufficiale del bando e individua documenti, correzioni e domande.",
-            "Apri Grab All Files, scansiona la pagina scelta, filtra i formati e verifica i link prima di selezionare i file.",
-            "Conferma nome, versione, scadenze ed elenco richiesto. Conserva i moduli nel formato originale.",
-            "Verifica o modifica i titoli, scegli nomi e cartelle per tipo o dominio, poi salva file o ZIP. Esporta le informazioni CSV per conservare gli URL.",
-            "Confronta i file con la fonte prima della candidatura. Salvare non compila, firma o presenta moduli."
+            "Apri la pagina ufficiale di un’opportunità. Individua avviso, capitolato, moduli e gli eventuali link separati a chiarimenti o rettifiche.",
+            "Apri Grab All Files e scansiona la pagina dell’opportunità. Filtra per i formati pubblicati (PDF, Word, Excel, ZIP) e seleziona avviso, capitolato, moduli e file di chiarimento.",
+            "Controlla nome dell’opportunità, versione, scadenze ed elenco dei documenti richiesti. Mantieni i moduli nel formato originale.",
+            "Dai a ogni file un titolo secondo il ruolo (avviso, capitolato, modulo, chiarimenti) e in «Altre azioni» imposta «Organizza» su «Per tipo» per tenere separati i moduli modificabili. Salva uno ZIP dell’opportunità (gratis: 10 file per download) e usa «Esporta info file in CSV» per il confronto con l’elenco ufficiale.",
+            "Confronta i file salvati e il CSV con l’elenco ufficiale. Torna alla fonte per rettifiche o risposte prima di preparare la domanda. Salvare i documenti non compila, firma né presenta alcuna domanda."
           ],
           "faq": [
             {
-              "q": "Garantisce una raccolta completa?",
-              "a": "No. Controlla elenco e pagine separate con modifiche o risposte."
+              "q": "Una scansione garantisce un fascicolo completo?",
+              "a": "No. Controlla l’elenco ufficiale e segui se serve le pagine separate di rettifiche o chiarimenti. Il risultato si limita ai link trovati e ai file che scegli."
             },
             {
-              "q": "Invia la candidatura?",
-              "a": "No. Compilazione, firma e presentazione restano operazioni separate."
+              "q": "Può presentare un’offerta o una domanda?",
+              "a": "No. Questo flusso salva file di riferimento. Compilare moduli, firmare e presentare restano passaggi separati secondo le istruzioni dell’ente."
             },
             {
-              "q": "Sorveglia gli aggiornamenti?",
-              "a": "No. Torna alla fonte e scansiona manualmente; mantieni note di revisione."
+              "q": "Le rettifiche successive vengono monitorate automaticamente?",
+              "a": "No. Torna alla fonte e ripeti la scansione manualmente. Annota le revisioni e confronta gli originali; non dare per scontato che una copia salvata sia l’ultima."
             },
             {
               "q": "Posso usarlo gratis?",
-              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati fino a 10 per esecuzione e «Salva i prossimi 10» nella schermata dei risultati salva il resto. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+              "a": "Sì. La versione gratuita salva fino a 10 file selezionati per download, ZIP o CSV con le info dei file. Per continuare, seleziona i file successivi e premi di nuovo il pulsante: non viene bloccato nulla. Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per azione."
             },
             {
-              "q": "Cosa contiene il CSV delle informazioni?",
-              "a": "URL, nomi, titoli, tipi, confidenza e prove del rilevamento, dimensione, data e pagina origine se note. I campi ignoti possono essere vuoti; non estrae tabelle dai documenti."
+              "q": "Il portale richiede l’accesso per mostrare i documenti. Funziona lo stesso?",
+              "a": "Sì, finché hai l’accesso attivo: la scansione usa la sessione del browser e non raccoglie credenziali. Le righe con «Accesso richiesto» indicano che la sessione è terminata: accedi di nuovo e riprova. Se il portale chiede di accettare condizioni prima del download, fallo prima sul sito."
             }
           ],
           "industry": {
@@ -5196,7 +5296,7 @@
         },
         "ko": {
           "title": "입찰·공모 서류 다운로드 | Grab All Files",
-          "desc": "하나의 입찰·공모 건에 대한 공고, 사양서, 양식과 공개된 질문·답변을 검토용 자료 세트로 준비합니다.",
+          "desc": "한 건의 입찰·공모 공고, 사양서, 양식, 질의응답을 원래 형식 그대로 저장합니다. 역할을 알 수 있는 이름을 붙여 공식 목록과 대조하며, 무료 버전은 다운로드당 10개까지입니다.",
           "eyebrow": "입찰·공모 서류",
           "h1": "한 공고의 자료를 함께 모으세요.",
           "lead": "하나의 입찰·공모 건에 대한 공고, 사양서, 양식과 공개된 질문·답변을 검토용 자료 세트로 준비합니다. 문서의 역할과 개정판을 구분해 보관하면 저장한 자료를 공식 목록과 비교하기 쉽습니다.",
@@ -5206,9 +5306,9 @@
           ],
           "steps": [
             "한 공고의 공식 페이지를 엽니다. 공고, 사양서, 양식과 별도의 추가 설명·정정 자료 링크를 확인합니다.",
-            "Grab All Files를 열고 대상 페이지를 스캔합니다. 필요한 형식을 필터링하고 원본 링크를 확인해 파일을 선택합니다.",
+            "Grab All Files를 열고 공고 페이지를 스캔합니다. 공개된 형식(PDF, Word, Excel, ZIP)으로 필터링하고 공고·사양서·양식·질의응답 파일을 체크합니다.",
             "공고명, 버전, 기한과 필요한 문서 목록을 확인합니다. 양식은 지원되는 원래 형식으로 보관하고 문서 역할에 따라 파일 이름을 붙입니다.",
-            "제목을 확인·편집하고 저장 이름과 종류별·도메인별 폴더를 선택해 파일 또는 ZIP을 저장합니다. 파일 정보 CSV로 URL도 기록합니다.",
+            "파일마다 역할을 알 수 있는 제목(공고, 사양서, 양식, 질의응답)을 붙이고, “기타 작업”의 “정리”를 “유형별”로 두어 편집용 양식을 따로 둡니다. 공고별로 ZIP을 저장하고(무료: 다운로드당 10개) “파일 정보 CSV 내보내기”로 공식 목록과 대조합니다.",
             "저장한 파일과 CSV를 공식 목록과 비교합니다. 신청을 준비하기 전에 출처를 다시 방문해 정정 사항이나 답변을 확인하세요. 문서를 저장한다고 신청서를 작성·서명·제출하는 것은 아닙니다."
           ],
           "faq": [
@@ -5226,11 +5326,11 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 10건 저장’으로 나머지를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+              "a": "예. 무료 버전은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
             },
             {
-              "q": "파일 정보 CSV에는 무엇이 있나요?",
-              "a": "URL, 파일명, 제목, 종류, 감지 신뢰도·근거와 확인 가능한 크기·수정일·원본 페이지입니다. 미확인 정보는 비어 있을 수 있으며 문서 본문 표를 추출한 CSV가 아닙니다."
+              "q": "자료를 보려면 로그인이 필요한 포털에서도 되나요?",
+              "a": "로그인되어 있는 동안에는 됩니다. 스캔은 브라우저 세션을 사용하며 인증 정보를 수집하지 않습니다. “로그인이 필요합니다”로 표시된 행은 세션이 끝났다는 뜻이니 다시 로그인한 뒤 재시도하세요. 다운로드 전에 약관 동의를 요구하는 포털이라면 사이트에서 먼저 동의해 두세요."
             }
           ],
           "industry": {
@@ -5261,7 +5361,7 @@
         },
         "pt_BR": {
           "title": "Baixar documentos de licitação e seleção | Grab All Files",
-          "desc": "Prepare um conjunto para revisar uma licitação ou chamada de seleção: aviso, especificações, formulários e perguntas ou respostas publicadas.",
+          "desc": "Salve o edital, as especificações, os formulários e as respostas de uma licitação ou chamada no formato original, com nomes por função e conferidos.",
           "eyebrow": "Documentos de licitação e seleção",
           "h1": "Reúna os documentos de uma oportunidade.",
           "lead": "Prepare um conjunto para revisar uma licitação ou chamada de seleção: aviso, especificações, formulários e perguntas ou respostas publicadas. Preserve a função e a revisão de cada documento para comparar os arquivos salvos com a lista oficial.",
@@ -5271,9 +5371,9 @@
           ],
           "steps": [
             "Abra a página oficial de uma oportunidade. Identifique aviso, especificações, formulários e links separados para esclarecimentos ou retificações.",
-            "Abra Grab All Files, escaneie a página escolhida, filtre os formatos e confira os links antes de selecionar arquivos.",
+            "Abra o Grab All Files e escaneie a página da oportunidade. Filtre pelos formatos publicados (PDF, Word, Excel, ZIP) e marque edital, especificações, formulários e arquivos de esclarecimento.",
             "Confira o nome da oportunidade, a versão, os prazos e a lista de documentos exigidos. Mantenha os formulários nos formatos originais compatíveis e nomeie os arquivos pela função.",
-            "Confira ou edite títulos, escolha nomes e pastas por tipo ou domínio e salve arquivos ou ZIP. Exporte informações CSV para registrar URLs.",
+            "Dê a cada arquivo um título conforme a função (edital, especificação, formulário, perguntas e respostas) e, em “Mais ações”, deixe “Organizar” em “Por tipo” para separar os formulários editáveis. Salve um ZIP da oportunidade (grátis: 10 arquivos por download) e use “Exportar info de arquivos em CSV” para conferir com a lista oficial.",
             "Compare os arquivos salvos e o CSV com a lista oficial. Volte à fonte para conferir retificações ou respostas antes de preparar a candidatura. Salvar documentos não preenche, assina nem envia uma inscrição."
           ],
           "faq": [
@@ -5290,12 +5390,12 @@
               "a": "Não. Volte à fonte e escaneie novamente de forma manual. Mantenha notas de revisão e compare os originais; não presuma que a cópia salva seja a mais recente."
             },
             {
-              "q": "Posso usar grátis?",
-              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos vinculados diretamente são salvos até 10 por execução, e “Salvar os próximos 10” na tela de resultado salva o restante. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+              "q": "Posso usar de graça?",
+              "a": "Sim. A versão gratuita salva até 10 arquivos selecionados por download, ZIP ou CSV de informações de arquivos. Para continuar, selecione os próximos arquivos e clique de novo — nada fica bloqueado. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por ação."
             },
             {
-              "q": "O que contém o CSV de informações?",
-              "a": "URLs, nomes, títulos, tipos, confiança e evidências de detecção, tamanho, data e página de origem quando conhecidos. Campos desconhecidos podem ficar vazios; não extrai tabelas do documento."
+              "q": "O portal exige login para mostrar os documentos. Funciona assim mesmo?",
+              "a": "Sim, enquanto você estiver com login: a varredura usa a sessão do navegador e não coleta credenciais. Linhas com “Login necessário” indicam que a sessão terminou — faça login de novo e tente outra vez. Se o portal pede para aceitar termos antes do download, faça isso primeiro no site."
             }
           ],
           "industry": {
@@ -5326,7 +5426,7 @@
         },
         "zh_CN": {
           "title": "下载招标与申请文件 | Grab All Files",
-          "desc": "为一个招标或公开征集项目准备核对用资料集，包括公告、规格、表格及公开的问题或回答。",
+          "desc": "将一个招标或申报项目的公告、规格书、表格和答疑按原格式保存，按用途命名，并用文件信息CSV与官方清单核对。免费版每次下载最多10个文件。",
           "eyebrow": "招标与申请文件",
           "h1": "把同一项目的文件放在一起。",
           "lead": "为一个招标或公开征集项目准备核对用资料集，包括公告、规格、表格及公开的问题或回答。保留文档用途与修订信息，便于将保存的文件与官方列表对照。",
@@ -5336,9 +5436,9 @@
           ],
           "steps": [
             "打开一个项目的官方页面。找到公告、规格、表格及单独发布的补充说明或修订链接。",
-            "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
+            "打开Grab All Files并扫描项目页面。按公布的格式（PDF、Word、Excel、ZIP）筛选，勾选公告、规格书、表格及答疑文件。",
             "核对项目名称、版本、截止日期与所需文件列表。保留表格支持的原始格式，按文档用途命名文件。",
-            "检查或编辑标题，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "按用途为每个文件命名（公告、规格书、表格、答疑），并在“其他操作”中将“整理”设为“按类型”，让可编辑表格单独存放。按项目保存ZIP（免费版每次下载最多10个），并用“导出文件信息CSV”与官方清单核对。",
             "将已保存文件和CSV与官方列表核对。准备申请前，回到来源检查修订或回答。保存文档不会填写、签署或提交申请。"
           ],
           "faq": [
@@ -5356,11 +5456,11 @@
             },
             {
               "q": "可以免费使用吗？",
-              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+              "a": "可以。免费版的下载、ZIP和文件信息CSV每次操作最多处理10个选中的文件。要继续，请选择接下来的文件并再次点击按钮，不会被锁定。Pro（$19.99，一次性购买，最多3台设备）没有每次操作的上限。"
             },
             {
-              "q": "文件信息CSV包含什么？",
-              "a": "URL、文件名、标题、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+              "q": "门户网站需要登录才能看到文件，还能用吗？",
+              "a": "只要处于登录状态就能用。扫描使用浏览器的登录会话，不收集凭据。标有“需要登录”的行表示会话已结束，请重新登录后重试。如果门户要求下载前同意条款，请先在网站上完成。"
             }
           ],
           "industry": {
@@ -5391,7 +5491,7 @@
         },
         "zh_TW": {
           "title": "下載招標與申請文件 | Grab All Files",
-          "desc": "為一個招標或公開徵選案件準備核對用資料集，包含公告、規格、表格及公開的問題或回答。",
+          "desc": "將一個招標或申請案件的公告、規格書、表單和問答依原格式儲存，依用途命名，並用檔案資訊CSV與官方清單核對。免費版每次下載最多10個檔案。",
           "eyebrow": "招標與申請文件",
           "h1": "把同一案件的文件放在一起。",
           "lead": "為一個招標或公開徵選案件準備核對用資料集，包含公告、規格、表格及公開的問題或回答。保留文件用途與修訂資訊，便於將儲存的檔案與官方清單對照。",
@@ -5401,9 +5501,9 @@
           ],
           "steps": [
             "開啟一個案件的官方頁面。找到公告、規格、表格及單獨發布的補充說明或修訂連結。",
-            "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
+            "開啟Grab All Files並掃描案件頁面。依公布的格式（PDF、Word、Excel、ZIP）篩選，勾選公告、規格書、表單及問答檔案。",
             "核對案件名稱、版本、截止日期與所需文件清單。保留表格支援的原始格式，依文件用途命名檔案。",
-            "檢查或編輯標題，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "依用途為每個檔案命名（公告、規格書、表單、問答），並在「其他操作」中將「整理」設為「依類型」，讓可編輯表單分開存放。依案件儲存ZIP（免費版每次下載最多10個），並用「匯出檔案資訊CSV」與官方清單核對。",
             "將已儲存檔案和CSV與官方清單核對。準備申請前，回到來源檢查修訂或回答。儲存文件不會填寫、簽署或提交申請。"
           ],
           "faq": [
@@ -5421,11 +5521,11 @@
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的10個」繼續儲存。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+              "a": "可以。免費版的下載、ZIP和檔案資訊CSV每次操作最多處理10個選取的檔案。若要繼續，請選取接下來的檔案並再次點擊按鈕，不會被鎖定。Pro（$19.99，一次購買，最多3台裝置）沒有每次操作的上限。"
             },
             {
-              "q": "檔案資訊CSV包含什麼？",
-              "a": "URL、檔名、標題、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+              "q": "入口網站需要登入才能看到文件，還能用嗎？",
+              "a": "只要處於登入狀態就能用。掃描使用瀏覽器的登入工作階段，不收集憑證。標示「需要登入」的列表示工作階段已結束，請重新登入後重試。若入口網站要求下載前同意條款，請先在網站上完成。"
             }
           ],
           "industry": {
@@ -5466,25 +5566,25 @@
       "copy": {
         "en": {
           "title": "Export file links to CSV for Excel | Grab All Files",
-          "desc": "Export a reusable inventory of selected files: URL, filename, title, type and available metadata.",
+          "desc": "Export a reusable inventory of selected files (URL, filename, title, type, size, date and source page) as a CSV for Excel. Free exports 10 rows at a time.",
           "eyebrow": "File links to CSV",
           "h1": "Turn selected file links into a list.",
           "lead": "Export a reusable inventory of selected files: URL, filename, title, type and available metadata. Import the CSV into Excel to filter, check and share a document list without treating it as the contents of the documents themselves.",
           "best": [
             "Maintaining an inventory of a selected document set.",
-            "Checking source URLs or comparing filenames and available metadata in Excel."
+            "Checking source URLs or comparing filenames and available metadata in Excel.",
+            "Handing a reviewed file list to a colleague before anyone downloads the files."
           ],
           "steps": [
-            "Open a source page and scan it. Decide which files should be rows in your inventory rather than exporting an unexplained list.",
-            "Open Grab All Files, scan the chosen page, and filter the file types you need. Review the source links and select the relevant files.",
-            "Select the required files and review titles and source pages. Use “Export File Info CSV”; Free exports up to 10 selected rows per operation, so split larger lists into batches.",
-            "Selected file URLs, filenames, titles, types, detection confidence/evidence and available size, modification date and source page. Unknown metadata can be blank. It is not a table extracted from the document body.",
-            "Import the CSV through Excel’s text/CSV import and review columns and encoding. Keep URLs and identifiers as text where needed, retain blank unknown fields, and check rows against the selected files."
+            "Open the page that lists the files, click the Grab All Files icon and press “Scan”. Raise “Depth” to include linked pages inside the starting page’s folder.",
+            "Filter to the file types you need and tick the rows that belong in your inventory (Free: up to 10 rows per export).",
+            "Open “More actions” and press “Export File Info CSV”. For a longer list, tick the next rows and export again.",
+            "In Excel, use Data → From Text/CSV, choose UTF-8 and set URL and ID columns to Text. Check the rows against the selected files."
           ],
           "faq": [
             {
               "q": "Is this the same as exporting a web table?",
-              "a": "No. This CSV is a file inventory. The separate web-table workflow extracts supported HTML tables through the Collector’s AI output."
+              "a": "No. This CSV is a file inventory. To turn the HTML tables on a page into CSV, use “Combine pages into HTML” with the AI analysis data; supported tables are saved as CSV files."
             },
             {
               "q": "Which columns are exported?",
@@ -5492,11 +5592,15 @@
             },
             {
               "q": "Does it include every file on the site?",
-              "a": "No. CSV exports the selected detected items, subject to the per-operation plan cap. Review coverage and use additional scoped scans if needed."
+              "a": "No. It exports the detected rows you select — up to 10 per export on Free, no cap on Pro. Check coverage and scan another page or Depth if needed."
             },
             {
               "q": "Can I use this for free?",
-              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+              "a": "Yes. Free exports up to 10 selected rows per CSV and saves up to 10 files per download. For a longer inventory, tick the next rows and press “Export File Info CSV” again — nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-action cap."
+            },
+            {
+              "q": "Is the file list uploaded anywhere?",
+              "a": "No. The CSV is created in your browser and saved straight to your device; the list is not sent to Grab All Files servers."
             }
           ],
           "industry": {
@@ -5527,25 +5631,25 @@
         },
         "ja": {
           "title": "ファイルのリンク一覧をCSVでExcelへ | Grab All Files",
-          "desc": "選択した資料のURL、ファイル名、題名、種類、取得できた情報を一覧にします。",
+          "desc": "選択したファイルのURL・ファイル名・タイトル・種類・サイズ・更新日・リンク元をCSVに書き出し、Excelで確認。無料版は1回10行まで出力できます。",
           "eyebrow": "資料リンクをCSV一覧に",
           "h1": "資料のリンク一覧をCSVに。",
-          "lead": "選択した資料のURL、ファイル名、題名、種類、取得できた情報を一覧にします。CSVをExcelへ取り込み、資料の中身と区別しながらリンクやファイル情報を確認・共有できます。",
+          "lead": "選択した資料のURL、ファイル名、タイトル、種類、取得できた情報を一覧にします。CSVをExcelへ取り込み、資料の中身と区別しながらリンクやファイル情報を確認・共有できます。",
           "best": [
             "選んだ資料セットの一覧表を管理する。",
-            "Excelで元URLやファイル名、取得できた情報を確認する。"
+            "Excelで元URLやファイル名、取得できた情報を確認する。",
+            "ダウンロードする前に、確認済みのファイル一覧を同僚と共有する。"
           ],
           "steps": [
-            "元の配布ページを開いてスキャンします。何の資料一覧を作るのか決め、一覧に含めるファイルを確認します。",
-            "Grab All Filesを開き、対象ページをスキャンします。必要な種類で絞り込み、元リンクを確認して資料を選択します。",
-            "必要なファイルを選択して題名・リンク元を確認し、「ファイル情報CSV出力」を使います。無料版は1操作10行までのため、多い一覧は分けて出力します。",
-            "選択したファイルのURL、ファイル名、題名、種類、検出の確度・根拠と、取得できたサイズ・更新日・リンク元ページを記録します。不明な情報は空になる場合があり、資料本文の表を抽出したCSVではありません。",
-            "Excelのテキスト／CSV取り込みで列や文字コードを確認します。URL・識別子は必要に応じて文字列として扱い、不明欄を勝手に補わず選択した資料と行を照合します。"
+            "ファイルが並ぶページを開き、Grab All Filesアイコンを押して「スキャン」を押します。リンク先も含めるときは「深さ」を上げます（起点ページのフォルダ配下が対象）。",
+            "必要なファイル種類に絞り込み、一覧に入れたい行にチェックを入れます（無料版は1回10行まで）。",
+            "「その他の操作」を開いて「ファイル情報CSV出力」を押します。件数が多いときは次の行を選んでもう一度出力します。",
+            "Excelでは「データ」→「テキストまたはCSVから」でUTF-8を選び、URLやIDの列は文字列に設定します。選んだファイルと行を照合します。"
           ],
           "faq": [
             {
               "q": "Webページの表をCSVにする機能と同じですか？",
-              "a": "これはファイルの一覧CSVです。Web表の手順は、ページ収集のAI出力で対応するHTML表を抽出する別の用途です。"
+              "a": "いいえ。これはファイルの一覧CSVです。Webページ内の表をCSVにするには「ページをHTMLにまとめる」のAI分析用データを使います。対応する表がCSVファイルとして保存されます。"
             },
             {
               "q": "どの列を出力しますか？",
@@ -5553,11 +5657,15 @@
             },
             {
               "q": "サイトの全ファイルを自動で一覧にしますか？",
-              "a": "検出結果から選択した項目を、プランの1操作上限内で出力します。対象範囲を確認し、必要なら範囲を決めた追加スキャンを行います。"
+              "a": "いいえ。検出結果から選択した行だけを書き出します。無料版は1回10行まで、Proは上限なしです。対象範囲を確認し、必要なら別のページや深さで追加スキャンしてください。"
             },
             {
               "q": "無料で使えますか？",
-              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+              "a": "はい。無料版はファイル情報CSVを1回10行まで、ダウンロードを1回10件まで行えます。それ以上は次の行を選んで「ファイル情報CSV出力」をもう一度押してください。ロックはかかりません。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。"
+            },
+            {
+              "q": "ファイル一覧はどこかにアップロードされますか？",
+              "a": "いいえ。CSVはブラウザ内で作成され、そのまま端末に保存されます。一覧がGrab All Filesのサーバーへ送られることはありません。"
             }
           ],
           "industry": {
@@ -5587,38 +5695,42 @@
           }
         },
         "es": {
-          "title": "Enlaces de archivos a CSV | Grab All Files",
-          "desc": "Exporta URL, nombres, títulos, tipos y metadatos disponibles de los archivos seleccionados.",
+          "title": "Exportar enlaces de archivos a CSV para Excel | Grab All Files",
+          "desc": "Exporta un inventario de los archivos elegidos (URL, nombre, título, tipo, tamaño, fecha y página de origen) en CSV para Excel. Gratis: 10 filas por vez.",
           "eyebrow": "Enlaces de archivos a CSV",
-          "h1": "Crea una lista de enlaces en CSV.",
-          "lead": "Exporta URL, nombres, títulos, tipos y metadatos disponibles de los archivos seleccionados. Importa en Excel para revisar el inventario, no el contenido de los documentos.",
+          "h1": "Convierte los enlaces de archivos elegidos en una lista.",
+          "lead": "Exporta un inventario reutilizable de los archivos seleccionados: URL, nombre de archivo, título, tipo y los metadatos disponibles. Importa el CSV en Excel para filtrar, revisar y compartir una lista de documentos, sin confundirla con el contenido de los propios documentos.",
           "best": [
-            "Inventario de un conjunto elegido.",
-            "Comprobar URL y nombres en Excel."
+            "Mantener un inventario de un conjunto de documentos elegido.",
+            "Comprobar URL de origen o comparar nombres de archivo y metadatos disponibles en Excel.",
+            "Pasar a un compañero una lista de archivos revisada antes de que nadie los descargue."
           ],
           "steps": [
-            "Escanea una página y decide qué archivos deben formar el inventario.",
-            "Abre Grab All Files, escanea la página elegida, filtra los formatos y revisa los enlaces antes de seleccionar los archivos.",
-            "Selecciona filas y usa el CSV de información de archivos; Free permite 10 por operación y puedes repetir.",
-            "URL, nombres, títulos, tipos, confianza y evidencia de detección, y tamaño, fecha y página origen cuando se conocen. Los campos desconocidos pueden quedar vacíos; no extrae tablas del documento.",
-            "Importa desde texto/CSV en Excel, comprueba columnas y codificación, y conserva los campos desconocidos vacíos."
+            "Abre la página que enumera los archivos, haz clic en el icono de Grab All Files y pulsa «Escanear». Sube la «Profundidad» para incluir páginas enlazadas dentro de la carpeta de la página de partida.",
+            "Filtra por los tipos de archivo que necesitas y marca las filas que deben entrar en tu inventario (gratis: hasta 10 filas por exportación).",
+            "Abre «Más acciones» y pulsa «Exportar info de archivos en CSV». Si la lista es larga, marca las filas siguientes y vuelve a exportar.",
+            "En Excel, usa Datos → Desde el texto/CSV, elige UTF-8 y define las columnas de URL e identificadores como texto. Comprueba las filas con los archivos seleccionados."
           ],
           "faq": [
             {
-              "q": "¿Es el CSV de una tabla web?",
-              "a": "No. Las tablas HTML se extraen en otro flujo del Collector."
+              "q": "¿Es lo mismo que exportar una tabla web?",
+              "a": "No. Este CSV es un inventario de archivos. Para convertir las tablas HTML de una página en CSV, usa «Combinar páginas en HTML» con los datos para análisis con IA: las tablas compatibles se guardan como archivos CSV."
             },
             {
-              "q": "¿Qué columnas incluye?",
-              "a": "URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified y Source page; lo desconocido puede quedar vacío."
+              "q": "¿Qué columnas se exportan?",
+              "a": "Los encabezados fijos son URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified y Source page. El tamaño, la fecha o el origen desconocidos pueden quedar vacíos."
             },
             {
-              "q": "¿Lista todo el sitio?",
-              "a": "Solo elementos detectados y seleccionados dentro del límite por operación. Comprueba el alcance."
+              "q": "¿Incluye todos los archivos del sitio?",
+              "a": "No. Exporta las filas detectadas que selecciones: hasta 10 por exportación en la versión gratuita y sin límite en Pro. Revisa la cobertura y haz otro escaneo con otra página o profundidad si hace falta."
             },
             {
               "q": "¿Puedo usarlo gratis?",
-              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+              "a": "Sí. La versión gratuita exporta hasta 10 filas seleccionadas por CSV y guarda hasta 10 archivos por descarga. Para un inventario más largo, marca las filas siguientes y vuelve a pulsar «Exportar info de archivos en CSV»; no se bloquea nada. Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por acción."
+            },
+            {
+              "q": "¿Se sube la lista de archivos a algún sitio?",
+              "a": "No. El CSV se crea en tu navegador y se guarda directamente en tu dispositivo; la lista no se envía a los servidores de Grab All Files."
             }
           ],
           "industry": {
@@ -5648,38 +5760,42 @@
           }
         },
         "fr": {
-          "title": "Liens de fichiers en CSV | Grab All Files",
-          "desc": "Exportez URL, noms, titres, types et métadonnées disponibles des fichiers choisis.",
+          "title": "Exporter les liens de fichiers en CSV pour Excel | Grab All Files",
+          "desc": "Exportez l’inventaire des fichiers choisis (URL, nom, titre, type, taille, date, page source) dans un CSV pour Excel. Gratuit : 10 lignes par export.",
           "eyebrow": "Liens de fichiers en CSV",
-          "h1": "Créez un inventaire CSV de liens.",
-          "lead": "Exportez URL, noms, titres, types et métadonnées disponibles des fichiers choisis. Importez dans Excel pour vérifier l’inventaire, pas le contenu des documents.",
+          "h1": "Transformez les liens de fichiers choisis en liste.",
+          "lead": "Exportez un inventaire réutilisable des fichiers sélectionnés : URL, nom de fichier, titre, type et métadonnées disponibles. Importez le CSV dans Excel pour filtrer, vérifier et partager une liste de documents, sans la confondre avec le contenu des documents eux-mêmes.",
           "best": [
-            "Inventorier un ensemble choisi.",
-            "Vérifier URL et noms dans Excel."
+            "Tenir l’inventaire d’un ensemble de documents choisi.",
+            "Vérifier les URL sources ou comparer noms de fichiers et métadonnées disponibles dans Excel.",
+            "Transmettre à un collègue une liste de fichiers vérifiée avant tout téléchargement."
           ],
           "steps": [
-            "Analysez une page et choisissez les fichiers de l’inventaire.",
-            "Ouvrez Grab All Files, analysez la page choisie, filtrez les formats et vérifiez les liens avant de sélectionner les fichiers.",
-            "Sélectionnez les lignes et exportez les informations CSV ; Free permet 10 lignes par opération renouvelable.",
-            "URL, noms, titres, types, confiance et preuves de détection, taille, date et page source si connues. Les champs inconnus peuvent rester vides ; ce ne sont pas les tableaux du document.",
-            "Importez comme texte/CSV dans Excel, vérifiez colonnes et encodage et gardez les champs inconnus vides."
+            "Ouvrez la page qui liste les fichiers, cliquez sur l’icône Grab All Files puis sur « Scanner ». Augmentez la « Profondeur » pour inclure les pages liées du dossier de la page de départ.",
+            "Filtrez sur les types de fichiers utiles et cochez les lignes à faire figurer dans l’inventaire (version gratuite : 10 lignes par export).",
+            "Ouvrez « Autres actions » et cliquez sur « Exporter les infos fichiers en CSV ». Pour une longue liste, cochez les lignes suivantes et exportez à nouveau.",
+            "Dans Excel, utilisez Données → À partir d’un fichier texte/CSV, choisissez UTF-8 et définissez les colonnes d’URL et d’identifiants en texte. Contrôlez les lignes par rapport aux fichiers sélectionnés."
           ],
           "faq": [
             {
-              "q": "Est-ce un tableau web exporté ?",
-              "a": "Non. Les tableaux HTML passent par un autre flux du Collector."
+              "q": "Est-ce la même chose qu’exporter un tableau web ?",
+              "a": "Non. Ce CSV est un inventaire de fichiers. Pour convertir en CSV les tableaux HTML d’une page, utilisez « Regrouper les pages en HTML » avec les données pour analyse par IA : les tableaux pris en charge sont enregistrés en fichiers CSV."
             },
             {
-              "q": "Quelles colonnes ?",
-              "a": "URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified et Source page ; données inconnues éventuellement vides."
+              "q": "Quelles colonnes sont exportées ?",
+              "a": "Les en-têtes fixes sont URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified et Source page. Une taille, une date ou une source inconnue peut rester vide."
             },
             {
-              "q": "Tout le site est-il listé ?",
-              "a": "Seulement les éléments trouvés et choisis, dans la limite par opération. Vérifiez le périmètre."
+              "q": "Inclut-il tous les fichiers du site ?",
+              "a": "Non. Il exporte les lignes détectées que vous sélectionnez : 10 par export en version gratuite, sans limite avec Pro. Vérifiez la couverture et relancez une analyse avec une autre page ou profondeur si nécessaire."
             },
             {
-              "q": "Puis-je l’utiliser gratuitement ?",
-              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; les fichiers directement liés sont enregistrés jusqu’à 10 par opération, et « Enregistrer les 10 suivants » sur l’écran de résultat enregistre le reste. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+              "q": "Puis-je l’utiliser gratuitement ?",
+              "a": "Oui. La version gratuite exporte jusqu’à 10 lignes sélectionnées par CSV et enregistre jusqu’à 10 fichiers par téléchargement. Pour un inventaire plus long, cochez les lignes suivantes et cliquez à nouveau sur « Exporter les infos fichiers en CSV » : rien n’est bloqué. Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par action."
+            },
+            {
+              "q": "La liste de fichiers est-elle envoyée quelque part ?",
+              "a": "Non. Le CSV est créé dans votre navigateur et enregistré directement sur votre appareil ; la liste n’est pas envoyée aux serveurs de Grab All Files."
             }
           ],
           "industry": {
@@ -5709,38 +5825,42 @@
           }
         },
         "de": {
-          "title": "Dateilinks als CSV | Grab All Files",
-          "desc": "Exportieren Sie URLs, Namen, Titel, Typen und verfügbare Metadaten gewählter Dateien.",
+          "title": "Dateilinks als CSV für Excel exportieren | Grab All Files",
+          "desc": "Ein Inventar ausgewählter Dateien (URL, Name, Titel, Typ, Größe, Datum, Quellseite) als CSV für Excel exportieren. Kostenlos: 10 Zeilen pro Export.",
           "eyebrow": "Dateilinks als CSV",
-          "h1": "Eine CSV-Liste der Dateien.",
-          "lead": "Exportieren Sie URLs, Namen, Titel, Typen und verfügbare Metadaten gewählter Dateien. Importieren Sie die Liste in Excel; sie enthält nicht die Dokumentinhalte.",
+          "h1": "Ausgewählte Dateilinks als Liste ausgeben.",
+          "lead": "Exportieren Sie ein wiederverwendbares Inventar der ausgewählten Dateien: URL, Dateiname, Titel, Typ und verfügbare Metadaten. Importieren Sie die CSV in Excel, um eine Dokumentliste zu filtern, zu prüfen und weiterzugeben – sie ersetzt nicht den Inhalt der Dokumente selbst.",
           "best": [
-            "Ein ausgewähltes Dateiinventar.",
-            "URLs und Namen in Excel prüfen."
+            "Ein Inventar eines ausgewählten Dokumentbestands pflegen.",
+            "Quell-URLs prüfen oder Dateinamen und verfügbare Metadaten in Excel vergleichen.",
+            "Kolleginnen und Kollegen eine geprüfte Dateiliste geben, bevor jemand herunterlädt."
           ],
           "steps": [
-            "Scannen Sie eine Seite und bestimmen Sie die Dateien für Ihr Inventar.",
-            "Öffnen Sie Grab All Files, scannen Sie die gewählte Seite, filtern Sie die Formate und prüfen Sie die Links vor der Auswahl.",
-            "Wählen Sie Zeilen und exportieren Sie Dateiinfo-CSV; Free erlaubt 10 je wiederholbarem Vorgang.",
-            "URLs, Namen, Titel, Typen, Erkennungsbewertung und -hinweise sowie bekannte Größe, Änderungsdatum und Quellseite. Unbekannte Felder können leer sein; Dokumenttabellen werden nicht extrahiert.",
-            "Importieren Sie Text/CSV in Excel, prüfen Sie Spalten und Codierung und behalten Sie unbekannte Felder leer."
+            "Öffnen Sie die Seite mit den Dateien, klicken Sie auf das Grab-All-Files-Symbol und dann auf „Scannen“. Erhöhen Sie die „Tiefe“, um verlinkte Seiten im Ordner der Ausgangsseite einzubeziehen.",
+            "Filtern Sie auf die benötigten Dateitypen und haken Sie die Zeilen an, die ins Inventar gehören (kostenlos: bis zu 10 Zeilen pro Export).",
+            "Öffnen Sie „Weitere Aktionen“ und klicken Sie auf „Dateiinfo als CSV exportieren“. Bei langen Listen haken Sie die nächsten Zeilen an und exportieren erneut.",
+            "Nutzen Sie in Excel Daten → Aus Text/CSV, wählen Sie UTF-8 und setzen Sie URL- und ID-Spalten auf Text. Gleichen Sie die Zeilen mit den ausgewählten Dateien ab."
           ],
           "faq": [
             {
-              "q": "Ist dies eine exportierte Webtabelle?",
-              "a": "Nein. HTML-Tabellen verwenden einen anderen Collector-Ablauf."
+              "q": "Ist das dasselbe wie der Export einer Webtabelle?",
+              "a": "Nein. Diese CSV ist ein Dateiinventar. Um HTML-Tabellen einer Seite in CSV umzuwandeln, nutzen Sie „Seiten als HTML bündeln“ mit den KI-Analysedaten: Unterstützte Tabellen werden als CSV-Dateien gespeichert."
             },
             {
-              "q": "Welche Spalten gibt es?",
-              "a": "URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified und Source page; unbekannte Angaben können leer sein."
+              "q": "Welche Spalten werden exportiert?",
+              "a": "Die festen Spaltenköpfe sind URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified und Source page. Unbekannte Größe, Datum oder Herkunft können leer bleiben."
             },
             {
-              "q": "Wird die ganze Website gelistet?",
-              "a": "Nur gefundene gewählte Einträge im Aktionslimit. Prüfen Sie den Umfang."
+              "q": "Enthält sie jede Datei der Website?",
+              "a": "Nein. Exportiert werden die erkannten Zeilen, die Sie auswählen – kostenlos bis zu 10 pro Export, mit Pro ohne Limit. Prüfen Sie die Abdeckung und scannen Sie bei Bedarf eine weitere Seite oder mit anderer Tiefe."
             },
             {
-              "q": "Ist dies kostenlos nutzbar?",
-              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert; „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+              "q": "Kann ich das kostenlos nutzen?",
+              "a": "Ja. Die kostenlose Version exportiert bis zu 10 ausgewählte Zeilen pro CSV und speichert bis zu 10 Dateien pro Download. Für ein längeres Inventar haken Sie die nächsten Zeilen an und klicken erneut auf „Dateiinfo als CSV exportieren“ – gesperrt wird nichts. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Aktion auf."
+            },
+            {
+              "q": "Wird die Dateiliste irgendwohin hochgeladen?",
+              "a": "Nein. Die CSV entsteht in Ihrem Browser und wird direkt auf Ihrem Gerät gespeichert; die Liste wird nicht an Server von Grab All Files gesendet."
             }
           ],
           "industry": {
@@ -5770,38 +5890,42 @@
           }
         },
         "it": {
-          "title": "Link ai file in CSV | Grab All Files",
-          "desc": "Esporta URL, nomi, titoli, tipi e metadati disponibili dei file scelti.",
+          "title": "Esportare i link dei file in CSV per Excel | Grab All Files",
+          "desc": "Esporta l’inventario dei file scelti (URL, nome, titolo, tipo, dimensione, data e pagina di origine) in un CSV per Excel. Gratis: 10 righe per volta.",
           "eyebrow": "Link ai file in CSV",
-          "h1": "Una lista CSV dei documenti.",
-          "lead": "Esporta URL, nomi, titoli, tipi e metadati disponibili dei file scelti. Importa l’inventario in Excel, distinguendolo dal contenuto dei documenti.",
+          "h1": "Trasforma i link dei file scelti in un elenco.",
+          "lead": "Esporta un inventario riutilizzabile dei file selezionati: URL, nome file, titolo, tipo e metadati disponibili. Importa il CSV in Excel per filtrare, controllare e condividere un elenco di documenti, senza confonderlo con il contenuto dei documenti stessi.",
           "best": [
-            "Inventario di una raccolta scelta.",
-            "Controllare URL e nomi in Excel."
+            "Tenere l’inventario di un insieme di documenti scelto.",
+            "Controllare gli URL di origine o confrontare nomi file e metadati disponibili in Excel.",
+            "Passare a un collega un elenco di file verificato prima che qualcuno li scarichi."
           ],
           "steps": [
-            "Scansiona una pagina e decidi quali file includere nell’inventario.",
-            "Apri Grab All Files, scansiona la pagina scelta, filtra i formati e verifica i link prima di selezionare i file.",
-            "Seleziona righe ed esporta le informazioni CSV; Free consente 10 righe per operazione ripetibile.",
-            "URL, nomi, titoli, tipi, confidenza e prove del rilevamento, dimensione, data e pagina origine se note. I campi ignoti possono essere vuoti; non estrae tabelle dai documenti.",
-            "Importa testo/CSV in Excel, verifica colonne e codifica e mantieni vuoti i campi sconosciuti."
+            "Apri la pagina che elenca i file, fai clic sull’icona di Grab All Files e poi su «Scansiona». Aumenta la «Profondità» per includere le pagine collegate nella cartella della pagina di partenza.",
+            "Filtra per i tipi di file che ti servono e seleziona le righe da inserire nell’inventario (gratis: fino a 10 righe per esportazione).",
+            "Apri «Altre azioni» e fai clic su «Esporta info file in CSV». Per un elenco lungo, seleziona le righe successive ed esporta di nuovo.",
+            "In Excel usa Dati → Da testo/CSV, scegli UTF-8 e imposta come testo le colonne di URL e identificativi. Confronta le righe con i file selezionati."
           ],
           "faq": [
             {
-              "q": "È l’esportazione di una tabella web?",
-              "a": "No. Le tabelle HTML usano un altro flusso del Collector."
+              "q": "È lo stesso che esportare una tabella web?",
+              "a": "No. Questo CSV è un inventario di file. Per trasformare in CSV le tabelle HTML di una pagina usa «Unisci pagine in HTML» con i dati per l’analisi con IA: le tabelle supportate vengono salvate come file CSV."
             },
             {
-              "q": "Quali colonne contiene?",
-              "a": "URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified e Source page; le informazioni ignote possono essere vuote."
+              "q": "Quali colonne vengono esportate?",
+              "a": "Le intestazioni fisse sono URL, Filename, Title, Type, Confidence, Evidence, Size, Size (bytes), Modified e Source page. Dimensione, data o origine sconosciute possono restare vuote."
             },
             {
-              "q": "Elenca l’intero sito?",
-              "a": "Solo elementi trovati e selezionati entro il limite per operazione. Controlla l’ambito."
+              "q": "Include tutti i file del sito?",
+              "a": "No. Esporta le righe rilevate che selezioni: fino a 10 per esportazione nella versione gratuita, senza limite con Pro. Controlla la copertura e ripeti la scansione con un’altra pagina o profondità se serve."
             },
             {
               "q": "Posso usarlo gratis?",
-              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati fino a 10 per esecuzione e «Salva i prossimi 10» nella schermata dei risultati salva il resto. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+              "a": "Sì. La versione gratuita esporta fino a 10 righe selezionate per CSV e salva fino a 10 file per download. Per un inventario più lungo, seleziona le righe successive e premi di nuovo «Esporta info file in CSV»: non viene bloccato nulla. Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per azione."
+            },
+            {
+              "q": "L’elenco dei file viene caricato da qualche parte?",
+              "a": "No. Il CSV viene creato nel browser e salvato direttamente sul tuo dispositivo; l’elenco non viene inviato ai server di Grab All Files."
             }
           ],
           "industry": {
@@ -5832,25 +5956,25 @@
         },
         "ko": {
           "title": "파일 링크를 Excel용 CSV로 내보내기 | Grab All Files",
-          "desc": "선택한 파일의 URL, 파일명, 제목, 종류와 확인 가능한 메타데이터를 재사용 가능한 목록으로 내보냅니다.",
+          "desc": "선택한 파일의 URL, 파일명, 제목, 유형, 크기, 날짜, 링크 원본 페이지를 Excel용 CSV로 내보냅니다. 무료 버전은 한 번에 10행까지 내보냅니다.",
           "eyebrow": "파일 링크를 CSV로",
           "h1": "선택한 파일 링크를 목록으로 만드세요.",
           "lead": "선택한 파일의 URL, 파일명, 제목, 종류와 확인 가능한 메타데이터를 재사용 가능한 목록으로 내보냅니다. CSV를 Excel로 가져와 문서 본문의 내용과 구분하면서 자료 목록을 필터링·확인·공유할 수 있습니다.",
           "best": [
             "선택한 문서 세트의 목록을 관리하기.",
-            "Excel에서 출처 URL을 확인하거나 파일명과 확인 가능한 메타데이터를 비교하기."
+            "Excel에서 출처 URL을 확인하거나 파일명과 확인 가능한 메타데이터를 비교하기.",
+            "다운로드하기 전에 검토한 파일 목록을 동료에게 전달하기."
           ],
           "steps": [
-            "출처 페이지를 열고 스캔합니다. 용도가 불분명한 목록을 내보내기보다 어떤 파일을 목록의 행으로 포함할지 정합니다.",
-            "Grab All Files를 열고 대상 페이지를 스캔합니다. 필요한 형식을 필터링하고 원본 링크를 확인해 파일을 선택합니다.",
-            "필요한 파일을 선택하고 제목과 출처 페이지를 확인합니다. ‘파일 정보 CSV 내보내기’를 사용하세요. 무료 버전은 실행당 선택한 행을 최대 10개 내보내므로 큰 목록은 나누어 출력합니다.",
-            "URL, 파일명, 제목, 종류, 감지 신뢰도·근거와 확인 가능한 크기·수정일·원본 페이지입니다. 미확인 정보는 비어 있을 수 있으며 문서 본문 표를 추출한 CSV가 아닙니다.",
-            "Excel의 텍스트/CSV 가져오기로 열과 인코딩을 확인합니다. 필요하면 URL과 식별자를 텍스트로 처리하고, 알 수 없는 정보의 빈칸은 유지하며 행을 선택한 파일과 대조합니다."
+            "파일 목록이 있는 페이지를 열고 Grab All Files 아이콘을 누른 뒤 “스캔”을 누릅니다. 링크된 페이지까지 포함하려면 “깊이”를 올립니다(시작 페이지 폴더 안).",
+            "필요한 파일 유형으로 필터링하고 목록에 넣을 행을 체크합니다(무료: 내보내기당 10행).",
+            "“기타 작업”을 열고 “파일 정보 CSV 내보내기”를 누릅니다. 목록이 길면 다음 행을 체크해 다시 내보냅니다.",
+            "Excel에서 데이터 → 텍스트/CSV에서를 선택하고 UTF-8을 고른 뒤 URL과 ID 열은 텍스트로 지정합니다. 선택한 파일과 행을 대조하세요."
           ],
           "faq": [
             {
               "q": "웹 표를 내보내는 기능과 같은가요?",
-              "a": "아닙니다. 이 CSV는 파일 목록입니다. 별도의 웹 표 작업 흐름은 Collector의 AI 출력을 통해 지원되는 HTML 표를 추출합니다."
+              "a": "아닙니다. 이 CSV는 파일 목록입니다. 페이지 안의 HTML 표를 CSV로 만들려면 “페이지를 HTML로 합치기”의 AI 분석용 데이터를 사용하세요. 지원되는 표가 CSV 파일로 저장됩니다."
             },
             {
               "q": "어떤 열을 내보내나요?",
@@ -5858,11 +5982,15 @@
             },
             {
               "q": "사이트의 모든 파일을 포함하나요?",
-              "a": "아닙니다. 감지된 항목 중 선택한 것만 사용 중인 플랜의 실행당 한도에 따라 CSV로 내보냅니다. 포함 범위를 확인하고 필요하면 범위를 정해 추가 스캔하세요."
+              "a": "아닙니다. 감지된 행 중 선택한 것만 내보냅니다. 무료 버전은 내보내기당 10행, Pro는 제한이 없습니다. 포함 범위를 확인하고 필요하면 다른 페이지나 깊이로 다시 스캔하세요."
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 10건 저장’으로 나머지를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+              "a": "예. 무료 버전은 CSV 한 번에 선택한 행을 최대 10개, 다운로드 한 번에 파일을 최대 10개까지 처리합니다. 더 긴 목록은 다음 행을 체크하고 “파일 정보 CSV 내보내기”를 다시 누르면 되며 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
+            },
+            {
+              "q": "파일 목록이 어딘가에 업로드되나요?",
+              "a": "아니요. CSV는 브라우저 안에서 만들어져 기기에 바로 저장되며, 목록이 Grab All Files 서버로 전송되지 않습니다."
             }
           ],
           "industry": {
@@ -5899,19 +6027,19 @@
           "lead": "Exporte um inventário reutilizável dos arquivos selecionados: URL, nome, título, tipo e metadados disponíveis. Importe o CSV no Excel para filtrar, conferir e compartilhar a lista, sem confundi-la com o conteúdo dos documentos.",
           "best": [
             "Manter um inventário de um conjunto de documentos escolhido.",
-            "Conferir URLs de origem ou comparar nomes e metadados disponíveis no Excel."
+            "Conferir URLs de origem ou comparar nomes e metadados disponíveis no Excel.",
+            "Passar a um colega uma lista de arquivos revisada antes de qualquer download."
           ],
           "steps": [
-            "Abra uma página de origem e escaneie. Decida quais arquivos devem formar as linhas do inventário, em vez de exportar uma lista sem finalidade definida.",
-            "Abra Grab All Files, escaneie a página escolhida, filtre os formatos e confira os links antes de selecionar arquivos.",
-            "Selecione os arquivos necessários e confira títulos e páginas de origem. Use “Exportar info de arquivos em CSV”. O Free exporta até 10 linhas selecionadas por operação; divida listas maiores em lotes.",
-            "URLs, nomes, títulos, tipos, confiança e evidências de detecção, tamanho, data e página de origem quando conhecidos. Campos desconhecidos podem ficar vazios; não extrai tabelas do documento.",
-            "Importe o CSV pela opção de texto/CSV do Excel e confira colunas e codificação. Trate URLs e identificadores como texto quando necessário, mantenha vazios os campos desconhecidos e compare as linhas com os arquivos selecionados."
+            "Abra a página que lista os arquivos, clique no ícone do Grab All Files e em “Escanear”. Aumente a “Profundidade” para incluir páginas vinculadas dentro da pasta da página de partida.",
+            "Filtre pelos tipos de arquivo necessários e marque as linhas que devem entrar no inventário (grátis: até 10 linhas por exportação).",
+            "Abra “Mais ações” e clique em “Exportar info de arquivos em CSV”. Se a lista for longa, marque as próximas linhas e exporte de novo.",
+            "No Excel, use Dados → De Texto/CSV, escolha UTF-8 e defina as colunas de URL e identificadores como texto. Confira as linhas com os arquivos selecionados."
           ],
           "faq": [
             {
               "q": "É o mesmo que exportar uma tabela web?",
-              "a": "Não. Este CSV é um inventário de arquivos. O fluxo separado de tabelas web extrai tabelas HTML compatíveis por meio da saída para IA do Collector."
+              "a": "Não. Este CSV é um inventário de arquivos. Para transformar tabelas HTML de uma página em CSV, use “Juntar páginas em HTML” com os dados para análise com IA: as tabelas compatíveis são salvas como arquivos CSV."
             },
             {
               "q": "Quais colunas são exportadas?",
@@ -5919,11 +6047,15 @@
             },
             {
               "q": "Inclui todos os arquivos do site?",
-              "a": "Não. O CSV exporta os itens detectados e selecionados, dentro do limite por operação do plano. Confira a cobertura e faça escaneamentos adicionais com escopo definido se necessário."
+              "a": "Não. Exporta as linhas detectadas que você selecionar: até 10 por exportação na versão gratuita, sem limite no Pro. Confira a cobertura e faça outra varredura com outra página ou profundidade se necessário."
             },
             {
-              "q": "Posso usar grátis?",
-              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos vinculados diretamente são salvos até 10 por execução, e “Salvar os próximos 10” na tela de resultado salva o restante. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+              "q": "Posso usar de graça?",
+              "a": "Sim. A versão gratuita exporta até 10 linhas selecionadas por CSV e salva até 10 arquivos por download. Para um inventário maior, marque as próximas linhas e clique de novo em “Exportar info de arquivos em CSV” — nada fica bloqueado. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por ação."
+            },
+            {
+              "q": "A lista de arquivos é enviada para algum lugar?",
+              "a": "Não. O CSV é criado no seu navegador e salvo direto no seu dispositivo; a lista não é enviada aos servidores do Grab All Files."
             }
           ],
           "industry": {
@@ -5954,25 +6086,25 @@
         },
         "zh_CN": {
           "title": "将文件链接导出为Excel用CSV | Grab All Files",
-          "desc": "导出可复用的所选文件清单，包含URL、文件名、标题、类型及可获取的元数据。",
+          "desc": "将所选文件的URL、文件名、标题、类型、大小、日期和来源页面导出为Excel可用的CSV清单。免费版每次最多导出10行，全程在浏览器本地完成。",
           "eyebrow": "文件链接导出为CSV",
           "h1": "把所选文件链接整理成列表。",
           "lead": "导出可复用的所选文件清单，包含URL、文件名、标题、类型及可获取的元数据。将CSV导入Excel后筛选、核对并分享文档列表，同时与文档本身的内容区分。",
           "best": [
             "管理所选文档集的文件清单。",
-            "在Excel中核对来源URL，或比较文件名与可获取的元数据。"
+            "在Excel中核对来源URL，或比较文件名与可获取的元数据。",
+            "在任何人下载之前，把核对过的文件清单交给同事。"
           ],
           "steps": [
-            "打开来源页面并扫描。先决定哪些文件应成为清单中的行，避免导出用途不明的列表。",
-            "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
-            "选择所需文件，核对标题和来源页面，使用“导出文件信息CSV”。免费版每次最多导出10个选中行，较大的列表需分批导出。",
-            "URL、文件名、标题、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。",
-            "通过Excel的文本/CSV导入功能核对列和编码。按需要将URL和标识符作为文本处理，保留未知字段的空白，并将各行与所选文件对照。"
+            "打开列出文件的页面，点击Grab All Files图标后点击“扫描”。如需包含起始页面文件夹内链接到的页面，请提高“深度”。",
+            "筛选出需要的文件类型，勾选要放入清单的行（免费版每次导出最多10行）。",
+            "打开“其他操作”，点击“导出文件信息CSV”。行数较多时，勾选接下来的行再导出一次。",
+            "在Excel中使用“数据”→“从文本/CSV”，选择UTF-8，并将URL和编号列设为文本。将各行与所选文件核对。"
           ],
           "faq": [
             {
               "q": "这与导出网页表格是同一功能吗？",
-              "a": "不是。此CSV是文件清单。另一个网页表格流程通过Collector的AI输出，提取支持的HTML表格。"
+              "a": "不是。此CSV是文件清单。要把页面中的HTML表格转成CSV，请使用“将网页合并为 HTML”的AI分析数据，支持的表格会保存为CSV文件。"
             },
             {
               "q": "会导出哪些列？",
@@ -5980,11 +6112,15 @@
             },
             {
               "q": "会包含网站的每个文件吗？",
-              "a": "不会。CSV导出已检测并选中的项目，受所用方案的每次操作上限限制。请检查覆盖范围，必要时另行进行限定范围的扫描。"
+              "a": "不会。只导出您选中的已检测行：免费版每次最多10行，Pro没有上限。请检查覆盖范围，必要时换一个页面或深度再扫描。"
             },
             {
               "q": "可以免费使用吗？",
-              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+              "a": "可以。免费版每次CSV最多导出10个选中行，每次下载最多保存10个文件。清单较长时，勾选接下来的行并再次点击“导出文件信息CSV”即可，不会被锁定。Pro（$19.99，一次性购买，最多3台设备）没有每次操作的上限。"
+            },
+            {
+              "q": "文件清单会被上传到哪里吗？",
+              "a": "不会。CSV在浏览器中生成并直接保存到您的设备，清单不会发送到Grab All Files的服务器。"
             }
           ],
           "industry": {
@@ -6015,25 +6151,25 @@
         },
         "zh_TW": {
           "title": "將檔案連結匯出為Excel用CSV | Grab All Files",
-          "desc": "匯出可重用的所選檔案清單，包含URL、檔名、標題、類型與可取得的中繼資料。",
+          "desc": "將所選檔案的URL、檔名、標題、類型、大小、日期和來源頁面匯出為Excel可用的CSV清單。免費版每次最多匯出10列，全程在瀏覽器本機完成。",
           "eyebrow": "檔案連結匯出為CSV",
           "h1": "把選取的檔案連結整理成清單。",
           "lead": "匯出可重用的所選檔案清單，包含URL、檔名、標題、類型與可取得的中繼資料。將CSV匯入Excel後篩選、核對並分享文件清單，同時與文件本身的內容區分。",
           "best": [
             "管理所選文件集的檔案清單。",
-            "在Excel中核對來源URL，或比較檔名與可取得的中繼資料。"
+            "在Excel中核對來源URL，或比較檔名與可取得的中繼資料。",
+            "在任何人下載之前，把核對過的檔案清單交給同事。"
           ],
           "steps": [
-            "開啟來源頁面並掃描。先決定哪些檔案應成為清單中的列，避免匯出用途不明的清單。",
-            "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
-            "選取所需檔案，核對標題和來源頁面，使用「匯出檔案資訊CSV」。免費版每次最多匯出10個選取列，較大的清單需分批匯出。",
-            "URL、檔名、標題、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。",
-            "透過Excel的文字/CSV匯入功能核對欄位與編碼。依需要將URL和識別碼作為文字處理，保留未知欄位的空白，並將各列與所選檔案對照。"
+            "開啟列出檔案的頁面，點擊Grab All Files圖示後點擊「掃描」。若要包含起始頁面資料夾內連結到的頁面，請提高「深度」。",
+            "篩選出需要的檔案類型，勾選要放入清單的列（免費版每次匯出最多10列）。",
+            "開啟「其他操作」，點擊「匯出檔案資訊CSV」。列數較多時，勾選接下來的列再匯出一次。",
+            "在Excel中使用「資料」→「從文字/CSV」，選擇UTF-8，並將URL和編號欄設為文字。將各列與所選檔案核對。"
           ],
           "faq": [
             {
               "q": "這與匯出網頁表格是同一功能嗎？",
-              "a": "不是。此CSV是檔案清單。另一個網頁表格流程透過Collector的AI輸出，擷取支援的HTML表格。"
+              "a": "不是。此CSV是檔案清單。要把頁面中的HTML表格轉成CSV，請使用「將網頁合併為 HTML」的AI分析資料，支援的表格會儲存為CSV檔案。"
             },
             {
               "q": "會匯出哪些欄位？",
@@ -6041,11 +6177,15 @@
             },
             {
               "q": "會包含網站的每個檔案嗎？",
-              "a": "不會。CSV匯出已偵測並選取的項目，受所用方案的每次操作上限限制。請檢查涵蓋範圍，必要時另行進行限定範圍的掃描。"
+              "a": "不會。只匯出您選取的已偵測列：免費版每次最多10列，Pro沒有上限。請檢查涵蓋範圍，必要時換一個頁面或深度再掃描。"
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的10個」繼續儲存。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+              "a": "可以。免費版每次CSV最多匯出10個選取列，每次下載最多儲存10個檔案。清單較長時，勾選接下來的列並再次點擊「匯出檔案資訊CSV」即可，不會被鎖定。Pro（$19.99，一次購買，最多3台裝置）沒有每次操作的上限。"
+            },
+            {
+              "q": "檔案清單會被上傳到哪裡嗎？",
+              "a": "不會。CSV在瀏覽器中產生並直接儲存到您的裝置，清單不會傳送到Grab All Files的伺服器。"
             }
           ],
           "industry": {
@@ -6085,8 +6225,8 @@
       ],
       "copy": {
         "en": {
-          "title": "Download SDS & technical documents | Grab All Files",
-          "desc": "Select the supplier documents for the exact product and keep SDS, TDS and related technical PDFs distinguishable.",
+          "title": "Download SDS (safety data sheets) & technical documents | Grab All Files",
+          "desc": "Save the SDS, TDS and technical PDFs for an exact product, with language and revision in each name and the source recorded. Free: 10 files per download.",
           "eyebrow": "SDS & technical documents",
           "h1": "Organize SDS and technical files by product.",
           "lead": "Select the supplier documents for the exact product and keep SDS, TDS and related technical PDFs distinguishable. Check product names, language and revision details on the original documents before building a product reference set.",
@@ -6096,9 +6236,9 @@
           ],
           "steps": [
             "Open the supplier’s document search or product page and narrow it to the exact product. Look for SDS and technical documents rather than unrelated product families.",
-            "Open Grab All Files, scan the chosen page, and filter the file types you need. Review the source links and select the relevant files.",
+            "Open Grab All Files and scan the product or search-results page. Filter to PDF, check titles and source links, and tick only the SDS and TDS for that exact product and language.",
             "Check product name, document type, language and revision date. Review or edit titles and work in product-specific batches; keep the original file and source link.",
-            "Check or edit titles, choose the save-name and type/domain folder options, then save files or ZIP. Export File Info CSV to keep a URL record.",
+            "Double-click each title to add product, language and revision date, set “Save as” to “Title” in “Details”, then download or ZIP one product at a time (Free: 10 files per download). “Export File Info CSV” records the source URLs.",
             "Open the saved documents and confirm the matching product and edition with the supplier’s current source. This organizes reference material; it does not decide safe use, hazard classification or legal compliance."
           ],
           "faq": [
@@ -6116,11 +6256,11 @@
             },
             {
               "q": "Can I use this for free?",
-              "a": "Free saves up to 10 files per run and exactly one chosen related page as HTML. Images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro ($19.99, one-time) removes the file cap and combines multiple selected page bodies into one HTML. With Free, file saving and file-information CSV each allow up to 10 selected files per operation; repeat in batches for more."
+              "a": "Yes. Free saves up to 10 selected files per download, ZIP or file-information CSV. To continue, select the next files and press the button again — nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-action cap."
             },
             {
-              "q": "What does the file-information CSV contain?",
-              "a": "Selected file URLs, filenames, titles, types, detection confidence/evidence and available size, modification date and source page. Unknown metadata can be blank. It is not a table extracted from the document body."
+              "q": "The supplier’s SDS search shows results only after I search. How do I scan them?",
+              "a": "Run the search on the supplier’s site first so the results are on screen, then scan that results page. If more results load as you scroll, turn on “Scroll & load everything before scanning” in “Scan options”. Language or region selectors usually change the listed files, so scan once per language."
             }
           ],
           "industry": {
@@ -6150,8 +6290,8 @@
           }
         },
         "ja": {
-          "title": "SDS・TDS・技術資料を製品名で整理して保存 | Grab All Files",
-          "desc": "対象製品の供給元資料を選び、SDS、TDS、関連技術PDFを区別して管理します。",
+          "title": "SDS（安全データシート）・技術資料を製品別に保存 | Grab All Files",
+          "desc": "製品ごとのSDS・TDS・技術資料PDFを、言語と改訂日が分かる名前で元URLと一緒に保存。無料版は1回10件までダウンロードできます。",
           "eyebrow": "SDS・技術資料を保存",
           "h1": "SDS・技術資料を製品別に保存。",
           "lead": "対象製品の供給元資料を選び、SDS、TDS、関連技術PDFを区別して管理します。製品名、言語、改訂情報を原資料で確認してから、製品の参照資料セットを作ります。",
@@ -6161,9 +6301,9 @@
           ],
           "steps": [
             "供給元の資料検索や製品ページで、対象製品を絞ります。他の製品群と混ぜず、SDSと技術資料の配布先を確認します。",
-            "Grab All Filesを開き、対象ページをスキャンします。必要な種類で絞り込み、元リンクを確認して資料を選択します。",
-            "製品名、資料種類、言語、改訂日を確認します。題名を編集し、製品ごとに作業を分け、元ファイルとリンクを残します。",
-            "題名を確認・編集し、保存名と種類別／ドメイン別のフォルダ分けを選び、個別ファイルまたはZIPで保存します。「ファイル情報CSV出力」でURLの記録も残せます。",
+            "Grab All Filesを開き、製品ページまたは検索結果ページをスキャンします。PDFで絞り込み、タイトルと元リンクを確認して、その製品・言語のSDSとTDSだけにチェックを入れます。",
+            "製品名、資料種類、言語、改訂日を確認します。タイトルを編集し、製品ごとに作業を分け、元ファイルとリンクを残します。",
+            "タイトルをダブルクリックして製品名・言語・改訂日を加え、「詳細設定」の「保存名」を「タイトル」にして、製品ごとにダウンロードまたはZIP保存します（無料版は1回10件まで）。「ファイル情報CSV出力」で元URLを記録できます。",
             "保存した資料を開き、供給元の現在の資料と製品・版を照合します。これは資料整理の手順で、安全な使用方法、危険有害性分類、法令適合を判断するものではありません。"
           ],
           "faq": [
@@ -6181,11 +6321,11 @@
             },
             {
               "q": "無料で使えますか？",
-              "a": "無料版はファイルを1回10件まで保存し、関連候補から選んだ1ページをHTML保存します。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Pro（$19.99・買い切り）はファイル上限を解除し、複数ページ本文を1つのHTMLに結合します。 無料版では、ファイル保存とファイル情報CSVはそれぞれ1操作につき選択した10ファイル分まで。多い場合は分けて繰り返せます。"
+              "a": "はい。無料版はダウンロード・ZIP・ファイル情報CSVのいずれも、1回の操作で選択した10件までです。続けるときは次のファイルを選んでもう一度押してください。ロックはかかりません。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。"
             },
             {
-              "q": "ファイル情報CSVには何が入りますか？",
-              "a": "選択したファイルのURL、ファイル名、題名、種類、検出の確度・根拠と、取得できたサイズ・更新日・リンク元ページを記録します。不明な情報は空になる場合があり、資料本文の表を抽出したCSVではありません。"
+              "q": "SDS検索は検索しないと結果が出ません。どうスキャンしますか？",
+              "a": "先にメーカーのサイトで検索して結果を表示してから、その検索結果ページをスキャンします。スクロールで続きが読み込まれる場合は、「スキャン設定」で「スキャン前にスクロールして全て読み込む（ギャラリー・長い一覧）」をオンにします。言語や地域の切り替えで表示されるファイルが変わることが多いため、言語ごとにスキャンしてください。"
             }
           ],
           "industry": {
@@ -6215,42 +6355,42 @@
           }
         },
         "es": {
-          "title": "SDS y documentos técnicos | Grab All Files",
-          "desc": "Elige SDS, TDS y PDF técnicos para el producto exacto.",
+          "title": "Descargar fichas de datos de seguridad (SDS) y técnicas | Grab All Files",
+          "desc": "Guarda las SDS, TDS y PDF técnicos de un producto exacto, con idioma y revisión en cada nombre y el origen registrado. Gratis: 10 archivos por descarga.",
           "eyebrow": "SDS y documentos técnicos",
-          "h1": "Guarda SDS y fichas por producto.",
-          "lead": "Elige SDS, TDS y PDF técnicos para el producto exacto. Confirma idioma y revisión en los originales para crear una colección de referencia.",
+          "h1": "Organiza las SDS y fichas técnicas por producto.",
+          "lead": "Selecciona los documentos del proveedor para el producto exacto y mantén diferenciadas las SDS, las TDS y los PDF técnicos relacionados. Comprueba nombre del producto, idioma y datos de revisión en los documentos originales antes de crear un conjunto de referencia.",
           "best": [
-            "SDS y datos técnicos de un producto.",
-            "Versiones e idiomas separados."
+            "Mantener las SDS y los archivos técnicos de referencia de un producto seleccionado.",
+            "Separar versiones por idioma y revisión para revisarlas después."
           ],
           "steps": [
-            "Filtra la búsqueda del proveedor por producto y localiza SDS y documentos técnicos.",
-            "Abre Grab All Files, escanea la página elegida, filtra los formatos y revisa los enlaces antes de seleccionar los archivos.",
-            "Confirma producto, tipo, idioma y fecha; edita títulos y divide el trabajo por producto.",
-            "Revisa o edita títulos, elige nombres y carpetas por tipo o dominio y guarda archivos o ZIP. Exporta la información CSV para registrar las URL.",
-            "Abre los archivos y coteja la edición actual del proveedor. No determina seguridad, clasificación de peligros ni cumplimiento."
+            "Abre el buscador de documentos o la página de producto del proveedor y acota al producto exacto. Busca SDS y documentos técnicos, no familias de productos ajenas.",
+            "Abre Grab All Files y escanea la página de producto o de resultados. Filtra por PDF, revisa títulos y enlaces de origen y marca solo las SDS y TDS de ese producto e idioma.",
+            "Comprueba nombre del producto, tipo de documento, idioma y fecha de revisión. Trabaja en lotes por producto y conserva el archivo original y su enlace de origen.",
+            "Haz doble clic en cada título para añadir producto, idioma y fecha de revisión, elige «Título» en «Guardar como» dentro de «Detalles» y descarga o guarda un ZIP por producto (gratis: 10 archivos por descarga). «Exportar info de archivos en CSV» registra las URL de origen.",
+            "Abre los documentos guardados y confirma producto y edición con la fuente actual del proveedor. Esto organiza material de referencia; no decide el uso seguro, la clasificación de peligros ni el cumplimiento legal."
           ],
           "faq": [
             {
-              "q": "¿Elige la SDS correcta?",
-              "a": "Tú verificas producto, región, idioma y edición; un nombre parecido no basta."
+              "q": "¿Elige por mí la SDS correcta?",
+              "a": "No. Tú compruebas producto, región, idioma y edición en la fuente del proveedor y en el documento original. Un nombre de producto parecido no basta."
             },
             {
-              "q": "¿Evalúa seguridad o cumplimiento?",
-              "a": "No. Detecta y guarda archivos sin interpretar esos requisitos."
+              "q": "¿Puede decidir sobre seguridad o cumplimiento?",
+              "a": "No. La extensión detecta y guarda archivos. No interpreta peligros ni determina si un producto o procedimiento cumple los requisitos."
             },
             {
-              "q": "¿Siempre hay todos los idiomas?",
-              "a": "Depende del proveedor. Conserva idioma y versión en nombres o notas."
+              "q": "¿Hay siempre SDS y TDS en todos los idiomas?",
+              "a": "Depende del proveedor y del producto. Revisa las opciones publicadas y conserva las etiquetas de idioma y revisión en tus nombres o notas."
             },
             {
               "q": "¿Puedo usarlo gratis?",
-              "a": "Free guarda hasta 10 archivos por ejecución y exactamente una página relacionada elegida como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro ($19.99, pago único) elimina el límite y combina el contenido de varias páginas seleccionadas. Con Free, el guardado y el CSV de información permiten hasta 10 archivos elegidos por operación; repite en lotes."
+              "a": "Sí. La versión gratuita guarda hasta 10 archivos seleccionados por descarga, ZIP o CSV de información de archivos. Para seguir, selecciona los siguientes archivos y vuelve a pulsar el botón; no se bloquea nada. Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por acción."
             },
             {
-              "q": "¿Qué contiene el CSV de información?",
-              "a": "URL, nombres, títulos, tipos, confianza y evidencia de detección, y tamaño, fecha y página origen cuando se conocen. Los campos desconocidos pueden quedar vacíos; no extrae tablas del documento."
+              "q": "El buscador de SDS solo muestra resultados después de buscar. ¿Cómo los escaneo?",
+              "a": "Haz primero la búsqueda en el sitio del proveedor para que los resultados estén en pantalla y luego escanea esa página. Si se cargan más resultados al desplazarte, activa «Desplázate y carga todo antes de escanear» en «Opciones de escaneo». Los selectores de idioma o región suelen cambiar los archivos listados: escanea una vez por idioma."
             }
           ],
           "industry": {
@@ -6280,42 +6420,42 @@
           }
         },
         "fr": {
-          "title": "SDS et documents techniques | Grab All Files",
-          "desc": "Choisissez SDS, TDS et PDF techniques du produit exact.",
+          "title": "Fiches de données de sécurité (FDS) et docs techniques | Grab All Files",
+          "desc": "Enregistrez les FDS, fiches techniques et PDF d’un produit précis, avec langue et révision dans chaque nom et la source notée. Gratuit : 10 par lot.",
           "eyebrow": "SDS et documents techniques",
-          "h1": "Classez SDS et fiches par produit.",
-          "lead": "Choisissez SDS, TDS et PDF techniques du produit exact. Vérifiez langue et révision dans les originaux pour un ensemble de référence.",
+          "h1": "Classez FDS et fiches techniques par produit.",
+          "lead": "Sélectionnez les documents du fournisseur pour le produit exact et gardez distincts les FDS (SDS), fiches techniques (TDS) et PDF techniques associés. Vérifiez le nom du produit, la langue et la révision sur les documents d’origine avant de constituer un ensemble de référence.",
           "best": [
-            "Documents d’un produit précis.",
-            "Langues et éditions séparées."
+            "Tenir à jour les FDS et fichiers techniques de référence d’un produit choisi.",
+            "Garder séparées les versions par langue et par révision pour un contrôle ultérieur."
           ],
           "steps": [
-            "Affinez la recherche du fournisseur par produit et repérez SDS et fiches techniques.",
-            "Ouvrez Grab All Files, analysez la page choisie, filtrez les formats et vérifiez les liens avant de sélectionner les fichiers.",
-            "Confirmez produit, type, langue et date ; modifiez les titres et séparez les lots.",
-            "Vérifiez ou modifiez les titres, choisissez les noms et dossiers par type ou domaine, puis enregistrez des fichiers ou un ZIP. Exportez les informations CSV pour garder les URL.",
-            "Ouvrez les fichiers et vérifiez l’édition du fournisseur. Cela ne décide ni sécurité, ni classification des dangers, ni conformité."
+            "Ouvrez la recherche documentaire ou la page produit du fournisseur et ciblez le produit exact. Cherchez les FDS et documents techniques plutôt que des gammes sans rapport.",
+            "Ouvrez Grab All Files et analysez la page produit ou de résultats. Filtrez sur PDF, vérifiez titres et liens sources, et cochez uniquement les FDS et fiches techniques de ce produit et de cette langue.",
+            "Vérifiez nom du produit, type de document, langue et date de révision. Travaillez par lots de produit et conservez le fichier d’origine et son lien source.",
+            "Double-cliquez sur chaque titre pour ajouter produit, langue et date de révision, choisissez « Titre » dans « Enregistrer sous » sous « Détails », puis téléchargez ou créez un ZIP par produit (version gratuite : 10 fichiers par téléchargement). « Exporter les infos fichiers en CSV » consigne les URL sources.",
+            "Ouvrez les documents enregistrés et confirmez produit et édition avec la source actuelle du fournisseur. Il s’agit de ranger des documents de référence ; l’outil ne décide ni de l’usage sûr, ni de la classification des dangers, ni de la conformité."
           ],
           "faq": [
             {
-              "q": "La bonne SDS est-elle choisie automatiquement ?",
-              "a": "Vous vérifiez produit, région, langue et édition ; un nom voisin ne suffit pas."
+              "q": "Choisit-il la bonne FDS à ma place ?",
+              "a": "Non. Vous vérifiez produit, région, langue et édition sur la source du fournisseur et dans le document d’origine. Un nom de produit proche ne suffit pas."
             },
             {
-              "q": "Évalue-t-il la sécurité ou la conformité ?",
-              "a": "Non. Il détecte et enregistre les fichiers sans interpréter ces exigences."
+              "q": "Peut-il statuer sur la sécurité ou la conformité ?",
+              "a": "Non. L’extension détecte et enregistre des fichiers. Elle n’interprète pas les dangers et ne détermine pas si un produit ou une procédure est conforme."
             },
             {
-              "q": "Toutes les langues existent-elles ?",
-              "a": "Cela dépend du fournisseur. Gardez langue et édition dans les noms ou notes."
+              "q": "Les FDS et fiches techniques existent-elles dans toutes les langues ?",
+              "a": "Cela dépend du fournisseur et du produit. Vérifiez les options publiées et gardez les mentions de langue et de révision dans vos noms ou notes."
             },
             {
-              "q": "Puis-je l’utiliser gratuitement ?",
-              "a": "Free enregistre jusqu’à 10 fichiers par lot et exactement une page associée choisie en HTML. Les images de cette page n’ont pas de plafond lié au forfait ; les fichiers directement liés sont enregistrés jusqu’à 10 par opération, et « Enregistrer les 10 suivants » sur l’écran de résultat enregistre le reste. Pro (19,99 $, achat unique) supprime la limite et regroupe le contenu de plusieurs pages sélectionnées. Avec Free, le téléchargement et le CSV d’informations acceptent chacun 10 fichiers choisis par opération ; recommencez par lots."
+              "q": "Puis-je l’utiliser gratuitement ?",
+              "a": "Oui. La version gratuite enregistre jusqu’à 10 fichiers sélectionnés par téléchargement, ZIP ou CSV d’informations fichiers. Pour continuer, sélectionnez les fichiers suivants et cliquez à nouveau : rien n’est bloqué. Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par action."
             },
             {
-              "q": "Que contient le CSV d’informations ?",
-              "a": "URL, noms, titres, types, confiance et preuves de détection, taille, date et page source si connues. Les champs inconnus peuvent rester vides ; ce ne sont pas les tableaux du document."
+              "q": "La recherche FDS du fournisseur n’affiche des résultats qu’après une recherche : comment les analyser ?",
+              "a": "Lancez d’abord la recherche sur le site du fournisseur pour afficher les résultats, puis analysez cette page. Si d’autres résultats se chargent au défilement, activez « Faire défiler et tout charger avant l’analyse » dans « Options d’analyse ». Les sélecteurs de langue ou de région changent souvent les fichiers listés : analysez une fois par langue."
             }
           ],
           "industry": {
@@ -6345,42 +6485,42 @@
           }
         },
         "de": {
-          "title": "SDS und technische Dokumente | Grab All Files",
-          "desc": "Wählen Sie SDS, TDS und technische PDFs des exakten Produkts.",
+          "title": "Sicherheitsdatenblätter (SDB) und technische Dokumente laden | Grab All Files",
+          "desc": "Sicherheitsdatenblätter, TDS und technische PDFs eines Produkts speichern – mit Sprache und Revision im Namen und Quelle. Kostenlos: 10 pro Download.",
           "eyebrow": "SDS und technische Dokumente",
-          "h1": "SDS-Dateien nach Produkt ordnen.",
-          "lead": "Wählen Sie SDS, TDS und technische PDFs des exakten Produkts. Prüfen Sie Sprache und Revision an den Originalen für Ihre Referenzsammlung.",
+          "h1": "Sicherheitsdatenblätter nach Produkt ordnen.",
+          "lead": "Wählen Sie die Lieferantenunterlagen für genau das Produkt aus und halten Sie Sicherheitsdatenblätter (SDB/SDS), technische Datenblätter (TDS) und zugehörige PDFs auseinander. Prüfen Sie Produktname, Sprache und Revisionsangaben im Originaldokument, bevor Sie einen Referenzbestand anlegen.",
           "best": [
-            "Unterlagen eines geprüften Produkts.",
-            "Sprachen und Ausgaben auseinanderhalten."
+            "Sicherheitsdatenblätter und technische Referenzdateien eines ausgewählten Produkts pflegen.",
+            "Sprach- und Revisionsfassungen für eine spätere Prüfung getrennt halten."
           ],
           "steps": [
-            "Grenzen Sie die Lieferantensuche nach Produkt ein und suchen Sie SDS und technische Dokumente.",
-            "Öffnen Sie Grab All Files, scannen Sie die gewählte Seite, filtern Sie die Formate und prüfen Sie die Links vor der Auswahl.",
-            "Prüfen Sie Produkt, Typ, Sprache und Datum; bearbeiten Sie Titel und trennen Sie Produktchargen.",
-            "Prüfen oder bearbeiten Sie Titel, wählen Sie Namen und Typ-/Domainordner und speichern Sie Dateien oder ZIP. Exportieren Sie die Dateiinfo-CSV als URL-Nachweis.",
-            "Öffnen Sie Dateien und vergleichen Sie die aktuelle Lieferantenausgabe. Dies entscheidet weder Sicherheit noch Gefahrenklassifizierung oder Regelkonformität."
+            "Öffnen Sie die Dokumentensuche oder Produktseite des Lieferanten und grenzen Sie auf das genaue Produkt ein. Suchen Sie nach Sicherheitsdatenblättern und technischen Dokumenten statt nach fremden Produktfamilien.",
+            "Öffnen Sie Grab All Files und scannen Sie die Produkt- oder Ergebnisseite. Filtern Sie auf PDF, prüfen Sie Titel und Quelllinks und haken Sie nur SDB und TDS dieses Produkts in dieser Sprache an.",
+            "Prüfen Sie Produktname, Dokumentart, Sprache und Revisionsdatum. Arbeiten Sie in Gruppen je Produkt und behalten Sie Originaldatei und Quelllink.",
+            "Doppelklicken Sie auf jeden Titel, um Produkt, Sprache und Revisionsdatum zu ergänzen, wählen Sie unter „Details“ bei „Speichern als“ den „Titel“ und laden Sie je Produkt herunter oder erstellen Sie ein ZIP (kostenlos: 10 Dateien pro Download). „Dateiinfo als CSV exportieren“ hält die Quell-URLs fest.",
+            "Öffnen Sie die gespeicherten Dokumente und bestätigen Sie Produkt und Ausgabe mit der aktuellen Quelle des Lieferanten. Das ordnet Referenzmaterial; es entscheidet nicht über sichere Verwendung, Gefahreneinstufung oder Rechtskonformität."
           ],
           "faq": [
             {
-              "q": "Wählt die Erweiterung das richtige SDS?",
-              "a": "Sie prüfen Produkt, Region, Sprache und Ausgabe; ähnliche Namen reichen nicht."
+              "q": "Wählt es das richtige Sicherheitsdatenblatt für mich aus?",
+              "a": "Nein. Sie prüfen Produkt, Region, Sprache und Ausgabe in der Quelle des Lieferanten und im Originaldokument. Ein ähnlicher Produktname genügt nicht."
             },
             {
-              "q": "Bewertet sie Sicherheit oder Konformität?",
-              "a": "Nein. Sie findet und speichert Dateien, ohne diese Anforderungen auszulegen."
+              "q": "Kann es über Sicherheit oder Konformität entscheiden?",
+              "a": "Nein. Die Erweiterung erkennt und speichert Dateien. Sie bewertet keine Gefahren und stellt nicht fest, ob ein Produkt oder Verfahren Anforderungen erfüllt."
             },
             {
-              "q": "Sind alle Sprachen verfügbar?",
-              "a": "Das hängt vom Lieferanten ab. Halten Sie Sprache und Ausgabe in Namen oder Notizen fest."
+              "q": "Gibt es SDB und TDS immer in jeder Sprache?",
+              "a": "Das hängt von Lieferant und Produkt ab. Prüfen Sie die veröffentlichten Optionen und behalten Sie Sprach- und Revisionsangaben in Ihren Namen oder Notizen."
             },
             {
-              "q": "Ist dies kostenlos nutzbar?",
-              "a": "Free speichert bis zu 10 Dateien pro Durchlauf und genau eine gewählte zugehörige Seite als HTML. Bilder auf dieser Seite haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert; „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro (19,99 $, einmalig) hebt das Dateilimit auf und bündelt mehrere ausgewählte Seiteninhalte. Mit Free erlauben Dateispeichern und Dateiinfo-CSV jeweils 10 gewählte Dateien pro Vorgang; wiederholen Sie in Chargen."
+              "q": "Kann ich das kostenlos nutzen?",
+              "a": "Ja. Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Download, ZIP oder Dateiinfo-CSV. Zum Weitermachen wählen Sie die nächsten Dateien aus und klicken erneut – gesperrt wird nichts. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Aktion auf."
             },
             {
-              "q": "Was enthält die Dateiinfo-CSV?",
-              "a": "URLs, Namen, Titel, Typen, Erkennungsbewertung und -hinweise sowie bekannte Größe, Änderungsdatum und Quellseite. Unbekannte Felder können leer sein; Dokumenttabellen werden nicht extrahiert."
+              "q": "Die SDB-Suche des Lieferanten zeigt Ergebnisse erst nach einer Suche. Wie scanne ich sie?",
+              "a": "Führen Sie die Suche zuerst auf der Lieferantenseite aus, sodass die Ergebnisse sichtbar sind, und scannen Sie dann diese Ergebnisseite. Laden beim Scrollen weitere Treffer nach, aktivieren Sie „Vor dem Scan alles scrollen & laden“ in den „Scan-Optionen“. Sprach- oder Regionsauswahl ändert oft die gelisteten Dateien – scannen Sie einmal je Sprache."
             }
           ],
           "industry": {
@@ -6410,42 +6550,42 @@
           }
         },
         "it": {
-          "title": "SDS e documenti tecnici | Grab All Files",
-          "desc": "Seleziona SDS, TDS e PDF tecnici del prodotto preciso.",
+          "title": "Scaricare schede di sicurezza (SDS) e documenti tecnici | Grab All Files",
+          "desc": "Salva SDS, TDS e PDF tecnici di un prodotto preciso, con lingua e revisione in ogni nome e la fonte registrata. Gratis: 10 file per download.",
           "eyebrow": "SDS e documenti tecnici",
-          "h1": "SDS e schede per prodotto.",
-          "lead": "Seleziona SDS, TDS e PDF tecnici del prodotto preciso. Controlla lingua e revisione negli originali per creare una raccolta di riferimento.",
+          "h1": "SDS e schede tecniche ordinate per prodotto.",
+          "lead": "Seleziona i documenti del fornitore per il prodotto esatto e tieni distinte le SDS, le TDS e i PDF tecnici collegati. Controlla nome del prodotto, lingua e dati di revisione sui documenti originali prima di creare un insieme di riferimento.",
           "best": [
-            "Documenti di un prodotto verificato.",
-            "Lingue ed edizioni separate."
+            "Mantenere le SDS e i file tecnici di riferimento di un prodotto scelto.",
+            "Tenere separate le versioni per lingua e revisione per un controllo successivo."
           ],
           "steps": [
-            "Restringi la ricerca del fornitore al prodotto e individua SDS e documenti tecnici.",
-            "Apri Grab All Files, scansiona la pagina scelta, filtra i formati e verifica i link prima di selezionare i file.",
-            "Conferma prodotto, tipo, lingua e data; modifica i titoli e separa i gruppi per prodotto.",
-            "Verifica o modifica i titoli, scegli nomi e cartelle per tipo o dominio, poi salva file o ZIP. Esporta le informazioni CSV per conservare gli URL.",
-            "Apri i file e verifica l’edizione del fornitore. Non determina sicurezza, classificazione dei pericoli o conformità."
+            "Apri la ricerca documenti o la pagina prodotto del fornitore e restringi al prodotto esatto. Cerca SDS e documenti tecnici, non famiglie di prodotti estranee.",
+            "Apri Grab All Files e scansiona la pagina prodotto o dei risultati. Filtra per PDF, controlla titoli e link di origine e seleziona solo SDS e TDS di quel prodotto e di quella lingua.",
+            "Controlla nome del prodotto, tipo di documento, lingua e data di revisione. Lavora in gruppi per prodotto e conserva il file originale e il suo link di origine.",
+            "Fai doppio clic su ogni titolo per aggiungere prodotto, lingua e data di revisione, scegli «Titolo» in «Salva come» dentro «Dettagli» e scarica o crea uno ZIP per prodotto (gratis: 10 file per download). «Esporta info file in CSV» registra gli URL di origine.",
+            "Apri i documenti salvati e conferma prodotto ed edizione con la fonte attuale del fornitore. Così si organizza materiale di riferimento; non si decide l’uso sicuro, la classificazione dei pericoli né la conformità normativa."
           ],
           "faq": [
             {
-              "q": "Sceglie la SDS corretta?",
-              "a": "Verifichi tu prodotto, regione, lingua ed edizione; nomi simili non bastano."
+              "q": "Sceglie al posto mio la SDS giusta?",
+              "a": "No. Sei tu a controllare prodotto, area, lingua ed edizione sulla fonte del fornitore e nel documento originale. Un nome di prodotto simile non basta."
             },
             {
-              "q": "Valuta sicurezza o conformità?",
-              "a": "No. Rileva e salva file senza interpretare tali requisiti."
+              "q": "Può valutare sicurezza o conformità?",
+              "a": "No. L’estensione rileva e salva file. Non interpreta i pericoli né stabilisce se un prodotto o una procedura rispetta i requisiti."
             },
             {
-              "q": "Sono sempre disponibili tutte le lingue?",
-              "a": "Dipende dal fornitore. Conserva lingua e revisione nei nomi o nelle note."
+              "q": "SDS e TDS sono sempre disponibili in ogni lingua?",
+              "a": "Dipende dal fornitore e dal prodotto. Controlla le opzioni pubblicate e conserva le indicazioni di lingua e revisione nei tuoi nomi o nelle note."
             },
             {
               "q": "Posso usarlo gratis?",
-              "a": "Free salva fino a 10 file per esecuzione ed esattamente una pagina correlata scelta come HTML. Le immagini di quella pagina non hanno un limite numerico del piano; i file collegati direttamente vengono salvati fino a 10 per esecuzione e «Salva i prossimi 10» nella schermata dei risultati salva il resto. Pro ($19.99, una tantum) rimuove il limite e unisce il contenuto di più pagine selezionate. Con Free, salvataggio e CSV delle informazioni consentono ciascuno 10 file scelti per operazione; ripeti in gruppi."
+              "a": "Sì. La versione gratuita salva fino a 10 file selezionati per download, ZIP o CSV con le info dei file. Per continuare, seleziona i file successivi e premi di nuovo il pulsante: non viene bloccato nulla. Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per azione."
             },
             {
-              "q": "Cosa contiene il CSV delle informazioni?",
-              "a": "URL, nomi, titoli, tipi, confidenza e prove del rilevamento, dimensione, data e pagina origine se note. I campi ignoti possono essere vuoti; non estrae tabelle dai documenti."
+              "q": "La ricerca SDS del fornitore mostra risultati solo dopo una ricerca. Come li scansiono?",
+              "a": "Esegui prima la ricerca sul sito del fornitore così che i risultati siano a schermo, poi scansiona quella pagina. Se altri risultati si caricano scorrendo, attiva «Scorri e carica tutto prima della scansione» in «Opzioni di scansione». I selettori di lingua o area cambiano spesso i file elencati: scansiona una volta per lingua."
             }
           ],
           "industry": {
@@ -6475,8 +6615,8 @@
           }
         },
         "ko": {
-          "title": "SDS·기술 자료 다운로드 | Grab All Files",
-          "desc": "정확한 제품에 대한 공급업체 자료를 선택하고 SDS, TDS와 관련 기술 PDF를 구분해 관리합니다.",
+          "title": "SDS(물질안전보건자료)·기술 자료 다운로드 | Grab All Files",
+          "desc": "제품별 SDS, TDS, 기술 PDF를 언어와 개정일을 알 수 있는 이름으로 원본 URL과 함께 저장합니다. 무료 버전은 다운로드당 10개까지 저장할 수 있습니다.",
           "eyebrow": "SDS·기술 자료",
           "h1": "SDS와 기술 파일을 제품별로 정리하세요.",
           "lead": "정확한 제품에 대한 공급업체 자료를 선택하고 SDS, TDS와 관련 기술 PDF를 구분해 관리합니다. 원본 문서의 제품명, 언어와 개정 정보를 확인한 뒤 제품 참고 자료 세트를 만드세요.",
@@ -6486,9 +6626,9 @@
           ],
           "steps": [
             "공급업체의 자료 검색이나 제품 페이지를 열고 정확한 제품으로 범위를 좁힙니다. 무관한 제품군 대신 해당 제품의 SDS와 기술 문서를 찾습니다.",
-            "Grab All Files를 열고 대상 페이지를 스캔합니다. 필요한 형식을 필터링하고 원본 링크를 확인해 파일을 선택합니다.",
+            "Grab All Files를 열고 제품 페이지나 검색 결과 페이지를 스캔합니다. PDF로 필터링하고 제목과 원본 링크를 확인해 해당 제품·언어의 SDS와 TDS만 체크합니다.",
             "제품명, 문서 종류, 언어와 개정일을 확인합니다. 제목을 확인·편집하고 제품별로 작업을 나누며 원본 파일과 출처 링크를 남깁니다.",
-            "제목을 확인·편집하고 저장 이름과 종류별·도메인별 폴더를 선택해 파일 또는 ZIP을 저장합니다. 파일 정보 CSV로 URL도 기록합니다.",
+            "제목을 더블클릭해 제품명·언어·개정일을 붙이고, “상세 설정”의 “저장 이름”을 “제목”으로 바꾼 뒤 제품별로 다운로드하거나 ZIP으로 저장합니다(무료: 다운로드당 10개). “파일 정보 CSV 내보내기”로 원본 URL을 기록합니다.",
             "저장한 문서를 열어 공급업체의 현재 출처와 제품·버전이 일치하는지 확인합니다. 이 과정은 참고 자료를 정리하며 안전한 사용, 유해·위험성 분류나 법규 준수를 판단하지 않습니다."
           ],
           "faq": [
@@ -6506,11 +6646,11 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "Free는 실행당 파일을 최대 10개 저장하고 관련 후보 중 정확히 1페이지를 HTML로 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 10건 저장’으로 나머지를 저장할 수 있습니다. Pro($19.99, 1회 결제)는 파일 제한을 없애고 선택한 여러 페이지 본문을 하나의 HTML로 결합합니다. Free에서는 파일 저장과 파일 정보 CSV가 각각 실행당 10개 선택 파일까지 가능하며 나누어 반복할 수 있습니다."
+              "a": "예. 무료 버전은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
             },
             {
-              "q": "파일 정보 CSV에는 무엇이 있나요?",
-              "a": "URL, 파일명, 제목, 종류, 감지 신뢰도·근거와 확인 가능한 크기·수정일·원본 페이지입니다. 미확인 정보는 비어 있을 수 있으며 문서 본문 표를 추출한 CSV가 아닙니다."
+              "q": "공급사 SDS 검색은 검색해야 결과가 나옵니다. 어떻게 스캔하나요?",
+              "a": "먼저 공급사 사이트에서 검색해 결과를 화면에 띄운 뒤 그 검색 결과 페이지를 스캔하세요. 스크롤하면 결과가 더 불러와진다면 “스캔 설정”에서 “스캔 전에 스크롤해 모두 불러오기(갤러리, 긴 목록)”를 켭니다. 언어나 지역 선택에 따라 표시되는 파일이 달라지는 경우가 많으니 언어별로 스캔하세요."
             }
           ],
           "industry": {
@@ -6540,8 +6680,8 @@
           }
         },
         "pt_BR": {
-          "title": "Baixar SDS e documentos técnicos | Grab All Files",
-          "desc": "Selecione os documentos do fornecedor para o produto exato e mantenha SDS, TDS e PDFs técnicos relacionados identificáveis.",
+          "title": "Baixar fichas de dados de segurança e documentos técnicos | Grab All Files",
+          "desc": "Salve SDS/FDS, TDS e PDFs técnicos de um produto exato, com idioma e revisão em cada nome e a origem registrada. Grátis: 10 arquivos por download.",
           "eyebrow": "SDS e documentos técnicos",
           "h1": "Organize SDS e arquivos técnicos por produto.",
           "lead": "Selecione os documentos do fornecedor para o produto exato e mantenha SDS, TDS e PDFs técnicos relacionados identificáveis. Confira nomes dos produtos, idioma e revisões nos originais antes de montar o conjunto de referência.",
@@ -6551,9 +6691,9 @@
           ],
           "steps": [
             "Abra a busca de documentos ou a página de produto do fornecedor e restrinja ao produto exato. Procure SDS e documentos técnicos, separando famílias de produtos sem relação.",
-            "Abra Grab All Files, escaneie a página escolhida, filtre os formatos e confira os links antes de selecionar arquivos.",
+            "Abra o Grab All Files e escaneie a página do produto ou de resultados. Filtre por PDF, confira títulos e links de origem e marque só as SDS e TDS daquele produto e idioma.",
             "Confira nome do produto, tipo de documento, idioma e data de revisão. Revise ou edite títulos, trabalhe em lotes por produto e mantenha o arquivo original e o link da fonte.",
-            "Confira ou edite títulos, escolha nomes e pastas por tipo ou domínio e salve arquivos ou ZIP. Exporte informações CSV para registrar URLs.",
+            "Clique duas vezes em cada título para incluir produto, idioma e data de revisão, escolha “Título” em “Salvar como” dentro de “Detalhes” e baixe ou crie um ZIP por produto (grátis: 10 arquivos por download). “Exportar info de arquivos em CSV” registra as URLs de origem.",
             "Abra os documentos salvos e confirme produto e edição com a fonte atual do fornecedor. Isso organiza referências; não determina uso seguro, classificação de perigos ou conformidade legal."
           ],
           "faq": [
@@ -6570,12 +6710,12 @@
               "a": "A disponibilidade depende do fornecedor e do produto. Confira as opções publicadas e mantenha as indicações de idioma e revisão nos seus próprios nomes ou notas."
             },
             {
-              "q": "Posso usar grátis?",
-              "a": "O Free salva até 10 arquivos por execução e exatamente uma página relacionada escolhida como HTML. As imagens dessa página não têm limite de quantidade do plano; os arquivos vinculados diretamente são salvos até 10 por execução, e “Salvar os próximos 10” na tela de resultado salva o restante. O Pro ($19.99, compra única) remove o limite e reúne o conteúdo de várias páginas selecionadas. No Free, salvar arquivos e exportar informações CSV permitem 10 arquivos escolhidos por operação; repita em lotes."
+              "q": "Posso usar de graça?",
+              "a": "Sim. A versão gratuita salva até 10 arquivos selecionados por download, ZIP ou CSV de informações de arquivos. Para continuar, selecione os próximos arquivos e clique de novo — nada fica bloqueado. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por ação."
             },
             {
-              "q": "O que contém o CSV de informações?",
-              "a": "URLs, nomes, títulos, tipos, confiança e evidências de detecção, tamanho, data e página de origem quando conhecidos. Campos desconhecidos podem ficar vazios; não extrai tabelas do documento."
+              "q": "A busca de SDS do fornecedor só mostra resultados depois de pesquisar. Como escaneio?",
+              "a": "Faça primeiro a busca no site do fornecedor para os resultados aparecerem na tela e então escaneie essa página. Se mais resultados carregam ao rolar, ative “Role e carregue tudo antes de escanear” em “Opções de varredura”. Seletores de idioma ou região costumam mudar os arquivos listados; escaneie uma vez por idioma."
             }
           ],
           "industry": {
@@ -6605,8 +6745,8 @@
           }
         },
         "zh_CN": {
-          "title": "下载SDS与技术资料 | Grab All Files",
-          "desc": "选择供应商提供的准确产品资料，区分SDS、TDS与相关技术PDF。",
+          "title": "下载SDS安全技术说明书与技术资料 | Grab All Files",
+          "desc": "按产品保存SDS、TDS及技术PDF，名称中注明语言和修订日期，并保留来源URL。免费版每次下载最多10个文件，全程在浏览器中完成。",
           "eyebrow": "SDS与技术资料",
           "h1": "按产品整理SDS与技术文件。",
           "lead": "选择供应商提供的准确产品资料，区分SDS、TDS与相关技术PDF。建立产品参考资料集之前，先在原始文档中核对产品名、语言及修订信息。",
@@ -6616,9 +6756,9 @@
           ],
           "steps": [
             "打开供应商的文档搜索或产品页面，将范围缩小到准确产品。寻找其SDS与技术文档，避免混入无关产品系列。",
-            "打开Grab All Files，扫描所选页面，筛选需要的格式，核对原链接后选择文件。",
+            "打开Grab All Files并扫描产品页面或搜索结果页面。按PDF筛选，核对标题和来源链接，只勾选该产品、该语言的SDS和TDS。",
             "核对产品名、文档类型、语言和修订日期。检查或编辑标题，按产品分批处理，并保留原文件和来源链接。",
-            "检查或编辑标题，选择保存名称与按格式／来源域名的文件夹方式，保存文件或ZIP。文件信息CSV可记录URL。",
+            "双击各标题加上产品名、语言和修订日期，在“详细设置”的“保存名称”中选择“标题”，再按产品逐个下载或保存为ZIP（免费版每次下载最多10个）。“导出文件信息CSV”可记录来源URL。",
             "打开已保存文档，与供应商当前来源确认产品和版本相符。此流程整理参考资料，不判断安全使用方式、危险性分类或法规符合性。"
           ],
           "faq": [
@@ -6636,11 +6776,11 @@
             },
             {
               "q": "可以免费使用吗？",
-              "a": "Free 每次最多保存10个文件，并从相关候选中仅选择1个页面保存为HTML。该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro（$19.99，一次性购买）解除文件上限，并将多个所选页面正文合并为一个HTML。 Free文件保存与文件信息CSV均为每次最多10个选定文件，可分批重复执行。"
+              "a": "可以。免费版的下载、ZIP和文件信息CSV每次操作最多处理10个选中的文件。要继续，请选择接下来的文件并再次点击按钮，不会被锁定。Pro（$19.99，一次性购买，最多3台设备）没有每次操作的上限。"
             },
             {
-              "q": "文件信息CSV包含什么？",
-              "a": "URL、文件名、标题、格式、检测置信度与依据，以及已知大小、更新日和来源页面。未知信息可为空，不是从文档正文提取的表格CSV。"
+              "q": "供应商的SDS检索要搜索后才显示结果，该怎么扫描？",
+              "a": "先在供应商网站上搜索，让结果显示在页面上，再扫描该搜索结果页面。如果滚动时会加载更多结果，请在“扫描设置”中开启“扫描前先滚动并加载全部内容（图库、长列表）”。切换语言或地区通常会改变列出的文件，请按语言分别扫描。"
             }
           ],
           "industry": {
@@ -6670,8 +6810,8 @@
           }
         },
         "zh_TW": {
-          "title": "下載SDS與技術資料 | Grab All Files",
-          "desc": "選擇供應商提供的確切產品資料，區分SDS、TDS與相關技術PDF。",
+          "title": "下載SDS安全資料表與技術資料 | Grab All Files",
+          "desc": "依產品儲存SDS、TDS及技術PDF，名稱中註明語言和修訂日期，並保留來源URL。免費版每次下載最多10個檔案，全程在瀏覽器中完成。",
           "eyebrow": "SDS與技術資料",
           "h1": "依產品整理SDS與技術檔案。",
           "lead": "選擇供應商提供的確切產品資料，區分SDS、TDS與相關技術PDF。建立產品參考資料集之前，先在原始文件中核對產品名、語言與修訂資訊。",
@@ -6681,15 +6821,15 @@
           ],
           "steps": [
             "開啟供應商的文件搜尋或產品頁面，將範圍縮小到確切產品。尋找其SDS與技術文件，避免混入無關產品系列。",
-            "開啟Grab All Files，掃描所選頁面，篩選需要的格式，核對原連結後選取檔案。",
+            "開啟Grab All Files並掃描產品頁面或搜尋結果頁面。依PDF篩選，核對標題和來源連結，只勾選該產品、該語言的SDS和TDS。",
             "核對產品名、文件類型、語言與修訂日期。檢查或編輯標題，依產品分批處理，並保留原檔案與來源連結。",
-            "檢查或編輯標題，選擇儲存名稱與依格式／來源網域的資料夾方式，儲存檔案或ZIP。檔案資訊CSV可記錄URL。",
+            "雙擊各標題加上產品名、語言和修訂日期，在「詳細設定」的「儲存名稱」中選擇「標題」，再依產品逐一下載或儲存為ZIP（免費版每次下載最多10個）。「匯出檔案資訊CSV」可記錄來源URL。",
             "開啟已儲存文件，與供應商目前的來源確認產品和版本相符。此流程整理參考資料，不判斷安全使用方式、危害分類或法規符合性。"
           ],
           "faq": [
             {
               "q": "會替我選擇正確的SDS嗎？",
-              "a": "不會。你需在供應商來源及原始文件中核對產品、地區、語言與版本。產品名相似並不足以確認匹配。"
+              "a": "不會。您需在供應商來源及原始文件中核對產品、地區、語言與版本。產品名相似並不足以確認匹配。"
             },
             {
               "q": "能判斷安全性或合規性嗎？",
@@ -6701,11 +6841,11 @@
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "Free 每次最多儲存10個檔案，並從相關候選中只選1個頁面儲存為HTML。該頁面內的圖片沒有方案數量上限；直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的10個」繼續儲存。Pro（$19.99，一次購買）解除檔案上限，並將多個所選頁面正文合併為一個HTML。 Free檔案儲存與檔案資訊CSV均為每次最多10個選定檔案，可分批重複執行。"
+              "a": "可以。免費版的下載、ZIP和檔案資訊CSV每次操作最多處理10個選取的檔案。若要繼續，請選取接下來的檔案並再次點擊按鈕，不會被鎖定。Pro（$19.99，一次購買，最多3台裝置）沒有每次操作的上限。"
             },
             {
-              "q": "檔案資訊CSV包含什麼？",
-              "a": "URL、檔名、標題、格式、偵測信賴度與依據，以及已知大小、更新日和來源頁面。未知資訊可為空，不是從文件正文擷取的表格CSV。"
+              "q": "供應商的SDS查詢要搜尋後才顯示結果，該怎麼掃描？",
+              "a": "先在供應商網站上搜尋，讓結果顯示在頁面上，再掃描該搜尋結果頁面。若捲動時會載入更多結果，請在「掃描設定」中開啟「掃描前先捲動並載入所有內容（圖庫、長清單）」。切換語言或地區通常會改變列出的檔案，請依語言分別掃描。"
             }
           ],
           "industry": {
@@ -6757,8 +6897,8 @@
           ],
           "steps": [
             "Use arXiv search to narrow the topic, category and date range. Open the results or paper list you want to work with.",
-            "Open Grab All Files and scan the displayed page. Start with that page, then review the detected file titles and source URLs.",
-            "Filter by PDF and select the papers you need. Review other public file links separately and choose only supported files relevant to your work.",
+            "Open Grab All Files and scan the displayed page. On arXiv’s search page, choose 200 results per page first so one scan sees the whole list. Review the detected titles and source URLs; “Fetch selected PDF titles” reads titles from the PDFs themselves.",
+            "Filter by PDF and select the papers you need — Free saves 10 per download, so tick the next 10 and press “Download” again to continue. Review other public file links separately and choose only supported files relevant to your work.",
             "Check or edit titles, choose title-based saving and a folder option. Save the selection as files or ZIP; export the file-list CSV for a record of the URLs.",
             "Open the saved PDFs and review the results. Keep the source URL and paper version in your notes. For a large corpus, use arXiv’s official bulk services."
           ],
@@ -6777,7 +6917,7 @@
             },
             {
               "q": "Can I save these papers for free?",
-              "a": "Free saves up to 10 selected files per run, and you can repeat the operation. Pro removes that file-count cap. Free page collection saves one chosen page as HTML; Pro can combine multiple selected pages."
+              "a": "Yes. Free saves up to 10 selected files per download; select the next papers and press “Download” again to continue — nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-download cap."
             },
             {
               "q": "How do title names, ZIP and CSV help?",
@@ -6816,20 +6956,20 @@
         },
         "ja": {
           "title": "arXivのPDF・研究資料を一括保存 | Grab All Files",
-          "desc": "arXivで絞り込んだ論文一覧をスキャンし、必要なPDFを選んで保存。題名での命名、フォルダ分け、ZIP、ファイル一覧CSVを実画面と図解で紹介します。",
+          "desc": "arXivで絞り込んだ論文一覧をスキャンし、必要なPDFを選んで保存。タイトルでの命名、フォルダ分け、ZIP、ファイル一覧CSVを実画面と図解で紹介します。",
           "eyebrow": "arXivのPDF・研究資料",
           "h1": "arXivの論文を、必要な分だけ保存。",
           "lead": "まずarXivで探し、表示した検索結果や論文一覧を読み返しやすい資料フォルダへ。Grab All FilesはそのページのPDFや対応形式の公開ファイルリンクを検出します。一覧を確認し、必要な資料を選んで保存できます。",
           "best": [
             "検索語やカテゴリで絞った論文の読書リストを作る。",
-            "必要な論文PDFを、見つけやすい題名で保存する。",
+            "必要な論文PDFを、見つけやすいタイトルで保存する。",
             "公開されている対応形式の関連ファイルと、URLを記録したCSVを一緒に管理する。"
           ],
           "steps": [
             "arXivの検索でキーワード・カテゴリ・期間を絞り、対象の検索結果や論文一覧を開きます。",
-            "Grab All Filesを開き、表示したページをスキャンします。まずそのページを対象にして、検出したファイルの題名と元URLを確認します。",
-            "PDFで絞り込み、必要な論文を選択します。他の公開ファイルリンクは別に確認し、対応形式で研究に必要なものだけを選びます。",
-            "題名を確認・編集し、保存名とフォルダ分けを選びます。選択したファイルを個別保存またはZIPで保存し、元URLの記録用にファイル一覧CSVも出力します。",
+            "Grab All Filesを開き、表示したページをスキャンします。arXivの検索結果は先に「1ページあたり200件」表示にすると、1回のスキャンで一覧全体を検出できます。検出したファイルのタイトルと元URLを確認します。「選択したPDFのタイトルを取得」でPDF本体からタイトルを読み取れます。",
+            "PDFで絞り込み、必要な論文を選択します。無料版は1回10件までなので、続きは次の10件を選んでもう一度「ダウンロード」を押します。他の公開ファイルリンクは別に確認し、対応形式で研究に必要なものだけを選びます。",
+            "タイトルを確認・編集し、保存名とフォルダ分けを選びます。選択したファイルを個別保存またはZIPで保存し、元URLの記録用にファイル一覧CSVも出力します。",
             "保存したPDFを開いて結果を確認します。元URLと論文の版を資料メモに控え、大規模な論文集合にはarXiv公式の一括取得手段を使います。"
           ],
           "faq": [
@@ -6847,11 +6987,11 @@
             },
             {
               "q": "無料で論文を保存できますか？",
-              "a": "無料版は1回10ファイルまで保存でき、繰り返し実行できます。Proはファイル件数上限を解除します。ページ収集は無料版で選んだ1ページをHTML保存し、Proで複数の選択ページを結合できます。"
+              "a": "はい。無料版は1回のダウンロードで選択した10件まで保存できます。続けるときは次の論文を選んでもう一度「ダウンロード」を押してください。ロックはかかりません。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。"
             },
             {
-              "q": "題名での命名・ZIP・CSVはどう役立ちますか？",
-              "a": "保存前に題名を確認・編集できます。自動命名で有用な題名がない場合は元名を使います。種類別とドメイン別のフォルダ分けは選択肢です。ZIPは選択ファイルをまとめ、CSVはファイル情報と元URLを記録します。"
+              "q": "タイトルでの命名・ZIP・CSVはどう役立ちますか？",
+              "a": "保存前にタイトルを確認・編集できます。自動命名で有用なタイトルがない場合は元名を使います。種類別とドメイン別のフォルダ分けは選択肢です。ZIPは選択ファイルをまとめ、CSVはファイル情報と元URLを記録します。"
             },
             {
               "q": "arXiv公式のツールですか？",
@@ -6874,7 +7014,7 @@
             "visualNote": "架空の論文名による図解例です。arXivで探してから、必要なファイルを選んで保存します。",
             "screenTitle": "arXivで使う実際の拡張画面",
             "screenAlt": "arXivの公開論文リンクを検出し、PDFの絞り込みとファイル選択を行うGrab All Filesの実画面",
-            "screenCaption": "取得済みの公開論文ページを使った隔離検証環境の実画面です。題名を確認・編集した例を示しています。",
+            "screenCaption": "取得済みの公開論文ページを使った隔離検証環境の実画面です。タイトルを確認・編集した例を示しています。",
             "officialTitle": "用途に合ったarXivの取得手段を選ぶ",
             "officialText": "読むための資料集は、絞った一覧を確認して必要な論文を選びます。大量の取得にはarXiv公式の一括アクセスを利用し、メタデータにはAPIを使えます。自動取得の前に公式のアクセス案内を確認してください。",
             "officialLabels": [
@@ -6897,8 +7037,8 @@
           ],
           "steps": [
             "En arXiv, limita la búsqueda por palabras, categoría y fechas. Abre los resultados o la lista de artículos.",
-            "Abre Grab All Files y escanea la página visible. Empieza por esa página y revisa títulos y URL de origen.",
-            "Filtra por PDF y selecciona los artículos. Comprueba otros enlaces públicos por separado y elige solo formatos compatibles que necesites.",
+            "Abre Grab All Files y escanea la página visible. En la búsqueda de arXiv, elige primero 200 resultados por página para que un solo escaneo vea toda la lista. Revisa los títulos detectados y las URL de origen; «Obtener títulos de los PDF seleccionados» lee el título del propio PDF.",
+            "Filtra por PDF y selecciona los artículos que necesitas: la versión gratuita guarda 10 por descarga, así que marca los 10 siguientes y vuelve a pulsar «Descargar» para continuar. Revisa aparte otros enlaces públicos y elige solo formatos compatibles que te sirvan.",
             "Revisa o edita los títulos y elige el nombre y la clasificación en carpetas. Guarda archivos o ZIP y exporta el CSV para registrar las URL.",
             "Abre los PDF guardados y verifica los resultados. Anota la URL y la versión del artículo; para grandes colecciones, usa los servicios oficiales de arXiv."
           ],
@@ -6916,8 +7056,8 @@
               "a": "Solo enlaces públicos encontrados y formatos compatibles. No todos los artículos ofrecen esos archivos; un repositorio externo puede requerir otra visita."
             },
             {
-              "q": "¿Puedo guardar artículos gratis?",
-              "a": "Free guarda hasta 10 archivos por operación, que puedes repetir. Pro elimina el límite de archivos. La recopilación gratuita guarda una página elegida en HTML; Pro combina varias páginas seleccionadas."
+              "q": "¿Puedo guardar estos artículos gratis?",
+              "a": "Sí. La versión gratuita guarda hasta 10 archivos seleccionados por descarga; para seguir, selecciona los siguientes artículos y vuelve a pulsar «Descargar». No se bloquea nada. Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga."
             },
             {
               "q": "¿Para qué sirven los títulos, ZIP y CSV?",
@@ -6967,8 +7107,8 @@
           ],
           "steps": [
             "Sur arXiv, affinez les mots-clés, la catégorie et les dates. Ouvrez les résultats ou la liste d’articles.",
-            "Ouvrez Grab All Files et analysez la page affichée. Commencez par cette page et vérifiez les titres et URL sources.",
-            "Filtrez les PDF et choisissez vos articles. Vérifiez séparément les autres liens publics et les formats compatibles utiles.",
+            "Ouvrez Grab All Files et analysez la page affichée. Dans la recherche arXiv, affichez d’abord 200 résultats par page pour qu’une seule analyse voie toute la liste. Vérifiez les titres détectés et les URL sources ; « Récupérer les titres des PDF sélectionnés » lit le titre dans le PDF lui-même.",
+            "Filtrez sur PDF et sélectionnez les articles utiles : la version gratuite enregistre 10 fichiers par téléchargement, cochez donc les 10 suivants et cliquez à nouveau sur « Télécharger » pour continuer. Examinez à part les autres liens publics et ne retenez que les formats pris en charge utiles.",
             "Vérifiez ou modifiez les titres, puis choisissez les noms et le classement des dossiers. Enregistrez les fichiers ou un ZIP et exportez le CSV des URL.",
             "Ouvrez les PDF sauvegardés et vérifiez les résultats. Notez l’URL et la version de l’article. Pour un grand corpus, utilisez les services officiels arXiv."
           ],
@@ -6986,8 +7126,8 @@
               "a": "Seuls les liens publics détectés dans un format pris en charge sont sélectionnables. Ces fichiers n’existent pas pour chaque article ; un dépôt externe peut nécessiter une visite séparée."
             },
             {
-              "q": "Puis-je enregistrer des articles gratuitement ?",
-              "a": "Free enregistre jusqu’à 10 fichiers par opération, renouvelable. Pro supprime ce plafond. La collecte gratuite conserve une page choisie en HTML ; Pro regroupe plusieurs pages sélectionnées."
+              "q": "Puis-je enregistrer ces articles gratuitement ?",
+              "a": "Oui. La version gratuite enregistre jusqu’à 10 fichiers sélectionnés par téléchargement ; pour continuer, sélectionnez les articles suivants et cliquez à nouveau sur « Télécharger ». Rien n’est bloqué. Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement."
             },
             {
               "q": "Quel intérêt pour les titres, ZIP et CSV ?",
@@ -7037,8 +7177,8 @@
           ],
           "steps": [
             "Grenzen Sie die Suche auf arXiv nach Begriff, Kategorie und Zeitraum ein. Öffnen Sie die Ergebnisse oder Artikelliste.",
-            "Öffnen Sie Grab All Files und scannen Sie die angezeigte Seite. Beginnen Sie dort und prüfen Sie Titel sowie Quell-URLs.",
-            "Filtern Sie nach PDF und wählen Sie die Artikel. Prüfen Sie andere öffentliche Dateilinks getrennt auf benötigte unterstützte Formate.",
+            "Öffnen Sie Grab All Files und scannen Sie die angezeigte Seite. Stellen Sie in der arXiv-Suche zuerst 200 Ergebnisse pro Seite ein, damit ein Scan die ganze Liste erfasst. Prüfen Sie Titel und Quell-URLs; „Titel ausgewählter PDFs abrufen“ liest den Titel aus dem PDF selbst.",
+            "Filtern Sie nach PDF und wählen Sie die Artikel aus. Die kostenlose Version speichert 10 pro Download – haken Sie danach die nächsten 10 an und klicken Sie erneut auf „Herunterladen“. Prüfen Sie andere öffentliche Dateilinks getrennt und wählen Sie nur benötigte unterstützte Formate.",
             "Prüfen oder bearbeiten Sie Titel und wählen Sie Dateinamen und Ordneroption. Speichern Sie Dateien oder ZIP und exportieren Sie die Dateiliste als CSV.",
             "Öffnen Sie die PDFs und prüfen Sie das Ergebnis. Notieren Sie Quell-URL und Artikelversion. Für große Bestände nutzen Sie die offiziellen arXiv-Dienste."
           ],
@@ -7056,8 +7196,8 @@
               "a": "Nur gefundene öffentliche Links in unterstützten Formaten sind auswählbar. Nicht jeder Artikel bietet diese Dateien; externe Repositorien können einen eigenen Besuch erfordern."
             },
             {
-              "q": "Kann ich Artikel kostenlos speichern?",
-              "a": "Free speichert bis zu 10 Dateien je Vorgang; Sie können ihn wiederholen. Pro hebt das Dateilimit auf. Die kostenlose Seitensammlung speichert eine gewählte Seite als HTML; Pro bündelt mehrere ausgewählte Seiten."
+              "q": "Kann ich diese Artikel kostenlos speichern?",
+              "a": "Ja. Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Download; zum Weitermachen wählen Sie die nächsten Artikel aus und klicken erneut auf „Herunterladen“. Gesperrt wird nichts. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Download auf."
             },
             {
               "q": "Wozu dienen Titel, ZIP und CSV?",
@@ -7107,8 +7247,8 @@
           ],
           "steps": [
             "In arXiv, restringi parole chiave, categoria e periodo. Apri i risultati o l’elenco degli articoli.",
-            "Apri Grab All Files e scansiona la pagina visualizzata. Inizia da quella pagina e verifica titoli e URL di origine.",
-            "Filtra per PDF e seleziona gli articoli. Controlla separatamente gli altri link pubblici e scegli formati supportati utili.",
+            "Apri Grab All Files e scansiona la pagina visualizzata. Nella ricerca di arXiv scegli prima 200 risultati per pagina, così una sola scansione vede tutto l’elenco. Controlla i titoli rilevati e gli URL di origine; «Recupera titoli dei PDF selezionati» legge il titolo dal PDF stesso.",
+            "Filtra per PDF e seleziona gli articoli che ti servono: la versione gratuita salva 10 file per download, quindi seleziona i 10 successivi e fai di nuovo clic su «Scarica» per continuare. Controlla a parte gli altri link pubblici e scegli solo i formati supportati utili.",
             "Verifica o modifica i titoli, scegli nomi e cartelle. Salva file o ZIP ed esporta il CSV per tenere traccia degli URL.",
             "Apri i PDF salvati e controlla il risultato. Annota URL e versione dell’articolo; per grandi raccolte usa i servizi ufficiali di arXiv."
           ],
@@ -7126,8 +7266,8 @@
               "a": "Solo link pubblici rilevati in formati supportati. Non ogni articolo offre tali file; un archivio esterno può richiedere una visita separata."
             },
             {
-              "q": "Posso salvare articoli gratis?",
-              "a": "Free salva fino a 10 file per operazione, ripetibile. Pro rimuove il limite di file. La raccolta gratuita salva una pagina scelta in HTML; Pro unisce più pagine selezionate."
+              "q": "Posso salvare questi articoli gratis?",
+              "a": "Sì. La versione gratuita salva fino a 10 file selezionati per download; per continuare, seleziona gli articoli successivi e fai di nuovo clic su «Scarica». Non viene bloccato nulla. Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download."
             },
             {
               "q": "A cosa servono titoli, ZIP e CSV?",
@@ -7177,8 +7317,8 @@
           ],
           "steps": [
             "arXiv에서 검색어, 분야, 기간을 좁혀 검색 결과나 논문 목록을 엽니다.",
-            "Grab All Files를 열고 표시된 페이지를 스캔합니다. 우선 해당 페이지에서 파일 제목과 원본 URL을 확인합니다.",
-            "PDF로 필터링하고 필요한 논문을 선택합니다. 다른 공개 링크는 별도로 확인하고 필요한 지원 형식만 선택합니다.",
+            "Grab All Files를 열고 표시된 페이지를 스캔합니다. arXiv 검색 결과는 먼저 페이지당 200개로 표시하면 한 번의 스캔으로 목록 전체를 찾습니다. 감지된 제목과 원본 URL을 확인하세요. “선택한 PDF 제목 가져오기”로 PDF 자체에서 제목을 읽을 수 있습니다.",
+            "PDF로 필터링하고 필요한 논문을 선택합니다. 무료 버전은 다운로드당 10개까지이므로 다음 10개를 체크하고 “다운로드”를 다시 눌러 이어 갑니다. 다른 공개 파일 링크는 따로 확인하고 필요한 지원 형식만 고르세요.",
             "제목을 확인·수정하고 저장 이름과 폴더 옵션을 고릅니다. 파일 또는 ZIP으로 저장하고 URL 기록용 파일 목록 CSV를 내보냅니다.",
             "저장된 PDF를 열어 결과를 확인합니다. 원본 URL과 논문 버전을 메모하고, 대규모 자료는 arXiv 공식 일괄 접근 서비스를 사용합니다."
           ],
@@ -7196,8 +7336,8 @@
               "a": "발견된 공개 링크 중 지원 형식만 선택할 수 있습니다. 모든 논문에 해당 자료가 있는 것은 아니며 외부 저장소는 별도로 확인해야 할 수 있습니다."
             },
             {
-              "q": "무료로 논문을 저장할 수 있나요?",
-              "a": "Free는 실행당 최대 10개 파일을 저장하고 반복 실행할 수 있습니다. Pro는 파일 수 제한을 해제합니다. 무료 페이지 수집은 선택한 1페이지를 HTML로 저장하고 Pro는 여러 선택 페이지를 결합합니다."
+              "q": "이 논문들을 무료로 저장할 수 있나요?",
+              "a": "예. 무료 버전은 다운로드당 선택한 파일을 최대 10개까지 저장합니다. 계속하려면 다음 논문을 선택하고 “다운로드”를 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
             },
             {
               "q": "제목·ZIP·CSV는 어떻게 도움이 되나요?",
@@ -7247,8 +7387,8 @@
           ],
           "steps": [
             "No arXiv, filtre palavras, categoria e período. Abra os resultados ou a lista de artigos.",
-            "Abra Grab All Files e escaneie a página exibida. Comece por essa página e confira títulos e URLs de origem.",
-            "Filtre por PDF e escolha os artigos. Confira outros links públicos separadamente e escolha apenas formatos compatíveis úteis.",
+            "Abra o Grab All Files e escaneie a página exibida. Na busca do arXiv, escolha antes 200 resultados por página para que uma só varredura veja a lista inteira. Confira os títulos detectados e as URLs de origem; “Obter títulos dos PDFs selecionados” lê o título no próprio PDF.",
+            "Filtre por PDF e selecione os artigos necessários: a versão gratuita salva 10 por download, então marque os 10 seguintes e clique em “Baixar” de novo para continuar. Confira à parte outros links públicos e escolha só os formatos compatíveis que interessam.",
             "Confira ou edite títulos e escolha nomes e pastas. Salve arquivos ou ZIP e exporte o CSV para registrar as URLs.",
             "Abra os PDFs salvos e confira o resultado. Anote URL e versão do artigo; para grandes coleções, use os serviços oficiais do arXiv."
           ],
@@ -7266,8 +7406,8 @@
               "a": "Apenas links públicos encontrados em formatos compatíveis podem ser escolhidos. Nem todo artigo oferece esses arquivos; repositórios externos podem exigir outra visita."
             },
             {
-              "q": "Posso salvar artigos grátis?",
-              "a": "O Free salva até 10 arquivos por operação, que pode ser repetida. O Pro remove o limite de arquivos. A coleta gratuita salva uma página escolhida em HTML; o Pro reúne várias páginas selecionadas."
+              "q": "Posso salvar esses artigos de graça?",
+              "a": "Sim. A versão gratuita salva até 10 arquivos selecionados por download; para continuar, selecione os próximos artigos e clique em “Baixar” de novo. Nada fica bloqueado. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download."
             },
             {
               "q": "Como títulos, ZIP e CSV ajudam?",
@@ -7306,7 +7446,7 @@
         },
         "zh_CN": {
           "title": "批量保存arXiv PDF与研究文件 | Grab All Files",
-          "desc": "扫描arXiv搜索结果，筛选并选择所需PDF，按标题、文件夹、ZIP或文件列表CSV保存。附实际扩展界面与流程图。",
+          "desc": "扫描arXiv搜索结果，筛选并选择所需论文PDF，按标题命名后保存为文件或ZIP，并用文件清单CSV记录来源URL。附实际扩展界面与流程图。",
           "eyebrow": "arXiv PDF与研究文件",
           "h1": "保存需要的arXiv论文。",
           "lead": "先在arXiv搜索，再把正在查看的论文列表整理成阅读资料夹。Grab All Files检测该页面的PDF与受支持格式的公开文件链接。由您核对列表并选择要保存的资料。",
@@ -7317,8 +7457,8 @@
           ],
           "steps": [
             "在arXiv按关键词、类别和时间筛选，打开目标搜索结果或论文列表。",
-            "打开Grab All Files并扫描当前页面。先从该页面开始，核对文件标题和来源URL。",
-            "筛选PDF并选择需要的论文。其他公开链接另行核对，只选择需要的受支持格式。",
+            "打开Grab All Files并扫描当前页面。在arXiv搜索结果中先选择每页显示200条，一次扫描即可覆盖整个列表。检查检测到的标题和来源URL；“获取所选PDF的标题”可从PDF本身读取标题。",
+            "按PDF筛选并选择需要的论文。免费版每次下载最多10个，继续时勾选接下来的10个并再次点击“下载”。其他公开文件链接请另行检查，只选择与研究相关的支持格式。",
             "检查或编辑标题，选择保存名称与文件夹方式。单独保存或打包ZIP，并导出文件列表CSV记录URL。",
             "打开已保存PDF核对结果。记录来源URL与论文版本；大规模论文集合使用arXiv官方批量访问服务。"
           ],
@@ -7336,8 +7476,8 @@
               "a": "仅能选择发现的公开链接与受支持格式。并非每篇论文都提供这些文件，外部仓库可能需要另行访问。"
             },
             {
-              "q": "可以免费保存论文吗？",
-              "a": "Free每次保存最多10个文件，可重复执行。Pro解除文件数量上限。免费页面收集保存选定的1页HTML，Pro可合并多个选定页面。"
+              "q": "可以免费保存这些论文吗？",
+              "a": "可以。免费版每次下载最多保存10个选中的文件；要继续，请选择接下来的论文并再次点击“下载”，不会被锁定。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的上限。"
             },
             {
               "q": "标题、ZIP与CSV有什么帮助？",
@@ -7376,7 +7516,7 @@
         },
         "zh_TW": {
           "title": "批次儲存arXiv PDF與研究檔案 | Grab All Files",
-          "desc": "掃描arXiv搜尋結果，篩選並選取所需PDF，依標題、資料夾、ZIP或檔案清單CSV儲存。附實際擴充畫面與流程圖。",
+          "desc": "掃描arXiv搜尋結果，篩選並選取所需論文PDF，依標題命名後儲存為檔案或ZIP，並用檔案清單CSV記錄來源URL。附實際擴充畫面與流程圖。",
           "eyebrow": "arXiv PDF與研究檔案",
           "h1": "儲存需要的arXiv論文。",
           "lead": "先在arXiv搜尋，再把正在查看的論文清單整理成閱讀資料夾。Grab All Files偵測該頁面的PDF與支援格式的公開檔案連結。由您核對清單並選取要儲存的資料。",
@@ -7387,8 +7527,8 @@
           ],
           "steps": [
             "在arXiv依關鍵字、類別和期間篩選，開啟目標搜尋結果或論文清單。",
-            "開啟Grab All Files並掃描目前頁面。先從該頁面開始，核對檔案標題和來源URL。",
-            "篩選PDF並選取需要的論文。其他公開連結另行核對，只選擇需要的支援格式。",
+            "開啟Grab All Files並掃描目前頁面。在arXiv搜尋結果中先選擇每頁顯示200筆，一次掃描即可涵蓋整個清單。檢查偵測到的標題和來源URL；「取得所選PDF的標題」可從PDF本身讀取標題。",
+            "依PDF篩選並選擇需要的論文。免費版每次下載最多10個，繼續時勾選接下來的10個並再次點擊「下載」。其他公開檔案連結請另行檢查，只選擇與研究相關的支援格式。",
             "檢查或編輯標題，選擇儲存名稱與資料夾方式。個別儲存或打包ZIP，並匯出檔案清單CSV記錄URL。",
             "開啟已儲存PDF核對結果。記錄來源URL與論文版本；大規模論文集合使用arXiv官方批次存取服務。"
           ],
@@ -7406,8 +7546,8 @@
               "a": "只能選取找到的公開連結與支援格式。並非每篇論文都提供這些檔案，外部儲存庫可能需另外造訪。"
             },
             {
-              "q": "可以免費儲存論文嗎？",
-              "a": "Free每次儲存最多10個檔案，可重複執行。Pro解除檔案數量上限。免費頁面收集儲存選定的1頁HTML，Pro可合併多個選定頁面。"
+              "q": "可以免費儲存這些論文嗎？",
+              "a": "可以。免費版每次下載最多儲存10個選取的檔案；若要繼續，請選取接下來的論文並再次點擊「下載」，不會被鎖定。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的上限。"
             },
             {
               "q": "標題、ZIP與CSV有什麼幫助？",
@@ -7465,7 +7605,7 @@
           "steps": [
             "Open the permitted source and choose “Combine pages into HTML” in the extension. Select the page with the table.",
             "Before collection, enable “AI analysis data (Markdown with sources)”, choose “Per-page Markdown” or “Full package”, and enable “Also export tables as CSV/JSON”.",
-            "Collect the page and save the AI ZIP. Inspect the CSV/JSON table files against the original headings, cells, units and notes. “Save AI analysis ZIP”",
+            "Collect the page and press “Save AI analysis ZIP”. Inspect the CSV/JSON table files against the original headings, cells, units and notes.",
             "Import a CSV into Excel or manually give supported files to your external AI service. Check dates, identifiers and the resulting analysis."
           ],
           "faq": [
@@ -7484,6 +7624,14 @@
             {
               "q": "Can I start with Free?",
               "a": "Free collects one chosen page; Pro can select multiple page bodies. The extension prepares files locally. You pass them to Excel or an external AI tool yourself."
+            },
+            {
+              "q": "What if a page needs me to sign in?",
+              "a": "Collection uses your own browser session and does not collect credentials. If a page is marked “Sign-in needed”, press “Open the site to sign in”, sign in in that tab, then press “Resume”. Pages that still need a sign-in are not saved, and the result says how many were left out."
+            },
+            {
+              "q": "The table appears only after scrolling or “Show more”. What should I do?",
+              "a": "Open “If a page is missing text: content and JavaScript settings”, turn on “Scroll down to load content that appears later” or “Press ‘Show more’ to include the continuation”, and collect again. Tables drawn as images or inside a PDF are not exported as CSV."
             }
           ],
           "guide": {
@@ -7543,7 +7691,7 @@
           "steps": [
             "閲覧・保存が許可された起点ページを開き、拡張機能の「ページをHTMLにまとめる」を選びます。表があるページを選択します。",
             "収集前に「AI分析用データ（Markdown・出典付き）」を有効にし、「ページ別Markdown」または「フルパッケージ」と「表をCSV/JSONとしても書き出す」を選びます。",
-            "ページを収集してAI ZIPを保存。CSV・JSONの表ファイルを開き、見出し・セル・単位・注記を原文と照合します。 “AI分析用ZIPを保存”",
+            "ページを収集して「AI分析用ZIPを保存」を押します。CSV・JSONの表ファイルを開き、見出し・セル・単位・注記を原文と照合します。",
             "CSVをExcelへ取り込むか、対応する資料を外部AIへ自分で渡します。日付や識別番号の扱い、分析結果を確認します。"
           ],
           "faq": [
@@ -7562,6 +7710,14 @@
             {
               "q": "無料版から試せますか？",
               "a": "無料版は選んだ1ページを収集し、Proは複数ページ本文を選べます。資料の準備は端末内で行い、Excelや外部AIへは自分で渡します。"
+            },
+            {
+              "q": "ログインが必要なページはどうなりますか？",
+              "a": "収集はブラウザのログイン状態をそのまま使い、認証情報は収集しません。「ログインが必要」と表示されたら「対象サイトを開いてログイン」を押し、開いたタブでログインしてから「再開」を押します。ログインできないままのページは保存されず、残ったページ数が結果に表示されます。"
+            },
+            {
+              "q": "表がスクロールや「もっと見る」の後にしか出ない場合は？",
+              "a": "「本文が欠けるとき：保存範囲とJavaScriptの設定」を開き、「下へスクロールして遅れて出る内容を読む」や「『もっと見る』を押して続きを含める」をオンにして収集し直してください。画像として描かれた表やPDF内の表はCSVになりません。"
             }
           ],
           "guide": {
@@ -7621,7 +7777,7 @@
           "steps": [
             "Abre la fuente permitida y elige «Combinar páginas en HTML» en la extensión. Elige la página con la tabla.",
             "Antes de recopilar, activa «Datos para análisis con IA (Markdown con fuentes)», elige «Markdown por página» o «Paquete completo» y activa «Exportar también las tablas como CSV/JSON».",
-            "Recopila y guarda el ZIP IA. Contrasta archivos CSV/JSON con encabezados, celdas, unidades y notas originales. “Guardar ZIP de análisis IA”",
+            "Recopila la página y pulsa «Guardar ZIP de análisis IA». Contrasta los archivos de tabla CSV/JSON con los encabezados, celdas, unidades y notas originales.",
             "Importa CSV en Excel o entrega manualmente archivos aceptados a tu IA externa. Revisa fechas, identificadores y resultados."
           ],
           "faq": [
@@ -7640,6 +7796,14 @@
             {
               "q": "¿Puedo empezar gratis?",
               "a": "Free recopila una página elegida; Pro selecciona varias. La preparación es local y tú entregas los archivos a Excel o IA externa."
+            },
+            {
+              "q": "¿Y si una página me pide iniciar sesión?",
+              "a": "La recopilación usa tu propia sesión del navegador y no recopila credenciales. Si una página aparece como «Inicio de sesión necesario», pulsa «Abrir el sitio para iniciar sesión», inicia sesión en esa pestaña y pulsa «Reanudar». Las páginas que sigan pidiendo sesión no se guardan, y el resultado indica cuántas quedaron fuera."
+            },
+            {
+              "q": "La tabla solo aparece al desplazarse o con «Mostrar más». ¿Qué hago?",
+              "a": "Abre «Si falta texto en una página: ajustes de contenido y JavaScript», activa «Desplazarse hacia abajo para cargar el contenido que aparece después» o «Pulsar “Mostrar más” para incluir la continuación» y vuelve a recopilar. Las tablas dibujadas como imagen o dentro de un PDF no se exportan a CSV."
             }
           ],
           "guide": {
@@ -7699,7 +7863,7 @@
           "steps": [
             "Ouvrez la source autorisée puis «Regrouper les pages en HTML» dans l’extension. Choisissez la page avec le tableau.",
             "Avant collecte, activez «Données pour analyse par IA (Markdown avec sources)», choisissez «Markdown par page» ou «Paquet complet» et «Exporter aussi les tableaux en CSV/JSON».",
-            "Collectez et enregistrez le ZIP IA. Comparez CSV/JSON aux colonnes, cellules, unités et notes originales. “Enregistrer le ZIP d’analyse IA”",
+            "Collectez la page et cliquez sur « Enregistrer le ZIP d’analyse IA ». Comparez les fichiers de tableau CSV/JSON aux en-têtes, cellules, unités et notes d’origine.",
             "Importez CSV dans Excel ou transmettez vous-même les fichiers acceptés à une IA externe. Vérifiez dates, identifiants et résultats."
           ],
           "faq": [
@@ -7718,6 +7882,14 @@
             {
               "q": "Puis-je commencer gratuitement ?",
               "a": "Free collecte une page choisie ; Pro en sélectionne plusieurs. Les fichiers sont préparés localement et vous les transmettez à Excel ou à une IA externe."
+            },
+            {
+              "q": "Et si une page me demande de me connecter ?",
+              "a": "La collecte utilise votre propre session de navigateur et ne collecte aucun identifiant. Si une page est marquée « Connexion nécessaire », cliquez sur « Ouvrir le site pour se connecter », connectez-vous dans cet onglet, puis cliquez sur « Reprendre ». Les pages qui exigent encore une connexion ne sont pas enregistrées, et le résultat indique combien ont été laissées de côté."
+            },
+            {
+              "q": "Le tableau n’apparaît qu’après un défilement ou « Afficher plus » : que faire ?",
+              "a": "Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Faire défiler vers le bas pour charger le contenu qui apparaît plus tard » ou « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Les tableaux dessinés en image ou contenus dans un PDF ne sont pas exportés en CSV."
             }
           ],
           "guide": {
@@ -7777,7 +7949,7 @@
           "steps": [
             "Öffnen Sie die erlaubte Quelle und wählen Sie „Seiten als HTML bündeln“ in der Erweiterung. Wählen Sie die Seite mit der Tabelle.",
             "Aktivieren Sie vor der Sammlung „KI-Analysedaten (Markdown mit Quellen)“, wählen Sie „Markdown je Seite“ oder „Komplettpaket“ und „Tabellen zusätzlich als CSV/JSON exportieren“.",
-            "Sammeln und speichern Sie das KI-ZIP. Prüfen Sie CSV/JSON an Originalspalten, Zellen, Einheiten und Hinweisen. “KI-Analyse-ZIP speichern”",
+            "Sammeln Sie die Seite und klicken Sie auf „KI-Analyse-ZIP speichern“. Prüfen Sie die CSV/JSON-Tabellendateien anhand der Originalüberschriften, Zellen, Einheiten und Hinweise.",
             "Importieren Sie CSV in Excel oder übergeben Sie passende Dateien selbst an externe KI. Prüfen Sie Datumswerte, Kennungen und Ergebnisse."
           ],
           "faq": [
@@ -7796,6 +7968,14 @@
             {
               "q": "Kann ich kostenlos beginnen?",
               "a": "Free sammelt eine gewählte Seite, Pro mehrere. Die Vorbereitung ist lokal; Dateien übergeben Sie selbst an Excel oder externe KI."
+            },
+            {
+              "q": "Was passiert, wenn eine Seite eine Anmeldung verlangt?",
+              "a": "Die Sammlung nutzt Ihre eigene Browser-Sitzung und sammelt keine Zugangsdaten. Ist eine Seite mit „Anmeldung erforderlich“ markiert, klicken Sie auf „Website zum Anmelden öffnen“, melden sich in diesem Tab an und klicken dann auf „Fortsetzen“. Seiten, die weiterhin eine Anmeldung verlangen, werden nicht gespeichert; das Ergebnis nennt ihre Anzahl."
+            },
+            {
+              "q": "Die Tabelle erscheint erst nach dem Scrollen oder „Mehr anzeigen“. Was tun?",
+              "a": "Öffnen Sie „Wenn Text auf einer Seite fehlt: Inhalts- und JavaScript-Einstellungen“, aktivieren Sie „Nach unten scrollen, um später erscheinende Inhalte zu laden“ oder „‚Mehr anzeigen‘ drücken, um die Fortsetzung einzubeziehen“ und sammeln Sie erneut. Tabellen als Bild oder in einem PDF werden nicht als CSV exportiert."
             }
           ],
           "guide": {
@@ -7855,7 +8035,7 @@
           "steps": [
             "Apri la fonte consentita e scegli «Unisci pagine in HTML» nell’estensione. Scegli la pagina con la tabella.",
             "Prima della raccolta attiva «Dati per analisi con IA (Markdown con fonti)», scegli «Markdown per pagina» o «Pacchetto completo» e «Esporta anche le tabelle come CSV/JSON».",
-            "Raccogli e salva lo ZIP IA. Confronta CSV/JSON con colonne, celle, unità e note originali. “Salva ZIP di analisi IA”",
+            "Raccogli la pagina e fai clic su «Salva ZIP di analisi IA». Confronta i file di tabella CSV/JSON con intestazioni, celle, unità e note originali.",
             "Importa CSV in Excel o consegna manualmente file accettati all’IA esterna. Verifica date, identificatori e risultati."
           ],
           "faq": [
@@ -7874,6 +8054,14 @@
             {
               "q": "Posso iniziare gratis?",
               "a": "Free raccoglie una pagina scelta; Pro ne seleziona più. I file si preparano localmente e li fornisci tu a Excel o IA esterna."
+            },
+            {
+              "q": "E se una pagina mi chiede di accedere?",
+              "a": "La raccolta usa la tua sessione del browser e non raccoglie credenziali. Se una pagina è segnata «Accesso necessario», fai clic su «Apri il sito per accedere», accedi in quella scheda e poi fai clic su «Riprendi». Le pagine che richiedono ancora l’accesso non vengono salvate e il risultato indica quante sono rimaste fuori."
+            },
+            {
+              "q": "La tabella compare solo dopo lo scorrimento o «Mostra altro». Cosa faccio?",
+              "a": "Apri «Se in una pagina manca del testo: impostazioni di contenuto e JavaScript», attiva «Scorri verso il basso per caricare il contenuto che appare in seguito» o «Premi “Mostra altro” per includere la continuazione» e ripeti la raccolta. Le tabelle disegnate come immagine o dentro un PDF non vengono esportate in CSV."
             }
           ],
           "guide": {
@@ -7933,7 +8121,7 @@
           "steps": [
             "허용된 시작 페이지를 열고 확장 프로그램의 “페이지를 HTML로 합치기”를 선택합니다.표가 있는 페이지를 선택합니다.",
             "수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 켜고 “페이지별 Markdown” 또는 “전체 패키지”, “표도 CSV/JSON으로 내보내기”를 선택합니다.",
-            "수집 후 AI ZIP을 저장합니다. CSV·JSON 표의 열·셀·단위·주석을 원본과 대조합니다. “AI 분석용 ZIP 저장”",
+            "페이지를 수집하고 “AI 분석용 ZIP 저장”을 누릅니다. CSV·JSON 표 파일의 머리글·셀·단위·주석을 원본과 대조합니다.",
             "CSV를 Excel로 가져오거나 지원 자료를 외부 AI에 직접 전달합니다. 날짜·식별번호와 분석 결과를 확인합니다."
           ],
           "faq": [
@@ -7952,6 +8140,14 @@
             {
               "q": "무료로 시작할 수 있나요?",
               "a": "Free는 선택한 1페이지, Pro는 여러 본문을 수집합니다. 파일은 기기에서 준비하고 Excel이나 외부 AI에 직접 전달합니다."
+            },
+            {
+              "q": "로그인이 필요한 페이지는 어떻게 되나요?",
+              "a": "수집은 브라우저의 로그인 상태를 그대로 사용하며 인증 정보를 수집하지 않습니다. “로그인 필요”로 표시되면 “사이트를 열어 로그인”을 누르고 열린 탭에서 로그인한 뒤 “재개”를 누르세요. 계속 로그인이 필요한 페이지는 저장되지 않으며, 남은 페이지 수가 결과에 표시됩니다."
+            },
+            {
+              "q": "표가 스크롤하거나 ‘더 보기’를 눌러야 나타나면요?",
+              "a": "“페이지에서 본문이 빠질 때: 내용 및 JavaScript 설정”을 열고 “아래로 스크롤해 나중에 나타나는 내용 불러오기”나 “‘더 보기’를 눌러 이어지는 내용 포함”을 켠 뒤 다시 수집하세요. 이미지로 그려진 표나 PDF 안의 표는 CSV로 내보내지 않습니다."
             }
           ],
           "guide": {
@@ -8011,7 +8207,7 @@
           "steps": [
             "Abra a fonte permitida e escolha “Juntar páginas em HTML” na extensão. Escolha a página com a tabela.",
             "Antes da coleta ative “Dados para análise com IA (Markdown com fontes)”, escolha “Markdown por página” ou “Pacote completo” e “Também exportar tabelas como CSV/JSON”.",
-            "Colete e salve o ZIP IA. Compare CSV/JSON com colunas, células, unidades e notas originais. “Salvar ZIP de análise IA”",
+            "Colete a página e clique em “Salvar ZIP de análise IA”. Compare os arquivos de tabela CSV/JSON com os cabeçalhos, células, unidades e notas originais.",
             "Importe CSV no Excel ou entregue manualmente arquivos aceitos à IA externa. Confira datas, identificadores e resultados."
           ],
           "faq": [
@@ -8030,6 +8226,14 @@
             {
               "q": "Posso começar grátis?",
               "a": "O Free coleta uma página escolhida, o Pro várias. Os arquivos são preparados localmente e você os entrega ao Excel ou IA externa."
+            },
+            {
+              "q": "E se uma página pedir login?",
+              "a": "A coleta usa a sua própria sessão do navegador e não coleta credenciais. Se uma página aparecer como “Login necessário”, clique em “Abrir o site para fazer login”, entre nessa aba e clique em “Retomar”. Páginas que continuarem exigindo login não são salvas, e o resultado informa quantas ficaram de fora."
+            },
+            {
+              "q": "A tabela só aparece depois de rolar ou de “Mostrar mais”. O que faço?",
+              "a": "Abra “Se faltar texto em uma página: configurações de conteúdo e JavaScript”, ative “Rolar para baixo para carregar o conteúdo que aparece depois” ou “Pressionar ‘Mostrar mais’ para incluir a continuação” e colete de novo. Tabelas desenhadas como imagem ou dentro de um PDF não são exportadas para CSV."
             }
           ],
           "guide": {
@@ -8080,7 +8284,7 @@
         "zh_CN": {
           "title": "网页表格保存为CSV供Excel与AI分析 | Grab All Files",
           "h1": "将网页表格用于Excel或AI。",
-          "desc": "将支持的网页表格导出为CSV，检查列名与单位，再导入Excel或手动交给外部AI进行比较与分析。",
+          "desc": "将网页中支持的HTML表格导出为CSV或JSON，核对列名、单位和注释后导入Excel，或手动交给外部AI进行比较与分析。全程在浏览器中完成。",
           "lead": "将需要的网页表格整理为可排序、筛选与比较的数据。通过页面收集器的AI输出准备表格文件，选择在Excel或外部AI中使用。请确认使用的页面和资料。",
           "best": [
             "保留单位与注释，比较公开费用或条件表。",
@@ -8089,7 +8293,7 @@
           "steps": [
             "打开允许保存的来源，在扩展中选择“将网页合并为 HTML”。选择含表格的页面。",
             "收集前启用“AI分析数据（带出处的Markdown）”，选择“按页Markdown”或“完整包”并启用“同时将表格导出为CSV/JSON”。",
-            "收集后保存AI ZIP，将CSV、JSON表格的列名、单元格、单位与注释同原表核对。 “保存AI分析ZIP”",
+            "收集页面后点击“保存AI分析ZIP”。将CSV、JSON表格文件的列名、单元格、单位与注释同原表核对。",
             "将CSV导入Excel，或手动将支持的文件交给外部AI。检查日期、标识编号与分析结果。"
           ],
           "faq": [
@@ -8099,7 +8303,7 @@
             },
             {
               "q": "任何表格都能变成CSV吗？",
-              "a": "选择按页面或完整资料包并启用表格导出后，在支持范围内提取有意义的HTML表格。布局表格被排除，不保证图片或PDF画面中的表格能转为数据。"
+              "a": "选择按页面或完整包并启用表格导出后，在支持范围内提取有意义的HTML表格。布局表格被排除，不保证图片或PDF画面中的表格能转为数据。"
             },
             {
               "q": "能直接输出XLSX吗？",
@@ -8108,6 +8312,14 @@
             {
               "q": "可以从免费版开始吗？",
               "a": "Free收集所选1页，Pro可选择多个页面正文。文件在设备上准备，由您交给Excel或外部AI。"
+            },
+            {
+              "q": "需要登录的页面怎么办？",
+              "a": "收集直接使用您浏览器的登录状态，不收集凭据。页面显示“需要登录”时，请点击“打开网站进行登录”，在打开的标签页中登录后点击“继续”。仍需登录的页面不会被保存，结果中会显示剩余页面数。"
+            },
+            {
+              "q": "表格要滚动或点击“显示更多”后才出现，怎么办？",
+              "a": "请打开“页面缺少文字时：内容和 JavaScript 设置”，开启“向下滚动以加载稍后出现的内容”或“点击‘显示更多’以包含后续内容”，然后重新收集。以图片形式绘制的表格或PDF中的表格不会导出为CSV。"
             }
           ],
           "guide": {
@@ -8141,7 +8353,7 @@
             "rows": [
               [
                 "CSV / JSON",
-                "选择按页面或完整资料包并启用表格导出，检查提取的单元格。"
+                "选择按页面或完整包并启用表格导出，检查提取的单元格。"
               ],
               [
                 "Markdown / JSONL / manifest",
@@ -8158,7 +8370,7 @@
         "zh_TW": {
           "title": "網頁表格儲存為CSV供Excel與AI分析 | Grab All Files",
           "h1": "將網頁表格用於Excel或AI。",
-          "desc": "將支援的網頁表格匯出為CSV，檢查欄名與單位，再匯入Excel或手動交給外部AI進行比較與分析。",
+          "desc": "將網頁中支援的HTML表格匯出為CSV或JSON，核對欄名、單位和註記後匯入Excel，或手動交給外部AI進行比較與分析。全程在瀏覽器中完成。",
           "lead": "將需要的網頁表格整理為可排序、篩選與比較的資料。透過頁面收集器的AI輸出準備表格檔案，選擇在Excel或外部AI中使用。請確認使用的頁面及資料。",
           "best": [
             "保留單位與註記，比較公開費用或條件表。",
@@ -8167,7 +8379,7 @@
           "steps": [
             "開啟允許儲存的來源，在擴充功能中選擇「將網頁合併為 HTML」。選擇含表格的頁面。",
             "收集前啟用「AI分析資料（附出處的Markdown）」，選擇「逐頁Markdown」或「完整套件」並啟用「同時將表格匯出為CSV/JSON」。",
-            "收集後儲存AI ZIP，將CSV、JSON表格的欄名、儲存格、單位與註記和原表核對。 “儲存AI分析ZIP”",
+            "收集頁面後點擊「儲存AI分析ZIP」。將CSV、JSON表格檔案的欄名、儲存格、單位與註記和原表核對。",
             "將CSV匯入Excel，或手動將支援檔案交給外部AI。檢查日期、識別編號與分析結果。"
           ],
           "faq": [
@@ -8177,7 +8389,7 @@
             },
             {
               "q": "任何表格都能變成CSV嗎？",
-              "a": "選擇按頁面或完整資料包並啟用表格匯出後，在支援範圍內擷取有意義的HTML表格。排版表格會被排除，不保證圖片或PDF畫面中的表格能轉為資料。"
+              "a": "選擇按頁面或完整套件並啟用表格匯出後，在支援範圍內擷取有意義的HTML表格。排版表格會被排除，不保證圖片或PDF畫面中的表格能轉為資料。"
             },
             {
               "q": "能直接輸出XLSX嗎？",
@@ -8186,6 +8398,14 @@
             {
               "q": "可以從免費版開始嗎？",
               "a": "Free收集所選1頁，Pro可選擇多個頁面正文。檔案在裝置上準備，由您交給Excel或外部AI。"
+            },
+            {
+              "q": "需要登入的頁面怎麼辦？",
+              "a": "收集直接使用您瀏覽器的登入狀態，不收集憑證。頁面顯示「需要登入」時，請點擊「開啟網站進行登入」，在開啟的分頁中登入後點擊「繼續」。仍需登入的頁面不會被儲存，結果中會顯示剩餘頁面數。"
+            },
+            {
+              "q": "表格要捲動或點選「顯示更多」後才出現，怎麼辦？",
+              "a": "請開啟「頁面缺少文字時：內容和 JavaScript 設定」，開啟「向下捲動以載入稍後出現的內容」或「點選『顯示更多』以包含後續內容」，然後重新收集。以圖片形式繪製的表格或PDF中的表格不會匯出為CSV。"
             }
           ],
           "guide": {
@@ -8219,7 +8439,7 @@
             "rows": [
               [
                 "CSV / JSON",
-                "選擇按頁面或完整資料包並啟用表格匯出，檢查擷取的儲存格。"
+                "選擇按頁面或完整套件並啟用表格匯出，檢查擷取的儲存格。"
               ],
               [
                 "Markdown / JSONL / manifest",
@@ -8254,7 +8474,7 @@
           "steps": [
             "Open the permitted source and choose “Combine pages into HTML” in the extension. Select the pages and note the source’s stated revision yourself.",
             "Save the collection with a recognizable before label. Later, manually collect the same site and comparable page scope and save a separate after copy.",
-            "After the later collection, save the previous-run change report. Check added, updated and removed-or-unavailable entries against collection results. “Save change report vs. previous run”",
+            "After the later collection, press “Save change report vs. previous run”. Check added, updated and removed-or-unavailable entries against the collection results.",
             "Read the two originals side by side or manually give supported before/after files to an external comparison tool or AI. Confirm any claimed change in the source wording."
           ],
           "faq": [
@@ -8271,8 +8491,16 @@
               "a": "You collect again manually. Use previously saved material or versions published by the source; it does not monitor pages automatically or recover an older version you never saved."
             },
             {
-              "q": "How do I identify the revision and use Free?",
-              "a": "Record the source’s revision yourself in titles or notes. AI output source URLs and capture dates help with tracing. Free selects one page; Pro can collect multiple page bodies."
+              "q": "How do I record the revision, and what does Free cover?",
+              "a": "Record the source’s stated revision yourself in titles or notes; the source URLs and capture dates in the AI output help with tracing. Free saves one chosen page per run, so compare one key page at a time; Pro collects multiple selected pages, which suits comparing a whole section."
+            },
+            {
+              "q": "What if a page needs me to sign in?",
+              "a": "Collection uses your own browser session and does not collect credentials. If a page is marked “Sign-in needed”, press “Open the site to sign in”, sign in in that tab, then press “Resume”. Pages that still need a sign-in are not saved, and the result says how many were left out."
+            },
+            {
+              "q": "Why is some text missing from the saved page?",
+              "a": "Some sites add text only after you scroll or click. Open “If a page is missing text: content and JavaScript settings”, turn on “Scroll down to load content that appears later” or “Press ‘Show more’ to include the continuation”, and collect again. If the wrong part of the page was kept, use “Select on screen” there to pick the main text."
             }
           ],
           "guide": {
@@ -8328,7 +8556,7 @@
           "steps": [
             "閲覧・保存が許可された起点ページを開き、拡張機能の「ページをHTMLにまとめる」を選びます。対象ページを選び、資料に表記された版は自分のメモへ控えます。",
             "「改訂前」など分かる名前で収集資料を保存。あとで同じサイト・比較できる取得範囲を手動で再収集し、「改訂後」として別に保存します。",
-            "後の収集が完了したら、前回との差分レポートを保存します。追加・更新・削除または取得不可の項目を、収集結果と照合します。 “前回との差分レポートを保存”",
+            "後の収集が完了したら「前回との差分レポートを保存」を押します。追加・更新・削除または取得不可の項目を、収集結果と照合します。",
             "前後の原文を並べて読むか、対応ファイルを外部AI・比較ツールへ自分で渡します。変更と判断した箇所は、両方の原文で確認します。"
           ],
           "faq": [
@@ -8345,8 +8573,16 @@
               "a": "再収集は利用者が手動で行います。保存済みの資料や元サイトが公開している過去版を使います。自動監視や、取得していない過去版の復元としては案内していません。"
             },
             {
-              "q": "資料の版や無料版の扱いは？",
-              "a": "元資料に表記された版は、利用者がタイトルやメモへ控えます。AI出力の元URL・取得日は出典の照合に使えます。無料版は選んだ1ページ、Proは複数ページ本文を収集できます。"
+              "q": "資料の版の記録と、無料版でできる範囲は？",
+              "a": "元資料に記載された版は、自分でタイトルやメモに控えます。AI出力の元URL・取得日時は出典の照合に役立ちます。無料版は1回に選んだ1ページを保存するため、重要なページを1つずつ比べます。Proは選んだ複数ページを収集できるので、章全体の比較に向いています。"
+            },
+            {
+              "q": "ログインが必要なページはどうなりますか？",
+              "a": "収集はブラウザのログイン状態をそのまま使い、認証情報は収集しません。「ログインが必要」と表示されたら「対象サイトを開いてログイン」を押し、開いたタブでログインしてから「再開」を押します。ログインできないままのページは保存されず、残ったページ数が結果に表示されます。"
+            },
+            {
+              "q": "保存したページの本文が一部欠けるのはなぜですか？",
+              "a": "スクロールやクリックの後で本文を表示するサイトがあります。「本文が欠けるとき：保存範囲とJavaScriptの設定」を開き、「下へスクロールして遅れて出る内容を読む」や「『もっと見る』を押して続きを含める」をオンにして収集し直してください。ページの別の部分が保存された場合は、そこにある「画面で選ぶ」で本文の範囲を指定できます。"
             }
           ],
           "guide": {
@@ -8402,7 +8638,7 @@
           "steps": [
             "Abre la fuente permitida y elige «Combinar páginas en HTML» en la extensión. Elige páginas y anota la revisión declarada.",
             "Guarda el conjunto como «antes». Más tarde recopila manualmente el mismo sitio con un alcance comparable y guarda «después» por separado.",
-            "Tras la nueva recopilación guarda el informe de cambios. Contrasta añadidos, actualizados y eliminados o no disponibles con los resultados. “Guardar informe de cambios vs. ejecución anterior”",
+            "Tras la nueva recopilación, pulsa «Guardar informe de cambios vs. ejecución anterior». Contrasta las entradas añadidas, actualizadas y eliminadas o no disponibles con los resultados.",
             "Lee los dos originales o entrega manualmente archivos compatibles a una herramienta externa o IA. Confirma cada cambio en los textos."
           ],
           "faq": [
@@ -8419,8 +8655,16 @@
               "a": "Tú recopilas de nuevo manualmente. Usa copias guardadas o versiones publicadas; no se presenta vigilancia automática ni recuperación de versiones nunca recopiladas."
             },
             {
-              "q": "¿Cómo registro la versión y uso Free?",
-              "a": "Anota tú mismo la versión en títulos o notas. URL y fechas del export IA ayudan a rastrear. Free elige una página; Pro puede recopilar varias."
+              "q": "¿Cómo registro la versión y qué cubre la versión gratuita?",
+              "a": "Anota tú mismo la versión indicada por la fuente en títulos o notas; las URL de origen y las fechas de captura de la salida para IA ayudan a rastrearla. La versión gratuita guarda una página elegida por vez, así que compara una página clave cada vez; Pro recopila varias páginas seleccionadas, ideal para comparar una sección entera."
+            },
+            {
+              "q": "¿Y si una página me pide iniciar sesión?",
+              "a": "La recopilación usa tu propia sesión del navegador y no recopila credenciales. Si una página aparece como «Inicio de sesión necesario», pulsa «Abrir el sitio para iniciar sesión», inicia sesión en esa pestaña y pulsa «Reanudar». Las páginas que sigan pidiendo sesión no se guardan, y el resultado indica cuántas quedaron fuera."
+            },
+            {
+              "q": "¿Por qué falta texto en la página guardada?",
+              "a": "Algunos sitios añaden texto solo después de desplazarte o hacer clic. Abre «Si falta texto en una página: ajustes de contenido y JavaScript», activa «Desplazarse hacia abajo para cargar el contenido que aparece después» o «Pulsar “Mostrar más” para incluir la continuación» y vuelve a recopilar. Si se guardó otra parte de la página, usa ahí «Seleccionar en pantalla» para elegir el texto principal."
             }
           ],
           "guide": {
@@ -8476,7 +8720,7 @@
           "steps": [
             "Ouvrez la source autorisée puis «Regrouper les pages en HTML» dans l’extension. Choisissez les pages et notez la révision affichée.",
             "Enregistrez un ensemble «avant». Plus tard, recollectez manuellement le même site avec un périmètre comparable et gardez «après» séparément.",
-            "Après la nouvelle collecte, enregistrez le rapport de changements. Comparez ajouts, mises à jour et suppressions ou indisponibilités aux résultats. “Enregistrer le rapport de modifications vs exécution précédente”",
+            "Après la nouvelle collecte, cliquez sur « Enregistrer le rapport de modifications vs exécution précédente ». Comparez ajouts, mises à jour et suppressions ou indisponibilités aux résultats.",
             "Lisez les originaux ou transmettez vous-même les fichiers acceptés à un outil externe ou IA. Confirmez chaque changement dans les textes."
           ],
           "faq": [
@@ -8493,8 +8737,16 @@
               "a": "Vous recollectez manuellement. Utilisez les copies conservées ou versions publiées ; aucune surveillance automatique ni récupération d’une version jamais collectée n’est présentée."
             },
             {
-              "q": "Comment noter la révision et utiliser Free ?",
-              "a": "Notez vous-même la révision dans titre ou notes. URL et dates de l’export IA aident au suivi. Free sélectionne une page ; Pro peut en collecter plusieurs."
+              "q": "Comment noter la révision, et que couvre la version gratuite ?",
+              "a": "Notez vous-même la révision indiquée par la source dans vos titres ou notes ; les URL sources et dates de capture de la sortie IA aident au suivi. La version gratuite enregistre une page choisie par passage : comparez donc une page clé à la fois ; Pro collecte plusieurs pages choisies, ce qui convient pour comparer une rubrique entière."
+            },
+            {
+              "q": "Et si une page me demande de me connecter ?",
+              "a": "La collecte utilise votre propre session de navigateur et ne collecte aucun identifiant. Si une page est marquée « Connexion nécessaire », cliquez sur « Ouvrir le site pour se connecter », connectez-vous dans cet onglet, puis cliquez sur « Reprendre ». Les pages qui exigent encore une connexion ne sont pas enregistrées, et le résultat indique combien ont été laissées de côté."
+            },
+            {
+              "q": "Pourquoi manque-t-il du texte dans la page enregistrée ?",
+              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Faire défiler vers le bas pour charger le contenu qui apparaît plus tard » ou « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l'écran » pour désigner le texte principal."
             }
           ],
           "guide": {
@@ -8541,7 +8793,7 @@
         "de": {
           "title": "Dokumentstände speichern und vergleichen | Grab All Files",
           "h1": "Vorher und nachher sichern. Änderungen prüfen.",
-          "desc": "Material vor und nach einer Änderung sichern, den Bericht zur vorherigen Sammlung prüfen und Formulierungen mit Originalen oder externen Werkzeugen vergleichen.",
+          "desc": "Material vor und nach einer Änderung sichern, den Bericht zur vorherigen Sammlung prüfen und Formulierungen mit den Originalen vergleichen.",
           "lead": "Bewahren Sie getrennte Kopien auf, um geprüfte Formulierungen nachvollziehbar zu machen. Der Bericht zur vorherigen Sammlung zeigt betroffene Seiten; lesen Sie danach die Originale oder vergleichen Sie Inhalte mit externen Werkzeugen oder KI.",
           "best": [
             "Geänderte Abläufe oder Voraussetzungen mit gesicherten Kopien prüfen.",
@@ -8550,7 +8802,7 @@
           "steps": [
             "Öffnen Sie die erlaubte Quelle und wählen Sie „Seiten als HTML bündeln“ in der Erweiterung. Wählen Sie Seiten und notieren Sie die genannte Revision.",
             "Speichern Sie einen erkennbaren Vorher-Stand. Sammeln Sie später dieselbe Site manuell mit vergleichbarem Umfang und speichern Sie einen separaten Nachher-Stand.",
-            "Speichern Sie nach der neuen Sammlung den Änderungsbericht. Prüfen Sie hinzugefügte, aktualisierte und entfernte oder nicht verfügbare Einträge an den Ergebnissen. “Änderungsbericht zum vorherigen Lauf speichern”",
+            "Klicken Sie nach der neuen Sammlung auf „Änderungsbericht zum vorherigen Lauf speichern“. Prüfen Sie hinzugefügte, aktualisierte und entfernte oder nicht verfügbare Einträge anhand der Ergebnisse.",
             "Lesen Sie beide Originale oder geben Sie passende Dateien selbst an externe Werkzeuge oder KI. Prüfen Sie behauptete Änderungen an den Texten."
           ],
           "faq": [
@@ -8567,8 +8819,16 @@
               "a": "Sie sammeln erneut manuell. Verwenden Sie gesicherte oder veröffentlichte Versionen; automatische Überwachung und Wiederherstellung nie gesammelter Stände werden nicht beschrieben."
             },
             {
-              "q": "Wie notiere ich Revisionen und nutze Free?",
-              "a": "Notieren Sie die Revision selbst im Titel oder in Notizen. KI-Quell-URLs und Erfassungsdaten helfen beim Nachweis. Free wählt eine Seite, Pro mehrere."
+              "q": "Wie halte ich die Revision fest, und was deckt die kostenlose Version ab?",
+              "a": "Notieren Sie die angegebene Revision der Quelle selbst in Titeln oder Notizen; Quell-URLs und Erfassungszeitpunkte in der KI-Ausgabe helfen beim Nachverfolgen. Die kostenlose Version speichert pro Durchgang eine gewählte Seite – vergleichen Sie also jeweils eine Schlüsselseite; Pro sammelt mehrere ausgewählte Seiten und eignet sich für ganze Abschnitte."
+            },
+            {
+              "q": "Was passiert, wenn eine Seite eine Anmeldung verlangt?",
+              "a": "Die Sammlung nutzt Ihre eigene Browser-Sitzung und sammelt keine Zugangsdaten. Ist eine Seite mit „Anmeldung erforderlich“ markiert, klicken Sie auf „Website zum Anmelden öffnen“, melden sich in diesem Tab an und klicken dann auf „Fortsetzen“. Seiten, die weiterhin eine Anmeldung verlangen, werden nicht gespeichert; das Ergebnis nennt ihre Anzahl."
+            },
+            {
+              "q": "Warum fehlt Text in der gespeicherten Seite?",
+              "a": "Manche Websites zeigen Text erst nach Scrollen oder einem Klick. Öffnen Sie „Wenn Text auf einer Seite fehlt: Inhalts- und JavaScript-Einstellungen“, aktivieren Sie „Nach unten scrollen, um später erscheinende Inhalte zu laden“ oder „‚Mehr anzeigen‘ drücken, um die Fortsetzung einzubeziehen“ und sammeln Sie erneut. Wurde ein falscher Seitenteil übernommen, wählen Sie dort mit „Auf dem Bildschirm auswählen“ den Haupttext."
             }
           ],
           "guide": {
@@ -8624,7 +8884,7 @@
           "steps": [
             "Apri la fonte consentita e scegli «Unisci pagine in HTML» nell’estensione. Scegli le pagine e annota la revisione dichiarata.",
             "Salva un insieme «prima». Più tardi raccogli manualmente lo stesso sito con un ambito comparabile e salva «dopo» separatamente.",
-            "Dopo la nuova raccolta salva il rapporto di cambiamenti. Confronta aggiunte, aggiornamenti e voci rimosse o non disponibili con i risultati. “Salva rapporto modifiche vs esecuzione precedente”",
+            "Dopo la nuova raccolta fai clic su «Salva rapporto modifiche vs esecuzione precedente». Confronta aggiunte, aggiornamenti e voci rimosse o non disponibili con i risultati.",
             "Leggi i due originali o fornisci manualmente file accettati a strumenti esterni o IA. Conferma i cambiamenti nei testi."
           ],
           "faq": [
@@ -8641,8 +8901,16 @@
               "a": "Raccogli di nuovo manualmente. Usa copie salvate o versioni pubblicate; non sono previsti monitoraggio automatico né recupero di versioni mai raccolte."
             },
             {
-              "q": "Come registro revisioni e uso Free?",
-              "a": "Annota la revisione in titoli o note. URL e date nell’output IA aiutano la tracciabilità. Free sceglie una pagina; Pro può raccoglierne più."
+              "q": "Come registro la revisione e cosa copre la versione gratuita?",
+              "a": "Annota tu la revisione indicata dalla fonte in titoli o note; gli URL di origine e le date di acquisizione nell’output per l’IA aiutano a tracciarla. La versione gratuita salva una pagina scelta per volta, quindi confronta una pagina chiave alla volta; Pro raccoglie più pagine scelte, utile per confrontare un’intera sezione."
+            },
+            {
+              "q": "E se una pagina mi chiede di accedere?",
+              "a": "La raccolta usa la tua sessione del browser e non raccoglie credenziali. Se una pagina è segnata «Accesso necessario», fai clic su «Apri il sito per accedere», accedi in quella scheda e poi fai clic su «Riprendi». Le pagine che richiedono ancora l’accesso non vengono salvate e il risultato indica quante sono rimaste fuori."
+            },
+            {
+              "q": "Perché nella pagina salvata manca del testo?",
+              "a": "Alcuni siti aggiungono testo solo dopo uno scorrimento o un clic. Apri «Se in una pagina manca del testo: impostazioni di contenuto e JavaScript», attiva «Scorri verso il basso per caricare il contenuto che appare in seguito» o «Premi “Mostra altro” per includere la continuazione» e ripeti la raccolta. Se è stata salvata un’altra parte della pagina, usa lì «Seleziona sullo schermo» per indicare il testo principale."
             }
           ],
           "guide": {
@@ -8698,7 +8966,7 @@
           "steps": [
             "허용된 시작 페이지를 열고 확장 프로그램의 “페이지를 HTML로 합치기”를 선택합니다.페이지를 선택하고 표기된 버전을 직접 메모합니다.",
             "‘개정 전’처럼 알아볼 이름으로 저장합니다. 나중에 같은 사이트의 비교 가능한 범위를 직접 재수집해 ‘개정 후’를 따로 저장합니다.",
-            "다음 수집이 완료되면 이전 수집과의 변경 보고서를 저장하고 추가·갱신·삭제 또는 이용 불가 항목을 결과와 비교합니다. “이전 실행과의 변경 보고서 저장”",
+            "다음 수집이 끝나면 “이전 실행과의 변경 보고서 저장”을 누릅니다. 추가·갱신·삭제 또는 이용 불가 항목을 수집 결과와 비교합니다.",
             "원문을 나란히 읽거나 지원 파일을 외부 AI·비교 도구에 직접 전달합니다. 변경 판단은 양쪽 원문에서 확인합니다."
           ],
           "faq": [
@@ -8715,8 +8983,16 @@
               "a": "재수집은 직접 실행합니다. 이미 저장했거나 사이트가 공개한 과거 자료를 사용하며 자동 감시나 미수집 과거 버전 복원으로 안내하지 않습니다."
             },
             {
-              "q": "버전 기록과 무료 이용은 어떻게 하나요?",
-              "a": "자료 버전은 제목이나 메모에 직접 적습니다. AI 출력의 출처 URL·수집일은 대조에 쓸 수 있습니다. Free는 1페이지, Pro는 여러 본문을 수집합니다."
+              "q": "버전 기록은 어떻게 하고, 무료 버전은 어디까지 되나요?",
+              "a": "자료에 표기된 버전은 제목이나 메모에 직접 기록하세요. AI 출력의 출처 URL과 수집 일시는 대조에 도움이 됩니다. 무료 버전은 한 번에 선택한 1페이지를 저장하므로 중요한 페이지를 하나씩 비교하고, Pro는 선택한 여러 페이지를 수집하므로 섹션 전체를 비교하기에 알맞습니다."
+            },
+            {
+              "q": "로그인이 필요한 페이지는 어떻게 되나요?",
+              "a": "수집은 브라우저의 로그인 상태를 그대로 사용하며 인증 정보를 수집하지 않습니다. “로그인 필요”로 표시되면 “사이트를 열어 로그인”을 누르고 열린 탭에서 로그인한 뒤 “재개”를 누르세요. 계속 로그인이 필요한 페이지는 저장되지 않으며, 남은 페이지 수가 결과에 표시됩니다."
+            },
+            {
+              "q": "저장한 페이지에서 본문 일부가 빠지는 이유는요?",
+              "a": "스크롤하거나 클릭한 뒤에야 본문을 보여 주는 사이트가 있습니다. “페이지에서 본문이 빠질 때: 내용 및 JavaScript 설정”을 열고 “아래로 스크롤해 나중에 나타나는 내용 불러오기”나 “‘더 보기’를 눌러 이어지는 내용 포함”을 켠 뒤 다시 수집하세요. 페이지의 다른 부분이 저장되었다면 그곳의 “화면에서 선택”으로 본문 범위를 지정할 수 있습니다."
             }
           ],
           "guide": {
@@ -8772,7 +9048,7 @@
           "steps": [
             "Abra a fonte permitida e escolha “Juntar páginas em HTML” na extensão. Escolha as páginas e anote a revisão declarada.",
             "Salve um conjunto ‘antes’. Depois colete manualmente o mesmo site com escopo comparável e guarde ‘depois’ separadamente.",
-            "Após a nova coleta salve o relatório de mudanças. Confira itens adicionados, atualizados e removidos ou indisponíveis com os resultados. “Salvar relatório de mudanças vs. execução anterior”",
+            "Após a nova coleta, clique em “Salvar relatório de mudanças vs. execução anterior”. Confira os itens adicionados, atualizados e removidos ou indisponíveis com os resultados.",
             "Leia os dois originais ou entregue arquivos aceitos manualmente a ferramenta externa ou IA. Confirme mudanças nos textos."
           ],
           "faq": [
@@ -8789,8 +9065,16 @@
               "a": "Você coleta novamente de forma manual. Use cópias salvas ou versões publicadas; não se descrevem monitoramento automático ou recuperação de versões nunca coletadas."
             },
             {
-              "q": "Como registro revisão e uso Free?",
-              "a": "Anote a revisão em títulos ou notas. URLs e datas do export IA ajudam a rastrear. O Free escolhe uma página; o Pro pode coletar várias."
+              "q": "Como registro a revisão e o que a versão gratuita cobre?",
+              "a": "Anote você mesmo a revisão indicada pela fonte em títulos ou notas; as URLs de origem e as datas de captura da saída para IA ajudam a rastrear. A versão gratuita salva uma página escolhida por vez, então compare uma página-chave de cada vez; o Pro coleta várias páginas escolhidas, o que serve para comparar uma seção inteira."
+            },
+            {
+              "q": "E se uma página pedir login?",
+              "a": "A coleta usa a sua própria sessão do navegador e não coleta credenciais. Se uma página aparecer como “Login necessário”, clique em “Abrir o site para fazer login”, entre nessa aba e clique em “Retomar”. Páginas que continuarem exigindo login não são salvas, e o resultado informa quantas ficaram de fora."
+            },
+            {
+              "q": "Por que falta texto na página salva?",
+              "a": "Alguns sites só adicionam texto depois que você rola ou clica. Abra “Se faltar texto em uma página: configurações de conteúdo e JavaScript”, ative “Rolar para baixo para carregar o conteúdo que aparece depois” ou “Pressionar ‘Mostrar mais’ para incluir a continuação” e colete de novo. Se outra parte da página foi salva, use ali “Selecionar na tela” para escolher o texto principal."
             }
           ],
           "guide": {
@@ -8837,7 +9121,7 @@
         "zh_CN": {
           "title": "保存修订前后的网页资料并比较 | Grab All Files",
           "h1": "保留前后资料，方便核对变化。",
-          "desc": "分别保存修订前后资料，用与前次收集比较的报告确定页面，再通过原文或外部AI、比较工具核对步骤、条件与例外的变化。",
+          "desc": "分别保存修订前后的资料，用与上次收集比较的变更报告找出变化的页面，再对照原文或借助外部比较工具、AI核对步骤、条件与例外的变化。",
           "lead": "保留确认时的资料，便于解释哪些文字发生变化。先用前次收集变化报告找到相关页面，再阅读前后原文，或将资料交给外部比较工具、AI比较内容。",
           "best": [
             "将修订后的步骤、要求或公开说明与保存副本核对。",
@@ -8846,7 +9130,7 @@
           "steps": [
             "打开允许保存的来源，在扩展中选择“将网页合并为 HTML”。选择页面并自行记录资料标明的版本。",
             "以“修订前”等清晰名称保存。之后手动重新收集同一网站的可比较范围，另存“修订后”。",
-            "后次收集完成后保存与前次比较的变化报告，将新增、更新、移除或无法获取的条目同结果核对。 “保存与上次收集的变更报告”",
+            "后一次收集完成后，点击“保存与上次收集的变更报告”。将新增、更新、移除或无法获取的条目同收集结果核对。",
             "并排阅读原文，或手动将支持的文件交给外部AI、比较工具。判断为变化的内容须在两份原文中确认。"
           ],
           "faq": [
@@ -8863,8 +9147,16 @@
               "a": "由您手动重新收集，使用已保存资料或来源公开的旧版。此处不介绍自动监控或恢复从未收集的旧资料。"
             },
             {
-              "q": "如何记录版本及使用Free？",
-              "a": "资料版本由您写在标题或备注中。AI输出的来源URL与采集时间有助核对。Free选择1页，Pro可收集多个页面正文。"
+              "q": "如何记录版本？免费版能做到哪些？",
+              "a": "资料标示的版本请自行写在标题或备注中；AI输出中的来源URL和采集时间有助于核对。免费版每次保存1个选定页面，因此请逐页比较关键页面；Pro可收集选中的多个页面，适合比较整个章节。"
+            },
+            {
+              "q": "需要登录的页面怎么办？",
+              "a": "收集直接使用您浏览器的登录状态，不收集凭据。页面显示“需要登录”时，请点击“打开网站进行登录”，在打开的标签页中登录后点击“继续”。仍需登录的页面不会被保存，结果中会显示剩余页面数。"
+            },
+            {
+              "q": "为什么保存的页面缺少部分文字？",
+              "a": "有些网站要滚动或点击后才显示正文。请打开“页面缺少文字时：内容和 JavaScript 设置”，开启“向下滚动以加载稍后出现的内容”或“点击‘显示更多’以包含后续内容”，然后重新收集。如果保存的是页面的其他部分，可在那里用“在屏幕上选择”指定正文范围。"
             }
           ],
           "guide": {
@@ -8911,7 +9203,7 @@
         "zh_TW": {
           "title": "儲存修訂前後的網頁資料並比較 | Grab All Files",
           "h1": "保留前後資料，方便核對變化。",
-          "desc": "分別儲存修訂前後資料，用與前次收集比較的報告確認頁面，再透過原文或外部AI、比較工具核對步驟、條件及例外的變化。",
+          "desc": "分別儲存修訂前後的資料，用與上次收集比較的變更報告找出變化的頁面，再對照原文或借助外部比較工具、AI核對步驟、條件及例外的變化。",
           "lead": "保留確認時的資料，便於解釋哪些文字發生變化。先用前次收集變化報告找到相關頁面，再閱讀前後原文，或將資料交給外部比較工具、AI比較內容。",
           "best": [
             "將修訂後的步驟、要求或公開說明與儲存副本核對。",
@@ -8920,7 +9212,7 @@
           "steps": [
             "開啟允許儲存的來源，在擴充功能中選擇「將網頁合併為 HTML」。選擇頁面並自行記錄資料標明的版本。",
             "以「修訂前」等清楚名稱儲存。之後手動重新收集同一網站的可比較範圍，另存「修訂後」。",
-            "本次收集完成後，儲存與前次收集比較的變化報告，將新增、更新、移除或無法取得的項目和結果核對。 “儲存與上次收集的變更報告”",
+            "後一次收集完成後，點擊「儲存與上次收集的變更報告」。將新增、更新、移除或無法取得的項目和收集結果核對。",
             "並排閱讀原文，或手動將支援檔案交給外部AI、比較工具。判斷為變化的內容須在兩份原文中確認。"
           ],
           "faq": [
@@ -8937,8 +9229,16 @@
               "a": "由您手動重新收集，使用已儲存資料或來源公開的舊版。此處不介紹自動監控或恢復從未收集的舊資料。"
             },
             {
-              "q": "如何記錄版本及使用Free？",
-              "a": "資料版本由您寫在標題或備註中。AI輸出的來源URL與擷取時間有助核對。Free選擇1頁，Pro可收集多個頁面正文。"
+              "q": "如何記錄版本？免費版能做到哪些？",
+              "a": "資料標示的版本請自行寫在標題或備註中；AI輸出中的來源URL和擷取時間有助於核對。免費版每次儲存1個選定頁面，因此請逐頁比較關鍵頁面；Pro可收集選取的多個頁面，適合比較整個章節。"
+            },
+            {
+              "q": "需要登入的頁面怎麼辦？",
+              "a": "收集直接使用您瀏覽器的登入狀態，不收集憑證。頁面顯示「需要登入」時，請點擊「開啟網站進行登入」，在開啟的分頁中登入後點擊「繼續」。仍需登入的頁面不會被儲存，結果中會顯示剩餘頁面數。"
+            },
+            {
+              "q": "為什麼儲存的頁面缺少部分文字？",
+              "a": "有些網站要捲動或點擊後才顯示正文。請開啟「頁面缺少文字時：內容和 JavaScript 設定」，開啟「向下捲動以載入稍後出現的內容」或「點選『顯示更多』以包含後續內容」，然後重新收集。如果儲存的是頁面的其他部分，可在那裡用「在螢幕上選擇」指定正文範圍。"
             }
           ],
           "guide": {
@@ -8992,19 +9292,19 @@
       ],
       "copy": {
         "en": {
-          "title": "Name PDF downloads and organize files by type | Grab All Files",
+          "title": "Rename PDF downloads and organize into folders | Grab All Files",
           "h1": "Give PDFs useful names. Keep files organized.",
-          "desc": "Save PDFs using retrieved or edited titles, choose file-type or source-site folders and check the downloaded results. Keep original names when more useful.",
+          "desc": "Rename PDFs with their real titles before you download, then sort files into folders by type or site. Edit any title; Free saves 10 files per download.",
           "lead": "A readable filename and a predictable folder make a document set easier to revisit. Review the titles found for your PDFs, choose a naming mode, and organize a mixed file set by format or source site. Check the saved results rather than assuming every title is useful.",
           "best": [
             "Keep PDFs from a manual or public-document list easier to recognize.",
             "Separate a mixed set of PDFs, spreadsheets and other files by format."
           ],
           "steps": [
-            "Open a page you are permitted to use and scan for downloadable files. Filter the results to the PDFs you need.",
-            "Review each selected title and original filename. Edit a title when appropriate; keep the original name if it identifies the document better.",
-            "Choose “Save as”: “Auto (title when usable)”, “Title” or “Original file name”. For “Organize”, choose “By type”, “By domain” or “No folders”.",
-            "Download the selected files or create a ZIP. Check filenames, extensions, grouping, duplicates and any failed downloads in the saved result."
+            "Scan the page that lists the PDFs, filter the results to PDF and tick the files you want to save.",
+            "Check the titles. Press “Fetch selected PDF titles” to read each title from the PDF itself. Double-click a title, press F2 or use the pencil (“Edit title”) to change it; “Reset titles” undoes your edits.",
+            "Open “Details” and choose “Save as”: “Auto (title when usable)”, “Title” or “Original file name”. To sort into folders, open “More actions” and set “Organize” to “By type”, “By domain” or “No folders”.",
+            "Press “Download” or create a ZIP (Free: up to 10 files per download). Check names, extensions and folders in the result; in Firefox the files go to Downloads/GrabAllFiles."
           ],
           "faq": [
             {
@@ -9020,8 +9320,8 @@
               "a": "Destination depends on browser support and download settings. Chromium can offer a folder picker; Firefox uses its Downloads/GrabAllFiles route. Check the resulting destination."
             },
             {
-              "q": "Can I keep using Free for a large set?",
-              "a": "The naming and grouping settings are also available in Free. Free file actions use a 10-file per-run cap; select the next batch and repeat. Pro removes that file-count cap. Scan and review the results before saving."
+              "q": "Can I rename a large set for free?",
+              "a": "Yes. “Save as”, title editing and “Organize” all work in Free. Free saves up to 10 selected files per download; to continue, select the next files and press “Download” again. Pro ($19.99 one-time, up to 3 devices) removes the per-download cap."
             }
           ],
           "guide": {
@@ -9067,26 +9367,26 @@
               ]
             ]
           },
-          "eyebrow": "Name & organize PDF downloads"
+          "eyebrow": "Rename & organize PDF downloads"
         },
         "ja": {
-          "title": "大量PDFを題名で保存・ファイル形式別に整理 | Grab All Files",
-          "h1": "PDFを題名で整理。",
-          "desc": "取得したタイトルや編集した題名でPDFを保存し、ファイル形式・取得元サイト別に整理する手順。元のファイル名との使い分けと保存結果の確認も紹介します。",
-          "lead": "読み返せる名前と整理されたフォルダで、資料セットを探しやすく。PDFのタイトルを確認して保存名を選び、PDFや表計算ファイルが混じった資料は形式・取得元で整理できます。取得した題名が適切か、保存後の結果も確かめます。",
+          "title": "PDFのファイル名を一括変更して整理 | Grab All Files",
+          "h1": "PDFをタイトルで保存して整理。",
+          "desc": "PDFを本来のタイトルでファイル名変更してから保存し、種類別・サイト別のフォルダに整理。タイトルは編集でき、無料版は1回10件まで保存できます。",
+          "lead": "読み返せる名前と整理されたフォルダで、資料セットを探しやすく。PDFのタイトルを確認して保存名を選び、PDFや表計算ファイルが混じった資料は形式・取得元で整理できます。取得したタイトルが適切か、保存後の結果も確かめます。",
           "best": [
             "マニュアルや公開資料のPDFを、名前から見つけやすくする。",
             "PDF・表計算・その他のファイルを、形式別にまとめる。"
           ],
           "steps": [
-            "利用が許可されたページでファイルをスキャンし、必要なPDFに絞って選択します。",
-            "選択したタイトルと元のファイル名を確認します。必要ならタイトルを編集し、元の名前の方が分かりやすければ残します。",
-            "「保存名」で「自動（タイトル優先）」「タイトル」「元のファイル名」を選びます。「整理」は「種類別」「ドメイン別」「フォルダ分けなし」から選べます。",
-            "選択したファイルをダウンロードするかZIP保存します。保存された名前・拡張子・分類・重複・取得失敗を確認します。"
+            "PDFが並ぶページをスキャンし、PDFで絞り込んで保存したいファイルにチェックを入れます。",
+            "タイトルを確認します。「選択したPDFのタイトルを取得」を押すとPDF本体からタイトルを読み取ります。タイトルをダブルクリックするかF2キー、または鉛筆ボタン（「タイトルを編集」）で変更でき、「タイトルをリセット」で編集を元に戻せます。",
+            "「詳細設定」を開いて「保存名」で「自動（タイトル優先）」「タイトル」「元のファイル名」を選びます。フォルダに分けるときは「その他の操作」を開き、「整理」で「種類別」「ドメイン別」「フォルダ分けなし」を選びます。",
+            "「ダウンロード」を押すかZIPで保存します（無料版は1回10件まで）。保存結果の名前・拡張子・フォルダを確認します。FirefoxではDownloads/GrabAllFilesに保存されます。"
           ],
           "faq": [
             {
-              "q": "PDFの本来の題名が必ず分かりますか？",
+              "q": "PDFの本来のタイトルが必ず分かりますか？",
               "a": "取得できるメタデータやページ見出しがない場合や、汎用的な内容しかない場合があります。取得したタイトルを確認し、自動モードでは有用なタイトルがなければ元のファイル名を使えます。"
             },
             {
@@ -9098,8 +9398,8 @@
               "a": "保存先はブラウザの対応やダウンロード設定に従います。Chromiumではフォルダ選択が使える場合があり、FirefoxはDownloads/GrabAllFilesの保存経路です。実際の保存先を確認します。"
             },
             {
-              "q": "大量の資料を無料で続けて保存できますか？",
-              "a": "保存名・整理の設定は無料版でも使えます。無料のファイル操作は、1回10ファイルの上限に従います。次の対象を選んで繰り返せます。Proはこの件数上限を解除します。保存前には一覧を確認してください。"
+              "q": "大量のPDFを無料でファイル名変更できますか？",
+              "a": "はい。「保存名」、タイトルの編集、「整理」はすべて無料版で使えます。無料版は1回のダウンロードで選択した10件まで保存できます。続けるときは次のファイルを選んでもう一度「ダウンロード」を押してください。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。"
             }
           ],
           "guide": {
@@ -9118,7 +9418,7 @@
             "examples": [
               [
                 "手順の資料",
-                "手順・必要書類・補足説明を区別できる題名か確認します。表記版を自分で題名へ加える場合は、原文で確認してから付けます。"
+                "手順・必要書類・補足説明を区別できるタイトルか確認します。表記版を自分でタイトルへ加える場合は、原文で確認してから付けます。"
               ],
               [
                 "混在する資料セット",
@@ -9133,7 +9433,7 @@
             "rows": [
               [
                 "自動／タイトル／元の名前",
-                "取得したタイトルと元の名前の分かりやすさで選びます。タイトルモードは汎用的な題名も使うため確認します。"
+                "取得したタイトルと元の名前の分かりやすさで選びます。タイトルモードは汎用的なタイトルも使うため確認します。"
               ],
               [
                 "種類別／ドメイン別／なし",
@@ -9145,39 +9445,39 @@
               ]
             ]
           },
-          "eyebrow": "PDFの題名・種類別整理"
+          "eyebrow": "PDFのファイル名変更・整理"
         },
         "es": {
-          "title": "Nombrar PDF y organizar archivos por tipo | Grab All Files",
+          "title": "Renombrar PDF descargados y ordenarlos en carpetas | Grab All Files",
           "h1": "Nombres útiles para PDF y archivos ordenados.",
-          "desc": "Guarda PDF con títulos obtenidos o editados, organiza por tipo o sitio fuente y comprueba los resultados. Conserva nombres originales cuando sean más útiles.",
-          "lead": "Un nombre claro y una carpeta predecible facilitan volver a los documentos. Revisa títulos, elige el modo de nombre y organiza conjuntos mixtos por formato o sitio. Comprueba los archivos guardados.",
+          "desc": "Renombra los PDF con su título real antes de descargarlos y ordénalos en carpetas por tipo o sitio. Edita cualquier título; gratis: 10 por descarga.",
+          "lead": "Un nombre de archivo legible y una carpeta predecible facilitan volver a un conjunto de documentos. Revisa los títulos encontrados para tus PDF, elige cómo se nombran y organiza un conjunto mixto por formato o sitio de origen. Comprueba el resultado guardado en lugar de dar por bueno cada título.",
           "best": [
-            "Reconocer PDF de manuales o listas públicas por su nombre.",
-            "Separar PDF, hojas de cálculo y otros archivos por formato."
+            "Reconocer más fácilmente los PDF de un manual o de una lista de documentos públicos.",
+            "Separar por formato un conjunto mixto de PDF, hojas de cálculo y otros archivos."
           ],
           "steps": [
-            "Escanea archivos en una página permitida y filtra los PDF necesarios.",
-            "Revisa títulos y nombres originales. Edita un título si corresponde o conserva el original cuando sea mejor.",
-            "Elige «Guardar como»: «Automático (título si sirve)», «Título» o «Nombre de archivo original». En «Organizar», elige «Por tipo», «Por dominio» o «Sin carpetas».",
-            "Descarga la selección o crea ZIP. Comprueba nombres, extensiones, grupos, duplicados y errores."
+            "Escanea la página que enumera los PDF, filtra los resultados por PDF y marca los archivos que quieres guardar.",
+            "Revisa los títulos. Pulsa «Obtener títulos de los PDF seleccionados» para leer el título del propio PDF. Haz doble clic en un título, pulsa F2 o usa el lápiz («Editar título») para cambiarlo; «Restablecer títulos» deshace los cambios.",
+            "Abre «Detalles» y elige «Guardar como»: «Automático (título si sirve)», «Título» o «Nombre de archivo original». Para separar en carpetas, abre «Más acciones» y en «Organizar» elige «Por tipo», «Por dominio» o «Sin carpetas».",
+            "Pulsa «Descargar» o crea un ZIP (gratis: hasta 10 archivos por descarga). Comprueba nombres, extensiones y carpetas en el resultado; en Firefox los archivos van a Downloads/GrabAllFiles."
           ],
           "faq": [
             {
               "q": "¿Siempre encuentra el título real del PDF?",
-              "a": "No. Metadatos o encabezados pueden faltar o ser genéricos. Revisa el título; el modo automático puede usar el nombre original si no encuentra uno útil."
+              "a": "No. Los metadatos o encabezados disponibles pueden faltar o ser genéricos. Revisa el título obtenido; el modo automático puede usar el nombre de archivo original cuando no encuentra un título útil."
             },
             {
-              "q": "¿Agrupar por tipo interpreta temas?",
-              "a": "Agrupa por formato o dominio fuente, no por tema de negocio inferido. Un conjunto solo PDF sigue siendo un único formato."
+              "q": "¿Agrupar por tipo entiende el tema de los documentos?",
+              "a": "No. Agrupa por tipo de archivo o dominio de origen, no por un tema deducido. Un conjunto solo de PDF sigue siendo un único formato."
             },
             {
-              "q": "¿Puedo elegir cualquier carpeta en todo navegador?",
-              "a": "Depende del navegador y ajustes. Chromium puede ofrecer selector de carpeta; Firefox usa Downloads/GrabAllFiles. Comprueba el destino real."
+              "q": "¿Puedo elegir cualquier carpeta de destino en todos los navegadores?",
+              "a": "El destino depende del navegador y de sus ajustes de descarga. Los navegadores Chromium pueden ofrecer un selector de carpeta; Firefox usa la ruta Downloads/GrabAllFiles. Comprueba el destino resultante."
             },
             {
-              "q": "¿Puedo guardar un conjunto grande gratis?",
-              "a": "Los ajustes de nombre y agrupación también están disponibles en Free. Las acciones Free siguen un máximo de 10 archivos por operación. Selecciona otro lote y repite. Pro elimina ese límite; revisa la lista antes de guardar."
+              "q": "¿Puedo renombrar un conjunto grande gratis?",
+              "a": "Sí. «Guardar como», la edición de títulos y «Organizar» funcionan en la versión gratuita, que guarda hasta 10 archivos seleccionados por descarga. Para seguir, selecciona los siguientes archivos y vuelve a pulsar «Descargar». Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga."
             }
           ],
           "guide": {
@@ -9223,39 +9523,39 @@
               ]
             ]
           },
-          "eyebrow": "Nombrar y organizar PDF"
+          "eyebrow": "Renombrar y organizar PDF"
         },
         "fr": {
-          "title": "Nommer les PDF et classer les fichiers par type | Grab All Files",
+          "title": "Renommer les PDF téléchargés et les classer | Grab All Files",
           "h1": "Des PDF bien nommés et des fichiers organisés.",
-          "desc": "Nommez les PDF avec les titres récupérés ou modifiés, classez par format ou site source et vérifiez les résultats. Gardez le nom original si plus utile.",
-          "lead": "Un nom lisible et un rangement prévisible facilitent les consultations. Vérifiez les titres, choisissez le mode de nommage et classez les ensembles mixtes par format ou source. Contrôlez les fichiers enregistrés.",
+          "desc": "Renommez les PDF avec leur vrai titre avant de les télécharger, puis classez-les par type ou par site. Titres modifiables ; gratuit : 10 fichiers par lot.",
+          "lead": "Un nom de fichier lisible et un dossier prévisible rendent un ensemble de documents plus facile à retrouver. Vérifiez les titres trouvés pour vos PDF, choisissez le mode de nommage et classez un ensemble mixte par format ou site source. Contrôlez le résultat enregistré plutôt que de supposer que chaque titre convient.",
           "best": [
-            "Reconnaître les PDF de manuels ou listes publiques par leur nom.",
-            "Séparer PDF, tableurs et autres fichiers par format."
+            "Mieux reconnaître les PDF d’un manuel ou d’une liste de documents publics.",
+            "Séparer par format un ensemble mixte de PDF, tableurs et autres fichiers."
           ],
           "steps": [
-            "Analysez les fichiers d’une page autorisée et filtrez les PDF utiles.",
-            "Vérifiez titres et noms originaux. Modifiez un titre si nécessaire ou gardez le nom original plus clair.",
-            "Choisissez «Enregistrer sous» : «Automatique (titre si utilisable)», «Titre» ou «Nom de fichier d'origine». Pour «Classement», choisissez «Par type», «Par domaine» ou «Sans dossiers».",
-            "Téléchargez la sélection ou créez ZIP. Vérifiez noms, extensions, classement, doublons et échecs."
+            "Analysez la page qui liste les PDF, filtrez les résultats sur PDF et cochez les fichiers à enregistrer.",
+            "Vérifiez les titres. Cliquez sur « Récupérer les titres des PDF sélectionnés » pour lire le titre dans le PDF lui-même. Double-cliquez sur un titre, appuyez sur F2 ou utilisez le crayon (« Modifier le titre ») pour le changer ; « Réinitialiser les titres » annule vos modifications.",
+            "Ouvrez « Détails » et choisissez « Enregistrer sous » : « Automatique (titre si utilisable) », « Titre » ou « Nom de fichier d'origine ». Pour ranger en dossiers, ouvrez « Autres actions » et, dans « Classement », choisissez « Par type », « Par domaine » ou « Sans dossiers ».",
+            "Cliquez sur « Télécharger » ou créez un ZIP (version gratuite : 10 fichiers par téléchargement). Vérifiez noms, extensions et dossiers ; dans Firefox, les fichiers vont dans Downloads/GrabAllFiles."
           ],
           "faq": [
             {
-              "q": "Le vrai titre du PDF est-il toujours trouvé ?",
-              "a": "Non. Métadonnées ou titres de page peuvent manquer ou être génériques. Vérifiez le titre ; le mode automatique peut reprendre le nom original."
+              "q": "Le vrai titre du PDF est-il toujours trouvé ?",
+              "a": "Non. Les métadonnées ou titres de page disponibles peuvent manquer ou être génériques. Vérifiez le titre récupéré ; le mode automatique peut reprendre le nom de fichier d’origine quand aucun titre utile n’est trouvé."
             },
             {
-              "q": "Le classement par type comprend-il les sujets ?",
-              "a": "Il classe par format ou domaine source, pas par sujet métier déduit. Un lot uniquement PDF reste un seul format."
+              "q": "Le classement par type comprend-il le sujet des documents ?",
+              "a": "Non. Il classe par type de fichier ou domaine source, pas par sujet déduit. Un lot composé uniquement de PDF reste un seul format."
             },
             {
-              "q": "Peut-on choisir toute destination sur chaque navigateur ?",
-              "a": "Cela dépend du navigateur et des réglages. Chromium peut proposer un dossier ; Firefox utilise Downloads/GrabAllFiles. Vérifiez la destination réelle."
+              "q": "Puis-je choisir n’importe quel dossier dans tous les navigateurs ?",
+              "a": "La destination dépend du navigateur et de ses réglages de téléchargement. Les navigateurs Chromium peuvent proposer un sélecteur de dossier ; Firefox utilise le chemin Downloads/GrabAllFiles. Vérifiez la destination obtenue."
             },
             {
-              "q": "Puis-je enregistrer beaucoup de fichiers gratuitement ?",
-              "a": "Les réglages de nom et de classement sont aussi disponibles avec Free. Free suit la limite de 10 fichiers par opération. Sélectionnez le lot suivant et recommencez. Pro retire cette limite ; vérifiez la liste avant enregistrement."
+              "q": "Puis-je renommer un grand ensemble gratuitement ?",
+              "a": "Oui. « Enregistrer sous », la modification des titres et « Classement » fonctionnent dans la version gratuite, qui enregistre jusqu’à 10 fichiers sélectionnés par téléchargement. Pour continuer, sélectionnez les fichiers suivants et cliquez à nouveau sur « Télécharger ». Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement."
             }
           ],
           "guide": {
@@ -9301,39 +9601,39 @@
               ]
             ]
           },
-          "eyebrow": "Nommer et classer les PDF"
+          "eyebrow": "Renommer et classer les PDF"
         },
         "de": {
-          "title": "PDFs benennen und nach Dateityp ordnen | Grab All Files",
+          "title": "PDF-Downloads umbenennen und in Ordnern ablegen | Grab All Files",
           "h1": "PDFs verständlich benennen und ordnen.",
-          "desc": "PDFs nach erfassten oder bearbeiteten Titeln benennen, nach Format oder Quellsite ordnen und gespeicherte Ergebnisse prüfen. Originalnamen bei Bedarf behalten.",
-          "lead": "Lesbare Namen und klare Ordner erleichtern das Nachschlagen. Prüfen Sie Titel, wählen Sie den Namensmodus und ordnen Sie gemischte Dateien nach Format oder Quelle. Kontrollieren Sie gespeicherte Ergebnisse.",
+          "desc": "PDFs vor dem Download mit ihrem echten Titel umbenennen und nach Typ oder Website in Ordner ablegen. Titel sind änderbar; kostenlos 10 Dateien je Download.",
+          "lead": "Ein lesbarer Dateiname und ein vorhersehbarer Ordner machen einen Dokumentbestand leichter wiederauffindbar. Prüfen Sie die gefundenen Titel Ihrer PDFs, wählen Sie die Benennung und ordnen Sie gemischte Dateien nach Format oder Quellsite. Kontrollieren Sie das gespeicherte Ergebnis, statt jeden Titel ungeprüft zu übernehmen.",
           "best": [
-            "PDFs aus Handbüchern oder öffentlichen Listen besser erkennen.",
-            "PDFs, Tabellen und andere Dateien nach Format trennen."
+            "PDFs aus einem Handbuch oder einer öffentlichen Dokumentliste leichter erkennen.",
+            "Einen gemischten Satz aus PDFs, Tabellen und anderen Dateien nach Format trennen."
           ],
           "steps": [
-            "Scannen Sie Dateien einer erlaubten Seite und filtern Sie benötigte PDFs.",
-            "Prüfen Sie Titel und Originalnamen. Bearbeiten Sie einen Titel bei Bedarf oder behalten Sie den verständlicheren Originalnamen.",
-            "Wählen Sie unter „Speichern als“: „Automatisch (Titel, wenn brauchbar)“, „Titel“ oder „Ursprünglicher Dateiname“. Unter „Ablage“ wählen Sie „Nach Typ“, „Nach Domain“ oder „Keine Ordner“.",
-            "Laden Sie die Auswahl herunter oder erstellen Sie ZIP. Prüfen Sie Namen, Dateiendungen, Ordner, Duplikate und Fehler."
+            "Scannen Sie die Seite mit den PDFs, filtern Sie die Ergebnisse auf PDF und haken Sie die Dateien an, die Sie speichern möchten.",
+            "Prüfen Sie die Titel. „Titel ausgewählter PDFs abrufen“ liest den Titel aus dem PDF selbst. Doppelklicken Sie auf einen Titel, drücken Sie F2 oder nutzen Sie den Stift („Titel bearbeiten“), um ihn zu ändern; „Titel zurücksetzen“ macht Änderungen rückgängig.",
+            "Öffnen Sie „Details“ und wählen Sie unter „Speichern als“: „Automatisch (Titel, wenn brauchbar)“, „Titel“ oder „Ursprünglicher Dateiname“. Für Ordner öffnen Sie „Weitere Aktionen“ und wählen unter „Ablage“ „Nach Typ“, „Nach Domain“ oder „Keine Ordner“.",
+            "Klicken Sie auf „Herunterladen“ oder erstellen Sie ein ZIP (kostenlos: bis zu 10 Dateien pro Download). Prüfen Sie Namen, Endungen und Ordner; in Firefox landen die Dateien unter Downloads/GrabAllFiles."
           ],
           "faq": [
             {
               "q": "Wird immer der echte PDF-Titel erkannt?",
-              "a": "Nein. Metadaten oder Seitenüberschriften können fehlen oder allgemein sein. Prüfen Sie den Titel; Automatik kann den Originalnamen verwenden."
+              "a": "Nein. Verfügbare Metadaten oder Seitenüberschriften können fehlen oder allgemein sein. Prüfen Sie den erfassten Titel; der automatische Modus kann den ursprünglichen Dateinamen verwenden, wenn kein brauchbarer Titel gefunden wird."
             },
             {
-              "q": "Versteht Typgruppierung Dokumentthemen?",
-              "a": "Sie ordnet nach Dateiformat oder Quelldomain, nicht nach vermutetem Geschäftsthema. Ein reiner PDF-Satz bleibt ein Format."
+              "q": "Versteht die Ablage nach Typ den Inhalt der Dokumente?",
+              "a": "Nein. Sie ordnet nach Dateityp oder Quelldomain, nicht nach einem abgeleiteten Thema. Ein reiner PDF-Satz bleibt ein einziges Format."
             },
             {
-              "q": "Ist jeder Zielordner in jedem Browser wählbar?",
-              "a": "Das hängt von Browser und Einstellungen ab. Chromium kann eine Ordnerwahl bieten, Firefox nutzt Downloads/GrabAllFiles. Prüfen Sie das tatsächliche Ziel."
+              "q": "Kann ich in jedem Browser jeden Zielordner wählen?",
+              "a": "Das Ziel hängt vom Browser und seinen Download-Einstellungen ab. Chromium-Browser können eine Ordnerauswahl anbieten; Firefox nutzt den Pfad Downloads/GrabAllFiles. Prüfen Sie das tatsächliche Ziel."
             },
             {
-              "q": "Kann ich große Sätze kostenlos speichern?",
-              "a": "Namens- und Gruppierungsoptionen sind auch in Free verfügbar. Free folgt einer Grenze von 10 Dateien je Vorgang. Nächsten Satz wählen und wiederholen; Pro entfernt diese Dateigrenze. Die Liste vorher prüfen."
+              "q": "Kann ich einen großen Satz kostenlos umbenennen?",
+              "a": "Ja. „Speichern als“, das Bearbeiten von Titeln und „Ablage“ funktionieren in der kostenlosen Version, die bis zu 10 ausgewählte Dateien pro Download speichert. Zum Weitermachen wählen Sie die nächsten Dateien aus und klicken erneut auf „Herunterladen“. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Download auf."
             }
           ],
           "guide": {
@@ -9379,39 +9679,39 @@
               ]
             ]
           },
-          "eyebrow": "PDFs benennen und ordnen"
+          "eyebrow": "PDFs umbenennen und ordnen"
         },
         "it": {
-          "title": "Nominare PDF e organizzare file per tipo | Grab All Files",
+          "title": "Rinominare i PDF scaricati e organizzarli in cartelle | Grab All Files",
           "h1": "Nomi utili per i PDF e file ordinati.",
-          "desc": "Salva PDF con titoli trovati o modificati, organizza per formato o sito fonte e controlla i risultati. Mantieni nomi originali quando più chiari.",
-          "lead": "Un nome leggibile e una cartella prevedibile aiutano a ritrovare i documenti. Controlla titoli, scegli la modalità di denominazione e organizza file misti per formato o fonte. Verifica i risultati salvati.",
+          "desc": "Rinomina i PDF con il loro vero titolo prima di scaricarli e organizzali in cartelle per tipo o sito. Titoli modificabili; gratis, 10 file per download.",
+          "lead": "Un nome file leggibile e una cartella prevedibile rendono più facile ritrovare un insieme di documenti. Controlla i titoli trovati per i tuoi PDF, scegli come nominarli e organizza un insieme misto per formato o sito di origine. Verifica il risultato salvato invece di dare per buono ogni titolo.",
           "best": [
-            "Riconoscere PDF di manuali o liste pubbliche dal nome.",
-            "Separare PDF, fogli di calcolo e altri file per formato."
+            "Riconoscere più facilmente i PDF di un manuale o di un elenco di documenti pubblici.",
+            "Separare per formato un insieme misto di PDF, fogli di calcolo e altri file."
           ],
           "steps": [
-            "Scansiona file di una pagina consentita e filtra i PDF necessari.",
-            "Controlla titoli e nomi originali. Modifica un titolo se utile o conserva il nome originale più chiaro.",
-            "Scegli «Salva come»: «Automatico (titolo se utilizzabile)», «Titolo» o «Nome file originale». Per «Organizza» scegli «Per tipo», «Per dominio» o «Nessuna cartella».",
-            "Scarica la selezione o crea ZIP. Controlla nomi, estensioni, gruppi, duplicati ed errori."
+            "Scansiona la pagina che elenca i PDF, filtra i risultati per PDF e seleziona i file da salvare.",
+            "Controlla i titoli. «Recupera titoli dei PDF selezionati» legge il titolo dal PDF stesso. Fai doppio clic su un titolo, premi F2 o usa la matita («Modifica titolo») per cambiarlo; «Reimposta titoli» annulla le modifiche.",
+            "Apri «Dettagli» e scegli «Salva come»: «Automatico (titolo se utilizzabile)», «Titolo» o «Nome file originale». Per dividere in cartelle, apri «Altre azioni» e in «Organizza» scegli «Per tipo», «Per dominio» o «Nessuna cartella».",
+            "Fai clic su «Scarica» o crea uno ZIP (gratis: fino a 10 file per download). Controlla nomi, estensioni e cartelle; in Firefox i file vanno in Downloads/GrabAllFiles."
           ],
           "faq": [
             {
-              "q": "Trova sempre il vero titolo PDF?",
-              "a": "No. Metadati o intestazioni possono mancare o essere generici. Controlla il titolo; automatico può usare il nome originale."
+              "q": "Trova sempre il vero titolo del PDF?",
+              "a": "No. Metadati o intestazioni disponibili possono mancare o essere generici. Controlla il titolo recuperato; la modalità automatica può usare il nome file originale quando non trova un titolo utile."
             },
             {
-              "q": "Il raggruppamento per tipo capisce gli argomenti?",
-              "a": "Organizza per formato o dominio fonte, non per argomento dedotto. Un insieme solo PDF resta lo stesso formato."
+              "q": "Il raggruppamento per tipo capisce l’argomento dei documenti?",
+              "a": "No. Raggruppa per tipo di file o dominio di origine, non per un argomento dedotto. Un insieme di soli PDF resta un unico formato."
             },
             {
-              "q": "Posso scegliere ogni cartella in ogni browser?",
-              "a": "Dipende da browser e impostazioni. Chromium può offrire scelta cartella; Firefox usa Downloads/GrabAllFiles. Controlla il percorso effettivo."
+              "q": "Posso scegliere qualsiasi cartella in ogni browser?",
+              "a": "La destinazione dipende dal browser e dalle sue impostazioni di download. I browser Chromium possono offrire la scelta della cartella; Firefox usa il percorso Downloads/GrabAllFiles. Controlla la destinazione effettiva."
             },
             {
-              "q": "Posso salvare grandi insiemi gratis?",
-              "a": "Le impostazioni di nome e raggruppamento sono disponibili anche in Free. Free segue il limite di 10 file per operazione. Scegli il lotto successivo e ripeti; Pro rimuove quel limite. Controlla la lista prima di salvare."
+              "q": "Posso rinominare un insieme grande gratis?",
+              "a": "Sì. «Salva come», la modifica dei titoli e «Organizza» funzionano nella versione gratuita, che salva fino a 10 file selezionati per download. Per continuare, seleziona i file successivi e fai di nuovo clic su «Scarica». Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download."
             }
           ],
           "guide": {
@@ -9460,19 +9760,19 @@
           "eyebrow": "Rinominare e organizzare PDF"
         },
         "ko": {
-          "title": "PDF를 제목으로 저장하고 파일 형식별로 정리 | Grab All Files",
+          "title": "PDF 파일명 일괄 변경 후 폴더로 정리 | Grab All Files",
           "h1": "PDF를 알아보기 좋은 이름으로 저장하세요.",
-          "desc": "가져오거나 편집한 제목으로 PDF를 저장하고 파일 형식·출처별로 정리합니다. 원래 파일명과의 선택 및 저장 결과 확인 방법을 안내합니다.",
+          "desc": "PDF를 실제 제목으로 파일명을 바꾼 뒤 저장하고 유형별·사이트별 폴더로 정리합니다. 제목은 편집할 수 있으며 무료 버전은 다운로드당 10개까지 저장합니다.",
           "lead": "읽기 좋은 이름과 정돈된 폴더로 자료를 찾기 쉽게 만드세요. PDF 제목을 확인해 저장 이름을 선택하고 혼합 파일은 형식이나 출처별로 정리합니다. 저장 결과도 직접 확인합니다.",
           "best": [
             "매뉴얼·공개 목록의 PDF를 이름으로 쉽게 찾습니다.",
             "PDF·스프레드시트·다른 파일을 형식별로 구분합니다."
           ],
           "steps": [
-            "허용된 페이지에서 파일을 스캔해 필요한 PDF로 필터링합니다.",
-            "선택한 제목과 원래 이름을 확인하고 필요하면 제목을 편집하거나 더 나은 원래 이름을 유지합니다.",
-            "“저장 이름”에서 “자동(쓸 수 있으면 제목)”, “제목”, “원래 파일 이름” 중 선택합니다. “정리”는 “유형별”, “도메인별”, “폴더 없음” 중 선택합니다.",
-            "다운로드 또는 ZIP으로 저장하고 이름·확장자·분류·중복·실패를 확인합니다."
+            "PDF 목록이 있는 페이지를 스캔하고 PDF로 필터링한 뒤 저장할 파일을 체크합니다.",
+            "제목을 확인합니다. “선택한 PDF 제목 가져오기”를 누르면 PDF 자체에서 제목을 읽어 옵니다. 제목을 더블클릭하거나 F2를 누르거나 연필 버튼(“제목 편집”)으로 바꿀 수 있고, “제목 초기화”로 편집을 되돌립니다.",
+            "“상세 설정”을 열고 “저장 이름”에서 “자동(쓸 수 있으면 제목)”, “제목”, “원래 파일 이름” 중 선택합니다. 폴더로 나누려면 “기타 작업”을 열고 “정리”에서 “유형별”, “도메인별”, “폴더 없음” 중 선택합니다.",
+            "“다운로드”를 누르거나 ZIP으로 저장합니다(무료: 다운로드당 10개까지). 결과의 이름·확장자·폴더를 확인하세요. Firefox에서는 Downloads/GrabAllFiles에 저장됩니다."
           ],
           "faq": [
             {
@@ -9488,8 +9788,8 @@
               "a": "브라우저·다운로드 설정에 따릅니다. Chromium은 폴더 선택을 제공할 수 있고 Firefox는 Downloads/GrabAllFiles 경로를 씁니다. 실제 저장 위치를 확인하세요."
             },
             {
-              "q": "많은 자료를 무료로 계속 저장하나요?",
-              "a": "저장 이름과 정리 설정은 Free에서도 사용할 수 있습니다. Free는 실행당 10개 파일 제한을 따릅니다. 다음 묶음을 골라 반복할 수 있고 Pro는 파일 개수 제한을 없앱니다. 저장 전 목록을 확인하세요."
+              "q": "많은 PDF를 무료로 파일명 변경할 수 있나요?",
+              "a": "예. “저장 이름”, 제목 편집, “정리”는 모두 무료 버전에서 사용할 수 있습니다. 무료 버전은 다운로드당 선택한 파일을 최대 10개까지 저장합니다. 계속하려면 다음 파일을 선택하고 “다운로드”를 다시 누르세요. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
             }
           ],
           "guide": {
@@ -9535,39 +9835,39 @@
               ]
             ]
           },
-          "eyebrow": "PDF 제목 저장·종류별 정리"
+          "eyebrow": "PDF 파일명 변경·정리"
         },
         "pt_BR": {
-          "title": "Nomear PDFs e organizar arquivos por tipo | Grab All Files",
+          "title": "Renomear PDFs baixados e organizar em pastas | Grab All Files",
           "h1": "Nomes úteis para PDFs e arquivos organizados.",
-          "desc": "Salve PDFs com títulos obtidos ou editados, organize por formato ou site fonte e confira resultados. Mantenha nomes originais quando mais úteis.",
-          "lead": "Um nome claro e uma pasta previsível facilitam revisitar documentos. Confira títulos, escolha a forma do nome e organize conjuntos mistos por formato ou fonte. Verifique os arquivos salvos.",
+          "desc": "Renomeie os PDFs com o título real antes de baixar e organize em pastas por tipo ou site. Edite qualquer título; grátis: 10 arquivos por download.",
+          "lead": "Um nome de arquivo legível e uma pasta previsível facilitam voltar a um conjunto de documentos. Confira os títulos encontrados para seus PDFs, escolha como nomeá-los e organize um conjunto misto por formato ou site de origem. Verifique o resultado salvo em vez de supor que todo título serve.",
           "best": [
-            "Reconhecer PDFs de manuais ou listas públicas pelo nome.",
-            "Separar PDFs, planilhas e outros arquivos por formato."
+            "Reconhecer com mais facilidade os PDFs de um manual ou de uma lista de documentos públicos.",
+            "Separar por formato um conjunto misto de PDFs, planilhas e outros arquivos."
           ],
           "steps": [
-            "Escaneie arquivos de uma página permitida e filtre os PDFs necessários.",
-            "Confira títulos e nomes originais. Edite um título quando útil ou preserve o nome original mais claro.",
-            "Escolha “Salvar como”: “Automático (título quando útil)”, “Título” ou “Nome de arquivo original”. Em “Organizar”, escolha “Por tipo”, “Por domínio” ou “Sem pastas”.",
-            "Baixe a seleção ou crie ZIP. Confira nomes, extensões, grupos, duplicatas e falhas."
+            "Escaneie a página que lista os PDFs, filtre os resultados por PDF e marque os arquivos que deseja salvar.",
+            "Confira os títulos. “Obter títulos dos PDFs selecionados” lê o título no próprio PDF. Clique duas vezes em um título, pressione F2 ou use o lápis (“Editar título”) para alterá-lo; “Redefinir títulos” desfaz as edições.",
+            "Abra “Detalhes” e escolha “Salvar como”: “Automático (título quando útil)”, “Título” ou “Nome de arquivo original”. Para separar em pastas, abra “Mais ações” e em “Organizar” escolha “Por tipo”, “Por domínio” ou “Sem pastas”.",
+            "Clique em “Baixar” ou crie um ZIP (grátis: até 10 arquivos por download). Confira nomes, extensões e pastas no resultado; no Firefox os arquivos vão para Downloads/GrabAllFiles."
           ],
           "faq": [
             {
-              "q": "Sempre encontra o verdadeiro título do PDF?",
-              "a": "Não. Metadados ou títulos da página podem faltar ou ser genéricos. Confira o título; automático pode usar o nome original."
+              "q": "Sempre encontra o título real do PDF?",
+              "a": "Não. Metadados ou títulos de página disponíveis podem faltar ou ser genéricos. Confira o título obtido; o modo automático pode usar o nome de arquivo original quando não encontra um título útil."
             },
             {
-              "q": "Agrupar por tipo entende assuntos?",
-              "a": "Agrupa por formato ou domínio fonte, não por assunto de negócio inferido. Um conjunto só PDF continua um único formato."
+              "q": "Agrupar por tipo entende o assunto dos documentos?",
+              "a": "Não. Agrupa por tipo de arquivo ou domínio de origem, não por um assunto deduzido. Um conjunto só de PDFs continua sendo um único formato."
             },
             {
-              "q": "Posso escolher qualquer pasta em todo navegador?",
-              "a": "Depende do navegador e ajustes. Chromium pode oferecer seleção de pasta; Firefox usa Downloads/GrabAllFiles. Confira o destino real."
+              "q": "Posso escolher qualquer pasta em todos os navegadores?",
+              "a": "O destino depende do navegador e das configurações de download. Navegadores Chromium podem oferecer um seletor de pasta; o Firefox usa o caminho Downloads/GrabAllFiles. Confira o destino resultante."
             },
             {
-              "q": "Posso salvar grandes conjuntos grátis?",
-              "a": "Os ajustes de nome e agrupamento também estão disponíveis no Free. Free segue o limite de 10 arquivos por operação. Selecione outro lote e repita. Pro remove esse limite; confira a lista antes de salvar."
+              "q": "Posso renomear um conjunto grande de graça?",
+              "a": "Sim. “Salvar como”, a edição de títulos e “Organizar” funcionam na versão gratuita, que salva até 10 arquivos selecionados por download. Para continuar, selecione os próximos arquivos e clique em “Baixar” de novo. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download."
             }
           ],
           "guide": {
@@ -9613,22 +9913,22 @@
               ]
             ]
           },
-          "eyebrow": "Nomear e organizar PDFs"
+          "eyebrow": "Renomear e organizar PDFs"
         },
         "zh_CN": {
-          "title": "按标题保存PDF并按文件格式整理 | Grab All Files",
+          "title": "批量重命名PDF并分文件夹整理 | Grab All Files",
           "h1": "用易读的名称保存PDF，方便查找。",
-          "desc": "用获取或编辑的标题保存PDF，按文件格式或来源网站整理，并检查保存结果。根据需要保留原始文件名。",
+          "desc": "下载前用PDF的真实标题批量重命名，再按类型或网站分到不同文件夹。标题可双击编辑，也可保留原始文件名。免费版每次下载最多保存10个文件。",
           "lead": "清晰的文件名和可预期的文件夹能让资料更容易查找。确认PDF标题，选择命名方式，并按格式或来源整理混合文件。请检查保存结果，而不是假定每个标题都适用。",
           "best": [
             "按名称识别手册或公开列表中的PDF。",
             "将PDF、表格文件与其他文件按格式区分。"
           ],
           "steps": [
-            "在允许使用的页面扫描文件，筛选并选择所需PDF。",
-            "检查标题与原始文件名，需要时编辑标题；原名更清晰时可保留。",
-            "在“保存名称”中选择“自动（可用时使用标题）”“标题”或“原始文件名”。在“整理”中选择“按类型”“按域名”或“不分文件夹”。",
-            "下载所选文件或保存ZIP，检查名称、扩展名、分类、重复及失败项。"
+            "扫描列出PDF的页面，按PDF筛选结果，并勾选要保存的文件。",
+            "检查标题。点击“获取所选PDF的标题”可从PDF本身读取标题。双击标题、按F2或使用铅笔按钮（“编辑标题”）即可修改，“重置标题”可撤销修改。",
+            "打开“详细设置”，在“保存名称”中选择“自动（可用时使用标题）”“标题”或“原始文件名”。要分文件夹，请打开“其他操作”，在“整理”中选择“按类型”“按域名”或“不分文件夹”。",
+            "点击“下载”或保存为ZIP（免费版每次下载最多10个）。检查结果中的名称、扩展名和文件夹；在Firefox中文件保存到Downloads/GrabAllFiles。"
           ],
           "faq": [
             {
@@ -9644,8 +9944,8 @@
               "a": "依浏览器和下载设置而定。Chromium可能提供文件夹选择，Firefox使用Downloads/GrabAllFiles路径。请确认实际保存位置。"
             },
             {
-              "q": "大量文件可以继续免费保存吗？",
-              "a": "保存名称与整理设置在Free中也可使用。Free遵循每次10个文件的上限，可选择下一批重复操作。Pro解除文件数量上限；保存前请检查列表。"
+              "q": "大量PDF可以免费重命名吗？",
+              "a": "可以。“保存名称”、标题编辑和“整理”在免费版中均可使用。免费版每次下载最多保存10个选中的文件；要继续，请选择接下来的文件并再次点击“下载”。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的上限。"
             }
           ],
           "guide": {
@@ -9691,22 +9991,22 @@
               ]
             ]
           },
-          "eyebrow": "PDF标题保存与格式整理"
+          "eyebrow": "PDF重命名与整理"
         },
         "zh_TW": {
-          "title": "依標題儲存PDF並依檔案格式整理 | Grab All Files",
+          "title": "批次重新命名PDF並分資料夾整理 | Grab All Files",
           "h1": "用易讀的名稱儲存PDF，方便查找。",
-          "desc": "用取得或編輯的標題儲存PDF，依檔案格式或來源網站整理並檢查結果。依需要保留原始檔名。",
+          "desc": "下載前用PDF的真實標題批次重新命名，再依類型或網站分到不同資料夾。標題可雙擊編輯，也可保留原始檔名。免費版每次下載最多儲存10個檔案。",
           "lead": "清楚的檔名和可預期的資料夾讓資料更容易查找。確認PDF標題，選擇命名方式，並依格式或來源整理混合檔案。請檢查儲存結果，不要假定每個標題都適用。",
           "best": [
             "依名稱識別手冊或公開清單中的PDF。",
             "將PDF、試算表與其他檔案依格式區分。"
           ],
           "steps": [
-            "在允許使用的頁面掃描檔案，篩選並選擇所需PDF。",
-            "檢查標題與原始檔名，需要時編輯標題；原名更清楚時可保留。",
-            "在「儲存名稱」中選擇「自動（可用時使用標題）」「標題」或「原始檔名」。在「整理」中選擇「依類型」「依網域」或「不分資料夾」。",
-            "下載所選檔案或儲存ZIP，檢查名稱、副檔名、分類、重複及失敗項。"
+            "掃描列出PDF的頁面，依PDF篩選結果，並勾選要儲存的檔案。",
+            "檢查標題。點擊「取得所選PDF的標題」可從PDF本身讀取標題。雙擊標題、按F2或使用鉛筆按鈕（「編輯標題」）即可修改，「重設標題」可復原修改。",
+            "開啟「詳細設定」，在「儲存名稱」中選擇「自動（可用時使用標題）」「標題」或「原始檔名」。若要分資料夾，請開啟「其他操作」，在「整理」中選擇「依類型」「依網域」或「不分資料夾」。",
+            "點擊「下載」或儲存為ZIP（免費版每次下載最多10個）。檢查結果中的名稱、副檔名和資料夾；在Firefox中檔案會儲存到Downloads/GrabAllFiles。"
           ],
           "faq": [
             {
@@ -9722,8 +10022,8 @@
               "a": "依瀏覽器及下載設定而定。Chromium可能提供資料夾選擇，Firefox使用Downloads/GrabAllFiles路徑。請確認實際儲存位置。"
             },
             {
-              "q": "大量檔案可以繼續免費儲存嗎？",
-              "a": "儲存名稱與整理設定在Free中也可使用。Free遵循每次10個檔案的上限，可選擇下一批重複操作。Pro解除檔案數量上限；儲存前請檢查清單。"
+              "q": "大量PDF可以免費重新命名嗎？",
+              "a": "可以。「儲存名稱」、標題編輯和「整理」在免費版中皆可使用。免費版每次下載最多儲存10個選取的檔案；若要繼續，請選取接下來的檔案並再次點擊「下載」。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的上限。"
             }
           ],
           "guide": {
@@ -9769,7 +10069,7 @@
               ]
             ]
           },
-          "eyebrow": "PDF標題儲存與格式整理"
+          "eyebrow": "PDF重新命名與整理"
         }
       }
     },
@@ -9782,9 +10082,9 @@
       ],
       "copy": {
         "en": {
-          "title": "Keep public guidance and attachments together | Grab All Files",
-          "desc": "Collect public-scheme guidance, instructions and linked PDF or Word files. Keep a readable reference, a document ZIP and source notes ready for later checking.",
-          "eyebrow": "Public guidance & documents",
+          "title": "Collect government documents and public guidance | Grab All Files",
+          "desc": "Save a government scheme’s guidance page as HTML and its PDF or Word attachments as files, with sources. Free: 1 page per run, 10 files per download.",
+          "eyebrow": "Government documents & guidance",
           "h1": "Keep public guidance and its documents together.",
           "lead": "Put a scheme overview, its detailed guidance and the relevant attachments in one reference folder. Read selected page bodies as HTML and keep original documents beside them, so you can return to the right source without searching again.",
           "best": [
@@ -9793,10 +10093,10 @@
             "Record sources and dates for research or an internal briefing."
           ],
           "steps": [
-            "Open the official guidance page you are allowed to save. In “Combine pages into HTML”, compare candidates with the source menu and choose one relevant topic. Free saves one chosen page; Pro combines multiple selected page bodies.",
-            "If you want source-tracked AI files, enable “AI analysis data (Markdown with sources)” before collecting. Choose image and linked-document settings. Save the explanation as HTML; use the file downloader to select obtainable PDF or Word attachments. Check document titles and revisions before downloading.",
-            "Package selected original files as ZIP and keep it beside the HTML. Open the saved result and compare needed headings, attachments and any reported failures with the official page.",
-            "After collection, save “Save AI analysis ZIP”. Check source_url and captured_at, and keep the stated revision and date checked in your own notes.",
+            "A — the guidance page. Open the official page you may save and click “Combine pages into HTML”. Keep “Only the open page”, or choose “Also find the pages it links to” and pick one relevant topic. Free saves one page per run; Pro combines several selected pages into one HTML.",
+            "Before collecting, turn on “AI analysis data (Markdown with sources)” if you want source-tracked files, choose the image and linked-document settings, then save the page as HTML.",
+            "B — the attachments. Switch to “File downloader”, scan the same page, filter to PDF and Word and tick the forms and guidance you need. Free saves 10 files per download: select the next files and press “Download” again, or save them as a ZIP to keep beside the HTML.",
+            "C — the AI ZIP. After collecting, press “Save AI analysis ZIP”. Check source_url and captured_at, then record the stated revision and the date you checked in your own notes.",
             "Name the folder by topic and date, and group overview, guidance and forms. Before using the material later, revisit the official source for revised documents and dates."
           ],
           "faq": [
@@ -9874,9 +10174,9 @@
           }
         },
         "ja": {
-          "title": "自治体・公的機関の案内と添付資料をまとめて保存 | Grab All Files",
-          "desc": "公的制度の案内、申請要領、PDF・Wordの添付資料を必要な単位で収集。HTML・ZIP・出典一覧を整理し、後から確認しやすい資料セットにします。",
-          "eyebrow": "自治体・公的機関の資料セット",
+          "title": "官公庁・自治体の公開資料と案内をまとめて保存 | Grab All Files",
+          "desc": "官公庁・自治体の制度案内ページをHTMLで、添付のPDF・Wordをファイルで保存し、出典も記録。無料版は1回1ページ、ファイルは1回10件までです。",
+          "eyebrow": "官公庁・自治体の公開資料",
           "h1": "公的な案内と添付資料を、ひとまとまりに。",
           "lead": "制度の概要、詳しい要領、関係する添付資料を同じフォルダーに。説明ページはHTMLで読み返し、PDF・Wordの原本を横に置けば、探し直さずに出典へ戻れます。",
           "best": [
@@ -9885,10 +10185,10 @@
             "調査や社内説明に使う出典と確認日を残す。"
           ],
           "steps": [
-            "保存が許可された公式案内ページを開き、「ページをHTMLにまとめる」で候補を元のメニューと照合します。必要な制度・テーマに絞って選択。無料版は選んだ1ページ、Proは複数ページ本文をまとめられます。",
-            "出典付きAI資料も使う場合は、収集前に「AI分析用データ（Markdown・出典付き）」を有効にします。 画像・リンク文書の設定を選び、説明ページをHTMLで保存します。添付PDF・Wordはファイルダウンローダーで取得可能なリンクを選び、名称と記載された版を確認します。",
-            "必要な原本ファイルをZIPにまとめ、HTMLと同じフォルダーへ。保存物を開き、必要な見出し・添付資料と失敗した項目を公式ページと照合します。",
-            "収集完了後に「AI分析用ZIPを保存」で出典付き資料を保存します。source_url・captured_atを確認し、表記版と確認日は自分のメモに残します。",
+            "A：案内ページ。保存が許可された公式ページを開き、「ページをHTMLにまとめる」を押します。「開いているページのみ」のままにするか、「リンク先のページも探す」を選んで必要なテーマを1つ選びます。無料版は1回1ページ、Proは選んだ複数ページを1つのHTMLにまとめられます。",
+            "出典付きAI資料も使う場合は、収集前に「AI分析用データ（Markdown・出典付き）」を有効にし、画像・リンク文書の設定を選んでからページをHTMLで保存します。",
+            "B：添付資料。「ファイル一括ダウンロード」に切り替えて同じページをスキャンし、PDFとWordで絞り込んで必要な様式・要領にチェックを入れます。無料版は1回のダウンロードで10件まで。次のファイルを選んでもう一度「ダウンロード」を押すか、ZIPにしてHTMLの隣に保存します。",
+            "C：AI用ZIP。収集完了後に「AI分析用ZIPを保存」を押します。source_url・captured_atを確認し、記載された版と確認日は自分のメモに残します。",
             "テーマと日付でフォルダー名を付け、概要・要領・様式を整理します。後日使うときは公式ページを再確認し、文書や日付の更新を確かめます。"
           ],
           "faq": [
@@ -9966,9 +10266,9 @@
           }
         },
         "es": {
-          "title": "Guarda guías públicas y sus documentos juntos | Grab All Files",
-          "desc": "Recopila guías de programas públicos y archivos PDF o Word enlazados. Organiza HTML, ZIP y fuentes para consultarlos más tarde.",
-          "eyebrow": "Guías y documentos públicos",
+          "title": "Guardar documentos oficiales y guías de la administración | Grab All Files",
+          "desc": "Guarda en HTML la página de un trámite público y sus adjuntos PDF o Word como archivos, con sus fuentes. Gratis: 1 página por vez, 10 por descarga.",
+          "eyebrow": "Documentos y guías oficiales",
           "h1": "Reúne las guías públicas y sus documentos.",
           "lead": "Pon la descripción de un programa, sus instrucciones y los adjuntos pertinentes en una carpeta. Lee las páginas elegidas en HTML y conserva los documentos originales al lado para volver a la fuente sin buscar de nuevo.",
           "best": [
@@ -9977,10 +10277,10 @@
             "Anotar fuentes y fechas para una investigación o informe interno."
           ],
           "steps": [
-            "Abre la guía oficial que tengas permiso para guardar. En «Combinar páginas en HTML», compara las candidatas con el menú y elige un tema. Free guarda una página elegida; Pro combina el contenido de varias.",
-            "Si necesitas archivos IA con fuentes, activa «Datos para análisis con IA (Markdown con fuentes)» antes de recopilar. Elige opciones de imágenes y documentos enlazados. Guarda la explicación en HTML y selecciona los PDF o Word accesibles en el descargador. Comprueba títulos y versiones.",
-            "Agrupa los originales elegidos en un ZIP junto al HTML. Abre el resultado y coteja secciones, adjuntos y fallos con la página oficial.",
-            "Tras recopilar, usa «Guardar ZIP de análisis IA». Comprueba source_url y captured_at y anota versión declarada y fecha revisada.",
+            "A — la página de la guía. Abre la página oficial que puedas guardar y haz clic en «Combinar páginas en HTML». Deja «Solo la página abierta» o elige «Buscar también las páginas enlazadas» y quédate con un tema. La versión gratuita guarda una página por vez; Pro combina varias páginas seleccionadas en un HTML.",
+            "Antes de recopilar, activa «Datos para análisis con IA (Markdown con fuentes)» si quieres archivos con fuentes, elige los ajustes de imágenes y documentos enlazados y guarda la página en HTML.",
+            "B — los adjuntos. Cambia a «Descargador de archivos», escanea la misma página, filtra por PDF y Word y marca los formularios y guías que necesitas. La versión gratuita guarda 10 archivos por descarga: selecciona los siguientes y vuelve a pulsar «Descargar», o guárdalos en un ZIP junto al HTML.",
+            "C — el ZIP para IA. Tras recopilar, pulsa «Guardar ZIP de análisis IA». Comprueba source_url y captured_at y anota tú la versión indicada y la fecha de comprobación.",
             "Nombra la carpeta por tema y fecha y organiza descripción, instrucciones y formularios. Antes de volver a usarlos, revisa si la fuente oficial cambió documentos o fechas."
           ],
           "faq": [
@@ -10058,9 +10358,9 @@
           }
         },
         "fr": {
-          "title": "Réunir les guides publics et leurs documents | Grab All Files",
-          "desc": "Collectez les guides de dispositifs publics et leurs PDF ou Word. Organisez HTML, ZIP et sources pour retrouver facilement vos références.",
-          "eyebrow": "Guides et documents publics",
+          "title": "Collecter documents administratifs et guides publics | Grab All Files",
+          "desc": "Enregistrez en HTML la page d’un dispositif public et ses pièces jointes PDF ou Word, avec leurs sources. Gratuit : 1 page par passage, 10 fichiers.",
+          "eyebrow": "Documents administratifs et guides",
           "h1": "Gardez les guides publics avec leurs documents.",
           "lead": "Réunissez la présentation d’un dispositif, les consignes et les pièces utiles dans un dossier. Lisez les pages choisies en HTML et conservez les originaux à côté pour retrouver la bonne source.",
           "best": [
@@ -10069,10 +10369,10 @@
             "Noter les sources et dates pour une recherche ou une présentation interne."
           ],
           "steps": [
-            "Ouvrez le guide officiel que vous pouvez enregistrer. Dans « Regrouper les pages en HTML », comparez les pages proposées au menu et choisissez un sujet. Free enregistre une page choisie ; Pro regroupe plusieurs contenus.",
-            "Pour des fichiers IA avec sources, activez «Données pour analyse par IA (Markdown avec sources)» avant la collecte. Réglez les images et documents liés. Enregistrez les explications en HTML et sélectionnez les PDF ou Word accessibles dans le téléchargeur. Vérifiez titres et versions.",
-            "Regroupez les originaux choisis en ZIP à côté du HTML. Ouvrez les résultats et comparez rubriques, pièces jointes et échecs signalés à la page officielle.",
-            "Après collecte, utilisez «Enregistrer le ZIP d’analyse IA». Vérifiez source_url et captured_at et notez révision affichée et date de vérification.",
+            "A — la page du guide. Ouvrez la page officielle que vous pouvez enregistrer et cliquez sur « Regrouper les pages en HTML ». Gardez « Seulement la page ouverte » ou choisissez « Chercher aussi les pages liées » et retenez un seul sujet. La version gratuite enregistre une page par passage ; Pro regroupe plusieurs pages choisies en un HTML.",
+            "Avant la collecte, activez « Données pour analyse par IA (Markdown avec sources) » si vous voulez des fichiers sourcés, réglez images et documents liés, puis enregistrez la page en HTML.",
+            "B — les pièces jointes. Passez au « Téléchargeur de fichiers », analysez la même page, filtrez sur PDF et Word et cochez les formulaires et notices utiles. La version gratuite enregistre 10 fichiers par téléchargement : sélectionnez les suivants et cliquez à nouveau sur « Télécharger », ou réunissez-les dans un ZIP à côté du HTML.",
+            "C — le ZIP pour l’IA. Après la collecte, cliquez sur « Enregistrer le ZIP d’analyse IA ». Vérifiez source_url et captured_at, puis notez vous-même la révision indiquée et la date de vérification.",
             "Nommez le dossier par sujet et date, puis classez présentation, consignes et formulaires. Avant de les réutiliser, vérifiez les documents et dates sur la source officielle actuelle."
           ],
           "faq": [
@@ -10150,9 +10450,9 @@
           }
         },
         "de": {
-          "title": "Öffentliche Hinweise und Dokumente bündeln | Grab All Files",
-          "desc": "Sammeln Sie öffentliche Programminformationen, Anleitungen und verlinkte PDF- oder Word-Dateien. Ordnen Sie HTML, ZIP und Quellen für die spätere Prüfung.",
-          "eyebrow": "Öffentliche Hinweise & Dokumente",
+          "title": "Behördendokumente und öffentliche Hinweise sammeln | Grab All Files",
+          "desc": "Die Infoseite eines Behördenangebots als HTML und ihre PDF- oder Word-Anlagen speichern, mit Quellen. Kostenlos: 1 Seite je Lauf, 10 Dateien.",
+          "eyebrow": "Behördendokumente & Hinweise",
           "h1": "Öffentliche Hinweise und Unterlagen beisammen.",
           "lead": "Legen Sie Programmübersicht, genaue Hinweise und zugehörige Anlagen in einem Ordner ab. Lesen Sie ausgewählte Seiten als HTML und bewahren Sie Originaldokumente daneben auf, um die Quelle wiederzufinden.",
           "best": [
@@ -10161,10 +10461,10 @@
             "Quellen und Prüfdaten für Recherche oder interne Information festhalten."
           ],
           "steps": [
-            "Öffnen Sie die offizielle Seite, die Sie speichern dürfen. Vergleichen Sie in „Seiten als HTML bündeln“ die Vorschläge mit dem Quellmenü und wählen Sie ein Thema. Free speichert eine gewählte Seite; Pro bündelt mehrere Seiteninhalte.",
-            "Für KI-Dateien mit Quellen aktivieren Sie „KI-Analysedaten (Markdown mit Quellen)“ vor der Sammlung. Wählen Sie Einstellungen für Bilder und Dokumente. Speichern Sie die Erklärung als HTML und wählen Sie erreichbare PDF- oder Word-Anlagen im Datei-Downloader. Prüfen Sie Titel und Versionsangaben.",
-            "Packen Sie ausgewählte Originaldateien als ZIP neben das HTML. Öffnen Sie das Ergebnis und vergleichen Sie benötigte Abschnitte, Anlagen und gemeldete Fehler mit der offiziellen Seite.",
-            "Nach der Sammlung speichern Sie mit „KI-Analyse-ZIP speichern“. Prüfen Sie source_url und captured_at und notieren Sie Revision und Prüfdatum selbst.",
+            "A – die Hinweisseite. Öffnen Sie die offizielle Seite, die Sie speichern dürfen, und klicken Sie auf „Seiten als HTML bündeln“. Belassen Sie „Nur die geöffnete Seite“ oder wählen Sie „Auch verlinkte Seiten suchen“ und ein passendes Thema. Kostenlos wird eine Seite pro Durchgang gespeichert; Pro bündelt mehrere ausgewählte Seiten in einem HTML.",
+            "Aktivieren Sie vor der Sammlung „KI-Analysedaten (Markdown mit Quellen)“, wenn Sie Dateien mit Quellenangaben möchten, wählen Sie die Einstellungen für Bilder und verlinkte Dokumente und speichern Sie die Seite als HTML.",
+            "B – die Anlagen. Wechseln Sie zum „Datei-Downloader“, scannen Sie dieselbe Seite, filtern Sie auf PDF und Word und haken Sie die benötigten Formulare und Hinweise an. Kostenlos sind es 10 Dateien pro Download: Wählen Sie die nächsten aus und klicken Sie erneut auf „Herunterladen“, oder speichern Sie sie als ZIP neben dem HTML.",
+            "C – das KI-ZIP. Klicken Sie nach der Sammlung auf „KI-Analyse-ZIP speichern“. Prüfen Sie source_url und captured_at und notieren Sie die angegebene Revision und Ihr Prüfdatum selbst.",
             "Benennen Sie den Ordner nach Thema und Datum und ordnen Sie Übersicht, Hinweise und Formulare. Prüfen Sie vor späterer Nutzung aktuelle Dokumente und Datumsangaben an der offiziellen Quelle."
           ],
           "faq": [
@@ -10242,9 +10542,9 @@
           }
         },
         "it": {
-          "title": "Riunisci guide pubbliche e documenti | Grab All Files",
-          "desc": "Raccogli guide di programmi pubblici, istruzioni e PDF o Word collegati. Organizza HTML, ZIP e fonti per consultare di nuovo i materiali.",
-          "eyebrow": "Guide e documenti pubblici",
+          "title": "Raccogliere documenti della PA e guide pubbliche | Grab All Files",
+          "desc": "Salva in HTML la pagina di un servizio pubblico e i suoi allegati PDF o Word come file, con le fonti. Gratis: 1 pagina per volta, 10 file per download.",
+          "eyebrow": "Documenti e guide della PA",
           "h1": "Tieni le guide pubbliche insieme ai documenti.",
           "lead": "Metti la presentazione di un programma, le istruzioni e gli allegati pertinenti in una cartella. Leggi le pagine scelte in HTML e conserva gli originali accanto, per ritrovare la fonte senza una nuova ricerca.",
           "best": [
@@ -10253,10 +10553,10 @@
             "Annotare fonti e date per ricerche o comunicazioni interne."
           ],
           "steps": [
-            "Apri la guida ufficiale che puoi salvare. In «Unisci pagine in HTML», confronta le candidate con il menu e scegli un argomento. Free salva una pagina scelta; Pro unisce il contenuto di più pagine.",
-            "Per file IA con fonti attiva «Dati per analisi con IA (Markdown con fonti)» prima della raccolta. Scegli le impostazioni per immagini e documenti. Salva la spiegazione in HTML e seleziona PDF o Word accessibili nel downloader. Controlla titoli e versioni indicate.",
-            "Raggruppa gli originali scelti in uno ZIP accanto all’HTML. Apri il risultato e confronta sezioni, allegati ed errori segnalati con la pagina ufficiale.",
-            "Dopo la raccolta usa «Salva ZIP di analisi IA». Controlla source_url e captured_at e annota revisione dichiarata e data verificata.",
+            "A — la pagina della guida. Apri la pagina ufficiale che puoi salvare e fai clic su «Unisci pagine in HTML». Lascia «Solo la pagina aperta» oppure scegli «Cerca anche le pagine collegate» e tieni un solo argomento. La versione gratuita salva una pagina per volta; Pro unisce più pagine scelte in un unico HTML.",
+            "Prima della raccolta attiva «Dati per analisi con IA (Markdown con fonti)» se vuoi file con le fonti, scegli le impostazioni per immagini e documenti collegati e salva la pagina in HTML.",
+            "B — gli allegati. Passa a «Downloader di file», scansiona la stessa pagina, filtra per PDF e Word e seleziona i moduli e le guide che ti servono. La versione gratuita salva 10 file per download: seleziona i successivi e fai di nuovo clic su «Scarica», oppure raccoglili in uno ZIP accanto all’HTML.",
+            "C — lo ZIP per l’IA. Dopo la raccolta fai clic su «Salva ZIP di analisi IA». Controlla source_url e captured_at e annota tu la revisione indicata e la data del controllo.",
             "Nomina la cartella per argomento e data e organizza presentazione, istruzioni e moduli. Prima di riutilizzarli, verifica aggiornamenti di documenti e date sulla fonte ufficiale."
           ],
           "faq": [
@@ -10334,9 +10634,9 @@
           }
         },
         "ko": {
-          "title": "공공기관 안내와 첨부 자료를 함께 저장 | Grab All Files",
-          "desc": "공공 제도 안내, 신청 요령과 연결된 PDF·Word를 필요한 단위로 모읍니다. HTML·ZIP·출처 목록을 정리해 다시 확인할 자료 세트를 준비하세요.",
-          "eyebrow": "공공기관 자료 세트",
+          "title": "정부·공공기관 문서와 안내 자료 모아 저장 | Grab All Files",
+          "desc": "정부·공공기관의 제도 안내 페이지는 HTML로, 첨부 PDF·Word는 파일로 저장하고 출처도 기록합니다. 무료 버전은 한 번에 1페이지, 파일은 다운로드당 10개까지입니다.",
+          "eyebrow": "정부·공공기관 문서",
           "h1": "공공 안내와 첨부 자료를 한곳에.",
           "lead": "제도 개요, 자세한 안내와 관련 첨부 자료를 같은 폴더에 둡니다. 선택한 설명 페이지는 HTML로 읽고 원본 PDF·Word를 함께 보관하면 다시 검색하지 않고 출처를 찾을 수 있습니다.",
           "best": [
@@ -10345,10 +10645,10 @@
             "조사나 내부 설명에 쓸 출처와 확인일 기록하기."
           ],
           "steps": [
-            "저장이 허용된 공식 안내 페이지를 엽니다. “페이지를 HTML로 합치기”에서 후보를 원본 메뉴와 비교하고 필요한 주제만 선택합니다. 무료 버전은 선택한 한 페이지, Pro는 여러 페이지 본문을 저장·결합합니다.",
-            "출처가 있는 AI 파일도 사용하려면 수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 켭니다. 이미지·연결 문서 설정을 선택하고 설명을 HTML로 저장합니다. 첨부 PDF·Word는 파일 다운로더에서 가져올 수 있는 링크를 선택하고 제목과 표기된 버전을 확인합니다.",
-            "선택한 원본 파일을 ZIP으로 묶어 HTML 옆에 둡니다. 저장 결과를 열어 필요한 제목·첨부 자료와 실패 항목을 공식 페이지와 비교합니다.",
-            "수집 완료 후 “AI 분석용 ZIP 저장”으로 저장하고 source_url·captured_at을 확인합니다. 표기 버전과 확인일은 직접 기록합니다.",
+            "A: 안내 페이지. 저장이 허용된 공식 페이지를 열고 “페이지를 HTML로 합치기”를 누릅니다. “열려 있는 페이지만”을 그대로 두거나 “링크된 페이지도 찾기”를 골라 필요한 주제 하나를 선택합니다. 무료 버전은 한 번에 1페이지, Pro는 선택한 여러 페이지를 하나의 HTML로 합칩니다.",
+            "출처가 있는 AI 파일도 쓰려면 수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 켜고, 이미지·연결 문서 설정을 고른 뒤 페이지를 HTML로 저장합니다.",
+            "B: 첨부 자료. “파일 일괄 다운로드”로 전환해 같은 페이지를 스캔하고, PDF와 Word로 필터링해 필요한 양식·안내 자료를 체크합니다. 무료 버전은 다운로드당 10개까지이므로 다음 파일을 선택해 “다운로드”를 다시 누르거나 ZIP으로 묶어 HTML 옆에 둡니다.",
+            "C: AI용 ZIP. 수집이 끝나면 “AI 분석용 ZIP 저장”을 누릅니다. source_url·captured_at을 확인하고, 표기된 버전과 확인일은 직접 기록합니다.",
             "주제와 날짜로 폴더 이름을 정하고 개요·안내·양식을 구분합니다. 나중에 사용할 때 공식 출처에서 문서와 날짜의 변경 여부를 확인합니다."
           ],
           "faq": [
@@ -10426,9 +10726,9 @@
           }
         },
         "pt_BR": {
-          "title": "Reúna orientações públicas e seus documentos | Grab All Files",
-          "desc": "Colete orientações de programas públicos, instruções e PDF ou Word vinculados. Organize HTML, ZIP e fontes para consultar o material depois.",
-          "eyebrow": "Orientações e documentos públicos",
+          "title": "Reunir documentos do governo e orientações públicas | Grab All Files",
+          "desc": "Salve em HTML a página de um serviço público e os anexos PDF ou Word como arquivos, com as fontes. Grátis: 1 página por vez, 10 por download.",
+          "eyebrow": "Documentos e orientações do governo",
           "h1": "Guarde orientações públicas com seus documentos.",
           "lead": "Coloque a apresentação de um programa, as instruções e os anexos relevantes na mesma pasta. Leia páginas escolhidas em HTML e mantenha os documentos originais ao lado para voltar à fonte sem pesquisar tudo novamente.",
           "best": [
@@ -10437,10 +10737,10 @@
             "Registrar fontes e datas para pesquisa ou apresentação interna."
           ],
           "steps": [
-            "Abra a orientação oficial que você pode salvar. Em “Juntar páginas em HTML”, compare as candidatas com o menu e escolha um tema. Free salva uma página escolhida; Pro combina o conteúdo de várias.",
-            "Para arquivos IA com fontes, ative “Dados para análise com IA (Markdown com fontes)” antes da coleta. Escolha opções de imagens e documentos vinculados. Salve a explicação em HTML e selecione PDF ou Word acessíveis no downloader. Confira títulos e versões indicadas.",
-            "Reúna os originais escolhidos em um ZIP junto do HTML. Abra o resultado e compare seções, anexos e falhas informadas com a página oficial.",
-            "Após a coleta use “Salvar ZIP de análise IA”. Confira source_url e captured_at e anote revisão declarada e data verificada.",
+            "A — a página de orientação. Abra a página oficial que você pode salvar e clique em “Juntar páginas em HTML”. Mantenha “Somente a página aberta” ou escolha “Procurar também as páginas vinculadas” e fique com um tema. A versão gratuita salva uma página por vez; o Pro junta várias páginas escolhidas em um HTML.",
+            "Antes da coleta, ative “Dados para análise com IA (Markdown com fontes)” se quiser arquivos com fontes, escolha as opções de imagens e documentos vinculados e salve a página em HTML.",
+            "B — os anexos. Mude para “Baixador de arquivos”, escaneie a mesma página, filtre por PDF e Word e marque os formulários e orientações necessários. A versão gratuita salva 10 arquivos por download: selecione os próximos e clique em “Baixar” de novo, ou reúna-os em um ZIP ao lado do HTML.",
+            "C — o ZIP para IA. Depois da coleta, clique em “Salvar ZIP de análise IA”. Confira source_url e captured_at e anote você mesmo a revisão indicada e a data da conferência.",
             "Nomeie a pasta por tema e data e organize apresentação, instruções e formulários. Antes de reutilizar, confira mudanças nos documentos e datas na fonte oficial."
           ],
           "faq": [
@@ -10518,9 +10818,9 @@
           }
         },
         "zh_CN": {
-          "title": "集中保存公共机构说明与附件资料 | Grab All Files",
-          "desc": "按需要收集公共制度说明、申请指南及PDF、Word附件。整理HTML、ZIP与来源列表，准备便于日后核对的参考资料。",
-          "eyebrow": "公共机构资料集",
+          "title": "集中保存政府公开文件与办事指南 | Grab All Files",
+          "desc": "把政府或公共机构的制度说明页面保存为HTML，附件PDF、Word保存为文件，并记录来源。免费版每次保存1个页面，文件每次下载最多10个。",
+          "eyebrow": "政府公开文件与指南",
           "h1": "把公共说明与附件放在一起。",
           "lead": "将制度概览、详细指南及相关附件放在同一个文件夹中。选中的说明页面用HTML阅读，原始PDF、Word放在旁边，日后无需重新搜索就能找到来源。",
           "best": [
@@ -10529,10 +10829,10 @@
             "为研究或内部说明记录来源和核对日期。"
           ],
           "steps": [
-            "打开允许保存的官方说明页面，在“将网页合并为 HTML”中将候选与原菜单核对，只选择需要的主题。免费版保存所选的一个页面，Pro可合并多个页面正文。",
-            "需要带来源的AI文件时，收集前启用“AI分析数据（带出处的Markdown）”。 选择图片和链接文档设置，保存说明HTML。在文件下载器中选择可获取的PDF、Word附件链接，并核对文件名称和标示版本。",
-            "将选中的原始文件打包为ZIP，与HTML一起保存。打开保存结果，对照官方页面检查所需标题、附件及报告的失败项目。",
-            "收集完成后使用“保存AI分析ZIP”保存资料，核对source_url与captured_at，版本及确认日期自行记录。",
+            "A：说明页面。打开允许保存的官方页面，点击“将网页合并为 HTML”。保持“仅当前打开的页面”，或选择“同时查找链接到的页面”并只选一个相关主题。免费版每次保存1个页面；Pro可把选中的多个页面合并为一个HTML。",
+            "需要带来源的AI文件时，请在收集前启用“AI分析数据（带出处的Markdown）”，选择图片和链接文档设置，然后将页面保存为HTML。",
+            "B：附件。切换到“文件批量下载”，扫描同一页面，按PDF和Word筛选并勾选需要的表格与指南。免费版每次下载最多10个：选择接下来的文件再次点击“下载”，或打包为ZIP与HTML放在一起。",
+            "C：AI用ZIP。收集完成后点击“保存AI分析ZIP”。核对source_url和captured_at，标示的版本和确认日期请自行记录。",
             "按主题与日期命名文件夹，整理概览、指南和表格。日后使用前回到官方来源，检查文档和日期是否更新。"
           ],
           "faq": [
@@ -10610,9 +10910,9 @@
           }
         },
         "zh_TW": {
-          "title": "集中儲存公部門說明與附件資料 | Grab All Files",
-          "desc": "依需要收集公共制度說明、申請指南及PDF、Word附件。整理HTML、ZIP與來源清單，準備便於日後核對的參考資料。",
-          "eyebrow": "公部門資料集",
+          "title": "集中儲存政府公開文件與申辦說明 | Grab All Files",
+          "desc": "把政府或公部門的制度說明頁面儲存為HTML，附件PDF、Word儲存為檔案，並記錄來源。免費版每次儲存1個頁面，檔案每次下載最多10個。",
+          "eyebrow": "政府公開文件與說明",
           "h1": "把公共說明與附件放在一起。",
           "lead": "將制度概覽、詳細指南及相關附件放在同一個資料夾。選取的說明頁面用HTML閱讀，原始PDF、Word放在旁邊，日後無須重新搜尋就能找到來源。",
           "best": [
@@ -10621,10 +10921,10 @@
             "為研究或內部說明記錄來源和核對日期。"
           ],
           "steps": [
-            "開啟允許儲存的官方說明頁面，在「將網頁合併為 HTML」中將候選與原選單核對，只選需要的主題。免費版儲存選取的一個頁面，Pro可合併多個頁面正文。",
-            "需要附來源的AI檔案時，收集前啟用「AI分析資料（附出處的Markdown）」。 選擇圖片和連結文件設定，儲存說明HTML。在檔案下載器中選取可取得的PDF、Word附件連結，核對檔案名稱與標示版本。",
-            "將選取的原始檔案打包為ZIP，與HTML一起儲存。開啟儲存結果，對照官方頁面檢查所需標題、附件及回報的失敗項目。",
-            "收集完成後使用「儲存AI分析ZIP」儲存資料，核對source_url與captured_at，版本及確認日期自行記錄。",
+            "A：說明頁面。開啟允許儲存的官方頁面，點擊「將網頁合併為 HTML」。保持「僅目前開啟的頁面」，或選擇「同時尋找連結到的頁面」並只選一個相關主題。免費版每次儲存1個頁面；Pro可把選取的多個頁面合併為一個HTML。",
+            "需要附來源的AI檔案時，請在收集前啟用「AI分析資料（附出處的Markdown）」，選擇圖片和連結文件設定，然後將頁面儲存為HTML。",
+            "B：附件。切換到「檔案批次下載」，掃描同一頁面，依PDF和Word篩選並勾選需要的表單與說明。免費版每次下載最多10個：選取接下來的檔案再次點擊「下載」，或打包為ZIP與HTML放在一起。",
+            "C：AI用ZIP。收集完成後點擊「儲存AI分析ZIP」。核對source_url和captured_at，標示的版本和確認日期請自行記錄。",
             "依主題與日期命名資料夾，整理概覽、指南與表格。日後使用前回到官方來源，檢查文件和日期是否更新。"
           ],
           "faq": [
@@ -10713,7 +11013,7 @@
       "copy": {
         "en": {
           "title": "Save web sources as reusable Markdown | Grab All Files",
-          "desc": "Export collected web text as one Markdown file, per-page notes or a full package. Keep sources for research, writing and manual reuse in notes or external AI.",
+          "desc": "Export collected web text as one Markdown file, per-page notes or a full package, with sources kept for research, writing and reuse in notes or AI.",
           "eyebrow": "Web sources as Markdown",
           "h1": "Turn web sources into notes you can reuse.",
           "lead": "Keep collected headings, text, lists, supported HTML tables and ordinary links in Markdown, with sources and capture dates. Choose one reading file or separate page notes, then reuse the saved material in research, writing or a tool you choose.",
@@ -10749,6 +11049,18 @@
             {
               "q": "Does exporting send the material to AI?",
               "a": "No. Export prepares files on your device. You choose an external service and manually provide supported files and your question. Keep source_url and captured_at when checking answers; a capture date does not prove that the source is still current."
+            },
+            {
+              "q": "Can I use this for free?",
+              "a": "Yes. Free saves one chosen page per run. Images on that page have no plan limit, and its directly linked files are saved 10 at a time with “Save the next 10” on the result screen. Pro ($19.99 one-time, up to 3 devices) combines multiple selected pages into one HTML."
+            },
+            {
+              "q": "What if a page needs me to sign in?",
+              "a": "Collection uses your own browser session and does not collect credentials. If a page is marked “Sign-in needed”, press “Open the site to sign in”, sign in in that tab, then press “Resume”. Pages that still need a sign-in are not saved, and the result says how many were left out."
+            },
+            {
+              "q": "Why is some text missing from the saved page?",
+              "a": "Some sites add text only after you scroll or click. Open “If a page is missing text: content and JavaScript settings”, turn on “Scroll down to load content that appears later” or “Press ‘Show more’ to include the continuation”, and collect again. If the wrong part of the page was kept, use “Select on screen” there to pick the main text."
             }
           ],
           "guide": {
@@ -10837,6 +11149,18 @@
             {
               "q": "書き出すとAIへ送信されますか？",
               "a": "端末内でファイルを準備します。外部サービスは利用者が選び、対応ファイルと質問を手動で渡します。回答の確認ではsource_url・captured_atを残して使い、取得日時と出典の現在の内容を区別します。"
+            },
+            {
+              "q": "無料で使えますか？",
+              "a": "はい。無料版は1回の収集で選んだ1ページを保存します。そのページの画像にはプラン上の件数制限がなく、直接リンクされたファイルは結果画面の「次の10件を保存」で10件ずつ保存できます。Pro（$19.99・買い切り、3台まで）は選んだ複数ページを1つのHTMLにまとめられます。"
+            },
+            {
+              "q": "ログインが必要なページはどうなりますか？",
+              "a": "収集はブラウザのログイン状態をそのまま使い、認証情報は収集しません。「ログインが必要」と表示されたら「対象サイトを開いてログイン」を押し、開いたタブでログインしてから「再開」を押します。ログインできないままのページは保存されず、残ったページ数が結果に表示されます。"
+            },
+            {
+              "q": "保存したページの本文が一部欠けるのはなぜですか？",
+              "a": "スクロールやクリックの後で本文を表示するサイトがあります。「本文が欠けるとき：保存範囲とJavaScriptの設定」を開き、「下へスクロールして遅れて出る内容を読む」や「『もっと見る』を押して続きを含める」をオンにして収集し直してください。ページの別の部分が保存された場合は、そこにある「画面で選ぶ」で本文の範囲を指定できます。"
             }
           ],
           "guide": {
@@ -10889,7 +11213,7 @@
         },
         "es": {
           "title": "Guarda fuentes web como Markdown reutilizable | Grab All Files",
-          "desc": "Exporta texto web en un Markdown, notas por página o un paquete completo. Conserva fuentes para investigar, escribir y reutilizar manualmente en notas o IA.",
+          "desc": "Exporta texto web como un Markdown, notas por página o un paquete completo, con las fuentes, para investigar, escribir y reutilizar en notas o IA.",
           "eyebrow": "Fuentes web en Markdown",
           "h1": "Convierte fuentes web en notas reutilizables.",
           "lead": "Conserva títulos, texto, listas, tablas HTML compatibles y enlaces normales en Markdown, con fuentes y fechas de captura. Elige un archivo de lectura o notas separadas y reutilízalo en investigación, escritura o la herramienta que prefieras.",
@@ -10925,6 +11249,18 @@
             {
               "q": "¿Exportar envía los datos a IA?",
               "a": "No. Los archivos se preparan en tu dispositivo. Tú eliges el servicio y le entregas manualmente archivos compatibles y preguntas. Conserva source_url y captured_at para verificar respuestas; la captura no prueba que la fuente siga actualizada."
+            },
+            {
+              "q": "¿Puedo usarlo gratis?",
+              "a": "Sí. La versión gratuita guarda una página elegida por vez. Las imágenes de esa página no tienen límite por plan, y sus archivos enlazados directamente se guardan de 10 en 10 con «Guardar los siguientes 10» en la pantalla de resultados. Pro ($19.99, pago único, hasta 3 dispositivos) combina varias páginas seleccionadas en un HTML."
+            },
+            {
+              "q": "¿Y si una página me pide iniciar sesión?",
+              "a": "La recopilación usa tu propia sesión del navegador y no recopila credenciales. Si una página aparece como «Inicio de sesión necesario», pulsa «Abrir el sitio para iniciar sesión», inicia sesión en esa pestaña y pulsa «Reanudar». Las páginas que sigan pidiendo sesión no se guardan, y el resultado indica cuántas quedaron fuera."
+            },
+            {
+              "q": "¿Por qué falta texto en la página guardada?",
+              "a": "Algunos sitios añaden texto solo después de desplazarte o hacer clic. Abre «Si falta texto en una página: ajustes de contenido y JavaScript», activa «Desplazarse hacia abajo para cargar el contenido que aparece después» o «Pulsar “Mostrar más” para incluir la continuación» y vuelve a recopilar. Si se guardó otra parte de la página, usa ahí «Seleccionar en pantalla» para elegir el texto principal."
             }
           ],
           "guide": {
@@ -10977,7 +11313,7 @@
         },
         "fr": {
           "title": "Enregistrer des sources web en Markdown | Grab All Files",
-          "desc": "Exportez le texte web en un Markdown, des notes par page ou un dossier complet. Gardez les sources pour la recherche, la rédaction et la réutilisation manuelle.",
+          "desc": "Exportez du texte web en un Markdown, en notes par page ou en paquet complet, sources comprises, pour la recherche, la rédaction ou une IA.",
           "eyebrow": "Sources web en Markdown",
           "h1": "Des sources web aux notes réutilisables.",
           "lead": "Conservez titres, texte, listes, tableaux HTML compatibles et liens ordinaires en Markdown, avec sources et dates de capture. Choisissez un fichier de lecture ou des notes distinctes pour vos recherches, votre rédaction ou l’outil choisi.",
@@ -11013,6 +11349,18 @@
             {
               "q": "L’export envoie-t-il les données à une IA ?",
               "a": "Non. Les fichiers sont préparés sur votre appareil. Vous choisissez le service et fournissez manuellement les fichiers compatibles et questions. Gardez source_url et captured_at pour vérifier les réponses ; une capture ne prouve pas que la source est toujours actuelle."
+            },
+            {
+              "q": "Puis-je l’utiliser gratuitement ?",
+              "a": "Oui. La version gratuite enregistre une page choisie par passage. Les images de cette page n’ont pas de limite liée à l’offre, et ses fichiers liés directement sont enregistrés par 10 avec « Enregistrer les 10 suivants » sur l’écran de résultat. Pro (19,99 $, achat unique, jusqu’à 3 appareils) regroupe plusieurs pages choisies en un HTML."
+            },
+            {
+              "q": "Et si une page me demande de me connecter ?",
+              "a": "La collecte utilise votre propre session de navigateur et ne collecte aucun identifiant. Si une page est marquée « Connexion nécessaire », cliquez sur « Ouvrir le site pour se connecter », connectez-vous dans cet onglet, puis cliquez sur « Reprendre ». Les pages qui exigent encore une connexion ne sont pas enregistrées, et le résultat indique combien ont été laissées de côté."
+            },
+            {
+              "q": "Pourquoi manque-t-il du texte dans la page enregistrée ?",
+              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Faire défiler vers le bas pour charger le contenu qui apparaît plus tard » ou « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l'écran » pour désigner le texte principal."
             }
           ],
           "guide": {
@@ -11065,7 +11413,7 @@
         },
         "de": {
           "title": "Webquellen als Markdown wiederverwenden | Grab All Files",
-          "desc": "Exportieren Sie Webtext als eine Markdown-Datei, Seitennotizen oder Komplettpaket. Bewahren Sie Quellen für Recherche, Schreiben und manuelle Nutzung in Notizen oder KI.",
+          "desc": "Webtext als eine Markdown-Datei, als Seitennotizen oder als Komplettpaket exportieren – mit Quellen für Recherche, Schreiben und KI.",
           "eyebrow": "Webquellen als Markdown",
           "h1": "Webquellen zu wiederverwendbaren Notizen machen.",
           "lead": "Bewahren Sie Überschriften, Text, Listen, unterstützte HTML-Tabellen und normale Links als Markdown auf, mit Quellen und Aufnahmezeiten. Nutzen Sie eine Lesedatei oder getrennte Seitennotizen für Recherche, Schreiben und Ihr gewähltes Werkzeug.",
@@ -11101,6 +11449,18 @@
             {
               "q": "Sendet der Export Material an KI?",
               "a": "Nein. Dateien werden auf Ihrem Gerät vorbereitet. Sie wählen den Dienst und übergeben passende Dateien und Fragen manuell. Behalten Sie source_url und captured_at zur Antwortprüfung; ein Aufnahmedatum beweist keine fortdauernde Aktualität."
+            },
+            {
+              "q": "Kann ich das kostenlos nutzen?",
+              "a": "Ja. Die kostenlose Version speichert pro Durchgang eine gewählte Seite. Für die Bilder dieser Seite gilt kein Tariflimit, und direkt verlinkte Dateien werden auf der Ergebnisseite mit „Nächste 10 speichern“ in Zehnergruppen gespeichert. Pro (19,99 $, einmalig, bis zu 3 Geräte) bündelt mehrere ausgewählte Seiten in einem HTML."
+            },
+            {
+              "q": "Was passiert, wenn eine Seite eine Anmeldung verlangt?",
+              "a": "Die Sammlung nutzt Ihre eigene Browser-Sitzung und sammelt keine Zugangsdaten. Ist eine Seite mit „Anmeldung erforderlich“ markiert, klicken Sie auf „Website zum Anmelden öffnen“, melden sich in diesem Tab an und klicken dann auf „Fortsetzen“. Seiten, die weiterhin eine Anmeldung verlangen, werden nicht gespeichert; das Ergebnis nennt ihre Anzahl."
+            },
+            {
+              "q": "Warum fehlt Text in der gespeicherten Seite?",
+              "a": "Manche Websites zeigen Text erst nach Scrollen oder einem Klick. Öffnen Sie „Wenn Text auf einer Seite fehlt: Inhalts- und JavaScript-Einstellungen“, aktivieren Sie „Nach unten scrollen, um später erscheinende Inhalte zu laden“ oder „‚Mehr anzeigen‘ drücken, um die Fortsetzung einzubeziehen“ und sammeln Sie erneut. Wurde ein falscher Seitenteil übernommen, wählen Sie dort mit „Auf dem Bildschirm auswählen“ den Haupttext."
             }
           ],
           "guide": {
@@ -11142,7 +11502,7 @@
               ],
               [
                 "Komplettpaket",
-                "corpus.md, chunks.jsonl, manifest.json, Anfragetext und HTML im ZIP für strukturierte Nutzung. Das vollständige Paket enthält das Lese-HTML. Im Maskierungsmodus wird HTML nicht beigelegt."
+                "corpus.md, chunks.jsonl, manifest.json, Anfragetext und HTML im ZIP für strukturierte Nutzung. Das Komplettpaket enthält das Lese-HTML. Im Maskierungsmodus wird HTML nicht beigelegt."
               ],
               [
                 "HTML / Originaldokumente",
@@ -11189,6 +11549,18 @@
             {
               "q": "L’esportazione invia dati a un’IA?",
               "a": "No. I file vengono preparati sul dispositivo. Scegli tu il servizio e fornisci manualmente file compatibili e domande. Mantieni source_url e captured_at per verificare le risposte; la data di acquisizione non prova che la fonte sia ancora attuale."
+            },
+            {
+              "q": "Posso usarlo gratis?",
+              "a": "Sì. La versione gratuita salva una pagina scelta per volta. Le immagini di quella pagina non hanno limiti di piano e i file collegati direttamente si salvano 10 alla volta con «Salva i prossimi 10» nella schermata dei risultati. Pro ($19.99, una tantum, fino a 3 dispositivi) unisce più pagine scelte in un unico HTML."
+            },
+            {
+              "q": "E se una pagina mi chiede di accedere?",
+              "a": "La raccolta usa la tua sessione del browser e non raccoglie credenziali. Se una pagina è segnata «Accesso necessario», fai clic su «Apri il sito per accedere», accedi in quella scheda e poi fai clic su «Riprendi». Le pagine che richiedono ancora l’accesso non vengono salvate e il risultato indica quante sono rimaste fuori."
+            },
+            {
+              "q": "Perché nella pagina salvata manca del testo?",
+              "a": "Alcuni siti aggiungono testo solo dopo uno scorrimento o un clic. Apri «Se in una pagina manca del testo: impostazioni di contenuto e JavaScript», attiva «Scorri verso il basso per caricare il contenuto che appare in seguito» o «Premi “Mostra altro” per includere la continuazione» e ripeti la raccolta. Se è stata salvata un’altra parte della pagina, usa lì «Seleziona sullo schermo» per indicare il testo principale."
             }
           ],
           "guide": {
@@ -11277,6 +11649,18 @@
             {
               "q": "내보내면 AI로 전송되나요?",
               "a": "아닙니다. 기기에서 파일을 준비하고 사용자가 외부 서비스를 골라 지원 파일과 질문을 직접 전달합니다. source_url·captured_at을 남겨 답변을 확인하세요. 취득 시각이 출처의 현재 내용을 보장하지는 않습니다."
+            },
+            {
+              "q": "무료로 사용할 수 있나요?",
+              "a": "예. 무료 버전은 한 번에 선택한 1페이지를 저장합니다. 그 페이지의 이미지에는 플랜 제한이 없고, 직접 링크된 파일은 결과 화면의 “다음 10건 저장”으로 10개씩 저장합니다. Pro($19.99, 1회 결제, 최대 3대)는 선택한 여러 페이지를 하나의 HTML로 합칩니다."
+            },
+            {
+              "q": "로그인이 필요한 페이지는 어떻게 되나요?",
+              "a": "수집은 브라우저의 로그인 상태를 그대로 사용하며 인증 정보를 수집하지 않습니다. “로그인 필요”로 표시되면 “사이트를 열어 로그인”을 누르고 열린 탭에서 로그인한 뒤 “재개”를 누르세요. 계속 로그인이 필요한 페이지는 저장되지 않으며, 남은 페이지 수가 결과에 표시됩니다."
+            },
+            {
+              "q": "저장한 페이지에서 본문 일부가 빠지는 이유는요?",
+              "a": "스크롤하거나 클릭한 뒤에야 본문을 보여 주는 사이트가 있습니다. “페이지에서 본문이 빠질 때: 내용 및 JavaScript 설정”을 열고 “아래로 스크롤해 나중에 나타나는 내용 불러오기”나 “‘더 보기’를 눌러 이어지는 내용 포함”을 켠 뒤 다시 수집하세요. 페이지의 다른 부분이 저장되었다면 그곳의 “화면에서 선택”으로 본문 범위를 지정할 수 있습니다."
             }
           ],
           "guide": {
@@ -11365,6 +11749,18 @@
             {
               "q": "Exportar envia o material para IA?",
               "a": "Não. Os arquivos são preparados no dispositivo. Você escolhe o serviço e fornece manualmente arquivos compatíveis e perguntas. Mantenha source_url e captured_at para conferir respostas; a data de captura não prova que a fonte ainda esteja atualizada."
+            },
+            {
+              "q": "Posso usar de graça?",
+              "a": "Sim. A versão gratuita salva uma página escolhida por vez. As imagens dessa página não têm limite de plano, e os arquivos vinculados diretamente são salvos de 10 em 10 com “Salvar os próximos 10” na tela de resultado. O Pro ($19.99, compra única, até 3 dispositivos) junta várias páginas escolhidas em um HTML."
+            },
+            {
+              "q": "E se uma página pedir login?",
+              "a": "A coleta usa a sua própria sessão do navegador e não coleta credenciais. Se uma página aparecer como “Login necessário”, clique em “Abrir o site para fazer login”, entre nessa aba e clique em “Retomar”. Páginas que continuarem exigindo login não são salvas, e o resultado informa quantas ficaram de fora."
+            },
+            {
+              "q": "Por que falta texto na página salva?",
+              "a": "Alguns sites só adicionam texto depois que você rola ou clica. Abra “Se faltar texto em uma página: configurações de conteúdo e JavaScript”, ative “Rolar para baixo para carregar o conteúdo que aparece depois” ou “Pressionar ‘Mostrar mais’ para incluir a continuação” e colete de novo. Se outra parte da página foi salva, use ali “Selecionar na tela” para escolher o texto principal."
             }
           ],
           "guide": {
@@ -11417,7 +11813,7 @@
         },
         "zh_CN": {
           "title": "将Web资料保存为可复用的Markdown | Grab All Files",
-          "desc": "把Web正文导出为单个Markdown、按页笔记或完整包。保留来源，用于研究、写作及手动复用到笔记或外部AI。",
+          "desc": "把收集的网页正文导出为单个Markdown、按页笔记或完整包，并保留来源URL和采集时间，用于研究、写作，或手动复用到笔记工具与外部AI。",
           "eyebrow": "用Markdown复用Web资料",
           "h1": "把Web资料变成能复用的笔记。",
           "lead": "将收集的标题、正文、列表、支持的HTML表格和普通链接保存为Markdown，并保留来源与获取时间。选择单份阅读文件或按页笔记，用于研究、写作及自己选择的工具。",
@@ -11453,6 +11849,18 @@
             {
               "q": "导出会把资料发送给AI吗？",
               "a": "不会。文件在设备上准备，由您选择外部服务，手动提供支持文件与问题。保留source_url和captured_at核对回答；获取时间并不证明来源仍是最新。"
+            },
+            {
+              "q": "可以免费使用吗？",
+              "a": "可以。免费版每次收集保存1个选定页面。该页面中的图片没有套餐数量限制，直接链接的文件可在结果画面通过“保存接下来的10个”每次保存10个。Pro（$19.99，一次性购买，最多3台设备）可将选中的多个页面合并为一个HTML。"
+            },
+            {
+              "q": "需要登录的页面怎么办？",
+              "a": "收集直接使用您浏览器的登录状态，不收集凭据。页面显示“需要登录”时，请点击“打开网站进行登录”，在打开的标签页中登录后点击“继续”。仍需登录的页面不会被保存，结果中会显示剩余页面数。"
+            },
+            {
+              "q": "为什么保存的页面缺少部分文字？",
+              "a": "有些网站要滚动或点击后才显示正文。请打开“页面缺少文字时：内容和 JavaScript 设置”，开启“向下滚动以加载稍后出现的内容”或“点击‘显示更多’以包含后续内容”，然后重新收集。如果保存的是页面的其他部分，可在那里用“在屏幕上选择”指定正文范围。"
             }
           ],
           "guide": {
@@ -11494,7 +11902,7 @@
               ],
               [
                 "完整包",
-                "corpus.md、chunks.jsonl、manifest.json、请求文与HTML打包为ZIP，便于结构化复用。完整资料包包含阅读用HTML。遮蔽模式不包含HTML。"
+                "corpus.md、chunks.jsonl、manifest.json、请求文与HTML打包为ZIP，便于结构化复用。完整包包含阅读用HTML。遮蔽模式不包含HTML。"
               ],
               [
                 "HTML／原始文档",
@@ -11505,7 +11913,7 @@
         },
         "zh_TW": {
           "title": "將Web資料儲存為可重用的Markdown | Grab All Files",
-          "desc": "把Web正文匯出為單一Markdown、逐頁筆記或完整套件。保留來源，用於研究、寫作及手動重用到筆記或外部AI。",
+          "desc": "把收集的網頁正文匯出為單一Markdown、逐頁筆記或完整套件，並保留來源URL和擷取時間，用於研究、寫作，或手動重用到筆記工具與外部AI。",
           "eyebrow": "用Markdown重用Web資料",
           "h1": "把Web資料變成能重用的筆記。",
           "lead": "將收集的標題、正文、清單、支援的HTML表格和一般連結儲存為Markdown，保留來源與取得時間。選擇單份閱讀檔或逐頁筆記，用於研究、寫作及自己選擇的工具。",
@@ -11540,7 +11948,19 @@
             },
             {
               "q": "匯出會把資料傳送給AI嗎？",
-              "a": "不會。檔案在裝置上準備，由你選擇外部服務，手動提供支援檔案與問題。保留source_url和captured_at核對回答；取得時間並不證明來源仍是最新。"
+              "a": "不會。檔案在裝置上準備，由您選擇外部服務，手動提供支援檔案與問題。保留source_url和captured_at核對回答；取得時間並不證明來源仍是最新。"
+            },
+            {
+              "q": "可以免費使用嗎？",
+              "a": "可以。免費版每次收集儲存1個選定頁面。該頁面中的圖片沒有方案數量限制，直接連結的檔案可在結果畫面透過「儲存接下來的10個」每次儲存10個。Pro（$19.99，一次購買，最多3台裝置）可將選取的多個頁面合併為一個HTML。"
+            },
+            {
+              "q": "需要登入的頁面怎麼辦？",
+              "a": "收集直接使用您瀏覽器的登入狀態，不收集憑證。頁面顯示「需要登入」時，請點擊「開啟網站進行登入」，在開啟的分頁中登入後點擊「繼續」。仍需登入的頁面不會被儲存，結果中會顯示剩餘頁面數。"
+            },
+            {
+              "q": "為什麼儲存的頁面缺少部分文字？",
+              "a": "有些網站要捲動或點擊後才顯示正文。請開啟「頁面缺少文字時：內容和 JavaScript 設定」，開啟「向下捲動以載入稍後出現的內容」或「點選『顯示更多』以包含後續內容」，然後重新收集。如果儲存的是頁面的其他部分，可在那裡用「在螢幕上選擇」指定正文範圍。"
             }
           ],
           "guide": {
@@ -11582,7 +12002,7 @@
               ],
               [
                 "完整套件",
-                "corpus.md、chunks.jsonl、manifest.json、請求文與HTML打包為ZIP，便於結構化重用。完整資料包包含閱讀用HTML。遮蔽模式不包含HTML。"
+                "corpus.md、chunks.jsonl、manifest.json、請求文與HTML打包為ZIP，便於結構化重用。完整套件包含閱讀用HTML。遮蔽模式不包含HTML。"
               ],
               [
                 "HTML／原始文件",
@@ -11603,7 +12023,7 @@
       "copy": {
         "en": {
           "title": "Save work manuals & knowledge pages together | Grab All Files",
-          "desc": "Save permitted online manuals and knowledge articles as a readable reference. Organize chapter HTML, embedded PDFs and menu-based articles, then prepare AI questions.",
+          "desc": "Save the online manuals and knowledge articles you may use as one readable reference, with chapters, embedded PDFs and sources kept together.",
           "eyebrow": "Save manuals & knowledge pages",
           "h1": "Turn work manuals and knowledge pages into a useful reference.",
           "lead": "Keep the chapters and articles you need together, find a procedure with the table of contents or text search, and keep original PDFs beside their explanation pages. Use material you are permitted to view and save. Free saves one selected page; Pro combines multiple page bodies.",
@@ -11639,6 +12059,14 @@
             {
               "q": "Can I ask AI to extract procedures or conditions?",
               "a": "Enable AI output before collection, then save the AI ZIP and copy the request after collection. Choose appropriate files and manually give them to your external AI service, extracting the ZIP if needed. Check its answer against the supplied source wording."
+            },
+            {
+              "q": "What if a page needs me to sign in?",
+              "a": "Collection uses your own browser session and does not collect credentials. If a page is marked “Sign-in needed”, press “Open the site to sign in”, sign in in that tab, then press “Resume”. Pages that still need a sign-in are not saved, and the result says how many were left out."
+            },
+            {
+              "q": "Why is some text missing from the saved page?",
+              "a": "Some sites add text only after you scroll or click. Open “If a page is missing text: content and JavaScript settings”, turn on “Scroll down to load content that appears later” or “Press ‘Show more’ to include the continuation”, and collect again. If the wrong part of the page was kept, use “Select on screen” there to pick the main text."
             }
           ],
           "manual": {
@@ -11734,6 +12162,14 @@
             {
               "q": "AIへ手順や条件の抽出を依頼できますか？",
               "a": "収集前にAI向け出力を有効にし、収集後にAI ZIPを保存して依頼文をコピーします。使う資料を選び、必要ならZIPを展開して対応ファイルを外部AIへ自分で渡します。回答は提供した原文と照合してください。"
+            },
+            {
+              "q": "ログインが必要なページはどうなりますか？",
+              "a": "収集はブラウザのログイン状態をそのまま使い、認証情報は収集しません。「ログインが必要」と表示されたら「対象サイトを開いてログイン」を押し、開いたタブでログインしてから「再開」を押します。ログインできないままのページは保存されず、残ったページ数が結果に表示されます。"
+            },
+            {
+              "q": "保存したページの本文が一部欠けるのはなぜですか？",
+              "a": "スクロールやクリックの後で本文を表示するサイトがあります。「本文が欠けるとき：保存範囲とJavaScriptの設定」を開き、「下へスクロールして遅れて出る内容を読む」や「『もっと見る』を押して続きを含める」をオンにして収集し直してください。ページの別の部分が保存された場合は、そこにある「画面で選ぶ」で本文の範囲を指定できます。"
             }
           ],
           "manual": {
@@ -11829,6 +12265,14 @@
             {
               "q": "¿Puedo pedir a IA pasos o condiciones?",
               "a": "Activa la salida IA antes de recopilar y luego guarda el ZIP y copia la solicitud. Elige los archivos y entrégalos manualmente a tu IA externa, descomprimiendo el ZIP si hace falta. Verifica la respuesta con las fuentes."
+            },
+            {
+              "q": "¿Y si una página me pide iniciar sesión?",
+              "a": "La recopilación usa tu propia sesión del navegador y no recopila credenciales. Si una página aparece como «Inicio de sesión necesario», pulsa «Abrir el sitio para iniciar sesión», inicia sesión en esa pestaña y pulsa «Reanudar». Las páginas que sigan pidiendo sesión no se guardan, y el resultado indica cuántas quedaron fuera."
+            },
+            {
+              "q": "¿Por qué falta texto en la página guardada?",
+              "a": "Algunos sitios añaden texto solo después de desplazarte o hacer clic. Abre «Si falta texto en una página: ajustes de contenido y JavaScript», activa «Desplazarse hacia abajo para cargar el contenido que aparece después» o «Pulsar “Mostrar más” para incluir la continuación» y vuelve a recopilar. Si se guardó otra parte de la página, usa ahí «Seleccionar en pantalla» para elegir el texto principal."
             }
           ],
           "manual": {
@@ -11888,7 +12332,7 @@
         },
         "fr": {
           "title": "Enregistrer manuels et pages de connaissances | Grab All Files",
-          "desc": "Conservez les manuels et articles autorisés en référence lisible. Organisez chapitres HTML, PDF intégrés et articles de menus, puis préparez vos questions pour l’IA.",
+          "desc": "Conservez les manuels en ligne et articles autorisés en une référence lisible, avec chapitres HTML, PDF intégrés et sources réunis.",
           "eyebrow": "Enregistrer manuels et connaissances",
           "h1": "Réunir manuels et articles dans une référence facile à consulter.",
           "lead": "Lisez les chapitres utiles ensemble, retrouvez une procédure avec sommaire et recherche, et gardez les PDF avec leurs explications. Utilisez les documents que vous pouvez consulter et enregistrer. Free garde une page ; Pro en combine plusieurs.",
@@ -11924,6 +12368,14 @@
             {
               "q": "Puis-je demander des étapes ou conditions à l’IA ?",
               "a": "Activez l’export IA avant collecte, puis enregistrez le ZIP et copiez la demande. Choisissez les fichiers et transmettez-les vous-même à votre IA externe, après décompression si nécessaire. Vérifiez la réponse dans les sources."
+            },
+            {
+              "q": "Et si une page me demande de me connecter ?",
+              "a": "La collecte utilise votre propre session de navigateur et ne collecte aucun identifiant. Si une page est marquée « Connexion nécessaire », cliquez sur « Ouvrir le site pour se connecter », connectez-vous dans cet onglet, puis cliquez sur « Reprendre ». Les pages qui exigent encore une connexion ne sont pas enregistrées, et le résultat indique combien ont été laissées de côté."
+            },
+            {
+              "q": "Pourquoi manque-t-il du texte dans la page enregistrée ?",
+              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Faire défiler vers le bas pour charger le contenu qui apparaît plus tard » ou « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l'écran » pour désigner le texte principal."
             }
           ],
           "manual": {
@@ -11983,7 +12435,7 @@
         },
         "de": {
           "title": "Handbücher und Wissensseiten zusammen speichern | Grab All Files",
-          "desc": "Erlaubte Online-Handbücher und Wissensartikel als Referenz sichern. HTML-Kapitel, eingebettete PDFs und Menüartikel ordnen und Fragen für externe KI vorbereiten.",
+          "desc": "Erlaubte Online-Handbücher und Wissensartikel als lesbare Referenz sichern – mit HTML-Kapiteln, eingebetteten PDFs und Quellen.",
           "eyebrow": "Handbücher und Wissensseiten sichern",
           "h1": "Handbücher und Wissensartikel als gut nutzbare Referenz sammeln.",
           "lead": "Lesen Sie benötigte Kapitel zusammen, finden Sie Abläufe mit Inhaltsverzeichnis und Suche und bewahren Sie PDFs neben Erklärungen auf. Nutzen Sie Material mit erlaubtem Lese- und Speicherzugriff. Free speichert eine Seite, Pro kombiniert mehrere.",
@@ -12019,6 +12471,14 @@
             {
               "q": "Kann KI Schritte oder Bedingungen extrahieren?",
               "a": "Aktivieren Sie KI-Ausgabe vor der Sammlung, speichern Sie danach das ZIP und kopieren Sie die Anfrage. Übergeben Sie gewählte Dateien selbst an externe KI, bei Bedarf entpackt. Prüfen Sie die Antwort an den Quellen."
+            },
+            {
+              "q": "Was passiert, wenn eine Seite eine Anmeldung verlangt?",
+              "a": "Die Sammlung nutzt Ihre eigene Browser-Sitzung und sammelt keine Zugangsdaten. Ist eine Seite mit „Anmeldung erforderlich“ markiert, klicken Sie auf „Website zum Anmelden öffnen“, melden sich in diesem Tab an und klicken dann auf „Fortsetzen“. Seiten, die weiterhin eine Anmeldung verlangen, werden nicht gespeichert; das Ergebnis nennt ihre Anzahl."
+            },
+            {
+              "q": "Warum fehlt Text in der gespeicherten Seite?",
+              "a": "Manche Websites zeigen Text erst nach Scrollen oder einem Klick. Öffnen Sie „Wenn Text auf einer Seite fehlt: Inhalts- und JavaScript-Einstellungen“, aktivieren Sie „Nach unten scrollen, um später erscheinende Inhalte zu laden“ oder „‚Mehr anzeigen‘ drücken, um die Fortsetzung einzubeziehen“ und sammeln Sie erneut. Wurde ein falscher Seitenteil übernommen, wählen Sie dort mit „Auf dem Bildschirm auswählen“ den Haupttext."
             }
           ],
           "manual": {
@@ -12078,7 +12538,7 @@
         },
         "it": {
           "title": "Salvare insieme manuali e pagine di conoscenza | Grab All Files",
-          "desc": "Salva manuali e articoli consentiti come riferimento leggibile. Organizza capitoli HTML, PDF incorporati e articoli nei menu, e prepara domande per un’IA esterna.",
+          "desc": "Salva manuali online e articoli consentiti come riferimento leggibile, con capitoli HTML, PDF incorporati e fonti tenuti insieme.",
           "eyebrow": "Salvare manuali e pagine di conoscenza",
           "h1": "Riunisci manuali e articoli in un riferimento da consultare.",
           "lead": "Leggi insieme i capitoli utili, trova procedure con indice e ricerca e conserva i PDF accanto alle spiegazioni. Usa materiali che sei autorizzato a vedere e salvare. Free salva una pagina scelta; Pro combina più pagine.",
@@ -12114,6 +12574,14 @@
             {
               "q": "Posso chiedere all’IA passi o condizioni?",
               "a": "Attiva l’output IA prima della raccolta, poi salva lo ZIP e copia la richiesta. Scegli file e forniscili manualmente all’IA esterna, decomprimendo se serve. Verifica la risposta nelle fonti."
+            },
+            {
+              "q": "E se una pagina mi chiede di accedere?",
+              "a": "La raccolta usa la tua sessione del browser e non raccoglie credenziali. Se una pagina è segnata «Accesso necessario», fai clic su «Apri il sito per accedere», accedi in quella scheda e poi fai clic su «Riprendi». Le pagine che richiedono ancora l’accesso non vengono salvate e il risultato indica quante sono rimaste fuori."
+            },
+            {
+              "q": "Perché nella pagina salvata manca del testo?",
+              "a": "Alcuni siti aggiungono testo solo dopo uno scorrimento o un clic. Apri «Se in una pagina manca del testo: impostazioni di contenuto e JavaScript», attiva «Scorri verso il basso per caricare il contenuto che appare in seguito» o «Premi “Mostra altro” per includere la continuazione» e ripeti la raccolta. Se è stata salvata un’altra parte della pagina, usa lì «Seleziona sullo schermo» per indicare il testo principale."
             }
           ],
           "manual": {
@@ -12209,6 +12677,14 @@
             {
               "q": "AI에 절차나 조건 추출을 요청할 수 있나요?",
               "a": "수집 전에 AI 출력을 켜고 수집 후 AI ZIP을 저장해 요청문을 복사합니다. 파일을 골라 필요하면 압축을 풀고 외부 AI에 직접 전달합니다. 답변은 제공한 원문과 비교하세요."
+            },
+            {
+              "q": "로그인이 필요한 페이지는 어떻게 되나요?",
+              "a": "수집은 브라우저의 로그인 상태를 그대로 사용하며 인증 정보를 수집하지 않습니다. “로그인 필요”로 표시되면 “사이트를 열어 로그인”을 누르고 열린 탭에서 로그인한 뒤 “재개”를 누르세요. 계속 로그인이 필요한 페이지는 저장되지 않으며, 남은 페이지 수가 결과에 표시됩니다."
+            },
+            {
+              "q": "저장한 페이지에서 본문 일부가 빠지는 이유는요?",
+              "a": "스크롤하거나 클릭한 뒤에야 본문을 보여 주는 사이트가 있습니다. “페이지에서 본문이 빠질 때: 내용 및 JavaScript 설정”을 열고 “아래로 스크롤해 나중에 나타나는 내용 불러오기”나 “‘더 보기’를 눌러 이어지는 내용 포함”을 켠 뒤 다시 수집하세요. 페이지의 다른 부분이 저장되었다면 그곳의 “화면에서 선택”으로 본문 범위를 지정할 수 있습니다."
             }
           ],
           "manual": {
@@ -12268,7 +12744,7 @@
         },
         "pt_BR": {
           "title": "Salvar manuais e páginas de conhecimento juntos | Grab All Files",
-          "desc": "Salve manuais e artigos permitidos como referência legível. Organize capítulos HTML, PDFs incorporados e artigos de menus e prepare perguntas para IA externa.",
+          "desc": "Salve manuais on-line e artigos permitidos como referência legível, com capítulos HTML, PDFs incorporados e fontes reunidos.",
           "eyebrow": "Salvar manuais e conhecimento",
           "h1": "Reúna manuais e artigos em uma referência fácil de consultar.",
           "lead": "Leia capítulos úteis juntos, encontre procedimentos com sumário e busca e guarde os PDFs com suas explicações. Use materiais que você pode visualizar e salvar. O Free salva uma página escolhida; o Pro reúne várias.",
@@ -12304,6 +12780,14 @@
             {
               "q": "Posso pedir etapas ou condições à IA?",
               "a": "Ative a saída IA antes da coleta, depois salve o ZIP e copie o pedido. Escolha arquivos e entregue manualmente à IA externa, extraindo o ZIP se preciso. Confira a resposta nas fontes."
+            },
+            {
+              "q": "E se uma página pedir login?",
+              "a": "A coleta usa a sua própria sessão do navegador e não coleta credenciais. Se uma página aparecer como “Login necessário”, clique em “Abrir o site para fazer login”, entre nessa aba e clique em “Retomar”. Páginas que continuarem exigindo login não são salvas, e o resultado informa quantas ficaram de fora."
+            },
+            {
+              "q": "Por que falta texto na página salva?",
+              "a": "Alguns sites só adicionam texto depois que você rola ou clica. Abra “Se faltar texto em uma página: configurações de conteúdo e JavaScript”, ative “Rolar para baixo para carregar o conteúdo que aparece depois” ou “Pressionar ‘Mostrar mais’ para incluir a continuação” e colete de novo. Se outra parte da página foi salva, use ali “Selecionar na tela” para escolher o texto principal."
             }
           ],
           "manual": {
@@ -12399,6 +12883,14 @@
             {
               "q": "能请AI提取步骤或条件吗？",
               "a": "收集前启用AI输出，收集后保存AI ZIP并复制请求文字。选择资料，必要时解压ZIP，手动将支持的文件交给外部AI。请将回答与提供的原文核对。"
+            },
+            {
+              "q": "需要登录的页面怎么办？",
+              "a": "收集直接使用您浏览器的登录状态，不收集凭据。页面显示“需要登录”时，请点击“打开网站进行登录”，在打开的标签页中登录后点击“继续”。仍需登录的页面不会被保存，结果中会显示剩余页面数。"
+            },
+            {
+              "q": "为什么保存的页面缺少部分文字？",
+              "a": "有些网站要滚动或点击后才显示正文。请打开“页面缺少文字时：内容和 JavaScript 设置”，开启“向下滚动以加载稍后出现的内容”或“点击‘显示更多’以包含后续内容”，然后重新收集。如果保存的是页面的其他部分，可在那里用“在屏幕上选择”指定正文范围。"
             }
           ],
           "manual": {
@@ -12494,6 +12986,14 @@
             {
               "q": "能請AI擷取步驟或條件嗎？",
               "a": "收集前啟用AI輸出，收集後儲存AI ZIP並複製請求文字。選擇資料，需要時解壓縮ZIP，手動將支援的檔案交給外部AI。請將回答與提供的原文核對。"
+            },
+            {
+              "q": "需要登入的頁面怎麼辦？",
+              "a": "收集直接使用您瀏覽器的登入狀態，不收集憑證。頁面顯示「需要登入」時，請點擊「開啟網站進行登入」，在開啟的分頁中登入後點擊「繼續」。仍需登入的頁面不會被儲存，結果中會顯示剩餘頁面數。"
+            },
+            {
+              "q": "為什麼儲存的頁面缺少部分文字？",
+              "a": "有些網站要捲動或點擊後才顯示正文。請開啟「頁面缺少文字時：內容和 JavaScript 設定」，開啟「向下捲動以載入稍後出現的內容」或「點選『顯示更多』以包含後續內容」，然後重新收集。如果儲存的是頁面的其他部分，可在那裡用「在螢幕上選擇」指定正文範圍。"
             }
           ],
           "manual": {
@@ -12597,6 +13097,14 @@
             {
               "q": "How do I check an AI answer?",
               "a": "Follow the source URLs and captured_at values in the AI output, then compare the answer with the actual wording and current source. Missing material does not prove that a condition or exception is absent."
+            },
+            {
+              "q": "What if a page needs me to sign in?",
+              "a": "Collection uses your own browser session and does not collect credentials. If a page is marked “Sign-in needed”, press “Open the site to sign in”, sign in in that tab, then press “Resume”. Pages that still need a sign-in are not saved, and the result says how many were left out."
+            },
+            {
+              "q": "Why is some text missing from the saved page?",
+              "a": "Some sites add text only after you scroll or click. Open “If a page is missing text: content and JavaScript settings”, turn on “Scroll down to load content that appears later” or “Press ‘Show more’ to include the continuation”, and collect again. If the wrong part of the page was kept, use “Select on screen” there to pick the main text."
             }
           ],
           "guide": {
@@ -12684,6 +13192,14 @@
             {
               "q": "AIの回答はどう確認しますか？",
               "a": "AI出力のsource_urlとcaptured_atを手掛かりに、原文と最新の掲載情報を確認します。資料に見当たらないことだけで、条件や例外が存在しないとは判断しません。"
+            },
+            {
+              "q": "ログインが必要なページはどうなりますか？",
+              "a": "収集はブラウザのログイン状態をそのまま使い、認証情報は収集しません。「ログインが必要」と表示されたら「対象サイトを開いてログイン」を押し、開いたタブでログインしてから「再開」を押します。ログインできないままのページは保存されず、残ったページ数が結果に表示されます。"
+            },
+            {
+              "q": "保存したページの本文が一部欠けるのはなぜですか？",
+              "a": "スクロールやクリックの後で本文を表示するサイトがあります。「本文が欠けるとき：保存範囲とJavaScriptの設定」を開き、「下へスクロールして遅れて出る内容を読む」や「『もっと見る』を押して続きを含める」をオンにして収集し直してください。ページの別の部分が保存された場合は、そこにある「画面で選ぶ」で本文の範囲を指定できます。"
             }
           ],
           "guide": {
@@ -12771,6 +13287,14 @@
             {
               "q": "¿Cómo verifico una respuesta?",
               "a": "Usa source_url y captured_at para revisar el texto original y la fuente actual. La falta de material no prueba que no exista una condición o excepción."
+            },
+            {
+              "q": "¿Y si una página me pide iniciar sesión?",
+              "a": "La recopilación usa tu propia sesión del navegador y no recopila credenciales. Si una página aparece como «Inicio de sesión necesario», pulsa «Abrir el sitio para iniciar sesión», inicia sesión en esa pestaña y pulsa «Reanudar». Las páginas que sigan pidiendo sesión no se guardan, y el resultado indica cuántas quedaron fuera."
+            },
+            {
+              "q": "¿Por qué falta texto en la página guardada?",
+              "a": "Algunos sitios añaden texto solo después de desplazarte o hacer clic. Abre «Si falta texto en una página: ajustes de contenido y JavaScript», activa «Desplazarse hacia abajo para cargar el contenido que aparece después» o «Pulsar “Mostrar más” para incluir la continuación» y vuelve a recopilar. Si se guardó otra parte de la página, usa ahí «Seleccionar en pantalla» para elegir el texto principal."
             }
           ],
           "guide": {
@@ -12858,6 +13382,14 @@
             {
               "q": "Comment vérifier une réponse ?",
               "a": "Utilisez source_url et captured_at pour contrôler le texte original et la source actuelle. Une information non collectée ne prouve pas l’absence d’une condition ou d’une exception."
+            },
+            {
+              "q": "Et si une page me demande de me connecter ?",
+              "a": "La collecte utilise votre propre session de navigateur et ne collecte aucun identifiant. Si une page est marquée « Connexion nécessaire », cliquez sur « Ouvrir le site pour se connecter », connectez-vous dans cet onglet, puis cliquez sur « Reprendre ». Les pages qui exigent encore une connexion ne sont pas enregistrées, et le résultat indique combien ont été laissées de côté."
+            },
+            {
+              "q": "Pourquoi manque-t-il du texte dans la page enregistrée ?",
+              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Faire défiler vers le bas pour charger le contenu qui apparaît plus tard » ou « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l'écran » pour désigner le texte principal."
             }
           ],
           "guide": {
@@ -12910,7 +13442,7 @@
         },
         "de": {
           "title": "Webseiten bündeln, lesen und KI-Analyse vorbereiten | Grab All Files",
-          "desc": "Webinformationen als lesbares HTML sammeln oder Dateien mit Quellen für Zusammenfassungen, Vergleiche und Bedingungsanalysen in einer externen KI vorbereiten.",
+          "desc": "Webinformationen als lesbares HTML sammeln oder Dateien mit Quellen für Zusammenfassungen, Vergleiche und Analysen in externer KI vorbereiten.",
           "eyebrow": "Sammeln, lesen und mit KI analysieren",
           "h1": "Webinformationen sammeln, nachlesen und für KI-Analysen vorbereiten.",
           "lead": "Speichern Sie eine Seite mit Free oder bündeln Sie mehrere in einem HTML mit Pro. Bereiten Sie Dateien mit Quellen für Zusammenfassungen, Vergleiche und Bedingungsanalysen vor. Die Vorbereitung erfolgt auf Ihrem Gerät, die Analyse im gewählten externen KI-Dienst.",
@@ -12945,6 +13477,14 @@
             {
               "q": "Wie prüfe ich KI-Antworten?",
               "a": "Folgen Sie source_url und captured_at zur Originalformulierung und aktuellen Quelle. Fehlendes Material beweist nicht, dass eine Bedingung oder Ausnahme fehlt."
+            },
+            {
+              "q": "Was passiert, wenn eine Seite eine Anmeldung verlangt?",
+              "a": "Die Sammlung nutzt Ihre eigene Browser-Sitzung und sammelt keine Zugangsdaten. Ist eine Seite mit „Anmeldung erforderlich“ markiert, klicken Sie auf „Website zum Anmelden öffnen“, melden sich in diesem Tab an und klicken dann auf „Fortsetzen“. Seiten, die weiterhin eine Anmeldung verlangen, werden nicht gespeichert; das Ergebnis nennt ihre Anzahl."
+            },
+            {
+              "q": "Warum fehlt Text in der gespeicherten Seite?",
+              "a": "Manche Websites zeigen Text erst nach Scrollen oder einem Klick. Öffnen Sie „Wenn Text auf einer Seite fehlt: Inhalts- und JavaScript-Einstellungen“, aktivieren Sie „Nach unten scrollen, um später erscheinende Inhalte zu laden“ oder „‚Mehr anzeigen‘ drücken, um die Fortsetzung einzubeziehen“ und sammeln Sie erneut. Wurde ein falscher Seitenteil übernommen, wählen Sie dort mit „Auf dem Bildschirm auswählen“ den Haupttext."
             }
           ],
           "guide": {
@@ -13032,6 +13572,14 @@
             {
               "q": "Come verifico una risposta?",
               "a": "Usa source_url e captured_at per controllare il testo originale e la fonte attuale. Materiale mancante non dimostra l’assenza di una condizione o eccezione."
+            },
+            {
+              "q": "E se una pagina mi chiede di accedere?",
+              "a": "La raccolta usa la tua sessione del browser e non raccoglie credenziali. Se una pagina è segnata «Accesso necessario», fai clic su «Apri il sito per accedere», accedi in quella scheda e poi fai clic su «Riprendi». Le pagine che richiedono ancora l’accesso non vengono salvate e il risultato indica quante sono rimaste fuori."
+            },
+            {
+              "q": "Perché nella pagina salvata manca del testo?",
+              "a": "Alcuni siti aggiungono testo solo dopo uno scorrimento o un clic. Apri «Se in una pagina manca del testo: impostazioni di contenuto e JavaScript», attiva «Scorri verso il basso per caricare il contenuto che appare in seguito» o «Premi “Mostra altro” per includere la continuazione» e ripeti la raccolta. Se è stata salvata un’altra parte della pagina, usa lì «Seleziona sullo schermo» per indicare il testo principale."
             }
           ],
           "guide": {
@@ -13119,6 +13667,14 @@
             {
               "q": "AI 답변은 어떻게 확인하나요?",
               "a": "AI 출력의 source_url과 captured_at으로 원문과 최신 출처를 확인하세요. 수집 자료에 없다는 사실만으로 조건이나 예외가 없다고 판단하지 않습니다."
+            },
+            {
+              "q": "로그인이 필요한 페이지는 어떻게 되나요?",
+              "a": "수집은 브라우저의 로그인 상태를 그대로 사용하며 인증 정보를 수집하지 않습니다. “로그인 필요”로 표시되면 “사이트를 열어 로그인”을 누르고 열린 탭에서 로그인한 뒤 “재개”를 누르세요. 계속 로그인이 필요한 페이지는 저장되지 않으며, 남은 페이지 수가 결과에 표시됩니다."
+            },
+            {
+              "q": "저장한 페이지에서 본문 일부가 빠지는 이유는요?",
+              "a": "스크롤하거나 클릭한 뒤에야 본문을 보여 주는 사이트가 있습니다. “페이지에서 본문이 빠질 때: 내용 및 JavaScript 설정”을 열고 “아래로 스크롤해 나중에 나타나는 내용 불러오기”나 “‘더 보기’를 눌러 이어지는 내용 포함”을 켠 뒤 다시 수집하세요. 페이지의 다른 부분이 저장되었다면 그곳의 “화면에서 선택”으로 본문 범위를 지정할 수 있습니다."
             }
           ],
           "guide": {
@@ -13206,6 +13762,14 @@
             {
               "q": "Como verifico uma resposta?",
               "a": "Use source_url e captured_at para conferir a redação original e a fonte atual. Material ausente não prova que uma condição ou exceção não existe."
+            },
+            {
+              "q": "E se uma página pedir login?",
+              "a": "A coleta usa a sua própria sessão do navegador e não coleta credenciais. Se uma página aparecer como “Login necessário”, clique em “Abrir o site para fazer login”, entre nessa aba e clique em “Retomar”. Páginas que continuarem exigindo login não são salvas, e o resultado informa quantas ficaram de fora."
+            },
+            {
+              "q": "Por que falta texto na página salva?",
+              "a": "Alguns sites só adicionam texto depois que você rola ou clica. Abra “Se faltar texto em uma página: configurações de conteúdo e JavaScript”, ative “Rolar para baixo para carregar o conteúdo que aparece depois” ou “Pressionar ‘Mostrar mais’ para incluir a continuação” e colete de novo. Se outra parte da página foi salva, use ali “Selecionar na tela” para escolher o texto principal."
             }
           ],
           "guide": {
@@ -13258,7 +13822,7 @@
         },
         "zh_CN": {
           "title": "合并网页信息阅读并准备AI分析资料 | Grab All Files",
-          "desc": "将网页信息收集为易读的HTML，或导出带来源的资料，手动交给外部AI进行摘要、比较和条件提取。提供操作步骤与提问示例。",
+          "desc": "将网页信息收集为易读的HTML，或导出带来源的资料，再手动交给外部AI进行摘要、比较和条件提取。附操作步骤、提问示例以及核对答案的方法。",
           "eyebrow": "收集信息·阅读·AI分析",
           "h1": "收集网页信息阅读，再将资料交给AI分析。",
           "lead": "Free可保存所选1页，Pro可将多个页面正文合并为一个易读的HTML。导出带来源的资料，准备向AI提出摘要、比较与条件提取问题。资料准备在您的设备上完成，分析由您选择的外部AI服务进行。",
@@ -13293,6 +13857,14 @@
             {
               "q": "如何核对AI回答？",
               "a": "通过AI输出中的source_url与captured_at检查原文和当前来源。所收集资料中没有记载，不代表条件或例外不存在。"
+            },
+            {
+              "q": "需要登录的页面怎么办？",
+              "a": "收集直接使用您浏览器的登录状态，不收集凭据。页面显示“需要登录”时，请点击“打开网站进行登录”，在打开的标签页中登录后点击“继续”。仍需登录的页面不会被保存，结果中会显示剩余页面数。"
+            },
+            {
+              "q": "为什么保存的页面缺少部分文字？",
+              "a": "有些网站要滚动或点击后才显示正文。请打开“页面缺少文字时：内容和 JavaScript 设置”，开启“向下滚动以加载稍后出现的内容”或“点击‘显示更多’以包含后续内容”，然后重新收集。如果保存的是页面的其他部分，可在那里用“在屏幕上选择”指定正文范围。"
             }
           ],
           "guide": {
@@ -13338,14 +13910,14 @@
               ],
               [
                 "表格CSV / JSON",
-                "选择按页面输出或完整资料包并启用表格导出后，可在支持范围与上限内提取有意义的HTML表格。布局表格被排除，请检查结果。"
+                "选择按页面输出或完整包并启用表格导出后，可在支持范围与上限内提取有意义的HTML表格。布局表格被排除，请检查结果。"
               ]
             ]
           }
         },
         "zh_TW": {
           "title": "合併網頁資訊閱讀並準備AI分析資料 | Grab All Files",
-          "desc": "將網頁資訊收集為易讀的HTML，或匯出附來源的資料，手動交給外部AI進行摘要、比較與條件擷取。提供操作步驟及提問範例。",
+          "desc": "將網頁資訊收集為易讀的HTML，或匯出附來源的資料，再手動交給外部AI進行摘要、比較與條件擷取。附操作步驟、提問範例以及核對答案的方法。",
           "eyebrow": "收集資訊·閱讀·AI分析",
           "h1": "收集網頁資訊閱讀，再將資料交給AI分析。",
           "lead": "Free可儲存所選1頁，Pro可將多個頁面正文合併為一個易讀的HTML。匯出附來源的資料，準備向AI提出摘要、比較及條件擷取問題。資料準備在您的裝置上完成，分析由您選擇的外部AI服務進行。",
@@ -13380,6 +13952,14 @@
             {
               "q": "如何核對AI回答？",
               "a": "透過AI輸出中的source_url與captured_at檢查原文及目前來源。收集資料中沒有記載，不代表條件或例外不存在。"
+            },
+            {
+              "q": "需要登入的頁面怎麼辦？",
+              "a": "收集直接使用您瀏覽器的登入狀態，不收集憑證。頁面顯示「需要登入」時，請點擊「開啟網站進行登入」，在開啟的分頁中登入後點擊「繼續」。仍需登入的頁面不會被儲存，結果中會顯示剩餘頁面數。"
+            },
+            {
+              "q": "為什麼儲存的頁面缺少部分文字？",
+              "a": "有些網站要捲動或點擊後才顯示正文。請開啟「頁面缺少文字時：內容和 JavaScript 設定」，開啟「向下捲動以載入稍後出現的內容」或「點選『顯示更多』以包含後續內容」，然後重新收集。如果儲存的是頁面的其他部分，可在那裡用「在螢幕上選擇」指定正文範圍。"
             }
           ],
           "guide": {
@@ -13425,7 +14005,7 @@
               ],
               [
                 "表格CSV / JSON",
-                "選擇按頁面輸出或完整資料包並啟用表格匯出後，可在支援範圍與上限內擷取有意義的HTML表格。排版表格會被排除，請檢查結果。"
+                "選擇按頁面輸出或完整套件並啟用表格匯出後，可在支援範圍與上限內擷取有意義的HTML表格。排版表格會被排除，請檢查結果。"
               ]
             ]
           }
@@ -13433,334 +14013,2745 @@
       }
     },
     "combine-web-pages-into-one-html": {
-      path: "combine-web-pages-into-one-html.html",
-      related: ["combine-local-html-files-into-one", "save-web-pages-with-original-design", "download-files-from-webpage"],
-      cta: {
-        en: { title: "Save one related page free—or combine several with Pro.", text: "Discovery and HTML generation stay on your device. Free lists related candidates and saves exactly the one page you choose; images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro selects multiple candidates and combines their readable page bodies into one HTML. Safety and source-site limits apply." },
-        ja: { title: "無料版は選んだ1ページ。Proは複数ページを1つに。", text: "探索とHTML生成は端末内で処理します。無料版は関連候補を一覧表示し、常に選んだ1ページだけを保存。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Proは複数候補の本文を1つのHTMLに結合します。安全上限・サイト側制限は適用されます。" },
-        es: { title: "Guarda una página gratis o combina varias con Pro.", text: "La búsqueda y la generación de HTML permanecen en tu dispositivo. Free enumera las candidatas y guarda exactamente la página que elijas; las imágenes no tienen límite de cantidad por plan y los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro combina el contenido de varias páginas seleccionadas. Se aplican límites de seguridad y del sitio fuente." },
-        fr: { title: "Enregistrez une page gratuitement ou regroupez-en plusieurs avec Pro.", text: "La découverte et la génération HTML restent sur votre appareil. Free liste les pages candidates et enregistre exactement celle que vous choisissez ; les images n’ont pas de plafond lié au forfait et les fichiers directement liés sont enregistrés jusqu’à 10 par opération, et « Enregistrer les 10 suivants » sur l’écran de résultat enregistre le reste. Pro regroupe le contenu de plusieurs pages sélectionnées. Les limites de sécurité et du site source s’appliquent." },
-        de: { title: "Eine Seite kostenlos speichern oder mehrere mit Pro bündeln.", text: "Suche und HTML-Erstellung bleiben auf Ihrem Gerät. Free listet Kandidaten und speichert genau die gewählte Seite; Bilder haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert; „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro bündelt die Inhalte mehrerer gewählter Seiten. Sicherheits- und Quellseitenlimits gelten weiterhin." },
-        it: { title: "Salva gratis una pagina o uniscine più con Pro.", text: "Ricerca e generazione HTML restano sul dispositivo. Free elenca le pagine candidate e salva esattamente quella scelta; le immagini non hanno un limite numerico del piano e i file collegati direttamente vengono salvati fino a 10 per esecuzione e «Salva i prossimi 10» nella schermata dei risultati salva il resto. Pro unisce il contenuto di più pagine selezionate. Restano validi i limiti di sicurezza e del sito sorgente." },
-        ko: { title: "Free로 1페이지를 저장하거나 Pro로 여러 페이지를 결합하세요.", text: "탐색과 HTML 생성은 기기에서 처리됩니다. Free는 관련 후보를 나열하고 선택한 정확히 1페이지만 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 10건 저장’으로 나머지를 저장할 수 있습니다. Pro는 여러 후보의 본문을 하나의 HTML로 결합합니다. 안전 및 원본 사이트 제한은 적용됩니다." },
-        pt_BR: { title: "Salve uma página grátis ou reúna várias com o Pro.", text: "A descoberta e a geração de HTML ficam no dispositivo. O Free lista candidatas e salva exatamente a página escolhida; as imagens não têm limite de quantidade do plano e os arquivos vinculados diretamente são salvos até 10 por execução, e “Salvar os próximos 10” na tela de resultado salva o restante. O Pro reúne o conteúdo de várias páginas selecionadas. Aplicam-se limites de segurança e do site de origem." },
-        zh_CN: { title: "免费保存1个页面，或使用Pro合并多个页面。", text: "候选查找和HTML生成均在设备上完成。Free列出相关候选，并仅保存您选择的1个页面；该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro可选择多个候选并将其正文合并为一个HTML。仍适用安全和源网站限制。" },
-        zh_TW: { title: "免費儲存1個頁面，或使用Pro合併多個頁面。", text: "候選探索和HTML產生均在裝置上完成。Free列出相關候選，並只儲存您選擇的1個頁面；該頁面內的圖片沒有方案數量上限；直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的10個」繼續儲存。Pro可選擇多個候選並將其正文合併成一個HTML。仍適用安全和來源網站限制。" }
+      "path": "combine-web-pages-into-one-html.html",
+      "related": [
+        "combine-local-html-files-into-one",
+        "save-web-pages-with-original-design",
+        "download-files-from-webpage"
+      ],
+      "cta": {
+        "en": {
+          "title": "Save one related page free—or combine several with Pro.",
+          "text": "Discovery and HTML generation stay on your device. Free lists related candidates and saves exactly the one page you choose; images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro selects multiple candidates and combines their readable page bodies into one HTML. Safety and source-site limits apply."
+        },
+        "ja": {
+          "title": "無料版は選んだ1ページ。Proは複数ページを1つに。",
+          "text": "探索とHTML生成は端末内で処理します。無料版は関連候補を一覧表示し、常に選んだ1ページだけを保存。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Proは複数候補の本文を1つのHTMLに結合します。安全上限・サイト側制限は適用されます。"
+        },
+        "es": {
+          "title": "Guarda una página gratis o combina varias con Pro.",
+          "text": "La búsqueda y la generación de HTML permanecen en tu dispositivo. Free enumera las candidatas y guarda exactamente la página que elijas; las imágenes no tienen límite de cantidad por plan y los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro combina el contenido de varias páginas seleccionadas. Se aplican límites de seguridad y del sitio fuente."
+        },
+        "fr": {
+          "title": "Enregistrez une page gratuitement ou regroupez-en plusieurs avec Pro.",
+          "text": "La découverte et la génération HTML restent sur votre appareil. Free liste les pages candidates et enregistre exactement celle que vous choisissez ; les images n’ont pas de plafond lié au forfait et les fichiers directement liés sont enregistrés jusqu’à 10 par opération, et « Enregistrer les 10 suivants » sur l’écran de résultat enregistre le reste. Pro regroupe le contenu de plusieurs pages sélectionnées. Les limites de sécurité et du site source s’appliquent."
+        },
+        "de": {
+          "title": "Eine Seite kostenlos speichern oder mehrere mit Pro bündeln.",
+          "text": "Suche und HTML-Erstellung bleiben auf Ihrem Gerät. Free listet Kandidaten und speichert genau die gewählte Seite; Bilder haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert; „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro bündelt die Inhalte mehrerer gewählter Seiten. Sicherheits- und Quellseitenlimits gelten weiterhin."
+        },
+        "it": {
+          "title": "Salva gratis una pagina o uniscine più con Pro.",
+          "text": "Ricerca e generazione HTML restano sul dispositivo. Free elenca le pagine candidate e salva esattamente quella scelta; le immagini non hanno un limite numerico del piano e i file collegati direttamente vengono salvati fino a 10 per esecuzione e «Salva i prossimi 10» nella schermata dei risultati salva il resto. Pro unisce il contenuto di più pagine selezionate. Restano validi i limiti di sicurezza e del sito sorgente."
+        },
+        "ko": {
+          "title": "Free로 1페이지를 저장하거나 Pro로 여러 페이지를 결합하세요.",
+          "text": "탐색과 HTML 생성은 기기에서 처리됩니다. Free는 관련 후보를 나열하고 선택한 정확히 1페이지만 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 10건 저장’으로 나머지를 저장할 수 있습니다. Pro는 여러 후보의 본문을 하나의 HTML로 결합합니다. 안전 및 원본 사이트 제한은 적용됩니다."
+        },
+        "pt_BR": {
+          "title": "Salve uma página grátis ou reúna várias com o Pro.",
+          "text": "A descoberta e a geração de HTML ficam no dispositivo. O Free lista candidatas e salva exatamente a página escolhida; as imagens não têm limite de quantidade do plano e os arquivos vinculados diretamente são salvos até 10 por execução, e “Salvar os próximos 10” na tela de resultado salva o restante. O Pro reúne o conteúdo de várias páginas selecionadas. Aplicam-se limites de segurança e do site de origem."
+        },
+        "zh_CN": {
+          "title": "免费保存1个页面，或使用Pro合并多个页面。",
+          "text": "候选查找和HTML生成均在设备上完成。Free列出相关候选，并仅保存您选择的1个页面；该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro可选择多个候选并将其正文合并为一个HTML。仍适用安全和源网站限制。"
+        },
+        "zh_TW": {
+          "title": "免費儲存1個頁面，或使用Pro合併多個頁面。",
+          "text": "候選探索和HTML產生均在裝置上完成。Free列出相關候選，並只儲存您選擇的1個頁面；該頁面內的圖片沒有方案數量上限；直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的10個」繼續儲存。Pro可選擇多個候選並將其正文合併成一個HTML。仍適用安全和來源網站限制。"
+        }
       },
-      copy: {
-        en: c(
-          "Combine multiple web pages into one HTML file | Grab All Files",
-          "Free finds related candidates and saves one chosen page as HTML. Pro combines multiple selected page bodies into one searchable, printable HTML with a shared table of contents.",
-          "Web-page HTML collection",
-          "Free saves 1 page. Pro combines multiple pages into one searchable HTML.",
-          "Start from the page open in your browser. Free lists related candidates and keeps exactly one selected for HTML saving. Pro lets you select and order multiple candidates, then combines their readable page bodies into one HTML with a shared table of contents.",
-          [
+      "copy": {
+        "en": {
+          "title": "Combine multiple web pages into one HTML file | Grab All Files",
+          "desc": "Combine related web pages into one searchable, printable HTML with a shared table of contents. Free saves one chosen page per run; Pro combines many.",
+          "eyebrow": "Web-page HTML collection",
+          "h1": "Free saves 1 page. Pro combines multiple pages into one searchable HTML.",
+          "lead": "Start from the page open in your browser. Free lists related candidates and keeps exactly one selected for HTML saving. Pro lets you select and order multiple candidates, then combines their readable page bodies into one HTML with a shared table of contents.",
+          "best": [
             "Research, documentation, manuals, and reference sites spread across many pages.",
             "Saving related articles or public information as one portable offline document.",
             "Creating a searchable, printable archive with clear source links.",
             "Preparing optional source-tracked Markdown, JSONL, manifest, and table exports for AI analysis."
           ],
-          [
-            "Open the starting page and choose “Combine pages into HTML” in Grab All Files.",
-            "Review the candidates: Free keeps exactly one selected; Pro can select and reorder multiple pages.",
-            "Choose image and linked-file options. Free saves the chosen page; Pro creates one combined HTML with a shared table of contents."
+          "steps": [
+            "Open the starting page, click the Grab All Files icon and choose “Combine pages into HTML”.",
+            "Under “Collection scope”, keep “Only the open page”, or choose “Also find the pages it links to” to list related candidates.",
+            "Review the candidates. Free keeps exactly one selected and saves it per run; with Pro, “Select multiple candidate pages and combine them (Pro)” lets you pick, remove and reorder pages.",
+            "Choose the image and linked-file options and save. Pro creates one HTML with a shared table of contents and search across all pages."
           ],
-          [
-            { q: "Can I choose which pages to include?", a: "Yes. Free keeps exactly one candidate selected at a time. Pro lets you select multiple pages, remove what you do not need, and reorder the rest." },
-            { q: "Can I read the result offline?", a: "Yes. Embed images for offline reading, or keep online references for a smaller HTML file. Linked documents can also be saved alongside it." },
-            { q: "Is page content uploaded to your servers?", a: "No. Page discovery, collection, and HTML generation run on your device. Free saves exactly one chosen candidate; Pro combines multiple selected page bodies. Safety, authentication, permission, source-site, and device-protection limits still apply." },
-            { q: "How is this different from a one-page saver such as SingleFile?", a: "One-page savers preserve the page currently open. Grab All Files can discover related pages, let you review and reorder them, and combine the selected readable content into one HTML file with a shared table of contents." }
+          "faq": [
+            {
+              "q": "Can I choose which pages to include?",
+              "a": "Yes. Free keeps exactly one candidate selected at a time. Pro lets you select multiple pages, remove what you do not need, and reorder the rest."
+            },
+            {
+              "q": "Can I read the result offline?",
+              "a": "Yes. Embed images for offline reading, or keep online references for a smaller HTML file. Linked documents can also be saved alongside it."
+            },
+            {
+              "q": "Is page content uploaded to your servers?",
+              "a": "No. Page discovery, collection, and HTML generation run on your device. Free saves exactly one chosen candidate; Pro combines multiple selected page bodies. Safety, authentication, permission, source-site, and device-protection limits still apply."
+            },
+            {
+              "q": "How is this different from a one-page saver such as SingleFile?",
+              "a": "One-page savers preserve the page currently open. Grab All Files can discover related pages, let you review and reorder them, and combine the selected readable content into one HTML file with a shared table of contents."
+            },
+            {
+              "q": "What if a page needs me to sign in?",
+              "a": "Collection uses your own browser session and does not collect credentials. If a page is marked “Sign-in needed”, press “Open the site to sign in”, sign in in that tab, then press “Resume”. Pages that still need a sign-in are not saved, and the result says how many were left out."
+            },
+            {
+              "q": "Why is some text missing from the saved page?",
+              "a": "Some sites add text only after you scroll or click. Open “If a page is missing text: content and JavaScript settings”, turn on “Scroll down to load content that appears later” or “Press ‘Show more’ to include the continuation”, and collect again. If the wrong part of the page was kept, use “Select on screen” there to pick the main text."
+            }
           ]
-        ),
-        ja: c(
-          "複数のWebページを1つのHTMLにまとめる | Grab All Files",
-          "無料版は関連候補を探して選んだ1ページをHTML保存。Proは複数ページ本文を共通目次付きで検索・印刷できる1つのHTMLに結合します。処理は端末内で完結します。",
-          "WebページHTML収集",
-          "無料は1ページ保存。Proは複数ページを1つのHTMLに。",
-          "ブラウザで開いているページを起点に関連候補を探索。無料版は常に1ページだけ選択してHTML保存し、Proは複数候補を選択・並べ替えて共通目次付きの1つのHTMLに結合します。",
-          [
+        },
+        "ja": {
+          "title": "複数のWebページを1つのHTMLにまとめる | Grab All Files",
+          "desc": "無料版は関連候補を探して選んだ1ページをHTML保存。Proは複数ページ本文を共通目次付きで検索・印刷できる1つのHTMLに結合します。処理は端末内で完結します。",
+          "eyebrow": "WebページHTML収集",
+          "h1": "無料は1ページ保存。Proは複数ページを1つのHTMLに。",
+          "lead": "ブラウザで開いているページを起点に関連候補を探索。無料版は常に1ページだけ選択してHTML保存し、Proは複数候補を選択・並べ替えて共通目次付きの1つのHTMLに結合します。",
+          "best": [
             "複数ページに分かれた調査資料、マニュアル、ドキュメント、参考サイト。",
             "関連記事や公開情報を、持ち運べる1つのオフライン資料として保存。",
             "出典リンクが分かる、検索・印刷可能なアーカイブを作成。",
             "AI解析向けに、出典付きMarkdown、JSONL、manifest、表データを任意出力。"
           ],
-          [
-            "起点ページを開き、Grab All Files で「ページをHTMLにまとめる」を選びます。",
-            "候補を確認します。無料版は常に1ページだけ選択し、Proは複数ページを選択・並べ替えできます。",
-            "画像と直接リンクされたファイルの保存方法を選択。無料版は選んだ1ページ、Proは共通目次付きの結合HTMLを保存します。"
+          "steps": [
+            "起点ページを開き、Grab All Filesのアイコンを押して「ページをHTMLにまとめる」を選びます。",
+            "「収集範囲」で「開いているページのみ」のままにするか、「リンク先のページも探す」を選んで関連する候補を一覧にします。",
+            "候補を確認します。無料版は常に1ページだけを選んで1回ずつ保存します。Proでは「複数の候補ページを選んで1つにまとめる（Pro）」で、ページの選択・削除・並べ替えができます。",
+            "画像と直接リンクされたファイルの保存方法を選んで保存します。Proは全ページ共通の目次と検索が付いた1つのHTMLを作成します。"
           ],
-          [
-            { q: "収録するページを選べますか？", a: "はい。無料版は常に候補を1ページだけ選択し、別のページを選ぶと選択が切り替わります。Proは複数ページを選択・除外・並べ替えできます。" },
-            { q: "作成したHTMLはオフラインで読めますか？", a: "はい。画像を埋め込めばオフラインで閲覧できます。HTMLを軽くしたい場合はオンライン参照も選べ、リンク先の文書をHTMLと一緒に保存することもできます。" },
-            { q: "ページ内容はサーバーへアップロードされますか？", a: "いいえ。候補探索・ページ収集・HTML生成は端末内で処理します。無料版は選んだ1ページだけを保存し、Proは複数ページ本文を結合します。安全上限・認証・権限・サイト側・端末保護上の制限はどちらにも適用されます。" },
-            { q: "SingleFileのような1ページ保存ツールとの違いは？", a: "1ページ保存ツールは、現在開いているページを保存する用途に向いています。Grab All Files は関連ページを探し、対象と順番を確認して、選択した読みやすい本文を共通の目次付きで1つのHTMLにまとめます。" }
+          "faq": [
+            {
+              "q": "収録するページを選べますか？",
+              "a": "はい。無料版は常に候補を1ページだけ選択し、別のページを選ぶと選択が切り替わります。Proは複数ページを選択・除外・並べ替えできます。"
+            },
+            {
+              "q": "作成したHTMLはオフラインで読めますか？",
+              "a": "はい。画像を埋め込めばオフラインで閲覧できます。HTMLを軽くしたい場合はオンライン参照も選べ、リンク先の文書をHTMLと一緒に保存することもできます。"
+            },
+            {
+              "q": "ページ内容はサーバーへアップロードされますか？",
+              "a": "いいえ。候補探索・ページ収集・HTML生成は端末内で処理します。無料版は選んだ1ページだけを保存し、Proは複数ページ本文を結合します。安全上限・認証・権限・サイト側・端末保護上の制限はどちらにも適用されます。"
+            },
+            {
+              "q": "SingleFileのような1ページ保存ツールとの違いは？",
+              "a": "1ページ保存ツールは、現在開いているページを保存する用途に向いています。Grab All Files は関連ページを探し、対象と順番を確認して、選択した読みやすい本文を共通の目次付きで1つのHTMLにまとめます。"
+            },
+            {
+              "q": "ログインが必要なページはどうなりますか？",
+              "a": "収集はブラウザのログイン状態をそのまま使い、認証情報は収集しません。「ログインが必要」と表示されたら「対象サイトを開いてログイン」を押し、開いたタブでログインしてから「再開」を押します。ログインできないままのページは保存されず、残ったページ数が結果に表示されます。"
+            },
+            {
+              "q": "保存したページの本文が一部欠けるのはなぜですか？",
+              "a": "スクロールやクリックの後で本文を表示するサイトがあります。「本文が欠けるとき：保存範囲とJavaScriptの設定」を開き、「下へスクロールして遅れて出る内容を読む」や「『もっと見る』を押して続きを含める」をオンにして収集し直してください。ページの別の部分が保存された場合は、そこにある「画面で選ぶ」で本文の範囲を指定できます。"
+            }
           ]
-        ),
-        es: c(
-          "Combinar páginas web en un archivo HTML | Grab All Files",
-          "Free encuentra candidatas relacionadas y guarda una página elegida como HTML. Pro combina el contenido de varias páginas seleccionadas en un HTML con índice, búsqueda e impresión.",
-          "Recopilación HTML de páginas web",
-          "Free guarda 1 página. Pro combina varias en un HTML.",
-          "Empieza por la página abierta en tu navegador. Free enumera las candidatas relacionadas y mantiene exactamente una seleccionada para guardarla como HTML. Pro permite seleccionar y ordenar varias candidatas y combina su contenido legible en un HTML con un índice común.",
-          ["Investigaciones, documentación, manuales y sitios de referencia repartidos en muchas páginas.", "Guardar artículos relacionados o información pública como un único documento portátil para consultar sin conexión.", "Crear un archivo en el que se puedan hacer búsquedas e imprimir, con enlaces claros a las fuentes.", "Preparar opcionalmente Markdown con fuentes rastreables, JSONL, un manifest y datos tabulares para el análisis con IA."],
-          ["Abre la página inicial y elige «Combinar páginas en HTML» en Grab All Files.", "Revisa las candidatas: Free mantiene exactamente una seleccionada; Pro permite seleccionar y reordenar varias.", "Elige las opciones de imágenes y archivos enlazados. Free guarda la página elegida; Pro crea un HTML combinado con un índice común."],
-          [{ q: "¿Puedo elegir qué páginas incluir?", a: "Sí. Free mantiene exactamente una candidata seleccionada a la vez; al elegir otra, la selección cambia. Pro permite seleccionar varias páginas, eliminar las que no necesites y reordenar las demás." }, { q: "¿Puedo consultar el resultado sin conexión?", a: "Sí. Incorpora las imágenes para leer sin conexión o conserva las referencias en línea para reducir el tamaño del archivo HTML. Los documentos enlazados también se pueden guardar junto con él." }, { q: "¿Se sube el contenido de las páginas a sus servidores?", a: "No. Todo se procesa en tu dispositivo. Free guarda exactamente una página candidata elegida; Pro combina el contenido de varias páginas seleccionadas. Se aplican los límites de seguridad, autenticación, permisos, del sitio fuente y de protección del dispositivo." }, { q: "¿En qué se diferencia de una herramienta para guardar una sola página, como SingleFile?", a: "Las herramientas de una sola página conservan la página abierta. Grab All Files también encuentra candidatas relacionadas: Free guarda una página elegida y Pro combina el contenido legible de varias páginas seleccionadas en un HTML con índice común." }]
-        ),
-        fr: c(
-          "Regrouper des pages web dans un fichier HTML | Grab All Files",
-          "Free trouve les pages candidates et enregistre celle que vous choisissez. Pro regroupe le contenu de plusieurs pages sélectionnées dans un HTML avec sommaire, recherche et impression.",
-          "Collecte HTML de pages web",
-          "Free enregistre 1 page. Pro en regroupe plusieurs dans un HTML.",
-          "Partez de la page ouverte dans votre navigateur. Free liste les pages candidates et en maintient exactement une sélectionnée pour l’enregistrement HTML. Pro permet d’en choisir et d’en ordonner plusieurs, puis regroupe leur contenu lisible dans un HTML avec sommaire commun.",
-          ["Les recherches, la documentation, les manuels et les sites de référence répartis sur de nombreuses pages.", "Enregistrer des articles associés ou des informations publiques dans un seul document portable consultable hors ligne.", "Créer une archive dans laquelle vous pouvez effectuer des recherches et que vous pouvez imprimer, avec des liens clairs vers les sources.", "Préparer, si nécessaire, du Markdown avec suivi des sources, du JSONL, un manifeste et des données tabulaires pour l’analyse par IA."],
-          ["Ouvrez la page de départ et choisissez « Regrouper les pages en HTML » dans Grab All Files.", "Vérifiez les candidates : Free en maintient exactement une sélectionnée ; Pro permet d’en sélectionner et d’en réorganiser plusieurs.", "Choisissez les options d’images et de fichiers liés. Free enregistre la page choisie ; Pro crée un HTML regroupé avec sommaire commun."],
-          [{ q: "Puis-je choisir les pages à inclure ?", a: "Oui. Free maintient exactement une page candidate sélectionnée à la fois ; choisir une autre page remplace la sélection. Pro permet de sélectionner plusieurs pages, de retirer celles qui sont inutiles et de réorganiser les autres." }, { q: "Puis-je consulter le résultat hors ligne ?", a: "Oui. Intégrez les images pour une consultation hors ligne, ou conservez les références en ligne afin d’alléger le fichier HTML. Les documents liés peuvent également être enregistrés avec celui-ci." }, { q: "Le contenu des pages est-il envoyé à vos serveurs ?", a: "Non. Tout est traité sur votre appareil. Free enregistre exactement une page candidate choisie ; Pro regroupe le contenu de plusieurs pages sélectionnées. Les limites de sécurité, d’authentification, d’autorisation, du site source et de protection de l’appareil s’appliquent." }, { q: "Quelle est la différence avec un outil d’enregistrement d’une seule page tel que SingleFile ?", a: "Les outils d’une seule page conservent la page ouverte. Grab All Files trouve aussi les pages candidates associées : Free enregistre celle choisie et Pro regroupe le contenu lisible de plusieurs pages sélectionnées dans un HTML avec sommaire commun." }]
-        ),
-        de: c(
-          "Webseiten in einer HTML-Datei bündeln | Grab All Files",
-          "Free findet Kandidatenseiten und speichert die gewählte Seite. Pro bündelt die Inhalte mehrerer gewählter Seiten in einer durchsuchbaren HTML-Datei mit Inhaltsverzeichnis.",
-          "HTML-Sammlung für Webseiten",
-          "Free speichert 1 Seite. Pro bündelt mehrere Seiten in einer HTML-Datei.",
-          "Beginnen Sie mit der im Browser geöffneten Seite. Free listet zugehörige Kandidaten und hält genau einen für die HTML-Speicherung ausgewählt. Pro lässt Sie mehrere Kandidaten auswählen und anordnen und bündelt deren lesbare Inhalte in einer HTML-Datei mit gemeinsamem Inhaltsverzeichnis.",
-          ["Recherchen, Dokumentationen, Handbücher und Referenzseiten, deren Inhalte sich über viele Seiten verteilen.", "Zusammengehörige Artikel oder öffentliche Informationen als ein portables Offline-Dokument speichern.", "Ein durchsuchbares und druckbares Archiv mit eindeutigen Quellenlinks erstellen.", "Optional Markdown mit Quellenzuordnung, JSONL, ein Manifest und Tabellendaten für KI-Analysen vorbereiten."],
-          ["Öffnen Sie die Startseite und wählen Sie in Grab All Files „Seiten als HTML bündeln“.", "Prüfen Sie die Kandidaten: Free hält genau einen ausgewählt; Pro kann mehrere auswählen und neu anordnen.", "Wählen Sie Optionen für Bilder und verlinkte Dateien. Free speichert die gewählte Seite; Pro erstellt eine gebündelte HTML-Datei mit gemeinsamem Inhaltsverzeichnis."],
-          [{ q: "Kann ich auswählen, welche Seiten aufgenommen werden?", a: "Ja. Free hält immer genau eine Kandidatenseite ausgewählt; bei der Wahl einer anderen Seite wechselt die Auswahl. Pro lässt Sie mehrere Seiten auswählen, nicht benötigte entfernen und die übrigen neu anordnen." }, { q: "Kann ich das Ergebnis offline lesen?", a: "Ja. Betten Sie Bilder für die Offline-Nutzung ein oder behalten Sie Online-Verweise bei, um die HTML-Datei kleiner zu halten. Verlinkte Dokumente können ebenfalls zusammen mit ihr gespeichert werden." }, { q: "Werden Seiteninhalte auf Ihre Server hochgeladen?", a: "Nein. Alles wird auf Ihrem Gerät verarbeitet. Free speichert genau eine gewählte Kandidatenseite; Pro bündelt die Inhalte mehrerer gewählter Seiten. Sicherheits-, Authentifizierungs-, Berechtigungs-, Quellseiten- und Geräteschutzlimits gelten weiterhin." }, { q: "Worin unterscheidet sich dies von einem Tool zum Speichern einzelner Seiten wie SingleFile?", a: "Einzelseiten-Tools sichern die geöffnete Seite. Grab All Files findet zusätzlich zugehörige Kandidaten: Free speichert die gewählte Seite, Pro bündelt die lesbaren Inhalte mehrerer gewählter Seiten mit gemeinsamem Inhaltsverzeichnis." }]
-        ),
-        it: c(
-          "Unire più pagine web in un unico file HTML | Grab All Files",
-          "Free trova le pagine candidate e salva quella scelta. Pro unisce il contenuto di più pagine selezionate in un HTML con indice, ricerca e stampa.",
-          "Raccolta HTML di pagine web",
-          "Free salva 1 pagina. Pro ne unisce più in un HTML.",
-          "Parti dalla pagina aperta nel browser. Free elenca le pagine candidate correlate e ne mantiene esattamente una selezionata per il salvataggio HTML. Pro consente di selezionare e ordinare più candidate e ne unisce il contenuto leggibile in un HTML con indice comune.",
-          ["Ricerche, documentazione, manuali e siti di riferimento distribuiti su molte pagine.", "Salvare articoli correlati o informazioni pubbliche come un unico documento portatile da consultare offline.", "Creare un archivio ricercabile e stampabile con link chiari alle fonti.", "Preparare facoltativamente Markdown con fonti tracciabili, JSONL, un manifest e dati tabellari per l’analisi con IA."],
-          ["Apri la pagina iniziale e scegli «Unisci pagine in HTML» in Grab All Files.", "Controlla le candidate: Free ne mantiene esattamente una selezionata; Pro consente di selezionarne e riordinarne più di una.", "Scegli le opzioni per immagini e file collegati. Free salva la pagina scelta; Pro crea un HTML unificato con indice comune."],
-          [{ q: "Posso scegliere quali pagine includere?", a: "Sì. Free mantiene esattamente una pagina candidata selezionata alla volta; scegliendone un’altra, la selezione cambia. Pro consente di selezionare più pagine, rimuovere quelle inutili e riordinare le altre." }, { q: "Posso leggere il risultato offline?", a: "Sì. Incorpora le immagini per la lettura offline oppure mantieni i riferimenti online per ridurre le dimensioni del file HTML. Anche i documenti collegati possono essere salvati insieme al file." }, { q: "Il contenuto delle pagine viene caricato sui vostri server?", a: "No. Tutto viene elaborato sul dispositivo. Free salva esattamente una pagina candidata scelta; Pro unisce il contenuto di più pagine selezionate. Si applicano i limiti di sicurezza, autenticazione, autorizzazione, sito sorgente e protezione del dispositivo." }, { q: "In cosa si differenzia da uno strumento come SingleFile, che salva una sola pagina?", a: "Gli strumenti per una singola pagina conservano quella aperta. Grab All Files trova anche candidate correlate: Free salva quella scelta e Pro unisce il contenuto leggibile di più pagine selezionate in un HTML con indice comune." }]
-        ),
-        ko: c(
-          "여러 웹페이지를 하나의 HTML 파일로 합치기 | Grab All Files",
-          "Free는 관련 후보를 찾아 선택한 1페이지를 저장합니다. Pro는 선택한 여러 페이지 본문을 공통 목차가 있는 검색·인쇄 가능한 하나의 HTML로 결합합니다.",
-          "웹페이지 HTML 수집",
-          "Free는 1페이지 저장. Pro는 여러 페이지를 하나의 HTML로.",
-          "브라우저에 열려 있는 페이지에서 시작하세요. Free는 관련 후보를 나열하고 HTML 저장용으로 정확히 1개만 선택된 상태를 유지합니다. Pro는 여러 후보를 선택하고 순서를 바꾼 뒤 읽기 쉬운 본문을 공통 목차가 있는 하나의 HTML로 결합합니다.",
-          ["여러 페이지에 흩어진 조사 자료, 문서, 설명서 및 참고 사이트.", "관련 기사나 공개 정보를 휴대 가능한 하나의 오프라인 문서로 저장.", "명확한 출처 링크가 있는 검색·인쇄 가능한 아카이브 생성.", "AI 분석을 위해 출처를 추적할 수 있는 Markdown, JSONL, manifest 및 표 데이터를 선택적으로 준비."],
-          ["시작 페이지를 열고 Grab All Files에서 “페이지를 HTML로 합치기”를 선택하세요.", "후보를 확인하세요. Free는 정확히 1개만 선택 상태로 유지하고, Pro는 여러 페이지를 선택하고 순서를 바꿀 수 있습니다.", "이미지와 링크 파일 옵션을 선택하세요. Free는 선택한 페이지를 저장하고, Pro는 공통 목차가 있는 결합 HTML을 만듭니다."],
-          [{ q: "포함할 페이지를 직접 선택할 수 있나요?", a: "네. Free는 한 번에 정확히 1개의 후보만 선택 상태로 유지하며 다른 페이지를 고르면 선택이 전환됩니다. Pro는 여러 페이지를 선택하고 필요 없는 항목을 제거하며 순서를 바꿀 수 있습니다." }, { q: "결과를 오프라인에서 읽을 수 있나요?", a: "네. 이미지를 포함해 오프라인에서 읽거나 온라인 참조를 유지해 HTML 파일 크기를 줄일 수 있습니다. 링크된 문서도 HTML 파일과 함께 저장할 수 있습니다." }, { q: "페이지 콘텐츠가 서버에 업로드되나요?", a: "아니요. 모든 처리는 기기에서 실행됩니다. Free는 선택한 후보 1페이지만 저장하고 Pro는 선택한 여러 페이지 본문을 결합합니다. 안전, 인증, 권한, 원본 사이트 및 기기 보호 제한은 계속 적용됩니다." }, { q: "SingleFile 같은 단일 페이지 저장 도구와는 무엇이 다른가요?", a: "단일 페이지 저장 도구는 현재 열린 페이지를 보존합니다. Grab All Files는 관련 후보도 찾습니다. Free는 선택한 1페이지를 저장하고, Pro는 선택한 여러 페이지의 읽기 쉬운 본문을 공통 목차가 있는 하나의 HTML로 결합합니다." }]
-        ),
-        pt_BR: c(
-          "Juntar páginas da web em um arquivo HTML | Grab All Files",
-          "O Free encontra candidatas relacionadas e salva a página escolhida. O Pro reúne o conteúdo de várias páginas selecionadas em um HTML com sumário, pesquisa e impressão.",
-          "Coleta de páginas da web em HTML",
-          "Free salva 1 página. Pro reúne várias em um HTML.",
-          "Comece pela página aberta no navegador. O Free lista candidatas relacionadas e mantém exatamente uma selecionada para salvar como HTML. O Pro permite selecionar e ordenar várias candidatas e reúne o conteúdo legível em um HTML com sumário comum.",
-          ["Pesquisas, documentações, manuais e sites de referência distribuídos por várias páginas.", "Salvar artigos relacionados ou informações públicas como um único documento portátil para leitura offline.", "Criar um arquivo pesquisável e pronto para impressão, com links claros para as fontes.", "Preparar opcionalmente Markdown com fontes rastreáveis, JSONL, um manifest e dados tabulares para análise por IA."],
-          ["Abra a página inicial e selecione “Juntar páginas em HTML” no Grab All Files.", "Revise as candidatas: o Free mantém exatamente uma selecionada; o Pro permite selecionar e reordenar várias.", "Escolha opções de imagens e arquivos vinculados. O Free salva a página escolhida; o Pro cria um HTML combinado com sumário comum."],
-          [{ q: "Posso escolher quais páginas serão incluídas?", a: "Sim. O Free mantém exatamente uma candidata selecionada por vez; ao escolher outra, a seleção muda. O Pro permite selecionar várias páginas, remover as desnecessárias e reordenar as demais." }, { q: "Posso ler o resultado offline?", a: "Sim. Incorpore imagens para leitura offline ou mantenha referências online para reduzir o tamanho do arquivo HTML. Os documentos vinculados também podem ser salvos junto com ele." }, { q: "O conteúdo das páginas é enviado aos seus servidores?", a: "Não. Tudo é processado no dispositivo. O Free salva exatamente uma página candidata escolhida; o Pro reúne o conteúdo de várias páginas selecionadas. Aplicam-se limites de segurança, autenticação, permissão, site de origem e proteção do dispositivo." }, { q: "Qual é a diferença entre isso e uma ferramenta que salva uma única página, como o SingleFile?", a: "Ferramentas de uma página preservam a página aberta. O Grab All Files também encontra candidatas relacionadas: o Free salva a página escolhida e o Pro reúne o conteúdo legível de várias páginas selecionadas em um HTML com sumário comum." }]
-        ),
-        zh_CN: c(
-          "将多个网页合并为一个 HTML 文件 | Grab All Files",
-          "Free 查找相关候选并保存所选的1个页面。Pro 将多个所选页面正文合并为一个带统一目录、可搜索、可打印的 HTML 文件。",
-          "网页 HTML 收集",
-          "Free 保存1页。Pro 将多页合并为一个 HTML。",
-          "从浏览器当前打开的页面开始。Free 会列出相关候选，并始终仅保留1个选中项用于保存 HTML。Pro 可选择并排序多个候选，再将其便于阅读的正文合并为一个带统一目录的 HTML。",
-          ["分散在多个页面中的研究资料、文档、手册和参考网站。", "将相关文章或公开信息保存为一个便于携带的离线文档。", "创建带有清晰来源链接、可搜索、可打印的存档。", "按需准备来源可追溯的 Markdown、JSONL、manifest 和表格数据，用于 AI 分析。"],
-          ["打开起始页面，在 Grab All Files 中选择“将网页合并为 HTML”。", "检查候选：Free 始终仅保留1个选中项；Pro 可选择多个页面并调整顺序。", "选择图片和链接文件选项。Free 保存所选页面；Pro 创建带统一目录的合并 HTML。"],
-          [{ q: "可以选择要收录哪些页面吗？", a: "可以。Free 每次始终仅选中1个候选；选择其他页面时，选中项会自动切换。Pro 可选择多个页面、删除不需要的页面并调整其余页面的顺序。" }, { q: "结果可以离线阅读吗？", a: "可以。您可以嵌入图片以便离线阅读，也可以保留在线引用以减小 HTML 文件的大小。链接的文档也可与 HTML 文件一并保存。" }, { q: "页面内容会上传到开发者的服务器吗？", a: "不会。所有处理均在您的设备上完成。Free 仅保存所选的1个候选页面；Pro 将多个所选页面正文合并。安全、身份验证、权限、源网站和设备保护限制仍然适用。" }, { q: "这与 SingleFile 等单页面保存工具有何不同？", a: "单页面保存工具保留当前打开的页面。Grab All Files 还会查找相关候选：Free 保存所选的1页，Pro 将多个所选页面中便于阅读的正文合并为一个带统一目录的 HTML。" }]
-        ),
-        zh_TW: c(
-          "將多個網頁合併成一個 HTML 檔案 | Grab All Files",
-          "Free 尋找相關候選並儲存所選的1個頁面。Pro 將多個所選頁面正文合併成一個附有統一目錄、可搜尋且可列印的 HTML 檔案。",
-          "網頁 HTML 收集",
-          "Free 儲存1頁。Pro 將多頁合併成一個 HTML。",
-          "從瀏覽器目前開啟的頁面開始。Free 會列出相關候選，並始終只保留1個選取項目用於儲存 HTML。Pro 可選取並排序多個候選，再將其便於閱讀的正文合併成一個附有統一目錄的 HTML。",
-          ["分散在多個頁面中的研究資料、文件、手冊和參考網站。", "將相關文章或公開資訊儲存為一個便於攜帶的離線文件。", "建立附有清楚來源連結、可搜尋且可列印的封存檔。", "按需準備來源可追溯的 Markdown、JSONL、manifest 和表格資料，用於 AI 分析。"],
-          ["開啟起始頁面，並在 Grab All Files 中選擇「將網頁合併為 HTML」。", "檢視候選：Free 始終只保留1個選取項目；Pro 可選取多個頁面並調整順序。", "選擇圖片和連結檔案選項。Free 儲存所選頁面；Pro 建立附有統一目錄的合併 HTML。"],
-          [{ q: "可以選擇要收錄哪些頁面嗎？", a: "可以。Free 每次始終只選取1個候選；選擇其他頁面時，選取項目會自動切換。Pro 可選取多個頁面、移除不需要的頁面並調整其餘頁面的順序。" }, { q: "結果可以離線閱讀嗎？", a: "可以。您可以嵌入圖片以供離線閱讀，也可以保留線上參照以縮小 HTML 檔案。連結的文件也可與 HTML 檔案一併儲存。" }, { q: "頁面內容會上傳到你們的伺服器嗎？", a: "不會。所有處理均在您的裝置上完成。Free 只儲存所選的1個候選頁面；Pro 將多個所選頁面正文合併。安全、驗證、權限、來源網站和裝置保護限制仍然適用。" }, { q: "這與 SingleFile 等單頁儲存工具有何不同？", a: "單頁儲存工具保留目前開啟的頁面。Grab All Files 還會尋找相關候選：Free 儲存所選的1頁，Pro 將多個所選頁面中便於閱讀的正文合併成一個附有統一目錄的 HTML。" }]
-        )
+        },
+        "es": {
+          "title": "Combinar páginas web en un archivo HTML | Grab All Files",
+          "desc": "Une páginas web relacionadas en un HTML con índice común, búsqueda e impresión. La versión gratuita guarda una página por vez; Pro combina varias.",
+          "eyebrow": "Recopilación HTML de páginas web",
+          "h1": "Free guarda 1 página. Pro combina varias en un HTML.",
+          "lead": "Empieza por la página abierta en tu navegador. Free enumera las candidatas relacionadas y mantiene exactamente una seleccionada para guardarla como HTML. Pro permite seleccionar y ordenar varias candidatas y combina su contenido legible en un HTML con un índice común.",
+          "best": [
+            "Investigaciones, documentación, manuales y sitios de referencia repartidos en muchas páginas.",
+            "Guardar artículos relacionados o información pública como un único documento portátil para consultar sin conexión.",
+            "Crear un archivo en el que se puedan hacer búsquedas e imprimir, con enlaces claros a las fuentes.",
+            "Preparar opcionalmente Markdown con fuentes rastreables, JSONL, un manifest y datos tabulares para el análisis con IA."
+          ],
+          "steps": [
+            "Abre la página de partida, haz clic en el icono de Grab All Files y elige «Combinar páginas en HTML».",
+            "En «Alcance de la recopilación», deja «Solo la página abierta» o elige «Buscar también las páginas enlazadas» para listar candidatas relacionadas.",
+            "Revisa las candidatas. La versión gratuita mantiene exactamente una seleccionada y la guarda en cada ejecución; con Pro, «Elegir varias páginas candidatas y combinarlas (Pro)» permite elegir, quitar y reordenar páginas.",
+            "Elige las opciones de imágenes y archivos enlazados y guarda. Pro crea un HTML con un índice común y búsqueda en todas las páginas."
+          ],
+          "faq": [
+            {
+              "q": "¿Puedo elegir qué páginas incluir?",
+              "a": "Sí. Free mantiene exactamente una candidata seleccionada a la vez; al elegir otra, la selección cambia. Pro permite seleccionar varias páginas, eliminar las que no necesites y reordenar las demás."
+            },
+            {
+              "q": "¿Puedo consultar el resultado sin conexión?",
+              "a": "Sí. Incorpora las imágenes para leer sin conexión o conserva las referencias en línea para reducir el tamaño del archivo HTML. Los documentos enlazados también se pueden guardar junto con él."
+            },
+            {
+              "q": "¿Se sube el contenido de las páginas a sus servidores?",
+              "a": "No. Todo se procesa en tu dispositivo. Free guarda exactamente una página candidata elegida; Pro combina el contenido de varias páginas seleccionadas. Se aplican los límites de seguridad, autenticación, permisos, del sitio fuente y de protección del dispositivo."
+            },
+            {
+              "q": "¿En qué se diferencia de una herramienta para guardar una sola página, como SingleFile?",
+              "a": "Las herramientas de una sola página conservan la página abierta. Grab All Files también encuentra candidatas relacionadas: Free guarda una página elegida y Pro combina el contenido legible de varias páginas seleccionadas en un HTML con índice común."
+            },
+            {
+              "q": "¿Y si una página me pide iniciar sesión?",
+              "a": "La recopilación usa tu propia sesión del navegador y no recopila credenciales. Si una página aparece como «Inicio de sesión necesario», pulsa «Abrir el sitio para iniciar sesión», inicia sesión en esa pestaña y pulsa «Reanudar». Las páginas que sigan pidiendo sesión no se guardan, y el resultado indica cuántas quedaron fuera."
+            },
+            {
+              "q": "¿Por qué falta texto en la página guardada?",
+              "a": "Algunos sitios añaden texto solo después de desplazarte o hacer clic. Abre «Si falta texto en una página: ajustes de contenido y JavaScript», activa «Desplazarse hacia abajo para cargar el contenido que aparece después» o «Pulsar “Mostrar más” para incluir la continuación» y vuelve a recopilar. Si se guardó otra parte de la página, usa ahí «Seleccionar en pantalla» para elegir el texto principal."
+            }
+          ]
+        },
+        "fr": {
+          "title": "Regrouper des pages web dans un fichier HTML | Grab All Files",
+          "desc": "Regroupez des pages web liées en un HTML avec sommaire, recherche et impression. Gratuit : une page par passage ; Pro en réunit plusieurs.",
+          "eyebrow": "Collecte HTML de pages web",
+          "h1": "Free enregistre 1 page. Pro en regroupe plusieurs dans un HTML.",
+          "lead": "Partez de la page ouverte dans votre navigateur. Free liste les pages candidates et en maintient exactement une sélectionnée pour l’enregistrement HTML. Pro permet d’en choisir et d’en ordonner plusieurs, puis regroupe leur contenu lisible dans un HTML avec sommaire commun.",
+          "best": [
+            "Les recherches, la documentation, les manuels et les sites de référence répartis sur de nombreuses pages.",
+            "Enregistrer des articles associés ou des informations publiques dans un seul document portable consultable hors ligne.",
+            "Créer une archive dans laquelle vous pouvez effectuer des recherches et que vous pouvez imprimer, avec des liens clairs vers les sources.",
+            "Préparer, si nécessaire, du Markdown avec suivi des sources, du JSONL, un manifeste et des données tabulaires pour l’analyse par IA."
+          ],
+          "steps": [
+            "Ouvrez la page de départ, cliquez sur l’icône Grab All Files et choisissez « Regrouper les pages en HTML ».",
+            "Dans « Portée de la collecte », gardez « Seulement la page ouverte » ou choisissez « Chercher aussi les pages liées » pour lister des pages candidates.",
+            "Vérifiez les candidates. La version gratuite en garde exactement une sélectionnée et l’enregistre à chaque passage ; avec Pro, « Choisir plusieurs pages candidates et les regrouper (Pro) » permet de choisir, retirer et réordonner les pages.",
+            "Choisissez les options d’images et de fichiers liés, puis enregistrez. Pro crée un seul HTML avec sommaire commun et recherche dans toutes les pages."
+          ],
+          "faq": [
+            {
+              "q": "Puis-je choisir les pages à inclure ?",
+              "a": "Oui. Free maintient exactement une page candidate sélectionnée à la fois ; choisir une autre page remplace la sélection. Pro permet de sélectionner plusieurs pages, de retirer celles qui sont inutiles et de réorganiser les autres."
+            },
+            {
+              "q": "Puis-je consulter le résultat hors ligne ?",
+              "a": "Oui. Intégrez les images pour une consultation hors ligne, ou conservez les références en ligne afin d’alléger le fichier HTML. Les documents liés peuvent également être enregistrés avec celui-ci."
+            },
+            {
+              "q": "Le contenu des pages est-il envoyé à vos serveurs ?",
+              "a": "Non. Tout est traité sur votre appareil. Free enregistre exactement une page candidate choisie ; Pro regroupe le contenu de plusieurs pages sélectionnées. Les limites de sécurité, d’authentification, d’autorisation, du site source et de protection de l’appareil s’appliquent."
+            },
+            {
+              "q": "Quelle est la différence avec un outil d’enregistrement d’une seule page tel que SingleFile ?",
+              "a": "Les outils d’une seule page conservent la page ouverte. Grab All Files trouve aussi les pages candidates associées : Free enregistre celle choisie et Pro regroupe le contenu lisible de plusieurs pages sélectionnées dans un HTML avec sommaire commun."
+            },
+            {
+              "q": "Et si une page me demande de me connecter ?",
+              "a": "La collecte utilise votre propre session de navigateur et ne collecte aucun identifiant. Si une page est marquée « Connexion nécessaire », cliquez sur « Ouvrir le site pour se connecter », connectez-vous dans cet onglet, puis cliquez sur « Reprendre ». Les pages qui exigent encore une connexion ne sont pas enregistrées, et le résultat indique combien ont été laissées de côté."
+            },
+            {
+              "q": "Pourquoi manque-t-il du texte dans la page enregistrée ?",
+              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Faire défiler vers le bas pour charger le contenu qui apparaît plus tard » ou « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l'écran » pour désigner le texte principal."
+            }
+          ]
+        },
+        "de": {
+          "title": "Webseiten in einer HTML-Datei bündeln | Grab All Files",
+          "desc": "Verwandte Webseiten in einem durchsuchbaren HTML mit Inhaltsverzeichnis bündeln. Kostenlos wird eine Seite je Durchgang gespeichert, mit Pro mehrere.",
+          "eyebrow": "HTML-Sammlung für Webseiten",
+          "h1": "Free speichert 1 Seite. Pro bündelt mehrere Seiten in einer HTML-Datei.",
+          "lead": "Beginnen Sie mit der im Browser geöffneten Seite. Free listet zugehörige Kandidaten und hält genau einen für die HTML-Speicherung ausgewählt. Pro lässt Sie mehrere Kandidaten auswählen und anordnen und bündelt deren lesbare Inhalte in einer HTML-Datei mit gemeinsamem Inhaltsverzeichnis.",
+          "best": [
+            "Recherchen, Dokumentationen, Handbücher und Referenzseiten, deren Inhalte sich über viele Seiten verteilen.",
+            "Zusammengehörige Artikel oder öffentliche Informationen als ein portables Offline-Dokument speichern.",
+            "Ein durchsuchbares und druckbares Archiv mit eindeutigen Quellenlinks erstellen.",
+            "Optional Markdown mit Quellenzuordnung, JSONL, ein Manifest und Tabellendaten für KI-Analysen vorbereiten."
+          ],
+          "steps": [
+            "Öffnen Sie die Ausgangsseite, klicken Sie auf das Grab-All-Files-Symbol und wählen Sie „Seiten als HTML bündeln“.",
+            "Belassen Sie unter „Erfassungsbereich“ die Option „Nur die geöffnete Seite“ oder wählen Sie „Auch verlinkte Seiten suchen“, um verwandte Kandidaten aufzulisten.",
+            "Prüfen Sie die Kandidaten. Die kostenlose Version hält genau einen ausgewählt und speichert ihn pro Durchgang; mit Pro können Sie über „Mehrere Kandidatenseiten auswählen und zusammenführen (Pro)“ Seiten wählen, entfernen und neu anordnen.",
+            "Wählen Sie die Optionen für Bilder und verlinkte Dateien und speichern Sie. Pro erstellt ein HTML mit gemeinsamem Inhaltsverzeichnis und Suche über alle Seiten."
+          ],
+          "faq": [
+            {
+              "q": "Kann ich auswählen, welche Seiten aufgenommen werden?",
+              "a": "Ja. Free hält immer genau eine Kandidatenseite ausgewählt; bei der Wahl einer anderen Seite wechselt die Auswahl. Pro lässt Sie mehrere Seiten auswählen, nicht benötigte entfernen und die übrigen neu anordnen."
+            },
+            {
+              "q": "Kann ich das Ergebnis offline lesen?",
+              "a": "Ja. Betten Sie Bilder für die Offline-Nutzung ein oder behalten Sie Online-Verweise bei, um die HTML-Datei kleiner zu halten. Verlinkte Dokumente können ebenfalls zusammen mit ihr gespeichert werden."
+            },
+            {
+              "q": "Werden Seiteninhalte auf Ihre Server hochgeladen?",
+              "a": "Nein. Alles wird auf Ihrem Gerät verarbeitet. Free speichert genau eine gewählte Kandidatenseite; Pro bündelt die Inhalte mehrerer gewählter Seiten. Sicherheits-, Authentifizierungs-, Berechtigungs-, Quellseiten- und Geräteschutzlimits gelten weiterhin."
+            },
+            {
+              "q": "Worin unterscheidet sich dies von einem Tool zum Speichern einzelner Seiten wie SingleFile?",
+              "a": "Einzelseiten-Tools sichern die geöffnete Seite. Grab All Files findet zusätzlich zugehörige Kandidaten: Free speichert die gewählte Seite, Pro bündelt die lesbaren Inhalte mehrerer gewählter Seiten mit gemeinsamem Inhaltsverzeichnis."
+            },
+            {
+              "q": "Was passiert, wenn eine Seite eine Anmeldung verlangt?",
+              "a": "Die Sammlung nutzt Ihre eigene Browser-Sitzung und sammelt keine Zugangsdaten. Ist eine Seite mit „Anmeldung erforderlich“ markiert, klicken Sie auf „Website zum Anmelden öffnen“, melden sich in diesem Tab an und klicken dann auf „Fortsetzen“. Seiten, die weiterhin eine Anmeldung verlangen, werden nicht gespeichert; das Ergebnis nennt ihre Anzahl."
+            },
+            {
+              "q": "Warum fehlt Text in der gespeicherten Seite?",
+              "a": "Manche Websites zeigen Text erst nach Scrollen oder einem Klick. Öffnen Sie „Wenn Text auf einer Seite fehlt: Inhalts- und JavaScript-Einstellungen“, aktivieren Sie „Nach unten scrollen, um später erscheinende Inhalte zu laden“ oder „‚Mehr anzeigen‘ drücken, um die Fortsetzung einzubeziehen“ und sammeln Sie erneut. Wurde ein falscher Seitenteil übernommen, wählen Sie dort mit „Auf dem Bildschirm auswählen“ den Haupttext."
+            }
+          ]
+        },
+        "it": {
+          "title": "Unire più pagine web in un unico file HTML | Grab All Files",
+          "desc": "Free trova le pagine candidate e salva quella scelta. Pro unisce il contenuto di più pagine selezionate in un HTML con indice, ricerca e stampa.",
+          "eyebrow": "Raccolta HTML di pagine web",
+          "h1": "Free salva 1 pagina. Pro ne unisce più in un HTML.",
+          "lead": "Parti dalla pagina aperta nel browser. Free elenca le pagine candidate correlate e ne mantiene esattamente una selezionata per il salvataggio HTML. Pro consente di selezionare e ordinare più candidate e ne unisce il contenuto leggibile in un HTML con indice comune.",
+          "best": [
+            "Ricerche, documentazione, manuali e siti di riferimento distribuiti su molte pagine.",
+            "Salvare articoli correlati o informazioni pubbliche come un unico documento portatile da consultare offline.",
+            "Creare un archivio ricercabile e stampabile con link chiari alle fonti.",
+            "Preparare facoltativamente Markdown con fonti tracciabili, JSONL, un manifest e dati tabellari per l’analisi con IA."
+          ],
+          "steps": [
+            "Apri la pagina di partenza, fai clic sull’icona di Grab All Files e scegli «Unisci pagine in HTML».",
+            "In «Ambito della raccolta» lascia «Solo la pagina aperta» oppure scegli «Cerca anche le pagine collegate» per elencare pagine candidate correlate.",
+            "Controlla le candidate. La versione gratuita ne mantiene esattamente una selezionata e la salva a ogni raccolta; con Pro, «Scegli più pagine candidate e uniscile (Pro)» permette di scegliere, togliere e riordinare le pagine.",
+            "Scegli le opzioni per immagini e file collegati e salva. Pro crea un unico HTML con indice comune e ricerca in tutte le pagine."
+          ],
+          "faq": [
+            {
+              "q": "Posso scegliere quali pagine includere?",
+              "a": "Sì. Free mantiene esattamente una pagina candidata selezionata alla volta; scegliendone un’altra, la selezione cambia. Pro consente di selezionare più pagine, rimuovere quelle inutili e riordinare le altre."
+            },
+            {
+              "q": "Posso leggere il risultato offline?",
+              "a": "Sì. Incorpora le immagini per la lettura offline oppure mantieni i riferimenti online per ridurre le dimensioni del file HTML. Anche i documenti collegati possono essere salvati insieme al file."
+            },
+            {
+              "q": "Il contenuto delle pagine viene caricato sui vostri server?",
+              "a": "No. Tutto viene elaborato sul dispositivo. Free salva esattamente una pagina candidata scelta; Pro unisce il contenuto di più pagine selezionate. Si applicano i limiti di sicurezza, autenticazione, autorizzazione, sito sorgente e protezione del dispositivo."
+            },
+            {
+              "q": "In cosa si differenzia da uno strumento come SingleFile, che salva una sola pagina?",
+              "a": "Gli strumenti per una singola pagina conservano quella aperta. Grab All Files trova anche candidate correlate: Free salva quella scelta e Pro unisce il contenuto leggibile di più pagine selezionate in un HTML con indice comune."
+            },
+            {
+              "q": "E se una pagina mi chiede di accedere?",
+              "a": "La raccolta usa la tua sessione del browser e non raccoglie credenziali. Se una pagina è segnata «Accesso necessario», fai clic su «Apri il sito per accedere», accedi in quella scheda e poi fai clic su «Riprendi». Le pagine che richiedono ancora l’accesso non vengono salvate e il risultato indica quante sono rimaste fuori."
+            },
+            {
+              "q": "Perché nella pagina salvata manca del testo?",
+              "a": "Alcuni siti aggiungono testo solo dopo uno scorrimento o un clic. Apri «Se in una pagina manca del testo: impostazioni di contenuto e JavaScript», attiva «Scorri verso il basso per caricare il contenuto che appare in seguito» o «Premi “Mostra altro” per includere la continuazione» e ripeti la raccolta. Se è stata salvata un’altra parte della pagina, usa lì «Seleziona sullo schermo» per indicare il testo principale."
+            }
+          ]
+        },
+        "ko": {
+          "title": "여러 웹페이지를 하나의 HTML 파일로 합치기 | Grab All Files",
+          "desc": "Free는 관련 후보를 찾아 선택한 1페이지를 저장합니다. Pro는 선택한 여러 페이지 본문을 공통 목차가 있는 검색·인쇄 가능한 하나의 HTML로 결합합니다.",
+          "eyebrow": "웹페이지 HTML 수집",
+          "h1": "Free는 1페이지 저장. Pro는 여러 페이지를 하나의 HTML로.",
+          "lead": "브라우저에 열려 있는 페이지에서 시작하세요. Free는 관련 후보를 나열하고 HTML 저장용으로 정확히 1개만 선택된 상태를 유지합니다. Pro는 여러 후보를 선택하고 순서를 바꾼 뒤 읽기 쉬운 본문을 공통 목차가 있는 하나의 HTML로 결합합니다.",
+          "best": [
+            "여러 페이지에 흩어진 조사 자료, 문서, 설명서 및 참고 사이트.",
+            "관련 기사나 공개 정보를 휴대 가능한 하나의 오프라인 문서로 저장.",
+            "명확한 출처 링크가 있는 검색·인쇄 가능한 아카이브 생성.",
+            "AI 분석을 위해 출처를 추적할 수 있는 Markdown, JSONL, manifest 및 표 데이터를 선택적으로 준비."
+          ],
+          "steps": [
+            "시작 페이지를 열고 Grab All Files 아이콘을 누른 뒤 “페이지를 HTML로 합치기”를 선택합니다.",
+            "“수집 범위”에서 “열려 있는 페이지만”을 그대로 두거나, “링크된 페이지도 찾기”를 골라 관련 후보를 나열합니다.",
+            "후보를 확인합니다. 무료 버전은 정확히 1개만 선택해 한 번에 저장합니다. Pro에서는 “여러 후보 페이지를 선택해 하나로 합치기(Pro)”로 페이지를 고르고 빼고 순서를 바꿀 수 있습니다.",
+            "이미지와 링크 파일 옵션을 고르고 저장합니다. Pro는 모든 페이지에 공통 목차와 검색이 있는 하나의 HTML을 만듭니다."
+          ],
+          "faq": [
+            {
+              "q": "포함할 페이지를 직접 선택할 수 있나요?",
+              "a": "네. Free는 한 번에 정확히 1개의 후보만 선택 상태로 유지하며 다른 페이지를 고르면 선택이 전환됩니다. Pro는 여러 페이지를 선택하고 필요 없는 항목을 제거하며 순서를 바꿀 수 있습니다."
+            },
+            {
+              "q": "결과를 오프라인에서 읽을 수 있나요?",
+              "a": "네. 이미지를 포함해 오프라인에서 읽거나 온라인 참조를 유지해 HTML 파일 크기를 줄일 수 있습니다. 링크된 문서도 HTML 파일과 함께 저장할 수 있습니다."
+            },
+            {
+              "q": "페이지 콘텐츠가 서버에 업로드되나요?",
+              "a": "아니요. 모든 처리는 기기에서 실행됩니다. Free는 선택한 후보 1페이지만 저장하고 Pro는 선택한 여러 페이지 본문을 결합합니다. 안전, 인증, 권한, 원본 사이트 및 기기 보호 제한은 계속 적용됩니다."
+            },
+            {
+              "q": "SingleFile 같은 단일 페이지 저장 도구와는 무엇이 다른가요?",
+              "a": "단일 페이지 저장 도구는 현재 열린 페이지를 보존합니다. Grab All Files는 관련 후보도 찾습니다. Free는 선택한 1페이지를 저장하고, Pro는 선택한 여러 페이지의 읽기 쉬운 본문을 공통 목차가 있는 하나의 HTML로 결합합니다."
+            },
+            {
+              "q": "로그인이 필요한 페이지는 어떻게 되나요?",
+              "a": "수집은 브라우저의 로그인 상태를 그대로 사용하며 인증 정보를 수집하지 않습니다. “로그인 필요”로 표시되면 “사이트를 열어 로그인”을 누르고 열린 탭에서 로그인한 뒤 “재개”를 누르세요. 계속 로그인이 필요한 페이지는 저장되지 않으며, 남은 페이지 수가 결과에 표시됩니다."
+            },
+            {
+              "q": "저장한 페이지에서 본문 일부가 빠지는 이유는요?",
+              "a": "스크롤하거나 클릭한 뒤에야 본문을 보여 주는 사이트가 있습니다. “페이지에서 본문이 빠질 때: 내용 및 JavaScript 설정”을 열고 “아래로 스크롤해 나중에 나타나는 내용 불러오기”나 “‘더 보기’를 눌러 이어지는 내용 포함”을 켠 뒤 다시 수집하세요. 페이지의 다른 부분이 저장되었다면 그곳의 “화면에서 선택”으로 본문 범위를 지정할 수 있습니다."
+            }
+          ]
+        },
+        "pt_BR": {
+          "title": "Juntar páginas da web em um arquivo HTML | Grab All Files",
+          "desc": "Junte páginas da web relacionadas em um HTML com sumário, busca e impressão. A versão gratuita salva uma página por vez; o Pro combina várias.",
+          "eyebrow": "Coleta de páginas da web em HTML",
+          "h1": "Free salva 1 página. Pro reúne várias em um HTML.",
+          "lead": "Comece pela página aberta no navegador. O Free lista candidatas relacionadas e mantém exatamente uma selecionada para salvar como HTML. O Pro permite selecionar e ordenar várias candidatas e reúne o conteúdo legível em um HTML com sumário comum.",
+          "best": [
+            "Pesquisas, documentações, manuais e sites de referência distribuídos por várias páginas.",
+            "Salvar artigos relacionados ou informações públicas como um único documento portátil para leitura offline.",
+            "Criar um arquivo pesquisável e pronto para impressão, com links claros para as fontes.",
+            "Preparar opcionalmente Markdown com fontes rastreáveis, JSONL, um manifest e dados tabulares para análise por IA."
+          ],
+          "steps": [
+            "Abra a página de partida, clique no ícone do Grab All Files e escolha “Juntar páginas em HTML”.",
+            "Em “Escopo da coleta”, mantenha “Somente a página aberta” ou escolha “Procurar também as páginas vinculadas” para listar candidatas relacionadas.",
+            "Revise as candidatas. A versão gratuita mantém exatamente uma selecionada e a salva a cada coleta; no Pro, “Escolher várias páginas candidatas e reuni-las (Pro)” permite escolher, remover e reordenar páginas.",
+            "Escolha as opções de imagens e arquivos vinculados e salve. O Pro cria um HTML com sumário comum e busca em todas as páginas."
+          ],
+          "faq": [
+            {
+              "q": "Posso escolher quais páginas serão incluídas?",
+              "a": "Sim. O Free mantém exatamente uma candidata selecionada por vez; ao escolher outra, a seleção muda. O Pro permite selecionar várias páginas, remover as desnecessárias e reordenar as demais."
+            },
+            {
+              "q": "Posso ler o resultado offline?",
+              "a": "Sim. Incorpore imagens para leitura offline ou mantenha referências online para reduzir o tamanho do arquivo HTML. Os documentos vinculados também podem ser salvos junto com ele."
+            },
+            {
+              "q": "O conteúdo das páginas é enviado aos seus servidores?",
+              "a": "Não. Tudo é processado no dispositivo. O Free salva exatamente uma página candidata escolhida; o Pro reúne o conteúdo de várias páginas selecionadas. Aplicam-se limites de segurança, autenticação, permissão, site de origem e proteção do dispositivo."
+            },
+            {
+              "q": "Qual é a diferença entre isso e uma ferramenta que salva uma única página, como o SingleFile?",
+              "a": "Ferramentas de uma página preservam a página aberta. O Grab All Files também encontra candidatas relacionadas: o Free salva a página escolhida e o Pro reúne o conteúdo legível de várias páginas selecionadas em um HTML com sumário comum."
+            },
+            {
+              "q": "E se uma página pedir login?",
+              "a": "A coleta usa a sua própria sessão do navegador e não coleta credenciais. Se uma página aparecer como “Login necessário”, clique em “Abrir o site para fazer login”, entre nessa aba e clique em “Retomar”. Páginas que continuarem exigindo login não são salvas, e o resultado informa quantas ficaram de fora."
+            },
+            {
+              "q": "Por que falta texto na página salva?",
+              "a": "Alguns sites só adicionam texto depois que você rola ou clica. Abra “Se faltar texto em uma página: configurações de conteúdo e JavaScript”, ative “Rolar para baixo para carregar o conteúdo que aparece depois” ou “Pressionar ‘Mostrar mais’ para incluir a continuação” e colete de novo. Se outra parte da página foi salva, use ali “Selecionar na tela” para escolher o texto principal."
+            }
+          ]
+        },
+        "zh_CN": {
+          "title": "将多个网页合并为一个 HTML 文件 | Grab All Files",
+          "desc": "Free 查找相关候选并保存所选的1个页面。Pro 将多个所选页面正文合并为一个带统一目录、可搜索、可打印的 HTML 文件。",
+          "eyebrow": "网页 HTML 收集",
+          "h1": "Free 保存1页。Pro 将多页合并为一个 HTML。",
+          "lead": "从浏览器当前打开的页面开始。Free 会列出相关候选，并始终仅保留1个选中项用于保存 HTML。Pro 可选择并排序多个候选，再将其便于阅读的正文合并为一个带统一目录的 HTML。",
+          "best": [
+            "分散在多个页面中的研究资料、文档、手册和参考网站。",
+            "将相关文章或公开信息保存为一个便于携带的离线文档。",
+            "创建带有清晰来源链接、可搜索、可打印的存档。",
+            "按需准备来源可追溯的 Markdown、JSONL、manifest 和表格数据，用于 AI 分析。"
+          ],
+          "steps": [
+            "打开起始页面，点击Grab All Files图标并选择“将网页合并为 HTML”。",
+            "在“收集范围”中保持“仅当前打开的页面”，或选择“同时查找链接到的页面”以列出相关候选页面。",
+            "检查候选页面。免费版始终只选中1个页面并每次保存；Pro可通过“选择多个候选页面并合并（Pro）”选择、移除和调整页面顺序。",
+            "选择图片和链接文件选项后保存。Pro会生成一个带统一目录、可跨页面搜索的HTML。"
+          ],
+          "faq": [
+            {
+              "q": "可以选择要收录哪些页面吗？",
+              "a": "可以。Free 每次始终仅选中1个候选；选择其他页面时，选中项会自动切换。Pro 可选择多个页面、删除不需要的页面并调整其余页面的顺序。"
+            },
+            {
+              "q": "结果可以离线阅读吗？",
+              "a": "可以。您可以嵌入图片以便离线阅读，也可以保留在线引用以减小 HTML 文件的大小。链接的文档也可与 HTML 文件一并保存。"
+            },
+            {
+              "q": "页面内容会上传到开发者的服务器吗？",
+              "a": "不会。所有处理均在您的设备上完成。Free 仅保存所选的1个候选页面；Pro 将多个所选页面正文合并。安全、身份验证、权限、源网站和设备保护限制仍然适用。"
+            },
+            {
+              "q": "这与 SingleFile 等单页面保存工具有何不同？",
+              "a": "单页面保存工具保留当前打开的页面。Grab All Files 还会查找相关候选：Free 保存所选的1页，Pro 将多个所选页面中便于阅读的正文合并为一个带统一目录的 HTML。"
+            },
+            {
+              "q": "需要登录的页面怎么办？",
+              "a": "收集直接使用您浏览器的登录状态，不收集凭据。页面显示“需要登录”时，请点击“打开网站进行登录”，在打开的标签页中登录后点击“继续”。仍需登录的页面不会被保存，结果中会显示剩余页面数。"
+            },
+            {
+              "q": "为什么保存的页面缺少部分文字？",
+              "a": "有些网站要滚动或点击后才显示正文。请打开“页面缺少文字时：内容和 JavaScript 设置”，开启“向下滚动以加载稍后出现的内容”或“点击‘显示更多’以包含后续内容”，然后重新收集。如果保存的是页面的其他部分，可在那里用“在屏幕上选择”指定正文范围。"
+            }
+          ]
+        },
+        "zh_TW": {
+          "title": "將多個網頁合併成一個 HTML 檔案 | Grab All Files",
+          "desc": "Free 尋找相關候選並儲存所選的1個頁面。Pro 將多個所選頁面正文合併成一個附有統一目錄、可搜尋且可列印的 HTML 檔案。",
+          "eyebrow": "網頁 HTML 收集",
+          "h1": "Free 儲存1頁。Pro 將多頁合併成一個 HTML。",
+          "lead": "從瀏覽器目前開啟的頁面開始。Free 會列出相關候選，並始終只保留1個選取項目用於儲存 HTML。Pro 可選取並排序多個候選，再將其便於閱讀的正文合併成一個附有統一目錄的 HTML。",
+          "best": [
+            "分散在多個頁面中的研究資料、文件、手冊和參考網站。",
+            "將相關文章或公開資訊儲存為一個便於攜帶的離線文件。",
+            "建立附有清楚來源連結、可搜尋且可列印的封存檔。",
+            "按需準備來源可追溯的 Markdown、JSONL、manifest 和表格資料，用於 AI 分析。"
+          ],
+          "steps": [
+            "開啟起始頁面，點擊Grab All Files圖示並選擇「將網頁合併為 HTML」。",
+            "在「收集範圍」中保持「僅目前開啟的頁面」，或選擇「同時尋找連結到的頁面」以列出相關候選頁面。",
+            "檢視候選頁面。免費版始終只選取1個頁面並每次儲存；Pro可透過「選擇多個候選頁面並合併（Pro）」選取、移除和調整頁面順序。",
+            "選擇圖片和連結檔案選項後儲存。Pro會產生一個附統一目錄、可跨頁面搜尋的HTML。"
+          ],
+          "faq": [
+            {
+              "q": "可以選擇要收錄哪些頁面嗎？",
+              "a": "可以。Free 每次始終只選取1個候選；選擇其他頁面時，選取項目會自動切換。Pro 可選取多個頁面、移除不需要的頁面並調整其餘頁面的順序。"
+            },
+            {
+              "q": "結果可以離線閱讀嗎？",
+              "a": "可以。您可以嵌入圖片以供離線閱讀，也可以保留線上參照以縮小 HTML 檔案。連結的文件也可與 HTML 檔案一併儲存。"
+            },
+            {
+              "q": "頁面內容會上傳到你們的伺服器嗎？",
+              "a": "不會。所有處理均在您的裝置上完成。Free 只儲存所選的1個候選頁面；Pro 將多個所選頁面正文合併。安全、驗證、權限、來源網站和裝置保護限制仍然適用。"
+            },
+            {
+              "q": "這與 SingleFile 等單頁儲存工具有何不同？",
+              "a": "單頁儲存工具保留目前開啟的頁面。Grab All Files 還會尋找相關候選：Free 儲存所選的1頁，Pro 將多個所選頁面中便於閱讀的正文合併成一個附有統一目錄的 HTML。"
+            },
+            {
+              "q": "需要登入的頁面怎麼辦？",
+              "a": "收集直接使用您瀏覽器的登入狀態，不收集憑證。頁面顯示「需要登入」時，請點擊「開啟網站進行登入」，在開啟的分頁中登入後點擊「繼續」。仍需登入的頁面不會被儲存，結果中會顯示剩餘頁面數。"
+            },
+            {
+              "q": "為什麼儲存的頁面缺少部分文字？",
+              "a": "有些網站要捲動或點擊後才顯示正文。請開啟「頁面缺少文字時：內容和 JavaScript 設定」，開啟「向下捲動以載入稍後出現的內容」或「點選『顯示更多』以包含後續內容」，然後重新收集。如果儲存的是頁面的其他部分，可在那裡用「在螢幕上選擇」指定正文範圍。"
+            }
+          ]
+        }
       }
     },
     "download-all-pdfs": {
-      path: "download-all-pdfs.html",
-      related: ["merge-pdfs-locally", "download-files-from-webpage", "internal-portal-downloads"],
-      copy: {
-        en: c(
-          "Download all PDFs from a website | Grab All Files",
-          "Download linked PDFs from a page or its folder on Chrome, Edge or Firefox. Filter results, save up to 10 files per run for free, or merge PDFs locally.",
-          "PDF collection",
-          "Download all PDFs from a website without opening each file.",
-          "Grab All Files finds PDFs exposed as normal links, embedded viewers, iframe sources, lazy-loaded assets, fetch/XHR responses, and CMS download routes. Filter to PDF, select what you need, then download or merge locally in your browser.",
-          ["Public reports, forms, and disclosures spread across multiple pages.", "Course materials, papers, and research PDFs on faculty sites.", "PDF viewer pages where the direct file URL is hidden.", "Same-site crawls that need sitemap.xml and JavaScript-menu coverage."],
-          ["Open the starting page and choose the link depth. Linked pages are scanned within the starting page’s folder; depth 0 checks only that page.", "Filter the detected results to PDF and review title, source page, size, and URL.", "Download selected PDFs, build a ZIP, or merge them into one local PDF."],
-          [{ q: "Can it find PDFs inside viewers or iframes?", a: "Yes. It checks iframe sources, viewer URLs, fetch/XHR responses, blob URLs, and common CMS routes where the direct PDF link is not visible." }, { q: "Can it crawl more than one page?", a: "Yes. Increase the link depth to scan linked pages within the starting page’s folder. For example, /~name/course.html stays within /~name/. Pages outside that folder are not crawled." }, { q: "Are PDFs uploaded for merging?", a: "No. PDF merge runs locally in your browser." }, { q: "Can I download PDFs for free?", a: "Yes. Free saves up to 10 selected files per run. Pro removes that file-count limit. ZIP, local PDF merge and file-information CSV export are available in Free." }, { q: "Does it guarantee every PDF will be saved?", a: "No. Results depend on the links found, scan depth, site access and browser support. Review failed downloads, retry them or export the failed URLs with their reasons. The extension does not bypass login or site restrictions." }]
-        ),
-        ja: c(
-          "Webサイト上のPDFを一括ダウンロード | Grab All Files",
-          "Chrome・Edge・FirefoxでWebサイトのPDFを一括ダウンロード。起点ページのフォルダ配下を巡回し、PDFだけに絞って無料で1回10件まで保存。ZIP保存やローカルPDF結合にも対応。",
-          "PDF収集",
-          "Webサイト上のPDFを、1つずつ開かずに一括ダウンロード。",
-          "通常リンク、埋め込みPDFビューア、iframe、遅延読み込み、fetch/XHRレスポンス、CMSのダウンロードルートにあるPDFを検出します。PDFで絞り込み、必要なものだけ選び、保存またはブラウザ内で結合できます。",
-          ["複数ページに分散した公開報告書、申請書、開示資料。", "大学・研究機関の講義資料、論文、配布PDF。", "直接URLが見えないPDFビューアページ。", "sitemap.xmlやJavaScriptメニューも追いたい同一サイト内クロール。"],
-          ["起点ページを開き、リンクをたどる深さを選びます。深さ0はそのページのみ、1以上は起点ページのフォルダ配下を巡回します。", "検出結果をPDFで絞り込み、タイトル、元ページ、サイズ、URLを確認。", "選択PDFを一括保存、ZIP化、またはローカルで1つのPDFに結合。"],
-          [{ q: "PDFビューアやiframe内のPDFも見つかりますか？", a: "はい。iframe、ビューアURL、fetch/XHRレスポンス、blob URL、CMSルートなど直接リンクが見えにくい場所も確認します。" }, { q: "複数ページをクロールできますか？", a: "はい。深さを上げると、起点ページのフォルダ配下にあるリンク先を巡回します。例えば /~name/course.html が起点なら /~name/ 配下が対象で、大学のサイト全体には広がりません。" }, { q: "PDF結合でファイルはアップロードされますか？", a: "いいえ。PDF結合はブラウザ内でローカル処理されます。" }, { q: "PDFを無料で一括ダウンロードできますか？", a: "はい。無料版は1回10件まで選択して保存できます。Proではこの件数上限がなくなります。ZIP保存、ローカルPDF結合、ファイル情報CSV出力も無料版で利用できます。" }, { q: "サイト内のすべてのPDFを必ず保存できますか？", a: "保証はできません。見つかったリンク、巡回の深さ、サイトへのアクセス権限、ブラウザーの対応状況によって結果が変わります。失敗したダウンロードは再試行するか、原因付きの失敗URL一覧をCSV出力して確認できます。ログインやサイトの制限を回避する機能ではありません。" }]
-        ),
-        es: c(
-          "Descargar todos los PDF de un sitio web | Grab All Files",
-          "Descarga PDFs enlazados desde una página o su carpeta en Chrome, Edge o Firefox. Filtra resultados, guarda hasta 10 archivos por ejecución gratis o fusiona PDFs localmente.",
-          "Recopilación de PDF",
-          "Descarga todos los PDF de un sitio sin abrir cada archivo.",
-          "Grab All Files detecta PDFs en enlaces normales, visores incrustados, iframes, carga diferida, respuestas fetch/XHR y rutas de CMS. Filtra por PDF, selecciona y descarga o fusiona localmente.",
-          ["Informes públicos, formularios y documentos repartidos en varias páginas.", "Materiales de curso, artículos y PDFs de investigación.", "Páginas con visor PDF donde la URL directa está oculta.", "Rastreos del mismo sitio que necesitan sitemap.xml y menús JavaScript."],
-          ["Abre la página inicial y elige la profundidad de enlaces. Las páginas enlazadas se escanean dentro de la carpeta de la página inicial; la profundidad 0 revisa solo esa página.", "Filtra los resultados a PDF y revisa título, página fuente, tamaño y URL.", "Descarga, crea un ZIP o fusiona PDFs localmente."],
-          [{ q: "¿Encuentra PDFs en visores o iframes?", a: "Sí. Revisa iframes, URLs de visor, respuestas fetch/XHR, blob URLs y rutas CMS comunes." }, { q: "¿Puede rastrear más de una página?", a: "Sí. Aumenta la profundidad para escanear las páginas enlazadas dentro de la carpeta de la página inicial. Por ejemplo, /~name/course.html se mantiene dentro de /~name/. Las páginas fuera de esa carpeta no se rastrean." }, { q: "¿Sube PDFs para fusionarlos?", a: "No. La fusión PDF se ejecuta localmente en el navegador." }, { q: "¿Puedo descargar PDFs gratis?", a: "Sí. La versión gratuita guarda hasta 10 archivos seleccionados por ejecución. Pro elimina ese límite. ZIP, fusión local de PDF y exportación CSV de información de archivos están disponibles gratis." }, { q: "¿Garantiza que se guardarán todos los PDF?", a: "No. Los resultados dependen de los enlaces encontrados, la profundidad, el acceso al sitio y el soporte del navegador. Revisa las descargas fallidas, reinténtalas o exporta las URLs fallidas con sus motivos. La extensión no elude inicios de sesión ni restricciones del sitio." }]
-        ),
-        fr: c(
-          "Télécharger tous les PDF d'un site web | Grab All Files",
-          "Téléchargez les PDF liés d'une page ou de son dossier sur Chrome, Edge ou Firefox. Filtrez, enregistrez gratuitement jusqu'à 10 fichiers par exécution ou fusionnez les PDF localement.",
-          "Collecte PDF",
-          "Téléchargez tous les PDF d'un site sans ouvrir chaque fichier.",
-          "Grab All Files détecte les PDF dans les liens, visionneuses intégrées, iframes, chargements différés, réponses fetch/XHR et routes CMS. Filtrez les PDF, sélectionnez, puis téléchargez ou fusionnez localement.",
-          ["Rapports publics, formulaires et publications répartis sur plusieurs pages.", "Supports de cours, articles et PDF de recherche.", "Pages avec viewer PDF où l'URL directe est masquée.", "Crawl du même site avec sitemap.xml et menus JavaScript."],
-          ["Ouvrez la page de départ et choisissez la profondeur de liens. Les pages liées sont analysées dans le dossier de la page de départ ; la profondeur 0 ne vérifie que cette page.", "Filtrez les résultats sur PDF et vérifiez titre, page source, taille et URL.", "Téléchargez, créez un ZIP ou fusionnez les PDF localement."],
-          [{ q: "Trouve-t-il les PDF dans les viewers ou iframes ?", a: "Oui. Il vérifie iframes, URLs de viewer, réponses fetch/XHR, blob URLs et routes CMS courantes." }, { q: "Peut-il crawler plusieurs pages ?", a: "Oui. Augmentez la profondeur pour analyser les pages liées dans le dossier de la page de départ. Par exemple, /~name/course.html reste dans /~name/. Les pages hors de ce dossier ne sont pas explorées." }, { q: "Les PDF sont-ils envoyés pour fusion ?", a: "Non. La fusion se fait localement dans le navigateur." }, { q: "Puis-je télécharger des PDF gratuitement ?", a: "Oui. La version gratuite enregistre jusqu'à 10 fichiers sélectionnés par exécution. Pro supprime cette limite. Le ZIP, la fusion PDF locale et l'export CSV des informations de fichiers sont disponibles gratuitement." }, { q: "Garantit-il que chaque PDF sera enregistré ?", a: "Non. Les résultats dépendent des liens trouvés, de la profondeur, de l'accès au site et de la prise en charge du navigateur. Vérifiez les téléchargements échoués, relancez-les ou exportez les URL en échec avec leurs motifs. L'extension ne contourne ni les connexions ni les restrictions du site." }]
-        ),
-        de: c(
-          "Alle PDFs von einer Website herunterladen | Grab All Files",
-          "Laden Sie verlinkte PDFs einer Seite oder ihres Ordners in Chrome, Edge oder Firefox herunter. Ergebnisse filtern, kostenlos bis zu 10 Dateien pro Lauf speichern oder PDFs lokal zusammenführen.",
-          "PDF-Sammlung",
-          "Laden Sie alle PDFs einer Website herunter, ohne jede Datei zu öffnen.",
-          "Grab All Files findet PDFs in normalen Links, eingebetteten Viewern, iframes, Lazy Loading, fetch/XHR-Antworten und CMS-Downloadrouten. Nach PDF filtern, auswählen, herunterladen oder lokal zusammenführen.",
-          ["Öffentliche Berichte, Formulare und Veröffentlichungen über viele Seiten.", "Kursmaterialien, Arbeiten und Forschungs-PDFs.", "PDF-Viewer-Seiten ohne sichtbare Direkt-URL.", "Same-Site-Crawls mit sitemap.xml und JavaScript-Menüs."],
-          ["Startseite öffnen und Linktiefe wählen. Verlinkte Seiten werden innerhalb des Ordners der Startseite gescannt; Tiefe 0 prüft nur diese Seite.", "Ergebnisse auf PDF filtern und Titel, Quellseite, Größe und URL prüfen.", "PDFs herunterladen, ZIP erstellen oder lokal zusammenführen."],
-          [{ q: "Findet es PDFs in Viewern oder iframes?", a: "Ja. Es prüft iframes, Viewer-URLs, fetch/XHR-Antworten, blob URLs und CMS-Routen." }, { q: "Kann es mehrere Seiten crawlen?", a: "Ja. Erhöhen Sie die Linktiefe, um verlinkte Seiten im Ordner der Startseite zu scannen. Beispiel: /~name/course.html bleibt innerhalb von /~name/. Seiten außerhalb dieses Ordners werden nicht gecrawlt." }, { q: "Werden PDFs zum Zusammenführen hochgeladen?", a: "Nein. Das Zusammenführen läuft lokal im Browser." }, { q: "Kann ich PDFs kostenlos herunterladen?", a: "Ja. Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Lauf. Pro hebt diese Begrenzung auf. ZIP, lokales PDF-Zusammenführen und CSV-Export der Dateiinformationen sind kostenlos verfügbar." }, { q: "Wird garantiert, dass jede PDF gespeichert wird?", a: "Nein. Die Ergebnisse hängen von den gefundenen Links, der Scantiefe, dem Zugriff auf die Website und der Browserunterstützung ab. Prüfen Sie fehlgeschlagene Downloads, wiederholen Sie sie oder exportieren Sie die fehlgeschlagenen URLs mit Gründen. Die Erweiterung umgeht keine Anmeldungen oder Website-Beschränkungen." }]
-        ),
-        it: c(
-          "Scaricare tutti i PDF da un sito web | Grab All Files",
-          "Scarica i PDF collegati da una pagina o dalla sua cartella su Chrome, Edge o Firefox. Filtra i risultati, salva gratis fino a 10 file per esecuzione o unisci i PDF localmente.",
-          "Raccolta PDF",
-          "Scarica tutti i PDF da un sito senza aprire ogni file.",
-          "Grab All Files rileva PDF in link normali, viewer incorporati, iframe, lazy loading, risposte fetch/XHR e rotte CMS. Filtra per PDF, seleziona, scarica o unisci localmente.",
-          ["Report pubblici, moduli e documenti distribuiti su più pagine.", "Materiali didattici, articoli e PDF di ricerca.", "Pagine con viewer PDF dove l'URL diretto è nascosto.", "Crawl dello stesso sito con sitemap.xml e menu JavaScript."],
-          ["Apri la pagina iniziale e scegli la profondità dei link. Le pagine collegate vengono analizzate all'interno della cartella della pagina iniziale; la profondità 0 controlla solo quella pagina.", "Filtra i risultati a PDF e controlla titolo, pagina sorgente, dimensione e URL.", "Scarica, crea un ZIP o unisci i PDF localmente."],
-          [{ q: "Trova PDF in viewer o iframe?", a: "Sì. Controlla iframe, URL di viewer, risposte fetch/XHR, blob URL e rotte CMS." }, { q: "Può scansionare più pagine?", a: "Sì. Aumenta la profondità per analizzare le pagine collegate nella cartella della pagina iniziale. Ad esempio, /~name/course.html resta all'interno di /~name/. Le pagine fuori da quella cartella non vengono scansionate." }, { q: "I PDF vengono caricati per l'unione?", a: "No. L'unione PDF avviene localmente nel browser." }, { q: "Posso scaricare PDF gratis?", a: "Sì. La versione gratuita salva fino a 10 file selezionati per esecuzione. Pro rimuove questo limite. ZIP, unione PDF locale ed esportazione CSV delle informazioni sui file sono disponibili gratis." }, { q: "Garantisce che ogni PDF venga salvato?", a: "No. I risultati dipendono dai link trovati, dalla profondità, dall'accesso al sito e dal supporto del browser. Controlla i download non riusciti, riprovali o esporta le URL non riuscite con i motivi. L'estensione non aggira login o restrizioni del sito." }]
-        ),
-        ko: c(
-          "웹사이트의 모든 PDF 다운로드 | Grab All Files",
-          "Chrome, Edge, Firefox에서 페이지 또는 해당 폴더에 연결된 PDF를 다운로드합니다. 결과를 필터링하고 무료로 실행당 최대 10개 파일을 저장하거나 PDF를 로컬에서 병합하세요.",
-          "PDF 수집",
-          "각 파일을 열지 않고 웹사이트의 PDF를 한 번에 다운로드하세요.",
-          "Grab All Files는 일반 링크, 내장 뷰어, iframe, 지연 로딩, fetch/XHR 응답, CMS 다운로드 경로의 PDF를 찾습니다. PDF로 필터링한 뒤 저장하거나 브라우저에서 로컬 병합할 수 있습니다.",
-          ["여러 페이지에 흩어진 공공 보고서, 양식, 공개 자료.", "강의 자료, 논문, 연구 PDF.", "직접 URL이 보이지 않는 PDF 뷰어 페이지.", "sitemap.xml과 JavaScript 메뉴까지 필요한 동일 사이트 크롤링."],
-          ["시작 페이지를 열고 링크 깊이를 선택합니다. 연결된 페이지는 시작 페이지의 폴더 안에서 스캔되며, 깊이 0은 해당 페이지만 확인합니다.", "결과를 PDF로 필터링하고 제목, 원본 페이지, 크기, URL을 확인합니다.", "PDF를 다운로드, ZIP 생성 또는 로컬 병합합니다."],
-          [{ q: "뷰어 또는 iframe 안의 PDF도 찾나요?", a: "예. iframe, 뷰어 URL, fetch/XHR 응답, blob URL, CMS 경로를 확인합니다." }, { q: "여러 페이지를 크롤링할 수 있나요?", a: "예. 링크 깊이를 높이면 시작 페이지의 폴더 안에 있는 연결 페이지를 스캔합니다. 예를 들어 /~name/course.html은 /~name/ 안에서만 크롤링하며, 그 폴더 밖의 페이지는 크롤링하지 않습니다." }, { q: "PDF 병합 시 파일이 업로드되나요?", a: "아니요. 병합은 브라우저에서 로컬로 실행됩니다." }, { q: "PDF를 무료로 다운로드할 수 있나요?", a: "예. 무료 버전은 실행당 최대 10개의 선택 파일을 저장합니다. Pro는 이 파일 수 제한을 없앱니다. ZIP, 로컬 PDF 병합, 파일 정보 CSV 내보내기는 무료로 사용할 수 있습니다." }, { q: "모든 PDF가 반드시 저장되나요?", a: "보장되지 않습니다. 결과는 발견된 링크, 스캔 깊이, 사이트 접근 권한, 브라우저 지원에 따라 달라집니다. 실패한 다운로드를 검토해 다시 시도하거나 실패 URL과 원인을 내보낼 수 있습니다. 이 확장 프로그램은 로그인이나 사이트 제한을 우회하지 않습니다." }]
-        ),
-        pt_BR: c(
-          "Baixar todos os PDFs de um site | Grab All Files",
-          "Baixe PDFs vinculados de uma página ou da sua pasta no Chrome, Edge ou Firefox. Filtre os resultados, salve até 10 arquivos por execução grátis ou mescle PDFs localmente.",
-          "Coleta de PDF",
-          "Baixe todos os PDFs de um site sem abrir cada arquivo.",
-          "Grab All Files detecta PDFs em links comuns, viewers incorporados, iframes, lazy loading, respostas fetch/XHR e rotas CMS. Filtre por PDF, selecione e baixe ou mescle localmente.",
-          ["Relatórios públicos, formulários e divulgações espalhados por várias páginas.", "Materiais de curso, artigos e PDFs de pesquisa.", "Páginas com viewer PDF onde a URL direta fica oculta.", "Rastreamento do mesmo site com sitemap.xml e menus JavaScript."],
-          ["Abra a página inicial e escolha a profundidade de links. As páginas vinculadas são verificadas dentro da pasta da página inicial; a profundidade 0 verifica apenas essa página.", "Filtre os resultados por PDF e revise título, página fonte, tamanho e URL.", "Baixe, crie um ZIP ou mescle PDFs localmente."],
-          [{ q: "Ele encontra PDFs em viewers ou iframes?", a: "Sim. Verifica iframes, URLs de viewer, respostas fetch/XHR, blob URLs e rotas CMS." }, { q: "Pode rastrear mais de uma página?", a: "Sim. Aumente a profundidade para verificar as páginas vinculadas dentro da pasta da página inicial. Por exemplo, /~name/course.html permanece dentro de /~name/. Páginas fora dessa pasta não são rastreadas." }, { q: "Os PDFs são enviados para mesclar?", a: "Não. A mesclagem roda localmente no navegador." }, { q: "Posso baixar PDFs de graça?", a: "Sim. A versão gratuita salva até 10 arquivos selecionados por execução. O Pro remove esse limite. ZIP, mesclagem local de PDF e exportação CSV das informações dos arquivos estão disponíveis na versão gratuita." }, { q: "Garante que todos os PDFs serão salvos?", a: "Não. Os resultados dependem dos links encontrados, da profundidade, do acesso ao site e do suporte do navegador. Revise os downloads com falha, tente novamente ou exporte as URLs com falha e seus motivos. A extensão não contorna login nem restrições do site." }]
-        ),
-        zh_CN: c(
-          "批量下载网站上的所有PDF | Grab All Files",
-          "在Chrome、Edge或Firefox中下载页面或其所在文件夹中链接的PDF。可筛选结果，免费版每次最多保存10个文件，或在本地合并PDF。",
-          "PDF收集",
-          "无需逐个打开文件，即可下载网站上的所有PDF。",
-          "Grab All Files 可检测普通链接、嵌入式查看器、iframe、懒加载、fetch/XHR响应和CMS下载路径中的PDF。按PDF筛选后，可下载或在浏览器本地合并。",
-          ["分散在多页的公共报告、表单和公开资料。", "课程材料、论文和研究PDF。", "直接文件URL被隐藏的PDF查看器页面。", "需要sitemap.xml和JavaScript菜单覆盖的同站点爬取。"],
-          ["打开起始页面并选择链接深度。链接页面会在起始页面所在文件夹内扫描；深度0仅检查该页面。", "将结果筛选为PDF，检查标题、来源页面、大小和URL。", "下载选中PDF，生成ZIP，或本地合并为一个PDF。"],
-          [{ q: "能找到查看器或iframe中的PDF吗？", a: "可以。它会检查iframe、查看器URL、fetch/XHR响应、blob URL和常见CMS路径。" }, { q: "能爬取多个页面吗？", a: "可以。提高链接深度即可扫描起始页面所在文件夹内的链接页面。例如，/~name/course.html 只会在 /~name/ 内爬取，该文件夹以外的页面不会被爬取。" }, { q: "合并PDF会上传文件吗？", a: "不会。PDF合并在浏览器本地运行。" }, { q: "可以免费下载PDF吗？", a: "可以。免费版每次最多保存10个选中文件。Pro取消此文件数量限制。ZIP、本地PDF合并和文件信息CSV导出在免费版中均可使用。" }, { q: "能保证保存所有PDF吗？", a: "不能保证。结果取决于找到的链接、扫描深度、网站访问权限和浏览器支持。可检查失败的下载并重试，或导出附带原因的失败URL列表。本扩展不会绕过登录或网站限制。" }]
-        ),
-        zh_TW: c(
-          "批次下載網站上的所有PDF | Grab All Files",
-          "在Chrome、Edge或Firefox中下載頁面或其所在資料夾中連結的PDF。可篩選結果，免費版每次最多儲存10個檔案，或在本機合併PDF。",
-          "PDF收集",
-          "無需逐一開啟檔案，即可下載網站上的所有PDF。",
-          "Grab All Files 可偵測普通連結、嵌入式檢視器、iframe、延遲載入、fetch/XHR回應和CMS下載路徑中的PDF。依PDF篩選後，可下載或在瀏覽器本機合併。",
-          ["分散在多頁的公共報告、表單和公開資料。", "課程教材、論文和研究PDF。", "直接檔案URL被隱藏的PDF檢視器頁面。", "需要sitemap.xml和JavaScript選單覆蓋的同站爬取。"],
-          ["開啟起始頁面並選擇連結深度。連結頁面會在起始頁面所在資料夾內掃描；深度0僅檢查該頁面。", "將結果篩選為PDF，檢查標題、來源頁面、大小和URL。", "下載選取PDF，產生ZIP，或本機合併為一個PDF。"],
-          [{ q: "能找到檢視器或iframe中的PDF嗎？", a: "可以。它會檢查iframe、檢視器URL、fetch/XHR回應、blob URL和常見CMS路徑。" }, { q: "能爬取多個頁面嗎？", a: "可以。提高連結深度即可掃描起始頁面所在資料夾內的連結頁面。例如，/~name/course.html 只會在 /~name/ 內爬取，該資料夾以外的頁面不會被爬取。" }, { q: "合併PDF會上傳檔案嗎？", a: "不會。PDF合併在瀏覽器本機執行。" }, { q: "可以免費下載PDF嗎？", a: "可以。免費版每次最多儲存10個選取檔案。Pro取消此檔案數量限制。ZIP、本機PDF合併和檔案資訊CSV匯出在免費版中皆可使用。" }, { q: "能保證儲存所有PDF嗎？", a: "無法保證。結果取決於找到的連結、掃描深度、網站存取權限和瀏覽器支援。可檢查失敗的下載並重試，或匯出附帶原因的失敗URL清單。本擴充功能不會繞過登入或網站限制。" }]
-        )
+      "path": "download-all-pdfs.html",
+      "related": [
+        "merge-pdfs-locally",
+        "download-files-from-webpage",
+        "internal-portal-downloads"
+      ],
+      "copy": {
+        "en": {
+          "title": "Download all PDFs from a website | Grab All Files",
+          "desc": "Download linked PDFs from a page or its folder in Chrome, Edge or Firefox. Filter the results, save 10 files per download for free, or merge PDFs locally.",
+          "eyebrow": "PDF collection",
+          "h1": "Download all PDFs from a website without opening each file.",
+          "lead": "Grab All Files finds PDFs exposed as normal links, embedded viewers, iframe sources, lazy-loaded assets, fetch/XHR responses, and CMS download routes. Filter to PDF, select what you need, then download or merge locally in your browser.",
+          "best": [
+            "Public reports, forms, and disclosures spread across multiple pages.",
+            "Course materials, papers, and research PDFs on faculty sites.",
+            "PDF viewer pages where the direct file URL is hidden.",
+            "Course or archive folders where PDFs sit one or two links deep."
+          ],
+          "steps": [
+            "Open the page that lists the PDFs and click the Grab All Files icon in the toolbar.",
+            "Choose “Depth”, then press “Scan”. “This page only” checks just this page; Depth 1 also scans the pages it links to inside the starting page’s folder, Depth 2 goes one level further. Deeper scans take longer (up to 100,000 pages).",
+            "Filter the list to PDF and check the title, source page, size and URL of each file. Tick the PDFs you need.",
+            "Press “Download”, or open “More actions” for ZIP or “Merge PDFs”. Free saves up to 10 PDFs per action; tick the next ones and press the button again."
+          ],
+          "faq": [
+            {
+              "q": "Can it find PDFs inside viewers or iframes?",
+              "a": "Yes. It checks iframe sources, viewer URLs, fetch/XHR responses, blob URLs, and common CMS routes where the direct PDF link is not visible."
+            },
+            {
+              "q": "Can it crawl more than one page?",
+              "a": "Yes. Increase the link depth to scan linked pages within the starting page’s folder. For example, /~name/course.html stays within /~name/. Pages outside that folder are not crawled."
+            },
+            {
+              "q": "Are PDFs uploaded for merging?",
+              "a": "No. PDF merge runs locally in your browser."
+            },
+            {
+              "q": "Can I download PDFs for free?",
+              "a": "Yes. Free saves up to 10 selected PDFs per download, ZIP or merge. Tick the next PDFs and press the button again to continue — nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-action limit."
+            },
+            {
+              "q": "Does it guarantee every PDF will be saved?",
+              "a": "No. Results depend on the links found, scan depth, site access and browser support. Review failed downloads, retry them or export the failed URLs with their reasons. The extension does not bypass login or site restrictions."
+            },
+            {
+              "q": "What if the PDFs are behind a sign-in?",
+              "a": "Sign in to the site in the same browser before scanning; the scan and the Depth crawl use that session. If a link returns a sign-in page instead of a PDF, the session has probably expired — sign in again and retry. The extension never signs in for you or bypasses access limits."
+            }
+          ]
+        },
+        "ja": {
+          "title": "Webサイト上のPDFを一括ダウンロード | Grab All Files",
+          "desc": "Chrome・Edge・FirefoxでWebサイトのPDFを一括ダウンロード。起点ページのフォルダ配下を巡回し、PDFだけに絞って無料で1回10件まで保存。ZIP保存やローカルPDF結合にも対応。",
+          "eyebrow": "PDF収集",
+          "h1": "Webサイト上のPDFを、1つずつ開かずに一括ダウンロード。",
+          "lead": "通常リンク、埋め込みPDFビューア、iframe、遅延読み込み、fetch/XHRレスポンス、CMSのダウンロードルートにあるPDFを検出します。PDFで絞り込み、必要なものだけ選び、保存またはブラウザ内で結合できます。",
+          "best": [
+            "複数ページに分散した公開報告書、申請書、開示資料。",
+            "大学・研究機関の講義資料、論文、配布PDF。",
+            "直接URLが見えないPDFビューアページ。",
+            "PDFがリンクの1〜2階層先にある講義・アーカイブのフォルダ。"
+          ],
+          "steps": [
+            "PDFが並んでいるページを開き、ツールバーのGrab All Filesアイコンを押します。",
+            "「深さ」を選んでから「スキャン」を押します。「このページのみ」はこのページだけ、深さ1はリンク先のページ（起点ページのフォルダ配下）まで、深さ2はさらにその先まで調べます。深いほど時間がかかります（最大10万ページ）。",
+            "一覧をPDFに絞り込み、各ファイルのタイトル・リンク元ページ・サイズ・URLを確認して、必要なPDFにチェックを入れます。",
+            "「ダウンロード」を押すか、「その他の操作」からZIPや「PDF結合」を使います。無料版は1回の操作で10件まで。続きは次のPDFを選んで同じボタンをもう一度押します。"
+          ],
+          "faq": [
+            {
+              "q": "PDFビューアやiframe内のPDFも見つかりますか？",
+              "a": "はい。iframe、ビューアURL、fetch/XHRレスポンス、blob URL、CMSルートなど直接リンクが見えにくい場所も確認します。"
+            },
+            {
+              "q": "複数ページをクロールできますか？",
+              "a": "はい。深さを上げると、起点ページのフォルダ配下にあるリンク先を巡回します。例えば /~name/course.html が起点なら /~name/ 配下が対象で、大学のサイト全体には広がりません。"
+            },
+            {
+              "q": "PDF結合でファイルはアップロードされますか？",
+              "a": "いいえ。PDF結合はブラウザ内でローカル処理されます。"
+            },
+            {
+              "q": "PDFを無料で一括ダウンロードできますか？",
+              "a": "はい。無料版はダウンロード・ZIP・PDF結合のいずれも1回の操作で選択した10件までです。続けるときは次のPDFを選んで同じボタンをもう一度押してください。ロックはかかりません。Pro（$19.99・買い切り、3台まで）は1回あたりの件数上限がありません。"
+            },
+            {
+              "q": "サイト内のすべてのPDFを必ず保存できますか？",
+              "a": "保証はできません。見つかったリンク、巡回の深さ、サイトへのアクセス権限、ブラウザの対応状況によって結果が変わります。失敗したダウンロードは再試行するか、原因付きの失敗URL一覧をCSV出力して確認できます。ログインやサイトの制限を回避する機能ではありません。"
+            },
+            {
+              "q": "ログインが必要なサイトのPDFは？",
+              "a": "スキャンの前に同じブラウザでサイトにログインしてください。スキャンと「深さ」によるリンク先の巡回はそのログイン状態を使います。PDFではなくログイン画面が返ってくる場合はセッション切れの可能性が高いので、ログインし直して再試行します。拡張機能が代わりにログインしたり、アクセス制限を回避したりはしません。"
+            }
+          ]
+        },
+        "es": {
+          "title": "Descargar todos los PDF de un sitio web | Grab All Files",
+          "desc": "Descarga los PDF enlazados de una página o de su carpeta en Chrome, Edge o Firefox. Filtra, guarda gratis 10 archivos por descarga o combínalos en local.",
+          "eyebrow": "Recopilación de PDF",
+          "h1": "Descarga todos los PDF de un sitio sin abrir cada archivo.",
+          "lead": "Grab All Files detecta PDFs en enlaces normales, visores incrustados, iframes, carga diferida, respuestas fetch/XHR y rutas de CMS. Filtra por PDF, selecciona y descarga o fusiona localmente.",
+          "best": [
+            "Informes públicos, formularios y documentos repartidos en varias páginas.",
+            "Materiales de curso, artículos y PDFs de investigación.",
+            "Páginas con visor PDF donde la URL directa está oculta.",
+            "Carpetas de cursos o archivos donde los PDF están a uno o dos enlaces de distancia."
+          ],
+          "steps": [
+            "Abre la página que enumera los PDF y haz clic en el icono de Grab All Files en la barra de herramientas.",
+            "Elige la «Profundidad» y pulsa «Escanear». «Solo esta página» revisa solo esta página; la profundidad 1 también escanea las páginas enlazadas dentro de la carpeta de la página de partida y la 2 llega un nivel más. Cuanto más profundo, más tarda (hasta 100.000 páginas).",
+            "Filtra la lista por PDF y revisa el título, la página de origen, el tamaño y la URL de cada archivo. Marca los PDF que necesites.",
+            "Pulsa «Descargar» o abre «Más acciones» para crear un ZIP o usar «Combinar PDFs». La versión gratuita guarda hasta 10 PDF por acción; marca los siguientes y vuelve a pulsar el botón."
+          ],
+          "faq": [
+            {
+              "q": "¿Encuentra PDFs en visores o iframes?",
+              "a": "Sí. Revisa iframes, URLs de visor, respuestas fetch/XHR, blob URLs y rutas CMS comunes."
+            },
+            {
+              "q": "¿Puede rastrear más de una página?",
+              "a": "Sí. Aumenta la profundidad para escanear las páginas enlazadas dentro de la carpeta de la página inicial. Por ejemplo, /~name/course.html se mantiene dentro de /~name/. Las páginas fuera de esa carpeta no se rastrean."
+            },
+            {
+              "q": "¿Sube PDFs para fusionarlos?",
+              "a": "No. La fusión PDF se ejecuta localmente en el navegador."
+            },
+            {
+              "q": "¿Puedo descargar PDFs gratis?",
+              "a": "Sí. La versión gratuita guarda hasta 10 PDF seleccionados por descarga, ZIP o combinación. Marca los siguientes y vuelve a pulsar el botón para continuar; no se bloquea nada. Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por acción."
+            },
+            {
+              "q": "¿Garantiza que se guardarán todos los PDF?",
+              "a": "No. Los resultados dependen de los enlaces encontrados, la profundidad, el acceso al sitio y el soporte del navegador. Revisa las descargas fallidas, reinténtalas o exporta las URLs fallidas con sus motivos. La extensión no elude inicios de sesión ni restricciones del sitio."
+            },
+            {
+              "q": "¿Y si los PDF requieren iniciar sesión?",
+              "a": "Inicia sesión en el sitio en el mismo navegador antes de escanear; el escaneo y el rastreo por profundidad usan esa sesión. Si un enlace devuelve una página de inicio de sesión en lugar de un PDF, probablemente la sesión caducó: vuelve a iniciar sesión y reinténtalo. La extensión nunca inicia sesión por ti ni elude restricciones de acceso."
+            }
+          ]
+        },
+        "fr": {
+          "title": "Télécharger tous les PDF d'un site web | Grab All Files",
+          "desc": "Téléchargez les PDF liés d’une page ou de son dossier dans Chrome, Edge ou Firefox. Filtrez, enregistrez 10 fichiers par lot gratuitement ou fusionnez.",
+          "eyebrow": "Collecte PDF",
+          "h1": "Téléchargez tous les PDF d'un site sans ouvrir chaque fichier.",
+          "lead": "Grab All Files détecte les PDF dans les liens, visionneuses intégrées, iframes, chargements différés, réponses fetch/XHR et routes CMS. Filtrez les PDF, sélectionnez, puis téléchargez ou fusionnez localement.",
+          "best": [
+            "Rapports publics, formulaires et publications répartis sur plusieurs pages.",
+            "Supports de cours, articles et PDF de recherche.",
+            "Pages avec viewer PDF où l'URL directe est masquée.",
+            "Dossiers de cours ou d’archives où les PDF se trouvent à un ou deux liens de distance."
+          ],
+          "steps": [
+            "Ouvrez la page qui liste les PDF et cliquez sur l’icône Grab All Files de la barre d’outils.",
+            "Choisissez la « Profondeur », puis cliquez sur « Scanner ». « Cette page uniquement » n’analyse que cette page ; la profondeur 1 analyse aussi les pages liées situées dans le dossier de la page de départ, la profondeur 2 va un niveau plus loin. Plus c’est profond, plus c’est long (jusqu’à 100 000 pages).",
+            "Filtrez la liste sur PDF et vérifiez le titre, la page source, la taille et l’URL de chaque fichier. Cochez les PDF utiles.",
+            "Cliquez sur « Télécharger » ou ouvrez « Autres actions » pour un ZIP ou « Fusionner les PDFs ». La version gratuite traite jusqu’à 10 PDF par action ; cochez les suivants et cliquez à nouveau sur le bouton."
+          ],
+          "faq": [
+            {
+              "q": "Trouve-t-il les PDF dans les viewers ou iframes ?",
+              "a": "Oui. Il vérifie iframes, URLs de viewer, réponses fetch/XHR, blob URLs et routes CMS courantes."
+            },
+            {
+              "q": "Peut-il crawler plusieurs pages ?",
+              "a": "Oui. Augmentez la profondeur pour analyser les pages liées dans le dossier de la page de départ. Par exemple, /~name/course.html reste dans /~name/. Les pages hors de ce dossier ne sont pas explorées."
+            },
+            {
+              "q": "Les PDF sont-ils envoyés pour fusion ?",
+              "a": "Non. La fusion se fait localement dans le navigateur."
+            },
+            {
+              "q": "Puis-je télécharger des PDF gratuitement ?",
+              "a": "Oui. La version gratuite enregistre jusqu’à 10 PDF sélectionnés par téléchargement, ZIP ou fusion. Cochez les suivants et cliquez à nouveau sur le bouton pour continuer : rien n’est bloqué. Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par action."
+            },
+            {
+              "q": "Garantit-il que chaque PDF sera enregistré ?",
+              "a": "Non. Les résultats dépendent des liens trouvés, de la profondeur, de l'accès au site et de la prise en charge du navigateur. Vérifiez les téléchargements échoués, relancez-les ou exportez les URL en échec avec leurs motifs. L'extension ne contourne ni les connexions ni les restrictions du site."
+            },
+            {
+              "q": "Et si les PDF sont derrière une connexion ?",
+              "a": "Connectez-vous au site dans le même navigateur avant l’analyse ; l’analyse et l’exploration par profondeur utilisent cette session. Si un lien renvoie une page de connexion au lieu d’un PDF, la session a probablement expiré : reconnectez-vous et relancez. L’extension ne se connecte jamais à votre place et ne contourne aucune restriction d’accès."
+            }
+          ]
+        },
+        "de": {
+          "title": "Alle PDFs von einer Website herunterladen | Grab All Files",
+          "desc": "Verlinkte PDFs einer Seite und ihres Ordners in Chrome, Edge oder Firefox laden, filtern und lokal zusammenführen. Kostenlos: 10 pro Download.",
+          "eyebrow": "PDF-Sammlung",
+          "h1": "Laden Sie alle PDFs einer Website herunter, ohne jede Datei zu öffnen.",
+          "lead": "Grab All Files findet PDFs in normalen Links, eingebetteten Viewern, iframes, Lazy Loading, fetch/XHR-Antworten und CMS-Downloadrouten. Nach PDF filtern, auswählen, herunterladen oder lokal zusammenführen.",
+          "best": [
+            "Öffentliche Berichte, Formulare und Veröffentlichungen über viele Seiten.",
+            "Kursmaterialien, Arbeiten und Forschungs-PDFs.",
+            "PDF-Viewer-Seiten ohne sichtbare Direkt-URL.",
+            "Kurs- oder Archivordner, in denen die PDFs ein bis zwei Links tief liegen."
+          ],
+          "steps": [
+            "Öffnen Sie die Seite mit den PDFs und klicken Sie in der Symbolleiste auf das Grab-All-Files-Symbol.",
+            "Wählen Sie die „Tiefe“ und klicken Sie auf „Scannen“. „Nur diese Seite“ prüft nur diese Seite; Tiefe 1 scannt zusätzlich die verlinkten Seiten im Ordner der Ausgangsseite, Tiefe 2 eine Ebene weiter. Je tiefer, desto länger dauert es (bis zu 100.000 Seiten).",
+            "Filtern Sie die Liste auf PDF und prüfen Sie Titel, Quellseite, Größe und URL jeder Datei. Haken Sie die benötigten PDFs an.",
+            "Klicken Sie auf „Herunterladen“ oder öffnen Sie „Weitere Aktionen“ für ZIP oder „PDFs zusammenführen“. Die kostenlose Version verarbeitet bis zu 10 PDFs pro Aktion; haken Sie danach die nächsten an und klicken Sie erneut."
+          ],
+          "faq": [
+            {
+              "q": "Findet es PDFs in Viewern oder iframes?",
+              "a": "Ja. Es prüft iframes, Viewer-URLs, fetch/XHR-Antworten, blob URLs und CMS-Routen."
+            },
+            {
+              "q": "Kann es mehrere Seiten crawlen?",
+              "a": "Ja. Erhöhen Sie die Linktiefe, um verlinkte Seiten im Ordner der Startseite zu scannen. Beispiel: /~name/course.html bleibt innerhalb von /~name/. Seiten außerhalb dieses Ordners werden nicht gecrawlt."
+            },
+            {
+              "q": "Werden PDFs zum Zusammenführen hochgeladen?",
+              "a": "Nein. Das Zusammenführen läuft lokal im Browser."
+            },
+            {
+              "q": "Kann ich PDFs kostenlos herunterladen?",
+              "a": "Ja. Die kostenlose Version speichert bis zu 10 ausgewählte PDFs pro Download, ZIP oder Zusammenführung. Haken Sie danach die nächsten an und klicken Sie erneut auf die Schaltfläche – gesperrt wird nichts. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Aktion auf."
+            },
+            {
+              "q": "Wird garantiert, dass jedes PDF gespeichert wird?",
+              "a": "Nein. Die Ergebnisse hängen von den gefundenen Links, der Scantiefe, dem Zugriff auf die Website und der Browserunterstützung ab. Prüfen Sie fehlgeschlagene Downloads, wiederholen Sie sie oder exportieren Sie die fehlgeschlagenen URLs mit Gründen. Die Erweiterung umgeht keine Anmeldungen oder Website-Beschränkungen."
+            },
+            {
+              "q": "Was, wenn die PDFs hinter einer Anmeldung liegen?",
+              "a": "Melden Sie sich vor dem Scan im selben Browser bei der Website an; Scan und Tiefen-Crawl nutzen diese Sitzung. Liefert ein Link statt eines PDFs eine Anmeldeseite, ist die Sitzung vermutlich abgelaufen – melden Sie sich erneut an und wiederholen Sie den Vorgang. Die Erweiterung meldet sich nie für Sie an und umgeht keine Zugriffsbeschränkungen."
+            }
+          ]
+        },
+        "it": {
+          "title": "Scaricare tutti i PDF da un sito web | Grab All Files",
+          "desc": "Scarica i PDF collegati di una pagina o della sua cartella in Chrome, Edge o Firefox. Filtra, salva gratis 10 file per download o uniscili in locale.",
+          "eyebrow": "Raccolta PDF",
+          "h1": "Scarica tutti i PDF da un sito senza aprire ogni file.",
+          "lead": "Grab All Files rileva PDF in link normali, viewer incorporati, iframe, lazy loading, risposte fetch/XHR e rotte CMS. Filtra per PDF, seleziona, scarica o unisci localmente.",
+          "best": [
+            "Report pubblici, moduli e documenti distribuiti su più pagine.",
+            "Materiali didattici, articoli e PDF di ricerca.",
+            "Pagine con viewer PDF dove l'URL diretto è nascosto.",
+            "Cartelle di corsi o archivi in cui i PDF si trovano a uno o due link di distanza."
+          ],
+          "steps": [
+            "Apri la pagina che elenca i PDF e fai clic sull’icona di Grab All Files nella barra degli strumenti.",
+            "Scegli la «Profondità» e fai clic su «Scansiona». «Solo questa pagina» controlla solo questa pagina; la profondità 1 analizza anche le pagine collegate nella cartella della pagina di partenza, la 2 va un livello oltre. Più è profonda, più tempo richiede (fino a 100.000 pagine).",
+            "Filtra l’elenco per PDF e controlla titolo, pagina di origine, dimensione e URL di ogni file. Seleziona i PDF che ti servono.",
+            "Fai clic su «Scarica» oppure apri «Altre azioni» per lo ZIP o «Unisci PDF». La versione gratuita gestisce fino a 10 PDF per azione; seleziona i successivi e premi di nuovo il pulsante."
+          ],
+          "faq": [
+            {
+              "q": "Trova PDF in viewer o iframe?",
+              "a": "Sì. Controlla iframe, URL di viewer, risposte fetch/XHR, blob URL e rotte CMS."
+            },
+            {
+              "q": "Può scansionare più pagine?",
+              "a": "Sì. Aumenta la profondità per analizzare le pagine collegate nella cartella della pagina iniziale. Ad esempio, /~name/course.html resta all'interno di /~name/. Le pagine fuori da quella cartella non vengono scansionate."
+            },
+            {
+              "q": "I PDF vengono caricati per l'unione?",
+              "a": "No. L'unione PDF avviene localmente nel browser."
+            },
+            {
+              "q": "Posso scaricare PDF gratis?",
+              "a": "Sì. La versione gratuita salva fino a 10 PDF selezionati per download, ZIP o unione. Seleziona i successivi e premi di nuovo il pulsante per continuare: non viene bloccato nulla. Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per azione."
+            },
+            {
+              "q": "Garantisce che ogni PDF venga salvato?",
+              "a": "No. I risultati dipendono dai link trovati, dalla profondità, dall'accesso al sito e dal supporto del browser. Controlla i download non riusciti, riprovali o esporta le URL non riuscite con i motivi. L'estensione non aggira login o restrizioni del sito."
+            },
+            {
+              "q": "E se i PDF richiedono l’accesso?",
+              "a": "Accedi al sito nello stesso browser prima della scansione; la scansione e l’esplorazione per profondità usano quella sessione. Se un link restituisce una pagina di accesso invece di un PDF, probabilmente la sessione è scaduta: accedi di nuovo e riprova. L’estensione non accede mai al posto tuo né aggira le restrizioni di accesso."
+            }
+          ]
+        },
+        "ko": {
+          "title": "웹사이트의 모든 PDF 다운로드 | Grab All Files",
+          "desc": "Chrome, Edge, Firefox에서 페이지 또는 해당 폴더에 연결된 PDF를 다운로드합니다. 결과를 필터링하고 무료로 다운로드당 최대 10개 파일을 저장하거나 PDF를 로컬에서 병합하세요.",
+          "eyebrow": "PDF 수집",
+          "h1": "각 파일을 열지 않고 웹사이트의 PDF를 한 번에 다운로드하세요.",
+          "lead": "Grab All Files는 일반 링크, 내장 뷰어, iframe, 지연 로딩, fetch/XHR 응답, CMS 다운로드 경로의 PDF를 찾습니다. PDF로 필터링한 뒤 저장하거나 브라우저에서 로컬 병합할 수 있습니다.",
+          "best": [
+            "여러 페이지에 흩어진 공공 보고서, 양식, 공개 자료.",
+            "강의 자료, 논문, 연구 PDF.",
+            "직접 URL이 보이지 않는 PDF 뷰어 페이지.",
+            "PDF가 링크 한두 단계 아래에 있는 강의·아카이브 폴더."
+          ],
+          "steps": [
+            "PDF 목록이 있는 페이지를 열고 툴바의 Grab All Files 아이콘을 누릅니다.",
+            "“깊이”를 고른 뒤 “스캔”을 누릅니다. “이 페이지만”은 이 페이지만, 깊이 1은 시작 페이지 폴더 안의 링크된 페이지까지, 깊이 2는 한 단계 더 확인합니다. 깊을수록 오래 걸립니다(최대 100,000페이지).",
+            "목록을 PDF로 필터링하고 각 파일의 제목, 링크 원본 페이지, 크기, URL을 확인한 뒤 필요한 PDF를 체크합니다.",
+            "“다운로드”를 누르거나 “기타 작업”에서 ZIP 또는 “PDF 병합”을 사용합니다. 무료 버전은 작업당 10개까지이며, 다음 PDF를 체크하고 같은 버튼을 다시 누르면 됩니다."
+          ],
+          "faq": [
+            {
+              "q": "뷰어 또는 iframe 안의 PDF도 찾나요?",
+              "a": "예. iframe, 뷰어 URL, fetch/XHR 응답, blob URL, CMS 경로를 확인합니다."
+            },
+            {
+              "q": "여러 페이지를 크롤링할 수 있나요?",
+              "a": "예. 링크 깊이를 높이면 시작 페이지의 폴더 안에 있는 연결 페이지를 스캔합니다. 예를 들어 /~name/course.html은 /~name/ 안에서만 크롤링하며, 그 폴더 밖의 페이지는 크롤링하지 않습니다."
+            },
+            {
+              "q": "PDF 병합 시 파일이 업로드되나요?",
+              "a": "아니요. 병합은 브라우저에서 로컬로 실행됩니다."
+            },
+            {
+              "q": "PDF를 무료로 다운로드할 수 있나요?",
+              "a": "예. 무료 버전은 다운로드, ZIP, 병합 모두 작업당 선택한 PDF를 최대 10개까지 처리합니다. 다음 PDF를 체크하고 같은 버튼을 다시 누르면 계속할 수 있으며 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
+            },
+            {
+              "q": "모든 PDF가 반드시 저장되나요?",
+              "a": "보장되지 않습니다. 결과는 발견된 링크, 스캔 깊이, 사이트 접근 권한, 브라우저 지원에 따라 달라집니다. 실패한 다운로드를 검토해 다시 시도하거나 실패 URL과 원인을 내보낼 수 있습니다. 이 확장 프로그램은 로그인이나 사이트 제한을 우회하지 않습니다."
+            },
+            {
+              "q": "PDF가 로그인 뒤에 있으면요?",
+              "a": "스캔하기 전에 같은 브라우저에서 사이트에 로그인하세요. 스캔과 깊이 크롤링은 그 세션을 사용합니다. 링크가 PDF 대신 로그인 페이지를 돌려준다면 세션이 만료되었을 가능성이 높으니 다시 로그인한 뒤 재시도하세요. 확장 프로그램이 대신 로그인하거나 접근 제한을 우회하지는 않습니다."
+            }
+          ]
+        },
+        "pt_BR": {
+          "title": "Baixar todos os PDFs de um site | Grab All Files",
+          "desc": "Baixe os PDFs vinculados de uma página ou da pasta dela no Chrome, Edge ou Firefox. Filtre, salve grátis 10 arquivos por download ou mescle localmente.",
+          "eyebrow": "Coleta de PDF",
+          "h1": "Baixe todos os PDFs de um site sem abrir cada arquivo.",
+          "lead": "Grab All Files detecta PDFs em links comuns, viewers incorporados, iframes, lazy loading, respostas fetch/XHR e rotas CMS. Filtre por PDF, selecione e baixe ou mescle localmente.",
+          "best": [
+            "Relatórios públicos, formulários e divulgações espalhados por várias páginas.",
+            "Materiais de curso, artigos e PDFs de pesquisa.",
+            "Páginas com viewer PDF onde a URL direta fica oculta.",
+            "Pastas de cursos ou arquivos em que os PDFs estão a um ou dois links de distância."
+          ],
+          "steps": [
+            "Abra a página que lista os PDFs e clique no ícone do Grab All Files na barra de ferramentas.",
+            "Escolha a “Profundidade” e clique em “Escanear”. “Apenas esta página” verifica só esta página; a profundidade 1 também escaneia as páginas vinculadas dentro da pasta da página de partida, e a 2 vai um nível além. Quanto mais fundo, mais demora (até 100.000 páginas).",
+            "Filtre a lista por PDF e confira título, página de origem, tamanho e URL de cada arquivo. Marque os PDFs necessários.",
+            "Clique em “Baixar” ou abra “Mais ações” para criar um ZIP ou usar “Mesclar PDFs”. A versão gratuita processa até 10 PDFs por ação; marque os próximos e clique no botão de novo."
+          ],
+          "faq": [
+            {
+              "q": "Ele encontra PDFs em viewers ou iframes?",
+              "a": "Sim. Verifica iframes, URLs de viewer, respostas fetch/XHR, blob URLs e rotas CMS."
+            },
+            {
+              "q": "Pode rastrear mais de uma página?",
+              "a": "Sim. Aumente a profundidade para verificar as páginas vinculadas dentro da pasta da página inicial. Por exemplo, /~name/course.html permanece dentro de /~name/. Páginas fora dessa pasta não são rastreadas."
+            },
+            {
+              "q": "Os PDFs são enviados para mesclar?",
+              "a": "Não. A mesclagem roda localmente no navegador."
+            },
+            {
+              "q": "Posso baixar PDFs de graça?",
+              "a": "Sim. A versão gratuita salva até 10 PDFs selecionados por download, ZIP ou mesclagem. Marque os próximos e clique no botão de novo para continuar — nada fica bloqueado. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por ação."
+            },
+            {
+              "q": "Garante que todos os PDFs serão salvos?",
+              "a": "Não. Os resultados dependem dos links encontrados, da profundidade, do acesso ao site e do suporte do navegador. Revise os downloads com falha, tente novamente ou exporte as URLs com falha e seus motivos. A extensão não contorna login nem restrições do site."
+            },
+            {
+              "q": "E se os PDFs exigirem login?",
+              "a": "Faça login no site no mesmo navegador antes de escanear; a varredura e o rastreamento por profundidade usam essa sessão. Se um link devolver uma página de login em vez de um PDF, a sessão provavelmente expirou — faça login de novo e tente outra vez. A extensão nunca faz login por você nem contorna restrições de acesso."
+            }
+          ]
+        },
+        "zh_CN": {
+          "title": "批量下载网站上的所有PDF | Grab All Files",
+          "desc": "在Chrome、Edge或Firefox中下载页面或其所在文件夹中链接的PDF。可筛选结果，免费版每次最多保存10个文件，或在本地合并PDF。",
+          "eyebrow": "PDF收集",
+          "h1": "无需逐个打开文件，即可下载网站上的所有PDF。",
+          "lead": "Grab All Files 可检测普通链接、嵌入式查看器、iframe、懒加载、fetch/XHR响应和CMS下载路径中的PDF。按PDF筛选后，可下载或在浏览器本地合并。",
+          "best": [
+            "分散在多页的公共报告、表单和公开资料。",
+            "课程材料、论文和研究PDF。",
+            "直接文件URL被隐藏的PDF查看器页面。",
+            "PDF位于一到两层链接之下的课程或档案文件夹。"
+          ],
+          "steps": [
+            "打开列出PDF的页面，点击工具栏上的Grab All Files图标。",
+            "选择“深度”后点击“扫描”。“仅当前页面”只检查本页；深度1还会扫描起始页面文件夹内链接到的页面，深度2再往下一层。越深耗时越长（最多100,000个页面）。",
+            "将列表筛选为PDF，确认每个文件的标题、来源页面、大小和URL，勾选需要的PDF。",
+            "点击“下载”，或在“其他操作”中使用ZIP或“合并PDF”。免费版每次操作最多10个；勾选接下来的PDF后再次点击同一按钮即可。"
+          ],
+          "faq": [
+            {
+              "q": "能找到查看器或iframe中的PDF吗？",
+              "a": "可以。它会检查iframe、查看器URL、fetch/XHR响应、blob URL和常见CMS路径。"
+            },
+            {
+              "q": "能爬取多个页面吗？",
+              "a": "可以。提高链接深度即可扫描起始页面所在文件夹内的链接页面。例如，/~name/course.html 只会在 /~name/ 内爬取，该文件夹以外的页面不会被爬取。"
+            },
+            {
+              "q": "合并PDF会上传文件吗？",
+              "a": "不会。PDF合并在浏览器本地运行。"
+            },
+            {
+              "q": "可以免费下载PDF吗？",
+              "a": "可以。免费版的下载、ZIP和合并每次操作最多处理10个选中的PDF。勾选接下来的PDF并再次点击同一按钮即可继续，不会被锁定。Pro（$19.99，一次性购买，最多3台设备）没有每次操作的数量限制。"
+            },
+            {
+              "q": "能保证保存所有PDF吗？",
+              "a": "不能保证。结果取决于找到的链接、扫描深度、网站访问权限和浏览器支持。可检查失败的下载并重试，或导出附带原因的失败URL列表。本扩展不会绕过登录或网站限制。"
+            },
+            {
+              "q": "PDF需要登录才能访问怎么办？",
+              "a": "扫描前请先在同一浏览器中登录网站；扫描和按深度爬取都会使用该会话。如果链接返回的是登录页面而不是PDF，多半是会话已过期，请重新登录后重试。本扩展不会替您登录，也不会绕过访问限制。"
+            }
+          ]
+        },
+        "zh_TW": {
+          "title": "批次下載網站上的所有PDF | Grab All Files",
+          "desc": "在Chrome、Edge或Firefox中下載頁面或其所在資料夾中連結的PDF。可篩選結果，免費版每次最多儲存10個檔案，或在本機合併PDF。",
+          "eyebrow": "PDF收集",
+          "h1": "無需逐一開啟檔案，即可下載網站上的所有PDF。",
+          "lead": "Grab All Files 可偵測普通連結、嵌入式檢視器、iframe、延遲載入、fetch/XHR回應和CMS下載路徑中的PDF。依PDF篩選後，可下載或在瀏覽器本機合併。",
+          "best": [
+            "分散在多頁的公共報告、表單和公開資料。",
+            "課程教材、論文和研究PDF。",
+            "直接檔案URL被隱藏的PDF檢視器頁面。",
+            "PDF位於一到兩層連結之下的課程或檔案資料夾。"
+          ],
+          "steps": [
+            "開啟列出PDF的頁面，點擊工具列上的Grab All Files圖示。",
+            "選擇「深度」後點擊「掃描」。「僅此頁面」只檢查本頁；深度1還會掃描起始頁面資料夾內連結到的頁面，深度2再往下一層。越深耗時越長（最多100,000個頁面）。",
+            "將清單篩選為PDF，確認每個檔案的標題、來源頁面、大小和URL，勾選需要的PDF。",
+            "點擊「下載」，或在「其他操作」中使用ZIP或「合併PDF」。免費版每次操作最多10個；勾選接下來的PDF後再次點擊同一按鈕即可。"
+          ],
+          "faq": [
+            {
+              "q": "能找到檢視器或iframe中的PDF嗎？",
+              "a": "可以。它會檢查iframe、檢視器URL、fetch/XHR回應、blob URL和常見CMS路徑。"
+            },
+            {
+              "q": "能爬取多個頁面嗎？",
+              "a": "可以。提高連結深度即可掃描起始頁面所在資料夾內的連結頁面。例如，/~name/course.html 只會在 /~name/ 內爬取，該資料夾以外的頁面不會被爬取。"
+            },
+            {
+              "q": "合併PDF會上傳檔案嗎？",
+              "a": "不會。PDF合併在瀏覽器本機執行。"
+            },
+            {
+              "q": "可以免費下載PDF嗎？",
+              "a": "可以。免費版的下載、ZIP和合併每次操作最多處理10個選取的PDF。勾選接下來的PDF並再次點擊同一按鈕即可繼續，不會被鎖定。Pro（$19.99，一次購買，最多3台裝置）沒有每次操作的數量限制。"
+            },
+            {
+              "q": "能保證儲存所有PDF嗎？",
+              "a": "無法保證。結果取決於找到的連結、掃描深度、網站存取權限和瀏覽器支援。可檢查失敗的下載並重試，或匯出附帶原因的失敗URL清單。本擴充功能不會繞過登入或網站限制。"
+            },
+            {
+              "q": "PDF需要登入才能存取怎麼辦？",
+              "a": "掃描前請先在同一瀏覽器登入網站；掃描和依深度爬取都會使用該工作階段。若連結回傳的是登入頁面而不是PDF，多半是工作階段已過期，請重新登入後重試。本擴充功能不會代您登入，也不會繞過存取限制。"
+            }
+          ]
+        }
       }
     },
     "bulk-download-images": {
-      path: "bulk-download-images.html",
-      related: ["download-files-from-webpage", "internal-portal-downloads", "download-all-pdfs"],
-      copy: {
-        en: c("Bulk download images from a web page | Grab All Files", "Detect visible, lazy-loaded, background, and blob images, then save selected image files in bulk or export their URLs.", "Image collection", "Bulk download images from a web page, including lazy-loaded assets.", "Image galleries often hide files in lazy loading, CSS backgrounds, srcset, blob URLs, and scripts. Grab All Files surfaces the image URLs it can detect so you can filter, select, and save them in one run.", ["Image galleries and media libraries.", "Product, portfolio, or documentation pages with many image assets.", "Pages using lazy loading, srcset, or CSS background images.", "CSV exports of image URLs for later review."], ["Open the page or paste a URL.", "Filter results to image types such as JPG, PNG, WebP, GIF, or SVG.", "Download selected files, organize by domain/type, or export URLs as CSV."], [{ q: "Does it detect lazy-loaded images?", a: "Yes. It checks DOM attributes, srcset values, background images, blob URLs, and network-discovered file responses." }, { q: "Can I download only some image types?", a: "Yes. Use extension filters for file extension, size, name, or source page." }, { q: "Can I export image URLs instead of downloading?", a: "Yes. Export the detected file list as CSV." }]),
-        ja: c("Webページの画像を一括ダウンロード | Grab All Files", "表示画像、遅延読み込み、背景画像、blob画像を検出し、選択画像を一括保存またはURLをCSV出力できます。", "画像収集", "遅延読み込み画像も含めて、Webページの画像を一括ダウンロード。", "画像ギャラリーでは、遅延読み込み、CSS背景、srcset、blob URL、スクリプト内に画像が隠れていることがあります。Grab All Files は検出できる画像URLを一覧化し、絞り込み・選択・保存をまとめて行えます。", ["画像ギャラリーやメディアライブラリ。", "多数の画像がある商品、ポートフォリオ、ドキュメントページ。", "lazy loading、srcset、CSS背景画像を使うページ。", "後処理用に画像URLをCSV出力したい場面。"], ["ページを開く、またはURLを貼り付ける。", "JPG、PNG、WebP、GIF、SVGなど画像形式で絞り込む。", "選択ファイルを保存、種類・ドメイン別に整理、またはURLをCSV出力。"], [{ q: "遅延読み込み画像も検出できますか？", a: "はい。DOM属性、srcset、背景画像、blob URL、ネットワーク上のファイルレスポンスを確認します。" }, { q: "画像形式を限定できますか？", a: "はい。拡張子、サイズ、名前、元ページで絞り込めます。" }, { q: "ダウンロードせずURLだけ出せますか？", a: "はい。検出リストをCSVとして出力できます。" }]),
-        es: c("Descargar imágenes en masa de una página | Grab All Files", "Detecta imágenes visibles, lazy-loaded, de fondo y blob; guarda imágenes seleccionadas o exporta URLs.", "Recopilación de imágenes", "Descarga imágenes en masa, incluidas las lazy-loaded.", "Muchas galerías esconden archivos en lazy loading, fondos CSS, srcset, blob URLs y scripts. Grab All Files muestra las URLs detectables para filtrar, seleccionar y guardar en una pasada.", ["Galerías y bibliotecas multimedia.", "Páginas de producto, portafolio o documentación con muchas imágenes.", "Páginas con lazy loading, srcset o fondos CSS.", "Exportación CSV de URLs para revisión posterior."], ["Abre la página o pega una URL.", "Filtra a JPG, PNG, WebP, GIF o SVG.", "Descarga, organiza por dominio/tipo o exporta URLs CSV."], [{ q: "¿Detecta imágenes lazy-loaded?", a: "Sí. Revisa atributos DOM, srcset, fondos, blob URLs y respuestas de red." }, { q: "¿Puedo bajar solo ciertos tipos?", a: "Sí. Filtra por extensión, tamaño, nombre o página fuente." }, { q: "¿Puedo exportar URLs?", a: "Sí. Exporta la lista detectada como CSV." }]),
-        fr: c("Télécharger les images d'une page en masse | Grab All Files", "Détecte images visibles, lazy-loaded, arrière-plans et blob ; téléchargez ou exportez les URLs.", "Collecte d'images", "Téléchargez les images d'une page, y compris les ressources lazy-loaded.", "Les galeries cachent souvent les fichiers dans le lazy loading, CSS backgrounds, srcset, blob URLs et scripts. Grab All Files affiche les URLs détectables pour filtrer et sauvegarder.", ["Galeries et bibliothèques médias.", "Pages produit, portfolio ou documentation riches en images.", "Pages avec lazy loading, srcset ou backgrounds CSS.", "Export CSV des URLs d'image pour analyse."], ["Ouvrez la page ou collez une URL.", "Filtrez sur JPG, PNG, WebP, GIF ou SVG.", "Téléchargez, organisez par domaine/type ou exportez en CSV."], [{ q: "Détecte-t-il les images lazy-loaded ?", a: "Oui. Il vérifie attributs DOM, srcset, arrière-plans, blob URLs et réponses réseau." }, { q: "Puis-je limiter les formats ?", a: "Oui. Filtrez par extension, taille, nom ou page source." }, { q: "Puis-je exporter les URLs ?", a: "Oui. La liste détectée peut être exportée en CSV." }]),
-        de: c("Bilder einer Webseite gesammelt laden | Grab All Files", "Findet sichtbare, lazy-loaded, Hintergrund- und blob-Bilder; speichert Auswahl oder exportiert URLs.", "Bildsammlung", "Laden Sie Bilder einer Webseite gesammelt herunter, auch Lazy-Loading-Assets.", "Galerien verstecken Dateien oft in Lazy Loading, CSS-Hintergründen, srcset, blob URLs und Skripten. Grab All Files zeigt erkannte Bild-URLs zum Filtern, Auswählen und Speichern.", ["Bildgalerien und Medienbibliotheken.", "Produkt-, Portfolio- oder Dokumentationsseiten mit vielen Bildern.", "Seiten mit Lazy Loading, srcset oder CSS-Hintergründen.", "CSV-Export von Bild-URLs für spätere Prüfung."], ["Seite öffnen oder URL einfügen.", "Auf JPG, PNG, WebP, GIF oder SVG filtern.", "Herunterladen, nach Domain/Typ organisieren oder URLs als CSV exportieren."], [{ q: "Findet es lazy-loaded Bilder?", a: "Ja. DOM-Attribute, srcset, Hintergründe, blob URLs und Netzwerkantworten werden geprüft." }, { q: "Kann ich Dateitypen einschränken?", a: "Ja. Nach Erweiterung, Größe, Name oder Quellseite filtern." }, { q: "Kann ich URLs exportieren?", a: "Ja. Die Liste kann als CSV exportiert werden." }]),
-        it: c("Scaricare immagini in massa da una pagina | Grab All Files", "Rileva immagini visibili, lazy-loaded, background e blob; salva immagini selezionate o esporta URL.", "Raccolta immagini", "Scarica immagini in massa, incluse risorse lazy-loaded.", "Le gallerie nascondono spesso file in lazy loading, background CSS, srcset, blob URL e script. Grab All Files mostra le URL rilevabili per filtrare, selezionare e salvare.", ["Gallerie e librerie media.", "Pagine prodotto, portfolio o documentazione con molte immagini.", "Pagine con lazy loading, srcset o background CSS.", "Export CSV delle URL immagine."], ["Apri la pagina o incolla una URL.", "Filtra per JPG, PNG, WebP, GIF o SVG.", "Scarica, organizza per dominio/tipo o esporta URL CSV."], [{ q: "Rileva immagini lazy-loaded?", a: "Sì. Controlla attributi DOM, srcset, background, blob URL e risposte di rete." }, { q: "Posso scaricare solo alcuni tipi?", a: "Sì. Filtra per estensione, dimensione, nome o pagina sorgente." }, { q: "Posso esportare URL?", a: "Sì. La lista può essere esportata in CSV." }]),
-        ko: c("웹페이지 이미지 일괄 다운로드 | Grab All Files", "표시 이미지, 지연 로딩, 배경 이미지, blob 이미지를 감지해 선택 이미지를 저장하거나 URL을 CSV로 내보냅니다.", "이미지 수집", "지연 로딩 자산까지 포함해 웹페이지 이미지를 한 번에 다운로드하세요.", "이미지 갤러리는 지연 로딩, CSS 배경, srcset, blob URL, 스크립트 안에 파일을 숨기는 경우가 많습니다. Grab All Files는 감지 가능한 이미지 URL을 보여주고 필터링, 선택, 저장을 한 번에 처리합니다.", ["이미지 갤러리와 미디어 라이브러리.", "이미지가 많은 제품, 포트폴리오, 문서 페이지.", "lazy loading, srcset, CSS 배경 이미지를 사용하는 페이지.", "이미지 URL CSV 내보내기."], ["페이지를 열거나 URL을 붙여넣습니다.", "JPG, PNG, WebP, GIF, SVG 등 이미지 유형으로 필터링합니다.", "선택 파일을 다운로드하거나 도메인/유형별 정리, CSV 내보내기를 합니다."], [{ q: "지연 로딩 이미지도 감지하나요?", a: "예. DOM 속성, srcset, 배경 이미지, blob URL, 네트워크 응답을 확인합니다." }, { q: "특정 이미지 형식만 받을 수 있나요?", a: "예. 확장자, 크기, 이름, 원본 페이지로 필터링할 수 있습니다." }, { q: "다운로드 대신 URL만 내보낼 수 있나요?", a: "예. 감지 목록을 CSV로 내보낼 수 있습니다." }]),
-        pt_BR: c("Baixar imagens em massa de uma página | Grab All Files", "Detecta imagens visíveis, lazy-loaded, de fundo e blob; salva imagens selecionadas ou exporta URLs.", "Coleta de imagens", "Baixe imagens em massa, incluindo recursos lazy-loaded.", "Galerias costumam esconder arquivos em lazy loading, fundos CSS, srcset, blob URLs e scripts. Grab All Files mostra URLs detectáveis para filtrar, selecionar e salvar.", ["Galerias e bibliotecas de mídia.", "Páginas de produto, portfólio ou documentação com muitas imagens.", "Páginas com lazy loading, srcset ou fundos CSS.", "Exportação CSV de URLs de imagem."], ["Abra a página ou cole uma URL.", "Filtre por JPG, PNG, WebP, GIF ou SVG.", "Baixe, organize por domínio/tipo ou exporte URLs CSV."], [{ q: "Detecta imagens lazy-loaded?", a: "Sim. Verifica atributos DOM, srcset, fundos, blob URLs e respostas de rede." }, { q: "Posso baixar só alguns tipos?", a: "Sim. Filtre por extensão, tamanho, nome ou página fonte." }, { q: "Posso exportar URLs?", a: "Sim. Exporte a lista detectada como CSV." }]),
-        zh_CN: c("批量下载网页图片 | Grab All Files", "检测可见图片、懒加载图片、背景图和blob图片，并批量保存或导出URL。", "图片收集", "批量下载网页图片，包括懒加载资源。", "图片库常把文件藏在懒加载、CSS背景、srcset、blob URL和脚本中。Grab All Files 会列出可检测的图片URL，便于筛选、选择和保存。", ["图片库和媒体库。", "包含大量图片的产品、作品集或文档页面。", "使用懒加载、srcset或CSS背景图的页面。", "将图片URL导出为CSV以便后续处理。"], ["打开页面或粘贴URL。", "按JPG、PNG、WebP、GIF、SVG等图片类型筛选。", "下载选中文件，按域名/类型整理，或导出CSV。"], [{ q: "能检测懒加载图片吗？", a: "可以。会检查DOM属性、srcset、背景图、blob URL和网络文件响应。" }, { q: "能只下载某些图片类型吗？", a: "可以。按扩展名、大小、名称或来源页面筛选。" }, { q: "能只导出图片URL吗？", a: "可以。检测列表可导出为CSV。" }]),
-        zh_TW: c("批次下載網頁圖片 | Grab All Files", "偵測可見圖片、延遲載入圖片、背景圖和blob圖片，並批次儲存或匯出URL。", "圖片收集", "批次下載網頁圖片，包括延遲載入資源。", "圖片庫常把檔案藏在延遲載入、CSS背景、srcset、blob URL和指令碼中。Grab All Files 會列出可偵測的圖片URL，方便篩選、選取和儲存。", ["圖片庫和媒體庫。", "包含大量圖片的產品、作品集或文件頁面。", "使用延遲載入、srcset或CSS背景圖的頁面。", "將圖片URL匯出為CSV以便後續處理。"], ["開啟頁面或貼上URL。", "依JPG、PNG、WebP、GIF、SVG等圖片類型篩選。", "下載選取檔案，依網域/類型整理，或匯出CSV。"], [{ q: "能偵測延遲載入圖片嗎？", a: "可以。會檢查DOM屬性、srcset、背景圖、blob URL和網路檔案回應。" }, { q: "能只下載某些圖片類型嗎？", a: "可以。依副檔名、大小、名稱或來源頁面篩選。" }, { q: "能只匯出圖片URL嗎？", a: "可以。偵測清單可匯出為CSV。" }])
+      "path": "bulk-download-images.html",
+      "related": [
+        "download-files-from-webpage",
+        "internal-portal-downloads",
+        "download-all-pdfs"
+      ],
+      "copy": {
+        "en": {
+          "title": "Bulk download images from a web page | Grab All Files",
+          "desc": "Detect visible, lazy-loaded, background, and blob images, then save selected image files in bulk or export their URLs.",
+          "eyebrow": "Image collection",
+          "h1": "Bulk download images from a web page, including lazy-loaded assets.",
+          "lead": "Image galleries often hide files in lazy loading, CSS backgrounds, srcset, blob URLs, and scripts. Grab All Files surfaces the image URLs it can detect so you can filter, select, and save them in one run.",
+          "best": [
+            "Image galleries and media libraries.",
+            "Product, portfolio, or documentation pages with many image assets.",
+            "Pages using lazy loading, srcset, or CSS background images.",
+            "CSV lists of image URLs for later review."
+          ],
+          "steps": [
+            "Open the gallery or page and click the Grab All Files icon in the toolbar.",
+            "For galleries and infinite-scroll pages, open “Scan options”, turn on “Scroll & load everything before scanning” and choose a “Scroll time” (Normal 45 s, Long 90 s, Thorough 180 s). Then press “Scan”.",
+            "Filter the list to images such as JPG, PNG, WebP, GIF or SVG. In “Details”, set a minimum “Size” to hide thumbnails and icons.",
+            "Tick the images and press “Download” (Free: up to 10 per download), or use “More actions” for ZIP, “Organize” by type or domain, or “Export File Info CSV”."
+          ],
+          "faq": [
+            {
+              "q": "Does it detect lazy-loaded images?",
+              "a": "Yes, once they are in the page. It reads image attributes, srcset values, CSS backgrounds, blob URLs and network responses. Images that appear only after scrolling need “Scroll & load everything before scanning” in “Scan options”."
+            },
+            {
+              "q": "Can I download only some image types?",
+              "a": "Yes. Use the file-type list, the search box for names and the minimum “Size” in “Details”, then sort by size to find the full-size files."
+            },
+            {
+              "q": "Why are thumbnails or tiny icons listed?",
+              "a": "Pages often use separate small files for thumbnails, icons and logos. Set a minimum “Size” in “Details” to hide them; files whose size is unknown stay in the list. Compare size and URL to pick the full-size version."
+            },
+            {
+              "q": "Can I export image URLs instead of downloading?",
+              "a": "Yes. Tick the images and use “Export File Info CSV” under “More actions”. Free exports up to 10 rows per operation; tick the next rows and export again."
+            },
+            {
+              "q": "Is there a limit on images in the free version?",
+              "a": "Free saves up to 10 selected images per download or ZIP. Select the next images and press the button again to continue — nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-download limit."
+            }
+          ]
+        },
+        "ja": {
+          "title": "Webページの画像を一括ダウンロード | Grab All Files",
+          "desc": "表示中の画像、遅延読み込み画像、CSS背景、blob画像を検出し、選んだ画像を一括保存・ZIP化・URLのCSV出力。無料版は1回のダウンロードで10件まで。",
+          "eyebrow": "画像収集",
+          "h1": "遅延読み込み画像も含めて、Webページの画像を一括ダウンロード。",
+          "lead": "画像ギャラリーでは、遅延読み込み、CSS背景、srcset、blob URL、スクリプト内に画像が隠れていることがあります。Grab All Files は検出できる画像URLを一覧化し、絞り込み・選択・保存をまとめて行えます。",
+          "best": [
+            "画像ギャラリーやメディアライブラリ。",
+            "多数の画像がある商品、ポートフォリオ、ドキュメントページ。",
+            "lazy loading、srcset、CSS背景画像を使うページ。",
+            "あとで確認するための画像URLのCSV一覧。"
+          ],
+          "steps": [
+            "ギャラリーや対象ページを開き、ツールバーのGrab All Filesアイコンを押します。",
+            "ギャラリーや無限スクロールのページは、「スキャン設定」で「スキャン前にスクロールして全て読み込む（ギャラリー・長い一覧）」をオンにし、「読み込み時間」（通常45秒／長め90秒／徹底180秒）を選んでから「スキャン」を押します。",
+            "JPG、PNG、WebP、GIF、SVGなどの画像に絞り込みます。「詳細設定」で「サイズ」の最小値を決めると、サムネイルやアイコンを隠せます。",
+            "保存する画像にチェックを入れて「ダウンロード」を押します（無料版は1回10件まで）。ZIP、種類別・ドメイン別の「整理」、「ファイル情報CSV出力」は「その他の操作」にあります。"
+          ],
+          "faq": [
+            {
+              "q": "遅延読み込みの画像も検出できますか？",
+              "a": "ページに読み込まれていれば検出できます。画像の属性、srcset、CSS背景、blob URL、通信で取得された画像を調べます。スクロールして初めて表示される画像は、「スキャン設定」の「スキャン前にスクロールして全て読み込む（ギャラリー・長い一覧）」をオンにしてください。"
+            },
+            {
+              "q": "特定の画像形式だけ保存できますか？",
+              "a": "はい。ファイル種類の一覧、名前の検索欄、「詳細設定」の最小「サイズ」で絞り込み、サイズ順に並べると原寸の画像を見つけやすくなります。"
+            },
+            {
+              "q": "サムネイルや小さなアイコンまで一覧に出るのはなぜ？",
+              "a": "多くのページでは、サムネイル・アイコン・ロゴが別の小さなファイルになっています。「詳細設定」で最小「サイズ」を設定すると隠せます（サイズ不明のファイルは残ります）。サイズとURLを比べて原寸の画像を選んでください。"
+            },
+            {
+              "q": "画像を保存せずURLだけ書き出せますか？",
+              "a": "はい。画像にチェックを入れ、「その他の操作」の「ファイル情報CSV出力」を使います。無料版は1回10行まで。続きは次の行を選んでもう一度出力します。"
+            },
+            {
+              "q": "無料版で保存できる画像の数に上限はありますか？",
+              "a": "無料版は1回のダウンロードまたはZIPで、選択した画像を10件まで保存できます。続けるときは次の画像を選んで同じボタンをもう一度押してください。ロックはかかりません。Pro（$19.99・買い切り、3台まで）は1回あたりの件数上限がありません。"
+            }
+          ]
+        },
+        "es": {
+          "title": "Descargar imágenes en masa de una página | Grab All Files",
+          "desc": "Detecta imágenes visibles, de carga diferida, de fondo CSS y blob, y guarda las elegidas en bloque, en ZIP o en una lista CSV. Gratis: 10 por descarga.",
+          "eyebrow": "Recopilación de imágenes",
+          "h1": "Descarga imágenes en masa, incluidas las lazy-loaded.",
+          "lead": "Muchas galerías esconden archivos en lazy loading, fondos CSS, srcset, blob URLs y scripts. Grab All Files muestra las URLs detectables para filtrar, seleccionar y guardar en una pasada.",
+          "best": [
+            "Galerías y bibliotecas multimedia.",
+            "Páginas de producto, portafolio o documentación con muchas imágenes.",
+            "Páginas con lazy loading, srcset o fondos CSS.",
+            "Listas CSV de URL de imágenes para revisarlas después."
+          ],
+          "steps": [
+            "Abre la galería o la página y haz clic en el icono de Grab All Files en la barra de herramientas.",
+            "En galerías y páginas con desplazamiento infinito, abre «Opciones de escaneo», activa «Desplázate y carga todo antes de escanear» y elige un «Tiempo de desplazamiento» (Normal 45 s, Más tiempo 90 s, Completo 180 s). Después pulsa «Escanear».",
+            "Filtra la lista por imágenes como JPG, PNG, WebP, GIF o SVG. En «Detalles», fija un «Tamaño» mínimo para ocultar miniaturas e iconos.",
+            "Marca las imágenes y pulsa «Descargar» (gratis: hasta 10 por descarga), o usa «Más acciones» para ZIP, «Organizar» por tipo o dominio o «Exportar info de archivos en CSV»."
+          ],
+          "faq": [
+            {
+              "q": "¿Detecta imágenes con carga diferida?",
+              "a": "Sí, en cuanto están en la página. Lee los atributos de imagen, los valores srcset, los fondos CSS, las URL blob y las respuestas de red. Las imágenes que solo aparecen al desplazarte necesitan «Desplázate y carga todo antes de escanear» en «Opciones de escaneo»."
+            },
+            {
+              "q": "¿Puedo descargar solo algunos tipos de imagen?",
+              "a": "Sí. Usa la lista de tipos de archivo, el cuadro de búsqueda por nombre y el «Tamaño» mínimo en «Detalles»; ordena por tamaño para encontrar los archivos a tamaño completo."
+            },
+            {
+              "q": "¿Por qué aparecen miniaturas o iconos diminutos?",
+              "a": "Muchas páginas usan archivos pequeños aparte para miniaturas, iconos y logotipos. Fija un «Tamaño» mínimo en «Detalles» para ocultarlos; los archivos de tamaño desconocido siguen en la lista. Compara tamaño y URL para elegir la versión completa."
+            },
+            {
+              "q": "¿Puedo exportar las URL de las imágenes en vez de descargarlas?",
+              "a": "Sí. Marca las imágenes y usa «Exportar info de archivos en CSV» en «Más acciones». La versión gratuita exporta hasta 10 filas por operación; marca las siguientes y vuelve a exportar."
+            },
+            {
+              "q": "¿Hay un límite de imágenes en la versión gratuita?",
+              "a": "La versión gratuita guarda hasta 10 imágenes seleccionadas por descarga o ZIP. Selecciona las siguientes y vuelve a pulsar el botón para continuar; no se bloquea nada. Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga."
+            }
+          ]
+        },
+        "fr": {
+          "title": "Télécharger les images d'une page en masse | Grab All Files",
+          "desc": "Détectez les images visibles, différées, en fond CSS ou blob, puis enregistrez-les en lot, en ZIP ou en liste CSV d’URL. Gratuit : 10 par lot.",
+          "eyebrow": "Collecte d'images",
+          "h1": "Téléchargez les images d'une page, y compris les ressources lazy-loaded.",
+          "lead": "Les galeries cachent souvent les fichiers dans le lazy loading, CSS backgrounds, srcset, blob URLs et scripts. Grab All Files affiche les URLs détectables pour filtrer et sauvegarder.",
+          "best": [
+            "Galeries et bibliothèques médias.",
+            "Pages produit, portfolio ou documentation riches en images.",
+            "Pages avec lazy loading, srcset ou backgrounds CSS.",
+            "Listes CSV d’URL d’images à vérifier plus tard."
+          ],
+          "steps": [
+            "Ouvrez la galerie ou la page et cliquez sur l’icône Grab All Files de la barre d’outils.",
+            "Pour les galeries et les pages à défilement infini, ouvrez « Options d’analyse », activez « Faire défiler et tout charger avant l’analyse » et choisissez une « Durée de défilement » (Normal 45 s, Plus long 90 s, Approfondi 180 s). Cliquez ensuite sur « Scanner ».",
+            "Filtrez la liste sur les images (JPG, PNG, WebP, GIF, SVG…). Dans « Détails », fixez une « Taille » minimale pour masquer vignettes et icônes.",
+            "Cochez les images et cliquez sur « Télécharger » (version gratuite : 10 par téléchargement), ou utilisez « Autres actions » pour le ZIP, le « Classement » par type ou par domaine, ou « Exporter les infos fichiers en CSV »."
+          ],
+          "faq": [
+            {
+              "q": "Détecte-t-il les images chargées à la demande ?",
+              "a": "Oui, dès qu’elles sont dans la page. Il lit les attributs d’image, les valeurs srcset, les arrière-plans CSS, les URL blob et les réponses réseau. Les images qui n’apparaissent qu’au défilement nécessitent « Faire défiler et tout charger avant l’analyse » dans « Options d’analyse »."
+            },
+            {
+              "q": "Puis-je ne télécharger que certains types d’image ?",
+              "a": "Oui. Utilisez la liste des types de fichiers, le champ de recherche par nom et la « Taille » minimale dans « Détails », puis triez par taille pour repérer les fichiers en pleine résolution."
+            },
+            {
+              "q": "Pourquoi des vignettes ou de petites icônes apparaissent-elles ?",
+              "a": "Beaucoup de pages utilisent des fichiers distincts et légers pour les vignettes, icônes et logos. Fixez une « Taille » minimale dans « Détails » pour les masquer ; les fichiers de taille inconnue restent dans la liste. Comparez taille et URL pour choisir la version complète."
+            },
+            {
+              "q": "Puis-je exporter les URL des images au lieu de les télécharger ?",
+              "a": "Oui. Cochez les images et utilisez « Exporter les infos fichiers en CSV » dans « Autres actions ». La version gratuite exporte jusqu’à 10 lignes par opération ; cochez les suivantes et exportez à nouveau."
+            },
+            {
+              "q": "Le nombre d’images est-il limité en version gratuite ?",
+              "a": "La version gratuite enregistre jusqu’à 10 images sélectionnées par téléchargement ou ZIP. Sélectionnez les suivantes et cliquez à nouveau sur le bouton pour continuer : rien n’est bloqué. Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement."
+            }
+          ]
+        },
+        "de": {
+          "title": "Alle Bilder einer Webseite herunterladen | Grab All Files",
+          "desc": "Sichtbare, nachgeladene, CSS-Hintergrund- und Blob-Bilder erkennen und gesammelt, als ZIP oder als CSV-Liste speichern. Kostenlos: 10 je Download.",
+          "eyebrow": "Bildsammlung",
+          "h1": "Bilder einer Webseite auf einmal herunterladen – auch per Lazy Loading geladene.",
+          "lead": "Galerien verstecken Dateien oft in Lazy Loading, CSS-Hintergründen, srcset, blob URLs und Skripten. Grab All Files zeigt erkannte Bild-URLs zum Filtern, Auswählen und Speichern.",
+          "best": [
+            "Bildgalerien und Medienbibliotheken.",
+            "Produkt-, Portfolio- oder Dokumentationsseiten mit vielen Bildern.",
+            "Seiten mit Lazy Loading, srcset oder CSS-Hintergründen.",
+            "CSV-Listen mit Bild-URLs zur späteren Prüfung."
+          ],
+          "steps": [
+            "Öffnen Sie die Galerie oder Seite und klicken Sie in der Symbolleiste auf das Grab-All-Files-Symbol.",
+            "Bei Galerien und Endlos-Scroll-Seiten öffnen Sie „Scan-Optionen“, aktivieren „Vor dem Scan alles scrollen & laden“ und wählen eine „Scroll-Zeit“ (Normal 45 s, Länger 90 s, Gründlich 180 s). Klicken Sie dann auf „Scannen“.",
+            "Filtern Sie die Liste auf Bilder wie JPG, PNG, WebP, GIF oder SVG. Legen Sie unter „Details“ eine Mindest-„Größe“ fest, um Vorschaubilder und Symbole auszublenden.",
+            "Haken Sie die Bilder an und klicken Sie auf „Herunterladen“ (kostenlos: bis zu 10 pro Download) oder nutzen Sie „Weitere Aktionen“ für ZIP, „Ablage“ nach Typ oder Domain oder „Dateiinfo als CSV exportieren“."
+          ],
+          "faq": [
+            {
+              "q": "Erkennt es per Lazy Loading geladene Bilder?",
+              "a": "Ja, sobald sie in der Seite stehen. Es liest Bildattribute, srcset-Werte, CSS-Hintergründe, Blob-URLs und Netzwerkantworten aus. Bilder, die erst beim Scrollen erscheinen, brauchen „Vor dem Scan alles scrollen & laden“ in den „Scan-Optionen“."
+            },
+            {
+              "q": "Kann ich nur bestimmte Bildtypen herunterladen?",
+              "a": "Ja. Nutzen Sie die Dateitypliste, das Suchfeld für Namen und die Mindest-„Größe“ unter „Details“; sortieren Sie nach Größe, um die Dateien in voller Auflösung zu finden."
+            },
+            {
+              "q": "Warum erscheinen Vorschaubilder oder winzige Symbole?",
+              "a": "Viele Seiten verwenden eigene kleine Dateien für Vorschaubilder, Symbole und Logos. Legen Sie unter „Details“ eine Mindest-„Größe“ fest, um sie auszublenden; Dateien unbekannter Größe bleiben in der Liste. Vergleichen Sie Größe und URL, um die Vollversion zu wählen."
+            },
+            {
+              "q": "Kann ich statt eines Downloads die Bild-URLs exportieren?",
+              "a": "Ja. Haken Sie die Bilder an und nutzen Sie „Dateiinfo als CSV exportieren“ unter „Weitere Aktionen“. Die kostenlose Version exportiert bis zu 10 Zeilen pro Vorgang; haken Sie die nächsten an und exportieren Sie erneut."
+            },
+            {
+              "q": "Gibt es in der kostenlosen Version ein Bildlimit?",
+              "a": "Die kostenlose Version speichert bis zu 10 ausgewählte Bilder pro Download oder ZIP. Wählen Sie danach die nächsten aus und klicken Sie erneut – gesperrt wird nichts. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Download auf."
+            }
+          ]
+        },
+        "it": {
+          "title": "Scaricare immagini in massa da una pagina | Grab All Files",
+          "desc": "Rileva immagini visibili, differite, di sfondo CSS e blob, e salva quelle scelte in blocco, in ZIP o come elenco CSV di URL. Gratis: 10 per volta.",
+          "eyebrow": "Raccolta immagini",
+          "h1": "Scarica immagini in massa, incluse risorse lazy-loaded.",
+          "lead": "Le gallerie nascondono spesso file in lazy loading, background CSS, srcset, blob URL e script. Grab All Files mostra le URL rilevabili per filtrare, selezionare e salvare.",
+          "best": [
+            "Gallerie e librerie media.",
+            "Pagine prodotto, portfolio o documentazione con molte immagini.",
+            "Pagine con lazy loading, srcset o background CSS.",
+            "Elenchi CSV di URL di immagini da controllare in seguito."
+          ],
+          "steps": [
+            "Apri la galleria o la pagina e fai clic sull’icona di Grab All Files nella barra degli strumenti.",
+            "Per gallerie e pagine a scorrimento infinito, apri «Opzioni di scansione», attiva «Scorri e carica tutto prima della scansione» e scegli un «Tempo di scorrimento» (Normale 45 s, Più lungo 90 s, Approfondito 180 s). Poi fai clic su «Scansiona».",
+            "Filtra l’elenco per immagini come JPG, PNG, WebP, GIF o SVG. In «Dettagli» imposta una «Dimensione» minima per nascondere miniature e icone.",
+            "Seleziona le immagini e fai clic su «Scarica» (gratis: fino a 10 per download), oppure usa «Altre azioni» per ZIP, «Organizza» per tipo o dominio o «Esporta info file in CSV»."
+          ],
+          "faq": [
+            {
+              "q": "Rileva le immagini a caricamento differito?",
+              "a": "Sì, appena sono nella pagina. Legge gli attributi delle immagini, i valori srcset, gli sfondi CSS, gli URL blob e le risposte di rete. Le immagini che compaiono solo scorrendo richiedono «Scorri e carica tutto prima della scansione» in «Opzioni di scansione»."
+            },
+            {
+              "q": "Posso scaricare solo alcuni tipi di immagine?",
+              "a": "Sì. Usa l’elenco dei tipi di file, la casella di ricerca per nome e la «Dimensione» minima in «Dettagli»; ordina per dimensione per trovare i file a piena risoluzione."
+            },
+            {
+              "q": "Perché compaiono miniature o icone minuscole?",
+              "a": "Molte pagine usano file piccoli separati per miniature, icone e loghi. Imposta una «Dimensione» minima in «Dettagli» per nasconderli; i file di dimensione sconosciuta restano nell’elenco. Confronta dimensione e URL per scegliere la versione completa."
+            },
+            {
+              "q": "Posso esportare gli URL delle immagini invece di scaricarle?",
+              "a": "Sì. Seleziona le immagini e usa «Esporta info file in CSV» in «Altre azioni». La versione gratuita esporta fino a 10 righe per operazione; seleziona le successive ed esporta di nuovo."
+            },
+            {
+              "q": "C’è un limite di immagini nella versione gratuita?",
+              "a": "La versione gratuita salva fino a 10 immagini selezionate per download o ZIP. Seleziona le successive e premi di nuovo il pulsante per continuare: non viene bloccato nulla. Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download."
+            }
+          ]
+        },
+        "ko": {
+          "title": "웹페이지 이미지 일괄 다운로드 | Grab All Files",
+          "desc": "표시 이미지, 지연 로딩, 배경 이미지, blob 이미지를 감지해 선택 이미지를 저장하거나 URL을 CSV로 내보냅니다.",
+          "eyebrow": "이미지 수집",
+          "h1": "지연 로딩 자산까지 포함해 웹페이지 이미지를 한 번에 다운로드하세요.",
+          "lead": "이미지 갤러리는 지연 로딩, CSS 배경, srcset, blob URL, 스크립트 안에 파일을 숨기는 경우가 많습니다. Grab All Files는 감지 가능한 이미지 URL을 보여주고 필터링, 선택, 저장을 한 번에 처리합니다.",
+          "best": [
+            "이미지 갤러리와 미디어 라이브러리.",
+            "이미지가 많은 제품, 포트폴리오, 문서 페이지.",
+            "lazy loading, srcset, CSS 배경 이미지를 사용하는 페이지.",
+            "나중에 검토할 이미지 URL CSV 목록."
+          ],
+          "steps": [
+            "갤러리나 페이지를 열고 툴바의 Grab All Files 아이콘을 누릅니다.",
+            "갤러리와 무한 스크롤 페이지는 “스캔 설정”에서 “스캔 전에 스크롤해 모두 불러오기(갤러리, 긴 목록)”를 켜고 “스크롤 시간”(일반 45초, 길게 90초, 철저히 180초)을 고른 뒤 “스캔”을 누릅니다.",
+            "JPG, PNG, WebP, GIF, SVG 같은 이미지로 목록을 필터링합니다. “상세 설정”에서 최소 “크기”를 정하면 썸네일과 아이콘을 숨길 수 있습니다.",
+            "이미지를 체크하고 “다운로드”를 누릅니다(무료: 다운로드당 10개). ZIP, 유형별·도메인별 “정리”, “파일 정보 CSV 내보내기”는 “기타 작업”에 있습니다."
+          ],
+          "faq": [
+            {
+              "q": "지연 로딩 이미지도 감지하나요?",
+              "a": "예, 페이지에 들어와 있다면 감지합니다. 이미지 속성, srcset 값, CSS 배경, blob URL, 네트워크 응답을 확인합니다. 스크롤해야 나타나는 이미지는 “스캔 설정”의 “스캔 전에 스크롤해 모두 불러오기(갤러리, 긴 목록)”를 켜세요."
+            },
+            {
+              "q": "특정 이미지 형식만 다운로드할 수 있나요?",
+              "a": "예. 파일 유형 목록, 이름 검색창, “상세 설정”의 최소 “크기”를 사용하고, 크기순으로 정렬하면 원본 크기 파일을 찾기 쉽습니다."
+            },
+            {
+              "q": "썸네일이나 작은 아이콘까지 목록에 나오는 이유는요?",
+              "a": "많은 페이지가 썸네일, 아이콘, 로고를 별도의 작은 파일로 씁니다. “상세 설정”에서 최소 “크기”를 정하면 숨길 수 있으며, 크기를 알 수 없는 파일은 목록에 남습니다. 크기와 URL을 비교해 원본을 고르세요."
+            },
+            {
+              "q": "다운로드 대신 이미지 URL만 내보낼 수 있나요?",
+              "a": "예. 이미지를 체크하고 “기타 작업”의 “파일 정보 CSV 내보내기”를 사용하세요. 무료 버전은 작업당 10행까지 내보내며, 다음 행을 체크해 다시 내보내면 됩니다."
+            },
+            {
+              "q": "무료 버전에서 이미지 수 제한이 있나요?",
+              "a": "무료 버전은 다운로드나 ZIP 한 번에 선택한 이미지를 최대 10개까지 저장합니다. 다음 이미지를 선택하고 같은 버튼을 다시 누르면 계속할 수 있으며 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
+            }
+          ]
+        },
+        "pt_BR": {
+          "title": "Baixar imagens em massa de uma página | Grab All Files",
+          "desc": "Detecte imagens visíveis, com carregamento lento, de fundo CSS e blob, e salve as escolhidas em lote, em ZIP ou em lista CSV. Grátis: 10 por download.",
+          "eyebrow": "Coleta de imagens",
+          "h1": "Baixe imagens em massa, incluindo recursos lazy-loaded.",
+          "lead": "Galerias costumam esconder arquivos em lazy loading, fundos CSS, srcset, blob URLs e scripts. Grab All Files mostra URLs detectáveis para filtrar, selecionar e salvar.",
+          "best": [
+            "Galerias e bibliotecas de mídia.",
+            "Páginas de produto, portfólio ou documentação com muitas imagens.",
+            "Páginas com lazy loading, srcset ou fundos CSS.",
+            "Listas CSV de URLs de imagens para revisar depois."
+          ],
+          "steps": [
+            "Abra a galeria ou a página e clique no ícone do Grab All Files na barra de ferramentas.",
+            "Em galerias e páginas com rolagem infinita, abra “Opções de varredura”, ative “Role e carregue tudo antes de escanear” e escolha um “Tempo de rolagem” (Normal 45 s, Longo 90 s, Completo 180 s). Depois clique em “Escanear”.",
+            "Filtre a lista por imagens como JPG, PNG, WebP, GIF ou SVG. Em “Detalhes”, defina um “Tamanho” mínimo para ocultar miniaturas e ícones.",
+            "Marque as imagens e clique em “Baixar” (grátis: até 10 por download), ou use “Mais ações” para ZIP, “Organizar” por tipo ou domínio ou “Exportar info de arquivos em CSV”."
+          ],
+          "faq": [
+            {
+              "q": "Detecta imagens com carregamento lento?",
+              "a": "Sim, assim que estão na página. Lê atributos de imagem, valores srcset, fundos CSS, URLs blob e respostas de rede. Imagens que só aparecem ao rolar precisam de “Role e carregue tudo antes de escanear” em “Opções de varredura”."
+            },
+            {
+              "q": "Posso baixar só alguns tipos de imagem?",
+              "a": "Sim. Use a lista de tipos de arquivo, a busca por nome e o “Tamanho” mínimo em “Detalhes”; ordene por tamanho para achar os arquivos em tamanho original."
+            },
+            {
+              "q": "Por que aparecem miniaturas ou ícones minúsculos?",
+              "a": "Muitas páginas usam arquivos pequenos separados para miniaturas, ícones e logotipos. Defina um “Tamanho” mínimo em “Detalhes” para ocultá-los; arquivos de tamanho desconhecido continuam na lista. Compare tamanho e URL para escolher a versão completa."
+            },
+            {
+              "q": "Posso exportar as URLs das imagens em vez de baixá-las?",
+              "a": "Sim. Marque as imagens e use “Exportar info de arquivos em CSV” em “Mais ações”. A versão gratuita exporta até 10 linhas por operação; marque as próximas e exporte de novo."
+            },
+            {
+              "q": "Há limite de imagens na versão gratuita?",
+              "a": "A versão gratuita salva até 10 imagens selecionadas por download ou ZIP. Selecione as próximas e clique no botão de novo para continuar — nada fica bloqueado. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download."
+            }
+          ]
+        },
+        "zh_CN": {
+          "title": "批量下载网页图片 | Grab All Files",
+          "desc": "检测可见图片、延迟加载图片、CSS背景图和blob图片，将选中的图片批量保存、打包ZIP或导出URL的CSV。免费版每次下载最多10个。",
+          "eyebrow": "图片收集",
+          "h1": "批量下载网页图片，包括懒加载资源。",
+          "lead": "图片库常把文件藏在懒加载、CSS背景、srcset、blob URL和脚本中。Grab All Files 会列出可检测的图片URL，便于筛选、选择和保存。",
+          "best": [
+            "图片库和媒体库。",
+            "包含大量图片的产品、作品集或文档页面。",
+            "使用懒加载、srcset或CSS背景图的页面。",
+            "便于日后核对的图片URL CSV列表。"
+          ],
+          "steps": [
+            "打开图库或页面，点击工具栏上的Grab All Files图标。",
+            "对于图库和无限滚动页面，请在“扫描设置”中开启“扫描前先滚动并加载全部内容（图库、长列表）”，选择“滚动时间”（标准45秒、较长90秒、彻底180秒），然后点击“扫描”。",
+            "将列表筛选为JPG、PNG、WebP、GIF、SVG等图片。在“详细设置”中设定最小“大小”，即可隐藏缩略图和图标。",
+            "勾选图片后点击“下载”（免费版每次最多10个），或在“其他操作”中使用ZIP、按类型或域名“整理”，或“导出文件信息CSV”。"
+          ],
+          "faq": [
+            {
+              "q": "能检测延迟加载的图片吗？",
+              "a": "可以，只要图片已载入页面。它会读取图片属性、srcset、CSS背景、blob URL和网络响应。需要滚动才出现的图片，请在“扫描设置”中开启“扫描前先滚动并加载全部内容（图库、长列表）”。"
+            },
+            {
+              "q": "能只下载某些图片类型吗？",
+              "a": "可以。使用文件类型列表、名称搜索框和“详细设置”中的最小“大小”筛选；按大小排序更容易找到原图。"
+            },
+            {
+              "q": "为什么会列出缩略图或小图标？",
+              "a": "很多页面会为缩略图、图标和标志单独使用小文件。在“详细设置”中设定最小“大小”即可隐藏它们；大小未知的文件仍会保留在列表中。比较大小和URL，选择原尺寸版本。"
+            },
+            {
+              "q": "可以只导出图片URL而不下载吗？",
+              "a": "可以。勾选图片后使用“其他操作”中的“导出文件信息CSV”。免费版每次最多导出10行；勾选接下来的行再导出即可。"
+            },
+            {
+              "q": "免费版对图片数量有限制吗？",
+              "a": "免费版每次下载或ZIP最多保存10张选中的图片。选择接下来的图片并再次点击同一按钮即可继续，不会被锁定。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的数量限制。"
+            }
+          ]
+        },
+        "zh_TW": {
+          "title": "批次下載網頁圖片 | Grab All Files",
+          "desc": "偵測可見圖片、延遲載入圖片、CSS背景圖和blob圖片，將選取的圖片批次儲存、打包ZIP或匯出URL的CSV。免費版每次下載最多10個。",
+          "eyebrow": "圖片收集",
+          "h1": "批次下載網頁圖片，包括延遲載入資源。",
+          "lead": "圖片庫常把檔案藏在延遲載入、CSS背景、srcset、blob URL和指令碼中。Grab All Files 會列出可偵測的圖片URL，方便篩選、選取和儲存。",
+          "best": [
+            "圖片庫和媒體庫。",
+            "包含大量圖片的產品、作品集或文件頁面。",
+            "使用延遲載入、srcset或CSS背景圖的頁面。",
+            "便於日後核對的圖片URL CSV清單。"
+          ],
+          "steps": [
+            "開啟圖庫或頁面，點擊工具列上的Grab All Files圖示。",
+            "對於圖庫和無限捲動頁面，請在「掃描設定」中開啟「掃描前先捲動並載入所有內容（圖庫、長清單）」，選擇「捲動時間」（標準45秒、較長90秒、徹底180秒），然後點擊「掃描」。",
+            "將清單篩選為JPG、PNG、WebP、GIF、SVG等圖片。在「詳細設定」中設定最小「大小」，即可隱藏縮圖和圖示。",
+            "勾選圖片後點擊「下載」（免費版每次最多10個），或在「其他操作」中使用ZIP、依類型或網域「整理」，或「匯出檔案資訊CSV」。"
+          ],
+          "faq": [
+            {
+              "q": "能偵測延遲載入的圖片嗎？",
+              "a": "可以，只要圖片已載入頁面。它會讀取圖片屬性、srcset、CSS背景、blob URL和網路回應。需要捲動才出現的圖片，請在「掃描設定」中開啟「掃描前先捲動並載入所有內容（圖庫、長清單）」。"
+            },
+            {
+              "q": "能只下載某些圖片類型嗎？",
+              "a": "可以。使用檔案類型清單、名稱搜尋框和「詳細設定」中的最小「大小」篩選；依大小排序更容易找到原圖。"
+            },
+            {
+              "q": "為什麼會列出縮圖或小圖示？",
+              "a": "許多頁面會為縮圖、圖示和標誌另外使用小檔案。在「詳細設定」中設定最小「大小」即可隱藏它們；大小未知的檔案仍會保留在清單中。比較大小和URL，選擇原尺寸版本。"
+            },
+            {
+              "q": "可以只匯出圖片URL而不下載嗎？",
+              "a": "可以。勾選圖片後使用「其他操作」中的「匯出檔案資訊CSV」。免費版每次最多匯出10列；勾選接下來的列再匯出即可。"
+            },
+            {
+              "q": "免費版對圖片數量有限制嗎？",
+              "a": "免費版每次下載或ZIP最多儲存10張選取的圖片。選取接下來的圖片並再次點擊同一按鈕即可繼續，不會被鎖定。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的數量限制。"
+            }
+          ]
+        }
       }
     },
     "download-files-from-webpage": {
-      path: "download-files-from-webpage.html",
-      related: ["download-all-pdfs", "bulk-download-images", "merge-pdfs-locally"],
-      copy: {
-        en: c("Download all files from a web page | Grab All Files", "Find documents, images, ZIPs, CSVs, and hidden file responses on a page. Filter, select, bulk-download, ZIP, merge PDFs, or export CSV.", "Bulk file download", "Download all files from a web page in one organized run.", "When a page mixes PDFs, Office documents, images, ZIPs, CSVs, and hidden fetch responses, manual saving is slow. Grab All Files scans the page, lists detectable files with metadata, and lets you choose exactly what to keep.", ["Pages with many document and media links.", "Pages where files are created by JavaScript or XHR.", "Audits that need a CSV of source URLs and metadata.", "One-off collection tasks where installing a full crawler is too much."], ["Scan the current page or paste a URL.", "Use filters for extension, size, name, page title, or date.", "Download selected files, create a local ZIP, merge PDFs, or export CSV."], [{ q: "What file types are supported?", a: "PDF, Office documents, images, ZIP, CSV, and many other downloadable file responses can be detected when the browser can access them. It also detects split / multi-volume archive sets such as .001, .r00, and .z01." }, { q: "Can I choose only certain files?", a: "Yes. Use filters, search, sorting, and manual selection before downloading." }, { q: "Does it work on old HTTP pages?", a: "Yes. It can scan both HTTP and HTTPS pages that your browser can open." }]),
-        ja: c("Webページ上のファイルを一括ダウンロード | Grab All Files", "文書、画像、ZIP、CSV、隠れたファイルレスポンスを検出。絞り込み、一括保存、ZIP化、PDF結合、CSV出力に対応。", "ファイル一括保存", "Webページ上のファイルを、整理された1回の作業で一括ダウンロード。",
-          "PDF、Office文書、画像、ZIP、CSV、fetch/XHRレスポンスが混在するページでは、手作業の保存に時間がかかります。Grab All Files は検出可能なファイルをメタデータ付きで一覧化し、必要なものだけ選べます。",
-          ["文書リンクやメディアが多いページ。", "JavaScriptやXHRでファイルが表示されるページ。", "URLとメタデータのCSVが必要な監査・棚卸し。", "本格的なクローラーまでは不要な単発収集作業。"],
-          ["現在のページをスキャン、またはURLを貼り付ける。", "拡張子、サイズ、名前、ページタイトル、日付で絞り込む。", "選択ファイルを一括保存、ローカルZIP化、PDF結合、CSV出力。"],
-          [{ q: "どのファイル形式に対応していますか？", a: "PDF、Office文書、画像、ZIP、CSVなど、ブラウザからアクセスできるダウンロード可能なレスポンスを検出できます。分割・マルチボリュームアーカイブ（.001、.r00、.z01 など）も検出します。" }, { q: "一部のファイルだけ選べますか？", a: "はい。フィルター、検索、並べ替え、手動選択をしてから保存できます。" }, { q: "古いHTTPページでも使えますか？", a: "はい。ブラウザで開けるHTTP/HTTPSページをスキャンできます。" }]
-        ),
-        es: c("Descargar todos los archivos de una página | Grab All Files", "Encuentra documentos, imágenes, ZIPs, CSVs y respuestas ocultas. Filtra, descarga, ZIP, fusiona PDF o exporta CSV.", "Descarga masiva", "Descarga todos los archivos de una página en una sola operación.", "Cuando una página mezcla PDFs, Office, imágenes, ZIPs, CSVs y respuestas fetch, guardar manualmente es lento. Grab All Files lista archivos detectables con metadatos para elegir qué conservar.", ["Páginas con muchos documentos y medios.", "Archivos creados por JavaScript o XHR.", "Auditorías que necesitan CSV de URLs y metadatos.", "Tareas puntuales sin instalar un crawler completo."], ["Escanea la página actual o pega una URL.", "Filtra por extensión, tamaño, nombre, título o fecha.", "Descarga, crea ZIP local, fusiona PDFs o exporta CSV."], [{ q: "¿Qué tipos admite?", a: "PDF, Office, imágenes, ZIP, CSV y otras respuestas descargables accesibles al navegador. También detecta conjuntos de archivos comprimidos divididos / multivolumen como .001, .r00 y .z01." }, { q: "¿Puedo elegir solo algunos?", a: "Sí. Usa filtros, búsqueda, ordenación y selección manual." }, { q: "¿Funciona en HTTP antiguo?", a: "Sí. Escanea páginas HTTP y HTTPS que tu navegador puede abrir." }]),
-        fr: c("Télécharger tous les fichiers d'une page | Grab All Files", "Trouvez documents, images, ZIP, CSV et réponses cachées. Filtrez, téléchargez, ZIP, fusion PDF ou export CSV.", "Téléchargement en masse", "Téléchargez tous les fichiers d'une page en une opération organisée.", "Quand une page mélange PDF, Office, images, ZIP, CSV et réponses fetch, l'enregistrement manuel est lent. Grab All Files liste les fichiers détectables avec métadonnées.", ["Pages avec nombreux documents et médias.", "Fichiers créés par JavaScript ou XHR.", "Audits nécessitant URLs et métadonnées en CSV.", "Collectes ponctuelles sans crawler complet."], ["Scannez la page actuelle ou collez une URL.", "Filtrez par extension, taille, nom, titre ou date.", "Téléchargez, créez un ZIP local, fusionnez les PDF ou exportez CSV."], [{ q: "Quels types sont pris en charge ?", a: "PDF, Office, images, ZIP, CSV et autres réponses téléchargeables accessibles au navigateur. Il détecte aussi les jeux d'archives fractionnées / multivolumes comme .001, .r00 et .z01." }, { q: "Puis-je choisir certains fichiers ?", a: "Oui. Utilisez filtres, recherche, tri et sélection manuelle." }, { q: "Fonctionne-t-il sur de vieux sites HTTP ?", a: "Oui. Il scanne HTTP et HTTPS si le navigateur peut les ouvrir." }]),
-        de: c("Alle Dateien von einer Webseite herunterladen | Grab All Files", "Findet Dokumente, Bilder, ZIPs, CSVs und versteckte Antworten. Filtern, Download, ZIP, PDF-Merge oder CSV-Export.", "Massendownload", "Laden Sie alle Dateien einer Webseite in einem organisierten Lauf herunter.", "Wenn eine Seite PDFs, Office-Dateien, Bilder, ZIPs, CSVs und fetch-Antworten mischt, ist manuelles Speichern langsam. Grab All Files listet erkannte Dateien mit Metadaten.", ["Seiten mit vielen Dokumenten und Medien.", "Dateien, die per JavaScript oder XHR entstehen.", "Audits mit CSV von URLs und Metadaten.", "Einmalige Sammlungen ohne kompletten Crawler."], ["Aktuelle Seite scannen oder URL einfügen.", "Nach Erweiterung, Größe, Name, Titel oder Datum filtern.", "Herunterladen, lokales ZIP erstellen, PDFs zusammenführen oder CSV exportieren."], [{ q: "Welche Typen werden unterstützt?", a: "PDF, Office, Bilder, ZIP, CSV und andere herunterladbare Antworten, die der Browser erreichen kann. Es erkennt außerdem geteilte / mehrteilige Archivsätze wie .001, .r00 und .z01." }, { q: "Kann ich nur bestimmte Dateien wählen?", a: "Ja. Filter, Suche, Sortierung und manuelle Auswahl sind verfügbar." }, { q: "Funktioniert es auf HTTP-Seiten?", a: "Ja. Es scannt HTTP und HTTPS, wenn der Browser die Seite öffnen kann." }]),
-        it: c("Scaricare tutti i file da una pagina | Grab All Files", "Trova documenti, immagini, ZIP, CSV e risposte nascoste. Filtra, scarica, ZIP, unisci PDF o esporta CSV.", "Download in massa", "Scarica tutti i file da una pagina in un'unica operazione.", "Quando una pagina mescola PDF, Office, immagini, ZIP, CSV e risposte fetch, salvare a mano è lento. Grab All Files elenca i file rilevabili con metadati.", ["Pagine con molti documenti e media.", "File creati da JavaScript o XHR.", "Audit che richiedono CSV di URL e metadati.", "Raccolte una tantum senza crawler completo."], ["Scansiona la pagina corrente o incolla una URL.", "Filtra per estensione, dimensione, nome, titolo o data.", "Scarica, crea ZIP locale, unisci PDF o esporta CSV."], [{ q: "Quali tipi sono supportati?", a: "PDF, Office, immagini, ZIP, CSV e altre risposte scaricabili accessibili al browser. Rileva anche set di archivi divisi / multivolume come .001, .r00 e .z01." }, { q: "Posso scegliere solo alcuni file?", a: "Sì. Usa filtri, ricerca, ordinamento e selezione manuale." }, { q: "Funziona su pagine HTTP?", a: "Sì. Scansiona HTTP e HTTPS che il browser può aprire." }]),
-        ko: c("웹페이지의 모든 파일 다운로드 | Grab All Files", "문서, 이미지, ZIP, CSV, 숨겨진 파일 응답을 찾고 필터링, 다운로드, ZIP, PDF 병합, CSV 내보내기를 지원합니다.", "파일 일괄 다운로드", "웹페이지의 파일을 한 번에 정리해서 다운로드하세요.", "PDF, Office 문서, 이미지, ZIP, CSV, fetch 응답이 섞인 페이지를 수동 저장하는 것은 느립니다. Grab All Files는 감지 가능한 파일을 메타데이터와 함께 목록화해 필요한 것만 선택하게 합니다.", ["문서와 미디어 링크가 많은 페이지.", "JavaScript 또는 XHR로 파일이 만들어지는 페이지.", "URL과 메타데이터 CSV가 필요한 감사 작업.", "전체 크롤러까지는 필요 없는 단발 수집."], ["현재 페이지를 스캔하거나 URL을 붙여넣습니다.", "확장자, 크기, 이름, 페이지 제목, 날짜로 필터링합니다.", "다운로드, 로컬 ZIP 생성, PDF 병합, CSV 내보내기를 합니다."], [{ q: "어떤 파일 형식을 지원하나요?", a: "PDF, Office 문서, 이미지, ZIP, CSV 등 브라우저가 접근 가능한 다운로드 응답을 감지할 수 있습니다. 분할 / 멀티볼륨 아카이브 세트(.001, .r00, .z01 등)도 감지합니다." }, { q: "일부 파일만 선택할 수 있나요?", a: "예. 필터, 검색, 정렬, 수동 선택을 사용할 수 있습니다." }, { q: "오래된 HTTP 페이지도 작동하나요?", a: "예. 브라우저에서 열 수 있는 HTTP/HTTPS 페이지를 스캔합니다." }]),
-        pt_BR: c("Baixar todos os arquivos de uma página | Grab All Files", "Encontre documentos, imagens, ZIPs, CSVs e respostas ocultas. Filtre, baixe, ZIP, mescle PDF ou exporte CSV.", "Download em massa", "Baixe todos os arquivos de uma página em uma operação organizada.", "Quando uma página mistura PDFs, Office, imagens, ZIPs, CSVs e respostas fetch, salvar manualmente é lento. Grab All Files lista arquivos detectáveis com metadados.", ["Páginas com muitos documentos e mídias.", "Arquivos criados por JavaScript ou XHR.", "Auditorias que precisam de CSV de URLs e metadados.", "Coletas pontuais sem crawler completo."], ["Escaneie a página atual ou cole uma URL.", "Filtre por extensão, tamanho, nome, título ou data.", "Baixe, crie ZIP local, mescle PDFs ou exporte CSV."], [{ q: "Quais tipos são suportados?", a: "PDF, Office, imagens, ZIP, CSV e outras respostas baixáveis acessíveis ao navegador. Também detecta conjuntos de arquivos divididos / multivolume como .001, .r00 e .z01." }, { q: "Posso escolher apenas alguns arquivos?", a: "Sim. Use filtros, busca, ordenação e seleção manual." }, { q: "Funciona em páginas HTTP antigas?", a: "Sim. Escaneia HTTP e HTTPS que o navegador consegue abrir." }]),
-        zh_CN: c("下载网页上的所有文件 | Grab All Files", "查找文档、图片、ZIP、CSV和隐藏文件响应。可筛选、批量下载、ZIP、PDF合并或CSV导出。", "文件批量下载", "一次有序操作，下载网页上的所有文件。", "当页面混合PDF、Office文档、图片、ZIP、CSV和fetch响应时，手动保存很慢。Grab All Files 会列出可检测文件和元数据，让您只保留需要的内容。", ["包含大量文档和媒体链接的页面。", "由JavaScript或XHR生成文件的页面。", "需要URL和元数据CSV的审计。", "不需要完整爬虫的一次性收集任务。"], ["扫描当前页面或粘贴URL。", "按扩展名、大小、名称、页面标题或日期筛选。", "下载选中文件、创建本地ZIP、合并PDF或导出CSV。"], [{ q: "支持哪些文件类型？", a: "可检测浏览器能访问的PDF、Office文档、图片、ZIP、CSV和其他可下载响应。还能检测分卷 / 多卷压缩包（如 .001、.r00、.z01）。" }, { q: "能只选择部分文件吗？", a: "可以。下载前可过滤、搜索、排序并手动选择。" }, { q: "旧HTTP页面也可以吗？", a: "可以。浏览器能打开的HTTP和HTTPS页面都可扫描。" }]),
-        zh_TW: c("下載網頁上的所有檔案 | Grab All Files", "查找文件、圖片、ZIP、CSV和隱藏檔案回應。可篩選、批次下載、ZIP、PDF合併或CSV匯出。", "檔案批次下載", "一次有序操作，下載網頁上的所有檔案。", "當頁面混合PDF、Office文件、圖片、ZIP、CSV和fetch回應時，手動儲存很慢。Grab All Files 會列出可偵測檔案和中繼資料，讓您只保留需要的內容。", ["包含大量文件和媒體連結的頁面。", "由JavaScript或XHR產生檔案的頁面。", "需要URL和中繼資料CSV的稽核。", "不需要完整爬蟲的一次性收集工作。"], ["掃描目前頁面或貼上URL。", "依副檔名、大小、名稱、頁面標題或日期篩選。", "下載選取檔案、建立本機ZIP、合併PDF或匯出CSV。"], [{ q: "支援哪些檔案類型？", a: "可偵測瀏覽器能存取的PDF、Office文件、圖片、ZIP、CSV和其他可下載回應。也能偵測分卷 / 多卷壓縮檔（如 .001、.r00、.z01）。" }, { q: "能只選擇部分檔案嗎？", a: "可以。下載前可篩選、搜尋、排序並手動選擇。" }, { q: "舊HTTP頁面也可以嗎？", a: "可以。瀏覽器能開啟的HTTP和HTTPS頁面都可掃描。" }])
+      "path": "download-files-from-webpage.html",
+      "related": [
+        "download-all-pdfs",
+        "bulk-download-images",
+        "merge-pdfs-locally"
+      ],
+      "copy": {
+        "en": {
+          "title": "Download all files from a web page | Grab All Files",
+          "desc": "Find PDFs, Office files, images, ZIPs and CSVs on a web page, filter the list and save them in bulk or as one ZIP. Free saves 10 files per download.",
+          "eyebrow": "Bulk file download",
+          "h1": "Download all files from a web page in one organized run.",
+          "lead": "When a page mixes PDFs, Office documents, images, ZIPs, CSVs, and hidden fetch responses, manual saving is slow. Grab All Files scans the page, lists detectable files with metadata, and lets you choose exactly what to keep.",
+          "best": [
+            "Pages with many document, media or archive links.",
+            "Pages where files appear through JavaScript, viewers or background requests.",
+            "Audits that need a CSV of file URLs, sizes and source pages.",
+            "One-off collection jobs where setting up a crawler is too much."
+          ],
+          "steps": [
+            "Open the page in Chrome, Edge or Firefox and click the Grab All Files icon in the toolbar. The file list is built for the page you are on.",
+            "Press “Scan”. To include pages this one links to, raise “Depth” first (“This page only” checks just this page); linked pages are followed only inside the starting page’s folder.",
+            "Narrow the list with the file-type list, the search box for names and titles, and “Details” (minimum size, “Save as”). Tick the files you want.",
+            "Press “Download”. ZIP, “Merge PDFs”, “Organize” and “Export File Info CSV” are under “More actions”. Free saves up to 10 files per download.",
+            "For a longer list, select the next files and press “Download” again. Failed rows show a reason; fix access and retry them."
+          ],
+          "faq": [
+            {
+              "q": "What file types are supported?",
+              "a": "PDF, Office documents, images, ZIP, CSV, and many other downloadable file responses can be detected when the browser can access them. It also detects split / multi-volume archive sets such as .001, .r00, and .z01."
+            },
+            {
+              "q": "Can I choose only certain files?",
+              "a": "Yes. Filter by file type, name, title or size, sort by any column and tick only the rows you want. Nothing is saved until you press a save button."
+            },
+            {
+              "q": "Is there a limit in the free version?",
+              "a": "Free saves up to 10 selected files per download, and the same limit applies to ZIP, “Merge PDFs” and CSV export. Select the next files and press the button again to continue — nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-download limit."
+            },
+            {
+              "q": "It found nothing, or fewer files than expected. What can I try?",
+              "a": "For pages that load more while you scroll, open “Scan options”, turn on “Scroll & load everything before scanning” and scan again. If the files sit on linked pages, raise “Depth”. Pause ad blockers for the site. When downloads are started by the page’s own JavaScript, use “Active Capture” when it is offered."
+            },
+            {
+              "q": "The page needs a sign-in. What should I do?",
+              "a": "Sign in to the site in the same browser first, then scan. Grab All Files uses the session you already have; with Depth 1 or more it opens linked pages with that sign-in. It never signs in for you or bypasses access limits. Rows marked “Login required to access this file” need a fresh sign-in before you retry them."
+            },
+            {
+              "q": "Does it work on old HTTP pages?",
+              "a": "Yes. It can scan both HTTP and HTTPS pages that your browser can open."
+            }
+          ]
+        },
+        "ja": {
+          "title": "Webページ上のファイルを一括ダウンロード | Grab All Files",
+          "desc": "Webページ上のPDF・Office文書・画像・ZIP・CSVを検出し、絞り込んで一括保存やZIP化。無料版は1回のダウンロードで10件まで保存できます。",
+          "eyebrow": "ファイル一括保存",
+          "h1": "Webページ上のファイルを、整理された1回の作業で一括ダウンロード。",
+          "lead": "PDF、Office文書、画像、ZIP、CSV、fetch/XHRレスポンスが混在するページでは、手作業の保存に時間がかかります。Grab All Files は検出可能なファイルをメタデータ付きで一覧化し、必要なものだけ選べます。",
+          "best": [
+            "文書・メディア・圧縮ファイルのリンクが多いページ。",
+            "JavaScript、ビューアー、バックグラウンド通信でファイルが表示されるページ。",
+            "ファイルのURL・サイズ・リンク元ページをCSVで残したい監査・棚卸し。",
+            "クローラーを用意するほどではない単発の収集作業。"
+          ],
+          "steps": [
+            "Chrome・Edge・Firefoxで対象ページを開き、ツールバーのGrab All Filesアイコンを押します。いま開いているページのファイル一覧が作られます。",
+            "「スキャン」を押します。リンク先のページも調べるときは先に「深さ」を上げます（「このページのみ」はこのページだけ）。リンク先は起点ページのフォルダ配下だけをたどります。",
+            "ファイル種類の一覧、ファイル名・タイトルの検索欄、「詳細設定」（最小サイズ・「保存名」）で絞り込み、保存するファイルにチェックを入れます。",
+            "「ダウンロード」を押します。ZIP、「PDF結合」、「整理」、「ファイル情報CSV出力」は「その他の操作」にあります。無料版は1回のダウンロードで10件までです。",
+            "件数が多いときは、次のファイルを選んでもう一度「ダウンロード」を押します。失敗した行には理由が表示されるので、アクセスを直してから再試行します。"
+          ],
+          "faq": [
+            {
+              "q": "どのファイル形式に対応していますか？",
+              "a": "PDF、Office文書、画像、ZIP、CSVなど、ブラウザからアクセスできるダウンロード可能なレスポンスを検出できます。分割・マルチボリュームアーカイブ（.001、.r00、.z01 など）も検出します。"
+            },
+            {
+              "q": "一部のファイルだけ選べますか？",
+              "a": "はい。ファイル種類・名前・タイトル・サイズで絞り込み、列で並べ替えて、必要な行だけにチェックを入れられます。保存ボタンを押すまでは何も保存されません。"
+            },
+            {
+              "q": "無料版に上限はありますか？",
+              "a": "無料版は1回のダウンロードで選択した10件まで保存でき、ZIP・「PDF結合」・CSV出力にも同じ上限があります。続けるときは次のファイルを選んで同じボタンをもう一度押してください。ロックはかかりません。Pro（$19.99・買い切り、3台まで）は1回あたりの件数上限がありません。"
+            },
+            {
+              "q": "ファイルが見つからない・少ないときは？",
+              "a": "スクロールで続きが読み込まれるページは、「スキャン設定」で「スキャン前にスクロールして全て読み込む（ギャラリー・長い一覧）」をオンにして再スキャンします。ファイルがリンク先のページにある場合は「深さ」を上げます。広告ブロッカーはそのサイトで一時停止してください。ページのJavaScriptでダウンロードが始まる場合は、表示される「アクティブ取得」を使います。"
+            },
+            {
+              "q": "ログインが必要なページはどうすればいいですか？",
+              "a": "先に同じブラウザでサイトにログインしてからスキャンします。Grab All Filesは既存のログイン状態を使い、深さ1以上ではリンク先のページも同じログイン状態で開きます。代わりにログインしたり、アクセス制限を回避したりはしません。「ログインが必要です」と表示された行は、ログインし直してから再試行してください。"
+            },
+            {
+              "q": "古いHTTPページでも使えますか？",
+              "a": "はい。ブラウザで開けるHTTP/HTTPSページをスキャンできます。"
+            }
+          ]
+        },
+        "es": {
+          "title": "Descargar todos los archivos de una página | Grab All Files",
+          "desc": "Encuentra PDF, archivos de Office, imágenes, ZIP y CSV en una página web, filtra la lista y guárdalos en bloque o en ZIP. Gratis: 10 por descarga.",
+          "eyebrow": "Descarga masiva",
+          "h1": "Descarga todos los archivos de una página en una sola operación.",
+          "lead": "Cuando una página mezcla PDF, documentos de Office, imágenes, ZIP, CSV y respuestas fetch ocultas, guardar a mano es lento. Grab All Files escanea la página, lista los archivos detectables con sus metadatos y te deja elegir exactamente qué conservar.",
+          "best": [
+            "Páginas con muchos enlaces a documentos, medios o archivos comprimidos.",
+            "Páginas donde los archivos aparecen mediante JavaScript, visores o peticiones en segundo plano.",
+            "Auditorías que necesitan un CSV con URL, tamaños y páginas de origen.",
+            "Recopilaciones puntuales en las que montar un rastreador sería excesivo."
+          ],
+          "steps": [
+            "Abre la página en Chrome, Edge o Firefox y haz clic en el icono de Grab All Files en la barra de herramientas. La lista de archivos se crea para la página abierta.",
+            "Pulsa «Escanear». Para incluir las páginas enlazadas, sube antes la «Profundidad» («Solo esta página» revisa únicamente esta); los enlaces solo se siguen dentro de la carpeta de la página de partida.",
+            "Reduce la lista con los tipos de archivo, el cuadro de búsqueda de nombres y títulos y «Detalles» (tamaño mínimo, «Guardar como»). Marca los archivos que quieras.",
+            "Pulsa «Descargar». ZIP, «Combinar PDFs», «Organizar» y «Exportar info de archivos en CSV» están en «Más acciones». La versión gratuita guarda hasta 10 archivos por descarga.",
+            "Si la lista es larga, selecciona los siguientes archivos y vuelve a pulsar «Descargar». Las filas fallidas muestran el motivo; corrige el acceso y reinténtalas."
+          ],
+          "faq": [
+            {
+              "q": "¿Qué tipos admite?",
+              "a": "PDF, Office, imágenes, ZIP, CSV y otras respuestas descargables accesibles al navegador. También detecta conjuntos de archivos comprimidos divididos / multivolumen como .001, .r00 y .z01."
+            },
+            {
+              "q": "¿Puedo elegir solo algunos archivos?",
+              "a": "Sí. Filtra por tipo, nombre, título o tamaño, ordena por cualquier columna y marca solo las filas que necesites. No se guarda nada hasta que pulsas un botón de guardado."
+            },
+            {
+              "q": "¿Tiene límite la versión gratuita?",
+              "a": "La versión gratuita guarda hasta 10 archivos seleccionados por descarga, y el mismo límite se aplica a ZIP, «Combinar PDFs» y la exportación CSV. Para seguir, selecciona los siguientes archivos y vuelve a pulsar el botón; no se bloquea nada. Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga."
+            },
+            {
+              "q": "No encontró nada o menos archivos de lo esperado. ¿Qué puedo probar?",
+              "a": "En páginas que cargan más contenido al desplazarte, abre «Opciones de escaneo», activa «Desplázate y carga todo antes de escanear» y vuelve a escanear. Si los archivos están en páginas enlazadas, sube la «Profundidad». Pausa los bloqueadores de anuncios en ese sitio. Si las descargas las inicia el JavaScript de la página, usa «Captura activa» cuando se ofrezca."
+            },
+            {
+              "q": "La página requiere iniciar sesión. ¿Qué hago?",
+              "a": "Inicia sesión en el sitio en el mismo navegador y después escanea. Grab All Files usa la sesión que ya tienes; con profundidad 1 o más abre las páginas enlazadas con esa misma sesión. Nunca inicia sesión por ti ni elude restricciones de acceso. Las filas marcadas con «Se requiere iniciar sesión» necesitan que vuelvas a iniciar sesión antes de reintentarlas."
+            },
+            {
+              "q": "¿Funciona en HTTP antiguo?",
+              "a": "Sí. Escanea páginas HTTP y HTTPS que tu navegador puede abrir."
+            }
+          ]
+        },
+        "fr": {
+          "title": "Télécharger tous les fichiers d'une page | Grab All Files",
+          "desc": "Trouvez les PDF, fichiers Office, images, ZIP et CSV d’une page web, filtrez la liste et enregistrez-les en lot ou en ZIP. Gratuit : 10 fichiers par lot.",
+          "eyebrow": "Téléchargement en masse",
+          "h1": "Téléchargez tous les fichiers d'une page en une opération organisée.",
+          "lead": "Quand une page mélange PDF, documents Office, images, ZIP, CSV et réponses fetch cachées, l’enregistrement manuel est lent. Grab All Files analyse la page, liste les fichiers détectables avec leurs métadonnées et vous laisse choisir précisément ce que vous gardez.",
+          "best": [
+            "Pages comportant de nombreux liens vers des documents, médias ou archives.",
+            "Pages où les fichiers apparaissent via JavaScript, des visionneuses ou des requêtes en arrière-plan.",
+            "Audits nécessitant un CSV des URL, tailles et pages sources.",
+            "Collectes ponctuelles pour lesquelles un robot d’exploration serait disproportionné."
+          ],
+          "steps": [
+            "Ouvrez la page dans Chrome, Edge ou Firefox et cliquez sur l’icône Grab All Files de la barre d’outils. La liste des fichiers porte sur la page ouverte.",
+            "Cliquez sur « Scanner ». Pour inclure les pages liées, augmentez d’abord la « Profondeur » (« Cette page uniquement » n’analyse que cette page) ; les liens ne sont suivis que dans le dossier de la page de départ.",
+            "Affinez la liste avec les types de fichiers, le champ de recherche (nom ou titre) et « Détails » (taille minimale, « Enregistrer sous »). Cochez les fichiers voulus.",
+            "Cliquez sur « Télécharger ». Le ZIP, « Fusionner les PDFs », « Classement » et « Exporter les infos fichiers en CSV » se trouvent dans « Autres actions ». La version gratuite enregistre jusqu’à 10 fichiers par téléchargement.",
+            "Pour une longue liste, sélectionnez les fichiers suivants et cliquez à nouveau sur « Télécharger ». Les lignes en échec indiquent leur motif : corrigez l’accès puis relancez-les."
+          ],
+          "faq": [
+            {
+              "q": "Quels types sont pris en charge ?",
+              "a": "PDF, Office, images, ZIP, CSV et autres réponses téléchargeables accessibles au navigateur. Il détecte aussi les jeux d'archives fractionnées / multivolumes comme .001, .r00 et .z01."
+            },
+            {
+              "q": "Puis-je ne choisir que certains fichiers ?",
+              "a": "Oui. Filtrez par type, nom, titre ou taille, triez sur n’importe quelle colonne et ne cochez que les lignes utiles. Rien n’est enregistré avant que vous cliquiez sur un bouton d’enregistrement."
+            },
+            {
+              "q": "La version gratuite est-elle limitée ?",
+              "a": "La version gratuite enregistre jusqu’à 10 fichiers sélectionnés par téléchargement ; la même limite vaut pour le ZIP, « Fusionner les PDFs » et l’export CSV. Pour continuer, sélectionnez les fichiers suivants et cliquez à nouveau sur le bouton : rien n’est bloqué. Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement."
+            },
+            {
+              "q": "Rien n’a été trouvé, ou moins de fichiers que prévu. Que faire ?",
+              "a": "Pour les pages qui se chargent au défilement, ouvrez « Options d’analyse », activez « Faire défiler et tout charger avant l’analyse » puis relancez l’analyse. Si les fichiers se trouvent sur des pages liées, augmentez la « Profondeur ». Mettez en pause les bloqueurs de publicité sur ce site. Si les téléchargements sont lancés par le JavaScript de la page, utilisez « Capture active » lorsqu’elle est proposée."
+            },
+            {
+              "q": "La page demande une connexion. Que faire ?",
+              "a": "Connectez-vous d’abord au site dans le même navigateur, puis lancez l’analyse. Grab All Files utilise la session déjà ouverte ; à partir de la profondeur 1, il ouvre les pages liées avec cette même connexion. Il ne se connecte jamais à votre place et ne contourne aucune restriction d’accès. Les lignes marquées « Connexion requise » demandent de vous reconnecter avant de les relancer."
+            },
+            {
+              "q": "Fonctionne-t-il sur de vieux sites HTTP ?",
+              "a": "Oui. Il scanne HTTP et HTTPS si le navigateur peut les ouvrir."
+            }
+          ]
+        },
+        "de": {
+          "title": "Alle Dateien von einer Webseite herunterladen | Grab All Files",
+          "desc": "PDFs, Office-Dateien, Bilder, ZIPs und CSVs auf einer Webseite finden, filtern und gesammelt oder als ZIP speichern. Kostenlos: 10 pro Download.",
+          "eyebrow": "Massendownload",
+          "h1": "Laden Sie alle Dateien einer Webseite in einem organisierten Lauf herunter.",
+          "lead": "Wenn eine Seite PDFs, Office-Dokumente, Bilder, ZIPs, CSVs und versteckte fetch-Antworten mischt, ist manuelles Speichern mühsam. Grab All Files scannt die Seite, listet erkennbare Dateien mit Metadaten und lässt Sie genau auswählen, was Sie behalten.",
+          "best": [
+            "Seiten mit vielen Links zu Dokumenten, Medien oder Archiven.",
+            "Seiten, auf denen Dateien per JavaScript, Viewer oder Hintergrundanfragen erscheinen.",
+            "Audits, die eine CSV mit Datei-URLs, Größen und Quellseiten brauchen.",
+            "Einmalige Sammelaufgaben, für die ein eigener Crawler zu aufwendig wäre."
+          ],
+          "steps": [
+            "Öffnen Sie die Seite in Chrome, Edge oder Firefox und klicken Sie in der Symbolleiste auf das Grab-All-Files-Symbol. Die Dateiliste bezieht sich auf die geöffnete Seite.",
+            "Klicken Sie auf „Scannen“. Sollen verlinkte Seiten einbezogen werden, erhöhen Sie vorher die „Tiefe“ („Nur diese Seite“ prüft nur diese Seite); Links werden nur innerhalb des Ordners der Ausgangsseite verfolgt.",
+            "Grenzen Sie die Liste über die Dateitypen, das Suchfeld für Namen und Titel und „Details“ (Mindestgröße, „Speichern als“) ein. Haken Sie die gewünschten Dateien an.",
+            "Klicken Sie auf „Herunterladen“. ZIP, „PDFs zusammenführen“, „Ablage“ und „Dateiinfo als CSV exportieren“ finden Sie unter „Weitere Aktionen“. Die kostenlose Version speichert bis zu 10 Dateien pro Download.",
+            "Bei längeren Listen wählen Sie die nächsten Dateien aus und klicken erneut auf „Herunterladen“. Fehlgeschlagene Zeilen nennen den Grund; beheben Sie den Zugriff und wiederholen Sie sie."
+          ],
+          "faq": [
+            {
+              "q": "Welche Typen werden unterstützt?",
+              "a": "PDF, Office, Bilder, ZIP, CSV und andere herunterladbare Antworten, die der Browser erreichen kann. Es erkennt außerdem geteilte / mehrteilige Archivsätze wie .001, .r00 und .z01."
+            },
+            {
+              "q": "Kann ich nur bestimmte Dateien auswählen?",
+              "a": "Ja. Filtern Sie nach Typ, Name, Titel oder Größe, sortieren Sie nach einer beliebigen Spalte und haken Sie nur die benötigten Zeilen an. Gespeichert wird erst, wenn Sie eine Speicherschaltfläche anklicken."
+            },
+            {
+              "q": "Gibt es in der kostenlosen Version ein Limit?",
+              "a": "Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Download; dasselbe Limit gilt für ZIP, „PDFs zusammenführen“ und den CSV-Export. Zum Weitermachen wählen Sie die nächsten Dateien aus und klicken erneut auf die Schaltfläche – gesperrt wird nichts. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Download auf."
+            },
+            {
+              "q": "Es wurde nichts oder weniger gefunden als erwartet. Was kann ich tun?",
+              "a": "Bei Seiten, die beim Scrollen nachladen, öffnen Sie „Scan-Optionen“, aktivieren „Vor dem Scan alles scrollen & laden“ und scannen erneut. Liegen die Dateien auf verlinkten Seiten, erhöhen Sie die „Tiefe“. Pausieren Sie Werbeblocker für die Website. Werden Downloads vom JavaScript der Seite gestartet, nutzen Sie „Aktive Erfassung“, sobald sie angeboten wird."
+            },
+            {
+              "q": "Die Seite verlangt eine Anmeldung. Was tun?",
+              "a": "Melden Sie sich zuerst im selben Browser bei der Website an und scannen Sie dann. Grab All Files nutzt Ihre bestehende Sitzung; ab Tiefe 1 öffnet es verlinkte Seiten mit derselben Anmeldung. Es meldet sich nie für Sie an und umgeht keine Zugriffsbeschränkungen. Zeilen mit „Anmeldung erforderlich“ wiederholen Sie nach einer erneuten Anmeldung."
+            },
+            {
+              "q": "Funktioniert es auf HTTP-Seiten?",
+              "a": "Ja. Es scannt HTTP und HTTPS, wenn der Browser die Seite öffnen kann."
+            }
+          ]
+        },
+        "it": {
+          "title": "Scaricare tutti i file da una pagina | Grab All Files",
+          "desc": "Trova PDF, file Office, immagini, ZIP e CSV in una pagina web, filtra l’elenco e salvali in blocco o in un unico ZIP. Gratis: 10 file per download.",
+          "eyebrow": "Download in massa",
+          "h1": "Scarica tutti i file da una pagina in un'unica operazione.",
+          "lead": "Quando una pagina mescola PDF, documenti Office, immagini, ZIP, CSV e risposte fetch nascoste, salvare a mano è lento. Grab All Files analizza la pagina, elenca i file rilevabili con i metadati e ti lascia scegliere esattamente cosa tenere.",
+          "best": [
+            "Pagine con molti link a documenti, contenuti multimediali o archivi.",
+            "Pagine in cui i file compaiono tramite JavaScript, visualizzatori o richieste in background.",
+            "Verifiche che richiedono un CSV con URL, dimensioni e pagine di origine.",
+            "Raccolte occasionali per cui configurare un crawler sarebbe eccessivo."
+          ],
+          "steps": [
+            "Apri la pagina in Chrome, Edge o Firefox e fai clic sull’icona di Grab All Files nella barra degli strumenti. L’elenco dei file riguarda la pagina aperta.",
+            "Fai clic su «Scansiona». Per includere le pagine collegate, aumenta prima la «Profondità» («Solo questa pagina» controlla solo questa); i link vengono seguiti solo all’interno della cartella della pagina di partenza.",
+            "Restringi l’elenco con i tipi di file, la casella di ricerca per nomi e titoli e «Dettagli» (dimensione minima, «Salva come»). Seleziona i file che ti servono.",
+            "Fai clic su «Scarica». ZIP, «Unisci PDF», «Organizza» ed «Esporta info file in CSV» si trovano in «Altre azioni». La versione gratuita salva fino a 10 file per download.",
+            "Per un elenco lungo, seleziona i file successivi e fai di nuovo clic su «Scarica». Le righe non riuscite mostrano il motivo: correggi l’accesso e riprova."
+          ],
+          "faq": [
+            {
+              "q": "Quali tipi sono supportati?",
+              "a": "PDF, Office, immagini, ZIP, CSV e altre risposte scaricabili accessibili al browser. Rileva anche set di archivi divisi / multivolume come .001, .r00 e .z01."
+            },
+            {
+              "q": "Posso scegliere solo alcuni file?",
+              "a": "Sì. Filtra per tipo, nome, titolo o dimensione, ordina per qualsiasi colonna e seleziona solo le righe che ti servono. Non viene salvato nulla finché non premi un pulsante di salvataggio."
+            },
+            {
+              "q": "La versione gratuita ha un limite?",
+              "a": "La versione gratuita salva fino a 10 file selezionati per download e lo stesso limite vale per ZIP, «Unisci PDF» ed esportazione CSV. Per continuare, seleziona i file successivi e premi di nuovo il pulsante: non viene bloccato nulla. Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download."
+            },
+            {
+              "q": "Non ha trovato nulla, o meno file del previsto. Cosa posso fare?",
+              "a": "Per le pagine che caricano altro contenuto mentre scorri, apri «Opzioni di scansione», attiva «Scorri e carica tutto prima della scansione» e ripeti la scansione. Se i file sono in pagine collegate, aumenta la «Profondità». Sospendi i blocchi pubblicitari per quel sito. Se i download vengono avviati dal JavaScript della pagina, usa «Cattura attiva» quando viene proposta."
+            },
+            {
+              "q": "La pagina richiede l’accesso. Cosa devo fare?",
+              "a": "Accedi prima al sito nello stesso browser, poi avvia la scansione. Grab All Files usa la sessione che hai già; con profondità 1 o superiore apre le pagine collegate con lo stesso accesso. Non accede mai al posto tuo né aggira le restrizioni. Le righe con «Accesso richiesto» vanno ritentate dopo aver effettuato di nuovo l’accesso."
+            },
+            {
+              "q": "Funziona su pagine HTTP?",
+              "a": "Sì. Scansiona HTTP e HTTPS che il browser può aprire."
+            }
+          ]
+        },
+        "ko": {
+          "title": "웹페이지의 모든 파일 다운로드 | Grab All Files",
+          "desc": "웹페이지의 PDF, Office 문서, 이미지, ZIP, CSV를 찾아 목록을 필터링하고 한 번에 또는 ZIP으로 저장합니다. 무료 버전은 다운로드당 10개까지 저장합니다.",
+          "eyebrow": "파일 일괄 다운로드",
+          "h1": "웹페이지의 파일을 한 번에 정리해서 다운로드하세요.",
+          "lead": "PDF, Office 문서, 이미지, ZIP, CSV, fetch 응답이 섞인 페이지를 수동 저장하는 것은 느립니다. Grab All Files는 감지 가능한 파일을 메타데이터와 함께 목록화해 필요한 것만 선택하게 합니다.",
+          "best": [
+            "문서, 미디어, 압축 파일 링크가 많은 페이지.",
+            "JavaScript, 뷰어, 백그라운드 요청으로 파일이 나타나는 페이지.",
+            "파일 URL, 크기, 링크 원본 페이지를 CSV로 남겨야 하는 감사 작업.",
+            "크롤러를 따로 준비하기엔 과한 일회성 수집 작업."
+          ],
+          "steps": [
+            "Chrome, Edge 또는 Firefox에서 페이지를 열고 툴바의 Grab All Files 아이콘을 누릅니다. 지금 열려 있는 페이지의 파일 목록이 만들어집니다.",
+            "“스캔”을 누릅니다. 링크된 페이지까지 포함하려면 먼저 “깊이”를 올립니다(“이 페이지만”은 이 페이지만 확인). 링크는 시작 페이지의 폴더 안에서만 따라갑니다.",
+            "파일 유형 목록, 파일 이름·제목 검색창, “상세 설정”(최소 크기, “저장 이름”)으로 목록을 좁히고 원하는 파일을 체크합니다.",
+            "“다운로드”를 누릅니다. ZIP, “PDF 병합”, “정리”, “파일 정보 CSV 내보내기”는 “기타 작업”에 있습니다. 무료 버전은 다운로드당 10개까지 저장합니다.",
+            "목록이 길면 다음 파일을 선택하고 “다운로드”를 다시 누릅니다. 실패한 행에는 이유가 표시되므로 접근 문제를 해결한 뒤 다시 시도하세요."
+          ],
+          "faq": [
+            {
+              "q": "어떤 파일 형식을 지원하나요?",
+              "a": "PDF, Office 문서, 이미지, ZIP, CSV 등 브라우저가 접근 가능한 다운로드 응답을 감지할 수 있습니다. 분할 / 멀티볼륨 아카이브 세트(.001, .r00, .z01 등)도 감지합니다."
+            },
+            {
+              "q": "일부 파일만 선택할 수 있나요?",
+              "a": "예. 유형, 이름, 제목, 크기로 필터링하고 원하는 열로 정렬한 뒤 필요한 행만 체크하면 됩니다. 저장 버튼을 누르기 전에는 아무것도 저장되지 않습니다."
+            },
+            {
+              "q": "무료 버전에 제한이 있나요?",
+              "a": "무료 버전은 다운로드당 선택한 파일을 최대 10개까지 저장하며, ZIP, “PDF 병합”, CSV 내보내기에도 같은 제한이 적용됩니다. 계속하려면 다음 파일을 선택하고 같은 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
+            },
+            {
+              "q": "아무것도 찾지 못했거나 예상보다 적어요. 어떻게 하나요?",
+              "a": "스크롤할 때 내용이 더 불러와지는 페이지는 “스캔 설정”에서 “스캔 전에 스크롤해 모두 불러오기(갤러리, 긴 목록)”를 켜고 다시 스캔하세요. 파일이 링크된 페이지에 있다면 “깊이”를 올립니다. 해당 사이트에서는 광고 차단기를 잠시 끄세요. 페이지의 JavaScript가 다운로드를 시작하는 경우에는 표시되는 “액티브 캡처”를 사용합니다."
+            },
+            {
+              "q": "로그인이 필요한 페이지는 어떻게 하나요?",
+              "a": "먼저 같은 브라우저에서 사이트에 로그인한 뒤 스캔합니다. Grab All Files는 이미 있는 로그인 세션을 사용하며, 깊이 1 이상에서는 링크된 페이지도 같은 로그인 상태로 엽니다. 대신 로그인하거나 접근 제한을 우회하지는 않습니다. “로그인이 필요합니다”로 표시된 행은 다시 로그인한 뒤 재시도하세요."
+            },
+            {
+              "q": "오래된 HTTP 페이지도 작동하나요?",
+              "a": "예. 브라우저에서 열 수 있는 HTTP/HTTPS 페이지를 스캔합니다."
+            }
+          ]
+        },
+        "pt_BR": {
+          "title": "Baixar todos os arquivos de uma página | Grab All Files",
+          "desc": "Encontre PDFs, arquivos do Office, imagens, ZIPs e CSVs em uma página, filtre a lista e salve tudo em lote ou em ZIP. Grátis: 10 arquivos por download.",
+          "eyebrow": "Download em massa",
+          "h1": "Baixe todos os arquivos de uma página em uma operação organizada.",
+          "lead": "Quando uma página mistura PDFs, Office, imagens, ZIPs, CSVs e respostas fetch, salvar manualmente é lento. Grab All Files lista arquivos detectáveis com metadados.",
+          "best": [
+            "Páginas com muitos links para documentos, mídias ou arquivos compactados.",
+            "Páginas em que os arquivos aparecem por JavaScript, visualizadores ou requisições em segundo plano.",
+            "Auditorias que precisam de um CSV com URLs, tamanhos e páginas de origem.",
+            "Coletas pontuais em que montar um crawler seria exagero."
+          ],
+          "steps": [
+            "Abra a página no Chrome, Edge ou Firefox e clique no ícone do Grab All Files na barra de ferramentas. A lista de arquivos é montada para a página aberta.",
+            "Clique em “Escanear”. Para incluir as páginas vinculadas, aumente antes a “Profundidade” (“Apenas esta página” verifica só esta); os links são seguidos apenas dentro da pasta da página de partida.",
+            "Refine a lista com os tipos de arquivo, a caixa de busca por nome e título e “Detalhes” (tamanho mínimo, “Salvar como”). Marque os arquivos desejados.",
+            "Clique em “Baixar”. ZIP, “Mesclar PDFs”, “Organizar” e “Exportar info de arquivos em CSV” ficam em “Mais ações”. A versão gratuita salva até 10 arquivos por download.",
+            "Se a lista for longa, selecione os próximos arquivos e clique em “Baixar” de novo. As linhas com falha mostram o motivo; corrija o acesso e tente novamente."
+          ],
+          "faq": [
+            {
+              "q": "Quais tipos são suportados?",
+              "a": "PDF, Office, imagens, ZIP, CSV e outras respostas baixáveis acessíveis ao navegador. Também detecta conjuntos de arquivos divididos / multivolume como .001, .r00 e .z01."
+            },
+            {
+              "q": "Posso escolher só alguns arquivos?",
+              "a": "Sim. Filtre por tipo, nome, título ou tamanho, ordene por qualquer coluna e marque apenas as linhas necessárias. Nada é salvo até você clicar em um botão de salvar."
+            },
+            {
+              "q": "A versão gratuita tem limite?",
+              "a": "A versão gratuita salva até 10 arquivos selecionados por download, e o mesmo limite vale para ZIP, “Mesclar PDFs” e exportação CSV. Para continuar, selecione os próximos arquivos e clique no botão de novo — nada fica bloqueado. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download."
+            },
+            {
+              "q": "Não encontrou nada, ou menos arquivos do que o esperado. O que fazer?",
+              "a": "Em páginas que carregam mais conteúdo ao rolar, abra “Opções de varredura”, ative “Role e carregue tudo antes de escanear” e escaneie de novo. Se os arquivos estão em páginas vinculadas, aumente a “Profundidade”. Pause os bloqueadores de anúncios nesse site. Se os downloads são iniciados pelo JavaScript da página, use “Captura ativa” quando ela for oferecida."
+            },
+            {
+              "q": "A página exige login. O que faço?",
+              "a": "Faça login no site no mesmo navegador e depois escaneie. O Grab All Files usa a sessão que você já tem; com profundidade 1 ou mais, abre as páginas vinculadas com o mesmo login. Ele nunca faz login por você nem contorna restrições de acesso. Linhas marcadas com “Login necessário” precisam de um novo login antes de tentar outra vez."
+            },
+            {
+              "q": "Funciona em páginas HTTP antigas?",
+              "a": "Sim. Escaneia HTTP e HTTPS que o navegador consegue abrir."
+            }
+          ]
+        },
+        "zh_CN": {
+          "title": "下载网页上的所有文件 | Grab All Files",
+          "desc": "查找网页上的PDF、Office文档、图片、ZIP和CSV，筛选列表后批量保存或打包为ZIP。免费版每次下载最多保存10个文件，全程在浏览器本地处理。",
+          "eyebrow": "文件批量下载",
+          "h1": "一次有序操作，下载网页上的所有文件。",
+          "lead": "当页面混合PDF、Office文档、图片、ZIP、CSV和fetch响应时，手动保存很慢。Grab All Files 会列出可检测文件和元数据，让您只保留需要的内容。",
+          "best": [
+            "包含大量文档、媒体或压缩包链接的页面。",
+            "文件通过JavaScript、查看器或后台请求出现的页面。",
+            "需要用CSV记录文件URL、大小和来源页面的审计。",
+            "不值得专门搭建爬虫的一次性收集任务。"
+          ],
+          "steps": [
+            "在Chrome、Edge或Firefox中打开页面，点击工具栏上的Grab All Files图标。列表针对当前打开的页面生成。",
+            "点击“扫描”。如需包含链接到的页面，请先提高“深度”（“仅当前页面”只检查本页）；链接只会在起始页面所在的文件夹内跟踪。",
+            "用文件类型列表、文件名/标题搜索框和“详细设置”（最小大小、“保存名称”）缩小列表，勾选需要的文件。",
+            "点击“下载”。ZIP、“合并PDF”、“整理”和“导出文件信息CSV”位于“其他操作”中。免费版每次下载最多保存10个文件。",
+            "文件较多时，选择接下来的文件，再次点击“下载”。失败的行会显示原因，解决访问问题后可重试。"
+          ],
+          "faq": [
+            {
+              "q": "支持哪些文件类型？",
+              "a": "可检测浏览器能访问的PDF、Office文档、图片、ZIP、CSV和其他可下载响应。还能检测分卷 / 多卷压缩包（如 .001、.r00、.z01）。"
+            },
+            {
+              "q": "能只选择部分文件吗？",
+              "a": "可以。按类型、名称、标题或大小筛选，按任意列排序，只勾选需要的行。点击保存按钮之前不会保存任何内容。"
+            },
+            {
+              "q": "免费版有限制吗？",
+              "a": "免费版每次下载最多保存10个选中文件，ZIP、“合并PDF”和CSV导出也适用同样的上限。要继续，请选择接下来的文件并再次点击同一按钮，不会被锁定。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的数量限制。"
+            },
+            {
+              "q": "什么都没找到，或比预期少怎么办？",
+              "a": "对于滚动时才加载更多内容的页面，请在“扫描设置”中开启“扫描前先滚动并加载全部内容（图库、长列表）”后重新扫描。如果文件在链接到的页面上，请提高“深度”。请在该网站暂停广告拦截器。如果下载由页面自身的JavaScript触发，请在出现时使用“主动抓取”。"
+            },
+            {
+              "q": "页面需要登录怎么办？",
+              "a": "请先在同一浏览器中登录网站，再进行扫描。Grab All Files 使用您已有的登录会话；深度为1及以上时，也会用同一登录状态打开链接到的页面。它不会替您登录，也不会绕过访问限制。标有“需要登录”的行，请重新登录后再重试。"
+            },
+            {
+              "q": "旧HTTP页面也可以吗？",
+              "a": "可以。浏览器能打开的HTTP和HTTPS页面都可扫描。"
+            }
+          ]
+        },
+        "zh_TW": {
+          "title": "下載網頁上的所有檔案 | Grab All Files",
+          "desc": "找出網頁上的PDF、Office文件、圖片、ZIP和CSV，篩選清單後批次儲存或打包為ZIP。免費版每次下載最多儲存10個檔案，全程在瀏覽器本機處理。",
+          "eyebrow": "檔案批次下載",
+          "h1": "一次有序操作，下載網頁上的所有檔案。",
+          "lead": "當頁面混合PDF、Office文件、圖片、ZIP、CSV和fetch回應時，手動儲存很慢。Grab All Files 會列出可偵測檔案和中繼資料，讓您只保留需要的內容。",
+          "best": [
+            "包含大量文件、媒體或壓縮檔連結的頁面。",
+            "檔案透過JavaScript、檢視器或背景請求出現的頁面。",
+            "需要以CSV記錄檔案URL、大小與來源頁面的稽核。",
+            "不值得特地架設爬蟲的一次性收集作業。"
+          ],
+          "steps": [
+            "在Chrome、Edge或Firefox開啟頁面，點擊工具列上的Grab All Files圖示。清單會針對目前開啟的頁面產生。",
+            "點擊「掃描」。若要包含連結到的頁面，請先提高「深度」（「僅此頁面」只檢查本頁）；連結只會在起始頁面所在的資料夾內追蹤。",
+            "用檔案類型清單、檔名／標題搜尋框和「詳細設定」（最小大小、「儲存名稱」）縮小清單，勾選需要的檔案。",
+            "點擊「下載」。ZIP、「合併PDF」、「整理」和「匯出檔案資訊CSV」位於「其他操作」中。免費版每次下載最多儲存10個檔案。",
+            "檔案較多時，選取接下來的檔案，再次點擊「下載」。失敗的列會顯示原因，解決存取問題後可重試。"
+          ],
+          "faq": [
+            {
+              "q": "支援哪些檔案類型？",
+              "a": "可偵測瀏覽器能存取的PDF、Office文件、圖片、ZIP、CSV和其他可下載回應。也能偵測分卷 / 多卷壓縮檔（如 .001、.r00、.z01）。"
+            },
+            {
+              "q": "可以只選擇部分檔案嗎？",
+              "a": "可以。依類型、名稱、標題或大小篩選，依任一欄排序，只勾選需要的列。點擊儲存按鈕之前不會儲存任何內容。"
+            },
+            {
+              "q": "免費版有限制嗎？",
+              "a": "免費版每次下載最多儲存10個選取的檔案，ZIP、「合併PDF」和CSV匯出也適用相同上限。若要繼續，請選取接下來的檔案並再次點擊同一按鈕，不會被鎖定。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的數量限制。"
+            },
+            {
+              "q": "什麼都沒找到，或比預期少怎麼辦？",
+              "a": "對於捲動時才載入更多內容的頁面，請在「掃描設定」中開啟「掃描前先捲動並載入所有內容（圖庫、長清單）」後重新掃描。若檔案在連結到的頁面上，請提高「深度」。請在該網站暫停廣告封鎖器。若下載由頁面本身的JavaScript觸發，請在出現時使用「主動擷取」。"
+            },
+            {
+              "q": "頁面需要登入怎麼辦？",
+              "a": "請先在同一瀏覽器登入網站，再進行掃描。Grab All Files 使用您既有的登入工作階段；深度為1以上時，也會以相同登入狀態開啟連結到的頁面。它不會代您登入，也不會繞過存取限制。標示「需要登入」的列，請重新登入後再重試。"
+            },
+            {
+              "q": "舊HTTP頁面也可以嗎？",
+              "a": "可以。瀏覽器能開啟的HTTP和HTTPS頁面都可掃描。"
+            }
+          ]
+        }
       }
     },
     "internal-portal-downloads": {
-      path: "internal-portal-downloads.html",
-      related: ["download-files-from-webpage", "download-all-pdfs", "bulk-download-images"],
-      copy: {
-        en: c("Download files from internal portals & LMS | Grab All Files", "Use your existing browser session to collect authorized files from intranets, LMS portals, member areas, and document-heavy dashboards.", "Authorized portal downloads", "Download files from internal portals without handing over credentials.", "For intranets, LMS pages, member areas, and dashboards, the browser already has the login session. Grab All Files runs in that browser context, scans pages you are authorized to access, and keeps credential handling outside the extension.", ["Corporate intranets with many attachments.", "LMS pages such as Moodle, Canvas, or Blackboard.", "Member-only libraries and client portals.", "Document dashboards where files are behind buttons, viewers, or forms."], ["Open the authorized page in your browser session.", "Run a page scan or same-site crawl within the portal area you can access.", "Filter, select, download, ZIP, merge PDFs, or export CSV locally."], [{ q: "Does it collect passwords?", a: "No. It uses the browser session you already have and does not collect credentials." }, { q: "Can it bypass access controls?", a: "No. It only works on pages and files your browser is already authorized to access." }, { q: "Is it suitable for confidential files?", a: "Files download directly to your device, not through our servers. Review your organization's rules before using any download automation." }]),
-        ja: c("社内ポータル・LMSの資料をダウンロード | Grab All Files", "既存のブラウザログイン状態を使い、イントラネット、LMS、会員ページ、資料の多いダッシュボードから許可されたファイルを収集します。", "認可済みポータルの取得", "認証情報を渡さず、社内ポータルのファイルをダウンロード。",
-          "イントラネット、LMS、会員エリア、ダッシュボードでは、ブラウザにログイン状態があります。Grab All Files はそのブラウザ文脈で動作し、あなたがアクセス権を持つページをスキャンします。認証情報の取り扱いは拡張機能の外に残ります。",
-          ["添付ファイルが多い社内イントラネット。", "Moodle、Canvas、BlackboardなどのLMSページ。", "会員限定ライブラリやクライアントポータル。", "ボタン、ビューア、フォームの背後にある文書ダッシュボード。"],
-          ["ブラウザで認可済みページを開く。", "アクセス可能な範囲でページスキャンまたは同一サイトクロールを実行。", "絞り込み、選択、一括保存、ZIP化、PDF結合、CSV出力をローカルで実行。"],
-          [{ q: "パスワードを収集しますか？", a: "いいえ。既存のブラウザセッションを使い、認証情報は収集しません。" }, { q: "アクセス制御を回避できますか？", a: "いいえ。ブラウザがすでにアクセスを許可されているページとファイルだけが対象です。" }, { q: "機密ファイルにも使えますか？", a: "ファイルは端末へ直接保存されます。組織のルールを確認してから利用してください。" }]
-        ),
-        es: c("Descargar de portales internos y LMS | Grab All Files", "Usa tu sesión del navegador para recopilar archivos autorizados de intranets, LMS y áreas de miembros.", "Descargas autorizadas", "Descarga archivos de portales internos sin entregar credenciales.", "En intranets, LMS y dashboards, el navegador ya tiene la sesión iniciada. Grab All Files trabaja en ese contexto y escanea páginas a las que tienes acceso.", ["Intranets con muchos adjuntos.", "LMS como Moodle, Canvas o Blackboard.", "Bibliotecas de miembros y portales de clientes.", "Dashboards con archivos tras botones, visores o formularios."], ["Abre la página autorizada en tu navegador.", "Ejecuta un escaneo o rastreo dentro del área accesible.", "Filtra, descarga, ZIP, fusiona PDFs o exporta CSV localmente."], [{ q: "¿Recopila contraseñas?", a: "No. Usa tu sesión actual y no recoge credenciales." }, { q: "¿Evita controles de acceso?", a: "No. Solo actúa sobre páginas autorizadas para tu navegador." }, { q: "¿Sirve para archivos confidenciales?", a: "Los archivos van directo a tu dispositivo. Revisa las reglas de tu organización." }]),
-        fr: c("Télécharger depuis portails internes et LMS | Grab All Files", "Utilisez votre session navigateur pour collecter les fichiers autorisés d'intranets, LMS et espaces membres.", "Téléchargements autorisés", "Téléchargez depuis des portails internes sans fournir d'identifiants.", "Sur intranets, LMS et dashboards, le navigateur possède déjà la session. Grab All Files fonctionne dans ce contexte et scanne les pages autorisées.", ["Intranets avec nombreux fichiers joints.", "LMS comme Moodle, Canvas ou Blackboard.", "Bibliothèques membres et portails clients.", "Dashboards avec fichiers derrière boutons, viewers ou formulaires."], ["Ouvrez la page autorisée dans le navigateur.", "Lancez un scan ou crawl dans la zone accessible.", "Filtrez, téléchargez, ZIP, fusionnez PDF ou exportez CSV localement."], [{ q: "Collecte-t-il les mots de passe ?", a: "Non. Il utilise votre session existante sans collecter d'identifiants." }, { q: "Contourne-t-il les accès ?", a: "Non. Il agit seulement sur ce que votre navigateur peut déjà ouvrir." }, { q: "Pour fichiers confidentiels ?", a: "Les fichiers vont vers votre appareil. Vérifiez les règles de votre organisation." }]),
-        de: c("Dateien aus internen Portalen und LMS laden | Grab All Files", "Nutzen Sie Ihre Browser-Sitzung, um autorisierte Dateien aus Intranets, LMS und Mitgliederbereichen zu sammeln.", "Autorisierte Downloads", "Laden Sie Dateien aus internen Portalen herunter, ohne Zugangsdaten weiterzugeben.", "Bei Intranets, LMS und Dashboards hat der Browser bereits die Sitzung. Grab All Files arbeitet in diesem Kontext und scannt autorisierte Seiten.", ["Intranets mit vielen Anhängen.", "LMS wie Moodle, Canvas oder Blackboard.", "Mitgliederbibliotheken und Kundenportale.", "Dashboards mit Dateien hinter Buttons, Viewern oder Formularen."], ["Autorisierte Seite im Browser öffnen.", "Scan oder Crawl im zugänglichen Bereich starten.", "Filtern, herunterladen, ZIP, PDF-Merge oder CSV-Export lokal ausführen."], [{ q: "Sammelt es Passwörter?", a: "Nein. Es nutzt Ihre vorhandene Browser-Sitzung und sammelt keine Zugangsdaten." }, { q: "Umgeht es Zugriffskontrollen?", a: "Nein. Nur Seiten, die Ihr Browser bereits öffnen darf." }, { q: "Für vertrauliche Dateien geeignet?", a: "Dateien gehen direkt auf Ihr Gerät. Prüfen Sie interne Regeln." }]),
-        it: c("Scaricare documenti da portali interni e LMS | Grab All Files", "Usa la sessione del browser per raccogliere file autorizzati da intranet, LMS e aree membri.", "Download autorizzati", "Scarica file da portali interni senza consegnare credenziali.", "In intranet, LMS e dashboard il browser ha già la sessione. Grab All Files lavora in quel contesto e scansiona pagine autorizzate.", ["Intranet con molti allegati.", "LMS come Moodle, Canvas o Blackboard.", "Biblioteche membri e portali clienti.", "Dashboard con file dietro pulsanti, viewer o moduli."], ["Apri la pagina autorizzata nel browser.", "Esegui una scansione o crawl nell'area accessibile.", "Filtra, scarica, ZIP, unisci PDF o esporta CSV localmente."], [{ q: "Raccoglie password?", a: "No. Usa la sessione esistente e non raccoglie credenziali." }, { q: "Aggira i controlli di accesso?", a: "No. Funziona solo sulle pagine che il browser può già aprire." }, { q: "Adatto a file riservati?", a: "I file vanno direttamente al dispositivo. Verifica le regole aziendali." }]),
-        ko: c("사내 포털 및 LMS 문서 다운로드 | Grab All Files", "기존 브라우저 세션을 사용해 인트라넷, LMS, 회원 영역, 문서 대시보드의 허가된 파일을 수집합니다.", "권한 있는 포털 다운로드", "인증 정보를 넘기지 않고 내부 포털 파일을 다운로드하세요.", "인트라넷, LMS, 회원 영역, 대시보드에서는 브라우저가 이미 로그인 세션을 갖고 있습니다. Grab All Files는 그 컨텍스트에서 권한 있는 페이지를 스캔합니다.", ["첨부 파일이 많은 사내 인트라넷.", "Moodle, Canvas, Blackboard 같은 LMS 페이지.", "회원 전용 라이브러리와 고객 포털.", "버튼, 뷰어, 폼 뒤에 파일이 있는 대시보드."], ["브라우저에서 권한 있는 페이지를 엽니다.", "접근 가능한 영역에서 페이지 스캔 또는 동일 사이트 크롤링을 실행합니다.", "필터링, 다운로드, ZIP, PDF 병합, CSV 내보내기를 로컬로 실행합니다."], [{ q: "비밀번호를 수집하나요?", a: "아니요. 기존 브라우저 세션을 사용하며 인증 정보를 수집하지 않습니다." }, { q: "접근 제어를 우회하나요?", a: "아니요. 브라우저가 이미 접근 가능한 페이지와 파일만 대상입니다." }, { q: "기밀 파일에 적합한가요?", a: "파일은 기기로 직접 다운로드됩니다. 조직의 규칙을 확인하세요." }]),
-        pt_BR: c("Baixar documentos de portais internos e LMS | Grab All Files", "Use a sessão do navegador para coletar arquivos autorizados de intranets, LMS e áreas de membros.", "Downloads autorizados", "Baixe arquivos de portais internos sem entregar credenciais.", "Em intranets, LMS e dashboards, o navegador já tem a sessão. Grab All Files trabalha nesse contexto e escaneia páginas autorizadas.", ["Intranets com muitos anexos.", "LMS como Moodle, Canvas ou Blackboard.", "Bibliotecas de membros e portais de clientes.", "Dashboards com arquivos atrás de botões, viewers ou formulários."], ["Abra a página autorizada no navegador.", "Execute uma varredura ou um rastreamento na área acessível.", "Filtre, baixe, ZIP, mescle PDF ou exporte CSV localmente."], [{ q: "Coleta senhas?", a: "Não. Usa sua sessão existente e não coleta credenciais." }, { q: "Contorna controles de acesso?", a: "Não. Só funciona em páginas que o navegador já pode abrir." }, { q: "Serve para arquivos confidenciais?", a: "Os arquivos vão direto ao dispositivo. Verifique as regras da sua organização." }]),
-        zh_CN: c("从内部门户和LMS下载文档 | Grab All Files", "使用现有浏览器会话，从内网、LMS、会员区和文档仪表板收集已授权文件。", "已授权门户下载", "无需交出凭据，即可下载内部门户文件。", "在内网、LMS、会员区和仪表板中，浏览器已拥有登录会话。Grab All Files 在该浏览器环境中运行，扫描您有权访问的页面。", ["包含大量附件的企业内网。", "Moodle、Canvas、Blackboard等LMS页面。", "会员专属库和客户门户。", "文件位于按钮、查看器或表单之后的文档仪表板。"], ["在浏览器中打开已授权页面。", "在可访问范围内运行页面扫描或同站点爬取。", "本地筛选、下载、ZIP、PDF合并或CSV导出。"], [{ q: "会收集密码吗？", a: "不会。它使用您已有的浏览器会话，不收集凭据。" }, { q: "能绕过访问控制吗？", a: "不能。只处理浏览器已被授权访问的页面和文件。" }, { q: "适合机密文件吗？", a: "文件会直接下载到您的设备。使用前请确认组织规则。" }]),
-        zh_TW: c("從內部入口網站和LMS下載文件 | Grab All Files", "使用現有瀏覽器工作階段，從內網、LMS、會員區和文件儀表板收集已授權檔案。", "已授權入口下載", "無需交出憑證，即可下載內部入口網站檔案。", "在內網、LMS、會員區和儀表板中，瀏覽器已擁有登入工作階段。Grab All Files 在該瀏覽器環境中執行，掃描您有權存取的頁面。", ["包含大量附件的企業內網。", "Moodle、Canvas、Blackboard等LMS頁面。", "會員專屬庫和客戶入口網站。", "檔案位於按鈕、檢視器或表單之後的文件儀表板。"], ["在瀏覽器中開啟已授權頁面。", "在可存取範圍內執行頁面掃描或同站爬取。", "本機篩選、下載、ZIP、PDF合併或CSV匯出。"], [{ q: "會收集密碼嗎？", a: "不會。它使用您已有的瀏覽器工作階段，不收集憑證。" }, { q: "能繞過存取控制嗎？", a: "不能。只處理瀏覽器已被授權存取的頁面和檔案。" }, { q: "適合機密檔案嗎？", a: "檔案會直接下載到您的裝置。使用前請確認組織規則。" }])
+      "path": "internal-portal-downloads.html",
+      "related": [
+        "download-files-from-webpage",
+        "download-all-pdfs",
+        "bulk-download-images"
+      ],
+      "copy": {
+        "en": {
+          "title": "Download files from internal portals & LMS | Grab All Files",
+          "desc": "Save the files you may access from intranets, LMS and member portals with your browser session. No credentials collected; files go to your device.",
+          "eyebrow": "Authorized portal downloads",
+          "h1": "Download files from internal portals without handing over credentials.",
+          "lead": "For intranets, LMS pages, member areas, and dashboards, the browser already has the login session. Grab All Files runs in that browser context, scans pages you are authorized to access, and keeps credential handling outside the extension.",
+          "best": [
+            "Corporate intranets with many attachments.",
+            "LMS pages such as Moodle, Canvas, or Blackboard.",
+            "Member-only libraries and client portals.",
+            "Document dashboards where files are behind buttons, viewers, or forms."
+          ],
+          "steps": [
+            "Sign in to the portal as usual and open the page with the files you are allowed to access.",
+            "Click the Grab All Files icon and press “Scan”. Raise “Depth” to include linked pages inside the starting page’s folder; those pages open with your current sign-in.",
+            "Filter and tick the files you need, then press “Download” or use “More actions” for ZIP, “Merge PDFs” or “Export File Info CSV”. Free saves up to 10 files per download.",
+            "For the next batch, select the next files and press “Download” again. Rows marked “Login required to access this file” mean the session ended: sign in again and retry them."
+          ],
+          "faq": [
+            {
+              "q": "Does it collect passwords?",
+              "a": "No. It uses the browser session you already have and does not collect credentials."
+            },
+            {
+              "q": "Can it bypass access controls?",
+              "a": "No. It only works on pages and files your browser is already authorized to access."
+            },
+            {
+              "q": "Is it suitable for confidential files?",
+              "a": "Files download directly from the portal to your device, not through our servers, and scanning runs inside your browser. Review your organization's rules before using any download automation."
+            },
+            {
+              "q": "How many files can I download for free?",
+              "a": "Free saves up to 10 selected files per download, ZIP or merge. Select the next files and press “Download” again to continue. Pro ($19.99 one-time, up to 3 devices) removes the per-download limit."
+            },
+            {
+              "q": "My session expired during a scan. What now?",
+              "a": "Sign in again in the same browser, then rescan or retry the failed rows. If saved files turn out to be sign-in pages, the session had already ended. On portals that sign you out easily, turn on “Session-safe mode (skip metadata fetch)” in “Scan options”; it skips the follow-up checks (size, date, type) that could end the session."
+            },
+            {
+              "q": "Files sit behind buttons or viewers. Can it get them?",
+              "a": "Often. It detects files in viewers, iframes and background requests. When downloads are started by the portal’s own JavaScript, “Active Capture” lets the page start each download so the files can still be saved together."
+            }
+          ]
+        },
+        "ja": {
+          "title": "社内ポータル・LMSの資料をダウンロード | Grab All Files",
+          "desc": "社内イントラネット・LMS・会員エリアから、既存のブラウザのログイン状態で権限のあるファイルを保存。認証情報は収集せず、ファイルは端末へ直接保存されます。",
+          "eyebrow": "認可済みポータルの取得",
+          "h1": "認証情報を渡さず、社内ポータルのファイルをダウンロード。",
+          "lead": "イントラネット、LMS、会員エリア、ダッシュボードでは、ブラウザにログイン状態があります。Grab All Files はそのブラウザ文脈で動作し、あなたがアクセス権を持つページをスキャンします。認証情報の取り扱いは拡張機能の外に残ります。",
+          "best": [
+            "添付ファイルが多い社内イントラネット。",
+            "Moodle、Canvas、BlackboardなどのLMSページ。",
+            "会員限定ライブラリやクライアントポータル。",
+            "ボタン、ビューア、フォームの背後にある文書ダッシュボード。"
+          ],
+          "steps": [
+            "いつもどおりポータルにログインし、アクセスを許可されているファイルが並ぶページを開きます。",
+            "Grab All Filesアイコンを押して「スキャン」を押します。リンク先も含めるときは「深さ」を上げます（起点ページのフォルダ配下）。リンク先のページも現在のログイン状態で開きます。",
+            "必要なファイルを絞り込んでチェックし、「ダウンロード」を押すか、「その他の操作」からZIP・「PDF結合」・「ファイル情報CSV出力」を使います。無料版は1回のダウンロードで10件までです。",
+            "続きは次のファイルを選んでもう一度「ダウンロード」を押します。「ログインが必要です」と表示された行はセッションが切れているので、ログインし直して再試行します。"
+          ],
+          "faq": [
+            {
+              "q": "パスワードを収集しますか？",
+              "a": "いいえ。既存のブラウザセッションを使い、認証情報は収集しません。"
+            },
+            {
+              "q": "アクセス制御を回避できますか？",
+              "a": "いいえ。ブラウザがすでにアクセスを許可されているページとファイルだけが対象です。"
+            },
+            {
+              "q": "機密ファイルにも使えますか？",
+              "a": "ファイルはポータルから端末へ直接保存され、当社のサーバーを経由しません。スキャンもブラウザ内で行われます。ダウンロードの自動化を使う前に、組織のルールを確認してください。"
+            },
+            {
+              "q": "無料版で何件までダウンロードできますか？",
+              "a": "無料版はダウンロード・ZIP・PDF結合のいずれも1回の操作で選択した10件までです。続けるときは次のファイルを選んでもう一度「ダウンロード」を押してください。Pro（$19.99・買い切り、3台まで）は1回あたりの件数上限がありません。"
+            },
+            {
+              "q": "スキャン中にセッションが切れたら？",
+              "a": "同じブラウザでログインし直してから、再スキャンするか失敗した行を再試行します。保存したファイルがログイン画面だった場合は、その時点でセッションが切れています。ログアウトされやすいポータルでは、「スキャン設定」の「セッション保護モード（事前取得を抑制）」をオンにすると、セッションを切る可能性のある事後チェック（サイズ・日付・種類の取得）を行いません。"
+            },
+            {
+              "q": "ボタンやビューアーの奥にあるファイルも取れますか？",
+              "a": "多くの場合は取れます。ビューアー、iframe、バックグラウンド通信のファイルも検出します。ポータル自身のJavaScriptでダウンロードが始まる場合は、「アクティブ取得」でページに各ダウンロードを開始させ、まとめて保存できます。"
+            }
+          ]
+        },
+        "es": {
+          "title": "Descargar de portales internos y LMS | Grab All Files",
+          "desc": "Guarda archivos autorizados de intranets, LMS y áreas de socios con tu sesión del navegador. Sin recopilar credenciales; todo va directo a tu equipo.",
+          "eyebrow": "Descargas autorizadas",
+          "h1": "Descarga archivos de portales internos sin entregar credenciales.",
+          "lead": "En intranets, LMS, áreas de socios y paneles, el navegador ya tiene la sesión iniciada. Grab All Files funciona en ese navegador, escanea las páginas a las que tienes acceso y deja el manejo de credenciales fuera de la extensión.",
+          "best": [
+            "Intranets corporativas con muchos adjuntos.",
+            "Páginas de LMS como Moodle, Canvas o Blackboard.",
+            "Bibliotecas solo para socios y portales de clientes.",
+            "Paneles de documentos donde los archivos están tras botones, visores o formularios."
+          ],
+          "steps": [
+            "Inicia sesión en el portal como siempre y abre la página con los archivos a los que tienes acceso.",
+            "Haz clic en el icono de Grab All Files y pulsa «Escanear». Sube la «Profundidad» para incluir páginas enlazadas dentro de la carpeta de la página de partida; se abren con tu sesión actual.",
+            "Filtra y marca los archivos que necesitas; luego pulsa «Descargar» o usa «Más acciones» para ZIP, «Combinar PDFs» o «Exportar info de archivos en CSV». La versión gratuita guarda hasta 10 archivos por descarga.",
+            "Para el siguiente lote, selecciona los siguientes archivos y vuelve a pulsar «Descargar». Las filas con «Se requiere iniciar sesión» indican que la sesión terminó: vuelve a iniciar sesión y reinténtalas."
+          ],
+          "faq": [
+            {
+              "q": "¿Recopila contraseñas?",
+              "a": "No. Usa la sesión que ya tienes en el navegador y no recopila credenciales."
+            },
+            {
+              "q": "¿Puede eludir los controles de acceso?",
+              "a": "No. Solo funciona con las páginas y archivos a los que tu navegador ya tiene acceso."
+            },
+            {
+              "q": "¿Sirve para archivos confidenciales?",
+              "a": "Los archivos se descargan directamente del portal a tu dispositivo, sin pasar por nuestros servidores, y el escaneo se hace dentro del navegador. Revisa las normas de tu organización antes de usar cualquier automatización de descargas."
+            },
+            {
+              "q": "¿Cuántos archivos puedo descargar gratis?",
+              "a": "La versión gratuita guarda hasta 10 archivos seleccionados por descarga, ZIP o combinación. Para seguir, selecciona los siguientes archivos y vuelve a pulsar «Descargar». Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga."
+            },
+            {
+              "q": "La sesión caducó durante el escaneo. ¿Y ahora?",
+              "a": "Vuelve a iniciar sesión en el mismo navegador y escanea de nuevo o reintenta las filas fallidas. Si los archivos guardados resultan ser páginas de inicio de sesión, la sesión ya había terminado. En portales que cierran la sesión con facilidad, activa «Modo seguro para la sesión (sin precarga de metadatos)» en «Opciones de escaneo»: omite las comprobaciones posteriores (tamaño, fecha, tipo) que podrían cerrarla."
+            },
+            {
+              "q": "Los archivos están tras botones o visores. ¿Puede obtenerlos?",
+              "a": "A menudo sí. Detecta archivos en visores, iframes y peticiones en segundo plano. Cuando las descargas las inicia el propio JavaScript del portal, «Captura activa» deja que la página inicie cada descarga para guardar los archivos juntos."
+            }
+          ]
+        },
+        "fr": {
+          "title": "Télécharger depuis portails internes et LMS | Grab All Files",
+          "desc": "Enregistrez les fichiers autorisés d’intranets, de LMS et d’espaces membres avec votre session. Aucun identifiant collecté, fichiers sur votre appareil.",
+          "eyebrow": "Téléchargements autorisés",
+          "h1": "Téléchargez depuis des portails internes sans fournir d'identifiants.",
+          "lead": "Sur les intranets, LMS, espaces membres et tableaux de bord, le navigateur dispose déjà de la session. Grab All Files fonctionne dans ce navigateur, analyse les pages auxquelles vous avez accès et laisse la gestion des identifiants en dehors de l’extension.",
+          "best": [
+            "Intranets d’entreprise riches en pièces jointes.",
+            "Pages de LMS comme Moodle, Canvas ou Blackboard.",
+            "Bibliothèques réservées aux membres et portails clients.",
+            "Tableaux de bord documentaires où les fichiers se cachent derrière des boutons, visionneuses ou formulaires."
+          ],
+          "steps": [
+            "Connectez-vous au portail comme d’habitude et ouvrez la page contenant les fichiers auxquels vous avez accès.",
+            "Cliquez sur l’icône Grab All Files puis sur « Scanner ». Augmentez la « Profondeur » pour inclure les pages liées du dossier de la page de départ ; elles s’ouvrent avec votre connexion actuelle.",
+            "Filtrez et cochez les fichiers utiles, puis cliquez sur « Télécharger » ou utilisez « Autres actions » pour le ZIP, « Fusionner les PDFs » ou « Exporter les infos fichiers en CSV ». La version gratuite enregistre jusqu’à 10 fichiers par téléchargement.",
+            "Pour le lot suivant, sélectionnez les fichiers suivants et cliquez à nouveau sur « Télécharger ». Les lignes « Connexion requise » signalent une session terminée : reconnectez-vous et relancez-les."
+          ],
+          "faq": [
+            {
+              "q": "Collecte-t-il les mots de passe ?",
+              "a": "Non. Il utilise la session déjà ouverte dans votre navigateur et ne collecte aucun identifiant."
+            },
+            {
+              "q": "Peut-il contourner les contrôles d’accès ?",
+              "a": "Non. Il ne fonctionne que sur les pages et fichiers que votre navigateur peut déjà ouvrir."
+            },
+            {
+              "q": "Convient-il aux fichiers confidentiels ?",
+              "a": "Les fichiers sont téléchargés directement du portail vers votre appareil, sans passer par nos serveurs, et l’analyse s’effectue dans le navigateur. Vérifiez les règles de votre organisation avant toute automatisation des téléchargements."
+            },
+            {
+              "q": "Combien de fichiers puis-je télécharger gratuitement ?",
+              "a": "La version gratuite enregistre jusqu’à 10 fichiers sélectionnés par téléchargement, ZIP ou fusion. Pour continuer, sélectionnez les fichiers suivants et cliquez à nouveau sur « Télécharger ». Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement."
+            },
+            {
+              "q": "Ma session a expiré pendant l’analyse. Que faire ?",
+              "a": "Reconnectez-vous dans le même navigateur, puis relancez l’analyse ou les lignes en échec. Si les fichiers enregistrés sont des pages de connexion, la session était déjà terminée. Sur les portails qui déconnectent facilement, activez « Mode sans risque pour la session (pas de pré-récupération) » dans « Options d’analyse » : il évite les vérifications ultérieures (taille, date, type) susceptibles de fermer la session."
+            },
+            {
+              "q": "Les fichiers sont derrière des boutons ou des visionneuses : peut-il les récupérer ?",
+              "a": "Souvent. Il détecte les fichiers dans les visionneuses, les iframes et les requêtes en arrière-plan. Quand les téléchargements sont lancés par le JavaScript du portail, « Capture active » laisse la page démarrer chaque téléchargement pour enregistrer les fichiers ensemble."
+            }
+          ]
+        },
+        "de": {
+          "title": "Dateien aus internen Portalen und LMS laden | Grab All Files",
+          "desc": "Berechtigte Dateien aus Intranets, LMS und Mitgliederbereichen mit Ihrer Browser-Sitzung speichern. Keine Zugangsdaten, Dateien direkt aufs Gerät.",
+          "eyebrow": "Autorisierte Downloads",
+          "h1": "Laden Sie Dateien aus internen Portalen herunter, ohne Zugangsdaten weiterzugeben.",
+          "lead": "In Intranets, LMS, Mitgliederbereichen und Dashboards ist der Browser bereits angemeldet. Grab All Files arbeitet in diesem Browser, scannt die Seiten, auf die Sie Zugriff haben, und hält den Umgang mit Zugangsdaten aus der Erweiterung heraus.",
+          "best": [
+            "Firmen-Intranets mit vielen Anhängen.",
+            "LMS-Seiten wie Moodle, Canvas oder Blackboard.",
+            "Bibliotheken nur für Mitglieder und Kundenportale.",
+            "Dokument-Dashboards, in denen Dateien hinter Schaltflächen, Viewern oder Formularen liegen."
+          ],
+          "steps": [
+            "Melden Sie sich wie gewohnt im Portal an und öffnen Sie die Seite mit den Dateien, auf die Sie zugreifen dürfen.",
+            "Klicken Sie auf das Grab-All-Files-Symbol und dann auf „Scannen“. Erhöhen Sie die „Tiefe“, um verlinkte Seiten im Ordner der Ausgangsseite einzubeziehen; sie öffnen sich mit Ihrer aktuellen Anmeldung.",
+            "Filtern und haken Sie die benötigten Dateien an und klicken Sie auf „Herunterladen“ oder nutzen Sie „Weitere Aktionen“ für ZIP, „PDFs zusammenführen“ oder „Dateiinfo als CSV exportieren“. Die kostenlose Version speichert bis zu 10 Dateien pro Download.",
+            "Für die nächste Gruppe wählen Sie die nächsten Dateien aus und klicken erneut auf „Herunterladen“. Zeilen mit „Anmeldung erforderlich“ bedeuten, dass die Sitzung beendet ist: Melden Sie sich erneut an und wiederholen Sie sie."
+          ],
+          "faq": [
+            {
+              "q": "Sammelt es Passwörter?",
+              "a": "Nein. Es nutzt die vorhandene Sitzung Ihres Browsers und sammelt keine Zugangsdaten."
+            },
+            {
+              "q": "Kann es Zugriffskontrollen umgehen?",
+              "a": "Nein. Es arbeitet nur mit Seiten und Dateien, die Ihr Browser bereits öffnen darf."
+            },
+            {
+              "q": "Ist es für vertrauliche Dateien geeignet?",
+              "a": "Dateien werden direkt vom Portal auf Ihr Gerät geladen, nicht über unsere Server, und der Scan läuft im Browser. Prüfen Sie vor jeder Download-Automatisierung die Regeln Ihrer Organisation."
+            },
+            {
+              "q": "Wie viele Dateien kann ich kostenlos herunterladen?",
+              "a": "Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Download, ZIP oder Zusammenführung. Zum Weitermachen wählen Sie die nächsten Dateien aus und klicken erneut auf „Herunterladen“. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Download auf."
+            },
+            {
+              "q": "Meine Sitzung ist während des Scans abgelaufen. Was nun?",
+              "a": "Melden Sie sich im selben Browser erneut an und scannen Sie noch einmal oder wiederholen Sie die fehlgeschlagenen Zeilen. Sind gespeicherte Dateien Anmeldeseiten, war die Sitzung bereits beendet. Bei Portalen, die schnell abmelden, aktivieren Sie „Sitzungsschonender Modus (keine Metadaten-Abrufe)“ in den „Scan-Optionen“: Er lässt die Nachprüfungen (Größe, Datum, Typ) weg, die die Sitzung beenden könnten."
+            },
+            {
+              "q": "Dateien liegen hinter Schaltflächen oder Viewern. Kommt es heran?",
+              "a": "Oft ja. Es erkennt Dateien in Viewern, iframes und Hintergrundanfragen. Starten die Downloads über das JavaScript des Portals, lässt „Aktive Erfassung“ die Seite jeden Download selbst auslösen, sodass die Dateien trotzdem gemeinsam gespeichert werden."
+            }
+          ]
+        },
+        "it": {
+          "title": "Scaricare documenti da portali interni e LMS | Grab All Files",
+          "desc": "Salva i file autorizzati da intranet, LMS e aree riservate con la sessione del browser. Nessuna credenziale raccolta: i file vanno sul dispositivo.",
+          "eyebrow": "Download autorizzati",
+          "h1": "Scarica file da portali interni senza consegnare credenziali.",
+          "lead": "In intranet, LMS, aree riservate e dashboard il browser ha già la sessione attiva. Grab All Files lavora in quel browser, analizza le pagine a cui hai accesso e lascia la gestione delle credenziali fuori dall’estensione.",
+          "best": [
+            "Intranet aziendali con molti allegati.",
+            "Pagine LMS come Moodle, Canvas o Blackboard.",
+            "Biblioteche riservate ai membri e portali clienti.",
+            "Dashboard documentali in cui i file stanno dietro pulsanti, visualizzatori o moduli."
+          ],
+          "steps": [
+            "Accedi al portale come al solito e apri la pagina con i file a cui hai accesso.",
+            "Fai clic sull’icona di Grab All Files e poi su «Scansiona». Aumenta la «Profondità» per includere le pagine collegate nella cartella della pagina di partenza; si aprono con il tuo accesso attuale.",
+            "Filtra e seleziona i file che ti servono, poi fai clic su «Scarica» oppure usa «Altre azioni» per ZIP, «Unisci PDF» o «Esporta info file in CSV». La versione gratuita salva fino a 10 file per download.",
+            "Per il gruppo successivo, seleziona i file seguenti e fai di nuovo clic su «Scarica». Le righe con «Accesso richiesto» indicano che la sessione è terminata: accedi di nuovo e riprova."
+          ],
+          "faq": [
+            {
+              "q": "Raccoglie password?",
+              "a": "No. Usa la sessione già presente nel browser e non raccoglie credenziali."
+            },
+            {
+              "q": "Può aggirare i controlli di accesso?",
+              "a": "No. Funziona solo con le pagine e i file che il tuo browser può già aprire."
+            },
+            {
+              "q": "È adatto a file riservati?",
+              "a": "I file vengono scaricati direttamente dal portale sul tuo dispositivo, senza passare dai nostri server, e la scansione avviene nel browser. Verifica le regole della tua organizzazione prima di usare qualsiasi automazione dei download."
+            },
+            {
+              "q": "Quanti file posso scaricare gratis?",
+              "a": "La versione gratuita salva fino a 10 file selezionati per download, ZIP o unione. Per continuare, seleziona i file successivi e fai di nuovo clic su «Scarica». Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download."
+            },
+            {
+              "q": "La sessione è scaduta durante la scansione. E ora?",
+              "a": "Accedi di nuovo nello stesso browser, poi ripeti la scansione o riprova le righe non riuscite. Se i file salvati sono pagine di accesso, la sessione era già terminata. Nei portali che disconnettono facilmente, attiva «Modalità sicura per la sessione (niente pre-fetch)» in «Opzioni di scansione»: salta i controlli successivi (dimensione, data, tipo) che potrebbero chiudere la sessione."
+            },
+            {
+              "q": "I file sono dietro pulsanti o visualizzatori: riesce a prenderli?",
+              "a": "Spesso sì. Rileva i file in visualizzatori, iframe e richieste in background. Quando i download vengono avviati dal JavaScript del portale, «Cattura attiva» lascia che la pagina avvii ogni download, così i file si salvano comunque insieme."
+            }
+          ]
+        },
+        "ko": {
+          "title": "사내 포털 및 LMS 문서 다운로드 | Grab All Files",
+          "desc": "인트라넷, LMS, 회원 영역에서 로그인된 브라우저 세션으로 권한 있는 파일을 저장합니다. 인증 정보는 수집하지 않고 파일은 기기로 바로 저장됩니다.",
+          "eyebrow": "권한 있는 포털 다운로드",
+          "h1": "인증 정보를 넘기지 않고 내부 포털 파일을 다운로드하세요.",
+          "lead": "인트라넷, LMS, 회원 영역, 대시보드에서는 브라우저가 이미 로그인 세션을 갖고 있습니다. Grab All Files는 그 컨텍스트에서 권한 있는 페이지를 스캔합니다.",
+          "best": [
+            "첨부 파일이 많은 사내 인트라넷.",
+            "Moodle, Canvas, Blackboard 같은 LMS 페이지.",
+            "회원 전용 라이브러리와 고객 포털.",
+            "버튼, 뷰어, 폼 뒤에 파일이 있는 대시보드."
+          ],
+          "steps": [
+            "평소처럼 포털에 로그인하고, 접근이 허용된 파일이 있는 페이지를 엽니다.",
+            "Grab All Files 아이콘을 누르고 “스캔”을 누릅니다. 시작 페이지 폴더 안의 링크된 페이지까지 포함하려면 “깊이”를 올립니다. 링크된 페이지도 현재 로그인 상태로 열립니다.",
+            "필요한 파일을 필터링해 체크한 뒤 “다운로드”를 누르거나 “기타 작업”에서 ZIP, “PDF 병합”, “파일 정보 CSV 내보내기”를 사용합니다. 무료 버전은 다운로드당 10개까지 저장합니다.",
+            "다음 묶음은 다음 파일을 선택하고 “다운로드”를 다시 누릅니다. “로그인이 필요합니다”로 표시된 행은 세션이 끝났다는 뜻이므로 다시 로그인한 뒤 재시도하세요."
+          ],
+          "faq": [
+            {
+              "q": "비밀번호를 수집하나요?",
+              "a": "아니요. 기존 브라우저 세션을 사용하며 인증 정보를 수집하지 않습니다."
+            },
+            {
+              "q": "접근 제어를 우회하나요?",
+              "a": "아니요. 브라우저가 이미 접근 가능한 페이지와 파일만 대상입니다."
+            },
+            {
+              "q": "기밀 파일에 적합한가요?",
+              "a": "파일은 포털에서 기기로 직접 다운로드되며 당사 서버를 거치지 않고, 스캔도 브라우저 안에서 이루어집니다. 다운로드 자동화를 사용하기 전에 조직의 규칙을 확인하세요."
+            },
+            {
+              "q": "무료로 몇 개까지 다운로드할 수 있나요?",
+              "a": "무료 버전은 다운로드, ZIP, 병합 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 “다운로드”를 다시 누르세요. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
+            },
+            {
+              "q": "스캔 중에 세션이 만료되면요?",
+              "a": "같은 브라우저에서 다시 로그인한 뒤 다시 스캔하거나 실패한 행을 재시도하세요. 저장된 파일이 로그인 페이지라면 그때 이미 세션이 끝난 것입니다. 로그아웃이 잦은 포털에서는 “스캔 설정”의 “세션 보호 모드 (메타데이터 미리 가져오기 안 함)”를 켜면 세션을 끊을 수 있는 후속 확인(크기, 날짜, 유형)을 건너뜁니다."
+            },
+            {
+              "q": "버튼이나 뷰어 뒤에 있는 파일도 가져올 수 있나요?",
+              "a": "대부분 가능합니다. 뷰어, iframe, 백그라운드 요청의 파일도 감지합니다. 포털 자체의 JavaScript로 다운로드가 시작될 때는 “액티브 캡처”가 페이지에서 각 다운로드를 시작하게 해 파일을 함께 저장할 수 있습니다."
+            }
+          ]
+        },
+        "pt_BR": {
+          "title": "Baixar documentos de portais internos e LMS | Grab All Files",
+          "desc": "Salve arquivos autorizados de intranets, LMS e áreas de membros com a sessão do navegador. Sem coletar credenciais; tudo vai direto ao dispositivo.",
+          "eyebrow": "Downloads autorizados",
+          "h1": "Baixe arquivos de portais internos sem entregar credenciais.",
+          "lead": "Em intranets, LMS, áreas de membros e painéis, o navegador já tem a sessão ativa. O Grab All Files funciona nesse navegador, escaneia as páginas que você pode acessar e deixa o tratamento de credenciais fora da extensão.",
+          "best": [
+            "Intranets corporativas com muitos anexos.",
+            "Páginas de LMS como Moodle, Canvas ou Blackboard.",
+            "Bibliotecas exclusivas para membros e portais de clientes.",
+            "Painéis de documentos em que os arquivos ficam atrás de botões, visualizadores ou formulários."
+          ],
+          "steps": [
+            "Faça login no portal como de costume e abra a página com os arquivos que você tem permissão para acessar.",
+            "Clique no ícone do Grab All Files e em “Escanear”. Aumente a “Profundidade” para incluir páginas vinculadas dentro da pasta da página de partida; elas abrem com o seu login atual.",
+            "Filtre e marque os arquivos necessários e clique em “Baixar” ou use “Mais ações” para ZIP, “Mesclar PDFs” ou “Exportar info de arquivos em CSV”. A versão gratuita salva até 10 arquivos por download.",
+            "Para o próximo lote, selecione os próximos arquivos e clique em “Baixar” de novo. Linhas com “Login necessário” indicam que a sessão terminou: faça login de novo e tente outra vez."
+          ],
+          "faq": [
+            {
+              "q": "Coleta senhas?",
+              "a": "Não. Usa a sessão que você já tem no navegador e não coleta credenciais."
+            },
+            {
+              "q": "Pode contornar controles de acesso?",
+              "a": "Não. Só funciona com páginas e arquivos que o seu navegador já pode abrir."
+            },
+            {
+              "q": "Serve para arquivos confidenciais?",
+              "a": "Os arquivos são baixados direto do portal para o seu dispositivo, sem passar pelos nossos servidores, e a varredura acontece no navegador. Verifique as regras da sua organização antes de usar qualquer automação de downloads."
+            },
+            {
+              "q": "Quantos arquivos posso baixar de graça?",
+              "a": "A versão gratuita salva até 10 arquivos selecionados por download, ZIP ou mesclagem. Para continuar, selecione os próximos arquivos e clique em “Baixar” de novo. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download."
+            },
+            {
+              "q": "Minha sessão expirou durante a varredura. E agora?",
+              "a": "Faça login de novo no mesmo navegador e escaneie outra vez ou tente de novo as linhas com falha. Se os arquivos salvos forem páginas de login, a sessão já tinha terminado. Em portais que desconectam com facilidade, ative “Modo seguro para a sessão (sem pré-busca de metadados)” em “Opções de varredura”: ele pula as verificações posteriores (tamanho, data, tipo) que poderiam encerrar a sessão."
+            },
+            {
+              "q": "Os arquivos ficam atrás de botões ou visualizadores. Ele consegue pegá-los?",
+              "a": "Muitas vezes, sim. Ele detecta arquivos em visualizadores, iframes e requisições em segundo plano. Quando os downloads são iniciados pelo JavaScript do próprio portal, a “Captura ativa” deixa a página iniciar cada download para que os arquivos sejam salvos juntos."
+            }
+          ]
+        },
+        "zh_CN": {
+          "title": "从内部门户和LMS下载文档 | Grab All Files",
+          "desc": "使用浏览器中已有的登录会话，从内网、LMS和会员区保存您有权访问的文件。不收集凭据，文件直接保存到您的设备，不经过我们的服务器。",
+          "eyebrow": "已授权门户下载",
+          "h1": "无需交出凭据，即可下载内部门户文件。",
+          "lead": "在内网、LMS、会员区和仪表板中，浏览器已拥有登录会话。Grab All Files 在该浏览器环境中运行，扫描您有权访问的页面。",
+          "best": [
+            "包含大量附件的企业内网。",
+            "Moodle、Canvas、Blackboard等LMS页面。",
+            "会员专属库和客户门户。",
+            "文件位于按钮、查看器或表单之后的文档仪表板。"
+          ],
+          "steps": [
+            "像平常一样登录门户，打开列有您有权访问的文件的页面。",
+            "点击Grab All Files图标后点击“扫描”。如需包含起始页面文件夹内链接到的页面，请提高“深度”；这些页面会以当前登录状态打开。",
+            "筛选并勾选需要的文件，然后点击“下载”，或在“其他操作”中使用ZIP、“合并PDF”或“导出文件信息CSV”。免费版每次下载最多保存10个文件。",
+            "下一批请选择接下来的文件，再次点击“下载”。标有“需要登录”的行表示会话已结束：请重新登录后重试。"
+          ],
+          "faq": [
+            {
+              "q": "会收集密码吗？",
+              "a": "不会。它使用您已有的浏览器会话，不收集凭据。"
+            },
+            {
+              "q": "能绕过访问控制吗？",
+              "a": "不能。只处理浏览器已被授权访问的页面和文件。"
+            },
+            {
+              "q": "适合机密文件吗？",
+              "a": "文件从门户直接下载到您的设备，不经过我们的服务器，扫描也在浏览器内进行。使用任何下载自动化之前，请先确认组织规则。"
+            },
+            {
+              "q": "免费版最多能下载多少个文件？",
+              "a": "免费版的下载、ZIP和合并每次操作最多处理10个选中的文件。要继续，请选择接下来的文件并再次点击“下载”。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的数量限制。"
+            },
+            {
+              "q": "扫描过程中会话过期了怎么办？",
+              "a": "请在同一浏览器中重新登录，然后重新扫描或重试失败的行。如果保存下来的文件是登录页面，说明当时会话已经结束。对于容易被登出的门户，请在“扫描设置”中开启“会话保护模式（不预取元数据）”，它会跳过可能导致会话结束的后续检查（大小、日期、类型）。"
+            },
+            {
+              "q": "文件藏在按钮或查看器后面，也能获取吗？",
+              "a": "多数情况下可以。它能检测查看器、iframe和后台请求中的文件。如果下载由门户自身的JavaScript触发，“主动抓取”会让页面逐个启动下载，从而把文件一起保存。"
+            }
+          ]
+        },
+        "zh_TW": {
+          "title": "從內部入口網站和LMS下載文件 | Grab All Files",
+          "desc": "使用瀏覽器中既有的登入工作階段，從內網、LMS和會員區儲存您有權存取的檔案。不收集憑證，檔案直接儲存到您的裝置，不經過我們的伺服器。",
+          "eyebrow": "已授權入口下載",
+          "h1": "無需交出憑證，即可下載內部入口網站檔案。",
+          "lead": "在內網、LMS、會員區和儀表板中，瀏覽器已擁有登入工作階段。Grab All Files 在該瀏覽器環境中執行，掃描您有權存取的頁面。",
+          "best": [
+            "包含大量附件的企業內網。",
+            "Moodle、Canvas、Blackboard等LMS頁面。",
+            "會員專屬庫和客戶入口網站。",
+            "檔案位於按鈕、檢視器或表單之後的文件儀表板。"
+          ],
+          "steps": [
+            "像平常一樣登入入口網站，開啟列有您有權存取之檔案的頁面。",
+            "點擊Grab All Files圖示後點擊「掃描」。若要包含起始頁面資料夾內連結到的頁面，請提高「深度」；這些頁面會以目前的登入狀態開啟。",
+            "篩選並勾選需要的檔案，然後點擊「下載」，或在「其他操作」中使用ZIP、「合併PDF」或「匯出檔案資訊CSV」。免費版每次下載最多儲存10個檔案。",
+            "下一批請選取接下來的檔案，再次點擊「下載」。標示「需要登入」的列表示工作階段已結束：請重新登入後重試。"
+          ],
+          "faq": [
+            {
+              "q": "會收集密碼嗎？",
+              "a": "不會。它使用您已有的瀏覽器工作階段，不收集憑證。"
+            },
+            {
+              "q": "能繞過存取控制嗎？",
+              "a": "不能。只處理瀏覽器已被授權存取的頁面和檔案。"
+            },
+            {
+              "q": "適合機密檔案嗎？",
+              "a": "檔案從入口網站直接下載到您的裝置，不經過我們的伺服器，掃描也在瀏覽器內進行。使用任何下載自動化之前，請先確認組織規則。"
+            },
+            {
+              "q": "免費版最多能下載多少個檔案？",
+              "a": "免費版的下載、ZIP和合併每次操作最多處理10個選取的檔案。若要繼續，請選取接下來的檔案並再次點擊「下載」。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的數量限制。"
+            },
+            {
+              "q": "掃描過程中工作階段過期了怎麼辦？",
+              "a": "請在同一瀏覽器重新登入，然後重新掃描或重試失敗的列。如果儲存下來的檔案是登入頁面，表示當時工作階段已經結束。對於容易被登出的入口網站，請在「掃描設定」中開啟「工作階段保護模式（不預先擷取中繼資料）」，它會略過可能導致工作階段結束的後續檢查（大小、日期、類型）。"
+            },
+            {
+              "q": "檔案藏在按鈕或檢視器後面，也能取得嗎？",
+              "a": "多數情況下可以。它能偵測檢視器、iframe和背景請求中的檔案。若下載由入口網站本身的JavaScript觸發，「主動擷取」會讓頁面逐一啟動下載，從而把檔案一起儲存。"
+            }
+          ]
+        }
       }
     },
     "merge-pdfs-locally": {
-      path: "merge-pdfs-locally.html",
-      related: ["download-all-pdfs", "download-files-from-webpage", "internal-portal-downloads"],
-      copy: {
-        en: c("Merge PDFs locally in your browser | Grab All Files", "Select PDFs detected on a web page and merge them into one file locally, without uploading files to a server.", "Local PDF merge", "Merge PDFs locally after collecting them from a web page.", "Grab All Files is not only a downloader. After detecting PDFs on a page or same-site crawl, you can choose the files and merge them inside your browser. The source PDFs stay on your device.", ["Combining reports, notices, handouts, or forms after a bulk PDF scan.", "Keeping sensitive documents away from online PDF merge services.", "Turning many downloaded PDFs into one review packet.", "Exporting a CSV record of source URLs alongside the merged file."], ["Scan a page or crawl same-site links to find PDFs.", "Filter to PDF and select the files in the order you want.", "Run local merge in the browser and save the merged file."], [{ q: "Is this an online PDF merge service?", a: "No. The merge runs in the browser. Files are not uploaded to Grab All Files servers." }, { q: "Can I control merge order?", a: "Yes. Sort or manually reorder the selected PDF list before merging." }, { q: "Can I download the original PDFs too?", a: "Yes. You can save originals, build a ZIP, and merge selected PDFs." }]),
-        ja: c("PDFをブラウザ内でローカル結合 | Grab All Files", "Webページで検出したPDFを選択し、サーバーへアップロードせず1つのPDFに結合します。", "ローカルPDF結合", "Webページから集めたPDFを、そのままブラウザ内で結合。",
-          "Grab All Files はダウンローダーだけではありません。ページまたは同一サイトクロールでPDFを検出した後、必要なファイルを選び、ブラウザ内で結合できます。元PDFは端末上に残ります。",
-          ["報告書、通知、配布資料、申請書を一括収集後にまとめる。", "機密文書をオンラインPDF結合サービスに出したくない。", "複数PDFを1つの確認用パケットにする。", "結合ファイルと合わせて元URLのCSV記録も残す。"],
-          ["ページをスキャン、または同一サイトリンクをクロールしてPDFを検出。", "PDFで絞り込み、結合したい順番でファイルを選択。", "ブラウザ内でローカル結合を実行し、結合PDFを保存。"],
-          [{ q: "オンラインPDF結合サービスですか？", a: "いいえ。結合はブラウザ内で行われ、ファイルはGrab All Filesのサーバーへアップロードされません。" }, { q: "結合順を指定できますか？", a: "はい。結合前に並べ替えや手動順序変更ができます。" }, { q: "元のPDFも保存できますか？", a: "はい。元PDFの保存、ZIP化、選択PDFの結合を使い分けられます。" }]
-        ),
-        es: c("Fusionar PDFs localmente en el navegador | Grab All Files", "Selecciona PDFs detectados en una página y fusiónalos localmente sin subir archivos a un servidor.", "Fusión PDF local", "Fusiona PDFs localmente después de recopilarlos de una página.", "Grab All Files no es solo un descargador. Tras detectar PDFs en una página o rastreo, puedes elegir archivos y fusionarlos en el navegador. Los PDFs permanecen en tu dispositivo.", ["Combinar informes, avisos, apuntes o formularios.", "Evitar servicios online de fusión PDF para documentos sensibles.", "Convertir muchos PDFs en un paquete de revisión.", "Guardar CSV de URLs fuente junto al PDF final."], ["Escanea una página o rastrea enlaces del mismo sitio.", "Filtra a PDF y selecciona archivos en el orden deseado.", "Ejecuta la fusión local y guarda el archivo."], [{ q: "¿Es un servicio online de fusión PDF?", a: "No. La fusión se ejecuta en el navegador y no sube archivos." }, { q: "¿Puedo controlar el orden?", a: "Sí. Ordena o reordena manualmente antes de fusionar." }, { q: "¿Puedo guardar los originales?", a: "Sí. Puedes guardar originales, crear ZIP y fusionar PDFs." }]),
-        fr: c("Fusionner des PDF localement | Grab All Files", "Sélectionnez les PDF détectés sur une page et fusionnez-les localement sans upload serveur.", "Fusion PDF locale", "Fusionnez localement les PDF collectés depuis une page.", "Grab All Files n'est pas seulement un téléchargeur. Après détection des PDF, choisissez les fichiers et fusionnez-les dans le navigateur. Les PDF restent sur votre appareil.", ["Combiner rapports, avis, supports ou formulaires.", "Éviter les services PDF en ligne pour documents sensibles.", "Créer un paquet de revue à partir de nombreux PDF.", "Conserver un CSV des URLs source."], ["Scannez une page ou crawlez les liens du même site.", "Filtrez sur PDF et sélectionnez dans l'ordre voulu.", "Lancez la fusion locale et sauvegardez."], [{ q: "Est-ce un service en ligne ?", a: "Non. La fusion se fait dans le navigateur, sans upload." }, { q: "Puis-je contrôler l'ordre ?", a: "Oui. Triez ou réordonnez avant fusion." }, { q: "Puis-je garder les originaux ?", a: "Oui. Sauvegarde, ZIP et fusion sont disponibles." }]),
-        de: c("PDFs lokal im Browser zusammenführen | Grab All Files", "Wählen Sie erkannte PDFs aus und führen Sie sie lokal zusammen, ohne Upload auf einen Server.", "Lokaler PDF-Merge", "Führen Sie PDFs lokal zusammen, nachdem sie von einer Webseite gesammelt wurden.", "Grab All Files ist nicht nur ein Downloader. Nach dem Erkennen von PDFs wählen Sie Dateien aus und führen sie im Browser zusammen. Die PDFs bleiben auf Ihrem Gerät.", ["Berichte, Hinweise, Handouts oder Formulare kombinieren.", "Sensible Dokumente nicht an Online-PDF-Dienste senden.", "Viele PDFs in ein Review-Paket verwandeln.", "CSV der Quell-URLs zusätzlich speichern."], ["Seite scannen oder Same-Site-Links crawlen.", "Auf PDF filtern und gewünschte Reihenfolge wählen.", "Lokalen Merge starten und Datei speichern."], [{ q: "Ist es ein Online-PDF-Dienst?", a: "Nein. Der Merge läuft im Browser, ohne Upload." }, { q: "Kann ich die Reihenfolge steuern?", a: "Ja. Sortieren oder manuell umordnen vor dem Merge." }, { q: "Kann ich Originale speichern?", a: "Ja. Originale speichern, ZIP erstellen und PDFs zusammenführen." }]),
-        it: c("Unire PDF localmente nel browser | Grab All Files", "Seleziona PDF rilevati su una pagina e uniscili localmente senza caricare file su server.", "Unione PDF locale", "Unisci PDF localmente dopo averli raccolti da una pagina.", "Grab All Files non è solo un downloader. Dopo aver rilevato PDF in una pagina o crawl, puoi scegliere i file e unirli nel browser. I PDF restano sul dispositivo.", ["Combinare report, avvisi, dispense o moduli.", "Evitare servizi online per documenti sensibili.", "Trasformare molti PDF in un pacchetto di revisione.", "Salvare CSV delle URL sorgente."], ["Scansiona una pagina o crawl dello stesso sito.", "Filtra per PDF e seleziona nell'ordine desiderato.", "Esegui l'unione locale e salva il file."], [{ q: "È un servizio online?", a: "No. L'unione avviene nel browser, senza upload." }, { q: "Posso controllare l'ordine?", a: "Sì. Ordina o riordina manualmente prima dell'unione." }, { q: "Posso salvare gli originali?", a: "Sì. Puoi salvare originali, creare ZIP e unire PDF." }]),
-        ko: c("브라우저에서 PDF 로컬 병합 | Grab All Files", "웹페이지에서 감지한 PDF를 선택해 서버 업로드 없이 브라우저에서 하나로 병합합니다.", "로컬 PDF 병합", "웹페이지에서 수집한 PDF를 브라우저 안에서 병합하세요.", "Grab All Files는 단순 다운로더가 아닙니다. 페이지 또는 동일 사이트 크롤링에서 PDF를 찾은 후 필요한 파일을 선택해 브라우저에서 병합할 수 있습니다. 원본 PDF는 기기에 남습니다.", ["보고서, 안내문, 자료, 양식을 일괄 수집 후 결합.", "민감한 문서를 온라인 PDF 서비스에 보내지 않기.", "여러 PDF를 하나의 검토용 묶음으로 만들기.", "원본 URL CSV 기록도 함께 보관."], ["페이지를 스캔하거나 동일 사이트 링크를 크롤링합니다.", "PDF로 필터링하고 원하는 순서로 선택합니다.", "브라우저에서 로컬 병합을 실행하고 저장합니다."], [{ q: "온라인 PDF 병합 서비스인가요?", a: "아니요. 병합은 브라우저에서 실행되며 서버로 업로드되지 않습니다." }, { q: "병합 순서를 조절할 수 있나요?", a: "예. 병합 전 정렬 또는 수동 재정렬이 가능합니다." }, { q: "원본 PDF도 저장할 수 있나요?", a: "예. 원본 저장, ZIP 생성, PDF 병합을 함께 사용할 수 있습니다." }]),
-        pt_BR: c("Mesclar PDFs localmente no navegador | Grab All Files", "Selecione PDFs detectados em uma página e mescle localmente sem enviar arquivos a um servidor.", "Mesclagem PDF local", "Mescle PDFs localmente depois de coletá-los de uma página.", "Grab All Files não é só um downloader. Após detectar PDFs, escolha arquivos e mescle no navegador. Os PDFs ficam no seu dispositivo.", ["Combinar relatórios, avisos, apostilas ou formulários.", "Evitar serviços online para documentos sensíveis.", "Transformar muitos PDFs em um pacote de revisão.", "Salvar CSV das URLs fonte."], ["Escaneie uma página ou rastreie links do mesmo site.", "Filtre por PDF e selecione na ordem desejada.", "Execute a mesclagem local e salve o arquivo."], [{ q: "É serviço online de PDF?", a: "Não. A mesclagem roda no navegador, sem upload." }, { q: "Posso controlar a ordem?", a: "Sim. Ordene ou reorganize manualmente antes de mesclar." }, { q: "Posso salvar originais?", a: "Sim. Salve originais, crie ZIP e mescle PDFs." }]),
-        zh_CN: c("在浏览器本地合并PDF | Grab All Files", "选择网页上检测到的PDF，并在本地合并为一个文件，无需上传到服务器。", "本地PDF合并", "从网页收集PDF后，直接在浏览器中本地合并。", "Grab All Files 不只是下载器。检测页面或同站点爬取中的PDF后，您可以选择文件并在浏览器内合并。源PDF保留在您的设备上。", ["批量扫描后合并报告、通知、讲义或表单。", "避免将敏感文档发送给在线PDF合并服务。", "将多个PDF变成一个审阅包。", "同时保留源URL的CSV记录。"], ["扫描页面或爬取同站点链接以查找PDF。", "按PDF筛选，并按需要的顺序选择文件。", "在浏览器中执行本地合并并保存文件。"], [{ q: "这是在线PDF合并服务吗？", a: "不是。合并在浏览器中运行，文件不会上传到服务器。" }, { q: "能控制合并顺序吗？", a: "可以。合并前可排序或手动调整顺序。" }, { q: "也能保存原始PDF吗？", a: "可以。可保存原件、创建ZIP并合并选中PDF。" }]),
-        zh_TW: c("在瀏覽器本機合併PDF | Grab All Files", "選擇網頁上偵測到的PDF，並在本機合併為一個檔案，無需上傳到伺服器。", "本機PDF合併", "從網頁收集PDF後，直接在瀏覽器中本機合併。", "Grab All Files 不只是下載器。偵測頁面或同站爬取中的PDF後，您可以選擇檔案並在瀏覽器內合併。來源PDF保留在您的裝置上。", ["批次掃描後合併報告、通知、講義或表單。", "避免將敏感文件傳給線上PDF合併服務。", "將多個PDF變成一個審閱包。", "同時保留來源URL的CSV記錄。"], ["掃描頁面或爬取同站連結以查找PDF。", "依PDF篩選，並按需要的順序選擇檔案。", "在瀏覽器中執行本機合併並儲存檔案。"], [{ q: "這是線上PDF合併服務嗎？", a: "不是。合併在瀏覽器中執行，檔案不會上傳到伺服器。" }, { q: "能控制合併順序嗎？", a: "可以。合併前可排序或手動調整順序。" }, { q: "也能儲存原始PDF嗎？", a: "可以。可儲存原件、建立ZIP並合併選取PDF。" }])
+      "path": "merge-pdfs-locally.html",
+      "related": [
+        "download-all-pdfs",
+        "download-files-from-webpage",
+        "internal-portal-downloads"
+      ],
+      "copy": {
+        "en": {
+          "title": "Merge PDFs locally in your browser | Grab All Files",
+          "desc": "Merge PDFs found on a web page into one file inside your browser, with no upload. Set the order by dragging, name the result and keep the originals too.",
+          "eyebrow": "Local PDF merge",
+          "h1": "Merge PDFs locally after collecting them from a web page.",
+          "lead": "Grab All Files is not only a downloader. After it finds PDFs on a page or in the linked pages of its folder, you can choose the files and merge them inside your browser. The source PDFs stay on your device.",
+          "best": [
+            "Combining reports, notices, handouts, or forms after a bulk PDF scan.",
+            "Keeping sensitive documents away from online PDF merge services.",
+            "Turning many downloaded PDFs into one review packet.",
+            "Exporting a CSV record of source URLs alongside the merged file."
+          ],
+          "steps": [
+            "Scan the page that lists the PDFs. Raise “Depth” to include linked pages inside the starting page’s folder.",
+            "Set the order: PDFs are merged in the order shown in the list. With no filter or column sort active, drag rows to rearrange them, or click a column header such as “Title” to sort.",
+            "Tick the PDFs to merge — at least 2. Free merges up to 10 per merge; other selected file types are left out of the merged PDF.",
+            "Open “More actions”, type a name in “Save as” next to “Merge PDFs” if you like (blank = page name and date), then press “Merge PDFs”.",
+            "Check the result: password-protected, unreadable or non-PDF responses are skipped and listed with the reason."
+          ],
+          "faq": [
+            {
+              "q": "Is this an online PDF merge service?",
+              "a": "No. The merge runs in the browser. Files are not uploaded to Grab All Files servers."
+            },
+            {
+              "q": "Can I control merge order?",
+              "a": "Yes. PDFs are merged in the order they appear in the list. Drag rows to rearrange them — dragging is off while a filter or column sort is active, and “Restore manual order” brings your arrangement back — or sort by a column."
+            },
+            {
+              "q": "Can I download the original PDFs too?",
+              "a": "Yes. You can save originals, build a ZIP, and merge selected PDFs."
+            },
+            {
+              "q": "Is there a limit on how many PDFs I can merge?",
+              "a": "Free merges up to 10 selected PDFs per merge — the same 10-file limit as downloads. Merge the first group, then tick the next PDFs and merge them separately. Pro ($19.99 one-time, up to 3 devices) has no per-merge cap. Every merge needs at least 2 PDFs."
+            },
+            {
+              "q": "Why were some PDFs left out of the merge?",
+              "a": "Password-protected or damaged PDFs, and links that return a sign-in or error page instead of a PDF (for example after a session expired), are skipped and listed with the reason. Sign in again and retry. Above about 200 MB in total the browser may slow down, so merge large sets in smaller groups."
+            }
+          ]
+        },
+        "ja": {
+          "title": "PDFをブラウザ内でローカル結合 | Grab All Files",
+          "desc": "Webページで見つけたPDFを、アップロードせずブラウザ内で1つに結合。ドラッグで順番を決め、保存名も指定できます。無料版は1回の結合で10件まで。",
+          "eyebrow": "ローカルPDF結合",
+          "h1": "Webページから集めたPDFを、そのままブラウザ内で結合。",
+          "lead": "Grab All Files はダウンローダーだけではありません。ページや、そのフォルダ配下のリンク先でPDFを見つけたら、必要なファイルを選んでブラウザ内で結合できます。元のPDFは端末上に残ります。",
+          "best": [
+            "報告書、通知、配布資料、申請書を一括収集後にまとめる。",
+            "機密文書をオンラインPDF結合サービスに出したくない。",
+            "複数PDFを1つの確認用パケットにする。",
+            "結合ファイルと合わせて元URLのCSV記録も残す。"
+          ],
+          "steps": [
+            "PDFが並ぶページをスキャンします。リンク先も含めるときは「深さ」を上げます（起点ページのフォルダ配下が対象）。",
+            "順番を決めます。結合は一覧に表示されている順番どおりです。絞り込みや列の並べ替えをしていない状態なら行をドラッグして入れ替えられます。「タイトル」などの列見出しで並べ替えても構いません。",
+            "結合するPDFを2件以上チェックします。無料版は1回の結合で10件まで。PDF以外の選択ファイルは結合されません。",
+            "「その他の操作」を開き、必要なら「PDF結合」の横の「保存名」に名前を入力して（空欄ならページ名_日付）、「PDF結合」を押します。",
+            "結果を確認します。パスワード保護・読み取り不可のPDFや、PDFではない応答は除外され、理由が表示されます。"
+          ],
+          "faq": [
+            {
+              "q": "オンラインPDF結合サービスですか？",
+              "a": "いいえ。結合はブラウザ内で行われ、ファイルはGrab All Filesのサーバーへアップロードされません。"
+            },
+            {
+              "q": "結合順を指定できますか？",
+              "a": "はい。PDFは一覧に表示されている順に結合されます。行をドラッグして並べ替えるか（絞り込みや列の並べ替え中はドラッグできません。「手動の並び順に戻す」で自分で並べた順に戻せます）、列見出しで並べ替えてください。"
+            },
+            {
+              "q": "元のPDFも保存できますか？",
+              "a": "はい。元PDFの保存、ZIP化、選択PDFの結合を使い分けられます。"
+            },
+            {
+              "q": "一度に結合できるPDFの数に上限はありますか？",
+              "a": "無料版は1回の結合で選択したPDF 10件までです（ダウンロードと同じ1回10件の上限）。最初のまとまりを結合したら、次のPDFを選んで別に結合してください。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。結合には2件以上のPDFが必要です。"
+            },
+            {
+              "q": "結合に含まれなかったPDFがあるのはなぜですか？",
+              "a": "パスワード保護や破損したPDF、PDFではなくログイン画面やエラーページが返ってきたリンク（セッション切れなど）は除外され、理由が表示されます。ログインし直して再試行してください。合計がおよそ200MBを超えるとブラウザが重くなることがあるので、大きなセットは小分けにして結合します。"
+            }
+          ]
+        },
+        "es": {
+          "title": "Fusionar PDFs localmente en el navegador | Grab All Files",
+          "desc": "Combina en tu navegador los PDF de una página web, sin subirlos a un servidor. Ordénalos arrastrando, ponle nombre al resultado y conserva los originales.",
+          "eyebrow": "Fusión PDF local",
+          "h1": "Fusiona PDFs localmente después de recopilarlos de una página.",
+          "lead": "Grab All Files no es solo un descargador. Cuando encuentra PDF en una página o en las páginas enlazadas de su carpeta, puedes elegir los archivos y combinarlos dentro del navegador. Los PDF originales se quedan en tu dispositivo.",
+          "best": [
+            "Reunir informes, avisos, apuntes o formularios después de un escaneo masivo de PDF.",
+            "Evitar subir documentos sensibles a servicios en línea para combinar PDF.",
+            "Convertir muchos PDF descargados en un único paquete de revisión.",
+            "Guardar junto al PDF combinado un registro CSV de las URL de origen."
+          ],
+          "steps": [
+            "Escanea la página que enumera los PDF. Sube la «Profundidad» para incluir las páginas enlazadas dentro de la carpeta de la página de partida.",
+            "Define el orden: los PDF se combinan en el orden en que aparecen en la lista. Sin filtros ni ordenación por columna activos, arrastra las filas para reordenarlas, o haz clic en un encabezado como «Título» para ordenar.",
+            "Marca los PDF que quieres combinar (al menos 2). La versión gratuita combina hasta 10 por operación; los demás tipos de archivo seleccionados quedan fuera del PDF combinado.",
+            "Abre «Más acciones», escribe si quieres un nombre en «Guardar como» junto a «Combinar PDFs» (vacío = nombre de página y fecha) y pulsa «Combinar PDFs».",
+            "Revisa el resultado: los PDF protegidos con contraseña, ilegibles o las respuestas que no son PDF se omiten y se indican con su motivo."
+          ],
+          "faq": [
+            {
+              "q": "¿Es un servicio en línea para combinar PDF?",
+              "a": "No. La combinación se hace en el navegador. Los archivos no se suben a los servidores de Grab All Files."
+            },
+            {
+              "q": "¿Puedo controlar el orden?",
+              "a": "Sí. Los PDF se combinan en el orden en que aparecen en la lista. Arrastra las filas para reordenarlas (el arrastre se desactiva con un filtro o una ordenación por columna activos; «Restaurar orden manual» recupera tu orden) u ordena por una columna."
+            },
+            {
+              "q": "¿También puedo descargar los PDF originales?",
+              "a": "Sí. Puedes guardar los originales, crear un ZIP y combinar los PDF seleccionados."
+            },
+            {
+              "q": "¿Hay un límite de PDF por combinación?",
+              "a": "La versión gratuita combina hasta 10 PDF seleccionados por operación, el mismo límite de 10 archivos que las descargas. Combina el primer grupo y luego marca los siguientes PDF y combínalos aparte. Pro ($19.99, pago único, hasta 3 dispositivos) no tiene límite por combinación. Cada combinación necesita al menos 2 PDF."
+            },
+            {
+              "q": "¿Por qué quedaron fuera algunos PDF?",
+              "a": "Los PDF protegidos con contraseña o dañados, y los enlaces que devuelven una página de inicio de sesión o de error en lugar de un PDF (por ejemplo, tras caducar la sesión), se omiten y se indica el motivo. Vuelve a iniciar sesión y reinténtalo. Si el total supera unos 200 MB, el navegador puede ir lento: combina los conjuntos grandes en grupos más pequeños."
+            }
+          ]
+        },
+        "fr": {
+          "title": "Fusionner des PDF localement | Grab All Files",
+          "desc": "Fusionnez dans le navigateur les PDF d’une page web, sans les envoyer sur un serveur. Ordre par glisser-déposer, nom au choix, originaux conservés.",
+          "eyebrow": "Fusion PDF locale",
+          "h1": "Fusionnez localement les PDF collectés depuis une page.",
+          "lead": "Grab All Files n’est pas qu’un outil de téléchargement. Une fois les PDF trouvés sur une page ou dans les pages liées de son dossier, vous choisissez les fichiers et les fusionnez dans votre navigateur. Les PDF d’origine restent sur votre appareil.",
+          "best": [
+            "Regrouper rapports, avis, supports de cours ou formulaires après une analyse de PDF en masse.",
+            "Éviter d’envoyer des documents sensibles à des services de fusion en ligne.",
+            "Transformer de nombreux PDF téléchargés en un seul dossier de relecture.",
+            "Conserver, à côté du PDF fusionné, un relevé CSV des URL sources."
+          ],
+          "steps": [
+            "Analysez la page qui liste les PDF. Augmentez la « Profondeur » pour inclure les pages liées du dossier de la page de départ.",
+            "Réglez l’ordre : les PDF sont fusionnés dans l’ordre affiché dans la liste. Sans filtre ni tri de colonne actif, faites glisser les lignes pour les réordonner, ou cliquez sur un en-tête comme « Titre » pour trier.",
+            "Cochez les PDF à fusionner (au moins 2). La version gratuite fusionne jusqu’à 10 fichiers par opération ; les autres types sélectionnés sont exclus du PDF fusionné.",
+            "Ouvrez « Autres actions », saisissez si besoin un nom dans « Enregistrer sous » à côté de « Fusionner les PDFs » (vide = nom de la page et date), puis cliquez sur « Fusionner les PDFs ».",
+            "Vérifiez le résultat : les PDF protégés par mot de passe, illisibles ou les réponses qui ne sont pas des PDF sont ignorés et listés avec leur motif."
+          ],
+          "faq": [
+            {
+              "q": "Est-ce un service de fusion PDF en ligne ?",
+              "a": "Non. La fusion s’effectue dans le navigateur. Les fichiers ne sont pas envoyés aux serveurs de Grab All Files."
+            },
+            {
+              "q": "Puis-je contrôler l’ordre de fusion ?",
+              "a": "Oui. Les PDF sont fusionnés dans l’ordre de la liste. Faites glisser les lignes pour les réordonner (le glisser-déposer est désactivé tant qu’un filtre ou un tri de colonne est actif ; « Rétablir l'ordre manuel » restaure votre ordre) ou triez par colonne."
+            },
+            {
+              "q": "Puis-je aussi télécharger les PDF d’origine ?",
+              "a": "Oui. Vous pouvez enregistrer les originaux, créer un ZIP et fusionner les PDF sélectionnés."
+            },
+            {
+              "q": "Le nombre de PDF fusionnés est-il limité ?",
+              "a": "La version gratuite fusionne jusqu’à 10 PDF sélectionnés par opération, la même limite de 10 fichiers que pour les téléchargements. Fusionnez un premier groupe, puis cochez les PDF suivants et fusionnez-les séparément. Pro (19,99 $, achat unique, jusqu’à 3 appareils) n’a pas de limite par fusion. Chaque fusion demande au moins 2 PDF."
+            },
+            {
+              "q": "Pourquoi certains PDF ont-ils été exclus ?",
+              "a": "Les PDF protégés par mot de passe ou endommagés, ainsi que les liens qui renvoient une page de connexion ou d’erreur au lieu d’un PDF (par exemple après expiration de la session), sont ignorés et listés avec leur motif. Reconnectez-vous et relancez. Au-delà d’environ 200 Mo au total, le navigateur peut ralentir : fusionnez les grands ensembles par petits groupes."
+            }
+          ]
+        },
+        "de": {
+          "title": "PDFs lokal im Browser zusammenführen | Grab All Files",
+          "desc": "PDFs einer Webseite im Browser zu einer Datei zusammenführen – ohne Upload. Reihenfolge per Ziehen festlegen, Namen vergeben, Originale behalten.",
+          "eyebrow": "Lokaler PDF-Merge",
+          "h1": "PDFs von einer Webseite sammeln und lokal zusammenführen.",
+          "lead": "Grab All Files ist nicht nur ein Downloader. Sobald es PDFs auf einer Seite oder in den verlinkten Seiten ihres Ordners gefunden hat, wählen Sie die Dateien aus und führen sie im Browser zusammen. Die Original-PDFs bleiben auf Ihrem Gerät.",
+          "best": [
+            "Berichte, Mitteilungen, Handouts oder Formulare nach einem PDF-Massenscan bündeln.",
+            "Sensible Dokumente nicht bei Online-Diensten zum Zusammenführen hochladen.",
+            "Viele heruntergeladene PDFs zu einem einzigen Prüfpaket machen.",
+            "Neben dem zusammengeführten PDF eine CSV mit den Quell-URLs aufbewahren."
+          ],
+          "steps": [
+            "Scannen Sie die Seite mit den PDFs. Erhöhen Sie die „Tiefe“, um verlinkte Seiten im Ordner der Ausgangsseite einzubeziehen.",
+            "Legen Sie die Reihenfolge fest: Zusammengeführt wird in der Reihenfolge der Liste. Ohne aktiven Filter oder Spaltensortierung ziehen Sie Zeilen an die gewünschte Stelle, oder Sie klicken auf einen Spaltenkopf wie „Titel“, um zu sortieren.",
+            "Haken Sie die PDFs an, die zusammengeführt werden sollen (mindestens 2). Die kostenlose Version führt bis zu 10 pro Vorgang zusammen; andere ausgewählte Dateitypen bleiben außen vor.",
+            "Öffnen Sie „Weitere Aktionen“, tragen Sie bei Bedarf neben „PDFs zusammenführen“ unter „Speichern als“ einen Namen ein (leer = Seitenname und Datum) und klicken Sie auf „PDFs zusammenführen“.",
+            "Prüfen Sie das Ergebnis: Passwortgeschützte, unlesbare oder nicht als PDF gelieferte Dateien werden übersprungen und mit Grund aufgeführt."
+          ],
+          "faq": [
+            {
+              "q": "Ist das ein Online-Dienst zum Zusammenführen?",
+              "a": "Nein. Das Zusammenführen läuft im Browser. Dateien werden nicht auf Server von Grab All Files hochgeladen."
+            },
+            {
+              "q": "Kann ich die Reihenfolge steuern?",
+              "a": "Ja. Die PDFs werden in der Reihenfolge der Liste zusammengeführt. Ziehen Sie Zeilen an die gewünschte Stelle (Ziehen ist bei aktivem Filter oder Spaltensortierung gesperrt; „Manuelle Reihenfolge wiederherstellen“ holt Ihre Anordnung zurück) oder sortieren Sie nach einer Spalte."
+            },
+            {
+              "q": "Kann ich auch die Original-PDFs herunterladen?",
+              "a": "Ja. Sie können die Originale speichern, ein ZIP erstellen und ausgewählte PDFs zusammenführen."
+            },
+            {
+              "q": "Wie viele PDFs kann ich auf einmal zusammenführen?",
+              "a": "Die kostenlose Version führt bis zu 10 ausgewählte PDFs pro Vorgang zusammen – dasselbe 10-Dateien-Limit wie beim Download. Führen Sie die erste Gruppe zusammen, haken Sie dann die nächsten PDFs an und führen Sie sie getrennt zusammen. Pro (19,99 $, einmalig, bis zu 3 Geräte) hat kein Limit pro Vorgang. Jede Zusammenführung braucht mindestens 2 PDFs."
+            },
+            {
+              "q": "Warum fehlen einige PDFs im Ergebnis?",
+              "a": "Passwortgeschützte oder beschädigte PDFs und Links, die statt eines PDFs eine Anmelde- oder Fehlerseite liefern (etwa nach Ablauf der Sitzung), werden übersprungen und mit Grund aufgeführt. Melden Sie sich erneut an und wiederholen Sie den Vorgang. Ab etwa 200 MB insgesamt kann der Browser langsam werden – führen Sie große Sätze in kleineren Gruppen zusammen."
+            }
+          ]
+        },
+        "it": {
+          "title": "Unire PDF localmente nel browser | Grab All Files",
+          "desc": "Unisci nel browser i PDF di una pagina web, senza caricarli su un server. Ordinali trascinando, dai un nome al risultato e conserva gli originali.",
+          "eyebrow": "Unione PDF locale",
+          "h1": "Unisci PDF localmente dopo averli raccolti da una pagina.",
+          "lead": "Grab All Files non è solo un downloader. Quando trova PDF in una pagina o nelle pagine collegate della sua cartella, puoi scegliere i file e unirli nel browser. I PDF originali restano sul tuo dispositivo.",
+          "best": [
+            "Riunire relazioni, avvisi, dispense o moduli dopo una scansione massiva di PDF.",
+            "Non caricare documenti riservati su servizi online per unire PDF.",
+            "Trasformare molti PDF scaricati in un unico fascicolo da rivedere.",
+            "Conservare accanto al PDF unito un CSV con gli URL di origine."
+          ],
+          "steps": [
+            "Scansiona la pagina che elenca i PDF. Aumenta la «Profondità» per includere le pagine collegate nella cartella della pagina di partenza.",
+            "Stabilisci l’ordine: i PDF vengono uniti nell’ordine in cui compaiono nell’elenco. Senza filtri né ordinamento per colonna attivi, trascina le righe per riordinarle, oppure fai clic su un’intestazione come «Titolo» per ordinare.",
+            "Seleziona i PDF da unire (almeno 2). La versione gratuita unisce fino a 10 file per operazione; gli altri tipi di file selezionati restano fuori dal PDF unito.",
+            "Apri «Altre azioni», se vuoi scrivi un nome in «Salva come» accanto a «Unisci PDF» (vuoto = nome pagina e data) e fai clic su «Unisci PDF».",
+            "Controlla il risultato: i PDF protetti da password, illeggibili o le risposte che non sono PDF vengono saltati ed elencati con il motivo."
+          ],
+          "faq": [
+            {
+              "q": "È un servizio online per unire PDF?",
+              "a": "No. L’unione avviene nel browser. I file non vengono caricati sui server di Grab All Files."
+            },
+            {
+              "q": "Posso decidere l’ordine di unione?",
+              "a": "Sì. I PDF vengono uniti nell’ordine dell’elenco. Trascina le righe per riordinarle (il trascinamento è disattivato con un filtro o un ordinamento per colonna attivi; «Ripristina ordine manuale» recupera il tuo ordine) oppure ordina per colonna."
+            },
+            {
+              "q": "Posso scaricare anche i PDF originali?",
+              "a": "Sì. Puoi salvare gli originali, creare uno ZIP e unire i PDF selezionati."
+            },
+            {
+              "q": "C’è un limite di PDF per unione?",
+              "a": "La versione gratuita unisce fino a 10 PDF selezionati per operazione, lo stesso limite di 10 file dei download. Unisci il primo gruppo, poi seleziona i PDF successivi e uniscili a parte. Pro ($19.99, una tantum, fino a 3 dispositivi) non ha limiti per unione. Ogni unione richiede almeno 2 PDF."
+            },
+            {
+              "q": "Perché alcuni PDF sono stati esclusi?",
+              "a": "I PDF protetti da password o danneggiati e i link che restituiscono una pagina di accesso o di errore invece di un PDF (per esempio dopo la scadenza della sessione) vengono saltati ed elencati con il motivo. Accedi di nuovo e riprova. Oltre circa 200 MB totali il browser può rallentare: unisci gli insiemi grandi in gruppi più piccoli."
+            }
+          ]
+        },
+        "ko": {
+          "title": "브라우저에서 PDF 로컬 병합 | Grab All Files",
+          "desc": "웹페이지에서 찾은 PDF를 업로드 없이 브라우저 안에서 하나로 병합합니다. 드래그로 순서를 정하고 이름을 지정할 수 있으며, 무료 버전은 병합당 10개까지입니다.",
+          "eyebrow": "로컬 PDF 병합",
+          "h1": "웹페이지에서 수집한 PDF를 브라우저 안에서 병합하세요.",
+          "lead": "Grab All Files는 단순한 다운로더가 아닙니다. 페이지나 그 폴더 안의 링크된 페이지에서 PDF를 찾은 뒤 필요한 파일을 골라 브라우저 안에서 병합할 수 있습니다. 원본 PDF는 기기에 남습니다.",
+          "best": [
+            "보고서, 안내문, 자료, 양식을 일괄 수집 후 결합.",
+            "민감한 문서를 온라인 PDF 서비스에 보내지 않기.",
+            "여러 PDF를 하나의 검토용 묶음으로 만들기.",
+            "원본 URL CSV 기록도 함께 보관."
+          ],
+          "steps": [
+            "PDF 목록이 있는 페이지를 스캔합니다. 링크된 페이지까지 포함하려면 “깊이”를 올립니다(시작 페이지 폴더 안).",
+            "순서를 정합니다. PDF는 목록에 보이는 순서대로 병합됩니다. 필터나 열 정렬이 없을 때 행을 드래그해 순서를 바꾸거나, “제목” 같은 열 머리글을 눌러 정렬하세요.",
+            "병합할 PDF를 2개 이상 체크합니다. 무료 버전은 병합당 10개까지이며, 선택한 다른 유형의 파일은 병합에서 빠집니다.",
+            "“기타 작업”을 열고 필요하면 “PDF 병합” 옆 “저장 이름”에 이름을 입력한 뒤(비워 두면 페이지 이름_날짜) “PDF 병합”을 누릅니다.",
+            "결과를 확인합니다. 비밀번호로 보호된 PDF, 읽을 수 없는 PDF, PDF가 아닌 응답은 건너뛰고 이유와 함께 표시됩니다."
+          ],
+          "faq": [
+            {
+              "q": "온라인 PDF 병합 서비스인가요?",
+              "a": "아니요. 병합은 브라우저에서 실행되며 서버로 업로드되지 않습니다."
+            },
+            {
+              "q": "병합 순서를 조절할 수 있나요?",
+              "a": "예. PDF는 목록에 보이는 순서대로 병합됩니다. 행을 드래그해 순서를 바꾸거나(필터나 열 정렬 중에는 드래그할 수 없으며 “수동 순서 복원”으로 직접 정한 순서로 돌아갑니다) 열로 정렬하세요."
+            },
+            {
+              "q": "원본 PDF도 저장할 수 있나요?",
+              "a": "예. 원본 저장, ZIP 생성, PDF 병합을 함께 사용할 수 있습니다."
+            },
+            {
+              "q": "한 번에 병합할 수 있는 PDF 수에 제한이 있나요?",
+              "a": "무료 버전은 병합당 선택한 PDF를 최대 10개까지 처리합니다(다운로드와 같은 10개 제한). 첫 묶음을 병합한 뒤 다음 PDF를 체크해 따로 병합하세요. Pro($19.99, 1회 결제, 최대 3대)는 병합당 제한이 없습니다. 병합에는 PDF가 2개 이상 필요합니다."
+            },
+            {
+              "q": "일부 PDF가 병합에서 빠진 이유는요?",
+              "a": "비밀번호로 보호되었거나 손상된 PDF, PDF 대신 로그인 화면이나 오류 페이지를 돌려준 링크(세션 만료 등)는 건너뛰고 이유와 함께 표시됩니다. 다시 로그인한 뒤 재시도하세요. 합계가 약 200MB를 넘으면 브라우저가 느려질 수 있으니 큰 묶음은 나누어 병합하세요."
+            }
+          ]
+        },
+        "pt_BR": {
+          "title": "Mesclar PDFs localmente no navegador | Grab All Files",
+          "desc": "Mescle no navegador os PDFs de uma página, sem enviar nada a um servidor. Defina a ordem arrastando, dê um nome ao arquivo e mantenha os originais.",
+          "eyebrow": "Mesclagem PDF local",
+          "h1": "Mescle PDFs localmente depois de coletá-los de uma página.",
+          "lead": "O Grab All Files não é só um baixador. Depois de encontrar PDFs em uma página ou nas páginas vinculadas da pasta dela, você escolhe os arquivos e os mescla dentro do navegador. Os PDFs originais ficam no seu dispositivo.",
+          "best": [
+            "Combinar relatórios, avisos, apostilas ou formulários.",
+            "Evitar serviços online para documentos sensíveis.",
+            "Transformar muitos PDFs em um pacote de revisão.",
+            "Salvar CSV das URLs fonte."
+          ],
+          "steps": [
+            "Escaneie a página que lista os PDFs. Aumente a “Profundidade” para incluir as páginas vinculadas dentro da pasta da página de partida.",
+            "Defina a ordem: os PDFs são mesclados na ordem em que aparecem na lista. Sem filtro nem ordenação por coluna ativos, arraste as linhas para reorganizá-las, ou clique em um cabeçalho como “Título” para ordenar.",
+            "Marque os PDFs a mesclar (pelo menos 2). A versão gratuita mescla até 10 por operação; outros tipos de arquivo selecionados ficam de fora do PDF final.",
+            "Abra “Mais ações”, digite se quiser um nome em “Salvar como” ao lado de “Mesclar PDFs” (vazio = nome da página e data) e clique em “Mesclar PDFs”.",
+            "Confira o resultado: PDFs protegidos por senha, ilegíveis ou respostas que não são PDF são ignorados e listados com o motivo."
+          ],
+          "faq": [
+            {
+              "q": "É serviço online de PDF?",
+              "a": "Não. A mesclagem roda no navegador, sem upload."
+            },
+            {
+              "q": "Posso controlar a ordem da mesclagem?",
+              "a": "Sim. Os PDFs são mesclados na ordem da lista. Arraste as linhas para reorganizá-las (o arraste fica desativado com filtro ou ordenação por coluna ativos; “Restaurar ordem manual” recupera a sua ordem) ou ordene por uma coluna."
+            },
+            {
+              "q": "Posso salvar originais?",
+              "a": "Sim. Salve originais, crie ZIP e mescle PDFs."
+            },
+            {
+              "q": "Há limite de PDFs por mesclagem?",
+              "a": "A versão gratuita mescla até 10 PDFs selecionados por operação — o mesmo limite de 10 arquivos dos downloads. Mescle o primeiro grupo, depois marque os próximos PDFs e mescle-os separadamente. O Pro ($19.99, compra única, até 3 dispositivos) não tem limite por mesclagem. Cada mesclagem precisa de pelo menos 2 PDFs."
+            },
+            {
+              "q": "Por que alguns PDFs ficaram de fora?",
+              "a": "PDFs protegidos por senha ou danificados, e links que devolvem uma página de login ou de erro em vez de um PDF (por exemplo, depois que a sessão expirou), são ignorados e listados com o motivo. Faça login de novo e tente outra vez. Acima de uns 200 MB no total o navegador pode ficar lento; mescle conjuntos grandes em grupos menores."
+            }
+          ]
+        },
+        "zh_CN": {
+          "title": "在浏览器本地合并PDF | Grab All Files",
+          "desc": "将网页上找到的PDF在浏览器内合并为一个文件，无需上传。可拖动调整顺序并指定文件名，也能保留原始PDF。免费版每次合并最多10个。",
+          "eyebrow": "本地PDF合并",
+          "h1": "从网页收集PDF后，直接在浏览器中本地合并。",
+          "lead": "Grab All Files 不只是下载器。在页面或其文件夹内的链接页面中找到PDF后，您可以选择文件并在浏览器内合并。源PDF保留在您的设备上。",
+          "best": [
+            "批量扫描后合并报告、通知、讲义或表单。",
+            "避免将敏感文档发送给在线PDF合并服务。",
+            "将多个PDF变成一个审阅包。",
+            "同时保留源URL的CSV记录。"
+          ],
+          "steps": [
+            "扫描列出PDF的页面。如需包含起始页面文件夹内链接到的页面，请提高“深度”。",
+            "确定顺序：PDF按列表中显示的顺序合并。在没有筛选或列排序时，可拖动行调整顺序，也可点击“标题”等列标题排序。",
+            "勾选要合并的PDF（至少2个）。免费版每次合并最多10个；所选的其他类型文件不会并入。",
+            "打开“其他操作”，如有需要在“合并PDF”旁的“保存名称”中输入名称（留空则为页面名_日期），然后点击“合并PDF”。",
+            "检查结果：受密码保护、无法读取或不是PDF的响应会被跳过，并显示原因。"
+          ],
+          "faq": [
+            {
+              "q": "这是在线PDF合并服务吗？",
+              "a": "不是。合并在浏览器中运行，文件不会上传到服务器。"
+            },
+            {
+              "q": "能控制合并顺序吗？",
+              "a": "可以。PDF按列表中显示的顺序合并。可拖动行调整顺序（有筛选或列排序时无法拖动，点击“恢复手动排序”可回到您自己的排列），也可按列排序。"
+            },
+            {
+              "q": "也能保存原始PDF吗？",
+              "a": "可以。可保存原件、创建ZIP并合并选中PDF。"
+            },
+            {
+              "q": "一次能合并的PDF数量有限制吗？",
+              "a": "免费版每次合并最多处理10个选中的PDF，与下载的10个上限相同。先合并第一组，再勾选接下来的PDF另行合并。Pro（$19.99，一次性购买，最多3台设备）没有每次合并的上限。每次合并至少需要2个PDF。"
+            },
+            {
+              "q": "为什么有些PDF没有被合并？",
+              "a": "受密码保护或已损坏的PDF，以及返回登录页或错误页而不是PDF的链接（例如会话过期后），都会被跳过并显示原因。请重新登录后重试。总大小超过约200MB时浏览器可能变慢，请把大量文件分成较小的组合并。"
+            }
+          ]
+        },
+        "zh_TW": {
+          "title": "在瀏覽器本機合併PDF | Grab All Files",
+          "desc": "將網頁上找到的PDF在瀏覽器內合併為一個檔案，無需上傳。可拖曳調整順序並指定檔名，也能保留原始PDF。免費版每次合併最多10個。",
+          "eyebrow": "本機PDF合併",
+          "h1": "從網頁收集PDF後，直接在瀏覽器中本機合併。",
+          "lead": "Grab All Files 不只是下載器。在頁面或其資料夾內的連結頁面中找到PDF後，您可以選擇檔案並在瀏覽器內合併。原始PDF保留在您的裝置上。",
+          "best": [
+            "批次掃描後合併報告、通知、講義或表單。",
+            "避免將敏感文件傳給線上PDF合併服務。",
+            "將多個PDF變成一個審閱包。",
+            "同時保留來源URL的CSV記錄。"
+          ],
+          "steps": [
+            "掃描列出PDF的頁面。若要包含起始頁面資料夾內連結到的頁面，請提高「深度」。",
+            "決定順序：PDF依清單中顯示的順序合併。在沒有篩選或欄位排序時，可拖曳列調整順序，也可點擊「標題」等欄位標題排序。",
+            "勾選要合併的PDF（至少2個）。免費版每次合併最多10個；所選的其他類型檔案不會併入。",
+            "開啟「其他操作」，如有需要在「合併PDF」旁的「儲存名稱」中輸入名稱（留空則為頁面名_日期），然後點擊「合併PDF」。",
+            "檢查結果：受密碼保護、無法讀取或不是PDF的回應會被略過，並顯示原因。"
+          ],
+          "faq": [
+            {
+              "q": "這是線上PDF合併服務嗎？",
+              "a": "不是。合併在瀏覽器中執行，檔案不會上傳到伺服器。"
+            },
+            {
+              "q": "能控制合併順序嗎？",
+              "a": "可以。PDF依清單中顯示的順序合併。可拖曳列調整順序（有篩選或欄位排序時無法拖曳，點擊「恢復手動排序」可回到您自己的排列），也可依欄位排序。"
+            },
+            {
+              "q": "也能儲存原始PDF嗎？",
+              "a": "可以。可儲存原件、建立ZIP並合併選取PDF。"
+            },
+            {
+              "q": "一次能合併的PDF數量有限制嗎？",
+              "a": "免費版每次合併最多處理10個選取的PDF，與下載的10個上限相同。先合併第一組，再勾選接下來的PDF另行合併。Pro（$19.99，一次購買，最多3台裝置）沒有每次合併的上限。每次合併至少需要2個PDF。"
+            },
+            {
+              "q": "為什麼有些PDF沒有被合併？",
+              "a": "受密碼保護或已損毀的PDF，以及回傳登入頁或錯誤頁而不是PDF的連結（例如工作階段過期後），都會被略過並顯示原因。請重新登入後重試。總大小超過約200MB時瀏覽器可能變慢，請把大量檔案分成較小的組合併。"
+            }
+          ]
+        }
       }
     }
   };
@@ -13969,10 +16960,10 @@
       "bodyUpdated": "正文更新",
       "titleChanged": "標題変更",
       "originalName": "元の名前",
-      "checkedTitle": "題名を確認・編集",
+      "checkedTitle": "タイトルを確認・編集",
       "procedure": "申請手順",
       "documents": "必要書類",
-      "noTitle": "有用な題名なし",
+      "noTitle": "有用なタイトルなし",
       "automatic": "自動で命名",
       "byType": "種類別の例",
       "byDomain": "取得元別の例",
@@ -14020,10 +17011,10 @@
         "title": "分かりにくい名前を、探せる資料に",
         "stages": [
           "PDFの元の名前を確認",
-          "題名と保存名を選ぶ",
+          "タイトルと保存名を選ぶ",
           "名前とフォルダで整理"
         ],
-        "note": "自動命名で有用な題名が得られない場合は、元の名前を使います。フォルダ木は選べる整理方法の例です。"
+        "note": "自動命名で有用なタイトルが得られない場合は、元の名前を使います。フォルダ木は選べる整理方法の例です。"
       },
       "public": {
         "title": "必要な公的資料を、ひとまとまりに",
@@ -14649,7 +17640,7 @@
           "准备 CSV / JSON",
           "用于 Excel 或外部 AI"
         ],
-        "note": "选择按页面或完整资料包并启用表格输出。文件由您手动导入或传递。"
+        "note": "选择按页面或完整包并启用表格输出。文件由您手动导入或传递。"
       },
       "revisions": {
         "title": "找到变化并核对前后原文",
@@ -14741,7 +17732,7 @@
           "準備 CSV / JSON",
           "用於 Excel 或外部 AI"
         ],
-        "note": "選擇按頁面或完整資料包並啟用表格輸出。檔案由您手動匯入或傳遞。"
+        "note": "選擇按頁面或完整套件並啟用表格輸出。檔案由您手動匯入或傳遞。"
       },
       "revisions": {
         "title": "找到變化並核對前後原文",
@@ -14851,7 +17842,7 @@
     if (data.kind === 'originallook') samples = [visualFiles(data.files), '<ul class="visual-selection visual-look-options">' + data.options.map(function(name, i) { return '<li' + (i === data.options.length - 1 ? ' class="is-chosen"' : '') + '><span aria-hidden="true">' + (i === data.options.length - 1 ? '●' : '○') + '</span> ' + esc(name) + '</li>'; }).join('') + '</ul>',
       visualCode(data.output + '\n├ ' + data.toc + '\n' + data.order.map(function(name, i) { return (i === data.order.length - 1 ? '└ ' : '├ ') + name; }).join('\n'), 'visual-tree')];
     if (data.kind === 'filecsv') samples = [visualTable(data.column, rows), visualCode('URL,Filename,Type,Source page\nhttps://example.org/catalog.pdf,catalog.pdf,PDF,https://example.org/downloads'), '<strong class="visual-label">Excel</strong>' + visualTable(data.column, rows)];
-    return '<figure class="feature-visual industry-visual" aria-labelledby="feature-visual-caption"><figcaption id="feature-visual-caption"><strong>' + esc(data.title) + '</strong><span>' + esc(data.example) + '</span></figcaption><ol class="visual-flow">' + data.stages.map(function(title, i) { return '<li class="visual-stage"><h3><span class="visual-index" aria-hidden="true">' + String(i + 1) + '</span><span>' + esc(title) + '</span></h3><div class="visual-demo">' + samples[i] + '</div>' + (i < 2 ? '<span class="visual-arrow visual-arrow-horizontal" aria-hidden="true">→</span><span class="visual-arrow visual-arrow-vertical" aria-hidden="true">↓</span>' : '') + '</li>'; }).join('') + '</ol><p class="visual-note">' + esc(data.note) + '</p></figure>';
+    return '<figure class="feature-visual industry-visual" aria-labelledby="feature-visual-caption"><figcaption id="feature-visual-caption"><strong>' + esc(data.title) + '</strong><span>' + esc(data.example) + '</span></figcaption><ol class="visual-flow">' + data.stages.map(function(title, i) { return '<li class="visual-stage"><p class="visual-stage-title"><span class="visual-index" aria-hidden="true">' + String(i + 1) + '</span><span>' + esc(title) + '</span></p><div class="visual-demo">' + samples[i] + '</div>' + (i < 2 ? '<span class="visual-arrow visual-arrow-horizontal" aria-hidden="true">→</span><span class="visual-arrow visual-arrow-vertical" aria-hidden="true">↓</span>' : '') + '</li>'; }).join('') + '</ol><p class="visual-note">' + esc(data.note) + '</p></figure>';
   }
 
   function renderScenarios(data) {
@@ -14881,7 +17872,7 @@
     var topic = copy.topics[kind];
     return '<figure class="feature-visual" aria-labelledby="feature-visual-caption"><figcaption id="feature-visual-caption"><strong>' + esc(topic.title) +
       '</strong><span>' + esc(copy.example) + '</span></figcaption><ol class="visual-flow">' + topic.stages.map(function (title, stage) {
-        return '<li class="visual-stage"><h3><span class="visual-index" aria-hidden="true">' + String(stage + 1) + '</span><span>' + esc(title) + '</span></h3>' +
+        return '<li class="visual-stage"><p class="visual-stage-title"><span class="visual-index" aria-hidden="true">' + String(stage + 1) + '</span><span>' + esc(title) + '</span></p>' +
           '<div class="visual-demo">' + renderVisualSample(kind, stage, copy.common) + '</div>' + (stage < 2 ?
             '<span class="visual-arrow visual-arrow-horizontal" aria-hidden="true">→</span><span class="visual-arrow visual-arrow-vertical" aria-hidden="true">↓</span>' : '') + '</li>';
       }).join('') + '</ol><p class="visual-note">' + esc(topic.note) + '</p></figure>';
@@ -15241,7 +18232,7 @@
       "save-web-pages-with-original-design": "「ページをHTMLにまとめる」の「見た目」：「元の見た目のまま」を選び、「広告を省く」がオン（既定）の状態",
       "web-tables-to-csv-for-excel-ai": "表のCSV/JSON出力設定",
       "save-and-compare-document-revisions": "差分レポートを保存するメニュー",
-      "rename-and-organize-bulk-pdf-downloads": "PDF題名の確認・保存名・フォルダ分けの選択",
+      "rename-and-organize-bulk-pdf-downloads": "PDFタイトルの確認・保存名・フォルダ分けの選択",
       "collect-public-government-documents": "サンプル公的資料の選択とファイル情報CSVの操作",
       "save-web-pages-as-markdown": "Markdownの出力形式設定",
       "save-online-manuals-and-knowledge-pages": "サンプルマニュアルのページ選択",
@@ -15253,10 +18244,10 @@
       "internal-portal-downloads": "架空ポータルの添付ファイルの選択",
       "merge-pdfs-locally": "選んだサンプルPDFの結合メニュー",
       "download-product-catalogs-and-datasheets": "確認したサンプル型番のPDF選択と保存名・形式別整理設定",
-      "download-ir-and-financial-report-pdfs": "確認・編集したサンプル年度・四半期題名のPDF選択と保存名設定",
+      "download-ir-and-financial-report-pdfs": "確認・編集したサンプル年度・四半期タイトルのPDF選択と保存名設定",
       "download-tender-and-application-documents": "1つの架空案件の資料選択とZIP等の保存メニュー",
       "export-file-links-to-csv": "選択したサンプル資料のファイル情報CSV出力メニュー",
-      "download-sds-and-technical-documents": "確認したサンプル製品名・版の題名とPDF選択・形式別整理設定"
+      "download-sds-and-technical-documents": "確認したサンプル製品名・版のタイトルとPDF選択・形式別整理設定"
     }
   },
   "es": {
@@ -15647,7 +18638,7 @@
   "zh_TW": {
     "web-pages-for-reading-and-ai-analysis": {
       "primaryTitle": "設定收集頁面與AI輸出",
-      "primaryPurpose": "收集前確認目標頁面並選擇AI資料完整資料包的實際設定畫面",
+      "primaryPurpose": "收集前確認目標頁面並選擇AI資料完整套件的實際設定畫面",
       "detailTitle": "收集後的AI輸出選單",
       "detailCaption": "此選單提供AI ZIP儲存與請求文字複製操作。"
     },
@@ -15670,8 +18661,8 @@
       var dimensions = shot.width && shot.height ? ' width="' + shot.width + '" height="' + shot.height + '"' : '';
       var alt = common.heading + ": " + purpose + (common.english ? " " + common.english : "");
       return '<figure class="usecase-screenshot screenshot-' + kind + '"><a href="' + shot.src + '" target="_blank" rel="noopener" aria-label="' + esc(common.zoom + ' — ' + purpose) +
-        '"><img src="' + shot.src + '"' + dimensions + ' loading="lazy" decoding="async" alt="' + esc(alt) +
-        '"></a><figcaption><p>' + esc(caption) + '</p><a class="screenshot-enlarge" href="' + shot.src + '" target="_blank" rel="noopener">' + esc(common.zoom) + ' ↗</a></figcaption></figure>';
+        '"><picture><source type="image/webp" srcset="' + shot.src.replace(/\.png$/, '.webp') + '"><img src="' + shot.src + '"' + dimensions + ' loading="lazy" decoding="async" alt="' + esc(alt) +
+        '"></picture></a><figcaption><p>' + esc(caption) + '</p><a class="screenshot-enlarge" href="' + shot.src + '" target="_blank" rel="noopener">' + esc(common.zoom) + ' ↗</a></figcaption></figure>';
     }
     var locale = lang === "ja" ? "ja" : "en";
     return '<section class="section-card usecase-screen" id="extension-screens"><h2>' + esc(common.heading) + ' — ' + esc(labels[current.id]) +
@@ -15696,8 +18687,8 @@
     var dimensions = shot.width && shot.height ? ' width="' + shot.width + '" height="' + shot.height + '"' : '';
     return '<section class="section-card usecase-screen"><h2>' + esc(common.heading) + ' — ' + esc(labels[current.id]) +
       '</h2><figure class="usecase-screenshot"><a href="' + shot.src + '" target="_blank" rel="noopener" aria-label="' + esc(common.zoom + ' — ' + purpose) +
-      '"><img src="' + shot.src + '"' + dimensions + ' loading="lazy" decoding="async" alt="' + esc(alt) +
-      '"></a><figcaption><p>' + esc(caption) + '</p><a class="screenshot-enlarge" href="' + shot.src + '" target="_blank" rel="noopener">' + esc(common.zoom) +
+      '"><picture><source type="image/webp" srcset="' + shot.src.replace(/\.png$/, '.webp') + '"><img src="' + shot.src + '"' + dimensions + ' loading="lazy" decoding="async" alt="' + esc(alt) +
+      '"></picture></a><figcaption><p>' + esc(caption) + '</p><a class="screenshot-enlarge" href="' + shot.src + '" target="_blank" rel="noopener">' + esc(common.zoom) +
       ' ↗</a></figcaption></figure></section>';
   }
 
@@ -15715,15 +18706,15 @@
         visualCode(data.sample[2] + '/\n├ ' + paperA + '.pdf\n├ ' + paperB + '.pdf\n└ files.csv', 'visual-tree')];
       return '<figure class="feature-visual arxiv-visual" aria-labelledby="feature-visual-caption"><figcaption id="feature-visual-caption"><strong>' + esc(data.visualTitle) +
         '</strong><span>' + esc((VISUAL_COPY[lang] || VISUAL_COPY.en).example) + '</span></figcaption><ol class="visual-flow">' + data.stages.map(function(title, i) {
-          return '<li class="visual-stage"><h3><span class="visual-index" aria-hidden="true">' + String(i + 1) + '</span><span>' + esc(title) +
-            '</span></h3><div class="visual-demo">' + samples[i] + '</div>' + (i < 2 ? '<span class="visual-arrow visual-arrow-horizontal" aria-hidden="true">→</span><span class="visual-arrow visual-arrow-vertical" aria-hidden="true">↓</span>' : '') + '</li>';
+          return '<li class="visual-stage"><p class="visual-stage-title"><span class="visual-index" aria-hidden="true">' + String(i + 1) + '</span><span>' + esc(title) +
+            '</span></p><div class="visual-demo">' + samples[i] + '</div>' + (i < 2 ? '<span class="visual-arrow visual-arrow-horizontal" aria-hidden="true">→</span><span class="visual-arrow visual-arrow-vertical" aria-hidden="true">↓</span>' : '') + '</li>';
         }).join('') + '</ol><p class="visual-note">' + esc(data.visualNote) + '</p></figure>';
     }
     if (section === "screen") {
       var shot = ARXIV_SHOTS[lang] || ARXIV_SHOTS.en;
       return '<section class="section-card arxiv-screen"><h2>' + esc(data.screenTitle) + '</h2><figure class="arxiv-screenshot"><a href="' + shot.src +
-        '" target="_blank" rel="noopener"><img src="' + shot.src + '" width="' + shot.width + '" height="' + shot.height + '" loading="lazy" decoding="async" alt="' + esc(data.screenAlt) +
-        '"></a><figcaption>' + esc(data.screenCaption) + '</figcaption></figure></section>';
+        '" target="_blank" rel="noopener"><picture><source type="image/webp" srcset="' + shot.src.replace(/\.png$/, '.webp') + '"><img src="' + shot.src + '" width="' + shot.width + '" height="' + shot.height + '" loading="lazy" decoding="async" alt="' + esc(data.screenAlt) +
+        '"></picture></a><figcaption>' + esc(data.screenCaption) + '</figcaption></figure></section>';
     }
     var links = ['https://info.arxiv.org/help/robots.html', 'https://info.arxiv.org/help/bulk_data.html', 'https://info.arxiv.org/help/api/index.html'];
     return '<section class="section-card arxiv-access"><h2>' + esc(data.officialTitle) + '</h2><p>' + esc(data.officialText) + '</p><p><a href="https://arxiv.org/search/" target="_blank" rel="noopener">' + esc(data.searchLabel) + ' ↗</a></p><ul class="check-list">' +
@@ -15777,7 +18768,7 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Grab All Files", "item": home },
         { "@type": "ListItem", "position": 2, "name": UI[lang].useCases, "item": home + "use-cases/" },
-        { "@type": "ListItem", "position": 3, "name": copy.h1, "item": canonical }
+        { "@type": "ListItem", "position": 3, "name": (GUIDE_LABELS[lang] || GUIDE_LABELS.en)[current.id] || copy.h1, "item": canonical }
       ]
     });
     setJsonLd("case-faq-schema", {

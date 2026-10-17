@@ -269,7 +269,7 @@ function bakeHub(html, lang, tables, cases) {
   // zh_CN/zh_TW ("用途") が衝突し、別URLに同一 title が生まれていた。
   // ハブ専用の title があればそれを優先する。
   const title = `${ui.useCasesTitle || ui.useCases} | Grab All Files`;
-  const desc = order.map((id) => labels[id]).join(' · ');
+  const desc = ui.useCasesDesc || order.map((id) => labels[id]).join(' · ');
   const guideUrl = (id) => `/use-cases/${id}.html`;
 
   let h = html.replace(LANG_NAV_RE, '');
@@ -316,7 +316,7 @@ function bakeHub(html, lang, tables, cases) {
     '      <div>',
     `        <a class="breadcrumb" href="/">← ${textEsc(ui.home)}</a>`,
     `        <h1>${textEsc(ui.useCases)}</h1>`,
-    `        <p class="lead">${textEsc(desc)}</p>`,
+    `        <p class="lead">${textEsc(ui.useCasesIntro || desc)}</p>`,
     '      </div>',
     '    </section>',
     '    <div class="section-stack">',
