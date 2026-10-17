@@ -9,7 +9,7 @@ if (!currentVersion) throw new Error('llms.txt: missing or invalid "Current vers
 
 const locales = [
   { code: 'en', file: 'index.html', title: ['Bulk file download', 'web pages', 'HTML'], h1: ['Bulk-download files', 'web pages', 'HTML'] },
-  { code: 'ja', file: 'ja/index.html', title: ['ファイル一括保存', 'Webページ', 'HTML'], h1: ['ファイル', '複数ページ', 'HTML'] },
+  { code: 'ja', file: 'ja/index.html', title: ['ファイル一括ダウンロード', 'Webページ', 'HTML'], h1: ['ファイル', '複数ページ', 'HTML'] },
   { code: 'es', file: 'es/index.html', title: ['Descarga masiva', 'páginas', 'HTML'], h1: ['Descarga archivos', 'páginas', 'HTML'] },
   { code: 'fr', file: 'fr/index.html', title: ['Téléchargement groupé', 'pages', 'HTML'], h1: ['fichiers', 'pages', 'HTML'] },
   { code: 'de', file: 'de/index.html', title: ['Stapel-Download', 'Webseiten', 'HTML'], h1: ['Dateien', 'Webseiten', 'HTML'] },
