@@ -534,7 +534,8 @@ footer {
 .feature-visual figcaption strong { color: var(--text-strong); font-size: 1.4rem; line-height: 1.4; }
 .visual-flow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; list-style: none; padding: 0; margin: 0; }
 .visual-stage { position: relative; min-width: 0; border: 1px solid var(--border); border-radius: 14px; background: var(--surface-alt); padding: 1rem; }
-.visual-stage h3 { display: flex; align-items: flex-start; gap: .65rem; color: var(--text-strong); font-size: 1.12rem; line-height: 1.5; margin-bottom: 1rem; }
+.visual-stage .visual-stage-title { display: flex; align-items: flex-start; gap: .65rem; color: var(--text-strong); font-size: 1.12rem; font-weight: 700; line-height: 1.5; margin-bottom: 1rem; overflow-wrap: anywhere; }
+:root:lang(ja) .visual-stage .visual-stage-title { word-break: keep-all; word-break: auto-phrase; }
 .visual-index { flex: 0 0 2rem; display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--primary); color: var(--primary-text); font-size: 1rem; font-weight: 750; }
 .visual-demo { font-size: 1rem; line-height: 1.65; overflow-wrap: anywhere; }
 .visual-label { display: block; color: var(--text-strong); font-size: 1rem; margin: .4rem 0 .55rem; }
@@ -580,6 +581,7 @@ footer {
 }
 
 .arxiv-screenshot { margin: 0; }
+.arxiv-screenshot picture, .usecase-screenshot picture { display: block; }
 .arxiv-screenshot img { display: block; width: 100%; height: auto; border: 1px solid var(--border-strong); border-radius: 12px; }
 .arxiv-screenshot figcaption { margin-top: .9rem; color: var(--text-muted); font-size: 1rem; line-height: 1.65; }
 .arxiv-access p { margin-bottom: 1rem; }
