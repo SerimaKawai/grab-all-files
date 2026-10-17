@@ -14888,6 +14888,20 @@
   }
 
   var CASE_SCREENSHOTS = {
+  "save-web-pages-with-original-design": {
+    "collector": true,
+    "portal": false,
+    "ja": {
+      "src": "/assets/screenshots/use-case-save-web-pages-with-original-design-ja.png",
+      "width": 2560,
+      "height": 1760
+    },
+    "en": {
+      "src": "/assets/screenshots/use-case-save-web-pages-with-original-design-en.png",
+      "width": 2560,
+      "height": 1760
+    }
+  },
   "combine-local-html-files-into-one": {
     "collector": false,
     "portal": false,
@@ -15192,6 +15206,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "“From a computer folder” in Combine pages into HTML: choose a folder or ZIP file, or drag it onto the screen",
+      "save-web-pages-with-original-design": "“Look” in Combine pages into HTML: “Keep the original look” chosen, with the repeated header, menu and footer kept on the first page only",
       "web-tables-to-csv-for-excel-ai": "Table CSV/JSON export settings",
       "save-and-compare-document-revisions": "Menu for saving a change report",
       "rename-and-organize-bulk-pdf-downloads": "Reviewed PDF titles, save names and folder options",
@@ -15223,6 +15238,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "「ページをHTMLにまとめる」の「パソコンのフォルダから」：フォルダかZIPファイルを選ぶか、画面へドラッグ",
+      "save-web-pages-with-original-design": "「ページをHTMLにまとめる」の「見た目」：「元の見た目のまま」を選び、共通のヘッダー・メニュー・フッターは最初のページだけに残す設定",
       "web-tables-to-csv-for-excel-ai": "表のCSV/JSON出力設定",
       "save-and-compare-document-revisions": "差分レポートを保存するメニュー",
       "rename-and-organize-bulk-pdf-downloads": "PDF題名の確認・保存名・フォルダ分けの選択",
@@ -15254,6 +15270,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "Modo de carpeta del equipo en la combinación de páginas: elige una carpeta o un ZIP, o arrástralo a la pantalla",
+      "save-web-pages-with-original-design": "«Aspecto» al combinar páginas en HTML: «Mantener el aspecto original» elegido, con el encabezado, el menú y el pie repetidos solo en la primera página",
       "web-tables-to-csv-for-excel-ai": "Configuración de tablas CSV/JSON",
       "save-and-compare-document-revisions": "Menú para guardar un informe de cambios",
       "rename-and-organize-bulk-pdf-downloads": "Títulos PDF revisados, nombres y carpetas",
@@ -15285,6 +15302,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "Mode dossier de l’ordinateur dans le regroupement de pages : choisissez un dossier ou un ZIP, ou faites-le glisser",
+      "save-web-pages-with-original-design": "« Apparence » dans le regroupement de pages en HTML : « Garder l’apparence d’origine » choisi, l’en-tête, le menu et le pied de page répétés n’étant gardés que sur la première page",
       "web-tables-to-csv-for-excel-ai": "Paramètres d’export des tableaux CSV/JSON",
       "save-and-compare-document-revisions": "Menu pour enregistrer un rapport de changements",
       "rename-and-organize-bulk-pdf-downloads": "Titres PDF vérifiés, noms et dossiers",
@@ -15316,6 +15334,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "Ordnermodus beim Bündeln von Seiten: Ordner oder ZIP-Datei wählen oder auf den Bildschirm ziehen",
+      "save-web-pages-with-original-design": "„Aussehen“ beim Bündeln von Seiten als HTML: „Ursprüngliches Aussehen behalten“ gewählt, wiederholte Kopfzeile, Menü und Fußzeile nur auf der ersten Seite",
       "web-tables-to-csv-for-excel-ai": "CSV/JSON-Einstellungen für Tabellen",
       "save-and-compare-document-revisions": "Menü zum Speichern eines Änderungsberichts",
       "rename-and-organize-bulk-pdf-downloads": "Geprüfte PDF-Titel, Dateinamen und Ordneroptionen",
@@ -15347,6 +15366,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "Modalità cartella del computer nell’unione di pagine: scegli una cartella o un file ZIP, oppure trascinalo",
+      "save-web-pages-with-original-design": "«Aspetto» nell’unione di pagine in HTML: scelto «Mantieni l’aspetto originale», con intestazione, menu e piè di pagina ripetuti solo nella prima pagina",
       "web-tables-to-csv-for-excel-ai": "Impostazioni di esportazione tabelle CSV/JSON",
       "save-and-compare-document-revisions": "Menu per salvare un rapporto delle modifiche",
       "rename-and-organize-bulk-pdf-downloads": "Titoli PDF verificati, nomi e cartelle",
@@ -15378,6 +15398,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "페이지 합치기의 컴퓨터 폴더 모드: 폴더나 ZIP 파일을 선택하거나 화면으로 끌어 놓기",
+      "save-web-pages-with-original-design": "페이지를 HTML로 합치기의 “보기”: “원래 모양 그대로”를 선택하고, 반복되는 헤더·메뉴·푸터는 첫 페이지에만 남기는 설정",
       "web-tables-to-csv-for-excel-ai": "표의 CSV/JSON 출력 설정",
       "save-and-compare-document-revisions": "변경 보고서를 저장하는 메뉴",
       "rename-and-organize-bulk-pdf-downloads": "PDF 제목 확인·저장 이름·폴더 옵션",
@@ -15409,6 +15430,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "Modo de pasta do computador ao juntar páginas: escolha uma pasta ou um ZIP, ou arraste para a tela",
+      "save-web-pages-with-original-design": "“Aparência” ao juntar páginas em HTML: “Manter a aparência original” escolhido, com o cabeçalho, o menu e o rodapé repetidos só na primeira página",
       "web-tables-to-csv-for-excel-ai": "Configurações de tabelas CSV/JSON",
       "save-and-compare-document-revisions": "Menu para salvar um relatório de alterações",
       "rename-and-organize-bulk-pdf-downloads": "Títulos PDF conferidos, nomes e pastas",
@@ -15440,6 +15462,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "网页合并中的“电脑文件夹”模式：选择文件夹或ZIP文件，或拖到界面上",
+      "save-web-pages-with-original-design": "“将网页合并为 HTML”中的“外观”：选择“保持原样”，每页重复的页眉、菜单和页脚只保留在第一页",
       "web-tables-to-csv-for-excel-ai": "表格CSV/JSON输出设置",
       "save-and-compare-document-revisions": "保存变化报告的菜单",
       "rename-and-organize-bulk-pdf-downloads": "PDF标题核对、保存名称与文件夹选项",
@@ -15471,6 +15494,7 @@
     },
     "purposes": {
       "combine-local-html-files-into-one": "網頁合併中的「電腦資料夾」模式：選擇資料夾或ZIP檔案，或拖曳到畫面上",
+      "save-web-pages-with-original-design": "「將網頁合併為 HTML」中的「外觀」：選擇「保持原樣」，每頁重複的頁首、選單和頁尾只保留在第一頁",
       "web-tables-to-csv-for-excel-ai": "表格CSV/JSON輸出設定",
       "save-and-compare-document-revisions": "儲存變更報告的選單",
       "rename-and-organize-bulk-pdf-downloads": "PDF標題核對、儲存名稱與資料夾選項",
