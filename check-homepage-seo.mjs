@@ -126,6 +126,18 @@ for (const locale of locales) {
   assert(website?.name === 'Grab All Files', `${locale.file}: WebSite structured data is missing the site name`);
   assert(website?.description?.includes('Bulk File Download') && website?.description?.includes('Web Page Collector'), `${locale.file}: WebSite structured data must describe both core tools`);
   assert(schemas.filter((schema) => schema['@type'] === 'HowTo').length === 2, `${locale.file}: expected one HowTo for each core tool`);
+  // Google requires FAQ markup to match the visible FAQ: every marked-up question
+  // must be one of this page's own <summary> questions, and none may be missing.
+  const faqSchema = schemas.find((schema) => schema['@type'] === 'FAQPage');
+  const faqSection = html.match(/<section\b[^>]*\bid="faq"[^>]*>([\s\S]*?)<\/section>/)?.[1] || '';
+  const plain = (x) => x.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/\s+/g, ' ').trim();
+  const visibleQs = [...faqSection.matchAll(/<summary\b[^>]*>([\s\S]*?)<\/summary>/g)].map((m) => plain(m[1]));
+  const markedQs = (faqSchema?.mainEntity || []).map((q) => plain(q.name || ''));
+  if (locale.code !== 'en') {
+    assert(markedQs.length > 0 && markedQs.length === visibleQs.length && markedQs.every((q, i) => q === visibleQs[i]), `${locale.file}: FAQPage markup must equal the visible FAQ questions`);
+  } else {
+    assert(markedQs.length > 0 && markedQs.every((q) => html.includes(q) || plain(html).includes(q)), `${locale.file}: every FAQPage question must appear on the page`);
+  }
 }
 
 for (const locale of locales) {

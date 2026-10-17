@@ -28,6 +28,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
+import { execFileSync } from 'node:child_process';
 import { renderAll, getTables, CASE_IDS } from './prerender-cases.mjs';
 import { renderAll as renderSecurity } from './prerender-security.mjs';
 
@@ -412,6 +413,97 @@ function stripOtherLanguages(html, L) {
 
 /* ---------- per-locale page generation ---------- */
 
+/* The homepage's JSON-LD is written once, in English, in index.html. Copied
+ * verbatim onto /<L>/ it described a page in another language and marked up FAQ
+ * questions that are not on that page (Google requires FAQ markup to match the
+ * visible FAQ). On a locale homepage:
+ *  - FAQPage is rebuilt from that page's own visible FAQ (<details> in #faq),
+ *  - each HowTo is rebuilt from the page's own "How it works" workflow
+ *    (h3.workflow-title + .steps), in the same order as the English source,
+ *  - "English / 日本語" strings keep only the half in the page's language
+ *    (Japanese half on /ja/, English half elsewhere). */
+const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: '\u00a0', mdash: '\u2014', ndash: '\u2013', hellip: '\u2026', rsquo: '\u2019', lsquo: '\u2018', ldquo: '\u201c', rdquo: '\u201d' };
+function htmlToText(s) {
+  return String(s)
+    .replace(/<br\s*\/?>/gi, ' ')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&#x([0-9a-f]+);/gi, (m, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (m, d) => String.fromCodePoint(+d))
+    .replace(/&([a-z]+);/gi, (m, n) => (n.toLowerCase() in ENTITIES ? ENTITIES[n.toLowerCase()] : m))
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+function visibleFaq(html) {
+  const sec = html.match(/<section\b[^>]*\bid="faq"[^>]*>([\s\S]*?)<\/section>/);
+  if (!sec) throw new Error('localizeIndexJsonLd: #faq section not found');
+  const items = [];
+  const re = /<details\b[^>]*>\s*<summary\b[^>]*>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/g;
+  let m;
+  while ((m = re.exec(sec[1]))) items.push({ q: htmlToText(m[1]), a: htmlToText(m[2]) });
+  if (!items.length) throw new Error('localizeIndexJsonLd: no <details> FAQ items found');
+  return items;
+}
+function visibleWorkflows(html) {
+  const flows = [];
+  const re = /<h3 class="workflow-title">([\s\S]*?)<\/h3>\s*<div class="steps">([\s\S]*?)<\/div>\s*(?=<h3 class="workflow-title">|<\/div>)/g;
+  let m;
+  while ((m = re.exec(html))) {
+    const steps = [];
+    const sre = /<div class="step">[\s\S]*?<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/g;
+    let sm;
+    while ((sm = sre.exec(m[2]))) steps.push({ name: htmlToText(sm[1]), text: htmlToText(sm[2]) });
+    if (steps.length) flows.push({ title: htmlToText(m[1]), steps });
+  }
+  return flows;
+}
+const JA_RE = /[\u3040-\u30ff]/;
+function pickLangHalf(v, L) {
+  if (typeof v === 'string') {
+    const i = v.indexOf(' / ');
+    if (i > 0 && JA_RE.test(v.slice(i + 3)) && !JA_RE.test(v.slice(0, i))) return L === 'ja' ? v.slice(i + 3) : v.slice(0, i);
+    return v;
+  }
+  if (Array.isArray(v)) return v.map((x) => pickLangHalf(x, L));
+  if (v && typeof v === 'object') {
+    const o = {};
+    for (const [k, x] of Object.entries(v)) o[k] = pickLangHalf(x, L);
+    return o;
+  }
+  return v;
+}
+function localizeIndexJsonLd(html, L) {
+  const faq = visibleFaq(html);
+  const flows = visibleWorkflows(html);
+  let howto = 0;
+  return html.replace(/[ \t]*<script type="application\/ld\+json">([\s\S]*?)<\/script>\n?/g, (m, body) => {
+    const data = JSON.parse(body);
+    const type = data['@type'];
+    let out;
+    if (type === 'HowTo') {
+      const flow = flows[howto++];
+      if (!flow) throw new Error(`localizeIndexJsonLd: no visible workflow for HowTo #${howto} on /${L}/`);
+      out = {
+        ...data,
+        name: flow.title,
+        description: flow.steps.map((x) => x.name).join(' → '),
+        inLanguage: BCP47[L],
+        step: flow.steps.map((x, i) => ({ '@type': 'HowToStep', position: i + 1, name: x.name, text: x.text })),
+      };
+      delete out.tool;
+    } else
+    if (type === 'FAQPage') {
+      out = { ...data, inLanguage: BCP47[L], mainEntity: faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
+    } else {
+      out = pickLangHalf(data, L);
+      // The visible page's own one-line description (META, baked into <meta>) is
+      // the localized summary; use it instead of the English app description.
+      if (type === 'SoftwareApplication' && META[L] && META[L].desc) out = { ...out, description: META[L].desc, inLanguage: BCP47[L] };
+    }
+    const json = JSON.stringify(out, null, 2).replace(/</g, '\\u003c').split('\n').map((x) => '  ' + x).join('\n');
+    return `  <script type="application/ld+json">\n${json}\n  </script>\n`;
+  });
+}
+
 function genLocale(srcHtml, page, L) {
   let h = srcHtml.replace(FORCE_LANG_RE, '').replace(LANG_NAV_RE, '');
   const self = url(L, page.rel);
@@ -456,6 +548,7 @@ function genLocale(srcHtml, page, L) {
     return `<${tag}${a}>`;
   });
   h = h.replace(new RegExp(NUL + 'A(\\d+)' + NUL, 'g'), (m, i) => stash[+i]);
+  if (page.src === 'index.html') h = localizeIndexJsonLd(h, L);
   // rewrite paths (own script/style protection)
   const srcDir = path.posix.dirname('/' + page.src).replace(/^\//, '');
   h = rewritePaths(h, srcDir === '.' ? '' : srcDir, L);
@@ -494,6 +587,20 @@ const PREV = previousLastmod();
 const now = new Date();
 const TODAY = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 const lastmodFor = new Map();
+
+// The English root pages are their own sources: a hand edit to index.html or
+// security.html made before the build leaves the rebuilt file byte-identical,
+// so "changed this run" never fired and their lastmod lagged behind every
+// locale copy. Date an English page by its source instead: TODAY while it has
+// uncommitted edits, else its last commit date (never earlier than before).
+function sourceDate(rel) {
+  try {
+    const dirty = execFileSync('git', ['status', '--porcelain', '--', rel], { cwd: ROOT, encoding: 'utf8' }).trim();
+    if (dirty) return TODAY;
+    return execFileSync('git', ['log', '-1', '--format=%cs', '--', rel], { cwd: ROOT, encoding: 'utf8' }).trim() || null;
+  } catch (_) { return null; }
+}
+const laterDate = (a, b) => (!a ? b : !b ? a : a > b ? a : b);
 
 function writeIfChanged(dest, content, { repairLineEndings = false } = {}) {
   // Older CRLF templates could leave orphaned CRs when generated scripts were
@@ -590,7 +697,7 @@ for (const page of PAGES) {
   }
   const enChanged = writeIfChanged(srcPath, en, { repairLineEndings });
   const enUrl = url('en', page.rel);
-  lastmodFor.set(enUrl, enChanged ? TODAY : (PREV.get(enUrl) || TODAY));
+  lastmodFor.set(enUrl, enChanged ? TODAY : (laterDate(PREV.get(enUrl), sourceDate(page.src)) || TODAY));
   if (enChanged) changedCount++;
   rootCount++;
 }
