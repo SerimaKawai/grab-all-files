@@ -6,3 +6,8 @@ exclude:
   - check-seo-integrity.mjs
   - prerender-cases.mjs
   - prerender-security.mjs
+  - tmp
+  - output
+  - uploads
+  - _redesign
+  - store-listing

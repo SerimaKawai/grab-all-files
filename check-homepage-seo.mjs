@@ -1,4 +1,7 @@
 import fs from 'node:fs';
+import crypto from 'node:crypto';
+
+const FORMER_NAME_SHA256 = '1bac97186d2c6519b8bde744fd3d5a3ecf8bf31b96ae2958f03c30da86074819';
 
 const llms = fs.readFileSync(new URL('./llms.txt', import.meta.url), 'utf8');
 const currentVersion = llms.match(/^- Current version:\s*(\d+\.\d+\.\d+)\s*$/m)?.[1];
@@ -167,8 +170,15 @@ const privacy = fs.readFileSync('privacy-policy.html', 'utf8');
 assert(privacy.includes('Serima Kawai is the Data Controller and Developer'), 'privacy-policy.html: English Data Controller/Developer role is missing');
 assert(privacy.includes('the Seller / Service Provider identified in the'), 'privacy-policy.html: English Seller/Service Provider role is missing');
 for (const [name, text] of [['legal.html', legal], ['terms.html', terms], ['privacy-policy.html', privacy], ['llms.txt', llms]]) {
-  // The former developer name is kept out of this public source file too.
-  assert(!text.toLowerCase().includes(Buffer.from('dGV0c3Vub2J1', 'base64').toString()), `${name}: the operator is published as Serima Kawai only`);
+  // The former developer name is kept out of this public source file too:
+  // only its SHA-256 is stored, compared against every 9-letter window.
+  const lower = text.toLowerCase();
+  let found = false;
+  for (let i = 0; i + 9 <= lower.length && !found; i++) {
+    if (lower.charCodeAt(i) !== 116) continue;
+    found = crypto.createHash('sha256').update(lower.slice(i, i + 9)).digest('hex') === FORMER_NAME_SHA256;
+  }
+  assert(!found, `${name}: the operator is published as Serima Kawai only`);
 }
 
 const robots = fs.readFileSync('robots.txt', 'utf8');

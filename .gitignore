@@ -24,6 +24,8 @@ yarn-debug.log*
 .cache/
 .playwright-cli/
 tmp/
+output/
+uploads/
 .tmp_*
 
 # Dependencies (in case node tooling is added later)
