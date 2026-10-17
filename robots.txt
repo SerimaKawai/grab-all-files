@@ -1,5 +1,7 @@
 # AI assistants and search engines are welcome to read and cite this site.
-# The only pages blocked are those with personal contact / legal info.
+# The legal pages (privacy policy, terms, legal notice) are kept out of the
+# named AI crawlers' corpora below. Search engines (User-agent: *) may fetch
+# them so they can read the pages' own noindex tag; they are not indexed.
 # Everything else (the product pages) stays fully crawlable so Grab All Files
 # is discoverable and citable through search engines and AI assistants.
 # AI-readable summary: https://grab-all-files.app/llms.txt
@@ -97,10 +99,6 @@ Disallow: /legal.html
 Disallow: /tokushoho.html
 
 User-agent: *
-Disallow: /privacy-policy.html
-Disallow: /terms.html
-Disallow: /legal.html
-Disallow: /tokushoho.html
 Allow: /
 
 Sitemap: https://grab-all-files.app/sitemap.xml
