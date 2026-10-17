@@ -211,11 +211,13 @@
                 <label for="f-detail-not_detected_source_page" id="l-detail-not_detected_source_page">Page URL where you ran the scan (required)</label>
                 <textarea id="f-detail-not_detected_source_page" name="detail_not_detected_source_page" maxlength="2000" inputmode="url" spellcheck="false"></textarea>
                 <p class="reason-note" id="help-detail-not_detected_source_page">This is the URL shown in your browser's address bar when you opened the extension and ran the scan. It is not the URL of the missing file itself.</p>
+                <p class="reason-note url-privacy-note" id="privacy-detail-not_detected_source_page">Before sending, remove anything private from the URL, such as a token or key after “?”.</p>
               </div>
               <div class="field">
                 <label for="f-detail-not_detected_file_link" id="l-detail-not_detected_file_link">Link URL of the file that was not detected (required)</label>
                 <textarea id="f-detail-not_detected_file_link" name="detail_not_detected_file_link" maxlength="2000" inputmode="url" spellcheck="false"></textarea>
                 <p class="reason-note" id="help-detail-not_detected_file_link">Right-click the target link on the page, choose "Copy link address", and paste it here.</p>
+                <p class="reason-note url-privacy-note" id="privacy-detail-not_detected_file_link">Before sending, remove anything private from the URL, such as a token or key after “?”.</p>
               </div>
               <p class="reason-note reason-fix-note" id="note-detail-not_detected">If we can fix it, we will ship an update in about a week.</p>
             </div>
@@ -236,11 +238,13 @@
                 <label for="f-detail-not_downloaded_source_page" id="l-detail-not_downloaded_source_page">Page URL where you ran the scan (required)</label>
                 <textarea id="f-detail-not_downloaded_source_page" name="detail_not_downloaded_source_page" maxlength="2000" inputmode="url" spellcheck="false"></textarea>
                 <p class="reason-note" id="help-detail-not_downloaded_source_page">This is the URL shown in your browser's address bar when you opened the extension and ran the scan. It is not the URL of the detected file itself.</p>
+                <p class="reason-note url-privacy-note" id="privacy-detail-not_downloaded_source_page">Before sending, remove anything private from the URL, such as a token or key after “?”.</p>
               </div>
               <div class="field">
                 <label for="f-detail-not_downloaded_file_link" id="l-detail-not_downloaded_file_link">Link URL of the detected file (required)</label>
                 <textarea id="f-detail-not_downloaded_file_link" name="detail_not_downloaded_file_link" maxlength="2000" inputmode="url" spellcheck="false"></textarea>
                 <p class="reason-note" id="help-detail-not_downloaded_file_link">Copy the file URL shown by the extension, or right-click the target link on the page and choose "Copy link address".</p>
+                <p class="reason-note url-privacy-note" id="privacy-detail-not_downloaded_file_link">Before sending, remove anything private from the URL, such as a token or key after “?”.</p>
               </div>
               <div class="field">
                 <label for="f-detail-not_downloaded_direct_open_result" id="l-detail-not_downloaded_direct_open_result">What happened when you opened the link URL directly? (required)</label>
@@ -349,7 +353,11 @@
 <script>
 (function() {
   var ENDPOINT = 'https://umczaaooqinddgnhxbvp.supabase.co/functions/v1/uninstall-feedback';
-  var STORE_URL = 'https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf';
+  var STORE_URLS = {
+    chrome: 'https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf',
+    edge: 'https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef',
+    firefox: 'https://addons.mozilla.org/firefox/addon/grab-all-files/'
+  };
 
   var REASONS = ['not_detected','non_video_not_detected','not_downloaded','missing_feature','too_complicated','bug','too_expensive','no_longer_needed','privacy','other'];
   var DETAIL_FIELDS = {
@@ -422,13 +430,17 @@
       tyContact: 'Contact us through the contact form',
       docTitle: 'Uninstall - Grab All Files',
       langLabel: 'Language',
+      urlPrivacyHint: "Before sending, remove anything private from the URL, such as a token or key after “?”.",
+      lnkTerms: "Terms of Service",
+      lnkPrivacy: "Privacy Policy",
+      lnkLegal: "Legal Notice",
     },
     ja: {
-      title: '期待どおりに見つかりませんでしたか？',
+      title: 'ご利用ありがとうございました',
       body: 'うまくいかなかったサイトや状況を教えていただけると、対応できるケースを増やせます。',
       back: '戻る',
       legend: 'アンインストールの理由を教えてください（複数選択可）',
-      r_not_detected: 'ファイルが検出できませんでした',
+      r_not_detected: 'ファイルが検出できなかった',
       r_non_video_not_detected: '動画以外のファイルが検出できなかった',
       r_not_downloaded: 'ファイルは検出できたが、ダウンロードできなかった',
       r_missing_feature: '必要な機能が足りなかった',
@@ -442,7 +454,7 @@
       detail_not_detected_source_page_help: '拡張機能を開いてスキャンを実行したときに、ブラウザーのアドレスバーに表示されていたページのURLです。見つからなかったファイル自体のURLではありません。',
       detail_not_detected_file_link_label: '見つからなかったファイルのリンクURL（必須）',
       detail_not_detected_file_link_help: 'ページ上の対象リンクを右クリックし、「リンクのアドレスをコピー」を選んで貼り付けてください。',
-      detail_non_video_not_detected_label: '探知できなかったファイルの種類・拡張子をご記入ください（必須）',
+      detail_non_video_not_detected_label: '検出できなかったファイルの種類・拡張子をご記入ください（必須）',
       detail_not_downloaded_source_page_label: 'スキャンした元ページのURL（必須）',
       detail_not_downloaded_source_page_help: '拡張機能を開いてスキャンを実行したときに、ブラウザーのアドレスバーに表示されていたページのURLです。検出されたファイル自体のURLではありません。',
       detail_not_downloaded_file_link_label: '検出されたファイルのリンクURL（必須）',
@@ -476,6 +488,10 @@
       tyContact: 'お問い合わせフォームからご連絡ください',
       docTitle: 'アンインストール - ファイル一括ダウンロード',
       langLabel: '言語',
+      urlPrivacyHint: "URLに個人情報やトークン（「?」以降の長い文字列など）が含まれる場合は、その部分を削除してから送信してください。",
+      lnkTerms: "利用規約",
+      lnkPrivacy: "プライバシーポリシー",
+      lnkLegal: "特定商取引法に基づく表記",
     },
     es: {
       title: 'Lamentamos que te vayas',
@@ -530,6 +546,10 @@
       tyContact: 'Escríbenos desde el formulario de contacto',
       docTitle: 'Desinstalar - Grab All Files',
       langLabel: 'Idioma',
+      urlPrivacyHint: "Antes de enviar, elimina de la URL las partes privadas, como un token o una clave después de «?».",
+      lnkTerms: "Términos de servicio",
+      lnkPrivacy: "Política de privacidad",
+      lnkLegal: "Información legal",
     },
     fr: {
       title: 'Désolé de vous voir partir',
@@ -584,6 +604,10 @@
       tyContact: 'Écrivez-nous via le formulaire de contact',
       docTitle: 'Désinstaller - Grab All Files',
       langLabel: 'Langue',
+      urlPrivacyHint: "Avant l’envoi, supprimez de l’URL les parties privées, par exemple un jeton ou une clé après « ? ».",
+      lnkTerms: "Conditions d'utilisation",
+      lnkPrivacy: "Politique de confidentialité",
+      lnkLegal: "Mentions légales",
     },
     ko: {
       title: '떠나신다니 아쉽습니다',
@@ -638,6 +662,10 @@
       tyContact: '문의 양식으로 연락해 주세요',
       docTitle: '제거 - Grab All Files',
       langLabel: '언어',
+      urlPrivacyHint: "보내기 전에 URL에서 비공개 정보가 담긴 부분(예: “?” 뒤의 토큰이나 키)을 지워 주세요.",
+      lnkTerms: "이용약관",
+      lnkPrivacy: "개인정보 처리방침",
+      lnkLegal: "법적 고지",
     },
     it: {
       title: 'Ci dispiace vederti andare',
@@ -692,6 +720,10 @@
       tyContact: 'Scrivici dal modulo di contatto',
       docTitle: 'Disinstalla - Grab All Files',
       langLabel: 'Lingua',
+      urlPrivacyHint: "Prima di inviare, rimuovi dall’URL le parti private, ad esempio un token o una chiave dopo «?».",
+      lnkTerms: "Termini di servizio",
+      lnkPrivacy: "Informativa sulla privacy",
+      lnkLegal: "Note legali",
     },
     zh_CN: {
       title: '很遗憾您要离开',
@@ -746,6 +778,10 @@
       tyContact: '通过联系表单与我们联系',
       docTitle: '卸载 - Grab All Files',
       langLabel: '语言',
+      urlPrivacyHint: "发送前，请删除 URL 中的私密部分，例如“?”后面的令牌或密钥。",
+      lnkTerms: "服务条款",
+      lnkPrivacy: "隐私政策",
+      lnkLegal: "法律声明",
     },
     zh_TW: {
       title: '很遺憾您要離開',
@@ -800,6 +836,10 @@
       tyContact: '透過聯絡表單與我們聯繫',
       docTitle: '解除安裝 - Grab All Files',
       langLabel: '語言',
+      urlPrivacyHint: "傳送前，請刪除 URL 中的私密部分，例如「?」後面的權杖或金鑰。",
+      lnkTerms: "服務條款",
+      lnkPrivacy: "隱私權政策",
+      lnkLegal: "法律資訊",
     },
     pt_BR: {
       title: 'Que pena que você está saindo',
@@ -854,6 +894,10 @@
       tyContact: 'Fale conosco pelo formulário de contato',
       docTitle: 'Desinstalar - Grab All Files',
       langLabel: 'Idioma',
+      urlPrivacyHint: "Antes de enviar, remova da URL as partes privadas, como um token ou uma chave depois de “?”.",
+      lnkTerms: "Termos de Serviço",
+      lnkPrivacy: "Política de Privacidade",
+      lnkLegal: "Informações legais",
     },
     de: {
       title: 'Schade, dass Sie gehen',
@@ -908,6 +952,10 @@
       tyContact: 'Schreiben Sie uns über das Kontaktformular',
       docTitle: 'Deinstallieren - Grab All Files',
       langLabel: 'Sprache',
+      urlPrivacyHint: "Entfernen Sie vor dem Senden private Teile der URL, etwa ein Token oder einen Schlüssel nach „?“.",
+      lnkTerms: "Nutzungsbedingungen",
+      lnkPrivacy: "Datenschutzerklärung",
+      lnkLegal: "Rechtliche Hinweise",
     },
   };
 
@@ -965,7 +1013,7 @@
       underline.className = 'reason-underline';
       underline.textContent = '以外';
       el.appendChild(underline);
-      el.appendChild(document.createTextNode('のファイルが探知できなかった'));
+      el.appendChild(document.createTextNode('のファイルが検出できなかった'));
       return;
     }
     el.textContent = tr(t, 'r_' + code);
@@ -988,6 +1036,7 @@
       DETAIL_FIELDS[code].forEach(function(field) {
         setText('l-detail-' + field, tr(t, detailTextKey(field, '_label')));
         setText('help-detail-' + field, tr(t, detailTextKey(field, '_help')));
+        if (/_(source_page|file_link)$/.test(field)) setText('privacy-detail-' + field, tr(t, 'urlPrivacyHint'));
         (DETAIL_CHOICES[field] || []).forEach(function(choice) {
           setText('o-detail-' + field + '-' + choice, tr(t, detailTextKey(field, '_' + choice)));
         });
@@ -1004,6 +1053,12 @@
     setText('ty-reinstall', tr(t, 'tyReinstall'));
     setText('ty-support-link', tr(t, 'tyContact'));
     document.getElementById('ty-support-link').href = '/contact/?lang=' + encodeURIComponent(lang) + '&category=question';
+    [['lnk-terms', 'lnkTerms', '../terms.html'], ['lnk-privacy', 'lnkPrivacy', '../privacy-policy.html'], ['lnk-legal', 'lnkLegal', '../legal.html']].forEach(function(row) {
+      var a = document.getElementById(row[0]);
+      if (!a) return;
+      a.textContent = tr(t, row[1]);
+      a.href = row[2] + '?lang=' + encodeURIComponent(lang);
+    });
     var sel = document.getElementById('lang-sel');
     if (sel) {
       sel.value = lang;
@@ -1246,7 +1301,12 @@
     });
 
     var reinstall = document.getElementById('ty-reinstall');
-    if (reinstall) reinstall.href = STORE_URL;
+    if (reinstall) {
+      var browserName = detectBrowser();
+      reinstall.href = browserName === 'Microsoft Edge' ? STORE_URLS.edge
+        : browserName === 'Firefox' ? STORE_URLS.firefox
+        : STORE_URLS.chrome;
+    }
 
     Array.prototype.forEach.call(document.querySelectorAll('input[name="reason"]'), function(input) {
       input.addEventListener('change', syncReasonDetails);
