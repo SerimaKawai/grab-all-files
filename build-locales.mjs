@@ -8,6 +8,11 @@
  * It is idempotent (overwrites each run).
  *
  * COVERAGE: index.html + security.html + use-cases/*.html, all 10 locales.
+ *
+ * HOMEPAGE SOURCE = _src/index.html (all ten languages inline; Jekyll does not
+ * publish _src/). The published /index.html is GENERATED from it, English only,
+ * like every /<L>/index.html. Edit _src/index.html, never /index.html: the build
+ * refuses to overwrite a hand-edited /index.html (see assertNotHandEdited).
  * security.html and use-cases render content AND build nav via JS; their nav was
  * refactored so LOCALIZED targets stay relative (resolve in-tree, e.g. "../" from
  * /ja/use-cases/ = /ja/) while SHARED targets are absolute (security.html
@@ -29,6 +34,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import { execFileSync } from 'node:child_process';
+import crypto from 'node:crypto';
 import { renderAll, getTables, CASE_IDS } from './prerender-cases.mjs';
 import { renderAll as renderSecurity } from './prerender-security.mjs';
 
@@ -51,7 +57,7 @@ function localizeChromeLabels(h, L) {
 }
 
 const PAGES = [
-  { src: 'index.html', rel: '' },
+  { src: 'index.html', rel: '', source: '_src/index.html' },
   { src: 'security.html', rel: 'security.html' },
   { src: 'use-cases/index.html', rel: 'use-cases/' },
   { src: 'use-cases/download-product-catalogs-and-datasheets.html', rel: 'use-cases/download-product-catalogs-and-datasheets.html' },
@@ -370,9 +376,10 @@ function extractIndexMeta(indexHtml) {
  * Safe because the markup was checked first: only span/div carry data-lang, none
  * are void or self-closing, and no data-lang element contains another. Scripts,
  * styles and comments are stashed so their contents can't be mistaken for tags.
- * The English root keeps all ten — "/" still switches in place and honours
- * "?lang=", which real links use. Locale pages force their own language
- * (__FORCE_LANG__ outranks ?lang=), so nothing there needs the other nine.
+ * The English root is stripped the same way: it forces English
+ * (__FORCE_LANG__="en") and its selector / "?lang=" links navigate to /<L>/,
+ * so the other nine were never shown there either. Every page forces its own
+ * language (__FORCE_LANG__ outranks ?lang=), so none needs the other nine.
  */
 const VOID_TAGS = new Set(['img', 'br', 'input', 'meta', 'link', 'hr', 'source', 'area', 'col', 'embed', 'track', 'wbr']);
 
@@ -570,7 +577,7 @@ const SEC_SRC = 'security.html';
 const prerendered = renderAll(ALL);
 const prerenderedSecurity = renderSecurity(ALL);
 const tables = getTables();
-const META = extractIndexMeta(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8'));
+const META = extractIndexMeta(fs.readFileSync(path.join(ROOT, '_src/index.html'), 'utf8'));
 
 // Previous <lastmod> per URL, read back from the sitemap we wrote last time.
 // A page keeps its old date unless its bytes actually changed — stamping all 70
@@ -641,10 +648,37 @@ function writeIfChanged(dest, content, { repairLineEndings = false } = {}) {
   return true;
 }
 
+// A page built from a separate source (the homepage) carries a stamp with the
+// hash of its own content. If the published file no longer matches its stamp,
+// someone edited the generated copy by hand; overwriting it would silently drop
+// that edit, so stop and say where the edit belongs instead.
+const GEN_STAMP_RE = /^<!-- generated from (\S+) by build-locales\.mjs; edit that file, not this one; sha256:([0-9a-f]{64}) -->\r*\n/m;
+const genHash = (html) => crypto.createHash('sha256').update(html.replace(GEN_STAMP_RE, '').replace(/\r/g, '')).digest('hex');
+function stampGenerated(html, sourceRel) {
+  const body = html.replace(GEN_STAMP_RE, '');
+  const stamp = `<!-- generated from ${sourceRel} by build-locales.mjs; edit that file, not this one; sha256:${genHash(body)} -->`;
+  const eol = /\r\n/.test(body) ? '\r\n' : '\n';
+  const m = body.match(/^<!DOCTYPE html>\r*\n/i);
+  return m ? m[0] + stamp + eol + body.slice(m[0].length) : stamp + eol + body;
+}
+function assertNotHandEdited(destRel, sourceRel) {
+  if (process.env.GAF_ALLOW_ROOT_OVERWRITE) return;
+  let old;
+  try { old = fs.readFileSync(path.join(ROOT, destRel), 'utf8'); } catch (_) { return; }
+  const m = old.match(GEN_STAMP_RE);
+  if (!m) return; // never stamped (first build after the move)
+  if (genHash(old) !== m[2]) {
+    throw new Error(`${destRel} was edited by hand after it was generated. Move that edit into ${sourceRel} ` +
+      `(see: git diff -- ${destRel}), then run: git checkout -- ${destRel} && node build-locales.mjs ` +
+      `(or GAF_ALLOW_ROOT_OVERWRITE=1 to discard the hand edit).`);
+  }
+}
+
 let genCount = 0, rootCount = 0, bakedCount = 0, changedCount = 0, hubCount = 0, secCount = 0;
 for (const page of PAGES) {
-  const srcPath = path.join(ROOT, page.src);
-  const srcHtml = fs.readFileSync(srcPath, 'utf8');
+  const readRel = page.source || page.src;
+  const srcHtml = fs.readFileSync(path.join(ROOT, readRel), 'utf8');
+  const outPath = path.join(ROOT, page.src);
   const caseId = CASE_ID_BY_SRC[page.src];
   const repairLineEndings = [
     'use-cases/download-product-catalogs-and-datasheets.html',
@@ -695,9 +729,15 @@ for (const page of PAGES) {
     en = en.replace(/<head>/, () => '<head>\n  <script>window.__FORCE_LANG__="en";</script>');
     en = en.replace(/<\/body>/, () => localeNavScript(page.rel) + '\n</body>');
   }
-  const enChanged = writeIfChanged(srcPath, en, { repairLineEndings });
+  if (page.source) {
+    // Generated English root: same nine-language strip as the /<L>/ copies.
+    if (!process.env.GAF_NO_STRIP) en = stripOtherLanguages(en, 'en');
+    assertNotHandEdited(page.src, page.source);
+    en = stampGenerated(en, page.source);
+  }
+  const enChanged = writeIfChanged(outPath, en, { repairLineEndings });
   const enUrl = url('en', page.rel);
-  lastmodFor.set(enUrl, enChanged ? TODAY : (laterDate(PREV.get(enUrl), sourceDate(page.src)) || TODAY));
+  lastmodFor.set(enUrl, enChanged ? TODAY : (laterDate(PREV.get(enUrl), sourceDate(readRel)) || TODAY));
   if (enChanged) changedCount++;
   rootCount++;
 }

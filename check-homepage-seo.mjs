@@ -77,26 +77,26 @@ for (const locale of locales) {
   assert(description.length >= 40 && description.length <= 180, `${locale.file}: meta description length is ${description.length}`);
   for (const term of locale.title) assert(title.includes(term), `${locale.file}: title is missing "${term}"`);
   for (const term of locale.h1) assert(h1.includes(term), `${locale.file}: H1 is missing "${term}"`);
-  if (locale.code !== 'en') {
-    assert(h1s.length === 1, `${locale.file}: expected one H1, found ${h1s.length}`);
-    assert(grids.length === 1, `${locale.file}: expected one two-tool grid, found ${grids.length}`);
-  }
+  assert(h1s.length === 1, `${locale.file}: expected one H1, found ${h1s.length}`);
+  assert(grids.length === 1, `${locale.file}: expected one two-tool grid, found ${grids.length}`);
+  const otherLangs = [...new Set([...html.matchAll(/\sdata-lang="([^"]+)"/g)].map((m) => m[1]))].filter((x) => x !== locale.code);
+  assert(otherLangs.length === 0, `${locale.file}: must carry only its own language, found ${otherLangs.join(', ')}`);
   assert((grid.match(/class="tool-panel"/g) || []).length === 2, `${locale.file}: the core grid must contain two equal tool panels`);
   assert(grid.includes('use-cases/download-files-from-webpage.html'), `${locale.file}: missing bulk-download detail link in core grid`);
   assert(grid.includes('use-cases/combine-web-pages-into-one-html.html'), `${locale.file}: missing page-collector detail link in core grid`);
-  const expectedWorkflowCount = locale.code === 'en' ? 20 : 2;
-  const expectedStepGridCount = locale.code === 'en' ? 20 : 2;
-  const expectedStepCount = locale.code === 'en' ? 60 : 6;
+  const expectedWorkflowCount = 2;
+  const expectedStepGridCount = 2;
+  const expectedStepCount = 6;
   assert((how.match(/class="workflow-title"/g) || []).length === expectedWorkflowCount, `${locale.file}: expected two workflow titles per visible language`);
   assert((how.match(/class="steps"/g) || []).length === expectedStepGridCount, `${locale.file}: expected two three-step workflow grids per visible language`);
   assert((how.match(/class="step"/g) || []).length === expectedStepCount, `${locale.file}: expected three steps for each of the two tools`);
-  assert(screenshotGroups.length === (locale.code === 'en' ? 10 : 1), `${locale.file}: expected one localized two-tool screenshot group per available language`);
+  assert(screenshotGroups.length === 1, `${locale.file}: expected one localized two-tool screenshot group per available language`);
   assert((screenshotGroup.match(/class="product-shot"/g) || []).length === 2, `${locale.file}: visible screenshot group must contain two equal product screenshots`);
   assert(screenshotGroup.includes(`shot-${locale.code}.jpg`) && screenshotGroup.includes(`shot-${locale.code}.webp`), `${locale.file}: missing localized Bulk File Download screenshot sources`);
   assert(screenshotGroup.includes(`collector-${locale.code}.jpg`) && screenshotGroup.includes(`collector-${locale.code}.webp`), `${locale.file}: missing localized Web Page Collector screenshot sources`);
   assert((screenshotGroup.match(/width="1600" height="1429"/g) || []).length === 2, `${locale.file}: both screenshots must reserve the same 1600x1429 layout`);
   assert((screenshotGroup.match(/<figcaption><strong>/g) || []).length === 2, `${locale.file}: both screenshots need visible tool labels and captions`);
-  const expectedPlanCards = locale.code === 'en' ? 20 : 2;
+  const expectedPlanCards = 2;
   assert((pricing.match(/class="plan-card /g) || []).length === expectedPlanCards, `${locale.file}: pricing must show one Free card and one Pro card per available language`);
   assert(pricing.includes('plan-free') && pricing.includes('plan-pro'), `${locale.file}: pricing is missing the explicit Free/Pro comparison`);
   assert(/(?:\$19\.99|19,99\s*\$)/.test(pricing), `${locale.file}: Pro one-time price is missing`);
@@ -205,6 +205,22 @@ for (const locale of locales) {
     const url = `https://grab-all-files.app/${prefix}use-cases/${guide}`;
     assert(sitemap.includes(`<loc>${url}</loc>`), `sitemap.xml: missing ${url}`);
   }
+}
+
+// The homepage source keeps all ten languages; the published root is generated
+// from it (English only) and must still match the hash in its own stamp, i.e.
+// nobody edited /index.html by hand instead of _src/index.html.
+const homeSrc = fs.readFileSync('_src/index.html', 'utf8');
+for (const locale of locales) {
+  assert(homeSrc.includes(`data-lang="${locale.code}"`), `_src/index.html: missing the ${locale.code} language`);
+}
+const rootHtml = fs.readFileSync('index.html', 'utf8');
+const STAMP_RE = /^<!-- generated from _src\/index\.html by build-locales\.mjs; edit that file, not this one; sha256:([0-9a-f]{64}) -->\r*\n/m;
+const stamp = rootHtml.match(STAMP_RE);
+assert(stamp, 'index.html: missing the "generated from _src/index.html" stamp — run node build-locales.mjs');
+if (stamp) {
+  const digest = crypto.createHash('sha256').update(rootHtml.replace(STAMP_RE, '').replace(/\r/g, '')).digest('hex');
+  assert(digest === stamp[1], 'index.html: edited by hand after generation — move the edit into _src/index.html and rebuild');
 }
 
 if (failures.length) {
