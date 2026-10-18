@@ -12,3 +12,4 @@ exclude:
   - _redesign
   - store-listing
   - _src
+  - AGENTS.md
