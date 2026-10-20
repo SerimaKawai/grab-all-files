@@ -34,8 +34,9 @@ const planTerms = {
 };
 
 const combineHeadlines = {
-  en: 'Free saves 1 page. Pro combines multiple pages',
-  ja: '無料は1ページ保存。Proは複数ページ',
+  // en/ja: since 2026-10-20 the H1 states the value and the lead states Free 1 page / Pro several pages.
+  en: 'Free saves one selected page; combining several pages is a Pro feature',
+  ja: '無料版は選んだ1ページを保存でき、複数ページの結合はProの機能です',
   es: 'Free guarda 1 página. Pro combina varias',
   fr: 'Free enregistre 1 page. Pro en regroupe plusieurs',
   de: 'Free speichert 1 Seite. Pro bündelt mehrere Seiten',

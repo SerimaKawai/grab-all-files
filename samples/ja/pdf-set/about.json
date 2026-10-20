@@ -1,0 +1,70 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-20",
+  "source": "https://grab-all-files.app/samples/source/ja/town-documents/",
+  "settings": [
+    "リンクをたどる深さ：このページのみ",
+    "ファイルの種類：PDFだけ",
+    "選んだファイル：8件",
+    "保存先：ブラウザのダウンロードフォルダ（GrabAllFiles フォルダ）"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "2025年度 年次報告書.pdf",
+      "bytes": 69956,
+      "sha256": "a7f58959fb8dbb75ac8b701ab9905504cd6858ab01df400870f5fc4f0b541ae8",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "2026年 資源ごみカレンダー.pdf",
+      "bytes": 69758,
+      "sha256": "fa63e26f13f2946c3da1525e8961e2849a0cd141d60a757e7552f8576e6e0324",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "2026年度 予算の概要.pdf",
+      "bytes": 69660,
+      "sha256": "cbbd9f82d4409f1c3ab02c2e05977b07f0cff6a6f11a0a5b2a4fcb4c6932be46",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "イベント許可 申請書.pdf",
+      "bytes": 66366,
+      "sha256": "e3e3d743c00f3b6c27f4f689847ef62f3a9ae87890b9ced64fc9b8b95a084aee",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "図書館 利用案内.pdf",
+      "bytes": 67074,
+      "sha256": "e34b0ece93ba2e008f55412d1e224e13f7dc3501fe4474d7ac1b330d3f8f44a3",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年10月）.pdf",
+      "bytes": 72248,
+      "sha256": "513130eeafeeadf7bc423b1df6afa9f286347dceda5837a6cdfe440e8505a5fb",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年9月）.pdf",
+      "bytes": 71963,
+      "sha256": "8d4a558a20c3739d2a6414e3e33a1dc6f200bc2f51810643789b114d2ee1915c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "駐車許可 申請書.pdf",
+      "bytes": 66408,
+      "sha256": "b1939312fc02881f4b7d38c8434fa8930ff995b7b954c96104a85baa34d96e48",
+      "mime": "application/pdf"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-20",
+  "source": "https://grab-all-files.app/samples/source/ja/bike-share-handbook/chapter-2.html",
+  "settings": [
+    "集めるページ：開いているページ",
+    "AI向けデータ：1つのファイル（Markdown）",
+    "本文の範囲：記事の本文"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "2. 修理報告の対応 — ハーバー・バイクシェア スタッフ手順書(架空).html",
+      "bytes": 26959,
+      "sha256": "a9a91b5aa8f7d1d300300be6c188140c6053886e111f29627e69a472e93b8ccd",
+      "mime": "text/html"
+    },
+    {
+      "name": "2. 修理報告の対応 — ハーバー・バイクシェア スタッフ手順書(架空)_AI_20261020.md",
+      "bytes": 1437,
+      "sha256": "779f0dbf7d8ea59b3909eb0fd6e73471beb0e5da3bd61396c13dc1a9fe3a9ea6",
+      "mime": "text/markdown"
+    }
+  ]
+}
