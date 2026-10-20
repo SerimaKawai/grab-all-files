@@ -38,13 +38,13 @@ const combineHeadlines = {
   en: 'Free saves one selected page; combining several pages is a Pro feature',
   ja: '無料版は選んだ1ページを保存でき、複数ページの結合はProの機能です',
   es: 'Free guarda 1 página. Pro combina varias',
-  fr: 'Free enregistre 1 page. Pro en regroupe plusieurs',
+  fr: 'Pro en regroupe plusieurs dans un HTML',
   de: 'Free speichert 1 Seite. Pro bündelt mehrere Seiten',
   it: 'Free salva 1 pagina. Pro ne unisce più',
   ko: 'Free는 1페이지 저장. Pro는 여러 페이지',
-  pt_BR: 'Free salva 1 página. Pro reúne várias',
+  pt_BR: 'A versão gratuita salva 1 página. O Pro reúne várias',
   zh_CN: 'Free 保存1页。Pro 将多页合并',
-  zh_TW: 'Free 儲存1頁。Pro 將多頁合併',
+  zh_TW: '免費版儲存1頁，Pro 可將多頁合併',
 };
 
 const stalePlanClaims = [
