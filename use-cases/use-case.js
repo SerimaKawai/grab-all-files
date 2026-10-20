@@ -17937,13 +17937,13 @@
     "detail": {
       "en": {
         "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-en.png",
-        "width": 1810,
-        "height": 314
+        "width": 1780,
+        "height": 704
       },
       "ja": {
         "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-ja.png",
-        "width": 1810,
-        "height": 314
+        "width": 1780,
+        "height": 704
       }
     }
   },
@@ -18019,12 +18019,12 @@
     "detail": {
       "en": {
         "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-en.png",
-        "width": 1810,
+        "width": 1780,
         "height": 190
       },
       "ja": {
         "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-ja.png",
-        "width": 1810,
+        "width": 1780,
         "height": 190
       }
     }
