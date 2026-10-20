@@ -16,3 +16,13 @@ This file is excluded from the published site (`_config.yml` → `exclude`).
 
 - GitHub Pages publishes every committed file that is not excluded. Keep internal docs out of the repo,
   or add them to `exclude` in `_config.yml`.
+
+## Illustrations (`assets/illustrations/`)
+
+- Option-card pictures (38) and the two animated welcome pictures come from the extension
+  (`filescanner/collector.html` inline SVGs and `icons/illustrations/*-animated.svg`), taken from the
+  working tree after 5.8.20 on 2026-10-20. Their labels on the site are copied verbatim from the
+  extension's `_locales/<L>/messages.json` (homepage `#choices`, `OPTION_ART` in `use-cases/use-case.js`).
+  When the extension's cards or names change, re-export both the SVGs and the labels.
+- Site-only diagrams (no counterpart in the extension): `dl-depth`, `dl-filter`, `dl-outputs`,
+  `plan-free-batches`, `plan-pro-all`, `local-processing`. Text-free except digits; labels live in the HTML.

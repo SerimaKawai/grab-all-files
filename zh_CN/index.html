@@ -1010,6 +1010,22 @@
       .mock-footer-actions .mock-btn { justify-content: center; }
       .logos-inner { gap: 0.7rem 1.1rem; }
     }
+    .art-frame { display: block; background: #FFFCF8; border: 1px solid #E9E0D5; border-radius: 12px; overflow: hidden; }
+    .art-frame img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .tool-panel .tool-art { aspect-ratio: 2 / 1; margin-bottom: 1rem; }
+    .step .step-art { height: 120px; padding: .6rem; margin-bottom: .9rem; }
+    .plan-card .plan-art { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; padding: .5rem; margin: .8rem 0 .4rem; }
+    .plan-card .plan-art img { height: 88px; }
+    #choices .choice-group { color: var(--text-strong); font-size: 1.1rem; margin: 1.6rem 0 .8rem; }
+    .choice-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: .9rem; }
+    .choice-card { margin: 0; display: flex; flex-direction: column; gap: .55rem; padding: .7rem; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); }
+    .choice-card .art-frame { height: 96px; padding: .45rem; }
+    .choice-card figcaption { display: grid; gap: .25rem; font-size: .9rem; line-height: 1.55; color: var(--text-muted); }
+    .choice-card figcaption strong { color: var(--text-strong); font-size: .95rem; }
+    .choice-note { margin-top: 1.2rem; color: var(--text-muted); font-size: .92rem; }
+    @media (max-width: 560px) { .choice-grid { grid-template-columns: 1fr 1fr; gap: .6rem; } .choice-card .art-frame { height: 76px; } .plan-card .plan-art img { height: 70px; } }
+    .plan-note .plan-local-art { float: left; width: 132px; height: 82px; padding: .25rem; margin: 0 .9rem .4rem 0; }
+    .plan-note::after { content: ""; display: block; clear: both; }
   </style>
 
   <script>
@@ -1190,7 +1206,7 @@
         
         
         <div data-lang="zh_CN" class="active">
-          <div class="tools-grid"><article class="tool-panel"><span class="tile" aria-hidden="true">📥</span><span class="tool-kicker">工具 1</span><h3>文件批量下载</h3><p>找出页面上所有可下载的文件（708 种），一键保存您选中的文件。</p><ul class="tool-points"><li>可检测 iframe、查看器、懒加载、fetch/XHR 和 blob URL 背后的文件</li><li>合并 PDF、打包 ZIP、导出 CSV，全部在浏览器内完成</li><li>免费版每次下载最多保存 10 个文件，选择接下来的文件并再次点击“保存所选文件”即可保存其余文件</li></ul><a class="tool-link" href="/zh_CN/use-cases/download-files-from-webpage.html">查看下载功能 <span class="arrow" aria-hidden="true">&rarr;</span></a></article><article class="tool-panel"><span class="tile" aria-hidden="true">📑</span><span class="tool-kicker">工具 2</span><h3>将网页合并为 HTML</h3><p>从您打开的页面出发，查找相关页面，并将所选页面合并为一个带目录、可搜索的 HTML 文件。</p><ul class="tool-points"><li>可自动查找，也可通过菜单、路径、站点地图和粘贴的 URL 列表精确指定</li><li>开始收集前可在列表中检查、调整顺序或移除页面</li><li>免费版仅保存您选择的 1 个页面；Pro 可选择并合并多个页面正文</li></ul><a class="tool-link" href="/zh_CN/use-cases/combine-web-pages-into-one-html.html">查看页面收集的使用方法 <span class="arrow" aria-hidden="true">&rarr;</span></a></article></div>
+          <div class="tools-grid"><article class="tool-panel"><span class="art-frame tool-art"><img src="/assets/illustrations/bulk-download-animated.svg" width="640" height="320" alt="" loading="lazy" decoding="async"></span><span class="tool-kicker">工具 1</span><h3>文件批量下载</h3><p>找出页面上所有可下载的文件（708 种），一键保存您选中的文件。</p><ul class="tool-points"><li>可检测 iframe、查看器、懒加载、fetch/XHR 和 blob URL 背后的文件</li><li>合并 PDF、打包 ZIP、导出 CSV，全部在浏览器内完成</li><li>免费版每次下载最多保存 10 个文件，选择接下来的文件并再次点击“保存所选文件”即可保存其余文件</li></ul><a class="tool-link" href="/zh_CN/use-cases/download-files-from-webpage.html">查看下载功能 <span class="arrow" aria-hidden="true">&rarr;</span></a></article><article class="tool-panel"><span class="art-frame tool-art"><img src="/assets/illustrations/combine-pages-animated.svg" width="640" height="320" alt="" loading="lazy" decoding="async"></span><span class="tool-kicker">工具 2</span><h3>将网页合并为 HTML</h3><p>从您打开的页面出发，查找相关页面，并将所选页面合并为一个带目录、可搜索的 HTML 文件。</p><ul class="tool-points"><li>可自动查找，也可通过菜单、路径、站点地图和粘贴的 URL 列表精确指定</li><li>开始收集前可在列表中检查、调整顺序或移除页面</li><li>免费版仅保存您选择的 1 个页面；Pro 可选择并合并多个页面正文</li></ul><a class="tool-link" href="/zh_CN/use-cases/combine-web-pages-into-one-html.html">查看页面收集的使用方法 <span class="arrow" aria-hidden="true">&rarr;</span></a></article></div>
         </div>
         
       </div>
@@ -1420,19 +1436,46 @@
         
         
         <div data-lang="zh_CN" class="active"><h3 class="workflow-title">文件批量下载</h3><div class="steps">
-          <div class="step"><div class="step-num"></div><h3>打开页面或粘贴URL</h3><p>使用当前标签页，或在弹出窗口中粘贴URL。选择爬取深度：仅此页面、同站链接1–5级，或无限（每次运行最多100,000页）。</p></div>
-          <div class="step"><div class="step-num"></div><h3>扩展列出所有可检测文件</h3><p>结果显示文件名、类型、大小、页面标题和来源URL。保存前可筛选、排序、搜索和调整顺序。</p></div>
-          <div class="step"><div class="step-num"></div><h3>选择并保存、压缩或合并</h3><p>批量下载到您选择的文件夹（可按文件类型或域名分类）、打包为ZIP，或将所选PDF合并为一个——全部在浏览器本地完成。</p></div>
+          <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/dl-depth.svg" width="240" height="148" alt="" loading="lazy" decoding="async"></span><h3>打开页面或粘贴URL</h3><p>使用当前标签页，或在弹出窗口中粘贴URL。选择爬取深度：仅此页面、同站链接1–5级，或无限（每次运行最多100,000页）。</p></div>
+          <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/dl-filter.svg" width="240" height="148" alt="" loading="lazy" decoding="async"></span><h3>扩展列出所有可检测文件</h3><p>结果显示文件名、类型、大小、页面标题和来源URL。保存前可筛选、排序、搜索和调整顺序。</p></div>
+          <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/dl-outputs.svg" width="240" height="148" alt="" loading="lazy" decoding="async"></span><h3>选择并保存、压缩或合并</h3><p>批量下载到您选择的文件夹（可按文件类型或域名分类）、打包为ZIP，或将所选PDF合并为一个——全部在浏览器本地完成。</p></div>
         </div><h3 class="workflow-title">将网页合并为 HTML</h3><div class="steps">
-          <div class="step"><div class="step-num"></div><h3>打开起始页并选择页面收集</h3><p>切换到“将网页合并为 HTML”，然后使用自动查找，或通过菜单、路径、站点地图和粘贴的URL列表详细指定页面。</p></div>
-          <div class="step"><div class="step-num"></div><h3>根据套餐选择页面</h3><p>免费版始终只选择1个候选页面；Pro可选择并排序多个候选。然后选择图片和直接链接文件的选项。</p></div>
-          <div class="step"><div class="step-num"></div><h3>保存HTML和可选AI数据</h3><p>免费版保存所选的1个页面；Pro将多个页面的正文合并为带统一目录、可搜索的HTML。可选的AI数据可按默认25MB或指定大小分割。</p></div>
+          <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/source-web-page.svg" width="240" height="84" alt="" loading="lazy" decoding="async"></span><h3>打开起始页并选择页面收集</h3><p>切换到“将网页合并为 HTML”，然后使用自动查找，或通过菜单、路径、站点地图和粘贴的URL列表详细指定页面。</p></div>
+          <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/scope-linked-pages.svg" width="240" height="84" alt="" loading="lazy" decoding="async"></span><h3>根据套餐选择页面</h3><p>免费版始终只选择1个候选页面；Pro可选择并排序多个候选。然后选择图片和直接链接文件的选项。</p></div>
+          <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/form-contents-search.svg" width="160" height="64" alt="" loading="lazy" decoding="async"></span><h3>保存HTML和可选AI数据</h3><p>免费版保存所选的1个页面；Pro将多个页面的正文合并为带统一目录、可搜索的HTML。可选的AI数据可按默认25MB或指定大小分割。</p></div>
         </div></div>
         
       </div>
     </section>
 
     <!-- PRICING -->
+    <section class="block" id="choices">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-eyebrow"><span data-lang="zh_CN" class="active">将页面合并为 HTML</span></span>
+          
+          
+          
+          
+          
+          
+          
+          
+          <div data-lang="zh_CN" class="active"><h2>看图选择：与扩展中相同的卡片</h2><p>页面收集的每个选项都配有图示。这里展示的就是扩展自身的卡片，名称与界面上显示的一致。</p></div>
+          
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div data-lang="zh_CN" class="active"><h3 class="choice-group">收集哪些页面</h3><div class="choice-grid choice-grid-pages"><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/crawl-current.svg" width="96" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>仅当前页面</strong><span>仅合并当前打开页面的正文</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/crawl-links.svg" width="96" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>跟随本页的链接</strong><span>页面上的所有链接，菜单和正文都包括在内</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/crawl-menu.svg" width="96" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>在所选菜单中</strong><span>通过目录和侧面菜单中的链接导航</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/crawl-path.svg" width="96" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>同一路径下</strong><span>在当前 URL 的层次结构内遍历</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/crawl-next.svg" width="96" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>跟随“下一页”</strong><span>按顺序跟随“下一页”等下一页链接（rel=next）。</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/crawl-pasted.svg" width="96" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>粘贴网址</strong><span>仅按照输入的顺序对指定的 URL 进行分组。</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/crawl-sitemap.svg" width="96" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>站点地图</strong><span>从 sitemap.xml 加载建议</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/crawl-basket.svg" width="96" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>收集篮中的页面</strong><span>按此顺序合并收集的标签页和链接</span></figcaption></figure></div><h3 class="choice-group">保存后页面的外观</h3><div class="choice-grid choice-grid-look"><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/look-reader.svg" width="240" height="84" alt="" loading="lazy" decoding="async"></span><figcaption><strong>整理为易读格式</strong><span>只保留正文，统一成同一种格式。快速轻便，适合阅读、打印和交给 AI。</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/look-original.svg" width="240" height="84" alt="" loading="lazy" decoding="async"></span><figcaption><strong>保持原样</strong><span>保留网站自己的设计。</span></figcaption></figure></div><h3 class="choice-group">保存文件的形式（1 个页面）</h3><div class="choice-grid choice-grid-form1"><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/form-single-page.svg" width="240" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>原样保存此页面（标准）</strong><span>与原页面相同的一个 HTML。浏览器的查找、打印和转 PDF 都与该页面一样使用。不含附件列表和收集信息。</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/form-single-framed.svg" width="240" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>带目录和搜索</strong><span>将页面放入框中，上方加上标题、来源和获取时间，并附目录和搜索框。可以加入找到的附件列表和收集信息。</span></figcaption></figure></div><h3 class="choice-group">保存文件的形式（2 个以上页面 · Pro）</h3><div class="choice-grid choice-grid-form2"><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/form-contents-search.svg" width="160" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>带目录和搜索（标准）</strong><span>将每个页面放入框中，附标题、目录和搜索框。在这三种形式中文件最小。</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/form-long-page.svg" width="160" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>原样连成一个长页面（打印·PDF）</strong><span>按原样从上到下依次排列各页面，组成一个页面。不附标题、目录和搜索框。打印时每个页面从新的一页开始。</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/form-pages-zip.svg" width="160" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>每页原样保存（ZIP）</strong><span>将每个页面保存为与原页面相同的 HTML，与目录（index.html）一起打包成一个 ZIP。</span></figcaption></figure></div><h3 class="choice-group">提供给 AI 工具的数据（可选）</h3><div class="choice-grid choice-grid-ai"><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/ai-single.svg" width="96" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>单个Markdown</strong><span>将所有页面连同出处合并为一个.md。</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/ai-pages.svg" width="96" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>按页Markdown</strong><span>每页一个.md加manifest.json，打包为ZIP。</span></figcaption></figure><figure class="choice-card"><span class="art-frame"><img src="/assets/illustrations/ai-package.svg" width="96" height="64" alt="" loading="lazy" decoding="async"></span><figcaption><strong>完整包</strong><span>将corpus.md、chunks.jsonl、manifest.json、请求文和阅读用HTML放入一个ZIP。</span></figcaption></figure></div><p class="choice-note">免费版每次保存所选的 1 个页面。将多个页面合并为一个 HTML 是 Pro 功能。</p></div>
+        
+      </div>
+    </section>
     <section class="block alt" id="pricing">
       <div class="wrap">
         <div class="section-head">
@@ -1459,7 +1502,7 @@
             
             
             
-            <div data-lang="zh_CN" class="active"><div class="plan-grid"><article class="plan-card plan-free"><p class="plan-name">免费版</p><div class="plan-price">$0</div><ul><li>每次下载最多批量保存 10 个文件；继续时选择接下来的文件，再次点击“保存所选文件”</li><li>ZIP、PDF 合并、重命名、按文件夹整理以及链接的 CSV/JSON 导出——免费版均已包含</li><li>查找并列出相关候选页面</li><li>候选中始终只选 1 页并保存为 HTML</li><li>所选页面内图片不受套餐数量限制；该页直接链接的文件每次 10 个，可用“保存接下来的10个”继续</li><li>普通页面链接保持可点击，不收集链接页面的正文</li></ul></article><article class="plan-card plan-pro"><p class="plan-name">Pro</p><div class="plan-price">$19.99 <small>USD，一次购买</small></div><ul><li>包含免费版的全部功能，且每次下载不限文件数</li><li>选择多个相关候选页面</li><li>将多个页面正文合并为带统一目录、可搜索的一个 HTML</li><li>永久授权，无订阅，一个密钥最多 3 台设备</li><li>包含更新；Stripe 付款，授权密钥在页面显示并通过邮件发送</li></ul></article></div><p class="plan-note">两种套餐均在设备上处理页面内容。仍适用安全、身份验证、权限、源网站及设备保护限制。</p></div>
+            <div data-lang="zh_CN" class="active"><div class="plan-grid"><article class="plan-card plan-free"><p class="plan-name">免费版</p><div class="plan-price">$0</div><div class="art-frame plan-art"><img src="/assets/illustrations/plan-free-batches.svg" width="240" height="148" alt="免费版：每次下载最多 10 个文件，再选择接下来的 10 个并再次保存" loading="lazy" decoding="async"><img src="/assets/illustrations/scope-open-page.svg" width="240" height="84" alt="免费版：将所选的 1 个页面保存为 HTML" loading="lazy" decoding="async"></div><ul><li>每次下载最多批量保存 10 个文件；继续时选择接下来的文件，再次点击“保存所选文件”</li><li>ZIP、PDF 合并、重命名、按文件夹整理以及链接的 CSV/JSON 导出——免费版均已包含</li><li>查找并列出相关候选页面</li><li>候选中始终只选 1 页并保存为 HTML</li><li>所选页面内图片不受套餐数量限制；该页直接链接的文件每次 10 个，可用“保存接下来的10个”继续</li><li>普通页面链接保持可点击，不收集链接页面的正文</li></ul></article><article class="plan-card plan-pro"><p class="plan-name">Pro</p><div class="plan-price">$19.99 <small>USD，一次购买</small></div><div class="art-frame plan-art"><img src="/assets/illustrations/plan-pro-all.svg" width="240" height="148" alt="Pro：一次保存所有所选文件" loading="lazy" decoding="async"><img src="/assets/illustrations/scope-linked-pages.svg" width="240" height="84" alt="Pro：选择多个相关页面并合并" loading="lazy" decoding="async"></div><ul><li>包含免费版的全部功能，且每次下载不限文件数</li><li>选择多个相关候选页面</li><li>将多个页面正文合并为带统一目录、可搜索的一个 HTML</li><li>永久授权，无订阅，一个密钥最多 3 台设备</li><li>包含更新；Stripe 付款，授权密钥在页面显示并通过邮件发送</li></ul></article></div><p class="plan-note"><span class="art-frame plan-local-art"><img src="/assets/illustrations/local-processing.svg" width="240" height="148" alt="页面内容在浏览器中处理并保存到您的电脑，不会上传到服务器" loading="lazy" decoding="async"></span>两种套餐均在设备上处理页面内容。仍适用安全、身份验证、权限、源网站及设备保护限制。</p></div>
             
             <div class="pricing-cta">
               <div class="hero-stores pricing-stores">

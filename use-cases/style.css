@@ -609,3 +609,15 @@ footer {
 /* Workflow cards keep their own heights; research modes and the hub remain paired. */
 .two-col.workflow-cards { align-items: start; }
 .usecase-guide-links .usecase-guide-link { min-width: 0; overflow-wrap: anywhere; hyphens: auto; }
+/* 2026-10-20: option pictures (the extension's own cards keep their light paper colour in dark mode too). */
+.option-art-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.option-art-flow { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.option-art-card { margin: 0; display: flex; flex-direction: column; gap: .6rem; padding: .75rem; border: 1px solid var(--border); border-radius: 14px; background: var(--surface-alt); }
+.option-art-frame { display: block; height: 104px; padding: .5rem; background: #FFFCF8; border: 1px solid #E9E0D5; border-radius: 10px; }
+.option-art-flow .option-art-frame { height: 150px; }
+.option-art-frame img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.option-art-card figcaption { display: grid; gap: .3rem; color: var(--text-muted); font-size: .95rem; line-height: 1.6; }
+.option-art-card figcaption strong { color: var(--text-strong); font-size: 1rem; }
+.option-art-note { margin: 1rem 0 0; color: var(--text-muted); font-size: .95rem; }
+@media (max-width: 760px) { .option-art-flow { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .option-art-grid:not(.option-art-flow) { grid-template-columns: 1fr 1fr; gap: .6rem; } .option-art-frame { height: 80px; } }
