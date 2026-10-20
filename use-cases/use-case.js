@@ -6898,7 +6898,7 @@
           "steps": [
             "Use arXiv search to narrow the topic, category and date range. Open the results or paper list you want to work with.",
             "Open Grab All Files and scan the displayed page. On arXiv’s search page, choose 200 results per page first so one scan sees the whole list. Review the detected titles and source URLs; “Fetch selected PDF titles” reads titles from the PDFs themselves.",
-            "Filter by PDF and select the papers you need — Free saves 10 per download, so tick the next 10 and press “Download” again to continue. Review other public file links separately and choose only supported files relevant to your work.",
+            "Filter by PDF and select the papers you need — Free saves 10 per download, so tick the next 10 and press “Save selected files” again to continue. Review other public file links separately and choose only supported files relevant to your work.",
             "Check or edit titles, choose title-based saving and a folder option. Save the selection as files or ZIP; export the file-list CSV for a record of the URLs.",
             "Open the saved PDFs and review the results. Keep the source URL and paper version in your notes. For a large corpus, use arXiv’s official bulk services."
           ],
@@ -6917,7 +6917,7 @@
             },
             {
               "q": "Can I save these papers for free?",
-              "a": "Yes. Free saves up to 10 selected files per download; select the next papers and press “Download” again to continue — nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-download cap."
+              "a": "Yes. Free saves up to 10 selected files per download; select the next papers and press “Save selected files” again to continue — nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-download cap."
             },
             {
               "q": "How do title names, ZIP and CSV help?",
@@ -6968,7 +6968,7 @@
           "steps": [
             "arXivの検索でキーワード・カテゴリ・期間を絞り、対象の検索結果や論文一覧を開きます。",
             "Grab All Filesを開き、表示したページをスキャンします。arXivの検索結果は先に「1ページあたり200件」表示にすると、1回のスキャンで一覧全体を検出できます。検出したファイルのタイトルと元URLを確認します。「選択したPDFのタイトルを取得」でPDF本体からタイトルを読み取れます。",
-            "PDFで絞り込み、必要な論文を選択します。無料版は1回10件までなので、続きは次の10件を選んでもう一度「ダウンロード」を押します。他の公開ファイルリンクは別に確認し、対応形式で研究に必要なものだけを選びます。",
+            "PDFで絞り込み、必要な論文を選択します。無料版は1回10件までなので、続きは次の10件を選んでもう一度「選んだファイルを保存」を押します。他の公開ファイルリンクは別に確認し、対応形式で研究に必要なものだけを選びます。",
             "タイトルを確認・編集し、保存名とフォルダ分けを選びます。選択したファイルを個別保存またはZIPで保存し、元URLの記録用にファイル一覧CSVも出力します。",
             "保存したPDFを開いて結果を確認します。元URLと論文の版を資料メモに控え、大規模な論文集合にはarXiv公式の一括取得手段を使います。"
           ],
@@ -6987,7 +6987,7 @@
             },
             {
               "q": "無料で論文を保存できますか？",
-              "a": "はい。無料版は1回のダウンロードで選択した10件まで保存できます。続けるときは次の論文を選んでもう一度「ダウンロード」を押してください。ロックはかかりません。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。"
+              "a": "はい。無料版は1回のダウンロードで選択した10件まで保存できます。続けるときは次の論文を選んでもう一度「選んだファイルを保存」を押してください。ロックはかかりません。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。"
             },
             {
               "q": "タイトルでの命名・ZIP・CSVはどう役立ちますか？",
@@ -7038,7 +7038,7 @@
           "steps": [
             "En arXiv, limita la búsqueda por palabras, categoría y fechas. Abre los resultados o la lista de artículos.",
             "Abre Grab All Files y escanea la página visible. En la búsqueda de arXiv, elige primero 200 resultados por página para que un solo escaneo vea toda la lista. Revisa los títulos detectados y las URL de origen; «Obtener títulos de los PDF seleccionados» lee el título del propio PDF.",
-            "Filtra por PDF y selecciona los artículos que necesitas: la versión gratuita guarda 10 por descarga, así que marca los 10 siguientes y vuelve a pulsar «Descargar» para continuar. Revisa aparte otros enlaces públicos y elige solo formatos compatibles que te sirvan.",
+            "Filtra por PDF y selecciona los artículos que necesitas: la versión gratuita guarda 10 por descarga, así que marca los 10 siguientes y vuelve a pulsar «Guardar seleccionados» para continuar. Revisa aparte otros enlaces públicos y elige solo formatos compatibles que te sirvan.",
             "Revisa o edita los títulos y elige el nombre y la clasificación en carpetas. Guarda archivos o ZIP y exporta el CSV para registrar las URL.",
             "Abre los PDF guardados y verifica los resultados. Anota la URL y la versión del artículo; para grandes colecciones, usa los servicios oficiales de arXiv."
           ],
@@ -7057,7 +7057,7 @@
             },
             {
               "q": "¿Puedo guardar estos artículos gratis?",
-              "a": "Sí. La versión gratuita guarda hasta 10 archivos seleccionados por descarga; para seguir, selecciona los siguientes artículos y vuelve a pulsar «Descargar». No se bloquea nada. Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga."
+              "a": "Sí. La versión gratuita guarda hasta 10 archivos seleccionados por descarga; para seguir, selecciona los siguientes artículos y vuelve a pulsar «Guardar seleccionados». No se bloquea nada. Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga."
             },
             {
               "q": "¿Para qué sirven los títulos, ZIP y CSV?",
@@ -7108,7 +7108,7 @@
           "steps": [
             "Sur arXiv, affinez les mots-clés, la catégorie et les dates. Ouvrez les résultats ou la liste d’articles.",
             "Ouvrez Grab All Files et analysez la page affichée. Dans la recherche arXiv, affichez d’abord 200 résultats par page pour qu’une seule analyse voie toute la liste. Vérifiez les titres détectés et les URL sources ; « Récupérer les titres des PDF sélectionnés » lit le titre dans le PDF lui-même.",
-            "Filtrez sur PDF et sélectionnez les articles utiles : la version gratuite enregistre 10 fichiers par téléchargement, cochez donc les 10 suivants et cliquez à nouveau sur « Télécharger » pour continuer. Examinez à part les autres liens publics et ne retenez que les formats pris en charge utiles.",
+            "Filtrez sur PDF et sélectionnez les articles utiles : la version gratuite enregistre 10 fichiers par téléchargement, cochez donc les 10 suivants et cliquez à nouveau sur « Enregistrer la sélection » pour continuer. Examinez à part les autres liens publics et ne retenez que les formats pris en charge utiles.",
             "Vérifiez ou modifiez les titres, puis choisissez les noms et le classement des dossiers. Enregistrez les fichiers ou un ZIP et exportez le CSV des URL.",
             "Ouvrez les PDF sauvegardés et vérifiez les résultats. Notez l’URL et la version de l’article. Pour un grand corpus, utilisez les services officiels arXiv."
           ],
@@ -7127,7 +7127,7 @@
             },
             {
               "q": "Puis-je enregistrer ces articles gratuitement ?",
-              "a": "Oui. La version gratuite enregistre jusqu’à 10 fichiers sélectionnés par téléchargement ; pour continuer, sélectionnez les articles suivants et cliquez à nouveau sur « Télécharger ». Rien n’est bloqué. Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement."
+              "a": "Oui. La version gratuite enregistre jusqu’à 10 fichiers sélectionnés par téléchargement ; pour continuer, sélectionnez les articles suivants et cliquez à nouveau sur « Enregistrer la sélection ». Rien n’est bloqué. Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement."
             },
             {
               "q": "Quel intérêt pour les titres, ZIP et CSV ?",
@@ -7178,7 +7178,7 @@
           "steps": [
             "Grenzen Sie die Suche auf arXiv nach Begriff, Kategorie und Zeitraum ein. Öffnen Sie die Ergebnisse oder Artikelliste.",
             "Öffnen Sie Grab All Files und scannen Sie die angezeigte Seite. Stellen Sie in der arXiv-Suche zuerst 200 Ergebnisse pro Seite ein, damit ein Scan die ganze Liste erfasst. Prüfen Sie Titel und Quell-URLs; „Titel ausgewählter PDFs abrufen“ liest den Titel aus dem PDF selbst.",
-            "Filtern Sie nach PDF und wählen Sie die Artikel aus. Die kostenlose Version speichert 10 pro Download – haken Sie danach die nächsten 10 an und klicken Sie erneut auf „Herunterladen“. Prüfen Sie andere öffentliche Dateilinks getrennt und wählen Sie nur benötigte unterstützte Formate.",
+            "Filtern Sie nach PDF und wählen Sie die Artikel aus. Die kostenlose Version speichert 10 pro Download – haken Sie danach die nächsten 10 an und klicken Sie erneut auf „Ausgewählte speichern“. Prüfen Sie andere öffentliche Dateilinks getrennt und wählen Sie nur benötigte unterstützte Formate.",
             "Prüfen oder bearbeiten Sie Titel und wählen Sie Dateinamen und Ordneroption. Speichern Sie Dateien oder ZIP und exportieren Sie die Dateiliste als CSV.",
             "Öffnen Sie die PDFs und prüfen Sie das Ergebnis. Notieren Sie Quell-URL und Artikelversion. Für große Bestände nutzen Sie die offiziellen arXiv-Dienste."
           ],
@@ -7197,7 +7197,7 @@
             },
             {
               "q": "Kann ich diese Artikel kostenlos speichern?",
-              "a": "Ja. Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Download; zum Weitermachen wählen Sie die nächsten Artikel aus und klicken erneut auf „Herunterladen“. Gesperrt wird nichts. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Download auf."
+              "a": "Ja. Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Download; zum Weitermachen wählen Sie die nächsten Artikel aus und klicken erneut auf „Ausgewählte speichern“. Gesperrt wird nichts. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Download auf."
             },
             {
               "q": "Wozu dienen Titel, ZIP und CSV?",
@@ -7248,7 +7248,7 @@
           "steps": [
             "In arXiv, restringi parole chiave, categoria e periodo. Apri i risultati o l’elenco degli articoli.",
             "Apri Grab All Files e scansiona la pagina visualizzata. Nella ricerca di arXiv scegli prima 200 risultati per pagina, così una sola scansione vede tutto l’elenco. Controlla i titoli rilevati e gli URL di origine; «Recupera titoli dei PDF selezionati» legge il titolo dal PDF stesso.",
-            "Filtra per PDF e seleziona gli articoli che ti servono: la versione gratuita salva 10 file per download, quindi seleziona i 10 successivi e fai di nuovo clic su «Scarica» per continuare. Controlla a parte gli altri link pubblici e scegli solo i formati supportati utili.",
+            "Filtra per PDF e seleziona gli articoli che ti servono: la versione gratuita salva 10 file per download, quindi seleziona i 10 successivi e fai di nuovo clic su «Salva i selezionati» per continuare. Controlla a parte gli altri link pubblici e scegli solo i formati supportati utili.",
             "Verifica o modifica i titoli, scegli nomi e cartelle. Salva file o ZIP ed esporta il CSV per tenere traccia degli URL.",
             "Apri i PDF salvati e controlla il risultato. Annota URL e versione dell’articolo; per grandi raccolte usa i servizi ufficiali di arXiv."
           ],
@@ -7267,7 +7267,7 @@
             },
             {
               "q": "Posso salvare questi articoli gratis?",
-              "a": "Sì. La versione gratuita salva fino a 10 file selezionati per download; per continuare, seleziona gli articoli successivi e fai di nuovo clic su «Scarica». Non viene bloccato nulla. Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download."
+              "a": "Sì. La versione gratuita salva fino a 10 file selezionati per download; per continuare, seleziona gli articoli successivi e fai di nuovo clic su «Salva i selezionati». Non viene bloccato nulla. Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download."
             },
             {
               "q": "A cosa servono titoli, ZIP e CSV?",
@@ -7318,7 +7318,7 @@
           "steps": [
             "arXiv에서 검색어, 분야, 기간을 좁혀 검색 결과나 논문 목록을 엽니다.",
             "Grab All Files를 열고 표시된 페이지를 스캔합니다. arXiv 검색 결과는 먼저 페이지당 200개로 표시하면 한 번의 스캔으로 목록 전체를 찾습니다. 감지된 제목과 원본 URL을 확인하세요. “선택한 PDF 제목 가져오기”로 PDF 자체에서 제목을 읽을 수 있습니다.",
-            "PDF로 필터링하고 필요한 논문을 선택합니다. 무료 버전은 다운로드당 10개까지이므로 다음 10개를 체크하고 “다운로드”를 다시 눌러 이어 갑니다. 다른 공개 파일 링크는 따로 확인하고 필요한 지원 형식만 고르세요.",
+            "PDF로 필터링하고 필요한 논문을 선택합니다. 무료 버전은 다운로드당 10개까지이므로 다음 10개를 체크하고 “선택한 파일 저장”을 다시 눌러 이어 갑니다. 다른 공개 파일 링크는 따로 확인하고 필요한 지원 형식만 고르세요.",
             "제목을 확인·수정하고 저장 이름과 폴더 옵션을 고릅니다. 파일 또는 ZIP으로 저장하고 URL 기록용 파일 목록 CSV를 내보냅니다.",
             "저장된 PDF를 열어 결과를 확인합니다. 원본 URL과 논문 버전을 메모하고, 대규모 자료는 arXiv 공식 일괄 접근 서비스를 사용합니다."
           ],
@@ -7337,7 +7337,7 @@
             },
             {
               "q": "이 논문들을 무료로 저장할 수 있나요?",
-              "a": "예. 무료 버전은 다운로드당 선택한 파일을 최대 10개까지 저장합니다. 계속하려면 다음 논문을 선택하고 “다운로드”를 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
+              "a": "예. 무료 버전은 다운로드당 선택한 파일을 최대 10개까지 저장합니다. 계속하려면 다음 논문을 선택하고 “선택한 파일 저장”을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
             },
             {
               "q": "제목·ZIP·CSV는 어떻게 도움이 되나요?",
@@ -7388,7 +7388,7 @@
           "steps": [
             "No arXiv, filtre palavras, categoria e período. Abra os resultados ou a lista de artigos.",
             "Abra o Grab All Files e escaneie a página exibida. Na busca do arXiv, escolha antes 200 resultados por página para que uma só varredura veja a lista inteira. Confira os títulos detectados e as URLs de origem; “Obter títulos dos PDFs selecionados” lê o título no próprio PDF.",
-            "Filtre por PDF e selecione os artigos necessários: a versão gratuita salva 10 por download, então marque os 10 seguintes e clique em “Baixar” de novo para continuar. Confira à parte outros links públicos e escolha só os formatos compatíveis que interessam.",
+            "Filtre por PDF e selecione os artigos necessários: a versão gratuita salva 10 por download, então marque os 10 seguintes e clique em “Salvar selecionados” de novo para continuar. Confira à parte outros links públicos e escolha só os formatos compatíveis que interessam.",
             "Confira ou edite títulos e escolha nomes e pastas. Salve arquivos ou ZIP e exporte o CSV para registrar as URLs.",
             "Abra os PDFs salvos e confira o resultado. Anote URL e versão do artigo; para grandes coleções, use os serviços oficiais do arXiv."
           ],
@@ -7407,7 +7407,7 @@
             },
             {
               "q": "Posso salvar esses artigos de graça?",
-              "a": "Sim. A versão gratuita salva até 10 arquivos selecionados por download; para continuar, selecione os próximos artigos e clique em “Baixar” de novo. Nada fica bloqueado. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download."
+              "a": "Sim. A versão gratuita salva até 10 arquivos selecionados por download; para continuar, selecione os próximos artigos e clique em “Salvar selecionados” de novo. Nada fica bloqueado. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download."
             },
             {
               "q": "Como títulos, ZIP e CSV ajudam?",
@@ -7458,7 +7458,7 @@
           "steps": [
             "在arXiv按关键词、类别和时间筛选，打开目标搜索结果或论文列表。",
             "打开Grab All Files并扫描当前页面。在arXiv搜索结果中先选择每页显示200条，一次扫描即可覆盖整个列表。检查检测到的标题和来源URL；“获取所选PDF的标题”可从PDF本身读取标题。",
-            "按PDF筛选并选择需要的论文。免费版每次下载最多10个，继续时勾选接下来的10个并再次点击“下载”。其他公开文件链接请另行检查，只选择与研究相关的支持格式。",
+            "按PDF筛选并选择需要的论文。免费版每次下载最多10个，继续时勾选接下来的10个并再次点击“保存所选文件”。其他公开文件链接请另行检查，只选择与研究相关的支持格式。",
             "检查或编辑标题，选择保存名称与文件夹方式。单独保存或打包ZIP，并导出文件列表CSV记录URL。",
             "打开已保存PDF核对结果。记录来源URL与论文版本；大规模论文集合使用arXiv官方批量访问服务。"
           ],
@@ -7477,7 +7477,7 @@
             },
             {
               "q": "可以免费保存这些论文吗？",
-              "a": "可以。免费版每次下载最多保存10个选中的文件；要继续，请选择接下来的论文并再次点击“下载”，不会被锁定。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的上限。"
+              "a": "可以。免费版每次下载最多保存10个选中的文件；要继续，请选择接下来的论文并再次点击“保存所选文件”，不会被锁定。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的上限。"
             },
             {
               "q": "标题、ZIP与CSV有什么帮助？",
@@ -7528,7 +7528,7 @@
           "steps": [
             "在arXiv依關鍵字、類別和期間篩選，開啟目標搜尋結果或論文清單。",
             "開啟Grab All Files並掃描目前頁面。在arXiv搜尋結果中先選擇每頁顯示200筆，一次掃描即可涵蓋整個清單。檢查偵測到的標題和來源URL；「取得所選PDF的標題」可從PDF本身讀取標題。",
-            "依PDF篩選並選擇需要的論文。免費版每次下載最多10個，繼續時勾選接下來的10個並再次點擊「下載」。其他公開檔案連結請另行檢查，只選擇與研究相關的支援格式。",
+            "依PDF篩選並選擇需要的論文。免費版每次下載最多10個，繼續時勾選接下來的10個並再次點擊「儲存所選檔案」。其他公開檔案連結請另行檢查，只選擇與研究相關的支援格式。",
             "檢查或編輯標題，選擇儲存名稱與資料夾方式。個別儲存或打包ZIP，並匯出檔案清單CSV記錄URL。",
             "開啟已儲存PDF核對結果。記錄來源URL與論文版本；大規模論文集合使用arXiv官方批次存取服務。"
           ],
@@ -7547,7 +7547,7 @@
             },
             {
               "q": "可以免費儲存這些論文嗎？",
-              "a": "可以。免費版每次下載最多儲存10個選取的檔案；若要繼續，請選取接下來的論文並再次點擊「下載」，不會被鎖定。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的上限。"
+              "a": "可以。免費版每次下載最多儲存10個選取的檔案；若要繼續，請選取接下來的論文並再次點擊「儲存所選檔案」，不會被鎖定。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的上限。"
             },
             {
               "q": "標題、ZIP與CSV有什麼幫助？",
@@ -9304,7 +9304,7 @@
             "Scan the page that lists the PDFs, filter the results to PDF and tick the files you want to save.",
             "Check the titles. Press “Fetch selected PDF titles” to read each title from the PDF itself. Double-click a title, press F2 or use the pencil (“Edit title”) to change it; “Reset titles” undoes your edits.",
             "Open “Details” and choose “Save as”: “Auto (title when usable)”, “Title” or “Original file name”. To sort into folders, open “More actions” and set “Organize” to “By type”, “By domain” or “No folders”.",
-            "Press “Download” or create a ZIP (Free: up to 10 files per download). Check names, extensions and folders in the result; in Firefox the files go to Downloads/GrabAllFiles."
+            "Press “Save selected files” or create a ZIP (Free: up to 10 files per download). Check names, extensions and folders in the result; in Firefox the files go to Downloads/GrabAllFiles."
           ],
           "faq": [
             {
@@ -9321,7 +9321,7 @@
             },
             {
               "q": "Can I rename a large set for free?",
-              "a": "Yes. “Save as”, title editing and “Organize” all work in Free. Free saves up to 10 selected files per download; to continue, select the next files and press “Download” again. Pro ($19.99 one-time, up to 3 devices) removes the per-download cap."
+              "a": "Yes. “Save as”, title editing and “Organize” all work in Free. Free saves up to 10 selected files per download; to continue, select the next files and press “Save selected files” again. Pro ($19.99 one-time, up to 3 devices) removes the per-download cap."
             }
           ],
           "guide": {
@@ -9382,7 +9382,7 @@
             "PDFが並ぶページをスキャンし、PDFで絞り込んで保存したいファイルにチェックを入れます。",
             "タイトルを確認します。「選択したPDFのタイトルを取得」を押すとPDF本体からタイトルを読み取ります。タイトルをダブルクリックするかF2キー、または鉛筆ボタン（「タイトルを編集」）で変更でき、「タイトルをリセット」で編集を元に戻せます。",
             "「詳細設定」を開いて「保存名」で「自動（タイトル優先）」「タイトル」「元のファイル名」を選びます。フォルダに分けるときは「その他の操作」を開き、「整理」で「種類別」「ドメイン別」「フォルダ分けなし」を選びます。",
-            "「ダウンロード」を押すかZIPで保存します（無料版は1回10件まで）。保存結果の名前・拡張子・フォルダを確認します。FirefoxではDownloads/GrabAllFilesに保存されます。"
+            "「選んだファイルを保存」を押すかZIPで保存します（無料版は1回10件まで）。保存結果の名前・拡張子・フォルダを確認します。FirefoxではDownloads/GrabAllFilesに保存されます。"
           ],
           "faq": [
             {
@@ -9399,7 +9399,7 @@
             },
             {
               "q": "大量のPDFを無料でファイル名変更できますか？",
-              "a": "はい。「保存名」、タイトルの編集、「整理」はすべて無料版で使えます。無料版は1回のダウンロードで選択した10件まで保存できます。続けるときは次のファイルを選んでもう一度「ダウンロード」を押してください。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。"
+              "a": "はい。「保存名」、タイトルの編集、「整理」はすべて無料版で使えます。無料版は1回のダウンロードで選択した10件まで保存できます。続けるときは次のファイルを選んでもう一度「選んだファイルを保存」を押してください。Pro（$19.99・買い切り、3台まで）は1回あたりの上限がありません。"
             }
           ],
           "guide": {
@@ -9460,7 +9460,7 @@
             "Escanea la página que enumera los PDF, filtra los resultados por PDF y marca los archivos que quieres guardar.",
             "Revisa los títulos. Pulsa «Obtener títulos de los PDF seleccionados» para leer el título del propio PDF. Haz doble clic en un título, pulsa F2 o usa el lápiz («Editar título») para cambiarlo; «Restablecer títulos» deshace los cambios.",
             "Abre «Detalles» y elige «Guardar como»: «Automático (título si sirve)», «Título» o «Nombre de archivo original». Para separar en carpetas, abre «Más acciones» y en «Organizar» elige «Por tipo», «Por dominio» o «Sin carpetas».",
-            "Pulsa «Descargar» o crea un ZIP (gratis: hasta 10 archivos por descarga). Comprueba nombres, extensiones y carpetas en el resultado; en Firefox los archivos van a Downloads/GrabAllFiles."
+            "Pulsa «Guardar seleccionados» o crea un ZIP (gratis: hasta 10 archivos por descarga). Comprueba nombres, extensiones y carpetas en el resultado; en Firefox los archivos van a Downloads/GrabAllFiles."
           ],
           "faq": [
             {
@@ -9477,7 +9477,7 @@
             },
             {
               "q": "¿Puedo renombrar un conjunto grande gratis?",
-              "a": "Sí. «Guardar como», la edición de títulos y «Organizar» funcionan en la versión gratuita, que guarda hasta 10 archivos seleccionados por descarga. Para seguir, selecciona los siguientes archivos y vuelve a pulsar «Descargar». Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga."
+              "a": "Sí. «Guardar como», la edición de títulos y «Organizar» funcionan en la versión gratuita, que guarda hasta 10 archivos seleccionados por descarga. Para seguir, selecciona los siguientes archivos y vuelve a pulsar «Guardar seleccionados». Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga."
             }
           ],
           "guide": {
@@ -9538,7 +9538,7 @@
             "Analysez la page qui liste les PDF, filtrez les résultats sur PDF et cochez les fichiers à enregistrer.",
             "Vérifiez les titres. Cliquez sur « Récupérer les titres des PDF sélectionnés » pour lire le titre dans le PDF lui-même. Double-cliquez sur un titre, appuyez sur F2 ou utilisez le crayon (« Modifier le titre ») pour le changer ; « Réinitialiser les titres » annule vos modifications.",
             "Ouvrez « Détails » et choisissez « Enregistrer sous » : « Automatique (titre si utilisable) », « Titre » ou « Nom de fichier d'origine ». Pour ranger en dossiers, ouvrez « Autres actions » et, dans « Classement », choisissez « Par type », « Par domaine » ou « Sans dossiers ».",
-            "Cliquez sur « Télécharger » ou créez un ZIP (version gratuite : 10 fichiers par téléchargement). Vérifiez noms, extensions et dossiers ; dans Firefox, les fichiers vont dans Downloads/GrabAllFiles."
+            "Cliquez sur « Enregistrer la sélection » ou créez un ZIP (version gratuite : 10 fichiers par téléchargement). Vérifiez noms, extensions et dossiers ; dans Firefox, les fichiers vont dans Downloads/GrabAllFiles."
           ],
           "faq": [
             {
@@ -9555,7 +9555,7 @@
             },
             {
               "q": "Puis-je renommer un grand ensemble gratuitement ?",
-              "a": "Oui. « Enregistrer sous », la modification des titres et « Classement » fonctionnent dans la version gratuite, qui enregistre jusqu’à 10 fichiers sélectionnés par téléchargement. Pour continuer, sélectionnez les fichiers suivants et cliquez à nouveau sur « Télécharger ». Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement."
+              "a": "Oui. « Enregistrer sous », la modification des titres et « Classement » fonctionnent dans la version gratuite, qui enregistre jusqu’à 10 fichiers sélectionnés par téléchargement. Pour continuer, sélectionnez les fichiers suivants et cliquez à nouveau sur « Enregistrer la sélection ». Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement."
             }
           ],
           "guide": {
@@ -9616,7 +9616,7 @@
             "Scannen Sie die Seite mit den PDFs, filtern Sie die Ergebnisse auf PDF und haken Sie die Dateien an, die Sie speichern möchten.",
             "Prüfen Sie die Titel. „Titel ausgewählter PDFs abrufen“ liest den Titel aus dem PDF selbst. Doppelklicken Sie auf einen Titel, drücken Sie F2 oder nutzen Sie den Stift („Titel bearbeiten“), um ihn zu ändern; „Titel zurücksetzen“ macht Änderungen rückgängig.",
             "Öffnen Sie „Details“ und wählen Sie unter „Speichern als“: „Automatisch (Titel, wenn brauchbar)“, „Titel“ oder „Ursprünglicher Dateiname“. Für Ordner öffnen Sie „Weitere Aktionen“ und wählen unter „Ablage“ „Nach Typ“, „Nach Domain“ oder „Keine Ordner“.",
-            "Klicken Sie auf „Herunterladen“ oder erstellen Sie ein ZIP (kostenlos: bis zu 10 Dateien pro Download). Prüfen Sie Namen, Endungen und Ordner; in Firefox landen die Dateien unter Downloads/GrabAllFiles."
+            "Klicken Sie auf „Ausgewählte speichern“ oder erstellen Sie ein ZIP (kostenlos: bis zu 10 Dateien pro Download). Prüfen Sie Namen, Endungen und Ordner; in Firefox landen die Dateien unter Downloads/GrabAllFiles."
           ],
           "faq": [
             {
@@ -9633,7 +9633,7 @@
             },
             {
               "q": "Kann ich einen großen Satz kostenlos umbenennen?",
-              "a": "Ja. „Speichern als“, das Bearbeiten von Titeln und „Ablage“ funktionieren in der kostenlosen Version, die bis zu 10 ausgewählte Dateien pro Download speichert. Zum Weitermachen wählen Sie die nächsten Dateien aus und klicken erneut auf „Herunterladen“. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Download auf."
+              "a": "Ja. „Speichern als“, das Bearbeiten von Titeln und „Ablage“ funktionieren in der kostenlosen Version, die bis zu 10 ausgewählte Dateien pro Download speichert. Zum Weitermachen wählen Sie die nächsten Dateien aus und klicken erneut auf „Ausgewählte speichern“. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Download auf."
             }
           ],
           "guide": {
@@ -9694,7 +9694,7 @@
             "Scansiona la pagina che elenca i PDF, filtra i risultati per PDF e seleziona i file da salvare.",
             "Controlla i titoli. «Recupera titoli dei PDF selezionati» legge il titolo dal PDF stesso. Fai doppio clic su un titolo, premi F2 o usa la matita («Modifica titolo») per cambiarlo; «Reimposta titoli» annulla le modifiche.",
             "Apri «Dettagli» e scegli «Salva come»: «Automatico (titolo se utilizzabile)», «Titolo» o «Nome file originale». Per dividere in cartelle, apri «Altre azioni» e in «Organizza» scegli «Per tipo», «Per dominio» o «Nessuna cartella».",
-            "Fai clic su «Scarica» o crea uno ZIP (gratis: fino a 10 file per download). Controlla nomi, estensioni e cartelle; in Firefox i file vanno in Downloads/GrabAllFiles."
+            "Fai clic su «Salva i selezionati» o crea uno ZIP (gratis: fino a 10 file per download). Controlla nomi, estensioni e cartelle; in Firefox i file vanno in Downloads/GrabAllFiles."
           ],
           "faq": [
             {
@@ -9711,7 +9711,7 @@
             },
             {
               "q": "Posso rinominare un insieme grande gratis?",
-              "a": "Sì. «Salva come», la modifica dei titoli e «Organizza» funzionano nella versione gratuita, che salva fino a 10 file selezionati per download. Per continuare, seleziona i file successivi e fai di nuovo clic su «Scarica». Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download."
+              "a": "Sì. «Salva come», la modifica dei titoli e «Organizza» funzionano nella versione gratuita, che salva fino a 10 file selezionati per download. Per continuare, seleziona i file successivi e fai di nuovo clic su «Salva i selezionati». Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download."
             }
           ],
           "guide": {
@@ -9772,7 +9772,7 @@
             "PDF 목록이 있는 페이지를 스캔하고 PDF로 필터링한 뒤 저장할 파일을 체크합니다.",
             "제목을 확인합니다. “선택한 PDF 제목 가져오기”를 누르면 PDF 자체에서 제목을 읽어 옵니다. 제목을 더블클릭하거나 F2를 누르거나 연필 버튼(“제목 편집”)으로 바꿀 수 있고, “제목 초기화”로 편집을 되돌립니다.",
             "“상세 설정”을 열고 “저장 이름”에서 “자동(쓸 수 있으면 제목)”, “제목”, “원래 파일 이름” 중 선택합니다. 폴더로 나누려면 “기타 작업”을 열고 “정리”에서 “유형별”, “도메인별”, “폴더 없음” 중 선택합니다.",
-            "“다운로드”를 누르거나 ZIP으로 저장합니다(무료: 다운로드당 10개까지). 결과의 이름·확장자·폴더를 확인하세요. Firefox에서는 Downloads/GrabAllFiles에 저장됩니다."
+            "“선택한 파일 저장”을 누르거나 ZIP으로 저장합니다(무료: 다운로드당 10개까지). 결과의 이름·확장자·폴더를 확인하세요. Firefox에서는 Downloads/GrabAllFiles에 저장됩니다."
           ],
           "faq": [
             {
@@ -9789,7 +9789,7 @@
             },
             {
               "q": "많은 PDF를 무료로 파일명 변경할 수 있나요?",
-              "a": "예. “저장 이름”, 제목 편집, “정리”는 모두 무료 버전에서 사용할 수 있습니다. 무료 버전은 다운로드당 선택한 파일을 최대 10개까지 저장합니다. 계속하려면 다음 파일을 선택하고 “다운로드”를 다시 누르세요. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
+              "a": "예. “저장 이름”, 제목 편집, “정리”는 모두 무료 버전에서 사용할 수 있습니다. 무료 버전은 다운로드당 선택한 파일을 최대 10개까지 저장합니다. 계속하려면 다음 파일을 선택하고 “선택한 파일 저장”을 다시 누르세요. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
             }
           ],
           "guide": {
@@ -9850,7 +9850,7 @@
             "Escaneie a página que lista os PDFs, filtre os resultados por PDF e marque os arquivos que deseja salvar.",
             "Confira os títulos. “Obter títulos dos PDFs selecionados” lê o título no próprio PDF. Clique duas vezes em um título, pressione F2 ou use o lápis (“Editar título”) para alterá-lo; “Redefinir títulos” desfaz as edições.",
             "Abra “Detalhes” e escolha “Salvar como”: “Automático (título quando útil)”, “Título” ou “Nome de arquivo original”. Para separar em pastas, abra “Mais ações” e em “Organizar” escolha “Por tipo”, “Por domínio” ou “Sem pastas”.",
-            "Clique em “Baixar” ou crie um ZIP (grátis: até 10 arquivos por download). Confira nomes, extensões e pastas no resultado; no Firefox os arquivos vão para Downloads/GrabAllFiles."
+            "Clique em “Salvar selecionados” ou crie um ZIP (grátis: até 10 arquivos por download). Confira nomes, extensões e pastas no resultado; no Firefox os arquivos vão para Downloads/GrabAllFiles."
           ],
           "faq": [
             {
@@ -9867,7 +9867,7 @@
             },
             {
               "q": "Posso renomear um conjunto grande de graça?",
-              "a": "Sim. “Salvar como”, a edição de títulos e “Organizar” funcionam na versão gratuita, que salva até 10 arquivos selecionados por download. Para continuar, selecione os próximos arquivos e clique em “Baixar” de novo. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download."
+              "a": "Sim. “Salvar como”, a edição de títulos e “Organizar” funcionam na versão gratuita, que salva até 10 arquivos selecionados por download. Para continuar, selecione os próximos arquivos e clique em “Salvar selecionados” de novo. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download."
             }
           ],
           "guide": {
@@ -9928,7 +9928,7 @@
             "扫描列出PDF的页面，按PDF筛选结果，并勾选要保存的文件。",
             "检查标题。点击“获取所选PDF的标题”可从PDF本身读取标题。双击标题、按F2或使用铅笔按钮（“编辑标题”）即可修改，“重置标题”可撤销修改。",
             "打开“详细设置”，在“保存名称”中选择“自动（可用时使用标题）”“标题”或“原始文件名”。要分文件夹，请打开“其他操作”，在“整理”中选择“按类型”“按域名”或“不分文件夹”。",
-            "点击“下载”或保存为ZIP（免费版每次下载最多10个）。检查结果中的名称、扩展名和文件夹；在Firefox中文件保存到Downloads/GrabAllFiles。"
+            "点击“保存所选文件”或保存为ZIP（免费版每次下载最多10个）。检查结果中的名称、扩展名和文件夹；在Firefox中文件保存到Downloads/GrabAllFiles。"
           ],
           "faq": [
             {
@@ -9945,7 +9945,7 @@
             },
             {
               "q": "大量PDF可以免费重命名吗？",
-              "a": "可以。“保存名称”、标题编辑和“整理”在免费版中均可使用。免费版每次下载最多保存10个选中的文件；要继续，请选择接下来的文件并再次点击“下载”。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的上限。"
+              "a": "可以。“保存名称”、标题编辑和“整理”在免费版中均可使用。免费版每次下载最多保存10个选中的文件；要继续，请选择接下来的文件并再次点击“保存所选文件”。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的上限。"
             }
           ],
           "guide": {
@@ -10006,7 +10006,7 @@
             "掃描列出PDF的頁面，依PDF篩選結果，並勾選要儲存的檔案。",
             "檢查標題。點擊「取得所選PDF的標題」可從PDF本身讀取標題。雙擊標題、按F2或使用鉛筆按鈕（「編輯標題」）即可修改，「重設標題」可復原修改。",
             "開啟「詳細設定」，在「儲存名稱」中選擇「自動（可用時使用標題）」「標題」或「原始檔名」。若要分資料夾，請開啟「其他操作」，在「整理」中選擇「依類型」「依網域」或「不分資料夾」。",
-            "點擊「下載」或儲存為ZIP（免費版每次下載最多10個）。檢查結果中的名稱、副檔名和資料夾；在Firefox中檔案會儲存到Downloads/GrabAllFiles。"
+            "點擊「儲存所選檔案」或儲存為ZIP（免費版每次下載最多10個）。檢查結果中的名稱、副檔名和資料夾；在Firefox中檔案會儲存到Downloads/GrabAllFiles。"
           ],
           "faq": [
             {
@@ -10023,7 +10023,7 @@
             },
             {
               "q": "大量PDF可以免費重新命名嗎？",
-              "a": "可以。「儲存名稱」、標題編輯和「整理」在免費版中皆可使用。免費版每次下載最多儲存10個選取的檔案；若要繼續，請選取接下來的檔案並再次點擊「下載」。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的上限。"
+              "a": "可以。「儲存名稱」、標題編輯和「整理」在免費版中皆可使用。免費版每次下載最多儲存10個選取的檔案；若要繼續，請選取接下來的檔案並再次點擊「儲存所選檔案」。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的上限。"
             }
           ],
           "guide": {
@@ -10095,7 +10095,7 @@
           "steps": [
             "A — the guidance page. Open the official page you may save and click “Combine pages into HTML”. Keep “Only the open page”, or choose “Also find the pages it links to” and pick one relevant topic. Free saves one page per run; Pro combines several selected pages into one HTML.",
             "Before collecting, turn on “AI analysis data (Markdown with sources)” if you want source-tracked files, choose the image and linked-document settings, then save the page as HTML.",
-            "B — the attachments. Switch to “File downloader”, scan the same page, filter to PDF and Word and tick the forms and guidance you need. Free saves 10 files per download: select the next files and press “Download” again, or save them as a ZIP to keep beside the HTML.",
+            "B — the attachments. Switch to “File downloader”, scan the same page, filter to PDF and Word and tick the forms and guidance you need. Free saves 10 files per download: select the next files and press “Save selected files” again, or save them as a ZIP to keep beside the HTML.",
             "C — the AI ZIP. After collecting, press “Save AI analysis ZIP”. Check source_url and captured_at, then record the stated revision and the date you checked in your own notes.",
             "Name the folder by topic and date, and group overview, guidance and forms. Before using the material later, revisit the official source for revised documents and dates."
           ],
@@ -10187,7 +10187,7 @@
           "steps": [
             "A：案内ページ。保存が許可された公式ページを開き、「ページをHTMLにまとめる」を押します。「開いているページのみ」のままにするか、「リンク先のページも探す」を選んで必要なテーマを1つ選びます。無料版は1回1ページ、Proは選んだ複数ページを1つのHTMLにまとめられます。",
             "出典付きAI資料も使う場合は、収集前に「AI分析用データ（Markdown・出典付き）」を有効にし、画像・リンク文書の設定を選んでからページをHTMLで保存します。",
-            "B：添付資料。「ファイル一括ダウンロード」に切り替えて同じページをスキャンし、PDFとWordで絞り込んで必要な様式・要領にチェックを入れます。無料版は1回のダウンロードで10件まで。次のファイルを選んでもう一度「ダウンロード」を押すか、ZIPにしてHTMLの隣に保存します。",
+            "B：添付資料。「ファイル一括ダウンロード」に切り替えて同じページをスキャンし、PDFとWordで絞り込んで必要な様式・要領にチェックを入れます。無料版は1回のダウンロードで10件まで。次のファイルを選んでもう一度「選んだファイルを保存」を押すか、ZIPにしてHTMLの隣に保存します。",
             "C：AI用ZIP。収集完了後に「AI分析用ZIPを保存」を押します。source_url・captured_atを確認し、記載された版と確認日は自分のメモに残します。",
             "テーマと日付でフォルダー名を付け、概要・要領・様式を整理します。後日使うときは公式ページを再確認し、文書や日付の更新を確かめます。"
           ],
@@ -10279,7 +10279,7 @@
           "steps": [
             "A — la página de la guía. Abre la página oficial que puedas guardar y haz clic en «Combinar páginas en HTML». Deja «Solo la página abierta» o elige «Buscar también las páginas enlazadas» y quédate con un tema. La versión gratuita guarda una página por vez; Pro combina varias páginas seleccionadas en un HTML.",
             "Antes de recopilar, activa «Datos para análisis con IA (Markdown con fuentes)» si quieres archivos con fuentes, elige los ajustes de imágenes y documentos enlazados y guarda la página en HTML.",
-            "B — los adjuntos. Cambia a «Descargador de archivos», escanea la misma página, filtra por PDF y Word y marca los formularios y guías que necesitas. La versión gratuita guarda 10 archivos por descarga: selecciona los siguientes y vuelve a pulsar «Descargar», o guárdalos en un ZIP junto al HTML.",
+            "B — los adjuntos. Cambia a «Descargador de archivos», escanea la misma página, filtra por PDF y Word y marca los formularios y guías que necesitas. La versión gratuita guarda 10 archivos por descarga: selecciona los siguientes y vuelve a pulsar «Guardar seleccionados», o guárdalos en un ZIP junto al HTML.",
             "C — el ZIP para IA. Tras recopilar, pulsa «Guardar ZIP de análisis IA». Comprueba source_url y captured_at y anota tú la versión indicada y la fecha de comprobación.",
             "Nombra la carpeta por tema y fecha y organiza descripción, instrucciones y formularios. Antes de volver a usarlos, revisa si la fuente oficial cambió documentos o fechas."
           ],
@@ -10371,7 +10371,7 @@
           "steps": [
             "A — la page du guide. Ouvrez la page officielle que vous pouvez enregistrer et cliquez sur « Regrouper les pages en HTML ». Gardez « Seulement la page ouverte » ou choisissez « Chercher aussi les pages liées » et retenez un seul sujet. La version gratuite enregistre une page par passage ; Pro regroupe plusieurs pages choisies en un HTML.",
             "Avant la collecte, activez « Données pour analyse par IA (Markdown avec sources) » si vous voulez des fichiers sourcés, réglez images et documents liés, puis enregistrez la page en HTML.",
-            "B — les pièces jointes. Passez au « Téléchargeur de fichiers », analysez la même page, filtrez sur PDF et Word et cochez les formulaires et notices utiles. La version gratuite enregistre 10 fichiers par téléchargement : sélectionnez les suivants et cliquez à nouveau sur « Télécharger », ou réunissez-les dans un ZIP à côté du HTML.",
+            "B — les pièces jointes. Passez au « Téléchargeur de fichiers », analysez la même page, filtrez sur PDF et Word et cochez les formulaires et notices utiles. La version gratuite enregistre 10 fichiers par téléchargement : sélectionnez les suivants et cliquez à nouveau sur « Enregistrer la sélection », ou réunissez-les dans un ZIP à côté du HTML.",
             "C — le ZIP pour l’IA. Après la collecte, cliquez sur « Enregistrer le ZIP d’analyse IA ». Vérifiez source_url et captured_at, puis notez vous-même la révision indiquée et la date de vérification.",
             "Nommez le dossier par sujet et date, puis classez présentation, consignes et formulaires. Avant de les réutiliser, vérifiez les documents et dates sur la source officielle actuelle."
           ],
@@ -10463,7 +10463,7 @@
           "steps": [
             "A – die Hinweisseite. Öffnen Sie die offizielle Seite, die Sie speichern dürfen, und klicken Sie auf „Seiten als HTML bündeln“. Belassen Sie „Nur die geöffnete Seite“ oder wählen Sie „Auch verlinkte Seiten suchen“ und ein passendes Thema. Kostenlos wird eine Seite pro Durchgang gespeichert; Pro bündelt mehrere ausgewählte Seiten in einem HTML.",
             "Aktivieren Sie vor der Sammlung „KI-Analysedaten (Markdown mit Quellen)“, wenn Sie Dateien mit Quellenangaben möchten, wählen Sie die Einstellungen für Bilder und verlinkte Dokumente und speichern Sie die Seite als HTML.",
-            "B – die Anlagen. Wechseln Sie zum „Datei-Downloader“, scannen Sie dieselbe Seite, filtern Sie auf PDF und Word und haken Sie die benötigten Formulare und Hinweise an. Kostenlos sind es 10 Dateien pro Download: Wählen Sie die nächsten aus und klicken Sie erneut auf „Herunterladen“, oder speichern Sie sie als ZIP neben dem HTML.",
+            "B – die Anlagen. Wechseln Sie zum „Datei-Downloader“, scannen Sie dieselbe Seite, filtern Sie auf PDF und Word und haken Sie die benötigten Formulare und Hinweise an. Kostenlos sind es 10 Dateien pro Download: Wählen Sie die nächsten aus und klicken Sie erneut auf „Ausgewählte speichern“, oder speichern Sie sie als ZIP neben dem HTML.",
             "C – das KI-ZIP. Klicken Sie nach der Sammlung auf „KI-Analyse-ZIP speichern“. Prüfen Sie source_url und captured_at und notieren Sie die angegebene Revision und Ihr Prüfdatum selbst.",
             "Benennen Sie den Ordner nach Thema und Datum und ordnen Sie Übersicht, Hinweise und Formulare. Prüfen Sie vor späterer Nutzung aktuelle Dokumente und Datumsangaben an der offiziellen Quelle."
           ],
@@ -10555,7 +10555,7 @@
           "steps": [
             "A — la pagina della guida. Apri la pagina ufficiale che puoi salvare e fai clic su «Unisci pagine in HTML». Lascia «Solo la pagina aperta» oppure scegli «Cerca anche le pagine collegate» e tieni un solo argomento. La versione gratuita salva una pagina per volta; Pro unisce più pagine scelte in un unico HTML.",
             "Prima della raccolta attiva «Dati per analisi con IA (Markdown con fonti)» se vuoi file con le fonti, scegli le impostazioni per immagini e documenti collegati e salva la pagina in HTML.",
-            "B — gli allegati. Passa a «Downloader di file», scansiona la stessa pagina, filtra per PDF e Word e seleziona i moduli e le guide che ti servono. La versione gratuita salva 10 file per download: seleziona i successivi e fai di nuovo clic su «Scarica», oppure raccoglili in uno ZIP accanto all’HTML.",
+            "B — gli allegati. Passa a «Downloader di file», scansiona la stessa pagina, filtra per PDF e Word e seleziona i moduli e le guide che ti servono. La versione gratuita salva 10 file per download: seleziona i successivi e fai di nuovo clic su «Salva i selezionati», oppure raccoglili in uno ZIP accanto all’HTML.",
             "C — lo ZIP per l’IA. Dopo la raccolta fai clic su «Salva ZIP di analisi IA». Controlla source_url e captured_at e annota tu la revisione indicata e la data del controllo.",
             "Nomina la cartella per argomento e data e organizza presentazione, istruzioni e moduli. Prima di riutilizzarli, verifica aggiornamenti di documenti e date sulla fonte ufficiale."
           ],
@@ -10647,7 +10647,7 @@
           "steps": [
             "A: 안내 페이지. 저장이 허용된 공식 페이지를 열고 “페이지를 HTML로 합치기”를 누릅니다. “열려 있는 페이지만”을 그대로 두거나 “링크된 페이지도 찾기”를 골라 필요한 주제 하나를 선택합니다. 무료 버전은 한 번에 1페이지, Pro는 선택한 여러 페이지를 하나의 HTML로 합칩니다.",
             "출처가 있는 AI 파일도 쓰려면 수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 켜고, 이미지·연결 문서 설정을 고른 뒤 페이지를 HTML로 저장합니다.",
-            "B: 첨부 자료. “파일 일괄 다운로드”로 전환해 같은 페이지를 스캔하고, PDF와 Word로 필터링해 필요한 양식·안내 자료를 체크합니다. 무료 버전은 다운로드당 10개까지이므로 다음 파일을 선택해 “다운로드”를 다시 누르거나 ZIP으로 묶어 HTML 옆에 둡니다.",
+            "B: 첨부 자료. “파일 일괄 다운로드”로 전환해 같은 페이지를 스캔하고, PDF와 Word로 필터링해 필요한 양식·안내 자료를 체크합니다. 무료 버전은 다운로드당 10개까지이므로 다음 파일을 선택해 “선택한 파일 저장”을 다시 누르거나 ZIP으로 묶어 HTML 옆에 둡니다.",
             "C: AI용 ZIP. 수집이 끝나면 “AI 분석용 ZIP 저장”을 누릅니다. source_url·captured_at을 확인하고, 표기된 버전과 확인일은 직접 기록합니다.",
             "주제와 날짜로 폴더 이름을 정하고 개요·안내·양식을 구분합니다. 나중에 사용할 때 공식 출처에서 문서와 날짜의 변경 여부를 확인합니다."
           ],
@@ -10739,7 +10739,7 @@
           "steps": [
             "A — a página de orientação. Abra a página oficial que você pode salvar e clique em “Juntar páginas em HTML”. Mantenha “Somente a página aberta” ou escolha “Procurar também as páginas vinculadas” e fique com um tema. A versão gratuita salva uma página por vez; o Pro junta várias páginas escolhidas em um HTML.",
             "Antes da coleta, ative “Dados para análise com IA (Markdown com fontes)” se quiser arquivos com fontes, escolha as opções de imagens e documentos vinculados e salve a página em HTML.",
-            "B — os anexos. Mude para “Baixador de arquivos”, escaneie a mesma página, filtre por PDF e Word e marque os formulários e orientações necessários. A versão gratuita salva 10 arquivos por download: selecione os próximos e clique em “Baixar” de novo, ou reúna-os em um ZIP ao lado do HTML.",
+            "B — os anexos. Mude para “Baixador de arquivos”, escaneie a mesma página, filtre por PDF e Word e marque os formulários e orientações necessários. A versão gratuita salva 10 arquivos por download: selecione os próximos e clique em “Salvar selecionados” de novo, ou reúna-os em um ZIP ao lado do HTML.",
             "C — o ZIP para IA. Depois da coleta, clique em “Salvar ZIP de análise IA”. Confira source_url e captured_at e anote você mesmo a revisão indicada e a data da conferência.",
             "Nomeie a pasta por tema e data e organize apresentação, instruções e formulários. Antes de reutilizar, confira mudanças nos documentos e datas na fonte oficial."
           ],
@@ -10831,7 +10831,7 @@
           "steps": [
             "A：说明页面。打开允许保存的官方页面，点击“将网页合并为 HTML”。保持“仅当前打开的页面”，或选择“同时查找链接到的页面”并只选一个相关主题。免费版每次保存1个页面；Pro可把选中的多个页面合并为一个HTML。",
             "需要带来源的AI文件时，请在收集前启用“AI分析数据（带出处的Markdown）”，选择图片和链接文档设置，然后将页面保存为HTML。",
-            "B：附件。切换到“文件批量下载”，扫描同一页面，按PDF和Word筛选并勾选需要的表格与指南。免费版每次下载最多10个：选择接下来的文件再次点击“下载”，或打包为ZIP与HTML放在一起。",
+            "B：附件。切换到“文件批量下载”，扫描同一页面，按PDF和Word筛选并勾选需要的表格与指南。免费版每次下载最多10个：选择接下来的文件再次点击“保存所选文件”，或打包为ZIP与HTML放在一起。",
             "C：AI用ZIP。收集完成后点击“保存AI分析ZIP”。核对source_url和captured_at，标示的版本和确认日期请自行记录。",
             "按主题与日期命名文件夹，整理概览、指南和表格。日后使用前回到官方来源，检查文档和日期是否更新。"
           ],
@@ -10923,7 +10923,7 @@
           "steps": [
             "A：說明頁面。開啟允許儲存的官方頁面，點擊「將網頁合併為 HTML」。保持「僅目前開啟的頁面」，或選擇「同時尋找連結到的頁面」並只選一個相關主題。免費版每次儲存1個頁面；Pro可把選取的多個頁面合併為一個HTML。",
             "需要附來源的AI檔案時，請在收集前啟用「AI分析資料（附出處的Markdown）」，選擇圖片和連結文件設定，然後將頁面儲存為HTML。",
-            "B：附件。切換到「檔案批次下載」，掃描同一頁面，依PDF和Word篩選並勾選需要的表單與說明。免費版每次下載最多10個：選取接下來的檔案再次點擊「下載」，或打包為ZIP與HTML放在一起。",
+            "B：附件。切換到「檔案批次下載」，掃描同一頁面，依PDF和Word篩選並勾選需要的表單與說明。免費版每次下載最多10個：選取接下來的檔案再次點擊「儲存所選檔案」，或打包為ZIP與HTML放在一起。",
             "C：AI用ZIP。收集完成後點擊「儲存AI分析ZIP」。核對source_url和captured_at，標示的版本和確認日期請自行記錄。",
             "依主題與日期命名資料夾，整理概覽、指南與表格。日後使用前回到官方來源，檢查文件和日期是否更新。"
           ],
@@ -14538,7 +14538,7 @@
             "Open the page that lists the PDFs and click the Grab All Files icon in the toolbar.",
             "Choose “Depth”, then press “Scan”. “This page only” checks just this page; Depth 1 also scans the pages it links to inside the starting page’s folder, Depth 2 goes one level further. Deeper scans take longer (up to 100,000 pages).",
             "Filter the list to PDF and check the title, source page, size and URL of each file. Tick the PDFs you need.",
-            "Press “Download”, or open “More actions” for ZIP or “Merge PDFs”. Free saves up to 10 PDFs per action; tick the next ones and press the button again."
+            "Press “Save selected files”, or open “More actions” for ZIP or “Merge PDFs”. Free saves up to 10 PDFs per action; tick the next ones and press the button again."
           ],
           "faq": [
             {
@@ -14583,7 +14583,7 @@
             "PDFが並んでいるページを開き、ツールバーのGrab All Filesアイコンを押します。",
             "「深さ」を選んでから「スキャン」を押します。「このページのみ」はこのページだけ、深さ1はリンク先のページ（起点ページのフォルダ配下）まで、深さ2はさらにその先まで調べます。深いほど時間がかかります（最大10万ページ）。",
             "一覧をPDFに絞り込み、各ファイルのタイトル・リンク元ページ・サイズ・URLを確認して、必要なPDFにチェックを入れます。",
-            "「ダウンロード」を押すか、「その他の操作」からZIPや「PDF結合」を使います。無料版は1回の操作で10件まで。続きは次のPDFを選んで同じボタンをもう一度押します。"
+            "「選んだファイルを保存」を押すか、「その他の操作」からZIPや「PDF結合」を使います。無料版は1回の操作で10件まで。続きは次のPDFを選んで同じボタンをもう一度押します。"
           ],
           "faq": [
             {
@@ -14628,7 +14628,7 @@
             "Abre la página que enumera los PDF y haz clic en el icono de Grab All Files en la barra de herramientas.",
             "Elige la «Profundidad» y pulsa «Escanear». «Solo esta página» revisa solo esta página; la profundidad 1 también escanea las páginas enlazadas dentro de la carpeta de la página de partida y la 2 llega un nivel más. Cuanto más profundo, más tarda (hasta 100.000 páginas).",
             "Filtra la lista por PDF y revisa el título, la página de origen, el tamaño y la URL de cada archivo. Marca los PDF que necesites.",
-            "Pulsa «Descargar» o abre «Más acciones» para crear un ZIP o usar «Combinar PDFs». La versión gratuita guarda hasta 10 PDF por acción; marca los siguientes y vuelve a pulsar el botón."
+            "Pulsa «Guardar seleccionados» o abre «Más acciones» para crear un ZIP o usar «Combinar PDFs». La versión gratuita guarda hasta 10 PDF por acción; marca los siguientes y vuelve a pulsar el botón."
           ],
           "faq": [
             {
@@ -14673,7 +14673,7 @@
             "Ouvrez la page qui liste les PDF et cliquez sur l’icône Grab All Files de la barre d’outils.",
             "Choisissez la « Profondeur », puis cliquez sur « Scanner ». « Cette page uniquement » n’analyse que cette page ; la profondeur 1 analyse aussi les pages liées situées dans le dossier de la page de départ, la profondeur 2 va un niveau plus loin. Plus c’est profond, plus c’est long (jusqu’à 100 000 pages).",
             "Filtrez la liste sur PDF et vérifiez le titre, la page source, la taille et l’URL de chaque fichier. Cochez les PDF utiles.",
-            "Cliquez sur « Télécharger » ou ouvrez « Autres actions » pour un ZIP ou « Fusionner les PDFs ». La version gratuite traite jusqu’à 10 PDF par action ; cochez les suivants et cliquez à nouveau sur le bouton."
+            "Cliquez sur « Enregistrer la sélection » ou ouvrez « Autres actions » pour un ZIP ou « Fusionner les PDFs ». La version gratuite traite jusqu’à 10 PDF par action ; cochez les suivants et cliquez à nouveau sur le bouton."
           ],
           "faq": [
             {
@@ -14718,7 +14718,7 @@
             "Öffnen Sie die Seite mit den PDFs und klicken Sie in der Symbolleiste auf das Grab-All-Files-Symbol.",
             "Wählen Sie die „Tiefe“ und klicken Sie auf „Scannen“. „Nur diese Seite“ prüft nur diese Seite; Tiefe 1 scannt zusätzlich die verlinkten Seiten im Ordner der Ausgangsseite, Tiefe 2 eine Ebene weiter. Je tiefer, desto länger dauert es (bis zu 100.000 Seiten).",
             "Filtern Sie die Liste auf PDF und prüfen Sie Titel, Quellseite, Größe und URL jeder Datei. Haken Sie die benötigten PDFs an.",
-            "Klicken Sie auf „Herunterladen“ oder öffnen Sie „Weitere Aktionen“ für ZIP oder „PDFs zusammenführen“. Die kostenlose Version verarbeitet bis zu 10 PDFs pro Aktion; haken Sie danach die nächsten an und klicken Sie erneut."
+            "Klicken Sie auf „Ausgewählte speichern“ oder öffnen Sie „Weitere Aktionen“ für ZIP oder „PDFs zusammenführen“. Die kostenlose Version verarbeitet bis zu 10 PDFs pro Aktion; haken Sie danach die nächsten an und klicken Sie erneut."
           ],
           "faq": [
             {
@@ -14763,7 +14763,7 @@
             "Apri la pagina che elenca i PDF e fai clic sull’icona di Grab All Files nella barra degli strumenti.",
             "Scegli la «Profondità» e fai clic su «Scansiona». «Solo questa pagina» controlla solo questa pagina; la profondità 1 analizza anche le pagine collegate nella cartella della pagina di partenza, la 2 va un livello oltre. Più è profonda, più tempo richiede (fino a 100.000 pagine).",
             "Filtra l’elenco per PDF e controlla titolo, pagina di origine, dimensione e URL di ogni file. Seleziona i PDF che ti servono.",
-            "Fai clic su «Scarica» oppure apri «Altre azioni» per lo ZIP o «Unisci PDF». La versione gratuita gestisce fino a 10 PDF per azione; seleziona i successivi e premi di nuovo il pulsante."
+            "Fai clic su «Salva i selezionati» oppure apri «Altre azioni» per lo ZIP o «Unisci PDF». La versione gratuita gestisce fino a 10 PDF per azione; seleziona i successivi e premi di nuovo il pulsante."
           ],
           "faq": [
             {
@@ -14808,7 +14808,7 @@
             "PDF 목록이 있는 페이지를 열고 툴바의 Grab All Files 아이콘을 누릅니다.",
             "“깊이”를 고른 뒤 “스캔”을 누릅니다. “이 페이지만”은 이 페이지만, 깊이 1은 시작 페이지 폴더 안의 링크된 페이지까지, 깊이 2는 한 단계 더 확인합니다. 깊을수록 오래 걸립니다(최대 100,000페이지).",
             "목록을 PDF로 필터링하고 각 파일의 제목, 링크 원본 페이지, 크기, URL을 확인한 뒤 필요한 PDF를 체크합니다.",
-            "“다운로드”를 누르거나 “기타 작업”에서 ZIP 또는 “PDF 병합”을 사용합니다. 무료 버전은 작업당 10개까지이며, 다음 PDF를 체크하고 같은 버튼을 다시 누르면 됩니다."
+            "“선택한 파일 저장”을 누르거나 “기타 작업”에서 ZIP 또는 “PDF 병합”을 사용합니다. 무료 버전은 작업당 10개까지이며, 다음 PDF를 체크하고 같은 버튼을 다시 누르면 됩니다."
           ],
           "faq": [
             {
@@ -14853,7 +14853,7 @@
             "Abra a página que lista os PDFs e clique no ícone do Grab All Files na barra de ferramentas.",
             "Escolha a “Profundidade” e clique em “Escanear”. “Apenas esta página” verifica só esta página; a profundidade 1 também escaneia as páginas vinculadas dentro da pasta da página de partida, e a 2 vai um nível além. Quanto mais fundo, mais demora (até 100.000 páginas).",
             "Filtre a lista por PDF e confira título, página de origem, tamanho e URL de cada arquivo. Marque os PDFs necessários.",
-            "Clique em “Baixar” ou abra “Mais ações” para criar um ZIP ou usar “Mesclar PDFs”. A versão gratuita processa até 10 PDFs por ação; marque os próximos e clique no botão de novo."
+            "Clique em “Salvar selecionados” ou abra “Mais ações” para criar um ZIP ou usar “Mesclar PDFs”. A versão gratuita processa até 10 PDFs por ação; marque os próximos e clique no botão de novo."
           ],
           "faq": [
             {
@@ -14898,7 +14898,7 @@
             "打开列出PDF的页面，点击工具栏上的Grab All Files图标。",
             "选择“深度”后点击“扫描”。“仅当前页面”只检查本页；深度1还会扫描起始页面文件夹内链接到的页面，深度2再往下一层。越深耗时越长（最多100,000个页面）。",
             "将列表筛选为PDF，确认每个文件的标题、来源页面、大小和URL，勾选需要的PDF。",
-            "点击“下载”，或在“其他操作”中使用ZIP或“合并PDF”。免费版每次操作最多10个；勾选接下来的PDF后再次点击同一按钮即可。"
+            "点击“保存所选文件”，或在“其他操作”中使用ZIP或“合并PDF”。免费版每次操作最多10个；勾选接下来的PDF后再次点击同一按钮即可。"
           ],
           "faq": [
             {
@@ -14943,7 +14943,7 @@
             "開啟列出PDF的頁面，點擊工具列上的Grab All Files圖示。",
             "選擇「深度」後點擊「掃描」。「僅此頁面」只檢查本頁；深度1還會掃描起始頁面資料夾內連結到的頁面，深度2再往下一層。越深耗時越長（最多100,000個頁面）。",
             "將清單篩選為PDF，確認每個檔案的標題、來源頁面、大小和URL，勾選需要的PDF。",
-            "點擊「下載」，或在「其他操作」中使用ZIP或「合併PDF」。免費版每次操作最多10個；勾選接下來的PDF後再次點擊同一按鈕即可。"
+            "點擊「儲存所選檔案」，或在「其他操作」中使用ZIP或「合併PDF」。免費版每次操作最多10個；勾選接下來的PDF後再次點擊同一按鈕即可。"
           ],
           "faq": [
             {
@@ -14998,7 +14998,7 @@
             "Open the gallery or page and click the Grab All Files icon in the toolbar.",
             "For galleries and infinite-scroll pages, open “Scan options”, turn on “Scroll & load everything before scanning” and choose a “Scroll time” (Normal 45 s, Long 90 s, Thorough 180 s). Then press “Scan”.",
             "Filter the list to images such as JPG, PNG, WebP, GIF or SVG. In “Details”, set a minimum “Size” to hide thumbnails and icons.",
-            "Tick the images and press “Download” (Free: up to 10 per download), or use “More actions” for ZIP, “Organize” by type or domain, or “Export File Info CSV”."
+            "Tick the images and press “Save selected files” (Free: up to 10 per download), or use “More actions” for ZIP, “Organize” by type or domain, or “Export File Info CSV”."
           ],
           "faq": [
             {
@@ -15039,7 +15039,7 @@
             "ギャラリーや対象ページを開き、ツールバーのGrab All Filesアイコンを押します。",
             "ギャラリーや無限スクロールのページは、「スキャン設定」で「スキャン前にスクロールして全て読み込む（ギャラリー・長い一覧）」をオンにし、「読み込み時間」（通常45秒／長め90秒／徹底180秒）を選んでから「スキャン」を押します。",
             "JPG、PNG、WebP、GIF、SVGなどの画像に絞り込みます。「詳細設定」で「サイズ」の最小値を決めると、サムネイルやアイコンを隠せます。",
-            "保存する画像にチェックを入れて「ダウンロード」を押します（無料版は1回10件まで）。ZIP、種類別・ドメイン別の「整理」、「ファイル情報CSV出力」は「その他の操作」にあります。"
+            "保存する画像にチェックを入れて「選んだファイルを保存」を押します（無料版は1回10件まで）。ZIP、種類別・ドメイン別の「整理」、「ファイル情報CSV出力」は「その他の操作」にあります。"
           ],
           "faq": [
             {
@@ -15080,7 +15080,7 @@
             "Abre la galería o la página y haz clic en el icono de Grab All Files en la barra de herramientas.",
             "En galerías y páginas con desplazamiento infinito, abre «Opciones de escaneo», activa «Desplázate y carga todo antes de escanear» y elige un «Tiempo de desplazamiento» (Normal 45 s, Más tiempo 90 s, Completo 180 s). Después pulsa «Escanear».",
             "Filtra la lista por imágenes como JPG, PNG, WebP, GIF o SVG. En «Detalles», fija un «Tamaño» mínimo para ocultar miniaturas e iconos.",
-            "Marca las imágenes y pulsa «Descargar» (gratis: hasta 10 por descarga), o usa «Más acciones» para ZIP, «Organizar» por tipo o dominio o «Exportar info de archivos en CSV»."
+            "Marca las imágenes y pulsa «Guardar seleccionados» (gratis: hasta 10 por descarga), o usa «Más acciones» para ZIP, «Organizar» por tipo o dominio o «Exportar info de archivos en CSV»."
           ],
           "faq": [
             {
@@ -15121,7 +15121,7 @@
             "Ouvrez la galerie ou la page et cliquez sur l’icône Grab All Files de la barre d’outils.",
             "Pour les galeries et les pages à défilement infini, ouvrez « Options d’analyse », activez « Faire défiler et tout charger avant l’analyse » et choisissez une « Durée de défilement » (Normal 45 s, Plus long 90 s, Approfondi 180 s). Cliquez ensuite sur « Scanner ».",
             "Filtrez la liste sur les images (JPG, PNG, WebP, GIF, SVG…). Dans « Détails », fixez une « Taille » minimale pour masquer vignettes et icônes.",
-            "Cochez les images et cliquez sur « Télécharger » (version gratuite : 10 par téléchargement), ou utilisez « Autres actions » pour le ZIP, le « Classement » par type ou par domaine, ou « Exporter les infos fichiers en CSV »."
+            "Cochez les images et cliquez sur « Enregistrer la sélection » (version gratuite : 10 par téléchargement), ou utilisez « Autres actions » pour le ZIP, le « Classement » par type ou par domaine, ou « Exporter les infos fichiers en CSV »."
           ],
           "faq": [
             {
@@ -15162,7 +15162,7 @@
             "Öffnen Sie die Galerie oder Seite und klicken Sie in der Symbolleiste auf das Grab-All-Files-Symbol.",
             "Bei Galerien und Endlos-Scroll-Seiten öffnen Sie „Scan-Optionen“, aktivieren „Vor dem Scan alles scrollen & laden“ und wählen eine „Scroll-Zeit“ (Normal 45 s, Länger 90 s, Gründlich 180 s). Klicken Sie dann auf „Scannen“.",
             "Filtern Sie die Liste auf Bilder wie JPG, PNG, WebP, GIF oder SVG. Legen Sie unter „Details“ eine Mindest-„Größe“ fest, um Vorschaubilder und Symbole auszublenden.",
-            "Haken Sie die Bilder an und klicken Sie auf „Herunterladen“ (kostenlos: bis zu 10 pro Download) oder nutzen Sie „Weitere Aktionen“ für ZIP, „Ablage“ nach Typ oder Domain oder „Dateiinfo als CSV exportieren“."
+            "Haken Sie die Bilder an und klicken Sie auf „Ausgewählte speichern“ (kostenlos: bis zu 10 pro Download) oder nutzen Sie „Weitere Aktionen“ für ZIP, „Ablage“ nach Typ oder Domain oder „Dateiinfo als CSV exportieren“."
           ],
           "faq": [
             {
@@ -15203,7 +15203,7 @@
             "Apri la galleria o la pagina e fai clic sull’icona di Grab All Files nella barra degli strumenti.",
             "Per gallerie e pagine a scorrimento infinito, apri «Opzioni di scansione», attiva «Scorri e carica tutto prima della scansione» e scegli un «Tempo di scorrimento» (Normale 45 s, Più lungo 90 s, Approfondito 180 s). Poi fai clic su «Scansiona».",
             "Filtra l’elenco per immagini come JPG, PNG, WebP, GIF o SVG. In «Dettagli» imposta una «Dimensione» minima per nascondere miniature e icone.",
-            "Seleziona le immagini e fai clic su «Scarica» (gratis: fino a 10 per download), oppure usa «Altre azioni» per ZIP, «Organizza» per tipo o dominio o «Esporta info file in CSV»."
+            "Seleziona le immagini e fai clic su «Salva i selezionati» (gratis: fino a 10 per download), oppure usa «Altre azioni» per ZIP, «Organizza» per tipo o dominio o «Esporta info file in CSV»."
           ],
           "faq": [
             {
@@ -15244,7 +15244,7 @@
             "갤러리나 페이지를 열고 툴바의 Grab All Files 아이콘을 누릅니다.",
             "갤러리와 무한 스크롤 페이지는 “스캔 설정”에서 “스캔 전에 스크롤해 모두 불러오기(갤러리, 긴 목록)”를 켜고 “스크롤 시간”(일반 45초, 길게 90초, 철저히 180초)을 고른 뒤 “스캔”을 누릅니다.",
             "JPG, PNG, WebP, GIF, SVG 같은 이미지로 목록을 필터링합니다. “상세 설정”에서 최소 “크기”를 정하면 썸네일과 아이콘을 숨길 수 있습니다.",
-            "이미지를 체크하고 “다운로드”를 누릅니다(무료: 다운로드당 10개). ZIP, 유형별·도메인별 “정리”, “파일 정보 CSV 내보내기”는 “기타 작업”에 있습니다."
+            "이미지를 체크하고 “선택한 파일 저장”을 누릅니다(무료: 다운로드당 10개). ZIP, 유형별·도메인별 “정리”, “파일 정보 CSV 내보내기”는 “기타 작업”에 있습니다."
           ],
           "faq": [
             {
@@ -15285,7 +15285,7 @@
             "Abra a galeria ou a página e clique no ícone do Grab All Files na barra de ferramentas.",
             "Em galerias e páginas com rolagem infinita, abra “Opções de varredura”, ative “Role e carregue tudo antes de escanear” e escolha um “Tempo de rolagem” (Normal 45 s, Longo 90 s, Completo 180 s). Depois clique em “Escanear”.",
             "Filtre a lista por imagens como JPG, PNG, WebP, GIF ou SVG. Em “Detalhes”, defina um “Tamanho” mínimo para ocultar miniaturas e ícones.",
-            "Marque as imagens e clique em “Baixar” (grátis: até 10 por download), ou use “Mais ações” para ZIP, “Organizar” por tipo ou domínio ou “Exportar info de arquivos em CSV”."
+            "Marque as imagens e clique em “Salvar selecionados” (grátis: até 10 por download), ou use “Mais ações” para ZIP, “Organizar” por tipo ou domínio ou “Exportar info de arquivos em CSV”."
           ],
           "faq": [
             {
@@ -15326,7 +15326,7 @@
             "打开图库或页面，点击工具栏上的Grab All Files图标。",
             "对于图库和无限滚动页面，请在“扫描设置”中开启“扫描前先滚动并加载全部内容（图库、长列表）”，选择“滚动时间”（标准45秒、较长90秒、彻底180秒），然后点击“扫描”。",
             "将列表筛选为JPG、PNG、WebP、GIF、SVG等图片。在“详细设置”中设定最小“大小”，即可隐藏缩略图和图标。",
-            "勾选图片后点击“下载”（免费版每次最多10个），或在“其他操作”中使用ZIP、按类型或域名“整理”，或“导出文件信息CSV”。"
+            "勾选图片后点击“保存所选文件”（免费版每次最多10个），或在“其他操作”中使用ZIP、按类型或域名“整理”，或“导出文件信息CSV”。"
           ],
           "faq": [
             {
@@ -15367,7 +15367,7 @@
             "開啟圖庫或頁面，點擊工具列上的Grab All Files圖示。",
             "對於圖庫和無限捲動頁面，請在「掃描設定」中開啟「掃描前先捲動並載入所有內容（圖庫、長清單）」，選擇「捲動時間」（標準45秒、較長90秒、徹底180秒），然後點擊「掃描」。",
             "將清單篩選為JPG、PNG、WebP、GIF、SVG等圖片。在「詳細設定」中設定最小「大小」，即可隱藏縮圖和圖示。",
-            "勾選圖片後點擊「下載」（免費版每次最多10個），或在「其他操作」中使用ZIP、依類型或網域「整理」，或「匯出檔案資訊CSV」。"
+            "勾選圖片後點擊「儲存所選檔案」（免費版每次最多10個），或在「其他操作」中使用ZIP、依類型或網域「整理」，或「匯出檔案資訊CSV」。"
           ],
           "faq": [
             {
@@ -15418,8 +15418,8 @@
             "Open the page in Chrome, Edge or Firefox and click the Grab All Files icon in the toolbar. The file list is built for the page you are on.",
             "Press “Scan”. To include pages this one links to, raise “Depth” first (“This page only” checks just this page); linked pages are followed only inside the starting page’s folder.",
             "Narrow the list with the file-type list, the search box for names and titles, and “Details” (minimum size, “Save as”). Tick the files you want.",
-            "Press “Download”. ZIP, “Merge PDFs”, “Organize” and “Export File Info CSV” are under “More actions”. Free saves up to 10 files per download.",
-            "For a longer list, select the next files and press “Download” again. Failed rows show a reason; fix access and retry them."
+            "Press “Save selected files”. ZIP, “Merge PDFs”, “Organize” and “Export File Info CSV” are under “More actions”. Free saves up to 10 files per download.",
+            "For a longer list, select the next files and press “Save selected files” again. Failed rows show a reason; fix access and retry them."
           ],
           "faq": [
             {
@@ -15464,8 +15464,8 @@
             "Chrome・Edge・Firefoxで対象ページを開き、ツールバーのGrab All Filesアイコンを押します。いま開いているページのファイル一覧が作られます。",
             "「スキャン」を押します。リンク先のページも調べるときは先に「深さ」を上げます（「このページのみ」はこのページだけ）。リンク先は起点ページのフォルダ配下だけをたどります。",
             "ファイル種類の一覧、ファイル名・タイトルの検索欄、「詳細設定」（最小サイズ・「保存名」）で絞り込み、保存するファイルにチェックを入れます。",
-            "「ダウンロード」を押します。ZIP、「PDF結合」、「整理」、「ファイル情報CSV出力」は「その他の操作」にあります。無料版は1回のダウンロードで10件までです。",
-            "件数が多いときは、次のファイルを選んでもう一度「ダウンロード」を押します。失敗した行には理由が表示されるので、アクセスを直してから再試行します。"
+            "「選んだファイルを保存」を押します。ZIP、「PDF結合」、「整理」、「ファイル情報CSV出力」は「その他の操作」にあります。無料版は1回のダウンロードで10件までです。",
+            "件数が多いときは、次のファイルを選んでもう一度「選んだファイルを保存」を押します。失敗した行には理由が表示されるので、アクセスを直してから再試行します。"
           ],
           "faq": [
             {
@@ -15510,8 +15510,8 @@
             "Abre la página en Chrome, Edge o Firefox y haz clic en el icono de Grab All Files en la barra de herramientas. La lista de archivos se crea para la página abierta.",
             "Pulsa «Escanear». Para incluir las páginas enlazadas, sube antes la «Profundidad» («Solo esta página» revisa únicamente esta); los enlaces solo se siguen dentro de la carpeta de la página de partida.",
             "Reduce la lista con los tipos de archivo, el cuadro de búsqueda de nombres y títulos y «Detalles» (tamaño mínimo, «Guardar como»). Marca los archivos que quieras.",
-            "Pulsa «Descargar». ZIP, «Combinar PDFs», «Organizar» y «Exportar info de archivos en CSV» están en «Más acciones». La versión gratuita guarda hasta 10 archivos por descarga.",
-            "Si la lista es larga, selecciona los siguientes archivos y vuelve a pulsar «Descargar». Las filas fallidas muestran el motivo; corrige el acceso y reinténtalas."
+            "Pulsa «Guardar seleccionados». ZIP, «Combinar PDFs», «Organizar» y «Exportar info de archivos en CSV» están en «Más acciones». La versión gratuita guarda hasta 10 archivos por descarga.",
+            "Si la lista es larga, selecciona los siguientes archivos y vuelve a pulsar «Guardar seleccionados». Las filas fallidas muestran el motivo; corrige el acceso y reinténtalas."
           ],
           "faq": [
             {
@@ -15556,8 +15556,8 @@
             "Ouvrez la page dans Chrome, Edge ou Firefox et cliquez sur l’icône Grab All Files de la barre d’outils. La liste des fichiers porte sur la page ouverte.",
             "Cliquez sur « Scanner ». Pour inclure les pages liées, augmentez d’abord la « Profondeur » (« Cette page uniquement » n’analyse que cette page) ; les liens ne sont suivis que dans le dossier de la page de départ.",
             "Affinez la liste avec les types de fichiers, le champ de recherche (nom ou titre) et « Détails » (taille minimale, « Enregistrer sous »). Cochez les fichiers voulus.",
-            "Cliquez sur « Télécharger ». Le ZIP, « Fusionner les PDFs », « Classement » et « Exporter les infos fichiers en CSV » se trouvent dans « Autres actions ». La version gratuite enregistre jusqu’à 10 fichiers par téléchargement.",
-            "Pour une longue liste, sélectionnez les fichiers suivants et cliquez à nouveau sur « Télécharger ». Les lignes en échec indiquent leur motif : corrigez l’accès puis relancez-les."
+            "Cliquez sur « Enregistrer la sélection ». Le ZIP, « Fusionner les PDFs », « Classement » et « Exporter les infos fichiers en CSV » se trouvent dans « Autres actions ». La version gratuite enregistre jusqu’à 10 fichiers par téléchargement.",
+            "Pour une longue liste, sélectionnez les fichiers suivants et cliquez à nouveau sur « Enregistrer la sélection ». Les lignes en échec indiquent leur motif : corrigez l’accès puis relancez-les."
           ],
           "faq": [
             {
@@ -15602,8 +15602,8 @@
             "Öffnen Sie die Seite in Chrome, Edge oder Firefox und klicken Sie in der Symbolleiste auf das Grab-All-Files-Symbol. Die Dateiliste bezieht sich auf die geöffnete Seite.",
             "Klicken Sie auf „Scannen“. Sollen verlinkte Seiten einbezogen werden, erhöhen Sie vorher die „Tiefe“ („Nur diese Seite“ prüft nur diese Seite); Links werden nur innerhalb des Ordners der Ausgangsseite verfolgt.",
             "Grenzen Sie die Liste über die Dateitypen, das Suchfeld für Namen und Titel und „Details“ (Mindestgröße, „Speichern als“) ein. Haken Sie die gewünschten Dateien an.",
-            "Klicken Sie auf „Herunterladen“. ZIP, „PDFs zusammenführen“, „Ablage“ und „Dateiinfo als CSV exportieren“ finden Sie unter „Weitere Aktionen“. Die kostenlose Version speichert bis zu 10 Dateien pro Download.",
-            "Bei längeren Listen wählen Sie die nächsten Dateien aus und klicken erneut auf „Herunterladen“. Fehlgeschlagene Zeilen nennen den Grund; beheben Sie den Zugriff und wiederholen Sie sie."
+            "Klicken Sie auf „Ausgewählte speichern“. ZIP, „PDFs zusammenführen“, „Ablage“ und „Dateiinfo als CSV exportieren“ finden Sie unter „Weitere Aktionen“. Die kostenlose Version speichert bis zu 10 Dateien pro Download.",
+            "Bei längeren Listen wählen Sie die nächsten Dateien aus und klicken erneut auf „Ausgewählte speichern“. Fehlgeschlagene Zeilen nennen den Grund; beheben Sie den Zugriff und wiederholen Sie sie."
           ],
           "faq": [
             {
@@ -15648,8 +15648,8 @@
             "Apri la pagina in Chrome, Edge o Firefox e fai clic sull’icona di Grab All Files nella barra degli strumenti. L’elenco dei file riguarda la pagina aperta.",
             "Fai clic su «Scansiona». Per includere le pagine collegate, aumenta prima la «Profondità» («Solo questa pagina» controlla solo questa); i link vengono seguiti solo all’interno della cartella della pagina di partenza.",
             "Restringi l’elenco con i tipi di file, la casella di ricerca per nomi e titoli e «Dettagli» (dimensione minima, «Salva come»). Seleziona i file che ti servono.",
-            "Fai clic su «Scarica». ZIP, «Unisci PDF», «Organizza» ed «Esporta info file in CSV» si trovano in «Altre azioni». La versione gratuita salva fino a 10 file per download.",
-            "Per un elenco lungo, seleziona i file successivi e fai di nuovo clic su «Scarica». Le righe non riuscite mostrano il motivo: correggi l’accesso e riprova."
+            "Fai clic su «Salva i selezionati». ZIP, «Unisci PDF», «Organizza» ed «Esporta info file in CSV» si trovano in «Altre azioni». La versione gratuita salva fino a 10 file per download.",
+            "Per un elenco lungo, seleziona i file successivi e fai di nuovo clic su «Salva i selezionati». Le righe non riuscite mostrano il motivo: correggi l’accesso e riprova."
           ],
           "faq": [
             {
@@ -15694,8 +15694,8 @@
             "Chrome, Edge 또는 Firefox에서 페이지를 열고 툴바의 Grab All Files 아이콘을 누릅니다. 지금 열려 있는 페이지의 파일 목록이 만들어집니다.",
             "“스캔”을 누릅니다. 링크된 페이지까지 포함하려면 먼저 “깊이”를 올립니다(“이 페이지만”은 이 페이지만 확인). 링크는 시작 페이지의 폴더 안에서만 따라갑니다.",
             "파일 유형 목록, 파일 이름·제목 검색창, “상세 설정”(최소 크기, “저장 이름”)으로 목록을 좁히고 원하는 파일을 체크합니다.",
-            "“다운로드”를 누릅니다. ZIP, “PDF 병합”, “정리”, “파일 정보 CSV 내보내기”는 “기타 작업”에 있습니다. 무료 버전은 다운로드당 10개까지 저장합니다.",
-            "목록이 길면 다음 파일을 선택하고 “다운로드”를 다시 누릅니다. 실패한 행에는 이유가 표시되므로 접근 문제를 해결한 뒤 다시 시도하세요."
+            "“선택한 파일 저장”을 누릅니다. ZIP, “PDF 병합”, “정리”, “파일 정보 CSV 내보내기”는 “기타 작업”에 있습니다. 무료 버전은 다운로드당 10개까지 저장합니다.",
+            "목록이 길면 다음 파일을 선택하고 “선택한 파일 저장”을 다시 누릅니다. 실패한 행에는 이유가 표시되므로 접근 문제를 해결한 뒤 다시 시도하세요."
           ],
           "faq": [
             {
@@ -15740,8 +15740,8 @@
             "Abra a página no Chrome, Edge ou Firefox e clique no ícone do Grab All Files na barra de ferramentas. A lista de arquivos é montada para a página aberta.",
             "Clique em “Escanear”. Para incluir as páginas vinculadas, aumente antes a “Profundidade” (“Apenas esta página” verifica só esta); os links são seguidos apenas dentro da pasta da página de partida.",
             "Refine a lista com os tipos de arquivo, a caixa de busca por nome e título e “Detalhes” (tamanho mínimo, “Salvar como”). Marque os arquivos desejados.",
-            "Clique em “Baixar”. ZIP, “Mesclar PDFs”, “Organizar” e “Exportar info de arquivos em CSV” ficam em “Mais ações”. A versão gratuita salva até 10 arquivos por download.",
-            "Se a lista for longa, selecione os próximos arquivos e clique em “Baixar” de novo. As linhas com falha mostram o motivo; corrija o acesso e tente novamente."
+            "Clique em “Salvar selecionados”. ZIP, “Mesclar PDFs”, “Organizar” e “Exportar info de arquivos em CSV” ficam em “Mais ações”. A versão gratuita salva até 10 arquivos por download.",
+            "Se a lista for longa, selecione os próximos arquivos e clique em “Salvar selecionados” de novo. As linhas com falha mostram o motivo; corrija o acesso e tente novamente."
           ],
           "faq": [
             {
@@ -15786,8 +15786,8 @@
             "在Chrome、Edge或Firefox中打开页面，点击工具栏上的Grab All Files图标。列表针对当前打开的页面生成。",
             "点击“扫描”。如需包含链接到的页面，请先提高“深度”（“仅当前页面”只检查本页）；链接只会在起始页面所在的文件夹内跟踪。",
             "用文件类型列表、文件名/标题搜索框和“详细设置”（最小大小、“保存名称”）缩小列表，勾选需要的文件。",
-            "点击“下载”。ZIP、“合并PDF”、“整理”和“导出文件信息CSV”位于“其他操作”中。免费版每次下载最多保存10个文件。",
-            "文件较多时，选择接下来的文件，再次点击“下载”。失败的行会显示原因，解决访问问题后可重试。"
+            "点击“保存所选文件”。ZIP、“合并PDF”、“整理”和“导出文件信息CSV”位于“其他操作”中。免费版每次下载最多保存10个文件。",
+            "文件较多时，选择接下来的文件，再次点击“保存所选文件”。失败的行会显示原因，解决访问问题后可重试。"
           ],
           "faq": [
             {
@@ -15832,8 +15832,8 @@
             "在Chrome、Edge或Firefox開啟頁面，點擊工具列上的Grab All Files圖示。清單會針對目前開啟的頁面產生。",
             "點擊「掃描」。若要包含連結到的頁面，請先提高「深度」（「僅此頁面」只檢查本頁）；連結只會在起始頁面所在的資料夾內追蹤。",
             "用檔案類型清單、檔名／標題搜尋框和「詳細設定」（最小大小、「儲存名稱」）縮小清單，勾選需要的檔案。",
-            "點擊「下載」。ZIP、「合併PDF」、「整理」和「匯出檔案資訊CSV」位於「其他操作」中。免費版每次下載最多儲存10個檔案。",
-            "檔案較多時，選取接下來的檔案，再次點擊「下載」。失敗的列會顯示原因，解決存取問題後可重試。"
+            "點擊「儲存所選檔案」。ZIP、「合併PDF」、「整理」和「匯出檔案資訊CSV」位於「其他操作」中。免費版每次下載最多儲存10個檔案。",
+            "檔案較多時，選取接下來的檔案，再次點擊「儲存所選檔案」。失敗的列會顯示原因，解決存取問題後可重試。"
           ],
           "faq": [
             {
@@ -15887,8 +15887,8 @@
           "steps": [
             "Sign in to the portal as usual and open the page with the files you are allowed to access.",
             "Click the Grab All Files icon and press “Scan”. Raise “Depth” to include linked pages inside the starting page’s folder; those pages open with your current sign-in.",
-            "Filter and tick the files you need, then press “Download” or use “More actions” for ZIP, “Merge PDFs” or “Export File Info CSV”. Free saves up to 10 files per download.",
-            "For the next batch, select the next files and press “Download” again. Rows marked “Login required to access this file” mean the session ended: sign in again and retry them."
+            "Filter and tick the files you need, then press “Save selected files” or use “More actions” for ZIP, “Merge PDFs” or “Export File Info CSV”. Free saves up to 10 files per download.",
+            "For the next batch, select the next files and press “Save selected files” again. Rows marked “Login required to access this file” mean the session ended: sign in again and retry them."
           ],
           "faq": [
             {
@@ -15905,7 +15905,7 @@
             },
             {
               "q": "How many files can I download for free?",
-              "a": "Free saves up to 10 selected files per download, ZIP or merge. Select the next files and press “Download” again to continue. Pro ($19.99 one-time, up to 3 devices) removes the per-download limit."
+              "a": "Free saves up to 10 selected files per download, ZIP or merge. Select the next files and press “Save selected files” again to continue. Pro ($19.99 one-time, up to 3 devices) removes the per-download limit."
             },
             {
               "q": "My session expired during a scan. What now?",
@@ -15932,8 +15932,8 @@
           "steps": [
             "いつもどおりポータルにログインし、アクセスを許可されているファイルが並ぶページを開きます。",
             "Grab All Filesアイコンを押して「スキャン」を押します。リンク先も含めるときは「深さ」を上げます（起点ページのフォルダ配下）。リンク先のページも現在のログイン状態で開きます。",
-            "必要なファイルを絞り込んでチェックし、「ダウンロード」を押すか、「その他の操作」からZIP・「PDF結合」・「ファイル情報CSV出力」を使います。無料版は1回のダウンロードで10件までです。",
-            "続きは次のファイルを選んでもう一度「ダウンロード」を押します。「ログインが必要です」と表示された行はセッションが切れているので、ログインし直して再試行します。"
+            "必要なファイルを絞り込んでチェックし、「選んだファイルを保存」を押すか、「その他の操作」からZIP・「PDF結合」・「ファイル情報CSV出力」を使います。無料版は1回のダウンロードで10件までです。",
+            "続きは次のファイルを選んでもう一度「選んだファイルを保存」を押します。「ログインが必要です」と表示された行はセッションが切れているので、ログインし直して再試行します。"
           ],
           "faq": [
             {
@@ -15950,7 +15950,7 @@
             },
             {
               "q": "無料版で何件までダウンロードできますか？",
-              "a": "無料版はダウンロード・ZIP・PDF結合のいずれも1回の操作で選択した10件までです。続けるときは次のファイルを選んでもう一度「ダウンロード」を押してください。Pro（$19.99・買い切り、3台まで）は1回あたりの件数上限がありません。"
+              "a": "無料版はダウンロード・ZIP・PDF結合のいずれも1回の操作で選択した10件までです。続けるときは次のファイルを選んでもう一度「選んだファイルを保存」を押してください。Pro（$19.99・買い切り、3台まで）は1回あたりの件数上限がありません。"
             },
             {
               "q": "スキャン中にセッションが切れたら？",
@@ -15977,8 +15977,8 @@
           "steps": [
             "Inicia sesión en el portal como siempre y abre la página con los archivos a los que tienes acceso.",
             "Haz clic en el icono de Grab All Files y pulsa «Escanear». Sube la «Profundidad» para incluir páginas enlazadas dentro de la carpeta de la página de partida; se abren con tu sesión actual.",
-            "Filtra y marca los archivos que necesitas; luego pulsa «Descargar» o usa «Más acciones» para ZIP, «Combinar PDFs» o «Exportar info de archivos en CSV». La versión gratuita guarda hasta 10 archivos por descarga.",
-            "Para el siguiente lote, selecciona los siguientes archivos y vuelve a pulsar «Descargar». Las filas con «Se requiere iniciar sesión» indican que la sesión terminó: vuelve a iniciar sesión y reinténtalas."
+            "Filtra y marca los archivos que necesitas; luego pulsa «Guardar seleccionados» o usa «Más acciones» para ZIP, «Combinar PDFs» o «Exportar info de archivos en CSV». La versión gratuita guarda hasta 10 archivos por descarga.",
+            "Para el siguiente lote, selecciona los siguientes archivos y vuelve a pulsar «Guardar seleccionados». Las filas con «Se requiere iniciar sesión» indican que la sesión terminó: vuelve a iniciar sesión y reinténtalas."
           ],
           "faq": [
             {
@@ -15995,7 +15995,7 @@
             },
             {
               "q": "¿Cuántos archivos puedo descargar gratis?",
-              "a": "La versión gratuita guarda hasta 10 archivos seleccionados por descarga, ZIP o combinación. Para seguir, selecciona los siguientes archivos y vuelve a pulsar «Descargar». Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga."
+              "a": "La versión gratuita guarda hasta 10 archivos seleccionados por descarga, ZIP o combinación. Para seguir, selecciona los siguientes archivos y vuelve a pulsar «Guardar seleccionados». Pro ($19.99, pago único, hasta 3 dispositivos) elimina el límite por descarga."
             },
             {
               "q": "La sesión caducó durante el escaneo. ¿Y ahora?",
@@ -16022,8 +16022,8 @@
           "steps": [
             "Connectez-vous au portail comme d’habitude et ouvrez la page contenant les fichiers auxquels vous avez accès.",
             "Cliquez sur l’icône Grab All Files puis sur « Scanner ». Augmentez la « Profondeur » pour inclure les pages liées du dossier de la page de départ ; elles s’ouvrent avec votre connexion actuelle.",
-            "Filtrez et cochez les fichiers utiles, puis cliquez sur « Télécharger » ou utilisez « Autres actions » pour le ZIP, « Fusionner les PDFs » ou « Exporter les infos fichiers en CSV ». La version gratuite enregistre jusqu’à 10 fichiers par téléchargement.",
-            "Pour le lot suivant, sélectionnez les fichiers suivants et cliquez à nouveau sur « Télécharger ». Les lignes « Connexion requise » signalent une session terminée : reconnectez-vous et relancez-les."
+            "Filtrez et cochez les fichiers utiles, puis cliquez sur « Enregistrer la sélection » ou utilisez « Autres actions » pour le ZIP, « Fusionner les PDFs » ou « Exporter les infos fichiers en CSV ». La version gratuite enregistre jusqu’à 10 fichiers par téléchargement.",
+            "Pour le lot suivant, sélectionnez les fichiers suivants et cliquez à nouveau sur « Enregistrer la sélection ». Les lignes « Connexion requise » signalent une session terminée : reconnectez-vous et relancez-les."
           ],
           "faq": [
             {
@@ -16040,7 +16040,7 @@
             },
             {
               "q": "Combien de fichiers puis-je télécharger gratuitement ?",
-              "a": "La version gratuite enregistre jusqu’à 10 fichiers sélectionnés par téléchargement, ZIP ou fusion. Pour continuer, sélectionnez les fichiers suivants et cliquez à nouveau sur « Télécharger ». Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement."
+              "a": "La version gratuite enregistre jusqu’à 10 fichiers sélectionnés par téléchargement, ZIP ou fusion. Pour continuer, sélectionnez les fichiers suivants et cliquez à nouveau sur « Enregistrer la sélection ». Pro (19,99 $, achat unique, jusqu’à 3 appareils) supprime la limite par téléchargement."
             },
             {
               "q": "Ma session a expiré pendant l’analyse. Que faire ?",
@@ -16067,8 +16067,8 @@
           "steps": [
             "Melden Sie sich wie gewohnt im Portal an und öffnen Sie die Seite mit den Dateien, auf die Sie zugreifen dürfen.",
             "Klicken Sie auf das Grab-All-Files-Symbol und dann auf „Scannen“. Erhöhen Sie die „Tiefe“, um verlinkte Seiten im Ordner der Ausgangsseite einzubeziehen; sie öffnen sich mit Ihrer aktuellen Anmeldung.",
-            "Filtern und haken Sie die benötigten Dateien an und klicken Sie auf „Herunterladen“ oder nutzen Sie „Weitere Aktionen“ für ZIP, „PDFs zusammenführen“ oder „Dateiinfo als CSV exportieren“. Die kostenlose Version speichert bis zu 10 Dateien pro Download.",
-            "Für die nächste Gruppe wählen Sie die nächsten Dateien aus und klicken erneut auf „Herunterladen“. Zeilen mit „Anmeldung erforderlich“ bedeuten, dass die Sitzung beendet ist: Melden Sie sich erneut an und wiederholen Sie sie."
+            "Filtern und haken Sie die benötigten Dateien an und klicken Sie auf „Ausgewählte speichern“ oder nutzen Sie „Weitere Aktionen“ für ZIP, „PDFs zusammenführen“ oder „Dateiinfo als CSV exportieren“. Die kostenlose Version speichert bis zu 10 Dateien pro Download.",
+            "Für die nächste Gruppe wählen Sie die nächsten Dateien aus und klicken erneut auf „Ausgewählte speichern“. Zeilen mit „Anmeldung erforderlich“ bedeuten, dass die Sitzung beendet ist: Melden Sie sich erneut an und wiederholen Sie sie."
           ],
           "faq": [
             {
@@ -16085,7 +16085,7 @@
             },
             {
               "q": "Wie viele Dateien kann ich kostenlos herunterladen?",
-              "a": "Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Download, ZIP oder Zusammenführung. Zum Weitermachen wählen Sie die nächsten Dateien aus und klicken erneut auf „Herunterladen“. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Download auf."
+              "a": "Die kostenlose Version speichert bis zu 10 ausgewählte Dateien pro Download, ZIP oder Zusammenführung. Zum Weitermachen wählen Sie die nächsten Dateien aus und klicken erneut auf „Ausgewählte speichern“. Pro (19,99 $, einmalig, bis zu 3 Geräte) hebt das Limit pro Download auf."
             },
             {
               "q": "Meine Sitzung ist während des Scans abgelaufen. Was nun?",
@@ -16112,8 +16112,8 @@
           "steps": [
             "Accedi al portale come al solito e apri la pagina con i file a cui hai accesso.",
             "Fai clic sull’icona di Grab All Files e poi su «Scansiona». Aumenta la «Profondità» per includere le pagine collegate nella cartella della pagina di partenza; si aprono con il tuo accesso attuale.",
-            "Filtra e seleziona i file che ti servono, poi fai clic su «Scarica» oppure usa «Altre azioni» per ZIP, «Unisci PDF» o «Esporta info file in CSV». La versione gratuita salva fino a 10 file per download.",
-            "Per il gruppo successivo, seleziona i file seguenti e fai di nuovo clic su «Scarica». Le righe con «Accesso richiesto» indicano che la sessione è terminata: accedi di nuovo e riprova."
+            "Filtra e seleziona i file che ti servono, poi fai clic su «Salva i selezionati» oppure usa «Altre azioni» per ZIP, «Unisci PDF» o «Esporta info file in CSV». La versione gratuita salva fino a 10 file per download.",
+            "Per il gruppo successivo, seleziona i file seguenti e fai di nuovo clic su «Salva i selezionati». Le righe con «Accesso richiesto» indicano che la sessione è terminata: accedi di nuovo e riprova."
           ],
           "faq": [
             {
@@ -16130,7 +16130,7 @@
             },
             {
               "q": "Quanti file posso scaricare gratis?",
-              "a": "La versione gratuita salva fino a 10 file selezionati per download, ZIP o unione. Per continuare, seleziona i file successivi e fai di nuovo clic su «Scarica». Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download."
+              "a": "La versione gratuita salva fino a 10 file selezionati per download, ZIP o unione. Per continuare, seleziona i file successivi e fai di nuovo clic su «Salva i selezionati». Pro ($19.99, una tantum, fino a 3 dispositivi) elimina il limite per download."
             },
             {
               "q": "La sessione è scaduta durante la scansione. E ora?",
@@ -16157,8 +16157,8 @@
           "steps": [
             "평소처럼 포털에 로그인하고, 접근이 허용된 파일이 있는 페이지를 엽니다.",
             "Grab All Files 아이콘을 누르고 “스캔”을 누릅니다. 시작 페이지 폴더 안의 링크된 페이지까지 포함하려면 “깊이”를 올립니다. 링크된 페이지도 현재 로그인 상태로 열립니다.",
-            "필요한 파일을 필터링해 체크한 뒤 “다운로드”를 누르거나 “기타 작업”에서 ZIP, “PDF 병합”, “파일 정보 CSV 내보내기”를 사용합니다. 무료 버전은 다운로드당 10개까지 저장합니다.",
-            "다음 묶음은 다음 파일을 선택하고 “다운로드”를 다시 누릅니다. “로그인이 필요합니다”로 표시된 행은 세션이 끝났다는 뜻이므로 다시 로그인한 뒤 재시도하세요."
+            "필요한 파일을 필터링해 체크한 뒤 “선택한 파일 저장”을 누르거나 “기타 작업”에서 ZIP, “PDF 병합”, “파일 정보 CSV 내보내기”를 사용합니다. 무료 버전은 다운로드당 10개까지 저장합니다.",
+            "다음 묶음은 다음 파일을 선택하고 “선택한 파일 저장”을 다시 누릅니다. “로그인이 필요합니다”로 표시된 행은 세션이 끝났다는 뜻이므로 다시 로그인한 뒤 재시도하세요."
           ],
           "faq": [
             {
@@ -16175,7 +16175,7 @@
             },
             {
               "q": "무료로 몇 개까지 다운로드할 수 있나요?",
-              "a": "무료 버전은 다운로드, ZIP, 병합 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 “다운로드”를 다시 누르세요. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
+              "a": "무료 버전은 다운로드, ZIP, 병합 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 “선택한 파일 저장”을 다시 누르세요. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
             },
             {
               "q": "스캔 중에 세션이 만료되면요?",
@@ -16202,8 +16202,8 @@
           "steps": [
             "Faça login no portal como de costume e abra a página com os arquivos que você tem permissão para acessar.",
             "Clique no ícone do Grab All Files e em “Escanear”. Aumente a “Profundidade” para incluir páginas vinculadas dentro da pasta da página de partida; elas abrem com o seu login atual.",
-            "Filtre e marque os arquivos necessários e clique em “Baixar” ou use “Mais ações” para ZIP, “Mesclar PDFs” ou “Exportar info de arquivos em CSV”. A versão gratuita salva até 10 arquivos por download.",
-            "Para o próximo lote, selecione os próximos arquivos e clique em “Baixar” de novo. Linhas com “Login necessário” indicam que a sessão terminou: faça login de novo e tente outra vez."
+            "Filtre e marque os arquivos necessários e clique em “Salvar selecionados” ou use “Mais ações” para ZIP, “Mesclar PDFs” ou “Exportar info de arquivos em CSV”. A versão gratuita salva até 10 arquivos por download.",
+            "Para o próximo lote, selecione os próximos arquivos e clique em “Salvar selecionados” de novo. Linhas com “Login necessário” indicam que a sessão terminou: faça login de novo e tente outra vez."
           ],
           "faq": [
             {
@@ -16220,7 +16220,7 @@
             },
             {
               "q": "Quantos arquivos posso baixar de graça?",
-              "a": "A versão gratuita salva até 10 arquivos selecionados por download, ZIP ou mesclagem. Para continuar, selecione os próximos arquivos e clique em “Baixar” de novo. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download."
+              "a": "A versão gratuita salva até 10 arquivos selecionados por download, ZIP ou mesclagem. Para continuar, selecione os próximos arquivos e clique em “Salvar selecionados” de novo. O Pro ($19.99, compra única, até 3 dispositivos) remove o limite por download."
             },
             {
               "q": "Minha sessão expirou durante a varredura. E agora?",
@@ -16247,8 +16247,8 @@
           "steps": [
             "像平常一样登录门户，打开列有您有权访问的文件的页面。",
             "点击Grab All Files图标后点击“扫描”。如需包含起始页面文件夹内链接到的页面，请提高“深度”；这些页面会以当前登录状态打开。",
-            "筛选并勾选需要的文件，然后点击“下载”，或在“其他操作”中使用ZIP、“合并PDF”或“导出文件信息CSV”。免费版每次下载最多保存10个文件。",
-            "下一批请选择接下来的文件，再次点击“下载”。标有“需要登录”的行表示会话已结束：请重新登录后重试。"
+            "筛选并勾选需要的文件，然后点击“保存所选文件”，或在“其他操作”中使用ZIP、“合并PDF”或“导出文件信息CSV”。免费版每次下载最多保存10个文件。",
+            "下一批请选择接下来的文件，再次点击“保存所选文件”。标有“需要登录”的行表示会话已结束：请重新登录后重试。"
           ],
           "faq": [
             {
@@ -16265,7 +16265,7 @@
             },
             {
               "q": "免费版最多能下载多少个文件？",
-              "a": "免费版的下载、ZIP和合并每次操作最多处理10个选中的文件。要继续，请选择接下来的文件并再次点击“下载”。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的数量限制。"
+              "a": "免费版的下载、ZIP和合并每次操作最多处理10个选中的文件。要继续，请选择接下来的文件并再次点击“保存所选文件”。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的数量限制。"
             },
             {
               "q": "扫描过程中会话过期了怎么办？",
@@ -16292,8 +16292,8 @@
           "steps": [
             "像平常一樣登入入口網站，開啟列有您有權存取之檔案的頁面。",
             "點擊Grab All Files圖示後點擊「掃描」。若要包含起始頁面資料夾內連結到的頁面，請提高「深度」；這些頁面會以目前的登入狀態開啟。",
-            "篩選並勾選需要的檔案，然後點擊「下載」，或在「其他操作」中使用ZIP、「合併PDF」或「匯出檔案資訊CSV」。免費版每次下載最多儲存10個檔案。",
-            "下一批請選取接下來的檔案，再次點擊「下載」。標示「需要登入」的列表示工作階段已結束：請重新登入後重試。"
+            "篩選並勾選需要的檔案，然後點擊「儲存所選檔案」，或在「其他操作」中使用ZIP、「合併PDF」或「匯出檔案資訊CSV」。免費版每次下載最多儲存10個檔案。",
+            "下一批請選取接下來的檔案，再次點擊「儲存所選檔案」。標示「需要登入」的列表示工作階段已結束：請重新登入後重試。"
           ],
           "faq": [
             {
@@ -16310,7 +16310,7 @@
             },
             {
               "q": "免費版最多能下載多少個檔案？",
-              "a": "免費版的下載、ZIP和合併每次操作最多處理10個選取的檔案。若要繼續，請選取接下來的檔案並再次點擊「下載」。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的數量限制。"
+              "a": "免費版的下載、ZIP和合併每次操作最多處理10個選取的檔案。若要繼續，請選取接下來的檔案並再次點擊「儲存所選檔案」。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的數量限制。"
             },
             {
               "q": "掃描過程中工作階段過期了怎麼辦？",
