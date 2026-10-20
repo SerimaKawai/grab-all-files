@@ -372,7 +372,7 @@
         "@type": "HowToStep",
         "position": 3,
         "name": "選擇並儲存、封存或合併",
-        "text": "批次下載至您選擇的資料夾（可依檔案類型或網域分類）、封存為ZIP，或將所選PDF合併為一個——全部在瀏覽器本機完成。"
+        "text": "批次下載至您選擇的資料夾（可依檔案類型或網域分類）、封存為ZIP，或將所選PDF合併為一個，全部在瀏覽器本機完成。"
       }
     ],
     "inLanguage": "zh-TW"
@@ -1257,7 +1257,7 @@
           
           
           
-          <div data-lang="zh_TW" class="active"><h2>功能概覽</h2><p>專為需要從大量網頁收集文件的人設計——研究人員、公開資料歸檔人員、內部入口網站使用者、設計師、學生，以及所有厭倦了上百次點選「另存新檔…」的人。</p></div>
+          <div data-lang="zh_TW" class="active"><h2>功能概覽</h2><p>專為需要從大量網頁收集文件的人設計，包括研究人員、公開資料歸檔人員、內部入口網站使用者、設計師、學生，以及所有厭倦了上百次點選「另存新檔…」的人。</p></div>
         </div>
 
 
@@ -1306,14 +1306,14 @@
               <br><a class="spotlight-link" href="/zh_TW/use-cases/save-online-manuals-and-knowledge-pages.html">儲存業務手冊與知識文章 →</a>
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>找出隱藏檔案</h3><p>支援 <strong>708 種檔案類型（副檔名）</strong>。偵測iframe內的PDF、延遲載入圖片、fetch/XHR回應、blob URL、CMS下載路徑、表單隱藏值，以及一般連結擷取工具會忽略的39種data-*屬性。更能深入 Shadow DOM / Web Components、SPA 水合資料（Next.js、JSON-LD）、Cache Storage / OPFS / IndexedDB 以及帶簽章的雲端儲存 URL（Cloudflare R2、Firebase、Supabase、Vercel Blob）。</p></div>
-            <div class="feature-card"><span class="tile">⚙️</span><h3>智慧篩選</h3><p>依副檔名、檔案大小、檔名、頁面標題或修改日期篩選結果。支援排序和手動重新排序，並可將URL複製為純文字。</p></div>
-            <div class="feature-card"><span class="tile">🕸️</span><h3>同站爬取</h3><p>選擇深度（0–5或無限）造訪起始頁所在資料夾下的連結（從網站根目錄開始可涵蓋整站），找出子頁面中的PDF、檢視器URL與CMS文件路徑——每次執行最多100,000頁。還會讀取 sitemap.xml / robots.txt，並跟隨 JavaScript 選單（javascript:/onclick）、框架集、影像地圖與 GET 搜尋/分頁表單中的連結，到達沒有普通 HTML 連結的頁面。</p></div>
+            <div class="feature-card"><span class="tile">⚙️</span><h3>篩選功能</h3><p>依副檔名、檔案大小、檔名、頁面標題或修改日期篩選結果。支援排序和手動重新排序，並可將URL複製為純文字。</p></div>
+            <div class="feature-card"><span class="tile">🕸️</span><h3>同站爬取</h3><p>選擇深度（0–5或無限）造訪起始頁所在資料夾下的連結（從網站根目錄開始可涵蓋整站），找出子頁面中的PDF、檢視器URL與CMS文件路徑，每次執行最多100,000頁。還會讀取 sitemap.xml / robots.txt，並跟隨 JavaScript 選單（javascript:/onclick）、框架集、影像地圖與 GET 搜尋/分頁表單中的連結，到達沒有普通 HTML 連結的頁面。</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>本機PDF合併</h3><p>一鍵將選取的PDF合併為單一檔案。無需上傳、無需伺服器。檔案保留在您的裝置上。</p></div>
-            <div class="feature-card"><span class="tile">🗜️</span><h3>ZIP封存</h3><p>將選取的檔案封存為單一ZIP，方便發送、封存或分享——完全在瀏覽器中產生。</p></div>
+            <div class="feature-card"><span class="tile">🗜️</span><h3>ZIP封存</h3><p>將選取的檔案封存為單一ZIP，方便發送、封存或分享，完全在瀏覽器中產生。</p></div>
             <div class="feature-card"><span class="tile">📊</span><h3>CSV匯出</h3><p>將URL、名稱、大小、類型和標題匯出為CSV，用於文件整理、稽核、資料盤點或後續自動化。</p></div>
             <div class="feature-card"><span class="tile">🔐</span><h3>掃描已授權頁面</h3><p>使用您目前的瀏覽器工作階段，檢查您已獲授權開啟的內網、LMS/入口網站和會員頁面。不收集憑證，也不繞過存取控制。</p></div>
             <div class="feature-card"><span class="tile">🛡️</span><h3>也能處理複雜頁面</h3><p>在您已獲授權存取的頁面內，可處理 JavaScript 渲染的 SPA（React、Next、Nuxt、Vue）、檢視器路徑以及受 CSRF 保護的表單。檔案類型會透過簽章確認，而不只依賴副檔名；也可以掃描舊的 HTTP 網站。</p></div>
-            <div class="feature-card"><span class="tile">⚙️</span><h3>為大量作業而生</h3><p>一次掃描多個網址或爬取整個網站，再控制並行下載數、暫停/繼續、失敗自動重試、依類型或網域歸入子資料夾，並用 PDF 標題重新命名檔案。</p></div>
+            <div class="feature-card"><span class="tile">⚙️</span><h3>適合大量作業</h3><p>一次掃描多個網址或爬取整個網站，再控制並行下載數、暫停/繼續、失敗自動重試、依類型或網域歸入子資料夾，並用 PDF 標題重新命名檔案。</p></div>
           </div>
         </div>
       </div>
@@ -1347,7 +1347,7 @@
         
         <div data-lang="zh_TW" class="active">
           <div class="features-grid">
-            <div class="feature-card"><span class="tile">🔎</span><h3>在複雜或需登入頁面上發現檔案</h3><p>隱藏在 iframe、檢視器、JavaScript、登入和 CMS 路徑之後的 PDF、圖片和文件。Grab All Files 會偵測它們，支援篩選和選擇，然後在本機一鍵批次下載、合併 PDF、產生 ZIP 並匯出 CSV。<strong>這正是 Grab All Files 的專長。</strong></p></div>
+            <div class="feature-card"><span class="tile">🔎</span><h3>在複雜或需登入頁面上發現檔案</h3><p>隱藏在 iframe、檢視器、JavaScript、登入和 CMS 路徑之後的 PDF、圖片和文件。Grab All Files 會偵測它們，支援篩選和選擇，然後在本機一鍵批次下載、合併 PDF、產生 ZIP 並匯出 CSV。</p></div>
             <div class="feature-card"><span class="tile">🚚</span><h3>批次下載已知 URL 或超大檔案</h3><p>對於超大檔案，或需要佇列管理與續傳的長時間無人看管批次任務，專用下載管理器（JDownloader、aria2）更合適。Grab All Files 負責發現檔案並匯出 URL 清單，繁重下載交給它。</p></div>
             <div class="feature-card"><span class="tile">🗺️</span><h3>需要完整、原樣地離線複製整個網站嗎？</h3><p>如果您需要保留原始頁面、連結和結構且可正常瀏覽的複本，請使用 HTTrack 等網站複製工具。Grab All Files 則是將所選頁面中便於閱讀的內容合併成一個附有目錄的 HTML 檔案，並不會建立像素級還原的網站複本。</p></div>
           </div>
@@ -1394,8 +1394,8 @@
           <a href="/zh_TW/use-cases/download-arxiv-pdfs-and-research-files.html"><span data-lang="zh_TW" class="active">arXiv PDF與研究檔案</span></a>
           <a href="/zh_TW/use-cases/web-tables-to-csv-for-excel-ai.html"><span data-lang="zh_TW" class="active">網頁表格轉CSV</span></a>
           <a href="/zh_TW/use-cases/save-and-compare-document-revisions.html"><span data-lang="zh_TW" class="active">儲存並比較修訂前後資料</span></a>
-          <a href="/zh_TW/use-cases/rename-and-organize-bulk-pdf-downloads.html"><span data-lang="zh_TW" class="active">PDF標題儲存與格式整理</span></a>
-          <a href="/zh_TW/use-cases/collect-public-government-documents.html"><span data-lang="zh_TW" class="active">公部門資料集</span></a>
+          <a href="/zh_TW/use-cases/rename-and-organize-bulk-pdf-downloads.html"><span data-lang="zh_TW" class="active">PDF重新命名與整理</span></a>
+          <a href="/zh_TW/use-cases/collect-public-government-documents.html"><span data-lang="zh_TW" class="active">政府公開文件與說明</span></a>
           <a href="/zh_TW/use-cases/save-web-pages-as-markdown.html"><span data-lang="zh_TW" class="active">用Markdown重用Web資料</span></a>
           <a href="/zh_TW/use-cases/save-online-manuals-and-knowledge-pages.html"><span data-lang="zh_TW" class="active">儲存業務手冊與知識文章</span></a>
           <a href="/zh_TW/use-cases/web-pages-for-reading-and-ai-analysis.html"><span data-lang="zh_TW" class="active">收集、閱讀並用 AI 分析</span></a>
@@ -1439,7 +1439,7 @@
         <div data-lang="zh_TW" class="active"><h3 class="workflow-title">檔案批次下載</h3><div class="steps">
           <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/dl-depth.svg" width="240" height="148" alt="" loading="lazy" decoding="async"></span><h3>開啟頁面或貼上URL</h3><p>使用目前分頁，或在彈出視窗中貼上URL。選擇爬取深度：僅此頁面、同站連結1–5層，或無限（每次執行最多100,000頁）。</p></div>
           <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/dl-filter.svg" width="240" height="148" alt="" loading="lazy" decoding="async"></span><h3>擴充功能列出所有可偵測檔案</h3><p>結果顯示檔案名稱、類型、大小、頁面標題與來源URL。儲存前可篩選、排序、搜尋和調整順序。</p></div>
-          <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/dl-outputs.svg" width="240" height="148" alt="" loading="lazy" decoding="async"></span><h3>選擇並儲存、封存或合併</h3><p>批次下載至您選擇的資料夾（可依檔案類型或網域分類）、封存為ZIP，或將所選PDF合併為一個——全部在瀏覽器本機完成。</p></div>
+          <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/dl-outputs.svg" width="240" height="148" alt="" loading="lazy" decoding="async"></span><h3>選擇並儲存、封存或合併</h3><p>批次下載至您選擇的資料夾（可依檔案類型或網域分類）、封存為ZIP，或將所選PDF合併為一個，全部在瀏覽器本機完成。</p></div>
         </div><h3 class="workflow-title">將網頁合併為 HTML</h3><div class="steps">
           <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/source-web-page.svg" width="240" height="84" alt="" loading="lazy" decoding="async"></span><h3>開啟起始頁並選擇頁面收集</h3><p>切換到「將網頁合併為 HTML」，然後使用自動尋找，或透過選單、路徑、網站地圖與貼上的URL清單詳細指定頁面。</p></div>
           <div class="step"><div class="step-num"></div><span class="art-frame step-art"><img src="/assets/illustrations/scope-linked-pages.svg" width="240" height="84" alt="" loading="lazy" decoding="async"></span><h3>依方案選擇頁面</h3><p>免費版始終只選擇1個候選頁面；Pro可選擇並排序多個候選。然後選擇圖片與直接連結檔案的選項。</p></div>
@@ -1488,7 +1488,7 @@
           
           
           
-          <div data-lang="zh_TW" class="active"><h2>一個價格。一次購買。永久使用。</h2></div>
+          <div data-lang="zh_TW" class="active"><h2>一次購買，永久使用。</h2></div>
         </div>
 
         <div class="pricing-split">
