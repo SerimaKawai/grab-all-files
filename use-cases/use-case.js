@@ -621,53 +621,53 @@
       ],
       "cta": {
         "en": {
-          "title": "Keep pages exactly as they looked.",
+          "title": "Keep a page’s look in a saved file.",
           "text": "Free keeps one page per run with its original design, as one offline HTML file. Pro ($19.99, one-time) combines the pages you choose, each in its own design, with a table of contents and search. Pages are collected in your browser and saved on your device."
         },
         "ja": {
-          "title": "見えていたとおりに、ページを残す。",
+          "title": "ページの見た目を残して保存する。",
           "text": "無料版は1回1ページを、元のデザインのまま1つのオフラインHTMLに保存できます。Pro（$19.99・買い切り）は選んだページを、それぞれのデザインのまま、目次と検索つきで1つにまとめます。ページはブラウザで集めて、端末に保存します。"
         },
         "es": {
-          "title": "Conserva las páginas tal como se veían.",
+          "title": "Guarda las páginas con su aspecto original.",
           "text": "El plan gratuito guarda una página por ejecución con su diseño original, en un archivo HTML sin conexión. Pro ($19.99, pago único) combina las páginas que elijas, cada una con su diseño, con un índice y búsqueda. Las páginas se recopilan en tu navegador y se guardan en tu dispositivo."
         },
         "fr": {
-          "title": "Gardez les pages exactement telles qu’elles étaient.",
+          "title": "Gardez les pages avec leur apparence d’origine.",
           "text": "La version gratuite enregistre une page par exécution avec son design d’origine, dans un fichier HTML hors ligne. Pro (19,99 $, paiement unique) regroupe les pages que vous choisissez, chacune avec son design, avec une table des matières et une recherche. Les pages sont collectées dans votre navigateur et enregistrées sur votre appareil."
         },
         "de": {
-          "title": "Seiten genau so aufbewahren, wie sie aussahen.",
+          "title": "Seiten mit ihrem ursprünglichen Aussehen aufbewahren.",
           "text": "Die kostenlose Version speichert pro Durchlauf eine Seite im Originaldesign als HTML-Datei für offline. Pro (19,99 $, einmalig) bündelt die von Ihnen gewählten Seiten, jede in ihrem Design, mit Inhaltsverzeichnis und Suche. Die Seiten werden in Ihrem Browser gesammelt und auf Ihrem Gerät gespeichert."
         },
         "it": {
-          "title": "Conserva le pagine esattamente come apparivano.",
+          "title": "Conserva le pagine con il loro aspetto originale.",
           "text": "Il piano gratuito salva una pagina per esecuzione con il suo design originale, in un file HTML offline. Pro ($19.99, pagamento unico) unisce le pagine che scegli, ciascuna con il proprio design, con un indice e la ricerca. Le pagine vengono raccolte nel tuo browser e salvate sul tuo dispositivo."
         },
         "ko": {
-          "title": "보이던 그대로 페이지를 보관하세요.",
+          "title": "페이지의 원래 모습을 살려 보관하세요.",
           "text": "무료 플랜은 1회 실행에 한 페이지를 원래 디자인 그대로 오프라인 HTML 파일 하나로 저장합니다. Pro($19.99, 1회 결제)는 선택한 페이지를 각각의 디자인을 유지한 채 목차와 검색이 있는 파일로 합칩니다. 페이지는 브라우저에서 수집되어 기기에 저장됩니다."
         },
         "pt_BR": {
-          "title": "Guarde as páginas exatamente como eram.",
+          "title": "Guarde as páginas com a aparência original.",
           "text": "O plano gratuito salva uma página por execução com o design original, em um arquivo HTML offline. O Pro ($19.99, pagamento único) combina as páginas que você escolher, cada uma com o próprio design, com sumário e busca. As páginas são coletadas no seu navegador e salvas no seu dispositivo."
         },
         "zh_CN": {
-          "title": "让网页保持它原本的样子。",
+          "title": "保存网页，保留原来的外观。",
           "text": "免费版每次运行保存一个保留原有设计的网页,生成一个可离线打开的 HTML 文件。Pro($19.99,一次性付费)可合并您选择的网页,每个网页保留各自的设计,并提供目录和搜索。网页在您的浏览器中收集,并保存到您的设备。"
         },
         "zh_TW": {
-          "title": "讓網頁保持它原本的樣子。",
+          "title": "保存網頁，保留原來的外觀。",
           "text": "免費版每次執行儲存一個保留原有設計的網頁,產生一個可離線開啟的 HTML 檔案。Pro($19.99,一次性付費)可合併您選擇的網頁,每個網頁保留各自的設計,並提供目錄與搜尋。網頁在您的瀏覽器中收集,並儲存到您的裝置。"
         }
       },
       "copy": {
         "en": {
-          "title": "Save web pages with their original design as one HTML file | Grab All Files",
-          "desc": "Save one page, or many combined, with the original layout, fonts and images in a single offline HTML file. Scripts are removed; nothing is uploaded.",
+          "title": "Save web pages as HTML with their original design | Grab All Files",
+          "desc": "Choose “Keep the original look” to save a page as one HTML file using the site’s styles, images and fonts. Free saves one page; combining several is Pro. Includes a before/after sample.",
           "eyebrow": "Keep the original look",
-          "h1": "Save pages exactly as they look, in one HTML file.",
-          "lead": "Choose “Keep the original look” and Grab All Files saves each page with its own stylesheets, fonts and images: the layout, colors and typography you saw in the browser, in one self-contained HTML file. Combine many pages from a website or from a folder on your computer, and each page keeps its own design inside its own frame, with a table of contents and search across all of them. Scripts are taken out, so the file opens offline without tracking or pop-ups.",
+          "h1": "Keep a page’s layout and colors in a saved HTML file.",
+          "lead": "Choose “Keep the original look” to create HTML that uses the site’s styles, images and fonts. Results depend on how the page is built and which resources could be fetched. Free saves one page; combining several pages is Pro. Compare a real source page with its saved file to see what is kept and where the limits are.",
           "best": [
             "Keeping a record of how a website looked before a redesign, a migration or the site closing down.",
             "Archiving pages with the date and address they were captured from, for evidence, compliance or audit records.",
@@ -843,11 +843,11 @@
           }
         },
         "ja": {
-          "title": "Webページを見た目そのまま1つのHTMLに保存 | Grab All Files",
-          "desc": "Webページやパソコン内のHTMLを、元のレイアウト・フォント・画像のまま1つのHTMLファイルに保存。複数ページをまとめてもデザインが崩れず、目次と検索付き。スクリプトは除去し、アップロードもしません。",
+          "title": "Webページのデザインを残してHTML保存 | Grab All Files",
+          "desc": "「元の見た目のまま」を選ぶと、サイトのスタイル・画像・フォントを使った1つのHTMLに保存します。無料版は1ページ、複数ページの結合はPro。元ページと保存後の比較サンプルつき。",
           "eyebrow": "元の見た目のまま",
-          "h1": "見たままのデザインで、ページを1つのHTMLに保存。",
-          "lead": "「元の見た目のまま」を選ぶと、Grab All Files は各ページを、そのサイトのスタイルシート・フォント・画像ごと保存します。ブラウザで見ていたレイアウト・配色・文字組みのまま、1つのファイルに入ります。Webサイトやパソコンのフォルダから複数ページをまとめても、ページごとに独立した枠に入るのでデザインがぶつからず、目次と全ページ横断の検索で行き来できます。スクリプトは取り除くため、オフラインで開けて、追跡やポップアップもありません。",
+          "h1": "サイトのレイアウトや配色を残して、ページを保存。",
+          "lead": "「元の見た目のまま」を選び、サイトのスタイル・画像・フォントを使ったHTMLを作成します。再現結果はページの作りや取得できた素材によって変わります。無料版は1ページ、複数ページの結合はProです。実際の元ページと保存ファイルを比較して、残るものと制限を確認できます。",
           "best": [
             "リニューアル・システム移行・サイト閉鎖の前に、今のサイトの見た目を残しておきたい。",
             "取得元のアドレスと取得日時つきでページを残し、証拠・コンプライアンス・監査の記録にしたい。",
@@ -11007,16 +11007,16 @@
       "path": "save-web-pages-as-markdown.html",
       "related": [
         "web-pages-for-reading-and-ai-analysis",
-        "save-online-manuals-and-knowledge-pages",
-        "collect-public-government-documents"
+        "web-tables-to-csv-for-excel-ai",
+        "save-online-manuals-and-knowledge-pages"
       ],
       "copy": {
         "en": {
-          "title": "Save web sources as reusable Markdown | Grab All Files",
-          "desc": "Export collected web text as one Markdown file, per-page notes or a full package, with sources kept for research, writing and reuse in notes or AI.",
+          "title": "Save web pages as Markdown with source links | Grab All Files",
+          "desc": "Export a web page’s headings, text, lists and tables to Markdown, keeping the source URL and retrieval time. Free covers one page; several pages is Pro. Includes a real saved .md file.",
           "eyebrow": "Web sources as Markdown",
-          "h1": "Turn web sources into notes you can reuse.",
-          "lead": "Keep collected headings, text, lists, supported HTML tables and ordinary links in Markdown, with sources and capture dates. Choose one reading file or separate page notes, then reuse the saved material in research, writing or a tool you choose.",
+          "h1": "Turn web content into Markdown notes with sources.",
+          "lead": "Export headings, text, lists and supported tables to Markdown, keeping the source URL and retrieval time. Choose one file or a note per page, then use it yourself in an editor or an AI tool of your choice. Free covers one page; collecting several pages is Pro.",
           "best": [
             "Build source-linked research notes from related articles.",
             "Keep reference text beside your writing or manual notes.",
@@ -11112,11 +11112,11 @@
           }
         },
         "ja": {
-          "title": "Web資料を出典付きMarkdownで保存・再利用 | Grab All Files",
-          "desc": "Web本文を1つのMarkdown、ページ別、フルパッケージで保存。出典を残し、ノート・調査・執筆・外部AIへ手動で再利用する手順を紹介します。",
+          "title": "Webページを出典付きMarkdownで保存 | Grab All Files",
+          "desc": "Webページの見出し・本文・箇条書き・表をMarkdownに書き出し、出典URLと取得日時を残します。無料版は1ページ、複数ページはPro。実際に保存した.mdファイルのサンプルつき。",
           "eyebrow": "Web資料をMarkdownで再利用",
-          "h1": "Web資料を、使い回せるMarkdownノートに。",
-          "lead": "集めた見出し・本文・箇条書き・対応するHTML表・通常のリンクを、出典と取得日時付きのMarkdownへ。1つの読み物にもページ別のノートにもでき、調査・執筆や選んだツールで資料を活用できます。",
+          "h1": "Webの本文を、出典が分かるMarkdownノートに。",
+          "lead": "見出し・本文・箇条書き・対応する表をMarkdownへ書き出し、出典URLと取得日時を残します。1ファイルやページ別ノートを選び、エディターや対応する外部AIで自分で活用できます。無料版は1ページ、複数ページの収集はProです。",
           "best": [
             "関連記事を、出典付きの調査ノートとして整理する。",
             "執筆中の原稿や手動ノートの横に、根拠となる本文を置く。",
@@ -12016,17 +12016,17 @@
     "save-online-manuals-and-knowledge-pages": {
       "path": "save-online-manuals-and-knowledge-pages.html",
       "related": [
-        "web-pages-for-reading-and-ai-analysis",
+        "combine-web-pages-into-one-html",
         "internal-portal-downloads",
-        "combine-web-pages-into-one-html"
+        "save-web-pages-as-markdown"
       ],
       "copy": {
         "en": {
-          "title": "Save work manuals & knowledge pages together | Grab All Files",
-          "desc": "Save the online manuals and knowledge articles you may use as one readable reference, with chapters, embedded PDFs and sources kept together.",
+          "title": "Save online manuals with contents and search | Grab All Files",
+          "desc": "Pick the chapters you need from an online manual, set the reading order, and save them as HTML you can browse with contents and search. Free saves one page; several pages is Pro. Real sample included.",
           "eyebrow": "Save manuals & knowledge pages",
-          "h1": "Turn work manuals and knowledge pages into a useful reference.",
-          "lead": "Keep the chapters and articles you need together, find a procedure with the table of contents or text search, and keep original PDFs beside their explanation pages. Use material you are permitted to view and save. Free saves one selected page; Pro combines multiple page bodies.",
+          "h1": "Keep a multi-chapter manual easy to read and search.",
+          "lead": "Choose only the chapters you need, set the reading order and save them. Read the HTML text with the table of contents and search; keep PDF files separately with the file download. Free saves one selected page; combining several pages is a Pro feature.",
           "best": [
             "Read application procedures, required-document guidance and operating instructions together.",
             "Organize the explanatory page and original PDF as related materials.",
@@ -12125,11 +12125,11 @@
           }
         },
         "ja": {
-          "title": "業務マニュアル・ナレッジをまとめて保存 | Grab All Files",
-          "desc": "閲覧・保存が許可された業務マニュアルやナレッジを資料集に。章別HTML・埋め込みPDF・階層メニューの記事を整理し、読み返す手順と外部AIへの依頼例を紹介します。",
+          "title": "オンラインマニュアルを目次・検索付きで保存 | Grab All Files",
+          "desc": "章に分かれたオンラインマニュアルから必要な章を選び、読む順番を整えて、目次と検索で探せるHTMLに保存します。無料版は1ページ、複数ページはPro。保存した実物のサンプルつき。",
           "eyebrow": "業務マニュアル・ナレッジを保存",
-          "h1": "業務マニュアルを、読み返せる資料集に。",
-          "lead": "必要な章や記事をまとめて読み、目次や本文検索から手順を探す。説明ページとPDF本体を併せて管理する。閲覧・保存が許可された資料を、繰り返し参照できる形に整理できます。無料版は選んだ1ページ、Proは複数ページの本文をまとめられます。",
+          "h1": "章に分かれたマニュアルを、探しやすい資料集に。",
+          "lead": "必要な章だけを選び、読む順番を整えて保存します。HTML本文は目次と検索で参照し、PDF本体は対応する保存方法で別に管理できます。無料版は選んだ1ページ、複数ページをまとめる機能はProです。",
           "best": [
             "申請手順・必要書類の案内・操作マニュアルをまとめて読み返す。",
             "説明ページとPDF本体を関連する資料として整理する。",
@@ -14015,9 +14015,9 @@
     "combine-web-pages-into-one-html": {
       "path": "combine-web-pages-into-one-html.html",
       "related": [
-        "combine-local-html-files-into-one",
+        "save-online-manuals-and-knowledge-pages",
         "save-web-pages-with-original-design",
-        "download-files-from-webpage"
+        "combine-local-html-files-into-one"
       ],
       "cta": {
         "en": {
@@ -14063,11 +14063,11 @@
       },
       "copy": {
         "en": {
-          "title": "Combine multiple web pages into one HTML file | Grab All Files",
-          "desc": "Combine related web pages into one searchable, printable HTML with a shared table of contents. Free saves one chosen page per run; Pro combines many.",
+          "title": "Combine web pages into one searchable HTML file | Grab All Files",
+          "desc": "Choose related web pages, put them in order, and combine them into one HTML file with a table of contents and text search. Free saves one page; combining several is Pro. See a real saved file.",
           "eyebrow": "Web-page HTML collection",
-          "h1": "Free saves 1 page. Pro combines multiple pages into one searchable HTML.",
-          "lead": "Start from the page open in your browser. Free lists related candidates and keeps exactly one selected for HTML saving. Pro lets you select and order multiple candidates, then combines their readable page bodies into one HTML with a shared table of contents.",
+          "h1": "Turn related web pages into one HTML file with contents and search.",
+          "lead": "Check the pages you need, put them in order, and combine them into one HTML file you can read back with a table of contents and text search. Free saves one selected page; combining several pages is a Pro feature.",
           "best": [
             "Research, documentation, manuals, and reference sites spread across many pages.",
             "Saving related articles or public information as one portable offline document.",
@@ -14108,11 +14108,11 @@
           ]
         },
         "ja": {
-          "title": "複数のWebページを1つのHTMLにまとめる | Grab All Files",
-          "desc": "無料版は関連候補を探して選んだ1ページをHTML保存。Proは複数ページ本文を共通目次付きで検索・印刷できる1つのHTMLに結合します。処理は端末内で完結します。",
+          "title": "複数のWebページを目次・検索付きの1つのHTMLに | Grab All Files",
+          "desc": "関連するWebページを選び、順番を整えて、目次と本文検索つきの1つのHTMLにまとめます。無料版は1ページ、複数ページの結合はPro。保存したHTMLの実物サンプルも見られます。",
           "eyebrow": "WebページHTML収集",
-          "h1": "無料は1ページ保存。Proは複数ページを1つのHTMLに。",
-          "lead": "ブラウザで開いているページを起点に関連候補を探索。無料版は常に1ページだけ選択してHTML保存し、Proは複数候補を選択・並べ替えて共通目次付きの1つのHTMLに結合します。",
+          "h1": "関連するWebページを、目次と検索で読める1つのHTMLに。",
+          "lead": "必要なページを確認し、順番を整えて、目次と本文検索で読み返せるHTMLにまとめます。無料版は選んだ1ページを保存でき、複数ページの結合はProの機能です。",
           "best": [
             "複数ページに分かれた調査資料、マニュアル、ドキュメント、参考サイト。",
             "関連記事や公開情報を、持ち運べる1つのオフライン資料として保存。",
@@ -14517,17 +14517,17 @@
     "download-all-pdfs": {
       "path": "download-all-pdfs.html",
       "related": [
-        "merge-pdfs-locally",
         "download-files-from-webpage",
-        "internal-portal-downloads"
+        "rename-and-organize-bulk-pdf-downloads",
+        "merge-pdfs-locally"
       ],
       "copy": {
         "en": {
-          "title": "Download all PDFs from a website | Grab All Files",
-          "desc": "Download linked PDFs from a page or its folder in Chrome, Edge or Firefox. Filter the results, save 10 files per download for free, or merge PDFs locally.",
+          "title": "Select and download PDFs from a web page | Grab All Files",
+          "desc": "Scan a web page, list its PDFs, and save the ones you choose together. Free saves up to 10 files per download. Chrome, Edge and Firefox. See a real saved PDF set.",
           "eyebrow": "PDF collection",
-          "h1": "Download all PDFs from a website without opening each file.",
-          "lead": "Grab All Files finds PDFs exposed as normal links, embedded viewers, iframe sources, lazy-loaded assets, fetch/XHR responses, and CMS download routes. Filter to PDF, select what you need, then download or merge locally in your browser.",
+          "h1": "Select the PDFs you need and save them together.",
+          "lead": "Scan a web page to list its PDFs, check each title, URL and source page, and save only the ones you need. Free saves up to 10 files per download; select the next PDFs and save again to continue. What can be found depends on how the page is built and what you have access to.",
           "best": [
             "Public reports, forms, and disclosures spread across multiple pages.",
             "Course materials, papers, and research PDFs on faculty sites.",
@@ -14568,11 +14568,11 @@
           ]
         },
         "ja": {
-          "title": "Webサイト上のPDFを一括ダウンロード | Grab All Files",
-          "desc": "Chrome・Edge・FirefoxでWebサイトのPDFを一括ダウンロード。起点ページのフォルダ配下を巡回し、PDFだけに絞って無料で1回10件まで保存。ZIP保存やローカルPDF結合にも対応。",
+          "title": "Webページ内のPDFを選んで一括ダウンロード | Grab All Files",
+          "desc": "WebページをスキャンしてPDFを一覧にし、必要なものを選んでまとめて保存します。無料版は1回の保存で10件まで。Chrome・Edge・Firefox対応。実際に保存したPDFのサンプルも見られます。",
           "eyebrow": "PDF収集",
-          "h1": "Webサイト上のPDFを、1つずつ開かずに一括ダウンロード。",
-          "lead": "通常リンク、埋め込みPDFビューア、iframe、遅延読み込み、fetch/XHRレスポンス、CMSのダウンロードルートにあるPDFを検出します。PDFで絞り込み、必要なものだけ選び、保存またはブラウザ内で結合できます。",
+          "h1": "Webページ内のPDFを、選んでまとめて保存。",
+          "lead": "WebページをスキャンしてPDFを一覧にし、タイトル・URL・リンク元を確認して必要なものだけ保存します。無料版は1回の保存で10件まで。続きは次のPDFを選んでもう一度保存できます。検出できる範囲はページの作りやアクセス権限によって変わります。",
           "best": [
             "複数ページに分散した公開報告書、申請書、開示資料。",
             "大学・研究機関の講義資料、論文、配布PDF。",
@@ -18690,6 +18690,47 @@
       }).join('') + '</div>' + (collector ? '<p class="option-art-note">' + esc(text.note) + '</p>' : '') + '</section>';
   }
 
+  // 2026-10-20 (search brief, five focus guides, JA/EN): hero CTA pair, real output samples and three nearby
+  // guides with context. Samples live under /samples/<lang>/<set>/ (real files saved by the released extension
+  // from fictional pages under /samples/source/). Guides without an entry here render exactly as before.
+  var GUIDE_SAMPLES = {"download-all-pdfs":{"ja":{"primary":"無料でPDF保存を試す","secondary":"実際に保存したPDFセットを見る","href":"/samples/ja/pdf-set/","note":"無料版：1回の保存で10件まで。見つかる範囲はページの作りとアクセス権限によって変わります。","items":[{"plan":"free","href":"/samples/ja/pdf-set/","title":"架空の町の資料ページから保存したPDF 8件","text":"スキャンで見つかった10件から、種類の絞り込みでPDFだけを選び、1回で保存しました。保存名・件数・作成条件を確認できます。"}]},"en":{"primary":"Try saving PDFs for free","secondary":"See a real saved PDF set","href":"/samples/en/pdf-set/","note":"Free: up to 10 files per download. What can be found depends on the page and your access.","items":[{"plan":"free","href":"/samples/en/pdf-set/","title":"8 PDFs saved from a fictional town documents page","text":"Of the 10 files the scan found, the type filter kept only the PDFs, saved in one run. See the file names, count and settings used."}]},"nearby":{"download-files-from-webpage":{"ja":"PDF以外のファイル（Office・画像・ZIPなど）もまとめて保存したいとき","en":"When you also want Office files, images, ZIPs and other files"},"rename-and-organize-bulk-pdf-downloads":{"ja":"保存したPDFの名前やフォルダを整えたいとき","en":"When you want to tidy the names and folders of saved PDFs"},"merge-pdfs-locally":{"ja":"選んだPDFを1つのPDFにまとめたいとき（通常の保存とは別の操作です）","en":"When you want the chosen PDFs as one PDF (a separate action from saving)"}}},"combine-web-pages-into-one-html":{"ja":{"primary":"無料で1ページ保存を試す","secondary":"無料版で保存した1ページのHTMLを見る","href":"/samples/ja/manual-page/","note":"無料版：1回1ページ。複数ページを1つのHTMLにまとめるのはPro版（$19.99・買い切り）です。","items":[{"plan":"free","href":"/samples/ja/manual-page/","title":"架空の手順書の1章を、1ページのHTMLに保存","text":"無料版で保存した1ページの実物です。表・番号付きの手順・図が保存されています。複数ページを結合したものではありません。"}]},"en":{"primary":"Try saving one page for free","secondary":"See one page saved with Free","href":"/samples/en/manual-page/","note":"Free: one page per run. Combining several pages into one HTML file is Pro ($19.99, one-time).","items":[{"plan":"free","href":"/samples/en/manual-page/","title":"One chapter of a fictional handbook, saved as one HTML page","text":"A real one-page file saved with Free, with its table, numbered steps and figure. It is not a multi-page combination."}]},"nearby":{"save-online-manuals-and-knowledge-pages":{"ja":"章に分かれたマニュアルを、研修や日常の参照用に保存するとき","en":"When you keep a multi-chapter manual for training or daily reference"},"save-web-pages-with-original-design":{"ja":"文字よりも、サイトのレイアウトや配色を残したいとき","en":"When the site’s layout and colours matter more than the text"},"combine-local-html-files-into-one":{"ja":"パソコンに保存済みのHTMLファイルを1つにまとめるとき","en":"When the HTML files are already on your computer"}}},"save-online-manuals-and-knowledge-pages":{"ja":{"primary":"無料で1章の保存を試す","secondary":"無料版で保存した手順書の1章を見る","href":"/samples/ja/manual-page/","note":"無料版：1回1ページ。複数の章を1つにまとめるのはPro版です。PDFの資料はファイルの一括保存で別に保存します。","items":[{"plan":"free","href":"/samples/ja/manual-page/","title":"架空の手順書の第1章を保存したHTML","text":"見出し・表・番号付きの手順・図・次の章へのリンクが、読みやすい形で保存されています。サイトのメニューは「読みやすく整える」で省かれます。"}]},"en":{"primary":"Try saving one chapter for free","secondary":"See one handbook chapter saved with Free","href":"/samples/en/manual-page/","note":"Free: one page per run. Combining several chapters into one file is Pro. PDF documents are saved separately with the file download.","items":[{"plan":"free","href":"/samples/en/manual-page/","title":"Chapter 1 of a fictional handbook, saved as HTML","text":"Headings, the table, numbered steps, the figure and the link to the next chapter are saved in an easy-to-read layout. “Easy to read” leaves out the site menu."}]},"nearby":{"combine-web-pages-into-one-html":{"ja":"マニュアル以外の関連ページも1つのHTMLにまとめるとき","en":"When you combine related pages that are not a manual"},"internal-portal-downloads":{"ja":"ポータルに置かれたPDFやOffice資料を、ファイルのまま保存するとき","en":"When a portal holds PDFs and Office files you want as files"},"save-web-pages-as-markdown":{"ja":"章の本文をMarkdownのノートとして使いたいとき","en":"When you want the chapter text as Markdown notes"}}},"save-web-pages-with-original-design":{"ja":{"primary":"無料で1ページの見た目を保存する","secondary":"元ページと保存後HTMLを見比べる","href":"/samples/ja/original-look/","note":"無料版：1回1ページ。動画・地図・ログインが必要な画面など、動きのある部分は保存後に動かないことがあります。","items":[{"plan":"free","href":"/samples/ja/original-look/","title":"架空のイベントページを「元の見た目のまま」保存","text":"同じ画面幅で撮った元ページと保存後のHTMLを並べています。画像はファイルの中に取り込み、オフラインでも表示できます。"}],"limits":{"h":"残るものと、残らないことがあるもの","keep":["レイアウト・配色・文字の大きさ","画像（「ファイルの中に取り込む」を選んだ場合）","取得できたフォント"],"lose":["元サイトのスクリプトの動き（保存時に取り除かれます）","動画・地図・ログインが必要な画面","フォームの送信や検索など、サーバーとやり取りする機能"]}},"en":{"primary":"Save one page’s look for free","secondary":"Compare the source page and the saved HTML","href":"/samples/en/original-look/","note":"Free: one page per run. Videos, maps, sign-in screens and other interactive parts may not work in the saved file.","items":[{"plan":"free","href":"/samples/en/original-look/","title":"A fictional event page saved with “Keep the original look”","text":"The source page and the saved HTML, shot at the same window width, side by side. The images are stored in the file, so it displays offline."}],"limits":{"h":"What is kept, and what may not be","keep":["Layout, colours and text sizes","Images (when stored in the file)","Fonts that could be fetched"],"lose":["The site’s own scripts (removed when saving)","Videos, maps and screens that need sign-in","Form submission, site search and anything that talks to the server"]}},"nearby":{"combine-web-pages-into-one-html":{"ja":"複数のページを目次・検索つきの1つのHTMLにまとめるとき","en":"When you combine several pages into one file with contents and search"},"combine-local-html-files-into-one":{"ja":"パソコンに保存済みのHTMLファイルを1つにまとめるとき","en":"When the HTML files are already on your computer"},"save-online-manuals-and-knowledge-pages":{"ja":"見た目より、マニュアルを探しやすく読むことが大事なとき","en":"When easy reading and search matter more than the look"}}},"save-web-pages-as-markdown":{"ja":{"primary":"無料で1ページをMarkdownにする","secondary":"実際のMarkdown出力を見る","href":"/samples/ja/markdown-page/","note":"無料版：1回1ページ。AIへ自動で送る機能はありません。どこに貼り付けるかは自分で決めます。","items":[{"plan":"free","href":"/samples/ja/markdown-page/","title":"架空の手順書の第2章を、1つのMarkdownに","text":"保存後の.mdファイルそのものです。先頭に出典URLと取得日時があり、見出し・番号付きの手順・表・前後の章へのリンクがMarkdownになっています。"}]},"en":{"primary":"Turn one page into Markdown for free","secondary":"See real Markdown output","href":"/samples/en/markdown-page/","note":"Free: one page per run. Nothing is sent to an AI automatically; you decide where to paste it.","items":[{"plan":"free","href":"/samples/en/markdown-page/","title":"Chapter 2 of a fictional handbook as one Markdown file","text":"The saved .md file itself: the source URL and retrieval time at the top, then headings, numbered steps, the table and links to the other chapters in Markdown."}]},"nearby":{"web-pages-for-reading-and-ai-analysis":{"ja":"AIに渡す資料を、読む用のHTMLと一緒に準備するとき","en":"When you prepare AI material together with a readable HTML copy"},"web-tables-to-csv-for-excel-ai":{"ja":"ページの表をCSVにして、Excelなどで使うとき","en":"When you want a page’s tables as CSV for Excel and similar tools"},"save-online-manuals-and-knowledge-pages":{"ja":"章立てのマニュアルを、目次・検索つきで保存するとき","en":"When you keep a multi-chapter manual with contents and search"}}}};
+  var GUIDE_SAMPLE_TEXT = {"ja":{"h2":"実際の出力サンプル","intro":"このサイトに置いた架空のページを、リリース版の拡張機能（5.8.20）で実際に保存したファイルです。作成条件と各ファイルのハッシュ値も載せています。","free":"無料版","pro":"Pro版","open":"サンプルを開く","keep":"残るもの","lose":"残らないことがあるもの","nearby":"このガイドと近い用途"},"en":{"h2":"Real output samples","intro":"Files actually saved by the released extension (5.8.20) from fictional pages hosted on this site, with the settings used and each file’s hash.","free":"Free","pro":"Pro","open":"Open the sample","keep":"Kept","lose":"May not be kept","nearby":"Guides for nearby tasks"}};
+
+  function guideSample(current, lang) {
+    var data = GUIDE_SAMPLES[current.id];
+    return data && data[lang] ? data : null;
+  }
+
+  function renderSampleCta(current, lang) {
+    var data = guideSample(current, lang);
+    if (!data) return "";
+    var s = data[lang];
+    return "<p class=\"sample-cta\"><a class=\"btn btn-secondary sample-link\" href=\"" + esc(s.href) + "\">" + esc(s.secondary) + " →</a></p><p class=\"cta-note\">" + esc(s.note) + "</p>";
+  }
+
+  function renderSamples(current, lang) {
+    var data = guideSample(current, lang);
+    if (!data) return "";
+    var s = data[lang], t = GUIDE_SAMPLE_TEXT[lang];
+    var cards = s.items.map(function (item) {
+      return "<a class=\"sample-card plan-" + esc(item.plan) + "\" href=\"" + esc(item.href) + "\"><span class=\"sample-badge\">" + esc(t[item.plan]) + "</span><strong>" + esc(item.title) + "</strong><span>" + esc(item.text) + "</span><span class=\"sample-open\">" + esc(t.open) + " →</span></a>";
+    }).join("");
+    var limits = s.limits ? "<div class=\"sample-limits\"><h3>" + esc(s.limits.h) + "</h3><div class=\"two-col\"><div><p class=\"sample-limits-label\">" + esc(t.keep) + "</p><ul class=\"check-list\">" + renderList(s.limits.keep, "check") + "</ul></div><div><p class=\"sample-limits-label\">" + esc(t.lose) + "</p><ul>" + s.limits.lose.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></div></div></div>" : "";
+    return "<section class=\"section-card guide-samples\" id=\"samples\"><h2>" + esc(t.h2) + "</h2><p>" + esc(t.intro) + "</p><div class=\"sample-grid\">" + cards + "</div>" + limits + "</section>";
+  }
+
+  function renderNearby(current, lang) {
+    var data = guideSample(current, lang);
+    if (!data) return "";
+    var labels = GUIDE_LABELS[lang] || GUIDE_LABELS.en, t = GUIDE_SAMPLE_TEXT[lang];
+    var links = (current.data.related || []).map(function (id) {
+      var item = CASES[id], why = data.nearby[id];
+      if (!item || !why) return "";
+      return "<li><a href=\"" + esc(withLang(item.path, lang)) + "\">" + esc(labels[id] || item.copy.en.h1) + "</a><span>" + esc(why[lang]) + "</span></li>";
+    }).join("");
+    return "<section class=\"section-card guide-nearby\"><h2>" + esc(t.nearby) + "</h2><ul class=\"nearby-list\">" + links + "</ul></section>";
+  }
+
   function renderCaseScreenshot(current, lang) {
     var scene = CASE_SCREENSHOTS[current.id];
     if (!scene) return "";
@@ -18851,12 +18892,13 @@
           "<h1>" + esc(copy.h1) + "</h1>",
           "<p class=\"lead\">" + esc(copy.lead) + "</p>",
           "<div class=\"cta-row\">",
-            "<span class=\"store-cta-label\">" + esc(ui.dlHeading) + "</span>",
+            "<span class=\"store-cta-label\">" + esc(guideSample(current, lang) ? GUIDE_SAMPLES[current.id][lang].primary + ":" : ui.dlHeading) + "</span>",
             "<a class=\"store-btn\" href=\"" + esc(STORE.chrome) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlChrome) + "</a>",
             "<a class=\"store-btn\" href=\"" + esc(STORE.edge) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlEdge) + "</a>",
             "<a class=\"store-btn\" href=\"" + esc(STORE.firefox) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlFirefox) + "</a>",
             "<a class=\"btn btn-secondary\" href=\"" + esc(withLang("../security.html", lang)) + "\">" + esc(ui.security) + "</a>",
           "</div>",
+          renderSampleCta(current, lang),
         "</div>",
         "<aside class=\"product-panel\" aria-label=\"Grab All Files\">",
           "<div class=\"panel-brand\"><img src=\"/favicon-128.png\" alt=\"\" width=\"42\" height=\"42\"><span>Grab All Files</span></div>",
@@ -18876,6 +18918,7 @@
       "<div class=\"section-stack\">",
         renderFeatureVisual(current, lang),
         renderIndustryVisual(copy.industry),
+        renderSamples(current, lang),
         renderCaseScreenshot(current, lang),
         renderOptionArt(current, lang),
         renderArxivGuide(copy.arxiv, "visual", lang),
@@ -18893,6 +18936,7 @@
         renderArxivGuide(copy.arxiv, "access", lang),
         renderManualGuide(copy.manual, "details", lang),
         renderIndustryReference(copy.industry),
+        renderNearby(current, lang),
         "<section class=\"section-card\"><h2>" + esc(ui.faq) + "</h2><div class=\"faq-list\">" + renderFaq(copy.faq) + "</div></section>",
         "<section class=\"section-card usecase-guide-section\"><h2>" + esc(ui.related) + "</h2><div class=\"usecase-guide-links\" aria-label=\"" + esc(ui.related) + "\">" + renderRelated(current, lang) + "</div></section>",
       "</div>",

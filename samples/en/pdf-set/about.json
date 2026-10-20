@@ -1,0 +1,70 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-20",
+  "source": "https://grab-all-files.app/samples/source/en/town-documents/",
+  "settings": [
+    "Link depth: this page only",
+    "File type: PDF only",
+    "Files selected: 8",
+    "Saved to: the browser download folder (GrabAllFiles folder)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Annual report 2025.pdf",
+      "bytes": 65778,
+      "sha256": "7eb4ba8e2f6d82f051305f507f87683cd8394d19b20c5c97571411e6175b8b0f",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Budget summary 2026.pdf",
+      "bytes": 67720,
+      "sha256": "6a772ede8546db237957d451c1de8309a97f0ff09dfd83cdf9a7d760f15a70bc",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, October 2026.pdf",
+      "bytes": 69420,
+      "sha256": "1b7d9ab17421d6f7d1a73530faf7676b5c6585b5951e7e1c7b92fdf6a5728b08",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, September 2026.pdf",
+      "bytes": 70729,
+      "sha256": "1b0cbe8b61f1be1898731cf5d558297b74c29c3562e74a12bfac789c41ead309",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Event permit application form.pdf",
+      "bytes": 69380,
+      "sha256": "84f13647f607c8f06d5b8e4e829550c0885018e0f2073d2709efda00f6f47ed5",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Library user guide.pdf",
+      "bytes": 64640,
+      "sha256": "b1fb63d3e1a736839b3acf4999be7f9317a52e0590ca802acaffa99c98afff0e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Parking permit application form.pdf",
+      "bytes": 70412,
+      "sha256": "784a3f2911a2f578bb68f1929fd241ef3081f27be0bac9984070bf9fbf6c67b3",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Recycling calendar 2026.pdf",
+      "bytes": 67520,
+      "sha256": "3bc27ee1026c9a0196f6f43a7eb80b4e93a3eca09100ac42dc030a987230d231",
+      "mime": "application/pdf"
+    }
+  ]
+}

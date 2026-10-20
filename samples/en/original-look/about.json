@@ -1,0 +1,35 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-20",
+  "source": "https://grab-all-files.app/samples/source/en/night-market/",
+  "settings": [
+    "Pages: the open page",
+    "Look: as the original page",
+    "Images: stored in the file (shows offline)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "Harbor Night Market (fictional).html",
+      "bytes": 53097,
+      "sha256": "93a365bf10a1174bff952db0d940f78e1e8ae56bc03da5ae4b74cc079fe12461",
+      "mime": "text/html"
+    }
+  ],
+  "comparison_screenshots": {
+    "viewport": "1200x900",
+    "files": [
+      "compare-source.png",
+      "compare-saved.png"
+    ],
+    "note": "Screenshots made by the site, not product output."
+  }
+}
