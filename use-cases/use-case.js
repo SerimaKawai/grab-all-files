@@ -678,7 +678,7 @@
             "Open Grab All Files and choose “Combine pages into HTML”. Start from the page open in your browser, let the extension find related pages, or switch the source to “From a computer folder” for a folder or ZIP of HTML files.",
             "Check the pages to include. Under “Look”, choose “Keep the original look”. When you combine several pages from one site, turn on “Leave out the header, menu and footer that repeat on every page (keep the first)”. “Leave out ads” is on from the start for a lighter file; turn it off to keep the ad spaces.",
             "For web pages, allow access to the sites that serve the stylesheets and images when asked. It is asked once for all of them. Each page is opened in a tab and scrolled to the end so that images and content that load on scroll are included.",
-            "Save. Open the HTML: use the table of contents and search to move between pages. Each page shows the address it came from and when it was captured. Turn on “Include the collection details and the list of failures” if you also want the file to list any image or part that could not be kept."
+            "Save. A single saved page is one HTML file that looks like the original. It has no table of contents or search panel, so use your browser’s find (Ctrl+F / ⌘F) inside it; the address it came from and the capture time are recorded in a comment at the top of the HTML. When several pages are combined (Pro), the file adds a table of contents and search, and each page shows its address and capture time. Turn on “Include the collection details and the list of failures” if you also want the file to list any image or part that could not be kept."
           ],
           "faq": [
             {
@@ -699,7 +699,7 @@
             },
             {
               "q": "Is the saved file safe to open and share?",
-              "a": "The file contains no scripts, and it blocks requests to the internet when opened, so it does not load trackers or ads from other sites. Login details found in links are removed. The pages are collected in your own browser and saved on your device; their content is not sent to our servers. Before sharing, check that you are allowed to share the pages you saved."
+              "a": "Scripts from the original site are removed. The only script left is a small Grab All Files helper that makes tabs, panels and carousel arrows work, and the file blocks requests to the internet when opened, so it does not load trackers or ads from other sites. Login details found in links are removed. The pages are collected in your own browser and saved on your device; their content is not sent to our servers. Before sharing, check that you are allowed to share the pages you saved."
             },
             {
               "q": "When should I choose “Easy to read” instead?",
@@ -858,7 +858,7 @@
             "Grab All Files で「ページをHTMLにまとめる」を選びます。ブラウザで開いているページから始めるか、関連ページを探させるか、取得元を「パソコンのフォルダから」に切り替えてHTMLのフォルダやZIPを選びます。",
             "まとめるページを確認し、「見た目」で「元の見た目のまま」を選びます。同じサイトの複数ページをまとめるときは「毎ページ共通のヘッダー・メニュー・フッターは最初のページだけに残す」をオンにします。「広告を省く」は最初からオンで、ファイルが軽くなります。広告枠も残したいときはオフにします。",
             "Webページの場合は、スタイルシートと画像の配信元へのアクセス許可を求められたら許可します（まとめて1回で聞きます）。各ページはタブで開いて最後までスクロールするので、スクロールで読み込まれる画像や続きも入ります。",
-            "保存します。HTMLを開くと、目次と検索でページを行き来できます。各ページには取得元のアドレスと取得日時が出ます。残せなかった画像や部分の一覧もファイルに入れたいときは「取得情報と失敗一覧を入れる」をオンにします。"
+            "保存します。1ページだけを保存したHTMLは、元のページと同じ見た目の1ファイルで、目次や検索の画面は付きません。ページ内の語句はブラウザの検索（Ctrl+F／⌘F）で探せます。取得元のアドレスと取得日時は、HTML冒頭のコメントに記録されます。複数ページをまとめたとき（Pro）は目次と検索が付き、各ページに取得元のアドレスと取得日時が表示されます。残せなかった画像や部分の一覧もファイルに入れたいときは「取得情報と失敗一覧を入れる」をオンにします。"
           ],
           "faq": [
             {
@@ -879,7 +879,7 @@
             },
             {
               "q": "保存したファイルは安全に開けて、人に渡せますか？",
-              "a": "ファイルにはスクリプトが入っておらず、開いたときにインターネットへの通信も止めるので、ほかのサイトの追跡や広告は読み込まれません。リンクに含まれる認証情報も取り除きます。ページはご自身のブラウザで集めて端末に保存し、内容が当方のサーバーに送られることはありません。共有する前に、そのページを共有してよいかはご確認ください。"
+              "a": "元のサイトのスクリプトは取り除きます。残るのは、タブやパネル、スライドの矢印を動かすための Grab All Files の小さな補助スクリプトだけです。開いたときにインターネットへの通信も止めるので、ほかのサイトの追跡や広告は読み込まれません。リンクに含まれる認証情報も取り除きます。ページはご自身のブラウザで集めて端末に保存し、内容が当方のサーバーに送られることはありません。共有する前に、そのページを共有してよいかはご確認ください。"
             },
             {
               "q": "「読みやすく整える」を選ぶのはどんなときですか？",
@@ -1038,7 +1038,7 @@
             "Abre Grab All Files y elige «Combinar páginas en HTML». Empieza desde la página abierta en tu navegador, deja que la extensión busque páginas relacionadas o cambia el origen a «Desde una carpeta del ordenador» para usar una carpeta o un ZIP de archivos HTML.",
             "Revisa las páginas que quieres incluir. En «Aspecto», elige «Mantener el aspecto original». Si combinas varias páginas de un mismo sitio, activa «Mantener solo en la primera página el encabezado, el menú y el pie que se repiten en todas». «Omitir los anuncios» viene activado para que el archivo pese menos; desactívalo si quieres conservar los espacios publicitarios.",
             "Con páginas web, cuando se te pida, permite el acceso a los sitios que sirven las hojas de estilo y las imágenes. Se pregunta una sola vez para todos. Cada página se abre en una pestaña y se desplaza hasta el final para que se incluyan las imágenes y el contenido que se cargan al hacer scroll.",
-            "Guarda. Abre el HTML: usa el índice y la búsqueda para moverte entre páginas. Cada página muestra la dirección de la que procede y cuándo se capturó. Activa «Incluir los datos de la recopilación y la lista de errores» si quieres que el archivo indique también qué imagen o parte no se pudo conservar."
+            "Guarda. Una sola página guardada es un archivo HTML con el mismo aspecto que el original. No incluye índice ni panel de búsqueda, así que usa la búsqueda del navegador (Ctrl+F / ⌘F); la dirección de origen y la hora de captura quedan anotadas en un comentario al principio del HTML. Cuando combinas varias páginas (Pro), el archivo añade índice y búsqueda, y cada página muestra su dirección y la hora de captura. Activa «Incluir los datos de la recopilación y la lista de errores» si quieres que el archivo indique también qué imagen o parte no se pudo conservar."
           ],
           "faq": [
             {
@@ -1059,7 +1059,7 @@
             },
             {
               "q": "¿Es seguro abrir y compartir el archivo guardado?",
-              "a": "El archivo no contiene scripts y bloquea las solicitudes a internet al abrirse, por lo que no carga rastreadores ni anuncios de otros sitios. Los datos de acceso que aparezcan en los enlaces se eliminan. Las páginas se recopilan en tu propio navegador y se guardan en tu dispositivo; su contenido no se envía a nuestros servidores. Antes de compartir, comprueba que tienes permiso para compartir las páginas que has guardado."
+              "a": "Los scripts del sitio original se eliminan. Solo queda un pequeño script auxiliar de Grab All Files que hace funcionar pestañas, paneles y flechas de carrusel, y el archivo bloquea las solicitudes a internet al abrirse, por lo que no carga rastreadores ni anuncios de otros sitios. Los datos de acceso que aparezcan en los enlaces se eliminan. Las páginas se recopilan en tu propio navegador y se guardan en tu dispositivo; su contenido no se envía a nuestros servidores. Antes de compartir, comprueba que tienes permiso para compartir las páginas que has guardado."
             },
             {
               "q": "¿Cuándo debería elegir «Fácil de leer»?",
@@ -1218,7 +1218,7 @@
             "Ouvrez Grab All Files et choisissez « Regrouper les pages en HTML ». Partez de la page ouverte dans votre navigateur, laissez l’extension trouver les pages liées, ou passez la source sur « Depuis un dossier de l’ordinateur » pour un dossier ou un ZIP de fichiers HTML.",
             "Vérifiez les pages à inclure. Sous « Apparence », choisissez « Garder l’apparence d’origine ». Si vous regroupez plusieurs pages d’un même site, activez « Ne garder que sur la première page l’en-tête, le menu et le pied de page répétés sur chaque page ». « Omettre les publicités » est activé d’emblée pour un fichier plus léger ; désactivez-le pour garder les emplacements publicitaires.",
             "Pour les pages web, autorisez l’accès aux sites qui fournissent les feuilles de style et les images lorsque c’est demandé. La demande n’est faite qu’une fois pour tous. Chaque page est ouverte dans un onglet et défilée jusqu’en bas, afin d’inclure les images et le contenu qui se chargent au défilement.",
-            "Enregistrez. Ouvrez le HTML : utilisez la table des matières et la recherche pour passer d’une page à l’autre. Chaque page indique l’adresse d’où elle provient et la date de capture. Activez « Inclure les informations de collecte et la liste des échecs » si vous voulez aussi que le fichier liste les images ou éléments qui n’ont pas pu être conservés."
+            "Enregistrez. Une page enregistrée seule donne un fichier HTML à l’aspect identique à l’original, sans table des matières ni panneau de recherche : utilisez la recherche du navigateur (Ctrl+F / ⌘F). L’adresse d’origine et la date de capture sont notées dans un commentaire en tête du HTML. Quand plusieurs pages sont regroupées (Pro), le fichier ajoute une table des matières et une recherche, et chaque page indique son adresse et sa date de capture. Activez « Inclure les informations de collecte et la liste des échecs » si vous voulez aussi que le fichier liste les images ou éléments qui n’ont pas pu être conservés."
           ],
           "faq": [
             {
@@ -1239,7 +1239,7 @@
             },
             {
               "q": "Le fichier enregistré est-il sûr à ouvrir et à partager ?",
-              "a": "Le fichier ne contient aucun script et bloque les requêtes vers internet à l’ouverture : il ne charge donc ni traqueurs ni publicités venant d’autres sites. Les identifiants présents dans les liens sont supprimés. Les pages sont collectées dans votre propre navigateur et enregistrées sur votre appareil ; leur contenu n’est pas envoyé à nos serveurs. Avant de partager, vérifiez que vous avez le droit de partager les pages enregistrées."
+              "a": "Les scripts du site d’origine sont supprimés. Il ne reste qu’un petit script d’aide de Grab All Files, qui fait fonctionner les onglets, panneaux et flèches de carrousel, et le fichier bloque les requêtes vers internet à l’ouverture : il ne charge donc ni traqueurs ni publicités venant d’autres sites. Les identifiants présents dans les liens sont supprimés. Les pages sont collectées dans votre propre navigateur et enregistrées sur votre appareil ; leur contenu n’est pas envoyé à nos serveurs. Avant de partager, vérifiez que vous avez le droit de partager les pages enregistrées."
             },
             {
               "q": "Quand choisir plutôt « Facile à lire » ?",
@@ -1398,7 +1398,7 @@
             "Öffnen Sie Grab All Files und wählen Sie „Seiten als HTML bündeln“. Starten Sie mit der im Browser geöffneten Seite, lassen Sie die Erweiterung verwandte Seiten finden oder stellen Sie die Quelle auf „Aus einem Ordner auf dem Computer“ um, für einen Ordner oder ein ZIP mit HTML-Dateien.",
             "Prüfen Sie die aufzunehmenden Seiten. Wählen Sie unter „Aussehen“ die Option „Ursprüngliches Aussehen behalten“. Wenn Sie mehrere Seiten derselben Website bündeln, aktivieren Sie „Kopfzeile, Menü und Fußzeile, die sich auf jeder Seite wiederholen, nur auf der ersten Seite behalten“. „Werbung weglassen“ ist von Anfang an aktiviert und macht die Datei kleiner; schalten Sie es aus, um die Werbeflächen zu behalten.",
             "Bei Webseiten erlauben Sie auf Nachfrage den Zugriff auf die Seiten, die Stylesheets und Bilder ausliefern. Die Nachfrage erfolgt nur einmal für alle. Jede Seite wird in einem Tab geöffnet und bis zum Ende gescrollt, damit auch Bilder und Inhalte erfasst werden, die erst beim Scrollen nachladen.",
-            "Speichern Sie. Öffnen Sie die HTML-Datei: Mit Inhaltsverzeichnis und Suche wechseln Sie zwischen den Seiten. Jede Seite zeigt die Adresse, von der sie stammt, und den Zeitpunkt der Erfassung. Aktivieren Sie „Erfassungsangaben und Fehlerliste einfügen“, wenn die Datei auch Bilder oder Teile auflisten soll, die nicht übernommen werden konnten."
+            "Speichern Sie. Eine einzeln gespeicherte Seite ergibt eine HTML-Datei, die wie das Original aussieht. Sie hat weder Inhaltsverzeichnis noch Suchfeld, nutzen Sie also die Suche des Browsers (Strg+F / ⌘F); Herkunftsadresse und Erfassungszeit stehen in einem Kommentar am Anfang der HTML-Datei. Werden mehrere Seiten zusammengeführt (Pro), kommen Inhaltsverzeichnis und Suche hinzu, und jede Seite zeigt ihre Adresse und den Zeitpunkt der Erfassung. Aktivieren Sie „Erfassungsangaben und Fehlerliste einfügen“, wenn die Datei auch Bilder oder Teile auflisten soll, die nicht übernommen werden konnten."
           ],
           "faq": [
             {
@@ -1419,7 +1419,7 @@
             },
             {
               "q": "Ist die gespeicherte Datei sicher zu öffnen und weiterzugeben?",
-              "a": "Die Datei enthält keine Skripte und blockiert beim Öffnen Anfragen ins Internet, sodass keine Tracker oder Werbung von anderen Websites geladen werden. Zugangsdaten, die in Links stehen, werden entfernt. Die Seiten werden in Ihrem eigenen Browser gesammelt und auf Ihrem Gerät gespeichert; ihr Inhalt wird nicht an unsere Server gesendet. Prüfen Sie vor dem Teilen, ob Sie die gespeicherten Seiten weitergeben dürfen."
+              "a": "Skripte der ursprünglichen Website werden entfernt. Übrig bleibt nur ein kleines Hilfsskript von Grab All Files, das Tabs, Panels und Karussellpfeile bedienbar macht. Beim Öffnen blockiert die Datei Anfragen ins Internet, sodass keine Tracker oder Werbung von anderen Websites geladen werden. Zugangsdaten, die in Links stehen, werden entfernt. Die Seiten werden in Ihrem eigenen Browser gesammelt und auf Ihrem Gerät gespeichert; ihr Inhalt wird nicht an unsere Server gesendet. Prüfen Sie vor dem Teilen, ob Sie die gespeicherten Seiten weitergeben dürfen."
             },
             {
               "q": "Wann sollte ich stattdessen „Gut lesbar“ wählen?",
@@ -1578,7 +1578,7 @@
             "Apri Grab All Files e scegli «Unisci pagine in HTML». Parti dalla pagina aperta nel browser, lascia che l’estensione trovi le pagine correlate oppure cambia la fonte in «Da una cartella del computer» per una cartella o uno ZIP di file HTML.",
             "Controlla le pagine da includere. Sotto «Aspetto», scegli «Mantieni l’aspetto originale». Se unisci più pagine dello stesso sito, attiva «Mantieni solo nella prima pagina intestazione, menu e piè di pagina ripetuti su ogni pagina». «Ometti gli annunci» è attivo fin dall’inizio per un file più leggero; disattivalo se vuoi conservare gli spazi pubblicitari.",
             "Per le pagine web, quando richiesto, consenti l’accesso ai siti che forniscono i fogli di stile e le immagini. La richiesta viene fatta una sola volta per tutti. Ogni pagina viene aperta in una scheda e fatta scorrere fino in fondo, così da includere le immagini e i contenuti che si caricano durante lo scorrimento.",
-            "Salva. Apri l’HTML: usa l’indice e la ricerca per spostarti tra le pagine. Ogni pagina mostra l’indirizzo di provenienza e quando è stata acquisita. Attiva «Includi i dati della raccolta e l’elenco degli errori» se vuoi che il file elenchi anche le immagini o le parti che non è stato possibile conservare."
+            "Salva. Una singola pagina salvata è un file HTML con lo stesso aspetto dell’originale, senza indice né pannello di ricerca: usa la ricerca del browser (Ctrl+F / ⌘F). L’indirizzo di provenienza e l’ora di acquisizione sono annotati in un commento all’inizio dell’HTML. Quando unisci più pagine (Pro), il file aggiunge indice e ricerca, e ogni pagina mostra l’indirizzo e l’ora di acquisizione. Attiva «Includi i dati della raccolta e l’elenco degli errori» se vuoi che il file elenchi anche le immagini o le parti che non è stato possibile conservare."
           ],
           "faq": [
             {
@@ -1599,7 +1599,7 @@
             },
             {
               "q": "Il file salvato è sicuro da aprire e condividere?",
-              "a": "Il file non contiene script e blocca le richieste a internet quando viene aperto, quindi non carica tracker né annunci da altri siti. Le credenziali presenti nei link vengono rimosse. Le pagine vengono raccolte nel tuo browser e salvate sul tuo dispositivo; il loro contenuto non viene inviato ai nostri server. Prima di condividere, verifica di avere il permesso di condividere le pagine che hai salvato."
+              "a": "Gli script del sito originale vengono rimossi. Resta solo un piccolo script di supporto di Grab All Files che fa funzionare schede, pannelli e frecce dei caroselli, e il file blocca le richieste a internet quando viene aperto, quindi non carica tracker né annunci da altri siti. Le credenziali presenti nei link vengono rimosse. Le pagine vengono raccolte nel tuo browser e salvate sul tuo dispositivo; il loro contenuto non viene inviato ai nostri server. Prima di condividere, verifica di avere il permesso di condividere le pagine che hai salvato."
             },
             {
               "q": "Quando conviene scegliere invece «Facile da leggere»?",
@@ -1758,7 +1758,7 @@
             "Grab All Files를 열고 “페이지를 HTML로 합치기”를 선택합니다. 브라우저에서 열려 있는 페이지에서 시작하거나, 확장 프로그램이 관련 페이지를 찾게 하거나, 소스를 “컴퓨터 폴더에서”로 바꿔 HTML 파일이 든 폴더나 ZIP을 선택합니다.",
             "포함할 페이지를 확인합니다. “보기”에서 “원래 모양 그대로”를 선택하세요. 같은 사이트의 여러 페이지를 합칠 때는 “모든 페이지에 반복되는 헤더·메뉴·푸터는 첫 페이지에만 남기기”를 켭니다. “광고 제외”는 처음부터 켜져 있어 파일이 가벼워집니다. 광고 영역도 남기려면 끄세요.",
             "웹페이지의 경우 스타일시트와 이미지를 제공하는 사이트에 대한 접근 권한을 요청하면 허용해 주세요. 한 번에 모두 요청합니다. 각 페이지는 탭에서 열려 끝까지 스크롤되므로 스크롤할 때 불러오는 이미지와 콘텐츠도 포함됩니다.",
-            "저장합니다. HTML을 열어 목차와 검색으로 페이지 사이를 이동하세요. 각 페이지에는 가져온 주소와 저장한 시각이 표시됩니다. 보관하지 못한 이미지나 부분의 목록도 파일에 넣으려면 “수집 정보와 실패 목록 넣기”을 켭니다."
+            "저장합니다. 한 페이지만 저장한 HTML은 원래 페이지와 같은 모양의 파일 하나이며, 목차나 검색 화면은 없습니다. 페이지 안의 단어는 브라우저 찾기(Ctrl+F / ⌘F)로 찾으세요. 가져온 주소와 저장한 시각은 HTML 맨 앞의 주석에 기록됩니다. 여러 페이지를 합치면(Pro) 목차와 검색이 붙고, 각 페이지에 가져온 주소와 저장한 시각이 표시됩니다. 보관하지 못한 이미지나 부분의 목록도 파일에 넣으려면 “수집 정보와 실패 목록 넣기”을 켭니다."
           ],
           "faq": [
             {
@@ -1779,7 +1779,7 @@
             },
             {
               "q": "저장한 파일을 열고 공유해도 안전한가요?",
-              "a": "파일에는 스크립트가 없으며 열 때 인터넷으로 나가는 요청도 차단되므로 다른 사이트의 추적기나 광고를 불러오지 않습니다. 링크에 들어 있는 로그인 정보도 제거됩니다. 페이지는 사용자의 브라우저에서 수집되어 기기에 저장되며, 내용이 저희 서버로 전송되지 않습니다. 공유하기 전에 저장한 페이지를 공유해도 되는지 확인하세요."
+              "a": "원래 사이트의 스크립트는 제거됩니다. 탭, 패널, 슬라이드 화살표를 움직이는 Grab All Files의 작은 보조 스크립트만 남으며, 열 때 인터넷으로 나가는 요청도 차단되므로 다른 사이트의 추적기나 광고를 불러오지 않습니다. 링크에 들어 있는 로그인 정보도 제거됩니다. 페이지는 사용자의 브라우저에서 수집되어 기기에 저장되며, 내용이 저희 서버로 전송되지 않습니다. 공유하기 전에 저장한 페이지를 공유해도 되는지 확인하세요."
             },
             {
               "q": "“읽기 쉽게 정리”는 언제 선택하나요?",
@@ -1938,7 +1938,7 @@
             "Abra o Grab All Files e escolha “Juntar páginas em HTML”. Comece pela página aberta no navegador, deixe a extensão encontrar páginas relacionadas ou mude a origem para “De uma pasta do computador” para usar uma pasta ou um ZIP de arquivos HTML.",
             "Confira as páginas que serão incluídas. Em “Aparência”, escolha “Manter a aparência original”. Ao juntar várias páginas do mesmo site, ative “Manter só na primeira página o cabeçalho, o menu e o rodapé repetidos em todas”. “Deixar de fora os anúncios” já vem ativado para um arquivo mais leve; desative se quiser manter os espaços de anúncios.",
             "Para páginas da web, permita o acesso aos sites que fornecem as folhas de estilo e as imagens quando for solicitado. A permissão é pedida uma única vez para todos. Cada página é aberta em uma aba e rolada até o fim, para incluir as imagens e o conteúdo que carregam durante a rolagem.",
-            "Salve. Abra o HTML e use o sumário e a busca para navegar entre as páginas. Cada página mostra o endereço de origem e quando foi capturada. Ative “Incluir os dados da coleta e a lista de falhas” se quiser que o arquivo também liste as imagens ou partes que não puderam ser mantidas."
+            "Salve. Uma única página salva vira um arquivo HTML com a mesma aparência do original, sem sumário nem painel de busca; use a busca do navegador (Ctrl+F / ⌘F). O endereço de origem e o horário da captura ficam anotados em um comentário no início do HTML. Ao unir várias páginas (Pro), o arquivo ganha sumário e busca, e cada página mostra o endereço de origem e quando foi capturada. Ative “Incluir os dados da coleta e a lista de falhas” se quiser que o arquivo também liste as imagens ou partes que não puderam ser mantidas."
           ],
           "faq": [
             {
@@ -1959,7 +1959,7 @@
             },
             {
               "q": "O arquivo salvo é seguro para abrir e compartilhar?",
-              "a": "O arquivo não contém scripts e bloqueia requisições à internet quando é aberto, então não carrega rastreadores nem anúncios de outros sites. Dados de login presentes em links são removidos. As páginas são coletadas no seu próprio navegador e salvas no seu dispositivo; o conteúdo delas não é enviado aos nossos servidores. Antes de compartilhar, confirme que você tem permissão para compartilhar as páginas salvas."
+              "a": "Os scripts do site original são removidos. Fica apenas um pequeno script auxiliar do Grab All Files, que faz abas, painéis e setas de carrossel funcionarem, e o arquivo bloqueia requisições à internet quando é aberto, então não carrega rastreadores nem anúncios de outros sites. Dados de login presentes em links são removidos. As páginas são coletadas no seu próprio navegador e salvas no seu dispositivo; o conteúdo delas não é enviado aos nossos servidores. Antes de compartilhar, confirme que você tem permissão para compartilhar as páginas salvas."
             },
             {
               "q": "Quando devo escolher “Fácil de ler”?",
@@ -2118,7 +2118,7 @@
             "打开 Grab All Files,选择“将网页合并为 HTML”。可以从浏览器当前打开的网页开始，让扩展自动查找相关网页，也可以把来源切换为“从电脑文件夹”，选择包含 HTML 文件的文件夹或 ZIP。",
             "确认要包含的网页。在“外观”中选择“保持原样”。合并同一网站的多个网页时，请开启“每页重复的页眉、菜单和页脚只保留在第一页”。“不保存广告”默认开启，可让文件更小；如需保留广告位，请将其关闭。",
             "对于网页，当系统请求访问提供样式表和图片的网站时，请予以允许。所有网站只会请求一次。每个网页都会在标签页中打开并滚动到底部，这样滚动时才加载的图片和内容也会被包含进来。",
-            "保存。打开 HTML 后，可通过目录和搜索在各网页之间切换。每个网页都会显示来源网址和抓取时间。如果还想在文件中列出未能保留的图片或部分，请开启“包含采集信息和失败列表”。"
+            "保存。只保存1个网页时，得到的是与原网页外观相同的一个 HTML 文件，不带目录和搜索界面；查找文字请使用浏览器的查找功能（Ctrl+F／⌘F）。来源网址和抓取时间记录在 HTML 开头的注释中。合并多个网页时（Pro），文件会带有目录和搜索，每个网页都会显示来源网址和抓取时间。如果还想在文件中列出未能保留的图片或部分，请开启“包含采集信息和失败列表”。"
           ],
           "faq": [
             {
@@ -2139,7 +2139,7 @@
             },
             {
               "q": "保存的文件可以放心打开和分享吗?",
-              "a": "文件不含脚本，并且在打开时会阻止向互联网发出请求，因此不会加载来自其他网站的跟踪器或广告。链接中带有的登录信息会被移除。网页在您自己的浏览器中收集并保存到您的设备，内容不会发送到我们的服务器。分享之前，请确认您有权分享所保存的网页。"
+              "a": "原网站的脚本会被移除，只保留 Grab All Files 用来让标签页、面板和轮播箭头正常工作的一个小型辅助脚本。打开时还会阻止向互联网发出请求，因此不会加载来自其他网站的跟踪器或广告。链接中带有的登录信息会被移除。网页在您自己的浏览器中收集并保存到您的设备，内容不会发送到我们的服务器。分享之前，请确认您有权分享所保存的网页。"
             },
             {
               "q": "什么时候应该改选“整理为易读格式”?",
@@ -2298,7 +2298,7 @@
             "開啟 Grab All Files，選擇「將網頁合併為 HTML」。可以從瀏覽器目前開啟的網頁開始，讓擴充功能自動尋找相關網頁，也可以將來源切換為「從電腦資料夾」，選擇包含 HTML 檔案的資料夾或 ZIP。",
             "確認要納入的網頁。在「外觀」中選擇「保持原樣」。合併同一網站的多個網頁時，請開啟「每頁重複的頁首、選單和頁尾只保留在第一頁」。「不保存廣告」預設為開啟，可讓檔案更小；如需保留廣告版位，請將其關閉。",
             "對於網頁，當系統要求存取提供樣式表與圖片的網站時，請予以允許。所有網站只會詢問一次。每個網頁都會在分頁中開啟並捲動到底部，讓捲動時才載入的圖片與內容也能納入。",
-            "儲存。開啟 HTML 後，可透過目錄與搜尋在各網頁之間切換。每個網頁都會顯示來源網址與擷取時間。如果也想在檔案中列出未能保留的圖片或部分，請開啟「包含擷取資訊與失敗清單」。"
+            "儲存。只儲存1個網頁時，得到的是與原網頁外觀相同的一個 HTML 檔案，不含目錄與搜尋介面；尋找文字請使用瀏覽器的尋找功能（Ctrl+F／⌘F）。來源網址與擷取時間記錄在 HTML 開頭的註解中。合併多個網頁時（Pro），檔案會附有目錄與搜尋，每個網頁都會顯示來源網址與擷取時間。如果也想在檔案中列出未能保留的圖片或部分，請開啟「包含擷取資訊與失敗清單」。"
           ],
           "faq": [
             {
@@ -2319,7 +2319,7 @@
             },
             {
               "q": "儲存的檔案可以放心開啟與分享嗎？",
-              "a": "檔案不含指令碼，且開啟時會封鎖對網際網路的請求，因此不會載入來自其他網站的追蹤器或廣告。連結中帶有的登入資訊會被移除。網頁在您自己的瀏覽器中收集並儲存到您的裝置，內容不會傳送到我們的伺服器。分享之前，請確認您有權分享所儲存的網頁。"
+              "a": "原網站的指令碼會被移除，只保留 Grab All Files 用來讓分頁、面板與輪播箭頭正常運作的一個小型輔助指令碼。開啟時也會封鎖對網際網路的請求，因此不會載入來自其他網站的追蹤器或廣告。連結中帶有的登入資訊會被移除。網頁在您自己的瀏覽器中收集並儲存到您的裝置，內容不會傳送到我們的伺服器。分享之前，請確認您有權分享所儲存的網頁。"
             },
             {
               "q": "什麼時候應該改選「整理為易讀格式」？",
