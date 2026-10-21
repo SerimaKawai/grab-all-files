@@ -1,0 +1,171 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/pt_BR/town-archive/",
+  "settings": [
+    "Profundidade dos links: Apenas esta página",
+    "Tipo de arquivo: somente PDF",
+    "Arquivos selecionados: 24",
+    "Salvo em: a pasta de downloads do navegador (pasta GrabAllFiles)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Ata da Câmara, janeiro de 2025.pdf",
+      "bytes": 80043,
+      "sha256": "ff31d90b2c7c114fb2b6ce91bc375cc7af71dc0e428d420b70f915982b7843ab",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, fevereiro de 2025.pdf",
+      "bytes": 81369,
+      "sha256": "f42335d531b57d3d4ee6b54530e124dbfd5edf54ce1d9a69b15a5df331ed8af8",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, março de 2025.pdf",
+      "bytes": 79781,
+      "sha256": "b0d8b09cd057bc69734ac4c1ccd7fdaaf5852d53fbc81791495816b795282514",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, abril de 2025.pdf",
+      "bytes": 78762,
+      "sha256": "105204e67e92122fd28e3546a812e6194f8b6050007fddb6e034a76c71d7954c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, maio de 2025.pdf",
+      "bytes": 79212,
+      "sha256": "9a9aed23028680ef8ad8387f4ac64dbd2724b794fad10499150da0c7fd5abb8b",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, junho de 2025.pdf",
+      "bytes": 79514,
+      "sha256": "c973939b112761bd3b5e6ecd8353f983d38b649681b6fd79d48510a53af84962",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, julho de 2025.pdf",
+      "bytes": 79191,
+      "sha256": "538584e60f12fb9b78ea0cf5654edec5a22c5e225f77454a30126bd03c22b4fa",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, agosto de 2025.pdf",
+      "bytes": 80329,
+      "sha256": "bb2e2e69ae0313325e4ce9fd840a44cad8fc7e7e7cfa5294f351ad6c73318b22",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, setembro de 2025.pdf",
+      "bytes": 81525,
+      "sha256": "f77c8186c1f55af6f812ba9824ad62a9e8bcb32f6b23292b80537e92cf018cf5",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, outubro de 2025.pdf",
+      "bytes": 80478,
+      "sha256": "a5d141b9d6d5f260a6e65e338a4543def098d9d33e94074472e8ef317ec8104e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, novembro de 2025.pdf",
+      "bytes": 81673,
+      "sha256": "43efdaebdb2ecafcaf3d81b409f28fbee118106caa0a2bd50154fac17c478345",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, dezembro de 2025.pdf",
+      "bytes": 81808,
+      "sha256": "11c267a7c8b5d9031e3598dfbdd2ad3ce1ce2394e5686ce7397796f60796f6c7",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, janeiro de 2026.pdf",
+      "bytes": 80168,
+      "sha256": "ed41a332d92da89beae9829233441110adaf26e73f042a9a79f6495a780be487",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, fevereiro de 2026.pdf",
+      "bytes": 81409,
+      "sha256": "88566590b9252ad6105d4e194ef9e213b40241e1470cc6e30c1ab9404d663023",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, março de 2026.pdf",
+      "bytes": 79831,
+      "sha256": "7918cde5f506db64a9992332f90f106390e9ac091b47e6fa07b7751ff390965b",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, abril de 2026.pdf",
+      "bytes": 78909,
+      "sha256": "77d6e316dcdd90ddf1e4596a260d2d396804a37414b9341228bd1156a0526d18",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, maio de 2026.pdf",
+      "bytes": 79246,
+      "sha256": "34e1f07c34d8a73f96b82b4fe2d497762e356bc842f3b7c6cfd38052cdc17eb9",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, junho de 2026.pdf",
+      "bytes": 79602,
+      "sha256": "6e7713be369f3451c48fad67171db3a80ead49c5bd674ea7441e72bb6d16274d",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, julho de 2026.pdf",
+      "bytes": 79327,
+      "sha256": "8781f617b9876edf86f8c437351add154e5f7f2ccee22925d1822b3f2f50a323",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, agosto de 2026.pdf",
+      "bytes": 80387,
+      "sha256": "505890b39b41a0cf10679a6f9e2b363e02242941fcca6cffe2180f685b31a2c4",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, setembro de 2026.pdf",
+      "bytes": 81555,
+      "sha256": "81bf4d5063fae9f1a187c83cd9b4052d3b60e2f0fad6d77d7cd92b995215c969",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, outubro de 2026.pdf",
+      "bytes": 80625,
+      "sha256": "458ae12b03f4aa8c5c158f5c259bb2d52496128df51feb02111035728821e371",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, novembro de 2026.pdf",
+      "bytes": 81781,
+      "sha256": "890f66608924947315dabd3a192f519c7f725175908db98afaf1661219eb3264",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, dezembro de 2026.pdf",
+      "bytes": 81927,
+      "sha256": "e7c42651281b33e7f74c26b9bb8840298b0134f04582cc0cbcbfb3f804463187",
+      "mime": "application/pdf"
+    }
+  ],
+  "screenshot": {
+    "file": "screen.png",
+    "viewport": "1484x1021",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

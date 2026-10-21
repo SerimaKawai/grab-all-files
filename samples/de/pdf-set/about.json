@@ -1,0 +1,70 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/de/town-documents/",
+  "settings": [
+    "Linktiefe: Nur diese Seite",
+    "Dateityp: nur PDF",
+    "Ausgewählte Dateien: 8",
+    "Gespeichert in: Download-Ordner des Browsers (Ordner GrabAllFiles)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Abfallkalender 2026.pdf",
+      "bytes": 66985,
+      "sha256": "c467deb346721df984d7b4f0b5cc3ad280d20ef8840ed60219e86f4f1c44b725",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Antrag auf Parkausweis.pdf",
+      "bytes": 68071,
+      "sha256": "a8964c72ae540f32b58d56e20a1ba224899d3059aa5f9a1d3733483129f0ef9a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Antrag auf Veranstaltungsgenehmigung.pdf",
+      "bytes": 74559,
+      "sha256": "d552ef1cd9ebd97681fbc34c422fcc0c2b994552c5221086e8aca006e725f6b5",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Benutzungshinweise der Bibliothek.pdf",
+      "bytes": 72364,
+      "sha256": "5e65a0fab94eae98df5e082b4a42893700fb543b15ba26de71fa4a578e70ecd2",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Haushaltsübersicht 2026.pdf",
+      "bytes": 69467,
+      "sha256": "1b703e05e498728e4685f92a6b49e349dead1a6bdecc5fec07888d24ec5907c5",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Jahresbericht 2025.pdf",
+      "bytes": 67282,
+      "sha256": "68e43b0fe202efab6b117aaefe8d162300d08a8f29224402bffc757483289572",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Oktober 2026.pdf",
+      "bytes": 69689,
+      "sha256": "611b6b3a9553d32f84ad0085cb6f8f8ae72c154193ce32489ed0f22d1ef080bc",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll September 2026.pdf",
+      "bytes": 70789,
+      "sha256": "3229a4336eeae32713832a264acd30530f0fea83070d88a444f7e88069539b11",
+      "mime": "application/pdf"
+    }
+  ]
+}

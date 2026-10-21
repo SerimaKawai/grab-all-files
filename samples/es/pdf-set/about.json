@@ -1,0 +1,70 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/es/town-documents/",
+  "settings": [
+    "Profundidad de enlaces: Solo esta página",
+    "Tipo de archivo: solo PDF",
+    "Archivos seleccionados: 8",
+    "Guardado en: la carpeta de descargas del navegador (carpeta GrabAllFiles)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Actas del pleno, octubre de 2026.pdf",
+      "bytes": 70353,
+      "sha256": "fa1c933116454d6e54225007efad2f98d3be48260ba5cce61614ecda501cf4f4",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, septiembre de 2026.pdf",
+      "bytes": 71888,
+      "sha256": "48f1cced7828efc55e10cf14f3bb48ef1b2e7f14982228776c5ba94d6f430a13",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Calendario de reciclaje 2026.pdf",
+      "bytes": 69125,
+      "sha256": "12fbb0b2ce13998a046cb8d938075b156d67396088cb0db1226610fed9ea0404",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Guía del usuario de la biblioteca.pdf",
+      "bytes": 69899,
+      "sha256": "2d19cba4577c7aea941923d0b5ece0514a71d16b73bc7995ff5e3a1a95ebe131",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Informe anual 2025.pdf",
+      "bytes": 66394,
+      "sha256": "c27d74dcaa0ac37c830627eff3097d9ff8f31836cda411d3c65628a0772d5fdc",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Resumen del presupuesto 2026.pdf",
+      "bytes": 70878,
+      "sha256": "48c12c8f61b7f55d90e2363dab500febe6a7c08d878fc45d74d47bd9591cd0dc",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Solicitud de permiso de aparcamiento.pdf",
+      "bytes": 72566,
+      "sha256": "0285f2850c074b78911a87333f9f017b35044d667accd40111aef9186de844cf",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Solicitud de permiso para eventos.pdf",
+      "bytes": 71076,
+      "sha256": "eef49f9f143ee308ab4ead63834aa9d084cc1797e3938817dbdaec7ce2bf84da",
+      "mime": "application/pdf"
+    }
+  ]
+}

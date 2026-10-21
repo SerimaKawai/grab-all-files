@@ -1,0 +1,27 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/fr/bike-share-handbook/chapter-1.html",
+  "settings": [
+    "Pages : Page actuelle uniquement",
+    "Apparence : Facile à lire",
+    "Données pour l’IA : Ne pas générer (par défaut)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "1. Ouvrir une station — Vélos du Port — manuel du personnel (fictif).html",
+      "bytes": 34834,
+      "sha256": "830f0b394357701d8a65f9cd18cad1719376d8a3e351b583a2f5ec4b9243abc8",
+      "mime": "text/html"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/de/town-archive/",
+  "settings": [
+    "Linktiefe: Nur diese Seite",
+    "Dateityp: nur PDF",
+    "Ausgewählte Dateien: 24",
+    "Gespeichert in: Download-Ordner des Browsers (Ordner GrabAllFiles)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Ratsprotokoll Januar 2025.pdf",
+      "bytes": 80338,
+      "sha256": "8ec3d949c9a24577c673941756c180798604df7cc020d544ca58069694ae8a76",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Februar 2025.pdf",
+      "bytes": 80961,
+      "sha256": "a58cf97c4d5053897157755653f671a9e51cb3018503088e51c21b6f7b94c5c1",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll März 2025.pdf",
+      "bytes": 80092,
+      "sha256": "b5e06c0aca103f227848e9929b584544ee0f663085c6f07cdd11eb5976a7348d",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll April 2025.pdf",
+      "bytes": 79407,
+      "sha256": "d41fb60eb01b8d2a9876efbc77db46b10d1dd4e308773ea4dbe4efb4c8c9dcbc",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Mai 2025.pdf",
+      "bytes": 79222,
+      "sha256": "12708b66fecfe03691773925045cd3e867ba080be08f56475598e7fd1626a986",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Juni 2025.pdf",
+      "bytes": 79165,
+      "sha256": "89bcee74e8489c5e7e652fc55f379fad7292ce1dc15d52da167dc54b3a5eef09",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Juli 2025.pdf",
+      "bytes": 78842,
+      "sha256": "5cd9328bd1f128870e6ccb6a42341d38fbc5f4573fdc1b7738136ff9a1690dfe",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll August 2025.pdf",
+      "bytes": 81134,
+      "sha256": "0f0382df8c2dd7eef937068056843782486fbe4afbfa235741e1f0b0396948e9",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll September 2025.pdf",
+      "bytes": 82973,
+      "sha256": "f29d969453e442def5248454f4ececcab91be294e1daf9007cb370f9d17f575e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Oktober 2025.pdf",
+      "bytes": 81420,
+      "sha256": "e7da3b2cd33e7145617a782135822bef8db132241520580067a98c7b46a8fe8f",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll November 2025.pdf",
+      "bytes": 82542,
+      "sha256": "ce08deeaf99c26e967999e489e444214fe31a3c1dd15969dd952ae021e4d7b6d",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Dezember 2025.pdf",
+      "bytes": 82356,
+      "sha256": "88e60a3f86502cdd2cb6f12db5975f81e7fa6fc141bd53c99629535e30cc6f9a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Januar 2026.pdf",
+      "bytes": 80490,
+      "sha256": "6d73e3eebaee0e8de7124934c8abf3bb1083e41fc0fe39ba69ce079732a890af",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Februar 2026.pdf",
+      "bytes": 81011,
+      "sha256": "b59b8ed9218495e04b83e82952578170fdd1318544db0efa65b7e734c716dc82",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll März 2026.pdf",
+      "bytes": 80172,
+      "sha256": "b85e59b5539255f57dd1403a4bb449478f92b2125369bd285557ab7c82da609e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll April 2026.pdf",
+      "bytes": 79561,
+      "sha256": "739783a55d0c9932c054d89e6718854f019dc3ae95311ef0280756141da69522",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Mai 2026.pdf",
+      "bytes": 79290,
+      "sha256": "90c0d9e36f14516dd2063dae57a3e7dca2cceed28d7123f91be7c1489c5fa6f0",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Juni 2026.pdf",
+      "bytes": 79208,
+      "sha256": "e7286994da798d5979d22d4b63529cdd9c674c424417ff3fc5bbaf609f8c80da",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Juli 2026.pdf",
+      "bytes": 78877,
+      "sha256": "3a68aad88adc49b3ef68c0da9854c15b4b669a5ce72d88a52ee72f50f9191748",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll August 2026.pdf",
+      "bytes": 81224,
+      "sha256": "859fbf12d40b0dbcb65f1fa5d4fa5b595d1ded5709cd84bd4ce42f388cd5fff8",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll September 2026.pdf",
+      "bytes": 83093,
+      "sha256": "1ac2f3fe17361e4ca26805ccf887e5b650f4779d85fa30590fe134716e581f09",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Oktober 2026.pdf",
+      "bytes": 81557,
+      "sha256": "7994497b58d39dd348caa12ec08e0570d3e6bebc7f251af0c87ae1bda76b3502",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll November 2026.pdf",
+      "bytes": 82639,
+      "sha256": "b6bcd98e47e73ae66bfc205a4275f018c485eb9d7d338ef8969a9cd386d65fcc",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ratsprotokoll Dezember 2026.pdf",
+      "bytes": 82427,
+      "sha256": "ab56e790626dbbd922b3da7956bbe2f7e5a6f5e1828d5696be1c3df712cad282",
+      "mime": "application/pdf"
+    }
+  ],
+  "screenshot": {
+    "file": "screen.png",
+    "viewport": "1484x1021",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

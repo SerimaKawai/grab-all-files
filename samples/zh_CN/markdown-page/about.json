@@ -1,0 +1,33 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/zh_CN/bike-share-handbook/chapter-2.html",
+  "settings": [
+    "页面范围：仅当前页面",
+    "AI 数据：单个Markdown",
+    "文字：主要正文（默认）"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "2. 处理报修 — 港湾共享单车——员工手册(虚构).html",
+      "bytes": 26752,
+      "sha256": "b7b6284311c92aca884c73ec8aa012b723786dedf06eff072c4e21829606d90b",
+      "mime": "text/html"
+    },
+    {
+      "name": "2. 处理报修 — 港湾共享单车——员工手册(虚构)_AI_20261021.md",
+      "bytes": 1248,
+      "sha256": "afc4c8b40ac035be0c60dcde557a2fc7a1d761f77a4c999cb6d32ebfb514e049",
+      "mime": "text/markdown"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/ko/bike-share-handbook/",
+  "settings": [
+    "페이지: 이 페이지의 링크를 따라가기(4페이지)",
+    "AI용 데이터: 페이지별 Markdown",
+    "텍스트: 주요 본문(기본)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "소개 — 하버 자전거 공유 — 직원 안내서(가상).html",
+      "bytes": 37469,
+      "sha256": "5e2ef7441b4db7702b66de5859616bf515bab7fb672d8e88db2726ec72c047d9",
+      "mime": "text/html"
+    },
+    {
+      "name": "소개 — 하버 자전거 공유 — 직원 안내서(가상)_AI_20261021.zip",
+      "bytes": 8317,
+      "sha256": "385dd849f76c0b48920d56085a54d80420a12256da487de9df417227bb378055",
+      "mime": "application/x-zip-compressed"
+    }
+  ],
+  "profile_name_field": "Cleared before saving: in this language the field’s default text is not recognised as \"no name\" in 5.8.20, so an untouched field would have become the file title."
+}

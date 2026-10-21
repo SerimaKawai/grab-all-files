@@ -1,0 +1,33 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/fr/bike-share-handbook/chapter-2.html",
+  "settings": [
+    "Pages : Page actuelle uniquement",
+    "Données pour l’IA : Un seul Markdown",
+    "Texte : Contenu principal (par défaut)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "2. Traiter un signalement de réparation — Vélos du Port — manuel du personnel (f.html",
+      "bytes": 27022,
+      "sha256": "2d5274b06020ec80f54c015ba6e5bcde439bd1220198eabbd3284930103d2701",
+      "mime": "text/html"
+    },
+    {
+      "name": "2. Traiter un signalement de réparation — Vélos du Port — manuel du personnel (fictif)_AI_20261021.md",
+      "bytes": 1444,
+      "sha256": "2bec2c0ce77baf16fcd0240d9cbe37c76e64551a0152f4a854617b7240d64da5",
+      "mime": "text/markdown"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/fr/town-documents/",
+  "settings": [
+    "Profondeur des liens : Cette page uniquement",
+    "Type de fichier : PDF uniquement",
+    "Fichiers sélectionnés : 8",
+    "Enregistré dans : le dossier de téléchargement du navigateur (dossier GrabAllFiles)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Calendrier du tri et du recyclage 2026.pdf",
+      "bytes": 71771,
+      "sha256": "8562b7c8a2ab27976cb8fa9afc6116ffcfce91cc52fb4b914249180d74d68a1d",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Formulaire de demande de carte de stationnement.pdf",
+      "bytes": 72034,
+      "sha256": "a09b72126239d48efeb29f3a7a7a6145ff661ab1a6b934806eca19f04a3bd158",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Formulaire de demande d’autorisation d’événement.pdf",
+      "bytes": 72093,
+      "sha256": "ebb9fe4dac459bd71208258cbf249c3b0814fc2199e967bedddb1501472bf2e7",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Guide de l’usager de la bibliothèque.pdf",
+      "bytes": 71185,
+      "sha256": "2f5c86b0df6efaed0ffc377e2c5110dd469a2eaa92fb70163fb07998e1f889f3",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, octobre 2026.pdf",
+      "bytes": 72308,
+      "sha256": "bce95b29b08f61f06aee14890d318ef8637daff11bde37798743d3e0d6e4deb0",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, septembre 2026.pdf",
+      "bytes": 71835,
+      "sha256": "eabf831dbc5852067f9c0852ba774b9e6497ff125aeacf104aee3b6a4119ed80",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Rapport annuel 2025.pdf",
+      "bytes": 66914,
+      "sha256": "5897a622914d86afe7d9edd2fc37cbbeabb69e11c07bc0861ac30e3dae75ba35",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Synthèse du budget 2026.pdf",
+      "bytes": 68884,
+      "sha256": "fae881b25ad95d27b134f4a0bd9c73d22fc47257189c8f293b45e9d975c41d32",
+      "mime": "application/pdf"
+    }
+  ]
+}

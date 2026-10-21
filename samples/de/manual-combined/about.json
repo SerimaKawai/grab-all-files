@@ -1,0 +1,33 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/de/bike-share-handbook/",
+  "settings": [
+    "Seiten: Den Links auf dieser Seite folgen (4 Seiten)",
+    "Darstellung: Gut lesbar",
+    "Ausgabe: Mit Inhaltsverzeichnis und Suche (Standard)",
+    "KI-Daten: Nicht erzeugen (Standard)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "Einleitung — Hafenrad – Handbuch für Mitarbeitende (fiktiv).html",
+      "bytes": 37586,
+      "sha256": "f27648811dc42b34ff27937a29b60f31f86823f4fa88abfe9b6f7aff33b2acf3",
+      "mime": "text/html"
+    }
+  ],
+  "screenshot": {
+    "file": "search-result.png",
+    "viewport": "1280x900",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

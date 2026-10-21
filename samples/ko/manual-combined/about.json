@@ -1,0 +1,34 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/ko/bike-share-handbook/",
+  "settings": [
+    "페이지: 이 페이지의 링크를 따라가기(4페이지)",
+    "모양: 읽기 쉽게 정리",
+    "출력: 목차·검색 포함 (기본)",
+    "AI용 데이터: 출력하지 않음(기본)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "소개 — 하버 자전거 공유 — 직원 안내서(가상).html",
+      "bytes": 37469,
+      "sha256": "5e2ef7441b4db7702b66de5859616bf515bab7fb672d8e88db2726ec72c047d9",
+      "mime": "text/html"
+    }
+  ],
+  "profile_name_field": "Cleared before saving: in this language the field’s default text is not recognised as \"no name\" in 5.8.20, so an untouched field would have become the file title.",
+  "screenshot": {
+    "file": "search-result.png",
+    "viewport": "1280x900",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

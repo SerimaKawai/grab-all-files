@@ -1,0 +1,70 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/it/town-documents/",
+  "settings": [
+    "Profondità dei collegamenti: Solo questa pagina",
+    "Tipo di file: solo PDF",
+    "File selezionati: 8",
+    "Salvato in: la cartella dei download del browser (cartella GrabAllFiles)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Calendario della raccolta differenziata 2026.pdf",
+      "bytes": 75526,
+      "sha256": "b42a8c18820664ff6260be622495ef7a1d97e967b2e37401b242a00cd73e2fac",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Guida all’uso della biblioteca.pdf",
+      "bytes": 71304,
+      "sha256": "d016656fe99de08b94415e9366f68fa4e7daae858602662aec0a1c4012162cac",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Modulo di richiesta del permesso di sosta.pdf",
+      "bytes": 74349,
+      "sha256": "7a28b1f95f2ec9c7c498969bcc4df3383caead6c569237dc8a5e3a385f1cea5c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Modulo di richiesta per eventi.pdf",
+      "bytes": 71716,
+      "sha256": "be89c311f674bf11830120c4f552bb1c797fb8000b7697ab5ef8a076525760af",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Relazione annuale 2025.pdf",
+      "bytes": 70398,
+      "sha256": "24b22d5f4f3ffbe689c518d1e3dd8085c3ef210e79dcf17b74798419eaf401b6",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Sintesi del bilancio 2026.pdf",
+      "bytes": 70834,
+      "sha256": "9ae9e978b634a25c753a5110252c856caa8d5d4b69cc05f00c815a041fe3578c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, ottobre 2026.pdf",
+      "bytes": 73355,
+      "sha256": "ab2b5dafc1c14168cbed3f2a50bec5f87c84258ec95d931e58bc81904da9b462",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, settembre 2026.pdf",
+      "bytes": 74198,
+      "sha256": "522d3d7446bd4538004492bc3d73322006e59982eb9d1a01bfbc2c6789c37a48",
+      "mime": "application/pdf"
+    }
+  ]
+}

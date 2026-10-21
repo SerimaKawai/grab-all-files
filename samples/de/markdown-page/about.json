@@ -1,0 +1,33 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/de/bike-share-handbook/chapter-2.html",
+  "settings": [
+    "Seiten: Nur aktuelle Seite",
+    "KI-Daten: Eine Markdown-Datei",
+    "Text: Hauptinhalt (Standard)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "2. Eine Reparaturmeldung bearbeiten — Hafenrad – Handbuch für Mitarbeitende (fik.html",
+      "bytes": 27023,
+      "sha256": "ea7f566caafc23094581e19ecb0f06871f4c05b7a9f94fda82cfd63096345172",
+      "mime": "text/html"
+    },
+    {
+      "name": "2. Eine Reparaturmeldung bearbeiten — Hafenrad – Handbuch für Mitarbeitende (fiktiv)_AI_20261021.md",
+      "bytes": 1457,
+      "sha256": "9eedcd3e0417be809bbbb1919f7a573624408f793a8ffc24cf2c9572385a8778",
+      "mime": "text/markdown"
+    }
+  ]
+}
