@@ -1,0 +1,171 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/ja/town-archive/",
+  "settings": [
+    "リンクをたどる深さ：このページのみ",
+    "ファイルの種類：PDFだけ",
+    "選んだファイル：24件",
+    "保存先：ブラウザのダウンロードフォルダ（GrabAllFiles フォルダ）"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "町議会 議事録（2025年1月）.pdf",
+      "bytes": 77772,
+      "sha256": "73f2c0b62f4c497dfccf7ab8ee50fc1906c81c4256e56d3779763c1b2bccf626",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2025年2月）.pdf",
+      "bytes": 78060,
+      "sha256": "e67f3ca665776ca17f7797b6b89fc6a7628e7d7d78bd11cc7279517a67deb836",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2025年3月）.pdf",
+      "bytes": 78142,
+      "sha256": "61cd8d94b897df403684b5f02b5079a7e4469869efbc90b4ea9e384dd18d6795",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2025年4月）.pdf",
+      "bytes": 77903,
+      "sha256": "95c8b61a102bda396833f9495e466083b52456de3f9ed01051f1662628782922",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2025年5月）.pdf",
+      "bytes": 78179,
+      "sha256": "02400204529927c23b9a9ac140d6a0ffd4600ebf24ec9943d5532973485e5660",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2025年6月）.pdf",
+      "bytes": 78167,
+      "sha256": "3b1ae2f331f84408a232496f39536d1ecda35c1d83904c834c486a4e164b7b1f",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2025年7月）.pdf",
+      "bytes": 77836,
+      "sha256": "59dcea5bbba2bff64454022218606feeca269f8e54278085e0596b9bf068bd82",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2025年8月）.pdf",
+      "bytes": 78244,
+      "sha256": "b75708c045e202b228bd2cce2eb7a234fcb6cc7ae258aa50553c4242569547ad",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2025年9月）.pdf",
+      "bytes": 78167,
+      "sha256": "679e4c4e83d07338415976624e6c734a2465d8e721239348e0e3ef52366c6d0e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2025年10月）.pdf",
+      "bytes": 78686,
+      "sha256": "e5225e43aa58807bc732a746d05e723bf1da606925b414baebf150853c12bb23",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2025年11月）.pdf",
+      "bytes": 78277,
+      "sha256": "c8bd3d306fde71d66dd770dd890ef5497139c03176820f07d2171f4cdc97c6b1",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2025年12月）.pdf",
+      "bytes": 78650,
+      "sha256": "64d4c4757315960bfa27b4803942f4f2b5ec2b1c06cf6378257362f9806e7602",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年1月）.pdf",
+      "bytes": 77792,
+      "sha256": "186d99ea86727a810848695da23832efb835cfad7d3d1d102f75bd3bf2ffda5b",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年2月）.pdf",
+      "bytes": 78096,
+      "sha256": "f67630bee971a76b5d504a9717c7bd855c7c2bcb11238d7ce85f304b38c0d274",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年3月）.pdf",
+      "bytes": 78207,
+      "sha256": "be8b8ae09ab78492a47600aad6d9e662f7ae1edc3fdcd70aaa8a75683b982a14",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年4月）.pdf",
+      "bytes": 77960,
+      "sha256": "87ff38e8d35d4c3518f9349a72f55a12865be60044cb5be2455cee4b9a1a2f03",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年5月）.pdf",
+      "bytes": 78236,
+      "sha256": "13bac579a53d9de89f9b4b49f137c5abf409b2f5f1106fad2cf3c05ece31bd72",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年6月）.pdf",
+      "bytes": 78211,
+      "sha256": "9c2186d66944dc04bb3e30f1f94b4c57533266b54776273ee61d367ad9144d1d",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年7月）.pdf",
+      "bytes": 77868,
+      "sha256": "d6adfb3cbb6d398e0e12d0cb382e50a573df6a00ede483677935bb2e1593d7a9",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年8月）.pdf",
+      "bytes": 78288,
+      "sha256": "b908263420a3a5adecc47a31006fc9439ebc9546ed6dc6bb7bf02570ea2755ed",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年9月）.pdf",
+      "bytes": 78204,
+      "sha256": "231c60a3d2c366ff4680da8ea1579e137cf8055b1c39a62f280432d422b2683b",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年10月）.pdf",
+      "bytes": 78723,
+      "sha256": "e77d3bfe54356d0b430e8bba04e9d92a1d8ee435db605ecbcc1ba5c6185e13e4",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年11月）.pdf",
+      "bytes": 78355,
+      "sha256": "e942ddfc16e822917bad675971b5e0d46531bf5d31c2d306fd7107b12f6bea3e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "町議会 議事録（2026年12月）.pdf",
+      "bytes": 78682,
+      "sha256": "929619cdfa96d34ba6df953fe5b2a7fde08dc002dfc18e7ae4828e664cf5902b",
+      "mime": "application/pdf"
+    }
+  ],
+  "screenshot": {
+    "file": "screen.png",
+    "viewport": "1484x1021",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

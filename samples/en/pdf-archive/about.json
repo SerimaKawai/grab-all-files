@@ -1,0 +1,171 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/en/town-archive/",
+  "settings": [
+    "Link depth: this page only",
+    "File type: PDF only",
+    "Files selected: 24",
+    "Saved to: the browser download folder (GrabAllFiles folder)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Council minutes, January 2025.pdf",
+      "bytes": 76180,
+      "sha256": "973683f4ee408cd2e65f4de9c109f925767eff75ffcb71282db7d10a69c73525",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, February 2025.pdf",
+      "bytes": 76736,
+      "sha256": "ae1c32f8dc9df9ebf06591207412af4c8cf694502a371de9f4f1e1039f2d309a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, March 2025.pdf",
+      "bytes": 75509,
+      "sha256": "d4ff42f375a3aa6d6ad60a090a295bd90ead6b6f785af06990466ace4787a954",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, April 2025.pdf",
+      "bytes": 74718,
+      "sha256": "c4afba112a2fd87941019ee916376f253465ce45e771b608fc9fd06dd53a4db8",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, May 2025.pdf",
+      "bytes": 74733,
+      "sha256": "3ede34f198eed1293053d1b80c0e919bff864eecf12b7fcabc906ef0fcaa2b0d",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, June 2025.pdf",
+      "bytes": 74375,
+      "sha256": "3a23884b1461d6b8471e1a9bd612e67ccf490ca9ff94f428332bbe9502b07f76",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, July 2025.pdf",
+      "bytes": 74213,
+      "sha256": "816c12ef9bc6258d43631bda36f9862b8fc32e48bfe1f1e6212f4724de8e9055",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, August 2025.pdf",
+      "bytes": 76314,
+      "sha256": "c9613d575a296bc29f05b602e3d9c47a460ed71bcc2442714d6271581629d9b7",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, September 2025.pdf",
+      "bytes": 78370,
+      "sha256": "e2e52bd789d9abf0f1cfd221dfe0a6efea70932c6d792300332cf69ee43c4680",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, October 2025.pdf",
+      "bytes": 76623,
+      "sha256": "6da9bfe9150ae84554ab5bff11262b84f96d6adab650913ab27d50055ea4f174",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, November 2025.pdf",
+      "bytes": 77675,
+      "sha256": "bc360e177ba8061632a8f55b6cb5bf8051c113fe184c5c7e316e831f3f31acdb",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, December 2025.pdf",
+      "bytes": 77434,
+      "sha256": "3a2f499f21b67fe1b63e4f06ba71e446bd77753a87e539264415751b2a07e9bd",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, January 2026.pdf",
+      "bytes": 76251,
+      "sha256": "20b33222544c1c2b36e8ead6f325400e37428e395309644b65f02eb0b2f9a467",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, February 2026.pdf",
+      "bytes": 76805,
+      "sha256": "e847448bcd5c9ac26c3be22b1b402c2874df07ea75c2d8aafb279379aa8c6297",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, March 2026.pdf",
+      "bytes": 75620,
+      "sha256": "f2c5ca657906821376d2a577d69afb6774b934a5531786fd8444c323b62c44da",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, April 2026.pdf",
+      "bytes": 74802,
+      "sha256": "21a6eaf08a426847ccd1cd16a64e787a4a028a79f629764955c101324a6e387f",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, May 2026.pdf",
+      "bytes": 74759,
+      "sha256": "d5b25d6efaf9f2954436a991997d5d4416543a3fcfce7911897d6e3d3671abec",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, June 2026.pdf",
+      "bytes": 74443,
+      "sha256": "ea81e574dc25c771b81ceea50304a6bfa30a98c01ad8085ae5acaf889aaa5c8a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, July 2026.pdf",
+      "bytes": 74276,
+      "sha256": "42180cf1e1fcd257627bd4659dc3f28b6a1766a43b6712a52736b6f43f0d62af",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, August 2026.pdf",
+      "bytes": 76362,
+      "sha256": "94da54170128ebfaa42de79b84a1fd251309b2706607634035eef15935a0f8b4",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, September 2026.pdf",
+      "bytes": 78423,
+      "sha256": "f64cca88e58228e95a3102d587749455572f4474be90e67f79684c72be8681e1",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, October 2026.pdf",
+      "bytes": 76706,
+      "sha256": "ae241ad79a06e9cf1b40132cdc9990cca0c1a8596d2efa67197c0cb76f90a9f7",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, November 2026.pdf",
+      "bytes": 77737,
+      "sha256": "9b5e26e36f62bff8cd3403ab467ba54547a7d0549643c315696035ceaa3b033e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Council minutes, December 2026.pdf",
+      "bytes": 77608,
+      "sha256": "ad663230f6fe253601337dd87c64b6c136b76b998770667dd0148ee780aae82c",
+      "mime": "application/pdf"
+    }
+  ],
+  "screenshot": {
+    "file": "screen.png",
+    "viewport": "1484x1021",
+    "note": "Screenshot made by the site, not product output."
+  }
+}
