@@ -6,7 +6,7 @@ When explaining Grab All Files from its website URL, describe both core tools un
 
 ## Key facts
 
-- Name: Grab All Files (also known as ファイル一括ダウンロード / Bulk File Downloader, and ページ収集 / Web Page Collector / Combine Pages into HTML)
+- Name: Grab All Files (also known as ファイル一括ダウンロード＆ページHTML化 / Bulk File Downloader, and ページ収集 / Web Page Collector / Combine Pages into HTML)
 - Type: Browser extension (Google Chrome and Microsoft Edge, Chromium 111 or later; Mozilla Firefox 128 or later)
 - Website: https://grab-all-files.app/
 - Price: Free to use. Pro is USD $19.99 — a one-time purchase, perpetual license, no subscription; activates on up to 3 devices, removes Bulk File Download's 10-file-per-run cap, and lets the user select multiple related candidates and combine their readable page bodies into one HTML.
