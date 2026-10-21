@@ -1,0 +1,70 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/ko/town-documents/",
+  "settings": [
+    "링크 깊이: 이 페이지만",
+    "파일 형식: PDF만",
+    "선택한 파일: 8개",
+    "저장 위치: 브라우저 다운로드 폴더(GrabAllFiles 폴더)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "2025년 연차 보고서.pdf",
+      "bytes": 62875,
+      "sha256": "632b3485f6b395d53cf239e2bb14a89b9e360d959868cd87768811aa66332d7c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "2026년 예산 요약.pdf",
+      "bytes": 62559,
+      "sha256": "bbe81625f7317b08afa85c5213fa09e159c568323489a3a1e4750bddb5d679c5",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "2026년 재활용 배출 일정.pdf",
+      "bytes": 65651,
+      "sha256": "bc3c244530663800da804dec2d6c80b873968e36daf3d9790c6c8a61e7a7f255",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "도서관 이용 안내.pdf",
+      "bytes": 61523,
+      "sha256": "d8f7a323c4a65107d58b30bc85a3da9c65442160387cbd7fbea7026d8596cdd2",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 10월.pdf",
+      "bytes": 65176,
+      "sha256": "6294f650729930156f61eaa9d23a7309029d8c585efe7c09928faac82dd8cafe",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 9월.pdf",
+      "bytes": 64915,
+      "sha256": "ece8cdbb68503d0a1166ae750795f5ff16dd772f06052536441d0fd126ecdd03",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "주차 허가 신청서.pdf",
+      "bytes": 61857,
+      "sha256": "31b4e5fbb99050b7c17924ce24db1f006d8bcff2a3ed7c1a8a288085d1468797",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "행사 허가 신청서.pdf",
+      "bytes": 62133,
+      "sha256": "e2dd465a744a0c98a346c043ba112df117fc5463b1ae598ae641728a964323ad",
+      "mime": "application/pdf"
+    }
+  ]
+}

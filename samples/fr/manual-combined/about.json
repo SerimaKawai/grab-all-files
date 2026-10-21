@@ -1,0 +1,33 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/fr/bike-share-handbook/",
+  "settings": [
+    "Pages : Suivre les liens de cette page (4 pages)",
+    "Apparence : Facile à lire",
+    "Sortie : Avec sommaire et recherche (standard)",
+    "Données pour l’IA : Ne pas générer (par défaut)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "Introduction — Vélos du Port — manuel du personnel (fictif).html",
+      "bytes": 37533,
+      "sha256": "7f215a2313a47a18169ed8a331213268f70f2dd7d2661d8ea5ff263d65a9dceb",
+      "mime": "text/html"
+    }
+  ],
+  "screenshot": {
+    "file": "search-result.png",
+    "viewport": "1280x900",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/fr/town-archive/",
+  "settings": [
+    "Profondeur des liens : Cette page uniquement",
+    "Type de fichier : PDF uniquement",
+    "Fichiers sélectionnés : 24",
+    "Enregistré dans : le dossier de téléchargement du navigateur (dossier GrabAllFiles)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Procès-verbal du conseil, janvier 2025.pdf",
+      "bytes": 81869,
+      "sha256": "c58af68309c253a42b64cd077aae8d3b7df5b9521ebd5cf76410dfde2f5017b3",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, février 2025.pdf",
+      "bytes": 81916,
+      "sha256": "1b92bd5ab93a709f4dcab870e7e00078b2adcfb28cc28c01307b3067d8f668bf",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, mars 2025.pdf",
+      "bytes": 80643,
+      "sha256": "0152a8818351544c3b69320b8ec568807dd36be8a36aa44f25e5cbd86d4e8fef",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, avril 2025.pdf",
+      "bytes": 80446,
+      "sha256": "32a67ca79bcadf321cd0c48ce168347f3542f8aecd647f22a89e7073f989b8b7",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, mai 2025.pdf",
+      "bytes": 80237,
+      "sha256": "0647226478d3b5c55923c66ba84b5e0e01310ddf92cd1916c4377adc88e478a4",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, juin 2025.pdf",
+      "bytes": 80327,
+      "sha256": "5722ef0d242be86e5aa5f648140be4d1a3e9997fd68dfa3c87d9b2ea2910c352",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, juillet 2025.pdf",
+      "bytes": 81414,
+      "sha256": "f52e4351cbba76beb5c48fbcc2c427620bf3fa506cc0eb34a927f2cfa3d1be57",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, août 2025.pdf",
+      "bytes": 80538,
+      "sha256": "90bbe91ccbca8341bf9af9f676e8a38708fa26966ddb76144d5e23e14b1a82b4",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, septembre 2025.pdf",
+      "bytes": 82309,
+      "sha256": "7c33cb3b0a2adb48629ae0568889a356318199891c093917b6d68657c0b1857a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, octobre 2025.pdf",
+      "bytes": 82319,
+      "sha256": "0755eff807ace144d4736ccca64b505821b2d82dc8fbc66d8958aaf11e8746cf",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, novembre 2025.pdf",
+      "bytes": 83423,
+      "sha256": "d9f9b4b54e560656a581f814c2801b44db88eed98aa866e79f2849c78f006f9e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, décembre 2025.pdf",
+      "bytes": 83610,
+      "sha256": "4868509429bd1286312c784aac907141094d63e11b60dac8a0944dd56a8fa465",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, janvier 2026.pdf",
+      "bytes": 81917,
+      "sha256": "bbced7c5b6e5c0ff2d566ff71be1ac0027e6164f059d6562ac448e4803359f2a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, février 2026.pdf",
+      "bytes": 81940,
+      "sha256": "d1a1ad8b6d42419d9dbb7b60550029622f9aed7b3f5cd685a65d9fc8e29df6d0",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, mars 2026.pdf",
+      "bytes": 80818,
+      "sha256": "fd5e4b65e834f1195b730bb2d8933a35e5d863834c9ad3c074ee156f0957c992",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, avril 2026.pdf",
+      "bytes": 80524,
+      "sha256": "52e6be9ba3efc994d63caa099566483bb0105f69e147abddb44a4457d697f48c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, mai 2026.pdf",
+      "bytes": 80308,
+      "sha256": "a9f0a434c6d3e166f4f8b967279839fc4fb027d6df78c9ca33b1443324663a10",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, juin 2026.pdf",
+      "bytes": 80396,
+      "sha256": "028258d8771576f7139722fdbc7e4a685134808e56e4a92a139e5a68f7dffba0",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, juillet 2026.pdf",
+      "bytes": 81509,
+      "sha256": "0759455120f469c6ed01b349a87ee9f9ec8e82b2e4006489f9a4296b2b96016d",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, août 2026.pdf",
+      "bytes": 80725,
+      "sha256": "7b5a1e4092806204dc69c1ca3115ca0e9239e4504ce31fe9bbfcd19c21eb2472",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, septembre 2026.pdf",
+      "bytes": 82434,
+      "sha256": "c0363414cc108a527e66a936bdffd42d25ac740b9007c651027dce29287471b8",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, octobre 2026.pdf",
+      "bytes": 82385,
+      "sha256": "e122721cf985cdf41a111e5a3efc69afdc6c3d99c4ed72fcdadb85f196b1bb98",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, novembre 2026.pdf",
+      "bytes": 83490,
+      "sha256": "a296b1853e5764ca829ecad7571e0678838a68ebfb8ac0351fd351681a169d6e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Procès-verbal du conseil, décembre 2026.pdf",
+      "bytes": 83706,
+      "sha256": "2c62eac7d8cfc6cc2d26720a07fe053dd254f9a957db2a0b4124c49d959463de",
+      "mime": "application/pdf"
+    }
+  ],
+  "screenshot": {
+    "file": "screen.png",
+    "viewport": "1484x1021",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

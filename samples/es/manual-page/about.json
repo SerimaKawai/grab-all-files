@@ -1,0 +1,28 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/es/bike-share-handbook/chapter-1.html",
+  "settings": [
+    "Páginas: solo la página actual",
+    "Aspecto: Fácil de leer",
+    "Datos para IA: No generar (predeterminado)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "1. Abrir una estación — Bici Puerto — manual del personal (ficticio).html",
+      "bytes": 34784,
+      "sha256": "d63b28fdf5800c805d2b3f10b9181fdc3907b358baab3436c0de399eb0100b5e",
+      "mime": "text/html"
+    }
+  ],
+  "profile_name_field": "Cleared before saving: in this language the field’s default text is not recognised as \"no name\" in 5.8.20, so an untouched field would have become the file title."
+}

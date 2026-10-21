@@ -1,0 +1,33 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/it/bike-share-handbook/chapter-2.html",
+  "settings": [
+    "Pagine: solo la pagina corrente",
+    "Dati per l’IA: Un unico Markdown",
+    "Testo: Contenuto principale (predefinito)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "2. Gestione di una segnalazione di guasto — Porto in Bici — manuale del personal.html",
+      "bytes": 26949,
+      "sha256": "a815c227eed5fc4c2a39ad43c50379e6d9b5b459056b3b877bbc1876ad13675e",
+      "mime": "text/html"
+    },
+    {
+      "name": "2. Gestione di una segnalazione di guasto — Porto in Bici — manuale del personale (immaginario)_AI_20261021.md",
+      "bytes": 1387,
+      "sha256": "522e85d30f888774ea8e54048143880cd0ed8f3a7d652e078643068438048f64",
+      "mime": "text/markdown"
+    }
+  ]
+}

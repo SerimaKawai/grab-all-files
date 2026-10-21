@@ -1,0 +1,35 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/fr/night-market/",
+  "settings": [
+    "Pages : Page actuelle uniquement",
+    "Apparence : Garder l’apparence d’origine",
+    "Images : Sauvegarde hors ligne (par défaut)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "Marché de nuit du Port (fictif).html",
+      "bytes": 53521,
+      "sha256": "90c4534175aeb4965f116e2196bb2e48cb7b218df41939decd878f1a479cd255",
+      "mime": "text/html"
+    }
+  ],
+  "comparison_screenshots": {
+    "viewport": "1200x900",
+    "files": [
+      "compare-source.png",
+      "compare-saved.png"
+    ],
+    "note": "Screenshots made by the site, not product output."
+  }
+}

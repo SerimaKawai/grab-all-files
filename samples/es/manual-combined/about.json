@@ -1,0 +1,34 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/es/bike-share-handbook/",
+  "settings": [
+    "Páginas: Seguir los enlaces de esta página (4 páginas)",
+    "Aspecto: Fácil de leer",
+    "Salida: Con índice y búsqueda (estándar)",
+    "Datos para IA: No generar (predeterminado)"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "files": [
+    {
+      "name": "Introducción — Bici Puerto — manual del personal (ficticio).html",
+      "bytes": 37355,
+      "sha256": "480c479ebdfe1f5840af9fddee8bd8bc76ed1408b27eff32495533b1c13e18a4",
+      "mime": "text/html"
+    }
+  ],
+  "profile_name_field": "Cleared before saving: in this language the field’s default text is not recognised as \"no name\" in 5.8.20, so an untouched field would have become the file title.",
+  "screenshot": {
+    "file": "search-result.png",
+    "viewport": "1280x900",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/ko/town-archive/",
+  "settings": [
+    "링크 깊이: 이 페이지만",
+    "파일 형식: PDF만",
+    "선택한 파일: 24개",
+    "저장 위치: 브라우저 다운로드 폴더(GrabAllFiles 폴더)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "의회 회의록 2025년 1월.pdf",
+      "bytes": 68819,
+      "sha256": "e02546b3c2899a930b5c2bf212c9b2a3ff4f454d1cbcba8d9539085754bec2e4",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2025년 2월.pdf",
+      "bytes": 69090,
+      "sha256": "5fe095da77864d56a7937d288e87184f8ebbbe8350668579e987e662d79f72ae",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2025년 3월.pdf",
+      "bytes": 69174,
+      "sha256": "388728107d7c3079ca98985b73f7704c7ff900c200da653bbd7c3a214c773675",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2025년 4월.pdf",
+      "bytes": 69179,
+      "sha256": "851a90ea3e1f1cda2f5d23966398f924de7469ccdcebda41a24ffed509081d68",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2025년 5월.pdf",
+      "bytes": 69059,
+      "sha256": "b284959f8c84bffc5703b7c79f9111c889d387c6bd18852de118f84ec419252c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2025년 6월.pdf",
+      "bytes": 69194,
+      "sha256": "c8d56b41e0cfe792c6701eb0b9e97877d5103342934a2ae0f6684fdbd0822c2b",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2025년 7월.pdf",
+      "bytes": 68946,
+      "sha256": "d4fba0da3465bf7e37a8f13e2255aee53da1c1b84862e23d038cd05c485d5daf",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2025년 8월.pdf",
+      "bytes": 69304,
+      "sha256": "ce0272b648797fd62f42517ae225e77da3fa385e72972c491b11c115d503257f",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2025년 9월.pdf",
+      "bytes": 69169,
+      "sha256": "f50f98279013312b2bd1c692512a95bcd502be14a70d67b8064c235cd389a4a1",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2025년 10월.pdf",
+      "bytes": 69568,
+      "sha256": "4463c2568b925d49873e0a4bdf478d85e1dd6cb4928aaadc7e698508d2503fd1",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2025년 11월.pdf",
+      "bytes": 69265,
+      "sha256": "69b9fdac31a7d7809ef3f98b3172f7bf885fb409270cf5a10d89a1dd7ba0ac3c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2025년 12월.pdf",
+      "bytes": 69478,
+      "sha256": "6617a0f1b6fff668b3d696b93f8f27abe7d9d62f4702dea55f810470f3b5ac2c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 1월.pdf",
+      "bytes": 68956,
+      "sha256": "3cd4fda45f5859c0de4b029b671e9e8823cad7bf55213f825412706e7561b5b5",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 2월.pdf",
+      "bytes": 69236,
+      "sha256": "b93bfc48251e8ac51eb307ed4fa88fd3cfee3ae414671308904f9406de56a387",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 3월.pdf",
+      "bytes": 69256,
+      "sha256": "55775491160b0c1e3ee22700f5ab1d56ef25d841bffce56ea142173c14521a65",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 4월.pdf",
+      "bytes": 69322,
+      "sha256": "d4339ab89a5b72eb157ab8c0b4e2b8b70e02a7b3fdc2d6666bfbae6461b0302d",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 5월.pdf",
+      "bytes": 69165,
+      "sha256": "5a6cc2053ed3e67161f4805e9443e006414a4d0095923c5efe57d689fed6a93a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 6월.pdf",
+      "bytes": 69313,
+      "sha256": "5c52446eb7c8db1cbb24372b3563b08a668ec62c8a71150327d757a1b3c45ac3",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 7월.pdf",
+      "bytes": 69073,
+      "sha256": "bf5f71adebfe61605da50a4eebf6b7156ede14d343302238691a4ae25aed5cb7",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 8월.pdf",
+      "bytes": 69410,
+      "sha256": "3ef9eb6ea30f99cc109d08e8285c5e1e29a367a1f3c208224b669286722c1e98",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 9월.pdf",
+      "bytes": 69310,
+      "sha256": "30a282d0c40e9e1ca208cc434509db88a2f478aea87f901e7cfbc89b0037447a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 10월.pdf",
+      "bytes": 69698,
+      "sha256": "eb07919ae0f03d785482b1b8173f1a20567fff9eb9835b4daf8be79641293487",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 11월.pdf",
+      "bytes": 69363,
+      "sha256": "c115faf1540038d352ebbcd215933efe936794361c5b364056b716df901021aa",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "의회 회의록 2026년 12월.pdf",
+      "bytes": 69584,
+      "sha256": "feee24424aaffc75847d54c1f4ba84f41a991d6ae7d7c1f9e2b187eeac16ab0f",
+      "mime": "application/pdf"
+    }
+  ],
+  "screenshot": {
+    "file": "screen.png",
+    "viewport": "1484x1021",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

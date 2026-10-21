@@ -1,0 +1,70 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/zh_TW/town-documents/",
+  "settings": [
+    "連結深度：僅此頁面",
+    "檔案類型：僅 PDF",
+    "已選檔案：8",
+    "儲存位置：瀏覽器的下載資料夾（GrabAllFiles 資料夾）"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "2025年度報告.pdf",
+      "bytes": 60953,
+      "sha256": "918986b8eb0b5e85bbbcafcb54ac5195f6a8c2beb2cb6040a3e435924f26b50c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "2026年度預算摘要.pdf",
+      "bytes": 63704,
+      "sha256": "841df99e52b7196ab2c1060aeb375cb85f64a9c457a7e82de05b76fa801a8c0e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "2026年資源回收日曆.pdf",
+      "bytes": 63468,
+      "sha256": "1d91db87db89f3c609da539055b64e45252d86957316153710286402c58b5e80",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "停車許可申請表.pdf",
+      "bytes": 61015,
+      "sha256": "f6dbfc5176fa0355db38c3a2dee2522c1e3eb31e305f2a8e2da603fae17ba661",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "圖書館使用指南.pdf",
+      "bytes": 61903,
+      "sha256": "abac755f3a390645f7196834495e18bea2303734d971d2511ce4327e96c6b931",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "活動許可申請表.pdf",
+      "bytes": 61614,
+      "sha256": "45c3abbfbf206b8337eb9cafe90165320376828b17fafb15d9fe6551fc259d25",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年10月）.pdf",
+      "bytes": 66770,
+      "sha256": "b663fd6b02ea2dabba5b0d9385b53b06aed5141ad747f8f7905ba051531faf2b",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年9月）.pdf",
+      "bytes": 66532,
+      "sha256": "8170d28e4c60f5e694baea96259bc32776c175d919ec78450dba0b54efc77171",
+      "mime": "application/pdf"
+    }
+  ]
+}

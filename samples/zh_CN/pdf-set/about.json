@@ -1,0 +1,70 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/zh_CN/town-documents/",
+  "settings": [
+    "链接深度：仅当前页面",
+    "文件类型：仅 PDF",
+    "已选文件：8",
+    "保存位置：浏览器的下载文件夹（GrabAllFiles 文件夹）"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "2025年度报告.pdf",
+      "bytes": 64107,
+      "sha256": "fee68da7e3a42344cfc1c9da1578cbc0884da8974e61318b44e078f7537fb08c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "2026年垃圾回收日历.pdf",
+      "bytes": 66712,
+      "sha256": "157941963bbd38c894964537a16fdd16e8a98419e518d3f469fc1ecffd0fa148",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "2026年预算概要.pdf",
+      "bytes": 65709,
+      "sha256": "2e4dec778e1b07ae6cb4f06ec67c6fdbb3f058ecacb213aa762cbbbf544ac2ff",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "停车许可申请表.pdf",
+      "bytes": 64009,
+      "sha256": "f3d3b0212acb932a08f384dcc3fe188fbde352a79b6dc0e95a2634313f8a59ef",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "图书馆使用指南.pdf",
+      "bytes": 64900,
+      "sha256": "324fccbd05224edfc15ecf3765e380a98e94b7d2d3f8d454a9b2b024f8164701",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "活动许可申请表.pdf",
+      "bytes": 64379,
+      "sha256": "cce67b99af14756ff0929c74aec7decb0d29c88f3a3226937cb5f8d106e0e1d8",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "镇议会会议记录（2026年10月）.pdf",
+      "bytes": 70865,
+      "sha256": "57f75c9dd58f897e6612164f527d8177f18acd7f0e1b850a950252f190f94799",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "镇议会会议记录（2026年9月）.pdf",
+      "bytes": 70482,
+      "sha256": "4cd74925f2fd3cbfd3cd4ab0f1bbf83909c1267155264134f4ac7bf471f6a5b1",
+      "mime": "application/pdf"
+    }
+  ]
+}

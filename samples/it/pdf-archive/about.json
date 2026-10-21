@@ -1,0 +1,171 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/it/town-archive/",
+  "settings": [
+    "Profondità dei collegamenti: Solo questa pagina",
+    "Tipo di file: solo PDF",
+    "File selezionati: 24",
+    "Salvato in: la cartella dei download del browser (cartella GrabAllFiles)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Verbale del consiglio, gennaio 2025.pdf",
+      "bytes": 83118,
+      "sha256": "b6d32783f17abd53e4b64f3c440a7cd0932f0cef1a8987720cc541a51a0f5e3e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, febbraio 2025.pdf",
+      "bytes": 83417,
+      "sha256": "f9da976c9620195aa0d2d6e816f184524f9d02b6e6e15afc6bd35496c279bceb",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, marzo 2025.pdf",
+      "bytes": 81887,
+      "sha256": "fab356c8727cc82e172c615335a6b743146b9019fd3582cc1a5a713fea586530",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, aprile 2025.pdf",
+      "bytes": 81859,
+      "sha256": "c483c080e18797c4ba6c8bb401bb7a34303d799ae4a68f96236327876b4afca0",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, maggio 2025.pdf",
+      "bytes": 83001,
+      "sha256": "27541251d22600fb4d7ba8bd6a0e50c16ee7b617569db1acb7205d533730d00e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, giugno 2025.pdf",
+      "bytes": 82590,
+      "sha256": "41bedfb9fad57522eac6a08a423a0d2fb167a91c9e1aa0a5457d5ac2ac2275d5",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, luglio 2025.pdf",
+      "bytes": 81771,
+      "sha256": "6c2ea2885db0f072f5ed62013dabd6541fa399dd1836673fbe4de920056b46c2",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, agosto 2025.pdf",
+      "bytes": 82676,
+      "sha256": "2b26d6be51a93f9462d0a760203d6cc68830aac5a6349a97f648722a87cf58fe",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, settembre 2025.pdf",
+      "bytes": 83987,
+      "sha256": "b278dcaa6d2600aa393ad5cd55b66ef3fae2de57c4ec6270e97ecf8f5b1700fe",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, ottobre 2025.pdf",
+      "bytes": 82712,
+      "sha256": "0bb07939e903bd3982d17fe8ad9116b57041e3d2b198efb693a31cb923cea8d2",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, novembre 2025.pdf",
+      "bytes": 83769,
+      "sha256": "36f966e2ea325ed25de211288a990bf91e88df520af4a4bd56d4f3d60f7b3a0e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, dicembre 2025.pdf",
+      "bytes": 83679,
+      "sha256": "89824a442695c6d333d81ad71b1dc9ae349fcac9009c4ab272e987d24c95876c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, gennaio 2026.pdf",
+      "bytes": 83174,
+      "sha256": "60c731add386483c386f046cbc225736a254e341c5a9151b3dab183ef04ecef9",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, febbraio 2026.pdf",
+      "bytes": 83468,
+      "sha256": "f496708c22649a8798aa39ee95e6e9afecbaaf3d9a02c448332bf6fce43e2743",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, marzo 2026.pdf",
+      "bytes": 82014,
+      "sha256": "4a00d50c086ff8abcefe3008a3d7982a371808a04a9f6c9f0f65f559f76946fd",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, aprile 2026.pdf",
+      "bytes": 81917,
+      "sha256": "9699967fa4b763d91bcc9b8a040944f0a765d642b4c61ce856fc672ae0b5d3aa",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, maggio 2026.pdf",
+      "bytes": 83102,
+      "sha256": "8179cfb73fa9baf392896373c9999e9d58f19d7c97e5eb766734ec213880d6c2",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, giugno 2026.pdf",
+      "bytes": 82698,
+      "sha256": "14b8fc6ff4664c5fe4fd4d397130a196a3a715b0b787f8040bc86de55192c9ca",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, luglio 2026.pdf",
+      "bytes": 81846,
+      "sha256": "e52b3d39bbdf623aedd790ed34ac8f7ae190a41708a64155684aac56763b8669",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, agosto 2026.pdf",
+      "bytes": 82798,
+      "sha256": "7dfe1094d8bf0351ef7affc83b4f974875bec59ca0cac972267a9b7cf8ef9507",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, settembre 2026.pdf",
+      "bytes": 84116,
+      "sha256": "3c28fb953360498fe76076b1e8d4cc6a6b90d9e64baeb944ca1334c0d577186d",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, ottobre 2026.pdf",
+      "bytes": 82813,
+      "sha256": "89ebcc2280cadf98b428ec6202c2a4e4d3549da52b4a27f92885abde02bf3d5c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, novembre 2026.pdf",
+      "bytes": 83926,
+      "sha256": "0ec785756e76ec44f372148d06b37a66a447d5b925e8911553df628c818aa106",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Verbale del consiglio, dicembre 2026.pdf",
+      "bytes": 83706,
+      "sha256": "00261417c55344d457123a9943ec372436597f76f902a1e368d65b45962965bc",
+      "mime": "application/pdf"
+    }
+  ],
+  "screenshot": {
+    "file": "screen.png",
+    "viewport": "1484x1021",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

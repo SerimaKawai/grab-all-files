@@ -1,0 +1,70 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "free",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/pt_BR/town-documents/",
+  "settings": [
+    "Profundidade dos links: Apenas esta página",
+    "Tipo de arquivo: somente PDF",
+    "Arquivos selecionados: 8",
+    "Salvo em: a pasta de downloads do navegador (pasta GrabAllFiles)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Ata da Câmara, outubro de 2026.pdf",
+      "bytes": 70908,
+      "sha256": "7abcf8d5933d9e161425ed44be5a337fe260f262d770a41651704a38d72ce8fa",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Ata da Câmara, setembro de 2026.pdf",
+      "bytes": 71587,
+      "sha256": "eeea11e110340eedcbcc974082f1c51f4666c8b2b44e38d3b38815075cceca94",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Calendário da reciclagem 2026.pdf",
+      "bytes": 70987,
+      "sha256": "ea92b5ffebb481c0e57afb5a6fdf31b8fd442040012668d9a4f9d4562691789b",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Formulário de pedido de autorização de estacionamento.pdf",
+      "bytes": 71290,
+      "sha256": "9497f435ad232292473dd2664404fff1047385a873748c438534a063cf80812a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Formulário de pedido de licença para eventos.pdf",
+      "bytes": 73008,
+      "sha256": "4e64f0d3fb9104eb10cb029b44ef832fbf704236d6713913be6e914a0038c5a6",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Guia do usuário da biblioteca.pdf",
+      "bytes": 70467,
+      "sha256": "53a4e4c0e54efa07a7451574c21b3fc78dc1b3ef01c57352a004fd2ba8ce68d6",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Relatório anual 2025.pdf",
+      "bytes": 68408,
+      "sha256": "f0526724689362194c225ae2529da2ac681fba63091a2f2577847c7db84e45ff",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Resumo do orçamento 2026.pdf",
+      "bytes": 70768,
+      "sha256": "6b1fe79654f645eb66ebde10757651690a360463d4e6ca82b5ee8c28b36bfc1e",
+      "mime": "application/pdf"
+    }
+  ]
+}

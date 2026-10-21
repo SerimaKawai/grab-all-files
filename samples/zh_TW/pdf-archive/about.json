@@ -1,0 +1,171 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/zh_TW/town-archive/",
+  "settings": [
+    "連結深度：僅此頁面",
+    "檔案類型：僅 PDF",
+    "已選檔案：24",
+    "儲存位置：瀏覽器的下載資料夾（GrabAllFiles 資料夾）"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "議會會議紀錄（2025年1月）.pdf",
+      "bytes": 71466,
+      "sha256": "1019e09d18e3c2e8190984162e8120d6d642bcc7d5232dbbe42dfa7043449330",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2025年2月）.pdf",
+      "bytes": 71807,
+      "sha256": "8e0329b06a40c0b7559048b1e1da91c4e287b6c0ab2f97e6f9ed05419cd83ed8",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2025年3月）.pdf",
+      "bytes": 71780,
+      "sha256": "2551dfeaac4a156030cf94ce85d3aac19e279d05f9b01684faaac95ab43dcf64",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2025年4月）.pdf",
+      "bytes": 71607,
+      "sha256": "5399fda5bb2f9cb19f8aa87fbf8b4affb2b11ed187337b38456fe4cc5cd3a04f",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2025年5月）.pdf",
+      "bytes": 71689,
+      "sha256": "3e2bffdfca6ab448e09c0bc8764ef8683fee529bfd1c975919da33a82211db4e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2025年6月）.pdf",
+      "bytes": 71872,
+      "sha256": "27b858467ffaec8b350010192d220c24a6251f1e293cce0f48804237060d1023",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2025年7月）.pdf",
+      "bytes": 71672,
+      "sha256": "473c600262670c8e670e5696f9398419eb950ec0dd9fc6998c7482cfa90eaf07",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2025年8月）.pdf",
+      "bytes": 71917,
+      "sha256": "b59e581aaf0689b114d99a922841780cd122d4965dd6b083c5bda32c3e8c8cf3",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2025年9月）.pdf",
+      "bytes": 71884,
+      "sha256": "5af5985f295b1c6f4f58a42b26418acfc35c9691bf1954d32e88a4e92694579a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2025年10月）.pdf",
+      "bytes": 72327,
+      "sha256": "aa16012d6e45d4de2e0ecd28dec3b253cd6fc40a6c3edabf237a6f3cf5c4a9c9",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2025年11月）.pdf",
+      "bytes": 72037,
+      "sha256": "223a6063c715e90d072508416ca27f1a8da2a89e128820d4bfa4dded44ec8821",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2025年12月）.pdf",
+      "bytes": 72255,
+      "sha256": "778e1b5c0796a61e2393596257a5879fe7b887b814261e23de950e6420ce04da",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年1月）.pdf",
+      "bytes": 71570,
+      "sha256": "fb643a67a6a5f5bf7239bbc81b76b2b9a701ea97958e1ad49a4e67c5c9c6356b",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年2月）.pdf",
+      "bytes": 71936,
+      "sha256": "e9c2f2b34e3b58cf8051bb24f145d8f5729195b8624bd3ecb81a3a003709a2d7",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年3月）.pdf",
+      "bytes": 71904,
+      "sha256": "2d4d8569fe0c383188e3f1b4f161eb6a5e0b7e38c463f0b5bedc2aa11d8e0739",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年4月）.pdf",
+      "bytes": 71723,
+      "sha256": "10d131f185fee4148b00e79c73d3f9b81d73cb37d0d6819afd6e1853514d930b",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年5月）.pdf",
+      "bytes": 71838,
+      "sha256": "960af3de7ad9399eccc886d6511e1fdbf5c2cd444c2d08c362f0ec3d13601a74",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年6月）.pdf",
+      "bytes": 72014,
+      "sha256": "a7433858e2b278330db751b3d7b3da4da31777ef68e0a87367a60a0fb384a075",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年7月）.pdf",
+      "bytes": 71818,
+      "sha256": "4470952117837facfde9aea8995beca5e8ce496ce7132f0447c97ce23d9d5a48",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年8月）.pdf",
+      "bytes": 72092,
+      "sha256": "926989ba94a6eeb96454eb3a31415713364bf970ae2ae5b31f952c012f36046f",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年9月）.pdf",
+      "bytes": 72062,
+      "sha256": "2e68930c67ecdf3ffeb7ee1fd255c71a527446c6af5c3e02882cf39699ac8955",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年10月）.pdf",
+      "bytes": 72482,
+      "sha256": "20956760da6f14d81eb2bf4e726ca9984dfd3bb3cec30f842f2bbb65396c91d0",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年11月）.pdf",
+      "bytes": 72213,
+      "sha256": "9640dc8cae80cce4da14673f2427ee6495044fadd385e02c9b68c2934a58caef",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "議會會議紀錄（2026年12月）.pdf",
+      "bytes": 72384,
+      "sha256": "2b3ee0b45dab6a43e7de9c0ccb4e5121774db981a00e3858ed0118df161e3bad",
+      "mime": "application/pdf"
+    }
+  ],
+  "screenshot": {
+    "file": "screen.png",
+    "viewport": "1484x1021",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

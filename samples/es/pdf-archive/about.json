@@ -1,0 +1,171 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/es/town-archive/",
+  "settings": [
+    "Profundidad de enlaces: Solo esta página",
+    "Tipo de archivo: solo PDF",
+    "Archivos seleccionados: 24",
+    "Guardado en: la carpeta de descargas del navegador (carpeta GrabAllFiles)"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "Actas del pleno, enero de 2025.pdf",
+      "bytes": 80827,
+      "sha256": "4f772af5a1b12b5abe2ff9fe64917ec7357ce11ca4d2f96d2133aff1553cfa2b",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, febrero de 2025.pdf",
+      "bytes": 81659,
+      "sha256": "edb7373772d8b7a7a04ea535dfb45d78b0742f38c723254c949ac51fb18c76de",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, marzo de 2025.pdf",
+      "bytes": 80856,
+      "sha256": "5d6ac207445f18e1315ad41d8fb34fe4ea77a62bdc4dd1e31acc49349c050dfb",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, abril de 2025.pdf",
+      "bytes": 80287,
+      "sha256": "22a85fe1d6572ddcab6d90a34e56282a9e87f3063dfae49c5bc90bee29301822",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, mayo de 2025.pdf",
+      "bytes": 80680,
+      "sha256": "b82074338a873b257a37f61ace48fbd9a8aa5ff7b9df3f7a36f0316e76917154",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, junio de 2025.pdf",
+      "bytes": 80459,
+      "sha256": "75cb12c797e37f92629fe8424ef915842e2cea153823935a1593d1eee46c26f6",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, julio de 2025.pdf",
+      "bytes": 79963,
+      "sha256": "5bb1e83363167f0776c430dfab1e443051e133dad7e6166cb3536edc369161e8",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, agosto de 2025.pdf",
+      "bytes": 81600,
+      "sha256": "10de982e4437e8229483e56cd71349ff465166d821990d7f1e4982d5b8fba114",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, septiembre de 2025.pdf",
+      "bytes": 83914,
+      "sha256": "55526129c67a08fd696387b443c7fdf20c12ca339c4d1c4d9e7e208d8f0af0cc",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, octubre de 2025.pdf",
+      "bytes": 81745,
+      "sha256": "df96ea709de670b95ce9097674ebb3bc556460a9160c501e69510395dd1709a4",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, noviembre de 2025.pdf",
+      "bytes": 83173,
+      "sha256": "87b493f886383811d54ce8b25732022821614d1f342eda5b1a2920876dc16568",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, diciembre de 2025.pdf",
+      "bytes": 83042,
+      "sha256": "28121d3cbfe75cd40f84f66745d65daa0a0156b170660c2440e03114b08a6808",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, enero de 2026.pdf",
+      "bytes": 80881,
+      "sha256": "64479ed33ffea1a29a6129fdff0faa434ea4882f64f5cc39e633b594b6357598",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, febrero de 2026.pdf",
+      "bytes": 81747,
+      "sha256": "a7bc87019f3ea1a39ab09319597d2b24219bb1969bf43159172a074d3c826224",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, marzo de 2026.pdf",
+      "bytes": 80996,
+      "sha256": "a39bbc5f6cc81cf685673e3ec531886f1dd4ea3946ef8c1b206e956df24ab349",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, abril de 2026.pdf",
+      "bytes": 80315,
+      "sha256": "dbce18a06fa340ad46923aadb856f39597a5e1bc1f4e80964044417e29bd6a94",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, mayo de 2026.pdf",
+      "bytes": 80729,
+      "sha256": "7e415d292bd0d7c10ea38d31cc02cd59520d25037179cf658def2001ba059d0e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, junio de 2026.pdf",
+      "bytes": 80486,
+      "sha256": "c4ad5a39aafd9f71a99abb9cf907cf7bb48f23d7e995c5233198f8a6af48d57a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, julio de 2026.pdf",
+      "bytes": 80142,
+      "sha256": "ee8ebfb82f83d49c8ec7c23bb86b65098d28f8dec9e6798873d7ce3ca1e6596a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, agosto de 2026.pdf",
+      "bytes": 81760,
+      "sha256": "e2a0c5b5e1c38e7ca4e4069e97067f94071e2dd1d48b8a2c4ab4d45fc8bdbe79",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, septiembre de 2026.pdf",
+      "bytes": 83975,
+      "sha256": "e3133c01223a9fff2397dd1ee965275124bcde4da91b914acb6b3ffaa4bf2eaa",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, octubre de 2026.pdf",
+      "bytes": 81891,
+      "sha256": "e94fdc2022d5a204dbd6986c8946c17eefff7bd4ecd66244fe12f1b4e0d0b091",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, noviembre de 2026.pdf",
+      "bytes": 83286,
+      "sha256": "f4b99e29ca2c171e8b261d42d4d715e56fe95a6b87d374cd88a8c293f8840a3e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "Actas del pleno, diciembre de 2026.pdf",
+      "bytes": 83090,
+      "sha256": "7982ba4f8aa82ccac30cadd5b637295e9f3284db8e99859495e398337cb38745",
+      "mime": "application/pdf"
+    }
+  ],
+  "screenshot": {
+    "file": "screen.png",
+    "viewport": "1484x1353",
+    "note": "Screenshot made by the site, not product output."
+  }
+}

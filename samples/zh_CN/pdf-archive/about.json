@@ -1,0 +1,171 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.20",
+    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "tool": "downloader"
+  },
+  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "plan": "pro",
+  "date": "2026-10-21",
+  "source": "https://grab-all-files.app/samples/source/zh_CN/town-archive/",
+  "settings": [
+    "链接深度：仅当前页面",
+    "文件类型：仅 PDF",
+    "已选文件：24",
+    "保存位置：浏览器的下载文件夹（GrabAllFiles 文件夹）"
+  ],
+  "save_route": "browser download folder (folder picker unavailable to automation, so the downloader used its browser-downloads route)",
+  "files": [
+    {
+      "name": "议会会议记录（2025年1月）.pdf",
+      "bytes": 73325,
+      "sha256": "6861604c059d44d2b49d2c70f5e12a82dbf4b747ad895726ddc0e65c9aa73473",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2025年2月）.pdf",
+      "bytes": 73632,
+      "sha256": "3744d6ee073723c0d2a439db3cd7ae77106dfd4f7f2f8ff16dcfdb69424f8aaa",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2025年3月）.pdf",
+      "bytes": 73753,
+      "sha256": "ff6676d5c499f1e8e54b897500fa76332b458e43934c6d8d1c22871456755936",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2025年4月）.pdf",
+      "bytes": 73427,
+      "sha256": "a9b5a05c47cdd2790599bd1c99bad04e6804fb0d8f31efc39b6c651baa038839",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2025年5月）.pdf",
+      "bytes": 73689,
+      "sha256": "9041ef758c449e6a58ae1344f748c633a2c057c49b43e7bbe21a83f6c8c0cc8c",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2025年6月）.pdf",
+      "bytes": 73778,
+      "sha256": "b56258df723e378111d61b4e249d57f33b168998649dedd904095b3f5a24a32e",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2025年7月）.pdf",
+      "bytes": 73533,
+      "sha256": "cd90cab8135f298dd9dfbfcb6980da2e8136aba1e3e0a37f5fe3f772d2661469",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2025年8月）.pdf",
+      "bytes": 73807,
+      "sha256": "1e60621a1f62725f5537765f7818cfb8b69ff1bc9a31dcd411256b74f8d75765",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2025年9月）.pdf",
+      "bytes": 73777,
+      "sha256": "f580b69c0b8bfb65c1b1f21b407ba143387381b1f56f3c67f4748bcbe3112418",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2025年10月）.pdf",
+      "bytes": 74382,
+      "sha256": "aa8b64686670def822c7f08a8804a8f72d32649e2e6e2ddf1542df989a5746ff",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2025年11月）.pdf",
+      "bytes": 74003,
+      "sha256": "bc8c9ccb3b0358da7bec4a68be30a7986be6c3880f6606d082a639bbf3c033a9",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2025年12月）.pdf",
+      "bytes": 74210,
+      "sha256": "ebb9e20d9a8bb3bbe6554ad113ea9aa2625c975b10e454334a4e10b65a104f98",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年1月）.pdf",
+      "bytes": 73458,
+      "sha256": "d45ff3513fc94f5f2eeecfb9c7058778d31214a032e7008c7b9c681988ec69c9",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年2月）.pdf",
+      "bytes": 73768,
+      "sha256": "752af7367e9f5c54386c9d5d16f9a1304e65b3b6a3379ab3b88c563cdb41f489",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年3月）.pdf",
+      "bytes": 73884,
+      "sha256": "6490e035a6477a2f13327ae0a9ea78767b9807f11a1cbc6c86e2be8409c00bb5",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年4月）.pdf",
+      "bytes": 73545,
+      "sha256": "dc0fdea819603d396cc05018f0a50bc3ea2958e04cc3956f3c5e7229ec0b1b8a",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年5月）.pdf",
+      "bytes": 73852,
+      "sha256": "0dea3a7ee8f264ef341c6b58ba401082f7ab19d022e68ed39699897c8f5cb757",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年6月）.pdf",
+      "bytes": 73921,
+      "sha256": "15a95d805df7835cc3c899f502f6c92b128e78e2bfcde7c4a8d23c9400e6ac70",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年7月）.pdf",
+      "bytes": 73677,
+      "sha256": "b338a72e76c989d07afc9d5a49ecb19008573d14a80436a6f9cac0e07a2d5869",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年8月）.pdf",
+      "bytes": 73956,
+      "sha256": "8db101ad108a489aa274a5467a8b4a5a4b642d1e044e3efe2e506146af16d350",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年9月）.pdf",
+      "bytes": 73911,
+      "sha256": "16884655bec8e276c1ec5090b9dc4db314ebd67704f5b89a501c393015617722",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年10月）.pdf",
+      "bytes": 74483,
+      "sha256": "bcd8a9a3804ef790b9b4f27fb0e7e6dd287d1818e62bd7ec192df624070d9a72",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年11月）.pdf",
+      "bytes": 74114,
+      "sha256": "6abc374e073f6426b9c3f2a95a93a528a65ab58e262fc4ea58b580e8b16186dd",
+      "mime": "application/pdf"
+    },
+    {
+      "name": "议会会议记录（2026年12月）.pdf",
+      "bytes": 74347,
+      "sha256": "882a0d49bb2b186399781c0cfc7749b41bce44684ecfef9486317e912faa6fcb",
+      "mime": "application/pdf"
+    }
+  ],
+  "screenshot": {
+    "file": "screen.png",
+    "viewport": "1484x1021",
+    "note": "Screenshot made by the site, not product output."
+  }
+}
