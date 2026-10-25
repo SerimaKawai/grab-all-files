@@ -26,3 +26,14 @@ This file is excluded from the published site (`_config.yml` → `exclude`).
   When the extension's cards or names change, re-export both the SVGs and the labels.
 - Site-only diagrams (no counterpart in the extension): `dl-depth`, `dl-filter`, `dl-outputs`,
   `plan-free-batches`, `plan-pro-all`, `local-processing`. Text-free except digits; labels live in the HTML.
+
+## テストで Chrome / Edge を起動するとき（Windows アカウントのロック防止）
+
+Chrome / Edge は新しいプロファイルで起動するたびに、空のパスワードで Windows へのログオンを試し、これがサインイン失敗 1 回に数えられる（10 分以内に 10 回でロック。2026-10-10・10-11・10-25 に発生またはロック寸前）。
+
+- 本物の chrome.exe / msedge.exe（Playwright の `channel:'chrome'`、`CHROME_PATH`、puppeteer を含む）を新しいプロファイル・一時プロファイルで起動しない。起動するなら、事前にそのプロファイルの `Local State` へ `password_manager.os_password_blank=false` と `os_password_last_changed` を、普段の Chrome（`%LOCALAPPDATA%\Google\Chrome\User Data\Local State`）からその場で読んで写す。値が読めなければ起動せずに SKIP する。固定値を書き込まない。
+  - 見本: `C:\xampp\htdocs\tools\pw-fixed.cjs`、enji `tests/lib/chrome-profile-seed.cjs`、hokenkikaku `tests/chrome-profile-seed.cjs`・`tests/_chrome_profile_seed.py`、cycle-hoken.com `tools/tests/chrome-profile-seed.cjs`、filescanner `scripts/chrome-profile-seed.cjs`
+  - Playwright 同梱の headless shell は数に入らない。
+- 起動の前と後に `powershell -NoProfile -Command "([ADSI]\"WinNT://$env:COMPUTERNAME/$env:USERNAME,user\").InvokeGet('BadPasswordAttempts')"` を確かめる。1 以上なら起動せず、0 に戻るまで待つ。
+- Chrome を起動するテストは for ループなどで一括実行しない。1 本ずつ流し、毎回数を確かめる。複数のセッションで同時にテスト一式を流さない。
+- 数が増えたら、すぐに Chrome を起動する作業を止めてユーザーに知らせる。
