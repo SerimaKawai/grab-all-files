@@ -4280,7 +4280,7 @@
             },
             {
               "q": "Older years sit behind “Show more” or a long list. Can it find them?",
-              "a": "Open “Scan options”, turn on “Scroll & load everything before scanning” and scan again so the list loads completely. If each year has its own tab or page, open and scan them in turn. Some IR sites link reports through a viewer; check the detected source page before saving."
+              "a": "With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. If each year has its own tab or page, open and scan them in turn. Some IR sites link reports through a viewer; check the detected source page before saving."
             }
           ],
           "industry": {
@@ -4345,7 +4345,7 @@
             },
             {
               "q": "過去の年度が「もっと見る」や長い一覧の奥にある場合は？",
-              "a": "「スキャン設定」で「最後までスクロールして読み込む」をオンにして再スキャンすると、一覧を最後まで読み込んでから検出します。年度ごとにタブやページが分かれている場合は、それぞれを開いて順にスキャンします。ビューアー経由でリンクしているIRサイトもあるため、保存前に検出したリンク元ページを確認してください。"
+              "a": "Proでは、スキャン時にページを最後まで自動でスクロールし、同じ一覧の続きのページもたどって読み込みます（1回のスキャンで100ページまで）。無料版は画面に表示されている内容だけを読むので、先に自分で最後までスクロールするか次のページを開いてから、もう一度スキャンします。年度ごとにタブやページが分かれている場合は、それぞれを開いて順にスキャンします。ビューアー経由でリンクしているIRサイトもあるため、保存前に検出したリンク元ページを確認してください。"
             }
           ],
           "industry": {
@@ -4410,7 +4410,7 @@
             },
             {
               "q": "Los años anteriores están tras «Mostrar más» o en una lista larga. ¿Los encuentra?",
-              "a": "Abre «Opciones de escaneo», activa «Desplázate y carga todo antes de escanear» y vuelve a escanear para que la lista se cargue entera. Si cada año tiene su propia pestaña o página, ábrelas y escanéalas una a una. Algunos sitios enlazan los informes mediante un visor: comprueba la página de origen detectada antes de guardar."
+              "a": "Con Pro, el escaneo desplaza la página hasta el final por sí solo y sigue también las páginas siguientes de la misma lista (hasta 100 páginas por escaneo). En la versión gratuita el escaneo lee solo lo que está en pantalla, así que desplázate tú hasta el final (o abre la página siguiente) y vuelve a escanear. Si cada año tiene su propia pestaña o página, ábrelas y escanéalas una a una. Algunos sitios enlazan los informes mediante un visor: comprueba la página de origen detectada antes de guardar."
             }
           ],
           "industry": {
@@ -4475,7 +4475,7 @@
             },
             {
               "q": "Les années précédentes sont derrière « Afficher plus » ou une longue liste : les trouve-t-il ?",
-              "a": "Ouvrez « Options d’analyse », activez « Faire défiler et tout charger avant l’analyse » et relancez l’analyse pour charger toute la liste. Si chaque année a son propre onglet ou sa propre page, ouvrez-les et analysez-les tour à tour. Certains sites IR passent par une visionneuse : vérifiez la page source détectée avant d’enregistrer."
+              "a": "Avec Pro, l’analyse fait défiler la page jusqu’en bas toute seule et suit aussi les pages suivantes de la même liste (jusqu’à 100 pages par analyse). Avec la version gratuite, l’analyse ne lit que ce qui est à l’écran : faites défiler vous-même jusqu’en bas (ou ouvrez la page suivante), puis relancez l’analyse. Si chaque année a son propre onglet ou sa propre page, ouvrez-les et analysez-les tour à tour. Certains sites IR passent par une visionneuse : vérifiez la page source détectée avant d’enregistrer."
             }
           ],
           "industry": {
@@ -4540,7 +4540,7 @@
             },
             {
               "q": "Ältere Jahre liegen hinter „Mehr anzeigen“ oder in einer langen Liste. Findet es sie?",
-              "a": "Öffnen Sie „Scan-Optionen“, aktivieren Sie „Vor dem Scan alles scrollen & laden“ und scannen Sie erneut, damit die Liste vollständig geladen wird. Hat jedes Jahr einen eigenen Reiter oder eine eigene Seite, öffnen und scannen Sie diese nacheinander. Manche IR-Seiten verlinken Berichte über einen Viewer; prüfen Sie vor dem Speichern die erkannte Quellseite."
+              "a": "Mit Pro scrollt der Scan die Seite selbst bis zum Ende und folgt auch den nächsten Seiten derselben Liste (bis zu 100 Seiten pro Scan). In der kostenlosen Version liest der Scan nur, was auf dem Bildschirm steht – scrollen Sie also selbst bis zum Ende (oder öffnen Sie die nächste Seite) und scannen Sie erneut. Hat jedes Jahr einen eigenen Reiter oder eine eigene Seite, öffnen und scannen Sie diese nacheinander. Manche IR-Seiten verlinken Berichte über einen Viewer; prüfen Sie vor dem Speichern die erkannte Quellseite."
             }
           ],
           "industry": {
@@ -4605,7 +4605,7 @@
             },
             {
               "q": "Gli anni precedenti sono dietro «Mostra altro» o in un elenco lungo. Li trova?",
-              "a": "Apri «Opzioni di scansione», attiva «Scorri e carica tutto prima della scansione» e ripeti la scansione perché l’elenco si carichi per intero. Se ogni anno ha una scheda o una pagina propria, aprile e scansionale una alla volta. Alcuni siti collegano le relazioni tramite un visualizzatore: controlla la pagina di origine rilevata prima di salvare."
+              "a": "Con Pro la scansione scorre da sola la pagina fino in fondo e segue anche le pagine successive dello stesso elenco (fino a 100 pagine per scansione). Nella versione gratuita la scansione legge solo ciò che è sullo schermo: scorri tu fino in fondo (o apri la pagina successiva) e ripeti la scansione. Se ogni anno ha una scheda o una pagina propria, aprile e scansionale una alla volta. Alcuni siti collegano le relazioni tramite un visualizzatore: controlla la pagina di origine rilevata prima di salvare."
             }
           ],
           "industry": {
@@ -4670,7 +4670,7 @@
             },
             {
               "q": "지난 연도가 ‘더 보기’나 긴 목록 안쪽에 있으면요?",
-              "a": "“스캔 설정”에서 “끝까지 스크롤해서 불러오기”를 켜고 다시 스캔하면 목록을 끝까지 불러온 뒤 감지합니다. 연도별로 탭이나 페이지가 나뉘어 있다면 하나씩 열어 차례로 스캔하세요. 뷰어를 거쳐 링크하는 IR 사이트도 있으니 저장 전에 감지된 링크 원본 페이지를 확인하세요."
+              "a": "Pro에서는 스캔할 때 페이지를 끝까지 자동으로 스크롤하고 같은 목록의 다음 페이지도 따라가며 읽습니다(스캔 1회에 100페이지까지). 무료 버전은 화면에 표시된 내용만 읽으므로 먼저 직접 끝까지 스크롤하거나 다음 페이지를 연 뒤 다시 스캔하세요. 연도별로 탭이나 페이지가 나뉘어 있다면 하나씩 열어 차례로 스캔하세요. 뷰어를 거쳐 링크하는 IR 사이트도 있으니 저장 전에 감지된 링크 원본 페이지를 확인하세요."
             }
           ],
           "industry": {
@@ -4735,7 +4735,7 @@
             },
             {
               "q": "Os anos anteriores ficam atrás de “Mostrar mais” ou numa lista longa. Ele encontra?",
-              "a": "Abra “Opções de varredura”, ative “Role e carregue tudo antes de escanear” e escaneie de novo para a lista carregar inteira. Se cada ano tem a própria aba ou página, abra e escaneie uma por vez. Alguns sites de RI vinculam os relatórios por um visualizador; confira a página de origem detectada antes de salvar."
+              "a": "No Pro, a varredura rola a página até o fim sozinha e também segue as próximas páginas da mesma lista (até 100 páginas por varredura). Na versão gratuita a varredura lê só o que está na tela, então role você mesmo até o fim (ou abra a próxima página) e escaneie de novo. Se cada ano tem a própria aba ou página, abra e escaneie uma por vez. Alguns sites de RI vinculam os relatórios por um visualizador; confira a página de origem detectada antes de salvar."
             }
           ],
           "industry": {
@@ -4800,7 +4800,7 @@
             },
             {
               "q": "往年资料藏在“显示更多”或长列表后面，能找到吗？",
-              "a": "在“扫描设置”中开启“滚动到底并加载”后重新扫描，列表会完整加载后再检测。若每年各有标签页或页面，请逐一打开并扫描。有些IR网站通过查看器链接报告，保存前请确认检测到的来源页面。"
+              "a": "Pro 在扫描时会自动把页面滚动到底，并继续读取同一列表的后续页面（每次扫描最多100页）。免费版只读取屏幕上已显示的内容，请先自己滚动到底（或打开下一页），再重新扫描。若每年各有标签页或页面，请逐一打开并扫描。有些IR网站通过查看器链接报告，保存前请确认检测到的来源页面。"
             }
           ],
           "industry": {
@@ -4865,7 +4865,7 @@
             },
             {
               "q": "往年資料藏在「顯示更多」或長清單後面，能找到嗎？",
-              "a": "在「掃描設定」中開啟「捲動到底並載入」後重新掃描，清單會完整載入後再偵測。若每年各有分頁或頁面，請逐一開啟並掃描。有些IR網站透過檢視器連結報告，儲存前請確認偵測到的來源頁面。"
+              "a": "Pro 在掃描時會自動把頁面捲動到底，並繼續讀取同一清單的後續頁面（每次掃描最多100頁）。免費版只讀取畫面上已顯示的內容，請先自行捲動到底（或開啟下一頁），再重新掃描。若每年各有分頁或頁面，請逐一開啟並掃描。有些IR網站透過檢視器連結報告，儲存前請確認偵測到的來源頁面。"
             }
           ],
           "industry": {
@@ -6260,7 +6260,7 @@
             },
             {
               "q": "The supplier’s SDS search shows results only after I search. How do I scan them?",
-              "a": "Run the search on the supplier’s site first so the results are on screen, then scan that results page. If more results load as you scroll, turn on “Scroll & load everything before scanning” in “Scan options”. Language or region selectors usually change the listed files, so scan once per language."
+              "a": "Run the search on the supplier’s site first so the results are on screen, then scan that results page. With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. Language or region selectors usually change the listed files, so scan once per language."
             }
           ],
           "industry": {
@@ -6325,7 +6325,7 @@
             },
             {
               "q": "SDS検索は検索しないと結果が出ません。どうスキャンしますか？",
-              "a": "先にメーカーのサイトで検索して結果を表示してから、その検索結果ページをスキャンします。スクロールで続きが読み込まれる場合は、「スキャン設定」で「最後までスクロールして読み込む」をオンにします。言語や地域の切り替えで表示されるファイルが変わることが多いため、言語ごとにスキャンしてください。"
+              "a": "先にメーカーのサイトで検索して結果を表示してから、その検索結果ページをスキャンします。Proでは、スキャン時にページを最後まで自動でスクロールし、同じ一覧の続きのページもたどって読み込みます（1回のスキャンで100ページまで）。無料版は画面に表示されている内容だけを読むので、先に自分で最後までスクロールするか次のページを開いてから、もう一度スキャンします。言語や地域の切り替えで表示されるファイルが変わることが多いため、言語ごとにスキャンしてください。"
             }
           ],
           "industry": {
@@ -6390,7 +6390,7 @@
             },
             {
               "q": "El buscador de SDS solo muestra resultados después de buscar. ¿Cómo los escaneo?",
-              "a": "Haz primero la búsqueda en el sitio del proveedor para que los resultados estén en pantalla y luego escanea esa página. Si se cargan más resultados al desplazarte, activa «Desplázate y carga todo antes de escanear» en «Opciones de escaneo». Los selectores de idioma o región suelen cambiar los archivos listados: escanea una vez por idioma."
+              "a": "Haz primero la búsqueda en el sitio del proveedor para que los resultados estén en pantalla y luego escanea esa página. Con Pro, el escaneo desplaza la página hasta el final por sí solo y sigue también las páginas siguientes de la misma lista (hasta 100 páginas por escaneo). En la versión gratuita el escaneo lee solo lo que está en pantalla, así que desplázate tú hasta el final (o abre la página siguiente) y vuelve a escanear. Los selectores de idioma o región suelen cambiar los archivos listados: escanea una vez por idioma."
             }
           ],
           "industry": {
@@ -6455,7 +6455,7 @@
             },
             {
               "q": "La recherche FDS du fournisseur n’affiche des résultats qu’après une recherche : comment les analyser ?",
-              "a": "Lancez d’abord la recherche sur le site du fournisseur pour afficher les résultats, puis analysez cette page. Si d’autres résultats se chargent au défilement, activez « Faire défiler et tout charger avant l’analyse » dans « Options d’analyse ». Les sélecteurs de langue ou de région changent souvent les fichiers listés : analysez une fois par langue."
+              "a": "Lancez d’abord la recherche sur le site du fournisseur pour afficher les résultats, puis analysez cette page. Avec Pro, l’analyse fait défiler la page jusqu’en bas toute seule et suit aussi les pages suivantes de la même liste (jusqu’à 100 pages par analyse). Avec la version gratuite, l’analyse ne lit que ce qui est à l’écran : faites défiler vous-même jusqu’en bas (ou ouvrez la page suivante), puis relancez l’analyse. Les sélecteurs de langue ou de région changent souvent les fichiers listés : analysez une fois par langue."
             }
           ],
           "industry": {
@@ -6520,7 +6520,7 @@
             },
             {
               "q": "Die SDB-Suche des Lieferanten zeigt Ergebnisse erst nach einer Suche. Wie scanne ich sie?",
-              "a": "Führen Sie die Suche zuerst auf der Lieferantenseite aus, sodass die Ergebnisse sichtbar sind, und scannen Sie dann diese Ergebnisseite. Laden beim Scrollen weitere Treffer nach, aktivieren Sie „Vor dem Scan alles scrollen & laden“ in den „Scan-Optionen“. Sprach- oder Regionsauswahl ändert oft die gelisteten Dateien – scannen Sie einmal je Sprache."
+              "a": "Führen Sie die Suche zuerst auf der Lieferantenseite aus, sodass die Ergebnisse sichtbar sind, und scannen Sie dann diese Ergebnisseite. Mit Pro scrollt der Scan die Seite selbst bis zum Ende und folgt auch den nächsten Seiten derselben Liste (bis zu 100 Seiten pro Scan). In der kostenlosen Version liest der Scan nur, was auf dem Bildschirm steht – scrollen Sie also selbst bis zum Ende (oder öffnen Sie die nächste Seite) und scannen Sie erneut. Sprach- oder Regionsauswahl ändert oft die gelisteten Dateien – scannen Sie einmal je Sprache."
             }
           ],
           "industry": {
@@ -6585,7 +6585,7 @@
             },
             {
               "q": "La ricerca SDS del fornitore mostra risultati solo dopo una ricerca. Come li scansiono?",
-              "a": "Esegui prima la ricerca sul sito del fornitore così che i risultati siano a schermo, poi scansiona quella pagina. Se altri risultati si caricano scorrendo, attiva «Scorri e carica tutto prima della scansione» in «Opzioni di scansione». I selettori di lingua o area cambiano spesso i file elencati: scansiona una volta per lingua."
+              "a": "Esegui prima la ricerca sul sito del fornitore così che i risultati siano a schermo, poi scansiona quella pagina. Con Pro la scansione scorre da sola la pagina fino in fondo e segue anche le pagine successive dello stesso elenco (fino a 100 pagine per scansione). Nella versione gratuita la scansione legge solo ciò che è sullo schermo: scorri tu fino in fondo (o apri la pagina successiva) e ripeti la scansione. I selettori di lingua o area cambiano spesso i file elencati: scansiona una volta per lingua."
             }
           ],
           "industry": {
@@ -6650,7 +6650,7 @@
             },
             {
               "q": "공급사 SDS 검색은 검색해야 결과가 나옵니다. 어떻게 스캔하나요?",
-              "a": "먼저 공급사 사이트에서 검색해 결과를 화면에 띄운 뒤 그 검색 결과 페이지를 스캔하세요. 스크롤하면 결과가 더 불러와진다면 “스캔 설정”에서 “끝까지 스크롤해서 불러오기”를 켭니다. 언어나 지역 선택에 따라 표시되는 파일이 달라지는 경우가 많으니 언어별로 스캔하세요."
+              "a": "먼저 공급사 사이트에서 검색해 결과를 화면에 띄운 뒤 그 검색 결과 페이지를 스캔하세요. Pro에서는 스캔할 때 페이지를 끝까지 자동으로 스크롤하고 같은 목록의 다음 페이지도 따라가며 읽습니다(스캔 1회에 100페이지까지). 무료 버전은 화면에 표시된 내용만 읽으므로 먼저 직접 끝까지 스크롤하거나 다음 페이지를 연 뒤 다시 스캔하세요. 언어나 지역 선택에 따라 표시되는 파일이 달라지는 경우가 많으니 언어별로 스캔하세요."
             }
           ],
           "industry": {
@@ -6715,7 +6715,7 @@
             },
             {
               "q": "A busca de SDS do fornecedor só mostra resultados depois de pesquisar. Como escaneio?",
-              "a": "Faça primeiro a busca no site do fornecedor para os resultados aparecerem na tela e então escaneie essa página. Se mais resultados carregam ao rolar, ative “Role e carregue tudo antes de escanear” em “Opções de varredura”. Seletores de idioma ou região costumam mudar os arquivos listados; escaneie uma vez por idioma."
+              "a": "Faça primeiro a busca no site do fornecedor para os resultados aparecerem na tela e então escaneie essa página. No Pro, a varredura rola a página até o fim sozinha e também segue as próximas páginas da mesma lista (até 100 páginas por varredura). Na versão gratuita a varredura lê só o que está na tela, então role você mesmo até o fim (ou abra a próxima página) e escaneie de novo. Seletores de idioma ou região costumam mudar os arquivos listados; escaneie uma vez por idioma."
             }
           ],
           "industry": {
@@ -6780,7 +6780,7 @@
             },
             {
               "q": "供应商的SDS检索要搜索后才显示结果，该怎么扫描？",
-              "a": "先在供应商网站上搜索，让结果显示在页面上，再扫描该搜索结果页面。如果滚动时会加载更多结果，请在“扫描设置”中开启“滚动到底并加载”。切换语言或地区通常会改变列出的文件，请按语言分别扫描。"
+              "a": "先在供应商网站上搜索，让结果显示在页面上，再扫描该搜索结果页面。Pro 在扫描时会自动把页面滚动到底，并继续读取同一列表的后续页面（每次扫描最多100页）。免费版只读取屏幕上已显示的内容，请先自己滚动到底（或打开下一页），再重新扫描。切换语言或地区通常会改变列出的文件，请按语言分别扫描。"
             }
           ],
           "industry": {
@@ -6845,7 +6845,7 @@
             },
             {
               "q": "供應商的SDS查詢要搜尋後才顯示結果，該怎麼掃描？",
-              "a": "先在供應商網站上搜尋，讓結果顯示在頁面上，再掃描該搜尋結果頁面。若捲動時會載入更多結果，請在「掃描設定」中開啟「捲動到底並載入」。切換語言或地區通常會改變列出的檔案，請依語言分別掃描。"
+              "a": "先在供應商網站上搜尋，讓結果顯示在頁面上，再掃描該搜尋結果頁面。Pro 在掃描時會自動把頁面捲動到底，並繼續讀取同一清單的後續頁面（每次掃描最多100頁）。免費版只讀取畫面上已顯示的內容，請先自行捲動到底（或開啟下一頁），再重新掃描。切換語言或地區通常會改變列出的檔案，請依語言分別掃描。"
             }
           ],
           "industry": {
@@ -14996,14 +14996,14 @@
           ],
           "steps": [
             "Open the gallery or page and click the Grab All Files icon in the toolbar.",
-            "For galleries and infinite-scroll pages, open “Scan options”, turn on “Scroll & load everything before scanning” and choose a “Scroll time” (Normal 45 s, Long 90 s, Thorough 180 s). Then press “Scan”.",
+            "For galleries and infinite-scroll pages, Pro scrolls to the end by itself; if it needs longer, choose a “Scroll time” (Normal 45 s, Long 90 s, Thorough 180 s) in “Scan options”. On the free plan, scroll to the end yourself first. Then press “Scan”.",
             "Filter the list to images such as JPG, PNG, WebP, GIF or SVG. In “Details”, set a minimum “Size” to hide thumbnails and icons.",
             "Tick the images and press “Save selected files” (Free: up to 10 per download), or use “More actions” for ZIP, “Organize” by type or domain, or “Export File Info CSV”."
           ],
           "faq": [
             {
               "q": "Does it detect lazy-loaded images?",
-              "a": "Yes, once they are in the page. It reads image attributes, srcset values, CSS backgrounds, blob URLs and network responses. Images that appear only after scrolling need “Scroll & load everything before scanning” in “Scan options”."
+              "a": "Yes, once they are in the page. It reads image attributes, srcset values, CSS backgrounds, blob URLs and network responses. Images that appear only after scrolling: Pro scrolls the page to load them by itself; on the free plan, scroll to the end yourself before scanning."
             },
             {
               "q": "Can I download only some image types?",
@@ -15037,14 +15037,14 @@
           ],
           "steps": [
             "ギャラリーや対象ページを開き、ツールバーのGrab All Filesアイコンを押します。",
-            "ギャラリーや無限スクロールのページは、「スキャン設定」で「最後までスクロールして読み込む」をオンにし、「読み込み時間」（通常45秒／長め90秒／徹底180秒）を選んでから「スキャン」を押します。",
+            "ギャラリーや無限スクロールのページは、Proなら最後まで自動でスクロールして読み込みます。時間が足りないときは「スキャン設定」の「読み込み時間」（通常45秒／長め90秒／徹底180秒）を選びます。無料版は先に自分で最後までスクロールします。そのあと「スキャン」を押します。",
             "JPG、PNG、WebP、GIF、SVGなどの画像に絞り込みます。「詳細設定」で「サイズ」の最小値を決めると、サムネイルやアイコンを隠せます。",
             "保存する画像にチェックを入れて「選んだファイルを保存」を押します（無料版は1回10件まで）。ZIP、種類別・ドメイン別の「整理」、「ファイル情報CSV出力」は「その他の操作」にあります。"
           ],
           "faq": [
             {
               "q": "遅延読み込みの画像も検出できますか？",
-              "a": "ページに読み込まれていれば検出できます。画像の属性、srcset、CSS背景、blob URL、通信で取得された画像を調べます。スクロールして初めて表示される画像は、「スキャン設定」の「最後までスクロールして読み込む」をオンにしてください。"
+              "a": "ページに読み込まれていれば検出できます。画像の属性、srcset、CSS背景、blob URL、通信で取得された画像を調べます。スクロールして初めて表示される画像は、Proなら自動でスクロールして読み込みます。無料版では、先に自分で最後までスクロールしてからスキャンしてください。"
             },
             {
               "q": "特定の画像形式だけ保存できますか？",
@@ -15078,14 +15078,14 @@
           ],
           "steps": [
             "Abre la galería o la página y haz clic en el icono de Grab All Files en la barra de herramientas.",
-            "En galerías y páginas con desplazamiento infinito, abre «Opciones de escaneo», activa «Desplázate y carga todo antes de escanear» y elige un «Tiempo de desplazamiento» (Normal 45 s, Más tiempo 90 s, Completo 180 s). Después pulsa «Escanear».",
+            "En galerías y páginas con desplazamiento infinito, Pro se desplaza solo hasta el final; si necesita más tiempo, elige un «Tiempo de desplazamiento» (Normal 45 s, Más tiempo 90 s, Completo 180 s) en «Opciones de escaneo». En la versión gratuita, desplázate tú hasta el final primero. Después pulsa «Escanear».",
             "Filtra la lista por imágenes como JPG, PNG, WebP, GIF o SVG. En «Detalles», fija un «Tamaño» mínimo para ocultar miniaturas e iconos.",
             "Marca las imágenes y pulsa «Guardar seleccionados» (gratis: hasta 10 por descarga), o usa «Más acciones» para ZIP, «Organizar» por tipo o dominio o «Exportar info de archivos en CSV»."
           ],
           "faq": [
             {
               "q": "¿Detecta imágenes con carga diferida?",
-              "a": "Sí, en cuanto están en la página. Lee los atributos de imagen, los valores srcset, los fondos CSS, las URL blob y las respuestas de red. Las imágenes que solo aparecen al desplazarte necesitan «Desplázate y carga todo antes de escanear» en «Opciones de escaneo»."
+              "a": "Sí, en cuanto están en la página. Lee los atributos de imagen, los valores srcset, los fondos CSS, las URL blob y las respuestas de red. Las imágenes que solo aparecen al desplazarte: Pro se desplaza solo para cargarlas; en la versión gratuita, desplázate tú hasta el final antes de escanear."
             },
             {
               "q": "¿Puedo descargar solo algunos tipos de imagen?",
@@ -15119,14 +15119,14 @@
           ],
           "steps": [
             "Ouvrez la galerie ou la page et cliquez sur l’icône Grab All Files de la barre d’outils.",
-            "Pour les galeries et les pages à défilement infini, ouvrez « Options d’analyse », activez « Faire défiler et tout charger avant l’analyse » et choisissez une « Durée de défilement » (Normal 45 s, Plus long 90 s, Approfondi 180 s). Cliquez ensuite sur « Scanner ».",
+            "Pour les galeries et les pages à défilement infini, Pro fait défiler jusqu’en bas tout seul ; s’il lui faut plus de temps, choisissez une « Durée de défilement » (Normal 45 s, Plus long 90 s, Approfondi 180 s) dans « Options d’analyse ». Avec la version gratuite, faites d’abord défiler vous-même jusqu’en bas. Cliquez ensuite sur « Scanner ».",
             "Filtrez la liste sur les images (JPG, PNG, WebP, GIF, SVG…). Dans « Détails », fixez une « Taille » minimale pour masquer vignettes et icônes.",
             "Cochez les images et cliquez sur « Enregistrer la sélection » (version gratuite : 10 par téléchargement), ou utilisez « Autres actions » pour le ZIP, le « Classement » par type ou par domaine, ou « Exporter les infos fichiers en CSV »."
           ],
           "faq": [
             {
               "q": "Détecte-t-il les images chargées à la demande ?",
-              "a": "Oui, dès qu’elles sont dans la page. Il lit les attributs d’image, les valeurs srcset, les arrière-plans CSS, les URL blob et les réponses réseau. Les images qui n’apparaissent qu’au défilement nécessitent « Faire défiler et tout charger avant l’analyse » dans « Options d’analyse »."
+              "a": "Oui, dès qu’elles sont dans la page. Il lit les attributs d’image, les valeurs srcset, les arrière-plans CSS, les URL blob et les réponses réseau. Les images qui n’apparaissent qu’au défilement : Pro fait défiler la page tout seul pour les charger ; avec la version gratuite, faites défiler vous-même jusqu’en bas avant l’analyse."
             },
             {
               "q": "Puis-je ne télécharger que certains types d’image ?",
@@ -15160,14 +15160,14 @@
           ],
           "steps": [
             "Öffnen Sie die Galerie oder Seite und klicken Sie in der Symbolleiste auf das Grab-All-Files-Symbol.",
-            "Bei Galerien und Endlos-Scroll-Seiten öffnen Sie „Scan-Optionen“, aktivieren „Vor dem Scan alles scrollen & laden“ und wählen eine „Scroll-Zeit“ (Normal 45 s, Länger 90 s, Gründlich 180 s). Klicken Sie dann auf „Scannen“.",
+            "Bei Galerien und Endlos-Scroll-Seiten scrollt Pro selbst bis zum Ende; braucht es länger, wählen Sie in den „Scan-Optionen“ eine „Scroll-Zeit“ (Normal 45 s, Länger 90 s, Gründlich 180 s). In der kostenlosen Version scrollen Sie zuerst selbst bis zum Ende. Klicken Sie dann auf „Scannen“.",
             "Filtern Sie die Liste auf Bilder wie JPG, PNG, WebP, GIF oder SVG. Legen Sie unter „Details“ eine Mindest-„Größe“ fest, um Vorschaubilder und Symbole auszublenden.",
             "Haken Sie die Bilder an und klicken Sie auf „Ausgewählte speichern“ (kostenlos: bis zu 10 pro Download) oder nutzen Sie „Weitere Aktionen“ für ZIP, „Ablage“ nach Typ oder Domain oder „Dateiinfo als CSV exportieren“."
           ],
           "faq": [
             {
               "q": "Erkennt es per Lazy Loading geladene Bilder?",
-              "a": "Ja, sobald sie in der Seite stehen. Es liest Bildattribute, srcset-Werte, CSS-Hintergründe, Blob-URLs und Netzwerkantworten aus. Bilder, die erst beim Scrollen erscheinen, brauchen „Vor dem Scan alles scrollen & laden“ in den „Scan-Optionen“."
+              "a": "Ja, sobald sie in der Seite stehen. Es liest Bildattribute, srcset-Werte, CSS-Hintergründe, Blob-URLs und Netzwerkantworten aus. Bilder, die erst beim Scrollen erscheinen: Pro scrollt die Seite selbst, um sie zu laden; in der kostenlosen Version scrollen Sie vor dem Scan selbst bis zum Ende."
             },
             {
               "q": "Kann ich nur bestimmte Bildtypen herunterladen?",
@@ -15201,14 +15201,14 @@
           ],
           "steps": [
             "Apri la galleria o la pagina e fai clic sull’icona di Grab All Files nella barra degli strumenti.",
-            "Per gallerie e pagine a scorrimento infinito, apri «Opzioni di scansione», attiva «Scorri e carica tutto prima della scansione» e scegli un «Tempo di scorrimento» (Normale 45 s, Più lungo 90 s, Approfondito 180 s). Poi fai clic su «Scansiona».",
+            "Per gallerie e pagine a scorrimento infinito, Pro scorre da solo fino in fondo; se serve più tempo, scegli un «Tempo di scorrimento» (Normale 45 s, Più lungo 90 s, Approfondito 180 s) in «Opzioni di scansione». Nella versione gratuita, scorri prima tu fino in fondo. Poi fai clic su «Scansiona».",
             "Filtra l’elenco per immagini come JPG, PNG, WebP, GIF o SVG. In «Dettagli» imposta una «Dimensione» minima per nascondere miniature e icone.",
             "Seleziona le immagini e fai clic su «Salva i selezionati» (gratis: fino a 10 per download), oppure usa «Altre azioni» per ZIP, «Organizza» per tipo o dominio o «Esporta info file in CSV»."
           ],
           "faq": [
             {
               "q": "Rileva le immagini a caricamento differito?",
-              "a": "Sì, appena sono nella pagina. Legge gli attributi delle immagini, i valori srcset, gli sfondi CSS, gli URL blob e le risposte di rete. Le immagini che compaiono solo scorrendo richiedono «Scorri e carica tutto prima della scansione» in «Opzioni di scansione»."
+              "a": "Sì, appena sono nella pagina. Legge gli attributi delle immagini, i valori srcset, gli sfondi CSS, gli URL blob e le risposte di rete. Le immagini che compaiono solo scorrendo: Pro scorre da solo la pagina per caricarle; nella versione gratuita, scorri tu fino in fondo prima della scansione."
             },
             {
               "q": "Posso scaricare solo alcuni tipi di immagine?",
@@ -15242,14 +15242,14 @@
           ],
           "steps": [
             "갤러리나 페이지를 열고 툴바의 Grab All Files 아이콘을 누릅니다.",
-            "갤러리와 무한 스크롤 페이지는 “스캔 설정”에서 “끝까지 스크롤해서 불러오기”를 켜고 “스크롤 시간”(일반 45초, 길게 90초, 철저히 180초)을 고른 뒤 “스캔”을 누릅니다.",
+            "갤러리와 무한 스크롤 페이지는 Pro라면 끝까지 자동으로 스크롤해 불러옵니다. 시간이 더 필요하면 “스캔 설정”에서 “스크롤 시간”(일반 45초, 길게 90초, 철저히 180초)을 고릅니다. 무료 버전은 먼저 직접 끝까지 스크롤합니다. 그런 다음 “스캔”을 누릅니다.",
             "JPG, PNG, WebP, GIF, SVG 같은 이미지로 목록을 필터링합니다. “상세 설정”에서 최소 “크기”를 정하면 썸네일과 아이콘을 숨길 수 있습니다.",
             "이미지를 체크하고 “선택한 파일 저장”을 누릅니다(무료: 다운로드당 10개). ZIP, 유형별·도메인별 “정리”, “파일 정보 CSV 내보내기”는 “기타 작업”에 있습니다."
           ],
           "faq": [
             {
               "q": "지연 로딩 이미지도 감지하나요?",
-              "a": "예, 페이지에 들어와 있다면 감지합니다. 이미지 속성, srcset 값, CSS 배경, blob URL, 네트워크 응답을 확인합니다. 스크롤해야 나타나는 이미지는 “스캔 설정”의 “끝까지 스크롤해서 불러오기”를 켜세요."
+              "a": "예, 페이지에 들어와 있다면 감지합니다. 이미지 속성, srcset 값, CSS 배경, blob URL, 네트워크 응답을 확인합니다. 스크롤해야 나타나는 이미지는 Pro라면 자동으로 스크롤해 불러옵니다. 무료 버전에서는 스캔 전에 직접 끝까지 스크롤하세요."
             },
             {
               "q": "특정 이미지 형식만 다운로드할 수 있나요?",
@@ -15283,14 +15283,14 @@
           ],
           "steps": [
             "Abra a galeria ou a página e clique no ícone do Grab All Files na barra de ferramentas.",
-            "Em galerias e páginas com rolagem infinita, abra “Opções de varredura”, ative “Role e carregue tudo antes de escanear” e escolha um “Tempo de rolagem” (Normal 45 s, Longo 90 s, Completo 180 s). Depois clique em “Escanear”.",
+            "Em galerias e páginas com rolagem infinita, o Pro rola sozinho até o fim; se precisar de mais tempo, escolha um “Tempo de rolagem” (Normal 45 s, Longo 90 s, Completo 180 s) em “Opções de varredura”. Na versão gratuita, role você mesmo até o fim antes. Depois clique em “Escanear”.",
             "Filtre a lista por imagens como JPG, PNG, WebP, GIF ou SVG. Em “Detalhes”, defina um “Tamanho” mínimo para ocultar miniaturas e ícones.",
             "Marque as imagens e clique em “Salvar selecionados” (grátis: até 10 por download), ou use “Mais ações” para ZIP, “Organizar” por tipo ou domínio ou “Exportar info de arquivos em CSV”."
           ],
           "faq": [
             {
               "q": "Detecta imagens com carregamento lento?",
-              "a": "Sim, assim que estão na página. Lê atributos de imagem, valores srcset, fundos CSS, URLs blob e respostas de rede. Imagens que só aparecem ao rolar precisam de “Role e carregue tudo antes de escanear” em “Opções de varredura”."
+              "a": "Sim, assim que estão na página. Lê atributos de imagem, valores srcset, fundos CSS, URLs blob e respostas de rede. Imagens que só aparecem ao rolar: o Pro rola a página sozinho para carregá-las; na versão gratuita, role você mesmo até o fim antes de escanear."
             },
             {
               "q": "Posso baixar só alguns tipos de imagem?",
@@ -15324,14 +15324,14 @@
           ],
           "steps": [
             "打开图库或页面，点击工具栏上的Grab All Files图标。",
-            "对于图库和无限滚动页面，请在“扫描设置”中开启“滚动到底并加载”，选择“滚动时间”（标准45秒、较长90秒、彻底180秒），然后点击“扫描”。",
+            "对于图库和无限滚动页面，Pro 会自动滚动到底；如需更长时间，请在“扫描设置”中选择“滚动时间”（标准45秒、较长90秒、彻底180秒）。免费版请先自己滚动到底。然后点击“扫描”。",
             "将列表筛选为JPG、PNG、WebP、GIF、SVG等图片。在“详细设置”中设定最小“大小”，即可隐藏缩略图和图标。",
             "勾选图片后点击“保存所选文件”（免费版每次最多10个），或在“其他操作”中使用ZIP、按类型或域名“整理”，或“导出文件信息CSV”。"
           ],
           "faq": [
             {
               "q": "能检测延迟加载的图片吗？",
-              "a": "可以，只要图片已载入页面。它会读取图片属性、srcset、CSS背景、blob URL和网络响应。需要滚动才出现的图片，请在“扫描设置”中开启“滚动到底并加载”。"
+              "a": "可以，只要图片已载入页面。它会读取图片属性、srcset、CSS背景、blob URL和网络响应。需要滚动才出现的图片，Pro 会自动滚动页面来加载；免费版请在扫描前自己滚动到底。"
             },
             {
               "q": "能只下载某些图片类型吗？",
@@ -15365,14 +15365,14 @@
           ],
           "steps": [
             "開啟圖庫或頁面，點擊工具列上的Grab All Files圖示。",
-            "對於圖庫和無限捲動頁面，請在「掃描設定」中開啟「捲動到底並載入」，選擇「捲動時間」（標準45秒、較長90秒、徹底180秒），然後點擊「掃描」。",
+            "對於圖庫和無限捲動頁面，Pro 會自動捲動到底；如需更長時間，請在「掃描設定」中選擇「捲動時間」（標準45秒、較長90秒、徹底180秒）。免費版請先自行捲動到底。然後點擊「掃描」。",
             "將清單篩選為JPG、PNG、WebP、GIF、SVG等圖片。在「詳細設定」中設定最小「大小」，即可隱藏縮圖和圖示。",
             "勾選圖片後點擊「儲存所選檔案」（免費版每次最多10個），或在「其他操作」中使用ZIP、依類型或網域「整理」，或「匯出檔案資訊CSV」。"
           ],
           "faq": [
             {
               "q": "能偵測延遲載入的圖片嗎？",
-              "a": "可以，只要圖片已載入頁面。它會讀取圖片屬性、srcset、CSS背景、blob URL和網路回應。需要捲動才出現的圖片，請在「掃描設定」中開啟「捲動到底並載入」。"
+              "a": "可以，只要圖片已載入頁面。它會讀取圖片屬性、srcset、CSS背景、blob URL和網路回應。需要捲動才出現的圖片，Pro 會自動捲動頁面來載入；免費版請在掃描前自行捲動到底。"
             },
             {
               "q": "能只下載某些圖片類型嗎？",
@@ -15436,7 +15436,7 @@
             },
             {
               "q": "It found nothing, or fewer files than expected. What can I try?",
-              "a": "For pages that load more while you scroll, open “Scan options”, turn on “Scroll & load everything before scanning” and scan again. If the files sit on linked pages, raise “Depth”. Pause ad blockers for the site. When downloads are started by the page’s own JavaScript, use “Active Capture” when it is offered."
+              "a": "With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. If the files sit on linked pages, raise “Depth”. Pause ad blockers for the site. When downloads are started by the page’s own JavaScript, use “Active Capture” when it is offered."
             },
             {
               "q": "The page needs a sign-in. What should I do?",
@@ -15482,7 +15482,7 @@
             },
             {
               "q": "ファイルが見つからない・少ないときは？",
-              "a": "スクロールで続きが読み込まれるページは、「スキャン設定」で「最後までスクロールして読み込む」をオンにして再スキャンします。ファイルがリンク先のページにある場合は「深さ」を上げます。広告ブロッカーはそのサイトで一時停止してください。ページのJavaScriptでダウンロードが始まる場合は、表示される「アクティブ取得」を使います。"
+              "a": "Proでは、スキャン時にページを最後まで自動でスクロールし、同じ一覧の続きのページもたどって読み込みます（1回のスキャンで100ページまで）。無料版は画面に表示されている内容だけを読むので、先に自分で最後までスクロールするか次のページを開いてから、もう一度スキャンします。ファイルがリンク先のページにある場合は「深さ」を上げます。広告ブロッカーはそのサイトで一時停止してください。ページのJavaScriptでダウンロードが始まる場合は、表示される「アクティブ取得」を使います。"
             },
             {
               "q": "ログインが必要なページはどうすればいいですか？",
@@ -15528,7 +15528,7 @@
             },
             {
               "q": "No encontró nada o menos archivos de lo esperado. ¿Qué puedo probar?",
-              "a": "En páginas que cargan más contenido al desplazarte, abre «Opciones de escaneo», activa «Desplázate y carga todo antes de escanear» y vuelve a escanear. Si los archivos están en páginas enlazadas, sube la «Profundidad». Pausa los bloqueadores de anuncios en ese sitio. Si las descargas las inicia el JavaScript de la página, usa «Captura activa» cuando se ofrezca."
+              "a": "Con Pro, el escaneo desplaza la página hasta el final por sí solo y sigue también las páginas siguientes de la misma lista (hasta 100 páginas por escaneo). En la versión gratuita el escaneo lee solo lo que está en pantalla, así que desplázate tú hasta el final (o abre la página siguiente) y vuelve a escanear. Si los archivos están en páginas enlazadas, sube la «Profundidad». Pausa los bloqueadores de anuncios en ese sitio. Si las descargas las inicia el JavaScript de la página, usa «Captura activa» cuando se ofrezca."
             },
             {
               "q": "La página requiere iniciar sesión. ¿Qué hago?",
@@ -15574,7 +15574,7 @@
             },
             {
               "q": "Rien n’a été trouvé, ou moins de fichiers que prévu. Que faire ?",
-              "a": "Pour les pages qui se chargent au défilement, ouvrez « Options d’analyse », activez « Faire défiler et tout charger avant l’analyse » puis relancez l’analyse. Si les fichiers se trouvent sur des pages liées, augmentez la « Profondeur ». Mettez en pause les bloqueurs de publicité sur ce site. Si les téléchargements sont lancés par le JavaScript de la page, utilisez « Capture active » lorsqu’elle est proposée."
+              "a": "Avec Pro, l’analyse fait défiler la page jusqu’en bas toute seule et suit aussi les pages suivantes de la même liste (jusqu’à 100 pages par analyse). Avec la version gratuite, l’analyse ne lit que ce qui est à l’écran : faites défiler vous-même jusqu’en bas (ou ouvrez la page suivante), puis relancez l’analyse. Si les fichiers se trouvent sur des pages liées, augmentez la « Profondeur ». Mettez en pause les bloqueurs de publicité sur ce site. Si les téléchargements sont lancés par le JavaScript de la page, utilisez « Capture active » lorsqu’elle est proposée."
             },
             {
               "q": "La page demande une connexion. Que faire ?",
@@ -15620,7 +15620,7 @@
             },
             {
               "q": "Es wurde nichts oder weniger gefunden als erwartet. Was kann ich tun?",
-              "a": "Bei Seiten, die beim Scrollen nachladen, öffnen Sie „Scan-Optionen“, aktivieren „Vor dem Scan alles scrollen & laden“ und scannen erneut. Liegen die Dateien auf verlinkten Seiten, erhöhen Sie die „Tiefe“. Pausieren Sie Werbeblocker für die Website. Werden Downloads vom JavaScript der Seite gestartet, nutzen Sie „Aktive Erfassung“, sobald sie angeboten wird."
+              "a": "Mit Pro scrollt der Scan die Seite selbst bis zum Ende und folgt auch den nächsten Seiten derselben Liste (bis zu 100 Seiten pro Scan). In der kostenlosen Version liest der Scan nur, was auf dem Bildschirm steht – scrollen Sie also selbst bis zum Ende (oder öffnen Sie die nächste Seite) und scannen Sie erneut. Liegen die Dateien auf verlinkten Seiten, erhöhen Sie die „Tiefe“. Pausieren Sie Werbeblocker für die Website. Werden Downloads vom JavaScript der Seite gestartet, nutzen Sie „Aktive Erfassung“, sobald sie angeboten wird."
             },
             {
               "q": "Die Seite verlangt eine Anmeldung. Was tun?",
@@ -15666,7 +15666,7 @@
             },
             {
               "q": "Non ha trovato nulla, o meno file del previsto. Cosa posso fare?",
-              "a": "Per le pagine che caricano altro contenuto mentre scorri, apri «Opzioni di scansione», attiva «Scorri e carica tutto prima della scansione» e ripeti la scansione. Se i file sono in pagine collegate, aumenta la «Profondità». Sospendi i blocchi pubblicitari per quel sito. Se i download vengono avviati dal JavaScript della pagina, usa «Cattura attiva» quando viene proposta."
+              "a": "Con Pro la scansione scorre da sola la pagina fino in fondo e segue anche le pagine successive dello stesso elenco (fino a 100 pagine per scansione). Nella versione gratuita la scansione legge solo ciò che è sullo schermo: scorri tu fino in fondo (o apri la pagina successiva) e ripeti la scansione. Se i file sono in pagine collegate, aumenta la «Profondità». Sospendi i blocchi pubblicitari per quel sito. Se i download vengono avviati dal JavaScript della pagina, usa «Cattura attiva» quando viene proposta."
             },
             {
               "q": "La pagina richiede l’accesso. Cosa devo fare?",
@@ -15712,7 +15712,7 @@
             },
             {
               "q": "아무것도 찾지 못했거나 예상보다 적어요. 어떻게 하나요?",
-              "a": "스크롤할 때 내용이 더 불러와지는 페이지는 “스캔 설정”에서 “끝까지 스크롤해서 불러오기”를 켜고 다시 스캔하세요. 파일이 링크된 페이지에 있다면 “깊이”를 올립니다. 해당 사이트에서는 광고 차단기를 잠시 끄세요. 페이지의 JavaScript가 다운로드를 시작하는 경우에는 표시되는 “액티브 캡처”를 사용합니다."
+              "a": "Pro에서는 스캔할 때 페이지를 끝까지 자동으로 스크롤하고 같은 목록의 다음 페이지도 따라가며 읽습니다(스캔 1회에 100페이지까지). 무료 버전은 화면에 표시된 내용만 읽으므로 먼저 직접 끝까지 스크롤하거나 다음 페이지를 연 뒤 다시 스캔하세요. 파일이 링크된 페이지에 있다면 “깊이”를 올립니다. 해당 사이트에서는 광고 차단기를 잠시 끄세요. 페이지의 JavaScript가 다운로드를 시작하는 경우에는 표시되는 “액티브 캡처”를 사용합니다."
             },
             {
               "q": "로그인이 필요한 페이지는 어떻게 하나요?",
@@ -15758,7 +15758,7 @@
             },
             {
               "q": "Não encontrou nada, ou menos arquivos do que o esperado. O que fazer?",
-              "a": "Em páginas que carregam mais conteúdo ao rolar, abra “Opções de varredura”, ative “Role e carregue tudo antes de escanear” e escaneie de novo. Se os arquivos estão em páginas vinculadas, aumente a “Profundidade”. Pause os bloqueadores de anúncios nesse site. Se os downloads são iniciados pelo JavaScript da página, use “Captura ativa” quando ela for oferecida."
+              "a": "No Pro, a varredura rola a página até o fim sozinha e também segue as próximas páginas da mesma lista (até 100 páginas por varredura). Na versão gratuita a varredura lê só o que está na tela, então role você mesmo até o fim (ou abra a próxima página) e escaneie de novo. Se os arquivos estão em páginas vinculadas, aumente a “Profundidade”. Pause os bloqueadores de anúncios nesse site. Se os downloads são iniciados pelo JavaScript da página, use “Captura ativa” quando ela for oferecida."
             },
             {
               "q": "A página exige login. O que faço?",
@@ -15804,7 +15804,7 @@
             },
             {
               "q": "什么都没找到，或比预期少怎么办？",
-              "a": "对于滚动时才加载更多内容的页面，请在“扫描设置”中开启“滚动到底并加载”后重新扫描。如果文件在链接到的页面上，请提高“深度”。请在该网站暂停广告拦截器。如果下载由页面自身的JavaScript触发，请在出现时使用“主动抓取”。"
+              "a": "Pro 在扫描时会自动把页面滚动到底，并继续读取同一列表的后续页面（每次扫描最多100页）。免费版只读取屏幕上已显示的内容，请先自己滚动到底（或打开下一页），再重新扫描。如果文件在链接到的页面上，请提高“深度”。请在该网站暂停广告拦截器。如果下载由页面自身的JavaScript触发，请在出现时使用“主动抓取”。"
             },
             {
               "q": "页面需要登录怎么办？",
@@ -15850,7 +15850,7 @@
             },
             {
               "q": "什麼都沒找到，或比預期少怎麼辦？",
-              "a": "對於捲動時才載入更多內容的頁面，請在「掃描設定」中開啟「捲動到底並載入」後重新掃描。若檔案在連結到的頁面上，請提高「深度」。請在該網站暫停廣告封鎖器。若下載由頁面本身的JavaScript觸發，請在出現時使用「主動擷取」。"
+              "a": "Pro 在掃描時會自動把頁面捲動到底，並繼續讀取同一清單的後續頁面（每次掃描最多100頁）。免費版只讀取畫面上已顯示的內容，請先自行捲動到底（或開啟下一頁），再重新掃描。若檔案在連結到的頁面上，請提高「深度」。請在該網站暫停廣告封鎖器。若下載由頁面本身的JavaScript觸發，請在出現時使用「主動擷取」。"
             },
             {
               "q": "頁面需要登入怎麼辦？",
