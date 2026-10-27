@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "released 5.8.31 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/de/night-market/",
   "settings": [
     "Seiten: Nur aktuelle Seite",
@@ -19,8 +19,8 @@
   "files": [
     {
       "name": "Hafen-Nachtmarkt (fiktiv).html",
-      "bytes": 53478,
-      "sha256": "79fbeaa43ef3165b6d42429b504052e2149556e26c16960f8aa610d42513dadf",
+      "bytes": 63478,
+      "sha256": "41f21769efc6adfc00d8346cdc66467210024daf1749b412de163ff501db410d",
       "mime": "text/html"
     }
   ],

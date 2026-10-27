@@ -2,26 +2,26 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "developer build of the same 5.8.31 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "pro",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/it/night-market-site/",
   "settings": [
     "Pagine: Segui i collegamenti di questa pagina (3 pagine)",
     "Aspetto: Mantieni l’aspetto originale",
-    "Output: Con indice e ricerca (standard)",
+    "Output: HTML con indice e ricerca",
     "Immagini: Salvataggio offline (predefinito)"
   ],
   "save_route": "browser download folder (the collector's \"browser download folder\" option)",
   "files": [
     {
       "name": "Mercato notturno del Porto (immaginario).html",
-      "bytes": 108693,
-      "sha256": "490f9ff07fdd09d701e43ffdf2d39a08a661519d02e7d211fb081ba7e3eb7dbe",
+      "bytes": 142337,
+      "sha256": "ee065c5a714af2f6f457bf87cf363414131d06c1bb0e7b62e87ac27ec959b04d",
       "mime": "text/html"
     }
   ],

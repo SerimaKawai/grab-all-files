@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "released 5.8.31 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/zh_TW/bike-share-handbook/chapter-2.html",
   "settings": [
     "頁面：僅目前頁面",
@@ -19,14 +19,14 @@
   "files": [
     {
       "name": "2. 處理報修通報 — 港灣共享單車-員工手冊(虛構).html",
-      "bytes": 26764,
-      "sha256": "d8551c8047b1c9686a4802b80143fde7ddf343710df679871e5e27ca6033b672",
+      "bytes": 28594,
+      "sha256": "8a44288a1278d3780277ee9162759b3d50be6798830e72307bae34c56750503c",
       "mime": "text/html"
     },
     {
-      "name": "2. 處理報修通報 — 港灣共享單車-員工手冊(虛構)_AI_20261021.md",
+      "name": "2. 處理報修通報 — 港灣共享單車-員工手冊(虛構)_AI_20261028.md",
       "bytes": 1246,
-      "sha256": "4b0423a1fda3348e672179bc34c7564fa3c34afbf605740ad3e293e790d44984",
+      "sha256": "54fe3fe89904bdd881e28086c2e1cf4adcddd944e2349a4f1bdfd512bfd701e5",
       "mime": "text/markdown"
     }
   ]

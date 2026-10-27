@@ -2,26 +2,26 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "developer build of the same 5.8.31 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "pro",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/zh_TW/bike-share-handbook/",
   "settings": [
     "頁面：追蹤本頁的連結（4 頁）",
     "外觀：整理為易讀格式",
-    "輸出：附目錄和搜尋（標準）",
+    "輸出：附目錄及搜尋的HTML",
     "AI 資料：不產生（預設）"
   ],
   "save_route": "browser download folder (the collector's \"browser download folder\" option)",
   "files": [
     {
       "name": "簡介 — 港灣共享單車-員工手冊(虛構).html",
-      "bytes": 36868,
-      "sha256": "12bdbc301b0c534c45b251cd48ecf192222003bde6f38224dcda034892e8fd96",
+      "bytes": 39350,
+      "sha256": "93605329128b3becf780cddf8218d0ecca026b29a0bd96a6be550552cd0c3958",
       "mime": "text/html"
     }
   ],

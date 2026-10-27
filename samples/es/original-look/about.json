@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "released 5.8.31 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/es/night-market/",
   "settings": [
     "Páginas: solo la página actual",
@@ -19,12 +19,11 @@
   "files": [
     {
       "name": "Mercado Nocturno del Puerto (ficticio).html",
-      "bytes": 53527,
-      "sha256": "e836be1347cb76f346182263ab86f9856b167bd1e45db03caa03665560292809",
+      "bytes": 63527,
+      "sha256": "b14645f80fa39bcd30092017e84c39f01429a38baef970e372a82fd6812a103e",
       "mime": "text/html"
     }
   ],
-  "profile_name_field": "Cleared before saving: in this language the field’s default text is not recognised as \"no name\" in 5.8.20, so an untouched field would have become the file title.",
   "comparison_screenshots": {
     "viewport": "1200x900",
     "files": [

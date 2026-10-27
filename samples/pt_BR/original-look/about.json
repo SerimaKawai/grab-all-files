@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "released 5.8.31 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/pt_BR/night-market/",
   "settings": [
     "Páginas: apenas página atual",
@@ -19,8 +19,8 @@
   "files": [
     {
       "name": "Feira Noturna do Cais (fictícia).html",
-      "bytes": 53510,
-      "sha256": "fc6d4fdfca731da4a3d466d186dc925889407b7a7cac24dbd24273aeee4f71e4",
+      "bytes": 63510,
+      "sha256": "8d8fb841d2eb368995ba021f1dd6cbe06a5b753227f7c6886659336f32610107",
       "mime": "text/html"
     }
   ],

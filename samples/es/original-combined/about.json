@@ -2,30 +2,29 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "developer build of the same 5.8.31 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "pro",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/es/night-market-site/",
   "settings": [
     "Páginas: Seguir los enlaces de esta página (3 páginas)",
     "Aspecto: Mantener el aspecto original",
-    "Salida: Con índice y búsqueda (estándar)",
+    "Salida: HTML con índice y búsqueda",
     "Imágenes: Guardar sin conexión (predeterminado)"
   ],
   "save_route": "browser download folder (the collector's \"browser download folder\" option)",
   "files": [
     {
       "name": "Mercado Nocturno del Puerto (ficticio).html",
-      "bytes": 108721,
-      "sha256": "d18442f9d0a1ee91f7cf72b42160880aaaa9796c0291991ec5b0c53032c6ae87",
+      "bytes": 142362,
+      "sha256": "d470e0f0b43af5b0daf05d1c591ec5a942e22ccc8f7f1c2cafec955e7cca428b",
       "mime": "text/html"
     }
   ],
-  "profile_name_field": "Cleared before saving: in this language the field’s default text is not recognised as \"no name\" in 5.8.20, so an untouched field would have become the file title.",
   "screenshot": {
     "file": "search-result.png",
     "viewport": "1280x900",

@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "developer build of the same 5.8.20 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "developer build of the same 5.8.31 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "pro",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/pt_BR/bike-share-handbook/",
   "settings": [
     "Páginas: Seguir os links desta página (4 páginas)",
@@ -19,14 +19,14 @@
   "files": [
     {
       "name": "Introdução — Bicicletas do Porto — manual da equipe (fictício).html",
-      "bytes": 37365,
-      "sha256": "83fe573af693191bf9e935f1e134da217ec478caae0a401ab4b38a513d0dc051",
+      "bytes": 39847,
+      "sha256": "72092f8d2fa8e4002d60bd67d18847e1e2deef0edbfbbb2fc1c3cb056fb17ce1",
       "mime": "text/html"
     },
     {
-      "name": "Introdução — Bicicletas do Porto — manual da equipe (fictício)_AI_20261021.zip",
-      "bytes": 7563,
-      "sha256": "32222a7510468ce53ded729c162369794d59a3441b9934837bdd628658af661a",
+      "name": "Introdução — Bicicletas do Porto — manual da equipe (fictício)_AI_20261028.zip",
+      "bytes": 7554,
+      "sha256": "58037315539d01123cd4e1203ae4656485acfafb679e646b2b64e81d2544f4f8",
       "mime": "application/x-zip-compressed"
     }
   ]
