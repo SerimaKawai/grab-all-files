@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "released 5.8.31 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-20",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/en/bike-share-handbook/chapter-2.html",
   "settings": [
     "Pages: the open page",
@@ -19,14 +19,14 @@
   "files": [
     {
       "name": "2. Handling a repair report — Harbor Bike Share — staff handbook (fictional).html",
-      "bytes": 26775,
-      "sha256": "e232c6fcae8449b13880b774ca0e3ab7d81f58e27d85266f5f8d3720df23d0dd",
+      "bytes": 28605,
+      "sha256": "a6c14f7f2347c4645d3e8554497000e5d139ec9a63c6ee8738bf6f9c73c36ac6",
       "mime": "text/html"
     },
     {
-      "name": "2. Handling a repair report — Harbor Bike Share — staff handbook (fictional)_AI_20261020.md",
+      "name": "2. Handling a repair report — Harbor Bike Share — staff handbook (fictional)_AI_20261028.md",
       "bytes": 1251,
-      "sha256": "fb961257cc9c687eb9ec49013d39ef6686bbd088045f6cd60fe49713e494585d",
+      "sha256": "6bd8a53a9cd228d4b4577ca4a1e31304720b4fd169da76301bb14db95702103d",
       "mime": "text/markdown"
     }
   ]

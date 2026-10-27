@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "released 5.8.31 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/pt_BR/bike-share-handbook/chapter-2.html",
   "settings": [
     "Páginas: apenas página atual",
@@ -19,14 +19,14 @@
   "files": [
     {
       "name": "2. Tratar um relato de defeito — Bicicletas do Porto — manual da equipe (fictíci.html",
-      "bytes": 26910,
-      "sha256": "d6ca13df8ebc780770c69a693a9ef8d7327a653c9712450a579e98bcdc9b7161",
+      "bytes": 28740,
+      "sha256": "65f6cc5c919f5ed2f96a07887d663b8dea251cdedec42fabd19b352e702aac1f",
       "mime": "text/html"
     },
     {
-      "name": "2. Tratar um relato de defeito — Bicicletas do Porto — manual da equipe (fictício)_AI_20261021.md",
+      "name": "2. Tratar um relato de defeito — Bicicletas do Porto — manual da equipe (fictício)_AI_20261028.md",
       "bytes": 1343,
-      "sha256": "b0d022570fc31df5940b402ae948327235b0bf8c10f0c0896866f3616a5debb8",
+      "sha256": "13a695d8d9edf4e128deba348f6e70fee9bdca03c0b1ec06dfdeda3535b89a43",
       "mime": "text/markdown"
     }
   ]

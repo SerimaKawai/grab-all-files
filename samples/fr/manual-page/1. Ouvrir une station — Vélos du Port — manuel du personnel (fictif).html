@@ -35,8 +35,14 @@
       .gaf-warning { border: 1px solid #b45309; background: #fff7ed; padding: .75rem; }
       .gaf-partial-warning { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; margin: 0 0 1.5rem; border: 2px solid #b45309; border-radius: 8px; background: #fff7ed; color: #7c2d12; padding: 1rem 1.1rem; }
       .gaf-partial-warning a { font-weight: 700; }
+      .gaf-look-fallback { margin: .4rem 0 .8rem; border-left: 4px solid #b45309; background: #fff7ed; color: #7c2d12; padding: .45rem .75rem; font-size: .9rem; }
+      .gaf-static-note { margin: .4rem 0 .8rem; border-left: 4px solid #2563eb; background: #eff6ff; color: #1e3a8a; padding: .45rem .75rem; font-size: .9rem; }
       .gaf-page { margin: 2.5rem 0; padding-top: .5rem; border-top: 2px solid #cbd5e1; }
       .gaf-page-content img { max-width: 100%; height: auto; }
+      /* An icon beside a link's words in a table cell (a country's flag before
+         its code) had no size of its own and was drawn as wide as the page
+         (olympedia's medal table, 2026-10-22). */
+      .gaf-page-content :is(td, th) a img { max-height: 1.6em; width: auto; vertical-align: middle; }
       .gaf-image-placeholder, .gaf-unsafe-placeholder { display: inline-block; border: 1px dashed #94a3b8; padding: .2rem .4rem; color: #475569; }
       table { border-collapse: collapse; max-width: 100%; margin: 1rem 0; }
       th, td { border: 1px solid #94a3b8; padding: .4rem .55rem; vertical-align: top; }
@@ -118,9 +124,25 @@
         .gaf-page.gaf-collapsed .gaf-page-content { display: block; }
         .gaf-page { break-before: page; page-break-before: always; }
         .gaf-page:first-of-type { break-before: auto; page-break-before: auto; }
-        h1, h2, h3, h4, h5, h6, table, figure, pre, blockquote { break-inside: avoid; page-break-inside: avoid; }
-        a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8pt; }
-        a.gaf-url-text::after { content: none; }
+        /* Only short blocks are kept whole. A table or <pre> longer than a page
+           cannot be, and asking for it pushed it to a fresh page and left the
+           rest of the previous one blank. */
+        h1, h2, h3, h4, h5, h6 { break-after: avoid; page-break-after: avoid; break-inside: avoid; }
+        figure, blockquote, tr, img { break-inside: avoid; page-break-inside: avoid; }
+        /* Printing every link's address after it made URLs 36-84% of the text in
+           most printed exports (one page reached 4099 PDF pages); the links stay
+           clickable in a saved PDF, so the address is not printed. */
+        a::after, a[rel="noopener noreferrer"]::after { content: none !important; }
+        /* A table wider than the paper was cut at the right edge. It is set
+           smaller, and a link's address in a cell may wrap anywhere; words and
+           numbers are not split letter by letter (that made every column one
+           letter wide), so a table still wider is shrunk with the page. */
+        table { width: auto !important; max-width: 100% !important; table-layout: auto; font-size: 8pt; }
+        th, td { overflow-wrap: break-word; padding: .15rem .25rem; }
+        :is(th, td) a { overflow-wrap: anywhere; }
+        thead { display: table-header-group; }
+        pre, code { white-space: pre-wrap; overflow-wrap: anywhere; }
+        .gaf-page-content img { max-height: 24cm; object-fit: contain; }
       }
     </style>
 </head>

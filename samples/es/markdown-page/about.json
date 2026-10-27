@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "released 5.8.31 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/es/bike-share-handbook/chapter-2.html",
   "settings": [
     "Páginas: solo la página actual",
@@ -19,16 +19,15 @@
   "files": [
     {
       "name": "2. Atender un aviso de reparación — Bici Puerto — manual del personal (ficticio).html",
-      "bytes": 26886,
-      "sha256": "2fd9bd73ee1e3b5eaf28417b2c90ea522bd695f6f76f559539f5e6111054d925",
+      "bytes": 28716,
+      "sha256": "3807d19895a64130b6672887dfc0b47e63c8425d9b947e61a4f6d183f862d7f5",
       "mime": "text/html"
     },
     {
-      "name": "2. Atender un aviso de reparación — Bici Puerto — manual del personal (ficticio)_AI_20261021.md",
+      "name": "2. Atender un aviso de reparación — Bici Puerto — manual del personal (ficticio)_AI_20261028.md",
       "bytes": 1334,
-      "sha256": "4c582ad525a5d86e093f5cc748d7e3655fe69efb4a7d93a2afc9845b040c99e1",
+      "sha256": "d194c2c7382e69acbc0e7b23d7cadfee4fd8157aea6adf0f6d11f4124bba0994",
       "mime": "text/markdown"
     }
-  ],
-  "profile_name_field": "Cleared before saving: in this language the field’s default text is not recognised as \"no name\" in 5.8.20, so an untouched field would have become the file title."
+  ]
 }

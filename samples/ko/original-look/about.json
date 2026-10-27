@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "released 5.8.31 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/ko/night-market/",
   "settings": [
     "페이지: 현재 페이지만",
@@ -19,12 +19,11 @@
   "files": [
     {
       "name": "하버 야시장(가상).html",
-      "bytes": 53552,
-      "sha256": "3e9e891113cb9f1b886d4c73fe1079f67189d188f83ef4f05c2711fbd78c56ae",
+      "bytes": 63552,
+      "sha256": "09daf16466a484206ef885b095b73e910e2323596bc7977ac8d76481e9bba907",
       "mime": "text/html"
     }
   ],
-  "profile_name_field": "Cleared before saving: in this language the field’s default text is not recognised as \"no name\" in 5.8.20, so an untouched field would have become the file title.",
   "comparison_screenshots": {
     "viewport": "1200x900",
     "files": [

@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "released 5.8.31 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/it/bike-share-handbook/chapter-2.html",
   "settings": [
     "Pagine: solo la pagina corrente",
@@ -19,14 +19,14 @@
   "files": [
     {
       "name": "2. Gestione di una segnalazione di guasto — Porto in Bici — manuale del personal.html",
-      "bytes": 26949,
-      "sha256": "a815c227eed5fc4c2a39ad43c50379e6d9b5b459056b3b877bbc1876ad13675e",
+      "bytes": 28779,
+      "sha256": "3be1824674de3cb00cf5e94a8f9ab0645653441068eb1e2814a0d9207c4ae436",
       "mime": "text/html"
     },
     {
-      "name": "2. Gestione di una segnalazione di guasto — Porto in Bici — manuale del personale (immaginario)_AI_20261021.md",
+      "name": "2. Gestione di una segnalazione di guasto — Porto in Bici — manuale del personale (immaginario)_AI_20261028.md",
       "bytes": 1387,
-      "sha256": "522e85d30f888774ea8e54048143880cd0ed8f3a7d652e078643068438048f64",
+      "sha256": "314edf1a75979636edd9fde2d236c0dc52150ab1cded3e5572460f5d82506aa4",
       "mime": "text/markdown"
     }
   ]

@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "released 5.8.31 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/de/bike-share-handbook/chapter-1.html",
   "settings": [
     "Seiten: Nur aktuelle Seite",
@@ -19,8 +19,8 @@
   "files": [
     {
       "name": "1. Eine Station öffnen — Hafenrad – Handbuch für Mitarbeitende (fiktiv).html",
-      "bytes": 34827,
-      "sha256": "de66f350c4c23c6919ff917245f302fb2b525650466753e90f0df8e27e373e58",
+      "bytes": 36657,
+      "sha256": "9a5c0319cf596394647b9e754b4e63cc21e110dff334c490960439dc7e36f1b7",
       "mime": "text/html"
     }
   ]

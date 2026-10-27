@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.20",
-    "build": "released 5.8.20 code, loaded unpacked for automated capture",
+    "version": "5.8.31",
+    "build": "released 5.8.31 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 155.0.8059.85 (Windows 11)",
+  "browser": "Chrome 156.0.8078.48 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-21",
+  "date": "2026-10-28",
   "source": "https://grab-all-files.app/samples/source/zh_TW/night-market/",
   "settings": [
     "頁面：僅目前頁面",
@@ -19,8 +19,8 @@
   "files": [
     {
       "name": "港灣夜市(虛構).html",
-      "bytes": 53469,
-      "sha256": "9e3f6c3d45bd736d2ef7133154442e3820185c17f22dec36dca2104fc32b6995",
+      "bytes": 63469,
+      "sha256": "0467249e96f4ea4fa963a8f63e70384a6c8c44ec9d93d6ac8df441e5ea84cfcf",
       "mime": "text/html"
     }
   ],
