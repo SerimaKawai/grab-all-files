@@ -108,7 +108,7 @@
         "caption": "Web Page Collector (Combine pages into HTML): Free saves one chosen page per run, optionally with its original look; Pro combines several selected pages into one HTML"
       }
     ],
-    "softwareVersion": "5.8.33",
+    "softwareVersion": "5.8.34",
     "datePublished": "2025-05-05",
     "dateModified": "2026-10-27",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
@@ -1223,8 +1223,8 @@
         
         <div data-lang="zh_CN" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>最新版本</span><strong>5.8.33</strong></div>
-            <div class="latest-copy"><h3>重启浏览器后收集会暂停，保存的页面之间的链接也能互相跳转。</h3><p>页面收集：收集过程中关闭浏览器（包括强制退出）后，再次启动浏览器时收集不会再自动继续，而是暂停，按“继续”即可接着进行。登录处理更精细：未登录时，几条跳转到登录页的会员链接不会再让整个探索停止；链接的文件在其他网站要求登录时，只将该文件标为失败，收集继续进行。在保存的 HTML 中，仅返回参数（redirect、returnUrl、backUrl 等）不同的左侧菜单等链接，现在会打开同一文件中保存的页面，而不是原网站。“原始外观”PDF：留有同意对话框（Cookiebot 等）的页面不再打印为空白，屏幕旁有已关闭移动菜单的页面也不再以一半大小打印。扫描器 Pro：未读到底的扫描之后的提示，不再推荐界面上已不显示的开关，改为“读到底并重新扫描”。</p></div>
+            <div class="latest-badge"><span>最新版本</span><strong>5.8.34</strong></div>
+            <div class="latest-copy"><h3>扫描不再卡在表格导出按钮上，文件类型的误判也更少了。</h3><p>根据代码分析（84 项）集中修复，减少了已保存的 HTML、“原始外观”、AI 数据、Chrome/Edge 111–118 上的 PDF 文本读取和许可证检查等方面的问题。文件批量下载（Pro）：带有表格导出按钮（打印、Excel、CSV、复制、PDF）的页面不再使扫描停在 0 个文件。页面收集：“易读”不再因收集用标签页出现错误页面而得到 0 页，公开文章下方的邮件订阅表单也不再被当作登录页面而停止。列表不再将 PDF 的电子签名（.pdf.p7s）、Telegram 分享按钮和 MAX 链接作为文件默认选中。</p></div>
           </div>
         </div>
         
