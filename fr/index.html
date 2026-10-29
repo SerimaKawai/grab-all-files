@@ -108,7 +108,7 @@
         "caption": "Web Page Collector (Combine pages into HTML): Free saves one chosen page per run, optionally with its original look; Pro combines several selected pages into one HTML"
       }
     ],
-    "softwareVersion": "5.8.32",
+    "softwareVersion": "5.8.33",
     "datePublished": "2025-05-05",
     "dateModified": "2026-10-27",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
@@ -1218,8 +1218,8 @@
         
         <div data-lang="fr" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>Dernière version</span><strong>5.8.32</strong></div>
-            <div class="latest-copy"><h3>La collecte de pages suit plus sûrement les listes et les manuels.</h3><p>Dans Pro, vous pouvez de nouveau choisir la profondeur des liens (1 à 3), et les manuels dont les pages ne diffèrent que par un long identifiant suivent désormais leur menu de gauche. « Page actuelle et sa suite » ne suit que les pages numérotées de la même liste (?page=2, /page/2/), va au-delà de la page 2 des listes de type WordPress et ne suit plus le chapitre suivant d’un site de documentation ni les liens « Edit page » de GitHub. Les lignes Course Hero affichent le type de fichier d’après le titre du document.</p></div>
+            <div class="latest-badge"><span>Dernière version</span><strong>5.8.33</strong></div>
+            <div class="latest-copy"><h3>Les collectes se mettent en pause après un redémarrage du navigateur, et les pages enregistrées se relient entre elles.</h3><p>Collecte de pages : si le navigateur est fermé (ou plante) pendant une collecte, celle-ci ne reprend plus d’elle-même au redémarrage ; elle est mise en pause et se poursuit avec « Reprendre ». Les demandes de connexion sont traitées plus finement : sans connexion, quelques liens réservés aux membres menant à la page de connexion n’arrêtent plus toute la recherche, et un fichier lié sur un autre site qui demande une connexion est marqué en échec pendant que la collecte continue. Dans le HTML enregistré, les liens du menu de gauche qui ne diffèrent que par un paramètre de retour (redirect, returnUrl, backUrl) ouvrent maintenant la page enregistrée dans le même fichier au lieu du site. PDF « Aspect d’origine » : les pages avec une fenêtre de consentement (Cookiebot) ne s’impriment plus en blanc, et les pages avec un menu mobile fermé à côté de l’écran ne s’impriment plus à moitié de leur taille. Scanner Pro : le conseil après une analyse qui n’a pas chargé jusqu’au bout propose désormais « Lire jusqu’au bout et réanalyser » au lieu d’un interrupteur qui n’est plus affiché.</p></div>
           </div>
         </div>
         
