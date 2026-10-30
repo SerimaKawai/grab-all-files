@@ -108,7 +108,7 @@
         "caption": "Web Page Collector (Combine pages into HTML): Free saves one chosen page per run, optionally with its original look; Pro combines several selected pages into one HTML"
       }
     ],
-    "softwareVersion": "5.8.34",
+    "softwareVersion": "5.8.35",
     "datePublished": "2025-05-05",
     "dateModified": "2026-10-30",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
@@ -1223,8 +1223,8 @@
         
         <div data-lang="zh_CN" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>最新版本</span><strong>5.8.34</strong></div>
-            <div class="latest-copy"><h3>扫描不再卡在表格导出按钮上，文件类型的误判也更少了。</h3><p>根据代码分析（84 项）集中修复，减少了已保存的 HTML、“原始外观”、AI 数据、Chrome/Edge 111–118 上的 PDF 文本读取和许可证检查等方面的问题。文件批量下载（Pro）：带有表格导出按钮（打印、Excel、CSV、复制、PDF）的页面不再使扫描停在 0 个文件。页面收集：“易读”不再因收集用标签页出现错误页面而得到 0 页，公开文章下方的邮件订阅表单也不再被当作登录页面而停止。列表不再将 PDF 的电子签名（.pdf.p7s）、Telegram 分享按钮和 MAX 链接作为文件默认选中。</p></div>
+            <div class="latest-badge"><span>最新版本</span><strong>5.8.35</strong></div>
+            <div class="latest-copy"><h3>滚动时跳到下一篇文章的网站也能收集，不再一直等待无响应的图片服务器。</h3><p>页面收集：对于滚动时会自动跳到下一篇文章的网站，收集不再以“无法获取页面”得到 0 页。在滚动到底部和逐屏读取期间，页面自身的脚本不能再跳转到其他页面（您自己的点击和同一页面内的移动不受影响）。图片服务器无响应的页面不再停在“正在导入图片”超过五分钟：同一服务器从未响应且连续 3 次网络失败后，该页面上来自它的其余图片不再逐张等待，直接记为未能获取。</p></div>
           </div>
         </div>
         

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- generated from _src/index.html by build-locales.mjs; edit that file, not this one; sha256:4c6dab59535dce2901c9698934197010379ce049408f5a56c66fb328f262d90e -->
+<!-- generated from _src/index.html by build-locales.mjs; edit that file, not this one; sha256:e4cf21cf38139d3ea352ebc9bd671f57647ec9df1215a008ce5fbf2ff23c0a61 -->
 <html lang="en">
 <head>
   <script>window.__FORCE_LANG__="en";</script>
@@ -100,7 +100,7 @@
         "caption": "Web Page Collector (Combine pages into HTML): Free saves one chosen page per run, optionally with its original look; Pro combines several selected pages into one HTML"
       }
     ],
-    "softwareVersion": "5.8.34",
+    "softwareVersion": "5.8.35",
     "datePublished": "2025-05-05",
     "dateModified": "2026-10-30",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
@@ -1194,8 +1194,8 @@
       <div class="wrap">
         <div data-lang="en" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>Latest version</span><strong>5.8.34</strong></div>
-            <div class="latest-copy"><h3>Scans no longer hang on table export buttons, and fewer false file types.</h3><p>Stability and accuracy fixes across the extension from an 84-item code review (saved HTML, original look, AI data, PDF text on Chrome/Edge 111–118, license checks). File download (Pro): pages with table export buttons (Print, Excel, CSV, Copy, PDF) no longer hang the scan at 0 files. Page collection: “Readable” no longer ends with 0 pages when the collection tab hits a browser error page, and a newsletter sign-up form under a public article no longer stops collection as a sign-in page. The file list no longer pre-selects a PDF’s signature (.pdf.p7s), Telegram share buttons or MAX messenger links as files.</p></div>
+            <div class="latest-badge"><span>Latest version</span><strong>5.8.35</strong></div>
+            <div class="latest-copy"><h3>Collection no longer fails on sites that jump to the next article, or waits on picture servers that never answer.</h3><p>Page collection: on sites that move to the next article by themselves while you scroll, collection no longer fails with 0 pages (“could not capture the page”); while the page is scrolled to the end or read screen by screen, the page’s own scripts can no longer leave for another page (your own clicks and moves within the page still work). Pages whose picture server does not answer no longer sit at “taking in images” for more than five minutes: after three network failures in a row from a server that never answered, that page’s remaining pictures from it are recorded as not fetched without waiting for each one.</p></div>
           </div>
         </div>
         
