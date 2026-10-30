@@ -108,7 +108,7 @@
         "caption": "Web Page Collector (Combine pages into HTML): Free saves one chosen page per run, optionally with its original look; Pro combines several selected pages into one HTML"
       }
     ],
-    "softwareVersion": "5.8.34",
+    "softwareVersion": "5.8.35",
     "datePublished": "2025-05-05",
     "dateModified": "2026-10-30",
     "browserRequirements": "Requires Google Chrome or Microsoft Edge (Chromium 111 or later), or Mozilla Firefox 128 or later.",
@@ -1224,8 +1224,8 @@
         
         <div data-lang="zh_TW" class="active">
           <div class="latest-panel">
-            <div class="latest-badge"><span>最新版本</span><strong>5.8.34</strong></div>
-            <div class="latest-copy"><h3>掃描不再卡在表格匯出按鈕上，檔案類型的誤判也更少了。</h3><p>根據程式碼分析（84 項）集中修正，減少了已儲存的 HTML、「原始外觀」、AI 資料、Chrome/Edge 111–118 上的 PDF 文字讀取和授權檢查等方面的問題。檔案批次下載（Pro）：帶有表格匯出按鈕（列印、Excel、CSV、複製、PDF）的頁面不再使掃描停在 0 個檔案。頁面收集：「易讀」不再因收集用分頁出現錯誤頁面而得到 0 頁，公開文章下方的電子報表單也不再被當作登入頁面而停止。清單不再將 PDF 的電子簽章（.pdf.p7s）、Telegram 分享按鈕和 MAX 連結作為檔案預設選取。</p></div>
+            <div class="latest-badge"><span>最新版本</span><strong>5.8.35</strong></div>
+            <div class="latest-copy"><h3>捲動時跳到下一篇文章的網站也能收集，不再一直等待沒有回應的圖片伺服器。</h3><p>頁面收集：對於捲動時會自動跳到下一篇文章的網站，收集不再以「無法擷取頁面」得到 0 頁。在捲動到底部和逐屏讀取期間，頁面本身的指令碼不能再跳轉到其他頁面（您自己的點按和同一頁面內的移動不受影響）。圖片伺服器沒有回應的頁面不再停在「正在匯入圖片」超過五分鐘：同一伺服器從未回應且連續 3 次網路失敗後，該頁面上來自它的其餘圖片不再逐張等待，直接記為未能取得。</p></div>
           </div>
         </div>
       </div>
