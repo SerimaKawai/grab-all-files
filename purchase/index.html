@@ -744,6 +744,15 @@
     return 'gaf-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 10);
   })();
 
+  // 購入経路（2026-11-07）：拡張機能のライセンス画面は ?src=ext_cap / ext_divider / ext_buy /
+  // ext_overlay / ext_tab を付けてここを開く。それ以外（サイト内のリンク・検索・直接）は
+  // site。決済作成関数が Stripe の支払いの metadata.src に残す。閉じた語彙だけを通す。
+  var PURCHASE_SRC = (function() {
+    var m = location.search.match(/[?&]src=([a-z_]+)/);
+    var v = m ? m[1] : '';
+    return /^(ext_cap|ext_divider|ext_buy|ext_overlay|ext_tab)$/.test(v) ? v : 'site';
+  })();
+
   function startCheckout(btn) {
     if (btn.disabled || btn.dataset.busy === '1') return;
     var container = btn.closest('[data-lang]');
@@ -759,7 +768,7 @@
     fetch(CHECKOUT_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ lang: lang, idempotency_key: IDEMPOTENCY_KEY }),
+      body: JSON.stringify({ lang: lang, src: PURCHASE_SRC, idempotency_key: IDEMPOTENCY_KEY }),
       signal: ctrl ? ctrl.signal : undefined
     }).then(function(res) {
       if (!res.ok) throw new Error('http ' + res.status);
