@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.31",
-    "build": "developer build of the same 5.8.31 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "version": "5.8.48",
+    "build": "developer build of the same 5.8.48 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 156.0.8078.48 (Windows 11)",
+  "browser": "Chrome 157.0.8103.39 (Windows 11)",
   "plan": "pro",
-  "date": "2026-10-28",
+  "date": "2026-11-11",
   "source": "https://grab-all-files.app/samples/source/de/bike-share-handbook/",
   "settings": [
     "Seiten: Den Links auf dieser Seite folgen (4 Seiten)",
@@ -19,14 +19,14 @@
   "files": [
     {
       "name": "Einleitung — Hafenrad – Handbuch für Mitarbeitende (fiktiv).html",
-      "bytes": 40068,
-      "sha256": "dd902c725db90513faafe2bf11e89dd44eb4df1fdaa1472d3cde0d62b3ea4857",
+      "bytes": 42474,
+      "sha256": "2789b3eb0d8f6b764213aa81784288652fd5040374990b43d39ab52411105092",
       "mime": "text/html"
     },
     {
-      "name": "Einleitung — Hafenrad – Handbuch für Mitarbeitende (fiktiv)_AI_20261028.zip",
-      "bytes": 7762,
-      "sha256": "62c7ed68bbf4b531b03b7dc66298031e69eae25273c4f4877670e007d4bfb80d",
+      "name": "Einleitung — Hafenrad – Handbuch für Mitarbeitende (fiktiv)_AI_20261111.zip",
+      "bytes": 7904,
+      "sha256": "b620a6d2678a6f39f61dc4bf00ab2b7045e1a5ca5f83e5eafd2907476fa74da2",
       "mime": "application/x-zip-compressed"
     }
   ]

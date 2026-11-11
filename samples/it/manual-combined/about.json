@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.31",
-    "build": "developer build of the same 5.8.31 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "version": "5.8.48",
+    "build": "developer build of the same 5.8.48 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 156.0.8078.48 (Windows 11)",
+  "browser": "Chrome 157.0.8103.39 (Windows 11)",
   "plan": "pro",
-  "date": "2026-10-28",
+  "date": "2026-11-11",
   "source": "https://grab-all-files.app/samples/source/it/bike-share-handbook/",
   "settings": [
     "Pagine: Segui i collegamenti di questa pagina (4 pagine)",
@@ -20,8 +20,8 @@
   "files": [
     {
       "name": "Introduzione — Porto in Bici — manuale del personale (immaginario).html",
-      "bytes": 39901,
-      "sha256": "eec16530e6efff23beb58e191883d030d036c3e58d9e19a458f9fb451966904f",
+      "bytes": 42307,
+      "sha256": "9823a826af519f787bb28e6fc51305a8b264a56db71b7274c07c1a78c233be8f",
       "mime": "text/html"
     }
   ],

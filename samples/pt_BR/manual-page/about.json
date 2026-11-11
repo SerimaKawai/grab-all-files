@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.31",
-    "build": "released 5.8.31 code, loaded unpacked for automated capture",
+    "version": "5.8.48",
+    "build": "released 5.8.48 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 156.0.8078.48 (Windows 11)",
+  "browser": "Chrome 157.0.8103.39 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-28",
+  "date": "2026-11-11",
   "source": "https://grab-all-files.app/samples/source/pt_BR/bike-share-handbook/chapter-1.html",
   "settings": [
     "Páginas: apenas página atual",
@@ -19,8 +19,8 @@
   "files": [
     {
       "name": "1. Abrir uma estação — Bicicletas do Porto — manual da equipe (fictício).html",
-      "bytes": 36639,
-      "sha256": "a699d39702f94b307bb8835523225eb458ca523592762705df83d2f487708f8d",
+      "bytes": 39697,
+      "sha256": "f2a5fe2123e39657d1f0122711f5d231b34ccba3dc00aec5ffcb78d979a1c347",
       "mime": "text/html"
     }
   ]

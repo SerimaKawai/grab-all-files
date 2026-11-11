@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.31",
-    "build": "developer build of the same 5.8.31 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "version": "5.8.48",
+    "build": "developer build of the same 5.8.48 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 156.0.8078.48 (Windows 11)",
+  "browser": "Chrome 157.0.8103.39 (Windows 11)",
   "plan": "pro",
-  "date": "2026-10-28",
+  "date": "2026-11-11",
   "source": "https://grab-all-files.app/samples/source/ko/bike-share-handbook/",
   "settings": [
     "페이지: 이 페이지의 링크를 따라가기(4페이지)",
@@ -20,8 +20,8 @@
   "files": [
     {
       "name": "소개 — 하버 자전거 공유 — 직원 안내서(가상).html",
-      "bytes": 39951,
-      "sha256": "64181bbd4e28c77e4fd64fc24e77f63f3a383322811a99188435adff22451fc6",
+      "bytes": 42357,
+      "sha256": "341732934b5be2c4ea368e3720a44b289d8a3a7cb25c3c53a3e9104a374a582f",
       "mime": "text/html"
     }
   ],

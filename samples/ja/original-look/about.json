@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.31",
-    "build": "released 5.8.31 code, loaded unpacked for automated capture",
+    "version": "5.8.48",
+    "build": "released 5.8.48 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 156.0.8078.48 (Windows 11)",
+  "browser": "Chrome 157.0.8103.39 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-28",
+  "date": "2026-11-11",
   "source": "https://grab-all-files.app/samples/source/ja/night-market/",
   "settings": [
     "集めるページ：開いているページ",
@@ -19,8 +19,8 @@
   "files": [
     {
       "name": "ハーバー・ナイトマーケット(架空).html",
-      "bytes": 63264,
-      "sha256": "fae78a9aaf34f9a1924552a384462f27419412faca4b0057b687065300d06e59",
+      "bytes": 138858,
+      "sha256": "a54fbdbf8afa13b3d129608b7e3e99630027fcc0e0a4c24c5ce593e366557093",
       "mime": "text/html"
     }
   ],

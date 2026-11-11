@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.31",
-    "build": "released 5.8.31 code, loaded unpacked for automated capture",
+    "version": "5.8.48",
+    "build": "released 5.8.48 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 156.0.8078.48 (Windows 11)",
+  "browser": "Chrome 157.0.8103.39 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-28",
+  "date": "2026-11-11",
   "source": "https://grab-all-files.app/samples/source/ko/bike-share-handbook/chapter-2.html",
   "settings": [
     "페이지: 현재 페이지만",
@@ -19,14 +19,14 @@
   "files": [
     {
       "name": "2. 수리 신고 처리 — 하버 자전거 공유 — 직원 안내서(가상).html",
-      "bytes": 28752,
-      "sha256": "4a2e0914617640e50b2cb3f2e62c03aae32a3940758619094a9dad1b91f24337",
+      "bytes": 31810,
+      "sha256": "bb42e302c47e619b473267f63d5bc99a29bf7fc43de0d5cabfba7d6b9932a114",
       "mime": "text/html"
     },
     {
-      "name": "2. 수리 신고 처리 — 하버 자전거 공유 — 직원 안내서(가상)_AI_20261028.md",
-      "bytes": 1383,
-      "sha256": "7722b568bafdcfae69a744dbda6bb565468a7cb520ba1fff174d92be857872fa",
+      "name": "2. 수리 신고 처리 — 하버 자전거 공유 — 직원 안내서(가상)_AI_20261111.md",
+      "bytes": 1377,
+      "sha256": "dea2857f03b39ce17e6bccf55f11ba7fc240a0eca00d46e0e892bbf4fdf19425",
       "mime": "text/markdown"
     }
   ]

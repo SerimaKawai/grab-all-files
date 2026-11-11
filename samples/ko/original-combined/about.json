@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.31",
-    "build": "developer build of the same 5.8.31 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "version": "5.8.48",
+    "build": "developer build of the same 5.8.48 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 156.0.8078.48 (Windows 11)",
+  "browser": "Chrome 157.0.8103.39 (Windows 11)",
   "plan": "pro",
-  "date": "2026-10-28",
+  "date": "2026-11-11",
   "source": "https://grab-all-files.app/samples/source/ko/night-market-site/",
   "settings": [
     "페이지: 이 페이지의 링크를 따라가기(3페이지)",
@@ -20,8 +20,8 @@
   "files": [
     {
       "name": "하버 야시장(가상).html",
-      "bytes": 142407,
-      "sha256": "3b7363c00ab7426476232d2095ddae9ddefa95b83bf4b9871b8349dc74710a63",
+      "bytes": 147537,
+      "sha256": "c9c284e87951223984d081df5b1274ba23dbea21082078c4254fec92c653a14e",
       "mime": "text/html"
     }
   ],
