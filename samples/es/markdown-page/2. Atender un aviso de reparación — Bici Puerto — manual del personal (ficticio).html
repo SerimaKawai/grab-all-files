@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data: file:; style-src 'unsafe-inline'; font-src data:; script-src 'sha256-f1UD772DFte/Zqf/Vh1vO8xYdzo2h7YIbfoqLBea8gg=';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data: file:; style-src 'unsafe-inline'; font-src data:; script-src 'sha256-pw2AXM+sb7/gGaP1j+lzN6KvzaWNwd9xnoM4kXT/z00=';">
   <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>2. Atender un aviso de reparación — Bici Puerto — manual del personal (ficticio)</title>
@@ -162,7 +162,7 @@
         <header class="gaf-page-header">
           <h2>2. Atender un aviso de reparación</h2>
         </header>
-        <div class="gaf-page-content"><p>Los usuarios comunican problemas desde la aplicación o en la estación. Cada aviso recibe un número.</p><h6>Pasos</h6><ol><li>Abra el aviso y lea la descripción.</li><li>Localice la bicicleta por su número en el anclaje.</li><li>Si no es segura, bloquéela y márquela como «Fuera de servicio».</li><li>Anote en el aviso lo que hizo y ciérrelo.</li></ol><h6>Prioridad</h6><table><thead><tr><th>Problema</th><th>Prioridad</th><th>Responder en</th></tr></thead><tbody><tr><td>Frenos</td><td>Alta</td><td>1 hora</td></tr><tr><td>Pinchazo</td><td>Media</td><td>El mismo día</td></tr><tr><td>Timbre, cesta</td><td>Baja</td><td>3 días</td></tr></tbody></table><p>Anterior: <a href="https://grab-all-files.app/samples/source/es/bike-share-handbook/chapter-1.html" rel="noopener noreferrer">Abrir una estación</a> · Siguiente: <a href="https://grab-all-files.app/samples/source/es/bike-share-handbook/chapter-3.html" rel="noopener noreferrer">Cerrar la jornada</a>.</p></div>
+        <div class="gaf-page-content"><p>Los usuarios comunican problemas desde la aplicación o en la estación. Cada aviso recibe un número.</p><h4>Pasos</h4><ol><li>Abra el aviso y lea la descripción.</li><li>Localice la bicicleta por su número en el anclaje.</li><li>Si no es segura, bloquéela y márquela como «Fuera de servicio».</li><li>Anote en el aviso lo que hizo y ciérrelo.</li></ol><h4>Prioridad</h4><table><thead><tr><th>Problema</th><th>Prioridad</th><th>Responder en</th></tr></thead><tbody><tr><td>Frenos</td><td>Alta</td><td>1 hora</td></tr><tr><td>Pinchazo</td><td>Media</td><td>El mismo día</td></tr><tr><td>Timbre, cesta</td><td>Baja</td><td>3 días</td></tr></tbody></table><p>Anterior: <a href="https://grab-all-files.app/samples/source/es/bike-share-handbook/chapter-1.html" rel="noopener noreferrer">Abrir una estación</a> · Siguiente: <a href="https://grab-all-files.app/samples/source/es/bike-share-handbook/chapter-3.html" rel="noopener noreferrer">Cerrar la jornada</a>.</p></div>
       </section>
     
     
@@ -199,15 +199,34 @@
   function fold(value) {
     try { return value.normalize('NFKC').toLowerCase(); } catch (e) { return value.toLowerCase(); }
   }
+  var MARK_RE = null;
+  try { MARK_RE = new RegExp('^[\\p{M}\\uFF9E\\uFF9F]$', 'u'); } catch (e) { MARK_RE = /^[\u0300-\u036F\u3099\u309A\uFF9E\uFF9F]$/; }
+  function nextCodePoint(value, i) {
+    var c = value.charCodeAt(i);
+    if (c >= 0xD800 && c <= 0xDBFF && i + 1 < value.length) {
+      var d = value.charCodeAt(i + 1);
+      if (d >= 0xDC00 && d <= 0xDFFF) return i + 2;
+    }
+    return i + 1;
+  }
   function foldedMap(value) {
     var norm = '';
     var map = [];
-    for (var i = 0; i < value.length; i++) {
-      var piece = fold(value.charAt(i));
-      for (var j = 0; j < piece.length; j++) { norm += piece.charAt(j); map.push(i); }
+    var ends = [];
+    var i = 0;
+    while (i < value.length) {
+      var start = i;
+      i = nextCodePoint(value, i);
+      while (i < value.length) {
+        var after = nextCodePoint(value, i);
+        if (!MARK_RE.test(value.slice(i, after))) break;
+        i = after;
+      }
+      var piece = fold(value.slice(start, i));
+      for (var j = 0; j < piece.length; j++) { norm += piece.charAt(j); map.push(start); ends.push(i); }
     }
     map.push(value.length);
-    return { norm: norm, map: map };
+    return { norm: norm, map: map, ends: ends };
   }
   function getPages() { return document.querySelectorAll('section.gaf-page'); }
   function allDocs() {
@@ -240,30 +259,35 @@
     cappedSearch = false;
     lastQuery = null;
   }
-  function nodeRejected(node, root, headingsOnly) {
-    var parent = node.parentNode;
-    var inHeading = false;
-    while (parent && parent !== root) {
-      var name = parent.nodeName ? parent.nodeName.toLowerCase() : '';
-      if (name === 'mark' || name === 'script' || name === 'style') return true;
-      if (HEADINGS[name]) inHeading = true;
-      parent = parent.parentNode;
-    }
-    if (headingsOnly && !inHeading) return true;
-    return false;
-  }
-  function collectTextNodes(root, headingsOnly) {
-    var nodes = [];
-    var walker = (root.ownerDocument || document).createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-      acceptNode: function (node) {
-        if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
-        if (nodeRejected(node, root, headingsOnly)) return NodeFilter.FILTER_REJECT;
-        return NodeFilter.FILTER_ACCEPT;
+  var INLINE = { a: 1, abbr: 1, b: 1, bdi: 1, bdo: 1, cite: 1, code: 1, data: 1, del: 1, dfn: 1, em: 1, font: 1, i: 1, ins: 1, kbd: 1, label: 1, q: 1, s: 1, samp: 1, small: 1, span: 1, strong: 1, sub: 1, sup: 1, time: 1, tt: 1, u: 1, var: 1 };
+  function collectRuns(root, headingsOnly, runs) {
+    var current = null;
+    function flush() {
+      if (current) {
+        for (var k = 0; k < current.length; k++) if (current[k].nodeValue.trim()) { runs.push(current); break; }
       }
-    });
-    var current;
-    while ((current = walker.nextNode())) nodes.push(current);
-    return nodes;
+      current = null;
+    }
+    function walk(node, inHeading) {
+      for (var child = node.firstChild; child; child = child.nextSibling) {
+        if (child.nodeType === 3) {
+          if (!child.nodeValue || (headingsOnly && !inHeading)) continue;
+          if (!current) current = [];
+          current.push(child);
+          continue;
+        }
+        if (child.nodeType !== 1) continue;
+        var name = child.nodeName ? child.nodeName.toLowerCase() : '';
+        if (name === 'mark' || name === 'script' || name === 'style') { flush(); continue; }
+        var inline = INLINE[name] === 1;
+        if (!inline) flush();
+        walk(child, inHeading || HEADINGS[name] === 1);
+        if (!inline) flush();
+      }
+    }
+    walk(root, false);
+    flush();
+    return runs;
   }
   function updateCounter() {
     var counter = counterEl();
@@ -283,14 +307,18 @@
     t.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
     t.setAttribute('aria-label', collapsed ? L('expandPage', 'Expand this page') : L('collapsePage', 'Collapse this page'));
   }
+  function setHitClass(mark, name) {
+    var parts = mark.gafParts || [mark];
+    for (var i = 0; i < parts.length; i++) parts[i].className = name;
+  }
   function setCurrent(index) {
     if (!hits.length) return;
-    if (currentIndex >= 0 && hits[currentIndex]) hits[currentIndex].className = 'gaf-search-hit';
+    if (currentIndex >= 0 && hits[currentIndex]) setHitClass(hits[currentIndex], 'gaf-search-hit');
     if (index < 0) index = hits.length - 1;
     if (index >= hits.length) index = 0;
     currentIndex = index;
     var mark = hits[currentIndex];
-    mark.className = 'gaf-search-hit gaf-search-current';
+    setHitClass(mark, 'gaf-search-hit gaf-search-current');
     var owner = mark.ownerDocument;
     var host = owner && owner !== document && owner.defaultView && owner.defaultView.frameElement ? owner.defaultView.frameElement : mark;
     var shadow = host === mark && mark.getRootNode ? mark.getRootNode() : null;
@@ -316,7 +344,7 @@
     var last = 0;
     while (idx !== -1) {
       var rawStart = folded.map[idx];
-      var rawEnd = folded.map[idx + needle.length];
+      var rawEnd = folded.ends[idx + needle.length - 1];
       if (rawEnd <= rawStart) rawEnd = rawStart + 1;
       if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
       else if (rawStart < last) rawStart = last;
@@ -333,6 +361,61 @@
     if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
     node.parentNode.replaceChild(frag, node);
   }
+  function processRun(run, needle) {
+    if (run.length === 1) { processNode(run[0], needle); return; }
+    var parts = [];
+    var norm = '';
+    for (var p = 0; p < run.length; p++) {
+      var f = foldedMap(run[p].nodeValue);
+      parts.push({ node: run[p], folded: f, start: norm.length, cuts: [] });
+      norm += f.norm;
+    }
+    var idx = norm.indexOf(needle);
+    if (idx === -1) return;
+    var groups = [];
+    while (idx !== -1) {
+      var end = idx + needle.length;
+      var group = [];
+      groups.push(group);
+      for (var r = 0; r < parts.length; r++) {
+        var part = parts[r];
+        var partEnd = part.start + part.folded.norm.length;
+        if (partEnd <= idx || part.start >= end) continue;
+        var from = Math.max(idx, part.start) - part.start;
+        var to = Math.min(end, partEnd) - part.start;
+        part.cuts.push({ rawStart: part.folded.map[from], rawEnd: part.folded.ends[to - 1], group: group });
+      }
+      if (hits.length + groups.length >= MAX_MARKS) { cappedSearch = true; break; }
+      idx = norm.indexOf(needle, end);
+    }
+    for (var s = 0; s < parts.length; s++) {
+      var node = parts[s].node;
+      if (!parts[s].cuts.length || !node.parentNode) continue;
+      var value = node.nodeValue;
+      var doc = node.ownerDocument || document;
+      var frag = doc.createDocumentFragment();
+      var last = 0;
+      for (var t = 0; t < parts[s].cuts.length; t++) {
+        var cut = parts[s].cuts[t];
+        var rawStart = cut.rawStart < last ? last : cut.rawStart;
+        if (cut.rawEnd <= rawStart) continue;
+        if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
+        var mark = doc.createElement('mark');
+        mark.className = 'gaf-search-hit';
+        mark.textContent = value.slice(rawStart, cut.rawEnd);
+        frag.appendChild(mark);
+        cut.group.push(mark);
+        last = cut.rawEnd;
+      }
+      if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    }
+    for (var g = 0; g < groups.length; g++) {
+      if (!groups[g].length) continue;
+      groups[g][0].gafParts = groups[g];
+      hits.push(groups[g][0]);
+    }
+  }
   function highlight(query, headingsOnly) {
     var needle = fold(query || '').replace(/^\s+|\s+$/g, '');
     if (needle === lastQuery && headingsOnly === lastHeadings) return;
@@ -345,21 +428,18 @@
     var pages = getPages();
     var nodes = [];
     for (var pi = 0; pi < pages.length; pi++) {
-      var pageNodes = collectTextNodes(pages[pi], headingsOnly);
-      for (var ni = 0; ni < pageNodes.length; ni++) nodes.push(pageNodes[ni]);
+      collectRuns(pages[pi], headingsOnly, nodes);
       var pageFrames = pages[pi].querySelectorAll('iframe.gaf-look-frame');
       for (var fi = 0; fi < pageFrames.length; fi++) {
         var frameDoc = null;
         try { frameDoc = pageFrames[fi].contentDocument; } catch (e) { frameDoc = null; }
         if (!frameDoc || !frameDoc.body) continue;
-        var frameNodes = collectTextNodes(frameDoc.body, headingsOnly);
-        for (var fn = 0; fn < frameNodes.length; fn++) nodes.push(frameNodes[fn]);
+        collectRuns(frameDoc.body, headingsOnly, nodes);
       }
       var pageHosts = pages[pi].querySelectorAll('.gaf-look-host');
       for (var hi = 0; hi < pageHosts.length; hi++) {
         if (!pageHosts[hi].shadowRoot) continue;
-        var hostNodes = collectTextNodes(pageHosts[hi].shadowRoot, headingsOnly);
-        for (var hn = 0; hn < hostNodes.length; hn++) nodes.push(hostNodes[hn]);
+        collectRuns(pageHosts[hi].shadowRoot, headingsOnly, nodes);
       }
     }
     var index = 0;
@@ -368,7 +448,7 @@
       if (runId !== searchRun) return;
       var end = index + CHUNK;
       if (end > nodes.length) end = nodes.length;
-      for (; index < end && !cappedSearch; index++) processNode(nodes[index], needle);
+      for (; index < end && !cappedSearch; index++) processRun(nodes[index], needle);
       if (index < nodes.length && !cappedSearch) {
         updateCounter();
         if (window.requestAnimationFrame) window.requestAnimationFrame(step);

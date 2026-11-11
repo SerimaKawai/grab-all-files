@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.31",
-    "build": "released 5.8.31 code, loaded unpacked for automated capture",
+    "version": "5.8.48",
+    "build": "released 5.8.48 code, loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 156.0.8078.48 (Windows 11)",
+  "browser": "Chrome 157.0.8103.39 (Windows 11)",
   "plan": "free",
-  "date": "2026-10-28",
+  "date": "2026-11-11",
   "source": "https://grab-all-files.app/samples/source/it/night-market/",
   "settings": [
     "Pagine: solo la pagina corrente",
@@ -19,8 +19,8 @@
   "files": [
     {
       "name": "Mercato notturno del Porto (immaginario).html",
-      "bytes": 63533,
-      "sha256": "76d840144233d61999ee22c550185807810d0f7a87ce4b33b071f258363acbef",
+      "bytes": 139079,
+      "sha256": "523ee76b172bae17435b09085d05490947a8716b7f030b7193e07a39e6b38af9",
       "mime": "text/html"
     }
   ],

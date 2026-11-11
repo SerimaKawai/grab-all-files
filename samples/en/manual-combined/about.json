@@ -2,13 +2,13 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.31",
-    "build": "developer build of the same 5.8.31 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
+    "version": "5.8.48",
+    "build": "developer build of the same 5.8.48 source (Pro features from the developer build, no license used); loaded unpacked for automated capture",
     "tool": "collector"
   },
-  "browser": "Chrome 156.0.8078.48 (Windows 11)",
+  "browser": "Chrome 157.0.8103.39 (Windows 11)",
   "plan": "pro",
-  "date": "2026-10-28",
+  "date": "2026-11-11",
   "source": "https://grab-all-files.app/samples/source/en/bike-share-handbook/",
   "settings": [
     "Pages: linked pages (4 pages)",
@@ -20,8 +20,8 @@
   "files": [
     {
       "name": "Introduction — Harbor Bike Share — staff handbook (fictional).html",
-      "bytes": 39453,
-      "sha256": "c37d65a58d439da94c1fe6fb406050d6bddd4635a09b940e45d85e84478e4605",
+      "bytes": 41859,
+      "sha256": "df55df48432c9e04c924a62288cc5dd5619c64c3a28475756cc842c0d8ef8426",
       "mime": "text/html"
     }
   ],
