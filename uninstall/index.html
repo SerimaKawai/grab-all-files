@@ -261,9 +261,17 @@
 
           <div class="reason-choice">
             <label class="reason"><input type="checkbox" name="reason" value="missing_feature"><span id="r-missing_feature">It was missing a feature I needed</span></label>
-            <div class="field reason-detail hidden" id="detail-missing_feature" data-reason-detail="missing_feature">
-              <label for="f-detail-missing_feature" id="l-detail-missing_feature">Please describe the feature you wanted (required)</label>
-              <textarea id="f-detail-missing_feature" name="detail_missing_feature" maxlength="2000"></textarea>
+            <div class="reason-detail hidden" id="detail-missing_feature" data-reason-detail="missing_feature">
+              <div class="field">
+                <label for="f-detail-missing_feature" id="l-detail-missing_feature">Please describe the feature you wanted (required)</label>
+                <textarea id="f-detail-missing_feature" name="detail_missing_feature" maxlength="2000"></textarea>
+              </div>
+              <div class="field">
+                <label for="f-detail-missing_feature_source_page" id="l-detail-missing_feature_source_page">Page URL where you wanted to use it (optional)</label>
+                <textarea id="f-detail-missing_feature_source_page" name="detail_missing_feature_source_page" maxlength="2000" inputmode="url" spellcheck="false"></textarea>
+                <p class="reason-note" id="help-detail-missing_feature_source_page">If you needed the feature on a specific page, paste the URL shown in your browser's address bar. It lets us check what happens on that page.</p>
+                <p class="reason-note url-privacy-note" id="privacy-detail-missing_feature_source_page">Before sending, remove anything private from the URL, such as a token or key after “?”.</p>
+              </div>
               <p class="reason-note reason-fix-note" id="note-detail-missing_feature">If we can fix it, we will ship an update in about a week.</p>
             </div>
           </div>
@@ -364,13 +372,13 @@
     not_detected: ['not_detected_source_page', 'not_detected_file_link'],
     non_video_not_detected: ['non_video_not_detected'],
     not_downloaded: ['not_downloaded_source_page', 'not_downloaded_file_link', 'not_downloaded_direct_open_result', 'not_downloaded'],
-    missing_feature: ['missing_feature'],
+    missing_feature: ['missing_feature', 'missing_feature_source_page'],
     bug: ['bug'],
     no_longer_needed: ['no_longer_needed_helpfulness'],
     other: ['other_helpfulness'],
   };
   var DETAIL_REASONS = Object.keys(DETAIL_FIELDS);
-  var OPTIONAL_DETAIL_FIELDS = ['not_downloaded'];
+  var OPTIONAL_DETAIL_FIELDS = ['not_downloaded', 'missing_feature_source_page'];
   var DETAIL_CHOICES = {
     no_longer_needed_helpfulness: ['helpful', 'not_helpful'],
     other_helpfulness: ['helpful', 'not_helpful'],
@@ -405,6 +413,8 @@
       detail_not_downloaded_direct_open_result_help: 'For example: it downloaded normally, showed a 403 error or login page, opened a web page, or did nothing.',
       detail_not_downloaded_label: 'Other details or error messages (optional)',
       detail_missing_feature_label: 'Please describe the feature you wanted (required)',
+      detail_missing_feature_source_page_label: 'Page URL where you wanted to use it (optional)',
+      detail_missing_feature_source_page_help: 'If you needed the feature on a specific page, paste the URL shown in your browser\'s address bar. It lets us check what happens on that page.',
       detail_bug_label: 'Please describe the bug or error (required)',
       detail_no_longer_needed_helpfulness_label: 'Was this extension useful while you were using it? (required)',
       detail_no_longer_needed_helpfulness_helpful: 'It was useful',
@@ -463,6 +473,8 @@
       detail_not_downloaded_direct_open_result_help: '例：正常にダウンロードできた、403エラーまたはログイン画面が表示された、Webページが開いた、何も起きなかった。',
       detail_not_downloaded_label: 'その他の状況・エラーメッセージ（任意）',
       detail_missing_feature_label: '希望する機能をご記入ください（必須）',
+      detail_missing_feature_source_page_label: '使おうとしたページのURL（任意）',
+      detail_missing_feature_source_page_help: '特定のページで必要だった場合は、ブラウザーのアドレス欄に表示されているURLを貼り付けてください。そのページで何が起きるかを確認できます。',
       detail_bug_label: '不具合やエラーの内容をご記入ください（必須）',
       detail_no_longer_needed_helpfulness_label: 'この拡張機能は役に立ちましたか？（必須）',
       detail_no_longer_needed_helpfulness_helpful: '役に立った',
@@ -521,6 +533,8 @@
       detail_not_downloaded_direct_open_result_help: 'Por ejemplo: se descargó normalmente, apareció un error 403 o una página de inicio de sesión, se abrió una página web o no ocurrió nada.',
       detail_not_downloaded_label: 'Otros detalles o mensajes de error (opcional)',
       detail_missing_feature_label: 'Describe la función que querías (obligatorio)',
+      detail_missing_feature_source_page_label: 'URL de la página donde querías usarla (opcional)',
+      detail_missing_feature_source_page_help: 'Si necesitabas la función en una página concreta, pega la URL que aparece en la barra de direcciones del navegador. Así podemos comprobar qué ocurre en esa página.',
       detail_bug_label: 'Describe el bug o error (obligatorio)',
       detail_no_longer_needed_helpfulness_label: '¿Te resultó útil esta extensión mientras la usabas? (obligatorio)',
       detail_no_longer_needed_helpfulness_helpful: 'Fue útil',
@@ -579,6 +593,8 @@
       detail_not_downloaded_direct_open_result_help: 'Par exemple : téléchargement normal, erreur 403 ou page de connexion, ouverture d\'une page web, ou aucune réaction.',
       detail_not_downloaded_label: 'Autres détails ou messages d\'erreur (facultatif)',
       detail_missing_feature_label: 'Décrivez la fonctionnalité souhaitée (obligatoire)',
+      detail_missing_feature_source_page_label: 'URL de la page où vous vouliez l\'utiliser (facultatif)',
+      detail_missing_feature_source_page_help: 'Si vous aviez besoin de la fonctionnalité sur une page précise, collez l\'URL affichée dans la barre d\'adresse du navigateur. Nous pourrons ainsi vérifier ce qui se passe sur cette page.',
       detail_bug_label: 'Décrivez le bug ou l\'erreur (obligatoire)',
       detail_no_longer_needed_helpfulness_label: 'Cette extension vous a-t-elle été utile pendant son utilisation ? (obligatoire)',
       detail_no_longer_needed_helpfulness_helpful: 'Elle a été utile',
@@ -637,6 +653,8 @@
       detail_not_downloaded_direct_open_result_help: '예: 정상적으로 다운로드됨, 403 오류 또는 로그인 페이지가 표시됨, 웹페이지가 열림, 아무 반응이 없음.',
       detail_not_downloaded_label: '기타 상황 또는 오류 메시지 (선택)',
       detail_missing_feature_label: '원하는 기능을 입력해 주세요 (필수)',
+      detail_missing_feature_source_page_label: '사용하려던 페이지의 URL (선택)',
+      detail_missing_feature_source_page_help: '특정 페이지에서 필요했다면 브라우저 주소 표시줄에 표시된 URL을 붙여 넣어 주세요. 해당 페이지에서 어떤 일이 일어나는지 확인할 수 있습니다.',
       detail_bug_label: '버그나 오류 내용을 입력해 주세요 (필수)',
       detail_no_longer_needed_helpfulness_label: '이 확장 프로그램을 사용하는 동안 도움이 되었나요? (필수)',
       detail_no_longer_needed_helpfulness_helpful: '도움이 되었다',
@@ -695,6 +713,8 @@
       detail_not_downloaded_direct_open_result_help: 'Ad esempio: download normale, errore 403 o pagina di accesso, apertura di una pagina web oppure nessuna reazione.',
       detail_not_downloaded_label: 'Altri dettagli o messaggi di errore (facoltativo)',
       detail_missing_feature_label: 'Descrivi la funzione che desideravi (obbligatorio)',
+      detail_missing_feature_source_page_label: 'URL della pagina in cui volevi usarla (facoltativo)',
+      detail_missing_feature_source_page_help: 'Se la funzione ti serviva su una pagina specifica, incolla l\'URL mostrato nella barra degli indirizzi del browser. Così possiamo verificare cosa succede in quella pagina.',
       detail_bug_label: 'Descrivi il bug o l\'errore (obbligatorio)',
       detail_no_longer_needed_helpfulness_label: 'Questa estensione ti è stata utile mentre la usavi? (obbligatorio)',
       detail_no_longer_needed_helpfulness_helpful: 'È stata utile',
@@ -753,6 +773,8 @@
       detail_not_downloaded_direct_open_result_help: '例如：正常下载、显示 403 错误或登录页面、打开了网页，或者没有任何反应。',
       detail_not_downloaded_label: '其他情况或错误信息（可选）',
       detail_missing_feature_label: '请填写您希望添加的功能（必填）',
+      detail_missing_feature_source_page_label: '您想使用该功能的页面 URL（可选）',
+      detail_missing_feature_source_page_help: '如果是在某个特定页面上需要该功能，请粘贴浏览器地址栏中显示的 URL，方便我们检查该页面的情况。',
       detail_bug_label: '请填写错误或故障内容（必填）',
       detail_no_longer_needed_helpfulness_label: '您在使用此扩展程序期间觉得它有用吗？（必填）',
       detail_no_longer_needed_helpfulness_helpful: '有用',
@@ -811,6 +833,8 @@
       detail_not_downloaded_direct_open_result_help: '例如：正常下載、顯示 403 錯誤或登入頁面、開啟了網頁，或沒有任何反應。',
       detail_not_downloaded_label: '其他情況或錯誤訊息（選填）',
       detail_missing_feature_label: '請填寫您希望加入的功能（必填）',
+      detail_missing_feature_source_page_label: '您想使用該功能的頁面 URL（選填）',
+      detail_missing_feature_source_page_help: '如果是在某個特定頁面上需要該功能，請貼上瀏覽器網址列中顯示的 URL，方便我們檢查該頁面的情況。',
       detail_bug_label: '請填寫錯誤或故障內容（必填）',
       detail_no_longer_needed_helpfulness_label: '您在使用此擴充功能期間覺得它有幫助嗎？（必填）',
       detail_no_longer_needed_helpfulness_helpful: '有幫助',
@@ -869,6 +893,8 @@
       detail_not_downloaded_direct_open_result_help: 'Por exemplo: download normal, erro 403 ou página de login, abertura de uma página web ou nenhuma reação.',
       detail_not_downloaded_label: 'Outros detalhes ou mensagens de erro (opcional)',
       detail_missing_feature_label: 'Descreva o recurso que você queria (obrigatório)',
+      detail_missing_feature_source_page_label: 'URL da página onde você queria usá-lo (opcional)',
+      detail_missing_feature_source_page_help: 'Se você precisava do recurso em uma página específica, cole a URL exibida na barra de endereços do navegador. Assim podemos verificar o que acontece nessa página.',
       detail_bug_label: 'Descreva o bug ou erro (obrigatório)',
       detail_no_longer_needed_helpfulness_label: 'Esta extensão foi útil enquanto você a utilizou? (obrigatório)',
       detail_no_longer_needed_helpfulness_helpful: 'Foi útil',
@@ -927,6 +953,8 @@
       detail_not_downloaded_direct_open_result_help: 'Zum Beispiel: normaler Download, 403-Fehler oder Anmeldeseite, Öffnen einer Webseite oder keine Reaktion.',
       detail_not_downloaded_label: 'Weitere Details oder Fehlermeldungen (optional)',
       detail_missing_feature_label: 'Bitte beschreiben Sie die gewünschte Funktion (erforderlich)',
+      detail_missing_feature_source_page_label: 'URL der Seite, auf der Sie die Funktion nutzen wollten (optional)',
+      detail_missing_feature_source_page_help: 'Wenn Sie die Funktion auf einer bestimmten Seite gebraucht haben, fügen Sie die URL aus der Adressleiste des Browsers ein. So können wir prüfen, was auf dieser Seite passiert.',
       detail_bug_label: 'Bitte beschreiben Sie den Fehler oder Bug (erforderlich)',
       detail_no_longer_needed_helpfulness_label: 'War diese Erweiterung während Ihrer Nutzung hilfreich? (erforderlich)',
       detail_no_longer_needed_helpfulness_helpful: 'Sie war hilfreich',
