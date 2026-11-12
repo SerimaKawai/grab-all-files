@@ -149,7 +149,7 @@
 
     <div data-lang="en" lang="en">
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: November 7, 2026</p>
+      <p class="updated">Last updated: November 12, 2026</p>
       <p><strong>Optional repair notification after uninstall:</strong> We do not ask for your email address unless you explicitly request one email about a fix or improvement related to your report. If you opt in, your address is stored separately and linked to that report. Unconfirmed addresses are deleted within seven days; after confirmation, the address remains linked only until the related notice, withdrawal, or the 12-month limit. It is never used for marketing. Supabase stores the address and Resend delivers the confirmation and any notice. You can unsubscribe or request deletion at any time.</p>
       <p><strong>Grab All Files</strong> ("the Extension") is a browser extension that helps users find, inspect, download, and optionally merge files from web pages they choose. This policy explains what data the Extension handles, how it is used, where it is stored, and when it is transmitted.</p>
 
@@ -158,7 +158,7 @@
       <p>This includes, for example:</p>
       <ul>
         <li>the current tab or URL you ask the Extension to scan,</li>
-        <li>recent scan history stored locally for quick access, and</li>
+        <li>the pages you scan while the Extension window is open, kept in memory only (never saved) to suggest Collect mode, and</li>
         <li><strong>network file records</strong> (URLs and metadata of files detected via network monitoring) stored temporarily in session storage during your browsing session.</li>
       </ul>
       <p>We do not send your scan history, page HTML, file contents, or browsing activity to our servers. Optional pseudonymous usage statistics are off by default and are sent only after you explicitly enable them in the Extension.</p>
@@ -173,7 +173,7 @@
         <li><strong>Revocation list refresh</strong> &mdash; Once a day, the Extension downloads a small signed list of revoked token identifiers (no license keys) so revocations take effect within 24 hours, even offline. This request sends no user-identifying data.</li>
         <li><strong>Device management</strong> &mdash; When you view or remove activated devices on the license screen, the Extension sends the license key, your current device identifier, and, if you remove a device, the target device identifier to our server.</li>
         <li><strong>User-requested page and file access</strong> &mdash; When you scan a page, collect selected web-page content, enter a URL, fetch file metadata, download files, or merge PDFs, the Extension connects directly to the target website you selected. These requests do not pass through our servers. Web Page Collector HTML, titles, URLs, images, profiles, and generated documents are not included in license or usage-event requests.</li>
-        <li><strong>Optional usage events</strong> &mdash; Only after you explicitly opt in, the Extension sends the 18 pseudonymous interaction events listed in Section 5a to our Supabase backend. It does not send an installation event before consent.</li>
+        <li><strong>Optional usage events</strong> &mdash; Only after you explicitly opt in, the Extension sends the 19 pseudonymous interaction events listed in Section 5a to our Supabase backend. It does not send an installation event before consent.</li>
         <li><strong>Optional uninstall survey</strong> &mdash; While usage statistics remain enabled, uninstalling may open our survey page with the Extension version, UI language, number of days installed, and free/paid plan in its query string. Disabling usage statistics clears the uninstall URL and stops this navigation and metadata transfer.</li>
         <li><strong>Purchase button label</strong> &mdash; The purchase button passes the purchase page a fixed label showing which screen it was pressed from (for example, the usage-limit dialog or the license screen). The label contains no device identifier or counts, and it is kept in the payment record.</li>
       </ul>
@@ -190,7 +190,6 @@
         <tr><td>Last license-check timestamp</td><td>Local</td><td>Allow a limited offline grace period after a successful license check and avoid redundant server calls.</td></tr>
         <tr><td>License JWT and revocation cache (signed access token, expiry, token ID, granted features, list of revoked token IDs)</td><td>Local</td><td>Verify license offline using a server-issued signed token, and block tokens that have been revoked.</td></tr>
         <tr><td>Legacy plan status and license error/status returned by server</td><td>Local</td><td>Legacy plan status and server-returned license error/status kept for compatibility.</td></tr>
-        <tr><td>Recent scan history (URLs, titles/hostnames, timestamps)</td><td>Local</td><td>Show recently scanned pages and entered URLs for quick access.</td></tr>
         <tr><td>Collect Mode results (up to 3,000 file URLs, titles, filenames, MIME/type hints, source referrers, and sizes)</td><td>Local</td><td>Resume a multi-page collection after reopening the popup. POST form fields, CSRF tokens, and other hidden form values are never persisted.</td></tr>
         <tr><td>Web Page Collector jobs (target URLs, edited titles, selectors, profiles, queue state, progress, and page-level errors)</td><td>Local</td><td>Review, pause, resume, retry, and recover a collection job after the dashboard or Service Worker is restarted.</td></tr>
         <tr><td>Sanitized page content and approved inline images collected by the Web Page Collector</td><td>IndexedDB</td><td>Generate a combined or partial HTML document locally. Raw credentials, Cookie values, Authorization headers, passwords, and session tokens are not stored.</td></tr>
@@ -201,7 +200,7 @@
         <tr><td>Active Capture records (source and final download URLs, referring page URL, saved file names, MIME types, browser download ID and status, and the capture target host)</td><td>Session</td><td>Match files downloaded during an explicit Active Capture run so they can be renamed or zipped. Up to 500 records; automatically cleared when the browser session ends.</td></tr>
 
       </table></div>
-      <p>You can clear recent scan history from within the Extension UI. Network file records can be cleared by clicking the "Reset" button in the results panel or by closing the tab. Deleting a Web Page Collector job removes that job's metadata and saved page bodies; reusable imported profiles are managed separately. Uninstalling the Extension removes its local storage. Session data is automatically cleared when the browser session ends.</p>
+      <p>Network file records can be cleared by clicking the "Reset" button in the results panel or by closing the tab. Deleting a Web Page Collector job removes that job's metadata and saved page bodies; reusable imported profiles are managed separately. Uninstalling the Extension removes its local storage. Session data is automatically cleared when the browser session ends. Active Capture records are cleared when the browser session ends.</p>
 
       <h2>4. Permissions</h2>
       <div class="table-scroll" role="region" tabindex="0" aria-label="4. Permissions"><table>
@@ -210,19 +209,19 @@
         <tr><td><code>tabs</code></td><td>Read the active source tab selected by the user and, when rendered collector content is needed, open an inactive selected target-page tab.</td></tr>
         <tr><td><code>scripting</code></td><td>Find downloadable links, capture rendered DOM from selected collector pages, and run the selector picker the user invokes.</td></tr>
         <tr><td><code>downloads</code></td><td>Save selected files, merged PDFs, and completed or partial HTML generated by the Web Page Collector.</td></tr>
-        <tr><td><code>storage</code></td><td>Store license status, preferences, recent scan history, and local collector jobs, profiles, selectors, queues, progress, and checkpoints.</td></tr>
+        <tr><td><code>storage</code></td><td>Store license status, preferences, and local collector jobs, profiles, selectors, queues, progress, and checkpoints.</td></tr>
         <tr><td><code>unlimitedStorage</code></td><td>Keep large Web Page Collector jobs, whose page bodies and images are stored locally in IndexedDB, from failing at the browser's default storage quota. The stored data is not transmitted or shared.</td></tr>
         <tr><td><code>alarms</code></td><td>Refresh license and revocation status on a periodic schedule.</td></tr>
         <tr><td><code>notifications</code></td><td>Show download completion and license status notifications.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Add right-click actions for scanning and downloading files from pages, links, images, and selections.</td></tr>
         <tr><td><code>offscreen</code> (Chromium browsers)</td><td>Parse and sanitize fetched HTML in a local extension document while the Manifest V3 Service Worker coordinates a resumable collection job. No visible browsing or external transmission is performed by the offscreen document.</td></tr>
-        <tr><td><code>declarativeNetRequestWithHostAccess</code></td><td>In the user-selected strict read-only Collector mode, create temporary tab-scoped session rules that block POST, PUT, PATCH, and DELETE requests. Rules are removed when that collection tab/job ends.</td></tr>
+        <tr><td><code>declarativeNetRequestWithHostAccess</code> (Chrome/Edge/Firefox 113+)</td><td>In the user-selected strict read-only Collector mode, create temporary tab-scoped session rules that block POST, PUT, PATCH, and DELETE requests. Rules are removed when that collection tab/job ends. Separately, whether or not that mode is on: when Page Collector saves a page &ldquo;as it looked&rdquo; and a site refuses an image, font or stylesheet to the extension (HTTP 401/403, typically hot-link protection), create one temporary session rule that sets the Referer header to that page&rsquo;s own origin on the extension&rsquo;s own requests (not those of any tab) to the refusing hosts (at most 100), for one retry; the rule is removed right after that retry.</td></tr>
         <tr><td>Optional site access:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>These patterns are declared only as optional permissions. The Extension requests the selected origin after a user action, registers content scripts only for granted origins, and removes the registration when permission is revoked. It does not send page content, URLs, file names, or browsing history to developer-controlled servers.</td></tr>
         <tr><td>Required first-party backend access:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>This single required host permission is used for license verification, token/revocation refresh, device management, and—only after explicit opt-in—the usage events in Section 5a. It is never used to send page contents, browsing URLs, file names, Collector profiles, or collected documents.</td></tr>
       </table></div>
 
       <h2>5. Use of Browsing-Related Data</h2>
-      <p>The Extension uses browsing-related data and website content only to provide its user-facing features: scanning the current page, scanning a URL you enter, showing recent scans, checking file metadata, downloading selected files, and merging PDFs locally.</p>
+      <p>The Extension uses browsing-related data and website content only to provide its user-facing features: scanning the current page, scanning a URL you enter, checking file metadata, downloading selected files, and merging PDFs locally.</p>
       <ul>
         <li>We do <strong>not</strong> sell this data.</li>
         <li>We do <strong>not</strong> use this data for advertising, profiling, or analytics.</li>
@@ -234,7 +233,7 @@
 
       <h2>5a. Telemetry, Analytics, and Error Reporting</h2>
       <p>The published store build contains <strong>no third-party analytics</strong> &mdash; no Google Analytics, Mixpanel, Amplitude, Segment, or similar SDK &mdash; and does not send error reports, crash reports, or performance metrics. Our own optional usage statistics are <strong>off by default on every browser</strong>. No usage event, including <code>install</code>, is sent before you explicitly enable the setting.</p>
-      <p>If enabled, exactly these 18 event types may be sent: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code>, and <code>collector_job_done</code>.</p>
+      <p>If enabled, exactly these 19 event types may be sent: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code>, <code>collector_job_done</code>, and <code>recipe_gap</code>. <code>recipe_gap</code> is sent only when you press &ldquo;Report this site&rdquo; after a download or after a scan that found no files (the counts are then 0); it contains the site name in the form <code>*.example.com</code>, counts of files found, saved and failed, and the most common failure on that site &mdash; a closed error-category label with its HTTP status, plus how many items shared it &mdash; never an address, page title or file name.</p>
       <p>Every event contains a random installation UUID, Extension version, free/paid plan, event name, and only the event-specific coarse fields needed for aggregate analysis: first-open timing; picker selection/skip counts; scan depth, detected/displayed/selected/drop counts, duration and closed error labels; attempted/success/failure download counts (including how many failed because the file never started downloading or was refused after the same site had already served files), the number of distinct sites in the download, and closed labels naming which save action and save method were used; the closed label and elapsed time for the first results action; plan/upgrade feature labels; license-screen source and activation outcome; or Collector page/success/failure counts, duration and terminal state. This stable UUID is <strong>pseudonymous data</strong>, not anonymous data. Events never include page contents, browsing or Collector URLs, page titles, file names, profile names, selectors, free-text errors, license keys, e-mail addresses, or collected documents. They are used only to improve the product, are not sold or used for advertising/profiling, and receive a <strong>90-day</strong> expiry; expired records are deleted incrementally. Turning the setting off stops future events and disables the uninstall survey; previously stored events remain until their 90-day expiry or an applicable deletion request is completed.</p>
       <p>An optional error-reporting hook (Sentry) is present in the source tree for internal debugging builds, but it is gated by a build-time secret and is never enabled in the build distributed through the Chrome Web Store&trade;, Microsoft Edge&trade; Add-ons and Firefox Add-ons. If a future release ever enables it, this Privacy Policy will be updated before that release ships, and any data sent will be filtered to redact license keys, e-mail addresses, JWTs, bearer tokens, UUIDs, query string values, file system paths, and URL path bodies.</p>
 
@@ -266,7 +265,7 @@
       <ul>
         <li><strong>Contract performance</strong> (Article 6(1)(b)) &mdash; License verification, device limit enforcement, and paid-license management.</li>
         <li><strong>Consent</strong> (Article 6(1)(a)) &mdash; Optional pseudonymous usage events and the associated uninstall survey metadata. You may withdraw consent at any time in the Extension; withdrawal stops future collection.</li>
-        <li><strong>Legitimate interest</strong> (Article 6(1)(f)) &mdash; Storing local preferences and recent scan history needed to provide the Extension's core functionality on your device.</li>
+        <li><strong>Legitimate interest</strong> (Article 6(1)(f)) &mdash; Storing local preferences needed to provide the Extension's core functionality on your device.</li>
       </ul>
 
       <h2>7. Third-Party Services and International Transfers</h2>
@@ -281,7 +280,7 @@
         <li>Optional pseudonymous usage events receive a <strong>90-day</strong> expiry; expired records are deleted incrementally.</li>
         <li>Uninstall-survey answers (&sect;5c) are deleted automatically <strong>24 months</strong> after submission.</li>
         <li>We will process deletion requests for backend records within <strong>30 days</strong>.</li>
-        <li>Recent scan history is limited to the most recent 20 entries stored locally.</li>
+        <li>Scan history is not stored. Pages scanned while the Extension window is open are kept in memory only and discarded when the window closes; history saved by older versions is deleted when the Extension window opens.</li>
         <li>Session storage is cleared when the browser session ends.</li>
         <li>Uninstalling the Extension removes its browser-managed local storage.</li>
       </ul>
@@ -334,7 +333,7 @@
 
     <div data-lang="ja" lang="ja">
       <h1>プライバシーポリシー</h1>
-      <p class="updated">最終更新日: 2026年11月7日</p>
+      <p class="updated">最終更新日: 2026年11月12日</p>
       <p><strong>アンインストール後の任意のお知らせ：</strong>関連する修正・改善のお知らせを1回受け取ることを明示的に希望した場合にのみ、メールアドレスの入力を求めます。入力したアドレスは回答とは別に保存し、その報告に紐づけます。未確認のアドレスは7日以内に削除します。確認後は該当するお知らせの送信、配信停止、または登録から12か月の期限まで紐づけ、宣伝には使用しません。アドレスはSupabaseで保存し、確認メールとお知らせはResendを通じて配信します。配信停止・削除はいつでも依頼できます。</p>
       <p><strong>ファイル一括ダウンロード＆ページHTML化（英文表記: Grab All Files）</strong>（以下「本拡張機能」）は、ユーザーが選択したWebページからファイルを検索・確認・ダウンロードし、必要に応じてPDFをローカル結合できるブラウザ拡張機能です。本ポリシーでは、本拡張機能が取り扱うデータ、その利用目的、保存先、送信される場面について説明します。</p>
 
@@ -343,7 +342,7 @@
       <p>たとえば、以下のようなデータを扱います：</p>
       <ul>
         <li>スキャン対象としてユーザーが選択した現在のタブまたは入力したURL</li>
-        <li>クイックアクセスのために端末内へ保存される最近のスキャン履歴</li>
+        <li>拡張機能の画面を開いている間にスキャンしたページ（「結果をためる」の案内のためにメモリ内だけで扱い、保存しません）</li>
         <li><strong>ネットワークファイル記録</strong>（ネットワーク監視で検出されたファイルのURLとメタデータ）のセッション中の一時保存</li>
       </ul>
       <p>スキャン履歴、ページHTML、ファイル内容、閲覧行動を当社サーバーへ送信することはありません。</p>
@@ -358,7 +357,7 @@
         <li><strong>失効リストの更新</strong> &mdash; 1日1回、失効済みトークンID（ライセンスキーは含みません）の小さな署名付きリストをダウンロードし、オフラインでも24時間以内に失効を反映できるようにします。このリクエストにはユーザー識別情報を一切送信しません。</li>
         <li><strong>デバイス管理</strong> &mdash; ライセンス画面で有効化済みデバイスを表示または削除する際に、ライセンスキー、現在のデバイス識別子、および削除時には対象デバイス識別子を当社サーバーへ送信します。</li>
         <li><strong>ユーザーが指定したWebサイトへのアクセス</strong> &mdash; ページのスキャン、選択したWebページ本文の収集、URL入力、ファイルメタデータ取得、ファイルダウンロード、PDF結合時に、本拡張機能はユーザーが選択した対象Webサイトへ直接接続します。これらのリクエストは当社サーバーを経由しません。Webページ結合機能が扱うHTML、タイトル、URL、画像、プロファイル、生成文書は、ライセンス確認や利用統計リクエストへ含めません。</li>
-        <li><strong>任意の利用統計</strong> &mdash; 明示的なオプトイン後に限り、第5a節の18種類の仮名化イベントをSupabaseへ送信します。同意前に<code>install</code>イベントを送信することはありません。</li>
+        <li><strong>任意の利用統計</strong> &mdash; 明示的なオプトイン後に限り、第5a節の19種類の仮名化イベントをSupabaseへ送信します。同意前に<code>install</code>イベントを送信することはありません。</li>
         <li><strong>任意のアンインストール調査</strong> &mdash; 利用統計が有効な間だけ、アンインストール時に拡張機能バージョン、UI言語、インストール後の日数、Free/Paidプランをquery stringへ付けて当社調査ページを開く場合があります。利用統計をオフにするとアンインストールURLを消去し、この遷移とメタデータ送信を停止します。</li>
         <li><strong>購入ボタンの経路ラベル</strong> &mdash; 購入ボタンは、どの画面から押したかを示す決まったラベル（端末 ID や件数などは含みません）を購入ページに渡し、決済の記録に残します。</li>
       </ul>
@@ -375,7 +374,6 @@
         <tr><td>最終ライセンス確認時刻</td><td>Local</td><td>ライセンス確認に成功した後、限られた期間はオフラインでも利用できるようにし、不要なサーバー通信を避けるため。</td></tr>
         <tr><td>ライセンスJWTおよび失効リストキャッシュ（署名付きアクセストークン、有効期限、トークンID、付与機能、失効済みトークンIDリスト）</td><td>Local</td><td>サーバーが発行した署名付きトークンでオフラインでもライセンスを検証し、失効したトークンを拒否するため。</td></tr>
         <tr><td>旧プランの状態と、サーバーが返したライセンスのエラー／状態</td><td>Local</td><td>互換性維持のために保持している旧プランの状態と、サーバーが返したライセンスのエラー／状態。</td></tr>
-        <tr><td>最近のスキャン履歴（URL、タイトル/ホスト名、時刻）</td><td>Local</td><td>最近スキャンしたページや入力URLを再表示するため。</td></tr>
         <tr><td>Collect Modeの結果（最大3,000件のファイルURL、タイトル、ファイル名、MIME/種別ヒント、参照元、サイズ）</td><td>Local</td><td>ポップアップを開き直した後も複数ページの収集を再開するため。POSTフォーム項目、CSRF token、その他のhidden値は永続保存しません。</td></tr>
         <tr><td>Webページ結合ジョブ（対象URL、編集したタイトル、セレクタ、サイトプロファイル、キュー、進捗、ページ単位のエラー）</td><td>Local</td><td>管理画面やService Workerの再起動後も、確認・一時停止・再開・失敗ページ再試行を行うため。</td></tr>
         <tr><td>Webページ結合機能が保存した安全化済み本文と、許可された埋め込み画像</td><td>IndexedDB</td><td>結合HTMLまたは部分HTMLを端末内で生成するため。Cookie値、Authorizationヘッダー、パスワード、セッショントークンは保存しません。</td></tr>
@@ -386,7 +384,7 @@
         <tr><td>アクティブキャプチャの記録（取得元URL・最終URL・参照元ページURL、保存されたファイル名、MIME種別、ブラウザーのダウンロードIDと状態、キャプチャ対象ホスト）</td><td>Session</td><td>明示的なアクティブキャプチャ中にページがダウンロードしたファイルを照合し、リネームやZIP化に使うため。最大500件。ブラウザセッション終了時に自動消去。</td></tr>
 
       </table></div>
-      <p>最近のスキャン履歴は拡張機能UIから消去できます。ネットワークファイル記録は結果パネルの「Reset」ボタンをクリックするか、タブを閉じることで消去できます。Webページ結合ジョブを削除すると、そのジョブのメタデータと保存済み本文が削除されます。再利用可能なインポート済みプロファイルは別に管理します。拡張機能をアンインストールすると、ブラウザ管理下のローカル保存データは削除されます。Session データはブラウザセッション終了時に自動消去されます。</p>
+      <p>ネットワークファイル記録は結果パネルの「Reset」ボタンをクリックするか、タブを閉じることで消去できます。Webページ結合ジョブを削除すると、そのジョブのメタデータと保存済み本文が削除されます。再利用可能なインポート済みプロファイルは別に管理します。拡張機能をアンインストールすると、ブラウザ管理下のローカル保存データは削除されます。Session データはブラウザセッション終了時に自動消去されます。アクティブキャプチャの記録はブラウザセッション終了時に消去されます。</p>
 
       <h2>4. 権限（パーミッション）</h2>
       <div class="table-scroll" role="region" tabindex="0" aria-label="4. 権限（パーミッション）"><table>
@@ -395,19 +393,19 @@
         <tr><td><code>tabs</code></td><td>ユーザーが選択したアクティブなソースタブを読み、Webページ結合でレンダリング済み本文が必要な場合に、選択対象ページを非アクティブタブで開くため。</td></tr>
         <tr><td><code>scripting</code></td><td>ダウンロード可能なリンクの検出、選択した結合対象ページのレンダリング済みDOM取得、ユーザーが起動したセレクターピッカーの実行に使用するため。</td></tr>
         <tr><td><code>downloads</code></td><td>選択ファイル、結合済みPDF、Webページ結合機能が生成した完成/部分HTMLを保存するため。</td></tr>
-        <tr><td><code>storage</code></td><td>ライセンス状態、設定、最近のスキャン履歴、および結合ジョブ、プロファイル、セレクター、キュー、進捗、再開チェックポイントを保存するため。</td></tr>
+        <tr><td><code>storage</code></td><td>ライセンス状態、設定、および結合ジョブ、プロファイル、セレクター、キュー、進捗、再開チェックポイントを保存するため。</td></tr>
         <tr><td><code>unlimitedStorage</code></td><td>ページ本文や画像をIndexedDBにローカル保存する大規模なWebページ結合ジョブが、ブラウザ既定の保存容量の上限で失敗しないようにするため。保存したデータが送信・共有されることはありません。</td></tr>
         <tr><td><code>alarms</code></td><td>ライセンスおよび失効リストを定期的に更新するため。</td></tr>
         <tr><td><code>notifications</code></td><td>ダウンロード完了およびライセンス状態の通知を表示するため。</td></tr>
         <tr><td><code>contextMenus</code></td><td>ページ・リンク・画像・選択範囲からスキャンやダウンロードを行うための右クリックメニューを追加するため。</td></tr>
         <tr><td><code>offscreen</code>（Chromium系ブラウザ）</td><td>再開可能な収集ジョブをService Workerが制御している間、取得したHTMLをローカルの拡張機能文書で解析・安全化するため。画面外文書が閲覧操作や外部送信を行うことはありません。</td></tr>
-        <tr><td><code>declarativeNetRequestWithHostAccess</code></td><td>ユーザーが選択したCollectorのstrict read-onlyモードで、POST・PUT・PATCH・DELETEを遮断する一時的なタブ限定session ruleを作成するため。対象タブ/ジョブの終了時に削除します。</td></tr>
+        <tr><td><code>declarativeNetRequestWithHostAccess</code>（Chrome/Edge/Firefox 113+）</td><td>ユーザーが選択したCollectorのstrict read-onlyモードで、POST・PUT・PATCH・DELETEを遮断する一時的なタブ限定session ruleを作成するため。対象タブ/ジョブの終了時に削除します。これとは別に（このモードのオン・オフに関係なく）、ページ収集が「元の見た目」でページを保存する際にサイトが画像・フォント・スタイルシートを拡張機能に対して拒否（HTTP 401/403。典型的にはホットリンク対策）したときは、拒否したホスト（最大100件）宛ての拡張機能自身の要求（どのタブの要求でもない）に、そのページ自身のオリジンをRefererヘッダーとして付ける一時的なsession ruleを1件作成し、1回の再取得の直後に削除します。</td></tr>
         <tr><td>任意のサイトアクセス：<br><code>https://*/*</code> + <code>http://*/*</code></td><td>これらは任意権限としてのみ宣言します。ユーザー操作後に選択オリジンだけを要求し、許可済みオリジンにだけコンテンツスクリプトを登録し、権限取消時に登録を解除します。ページ内容、URL、ファイル名、閲覧履歴を開発者管理サーバーへ送信しません。</td></tr>
         <tr><td>必須の自社バックエンドアクセス：<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>この1件の必須ホスト権限は、ライセンス確認、トークン/失効リスト更新、デバイス管理、および明示的なオプトイン後だけ第5a節の利用イベントに使用します。ページ内容、閲覧URL、ファイル名、Collectorプロファイル、収集文書は送信しません。</td></tr>
       </table></div>
 
       <h2>5. 閲覧関連データの利用方法</h2>
-      <p>本拡張機能は、閲覧関連データやWebサイトのコンテンツを、現在ページのスキャン、入力URLのスキャン、最近のスキャン表示、ファイルメタデータ確認、選択ファイルのダウンロード、PDFのローカル結合というユーザー向け機能のためにのみ使用します。</p>
+      <p>本拡張機能は、閲覧関連データやWebサイトのコンテンツを、現在ページのスキャン、入力URLのスキャン、ファイルメタデータ確認、選択ファイルのダウンロード、PDFのローカル結合というユーザー向け機能のためにのみ使用します。</p>
       <ul>
         <li>これらのデータを<strong>販売しません</strong>。</li>
         <li>これらのデータを広告、プロファイリング、分析目的で<strong>利用しません</strong>。</li>
@@ -419,7 +417,7 @@
 
       <h2>5a. テレメトリ・分析・エラー報告</h2>
       <p>公開ストア配布版には<strong>第三者の分析SDKは一切含まれず</strong>（Google Analytics、Mixpanel、Amplitude、Segment 等は無し）、エラー報告・クラッシュ報告・性能指標も送信しません。当社の任意利用統計は<strong>すべてのブラウザで初期設定がオフ</strong>です。ユーザーが明示的に有効化する前は、<code>install</code>を含む利用イベントを一切送信しません。</p>
-      <p>有効化した場合に送信し得るイベントは次の18種類だけです：<code>install</code>、<code>popup_first_open</code>、<code>picker_shown</code>、<code>picker_done</code>、<code>scan_start</code>、<code>scan_done</code>、<code>dl_click</code>、<code>dl_done</code>、<code>results_first_action</code>、<code>paywall_shown</code>、<code>download_cap_hit</code>、<code>upgrade_click</code>、<code>continue_free_click</code>、<code>license_view</code>、<code>buy_click</code>、<code>license_activate</code>、<code>collector_job_start</code>、<code>collector_job_done</code>。</p>
+      <p>有効化した場合に送信し得るイベントは次の19種類だけです：<code>install</code>、<code>popup_first_open</code>、<code>picker_shown</code>、<code>picker_done</code>、<code>scan_start</code>、<code>scan_done</code>、<code>dl_click</code>、<code>dl_done</code>、<code>results_first_action</code>、<code>paywall_shown</code>、<code>download_cap_hit</code>、<code>upgrade_click</code>、<code>continue_free_click</code>、<code>license_view</code>、<code>buy_click</code>、<code>license_activate</code>、<code>collector_job_start</code>、<code>collector_job_done</code>、<code>recipe_gap</code>。 <code>recipe_gap</code> は、ダウンロード後、またはファイルが1件も見つからなかったスキャンの後に「このサイトを報告」を押したときにだけ送信します（見つからなかった場合、件数はすべて0です）。<code>*.example.com</code> の形のサイト名と、見つかった件数・保存できた件数・失敗した件数、および最も多かった失敗の種類（定型のエラー分類ラベルとHTTPステータス）とその件数のみを含み、URL・ページ名・ファイル名は含みません。</p>
       <p>各イベントにはランダムなインストールUUID、拡張機能バージョン、Free/Paidプラン、イベント名と、集計に必要なイベント別の粗い値だけを含めます。具体的には、初回起動までの時間、カテゴリ選択/スキップ件数、スキャン深度・検出/表示/選択/除外件数・所要時間・定型エラーラベル、ダウンロード試行/成功/失敗件数（取得が始まらなかった件数と、同じサイトで保存できた後に拒否された件数を含む）、取得先のサイトの数、どの保存操作・保存方法かを示す定型ラベル、結果一覧で最初に使った操作の定型ラベルと経過時間、プラン/アップグレードの機能ラベル、ライセンス画面の到達元と認証結果、Collectorのページ数・成功/失敗件数・所要時間・最終状態です。この固定UUIDは匿名情報ではなく<strong>仮名化データ</strong>です。ページ内容、閲覧/Collector URL、ページタイトル、ファイル名、プロファイル名、セレクタ、自由記述エラー、ライセンスキー、メールアドレス、収集文書は含めません。製品改善だけに利用し、販売・広告・プロファイリングには利用せず、<strong>90日</strong>の有効期限を設定して期限切れ記録を順次削除します。設定をオフにすると以後のイベントとアンインストール調査を停止します。既存イベントは90日の期限または適用される削除請求の完了まで残ります。</p>
       <p>ソースコード上には、社内デバッグビルド向けの任意のエラー報告フック（Sentry）が存在しますが、ビルド時のシークレットでゲートされており、Chrome Web Store&trade;、Microsoft Edge&trade; Add-ons および Firefox Add-ons で配布されるビルドでは無効化されています。将来のリリースで有効化する場合は、配布前に本プライバシーポリシーを更新します。仮に有効化される場合でも、送信されるデータからはライセンスキー、メールアドレス、JWT、Bearerトークン、UUID、クエリ文字列の値、ファイルシステムパス、URLパス本体が事前に redact されます。</p>
 
@@ -451,7 +449,7 @@
       <ul>
         <li><strong>契約の履行</strong>（第6条1項(b)） &mdash; 有料ライセンスの認証、デバイス台数制限、ライセンス管理。</li>
         <li><strong>同意</strong>（第6条1項(a)） &mdash; 任意の仮名化利用イベントおよび関連するアンインストール調査メタデータ。拡張機能内でいつでも同意を撤回でき、撤回後は将来の収集を停止します。</li>
-        <li><strong>正当な利益</strong>（第6条1項(f)） &mdash; 端末上で拡張機能の基本機能を提供するために必要なローカル設定および最近のスキャン履歴の保存。</li>
+        <li><strong>正当な利益</strong>（第6条1項(f)） &mdash; 端末上で拡張機能の基本機能を提供するために必要なローカル設定の保存。</li>
       </ul>
 
       <h2>7. サードパーティサービスと国際データ移転</h2>
@@ -466,7 +464,7 @@
         <li>任意の仮名化利用イベントには<strong>90日</strong>の有効期限を設定し、期限切れ記録を順次削除します。</li>
         <li>アンインストールアンケートの回答（第5c条）は、送信から<strong>24か月</strong>後に自動的に削除されます。</li>
         <li>バックエンド記録の削除請求には <strong>30日以内</strong> に対応します。</li>
-        <li>最近のスキャン履歴はローカルに最大20件まで保存されます。</li>
+        <li>スキャン履歴は保存しません。拡張機能の画面を開いている間にスキャンしたページはメモリ内だけで扱い、画面を閉じると消えます。以前の版が保存した履歴は、拡張機能の画面を開いたときに削除します。</li>
         <li>Session ストレージはブラウザセッション終了時に消去されます。</li>
         <li>拡張機能をアンインストールすると、ブラウザ管理下のローカル保存データは削除されます。</li>
       </ul>
@@ -520,7 +518,7 @@
     <!--AUTO_TRANSLATIONS_BEGIN-->
     <div data-lang="de" lang="de">
       <h1>Datenschutzerklärung</h1>
-      <p class="updated">Stand: 7. November 2026</p>
+      <p class="updated">Stand: 12. November 2026</p>
       <p><strong>Freiwillige Benachrichtigung nach der Deinstallation:</strong> Wir fragen nur dann nach Ihrer E-Mail-Adresse, wenn Sie ausdrücklich eine einmalige E-Mail zu einer passenden Korrektur oder Verbesserung wünschen. Wir speichern die Adresse getrennt und verknüpfen sie mit Ihrer Meldung. Unbestätigte Adressen werden innerhalb von sieben Tagen gelöscht. Nach der Bestätigung bleibt die Verknüpfung nur bis zum Versand der passenden Nachricht, zum Widerruf oder zur Frist von zwölf Monaten bestehen. Die Adresse wird nie für Werbung verwendet. Supabase speichert sie; Resend versendet die Bestätigung und gegebenenfalls die Benachrichtigung. Sie können sich jederzeit abmelden oder die Löschung verlangen.</p>
       <p><strong>Grab All Files</strong> (nachfolgend „die Erweiterung") ist eine Browser-Erweiterung, die Nutzern hilft, Dateien auf von ihnen ausgewählten Webseiten zu finden, zu prüfen, herunterzuladen und optional zusammenzuführen. Diese Erklärung beschreibt, welche Daten die Erweiterung verarbeitet, wie sie verwendet werden, wo sie gespeichert sind und wann sie übermittelt werden.</p>
 
@@ -529,7 +527,7 @@
       <p>Dies umfasst beispielsweise:</p>
       <ul>
         <li>den aktuellen Tab oder die URL, deren Scan Sie veranlassen,</li>
-        <li>den lokal gespeicherten Verlauf der letzten Scans für schnellen Zugriff und</li>
+        <li>die Seiten, die Sie bei geöffnetem Erweiterungsfenster scannen – nur im Arbeitsspeicher (nie gespeichert), um den Sammelmodus vorzuschlagen – und</li>
         <li><strong>Netzwerkdateieinträge</strong> (URLs und Metadaten der über Netzwerküberwachung erkannten Dateien), die während Ihrer Browsersitzung temporär im Sitzungsspeicher abgelegt werden.</li>
       </ul>
       <p>Wir senden weder Ihren Scan-Verlauf noch Seiten-HTML, Dateiinhalte oder Surfaktivitäten an unsere Server.</p>
@@ -544,7 +542,7 @@
         <li><strong>Aktualisierung der Widerrufsliste</strong> &mdash; Einmal pro Tag lädt die Erweiterung eine kleine, signierte Liste widerrufener Token-Identifikatoren herunter (keine Lizenzschlüssel), damit Widerrufe auch offline innerhalb von 24 Stunden wirksam werden. Diese Anfrage übermittelt keine den Nutzer identifizierenden Daten.</li>
         <li><strong>Geräteverwaltung</strong> &mdash; Wenn Sie auf dem Lizenzbildschirm aktivierte Geräte einsehen oder entfernen, sendet die Erweiterung den Lizenzschlüssel, Ihren aktuellen Geräte-Identifikator und, falls Sie ein Gerät entfernen, den Geräte-Identifikator des Zielgeräts an unseren Server.</li>
         <li><strong>Vom Nutzer angeforderter Seiten- und Dateizugriff</strong> &mdash; Wenn Sie eine Seite scannen, ausgewählte Webseiteninhalte sammeln, eine URL eingeben, Dateimetadaten abrufen, Dateien herunterladen oder PDFs zusammenführen, verbindet sich die Erweiterung direkt mit der von Ihnen ausgewählten Zielwebsite. Diese Anfragen laufen nicht über unsere Server. HTML, Titel, URLs, Bilder, Profile und erzeugte Dokumente des Web Page Collectors werden weder Lizenz- noch Nutzungsereignis-Anfragen beigefügt.</li>
-        <li><strong>Optionale Nutzungsstatistiken</strong> &mdash; Erst nach Ihrer ausdrücklichen Einwilligung sendet die Erweiterung die 18 in Abschnitt 5a aufgeführten pseudonymen Nutzungsereignisse an unser Supabase-Backend. Vor Ihrer Einwilligung wird kein <code>install</code>-Ereignis gesendet.</li>
+        <li><strong>Optionale Nutzungsstatistiken</strong> &mdash; Erst nach Ihrer ausdrücklichen Einwilligung sendet die Erweiterung die 19 in Abschnitt 5a aufgeführten pseudonymen Nutzungsereignisse an unser Supabase-Backend. Vor Ihrer Einwilligung wird kein <code>install</code>-Ereignis gesendet.</li>
         <li><strong>Optionale Deinstallations-Umfrage</strong> &mdash; Solange die Nutzungsstatistiken aktiviert sind, kann beim Deinstallieren unsere Umfrageseite geöffnet werden; ihr Query-String enthält die Version der Erweiterung, die Oberflächensprache, die Anzahl der Tage seit der Installation und den Plan (kostenlos/kostenpflichtig). Wenn Sie die Nutzungsstatistiken deaktivieren, wird die Deinstallations-URL gelöscht, und diese Weiterleitung sowie die Übermittlung der Metadaten finden nicht mehr statt.</li>
         <li><strong>Kennzeichnung der Kaufschaltfläche</strong> &mdash; Die Kaufschaltfläche übergibt der Kaufseite eine feste Kennzeichnung, von welchem Bildschirm aus sie gedrückt wurde (ohne Geräte-ID oder Zählwerte); sie wird im Zahlungsdatensatz gespeichert.</li>
       </ul>
@@ -561,7 +559,6 @@
         <tr><td>Zeitstempel der letzten Verifizierung / letzten Testprüfung</td><td>Local</td><td>Eine begrenzte Offline-Karenzzeit nach erfolgreicher Lizenzprüfung ermöglichen und überflüssige Serveraufrufe vermeiden.</td></tr>
         <tr><td>Lizenz-JWT und Widerrufs-Cache (signierter Zugriffstoken, Ablaufdatum, Token-ID, gewährte Funktionen, Liste widerrufener Token-IDs)</td><td>Local</td><td>Lizenz offline mittels eines vom Server ausgestellten signierten Tokens prüfen und widerrufene Token blockieren.</td></tr>
         <tr><td>Alter Plan-Status und vom Server zurückgegebener Lizenzfehler/-status</td><td>Local</td><td>Alter Plan-Status und vom Server zurückgegebener Lizenzfehler/-status, aus Kompatibilitätsgründen beibehalten.</td></tr>
-        <tr><td>Letzte Scan-Historie (URLs, Titel/Hostnamen, Zeitstempel)</td><td>Local</td><td>Kürzlich gescannte Seiten und eingegebene URLs für schnellen Zugriff anzeigen.</td></tr>
         <tr><td>Collect-Mode-Ergebnisse (bis zu 3.000 Datei-URLs, Titel, Dateinamen, MIME-/Typhinweise, Referrer und Größen)</td><td>Local</td><td>Eine mehrseitige Sammlung nach erneutem Öffnen des Popups fortsetzen. POST-Formularfelder, CSRF-Token und verborgene Werte werden nie dauerhaft gespeichert.</td></tr>
         <tr><td>Web-Page-Collector-Aufträge (Ziel-URLs, bearbeitete Titel, Selektoren, Profile, Warteschlangenstatus, Fortschritt und Fehler pro Seite)</td><td>Local</td><td>Aufträge prüfen, anhalten, fortsetzen, erneut versuchen und nach einem Neustart der Übersicht oder des Service Workers wiederherstellen.</td></tr>
         <tr><td>Bereinigte Seiteninhalte und zulässige eingebettete Bilder des Web Page Collectors</td><td>IndexedDB</td><td>Ein kombiniertes oder teilweises HTML-Dokument lokal erzeugen. Cookie-Werte, Authorization-Header, Passwörter und Sitzungstoken werden nicht gespeichert.</td></tr>
@@ -572,7 +569,7 @@
         <tr><td>Active-Capture-Einträge (Quell- und finale Download-URLs, URL der verweisenden Seite, gespeicherte Dateinamen, MIME-Typen, Browser-Download-ID und Status sowie der Ziel-Host der Erfassung)</td><td>Session</td><td>Zuordnen der Dateien einer ausdrücklich gestarteten Active Capture zum Umbenennen oder ZIP-Erstellen. Bis zu 500 Einträge; werden am Ende der Browsersitzung automatisch gelöscht.</td></tr>
 
       </table></div>
-      <p>Sie können die Scan-Historie aus der Benutzeroberfläche der Erweiterung heraus löschen. Netzwerkdateieinträge können durch Klicken auf die Schaltfläche „Reset" im Ergebnisbereich oder durch Schließen des Tabs gelöscht werden. Beim Löschen eines Web-Page-Collector-Auftrags werden dessen Metadaten und gespeicherte Seiteninhalte entfernt; wiederverwendbare importierte Profile werden separat verwaltet. Bei der Deinstallation der Erweiterung wird ihr lokaler Speicher entfernt. Sitzungsdaten werden am Ende der Browsersitzung automatisch gelöscht.</p>
+      <p>Netzwerkdateieinträge können durch Klicken auf die Schaltfläche „Reset" im Ergebnisbereich oder durch Schließen des Tabs gelöscht werden. Beim Löschen eines Web-Page-Collector-Auftrags werden dessen Metadaten und gespeicherte Seiteninhalte entfernt; wiederverwendbare importierte Profile werden separat verwaltet. Bei der Deinstallation der Erweiterung wird ihr lokaler Speicher entfernt. Sitzungsdaten werden am Ende der Browsersitzung automatisch gelöscht. Active-Capture-Einträge werden am Ende der Browsersitzung gelöscht.</p>
 
       <h2>4. Berechtigungen</h2>
       <div class="table-scroll" role="region" tabindex="0" aria-label="4. Berechtigungen"><table>
@@ -581,19 +578,19 @@
         <tr><td><code>tabs</code></td><td>Den vom Nutzer gewählten aktiven Quell-Tab lesen und bei Bedarf einen inaktiven ausgewählten Zielseiten-Tab für gerenderten Collector-Inhalt öffnen.</td></tr>
         <tr><td><code>scripting</code></td><td>Dateilinks finden, gerendertes DOM ausgewählter Collector-Seiten erfassen und den vom Nutzer aufgerufenen Selektor-Picker ausführen.</td></tr>
         <tr><td><code>downloads</code></td><td>Ausgewählte Dateien, zusammengeführte PDFs und vollständiges oder teilweises Collector-HTML speichern.</td></tr>
-        <tr><td><code>storage</code></td><td>Lizenzstatus, Einstellungen, Scan-Historie sowie lokale Collector-Aufträge, Profile, Selektoren, Warteschlangen, Fortschritt und Prüfpunkte speichern.</td></tr>
+        <tr><td><code>storage</code></td><td>Lizenzstatus, Einstellungen sowie lokale Collector-Aufträge, Profile, Selektoren, Warteschlangen, Fortschritt und Prüfpunkte speichern.</td></tr>
         <tr><td><code>unlimitedStorage</code></td><td>Verhindern, dass große Collector-Aufträge, deren Seiteninhalte und Bilder lokal in IndexedDB gespeichert werden, am standardmäßigen Speicherkontingent des Browsers scheitern. Die gespeicherten Daten werden weder übertragen noch weitergegeben.</td></tr>
         <tr><td><code>alarms</code></td><td>Lizenz- und Widerrufsstatus regelmäßig aktualisieren.</td></tr>
         <tr><td><code>notifications</code></td><td>Benachrichtigungen über abgeschlossene Downloads und Lizenzstatus anzeigen.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Rechtsklick-Aktionen zum Scannen und Herunterladen von Dateien aus Seiten, Links, Bildern und Auswahlen hinzufügen.</td></tr>
         <tr><td><code>offscreen</code> (Chromium)</td><td>Abgerufenes HTML lokal für fortsetzbare Sammelaufträge analysieren und bereinigen.</td></tr>
-        <tr><td><code>declarativeNetRequestWithHostAccess</code></td><td>Im vom Nutzer gewählten strikten Nur-Lese-Modus des Collectors temporäre, auf den Tab beschränkte Sitzungsregeln erstellen, die POST-, PUT-, PATCH- und DELETE-Anfragen blockieren. Die Regeln werden entfernt, wenn der betreffende Sammel-Tab bzw. -Auftrag endet.</td></tr>
+        <tr><td><code>declarativeNetRequestWithHostAccess</code> (Chrome/Edge/Firefox 113+)</td><td>Im gewählten strikten Nur-Lese-Modus vorübergehend schreibende Anfragen im Tab blockieren; die Regeln werden am Ende entfernt. Davon unabhängig (auch ohne diesen Modus): Wenn der Seiten-Collector eine Seite „im Originalaussehen“ speichert und eine Website der Erweiterung ein Bild, eine Schrift oder ein Stylesheet verweigert (HTTP 401/403, typischerweise Hotlink-Schutz), wird eine vorübergehende Sitzungsregel angelegt, die bei den eigenen Anfragen der Erweiterung (nicht denen eines Tabs) an die ablehnenden Hosts (höchstens 100) den Referer-Header auf den Origin der Seite selbst setzt, für einen Wiederholungsversuch; die Regel wird unmittelbar danach entfernt.</td></tr>
         <tr><td>Optionaler Website-Zugriff:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>Diese Muster sind nur optionale Berechtigungen. Die Erweiterung fordert nach einer Nutzeraktion nur den ausgewählten Ursprung an, registriert Inhaltsskripte nur dort und entfernt die Registrierung beim Widerruf. Seiteninhalte, URLs, Dateinamen und Browserverlauf werden nicht an Server des Entwicklers gesendet.</td></tr>
         <tr><td>Erforderlicher Zugriff auf das eigene Backend:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>Diese einzige erforderliche Host-Berechtigung dient der Lizenzprüfung, Token-/Sperrlisten-Aktualisierung, Geräteverwaltung und &mdash; nur nach ausdrücklicher Einwilligung &mdash; den Nutzungsereignissen in Abschnitt 5a. Seiten-, Browser- oder Collector-Inhalte werden darüber nie übermittelt.</td></tr>
       </table></div>
 
       <h2>5. Verwendung browserbezogener Daten</h2>
-      <p>Die Erweiterung nutzt browserbezogene Daten und Website-Inhalte ausschließlich zur Bereitstellung ihrer nutzerseitigen Funktionen: Scannen der aktuellen Seite, Scannen einer von Ihnen eingegebenen URL, Anzeige der letzten Scans, Prüfung von Dateimetadaten, Herunterladen ausgewählter Dateien und lokales Zusammenführen von PDFs.</p>
+      <p>Die Erweiterung nutzt browserbezogene Daten und Website-Inhalte ausschließlich zur Bereitstellung ihrer nutzerseitigen Funktionen: Scannen der aktuellen Seite, Scannen einer von Ihnen eingegebenen URL, Prüfung von Dateimetadaten, Herunterladen ausgewählter Dateien und lokales Zusammenführen von PDFs.</p>
       <ul>
         <li>Wir <strong>verkaufen</strong> diese Daten <strong>nicht</strong>.</li>
         <li>Wir <strong>verwenden</strong> diese Daten <strong>nicht</strong> für Werbung, Profiling oder Analysezwecke.</li>
@@ -605,7 +602,7 @@
 
       <h2>5a. Telemetrie, Analyse und Fehlerberichte</h2>
       <p>Der veröffentlichte Store-Build enthält <strong>keine Analyse-SDKs von Drittanbietern</strong> und sendet keine Fehler-, Absturz- oder Leistungsberichte. Nutzungsstatistiken sind in jedem Browser <strong>standardmäßig deaktiviert</strong>. Vor Ihrer ausdrücklichen Einwilligung wird kein Nutzungsereignis gesendet und auch das Ereignis <code>install</code> nicht erzeugt.</p>
-      <p>Nach der Aktivierung sind die einzigen 18 Ereignistypen: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code> und <code>collector_job_done</code>.</p>
+      <p>Nach der Aktivierung sind die einzigen 19 Ereignistypen: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code>, <code>collector_job_done</code> und <code>recipe_gap</code>. <code>recipe_gap</code> wird nur gesendet, wenn Sie nach einem Download oder nach einem Scan ohne gefundene Dateien auf &bdquo;Diese Website melden&ldquo; klicken (die Anzahlen sind dann 0); es enthält den Website-Namen in der Form <code>*.example.com</code>, Anzahlen gefundener, gespeicherter und fehlgeschlagener Dateien sowie den häufigsten Fehler auf dieser Website &mdash; eine feste Fehlerkategorie-Bezeichnung mit HTTP-Status und die Anzahl der betroffenen Elemente &mdash; niemals eine Adresse, einen Seitentitel oder einen Dateinamen.</p>
       <p>Jedes Ereignis enthält eine zufällige, beständige Installations-UUID, die Erweiterungsversion, den Status kostenlos/kostenpflichtig, den Ereignisnamen und nur ereignisspezifische grobe Zähler, Dauern, boolesche Werte oder geschlossene Ergebnisbezeichnungen. Die UUID ist <strong>ein pseudonymes, kein anonymes Datum</strong>. Seiten- oder Collector-Inhalte, URLs, Titel, Dateinamen, Profilnamen, Selektoren, Freitextfehler, Lizenzschlüssel und E-Mail-Adressen werden nie übermittelt. Die Ereignisse dienen nur der Produktverbesserung, erhalten eine Aufbewahrungsfrist von <strong>90 Tagen</strong> und abgelaufene Datensätze werden schrittweise gelöscht. Solange Sie eingewilligt haben, darf die Deinstallationsumfrage nur Version, Sprache, installierte Tage und Plan empfangen. Das Deaktivieren löscht die Umfrage-URL und stoppt alle künftigen Ereignisse; die Einwilligung kann jederzeit widerrufen und die Löschung nach Abschnitt 8 beantragt werden.</p>
       <p>Im Quellcode-Baum existiert ein optionaler Hook für Fehlerberichte (Sentry) für interne Debug-Builds, der jedoch durch ein Build-Geheimnis abgesichert ist und im über den Chrome Web Store&trade;, Microsoft Edge&trade; Add-ons und Firefox Add-ons verteilten Build niemals aktiviert ist. Sollte er in einem zukünftigen Release jemals aktiviert werden, wird diese Datenschutzerklärung vor der Auslieferung aktualisiert, und alle übermittelten Daten werden so gefiltert, dass Lizenzschlüssel, E-Mail-Adressen, JWTs, Bearer-Tokens, UUIDs, Query-String-Werte, Dateisystempfade und URL-Pfade entfernt (redacted) werden.</p>
 
@@ -637,7 +634,7 @@
       <ul>
         <li><strong>Vertragserfüllung</strong> (Art. 6 Abs. 1 lit. b DSGVO) &mdash; Lizenzverifizierung, Durchsetzung des Gerätelimits und Verwaltung kostenpflichtiger Lizenzen.</li>
         <li><strong>Einwilligung</strong> (Art. 6 Abs. 1 lit. a DSGVO) &mdash; Optionale pseudonyme Nutzungsereignisse und die zugehörigen Metadaten der Deinstallationsumfrage. Sie können Ihre Einwilligung jederzeit in der Erweiterung widerrufen; der Widerruf stoppt die künftige Erhebung.</li>
-        <li><strong>Berechtigte Interessen</strong> (Art. 6 Abs. 1 lit. f DSGVO) &mdash; Lokales Speichern von Einstellungen und der jüngsten Scan-Historie, das zur Bereitstellung der Kernfunktionen der Erweiterung auf Ihrem Gerät erforderlich ist.</li>
+        <li><strong>Berechtigte Interessen</strong> (Art. 6 Abs. 1 lit. f DSGVO) &mdash; Lokales Speichern von Einstellungen, das zur Bereitstellung der Kernfunktionen der Erweiterung auf Ihrem Gerät erforderlich ist.</li>
       </ul>
 
       <h2>7. Drittanbieterdienste und internationale Datenübermittlungen</h2>
@@ -652,7 +649,7 @@
         <li>Optionale pseudonyme Nutzungsereignisse erhalten eine Aufbewahrungsfrist von <strong>90 Tagen</strong>; abgelaufene Datensätze werden schrittweise gelöscht.</li>
         <li>Antworten der Deinstallationsumfrage (&sect;5c) werden <strong>24 Monate</strong> nach dem Absenden automatisch gelöscht.</li>
         <li>Löschungsanträge für Backend-Datensätze bearbeiten wir innerhalb von <strong>30 Tagen</strong>.</li>
-        <li>Die jüngste Scan-Historie ist auf die letzten 20 lokal gespeicherten Einträge begrenzt.</li>
+        <li>Ein Scan-Verlauf wird nicht gespeichert. Seiten, die bei geöffnetem Erweiterungsfenster gescannt werden, bleiben nur im Arbeitsspeicher und werden beim Schließen des Fensters verworfen; von älteren Versionen gespeicherte Verläufe werden beim Öffnen des Erweiterungsfensters gelöscht.</li>
         <li>Der Sitzungsspeicher wird am Ende der Browsersitzung gelöscht.</li>
         <li>Bei der Deinstallation der Erweiterung wird der vom Browser verwaltete lokale Speicher entfernt.</li>
       </ul>
@@ -705,7 +702,7 @@
 
     <div data-lang="es" lang="es">
       <h1>Política de Privacidad</h1>
-      <p class="updated">Última actualización: 7 de noviembre de 2026</p>
+      <p class="updated">Última actualización: 12 de noviembre de 2026</p>
       <p><strong>Aviso opcional tras la desinstalación:</strong> Solo solicitamos tu dirección de correo si pides expresamente un único mensaje sobre una corrección o mejora relacionada con tu informe. La guardamos por separado y la vinculamos al informe. Las direcciones sin confirmar se eliminan en un plazo de siete días. Tras la confirmación, la vinculación permanece solo hasta el aviso relacionado, la retirada del consentimiento o el límite de 12 meses. Nunca se usa para publicidad. Supabase guarda la dirección y Resend envía la confirmación y el aviso. Puedes cancelar la suscripción o pedir su eliminación en cualquier momento.</p>
       <p><strong>Grab All Files</strong> (la «Extensión») es una extensión de navegador que ayuda a los usuarios a buscar, inspeccionar, descargar y, opcionalmente, combinar archivos de las páginas web que ellos elijan. La presente política explica qué datos trata la Extensión, cómo se utilizan, dónde se almacenan y cuándo se transmiten.</p>
 
@@ -714,7 +711,7 @@
       <p>Esto incluye, por ejemplo:</p>
       <ul>
         <li>la pestaña actual o la URL que usted solicite escanear con la Extensión,</li>
-        <li>el historial reciente de escaneos almacenado localmente para acceso rápido, y</li>
+        <li>las páginas que escanea mientras la ventana de la Extensión está abierta, tratadas solo en memoria (nunca se guardan) para sugerir el modo de recopilación, y</li>
         <li><strong>registros de archivos de red</strong> (URL y metadatos de archivos detectados mediante la monitorización de red) almacenados temporalmente en el almacenamiento de sesión durante su sesión de navegación.</li>
       </ul>
       <p>No enviamos su historial de escaneos, el HTML de las páginas, el contenido de los archivos ni su actividad de navegación a nuestros servidores.</p>
@@ -729,7 +726,7 @@
         <li><strong>Actualización de la lista de revocaciones</strong> &mdash; Una vez al día, la Extensión descarga una pequeña lista firmada de identificadores de tokens revocados (sin claves de licencia) para que las revocaciones surtan efecto en un plazo de 24 horas, incluso sin conexión. Esta solicitud no envía datos identificativos del usuario.</li>
         <li><strong>Gestión de dispositivos</strong> &mdash; Cuando consulta o elimina dispositivos activados desde la pantalla de licencia, la Extensión envía a nuestro servidor la clave de licencia, el identificador de su dispositivo actual y, si elimina un dispositivo, el identificador del dispositivo de destino.</li>
         <li><strong>Acceso a páginas y archivos solicitado por el usuario</strong> &mdash; Cuando usted escanea una página, recopila contenido seleccionado de páginas web, introduce una URL, obtiene metadatos de archivos, descarga archivos o combina PDF, la Extensión se conecta directamente al sitio web de destino que usted haya seleccionado. Estas solicitudes no pasan por nuestros servidores. El HTML, los títulos, las URL, las imágenes, los perfiles y los documentos generados por el Web Page Collector no se incluyen en solicitudes de licencia ni de eventos de uso.</li>
-        <li><strong>Estadísticas de uso opcionales</strong> &mdash; Solo después de que usted dé su consentimiento explícito, la Extensión envía a nuestro backend de Supabase los 18 eventos de uso seudónimos indicados en la Sección 5a. No se envía ningún evento <code>install</code> antes del consentimiento.</li>
+        <li><strong>Estadísticas de uso opcionales</strong> &mdash; Solo después de que usted dé su consentimiento explícito, la Extensión envía a nuestro backend de Supabase los 19 eventos de uso seudónimos indicados en la Sección 5a. No se envía ningún evento <code>install</code> antes del consentimiento.</li>
         <li><strong>Encuesta de desinstalación opcional</strong> &mdash; Mientras las estadísticas de uso permanezcan activadas, al desinstalar la Extensión puede abrirse nuestra página de encuesta con la versión de la Extensión, el idioma de la interfaz, el número de días desde la instalación y el plan (gratuito o de pago) en su cadena de consulta. Al desactivar las estadísticas de uso se borra la URL de desinstalación y se detienen esta navegación y esta transferencia de metadatos.</li>
         <li><strong>Etiqueta del botón de compra</strong> &mdash; El botón de compra pasa a la página de compra una etiqueta fija que indica desde qué pantalla se pulsó (sin identificador de dispositivo ni recuentos), y se conserva en el registro del pago.</li>
       </ul>
@@ -746,7 +743,6 @@
         <tr><td>Marca de tiempo de la última comprobación de licencia</td><td>Local</td><td>Permitir un período de gracia limitado sin conexión tras una comprobación de licencia correcta y evitar llamadas redundantes al servidor.</td></tr>
         <tr><td>JWT de licencia y caché de revocaciones (token de acceso firmado, expiración, ID del token, funcionalidades concedidas, lista de IDs de tokens revocados)</td><td>Local</td><td>Verificar la licencia sin conexión utilizando un token firmado emitido por el servidor y bloquear los tokens que hayan sido revocados.</td></tr>
         <tr><td>Estado heredado del plan y error/estado de licencia devuelto por el servidor</td><td>Local</td><td>Estado heredado del plan y error/estado de licencia devuelto por el servidor, conservados por compatibilidad.</td></tr>
-        <tr><td>Historial reciente de escaneos (URL, títulos/nombres de host, marcas de tiempo)</td><td>Local</td><td>Mostrar las páginas escaneadas recientemente y las URL introducidas para acceso rápido.</td></tr>
         <tr><td>Resultados de Collect Mode (hasta 3.000 URL de archivos, títulos, nombres, indicios MIME/tipo, referentes y tamaños)</td><td>Local</td><td>Reanudar una recopilación de varias páginas al volver a abrir el popup. Nunca se conservan campos POST, tokens CSRF ni valores ocultos.</td></tr>
         <tr><td>Trabajos del Web Page Collector (URL de destino, títulos editados, selectores, perfiles, cola, progreso y errores por página)</td><td>Local</td><td>Revisar, pausar, reanudar, reintentar y recuperar un trabajo después de reiniciar el panel o el Service Worker.</td></tr>
         <tr><td>Contenido de página saneado e imágenes insertadas permitidas por el Web Page Collector</td><td>IndexedDB</td><td>Generar localmente un documento HTML completo o parcial. No se almacenan valores de Cookie, encabezados Authorization, contraseñas ni tokens de sesión.</td></tr>
@@ -757,7 +753,7 @@
         <tr><td>Registros de Active Capture (URL de origen y de descarga final, URL de la página de referencia, nombres de archivo guardados, tipos MIME, ID y estado de descarga del navegador y host objetivo de la captura)</td><td>Session</td><td>Asociar los archivos descargados durante una ejecución explícita de Active Capture para renombrarlos o comprimirlos en ZIP. Hasta 500 registros; se borran al finalizar la sesión del navegador.</td></tr>
 
       </table></div>
-      <p>Puede borrar el historial reciente de escaneos desde la interfaz de la Extensión. Los registros de archivos de red pueden borrarse pulsando el botón «Reset» en el panel de resultados o cerrando la pestaña. Al borrar un trabajo del Web Page Collector se eliminan sus metadatos y contenidos de página guardados; los perfiles importados reutilizables se administran por separado. Al desinstalar la Extensión se elimina su almacenamiento local. Los datos de sesión se borran automáticamente al finalizar la sesión del navegador.</p>
+      <p>Los registros de archivos de red pueden borrarse pulsando el botón «Reset» en el panel de resultados o cerrando la pestaña. Al borrar un trabajo del Web Page Collector se eliminan sus metadatos y contenidos de página guardados; los perfiles importados reutilizables se administran por separado. Al desinstalar la Extensión se elimina su almacenamiento local. Los datos de sesión se borran automáticamente al finalizar la sesión del navegador. Los registros de Active Capture se borran al finalizar la sesión del navegador.</p>
 
       <h2>4. Permisos</h2>
       <div class="table-scroll" role="region" tabindex="0" aria-label="4. Permisos"><table>
@@ -766,19 +762,19 @@
         <tr><td><code>tabs</code></td><td>Leer la pestaña de origen activa elegida por el usuario y abrir una pestaña de destino inactiva cuando se necesite contenido renderizado para el Collector.</td></tr>
         <tr><td><code>scripting</code></td><td>Detectar enlaces descargables, capturar el DOM renderizado de páginas seleccionadas y ejecutar el selector visual solicitado por el usuario.</td></tr>
         <tr><td><code>downloads</code></td><td>Guardar archivos seleccionados, PDF combinados y HTML completo o parcial generado por el Collector.</td></tr>
-        <tr><td><code>storage</code></td><td>Almacenar licencia, preferencias, historial y trabajos, perfiles, selectores, colas, progreso y puntos de recuperación locales del Collector.</td></tr>
+        <tr><td><code>storage</code></td><td>Almacenar licencia, preferencias y trabajos, perfiles, selectores, colas, progreso y puntos de recuperación locales del Collector.</td></tr>
         <tr><td><code>unlimitedStorage</code></td><td>Evitar que los trabajos grandes del Collector, cuyos contenidos de página e imágenes se guardan localmente en IndexedDB, fallen al alcanzar la cuota de almacenamiento predeterminada del navegador. Los datos almacenados no se transmiten ni se comparten.</td></tr>
         <tr><td><code>alarms</code></td><td>Actualizar de forma periódica el estado de la licencia y de las revocaciones.</td></tr>
         <tr><td><code>notifications</code></td><td>Mostrar notificaciones de finalización de descargas y de estado de la licencia.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Añadir acciones del menú contextual (clic derecho) para escanear y descargar archivos desde páginas, enlaces, imágenes y selecciones.</td></tr>
         <tr><td><code>offscreen</code> (Chromium)</td><td>Analizar y sanear localmente el HTML obtenido para trabajos de recopilación reanudables.</td></tr>
-        <tr><td><code>declarativeNetRequestWithHostAccess</code></td><td>En el modo estricto de solo lectura del Collector elegido por el usuario, crear reglas de sesión temporales limitadas a la pestaña que bloquean las solicitudes POST, PUT, PATCH y DELETE. Las reglas se eliminan cuando termina esa pestaña o ese trabajo de recopilación.</td></tr>
+        <tr><td><code>declarativeNetRequestWithHostAccess</code> (Chrome/Edge/Firefox 113+)</td><td>Bloquear temporalmente solicitudes de escritura en la pestaña durante el modo estricto de solo lectura seleccionado; las reglas se eliminan al terminar. Aparte (con o sin ese modo): cuando el recopilador de páginas guarda una página «tal como se veía» y un sitio rechaza una imagen, una fuente o una hoja de estilo a la extensión (HTTP 401/403, normalmente protección contra enlaces directos), se crea una regla de sesión temporal que fija el encabezado Referer al origen de la propia página en las solicitudes de la propia extensión (no las de ninguna pestaña) a los hosts que la rechazaron (como máximo 100), para un reintento; la regla se elimina justo después.</td></tr>
         <tr><td>Acceso opcional a sitios:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>Estos patrones son únicamente permisos opcionales. La Extensión solicita el origen seleccionado tras una acción del usuario, registra scripts solo en orígenes autorizados y elimina el registro al revocar el permiso. No envía contenidos, URL, nombres de archivos ni historial a servidores del desarrollador.</td></tr>
         <tr><td>Acceso obligatorio al backend propio:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>Este único permiso de host obligatorio se usa para verificar licencias, actualizar tokens/listas de revocación, gestionar dispositivos y &mdash; solo tras el consentimiento expreso &mdash; enviar los eventos de uso de la sección 5a. Nunca se envían por él contenidos de páginas, navegación o del Collector.</td></tr>
       </table></div>
 
       <h2>5. Uso de los Datos Relacionados con la Navegación</h2>
-      <p>La Extensión utiliza los datos relacionados con la navegación y el contenido de los sitios web únicamente para prestar sus funcionalidades dirigidas al usuario: escanear la página actual, escanear una URL que usted introduzca, mostrar los escaneos recientes, comprobar metadatos de archivos, descargar los archivos seleccionados y combinar PDF localmente.</p>
+      <p>La Extensión utiliza los datos relacionados con la navegación y el contenido de los sitios web únicamente para prestar sus funcionalidades dirigidas al usuario: escanear la página actual, escanear una URL que usted introduzca, comprobar metadatos de archivos, descargar los archivos seleccionados y combinar PDF localmente.</p>
       <ul>
         <li><strong>No</strong> vendemos estos datos.</li>
         <li><strong>No</strong> utilizamos estos datos con fines publicitarios, de elaboración de perfiles ni analíticos.</li>
@@ -790,7 +786,7 @@
 
       <h2>5a. Telemetría, Análisis e Informes de Errores</h2>
       <p>La versión publicada en las tiendas <strong>no contiene análisis de terceros</strong> ni envía informes de errores, fallos o rendimiento. Las estadísticas de uso están <strong>desactivadas de forma predeterminada</strong> en todos los navegadores. Antes de su consentimiento expreso no se envía ningún evento de uso ni se crea el evento <code>install</code>.</p>
-      <p>Tras activarlas, los únicos 18 tipos de evento son: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code> y <code>collector_job_done</code>.</p>
+      <p>Tras activarlas, los únicos 19 tipos de evento son: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code>, <code>collector_job_done</code> y <code>recipe_gap</code>. <code>recipe_gap</code> solo se envía cuando pulsa &laquo;Informar de este sitio&raquo; tras una descarga o tras un análisis sin archivos encontrados (los recuentos son entonces 0); incluye el nombre del sitio en la forma <code>*.example.com</code>, recuentos de archivos encontrados, guardados y fallidos, y el fallo más frecuente en ese sitio (una etiqueta de categoría de error predefinida con su estado HTTP y el número de elementos afectados); nunca una dirección, un título de página ni un nombre de archivo.</p>
       <p>Cada evento contiene un UUID de instalación aleatorio y estable, la versión de la Extensión, el plan gratuito/de pago, el nombre del evento y solo contadores, duraciones, valores booleanos o etiquetas cerradas específicos del evento. El UUID es un <strong>dato seudónimo, no anónimo</strong>. Nunca se envían contenidos de páginas o del Collector, URL, títulos, nombres de archivo o perfil, selectores, errores de texto libre, claves de licencia ni direcciones de correo. Los eventos se usan solo para mejorar el producto, tienen una conservación de <strong>90 días</strong> y los registros caducados se eliminan de forma incremental. Mientras haya consentimiento, la encuesta de desinstalación solo puede recibir versión, idioma, días desde la instalación y plan. Desactivar la opción borra la URL de la encuesta y detiene todos los eventos futuros; puede retirar el consentimiento en cualquier momento y solicitar la eliminación conforme a la sección 8.</p>
       <p>En el árbol de código fuente existe un gancho opcional de notificación de errores (Sentry) destinado a las compilaciones internas de depuración, pero está controlado por un secreto en tiempo de compilación y nunca se activa en la versión distribuida a través de Chrome Web Store&trade;, Microsoft Edge&trade; Add-ons y Firefox Add-ons. Si en una futura versión se llegara a activar, esta Política de Privacidad se actualizaría antes del lanzamiento de dicha versión, y los datos enviados serían filtrados para suprimir las claves de licencia, las direcciones de correo electrónico, los JWT, los tokens portadores (bearer), los UUID, los valores de las cadenas de consulta, las rutas del sistema de archivos y el cuerpo de las rutas de URL.</p>
 
@@ -822,7 +818,7 @@
       <ul>
         <li><strong>Ejecución de un contrato</strong> (artículo 6, apartado 1, letra b), del RGPD) &mdash; Verificación de la licencia, aplicación del límite de dispositivos y gestión de licencias de pago.</li>
         <li><strong>Consentimiento</strong> (artículo 6, apartado 1, letra a), del RGPD) &mdash; Eventos de uso seudónimos opcionales y los metadatos asociados de la encuesta de desinstalación. Puede retirar el consentimiento en cualquier momento en la Extensión; la retirada detiene la recopilación futura.</li>
-        <li><strong>Intereses legítimos</strong> (artículo 6, apartado 1, letra f), del RGPD) &mdash; Almacenamiento de las preferencias locales y del historial reciente de escaneos necesarios para prestar la funcionalidad básica de la Extensión en su dispositivo.</li>
+        <li><strong>Intereses legítimos</strong> (artículo 6, apartado 1, letra f), del RGPD) &mdash; Almacenamiento de las preferencias locales necesarias para prestar la funcionalidad básica de la Extensión en su dispositivo.</li>
       </ul>
 
       <h2>7. Servicios de Terceros y Transferencias Internacionales</h2>
@@ -837,7 +833,7 @@
         <li>Los eventos de uso seudónimos opcionales tienen una conservación de <strong>90 días</strong>; los registros caducados se eliminan de forma incremental.</li>
         <li>Las respuestas de la encuesta de desinstalación (&sect;5c) se eliminan automáticamente <strong>24 meses</strong> después de su envío.</li>
         <li>Tramitaremos las solicitudes de eliminación de los registros del backend en un plazo de <strong>30 días</strong>.</li>
-        <li>El historial reciente de escaneos se limita a las 20 entradas más recientes almacenadas localmente.</li>
+        <li>No se guarda ningún historial de escaneos. Las páginas escaneadas mientras la ventana de la Extensión está abierta se tratan solo en memoria y se descartan al cerrarla; el historial guardado por versiones anteriores se elimina al abrir la ventana de la Extensión.</li>
         <li>El almacenamiento de sesión se borra al finalizar la sesión del navegador.</li>
         <li>Al desinstalar la Extensión se elimina el almacenamiento local gestionado por el navegador.</li>
       </ul>
@@ -890,7 +886,7 @@
 
     <div data-lang="fr" lang="fr">
       <h1>Politique de confidentialité</h1>
-      <p class="updated">Dernière mise à jour : 7 novembre 2026</p>
+      <p class="updated">Dernière mise à jour : 12 novembre 2026</p>
       <p><strong>Notification facultative après la désinstallation :</strong> Nous ne demandons votre adresse e-mail que si vous souhaitez expressément recevoir un seul message concernant une correction ou amélioration liée à votre signalement. Nous la conservons séparément et la relions à ce signalement. Les adresses non confirmées sont supprimées sous sept jours. Après confirmation, ce lien demeure uniquement jusqu’à l’envoi de la notification liée, au retrait du consentement ou à la limite de douze mois. L’adresse n’est jamais utilisée pour la publicité. Supabase la stocke et Resend transmet la confirmation et la notification. Vous pouvez vous désabonner ou demander sa suppression à tout moment.</p>
       <p><strong>Grab All Files</strong> (ci-après « l'Extension ») est une extension de navigateur qui aide les utilisateurs à trouver, examiner, télécharger et, en option, fusionner des fichiers à partir des pages Web qu'ils choisissent. La présente politique explique quelles données l'Extension traite, comment elles sont utilisées, où elles sont stockées et quand elles sont transmises.</p>
 
@@ -899,7 +895,7 @@
       <p>Cela inclut, par exemple :</p>
       <ul>
         <li>l'onglet ou l'URL actuel(le) que vous demandez à l'Extension d'analyser,</li>
-        <li>l'historique récent des analyses stocké localement pour un accès rapide, et</li>
+        <li>les pages analysées pendant que la fenêtre de l'Extension est ouverte, traitées uniquement en mémoire (jamais enregistrées) pour suggérer le mode collecte, et</li>
         <li><strong>les enregistrements de fichiers réseau</strong> (URL et métadonnées des fichiers détectés via la surveillance du réseau) stockés temporairement dans le stockage de session pendant votre session de navigation.</li>
       </ul>
       <p>Nous n'envoyons pas votre historique d'analyses, le HTML des pages, le contenu des fichiers ou votre activité de navigation à nos serveurs.</p>
@@ -914,7 +910,7 @@
         <li><strong>Mise à jour de la liste de révocation</strong> &mdash; Une fois par jour, l'Extension télécharge une petite liste signée d'identifiants de jetons révoqués (sans clés de licence) afin que les révocations prennent effet sous 24 heures, même hors ligne. Cette requête n'envoie aucune donnée identifiant l'utilisateur.</li>
         <li><strong>Gestion des appareils</strong> &mdash; Lorsque vous consultez ou supprimez des appareils activés sur l'écran de licence, l'Extension envoie à notre serveur la clé de licence, votre identifiant d'appareil actuel et, si vous supprimez un appareil, l'identifiant de l'appareil ciblé.</li>
         <li><strong>Accès aux pages et fichiers à la demande de l'utilisateur</strong> &mdash; Lorsque vous analysez une page, collectez le contenu sélectionné de pages Web, saisissez une URL, récupérez les métadonnées de fichiers, téléchargez des fichiers ou fusionnez des PDF, l'Extension se connecte directement au site Web cible que vous avez sélectionné. Ces requêtes ne transitent pas par nos serveurs. Le HTML, les titres, les URL, les images, les profils et les documents générés du Web Page Collector ne sont inclus dans aucune requête de licence ou d'événement d'utilisation.</li>
-        <li><strong>Statistiques d'utilisation facultatives</strong> &mdash; Uniquement après votre consentement explicite, l'Extension envoie à notre backend Supabase les 18 événements d'utilisation pseudonymes répertoriés à la section 5a. Aucun événement <code>install</code> n'est envoyé avant le consentement.</li>
+        <li><strong>Statistiques d'utilisation facultatives</strong> &mdash; Uniquement après votre consentement explicite, l'Extension envoie à notre backend Supabase les 19 événements d'utilisation pseudonymes répertoriés à la section 5a. Aucun événement <code>install</code> n'est envoyé avant le consentement.</li>
         <li><strong>Enquête de désinstallation facultative</strong> &mdash; Tant que les statistiques d'utilisation restent activées, la désinstallation peut ouvrir notre page d'enquête avec, dans sa chaîne de requête, la version de l'Extension, la langue de l'interface, le nombre de jours depuis l'installation et le forfait (gratuit/payant). La désactivation des statistiques d'utilisation efface l'URL de désinstallation et met fin à cette navigation et à cette transmission de métadonnées.</li>
         <li><strong>Étiquette du bouton d'achat</strong> &mdash; Le bouton d'achat transmet à la page d'achat une étiquette fixe indiquant depuis quel écran il a été actionné (sans identifiant d'appareil ni compteurs) ; elle est conservée dans l'enregistrement du paiement.</li>
       </ul>
@@ -931,7 +927,6 @@
         <tr><td>Horodatage de la dernière vérification de licence</td><td>Local</td><td>Autoriser une période de grâce hors ligne limitée après une vérification de licence réussie et éviter les appels serveur redondants.</td></tr>
         <tr><td>JWT de licence et cache de révocation (jeton d'accès signé, expiration, identifiant de jeton, fonctionnalités accordées, liste des identifiants de jetons révoqués)</td><td>Local</td><td>Vérifier la licence hors ligne à l'aide d'un jeton signé émis par le serveur, et bloquer les jetons ayant été révoqués.</td></tr>
         <tr><td>État de forfait hérité et erreur/état de licence renvoyé par le serveur</td><td>Local</td><td>État de forfait hérité et erreur/état de licence renvoyé par le serveur, conservés pour compatibilité.</td></tr>
-        <tr><td>Historique récent des analyses (URL, titres/noms d'hôtes, horodatages)</td><td>Local</td><td>Afficher les pages récemment analysées et les URL saisies pour un accès rapide.</td></tr>
         <tr><td>Résultats Collect Mode (jusqu'à 3 000 URL, titres, noms de fichiers, indications MIME/type, référents et tailles)</td><td>Local</td><td>Reprendre une collecte multipage après réouverture du popup. Les champs POST, jetons CSRF et valeurs masquées ne sont jamais conservés.</td></tr>
         <tr><td>Tâches du Web Page Collector (URL cibles, titres modifiés, sélecteurs, profils, file d'attente, progression et erreurs par page)</td><td>Local</td><td>Examiner, suspendre, reprendre, réessayer et restaurer une tâche après le redémarrage du tableau de bord ou du Service Worker.</td></tr>
         <tr><td>Contenu de page assaini et images intégrées autorisées par le Web Page Collector</td><td>IndexedDB</td><td>Générer localement un document HTML complet ou partiel. Les valeurs Cookie, en-têtes Authorization, mots de passe et jetons de session ne sont pas stockés.</td></tr>
@@ -942,7 +937,7 @@
         <tr><td>Enregistrements Active Capture (URL source et URL finale de téléchargement, URL de la page référente, noms de fichiers enregistrés, types MIME, identifiant et état du téléchargement du navigateur et hôte cible de la capture)</td><td>Session</td><td>Associer les fichiers téléchargés pendant une exécution explicite d’Active Capture pour les renommer ou les compresser en ZIP. Jusqu’à 500 enregistrements ; effacés à la fin de la session du navigateur.</td></tr>
 
       </table></div>
-      <p>Vous pouvez effacer l'historique récent des analyses depuis l'interface de l'Extension. Les enregistrements de fichiers réseau peuvent être effacés en cliquant sur le bouton « Reset » dans le panneau des résultats ou en fermant l'onglet. La suppression d'une tâche du Web Page Collector efface ses métadonnées et contenus de page enregistrés ; les profils importés réutilisables sont gérés séparément. La désinstallation de l'Extension supprime son stockage local. Les données de session sont effacées automatiquement à la fin de la session du navigateur.</p>
+      <p>Les enregistrements de fichiers réseau peuvent être effacés en cliquant sur le bouton « Reset » dans le panneau des résultats ou en fermant l'onglet. La suppression d'une tâche du Web Page Collector efface ses métadonnées et contenus de page enregistrés ; les profils importés réutilisables sont gérés séparément. La désinstallation de l'Extension supprime son stockage local. Les données de session sont effacées automatiquement à la fin de la session du navigateur. Les enregistrements Active Capture sont effacés à la fin de la session du navigateur.</p>
 
       <h2>4. Permissions</h2>
       <div class="table-scroll" role="region" tabindex="0" aria-label="4. Permissions"><table>
@@ -951,19 +946,19 @@
         <tr><td><code>tabs</code></td><td>Lire l'onglet source actif choisi par l'utilisateur et ouvrir un onglet cible inactif lorsque le Collector a besoin du contenu rendu.</td></tr>
         <tr><td><code>scripting</code></td><td>Détecter les liens téléchargeables, capturer le DOM rendu des pages sélectionnées et exécuter le sélecteur visuel demandé par l'utilisateur.</td></tr>
         <tr><td><code>downloads</code></td><td>Enregistrer les fichiers, les PDF fusionnés et le HTML complet ou partiel généré par le Collector.</td></tr>
-        <tr><td><code>storage</code></td><td>Stocker licence, préférences, historique et tâches, profils, sélecteurs, files, progression et points de reprise locaux du Collector.</td></tr>
+        <tr><td><code>storage</code></td><td>Stocker licence, préférences et tâches, profils, sélecteurs, files, progression et points de reprise locaux du Collector.</td></tr>
         <tr><td><code>unlimitedStorage</code></td><td>Éviter que les tâches volumineuses du Collector, dont le contenu des pages et les images sont stockés localement dans IndexedDB, échouent en atteignant le quota de stockage par défaut du navigateur. Les données stockées ne sont ni transmises ni partagées.</td></tr>
         <tr><td><code>alarms</code></td><td>Rafraîchir périodiquement l'état de la licence et de la révocation.</td></tr>
         <tr><td><code>notifications</code></td><td>Afficher les notifications de fin de téléchargement et d'état de licence.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Ajouter des actions de clic droit pour analyser et télécharger des fichiers depuis des pages, liens, images et sélections.</td></tr>
         <tr><td><code>offscreen</code> (Chromium)</td><td>Analyser et assainir localement le HTML récupéré pour les collectes pouvant être reprises.</td></tr>
-        <tr><td><code>declarativeNetRequestWithHostAccess</code></td><td>Dans le mode strict en lecture seule du Collector choisi par l'utilisateur, créer des règles de session temporaires limitées à l'onglet qui bloquent les requêtes POST, PUT, PATCH et DELETE. Les règles sont supprimées à la fin de l'onglet ou de la tâche de collecte concernés.</td></tr>
+        <tr><td><code>declarativeNetRequestWithHostAccess</code> (Chrome/Edge/Firefox 113+)</td><td>Bloquer temporairement les requêtes d’écriture dans l’onglet en mode strict de lecture seule choisi, puis supprimer les règles à la fin. Par ailleurs (avec ou sans ce mode) : lorsque le collecteur de pages enregistre une page « telle qu’elle apparaissait » et qu’un site refuse une image, une police ou une feuille de style à l’extension (HTTP 401/403, typiquement une protection anti-hotlinking), une règle de session temporaire définit l’en-tête Referer sur l’origine de la page elle-même pour les requêtes propres à l’extension (pas celles d’un onglet) vers les hôtes qui ont refusé (100 au plus), pour une nouvelle tentative ; la règle est supprimée juste après.</td></tr>
         <tr><td>Accès facultatif aux sites :<br><code>https://*/*</code> + <code>http://*/*</code></td><td>Ces motifs sont uniquement des autorisations facultatives. L'Extension demande l'origine sélectionnée après une action de l'utilisateur, enregistre les scripts uniquement pour les origines autorisées et les retire quand l'autorisation est révoquée. Aucun contenu, URL, nom de fichier ou historique n'est envoyé aux serveurs du développeur.</td></tr>
         <tr><td>Accès requis au backend propriétaire :<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>Cette unique autorisation d'hôte requise sert à la vérification de licence, à l'actualisation des jetons/listes de révocation, à la gestion des appareils et &mdash; uniquement après consentement explicite &mdash; aux événements d'utilisation de la section 5a. Aucun contenu de page, de navigation ou du Collector n'y est transmis.</td></tr>
       </table></div>
 
       <h2>5. Utilisation des données liées à la navigation</h2>
-      <p>L'Extension utilise les données liées à la navigation et le contenu des sites Web uniquement pour fournir ses fonctionnalités destinées à l'utilisateur : analyse de la page courante, analyse d'une URL que vous saisissez, affichage des analyses récentes, vérification des métadonnées de fichiers, téléchargement des fichiers sélectionnés et fusion locale de PDF.</p>
+      <p>L'Extension utilise les données liées à la navigation et le contenu des sites Web uniquement pour fournir ses fonctionnalités destinées à l'utilisateur : analyse de la page courante, analyse d'une URL que vous saisissez, vérification des métadonnées de fichiers, téléchargement des fichiers sélectionnés et fusion locale de PDF.</p>
       <ul>
         <li>Nous <strong>ne vendons pas</strong> ces données.</li>
         <li>Nous <strong>n'utilisons pas</strong> ces données à des fins publicitaires, de profilage ou d'analyse.</li>
@@ -975,7 +970,7 @@
 
       <h2>5a. Télémétrie, analyses et rapports d'erreurs</h2>
       <p>La version publiée sur les magasins <strong>ne contient aucun outil d'analyse tiers</strong> et n'envoie aucun rapport d'erreur, de plantage ou de performance. Les statistiques d'utilisation sont <strong>désactivées par défaut</strong> dans tous les navigateurs. Avant votre consentement explicite, aucun événement d'utilisation n'est envoyé et l'événement <code>install</code> n'est pas créé.</p>
-      <p>Après activation, les 18 seuls types d'événements sont : <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code> et <code>collector_job_done</code>.</p>
+      <p>Après activation, les seuls 19 types d'événements sont : <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code>, <code>collector_job_done</code> et <code>recipe_gap</code>. <code>recipe_gap</code> n&rsquo;est envoyé que si vous appuyez sur &laquo;&nbsp;Signaler ce site&nbsp;&raquo; après un téléchargement ou après une analyse sans fichier trouvé (les décomptes sont alors à 0)&nbsp;; il contient le nom du site sous la forme <code>*.example.com</code>, des décomptes de fichiers trouvés, enregistrés et en échec, ainsi que l&rsquo;échec le plus fréquent sur ce site &mdash; une étiquette de catégorie d&rsquo;erreur prédéfinie avec son statut HTTP et le nombre d&rsquo;éléments concernés &mdash; jamais une adresse, un titre de page ou un nom de fichier.</p>
       <p>Chaque événement contient un UUID d'installation aléatoire et stable, la version de l'Extension, l'offre gratuite/payante, le nom de l'événement et uniquement des compteurs, durées, booléens ou libellés fermés propres à l'événement. L'UUID est une <strong>donnée pseudonyme, non anonyme</strong>. Le contenu des pages ou du Collector, les URL, titres, noms de fichier ou de profil, sélecteurs, erreurs en texte libre, clés de licence et adresses e-mail ne sont jamais transmis. Les événements servent uniquement à améliorer le produit, ont une durée de conservation de <strong>90 jours</strong> et les enregistrements expirés sont supprimés progressivement. Tant que vous avez consenti, l'enquête de désinstallation ne peut recevoir que la version, la langue, le nombre de jours d'installation et l'offre. La désactivation efface l'URL de l'enquête et arrête tous les événements futurs ; vous pouvez retirer votre consentement à tout moment et demander la suppression conformément à la section 8.</p>
       <p>Un point d'ancrage optionnel pour les rapports d'erreurs (Sentry) est présent dans l'arborescence des sources pour les versions de débogage internes, mais il est conditionné par un secret de compilation et n'est jamais activé dans la version distribuée via le Chrome Web Store&trade;, Microsoft Edge&trade; Add-ons et Firefox Add-ons. Si une future version venait à l'activer, la présente Politique de confidentialité serait mise à jour avant la publication, et les données envoyées seraient filtrées pour expurger les clés de licence, les adresses e-mail, les JWT, les jetons « bearer », les UUID, les valeurs de chaînes de requête, les chemins de système de fichiers et les corps des chemins d'URL.</p>
 
@@ -1007,7 +1002,7 @@
       <ul>
         <li><strong>Exécution d'un contrat</strong> (article 6, paragraphe 1, point b), du RGPD) &mdash; Vérification de licence, application de la limite d'appareils et gestion des licences payantes.</li>
         <li><strong>Consentement</strong> (article 6, paragraphe 1, point a), du RGPD) &mdash; Événements d'utilisation pseudonymes facultatifs et métadonnées associées de l'enquête de désinstallation. Vous pouvez retirer votre consentement à tout moment dans l'Extension ; le retrait arrête la collecte future.</li>
-        <li><strong>Intérêts légitimes</strong> (article 6, paragraphe 1, point f), du RGPD) &mdash; Stockage local des préférences et de l'historique récent des analyses nécessaires au fonctionnement essentiel de l'Extension sur votre appareil.</li>
+        <li><strong>Intérêts légitimes</strong> (article 6, paragraphe 1, point f), du RGPD) &mdash; Stockage local des préférences nécessaires au fonctionnement essentiel de l'Extension sur votre appareil.</li>
       </ul>
 
       <h2>7. Services tiers et transferts internationaux</h2>
@@ -1022,7 +1017,7 @@
         <li>Les événements d'utilisation pseudonymes facultatifs ont une durée de conservation de <strong>90 jours</strong> ; les enregistrements expirés sont supprimés progressivement.</li>
         <li>Les réponses à l'enquête de désinstallation (&sect;5c) sont supprimées automatiquement <strong>24 mois</strong> après leur envoi.</li>
         <li>Nous traiterons les demandes de suppression d'enregistrements côté serveur dans un délai de <strong>30 jours</strong>.</li>
-        <li>L'historique récent des analyses est limité aux 20 entrées les plus récentes stockées localement.</li>
+        <li>Aucun historique d'analyses n'est enregistré. Les pages analysées pendant que la fenêtre de l'Extension est ouverte sont traitées uniquement en mémoire et supprimées à sa fermeture ; l'historique enregistré par d'anciennes versions est supprimé à l'ouverture de la fenêtre de l'Extension.</li>
         <li>Le stockage de session est effacé à la fin de la session du navigateur.</li>
         <li>La désinstallation de l'Extension supprime le stockage local géré par le navigateur.</li>
       </ul>
@@ -1075,7 +1070,7 @@
 
     <div data-lang="it" lang="it">
       <h1>Informativa sulla Privacy</h1>
-      <p class="updated">Ultimo aggiornamento: 7 novembre 2026</p>
+      <p class="updated">Ultimo aggiornamento: 12 novembre 2026</p>
       <p><strong>Avviso facoltativo dopo la disinstallazione:</strong> Chiediamo il tuo indirizzo e-mail solo se richiedi espressamente un unico messaggio su una correzione o un miglioramento legato alla tua segnalazione. Lo conserviamo separatamente e lo colleghiamo alla segnalazione. Gli indirizzi non confermati vengono eliminati entro sette giorni. Dopo la conferma, il collegamento rimane solo fino all’avviso pertinente, alla revoca del consenso o al limite di 12 mesi. Non usiamo mai l’indirizzo per il marketing. Supabase lo conserva e Resend invia la conferma e l’eventuale avviso. Puoi annullare l’iscrizione o chiedere la cancellazione in qualsiasi momento.</p>
       <p><strong>Grab All Files</strong> (l'«Estensione») è un'estensione per browser che aiuta gli utenti a trovare, ispezionare, scaricare e, facoltativamente, unire file dalle pagine web da loro scelte. La presente informativa illustra quali dati l'Estensione tratta, come vengono utilizzati, dove sono archiviati e quando vengono trasmessi.</p>
 
@@ -1084,7 +1079,7 @@
       <p>Ciò comprende, ad esempio:</p>
       <ul>
         <li>la scheda corrente o l'URL di cui Lei chiede la scansione all'Estensione,</li>
-        <li>la cronologia recente delle scansioni archiviata localmente per un accesso rapido, e</li>
+        <li>le pagine scansionate mentre la finestra dell'Estensione è aperta, trattate solo in memoria (mai salvate) per suggerire la modalità di raccolta, e</li>
         <li><strong>i record dei file di rete</strong> (URL e metadati dei file rilevati tramite il monitoraggio della rete) archiviati temporaneamente nello storage di sessione durante la sessione di navigazione.</li>
       </ul>
       <p>Non inviamo ai nostri server la cronologia delle scansioni, l'HTML delle pagine, il contenuto dei file o l'attività di navigazione.</p>
@@ -1099,7 +1094,7 @@
         <li><strong>Aggiornamento dell'elenco delle revoche</strong> &mdash; Una volta al giorno l'Estensione scarica un piccolo elenco firmato di identificativi di token revocati (senza chiavi di licenza) affinché le revoche abbiano effetto entro 24 ore, anche offline. Tale richiesta non invia alcun dato identificativo dell'utente.</li>
         <li><strong>Gestione dei dispositivi</strong> &mdash; Quando Lei visualizza o rimuove i dispositivi attivati dalla schermata della licenza, l'Estensione invia al nostro server la chiave di licenza, l'identificativo del Suo dispositivo attuale e, in caso di rimozione di un dispositivo, l'identificativo del dispositivo di destinazione.</li>
         <li><strong>Accesso a pagine e file richiesto dall'utente</strong> &mdash; Quando Lei effettua la scansione di una pagina, raccoglie contenuti selezionati delle pagine web, inserisce un URL, recupera metadati di file, scarica file o unisce PDF, l'Estensione si collega direttamente al sito web di destinazione da Lei selezionato. Tali richieste non transitano dai nostri server. HTML, titoli, URL, immagini, profili e documenti generati del Web Page Collector non sono inclusi nelle richieste di licenza o negli eventi di utilizzo.</li>
-        <li><strong>Statistiche d'uso facoltative</strong> &mdash; Solo dopo il Suo consenso esplicito, l'Estensione invia al nostro backend Supabase i 18 eventi d'uso pseudonimi elencati nella Sezione 5a. Prima del consenso non viene inviato alcun evento <code>install</code>.</li>
+        <li><strong>Statistiche d'uso facoltative</strong> &mdash; Solo dopo il Suo consenso esplicito, l'Estensione invia al nostro backend Supabase i 19 eventi d'uso pseudonimi elencati nella Sezione 5a. Prima del consenso non viene inviato alcun evento <code>install</code>.</li>
         <li><strong>Sondaggio di disinstallazione facoltativo</strong> &mdash; Finché le statistiche d'uso restano attive, la disinstallazione può aprire la nostra pagina del sondaggio con la versione dell'Estensione, la lingua dell'interfaccia, il numero di giorni dall'installazione e il piano (gratuito/a pagamento) nella stringa di query. Disattivando le statistiche d'uso, l'URL di disinstallazione viene cancellato e questa navigazione e trasmissione di metadati si interrompono.</li>
         <li><strong>Etichetta del pulsante di acquisto</strong> &mdash; Il pulsante di acquisto passa alla pagina di acquisto un&rsquo;etichetta fissa che indica da quale schermata è stato premuto (senza identificativo del dispositivo né conteggi), conservata nella registrazione del pagamento.</li>
       </ul>
@@ -1116,7 +1111,6 @@
         <tr><td>Marca temporale dell'ultima verifica della licenza</td><td>Local</td><td>Consentire un periodo di tolleranza offline limitato dopo una verifica riuscita della licenza ed evitare chiamate ridondanti al server.</td></tr>
         <tr><td>JWT della licenza e cache delle revoche (token di accesso firmato, scadenza, ID del token, funzionalità concesse, elenco di ID di token revocati)</td><td>Local</td><td>Verificare la licenza offline tramite un token firmato emesso dal server e bloccare i token che sono stati revocati.</td></tr>
         <tr><td>Stato del piano legacy ed errore/stato della licenza restituiti dal server</td><td>Local</td><td>Stato del piano legacy ed errore/stato della licenza restituiti dal server, conservati per compatibilità.</td></tr>
-        <tr><td>Cronologia recente delle scansioni (URL, titoli/nomi host, marche temporali)</td><td>Local</td><td>Mostrare le pagine scansionate di recente e gli URL inseriti per un accesso rapido.</td></tr>
         <tr><td>Risultati Collect Mode (fino a 3.000 URL, titoli, nomi file, indicazioni MIME/tipo, referrer e dimensioni)</td><td>Local</td><td>Riprendere una raccolta multipagina dopo la riapertura del popup. Campi POST, token CSRF e valori nascosti non vengono mai memorizzati.</td></tr>
         <tr><td>Processi del Web Page Collector (URL di destinazione, titoli modificati, selettori, profili, coda, avanzamento ed errori per pagina)</td><td>Local</td><td>Esaminare, sospendere, riprendere, riprovare e recuperare un processo dopo il riavvio del pannello o del Service Worker.</td></tr>
         <tr><td>Contenuti di pagina sanificati e immagini incorporate consentite dal Web Page Collector</td><td>IndexedDB</td><td>Generare localmente un documento HTML completo o parziale. Non vengono memorizzati valori Cookie, header Authorization, password o token di sessione.</td></tr>
@@ -1127,7 +1121,7 @@
         <tr><td>Record di Active Capture (URL di origine e URL finale del download, URL della pagina di provenienza, nomi dei file salvati, tipi MIME, ID e stato del download del browser e host di destinazione della cattura)</td><td>Session</td><td>Abbinare i file scaricati durante un’esecuzione esplicita di Active Capture per rinominarli o comprimerli in ZIP. Fino a 500 record; cancellati al termine della sessione del browser.</td></tr>
 
       </table></div>
-      <p>È possibile cancellare la cronologia recente delle scansioni dall'interfaccia dell'Estensione. I record dei file di rete possono essere cancellati premendo il pulsante «Reset» nel pannello dei risultati o chiudendo la scheda. Eliminando un processo del Web Page Collector si rimuovono metadati e contenuti di pagina salvati del processo; i profili importati riutilizzabili sono gestiti separatamente. La disinstallazione dell'Estensione rimuove il relativo storage locale. I dati di sessione vengono cancellati automaticamente al termine della sessione del browser.</p>
+      <p>I record dei file di rete possono essere cancellati premendo il pulsante «Reset» nel pannello dei risultati o chiudendo la scheda. Eliminando un processo del Web Page Collector si rimuovono metadati e contenuti di pagina salvati del processo; i profili importati riutilizzabili sono gestiti separatamente. La disinstallazione dell'Estensione rimuove il relativo storage locale. I dati di sessione vengono cancellati automaticamente al termine della sessione del browser. I record di Active Capture vengono cancellati al termine della sessione del browser.</p>
 
       <h2>4. Permessi</h2>
       <div class="table-scroll" role="region" tabindex="0" aria-label="4. Permessi"><table>
@@ -1136,19 +1130,19 @@
         <tr><td><code>tabs</code></td><td>Leggere la scheda sorgente attiva scelta dall'utente e aprire una scheda di destinazione inattiva quando il Collector necessita del contenuto renderizzato.</td></tr>
         <tr><td><code>scripting</code></td><td>Rilevare collegamenti scaricabili, acquisire il DOM renderizzato delle pagine selezionate ed eseguire il selettore visivo richiesto dall'utente.</td></tr>
         <tr><td><code>downloads</code></td><td>Salvare file selezionati, PDF uniti e HTML completo o parziale generato dal Collector.</td></tr>
-        <tr><td><code>storage</code></td><td>Memorizzare licenza, preferenze, cronologia e processi, profili, selettori, code, avanzamento e checkpoint locali del Collector.</td></tr>
+        <tr><td><code>storage</code></td><td>Memorizzare licenza, preferenze e processi, profili, selettori, code, avanzamento e checkpoint locali del Collector.</td></tr>
         <tr><td><code>unlimitedStorage</code></td><td>Evitare che i processi di grandi dimensioni del Collector, i cui contenuti di pagina e immagini sono memorizzati localmente in IndexedDB, falliscano al raggiungimento della quota di archiviazione predefinita del browser. I dati memorizzati non vengono trasmessi né condivisi.</td></tr>
         <tr><td><code>alarms</code></td><td>Aggiornare periodicamente lo stato della licenza e delle revoche.</td></tr>
         <tr><td><code>notifications</code></td><td>Mostrare notifiche di completamento dei download e di stato della licenza.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Aggiungere azioni del menu contestuale (clic destro) per scansionare e scaricare file da pagine, collegamenti, immagini e selezioni.</td></tr>
         <tr><td><code>offscreen</code> (Chromium)</td><td>Analizzare e sanificare localmente l’HTML recuperato per raccolte ripristinabili.</td></tr>
-        <tr><td><code>declarativeNetRequestWithHostAccess</code></td><td>Nella modalità rigorosa di sola lettura del Collector scelta dall'utente, creare regole di sessione temporanee limitate alla scheda che bloccano le richieste POST, PUT, PATCH e DELETE. Le regole vengono rimosse al termine della scheda o del processo di raccolta.</td></tr>
+        <tr><td><code>declarativeNetRequestWithHostAccess</code> (Chrome/Edge/Firefox 113+)</td><td>Bloccare temporaneamente le richieste di scrittura nella scheda durante la modalità rigorosa di sola lettura scelta e rimuovere le regole al termine. Inoltre (con o senza tale modalità): quando il raccoglitore di pagine salva una pagina «com’era» e un sito rifiuta un’immagine, un font o un foglio di stile all’estensione (HTTP 401/403, tipicamente protezione anti-hotlink), viene creata una regola di sessione temporanea che imposta l’intestazione Referer sull’origine della pagina stessa per le richieste proprie dell’estensione (non quelle di una scheda) verso gli host che hanno rifiutato (al massimo 100), per un nuovo tentativo; la regola viene rimossa subito dopo.</td></tr>
         <tr><td>Accesso facoltativo ai siti:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>Questi pattern sono solo permessi facoltativi. L'Estensione richiede l'origine selezionata dopo un'azione dell'utente, registra script solo per le origini autorizzate e li rimuove quando il permesso viene revocato. Contenuti, URL, nomi di file e cronologia non vengono inviati ai server dello sviluppatore.</td></tr>
         <tr><td>Accesso obbligatorio al backend proprietario:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>Questa unica autorizzazione host obbligatoria serve per la verifica della licenza, l'aggiornamento di token/liste di revoca, la gestione dei dispositivi e &mdash; solo dopo il consenso esplicito &mdash; gli eventi di utilizzo della sezione 5a. Non trasmette mai contenuti di pagine, navigazione o del Collector.</td></tr>
       </table></div>
 
       <h2>5. Utilizzo dei Dati Relativi alla Navigazione</h2>
-      <p>L'Estensione utilizza i dati relativi alla navigazione e i contenuti dei siti web esclusivamente per fornire le proprie funzionalità rivolte all'utente: scansione della pagina corrente, scansione di un URL inserito dall'utente, visualizzazione delle scansioni recenti, controllo dei metadati dei file, download dei file selezionati e unione locale di PDF.</p>
+      <p>L'Estensione utilizza i dati relativi alla navigazione e i contenuti dei siti web esclusivamente per fornire le proprie funzionalità rivolte all'utente: scansione della pagina corrente, scansione di un URL inserito dall'utente, controllo dei metadati dei file, download dei file selezionati e unione locale di PDF.</p>
       <ul>
         <li><strong>Non</strong> vendiamo questi dati.</li>
         <li><strong>Non</strong> utilizziamo questi dati per finalità pubblicitarie, di profilazione o di analisi.</li>
@@ -1160,7 +1154,7 @@
 
       <h2>5a. Telemetria, Analisi e Segnalazione di Errori</h2>
       <p>La versione pubblicata nello store <strong>non contiene strumenti di analisi di terze parti</strong> e non invia segnalazioni di errori, arresti anomali o prestazioni. Le statistiche di utilizzo sono <strong>disattivate per impostazione predefinita</strong> in ogni browser. Prima del consenso esplicito non viene inviato alcun evento di utilizzo e non viene creato l'evento <code>install</code>.</p>
-      <p>Dopo l'attivazione, gli unici 18 tipi di evento sono: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code> e <code>collector_job_done</code>.</p>
+      <p>Dopo l'attivazione, gli unici 19 tipi di evento sono: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code>, <code>collector_job_done</code> e <code>recipe_gap</code>. <code>recipe_gap</code> è inviato solo quando premi &ldquo;Segnala questo sito&rdquo; dopo un download o dopo una scansione senza file trovati (i conteggi sono allora 0); contiene il nome del sito nella forma <code>*.example.com</code>, i conteggi dei file trovati, salvati e falliti e l&rsquo;errore più frequente su quel sito &mdash; un&rsquo;etichetta di categoria di errore predefinita con il relativo stato HTTP e il numero di elementi interessati &mdash; mai un indirizzo, un titolo di pagina o un nome di file.</p>
       <p>Ogni evento contiene un UUID di installazione casuale e stabile, la versione dell'Estensione, il piano gratuito/a pagamento, il nome dell'evento e soltanto conteggi, durate, valori booleani o etichette chiuse specifici dell'evento. L'UUID è un <strong>dato pseudonimo, non anonimo</strong>. Non vengono mai trasmessi contenuti di pagine o del Collector, URL, titoli, nomi di file o profili, selettori, errori in testo libero, chiavi di licenza o indirizzi e-mail. Gli eventi sono usati solo per migliorare il prodotto, hanno una conservazione di <strong>90 giorni</strong> e i record scaduti vengono eliminati progressivamente. Durante il consenso, il sondaggio di disinstallazione può ricevere solo versione, lingua, giorni dall'installazione e piano. Disattivando l'opzione si cancella l'URL del sondaggio e si interrompono tutti gli eventi futuri; il consenso può essere revocato in qualsiasi momento e la cancellazione può essere richiesta ai sensi della sezione 8.</p>
       <p>All'interno del codice sorgente è presente un hook opzionale di segnalazione errori (Sentry) destinato alle build interne di debug, ma è subordinato a un segreto definito al momento della compilazione e non viene mai abilitato nella build distribuita tramite Chrome Web Store&trade;, Microsoft Edge&trade; Add-ons e Firefox Add-ons. Qualora una futura release dovesse abilitarlo, la presente Informativa sulla privacy verrà aggiornata prima del rilascio di tale versione e i dati eventualmente inviati saranno filtrati per oscurare chiavi di licenza, indirizzi e-mail, JWT, bearer token, UUID, valori delle stringhe di query, percorsi del file system e corpo dei percorsi degli URL.</p>
 
@@ -1192,7 +1186,7 @@
       <ul>
         <li><strong>Esecuzione di un contratto</strong> (articolo 6, paragrafo 1, lettera b), del GDPR) &mdash; Verifica della licenza, applicazione del limite di dispositivi e gestione delle licenze a pagamento.</li>
         <li><strong>Consenso</strong> (articolo 6, paragrafo 1, lettera a), del GDPR) &mdash; Eventi di utilizzo pseudonimi facoltativi e relativi metadati del sondaggio di disinstallazione. Può revocare il consenso in qualsiasi momento nell'Estensione; la revoca interrompe la raccolta futura.</li>
-        <li><strong>Legittimi interessi</strong> (articolo 6, paragrafo 1, lettera f), del GDPR) &mdash; Memorizzazione delle preferenze locali e della cronologia recente delle scansioni necessarie per fornire le funzionalità di base dell'Estensione sul Suo dispositivo.</li>
+        <li><strong>Legittimi interessi</strong> (articolo 6, paragrafo 1, lettera f), del GDPR) &mdash; Memorizzazione delle preferenze locali necessarie per fornire le funzionalità di base dell'Estensione sul Suo dispositivo.</li>
       </ul>
 
       <h2>7. Servizi di Terzi e Trasferimenti Internazionali</h2>
@@ -1207,7 +1201,7 @@
         <li>Gli eventi di utilizzo pseudonimi facoltativi hanno una conservazione di <strong>90 giorni</strong>; i record scaduti vengono eliminati progressivamente.</li>
         <li>Le risposte al sondaggio di disinstallazione (&sect;5c) vengono eliminate automaticamente <strong>24 mesi</strong> dopo l'invio.</li>
         <li>Tratteremo le richieste di cancellazione dei record di backend entro <strong>30 giorni</strong>.</li>
-        <li>La cronologia recente delle scansioni è limitata alle 20 voci più recenti archiviate localmente.</li>
+        <li>Nessuna cronologia delle scansioni viene salvata. Le pagine scansionate mentre la finestra dell'Estensione è aperta sono trattate solo in memoria e scartate alla chiusura; la cronologia salvata da versioni precedenti viene eliminata all'apertura della finestra dell'Estensione.</li>
         <li>Lo storage di sessione viene cancellato al termine della sessione del browser.</li>
         <li>La disinstallazione dell'Estensione rimuove lo storage locale gestito dal browser.</li>
       </ul>
@@ -1260,7 +1254,7 @@
 
     <div data-lang="ko" lang="ko">
       <h1>개인정보처리방침</h1>
-      <p class="updated">최종 업데이트: 2026년 11월 7일</p>
+      <p class="updated">최종 업데이트: 2026년 11월 12일</p>
       <p><strong>제거 후 선택적 알림:</strong> 관련 수정 또는 개선 사항에 대한 이메일 한 통을 명시적으로 요청한 경우에만 이메일 주소를 입력받습니다. 주소를 별도로 저장하고 해당 의견과 연결합니다. 확인되지 않은 주소는 7일 이내에 삭제합니다. 확인 후에는 관련 알림 발송, 동의 철회 또는 등록 후 12개월의 기한 중 먼저 도래하는 때까지만 연결하며 마케팅에는 사용하지 않습니다. 주소는 Supabase에 저장되고 확인 메일과 알림은 Resend를 통해 전송됩니다. 언제든 수신을 취소하거나 삭제를 요청할 수 있습니다.</p>
       <p><strong>Grab All Files</strong>(이하 "본 확장 프로그램")는 이용자가 선택한 웹 페이지에서 파일을 검색, 확인, 다운로드하고 필요에 따라 결합할 수 있도록 도와주는 브라우저 확장 프로그램입니다. 본 방침은 본 확장 프로그램이 처리하는 데이터, 그 이용 방법, 저장 위치 및 송신 시점에 대하여 설명합니다.</p>
 
@@ -1269,7 +1263,7 @@
       <p>예를 들면 다음과 같습니다.</p>
       <ul>
         <li>이용자가 본 확장 프로그램에 스캔을 요청한 현재 탭 또는 URL,</li>
-        <li>빠른 접근을 위해 로컬에 저장되는 최근 스캔 이력, 그리고</li>
+        <li>확장 프로그램 창이 열려 있는 동안 스캔한 페이지(수집 모드 안내를 위해 메모리에서만 다루며 저장하지 않음), 그리고</li>
         <li>브라우징 세션 중 세션 스토리지에 일시적으로 저장되는 <strong>네트워크 파일 기록</strong>(네트워크 모니터링을 통해 검출된 파일의 URL 및 메타데이터).</li>
       </ul>
       <p>당사는 귀하의 스캔 이력, 페이지 HTML, 파일 내용 또는 브라우징 활동을 당사 서버로 전송하지 않습니다.</p>
@@ -1284,7 +1278,7 @@
         <li><strong>실효 목록 갱신</strong> &mdash; 1일 1회, 본 확장 프로그램은 실효된 토큰 식별자(라이선스 키 미포함)의 작은 서명된 목록을 다운로드하여, 오프라인에서도 24시간 이내에 실효가 반영되도록 합니다. 이 요청에는 이용자 식별 정보가 일체 송신되지 않습니다.</li>
         <li><strong>디바이스 관리</strong> &mdash; 라이선스 화면에서 활성화된 디바이스를 보거나 제거할 때, 본 확장 프로그램은 라이선스 키, 현재 디바이스 식별자, 그리고 디바이스를 제거하는 경우 대상 디바이스 식별자를 당사 서버로 전송합니다.</li>
         <li><strong>이용자가 요청한 페이지 및 파일 접근</strong> &mdash; 페이지를 스캔하거나, 선택한 웹페이지 콘텐츠를 수집하거나, URL을 입력하거나, 파일 메타데이터를 가져오거나, 파일을 다운로드하거나, PDF를 결합할 때, 본 확장 프로그램은 이용자가 선택한 대상 웹사이트에 직접 연결합니다. 이러한 요청은 당사 서버를 경유하지 않습니다. Web Page Collector의 HTML, 제목, URL, 이미지, 프로필 및 생성 문서는 라이선스 또는 사용 이벤트 요청에 포함되지 않습니다.</li>
-        <li><strong>선택적 사용 통계</strong> &mdash; 사용자가 명시적으로 동의한 뒤에만 제5a절에 열거된 18개의 가명 사용 이벤트를 Supabase 백엔드로 전송합니다. 동의 전에는 <code>install</code> 이벤트를 전송하지 않습니다.</li>
+        <li><strong>선택적 사용 통계</strong> &mdash; 사용자가 명시적으로 동의한 뒤에만 제5a절에 열거된 19개의 가명 사용 이벤트를 Supabase 백엔드로 전송합니다. 동의 전에는 <code>install</code> 이벤트를 전송하지 않습니다.</li>
         <li><strong>선택적 제거 설문조사</strong> &mdash; 사용 통계가 켜져 있는 동안에만, 제거 시 확장 프로그램 버전, UI 언어, 설치 후 경과 일수, 무료/유료 플랜을 쿼리 문자열에 담아 당사 설문조사 페이지를 열 수 있습니다. 사용 통계를 끄면 제거 URL이 지워지며 이 페이지 이동과 메타데이터 전송이 중단됩니다.</li>
         <li><strong>구매 버튼 경로 라벨</strong> &mdash; 구매 버튼은 어느 화면에서 눌렀는지를 나타내는 정해진 라벨(기기 ID나 건수 등은 포함하지 않음)을 구매 페이지에 전달하며, 이는 결제 기록에 남습니다.</li>
       </ul>
@@ -1301,7 +1295,6 @@
         <tr><td>최종 검증 / 최종 체험 확인 타임스탬프</td><td>Local</td><td>라이선스 확인에 성공한 후 제한된 오프라인 유예 기간을 허용하고 불필요한 서버 호출을 피하기 위함.</td></tr>
         <tr><td>라이선스 JWT 및 실효 캐시(서명 액세스 토큰, 만료일, 토큰 ID, 부여된 기능, 실효된 토큰 ID 목록)</td><td>Local</td><td>서버가 발급한 서명 토큰을 사용하여 오프라인에서 라이선스를 검증하고, 실효된 토큰을 차단하기 위함.</td></tr>
         <tr><td>이전 플랜 상태 및 서버가 반환한 라이선스 오류/상태</td><td>Local</td><td>호환성을 위해 유지하는 이전 플랜 상태와 서버가 반환한 라이선스 오류/상태.</td></tr>
-        <tr><td>최근 스캔 이력(URL, 제목/호스트명, 타임스탬프)</td><td>Local</td><td>최근에 스캔한 페이지 및 입력한 URL을 빠른 접근을 위해 표시하기 위함.</td></tr>
         <tr><td>Collect Mode 결과(최대 3,000개의 파일 URL, 제목, 파일명, MIME/형식 힌트, referrer 및 크기)</td><td>Local</td><td>팝업을 다시 연 뒤에도 여러 페이지 수집을 재개하기 위함. POST 필드, CSRF token 및 hidden 값은 영구 저장하지 않습니다.</td></tr>
         <tr><td>Web Page Collector 작업(대상 URL, 수정한 제목, 선택자, 프로필, 대기열, 진행 상태 및 페이지별 오류)</td><td>Local</td><td>대시보드 또는 Service Worker 재시작 후 작업을 검토, 일시정지, 재개, 재시도 및 복구하기 위함.</td></tr>
         <tr><td>Web Page Collector의 안전하게 처리된 페이지 본문 및 허용된 삽입 이미지</td><td>IndexedDB</td><td>완성 또는 부분 HTML 문서를 로컬에서 생성하기 위함. Cookie 값, Authorization 헤더, 비밀번호 및 세션 토큰은 저장하지 않습니다.</td></tr>
@@ -1312,7 +1305,7 @@
         <tr><td>액티브 캡처 기록(원본 및 최종 다운로드 URL, 참조 페이지 URL, 저장된 파일명, MIME 형식, 브라우저 다운로드 ID와 상태, 캡처 대상 호스트)</td><td>Session</td><td>명시적으로 실행한 액티브 캡처 중 다운로드한 파일을 대조하여 이름 변경이나 ZIP 생성에 사용합니다. 최대 500건이며 브라우저 세션 종료 시 자동 삭제됩니다.</td></tr>
 
       </table></div>
-      <p>최근 스캔 이력은 본 확장 프로그램 UI 내에서 삭제할 수 있습니다. 네트워크 파일 기록은 결과 패널에서 "Reset" 버튼을 클릭하거나 탭을 닫음으로써 삭제할 수 있습니다. Web Page Collector 작업을 삭제하면 해당 작업의 메타데이터와 저장된 페이지 본문이 삭제되며, 재사용 가능한 가져온 프로필은 별도로 관리됩니다. 본 확장 프로그램을 제거하면 그 로컬 스토리지가 삭제됩니다. 세션 데이터는 브라우저 세션이 종료되면 자동으로 삭제됩니다.</p>
+      <p>네트워크 파일 기록은 결과 패널에서 "Reset" 버튼을 클릭하거나 탭을 닫음으로써 삭제할 수 있습니다. Web Page Collector 작업을 삭제하면 해당 작업의 메타데이터와 저장된 페이지 본문이 삭제되며, 재사용 가능한 가져온 프로필은 별도로 관리됩니다. 본 확장 프로그램을 제거하면 그 로컬 스토리지가 삭제됩니다. 세션 데이터는 브라우저 세션이 종료되면 자동으로 삭제됩니다. 액티브 캡처 기록은 브라우저 세션이 종료되면 삭제됩니다.</p>
 
       <h2>4. 권한</h2>
       <div class="table-scroll" role="region" tabindex="0" aria-label="4. 권한"><table>
@@ -1321,19 +1314,19 @@
         <tr><td><code>tabs</code></td><td>사용자가 선택한 활성 원본 탭을 읽고 Collector에 렌더링된 콘텐츠가 필요한 경우 비활성 대상 페이지 탭을 열기 위함.</td></tr>
         <tr><td><code>scripting</code></td><td>다운로드 링크를 찾고, 선택한 페이지의 렌더링된 DOM을 캡처하며, 사용자가 요청한 선택자 도구를 실행하기 위함.</td></tr>
         <tr><td><code>downloads</code></td><td>선택 파일, 결합 PDF 및 Collector가 생성한 완성/부분 HTML을 저장하기 위함.</td></tr>
-        <tr><td><code>storage</code></td><td>라이선스, 환경설정, 이력 및 로컬 Collector 작업, 프로필, 선택자, 대기열, 진행 상태와 체크포인트를 저장하기 위함.</td></tr>
+        <tr><td><code>storage</code></td><td>라이선스, 환경설정 및 로컬 Collector 작업, 프로필, 선택자, 대기열, 진행 상태와 체크포인트를 저장하기 위함.</td></tr>
         <tr><td><code>unlimitedStorage</code></td><td>페이지 본문과 이미지를 IndexedDB에 로컬로 저장하는 대규모 Collector 작업이 브라우저의 기본 저장 용량 한도 때문에 실패하지 않도록 하기 위함. 저장된 데이터는 전송되거나 공유되지 않습니다.</td></tr>
         <tr><td><code>alarms</code></td><td>라이선스 및 실효 상태를 정기 일정으로 갱신하기 위함.</td></tr>
         <tr><td><code>notifications</code></td><td>다운로드 완료 및 라이선스 상태 알림을 표시하기 위함.</td></tr>
         <tr><td><code>contextMenus</code></td><td>페이지, 링크, 이미지 및 선택 영역에서 파일을 스캔하고 다운로드할 수 있도록 마우스 오른쪽 버튼 메뉴를 추가하기 위함.</td></tr>
         <tr><td><code>offscreen</code> (Chromium)</td><td>재개 가능한 수집 작업을 위해 가져온 HTML을 로컬에서 분석하고 안전하게 처리합니다.</td></tr>
-        <tr><td><code>declarativeNetRequestWithHostAccess</code></td><td>사용자가 선택한 엄격한 읽기 전용 Collector 모드에서 POST, PUT, PATCH, DELETE 요청을 차단하는 임시 탭 범위 세션 규칙을 만들기 위함. 해당 수집 탭/작업이 끝나면 규칙은 제거됩니다.</td></tr>
+        <tr><td><code>declarativeNetRequestWithHostAccess</code> (Chrome/Edge/Firefox 113+)</td><td>사용자가 선택한 엄격한 읽기 전용 모드에서 탭의 쓰기 요청을 임시로 차단하고 종료 시 규칙을 제거합니다. 이와 별도로(이 모드와 관계없이) 페이지 수집기가 페이지를 “원래 모습 그대로” 저장할 때 사이트가 확장 프로그램에 이미지, 글꼴 또는 스타일시트를 거부하면(HTTP 401/403, 대개 핫링크 방지) 거부한 호스트(최대 100개)로 가는 확장 프로그램 자신의 요청(어떤 탭의 요청도 아님)에 해당 페이지 자신의 출처를 Referer 헤더로 붙이는 임시 세션 규칙을 한 번의 재시도를 위해 만들고, 재시도 직후 제거합니다.</td></tr>
         <tr><td>선택적 사이트 접근:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>이 패턴은 선택적 권한으로만 선언됩니다. 사용자 동작 후 선택한 origin만 요청하고 허용된 origin에만 콘텐츠 스크립트를 등록하며 권한 취소 시 등록을 제거합니다. 페이지 콘텐츠, URL, 파일 이름 및 검색 기록은 개발자 서버로 전송되지 않습니다.</td></tr>
         <tr><td>필수 자사 백엔드 접근:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>이 단일 필수 host 권한은 라이선스 확인, 토큰/해지 목록 갱신, 기기 관리 및 &mdash; 명시적 동의 후에만 &mdash; 제5a절의 사용 이벤트에 사용됩니다. 페이지, 탐색 또는 Collector 내용은 전송하지 않습니다.</td></tr>
       </table></div>
 
       <h2>5. 브라우징 관련 데이터의 이용</h2>
-      <p>본 확장 프로그램은 브라우징 관련 데이터 및 웹사이트 콘텐츠를 그 이용자 대상 기능, 즉 현재 페이지 스캔, 입력 URL 스캔, 최근 스캔 표시, 파일 메타데이터 확인, 선택 파일 다운로드 및 PDF의 로컬 결합을 제공하기 위해서만 이용합니다.</p>
+      <p>본 확장 프로그램은 브라우징 관련 데이터 및 웹사이트 콘텐츠를 그 이용자 대상 기능, 즉 현재 페이지 스캔, 입력 URL 스캔, 파일 메타데이터 확인, 선택 파일 다운로드 및 PDF의 로컬 결합을 제공하기 위해서만 이용합니다.</p>
       <ul>
         <li>당사는 이 데이터를 <strong>판매하지 않습니다</strong>.</li>
         <li>당사는 이 데이터를 광고, 프로파일링 또는 분석에 <strong>이용하지 않습니다</strong>.</li>
@@ -1345,7 +1338,7 @@
 
       <h2>5a. 텔레메트리, 분석 및 오류 보고</h2>
       <p>공개된 스토어 배포본에는 <strong>제3자 분석 SDK가 없으며</strong> 오류·충돌·성능 보고서를 보내지 않습니다. 사용 통계는 모든 브라우저에서 <strong>기본적으로 꺼져 있습니다</strong>. 명시적으로 동의하기 전에는 사용 이벤트를 보내지 않으며 <code>install</code> 이벤트도 생성하지 않습니다.</p>
-      <p>활성화 후 전송할 수 있는 이벤트 유형은 다음 18개뿐입니다: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code> 및 <code>collector_job_done</code>.</p>
+      <p>활성화 후 전송할 수 있는 이벤트 유형은 다음 19개뿐입니다: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code>, <code>collector_job_done</code> 및 <code>recipe_gap</code>. <code>recipe_gap</code>은(는) 다운로드 후 또는 파일이 하나도 발견되지 않은 스캔 후에 &ldquo;이 사이트 신고&rdquo;를 누른 경우에만 전송되며(이 경우 개수는 모두 0입니다), <code>*.example.com</code> 형식의 사이트 이름, 발견·저장·실패한 파일 수, 그리고 해당 사이트에서 가장 많았던 실패 유형(정해진 오류 분류 라벨과 HTTP 상태 코드) 및 그 건수만 포함합니다. 주소, 페이지 제목, 파일 이름은 포함하지 않습니다.</p>
       <p>각 이벤트에는 무작위로 생성된 고정 설치 UUID, 확장 프로그램 버전, 무료/유료 플랜, 이벤트 이름과 이벤트별 거친 카운트·기간·불리언·폐쇄형 결과 라벨만 포함됩니다. UUID는 <strong>익명 데이터가 아닌 가명 데이터</strong>입니다. 페이지 또는 Collector 내용, URL, 제목, 파일명, 프로필명, 선택자, 자유 형식 오류, 라이선스 키 및 이메일 주소는 전송하지 않습니다. 이벤트는 제품 개선에만 사용되며 보유 기간은 <strong>90일</strong>이고 만료된 레코드는 점진적으로 삭제됩니다. 동의가 유지되는 동안 제거 설문은 버전, 언어, 설치 후 경과 일수 및 플랜만 받을 수 있습니다. 옵션을 끄면 설문 URL이 삭제되고 이후 모든 이벤트가 중지됩니다. 동의는 언제든 철회할 수 있고 제8절에 따라 삭제를 요청할 수 있습니다.</p>
       <p>소스 트리에는 내부 디버깅 빌드용 선택적 오류 보고 후크(Sentry)가 존재하지만, 이는 빌드 타임 시크릿으로 게이트되어 있으며 Chrome Web Store&trade;, Microsoft Edge&trade; Add-ons 및 Firefox Add-ons를 통해 배포되는 빌드에서는 결코 활성화되지 않습니다. 향후 릴리스에서 이를 활성화하는 경우, 해당 릴리스가 출시되기 전에 본 개인정보처리방침이 갱신되며, 송신되는 데이터에서는 라이선스 키, 이메일 주소, JWT, 베어러 토큰, UUID, 쿼리 문자열 값, 파일 시스템 경로 및 URL 경로 본문이 사전에 마스킹됩니다.</p>
 
@@ -1377,7 +1370,7 @@
       <ul>
         <li><strong>계약 이행</strong> (GDPR 제6조 제1항 b호) &mdash; 유료 라이선스의 라이선스 확인, 기기 수 제한 적용 및 라이선스 관리.</li>
         <li><strong>동의</strong> (GDPR 제6조 제1항 a호) &mdash; 선택적 가명 사용 이벤트와 관련 제거 설문 메타데이터. 확장 프로그램에서 언제든 동의를 철회할 수 있으며 철회하면 이후 수집이 중지됩니다.</li>
-        <li><strong>정당한 이익</strong>(GDPR Article 6(1)(f)) &mdash; 귀하의 디바이스에서 본 확장 프로그램의 핵심 기능을 제공하기 위해 필요한 로컬 환경설정 및 최근 스캔 이력의 저장.</li>
+        <li><strong>정당한 이익</strong>(GDPR Article 6(1)(f)) &mdash; 귀하의 디바이스에서 본 확장 프로그램의 핵심 기능을 제공하기 위해 필요한 로컬 환경설정의 저장.</li>
       </ul>
 
       <h2>7. 제3자 서비스 및 국제 데이터 이전</h2>
@@ -1392,7 +1385,7 @@
         <li>선택적 가명 사용 이벤트의 보유 기간은 <strong>90일</strong>이며 만료된 레코드는 점진적으로 삭제됩니다.</li>
         <li>제거 설문조사 응답(제5c조)은 제출 후 <strong>24개월</strong>이 지나면 자동으로 삭제됩니다.</li>
         <li>당사는 백엔드 기록에 대한 삭제 요청을 <strong>30일 이내</strong>에 처리합니다.</li>
-        <li>최근 스캔 이력은 로컬에 저장되는 가장 최근 20개 항목으로 제한됩니다.</li>
+        <li>스캔 이력은 저장하지 않습니다. 확장 프로그램 창이 열려 있는 동안 스캔한 페이지는 메모리에서만 다루며 창을 닫으면 사라집니다. 이전 버전이 저장한 이력은 확장 프로그램 창을 열 때 삭제됩니다.</li>
         <li>세션 스토리지는 브라우저 세션이 종료되면 삭제됩니다.</li>
         <li>본 확장 프로그램을 제거하면 브라우저가 관리하는 로컬 스토리지가 삭제됩니다.</li>
       </ul>
@@ -1445,7 +1438,7 @@
 
     <div data-lang="pt_BR" lang="pt-BR">
       <h1>Política de Privacidade</h1>
-      <p class="updated">Última atualização: 7 de novembro de 2026</p>
+      <p class="updated">Última atualização: 12 de novembro de 2026</p>
       <p><strong>Aviso opcional após a desinstalação:</strong> Só solicitamos seu endereço de e-mail se você pedir expressamente uma única mensagem sobre uma correção ou melhoria relacionada ao seu relato. Armazenamos o endereço separadamente e o vinculamos ao relato. Endereços não confirmados são excluídos em até sete dias. Depois da confirmação, o vínculo permanece apenas até o aviso relacionado, a retirada do consentimento ou o limite de 12 meses. Nunca usamos o endereço para marketing. O endereço fica no Supabase; a confirmação e o aviso são enviados pelo Resend. Você pode cancelar a inscrição ou solicitar a exclusão a qualquer momento.</p>
       <p><strong>Grab All Files</strong> ("a Extensão") é uma extensão de navegador que ajuda os usuários a localizar, inspecionar, baixar e, opcionalmente, mesclar arquivos a partir de páginas da web por eles escolhidas. Esta política explica quais dados a Extensão manipula, como eles são usados, onde são armazenados e quando são transmitidos.</p>
 
@@ -1454,7 +1447,7 @@
       <p>Isso inclui, por exemplo:</p>
       <ul>
         <li>a aba ou URL atual que você solicita que a Extensão escaneie,</li>
-        <li>o histórico recente de varreduras armazenado localmente para acesso rápido, e</li>
+        <li>as páginas escaneadas enquanto a janela da Extensão está aberta, tratadas apenas na memória (nunca salvas) para sugerir o modo de coleta, e</li>
         <li><strong>registros de arquivos de rede</strong> (URLs e metadados de arquivos detectados via monitoramento de rede) armazenados temporariamente no armazenamento de sessão durante sua sessão de navegação.</li>
       </ul>
       <p>Não enviamos seu histórico de varreduras, o HTML das páginas, o conteúdo dos arquivos ou sua atividade de navegação aos nossos servidores.</p>
@@ -1469,7 +1462,7 @@
         <li><strong>Atualização da lista de revogações</strong> &mdash; Uma vez por dia, a Extensão baixa uma pequena lista assinada de identificadores de tokens revogados (sem chaves de licença) para que as revogações entrem em vigor em até 24 horas, mesmo offline. Essa solicitação não envia nenhum dado de identificação do usuário.</li>
         <li><strong>Gerenciamento de dispositivos</strong> &mdash; Ao visualizar ou remover dispositivos ativados na tela de licença, a Extensão envia ao nosso servidor a chave de licença, o identificador do seu dispositivo atual e, se você remover um dispositivo, o identificador do dispositivo de destino.</li>
         <li><strong>Acesso a páginas e arquivos solicitado pelo usuário</strong> &mdash; Ao escanear uma página, coletar conteúdo selecionado de páginas web, inserir uma URL, obter metadados de arquivo, baixar arquivos ou mesclar PDFs, a Extensão se conecta diretamente ao site de destino selecionado por você. Essas solicitações não passam pelos nossos servidores. HTML, títulos, URLs, imagens, perfis e documentos gerados pelo Web Page Collector não são incluídos em solicitações de licença ou eventos de uso.</li>
-        <li><strong>Estatísticas de uso opcionais</strong> &mdash; Somente após seu consentimento explícito, a Extensão envia ao nosso backend do Supabase os 18 eventos de uso pseudonimizados listados na Seção 5a. Nenhum evento <code>install</code> é enviado antes do consentimento.</li>
+        <li><strong>Estatísticas de uso opcionais</strong> &mdash; Somente após seu consentimento explícito, a Extensão envia ao nosso backend do Supabase os 19 eventos de uso pseudonimizados listados na Seção 5a. Nenhum evento <code>install</code> é enviado antes do consentimento.</li>
         <li><strong>Pesquisa de desinstalação opcional</strong> &mdash; Enquanto as estatísticas de uso permanecerem ativadas, a desinstalação pode abrir nossa página de pesquisa com a versão da Extensão, o idioma da interface, o número de dias desde a instalação e o plano (gratuito/pago) na string de consulta. Desativar as estatísticas de uso apaga a URL de desinstalação e interrompe essa navegação e essa transferência de metadados.</li>
         <li><strong>Rótulo do botão de compra</strong> &mdash; O botão de compra passa à página de compra um rótulo fixo que indica de qual tela ele foi acionado (sem identificador de dispositivo nem contagens), mantido no registro do pagamento.</li>
       </ul>
@@ -1486,7 +1479,6 @@
         <tr><td>Carimbo de hora da última verificação de licença</td><td>Local</td><td>Permitir um período de tolerância offline limitado após uma verificação de licença bem-sucedida e evitar chamadas redundantes ao servidor.</td></tr>
         <tr><td>JWT de licença e cache de revogações (token de acesso assinado, expiração, ID do token, recursos concedidos, lista de IDs de tokens revogados)</td><td>Local</td><td>Verificar a licença offline usando um token assinado emitido pelo servidor e bloquear tokens que tenham sido revogados.</td></tr>
         <tr><td>Status legado do plano e erro/status de licença retornado pelo servidor</td><td>Local</td><td>Status legado do plano e erro/status de licença retornado pelo servidor, mantidos por compatibilidade.</td></tr>
-        <tr><td>Histórico recente de varreduras (URLs, títulos/nomes de host, carimbos de hora)</td><td>Local</td><td>Mostrar páginas recentemente escaneadas e URLs inseridas para acesso rápido.</td></tr>
         <tr><td>Resultados do Collect Mode (até 3.000 URLs, títulos, nomes, indicações MIME/tipo, referenciadores e tamanhos)</td><td>Local</td><td>Retomar uma coleta de várias páginas após reabrir o popup. Campos POST, tokens CSRF e valores ocultos nunca são persistidos.</td></tr>
         <tr><td>Trabalhos do Web Page Collector (URLs de destino, títulos editados, seletores, perfis, fila, progresso e erros por página)</td><td>Local</td><td>Revisar, pausar, retomar, tentar novamente e recuperar um trabalho após reiniciar o painel ou o Service Worker.</td></tr>
         <tr><td>Conteúdo de página higienizado e imagens incorporadas permitidas pelo Web Page Collector</td><td>IndexedDB</td><td>Gerar localmente um documento HTML completo ou parcial. Valores de Cookie, cabeçalhos Authorization, senhas e tokens de sessão não são armazenados.</td></tr>
@@ -1497,7 +1489,7 @@
         <tr><td>Registros do Active Capture (URLs de origem e de download final, URL da página de referência, nomes de arquivos salvos, tipos MIME, ID e estado do download no navegador e host alvo da captura)</td><td>Session</td><td>Associar os arquivos baixados durante uma execução explícita do Active Capture para renomear ou compactar em ZIP. Até 500 registros; apagados quando a sessão do navegador termina.</td></tr>
 
       </table></div>
-      <p>Você pode limpar o histórico recente de varreduras pela interface da Extensão. Os registros de arquivos de rede podem ser limpos clicando no botão "Reset" no painel de resultados ou fechando a aba. Excluir um trabalho do Web Page Collector remove seus metadados e conteúdos de página salvos; perfis importados reutilizáveis são gerenciados separadamente. Desinstalar a Extensão remove seu armazenamento local. Os dados de sessão são apagados automaticamente quando a sessão do navegador é encerrada.</p>
+      <p>Os registros de arquivos de rede podem ser limpos clicando no botão "Reset" no painel de resultados ou fechando a aba. Excluir um trabalho do Web Page Collector remove seus metadados e conteúdos de página salvos; perfis importados reutilizáveis são gerenciados separadamente. Desinstalar a Extensão remove seu armazenamento local. Os dados de sessão são apagados automaticamente quando a sessão do navegador é encerrada. Os registros do Active Capture são apagados quando a sessão do navegador é encerrada.</p>
 
       <h2>4. Permissões</h2>
       <div class="table-scroll" role="region" tabindex="0" aria-label="4. Permissões"><table>
@@ -1506,19 +1498,19 @@
         <tr><td><code>tabs</code></td><td>Ler a aba de origem ativa escolhida pelo usuário e abrir uma aba de destino inativa quando o Collector precisar do conteúdo renderizado.</td></tr>
         <tr><td><code>scripting</code></td><td>Detectar links baixáveis, capturar o DOM renderizado das páginas selecionadas e executar o seletor visual solicitado pelo usuário.</td></tr>
         <tr><td><code>downloads</code></td><td>Salvar arquivos selecionados, PDFs mesclados e HTML completo ou parcial gerado pelo Collector.</td></tr>
-        <tr><td><code>storage</code></td><td>Armazenar licença, preferências, histórico e trabalhos, perfis, seletores, filas, progresso e checkpoints locais do Collector.</td></tr>
+        <tr><td><code>storage</code></td><td>Armazenar licença, preferências e trabalhos, perfis, seletores, filas, progresso e checkpoints locais do Collector.</td></tr>
         <tr><td><code>unlimitedStorage</code></td><td>Evitar que trabalhos grandes do Collector, cujos conteúdos de página e imagens ficam armazenados localmente no IndexedDB, falhem ao atingir a cota de armazenamento padrão do navegador. Os dados armazenados não são transmitidos nem compartilhados.</td></tr>
         <tr><td><code>alarms</code></td><td>Atualizar o status de licença e de revogações em uma programação periódica.</td></tr>
         <tr><td><code>notifications</code></td><td>Exibir notificações de conclusão de download e de status de licença.</td></tr>
         <tr><td><code>contextMenus</code></td><td>Adicionar ações de clique direito para escanear e baixar arquivos a partir de páginas, links, imagens e seleções.</td></tr>
         <tr><td><code>offscreen</code> (Chromium)</td><td>Analisar e higienizar localmente o HTML obtido para coletas retomáveis.</td></tr>
-        <tr><td><code>declarativeNetRequestWithHostAccess</code></td><td>No modo estrito somente leitura do Collector escolhido pelo usuário, criar regras de sessão temporárias restritas à aba que bloqueiam solicitações POST, PUT, PATCH e DELETE. As regras são removidas quando essa aba ou trabalho de coleta termina.</td></tr>
+        <tr><td><code>declarativeNetRequestWithHostAccess</code> (Chrome/Edge/Firefox 113+)</td><td>Bloquear temporariamente solicitações de escrita na aba durante o modo estrito somente leitura escolhido e remover as regras ao final. Separadamente (com ou sem esse modo): quando o coletor de páginas salva uma página “como ela era” e um site recusa uma imagem, fonte ou folha de estilo à extensão (HTTP 401/403, normalmente proteção contra hotlink), é criada uma regra de sessão temporária que define o cabeçalho Referer como a origem da própria página nas solicitações da própria extensão (não as de qualquer aba) aos hosts que recusaram (no máximo 100), para uma nova tentativa; a regra é removida logo depois.</td></tr>
         <tr><td>Acesso opcional a sites:<br><code>https://*/*</code> + <code>http://*/*</code></td><td>Esses padrões são apenas permissões opcionais. A Extensão solicita a origem selecionada após uma ação do usuário, registra scripts somente em origens permitidas e remove o registro quando a permissão é revogada. Conteúdo, URLs, nomes de arquivos e histórico não são enviados aos servidores do desenvolvedor.</td></tr>
         <tr><td>Acesso obrigatório ao backend próprio:<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>Esta única permissão de host obrigatória é usada para verificação de licença, atualização de tokens/listas de revogação, gerenciamento de dispositivos e &mdash; somente após consentimento explícito &mdash; os eventos de uso da seção 5a. Conteúdo de páginas, navegação ou do Collector nunca é enviado por ela.</td></tr>
       </table></div>
 
       <h2>5. Uso de Dados Relacionados à Navegação</h2>
-      <p>A Extensão usa dados relacionados à navegação e o conteúdo dos sites apenas para oferecer suas funcionalidades voltadas ao usuário: escanear a página atual, escanear uma URL inserida por você, mostrar varreduras recentes, verificar metadados de arquivo, baixar arquivos selecionados e mesclar PDFs localmente.</p>
+      <p>A Extensão usa dados relacionados à navegação e o conteúdo dos sites apenas para oferecer suas funcionalidades voltadas ao usuário: escanear a página atual, escanear uma URL inserida por você, verificar metadados de arquivo, baixar arquivos selecionados e mesclar PDFs localmente.</p>
       <ul>
         <li><strong>Não</strong> vendemos esses dados.</li>
         <li><strong>Não</strong> usamos esses dados para publicidade, profiling ou análises.</li>
@@ -1530,7 +1522,7 @@
 
       <h2>5a. Telemetria, Análises e Relatórios de Erros</h2>
       <p>A versão publicada na loja <strong>não contém análise de terceiros</strong> e não envia relatórios de erro, falha ou desempenho. As estatísticas de uso ficam <strong>desativadas por padrão</strong> em todos os navegadores. Antes do seu consentimento explícito, nenhum evento de uso é enviado e o evento <code>install</code> não é criado.</p>
-      <p>Após a ativação, os únicos 18 tipos de evento são: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code> e <code>collector_job_done</code>.</p>
+      <p>Após a ativação, os únicos 19 tipos de evento são: <code>install</code>, <code>popup_first_open</code>, <code>picker_shown</code>, <code>picker_done</code>, <code>scan_start</code>, <code>scan_done</code>, <code>dl_click</code>, <code>dl_done</code>, <code>results_first_action</code>, <code>paywall_shown</code>, <code>download_cap_hit</code>, <code>upgrade_click</code>, <code>continue_free_click</code>, <code>license_view</code>, <code>buy_click</code>, <code>license_activate</code>, <code>collector_job_start</code>, <code>collector_job_done</code> e <code>recipe_gap</code>. <code>recipe_gap</code> é enviado apenas quando você pressiona &ldquo;Relatar este site&rdquo; após um download ou após uma verificação sem arquivos encontrados (as contagens são então 0); contém o nome do site na forma <code>*.example.com</code>, as contagens de arquivos encontrados, salvos e com falha e a falha mais comum nesse site &mdash; um rótulo de categoria de erro predefinido com seu status HTTP e a quantidade de itens afetados &mdash; nunca um endereço, título de página ou nome de arquivo.</p>
       <p>Cada evento contém um UUID de instalação aleatório e estável, a versão da Extensão, o plano gratuito/pago, o nome do evento e somente contagens, durações, valores booleanos ou rótulos fechados específicos do evento. O UUID é um <strong>dado pseudônimo, não anônimo</strong>. Nunca são enviados conteúdo de páginas ou do Collector, URLs, títulos, nomes de arquivo ou perfil, seletores, erros em texto livre, chaves de licença ou endereços de e-mail. Os eventos são usados somente para melhorar o produto, têm retenção de <strong>90 dias</strong> e os registros expirados são excluídos gradualmente. Enquanto houver consentimento, a pesquisa de desinstalação pode receber apenas versão, idioma, dias desde a instalação e plano. Desativar a opção apaga a URL da pesquisa e interrompe todos os eventos futuros; o consentimento pode ser retirado a qualquer momento e a exclusão pode ser solicitada conforme a seção 8.</p>
       <p>Um gancho opcional de relatório de erros (Sentry) está presente na árvore de código-fonte para builds internos de depuração, mas é controlado por um segredo definido em tempo de build e nunca é habilitado no build distribuído pela Chrome Web Store&trade;, pela Microsoft Edge&trade; Add-ons e pelo Firefox Add-ons. Se uma versão futura vier a habilitá-lo, esta Política de Privacidade será atualizada antes do lançamento dessa versão, e quaisquer dados enviados serão filtrados para remover (redact) chaves de licença, endereços de e-mail, JWTs, bearer tokens, UUIDs, valores de query string, caminhos do sistema de arquivos e corpos de caminhos de URL.</p>
 
@@ -1562,7 +1554,7 @@
       <ul>
         <li><strong>Execução de contrato</strong> (artigo 6.º, n.º 1, alínea b), do RGPD/GDPR) &mdash; Verificação de licença, aplicação dos limites de dispositivos e gerenciamento de licenças pagas.</li>
         <li><strong>Consentimento</strong> (artigo 6.º, n.º 1, alínea a), do RGPD/GDPR; LGPD art. 7º, I) &mdash; Eventos de uso pseudônimos opcionais e metadados associados da pesquisa de desinstalação. Você pode retirar o consentimento a qualquer momento na Extensão; a retirada interrompe a coleta futura.</li>
-        <li><strong>Interesses legítimos</strong> (artigo 6.º, n.º 1, alínea f), do RGPD/GDPR) &mdash; Armazenamento de preferências locais e do histórico recente de varreduras necessários para fornecer a funcionalidade central da Extensão em seu dispositivo.</li>
+        <li><strong>Interesses legítimos</strong> (artigo 6.º, n.º 1, alínea f), do RGPD/GDPR) &mdash; Armazenamento de preferências locais necessárias para fornecer a funcionalidade central da Extensão em seu dispositivo.</li>
       </ul>
       <p>Para usuários no Brasil, quando a Lei Geral de Proteção de Dados (LGPD) se aplicar, as bases correspondentes incluem o consentimento para os eventos opcionais (art. 7º, I), a execução de contrato (art. 7º, V) e, quando cabível, o legítimo interesse (art. 7º, IX), sempre observado o balanceamento exigido pela lei.</p>
 
@@ -1578,7 +1570,7 @@
         <li>Os eventos de uso pseudônimos opcionais têm retenção de <strong>90 dias</strong>; os registros expirados são excluídos gradualmente.</li>
         <li>As respostas da pesquisa de desinstalação (&sect;5c) são excluídas automaticamente <strong>24 meses</strong> após o envio.</li>
         <li>Atenderemos solicitações de exclusão de registros do backend em até <strong>30 dias</strong>.</li>
-        <li>O histórico recente de varreduras é limitado às 20 entradas mais recentes armazenadas localmente.</li>
+        <li>Nenhum histórico de varreduras é salvo. As páginas escaneadas enquanto a janela da Extensão está aberta são tratadas apenas na memória e descartadas ao fechá-la; o histórico salvo por versões anteriores é excluído ao abrir a janela da Extensão.</li>
         <li>O armazenamento de sessão é apagado quando a sessão do navegador é encerrada.</li>
         <li>Desinstalar a Extensão remove o armazenamento local gerenciado pelo navegador.</li>
       </ul>
@@ -1631,7 +1623,7 @@
 
     <div data-lang="zh_CN" lang="zh-CN">
       <h1>隐私政策</h1>
-<p class="updated">最后更新：2026年11月7日</p>
+<p class="updated">最后更新：2026年11月12日</p>
 <p><strong>卸载后的可选通知：</strong>只有您明确要求接收一封与反馈相关的修复或改进邮件时，我们才会请您填写电子邮箱。邮箱会单独保存并与该反馈关联。未确认的邮箱将在七天内删除。确认后，仅保留到相关通知发送、撤回同意或登记满 12 个月（以较早者为准），不用于营销。邮箱由 Supabase 保存，确认邮件和通知由 Resend 发送。您可随时取消订阅或要求删除。</p>
 <p><strong>Grab All Files</strong>（以下简称"本扩展程序"）是一款帮助用户从其所选网页中查找、检视、下载并选择性合并文件的浏览器扩展程序。本政策说明本扩展程序所处理的数据、其使用方式、存储位置以及发生传输的情形。</p>
 
@@ -1640,7 +1632,7 @@
 <p>例如包括：</p>
 <ul>
   <li>您要求本扩展程序扫描的当前标签页或 URL；</li>
-  <li>为便于快速访问而存储于本地的近期扫描历史；以及</li>
+  <li>扩展程序窗口打开期间扫描过的页面（仅在内存中处理，用于提示收集模式，从不保存）；以及</li>
   <li><strong>网络文件记录</strong>（通过网络监控所检测到的文件 URL 与元数据），在您浏览会话期间临时存储于会话存储中。</li>
 </ul>
 <p>我们不会将您的扫描历史、页面 HTML、文件内容或浏览活动发送至我方服务器。</p>
@@ -1655,7 +1647,7 @@
   <li><strong>撤销列表刷新</strong> &mdash; 本扩展程序每日下载一份小型的、已签名的已撤销令牌标识符列表（不含许可证密钥），以使撤销在 24 小时内即使在离线状态下也能生效。该请求不发送任何识别用户的数据。</li>
   <li><strong>设备管理</strong> &mdash; 当您在许可证界面查看或移除已激活设备时，本扩展程序将向我方服务器发送许可证密钥、当前设备标识符，以及在您移除某台设备时所选目标设备的标识符。</li>
   <li><strong>用户发起的页面与文件访问</strong> &mdash; 当您扫描页面、收集所选网页内容、输入 URL、获取文件元数据、下载文件或合并 PDF 时，本扩展程序将直接连接至您所选定的目标网站。该等请求不经由我方服务器中转。Web Page Collector 的 HTML、标题、URL、图片、配置文件及生成文档不会包含在许可证或使用事件请求中。</li>
-        <li><strong>可选使用统计</strong> &mdash; 仅在您明确同意后，本扩展程序才会向我们的 Supabase 后端发送第 5a 节列出的 18 种假名化使用事件。同意前不会发送 <code>install</code> 事件。</li>
+        <li><strong>可选使用统计</strong> &mdash; 仅在您明确同意后，本扩展程序才会向我们的 Supabase 后端发送第 5a 节列出的 19 种假名化使用事件。同意前不会发送 <code>install</code> 事件。</li>
         <li><strong>可选卸载调查</strong> &mdash; 仅在使用统计保持开启期间，卸载时可能会打开我们的调查页面，并在其查询字符串中附带扩展程序版本、界面语言、安装天数以及免费/付费方案。关闭使用统计会清除卸载 URL，并停止这一页面跳转和元数据传输。</li>
         <li><strong>购买按钮的来源标签</strong> &mdash; 购买按钮会向购买页面传递一个固定标签，表示是从哪个界面点击的（不包含设备 ID 或次数等），并保留在支付记录中。</li>
 </ul>
@@ -1672,7 +1664,6 @@
   <tr><td>上次许可证检查时间戳</td><td>Local</td><td>在许可证检查成功后允许有限的离线宽限期，并避免多余的服务器请求。</td></tr>
   <tr><td>许可证 JWT 与撤销缓存（已签名访问令牌、到期时间、令牌 ID、所授功能、已撤销令牌 ID 列表）</td><td>Local</td><td>使用服务器签发的已签名令牌进行离线验证，并阻止已被撤销的令牌。</td></tr>
   <tr><td>旧版方案状态，以及服务器返回的许可证错误／状态</td><td>Local</td><td>为保持兼容而保留的旧版方案状态及服务器返回的许可证错误／状态。</td></tr>
-  <tr><td>近期扫描历史（URL、标题／主机名、时间戳）</td><td>Local</td><td>展示近期扫描过的页面及输入过的 URL，便于快速访问。</td></tr>
   <tr><td>Collect Mode 结果（最多 3,000 个文件 URL、标题、文件名、MIME／类型提示、来源页面及大小）</td><td>Local</td><td>重新打开弹出窗口后继续多页面收集。POST 表单字段、CSRF token 及隐藏值绝不会持久保存。</td></tr>
   <tr><td>Web Page Collector 任务（目标 URL、编辑后的标题、选择器、配置文件、队列、进度及逐页错误）</td><td>Local</td><td>在控制面板或 Service Worker 重启后查看、暂停、继续、重试及恢复任务。</td></tr>
   <tr><td>Web Page Collector 清理后的页面内容及获准内嵌的图片</td><td>IndexedDB</td><td>在本地生成完整或部分 HTML 文档。不存储 Cookie 值、Authorization 标头、密码或会话令牌。</td></tr>
@@ -1683,7 +1674,7 @@
   <tr><td>Active Capture 记录（来源 URL 与最终下载 URL、引用页面 URL、已保存的文件名、MIME 类型、浏览器下载 ID 和状态及捕获目标主机）</td><td>Session</td><td>比对在您明确执行 Active Capture 期间页面下载的文件，以便重命名或打包为 ZIP。最多 500 条；在浏览器会话结束时自动清除。</td></tr>
 
 </table></div>
-<p>您可在本扩展程序界面中清除近期扫描历史。网络文件记录可通过点击结果面板中的"Reset"按钮或关闭标签页来清除。删除 Web Page Collector 任务会移除该任务的元数据和已保存页面内容；可复用的导入配置文件另行管理。卸载本扩展程序将移除其本地存储。会话数据将在浏览器会话结束时自动清除。</p>
+<p>网络文件记录可通过点击结果面板中的"Reset"按钮或关闭标签页来清除。删除 Web Page Collector 任务会移除该任务的元数据和已保存页面内容；可复用的导入配置文件另行管理。卸载本扩展程序将移除其本地存储。会话数据将在浏览器会话结束时自动清除。Active Capture 记录将在浏览器会话结束时清除。</p>
 
 <h2>4. 权限</h2>
 <div class="table-scroll" role="region" tabindex="0" aria-label="4. 权限"><table>
@@ -1692,19 +1683,19 @@
   <tr><td><code>tabs</code></td><td>读取用户选择的活动源标签页，并在 Collector 需要渲染内容时打开非活动目标页面标签页。</td></tr>
   <tr><td><code>scripting</code></td><td>查找可下载链接、捕获所选页面的渲染 DOM，并运行用户调用的选择器工具。</td></tr>
   <tr><td><code>downloads</code></td><td>保存所选文件、合并 PDF，以及 Collector 生成的完整或部分 HTML。</td></tr>
-  <tr><td><code>storage</code></td><td>存储许可证、偏好、历史，以及本地 Collector 任务、配置文件、选择器、队列、进度和检查点。</td></tr>
+  <tr><td><code>storage</code></td><td>存储许可证、偏好，以及本地 Collector 任务、配置文件、选择器、队列、进度和检查点。</td></tr>
   <tr><td><code>unlimitedStorage</code></td><td>防止大型 Collector 任务（其页面正文和图片保存在本地 IndexedDB 中）因浏览器默认存储配额而失败。所存储的数据不会被传输或共享。</td></tr>
   <tr><td><code>alarms</code></td><td>按周期性计划刷新许可证及撤销状态。</td></tr>
   <tr><td><code>notifications</code></td><td>显示下载完成及许可证状态通知。</td></tr>
   <tr><td><code>contextMenus</code></td><td>添加用于从页面、链接、图片及选中内容扫描和下载文件的右键菜单操作。</td></tr>
   <tr><td><code>offscreen</code>（Chromium）</td><td>在本地解析和清理获取的 HTML，以支持可恢复的收集任务。</td></tr>
-  <tr><td><code>declarativeNetRequestWithHostAccess</code></td><td>在用户选择的严格只读 Collector 模式下，创建仅作用于该标签页的临时会话规则，以拦截 POST、PUT、PATCH 和 DELETE 请求。该收集标签页／任务结束时即移除规则。</td></tr>
+  <tr><td><code>declarativeNetRequestWithHostAccess</code>（Chrome/Edge/Firefox 113+）</td><td>在用户选择的严格只读模式中临时阻止标签页的写入请求，并在结束时删除规则。另外（无论是否启用该模式）：当页面收集器以“原始外观”保存页面、而网站拒绝向扩展程序提供图片、字体或样式表（HTTP 401/403，通常是防盗链）时，会创建一条临时会话规则，在一次重试中，对扩展程序自身的请求（不是任何标签页的请求）发往拒绝的主机（最多 100 个）时，将 Referer 标头设为该页面自身的来源；重试结束后立即删除该规则。</td></tr>
         <tr><td>可选网站访问：<br><code>https://*/*</code> + <code>http://*/*</code></td><td>这些模式仅声明为可选权限。扩展程序在用户操作后仅请求所选来源，仅在已授权来源注册内容脚本，并在撤销权限时移除注册。页面内容、URL、文件名和浏览记录不会发送到开发者服务器。</td></tr>
         <tr><td>必需的自有后端访问：<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>此唯一必需的主机权限用于许可证验证、令牌/撤销列表更新、设备管理，以及 &mdash; 仅在明确同意后 &mdash; 第 5a 节的使用事件。绝不通过该权限发送页面、浏览或 Collector 内容。</td></tr>
 </table></div>
 
 <h2>5. 浏览相关数据的使用</h2>
-<p>本扩展程序仅将浏览相关数据及网站内容用于其面向用户的功能：扫描当前页面、扫描您输入的 URL、显示近期扫描记录、检查文件元数据、下载所选文件，以及在本地合并 PDF。</p>
+<p>本扩展程序仅将浏览相关数据及网站内容用于其面向用户的功能：扫描当前页面、扫描您输入的 URL、检查文件元数据、下载所选文件，以及在本地合并 PDF。</p>
 <ul>
   <li>我们 <strong>不</strong> 出售此类数据。</li>
   <li>我们 <strong>不</strong> 将此类数据用于广告、用户画像或分析。</li>
@@ -1748,7 +1739,7 @@
 <ul>
   <li><strong>合同履行</strong>（第 6(1)(b) 条） &mdash; 用于付费许可证的许可证验证、设备数量限制执行和许可证管理。</li>
   <li><strong>同意</strong>（第 6(1)(a) 条） &mdash; 可选的假名化使用事件及相关卸载调查元数据。您可随时在扩展程序中撤回同意；撤回后将停止后续收集。</li>
-  <li><strong>正当利益</strong>（第 6(1)(f) 条） &mdash; 用于在您设备上存储为提供本扩展程序核心功能所必需的本地偏好设置和近期扫描历史。</li>
+  <li><strong>正当利益</strong>（第 6(1)(f) 条） &mdash; 用于在您设备上存储为提供本扩展程序核心功能所必需的本地偏好设置。</li>
 </ul>
 
 <h2>7. 第三方服务与国际数据传输</h2>
@@ -1763,7 +1754,7 @@
   <li>可选的假名化使用事件保留 <strong>90 天</strong>；到期记录会逐步删除。</li>
   <li>卸载调查问卷的回答（第5c条）将在提交后 <strong>24 个月</strong>自动删除。</li>
   <li>我们将在 <strong>30 天内</strong> 处理对后端记录的删除请求。</li>
-  <li>近期扫描历史在本地最多保存最近 20 条记录。</li>
+  <li>不保存扫描历史。扩展程序窗口打开期间扫描过的页面仅在内存中处理，关闭窗口即丢弃；旧版本保存的历史会在打开扩展程序窗口时删除。</li>
   <li>会话存储在浏览器会话结束时清除。</li>
   <li>卸载本扩展程序将移除其由浏览器管理的本地存储。</li>
 </ul>
@@ -1816,7 +1807,7 @@
 
     <div data-lang="zh_TW" lang="zh-TW">
       <h1>隱私權政策</h1>
-<p class="updated">最後更新：2026年11月7日</p>
+<p class="updated">最後更新：2026年11月12日</p>
 <p><strong>解除安裝後的選擇性通知：</strong>只有您明確要求接收一封與意見相關的修正或改善郵件時，我們才會請您填寫電子郵件地址。地址會另行儲存並與該意見連結。未確認的地址將於七天內刪除。確認後，僅保留至相關通知寄出、撤回同意或登記滿 12 個月（以較早者為準），不用於行銷。地址由 Supabase 儲存，確認郵件與通知由 Resend 寄送。您可隨時取消訂閱或要求刪除。</p>
 <p><strong>Grab All Files</strong>（以下簡稱「本擴充功能」）係一款協助使用者於其所選定之網頁中搜尋、檢視、下載檔案，並可選擇性合併檔案之瀏覽器擴充功能。本政策說明本擴充功能所處理之資料、其使用方式、儲存位置以及傳輸發生之情形。</p>
 
@@ -1825,7 +1816,7 @@
 <p>例如包括：</p>
 <ul>
   <li>您要求本擴充功能掃描之目前分頁或 URL；</li>
-  <li>為便於快速存取而儲存於本地之近期掃描紀錄；以及</li>
+  <li>擴充功能視窗開啟期間掃描過之頁面（僅於記憶體中處理，用於提示收集模式，從不儲存）；以及</li>
   <li><strong>網路檔案紀錄</strong>（透過網路監控所偵測到之檔案 URL 與中繼資料），於您之瀏覽工作階段期間暫存於工作階段儲存空間中。</li>
 </ul>
 <p>我方不會將您之掃描紀錄、頁面 HTML、檔案內容或瀏覽活動傳送至我方伺服器。</p>
@@ -1840,7 +1831,7 @@
   <li><strong>撤銷清單更新</strong> &mdash; 本擴充功能每日下載一份小型之、已簽署之已撤銷權杖識別碼清單（不含授權金鑰），俾撤銷得於 24 小時內生效，縱於離線狀態亦然。此請求不傳送任何使用者識別資料。</li>
   <li><strong>裝置管理</strong> &mdash; 當您於授權畫面檢視或移除已啟用之裝置時，本擴充功能將向我方伺服器傳送授權金鑰、目前之裝置識別碼，並於您移除某台裝置時，傳送目標裝置之識別碼。</li>
   <li><strong>使用者要求之頁面與檔案存取</strong> &mdash; 當您掃描頁面、收集所選網頁內容、輸入 URL、取得檔案中繼資料、下載檔案或合併 PDF 時，本擴充功能將直接連線至您所選定之目標網站。該等請求不會經由我方伺服器中轉。Web Page Collector 的 HTML、標題、URL、圖片、設定檔及產生文件不會包含於授權或使用事件請求中。</li>
-        <li><strong>選用的使用統計</strong> &mdash; 僅在您明確同意後，本擴充功能才會向我方 Supabase 後端傳送第 5a 節列出的 18 種假名化使用事件。同意前不會傳送 <code>install</code> 事件。</li>
+        <li><strong>選用的使用統計</strong> &mdash; 僅在您明確同意後，本擴充功能才會向我方 Supabase 後端傳送第 5a 節列出的 19 種假名化使用事件。同意前不會傳送 <code>install</code> 事件。</li>
         <li><strong>選用的解除安裝問卷</strong> &mdash; 僅在使用統計保持開啟期間，解除安裝時可能會開啟我方問卷頁面，並於其查詢字串中附帶擴充功能版本、介面語言、安裝天數以及免費／付費方案。關閉使用統計會清除解除安裝 URL，並停止此頁面導向與中繼資料傳輸。</li>
         <li><strong>購買按鈕的來源標籤</strong> &mdash; 購買按鈕會向購買頁面傳遞一個固定標籤，表示是從哪個畫面點擊的（不包含裝置 ID 或次數等），並保留在付款紀錄中。</li>
 </ul>
@@ -1857,7 +1848,6 @@
   <tr><td>上次授權檢查時間戳記</td><td>Local</td><td>授權檢查成功後允許有限的離線寬限期，並避免重複的伺服器呼叫。</td></tr>
   <tr><td>授權 JWT 與撤銷快取（已簽署存取權杖、到期時間、權杖 ID、所授功能、已撤銷權杖 ID 清單）</td><td>Local</td><td>使用伺服器核發之已簽署權杖進行離線授權驗證，並阻擋已遭撤銷之權杖。</td></tr>
   <tr><td>舊版方案狀態及伺服器回傳的授權錯誤／狀態</td><td>Local</td><td>為相容性而保留的舊版方案狀態，以及伺服器回傳的授權錯誤／狀態。</td></tr>
-  <tr><td>近期掃描紀錄（URL、標題／主機名稱、時間戳記）</td><td>Local</td><td>顯示近期掃描過之頁面及輸入過之 URL 以便快速存取。</td></tr>
   <tr><td>Collect Mode 結果（最多 3,000 筆檔案 URL、標題、檔名、MIME／類型提示、來源頁面及大小）</td><td>Local</td><td>重新開啟彈出視窗後繼續多頁收集。POST 表單欄位、CSRF token 與隱藏值絕不持久保存。</td></tr>
   <tr><td>Web Page Collector 工作（目標 URL、編輯後標題、選擇器、設定檔、佇列、進度及逐頁錯誤）</td><td>Local</td><td>於控制面板或 Service Worker 重新啟動後檢視、暫停、繼續、重試及復原工作。</td></tr>
   <tr><td>Web Page Collector 清理後的頁面內容與獲准嵌入的圖片</td><td>IndexedDB</td><td>於本機產生完整或部分 HTML 文件。不儲存 Cookie 值、Authorization 標頭、密碼或工作階段權杖。</td></tr>
@@ -1868,7 +1858,7 @@
   <tr><td>Active Capture 紀錄（來源 URL 與最終下載 URL、參照頁面 URL、已儲存之檔案名稱、MIME 類型、瀏覽器下載 ID 與狀態及擷取目標主機）</td><td>Session</td><td>比對您明確執行 Active Capture 期間頁面下載的檔案，以便重新命名或封裝為 ZIP。最多 500 筆；於瀏覽器工作階段結束時自動清除。</td></tr>
 
 </table></div>
-<p>您可於本擴充功能介面內清除近期掃描紀錄。網路檔案紀錄可透過點擊結果面板中之「Reset」按鈕或關閉分頁加以清除。刪除 Web Page Collector 工作會移除該工作之中繼資料與已儲存頁面內容；可重複使用的匯入設定檔另行管理。解除安裝本擴充功能將移除其本地儲存之資料。工作階段資料於瀏覽器工作階段結束時自動清除。</p>
+<p>網路檔案紀錄可透過點擊結果面板中之「Reset」按鈕或關閉分頁加以清除。刪除 Web Page Collector 工作會移除該工作之中繼資料與已儲存頁面內容；可重複使用的匯入設定檔另行管理。解除安裝本擴充功能將移除其本地儲存之資料。工作階段資料於瀏覽器工作階段結束時自動清除。Active Capture 紀錄於瀏覽器工作階段結束時清除。</p>
 
 <h2>4. 權限</h2>
 <div class="table-scroll" role="region" tabindex="0" aria-label="4. 權限"><table>
@@ -1877,19 +1867,19 @@
   <tr><td><code>tabs</code></td><td>讀取使用者選擇之作用中來源分頁，並於 Collector 需要渲染內容時開啟非作用中目標頁面分頁。</td></tr>
   <tr><td><code>scripting</code></td><td>尋找可下載連結、擷取所選頁面之渲染 DOM，並執行使用者叫用之選擇器工具。</td></tr>
   <tr><td><code>downloads</code></td><td>儲存所選檔案、合併 PDF，以及 Collector 產生之完整或部分 HTML。</td></tr>
-  <tr><td><code>storage</code></td><td>儲存授權、偏好、紀錄，以及本機 Collector 工作、設定檔、選擇器、佇列、進度與檢查點。</td></tr>
+  <tr><td><code>storage</code></td><td>儲存授權、偏好，以及本機 Collector 工作、設定檔、選擇器、佇列、進度與檢查點。</td></tr>
   <tr><td><code>unlimitedStorage</code></td><td>防止大型 Collector 工作（其頁面正文與圖片儲存於本機 IndexedDB）因瀏覽器預設儲存配額而失敗。所儲存之資料不會被傳輸或分享。</td></tr>
   <tr><td><code>alarms</code></td><td>依週期性排程更新授權及撤銷狀態。</td></tr>
   <tr><td><code>notifications</code></td><td>顯示下載完成及授權狀態之通知。</td></tr>
   <tr><td><code>contextMenus</code></td><td>新增可從頁面、連結、圖片與選取範圍掃描及下載檔案之滑鼠右鍵動作。</td></tr>
   <tr><td><code>offscreen</code>（Chromium）</td><td>在本機解析並清理取得的 HTML，以支援可繼續的收集工作。</td></tr>
-  <tr><td><code>declarativeNetRequestWithHostAccess</code></td><td>於使用者選擇之嚴格唯讀 Collector 模式下，建立僅作用於該分頁之暫時工作階段規則，以封鎖 POST、PUT、PATCH 與 DELETE 請求。該收集分頁／工作結束時即移除規則。</td></tr>
+  <tr><td><code>declarativeNetRequestWithHostAccess</code>（Chrome/Edge/Firefox 113+）</td><td>在使用者選擇的嚴格唯讀模式中暫時封鎖分頁的寫入請求，並於結束時移除規則。另外（無論是否啟用該模式）：當頁面收集器以「原始外觀」儲存頁面、而網站拒絕向擴充功能提供圖片、字型或樣式表（HTTP 401/403，通常是防盜連）時，會建立一條暫時工作階段規則，在一次重試中，對擴充功能自身的請求（不是任何分頁的請求）發往拒絕的主機（最多 100 個）時，將 Referer 標頭設為該頁面自身的來源；重試結束後立即移除該規則。</td></tr>
         <tr><td>選用網站存取：<br><code>https://*/*</code> + <code>http://*/*</code></td><td>這些模式僅宣告為選用權限。本擴充功能在使用者操作後只要求所選來源，只在已授權來源註冊內容指令碼，並在權限撤銷時移除註冊。頁面內容、URL、檔案名稱與瀏覽紀錄不會傳送至開發者伺服器。</td></tr>
         <tr><td>必要的自有後端存取：<br><code>https://umczaaooqinddgnhxbvp.supabase.co/*</code></td><td>此唯一必要的主機權限用於授權驗證、權杖/撤銷清單更新、裝置管理，以及 &mdash; 僅在明確同意後 &mdash; 第 5a 節的使用事件。絕不透過該權限傳送頁面、瀏覽或 Collector 內容。</td></tr>
 </table></div>
 
 <h2>5. 瀏覽相關資料之使用</h2>
-<p>本擴充功能僅將瀏覽相關資料及網站內容用於其使用者導向之功能：掃描目前頁面、掃描您所輸入之 URL、顯示近期掃描、檢查檔案中繼資料、下載所選檔案，以及在本地合併 PDF。</p>
+<p>本擴充功能僅將瀏覽相關資料及網站內容用於其使用者導向之功能：掃描目前頁面、掃描您所輸入之 URL、檢查檔案中繼資料、下載所選檔案，以及在本地合併 PDF。</p>
 <ul>
   <li>我方 <strong>不</strong> 販售此等資料。</li>
   <li>我方 <strong>不</strong> 將此等資料用於廣告、剖析或分析。</li>
@@ -1933,7 +1923,7 @@
 <ul>
   <li><strong>契約之履行</strong>（第 6(1)(b) 條） &mdash; 用於付費授權之授權驗證、裝置數量限制執行及授權管理。</li>
   <li><strong>同意</strong>（第 6(1)(a) 條） &mdash; 選用的假名化使用事件及相關解除安裝問卷中繼資料。您可隨時在擴充功能中撤回同意；撤回後將停止後續收集。</li>
-  <li><strong>正當利益</strong>（第 6(1)(f) 條） &mdash; 用於儲存於您裝置上之本地偏好設定及近期掃描紀錄，以提供本擴充功能之核心功能。</li>
+  <li><strong>正當利益</strong>（第 6(1)(f) 條） &mdash; 用於儲存於您裝置上之本地偏好設定，以提供本擴充功能之核心功能。</li>
 </ul>
 
 <h2>7. 第三方服務與國際資料移轉</h2>
@@ -1948,7 +1938,7 @@
   <li>選用的假名化使用事件保存 <strong>90 天</strong>；到期紀錄會逐步刪除。</li>
   <li>解除安裝問卷之回答（第 5c 節）將於提交後 <strong>24 個月</strong>自動刪除。</li>
   <li>我方將於 <strong>30 日內</strong> 處理對後端紀錄之刪除請求。</li>
-  <li>近期掃描紀錄於本地最多保留最近 20 筆。</li>
+  <li>不儲存掃描紀錄。擴充功能視窗開啟期間掃描過之頁面僅於記憶體中處理，關閉視窗即捨棄；舊版本儲存之紀錄會於開啟擴充功能視窗時刪除。</li>
   <li>工作階段儲存於瀏覽器工作階段結束時清除。</li>
   <li>解除安裝本擴充功能將移除其由瀏覽器管理之本地儲存資料。</li>
 </ul>
