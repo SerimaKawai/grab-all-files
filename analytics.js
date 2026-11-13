@@ -1,8 +1,8 @@
 /*
  * Google tag (gtag.js) for grab-all-files.app
  *
- * SETUP — replace GA_MEASUREMENT_ID below with the real GA4 Measurement ID
- *         (https://analytics.google.com → Admin → Data Streams → Web → "G-XXXXXXXXXX").
+ * SETUP — GA_MEASUREMENT_ID below is the ID gtag.js is loaded and configured
+ *         with: a GA4 Measurement ID ("G-XXXXXXXXXX") or a Google tag ID ("GT-...").
  *         While GA_MEASUREMENT_ID is left as the placeholder string this file
  *         short-circuits and no requests are made.
  *
@@ -17,15 +17,15 @@
  */
 (function () {
   /*
-   * Use the loader/hub ID (G-QGGRXL6CX0) — NOT the new property's
-   * G-JT57WKZNTP. Both belong to the same Google Tag container
-   * (GT-KVJKKX2V); G-QGGRXL6CX0 has a standalone gtag/js endpoint
-   * while G-JT57WKZNTP is only a destination of that container and
-   * returns 404 if requested directly. Hits sent to G-QGGRXL6CX0 are
-   * fanned out by the container to G-JT57WKZNTP too, so the new
-   * "Grab All Files" property still receives data.
+   * Load the Google tag by its own ID (GT-KVJKKX2V). Its destination is
+   * G-JT57WKZNTP, the "Grab All Files" GA4 property (537272134).
+   * G-JT57WKZNTP itself returned 404 from gtag/js when requested directly
+   * (checked 2026-11-14), so it cannot be used as the loader ID.
+   * Do not go back to G-QGGRXL6CX0: that was a second destination of the
+   * same tag (property 537299395) and made every hit count twice. Its data
+   * stream was deleted on 2026-11-14.
    */
-  var GA_MEASUREMENT_ID = 'G-QGGRXL6CX0';
+  var GA_MEASUREMENT_ID = 'GT-KVJKKX2V';
   if (!GA_MEASUREMENT_ID || GA_MEASUREMENT_ID === 'G-XXXXXXXXXX') return;
 
   var EU_REGIONS = [
