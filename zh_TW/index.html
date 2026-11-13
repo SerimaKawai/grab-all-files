@@ -341,6 +341,14 @@
           "@type": "Answer",
           "text": "可以。它會在頁面建構後讀取 JavaScript 渲染的單頁應用（React、Next.js、Nuxt、Vue），在您已可開啟的頁面上使用您現有的瀏覽器工作階段，跟隨受 CSRF 保護的下載表單，並偵測 Cloudflare/WAF 機器人牆以引導復原。它透過檔案簽章而非僅憑副檔名確認檔案類型，且絕不繞過存取控制或安全防護。"
         }
+      },
+      {
+        "@type": "Question",
+        "name": "儲存的HTML中的文字可以選取和複製嗎？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "可以。以「整理為易讀格式」儲存的HTML會把頁面正文寫成一般文字，因此即使在原頁面上難以選取文字，在儲存的檔案中也可以選取、搜尋和複製。以「保持原樣」儲存時，原頁面的文字選取設定可能會保留。引用或再利用時，請在網站使用條款和著作權允許的範圍內進行。"
+        }
       }
     ],
     "inLanguage": "zh-TW"
@@ -1586,6 +1594,7 @@
           <details><summary>能否處理大型檔案或長時間下載，並支援暫停與續傳？</summary><p>可以。Grab All Files 內建下載管理器，支援並行數調整、暫停/續傳、自動重試以及一鍵重試失敗檔案，即使斷線也能讓大批量任務繼續。對於數GB的單一檔案或長時間無人看管的任務，您也可以匯出URL清單，交給專用下載管理器。</p></details>
           <details><summary>可以與 JDownloader 或 aria2 等下載管理器搭配使用嗎？</summary><p>可以，兩者互補。Grab All Files 擅長在複雜或需登入的頁面上發現檔案（隱藏於 iframe、檢視器、JavaScript 與 CMS 路徑之後）。將結果匯出為 CSV 或URL清單，交給下載管理器進行大批量下載即可。</p></details>
           <details><summary>它能在 JavaScript 應用、僅登入頁面與有機器人防護的網站上運作嗎？</summary><p>可以。它會在頁面建構後讀取 JavaScript 渲染的單頁應用（React、Next.js、Nuxt、Vue），在您已可開啟的頁面上使用您現有的瀏覽器工作階段，跟隨受 CSRF 保護的下載表單，並偵測 Cloudflare/WAF 機器人牆以引導復原。它透過檔案簽章而非僅憑副檔名確認檔案類型，且絕不繞過存取控制或安全防護。</p></details>
+          <details><summary>儲存的HTML中的文字可以選取和複製嗎？</summary><p>可以。以「整理為易讀格式」儲存的HTML會把頁面正文寫成一般文字，因此即使在原頁面上難以選取文字，在儲存的檔案中也可以選取、搜尋和複製。以「保持原樣」儲存時，原頁面的文字選取設定可能會保留。引用或再利用時，請在網站使用條款和著作權允許的範圍內進行。</p></details>
         </div></div>
       </div>
     </section>

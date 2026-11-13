@@ -12067,6 +12067,10 @@
             {
               "q": "Why is some text missing from the saved page?",
               "a": "Some sites add text only after you scroll or click. Open “If a page is missing text: content and JavaScript settings”, turn on “Press ‘Show more’ to include the continuation”, and collect again. If the wrong part of the page was kept, use “Select on screen” there to pick the main text."
+            },
+            {
+              "q": "Can I select and copy the text in the saved HTML?",
+              "a": "Yes. HTML saved with “Easy to read” writes the page text out as ordinary text, so even where the original page makes text hard to select, you can select, search and copy it in the saved file. With “Keep the original look”, the original page’s text-selection settings may stay in place. Quote or reuse the text only as the site’s terms and copyright allow."
             }
           ],
           "manual": {
@@ -12170,6 +12174,10 @@
             {
               "q": "保存したページの本文が一部欠けるのはなぜですか？",
               "a": "スクロールやクリックの後で本文を表示するサイトがあります。「本文が欠けるとき：保存範囲とJavaScriptの設定」を開き、「『もっと見る』を押して続きを含める」をオンにして収集し直してください。ページの別の部分が保存された場合は、そこにある「画面で選ぶ」で本文の範囲を指定できます。"
+            },
+            {
+              "q": "保存したHTMLの文字は選択・コピーできますか？",
+              "a": "はい。「読みやすく整える」で保存したHTMLは、本文を普通の文字として書き出すので、元のページで文字を選びにくい場合でも、保存したファイルでは選択・検索・コピーができます。「元の見た目のまま」で保存した場合は、元のページの文字選択の設定が残ることがあります。引用や転載は、元のサイトの利用規約と著作権の範囲で行ってください。"
             }
           ],
           "manual": {
@@ -12273,6 +12281,10 @@
             {
               "q": "¿Por qué falta texto en la página guardada?",
               "a": "Algunos sitios añaden texto solo después de desplazarte o hacer clic. Abre «Si falta texto en una página: ajustes de contenido y JavaScript», activa «Pulsar “Mostrar más” para incluir la continuación» y vuelve a recopilar. Si se guardó otra parte de la página, usa ahí «Seleccionar en pantalla» para elegir el texto principal."
+            },
+            {
+              "q": "¿Puedo seleccionar y copiar el texto del HTML guardado?",
+              "a": "Sí. El HTML guardado con «Fácil de leer» escribe el texto de la página como texto normal, así que, aunque en la página original cueste seleccionarlo, en el archivo guardado puedes seleccionarlo, buscarlo y copiarlo. Con «Mantener el aspecto original» puede conservarse la configuración de selección de texto de la página original. Cita o reutiliza el texto solo dentro de lo que permitan las condiciones del sitio y los derechos de autor."
             }
           ],
           "manual": {
@@ -12376,6 +12388,10 @@
             {
               "q": "Pourquoi manque-t-il du texte dans la page enregistrée ?",
               "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l'écran » pour désigner le texte principal."
+            },
+            {
+              "q": "Puis-je sélectionner et copier le texte du HTML enregistré ?",
+              "a": "Oui. Le HTML enregistré avec « Facile à lire » écrit le texte de la page comme du texte ordinaire : même si la page d’origine rend le texte difficile à sélectionner, vous pouvez le sélectionner, le rechercher et le copier dans le fichier enregistré. Avec « Garder l’apparence d’origine », les réglages de sélection du texte de la page d’origine peuvent être conservés. Citez ou réutilisez le texte uniquement dans le respect des conditions du site et du droit d’auteur."
             }
           ],
           "manual": {
@@ -12479,6 +12495,10 @@
             {
               "q": "Warum fehlt Text in der gespeicherten Seite?",
               "a": "Manche Websites zeigen Text erst nach Scrollen oder einem Klick. Öffnen Sie „Wenn Text auf einer Seite fehlt: Inhalts- und JavaScript-Einstellungen“, aktivieren Sie „‚Mehr anzeigen‘ drücken, um die Fortsetzung einzubeziehen“ und sammeln Sie erneut. Wurde ein falscher Seitenteil übernommen, wählen Sie dort mit „Auf dem Bildschirm auswählen“ den Haupttext."
+            },
+            {
+              "q": "Kann ich den Text im gespeicherten HTML markieren und kopieren?",
+              "a": "Ja. Mit „Gut lesbar“ gespeichertes HTML schreibt den Seitentext als normalen Text, sodass Sie ihn in der gespeicherten Datei markieren, durchsuchen und kopieren können – auch wenn er sich auf der Originalseite schwer markieren lässt. Mit „Ursprüngliches Aussehen behalten“ können die Einstellungen der Originalseite zur Textauswahl erhalten bleiben. Zitieren oder verwenden Sie den Text nur im Rahmen der Nutzungsbedingungen der Website und des Urheberrechts."
             }
           ],
           "manual": {
@@ -12582,6 +12602,10 @@
             {
               "q": "Perché nella pagina salvata manca del testo?",
               "a": "Alcuni siti aggiungono testo solo dopo uno scorrimento o un clic. Apri «Se in una pagina manca del testo: impostazioni di contenuto e JavaScript», attiva «Premi “Mostra altro” per includere la continuazione» e ripeti la raccolta. Se è stata salvata un’altra parte della pagina, usa lì «Seleziona sullo schermo» per indicare il testo principale."
+            },
+            {
+              "q": "Posso selezionare e copiare il testo dell’HTML salvato?",
+              "a": "Sì. L’HTML salvato con «Facile da leggere» scrive il testo della pagina come testo normale, quindi anche se nella pagina originale è difficile selezionarlo, nel file salvato puoi selezionarlo, cercarlo e copiarlo. Con «Mantieni l’aspetto originale» possono restare le impostazioni di selezione del testo della pagina originale. Cita o riutilizza il testo solo nei limiti dei termini del sito e del diritto d’autore."
             }
           ],
           "manual": {
@@ -12685,6 +12709,10 @@
             {
               "q": "저장한 페이지에서 본문 일부가 빠지는 이유는요?",
               "a": "스크롤하거나 클릭한 뒤에야 본문을 보여 주는 사이트가 있습니다. “페이지에서 본문이 빠질 때: 내용 및 JavaScript 설정”을 열고 “‘더 보기’를 눌러 이어지는 내용 포함”을 켠 뒤 다시 수집하세요. 페이지의 다른 부분이 저장되었다면 그곳의 “화면에서 선택”으로 본문 범위를 지정할 수 있습니다."
+            },
+            {
+              "q": "저장한 HTML의 텍스트를 선택하고 복사할 수 있나요?",
+              "a": "네. “읽기 쉽게 정리”로 저장한 HTML은 페이지 본문을 일반 텍스트로 기록하므로, 원래 페이지에서 텍스트를 선택하기 어려운 경우에도 저장한 파일에서는 선택·검색·복사할 수 있습니다. “원래 모양 그대로”로 저장하면 원래 페이지의 텍스트 선택 설정이 남을 수 있습니다. 인용이나 재사용은 사이트 이용약관과 저작권이 허용하는 범위에서 해 주세요."
             }
           ],
           "manual": {
@@ -12788,6 +12816,10 @@
             {
               "q": "Por que falta texto na página salva?",
               "a": "Alguns sites só adicionam texto depois que você rola ou clica. Abra “Se faltar texto em uma página: configurações de conteúdo e JavaScript”, ative “Pressionar ‘Mostrar mais’ para incluir a continuação” e colete de novo. Se outra parte da página foi salva, use ali “Selecionar na tela” para escolher o texto principal."
+            },
+            {
+              "q": "Posso selecionar e copiar o texto do HTML salvo?",
+              "a": "Sim. O HTML salvo com “Fácil de ler” grava o texto da página como texto comum, então, mesmo quando a página original dificulta a seleção, no arquivo salvo você pode selecionar, pesquisar e copiar o texto. Com “Manter a aparência original”, as configurações de seleção de texto da página original podem continuar valendo. Cite ou reutilize o texto apenas dentro do que os termos do site e os direitos autorais permitem."
             }
           ],
           "manual": {
@@ -12891,6 +12923,10 @@
             {
               "q": "为什么保存的页面缺少部分文字？",
               "a": "有些网站要滚动或点击后才显示正文。请打开“页面缺少文字时：内容和 JavaScript 设置”，开启“点击‘显示更多’以包含后续内容”，然后重新收集。如果保存的是页面的其他部分，可在那里用“在屏幕上选择”指定正文范围。"
+            },
+            {
+              "q": "保存的HTML中的文字可以选中和复制吗？",
+              "a": "可以。用“整理为易读格式”保存的HTML会把页面正文写成普通文字，因此即使在原页面上难以选中文字，在保存的文件中也可以选中、搜索和复制。用“保持原样”保存时，原页面的文字选择设置可能会保留。引用或再利用时，请在网站使用条款和著作权允许的范围内进行。"
             }
           ],
           "manual": {
@@ -12994,6 +13030,10 @@
             {
               "q": "為什麼儲存的頁面缺少部分文字？",
               "a": "有些網站要捲動或點擊後才顯示正文。請開啟「頁面缺少文字時：內容和 JavaScript 設定」，開啟「點選『顯示更多』以包含後續內容」，然後重新收集。如果儲存的是頁面的其他部分，可在那裡用「在螢幕上選擇」指定正文範圍。"
+            },
+            {
+              "q": "儲存的HTML中的文字可以選取和複製嗎？",
+              "a": "可以。以「整理為易讀格式」儲存的HTML會把頁面正文寫成一般文字，因此即使在原頁面上難以選取文字，在儲存的檔案中也可以選取、搜尋和複製。以「保持原樣」儲存時，原頁面的文字選取設定可能會保留。引用或再利用時，請在網站使用條款和著作權允許的範圍內進行。"
             }
           ],
           "manual": {
