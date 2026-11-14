@@ -232,6 +232,14 @@
       },
       {
         "@type": "Question",
+        "name": "Kann ich einen X-Beitrag (ehemals Twitter) samt Antworten speichern?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja. Öffnen Sie den Beitrag im Browser (bei X angemeldet, falls X danach fragt) und speichern Sie ihn mit „Seiten als HTML bündeln“. Die Seite wird automatisch bis zum Ende gescrollt, und der Beitrag und die Antworten, die X anzeigt, werden zusammen in einer HTML-Datei gespeichert (bis zu 1.000 Beiträge pro Seite; Werbebeiträge werden weggelassen). Antworten, die X Ihnen nicht anzeigt, werden nicht gespeichert. Das funktioniert im kostenlosen Plan; mit Pro können Sie auch mehrere Beiträge oder Threads in einer HTML-Datei bündeln. Speichern Sie nur Inhalte, die Sie behalten dürfen, und beachten Sie die Bedingungen von X."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Was kostet Pro?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -653,7 +661,7 @@
     .spotlight-kicker { display: block; color: var(--primary); font-size: 0.74rem; font-weight: 750; letter-spacing: 0.07em; text-transform: uppercase; margin-bottom: 0.3rem; }
     .feature-card--spotlight .spotlight-head h3 { font-size: clamp(1.35rem, 2.3vw, 1.8rem); line-height: 1.25; margin-bottom: 0.45rem; }
     .feature-card--spotlight .spotlight-head p { font-size: 0.98rem; max-width: 820px; }
-    .spotlight-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.85rem; margin-top: 1.35rem; }
+    .spotlight-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.85rem; margin-top: 1.35rem; }
     .spotlight-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.05rem; }
     .spotlight-item strong { display: block; color: var(--text-strong); font-size: 0.94rem; margin-bottom: 0.3rem; }
     .feature-card--spotlight p.spotlight-plan { margin-top: 1rem; padding: 0.75rem 0.9rem; border-radius: 10px; background: color-mix(in srgb, var(--primary) 8%, var(--surface)); color: var(--accent-soft-text); font-weight: 650; }
@@ -1302,6 +1310,7 @@
                 <div class="spotlight-item"><strong>Seiten finden und prüfen</strong><p>Nutzen Sie die automatische Erkennung für einen schnellen Einstieg oder detaillierte Einstellungen für Menüs, Pfade, Sitemaps und eingefügte URL-Listen. Prüfen Sie die Seitentitel und entfernen oder sortieren Sie Einträge neu, bevor die Sammlung beginnt.</p></div>
                 <div class="spotlight-item"><strong>Ein portables Dokument speichern</strong><p>Betten Sie Bilder für die Offline-Nutzung ein oder behalten Sie Online-Verweise bei, um die Datei kleiner zu halten. Verlinkte PDF- und Office-Dateien sowie andere Dokumente können zusammen mit der HTML-Datei gespeichert werden.</p></div>
                 <div class="spotlight-item"><strong>Optionaler Export für KI-Anwendungen</strong><p>Erstellen Sie Markdown mit Quellenzuordnung, JSONL, ein Manifest und Tabellendaten für Analysen. Die Seitensammlung und HTML-Erstellung erfolgen lokal auf Ihrem Gerät; Seiteninhalte werden nicht auf unsere Server hochgeladen.</p></div>
+                <div class="spotlight-item"><strong>Feeds und Kommentarverläufe bis zum Ende</strong><p>Seiten, die beim Scrollen weiter nachladen, etwa Timelines, Feeds und Kommentarverläufe, werden automatisch bis zum Ende gescrollt, und die geladenen Beiträge und Kommentare werden zusammen in einer HTML-Datei gespeichert (bis zu 1.000 Beiträge pro Seite). Beiträge, die die Website beim Scrollen vom Bildschirm entfernt, bleiben erhalten. In beiden Plänen verfügbar.</p></div>
               </div>
               <p class="spotlight-plan">Die kostenlose Version findet zugehörige Seiten, listet sie auf und speichert die eine Seite, die Sie wählen. Bilder dieser Seite haben kein planbedingtes Mengenlimit; direkt von ihr verlinkte Dateien werden jeweils 10 auf einmal gespeichert, „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro wählt mehrere Kandidaten und bündelt deren Hauptinhalt in einer HTML-Datei. Sicherheits- und Website-Limits gelten in beiden Versionen.</p>
               <a class="spotlight-link" href="/de/use-cases/combine-web-pages-into-one-html.html">Anleitung: Webseiten in einer HTML-Datei bündeln →</a>
@@ -1575,6 +1584,7 @@
           <details><summary>Ist die Nutzung kostenlos?</summary><p>Ja. Die kostenlose Version lädt bis zu 10 Dateien pro Download herunter und findet zugehörige Seiten, von denen Sie genau eine als HTML speichern. Bilder dieser Seite haben kein planbedingtes Mengenlimit; ihre direkt verlinkten Dateien werden jeweils 10 auf einmal gespeichert, und „Nächste 10 speichern“ auf dem Ergebnisbildschirm speichert den Rest. Sicherheits- und Website-Limits gelten. Pro kostet einmalig 19,99 $, hebt das Dateilimit auf und bündelt die Inhalte mehrerer Seiten in einer HTML-Datei.</p></details>
           <details><summary>Was passiert, wenn ich das Limit von 10 Dateien erreiche?</summary><p>Nichts wird gesperrt. Die kostenlose Version speichert bis zu 10 Dateien pro Download. Wählen Sie danach die nächsten Dateien in der Liste aus und klicken Sie erneut auf „Ausgewählte speichern“ – so lange, bis Sie alles haben. Pro hebt das Limit pro Download auf.</p></details>
           <details><summary>Kann ich mehrere Webseiten in einer einzigen HTML-Datei zusammenfassen?</summary><p>Ja, mit Pro. Die kostenlose Version findet und listet zugehörige Seiten, speichert aber nur die eine gewählte Seite. Pro erlaubt die Auswahl mehrerer Kandidaten und bündelt deren lesbare Inhalte in einer durchsuchbaren, druckbaren HTML-Datei mit gemeinsamem Inhaltsverzeichnis.</p></details>
+          <details><summary>Kann ich einen X-Beitrag (ehemals Twitter) samt Antworten speichern?</summary><p>Ja. Öffnen Sie den Beitrag im Browser (bei X angemeldet, falls X danach fragt) und speichern Sie ihn mit „Seiten als HTML bündeln“. Die Seite wird automatisch bis zum Ende gescrollt, und der Beitrag und die Antworten, die X anzeigt, werden zusammen in einer HTML-Datei gespeichert (bis zu 1.000 Beiträge pro Seite; Werbebeiträge werden weggelassen). Antworten, die X Ihnen nicht anzeigt, werden nicht gespeichert. Das funktioniert im kostenlosen Plan; mit Pro können Sie auch mehrere Beiträge oder Threads in einer HTML-Datei bündeln. Speichern Sie nur Inhalte, die Sie behalten dürfen, und beachten Sie die Bedingungen von X.</p></details>
           <details><summary>Was kostet Pro?</summary><p>19,99 US-$ als Einmalzahlung. Lebenslange Lizenz, kein Abo. Aktivierbar auf bis zu 3 Geräten; ein Gerät ist ein Browserprofil auf einem Computer, und Sie können einen Platz freigeben, indem Sie ein Gerät im Lizenzbildschirm der Erweiterung entfernen.</p></details>
           <details><summary>Wie aktiviere ich Pro nach dem Kauf?</summary><p>Ihr Lizenzschlüssel wird direkt nach der Zahlung auf der Bestätigungsseite angezeigt und zusätzlich per E-Mail gesendet. Öffnen Sie die Erweiterung, klicken Sie oben rechts auf „Kostenlos“ (oder öffnen Sie das Menü ⋯ und wählen Sie „Pro &amp; Lizenzschlüssel“), fügen Sie den Schlüssel ein und klicken Sie auf „Aktivieren“. Sobald oben rechts „Pro“ steht, sind Sie fertig.</p></details>
           <details><summary>Werden meine Browserdaten gesendet?</summary><p>Nein. Dateien werden direkt von der Quellseite zu Ihrem Gerät heruntergeladen. Nur die Lizenzprüfung und optionale pseudonyme Nutzungsstatistiken erreichen unsere Server. Die Statistiken sind standardmäßig deaktiviert und werden nur nach ausdrücklicher Einwilligung gesendet; jedes Ereignis enthält eine zufällige Installations-ID, die Version der Erweiterung, Ihren Plan sowie grobe Zählwerte oder Bezeichnungen (etwa die Zahl gefundener Dateien) – niemals Seiteninhalte, URLs oder Dateinamen. Details unter <a href="/de/security.html">Sicherheit und Berechtigungen</a>.</p></details>

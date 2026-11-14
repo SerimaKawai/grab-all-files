@@ -232,6 +232,14 @@
       },
       {
         "@type": "Question",
+        "name": "X（旧Twitter）のポストを返信ごと保存できますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "はい。ブラウザでポストを開き（返信を見るのにログインが必要ならXにログインして）、「ページをHTMLにまとめる」で保存します。ページを最後まで自動でスクロールし、ポストとXに表示された返信を1つのHTMLにまとめて保存します（1ページあたり1,000件まで。広告のポストは入れません）。Xがあなたに表示しない返信は保存されません。無料版でも使えます。Proなら、複数のポストやスレッドを1つのHTMLにまとめることもできます。保存してよい内容だけを保存し、Xの利用規約に従ってください。"
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Proの料金は？",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -653,7 +661,7 @@
     .spotlight-kicker { display: block; color: var(--primary); font-size: 0.74rem; font-weight: 750; letter-spacing: 0.07em; text-transform: uppercase; margin-bottom: 0.3rem; }
     .feature-card--spotlight .spotlight-head h3 { font-size: clamp(1.35rem, 2.3vw, 1.8rem); line-height: 1.25; margin-bottom: 0.45rem; }
     .feature-card--spotlight .spotlight-head p { font-size: 0.98rem; max-width: 820px; }
-    .spotlight-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.85rem; margin-top: 1.35rem; }
+    .spotlight-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.85rem; margin-top: 1.35rem; }
     .spotlight-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.05rem; }
     .spotlight-item strong { display: block; color: var(--text-strong); font-size: 0.94rem; margin-bottom: 0.3rem; }
     .feature-card--spotlight p.spotlight-plan { margin-top: 1rem; padding: 0.75rem 0.9rem; border-radius: 10px; background: color-mix(in srgb, var(--primary) 8%, var(--surface)); color: var(--accent-soft-text); font-weight: 650; }
@@ -1299,6 +1307,7 @@
                 <div class="spotlight-item"><strong>ページを探して確認</strong><p>すぐ使える自動探索に加え、メニュー・パス・sitemap・URLリストを指定する詳細設定にも対応。収集前にタイトルを確認し、不要なページの除外や並べ替えができます。</p></div>
                 <div class="spotlight-item"><strong>持ち運べる1つの資料に</strong><p>画像を埋め込んでオフライン閲覧、またはオンライン参照で軽量化。リンク先のPDF・Office文書などもHTMLと一緒に保存できます。</p></div>
                 <div class="spotlight-item"><strong>AI向けデータも任意で出力</strong><p>出典付きMarkdown、JSONL、manifest、表データを生成可能。ページ収集とHTML生成は端末内で処理し、ページ内容を当社サーバーへアップロードしません。</p></div>
+                <div class="spotlight-item"><strong>タイムラインやコメント欄も最後まで</strong><p>スクロールすると続きが読み込まれるページ（タイムライン、フィード、コメント欄など）は、最後まで自動でスクロールし、読み込まれた投稿やコメントを1つのHTMLにまとめて保存します（1ページあたり1,000件まで）。スクロール中に画面から消える投稿も残します。無料版・Proのどちらでも使えます。</p></div>
               </div>
               <p class="spotlight-plan">無料版は関連候補を探索・一覧表示し、選んだ1ページを保存します。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Proは複数候補の本文を1つのHTMLに結合します。どちらも安全上限・サイト側制限が適用されます。</p>
               <a class="spotlight-link" href="/ja/use-cases/combine-web-pages-into-one-html.html">複数ページを1つのHTMLにまとめる手順を見る →</a>
@@ -1572,6 +1581,7 @@
           <details><summary>無料で使えますか？</summary><p>はい。無料版はファイルを1回のダウンロードで10件まで一括保存でき、関連ページを探して候補から常に1ページだけ選んでHTML保存できます。選んだページ内の画像にはプラン上の件数制限がなく、直接リンクされたファイルは10件ずつ保存します（結果画面の「次の10件を保存」で続きを保存）。安全上限・サイト側制限は適用されます。Proは$19.99の買い切りで、ファイル上限を解除し、選んだ複数ページの本文を1つのHTMLに結合します。</p></details>
           <details><summary>10件の上限に達するとどうなりますか？</summary><p>何もロックされません。無料版は1回のダウンロードで10件まで保存します。保存が終わったら、一覧で次のファイルを選んで、もう一度「選んだファイルを保存」を押してください。繰り返せば残りも保存できます。Proには1回あたりの上限がありません。</p></details>
           <details><summary>複数のWebページを1つのHTMLにまとめられますか？</summary><p>はい、Proで利用できます。無料版でも関連候補を探索・一覧表示できますが、HTML保存するのは選んだ1ページです。Proでは複数候補を選び、各ページの読みやすい本文を共通目次付きで検索・印刷できる1つのHTMLにまとめます。</p></details>
+          <details><summary>X（旧Twitter）のポストを返信ごと保存できますか？</summary><p>はい。ブラウザでポストを開き（返信を見るのにログインが必要ならXにログインして）、「ページをHTMLにまとめる」で保存します。ページを最後まで自動でスクロールし、ポストとXに表示された返信を1つのHTMLにまとめて保存します（1ページあたり1,000件まで。広告のポストは入れません）。Xがあなたに表示しない返信は保存されません。無料版でも使えます。Proなら、複数のポストやスレッドを1つのHTMLにまとめることもできます。保存してよい内容だけを保存し、Xの利用規約に従ってください。</p></details>
           <details><summary>Proの料金は？</summary><p>$19.99 USDの買い切りで、永続ライセンス（サブスクなし）です。最大3台で利用できます（1台＝1台のパソコン上のブラウザープロファイル1つ）。拡張機能のライセンス画面から端末を解除すれば、その枠を別の端末で使えます。</p></details>
           <details><summary>購入後、Proはどう有効化しますか？</summary><p>ライセンスキーは決済直後の購入完了ページに表示され、メールでも届きます。拡張機能を開き、右上の「無料」（または「⋯」メニュー →「Pro・ライセンスキー」）から入力欄を開いてキーを貼り付け、「有効化」を押してください。右上の表示が「Pro」に変われば完了です。</p></details>
           <details><summary>閲覧データはどこかへ送信されますか？</summary><p>いいえ。ファイルはソースサイトから端末へ直接ダウンロードされます。当社サーバーへ送信されるのはライセンス検証と、任意の仮名化利用統計だけです。利用統計は初期設定でオフで、明示的に同意した後にだけ送信され、内容はランダムなインストールID、拡張機能のバージョン、プラン、件数などの大まかな数値やラベル（例：見つかったファイル数）に限られます。ページ内容・URL・ファイル名は一切送信しません。詳しくは<a href="/ja/security.html">セキュリティと権限</a>をご覧ください。</p></details>

@@ -232,6 +232,14 @@
       },
       {
         "@type": "Question",
+        "name": "Posso salvar uma publicação do X (antigo Twitter) junto com as respostas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Abra a publicação no navegador (com login no X, se ele pedir) e salve-a com “Juntar páginas em HTML”. A página é rolada automaticamente até o fim, e a publicação e as respostas que o X exibe são salvas juntas em um único arquivo HTML (até 1.000 publicações por página; publicações promovidas ficam de fora). Respostas que o X não exibe para você não são salvas. Funciona na versão gratuita; com o Pro você também pode juntar várias publicações ou threads em um único HTML. Salve apenas conteúdo que você tem permissão para guardar e siga os termos do X."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "Quanto custa o Pro?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -653,7 +661,7 @@
     .spotlight-kicker { display: block; color: var(--primary); font-size: 0.74rem; font-weight: 750; letter-spacing: 0.07em; text-transform: uppercase; margin-bottom: 0.3rem; }
     .feature-card--spotlight .spotlight-head h3 { font-size: clamp(1.35rem, 2.3vw, 1.8rem); line-height: 1.25; margin-bottom: 0.45rem; }
     .feature-card--spotlight .spotlight-head p { font-size: 0.98rem; max-width: 820px; }
-    .spotlight-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.85rem; margin-top: 1.35rem; }
+    .spotlight-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.85rem; margin-top: 1.35rem; }
     .spotlight-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.05rem; }
     .spotlight-item strong { display: block; color: var(--text-strong); font-size: 0.94rem; margin-bottom: 0.3rem; }
     .feature-card--spotlight p.spotlight-plan { margin-top: 1rem; padding: 0.75rem 0.9rem; border-radius: 10px; background: color-mix(in srgb, var(--primary) 8%, var(--surface)); color: var(--accent-soft-text); font-weight: 650; }
@@ -1305,6 +1313,7 @@
                 <div class="spotlight-item"><strong>Encontre e revise páginas</strong><p>Use a descoberta automática para começar rapidamente ou os controles detalhados para menus, caminhos, sitemaps e listas de URLs coladas. Revise os títulos e remova ou reordene qualquer página antes da coleta.</p></div>
                 <div class="spotlight-item"><strong>Salve um único documento portátil</strong><p>Incorpore imagens para leitura offline ou mantenha referências online para reduzir o tamanho do arquivo. PDFs, arquivos do Office e outros documentos vinculados podem ser salvos junto com o HTML.</p></div>
                 <div class="spotlight-item"><strong>Exportação opcional pronta para IA</strong><p>Gere Markdown com fontes rastreáveis, JSONL, um manifest e dados tabulares para análise. A coleta de páginas e a geração do HTML são executadas localmente no seu dispositivo; o conteúdo das páginas não é enviado aos nossos servidores.</p></div>
+                <div class="spotlight-item"><strong>Feeds e threads de comentários, até o fim</strong><p>Páginas que continuam carregando conforme você rola, como linhas do tempo, feeds e threads de comentários, são roladas automaticamente até o fim, e as publicações e comentários carregados são salvos juntos em um único arquivo HTML (até 1.000 publicações por página). As publicações que o site tira da tela durante a rolagem também são mantidas. Disponível na versão gratuita e no Pro.</p></div>
               </div>
               <p class="spotlight-plan">A versão gratuita encontra e lista páginas relacionadas e salva a única página escolhida. As imagens dessa página não têm limite de quantidade pelo plano; os arquivos vinculados diretamente a partir dela são salvos de 10 em 10, e “Salvar os próximos 10” na tela de resultado salva o restante. O Pro seleciona várias candidatas e reúne o conteúdo principal em um HTML. Os limites de segurança e do site de origem também valem.</p>
               <a class="spotlight-link" href="/pt_BR/use-cases/combine-web-pages-into-one-html.html">Veja como juntar páginas em um único HTML →</a>
@@ -1578,6 +1587,7 @@
           <details><summary>É gratuito?</summary><p>A versão gratuita baixa até 10 arquivos por download e encontra páginas relacionadas para você escolher exatamente uma e salvar como HTML. As imagens dessa página não têm limite de quantidade pelo plano; os arquivos vinculados diretamente a ela são salvos de 10 em 10, e “Salvar os próximos 10” na tela de resultado salva o restante. Limites de segurança e do site se aplicam. O Pro custa $19.99 em compra única, remove o limite de arquivos e reúne o conteúdo de várias páginas em um HTML.</p></details>
           <details><summary>O que acontece quando chego ao limite de 10 arquivos?</summary><p>A versão gratuita salva até 10 arquivos por download e nada é bloqueado. Ao fim do lote, selecione os próximos arquivos na lista e clique em “Salvar selecionados” novamente; repita até ter tudo. O Pro remove o limite por download.</p></details>
           <details><summary>Posso combinar várias páginas da web em um único arquivo HTML?</summary><p>Sim, com o Pro. A versão gratuita encontra e lista páginas relacionadas, mas salva só a página escolhida. O Pro permite selecionar várias candidatas e reúne o conteúdo legível em um HTML com sumário comum, pesquisa e impressão.</p></details>
+          <details><summary>Posso salvar uma publicação do X (antigo Twitter) junto com as respostas?</summary><p>Sim. Abra a publicação no navegador (com login no X, se ele pedir) e salve-a com “Juntar páginas em HTML”. A página é rolada automaticamente até o fim, e a publicação e as respostas que o X exibe são salvas juntas em um único arquivo HTML (até 1.000 publicações por página; publicações promovidas ficam de fora). Respostas que o X não exibe para você não são salvas. Funciona na versão gratuita; com o Pro você também pode juntar várias publicações ou threads em um único HTML. Salve apenas conteúdo que você tem permissão para guardar e siga os termos do X.</p></details>
           <details><summary>Quanto custa o Pro?</summary><p>$19.99 USD, compra única. Licença vitalícia, sem assinatura. Ativa em até 3 dispositivos; um dispositivo é um perfil de navegador em um computador, e você pode liberar uma vaga removendo um dispositivo na tela de licença da extensão.</p></details>
           <details><summary>Como ativo o Pro depois de comprar?</summary><p>Sua chave de licença aparece na página de confirmação logo após o pagamento e também é enviada por e-mail. Abra a extensão, clique em “Grátis” no canto superior direito (ou abra o menu ⋯ e escolha “Pro e chave de licença”), cole a chave e clique em “Ativar”. Quando o rótulo no canto superior direito mudar para “Pro”, está pronto.</p></details>
           <details><summary>Envia meus dados de navegação?</summary><p>Não. Os arquivos são baixados diretamente do site fonte para seu dispositivo. Apenas a verificação de licença e estatísticas de uso pseudonimizadas opcionais chegam aos nossos servidores. As estatísticas ficam desativadas por padrão e só são enviadas após consentimento explícito; cada evento contém um ID de instalação aleatório, a versão da extensão, o seu plano e contagens ou rótulos aproximados (por exemplo, quantos arquivos foram encontrados) — nunca conteúdo de páginas, URLs ou nomes de arquivos. Detalhes em <a href="/pt_BR/security.html">Segurança e permissões</a>.</p></details>

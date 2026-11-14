@@ -232,6 +232,14 @@
       },
       {
         "@type": "Question",
+        "name": "¿Puedo guardar una publicación de X (antes Twitter) junto con sus respuestas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Abre la publicación en tu navegador (con la sesión de X iniciada si te lo pide) y guárdala con «Combinar páginas en HTML». La página se desplaza automáticamente hasta el final, y la publicación y las respuestas que X muestra se guardan juntas en un solo archivo HTML (hasta 1.000 publicaciones por página; las publicaciones promocionadas se omiten). Las respuestas que X no te muestra no se guardan. Funciona en el plan gratuito; con Pro también puedes combinar varias publicaciones o hilos en un solo HTML. Guarda solo contenido que tengas permiso para conservar y respeta las condiciones de X."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "¿Cuánto cuesta Pro?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -653,7 +661,7 @@
     .spotlight-kicker { display: block; color: var(--primary); font-size: 0.74rem; font-weight: 750; letter-spacing: 0.07em; text-transform: uppercase; margin-bottom: 0.3rem; }
     .feature-card--spotlight .spotlight-head h3 { font-size: clamp(1.35rem, 2.3vw, 1.8rem); line-height: 1.25; margin-bottom: 0.45rem; }
     .feature-card--spotlight .spotlight-head p { font-size: 0.98rem; max-width: 820px; }
-    .spotlight-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.85rem; margin-top: 1.35rem; }
+    .spotlight-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.85rem; margin-top: 1.35rem; }
     .spotlight-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.05rem; }
     .spotlight-item strong { display: block; color: var(--text-strong); font-size: 0.94rem; margin-bottom: 0.3rem; }
     .feature-card--spotlight p.spotlight-plan { margin-top: 1rem; padding: 0.75rem 0.9rem; border-radius: 10px; background: color-mix(in srgb, var(--primary) 8%, var(--surface)); color: var(--accent-soft-text); font-weight: 650; }
@@ -1300,6 +1308,7 @@
                 <div class="spotlight-item"><strong>Encuentra y revisa páginas</strong><p>Usa la detección automática para empezar rápidamente o los controles detallados para menús, rutas, sitemaps y listas de URL pegadas. Revisa los títulos y elimina o reordena cualquier página antes de recopilarla.</p></div>
                 <div class="spotlight-item"><strong>Guarda un único documento portátil</strong><p>Incorpora las imágenes para leer sin conexión o conserva las referencias en línea para reducir el tamaño del archivo. Los PDF, archivos de Office y otros documentos enlazados se pueden guardar junto con el HTML.</p></div>
                 <div class="spotlight-item"><strong>Exportación opcional preparada para IA</strong><p>Genera Markdown con fuentes rastreables, JSONL, un manifest y datos tabulares para analizarlos. La recopilación de páginas y la generación del HTML se ejecutan localmente en tu dispositivo; el contenido de las páginas no se sube a nuestros servidores.</p></div>
+                <div class="spotlight-item"><strong>Feeds e hilos de comentarios, hasta el final</strong><p>Las páginas que siguen cargando al desplazarte, como líneas de tiempo, feeds e hilos de comentarios, se desplazan automáticamente hasta el final, y las publicaciones y comentarios que se cargan se guardan juntos en un solo archivo HTML (hasta 1.000 publicaciones por página). También se conservan las publicaciones que el sitio quita de la pantalla al desplazarse. Disponible en ambos planes.</p></div>
               </div>
               <p class="spotlight-plan">El plan gratuito encuentra y muestra las páginas relacionadas, y guarda la única página que elijas. Las imágenes de esa página no tienen límite de cantidad por plan; los archivos enlazados directamente desde ella se guardan de 10 en 10, y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro selecciona varias candidatas y combina su contenido principal en un HTML. En ambos planes se aplican límites de seguridad y del sitio de origen.</p>
               <a class="spotlight-link" href="/es/use-cases/combine-web-pages-into-one-html.html">Ver cómo combinar páginas web en un HTML →</a>
@@ -1573,6 +1582,7 @@
           <details><summary>¿Es gratis?</summary><p>Sí. El plan gratuito guarda hasta 10 archivos por descarga y encuentra páginas relacionadas para que elijas exactamente una y la guardes como HTML. Las imágenes de esa página no tienen límite de cantidad por plan; sus archivos enlazados directamente se guardan de 10 en 10 y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Se aplican límites de seguridad y del sitio. Pro cuesta $19.99 en un pago único, elimina el límite de archivos y combina el contenido de varias páginas en un HTML.</p></details>
           <details><summary>¿Qué pasa cuando llego al límite de 10 archivos?</summary><p>No se bloquea nada. El plan gratuito guarda hasta 10 archivos por descarga. Cuando termine, selecciona los siguientes archivos de la lista y vuelve a hacer clic en «Guardar seleccionados»; repite hasta tenerlo todo. Pro elimina el límite por descarga.</p></details>
           <details><summary>¿Puedo combinar varias páginas web en un único archivo HTML?</summary><p>Sí, con Pro. El plan gratuito encuentra y muestra las páginas relacionadas, pero solo guarda la página que elijas. Pro permite seleccionar varias candidatas y combina su contenido legible en un HTML con índice común, búsqueda e impresión.</p></details>
+          <details><summary>¿Puedo guardar una publicación de X (antes Twitter) junto con sus respuestas?</summary><p>Sí. Abre la publicación en tu navegador (con la sesión de X iniciada si te lo pide) y guárdala con «Combinar páginas en HTML». La página se desplaza automáticamente hasta el final, y la publicación y las respuestas que X muestra se guardan juntas en un solo archivo HTML (hasta 1.000 publicaciones por página; las publicaciones promocionadas se omiten). Las respuestas que X no te muestra no se guardan. Funciona en el plan gratuito; con Pro también puedes combinar varias publicaciones o hilos en un solo HTML. Guarda solo contenido que tengas permiso para conservar y respeta las condiciones de X.</p></details>
           <details><summary>¿Cuánto cuesta Pro?</summary><p>$19.99 USD en un pago único. Licencia de por vida, sin suscripción. Se activa en hasta 3 dispositivos; un dispositivo es un perfil de navegador en un ordenador, y puedes liberar una plaza quitando un dispositivo desde la pantalla de licencia de la extensión.</p></details>
           <details><summary>¿Cómo activo Pro después de comprarlo?</summary><p>La clave de licencia aparece en la página de confirmación justo después del pago y también te llega por correo electrónico. Abre la extensión, haz clic en «Gratis» arriba a la derecha (o abre el menú ⋯ y elige «Pro y clave de licencia»), pega la clave y haz clic en «Activar». Cuando la etiqueta de arriba a la derecha cambie a «Pro», habrás terminado.</p></details>
           <details><summary>¿Envía mis datos de navegación?</summary><p>No. Los archivos se descargan directamente del sitio fuente a tu dispositivo. Solo la verificación de licencia y unas estadísticas de uso seudónimas opcionales llegan a nuestros servidores. Las estadísticas están desactivadas de forma predeterminada y solo se envían tras tu consentimiento explícito; cada evento contiene un ID de instalación aleatorio, la versión de la extensión, tu plan y recuentos o etiquetas aproximados (por ejemplo, cuántos archivos se encontraron), nunca el contenido de las páginas, URLs ni nombres de archivo. Más detalles en <a href="/es/security.html">Seguridad y permisos</a>.</p></details>
