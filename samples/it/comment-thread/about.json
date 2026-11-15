@@ -2,8 +2,8 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.53",
-    "build": "equivalent to main 3eb98362 (to be submitted as 5.8.54 on 2026-11-17): the captured copy was the working tree after 5.8.53 (its manifest still said 5.8.53), and every file that goes into the extension matched 3eb98362 except for line endings; loaded as a temporary add-on for automated capture",
+    "version": "5.8.54",
+    "build": "working tree of the extension after 5.8.54 (99ffa60b) on 2026-11-16, including the article-body fix ae7feb1b; the same contents are to be submitted as 5.8.55 on 2026-11-17 (its manifest still said 5.8.54); loaded as a temporary add-on for automated capture",
     "tool": "collector"
   },
   "browser": "Firefox 160.0 (Windows 11, headless)",
@@ -27,8 +27,8 @@
   "files": [
     {
       "name": "Porto in Bici_ da aprile arrivano le bici elettriche e il servizio attivo 24 ore.html",
-      "bytes": 81154,
-      "sha256": "cb544792abad7663c4951817230b6f22c4a68ff1f6651ec14e358331e1ae36c6",
+      "bytes": 82353,
+      "sha256": "811394fbaf9e956ffcc57c358d655dae07e6ea1e053c77277934e83227fd9d7c",
       "mime": "text/html"
     }
   ],

@@ -2,8 +2,8 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.53",
-    "build": "equivalent to main 3eb98362 (to be submitted as 5.8.54 on 2026-11-17): the captured copy was the working tree after 5.8.53 (its manifest still said 5.8.53), and every file that goes into the extension matched 3eb98362 except for line endings; loaded as a temporary add-on for automated capture",
+    "version": "5.8.54",
+    "build": "working tree of the extension after 5.8.54 (99ffa60b) on 2026-11-16, including the article-body fix ae7feb1b; the same contents are to be submitted as 5.8.55 on 2026-11-17 (its manifest still said 5.8.54); loaded as a temporary add-on for automated capture",
     "tool": "collector"
   },
   "browser": "Firefox 160.0 (Windows 11, headless)",
@@ -27,8 +27,8 @@
   "files": [
     {
       "name": "Bicicletas do Porto terá bikes elétricas e funcionamento 24 horas a partir de.html",
-      "bytes": 82176,
-      "sha256": "71660db5a70499923a183814c16210464a5238295030951b4b522ae6a148e001",
+      "bytes": 83398,
+      "sha256": "304197654bd4d4cb2573c0f202f7debeb3f20d58e5d142ca03b6092079dc6df6",
       "mime": "text/html"
     }
   ],

@@ -2,8 +2,8 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.53",
-    "build": "equivalent to main 3eb98362 (to be submitted as 5.8.54 on 2026-11-17): the captured copy was the working tree after 5.8.53 (its manifest still said 5.8.53), and every file that goes into the extension matched 3eb98362 except for line endings; loaded as a temporary add-on for automated capture",
+    "version": "5.8.54",
+    "build": "working tree of the extension after 5.8.54 (99ffa60b) on 2026-11-16, including the article-body fix ae7feb1b; the same contents are to be submitted as 5.8.55 on 2026-11-17 (its manifest still said 5.8.54); loaded as a temporary add-on for automated capture",
     "tool": "collector"
   },
   "browser": "Firefox 160.0 (Windows 11, headless)",
@@ -27,8 +27,8 @@
   "files": [
     {
       "name": "Vélos du Port _ vélos à assistance électrique et service 24 h_24 dès avril.html",
-      "bytes": 83632,
-      "sha256": "1fdf48b1964ba9beecabdf9e5b81b12a10cdfb7adbf875d848a1d6e0b11dd638",
+      "bytes": 84881,
+      "sha256": "dfab199c7ce5ec925e2f5add64f7fd90c2168d371d4da75152caec6575a9f151",
       "mime": "text/html"
     }
   ],
