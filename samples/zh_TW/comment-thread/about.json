@@ -1,0 +1,43 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.53",
+    "build": "equivalent to main 3eb98362 (to be submitted as 5.8.54 on 2026-11-17): the captured copy was the working tree after 5.8.53 (its manifest still said 5.8.53), and every file that goes into the extension matched 3eb98362 except for line endings; loaded as a temporary add-on for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Firefox 160.0 (Windows 11, headless)",
+  "plan": "free",
+  "date": "2026-11-16",
+  "source": "https://grab-all-files.app/samples/source/zh_TW/comment-thread/",
+  "source_served_from": "served locally under its planned address for this capture (the page was not yet published); no outside site was contacted",
+  "settings": [
+    "頁面：僅目前頁面",
+    "外觀：整理為易讀格式",
+    "儲存形式：附目錄及搜尋的HTML"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "comments_in_source": 120,
+  "comments_found_in_saved_file": 120,
+  "feed_capture": {
+    "count": 120,
+    "stopReason": "idle",
+    "limited": false
+  },
+  "files": [
+    {
+      "name": "港灣共享單車4月起新增電動輔助車,並改為24小時營運(虛構).html",
+      "bytes": 79949,
+      "sha256": "58adee9d36aab56bfa43645ef15525a33240c3f2aa533d4f8fd1931cd8c669df",
+      "mime": "text/html"
+    }
+  ],
+  "comparison_screenshots": {
+    "viewport": "1200x900",
+    "files": [
+      "compare-source.png",
+      "compare-saved.png"
+    ],
+    "note": "Screenshots made by the site, not product output. Both are scrolled to the start of the comments."
+  }
+}

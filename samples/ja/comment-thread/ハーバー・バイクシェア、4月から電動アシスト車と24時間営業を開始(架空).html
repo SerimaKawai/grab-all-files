@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data: file:; style-src 'unsafe-inline'; font-src data:; script-src 'sha256-pw2AXM+sb7/gGaP1j+lzN6KvzaWNwd9xnoM4kXT/z00=';">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ハーバー・バイクシェア、4月から電動アシスト車と24時間営業を開始（架空）</title>
+  <style>
+      :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Yu Gothic UI", Meiryo, sans-serif; line-height: 1.65; color: #1f2937; background: #fff; }
+      body { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+      /* The search bar is sticky (~3rem) — without this every anchor jump (TOC,
+         cross-page links, search hits) lands with its first line hidden under it. */
+      [id] { scroll-margin-top: 4.5rem; }
+      /* A source page's own headings are demoted by two levels to sit under this
+         page's <h2> title (h1->h3, h2->h4, ...), so a page whose own subheadings
+         were h3/h4 lands on h5/h6 here. Nothing set their size, so they fell back
+         to the browser default (h5 ~0.83em, h6 ~0.67em) — reported as unreadably
+         small text spread across thousands of headings in a real 766-page export.
+         Neither level should render smaller than body text. */
+      h5 { font-size: 1.05em; }
+      h6 { font-size: 1em; }
+      a { color: #075ea8; overflow-wrap: anywhere; }
+      /* GAF-233: an anchor rewritten as external always carries this exact
+         rel value (see rewriteHref/cleanNode); internal anchors never do, so
+         this reliably marks "leaves the archive" without a separate class. */
+      a[rel="noopener noreferrer"]::after { content: "↗"; display: inline-block; margin-left: .15em; font-size: .85em; opacity: .65; text-decoration: none; }
+      .gaf-toc-fab { position: fixed; right: 1rem; bottom: 1rem; z-index: 15; background: #075ea8; color: #fff; padding: .5rem 1rem; border-radius: 999px; text-decoration: none; font-size: .85rem; box-shadow: 0 2px 8px rgba(15,23,42,.35); }
+      .gaf-toc-fab:hover { background: #0a6fc2; }
+      .gaf-toc-fab::after { content: none; }
+      .gaf-document-header { border-bottom: 3px solid #334155; margin-bottom: 2rem; }
+      .gaf-meta { display: grid; grid-template-columns: max-content 1fr; gap: .25rem 1rem; }
+      .gaf-meta dt { font-weight: 700; }
+      .gaf-meta dd { margin: 0; }
+      .gaf-warning { border: 1px solid #b45309; background: #fff7ed; padding: .75rem; }
+      .gaf-partial-warning { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; margin: 0 0 1.5rem; border: 2px solid #b45309; border-radius: 8px; background: #fff7ed; color: #7c2d12; padding: 1rem 1.1rem; }
+      .gaf-partial-warning a { font-weight: 700; }
+      .gaf-look-fallback { margin: .4rem 0 .8rem; border-left: 4px solid #b45309; background: #fff7ed; color: #7c2d12; padding: .45rem .75rem; font-size: .9rem; }
+      .gaf-static-note { margin: .4rem 0 .8rem; border-left: 4px solid #2563eb; background: #eff6ff; color: #1e3a8a; padding: .45rem .75rem; font-size: .9rem; }
+      .gaf-page { margin: 2.5rem 0; padding-top: .5rem; border-top: 2px solid #cbd5e1; }
+      .gaf-page-content img { max-width: 100%; height: auto; }
+      /* An icon beside a link's words in a table cell (a country's flag before
+         its code) had no size of its own and was drawn as wide as the page
+         (olympedia's medal table, 2026-10-22). */
+      .gaf-page-content :is(td, th) a img { max-height: 1.6em; width: auto; vertical-align: middle; }
+      .gaf-image-placeholder, .gaf-unsafe-placeholder { display: inline-block; border: 1px dashed #94a3b8; padding: .2rem .4rem; color: #475569; }
+      table { border-collapse: collapse; max-width: 100%; margin: 1rem 0; }
+      th, td { border: 1px solid #94a3b8; padding: .4rem .55rem; vertical-align: top; }
+      th { background: #f1f5f9; }
+      pre { overflow: auto; padding: .8rem; background: #f8fafc; border: 1px solid #cbd5e1; white-space: pre-wrap; }
+      code { font-family: Consolas, "SFMono-Regular", monospace; }
+      blockquote { border-left: 4px solid #94a3b8; margin-left: 0; padding-left: 1rem; }
+      .gaf-page-toggle { margin-right: .5rem; border: 1px solid #cbd5e1; background: #f1f5f9; color: #334155; border-radius: 4px; cursor: pointer; font: inherit; line-height: 1; padding: 0 .45rem; }
+      .gaf-page-toggle:hover { background: #e2e8f0; }
+      .gaf-page.gaf-collapsed .gaf-page-content { display: none; }
+      .gaf-search { position: sticky; top: 0; z-index: 20; display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: 0 0 1.5rem; padding: .55rem .7rem; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; }
+      .gaf-search .gaf-search-input { flex: 1 1 12rem; min-width: 8rem; padding: .35rem .5rem; border: 1px solid #94a3b8; border-radius: 4px; font: inherit; color: #1f2937; background: #fff; }
+      .gaf-search button { padding: .3rem .6rem; border: 1px solid #94a3b8; background: #fff; color: #1f2937; border-radius: 4px; cursor: pointer; font: inherit; }
+      .gaf-search button:hover { background: #f1f5f9; }
+      .gaf-search .gaf-search-count { min-width: 4.5rem; color: #475569; font-size: .85rem; }
+      .gaf-search .gaf-search-headings { display: inline-flex; align-items: center; gap: .25rem; color: #334155; font-size: .85rem; }
+      mark.gaf-search-hit { background: #fef08a; color: inherit; padding: 0 .05em; border-radius: 2px; }
+      mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+      @media (prefers-color-scheme: dark) {
+:root:not([data-gaf-theme="light"]) { color: #e2e8f0; background: #0f172a; }
+:root:not([data-gaf-theme="light"]) a { color: #7cc0f5; }
+:root:not([data-gaf-theme="light"]) img[data-gaf-math] { filter: invert(1) hue-rotate(180deg); }
+:root:not([data-gaf-theme="light"]) .gaf-toc-fab { background: #1d4ed8; }
+:root:not([data-gaf-theme="light"]) .gaf-toc-fab:hover { background: #2563eb; }
+:root:not([data-gaf-theme="light"]) .gaf-document-header { border-bottom-color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) .gaf-warning { border-color: #d97706; background: #451a03; }
+:root:not([data-gaf-theme="light"]) .gaf-partial-warning { border-color: #f59e0b; background: #451a03; color: #ffedd5; }
+:root:not([data-gaf-theme="light"]) .gaf-page { border-top-color: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-image-placeholder, :root:not([data-gaf-theme="light"]) .gaf-unsafe-placeholder { border-color: #475569; color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) th, :root:not([data-gaf-theme="light"]) td { border-color: #475569; }
+:root:not([data-gaf-theme="light"]) th { background: #1e293b; }
+:root:not([data-gaf-theme="light"]) pre { background: #1e293b; border-color: #334155; }
+:root:not([data-gaf-theme="light"]) blockquote { border-left-color: #475569; }
+:root:not([data-gaf-theme="light"]) .gaf-page-toggle { border-color: #475569; background: #1e293b; color: #cbd5e1; }
+:root:not([data-gaf-theme="light"]) .gaf-page-toggle:hover { background: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-search { background: #1e293b; border-color: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-input { border-color: #475569; color: #e2e8f0; background: #0f172a; }
+:root:not([data-gaf-theme="light"]) .gaf-search button { border-color: #475569; background: #0f172a; color: #e2e8f0; }
+:root:not([data-gaf-theme="light"]) .gaf-search button:hover { background: #1e293b; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-count { color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-headings { color: #cbd5e1; }
+:root:not([data-gaf-theme="light"]) mark.gaf-search-hit { background: #854d0e; color: #fef9c3; }
+:root:not([data-gaf-theme="light"]) mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+
+}
+:root[data-gaf-theme="dark"] { color: #e2e8f0; background: #0f172a; }
+:root[data-gaf-theme="dark"] a { color: #7cc0f5; }
+:root[data-gaf-theme="dark"] img[data-gaf-math] { filter: invert(1) hue-rotate(180deg); }
+:root[data-gaf-theme="dark"] .gaf-toc-fab { background: #1d4ed8; }
+:root[data-gaf-theme="dark"] .gaf-toc-fab:hover { background: #2563eb; }
+:root[data-gaf-theme="dark"] .gaf-document-header { border-bottom-color: #94a3b8; }
+:root[data-gaf-theme="dark"] .gaf-warning { border-color: #d97706; background: #451a03; }
+:root[data-gaf-theme="dark"] .gaf-partial-warning { border-color: #f59e0b; background: #451a03; color: #ffedd5; }
+:root[data-gaf-theme="dark"] .gaf-page { border-top-color: #334155; }
+:root[data-gaf-theme="dark"] .gaf-image-placeholder, :root[data-gaf-theme="dark"] .gaf-unsafe-placeholder { border-color: #475569; color: #94a3b8; }
+:root[data-gaf-theme="dark"] th, :root[data-gaf-theme="dark"] td { border-color: #475569; }
+:root[data-gaf-theme="dark"] th { background: #1e293b; }
+:root[data-gaf-theme="dark"] pre { background: #1e293b; border-color: #334155; }
+:root[data-gaf-theme="dark"] blockquote { border-left-color: #475569; }
+:root[data-gaf-theme="dark"] .gaf-page-toggle { border-color: #475569; background: #1e293b; color: #cbd5e1; }
+:root[data-gaf-theme="dark"] .gaf-page-toggle:hover { background: #334155; }
+:root[data-gaf-theme="dark"] .gaf-search { background: #1e293b; border-color: #334155; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-input { border-color: #475569; color: #e2e8f0; background: #0f172a; }
+:root[data-gaf-theme="dark"] .gaf-search button { border-color: #475569; background: #0f172a; color: #e2e8f0; }
+:root[data-gaf-theme="dark"] .gaf-search button:hover { background: #1e293b; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-count { color: #94a3b8; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-headings { color: #cbd5e1; }
+:root[data-gaf-theme="dark"] mark.gaf-search-hit { background: #854d0e; color: #fef9c3; }
+:root[data-gaf-theme="dark"] mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+
+:root[data-gaf-theme="dark"] { color-scheme: dark; }
+:root[data-gaf-theme="light"] { color-scheme: light; }
+
+      @page { size: A4; margin: 15mm; }
+      @media print {
+        body { max-width: none; margin: 0; padding: 0; font-size: 10.5pt; }
+        nav a { color: inherit; text-decoration: none; }
+        .gaf-search, .gaf-page-toggle, .gaf-toc-fab { display: none !important; }
+        .gaf-page.gaf-collapsed .gaf-page-content { display: block; }
+        .gaf-page { break-before: page; page-break-before: always; }
+        .gaf-page:first-of-type { break-before: auto; page-break-before: auto; }
+        /* Only short blocks are kept whole. A table or <pre> longer than a page
+           cannot be, and asking for it pushed it to a fresh page and left the
+           rest of the previous one blank. */
+        h1, h2, h3, h4, h5, h6 { break-after: avoid; page-break-after: avoid; break-inside: avoid; }
+        figure, blockquote, tr, img { break-inside: avoid; page-break-inside: avoid; }
+        /* Printing every link's address after it made URLs 36-84% of the text in
+           most printed exports (one page reached 4099 PDF pages); the links stay
+           clickable in a saved PDF, so the address is not printed. */
+        a::after, a[rel="noopener noreferrer"]::after { content: none !important; }
+        /* A table wider than the paper was cut at the right edge. It is set
+           smaller, and a link's address in a cell may wrap anywhere; words and
+           numbers are not split letter by letter (that made every column one
+           letter wide), so a table still wider is shrunk with the page. */
+        table { width: auto !important; max-width: 100% !important; table-layout: auto; font-size: 8pt; }
+        th, td { overflow-wrap: break-word; padding: .15rem .25rem; }
+        :is(th, td) a { overflow-wrap: anywhere; }
+        thead { display: table-header-group; }
+        pre, code { white-space: pre-wrap; overflow-wrap: anywhere; }
+        .gaf-page-content img { max-height: 24cm; object-fit: contain; }
+      }
+    </style>
+</head>
+<body>
+  <header class="gaf-document-header">
+    <h1>ハーバー・バイクシェア、4月から電動アシスト車と24時間営業を開始（架空）</h1>
+    
+    
+  </header>
+  
+  <nav id="gaf-toc" aria-label="目次">
+    <h2>目次</h2>
+    <ol><li><a href="#gaf-page-p00001">ハーバー・バイクシェア、4月から電動アシスト車と24時間営業を開始（架空）</a></li></ol>
+  </nav>
+  <main>
+    <section class="gaf-page" id="gaf-page-p00001">
+        <header class="gaf-page-header">
+          <h2>ハーバー・バイクシェア、4月から電動アシスト車と24時間営業を開始（架空）</h2>
+        </header>
+        <div class="gaf-page-content"><article><p>交通・まちづくり</p><h3>ハーバー・バイクシェア、4月から電動アシスト車と24時間営業を開始（架空）</h3><p>2026年11月10日</p>
+<p>ハーバー市は、市内の自転車シェア「ハーバー・バイクシェア」を4月1日から大きく見直すと発表しました。この記事に出てくる市・サービス・人物はすべて架空のものです。</p><p>主な変更点は次のとおりです。ご意見はページ下のコメント欄にお寄せください。</p>
+<ul><li>電動アシスト自転車を150台導入（坂の多い丘の上地区から優先して配置）</li><li>ステーションを12か所増設（港南・丘の上・市立病院前など）</li><li>深夜0時〜5時の休止をやめ、24時間利用できるように</li><li>料金の見直し：30分ごと150円→180円、月額パス2,000円→2,200円</li><li>学生向けの月額パス（1,500円）を新設</li><li>中央駅前ステーションは駅前広場の工事のため、4月から1年間、北口側へ移設</li></ul>
+<p>市は2月末まで意見を受け付け、3月の交通委員会で最終案を決める予定です。</p></article>
+<section aria-labelledby="gaf-p00001-comments-title">
+<div><h4 id="gaf-p00001-comments-title">コメント</h4><span>120件のコメント · 古い順</span></div>
+<div role="feed" aria-labelledby="gaf-p00001-comments-title" aria-busy="false" id="gaf-p00001-thread"><article role="article" aria-posinset="1" aria-setsize="120" class="gaf-feed-post gaf-feed-post-1"><div><div><span>港町のりこ</span> <time datetime="2026-11-10T09:34:00.000Z">11月10日 09:34</time></div><p>電動アシスト、待ってました！丘の上の坂がつらくて、いつも途中で押して歩いていたので本当にうれしいです。</p><div><span>いいね 31</span> <span>返信</span></div></div></article><article role="article" aria-posinset="2" aria-setsize="120" class="gaf-feed-post gaf-feed-post-2"><div><div><span>坂道ランナー</span> <time datetime="2026-11-10T10:18:00.000Z">11月10日 10:18</time></div><p>30分180円は高くないですか。150円でもバスとあまり変わらないのに、これだとバスを選んでしまいそう。</p><div><span>いいね 20</span> <span>返信</span></div></div></article><article role="article" aria-posinset="3" aria-setsize="120" class="gaf-feed-post gaf-feed-post-3"><div><div><span>たなか けんじ</span> <time datetime="2026-11-10T11:12:00.000Z">11月10日 11:12</time> <span>↳ 坂道ランナー</span></div><p>同感です。値上げするなら最初の15分だけ安くするとか、短い利用への配慮がほしい。</p><div><span>いいね 13</span> <span>返信</span></div></div></article><article role="article" aria-posinset="4" aria-setsize="120" class="gaf-feed-post gaf-feed-post-4"><div><div><span>みなと通勤族</span> <time datetime="2026-11-10T11:47:00.000Z">11月10日 11:47</time> <span>↳ 坂道ランナー</span></div><p>月額パスなら1日あたり70円ちょっとなので、毎日使う人にはまだ安いと思いますよ。</p><div><span>いいね 26</span> <span>返信</span></div></div></article><article role="article" aria-posinset="5" aria-setsize="120" class="gaf-feed-post gaf-feed-post-5"><div><div><span>夜勤明けのK</span> <time datetime="2026-11-10T12:12:00.000Z">11月10日 12:12</time></div><p>夜勤なので24時間営業はありがたいです。朝5時まで待ってタクシーを使っていたので、だいぶ助かります。</p><div><span>いいね 27</span> <span>返信</span></div></div></article><article role="article" aria-posinset="6" aria-setsize="120" class="gaf-feed-post gaf-feed-post-6"><div><div><span>丘の上在住</span> <time datetime="2026-11-10T12:56:00.000Z">11月10日 12:56</time></div><p>電動アシスト車は普通の自転車と同じ料金ですか？別料金になるならそれも書いてほしいです。</p><div><span>いいね 32</span> <span>返信</span></div></div></article><article role="article" aria-posinset="7" aria-setsize="120" class="gaf-feed-post gaf-feed-post-7"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-10T13:21:00.000Z">11月10日 13:21</time> <span>↳ 丘の上在住</span></div><p>ご質問ありがとうございます。電動アシスト車も同じ料金でご利用いただけます（30分ごと180円、月額パス対象）。</p><div><span>いいね 14</span> <span>返信</span></div></div></article><article role="article" aria-posinset="8" aria-setsize="120" class="gaf-feed-post gaf-feed-post-8"><div><div><span>丘の上在住</span> <time datetime="2026-11-10T13:56:00.000Z">11月10日 13:56</time> <span>↳ 丘の上在住</span></div><p>回答ありがとうございます。同じ料金なら毎日使います。</p><div><span>いいね 38</span> <span>返信</span></div></div></article><article role="article" aria-posinset="9" aria-setsize="120" class="gaf-feed-post gaf-feed-post-9"><div><div><span>北口の住人</span> <time datetime="2026-11-10T14:50:00.000Z">11月10日 14:50</time></div><p>中央駅前のステーションが北口に移るのは困ります。南口側の会社に通っているので、駅をぐるっと回ることになる。</p><div><span>いいね 39</span> <span>返信</span></div></div></article><article role="article" aria-posinset="10" aria-setsize="120" class="gaf-feed-post gaf-feed-post-10"><div><div><span>大学3年 さとう</span> <time datetime="2026-11-10T15:12:00.000Z">11月10日 15:12</time></div><p>学生パス1,500円はうれしい。大学まで歩くと25分なので、これなら契約します。</p><div><span>いいね 41</span> <span>返信</span></div></div></article><article role="article" aria-posinset="11" aria-setsize="120" class="gaf-feed-post gaf-feed-post-11"><div><div><span>ゆきの</span> <time datetime="2026-11-10T16:01:00.000Z">11月10日 16:01</time></div><p>子ども乗せ用のシートが付いた自転車も少し置いてもらえませんか。保育園の送り迎えに使いたいです。</p><div><span>いいね 32</span> <span>返信</span></div></div></article><article role="article" aria-posinset="12" aria-setsize="120" class="gaf-feed-post gaf-feed-post-12"><div><div><span>ベビーカー押し</span> <time datetime="2026-11-10T16:31:00.000Z">11月10日 16:31</time> <span>↳ ゆきの</span></div><p>私もほしいです。電動で子ども乗せなら、坂の上の保育園でも通えます。</p><div><span>いいね 43</span> <span>返信</span></div></div></article><article role="article" aria-posinset="13" aria-setsize="120" class="gaf-feed-post gaf-feed-post-13"><div><div><span>サイクル親父</span> <time datetime="2026-11-10T17:20:00.000Z">11月10日 17:20</time></div><p>24時間にすると、夜中に乗り捨てたり乱暴に扱ったりする人が増えるのでは。いまでもサドルが壊れたままの自転車をよく見ます。</p><div><span>いいね 10</span> <span>返信</span></div></div></article><article role="article" aria-posinset="14" aria-setsize="120" class="gaf-feed-post gaf-feed-post-14"><div><div><span>夜勤明けのK</span> <time datetime="2026-11-10T17:59:00.000Z">11月10日 17:59</time> <span>↳ サイクル親父</span></div><p>夜に使う人の多くは仕事帰りです。壊す人は時間に関係なくいると思います。</p><div><span>いいね 45</span> <span>返信</span></div></div></article><article role="article" aria-posinset="15" aria-setsize="120" class="gaf-feed-post gaf-feed-post-15"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-10T18:19:00.000Z">11月10日 18:19</time> <span>↳ サイクル親父</span></div><p>ご心配ありがとうございます。夜間は点検の巡回を増やし、壊れた自転車はアプリから報告できるようにします。</p><div><span>いいね 11</span> <span>返信</span></div></div></article><article role="article" aria-posinset="16" aria-setsize="120" class="gaf-feed-post gaf-feed-post-16"><div><div><span>通学チャリ</span> <time datetime="2026-11-10T18:49:00.000Z">11月10日 18:49</time></div><p>新しいステーション12か所の正確な場所はいつ分かりますか？うちの近くに来るのか知りたいです。</p><div><span>いいね 47</span> <span>返信</span></div></div></article><article role="article" aria-posinset="17" aria-setsize="120" class="gaf-feed-post gaf-feed-post-17"><div><div><span>ぱんだ母さん</span> <time datetime="2026-11-10T19:38:00.000Z">11月10日 19:38</time></div><p>丘の上から優先して配置してくれるのはいい判断だと思います。坂のある地区こそ電動が必要。</p><div><span>いいね 30</span> <span>返信</span></div></div></article><article role="article" aria-posinset="18" aria-setsize="120" class="gaf-feed-post gaf-feed-post-18"><div><div><span>ハーバー太郎</span> <time datetime="2026-11-10T19:59:00.000Z">11月10日 19:59</time></div><p>電動と24時間は大歓迎。でも値上げは月額パスだけ据え置きにしてくれたら、もっと賛成できた。</p><div><span>いいね 17</span> <span>返信</span></div></div></article><article role="article" aria-posinset="19" aria-setsize="120" class="gaf-feed-post gaf-feed-post-19"><div><div><span>週末サイクリスト</span> <time datetime="2026-11-10T20:48:00.000Z">11月10日 20:48</time></div><p>週末だけ使う人向けに、1日乗り放題の券もあると助かります。観光客にも売れると思う。</p><div><span>いいね 8</span> <span>返信</span></div></div></article><article role="article" aria-posinset="20" aria-setsize="120" class="gaf-feed-post gaf-feed-post-20"><div><div><span>観光で来た者</span> <time datetime="2026-11-10T21:35:00.000Z">11月10日 21:35</time> <span>↳ 週末サイクリスト</span></div><p>観光で来ている者ですが、1日券があればぜひ使いたいです。港から旧市街まで回りたい。</p><div><span>いいね 24</span> <span>返信</span></div></div></article><article role="article" aria-posinset="21" aria-setsize="120" class="gaf-feed-post gaf-feed-post-21"><div><div><span>まちの声</span> <time datetime="2026-11-10T22:00:00.000Z">11月10日 22:00</time></div><p>ステーションを増やすより、いまある場所の台数を増やしてほしい。朝の駅前はいつも空っぽです。</p><div><span>いいね 33</span> <span>返信</span></div></div></article><article role="article" aria-posinset="22" aria-setsize="120" class="gaf-feed-post gaf-feed-post-22"><div><div><span>市役所近く在勤</span> <time datetime="2026-11-10T22:54:00.000Z">11月10日 22:54</time> <span>↳ まちの声</span></div><p>逆に夕方は駅前が満車で返せないこともありますね。台数の偏りを何とかしてほしい。</p><div><span>いいね 18</span> <span>返信</span></div></div></article><article role="article" aria-posinset="23" aria-setsize="120" class="gaf-feed-post gaf-feed-post-23"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-10T23:19:00.000Z">11月10日 23:19</time> <span>↳ まちの声</span></div><p>朝夕の偏りは把握しています。4月からはトラックでの再配置を朝6時台にも行う予定です。</p><div><span>いいね 12</span> <span>返信</span></div></div></article><article role="article" aria-posinset="24" aria-setsize="120" class="gaf-feed-post gaf-feed-post-24"><div><div><span>介護職のM</span> <time datetime="2026-11-10T23:53:00.000Z">11月10日 23:53</time></div><p>訪問介護の移動に使っています。電動になれば坂の上のお宅にも汗だくにならずに行けるので助かります。</p><div><span>いいね 28</span> <span>返信</span></div></div></article><article role="article" aria-posinset="25" aria-setsize="120" class="gaf-feed-post gaf-feed-post-25"><div><div><span>雨の日も自転車</span> <time datetime="2026-11-11T00:18:00.000Z">11月11日 00:18</time></div><p>雨の日用に、ステーションに屋根を付けてもらえませんか。サドルがいつも濡れています。</p><div><span>いいね 21</span> <span>返信</span></div></div></article><article role="article" aria-posinset="26" aria-setsize="120" class="gaf-feed-post gaf-feed-post-26"><div><div><span>旧市街の人</span> <time datetime="2026-11-11T01:12:00.000Z">11月11日 01:12</time></div><p>旧市街の細い道に電動自転車が増えるとスピードが出て危ない気がします。歩行者優先の区間は押して歩くルールを作ってほしい。</p><div><span>いいね 38</span> <span>返信</span></div></div></article><article role="article" aria-posinset="27" aria-setsize="120" class="gaf-feed-post gaf-feed-post-27"><div><div><span>節約主婦</span> <time datetime="2026-11-11T01:37:00.000Z">11月11日 01:37</time> <span>↳ 旧市街の人</span></div><p>電動でも速度は24キロまでしかアシストされませんよ。危ないのは乗る人のマナーの問題では。</p><div><span>いいね 39</span> <span>返信</span></div></div></article><article role="article" aria-posinset="28" aria-setsize="120" class="gaf-feed-post gaf-feed-post-28"><div><div><span>シニアの散歩</span> <time datetime="2026-11-11T02:11:00.000Z">11月11日 02:11</time> <span>↳ 旧市街の人</span></div><p>散歩していると、確かに後ろから静かに来る自転車にひやっとします。ベルを鳴らしてほしい。</p><div><span>いいね 16</span> <span>返信</span></div></div></article><article role="article" aria-posinset="29" aria-setsize="120" class="gaf-feed-post gaf-feed-post-29"><div><div><span>かずま</span> <time datetime="2026-11-11T03:05:00.000Z">11月11日 03:05</time></div><p>学生パスは大学生だけですか？高校生や専門学校生も入りますか？</p><div><span>いいね 25</span> <span>返信</span></div></div></article><article role="article" aria-posinset="30" aria-setsize="120" class="gaf-feed-post gaf-feed-post-30"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-11T03:38:00.000Z">11月11日 03:38</time> <span>↳ かずま</span></div><p>学生パスは、高校生・専門学校生・大学生・大学院生が対象です。お申し込みの際に学生証の画像を登録していただきます。</p><div><span>いいね 4</span> <span>返信</span></div></div></article><article role="article" aria-posinset="31" aria-setsize="120" class="gaf-feed-post gaf-feed-post-31"><div><div><span>高校教員</span> <time datetime="2026-11-11T04:27:00.000Z">11月11日 04:27</time> <span>↳ かずま</span></div><p>高校生も入るのはいいですね。部活の帰りが遅い生徒が多いので、夜も使えるのは安心材料です。</p><div><span>いいね 18</span> <span>返信</span></div></div></article><article role="article" aria-posinset="32" aria-setsize="120" class="gaf-feed-post gaf-feed-post-32"><div><div><span>物流おじさん</span> <time datetime="2026-11-11T04:47:00.000Z">11月11日 04:47</time></div><p>料金を上げる理由の説明がほとんどありません。電気代なのか、人件費なのか、数字で示してほしいです。</p><div><span>いいね 1</span> <span>返信</span></div></div></article><article role="article" aria-posinset="33" aria-setsize="120" class="gaf-feed-post gaf-feed-post-33"><div><div><span>もりした</span> <time datetime="2026-11-11T05:36:00.000Z">11月11日 05:36</time> <span>↳ 物流おじさん</span></div><p>本当にそう。値上げ自体よりも、理由が書いていないことのほうが気になります。</p><div><span>いいね 24</span> <span>返信</span></div></div></article><article role="article" aria-posinset="34" aria-setsize="120" class="gaf-feed-post gaf-feed-post-34"><div><div><span>ハルカ</span> <time datetime="2026-11-11T05:56:00.000Z">11月11日 05:56</time></div><p>車を手放してバイクシェアに切り替えたので、ステーションが増えるのは大歓迎です。</p><div><span>いいね 7</span> <span>返信</span></div></div></article><article role="article" aria-posinset="35" aria-setsize="120" class="gaf-feed-post gaf-feed-post-35"><div><div><span>港南の新住民</span> <time datetime="2026-11-11T06:45:00.000Z">11月11日 06:45</time></div><p>港南に引っ越してきたばかりです。港南のステーションは海側ですか、それとも新しいマンションのあたりですか？</p><div><span>いいね 38</span> <span>返信</span></div></div></article><article role="article" aria-posinset="36" aria-setsize="120" class="gaf-feed-post gaf-feed-post-36"><div><div><span>町内会の役員</span> <time datetime="2026-11-11T07:05:00.000Z">11月11日 07:05</time> <span>↳ 港南の新住民</span></div><p>町内会で聞いた話では、港南公園の入口あたりになるそうです。正式な発表はまだのようですが。</p><div><span>いいね 5</span> <span>返信</span></div></div></article><article role="article" aria-posinset="37" aria-setsize="120" class="gaf-feed-post gaf-feed-post-37"><div><div><span>カフェ店主</span> <time datetime="2026-11-11T07:54:00.000Z">11月11日 07:54</time></div><p>店の前にステーションができてから、お客さんが少し増えました。新しい場所の近くのお店も喜ぶと思います。</p><div><span>いいね 44</span> <span>返信</span></div></div></article><article role="article" aria-posinset="38" aria-setsize="120" class="gaf-feed-post gaf-feed-post-38"><div><div><span>なつみ</span> <time datetime="2026-11-11T08:43:00.000Z">11月11日 08:43</time></div><p>アプリでステーションの空き台数がもっと正確に分かるようにしてほしいです。表示は3台なのに行くと0台のことがあります。</p><div><span>いいね 11</span> <span>返信</span></div></div></article><article role="article" aria-posinset="39" aria-setsize="120" class="gaf-feed-post gaf-feed-post-39"><div><div><span>ゆうと</span> <time datetime="2026-11-11T09:03:00.000Z">11月11日 09:03</time> <span>↳ なつみ</span></div><p>それ、よくあります。せめて何分前の情報なのか表示してほしい。</p><div><span>いいね 42</span> <span>返信</span></div></div></article><article role="article" aria-posinset="40" aria-setsize="120" class="gaf-feed-post gaf-feed-post-40"><div><div><span>電動派</span> <time datetime="2026-11-11T09:55:00.000Z">11月11日 09:55</time></div><p>電動は一度乗ると戻れません。150台では足りないくらいだと思うので、ぜひ増やしていってください。</p><div><span>いいね 10</span> <span>返信</span></div></div></article><article role="article" aria-posinset="41" aria-setsize="120" class="gaf-feed-post gaf-feed-post-41"><div><div><span>まさひろ</span> <time datetime="2026-11-11T10:20:00.000Z">11月11日 10:20</time></div><p>月額パスを2,200円にするなら、1回あたりの時間を30分から45分に延ばしてほしい。いまのままだと割に合わない。</p><div><span>いいね 43</span> <span>返信</span></div></div></article><article role="article" aria-posinset="42" aria-setsize="120" class="gaf-feed-post gaf-feed-post-42"><div><div><span>病院勤務</span> <time datetime="2026-11-11T11:04:00.000Z">11月11日 11:04</time></div><p>市立病院前に置いてくれるのは本当にありがたいです。夜勤の職員はバスがない時間に帰ることも多いので。</p><div><span>いいね 0</span> <span>返信</span></div></div></article><article role="article" aria-posinset="43" aria-setsize="120" class="gaf-feed-post gaf-feed-post-43"><div><div><span>はなこ</span> <time datetime="2026-11-11T11:29:00.000Z">11月11日 11:29</time></div><p>賛成ですが、電動車のバッテリーが切れていたらどうなるのでしょう。重くて普通の自転車よりつらいのでは。</p><div><span>いいね 9</span> <span>返信</span></div></div></article><article role="article" aria-posinset="44" aria-setsize="120" class="gaf-feed-post gaf-feed-post-44"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-11T12:13:00.000Z">11月11日 12:13</time> <span>↳ はなこ</span></div><p>アプリで電池の残りを確認してから借りられるようにします。残りが少ない車両は貸し出しを止め、毎日交換します。</p><div><span>いいね 5</span> <span>返信</span></div></div></article><article role="article" aria-posinset="45" aria-setsize="120" class="gaf-feed-post gaf-feed-post-45"><div><div><span>はなこ</span> <time datetime="2026-11-11T12:38:00.000Z">11月11日 12:38</time> <span>↳ はなこ</span></div><p>残りが見られるなら安心です。ありがとうございます。</p><div><span>いいね 47</span> <span>返信</span></div></div></article><article role="article" aria-posinset="46" aria-setsize="120" class="gaf-feed-post gaf-feed-post-46"><div><div><span>ランニング好き</span> <time datetime="2026-11-11T13:22:00.000Z">11月11日 13:22</time></div><p>歩道を走る自転車が増えないか心配です。ステーションを増やすなら、自転車レーンの整備も一緒に進めてほしい。</p><div><span>いいね 36</span> <span>返信</span></div></div></article><article role="article" aria-posinset="47" aria-setsize="120" class="gaf-feed-post gaf-feed-post-47"><div><div><span>あさみ</span> <time datetime="2026-11-11T14:16:00.000Z">11月11日 14:16</time> <span>↳ ランニング好き</span></div><p>通勤ルートの港通りだけでも、車道に自転車レーンを引いてもらえると走りやすくなります。</p><div><span>いいね 45</span> <span>返信</span></div></div></article><article role="article" aria-posinset="48" aria-setsize="120" class="gaf-feed-post gaf-feed-post-48"><div><div><span>えりか</span> <time datetime="2026-11-11T14:42:00.000Z">11月11日 14:42</time></div><p>月額パスの値上げは、いま契約している人にも4月から適用されますか？</p><div><span>いいね 2</span> <span>返信</span></div></div></article><article role="article" aria-posinset="49" aria-setsize="120" class="gaf-feed-post gaf-feed-post-49"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-11T15:07:00.000Z">11月11日 15:07</time> <span>↳ えりか</span></div><p>いまご契約中の方も、4月分の月額パスから新料金になります。3月中にお支払い済みの分は旧料金のままです。</p><div><span>いいね 12</span> <span>返信</span></div></div></article><article role="article" aria-posinset="50" aria-setsize="120" class="gaf-feed-post gaf-feed-post-50"><div><div><span>古い自転車好き</span> <time datetime="2026-11-11T15:43:00.000Z">11月11日 15:43</time></div><p>電動車は重いので、背の低い人や高齢者には扱いにくいです。普通の自転車も減らさずに残してほしい。</p><div><span>いいね 21</span> <span>返信</span></div></div></article><article role="article" aria-posinset="51" aria-setsize="120" class="gaf-feed-post gaf-feed-post-51"><div><div><span>シニアの散歩</span> <time datetime="2026-11-11T16:32:00.000Z">11月11日 16:32</time> <span>↳ 古い自転車好き</span></div><p>70代ですが、電動は走り出しが急で少し怖いです。普通の自転車がなくならないか心配しています。</p><div><span>いいね 12</span> <span>返信</span></div></div></article><article role="article" aria-posinset="52" aria-setsize="120" class="gaf-feed-post gaf-feed-post-52"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-11T17:02:00.000Z">11月11日 17:02</time> <span>↳ 古い自転車好き</span></div><p>普通の自転車の台数は減らしません。電動車は150台を追加する形です。</p><div><span>いいね 4</span> <span>返信</span></div></div></article><article role="article" aria-posinset="53" aria-setsize="120" class="gaf-feed-post gaf-feed-post-53"><div><div><span>子育て中のパパ</span> <time datetime="2026-11-11T17:51:00.000Z">11月11日 17:51</time></div><p>休日に子どもと海辺まで行くのに使っています。ステーションが増えれば行ける場所が広がりますね。</p><div><span>いいね 6</span> <span>返信</span></div></div></article><article role="article" aria-posinset="54" aria-setsize="120" class="gaf-feed-post gaf-feed-post-54"><div><div><span>しんご</span> <time datetime="2026-11-11T18:21:00.000Z">11月11日 18:21</time></div><p>ヘルメットの貸し出しもしてほしいです。努力義務になってから、持っていない日は乗るのをためらいます。</p><div><span>いいね 17</span> <span>返信</span></div></div></article><article role="article" aria-posinset="55" aria-setsize="120" class="gaf-feed-post gaf-feed-post-55"><div><div><span>ぱんだ母さん</span> <time datetime="2026-11-11T19:10:00.000Z">11月11日 19:10</time> <span>↳ しんご</span></div><p>共用のヘルメットは衛生面が気になります。使い捨てのインナーキャップがあればいいかも。</p><div><span>いいね 24</span> <span>返信</span></div></div></article><article role="article" aria-posinset="56" aria-setsize="120" class="gaf-feed-post gaf-feed-post-56"><div><div><span>車いすユーザーの家族</span> <time datetime="2026-11-11T19:40:00.000Z">11月11日 19:40</time></div><p>家族が車いすを使っています。ステーションの近くに段差があると近づけないので、新しい場所は段差のない所にしてほしいです。</p><div><span>いいね 19</span> <span>返信</span></div></div></article><article role="article" aria-posinset="57" aria-setsize="120" class="gaf-feed-post gaf-feed-post-57"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-11T20:29:00.000Z">11月11日 20:29</time> <span>↳ 車いすユーザーの家族</span></div><p>貴重なご意見ありがとうございます。新しいステーションは歩道の幅と段差を確認したうえで場所を決めます。</p><div><span>いいね 21</span> <span>返信</span></div></div></article><article role="article" aria-posinset="58" aria-setsize="120" class="gaf-feed-post gaf-feed-post-58"><div><div><span>夜型人間</span> <time datetime="2026-11-11T20:48:00.000Z">11月11日 20:48</time></div><p>夜型なので深夜に乗れるのは純粋にうれしい。夜の港通りは車も少なくて気持ちいいです。</p><div><span>いいね 45</span> <span>返信</span></div></div></article><article role="article" aria-posinset="59" aria-setsize="120" class="gaf-feed-post gaf-feed-post-59"><div><div><span>ひかる</span> <time datetime="2026-11-11T21:37:00.000Z">11月11日 21:37</time></div><p>正直、税金を使うならバスの本数を増やすほうが先だと思います。自転車に乗れない人もいるので。</p><div><span>いいね 20</span> <span>返信</span></div></div></article><article role="article" aria-posinset="60" aria-setsize="120" class="gaf-feed-post gaf-feed-post-60"><div><div><span>まちの声</span> <time datetime="2026-11-11T22:00:00.000Z">11月11日 22:00</time> <span>↳ ひかる</span></div><p>バイクシェアは市の直営ですか？運営会社の負担なのか、税金なのかがよく分かりません。</p><div><span>いいね 4</span> <span>返信</span></div></div></article><article role="article" aria-posinset="61" aria-setsize="120" class="gaf-feed-post gaf-feed-post-61"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-11T22:54:00.000Z">11月11日 22:54</time> <span>↳ ひかる</span></div><p>運営は市の委託事業で、費用の約6割を利用料金、残りを市の交通予算でまかなっています。内訳は3月に公開します。</p><div><span>いいね 22</span> <span>返信</span></div></div></article><article role="article" aria-posinset="62" aria-setsize="120" class="gaf-feed-post gaf-feed-post-62"><div><div><span>坂の下の住人</span> <time datetime="2026-11-11T23:19:00.000Z">11月11日 23:19</time></div><p>坂の下に住んでいて、帰りの上り坂がずっと憂うつでした。電動が近くのステーションに来たらうれしいです。</p><div><span>いいね 46</span> <span>返信</span></div></div></article><article role="article" aria-posinset="63" aria-setsize="120" class="gaf-feed-post gaf-feed-post-63"><div><div><span>通勤30分</span> <time datetime="2026-11-11T23:44:00.000Z">11月11日 23:44</time></div><p>通勤で毎日使っています。24時間化はいいけど、30分を超えると一気に高くなるので、信号待ちが多い日はひやひやします。</p><div><span>いいね 15</span> <span>返信</span></div></div></article><article role="article" aria-posinset="64" aria-setsize="120" class="gaf-feed-post gaf-feed-post-64"><div><div><span>大学職員</span> <time datetime="2026-11-12T00:38:00.000Z">11月12日 00:38</time></div><p>大学のキャンパス内にもステーションを置く予定はありますか？構内が広いので、学生も職員も使うと思います。</p><div><span>いいね 0</span> <span>返信</span></div></div></article><article role="article" aria-posinset="65" aria-setsize="120" class="gaf-feed-post gaf-feed-post-65"><div><div><span>大学3年 さとう</span> <time datetime="2026-11-12T01:03:00.000Z">11月12日 01:03</time> <span>↳ 大学職員</span></div><p>キャンパスにあったら絶対に使います。講義棟から図書館まで歩くと10分かかるので。</p><div><span>いいね 9</span> <span>返信</span></div></div></article><article role="article" aria-posinset="66" aria-setsize="120" class="gaf-feed-post gaf-feed-post-66"><div><div><span>りょう</span> <time datetime="2026-11-12T01:57:00.000Z">11月12日 01:57</time></div><p>北口への移設は1年だけと書いてありますが、工事が延びたらそのままになりそう。期限を守ってほしいです。</p><div><span>いいね 26</span> <span>返信</span></div></div></article><article role="article" aria-posinset="67" aria-setsize="120" class="gaf-feed-post gaf-feed-post-67"><div><div><span>ちひろ</span> <time datetime="2026-11-12T02:22:00.000Z">11月12日 02:22</time></div><p>車の運転が苦手なので、バイクシェアが広がるのは心強いです。買い物の行き帰りに使っています。</p><div><span>いいね 11</span> <span>返信</span></div></div></article><article role="article" aria-posinset="68" aria-setsize="120" class="gaf-feed-post gaf-feed-post-68"><div><div><span>フードデリバリー</span> <time datetime="2026-11-12T03:16:00.000Z">11月12日 03:16</time></div><p>配達の仕事で使ってもいいのでしょうか。荷台付きの自転車があれば仕事でも使いたいです。</p><div><span>いいね 28</span> <span>返信</span></div></div></article><article role="article" aria-posinset="69" aria-setsize="120" class="gaf-feed-post gaf-feed-post-69"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-12T03:41:00.000Z">11月12日 03:41</time> <span>↳ フードデリバリー</span></div><p>現在の利用規約では、業務での長時間の利用はお控えいただいています。法人向けのプランを検討中です。</p><div><span>いいね 14</span> <span>返信</span></div></div></article><article role="article" aria-posinset="70" aria-setsize="120" class="gaf-feed-post gaf-feed-post-70"><div><div><span>物流おじさん</span> <time datetime="2026-11-12T04:03:00.000Z">11月12日 04:03</time> <span>↳ フードデリバリー</span></div><p>法人プランができたら、うちの会社でも短い距離の配送に使いたいです。</p><div><span>いいね 31</span> <span>返信</span></div></div></article><article role="article" aria-posinset="71" aria-setsize="120" class="gaf-feed-post gaf-feed-post-71"><div><div><span>けいこ</span> <time datetime="2026-11-12T04:52:00.000Z">11月12日 04:52</time></div><p>ステーションが家の前の歩道にできると聞きました。夜中に出入りがあるとうるさいので、住宅地のど真ん中は避けてほしい。</p><div><span>いいね 46</span> <span>返信</span></div></div></article><article role="article" aria-posinset="72" aria-setsize="120" class="gaf-feed-post gaf-feed-post-72"><div><div><span>町内会の役員</span> <time datetime="2026-11-12T05:41:00.000Z">11月12日 05:41</time> <span>↳ けいこ</span></div><p>設置場所の説明会はあるのでしょうか。町内会としても事前に話を聞きたいです。</p><div><span>いいね 29</span> <span>返信</span></div></div></article><article role="article" aria-posinset="73" aria-setsize="120" class="gaf-feed-post gaf-feed-post-73"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-12T06:01:00.000Z">11月12日 06:01</time> <span>↳ けいこ</span></div><p>設置予定地の周辺では、1月に地区ごとの説明会を開きます。日程は市のお知らせでご案内します。</p><div><span>いいね 15</span> <span>返信</span></div></div></article><article role="article" aria-posinset="74" aria-setsize="120" class="gaf-feed-post gaf-feed-post-74"><div><div><span>海辺の散歩人</span> <time datetime="2026-11-12T06:41:00.000Z">11月12日 06:41</time></div><p>海辺の遊歩道沿いにもステーションを増やしてほしかったので、港南の追加は期待しています。</p><div><span>いいね 43</span> <span>返信</span></div></div></article><article role="article" aria-posinset="75" aria-setsize="120" class="gaf-feed-post gaf-feed-post-75"><div><div><span>ともや</span> <time datetime="2026-11-12T07:30:00.000Z">11月12日 07:30</time></div><p>スマホを持っていない人でも、交通系のICカードで借りられるようにしてほしいです。親が使いたがっています。</p><div><span>いいね 26</span> <span>返信</span></div></div></article><article role="article" aria-posinset="76" aria-setsize="120" class="gaf-feed-post gaf-feed-post-76"><div><div><span>シニアの散歩</span> <time datetime="2026-11-12T07:50:00.000Z">11月12日 07:50</time> <span>↳ ともや</span></div><p>まさにそれです。アプリの登録が難しくて、孫に頼まないと使えません。</p><div><span>いいね 25</span> <span>返信</span></div></div></article><article role="article" aria-posinset="77" aria-setsize="120" class="gaf-feed-post gaf-feed-post-77"><div><div><span>環境サークル</span> <time datetime="2026-11-12T08:39:00.000Z">11月12日 08:39</time></div><p>車の利用が減れば港周辺の渋滞も少しは良くなるはず。環境の面でも良い取り組みだと思います。</p><div><span>いいね 0</span> <span>返信</span></div></div></article><article role="article" aria-posinset="78" aria-setsize="120" class="gaf-feed-post gaf-feed-post-78"><div><div><span>まゆ</span> <time datetime="2026-11-12T09:19:00.000Z">11月12日 09:19</time></div><p>学生パスとふつうの月額パスで、使える自転車や時間に違いはありますか？</p><div><span>いいね 39</span> <span>返信</span></div></div></article><article role="article" aria-posinset="79" aria-setsize="120" class="gaf-feed-post gaf-feed-post-79"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-12T09:39:00.000Z">11月12日 09:39</time> <span>↳ まゆ</span></div><p>違いはありません。学生パスでも電動アシスト車を含むすべての自転車を、24時間ご利用いただけます。</p><div><span>いいね 5</span> <span>返信</span></div></div></article><article role="article" aria-posinset="80" aria-setsize="120" class="gaf-feed-post gaf-feed-post-80"><div><div><span>ペーパードライバー</span> <time datetime="2026-11-12T10:24:00.000Z">11月12日 10:24</time></div><p>運転免許を持っていないので移動手段が増えるのは助かります。ただ、初めての人向けに乗り方の講習会もあるといいですね。</p><div><span>いいね 38</span> <span>返信</span></div></div></article><article role="article" aria-posinset="81" aria-setsize="120" class="gaf-feed-post gaf-feed-post-81"><div><div><span>そうた</span> <time datetime="2026-11-12T11:18:00.000Z">11月12日 11:18</time></div><p>電動車は盗まれたりバッテリーを抜かれたりしないのか心配です。他の街ではそういう話も聞きます。</p><div><span>いいね 39</span> <span>返信</span></div></div></article><article role="article" aria-posinset="82" aria-setsize="120" class="gaf-feed-post gaf-feed-post-82"><div><div><span>電動派</span> <time datetime="2026-11-12T11:33:00.000Z">11月12日 11:33</time> <span>↳ そうた</span></div><p>バッテリーは鍵付きのはずですが、どうなんでしょう。運営さんに答えてほしいです。</p><div><span>いいね 44</span> <span>返信</span></div></div></article><article role="article" aria-posinset="83" aria-setsize="120" class="gaf-feed-post gaf-feed-post-83"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-12T12:27:00.000Z">11月12日 12:27</time> <span>↳ そうた</span></div><p>電動車のバッテリーは専用の工具がないと外せない作りで、すべての車両に位置情報の端末を付けています。</p><div><span>いいね 10</span> <span>返信</span></div></div></article><article role="article" aria-posinset="84" aria-setsize="120" class="gaf-feed-post gaf-feed-post-84"><div><div><span>港町のりこ</span> <time datetime="2026-11-12T13:02:00.000Z">11月12日 13:02</time></div><p>丘の上地区の中でも、図書館の前にぜひ1か所お願いしたいです。上りきった所にあると本当に便利。</p><div><span>いいね 34</span> <span>返信</span></div></div></article><article role="article" aria-posinset="85" aria-setsize="120" class="gaf-feed-post gaf-feed-post-85"><div><div><span>たなか けんじ</span> <time datetime="2026-11-12T13:27:00.000Z">11月12日 13:27</time></div><p>値上げと同時に台数を増やしても、壊れたまま放置される自転車が増えるだけでは。まずは整備の体制を見直してほしい。</p><div><span>いいね 3</span> <span>返信</span></div></div></article><article role="article" aria-posinset="86" aria-setsize="120" class="gaf-feed-post gaf-feed-post-86"><div><div><span>みなと通勤族</span> <time datetime="2026-11-12T14:11:00.000Z">11月12日 14:11</time></div><p>港通りを毎朝走っていますが、去年より整備がよくなった気がします。この調子で続けてほしいです。</p><div><span>いいね 40</span> <span>返信</span></div></div></article><article role="article" aria-posinset="87" aria-setsize="120" class="gaf-feed-post gaf-feed-post-87"><div><div><span>坂道ランナー</span> <time datetime="2026-11-12T14:36:00.000Z">11月12日 14:36</time></div><p>30分を少し超えた場合、たとえば31分だと360円になるのでしょうか？数分の延長だけ安くする仕組みはありますか。</p><div><span>いいね 1</span> <span>返信</span></div></div></article><article role="article" aria-posinset="88" aria-setsize="120" class="gaf-feed-post gaf-feed-post-88"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-12T15:29:00.000Z">11月12日 15:29</time> <span>↳ 坂道ランナー</span></div><p>31分の場合は360円になります。返却するステーションが満車のときは、アプリから15分の延長を無料で申請できます。</p><div><span>いいね 17</span> <span>返信</span></div></div></article><article role="article" aria-posinset="89" aria-setsize="120" class="gaf-feed-post gaf-feed-post-89"><div><div><span>坂道ランナー</span> <time datetime="2026-11-12T15:54:00.000Z">11月12日 15:54</time> <span>↳ 坂道ランナー</span></div><p>満車のときの延長があるのは知りませんでした。でも、やはり超過料金はもう少し細かく刻んでほしいです。</p><div><span>いいね 31</span> <span>返信</span></div></div></article><article role="article" aria-posinset="90" aria-setsize="120" class="gaf-feed-post gaf-feed-post-90"><div><div><span>ゆきの</span> <time datetime="2026-11-12T16:27:00.000Z">11月12日 16:27</time></div><p>ステーションが増えれば、駅から少し離れた保育園にも自転車で行けるようになります。楽しみにしています。</p><div><span>いいね 1</span> <span>返信</span></div></div></article><article role="article" aria-posinset="91" aria-setsize="120" class="gaf-feed-post gaf-feed-post-91"><div><div><span>サイクル親父</span> <time datetime="2026-11-12T17:16:00.000Z">11月12日 17:16</time></div><p>長く使ってきた者として言うと、新しい自転車はありがたいけど、古い自転車のブレーキも早めに直してほしい。</p><div><span>いいね 24</span> <span>返信</span></div></div></article><article role="article" aria-posinset="92" aria-setsize="120" class="gaf-feed-post gaf-feed-post-92"><div><div><span>もりした</span> <time datetime="2026-11-12T17:46:00.000Z">11月12日 17:46</time></div><p>お知らせの最後に、意見の送り先としてこのコメント欄以外の窓口も書いてください。ネットを使わない人の声も聞いてほしいです。</p><div><span>いいね 19</span> <span>返信</span></div></div></article><article role="article" aria-posinset="93" aria-setsize="120" class="gaf-feed-post gaf-feed-post-93"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-12T18:35:00.000Z">11月12日 18:35</time> <span>↳ もりした</span></div><p>ご指摘ありがとうございます。市役所1階の交通政策課の窓口と郵送でも受け付けています。記事に追記します。</p><div><span>いいね 17</span> <span>返信</span></div></div></article><article role="article" aria-posinset="94" aria-setsize="120" class="gaf-feed-post gaf-feed-post-94"><div><div><span>あおい</span> <time datetime="2026-11-12T19:14:00.000Z">11月12日 19:14</time></div><p>夜の飲み会のあと、歩いて帰るには遠くてタクシーは高い…という時に使えるのは便利。もちろん飲んだら乗りませんが。</p><div><span>いいね 21</span> <span>返信</span></div></div></article><article role="article" aria-posinset="95" aria-setsize="120" class="gaf-feed-post gaf-feed-post-95"><div><div><span>ハーバー太郎</span> <time datetime="2026-11-12T19:34:00.000Z">11月12日 19:34</time> <span>↳ あおい</span></div><p>飲酒運転は自転車でも違反ですよね。夜間に増えないように注意書きを大きく出してほしい。</p><div><span>いいね 12</span> <span>返信</span></div></div></article><article role="article" aria-posinset="96" aria-setsize="120" class="gaf-feed-post gaf-feed-post-96"><div><div><span>介護職のM</span> <time datetime="2026-11-12T20:33:00.000Z">11月12日 20:33</time></div><p>電動車は前のかごに何キロまで載せられますか？訪問のときに荷物が多いので知りたいです。</p><div><span>いいね 7</span> <span>返信</span></div></div></article><article role="article" aria-posinset="97" aria-setsize="120" class="gaf-feed-post gaf-feed-post-97"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-12T20:53:00.000Z">11月12日 20:53</time> <span>↳ 介護職のM</span></div><p>前かごは5キロまでです。後ろの荷台は付いていませんが、法人向けプランでは荷台付きの車両を検討しています。</p><div><span>いいね 21</span> <span>返信</span></div></div></article><article role="article" aria-posinset="98" aria-setsize="120" class="gaf-feed-post gaf-feed-post-98"><div><div><span>かずま</span> <time datetime="2026-11-12T21:32:00.000Z">11月12日 21:32</time></div><p>学生パスがあるのはいいけど、社会人1年目も給料が少ないので、若者向けの割引という形にしてほしかった。</p><div><span>いいね 41</span> <span>返信</span></div></div></article><article role="article" aria-posinset="99" aria-setsize="120" class="gaf-feed-post gaf-feed-post-99"><div><div><span>ハルカ</span> <time datetime="2026-11-12T22:21:00.000Z">11月12日 22:21</time></div><p>旧市街から港南まで、坂を避けて走れるルートの地図もアプリに入れてくれたらうれしいです。</p><div><span>いいね 16</span> <span>返信</span></div></div></article><article role="article" aria-posinset="100" aria-setsize="120" class="gaf-feed-post gaf-feed-post-100"><div><div><span>観光で来た者</span> <time datetime="2026-11-12T23:01:00.000Z">11月12日 23:01</time></div><p>観光案内所の近くにステーションがあると助かります。英語の説明もあると海外のお客さんも使いやすいと思います。</p><div><span>いいね 23</span> <span>返信</span></div></div></article><article role="article" aria-posinset="101" aria-setsize="120" class="gaf-feed-post gaf-feed-post-101"><div><div><span>カフェ店主</span> <time datetime="2026-11-12T23:21:00.000Z">11月12日 23:21</time> <span>↳ 観光で来た者</span></div><p>うちの店にも海外のお客さんがよく来るので、英語の案内は大賛成です。</p><div><span>いいね 22</span> <span>返信</span></div></div></article><article role="article" aria-posinset="102" aria-setsize="120" class="gaf-feed-post gaf-feed-post-102"><div><div><span>高校教員</span> <time datetime="2026-11-13T00:10:00.000Z">11月13日 00:10</time></div><p>学校の行事で生徒をまとめて利用させることはできますか？校外学習で旧市街を回るのに使えたらと思っています。</p><div><span>いいね 21</span> <span>返信</span></div></div></article><article role="article" aria-posinset="103" aria-setsize="120" class="gaf-feed-post gaf-feed-post-103"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-13T00:30:00.000Z">11月13日 00:30</time> <span>↳ 高校教員</span></div><p>団体でのご利用は事前の予約で承ります。台数に限りがあるため、2週間前までにご相談ください。</p><div><span>いいね 11</span> <span>返信</span></div></div></article><article role="article" aria-posinset="104" aria-setsize="120" class="gaf-feed-post gaf-feed-post-104"><div><div><span>節約主婦</span> <time datetime="2026-11-13T01:10:00.000Z">11月13日 01:10</time></div><p>電動車が入るなら、いまの月額パスでも十分元が取れます。値上げ分くらいは仕方ないかな。</p><div><span>いいね 19</span> <span>返信</span></div></div></article><article role="article" aria-posinset="105" aria-setsize="120" class="gaf-feed-post gaf-feed-post-105"><div><div><span>まさひろ</span> <time datetime="2026-11-13T01:59:00.000Z">11月13日 01:59</time></div><p>料金の比較表がほしいです。いまと4月以降でいくら変わるのか、ぱっと見て分からない。</p><div><span>いいね 34</span> <span>返信</span></div></div></article><article role="article" aria-posinset="106" aria-setsize="120" class="gaf-feed-post gaf-feed-post-106"><div><div><span>ランニング好き</span> <time datetime="2026-11-13T02:19:00.000Z">11月13日 02:19</time></div><p>朝のランニングのあとに使っています。24時間はいいけど、早朝の再配置のトラックが歩道に止まっていて走りにくいことがあります。</p><div><span>いいね 17</span> <span>返信</span></div></div></article><article role="article" aria-posinset="107" aria-setsize="120" class="gaf-feed-post gaf-feed-post-107"><div><div><span>えりか</span> <time datetime="2026-11-13T03:08:00.000Z">11月13日 03:08</time></div><p>学生のとき毎日使っていました。学生パスがあの頃あったらなあ。いい取り組みだと思います。</p><div><span>いいね 40</span> <span>返信</span></div></div></article><article role="article" aria-posinset="108" aria-setsize="120" class="gaf-feed-post gaf-feed-post-108"><div><div><span>子育て中のパパ</span> <time datetime="2026-11-13T03:37:00.000Z">11月13日 03:37</time></div><p>子どもが自分で乗れる小さいサイズの自転車も、何台か置いてもらえませんか。家族で一緒に走りたいです。</p><div><span>いいね 15</span> <span>返信</span></div></div></article><article role="article" aria-posinset="109" aria-setsize="120" class="gaf-feed-post gaf-feed-post-109"><div><div><span>けいこ</span> <time datetime="2026-11-13T04:26:00.000Z">11月13日 04:26</time> <span>↳ 子育て中のパパ</span></div><p>子どもだけで車道を走るのは危ないので、置くなら公園の中のステーションだけにしたほうがいいと思います。</p><div><span>いいね 14</span> <span>返信</span></div></div></article><article role="article" aria-posinset="110" aria-setsize="120" class="gaf-feed-post gaf-feed-post-110"><div><div><span>ひかる</span> <time datetime="2026-11-13T05:04:00.000Z">11月13日 05:04</time></div><p>2月末までの意見は、最終案にどのくらい反映されるのでしょうか。結果も公表してもらえますか？</p><div><span>いいね 44</span> <span>返信</span></div></div></article><article role="article" aria-posinset="111" aria-setsize="120" class="gaf-feed-post gaf-feed-post-111"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-13T05:29:00.000Z">11月13日 05:29</time> <span>↳ ひかる</span></div><p>いただいたご意見は項目ごとにまとめ、市の考え方とあわせて3月の交通委員会の資料として公開します。</p><div><span>いいね 22</span> <span>返信</span></div></div></article><article role="article" aria-posinset="112" aria-setsize="120" class="gaf-feed-post gaf-feed-post-112"><div><div><span>通勤30分</span> <time datetime="2026-11-13T06:23:00.000Z">11月13日 06:23</time></div><p>毎日の通勤が少し楽になりそうです。最近は満員のバスより自転車のほうが気持ちよく通えています。</p><div><span>いいね 38</span> <span>返信</span></div></div></article><article role="article" aria-posinset="113" aria-setsize="120" class="gaf-feed-post gaf-feed-post-113"><div><div><span>りょう</span> <time datetime="2026-11-13T06:48:00.000Z">11月13日 06:48</time></div><p>北口に移すなら、南口からの案内表示をしっかり出してください。初めて使う人は絶対に迷います。</p><div><span>いいね 39</span> <span>返信</span></div></div></article><article role="article" aria-posinset="114" aria-setsize="120" class="gaf-feed-post gaf-feed-post-114"><div><div><span>フードデリバリー</span> <time datetime="2026-11-13T07:13:00.000Z">11月13日 07:13</time></div><p>使う頻度は高いので値上げは痛いけど、24時間になるならトータルでは賛成です。</p><div><span>いいね 24</span> <span>返信</span></div></div></article><article role="article" aria-posinset="115" aria-setsize="120" class="gaf-feed-post gaf-feed-post-115"><div><div><span>ともや</span> <time datetime="2026-11-13T08:07:00.000Z">11月13日 08:07</time></div><p>うちの親でも乗れる電動車が近くにできたら、買い物の帰りに重い荷物を持たずに済みます。</p><div><span>いいね 33</span> <span>返信</span></div></div></article><article role="article" aria-posinset="116" aria-setsize="120" class="gaf-feed-post gaf-feed-post-116"><div><div><span>環境サークル</span> <time datetime="2026-11-13T08:32:00.000Z">11月13日 08:32</time></div><p>利用データ（何時にどこで使われているか）を公開してもらえれば、私たちのサークルでも分析してみたいです。</p><div><span>いいね 34</span> <span>返信</span></div></div></article><article role="article" aria-posinset="117" aria-setsize="120" class="gaf-feed-post gaf-feed-post-117"><div><div><span>大学職員</span> <time datetime="2026-11-13T09:26:00.000Z">11月13日 09:26</time> <span>↳ 環境サークル</span></div><p>大学の授業の題材としても良さそうです。個人が分からない形で公開されるなら賛成です。</p><div><span>いいね 3</span> <span>返信</span></div></div></article><article role="article" aria-posinset="118" aria-setsize="120" class="gaf-feed-post gaf-feed-post-118"><div><div><span>まゆ</span> <time datetime="2026-11-13T09:40:00.000Z">11月13日 09:40</time></div><p>いろいろ意見はあるけど、街の移動が便利になる方向なのは間違いないと思う。期待しています。</p><div><span>いいね 20</span> <span>返信</span></div></div></article><article role="article" aria-posinset="119" aria-setsize="120" class="gaf-feed-post gaf-feed-post-119"><div><div><span>ペーパードライバー</span> <time datetime="2026-11-13T10:34:00.000Z">11月13日 10:34</time></div><p>4月1日からすぐに全部が変わるのですか？電動車やステーションは順番に増えていくのでしょうか。</p><div><span>いいね 29</span> <span>返信</span></div></div></article><article role="article" aria-posinset="120" aria-setsize="120" class="gaf-feed-post gaf-feed-post-120"><div><div><span>ハーバー・バイクシェア運営事務局</span> <span>運営</span> <time datetime="2026-11-13T11:14:00.000Z">11月13日 11:14</time> <span>↳ ペーパードライバー</span></div><p>料金と24時間化は4月1日からです。電動車とステーションは4月から6月にかけて順番に増やしていきます。</p><div><span>いいね 18</span> <span>返信</span></div></div></article></div>
+<p aria-live="polite" id="gaf-p00001-more">すべてのコメントを表示しました</p>
+</section>
+
+</div>
+      </section>
+    
+    
+  </main>
+  <a class="gaf-toc-fab" href="#gaf-toc">目次へ戻る</a>
+  <script type="application/json" id="gaf-search-config">{"searchPlaceholder":"文書内を検索","searchHeadingsOnly":"見出しのみ","searchMatches":"{current} / {total}","searchNoMatches":"一致なし","searchTooMany":"一致が2,000件を超えています。語を絞ってください","searchPrev":"前へ","searchNext":"次へ","searchClear":"クリア","collapseAll":"すべて折りたたむ","expandAll":"すべて展開","collapsePage":"このページを折りたたむ","expandPage":"このページを展開","themeLabel":"配色","themeAuto":"自動","themeLight":"ライト","themeDark":"ダーク"}</script>
+  <script>(function () {
+  'use strict';
+  var configEl = document.getElementById('gaf-search-config');
+  var labels = {};
+  try { labels = JSON.parse(configEl.textContent) || {}; } catch (e) { labels = {}; }
+  function L(key, fallback) { return (labels && typeof labels[key] === 'string') ? labels[key] : fallback; }
+  var MAX_MARKS = 2000;
+  var hits = [];
+  var currentIndex = -1;
+  var debounceTimer = null;
+  var cappedSearch = false;
+  var searchRun = 0;
+  var lastQuery = null;
+  var lastHeadings = false;
+  var HEADINGS = { h1: 1, h2: 1, h3: 1, h4: 1, h5: 1, h6: 1 };
+  function ready(fn) {
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fn);
+    else fn();
+  }
+  function makeButton(text, title, ariaLabel) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = text;
+    if (title) b.title = title;
+    if (ariaLabel) b.setAttribute('aria-label', ariaLabel);
+    return b;
+  }
+  function fold(value) {
+    try { return value.normalize('NFKC').toLowerCase(); } catch (e) { return value.toLowerCase(); }
+  }
+  var MARK_RE = null;
+  try { MARK_RE = new RegExp('^[\\p{M}\\uFF9E\\uFF9F]$', 'u'); } catch (e) { MARK_RE = /^[\u0300-\u036F\u3099\u309A\uFF9E\uFF9F]$/; }
+  function nextCodePoint(value, i) {
+    var c = value.charCodeAt(i);
+    if (c >= 0xD800 && c <= 0xDBFF && i + 1 < value.length) {
+      var d = value.charCodeAt(i + 1);
+      if (d >= 0xDC00 && d <= 0xDFFF) return i + 2;
+    }
+    return i + 1;
+  }
+  function foldedMap(value) {
+    var norm = '';
+    var map = [];
+    var ends = [];
+    var i = 0;
+    while (i < value.length) {
+      var start = i;
+      i = nextCodePoint(value, i);
+      while (i < value.length) {
+        var after = nextCodePoint(value, i);
+        if (!MARK_RE.test(value.slice(i, after))) break;
+        i = after;
+      }
+      var piece = fold(value.slice(start, i));
+      for (var j = 0; j < piece.length; j++) { norm += piece.charAt(j); map.push(start); ends.push(i); }
+    }
+    map.push(value.length);
+    return { norm: norm, map: map, ends: ends };
+  }
+  function getPages() { return document.querySelectorAll('section.gaf-page'); }
+  function allDocs() {
+    var docs = [document];
+    var frames = document.querySelectorAll('iframe.gaf-look-frame');
+    for (var i = 0; i < frames.length; i++) {
+      try { if (frames[i].contentDocument && frames[i].contentDocument.body) docs.push(frames[i].contentDocument); } catch (e) {}
+    }
+    var hosts = document.querySelectorAll('.gaf-look-host');
+    for (var h = 0; h < hosts.length; h++) if (hosts[h].shadowRoot) docs.push(hosts[h].shadowRoot);
+    return docs;
+  }
+  function counterEl() { return document.getElementById('gaf-search-count'); }
+  function clearCounter() { var c = counterEl(); if (c) { c.textContent = ''; c.removeAttribute('title'); } }
+  function clearMarks() {
+    var docs = allDocs();
+    for (var d = 0; d < docs.length; d++) {
+      var marks = docs[d].querySelectorAll('mark.gaf-search-hit');
+      for (var i = 0; i < marks.length; i++) {
+        var mark = marks[i];
+        var parent = mark.parentNode;
+        if (!parent) continue;
+        while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
+        parent.removeChild(mark);
+        if (parent.normalize) parent.normalize();
+      }
+    }
+    hits = [];
+    currentIndex = -1;
+    cappedSearch = false;
+    lastQuery = null;
+  }
+  var INLINE = { a: 1, abbr: 1, b: 1, bdi: 1, bdo: 1, cite: 1, code: 1, data: 1, del: 1, dfn: 1, em: 1, font: 1, i: 1, ins: 1, kbd: 1, label: 1, q: 1, s: 1, samp: 1, small: 1, span: 1, strong: 1, sub: 1, sup: 1, time: 1, tt: 1, u: 1, var: 1 };
+  function collectRuns(root, headingsOnly, runs) {
+    var current = null;
+    function flush() {
+      if (current) {
+        for (var k = 0; k < current.length; k++) if (current[k].nodeValue.trim()) { runs.push(current); break; }
+      }
+      current = null;
+    }
+    function walk(node, inHeading) {
+      for (var child = node.firstChild; child; child = child.nextSibling) {
+        if (child.nodeType === 3) {
+          if (!child.nodeValue || (headingsOnly && !inHeading)) continue;
+          if (!current) current = [];
+          current.push(child);
+          continue;
+        }
+        if (child.nodeType !== 1) continue;
+        var name = child.nodeName ? child.nodeName.toLowerCase() : '';
+        if (name === 'mark' || name === 'script' || name === 'style') { flush(); continue; }
+        var inline = INLINE[name] === 1;
+        if (!inline) flush();
+        walk(child, inHeading || HEADINGS[name] === 1);
+        if (!inline) flush();
+      }
+    }
+    walk(root, false);
+    flush();
+    return runs;
+  }
+  function updateCounter() {
+    var counter = counterEl();
+    if (!counter) return;
+    if (!hits.length) { counter.textContent = L('searchNoMatches', 'No matches'); counter.removeAttribute('title'); return; }
+    var template = L('searchMatches', '{current} / {total}');
+    var current = currentIndex >= 0 ? (currentIndex + 1) : 1;
+    var total = String(hits.length) + (cappedSearch ? '+' : '');
+    counter.textContent = template.split('{current}').join(String(current)).split('{total}').join(total);
+    if (cappedSearch) counter.title = L('searchTooMany', '2,000+ matches');
+    else counter.removeAttribute('title');
+  }
+  function setToggleState(page, collapsed) {
+    var t = page.querySelector('.gaf-page-toggle');
+    if (!t) return;
+    t.textContent = collapsed ? '\u002b' : '\u2212';
+    t.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+    t.setAttribute('aria-label', collapsed ? L('expandPage', 'Expand this page') : L('collapsePage', 'Collapse this page'));
+  }
+  function setHitClass(mark, name) {
+    var parts = mark.gafParts || [mark];
+    for (var i = 0; i < parts.length; i++) parts[i].className = name;
+  }
+  function setCurrent(index) {
+    if (!hits.length) return;
+    if (currentIndex >= 0 && hits[currentIndex]) setHitClass(hits[currentIndex], 'gaf-search-hit');
+    if (index < 0) index = hits.length - 1;
+    if (index >= hits.length) index = 0;
+    currentIndex = index;
+    var mark = hits[currentIndex];
+    setHitClass(mark, 'gaf-search-hit gaf-search-current');
+    var owner = mark.ownerDocument;
+    var host = owner && owner !== document && owner.defaultView && owner.defaultView.frameElement ? owner.defaultView.frameElement : mark;
+    var shadow = host === mark && mark.getRootNode ? mark.getRootNode() : null;
+    if (shadow && shadow.host) host = shadow.host;
+    var page = host.closest ? host.closest('section.gaf-page') : null;
+    if (page && page.classList.contains('gaf-collapsed')) {
+      page.classList.remove('gaf-collapsed');
+      setToggleState(page, false);
+    }
+    if (mark.scrollIntoView) mark.scrollIntoView({ block: 'center' });
+    updateCounter();
+  }
+  function nextHit() { if (hits.length) setCurrent(currentIndex + 1); }
+  function prevHit() { if (hits.length) setCurrent(currentIndex - 1); }
+  function processNode(node, needle) {
+    if (!node.parentNode) return;
+    var value = node.nodeValue;
+    var folded = foldedMap(value);
+    var idx = folded.norm.indexOf(needle);
+    if (idx === -1) return;
+    var doc = node.ownerDocument || document;
+    var frag = doc.createDocumentFragment();
+    var last = 0;
+    while (idx !== -1) {
+      var rawStart = folded.map[idx];
+      var rawEnd = folded.ends[idx + needle.length - 1];
+      if (rawEnd <= rawStart) rawEnd = rawStart + 1;
+      if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
+      else if (rawStart < last) rawStart = last;
+      var mark = doc.createElement('mark');
+      mark.className = 'gaf-search-hit';
+      mark.textContent = value.slice(rawStart, rawEnd);
+      frag.appendChild(mark);
+      hits.push(mark);
+      last = rawEnd;
+      if (hits.length >= MAX_MARKS) { cappedSearch = true; break; }
+      idx = folded.norm.indexOf(needle, idx + needle.length);
+      while (idx !== -1 && folded.map[idx] < last) idx = folded.norm.indexOf(needle, idx + 1);
+    }
+    if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
+    node.parentNode.replaceChild(frag, node);
+  }
+  function processRun(run, needle) {
+    if (run.length === 1) { processNode(run[0], needle); return; }
+    var parts = [];
+    var norm = '';
+    for (var p = 0; p < run.length; p++) {
+      var f = foldedMap(run[p].nodeValue);
+      parts.push({ node: run[p], folded: f, start: norm.length, cuts: [] });
+      norm += f.norm;
+    }
+    var idx = norm.indexOf(needle);
+    if (idx === -1) return;
+    var groups = [];
+    while (idx !== -1) {
+      var end = idx + needle.length;
+      var group = [];
+      groups.push(group);
+      for (var r = 0; r < parts.length; r++) {
+        var part = parts[r];
+        var partEnd = part.start + part.folded.norm.length;
+        if (partEnd <= idx || part.start >= end) continue;
+        var from = Math.max(idx, part.start) - part.start;
+        var to = Math.min(end, partEnd) - part.start;
+        part.cuts.push({ rawStart: part.folded.map[from], rawEnd: part.folded.ends[to - 1], group: group });
+      }
+      if (hits.length + groups.length >= MAX_MARKS) { cappedSearch = true; break; }
+      idx = norm.indexOf(needle, end);
+    }
+    for (var s = 0; s < parts.length; s++) {
+      var node = parts[s].node;
+      if (!parts[s].cuts.length || !node.parentNode) continue;
+      var value = node.nodeValue;
+      var doc = node.ownerDocument || document;
+      var frag = doc.createDocumentFragment();
+      var last = 0;
+      for (var t = 0; t < parts[s].cuts.length; t++) {
+        var cut = parts[s].cuts[t];
+        var rawStart = cut.rawStart < last ? last : cut.rawStart;
+        if (cut.rawEnd <= rawStart) continue;
+        if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
+        var mark = doc.createElement('mark');
+        mark.className = 'gaf-search-hit';
+        mark.textContent = value.slice(rawStart, cut.rawEnd);
+        frag.appendChild(mark);
+        cut.group.push(mark);
+        last = cut.rawEnd;
+      }
+      if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    }
+    for (var g = 0; g < groups.length; g++) {
+      if (!groups[g].length) continue;
+      groups[g][0].gafParts = groups[g];
+      hits.push(groups[g][0]);
+    }
+  }
+  function highlight(query, headingsOnly) {
+    var needle = fold(query || '').replace(/^\s+|\s+$/g, '');
+    if (needle === lastQuery && headingsOnly === lastHeadings) return;
+    searchRun += 1;
+    var runId = searchRun;
+    clearMarks();
+    if (!needle || needle.length < 2) { clearCounter(); lastQuery = needle || null; lastHeadings = headingsOnly; return; }
+    lastQuery = needle;
+    lastHeadings = headingsOnly;
+    var pages = getPages();
+    var nodes = [];
+    for (var pi = 0; pi < pages.length; pi++) {
+      collectRuns(pages[pi], headingsOnly, nodes);
+      var pageFrames = pages[pi].querySelectorAll('iframe.gaf-look-frame');
+      for (var fi = 0; fi < pageFrames.length; fi++) {
+        var frameDoc = null;
+        try { frameDoc = pageFrames[fi].contentDocument; } catch (e) { frameDoc = null; }
+        if (!frameDoc || !frameDoc.body) continue;
+        collectRuns(frameDoc.body, headingsOnly, nodes);
+      }
+      var pageHosts = pages[pi].querySelectorAll('.gaf-look-host');
+      for (var hi = 0; hi < pageHosts.length; hi++) {
+        if (!pageHosts[hi].shadowRoot) continue;
+        collectRuns(pageHosts[hi].shadowRoot, headingsOnly, nodes);
+      }
+    }
+    var index = 0;
+    var CHUNK = 1500;
+    function step() {
+      if (runId !== searchRun) return;
+      var end = index + CHUNK;
+      if (end > nodes.length) end = nodes.length;
+      for (; index < end && !cappedSearch; index++) processRun(nodes[index], needle);
+      if (index < nodes.length && !cappedSearch) {
+        updateCounter();
+        if (window.requestAnimationFrame) window.requestAnimationFrame(step);
+        else setTimeout(step, 0);
+        return;
+      }
+      updateCounter();
+      if (hits.length) setCurrent(0);
+    }
+    step();
+  }
+  ready(function () {
+    var bar = document.createElement('div');
+    bar.className = 'gaf-search';
+    bar.setAttribute('role', 'search');
+    bar.setAttribute('aria-label', L('searchPlaceholder', 'Search this document'));
+    var input = document.createElement('input');
+    input.type = 'search';
+    input.className = 'gaf-search-input';
+    input.placeholder = L('searchPlaceholder', 'Search this document');
+    input.setAttribute('aria-label', L('searchPlaceholder', 'Search this document'));
+    bar.appendChild(input);
+    var headingsLabel = document.createElement('label');
+    headingsLabel.className = 'gaf-search-headings';
+    var headingsCheck = document.createElement('input');
+    headingsCheck.type = 'checkbox';
+    headingsLabel.appendChild(headingsCheck);
+    headingsLabel.appendChild(document.createTextNode(' ' + L('searchHeadingsOnly', 'Headings only')));
+    bar.appendChild(headingsLabel);
+    var prevBtn = makeButton('\u2190', L('searchPrev', 'Previous'), L('searchPrev', 'Previous'));
+    var nextBtn = makeButton('\u2192', L('searchNext', 'Next'), L('searchNext', 'Next'));
+    bar.appendChild(prevBtn);
+    bar.appendChild(nextBtn);
+    var counter = document.createElement('span');
+    counter.className = 'gaf-search-count';
+    counter.id = 'gaf-search-count';
+    counter.setAttribute('aria-live', 'polite');
+    counter.setAttribute('aria-atomic', 'true');
+    bar.appendChild(counter);
+    var clearBtn = makeButton(L('searchClear', 'Clear'), L('searchClear', 'Clear'));
+    bar.appendChild(clearBtn);
+    var collapseBtn = makeButton(L('collapseAll', 'Collapse all pages'), L('collapseAll', 'Collapse all pages'));
+    var expandBtn = makeButton(L('expandAll', 'Expand all pages'), L('expandAll', 'Expand all pages'));
+    bar.appendChild(collapseBtn);
+    bar.appendChild(expandBtn);
+    var THEMES = ['auto', 'light', 'dark'];
+    var themeBtn = makeButton('', L('themeLabel', 'Theme'), '');
+    themeBtn.className = 'gaf-theme-toggle';
+    var theme = 'auto';
+    try { theme = window.localStorage.getItem('gaf-export-theme') || 'auto'; } catch (e) { theme = 'auto'; }
+    if (THEMES.indexOf(theme) < 0) theme = 'auto';
+    function applyTheme() {
+      if (theme === 'auto') document.documentElement.removeAttribute('data-gaf-theme');
+      else document.documentElement.setAttribute('data-gaf-theme', theme);
+      var name = theme === 'light' ? L('themeLight', 'Light') : (theme === 'dark' ? L('themeDark', 'Dark') : L('themeAuto', 'Auto'));
+      themeBtn.textContent = L('themeLabel', 'Theme') + ': ' + name;
+      themeBtn.setAttribute('aria-label', themeBtn.textContent);
+    }
+    applyTheme();
+    themeBtn.addEventListener('click', function () {
+      theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length];
+      applyTheme();
+      try { window.localStorage.setItem('gaf-export-theme', theme); } catch (e) {}
+    });
+    bar.appendChild(themeBtn);
+    if (document.body.firstChild) document.body.insertBefore(bar, document.body.firstChild);
+    else document.body.appendChild(bar);
+    function runSearch() { highlight(input.value.trim(), headingsCheck.checked); }
+    input.addEventListener('input', function () {
+      if (debounceTimer) clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(runSearch, 200);
+    });
+    input.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        if (event.shiftKey) prevHit(); else nextHit();
+      } else if (event.key === 'Escape') {
+        input.value = '';
+        searchRun += 1; clearTimeout(debounceTimer);
+        clearMarks();
+        clearCounter();
+      }
+    });
+    headingsCheck.addEventListener('change', runSearch);
+    prevBtn.addEventListener('click', prevHit);
+    nextBtn.addEventListener('click', nextHit);
+    clearBtn.addEventListener('click', function () {
+      input.value = '';
+      searchRun += 1; clearTimeout(debounceTimer);
+      clearMarks();
+      clearCounter();
+      input.focus();
+    });
+    var pages = getPages();
+    for (var i = 0; i < pages.length; i++) {
+      (function (page) {
+        var header = page.querySelector('header.gaf-page-header');
+        if (!header) return;
+        var toggle = makeButton('\u2212', '', L('collapsePage', 'Collapse this page'));
+        toggle.className = 'gaf-page-toggle';
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.addEventListener('click', function () {
+          page.classList.toggle('gaf-collapsed');
+          setToggleState(page, page.classList.contains('gaf-collapsed'));
+        });
+        header.insertBefore(toggle, header.firstChild);
+      })(pages[i]);
+    }
+    collapseBtn.addEventListener('click', function () {
+      var ps = getPages();
+      for (var j = 0; j < ps.length; j++) {
+        ps[j].classList.add('gaf-collapsed');
+        setToggleState(ps[j], true);
+      }
+    });
+    expandBtn.addEventListener('click', function () {
+      var ps = getPages();
+      for (var k = 0; k < ps.length; k++) {
+        ps[k].classList.remove('gaf-collapsed');
+        setToggleState(ps[k], false);
+      }
+    });
+  });
+})();</script>
+  
+  
+</body>
+</html>

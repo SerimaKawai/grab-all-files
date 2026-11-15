@@ -31,6 +31,7 @@ export const CASE_IDS = [
   'save-web-pages-as-markdown',
   'save-online-manuals-and-knowledge-pages',
   'web-pages-for-reading-and-ai-analysis',
+  'collect-and-analyze-web-comments',
   'combine-web-pages-into-one-html',
   'combine-local-html-files-into-one',
   'save-web-pages-with-original-design',

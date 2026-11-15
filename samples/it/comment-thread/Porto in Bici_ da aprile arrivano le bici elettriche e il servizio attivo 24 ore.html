@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data: file:; style-src 'unsafe-inline'; font-src data:; script-src 'sha256-pw2AXM+sb7/gGaP1j+lzN6KvzaWNwd9xnoM4kXT/z00=';">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Porto in Bici: da aprile arrivano le bici elettriche e il servizio attivo 24 ore su 24 (immaginario)</title>
+  <style>
+      :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Yu Gothic UI", Meiryo, sans-serif; line-height: 1.65; color: #1f2937; background: #fff; }
+      body { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+      /* The search bar is sticky (~3rem) — without this every anchor jump (TOC,
+         cross-page links, search hits) lands with its first line hidden under it. */
+      [id] { scroll-margin-top: 4.5rem; }
+      /* A source page's own headings are demoted by two levels to sit under this
+         page's <h2> title (h1->h3, h2->h4, ...), so a page whose own subheadings
+         were h3/h4 lands on h5/h6 here. Nothing set their size, so they fell back
+         to the browser default (h5 ~0.83em, h6 ~0.67em) — reported as unreadably
+         small text spread across thousands of headings in a real 766-page export.
+         Neither level should render smaller than body text. */
+      h5 { font-size: 1.05em; }
+      h6 { font-size: 1em; }
+      a { color: #075ea8; overflow-wrap: anywhere; }
+      /* GAF-233: an anchor rewritten as external always carries this exact
+         rel value (see rewriteHref/cleanNode); internal anchors never do, so
+         this reliably marks "leaves the archive" without a separate class. */
+      a[rel="noopener noreferrer"]::after { content: "↗"; display: inline-block; margin-left: .15em; font-size: .85em; opacity: .65; text-decoration: none; }
+      .gaf-toc-fab { position: fixed; right: 1rem; bottom: 1rem; z-index: 15; background: #075ea8; color: #fff; padding: .5rem 1rem; border-radius: 999px; text-decoration: none; font-size: .85rem; box-shadow: 0 2px 8px rgba(15,23,42,.35); }
+      .gaf-toc-fab:hover { background: #0a6fc2; }
+      .gaf-toc-fab::after { content: none; }
+      .gaf-document-header { border-bottom: 3px solid #334155; margin-bottom: 2rem; }
+      .gaf-meta { display: grid; grid-template-columns: max-content 1fr; gap: .25rem 1rem; }
+      .gaf-meta dt { font-weight: 700; }
+      .gaf-meta dd { margin: 0; }
+      .gaf-warning { border: 1px solid #b45309; background: #fff7ed; padding: .75rem; }
+      .gaf-partial-warning { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; margin: 0 0 1.5rem; border: 2px solid #b45309; border-radius: 8px; background: #fff7ed; color: #7c2d12; padding: 1rem 1.1rem; }
+      .gaf-partial-warning a { font-weight: 700; }
+      .gaf-look-fallback { margin: .4rem 0 .8rem; border-left: 4px solid #b45309; background: #fff7ed; color: #7c2d12; padding: .45rem .75rem; font-size: .9rem; }
+      .gaf-static-note { margin: .4rem 0 .8rem; border-left: 4px solid #2563eb; background: #eff6ff; color: #1e3a8a; padding: .45rem .75rem; font-size: .9rem; }
+      .gaf-page { margin: 2.5rem 0; padding-top: .5rem; border-top: 2px solid #cbd5e1; }
+      .gaf-page-content img { max-width: 100%; height: auto; }
+      /* An icon beside a link's words in a table cell (a country's flag before
+         its code) had no size of its own and was drawn as wide as the page
+         (olympedia's medal table, 2026-10-22). */
+      .gaf-page-content :is(td, th) a img { max-height: 1.6em; width: auto; vertical-align: middle; }
+      .gaf-image-placeholder, .gaf-unsafe-placeholder { display: inline-block; border: 1px dashed #94a3b8; padding: .2rem .4rem; color: #475569; }
+      table { border-collapse: collapse; max-width: 100%; margin: 1rem 0; }
+      th, td { border: 1px solid #94a3b8; padding: .4rem .55rem; vertical-align: top; }
+      th { background: #f1f5f9; }
+      pre { overflow: auto; padding: .8rem; background: #f8fafc; border: 1px solid #cbd5e1; white-space: pre-wrap; }
+      code { font-family: Consolas, "SFMono-Regular", monospace; }
+      blockquote { border-left: 4px solid #94a3b8; margin-left: 0; padding-left: 1rem; }
+      .gaf-page-toggle { margin-right: .5rem; border: 1px solid #cbd5e1; background: #f1f5f9; color: #334155; border-radius: 4px; cursor: pointer; font: inherit; line-height: 1; padding: 0 .45rem; }
+      .gaf-page-toggle:hover { background: #e2e8f0; }
+      .gaf-page.gaf-collapsed .gaf-page-content { display: none; }
+      .gaf-search { position: sticky; top: 0; z-index: 20; display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: 0 0 1.5rem; padding: .55rem .7rem; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; }
+      .gaf-search .gaf-search-input { flex: 1 1 12rem; min-width: 8rem; padding: .35rem .5rem; border: 1px solid #94a3b8; border-radius: 4px; font: inherit; color: #1f2937; background: #fff; }
+      .gaf-search button { padding: .3rem .6rem; border: 1px solid #94a3b8; background: #fff; color: #1f2937; border-radius: 4px; cursor: pointer; font: inherit; }
+      .gaf-search button:hover { background: #f1f5f9; }
+      .gaf-search .gaf-search-count { min-width: 4.5rem; color: #475569; font-size: .85rem; }
+      .gaf-search .gaf-search-headings { display: inline-flex; align-items: center; gap: .25rem; color: #334155; font-size: .85rem; }
+      mark.gaf-search-hit { background: #fef08a; color: inherit; padding: 0 .05em; border-radius: 2px; }
+      mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+      @media (prefers-color-scheme: dark) {
+:root:not([data-gaf-theme="light"]) { color: #e2e8f0; background: #0f172a; }
+:root:not([data-gaf-theme="light"]) a { color: #7cc0f5; }
+:root:not([data-gaf-theme="light"]) img[data-gaf-math] { filter: invert(1) hue-rotate(180deg); }
+:root:not([data-gaf-theme="light"]) .gaf-toc-fab { background: #1d4ed8; }
+:root:not([data-gaf-theme="light"]) .gaf-toc-fab:hover { background: #2563eb; }
+:root:not([data-gaf-theme="light"]) .gaf-document-header { border-bottom-color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) .gaf-warning { border-color: #d97706; background: #451a03; }
+:root:not([data-gaf-theme="light"]) .gaf-partial-warning { border-color: #f59e0b; background: #451a03; color: #ffedd5; }
+:root:not([data-gaf-theme="light"]) .gaf-page { border-top-color: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-image-placeholder, :root:not([data-gaf-theme="light"]) .gaf-unsafe-placeholder { border-color: #475569; color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) th, :root:not([data-gaf-theme="light"]) td { border-color: #475569; }
+:root:not([data-gaf-theme="light"]) th { background: #1e293b; }
+:root:not([data-gaf-theme="light"]) pre { background: #1e293b; border-color: #334155; }
+:root:not([data-gaf-theme="light"]) blockquote { border-left-color: #475569; }
+:root:not([data-gaf-theme="light"]) .gaf-page-toggle { border-color: #475569; background: #1e293b; color: #cbd5e1; }
+:root:not([data-gaf-theme="light"]) .gaf-page-toggle:hover { background: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-search { background: #1e293b; border-color: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-input { border-color: #475569; color: #e2e8f0; background: #0f172a; }
+:root:not([data-gaf-theme="light"]) .gaf-search button { border-color: #475569; background: #0f172a; color: #e2e8f0; }
+:root:not([data-gaf-theme="light"]) .gaf-search button:hover { background: #1e293b; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-count { color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-headings { color: #cbd5e1; }
+:root:not([data-gaf-theme="light"]) mark.gaf-search-hit { background: #854d0e; color: #fef9c3; }
+:root:not([data-gaf-theme="light"]) mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+
+}
+:root[data-gaf-theme="dark"] { color: #e2e8f0; background: #0f172a; }
+:root[data-gaf-theme="dark"] a { color: #7cc0f5; }
+:root[data-gaf-theme="dark"] img[data-gaf-math] { filter: invert(1) hue-rotate(180deg); }
+:root[data-gaf-theme="dark"] .gaf-toc-fab { background: #1d4ed8; }
+:root[data-gaf-theme="dark"] .gaf-toc-fab:hover { background: #2563eb; }
+:root[data-gaf-theme="dark"] .gaf-document-header { border-bottom-color: #94a3b8; }
+:root[data-gaf-theme="dark"] .gaf-warning { border-color: #d97706; background: #451a03; }
+:root[data-gaf-theme="dark"] .gaf-partial-warning { border-color: #f59e0b; background: #451a03; color: #ffedd5; }
+:root[data-gaf-theme="dark"] .gaf-page { border-top-color: #334155; }
+:root[data-gaf-theme="dark"] .gaf-image-placeholder, :root[data-gaf-theme="dark"] .gaf-unsafe-placeholder { border-color: #475569; color: #94a3b8; }
+:root[data-gaf-theme="dark"] th, :root[data-gaf-theme="dark"] td { border-color: #475569; }
+:root[data-gaf-theme="dark"] th { background: #1e293b; }
+:root[data-gaf-theme="dark"] pre { background: #1e293b; border-color: #334155; }
+:root[data-gaf-theme="dark"] blockquote { border-left-color: #475569; }
+:root[data-gaf-theme="dark"] .gaf-page-toggle { border-color: #475569; background: #1e293b; color: #cbd5e1; }
+:root[data-gaf-theme="dark"] .gaf-page-toggle:hover { background: #334155; }
+:root[data-gaf-theme="dark"] .gaf-search { background: #1e293b; border-color: #334155; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-input { border-color: #475569; color: #e2e8f0; background: #0f172a; }
+:root[data-gaf-theme="dark"] .gaf-search button { border-color: #475569; background: #0f172a; color: #e2e8f0; }
+:root[data-gaf-theme="dark"] .gaf-search button:hover { background: #1e293b; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-count { color: #94a3b8; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-headings { color: #cbd5e1; }
+:root[data-gaf-theme="dark"] mark.gaf-search-hit { background: #854d0e; color: #fef9c3; }
+:root[data-gaf-theme="dark"] mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+
+:root[data-gaf-theme="dark"] { color-scheme: dark; }
+:root[data-gaf-theme="light"] { color-scheme: light; }
+
+      @page { size: A4; margin: 15mm; }
+      @media print {
+        body { max-width: none; margin: 0; padding: 0; font-size: 10.5pt; }
+        nav a { color: inherit; text-decoration: none; }
+        .gaf-search, .gaf-page-toggle, .gaf-toc-fab { display: none !important; }
+        .gaf-page.gaf-collapsed .gaf-page-content { display: block; }
+        .gaf-page { break-before: page; page-break-before: always; }
+        .gaf-page:first-of-type { break-before: auto; page-break-before: auto; }
+        /* Only short blocks are kept whole. A table or <pre> longer than a page
+           cannot be, and asking for it pushed it to a fresh page and left the
+           rest of the previous one blank. */
+        h1, h2, h3, h4, h5, h6 { break-after: avoid; page-break-after: avoid; break-inside: avoid; }
+        figure, blockquote, tr, img { break-inside: avoid; page-break-inside: avoid; }
+        /* Printing every link's address after it made URLs 36-84% of the text in
+           most printed exports (one page reached 4099 PDF pages); the links stay
+           clickable in a saved PDF, so the address is not printed. */
+        a::after, a[rel="noopener noreferrer"]::after { content: none !important; }
+        /* A table wider than the paper was cut at the right edge. It is set
+           smaller, and a link's address in a cell may wrap anywhere; words and
+           numbers are not split letter by letter (that made every column one
+           letter wide), so a table still wider is shrunk with the page. */
+        table { width: auto !important; max-width: 100% !important; table-layout: auto; font-size: 8pt; }
+        th, td { overflow-wrap: break-word; padding: .15rem .25rem; }
+        :is(th, td) a { overflow-wrap: anywhere; }
+        thead { display: table-header-group; }
+        pre, code { white-space: pre-wrap; overflow-wrap: anywhere; }
+        .gaf-page-content img { max-height: 24cm; object-fit: contain; }
+      }
+    </style>
+</head>
+<body>
+  <header class="gaf-document-header">
+    <h1>Porto in Bici: da aprile arrivano le bici elettriche e il servizio attivo 24 ore su 24 (immaginario)</h1>
+    
+    
+  </header>
+  
+  <nav id="gaf-toc" aria-label="Sommario">
+    <h2>Sommario</h2>
+    <ol><li><a href="#gaf-page-p00001">Porto in Bici: da aprile arrivano le bici elettriche e il servizio attivo 24 ore su 24 (immaginario)</a></li></ol>
+  </nav>
+  <main>
+    <section class="gaf-page" id="gaf-page-p00001">
+        <header class="gaf-page-header">
+          <h2>Porto in Bici: da aprile arrivano le bici elettriche e il servizio attivo 24 ore su 24 (immaginario)</h2>
+        </header>
+        <div class="gaf-page-content"><div role="feed" aria-labelledby="gaf-p00001-comments-title" aria-busy="false" id="gaf-p00001-thread"><article role="article" aria-posinset="1" aria-setsize="120" class="gaf-feed-post gaf-feed-post-1"><div><div><span>Marina P.</span> <time datetime="2026-11-10T09:34:00.000Z">10 nov, 09:34</time></div><p>Le bici elettriche, finalmente! In salita alla Collina dovevo sempre scendere e spingere, sono contentissima.</p><div><span>Mi piace 31</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="2" aria-setsize="120" class="gaf-feed-post gaf-feed-post-2"><div><div><span>CorriSalita</span> <time datetime="2026-11-10T10:18:00.000Z">10 nov, 10:18</time></div><p>30 minuti a 1,80 €? Mi sembra caro. Già a 1,50 € costava quasi come l'autobus, così finirò per prendere il bus.</p><div><span>Mi piace 20</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="3" aria-setsize="120" class="gaf-feed-post gaf-feed-post-3"><div><div><span>Giorgio T.</span> <time datetime="2026-11-10T11:12:00.000Z">10 nov, 11:12</time> <span>↳ CorriSalita</span></div><p>Concordo. Se aumentano, almeno rendano più economici i primi 15 minuti, per chi fa tragitti brevi.</p><div><span>Mi piace 13</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="4" aria-setsize="120" class="gaf-feed-post gaf-feed-post-4"><div><div><span>Pendolare del molo</span> <time datetime="2026-11-10T11:47:00.000Z">10 nov, 11:47</time> <span>↳ CorriSalita</span></div><p>Con l'abbonamento mensile sono poco più di 70 centesimi al giorno, per chi la usa ogni giorno conviene ancora.</p><div><span>Mi piace 26</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="5" aria-setsize="120" class="gaf-feed-post gaf-feed-post-5"><div><div><span>Dopo il turno di notte</span> <time datetime="2026-11-10T12:12:00.000Z">10 nov, 12:12</time></div><p>Lavoro di notte, quindi il servizio h24 è una manna. Prima aspettavo le cinque del mattino o prendevo il taxi.</p><div><span>Mi piace 27</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="6" aria-setsize="120" class="gaf-feed-post gaf-feed-post-6"><div><div><span>Sulla Collina</span> <time datetime="2026-11-10T12:56:00.000Z">10 nov, 12:56</time></div><p>Le bici elettriche costano come quelle normali? Se c'è un supplemento, sarebbe bene scriverlo.</p><div><span>Mi piace 32</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="7" aria-setsize="120" class="gaf-feed-post gaf-feed-post-7"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-10T13:21:00.000Z">10 nov, 13:21</time> <span>↳ Sulla Collina</span></div><p>Grazie della domanda. Le biciclette a pedalata assistita hanno la stessa tariffa (1,80 € ogni 30 minuti, incluse nell'abbonamento mensile).</p><div><span>Mi piace 14</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="8" aria-setsize="120" class="gaf-feed-post gaf-feed-post-8"><div><div><span>Sulla Collina</span> <time datetime="2026-11-10T13:56:00.000Z">10 nov, 13:56</time> <span>↳ Sulla Collina</span></div><p>Grazie della risposta. Alla stessa tariffa la userò ogni giorno.</p><div><span>Mi piace 38</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="9" aria-setsize="120" class="gaf-feed-post gaf-feed-post-9"><div><div><span>Residente uscita nord</span> <time datetime="2026-11-10T14:50:00.000Z">10 nov, 14:50</time></div><p>Non mi piace che la stazione davanti alla centrale vada sul lato nord. Lavoro sul lato sud e dovrei fare il giro di tutta la stazione.</p><div><span>Mi piace 39</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="10" aria-setsize="120" class="gaf-feed-post gaf-feed-post-10"><div><div><span>Studente al 3° anno</span> <time datetime="2026-11-10T15:12:00.000Z">10 nov, 15:12</time></div><p>L'abbonamento studenti a 15 € è ottimo. A piedi all'università ci vogliono 25 minuti, così lo faccio.</p><div><span>Mi piace 41</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="11" aria-setsize="120" class="gaf-feed-post gaf-feed-post-11"><div><div><span>Giulia</span> <time datetime="2026-11-10T16:01:00.000Z">10 nov, 16:01</time></div><p>Si potrebbero mettere anche alcune bici con il seggiolino per bambini? Mi servirebbero per portare i bimbi all'asilo.</p><div><span>Mi piace 32</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="12" aria-setsize="120" class="gaf-feed-post gaf-feed-post-12"><div><div><span>Spingo il passeggino</span> <time datetime="2026-11-10T16:31:00.000Z">10 nov, 16:31</time> <span>↳ Giulia</span></div><p>Anche io le vorrei. Elettrica e con seggiolino, arriverei anche all'asilo in cima alla salita.</p><div><span>Mi piace 43</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="13" aria-setsize="120" class="gaf-feed-post gaf-feed-post-13"><div><div><span>Babbo in bici</span> <time datetime="2026-11-10T17:20:00.000Z">10 nov, 17:20</time></div><p>Con il servizio h24 aumenteranno quelli che di notte abbandonano le bici o le maltrattano. Già adesso vedo spesso bici con la sella rotta.</p><div><span>Mi piace 10</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="14" aria-setsize="120" class="gaf-feed-post gaf-feed-post-14"><div><div><span>Dopo il turno di notte</span> <time datetime="2026-11-10T17:59:00.000Z">10 nov, 17:59</time> <span>↳ Babbo in bici</span></div><p>Di notte usa il servizio soprattutto chi torna dal lavoro. Chi rompe le cose c'è a qualsiasi ora.</p><div><span>Mi piace 45</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="15" aria-setsize="120" class="gaf-feed-post gaf-feed-post-15"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-10T18:19:00.000Z">10 nov, 18:19</time> <span>↳ Babbo in bici</span></div><p>Grazie per la preoccupazione. Di notte aumenteremo i giri di controllo e le bici danneggiate si potranno segnalare dall'app.</p><div><span>Mi piace 11</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="16" aria-setsize="120" class="gaf-feed-post gaf-feed-post-16"><div><div><span>In bici a scuola</span> <time datetime="2026-11-10T18:49:00.000Z">10 nov, 18:49</time></div><p>Quando sapremo dove saranno esattamente le 12 nuove stazioni? Vorrei sapere se ne arriverà una vicino a casa mia.</p><div><span>Mi piace 47</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="17" aria-setsize="120" class="gaf-feed-post gaf-feed-post-17"><div><div><span>Mamma Panda</span> <time datetime="2026-11-10T19:38:00.000Z">10 nov, 19:38</time></div><p>Dare la precedenza alla Collina mi sembra giusto. Proprio dove c'è salita serve l'elettrica.</p><div><span>Mi piace 30</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="18" aria-setsize="120" class="gaf-feed-post gaf-feed-post-18"><div><div><span>Gino del porto</span> <time datetime="2026-11-10T19:59:00.000Z">10 nov, 19:59</time></div><p>Elettriche e h24 benissimo. Se almeno l'abbonamento mensile fosse rimasto invariato, sarei stato ancora più d'accordo.</p><div><span>Mi piace 17</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="19" aria-setsize="120" class="gaf-feed-post gaf-feed-post-19"><div><div><span>Ciclista della domenica</span> <time datetime="2026-11-10T20:48:00.000Z">10 nov, 20:48</time></div><p>Per chi usa la bici solo nel fine settimana sarebbe utile un biglietto giornaliero a corse illimitate. Lo comprerebbero anche i turisti.</p><div><span>Mi piace 8</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="20" aria-setsize="120" class="gaf-feed-post gaf-feed-post-20"><div><div><span>Turista di passaggio</span> <time datetime="2026-11-10T21:35:00.000Z">10 nov, 21:35</time> <span>↳ Ciclista della domenica</span></div><p>Sono qui in vacanza e un biglietto giornaliero lo userei di sicuro. Vorrei girare dal porto alla città vecchia.</p><div><span>Mi piace 24</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="21" aria-setsize="120" class="gaf-feed-post gaf-feed-post-21"><div><div><span>Voce di città</span> <time datetime="2026-11-10T22:00:00.000Z">10 nov, 22:00</time></div><p>Meglio più bici nelle stazioni che ci sono, che nuove stazioni. La mattina davanti alla stazione ferroviaria è sempre tutto vuoto.</p><div><span>Mi piace 33</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="22" aria-setsize="120" class="gaf-feed-post gaf-feed-post-22"><div><div><span>Lavoro vicino al Comune</span> <time datetime="2026-11-10T22:54:00.000Z">10 nov, 22:54</time> <span>↳ Voce di città</span></div><p>Alla sera invece è tutto pieno e non si riesce a riconsegnare. Bisogna riequilibrare i numeri.</p><div><span>Mi piace 18</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="23" aria-setsize="120" class="gaf-feed-post gaf-feed-post-23"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-10T23:19:00.000Z">10 nov, 23:19</time> <span>↳ Voce di città</span></div><p>Conosciamo lo squilibrio tra mattina e sera. Da aprile il riposizionamento con i furgoni partirà anche alle 6 del mattino.</p><div><span>Mi piace 12</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="24" aria-setsize="120" class="gaf-feed-post gaf-feed-post-24"><div><div><span>OSS Martina</span> <time datetime="2026-11-10T23:53:00.000Z">10 nov, 23:53</time></div><p>Uso la bici per le visite domiciliari. Con l'elettrica potrei arrivare alle case in cima alla salita senza arrivare fradicia di sudore.</p><div><span>Mi piace 28</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="25" aria-setsize="120" class="gaf-feed-post gaf-feed-post-25"><div><div><span>Bici anche con la pioggia</span> <time datetime="2026-11-11T00:18:00.000Z">11 nov, 00:18</time></div><p>Si possono mettere delle pensiline alle stazioni? Quando piove la sella è sempre bagnata.</p><div><span>Mi piace 21</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="26" aria-setsize="120" class="gaf-feed-post gaf-feed-post-26"><div><div><span>Del centro storico</span> <time datetime="2026-11-11T01:12:00.000Z">11 nov, 01:12</time></div><p>Più bici elettriche nei vicoli stretti della città vecchia mi fanno temere che si corra troppo. Nei tratti pedonali bisognerebbe scendere e spingere.</p><div><span>Mi piace 38</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="27" aria-setsize="120" class="gaf-feed-post gaf-feed-post-27"><div><div><span>Mamma risparmiosa</span> <time datetime="2026-11-11T01:37:00.000Z">11 nov, 01:37</time> <span>↳ Del centro storico</span></div><p>L'assistenza si ferma a 25 km/h. Il pericolo semmai è l'educazione di chi pedala.</p><div><span>Mi piace 39</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="28" aria-setsize="120" class="gaf-feed-post gaf-feed-post-28"><div><div><span>Pensionato in passeggiata</span> <time datetime="2026-11-11T02:11:00.000Z">11 nov, 02:11</time> <span>↳ Del centro storico</span></div><p>Quando passeggio, prendo uno spavento se una bici arriva silenziosa alle spalle. Suonate il campanello, per favore.</p><div><span>Mi piace 16</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="29" aria-setsize="120" class="gaf-feed-post gaf-feed-post-29"><div><div><span>Matteo</span> <time datetime="2026-11-11T03:05:00.000Z">11 nov, 03:05</time></div><p>L'abbonamento studenti è solo per universitari? Valgono anche liceali e chi frequenta la formazione professionale?</p><div><span>Mi piace 25</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="30" aria-setsize="120" class="gaf-feed-post gaf-feed-post-30"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-11T03:38:00.000Z">11 nov, 03:38</time> <span>↳ Matteo</span></div><p>L'abbonamento studenti è per studenti delle superiori, della formazione professionale, universitari e dottorandi. All'iscrizione si carica una foto del tesserino.</p><div><span>Mi piace 4</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="31" aria-setsize="120" class="gaf-feed-post gaf-feed-post-31"><div><div><span>Prof del liceo</span> <time datetime="2026-11-11T04:27:00.000Z">11 nov, 04:27</time> <span>↳ Matteo</span></div><p>Bene che ci siano anche i liceali. Molti rientrano tardi dagli allenamenti, poter usare le bici di sera è rassicurante.</p><div><span>Mi piace 18</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="32" aria-setsize="120" class="gaf-feed-post gaf-feed-post-32"><div><div><span>Logistica Luigi</span> <time datetime="2026-11-11T04:47:00.000Z">11 nov, 04:47</time></div><p>Sul perché delle tariffe nuove non c'è quasi nessuna spiegazione. È l'energia, è il personale? Voglio vedere i numeri.</p><div><span>Mi piace 1</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="33" aria-setsize="120" class="gaf-feed-post gaf-feed-post-33"><div><div><span>Bianchi</span> <time datetime="2026-11-11T05:36:00.000Z">11 nov, 05:36</time> <span>↳ Logistica Luigi</span></div><p>Verissimo. Più dell'aumento in sé mi dà fastidio che manchi il motivo.</p><div><span>Mi piace 24</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="34" aria-setsize="120" class="gaf-feed-post gaf-feed-post-34"><div><div><span>Alessia</span> <time datetime="2026-11-11T05:56:00.000Z">11 nov, 05:56</time></div><p>Ho venduto l'auto e uso solo il bike sharing, quindi più stazioni sono benvenute.</p><div><span>Mi piace 7</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="35" aria-setsize="120" class="gaf-feed-post gaf-feed-post-35"><div><div><span>Nuovo a Porto Sud</span> <time datetime="2026-11-11T06:45:00.000Z">11 nov, 06:45</time></div><p>Mi sono appena trasferito a Porto Sud. La stazione sarà dal lato mare o vicino ai palazzi nuovi?</p><div><span>Mi piace 38</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="36" aria-setsize="120" class="gaf-feed-post gaf-feed-post-36"><div><div><span>Comitato di quartiere</span> <time datetime="2026-11-11T07:05:00.000Z">11 nov, 07:05</time> <span>↳ Nuovo a Porto Sud</span></div><p>Al comitato di quartiere ho sentito che sarà all'ingresso del Parco di Porto Sud. Ufficialmente non è ancora stato annunciato.</p><div><span>Mi piace 5</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="37" aria-setsize="120" class="gaf-feed-post gaf-feed-post-37"><div><div><span>Titolare del bar</span> <time datetime="2026-11-11T07:54:00.000Z">11 nov, 07:54</time></div><p>Da quando c'è la stazione davanti al mio bar è arrivato qualche cliente in più. Anche i negozi vicino alle nuove stazioni ne saranno felici.</p><div><span>Mi piace 44</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="38" aria-setsize="120" class="gaf-feed-post gaf-feed-post-38"><div><div><span>Sara</span> <time datetime="2026-11-11T08:43:00.000Z">11 nov, 08:43</time></div><p>L'app dovrebbe indicare con più precisione i posti liberi alle stazioni. Dice 3 e quando arrivo ce ne sono 0.</p><div><span>Mi piace 11</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="39" aria-setsize="120" class="gaf-feed-post gaf-feed-post-39"><div><div><span>Luca</span> <time datetime="2026-11-11T09:03:00.000Z">11 nov, 09:03</time> <span>↳ Sara</span></div><p>Succede spesso. Almeno indicate quanti minuti fa è stato aggiornato il dato.</p><div><span>Mi piace 42</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="40" aria-setsize="120" class="gaf-feed-post gaf-feed-post-40"><div><div><span>Team E-bike</span> <time datetime="2026-11-11T09:55:00.000Z">11 nov, 09:55</time></div><p>Dopo aver provato l'elettrica non si torna indietro. 150 mi sembrano pochi, continuate ad aggiungerne.</p><div><span>Mi piace 10</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="41" aria-setsize="120" class="gaf-feed-post gaf-feed-post-41"><div><div><span>Paolo</span> <time datetime="2026-11-11T10:20:00.000Z">11 nov, 10:20</time></div><p>Se l'abbonamento mensile sale a 22 €, almeno allungate la corsa da 30 a 45 minuti. Così non conviene.</p><div><span>Mi piace 43</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="42" aria-setsize="120" class="gaf-feed-post gaf-feed-post-42"><div><div><span>Dipendente ospedale</span> <time datetime="2026-11-11T11:04:00.000Z">11 nov, 11:04</time></div><p>Grazie di mettere una stazione all'ospedale civico. Chi fa i turni di notte spesso torna a casa quando non ci sono più autobus.</p><div><span>Mi piace 0</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="43" aria-setsize="120" class="gaf-feed-post gaf-feed-post-43"><div><div><span>Francesca</span> <time datetime="2026-11-11T11:29:00.000Z">11 nov, 11:29</time></div><p>Sono favorevole, ma cosa succede se la batteria è scarica? Mi sa che pesa più di una bici normale.</p><div><span>Mi piace 9</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="44" aria-setsize="120" class="gaf-feed-post gaf-feed-post-44"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-11T12:13:00.000Z">11 nov, 12:13</time> <span>↳ Francesca</span></div><p>Prima del noleggio potrete vedere il livello della batteria dall'app. I mezzi con poca carica non saranno noleggiabili e le batterie verranno cambiate ogni giorno.</p><div><span>Mi piace 5</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="45" aria-setsize="120" class="gaf-feed-post gaf-feed-post-45"><div><div><span>Francesca</span> <time datetime="2026-11-11T12:38:00.000Z">11 nov, 12:38</time> <span>↳ Francesca</span></div><p>Se si vede il livello, sono più tranquilla. Grazie!</p><div><span>Mi piace 47</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="46" aria-setsize="120" class="gaf-feed-post gaf-feed-post-46"><div><div><span>Runner del mattino</span> <time datetime="2026-11-11T13:22:00.000Z">11 nov, 13:22</time></div><p>Temo che aumentino le bici sul marciapiede. Se si aggiungono stazioni, sistemate anche le piste ciclabili.</p><div><span>Mi piace 36</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="47" aria-setsize="120" class="gaf-feed-post gaf-feed-post-47"><div><div><span>Anna</span> <time datetime="2026-11-11T14:16:00.000Z">11 nov, 14:16</time> <span>↳ Runner del mattino</span></div><p>Anche solo su Via del Porto, che faccio ogni giorno per andare al lavoro, una corsia ciclabile sulla carreggiata aiuterebbe.</p><div><span>Mi piace 45</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="48" aria-setsize="120" class="gaf-feed-post gaf-feed-post-48"><div><div><span>Elena</span> <time datetime="2026-11-11T14:42:00.000Z">11 nov, 14:42</time></div><p>L'aumento dell'abbonamento mensile vale anche per chi è già abbonato, da aprile?</p><div><span>Mi piace 2</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="49" aria-setsize="120" class="gaf-feed-post gaf-feed-post-49"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-11T15:07:00.000Z">11 nov, 15:07</time> <span>↳ Elena</span></div><p>Sì, anche per gli abbonamenti in corso la nuova tariffa vale dalla mensilità di aprile. Quanto già pagato a marzo resta alla tariffa precedente.</p><div><span>Mi piace 12</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="50" aria-setsize="120" class="gaf-feed-post gaf-feed-post-50"><div><div><span>Amante delle bici d'epoca</span> <time datetime="2026-11-11T15:43:00.000Z">11 nov, 15:43</time></div><p>Le bici elettriche sono pesanti, per chi è basso o anziano sono scomode. Non togliete le bici normali.</p><div><span>Mi piace 21</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="51" aria-setsize="120" class="gaf-feed-post gaf-feed-post-51"><div><div><span>Pensionato in passeggiata</span> <time datetime="2026-11-11T16:32:00.000Z">11 nov, 16:32</time> <span>↳ Amante delle bici d'epoca</span></div><p>Ho più di 70 anni e l'elettrica alla partenza strattona, mi fa un po' paura. Spero che le bici normali non spariscano.</p><div><span>Mi piace 12</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="52" aria-setsize="120" class="gaf-feed-post gaf-feed-post-52"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-11T17:02:00.000Z">11 nov, 17:02</time> <span>↳ Amante delle bici d'epoca</span></div><p>Il numero delle biciclette tradizionali non verrà ridotto. Le 150 elettriche si aggiungono.</p><div><span>Mi piace 4</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="53" aria-setsize="120" class="gaf-feed-post gaf-feed-post-53"><div><div><span>Papà con figli</span> <time datetime="2026-11-11T17:51:00.000Z">11 nov, 17:51</time></div><p>Nei weekend la uso per andare al mare con i bambini. Con più stazioni potremo andare più lontano.</p><div><span>Mi piace 6</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="54" aria-setsize="120" class="gaf-feed-post gaf-feed-post-54"><div><div><span>Davide</span> <time datetime="2026-11-11T18:21:00.000Z">11 nov, 18:21</time></div><p>Vorrei anche il noleggio di caschi. Io non parto senza casco e quando non ce l'ho rinuncio.</p><div><span>Mi piace 17</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="55" aria-setsize="120" class="gaf-feed-post gaf-feed-post-55"><div><div><span>Mamma Panda</span> <time datetime="2026-11-11T19:10:00.000Z">11 nov, 19:10</time> <span>↳ Davide</span></div><p>Un casco in condivisione mi preoccupa per l'igiene. Magari delle cuffie monouso da mettere sotto.</p><div><span>Mi piace 24</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="56" aria-setsize="120" class="gaf-feed-post gaf-feed-post-56"><div><div><span>Famiglia con sedia a rotelle</span> <time datetime="2026-11-11T19:40:00.000Z">11 nov, 19:40</time></div><p>Un mio familiare usa la sedia a rotelle. Se vicino alla stazione c'è un gradino non si può avvicinare: le nuove stazioni dovrebbero essere senza gradini.</p><div><span>Mi piace 19</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="57" aria-setsize="120" class="gaf-feed-post gaf-feed-post-57"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-11T20:29:00.000Z">11 nov, 20:29</time> <span>↳ Famiglia con sedia a rotelle</span></div><p>Grazie per l'osservazione preziosa. Sceglieremo i nuovi punti dopo aver verificato larghezza del marciapiede e dislivelli.</p><div><span>Mi piace 21</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="58" aria-setsize="120" class="gaf-feed-post gaf-feed-post-58"><div><div><span>Nottambulo</span> <time datetime="2026-11-11T20:48:00.000Z">11 nov, 20:48</time></div><p>Sono un nottambulo e poter usare la bici a tarda notte mi fa davvero piacere. Via del Porto di notte è tranquilla, quasi senza auto.</p><div><span>Mi piace 45</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="59" aria-setsize="120" class="gaf-feed-post gaf-feed-post-59"><div><div><span>Ilaria</span> <time datetime="2026-11-11T21:37:00.000Z">11 nov, 21:37</time></div><p>Sinceramente, se si usano soldi pubblici, meglio più corse di autobus. C'è anche chi non può andare in bici.</p><div><span>Mi piace 20</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="60" aria-setsize="120" class="gaf-feed-post gaf-feed-post-60"><div><div><span>Voce di città</span> <time datetime="2026-11-11T22:00:00.000Z">11 nov, 22:00</time> <span>↳ Ilaria</span></div><p>Porto in Bici è gestito direttamente dal Comune? Non capisco se i costi li copre il gestore o la collettività.</p><div><span>Mi piace 4</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="61" aria-setsize="120" class="gaf-feed-post gaf-feed-post-61"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-11T22:54:00.000Z">11 nov, 22:54</time> <span>↳ Ilaria</span></div><p>Il servizio è affidato dal Comune. Circa il 60% dei costi è coperto dalle tariffe d'uso, il resto dal bilancio comunale per la mobilità. Pubblicheremo il dettaglio a marzo.</p><div><span>Mi piace 22</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="62" aria-setsize="120" class="gaf-feed-post gaf-feed-post-62"><div><div><span>In fondo alla salita</span> <time datetime="2026-11-11T23:19:00.000Z">11 nov, 23:19</time></div><p>Abito in fondo alla salita e il ritorno in salita era sempre una tristezza. Se arriva un'elettrica alla stazione vicina, ne sarei felice.</p><div><span>Mi piace 46</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="63" aria-setsize="120" class="gaf-feed-post gaf-feed-post-63"><div><div><span>Pendolare 30 minuti</span> <time datetime="2026-11-11T23:44:00.000Z">11 nov, 23:44</time></div><p>La uso ogni giorno per andare al lavoro. Il servizio h24 va bene, ma dopo i 30 minuti il prezzo sale di colpo, e nei giorni con tanti semafori rossi sono in ansia.</p><div><span>Mi piace 15</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="64" aria-setsize="120" class="gaf-feed-post gaf-feed-post-64"><div><div><span>Personale universitario</span> <time datetime="2026-11-12T00:38:00.000Z">12 nov, 00:38</time></div><p>È prevista una stazione anche dentro il campus? È molto grande, la userebbero sia studenti sia personale.</p><div><span>Mi piace 0</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="65" aria-setsize="120" class="gaf-feed-post gaf-feed-post-65"><div><div><span>Studente al 3° anno</span> <time datetime="2026-11-12T01:03:00.000Z">12 nov, 01:03</time> <span>↳ Personale universitario</span></div><p>Se ci fosse nel campus la userei di sicuro. Dalle aule alla biblioteca a piedi ci vogliono 10 minuti.</p><div><span>Mi piace 9</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="66" aria-setsize="120" class="gaf-feed-post gaf-feed-post-66"><div><div><span>Riccardo</span> <time datetime="2026-11-12T01:57:00.000Z">12 nov, 01:57</time></div><p>Il trasferimento sul lato nord dovrebbe durare un anno. Ma se i lavori si allungano resterà così. Rispettate la scadenza.</p><div><span>Mi piace 26</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="67" aria-setsize="120" class="gaf-feed-post gaf-feed-post-67"><div><div><span>Valentina</span> <time datetime="2026-11-12T02:22:00.000Z">12 nov, 02:22</time></div><p>Non mi piace guidare, quindi l'espansione del bike sharing mi rassicura. La uso per andare a fare la spesa e tornare.</p><div><span>Mi piace 11</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="68" aria-setsize="120" class="gaf-feed-post gaf-feed-post-68"><div><div><span>Fattorino consegne</span> <time datetime="2026-11-12T03:16:00.000Z">12 nov, 03:16</time></div><p>Posso usarla per le consegne di lavoro? Con una bici col portapacchi la userei volentieri anche per lavorare.</p><div><span>Mi piace 28</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="69" aria-setsize="120" class="gaf-feed-post gaf-feed-post-69"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-12T03:41:00.000Z">12 nov, 03:41</time> <span>↳ Fattorino consegne</span></div><p>Le condizioni d'uso attuali chiedono di evitare utilizzi professionali prolungati. Stiamo valutando un piano per le aziende.</p><div><span>Mi piace 14</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="70" aria-setsize="120" class="gaf-feed-post gaf-feed-post-70"><div><div><span>Logistica Luigi</span> <time datetime="2026-11-12T04:03:00.000Z">12 nov, 04:03</time> <span>↳ Fattorino consegne</span></div><p>Se ci sarà il piano aziendale, anche la mia ditta la userà per le consegne brevi.</p><div><span>Mi piace 31</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="71" aria-setsize="120" class="gaf-feed-post gaf-feed-post-71"><div><div><span>Monica</span> <time datetime="2026-11-12T04:52:00.000Z">12 nov, 04:52</time></div><p>Ho sentito che la stazione sarà sul marciapiede davanti a casa mia. Di notte con il viavai è rumoroso, evitate il centro delle zone residenziali.</p><div><span>Mi piace 46</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="72" aria-setsize="120" class="gaf-feed-post gaf-feed-post-72"><div><div><span>Comitato di quartiere</span> <time datetime="2026-11-12T05:41:00.000Z">12 nov, 05:41</time> <span>↳ Monica</span></div><p>Ci sarà un incontro sui luoghi di installazione? Come comitato di quartiere vorremmo essere ascoltati prima.</p><div><span>Mi piace 29</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="73" aria-setsize="120" class="gaf-feed-post gaf-feed-post-73"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-12T06:01:00.000Z">12 nov, 06:01</time> <span>↳ Monica</span></div><p>Intorno ai punti previsti terremo a gennaio incontri di zona. Le date saranno pubblicate negli avvisi del Comune.</p><div><span>Mi piace 15</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="74" aria-setsize="120" class="gaf-feed-post gaf-feed-post-74"><div><div><span>Passeggiata sul mare</span> <time datetime="2026-11-12T06:41:00.000Z">12 nov, 06:41</time></div><p>Avrei voluto più stazioni lungo la passeggiata sul mare, quindi attendo con interesse quelle di Porto Sud.</p><div><span>Mi piace 43</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="75" aria-setsize="120" class="gaf-feed-post gaf-feed-post-75"><div><div><span>Tommaso</span> <time datetime="2026-11-12T07:30:00.000Z">12 nov, 07:30</time></div><p>Vorrei poter noleggiare anche senza smartphone, per esempio con una tessera con chip dei trasporti. I miei genitori la userebbero.</p><div><span>Mi piace 26</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="76" aria-setsize="120" class="gaf-feed-post gaf-feed-post-76"><div><div><span>Pensionato in passeggiata</span> <time datetime="2026-11-12T07:50:00.000Z">12 nov, 07:50</time> <span>↳ Tommaso</span></div><p>Proprio così. Registrarsi sull'app è difficile, devo chiedere a mia nipote.</p><div><span>Mi piace 25</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="77" aria-setsize="120" class="gaf-feed-post gaf-feed-post-77"><div><div><span>Gruppo ambiente</span> <time datetime="2026-11-12T08:39:00.000Z">12 nov, 08:39</time></div><p>Meno auto, meno traffico intorno al porto. Mi sembra un'ottima iniziativa anche per l'ambiente.</p><div><span>Mi piace 0</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="78" aria-setsize="120" class="gaf-feed-post gaf-feed-post-78"><div><div><span>Marta</span> <time datetime="2026-11-12T09:19:00.000Z">12 nov, 09:19</time></div><p>Tra abbonamento studenti e abbonamento mensile normale cambiano le bici o gli orari utilizzabili?</p><div><span>Mi piace 39</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="79" aria-setsize="120" class="gaf-feed-post gaf-feed-post-79"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-12T09:39:00.000Z">12 nov, 09:39</time> <span>↳ Marta</span></div><p>Nessuna differenza. Anche con l'abbonamento studenti si possono usare tutte le biciclette, elettriche comprese, 24 ore su 24.</p><div><span>Mi piace 5</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="80" aria-setsize="120" class="gaf-feed-post gaf-feed-post-80"><div><div><span>Senza patente</span> <time datetime="2026-11-12T10:24:00.000Z">12 nov, 10:24</time></div><p>Non ho la patente, quindi più mezzi sono utili. Per chi comincia sarebbe bello anche un corso per imparare a usarle.</p><div><span>Mi piace 38</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="81" aria-setsize="120" class="gaf-feed-post gaf-feed-post-81"><div><div><span>Simone</span> <time datetime="2026-11-12T11:18:00.000Z">12 nov, 11:18</time></div><p>Non è che le elettriche vengono rubate o le batterie portate via? In altre città si sente dire così.</p><div><span>Mi piace 39</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="82" aria-setsize="120" class="gaf-feed-post gaf-feed-post-82"><div><div><span>Team E-bike</span> <time datetime="2026-11-12T11:33:00.000Z">12 nov, 11:33</time> <span>↳ Simone</span></div><p>Le batterie dovrebbero essere bloccate, ma non so. Mi piacerebbe una risposta dal gestore.</p><div><span>Mi piace 44</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="83" aria-setsize="120" class="gaf-feed-post gaf-feed-post-83"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-12T12:27:00.000Z">12 nov, 12:27</time> <span>↳ Simone</span></div><p>Le batterie delle elettriche si tolgono solo con un attrezzo speciale e ogni bici ha un dispositivo di localizzazione.</p><div><span>Mi piace 10</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="84" aria-setsize="120" class="gaf-feed-post gaf-feed-post-84"><div><div><span>Marina P.</span> <time datetime="2026-11-12T13:02:00.000Z">12 nov, 13:02</time></div><p>Alla Collina vorrei una stazione davanti alla biblioteca. Arrivati in cima è comodissima.</p><div><span>Mi piace 34</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="85" aria-setsize="120" class="gaf-feed-post gaf-feed-post-85"><div><div><span>Giorgio T.</span> <time datetime="2026-11-12T13:27:00.000Z">12 nov, 13:27</time></div><p>Se aumentano i prezzi e insieme il numero di bici, finiranno solo per aumentare quelle rotte e abbandonate. Prima rivedete la manutenzione.</p><div><span>Mi piace 3</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="86" aria-setsize="120" class="gaf-feed-post gaf-feed-post-86"><div><div><span>Pendolare del molo</span> <time datetime="2026-11-12T14:11:00.000Z">12 nov, 14:11</time></div><p>Percorro Via del Porto ogni mattina e mi sembra che la manutenzione sia migliorata rispetto all'anno scorso. Continuate così.</p><div><span>Mi piace 40</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="87" aria-setsize="120" class="gaf-feed-post gaf-feed-post-87"><div><div><span>CorriSalita</span> <time datetime="2026-11-12T14:36:00.000Z">12 nov, 14:36</time></div><p>Se supero di poco i 30 minuti, per esempio 31, pago 3,60 €? Esiste una tolleranza per pochi minuti?</p><div><span>Mi piace 1</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="88" aria-setsize="120" class="gaf-feed-post gaf-feed-post-88"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-12T15:29:00.000Z">12 nov, 15:29</time> <span>↳ CorriSalita</span></div><p>Con 31 minuti si pagano 3,60 €. Se la stazione di riconsegna è piena, dall'app si può chiedere gratis una proroga di 15 minuti.</p><div><span>Mi piace 17</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="89" aria-setsize="120" class="gaf-feed-post gaf-feed-post-89"><div><div><span>CorriSalita</span> <time datetime="2026-11-12T15:54:00.000Z">12 nov, 15:54</time> <span>↳ CorriSalita</span></div><p>Non sapevo della proroga con stazione piena. Però la tariffa oltre il limite dovrebbe scattare a gradini più piccoli.</p><div><span>Mi piace 31</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="90" aria-setsize="120" class="gaf-feed-post gaf-feed-post-90"><div><div><span>Giulia</span> <time datetime="2026-11-12T16:27:00.000Z">12 nov, 16:27</time></div><p>Con più stazioni potrò arrivare in bici anche all'asilo lontano dalla stazione ferroviaria. Non vedo l'ora.</p><div><span>Mi piace 1</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="91" aria-setsize="120" class="gaf-feed-post gaf-feed-post-91"><div><div><span>Babbo in bici</span> <time datetime="2026-11-12T17:16:00.000Z">12 nov, 17:16</time></div><p>Da utente di lunga data: le bici nuove vanno bene, ma sistemate presto anche i freni di quelle vecchie.</p><div><span>Mi piace 24</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="92" aria-setsize="120" class="gaf-feed-post gaf-feed-post-92"><div><div><span>Bianchi</span> <time datetime="2026-11-12T17:46:00.000Z">12 nov, 17:46</time></div><p>In fondo all'avviso scrivete anche un recapito diverso dai commenti. Vorrei che si ascoltasse anche chi non usa internet.</p><div><span>Mi piace 19</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="93" aria-setsize="120" class="gaf-feed-post gaf-feed-post-93"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-12T18:35:00.000Z">12 nov, 18:35</time> <span>↳ Bianchi</span></div><p>Grazie per la segnalazione. Le osservazioni si possono presentare anche allo sportello del servizio Mobilità al piano terra del Comune e per posta. Integreremo l'articolo.</p><div><span>Mi piace 17</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="94" aria-setsize="120" class="gaf-feed-post gaf-feed-post-94"><div><div><span>Chiara</span> <time datetime="2026-11-12T19:14:00.000Z">12 nov, 19:14</time></div><p>Dopo una cena fuori, a piedi è lontano e il taxi costa: in quel caso è comoda. Ovviamente se ho bevuto non la prendo.</p><div><span>Mi piace 21</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="95" aria-setsize="120" class="gaf-feed-post gaf-feed-post-95"><div><div><span>Gino del porto</span> <time datetime="2026-11-12T19:34:00.000Z">12 nov, 19:34</time> <span>↳ Chiara</span></div><p>Anche in bici guidare ubriachi è vietato. Mettete avvisi ben visibili perché di notte non aumentino i casi.</p><div><span>Mi piace 12</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="96" aria-setsize="120" class="gaf-feed-post gaf-feed-post-96"><div><div><span>OSS Martina</span> <time datetime="2026-11-12T20:33:00.000Z">12 nov, 20:33</time></div><p>Quanti chili si possono mettere nel cestino anteriore? Per le visite ho parecchio bagaglio.</p><div><span>Mi piace 7</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="97" aria-setsize="120" class="gaf-feed-post gaf-feed-post-97"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-12T20:53:00.000Z">12 nov, 20:53</time> <span>↳ OSS Martina</span></div><p>Il cestino anteriore regge fino a 5 chili. Non c'è il portapacchi posteriore, ma per il piano aziendale valutiamo bici con portapacchi.</p><div><span>Mi piace 21</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="98" aria-setsize="120" class="gaf-feed-post gaf-feed-post-98"><div><div><span>Matteo</span> <time datetime="2026-11-12T21:32:00.000Z">12 nov, 21:32</time></div><p>Bene l'abbonamento studenti, ma anche chi è al primo lavoro guadagna poco: meglio sarebbe stato uno sconto per i giovani.</p><div><span>Mi piace 41</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="99" aria-setsize="120" class="gaf-feed-post gaf-feed-post-99"><div><div><span>Alessia</span> <time datetime="2026-11-12T22:21:00.000Z">12 nov, 22:21</time></div><p>Sarebbe bello avere nell'app anche una mappa con percorsi dalla città vecchia a Porto Sud che evitino le salite.</p><div><span>Mi piace 16</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="100" aria-setsize="120" class="gaf-feed-post gaf-feed-post-100"><div><div><span>Turista di passaggio</span> <time datetime="2026-11-12T23:01:00.000Z">12 nov, 23:01</time></div><p>Una stazione vicino all'ufficio turistico sarebbe utile. Con spiegazioni in inglese la userebbero più facilmente i visitatori stranieri.</p><div><span>Mi piace 23</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="101" aria-setsize="120" class="gaf-feed-post gaf-feed-post-101"><div><div><span>Titolare del bar</span> <time datetime="2026-11-12T23:21:00.000Z">12 nov, 23:21</time> <span>↳ Turista di passaggio</span></div><p>Nel mio bar vengono spesso clienti stranieri, quindi sono favorevole alle indicazioni in inglese.</p><div><span>Mi piace 22</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="102" aria-setsize="120" class="gaf-feed-post gaf-feed-post-102"><div><div><span>Prof del liceo</span> <time datetime="2026-11-13T00:10:00.000Z">13 nov, 00:10</time></div><p>Si possono prenotare le bici per una gita scolastica? Vorrei usarle per girare la città vecchia con la classe.</p><div><span>Mi piace 21</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="103" aria-setsize="120" class="gaf-feed-post gaf-feed-post-103"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-13T00:30:00.000Z">13 nov, 00:30</time> <span>↳ Prof del liceo</span></div><p>I gruppi possono usarle su prenotazione anticipata. Il numero è limitato, contattateci almeno due settimane prima.</p><div><span>Mi piace 11</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="104" aria-setsize="120" class="gaf-feed-post gaf-feed-post-104"><div><div><span>Mamma risparmiosa</span> <time datetime="2026-11-13T01:10:00.000Z">13 nov, 01:10</time></div><p>Con le elettriche, anche l'abbonamento attuale si ripaga. L'aumento mi sembra accettabile.</p><div><span>Mi piace 19</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="105" aria-setsize="120" class="gaf-feed-post gaf-feed-post-105"><div><div><span>Paolo</span> <time datetime="2026-11-13T01:59:00.000Z">13 nov, 01:59</time></div><p>Vorrei una tabella di confronto delle tariffe. A colpo d'occhio non capisco quanto cambia da aprile.</p><div><span>Mi piace 34</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="106" aria-setsize="120" class="gaf-feed-post gaf-feed-post-106"><div><div><span>Runner del mattino</span> <time datetime="2026-11-13T02:19:00.000Z">13 nov, 02:19</time></div><p>Le uso dopo la corsa mattutina. Il servizio h24 va bene, ma a volte il furgone del riposizionamento all'alba sta sul marciapiede e intralcia chi corre.</p><div><span>Mi piace 17</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="107" aria-setsize="120" class="gaf-feed-post gaf-feed-post-107"><div><div><span>Elena</span> <time datetime="2026-11-13T03:08:00.000Z">13 nov, 03:08</time></div><p>Da studentessa la usavo ogni giorno. Magari fosse esistito l'abbonamento studenti! Bella iniziativa.</p><div><span>Mi piace 40</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="108" aria-setsize="120" class="gaf-feed-post gaf-feed-post-108"><div><div><span>Papà con figli</span> <time datetime="2026-11-13T03:37:00.000Z">13 nov, 03:37</time></div><p>Si potrebbero mettere alcune bici piccole che i bambini guidano da soli? Vorremmo pedalare insieme in famiglia.</p><div><span>Mi piace 15</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="109" aria-setsize="120" class="gaf-feed-post gaf-feed-post-109"><div><div><span>Monica</span> <time datetime="2026-11-13T04:26:00.000Z">13 nov, 04:26</time> <span>↳ Papà con figli</span></div><p>Bambini da soli sulla strada è pericoloso. Se si fa, solo per le stazioni dentro i parchi.</p><div><span>Mi piace 14</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="110" aria-setsize="120" class="gaf-feed-post gaf-feed-post-110"><div><div><span>Ilaria</span> <time datetime="2026-11-13T05:04:00.000Z">13 nov, 05:04</time></div><p>Quanto delle osservazioni entro fine febbraio entrerà nel testo definitivo? Il risultato verrà pubblicato?</p><div><span>Mi piace 44</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="111" aria-setsize="120" class="gaf-feed-post gaf-feed-post-111"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-13T05:29:00.000Z">13 nov, 05:29</time> <span>↳ Ilaria</span></div><p>Raccoglieremo le osservazioni per argomento e le pubblicheremo, con la posizione del Comune, tra i documenti della commissione Mobilità di marzo.</p><div><span>Mi piace 22</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="112" aria-setsize="120" class="gaf-feed-post gaf-feed-post-112"><div><div><span>Pendolare 30 minuti</span> <time datetime="2026-11-13T06:23:00.000Z">13 nov, 06:23</time></div><p>Il tragitto quotidiano diventerà un po' meno faticoso. Ultimamente arrivo meglio in bici che sull'autobus pieno.</p><div><span>Mi piace 38</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="113" aria-setsize="120" class="gaf-feed-post gaf-feed-post-113"><div><div><span>Riccardo</span> <time datetime="2026-11-13T06:48:00.000Z">13 nov, 06:48</time></div><p>Se spostate la stazione a nord, mettete cartelli chiari dall'uscita sud. Chi la usa la prima volta si perderà di sicuro.</p><div><span>Mi piace 39</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="114" aria-setsize="120" class="gaf-feed-post gaf-feed-post-114"><div><div><span>Fattorino consegne</span> <time datetime="2026-11-13T07:13:00.000Z">13 nov, 07:13</time></div><p>La uso moltissimo, quindi l'aumento pesa. Ma con il servizio h24 nel complesso sono d'accordo.</p><div><span>Mi piace 24</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="115" aria-setsize="120" class="gaf-feed-post gaf-feed-post-115"><div><div><span>Tommaso</span> <time datetime="2026-11-13T08:07:00.000Z">13 nov, 08:07</time></div><p>Se vicino a casa arrivasse un'elettrica che possono usare anche i miei genitori, non porterebbero più pesi dopo la spesa.</p><div><span>Mi piace 33</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="116" aria-setsize="120" class="gaf-feed-post gaf-feed-post-116"><div><div><span>Gruppo ambiente</span> <time datetime="2026-11-13T08:32:00.000Z">13 nov, 08:32</time></div><p>Se pubblicaste i dati d'uso (a che ora e dove si usano le bici), li analizzeremmo volentieri nel nostro gruppo.</p><div><span>Mi piace 34</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="117" aria-setsize="120" class="gaf-feed-post gaf-feed-post-117"><div><div><span>Personale universitario</span> <time datetime="2026-11-13T09:26:00.000Z">13 nov, 09:26</time> <span>↳ Gruppo ambiente</span></div><p>Ottimo anche come materiale per le lezioni. Se i dati sono pubblicati in forma anonima, sono d'accordo.</p><div><span>Mi piace 3</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="118" aria-setsize="120" class="gaf-feed-post gaf-feed-post-118"><div><div><span>Marta</span> <time datetime="2026-11-13T09:40:00.000Z">13 nov, 09:40</time></div><p>Ci sono tante opinioni, ma la direzione è sicuramente quella di muoversi meglio in città. Sono fiduciosa.</p><div><span>Mi piace 20</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="119" aria-setsize="120" class="gaf-feed-post gaf-feed-post-119"><div><div><span>Senza patente</span> <time datetime="2026-11-13T10:34:00.000Z">13 nov, 10:34</time></div><p>Dal 1° aprile cambia tutto subito? Elettriche e stazioni arriveranno a poco a poco?</p><div><span>Mi piace 29</span> <span>Rispondi</span></div></div></article><article role="article" aria-posinset="120" aria-setsize="120" class="gaf-feed-post gaf-feed-post-120"><div><div><span>Segreteria di Porto in Bici</span> <span>Gestore</span> <time datetime="2026-11-13T11:14:00.000Z">13 nov, 11:14</time> <span>↳ Senza patente</span></div><p>Tariffe e servizio h24 valgono dal 1° aprile. Elettriche e stazioni aumenteranno gradualmente da aprile a giugno.</p><div><span>Mi piace 18</span> <span>Rispondi</span></div></div></article></div></div>
+      </section>
+    
+    
+  </main>
+  <a class="gaf-toc-fab" href="#gaf-toc">Torna al sommario</a>
+  <script type="application/json" id="gaf-search-config">{"searchPlaceholder":"Cerca nel documento","searchHeadingsOnly":"Solo titoli","searchMatches":"{current} / {total}","searchNoMatches":"Nessuna corrispondenza","searchTooMany":"Oltre 2.000 corrispondenze: affina la ricerca","searchPrev":"Precedente","searchNext":"Successivo","searchClear":"Cancella","collapseAll":"Comprimi tutte le pagine","expandAll":"Espandi tutte le pagine","collapsePage":"Comprimi questa pagina","expandPage":"Espandi questa pagina","themeLabel":"Tema","themeAuto":"Automatico","themeLight":"Chiaro","themeDark":"Scuro"}</script>
+  <script>(function () {
+  'use strict';
+  var configEl = document.getElementById('gaf-search-config');
+  var labels = {};
+  try { labels = JSON.parse(configEl.textContent) || {}; } catch (e) { labels = {}; }
+  function L(key, fallback) { return (labels && typeof labels[key] === 'string') ? labels[key] : fallback; }
+  var MAX_MARKS = 2000;
+  var hits = [];
+  var currentIndex = -1;
+  var debounceTimer = null;
+  var cappedSearch = false;
+  var searchRun = 0;
+  var lastQuery = null;
+  var lastHeadings = false;
+  var HEADINGS = { h1: 1, h2: 1, h3: 1, h4: 1, h5: 1, h6: 1 };
+  function ready(fn) {
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fn);
+    else fn();
+  }
+  function makeButton(text, title, ariaLabel) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = text;
+    if (title) b.title = title;
+    if (ariaLabel) b.setAttribute('aria-label', ariaLabel);
+    return b;
+  }
+  function fold(value) {
+    try { return value.normalize('NFKC').toLowerCase(); } catch (e) { return value.toLowerCase(); }
+  }
+  var MARK_RE = null;
+  try { MARK_RE = new RegExp('^[\\p{M}\\uFF9E\\uFF9F]$', 'u'); } catch (e) { MARK_RE = /^[\u0300-\u036F\u3099\u309A\uFF9E\uFF9F]$/; }
+  function nextCodePoint(value, i) {
+    var c = value.charCodeAt(i);
+    if (c >= 0xD800 && c <= 0xDBFF && i + 1 < value.length) {
+      var d = value.charCodeAt(i + 1);
+      if (d >= 0xDC00 && d <= 0xDFFF) return i + 2;
+    }
+    return i + 1;
+  }
+  function foldedMap(value) {
+    var norm = '';
+    var map = [];
+    var ends = [];
+    var i = 0;
+    while (i < value.length) {
+      var start = i;
+      i = nextCodePoint(value, i);
+      while (i < value.length) {
+        var after = nextCodePoint(value, i);
+        if (!MARK_RE.test(value.slice(i, after))) break;
+        i = after;
+      }
+      var piece = fold(value.slice(start, i));
+      for (var j = 0; j < piece.length; j++) { norm += piece.charAt(j); map.push(start); ends.push(i); }
+    }
+    map.push(value.length);
+    return { norm: norm, map: map, ends: ends };
+  }
+  function getPages() { return document.querySelectorAll('section.gaf-page'); }
+  function allDocs() {
+    var docs = [document];
+    var frames = document.querySelectorAll('iframe.gaf-look-frame');
+    for (var i = 0; i < frames.length; i++) {
+      try { if (frames[i].contentDocument && frames[i].contentDocument.body) docs.push(frames[i].contentDocument); } catch (e) {}
+    }
+    var hosts = document.querySelectorAll('.gaf-look-host');
+    for (var h = 0; h < hosts.length; h++) if (hosts[h].shadowRoot) docs.push(hosts[h].shadowRoot);
+    return docs;
+  }
+  function counterEl() { return document.getElementById('gaf-search-count'); }
+  function clearCounter() { var c = counterEl(); if (c) { c.textContent = ''; c.removeAttribute('title'); } }
+  function clearMarks() {
+    var docs = allDocs();
+    for (var d = 0; d < docs.length; d++) {
+      var marks = docs[d].querySelectorAll('mark.gaf-search-hit');
+      for (var i = 0; i < marks.length; i++) {
+        var mark = marks[i];
+        var parent = mark.parentNode;
+        if (!parent) continue;
+        while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
+        parent.removeChild(mark);
+        if (parent.normalize) parent.normalize();
+      }
+    }
+    hits = [];
+    currentIndex = -1;
+    cappedSearch = false;
+    lastQuery = null;
+  }
+  var INLINE = { a: 1, abbr: 1, b: 1, bdi: 1, bdo: 1, cite: 1, code: 1, data: 1, del: 1, dfn: 1, em: 1, font: 1, i: 1, ins: 1, kbd: 1, label: 1, q: 1, s: 1, samp: 1, small: 1, span: 1, strong: 1, sub: 1, sup: 1, time: 1, tt: 1, u: 1, var: 1 };
+  function collectRuns(root, headingsOnly, runs) {
+    var current = null;
+    function flush() {
+      if (current) {
+        for (var k = 0; k < current.length; k++) if (current[k].nodeValue.trim()) { runs.push(current); break; }
+      }
+      current = null;
+    }
+    function walk(node, inHeading) {
+      for (var child = node.firstChild; child; child = child.nextSibling) {
+        if (child.nodeType === 3) {
+          if (!child.nodeValue || (headingsOnly && !inHeading)) continue;
+          if (!current) current = [];
+          current.push(child);
+          continue;
+        }
+        if (child.nodeType !== 1) continue;
+        var name = child.nodeName ? child.nodeName.toLowerCase() : '';
+        if (name === 'mark' || name === 'script' || name === 'style') { flush(); continue; }
+        var inline = INLINE[name] === 1;
+        if (!inline) flush();
+        walk(child, inHeading || HEADINGS[name] === 1);
+        if (!inline) flush();
+      }
+    }
+    walk(root, false);
+    flush();
+    return runs;
+  }
+  function updateCounter() {
+    var counter = counterEl();
+    if (!counter) return;
+    if (!hits.length) { counter.textContent = L('searchNoMatches', 'No matches'); counter.removeAttribute('title'); return; }
+    var template = L('searchMatches', '{current} / {total}');
+    var current = currentIndex >= 0 ? (currentIndex + 1) : 1;
+    var total = String(hits.length) + (cappedSearch ? '+' : '');
+    counter.textContent = template.split('{current}').join(String(current)).split('{total}').join(total);
+    if (cappedSearch) counter.title = L('searchTooMany', '2,000+ matches');
+    else counter.removeAttribute('title');
+  }
+  function setToggleState(page, collapsed) {
+    var t = page.querySelector('.gaf-page-toggle');
+    if (!t) return;
+    t.textContent = collapsed ? '\u002b' : '\u2212';
+    t.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+    t.setAttribute('aria-label', collapsed ? L('expandPage', 'Expand this page') : L('collapsePage', 'Collapse this page'));
+  }
+  function setHitClass(mark, name) {
+    var parts = mark.gafParts || [mark];
+    for (var i = 0; i < parts.length; i++) parts[i].className = name;
+  }
+  function setCurrent(index) {
+    if (!hits.length) return;
+    if (currentIndex >= 0 && hits[currentIndex]) setHitClass(hits[currentIndex], 'gaf-search-hit');
+    if (index < 0) index = hits.length - 1;
+    if (index >= hits.length) index = 0;
+    currentIndex = index;
+    var mark = hits[currentIndex];
+    setHitClass(mark, 'gaf-search-hit gaf-search-current');
+    var owner = mark.ownerDocument;
+    var host = owner && owner !== document && owner.defaultView && owner.defaultView.frameElement ? owner.defaultView.frameElement : mark;
+    var shadow = host === mark && mark.getRootNode ? mark.getRootNode() : null;
+    if (shadow && shadow.host) host = shadow.host;
+    var page = host.closest ? host.closest('section.gaf-page') : null;
+    if (page && page.classList.contains('gaf-collapsed')) {
+      page.classList.remove('gaf-collapsed');
+      setToggleState(page, false);
+    }
+    if (mark.scrollIntoView) mark.scrollIntoView({ block: 'center' });
+    updateCounter();
+  }
+  function nextHit() { if (hits.length) setCurrent(currentIndex + 1); }
+  function prevHit() { if (hits.length) setCurrent(currentIndex - 1); }
+  function processNode(node, needle) {
+    if (!node.parentNode) return;
+    var value = node.nodeValue;
+    var folded = foldedMap(value);
+    var idx = folded.norm.indexOf(needle);
+    if (idx === -1) return;
+    var doc = node.ownerDocument || document;
+    var frag = doc.createDocumentFragment();
+    var last = 0;
+    while (idx !== -1) {
+      var rawStart = folded.map[idx];
+      var rawEnd = folded.ends[idx + needle.length - 1];
+      if (rawEnd <= rawStart) rawEnd = rawStart + 1;
+      if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
+      else if (rawStart < last) rawStart = last;
+      var mark = doc.createElement('mark');
+      mark.className = 'gaf-search-hit';
+      mark.textContent = value.slice(rawStart, rawEnd);
+      frag.appendChild(mark);
+      hits.push(mark);
+      last = rawEnd;
+      if (hits.length >= MAX_MARKS) { cappedSearch = true; break; }
+      idx = folded.norm.indexOf(needle, idx + needle.length);
+      while (idx !== -1 && folded.map[idx] < last) idx = folded.norm.indexOf(needle, idx + 1);
+    }
+    if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
+    node.parentNode.replaceChild(frag, node);
+  }
+  function processRun(run, needle) {
+    if (run.length === 1) { processNode(run[0], needle); return; }
+    var parts = [];
+    var norm = '';
+    for (var p = 0; p < run.length; p++) {
+      var f = foldedMap(run[p].nodeValue);
+      parts.push({ node: run[p], folded: f, start: norm.length, cuts: [] });
+      norm += f.norm;
+    }
+    var idx = norm.indexOf(needle);
+    if (idx === -1) return;
+    var groups = [];
+    while (idx !== -1) {
+      var end = idx + needle.length;
+      var group = [];
+      groups.push(group);
+      for (var r = 0; r < parts.length; r++) {
+        var part = parts[r];
+        var partEnd = part.start + part.folded.norm.length;
+        if (partEnd <= idx || part.start >= end) continue;
+        var from = Math.max(idx, part.start) - part.start;
+        var to = Math.min(end, partEnd) - part.start;
+        part.cuts.push({ rawStart: part.folded.map[from], rawEnd: part.folded.ends[to - 1], group: group });
+      }
+      if (hits.length + groups.length >= MAX_MARKS) { cappedSearch = true; break; }
+      idx = norm.indexOf(needle, end);
+    }
+    for (var s = 0; s < parts.length; s++) {
+      var node = parts[s].node;
+      if (!parts[s].cuts.length || !node.parentNode) continue;
+      var value = node.nodeValue;
+      var doc = node.ownerDocument || document;
+      var frag = doc.createDocumentFragment();
+      var last = 0;
+      for (var t = 0; t < parts[s].cuts.length; t++) {
+        var cut = parts[s].cuts[t];
+        var rawStart = cut.rawStart < last ? last : cut.rawStart;
+        if (cut.rawEnd <= rawStart) continue;
+        if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
+        var mark = doc.createElement('mark');
+        mark.className = 'gaf-search-hit';
+        mark.textContent = value.slice(rawStart, cut.rawEnd);
+        frag.appendChild(mark);
+        cut.group.push(mark);
+        last = cut.rawEnd;
+      }
+      if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    }
+    for (var g = 0; g < groups.length; g++) {
+      if (!groups[g].length) continue;
+      groups[g][0].gafParts = groups[g];
+      hits.push(groups[g][0]);
+    }
+  }
+  function highlight(query, headingsOnly) {
+    var needle = fold(query || '').replace(/^\s+|\s+$/g, '');
+    if (needle === lastQuery && headingsOnly === lastHeadings) return;
+    searchRun += 1;
+    var runId = searchRun;
+    clearMarks();
+    if (!needle || needle.length < 2) { clearCounter(); lastQuery = needle || null; lastHeadings = headingsOnly; return; }
+    lastQuery = needle;
+    lastHeadings = headingsOnly;
+    var pages = getPages();
+    var nodes = [];
+    for (var pi = 0; pi < pages.length; pi++) {
+      collectRuns(pages[pi], headingsOnly, nodes);
+      var pageFrames = pages[pi].querySelectorAll('iframe.gaf-look-frame');
+      for (var fi = 0; fi < pageFrames.length; fi++) {
+        var frameDoc = null;
+        try { frameDoc = pageFrames[fi].contentDocument; } catch (e) { frameDoc = null; }
+        if (!frameDoc || !frameDoc.body) continue;
+        collectRuns(frameDoc.body, headingsOnly, nodes);
+      }
+      var pageHosts = pages[pi].querySelectorAll('.gaf-look-host');
+      for (var hi = 0; hi < pageHosts.length; hi++) {
+        if (!pageHosts[hi].shadowRoot) continue;
+        collectRuns(pageHosts[hi].shadowRoot, headingsOnly, nodes);
+      }
+    }
+    var index = 0;
+    var CHUNK = 1500;
+    function step() {
+      if (runId !== searchRun) return;
+      var end = index + CHUNK;
+      if (end > nodes.length) end = nodes.length;
+      for (; index < end && !cappedSearch; index++) processRun(nodes[index], needle);
+      if (index < nodes.length && !cappedSearch) {
+        updateCounter();
+        if (window.requestAnimationFrame) window.requestAnimationFrame(step);
+        else setTimeout(step, 0);
+        return;
+      }
+      updateCounter();
+      if (hits.length) setCurrent(0);
+    }
+    step();
+  }
+  ready(function () {
+    var bar = document.createElement('div');
+    bar.className = 'gaf-search';
+    bar.setAttribute('role', 'search');
+    bar.setAttribute('aria-label', L('searchPlaceholder', 'Search this document'));
+    var input = document.createElement('input');
+    input.type = 'search';
+    input.className = 'gaf-search-input';
+    input.placeholder = L('searchPlaceholder', 'Search this document');
+    input.setAttribute('aria-label', L('searchPlaceholder', 'Search this document'));
+    bar.appendChild(input);
+    var headingsLabel = document.createElement('label');
+    headingsLabel.className = 'gaf-search-headings';
+    var headingsCheck = document.createElement('input');
+    headingsCheck.type = 'checkbox';
+    headingsLabel.appendChild(headingsCheck);
+    headingsLabel.appendChild(document.createTextNode(' ' + L('searchHeadingsOnly', 'Headings only')));
+    bar.appendChild(headingsLabel);
+    var prevBtn = makeButton('\u2190', L('searchPrev', 'Previous'), L('searchPrev', 'Previous'));
+    var nextBtn = makeButton('\u2192', L('searchNext', 'Next'), L('searchNext', 'Next'));
+    bar.appendChild(prevBtn);
+    bar.appendChild(nextBtn);
+    var counter = document.createElement('span');
+    counter.className = 'gaf-search-count';
+    counter.id = 'gaf-search-count';
+    counter.setAttribute('aria-live', 'polite');
+    counter.setAttribute('aria-atomic', 'true');
+    bar.appendChild(counter);
+    var clearBtn = makeButton(L('searchClear', 'Clear'), L('searchClear', 'Clear'));
+    bar.appendChild(clearBtn);
+    var collapseBtn = makeButton(L('collapseAll', 'Collapse all pages'), L('collapseAll', 'Collapse all pages'));
+    var expandBtn = makeButton(L('expandAll', 'Expand all pages'), L('expandAll', 'Expand all pages'));
+    bar.appendChild(collapseBtn);
+    bar.appendChild(expandBtn);
+    var THEMES = ['auto', 'light', 'dark'];
+    var themeBtn = makeButton('', L('themeLabel', 'Theme'), '');
+    themeBtn.className = 'gaf-theme-toggle';
+    var theme = 'auto';
+    try { theme = window.localStorage.getItem('gaf-export-theme') || 'auto'; } catch (e) { theme = 'auto'; }
+    if (THEMES.indexOf(theme) < 0) theme = 'auto';
+    function applyTheme() {
+      if (theme === 'auto') document.documentElement.removeAttribute('data-gaf-theme');
+      else document.documentElement.setAttribute('data-gaf-theme', theme);
+      var name = theme === 'light' ? L('themeLight', 'Light') : (theme === 'dark' ? L('themeDark', 'Dark') : L('themeAuto', 'Auto'));
+      themeBtn.textContent = L('themeLabel', 'Theme') + ': ' + name;
+      themeBtn.setAttribute('aria-label', themeBtn.textContent);
+    }
+    applyTheme();
+    themeBtn.addEventListener('click', function () {
+      theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length];
+      applyTheme();
+      try { window.localStorage.setItem('gaf-export-theme', theme); } catch (e) {}
+    });
+    bar.appendChild(themeBtn);
+    if (document.body.firstChild) document.body.insertBefore(bar, document.body.firstChild);
+    else document.body.appendChild(bar);
+    function runSearch() { highlight(input.value.trim(), headingsCheck.checked); }
+    input.addEventListener('input', function () {
+      if (debounceTimer) clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(runSearch, 200);
+    });
+    input.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        if (event.shiftKey) prevHit(); else nextHit();
+      } else if (event.key === 'Escape') {
+        input.value = '';
+        searchRun += 1; clearTimeout(debounceTimer);
+        clearMarks();
+        clearCounter();
+      }
+    });
+    headingsCheck.addEventListener('change', runSearch);
+    prevBtn.addEventListener('click', prevHit);
+    nextBtn.addEventListener('click', nextHit);
+    clearBtn.addEventListener('click', function () {
+      input.value = '';
+      searchRun += 1; clearTimeout(debounceTimer);
+      clearMarks();
+      clearCounter();
+      input.focus();
+    });
+    var pages = getPages();
+    for (var i = 0; i < pages.length; i++) {
+      (function (page) {
+        var header = page.querySelector('header.gaf-page-header');
+        if (!header) return;
+        var toggle = makeButton('\u2212', '', L('collapsePage', 'Collapse this page'));
+        toggle.className = 'gaf-page-toggle';
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.addEventListener('click', function () {
+          page.classList.toggle('gaf-collapsed');
+          setToggleState(page, page.classList.contains('gaf-collapsed'));
+        });
+        header.insertBefore(toggle, header.firstChild);
+      })(pages[i]);
+    }
+    collapseBtn.addEventListener('click', function () {
+      var ps = getPages();
+      for (var j = 0; j < ps.length; j++) {
+        ps[j].classList.add('gaf-collapsed');
+        setToggleState(ps[j], true);
+      }
+    });
+    expandBtn.addEventListener('click', function () {
+      var ps = getPages();
+      for (var k = 0; k < ps.length; k++) {
+        ps[k].classList.remove('gaf-collapsed');
+        setToggleState(ps[k], false);
+      }
+    });
+  });
+})();</script>
+  
+  
+</body>
+</html>

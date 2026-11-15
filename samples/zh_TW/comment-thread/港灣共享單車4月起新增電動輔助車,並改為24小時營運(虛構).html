@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data: file:; style-src 'unsafe-inline'; font-src data:; script-src 'sha256-pw2AXM+sb7/gGaP1j+lzN6KvzaWNwd9xnoM4kXT/z00=';">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>港灣共享單車4月起新增電動輔助車，並改為24小時營運（虛構）</title>
+  <style>
+      :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Yu Gothic UI", Meiryo, sans-serif; line-height: 1.65; color: #1f2937; background: #fff; }
+      body { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+      /* The search bar is sticky (~3rem) — without this every anchor jump (TOC,
+         cross-page links, search hits) lands with its first line hidden under it. */
+      [id] { scroll-margin-top: 4.5rem; }
+      /* A source page's own headings are demoted by two levels to sit under this
+         page's <h2> title (h1->h3, h2->h4, ...), so a page whose own subheadings
+         were h3/h4 lands on h5/h6 here. Nothing set their size, so they fell back
+         to the browser default (h5 ~0.83em, h6 ~0.67em) — reported as unreadably
+         small text spread across thousands of headings in a real 766-page export.
+         Neither level should render smaller than body text. */
+      h5 { font-size: 1.05em; }
+      h6 { font-size: 1em; }
+      a { color: #075ea8; overflow-wrap: anywhere; }
+      /* GAF-233: an anchor rewritten as external always carries this exact
+         rel value (see rewriteHref/cleanNode); internal anchors never do, so
+         this reliably marks "leaves the archive" without a separate class. */
+      a[rel="noopener noreferrer"]::after { content: "↗"; display: inline-block; margin-left: .15em; font-size: .85em; opacity: .65; text-decoration: none; }
+      .gaf-toc-fab { position: fixed; right: 1rem; bottom: 1rem; z-index: 15; background: #075ea8; color: #fff; padding: .5rem 1rem; border-radius: 999px; text-decoration: none; font-size: .85rem; box-shadow: 0 2px 8px rgba(15,23,42,.35); }
+      .gaf-toc-fab:hover { background: #0a6fc2; }
+      .gaf-toc-fab::after { content: none; }
+      .gaf-document-header { border-bottom: 3px solid #334155; margin-bottom: 2rem; }
+      .gaf-meta { display: grid; grid-template-columns: max-content 1fr; gap: .25rem 1rem; }
+      .gaf-meta dt { font-weight: 700; }
+      .gaf-meta dd { margin: 0; }
+      .gaf-warning { border: 1px solid #b45309; background: #fff7ed; padding: .75rem; }
+      .gaf-partial-warning { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; margin: 0 0 1.5rem; border: 2px solid #b45309; border-radius: 8px; background: #fff7ed; color: #7c2d12; padding: 1rem 1.1rem; }
+      .gaf-partial-warning a { font-weight: 700; }
+      .gaf-look-fallback { margin: .4rem 0 .8rem; border-left: 4px solid #b45309; background: #fff7ed; color: #7c2d12; padding: .45rem .75rem; font-size: .9rem; }
+      .gaf-static-note { margin: .4rem 0 .8rem; border-left: 4px solid #2563eb; background: #eff6ff; color: #1e3a8a; padding: .45rem .75rem; font-size: .9rem; }
+      .gaf-page { margin: 2.5rem 0; padding-top: .5rem; border-top: 2px solid #cbd5e1; }
+      .gaf-page-content img { max-width: 100%; height: auto; }
+      /* An icon beside a link's words in a table cell (a country's flag before
+         its code) had no size of its own and was drawn as wide as the page
+         (olympedia's medal table, 2026-10-22). */
+      .gaf-page-content :is(td, th) a img { max-height: 1.6em; width: auto; vertical-align: middle; }
+      .gaf-image-placeholder, .gaf-unsafe-placeholder { display: inline-block; border: 1px dashed #94a3b8; padding: .2rem .4rem; color: #475569; }
+      table { border-collapse: collapse; max-width: 100%; margin: 1rem 0; }
+      th, td { border: 1px solid #94a3b8; padding: .4rem .55rem; vertical-align: top; }
+      th { background: #f1f5f9; }
+      pre { overflow: auto; padding: .8rem; background: #f8fafc; border: 1px solid #cbd5e1; white-space: pre-wrap; }
+      code { font-family: Consolas, "SFMono-Regular", monospace; }
+      blockquote { border-left: 4px solid #94a3b8; margin-left: 0; padding-left: 1rem; }
+      .gaf-page-toggle { margin-right: .5rem; border: 1px solid #cbd5e1; background: #f1f5f9; color: #334155; border-radius: 4px; cursor: pointer; font: inherit; line-height: 1; padding: 0 .45rem; }
+      .gaf-page-toggle:hover { background: #e2e8f0; }
+      .gaf-page.gaf-collapsed .gaf-page-content { display: none; }
+      .gaf-search { position: sticky; top: 0; z-index: 20; display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: 0 0 1.5rem; padding: .55rem .7rem; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; }
+      .gaf-search .gaf-search-input { flex: 1 1 12rem; min-width: 8rem; padding: .35rem .5rem; border: 1px solid #94a3b8; border-radius: 4px; font: inherit; color: #1f2937; background: #fff; }
+      .gaf-search button { padding: .3rem .6rem; border: 1px solid #94a3b8; background: #fff; color: #1f2937; border-radius: 4px; cursor: pointer; font: inherit; }
+      .gaf-search button:hover { background: #f1f5f9; }
+      .gaf-search .gaf-search-count { min-width: 4.5rem; color: #475569; font-size: .85rem; }
+      .gaf-search .gaf-search-headings { display: inline-flex; align-items: center; gap: .25rem; color: #334155; font-size: .85rem; }
+      mark.gaf-search-hit { background: #fef08a; color: inherit; padding: 0 .05em; border-radius: 2px; }
+      mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+      @media (prefers-color-scheme: dark) {
+:root:not([data-gaf-theme="light"]) { color: #e2e8f0; background: #0f172a; }
+:root:not([data-gaf-theme="light"]) a { color: #7cc0f5; }
+:root:not([data-gaf-theme="light"]) img[data-gaf-math] { filter: invert(1) hue-rotate(180deg); }
+:root:not([data-gaf-theme="light"]) .gaf-toc-fab { background: #1d4ed8; }
+:root:not([data-gaf-theme="light"]) .gaf-toc-fab:hover { background: #2563eb; }
+:root:not([data-gaf-theme="light"]) .gaf-document-header { border-bottom-color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) .gaf-warning { border-color: #d97706; background: #451a03; }
+:root:not([data-gaf-theme="light"]) .gaf-partial-warning { border-color: #f59e0b; background: #451a03; color: #ffedd5; }
+:root:not([data-gaf-theme="light"]) .gaf-page { border-top-color: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-image-placeholder, :root:not([data-gaf-theme="light"]) .gaf-unsafe-placeholder { border-color: #475569; color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) th, :root:not([data-gaf-theme="light"]) td { border-color: #475569; }
+:root:not([data-gaf-theme="light"]) th { background: #1e293b; }
+:root:not([data-gaf-theme="light"]) pre { background: #1e293b; border-color: #334155; }
+:root:not([data-gaf-theme="light"]) blockquote { border-left-color: #475569; }
+:root:not([data-gaf-theme="light"]) .gaf-page-toggle { border-color: #475569; background: #1e293b; color: #cbd5e1; }
+:root:not([data-gaf-theme="light"]) .gaf-page-toggle:hover { background: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-search { background: #1e293b; border-color: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-input { border-color: #475569; color: #e2e8f0; background: #0f172a; }
+:root:not([data-gaf-theme="light"]) .gaf-search button { border-color: #475569; background: #0f172a; color: #e2e8f0; }
+:root:not([data-gaf-theme="light"]) .gaf-search button:hover { background: #1e293b; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-count { color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-headings { color: #cbd5e1; }
+:root:not([data-gaf-theme="light"]) mark.gaf-search-hit { background: #854d0e; color: #fef9c3; }
+:root:not([data-gaf-theme="light"]) mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+
+}
+:root[data-gaf-theme="dark"] { color: #e2e8f0; background: #0f172a; }
+:root[data-gaf-theme="dark"] a { color: #7cc0f5; }
+:root[data-gaf-theme="dark"] img[data-gaf-math] { filter: invert(1) hue-rotate(180deg); }
+:root[data-gaf-theme="dark"] .gaf-toc-fab { background: #1d4ed8; }
+:root[data-gaf-theme="dark"] .gaf-toc-fab:hover { background: #2563eb; }
+:root[data-gaf-theme="dark"] .gaf-document-header { border-bottom-color: #94a3b8; }
+:root[data-gaf-theme="dark"] .gaf-warning { border-color: #d97706; background: #451a03; }
+:root[data-gaf-theme="dark"] .gaf-partial-warning { border-color: #f59e0b; background: #451a03; color: #ffedd5; }
+:root[data-gaf-theme="dark"] .gaf-page { border-top-color: #334155; }
+:root[data-gaf-theme="dark"] .gaf-image-placeholder, :root[data-gaf-theme="dark"] .gaf-unsafe-placeholder { border-color: #475569; color: #94a3b8; }
+:root[data-gaf-theme="dark"] th, :root[data-gaf-theme="dark"] td { border-color: #475569; }
+:root[data-gaf-theme="dark"] th { background: #1e293b; }
+:root[data-gaf-theme="dark"] pre { background: #1e293b; border-color: #334155; }
+:root[data-gaf-theme="dark"] blockquote { border-left-color: #475569; }
+:root[data-gaf-theme="dark"] .gaf-page-toggle { border-color: #475569; background: #1e293b; color: #cbd5e1; }
+:root[data-gaf-theme="dark"] .gaf-page-toggle:hover { background: #334155; }
+:root[data-gaf-theme="dark"] .gaf-search { background: #1e293b; border-color: #334155; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-input { border-color: #475569; color: #e2e8f0; background: #0f172a; }
+:root[data-gaf-theme="dark"] .gaf-search button { border-color: #475569; background: #0f172a; color: #e2e8f0; }
+:root[data-gaf-theme="dark"] .gaf-search button:hover { background: #1e293b; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-count { color: #94a3b8; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-headings { color: #cbd5e1; }
+:root[data-gaf-theme="dark"] mark.gaf-search-hit { background: #854d0e; color: #fef9c3; }
+:root[data-gaf-theme="dark"] mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+
+:root[data-gaf-theme="dark"] { color-scheme: dark; }
+:root[data-gaf-theme="light"] { color-scheme: light; }
+
+      @page { size: A4; margin: 15mm; }
+      @media print {
+        body { max-width: none; margin: 0; padding: 0; font-size: 10.5pt; }
+        nav a { color: inherit; text-decoration: none; }
+        .gaf-search, .gaf-page-toggle, .gaf-toc-fab { display: none !important; }
+        .gaf-page.gaf-collapsed .gaf-page-content { display: block; }
+        .gaf-page { break-before: page; page-break-before: always; }
+        .gaf-page:first-of-type { break-before: auto; page-break-before: auto; }
+        /* Only short blocks are kept whole. A table or <pre> longer than a page
+           cannot be, and asking for it pushed it to a fresh page and left the
+           rest of the previous one blank. */
+        h1, h2, h3, h4, h5, h6 { break-after: avoid; page-break-after: avoid; break-inside: avoid; }
+        figure, blockquote, tr, img { break-inside: avoid; page-break-inside: avoid; }
+        /* Printing every link's address after it made URLs 36-84% of the text in
+           most printed exports (one page reached 4099 PDF pages); the links stay
+           clickable in a saved PDF, so the address is not printed. */
+        a::after, a[rel="noopener noreferrer"]::after { content: none !important; }
+        /* A table wider than the paper was cut at the right edge. It is set
+           smaller, and a link's address in a cell may wrap anywhere; words and
+           numbers are not split letter by letter (that made every column one
+           letter wide), so a table still wider is shrunk with the page. */
+        table { width: auto !important; max-width: 100% !important; table-layout: auto; font-size: 8pt; }
+        th, td { overflow-wrap: break-word; padding: .15rem .25rem; }
+        :is(th, td) a { overflow-wrap: anywhere; }
+        thead { display: table-header-group; }
+        pre, code { white-space: pre-wrap; overflow-wrap: anywhere; }
+        .gaf-page-content img { max-height: 24cm; object-fit: contain; }
+      }
+    </style>
+</head>
+<body>
+  <header class="gaf-document-header">
+    <h1>港灣共享單車4月起新增電動輔助車，並改為24小時營運（虛構）</h1>
+    
+    
+  </header>
+  
+  <nav id="gaf-toc" aria-label="目錄">
+    <h2>目錄</h2>
+    <ol><li><a href="#gaf-page-p00001">港灣共享單車4月起新增電動輔助車，並改為24小時營運（虛構）</a></li></ol>
+  </nav>
+  <main>
+    <section class="gaf-page" id="gaf-page-p00001">
+        <header class="gaf-page-header">
+          <h2>港灣共享單車4月起新增電動輔助車，並改為24小時營運（虛構）</h2>
+        </header>
+        <div class="gaf-page-content"><article><p>交通・都市建設</p><h3>港灣共享單車4月起新增電動輔助車，並改為24小時營運（虛構）</h3><p>2026年11月10日</p>
+<p>港灣市宣布，市內的共享單車服務「港灣共享單車」將自4月1日起大幅調整。本文中的城市、服務與人物皆為虛構。</p><p>主要變更如下，歡迎在頁面下方的留言區提供意見。</p>
+<ul><li>新增150輛電動輔助腳踏車（優先配置在坡多的山丘區）</li><li>增設12處站點（港南、山丘區、市立醫院前等）</li><li>取消凌晨0點至5點的停駛，改為24小時可使用</li><li>費用調整：每30分鐘15元→18元，月票200元→220元</li><li>新設學生月票（150元）</li><li>因站前廣場施工，中央車站站點自4月起遷至北出口側，為期一年</li></ul>
+<p>市府將徵詢意見至2月底，預計於3月的交通委員會決定最終方案。</p></article>
+<section aria-labelledby="gaf-p00001-comments-title">
+<div><h4 id="gaf-p00001-comments-title">留言</h4><span>120則留言 · 由舊到新</span></div>
+<div role="feed" aria-labelledby="gaf-p00001-comments-title" aria-busy="false" id="gaf-p00001-thread"><article role="article" aria-posinset="1" aria-setsize="120" class="gaf-feed-post gaf-feed-post-1"><div><div><span>港邊阿芬</span> <time datetime="2026-11-10T09:34:00.000Z">11月10日 上午09:34</time></div><p>電動輔助終於來了！山丘區的坡太陡，我每次騎到一半都得下來牽，這下真的太開心了。</p><div><span>讚 31</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="2" aria-setsize="120" class="gaf-feed-post gaf-feed-post-2"><div><div><span>爬坡跑者</span> <time datetime="2026-11-10T10:18:00.000Z">11月10日 上午10:18</time></div><p>30分鐘18元是不是太貴了？15元的時候就跟公車差不多，這樣我乾脆搭公車好了。</p><div><span>讚 20</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="3" aria-setsize="120" class="gaf-feed-post gaf-feed-post-3"><div><div><span>吳俊賢</span> <time datetime="2026-11-10T11:12:00.000Z">11月10日 上午11:12</time> <span>↳ 爬坡跑者</span></div><p>同感。要漲的話，可不可以只讓前15分鐘便宜一點，照顧一下騎很短的人。</p><div><span>讚 13</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="4" aria-setsize="120" class="gaf-feed-post gaf-feed-post-4"><div><div><span>港口通勤族</span> <time datetime="2026-11-10T11:47:00.000Z">11月10日 上午11:47</time> <span>↳ 爬坡跑者</span></div><p>辦月票的話，平均一天才7塊多，天天騎的人還是划算啦。</p><div><span>讚 26</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="5" aria-setsize="120" class="gaf-feed-post gaf-feed-post-5"><div><div><span>剛下大夜班的K</span> <time datetime="2026-11-10T12:12:00.000Z">11月10日 下午12:12</time></div><p>我上大夜班，24小時營運真的太貼心了。以前要等到早上5點才叫得到計程車，這下方便多了。</p><div><span>讚 27</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="6" aria-setsize="120" class="gaf-feed-post gaf-feed-post-6"><div><div><span>住山丘上</span> <time datetime="2026-11-10T12:56:00.000Z">11月10日 下午12:56</time></div><p>電動輔助車跟一般單車是同樣價格嗎？如果另外收費，也請寫在報導裡。</p><div><span>讚 32</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="7" aria-setsize="120" class="gaf-feed-post gaf-feed-post-7"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-10T13:21:00.000Z">11月10日 下午01:21</time> <span>↳ 住山丘上</span></div><p>感謝提問。電動輔助車與一般單車費用相同（每30分鐘18元，適用月票）。</p><div><span>讚 14</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="8" aria-setsize="120" class="gaf-feed-post gaf-feed-post-8"><div><div><span>住山丘上</span> <time datetime="2026-11-10T13:56:00.000Z">11月10日 下午01:56</time> <span>↳ 住山丘上</span></div><p>謝謝回覆。價格一樣的話我天天騎。</p><div><span>讚 38</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="9" aria-setsize="120" class="gaf-feed-post gaf-feed-post-9"><div><div><span>北出口住戶</span> <time datetime="2026-11-10T14:50:00.000Z">11月10日 下午02:50</time></div><p>中央車站的站點搬到北出口很困擾耶。我在南出口那邊上班，要繞車站一大圈。</p><div><span>讚 39</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="10" aria-setsize="120" class="gaf-feed-post gaf-feed-post-10"><div><div><span>大三的阿凱</span> <time datetime="2026-11-10T15:12:00.000Z">11月10日 下午03:12</time></div><p>學生月票150元太棒了。我走路到學校要25分鐘，這個價錢我一定辦。</p><div><span>讚 41</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="11" aria-setsize="120" class="gaf-feed-post gaf-feed-post-11"><div><div><span>雨珊</span> <time datetime="2026-11-10T16:01:00.000Z">11月10日 下午04:01</time></div><p>可以放幾輛附兒童座椅的車嗎？我想用來接送小孩上幼兒園。</p><div><span>讚 32</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="12" aria-setsize="120" class="gaf-feed-post gaf-feed-post-12"><div><div><span>推娃娃車的</span> <time datetime="2026-11-10T16:31:00.000Z">11月10日 下午04:31</time> <span>↳ 雨珊</span></div><p>我也想要。電動輔助加兒童座椅，山丘上的幼兒園也騎得到了。</p><div><span>讚 43</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="13" aria-setsize="120" class="gaf-feed-post gaf-feed-post-13"><div><div><span>單車大叔</span> <time datetime="2026-11-10T17:20:00.000Z">11月10日 下午05:20</time></div><p>改成24小時，半夜亂丟亂騎、粗魯對待車子的人會不會變多？現在就常看到座墊壞了沒人修的車。</p><div><span>讚 10</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="14" aria-setsize="120" class="gaf-feed-post gaf-feed-post-14"><div><div><span>剛下大夜班的K</span> <time datetime="2026-11-10T17:59:00.000Z">11月10日 下午05:59</time> <span>↳ 單車大叔</span></div><p>晚上騎車的大多是下班的人。會破壞車子的人，不管白天晚上都有吧。</p><div><span>讚 45</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="15" aria-setsize="120" class="gaf-feed-post gaf-feed-post-15"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-10T18:19:00.000Z">11月10日 下午06:19</time> <span>↳ 單車大叔</span></div><p>感謝關心。夜間我們會增加巡檢，損壞的車輛也能在 App 上通報。</p><div><span>讚 11</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="16" aria-setsize="120" class="gaf-feed-post gaf-feed-post-16"><div><div><span>騎車上學</span> <time datetime="2026-11-10T18:49:00.000Z">11月10日 下午06:49</time></div><p>新增的12處站點確切位置什麼時候公布？想知道會不會設在我家附近。</p><div><span>讚 47</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="17" aria-setsize="120" class="gaf-feed-post gaf-feed-post-17"><div><div><span>熊貓媽咪</span> <time datetime="2026-11-10T19:38:00.000Z">11月10日 下午07:38</time></div><p>優先配置在山丘區，我覺得是對的決定。越是有坡的地方越需要電動輔助。</p><div><span>讚 30</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="18" aria-setsize="120" class="gaf-feed-post gaf-feed-post-18"><div><div><span>港灣阿福</span> <time datetime="2026-11-10T19:59:00.000Z">11月10日 下午07:59</time></div><p>電動輔助跟24小時我都超歡迎。但如果月票價格不調漲，我會更支持。</p><div><span>讚 17</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="19" aria-setsize="120" class="gaf-feed-post gaf-feed-post-19"><div><div><span>假日騎士</span> <time datetime="2026-11-10T20:48:00.000Z">11月10日 下午08:48</time></div><p>可不可以也推出只在週末騎的人用的一日暢遊票？我覺得觀光客也會買。</p><div><span>讚 8</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="20" aria-setsize="120" class="gaf-feed-post gaf-feed-post-20"><div><div><span>外地來的觀光客</span> <time datetime="2026-11-10T21:35:00.000Z">11月10日 下午09:35</time> <span>↳ 假日騎士</span></div><p>我是來旅遊的，如果有一日票一定會用。想從港口一路逛到舊城區。</p><div><span>讚 24</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="21" aria-setsize="120" class="gaf-feed-post gaf-feed-post-21"><div><div><span>鄰里心聲</span> <time datetime="2026-11-10T22:00:00.000Z">11月10日 下午10:00</time></div><p>與其增加站點，不如把現有站點的車輛數增加。早上車站前總是空空的。</p><div><span>讚 33</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="22" aria-setsize="120" class="gaf-feed-post gaf-feed-post-22"><div><div><span>市府附近上班族</span> <time datetime="2026-11-10T22:54:00.000Z">11月10日 下午10:54</time> <span>↳ 鄰里心聲</span></div><p>反過來傍晚車站前又停滿了，還不了車。車輛分布不均請想想辦法。</p><div><span>讚 18</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="23" aria-setsize="120" class="gaf-feed-post gaf-feed-post-23"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-10T23:19:00.000Z">11月10日 下午11:19</time> <span>↳ 鄰里心聲</span></div><p>早晚的分布不均我們已掌握。4月起，貨車調度也會在早上6點多進行。</p><div><span>讚 12</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="24" aria-setsize="120" class="gaf-feed-post gaf-feed-post-24"><div><div><span>照服員M</span> <time datetime="2026-11-10T23:53:00.000Z">11月10日 下午11:53</time></div><p>我做居家照護，要騎車去各家。電動輔助的話，去山坡上的客戶家就不用汗流浹背了，幫助很大。</p><div><span>讚 28</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="25" aria-setsize="120" class="gaf-feed-post gaf-feed-post-25"><div><div><span>下雨也騎車</span> <time datetime="2026-11-11T00:18:00.000Z">11月11日 上午12:18</time></div><p>可以為站點加個遮雨棚嗎？下雨天座墊總是濕的。</p><div><span>讚 21</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="26" aria-setsize="120" class="gaf-feed-post gaf-feed-post-26"><div><div><span>舊城區居民</span> <time datetime="2026-11-11T01:12:00.000Z">11月11日 上午01:12</time></div><p>舊城區的小巷裡電動輔助車變多，速度快了好像很危險。希望在行人優先的路段規定要牽車通行。</p><div><span>讚 38</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="27" aria-setsize="120" class="gaf-feed-post gaf-feed-post-27"><div><div><span>精打細算的主婦</span> <time datetime="2026-11-11T01:37:00.000Z">11月11日 上午01:37</time> <span>↳ 舊城區居民</span></div><p>電動輔助最高也只輔助到時速25公里啦。危險的是騎車人的素質問題吧。</p><div><span>讚 39</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="28" aria-setsize="120" class="gaf-feed-post gaf-feed-post-28"><div><div><span>退休散步者</span> <time datetime="2026-11-11T02:11:00.000Z">11月11日 上午02:11</time> <span>↳ 舊城區居民</span></div><p>我散步的時候，真的常被後面靜靜騎來的單車嚇到。希望大家按個鈴。</p><div><span>讚 16</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="29" aria-setsize="120" class="gaf-feed-post gaf-feed-post-29"><div><div><span>冠廷</span> <time datetime="2026-11-11T03:05:00.000Z">11月11日 上午03:05</time></div><p>學生月票只有大學生可以辦嗎？高中生或是專科生也算嗎？</p><div><span>讚 25</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="30" aria-setsize="120" class="gaf-feed-post gaf-feed-post-30"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-11T03:38:00.000Z">11月11日 上午03:38</time> <span>↳ 冠廷</span></div><p>學生月票適用於高中職生、專科生、大學生與研究生。申請時需要上傳學生證影像。</p><div><span>讚 4</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="31" aria-setsize="120" class="gaf-feed-post gaf-feed-post-31"><div><div><span>高中老師</span> <time datetime="2026-11-11T04:27:00.000Z">11月11日 上午04:27</time> <span>↳ 冠廷</span></div><p>高中生也能辦太好了。下課後補習、活動結束得晚的學生很多，晚上也能騎讓人放心。</p><div><span>讚 18</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="32" aria-setsize="120" class="gaf-feed-post gaf-feed-post-32"><div><div><span>物流大叔</span> <time datetime="2026-11-11T04:47:00.000Z">11月11日 上午04:47</time></div><p>漲價的理由幾乎沒有說明。是電費還是人事費用？希望用數字說清楚。</p><div><span>讚 1</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="33" aria-setsize="120" class="gaf-feed-post gaf-feed-post-33"><div><div><span>家豪</span> <time datetime="2026-11-11T05:36:00.000Z">11月11日 上午05:36</time> <span>↳ 物流大叔</span></div><p>真的。比起漲價本身，沒寫理由更讓人在意。</p><div><span>讚 24</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="34" aria-setsize="120" class="gaf-feed-post gaf-feed-post-34"><div><div><span>曉晴</span> <time datetime="2026-11-11T05:56:00.000Z">11月11日 上午05:56</time></div><p>我把車賣掉改用共享單車，所以站點增加我超歡迎。</p><div><span>讚 7</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="35" aria-setsize="120" class="gaf-feed-post gaf-feed-post-35"><div><div><span>港南新住戶</span> <time datetime="2026-11-11T06:45:00.000Z">11月11日 上午06:45</time></div><p>我剛搬到港南。港南的站點是在海邊那側，還是新大樓附近？</p><div><span>讚 38</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="36" aria-setsize="120" class="gaf-feed-post gaf-feed-post-36"><div><div><span>社區委員</span> <time datetime="2026-11-11T07:05:00.000Z">11月11日 上午07:05</time> <span>↳ 港南新住戶</span></div><p>我在社區聽到的消息，好像是港南公園入口附近。正式公告好像還沒出來。</p><div><span>讚 5</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="37" aria-setsize="120" class="gaf-feed-post gaf-feed-post-37"><div><div><span>咖啡店老闆</span> <time datetime="2026-11-11T07:54:00.000Z">11月11日 上午07:54</time></div><p>店門口設了站點之後，客人有稍微變多。新站點附近的店家應該也會很高興。</p><div><span>讚 44</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="38" aria-setsize="120" class="gaf-feed-post gaf-feed-post-38"><div><div><span>芷瑄</span> <time datetime="2026-11-11T08:43:00.000Z">11月11日 上午08:43</time></div><p>希望 App 可以更準確顯示站點的可借車輛數。顯示3輛，到了卻是0輛，這種情況有過。</p><div><span>讚 11</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="39" aria-setsize="120" class="gaf-feed-post gaf-feed-post-39"><div><div><span>宥辰</span> <time datetime="2026-11-11T09:03:00.000Z">11月11日 上午09:03</time> <span>↳ 芷瑄</span></div><p>這種事很常見。至少標示一下是幾分鐘前的資料吧。</p><div><span>讚 42</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="40" aria-setsize="120" class="gaf-feed-post gaf-feed-post-40"><div><div><span>電輔派</span> <time datetime="2026-11-11T09:55:00.000Z">11月11日 上午09:55</time></div><p>電動輔助騎過一次就回不去了。我覺得150輛根本不夠，請持續增加。</p><div><span>讚 10</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="41" aria-setsize="120" class="gaf-feed-post gaf-feed-post-41"><div><div><span>國樑</span> <time datetime="2026-11-11T10:20:00.000Z">11月11日 上午10:20</time></div><p>月票漲到220元的話，希望把單次時間從30分鐘延長到45分鐘。照現在這樣不太划算。</p><div><span>讚 43</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="42" aria-setsize="120" class="gaf-feed-post gaf-feed-post-42"><div><div><span>醫院上班的</span> <time datetime="2026-11-11T11:04:00.000Z">11月11日 上午11:04</time></div><p>在市立醫院前設站真的很感謝。上大夜班的同事常常在沒公車的時間下班。</p><div><span>讚 0</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="43" aria-setsize="120" class="gaf-feed-post gaf-feed-post-43"><div><div><span>小花</span> <time datetime="2026-11-11T11:29:00.000Z">11月11日 上午11:29</time></div><p>我贊成，但電動輔助車的電池沒電了怎麼辦？車那麼重，應該比一般單車更累吧。</p><div><span>讚 9</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="44" aria-setsize="120" class="gaf-feed-post gaf-feed-post-44"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-11T12:13:00.000Z">11月11日 下午12:13</time> <span>↳ 小花</span></div><p>我們會讓您在 App 確認剩餘電量後再借車。電量偏低的車輛將停止出借，並每天更換電池。</p><div><span>讚 5</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="45" aria-setsize="120" class="gaf-feed-post gaf-feed-post-45"><div><div><span>小花</span> <time datetime="2026-11-11T12:38:00.000Z">11月11日 下午12:38</time> <span>↳ 小花</span></div><p>看得到電量就安心了，謝謝。</p><div><span>讚 47</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="46" aria-setsize="120" class="gaf-feed-post gaf-feed-post-46"><div><div><span>愛跑步的</span> <time datetime="2026-11-11T13:22:00.000Z">11月11日 下午01:22</time></div><p>擔心騎在人行道上的單車會變多。要增設站點的話，請同步完善自行車道。</p><div><span>讚 36</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="47" aria-setsize="120" class="gaf-feed-post gaf-feed-post-47"><div><div><span>雅婷</span> <time datetime="2026-11-11T14:16:00.000Z">11月11日 下午02:16</time> <span>↳ 愛跑步的</span></div><p>就算只在我通勤走的港口路劃設車道，騎起來也會順很多。</p><div><span>讚 45</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="48" aria-setsize="120" class="gaf-feed-post gaf-feed-post-48"><div><div><span>品妤</span> <time datetime="2026-11-11T14:42:00.000Z">11月11日 下午02:42</time></div><p>月票漲價，對現在已經辦月票的人，4月起也適用嗎？</p><div><span>讚 2</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="49" aria-setsize="120" class="gaf-feed-post gaf-feed-post-49"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-11T15:07:00.000Z">11月11日 下午03:07</time> <span>↳ 品妤</span></div><p>目前已持有月票的用戶，自4月份月票起適用新費用。3月內已付款的部分仍為舊費用。</p><div><span>讚 12</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="50" aria-setsize="120" class="gaf-feed-post gaf-feed-post-50"><div><div><span>老車迷</span> <time datetime="2026-11-11T15:43:00.000Z">11月11日 下午03:43</time></div><p>電動輔助車很重，個子矮的人和長輩不好操作。請不要減少一般單車，留著吧。</p><div><span>讚 21</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="51" aria-setsize="120" class="gaf-feed-post gaf-feed-post-51"><div><div><span>退休散步者</span> <time datetime="2026-11-11T16:32:00.000Z">11月11日 下午04:32</time> <span>↳ 老車迷</span></div><p>我七十幾歲了，電動輔助起步會衝一下，有點怕。擔心一般單車會不見。</p><div><span>讚 12</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="52" aria-setsize="120" class="gaf-feed-post gaf-feed-post-52"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-11T17:02:00.000Z">11月11日 下午05:02</time> <span>↳ 老車迷</span></div><p>一般單車的數量不會減少。150輛電動輔助車是額外增加的。</p><div><span>讚 4</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="53" aria-setsize="120" class="gaf-feed-post gaf-feed-post-53"><div><div><span>奶爸日記</span> <time datetime="2026-11-11T17:51:00.000Z">11月11日 下午05:51</time></div><p>假日我會帶小孩騎到海邊。站點變多的話，可以去的地方就更廣了。</p><div><span>讚 6</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="54" aria-setsize="120" class="gaf-feed-post gaf-feed-post-54"><div><div><span>柏翰</span> <time datetime="2026-11-11T18:21:00.000Z">11月11日 下午06:21</time></div><p>希望也能租借安全帽。現在大家都提倡戴安全帽，沒帶的那天就不太敢騎。</p><div><span>讚 17</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="55" aria-setsize="120" class="gaf-feed-post gaf-feed-post-55"><div><div><span>熊貓媽咪</span> <time datetime="2026-11-11T19:10:00.000Z">11月11日 下午07:10</time> <span>↳ 柏翰</span></div><p>共用安全帽我會擔心衛生。如果有拋棄式內襯帽就好了。</p><div><span>讚 24</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="56" aria-setsize="120" class="gaf-feed-post gaf-feed-post-56"><div><div><span>輪椅使用者家屬</span> <time datetime="2026-11-11T19:40:00.000Z">11月11日 下午07:40</time></div><p>我家人坐輪椅。站點附近如果有高低差就過不去，新站點請選沒有高低差的地方。</p><div><span>讚 19</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="57" aria-setsize="120" class="gaf-feed-post gaf-feed-post-57"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-11T20:29:00.000Z">11月11日 下午08:29</time> <span>↳ 輪椅使用者家屬</span></div><p>感謝您寶貴的意見。新站點會在確認人行道寬度與高低差後再決定位置。</p><div><span>讚 21</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="58" aria-setsize="120" class="gaf-feed-post gaf-feed-post-58"><div><div><span>夜貓子</span> <time datetime="2026-11-11T20:48:00.000Z">11月11日 下午08:48</time></div><p>我是夜貓子，能在深夜騎車真的很開心。夜裡的港口路車子少，騎起來很舒服。</p><div><span>讚 45</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="59" aria-setsize="120" class="gaf-feed-post gaf-feed-post-59"><div><div><span>政宏</span> <time datetime="2026-11-11T21:37:00.000Z">11月11日 下午09:37</time></div><p>老實說，要花稅金的話，我覺得應該先增加公車班次。畢竟有人不能騎車。</p><div><span>讚 20</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="60" aria-setsize="120" class="gaf-feed-post gaf-feed-post-60"><div><div><span>鄰里心聲</span> <time datetime="2026-11-11T22:00:00.000Z">11月11日 下午10:00</time> <span>↳ 政宏</span></div><p>共享單車是市府直營的嗎？是營運公司出錢還是稅金，我搞不太清楚。</p><div><span>讚 4</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="61" aria-setsize="120" class="gaf-feed-post gaf-feed-post-61"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-11T22:54:00.000Z">11月11日 下午10:54</time> <span>↳ 政宏</span></div><p>營運為市府委託辦理，約六成費用來自使用費，其餘由市府交通預算支應。明細將於3月公布。</p><div><span>讚 22</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="62" aria-setsize="120" class="gaf-feed-post gaf-feed-post-62"><div><div><span>山腳下住戶</span> <time datetime="2026-11-11T23:19:00.000Z">11月11日 下午11:19</time></div><p>我住山腳下，下班回家的上坡一直讓我很憂鬱。電動輔助車如果來到附近站點就好了。</p><div><span>讚 46</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="63" aria-setsize="120" class="gaf-feed-post gaf-feed-post-63"><div><div><span>通勤半小時</span> <time datetime="2026-11-11T23:44:00.000Z">11月11日 下午11:44</time></div><p>我每天通勤都騎。24小時很好，但超過30分鐘價格一下子就變高，遇到紅燈多的日子會捏把冷汗。</p><div><span>讚 15</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="64" aria-setsize="120" class="gaf-feed-post gaf-feed-post-64"><div><div><span>學校職員</span> <time datetime="2026-11-12T00:38:00.000Z">11月12日 上午12:38</time></div><p>大學校園裡有計畫設站點嗎？校內很大，學生和職員都會用。</p><div><span>讚 0</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="65" aria-setsize="120" class="gaf-feed-post gaf-feed-post-65"><div><div><span>大三的阿凱</span> <time datetime="2026-11-12T01:03:00.000Z">11月12日 上午01:03</time> <span>↳ 學校職員</span></div><p>校園裡如果有，我一定會用。從教學大樓走到圖書館要10分鐘。</p><div><span>讚 9</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="66" aria-setsize="120" class="gaf-feed-post gaf-feed-post-66"><div><div><span>承恩</span> <time datetime="2026-11-12T01:57:00.000Z">11月12日 上午01:57</time></div><p>說是遷到北出口只有一年，但我擔心工程一延就變成長期了。希望能準時恢復。</p><div><span>讚 26</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="67" aria-setsize="120" class="gaf-feed-post gaf-feed-post-67"><div><div><span>怡君</span> <time datetime="2026-11-12T02:22:00.000Z">11月12日 上午02:22</time></div><p>我不太會開車，共享單車越來越普及讓我很安心。買菜來回都靠它。</p><div><span>讚 11</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="68" aria-setsize="120" class="gaf-feed-post gaf-feed-post-68"><div><div><span>外送員</span> <time datetime="2026-11-12T03:16:00.000Z">11月12日 上午03:16</time></div><p>外送的時候可以用嗎？如果有附貨架的車，工作時也想用。</p><div><span>讚 28</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="69" aria-setsize="120" class="gaf-feed-post gaf-feed-post-69"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-12T03:41:00.000Z">11月12日 上午03:41</time> <span>↳ 外送員</span></div><p>依現行使用條款，請避免將車輛用於工作用途的長時間使用。針對企業的方案正在研議中。</p><div><span>讚 14</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="70" aria-setsize="120" class="gaf-feed-post gaf-feed-post-70"><div><div><span>物流大叔</span> <time datetime="2026-11-12T04:03:00.000Z">11月12日 上午04:03</time> <span>↳ 外送員</span></div><p>如果有企業方案，我們公司也想拿來做短距離配送。</p><div><span>讚 31</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="71" aria-setsize="120" class="gaf-feed-post gaf-feed-post-71"><div><div><span>淑芬</span> <time datetime="2026-11-12T04:52:00.000Z">11月12日 上午04:52</time></div><p>聽說站點要設在我家門口的人行道上。半夜有人進出會很吵，請避開住宅區正中央。</p><div><span>讚 46</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="72" aria-setsize="120" class="gaf-feed-post gaf-feed-post-72"><div><div><span>社區委員</span> <time datetime="2026-11-12T05:41:00.000Z">11月12日 上午05:41</time> <span>↳ 淑芬</span></div><p>站點設置地點有說明會嗎？我們社區也想先了解一下。</p><div><span>讚 29</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="73" aria-setsize="120" class="gaf-feed-post gaf-feed-post-73"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-12T06:01:00.000Z">11月12日 上午06:01</time> <span>↳ 淑芬</span></div><p>預定設站地點周邊，1月將分區舉辦說明會。日程會透過市府公告通知。</p><div><span>讚 15</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="74" aria-setsize="120" class="gaf-feed-post gaf-feed-post-74"><div><div><span>海邊散步人</span> <time datetime="2026-11-12T06:41:00.000Z">11月12日 上午06:41</time></div><p>我本來就希望海邊步道沿線也能多設站點，所以很期待港南增設。</p><div><span>讚 43</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="75" aria-setsize="120" class="gaf-feed-post gaf-feed-post-75"><div><div><span>宗翰</span> <time datetime="2026-11-12T07:30:00.000Z">11月12日 上午07:30</time></div><p>希望沒有智慧型手機的人也能用電子票證借車。我爸媽想用。</p><div><span>讚 26</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="76" aria-setsize="120" class="gaf-feed-post gaf-feed-post-76"><div><div><span>退休散步者</span> <time datetime="2026-11-12T07:50:00.000Z">11月12日 上午07:50</time> <span>↳ 宗翰</span></div><p>就是這個！App 註冊太難了，我得拜託孫子幫忙才能用。</p><div><span>讚 25</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="77" aria-setsize="120" class="gaf-feed-post gaf-feed-post-77"><div><div><span>環保社團</span> <time datetime="2026-11-12T08:39:00.000Z">11月12日 上午08:39</time></div><p>開車的人變少，港口一帶的塞車多少也會改善。就環保角度來看也是個好做法。</p><div><span>讚 0</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="78" aria-setsize="120" class="gaf-feed-post gaf-feed-post-78"><div><div><span>巧芸</span> <time datetime="2026-11-12T09:19:00.000Z">11月12日 上午09:19</time></div><p>學生月票和一般月票，在可騎的車和時段上有差別嗎？</p><div><span>讚 39</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="79" aria-setsize="120" class="gaf-feed-post gaf-feed-post-79"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-12T09:39:00.000Z">11月12日 上午09:39</time> <span>↳ 巧芸</span></div><p>沒有差別。學生月票同樣可以24小時使用包含電動輔助車在內的所有單車。</p><div><span>讚 5</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="80" aria-setsize="120" class="gaf-feed-post gaf-feed-post-80"><div><div><span>不會開車的人</span> <time datetime="2026-11-12T10:24:00.000Z">11月12日 上午10:24</time></div><p>我沒有駕照，交通方式變多對我很有幫助。不過也希望為第一次騎的人辦個騎乘講習。</p><div><span>讚 38</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="81" aria-setsize="120" class="gaf-feed-post gaf-feed-post-81"><div><div><span>彥廷</span> <time datetime="2026-11-12T11:18:00.000Z">11月12日 上午11:18</time></div><p>擔心電動輔助車被偷，或是電池被拆走。聽說別的城市有發生過。</p><div><span>讚 39</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="82" aria-setsize="120" class="gaf-feed-post gaf-feed-post-82"><div><div><span>電輔派</span> <time datetime="2026-11-12T11:33:00.000Z">11月12日 上午11:33</time> <span>↳ 彥廷</span></div><p>電池應該有上鎖吧，到底怎麼樣？希望營運單位回答一下。</p><div><span>讚 44</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="83" aria-setsize="120" class="gaf-feed-post gaf-feed-post-83"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-12T12:27:00.000Z">11月12日 下午12:27</time> <span>↳ 彥廷</span></div><p>電動輔助車的電池必須使用專用工具才能拆卸，所有車輛也都裝有定位裝置。</p><div><span>讚 10</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="84" aria-setsize="120" class="gaf-feed-post gaf-feed-post-84"><div><div><span>港邊阿芬</span> <time datetime="2026-11-12T13:02:00.000Z">11月12日 下午01:02</time></div><p>山丘區裡請務必在圖書館前設一處站點。爬到頂就能還車，真的很方便。</p><div><span>讚 34</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="85" aria-setsize="120" class="gaf-feed-post gaf-feed-post-85"><div><div><span>吳俊賢</span> <time datetime="2026-11-12T13:27:00.000Z">11月12日 下午01:27</time></div><p>漲價的同時增加車輛，會不會只是讓壞了沒人修的車變多？請先檢討維修體制。</p><div><span>讚 3</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="86" aria-setsize="120" class="gaf-feed-post gaf-feed-post-86"><div><div><span>港口通勤族</span> <time datetime="2026-11-12T14:11:00.000Z">11月12日 下午02:11</time></div><p>我每天早上騎港口路，感覺比去年維護得更好了。希望繼續保持。</p><div><span>讚 40</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="87" aria-setsize="120" class="gaf-feed-post gaf-feed-post-87"><div><div><span>爬坡跑者</span> <time datetime="2026-11-12T14:36:00.000Z">11月12日 下午02:36</time></div><p>超過30分鐘一點點，例如31分鐘，是不是要收36元？有沒有只對超出幾分鐘減收的辦法？</p><div><span>讚 1</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="88" aria-setsize="120" class="gaf-feed-post gaf-feed-post-88"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-12T15:29:00.000Z">11月12日 下午03:29</time> <span>↳ 爬坡跑者</span></div><p>31分鐘的話是36元。若歸還的站點已停滿，可在 App 免費申請延長15分鐘。</p><div><span>讚 17</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="89" aria-setsize="120" class="gaf-feed-post gaf-feed-post-89"><div><div><span>爬坡跑者</span> <time datetime="2026-11-12T15:54:00.000Z">11月12日 下午03:54</time> <span>↳ 爬坡跑者</span></div><p>我不知道站點停滿可以延長。不過超時費還是希望分得更細一點。</p><div><span>讚 31</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="90" aria-setsize="120" class="gaf-feed-post gaf-feed-post-90"><div><div><span>雨珊</span> <time datetime="2026-11-12T16:27:00.000Z">11月12日 下午04:27</time></div><p>站點變多的話，離車站有點遠的幼兒園也能騎車去了。很期待。</p><div><span>讚 1</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="91" aria-setsize="120" class="gaf-feed-post gaf-feed-post-91"><div><div><span>單車大叔</span> <time datetime="2026-11-12T17:16:00.000Z">11月12日 下午05:16</time></div><p>身為老用戶，新車固然好，但舊車的煞車也請早點修一修。</p><div><span>讚 24</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="92" aria-setsize="120" class="gaf-feed-post gaf-feed-post-92"><div><div><span>家豪</span> <time datetime="2026-11-12T17:46:00.000Z">11月12日 下午05:46</time></div><p>請在報導結尾也寫上留言區以外的意見管道。也想聽聽不上網的人的聲音。</p><div><span>讚 19</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="93" aria-setsize="120" class="gaf-feed-post gaf-feed-post-93"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-12T18:35:00.000Z">11月12日 下午06:35</time> <span>↳ 家豪</span></div><p>感謝指正。市府一樓的交通政策科櫃檯及郵寄也可受理意見，我們會在報導中補充。</p><div><span>讚 17</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="94" aria-setsize="120" class="gaf-feed-post gaf-feed-post-94"><div><div><span>小藍</span> <time datetime="2026-11-12T19:14:00.000Z">11月12日 下午07:14</time></div><p>晚上聚餐後，走路回家太遠、搭計程車又貴的時候，能用就很方便。當然喝了酒我是不會騎的。</p><div><span>讚 21</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="95" aria-setsize="120" class="gaf-feed-post gaf-feed-post-95"><div><div><span>港灣阿福</span> <time datetime="2026-11-12T19:34:00.000Z">11月12日 下午07:34</time> <span>↳ 小藍</span></div><p>酒後騎單車也是違規吧。希望把警示標語放大，別讓夜間酒後騎車的人變多。</p><div><span>讚 12</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="96" aria-setsize="120" class="gaf-feed-post gaf-feed-post-96"><div><div><span>照服員M</span> <time datetime="2026-11-12T20:33:00.000Z">11月12日 下午08:33</time></div><p>電動輔助車的前置物籃最多能放幾公斤？我出門拜訪時東西很多，想問一下。</p><div><span>讚 7</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="97" aria-setsize="120" class="gaf-feed-post gaf-feed-post-97"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-12T20:53:00.000Z">11月12日 下午08:53</time> <span>↳ 照服員M</span></div><p>前置物籃最多5公斤。目前沒有後貨架，針對企業的方案正在考慮配置附貨架的車輛。</p><div><span>讚 21</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="98" aria-setsize="120" class="gaf-feed-post gaf-feed-post-98"><div><div><span>冠廷</span> <time datetime="2026-11-12T21:32:00.000Z">11月12日 下午09:32</time></div><p>有學生月票是好事，但社會新鮮人第一年薪水也不高，希望做成青年優惠的形式。</p><div><span>讚 41</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="99" aria-setsize="120" class="gaf-feed-post gaf-feed-post-99"><div><div><span>曉晴</span> <time datetime="2026-11-12T22:21:00.000Z">11月12日 下午10:21</time></div><p>如果 App 裡也能加入避開坡路、從舊城區騎到港南的路線地圖就好了。</p><div><span>讚 16</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="100" aria-setsize="120" class="gaf-feed-post gaf-feed-post-100"><div><div><span>外地來的觀光客</span> <time datetime="2026-11-12T23:01:00.000Z">11月12日 下午11:01</time></div><p>觀光服務中心附近如果有站點就方便了。如果有英文說明，外國旅客也更好用。</p><div><span>讚 23</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="101" aria-setsize="120" class="gaf-feed-post gaf-feed-post-101"><div><div><span>咖啡店老闆</span> <time datetime="2026-11-12T23:21:00.000Z">11月12日 下午11:21</time> <span>↳ 外地來的觀光客</span></div><p>我店裡也常有外國客人，英文說明我大力支持。</p><div><span>讚 22</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="102" aria-setsize="120" class="gaf-feed-post gaf-feed-post-102"><div><div><span>高中老師</span> <time datetime="2026-11-13T00:10:00.000Z">11月13日 上午12:10</time></div><p>學校活動可以讓學生團體借車嗎？校外教學逛舊城區時想騎車。</p><div><span>讚 21</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="103" aria-setsize="120" class="gaf-feed-post gaf-feed-post-103"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-13T00:30:00.000Z">11月13日 上午12:30</time> <span>↳ 高中老師</span></div><p>團體使用需事先預約。因車輛數量有限，請於兩週前與我們聯絡。</p><div><span>讚 11</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="104" aria-setsize="120" class="gaf-feed-post gaf-feed-post-104"><div><div><span>精打細算的主婦</span> <time datetime="2026-11-13T01:10:00.000Z">11月13日 上午01:10</time></div><p>有電動輔助車加入的話，現在的月票也完全回本。漲價這一點就算了吧。</p><div><span>讚 19</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="105" aria-setsize="120" class="gaf-feed-post gaf-feed-post-105"><div><div><span>國樑</span> <time datetime="2026-11-13T01:59:00.000Z">11月13日 上午01:59</time></div><p>希望有一張費用比較表。現在和4月以後差多少，一眼看不出來。</p><div><span>讚 34</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="106" aria-setsize="120" class="gaf-feed-post gaf-feed-post-106"><div><div><span>愛跑步的</span> <time datetime="2026-11-13T02:19:00.000Z">11月13日 上午02:19</time></div><p>我晨跑完會用它。24小時是好事，但清晨調度的貨車停在人行道上，有時會妨礙跑步。</p><div><span>讚 17</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="107" aria-setsize="120" class="gaf-feed-post gaf-feed-post-107"><div><div><span>品妤</span> <time datetime="2026-11-13T03:08:00.000Z">11月13日 上午03:08</time></div><p>我念書的時候天天騎。要是那時候就有學生月票就好了。這是個好做法。</p><div><span>讚 40</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="108" aria-setsize="120" class="gaf-feed-post gaf-feed-post-108"><div><div><span>奶爸日記</span> <time datetime="2026-11-13T03:37:00.000Z">11月13日 上午03:37</time></div><p>可以也放幾輛孩子自己能騎的小尺寸單車嗎？想全家一起騎。</p><div><span>讚 15</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="109" aria-setsize="120" class="gaf-feed-post gaf-feed-post-109"><div><div><span>淑芬</span> <time datetime="2026-11-13T04:26:00.000Z">11月13日 上午04:26</time> <span>↳ 奶爸日記</span></div><p>小孩自己上車道太危險了，要放的話，我覺得只放公園裡的站點比較好。</p><div><span>讚 14</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="110" aria-setsize="120" class="gaf-feed-post gaf-feed-post-110"><div><div><span>政宏</span> <time datetime="2026-11-13T05:04:00.000Z">11月13日 上午05:04</time></div><p>2月底前收集的意見，會在最終方案裡採納多少？結果也會公開嗎？</p><div><span>讚 44</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="111" aria-setsize="120" class="gaf-feed-post gaf-feed-post-111"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-13T05:29:00.000Z">11月13日 上午05:29</time> <span>↳ 政宏</span></div><p>收到的意見會依項目整理，連同市府的看法，作為3月交通委員會的資料公開。</p><div><span>讚 22</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="112" aria-setsize="120" class="gaf-feed-post gaf-feed-post-112"><div><div><span>通勤半小時</span> <time datetime="2026-11-13T06:23:00.000Z">11月13日 上午06:23</time></div><p>每天上班好像會輕鬆一點。最近我覺得騎車比擠滿人的公車舒服。</p><div><span>讚 38</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="113" aria-setsize="120" class="gaf-feed-post gaf-feed-post-113"><div><div><span>承恩</span> <time datetime="2026-11-13T06:48:00.000Z">11月13日 上午06:48</time></div><p>要遷到北出口的話，請務必在南出口設好指標。第一次用的人一定會迷路。</p><div><span>讚 39</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="114" aria-setsize="120" class="gaf-feed-post gaf-feed-post-114"><div><div><span>外送員</span> <time datetime="2026-11-13T07:13:00.000Z">11月13日 上午07:13</time></div><p>我用得很頻繁，漲價確實有點痛，但如果能24小時，整體來說我是贊成的。</p><div><span>讚 24</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="115" aria-setsize="120" class="gaf-feed-post gaf-feed-post-115"><div><div><span>宗翰</span> <time datetime="2026-11-13T08:07:00.000Z">11月13日 上午08:07</time></div><p>如果附近有我爸媽也能騎的電動輔助車，他們買完菜回來就不用提重物了。</p><div><span>讚 33</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="116" aria-setsize="120" class="gaf-feed-post gaf-feed-post-116"><div><div><span>環保社團</span> <time datetime="2026-11-13T08:32:00.000Z">11月13日 上午08:32</time></div><p>如果能公開使用資料（幾點在哪裡被使用），我們社團也想分析看看。</p><div><span>讚 34</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="117" aria-setsize="120" class="gaf-feed-post gaf-feed-post-117"><div><div><span>學校職員</span> <time datetime="2026-11-13T09:26:00.000Z">11月13日 上午09:26</time> <span>↳ 環保社團</span></div><p>也很適合當大學課程的教材。如果是不會洩漏個人資訊的形式公開，我贊成。</p><div><span>讚 3</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="118" aria-setsize="120" class="gaf-feed-post gaf-feed-post-118"><div><div><span>巧芸</span> <time datetime="2026-11-13T09:40:00.000Z">11月13日 上午09:40</time></div><p>意見雖然很多，但我覺得讓城市移動更方便的方向沒錯。很期待。</p><div><span>讚 20</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="119" aria-setsize="120" class="gaf-feed-post gaf-feed-post-119"><div><div><span>不會開車的人</span> <time datetime="2026-11-13T10:34:00.000Z">11月13日 上午10:34</time></div><p>4月1日起會一次全部改變嗎？電動輔助車和站點是依序增加的嗎？</p><div><span>讚 29</span> <span>回覆</span></div></div></article><article role="article" aria-posinset="120" aria-setsize="120" class="gaf-feed-post gaf-feed-post-120"><div><div><span>港灣共享單車營運辦公室</span> <span>官方</span> <time datetime="2026-11-13T11:14:00.000Z">11月13日 上午11:14</time> <span>↳ 不會開車的人</span></div><p>費用調整與24小時營運自4月1日起實施。電動輔助車與站點將於4月至6月陸續增設。</p><div><span>讚 18</span> <span>回覆</span></div></div></article></div>
+<p aria-live="polite" id="gaf-p00001-more">已顯示所有留言</p>
+</section>
+
+</div>
+      </section>
+    
+    
+  </main>
+  <a class="gaf-toc-fab" href="#gaf-toc">返回目錄</a>
+  <script type="application/json" id="gaf-search-config">{"searchPlaceholder":"在文件中搜尋","searchHeadingsOnly":"僅標題","searchMatches":"{current} / {total}","searchNoMatches":"無相符項目","searchTooMany":"相符項目超過 2,000 個，請縮小搜尋範圍","searchPrev":"上一個","searchNext":"下一個","searchClear":"清除","collapseAll":"摺疊所有頁面","expandAll":"展開所有頁面","collapsePage":"摺疊此頁面","expandPage":"展開此頁面","themeLabel":"配色","themeAuto":"自動","themeLight":"淺色","themeDark":"深色"}</script>
+  <script>(function () {
+  'use strict';
+  var configEl = document.getElementById('gaf-search-config');
+  var labels = {};
+  try { labels = JSON.parse(configEl.textContent) || {}; } catch (e) { labels = {}; }
+  function L(key, fallback) { return (labels && typeof labels[key] === 'string') ? labels[key] : fallback; }
+  var MAX_MARKS = 2000;
+  var hits = [];
+  var currentIndex = -1;
+  var debounceTimer = null;
+  var cappedSearch = false;
+  var searchRun = 0;
+  var lastQuery = null;
+  var lastHeadings = false;
+  var HEADINGS = { h1: 1, h2: 1, h3: 1, h4: 1, h5: 1, h6: 1 };
+  function ready(fn) {
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fn);
+    else fn();
+  }
+  function makeButton(text, title, ariaLabel) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = text;
+    if (title) b.title = title;
+    if (ariaLabel) b.setAttribute('aria-label', ariaLabel);
+    return b;
+  }
+  function fold(value) {
+    try { return value.normalize('NFKC').toLowerCase(); } catch (e) { return value.toLowerCase(); }
+  }
+  var MARK_RE = null;
+  try { MARK_RE = new RegExp('^[\\p{M}\\uFF9E\\uFF9F]$', 'u'); } catch (e) { MARK_RE = /^[\u0300-\u036F\u3099\u309A\uFF9E\uFF9F]$/; }
+  function nextCodePoint(value, i) {
+    var c = value.charCodeAt(i);
+    if (c >= 0xD800 && c <= 0xDBFF && i + 1 < value.length) {
+      var d = value.charCodeAt(i + 1);
+      if (d >= 0xDC00 && d <= 0xDFFF) return i + 2;
+    }
+    return i + 1;
+  }
+  function foldedMap(value) {
+    var norm = '';
+    var map = [];
+    var ends = [];
+    var i = 0;
+    while (i < value.length) {
+      var start = i;
+      i = nextCodePoint(value, i);
+      while (i < value.length) {
+        var after = nextCodePoint(value, i);
+        if (!MARK_RE.test(value.slice(i, after))) break;
+        i = after;
+      }
+      var piece = fold(value.slice(start, i));
+      for (var j = 0; j < piece.length; j++) { norm += piece.charAt(j); map.push(start); ends.push(i); }
+    }
+    map.push(value.length);
+    return { norm: norm, map: map, ends: ends };
+  }
+  function getPages() { return document.querySelectorAll('section.gaf-page'); }
+  function allDocs() {
+    var docs = [document];
+    var frames = document.querySelectorAll('iframe.gaf-look-frame');
+    for (var i = 0; i < frames.length; i++) {
+      try { if (frames[i].contentDocument && frames[i].contentDocument.body) docs.push(frames[i].contentDocument); } catch (e) {}
+    }
+    var hosts = document.querySelectorAll('.gaf-look-host');
+    for (var h = 0; h < hosts.length; h++) if (hosts[h].shadowRoot) docs.push(hosts[h].shadowRoot);
+    return docs;
+  }
+  function counterEl() { return document.getElementById('gaf-search-count'); }
+  function clearCounter() { var c = counterEl(); if (c) { c.textContent = ''; c.removeAttribute('title'); } }
+  function clearMarks() {
+    var docs = allDocs();
+    for (var d = 0; d < docs.length; d++) {
+      var marks = docs[d].querySelectorAll('mark.gaf-search-hit');
+      for (var i = 0; i < marks.length; i++) {
+        var mark = marks[i];
+        var parent = mark.parentNode;
+        if (!parent) continue;
+        while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
+        parent.removeChild(mark);
+        if (parent.normalize) parent.normalize();
+      }
+    }
+    hits = [];
+    currentIndex = -1;
+    cappedSearch = false;
+    lastQuery = null;
+  }
+  var INLINE = { a: 1, abbr: 1, b: 1, bdi: 1, bdo: 1, cite: 1, code: 1, data: 1, del: 1, dfn: 1, em: 1, font: 1, i: 1, ins: 1, kbd: 1, label: 1, q: 1, s: 1, samp: 1, small: 1, span: 1, strong: 1, sub: 1, sup: 1, time: 1, tt: 1, u: 1, var: 1 };
+  function collectRuns(root, headingsOnly, runs) {
+    var current = null;
+    function flush() {
+      if (current) {
+        for (var k = 0; k < current.length; k++) if (current[k].nodeValue.trim()) { runs.push(current); break; }
+      }
+      current = null;
+    }
+    function walk(node, inHeading) {
+      for (var child = node.firstChild; child; child = child.nextSibling) {
+        if (child.nodeType === 3) {
+          if (!child.nodeValue || (headingsOnly && !inHeading)) continue;
+          if (!current) current = [];
+          current.push(child);
+          continue;
+        }
+        if (child.nodeType !== 1) continue;
+        var name = child.nodeName ? child.nodeName.toLowerCase() : '';
+        if (name === 'mark' || name === 'script' || name === 'style') { flush(); continue; }
+        var inline = INLINE[name] === 1;
+        if (!inline) flush();
+        walk(child, inHeading || HEADINGS[name] === 1);
+        if (!inline) flush();
+      }
+    }
+    walk(root, false);
+    flush();
+    return runs;
+  }
+  function updateCounter() {
+    var counter = counterEl();
+    if (!counter) return;
+    if (!hits.length) { counter.textContent = L('searchNoMatches', 'No matches'); counter.removeAttribute('title'); return; }
+    var template = L('searchMatches', '{current} / {total}');
+    var current = currentIndex >= 0 ? (currentIndex + 1) : 1;
+    var total = String(hits.length) + (cappedSearch ? '+' : '');
+    counter.textContent = template.split('{current}').join(String(current)).split('{total}').join(total);
+    if (cappedSearch) counter.title = L('searchTooMany', '2,000+ matches');
+    else counter.removeAttribute('title');
+  }
+  function setToggleState(page, collapsed) {
+    var t = page.querySelector('.gaf-page-toggle');
+    if (!t) return;
+    t.textContent = collapsed ? '\u002b' : '\u2212';
+    t.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+    t.setAttribute('aria-label', collapsed ? L('expandPage', 'Expand this page') : L('collapsePage', 'Collapse this page'));
+  }
+  function setHitClass(mark, name) {
+    var parts = mark.gafParts || [mark];
+    for (var i = 0; i < parts.length; i++) parts[i].className = name;
+  }
+  function setCurrent(index) {
+    if (!hits.length) return;
+    if (currentIndex >= 0 && hits[currentIndex]) setHitClass(hits[currentIndex], 'gaf-search-hit');
+    if (index < 0) index = hits.length - 1;
+    if (index >= hits.length) index = 0;
+    currentIndex = index;
+    var mark = hits[currentIndex];
+    setHitClass(mark, 'gaf-search-hit gaf-search-current');
+    var owner = mark.ownerDocument;
+    var host = owner && owner !== document && owner.defaultView && owner.defaultView.frameElement ? owner.defaultView.frameElement : mark;
+    var shadow = host === mark && mark.getRootNode ? mark.getRootNode() : null;
+    if (shadow && shadow.host) host = shadow.host;
+    var page = host.closest ? host.closest('section.gaf-page') : null;
+    if (page && page.classList.contains('gaf-collapsed')) {
+      page.classList.remove('gaf-collapsed');
+      setToggleState(page, false);
+    }
+    if (mark.scrollIntoView) mark.scrollIntoView({ block: 'center' });
+    updateCounter();
+  }
+  function nextHit() { if (hits.length) setCurrent(currentIndex + 1); }
+  function prevHit() { if (hits.length) setCurrent(currentIndex - 1); }
+  function processNode(node, needle) {
+    if (!node.parentNode) return;
+    var value = node.nodeValue;
+    var folded = foldedMap(value);
+    var idx = folded.norm.indexOf(needle);
+    if (idx === -1) return;
+    var doc = node.ownerDocument || document;
+    var frag = doc.createDocumentFragment();
+    var last = 0;
+    while (idx !== -1) {
+      var rawStart = folded.map[idx];
+      var rawEnd = folded.ends[idx + needle.length - 1];
+      if (rawEnd <= rawStart) rawEnd = rawStart + 1;
+      if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
+      else if (rawStart < last) rawStart = last;
+      var mark = doc.createElement('mark');
+      mark.className = 'gaf-search-hit';
+      mark.textContent = value.slice(rawStart, rawEnd);
+      frag.appendChild(mark);
+      hits.push(mark);
+      last = rawEnd;
+      if (hits.length >= MAX_MARKS) { cappedSearch = true; break; }
+      idx = folded.norm.indexOf(needle, idx + needle.length);
+      while (idx !== -1 && folded.map[idx] < last) idx = folded.norm.indexOf(needle, idx + 1);
+    }
+    if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
+    node.parentNode.replaceChild(frag, node);
+  }
+  function processRun(run, needle) {
+    if (run.length === 1) { processNode(run[0], needle); return; }
+    var parts = [];
+    var norm = '';
+    for (var p = 0; p < run.length; p++) {
+      var f = foldedMap(run[p].nodeValue);
+      parts.push({ node: run[p], folded: f, start: norm.length, cuts: [] });
+      norm += f.norm;
+    }
+    var idx = norm.indexOf(needle);
+    if (idx === -1) return;
+    var groups = [];
+    while (idx !== -1) {
+      var end = idx + needle.length;
+      var group = [];
+      groups.push(group);
+      for (var r = 0; r < parts.length; r++) {
+        var part = parts[r];
+        var partEnd = part.start + part.folded.norm.length;
+        if (partEnd <= idx || part.start >= end) continue;
+        var from = Math.max(idx, part.start) - part.start;
+        var to = Math.min(end, partEnd) - part.start;
+        part.cuts.push({ rawStart: part.folded.map[from], rawEnd: part.folded.ends[to - 1], group: group });
+      }
+      if (hits.length + groups.length >= MAX_MARKS) { cappedSearch = true; break; }
+      idx = norm.indexOf(needle, end);
+    }
+    for (var s = 0; s < parts.length; s++) {
+      var node = parts[s].node;
+      if (!parts[s].cuts.length || !node.parentNode) continue;
+      var value = node.nodeValue;
+      var doc = node.ownerDocument || document;
+      var frag = doc.createDocumentFragment();
+      var last = 0;
+      for (var t = 0; t < parts[s].cuts.length; t++) {
+        var cut = parts[s].cuts[t];
+        var rawStart = cut.rawStart < last ? last : cut.rawStart;
+        if (cut.rawEnd <= rawStart) continue;
+        if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
+        var mark = doc.createElement('mark');
+        mark.className = 'gaf-search-hit';
+        mark.textContent = value.slice(rawStart, cut.rawEnd);
+        frag.appendChild(mark);
+        cut.group.push(mark);
+        last = cut.rawEnd;
+      }
+      if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    }
+    for (var g = 0; g < groups.length; g++) {
+      if (!groups[g].length) continue;
+      groups[g][0].gafParts = groups[g];
+      hits.push(groups[g][0]);
+    }
+  }
+  function highlight(query, headingsOnly) {
+    var needle = fold(query || '').replace(/^\s+|\s+$/g, '');
+    if (needle === lastQuery && headingsOnly === lastHeadings) return;
+    searchRun += 1;
+    var runId = searchRun;
+    clearMarks();
+    if (!needle || needle.length < 2) { clearCounter(); lastQuery = needle || null; lastHeadings = headingsOnly; return; }
+    lastQuery = needle;
+    lastHeadings = headingsOnly;
+    var pages = getPages();
+    var nodes = [];
+    for (var pi = 0; pi < pages.length; pi++) {
+      collectRuns(pages[pi], headingsOnly, nodes);
+      var pageFrames = pages[pi].querySelectorAll('iframe.gaf-look-frame');
+      for (var fi = 0; fi < pageFrames.length; fi++) {
+        var frameDoc = null;
+        try { frameDoc = pageFrames[fi].contentDocument; } catch (e) { frameDoc = null; }
+        if (!frameDoc || !frameDoc.body) continue;
+        collectRuns(frameDoc.body, headingsOnly, nodes);
+      }
+      var pageHosts = pages[pi].querySelectorAll('.gaf-look-host');
+      for (var hi = 0; hi < pageHosts.length; hi++) {
+        if (!pageHosts[hi].shadowRoot) continue;
+        collectRuns(pageHosts[hi].shadowRoot, headingsOnly, nodes);
+      }
+    }
+    var index = 0;
+    var CHUNK = 1500;
+    function step() {
+      if (runId !== searchRun) return;
+      var end = index + CHUNK;
+      if (end > nodes.length) end = nodes.length;
+      for (; index < end && !cappedSearch; index++) processRun(nodes[index], needle);
+      if (index < nodes.length && !cappedSearch) {
+        updateCounter();
+        if (window.requestAnimationFrame) window.requestAnimationFrame(step);
+        else setTimeout(step, 0);
+        return;
+      }
+      updateCounter();
+      if (hits.length) setCurrent(0);
+    }
+    step();
+  }
+  ready(function () {
+    var bar = document.createElement('div');
+    bar.className = 'gaf-search';
+    bar.setAttribute('role', 'search');
+    bar.setAttribute('aria-label', L('searchPlaceholder', 'Search this document'));
+    var input = document.createElement('input');
+    input.type = 'search';
+    input.className = 'gaf-search-input';
+    input.placeholder = L('searchPlaceholder', 'Search this document');
+    input.setAttribute('aria-label', L('searchPlaceholder', 'Search this document'));
+    bar.appendChild(input);
+    var headingsLabel = document.createElement('label');
+    headingsLabel.className = 'gaf-search-headings';
+    var headingsCheck = document.createElement('input');
+    headingsCheck.type = 'checkbox';
+    headingsLabel.appendChild(headingsCheck);
+    headingsLabel.appendChild(document.createTextNode(' ' + L('searchHeadingsOnly', 'Headings only')));
+    bar.appendChild(headingsLabel);
+    var prevBtn = makeButton('\u2190', L('searchPrev', 'Previous'), L('searchPrev', 'Previous'));
+    var nextBtn = makeButton('\u2192', L('searchNext', 'Next'), L('searchNext', 'Next'));
+    bar.appendChild(prevBtn);
+    bar.appendChild(nextBtn);
+    var counter = document.createElement('span');
+    counter.className = 'gaf-search-count';
+    counter.id = 'gaf-search-count';
+    counter.setAttribute('aria-live', 'polite');
+    counter.setAttribute('aria-atomic', 'true');
+    bar.appendChild(counter);
+    var clearBtn = makeButton(L('searchClear', 'Clear'), L('searchClear', 'Clear'));
+    bar.appendChild(clearBtn);
+    var collapseBtn = makeButton(L('collapseAll', 'Collapse all pages'), L('collapseAll', 'Collapse all pages'));
+    var expandBtn = makeButton(L('expandAll', 'Expand all pages'), L('expandAll', 'Expand all pages'));
+    bar.appendChild(collapseBtn);
+    bar.appendChild(expandBtn);
+    var THEMES = ['auto', 'light', 'dark'];
+    var themeBtn = makeButton('', L('themeLabel', 'Theme'), '');
+    themeBtn.className = 'gaf-theme-toggle';
+    var theme = 'auto';
+    try { theme = window.localStorage.getItem('gaf-export-theme') || 'auto'; } catch (e) { theme = 'auto'; }
+    if (THEMES.indexOf(theme) < 0) theme = 'auto';
+    function applyTheme() {
+      if (theme === 'auto') document.documentElement.removeAttribute('data-gaf-theme');
+      else document.documentElement.setAttribute('data-gaf-theme', theme);
+      var name = theme === 'light' ? L('themeLight', 'Light') : (theme === 'dark' ? L('themeDark', 'Dark') : L('themeAuto', 'Auto'));
+      themeBtn.textContent = L('themeLabel', 'Theme') + ': ' + name;
+      themeBtn.setAttribute('aria-label', themeBtn.textContent);
+    }
+    applyTheme();
+    themeBtn.addEventListener('click', function () {
+      theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length];
+      applyTheme();
+      try { window.localStorage.setItem('gaf-export-theme', theme); } catch (e) {}
+    });
+    bar.appendChild(themeBtn);
+    if (document.body.firstChild) document.body.insertBefore(bar, document.body.firstChild);
+    else document.body.appendChild(bar);
+    function runSearch() { highlight(input.value.trim(), headingsCheck.checked); }
+    input.addEventListener('input', function () {
+      if (debounceTimer) clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(runSearch, 200);
+    });
+    input.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        if (event.shiftKey) prevHit(); else nextHit();
+      } else if (event.key === 'Escape') {
+        input.value = '';
+        searchRun += 1; clearTimeout(debounceTimer);
+        clearMarks();
+        clearCounter();
+      }
+    });
+    headingsCheck.addEventListener('change', runSearch);
+    prevBtn.addEventListener('click', prevHit);
+    nextBtn.addEventListener('click', nextHit);
+    clearBtn.addEventListener('click', function () {
+      input.value = '';
+      searchRun += 1; clearTimeout(debounceTimer);
+      clearMarks();
+      clearCounter();
+      input.focus();
+    });
+    var pages = getPages();
+    for (var i = 0; i < pages.length; i++) {
+      (function (page) {
+        var header = page.querySelector('header.gaf-page-header');
+        if (!header) return;
+        var toggle = makeButton('\u2212', '', L('collapsePage', 'Collapse this page'));
+        toggle.className = 'gaf-page-toggle';
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.addEventListener('click', function () {
+          page.classList.toggle('gaf-collapsed');
+          setToggleState(page, page.classList.contains('gaf-collapsed'));
+        });
+        header.insertBefore(toggle, header.firstChild);
+      })(pages[i]);
+    }
+    collapseBtn.addEventListener('click', function () {
+      var ps = getPages();
+      for (var j = 0; j < ps.length; j++) {
+        ps[j].classList.add('gaf-collapsed');
+        setToggleState(ps[j], true);
+      }
+    });
+    expandBtn.addEventListener('click', function () {
+      var ps = getPages();
+      for (var k = 0; k < ps.length; k++) {
+        ps[k].classList.remove('gaf-collapsed');
+        setToggleState(ps[k], false);
+      }
+    });
+  });
+})();</script>
+  
+  
+</body>
+</html>

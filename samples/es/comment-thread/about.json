@@ -1,0 +1,43 @@
+{
+  "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
+  "extension": {
+    "name": "Grab All Files",
+    "version": "5.8.53",
+    "build": "equivalent to main 3eb98362 (to be submitted as 5.8.54 on 2026-11-17): the captured copy was the working tree after 5.8.53 (its manifest still said 5.8.53), and every file that goes into the extension matched 3eb98362 except for line endings; loaded as a temporary add-on for automated capture",
+    "tool": "collector"
+  },
+  "browser": "Firefox 160.0 (Windows 11, headless)",
+  "plan": "free",
+  "date": "2026-11-16",
+  "source": "https://grab-all-files.app/samples/source/es/comment-thread/",
+  "source_served_from": "served locally under its planned address for this capture (the page was not yet published); no outside site was contacted",
+  "settings": [
+    "Páginas: solo la página actual",
+    "Aspecto: Fácil de leer",
+    "Forma de guardar: HTML con índice y búsqueda"
+  ],
+  "save_route": "browser download folder (the collector's \"browser download folder\" option)",
+  "comments_in_source": 120,
+  "comments_found_in_saved_file": 120,
+  "feed_capture": {
+    "count": 120,
+    "stopReason": "idle",
+    "limited": false
+  },
+  "files": [
+    {
+      "name": "Bici Puerto estrena bicicletas eléctricas y servicio las 24 horas desde abril.html",
+      "bytes": 81629,
+      "sha256": "8017139661598ed0dcd9fa847538872ab54206adfe896fb37523fdabb6dd7721",
+      "mime": "text/html"
+    }
+  ],
+  "comparison_screenshots": {
+    "viewport": "1200x900",
+    "files": [
+      "compare-source.png",
+      "compare-saved.png"
+    ],
+    "note": "Screenshots made by the site, not product output. Both are scrolled to the start of the comments."
+  }
+}

@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data: file:; style-src 'unsafe-inline'; font-src data:; script-src 'sha256-pw2AXM+sb7/gGaP1j+lzN6KvzaWNwd9xnoM4kXT/z00=';">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>港湾共享单车4月起新增电助力车，并实行24小时运营（虚构）</title>
+  <style>
+      :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Yu Gothic UI", Meiryo, sans-serif; line-height: 1.65; color: #1f2937; background: #fff; }
+      body { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+      /* The search bar is sticky (~3rem) — without this every anchor jump (TOC,
+         cross-page links, search hits) lands with its first line hidden under it. */
+      [id] { scroll-margin-top: 4.5rem; }
+      /* A source page's own headings are demoted by two levels to sit under this
+         page's <h2> title (h1->h3, h2->h4, ...), so a page whose own subheadings
+         were h3/h4 lands on h5/h6 here. Nothing set their size, so they fell back
+         to the browser default (h5 ~0.83em, h6 ~0.67em) — reported as unreadably
+         small text spread across thousands of headings in a real 766-page export.
+         Neither level should render smaller than body text. */
+      h5 { font-size: 1.05em; }
+      h6 { font-size: 1em; }
+      a { color: #075ea8; overflow-wrap: anywhere; }
+      /* GAF-233: an anchor rewritten as external always carries this exact
+         rel value (see rewriteHref/cleanNode); internal anchors never do, so
+         this reliably marks "leaves the archive" without a separate class. */
+      a[rel="noopener noreferrer"]::after { content: "↗"; display: inline-block; margin-left: .15em; font-size: .85em; opacity: .65; text-decoration: none; }
+      .gaf-toc-fab { position: fixed; right: 1rem; bottom: 1rem; z-index: 15; background: #075ea8; color: #fff; padding: .5rem 1rem; border-radius: 999px; text-decoration: none; font-size: .85rem; box-shadow: 0 2px 8px rgba(15,23,42,.35); }
+      .gaf-toc-fab:hover { background: #0a6fc2; }
+      .gaf-toc-fab::after { content: none; }
+      .gaf-document-header { border-bottom: 3px solid #334155; margin-bottom: 2rem; }
+      .gaf-meta { display: grid; grid-template-columns: max-content 1fr; gap: .25rem 1rem; }
+      .gaf-meta dt { font-weight: 700; }
+      .gaf-meta dd { margin: 0; }
+      .gaf-warning { border: 1px solid #b45309; background: #fff7ed; padding: .75rem; }
+      .gaf-partial-warning { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; margin: 0 0 1.5rem; border: 2px solid #b45309; border-radius: 8px; background: #fff7ed; color: #7c2d12; padding: 1rem 1.1rem; }
+      .gaf-partial-warning a { font-weight: 700; }
+      .gaf-look-fallback { margin: .4rem 0 .8rem; border-left: 4px solid #b45309; background: #fff7ed; color: #7c2d12; padding: .45rem .75rem; font-size: .9rem; }
+      .gaf-static-note { margin: .4rem 0 .8rem; border-left: 4px solid #2563eb; background: #eff6ff; color: #1e3a8a; padding: .45rem .75rem; font-size: .9rem; }
+      .gaf-page { margin: 2.5rem 0; padding-top: .5rem; border-top: 2px solid #cbd5e1; }
+      .gaf-page-content img { max-width: 100%; height: auto; }
+      /* An icon beside a link's words in a table cell (a country's flag before
+         its code) had no size of its own and was drawn as wide as the page
+         (olympedia's medal table, 2026-10-22). */
+      .gaf-page-content :is(td, th) a img { max-height: 1.6em; width: auto; vertical-align: middle; }
+      .gaf-image-placeholder, .gaf-unsafe-placeholder { display: inline-block; border: 1px dashed #94a3b8; padding: .2rem .4rem; color: #475569; }
+      table { border-collapse: collapse; max-width: 100%; margin: 1rem 0; }
+      th, td { border: 1px solid #94a3b8; padding: .4rem .55rem; vertical-align: top; }
+      th { background: #f1f5f9; }
+      pre { overflow: auto; padding: .8rem; background: #f8fafc; border: 1px solid #cbd5e1; white-space: pre-wrap; }
+      code { font-family: Consolas, "SFMono-Regular", monospace; }
+      blockquote { border-left: 4px solid #94a3b8; margin-left: 0; padding-left: 1rem; }
+      .gaf-page-toggle { margin-right: .5rem; border: 1px solid #cbd5e1; background: #f1f5f9; color: #334155; border-radius: 4px; cursor: pointer; font: inherit; line-height: 1; padding: 0 .45rem; }
+      .gaf-page-toggle:hover { background: #e2e8f0; }
+      .gaf-page.gaf-collapsed .gaf-page-content { display: none; }
+      .gaf-search { position: sticky; top: 0; z-index: 20; display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: 0 0 1.5rem; padding: .55rem .7rem; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; }
+      .gaf-search .gaf-search-input { flex: 1 1 12rem; min-width: 8rem; padding: .35rem .5rem; border: 1px solid #94a3b8; border-radius: 4px; font: inherit; color: #1f2937; background: #fff; }
+      .gaf-search button { padding: .3rem .6rem; border: 1px solid #94a3b8; background: #fff; color: #1f2937; border-radius: 4px; cursor: pointer; font: inherit; }
+      .gaf-search button:hover { background: #f1f5f9; }
+      .gaf-search .gaf-search-count { min-width: 4.5rem; color: #475569; font-size: .85rem; }
+      .gaf-search .gaf-search-headings { display: inline-flex; align-items: center; gap: .25rem; color: #334155; font-size: .85rem; }
+      mark.gaf-search-hit { background: #fef08a; color: inherit; padding: 0 .05em; border-radius: 2px; }
+      mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+      @media (prefers-color-scheme: dark) {
+:root:not([data-gaf-theme="light"]) { color: #e2e8f0; background: #0f172a; }
+:root:not([data-gaf-theme="light"]) a { color: #7cc0f5; }
+:root:not([data-gaf-theme="light"]) img[data-gaf-math] { filter: invert(1) hue-rotate(180deg); }
+:root:not([data-gaf-theme="light"]) .gaf-toc-fab { background: #1d4ed8; }
+:root:not([data-gaf-theme="light"]) .gaf-toc-fab:hover { background: #2563eb; }
+:root:not([data-gaf-theme="light"]) .gaf-document-header { border-bottom-color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) .gaf-warning { border-color: #d97706; background: #451a03; }
+:root:not([data-gaf-theme="light"]) .gaf-partial-warning { border-color: #f59e0b; background: #451a03; color: #ffedd5; }
+:root:not([data-gaf-theme="light"]) .gaf-page { border-top-color: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-image-placeholder, :root:not([data-gaf-theme="light"]) .gaf-unsafe-placeholder { border-color: #475569; color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) th, :root:not([data-gaf-theme="light"]) td { border-color: #475569; }
+:root:not([data-gaf-theme="light"]) th { background: #1e293b; }
+:root:not([data-gaf-theme="light"]) pre { background: #1e293b; border-color: #334155; }
+:root:not([data-gaf-theme="light"]) blockquote { border-left-color: #475569; }
+:root:not([data-gaf-theme="light"]) .gaf-page-toggle { border-color: #475569; background: #1e293b; color: #cbd5e1; }
+:root:not([data-gaf-theme="light"]) .gaf-page-toggle:hover { background: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-search { background: #1e293b; border-color: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-input { border-color: #475569; color: #e2e8f0; background: #0f172a; }
+:root:not([data-gaf-theme="light"]) .gaf-search button { border-color: #475569; background: #0f172a; color: #e2e8f0; }
+:root:not([data-gaf-theme="light"]) .gaf-search button:hover { background: #1e293b; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-count { color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-headings { color: #cbd5e1; }
+:root:not([data-gaf-theme="light"]) mark.gaf-search-hit { background: #854d0e; color: #fef9c3; }
+:root:not([data-gaf-theme="light"]) mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+
+}
+:root[data-gaf-theme="dark"] { color: #e2e8f0; background: #0f172a; }
+:root[data-gaf-theme="dark"] a { color: #7cc0f5; }
+:root[data-gaf-theme="dark"] img[data-gaf-math] { filter: invert(1) hue-rotate(180deg); }
+:root[data-gaf-theme="dark"] .gaf-toc-fab { background: #1d4ed8; }
+:root[data-gaf-theme="dark"] .gaf-toc-fab:hover { background: #2563eb; }
+:root[data-gaf-theme="dark"] .gaf-document-header { border-bottom-color: #94a3b8; }
+:root[data-gaf-theme="dark"] .gaf-warning { border-color: #d97706; background: #451a03; }
+:root[data-gaf-theme="dark"] .gaf-partial-warning { border-color: #f59e0b; background: #451a03; color: #ffedd5; }
+:root[data-gaf-theme="dark"] .gaf-page { border-top-color: #334155; }
+:root[data-gaf-theme="dark"] .gaf-image-placeholder, :root[data-gaf-theme="dark"] .gaf-unsafe-placeholder { border-color: #475569; color: #94a3b8; }
+:root[data-gaf-theme="dark"] th, :root[data-gaf-theme="dark"] td { border-color: #475569; }
+:root[data-gaf-theme="dark"] th { background: #1e293b; }
+:root[data-gaf-theme="dark"] pre { background: #1e293b; border-color: #334155; }
+:root[data-gaf-theme="dark"] blockquote { border-left-color: #475569; }
+:root[data-gaf-theme="dark"] .gaf-page-toggle { border-color: #475569; background: #1e293b; color: #cbd5e1; }
+:root[data-gaf-theme="dark"] .gaf-page-toggle:hover { background: #334155; }
+:root[data-gaf-theme="dark"] .gaf-search { background: #1e293b; border-color: #334155; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-input { border-color: #475569; color: #e2e8f0; background: #0f172a; }
+:root[data-gaf-theme="dark"] .gaf-search button { border-color: #475569; background: #0f172a; color: #e2e8f0; }
+:root[data-gaf-theme="dark"] .gaf-search button:hover { background: #1e293b; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-count { color: #94a3b8; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-headings { color: #cbd5e1; }
+:root[data-gaf-theme="dark"] mark.gaf-search-hit { background: #854d0e; color: #fef9c3; }
+:root[data-gaf-theme="dark"] mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+
+:root[data-gaf-theme="dark"] { color-scheme: dark; }
+:root[data-gaf-theme="light"] { color-scheme: light; }
+
+      @page { size: A4; margin: 15mm; }
+      @media print {
+        body { max-width: none; margin: 0; padding: 0; font-size: 10.5pt; }
+        nav a { color: inherit; text-decoration: none; }
+        .gaf-search, .gaf-page-toggle, .gaf-toc-fab { display: none !important; }
+        .gaf-page.gaf-collapsed .gaf-page-content { display: block; }
+        .gaf-page { break-before: page; page-break-before: always; }
+        .gaf-page:first-of-type { break-before: auto; page-break-before: auto; }
+        /* Only short blocks are kept whole. A table or <pre> longer than a page
+           cannot be, and asking for it pushed it to a fresh page and left the
+           rest of the previous one blank. */
+        h1, h2, h3, h4, h5, h6 { break-after: avoid; page-break-after: avoid; break-inside: avoid; }
+        figure, blockquote, tr, img { break-inside: avoid; page-break-inside: avoid; }
+        /* Printing every link's address after it made URLs 36-84% of the text in
+           most printed exports (one page reached 4099 PDF pages); the links stay
+           clickable in a saved PDF, so the address is not printed. */
+        a::after, a[rel="noopener noreferrer"]::after { content: none !important; }
+        /* A table wider than the paper was cut at the right edge. It is set
+           smaller, and a link's address in a cell may wrap anywhere; words and
+           numbers are not split letter by letter (that made every column one
+           letter wide), so a table still wider is shrunk with the page. */
+        table { width: auto !important; max-width: 100% !important; table-layout: auto; font-size: 8pt; }
+        th, td { overflow-wrap: break-word; padding: .15rem .25rem; }
+        :is(th, td) a { overflow-wrap: anywhere; }
+        thead { display: table-header-group; }
+        pre, code { white-space: pre-wrap; overflow-wrap: anywhere; }
+        .gaf-page-content img { max-height: 24cm; object-fit: contain; }
+      }
+    </style>
+</head>
+<body>
+  <header class="gaf-document-header">
+    <h1>港湾共享单车4月起新增电助力车，并实行24小时运营（虚构）</h1>
+    
+    
+  </header>
+  
+  <nav id="gaf-toc" aria-label="目录">
+    <h2>目录</h2>
+    <ol><li><a href="#gaf-page-p00001">港湾共享单车4月起新增电助力车，并实行24小时运营（虚构）</a></li></ol>
+  </nav>
+  <main>
+    <section class="gaf-page" id="gaf-page-p00001">
+        <header class="gaf-page-header">
+          <h2>港湾共享单车4月起新增电助力车，并实行24小时运营（虚构）</h2>
+        </header>
+        <div class="gaf-page-content"><article><p>交通·城市建设</p><h3>港湾共享单车4月起新增电助力车，并实行24小时运营（虚构）</h3><p>2026年11月10日</p>
+<p>港湾市宣布，市内的共享单车服务“港湾共享单车”将从4月1日起大幅调整。本文中的城市、服务和人物均为虚构。</p><p>主要变化如下，欢迎在页面下方的评论区留言提出意见。</p>
+<ul><li>投放150辆电助力自行车（优先投放到坡多的山坡片区）</li><li>新增12个站点（港南、山坡片区、市立医院门口等）</li><li>取消凌晨0点至5点的停运，实现24小时可用</li><li>价格调整：每30分钟1.5元→1.8元，月卡20元→22元</li><li>新设学生月卡（15元）</li><li>受站前广场施工影响，中央车站站点自4月起迁至北出口一侧，为期一年</li></ul>
+<p>市里将征求意见至2月底，并计划在3月的交通委员会上确定最终方案。</p></article>
+<section aria-labelledby="gaf-p00001-comments-title">
+<div><h4 id="gaf-p00001-comments-title">评论</h4><span>120条评论 · 最早优先</span></div>
+<div role="feed" aria-labelledby="gaf-p00001-comments-title" aria-busy="false" id="gaf-p00001-thread"><article role="article" aria-posinset="1" aria-setsize="120" class="gaf-feed-post gaf-feed-post-1"><div><div><span>港湾小琪</span> <time datetime="2026-11-10T09:34:00.000Z">11月10日 09:34</time></div><p>电助力终于来了！山坡上的坡太陡，我每次骑到一半都得下来推，这下真是太好了。</p><div><span>点赞 31</span> <span>回复</span></div></div></article><article role="article" aria-posinset="2" aria-setsize="120" class="gaf-feed-post gaf-feed-post-2"><div><div><span>爬坡跑者</span> <time datetime="2026-11-10T10:18:00.000Z">11月10日 10:18</time></div><p>30分钟1.8元是不是贵了？1.5元的时候就跟公交差不多，这样下来我还不如坐公交。</p><div><span>点赞 20</span> <span>回复</span></div></div></article><article role="article" aria-posinset="3" aria-setsize="120" class="gaf-feed-post gaf-feed-post-3"><div><div><span>吴立新</span> <time datetime="2026-11-10T11:12:00.000Z">11月10日 11:12</time> <span>↳ 爬坡跑者</span></div><p>同感。要涨的话，能不能只让前15分钟便宜点，照顾一下骑得短的人。</p><div><span>点赞 13</span> <span>回复</span></div></div></article><article role="article" aria-posinset="4" aria-setsize="120" class="gaf-feed-post gaf-feed-post-4"><div><div><span>港口通勤族</span> <time datetime="2026-11-10T11:47:00.000Z">11月10日 11:47</time> <span>↳ 爬坡跑者</span></div><p>要是办月卡，平均一天才七毛三，天天骑的人还是划算的。</p><div><span>点赞 26</span> <span>回复</span></div></div></article><article role="article" aria-posinset="5" aria-setsize="120" class="gaf-feed-post gaf-feed-post-5"><div><div><span>刚下夜班的K</span> <time datetime="2026-11-10T12:12:00.000Z">11月10日 12:12</time></div><p>我上夜班，24小时运营太贴心了。以前得等到早上5点才能打车，这下省事多了。</p><div><span>点赞 27</span> <span>回复</span></div></div></article><article role="article" aria-posinset="6" aria-setsize="120" class="gaf-feed-post gaf-feed-post-6"><div><div><span>住山坡上</span> <time datetime="2026-11-10T12:56:00.000Z">11月10日 12:56</time></div><p>电助力车和普通单车是同一个价吗？要是另收费，也请在文章里写清楚。</p><div><span>点赞 32</span> <span>回复</span></div></div></article><article role="article" aria-posinset="7" aria-setsize="120" class="gaf-feed-post gaf-feed-post-7"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-10T13:21:00.000Z">11月10日 13:21</time> <span>↳ 住山坡上</span></div><p>感谢提问。电助力车与普通单车价格相同（每30分钟1.8元，月卡同样适用）。</p><div><span>点赞 14</span> <span>回复</span></div></div></article><article role="article" aria-posinset="8" aria-setsize="120" class="gaf-feed-post gaf-feed-post-8"><div><div><span>住山坡上</span> <time datetime="2026-11-10T13:56:00.000Z">11月10日 13:56</time> <span>↳ 住山坡上</span></div><p>谢谢回复。价格一样的话，我天天骑。</p><div><span>点赞 38</span> <span>回复</span></div></div></article><article role="article" aria-posinset="9" aria-setsize="120" class="gaf-feed-post gaf-feed-post-9"><div><div><span>北出口住户</span> <time datetime="2026-11-10T14:50:00.000Z">11月10日 14:50</time></div><p>中央车站的站点搬到北出口我可受不了。我在南出口那边上班，得绕着车站转一大圈。</p><div><span>点赞 39</span> <span>回复</span></div></div></article><article role="article" aria-posinset="10" aria-setsize="120" class="gaf-feed-post gaf-feed-post-10"><div><div><span>大三的小林</span> <time datetime="2026-11-10T15:12:00.000Z">11月10日 15:12</time></div><p>学生月卡15元太好了。我走到学校要25分钟，这价格我肯定办。</p><div><span>点赞 41</span> <span>回复</span></div></div></article><article role="article" aria-posinset="11" aria-setsize="120" class="gaf-feed-post gaf-feed-post-11"><div><div><span>小雪</span> <time datetime="2026-11-10T16:01:00.000Z">11月10日 16:01</time></div><p>能不能放几辆带儿童座椅的车？我想骑着接送孩子上幼儿园。</p><div><span>点赞 32</span> <span>回复</span></div></div></article><article role="article" aria-posinset="12" aria-setsize="120" class="gaf-feed-post gaf-feed-post-12"><div><div><span>推婴儿车的</span> <time datetime="2026-11-10T16:31:00.000Z">11月10日 16:31</time> <span>↳ 小雪</span></div><p>我也想要。电助力加儿童座椅，坡上的幼儿园也能去了。</p><div><span>点赞 43</span> <span>回复</span></div></div></article><article role="article" aria-posinset="13" aria-setsize="120" class="gaf-feed-post gaf-feed-post-13"><div><div><span>骑行大叔</span> <time datetime="2026-11-10T17:20:00.000Z">11月10日 17:20</time></div><p>改成24小时，半夜乱扔乱骑、不爱惜车的人会不会变多？现在就经常看到座椅坏了没人修的车。</p><div><span>点赞 10</span> <span>回复</span></div></div></article><article role="article" aria-posinset="14" aria-setsize="120" class="gaf-feed-post gaf-feed-post-14"><div><div><span>刚下夜班的K</span> <time datetime="2026-11-10T17:59:00.000Z">11月10日 17:59</time> <span>↳ 骑行大叔</span></div><p>晚上骑车的大多是下班的人。破坏车子的人，白天晚上都有吧。</p><div><span>点赞 45</span> <span>回复</span></div></div></article><article role="article" aria-posinset="15" aria-setsize="120" class="gaf-feed-post gaf-feed-post-15"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-10T18:19:00.000Z">11月10日 18:19</time> <span>↳ 骑行大叔</span></div><p>感谢关心。夜间我们会增加巡检，损坏的车辆也可以在 App 里上报。</p><div><span>点赞 11</span> <span>回复</span></div></div></article><article role="article" aria-posinset="16" aria-setsize="120" class="gaf-feed-post gaf-feed-post-16"><div><div><span>骑车上学</span> <time datetime="2026-11-10T18:49:00.000Z">11月10日 18:49</time></div><p>新增的12个站点具体位置什么时候公布？想知道会不会建在我家附近。</p><div><span>点赞 47</span> <span>回复</span></div></div></article><article role="article" aria-posinset="17" aria-setsize="120" class="gaf-feed-post gaf-feed-post-17"><div><div><span>熊猫妈妈</span> <time datetime="2026-11-10T19:38:00.000Z">11月10日 19:38</time></div><p>优先投放到山坡片区，我觉得是对的。越是有坡的地方，越需要电助力。</p><div><span>点赞 30</span> <span>回复</span></div></div></article><article role="article" aria-posinset="18" aria-setsize="120" class="gaf-feed-post gaf-feed-post-18"><div><div><span>港湾阿福</span> <time datetime="2026-11-10T19:59:00.000Z">11月10日 19:59</time></div><p>电助力和24小时我都举双手赞成。但如果月卡价格不涨，我会更支持。</p><div><span>点赞 17</span> <span>回复</span></div></div></article><article role="article" aria-posinset="19" aria-setsize="120" class="gaf-feed-post gaf-feed-post-19"><div><div><span>周末骑友</span> <time datetime="2026-11-10T20:48:00.000Z">11月10日 20:48</time></div><p>能不能给只在周末骑的人出一个一日畅骑票？我觉得游客也会买。</p><div><span>点赞 8</span> <span>回复</span></div></div></article><article role="article" aria-posinset="20" aria-setsize="120" class="gaf-feed-post gaf-feed-post-20"><div><div><span>外地来的游客</span> <time datetime="2026-11-10T21:35:00.000Z">11月10日 21:35</time> <span>↳ 周末骑友</span></div><p>我是来旅游的，要是有一日票我一定会用。想从港口一路逛到老城区。</p><div><span>点赞 24</span> <span>回复</span></div></div></article><article role="article" aria-posinset="21" aria-setsize="120" class="gaf-feed-post gaf-feed-post-21"><div><div><span>街坊心声</span> <time datetime="2026-11-10T22:00:00.000Z">11月10日 22:00</time></div><p>与其增加站点，不如把现有站点的车多放点。早上车站门口总是空的。</p><div><span>点赞 33</span> <span>回复</span></div></div></article><article role="article" aria-posinset="22" aria-setsize="120" class="gaf-feed-post gaf-feed-post-22"><div><div><span>市政府附近上班</span> <time datetime="2026-11-10T22:54:00.000Z">11月10日 22:54</time> <span>↳ 街坊心声</span></div><p>反过来，傍晚车站门口又停满了，还不了车。车辆分布不均得想办法解决。</p><div><span>点赞 18</span> <span>回复</span></div></div></article><article role="article" aria-posinset="23" aria-setsize="120" class="gaf-feed-post gaf-feed-post-23"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-10T23:19:00.000Z">11月10日 23:19</time> <span>↳ 街坊心声</span></div><p>早晚高峰的车辆分布不均我们已经掌握。4月起，货车调度也会安排在早上6点多进行。</p><div><span>点赞 12</span> <span>回复</span></div></div></article><article role="article" aria-posinset="24" aria-setsize="120" class="gaf-feed-post gaf-feed-post-24"><div><div><span>护工小M</span> <time datetime="2026-11-10T23:53:00.000Z">11月10日 23:53</time></div><p>我上门做护理要靠它代步。有了电助力，去坡上的人家也不会累得满身汗了。</p><div><span>点赞 28</span> <span>回复</span></div></div></article><article role="article" aria-posinset="25" aria-setsize="120" class="gaf-feed-post gaf-feed-post-25"><div><div><span>雨天也骑车</span> <time datetime="2026-11-11T00:18:00.000Z">11月11日 00:18</time></div><p>能不能给站点加个雨棚？下雨天座椅总是湿的。</p><div><span>点赞 21</span> <span>回复</span></div></div></article><article role="article" aria-posinset="26" aria-setsize="120" class="gaf-feed-post gaf-feed-post-26"><div><div><span>老城区居民</span> <time datetime="2026-11-11T01:12:00.000Z">11月11日 01:12</time></div><p>老城区的小路上电助力车一多，速度快了会不会危险？希望在行人优先的路段规定下车推行。</p><div><span>点赞 38</span> <span>回复</span></div></div></article><article role="article" aria-posinset="27" aria-setsize="120" class="gaf-feed-post gaf-feed-post-27"><div><div><span>精打细算的主妇</span> <time datetime="2026-11-11T01:37:00.000Z">11月11日 01:37</time> <span>↳ 老城区居民</span></div><p>电助力最高也只助力到25公里/小时。危险的是骑车人的素质问题吧。</p><div><span>点赞 39</span> <span>回复</span></div></div></article><article role="article" aria-posinset="28" aria-setsize="120" class="gaf-feed-post gaf-feed-post-28"><div><div><span>退休散步人</span> <time datetime="2026-11-11T02:11:00.000Z">11月11日 02:11</time> <span>↳ 老城区居民</span></div><p>我散步的时候，确实常被后面悄悄过来的单车吓一跳。希望大家按按铃。</p><div><span>点赞 16</span> <span>回复</span></div></div></article><article role="article" aria-posinset="29" aria-setsize="120" class="gaf-feed-post gaf-feed-post-29"><div><div><span>一凡</span> <time datetime="2026-11-11T03:05:00.000Z">11月11日 03:05</time></div><p>学生月卡只有大学生能办吗？高中生和中专、技校的学生也算吗？</p><div><span>点赞 25</span> <span>回复</span></div></div></article><article role="article" aria-posinset="30" aria-setsize="120" class="gaf-feed-post gaf-feed-post-30"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-11T03:38:00.000Z">11月11日 03:38</time> <span>↳ 一凡</span></div><p>学生月卡面向高中生、中专技校学生、大学生和研究生。申请时需要上传学生证照片。</p><div><span>点赞 4</span> <span>回复</span></div></div></article><article role="article" aria-posinset="31" aria-setsize="120" class="gaf-feed-post gaf-feed-post-31"><div><div><span>高中老师</span> <time datetime="2026-11-11T04:27:00.000Z">11月11日 04:27</time> <span>↳ 一凡</span></div><p>高中生也能办，太好了。放学后补课、活动结束得晚的学生很多，晚上也能骑让人放心。</p><div><span>点赞 18</span> <span>回复</span></div></div></article><article role="article" aria-posinset="32" aria-setsize="120" class="gaf-feed-post gaf-feed-post-32"><div><div><span>物流大叔</span> <time datetime="2026-11-11T04:47:00.000Z">11月11日 04:47</time></div><p>涨价的理由几乎没说明。是电费还是人工成本？希望用数字讲清楚。</p><div><span>点赞 1</span> <span>回复</span></div></div></article><article role="article" aria-posinset="33" aria-setsize="120" class="gaf-feed-post gaf-feed-post-33"><div><div><span>林间</span> <time datetime="2026-11-11T05:36:00.000Z">11月11日 05:36</time> <span>↳ 物流大叔</span></div><p>就是啊。比起涨价本身，没写理由更让人在意。</p><div><span>点赞 24</span> <span>回复</span></div></div></article><article role="article" aria-posinset="34" aria-setsize="120" class="gaf-feed-post gaf-feed-post-34"><div><div><span>晓晴</span> <time datetime="2026-11-11T05:56:00.000Z">11月11日 05:56</time></div><p>我把车卖了改用共享单车，所以站点增加我双手欢迎。</p><div><span>点赞 7</span> <span>回复</span></div></div></article><article role="article" aria-posinset="35" aria-setsize="120" class="gaf-feed-post gaf-feed-post-35"><div><div><span>港南新居民</span> <time datetime="2026-11-11T06:45:00.000Z">11月11日 06:45</time></div><p>我刚搬到港南。港南的站点是在海边那一侧，还是新小区附近？</p><div><span>点赞 38</span> <span>回复</span></div></div></article><article role="article" aria-posinset="36" aria-setsize="120" class="gaf-feed-post gaf-feed-post-36"><div><div><span>居委会老张</span> <time datetime="2026-11-11T07:05:00.000Z">11月11日 07:05</time> <span>↳ 港南新居民</span></div><p>我在居委会听说，好像是在港南公园入口附近。正式公告好像还没出。</p><div><span>点赞 5</span> <span>回复</span></div></div></article><article role="article" aria-posinset="37" aria-setsize="120" class="gaf-feed-post gaf-feed-post-37"><div><div><span>咖啡店老板</span> <time datetime="2026-11-11T07:54:00.000Z">11月11日 07:54</time></div><p>自从店门口设了站点，客人多了一些。新站点附近的商家应该也会高兴。</p><div><span>点赞 44</span> <span>回复</span></div></div></article><article role="article" aria-posinset="38" aria-setsize="120" class="gaf-feed-post gaf-feed-post-38"><div><div><span>夏夏</span> <time datetime="2026-11-11T08:43:00.000Z">11月11日 08:43</time></div><p>希望 App 里能更准确地显示站点的空车数。显示3辆，去了一看是0辆，这种情况有过。</p><div><span>点赞 11</span> <span>回复</span></div></div></article><article role="article" aria-posinset="39" aria-setsize="120" class="gaf-feed-post gaf-feed-post-39"><div><div><span>小宇</span> <time datetime="2026-11-11T09:03:00.000Z">11月11日 09:03</time> <span>↳ 夏夏</span></div><p>这种事常有。至少标一下这是几分钟前的数据吧。</p><div><span>点赞 42</span> <span>回复</span></div></div></article><article role="article" aria-posinset="40" aria-setsize="120" class="gaf-feed-post gaf-feed-post-40"><div><div><span>电助力党</span> <time datetime="2026-11-11T09:55:00.000Z">11月11日 09:55</time></div><p>电助力骑过一次就回不去了。我觉得150辆都不够，请一直往上加。</p><div><span>点赞 10</span> <span>回复</span></div></div></article><article role="article" aria-posinset="41" aria-setsize="120" class="gaf-feed-post gaf-feed-post-41"><div><div><span>国梁</span> <time datetime="2026-11-11T10:20:00.000Z">11月11日 10:20</time></div><p>月卡涨到22元的话，希望把单次时长从30分钟延长到45分钟。照现在这样不太划算。</p><div><span>点赞 43</span> <span>回复</span></div></div></article><article role="article" aria-posinset="42" aria-setsize="120" class="gaf-feed-post gaf-feed-post-42"><div><div><span>医院上班的</span> <time datetime="2026-11-11T11:04:00.000Z">11月11日 11:04</time></div><p>在市立医院门口设站，真的非常感谢。上夜班的同事经常在没公交的时候下班。</p><div><span>点赞 0</span> <span>回复</span></div></div></article><article role="article" aria-posinset="43" aria-setsize="120" class="gaf-feed-post gaf-feed-post-43"><div><div><span>小花</span> <time datetime="2026-11-11T11:29:00.000Z">11月11日 11:29</time></div><p>我赞成，但电助力车没电了怎么办？车那么重，比普通单车还累吧。</p><div><span>点赞 9</span> <span>回复</span></div></div></article><article role="article" aria-posinset="44" aria-setsize="120" class="gaf-feed-post gaf-feed-post-44"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-11T12:13:00.000Z">11月11日 12:13</time> <span>↳ 小花</span></div><p>我们会让您在 App 里确认剩余电量后再借车。电量低的车辆会停止出借，并每天更换电池。</p><div><span>点赞 5</span> <span>回复</span></div></div></article><article role="article" aria-posinset="45" aria-setsize="120" class="gaf-feed-post gaf-feed-post-45"><div><div><span>小花</span> <time datetime="2026-11-11T12:38:00.000Z">11月11日 12:38</time> <span>↳ 小花</span></div><p>能看电量就放心了，谢谢。</p><div><span>点赞 47</span> <span>回复</span></div></div></article><article role="article" aria-posinset="46" aria-setsize="120" class="gaf-feed-post gaf-feed-post-46"><div><div><span>爱跑步的</span> <time datetime="2026-11-11T13:22:00.000Z">11月11日 13:22</time></div><p>担心走人行道的单车会增多。要增加站点的话，请同时完善非机动车道。</p><div><span>点赞 36</span> <span>回复</span></div></div></article><article role="article" aria-posinset="47" aria-setsize="120" class="gaf-feed-post gaf-feed-post-47"><div><div><span>阿雅</span> <time datetime="2026-11-11T14:16:00.000Z">11月11日 14:16</time> <span>↳ 爱跑步的</span></div><p>就算只把我上班走的港口路划出非机动车道，骑起来也会舒服很多。</p><div><span>点赞 45</span> <span>回复</span></div></div></article><article role="article" aria-posinset="48" aria-setsize="120" class="gaf-feed-post gaf-feed-post-48"><div><div><span>欣怡</span> <time datetime="2026-11-11T14:42:00.000Z">11月11日 14:42</time></div><p>月卡涨价对现在已办卡的人，4月起也适用吗？</p><div><span>点赞 2</span> <span>回复</span></div></div></article><article role="article" aria-posinset="49" aria-setsize="120" class="gaf-feed-post gaf-feed-post-49"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-11T15:07:00.000Z">11月11日 15:07</time> <span>↳ 欣怡</span></div><p>目前已办卡的用户，从4月份的月卡起按新价格收费。3月内已付款的部分仍按原价。</p><div><span>点赞 12</span> <span>回复</span></div></div></article><article role="article" aria-posinset="50" aria-setsize="120" class="gaf-feed-post gaf-feed-post-50"><div><div><span>老车迷</span> <time datetime="2026-11-11T15:43:00.000Z">11月11日 15:43</time></div><p>电助力车太重，个子矮的人和老人不好操作。请别减少普通单车，留着吧。</p><div><span>点赞 21</span> <span>回复</span></div></div></article><article role="article" aria-posinset="51" aria-setsize="120" class="gaf-feed-post gaf-feed-post-51"><div><div><span>退休散步人</span> <time datetime="2026-11-11T16:32:00.000Z">11月11日 16:32</time> <span>↳ 老车迷</span></div><p>我七十多了，电助力起步一下子就窜出去，有点怕。担心普通单车会没有。</p><div><span>点赞 12</span> <span>回复</span></div></div></article><article role="article" aria-posinset="52" aria-setsize="120" class="gaf-feed-post gaf-feed-post-52"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-11T17:02:00.000Z">11月11日 17:02</time> <span>↳ 老车迷</span></div><p>普通单车的数量不会减少。150辆电助力车是额外增加的。</p><div><span>点赞 4</span> <span>回复</span></div></div></article><article role="article" aria-posinset="53" aria-setsize="120" class="gaf-feed-post gaf-feed-post-53"><div><div><span>奶爸日记</span> <time datetime="2026-11-11T17:51:00.000Z">11月11日 17:51</time></div><p>假期我带孩子骑到海边。站点多了，能去的地方就更多了。</p><div><span>点赞 6</span> <span>回复</span></div></div></article><article role="article" aria-posinset="54" aria-setsize="120" class="gaf-feed-post gaf-feed-post-54"><div><div><span>子豪</span> <time datetime="2026-11-11T18:21:00.000Z">11月11日 18:21</time></div><p>希望也能借头盔。现在大家都提倡戴头盔，哪天没带，我就不太敢骑。</p><div><span>点赞 17</span> <span>回复</span></div></div></article><article role="article" aria-posinset="55" aria-setsize="120" class="gaf-feed-post gaf-feed-post-55"><div><div><span>熊猫妈妈</span> <time datetime="2026-11-11T19:10:00.000Z">11月11日 19:10</time> <span>↳ 子豪</span></div><p>公用头盔我担心卫生。要是有一次性的内衬帽就好了。</p><div><span>点赞 24</span> <span>回复</span></div></div></article><article role="article" aria-posinset="56" aria-setsize="120" class="gaf-feed-post gaf-feed-post-56"><div><div><span>轮椅使用者家属</span> <time datetime="2026-11-11T19:40:00.000Z">11月11日 19:40</time></div><p>我家人坐轮椅。站点附近要是有台阶就过不去，新站点请选没有台阶的地方。</p><div><span>点赞 19</span> <span>回复</span></div></div></article><article role="article" aria-posinset="57" aria-setsize="120" class="gaf-feed-post gaf-feed-post-57"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-11T20:29:00.000Z">11月11日 20:29</time> <span>↳ 轮椅使用者家属</span></div><p>感谢您宝贵的意见。新站点会在确认人行道宽度和台阶情况后再确定位置。</p><div><span>点赞 21</span> <span>回复</span></div></div></article><article role="article" aria-posinset="58" aria-setsize="120" class="gaf-feed-post gaf-feed-post-58"><div><div><span>夜猫子</span> <time datetime="2026-11-11T20:48:00.000Z">11月11日 20:48</time></div><p>我是夜猫子，能在深夜骑车真的很开心。夜里的港口路车少，骑着特别舒服。</p><div><span>点赞 45</span> <span>回复</span></div></div></article><article role="article" aria-posinset="59" aria-setsize="120" class="gaf-feed-post gaf-feed-post-59"><div><div><span>小光</span> <time datetime="2026-11-11T21:37:00.000Z">11月11日 21:37</time></div><p>说实话，要花税款的话，我觉得应该先增加公交班次。毕竟有人骑不了车。</p><div><span>点赞 20</span> <span>回复</span></div></div></article><article role="article" aria-posinset="60" aria-setsize="120" class="gaf-feed-post gaf-feed-post-60"><div><div><span>街坊心声</span> <time datetime="2026-11-11T22:00:00.000Z">11月11日 22:00</time> <span>↳ 小光</span></div><p>共享单车是市里直营的吗？是运营公司出钱，还是税款，我没弄明白。</p><div><span>点赞 4</span> <span>回复</span></div></div></article><article role="article" aria-posinset="61" aria-setsize="120" class="gaf-feed-post gaf-feed-post-61"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-11T22:54:00.000Z">11月11日 22:54</time> <span>↳ 小光</span></div><p>运营是市里委托的项目，约六成费用来自使用费，其余由市交通预算承担。明细将在3月公布。</p><div><span>点赞 22</span> <span>回复</span></div></div></article><article role="article" aria-posinset="62" aria-setsize="120" class="gaf-feed-post gaf-feed-post-62"><div><div><span>山脚下住户</span> <time datetime="2026-11-11T23:19:00.000Z">11月11日 23:19</time></div><p>我住山脚下，下班回家的上坡路一直让我发愁。电助力车要是来到附近的站点就好了。</p><div><span>点赞 46</span> <span>回复</span></div></div></article><article role="article" aria-posinset="63" aria-setsize="120" class="gaf-feed-post gaf-feed-post-63"><div><div><span>通勤半小时</span> <time datetime="2026-11-11T23:44:00.000Z">11月11日 23:44</time></div><p>我每天通勤都骑。24小时挺好，但超过30分钟价格一下子就上去了，遇到红灯多的日子心里直打鼓。</p><div><span>点赞 15</span> <span>回复</span></div></div></article><article role="article" aria-posinset="64" aria-setsize="120" class="gaf-feed-post gaf-feed-post-64"><div><div><span>高校职工</span> <time datetime="2026-11-12T00:38:00.000Z">11月12日 00:38</time></div><p>学校校园里有没有计划设站点？校内很大，学生和老师都会用。</p><div><span>点赞 0</span> <span>回复</span></div></div></article><article role="article" aria-posinset="65" aria-setsize="120" class="gaf-feed-post gaf-feed-post-65"><div><div><span>大三的小林</span> <time datetime="2026-11-12T01:03:00.000Z">11月12日 01:03</time> <span>↳ 高校职工</span></div><p>校园里要是有，我肯定用。从教学楼走到图书馆要10分钟。</p><div><span>点赞 9</span> <span>回复</span></div></div></article><article role="article" aria-posinset="66" aria-setsize="120" class="gaf-feed-post gaf-feed-post-66"><div><div><span>俊杰</span> <time datetime="2026-11-12T01:57:00.000Z">11月12日 01:57</time></div><p>说是搬到北出口只有一年，可我担心工期一拖就变成长期了。希望按期恢复。</p><div><span>点赞 26</span> <span>回复</span></div></div></article><article role="article" aria-posinset="67" aria-setsize="120" class="gaf-feed-post gaf-feed-post-67"><div><div><span>婷婷</span> <time datetime="2026-11-12T02:22:00.000Z">11月12日 02:22</time></div><p>我不太会开车，共享单车越来越多让我很踏实。买菜来回都靠它。</p><div><span>点赞 11</span> <span>回复</span></div></div></article><article role="article" aria-posinset="68" aria-setsize="120" class="gaf-feed-post gaf-feed-post-68"><div><div><span>外卖小哥</span> <time datetime="2026-11-12T03:16:00.000Z">11月12日 03:16</time></div><p>送外卖的时候能用吗？要是有带货架的车，工作时也想用。</p><div><span>点赞 28</span> <span>回复</span></div></div></article><article role="article" aria-posinset="69" aria-setsize="120" class="gaf-feed-post gaf-feed-post-69"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-12T03:41:00.000Z">11月12日 03:41</time> <span>↳ 外卖小哥</span></div><p>按现行使用条款，请勿将车辆用于工作用途的长时间使用。面向企业的套餐正在研究中。</p><div><span>点赞 14</span> <span>回复</span></div></div></article><article role="article" aria-posinset="70" aria-setsize="120" class="gaf-feed-post gaf-feed-post-70"><div><div><span>物流大叔</span> <time datetime="2026-11-12T04:03:00.000Z">11月12日 04:03</time> <span>↳ 外卖小哥</span></div><p>有了企业套餐，我们公司也想用来做短距离配送。</p><div><span>点赞 31</span> <span>回复</span></div></div></article><article role="article" aria-posinset="71" aria-setsize="120" class="gaf-feed-post gaf-feed-post-71"><div><div><span>秀兰</span> <time datetime="2026-11-12T04:52:00.000Z">11月12日 04:52</time></div><p>听说站点要设在我家门口的人行道上。半夜有人进进出出会吵，请避开居民区正中间。</p><div><span>点赞 46</span> <span>回复</span></div></div></article><article role="article" aria-posinset="72" aria-setsize="120" class="gaf-feed-post gaf-feed-post-72"><div><div><span>居委会老张</span> <time datetime="2026-11-12T05:41:00.000Z">11月12日 05:41</time> <span>↳ 秀兰</span></div><p>站点选址有说明会吗？我们居委会也想事先了解一下。</p><div><span>点赞 29</span> <span>回复</span></div></div></article><article role="article" aria-posinset="73" aria-setsize="120" class="gaf-feed-post gaf-feed-post-73"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-12T06:01:00.000Z">11月12日 06:01</time> <span>↳ 秀兰</span></div><p>拟设站点周边，1月将分片区召开说明会。具体日程会通过市里的通知公布。</p><div><span>点赞 15</span> <span>回复</span></div></div></article><article role="article" aria-posinset="74" aria-setsize="120" class="gaf-feed-post gaf-feed-post-74"><div><div><span>海边散步人</span> <time datetime="2026-11-12T06:41:00.000Z">11月12日 06:41</time></div><p>我本来就希望海边步道沿线也多设站点，所以对港南新增很期待。</p><div><span>点赞 43</span> <span>回复</span></div></div></article><article role="article" aria-posinset="75" aria-setsize="120" class="gaf-feed-post gaf-feed-post-75"><div><div><span>志远</span> <time datetime="2026-11-12T07:30:00.000Z">11月12日 07:30</time></div><p>希望没有智能手机的人也能刷交通卡借车。我爸妈想用。</p><div><span>点赞 26</span> <span>回复</span></div></div></article><article role="article" aria-posinset="76" aria-setsize="120" class="gaf-feed-post gaf-feed-post-76"><div><div><span>退休散步人</span> <time datetime="2026-11-12T07:50:00.000Z">11月12日 07:50</time> <span>↳ 志远</span></div><p>就是这个！App 注册太难了，我只能让孙子帮忙才能用。</p><div><span>点赞 25</span> <span>回复</span></div></div></article><article role="article" aria-posinset="77" aria-setsize="120" class="gaf-feed-post gaf-feed-post-77"><div><div><span>环保社团</span> <time datetime="2026-11-12T08:39:00.000Z">11月12日 08:39</time></div><p>开车的人少了，港口一带的拥堵多少也会好些。从环保角度看也是件好事。</p><div><span>点赞 0</span> <span>回复</span></div></div></article><article role="article" aria-posinset="78" aria-setsize="120" class="gaf-feed-post gaf-feed-post-78"><div><div><span>小满</span> <time datetime="2026-11-12T09:19:00.000Z">11月12日 09:19</time></div><p>学生月卡和普通月卡，在可用车辆和时间上有区别吗？</p><div><span>点赞 39</span> <span>回复</span></div></div></article><article role="article" aria-posinset="79" aria-setsize="120" class="gaf-feed-post gaf-feed-post-79"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-12T09:39:00.000Z">11月12日 09:39</time> <span>↳ 小满</span></div><p>没有区别。学生月卡同样可以24小时使用包括电助力车在内的所有单车。</p><div><span>点赞 5</span> <span>回复</span></div></div></article><article role="article" aria-posinset="80" aria-setsize="120" class="gaf-feed-post gaf-feed-post-80"><div><div><span>不会开车的人</span> <time datetime="2026-11-12T10:24:00.000Z">11月12日 10:24</time></div><p>我没有驾照，出行方式多了对我很有帮助。不过也希望为第一次骑的人办个骑行培训课。</p><div><span>点赞 38</span> <span>回复</span></div></div></article><article role="article" aria-posinset="81" aria-setsize="120" class="gaf-feed-post gaf-feed-post-81"><div><div><span>浩然</span> <time datetime="2026-11-12T11:18:00.000Z">11月12日 11:18</time></div><p>担心电助力车被偷，或者电池被人拆走。别的城市听说过这种事。</p><div><span>点赞 39</span> <span>回复</span></div></div></article><article role="article" aria-posinset="82" aria-setsize="120" class="gaf-feed-post gaf-feed-post-82"><div><div><span>电助力党</span> <time datetime="2026-11-12T11:33:00.000Z">11月12日 11:33</time> <span>↳ 浩然</span></div><p>电池应该是带锁的吧，到底怎么样？希望运营方回答一下。</p><div><span>点赞 44</span> <span>回复</span></div></div></article><article role="article" aria-posinset="83" aria-setsize="120" class="gaf-feed-post gaf-feed-post-83"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-12T12:27:00.000Z">11月12日 12:27</time> <span>↳ 浩然</span></div><p>电助力车的电池必须使用专用工具才能拆下，所有车辆也都装有定位终端。</p><div><span>点赞 10</span> <span>回复</span></div></div></article><article role="article" aria-posinset="84" aria-setsize="120" class="gaf-feed-post gaf-feed-post-84"><div><div><span>港湾小琪</span> <time datetime="2026-11-12T13:02:00.000Z">11月12日 13:02</time></div><p>山坡片区里，请务必在图书馆门口设一个站点。爬到顶上就能还车，太方便了。</p><div><span>点赞 34</span> <span>回复</span></div></div></article><article role="article" aria-posinset="85" aria-setsize="120" class="gaf-feed-post gaf-feed-post-85"><div><div><span>吴立新</span> <time datetime="2026-11-12T13:27:00.000Z">11月12日 13:27</time></div><p>涨价的同时增加车辆，会不会只是让没人修的坏车变多？请先把维修体系理一理。</p><div><span>点赞 3</span> <span>回复</span></div></div></article><article role="article" aria-posinset="86" aria-setsize="120" class="gaf-feed-post gaf-feed-post-86"><div><div><span>港口通勤族</span> <time datetime="2026-11-12T14:11:00.000Z">11月12日 14:11</time></div><p>我每天早上骑港口路，感觉比去年维护得好了。希望继续保持。</p><div><span>点赞 40</span> <span>回复</span></div></div></article><article role="article" aria-posinset="87" aria-setsize="120" class="gaf-feed-post gaf-feed-post-87"><div><div><span>爬坡跑者</span> <time datetime="2026-11-12T14:36:00.000Z">11月12日 14:36</time></div><p>超过30分钟一点点，比如31分钟，是不是要收3.6元？有没有只对超出几分钟减免的办法？</p><div><span>点赞 1</span> <span>回复</span></div></div></article><article role="article" aria-posinset="88" aria-setsize="120" class="gaf-feed-post gaf-feed-post-88"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-12T15:29:00.000Z">11月12日 15:29</time> <span>↳ 爬坡跑者</span></div><p>31分钟的话是3.6元。如果归还的站点已停满，可在 App 里免费申请延长15分钟。</p><div><span>点赞 17</span> <span>回复</span></div></div></article><article role="article" aria-posinset="89" aria-setsize="120" class="gaf-feed-post gaf-feed-post-89"><div><div><span>爬坡跑者</span> <time datetime="2026-11-12T15:54:00.000Z">11月12日 15:54</time> <span>↳ 爬坡跑者</span></div><p>我还不知道站点满了可以延长。不过超时费还是希望分得再细一点。</p><div><span>点赞 31</span> <span>回复</span></div></div></article><article role="article" aria-posinset="90" aria-setsize="120" class="gaf-feed-post gaf-feed-post-90"><div><div><span>小雪</span> <time datetime="2026-11-12T16:27:00.000Z">11月12日 16:27</time></div><p>站点多了，离车站远一点的幼儿园也能骑车去了。很期待。</p><div><span>点赞 1</span> <span>回复</span></div></div></article><article role="article" aria-posinset="91" aria-setsize="120" class="gaf-feed-post gaf-feed-post-91"><div><div><span>骑行大叔</span> <time datetime="2026-11-12T17:16:00.000Z">11月12日 17:16</time></div><p>作为老用户，新车固然好，但旧车的刹车也请尽早修一修。</p><div><span>点赞 24</span> <span>回复</span></div></div></article><article role="article" aria-posinset="92" aria-setsize="120" class="gaf-feed-post gaf-feed-post-92"><div><div><span>林间</span> <time datetime="2026-11-12T17:46:00.000Z">11月12日 17:46</time></div><p>请在文章末尾也写上除评论区以外的意见渠道。也想听听不上网的人的声音。</p><div><span>点赞 19</span> <span>回复</span></div></div></article><article role="article" aria-posinset="93" aria-setsize="120" class="gaf-feed-post gaf-feed-post-93"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-12T18:35:00.000Z">11月12日 18:35</time> <span>↳ 林间</span></div><p>感谢指正。市政府一楼的交通政策科窗口和邮寄也可受理意见，我们会在文章中补充。</p><div><span>点赞 17</span> <span>回复</span></div></div></article><article role="article" aria-posinset="94" aria-setsize="120" class="gaf-feed-post gaf-feed-post-94"><div><div><span>小蓝</span> <time datetime="2026-11-12T19:14:00.000Z">11月12日 19:14</time></div><p>晚上聚餐后，走路回家太远、打车又贵的时候，用它很方便。当然喝了酒我是不会骑的。</p><div><span>点赞 21</span> <span>回复</span></div></div></article><article role="article" aria-posinset="95" aria-setsize="120" class="gaf-feed-post gaf-feed-post-95"><div><div><span>港湾阿福</span> <time datetime="2026-11-12T19:34:00.000Z">11月12日 19:34</time> <span>↳ 小蓝</span></div><p>酒后骑车也是违规的吧。希望把警示语做大一点，别让夜里喝酒骑车的人变多。</p><div><span>点赞 12</span> <span>回复</span></div></div></article><article role="article" aria-posinset="96" aria-setsize="120" class="gaf-feed-post gaf-feed-post-96"><div><div><span>护工小M</span> <time datetime="2026-11-12T20:33:00.000Z">11月12日 20:33</time></div><p>电助力车的前车筐最多能放几公斤？我上门时带的东西多，想问问。</p><div><span>点赞 7</span> <span>回复</span></div></div></article><article role="article" aria-posinset="97" aria-setsize="120" class="gaf-feed-post gaf-feed-post-97"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-12T20:53:00.000Z">11月12日 20:53</time> <span>↳ 护工小M</span></div><p>前车筐最多5公斤。目前没有后货架，企业套餐正在考虑配置带货架的车辆。</p><div><span>点赞 21</span> <span>回复</span></div></div></article><article role="article" aria-posinset="98" aria-setsize="120" class="gaf-feed-post gaf-feed-post-98"><div><div><span>一凡</span> <time datetime="2026-11-12T21:32:00.000Z">11月12日 21:32</time></div><p>有学生月卡是好事，但刚工作的第一年工资也不高，希望做成青年优惠的形式。</p><div><span>点赞 41</span> <span>回复</span></div></div></article><article role="article" aria-posinset="99" aria-setsize="120" class="gaf-feed-post gaf-feed-post-99"><div><div><span>晓晴</span> <time datetime="2026-11-12T22:21:00.000Z">11月12日 22:21</time></div><p>如果 App 里还能加一张能避开坡路、从老城区骑到港南的路线图就好了。</p><div><span>点赞 16</span> <span>回复</span></div></div></article><article role="article" aria-posinset="100" aria-setsize="120" class="gaf-feed-post gaf-feed-post-100"><div><div><span>外地来的游客</span> <time datetime="2026-11-12T23:01:00.000Z">11月12日 23:01</time></div><p>游客中心附近要是有站点就方便了。如果有英文说明，外国游客也更好用。</p><div><span>点赞 23</span> <span>回复</span></div></div></article><article role="article" aria-posinset="101" aria-setsize="120" class="gaf-feed-post gaf-feed-post-101"><div><div><span>咖啡店老板</span> <time datetime="2026-11-12T23:21:00.000Z">11月12日 23:21</time> <span>↳ 外地来的游客</span></div><p>我店里也常有外国客人，英文说明我大力支持。</p><div><span>点赞 22</span> <span>回复</span></div></div></article><article role="article" aria-posinset="102" aria-setsize="120" class="gaf-feed-post gaf-feed-post-102"><div><div><span>高中老师</span> <time datetime="2026-11-13T00:10:00.000Z">11月13日 00:10</time></div><p>学校活动可以让学生集体借车吗？春游研学时想骑着逛老城区。</p><div><span>点赞 21</span> <span>回复</span></div></div></article><article role="article" aria-posinset="103" aria-setsize="120" class="gaf-feed-post gaf-feed-post-103"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-13T00:30:00.000Z">11月13日 00:30</time> <span>↳ 高中老师</span></div><p>团体使用需提前预约。因车辆数量有限，请在两周前与我们联系。</p><div><span>点赞 11</span> <span>回复</span></div></div></article><article role="article" aria-posinset="104" aria-setsize="120" class="gaf-feed-post gaf-feed-post-104"><div><div><span>精打细算的主妇</span> <time datetime="2026-11-13T01:10:00.000Z">11月13日 01:10</time></div><p>有了电助力车，现在的月卡也完全值回票价。涨价这点钱也就认了吧。</p><div><span>点赞 19</span> <span>回复</span></div></div></article><article role="article" aria-posinset="105" aria-setsize="120" class="gaf-feed-post gaf-feed-post-105"><div><div><span>国梁</span> <time datetime="2026-11-13T01:59:00.000Z">11月13日 01:59</time></div><p>想要一张价格对比表。现在和4月以后差多少，一眼看不出来。</p><div><span>点赞 34</span> <span>回复</span></div></div></article><article role="article" aria-posinset="106" aria-setsize="120" class="gaf-feed-post gaf-feed-post-106"><div><div><span>爱跑步的</span> <time datetime="2026-11-13T02:19:00.000Z">11月13日 02:19</time></div><p>我跑完晨跑会用它。24小时是好事，但清晨调度的货车停在人行道上，有时影响跑步。</p><div><span>点赞 17</span> <span>回复</span></div></div></article><article role="article" aria-posinset="107" aria-setsize="120" class="gaf-feed-post gaf-feed-post-107"><div><div><span>欣怡</span> <time datetime="2026-11-13T03:08:00.000Z">11月13日 03:08</time></div><p>我上学时天天骑。要是那时候就有学生月卡就好了。这是个好举措。</p><div><span>点赞 40</span> <span>回复</span></div></div></article><article role="article" aria-posinset="108" aria-setsize="120" class="gaf-feed-post gaf-feed-post-108"><div><div><span>奶爸日记</span> <time datetime="2026-11-13T03:37:00.000Z">11月13日 03:37</time></div><p>能不能也放几辆小尺寸的、孩子自己能骑的单车？想一家人一起骑。</p><div><span>点赞 15</span> <span>回复</span></div></div></article><article role="article" aria-posinset="109" aria-setsize="120" class="gaf-feed-post gaf-feed-post-109"><div><div><span>秀兰</span> <time datetime="2026-11-13T04:26:00.000Z">11月13日 04:26</time> <span>↳ 奶爸日记</span></div><p>孩子自己上机动车道太危险了，要放的话，我觉得只放在公园里的站点比较好。</p><div><span>点赞 14</span> <span>回复</span></div></div></article><article role="article" aria-posinset="110" aria-setsize="120" class="gaf-feed-post gaf-feed-post-110"><div><div><span>小光</span> <time datetime="2026-11-13T05:04:00.000Z">11月13日 05:04</time></div><p>2月底前收集的意见，会在最终方案里采纳多少？结果也会公开吗？</p><div><span>点赞 44</span> <span>回复</span></div></div></article><article role="article" aria-posinset="111" aria-setsize="120" class="gaf-feed-post gaf-feed-post-111"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-13T05:29:00.000Z">11月13日 05:29</time> <span>↳ 小光</span></div><p>收到的意见会按项目整理，连同市里的看法一起，作为3月交通委员会的资料公开。</p><div><span>点赞 22</span> <span>回复</span></div></div></article><article role="article" aria-posinset="112" aria-setsize="120" class="gaf-feed-post gaf-feed-post-112"><div><div><span>通勤半小时</span> <time datetime="2026-11-13T06:23:00.000Z">11月13日 06:23</time></div><p>每天上班好像能轻松一点了。最近我觉得骑车比挤满员的公交舒服。</p><div><span>点赞 38</span> <span>回复</span></div></div></article><article role="article" aria-posinset="113" aria-setsize="120" class="gaf-feed-post gaf-feed-post-113"><div><div><span>俊杰</span> <time datetime="2026-11-13T06:48:00.000Z">11月13日 06:48</time></div><p>要搬到北出口的话，请务必从南出口设好指引标识。第一次用的人肯定会迷路。</p><div><span>点赞 39</span> <span>回复</span></div></div></article><article role="article" aria-posinset="114" aria-setsize="120" class="gaf-feed-post gaf-feed-post-114"><div><div><span>外卖小哥</span> <time datetime="2026-11-13T07:13:00.000Z">11月13日 07:13</time></div><p>我用得多，涨价确实肉疼，但如果能24小时，总体上我是赞成的。</p><div><span>点赞 24</span> <span>回复</span></div></div></article><article role="article" aria-posinset="115" aria-setsize="120" class="gaf-feed-post gaf-feed-post-115"><div><div><span>志远</span> <time datetime="2026-11-13T08:07:00.000Z">11月13日 08:07</time></div><p>要是附近有我爸妈也能骑的电助力车，他们买完菜回来就不用拎重东西了。</p><div><span>点赞 33</span> <span>回复</span></div></div></article><article role="article" aria-posinset="116" aria-setsize="120" class="gaf-feed-post gaf-feed-post-116"><div><div><span>环保社团</span> <time datetime="2026-11-13T08:32:00.000Z">11月13日 08:32</time></div><p>如果能公开使用数据（几点在哪里被使用），我们社团也想分析一下。</p><div><span>点赞 34</span> <span>回复</span></div></div></article><article role="article" aria-posinset="117" aria-setsize="120" class="gaf-feed-post gaf-feed-post-117"><div><div><span>高校职工</span> <time datetime="2026-11-13T09:26:00.000Z">11月13日 09:26</time> <span>↳ 环保社团</span></div><p>也很适合作为大学课程的素材。如果是不暴露个人信息的形式公开，我赞成。</p><div><span>点赞 3</span> <span>回复</span></div></div></article><article role="article" aria-posinset="118" aria-setsize="120" class="gaf-feed-post gaf-feed-post-118"><div><div><span>小满</span> <time datetime="2026-11-13T09:40:00.000Z">11月13日 09:40</time></div><p>意见虽然不少，但我觉得城市出行越来越方便的方向没错。很期待。</p><div><span>点赞 20</span> <span>回复</span></div></div></article><article role="article" aria-posinset="119" aria-setsize="120" class="gaf-feed-post gaf-feed-post-119"><div><div><span>不会开车的人</span> <time datetime="2026-11-13T10:34:00.000Z">11月13日 10:34</time></div><p>4月1日起会一下子全部改变吗？电助力车和站点是依次增加的吗？</p><div><span>点赞 29</span> <span>回复</span></div></div></article><article role="article" aria-posinset="120" aria-setsize="120" class="gaf-feed-post gaf-feed-post-120"><div><div><span>港湾共享单车运营办公室</span> <span>官方</span> <time datetime="2026-11-13T11:14:00.000Z">11月13日 11:14</time> <span>↳ 不会开车的人</span></div><p>价格调整和24小时运营自4月1日起实施。电助力车和站点将在4月至6月陆续增加。</p><div><span>点赞 18</span> <span>回复</span></div></div></article></div>
+<p aria-live="polite" id="gaf-p00001-more">已显示全部评论</p>
+</section>
+
+</div>
+      </section>
+    
+    
+  </main>
+  <a class="gaf-toc-fab" href="#gaf-toc">返回目录</a>
+  <script type="application/json" id="gaf-search-config">{"searchPlaceholder":"在文档中搜索","searchHeadingsOnly":"仅标题","searchMatches":"{current} / {total}","searchNoMatches":"无匹配项","searchTooMany":"匹配项超过 2,000 个，请缩小搜索范围","searchPrev":"上一个","searchNext":"下一个","searchClear":"清除","collapseAll":"折叠所有页面","expandAll":"展开所有页面","collapsePage":"折叠此页面","expandPage":"展开此页面","themeLabel":"配色","themeAuto":"自动","themeLight":"浅色","themeDark":"深色"}</script>
+  <script>(function () {
+  'use strict';
+  var configEl = document.getElementById('gaf-search-config');
+  var labels = {};
+  try { labels = JSON.parse(configEl.textContent) || {}; } catch (e) { labels = {}; }
+  function L(key, fallback) { return (labels && typeof labels[key] === 'string') ? labels[key] : fallback; }
+  var MAX_MARKS = 2000;
+  var hits = [];
+  var currentIndex = -1;
+  var debounceTimer = null;
+  var cappedSearch = false;
+  var searchRun = 0;
+  var lastQuery = null;
+  var lastHeadings = false;
+  var HEADINGS = { h1: 1, h2: 1, h3: 1, h4: 1, h5: 1, h6: 1 };
+  function ready(fn) {
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fn);
+    else fn();
+  }
+  function makeButton(text, title, ariaLabel) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = text;
+    if (title) b.title = title;
+    if (ariaLabel) b.setAttribute('aria-label', ariaLabel);
+    return b;
+  }
+  function fold(value) {
+    try { return value.normalize('NFKC').toLowerCase(); } catch (e) { return value.toLowerCase(); }
+  }
+  var MARK_RE = null;
+  try { MARK_RE = new RegExp('^[\\p{M}\\uFF9E\\uFF9F]$', 'u'); } catch (e) { MARK_RE = /^[\u0300-\u036F\u3099\u309A\uFF9E\uFF9F]$/; }
+  function nextCodePoint(value, i) {
+    var c = value.charCodeAt(i);
+    if (c >= 0xD800 && c <= 0xDBFF && i + 1 < value.length) {
+      var d = value.charCodeAt(i + 1);
+      if (d >= 0xDC00 && d <= 0xDFFF) return i + 2;
+    }
+    return i + 1;
+  }
+  function foldedMap(value) {
+    var norm = '';
+    var map = [];
+    var ends = [];
+    var i = 0;
+    while (i < value.length) {
+      var start = i;
+      i = nextCodePoint(value, i);
+      while (i < value.length) {
+        var after = nextCodePoint(value, i);
+        if (!MARK_RE.test(value.slice(i, after))) break;
+        i = after;
+      }
+      var piece = fold(value.slice(start, i));
+      for (var j = 0; j < piece.length; j++) { norm += piece.charAt(j); map.push(start); ends.push(i); }
+    }
+    map.push(value.length);
+    return { norm: norm, map: map, ends: ends };
+  }
+  function getPages() { return document.querySelectorAll('section.gaf-page'); }
+  function allDocs() {
+    var docs = [document];
+    var frames = document.querySelectorAll('iframe.gaf-look-frame');
+    for (var i = 0; i < frames.length; i++) {
+      try { if (frames[i].contentDocument && frames[i].contentDocument.body) docs.push(frames[i].contentDocument); } catch (e) {}
+    }
+    var hosts = document.querySelectorAll('.gaf-look-host');
+    for (var h = 0; h < hosts.length; h++) if (hosts[h].shadowRoot) docs.push(hosts[h].shadowRoot);
+    return docs;
+  }
+  function counterEl() { return document.getElementById('gaf-search-count'); }
+  function clearCounter() { var c = counterEl(); if (c) { c.textContent = ''; c.removeAttribute('title'); } }
+  function clearMarks() {
+    var docs = allDocs();
+    for (var d = 0; d < docs.length; d++) {
+      var marks = docs[d].querySelectorAll('mark.gaf-search-hit');
+      for (var i = 0; i < marks.length; i++) {
+        var mark = marks[i];
+        var parent = mark.parentNode;
+        if (!parent) continue;
+        while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
+        parent.removeChild(mark);
+        if (parent.normalize) parent.normalize();
+      }
+    }
+    hits = [];
+    currentIndex = -1;
+    cappedSearch = false;
+    lastQuery = null;
+  }
+  var INLINE = { a: 1, abbr: 1, b: 1, bdi: 1, bdo: 1, cite: 1, code: 1, data: 1, del: 1, dfn: 1, em: 1, font: 1, i: 1, ins: 1, kbd: 1, label: 1, q: 1, s: 1, samp: 1, small: 1, span: 1, strong: 1, sub: 1, sup: 1, time: 1, tt: 1, u: 1, var: 1 };
+  function collectRuns(root, headingsOnly, runs) {
+    var current = null;
+    function flush() {
+      if (current) {
+        for (var k = 0; k < current.length; k++) if (current[k].nodeValue.trim()) { runs.push(current); break; }
+      }
+      current = null;
+    }
+    function walk(node, inHeading) {
+      for (var child = node.firstChild; child; child = child.nextSibling) {
+        if (child.nodeType === 3) {
+          if (!child.nodeValue || (headingsOnly && !inHeading)) continue;
+          if (!current) current = [];
+          current.push(child);
+          continue;
+        }
+        if (child.nodeType !== 1) continue;
+        var name = child.nodeName ? child.nodeName.toLowerCase() : '';
+        if (name === 'mark' || name === 'script' || name === 'style') { flush(); continue; }
+        var inline = INLINE[name] === 1;
+        if (!inline) flush();
+        walk(child, inHeading || HEADINGS[name] === 1);
+        if (!inline) flush();
+      }
+    }
+    walk(root, false);
+    flush();
+    return runs;
+  }
+  function updateCounter() {
+    var counter = counterEl();
+    if (!counter) return;
+    if (!hits.length) { counter.textContent = L('searchNoMatches', 'No matches'); counter.removeAttribute('title'); return; }
+    var template = L('searchMatches', '{current} / {total}');
+    var current = currentIndex >= 0 ? (currentIndex + 1) : 1;
+    var total = String(hits.length) + (cappedSearch ? '+' : '');
+    counter.textContent = template.split('{current}').join(String(current)).split('{total}').join(total);
+    if (cappedSearch) counter.title = L('searchTooMany', '2,000+ matches');
+    else counter.removeAttribute('title');
+  }
+  function setToggleState(page, collapsed) {
+    var t = page.querySelector('.gaf-page-toggle');
+    if (!t) return;
+    t.textContent = collapsed ? '\u002b' : '\u2212';
+    t.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+    t.setAttribute('aria-label', collapsed ? L('expandPage', 'Expand this page') : L('collapsePage', 'Collapse this page'));
+  }
+  function setHitClass(mark, name) {
+    var parts = mark.gafParts || [mark];
+    for (var i = 0; i < parts.length; i++) parts[i].className = name;
+  }
+  function setCurrent(index) {
+    if (!hits.length) return;
+    if (currentIndex >= 0 && hits[currentIndex]) setHitClass(hits[currentIndex], 'gaf-search-hit');
+    if (index < 0) index = hits.length - 1;
+    if (index >= hits.length) index = 0;
+    currentIndex = index;
+    var mark = hits[currentIndex];
+    setHitClass(mark, 'gaf-search-hit gaf-search-current');
+    var owner = mark.ownerDocument;
+    var host = owner && owner !== document && owner.defaultView && owner.defaultView.frameElement ? owner.defaultView.frameElement : mark;
+    var shadow = host === mark && mark.getRootNode ? mark.getRootNode() : null;
+    if (shadow && shadow.host) host = shadow.host;
+    var page = host.closest ? host.closest('section.gaf-page') : null;
+    if (page && page.classList.contains('gaf-collapsed')) {
+      page.classList.remove('gaf-collapsed');
+      setToggleState(page, false);
+    }
+    if (mark.scrollIntoView) mark.scrollIntoView({ block: 'center' });
+    updateCounter();
+  }
+  function nextHit() { if (hits.length) setCurrent(currentIndex + 1); }
+  function prevHit() { if (hits.length) setCurrent(currentIndex - 1); }
+  function processNode(node, needle) {
+    if (!node.parentNode) return;
+    var value = node.nodeValue;
+    var folded = foldedMap(value);
+    var idx = folded.norm.indexOf(needle);
+    if (idx === -1) return;
+    var doc = node.ownerDocument || document;
+    var frag = doc.createDocumentFragment();
+    var last = 0;
+    while (idx !== -1) {
+      var rawStart = folded.map[idx];
+      var rawEnd = folded.ends[idx + needle.length - 1];
+      if (rawEnd <= rawStart) rawEnd = rawStart + 1;
+      if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
+      else if (rawStart < last) rawStart = last;
+      var mark = doc.createElement('mark');
+      mark.className = 'gaf-search-hit';
+      mark.textContent = value.slice(rawStart, rawEnd);
+      frag.appendChild(mark);
+      hits.push(mark);
+      last = rawEnd;
+      if (hits.length >= MAX_MARKS) { cappedSearch = true; break; }
+      idx = folded.norm.indexOf(needle, idx + needle.length);
+      while (idx !== -1 && folded.map[idx] < last) idx = folded.norm.indexOf(needle, idx + 1);
+    }
+    if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
+    node.parentNode.replaceChild(frag, node);
+  }
+  function processRun(run, needle) {
+    if (run.length === 1) { processNode(run[0], needle); return; }
+    var parts = [];
+    var norm = '';
+    for (var p = 0; p < run.length; p++) {
+      var f = foldedMap(run[p].nodeValue);
+      parts.push({ node: run[p], folded: f, start: norm.length, cuts: [] });
+      norm += f.norm;
+    }
+    var idx = norm.indexOf(needle);
+    if (idx === -1) return;
+    var groups = [];
+    while (idx !== -1) {
+      var end = idx + needle.length;
+      var group = [];
+      groups.push(group);
+      for (var r = 0; r < parts.length; r++) {
+        var part = parts[r];
+        var partEnd = part.start + part.folded.norm.length;
+        if (partEnd <= idx || part.start >= end) continue;
+        var from = Math.max(idx, part.start) - part.start;
+        var to = Math.min(end, partEnd) - part.start;
+        part.cuts.push({ rawStart: part.folded.map[from], rawEnd: part.folded.ends[to - 1], group: group });
+      }
+      if (hits.length + groups.length >= MAX_MARKS) { cappedSearch = true; break; }
+      idx = norm.indexOf(needle, end);
+    }
+    for (var s = 0; s < parts.length; s++) {
+      var node = parts[s].node;
+      if (!parts[s].cuts.length || !node.parentNode) continue;
+      var value = node.nodeValue;
+      var doc = node.ownerDocument || document;
+      var frag = doc.createDocumentFragment();
+      var last = 0;
+      for (var t = 0; t < parts[s].cuts.length; t++) {
+        var cut = parts[s].cuts[t];
+        var rawStart = cut.rawStart < last ? last : cut.rawStart;
+        if (cut.rawEnd <= rawStart) continue;
+        if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
+        var mark = doc.createElement('mark');
+        mark.className = 'gaf-search-hit';
+        mark.textContent = value.slice(rawStart, cut.rawEnd);
+        frag.appendChild(mark);
+        cut.group.push(mark);
+        last = cut.rawEnd;
+      }
+      if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    }
+    for (var g = 0; g < groups.length; g++) {
+      if (!groups[g].length) continue;
+      groups[g][0].gafParts = groups[g];
+      hits.push(groups[g][0]);
+    }
+  }
+  function highlight(query, headingsOnly) {
+    var needle = fold(query || '').replace(/^\s+|\s+$/g, '');
+    if (needle === lastQuery && headingsOnly === lastHeadings) return;
+    searchRun += 1;
+    var runId = searchRun;
+    clearMarks();
+    if (!needle || needle.length < 2) { clearCounter(); lastQuery = needle || null; lastHeadings = headingsOnly; return; }
+    lastQuery = needle;
+    lastHeadings = headingsOnly;
+    var pages = getPages();
+    var nodes = [];
+    for (var pi = 0; pi < pages.length; pi++) {
+      collectRuns(pages[pi], headingsOnly, nodes);
+      var pageFrames = pages[pi].querySelectorAll('iframe.gaf-look-frame');
+      for (var fi = 0; fi < pageFrames.length; fi++) {
+        var frameDoc = null;
+        try { frameDoc = pageFrames[fi].contentDocument; } catch (e) { frameDoc = null; }
+        if (!frameDoc || !frameDoc.body) continue;
+        collectRuns(frameDoc.body, headingsOnly, nodes);
+      }
+      var pageHosts = pages[pi].querySelectorAll('.gaf-look-host');
+      for (var hi = 0; hi < pageHosts.length; hi++) {
+        if (!pageHosts[hi].shadowRoot) continue;
+        collectRuns(pageHosts[hi].shadowRoot, headingsOnly, nodes);
+      }
+    }
+    var index = 0;
+    var CHUNK = 1500;
+    function step() {
+      if (runId !== searchRun) return;
+      var end = index + CHUNK;
+      if (end > nodes.length) end = nodes.length;
+      for (; index < end && !cappedSearch; index++) processRun(nodes[index], needle);
+      if (index < nodes.length && !cappedSearch) {
+        updateCounter();
+        if (window.requestAnimationFrame) window.requestAnimationFrame(step);
+        else setTimeout(step, 0);
+        return;
+      }
+      updateCounter();
+      if (hits.length) setCurrent(0);
+    }
+    step();
+  }
+  ready(function () {
+    var bar = document.createElement('div');
+    bar.className = 'gaf-search';
+    bar.setAttribute('role', 'search');
+    bar.setAttribute('aria-label', L('searchPlaceholder', 'Search this document'));
+    var input = document.createElement('input');
+    input.type = 'search';
+    input.className = 'gaf-search-input';
+    input.placeholder = L('searchPlaceholder', 'Search this document');
+    input.setAttribute('aria-label', L('searchPlaceholder', 'Search this document'));
+    bar.appendChild(input);
+    var headingsLabel = document.createElement('label');
+    headingsLabel.className = 'gaf-search-headings';
+    var headingsCheck = document.createElement('input');
+    headingsCheck.type = 'checkbox';
+    headingsLabel.appendChild(headingsCheck);
+    headingsLabel.appendChild(document.createTextNode(' ' + L('searchHeadingsOnly', 'Headings only')));
+    bar.appendChild(headingsLabel);
+    var prevBtn = makeButton('\u2190', L('searchPrev', 'Previous'), L('searchPrev', 'Previous'));
+    var nextBtn = makeButton('\u2192', L('searchNext', 'Next'), L('searchNext', 'Next'));
+    bar.appendChild(prevBtn);
+    bar.appendChild(nextBtn);
+    var counter = document.createElement('span');
+    counter.className = 'gaf-search-count';
+    counter.id = 'gaf-search-count';
+    counter.setAttribute('aria-live', 'polite');
+    counter.setAttribute('aria-atomic', 'true');
+    bar.appendChild(counter);
+    var clearBtn = makeButton(L('searchClear', 'Clear'), L('searchClear', 'Clear'));
+    bar.appendChild(clearBtn);
+    var collapseBtn = makeButton(L('collapseAll', 'Collapse all pages'), L('collapseAll', 'Collapse all pages'));
+    var expandBtn = makeButton(L('expandAll', 'Expand all pages'), L('expandAll', 'Expand all pages'));
+    bar.appendChild(collapseBtn);
+    bar.appendChild(expandBtn);
+    var THEMES = ['auto', 'light', 'dark'];
+    var themeBtn = makeButton('', L('themeLabel', 'Theme'), '');
+    themeBtn.className = 'gaf-theme-toggle';
+    var theme = 'auto';
+    try { theme = window.localStorage.getItem('gaf-export-theme') || 'auto'; } catch (e) { theme = 'auto'; }
+    if (THEMES.indexOf(theme) < 0) theme = 'auto';
+    function applyTheme() {
+      if (theme === 'auto') document.documentElement.removeAttribute('data-gaf-theme');
+      else document.documentElement.setAttribute('data-gaf-theme', theme);
+      var name = theme === 'light' ? L('themeLight', 'Light') : (theme === 'dark' ? L('themeDark', 'Dark') : L('themeAuto', 'Auto'));
+      themeBtn.textContent = L('themeLabel', 'Theme') + ': ' + name;
+      themeBtn.setAttribute('aria-label', themeBtn.textContent);
+    }
+    applyTheme();
+    themeBtn.addEventListener('click', function () {
+      theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length];
+      applyTheme();
+      try { window.localStorage.setItem('gaf-export-theme', theme); } catch (e) {}
+    });
+    bar.appendChild(themeBtn);
+    if (document.body.firstChild) document.body.insertBefore(bar, document.body.firstChild);
+    else document.body.appendChild(bar);
+    function runSearch() { highlight(input.value.trim(), headingsCheck.checked); }
+    input.addEventListener('input', function () {
+      if (debounceTimer) clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(runSearch, 200);
+    });
+    input.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        if (event.shiftKey) prevHit(); else nextHit();
+      } else if (event.key === 'Escape') {
+        input.value = '';
+        searchRun += 1; clearTimeout(debounceTimer);
+        clearMarks();
+        clearCounter();
+      }
+    });
+    headingsCheck.addEventListener('change', runSearch);
+    prevBtn.addEventListener('click', prevHit);
+    nextBtn.addEventListener('click', nextHit);
+    clearBtn.addEventListener('click', function () {
+      input.value = '';
+      searchRun += 1; clearTimeout(debounceTimer);
+      clearMarks();
+      clearCounter();
+      input.focus();
+    });
+    var pages = getPages();
+    for (var i = 0; i < pages.length; i++) {
+      (function (page) {
+        var header = page.querySelector('header.gaf-page-header');
+        if (!header) return;
+        var toggle = makeButton('\u2212', '', L('collapsePage', 'Collapse this page'));
+        toggle.className = 'gaf-page-toggle';
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.addEventListener('click', function () {
+          page.classList.toggle('gaf-collapsed');
+          setToggleState(page, page.classList.contains('gaf-collapsed'));
+        });
+        header.insertBefore(toggle, header.firstChild);
+      })(pages[i]);
+    }
+    collapseBtn.addEventListener('click', function () {
+      var ps = getPages();
+      for (var j = 0; j < ps.length; j++) {
+        ps[j].classList.add('gaf-collapsed');
+        setToggleState(ps[j], true);
+      }
+    });
+    expandBtn.addEventListener('click', function () {
+      var ps = getPages();
+      for (var k = 0; k < ps.length; k++) {
+        ps[k].classList.remove('gaf-collapsed');
+        setToggleState(ps[k], false);
+      }
+    });
+  });
+})();</script>
+  
+  
+</body>
+</html>

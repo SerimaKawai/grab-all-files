@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data: file:; style-src 'unsafe-inline'; font-src data:; script-src 'sha256-pw2AXM+sb7/gGaP1j+lzN6KvzaWNwd9xnoM4kXT/z00=';">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>하버 자전거 공유, 4월부터 전기자전거 도입·24시간 운영 시작(가상)</title>
+  <style>
+      :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Yu Gothic UI", Meiryo, sans-serif; line-height: 1.65; color: #1f2937; background: #fff; }
+      body { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+      /* The search bar is sticky (~3rem) — without this every anchor jump (TOC,
+         cross-page links, search hits) lands with its first line hidden under it. */
+      [id] { scroll-margin-top: 4.5rem; }
+      /* A source page's own headings are demoted by two levels to sit under this
+         page's <h2> title (h1->h3, h2->h4, ...), so a page whose own subheadings
+         were h3/h4 lands on h5/h6 here. Nothing set their size, so they fell back
+         to the browser default (h5 ~0.83em, h6 ~0.67em) — reported as unreadably
+         small text spread across thousands of headings in a real 766-page export.
+         Neither level should render smaller than body text. */
+      h5 { font-size: 1.05em; }
+      h6 { font-size: 1em; }
+      a { color: #075ea8; overflow-wrap: anywhere; }
+      /* GAF-233: an anchor rewritten as external always carries this exact
+         rel value (see rewriteHref/cleanNode); internal anchors never do, so
+         this reliably marks "leaves the archive" without a separate class. */
+      a[rel="noopener noreferrer"]::after { content: "↗"; display: inline-block; margin-left: .15em; font-size: .85em; opacity: .65; text-decoration: none; }
+      .gaf-toc-fab { position: fixed; right: 1rem; bottom: 1rem; z-index: 15; background: #075ea8; color: #fff; padding: .5rem 1rem; border-radius: 999px; text-decoration: none; font-size: .85rem; box-shadow: 0 2px 8px rgba(15,23,42,.35); }
+      .gaf-toc-fab:hover { background: #0a6fc2; }
+      .gaf-toc-fab::after { content: none; }
+      .gaf-document-header { border-bottom: 3px solid #334155; margin-bottom: 2rem; }
+      .gaf-meta { display: grid; grid-template-columns: max-content 1fr; gap: .25rem 1rem; }
+      .gaf-meta dt { font-weight: 700; }
+      .gaf-meta dd { margin: 0; }
+      .gaf-warning { border: 1px solid #b45309; background: #fff7ed; padding: .75rem; }
+      .gaf-partial-warning { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; margin: 0 0 1.5rem; border: 2px solid #b45309; border-radius: 8px; background: #fff7ed; color: #7c2d12; padding: 1rem 1.1rem; }
+      .gaf-partial-warning a { font-weight: 700; }
+      .gaf-look-fallback { margin: .4rem 0 .8rem; border-left: 4px solid #b45309; background: #fff7ed; color: #7c2d12; padding: .45rem .75rem; font-size: .9rem; }
+      .gaf-static-note { margin: .4rem 0 .8rem; border-left: 4px solid #2563eb; background: #eff6ff; color: #1e3a8a; padding: .45rem .75rem; font-size: .9rem; }
+      .gaf-page { margin: 2.5rem 0; padding-top: .5rem; border-top: 2px solid #cbd5e1; }
+      .gaf-page-content img { max-width: 100%; height: auto; }
+      /* An icon beside a link's words in a table cell (a country's flag before
+         its code) had no size of its own and was drawn as wide as the page
+         (olympedia's medal table, 2026-10-22). */
+      .gaf-page-content :is(td, th) a img { max-height: 1.6em; width: auto; vertical-align: middle; }
+      .gaf-image-placeholder, .gaf-unsafe-placeholder { display: inline-block; border: 1px dashed #94a3b8; padding: .2rem .4rem; color: #475569; }
+      table { border-collapse: collapse; max-width: 100%; margin: 1rem 0; }
+      th, td { border: 1px solid #94a3b8; padding: .4rem .55rem; vertical-align: top; }
+      th { background: #f1f5f9; }
+      pre { overflow: auto; padding: .8rem; background: #f8fafc; border: 1px solid #cbd5e1; white-space: pre-wrap; }
+      code { font-family: Consolas, "SFMono-Regular", monospace; }
+      blockquote { border-left: 4px solid #94a3b8; margin-left: 0; padding-left: 1rem; }
+      .gaf-page-toggle { margin-right: .5rem; border: 1px solid #cbd5e1; background: #f1f5f9; color: #334155; border-radius: 4px; cursor: pointer; font: inherit; line-height: 1; padding: 0 .45rem; }
+      .gaf-page-toggle:hover { background: #e2e8f0; }
+      .gaf-page.gaf-collapsed .gaf-page-content { display: none; }
+      .gaf-search { position: sticky; top: 0; z-index: 20; display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: 0 0 1.5rem; padding: .55rem .7rem; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; }
+      .gaf-search .gaf-search-input { flex: 1 1 12rem; min-width: 8rem; padding: .35rem .5rem; border: 1px solid #94a3b8; border-radius: 4px; font: inherit; color: #1f2937; background: #fff; }
+      .gaf-search button { padding: .3rem .6rem; border: 1px solid #94a3b8; background: #fff; color: #1f2937; border-radius: 4px; cursor: pointer; font: inherit; }
+      .gaf-search button:hover { background: #f1f5f9; }
+      .gaf-search .gaf-search-count { min-width: 4.5rem; color: #475569; font-size: .85rem; }
+      .gaf-search .gaf-search-headings { display: inline-flex; align-items: center; gap: .25rem; color: #334155; font-size: .85rem; }
+      mark.gaf-search-hit { background: #fef08a; color: inherit; padding: 0 .05em; border-radius: 2px; }
+      mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+      @media (prefers-color-scheme: dark) {
+:root:not([data-gaf-theme="light"]) { color: #e2e8f0; background: #0f172a; }
+:root:not([data-gaf-theme="light"]) a { color: #7cc0f5; }
+:root:not([data-gaf-theme="light"]) img[data-gaf-math] { filter: invert(1) hue-rotate(180deg); }
+:root:not([data-gaf-theme="light"]) .gaf-toc-fab { background: #1d4ed8; }
+:root:not([data-gaf-theme="light"]) .gaf-toc-fab:hover { background: #2563eb; }
+:root:not([data-gaf-theme="light"]) .gaf-document-header { border-bottom-color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) .gaf-warning { border-color: #d97706; background: #451a03; }
+:root:not([data-gaf-theme="light"]) .gaf-partial-warning { border-color: #f59e0b; background: #451a03; color: #ffedd5; }
+:root:not([data-gaf-theme="light"]) .gaf-page { border-top-color: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-image-placeholder, :root:not([data-gaf-theme="light"]) .gaf-unsafe-placeholder { border-color: #475569; color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) th, :root:not([data-gaf-theme="light"]) td { border-color: #475569; }
+:root:not([data-gaf-theme="light"]) th { background: #1e293b; }
+:root:not([data-gaf-theme="light"]) pre { background: #1e293b; border-color: #334155; }
+:root:not([data-gaf-theme="light"]) blockquote { border-left-color: #475569; }
+:root:not([data-gaf-theme="light"]) .gaf-page-toggle { border-color: #475569; background: #1e293b; color: #cbd5e1; }
+:root:not([data-gaf-theme="light"]) .gaf-page-toggle:hover { background: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-search { background: #1e293b; border-color: #334155; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-input { border-color: #475569; color: #e2e8f0; background: #0f172a; }
+:root:not([data-gaf-theme="light"]) .gaf-search button { border-color: #475569; background: #0f172a; color: #e2e8f0; }
+:root:not([data-gaf-theme="light"]) .gaf-search button:hover { background: #1e293b; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-count { color: #94a3b8; }
+:root:not([data-gaf-theme="light"]) .gaf-search .gaf-search-headings { color: #cbd5e1; }
+:root:not([data-gaf-theme="light"]) mark.gaf-search-hit { background: #854d0e; color: #fef9c3; }
+:root:not([data-gaf-theme="light"]) mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+
+}
+:root[data-gaf-theme="dark"] { color: #e2e8f0; background: #0f172a; }
+:root[data-gaf-theme="dark"] a { color: #7cc0f5; }
+:root[data-gaf-theme="dark"] img[data-gaf-math] { filter: invert(1) hue-rotate(180deg); }
+:root[data-gaf-theme="dark"] .gaf-toc-fab { background: #1d4ed8; }
+:root[data-gaf-theme="dark"] .gaf-toc-fab:hover { background: #2563eb; }
+:root[data-gaf-theme="dark"] .gaf-document-header { border-bottom-color: #94a3b8; }
+:root[data-gaf-theme="dark"] .gaf-warning { border-color: #d97706; background: #451a03; }
+:root[data-gaf-theme="dark"] .gaf-partial-warning { border-color: #f59e0b; background: #451a03; color: #ffedd5; }
+:root[data-gaf-theme="dark"] .gaf-page { border-top-color: #334155; }
+:root[data-gaf-theme="dark"] .gaf-image-placeholder, :root[data-gaf-theme="dark"] .gaf-unsafe-placeholder { border-color: #475569; color: #94a3b8; }
+:root[data-gaf-theme="dark"] th, :root[data-gaf-theme="dark"] td { border-color: #475569; }
+:root[data-gaf-theme="dark"] th { background: #1e293b; }
+:root[data-gaf-theme="dark"] pre { background: #1e293b; border-color: #334155; }
+:root[data-gaf-theme="dark"] blockquote { border-left-color: #475569; }
+:root[data-gaf-theme="dark"] .gaf-page-toggle { border-color: #475569; background: #1e293b; color: #cbd5e1; }
+:root[data-gaf-theme="dark"] .gaf-page-toggle:hover { background: #334155; }
+:root[data-gaf-theme="dark"] .gaf-search { background: #1e293b; border-color: #334155; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-input { border-color: #475569; color: #e2e8f0; background: #0f172a; }
+:root[data-gaf-theme="dark"] .gaf-search button { border-color: #475569; background: #0f172a; color: #e2e8f0; }
+:root[data-gaf-theme="dark"] .gaf-search button:hover { background: #1e293b; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-count { color: #94a3b8; }
+:root[data-gaf-theme="dark"] .gaf-search .gaf-search-headings { color: #cbd5e1; }
+:root[data-gaf-theme="dark"] mark.gaf-search-hit { background: #854d0e; color: #fef9c3; }
+:root[data-gaf-theme="dark"] mark.gaf-search-current { background: #f59e0b; color: #1f2937; }
+
+:root[data-gaf-theme="dark"] { color-scheme: dark; }
+:root[data-gaf-theme="light"] { color-scheme: light; }
+
+      @page { size: A4; margin: 15mm; }
+      @media print {
+        body { max-width: none; margin: 0; padding: 0; font-size: 10.5pt; }
+        nav a { color: inherit; text-decoration: none; }
+        .gaf-search, .gaf-page-toggle, .gaf-toc-fab { display: none !important; }
+        .gaf-page.gaf-collapsed .gaf-page-content { display: block; }
+        .gaf-page { break-before: page; page-break-before: always; }
+        .gaf-page:first-of-type { break-before: auto; page-break-before: auto; }
+        /* Only short blocks are kept whole. A table or <pre> longer than a page
+           cannot be, and asking for it pushed it to a fresh page and left the
+           rest of the previous one blank. */
+        h1, h2, h3, h4, h5, h6 { break-after: avoid; page-break-after: avoid; break-inside: avoid; }
+        figure, blockquote, tr, img { break-inside: avoid; page-break-inside: avoid; }
+        /* Printing every link's address after it made URLs 36-84% of the text in
+           most printed exports (one page reached 4099 PDF pages); the links stay
+           clickable in a saved PDF, so the address is not printed. */
+        a::after, a[rel="noopener noreferrer"]::after { content: none !important; }
+        /* A table wider than the paper was cut at the right edge. It is set
+           smaller, and a link's address in a cell may wrap anywhere; words and
+           numbers are not split letter by letter (that made every column one
+           letter wide), so a table still wider is shrunk with the page. */
+        table { width: auto !important; max-width: 100% !important; table-layout: auto; font-size: 8pt; }
+        th, td { overflow-wrap: break-word; padding: .15rem .25rem; }
+        :is(th, td) a { overflow-wrap: anywhere; }
+        thead { display: table-header-group; }
+        pre, code { white-space: pre-wrap; overflow-wrap: anywhere; }
+        .gaf-page-content img { max-height: 24cm; object-fit: contain; }
+      }
+    </style>
+</head>
+<body>
+  <header class="gaf-document-header">
+    <h1>하버 자전거 공유, 4월부터 전기자전거 도입·24시간 운영 시작(가상)</h1>
+    
+    
+  </header>
+  
+  <nav id="gaf-toc" aria-label="목차">
+    <h2>목차</h2>
+    <ol><li><a href="#gaf-page-p00001">하버 자전거 공유, 4월부터 전기자전거 도입·24시간 운영 시작(가상)</a></li></ol>
+  </nav>
+  <main>
+    <section class="gaf-page" id="gaf-page-p00001">
+        <header class="gaf-page-header">
+          <h2>하버 자전거 공유, 4월부터 전기자전거 도입·24시간 운영 시작(가상)</h2>
+        </header>
+        <div class="gaf-page-content"><article><p>교통·도시</p><h3>하버 자전거 공유, 4월부터 전기자전거 도입·24시간 운영 시작(가상)</h3><p>2026년 11월 10일</p>
+<p>하버시는 시내 자전거 공유 서비스 ‘하버 자전거 공유’를 4월 1일부터 대폭 개편한다고 밝혔습니다. 이 기사에 나오는 도시·서비스·인물은 모두 가상입니다.</p><p>주요 변경 사항은 다음과 같습니다. 의견은 페이지 아래 댓글란에 남겨 주세요.</p>
+<ul><li>전기자전거 150대 도입(경사가 심한 언덕 위 지구부터 우선 배치)</li><li>대여소 12곳 추가(항남·언덕 위·시립병원 앞 등)</li><li>새벽 0시~5시 운영 중단을 없애고 24시간 이용 가능</li><li>요금 조정: 30분당 1,500원→1,800원, 월 정기권 20,000원→22,000원</li><li>학생용 월 정기권(15,000원) 신설</li><li>중앙역 앞 대여소는 역 앞 광장 공사로 4월부터 1년간 북쪽 출구 쪽으로 이전</li></ul>
+<p>시는 2월 말까지 의견을 받고, 3월 교통위원회에서 최종안을 정할 예정입니다.</p></article>
+<section aria-labelledby="gaf-p00001-comments-title">
+<div><h4 id="gaf-p00001-comments-title">댓글</h4><span>댓글 120개 · 오래된 순</span></div>
+<div role="feed" aria-labelledby="gaf-p00001-comments-title" aria-busy="false" id="gaf-p00001-thread"><article role="article" aria-posinset="1" aria-setsize="120" class="gaf-feed-post gaf-feed-post-1"><div><div><span>항구동네 수진</span> <time datetime="2026-11-10T09:34:00.000Z">11월 10일 오전 09:34</time></div><p>전기자전거 드디어! 언덕 위 오르막이 힘들어서 늘 중간에 내려서 끌고 갔는데 정말 반갑네요.</p><div><span>좋아요 31</span> <span>답글</span></div></div></article><article role="article" aria-posinset="2" aria-setsize="120" class="gaf-feed-post gaf-feed-post-2"><div><div><span>언덕러너</span> <time datetime="2026-11-10T10:18:00.000Z">11월 10일 오전 10:18</time></div><p>30분에 1,800원은 비싼 거 아닌가요? 1,500원도 버스랑 별 차이 없었는데, 이러면 그냥 버스 탈 것 같아요.</p><div><span>좋아요 20</span> <span>답글</span></div></div></article><article role="article" aria-posinset="3" aria-setsize="120" class="gaf-feed-post gaf-feed-post-3"><div><div><span>최기석</span> <time datetime="2026-11-10T11:12:00.000Z">11월 10일 오전 11:12</time> <span>↳ 언덕러너</span></div><p>공감합니다. 올리려면 처음 15분만 싸게 해 주는 식으로 짧게 타는 사람도 배려해 줬으면 좋겠어요.</p><div><span>좋아요 13</span> <span>답글</span></div></div></article><article role="article" aria-posinset="4" aria-setsize="120" class="gaf-feed-post gaf-feed-post-4"><div><div><span>항구 출퇴근족</span> <time datetime="2026-11-10T11:47:00.000Z">11월 10일 오전 11:47</time> <span>↳ 언덕러너</span></div><p>정기권이면 하루에 730원 정도라서 매일 타는 분들한텐 아직 싼 편이라고 생각해요.</p><div><span>좋아요 26</span> <span>답글</span></div></div></article><article role="article" aria-posinset="5" aria-setsize="120" class="gaf-feed-post gaf-feed-post-5"><div><div><span>야근 끝난 K</span> <time datetime="2026-11-10T12:12:00.000Z">11월 10일 오후 12:12</time></div><p>야간 근무라서 24시간 운영은 정말 고마워요. 새벽 5시까지 기다렸다가 택시 탔는데 많이 도움 될 것 같아요.</p><div><span>좋아요 27</span> <span>답글</span></div></div></article><article role="article" aria-posinset="6" aria-setsize="120" class="gaf-feed-post gaf-feed-post-6"><div><div><span>언덕 위 주민</span> <time datetime="2026-11-10T12:56:00.000Z">11월 10일 오후 12:56</time></div><p>전기자전거도 일반 자전거랑 요금이 같나요? 따로 받는다면 그것도 기사에 적어 주세요.</p><div><span>좋아요 32</span> <span>답글</span></div></div></article><article role="article" aria-posinset="7" aria-setsize="120" class="gaf-feed-post gaf-feed-post-7"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-10T13:21:00.000Z">11월 10일 오후 01:21</time> <span>↳ 언덕 위 주민</span></div><p>문의 감사합니다. 전기자전거도 같은 요금으로 이용하실 수 있습니다(30분당 1,800원, 월 정기권 대상).</p><div><span>좋아요 14</span> <span>답글</span></div></div></article><article role="article" aria-posinset="8" aria-setsize="120" class="gaf-feed-post gaf-feed-post-8"><div><div><span>언덕 위 주민</span> <time datetime="2026-11-10T13:56:00.000Z">11월 10일 오후 01:56</time> <span>↳ 언덕 위 주민</span></div><p>답변 감사합니다. 요금이 같다면 매일 탈게요.</p><div><span>좋아요 38</span> <span>답글</span></div></div></article><article role="article" aria-posinset="9" aria-setsize="120" class="gaf-feed-post gaf-feed-post-9"><div><div><span>북쪽출구 주민</span> <time datetime="2026-11-10T14:50:00.000Z">11월 10일 오후 02:50</time></div><p>중앙역 앞 대여소가 북쪽 출구로 옮겨 가면 곤란해요. 남쪽 출구 쪽 회사에 다니는데 역을 빙 돌아가야 해요.</p><div><span>좋아요 39</span> <span>답글</span></div></div></article><article role="article" aria-posinset="10" aria-setsize="120" class="gaf-feed-post gaf-feed-post-10"><div><div><span>대학 3학년 한결</span> <time datetime="2026-11-10T15:12:00.000Z">11월 10일 오후 03:12</time></div><p>학생 정기권 15,000원 좋네요. 학교까지 걸으면 25분이라 이 정도면 가입할게요.</p><div><span>좋아요 41</span> <span>답글</span></div></div></article><article role="article" aria-posinset="11" aria-setsize="120" class="gaf-feed-post gaf-feed-post-11"><div><div><span>서윤</span> <time datetime="2026-11-10T16:01:00.000Z">11월 10일 오후 04:01</time></div><p>아이 태우는 시트 달린 자전거도 몇 대 두면 안 될까요? 어린이집 등하원에 쓰고 싶어요.</p><div><span>좋아요 32</span> <span>답글</span></div></div></article><article role="article" aria-posinset="12" aria-setsize="120" class="gaf-feed-post gaf-feed-post-12"><div><div><span>유모차 끄는 사람</span> <time datetime="2026-11-10T16:31:00.000Z">11월 10일 오후 04:31</time> <span>↳ 서윤</span></div><p>저도 원해요. 전기자전거에 아이 시트면 언덕 위 어린이집도 다닐 수 있겠어요.</p><div><span>좋아요 43</span> <span>답글</span></div></div></article><article role="article" aria-posinset="13" aria-setsize="120" class="gaf-feed-post gaf-feed-post-13"><div><div><span>자전거 아저씨</span> <time datetime="2026-11-10T17:20:00.000Z">11월 10일 오후 05:20</time></div><p>24시간으로 하면 한밤중에 아무 데나 버리고 가거나 막 다루는 사람이 늘지 않을까요? 지금도 안장이 부서진 채 있는 자전거가 자주 보여요.</p><div><span>좋아요 10</span> <span>답글</span></div></div></article><article role="article" aria-posinset="14" aria-setsize="120" class="gaf-feed-post gaf-feed-post-14"><div><div><span>야근 끝난 K</span> <time datetime="2026-11-10T17:59:00.000Z">11월 10일 오후 05:59</time> <span>↳ 자전거 아저씨</span></div><p>밤에 타는 사람 대부분은 퇴근하는 사람들이에요. 망가뜨리는 사람은 시간대와 상관없이 있다고 봐요.</p><div><span>좋아요 45</span> <span>답글</span></div></div></article><article role="article" aria-posinset="15" aria-setsize="120" class="gaf-feed-post gaf-feed-post-15"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-10T18:19:00.000Z">11월 10일 오후 06:19</time> <span>↳ 자전거 아저씨</span></div><p>걱정해 주셔서 감사합니다. 야간 점검 순찰을 늘리고, 고장 난 자전거는 앱에서 신고하실 수 있게 하겠습니다.</p><div><span>좋아요 11</span> <span>답글</span></div></div></article><article role="article" aria-posinset="16" aria-setsize="120" class="gaf-feed-post gaf-feed-post-16"><div><div><span>통학 자전거</span> <time datetime="2026-11-10T18:49:00.000Z">11월 10일 오후 06:49</time></div><p>새 대여소 12곳의 정확한 위치는 언제 알 수 있나요? 우리 집 근처에 생기는지 궁금해요.</p><div><span>좋아요 47</span> <span>답글</span></div></div></article><article role="article" aria-posinset="17" aria-setsize="120" class="gaf-feed-post gaf-feed-post-17"><div><div><span>판다맘</span> <time datetime="2026-11-10T19:38:00.000Z">11월 10일 오후 07:38</time></div><p>언덕 위부터 우선 배치한다는 건 좋은 판단 같아요. 경사 있는 동네야말로 전기가 필요하죠.</p><div><span>좋아요 30</span> <span>답글</span></div></div></article><article role="article" aria-posinset="18" aria-setsize="120" class="gaf-feed-post gaf-feed-post-18"><div><div><span>하버 철수</span> <time datetime="2026-11-10T19:59:00.000Z">11월 10일 오후 07:59</time></div><p>전기자전거랑 24시간은 대환영. 그런데 요금 인상에서 월 정기권만이라도 동결해 줬다면 더 찬성했을 거예요.</p><div><span>좋아요 17</span> <span>답글</span></div></div></article><article role="article" aria-posinset="19" aria-setsize="120" class="gaf-feed-post gaf-feed-post-19"><div><div><span>주말 라이더</span> <time datetime="2026-11-10T20:48:00.000Z">11월 10일 오후 08:48</time></div><p>주말에만 타는 사람을 위해 1일 이용권도 있으면 좋겠어요. 관광객한테도 잘 팔릴 것 같아요.</p><div><span>좋아요 8</span> <span>답글</span></div></div></article><article role="article" aria-posinset="20" aria-setsize="120" class="gaf-feed-post gaf-feed-post-20"><div><div><span>관광 온 사람</span> <time datetime="2026-11-10T21:35:00.000Z">11월 10일 오후 09:35</time> <span>↳ 주말 라이더</span></div><p>관광으로 온 사람인데 1일권 있으면 꼭 쓰고 싶어요. 항구에서 구시가지까지 돌아보고 싶거든요.</p><div><span>좋아요 24</span> <span>답글</span></div></div></article><article role="article" aria-posinset="21" aria-setsize="120" class="gaf-feed-post gaf-feed-post-21"><div><div><span>동네 목소리</span> <time datetime="2026-11-10T22:00:00.000Z">11월 10일 오후 10:00</time></div><p>대여소를 늘리는 것보다 지금 있는 곳의 대수를 늘려 주세요. 아침 역 앞은 늘 텅 비어 있어요.</p><div><span>좋아요 33</span> <span>답글</span></div></div></article><article role="article" aria-posinset="22" aria-setsize="120" class="gaf-feed-post gaf-feed-post-22"><div><div><span>시청 근처 직장인</span> <time datetime="2026-11-10T22:54:00.000Z">11월 10일 오후 10:54</time> <span>↳ 동네 목소리</span></div><p>반대로 저녁엔 역 앞이 꽉 차서 반납을 못 할 때도 있죠. 대수 쏠림을 어떻게든 해 줬으면 해요.</p><div><span>좋아요 18</span> <span>답글</span></div></div></article><article role="article" aria-posinset="23" aria-setsize="120" class="gaf-feed-post gaf-feed-post-23"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-10T23:19:00.000Z">11월 10일 오후 11:19</time> <span>↳ 동네 목소리</span></div><p>아침저녁 쏠림은 파악하고 있습니다. 4월부터는 트럭 재배치를 오전 6시대에도 할 예정입니다.</p><div><span>좋아요 12</span> <span>답글</span></div></div></article><article role="article" aria-posinset="24" aria-setsize="120" class="gaf-feed-post gaf-feed-post-24"><div><div><span>요양보호사 M</span> <time datetime="2026-11-10T23:53:00.000Z">11월 10일 오후 11:53</time></div><p>방문 요양 이동에 쓰고 있어요. 전기자전거가 되면 언덕 위 댁도 땀범벅 안 되고 갈 수 있어서 도움이 돼요.</p><div><span>좋아요 28</span> <span>답글</span></div></div></article><article role="article" aria-posinset="25" aria-setsize="120" class="gaf-feed-post gaf-feed-post-25"><div><div><span>비 오는 날도 자전거</span> <time datetime="2026-11-11T00:18:00.000Z">11월 11일 오전 12:18</time></div><p>비 오는 날을 위해 대여소에 지붕을 달아 주실 수 없나요? 안장이 늘 젖어 있어요.</p><div><span>좋아요 21</span> <span>답글</span></div></div></article><article role="article" aria-posinset="26" aria-setsize="120" class="gaf-feed-post gaf-feed-post-26"><div><div><span>구시가지 사람</span> <time datetime="2026-11-11T01:12:00.000Z">11월 11일 오전 01:12</time></div><p>구시가지 좁은 길에 전기자전거가 늘면 속도가 나서 위험할 것 같아요. 보행자 우선 구간에선 끌고 가는 규칙을 만들어 주세요.</p><div><span>좋아요 38</span> <span>답글</span></div></div></article><article role="article" aria-posinset="27" aria-setsize="120" class="gaf-feed-post gaf-feed-post-27"><div><div><span>알뜰 주부</span> <time datetime="2026-11-11T01:37:00.000Z">11월 11일 오전 01:37</time> <span>↳ 구시가지 사람</span></div><p>전기여도 시속 25km까지만 보조돼요. 위험한 건 타는 사람 매너 문제 아닐까요.</p><div><span>좋아요 39</span> <span>답글</span></div></div></article><article role="article" aria-posinset="28" aria-setsize="120" class="gaf-feed-post gaf-feed-post-28"><div><div><span>시니어 산책러</span> <time datetime="2026-11-11T02:11:00.000Z">11월 11일 오전 02:11</time> <span>↳ 구시가지 사람</span></div><p>산책하다 보면 뒤에서 조용히 오는 자전거에 깜짝 놀랄 때가 있어요. 벨을 울려 줬으면 좋겠어요.</p><div><span>좋아요 16</span> <span>답글</span></div></div></article><article role="article" aria-posinset="29" aria-setsize="120" class="gaf-feed-post gaf-feed-post-29"><div><div><span>재민</span> <time datetime="2026-11-11T03:05:00.000Z">11월 11일 오전 03:05</time></div><p>학생 정기권은 대학생만 되나요? 고등학생이나 직업학교 학생도 포함되나요?</p><div><span>좋아요 25</span> <span>답글</span></div></div></article><article role="article" aria-posinset="30" aria-setsize="120" class="gaf-feed-post gaf-feed-post-30"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-11T03:38:00.000Z">11월 11일 오전 03:38</time> <span>↳ 재민</span></div><p>학생 정기권은 고등학생·직업학교생·대학생·대학원생이 대상입니다. 신청 시 학생증 이미지를 등록해 주셔야 합니다.</p><div><span>좋아요 4</span> <span>답글</span></div></div></article><article role="article" aria-posinset="31" aria-setsize="120" class="gaf-feed-post gaf-feed-post-31"><div><div><span>고등학교 교사</span> <time datetime="2026-11-11T04:27:00.000Z">11월 11일 오전 04:27</time> <span>↳ 재민</span></div><p>고등학생도 포함되다니 좋네요. 방과 후 활동이 늦게 끝나는 학생이 많아서 밤에도 쓸 수 있으면 안심돼요.</p><div><span>좋아요 18</span> <span>답글</span></div></div></article><article role="article" aria-posinset="32" aria-setsize="120" class="gaf-feed-post gaf-feed-post-32"><div><div><span>물류 아저씨</span> <time datetime="2026-11-11T04:47:00.000Z">11월 11일 오전 04:47</time></div><p>요금을 올리는 이유 설명이 거의 없네요. 전기요금인지 인건비인지 숫자로 보여 주세요.</p><div><span>좋아요 1</span> <span>답글</span></div></div></article><article role="article" aria-posinset="33" aria-setsize="120" class="gaf-feed-post gaf-feed-post-33"><div><div><span>문정훈</span> <time datetime="2026-11-11T05:36:00.000Z">11월 11일 오전 05:36</time> <span>↳ 물류 아저씨</span></div><p>진짜 그래요. 인상 자체보다 이유가 안 적혀 있는 게 더 신경 쓰여요.</p><div><span>좋아요 24</span> <span>답글</span></div></div></article><article role="article" aria-posinset="34" aria-setsize="120" class="gaf-feed-post gaf-feed-post-34"><div><div><span>하늘</span> <time datetime="2026-11-11T05:56:00.000Z">11월 11일 오전 05:56</time></div><p>차를 처분하고 자전거 공유로 갈아탔기 때문에 대여소가 늘어나는 건 대환영입니다.</p><div><span>좋아요 7</span> <span>답글</span></div></div></article><article role="article" aria-posinset="35" aria-setsize="120" class="gaf-feed-post gaf-feed-post-35"><div><div><span>항남 새 주민</span> <time datetime="2026-11-11T06:45:00.000Z">11월 11일 오전 06:45</time></div><p>항남으로 이사 온 지 얼마 안 됐어요. 항남 대여소는 바다 쪽인가요, 새 아파트 쪽인가요?</p><div><span>좋아요 38</span> <span>답글</span></div></div></article><article role="article" aria-posinset="36" aria-setsize="120" class="gaf-feed-post gaf-feed-post-36"><div><div><span>자치회 임원</span> <time datetime="2026-11-11T07:05:00.000Z">11월 11일 오전 07:05</time> <span>↳ 항남 새 주민</span></div><p>자치회에서 들은 얘기로는 항남공원 입구 쪽이라고 해요. 공식 발표는 아직인 것 같지만요.</p><div><span>좋아요 5</span> <span>답글</span></div></div></article><article role="article" aria-posinset="37" aria-setsize="120" class="gaf-feed-post gaf-feed-post-37"><div><div><span>카페 사장</span> <time datetime="2026-11-11T07:54:00.000Z">11월 11일 오전 07:54</time></div><p>가게 앞에 대여소가 생긴 뒤로 손님이 조금 늘었어요. 새 장소 근처 가게들도 좋아할 거예요.</p><div><span>좋아요 44</span> <span>답글</span></div></div></article><article role="article" aria-posinset="38" aria-setsize="120" class="gaf-feed-post gaf-feed-post-38"><div><div><span>나연</span> <time datetime="2026-11-11T08:43:00.000Z">11월 11일 오전 08:43</time></div><p>앱에서 대여소 빈 자전거 대수를 좀 더 정확히 알 수 있게 해 주세요. 3대라고 떠서 가 보면 0대일 때가 있어요.</p><div><span>좋아요 11</span> <span>답글</span></div></div></article><article role="article" aria-posinset="39" aria-setsize="120" class="gaf-feed-post gaf-feed-post-39"><div><div><span>유찬</span> <time datetime="2026-11-11T09:03:00.000Z">11월 11일 오전 09:03</time> <span>↳ 나연</span></div><p>그런 일 자주 있어요. 최소한 몇 분 전 정보인지라도 표시해 줬으면 해요.</p><div><span>좋아요 42</span> <span>답글</span></div></div></article><article role="article" aria-posinset="40" aria-setsize="120" class="gaf-feed-post gaf-feed-post-40"><div><div><span>전기파</span> <time datetime="2026-11-11T09:55:00.000Z">11월 11일 오전 09:55</time></div><p>전기자전거는 한번 타면 못 돌아가요. 150대로는 부족할 정도일 테니 계속 늘려 주세요.</p><div><span>좋아요 10</span> <span>답글</span></div></div></article><article role="article" aria-posinset="41" aria-setsize="120" class="gaf-feed-post gaf-feed-post-41"><div><div><span>승훈</span> <time datetime="2026-11-11T10:20:00.000Z">11월 11일 오전 10:20</time></div><p>월 정기권을 22,000원으로 올릴 거면 1회 이용 시간을 30분에서 45분으로 늘려 주세요. 지금대로면 남는 게 없어요.</p><div><span>좋아요 43</span> <span>답글</span></div></div></article><article role="article" aria-posinset="42" aria-setsize="120" class="gaf-feed-post gaf-feed-post-42"><div><div><span>병원 근무자</span> <time datetime="2026-11-11T11:04:00.000Z">11월 11일 오전 11:04</time></div><p>시립병원 앞에 둬 주신다니 정말 감사해요. 야간 근무 직원은 버스 없는 시간에 퇴근할 때가 많거든요.</p><div><span>좋아요 0</span> <span>답글</span></div></div></article><article role="article" aria-posinset="43" aria-setsize="120" class="gaf-feed-post gaf-feed-post-43"><div><div><span>하나</span> <time datetime="2026-11-11T11:29:00.000Z">11월 11일 오전 11:29</time></div><p>찬성하지만 전기자전거 배터리가 다 닳아 있으면 어떻게 되나요? 무거워서 일반 자전거보다 더 힘들 텐데요.</p><div><span>좋아요 9</span> <span>답글</span></div></div></article><article role="article" aria-posinset="44" aria-setsize="120" class="gaf-feed-post gaf-feed-post-44"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-11T12:13:00.000Z">11월 11일 오후 12:13</time> <span>↳ 하나</span></div><p>앱에서 배터리 잔량을 확인하고 빌리실 수 있게 하겠습니다. 잔량이 적은 차량은 대여를 막고 매일 교체합니다.</p><div><span>좋아요 5</span> <span>답글</span></div></div></article><article role="article" aria-posinset="45" aria-setsize="120" class="gaf-feed-post gaf-feed-post-45"><div><div><span>하나</span> <time datetime="2026-11-11T12:38:00.000Z">11월 11일 오후 12:38</time> <span>↳ 하나</span></div><p>잔량을 볼 수 있다면 안심이네요. 감사합니다.</p><div><span>좋아요 47</span> <span>답글</span></div></div></article><article role="article" aria-posinset="46" aria-setsize="120" class="gaf-feed-post gaf-feed-post-46"><div><div><span>러닝 좋아</span> <time datetime="2026-11-11T13:22:00.000Z">11월 11일 오후 01:22</time></div><p>인도로 달리는 자전거가 늘까 걱정돼요. 대여소를 늘릴 거면 자전거 도로 정비도 같이 해 주세요.</p><div><span>좋아요 36</span> <span>답글</span></div></div></article><article role="article" aria-posinset="47" aria-setsize="120" class="gaf-feed-post gaf-feed-post-47"><div><div><span>아영</span> <time datetime="2026-11-11T14:16:00.000Z">11월 11일 오후 02:16</time> <span>↳ 러닝 좋아</span></div><p>출근길인 항구로만이라도 차도에 자전거 도로를 그어 주면 타기 훨씬 편할 거예요.</p><div><span>좋아요 45</span> <span>답글</span></div></div></article><article role="article" aria-posinset="48" aria-setsize="120" class="gaf-feed-post gaf-feed-post-48"><div><div><span>은지</span> <time datetime="2026-11-11T14:42:00.000Z">11월 11일 오후 02:42</time></div><p>월 정기권 인상은 지금 가입한 사람한테도 4월부터 적용되나요?</p><div><span>좋아요 2</span> <span>답글</span></div></div></article><article role="article" aria-posinset="49" aria-setsize="120" class="gaf-feed-post gaf-feed-post-49"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-11T15:07:00.000Z">11월 11일 오후 03:07</time> <span>↳ 은지</span></div><p>현재 가입 중이신 분도 4월분 정기권부터 새 요금이 적용됩니다. 3월 중에 결제하신 분은 이전 요금 그대로입니다.</p><div><span>좋아요 12</span> <span>답글</span></div></div></article><article role="article" aria-posinset="50" aria-setsize="120" class="gaf-feed-post gaf-feed-post-50"><div><div><span>옛날 자전거 애호가</span> <time datetime="2026-11-11T15:43:00.000Z">11월 11일 오후 03:43</time></div><p>전기자전거는 무거워서 키 작은 사람이나 어르신이 다루기 어려워요. 일반 자전거도 줄이지 말고 남겨 주세요.</p><div><span>좋아요 21</span> <span>답글</span></div></div></article><article role="article" aria-posinset="51" aria-setsize="120" class="gaf-feed-post gaf-feed-post-51"><div><div><span>시니어 산책러</span> <time datetime="2026-11-11T16:32:00.000Z">11월 11일 오후 04:32</time> <span>↳ 옛날 자전거 애호가</span></div><p>70대인데 전기는 출발할 때 확 나가서 좀 무서워요. 일반 자전거가 없어질까 걱정입니다.</p><div><span>좋아요 12</span> <span>답글</span></div></div></article><article role="article" aria-posinset="52" aria-setsize="120" class="gaf-feed-post gaf-feed-post-52"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-11T17:02:00.000Z">11월 11일 오후 05:02</time> <span>↳ 옛날 자전거 애호가</span></div><p>일반 자전거 대수는 줄이지 않습니다. 전기자전거 150대는 추가로 들어오는 것입니다.</p><div><span>좋아요 4</span> <span>답글</span></div></div></article><article role="article" aria-posinset="53" aria-setsize="120" class="gaf-feed-post gaf-feed-post-53"><div><div><span>육아 중인 아빠</span> <time datetime="2026-11-11T17:51:00.000Z">11월 11일 오후 05:51</time></div><p>휴일에 아이랑 바닷가까지 갈 때 써요. 대여소가 늘면 갈 수 있는 곳이 넓어지겠네요.</p><div><span>좋아요 6</span> <span>답글</span></div></div></article><article role="article" aria-posinset="54" aria-setsize="120" class="gaf-feed-post gaf-feed-post-54"><div><div><span>진호</span> <time datetime="2026-11-11T18:21:00.000Z">11월 11일 오후 06:21</time></div><p>헬멧 대여도 해 주면 좋겠어요. 헬멧 착용이 강조되고부터는 안 가져온 날엔 타기가 망설여져요.</p><div><span>좋아요 17</span> <span>답글</span></div></div></article><article role="article" aria-posinset="55" aria-setsize="120" class="gaf-feed-post gaf-feed-post-55"><div><div><span>판다맘</span> <time datetime="2026-11-11T19:10:00.000Z">11월 11일 오후 07:10</time> <span>↳ 진호</span></div><p>공용 헬멧은 위생이 걱정돼요. 일회용 이너캡 같은 게 있으면 좋겠어요.</p><div><span>좋아요 24</span> <span>답글</span></div></div></article><article role="article" aria-posinset="56" aria-setsize="120" class="gaf-feed-post gaf-feed-post-56"><div><div><span>휠체어 이용자 가족</span> <time datetime="2026-11-11T19:40:00.000Z">11월 11일 오후 07:40</time></div><p>가족이 휠체어를 써요. 대여소 근처에 턱이 있으면 접근을 못 하니, 새 장소는 턱 없는 곳으로 해 주세요.</p><div><span>좋아요 19</span> <span>답글</span></div></div></article><article role="article" aria-posinset="57" aria-setsize="120" class="gaf-feed-post gaf-feed-post-57"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-11T20:29:00.000Z">11월 11일 오후 08:29</time> <span>↳ 휠체어 이용자 가족</span></div><p>소중한 의견 감사합니다. 새 대여소는 인도 폭과 턱을 확인한 뒤에 위치를 정하겠습니다.</p><div><span>좋아요 21</span> <span>답글</span></div></div></article><article role="article" aria-posinset="58" aria-setsize="120" class="gaf-feed-post gaf-feed-post-58"><div><div><span>올빼미형 인간</span> <time datetime="2026-11-11T20:48:00.000Z">11월 11일 오후 08:48</time></div><p>올빼미형이라 한밤에 탈 수 있는 게 순수하게 좋아요. 밤의 항구로는 차도 적고 상쾌해요.</p><div><span>좋아요 45</span> <span>답글</span></div></div></article><article role="article" aria-posinset="59" aria-setsize="120" class="gaf-feed-post gaf-feed-post-59"><div><div><span>하람</span> <time datetime="2026-11-11T21:37:00.000Z">11월 11일 오후 09:37</time></div><p>솔직히 세금 쓸 거면 버스 배차를 늘리는 게 먼저라고 봐요. 자전거를 못 타는 사람도 있으니까요.</p><div><span>좋아요 20</span> <span>답글</span></div></div></article><article role="article" aria-posinset="60" aria-setsize="120" class="gaf-feed-post gaf-feed-post-60"><div><div><span>동네 목소리</span> <time datetime="2026-11-11T22:00:00.000Z">11월 11일 오후 10:00</time> <span>↳ 하람</span></div><p>자전거 공유는 시 직영인가요? 운영사 부담인지 세금인지 잘 모르겠어요.</p><div><span>좋아요 4</span> <span>답글</span></div></div></article><article role="article" aria-posinset="61" aria-setsize="120" class="gaf-feed-post gaf-feed-post-61"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-11T22:54:00.000Z">11월 11일 오후 10:54</time> <span>↳ 하람</span></div><p>운영은 시 위탁 사업이며 비용의 약 60%는 이용 요금, 나머지는 시 교통 예산으로 충당합니다. 세부 내역은 3월에 공개하겠습니다.</p><div><span>좋아요 22</span> <span>답글</span></div></div></article><article role="article" aria-posinset="62" aria-setsize="120" class="gaf-feed-post gaf-feed-post-62"><div><div><span>언덕 아래 주민</span> <time datetime="2026-11-11T23:19:00.000Z">11월 11일 오후 11:19</time></div><p>언덕 아래 사는데 퇴근길 오르막이 늘 우울했어요. 전기자전거가 가까운 대여소에 오면 좋겠네요.</p><div><span>좋아요 46</span> <span>답글</span></div></div></article><article role="article" aria-posinset="63" aria-setsize="120" class="gaf-feed-post gaf-feed-post-63"><div><div><span>출근 30분</span> <time datetime="2026-11-11T23:44:00.000Z">11월 11일 오후 11:44</time></div><p>출퇴근에 매일 써요. 24시간은 좋은데 30분 넘으면 확 비싸져서, 신호 대기 많은 날은 조마조마해요.</p><div><span>좋아요 15</span> <span>답글</span></div></div></article><article role="article" aria-posinset="64" aria-setsize="120" class="gaf-feed-post gaf-feed-post-64"><div><div><span>대학 직원</span> <time datetime="2026-11-12T00:38:00.000Z">11월 12일 오전 12:38</time></div><p>대학 캠퍼스 안에도 대여소를 둘 계획이 있나요? 교내가 넓어서 학생도 직원도 쓸 거예요.</p><div><span>좋아요 0</span> <span>답글</span></div></div></article><article role="article" aria-posinset="65" aria-setsize="120" class="gaf-feed-post gaf-feed-post-65"><div><div><span>대학 3학년 한결</span> <time datetime="2026-11-12T01:03:00.000Z">11월 12일 오전 01:03</time> <span>↳ 대학 직원</span></div><p>캠퍼스에 있으면 무조건 써요. 강의동에서 도서관까지 걸으면 10분 걸려요.</p><div><span>좋아요 9</span> <span>답글</span></div></div></article><article role="article" aria-posinset="66" aria-setsize="120" class="gaf-feed-post gaf-feed-post-66"><div><div><span>도윤</span> <time datetime="2026-11-12T01:57:00.000Z">11월 12일 오전 01:57</time></div><p>북쪽 출구 이전은 1년뿐이라고 했지만 공사가 늘어지면 그대로 굳어질 것 같아요. 기한을 지켜 주세요.</p><div><span>좋아요 26</span> <span>답글</span></div></div></article><article role="article" aria-posinset="67" aria-setsize="120" class="gaf-feed-post gaf-feed-post-67"><div><div><span>지혜</span> <time datetime="2026-11-12T02:22:00.000Z">11월 12일 오전 02:22</time></div><p>운전이 서툴러서 자전거 공유가 늘어나는 게 든든해요. 장 보러 오갈 때 쓰고 있어요.</p><div><span>좋아요 11</span> <span>답글</span></div></div></article><article role="article" aria-posinset="68" aria-setsize="120" class="gaf-feed-post gaf-feed-post-68"><div><div><span>음식배달러</span> <time datetime="2026-11-12T03:16:00.000Z">11월 12일 오전 03:16</time></div><p>배달 일에 써도 되나요? 짐칸 달린 자전거가 있다면 일할 때도 쓰고 싶어요.</p><div><span>좋아요 28</span> <span>답글</span></div></div></article><article role="article" aria-posinset="69" aria-setsize="120" class="gaf-feed-post gaf-feed-post-69"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-12T03:41:00.000Z">11월 12일 오전 03:41</time> <span>↳ 음식배달러</span></div><p>현행 이용약관상 업무 목적의 장시간 이용은 삼가 주시길 부탁드립니다. 법인용 요금제를 검토 중입니다.</p><div><span>좋아요 14</span> <span>답글</span></div></div></article><article role="article" aria-posinset="70" aria-setsize="120" class="gaf-feed-post gaf-feed-post-70"><div><div><span>물류 아저씨</span> <time datetime="2026-11-12T04:03:00.000Z">11월 12일 오전 04:03</time> <span>↳ 음식배달러</span></div><p>법인 요금제가 생기면 저희 회사에서도 가까운 거리 배송에 쓰고 싶어요.</p><div><span>좋아요 31</span> <span>답글</span></div></div></article><article role="article" aria-posinset="71" aria-setsize="120" class="gaf-feed-post gaf-feed-post-71"><div><div><span>경희</span> <time datetime="2026-11-12T04:52:00.000Z">11월 12일 오전 04:52</time></div><p>대여소가 우리 집 앞 인도에 생긴다고 들었어요. 한밤중에 드나들면 시끄러우니 주택가 한복판은 피해 주세요.</p><div><span>좋아요 46</span> <span>답글</span></div></div></article><article role="article" aria-posinset="72" aria-setsize="120" class="gaf-feed-post gaf-feed-post-72"><div><div><span>자치회 임원</span> <time datetime="2026-11-12T05:41:00.000Z">11월 12일 오전 05:41</time> <span>↳ 경희</span></div><p>설치 장소 설명회는 있나요? 자치회로서도 미리 이야기를 듣고 싶어요.</p><div><span>좋아요 29</span> <span>답글</span></div></div></article><article role="article" aria-posinset="73" aria-setsize="120" class="gaf-feed-post gaf-feed-post-73"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-12T06:01:00.000Z">11월 12일 오전 06:01</time> <span>↳ 경희</span></div><p>설치 예정지 주변에서는 1월에 지구별 설명회를 엽니다. 일정은 시 공지로 안내드리겠습니다.</p><div><span>좋아요 15</span> <span>답글</span></div></div></article><article role="article" aria-posinset="74" aria-setsize="120" class="gaf-feed-post gaf-feed-post-74"><div><div><span>바닷가 산책러</span> <time datetime="2026-11-12T06:41:00.000Z">11월 12일 오전 06:41</time></div><p>바닷가 산책로 따라서도 대여소가 늘길 바랐어서 항남 추가를 기대하고 있어요.</p><div><span>좋아요 43</span> <span>답글</span></div></div></article><article role="article" aria-posinset="75" aria-setsize="120" class="gaf-feed-post gaf-feed-post-75"><div><div><span>태호</span> <time datetime="2026-11-12T07:30:00.000Z">11월 12일 오전 07:30</time></div><p>스마트폰 없는 사람도 교통카드로 빌릴 수 있게 해 주세요. 부모님이 쓰고 싶어 하세요.</p><div><span>좋아요 26</span> <span>답글</span></div></div></article><article role="article" aria-posinset="76" aria-setsize="120" class="gaf-feed-post gaf-feed-post-76"><div><div><span>시니어 산책러</span> <time datetime="2026-11-12T07:50:00.000Z">11월 12일 오전 07:50</time> <span>↳ 태호</span></div><p>바로 그거예요. 앱 가입이 어려워서 손주한테 부탁해야만 쓸 수 있어요.</p><div><span>좋아요 25</span> <span>답글</span></div></div></article><article role="article" aria-posinset="77" aria-setsize="120" class="gaf-feed-post gaf-feed-post-77"><div><div><span>환경 동아리</span> <time datetime="2026-11-12T08:39:00.000Z">11월 12일 오전 08:39</time></div><p>차 이용이 줄면 항구 주변 정체도 조금은 나아지겠죠. 환경 면에서도 좋은 시도 같아요.</p><div><span>좋아요 0</span> <span>답글</span></div></div></article><article role="article" aria-posinset="78" aria-setsize="120" class="gaf-feed-post gaf-feed-post-78"><div><div><span>다은</span> <time datetime="2026-11-12T09:19:00.000Z">11월 12일 오전 09:19</time></div><p>학생 정기권과 일반 월 정기권은 쓸 수 있는 자전거나 시간에 차이가 있나요?</p><div><span>좋아요 39</span> <span>답글</span></div></div></article><article role="article" aria-posinset="79" aria-setsize="120" class="gaf-feed-post gaf-feed-post-79"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-12T09:39:00.000Z">11월 12일 오전 09:39</time> <span>↳ 다은</span></div><p>차이 없습니다. 학생 정기권으로도 전기자전거를 포함한 모든 자전거를 24시간 이용하실 수 있습니다.</p><div><span>좋아요 5</span> <span>답글</span></div></div></article><article role="article" aria-posinset="80" aria-setsize="120" class="gaf-feed-post gaf-feed-post-80"><div><div><span>장롱면허</span> <time datetime="2026-11-12T10:24:00.000Z">11월 12일 오전 10:24</time></div><p>운전면허가 없어서 이동 수단이 느는 건 도움이 돼요. 다만 처음 타는 사람을 위한 이용법 강습도 있으면 좋겠어요.</p><div><span>좋아요 38</span> <span>답글</span></div></div></article><article role="article" aria-posinset="81" aria-setsize="120" class="gaf-feed-post gaf-feed-post-81"><div><div><span>성민</span> <time datetime="2026-11-12T11:18:00.000Z">11월 12일 오전 11:18</time></div><p>전기자전거가 도난당하거나 배터리를 빼 가지는 않을까 걱정돼요. 다른 도시에서 그런 얘기도 들었어요.</p><div><span>좋아요 39</span> <span>답글</span></div></div></article><article role="article" aria-posinset="82" aria-setsize="120" class="gaf-feed-post gaf-feed-post-82"><div><div><span>전기파</span> <time datetime="2026-11-12T11:33:00.000Z">11월 12일 오전 11:33</time> <span>↳ 성민</span></div><p>배터리는 잠금장치가 있을 텐데 어떨까요. 운영 측에서 답해 주셨으면 해요.</p><div><span>좋아요 44</span> <span>답글</span></div></div></article><article role="article" aria-posinset="83" aria-setsize="120" class="gaf-feed-post gaf-feed-post-83"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-12T12:27:00.000Z">11월 12일 오후 12:27</time> <span>↳ 성민</span></div><p>전기자전거 배터리는 전용 공구 없이는 분리할 수 없는 구조이고, 모든 차량에 위치 추적 단말기를 달았습니다.</p><div><span>좋아요 10</span> <span>답글</span></div></div></article><article role="article" aria-posinset="84" aria-setsize="120" class="gaf-feed-post gaf-feed-post-84"><div><div><span>항구동네 수진</span> <time datetime="2026-11-12T13:02:00.000Z">11월 12일 오후 01:02</time></div><p>언덕 위 지구에서도 도서관 앞에 꼭 한 곳 부탁드려요. 다 올라간 지점에 있으면 정말 편하겠어요.</p><div><span>좋아요 34</span> <span>답글</span></div></div></article><article role="article" aria-posinset="85" aria-setsize="120" class="gaf-feed-post gaf-feed-post-85"><div><div><span>최기석</span> <time datetime="2026-11-12T13:27:00.000Z">11월 12일 오후 01:27</time></div><p>요금 인상과 동시에 대수를 늘려도 고장 난 채 방치된 자전거만 늘어나는 것 아닐까요. 먼저 정비 체계부터 손봐 주세요.</p><div><span>좋아요 3</span> <span>답글</span></div></div></article><article role="article" aria-posinset="86" aria-setsize="120" class="gaf-feed-post gaf-feed-post-86"><div><div><span>항구 출퇴근족</span> <time datetime="2026-11-12T14:11:00.000Z">11월 12일 오후 02:11</time></div><p>매일 아침 항구로를 달리는데 작년보다 정비가 나아진 것 같아요. 이대로 계속해 주세요.</p><div><span>좋아요 40</span> <span>답글</span></div></div></article><article role="article" aria-posinset="87" aria-setsize="120" class="gaf-feed-post gaf-feed-post-87"><div><div><span>언덕러너</span> <time datetime="2026-11-12T14:36:00.000Z">11월 12일 오후 02:36</time></div><p>30분을 조금 넘기면, 예를 들어 31분이면 3,600원이 되나요? 몇 분 초과만 싸게 해 주는 방법은 없나요?</p><div><span>좋아요 1</span> <span>답글</span></div></div></article><article role="article" aria-posinset="88" aria-setsize="120" class="gaf-feed-post gaf-feed-post-88"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-12T15:29:00.000Z">11월 12일 오후 03:29</time> <span>↳ 언덕러너</span></div><p>31분이면 3,600원입니다. 반납할 대여소가 만차일 때는 앱에서 15분 연장을 무료로 신청하실 수 있습니다.</p><div><span>좋아요 17</span> <span>답글</span></div></div></article><article role="article" aria-posinset="89" aria-setsize="120" class="gaf-feed-post gaf-feed-post-89"><div><div><span>언덕러너</span> <time datetime="2026-11-12T15:54:00.000Z">11월 12일 오후 03:54</time> <span>↳ 언덕러너</span></div><p>만차일 때 연장이 있는 줄 몰랐어요. 그래도 초과 요금은 좀 더 잘게 나눠 줬으면 해요.</p><div><span>좋아요 31</span> <span>답글</span></div></div></article><article role="article" aria-posinset="90" aria-setsize="120" class="gaf-feed-post gaf-feed-post-90"><div><div><span>서윤</span> <time datetime="2026-11-12T16:27:00.000Z">11월 12일 오후 04:27</time></div><p>대여소가 늘면 역에서 좀 떨어진 어린이집에도 자전거로 갈 수 있겠어요. 기대하고 있어요.</p><div><span>좋아요 1</span> <span>답글</span></div></div></article><article role="article" aria-posinset="91" aria-setsize="120" class="gaf-feed-post gaf-feed-post-91"><div><div><span>자전거 아저씨</span> <time datetime="2026-11-12T17:16:00.000Z">11월 12일 오후 05:16</time></div><p>오래 타 온 사람으로서 말하면, 새 자전거도 고맙지만 낡은 자전거 브레이크부터 빨리 고쳐 줬으면 해요.</p><div><span>좋아요 24</span> <span>답글</span></div></div></article><article role="article" aria-posinset="92" aria-setsize="120" class="gaf-feed-post gaf-feed-post-92"><div><div><span>문정훈</span> <time datetime="2026-11-12T17:46:00.000Z">11월 12일 오후 05:46</time></div><p>기사 끝에 의견 접수처로 이 댓글란 외의 창구도 적어 주세요. 인터넷 안 쓰는 분들 목소리도 들어 주세요.</p><div><span>좋아요 19</span> <span>답글</span></div></div></article><article role="article" aria-posinset="93" aria-setsize="120" class="gaf-feed-post gaf-feed-post-93"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-12T18:35:00.000Z">11월 12일 오후 06:35</time> <span>↳ 문정훈</span></div><p>지적 감사합니다. 시청 1층 교통정책과 창구와 우편으로도 접수하고 있습니다. 기사에 추가하겠습니다.</p><div><span>좋아요 17</span> <span>답글</span></div></div></article><article role="article" aria-posinset="94" aria-setsize="120" class="gaf-feed-post gaf-feed-post-94"><div><div><span>아라</span> <time datetime="2026-11-12T19:14:00.000Z">11월 12일 오후 07:14</time></div><p>밤에 회식하고 나서 걸어가기엔 멀고 택시는 비싸다 싶을 때 쓸 수 있어 편하겠네요. 물론 술 마시면 안 탑니다.</p><div><span>좋아요 21</span> <span>답글</span></div></div></article><article role="article" aria-posinset="95" aria-setsize="120" class="gaf-feed-post gaf-feed-post-95"><div><div><span>하버 철수</span> <time datetime="2026-11-12T19:34:00.000Z">11월 12일 오후 07:34</time> <span>↳ 아라</span></div><p>음주 운전은 자전거도 위반이잖아요. 야간에 늘지 않도록 주의 문구를 크게 걸어 주세요.</p><div><span>좋아요 12</span> <span>답글</span></div></div></article><article role="article" aria-posinset="96" aria-setsize="120" class="gaf-feed-post gaf-feed-post-96"><div><div><span>요양보호사 M</span> <time datetime="2026-11-12T20:33:00.000Z">11월 12일 오후 08:33</time></div><p>전기자전거 앞 바구니에 몇 kg까지 실을 수 있나요? 방문할 때 짐이 많아서 알고 싶어요.</p><div><span>좋아요 7</span> <span>답글</span></div></div></article><article role="article" aria-posinset="97" aria-setsize="120" class="gaf-feed-post gaf-feed-post-97"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-12T20:53:00.000Z">11월 12일 오후 08:53</time> <span>↳ 요양보호사 M</span></div><p>앞 바구니는 5kg까지입니다. 뒤 짐칸은 없지만, 법인용 요금제에서는 짐칸 달린 차량을 검토하고 있습니다.</p><div><span>좋아요 21</span> <span>답글</span></div></div></article><article role="article" aria-posinset="98" aria-setsize="120" class="gaf-feed-post gaf-feed-post-98"><div><div><span>재민</span> <time datetime="2026-11-12T21:32:00.000Z">11월 12일 오후 09:32</time></div><p>학생 정기권이 있는 건 좋지만 사회초년생도 월급이 적으니 청년 할인 형태로 해 줬으면 했어요.</p><div><span>좋아요 41</span> <span>답글</span></div></div></article><article role="article" aria-posinset="99" aria-setsize="120" class="gaf-feed-post gaf-feed-post-99"><div><div><span>하늘</span> <time datetime="2026-11-12T22:21:00.000Z">11월 12일 오후 10:21</time></div><p>구시가지에서 항남까지 오르막을 피해 갈 수 있는 경로 지도도 앱에 넣어 주면 좋겠어요.</p><div><span>좋아요 16</span> <span>답글</span></div></div></article><article role="article" aria-posinset="100" aria-setsize="120" class="gaf-feed-post gaf-feed-post-100"><div><div><span>관광 온 사람</span> <time datetime="2026-11-12T23:01:00.000Z">11월 12일 오후 11:01</time></div><p>관광 안내소 근처에 대여소가 있으면 좋겠어요. 영어 안내도 있으면 외국 손님도 쓰기 쉬울 거예요.</p><div><span>좋아요 23</span> <span>답글</span></div></div></article><article role="article" aria-posinset="101" aria-setsize="120" class="gaf-feed-post gaf-feed-post-101"><div><div><span>카페 사장</span> <time datetime="2026-11-12T23:21:00.000Z">11월 12일 오후 11:21</time> <span>↳ 관광 온 사람</span></div><p>저희 가게에도 외국 손님이 자주 오셔서 영어 안내는 대찬성이에요.</p><div><span>좋아요 22</span> <span>답글</span></div></div></article><article role="article" aria-posinset="102" aria-setsize="120" class="gaf-feed-post gaf-feed-post-102"><div><div><span>고등학교 교사</span> <time datetime="2026-11-13T00:10:00.000Z">11월 13일 오전 12:10</time></div><p>학교 행사로 학생들을 단체로 이용하게 할 수 있나요? 현장학습으로 구시가지를 돌 때 쓰면 좋겠어요.</p><div><span>좋아요 21</span> <span>답글</span></div></div></article><article role="article" aria-posinset="103" aria-setsize="120" class="gaf-feed-post gaf-feed-post-103"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-13T00:30:00.000Z">11월 13일 오전 12:30</time> <span>↳ 고등학교 교사</span></div><p>단체 이용은 사전 예약으로 받습니다. 대수가 한정되어 있으니 2주 전까지 문의해 주세요.</p><div><span>좋아요 11</span> <span>답글</span></div></div></article><article role="article" aria-posinset="104" aria-setsize="120" class="gaf-feed-post gaf-feed-post-104"><div><div><span>알뜰 주부</span> <time datetime="2026-11-13T01:10:00.000Z">11월 13일 오전 01:10</time></div><p>전기자전거가 들어온다면 지금 월 정기권으로도 본전은 충분히 뽑아요. 인상분 정도는 어쩔 수 없죠.</p><div><span>좋아요 19</span> <span>답글</span></div></div></article><article role="article" aria-posinset="105" aria-setsize="120" class="gaf-feed-post gaf-feed-post-105"><div><div><span>승훈</span> <time datetime="2026-11-13T01:59:00.000Z">11월 13일 오전 01:59</time></div><p>요금 비교표가 있었으면 해요. 지금과 4월 이후에 얼마나 달라지는지 한눈에 안 보여요.</p><div><span>좋아요 34</span> <span>답글</span></div></div></article><article role="article" aria-posinset="106" aria-setsize="120" class="gaf-feed-post gaf-feed-post-106"><div><div><span>러닝 좋아</span> <time datetime="2026-11-13T02:19:00.000Z">11월 13일 오전 02:19</time></div><p>아침 러닝 후에 이용해요. 24시간은 좋지만, 새벽 재배치 트럭이 인도에 서 있어서 달리기 불편할 때가 있어요.</p><div><span>좋아요 17</span> <span>답글</span></div></div></article><article role="article" aria-posinset="107" aria-setsize="120" class="gaf-feed-post gaf-feed-post-107"><div><div><span>은지</span> <time datetime="2026-11-13T03:08:00.000Z">11월 13일 오전 03:08</time></div><p>학생 때 매일 탔어요. 학생 정기권이 그때 있었으면… 좋은 시도라고 생각해요.</p><div><span>좋아요 40</span> <span>답글</span></div></div></article><article role="article" aria-posinset="108" aria-setsize="120" class="gaf-feed-post gaf-feed-post-108"><div><div><span>육아 중인 아빠</span> <time datetime="2026-11-13T03:37:00.000Z">11월 13일 오전 03:37</time></div><p>아이가 직접 탈 수 있는 작은 사이즈 자전거도 몇 대 놔 주실 수 없나요? 가족끼리 같이 달리고 싶어요.</p><div><span>좋아요 15</span> <span>답글</span></div></div></article><article role="article" aria-posinset="109" aria-setsize="120" class="gaf-feed-post gaf-feed-post-109"><div><div><span>경희</span> <time datetime="2026-11-13T04:26:00.000Z">11월 13일 오전 04:26</time> <span>↳ 육아 중인 아빠</span></div><p>아이들만 차도로 다니면 위험하니 둔다면 공원 안 대여소에만 두는 게 좋겠어요.</p><div><span>좋아요 14</span> <span>답글</span></div></div></article><article role="article" aria-posinset="110" aria-setsize="120" class="gaf-feed-post gaf-feed-post-110"><div><div><span>하람</span> <time datetime="2026-11-13T05:04:00.000Z">11월 13일 오전 05:04</time></div><p>2월 말까지 모은 의견이 최종안에 얼마나 반영되나요? 결과도 공개해 주실 수 있나요?</p><div><span>좋아요 44</span> <span>답글</span></div></div></article><article role="article" aria-posinset="111" aria-setsize="120" class="gaf-feed-post gaf-feed-post-111"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-13T05:29:00.000Z">11월 13일 오전 05:29</time> <span>↳ 하람</span></div><p>접수한 의견은 항목별로 정리해 시의 입장과 함께 3월 교통위원회 자료로 공개하겠습니다.</p><div><span>좋아요 22</span> <span>답글</span></div></div></article><article role="article" aria-posinset="112" aria-setsize="120" class="gaf-feed-post gaf-feed-post-112"><div><div><span>출근 30분</span> <time datetime="2026-11-13T06:23:00.000Z">11월 13일 오전 06:23</time></div><p>매일 출근이 조금 편해질 것 같아요. 요즘은 만원 버스보다 자전거가 기분 좋게 다닐 수 있어요.</p><div><span>좋아요 38</span> <span>답글</span></div></div></article><article role="article" aria-posinset="113" aria-setsize="120" class="gaf-feed-post gaf-feed-post-113"><div><div><span>도윤</span> <time datetime="2026-11-13T06:48:00.000Z">11월 13일 오전 06:48</time></div><p>북쪽 출구로 옮기려면 남쪽 출구에서 오는 안내 표지를 확실히 해 주세요. 처음 쓰는 사람은 분명 헤맵니다.</p><div><span>좋아요 39</span> <span>답글</span></div></div></article><article role="article" aria-posinset="114" aria-setsize="120" class="gaf-feed-post gaf-feed-post-114"><div><div><span>음식배달러</span> <time datetime="2026-11-13T07:13:00.000Z">11월 13일 오전 07:13</time></div><p>자주 타서 요금 인상은 아프지만, 24시간이 된다면 전체적으로는 찬성이에요.</p><div><span>좋아요 24</span> <span>답글</span></div></div></article><article role="article" aria-posinset="115" aria-setsize="120" class="gaf-feed-post gaf-feed-post-115"><div><div><span>태호</span> <time datetime="2026-11-13T08:07:00.000Z">11월 13일 오전 08:07</time></div><p>우리 부모님도 탈 수 있는 전기자전거가 가까이 생기면 장 보고 올 때 무거운 짐을 안 들어도 되겠어요.</p><div><span>좋아요 33</span> <span>답글</span></div></div></article><article role="article" aria-posinset="116" aria-setsize="120" class="gaf-feed-post gaf-feed-post-116"><div><div><span>환경 동아리</span> <time datetime="2026-11-13T08:32:00.000Z">11월 13일 오전 08:32</time></div><p>이용 데이터(몇 시에 어디서 쓰이는지)를 공개해 주시면 저희 동아리에서도 분석해 보고 싶어요.</p><div><span>좋아요 34</span> <span>답글</span></div></div></article><article role="article" aria-posinset="117" aria-setsize="120" class="gaf-feed-post gaf-feed-post-117"><div><div><span>대학 직원</span> <time datetime="2026-11-13T09:26:00.000Z">11월 13일 오전 09:26</time> <span>↳ 환경 동아리</span></div><p>대학 수업 소재로도 좋겠어요. 개인을 알 수 없는 형태로 공개한다면 찬성합니다.</p><div><span>좋아요 3</span> <span>답글</span></div></div></article><article role="article" aria-posinset="118" aria-setsize="120" class="gaf-feed-post gaf-feed-post-118"><div><div><span>다은</span> <time datetime="2026-11-13T09:40:00.000Z">11월 13일 오전 09:40</time></div><p>의견은 다양하지만 도시 이동이 편해지는 방향인 건 틀림없다고 생각해요. 기대합니다.</p><div><span>좋아요 20</span> <span>답글</span></div></div></article><article role="article" aria-posinset="119" aria-setsize="120" class="gaf-feed-post gaf-feed-post-119"><div><div><span>장롱면허</span> <time datetime="2026-11-13T10:34:00.000Z">11월 13일 오전 10:34</time></div><p>4월 1일부터 한꺼번에 다 바뀌나요? 전기자전거와 대여소는 순서대로 늘어나나요?</p><div><span>좋아요 29</span> <span>답글</span></div></div></article><article role="article" aria-posinset="120" aria-setsize="120" class="gaf-feed-post gaf-feed-post-120"><div><div><span>하버 자전거 공유 운영사무국</span> <span>운영</span> <time datetime="2026-11-13T11:14:00.000Z">11월 13일 오전 11:14</time> <span>↳ 장롱면허</span></div><p>요금과 24시간 운영은 4월 1일부터입니다. 전기자전거와 대여소는 4월부터 6월에 걸쳐 순차적으로 늘려 가겠습니다.</p><div><span>좋아요 18</span> <span>답글</span></div></div></article></div>
+<p aria-live="polite" id="gaf-p00001-more">모든 댓글을 표시했습니다</p>
+</section>
+
+</div>
+      </section>
+    
+    
+  </main>
+  <a class="gaf-toc-fab" href="#gaf-toc">목차로 돌아가기</a>
+  <script type="application/json" id="gaf-search-config">{"searchPlaceholder":"문서 내 검색","searchHeadingsOnly":"제목만","searchMatches":"{current} / {total}","searchNoMatches":"일치 항목 없음","searchTooMany":"일치 항목이 2,000개를 초과합니다. 검색어를 좁혀 주세요","searchPrev":"이전","searchNext":"다음","searchClear":"지우기","collapseAll":"모든 페이지 접기","expandAll":"모든 페이지 펼치기","collapsePage":"이 페이지 접기","expandPage":"이 페이지 펼치기","themeLabel":"색상","themeAuto":"자동","themeLight":"라이트","themeDark":"다크"}</script>
+  <script>(function () {
+  'use strict';
+  var configEl = document.getElementById('gaf-search-config');
+  var labels = {};
+  try { labels = JSON.parse(configEl.textContent) || {}; } catch (e) { labels = {}; }
+  function L(key, fallback) { return (labels && typeof labels[key] === 'string') ? labels[key] : fallback; }
+  var MAX_MARKS = 2000;
+  var hits = [];
+  var currentIndex = -1;
+  var debounceTimer = null;
+  var cappedSearch = false;
+  var searchRun = 0;
+  var lastQuery = null;
+  var lastHeadings = false;
+  var HEADINGS = { h1: 1, h2: 1, h3: 1, h4: 1, h5: 1, h6: 1 };
+  function ready(fn) {
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fn);
+    else fn();
+  }
+  function makeButton(text, title, ariaLabel) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = text;
+    if (title) b.title = title;
+    if (ariaLabel) b.setAttribute('aria-label', ariaLabel);
+    return b;
+  }
+  function fold(value) {
+    try { return value.normalize('NFKC').toLowerCase(); } catch (e) { return value.toLowerCase(); }
+  }
+  var MARK_RE = null;
+  try { MARK_RE = new RegExp('^[\\p{M}\\uFF9E\\uFF9F]$', 'u'); } catch (e) { MARK_RE = /^[\u0300-\u036F\u3099\u309A\uFF9E\uFF9F]$/; }
+  function nextCodePoint(value, i) {
+    var c = value.charCodeAt(i);
+    if (c >= 0xD800 && c <= 0xDBFF && i + 1 < value.length) {
+      var d = value.charCodeAt(i + 1);
+      if (d >= 0xDC00 && d <= 0xDFFF) return i + 2;
+    }
+    return i + 1;
+  }
+  function foldedMap(value) {
+    var norm = '';
+    var map = [];
+    var ends = [];
+    var i = 0;
+    while (i < value.length) {
+      var start = i;
+      i = nextCodePoint(value, i);
+      while (i < value.length) {
+        var after = nextCodePoint(value, i);
+        if (!MARK_RE.test(value.slice(i, after))) break;
+        i = after;
+      }
+      var piece = fold(value.slice(start, i));
+      for (var j = 0; j < piece.length; j++) { norm += piece.charAt(j); map.push(start); ends.push(i); }
+    }
+    map.push(value.length);
+    return { norm: norm, map: map, ends: ends };
+  }
+  function getPages() { return document.querySelectorAll('section.gaf-page'); }
+  function allDocs() {
+    var docs = [document];
+    var frames = document.querySelectorAll('iframe.gaf-look-frame');
+    for (var i = 0; i < frames.length; i++) {
+      try { if (frames[i].contentDocument && frames[i].contentDocument.body) docs.push(frames[i].contentDocument); } catch (e) {}
+    }
+    var hosts = document.querySelectorAll('.gaf-look-host');
+    for (var h = 0; h < hosts.length; h++) if (hosts[h].shadowRoot) docs.push(hosts[h].shadowRoot);
+    return docs;
+  }
+  function counterEl() { return document.getElementById('gaf-search-count'); }
+  function clearCounter() { var c = counterEl(); if (c) { c.textContent = ''; c.removeAttribute('title'); } }
+  function clearMarks() {
+    var docs = allDocs();
+    for (var d = 0; d < docs.length; d++) {
+      var marks = docs[d].querySelectorAll('mark.gaf-search-hit');
+      for (var i = 0; i < marks.length; i++) {
+        var mark = marks[i];
+        var parent = mark.parentNode;
+        if (!parent) continue;
+        while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
+        parent.removeChild(mark);
+        if (parent.normalize) parent.normalize();
+      }
+    }
+    hits = [];
+    currentIndex = -1;
+    cappedSearch = false;
+    lastQuery = null;
+  }
+  var INLINE = { a: 1, abbr: 1, b: 1, bdi: 1, bdo: 1, cite: 1, code: 1, data: 1, del: 1, dfn: 1, em: 1, font: 1, i: 1, ins: 1, kbd: 1, label: 1, q: 1, s: 1, samp: 1, small: 1, span: 1, strong: 1, sub: 1, sup: 1, time: 1, tt: 1, u: 1, var: 1 };
+  function collectRuns(root, headingsOnly, runs) {
+    var current = null;
+    function flush() {
+      if (current) {
+        for (var k = 0; k < current.length; k++) if (current[k].nodeValue.trim()) { runs.push(current); break; }
+      }
+      current = null;
+    }
+    function walk(node, inHeading) {
+      for (var child = node.firstChild; child; child = child.nextSibling) {
+        if (child.nodeType === 3) {
+          if (!child.nodeValue || (headingsOnly && !inHeading)) continue;
+          if (!current) current = [];
+          current.push(child);
+          continue;
+        }
+        if (child.nodeType !== 1) continue;
+        var name = child.nodeName ? child.nodeName.toLowerCase() : '';
+        if (name === 'mark' || name === 'script' || name === 'style') { flush(); continue; }
+        var inline = INLINE[name] === 1;
+        if (!inline) flush();
+        walk(child, inHeading || HEADINGS[name] === 1);
+        if (!inline) flush();
+      }
+    }
+    walk(root, false);
+    flush();
+    return runs;
+  }
+  function updateCounter() {
+    var counter = counterEl();
+    if (!counter) return;
+    if (!hits.length) { counter.textContent = L('searchNoMatches', 'No matches'); counter.removeAttribute('title'); return; }
+    var template = L('searchMatches', '{current} / {total}');
+    var current = currentIndex >= 0 ? (currentIndex + 1) : 1;
+    var total = String(hits.length) + (cappedSearch ? '+' : '');
+    counter.textContent = template.split('{current}').join(String(current)).split('{total}').join(total);
+    if (cappedSearch) counter.title = L('searchTooMany', '2,000+ matches');
+    else counter.removeAttribute('title');
+  }
+  function setToggleState(page, collapsed) {
+    var t = page.querySelector('.gaf-page-toggle');
+    if (!t) return;
+    t.textContent = collapsed ? '\u002b' : '\u2212';
+    t.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+    t.setAttribute('aria-label', collapsed ? L('expandPage', 'Expand this page') : L('collapsePage', 'Collapse this page'));
+  }
+  function setHitClass(mark, name) {
+    var parts = mark.gafParts || [mark];
+    for (var i = 0; i < parts.length; i++) parts[i].className = name;
+  }
+  function setCurrent(index) {
+    if (!hits.length) return;
+    if (currentIndex >= 0 && hits[currentIndex]) setHitClass(hits[currentIndex], 'gaf-search-hit');
+    if (index < 0) index = hits.length - 1;
+    if (index >= hits.length) index = 0;
+    currentIndex = index;
+    var mark = hits[currentIndex];
+    setHitClass(mark, 'gaf-search-hit gaf-search-current');
+    var owner = mark.ownerDocument;
+    var host = owner && owner !== document && owner.defaultView && owner.defaultView.frameElement ? owner.defaultView.frameElement : mark;
+    var shadow = host === mark && mark.getRootNode ? mark.getRootNode() : null;
+    if (shadow && shadow.host) host = shadow.host;
+    var page = host.closest ? host.closest('section.gaf-page') : null;
+    if (page && page.classList.contains('gaf-collapsed')) {
+      page.classList.remove('gaf-collapsed');
+      setToggleState(page, false);
+    }
+    if (mark.scrollIntoView) mark.scrollIntoView({ block: 'center' });
+    updateCounter();
+  }
+  function nextHit() { if (hits.length) setCurrent(currentIndex + 1); }
+  function prevHit() { if (hits.length) setCurrent(currentIndex - 1); }
+  function processNode(node, needle) {
+    if (!node.parentNode) return;
+    var value = node.nodeValue;
+    var folded = foldedMap(value);
+    var idx = folded.norm.indexOf(needle);
+    if (idx === -1) return;
+    var doc = node.ownerDocument || document;
+    var frag = doc.createDocumentFragment();
+    var last = 0;
+    while (idx !== -1) {
+      var rawStart = folded.map[idx];
+      var rawEnd = folded.ends[idx + needle.length - 1];
+      if (rawEnd <= rawStart) rawEnd = rawStart + 1;
+      if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
+      else if (rawStart < last) rawStart = last;
+      var mark = doc.createElement('mark');
+      mark.className = 'gaf-search-hit';
+      mark.textContent = value.slice(rawStart, rawEnd);
+      frag.appendChild(mark);
+      hits.push(mark);
+      last = rawEnd;
+      if (hits.length >= MAX_MARKS) { cappedSearch = true; break; }
+      idx = folded.norm.indexOf(needle, idx + needle.length);
+      while (idx !== -1 && folded.map[idx] < last) idx = folded.norm.indexOf(needle, idx + 1);
+    }
+    if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
+    node.parentNode.replaceChild(frag, node);
+  }
+  function processRun(run, needle) {
+    if (run.length === 1) { processNode(run[0], needle); return; }
+    var parts = [];
+    var norm = '';
+    for (var p = 0; p < run.length; p++) {
+      var f = foldedMap(run[p].nodeValue);
+      parts.push({ node: run[p], folded: f, start: norm.length, cuts: [] });
+      norm += f.norm;
+    }
+    var idx = norm.indexOf(needle);
+    if (idx === -1) return;
+    var groups = [];
+    while (idx !== -1) {
+      var end = idx + needle.length;
+      var group = [];
+      groups.push(group);
+      for (var r = 0; r < parts.length; r++) {
+        var part = parts[r];
+        var partEnd = part.start + part.folded.norm.length;
+        if (partEnd <= idx || part.start >= end) continue;
+        var from = Math.max(idx, part.start) - part.start;
+        var to = Math.min(end, partEnd) - part.start;
+        part.cuts.push({ rawStart: part.folded.map[from], rawEnd: part.folded.ends[to - 1], group: group });
+      }
+      if (hits.length + groups.length >= MAX_MARKS) { cappedSearch = true; break; }
+      idx = norm.indexOf(needle, end);
+    }
+    for (var s = 0; s < parts.length; s++) {
+      var node = parts[s].node;
+      if (!parts[s].cuts.length || !node.parentNode) continue;
+      var value = node.nodeValue;
+      var doc = node.ownerDocument || document;
+      var frag = doc.createDocumentFragment();
+      var last = 0;
+      for (var t = 0; t < parts[s].cuts.length; t++) {
+        var cut = parts[s].cuts[t];
+        var rawStart = cut.rawStart < last ? last : cut.rawStart;
+        if (cut.rawEnd <= rawStart) continue;
+        if (rawStart > last) frag.appendChild(doc.createTextNode(value.slice(last, rawStart)));
+        var mark = doc.createElement('mark');
+        mark.className = 'gaf-search-hit';
+        mark.textContent = value.slice(rawStart, cut.rawEnd);
+        frag.appendChild(mark);
+        cut.group.push(mark);
+        last = cut.rawEnd;
+      }
+      if (last < value.length) frag.appendChild(doc.createTextNode(value.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    }
+    for (var g = 0; g < groups.length; g++) {
+      if (!groups[g].length) continue;
+      groups[g][0].gafParts = groups[g];
+      hits.push(groups[g][0]);
+    }
+  }
+  function highlight(query, headingsOnly) {
+    var needle = fold(query || '').replace(/^\s+|\s+$/g, '');
+    if (needle === lastQuery && headingsOnly === lastHeadings) return;
+    searchRun += 1;
+    var runId = searchRun;
+    clearMarks();
+    if (!needle || needle.length < 2) { clearCounter(); lastQuery = needle || null; lastHeadings = headingsOnly; return; }
+    lastQuery = needle;
+    lastHeadings = headingsOnly;
+    var pages = getPages();
+    var nodes = [];
+    for (var pi = 0; pi < pages.length; pi++) {
+      collectRuns(pages[pi], headingsOnly, nodes);
+      var pageFrames = pages[pi].querySelectorAll('iframe.gaf-look-frame');
+      for (var fi = 0; fi < pageFrames.length; fi++) {
+        var frameDoc = null;
+        try { frameDoc = pageFrames[fi].contentDocument; } catch (e) { frameDoc = null; }
+        if (!frameDoc || !frameDoc.body) continue;
+        collectRuns(frameDoc.body, headingsOnly, nodes);
+      }
+      var pageHosts = pages[pi].querySelectorAll('.gaf-look-host');
+      for (var hi = 0; hi < pageHosts.length; hi++) {
+        if (!pageHosts[hi].shadowRoot) continue;
+        collectRuns(pageHosts[hi].shadowRoot, headingsOnly, nodes);
+      }
+    }
+    var index = 0;
+    var CHUNK = 1500;
+    function step() {
+      if (runId !== searchRun) return;
+      var end = index + CHUNK;
+      if (end > nodes.length) end = nodes.length;
+      for (; index < end && !cappedSearch; index++) processRun(nodes[index], needle);
+      if (index < nodes.length && !cappedSearch) {
+        updateCounter();
+        if (window.requestAnimationFrame) window.requestAnimationFrame(step);
+        else setTimeout(step, 0);
+        return;
+      }
+      updateCounter();
+      if (hits.length) setCurrent(0);
+    }
+    step();
+  }
+  ready(function () {
+    var bar = document.createElement('div');
+    bar.className = 'gaf-search';
+    bar.setAttribute('role', 'search');
+    bar.setAttribute('aria-label', L('searchPlaceholder', 'Search this document'));
+    var input = document.createElement('input');
+    input.type = 'search';
+    input.className = 'gaf-search-input';
+    input.placeholder = L('searchPlaceholder', 'Search this document');
+    input.setAttribute('aria-label', L('searchPlaceholder', 'Search this document'));
+    bar.appendChild(input);
+    var headingsLabel = document.createElement('label');
+    headingsLabel.className = 'gaf-search-headings';
+    var headingsCheck = document.createElement('input');
+    headingsCheck.type = 'checkbox';
+    headingsLabel.appendChild(headingsCheck);
+    headingsLabel.appendChild(document.createTextNode(' ' + L('searchHeadingsOnly', 'Headings only')));
+    bar.appendChild(headingsLabel);
+    var prevBtn = makeButton('\u2190', L('searchPrev', 'Previous'), L('searchPrev', 'Previous'));
+    var nextBtn = makeButton('\u2192', L('searchNext', 'Next'), L('searchNext', 'Next'));
+    bar.appendChild(prevBtn);
+    bar.appendChild(nextBtn);
+    var counter = document.createElement('span');
+    counter.className = 'gaf-search-count';
+    counter.id = 'gaf-search-count';
+    counter.setAttribute('aria-live', 'polite');
+    counter.setAttribute('aria-atomic', 'true');
+    bar.appendChild(counter);
+    var clearBtn = makeButton(L('searchClear', 'Clear'), L('searchClear', 'Clear'));
+    bar.appendChild(clearBtn);
+    var collapseBtn = makeButton(L('collapseAll', 'Collapse all pages'), L('collapseAll', 'Collapse all pages'));
+    var expandBtn = makeButton(L('expandAll', 'Expand all pages'), L('expandAll', 'Expand all pages'));
+    bar.appendChild(collapseBtn);
+    bar.appendChild(expandBtn);
+    var THEMES = ['auto', 'light', 'dark'];
+    var themeBtn = makeButton('', L('themeLabel', 'Theme'), '');
+    themeBtn.className = 'gaf-theme-toggle';
+    var theme = 'auto';
+    try { theme = window.localStorage.getItem('gaf-export-theme') || 'auto'; } catch (e) { theme = 'auto'; }
+    if (THEMES.indexOf(theme) < 0) theme = 'auto';
+    function applyTheme() {
+      if (theme === 'auto') document.documentElement.removeAttribute('data-gaf-theme');
+      else document.documentElement.setAttribute('data-gaf-theme', theme);
+      var name = theme === 'light' ? L('themeLight', 'Light') : (theme === 'dark' ? L('themeDark', 'Dark') : L('themeAuto', 'Auto'));
+      themeBtn.textContent = L('themeLabel', 'Theme') + ': ' + name;
+      themeBtn.setAttribute('aria-label', themeBtn.textContent);
+    }
+    applyTheme();
+    themeBtn.addEventListener('click', function () {
+      theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length];
+      applyTheme();
+      try { window.localStorage.setItem('gaf-export-theme', theme); } catch (e) {}
+    });
+    bar.appendChild(themeBtn);
+    if (document.body.firstChild) document.body.insertBefore(bar, document.body.firstChild);
+    else document.body.appendChild(bar);
+    function runSearch() { highlight(input.value.trim(), headingsCheck.checked); }
+    input.addEventListener('input', function () {
+      if (debounceTimer) clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(runSearch, 200);
+    });
+    input.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        if (event.shiftKey) prevHit(); else nextHit();
+      } else if (event.key === 'Escape') {
+        input.value = '';
+        searchRun += 1; clearTimeout(debounceTimer);
+        clearMarks();
+        clearCounter();
+      }
+    });
+    headingsCheck.addEventListener('change', runSearch);
+    prevBtn.addEventListener('click', prevHit);
+    nextBtn.addEventListener('click', nextHit);
+    clearBtn.addEventListener('click', function () {
+      input.value = '';
+      searchRun += 1; clearTimeout(debounceTimer);
+      clearMarks();
+      clearCounter();
+      input.focus();
+    });
+    var pages = getPages();
+    for (var i = 0; i < pages.length; i++) {
+      (function (page) {
+        var header = page.querySelector('header.gaf-page-header');
+        if (!header) return;
+        var toggle = makeButton('\u2212', '', L('collapsePage', 'Collapse this page'));
+        toggle.className = 'gaf-page-toggle';
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.addEventListener('click', function () {
+          page.classList.toggle('gaf-collapsed');
+          setToggleState(page, page.classList.contains('gaf-collapsed'));
+        });
+        header.insertBefore(toggle, header.firstChild);
+      })(pages[i]);
+    }
+    collapseBtn.addEventListener('click', function () {
+      var ps = getPages();
+      for (var j = 0; j < ps.length; j++) {
+        ps[j].classList.add('gaf-collapsed');
+        setToggleState(ps[j], true);
+      }
+    });
+    expandBtn.addEventListener('click', function () {
+      var ps = getPages();
+      for (var k = 0; k < ps.length; k++) {
+        ps[k].classList.remove('gaf-collapsed');
+        setToggleState(ps[k], false);
+      }
+    });
+  });
+})();</script>
+  
+  
+</body>
+</html>
