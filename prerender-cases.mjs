@@ -40,6 +40,28 @@ export const CASE_IDS = [
   'download-files-from-webpage',
   'internal-portal-downloads',
   'merge-pdfs-locally',
+  // NEWCASES-BEGIN
+  'save-entire-website',
+  'website-to-notebooklm-chatgpt-claude',
+  'save-all-blog-and-news-articles',
+  'archive-website-before-it-closes',
+  'save-pages-and-files-behind-login',
+  'bulk-download-word-excel-powerpoint',
+  'follow-next-page-links-and-collect',
+  'save-infinite-scroll-pages',
+  'download-multiple-files-as-zip',
+  'download-linked-video-and-audio-files',
+  'save-pages-with-source-url-and-date',
+  'download-insurance-policy-documents',
+  'collect-law-case-and-patent-pdfs',
+  'save-course-materials-and-syllabi',
+  'collect-real-estate-and-drawing-pdfs',
+  'track-competitor-prices-and-product-pages',
+  'what-grab-all-files-can-and-cannot-do',
+  'crawler-vs-page-saver-vs-download-manager',
+  'bulk-download-extension-for-firefox-and-edge',
+  'grab-all-files-faq',
+  // NEWCASES-END
 ];
 
 /* use-case.js links with ?lang=<L> because the client switch needs it. The

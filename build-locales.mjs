@@ -82,6 +82,28 @@ const PAGES = [
   { src: 'use-cases/download-files-from-webpage.html', rel: 'use-cases/download-files-from-webpage.html' },
   { src: 'use-cases/internal-portal-downloads.html', rel: 'use-cases/internal-portal-downloads.html' },
   { src: 'use-cases/merge-pdfs-locally.html', rel: 'use-cases/merge-pdfs-locally.html' },
+  // NEWCASES-BEGIN
+  { src: 'use-cases/save-entire-website.html', rel: 'use-cases/save-entire-website.html' },
+  { src: 'use-cases/website-to-notebooklm-chatgpt-claude.html', rel: 'use-cases/website-to-notebooklm-chatgpt-claude.html' },
+  { src: 'use-cases/save-all-blog-and-news-articles.html', rel: 'use-cases/save-all-blog-and-news-articles.html' },
+  { src: 'use-cases/archive-website-before-it-closes.html', rel: 'use-cases/archive-website-before-it-closes.html' },
+  { src: 'use-cases/save-pages-and-files-behind-login.html', rel: 'use-cases/save-pages-and-files-behind-login.html' },
+  { src: 'use-cases/bulk-download-word-excel-powerpoint.html', rel: 'use-cases/bulk-download-word-excel-powerpoint.html' },
+  { src: 'use-cases/follow-next-page-links-and-collect.html', rel: 'use-cases/follow-next-page-links-and-collect.html' },
+  { src: 'use-cases/save-infinite-scroll-pages.html', rel: 'use-cases/save-infinite-scroll-pages.html' },
+  { src: 'use-cases/download-multiple-files-as-zip.html', rel: 'use-cases/download-multiple-files-as-zip.html' },
+  { src: 'use-cases/download-linked-video-and-audio-files.html', rel: 'use-cases/download-linked-video-and-audio-files.html' },
+  { src: 'use-cases/save-pages-with-source-url-and-date.html', rel: 'use-cases/save-pages-with-source-url-and-date.html' },
+  { src: 'use-cases/download-insurance-policy-documents.html', rel: 'use-cases/download-insurance-policy-documents.html' },
+  { src: 'use-cases/collect-law-case-and-patent-pdfs.html', rel: 'use-cases/collect-law-case-and-patent-pdfs.html' },
+  { src: 'use-cases/save-course-materials-and-syllabi.html', rel: 'use-cases/save-course-materials-and-syllabi.html' },
+  { src: 'use-cases/collect-real-estate-and-drawing-pdfs.html', rel: 'use-cases/collect-real-estate-and-drawing-pdfs.html' },
+  { src: 'use-cases/track-competitor-prices-and-product-pages.html', rel: 'use-cases/track-competitor-prices-and-product-pages.html' },
+  { src: 'use-cases/what-grab-all-files-can-and-cannot-do.html', rel: 'use-cases/what-grab-all-files-can-and-cannot-do.html' },
+  { src: 'use-cases/crawler-vs-page-saver-vs-download-manager.html', rel: 'use-cases/crawler-vs-page-saver-vs-download-manager.html' },
+  { src: 'use-cases/bulk-download-extension-for-firefox-and-edge.html', rel: 'use-cases/bulk-download-extension-for-firefox-and-edge.html' },
+  { src: 'use-cases/grab-all-files-faq.html', rel: 'use-cases/grab-all-files-faq.html' },
+  // NEWCASES-END
 ];
 
 // absolute root paths that HAVE per-locale versions (localized cross-links get /<L>/ prefix).
@@ -108,6 +130,28 @@ const LOCALIZED = new Set([
   '/use-cases/bulk-download-images.html', '/use-cases/download-all-pdfs.html',
   '/use-cases/download-files-from-webpage.html', '/use-cases/internal-portal-downloads.html',
   '/use-cases/merge-pdfs-locally.html',
+  // NEWCASES-LOC-BEGIN
+  '/use-cases/save-entire-website.html',
+  '/use-cases/website-to-notebooklm-chatgpt-claude.html',
+  '/use-cases/save-all-blog-and-news-articles.html',
+  '/use-cases/archive-website-before-it-closes.html',
+  '/use-cases/save-pages-and-files-behind-login.html',
+  '/use-cases/bulk-download-word-excel-powerpoint.html',
+  '/use-cases/follow-next-page-links-and-collect.html',
+  '/use-cases/save-infinite-scroll-pages.html',
+  '/use-cases/download-multiple-files-as-zip.html',
+  '/use-cases/download-linked-video-and-audio-files.html',
+  '/use-cases/save-pages-with-source-url-and-date.html',
+  '/use-cases/download-insurance-policy-documents.html',
+  '/use-cases/collect-law-case-and-patent-pdfs.html',
+  '/use-cases/save-course-materials-and-syllabi.html',
+  '/use-cases/collect-real-estate-and-drawing-pdfs.html',
+  '/use-cases/track-competitor-prices-and-product-pages.html',
+  '/use-cases/what-grab-all-files-can-and-cannot-do.html',
+  '/use-cases/crawler-vs-page-saver-vs-download-manager.html',
+  '/use-cases/bulk-download-extension-for-firefox-and-edge.html',
+  '/use-cases/grab-all-files-faq.html',
+  // NEWCASES-LOC-END
 ]);
 
 const url = (loc, rel) => loc === 'en' ? `${BASE}/${rel}` : `${BASE}/${loc}/${rel}`;
@@ -275,6 +319,14 @@ const HUB_PAGE_GUIDES = [
   'save-online-manuals-and-knowledge-pages', 'web-pages-for-reading-and-ai-analysis', 'collect-and-analyze-web-comments',
   'combine-web-pages-into-one-html', 'combine-local-html-files-into-one', 'save-web-pages-with-original-design',
 ];
+// NEWCASES-HUB-BEGIN
+const HUB_NEW_GROUPS = {"save-entire-website":"pages","website-to-notebooklm-chatgpt-claude":"pages","save-all-blog-and-news-articles":"pages","archive-website-before-it-closes":"pages","save-pages-and-files-behind-login":"pages","bulk-download-word-excel-powerpoint":"files","follow-next-page-links-and-collect":"files","save-infinite-scroll-pages":"pages","download-multiple-files-as-zip":"files","download-linked-video-and-audio-files":"files","save-pages-with-source-url-and-date":"pages","download-insurance-policy-documents":"files","collect-law-case-and-patent-pdfs":"files","save-course-materials-and-syllabi":"files","collect-real-estate-and-drawing-pdfs":"files","track-competitor-prices-and-product-pages":"pages","what-grab-all-files-can-and-cannot-do":"info","crawler-vs-page-saver-vs-download-manager":"info","bulk-download-extension-for-firefox-and-edge":"info","grab-all-files-faq":"info"};
+// NEWCASES-HUB-END
+// Third hub group (2026-11): guides that help choose the right tool rather than describe one task.
+const HUB_INFO_NAMES = {
+  en: 'Choosing the right tool', ja: '向き・不向きと選び方', es: 'Cómo elegir la herramienta', fr: 'Choisir le bon outil', de: 'Das passende Werkzeug wählen',
+  it: 'Scegliere lo strumento giusto', ko: '알맞은 도구 고르기', pt_BR: 'Como escolher a ferramenta', zh_CN: '如何选择合适的工具', zh_TW: '如何選擇合適的工具',
+};
 const HUB_GROUP_NAMES = {
   en: { files: 'File downloader', pages: 'Combine pages into HTML' },
   ja: { files: 'ファイル一括ダウンロード', pages: 'ページをHTMLにまとめる' },
@@ -341,9 +393,10 @@ function bakeHub(html, lang, tables, cases) {
     const blurb = meta ? meta.desc : '';
     return `          <section class="section-card hub-card"><h3><a href="${guideUrl(id)}">${textEsc(labels[id])}</a></h3><p>${textEsc(blurb)}</p></section>`;
   };
-  const cards = ['files', 'pages'].map((g) => {
-    const ids = order.filter((id) => (pageIds.has(id) ? 'pages' : 'files') === g);
-    const name = (HUB_GROUP_NAMES[lang] || HUB_GROUP_NAMES.en)[g];
+  const groupOf = (id) => HUB_NEW_GROUPS[id] || (pageIds.has(id) ? 'pages' : 'files');
+  const cards = ['files', 'pages', 'info'].filter((g) => order.some((id) => groupOf(id) === g)).map((g) => {
+    const ids = order.filter((id) => groupOf(id) === g);
+    const name = g === 'info' ? (HUB_INFO_NAMES[lang] || HUB_INFO_NAMES.en) : (HUB_GROUP_NAMES[lang] || HUB_GROUP_NAMES.en)[g];
     return [
       `      <section class="hub-group" aria-labelledby="hub-${g}">`,
       `        <h2 class="hub-group-title" id="hub-${g}">${textEsc(name)} <span class="hub-group-count">${ids.length}</span></h2>`,

@@ -376,11 +376,55 @@
     "bulk-download-images",
     "download-files-from-webpage",
     "internal-portal-downloads",
-    "merge-pdfs-locally"
+    "merge-pdfs-locally",
+    /* NEWCASES-ORDER-BEGIN */
+    "save-entire-website",
+    "website-to-notebooklm-chatgpt-claude",
+    "save-all-blog-and-news-articles",
+    "archive-website-before-it-closes",
+    "save-pages-and-files-behind-login",
+    "bulk-download-word-excel-powerpoint",
+    "follow-next-page-links-and-collect",
+    "save-infinite-scroll-pages",
+    "download-multiple-files-as-zip",
+    "download-linked-video-and-audio-files",
+    "save-pages-with-source-url-and-date",
+    "download-insurance-policy-documents",
+    "collect-law-case-and-patent-pdfs",
+    "save-course-materials-and-syllabi",
+    "collect-real-estate-and-drawing-pdfs",
+    "track-competitor-prices-and-product-pages",
+    "what-grab-all-files-can-and-cannot-do",
+    "crawler-vs-page-saver-vs-download-manager",
+    "bulk-download-extension-for-firefox-and-edge",
+    "grab-all-files-faq"
+    /* NEWCASES-ORDER-END */
   ];
 
   var GUIDE_LABELS = {
     en: {
+      /* NEWCASES-LABELS-BEGIN */
+      "save-entire-website": "Save an entire website",
+      "website-to-notebooklm-chatgpt-claude": "Give a site to NotebookLM, ChatGPT or Claude",
+      "save-all-blog-and-news-articles": "Save all blog and news articles",
+      "archive-website-before-it-closes": "Archive a site before it closes",
+      "save-pages-and-files-behind-login": "Save pages and files behind a login",
+      "bulk-download-word-excel-powerpoint": "Bulk download Word, Excel, PowerPoint",
+      "follow-next-page-links-and-collect": "Follow “Next” links and collect",
+      "save-infinite-scroll-pages": "Save infinite-scroll pages",
+      "download-multiple-files-as-zip": "Download many files as one ZIP",
+      "download-linked-video-and-audio-files": "Download linked video and audio files",
+      "save-pages-with-source-url-and-date": "Save pages with source URL and date",
+      "download-insurance-policy-documents": "Insurance policy documents",
+      "collect-law-case-and-patent-pdfs": "Law, case and patent PDFs",
+      "save-course-materials-and-syllabi": "Course materials and syllabi",
+      "collect-real-estate-and-drawing-pdfs": "Property and drawing PDFs",
+      "track-competitor-prices-and-product-pages": "Competitor prices and product pages",
+      "what-grab-all-files-can-and-cannot-do": "What it can and cannot do",
+      "crawler-vs-page-saver-vs-download-manager": "Crawler vs page saver vs download manager",
+      "bulk-download-extension-for-firefox-and-edge": "Chrome, Edge and Firefox",
+      "grab-all-files-faq": "Grab All Files FAQ",
+      /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "Product catalogs & datasheets",
       "download-ir-and-financial-report-pdfs": "IR & financial report PDFs",
       "download-tender-and-application-documents": "Tender & application documents",
@@ -405,6 +449,28 @@
       "merge-pdfs-locally": "Merge PDFs locally"
     },
     ja: {
+      /* NEWCASES-LABELS-BEGIN */
+      "save-entire-website": "サイトを丸ごと保存",
+      "website-to-notebooklm-chatgpt-claude": "サイトをAIに読ませる",
+      "save-all-blog-and-news-articles": "ブログ・ニュースの全記事を保存",
+      "archive-website-before-it-closes": "閉鎖前にサイトを保存",
+      "save-pages-and-files-behind-login": "ログイン後のページと資料を保存",
+      "bulk-download-word-excel-powerpoint": "Word・Excel・PowerPoint を一括保存",
+      "follow-next-page-links-and-collect": "「次へ」をたどって全ページから集める",
+      "save-infinite-scroll-pages": "スクロールで増えるページを保存",
+      "download-multiple-files-as-zip": "複数ファイルを ZIP 1 つで保存",
+      "download-linked-video-and-audio-files": "リンクされた動画・音声ファイルを保存",
+      "save-pages-with-source-url-and-date": "元のURLと日時付きで保存",
+      "download-insurance-policy-documents": "保険の約款・パンフ集め",
+      "collect-law-case-and-patent-pdfs": "法令・判例・特許のPDF",
+      "save-course-materials-and-syllabi": "授業資料・シラバス保存",
+      "collect-real-estate-and-drawing-pdfs": "物件資料・図面のPDF集め",
+      "track-competitor-prices-and-product-pages": "競合の価格表・製品ページ",
+      "what-grab-all-files-can-and-cannot-do": "できること・できないこと",
+      "crawler-vs-page-saver-vs-download-manager": "巡回ソフト・1ページ保存・ダウンロード管理の違い",
+      "bulk-download-extension-for-firefox-and-edge": "Chrome・Edge・Firefox の違い",
+      "grab-all-files-faq": "よくある質問",
+      /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "製品カタログ・仕様資料",
       "download-ir-and-financial-report-pdfs": "IR・決算資料PDF",
       "download-tender-and-application-documents": "入札・公募書類一式",
@@ -429,6 +495,28 @@
       "merge-pdfs-locally": "PDFをローカル結合"
     },
     es: {
+      /* NEWCASES-LABELS-BEGIN */
+      "save-entire-website": "Save an entire website",
+      "website-to-notebooklm-chatgpt-claude": "Give a site to NotebookLM, ChatGPT or Claude",
+      "save-all-blog-and-news-articles": "Save all blog and news articles",
+      "archive-website-before-it-closes": "Archive a site before it closes",
+      "save-pages-and-files-behind-login": "Save pages and files behind a login",
+      "bulk-download-word-excel-powerpoint": "Bulk download Word, Excel, PowerPoint",
+      "follow-next-page-links-and-collect": "Follow “Next” links and collect",
+      "save-infinite-scroll-pages": "Save infinite-scroll pages",
+      "download-multiple-files-as-zip": "Download many files as one ZIP",
+      "download-linked-video-and-audio-files": "Download linked video and audio files",
+      "save-pages-with-source-url-and-date": "Save pages with source URL and date",
+      "download-insurance-policy-documents": "Insurance policy documents",
+      "collect-law-case-and-patent-pdfs": "Law, case and patent PDFs",
+      "save-course-materials-and-syllabi": "Course materials and syllabi",
+      "collect-real-estate-and-drawing-pdfs": "Property and drawing PDFs",
+      "track-competitor-prices-and-product-pages": "Competitor prices and product pages",
+      "what-grab-all-files-can-and-cannot-do": "What it can and cannot do",
+      "crawler-vs-page-saver-vs-download-manager": "Crawler vs page saver vs download manager",
+      "bulk-download-extension-for-firefox-and-edge": "Chrome, Edge and Firefox",
+      "grab-all-files-faq": "Grab All Files FAQ",
+      /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "Catálogos y fichas de producto",
       "download-ir-and-financial-report-pdfs": "PDF de IR y resultados",
       "download-tender-and-application-documents": "Documentos de licitación y convocatoria",
@@ -453,6 +541,28 @@
       "merge-pdfs-locally": "Fusionar PDF localmente"
     },
     fr: {
+      /* NEWCASES-LABELS-BEGIN */
+      "save-entire-website": "Save an entire website",
+      "website-to-notebooklm-chatgpt-claude": "Give a site to NotebookLM, ChatGPT or Claude",
+      "save-all-blog-and-news-articles": "Save all blog and news articles",
+      "archive-website-before-it-closes": "Archive a site before it closes",
+      "save-pages-and-files-behind-login": "Save pages and files behind a login",
+      "bulk-download-word-excel-powerpoint": "Bulk download Word, Excel, PowerPoint",
+      "follow-next-page-links-and-collect": "Follow “Next” links and collect",
+      "save-infinite-scroll-pages": "Save infinite-scroll pages",
+      "download-multiple-files-as-zip": "Download many files as one ZIP",
+      "download-linked-video-and-audio-files": "Download linked video and audio files",
+      "save-pages-with-source-url-and-date": "Save pages with source URL and date",
+      "download-insurance-policy-documents": "Insurance policy documents",
+      "collect-law-case-and-patent-pdfs": "Law, case and patent PDFs",
+      "save-course-materials-and-syllabi": "Course materials and syllabi",
+      "collect-real-estate-and-drawing-pdfs": "Property and drawing PDFs",
+      "track-competitor-prices-and-product-pages": "Competitor prices and product pages",
+      "what-grab-all-files-can-and-cannot-do": "What it can and cannot do",
+      "crawler-vs-page-saver-vs-download-manager": "Crawler vs page saver vs download manager",
+      "bulk-download-extension-for-firefox-and-edge": "Chrome, Edge and Firefox",
+      "grab-all-files-faq": "Grab All Files FAQ",
+      /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "Catalogues et fiches produit",
       "download-ir-and-financial-report-pdfs": "PDF de résultats et rapports IR",
       "download-tender-and-application-documents": "Documents d’appels d’offres",
@@ -477,6 +587,28 @@
       "merge-pdfs-locally": "Fusionner PDF localement"
     },
     de: {
+      /* NEWCASES-LABELS-BEGIN */
+      "save-entire-website": "Save an entire website",
+      "website-to-notebooklm-chatgpt-claude": "Give a site to NotebookLM, ChatGPT or Claude",
+      "save-all-blog-and-news-articles": "Save all blog and news articles",
+      "archive-website-before-it-closes": "Archive a site before it closes",
+      "save-pages-and-files-behind-login": "Save pages and files behind a login",
+      "bulk-download-word-excel-powerpoint": "Bulk download Word, Excel, PowerPoint",
+      "follow-next-page-links-and-collect": "Follow “Next” links and collect",
+      "save-infinite-scroll-pages": "Save infinite-scroll pages",
+      "download-multiple-files-as-zip": "Download many files as one ZIP",
+      "download-linked-video-and-audio-files": "Download linked video and audio files",
+      "save-pages-with-source-url-and-date": "Save pages with source URL and date",
+      "download-insurance-policy-documents": "Insurance policy documents",
+      "collect-law-case-and-patent-pdfs": "Law, case and patent PDFs",
+      "save-course-materials-and-syllabi": "Course materials and syllabi",
+      "collect-real-estate-and-drawing-pdfs": "Property and drawing PDFs",
+      "track-competitor-prices-and-product-pages": "Competitor prices and product pages",
+      "what-grab-all-files-can-and-cannot-do": "What it can and cannot do",
+      "crawler-vs-page-saver-vs-download-manager": "Crawler vs page saver vs download manager",
+      "bulk-download-extension-for-firefox-and-edge": "Chrome, Edge and Firefox",
+      "grab-all-files-faq": "Grab All Files FAQ",
+      /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "Kataloge und Datenblätter",
       "download-ir-and-financial-report-pdfs": "IR- und Finanzbericht-PDFs",
       "download-tender-and-application-documents": "Ausschreibungsunterlagen",
@@ -501,6 +633,28 @@
       "merge-pdfs-locally": "PDFs lokal zusammenführen"
     },
     it: {
+      /* NEWCASES-LABELS-BEGIN */
+      "save-entire-website": "Save an entire website",
+      "website-to-notebooklm-chatgpt-claude": "Give a site to NotebookLM, ChatGPT or Claude",
+      "save-all-blog-and-news-articles": "Save all blog and news articles",
+      "archive-website-before-it-closes": "Archive a site before it closes",
+      "save-pages-and-files-behind-login": "Save pages and files behind a login",
+      "bulk-download-word-excel-powerpoint": "Bulk download Word, Excel, PowerPoint",
+      "follow-next-page-links-and-collect": "Follow “Next” links and collect",
+      "save-infinite-scroll-pages": "Save infinite-scroll pages",
+      "download-multiple-files-as-zip": "Download many files as one ZIP",
+      "download-linked-video-and-audio-files": "Download linked video and audio files",
+      "save-pages-with-source-url-and-date": "Save pages with source URL and date",
+      "download-insurance-policy-documents": "Insurance policy documents",
+      "collect-law-case-and-patent-pdfs": "Law, case and patent PDFs",
+      "save-course-materials-and-syllabi": "Course materials and syllabi",
+      "collect-real-estate-and-drawing-pdfs": "Property and drawing PDFs",
+      "track-competitor-prices-and-product-pages": "Competitor prices and product pages",
+      "what-grab-all-files-can-and-cannot-do": "What it can and cannot do",
+      "crawler-vs-page-saver-vs-download-manager": "Crawler vs page saver vs download manager",
+      "bulk-download-extension-for-firefox-and-edge": "Chrome, Edge and Firefox",
+      "grab-all-files-faq": "Grab All Files FAQ",
+      /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "Cataloghi e schede prodotto",
       "download-ir-and-financial-report-pdfs": "PDF IR e bilanci",
       "download-tender-and-application-documents": "Documenti di bandi e gare",
@@ -525,6 +679,28 @@
       "merge-pdfs-locally": "Unire PDF localmente"
     },
     ko: {
+      /* NEWCASES-LABELS-BEGIN */
+      "save-entire-website": "Save an entire website",
+      "website-to-notebooklm-chatgpt-claude": "Give a site to NotebookLM, ChatGPT or Claude",
+      "save-all-blog-and-news-articles": "Save all blog and news articles",
+      "archive-website-before-it-closes": "Archive a site before it closes",
+      "save-pages-and-files-behind-login": "Save pages and files behind a login",
+      "bulk-download-word-excel-powerpoint": "Bulk download Word, Excel, PowerPoint",
+      "follow-next-page-links-and-collect": "Follow “Next” links and collect",
+      "save-infinite-scroll-pages": "Save infinite-scroll pages",
+      "download-multiple-files-as-zip": "Download many files as one ZIP",
+      "download-linked-video-and-audio-files": "Download linked video and audio files",
+      "save-pages-with-source-url-and-date": "Save pages with source URL and date",
+      "download-insurance-policy-documents": "Insurance policy documents",
+      "collect-law-case-and-patent-pdfs": "Law, case and patent PDFs",
+      "save-course-materials-and-syllabi": "Course materials and syllabi",
+      "collect-real-estate-and-drawing-pdfs": "Property and drawing PDFs",
+      "track-competitor-prices-and-product-pages": "Competitor prices and product pages",
+      "what-grab-all-files-can-and-cannot-do": "What it can and cannot do",
+      "crawler-vs-page-saver-vs-download-manager": "Crawler vs page saver vs download manager",
+      "bulk-download-extension-for-firefox-and-edge": "Chrome, Edge and Firefox",
+      "grab-all-files-faq": "Grab All Files FAQ",
+      /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "제품 카탈로그·데이터시트",
       "download-ir-and-financial-report-pdfs": "IR·실적 보고서 PDF",
       "download-tender-and-application-documents": "입찰·공모 서류",
@@ -549,6 +725,28 @@
       "merge-pdfs-locally": "PDF 로컬 병합"
     },
     pt_BR: {
+      /* NEWCASES-LABELS-BEGIN */
+      "save-entire-website": "Save an entire website",
+      "website-to-notebooklm-chatgpt-claude": "Give a site to NotebookLM, ChatGPT or Claude",
+      "save-all-blog-and-news-articles": "Save all blog and news articles",
+      "archive-website-before-it-closes": "Archive a site before it closes",
+      "save-pages-and-files-behind-login": "Save pages and files behind a login",
+      "bulk-download-word-excel-powerpoint": "Bulk download Word, Excel, PowerPoint",
+      "follow-next-page-links-and-collect": "Follow “Next” links and collect",
+      "save-infinite-scroll-pages": "Save infinite-scroll pages",
+      "download-multiple-files-as-zip": "Download many files as one ZIP",
+      "download-linked-video-and-audio-files": "Download linked video and audio files",
+      "save-pages-with-source-url-and-date": "Save pages with source URL and date",
+      "download-insurance-policy-documents": "Insurance policy documents",
+      "collect-law-case-and-patent-pdfs": "Law, case and patent PDFs",
+      "save-course-materials-and-syllabi": "Course materials and syllabi",
+      "collect-real-estate-and-drawing-pdfs": "Property and drawing PDFs",
+      "track-competitor-prices-and-product-pages": "Competitor prices and product pages",
+      "what-grab-all-files-can-and-cannot-do": "What it can and cannot do",
+      "crawler-vs-page-saver-vs-download-manager": "Crawler vs page saver vs download manager",
+      "bulk-download-extension-for-firefox-and-edge": "Chrome, Edge and Firefox",
+      "grab-all-files-faq": "Grab All Files FAQ",
+      /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "Catálogos e fichas técnicas",
       "download-ir-and-financial-report-pdfs": "PDFs de RI e resultados financeiros",
       "download-tender-and-application-documents": "Documentos de licitação e seleção",
@@ -573,6 +771,28 @@
       "merge-pdfs-locally": "Mesclar PDFs localmente"
     },
     zh_CN: {
+      /* NEWCASES-LABELS-BEGIN */
+      "save-entire-website": "Save an entire website",
+      "website-to-notebooklm-chatgpt-claude": "Give a site to NotebookLM, ChatGPT or Claude",
+      "save-all-blog-and-news-articles": "Save all blog and news articles",
+      "archive-website-before-it-closes": "Archive a site before it closes",
+      "save-pages-and-files-behind-login": "Save pages and files behind a login",
+      "bulk-download-word-excel-powerpoint": "Bulk download Word, Excel, PowerPoint",
+      "follow-next-page-links-and-collect": "Follow “Next” links and collect",
+      "save-infinite-scroll-pages": "Save infinite-scroll pages",
+      "download-multiple-files-as-zip": "Download many files as one ZIP",
+      "download-linked-video-and-audio-files": "Download linked video and audio files",
+      "save-pages-with-source-url-and-date": "Save pages with source URL and date",
+      "download-insurance-policy-documents": "Insurance policy documents",
+      "collect-law-case-and-patent-pdfs": "Law, case and patent PDFs",
+      "save-course-materials-and-syllabi": "Course materials and syllabi",
+      "collect-real-estate-and-drawing-pdfs": "Property and drawing PDFs",
+      "track-competitor-prices-and-product-pages": "Competitor prices and product pages",
+      "what-grab-all-files-can-and-cannot-do": "What it can and cannot do",
+      "crawler-vs-page-saver-vs-download-manager": "Crawler vs page saver vs download manager",
+      "bulk-download-extension-for-firefox-and-edge": "Chrome, Edge and Firefox",
+      "grab-all-files-faq": "Grab All Files FAQ",
+      /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "产品目录与数据表",
       "download-ir-and-financial-report-pdfs": "IR与财务报告PDF",
       "download-tender-and-application-documents": "招标与申请文件",
@@ -597,6 +817,28 @@
       "merge-pdfs-locally": "本地合并PDF"
     },
     zh_TW: {
+      /* NEWCASES-LABELS-BEGIN */
+      "save-entire-website": "Save an entire website",
+      "website-to-notebooklm-chatgpt-claude": "Give a site to NotebookLM, ChatGPT or Claude",
+      "save-all-blog-and-news-articles": "Save all blog and news articles",
+      "archive-website-before-it-closes": "Archive a site before it closes",
+      "save-pages-and-files-behind-login": "Save pages and files behind a login",
+      "bulk-download-word-excel-powerpoint": "Bulk download Word, Excel, PowerPoint",
+      "follow-next-page-links-and-collect": "Follow “Next” links and collect",
+      "save-infinite-scroll-pages": "Save infinite-scroll pages",
+      "download-multiple-files-as-zip": "Download many files as one ZIP",
+      "download-linked-video-and-audio-files": "Download linked video and audio files",
+      "save-pages-with-source-url-and-date": "Save pages with source URL and date",
+      "download-insurance-policy-documents": "Insurance policy documents",
+      "collect-law-case-and-patent-pdfs": "Law, case and patent PDFs",
+      "save-course-materials-and-syllabi": "Course materials and syllabi",
+      "collect-real-estate-and-drawing-pdfs": "Property and drawing PDFs",
+      "track-competitor-prices-and-product-pages": "Competitor prices and product pages",
+      "what-grab-all-files-can-and-cannot-do": "What it can and cannot do",
+      "crawler-vs-page-saver-vs-download-manager": "Crawler vs page saver vs download manager",
+      "bulk-download-extension-for-firefox-and-edge": "Chrome, Edge and Firefox",
+      "grab-all-files-faq": "Grab All Files FAQ",
+      /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "產品型錄與資料表",
       "download-ir-and-financial-report-pdfs": "IR與財務報告PDF",
       "download-tender-and-application-documents": "招標與申請文件",
@@ -623,6 +865,6539 @@
   };
 
   var CASES = {
+    /* NEWCASES-CASES-BEGIN */
+    "save-entire-website": {
+      "path": "save-entire-website.html",
+      "v2": true,
+      "related": [
+        "save-web-pages-with-original-design",
+        "archive-website-before-it-closes",
+        "save-pages-and-files-behind-login",
+        "crawler-vs-page-saver-vs-download-manager",
+        "download-files-from-webpage"
+      ],
+      "copy": {
+        "en": {
+          "title": "Save an entire website for offline browsing | Grab All Files",
+          "desc": "Save a site of dozens to a few hundred pages in your browser, with its look, links and attached PDFs. Works on sign-in and JavaScript pages. Chrome, Edge, Firefox.",
+          "eyebrow": "Whole-site copy",
+          "h1": "Save a whole website, including pages you can only see after signing in.",
+          "lead": "Grab All Files saves pages the way your browser shows them, so it also works on member areas and sites built with JavaScript. It fits sites of a few dozen to a few hundred pages. For thousands of pages, or for keeping a copy up to date, a desktop website copier is the better tool, and this page says so below.",
+          "blocks": [
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "Where it works well",
+                  "items": [
+                    "You must sign in to see the pages: a member site, a supplier portal, a course you are enrolled in.",
+                    "The pages are drawn by JavaScript, so a plain download of the HTML comes back nearly empty.",
+                    "The site has a few dozen to a few hundred pages, and you want to read them offline with the original layout.",
+                    "The pages link to PDFs, Word or Excel files that you want in the same folder."
+                  ]
+                },
+                {
+                  "h": "Where another tool fits better",
+                  "no": true,
+                  "items": [
+                    "Thousands of pages, or a whole domain with no clear starting page.",
+                    "Refreshing the copy every week and downloading only what changed.",
+                    "Video or audio that is streamed rather than linked as a file.",
+                    "Pages you cannot open in your own browser."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "What you choose before saving",
+              "src": "/assets/screenshots/use-case-save-web-pages-with-original-design-en.png",
+              "alt": "Grab All Files, Combine pages into HTML: where to collect from, how far, the page to save, Easy to read or Keep the original look, and the four forms of the saved file.",
+              "cap": "The real panel on the Free plan. Step 4 chooses the look; step 5 chooses one of four forms. Site copy in a folder is the one that rebuilds the site's folders on your computer.",
+              "w": 2560,
+              "hgt": 2662,
+              "webp": "/assets/screenshots/use-case-save-web-pages-with-original-design-en.webp"
+            },
+            {
+              "t": "art",
+              "h": "Four ways the copy can be stored",
+              "p": [
+                "All four are available with “Keep the original look”. On Free you save one page per run in any of them; Pro saves many pages in one run."
+              ],
+              "items": [
+                [
+                  "form-site-folder",
+                  "Site copy in a folder",
+                  "Pages are written into a folder you pick, with the same folder layout as the site. Click the links to browse it offline. Chrome and Edge only.",
+                  160,
+                  64
+                ],
+                [
+                  "form-pages-zip",
+                  "Separate HTML pages (ZIP)",
+                  "One HTML file per page plus index.html, in one ZIP. Links between saved pages open the saved copies.",
+                  160,
+                  64
+                ],
+                [
+                  "form-contents-search",
+                  "HTML with contents and search",
+                  "Every page in one file with a table of contents and a search box. The smallest of the four.",
+                  160,
+                  64
+                ],
+                [
+                  "form-long-page",
+                  "Vertically joined HTML (for printing)",
+                  "Pages joined top to bottom, with a page break between them when printed. Print to PDF from the browser if you need a PDF.",
+                  160,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Steps, with Pro",
+              "num": true,
+              "items": [
+                "Sign in to the site in the same browser if it needs a sign-in, and open the page you want to start from — usually the home page or the table of contents.",
+                "Open Grab All Files and switch to “Combine pages into HTML”. Under how far to collect, choose to look for linked pages, or use a sitemap or a pasted URL list for more control.",
+                "Check the candidate list. Remove pages you do not need and put the rest in the order you want.",
+                "Choose “Keep the original look” and the form “Site copy in a folder” (or a ZIP if you are on Firefox), then pick the destination folder and start.",
+                "If the pages link to PDFs or Office files, they are saved next to the pages: up to 100 per run on Pro, with a button on the result screen for the rest."
+              ]
+            },
+            {
+              "t": "table",
+              "h": "Free and Pro for a whole-site copy",
+              "head": [
+                "",
+                "Free",
+                "Pro ($19.99, one-time)"
+              ],
+              "rows": [
+                [
+                  "Pages per run",
+                  "1, chosen from the candidate list. You can add more pages one at a time to the same folder.",
+                  "As many as you select, in one run. Over 100 pages, it first asks whether to pause every 100 pages."
+                ],
+                [
+                  "Finding the pages",
+                  "The candidate list, “Next” links included",
+                  "The same"
+                ],
+                [
+                  "Linked PDFs and Office files",
+                  "10 per run, then “Save the next 10 files”",
+                  "100 per run, then the same button"
+                ],
+                [
+                  "Forms of the saved file",
+                  "All four",
+                  "All four"
+                ]
+              ]
+            },
+            {
+              "t": "text",
+              "h": "How the saved pages behave",
+              "p": [
+                "Each page keeps its own stylesheets, web fonts and images. Files shared by many pages are stored once. The site's scripts are removed, and the saved pages do not connect to the network when you open them, so tabs, accordions and carousel arrows still work but forms, search boxes that query the server and embedded video players do not.",
+                "Before saving, each page is opened in a tab and scrolled so that lazy-loaded images appear. The time it spends on that follows the “Scroll time” setting (45, 90 or 180 seconds). Ads are left out by default, and the header, menu and footer repeated on every page can be kept on the first page only."
+              ]
+            },
+            {
+              "t": "text",
+              "h": "When the site has thousands of pages",
+              "p": [
+                "Grab All Files works through a browser tab, page by page. That is what lets it save signed-in and JavaScript pages, and it is also why it is slow for very large sites. If you need thousands of pages, or want to re-download only the files that changed since last time, use a desktop website copier. Those programs request pages directly from the server, which is faster for large public sites but cannot see pages that need your sign-in or are built in the browser."
+              ]
+            },
+            {
+              "t": "sample",
+              "h": "A real result to open",
+              "p": [
+                "Three fictional pages on this site saved with “Keep the original look” into one HTML with contents and search, by the released extension."
+              ],
+              "href": "/samples/en/original-combined/",
+              "label": "Open the saved sample"
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "save-web-pages-with-original-design",
+                  "How “Keep the original look” stores fonts, images and frames."
+                ],
+                [
+                  "archive-website-before-it-closes",
+                  "When a site is about to close or be redesigned."
+                ],
+                [
+                  "crawler-vs-page-saver-vs-download-manager",
+                  "Desktop copiers, one-page savers and download managers compared by method."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can I browse the saved copy offline by clicking its links?",
+              "a": "Yes, with “Site copy in a folder” (Chrome and Edge) or “Separate HTML pages (ZIP)”. Links between pages you saved open the saved files. Links to pages you did not save still point to the live site."
+            },
+            {
+              "q": "Does it work on pages that need a sign-in?",
+              "a": "Yes, if you can open them in the same browser. It uses your existing sign-in and does not store or send your password. If the session expires during a long run, it pauses; sign in again and press Resume."
+            },
+            {
+              "q": "How many pages can I save for free?",
+              "a": "One page per run. You can keep adding pages one at a time to the same saved copy. Pro saves all the pages you select in one run."
+            },
+            {
+              "q": "Will it copy the site exactly?",
+              "a": "It saves what the browser displays, with the site's styles and images. Server-side features such as search, forms and logins do not work in the copy, and streamed video is not saved."
+            },
+            {
+              "q": "Are the pages sent anywhere?",
+              "a": "No. Pages are read and saved on your computer. Only the license check, and usage statistics if you turn them on, reach the developer's server."
+            }
+          ]
+        },
+        "ja": {
+          "title": "サイトを丸ごと保存してオフラインで見る | Grab All Files",
+          "desc": "数十〜数百ページのサイトを、見た目・リンク・添付PDFごとブラウザーで保存。ログインが要るページやJavaScriptで作られたページにも対応。Chrome・Edge・Firefox。",
+          "eyebrow": "サイトの丸ごと保存",
+          "h1": "ログインしないと見られないページも含めて、サイトを丸ごと保存する。",
+          "lead": "Grab All Files は、ブラウザーに表示されたとおりにページを保存します。そのため、会員サイトや JavaScript で作られたサイトでも使えます。向いているのは数十〜数百ページの規模です。何千ページもあるサイトや、定期的に差分だけ取り直したい場合は、パソコン用のサイト巡回ソフトのほうが向いています（下で説明します）。",
+          "blocks": [
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "向いている場面",
+                  "items": [
+                    "見るのにログインが要る。会員サイト、取引先のポータル、受講中の講座など。",
+                    "ページが JavaScript で描かれていて、HTML をそのまま取ってもほとんど空になる。",
+                    "数十〜数百ページのサイトを、元のレイアウトのままオフラインで読みたい。",
+                    "ページからリンクされた PDF・Word・Excel も同じフォルダにまとめたい。"
+                  ]
+                },
+                {
+                  "h": "ほかの道具のほうが向く場面",
+                  "no": true,
+                  "items": [
+                    "何千ページもある、または起点のページがはっきりしないドメイン全体。",
+                    "毎週取り直して、変わったところだけダウンロードしたい。",
+                    "ファイルとしてではなく、配信（ストリーミング）で再生される動画や音声。",
+                    "自分のブラウザーで開けないページ。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "保存の前に選ぶこと",
+              "src": "/assets/screenshots/use-case-save-web-pages-with-original-design-ja.png",
+              "alt": "Grab All Files の「ページをHTMLにまとめる」の画面。どこから集めるか、どこまで集めるか、保存するページ、読みやすく整える／元の見た目のまま、保存の形の4つ。",
+              "cap": "無料プランの実際の画面です。④で見た目を、⑤で4つの保存の形から1つを選びます。パソコンの中にサイトのフォルダの形を作り直すのは「サイトの形でフォルダに保存」です。",
+              "w": 2560,
+              "hgt": 2662,
+              "webp": "/assets/screenshots/use-case-save-web-pages-with-original-design-ja.webp"
+            },
+            {
+              "t": "art",
+              "h": "保存の形は4つ",
+              "p": [
+                "4つとも「元の見た目のまま」で使えます。無料プランは1回1ページを、どの形でも保存できます。Pro は複数のページを1回で保存します。"
+              ],
+              "items": [
+                [
+                  "form-site-folder",
+                  "サイトの形でフォルダに保存",
+                  "選んだフォルダに、元のサイトと同じフォルダの形で書き込みます。リンクをクリックしてオフラインで見て回れます。Chrome・Edge のみ。",
+                  160,
+                  64
+                ],
+                [
+                  "form-pages-zip",
+                  "ページ別HTML（ZIP）",
+                  "1ページ1つの HTML と目次（index.html）を1つの ZIP に。保存したページ同士のリンクは保存したファイルを開きます。",
+                  160,
+                  64
+                ],
+                [
+                  "form-contents-search",
+                  "目次・検索付きHTML",
+                  "全ページを1ファイルにまとめ、目次と検索欄を付けます。4つの中でいちばん小さくなります。",
+                  160,
+                  64
+                ],
+                [
+                  "form-long-page",
+                  "縦につないだHTML（印刷向け）",
+                  "ページを上から順につなぎ、印刷時はページごとに改ページします。PDF が要るときはブラウザーの印刷から作ります。",
+                  160,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "手順（Pro の場合）",
+              "num": true,
+              "items": [
+                "ログインが要るサイトなら、同じブラウザーでログインしておきます。起点にするページ（たいていはトップページか目次のページ）を開きます。",
+                "Grab All Files を開き、「ページをHTMLにまとめる」に切り替えます。どこまで集めるかで「リンク先のページも探す」を選びます。細かく決めたいときは、サイトマップや貼り付けた URL の一覧も使えます。",
+                "候補の一覧を確かめ、要らないページを外し、残りを読みたい順に並べます。",
+                "見た目で「元の見た目のまま」、保存の形で「サイトの形でフォルダに保存」（Firefox なら ZIP）を選び、保存先のフォルダを決めて始めます。",
+                "ページから PDF や Office 文書にリンクしていれば、ページと並べて保存されます。Pro は1回100件まで。残りは結果画面のボタンで続けます。"
+              ]
+            },
+            {
+              "t": "table",
+              "h": "丸ごと保存での無料プランと Pro",
+              "head": [
+                "",
+                "無料プラン",
+                "Pro（$19.99・買い切り）"
+              ],
+              "rows": [
+                [
+                  "1回に保存するページ",
+                  "候補から選んだ1ページ。同じフォルダに1ページずつ足していけます。",
+                  "選んだページを全部、1回で。100ページを超えるときは、100ページごとに一時停止するかを最初に聞きます。"
+                ],
+                [
+                  "ページの見つけ方",
+                  "候補の一覧（「次へ」のリンクもたどる）",
+                  "同じ"
+                ],
+                [
+                  "リンク先の PDF・Office 文書",
+                  "1回10件。続きは結果画面のボタンで10件ずつ",
+                  "1回100件。続きは同じボタンで"
+                ],
+                [
+                  "保存の形",
+                  "4つとも",
+                  "4つとも"
+                ]
+              ]
+            },
+            {
+              "t": "text",
+              "h": "保存したページの動き方",
+              "p": [
+                "各ページは、そのページのスタイルシート・Web フォント・画像を持ったまま保存されます。複数のページで共通のファイルは1回だけ保存します。サイトのスクリプトは外し、保存したページは開いてもネットワークにつなぎません。タブ・アコーディオン・カルーセルの矢印は動きますが、送信フォーム、サーバーに問い合わせる検索欄、埋め込みの動画プレーヤーは動きません。",
+                "保存の前に、各ページをタブで開いてスクロールし、遅延読み込みの画像を出します。そのためにかける時間は「読み込み時間」の設定（45秒・90秒・180秒）に従います。広告は既定で外します。毎ページ同じヘッダー・メニュー・フッターは、最初のページだけに残すこともできます。"
+              ]
+            },
+            {
+              "t": "text",
+              "h": "何千ページもあるサイトのとき",
+              "p": [
+                "Grab All Files はブラウザーのタブを使って1ページずつ処理します。ログイン後のページや JavaScript のページを保存できるのはこのためで、とても大きなサイトで時間がかかるのも同じ理由です。何千ページも必要なときや、前回から変わったファイルだけを取り直したいときは、パソコン用のサイト巡回ソフト（ウェブサイトコピーツール）を使ってください。サーバーから直接ページを取るので大きな公開サイトでは速い一方、ログインが要るページやブラウザーの中で作られるページは見えません。"
+              ]
+            },
+            {
+              "t": "sample",
+              "h": "実際の保存結果を開く",
+              "p": [
+                "このサイトに置いた架空の3ページを、公開中の拡張機能で「元の見た目のまま」の目次・検索付きHTMLにまとめたものです。"
+              ],
+              "href": "/samples/ja/original-combined/",
+              "label": "保存したサンプルを開く"
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "save-web-pages-with-original-design",
+                  "「元の見た目のまま」がフォント・画像・枠をどう保存するか。"
+                ],
+                [
+                  "archive-website-before-it-closes",
+                  "サイトが閉鎖・リニューアルされる前に残すとき。"
+                ],
+                [
+                  "crawler-vs-page-saver-vs-download-manager",
+                  "巡回ソフト・1ページ保存・ダウンロード管理ソフトを方式で比べる。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "保存したコピーは、リンクをクリックしてオフラインで見て回れますか？",
+              "a": "はい。「サイトの形でフォルダに保存」（Chrome・Edge）か「ページ別HTML（ZIP）」で保存した場合、保存したページ同士のリンクは保存したファイルを開きます。保存していないページへのリンクは、元のサイトを指したままです。"
+            },
+            {
+              "q": "ログインが必要なページでも使えますか？",
+              "a": "同じブラウザーで開けるページなら使えます。今のログイン状態をそのまま使い、パスワードを保存したり送ったりはしません。長い処理の途中でログインが切れたら一時停止するので、ログインし直して「再開」を押します。"
+            },
+            {
+              "q": "無料で何ページ保存できますか？",
+              "a": "1回1ページです。同じ保存先に1ページずつ足していくことはできます。Pro は選んだページを1回で全部保存します。"
+            },
+            {
+              "q": "サイトをそっくりそのまま複製できますか？",
+              "a": "ブラウザーに表示された内容を、サイトのスタイルと画像ごと保存します。検索・フォーム・ログインなどサーバー側の機能はコピーでは動かず、配信される動画は保存しません。"
+            },
+            {
+              "q": "ページはどこかに送られますか？",
+              "a": "送られません。ページの読み取りと保存はパソコンの中で行います。開発者のサーバーに届くのは、ライセンスの確認と、オンにした場合の利用統計だけです。"
+            }
+          ]
+        }
+      }
+    },
+    "website-to-notebooklm-chatgpt-claude": {
+      "path": "website-to-notebooklm-chatgpt-claude.html",
+      "v2": true,
+      "related": [
+        "web-pages-for-reading-and-ai-analysis",
+        "save-web-pages-as-markdown",
+        "save-pages-with-source-url-and-date",
+        "save-entire-website",
+        "combine-web-pages-into-one-html",
+        "collect-and-analyze-web-comments"
+      ],
+      "copy": {
+        "en": {
+          "title": "Prepare a website for NotebookLM, ChatGPT or Claude | Grab All Files",
+          "desc": "Turn a site's pages into Markdown with source_url and captured_at on every page, then upload the files to NotebookLM, ChatGPT or Claude yourself. Nothing is sent for you.",
+          "eyebrow": "Website to AI",
+          "h1": "Turn a website into files you can hand to NotebookLM, ChatGPT or Claude.",
+          "lead": "Grab All Files collects the pages of a site and writes AI-ready files: Markdown, JSONL and a manifest, with the source URL and capture time kept for each page. You choose the AI service and upload the files yourself. The extension has no link to those services and sends nothing to them.",
+          "blocks": [
+            {
+              "t": "text",
+              "h": "Where the extension stops and you start",
+              "p": [
+                "The extension reads the pages in your browser, converts them on your computer, and saves the files. That is all it does. It does not log in to an AI service, upload anything, or ask a question for you.",
+                "You open the AI service you prefer, add the files as sources or attachments, and ask your question there. Which file types and sizes that service accepts, and how it treats uploaded files, are set by the service. Read its current limits and privacy settings before you upload pages from a members-only site."
+              ]
+            },
+            {
+              "t": "list",
+              "h": "The route, in five steps",
+              "num": true,
+              "items": [
+                "Open the top page of the site, or the index page of the section you care about. If the pages need a sign-in, sign in first in the same browser.",
+                "Open Grab All Files, switch to “Combine pages into HTML”, and choose where to collect from: the page’s links, a sitemap, the same path, or a pasted list of URLs. Check the candidate list and remove pages you do not want read.",
+                "In the output settings, open “AI analysis data (Markdown with sources)” and choose the output format. “Main content (default)” keeps the article text and leaves out menus and ads.",
+                "Run the collection. When it finishes, press “Save AI analysis ZIP” or “Save as one Markdown file”. “Copy AI request text” copies a ready-made request you can paste into the chat.",
+                "Open NotebookLM, ChatGPT, Claude or another service yourself, add the files, and paste the request. When you read an answer, check it against the source_url and captured_at of the page it came from."
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "The AI output settings",
+              "p": [
+                "This is where the output format, the text to extract and the splitting are chosen."
+              ],
+              "src": "/assets/screenshots/use-case-save-web-pages-as-markdown-en.png",
+              "alt": "Grab All Files, Combine pages into HTML, output settings: AI analysis data with four formats (none, one Markdown file, per-page Markdown, full package), the extraction target, a splitting setting with a target size of 25 MB, and four checkboxes.",
+              "cap": "The real panel on the Free plan. Under “AI analysis data (Markdown with sources)” you pick the format; below it, the splitting method and the target size per file, set here to 25 MB.",
+              "w": 2560,
+              "hgt": 2800,
+              "webp": "/assets/screenshots/use-case-save-web-pages-as-markdown-en.webp"
+            },
+            {
+              "t": "table",
+              "h": "What each output gives you",
+              "head": [
+                "Output",
+                "What is in it",
+                "Pick it when"
+              ],
+              "rows": [
+                [
+                  "One Markdown file",
+                  "All pages combined into a single .md, with the source of each page",
+                  "The site is small enough to add as one source"
+                ],
+                [
+                  "Per-page Markdown",
+                  "One .md per page plus manifest.json, bundled as a ZIP",
+                  "You want to choose which pages to give, or the service takes many files"
+                ],
+                [
+                  "Full package",
+                  "corpus.md, chunks.jsonl (split by heading), manifest.json, the AI request text and the readable HTML, in one ZIP",
+                  "You want everything, including a file list for checking"
+                ],
+                [
+                  "Tables as CSV/JSON (option)",
+                  "The tables on the pages, written as separate CSV and JSON files",
+                  "The numbers matter more than the prose around them"
+                ]
+              ],
+              "after": [
+                "Every page in the Markdown carries source_url and captured_at. chunks.jsonl and manifest.json carry them too, so a passage can be traced back to its page and the time it was saved."
+              ]
+            },
+            {
+              "t": "text",
+              "h": "What the 25 MB setting means",
+              "p": [
+                "The default of 25 MB is a target for splitting the Markdown text into files. It is not a cap on the whole ZIP, and it does not promise that a service will accept a file of that size. The ZIP also holds the manifest, the request text and, in the full package, the readable HTML.",
+                "If the service you use takes smaller files, lower the target under “By file size”. If it limits how many files you can add, raise the target, or choose one Markdown file. The right number comes from the service’s own limits, which can change."
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "One file is enough when",
+                  "items": [
+                    "The site is a few dozen pages and the Markdown stays well under the service’s size limit.",
+                    "You want to ask questions across the whole site and keep one source to manage.",
+                    "You do not need to leave individual pages out later."
+                  ]
+                },
+                {
+                  "h": "Split by page or by size when",
+                  "items": [
+                    "The text is larger than the service accepts in one file.",
+                    "You want to add only some sections, or replace one page after the site changes.",
+                    "You want a file per page so that an answer points to a single source file."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "web-pages-for-reading-and-ai-analysis",
+                  "The wider workflow: linked PDFs and Office files, the request text, and checking answers."
+                ],
+                [
+                  "save-web-pages-as-markdown",
+                  "Markdown for note-taking tools and a personal knowledge base."
+                ],
+                [
+                  "save-all-blog-and-news-articles",
+                  "Collecting every article of a blog or news section first."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Does Grab All Files send my pages to NotebookLM, ChatGPT or Claude?",
+              "a": "No. It saves files on your computer. You upload them to the AI service yourself, and that service’s own rules then apply to the files."
+            },
+            {
+              "q": "Should I use one Markdown file or one file per page?",
+              "a": "Use one file for a small site you want to question as a whole. Use per-page files, or a smaller size target, when the text exceeds the service’s file limit or you want to add and replace pages separately."
+            },
+            {
+              "q": "What does the 25 MB default mean?",
+              "a": "It is the target size for splitting the Markdown text. It is not a size limit for the ZIP, and it does not guarantee that a service accepts the file."
+            },
+            {
+              "q": "How can I tell which page an AI answer came from?",
+              "a": "Each page in the Markdown has source_url and captured_at, and chunks.jsonl and manifest.json carry them too. Look up the page and compare the answer with the original."
+            },
+            {
+              "q": "Can it read pages that need a sign-in?",
+              "a": "Yes, if you are signed in to the site in the same browser. It uses that session and does not collect your password. The output contains what the browser showed, so think about who will see the files before you upload them."
+            }
+          ]
+        },
+        "ja": {
+          "title": "サイトをNotebookLM・ChatGPT・Claudeに読ませる準備 | Grab All Files",
+          "desc": "サイトのページを、各ページに source_url と captured_at が付いた Markdown にして保存。NotebookLM・ChatGPT・Claude へは自分で渡します。自動では送りません。",
+          "eyebrow": "サイトをAIへ",
+          "h1": "サイトを、NotebookLM・ChatGPT・Claude に渡せるファイルにする。",
+          "lead": "Grab All Files は、サイトのページを集めて、AI に渡しやすい Markdown・JSONL・manifest にします。ページごとの元の URL と取得日時も残ります。どの AI サービスに渡すかを決め、ファイルを渡すのは利用者です。拡張機能はそれらのサービスとはつながっておらず、何も送りません。",
+          "blocks": [
+            {
+              "t": "text",
+              "h": "拡張機能がやることと、自分でやること",
+              "p": [
+                "拡張機能は、ブラウザーでページを読み、パソコンの中で変換して、ファイルを保存します。ここまでです。AI サービスにログインしたり、ファイルをアップロードしたり、代わりに質問したりはしません。",
+                "使いたい AI サービスを自分で開き、ファイルをソースや添付として追加して、質問もそちらで行います。受け付けるファイルの種類や大きさ、アップロードしたファイルの扱いは、サービス側で決まっています。会員限定サイトのページを渡す前に、サービスの最新の上限とプライバシー設定を確かめてください。"
+              ]
+            },
+            {
+              "t": "list",
+              "h": "流れは5つの手順",
+              "num": true,
+              "items": [
+                "サイトのトップページか、読ませたい範囲の目次ページを開きます。ログインが要るサイトなら、先に同じブラウザーでログインします。",
+                "Grab All Files を開いて「ページをHTMLにまとめる」に切り替え、どこから集めるかを選びます。ページのリンク・サイトマップ・同じパス配下・貼り付けた URL の一覧が使えます。候補の一覧を見て、読ませたくないページを外します。",
+                "出力設定で「AI分析用データ（Markdown・出典付き）」を開き、出力する形式を選びます。「主要本文（既定）」は、記事の本文を残してメニューや広告を除きます。",
+                "収集を実行し、終わったら「AI分析用ZIPを保存」か「1つのMarkdownを保存」を押します。「AIへの依頼文をコピー」を押すと、チャットに貼れる依頼文がコピーされます。",
+                "NotebookLM・ChatGPT・Claude などを自分で開き、ファイルを追加して依頼文を貼ります。回答を読むときは、元になったページの source_url と captured_at で原文を確かめます。"
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "AI 用の出力設定",
+              "p": [
+                "出力する形式、抽出する本文、分割の方法は、この画面で選びます。"
+              ],
+              "src": "/assets/screenshots/use-case-save-web-pages-as-markdown-ja.png",
+              "alt": "Grab All Files の「ページをHTMLにまとめる」の出力設定。AI分析用データの4つの形式（出力しない・1つのMarkdown・ページ別Markdown・フルパッケージ）、抽出対象、目標サイズ25MBの分割設定、4つのチェック項目。",
+              "cap": "無料プランの実際の画面です。「AI分析用データ（Markdown・出典付き）」で形式を選び、その下で分割方法と1ファイルの目標サイズ（ここでは25MB）を決めます。",
+              "w": 2560,
+              "hgt": 2800,
+              "webp": "/assets/screenshots/use-case-save-web-pages-as-markdown-ja.webp"
+            },
+            {
+              "t": "table",
+              "h": "形式ごとに入るもの",
+              "head": [
+                "形式",
+                "入っているもの",
+                "選ぶ場面"
+              ],
+              "rows": [
+                [
+                  "1つのMarkdown",
+                  "全ページをページごとの出典付きで1つの .md にまとめたもの",
+                  "1つのソースとして渡せる程度の小さなサイト"
+                ],
+                [
+                  "ページ別Markdown",
+                  "ページごとの .md と manifest.json を ZIP にまとめたもの",
+                  "渡すページを選びたい。サービスが多くのファイルを受け付ける"
+                ],
+                [
+                  "フルパッケージ",
+                  "corpus.md・chunks.jsonl（見出しごとに分割）・manifest.json・依頼文・閲覧用 HTML を1つの ZIP に",
+                  "確認用のファイル一覧も含めて、すべて手元に置きたい"
+                ],
+                [
+                  "表を CSV/JSON で（任意）",
+                  "ページ内の表を、別の CSV・JSON ファイルとして書き出したもの",
+                  "周りの文章より数字が大事"
+                ]
+              ],
+              "after": [
+                "Markdown の各ページには source_url と captured_at が入ります。chunks.jsonl と manifest.json にも入るので、ある一節を、元のページと保存した時刻までさかのぼれます。"
+              ]
+            },
+            {
+              "t": "text",
+              "h": "25MB の設定の意味",
+              "p": [
+                "既定の25MBは、Markdown の本文をファイルに分ける目安です。ZIP 全体の上限ではなく、サービスがそのサイズのファイルを受け付けるという保証でもありません。ZIP には、manifest・依頼文のほか、フルパッケージなら閲覧用 HTML も入ります。",
+                "使うサービスが小さいファイルしか受け付けないなら、「ファイルサイズを指定」の目標を下げます。ファイルの数に上限があるなら、目標を上げるか、1つの Markdown にします。適切な数字はサービス側の上限で決まり、その上限は変わることがあります。"
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "1ファイルで足りる場面",
+                  "items": [
+                    "数十ページ程度で、Markdown がサービスの上限に十分収まる。",
+                    "サイト全体を通して質問したい。管理するソースは1つにしたい。",
+                    "あとから特定のページだけを外す必要がない。"
+                  ]
+                },
+                {
+                  "h": "ページ別・サイズ別に分ける場面",
+                  "items": [
+                    "本文がサービスの1ファイルの上限を超える。",
+                    "一部の章だけを渡したい。サイトが変わったときに1ページだけ差し替えたい。",
+                    "回答が指す元のファイルを、1ページ1ファイルで特定したい。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "web-pages-for-reading-and-ai-analysis",
+                  "リンク先の PDF・Office 文書、依頼文、回答の確かめ方まで含む、全体の流れ。"
+                ],
+                [
+                  "save-web-pages-as-markdown",
+                  "ノートツールや個人の資料庫に入れる Markdown。"
+                ],
+                [
+                  "save-all-blog-and-news-articles",
+                  "先にブログやニュースの全記事を集めたいとき。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Grab All Files はページを NotebookLM・ChatGPT・Claude に送りますか？",
+              "a": "送りません。ファイルをパソコンに保存するだけです。AI サービスへは自分でアップロードします。そのあとのファイルの扱いは、サービス側の規約に従います。"
+            },
+            {
+              "q": "1つの Markdown とページ別のファイルは、どちらがよいですか？",
+              "a": "小さなサイトを丸ごと質問するなら1つのファイルです。本文がサービスの上限を超えるときや、ページを分けて追加・差し替えたいときは、ページ別にするか、目標サイズを小さくします。"
+            },
+            {
+              "q": "既定の25MBは何の大きさですか？",
+              "a": "Markdown の本文を分けるときの目標サイズです。ZIP 全体の上限ではなく、サービスが受け付けることを保証する数字でもありません。"
+            },
+            {
+              "q": "AI の回答が、どのページから来たのかをどう確かめますか？",
+              "a": "Markdown の各ページに source_url と captured_at があり、chunks.jsonl と manifest.json にも入っています。そのページを開いて、回答を原文と見比べます。"
+            },
+            {
+              "q": "ログインが必要なページも読ませられますか？",
+              "a": "同じブラウザーでログインしていれば、集められます。そのログイン状態を使い、パスワードは集めません。出力にはブラウザーに表示された内容が入るので、アップロードの前に、そのファイルを誰が見られるかを考えてください。"
+            }
+          ]
+        }
+      }
+    },
+    "save-all-blog-and-news-articles": {
+      "path": "save-all-blog-and-news-articles.html",
+      "v2": true,
+      "related": [
+        "combine-web-pages-into-one-html",
+        "save-web-pages-as-markdown",
+        "follow-next-page-links-and-collect",
+        "save-infinite-scroll-pages",
+        "website-to-notebooklm-chatgpt-claude",
+        "crawler-vs-page-saver-vs-download-manager"
+      ],
+      "copy": {
+        "en": {
+          "title": "Save all articles of a blog or news site | Grab All Files",
+          "desc": "Find every article of a blog or news section by sitemap, same path or Next links, then save them as a searchable HTML, a printable HTML or Markdown. Free: one article per run.",
+          "eyebrow": "Blogs and news archives",
+          "h1": "Save every article of a blog or news section in one file.",
+          "lead": "A blog or a news section is a long list of articles with a “Next” link at the bottom. Grab All Files finds the articles, lets you drop the ones you do not want, and saves them as one HTML with contents and search, one long printable HTML, or Markdown. On the Free plan you save one article per run; Pro saves the whole selection at once.",
+          "blocks": [
+            {
+              "t": "cards",
+              "h": "Three ways to find the articles",
+              "p": [
+                "The candidate list is built from what you point it at. You can also pick “This page’s links” or paste a list of URLs."
+              ],
+              "items": [
+                [
+                  "Sitemap",
+                  "If the site publishes a sitemap, every listed URL becomes a candidate. Looking at the candidate count is a quick way to see how many articles the site lists."
+                ],
+                [
+                  "Same path",
+                  "Start from the blog’s list page and collect the pages under the same path, such as everything below the blog folder. It leaves out the rest of the site."
+                ],
+                [
+                  "“Next” links on the list pages",
+                  "Links marked next, “Next”, “Older” and similar are recognised. The list is followed page by page to find the candidates. Up to 100,000 candidates are found."
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "The candidate list",
+              "p": [
+                "Candidates appear with their title and address, and two boxes narrow them down."
+              ],
+              "src": "/assets/screenshots/collector-en.jpg",
+              "alt": "Grab All Files, Combine pages into HTML, Free plan: where to collect from, the depth of links, a list of 29 candidate pages with a filter box and an exclude box, and the choice of look and form.",
+              "cap": "The real panel on the Free plan, saving one page from 29 candidates. The boxes above the list filter or exclude by title or address, which is how you drop tag, category and author pages from a blog.",
+              "w": 1600,
+              "hgt": 1429,
+              "webp": "/assets/screenshots/collector-en.webp"
+            },
+            {
+              "t": "table",
+              "h": "Choosing the form of the saved file",
+              "head": [
+                "Form",
+                "What you get",
+                "Good for"
+              ],
+              "rows": [
+                [
+                  "HTML with contents and search",
+                  "All articles in one HTML file, with a table of contents and a search box",
+                  "Reading on screen and finding a phrase across hundreds of articles. The smallest of the forms."
+                ],
+                [
+                  "Vertically joined HTML (for printing)",
+                  "Articles joined top to bottom, with a page break between them when printed",
+                  "Printing, or a PDF: use the browser’s print dialog and save as PDF. Grab All Files does not create the PDF itself."
+                ],
+                [
+                  "Markdown",
+                  "One Markdown file, or one per article, with source_url and captured_at on each page",
+                  "Notes, a personal archive, or giving the text to an AI service you choose. See the Markdown guide below."
+                ]
+              ],
+              "after": [
+                "For articles, “Easy to read” is usually the right look: it is faster and the file is lighter. “Keep the original look” keeps each article’s layout, fonts and images, at the price of a longer run and a bigger file."
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "On the Free plan",
+                  "items": [
+                    "The candidate list can be built in full, “Next” links included.",
+                    "You save one article per run, chosen from the list.",
+                    "You can add the next article to the HTML you saved last time, one at a time."
+                  ]
+                },
+                {
+                  "h": "With Pro ($19.99, one-time)",
+                  "items": [
+                    "Select many candidates, reorder them, and save them in one run.",
+                    "Follow “Next” links and save all the continuing pages in one run.",
+                    "Over 100 pages, it asks before starting whether to pause every 100 pages."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Steps for a whole blog",
+              "num": true,
+              "items": [
+                "Open the blog’s list page, the one that shows the newest articles, not an individual article. Sign in first if the site needs it.",
+                "Open Grab All Files and switch to “Combine pages into HTML”. Under where to collect from, choose the sitemap, “Same path” or the page’s links.",
+                "Wait for the candidate list. Use the filter and exclude boxes to drop pages that are not articles: tag pages, category pages, author pages, the about page.",
+                "With Pro, select the articles and put them in the order you want. Newest first is not guaranteed, so check the order.",
+                "Choose the look and the form, then save. Open the saved file and check the first and last articles, the count, and a search for a phrase you know is in the middle."
+              ]
+            },
+            {
+              "t": "text",
+              "h": "When this is the wrong tool",
+              "p": [
+                "Grab All Files opens articles through the browser, so a run over several thousand articles takes a long time and produces a very large file. For a news archive of that size, a desktop website copier that requests pages directly from the server is the better choice, though it cannot see pages that need your sign-in.",
+                "A list that loads more items as you scroll, instead of using “Next” links, is a different case. Read the guide on infinite scroll before you start."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "combine-web-pages-into-one-html",
+                  "How the candidate list, the looks and the four forms work."
+                ],
+                [
+                  "save-web-pages-as-markdown",
+                  "Markdown output with the source of each page."
+                ],
+                [
+                  "save-infinite-scroll-pages",
+                  "Lists that grow as you scroll instead of paging."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How do I save every post of a blog at once?",
+              "a": "Open the blog’s list page, choose the sitemap, “Same path” or the page’s links, drop the non-article pages from the candidate list, and save with Pro in one run. On the Free plan you save one article per run and add the rest one at a time."
+            },
+            {
+              "q": "Does it follow “Next” and “Older posts” links?",
+              "a": "Yes. Links such as next, “Next” and “Older” are recognised and followed to find candidates. With Pro it can also save all the continuing pages in one run."
+            },
+            {
+              "q": "Can I get a PDF of all the articles?",
+              "a": "Save as “Vertically joined HTML (for printing)”, open it in the browser and use the print dialog to save as PDF. Each article starts on a new page when printed."
+            },
+            {
+              "q": "How can I search across all the saved articles?",
+              "a": "Save as “HTML with contents and search”. The one HTML file has a table of contents and a search box that works offline in the browser."
+            },
+            {
+              "q": "Will it include comments?",
+              "a": "Comment sections are a separate task. See the guide on saving and analysing comments; this page covers the articles themselves."
+            }
+          ]
+        },
+        "ja": {
+          "title": "ブログ・ニュースサイトの全記事をまとめて保存 | Grab All Files",
+          "desc": "ブログやニュースの全記事を、サイトマップ・同じパス・「次へ」から見つけ、目次・検索付きHTML・印刷用HTML・Markdownで保存。無料は1記事ずつ。",
+          "eyebrow": "ブログ・ニュースの全記事",
+          "h1": "ブログやニュースの全記事を、1つのファイルにまとめて保存する。",
+          "lead": "ブログやニュースの一覧は、記事が並び、いちばん下に「次へ」があります。Grab All Files は記事を見つけ、要らないものを外して、目次・検索付きの1つの HTML、縦に長い印刷用の HTML、Markdown のどれかで保存します。無料プランは1回1記事、Pro は選んだ記事をまとめて保存します。",
+          "blocks": [
+            {
+              "t": "cards",
+              "h": "記事の見つけ方は3つ",
+              "p": [
+                "候補の一覧は、指定したものから作られます。ほかに「このページのリンクをたどる」と「URLを貼り付ける」も選べます。"
+              ],
+              "items": [
+                [
+                  "サイトマップ",
+                  "サイトがサイトマップを公開していれば、載っている URL がすべて候補になります。候補の件数を見れば、サイトが記事を何本載せているかをすぐ知れます。"
+                ],
+                [
+                  "同じパス配下",
+                  "ブログの一覧ページから始め、同じパスの下にあるページを集めます。ブログのフォルダの下だけ、のような指定で、サイトのほかの部分は入りません。"
+                ],
+                [
+                  "一覧の「次へ」",
+                  "rel=next や「次へ」「next」「older」などのリンクを見つけます。一覧を1ページずつたどって候補を探します。候補は最大 100,000 件です。"
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "候補の一覧",
+              "p": [
+                "候補はタイトルとアドレスと一緒に並び、2つの入力欄で絞り込めます。"
+              ],
+              "src": "/assets/screenshots/collector-ja.jpg",
+              "alt": "Grab All Files の「ページをHTMLにまとめる」、無料プランの画面。どこから集めるか、リンクをたどる深さ、29件の候補ページの一覧と絞り込み・除外の入力欄、見た目と保存の形の選択。",
+              "cap": "無料プランの実際の画面です。29件の候補から1ページを選んで保存します。一覧の上の2つの欄はタイトルや URL で絞り込み・除外するもので、ブログのタグ・カテゴリ・著者のページを外すのに使います。",
+              "w": 1600,
+              "hgt": 1429,
+              "webp": "/assets/screenshots/collector-ja.webp"
+            },
+            {
+              "t": "table",
+              "h": "保存するファイルの形を選ぶ",
+              "head": [
+                "形",
+                "できるもの",
+                "向く場面"
+              ],
+              "rows": [
+                [
+                  "目次・検索付きHTML",
+                  "全記事を1つの HTML にまとめ、目次と検索欄を付けたもの",
+                  "画面で読む。数百本の記事から語句を探す。4つの形で最も小さい。"
+                ],
+                [
+                  "縦につないだHTML（印刷向け）",
+                  "記事を上から順につなぎ、印刷時は記事ごとに改ページするもの",
+                  "印刷や PDF。ブラウザーの印刷で「PDF に保存」を選びます。PDF そのものを Grab All Files が作るわけではありません。"
+                ],
+                [
+                  "Markdown",
+                  "1つの Markdown か記事ごとの Markdown。各ページに source_url と captured_at が入る",
+                  "ノート、個人の資料庫、自分で選んだ AI サービスに渡すテキスト。下の Markdown のガイドを参照。"
+                ]
+              ],
+              "after": [
+                "記事なら、見た目は「読みやすく整える」が合うことが多いです。速く、ファイルも軽くなります。「元の見た目のまま」は記事ごとのレイアウト・フォント・画像を残しますが、時間がかかり、ファイルも大きくなります。"
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "無料プランでは",
+                  "items": [
+                    "候補の一覧は、「次へ」をたどる分も含めて最後まで作れます。",
+                    "保存は1回1記事。一覧から選びます。",
+                    "前回保存した HTML に、次の記事を1つずつ足していけます。"
+                  ]
+                },
+                {
+                  "h": "Pro（$19.99・買い切り）では",
+                  "items": [
+                    "多くの候補を選んで並べ替え、1回でまとめて保存できます。",
+                    "「次へ」をたどって、続きのページを全部1回で保存できます。",
+                    "100ページを超えるときは、100ページごとに一時停止するかを開始前に聞きます。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "list",
+              "h": "ブログ全体を保存する手順",
+              "num": true,
+              "items": [
+                "ブログの一覧ページ（新しい記事が並んでいるページ）を開きます。個々の記事ではありません。ログインが要るサイトは先にログインします。",
+                "Grab All Files を開いて「ページをHTMLにまとめる」に切り替えます。どこから集めるかで、サイトマップ・「同じパス配下」・このページのリンクのどれかを選びます。",
+                "候補の一覧が出るのを待ちます。絞り込み欄と除外欄で、記事ではないページを外します。タグ・カテゴリ・著者のページや、サイトの紹介ページなどです。",
+                "Pro なら、記事を選んで読みたい順に並べます。新しい順になるとは限らないので、並びを確かめます。",
+                "見た目と保存の形を選んで保存します。保存したら、最初と最後の記事、件数、途中にあるはずの語句の検索を確かめます。"
+              ]
+            },
+            {
+              "t": "text",
+              "h": "向かない場面",
+              "p": [
+                "Grab All Files はブラウザーを通して記事を開くので、数千本の記事になると時間がかかり、ファイルもとても大きくなります。それほど大きなニュースの蓄積には、サーバーから直接ページを取るパソコン用のサイト巡回ソフトのほうが向きます。ただし、ログインが要るページは見えません。",
+                "「次へ」ではなく、スクロールすると記事が増える一覧は別の場面です。始める前にスクロールで増えるページのガイドを読んでください。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "combine-web-pages-into-one-html",
+                  "候補の一覧・見た目・4つの保存の形の使い方。"
+                ],
+                [
+                  "save-web-pages-as-markdown",
+                  "ページごとの出典付きの Markdown。"
+                ],
+                [
+                  "save-infinite-scroll-pages",
+                  "ページ送りではなく、スクロールで増える一覧。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "ブログの全記事を一度に保存するには？",
+              "a": "ブログの一覧ページを開き、サイトマップ・「同じパス配下」・ページのリンクのどれかを選びます。記事ではないページを候補から外し、Pro なら1回で保存します。無料プランは1回1記事で、残りは1つずつ足します。"
+            },
+            {
+              "q": "「次へ」や「古い記事」のリンクもたどりますか？",
+              "a": "はい。next・「次へ」・「older」などのリンクを見つけ、たどって候補を探します。Pro なら、続きのページを全部1回で保存することもできます。"
+            },
+            {
+              "q": "全記事の PDF は作れますか？",
+              "a": "「縦につないだHTML（印刷向け）」で保存し、ブラウザーで開いて印刷の画面から PDF に保存します。印刷すると、記事ごとに改ページされます。"
+            },
+            {
+              "q": "保存した全記事を横断して検索できますか？",
+              "a": "「目次・検索付きHTML」で保存します。1つの HTML に目次と検索欄が付き、ブラウザーでオフラインのまま検索できます。"
+            },
+            {
+              "q": "コメントも保存されますか？",
+              "a": "コメント欄は別の作業です。コメントの保存と分析のガイドを見てください。このページは記事そのものを扱います。"
+            }
+          ]
+        }
+      }
+    },
+    "archive-website-before-it-closes": {
+      "path": "archive-website-before-it-closes.html",
+      "v2": true,
+      "related": [
+        "save-entire-website",
+        "save-web-pages-with-original-design",
+        "download-all-pdfs",
+        "save-pages-with-source-url-and-date",
+        "crawler-vs-page-saver-vs-download-manager",
+        "save-pages-and-files-behind-login"
+      ],
+      "copy": {
+        "en": {
+          "title": "Archive a website before it closes or is redesigned | Grab All Files",
+          "desc": "A site is closing or being rebuilt: decide what to save first, keep pages with their original look in a folder, take the PDFs and Office files, and know what cannot be saved.",
+          "eyebrow": "Before the deadline",
+          "h1": "A site is about to close or be rebuilt. Here is what to save first.",
+          "lead": "When a site has a date after which it will change or disappear, the problem is not how to save pages but which ones to save before time runs out. This guide orders the work: pages that exist nowhere else, then the documents they link to, then the look and structure, then the rest. It also lists what cannot be saved, so you do not find out on the last day.",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "What to save, in what order",
+              "p": [
+                "Work down the table. Stop when the time is up; the first rows are the ones you cannot get back."
+              ],
+              "head": [
+                "Priority",
+                "What to take",
+                "How, in Grab All Files"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Pages that exist only on this site: notices, prices, procedures, history, contact details",
+                  "“Combine pages into HTML”, look “Keep the original look”, form “Site copy in a folder” (Chrome and Edge) or “Separate HTML pages (ZIP)”."
+                ],
+                [
+                  "2",
+                  "PDFs and Word, Excel and PowerPoint files that the pages link to",
+                  "Tick the option to save linked files with the pages (10 per run on Free, 100 on Pro). Or use Bulk File Download with a depth of 1 to 5, filter by type, and save a ZIP."
+                ],
+                [
+                  "3",
+                  "The look: layout, fonts, images",
+                  "“Keep the original look” stores each page’s styles, fonts and images, with files shared by many pages kept once."
+                ],
+                [
+                  "4",
+                  "Everything else: old news, tag and archive pages",
+                  "Last, if time remains. The sitemap, if there is one, shows how many pages the site lists."
+                ]
+              ]
+            },
+            {
+              "t": "art",
+              "h": "Three things the saved copy keeps",
+              "items": [
+                [
+                  "look-original",
+                  "The original look",
+                  "Each page is saved as the browser shows it, in a frame, with its own styles, fonts and images. The site’s scripts are removed.",
+                  240,
+                  84
+                ],
+                [
+                  "form-site-folder",
+                  "The shape of the site",
+                  "“Site copy in a folder” writes the pages into a folder you pick, using the same folder layout as the site. Click the links to browse it offline. Chrome and Edge only; on Firefox use the ZIP.",
+                  160,
+                  64
+                ],
+                [
+                  "linked-copy",
+                  "The files the pages link to",
+                  "PDFs and Office files linked from a page are saved next to it. Their text is not copied into the HTML; the page keeps the link.",
+                  96,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "What you can still save",
+                  "items": [
+                    "Pages as the browser displays them, including pages built by JavaScript and pages behind your sign-in.",
+                    "PDF, Word, Excel and PowerPoint files linked from pages.",
+                    "Video and audio files that a page links to directly, such as mp4 or mp3.",
+                    "Failed files: retry them, or export the list of failed URLs with the reasons."
+                  ]
+                },
+                {
+                  "h": "What cannot be saved",
+                  "no": true,
+                  "items": [
+                    "Streamed video, such as HLS or DASH streams and players that use blob: addresses.",
+                    "Search boxes and forms that ask the server. The saved pages do not connect to the network.",
+                    "Pages you cannot open in your own browser, or that need a sign-in you do not have.",
+                    "Files in DRM or encrypted viewers, and text drawn only on a canvas."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Checklist for the last week",
+              "num": false,
+              "items": [
+                "Write down the start pages: the home page, the document library, the news archive, the contact page.",
+                "Sign in first if part of the site is for members. If the session expires during a long run, the run pauses; sign in again and press Resume. Pages already saved stay.",
+                "Count the linked documents early. Linked files are saved 10 per run on Free and 100 on Pro, with a button on the result screen for the rest, so a library of hundreds of files takes several rounds.",
+                "Open the saved copy with the network off. Click through a few pages and check that the links between saved pages open the saved files.",
+                "Keep the date. With “Keep the original look” and “HTML with contents and search”, the source URL and capture time appear under each page’s title."
+              ]
+            },
+            {
+              "t": "text",
+              "h": "When the site has thousands of pages",
+              "p": [
+                "Grab All Files works through browser tabs, page by page, which is why it can save pages that need a sign-in. It is slow for very large sites. If a public site has thousands of pages and the closing date is near, a desktop website copier that requests pages straight from the server will finish sooner. Keep Grab All Files for the pages such a program cannot see, and for the linked documents you want sorted by type."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "save-entire-website",
+                  "The general steps for copying a whole site, without a deadline."
+                ],
+                [
+                  "save-pages-with-source-url-and-date",
+                  "Where the source address and the time end up in each saved form."
+                ],
+                [
+                  "crawler-vs-page-saver-vs-download-manager",
+                  "Which kind of tool fits a site of which size."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What should I save first from a site that is closing?",
+              "a": "Pages that exist only there, such as notices, prices and procedures, and the PDF and Office files they link to. The look and the old archive pages come after."
+            },
+            {
+              "q": "Can I browse the saved site offline by clicking links?",
+              "a": "Yes, with “Site copy in a folder” on Chrome or Edge, or “Separate HTML pages (ZIP)”. Links between saved pages open the saved files. Links to pages you did not save still point to the live site."
+            },
+            {
+              "q": "Are PDFs and Word files saved too?",
+              "a": "Yes. Files linked from the pages can be saved with the pages (10 per run on Free, 100 on Pro), or collected with Bulk File Download. Their text is not merged into the HTML; the page keeps the link."
+            },
+            {
+              "q": "Can it save video from the site?",
+              "a": "Only video files linked directly from a page, such as mp4. Streamed video is not saved, and no DRM or watermark is bypassed."
+            },
+            {
+              "q": "The site has thousands of pages. What should I use?",
+              "a": "A desktop website copier, which asks the server for pages directly and is faster for large public sites. Use Grab All Files for sign-in pages and for pulling out the documents."
+            }
+          ]
+        },
+        "ja": {
+          "title": "閉鎖・リニューアル前にWebサイトを保存する | Grab All Files",
+          "desc": "サイトが閉鎖・作り直される前に、何から保存するかを決め、元の見た目のままフォルダに保存。リンク先の PDF・Office 文書も。取れないものも先に確認。",
+          "eyebrow": "期限があるとき",
+          "h1": "サイトがなくなる、作り直される。何から保存するか。",
+          "lead": "サイトに「この日を過ぎたら変わる、消える」という日があるとき、問題はページの保存の仕方ではなく、時間が尽きる前にどのページを取るかです。このガイドは作業を順に並べます。ほかにない内容のページ、それがリンクする文書、見た目と構成、残り、の順です。取れないものも先に挙げるので、最終日に気づくことがありません。",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "何をどの順で保存するか",
+              "p": [
+                "上から順に進めます。時間が尽きたらそこまで。上の行ほど、あとから取り戻せないものです。"
+              ],
+              "head": [
+                "優先順位",
+                "取るもの",
+                "Grab All Files での方法"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "そのサイトにしかないページ。お知らせ・料金・手続き・沿革・連絡先など",
+                  "「ページをHTMLにまとめる」で、見た目は「元の見た目のまま」、保存の形は「サイトの形でフォルダに保存」（Chrome・Edge）か「ページ別HTML（ZIP）」。"
+                ],
+                [
+                  "2",
+                  "ページからリンクされた PDF と Word・Excel・PowerPoint のファイル",
+                  "リンク先ファイルをページと一緒に保存するオプションを使う（無料は1回10件、Pro は100件）。または「ファイル一括ダウンロード」で深さ1〜5にして、種類で絞り込み、ZIP で保存。"
+                ],
+                [
+                  "3",
+                  "見た目。レイアウト・フォント・画像",
+                  "「元の見た目のまま」は、各ページのスタイル・フォント・画像を保存します。複数のページで共通のファイルは1回だけです。"
+                ],
+                [
+                  "4",
+                  "それ以外。古いお知らせ、タグや過去分のページ",
+                  "最後に、時間があれば。サイトマップがあれば、サイトが何ページを載せているかが分かります。"
+                ]
+              ]
+            },
+            {
+              "t": "art",
+              "h": "保存したコピーに残る3つ",
+              "items": [
+                [
+                  "look-original",
+                  "元の見た目",
+                  "各ページを、ブラウザーに表示されたとおり、枠の中に、そのページのスタイル・フォント・画像ごと保存します。サイトのスクリプトは外します。",
+                  240,
+                  84
+                ],
+                [
+                  "form-site-folder",
+                  "サイトの形",
+                  "「サイトの形でフォルダに保存」は、選んだフォルダに、元のサイトと同じフォルダ構成で書き込みます。リンクをクリックしてオフラインで見て回れます。Chrome・Edge のみ。Firefox では ZIP を使います。",
+                  160,
+                  64
+                ],
+                [
+                  "linked-copy",
+                  "リンク先のファイル",
+                  "ページからリンクされた PDF や Office 文書は、ページと並べて保存します。文書の本文は HTML には入らず、ページにはリンクが残ります。",
+                  96,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "保存できるもの",
+                  "items": [
+                    "ブラウザーに表示されたとおりのページ。JavaScript で作られたページや、自分のログインの先のページも含みます。",
+                    "ページからリンクされた PDF・Word・Excel・PowerPoint のファイル。",
+                    "ページから直接リンクされた動画・音声のファイル（mp4・mp3 など）。",
+                    "失敗したファイル。再試行できるほか、失敗した URL と理由を書き出せます。"
+                  ]
+                },
+                {
+                  "h": "保存できないもの",
+                  "no": true,
+                  "items": [
+                    "配信（ストリーミング）の動画。HLS・DASH の配信や、blob: のアドレスで再生するプレーヤーなど。",
+                    "サーバーに問い合わせる検索欄やフォーム。保存したページはネットワークにつながりません。",
+                    "自分のブラウザーで開けないページや、持っていないログインが要るページ。",
+                    "DRM・暗号化されたビューアーの中のファイルや、Canvas だけで描かれた文字。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "list",
+              "h": "最後の1週間のチェックリスト",
+              "num": false,
+              "items": [
+                "起点にするページを書き出します。トップページ、資料の置き場、お知らせの一覧、連絡先のページなど。",
+                "会員向けの部分があるなら、先にログインします。長い処理の途中でログインが切れると一時停止するので、ログインし直して「再開」を押します。保存済みのページは残ります。",
+                "リンク先の文書の数を早めに数えます。リンク先ファイルは無料で1回10件、Pro で100件ずつ保存し、残りは結果画面のボタンで続けます。数百件の資料があれば何回かに分かれます。",
+                "保存したコピーを、ネットワークを切って開きます。いくつかのページをたどり、保存したページ同士のリンクが保存したファイルを開くことを確かめます。",
+                "日付を残します。「元の見た目のまま」の「目次・検索付きHTML」では、各ページのタイトルの下に、元の URL と取得日時が出ます。"
+              ]
+            },
+            {
+              "t": "text",
+              "h": "何千ページもあるサイトのとき",
+              "p": [
+                "Grab All Files はブラウザーのタブを使って1ページずつ処理します。ログインが要るページも保存できるのはそのためで、とても大きなサイトでは遅くなります。公開サイトが何千ページもあって閉鎖の日が近いなら、サーバーから直接ページを取るパソコン用のサイト巡回ソフトのほうが早く終わります。そうした道具には見えないページと、種類別に整理したいリンク先の文書に、Grab All Files を使ってください。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "save-entire-website",
+                  "期限がないときの、サイトを丸ごと保存する基本の手順。"
+                ],
+                [
+                  "save-pages-with-source-url-and-date",
+                  "保存の形ごとに、元のアドレスと日時がどこに残るか。"
+                ],
+                [
+                  "crawler-vs-page-saver-vs-download-manager",
+                  "サイトの大きさに、どの種類の道具が合うか。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "閉鎖されるサイトは、何から保存すればよいですか？",
+              "a": "そこにしかないページ（お知らせ・料金・手続きなど）と、それがリンクする PDF・Office 文書です。見た目や古い過去分のページはそのあとにします。"
+            },
+            {
+              "q": "保存したサイトを、リンクをクリックしてオフラインで見られますか？",
+              "a": "はい。Chrome・Edge の「サイトの形でフォルダに保存」か、「ページ別HTML（ZIP）」で保存した場合、保存したページ同士のリンクは保存したファイルを開きます。保存していないページへのリンクは、元のサイトを指したままです。"
+            },
+            {
+              "q": "PDF や Word も保存されますか？",
+              "a": "はい。ページからリンクされたファイルは、ページと一緒に保存するか（無料は1回10件、Pro は100件）、「ファイル一括ダウンロード」で集められます。文書の本文は HTML には入らず、ページにはリンクが残ります。"
+            },
+            {
+              "q": "サイトの動画も保存できますか？",
+              "a": "ページから直接リンクされた動画ファイル（mp4 など）だけです。配信の動画は保存せず、DRM や透かしも回避しません。"
+            },
+            {
+              "q": "何千ページもあるサイトには何を使えばよいですか？",
+              "a": "サーバーに直接ページを求めるパソコン用のサイト巡回ソフトです。大きな公開サイトでは速くなります。Grab All Files は、ログインのページや、文書を取り出す場面に使います。"
+            }
+          ]
+        }
+      }
+    },
+    "save-pages-and-files-behind-login": {
+      "path": "save-pages-and-files-behind-login.html",
+      "v2": true,
+      "related": [
+        "internal-portal-downloads",
+        "save-entire-website",
+        "download-files-from-webpage",
+        "save-course-materials-and-syllabi",
+        "crawler-vs-page-saver-vs-download-manager"
+      ],
+      "copy": {
+        "en": {
+          "title": "Save pages and files from a members-only or sign-in site | Grab All Files",
+          "desc": "Save pages and documents from a member site, supplier portal or course site with your own account. Uses your browser's sign-in; passwords and cookies are not collected.",
+          "eyebrow": "Sign-in sites",
+          "h1": "Save the pages and documents of a site you have to sign in to, using your own account.",
+          "lead": "This guide is for sites where you have your own, authorized account: a member site, a supplier portal, a course you are enrolled in. Grab All Files runs inside the browser where you are already signed in, so it sees what you see. It does not sign in for you, and it cannot open anything your account cannot open.",
+          "blocks": [
+            {
+              "t": "text",
+              "h": "The one condition: your own account",
+              "p": [
+                "Use it only on accounts you are allowed to use, for material you are allowed to keep. Check the site's terms if you are not sure that saving a copy is permitted; a sign-in does not by itself grant that right.",
+                "Grab All Files uses the sign-in your browser already has. It does not collect or send your password, the value of a cookie, or anything typed into a form field. It does not automate signing in, get around a sign-in, or solve a CAPTCHA. If the site shows a CAPTCHA, you solve it yourself in the page."
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Steps",
+              "num": true,
+              "items": [
+                "Sign in to the site in the browser where Grab All Files is installed (Chrome, Edge or Firefox). Keep that tab open.",
+                "To save documents: open the page that lists them, open Grab All Files, and use “Bulk File Download”. The files it finds are shown in a list. Filter by type, size or date, tick the ones you want, and save.",
+                "To save the pages themselves: switch to “Combine pages into HTML”, choose how to look for pages (this page's links, the same path, a sitemap or pasted URLs), check the candidate list, and save. The pages are saved as your browser displays them, so content shown only after sign-in is included.",
+                "If the pages link to PDF or Office files, the page collector can save them next to the pages: 10 per run on Free, 100 on Pro."
+              ]
+            },
+            {
+              "t": "table",
+              "h": "If the session expires partway through",
+              "p": [
+                "Many sites sign you out after a period of inactivity or after a fixed time. Both tools stop and tell you, and keep what they have already saved."
+              ],
+              "head": [
+                "",
+                "Bulk File Download",
+                "Combine pages into HTML"
+              ],
+              "rows": [
+                [
+                  "What you see",
+                  "Each affected row shows that the site signed you out.",
+                  "The run pauses."
+                ],
+                [
+                  "What to do",
+                  "Open the site, sign in again, and retry the failed files.",
+                  "Sign in again in the site's tab, then press “Resume”."
+                ],
+                [
+                  "What is kept",
+                  "Files already saved stay on your computer.",
+                  "Pages already fetched are kept."
+                ]
+              ]
+            },
+            {
+              "t": "art",
+              "h": "Where the work happens",
+              "p": [
+                "Pages and files are read in your browser and written to your computer. They are not sent to the developer's server."
+              ],
+              "items": [
+                [
+                  "local-processing",
+                  "Processed on your computer",
+                  "Only the license check, and usage statistics if you turn them on, reach the developer. Page content, URLs and file names do not.",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "Works well",
+                  "items": [
+                    "A supplier portal with price lists and drawings attached to many pages.",
+                    "A members' library or a course site where you want the lesson pages and their handouts together.",
+                    "Pages that are drawn by JavaScript after you sign in; the browser's rendered result is what gets saved."
+                  ]
+                },
+                {
+                  "h": "Does not work",
+                  "no": true,
+                  "items": [
+                    "Pages or files your account is not permitted to open.",
+                    "Signing in automatically, or getting past a CAPTCHA.",
+                    "Content in encrypted or DRM viewers, or in the browser's built-in PDF viewer.",
+                    "Streamed video; only video or audio linked as a file is saved."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "internal-portal-downloads",
+                  "Documents in an internal portal or learning system, saved as files."
+                ],
+                [
+                  "save-entire-website",
+                  "Saving many pages of a site, with the original layout."
+                ],
+                [
+                  "download-files-from-webpage",
+                  "How the file list, filters and limits work."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can Grab All Files download from a site that needs a login?",
+              "a": "Yes, if you can open the page in the same browser. It uses your existing sign-in. It does not sign in for you, and it cannot open pages your account is not allowed to see."
+            },
+            {
+              "q": "Does it see or store my password?",
+              "a": "No. Passwords, cookie values and form-field contents are not collected or sent anywhere."
+            },
+            {
+              "q": "Why did some files fail with a sign-out message?",
+              "a": "The site ended your session. Open the site, sign in again, and retry the failed files. Files already saved are not lost."
+            },
+            {
+              "q": "Does it save the pages as well as the files?",
+              "a": "Yes. Bulk File Download saves the files; Combine pages into HTML saves the pages, and can save linked PDF and Office files with them."
+            },
+            {
+              "q": "Is it all right to save everything I can see?",
+              "a": "That depends on the site's terms and on who owns the material. Being signed in does not change that. Save only what you are allowed to keep."
+            }
+          ]
+        },
+        "ja": {
+          "title": "ログインが必要な会員サイト・ポータルのページと資料を保存 | Grab All Files",
+          "desc": "会員サイト・取引先ポータル・学習サイトのページと資料を、自分のアカウントで保存。ブラウザーのログイン状態を使い、パスワードや Cookie は集めません。",
+          "eyebrow": "ログインが要るサイト",
+          "h1": "ログインが必要なサイトのページと資料を、自分のアカウントで保存する。",
+          "lead": "対象は、自分が権限のあるアカウントを持っているサイトです。会員サイト、取引先のポータル、受講中の講座などです。Grab All Files は、すでにログインしているブラウザーの中で動くので、自分に見えるものがそのまま見えます。ログインを代わりにすることはなく、アカウントで開けないものは開けません。",
+          "blocks": [
+            {
+              "t": "text",
+              "h": "前提：自分のアカウントで使う",
+              "p": [
+                "使ってよいアカウントで、保存してよい資料にだけ使ってください。コピーを残してよいか分からないときは、サイトの利用規約を確かめてください。ログインできることと、保存してよいことは別です。",
+                "Grab All Files は、ブラウザーにあるログイン状態をそのまま使います。パスワード、Cookie の値、入力欄に入れた内容は集めず、送りません。ログインの自動化や突破はしません。CAPTCHA が出たら、ページの中で自分で解きます。"
+              ]
+            },
+            {
+              "t": "list",
+              "h": "手順",
+              "num": true,
+              "items": [
+                "Grab All Files を入れたブラウザー（Chrome・Edge・Firefox）で、対象のサイトにログインします。そのタブは開いたままにします。",
+                "資料を保存するとき：資料が並んでいるページを開き、Grab All Files の「ファイル一括ダウンロード」を使います。見つかったファイルが一覧に出るので、種類・サイズ・日付で絞り込み、保存したいものにチェックを入れて保存します。",
+                "ページそのものを保存するとき：「ページをHTMLにまとめる」に切り替え、ページの探し方（このページのリンク・同じパス配下・サイトマップ・貼り付けた URL）を選び、候補の一覧を確かめて保存します。ブラウザーが表示したとおりに保存するので、ログイン後にだけ見える内容も入ります。",
+                "ページが PDF や Office 文書にリンクしているときは、ページ収集でページと並べて保存できます。無料は1回10件、Pro は1回100件です。"
+              ]
+            },
+            {
+              "t": "table",
+              "h": "途中でログインが切れたとき",
+              "p": [
+                "サイトによっては、しばらく操作しないと、または一定時間でログアウトされます。どちらの道具も止まってそれを知らせ、保存済みの分は残します。"
+              ],
+              "head": [
+                "",
+                "ファイル一括ダウンロード",
+                "ページをHTMLにまとめる"
+              ],
+              "rows": [
+                [
+                  "画面での出方",
+                  "該当する行ごとに、サイトからサインアウトされたと表示されます。",
+                  "処理が一時停止します。"
+                ],
+                [
+                  "やること",
+                  "サイトを開いてログインし直し、失敗したファイルを再試行します。",
+                  "サイトのタブでログインし直してから「再開」を押します。"
+                ],
+                [
+                  "残るもの",
+                  "保存済みのファイルはそのままパソコンに残ります。",
+                  "取得済みのページは残ります。"
+                ]
+              ]
+            },
+            {
+              "t": "art",
+              "h": "処理が行われる場所",
+              "p": [
+                "ページとファイルの読み取りはブラウザーの中で行い、パソコンに保存します。開発者のサーバーには送りません。"
+              ],
+              "items": [
+                [
+                  "local-processing",
+                  "パソコンの中で処理",
+                  "開発者のサーバーに届くのは、ライセンスの確認と、オンにした場合の利用統計だけです。ページの内容・URL・ファイル名は届きません。",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "向いている場面",
+                  "items": [
+                    "価格表や図面が多くのページに添付された、取引先のポータル。",
+                    "会員向けライブラリーや講座のサイトで、授業のページと配布資料をまとめて残したい。",
+                    "ログインしたあとに JavaScript で描かれるページ。ブラウザーが描いた結果を保存します。"
+                  ]
+                },
+                {
+                  "h": "できないこと",
+                  "no": true,
+                  "items": [
+                    "アカウントに権限のないページやファイルを開くこと。",
+                    "ログインの自動化と、CAPTCHA の突破。",
+                    "暗号化・DRM のビューアーの中や、ブラウザー内蔵の PDF ビューアーの中の内容。",
+                    "ストリーミング配信の動画。ファイルとしてリンクされた動画・音声だけ保存します。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "internal-portal-downloads",
+                  "社内ポータルや学習システムの文書を、ファイルとして保存する。"
+                ],
+                [
+                  "save-entire-website",
+                  "サイトの多くのページを、元のレイアウトのまま保存する。"
+                ],
+                [
+                  "download-files-from-webpage",
+                  "ファイルの一覧・絞り込み・件数の上限の仕組み。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "ログインが必要なサイトからでもダウンロードできますか？",
+              "a": "同じブラウザーでそのページを開ければ使えます。今のログイン状態をそのまま使います。ログインを代わりにすることはなく、アカウントで見られないページは開けません。"
+            },
+            {
+              "q": "パスワードを見られたり、保存されたりしませんか？",
+              "a": "しません。パスワード、Cookie の値、入力欄の内容は、集めることも送ることもありません。"
+            },
+            {
+              "q": "サインアウトされたというエラーで失敗したファイルがあります。",
+              "a": "サイト側でセッションが終わっています。サイトを開いてログインし直し、失敗したファイルを再試行してください。保存済みのファイルは消えません。"
+            },
+            {
+              "q": "ファイルだけでなく、ページも保存できますか？",
+              "a": "できます。ファイルは「ファイル一括ダウンロード」、ページは「ページをHTMLにまとめる」です。後者では、リンク先の PDF や Office 文書も一緒に保存できます。"
+            },
+            {
+              "q": "見えるものをすべて保存してよいのですか？",
+              "a": "サイトの利用規約と、資料の権利者によります。ログインしていても変わりません。保存してよいものだけを保存してください。"
+            }
+          ]
+        }
+      }
+    },
+    "bulk-download-word-excel-powerpoint": {
+      "path": "bulk-download-word-excel-powerpoint.html",
+      "v2": true,
+      "related": [
+        "download-files-from-webpage",
+        "export-file-links-to-csv",
+        "download-tender-and-application-documents",
+        "save-course-materials-and-syllabi",
+        "download-multiple-files-as-zip"
+      ],
+      "copy": {
+        "en": {
+          "title": "Bulk download Word, Excel and PowerPoint files from a web page | Grab All Files",
+          "desc": "Find every Word, Excel and PowerPoint file linked on a page, filter by Documents, Spreadsheets or Presentations, and save them. Free: 10 files per download.",
+          "eyebrow": "Office files",
+          "h1": "Download all the Word, Excel and PowerPoint files on a page in one go.",
+          "lead": "A page of forms, price lists or lecture slides often links to dozens of .docx, .xlsx and .pptx files, and saving them one by one takes a long time. Grab All Files lists the Office files it finds on the page, you tick the ones you want, and it saves them. Detection of Office files is the same on Free and Pro.",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "Three categories, and the extensions in each",
+              "p": [
+                "In the filter panel the categories are named “Documents”, “Spreadsheets” and “Presentations”. These are examples of what each one covers, not a full list."
+              ],
+              "head": [
+                "Category",
+                "Typical extensions",
+                "What you usually find"
+              ],
+              "rows": [
+                [
+                  "Documents",
+                  "doc, docx, docm, dot, dotx, rtf, odt",
+                  "Forms, application sheets, manuals, minutes"
+                ],
+                [
+                  "Spreadsheets",
+                  "xls, xlsx, xlsm, xlsb, ods, csv, tsv",
+                  "Price lists, data tables, templates"
+                ],
+                [
+                  "Presentations",
+                  "ppt, pptx, pptm, pps, pot, odp, key",
+                  "Lecture slides, briefing decks"
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "What the list looks like",
+              "src": "/assets/screenshots/shot-en.jpg",
+              "alt": "Grab All Files, Bulk File Download: a list of found files including docx, pptx, xlsx and csv files, with the type filter on the left and the save button at the bottom.",
+              "cap": "A test page on the Free plan. The Office files appear in the same list as the other files, and a line in the list marks the 10 files that will be saved in this download.",
+              "w": 1600,
+              "hgt": 1429,
+              "webp": "/assets/screenshots/shot-en.webp"
+            },
+            {
+              "t": "list",
+              "h": "Steps",
+              "num": true,
+              "items": [
+                "Open the page that links to the files. If you want files from pages one click away, set the scan depth to “Depth 1” instead of “This page only”.",
+                "Open Grab All Files, use “Bulk File Download” and scan the page.",
+                "Narrow the list to the category you need, or to one extension. You can also search by file name or title, and sort by size or date.",
+                "Look through the list, untick anything you do not want, and press the save button. Choose a folder in the save settings if you want files sorted by type or by site.",
+                "On Free, press it again for the next 10. Pro saves everything you ticked at once."
+              ]
+            },
+            {
+              "t": "table",
+              "h": "Two ways to get Office files",
+              "head": [
+                "",
+                "Bulk File Download",
+                "Combine pages into HTML, with linked files"
+              ],
+              "rows": [
+                [
+                  "What you get",
+                  "The Office files as they are, saved as separate files",
+                  "The pages as HTML, plus the Office files they link to"
+                ],
+                [
+                  "Limit per run",
+                  "Free: 10 files. Pro: no limit",
+                  "Free: 10 files. Pro: 100 files"
+                ],
+                [
+                  "Continuing",
+                  "Free: select the next files and press save again",
+                  "A button on the result screen saves the next ones. Pro asks first when there are more than 100."
+                ],
+                [
+                  "Good for",
+                  "A page that is mostly a list of downloads",
+                  "Pages where the text matters as much as the attachments"
+                ]
+              ],
+              "after": [
+                "Identical files are saved only once in the linked-files route. The text inside the Office files is not put into the HTML; the HTML only links to them."
+              ]
+            },
+            {
+              "t": "text",
+              "h": "Limits worth knowing",
+              "p": [
+                "The file list shows what the page links to or loads. Files that appear only after a button, a search or a sign-in step need that step done first in the same browser; see the sign-in guide for how the session behaves.",
+                "Grab All Files does not open or convert Office files. If you want the contents of many spreadsheets in one place, save them first and then combine or analyze them with a tool of your choice."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "download-files-from-webpage",
+                  "The full file list: filters, depth, and limits."
+                ],
+                [
+                  "download-multiple-files-as-zip",
+                  "Putting many saved files into one ZIP."
+                ],
+                [
+                  "save-pages-and-files-behind-login",
+                  "Office files on member sites and portals."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can it download only the Excel files on a page?",
+              "a": "Yes. Filter the list to Spreadsheets, or to the single extension such as xlsx, and save only those."
+            },
+            {
+              "q": "Does it find .docx and .pptx as well as the older .doc and .ppt?",
+              "a": "Yes. Both the older and newer formats, and OpenDocument formats such as odt, ods and odp, are detected."
+            },
+            {
+              "q": "How many Office files can I save for free?",
+              "a": "10 per download. To continue, select the next files and press save again. Pro has no limit on the count."
+            },
+            {
+              "q": "Can it save Office files together with the web pages that link to them?",
+              "a": "Yes. Combine pages into HTML can save linked PDF and Office files with the pages: 10 per run on Free, 100 on Pro."
+            },
+            {
+              "q": "Are my files uploaded anywhere?",
+              "a": "No. Files go from the site directly to your computer. Nothing about them is sent to the developer's server."
+            }
+          ]
+        },
+        "ja": {
+          "title": "Word・Excel・PowerPoint を Web ページから一括ダウンロード | Grab All Files",
+          "desc": "ページにリンクされた Word・Excel・PowerPoint を見つけて、「文書」「表計算」「プレゼン」で絞り込み、まとめて保存。無料は1回10件まで。",
+          "eyebrow": "Office 文書",
+          "h1": "ページにある Word・Excel・PowerPoint を、まとめてダウンロードする。",
+          "lead": "申請書式、価格表、講義スライドのページには、.docx・.xlsx・.pptx が何十件もリンクされていることがあります。1つずつ保存すると手間がかかります。Grab All Files はページにある Office 文書を一覧にし、選んだものを保存します。Office 文書の検出は、無料も Pro も同じです。",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "3つのカテゴリと、それぞれの拡張子",
+              "p": [
+                "絞り込みのカテゴリ名は「文書」「表計算」「プレゼン」です。下は何が入るかの例で、すべてを並べたものではありません。"
+              ],
+              "head": [
+                "カテゴリ",
+                "主な拡張子",
+                "よくある中身"
+              ],
+              "rows": [
+                [
+                  "文書",
+                  "doc、docx、docm、dot、dotx、rtf、odt",
+                  "申請書式、様式、マニュアル、議事録"
+                ],
+                [
+                  "表計算",
+                  "xls、xlsx、xlsm、xlsb、ods、csv、tsv",
+                  "価格表、データの表、テンプレート"
+                ],
+                [
+                  "プレゼン",
+                  "ppt、pptx、pptm、pps、pot、odp、key",
+                  "講義スライド、説明会の資料"
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "一覧はこう見えます",
+              "src": "/assets/screenshots/shot-ja.jpg",
+              "alt": "Grab All Files の「ファイル一括ダウンロード」の画面。docx・pptx・xlsx・csv を含む、見つかったファイルの一覧。左に種類の絞り込み、下に保存ボタン。",
+              "cap": "無料プランでの、テスト用ページの画面です。Office 文書はほかのファイルと同じ一覧に並び、今回のダウンロードで保存される10件の区切りが一覧の中に表示されます。",
+              "w": 1600,
+              "hgt": 1429,
+              "webp": "/assets/screenshots/shot-ja.webp"
+            },
+            {
+              "t": "list",
+              "h": "手順",
+              "num": true,
+              "items": [
+                "ファイルへのリンクがあるページを開きます。1クリック先のページのファイルも欲しいときは、スキャンの深さを「深さ 1」にします。「このページのみ」のままだと、開いたページだけを調べます。",
+                "Grab All Files の「ファイル一括ダウンロード」を開き、ページをスキャンします。",
+                "必要なカテゴリか、1つの拡張子に絞り込みます。ファイル名やタイトルで検索したり、サイズや日付で並べ替えたりもできます。",
+                "一覧を見て、要らないもののチェックを外し、保存ボタンを押します。種類別・サイト別にフォルダ分けしたいときは、保存の設定で選びます。",
+                "無料プランは、続きの10件をもう一度保存します。Pro はチェックしたものを一度に保存します。"
+              ]
+            },
+            {
+              "t": "table",
+              "h": "Office 文書を取る2つの方法",
+              "head": [
+                "",
+                "ファイル一括ダウンロード",
+                "ページをHTMLにまとめる（リンク先ファイルつき）"
+              ],
+              "rows": [
+                [
+                  "取れるもの",
+                  "Office 文書そのものを、別々のファイルとして",
+                  "ページの HTML と、ページがリンクしている Office 文書"
+                ],
+                [
+                  "1回の上限",
+                  "無料は10件。Pro は上限なし",
+                  "無料は10件。Pro は100件"
+                ],
+                [
+                  "続けるとき",
+                  "無料は次のファイルを選んで、もう一度保存",
+                  "結果画面のボタンで続きを保存。Pro は100件を超えるとき先に聞きます"
+                ],
+                [
+                  "向いている場面",
+                  "ほぼダウンロードの一覧になっているページ",
+                  "本文も添付資料も同じくらい大事なページ"
+                ]
+              ],
+              "after": [
+                "リンク先ファイルとして保存するときは、内容が同じファイルを重ねて保存しません。Office 文書の本文は HTML には入らず、HTML にはリンクだけが入ります。"
+              ]
+            },
+            {
+              "t": "text",
+              "h": "知っておきたい限界",
+              "p": [
+                "一覧に出るのは、ページがリンクしている、または読み込んでいるファイルです。ボタンや検索、ログインのあとにだけ出るファイルは、先に同じブラウザーでその操作をしておく必要があります。ログインが切れたときの動きは、ログイン後の保存のガイドにあります。",
+                "Grab All Files は Office 文書を開いたり変換したりしません。たくさんの表計算の中身を1か所に集めたいときは、先に保存してから、好きな道具で結合や分析をしてください。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "download-files-from-webpage",
+                  "ファイルの一覧：絞り込み・深さ・件数の上限。"
+                ],
+                [
+                  "download-multiple-files-as-zip",
+                  "保存した多数のファイルを1つの ZIP にまとめる。"
+                ],
+                [
+                  "save-pages-and-files-behind-login",
+                  "会員サイトやポータルにある Office 文書。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "ページの Excel ファイルだけをダウンロードできますか？",
+              "a": "できます。一覧を「表計算」か、xlsx のような1つの拡張子に絞り込んで、それだけを保存します。"
+            },
+            {
+              "q": "古い .doc・.ppt だけでなく、.docx・.pptx も見つかりますか？",
+              "a": "見つかります。古い形式も新しい形式も、odt・ods・odp などの OpenDocument 形式も検出します。"
+            },
+            {
+              "q": "無料では Office 文書を何件まで保存できますか？",
+              "a": "1回のダウンロードで10件までです。続けるときは次のファイルを選んで、もう一度保存を押します。Pro は件数の上限がありません。"
+            },
+            {
+              "q": "Office 文書を、リンク元の Web ページと一緒に保存できますか？",
+              "a": "できます。「ページをHTMLにまとめる」は、リンク先の PDF や Office 文書をページと一緒に保存できます。無料は1回10件、Pro は1回100件です。"
+            },
+            {
+              "q": "ファイルはどこかにアップロードされますか？",
+              "a": "されません。ファイルはサイトから直接パソコンに保存されます。ファイルに関する情報を開発者のサーバーに送ることはありません。"
+            }
+          ]
+        }
+      }
+    },
+    "follow-next-page-links-and-collect": {
+      "path": "follow-next-page-links-and-collect.html",
+      "v2": true,
+      "related": [
+        "save-infinite-scroll-pages",
+        "download-files-from-webpage",
+        "save-all-blog-and-news-articles",
+        "combine-web-pages-into-one-html",
+        "export-file-links-to-csv"
+      ],
+      "copy": {
+        "en": {
+          "title": "Follow “Next” page links and collect files or pages from every page | Grab All Files",
+          "desc": "A list split over page 1, 2, 3...? Grab All Files can follow “Next” for files (Pro) and for page collection (Free finds candidates, Pro saves them all at once).",
+          "eyebrow": "Paged lists",
+          "h1": "A list spread over many pages: follow “Next” automatically and collect from all of them.",
+          "lead": "News archives, document libraries and search results are often split into page 1, 2, 3 and so on. Grab All Files has two tools, and each follows “Next” in its own way. They differ in what they collect and in what Free and Pro allow, so the table below comes first.",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "The two tools side by side",
+              "head": [
+                "",
+                "Files (Bulk File Download)",
+                "Pages (Combine pages into HTML)"
+              ],
+              "rows": [
+                [
+                  "What it collects",
+                  "PDFs, Office files, images and other files linked on each page",
+                  "The pages themselves, saved as HTML"
+                ],
+                [
+                  "Follows “Next” on Free",
+                  "No. It reads what is on screen; scroll the list to the end yourself, then scan",
+                  "Yes, to find candidate pages. “Next” links such as rel=next, “Next”, “next”, “older” are recognized"
+                ],
+                [
+                  "Follows “Next” on Pro",
+                  "Yes: “Scan all pages”. Also scrolls the page to the end",
+                  "Yes, and saves every page it found in one run"
+                ],
+                [
+                  "Saving on Free",
+                  "10 files per download; select the next ones and press save again",
+                  "One page per run, chosen from the candidates"
+                ],
+                [
+                  "How far it goes",
+                  "6, 20 or 100 pages, set by “Scroll time”. Past 100: “Read the next 100 pages”",
+                  "Up to 100,000 candidates. Over 100 pages, it asks before starting whether to pause every 100"
+                ]
+              ]
+            },
+            {
+              "t": "art",
+              "h": "How the page collector finds the next pages",
+              "p": [
+                "Choose “Follow the links on this page” as the way to find pages. Next-page links are picked up along with the other links, and you review the candidate list before anything is saved."
+              ],
+              "items": [
+                [
+                  "crawl-links",
+                  "Follow the links on this page",
+                  "The open page's links become candidates. Remove the ones you do not want and put the rest in order.",
+                  96,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Collecting files from every page (Pro)",
+              "num": true,
+              "items": [
+                "Open the first page of the list and open Grab All Files in “Bulk File Download”.",
+                "Turn on “Scroll to the end and load”, then press “Scan all pages”.",
+                "Pick “Scroll time” for how far to go: Normal (45 seconds) reads up to 6 pages, Long (90 seconds) up to 20, Thorough (180 seconds) up to 100. If you pick none, it uses Thorough.",
+                "When it reaches 100 pages and the list continues, press “Read the next 100 pages”.",
+                "Filter the combined list by type, then save."
+              ],
+              "after": [
+                "On Free, scroll to the end of a long list yourself before scanning, and open each page of the list in turn."
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Collecting pages from every page",
+              "num": true,
+              "items": [
+                "Open the first page of the list, then open “Combine pages into HTML”.",
+                "Choose “Follow the links on this page” and let it find candidates. “Next” pages are included in the candidate list on both Free and Pro.",
+                "Check the list and remove what you do not need.",
+                "Pro: select the pages, choose the look and the form of the saved file, and save them in one run. Free: choose one page, save it, and add the next one to the same saved file."
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "Works well",
+                  "items": [
+                    "An archive with a plain “Next” or “Older” link, such as a document library or a blog's back issues.",
+                    "Needing the files from every page of a list as one set.",
+                    "Pages that are shown only after you sign in; the browser's session is used."
+                  ]
+                },
+                {
+                  "h": "Check or choose another way",
+                  "no": true,
+                  "items": [
+                    "Lists that load more by scrolling instead of a “Next” link: see the infinite-scroll guide.",
+                    "Page numbers that are only a row of buttons with no link; the candidate list may be short, so check it.",
+                    "Very large archives. Past a few hundred pages, a desktop website copier is a better fit."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "save-infinite-scroll-pages",
+                  "Lists and feeds that load as you scroll."
+                ],
+                [
+                  "download-files-from-webpage",
+                  "The file list, filters and limits."
+                ],
+                [
+                  "combine-web-pages-into-one-html",
+                  "Putting many pages into one HTML file."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can it click “Next” by itself and go through all the pages?",
+              "a": "Yes. For files, Pro does this with “Scan all pages”. For pages, both Free and Pro follow “Next” to build the candidate list, and Pro can save them all in one run."
+            },
+            {
+              "q": "Does Free follow “Next” when I collect files?",
+              "a": "No. On Free, the file scan reads what is on screen. Scroll a long list to its end yourself, then scan each page of the list in turn."
+            },
+            {
+              "q": "How many pages does “Scan all pages” follow?",
+              "a": "6, 20 or 100 pages depending on “Scroll time” (45, 90 or 180 seconds). If you have not chosen one, it follows up to 100. Beyond that, press “Read the next 100 pages”."
+            },
+            {
+              "q": "How many pages can I save for free?",
+              "a": "One page per run. You can add more pages one at a time to the same saved file. Pro saves all selected pages at once."
+            },
+            {
+              "q": "What if the next page is loaded by scrolling, not a link?",
+              "a": "That is a different case. See the guide on infinite-scroll pages."
+            }
+          ]
+        },
+        "ja": {
+          "title": "「次へ」のリンクをたどって全ページから集める | Grab All Files",
+          "desc": "一覧が1・2・3ページに分かれているとき。ファイルは Pro で「次へ」を自動でたどり、ページ収集は無料も候補を探し、Pro は全部を1回で保存します。",
+          "eyebrow": "ページ送りの一覧",
+          "h1": "何ページにも分かれた一覧で、「次へ」を自動でたどって全部から集める。",
+          "lead": "ニュースの過去記事、資料の一覧、検索結果などは、1ページ目・2ページ目…と分かれていることがよくあります。Grab All Files には2つの道具があり、「次へ」をたどる方法がそれぞれ違います。集めるものも、無料と Pro でできることも違うので、先に表で比べます。",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "2つの道具を並べて比べる",
+              "head": [
+                "",
+                "ファイル（ファイル一括ダウンロード）",
+                "ページ（ページをHTMLにまとめる）"
+              ],
+              "rows": [
+                [
+                  "集めるもの",
+                  "各ページにリンクされた PDF・Office 文書・画像などのファイル",
+                  "ページそのもの（HTML として保存）"
+                ],
+                [
+                  "無料で「次へ」をたどる",
+                  "たどらない。画面に出ている分を読む。長い一覧は自分で最後までスクロールしてからスキャン",
+                  "たどる。候補のページを探すため。rel=next や「次へ」「next」「older」などのリンクを認識"
+                ],
+                [
+                  "Pro で「次へ」をたどる",
+                  "たどる。「全ページをスキャン」。ページを最後まで自動でスクロールもする",
+                  "たどる。見つけたページを全部、1回で保存"
+                ],
+                [
+                  "無料での保存",
+                  "1回のダウンロードで10件。続きは次のファイルを選んでもう一度保存",
+                  "1回1ページ。候補から1つを選ぶ"
+                ],
+                [
+                  "どこまで行くか",
+                  "「読み込み時間」で6・20・100ページ。100ページを超える分は「続きの100ページを読む」",
+                  "候補は最大 100,000。100ページを超えるときは、100ページごとに一時停止するかを開始前に聞く"
+                ]
+              ]
+            },
+            {
+              "t": "art",
+              "h": "ページ収集が次のページを見つける仕組み",
+              "p": [
+                "ページの探し方で、開いているページのリンクをたどる方法を選びます。次のページへのリンクもほかのリンクと一緒に拾われ、保存の前に候補の一覧で確かめられます。"
+              ],
+              "items": [
+                [
+                  "crawl-links",
+                  "このページのリンクをたどる",
+                  "開いているページのリンクが候補になります。要らないものを外し、残りを並べ替えます。",
+                  96,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "全ページのファイルを集める（Pro）",
+              "num": true,
+              "items": [
+                "一覧の1ページ目を開き、Grab All Files の「ファイル一括ダウンロード」を開きます。",
+                "「ページを自動でスクロールして最後まで読み込む」をオンにして、「全ページをスキャン」を押します。",
+                "どこまで行くかは「読み込み時間」で選びます。通常（45秒）は6ページまで、長め（90秒）は20ページまで、徹底（180秒）は100ページまで。選ばなければ徹底になります。",
+                "100ページに達して一覧がまだ続くときは、「続きの100ページを読む」を押します。",
+                "まとまった一覧を種類で絞り込み、保存します。"
+              ],
+              "after": [
+                "無料プランでは、長い一覧は自分で最後までスクロールしてからスキャンし、一覧の各ページを順に開いて行います。"
+              ]
+            },
+            {
+              "t": "list",
+              "h": "全ページの本文を集める",
+              "num": true,
+              "items": [
+                "一覧の1ページ目を開き、「ページをHTMLにまとめる」を開きます。",
+                "「このページのリンクをたどる」を選び、候補を探します。「次へ」のページは、無料も Pro も候補の一覧に入ります。",
+                "一覧を確かめ、要らないものを外します。",
+                "Pro：ページを選び、見た目と保存の形を決めて、1回で保存します。無料：1ページを選んで保存し、次のページを同じ保存先に足していきます。"
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "向いている場面",
+                  "items": [
+                    "「次へ」や「古い記事」のリンクが素直にある一覧。資料の一覧や、ブログの過去記事など。",
+                    "一覧の全ページのファイルを、ひとまとまりで欲しい。",
+                    "ログインしたあとにだけ出るページ。ブラウザーのログイン状態を使います。"
+                  ]
+                },
+                {
+                  "h": "確かめる、または別の方法",
+                  "no": true,
+                  "items": [
+                    "「次へ」のリンクではなく、スクロールで続きが出る一覧。無限スクロールのガイドを見てください。",
+                    "ページ番号がリンクのないボタンの並びだけのとき。候補が少なくなることがあるので、一覧を確かめてください。",
+                    "とても大きなアーカイブ。数百ページを超えるなら、パソコン用のサイト巡回ソフトのほうが向きます。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "save-infinite-scroll-pages",
+                  "スクロールで続きが読み込まれる一覧やフィード。"
+                ],
+                [
+                  "download-files-from-webpage",
+                  "ファイルの一覧・絞り込み・件数の上限。"
+                ],
+                [
+                  "combine-web-pages-into-one-html",
+                  "複数のページを1つの HTML にまとめる。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "「次へ」を自動でクリックして、全ページを回れますか？",
+              "a": "回れます。ファイルは Pro の「全ページをスキャン」で行います。ページは、無料も Pro も「次へ」をたどって候補の一覧を作り、Pro はそれを1回で全部保存できます。"
+            },
+            {
+              "q": "ファイルを集めるとき、無料でも「次へ」をたどりますか？",
+              "a": "たどりません。無料のファイルスキャンは、画面に出ている分を読みます。長い一覧は自分で最後までスクロールし、一覧の各ページを順にスキャンしてください。"
+            },
+            {
+              "q": "「全ページをスキャン」は何ページまでたどりますか？",
+              "a": "「読み込み時間」（45・90・180秒）に応じて6・20・100ページです。選んでいなければ100ページまでです。それを超えるときは「続きの100ページを読む」を押します。"
+            },
+            {
+              "q": "無料で何ページ保存できますか？",
+              "a": "1回1ページです。同じ保存先に1ページずつ足していくことはできます。Pro は選んだページを一度に保存します。"
+            },
+            {
+              "q": "次のページがリンクではなく、スクロールで出る場合は？",
+              "a": "別のケースです。無限スクロールのページのガイドを見てください。"
+            }
+          ]
+        }
+      }
+    },
+    "save-infinite-scroll-pages": {
+      "path": "save-infinite-scroll-pages.html",
+      "v2": true,
+      "related": [
+        "collect-and-analyze-web-comments",
+        "follow-next-page-links-and-collect",
+        "save-web-pages-with-original-design",
+        "bulk-download-images",
+        "download-files-from-webpage",
+        "save-all-blog-and-news-articles"
+      ],
+      "copy": {
+        "en": {
+          "title": "Save infinite-scroll pages: timelines, comments, product lists | Grab All Files",
+          "desc": "How Grab All Files handles pages that load more as you scroll: feeds and comment sections, ordinary long pages, and file scans. The limits differ, and they are listed here.",
+          "eyebrow": "Scrolling pages",
+          "h1": "Save a page that keeps loading as you scroll: what is automatic, and what is not.",
+          "lead": "A timeline, a comment section, a product list or an image gallery adds items as you scroll, so a plain save gets only the first screenful. Grab All Files scrolls for you in some cases and not in others, with different limits. Find your case in the table first. None of it promises to reach the very end of every page, so check the result.",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "Which case are you in",
+              "head": [
+                "Case",
+                "What happens",
+                "Limit",
+                "Plan"
+              ],
+              "rows": [
+                [
+                  "A feed in “Combine pages into HTML”: a social timeline or a comment section",
+                  "The page is scrolled automatically until the feed ends",
+                  "No cap on the number of items. After every 1,000 items it asks whether to continue; with no answer for 10 minutes, it saves what it has",
+                  "Free and Pro"
+                ],
+                [
+                  "Any other long page in “Combine pages into HTML”",
+                  "The page is scrolled automatically, then stops",
+                  "Up to 10 scrolls by default",
+                  "Free and Pro"
+                ],
+                [
+                  "“Keep the original look”, each page",
+                  "The page is opened in a tab and scrolled to the bottom before it is saved, so lazy-loaded images appear",
+                  "The time follows the “Scroll time” setting: 45, 90 or 180 seconds",
+                  "Free and Pro"
+                ],
+                [
+                  "Bulk File Download, scanning for files",
+                  "Reads only what is on screen. Scroll to the end yourself, then scan",
+                  "What you have scrolled to",
+                  "Free"
+                ],
+                [
+                  "Bulk File Download, scanning for files",
+                  "“Scroll to the end and load”: the scan scrolls the page and follows “Next” pages of the same list",
+                  "6, 20 or 100 pages by “Scroll time” (45, 90, 180 seconds); 100 if you choose nothing. “Read the next 100 pages” continues",
+                  "Pro"
+                ]
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "Feeds confirmed to be read to the end",
+                  "items": [
+                    "Posts and replies on X.",
+                    "Comments on YouTube.",
+                    "Reddit.",
+                    "Bluesky.",
+                    "Comments on Yahoo! News."
+                  ]
+                },
+                {
+                  "h": "Check these yourself",
+                  "no": true,
+                  "items": [
+                    "An ordinary list page stops after 10 scrolls by default, so a long product list may be cut off.",
+                    "Text drawn only on a canvas, or inside a closed Shadow DOM, is not read.",
+                    "A frame from another domain is read only after you allow it.",
+                    "Pages you cannot open in your own browser, such as ones that need a sign-in you do not have."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Saving a long timeline or comment section",
+              "num": true,
+              "items": [
+                "Open the page in the browser tab where you are signed in, if it needs a sign-in.",
+                "Open Grab All Files and switch to “Combine pages into HTML”. Choose the current page only.",
+                "Choose the look and the form, and start the save. The page scrolls on its own.",
+                "At every 1,000 items it asks whether to continue. Answer, or leave it: after 10 minutes without an answer it saves what has been read so far.",
+                "Open the saved file and compare its last item with the end of the live page, and the item count with the count the page shows, if it shows one."
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "For a list of files on a long page",
+              "p": [
+                "On Free, scroll the page to the end yourself, then press the scan. The scan reads what is loaded."
+              ],
+              "src": "/assets/screenshots/shot-en.jpg",
+              "alt": "Grab All Files, Bulk File Download, Free plan: after a scan, 19 files are listed with their type, size and date, ten are selected for this download, and the Rescan button and the depth setting are at the top.",
+              "cap": "The real panel on the Free plan after a scan: 19 files found and 10 selected for this download. The Rescan button reads the page again after you scroll further.",
+              "w": 1600,
+              "hgt": 1429,
+              "webp": "/assets/screenshots/shot-en.webp"
+            },
+            {
+              "t": "text",
+              "h": "Why “to the very end” is not promised",
+              "p": [
+                "Each page decides for itself when to load more. The limits above are what let a run finish; they are not a guarantee that every item was reached.",
+                "So the last step matters. Compare the end of your saved file with the end of the live page. If it was cut off, run it again, or on the file side scroll further and rescan."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "collect-and-analyze-web-comments",
+                  "Saving comment sections and feeds, and analysing them afterwards."
+                ],
+                [
+                  "follow-next-page-links-and-collect",
+                  "Lists that use “Next” links instead of scrolling."
+                ],
+                [
+                  "bulk-download-images",
+                  "Saving the images of a gallery page."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can it save an infinite-scroll page to the very end?",
+              "a": "For feeds such as timelines and comment sections it scrolls until the feed ends. For other pages it stops after 10 scrolls by default. Always compare the end of the saved file with the live page."
+            },
+            {
+              "q": "Is there a limit on how many comments or posts it reads?",
+              "a": "Not for feeds. It asks whether to continue after every 1,000 items. If nobody answers for 10 minutes, it saves what it has read."
+            },
+            {
+              "q": "Do I have to scroll myself?",
+              "a": "When saving pages, no. When scanning for files on the Free plan, yes: it reads what is on screen. Pro scans scroll the page for you."
+            },
+            {
+              "q": "How many pages does the Pro scan follow?",
+              "a": "6, 20 or 100 pages, according to the “Scroll time” setting (45, 90, 180 seconds). If you choose nothing, it is 100. A button reads the next 100."
+            },
+            {
+              "q": "Which sites are confirmed for comments and timelines?",
+              "a": "X posts and replies, YouTube comments, Reddit, Bluesky and Yahoo! News comments. Other sites may work, but are not on this list."
+            }
+          ]
+        },
+        "ja": {
+          "title": "スクロールで増えるページを保存：タイムライン・コメント・商品一覧 | Grab All Files",
+          "desc": "スクロールすると増えるページを Grab All Files でどう扱うか。フィード・コメント欄、一般の長いページ、ファイルのスキャンで、上限が違います。その一覧です。",
+          "eyebrow": "スクロールで増えるページ",
+          "h1": "スクロールで読み込みが続くページを保存する。自動なもの、そうでないもの。",
+          "lead": "タイムライン、コメント欄、商品一覧、画像一覧は、スクロールするほど項目が増えます。そのまま保存しても、最初の1画面ぶんしか取れません。Grab All Files は、場合によって自動でスクロールし、場合によってはしません。上限も違います。最初に下の表で、自分の場合を見つけてください。どのページでも必ず最後まで届く、という約束ではないので、結果の確認もしてください。",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "自分はどの場合か",
+              "head": [
+                "場合",
+                "動き",
+                "上限",
+                "プラン"
+              ],
+              "rows": [
+                [
+                  "「ページをHTMLにまとめる」で、フィード（SNS のタイムライン・コメント欄）",
+                  "フィードが終わるまで、自動でスクロールする",
+                  "件数の上限はなし。1,000件ごとに続けるか聞き、10分答えがなければそこまでを保存する",
+                  "無料・Pro 共通"
+                ],
+                [
+                  "「ページをHTMLにまとめる」で、それ以外の長いページ",
+                  "自動でスクロールして、止まる",
+                  "既定では最大10回のスクロール",
+                  "無料・Pro 共通"
+                ],
+                [
+                  "「元の見た目のまま」の、各ページ",
+                  "ページをタブで開き、最後までスクロールしてから保存する。遅延読み込みの画像も出る",
+                  "かける時間は「読み込み時間」の設定（45秒・90秒・180秒）に従う",
+                  "無料・Pro 共通"
+                ],
+                [
+                  "ファイル一括ダウンロードの、ファイルのスキャン",
+                  "画面に出ている分だけを読む。自分で最後までスクロールしてからスキャンする",
+                  "スクロールした分まで",
+                  "無料"
+                ],
+                [
+                  "ファイル一括ダウンロードの、ファイルのスキャン",
+                  "「ページを自動でスクロールして最後まで読み込む」。スキャンがページをスクロールし、同じ一覧の「次へ」のページもたどる",
+                  "「読み込み時間」（45秒・90秒・180秒）で 6・20・100 ページ。選ばなければ 100 ページ。「続きの100ページを読む」で続ける",
+                  "Pro"
+                ]
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "最後まで読むことを確認したフィード",
+                  "items": [
+                    "X の投稿と返信。",
+                    "YouTube のコメント。",
+                    "Reddit。",
+                    "Bluesky。",
+                    "Yahoo!ニュースのコメント。"
+                  ]
+                },
+                {
+                  "h": "自分で確かめること",
+                  "no": true,
+                  "items": [
+                    "一般の一覧ページは既定で10回のスクロールで止まります。長い商品一覧は途中で切れることがあります。",
+                    "Canvas だけで描かれた文字や、閉じた Shadow DOM の中は読めません。",
+                    "別のドメインのフレームは、許可したあとで読めます。",
+                    "自分のブラウザーで開けないページ。持っていないログインが要るページなど。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "list",
+              "h": "長いタイムラインやコメント欄を保存する手順",
+              "num": true,
+              "items": [
+                "ログインが要るページなら、ログインしているブラウザーのタブで開きます。",
+                "Grab All Files を開いて「ページをHTMLにまとめる」に切り替え、現在のページだけを選びます。",
+                "見た目と保存の形を選んで、保存を始めます。ページは自動でスクロールされます。",
+                "1,000件ごとに、続けるかを聞かれます。答えるか、そのままにします。10分答えがなければ、そこまで読んだ分を保存します。",
+                "保存したファイルを開き、最後の項目を元のページの終わりと見比べます。ページに件数が出ていれば、それとも見比べます。"
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "長いページのファイル一覧を取るとき",
+              "p": [
+                "無料プランでは、自分でページを最後までスクロールしてからスキャンを押します。スキャンは読み込み済みの分を読みます。"
+              ],
+              "src": "/assets/screenshots/shot-ja.jpg",
+              "alt": "Grab All Files の「ファイル一括ダウンロード」、無料プランの画面。スキャン後に19件のファイルが種類・サイズ・日付とともに並び、10件が今回のダウンロードに選ばれている。上部に再スキャンのボタンと深さの設定。",
+              "cap": "無料プランでスキャンしたあとの実際の画面です。19件が見つかり、今回のダウンロードには10件が選ばれています。さらにスクロールしたあとは「再スキャン」でページを読み直します。",
+              "w": 1600,
+              "hgt": 1429,
+              "webp": "/assets/screenshots/shot-ja.webp"
+            },
+            {
+              "t": "text",
+              "h": "「必ず最後まで」とは言わない理由",
+              "p": [
+                "ページは、いつ続きを読み込むかを自分で決めています。上に書いた上限は処理が終わるための値で、すべての項目に届く保証ではありません。",
+                "だから最後の確認が大事です。保存したファイルの終わりを、元のページの終わりと見比べます。途中で切れていたら、もう一度保存します。ファイル側なら、さらにスクロールして再スキャンします。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "collect-and-analyze-web-comments",
+                  "コメント欄やフィードの保存と、そのあとの分析。"
+                ],
+                [
+                  "follow-next-page-links-and-collect",
+                  "スクロールではなく「次へ」で進む一覧。"
+                ],
+                [
+                  "bulk-download-images",
+                  "画像一覧のページの画像を保存する。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "スクロールで増えるページを、最後まで保存できますか？",
+              "a": "タイムラインやコメント欄などのフィードは、フィードが終わるまでスクロールします。それ以外のページは、既定では10回のスクロールで止まります。どちらも、保存したファイルの終わりを元のページと見比べてください。"
+            },
+            {
+              "q": "コメントや投稿は何件まで読めますか？",
+              "a": "フィードに件数の上限はありません。1,000件ごとに続けるかを聞き、10分答えがなければそこまでを保存します。"
+            },
+            {
+              "q": "自分でスクロールする必要はありますか？",
+              "a": "ページの保存では要りません。無料プランでファイルをスキャンするときは必要で、画面に出ている分を読みます。Pro のスキャンはページを自動でスクロールします。"
+            },
+            {
+              "q": "Pro のスキャンは何ページまでたどりますか？",
+              "a": "「読み込み時間」の設定（45秒・90秒・180秒）で 6・20・100 ページです。選ばなければ 100 ページです。続きの100ページは、ボタンで読みます。"
+            },
+            {
+              "q": "タイムラインやコメントで、確認済みのサイトはどこですか？",
+              "a": "X の投稿と返信、YouTube のコメント、Reddit、Bluesky、Yahoo!ニュースのコメントです。ほかのサイトでも動くことはありますが、この一覧には入っていません。"
+            }
+          ]
+        }
+      }
+    },
+    "download-multiple-files-as-zip": {
+      "path": "download-multiple-files-as-zip.html",
+      "v2": true,
+      "related": [
+        "download-files-from-webpage",
+        "rename-and-organize-bulk-pdf-downloads",
+        "bulk-download-word-excel-powerpoint",
+        "internal-portal-downloads",
+        "combine-web-pages-into-one-html"
+      ],
+      "copy": {
+        "en": {
+          "title": "Download multiple files as one ZIP file from a web page | Grab All Files",
+          "desc": "Select files on a page and press ZIP to get one archive. Free: 10 files. A confirmation appears above 200 MB, and 256 MB is the limit. It does not split archives.",
+          "eyebrow": "One ZIP",
+          "h1": "Download several files from a page as a single ZIP.",
+          "lead": "When a page offers 30 PDFs and spreadsheets, saving each one leaves 30 loose files in your downloads folder. The ZIP button in Grab All Files puts the files you selected into one archive instead. It has a size limit and it does not split archives, so read the numbers below before you pick a large set.",
+          "blocks": [
+            {
+              "t": "shot",
+              "h": "Where the ZIP button is",
+              "src": "/assets/screenshots/use-case-internal-portal-downloads-en.png",
+              "alt": "Grab All Files, Bulk File Download: three files ticked in the list, the save button at the bottom left, and a panel with the ZIP button, PDF merge, the save name, folder organization and file-list CSV.",
+              "cap": "Three sample files selected on the Free plan. In the panel at the lower right, ZIP sits at the top, with PDF merge, the save name, the folder setting and CSV export below it.",
+              "w": 2240,
+              "hgt": 2000,
+              "webp": "/assets/screenshots/use-case-internal-portal-downloads-en.webp"
+            },
+            {
+              "t": "table",
+              "h": "The numbers",
+              "head": [
+                "",
+                "ZIP"
+              ],
+              "rows": [
+                [
+                  "Files per ZIP on Free",
+                  "Up to 10, the same as one download. Select the next 10 and press ZIP again for another archive."
+                ],
+                [
+                  "Files per ZIP on Pro",
+                  "No limit on the count; the size limit below still applies."
+                ],
+                [
+                  "Name of the ZIP",
+                  "The site's host name and today's date, such as docs.example.com_2026-11-17.zip (a leading www. is dropped)."
+                ],
+                [
+                  "Confirmation",
+                  "A prompt appears when the total goes over 200 MB."
+                ],
+                [
+                  "Upper limit",
+                  "256 MB in total."
+                ],
+                [
+                  "Over the limit",
+                  "It is not split into several ZIPs. Select fewer files, or save to a folder instead."
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Steps",
+              "num": true,
+              "items": [
+                "Open the page and scan it with “Bulk File Download”.",
+                "Filter the list and tick the files you want. Look at the sizes: add them up if you are near 200 MB.",
+                "Press “ZIP”. Confirm if it asks about the size.",
+                "Open the ZIP in your downloads folder. Free: for more files, select the next ones and press ZIP again."
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "A ZIP is a good choice when",
+                  "items": [
+                    "You want to send or archive a set as one file.",
+                    "The set is a few dozen files, well under 200 MB.",
+                    "You want a tidy single file instead of many loose downloads."
+                  ]
+                },
+                {
+                  "h": "Save to a folder instead when",
+                  "no": true,
+                  "items": [
+                    "The total is near or above 256 MB: videos, large drawings, scanned books.",
+                    "You want the files sorted by type or by site, as separate folders.",
+                    "You want to open or rename individual files right away."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "art",
+              "h": "ZIP is one of several outputs",
+              "p": [
+                "The same selection can also be saved as separate files, merged (PDF) or exported as a file list (CSV). Everything is processed in your browser."
+              ],
+              "items": [
+                [
+                  "dl-outputs",
+                  "Save, ZIP, merge, CSV",
+                  "A ZIP does not change the files; it only packs them. Merging PDFs and exporting the list are separate buttons.",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "text",
+              "h": "Not to be confused with “Separate HTML pages (ZIP)”",
+              "p": [
+                "“Separate HTML pages (ZIP)” belongs to Combine pages into HTML, the other tool. It stores saved web pages as one HTML file per page, with an index.html, inside a ZIP. The ZIP button in Bulk File Download packs files such as PDFs and Office documents as they are. The two are separate features, and the limits above apply only to the ZIP button."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "download-files-from-webpage",
+                  "Finding and filtering the files first."
+                ],
+                [
+                  "rename-and-organize-bulk-pdf-downloads",
+                  "Names and folders for what you save."
+                ],
+                [
+                  "bulk-download-word-excel-powerpoint",
+                  "A typical set to pack: Office files."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How do I download many files from a page as one ZIP?",
+              "a": "Scan the page with Bulk File Download, tick the files, and press ZIP. You get one archive."
+            },
+            {
+              "q": "How many files can go into one ZIP for free?",
+              "a": "10, the same as one download on Free. For more, select the next files and press ZIP again."
+            },
+            {
+              "q": "What is the biggest ZIP it can make?",
+              "a": "256 MB in total. Above 200 MB it asks you to confirm. It does not split the files into several ZIPs."
+            },
+            {
+              "q": "What is the ZIP file called?",
+              "a": "The site's host name and the date, for example docs.example.com_2026-11-17.zip. A leading www. is left out."
+            },
+            {
+              "q": "My selection is too big for a ZIP. What now?",
+              "a": "Select fewer files per ZIP, or save to a folder instead of making a ZIP."
+            }
+          ]
+        },
+        "ja": {
+          "title": "複数のファイルを ZIP 1つにまとめてダウンロード | Grab All Files",
+          "desc": "ページで選んだファイルを「ZIP」ボタンで1つにまとめて保存。無料は10件まで。200MB を超えると確認が出て、上限は256MB。分割はしません。",
+          "eyebrow": "ZIP 1つにする",
+          "h1": "ページの複数のファイルを、ZIP 1つにまとめてダウンロードする。",
+          "lead": "ページに PDF や表計算が30件あるとき、1件ずつ保存すると、ダウンロードフォルダにファイルが30個ばらばらに残ります。Grab All Files の「ZIP」ボタンは、選んだファイルを1つの書庫にまとめて保存します。サイズの上限があり、分割はしないので、大きな組み合わせを選ぶ前に下の数字を確かめてください。",
+          "blocks": [
+            {
+              "t": "shot",
+              "h": "ZIP ボタンの場所",
+              "src": "/assets/screenshots/use-case-internal-portal-downloads-ja.png",
+              "alt": "Grab All Files の「ファイル一括ダウンロード」の画面。一覧で3件にチェックが入り、左下に保存ボタン、右下の枠に ZIP ボタン・PDF結合・保存名・整理・ファイル情報CSV出力。",
+              "cap": "無料プランで、サンプルの3件を選んだ画面です。右下の枠の一番上が ZIP で、その下に PDF結合、保存名、フォルダ分けの設定、CSV 出力が並びます。",
+              "w": 2240,
+              "hgt": 2000,
+              "webp": "/assets/screenshots/use-case-internal-portal-downloads-ja.webp"
+            },
+            {
+              "t": "table",
+              "h": "数字で確かめる",
+              "head": [
+                "",
+                "ZIP"
+              ],
+              "rows": [
+                [
+                  "無料での1つの ZIP の件数",
+                  "10件まで。1回のダウンロードと同じです。次の10件を選んでもう一度 ZIP を押すと、別の書庫ができます。"
+                ],
+                [
+                  "Pro での1つの ZIP の件数",
+                  "件数の上限はありません。下のサイズの上限は同じです。"
+                ],
+                [
+                  "ZIP の名前",
+                  "サイトのホスト名と今日の日付。例：docs.example.com_2026-11-17.zip（先頭の www. は除きます）。"
+                ],
+                [
+                  "確認",
+                  "合計が 200MB を超えると、確認が出ます。"
+                ],
+                [
+                  "上限",
+                  "合計 256MB。"
+                ],
+                [
+                  "超えたとき",
+                  "複数の ZIP には分割しません。選ぶ件数を減らすか、フォルダに保存します。"
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "手順",
+              "num": true,
+              "items": [
+                "ページを開き、「ファイル一括ダウンロード」でスキャンします。",
+                "一覧を絞り込み、欲しいファイルにチェックを入れます。サイズを見て、200MB に近いときは合計を確かめます。",
+                "「ZIP」を押します。サイズの確認が出たら応じます。",
+                "ダウンロードフォルダの ZIP を開きます。無料で件数が多いときは、次のファイルを選んでもう一度 ZIP を押します。"
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "ZIP が向く場面",
+                  "items": [
+                    "ひとまとまりを、1つのファイルで送る、または保管したい。",
+                    "数十件で、合計が 200MB よりずっと小さい。",
+                    "ばらばらのダウンロードではなく、整った1つのファイルにしたい。"
+                  ]
+                },
+                {
+                  "h": "フォルダに保存したほうがよい場面",
+                  "no": true,
+                  "items": [
+                    "合計が 256MB に近い、または超える。動画、大きな図面、スキャンした本など。",
+                    "種類別・サイト別に、別々のフォルダに分けたい。",
+                    "すぐに1つずつ開いたり、名前を変えたりしたい。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "art",
+              "h": "ZIP は出力の方法の1つ",
+              "p": [
+                "同じ選択を、別々のファイルとして保存したり、結合（PDF）したり、ファイルの一覧（CSV）にしたりもできます。処理はすべてブラウザーの中で行います。"
+              ],
+              "items": [
+                [
+                  "dl-outputs",
+                  "保存・ZIP・結合・CSV",
+                  "ZIP はファイルを変えず、まとめるだけです。PDF の結合と一覧の書き出しは、別のボタンです。",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "text",
+              "h": "「ページ別HTML（ZIP）」とは別の機能です",
+              "p": [
+                "「ページ別HTML（ZIP）」は、もう一つの道具である「ページをHTMLにまとめる」の保存の形です。保存した Web ページを、1ページ1つの HTML と index.html にして ZIP に入れます。「ファイル一括ダウンロード」の ZIP ボタンは、PDF や Office 文書などをそのままの形でまとめます。2つは別々の機能で、上の上限は ZIP ボタンにだけ当てはまります。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "download-files-from-webpage",
+                  "先にファイルを見つけて絞り込む。"
+                ],
+                [
+                  "rename-and-organize-bulk-pdf-downloads",
+                  "保存するファイルの名前とフォルダ。"
+                ],
+                [
+                  "bulk-download-word-excel-powerpoint",
+                  "まとめやすい例：Office 文書。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "ページの複数のファイルを ZIP 1つでダウンロードするには？",
+              "a": "「ファイル一括ダウンロード」でページをスキャンし、ファイルにチェックを入れて、「ZIP」を押します。1つの書庫になります。"
+            },
+            {
+              "q": "無料では、1つの ZIP に何件入れられますか？",
+              "a": "10件です。無料の1回のダウンロードと同じです。それ以上は、次のファイルを選んでもう一度 ZIP を押します。"
+            },
+            {
+              "q": "作れる ZIP の最大サイズは？",
+              "a": "合計 256MB です。200MB を超えると確認が出ます。複数の ZIP への分割はしません。"
+            },
+            {
+              "q": "ZIP のファイル名はどうなりますか？",
+              "a": "サイトのホスト名と日付です。例：docs.example.com_2026-11-17.zip。先頭の www. は付きません。"
+            },
+            {
+              "q": "選んだ分が ZIP には大きすぎます。どうすれば？",
+              "a": "1つの ZIP に入れる件数を減らすか、ZIP にせずフォルダに保存してください。"
+            }
+          ]
+        }
+      }
+    },
+    "download-linked-video-and-audio-files": {
+      "path": "download-linked-video-and-audio-files.html",
+      "v2": true,
+      "related": [
+        "download-files-from-webpage",
+        "download-multiple-files-as-zip",
+        "save-course-materials-and-syllabi",
+        "what-grab-all-files-can-and-cannot-do",
+        "export-file-links-to-csv"
+      ],
+      "copy": {
+        "en": {
+          "title": "Download mp4 and mp3 files linked on a web page in bulk | Grab All Files",
+          "desc": "Save video and audio that a page links to as plain files (mp4, mp3 and more). Streaming such as HLS and DASH, video sites and DRM are not saved. Free and Pro.",
+          "eyebrow": "Video and audio files",
+          "h1": "Save the video and audio files a page links to, and know what is not covered.",
+          "lead": "Some pages simply link to a file: a lecture recording as .mp4, a podcast episode as .mp3, a product demo as .mov. Grab All Files detects those links, lists them, and saves the ones you select. It does not save streamed video. Please use it only for material you have the right to keep.",
+          "blocks": [
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "Saved: files linked directly",
+                  "items": [
+                    "A link or download button that points at a media file, such as lecture.mp4 or episode-12.mp3.",
+                    "Video files and audio files alike. Detection is the same on Free and Pro.",
+                    "Files on pages you must sign in to, if you open them in the same browser while signed in."
+                  ]
+                },
+                {
+                  "h": "Not saved",
+                  "no": true,
+                  "items": [
+                    "Streams delivered in pieces (HLS with .m3u8, DASH with .mpd).",
+                    "Videos on streaming and video-sharing sites, including YouTube.",
+                    "Content protected by DRM. Protection and watermarks are not worked around.",
+                    "Playback from a blob: address, or a player address with no file extension.",
+                    "Recording a stream, or putting its pieces back together."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "table",
+              "h": "Extensions it recognizes (examples)",
+              "p": [
+                "In the filter panel these are the categories “Video” and “Audio”."
+              ],
+              "head": [
+                "Category",
+                "Examples of extensions",
+                "Count"
+              ],
+              "rows": [
+                [
+                  "Video",
+                  "mp4, m4v, mov, webm, mkv, avi, wmv, flv, mpeg, 3gp, ogv",
+                  "20 kinds"
+                ],
+                [
+                  "Audio",
+                  "mp3, m4a, wav, flac, aac, ogg, opus, wma, aiff",
+                  "25 kinds"
+                ]
+              ],
+              "after": [
+                "The lists above are examples. Files with other listed extensions are detected too, and each file appears in the list with its type, so you can see what was found before you save anything."
+              ]
+            },
+            {
+              "t": "art",
+              "h": "Check the list before you save",
+              "p": [
+                "Media files are often large, so look at the list first. You can filter by type, sort by size and search by name or title."
+              ],
+              "items": [
+                [
+                  "dl-filter",
+                  "Filter the found files",
+                  "Keep only the Video or Audio category, untick what you do not need, and save the rest.",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Steps",
+              "num": true,
+              "items": [
+                "Open the page that links to the files, and sign in first if it needs one.",
+                "Open Grab All Files, use “Bulk File Download” and scan the page. To reach files on pages one link away, raise the scan depth.",
+                "Filter to “Video” or “Audio”. Check the sizes and names.",
+                "Save the ones you selected. On Free, one download is 10 files; for the next ones, select them and press save again. Pro has no limit on the count.",
+                "If the total is large, save to a folder rather than as one ZIP: a ZIP has a limit of 256 MB and is not split."
+              ]
+            },
+            {
+              "t": "text",
+              "h": "If the video you want is not in the list",
+              "p": [
+                "If a player on the page plays the video but no file shows up, the page is probably streaming it, and Grab All Files will not save it. Look for a download link or an offer from the site itself, or ask whoever published it for the file.",
+                "Rights are your responsibility. Saving a file you can reach does not make it free to reuse. Use it for recordings you made, material you license, or files the owner offers for download."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "download-files-from-webpage",
+                  "How the file list, filters and limits work."
+                ],
+                [
+                  "download-multiple-files-as-zip",
+                  "ZIP size limits, and when a folder is better."
+                ],
+                [
+                  "what-grab-all-files-can-and-cannot-do",
+                  "The full picture of what it does and does not cover."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can Grab All Files download mp4 files from a web page?",
+              "a": "Yes, when the page links to the mp4 file directly. The file appears in the list under Video, and you select and save it."
+            },
+            {
+              "q": "Can it save a YouTube video or a streamed video?",
+              "a": "No. It does not save videos from video sites, HLS or DASH streams, or DRM-protected content, and it does not record or reassemble streams."
+            },
+            {
+              "q": "Does it also find audio files like mp3?",
+              "a": "Yes. Audio files linked directly are detected under Audio, for example mp3, m4a, wav and flac."
+            },
+            {
+              "q": "Is there a limit on the number of files?",
+              "a": "On Free, 10 files per download; for more, select the next ones and save again. Pro has no limit on the count."
+            },
+            {
+              "q": "Is it all right to download any video I find?",
+              "a": "Only if you have the right to keep it. A file being reachable does not mean you may copy or reuse it."
+            }
+          ]
+        },
+        "ja": {
+          "title": "ページにリンクされた mp4・mp3 などの動画・音声を一括ダウンロード | Grab All Files",
+          "desc": "ページが直接リンクしている動画・音声ファイル（mp4・mp3 など）を保存。HLS・DASH などの配信、動画サイト、DRM は対象外です。無料・Pro 共通。",
+          "eyebrow": "動画・音声ファイル",
+          "h1": "ページにリンクされた動画・音声ファイルを保存する。対象外も先に確かめる。",
+          "lead": "ページが、ファイルをそのままリンクしていることがあります。講義の録画が .mp4、ポッドキャストの1回分が .mp3、製品デモが .mov、といった形です。Grab All Files は、そうしたリンクを見つけて一覧にし、選んだものを保存します。配信（ストリーミング）の動画は保存しません。権利のある素材にだけ使ってください。",
+          "blocks": [
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "保存するもの：直接リンクされたファイル",
+                  "items": [
+                    "lecture.mp4 や episode-12.mp3 のように、メディアのファイルを指すリンクやダウンロードボタン。",
+                    "動画ファイルも音声ファイルも。検出は無料も Pro も同じです。",
+                    "ログインが必要なページのファイル。ログインしたまま同じブラウザーで開いている場合。"
+                  ]
+                },
+                {
+                  "h": "保存しないもの",
+                  "no": true,
+                  "items": [
+                    "細かく分けて配信されるストリーム（.m3u8 の HLS、.mpd の DASH）。",
+                    "YouTube を含む、配信サイト・動画共有サイトの動画。",
+                    "DRM で保護された内容。保護や透かしを回避することはしません。",
+                    "blob: のアドレスでの再生や、拡張子のない再生用のアドレス。",
+                    "ストリームの録画や、細かく分かれたものの再構成。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "table",
+              "h": "認識する拡張子（例）",
+              "p": [
+                "絞り込みのカテゴリ名は「動画」と「音声」です。"
+              ],
+              "head": [
+                "カテゴリ",
+                "拡張子の例",
+                "種類の数"
+              ],
+              "rows": [
+                [
+                  "動画",
+                  "mp4、m4v、mov、webm、mkv、avi、wmv、flv、mpeg、3gp、ogv",
+                  "20種類"
+                ],
+                [
+                  "音声",
+                  "mp3、m4a、wav、flac、aac、ogg、opus、wma、aiff",
+                  "25種類"
+                ]
+              ],
+              "after": [
+                "上は例です。ほかにも対応する拡張子のファイルは検出されます。見つかったファイルは種類つきで一覧に出るので、保存の前に何が見つかったかを確かめられます。"
+              ]
+            },
+            {
+              "t": "art",
+              "h": "保存の前に一覧を確かめる",
+              "p": [
+                "メディアのファイルは大きいことが多いので、先に一覧を見ます。種類で絞り込み、サイズで並べ替え、名前やタイトルで検索できます。"
+              ],
+              "items": [
+                [
+                  "dl-filter",
+                  "見つかったファイルを絞り込む",
+                  "「動画」か「音声」だけにして、要らないもののチェックを外し、残りを保存します。",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "手順",
+              "num": true,
+              "items": [
+                "ファイルへのリンクがあるページを開きます。ログインが要るなら、先にログインします。",
+                "Grab All Files の「ファイル一括ダウンロード」を開き、ページをスキャンします。リンク1つ先のページのファイルも欲しいときは、スキャンの深さを上げます。",
+                "「動画」または「音声」に絞り込みます。サイズと名前を確かめます。",
+                "選んだものを保存します。無料は1回のダウンロードが10件までで、続きは次のファイルを選んでもう一度保存します。Pro は件数の上限がありません。",
+                "合計が大きいときは、ZIP 1つではなくフォルダに保存します。ZIP は上限が 256MB で、分割されません。"
+              ]
+            },
+            {
+              "t": "text",
+              "h": "欲しい動画が一覧に出ないとき",
+              "p": [
+                "ページのプレーヤーで再生できるのに、ファイルが一覧に出ないときは、そのページが配信（ストリーミング）で再生している可能性が高く、Grab All Files では保存しません。サイト側のダウンロードの案内を探すか、公開している人にファイルを頼んでください。",
+                "権利の確認は利用者の責任です。手が届くファイルを保存できても、自由に再利用してよいことにはなりません。自分で録画したもの、利用許諾のある素材、所有者がダウンロードを認めているファイルに使ってください。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "download-files-from-webpage",
+                  "ファイルの一覧・絞り込み・件数の上限の仕組み。"
+                ],
+                [
+                  "download-multiple-files-as-zip",
+                  "ZIP のサイズの上限と、フォルダのほうがよい場面。"
+                ],
+                [
+                  "what-grab-all-files-can-and-cannot-do",
+                  "できること・できないことの全体像。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Web ページの mp4 ファイルをダウンロードできますか？",
+              "a": "ページが mp4 ファイルを直接リンクしていれば、できます。一覧の「動画」にファイルが出るので、選んで保存します。"
+            },
+            {
+              "q": "YouTube の動画や、配信の動画は保存できますか？",
+              "a": "できません。動画サイトの動画、HLS・DASH の配信、DRM で保護された内容は保存せず、ストリームの録画や再構成もしません。"
+            },
+            {
+              "q": "mp3 などの音声ファイルも見つかりますか？",
+              "a": "見つかります。直接リンクされた音声ファイルは「音声」に出ます。例：mp3、m4a、wav、flac。"
+            },
+            {
+              "q": "ファイルの件数に上限はありますか？",
+              "a": "無料は1回のダウンロードで10件までで、続きは次のファイルを選んでもう一度保存します。Pro は件数の上限がありません。"
+            },
+            {
+              "q": "見つけた動画は、何でもダウンロードしてよいですか？",
+              "a": "保存してよい権利があるものだけです。ファイルに届くことは、コピーや再利用が許されていることを意味しません。"
+            }
+          ]
+        }
+      }
+    },
+    "save-pages-with-source-url-and-date": {
+      "path": "save-pages-with-source-url-and-date.html",
+      "v2": true,
+      "related": [
+        "save-web-pages-with-original-design",
+        "combine-web-pages-into-one-html",
+        "save-web-pages-as-markdown",
+        "website-to-notebooklm-chatgpt-claude",
+        "archive-website-before-it-closes",
+        "save-and-compare-document-revisions"
+      ],
+      "copy": {
+        "en": {
+          "title": "Save web pages with the source URL and capture time | Grab All Files",
+          "desc": "Where the original URL and the capture time end up in each saved form of Grab All Files, which ones show them on screen, and which ones do not record a URL per page.",
+          "eyebrow": "Source and time",
+          "h1": "Keep the source address and the capture time with every saved page.",
+          "lead": "Whether a saved page tells you where it came from, and when, depends on the look and the form you chose. In some combinations the URL and time are printed under each page title. In others they sit in a comment inside the HTML, or in the Markdown text, or they are not recorded per page. The table below lists each one. It records a source and a time; it makes no claim about what a saved file counts as in a dispute.",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "Where the URL and the time are kept",
+              "head": [
+                "Look and form",
+                "Where they are",
+                "Visible when you open the file"
+              ],
+              "rows": [
+                [
+                  "“Keep the original look” + HTML with contents and search",
+                  "Under each page’s title: the original URL as a link, and the capture time",
+                  "Yes, on screen"
+                ],
+                [
+                  "“Keep the original look” + Separate HTML pages (ZIP)",
+                  "A comment at the top of each HTML file: the url and the saved date",
+                  "No. You see it in the page source"
+                ],
+                [
+                  "“Keep the original look” + Vertically joined HTML (for printing)",
+                  "HTML comments with the title, the URL and the saved date",
+                  "No. You see it in the page source"
+                ],
+                [
+                  "“Easy to read”, any form",
+                  "No URL line per page. The capture time at the top of the document appears only if you turn on “Include the collection details and the list of failures”, which is off by default",
+                  "Only with that option on, and then only the time"
+                ],
+                [
+                  "AI Markdown (one file, per page, or full package)",
+                  "source_url and captured_at on each page. chunks.jsonl and manifest.json carry both too",
+                  "Yes, as text in the file"
+                ]
+              ],
+              "after": [
+                "The table covers the combinations checked for this guide. For any other combination, open a saved file and look before you rely on it."
+              ]
+            },
+            {
+              "t": "art",
+              "h": "The two looks and the AI output",
+              "items": [
+                [
+                  "look-original",
+                  "Keep the original look",
+                  "The page is saved with its own layout. This is the look that records the URL and the time, on screen or in a comment.",
+                  240,
+                  84
+                ],
+                [
+                  "look-reader",
+                  "Easy to read",
+                  "Only the body text, in one plain style. Faster and lighter, but with no URL line per page.",
+                  240,
+                  84
+                ],
+                [
+                  "ai-package",
+                  "AI output",
+                  "Markdown, JSONL and a manifest with source_url and captured_at kept for each page.",
+                  96,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "cards",
+              "h": "Which to choose for what you need",
+              "items": [
+                [
+                  "You read it or print it, and want the source in view",
+                  "“Keep the original look” with “HTML with contents and search”. The URL and the time are under each title, so a printout shows them."
+                ],
+                [
+                  "You keep one HTML file per page",
+                  "“Keep the original look” with “Separate HTML pages (ZIP)”. The URL and date are in a comment at the top of each file, and the pages are listed in index.html."
+                ],
+                [
+                  "You search the text later, or give it to an AI service",
+                  "AI Markdown. Every page has source_url and captured_at as text, and so does every entry in the JSONL and the manifest."
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "How to check a saved file yourself",
+              "num": true,
+              "items": [
+                "Save one or two pages first with the look and form you plan to use.",
+                "Open the file in the browser. In the contents-and-search form, look under the page title for the URL and the time.",
+                "For the ZIP and the vertically joined form, view the page source in the browser and read the comment at the top, or open the file in a text editor.",
+                "For Markdown, open the .md file and look for source_url and captured_at at each page.",
+                "If the URL or the time is not there, change the look or form, or turn on the collection details option, and save again."
+              ]
+            },
+            {
+              "t": "text",
+              "h": "What it does and does not tell you",
+              "p": [
+                "A saved page records the address it was read from and the time it was captured. That lets you find the original again and tell an old capture from a new one. If you compare captures of the same site over time, a separate change report in Markdown compares the last completed collection of the site with the new one, by URL, title and text.",
+                "A file on your computer can be edited like any other file, so the URL and the time are a note kept with the page, not a seal. This guide does not say how a court, an auditor or a platform would treat such a file."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "save-web-pages-with-original-design",
+                  "How “Keep the original look” stores fonts, images and frames."
+                ],
+                [
+                  "save-web-pages-as-markdown",
+                  "Markdown with source_url and captured_at."
+                ],
+                [
+                  "save-and-compare-document-revisions",
+                  "Saving the same pages at different times and comparing them."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Does a saved page show its original URL?",
+              "a": "With “Keep the original look” and “HTML with contents and search”, yes: under each page title, with the capture time. With “Easy to read”, there is no URL line per page."
+            },
+            {
+              "q": "Where is the URL kept in the ZIP of separate HTML pages?",
+              "a": "In a comment at the top of each HTML file, as url and saved date, when you use “Keep the original look”. It is not printed on the page."
+            },
+            {
+              "q": "Can I get the capture time with “Easy to read”?",
+              "a": "Yes, turn on “Include the collection details and the list of failures”. It is off by default, and it adds the capture time at the top of the document, not a URL line for each page."
+            },
+            {
+              "q": "Which output keeps the URL and the time in a machine-readable form?",
+              "a": "The AI Markdown output. Each page has source_url and captured_at, and chunks.jsonl and manifest.json have both."
+            },
+            {
+              "q": "Will a printout show the source?",
+              "a": "With “Keep the original look” and “HTML with contents and search”, yes: the URL and the time are printed under each title. With the vertically joined form they are only in an HTML comment, so a printout does not show them."
+            }
+          ]
+        },
+        "ja": {
+          "title": "Webページを元のURLと取得日時付きで保存する | Grab All Files",
+          "desc": "Grab All Files の保存の形ごとに、元の URL と取得日時がどこに残るか。画面に出る形、出ない形、ページごとの URL を記録しない形を表にまとめました。",
+          "eyebrow": "出典と日時",
+          "h1": "保存したページに、元のアドレスと取得日時を残す。",
+          "lead": "保存したページが、どこから来て、いつ取ったものかを語るかどうかは、選んだ見た目と保存の形で変わります。各ページのタイトルの下に URL と日時が出る組み合わせ、HTML の中のコメントに入る組み合わせ、Markdown の本文に入る組み合わせ、ページごとには記録しない組み合わせがあります。下の表に、それぞれを並べました。残るのは出典と時刻で、保存したファイルが争いの場でどう扱われるかについては、何も言いません。",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "URL と日時がどこに残るか",
+              "head": [
+                "見た目と保存の形",
+                "残る場所",
+                "ファイルを開いて見えるか"
+              ],
+              "rows": [
+                [
+                  "「元の見た目のまま」＋目次・検索付きHTML",
+                  "各ページのタイトルの下に、元の URL（リンク）と「取得日時」",
+                  "見える（画面に出る）"
+                ],
+                [
+                  "「元の見た目のまま」＋ページ別HTML（ZIP）",
+                  "各 HTML の先頭のコメントに、url と saved date",
+                  "見えない。ページのソースで見る"
+                ],
+                [
+                  "「元の見た目のまま」＋縦につないだHTML（印刷向け）",
+                  "HTML のコメントに、タイトル・URL・saved date",
+                  "見えない。ページのソースで見る"
+                ],
+                [
+                  "「読みやすく整える」（どの形でも）",
+                  "ページごとの URL の行はない。文書の先頭の取得日時は、「取得情報と失敗一覧を入れる」を ON にしたときだけ（既定は OFF）",
+                  "ON のときだけ、日時だけ"
+                ],
+                [
+                  "AI 用 Markdown（1つ・ページ別・フルパッケージ）",
+                  "各ページに source_url と captured_at。chunks.jsonl と manifest.json にも両方入る",
+                  "見える（ファイルの文字として）"
+                ]
+              ],
+              "after": [
+                "この表は、このガイドのために確かめた組み合わせです。ほかの組み合わせは、保存したファイルを開いて確かめてから使ってください。"
+              ]
+            },
+            {
+              "t": "art",
+              "h": "2つの見た目と AI 用の出力",
+              "items": [
+                [
+                  "look-original",
+                  "元の見た目のまま",
+                  "ページを、そのページのレイアウトのまま保存します。URL と日時を、画面かコメントに残すのはこの見た目です。",
+                  240,
+                  84
+                ],
+                [
+                  "look-reader",
+                  "読みやすく整える",
+                  "本文だけを、同じ書式にそろえます。速く、軽くなりますが、ページごとの URL の行はありません。",
+                  240,
+                  84
+                ],
+                [
+                  "ai-package",
+                  "AI 用の出力",
+                  "Markdown・JSONL・manifest に、ページごとの source_url と captured_at を残します。",
+                  96,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "cards",
+              "h": "目的で選ぶ",
+              "items": [
+                [
+                  "読む・印刷するときに、出典を見える位置に置きたい",
+                  "「元の見た目のまま」の「目次・検索付きHTML」。各タイトルの下に URL と日時が出るので、印刷した紙にも載ります。"
+                ],
+                [
+                  "1ページ1つの HTML で残したい",
+                  "「元の見た目のまま」の「ページ別HTML（ZIP）」。各ファイルの先頭のコメントに URL と日付が入り、ページの一覧は index.html にあります。"
+                ],
+                [
+                  "あとで本文を検索する、または AI サービスに渡す",
+                  "AI 用 Markdown。各ページに source_url と captured_at が文字で入り、JSONL と manifest の各項目にも入ります。"
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "保存したファイルを自分で確かめる手順",
+              "num": true,
+              "items": [
+                "まず、使うつもりの見た目と保存の形で、1〜2ページを保存します。",
+                "ファイルをブラウザーで開きます。目次・検索付きの形なら、ページのタイトルの下に URL と日時があるかを見ます。",
+                "ZIP と縦につないだ形では、ブラウザーでページのソースを表示して先頭のコメントを読むか、テキストエディターで開きます。",
+                "Markdown なら、.md を開いて、各ページに source_url と captured_at があるかを見ます。",
+                "URL や日時がなければ、見た目か保存の形を変えるか、「取得情報と失敗一覧を入れる」を ON にして、保存し直します。"
+              ]
+            },
+            {
+              "t": "text",
+              "h": "分かることと、分からないこと",
+              "p": [
+                "保存したページには、読み取ったアドレスと、取得した時刻が残ります。それで元のページを探し直せ、古い取得と新しい取得を見分けられます。同じサイトを時間をおいて取り直して比べるなら、Markdown の変更レポートが、同じサイトの直前の完了した収集と今回を、URL・タイトル・本文で比べます。",
+                "パソコンの中のファイルはほかのファイルと同じように編集できるので、URL と日時は、ページに添えたメモであり、封印ではありません。このようなファイルを、裁判所・監査人・サービス事業者がどう扱うかは、このガイドでは述べません。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "save-web-pages-with-original-design",
+                  "「元の見た目のまま」がフォント・画像・枠をどう保存するか。"
+                ],
+                [
+                  "save-web-pages-as-markdown",
+                  "source_url と captured_at が入る Markdown。"
+                ],
+                [
+                  "save-and-compare-document-revisions",
+                  "同じページを時間をおいて保存し、比べる。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "保存したページに、元の URL は出ますか？",
+              "a": "「元の見た目のまま」の「目次・検索付きHTML」なら、各ページのタイトルの下に、取得日時と一緒に出ます。「読みやすく整える」では、ページごとの URL の行はありません。"
+            },
+            {
+              "q": "ページ別HTML（ZIP）では、URL はどこにありますか？",
+              "a": "「元の見た目のまま」なら、各 HTML の先頭のコメントに、url と saved date として入っています。ページの上には表示されません。"
+            },
+            {
+              "q": "「読みやすく整える」でも取得日時を残せますか？",
+              "a": "「取得情報と失敗一覧を入れる」を ON にします。既定は OFF です。文書の先頭に取得日時が入りますが、ページごとの URL の行は入りません。"
+            },
+            {
+              "q": "URL と日時を、機械が読める形で残せるのはどれですか？",
+              "a": "AI 用 Markdown です。各ページに source_url と captured_at があり、chunks.jsonl と manifest.json にも両方入ります。"
+            },
+            {
+              "q": "印刷した紙に、出典は載りますか？",
+              "a": "「元の見た目のまま」の「目次・検索付きHTML」なら、各タイトルの下の URL と日時が印刷されます。縦につないだ形では HTML のコメントにしか入らないので、紙には載りません。"
+            }
+          ]
+        }
+      }
+    },
+    "download-insurance-policy-documents": {
+      "path": "download-insurance-policy-documents.html",
+      "v2": true,
+      "related": [
+        "rename-and-organize-bulk-pdf-downloads",
+        "save-and-compare-document-revisions",
+        "export-file-links-to-csv",
+        "download-product-catalogs-and-datasheets",
+        "download-all-pdfs"
+      ],
+      "copy": {
+        "en": {
+          "title": "Download insurance policy terms, brochures and disclosure PDFs | Grab All Files",
+          "desc": "Collect policy terms, brochures, key-information documents and revision notices from insurers' product pages, name them by product, and keep your own record of versions.",
+          "eyebrow": "Insurance agents and comparison work",
+          "h1": "Collect policy terms, brochures and disclosure documents by product.",
+          "lead": "An agency or a comparison desk often needs the same set of PDFs for each product: the policy terms, the brochure, the document that explains key points, and the notice of revisions. Grab All Files finds the PDFs on a product page, lets you pick the ones you need, and saves them with names and folders that make sense to you. It does not read the contents or record versions for you. You write down the version and the revision date yourself.",
+          "blocks": [
+            {
+              "t": "cards",
+              "h": "The documents you usually collect for one product",
+              "items": [
+                [
+                  "Policy terms (約款)",
+                  "The long PDF with the full conditions. Often split into general terms and special provisions, each its own file."
+                ],
+                [
+                  "Brochure",
+                  "The sales leaflet, one or two PDFs per product, often with a separate one for each plan or rider."
+                ],
+                [
+                  "Key-information document",
+                  "The explanation of important matters, sometimes one file per sales channel or per age group."
+                ],
+                [
+                  "Contract outline and notices",
+                  "The summary sheet for the contract and any notice that the insurer posts when terms change."
+                ],
+                [
+                  "Revision notices",
+                  "A list or page of changes with dates, as PDFs or as ordinary web pages."
+                ],
+                [
+                  "Application forms and guides",
+                  "Claim forms, change-of-address forms and procedure guides that are linked from the same product page."
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "Pick the PDFs, name them, sort them into folders",
+              "src": "/assets/screenshots/use-case-rename-and-organize-bulk-pdf-downloads-en.png",
+              "alt": "Grab All Files, Bulk File Download: a scanned list of two PDF files with checkboxes, a button to get the titles of the selected PDFs, and save options for the file name, folder sorting, PDF merge, ZIP and the file-information CSV.",
+              "cap": "The real panel on the Free plan, with sample files. The file name can come from the PDF's title. Folders can be sorted by type or by site, or not at all. The file-information CSV is next to the ZIP button.",
+              "w": 2240,
+              "hgt": 2000,
+              "webp": "/assets/screenshots/use-case-rename-and-organize-bulk-pdf-downloads-en.webp"
+            },
+            {
+              "t": "table",
+              "h": "What you record yourself",
+              "p": [
+                "The extension saves the files. It does not know which version of the terms a PDF is. Keep that information in the file name or in a sheet of your own."
+              ],
+              "head": [
+                "",
+                "What to write down",
+                "Where it comes from",
+                "Example name"
+              ],
+              "rows": [
+                [
+                  "Version or edition",
+                  "The edition mark printed in the PDF",
+                  "Open the PDF and read the cover or footer",
+                  "ProductA_terms_edition-12.pdf"
+                ],
+                [
+                  "Revision date",
+                  "The date the insurer gives for the change",
+                  "The notice page or the PDF itself",
+                  "ProductA_terms_2026-10-01.pdf"
+                ],
+                [
+                  "Date you collected it",
+                  "The day you saved the file",
+                  "The ZIP name includes the date; or note it yourself",
+                  "ProductA_brochure_got-2026-11-17.pdf"
+                ],
+                [
+                  "Channel or plan",
+                  "Which sales channel or plan the file is for",
+                  "The product page and the PDF title",
+                  "ProductA_key-info_agency.pdf"
+                ],
+                [
+                  "Source page",
+                  "The page where you found it",
+                  "The Source page column in the file-information CSV",
+                  "(kept in the CSV)"
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Steps",
+              "num": true,
+              "items": [
+                "Open the insurer's product page, or the page that lists the documents for one product. If a PDF list needs a search first, run the search and open the result page.",
+                "Open Grab All Files and use “Bulk File Download”. Scan the page. Keep “This page only” if all the files are on that one page, or choose “Depth 1” if the PDFs are on pages linked from it.",
+                "In the list, narrow by type to PDF, and check titles and sizes. Remove the ones you do not need, such as forms for other products.",
+                "Set the file name to the PDF's title (use the button that gets the titles of the selected PDFs), and choose how to sort the folders. Save the selected files.",
+                "Press the file-information CSV button. Open it in a spreadsheet and add your own columns for edition and revision date."
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "What this saves you from",
+                  "items": [
+                    "Clicking each PDF on a page that links twenty of them.",
+                    "Files named doc_001.pdf with no way to tell which product they belong to.",
+                    "Losing track of which page a PDF came from, because the CSV lists its source page.",
+                    "A flat folder with every product mixed together."
+                  ]
+                },
+                {
+                  "h": "What it does not do",
+                  "no": true,
+                  "items": [
+                    "It does not judge which edition applies to a contract or whether a product suits a customer.",
+                    "It does not detect that the insurer posted a new revision. You check the notice page yourself.",
+                    "It does not compare the text inside two PDFs.",
+                    "It does not open pages that need a login you do not have."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "text",
+              "h": "Comparing revisions",
+              "p": [
+                "The simplest way to compare two editions is to keep both PDFs in the same product folder with the edition or date in the name, then open them side by side. The “Modified” column in the file-information CSV is the date the server reports for the file. It is not the revision date the insurer prints, so do not use it as one.",
+                "If the insurer publishes its revision notices as an ordinary web page, you can save that page with “Combine pages into HTML” each time and ask for the change report. The report compares the pages you collected earlier and now by URL, title and body text. It compares web pages, not the inside of PDFs."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "rename-and-organize-bulk-pdf-downloads",
+                  "Names from titles, folders by type or site."
+                ],
+                [
+                  "save-and-compare-document-revisions",
+                  "How the change report compares two collections."
+                ],
+                [
+                  "export-file-links-to-csv",
+                  "What the file-information CSV contains."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can I download policy terms and brochures from many product pages at once?",
+              "a": "You scan one page at a time, or follow links from a start page with “Depth 1” to “Depth 5”. The list shows every PDF found, and you choose which to save. On Free, one save is limited to 10 selected files; Pro has no per-save limit."
+            },
+            {
+              "q": "Does it tell me which edition of the terms a PDF is?",
+              "a": "No. The file-information CSV has the file name, title, size, the date the server reports for the file and the page it was found on. The edition and the revision date are things you read from the document and write down."
+            },
+            {
+              "q": "Can it notice when an insurer revises its terms?",
+              "a": "Not by itself. You open the notice page or the product page again and save what changed. For ordinary web pages, the change report compares your latest collection with the previous one of the same site."
+            },
+            {
+              "q": "Will it name the files by product?",
+              "a": "It can use the PDF's title as the file name, and sort folders by type or by site. A product name that is not in the title or the site name is something you add yourself, by renaming afterwards or in your sheet."
+            },
+            {
+              "q": "Is anything about the policies sent to your servers?",
+              "a": "No. Files go from the insurer's site to your computer, and the work happens in your browser. Only the license check, and optional usage statistics if you turn them on, reach the developer."
+            }
+          ]
+        },
+        "ja": {
+          "title": "保険の約款・パンフレット・重要事項説明書をまとめてダウンロード | Grab All Files",
+          "desc": "保険会社の商品ページから約款・パンフレット・重要事項説明書・改定のお知らせの PDF を集め、商品別に名前を付けて整理。版や改定日は自分で記録します。",
+          "eyebrow": "保険代理店・比較業務",
+          "h1": "約款・パンフレット・重要事項説明書を、商品ごとにまとめて集める。",
+          "lead": "保険の代理店や比較の担当者は、商品ごとに同じ種類の PDF をそろえます。約款、パンフレット、重要事項の説明書、改定のお知らせなどです。Grab All Files は、商品ページにある PDF を見つけて一覧にし、必要なものだけ選んで、名前とフォルダを整えて保存します。内容を読んだり、版を自動で記録したりはしません。版と改定日は、利用者が自分で書き留めます。",
+          "blocks": [
+            {
+              "t": "cards",
+              "h": "1 商品で集める資料の種類",
+              "items": [
+                [
+                  "約款",
+                  "条件がすべて書かれた長い PDF。普通保険約款と特約に分かれていて、それぞれ別ファイルのことが多い。"
+                ],
+                [
+                  "パンフレット",
+                  "販売用のリーフレット。1 商品に 1〜2 本。プランや特約ごとに別の PDF があることもある。"
+                ],
+                [
+                  "重要事項説明書",
+                  "大切な点を説明する書類。販売経路や年齢区分ごとに別ファイルのことがある。"
+                ],
+                [
+                  "契約概要・お知らせ",
+                  "契約の要点をまとめた書類と、約款が変わったときに会社が出すお知らせ。"
+                ],
+                [
+                  "改定の案内",
+                  "変更点と日付の一覧。PDF のこともあれば、普通の Web ページのこともある。"
+                ],
+                [
+                  "申込書・手続きの案内",
+                  "同じ商品ページからリンクされた請求書類、住所変更の書類、手続きの案内。"
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "PDF を選び、名前を付け、フォルダに分ける",
+              "src": "/assets/screenshots/use-case-rename-and-organize-bulk-pdf-downloads-ja.png",
+              "alt": "Grab All Files の「ファイル一括ダウンロード」。スキャンした PDF 2 件にチェックが付いた一覧と、選んだ PDF のタイトルを取得するボタン、保存名・整理・PDF結合・ZIP・ファイル情報CSV出力の設定。",
+              "cap": "無料プランの実際の画面です（サンプルのファイル）。保存名は PDF のタイトルにできます。整理は種類別・サイト別・なしから選べます。ファイル情報CSV出力は ZIP のボタンの近くにあります。",
+              "w": 2240,
+              "hgt": 2000,
+              "webp": "/assets/screenshots/use-case-rename-and-organize-bulk-pdf-downloads-ja.webp"
+            },
+            {
+              "t": "table",
+              "h": "利用者が自分で記録すること",
+              "p": [
+                "拡張機能はファイルを保存します。その PDF が約款の何版なのかは分かりません。ファイル名か自分の表に残してください。"
+              ],
+              "head": [
+                "",
+                "書き留めること",
+                "どこで分かるか",
+                "名前の例"
+              ],
+              "rows": [
+                [
+                  "版",
+                  "PDF に印刷されている版の表記",
+                  "PDF を開いて表紙や末尾を読む",
+                  "商品A_約款_第12版.pdf"
+                ],
+                [
+                  "改定日",
+                  "会社が示す変更の日付",
+                  "お知らせのページか PDF 本文",
+                  "商品A_約款_2026-10-01.pdf"
+                ],
+                [
+                  "取得した日",
+                  "ファイルを保存した日",
+                  "ZIP の名前に日付が入る。自分でも記録する",
+                  "商品A_パンフ_取得2026-11-17.pdf"
+                ],
+                [
+                  "販売経路・プラン",
+                  "どの経路・プラン向けの資料か",
+                  "商品ページと PDF のタイトル",
+                  "商品A_重要事項_代理店用.pdf"
+                ],
+                [
+                  "元のページ",
+                  "見つけたページ",
+                  "ファイル情報CSVの「Source page」列",
+                  "（CSV に残る）"
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "手順",
+              "num": true,
+              "items": [
+                "保険会社の商品ページ、または 1 商品の資料が並ぶページを開きます。PDF の一覧が検索しないと出ないときは、先に検索して結果のページを開きます。",
+                "Grab All Files を開いて「ファイル一括ダウンロード」でスキャンします。資料が 1 ページに全部あるなら「このページのみ」のまま。リンク先のページにあるなら「深さ 1」にします。",
+                "一覧で種類を PDF に絞り、タイトルとサイズを確かめます。ほかの商品の書類など、要らないものは外します。",
+                "保存名を PDF のタイトルにし（選んだ PDF のタイトルを取得するボタンを使います）、整理でフォルダの分け方を選んで、選んだファイルを保存します。",
+                "ファイル情報CSV出力を押し、表計算ソフトで開いて、版と改定日の列を自分で足します。"
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "省けること",
+                  "items": [
+                    "20 本の PDF がリンクされたページで、1 本ずつクリックして保存する手間。",
+                    "doc_001.pdf のような名前で、どの商品の資料か分からなくなること。",
+                    "どのページから取った PDF か忘れること。CSV に元のページが残ります。",
+                    "すべての商品が混ざった 1 つのフォルダ。"
+                  ]
+                },
+                {
+                  "h": "しないこと",
+                  "no": true,
+                  "items": [
+                    "どの版が契約に当てはまるか、商品が顧客に合うかの判断。",
+                    "会社が新しい改定を出したことの検知。お知らせのページは自分で見に行きます。",
+                    "2 つの PDF の中の文章の比較。",
+                    "自分にログイン権限のないページを開くこと。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "text",
+              "h": "改定を比べるには",
+              "p": [
+                "2 つの版を比べるいちばん簡単な方法は、同じ商品のフォルダに版か日付を名前に入れて両方残し、並べて開くことです。ファイル情報CSVの「Modified」は、サーバーが返すファイルの更新日です。会社が印刷した改定日ではないので、改定日として使わないでください。",
+                "改定のお知らせが普通の Web ページなら、「ページをHTMLにまとめる」でそのページを保存するたびに、差分レポートを作れます。レポートは、同じサイトの前回の収集と今回の収集を、URL・タイトル・本文で比べます。比べるのは Web ページで、PDF の中身ではありません。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "rename-and-organize-bulk-pdf-downloads",
+                  "タイトルから名前を付け、種類別・サイト別に分ける。"
+                ],
+                [
+                  "save-and-compare-document-revisions",
+                  "差分レポートが 2 回の収集をどう比べるか。"
+                ],
+                [
+                  "export-file-links-to-csv",
+                  "ファイル情報CSVに入る列。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "たくさんの商品ページから、約款やパンフレットをまとめて取れますか？",
+              "a": "スキャンは 1 ページずつか、起点のページから「深さ 1」〜「深さ 5」でリンクをたどって行います。見つかった PDF が一覧に並び、保存するものを選びます。無料プランは 1 回の保存で選んだ 10 件まで。Pro は 1 回の件数に上限がありません。"
+            },
+            {
+              "q": "PDF が約款の何版かを教えてくれますか？",
+              "a": "教えてくれません。ファイル情報CSVにあるのは、ファイル名・タイトル・サイズ・サーバーが返す更新日・見つかったページです。版と改定日は、書類を読んで自分で書き留めます。"
+            },
+            {
+              "q": "会社が約款を改定したことを自動で見つけられますか？",
+              "a": "自動ではできません。お知らせのページや商品ページをもう一度開いて、変わったところを保存します。普通の Web ページなら、同じサイトの前回の収集と今回の収集を差分レポートで比べられます。"
+            },
+            {
+              "q": "ファイル名に商品名を入れてくれますか？",
+              "a": "PDF のタイトルを保存名にでき、フォルダは種類別かサイト別に分けられます。タイトルやサイト名に商品名がないときは、保存したあとの名前変更か自分の表で足します。"
+            },
+            {
+              "q": "保険の資料がそちらのサーバーに送られますか？",
+              "a": "送られません。ファイルは保険会社のサイトからパソコンに直接保存され、処理はブラウザーの中で行います。開発者のサーバーに届くのは、ライセンスの確認と、オンにした場合の利用統計だけです。"
+            }
+          ]
+        }
+      }
+    },
+    "collect-law-case-and-patent-pdfs": {
+      "path": "collect-law-case-and-patent-pdfs.html",
+      "v2": true,
+      "related": [
+        "collect-public-government-documents",
+        "rename-and-organize-bulk-pdf-downloads",
+        "export-file-links-to-csv",
+        "download-all-pdfs",
+        "download-arxiv-pdfs-and-research-files"
+      ],
+      "copy": {
+        "en": {
+          "title": "Collect statute, court decision and patent PDFs from search results | Grab All Files",
+          "desc": "Select PDFs from the result pages of a public statute, case-law or patent database, name them by title and list sources. For large sets, use the provider's bulk download.",
+          "eyebrow": "Legal and patent research",
+          "h1": "Save the PDFs from a search result page and name them by title.",
+          "lead": "Public databases of statutes, court decisions and patents show a result page with a PDF behind each row. Grab All Files scans that page, lists every PDF it finds, and saves the ones you tick. It saves documents. It does not judge whether a text is current, correct or applicable, and it gives no legal advice. When you need thousands of documents, use the bulk download or API that the provider offers.",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "What you collect, and how each kind tends to be published",
+              "head": [
+                "",
+                "Typical file",
+                "What the result page looks like",
+                "Name to use"
+              ],
+              "rows": [
+                [
+                  "Statutes and regulations",
+                  "PDF of the consolidated text or of the official gazette page",
+                  "A list of titles, often with one PDF link per row",
+                  "Title and the date you saved it"
+                ],
+                [
+                  "Court decisions",
+                  "PDF of the full text, sometimes the judgment and a summary as two files",
+                  "Result pages with “Next”, one decision per row",
+                  "Court, date and case number from the title"
+                ],
+                [
+                  "Patents and utility models",
+                  "PDF of the publication or the granted patent",
+                  "Hit lists of dozens of rows per page, several pages",
+                  "Publication number and title"
+                ],
+                [
+                  "Guidelines and notices",
+                  "PDF, sometimes with Word or Excel attachments",
+                  "A page of links grouped by year",
+                  "Title and issue date"
+                ]
+              ],
+              "after": [
+                "The names in the last column are examples. The title the PDF reports is often the cleanest source, but check a few before you rely on it."
+              ]
+            },
+            {
+              "t": "art",
+              "h": "From a result page to a tidy folder",
+              "p": [
+                "Narrow the list before you save, then choose how the files come out."
+              ],
+              "items": [
+                [
+                  "dl-depth",
+                  "How far to look",
+                  "“This page only” for one result page; Depth 1 to 5 to follow links to detail pages that hold the PDF.",
+                  240,
+                  148
+                ],
+                [
+                  "dl-filter",
+                  "Narrow the list",
+                  "Filter by extension, size, file name or title. Search for a word in the list.",
+                  240,
+                  148
+                ],
+                [
+                  "dl-outputs",
+                  "How to save",
+                  "Save the files, make a ZIP, merge PDFs in the browser, or export the list as CSV.",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Steps",
+              "num": true,
+              "items": [
+                "Run your search in the database in your browser and set the display so that the result page shows as many rows as it allows.",
+                "With the result page open, start “Bulk File Download” and scan. If the PDF is not on the result page but on each detail page, choose “Depth 1”.",
+                "Narrow the list to PDF. Free reads only what is on the screen, so scroll a long result list to the end before scanning. Pro can scroll and follow the list's “Next” pages for you, by default up to 100 pages per scan.",
+                "Choose the file name “PDF title”, and a folder sort that suits the work: by type, by site, or none.",
+                "Save the selected files. On Free, one save takes up to 10 files; select the next ones and press save again.",
+                "Export the file-information CSV. It has the URL, file name, title and the page each file came from, which you can keep as your source list."
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "A good fit",
+                  "items": [
+                    "A few dozen to a few hundred PDFs from result pages for one research question.",
+                    "You want the title in the file name instead of a code such as a gazette page number.",
+                    "You need a list of where each file came from.",
+                    "The database lets you look at the pages without a login, or you have an account and use it in the same browser."
+                  ]
+                },
+                {
+                  "h": "Use the provider's own route instead",
+                  "no": true,
+                  "items": [
+                    "Tens of thousands of documents, or a full year of decisions. Look for a bulk download or an API from the provider.",
+                    "Text that you need as structured data rather than as PDFs. The provider's data files are better.",
+                    "Anything you must keep updated: the extension does not watch for changes.",
+                    "Questions about whether a text is in force or how it applies. That is for a qualified person and the original source."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "text",
+              "h": "Terms of use and what the file is",
+              "p": [
+                "Public databases set their own rules about automatic access, copying and re-use. Read them before you collect in volume, and keep the request rate modest by saving in batches. Grab All Files does not get around logins, limits or CAPTCHAs.",
+                "A PDF you save is a copy of what the site served on that day. Write the date you saved it next to the title in your list, and go back to the source when exact wording matters."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "collect-public-government-documents",
+                  "Government sites that publish by page and by year."
+                ],
+                [
+                  "rename-and-organize-bulk-pdf-downloads",
+                  "Names from titles, folders by type or site."
+                ],
+                [
+                  "export-file-links-to-csv",
+                  "The columns of the file-information CSV."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can I download all search results as PDFs?",
+              "a": "You can save every PDF the scan finds on the pages it reads. On Free, a single save takes up to 10 selected files; Pro has no limit per save. Pro can also scroll a long result list and follow its “Next” pages. For very large sets, the provider's bulk download or API is the better tool."
+            },
+            {
+              "q": "Will the PDFs be named by title?",
+              "a": "You can set the file name to the PDF's title. The title comes from the PDF itself, so check a few. If a PDF has no title, the file name is used."
+            },
+            {
+              "q": "Does it tell me whether a law or a case is current?",
+              "a": "No. It saves files. Whether a text is in force, correct or relevant to your matter is not something it decides, and nothing on this page is legal advice."
+            },
+            {
+              "q": "Which databases does it support?",
+              "a": "It is not built for one site. It finds files that a page links to or loads, so it works on any page you can open in your browser where the PDFs are present. Each site has its own rules for automated access."
+            },
+            {
+              "q": "Can I get a list of what I saved?",
+              "a": "Yes. Export the file-information CSV: URL, file name, title, type, size, the date the server reports for the file, and the page it was found on. It has no column for the date you saved it, so add one."
+            }
+          ]
+        },
+        "ja": {
+          "title": "法令・判例・特許のPDFを検索結果から集めて保存 | Grab All Files",
+          "desc": "公的な法令・判例・特許のデータベースの検索結果から PDF を選んで、タイトルで名前を付けて保存。出典の一覧も作れます。大量取得は提供元の一括ダウンロードを。",
+          "eyebrow": "法務・特許の調査",
+          "h1": "検索結果のページから PDF を選んで保存し、タイトルで名前を付ける。",
+          "lead": "法令・判例・特許の公的なデータベースは、検索結果の各行の先に PDF があります。Grab All Files はそのページをスキャンして PDF を一覧にし、チェックを付けたものを保存します。保存するのは文書です。内容が最新か、正しいか、当てはまるかは判断せず、法的な助言もしません。何千件も必要なときは、提供元の一括ダウンロードや API を使ってください。",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "集める資料の種類と、公開のされ方",
+              "head": [
+                "",
+                "よくあるファイル",
+                "検索結果ページの様子",
+                "付ける名前"
+              ],
+              "rows": [
+                [
+                  "法令・規則",
+                  "現行の条文、または官報のページの PDF",
+                  "題名の一覧。1 行に PDF のリンクが 1 つのことが多い",
+                  "題名と保存した日"
+                ],
+                [
+                  "判例",
+                  "全文の PDF。判決文と要旨が 2 ファイルのこともある",
+                  "「次へ」のある結果ページ。1 行に 1 件",
+                  "裁判所・日付・事件番号（題名から）"
+                ],
+                [
+                  "特許・実用新案",
+                  "公報または特許証の PDF",
+                  "1 ページに数十行のヒット一覧が、数ページ続く",
+                  "公報番号と発明の名称"
+                ],
+                [
+                  "ガイドライン・通達",
+                  "PDF。Word・Excel の添付が付くこともある",
+                  "年ごとにまとめたリンクのページ",
+                  "題名と発出日"
+                ]
+              ],
+              "after": [
+                "右の列の名前は例です。PDF が持つタイトルがいちばんきれいなことが多いですが、いくつか確かめてから使ってください。"
+              ]
+            },
+            {
+              "t": "art",
+              "h": "検索結果のページから、整ったフォルダまで",
+              "p": [
+                "保存の前に一覧を絞り、出力の仕方を選びます。"
+              ],
+              "items": [
+                [
+                  "dl-depth",
+                  "どこまで探すか",
+                  "結果ページ 1 つなら「このページのみ」。PDF が詳細ページにあるときは「深さ 1」〜「深さ 5」でリンクをたどる。",
+                  240,
+                  148
+                ],
+                [
+                  "dl-filter",
+                  "一覧を絞る",
+                  "拡張子・サイズ・ファイル名・タイトルで絞り込み。一覧の中を言葉で検索。",
+                  240,
+                  148
+                ],
+                [
+                  "dl-outputs",
+                  "どう保存するか",
+                  "ファイルの保存、ZIP、ブラウザー内での PDF 結合、一覧の CSV 書き出し。",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "手順",
+              "num": true,
+              "items": [
+                "ブラウザーでデータベースの検索を実行し、結果ページの表示件数を、選べるいちばん多い件数にします。",
+                "結果ページを開いたまま「ファイル一括ダウンロード」を始めてスキャンします。PDF が結果ページではなく各詳細ページにあるときは「深さ 1」を選びます。",
+                "一覧を PDF に絞ります。無料プランは画面に出ている分だけを読むので、長い結果は自分で最後までスクロールしてからスキャンします。Pro は自動でスクロールし、一覧の「次へ」のページもたどります（既定は 1 回のスキャンで 100 ページまで）。",
+                "保存名は「PDFのタイトル」、フォルダの分け方は作業に合わせて種類別・サイト別・なしから選びます。",
+                "選んだファイルを保存します。無料プランは 1 回 10 件まで。次の分を選んで、もう一度保存を押します。",
+                "ファイル情報CSVを書き出します。URL・ファイル名・タイトル・見つかったページが入るので、出典の一覧として残せます。"
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "向いている場面",
+                  "items": [
+                    "1 つの調査テーマで、結果ページから数十〜数百本の PDF が要る。",
+                    "官報のページ番号のような記号ではなく、タイトルをファイル名にしたい。",
+                    "どのファイルをどこから取ったかの一覧が要る。",
+                    "ログインなしで見られるデータベース、または自分のアカウントで同じブラウザーから見られるデータベース。"
+                  ]
+                },
+                {
+                  "h": "提供元の方法を使うほうがよい場面",
+                  "no": true,
+                  "items": [
+                    "何万件もの文書や、1 年分の判決の全部。提供元の一括ダウンロードや API を探してください。",
+                    "PDF ではなく構造化したデータが要る。提供元のデータファイルのほうが向きます。",
+                    "常に最新に保ちたい。拡張機能は変更を見張りません。",
+                    "条文が施行中か、どう当てはまるかの判断。資格のある人と原典に当たってください。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "text",
+              "h": "利用規約と、保存したファイルの意味",
+              "p": [
+                "公的なデータベースにも、自動のアクセスや複製・再利用についての決まりがあります。大量に集める前に読み、保存は小分けにしてアクセスの頻度を抑えてください。Grab All Files は、ログイン・制限・CAPTCHA を回避しません。",
+                "保存した PDF は、その日にサイトが返したものの写しです。一覧にタイトルと一緒に保存日を書いておき、正確な文言が必要なときは原典に戻ってください。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "collect-public-government-documents",
+                  "ページ別・年別に公開する官公庁のサイト。"
+                ],
+                [
+                  "rename-and-organize-bulk-pdf-downloads",
+                  "タイトルから名前を付け、種類別・サイト別に分ける。"
+                ],
+                [
+                  "export-file-links-to-csv",
+                  "ファイル情報CSVの列。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "検索結果をすべて PDF で保存できますか？",
+              "a": "スキャンが読んだページで見つかった PDF は、すべて保存できます。無料プランは 1 回の保存で選んだ 10 件まで。Pro は 1 回の件数に上限がありません。Pro は長い結果一覧の自動スクロールと「次へ」のページもたどれます。とても大きな件数は、提供元の一括ダウンロードや API のほうが向きます。"
+            },
+            {
+              "q": "PDF をタイトルで名前付けできますか？",
+              "a": "保存名を PDF のタイトルにできます。タイトルは PDF そのものから取るので、いくつか確かめてください。タイトルのない PDF は元のファイル名になります。"
+            },
+            {
+              "q": "法令や判例が最新かどうか教えてくれますか？",
+              "a": "教えません。ファイルを保存するだけです。施行中か、正しいか、自分の案件に関係するかは判断しません。このページの内容は法的な助言ではありません。"
+            },
+            {
+              "q": "どのデータベースに対応していますか？",
+              "a": "特定のサイト向けではありません。ページがリンクまたは読み込んでいるファイルを見つけるので、ブラウザーで開けて PDF があるページなら使えます。自動アクセスの決まりはサイトごとに違います。"
+            },
+            {
+              "q": "保存したものの一覧は作れますか？",
+              "a": "作れます。ファイル情報CSVに、URL・ファイル名・タイトル・種類・サイズ・サーバーが返す更新日・見つかったページが入ります。保存した日の列はないので、自分で足してください。"
+            }
+          ]
+        }
+      }
+    },
+    "save-course-materials-and-syllabi": {
+      "path": "save-course-materials-and-syllabi.html",
+      "v2": true,
+      "related": [
+        "internal-portal-downloads",
+        "download-all-pdfs",
+        "bulk-download-word-excel-powerpoint",
+        "rename-and-organize-bulk-pdf-downloads",
+        "save-pages-and-files-behind-login"
+      ],
+      "copy": {
+        "en": {
+          "title": "Save course materials, lecture slides and syllabi from school sites | Grab All Files",
+          "desc": "Save the lecture slides, handouts and syllabi of courses you are enrolled in, from a learning-management page or a teacher's site, into one folder per course.",
+          "eyebrow": "Students and learners",
+          "h1": "Save the materials of the courses you are taking, one folder per course.",
+          "lead": "A term brings dozens of slide decks, handouts, reading lists and syllabi, spread over a learning-management system, a teacher's own site and a few study sites. Grab All Files lists the files on the page you have open and saves the ones you choose. Use it only for materials you are entitled to, for your own study, and follow what the people who provide them allow.",
+          "blocks": [
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "Fine to do",
+                  "items": [
+                    "Save lecture slides, handouts and reading PDFs of a course you are enrolled in, for your own study.",
+                    "Save the syllabus pages and course schedules of courses you are considering, if they are public.",
+                    "Keep the materials from before the course ends, in case access closes.",
+                    "Check each course's rules: some teachers say not to copy or pass on the files."
+                  ]
+                },
+                {
+                  "h": "Do not do",
+                  "no": true,
+                  "items": [
+                    "Share, post or sell the files to people who are not in the course.",
+                    "Collect materials from courses you are not enrolled in by using someone else's sign-in.",
+                    "Treat “I can download it” as permission to re-use it. The provider's terms decide.",
+                    "Expect it to open video lectures that are streamed rather than linked as files."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "cards",
+              "h": "Three kinds of place, three ways of working",
+              "items": [
+                [
+                  "Learning-management system",
+                  "Sign in with your own account in the same browser, open the course page, and scan. It uses your signed-in state and does not read or send your password. Details for portals in general are in the guide for internal portals."
+                ],
+                [
+                  "A teacher's own site",
+                  "Usually a plain page of links to PDFs and slides. Start from the course page. A depth setting follows links from that page, and only within the folder of the page you started from."
+                ],
+                [
+                  "Study and tutorial sites",
+                  "Pages with handouts, problem sets and worked answers. Scan the page for linked files; if the page is long, scroll it before scanning on Free."
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "What the file list looks like on a course page",
+              "src": "/assets/screenshots/use-case-internal-portal-downloads-en.png",
+              "alt": "Grab All Files, Bulk File Download, on a sample training page: a list of three files, two PDF and one DOCX, with checkboxes, and save options for the file name, folder sorting, PDF merge, ZIP and the file-information CSV.",
+              "cap": "The real panel on the Free plan, with sample files from a sample page. Tick the files, set the name and folders, and save.",
+              "w": 2240,
+              "hgt": 2000,
+              "webp": "/assets/screenshots/use-case-internal-portal-downloads-en.webp"
+            },
+            {
+              "t": "table",
+              "h": "Depth on a teacher's site",
+              "p": [
+                "The depth setting decides how many links away from the start page the scan looks. It stays inside the folder of the start page, so a start page at /courses/networks/ will not wander into /courses/databases/."
+              ],
+              "head": [
+                "",
+                "Start from",
+                "Choose",
+                "Result"
+              ],
+              "rows": [
+                [
+                  "One page of links",
+                  "The page that lists the slides",
+                  "This page only",
+                  "Every file linked on that page"
+                ],
+                [
+                  "Week-by-week pages",
+                  "The course index that links to week pages",
+                  "Depth 1",
+                  "Files on each week page"
+                ],
+                [
+                  "Nested folders",
+                  "The course home",
+                  "Depth 2 or 3",
+                  "Files in sub-pages, still inside the course folder"
+                ],
+                [
+                  "A whole department site",
+                  "(avoid)",
+                  "Unlimited",
+                  "Too broad. Start at the course instead"
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Steps",
+              "num": true,
+              "items": [
+                "Sign in to the learning-management system in your browser, if needed, and open the course page.",
+                "Open Grab All Files, use “Bulk File Download” and scan. Narrow the list to Presentations, Documents and PDF.",
+                "Set the file name to the PDF's title or keep the original name, and sort folders by type or by site.",
+                "Save. On Free, one save takes up to 10 files, so save a week at a time. Pro saves the whole selection at once.",
+                "If the session ends while you are saving, the rows show that you were signed out. Sign in again and retry the failed ones; the saved files stay."
+              ]
+            },
+            {
+              "t": "text",
+              "h": "Syllabi as pages",
+              "p": [
+                "A syllabus is often a web page and not a file. If you want to keep it, use “Combine pages into HTML” to save that page as HTML, or as Markdown if you want to read it in a notes app. On Free, a run saves one page you choose from the candidate list; Pro saves several in one run."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "internal-portal-downloads",
+                  "Company and school portals that need a sign-in, in general."
+                ],
+                [
+                  "bulk-download-word-excel-powerpoint",
+                  "Slides and Office files collected from one page."
+                ],
+                [
+                  "rename-and-organize-bulk-pdf-downloads",
+                  "Names and folders for many PDFs."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can I save lecture slides from my school's learning system?",
+              "a": "Yes, if you can open the course page in your browser. It uses the account you are signed in with. You are responsible for staying within the course's and the school's rules."
+            },
+            {
+              "q": "Does it get past a sign-in or a paywall?",
+              "a": "No. It does not log in for you, break a CAPTCHA or open pages you cannot already view."
+            },
+            {
+              "q": "Will it crawl the whole university website?",
+              "a": "No, and you should not ask it to. The depth setting follows links from your start page within that page's folder. Start at the course page and use a small depth."
+            },
+            {
+              "q": "How many files can I save for free?",
+              "a": "Up to 10 selected files per save. Select the next ones and save again. Pro has no limit per save."
+            },
+            {
+              "q": "Can I save video lectures?",
+              "a": "Only videos that are linked as plain files such as mp4. Streamed lectures, where the page plays video in a viewer, are not saved."
+            }
+          ]
+        },
+        "ja": {
+          "title": "授業資料・講義スライド・シラバスを学校のサイトから保存 | Grab All Files",
+          "desc": "受講している授業のスライド・配布資料・シラバスを、学習管理システムや教員のサイトのページから、授業ごとのフォルダにまとめて保存します。",
+          "eyebrow": "学生・学習者向け",
+          "h1": "受講している授業の資料を、授業ごとのフォルダにまとめて保存する。",
+          "lead": "1 学期のうちに、スライド・配布資料・参考文献・シラバスが何十と増えます。置き場所は学習管理システム、教員の自分のサイト、学習サイトなどに散らばります。Grab All Files は、開いているページのファイルを一覧にして、選んだものを保存します。使うのは、自分に権利のある資料を自分の学習に使う範囲に限ってください。配布している側の決まりにも従ってください。",
+          "blocks": [
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "してよいこと",
+                  "items": [
+                    "受講している授業のスライド・配布資料・読み物の PDF を、自分の学習のために保存する。",
+                    "公開されているなら、履修を考えている授業のシラバスや日程を保存する。",
+                    "授業のページが閉じてアクセスできなくなる前に、資料を手元に残す。",
+                    "授業ごとの決まりを確かめる。コピーや配布を禁じている先生もいる。"
+                  ]
+                },
+                {
+                  "h": "してはいけないこと",
+                  "no": true,
+                  "items": [
+                    "授業を受けていない人に、ファイルを共有・掲載・販売する。",
+                    "他人のログインを使って、受講していない授業の資料を集める。",
+                    "「ダウンロードできた」ことを、再利用してよい許可と考える。決めるのは配布元の利用条件。",
+                    "ファイルではなく配信（ストリーミング）で再生される動画講義が取れると考える。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "cards",
+              "h": "置き場所は 3 種類。それぞれ使い方が違う",
+              "items": [
+                [
+                  "学習管理システム（LMS）",
+                  "同じブラウザーで自分のアカウントでログインし、授業のページを開いてスキャンします。ログイン状態を使い、パスワードは読まず、送りません。ポータル全般の説明は、社内ポータルの使い方のページにあります。"
+                ],
+                [
+                  "教員の自分のサイト",
+                  "PDF やスライドへのリンクを並べただけのページが多い。授業のページから始めます。「深さ」の設定でそのページからリンクをたどりますが、動くのは起点のページのフォルダの範囲内だけです。"
+                ],
+                [
+                  "学習サイト・教材サイト",
+                  "配布資料・練習問題・解説のあるページ。ページにリンクされたファイルをスキャンします。長いページは、無料プランなら先に自分でスクロールしてからスキャンします。"
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "授業のページでのファイル一覧",
+              "src": "/assets/screenshots/use-case-internal-portal-downloads-ja.png",
+              "alt": "Grab All Files の「ファイル一括ダウンロード」を、サンプルの研修ページで使っている画面。PDF 2 件と DOCX 1 件にチェックが付いた一覧と、保存名・整理・PDF結合・ZIP・ファイル情報CSV出力の設定。",
+              "cap": "無料プランの実際の画面です（サンプルのページとファイル）。ファイルにチェックを付け、名前とフォルダを決めて保存します。",
+              "w": 2240,
+              "hgt": 2000,
+              "webp": "/assets/screenshots/use-case-internal-portal-downloads-ja.webp"
+            },
+            {
+              "t": "table",
+              "h": "教員のサイトでの「深さ」",
+              "p": [
+                "「深さ」は、起点のページから何回リンクをたどるかを決めます。動くのは起点のページのフォルダの範囲です。/courses/networks/ から始めれば、/courses/databases/ には入りません。"
+              ],
+              "head": [
+                "",
+                "起点",
+                "選ぶ設定",
+                "結果"
+              ],
+              "rows": [
+                [
+                  "リンクを並べた 1 ページ",
+                  "スライドを一覧にしたページ",
+                  "このページのみ",
+                  "そのページにリンクされた全ファイル"
+                ],
+                [
+                  "週ごとのページ",
+                  "週のページへ飛べる授業の目次",
+                  "深さ 1",
+                  "各週のページにあるファイル"
+                ],
+                [
+                  "入れ子のフォルダ",
+                  "授業のトップ",
+                  "深さ 2 か 3",
+                  "下のページのファイル。授業のフォルダの中だけ"
+                ],
+                [
+                  "学部・学科のサイト全体",
+                  "（避ける）",
+                  "無制限",
+                  "広すぎます。授業のページから始めてください"
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "手順",
+              "num": true,
+              "items": [
+                "ログインが要る学習管理システムなら、ブラウザーでログインして、授業のページを開きます。",
+                "Grab All Files を開き、「ファイル一括ダウンロード」でスキャンします。一覧を「プレゼン」「文書」「PDF」に絞ります。",
+                "保存名を PDF のタイトルか元の名前にし、フォルダを種類別かサイト別に分けます。",
+                "保存します。無料プランは 1 回 10 件までなので、1 週間分ずつ保存します。Pro は選んだ分を一度に保存します。",
+                "保存の途中でログインが切れたら、行ごとにサインアウトされたと出ます。ログインし直して、失敗した行を再試行します。保存済みのファイルは残ります。"
+              ]
+            },
+            {
+              "t": "text",
+              "h": "ページとしてのシラバス",
+              "p": [
+                "シラバスはファイルではなく Web ページのことが多いです。残したいときは「ページをHTMLにまとめる」で、そのページを HTML として保存します。ノートアプリで読むなら Markdown でも保存できます。無料プランは 1 回に候補から選んだ 1 ページ、Pro は複数ページを 1 回で保存します。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "internal-portal-downloads",
+                  "ログインが要る社内・学内ポータル全般。"
+                ],
+                [
+                  "bulk-download-word-excel-powerpoint",
+                  "1 ページからスライドや Office 文書を集める。"
+                ],
+                [
+                  "rename-and-organize-bulk-pdf-downloads",
+                  "たくさんの PDF の名前とフォルダ。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "学校の学習管理システムから、講義のスライドを保存できますか？",
+              "a": "ブラウザーで授業のページを開けるなら使えます。ログインしているアカウントをそのまま使います。授業と学校の決まりを守るのは、利用者の責任です。"
+            },
+            {
+              "q": "ログインや有料の壁を越えられますか？",
+              "a": "越えられません。代わりにログインすること、CAPTCHA を突破すること、見られないページを開くことはしません。"
+            },
+            {
+              "q": "大学のサイト全体を巡回できますか？",
+              "a": "しませんし、そうした使い方はおすすめしません。「深さ」は、起点のページのフォルダの範囲でリンクをたどります。授業のページから始めて、小さい深さを使ってください。"
+            },
+            {
+              "q": "無料で何件保存できますか？",
+              "a": "1 回の保存で選んだ 10 件までです。次の分を選んで、もう一度保存します。Pro は 1 回の件数に上限がありません。"
+            },
+            {
+              "q": "動画の講義も保存できますか？",
+              "a": "mp4 のようなファイルとして直接リンクされた動画だけです。ビューアーで再生される配信の講義は保存しません。"
+            }
+          ]
+        }
+      }
+    },
+    "collect-real-estate-and-drawing-pdfs": {
+      "path": "collect-real-estate-and-drawing-pdfs.html",
+      "v2": true,
+      "related": [
+        "download-all-pdfs",
+        "bulk-download-images",
+        "export-file-links-to-csv",
+        "rename-and-organize-bulk-pdf-downloads",
+        "download-files-from-webpage"
+      ],
+      "copy": {
+        "en": {
+          "title": "Collect property sheets, floor plans and drawing PDFs from web pages | Grab All Files",
+          "desc": "Save property outlines, floor plans, specification sheets and disclosure PDFs and images from pages you have the right to use, sorted by site and type, with a CSV list.",
+          "eyebrow": "Real estate and architecture",
+          "h1": "Collect property sheets, floor plans and drawings into folders by site and by type.",
+          "lead": "A property listing page, a developer's site or a project-information page links a mix of PDFs and images: the property outline, floor plans, elevations, specification sheets, explanatory documents for the sale. Grab All Files lists them, lets you choose, and saves them into folders by site or by type, with a CSV of what you collected. Use it for materials you have the right to keep, for example your own listings, your client's project, or documents the provider has released for download.",
+          "blocks": [
+            {
+              "t": "list",
+              "h": "Files you tend to meet on these pages",
+              "items": [
+                "Property outline sheets (概要書) and listing summaries, as PDF.",
+                "Floor plans, as PDF or as images (JPG and PNG).",
+                "Site plans, layout plans, elevations and sections.",
+                "Specification and equipment sheets, finish schedules.",
+                "Explanatory documents for the sale and the contract (重要事項説明書の雛形).",
+                "Photos of the exterior and interior, in the page's image gallery.",
+                "Spreadsheets of room lists or unit prices, as Excel or CSV.",
+                "Application or inquiry forms, as PDF or Word."
+              ]
+            },
+            {
+              "t": "art",
+              "h": "Where the files end up",
+              "p": [
+                "The save options are the same for PDFs and images. Choose the folder sorting that fits the way you will look for them."
+              ],
+              "items": [
+                [
+                  "dl-filter",
+                  "Pick by kind",
+                  "Filter the list to PDF, or to images, or to both. Narrow by size to leave out thumbnails.",
+                  240,
+                  148
+                ],
+                [
+                  "dl-outputs",
+                  "Save, ZIP, merge, CSV",
+                  "Save the files, make one ZIP, merge PDFs in the browser, or export the list as CSV.",
+                  240,
+                  148
+                ],
+                [
+                  "images-links",
+                  "Images and links",
+                  "Images that the page shows and files it links to are both candidates in the list.",
+                  96,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "The list and the CSV button",
+              "src": "/assets/screenshots/use-case-export-file-links-to-csv-en.png",
+              "alt": "Grab All Files, Bulk File Download: a list of three files (a PDF, a DOCX and an XLSX) found on a sample page, with checkboxes, a filter by type on the left, and save options with the file-information CSV button.",
+              "cap": "The real panel on the Free plan, with sample files. The type filter on the left shows how many of each kind were found. The file-information CSV button is in the save options.",
+              "w": 2240,
+              "hgt": 2000,
+              "webp": "/assets/screenshots/use-case-export-file-links-to-csv-en.webp"
+            },
+            {
+              "t": "table",
+              "h": "Folder layout: by site or by type",
+              "head": [
+                "",
+                "Sorted by site",
+                "Sorted by type",
+                "No folders"
+              ],
+              "rows": [
+                [
+                  "Good when",
+                  "Each source is a different developer, agency or project",
+                  "You want all floor plans together, all outlines together",
+                  "You save a handful of files for one property"
+                ],
+                [
+                  "Result",
+                  "One folder per site name",
+                  "One folder per file type, such as PDF and JPG",
+                  "Everything in the save location"
+                ],
+                [
+                  "Then do",
+                  "Rename by property and document type",
+                  "Rename by property name and floor",
+                  "Rename after saving"
+                ]
+              ],
+              "after": [
+                "The file name can follow the PDF's title. Titles for floor plans and outlines are often generic, so check a few and rename where needed."
+              ]
+            },
+            {
+              "t": "list",
+              "h": "Steps",
+              "num": true,
+              "items": [
+                "Open the property or project page. If the listing needs a sign-in, sign in in the same browser first.",
+                "Open Grab All Files, use “Bulk File Download” and scan. Use “This page only” for one property, or “Depth 1” when each property has its own detail page linked from an index.",
+                "Narrow the list to PDF and images, and by size. Tick what you want.",
+                "Choose a folder sorting and save. On Free, one save takes up to 10 files, so do the next ones in turn.",
+                "Export the file-information CSV and keep it with the folder. It lists the URL, the file name, the title, the size and the page each file came from."
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "Use it for",
+                  "items": [
+                    "Your own listings and the materials of your client's project.",
+                    "Documents that a developer or agency publishes for download.",
+                    "Building a folder of references for a site visit or a design review.",
+                    "A CSV list of what you hold and where it came from."
+                  ]
+                },
+                {
+                  "h": "Be careful, or do not",
+                  "no": true,
+                  "items": [
+                    "Copying photos and plans that belong to someone else and re-posting them. Rights stay with the owner.",
+                    "Collecting hundreds of listings at once from a portal. Check its terms first; some forbid automated copying.",
+                    "Drawings that open only in a viewer that blocks downloading, or in a CAD viewer inside the page. Those are not saved.",
+                    "Anything you do not have the right to see in your own account."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "bulk-download-images",
+                  "Images from a page, filtered by size."
+                ],
+                [
+                  "rename-and-organize-bulk-pdf-downloads",
+                  "Names from titles, folders by type or site."
+                ],
+                [
+                  "export-file-links-to-csv",
+                  "The file list as a CSV."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can it save floor plans that are images, not PDFs?",
+              "a": "Yes. Images the page shows or links are detected and listed along with the PDFs. Filter by size to leave out icons and thumbnails."
+            },
+            {
+              "q": "Can I make a list of the files I collected?",
+              "a": "Yes, with the file-information CSV: URL, file name, title, type, size, the date the server reports for the file, and the page it came from. It has no column for the date you saved it."
+            },
+            {
+              "q": "Does it work on real estate portals?",
+              "a": "On any page you can open and see the files. A portal's terms decide whether automated collection is allowed, and that is for you to check. It does not get around logins or limits."
+            },
+            {
+              "q": "Can it open drawings from an online viewer?",
+              "a": "Files inside viewers that block downloading, or encrypted viewers, cannot be saved. A PDF that the page links directly can."
+            },
+            {
+              "q": "How many files can I save for free?",
+              "a": "Up to 10 selected files per save. Select the next ones and save again. Pro has no limit per save."
+            }
+          ]
+        },
+        "ja": {
+          "title": "物件資料・図面の PDF や画像をWebページから集めて整理 | Grab All Files",
+          "desc": "権利のある物件概要書・間取り図・図面・仕様書・重要事項の資料の PDF と画像を、サイト別・種類別のフォルダに保存し、CSV で一覧にします。",
+          "eyebrow": "不動産・建築",
+          "h1": "物件資料や図面を、サイト別・種類別のフォルダにまとめて集める。",
+          "lead": "物件のページ、デベロッパーのサイト、プロジェクトの情報ページには、PDF と画像がまとめてリンクされています。物件概要書、間取り図、立面図、仕様書、販売に関する説明の資料などです。Grab All Files はそれを一覧にして、選んだものをサイト別か種類別のフォルダに保存し、集めたものの CSV も作ります。使うのは、保存する権利のある資料に限ります。たとえば自社の物件、顧客のプロジェクト、提供元がダウンロード用に公開している資料です。",
+          "blocks": [
+            {
+              "t": "list",
+              "h": "このようなページでよく出会うファイル",
+              "items": [
+                "物件概要書や物件のまとめ（PDF）。",
+                "間取り図（PDF、または JPG・PNG の画像）。",
+                "配置図・平面図・立面図・断面図。",
+                "仕様書・設備表・仕上表。",
+                "販売や契約に関する説明資料（重要事項説明書のひな形など）。",
+                "外観・室内の写真（ページの画像ギャラリー）。",
+                "部屋の一覧や単価の表（Excel か CSV）。",
+                "申込書や問い合わせの書式（PDF か Word）。"
+              ]
+            },
+            {
+              "t": "art",
+              "h": "ファイルの行き先",
+              "p": [
+                "保存の設定は PDF でも画像でも同じです。あとで探す方法に合うフォルダの分け方を選びます。"
+              ],
+              "items": [
+                [
+                  "dl-filter",
+                  "種類で選ぶ",
+                  "一覧を PDF、画像、またはその両方に絞る。サイズで絞って、サムネイルを外す。",
+                  240,
+                  148
+                ],
+                [
+                  "dl-outputs",
+                  "保存・ZIP・結合・CSV",
+                  "ファイルの保存、1 つの ZIP、ブラウザー内での PDF 結合、一覧の CSV 書き出し。",
+                  240,
+                  148
+                ],
+                [
+                  "images-links",
+                  "画像とリンク",
+                  "ページに表示された画像も、リンクされたファイルも、一覧の候補になる。",
+                  96,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "一覧と CSV のボタン",
+              "src": "/assets/screenshots/use-case-export-file-links-to-csv-ja.png",
+              "alt": "Grab All Files の「ファイル一括ダウンロード」。サンプルのページで見つけた PDF・DOCX・XLSX の 3 件の一覧と、左側の種類での絞り込み、ファイル情報CSV出力のボタンがある保存の設定。",
+              "cap": "無料プランの実際の画面です（サンプルのファイル）。左の種類の絞り込みに、種類ごとの件数が出ます。ファイル情報CSV出力のボタンは保存の設定の中にあります。",
+              "w": 2240,
+              "hgt": 2000,
+              "webp": "/assets/screenshots/use-case-export-file-links-to-csv-ja.webp"
+            },
+            {
+              "t": "table",
+              "h": "フォルダの分け方：サイト別か種類別か",
+              "head": [
+                "",
+                "サイト別",
+                "種類別",
+                "分けない"
+              ],
+              "rows": [
+                [
+                  "向く場面",
+                  "デベロッパー・仲介会社・プロジェクトごとに出どころが違う",
+                  "間取り図は間取り図、概要書は概要書でまとめて見たい",
+                  "1 つの物件のファイルを少数保存する"
+                ],
+                [
+                  "できること",
+                  "サイト名ごとのフォルダ",
+                  "PDF・JPG などファイルの種類ごとのフォルダ",
+                  "保存先にそのまま置く"
+                ],
+                [
+                  "そのあと",
+                  "物件名と資料の種類で名前を変える",
+                  "物件名と階で名前を変える",
+                  "保存後に名前を変える"
+                ]
+              ],
+              "after": [
+                "保存名は PDF のタイトルにできます。間取り図や概要書のタイトルは、ありきたりなことが多いので、いくつか確かめて、必要なら名前を直してください。"
+              ]
+            },
+            {
+              "t": "list",
+              "h": "手順",
+              "num": true,
+              "items": [
+                "物件かプロジェクトのページを開きます。ログインが要るページなら、先に同じブラウザーでログインします。",
+                "Grab All Files を開いて「ファイル一括ダウンロード」でスキャンします。1 つの物件なら「このページのみ」。物件ごとの詳細ページが一覧からリンクされているなら「深さ 1」にします。",
+                "一覧を PDF と画像に、サイズでも絞って、必要なものにチェックを付けます。",
+                "フォルダの分け方を選んで保存します。無料プランは 1 回 10 件まで。次の分を順に保存します。",
+                "ファイル情報CSVを書き出し、フォルダと一緒に置きます。URL・ファイル名・タイトル・サイズ・見つかったページが入ります。"
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "使ってよい場面",
+                  "items": [
+                    "自社の物件や、顧客のプロジェクトの資料。",
+                    "デベロッパーや仲介会社がダウンロード用に公開している資料。",
+                    "現地確認や設計レビューのための参考資料のフォルダを作る。",
+                    "手元にあるものと、その出どころの CSV 一覧。"
+                  ]
+                },
+                {
+                  "h": "注意が要る・やめておく場面",
+                  "no": true,
+                  "items": [
+                    "他人の写真や図面をコピーして再掲載すること。権利は持ち主にあります。",
+                    "ポータルサイトから何百件もの物件を一度に集めること。先に規約を確認してください。自動のコピーを禁じるサイトもあります。",
+                    "ダウンロードを止めているビューアーや、ページ内の CAD ビューアーでしか開けない図面。保存できません。",
+                    "自分のアカウントでは見る権利のないもの。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "bulk-download-images",
+                  "ページの画像を、サイズで絞って保存する。"
+                ],
+                [
+                  "rename-and-organize-bulk-pdf-downloads",
+                  "タイトルから名前を付け、種類別・サイト別に分ける。"
+                ],
+                [
+                  "export-file-links-to-csv",
+                  "ファイルの一覧を CSV に。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "PDF ではなく画像の間取り図も保存できますか？",
+              "a": "できます。ページに表示された画像やリンクされた画像は、PDF と一緒に検出されて一覧に出ます。サイズで絞ると、アイコンやサムネイルを外せます。"
+            },
+            {
+              "q": "集めたファイルの一覧は作れますか？",
+              "a": "ファイル情報CSVで作れます。URL・ファイル名・タイトル・種類・サイズ・サーバーが返す更新日・見つかったページが入ります。保存した日の列はありません。"
+            },
+            {
+              "q": "不動産のポータルサイトでも使えますか？",
+              "a": "開いてファイルが見えるページなら使えます。自動での収集が許されるかはポータルの規約で決まるので、利用者が確認してください。ログインや制限は回避しません。"
+            },
+            {
+              "q": "オンラインのビューアーにある図面は取れますか？",
+              "a": "ダウンロードを止めているビューアーや暗号化されたビューアーの中のファイルは保存できません。ページが直接リンクしている PDF は保存できます。"
+            },
+            {
+              "q": "無料で何件保存できますか？",
+              "a": "1 回の保存で選んだ 10 件までです。次の分を選んで、もう一度保存します。Pro は 1 回の件数に上限がありません。"
+            }
+          ]
+        }
+      }
+    },
+    "track-competitor-prices-and-product-pages": {
+      "path": "track-competitor-prices-and-product-pages.html",
+      "v2": true,
+      "related": [
+        "web-tables-to-csv-for-excel-ai",
+        "save-and-compare-document-revisions",
+        "save-pages-with-source-url-and-date",
+        "download-product-catalogs-and-datasheets",
+        "save-web-pages-with-original-design"
+      ],
+      "copy": {
+        "en": {
+          "title": "Save competitor price lists and product pages regularly and compare them | Grab All Files",
+          "desc": "A routine for saving competitors' price tables and product pages each month, turning tables into CSV, and reading a change report. You run it by hand; there is no scheduler.",
+          "eyebrow": "Pricing and product research",
+          "h1": "Save competitors' price lists and product pages on a routine, and see what changed.",
+          "lead": "To know what a competitor changed, you need what their pages said last time. This page describes a routine that uses two things Grab All Files already does: it saves a set of pages and turns their tables into CSV, and it compares a new collection of the same site with the previous one in a change report. You start each run yourself, for example on the first of the month. The extension has no timer and does not run on its own. Follow the site's terms of use.",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "What you save, and in which form",
+              "head": [
+                "",
+                "Typical page",
+                "Save it as",
+                "What you do next"
+              ],
+              "rows": [
+                [
+                  "Price table",
+                  "An HTML table of plans, sizes or tiers",
+                  "HTML, plus the table as CSV or JSON",
+                  "Open the CSV in a spreadsheet and put it beside last month's"
+                ],
+                [
+                  "Product page",
+                  "Description, specifications, options, notes on delivery",
+                  "HTML with the original look, or Markdown",
+                  "Read the change report for edits to the text"
+                ],
+                [
+                  "Catalog or price-list PDF",
+                  "A linked PDF with a date in its title",
+                  "The file itself, named by title",
+                  "Compare by hand; see the guide for revisions"
+                ],
+                [
+                  "Campaign or notice page",
+                  "A banner page that changes often",
+                  "HTML with the date shown",
+                  "Keep as a dated record of what was offered"
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "The routine, each month",
+              "num": true,
+              "items": [
+                "Keep a short list of the pages: the price page, two or three product pages, the page where the catalog is linked.",
+                "Open “Combine pages into HTML”, choose where to collect from (for example “Use a pasted list of URLs”), and keep the same starting pages every time. The change report compares with the previous completed collection of the same site.",
+                "In the AI data options, choose the output you want, and turn on the option to write tables as CSV and JSON as well. The change report is in the “More” menu on the finished card.",
+                "Save the collection. On Free a run saves one page you choose; Pro saves all selected pages in one run.",
+                "Open the change report and the new CSV. Copy the new CSV into a sheet beside last month's and note the differences.",
+                "Name the saved files with the date, so that two months do not overwrite each other."
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "Where the change report is",
+              "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-en.png",
+              "alt": "The More menu of Grab All Files after a collection finished, with options to re-save the HTML, save a change report against the previous run, and save the page URL list as CSV, and a button to delete the stored data.",
+              "cap": "The real More menu on a finished collection. The change report compares this collection with the previous completed one of the same site.",
+              "w": 1816,
+              "hgt": 810,
+              "webp": "/assets/screenshots/use-case-save-and-compare-document-revisions-en.webp"
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "What the routine gives you",
+                  "items": [
+                    "A dated copy of each page, so you can see what the page said in a given month.",
+                    "Tables you can sort and compare in a spreadsheet, not pictures of tables.",
+                    "A report of pages whose URL, title or body text changed since last time.",
+                    "The source URL and the time of capture, in the forms that show them."
+                  ]
+                },
+                {
+                  "h": "What it does not do",
+                  "no": true,
+                  "items": [
+                    "Run by itself on a schedule, or alert you when a price changes.",
+                    "Read prices that are drawn only on a canvas or loaded after you log in, if you are not signed in.",
+                    "Judge whether a competitor's change matters.",
+                    "Collect from sites whose terms forbid it. Check the terms of each site, and keep the frequency low."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "text",
+              "h": "A few things that go wrong",
+              "p": [
+                "If the price is shown only after you choose a region or a plan, choose it in your browser first. Pages are saved as the browser displays them. If the table is built by script, wait for it to appear before saving.",
+                "If the start pages change from month to month, the change report has nothing sound to compare. Keep the starting pages and the collection method the same."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "web-tables-to-csv-for-excel-ai",
+                  "Turning the tables of a page into CSV or JSON."
+                ],
+                [
+                  "save-and-compare-document-revisions",
+                  "How the change report compares two collections."
+                ],
+                [
+                  "save-pages-with-source-url-and-date",
+                  "Which saving forms keep the source URL and the date."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can it check competitor prices automatically every week?",
+              "a": "No. Grab All Files has no scheduler. You start each collection yourself. The routine here is something you repeat by hand."
+            },
+            {
+              "q": "How does it compare this month with last month?",
+              "a": "The change report compares a collection with the previous completed collection of the same site, by URL, title and body text. For tables, keep each month's CSV and compare them in a spreadsheet."
+            },
+            {
+              "q": "Can I get the price tables as CSV?",
+              "a": "Yes. In the AI data options there is a setting to write tables as CSV and JSON as well. Check the result on your own pages, because tables built oddly may not come out cleanly."
+            },
+            {
+              "q": "Is it allowed to save a competitor's pages?",
+              "a": "That depends on the site's terms of use and the use you make of the copy. Read the terms, collect only what you need, and do not republish the content."
+            },
+            {
+              "q": "Does the saved page show where and when it was captured?",
+              "a": "With “Keep the original look” in the contents-and-search form, each page shows its original URL and the capture time under the title. Other combinations store them in the file's comments, and the “Easy to read” look shows the capture time only if you turn on the details option."
+            }
+          ]
+        },
+        "ja": {
+          "title": "競合サイトの価格表・製品ページを定期的に保存して比べる | Grab All Files",
+          "desc": "競合の価格表と製品ページを月に 1 回保存し、表を CSV にして、差分レポートで変更を見る流れ。実行は手で行います。自動の定期実行機能はありません。",
+          "eyebrow": "価格・製品の調査",
+          "h1": "競合の価格表と製品ページを定期的に保存して、何が変わったかを見る。",
+          "lead": "競合が何を変えたかを知るには、前回そのページに何が書いてあったかが要ります。このページでは、Grab All Files がすでにできることを 2 つ組み合わせた流れを説明します。ページの一式を保存して表を CSV にすること、そして同じサイトの今回の収集を前回の収集と差分レポートで比べることです。毎回、利用者が自分で実行します（たとえば毎月 1 日）。拡張機能にタイマーはなく、自動では動きません。サイトの利用規約を守ってください。",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "何を、どんな形で保存するか",
+              "head": [
+                "",
+                "よくあるページ",
+                "保存の形",
+                "そのあとにすること"
+              ],
+              "rows": [
+                [
+                  "価格表",
+                  "プラン・サイズ・段階を並べた HTML の表",
+                  "HTML と、表の CSV か JSON",
+                  "CSV を表計算ソフトで開き、先月の分の隣に置く"
+                ],
+                [
+                  "製品ページ",
+                  "説明・仕様・オプション・配送の注意",
+                  "「元の見た目のまま」の HTML か Markdown",
+                  "差分レポートで文章の変更を読む"
+                ],
+                [
+                  "カタログ・価格表の PDF",
+                  "タイトルに日付があるリンク先の PDF",
+                  "ファイルそのまま。タイトルで名前を付ける",
+                  "手で比べる。改訂の比較のページを参照"
+                ],
+                [
+                  "キャンペーン・お知らせのページ",
+                  "よく変わるバナーのページ",
+                  "日付が見える形の HTML",
+                  "その時点で何を提示していたかの記録として残す"
+                ]
+              ]
+            },
+            {
+              "t": "list",
+              "h": "毎月の流れ",
+              "num": true,
+              "items": [
+                "対象のページを短い一覧にしておきます。価格のページ、製品ページを 2〜3 つ、カタログがリンクされているページなどです。",
+                "「ページをHTMLにまとめる」を開き、どこから集めるかを選びます（たとえば「URLを貼り付ける」）。毎回、同じ起点のページを使います。差分レポートは、同じサイトの直前の完了した収集と比べるためです。",
+                "AI 分析用データの出力設定で出力の形を選び、「表をCSV/JSONとしても書き出す」をオンにします。差分レポートは、完了した画面の「その他」の中にあります。",
+                "収集を保存します。無料プランは 1 回に候補から選んだ 1 ページ。Pro は選んだページを 1 回で全部保存します。",
+                "差分レポートと新しい CSV を開きます。新しい CSV を先月の分の隣に貼り、違いを書き留めます。",
+                "保存したファイルの名前に日付を入れます。月が違うもの同士が上書きされないようにするためです。"
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "差分レポートの場所",
+              "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-ja.png",
+              "alt": "収集が終わったあとの Grab All Files の「その他」メニュー。HTMLを再保存、前回との差分レポートを保存、ページURL一覧（CSV）を保存の項目と、拡張機能内の収集データを削除するボタン。",
+              "cap": "収集が終わったあとの実際の「その他」メニューです。差分レポートは、今回の収集を同じサイトの直前の完了した収集と比べます。",
+              "w": 1816,
+              "hgt": 810,
+              "webp": "/assets/screenshots/use-case-save-and-compare-document-revisions-ja.webp"
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "この流れでできること",
+                  "items": [
+                    "ページの日付入りの写しが残り、その月にページに何が書いてあったかが分かる。",
+                    "表が画像ではなく、並べ替えて比べられる表として手に入る。",
+                    "前回から URL・タイトル・本文が変わったページの報告。",
+                    "元の URL と取得した時刻が、表示される形では見える。"
+                  ]
+                },
+                {
+                  "h": "しないこと",
+                  "no": true,
+                  "items": [
+                    "予定した時刻に自動で動くこと。価格が変わったときに知らせること。",
+                    "Canvas の中にだけ描かれた価格や、ログインしていないと読み込まれない価格を読むこと。",
+                    "競合の変更に意味があるかどうかの判断。",
+                    "規約が禁じているサイトからの収集。サイトごとに規約を確かめ、頻度を低くしてください。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "text",
+              "h": "うまくいかないとき",
+              "p": [
+                "地域やプランを選んだあとにだけ価格が出るサイトでは、先にブラウザーでそれを選んでおきます。ページは、ブラウザーが表示したとおりに保存されます。表がスクリプトで作られるなら、表示されるのを待ってから保存してください。",
+                "月ごとに起点のページが変わると、差分レポートで比べる土台がなくなります。起点のページと集め方は、毎回そろえてください。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "web-tables-to-csv-for-excel-ai",
+                  "ページの表を CSV や JSON にする。"
+                ],
+                [
+                  "save-and-compare-document-revisions",
+                  "差分レポートが 2 回の収集をどう比べるか。"
+                ],
+                [
+                  "save-pages-with-source-url-and-date",
+                  "元の URL と日付が残る保存の形。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "競合の価格を毎週自動で確認できますか？",
+              "a": "できません。Grab All Files に定期実行の機能はなく、収集は毎回、利用者が自分で始めます。このページの流れは、手で繰り返すものです。"
+            },
+            {
+              "q": "今月と先月をどう比べますか？",
+              "a": "差分レポートは、今回の収集を同じサイトの直前の完了した収集と、URL・タイトル・本文で比べます。表は月ごとの CSV を残して、表計算ソフトで比べます。"
+            },
+            {
+              "q": "価格表を CSV で手に入れられますか？",
+              "a": "AI 分析用データの出力設定に、表を CSV と JSON としても書き出す項目があります。作りが変わった表はきれいに出ないことがあるので、自分のページで結果を確かめてください。"
+            },
+            {
+              "q": "競合のページを保存してもよいのですか？",
+              "a": "サイトの利用規約と、写しの使い方で決まります。規約を読み、必要なものだけを集め、内容を再公開しないでください。"
+            },
+            {
+              "q": "保存したページに、取得元と時刻は出ますか？",
+              "a": "「元の見た目のまま」で「目次・検索付きHTML」なら、各ページのタイトルの下に元の URL と取得日時が出ます。ほかの組み合わせではファイルのコメントに入ります。「読みやすく整える」は、詳細のオプションをオンにしたときだけ、取得日時が文書の先頭に入ります。"
+            }
+          ]
+        }
+      }
+    },
+    "what-grab-all-files-can-and-cannot-do": {
+      "path": "what-grab-all-files-can-and-cannot-do.html",
+      "v2": true,
+      "related": [
+        "crawler-vs-page-saver-vs-download-manager",
+        "grab-all-files-faq",
+        "bulk-download-extension-for-firefox-and-edge",
+        "download-files-from-webpage",
+        "save-pages-and-files-behind-login",
+        "download-multiple-files-as-zip"
+      ],
+      "copy": {
+        "en": {
+          "title": "What Grab All Files can and cannot do: limits and unsupported pages | Grab All Files",
+          "desc": "The numbers in one table: 10 files per download on Free, 100 linked files per run on Pro, 100,000 pages per crawl, 256 MB per ZIP. Plus what it cannot save.",
+          "eyebrow": "Limits and fit",
+          "h1": "What Grab All Files can and cannot do, with the numbers.",
+          "lead": "Grab All Files is a browser extension for Chrome, Edge and Firefox. It finds files on web pages and saves pages as HTML. This page lists its limits as they are in version 5.8.54, what Free and Pro change, and the pages and files it cannot save, with the kind of tool to use for those.",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "The limits",
+              "p": [
+                "Pro is US$19.99, paid once, with no subscription, and one license works on up to 3 devices. Free needs no credit card."
+              ],
+              "head": [
+                "Item",
+                "Number",
+                "What it counts",
+                "Free and Pro"
+              ],
+              "rows": [
+                [
+                  "Files saved in one go (file downloader)",
+                  "10 on Free; no cap on Pro",
+                  "The files you select for one save: download, ZIP, PDF merge or CSV. On Free you select the next 10 and press the button again.",
+                  "This is the difference between the plans for the file downloader."
+                ],
+                [
+                  "Pages saved in one run (page collector)",
+                  "1 on Free; as many as you select on Pro",
+                  "Pages saved into the HTML. On Free you pick one candidate; you can add pages one at a time to the HTML you saved last time.",
+                  "Over 100 pages on Pro, it first asks whether to pause every 100 pages."
+                ],
+                [
+                  "Linked files saved with the HTML",
+                  "10 on Free; 100 on Pro, per run",
+                  "PDF, Word, Excel and similar files that the saved pages link to. A button on the result screen saves the next batch.",
+                  "On Pro it asks first when more than 100 are linked."
+                ],
+                [
+                  "Pages in one crawl",
+                  "100,000",
+                  "How many pages one crawl will read when it looks for files or for candidate pages. sitemap.xml and robots.txt are read too.",
+                  "Same on both plans."
+                ],
+                [
+                  "Crawl depth",
+                  "This page only, depth 1 to 5, or unlimited",
+                  "How many link levels it follows from the starting page. The depth works inside the folder the starting page is in.",
+                  "Same on both plans."
+                ],
+                [
+                  "Size of one ZIP",
+                  "256 MB",
+                  "A confirmation appears above 200 MB in total. It does not split a ZIP into parts.",
+                  "Free also stops at 10 files per ZIP."
+                ],
+                [
+                  "Pages followed by “Next” while scanning",
+                  "6, 20 or 100 pages",
+                  "Pro only. The scan scrolls to the end by itself and follows the “Next” pages of the same list. The number follows the “Scroll time” setting: 45, 90 or 180 seconds.",
+                  "Free reads what is on screen, so scroll to the end yourself first."
+                ],
+                [
+                  "Devices",
+                  "3",
+                  "One Pro license can be activated on up to 3 devices.",
+                  "Pro only."
+                ]
+              ]
+            },
+            {
+              "t": "text",
+              "h": "What the “100” on Pro is, and what it is not",
+              "p": [
+                "Pro does not have a limit on how many files you download. Its 100 is the number of linked files saved next to the HTML per run in “Combine pages into HTML”: the PDFs and Office files that your saved pages point to. Free saves 10 of those per run. If more are linked, the result screen has a button for the next batch.",
+                "Two other numbers are easy to confuse with it. 100,000 is the page limit of one crawl, and 100 is also the number of “Next” pages a Pro scan follows with the longest “Scroll time” setting. All three are separate settings."
+              ]
+            },
+            {
+              "t": "table",
+              "h": "What it can do",
+              "head": [
+                "What",
+                "Detail"
+              ],
+              "rows": [
+                [
+                  "List the files on a page and save the ones you pick",
+                  "It detects 708 file types in 38 categories, including PDFs inside an iframe, lazy-loaded images, and files loaded through fetch/XHR or blob URLs. You filter, sort and search the list before saving."
+                ],
+                [
+                  "Save Office files, video files and audio files",
+                  "Word, Excel and PowerPoint files, and video and audio files that the page links to directly. Same on Free and Pro."
+                ],
+                [
+                  "Follow links to find more files",
+                  "From the page only to unlimited depth, up to 100,000 pages per crawl."
+                ],
+                [
+                  "Make a ZIP, merge PDFs, export a file list",
+                  "All of it runs in your browser. The CSV has URL, file name, title, type, size and the page each file came from."
+                ],
+                [
+                  "Save pages as HTML",
+                  "Four forms of saved file and two looks, “Easy to read” or “Keep the original look”. Each saved page can carry its source URL and the time it was captured."
+                ],
+                [
+                  "Save pages you see after signing in, and pages built by JavaScript",
+                  "It saves what your browser displays, using your existing sign-in. It does not store your password and does not get past a CAPTCHA."
+                ],
+                [
+                  "Read a feed to the end",
+                  "Timelines and comment lists are scrolled to the end, with no cap on the number of posts. It asks whether to continue every 1,000 posts."
+                ],
+                [
+                  "Work on your computer",
+                  "Pages and files go from the source site to your computer. They are not sent to the developer's server."
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "Where the 10-file limit shows",
+              "p": [
+                "On Free, the file list marks the line after the 10 files that the next save will take."
+              ],
+              "src": "/assets/screenshots/shot-en.jpg",
+              "alt": "Grab All Files, File downloader, on the Free plan. A list of 19 detected files with 10 selected, a line under the tenth that reads “Everything above is this download — 10 files”, and the button “Save selected files (10 / 19)”.",
+              "cap": "The real file downloader on the Free plan: 19 files found, 10 selected for this save. The line under the tenth file says Pro downloads everything at once.",
+              "w": 1600,
+              "hgt": 1429,
+              "webp": "/assets/screenshots/shot-en.webp"
+            },
+            {
+              "t": "table",
+              "h": "What it cannot save, and what to use instead",
+              "p": [
+                "The first column is what Grab All Files does not save. The last column names a kind of tool, not a product."
+              ],
+              "head": [
+                "Cannot save",
+                "What happens",
+                "A kind of tool that fits"
+              ],
+              "rows": [
+                [
+                  "Browser internal pages (chrome://), the Chrome Web Store and Edge Add-ons pages, file:// pages",
+                  "It does not run there.",
+                  "For HTML files already on your computer, the “From a computer folder” option in Combine pages into HTML reads a folder or ZIP of them. Otherwise, the browser's own Save page as."
+                ],
+                [
+                  "Files behind DRM or an encrypted viewer",
+                  "The file cannot be read.",
+                  "A download that the publisher itself offers, if one exists."
+                ],
+                [
+                  "The inside of the browser's built-in PDF viewer, text in a closed Shadow DOM, text drawn only on a canvas",
+                  "The text cannot be read as text.",
+                  "Saving the screen as an image, or the browser's print to PDF."
+                ],
+                [
+                  "An iframe from another domain you have not allowed",
+                  "Not read until you allow it. Once allowed, it can be read.",
+                  "No other tool needed: allow the site when the browser asks."
+                ],
+                [
+                  "Streamed video (HLS .m3u8, DASH .mpd), blob: playback, play URLs with no file extension, videos on streaming sites",
+                  "It does not save these, does not get around DRM or watermarks, and does not record streams.",
+                  "The download feature the video's publisher provides, where there is one."
+                ],
+                [
+                  "Pages you cannot sign in to or are not permitted to see",
+                  "It uses your browser's access and cannot add to it.",
+                  "Ask the owner for the files, or use the publisher's bulk download or API."
+                ],
+                [
+                  "Thousands of pages, or only the files that changed since last time",
+                  "It works page by page through a browser tab, so it is slow and has no update-only mode.",
+                  "A desktop website copier."
+                ],
+                [
+                  "Large sets of papers or public data",
+                  "Possible in small sets, but not the right tool for a whole corpus.",
+                  "The source's bulk download or API, when it has one."
+                ]
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "crawler-vs-page-saver-vs-download-manager",
+                  "The same limits seen as a comparison of methods."
+                ],
+                [
+                  "bulk-download-extension-for-firefox-and-edge",
+                  "What differs on Firefox."
+                ],
+                [
+                  "grab-all-files-faq",
+                  "Short answers on price, privacy and permissions."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How many files can I download at once on the free plan?",
+              "a": "10 files per save. The same limit applies to a ZIP, a PDF merge and a CSV made from the selection. Select the next 10 and press the button again to continue. Pro has no cap on the number of files."
+            },
+            {
+              "q": "Is Pro limited to 100 downloads?",
+              "a": "No. The file downloader has no file-count cap on Pro. The 100 is the number of linked files saved next to the HTML in one run of “Combine pages into HTML”. A button on the result screen saves the next batch."
+            },
+            {
+              "q": "How many pages can it crawl?",
+              "a": "Up to 100,000 pages in one crawl, at depth “This page only”, 1 to 5, or unlimited. It also reads sitemap.xml and robots.txt."
+            },
+            {
+              "q": "How large can a ZIP be?",
+              "a": "256 MB. Above 200 MB in total a confirmation appears. It does not split a ZIP into several files, so select fewer files if you hit the limit."
+            },
+            {
+              "q": "Can it save streamed video?",
+              "a": "No. It saves video files that a page links to directly, such as .mp4 or .webm. It does not save HLS or DASH streams, blob: playback or videos on streaming sites."
+            },
+            {
+              "q": "What should I use for a site with thousands of pages?",
+              "a": "A desktop website copier. Grab All Files reads each page through a browser tab, which is why it can save pages behind a sign-in and pages built by JavaScript, and also why it is slow at that scale."
+            }
+          ]
+        },
+        "ja": {
+          "title": "Grab All Files でできること・できないこと：上限と保存できないもの | Grab All Files",
+          "desc": "上限を1つの表に。無料は1回10件、Pro はリンク先ファイル1回100件、巡回は1回100,000ページ、ZIP は256MB。保存できないものも書きます。",
+          "eyebrow": "上限と向き不向き",
+          "h1": "Grab All Files でできること・できないこと。数字つきで。",
+          "lead": "Grab All Files は、Chrome・Edge・Firefox の拡張機能です。ページ内のファイルを見つけて保存し、ページを HTML にも保存します。このページは、バージョン 5.8.54 の上限、無料と Pro の違い、保存できないページやファイルと、そのときに使う道具の種類をまとめたものです。",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "上限の一覧",
+              "p": [
+                "Pro は US$19.99 の買い切りで、サブスクはありません。1つのライセンスを3台まで使えます。無料版はクレジットカードなしで使えます。"
+              ],
+              "head": [
+                "項目",
+                "数字",
+                "何の数か",
+                "無料と Pro"
+              ],
+              "rows": [
+                [
+                  "1回に保存するファイル（ファイル一括ダウンロード）",
+                  "無料は10件、Pro は上限なし",
+                  "1回の保存（ダウンロード・ZIP・PDF結合・CSV）で選んだファイルの数。無料は次の10件を選び、もう一度ボタンを押します。",
+                  "ファイル一括ダウンロードでの、プランの違いはここです。"
+                ],
+                [
+                  "1回に保存するページ（ページ収集）",
+                  "無料は1ページ、Pro は選んだ数だけ",
+                  "HTML に保存するページの数。無料は候補から1ページを選びます。前回保存した HTML に1ページずつ足せます。",
+                  "Pro で100ページを超えるときは、100ページごとに一時停止するかを先に聞きます。"
+                ],
+                [
+                  "HTML と一緒に保存するリンク先ファイル",
+                  "無料は10件、Pro は100件（1回）",
+                  "保存したページがリンクしている PDF・Word・Excel などの数。結果画面のボタンで次の分を保存します。",
+                  "Pro は、100件を超えてリンクされているときは先に聞きます。"
+                ],
+                [
+                  "1回の巡回で読むページ",
+                  "100,000ページ",
+                  "ファイルや候補ページを探して1回の巡回で読むページの数。sitemap.xml と robots.txt も読みます。",
+                  "どちらのプランも同じ。"
+                ],
+                [
+                  "巡回の深さ",
+                  "このページのみ・深さ1〜5・無制限",
+                  "起点のページからリンクを何段たどるか。深さは、起点のページがあるフォルダの範囲で動きます。",
+                  "どちらのプランも同じ。"
+                ],
+                [
+                  "ZIP 1つの大きさ",
+                  "256MB",
+                  "合計200MBを超えると確認が出ます。ZIP を分けて作ることはしません。",
+                  "無料は ZIP も10件までです。"
+                ],
+                [
+                  "スキャンが「次へ」でたどるページ",
+                  "6・20・100ページ",
+                  "Pro のみ。スキャンがページを自動で最後までスクロールし、同じ一覧の「次へ」もたどります。数は「読み込み時間」の設定（45秒・90秒・180秒）で決まります。",
+                  "無料は画面に出ている分だけを読むので、先に自分で最後までスクロールします。"
+                ],
+                [
+                  "使える台数",
+                  "3台",
+                  "Pro のライセンス1つを、3台まで有効にできます。",
+                  "Pro のみ。"
+                ]
+              ]
+            },
+            {
+              "t": "text",
+              "h": "Pro の「100」は何の数か、何の数でないか",
+              "p": [
+                "Pro には、ダウンロードするファイル数の上限はありません。Pro の100は、「ページをHTMLにまとめる」で、HTML と並べて1回に保存するリンク先ファイル（保存したページがリンクする PDF や Office 文書）の数です。無料は1回10件です。それより多くリンクされているときは、結果画面のボタンで次の分を保存します。",
+                "間違えやすい数字がほかに2つあります。100,000は1回の巡回で読むページの上限です。100は、Pro のスキャンが「読み込み時間」を最長にしたとき「次へ」でたどるページ数でもあります。3つは別々の設定です。"
+              ]
+            },
+            {
+              "t": "table",
+              "h": "できること",
+              "head": [
+                "できること",
+                "内容"
+              ],
+              "rows": [
+                [
+                  "ページ内のファイルを一覧にして、選んで保存する",
+                  "38カテゴリ・708種類のファイルを検出します。iframe 内の PDF、遅延読み込みの画像、fetch/XHR や blob URL で読み込まれるファイルも探します。保存の前に、一覧を絞り込み・並べ替え・検索できます。"
+                ],
+                [
+                  "Office 文書・動画・音声のファイルを保存する",
+                  "Word・Excel・PowerPoint のファイルと、ページから直接リンクされた動画・音声のファイル。無料でも Pro でも同じです。"
+                ],
+                [
+                  "リンクをたどってファイルを探す",
+                  "このページのみから無制限の深さまで。1回の巡回で最大100,000ページ。"
+                ],
+                [
+                  "ZIP を作る、PDF を結合する、ファイル一覧を書き出す",
+                  "すべてブラウザーの中で処理します。CSV の列は URL・ファイル名・タイトル・種類・サイズと、見つけたページです。"
+                ],
+                [
+                  "ページを HTML に保存する",
+                  "保存の形が4つ、見た目が「読みやすく整える」と「元の見た目のまま」の2つ。保存したページに、元の URL と取得日時を残せます。"
+                ],
+                [
+                  "ログイン後のページや、JavaScript で作られたページを保存する",
+                  "ブラウザーに表示された内容を、今のログイン状態のまま保存します。パスワードは保存せず、CAPTCHA は突破しません。"
+                ],
+                [
+                  "フィードを最後まで読む",
+                  "タイムラインやコメント欄を最後までスクロールします。件数の上限はなく、1,000件ごとに続けるか聞きます。"
+                ],
+                [
+                  "パソコンの中で動く",
+                  "ページもファイルも、元のサイトからパソコンに直接保存します。開発者のサーバーには送りません。"
+                ]
+              ]
+            },
+            {
+              "t": "shot",
+              "h": "10件の上限が出る場所",
+              "p": [
+                "無料プランでは、ファイルの一覧に、次の保存で扱う10件の区切りが表示されます。"
+              ],
+              "src": "/assets/screenshots/shot-ja.jpg",
+              "alt": "無料プランのファイル一括ダウンロードの画面。検出された19件のうち10件が選択され、10件目の下に「ここまでが今回ダウンロードする10件です」の線があり、ボタンは「選んだファイルを保存（10 / 19）」。",
+              "cap": "無料プランの実際の画面です。19件が見つかり、今回の保存に10件が選ばれています。10件目の下の行に、Pro なら一括ですべてダウンロードできると出ます。",
+              "w": 1600,
+              "hgt": 1429,
+              "webp": "/assets/screenshots/shot-ja.webp"
+            },
+            {
+              "t": "table",
+              "h": "保存できないものと、代わりに使う道具",
+              "p": [
+                "左の列は Grab All Files が保存しないものです。右の列は製品名ではなく、道具の種類です。"
+              ],
+              "head": [
+                "保存できないもの",
+                "どうなるか",
+                "向く道具の種類"
+              ],
+              "rows": [
+                [
+                  "ブラウザーの内部ページ（chrome:// など）、Chrome ウェブストアと Edge アドオンのページ、file:// のページ",
+                  "そこでは動きません。",
+                  "パソコンにある HTML は、「ページをHTMLにまとめる」の「パソコンのフォルダから」で、フォルダや ZIP を読めます。それ以外は、ブラウザー自身の「名前を付けて保存」。"
+                ],
+                [
+                  "DRM や暗号化されたビューアーの中のファイル",
+                  "ファイルを読み取れません。",
+                  "提供元がファイルとして配っているなら、その配布。"
+                ],
+                [
+                  "ブラウザー内蔵の PDF ビューアーの中、閉じた Shadow DOM、Canvas だけで描かれた文字",
+                  "文字として読み取れません。",
+                  "画面を画像で保存する方法や、ブラウザーの印刷から作る PDF。"
+                ],
+                [
+                  "許可していない別ドメインの iframe",
+                  "許可するまでは読みません。許可すれば読めます。",
+                  "別の道具は要りません。ブラウザーが聞いてきたときにそのサイトを許可します。"
+                ],
+                [
+                  "配信ストリームの動画（HLS の .m3u8、DASH の .mpd）、blob: の再生、拡張子のない再生 URL、動画配信サイトの動画",
+                  "保存しません。DRM や透かしの回避も、ストリームの録画もしません。",
+                  "動画の提供元が用意しているダウンロード機能（ある場合）。"
+                ],
+                [
+                  "ログインできないページ、見る権限のないページ",
+                  "ブラウザーが持っている権限で動くので、それを超えることはできません。",
+                  "持ち主にファイルを依頼するか、提供元の一括ダウンロードや API。"
+                ],
+                [
+                  "何千ページ、または前回から変わったファイルだけの取り直し",
+                  "ブラウザーのタブで1ページずつ処理するので遅く、差分だけを取る機能もありません。",
+                  "パソコン用のサイト巡回ソフト。"
+                ],
+                [
+                  "大量の論文や公開データ",
+                  "少数なら取れますが、全体の取得には向きません。",
+                  "提供元の一括ダウンロードや API（ある場合）。"
+                ]
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "crawler-vs-page-saver-vs-download-manager",
+                  "同じ限界を、方式の比較として見る。"
+                ],
+                [
+                  "bulk-download-extension-for-firefox-and-edge",
+                  "Firefox で違うところ。"
+                ],
+                [
+                  "grab-all-files-faq",
+                  "料金・プライバシー・権限の短い答え。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "無料版では、一度に何件までダウンロードできますか？",
+              "a": "1回の保存で10件までです。選んだものから作る ZIP・PDF結合・CSV も同じ上限です。続きは次の10件を選んで、もう一度ボタンを押します。Pro にはファイル数の上限はありません。"
+            },
+            {
+              "q": "Pro は100件までしかダウンロードできないのですか？",
+              "a": "いいえ。Pro のファイル一括ダウンロードに、件数の上限はありません。100は、「ページをHTMLにまとめる」の1回で、HTML と並べて保存するリンク先ファイルの数です。結果画面のボタンで次の分を保存できます。"
+            },
+            {
+              "q": "何ページまで巡回できますか？",
+              "a": "1回の巡回で最大100,000ページです。深さは「このページのみ」・1〜5・無制限から選びます。sitemap.xml と robots.txt も読みます。"
+            },
+            {
+              "q": "ZIP は何MBまで作れますか？",
+              "a": "256MBまでです。合計200MBを超えると確認が出ます。ZIP を複数に分けることはしないので、上限に当たったら選ぶファイルを減らしてください。"
+            },
+            {
+              "q": "配信されている動画も保存できますか？",
+              "a": "いいえ。ページから直接リンクされた動画ファイル（.mp4 や .webm など）は保存します。HLS・DASH の配信、blob: の再生、動画配信サイトの動画は保存しません。"
+            },
+            {
+              "q": "何千ページもあるサイトには、何を使えばよいですか？",
+              "a": "パソコン用のサイト巡回ソフトです。Grab All Files はブラウザーのタブで1ページずつ読みます。ログイン後のページや JavaScript で作られたページを保存できるのはそのためで、その規模では遅くなるのも同じ理由です。"
+            }
+          ]
+        }
+      }
+    },
+    "crawler-vs-page-saver-vs-download-manager": {
+      "path": "crawler-vs-page-saver-vs-download-manager.html",
+      "v2": true,
+      "related": [
+        "what-grab-all-files-can-and-cannot-do",
+        "save-entire-website",
+        "save-pages-and-files-behind-login",
+        "download-files-from-webpage",
+        "bulk-download-extension-for-firefox-and-edge",
+        "grab-all-files-faq"
+      ],
+      "copy": {
+        "en": {
+          "title": "Website copier vs one-page saver vs download manager: which method fits | Grab All Files",
+          "desc": "Four ways to save web content compared by method: a desktop website copier, a one-page saver, a download manager, and Grab All Files, including where it does not fit.",
+          "eyebrow": "Choosing a method",
+          "h1": "Website copier, one-page saver, download manager or Grab All Files: what each method is good at.",
+          "lead": "These four kinds of tool overlap, so the question is which method fits the job: how many pages, whether you need to sign in, whether the page is drawn by JavaScript, and whether you will repeat it. The table compares the methods in general terms, with “often” where products differ. It names no products. Grab All Files is the fourth column, and the rows where it is the wrong choice are marked in plain words.",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "The four methods, row by row",
+              "p": [
+                "The first three columns describe what is usually true of that kind of tool. Individual products differ, so check the one you are considering."
+              ],
+              "head": [
+                "",
+                "Desktop website copier",
+                "One-page saver extension",
+                "Download manager",
+                "Grab All Files"
+              ],
+              "rows": [
+                [
+                  "Pages behind a sign-in",
+                  "Often requests pages straight from the server, so a sign-in needs extra setup and sometimes cannot be done.",
+                  "Works, because it saves the page your browser is already showing.",
+                  "Mostly built for file links. Some can reuse the browser's sign-in; many cannot.",
+                  "Works. It uses the sign-in of the browser you are in. It does not store passwords or get past a CAPTCHA."
+                ],
+                [
+                  "Pages drawn by JavaScript",
+                  "Often saves the HTML as the server sends it, so a page built in the browser can come back nearly empty.",
+                  "Works, because it saves what is displayed.",
+                  "Not its purpose. It does not render pages.",
+                  "Works. It saves what the browser displays."
+                ],
+                [
+                  "Thousands of pages",
+                  "A good fit. This is what the method is for.",
+                  "Not a fit. It saves one page per action.",
+                  "Many files are fine. Whole pages are not what it is for.",
+                  "Not a good fit. It reads each page through a browser tab, so it is slow at that scale. One crawl reads at most 100,000 pages."
+                ],
+                [
+                  "Updating a copy: re-download only what changed",
+                  "Often has it.",
+                  "Does not have it.",
+                  "Usually not. At most it skips or overwrites files with the same name.",
+                  "Does not have it. A Markdown change report compares with your last saved collection of the same site, but it does not re-fetch only what changed."
+                ],
+                [
+                  "How the page looks",
+                  "Often rewrites links and writes the site out as folders.",
+                  "Often puts the page into one file with its styles and images.",
+                  "No saved page.",
+                  "Two looks, “Easy to read” and “Keep the original look”, and four forms of saved file, including one that writes the site's folder layout (Chrome and Edge only)."
+                ],
+                [
+                  "Finding the files inside a page",
+                  "Usually by file extension, with include and exclude rules.",
+                  "Not its purpose.",
+                  "Usually lists the links on a page and saves the chosen ones.",
+                  "Detects 708 file types in 38 categories, including PDFs in iframes and files loaded by fetch/XHR or blob URLs, and lists them to check before saving."
+                ],
+                [
+                  "Where it runs",
+                  "A program you install on your computer.",
+                  "A browser extension.",
+                  "A program on your computer, sometimes linked to the browser.",
+                  "A browser extension for Chrome, Edge and Firefox. Pages and files go from the source site to your computer."
+                ],
+                [
+                  "Cost and buying",
+                  "Varies by product.",
+                  "Varies by product.",
+                  "Varies by product.",
+                  "Free to use. Pro is US$19.99, paid once, for up to 3 devices."
+                ]
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "Where Grab All Files is the right choice",
+                  "items": [
+                    "You must sign in to see the pages, and you can already open them in your browser.",
+                    "The pages are built by JavaScript and a plain download comes back empty.",
+                    "You want the PDFs and Office files listed first, so you can check them and keep only some.",
+                    "The job is dozens to a few hundred pages, or a long list of files on a few pages."
+                  ]
+                },
+                {
+                  "h": "Where it is the wrong choice",
+                  "no": true,
+                  "items": [
+                    "A whole site of thousands of pages, copied in one go.",
+                    "A copy you refresh every week, fetching only the files that changed.",
+                    "Video that is streamed rather than linked as a file.",
+                    "Pages that you cannot open in your own browser."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "art",
+              "h": "Why the method matters",
+              "p": [
+                "Every difference in the table follows from one fact: what the tool asks for, and who does the asking."
+              ],
+              "items": [
+                [
+                  "local-processing",
+                  "Inside your browser",
+                  "Grab All Files works through a browser tab on your computer. That is why it sees signed-in and JavaScript pages, and why it handles one page at a time.",
+                  240,
+                  148
+                ],
+                [
+                  "dl-depth",
+                  "How far it follows links",
+                  "Crawl depth runs from this page only to unlimited, up to 100,000 pages per crawl. A desktop copier is built for the far end of that range.",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "text",
+              "h": "Using more than one",
+              "p": [
+                "The methods are not rivals. A common split: use a desktop website copier for a big public site, and Grab All Files for the signed-in area of the same site, or for the PDFs scattered across a few pages. The file list from Grab All Files can also be exported as CSV, with the URL of every file, if you want to pass it to another tool."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "what-grab-all-files-can-and-cannot-do",
+                  "The limits and unsupported pages, with numbers."
+                ],
+                [
+                  "save-entire-website",
+                  "Saving a site of a few hundred pages, step by step."
+                ],
+                [
+                  "save-pages-and-files-behind-login",
+                  "Pages and files that need a sign-in."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Is Grab All Files a website copier?",
+              "a": "Not in the usual sense. It saves pages through a browser tab, one at a time, and can write a site's folder layout to your computer. It suits sites of a few dozen to a few hundred pages. For thousands of pages, use a desktop website copier."
+            },
+            {
+              "q": "Which method works on a site I have to sign in to?",
+              "a": "A tool that runs inside your browser, because it uses the sign-in you already have. Grab All Files and one-page saver extensions work this way. Desktop copiers often need extra setup for it."
+            },
+            {
+              "q": "Can I refresh a saved copy and download only what changed?",
+              "a": "Not with Grab All Files. It has a Markdown change report that compares with your last collection of the same site, but it saves the pages again. A desktop website copier is the method built for updating."
+            },
+            {
+              "q": "How is it different from a download manager?",
+              "a": "A download manager takes a list of file links and fetches them well. Grab All Files finds the files first, including ones a page loads by script, shows them in a list to check, and can also save the pages as HTML."
+            }
+          ]
+        },
+        "ja": {
+          "title": "サイト巡回ソフト・1ページ保存・ダウンロード管理ソフトの違いと選び方 | Grab All Files",
+          "desc": "Web の内容を保存する4つの方式を比較。パソコン用の巡回ソフト、1ページ保存の拡張機能、ダウンロード管理ソフト、Grab All Files。向かない行も書きます。",
+          "eyebrow": "方式の選び方",
+          "h1": "巡回ソフト、1ページ保存、ダウンロード管理、Grab All Files。方式ごとの得意なこと。",
+          "lead": "この4種類は役割が重なるので、選ぶ基準は「何ページか」「ログインが要るか」「JavaScript で描かれたページか」「繰り返すか」です。表は方式の一般的な性質で比べていて、製品によって違う点は「多くの場合」と書きました。製品名は出しません。Grab All Files は右端の列で、向かない行ははっきり書いています。",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "4つの方式を、行ごとに比べる",
+              "p": [
+                "左の3列は、その種類の道具で多くの場合に言えることです。製品ごとに違うので、検討中の製品で確かめてください。"
+              ],
+              "head": [
+                "",
+                "パソコン用のサイト巡回ソフト",
+                "1ページを保存する拡張機能",
+                "ダウンロード管理ソフト",
+                "Grab All Files"
+              ],
+              "rows": [
+                [
+                  "ログイン後のページ",
+                  "サーバーに直接ページを要求するものが多く、ログインには追加の設定が要るか、できないことがあります。",
+                  "取れます。ブラウザーが表示しているページを保存するからです。",
+                  "ファイルのリンクが中心です。ブラウザーのログインを使えるものもありますが、使えないものも多くあります。",
+                  "取れます。今のブラウザーのログイン状態を使います。パスワードは保存せず、CAPTCHA は突破しません。"
+                ],
+                [
+                  "JavaScript で作られたページ",
+                  "サーバーが返した HTML をそのまま保存するものが多く、ブラウザーの中で作られるページはほとんど空になることがあります。",
+                  "取れます。表示された内容を保存します。",
+                  "目的ではありません。ページを描画しません。",
+                  "取れます。ブラウザーが表示した内容を保存します。"
+                ],
+                [
+                  "何千ページ",
+                  "向いています。この方式はそのためのものです。",
+                  "向きません。1回の操作で1ページです。",
+                  "ファイルが多いのは問題ありません。ページ丸ごとは目的外です。",
+                  "あまり向きません。ブラウザーのタブで1ページずつ読むので、この規模では遅くなります。1回の巡回で読むのは最大100,000ページです。"
+                ],
+                [
+                  "コピーの更新（変わった分だけ取り直す）",
+                  "備えているものが多くあります。",
+                  "ありません。",
+                  "多くはありません。同じ名前のファイルを飛ばすか上書きする程度です。",
+                  "ありません。Markdown の変更レポートで同じサイトの前回の収集と比べられますが、変わった分だけを取り直すわけではありません。"
+                ],
+                [
+                  "ページの見た目",
+                  "リンクを書き換えて、サイトをフォルダの形で書き出すものが多くあります。",
+                  "スタイルと画像を入れて、1つのファイルにまとめるものが多くあります。",
+                  "ページは保存しません。",
+                  "「読みやすく整える」と「元の見た目のまま」の2つの見た目と、4つの保存の形。サイトのフォルダの形で書き出す形もあります（Chrome・Edge のみ）。"
+                ],
+                [
+                  "ページ内のファイルの検出",
+                  "多くは拡張子で指定し、含める・除く条件で絞ります。",
+                  "目的ではありません。",
+                  "ページのリンクを一覧にして、選んだものを保存するものが多くあります。",
+                  "38カテゴリ・708種類を検出します。iframe 内の PDF や、fetch/XHR・blob URL で読み込まれるファイルも探し、一覧で確かめてから保存します。"
+                ],
+                [
+                  "どこで動くか",
+                  "パソコンにインストールするプログラム。",
+                  "ブラウザーの拡張機能。",
+                  "パソコンのプログラム。ブラウザーと連携するものもあります。",
+                  "Chrome・Edge・Firefox の拡張機能。元のサイトからパソコンに直接保存します。"
+                ],
+                [
+                  "費用と買い方",
+                  "製品によります。",
+                  "製品によります。",
+                  "製品によります。",
+                  "無料で使えます。Pro は US$19.99 の買い切りで、3台までです。"
+                ]
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "Grab All Files が向く場面",
+                  "items": [
+                    "見るのにログインが要り、そのページを自分のブラウザーですでに開ける。",
+                    "ページが JavaScript で作られていて、そのまま取ると空になる。",
+                    "PDF や Office 文書を先に一覧にして、確かめてから一部だけ残したい。",
+                    "数十〜数百ページ、または数ページにまたがる長いファイルの一覧。"
+                  ]
+                },
+                {
+                  "h": "向かない場面",
+                  "no": true,
+                  "items": [
+                    "何千ページものサイトを、1回でまるごとコピーする。",
+                    "毎週コピーを更新して、変わったファイルだけを取る。",
+                    "ファイルではなく、配信（ストリーミング）される動画。",
+                    "自分のブラウザーで開けないページ。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "art",
+              "h": "方式が違いを決める",
+              "p": [
+                "表の違いは、どの道具が、誰の立場でページを取りに行くかという1点から来ています。"
+              ],
+              "items": [
+                [
+                  "local-processing",
+                  "ブラウザーの中で動く",
+                  "Grab All Files はパソコンのブラウザーのタブを通して動きます。ログイン後のページや JavaScript のページが見えるのも、1ページずつの処理になるのも、このためです。",
+                  240,
+                  148
+                ],
+                [
+                  "dl-depth",
+                  "リンクをどこまでたどるか",
+                  "巡回の深さは「このページのみ」から無制限まで、1回で最大100,000ページ。その範囲の広い側は、パソコン用の巡回ソフトが得意です。",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "text",
+              "h": "組み合わせて使う",
+              "p": [
+                "方式は競争相手ではありません。たとえば、大きな公開サイトはパソコン用の巡回ソフトで、同じサイトのログイン後の部分や、数ページに散らばった PDF は Grab All Files で、という分け方があります。Grab All Files のファイル一覧は、各ファイルの URL つきで CSV に書き出せるので、ほかの道具に渡したいときの材料になります。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "what-grab-all-files-can-and-cannot-do",
+                  "上限と保存できないものを、数字つきで。"
+                ],
+                [
+                  "save-entire-website",
+                  "数百ページのサイトを保存する手順。"
+                ],
+                [
+                  "save-pages-and-files-behind-login",
+                  "ログインが要るページとファイル。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Grab All Files はサイト巡回ソフトですか？",
+              "a": "一般的な意味では違います。ブラウザーのタブを通して1ページずつ保存し、サイトのフォルダの形をパソコンに書き出すこともできます。数十〜数百ページのサイトに向いています。何千ページもあるときは、パソコン用のサイト巡回ソフトを使ってください。"
+            },
+            {
+              "q": "ログインが必要なサイトには、どの方式が向きますか？",
+              "a": "ブラウザーの中で動く道具です。今のログイン状態をそのまま使えるからです。Grab All Files や、1ページ保存の拡張機能がそうです。パソコン用の巡回ソフトは、追加の設定が要ることが多くあります。"
+            },
+            {
+              "q": "保存したコピーを更新して、変わった分だけ取れますか？",
+              "a": "Grab All Files ではできません。同じサイトの前回の収集と比べる Markdown の変更レポートはありますが、ページはもう一度保存します。更新には、パソコン用のサイト巡回ソフトが向いています。"
+            },
+            {
+              "q": "ダウンロード管理ソフトとの違いは何ですか？",
+              "a": "ダウンロード管理ソフトは、ファイルのリンクの一覧を受け取って、うまく取ってきます。Grab All Files は、スクリプトで読み込まれるファイルも含めて先に見つけ、一覧で確かめてから保存します。ページを HTML に保存することもできます。"
+            }
+          ]
+        }
+      }
+    },
+    "bulk-download-extension-for-firefox-and-edge": {
+      "path": "bulk-download-extension-for-firefox-and-edge.html",
+      "v2": true,
+      "related": [
+        "what-grab-all-files-can-and-cannot-do",
+        "grab-all-files-faq",
+        "download-files-from-webpage",
+        "save-entire-website",
+        "download-multiple-files-as-zip",
+        "crawler-vs-page-saver-vs-download-manager"
+      ],
+      "copy": {
+        "en": {
+          "title": "Bulk file download extension for Firefox, Edge and Chrome | Grab All Files",
+          "desc": "Where to get Grab All Files for Chrome, Edge (Chromium 111+) and Firefox 128+, and what Firefox cannot do: choose a folder, site copy in a folder, auto-capture.",
+          "eyebrow": "Chrome, Edge, Firefox",
+          "h1": "Bulk download extension for Chrome, Edge and Firefox: where to get it and what differs on Firefox.",
+          "lead": "Grab All Files runs in Chrome, in Edge (Chromium 111 or later) and in Firefox 128 or later. The core is the same in all three. On Firefox, four things work differently or are missing, and they are listed below so you can decide before installing.",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "Where to get it",
+              "p": [
+                "Each store page is the official listing. Free needs no credit card. Pro is US$19.99 paid once, and one license works on up to 3 devices."
+              ],
+              "head": [
+                "Browser",
+                "Supported versions",
+                "Store page"
+              ],
+              "rows": [
+                [
+                  "Google Chrome",
+                  "Chromium 111 or later",
+                  "Chrome Web Store: https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf"
+                ],
+                [
+                  "Microsoft Edge",
+                  "Chromium 111 or later",
+                  "Microsoft Edge Add-ons: https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef"
+                ],
+                [
+                  "Mozilla Firefox",
+                  "Firefox 128 or later",
+                  "Firefox Add-ons: https://addons.mozilla.org/firefox/addon/grab-all-files/"
+                ]
+              ]
+            },
+            {
+              "t": "table",
+              "h": "What Firefox cannot do",
+              "p": [
+                "These four differences were checked in the extension's code, version 5.8.54. This page does not claim that nothing else differs."
+              ],
+              "head": [
+                "",
+                "Chrome and Edge",
+                "Firefox"
+              ],
+              "rows": [
+                [
+                  "Choosing the folder to save into",
+                  "You can choose the destination folder.",
+                  "You cannot. Files go into a GrabAllFiles folder inside your Downloads folder, created automatically."
+                ],
+                [
+                  "“Site copy in a folder”",
+                  "Available. It writes the pages into a folder you pick, in the same folder layout as the site.",
+                  "Not available. Use “Separate HTML pages (ZIP)” for a copy whose saved pages link to each other offline."
+                ],
+                [
+                  "Active Capture (downloads started by JavaScript)",
+                  "Available. It clicks each download that a script starts and catches the file.",
+                  "Limited. Downloads started by JavaScript cannot be captured automatically. Files that the scan finds as direct links can still be downloaded."
+                ],
+                [
+                  "How Combine pages into HTML reads a page",
+                  "Reads fetched pages in a hidden page of the extension.",
+                  "Switches to reading from the page as rendered in a tab."
+                ]
+              ]
+            },
+            {
+              "t": "art",
+              "h": "Site copy or ZIP: it depends on the browser",
+              "p": [
+                "“Combine pages into HTML” has four forms of saved file. Three are available in every browser; this one is Chrome and Edge only, and the ZIP is the usual replacement on Firefox."
+              ],
+              "items": [
+                [
+                  "form-site-folder",
+                  "Site copy in a folder",
+                  "Writes the pages into a folder you choose, with the same folder layout as the site, and the links work offline. Chrome and Edge only.",
+                  160,
+                  64
+                ],
+                [
+                  "form-pages-zip",
+                  "Separate HTML pages (ZIP)",
+                  "One HTML file per page plus an index.html, in one ZIP. Links between saved pages open the saved copies, offline. Available on Firefox.",
+                  160,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "Firefox is enough when",
+                  "items": [
+                    "You save files into the usual Downloads folder and do not need to pick a folder each time.",
+                    "You can take a ZIP of separate HTML pages instead of a site copy in a folder.",
+                    "The files you want are linked directly on the page, so the scan finds them without capturing a script-started download."
+                  ]
+                },
+                {
+                  "h": "Chrome or Edge fits better when",
+                  "no": true,
+                  "items": [
+                    "You want to choose the folder, for example a shared folder on a drive.",
+                    "You want the site's own folder layout written to disk, to browse it by clicking links.",
+                    "The download is started by a button that runs JavaScript, with no normal link to the file."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "text",
+              "h": "License and languages",
+              "p": [
+                "One Pro license can be activated on up to 3 devices. It is a one-time purchase of US$19.99 with no subscription. The screens are available in 10 languages: English, Japanese, Spanish, French, German, Italian, Korean, Portuguese (Brazil), Simplified Chinese and Traditional Chinese.",
+                "Pages and files are processed in your browser on your computer. Only the license check, and usage statistics if you turn them on, reach the developer's server."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Related guides",
+              "items": [
+                [
+                  "what-grab-all-files-can-and-cannot-do",
+                  "The limits, with numbers."
+                ],
+                [
+                  "download-multiple-files-as-zip",
+                  "Saving selected files as one ZIP."
+                ],
+                [
+                  "grab-all-files-faq",
+                  "Short answers on price, privacy and permissions."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Does Grab All Files work in Firefox?",
+              "a": "Yes, in Firefox 128 or later. Four things differ: you cannot choose the save folder, “Site copy in a folder” is not available, downloads started by JavaScript cannot be captured automatically, and Combine pages into HTML reads pages from a rendered tab."
+            },
+            {
+              "q": "Where does it save files in Firefox?",
+              "a": "In a GrabAllFiles folder inside your Downloads folder. Firefox does not let you pick the destination folder in this extension."
+            },
+            {
+              "q": "Which Edge versions are supported?",
+              "a": "Edge on Chromium 111 or later, installed from Microsoft Edge Add-ons. Chrome is supported on the same Chromium version."
+            },
+            {
+              "q": "How many devices can one license be used on?",
+              "a": "Up to 3 devices. It is a one-time purchase of US$19.99, with no subscription."
+            }
+          ]
+        },
+        "ja": {
+          "title": "Firefox・Edge・Chrome で使えるファイル一括ダウンロード拡張機能 | Grab All Files",
+          "desc": "Chrome・Edge（Chromium 111以降）・Firefox 128以降の入手先と、Firefox でできないこと（保存先の選択、サイトの形でフォルダに保存、自動捕捉）。",
+          "eyebrow": "Chrome・Edge・Firefox",
+          "h1": "Chrome・Edge・Firefox で使える一括ダウンロード拡張機能。入手先と、Firefox での違い。",
+          "lead": "Grab All Files は、Chrome、Edge（Chromium 111 以降）、Firefox 128 以降で動きます。中心の機能は3つとも同じです。Firefox では4つの点が違うか、使えません。入れる前に判断できるよう、下にまとめました。",
+          "blocks": [
+            {
+              "t": "table",
+              "h": "入手先",
+              "p": [
+                "どれも公式のストアのページです。無料版はクレジットカードなしで使えます。Pro は US$19.99 の買い切りで、ライセンス1つを3台まで使えます。"
+              ],
+              "head": [
+                "ブラウザー",
+                "対応バージョン",
+                "ストアのページ"
+              ],
+              "rows": [
+                [
+                  "Google Chrome",
+                  "Chromium 111 以降",
+                  "Chrome ウェブストア：https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf"
+                ],
+                [
+                  "Microsoft Edge",
+                  "Chromium 111 以降",
+                  "Microsoft Edge アドオン：https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef"
+                ],
+                [
+                  "Mozilla Firefox",
+                  "Firefox 128 以降",
+                  "Firefox アドオン：https://addons.mozilla.org/firefox/addon/grab-all-files/"
+                ]
+              ]
+            },
+            {
+              "t": "table",
+              "h": "Firefox でできないこと",
+              "p": [
+                "次の4つの違いは、拡張機能 5.8.54 のコードで確かめました。ほかに違いがないとは、このページでは言っていません。"
+              ],
+              "head": [
+                "",
+                "Chrome・Edge",
+                "Firefox"
+              ],
+              "rows": [
+                [
+                  "保存先のフォルダを選ぶ",
+                  "保存先のフォルダを選べます。",
+                  "選べません。ダウンロードフォルダの中の GrabAllFiles フォルダに、自動で保存します。"
+                ],
+                [
+                  "「サイトの形でフォルダに保存」",
+                  "使えます。選んだフォルダに、元のサイトと同じフォルダの形でページを書き込みます。",
+                  "使えません。保存したページ同士のリンクをオフラインで開けるコピーが欲しいときは「ページ別HTML（ZIP）」を使います。"
+                ],
+                [
+                  "アクティブ取得（JavaScript で始まるダウンロード）",
+                  "使えます。スクリプトで始まるダウンロードを1つずつクリックして、ファイルを捕まえます。",
+                  "制限があります。JavaScript で始まるダウンロードは自動で捕捉できません。スキャンで直リンクとして見つかったファイルは、そのままダウンロードできます。"
+                ],
+                [
+                  "「ページをHTMLにまとめる」のページの読み取り",
+                  "取得したページを、拡張機能の非表示のページで読みます。",
+                  "描画したタブから読み取る方式に切り替わります。"
+                ]
+              ]
+            },
+            {
+              "t": "art",
+              "h": "サイトの形かZIPか：ブラウザーで変わります",
+              "p": [
+                "「ページをHTMLにまとめる」の保存の形は4つあります。3つはどのブラウザーでも選べます。この形は Chrome・Edge のみで、Firefox では ZIP が代わりになります。"
+              ],
+              "items": [
+                [
+                  "form-site-folder",
+                  "サイトの形でフォルダに保存",
+                  "選んだフォルダに、元のサイトと同じフォルダの形でページを書き込み、リンクはオフラインで動きます。Chrome・Edge のみ。",
+                  160,
+                  64
+                ],
+                [
+                  "form-pages-zip",
+                  "ページ別HTML（ZIP）",
+                  "1ページ1つの HTML と目次（index.html）を1つの ZIP に。保存したページ同士のリンクは、オフラインで保存したファイルを開きます。Firefox でも使えます。",
+                  160,
+                  64
+                ]
+              ]
+            },
+            {
+              "t": "pair",
+              "items": [
+                {
+                  "h": "Firefox で足りる場面",
+                  "items": [
+                    "いつものダウンロードフォルダに保存すればよく、毎回フォルダを選ぶ必要がない。",
+                    "サイトの形のフォルダの代わりに、ページ別 HTML の ZIP で足りる。",
+                    "欲しいファイルがページに直接リンクされていて、スクリプトで始まるダウンロードを捕捉しなくても、スキャンで見つかる。"
+                  ]
+                },
+                {
+                  "h": "Chrome・Edge が向く場面",
+                  "no": true,
+                  "items": [
+                    "保存先のフォルダを選びたい。たとえばドライブの共有フォルダ。",
+                    "サイト本来のフォルダの形をディスクに書き出し、リンクをクリックして見て回りたい。",
+                    "ファイルへの普通のリンクがなく、JavaScript を実行するボタンでダウンロードが始まる。"
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "text",
+              "h": "ライセンスと言語",
+              "p": [
+                "Pro のライセンス1つを、3台まで有効にできます。US$19.99 の買い切りで、サブスクはありません。画面は10言語（英語・日本語・スペイン語・フランス語・ドイツ語・イタリア語・韓国語・ポルトガル語（ブラジル）・簡体字中国語・繁体字中国語）です。",
+                "ページとファイルの処理は、パソコンのブラウザーの中で行います。開発者のサーバーに届くのは、ライセンスの確認と、オンにした場合の利用統計だけです。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "関連する使い方",
+              "items": [
+                [
+                  "what-grab-all-files-can-and-cannot-do",
+                  "上限を、数字つきで。"
+                ],
+                [
+                  "download-multiple-files-as-zip",
+                  "選んだファイルを ZIP 1つにする。"
+                ],
+                [
+                  "grab-all-files-faq",
+                  "料金・プライバシー・権限の短い答え。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Grab All Files は Firefox で使えますか？",
+              "a": "はい。Firefox 128 以降で使えます。違いは4つあります。保存先のフォルダを選べないこと、「サイトの形でフォルダに保存」が使えないこと、JavaScript で始まるダウンロードを自動で捕捉できないこと、「ページをHTMLにまとめる」が描画したタブからページを読むことです。"
+            },
+            {
+              "q": "Firefox では、ファイルはどこに保存されますか？",
+              "a": "ダウンロードフォルダの中の GrabAllFiles フォルダです。この拡張機能では、Firefox で保存先のフォルダを選べません。"
+            },
+            {
+              "q": "Edge は、どのバージョンから使えますか？",
+              "a": "Chromium 111 以降の Edge で、Microsoft Edge アドオンから入れられます。Chrome も同じ Chromium 111 以降が対象です。"
+            },
+            {
+              "q": "1つのライセンスは何台で使えますか？",
+              "a": "3台までです。US$19.99 の買い切りで、サブスクはありません。"
+            }
+          ]
+        }
+      }
+    },
+    "grab-all-files-faq": {
+      "path": "grab-all-files-faq.html",
+      "v2": true,
+      "related": [
+        "what-grab-all-files-can-and-cannot-do",
+        "crawler-vs-page-saver-vs-download-manager",
+        "bulk-download-extension-for-firefox-and-edge",
+        "download-files-from-webpage",
+        "save-pages-and-files-behind-login",
+        "internal-portal-downloads"
+      ],
+      "copy": {
+        "en": {
+          "title": "Grab All Files FAQ: safety, privacy, price, devices, refunds | Grab All Files",
+          "desc": "Short, specific answers: is it safe, are files uploaded, is Pro one-time, how many devices, what Free does, which browsers, sign-ins, permissions and refunds.",
+          "eyebrow": "Questions and answers",
+          "h1": "Grab All Files: frequently asked questions.",
+          "lead": "Answers to the questions people ask before installing a browser extension that reads web pages: what it sends, what it costs, what it needs access to, and what it does not do. Each answer is short and gives the actual numbers.",
+          "blocks": [
+            {
+              "t": "text",
+              "h": "In four lines",
+              "p": [
+                "Grab All Files finds files on web pages and saves pages as HTML, in Chrome, Edge and Firefox. Processing happens in your browser; page content, URLs and file names are not sent to the developer.",
+                "Free needs no credit card. Pro is US$19.99, paid once, for up to 3 devices.",
+                "It does not save streamed video, and it is not built for copying thousands of pages."
+              ]
+            },
+            {
+              "t": "art",
+              "h": "Where the work happens",
+              "items": [
+                [
+                  "local-processing",
+                  "On your computer",
+                  "Files are downloaded from the source site straight to your computer. ZIP, PDF merge, CSV and HTML are built in your browser, not uploaded.",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "text",
+              "h": "Permissions in full",
+              "p": [
+                "Every permission, why it is needed, and what is sent to the developer's server is listed on the security page of this site, at /security.html."
+              ]
+            },
+            {
+              "t": "links",
+              "h": "Read next",
+              "items": [
+                [
+                  "what-grab-all-files-can-and-cannot-do",
+                  "Every limit in one table."
+                ],
+                [
+                  "crawler-vs-page-saver-vs-download-manager",
+                  "How it differs from other kinds of tool."
+                ],
+                [
+                  "bulk-download-extension-for-firefox-and-edge",
+                  "Where to get it, and what differs on Firefox."
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Is Grab All Files safe to use?",
+              "a": "It scans only the page or URL you choose, and asks for access to one site at a time. File discovery, downloads, ZIP, CSV, PDF merge and page saving run in your browser. The store builds contain no analytics or error-reporting SDK. It is an independent extension by one developer in Japan, not made by Google, Microsoft or Mozilla. Use it only for files you are allowed to access."
+            },
+            {
+              "q": "Are my files or pages sent to a server?",
+              "a": "No. Files go from the source site to your computer. Page content, URLs, file names and file contents are not sent to the developer. Two things do reach the developer's server: the license check, which includes device management, and optional usage statistics, which are off by default and sent only if you agree. The statistics contain no page content, URLs or file names."
+            },
+            {
+              "q": "Is Pro a subscription or a one-time purchase?",
+              "a": "A one-time purchase of US$19.99. It is a perpetual license with no subscription."
+            },
+            {
+              "q": "How many devices can I use one license on?",
+              "a": "Up to 3 devices."
+            },
+            {
+              "q": "What can I do for free?",
+              "a": "Detect and list files, then save 10 files per download, with ZIP, PDF merge and CSV on the same 10 files. In Combine pages into HTML you can find candidate pages and save one page per run in any of the four forms of saved file, add more pages one at a time to the HTML saved last time, and save 10 linked files per run. No credit card is needed."
+            },
+            {
+              "q": "Which browsers are supported?",
+              "a": "Chrome and Edge on Chromium 111 or later, and Firefox 128 or later. On Firefox you cannot choose the save folder, “Site copy in a folder” is not available, and downloads started by JavaScript cannot be captured automatically."
+            },
+            {
+              "q": "Does it work on pages I have to sign in to, and does it see my password?",
+              "a": "It works on pages you can already open in the same browser, using your existing session. It does not collect or send passwords, cookie values or what you type into fields. It does not automate sign-in and does not get past a CAPTCHA. If a session expires, the file side shows a signed-out message on the affected rows, and the page side pauses until you sign in again and press Resume."
+            },
+            {
+              "q": "Why does it ask for such broad permissions?",
+              "a": "Installing it grants access only to the license server. The permissions for all websites are declared as optional, and the browser asks you to allow one site when you scan or save from it. You can revoke the access later, in Chrome or Edge under Extensions, Grab All Files, Details, Site access, and in Firefox under Add-ons, Permissions. The security page of this site explains each permission."
+            },
+            {
+              "q": "Does it send pages to an AI service?",
+              "a": "No. It can prepare Markdown, JSONL and a manifest, with the source URL and capture time on each page, but you give the files to the AI service you choose. Nothing is sent automatically."
+            },
+            {
+              "q": "Can I get a refund?",
+              "a": "If a technical defect stops you from using the Pro features you paid for and you report it to support@grab-all-files.app within 30 days of purchase, the developer first tries to fix it, and if it cannot be fixed in a reasonable time, refunds the full price. A change of mind, a target site blocking or changing its pages, a site you have no sign-in for, and features not described on the website are not covered. A refund is returned to the original payment method and the license key is revoked. Your statutory rights are not affected. The terms are in section 15e of the Terms page."
+            },
+            {
+              "q": "What is it not good for?",
+              "a": "Streamed video, copying thousands of pages or refreshing a copy with only the changed files, pages you cannot open or sign in to, and files behind DRM. See the limits page for the full list."
+            }
+          ]
+        },
+        "ja": {
+          "title": "Grab All Files のよくある質問：安全性・プライバシー・料金・台数・返金 | Grab All Files",
+          "desc": "安全か、ファイルは送られるか、Pro は買い切りか、何台で使えるか、無料でできること、対応ブラウザー、ログイン、権限、返金までを具体的に答えます。",
+          "eyebrow": "質問と答え",
+          "h1": "Grab All Files のよくある質問。",
+          "lead": "ページを読み取るブラウザー拡張機能を入れる前に、よく聞かれることをまとめました。何を送るのか、いくらかかるのか、何にアクセスするのか、何をしないのか。答えは短く、実際の数字で書いています。",
+          "blocks": [
+            {
+              "t": "text",
+              "h": "4行でいうと",
+              "p": [
+                "Grab All Files は、Chrome・Edge・Firefox で、ページ内のファイルを見つけて保存し、ページを HTML に保存します。処理はブラウザーの中で行い、ページの内容・URL・ファイル名は開発者に送りません。",
+                "無料版はクレジットカードなしで使えます。Pro は US$19.99 の買い切りで、3台までです。",
+                "配信される動画は保存しません。何千ページものコピーにも向きません。"
+              ]
+            },
+            {
+              "t": "art",
+              "h": "処理が行われる場所",
+              "items": [
+                [
+                  "local-processing",
+                  "パソコンの中",
+                  "ファイルは元のサイトからパソコンに直接保存します。ZIP・PDF結合・CSV・HTML はブラウザーの中で作り、アップロードしません。",
+                  240,
+                  148
+                ]
+              ]
+            },
+            {
+              "t": "text",
+              "h": "権限の全部",
+              "p": [
+                "すべての権限と、その理由、開発者のサーバーに届くものは、このサイトのセキュリティのページ（/security.html）に一覧があります。"
+              ]
+            },
+            {
+              "t": "links",
+              "h": "次に読む",
+              "items": [
+                [
+                  "what-grab-all-files-can-and-cannot-do",
+                  "上限を1つの表で。"
+                ],
+                [
+                  "crawler-vs-page-saver-vs-download-manager",
+                  "ほかの種類の道具との違い。"
+                ],
+                [
+                  "bulk-download-extension-for-firefox-and-edge",
+                  "入手先と、Firefox での違い。"
+                ]
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Grab All Files は安全に使えますか？",
+              "a": "選んだページや URL だけをスキャンし、サイトへのアクセスは1サイトずつ許可を求めます。ファイルの検出、ダウンロード、ZIP、CSV、PDF結合、ページの保存はブラウザーの中で動きます。ストア版には、解析用や不具合報告用の SDK は入っていません。日本の個人の開発者による独立した拡張機能で、Google・Microsoft・Mozilla の製品ではありません。アクセスしてよいファイルにだけ使ってください。"
+            },
+            {
+              "q": "ファイルやページはサーバーに送られますか？",
+              "a": "送られません。ファイルは元のサイトからパソコンに直接保存されます。ページの内容・URL・ファイル名・ファイルの中身は、開発者に送りません。開発者のサーバーに届くのは2つだけです。端末の管理を含むライセンスの確認と、任意の利用統計です。利用統計は初期設定ではオフで、同意したときだけ送られ、ページの内容・URL・ファイル名は含みません。"
+            },
+            {
+              "q": "Pro はサブスクですか、買い切りですか？",
+              "a": "US$19.99 の買い切りです。永続ライセンスで、サブスクはありません。"
+            },
+            {
+              "q": "1つのライセンスは何台で使えますか？",
+              "a": "3台までです。"
+            },
+            {
+              "q": "無料でできることは何ですか？",
+              "a": "ファイルを検出して一覧にし、1回のダウンロードで10件まで保存できます。同じ10件で、ZIP・PDF結合・CSV も使えます。「ページをHTMLにまとめる」では、候補ページを探し、1回1ページを4つの保存の形のどれでも保存できます。前回保存した HTML に1ページずつ足すこと、1回10件のリンク先ファイルの保存もできます。クレジットカードは要りません。"
+            },
+            {
+              "q": "どのブラウザーで使えますか？",
+              "a": "Chromium 111 以降の Chrome と Edge、Firefox 128 以降です。Firefox では、保存先のフォルダを選べず、「サイトの形でフォルダに保存」は使えず、JavaScript で始まるダウンロードは自動で捕捉できません。"
+            },
+            {
+              "q": "ログインが必要なページでも使えますか。パスワードは見られますか？",
+              "a": "同じブラウザーで開けるページなら、今のログイン状態で使えます。パスワード・Cookie の値・入力欄の内容は集めず、送りません。ログインの自動化や CAPTCHA の突破はしません。ログインが切れたときは、ファイル側は該当の行にサインアウトの表示が出て、ページ収集側は一時停止します。ログインし直して「再開」を押してください。"
+            },
+            {
+              "q": "権限が広いのはなぜですか？",
+              "a": "入れた時点で許可されるのはライセンスのサーバーだけです。すべての Web サイトへの権限は「任意」として宣言されていて、スキャンや保存をするサイトごとに、ブラウザーが許可を聞きます。あとから取り消せます。Chrome・Edge は「拡張機能」→ Grab All Files →「詳細」→「サイトへのアクセス」、Firefox は「アドオン」→「権限」です。権限ごとの理由は、このサイトのセキュリティのページに書いてあります。"
+            },
+            {
+              "q": "ページを AI サービスに自動で送りますか？",
+              "a": "いいえ。Markdown・JSONL・manifest を作れます。各ページに元の URL と取得日時が付きます。そのファイルを、自分で選んだ AI サービスに渡すのは利用者です。自動では何も送りません。"
+            },
+            {
+              "q": "返金はできますか？",
+              "a": "購入した Pro の機能が技術的な不具合で使えず、購入日から30日以内に support@grab-all-files.app へ連絡いただいた場合は、まず解決を試み、合理的な期間内に解決できなければ購入代金の全額を返金します。気が変わった場合、対象サイトによる遮断やページの変更、お持ちでないログインが必要なサイト、サイトに書かれていない機能は対象外です。返金は元の支払方法に行い、ライセンスキーは失効します。法定の権利には影響しません。条件は利用規約の第15e条にあります。"
+            },
+            {
+              "q": "向かないことは何ですか？",
+              "a": "配信される動画、何千ページものコピーや、変わったファイルだけの更新、開けない・ログインできないページ、DRM のかかったファイルです。全体は「できること・できないこと」のページにあります。"
+            }
+          ]
+        }
+      }
+    },
+    /* NEWCASES-CASES-END */
     "collect-and-analyze-web-comments": {
       "path": "collect-and-analyze-web-comments.html",
       "related": [
@@ -20802,9 +27577,45 @@
       esc(withLang('web-pages-for-reading-and-ai-analysis.html', lang)) + '">' + esc(manual.aiLink) + ' →</a></p></section>';
   }
 
+
+  // 2026-11-17: guides added in November 2026 (data.v2) describe their body as an ordered list of blocks, so each
+  // guide can have its own structure. Image paths and sizes are resolved per language when the data is injected.
+  function blockHead(b) { return b.h ? '<h2>' + esc(b.h) + '</h2>' : ''; }
+  function blockParas(list) { return (list || []).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join(''); }
+  function renderBlock(b, lang) {
+    var id = b.id ? ' id="' + esc(b.id) + '"' : '';
+    if (b.t === 'text') return '<section class="section-card block-text"' + id + '>' + blockHead(b) + blockParas(b.p) + '</section>';
+    if (b.t === 'list') return '<section class="section-card block-text"' + id + '>' + blockHead(b) + blockParas(b.p) +
+      (b.num ? '<ol class="step-list">' + renderList(b.items, 'num') + '</ol>' : '<ul class="check-list">' + renderList(b.items, 'check') + '</ul>') + blockParas(b.after) + '</section>';
+    if (b.t === 'cards') return '<section class="section-card research-guide block-text"' + id + '>' + blockHead(b) + blockParas(b.p) + '<div class="manual-patterns">' + b.items.map(function (item) {
+      return '<article class="manual-pattern"><h3>' + esc(item[0]) + '</h3><p>' + esc(item[1]) + '</p></article>'; }).join('') + '</div>' + blockParas(b.after) + '</section>';
+    if (b.t === 'pair') return '<div class="two-col workflow-cards"' + id + '>' + b.items.map(function (col) {
+      return '<section class="section-card block-text"><h2>' + esc(col.h) + '</h2>' + blockParas(col.p) + (col.items ? '<ul class="check-list">' + col.items.map(function (item) {
+        return '<li><span class="' + (col.no ? 'cross' : 'check') + '">' + (col.no ? '–' : '✓') + '</span><span>' + esc(item) + '</span></li>'; }).join('') + '</ul>' : '') + '</section>'; }).join('') + '</div>';
+    if (b.t === 'table') return '<section class="section-card research-guide block-text"' + id + '>' + blockHead(b) + blockParas(b.p) + '<div class="research-table-wrap"><table class="block-table" style="min-width:' + Math.max(560, b.head.length * 170) + 'px"><thead><tr>' +
+      b.head.map(function (head) { return '<th scope="col">' + esc(head) + '</th>'; }).join('') + '</tr></thead><tbody>' + b.rows.map(function (row) {
+        return '<tr>' + row.map(function (cell, i) { return i ? '<td>' + esc(cell) + '</td>' : '<th scope="row">' + esc(cell) + '</th>'; }).join('') + '</tr>'; }).join('') +
+      '</tbody></table></div>' + blockParas(b.after) + '</section>';
+    if (b.t === 'shot') return '<section class="section-card usecase-screen block-text"' + id + '>' + blockHead(b) + blockParas(b.p) + '<figure class="usecase-screenshot"><a href="' + esc(b.src) + '" target="_blank" rel="noopener"><picture>' +
+      (b.webp ? '<source type="image/webp" srcset="' + esc(b.webp) + '">' : '') + '<img src="' + esc(b.src) + '" width="' + b.w + '" height="' + b.hgt + '" loading="lazy" decoding="async" alt="' + esc(b.alt) +
+      '"></picture></a><figcaption><p>' + esc(b.cap) + '</p></figcaption></figure></section>';
+    if (b.t === 'art') return '<section class="section-card option-art block-text"' + id + '>' + blockHead(b) + blockParas(b.p) + '<div class="option-art-grid' + (b.flow ? ' option-art-flow' : '') + '">' + b.items.map(function (item) {
+      return '<figure class="option-art-card"><span class="option-art-frame"><img src="/assets/illustrations/' + esc(item[0]) + '.svg" width="' + item[3] + '" height="' + item[4] +
+        '" alt="" loading="lazy" decoding="async"></span><figcaption><strong>' + esc(item[1]) + '</strong><span>' + esc(item[2]) + '</span></figcaption></figure>'; }).join('') +
+      '</div>' + (b.note ? '<p class="option-art-note">' + esc(b.note) + '</p>' : '') + '</section>';
+    if (b.t === 'links') return '<section class="section-card guide-nearby block-text"' + id + '>' + blockHead(b) + blockParas(b.p) + '<ul class="nearby-list">' + b.items.map(function (item) {
+      var target = CASES[item[0]], labels = GUIDE_LABELS[lang] || GUIDE_LABELS.en;
+      if (!target) return '';
+      return '<li><a href="' + esc(withLang(target.path, lang)) + '">' + esc(labels[item[0]] || target.copy.en.h1) + '</a><span>' + esc(item[1]) + '</span></li>'; }).join('') + '</ul></section>';
+    if (b.t === 'sample') return '<section class="section-card guide-samples block-text"' + id + '>' + blockHead(b) + blockParas(b.p) +
+      '<p class="sample-cta"><a class="btn btn-secondary sample-link" href="' + esc(b.href) + '">' + esc(b.label) + ' →</a></p></section>';
+    throw new Error('unknown block ' + b.t);
+  }
+  function renderBlocks(blocks, lang) { return (blocks || []).map(function (b) { return renderBlock(b, lang); }).join(''); }
+
   function renderRelated(current, lang) {
     var labels = GUIDE_LABELS[lang] || GUIDE_LABELS.en;
-    return GUIDE_ORDER.map(function (id) {
+    return (current.data.v2 ? current.data.related : GUIDE_ORDER.filter(function (id) { return CASES[id] && !CASES[id].v2; })).map(function (id) {
       var item = CASES[id];
       if (!item) return "";
       var currentClass = id === current.id ? " current" : "";
@@ -20922,14 +27733,14 @@
         renderIndustryVisual(copy.industry),
         renderSamples(current, lang),
         renderCaseScreenshot(current, lang),
-        renderOptionArt(current, lang),
+        current.data.v2 ? "" : renderOptionArt(current, lang),
         renderArxivGuide(copy.arxiv, "visual", lang),
         renderArxivGuide(copy.arxiv, "screen", lang),
         renderResearchGuide(copy.guide, "modes"),
         renderManualGuide(copy.manual, "patterns", lang),
-        "<div class=\"two-col workflow-cards\">",
-          "<section class=\"section-card\"><h2>" + esc(ui.bestFor) + "</h2><ul class=\"check-list\">" + renderList(copy.best, "check") + "</ul></section>",
-          "<section class=\"section-card\"><h2>" + esc(ui.workflow) + "</h2><ol class=\"step-list\">" + renderList(copy.steps, "num") + "</ol></section>",
+        copy.blocks ? renderBlocks(copy.blocks, lang) : "<div class=\"two-col workflow-cards\">" +
+          "<section class=\"section-card\"><h2>" + esc(ui.bestFor) + "</h2><ul class=\"check-list\">" + renderList(copy.best, "check") + "</ul></section>" +
+          "<section class=\"section-card\"><h2>" + esc(ui.workflow) + "</h2><ol class=\"step-list\">" + renderList(copy.steps, "num") + "</ol></section>" +
         "</div>",
         renderScenarios(copy.scenarios),
         renderScenarios(copy.keeps),
@@ -20940,7 +27751,7 @@
         renderIndustryReference(copy.industry),
         renderNearby(current, lang),
         "<section class=\"section-card\"><h2>" + esc(ui.faq) + "</h2><div class=\"faq-list\">" + renderFaq(copy.faq) + "</div></section>",
-        "<section class=\"section-card usecase-guide-section\"><h2>" + esc(ui.related) + "</h2><div class=\"usecase-guide-links\" aria-label=\"" + esc(ui.related) + "\">" + renderRelated(current, lang) + "</div></section>",
+        (current.data.v2 && (copy.blocks || []).some(function (b) { return b.t === "links"; })) ? "" : "<section class=\"section-card usecase-guide-section\"><h2>" + esc(ui.related) + "</h2><div class=\"usecase-guide-links\" aria-label=\"" + esc(ui.related) + "\">" + renderRelated(current, lang) + "</div></section>",
       "</div>",
       "<section class=\"final-cta\"><h2>" + esc(cta ? cta.title : ui.ctaTitle) + "</h2><p>" + esc(cta ? cta.text : ui.ctaText) + "</p><div class=\"final-dl\"><a class=\"store-btn\" href=\"" + esc(STORE.chrome) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlChrome) + "</a><a class=\"store-btn\" href=\"" + esc(STORE.edge) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlEdge) + "</a><a class=\"store-btn\" href=\"" + esc(STORE.firefox) + "\" target=\"_blank\" rel=\"noopener\">" + esc(ui.dlFirefox) + "</a></div></section>"
     ].join("");
