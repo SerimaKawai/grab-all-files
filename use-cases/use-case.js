@@ -54,16 +54,16 @@
     ja: {
       home: "ホーム",
       useCases: "用途別",
-      useCasesTitle: "用途別 — 一括DLとページのHTML化",
+      useCasesTitle: "用途別 — 一括ダウンロードとページのHTML化",
       useCasesDesc: "Grab All Filesの用途別ガイド。PDF・画像・ファイルの一括ダウンロード、ファイル一覧のCSV出力、複数のWebページを1つのHTMLにまとめる手順を実際の画面で紹介します。",
       useCasesIntro: "目的に近いガイドを選んでください。各ガイドで、実際の手順、拡張機能に表示される名前、無料版でできる範囲（1回のダウンロードで10件、ページ収集は1回1ページ）を紹介します。",
       security: "セキュリティ",
       pricing: "料金",
       install: "無料インストール",
-      dlHeading: "お使いのブラウザで Grab All Files をダウンロード:",
-      dlChrome: "Chrome 用をダウンロード",
-      dlEdge: "Edge 用をダウンロード",
-      dlFirefox: "Firefox 用をダウンロード",
+      dlHeading: "お使いのブラウザで Grab All Files をダウンロード：",
+      dlChrome: "Chrome用をダウンロード",
+      dlEdge: "Edge用をダウンロード",
+      dlFirefox: "Firefox用をダウンロード",
       bestFor: "向いている用途",
       workflow: "使い方",
       faq: "よくある質問",
@@ -72,8 +72,8 @@
       edge: "Edge アドオン",
       firefox: "Firefox アドオン",
       purchase: "購入",
-      license: "Pro（$19.99買い切り）：ファイル上限解除＋複数ページ結合",
-      trial: "無料版：1回のダウンロードで10ファイル＋選んだ1ページをHTML保存",
+      license: "Pro（$19.99・買い切り）：ファイル上限解除＋複数ページ結合",
+      trial: "無料版：1回のダウンロードで10件＋選んだ1ページをHTML保存",
       local: "PDF結合・ZIP化・CSV出力はブラウザ内でローカル処理",
       privacy: "ファイルは元サイトから端末へ直接ダウンロード",
       ctaTitle: "実際のページで Grab All Files を試せます。",
@@ -119,8 +119,8 @@
     },
     fr: {
       home: "Accueil",
-      useCases: "Cas d'usage",
-      useCasesTitle: "Cas d'usage — télécharger et réunir",
+      useCases: "Cas d’usage",
+      useCasesTitle: "Cas d’usage — télécharger et réunir",
       useCasesDesc: "Guides pas à pas de Grab All Files : téléchargement en masse de PDF, d’images et de fichiers, export de listes de fichiers et regroupement de pages web en un HTML.",
       useCasesIntro: "Choisissez la tâche qui vous intéresse. Chaque guide présente les étapes réelles, les libellés affichés dans l’extension et ce que couvre la version gratuite : 10 fichiers par téléchargement et une page par collecte.",
       security: "Sécurité",
@@ -153,7 +153,7 @@
     de: {
       home: "Startseite",
       useCases: "Anwendungsfälle",
-      useCasesTitle: "Anwendungsfälle — Dateien & Seiten",
+      useCasesTitle: "Anwendungsfälle – Dateien & Seiten",
       useCasesDesc: "Schritt-für-Schritt-Anleitungen für Grab All Files: PDFs, Bilder und Dateien gesammelt laden, Dateilisten exportieren und Webseiten in einer HTML-Datei bündeln.",
       useCasesIntro: "Wählen Sie die Aufgabe, die Sie vorhaben. Jede Anleitung zeigt die tatsächlichen Schritte, die Bezeichnungen in der Erweiterung und den Umfang der kostenlosen Version: 10 Dateien pro Download und eine Seite pro Sammlung.",
       security: "Sicherheit",
@@ -185,8 +185,8 @@
     },
     it: {
       home: "Home",
-      useCases: "Casi d'uso",
-      useCasesTitle: "Casi d'uso — scaricare e unire",
+      useCases: "Casi d’uso",
+      useCasesTitle: "Casi d’uso — scaricare e unire",
       useCasesDesc: "Guide passo passo di Grab All Files: scaricare in blocco PDF, immagini e file, esportare elenchi di file e unire pagine web in un unico file HTML.",
       useCasesIntro: "Scegli l’attività che ti interessa. Ogni guida mostra i passaggi reali, le etichette che vedrai nell’estensione e cosa include la versione gratuita: 10 file per download e una pagina per raccolta.",
       security: "Sicurezza",
@@ -221,7 +221,7 @@
       useCases: "사용 사례",
       useCasesTitle: "용도별 — 일괄 다운로드와 HTML화",
       useCasesDesc: "Grab All Files 용도별 가이드. PDF·이미지·파일 일괄 다운로드, 파일 목록 CSV 내보내기, 여러 웹페이지를 하나의 HTML로 합치는 방법을 실제 화면으로 안내합니다.",
-      useCasesIntro: "하려는 작업에 맞는 가이드를 고르세요. 각 가이드에서 실제 단계, 확장 프로그램에 표시되는 이름, 무료 버전의 범위(다운로드당 10개, 수집당 1페이지)를 안내합니다.",
+      useCasesIntro: "하려는 작업에 맞는 가이드를 고르세요. 각 가이드에서 실제 단계, 확장 프로그램에 표시되는 이름, 무료 플랜의 범위(다운로드당 10개, 수집당 1페이지)를 안내합니다.",
       security: "보안",
       pricing: "가격",
       install: "무료 설치",
@@ -242,7 +242,7 @@
       local: "PDF 병합, ZIP, CSV는 브라우저에서 로컬 처리",
       privacy: "파일은 원본 사이트에서 기기로 직접 다운로드됩니다",
       ctaTitle: "브라우저에서 Grab All Files를 사용해 보세요.",
-      ctaText: "무료 버전은 파일 일괄 다운로드에서 다운로드당 최대 10개, 페이지를 HTML로 합칠 때는 한 번에 선택한 1페이지를 저장합니다. 그 페이지에 직접 링크된 파일은 “다음 10건 저장”으로 10개씩 저장합니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없고 여러 페이지를 하나의 HTML로 합칩니다.",
+      ctaText: "무료 플랜은 파일 일괄 다운로드에서 다운로드당 최대 10개, 페이지를 HTML로 합칠 때는 한 번에 선택한 1페이지를 저장합니다. 그 페이지에 직접 링크된 파일은 “다음 파일 10개 저장”으로 10개씩 저장합니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없고 여러 페이지를 하나의 HTML로 합칩니다.",
       skip: "본문으로 건너뛰기",
       primaryNav: "주요 탐색",
       themeToggle: "테마 전환",
@@ -308,7 +308,7 @@
       local: "PDF合并、ZIP和CSV均在浏览器本地处理",
       privacy: "文件从源网站直接下载到您的设备",
       ctaTitle: "在浏览器中试用 Grab All Files。",
-      ctaText: "免费版在文件批量下载中每次下载最多保存10个文件，将网页合并为HTML时每次保存1个选定页面；该页面直接链接的文件可用“保存接下来的10个”每次保存10个。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的上限，并可将多个页面合并为一个HTML。",
+      ctaText: "免费版在文件批量下载中每次下载最多保存10个文件，将网页合并为 HTML时每次保存1个选定页面；该页面直接链接的文件可用“保存接下来的10个”每次保存10个。Pro（$19.99，一次性购买，最多3台设备）没有每次下载的上限，并可将多个页面合并为一个HTML。",
       skip: "跳至主要内容",
       primaryNav: "主导航",
       themeToggle: "切换主题",
@@ -341,7 +341,7 @@
       local: "PDF合併、ZIP和CSV均在瀏覽器本機處理",
       privacy: "檔案從來源網站直接下載到您的裝置",
       ctaTitle: "在瀏覽器中試用 Grab All Files。",
-      ctaText: "免費版在檔案批次下載中每次下載最多儲存10個檔案，將網頁合併為HTML時每次儲存1個選定頁面；該頁面直接連結的檔案可用「儲存接下來的10個」每次儲存10個。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的上限，並可將多個頁面合併為一個HTML。",
+      ctaText: "免費版在檔案批次下載中每次下載最多儲存10個檔案，將網頁合併為 HTML時每次儲存1個選定頁面；該頁面直接連結的檔案可用「儲存接下來的10個」每次儲存10個。Pro（$19.99，一次購買，最多3台裝置）沒有每次下載的上限，並可將多個頁面合併為一個HTML。",
       skip: "跳至主要內容",
       primaryNav: "主要導覽",
       themeToggle: "切換主題",
@@ -472,7 +472,7 @@
       "combine-local-html-files-into-one": "Fichiers HTML locaux en un seul",
       "download-all-pdfs": "Télécharger tous les PDF",
       "bulk-download-images": "Télécharger les images",
-      "download-files-from-webpage": "Fichiers d'une page",
+      "download-files-from-webpage": "Fichiers d’une page",
       "internal-portal-downloads": "Portails internes et LMS",
       "merge-pdfs-locally": "Fusionner PDF localement"
     },
@@ -533,7 +533,7 @@
       "download-arxiv-pdfs-and-research-files": "arXiv PDF·연구 파일",
       "web-tables-to-csv-for-excel-ai": "웹 표를 CSV로 활용",
       "save-and-compare-document-revisions": "개정 전후 자료 비교",
-      "rename-and-organize-bulk-pdf-downloads": "PDF 파일명 변경·정리",
+      "rename-and-organize-bulk-pdf-downloads": "PDF 파일 이름 변경·정리",
       "collect-public-government-documents": "정부·공공기관 문서",
       "save-web-pages-as-markdown": "웹 자료를 Markdown으로",
       "save-online-manuals-and-knowledge-pages": "업무 매뉴얼·지식 페이지 저장",
@@ -633,7 +633,7 @@
       "cta": {
         "en": {
           "title": "Every comment and reply, in one file.",
-          "text": "Even on the Free plan, you can load all the comments and replies on one page and save them in one HTML file. Pro ($19.99, one-time) combines comments from several posts or videos into one HTML file. Everything is loaded and saved in your own browser, and nothing is sent to our servers."
+          "text": "Even on the Free plan, you can load all the comments and replies on one page and save them in one HTML file. Pro ($19.99 one-time) combines comments from several posts or videos into one HTML file. Everything is loaded and saved in your own browser, and nothing is sent to our servers."
         },
         "ja": {
           "title": "コメント欄を、返信まで1つのファイルに。",
@@ -661,11 +661,11 @@
         },
         "pt_BR": {
           "title": "Todos os comentários e respostas em um só arquivo.",
-          "text": "Mesmo na versão gratuita, você carrega todos os comentários e respostas de uma página e salva tudo em um único arquivo HTML. O Pro ($19.99, pagamento único) junta os comentários de várias publicações ou vídeos em um só HTML. Tudo é carregado e salvo no seu próprio navegador, e nada é enviado aos nossos servidores."
+          "text": "Mesmo na versão gratuita, você carrega todos os comentários e respostas de uma página e salva tudo em um único arquivo HTML. O Pro ($19.99, compra única) junta os comentários de várias publicações ou vídeos em um só HTML. Tudo é carregado e salvo no seu próprio navegador, e nada é enviado aos nossos servidores."
         },
         "zh_CN": {
           "title": "评论区连同回复，存成一个文件。",
-          "text": "免费版也能把一个页面的评论和回复加载到底，保存为一个 HTML 文件。Pro（$19.99，一次性付费）可把多个帖子或视频的评论合并到一个 HTML 中。加载和保存都在您的浏览器中完成，内容不会发送到我们的服务器。"
+          "text": "免费版也能把一个页面的评论和回复加载到底，保存为一个 HTML 文件。Pro（$19.99，一次性购买）可把多个帖子或视频的评论合并到一个 HTML 中。加载和保存都在您的浏览器中完成，内容不会发送到我们的服务器。"
         },
         "zh_TW": {
           "title": "留言連同回覆，存成一個檔案。",
@@ -804,11 +804,11 @@
             ]
           },
           "compare": {
-            "title": "Free vs. Pro",
+            "title": "Free vs Pro",
             "headers": [
               "",
               "Free",
-              "Pro ($19.99, one-time)"
+              "Pro ($19.99 one-time)"
             ],
             "rows": [
               [
@@ -2005,7 +2005,7 @@
             "headers": [
               "",
               "Versão gratuita",
-              "Pro ($19.99, pagamento único)"
+              "Pro ($19.99, compra única)"
             ],
             "rows": [
               [
@@ -2176,7 +2176,7 @@
             "headers": [
               "",
               "免费版",
-              "Pro（$19.99，一次性付费）"
+              "Pro（$19.99，一次性购买）"
             ],
             "rows": [
               [
@@ -2395,7 +2395,7 @@
       "cta": {
         "en": {
           "title": "Keep a page’s look in a saved file.",
-          "text": "Free keeps one page per run with its original design, as one offline HTML file. Pro ($19.99, one-time) combines the pages you choose, each in its own design, with a table of contents and search. Pages are collected in your browser and saved on your device."
+          "text": "Free keeps one page per run with its original design, as one offline HTML file. Pro ($19.99 one-time) combines the pages you choose, each in its own design, with a table of contents and search. Pages are collected in your browser and saved on your device."
         },
         "ja": {
           "title": "ページの見た目を残して保存する。",
@@ -2407,7 +2407,7 @@
         },
         "fr": {
           "title": "Gardez les pages avec leur apparence d’origine.",
-          "text": "La version gratuite enregistre une page par exécution avec son design d’origine, dans un fichier HTML hors ligne. Pro (19,99 $, paiement unique) regroupe les pages que vous choisissez, chacune avec son design, avec une table des matières et une recherche. Les pages sont collectées dans votre navigateur et enregistrées sur votre appareil."
+          "text": "La version gratuite enregistre une page par exécution avec son design d’origine, dans un fichier HTML hors ligne. Pro (19,99 $, achat unique) regroupe les pages que vous choisissez, chacune avec son design, avec un sommaire et une recherche. Les pages sont collectées dans votre navigateur et enregistrées sur votre appareil."
         },
         "de": {
           "title": "Seiten mit ihrem ursprünglichen Aussehen aufbewahren.",
@@ -2415,7 +2415,7 @@
         },
         "it": {
           "title": "Conserva le pagine con il loro aspetto originale.",
-          "text": "Il piano gratuito salva una pagina per esecuzione con il suo design originale, in un file HTML offline. Pro ($19.99, pagamento unico) unisce le pagine che scegli, ciascuna con il proprio design, con un indice e la ricerca. Le pagine vengono raccolte nel tuo browser e salvate sul tuo dispositivo."
+          "text": "Il piano gratuito salva una pagina per esecuzione con il suo design originale, in un file HTML offline. Pro ($19.99, una tantum) unisce le pagine che scegli, ciascuna con il proprio design, con un indice e la ricerca. Le pagine vengono raccolte nel tuo browser e salvate sul tuo dispositivo."
         },
         "ko": {
           "title": "페이지의 원래 모습을 살려 보관하세요.",
@@ -2423,11 +2423,11 @@
         },
         "pt_BR": {
           "title": "Guarde as páginas com a aparência original.",
-          "text": "A versão gratuita salva uma página por execução com o design original, em um arquivo HTML offline. O Pro ($19.99, pagamento único) combina as páginas que você escolher, cada uma com o próprio design, com sumário e busca. As páginas são coletadas no seu navegador e salvas no seu dispositivo."
+          "text": "A versão gratuita salva uma página por execução com o design original, em um arquivo HTML offline. O Pro ($19.99, compra única) combina as páginas que você escolher, cada uma com o próprio design, com sumário e busca. As páginas são coletadas no seu navegador e salvas no seu dispositivo."
         },
         "zh_CN": {
           "title": "保存网页，保留原来的外观。",
-          "text": "免费版每次运行保存一个保留原有设计的网页，生成一个可离线打开的 HTML 文件。Pro（$19.99，一次性付费）可合并您选择的网页，每个网页保留各自的设计，并提供目录和搜索。网页在您的浏览器中收集，并保存到您的设备。"
+          "text": "免费版每次运行保存一个保留原有设计的网页，生成一个可离线打开的 HTML 文件。Pro（$19.99，一次性购买）可合并您选择的网页，每个网页保留各自的设计，并提供目录和搜索。网页在您的浏览器中收集，并保存到您的设备。"
         },
         "zh_TW": {
           "title": "保存網頁，保留原來的外觀。",
@@ -2636,7 +2636,7 @@
           "faq": [
             {
               "q": "無料版でも「元の見た目のまま」を使えますか？",
-              "a": "使えます。見た目の選択に料金プランの制限はありません。無料版は1回1ページなので、好きなページを1つ、元のデザインのまま1つのHTMLに保存できます。複数ページを目次つきで1ファイルにまとめるには Pro（$19.99・買い切り・最大3台）が必要です。"
+              "a": "使えます。見た目の選択に料金プランの制限はありません。無料版は1回1ページなので、好きなページを1つ、元のデザインのまま1つのHTMLに保存できます。複数ページを目次つきで1ファイルにまとめるにはPro（$19.99・買い切り、3台まで）が必要です。"
             },
             {
               "q": "ブラウザの「名前を付けて保存」や、1ページずつ保存する拡張機能とは何が違いますか？",
@@ -2980,7 +2980,7 @@
           "desc": "Enregistrez une ou plusieurs pages avec leur mise en page, leurs polices et leurs images d’origine dans un seul HTML hors ligne. Sans script ni envoi.",
           "eyebrow": "Garder l’apparence d’origine",
           "h1": "Enregistrez les pages telles qu’elles s’affichent, dans un seul HTML.",
-          "lead": "Choisissez « Garder l’apparence d’origine » et Grab All Files enregistre chaque page avec ses propres feuilles de style, polices et images : la mise en page, les couleurs et la typographie que vous voyiez dans le navigateur, dans un seul fichier HTML autonome. Regroupez plusieurs pages d’un site web ou d’un dossier de votre ordinateur : chaque page conserve son design dans son propre cadre, avec une table des matières et une recherche sur l’ensemble. Les scripts sont retirés, le fichier s’ouvre donc hors ligne, sans suivi ni fenêtres publicitaires.",
+          "lead": "Choisissez « Garder l’apparence d’origine » et Grab All Files enregistre chaque page avec ses propres feuilles de style, polices et images : la mise en page, les couleurs et la typographie que vous voyiez dans le navigateur, dans un seul fichier HTML autonome. Regroupez plusieurs pages d’un site web ou d’un dossier de votre ordinateur : chaque page conserve son design dans son propre cadre, avec un sommaire et une recherche sur l’ensemble. Les scripts sont retirés, le fichier s’ouvre donc hors ligne, sans suivi ni fenêtres publicitaires.",
           "best": [
             "Garder une trace de l’aspect d’un site avant une refonte, une migration ou sa fermeture.",
             "Archiver des pages avec la date et l’adresse de leur capture, comme preuve ou pour des dossiers de conformité et d’audit.",
@@ -2996,7 +2996,7 @@
           "faq": [
             {
               "q": "Puis-je utiliser « Garder l’apparence d’origine » avec l’offre gratuite ?",
-              "a": "Oui. L’option d’apparence n’est pas limitée par l’offre. La version gratuite enregistre une page par exécution : vous pouvez donc conserver n’importe quelle page avec son design d’origine dans un fichier HTML. Regrouper plusieurs pages dans un fichier avec une table des matières commune nécessite Pro (19,99 $, paiement unique, jusqu’à 3 appareils)."
+              "a": "Oui. L’option d’apparence n’est pas limitée par l’offre. La version gratuite enregistre une page par exécution : vous pouvez donc conserver n’importe quelle page avec son design d’origine dans un fichier HTML. Regrouper plusieurs pages dans un fichier avec un sommaire commun nécessite Pro (19,99 $, achat unique, jusqu’à 3 appareils)."
             },
             {
               "q": "En quoi est-ce différent d’« Enregistrer sous » ou d’une extension qui enregistre une seule page ?",
@@ -3048,7 +3048,7 @@
               "Assistance"
             ],
             "output": "example-site.html",
-            "toc": "Table des matières · recherche",
+            "toc": "Sommaire · recherche",
             "example": "Exemple illustratif · site fictif",
             "note": "La version gratuite garde une page par exécution avec son design d’origine ; Pro regroupe les pages que vous sélectionnez. Les feuilles de style, images et polices communes ne sont stockées qu’une fois.",
             "referenceTitle": "",
@@ -3356,7 +3356,7 @@
           "faq": [
             {
               "q": "Posso usare «Mantieni l’aspetto originale» con il piano gratuito?",
-              "a": "Sì. L’opzione di aspetto non dipende dal piano. Il piano gratuito salva una pagina per esecuzione, quindi puoi conservare qualsiasi singola pagina con il suo design originale in un file HTML. Per unire più pagine in un file con un indice comune serve Pro ($19.99, pagamento unico, fino a 3 dispositivi)."
+              "a": "Sì. L’opzione di aspetto non dipende dal piano. Il piano gratuito salva una pagina per esecuzione, quindi puoi conservare qualsiasi singola pagina con il suo design originale in un file HTML. Per unire più pagine in un file con un indice comune serve Pro ($19.99, una tantum, fino a 3 dispositivi)."
             },
             {
               "q": "In cosa si differenzia da «Salva pagina con nome» o da un’estensione che salva una sola pagina?",
@@ -3716,7 +3716,7 @@
           "faq": [
             {
               "q": "Posso usar “Manter a aparência original” na versão gratuita?",
-              "a": "Sim. A opção de aparência não depende do plano. A versão gratuita salva uma página por execução, então você pode guardar qualquer página com o design original em um arquivo HTML. Combinar várias páginas em um só arquivo com sumário compartilhado exige o Pro ($19.99, pagamento único, até 3 dispositivos)."
+              "a": "Sim. A opção de aparência não depende do plano. A versão gratuita salva uma página por execução, então você pode guardar qualquer página com o design original em um arquivo HTML. Combinar várias páginas em um só arquivo com sumário compartilhado exige o Pro ($19.99, compra única, até 3 dispositivos)."
             },
             {
               "q": "Qual é a diferença em relação a “Salvar página como” ou a um salvador de página única?",
@@ -3895,27 +3895,27 @@
           ],
           "faq": [
             {
-              "q": "免费版可以使用“保持原样”吗?",
-              "a": "可以。外观选项不受套餐限制。免费版每次运行保存一个网页，因此您可以把任意单个网页按原有设计保存为一个 HTML 文件。若要把多个网页合并为带共享目录的一个文件，则需要 Pro（$19.99，一次性付费，最多 3 台设备）。"
+              "q": "免费版可以使用“保持原样”吗？",
+              "a": "可以。外观选项不受套餐限制。免费版每次运行保存一个网页，因此您可以把任意单个网页按原有设计保存为一个 HTML 文件。若要把多个网页合并为带共享目录的一个文件，则需要 Pro（$19.99，一次性购买，最多 3 台设备）。"
             },
             {
-              "q": "这与“另存为”或单页保存工具有什么区别?",
+              "q": "这与“另存为”或单页保存工具有什么区别？",
               "a": "“另存为”会在 HTML 旁边生成一个文件夹，单页保存工具则是每个网页生成一个文件。Grab All Files 把多个网页放进一个文件，并让每个网页保留在各自的框架中，因此不同网页的设计互不冲突。共享的样式表、图片和字体只存储一份，已保存网页之间的链接在文件内部跳转，还可以一次搜索全部网页。"
             },
             {
-              "q": "菜单、标签页和滑块还能用吗?",
+              "q": "菜单、标签页和滑块还能用吗？",
               "a": "出于安全考虑，网站的脚本会被移除，因此依赖脚本的功能，如地图、搜索表单、登录或按需加载的视频播放器，将无法运行。常见的组件已做处理，无需网站脚本也能工作：使用标准无障碍标记或 Bootstrap 构建的标签页和折叠面板可以展开和收起，轮播箭头(Swiper、Slick、Splide、Glide、Flickity)可逐张切换。表单不会被提交。"
             },
             {
-              "q": "滚动后才出现的图片也会保存吗?",
+              "q": "滚动后才出现的图片也会保存吗？",
               "a": "会。对于网页，每个网页在抓取前都会在标签页中打开并滚动到底部，因此延迟加载的图片以及边滚动边追加内容的网页都会被包含。当页面不再变长，或“滚动时间”设置的时间（45、90 或 180 秒）用完时，滚动即停止。固定页眉、Cookie 提示和吸顶标题在您滚动已保存的文件时，会出现在原来的位置。"
             },
             {
-              "q": "保存的文件可以放心打开和分享吗?",
+              "q": "保存的文件可以放心打开和分享吗？",
               "a": "原网站的脚本会被移除，只保留 Grab All Files 用来让标签页、面板和轮播箭头正常工作的一个小型辅助脚本。打开时还会阻止向互联网发出请求，因此不会加载来自其他网站的跟踪器或广告。链接中带有的登录信息会被移除。网页在您自己的浏览器中收集并保存到您的设备，内容不会发送到我们的服务器。分享之前，请确认您有权分享所保存的网页。"
             },
             {
-              "q": "什么时候应该改选“整理为易读格式”?",
+              "q": "什么时候应该改选“整理为易读格式”？",
               "a": "当您更看重文字而不是设计时，请选择“整理为易读格式”：例如阅读长篇资料、打印、减小文件体积，或为 AI 工具准备 Markdown 和数据。它会以统一、简洁的样式显示所有网页，不含网站的页眉、菜单和页脚。“保持原样”则用于按网页原本的样子保存和分享。"
             },
             {
@@ -4247,7 +4247,7 @@
       "cta": {
         "en": {
           "title": "Turn a folder of HTML pages into one file.",
-          "text": "Free converts one chosen HTML file from the folder per run, with local images embedded. Pro ($19.99, one-time) combines all the pages you select into one HTML with a shared table of contents and internal links. Everything is processed on your device."
+          "text": "Free converts one chosen HTML file from the folder per run, with local images embedded. Pro ($19.99 one-time) combines all the pages you select into one HTML with a shared table of contents and internal links. Everything is processed on your device."
         },
         "ja": {
           "title": "HTMLのフォルダを、1つのファイルに。",
@@ -4259,7 +4259,7 @@
         },
         "fr": {
           "title": "Transformez un dossier de pages HTML en un seul fichier.",
-          "text": "La version gratuite convertit un fichier HTML choisi du dossier par exécution, avec les images locales intégrées. Pro (19,99 $, paiement unique) fusionne toutes les pages sélectionnées en un seul HTML avec sommaire commun et liens internes. Tout est traité sur votre appareil."
+          "text": "La version gratuite convertit un fichier HTML choisi du dossier par exécution, avec les images locales intégrées. Pro (19,99 $, achat unique) fusionne toutes les pages sélectionnées en un seul HTML avec sommaire commun et liens internes. Tout est traité sur votre appareil."
         },
         "de": {
           "title": "Einen Ordner mit HTML-Seiten in eine Datei verwandeln.",
@@ -4267,19 +4267,19 @@
         },
         "it": {
           "title": "Trasforma una cartella di pagine HTML in un solo file.",
-          "text": "Free converte un file HTML scelto dalla cartella per esecuzione, con le immagini locali incorporate. Pro ($19.99, pagamento unico) unisce tutte le pagine che selezioni in un solo HTML con indice condiviso e link interni. Tutto viene elaborato sul tuo dispositivo."
+          "text": "Free converte un file HTML scelto dalla cartella per esecuzione, con le immagini locali incorporate. Pro ($19.99, una tantum) unisce tutte le pagine che selezioni in un solo HTML con indice condiviso e link interni. Tutto viene elaborato sul tuo dispositivo."
         },
         "ko": {
           "title": "HTML 페이지 폴더를 파일 하나로.",
-          "text": "Free는 폴더에서 선택한 HTML 파일 하나를 한 번에 변환하며 로컬 이미지가 포함됩니다. Pro($19.99, 1회 결제)는 선택한 모든 페이지를 공통 목차와 내부 링크가 있는 HTML 하나로 합칩니다. 모든 처리는 내 기기에서 이루어집니다."
+          "text": "무료 플랜은 폴더에서 선택한 HTML 파일 하나를 한 번에 변환하며 로컬 이미지가 포함됩니다. Pro($19.99, 1회 결제)는 선택한 모든 페이지를 공통 목차와 내부 링크가 있는 HTML 하나로 합칩니다. 모든 처리는 내 기기에서 이루어집니다."
         },
         "pt_BR": {
           "title": "Transforme uma pasta de páginas HTML em um só arquivo.",
-          "text": "A versão gratuita converte um arquivo HTML escolhido da pasta por execução, com as imagens locais incorporadas. O Pro ($19.99, pagamento único) junta todas as páginas que você selecionar em um só HTML com índice compartilhado e links internos. Tudo é processado no seu dispositivo."
+          "text": "A versão gratuita converte um arquivo HTML escolhido da pasta por execução, com as imagens locais incorporadas. O Pro ($19.99, compra única) junta todas as páginas que você selecionar em um só HTML com índice compartilhado e links internos. Tudo é processado no seu dispositivo."
         },
         "zh_CN": {
           "title": "把一个HTML页面文件夹，变成一个文件。",
-          "text": "Free 版每次转换文件夹中所选的一个 HTML 文件，并内嵌本地图片。Pro（$19.99，一次性付费）把您选中的所有页面合并成带统一目录和内部链接的一个 HTML。所有处理都在您的设备上完成。"
+          "text": "免费版每次转换文件夹中所选的一个 HTML 文件，并内嵌本地图片。Pro（$19.99，一次性购买）把您选中的所有页面合并成带统一目录和内部链接的一个 HTML。所有处理都在您的设备上完成。"
         },
         "zh_TW": {
           "title": "把一個HTML頁面資料夾，變成一個檔案。",
@@ -4308,7 +4308,7 @@
           "faq": [
             {
               "q": "Can I try this for free?",
-              "a": "Yes, with one page: in folder mode the Free plan converts one chosen HTML file per run into a self-contained HTML with its local images embedded. Combining multiple HTML files into one file with a shared table of contents requires Pro ($19.99, one-time)."
+              "a": "Yes, with one page: in folder mode the Free plan converts one chosen HTML file per run into a self-contained HTML with its local images embedded. Combining multiple HTML files into one file with a shared table of contents requires Pro ($19.99 one-time)."
             },
             {
               "q": "Are my files uploaded anywhere?",
@@ -4408,7 +4408,7 @@
           "steps": [
             "Grab All Filesで「ページをHTMLにまとめる」を開き、上部の切り替えを「パソコンのフォルダから」にします。",
             "フォルダかZIPファイルを選びます（画面へのドラッグ＆ドロップも可）。.html・.htm・.xhtmlが、トップページ（index.htmlなど）からリンクをたどった順に並び、リンクされていないページは名前順で後ろに続きます。",
-            "一覧を確認し、不要なページを外す、ファイル名順に切り替える、対象のフォルダーや除外するパスを指定します。使い道（サイトを保存・1ファイルで配る・印刷・PDF化・AIに読ませる）を選びます。",
+            "一覧を確認し、不要なページを外す、ファイル名順に切り替える、対象のフォルダや除外するパスを指定します。使い道（サイトを保存・1ファイルで配る・印刷・PDF化・AIに読ませる）を選びます。",
             "HTMLを作成します。完了後の報告で、読めなかったファイル、まとめたHTMLに無いページへのリンク、埋め込めなかった画像を確認します。"
           ],
           "faq": [
@@ -4520,7 +4520,7 @@
           "faq": [
             {
               "q": "¿Puedo probarlo gratis?",
-              "a": "Sí, con una página: en el modo carpeta, el plan Free convierte un archivo HTML elegido por ejecución en un HTML autónomo con sus imágenes locales incrustadas. Combinar varios archivos HTML en uno con un índice común requiere Pro ($19.99, pago único)."
+              "a": "Sí, con una página: en el modo carpeta, el plan gratuito convierte un archivo HTML elegido por ejecución en un HTML autónomo con sus imágenes locales incrustadas. Combinar varios archivos HTML en uno con un índice común requiere Pro ($19.99, pago único)."
             },
             {
               "q": "¿Se suben mis archivos a algún sitio?",
@@ -4626,7 +4626,7 @@
           "faq": [
             {
               "q": "Puis-je l’essayer gratuitement ?",
-              "a": "Oui, avec une page : en mode dossier, la version gratuite convertit un fichier HTML choisi par exécution en un HTML autonome avec ses images locales intégrées. Fusionner plusieurs fichiers HTML en un seul avec un sommaire commun nécessite Pro (19,99 $, paiement unique)."
+              "a": "Oui, avec une page : en mode dossier, la version gratuite convertit un fichier HTML choisi par exécution en un HTML autonome avec ses images locales intégrées. Fusionner plusieurs fichiers HTML en un seul avec un sommaire commun nécessite Pro (19,99 $, achat unique)."
             },
             {
               "q": "Mes fichiers sont-ils envoyés quelque part ?",
@@ -4838,7 +4838,7 @@
           "faq": [
             {
               "q": "Posso provarlo gratis?",
-              "a": "Sì, con una pagina: in modalità cartella il piano Free converte un file HTML scelto per esecuzione in un HTML autonomo con le immagini locali incorporate. Unire più file HTML in uno con un indice condiviso richiede Pro ($19.99, pagamento unico)."
+              "a": "Sì, con una pagina: in modalità cartella il piano Free converte un file HTML scelto per esecuzione in un HTML autonomo con le immagini locali incorporate. Unire più file HTML in uno con un indice condiviso richiede Pro ($19.99, una tantum)."
             },
             {
               "q": "I miei file vengono caricati da qualche parte?",
@@ -4944,7 +4944,7 @@
           "faq": [
             {
               "q": "무료로 써볼 수 있나요?",
-              "a": "페이지 하나라면 가능합니다. 폴더 모드에서 Free 플랜은 한 번에 선택한 HTML 파일 하나를, 로컬 이미지가 포함된 독립형 HTML로 변환합니다. 여러 HTML 파일을 공통 목차가 있는 파일 하나로 합치려면 Pro($19.99, 1회 결제)가 필요합니다."
+              "a": "페이지 하나라면 가능합니다. 폴더 모드에서 무료 플랜은 한 번에 선택한 HTML 파일 하나를, 로컬 이미지가 포함된 독립형 HTML로 변환합니다. 여러 HTML 파일을 공통 목차가 있는 파일 하나로 합치려면 Pro($19.99, 1회 결제)가 필요합니다."
             },
             {
               "q": "파일이 어딘가에 업로드되나요?",
@@ -4993,7 +4993,7 @@
             "output": "manual.html",
             "toc": "목차",
             "example": "설명용 예시 · 가상의 파일",
-            "note": "Free는 한 번에 선택한 HTML 파일 하나를 변환하고, Pro는 선택한 파일을 HTML 하나로 합칩니다. 순서는 index.html에서 시작하는 링크 순서를 따릅니다.",
+            "note": "무료 플랜은 한 번에 선택한 HTML 파일 하나를 변환하고, Pro는 선택한 파일을 HTML 하나로 합칩니다. 순서는 index.html에서 시작하는 링크 순서를 따릅니다.",
             "referenceTitle": "",
             "referenceNote": "",
             "referenceLabel": "",
@@ -5050,7 +5050,7 @@
           "faq": [
             {
               "q": "Posso testar de graça?",
-              "a": "Sim, com uma página: no modo pasta, a versão gratuita converte um arquivo HTML escolhido por execução em um HTML autônomo com as imagens locais incorporadas. Juntar vários arquivos HTML em um só, com índice compartilhado, exige o Pro ($19.99, pagamento único)."
+              "a": "Sim, com uma página: no modo pasta, a versão gratuita converte um arquivo HTML escolhido por execução em um HTML autônomo com as imagens locais incorporadas. Juntar vários arquivos HTML em um só, com índice compartilhado, exige o Pro ($19.99, compra única)."
             },
             {
               "q": "Meus arquivos são enviados para algum lugar?",
@@ -5156,7 +5156,7 @@
           "faq": [
             {
               "q": "可以免费试用吗？",
-              "a": "可以试用一页：在文件夹模式下，Free 版每次把所选的一个 HTML 文件转换为内嵌本地图片的独立 HTML。要把多个 HTML 文件合并成带统一目录的一个文件，需要 Pro（$19.99，一次性付费）。"
+              "a": "可以试用一页：在文件夹模式下，免费版每次把所选的一个 HTML 文件转换为内嵌本地图片的独立 HTML。要把多个 HTML 文件合并成带统一目录的一个文件，需要 Pro（$19.99，一次性购买）。"
             },
             {
               "q": "我的文件会被上传到哪里吗？",
@@ -5205,7 +5205,7 @@
             "output": "manual.html",
             "toc": "目录",
             "example": "示意示例 · 虚构文件",
-            "note": "Free 版每次转换所选的一个 HTML 文件；Pro 把所选文件合并成一个 HTML。顺序按 index.html 出发的链接排列。",
+            "note": "免费版每次转换所选的一个 HTML 文件；Pro 把所选文件合并成一个 HTML。顺序按 index.html 出发的链接排列。",
             "referenceTitle": "",
             "referenceNote": "",
             "referenceLabel": "",
@@ -5771,7 +5771,7 @@
             },
             {
               "q": "모델별로 파일을 자동 분류하나요?",
-              "a": "아닙니다. 모델을 확인하고 파일 이름을 정하거나 모델별로 작업을 나누는 것은 사용자가 합니다. 확장 기능의 폴더 분류는 종류별 또는 도메인별입니다."
+              "a": "아닙니다. 모델을 확인하고 파일 이름을 정하거나 모델별로 작업을 나누는 것은 사용자가 합니다. 확장 프로그램의 폴더 분류는 종류별 또는 도메인별입니다."
             },
             {
               "q": "사양 비교를 자동으로 추출할 수 있나요?",
@@ -5779,7 +5779,7 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "예. 무료 버전은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
+              "a": "예. 무료 플랜은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
             },
             {
               "q": "양식이나 다운로드 버튼 뒤에 있는 데이터시트도 가져올 수 있나요?",
@@ -6053,7 +6053,7 @@
             },
             {
               "q": "Older years sit behind “Show more” or a long list. Can it find them?",
-              "a": "With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. If each year has its own tab or page, open and scan them in turn. Some IR sites link reports through a viewer; check the detected source page before saving."
+              "a": "With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the Free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. If each year has its own tab or page, open and scan them in turn. Some IR sites link reports through a viewer; check the detected source page before saving."
             }
           ],
           "industry": {
@@ -6118,7 +6118,7 @@
             },
             {
               "q": "過去の年度が「もっと見る」や長い一覧の奥にある場合は？",
-              "a": "Proでは、スキャン時にページを最後まで自動でスクロールし、同じ一覧の続きのページもたどって読み込みます（1回のスキャンで100ページまで）。無料版は画面に表示されている内容だけを読むので、先に自分で最後までスクロールするか次のページを開いてから、もう一度スキャンします。年度ごとにタブやページが分かれている場合は、それぞれを開いて順にスキャンします。ビューアー経由でリンクしているIRサイトもあるため、保存前に検出したリンク元ページを確認してください。"
+              "a": "Proでは、スキャン時にページを最後まで自動でスクロールし、同じ一覧の続きのページもたどって読み込みます（1回のスキャンで100ページまで）。無料版は画面に表示されている内容だけを読むので、先に自分で最後までスクロールするか次のページを開いてから、もう一度スキャンします。年度ごとにタブやページが分かれている場合は、それぞれを開いて順にスキャンします。ビューア経由でリンクしているIRサイトもあるため、保存前に検出したリンク元ページを確認してください。"
             }
           ],
           "industry": {
@@ -6409,7 +6409,7 @@
         },
         "ko": {
           "title": "IR·실적 보고서 PDF 다운로드 | Grab All Files",
-          "desc": "한 기업의 실적 발표 자료, 설명 자료, 연차 보고서를 회계 기간별로 저장합니다. 제목에 기간을 붙이고 원본 URL도 기록할 수 있고, 한 번에 받는 파일은 무료 버전에서 10개까지입니다.",
+          "desc": "한 기업의 실적 발표 자료, 설명 자료, 연차 보고서를 회계 기간별로 저장합니다. 제목에 기간을 붙이고 원본 URL도 기록할 수 있고, 한 번에 받는 파일은 무료 플랜에서 10개까지입니다.",
           "eyebrow": "IR·실적 보고서 PDF",
           "h1": "보고서를 보고 기간별로 정리하세요.",
           "lead": "한 기업의 실적 발표 자료, 설명 자료와 연차 보고서를 출처를 확인할 수 있는 읽기 자료로 모읍니다. 각 원본 문서에서 회계연도와 분기를 확인한 뒤 명확한 이름을 붙여 직접 검토하거나 외부 AI에 전달할 자료를 준비하세요.",
@@ -6422,7 +6422,7 @@
             "Grab All Files를 열고 해당 기간의 페이지를 스캔합니다. PDF로 필터링하고(데이터를 Excel로 공개하는 기업이면 Excel도), 그 기간의 실적 발표 자료·설명 자료·보고서만 체크합니다.",
             "기업, 보고 기간, 공개일과 개정 사항을 확인합니다. 필요하면 제목 앞에 기간을 붙이고, 기간별로 작업을 나눠 보고서가 섞이지 않도록 합니다.",
             "제목을 더블클릭해 기간을 붙이고(예: “FY2025 2분기 – 설명 자료”), “상세 설정”의 “저장 이름”을 “제목”으로 바꾼 뒤 기간별로 다운로드하거나 ZIP으로 저장합니다(무료: 다운로드당 10개). “파일 정보 CSV 내보내기”로 원본 URL을 남깁니다.",
-            "저장한 원본을 읽거나 선택한 AI 서비스가 지원하는 자료 파일과 질문을 직접 전달합니다. 답변에 나온 단위, 회계 범위, 수치는 원본 PDF에서 다시 확인해야 합니다. 확장 기능은 투자 판단을 하지 않으며 수치 추출의 완전성을 보장하지 않습니다."
+            "저장한 원본을 읽거나 선택한 AI 서비스가 지원하는 자료 파일과 질문을 직접 전달합니다. 답변에 나온 단위, 회계 범위, 수치는 원본 PDF에서 다시 확인해야 합니다. 확장 프로그램은 투자 판단을 하지 않으며 수치 추출의 완전성을 보장하지 않습니다."
           ],
           "faq": [
             {
@@ -6439,11 +6439,11 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "예. 무료 버전은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
+              "a": "예. 무료 플랜은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
             },
             {
               "q": "지난 연도가 ‘더 보기’나 긴 목록 안쪽에 있으면요?",
-              "a": "Pro에서는 스캔할 때 페이지를 끝까지 자동으로 스크롤하고 같은 목록의 다음 페이지도 따라가며 읽습니다(스캔 1회에 100페이지까지). 무료 버전은 화면에 표시된 내용만 읽으므로 먼저 직접 끝까지 스크롤하거나 다음 페이지를 연 뒤 다시 스캔하세요. 연도별로 탭이나 페이지가 나뉘어 있다면 하나씩 열어 차례로 스캔하세요. 뷰어를 거쳐 링크하는 IR 사이트도 있으니 저장 전에 감지된 링크 원본 페이지를 확인하세요."
+              "a": "Pro에서는 스캔할 때 페이지를 끝까지 자동으로 스크롤하고 같은 목록의 다음 페이지도 따라가며 읽습니다(스캔 1회에 100페이지까지). 무료 플랜은 화면에 표시된 내용만 읽으므로 먼저 직접 끝까지 스크롤하거나 다음 페이지를 연 뒤 다시 스캔하세요. 연도별로 탭이나 페이지가 나뉘어 있다면 하나씩 열어 차례로 스캔하세요. 뷰어를 거쳐 링크하는 IR 사이트도 있으니 저장 전에 감지된 링크 원본 페이지를 확인하세요."
             }
           ],
           "industry": {
@@ -6690,7 +6690,7 @@
           "steps": [
             "Open the official page for one opportunity. Identify the notice, specifications, forms and any separate clarification or amendment links.",
             "Open Grab All Files and scan the opportunity page. Filter to the formats published (PDF, Word, Excel, ZIP) and tick the notice, specifications, forms and any clarification files.",
-            "Check the opportunity name, version, deadlines and required document list. Keep forms in their original supported formats and use role-based filenames.",
+            "Check the opportunity name, version, deadlines and required document list. Keep forms in their original supported formats and use role-based file names.",
             "Give each file a role-based title (notice, specification, form, Q&A) and, in “More actions”, set “Organize” to “By type” so editable forms stay separate. Save a ZIP for the opportunity (Free: 10 files per download) and use “Export File Info CSV” to compare against the official list.",
             "Compare saved files and the CSV with the official listing. Revisit the source for amendments or answers before preparing an application. Saving documents does not fill, sign or submit an application."
           ],
@@ -7069,7 +7069,7 @@
         },
         "ko": {
           "title": "입찰·공모 서류 다운로드 | Grab All Files",
-          "desc": "한 건의 입찰·공모 공고, 사양서, 양식, 질의응답을 원래 형식 그대로 저장합니다. 역할을 알 수 있는 이름을 붙여 공식 목록과 맞춰 볼 수 있습니다. 무료 버전은 한 번에 10개까지 저장합니다.",
+          "desc": "한 건의 입찰·공모 공고, 사양서, 양식, 질의응답을 원래 형식 그대로 저장합니다. 역할을 알 수 있는 이름을 붙여 공식 목록과 맞춰 볼 수 있습니다. 무료 플랜은 한 번에 10개까지 저장합니다.",
           "eyebrow": "입찰·공모 서류",
           "h1": "한 공고의 자료를 함께 모으세요.",
           "lead": "하나의 입찰·공모 건에 대한 공고, 사양서, 양식과 공개된 질문·답변을 검토용 자료 세트로 준비합니다. 문서의 역할과 개정판을 구분해 보관하면 저장한 자료를 공식 목록과 비교하기 쉽습니다.",
@@ -7099,7 +7099,7 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "예. 무료 버전은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
+              "a": "예. 무료 플랜은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
             },
             {
               "q": "자료를 보려면 로그인이 필요한 포털에서도 되나요?",
@@ -7339,13 +7339,13 @@
       "copy": {
         "en": {
           "title": "Export file links to CSV for Excel | Grab All Files",
-          "desc": "Export a reusable inventory of selected files (URL, filename, title, type, size, date and source page) as a CSV for Excel. Free exports 10 rows at a time.",
+          "desc": "Export a reusable inventory of selected files (URL, file name, title, type, size, date and source page) as a CSV for Excel. Free exports 10 rows at a time.",
           "eyebrow": "File links to CSV",
           "h1": "Turn selected file links into a list.",
-          "lead": "Export a reusable inventory of selected files: URL, filename, title, type and available metadata. Import the CSV into Excel to filter, check and share a document list without treating it as the contents of the documents themselves.",
+          "lead": "Export a reusable inventory of selected files: URL, file name, title, type and available metadata. Import the CSV into Excel to filter, check and share a document list without treating it as the contents of the documents themselves.",
           "best": [
             "Maintaining an inventory of a selected document set.",
-            "Checking source URLs or comparing filenames and available metadata in Excel.",
+            "Checking source URLs or comparing file names and available metadata in Excel.",
             "Handing a reviewed file list to a colleague before anyone downloads the files."
           ],
           "steps": [
@@ -7720,7 +7720,7 @@
             ],
             "output": "Raccolta di esempio",
             "example": "Esempio illustrativo · materiali fittizi",
-            "note": "Nomi e gruppi sono esempi manuali. Le cartelle native sono per tipo o dominio. L'esempio CSV mostra quattro colonne; le dieci intestazioni reali sono nelle FAQ.",
+            "note": "Nomi e gruppi sono esempi manuali. Le cartelle native sono per tipo o dominio. L’esempio CSV mostra quattro colonne; le dieci intestazioni reali sono nelle FAQ.",
             "referenceTitle": "Esempio di documenti pubblicati",
             "referenceNote": "Riferimento alla pubblicazione dei documenti; non indica affiliazione o test di compatibilità.",
             "referenceLabel": "",
@@ -7729,13 +7729,13 @@
         },
         "ko": {
           "title": "파일 링크를 Excel용 CSV로 내보내기 | Grab All Files",
-          "desc": "선택한 파일의 URL, 파일명, 제목, 유형, 크기, 날짜, 링크 원본 페이지를 Excel용 CSV로 내보냅니다. 무료 버전은 한 번에 10행까지 내보냅니다.",
+          "desc": "선택한 파일의 URL, 파일 이름, 제목, 유형, 크기, 날짜, 링크 원본 페이지를 Excel용 CSV로 내보냅니다. 무료 플랜은 한 번에 10행까지 내보냅니다.",
           "eyebrow": "파일 링크를 CSV로",
           "h1": "선택한 파일 링크를 목록으로 만드세요.",
-          "lead": "선택한 파일의 URL, 파일명, 제목, 종류와 확인 가능한 메타데이터를 재사용 가능한 목록으로 내보냅니다. CSV를 Excel로 가져와 문서 본문의 내용과 구분하면서 자료 목록을 필터링·확인·공유할 수 있습니다.",
+          "lead": "선택한 파일의 URL, 파일 이름, 제목, 종류와 확인 가능한 메타데이터를 재사용 가능한 목록으로 내보냅니다. CSV를 Excel로 가져와 문서 본문의 내용과 구분하면서 자료 목록을 필터링·확인·공유할 수 있습니다.",
           "best": [
             "선택한 문서 세트의 목록을 관리하기.",
-            "Excel에서 출처 URL을 확인하거나 파일명과 확인 가능한 메타데이터를 비교하기.",
+            "Excel에서 출처 URL을 확인하거나 파일 이름과 확인 가능한 메타데이터를 비교하기.",
             "다운로드하기 전에 검토한 파일 목록을 동료에게 전달하기."
           ],
           "steps": [
@@ -7755,11 +7755,11 @@
             },
             {
               "q": "사이트의 모든 파일을 포함하나요?",
-              "a": "아닙니다. 감지된 행 중 선택한 것만 내보냅니다. 무료 버전은 내보내기당 10행, Pro는 제한이 없습니다. 포함 범위를 확인하고 필요하면 다른 페이지나 깊이로 다시 스캔하세요."
+              "a": "아닙니다. 감지된 행 중 선택한 것만 내보냅니다. 무료 플랜은 내보내기당 10행, Pro는 제한이 없습니다. 포함 범위를 확인하고 필요하면 다른 페이지나 깊이로 다시 스캔하세요."
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "예. 무료 버전은 CSV 한 번에 선택한 행을 최대 10개, 다운로드 한 번에 파일을 최대 10개까지 처리합니다. 더 긴 목록은 다음 행을 체크하고 “파일 정보 CSV 내보내기”를 다시 누르면 되며 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
+              "a": "예. 무료 플랜은 CSV 한 번에 선택한 행을 최대 10개, 다운로드 한 번에 파일을 최대 10개까지 처리합니다. 더 긴 목록은 다음 행을 체크하고 “파일 정보 CSV 내보내기”를 다시 누르면 되며 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
             },
             {
               "q": "파일 목록이 어딘가에 업로드되나요?",
@@ -8033,7 +8033,7 @@
             },
             {
               "q": "The supplier’s SDS search shows results only after I search. How do I scan them?",
-              "a": "Run the search on the supplier’s site first so the results are on screen, then scan that results page. With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. Language or region selectors usually change the listed files, so scan once per language."
+              "a": "Run the search on the supplier’s site first so the results are on screen, then scan that results page. With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the Free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. Language or region selectors usually change the listed files, so scan once per language."
             }
           ],
           "industry": {
@@ -8389,7 +8389,7 @@
         },
         "ko": {
           "title": "SDS(물질안전보건자료)·기술 자료 다운로드 | Grab All Files",
-          "desc": "제품별 SDS, TDS, 기술 PDF를 언어와 개정일을 알 수 있는 이름으로 원본 URL과 함께 저장합니다. 무료 버전에서도 다운로드 한 번에 10개까지 가능합니다.",
+          "desc": "제품별 SDS, TDS, 기술 PDF를 언어와 개정일을 알 수 있는 이름으로 원본 URL과 함께 저장합니다. 무료 플랜에서도 다운로드 한 번에 10개까지 가능합니다.",
           "eyebrow": "SDS·기술 자료",
           "h1": "SDS와 기술 파일을 제품별로 정리하세요.",
           "lead": "정확한 제품에 대한 공급업체 자료를 선택하고 SDS, TDS와 관련 기술 PDF를 구분해 관리합니다. 원본 문서의 제품명, 언어와 개정 정보를 확인한 뒤 제품 참고 자료 세트를 만드세요.",
@@ -8411,7 +8411,7 @@
             },
             {
               "q": "안전성이나 법규 준수를 판단할 수 있나요?",
-              "a": "아닙니다. 확장 기능은 파일을 감지하고 저장합니다. 유해·위험성을 해석하거나 제품·절차가 요구 사항에 적합한지 판단하지 않습니다."
+              "a": "아닙니다. 확장 프로그램은 파일을 감지하고 저장합니다. 유해·위험성을 해석하거나 제품·절차가 요구 사항에 적합한지 판단하지 않습니다."
             },
             {
               "q": "SDS와 TDS는 항상 모든 언어로 제공되나요?",
@@ -8419,11 +8419,11 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "예. 무료 버전은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
+              "a": "예. 무료 플랜은 다운로드, ZIP, 파일 정보 CSV 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
             },
             {
               "q": "공급사 SDS 검색은 검색해야 결과가 나옵니다. 어떻게 스캔하나요?",
-              "a": "먼저 공급사 사이트에서 검색해 결과를 화면에 띄운 뒤 그 검색 결과 페이지를 스캔하세요. Pro에서는 스캔할 때 페이지를 끝까지 자동으로 스크롤하고 같은 목록의 다음 페이지도 따라가며 읽습니다(스캔 1회에 100페이지까지). 무료 버전은 화면에 표시된 내용만 읽으므로 먼저 직접 끝까지 스크롤하거나 다음 페이지를 연 뒤 다시 스캔하세요. 언어나 지역 선택에 따라 표시되는 파일이 달라지는 경우가 많으니 언어별로 스캔하세요."
+              "a": "먼저 공급사 사이트에서 검색해 결과를 화면에 띄운 뒤 그 검색 결과 페이지를 스캔하세요. Pro에서는 스캔할 때 페이지를 끝까지 자동으로 스크롤하고 같은 목록의 다음 페이지도 따라가며 읽습니다(스캔 1회에 100페이지까지). 무료 플랜은 화면에 표시된 내용만 읽으므로 먼저 직접 끝까지 스크롤하거나 다음 페이지를 연 뒤 다시 스캔하세요. 언어나 지역 선택에 따라 표시되는 파일이 달라지는 경우가 많으니 언어별로 스캔하세요."
             }
           ],
           "industry": {
@@ -9079,7 +9079,7 @@
         },
         "ko": {
           "title": "arXiv PDF·연구 파일 저장 | Grab All Files",
-          "desc": "arXiv 검색 결과를 스캔하고 PDF를 골라 제목, 폴더, ZIP, 파일 목록 CSV로 저장하세요. 실제 확장 화면과 사용 흐름을 소개합니다.",
+          "desc": "arXiv 검색 결과를 스캔하고 PDF를 골라 제목, 폴더, ZIP, 파일 목록 CSV로 저장하세요. 실제 확장 프로그램 화면과 사용 흐름을 소개합니다.",
           "eyebrow": "arXiv PDF·연구 파일",
           "h1": "필요한 arXiv 논문을 저장하세요.",
           "lead": "먼저 arXiv에서 검색하고, 보고 있는 논문 목록을 읽기 좋은 자료 폴더로 만드세요. Grab All Files는 해당 페이지의 PDF와 지원 형식의 공개 파일 링크를 찾아줍니다. 목록을 확인하고 필요한 자료를 선택합니다.",
@@ -9091,7 +9091,7 @@
           "steps": [
             "arXiv에서 검색어, 분야, 기간을 좁혀 검색 결과나 논문 목록을 엽니다.",
             "Grab All Files를 열고 표시된 페이지를 스캔합니다. arXiv 검색 결과는 먼저 페이지당 200개로 표시하면 한 번의 스캔으로 목록 전체를 찾습니다. 감지된 제목과 원본 URL을 확인하세요. “선택한 PDF 제목 가져오기”로 PDF 자체에서 제목을 읽을 수 있습니다.",
-            "PDF로 필터링하고 필요한 논문을 선택합니다. 무료 버전은 다운로드당 10개까지이므로 다음 10개를 체크하고 “선택한 파일 저장”을 다시 눌러 이어 갑니다. 다른 공개 파일 링크는 따로 확인하고 필요한 지원 형식만 고르세요.",
+            "PDF로 필터링하고 필요한 논문을 선택합니다. 무료 플랜은 다운로드당 10개까지이므로 다음 10개를 체크하고 “선택한 파일 저장”을 다시 눌러 이어 갑니다. 다른 공개 파일 링크는 따로 확인하고 필요한 지원 형식만 고르세요.",
             "제목을 확인·수정하고 저장 이름과 폴더 옵션을 고릅니다. 파일 또는 ZIP으로 저장하고 URL 기록용 파일 목록 CSV를 내보냅니다.",
             "저장된 PDF를 열어 결과를 확인합니다. 원본 URL과 논문 버전을 메모하고, 대규모 자료는 arXiv 공식 일괄 접근 서비스를 사용합니다."
           ],
@@ -9110,11 +9110,11 @@
             },
             {
               "q": "이 논문들을 무료로 저장할 수 있나요?",
-              "a": "예. 무료 버전은 다운로드당 선택한 파일을 최대 10개까지 저장합니다. 계속하려면 다음 논문을 선택하고 “선택한 파일 저장”을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
+              "a": "예. 무료 플랜은 다운로드당 선택한 파일을 최대 10개까지 저장합니다. 계속하려면 다음 논문을 선택하고 “선택한 파일 저장”을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
             },
             {
               "q": "제목·ZIP·CSV는 어떻게 도움이 되나요?",
-              "a": "제목을 확인·수정하세요. 유용한 제목이 없으면 자동 이름은 원래 파일명을 사용합니다. 종류별과 도메인별 폴더는 별도 선택지입니다. ZIP은 선택 파일을 묶고 CSV는 정보와 URL을 기록합니다."
+              "a": "제목을 확인·수정하세요. 유용한 제목이 없으면 자동 이름은 원래 파일 이름을 사용합니다. 종류별과 도메인별 폴더는 별도 선택지입니다. ZIP은 선택 파일을 묶고 CSV는 정보와 URL을 기록합니다."
             },
             {
               "q": "arXiv 공식 도구인가요?",
@@ -9135,9 +9135,9 @@
               "연구 논문"
             ],
             "visualNote": "가상의 제목을 사용한 그림 예시입니다. arXiv에서 찾은 뒤 필요한 파일만 선택해 저장합니다.",
-            "screenTitle": "arXiv의 실제 확장 화면",
+            "screenTitle": "arXiv의 실제 확장 프로그램 화면",
             "screenAlt": "arXiv 공개 논문 링크를 감지하고 PDF 필터와 파일 선택을 표시하는 Grab All Files",
-            "screenCaption": "미리 가져온 공개 논문 페이지를 사용한 격리된 검증 환경의 실제 확장 화면입니다. 제목을 확인·수정한 예시이며 영어 UI입니다.",
+            "screenCaption": "미리 가져온 공개 논문 페이지를 사용한 격리된 검증 환경의 실제 확장 프로그램 화면입니다. 제목을 확인·수정한 예시이며 영어 UI입니다.",
             "officialTitle": "용도에 맞는 arXiv 접근 경로",
             "officialText": "읽기용 자료는 범위를 좁힌 목록에서 고릅니다. 대규모 자료는 공식 일괄 접근을 사용하고 메타데이터는 API를 이용하세요. 자동 수집 전 접근 안내를 확인하세요.",
             "officialLabels": [
@@ -9822,7 +9822,7 @@
             },
             {
               "q": "Si esporta XLSX direttamente?",
-              "a": "Questo flusso crea CSV/JSON. Apri o importa CSV in Excel tu stesso; non è prevista un'esportazione XLSX diretta."
+              "a": "Questo flusso crea CSV/JSON. Apri o importa CSV in Excel tu stesso; non è prevista un’esportazione XLSX diretta."
             },
             {
               "q": "Posso iniziare gratis?",
@@ -9912,7 +9912,7 @@
             },
             {
               "q": "무료로 시작할 수 있나요?",
-              "a": "Free는 선택한 1페이지, Pro는 여러 본문을 수집합니다. 파일은 기기에서 준비되며, Excel이나 외부 AI에는 사용자가 직접 전달합니다."
+              "a": "무료 플랜은 선택한 1페이지, Pro는 여러 본문을 수집합니다. 파일은 기기에서 준비되며, Excel이나 외부 AI에는 사용자가 직접 전달합니다."
             },
             {
               "q": "로그인이 필요한 페이지는 어떻게 되나요?",
@@ -10084,7 +10084,7 @@
             },
             {
               "q": "可以从免费版开始吗？",
-              "a": "Free收集所选1页，Pro可选择多个页面正文。文件在设备上准备，由您交给Excel或外部AI。"
+              "a": "免费版收集所选1页，Pro可选择多个页面正文。文件在设备上准备，由您交给Excel或外部AI。"
             },
             {
               "q": "需要登录的页面怎么办？",
@@ -10519,7 +10519,7 @@
             },
             {
               "q": "Pourquoi manque-t-il du texte dans la page enregistrée ?",
-              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l'écran » pour désigner le texte principal."
+              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l’écran » pour désigner le texte principal."
             }
           ],
           "guide": {
@@ -10756,8 +10756,8 @@
               "a": "재수집은 직접 실행합니다. 이미 저장했거나 사이트가 공개한 과거 자료를 사용하며 자동 감시나 미수집 과거 버전 복원으로 안내하지 않습니다."
             },
             {
-              "q": "버전 기록은 어떻게 하고, 무료 버전은 어디까지 되나요?",
-              "a": "자료에 표기된 버전은 제목이나 메모에 직접 기록하세요. AI 출력의 출처 URL과 수집 일시는 대조에 도움이 됩니다. 무료 버전은 한 번에 선택한 1페이지를 저장하므로 중요한 페이지를 하나씩 비교하고, Pro는 선택한 여러 페이지를 수집하므로 섹션 전체를 비교하기에 알맞습니다."
+              "q": "버전 기록은 어떻게 하고, 무료 플랜은 어디까지 되나요?",
+              "a": "자료에 표기된 버전은 제목이나 메모에 직접 기록하세요. AI 출력의 출처 URL과 수집 일시는 대조에 도움이 됩니다. 무료 플랜은 한 번에 선택한 1페이지를 저장하므로 중요한 페이지를 하나씩 비교하고, Pro는 선택한 여러 페이지를 수집하므로 섹션 전체를 비교하기에 알맞습니다."
             },
             {
               "q": "로그인이 필요한 페이지는 어떻게 되나요?",
@@ -11068,7 +11068,7 @@
           "title": "Rename PDF downloads and organize into folders | Grab All Files",
           "h1": "Give PDFs useful names. Keep files organized.",
           "desc": "Rename PDFs with their real titles before you download, then sort files into folders by type or site. Edit any title; Free saves 10 files per download.",
-          "lead": "A readable filename and a predictable folder make a document set easier to revisit. Review the titles found for your PDFs, choose a naming mode, and organize a mixed file set by format or source site. Check the saved results rather than assuming every title is useful.",
+          "lead": "A readable file name and a predictable folder make a document set easier to revisit. Review the titles found for your PDFs, choose a naming mode, and organize a mixed file set by format or source site. Check the saved results rather than assuming every title is useful.",
           "best": [
             "Keep PDFs from a manual or public-document list easier to recognize.",
             "Separate a mixed set of PDFs, spreadsheets and other files by format."
@@ -11082,7 +11082,7 @@
           "faq": [
             {
               "q": "Does it always find the PDF’s real title?",
-              "a": "No. Available metadata or page headings may be missing or generic. Review the retrieved title; automatic mode can use the original filename when no useful title is found."
+              "a": "No. Available metadata or page headings may be missing or generic. Review the retrieved title; automatic mode can use the original file name when no useful title is found."
             },
             {
               "q": "Does type grouping understand document subjects?",
@@ -11102,7 +11102,7 @@
             "modes": [
               [
                 "Recognize a document",
-                "Use a meaningful retrieved or edited title, or deliberately keep the original filename. Check the extension as well."
+                "Use a meaningful retrieved or edited title, or deliberately keep the original file name. Check the extension as well."
               ],
               [
                 "Find a file set",
@@ -11310,7 +11310,7 @@
           "steps": [
             "Analysez la page qui liste les PDF, filtrez les résultats sur PDF et cochez les fichiers à enregistrer.",
             "Vérifiez les titres. Cliquez sur « Récupérer les titres des PDF sélectionnés » pour lire le titre dans le PDF lui-même. Double-cliquez sur un titre, appuyez sur F2 ou utilisez le crayon (« Modifier le titre ») pour le changer ; « Réinitialiser les titres » annule vos modifications.",
-            "Ouvrez « Détails » et choisissez « Enregistrer sous » : « Automatique (titre si utilisable) », « Titre » ou « Nom de fichier d'origine ». Pour ranger en dossiers, ouvrez « Autres actions » et, dans « Classement », choisissez « Par type », « Par domaine » ou « Sans dossiers ».",
+            "Ouvrez « Détails » et choisissez « Enregistrer sous » : « Automatique (titre si utilisable) », « Titre » ou « Nom de fichier d’origine ». Pour ranger en dossiers, ouvrez « Autres actions » et, dans « Classement », choisissez « Par type », « Par domaine » ou « Sans dossiers ».",
             "Cliquez sur « Enregistrer la sélection » ou créez un ZIP (version gratuite : 10 fichiers par téléchargement). Vérifiez noms, extensions et dossiers ; dans Firefox, les fichiers vont dans Downloads/GrabAllFiles."
           ],
           "faq": [
@@ -11533,9 +11533,9 @@
           "eyebrow": "Rinominare e organizzare PDF"
         },
         "ko": {
-          "title": "PDF 파일명 일괄 변경 후 폴더로 정리 | Grab All Files",
+          "title": "PDF 파일 이름 일괄 변경 후 폴더로 정리 | Grab All Files",
           "h1": "PDF를 알아보기 좋은 이름으로 저장하세요.",
-          "desc": "PDF를 실제 제목으로 파일명을 바꾼 뒤 저장하고 유형별·사이트별 폴더로 정리합니다. 제목은 직접 고칠 수 있고, 무료 버전의 저장 한도는 다운로드당 10개입니다.",
+          "desc": "PDF를 실제 제목으로 파일 이름을 바꾼 뒤 저장하고 유형별·사이트별 폴더로 정리합니다. 제목은 직접 고칠 수 있고, 무료 플랜의 저장 한도는 다운로드당 10개입니다.",
           "lead": "읽기 좋은 이름과 정돈된 폴더로 자료를 찾기 쉽게 만드세요. PDF 제목을 확인해 저장 이름을 선택하고 혼합 파일은 형식이나 출처별로 정리합니다. 저장된 이름과 폴더는 마지막에 한 번 훑어 봅니다.",
           "best": [
             "매뉴얼·공개 목록의 PDF를 이름으로 쉽게 찾습니다.",
@@ -11561,8 +11561,8 @@
               "a": "브라우저·다운로드 설정에 따릅니다. Chromium은 폴더 선택을 제공할 수 있고 Firefox는 Downloads/GrabAllFiles 경로를 씁니다. 실제 저장 위치를 확인하세요."
             },
             {
-              "q": "많은 PDF를 무료로 파일명 변경할 수 있나요?",
-              "a": "예. “저장 이름”, 제목 편집, “정리”는 모두 무료 버전에서 사용할 수 있습니다. 무료 버전은 다운로드당 선택한 파일을 최대 10개까지 저장합니다. 계속하려면 다음 파일을 선택하고 “선택한 파일 저장”을 다시 누르세요. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
+              "q": "많은 PDF를 무료로 파일 이름 변경할 수 있나요?",
+              "a": "예. “저장 이름”, 제목 편집, “정리”는 모두 무료 플랜에서 사용할 수 있습니다. 무료 플랜은 다운로드당 선택한 파일을 최대 10개까지 저장합니다. 계속하려면 다음 파일을 선택하고 “선택한 파일 저장”을 다시 누르세요. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
             }
           ],
           "guide": {
@@ -11608,7 +11608,7 @@
               ]
             ]
           },
-          "eyebrow": "PDF 파일명 변경·정리"
+          "eyebrow": "PDF 파일 이름 변경·정리"
         },
         "pt_BR": {
           "title": "Renomear PDFs baixados e organizar em pastas | Grab All Files",
@@ -11951,7 +11951,7 @@
           "desc": "官公庁・自治体の制度案内ページをHTMLで、添付のPDF・Wordをファイルで保存し、出典も記録。無料版は1回1ページ、ファイルは1回10件までです。",
           "eyebrow": "官公庁・自治体の公開資料",
           "h1": "公的な案内と添付資料を、ひとまとまりに。",
-          "lead": "制度の概要、詳しい要領、関係する添付資料を同じフォルダーに。説明ページはHTMLで読み返し、PDF・Wordの原本を横に置けば、探し直さずに出典へ戻れます。",
+          "lead": "制度の概要、詳しい要領、関係する添付資料を同じフォルダに。説明ページはHTMLで読み返し、PDF・Wordの原本を横に置けば、探し直さずに出典へ戻れます。",
           "best": [
             "1つの制度や行政サービスに必要な資料を集める。",
             "説明ページと、リンク先のPDF・Word様式を一緒に整理する。",
@@ -11962,7 +11962,7 @@
             "出典付きAI資料も使う場合は、収集前に「AI分析用データ（Markdown・出典付き）」を有効にし、画像・リンク文書の設定を選んでからページをHTMLで保存します。",
             "B：添付資料。「ファイル一括ダウンロード」に切り替えて同じページをスキャンし、PDFとWordで絞り込んで必要な様式・要領にチェックを入れます。無料版は1回のダウンロードで10件まで。次のファイルを選んでもう一度「選んだファイルを保存」を押すか、ZIPにしてHTMLの隣に保存します。",
             "C：AI用ZIP。収集完了後に「AI分析用ZIPを保存」を押します。source_url・captured_atを確認し、記載された版と確認日は自分のメモに残します。",
-            "テーマと日付でフォルダー名を付け、概要・要領・様式を整理します。後日使うときは公式ページを再確認し、文書や日付の更新を確かめます。"
+            "テーマと日付でフォルダ名を付け、概要・要領・様式を整理します。後日使うときは公式ページを再確認し、文書や日付の更新を確かめます。"
           ],
           "faq": [
             {
@@ -11995,7 +11995,7 @@
               ],
               [
                 "原本の添付資料",
-                "PDF・Wordは別のZIPやフォルダーへ。照合に役立つ原本の名前も残します。"
+                "PDF・Wordは別のZIPやフォルダへ。照合に役立つ原本の名前も残します。"
               ]
             ],
             "examplesTitle": "架空のテーマで整理する例",
@@ -12029,7 +12029,7 @@
               ],
               [
                 "ページ一覧／ファイル情報CSV",
-                "収集ページのURL・タイトル・状態・失敗理由の一覧を残し、添付資料はファイルダウンローダーのファイル情報CSVで整理します。"
+                "収集ページのURL・タイトル・状態・失敗理由の一覧を残し、添付資料は「ファイル一括ダウンロード」のファイル情報CSVで整理します。"
               ],
               [
                 "自分の資料メモ",
@@ -12075,7 +12075,7 @@
             },
             {
               "q": "¿Puedo empezar con una sola guía?",
-              "a": "Sí. Free descubre candidatas y guarda una página elegida en HTML; Pro combina el contenido de varias. Empieza con la descripción y los adjuntos necesarios y verifica el resultado con la fuente."
+              "a": "Sí. El plan gratuito descubre candidatas y guarda una página elegida en HTML; Pro combina el contenido de varias. Empieza con la descripción y los adjuntos necesarios y verifica el resultado con la fuente."
             }
           ],
           "guide": {
@@ -12408,7 +12408,7 @@
         },
         "ko": {
           "title": "정부·공공기관 문서와 안내 자료 모아 저장 | Grab All Files",
-          "desc": "정부·공공기관의 제도 안내 페이지는 HTML로, 첨부 PDF·Word는 파일로 저장하고 출처도 기록합니다. 무료 버전은 한 번에 1페이지, 파일은 다운로드당 10개까지입니다.",
+          "desc": "정부·공공기관의 제도 안내 페이지는 HTML로, 첨부 PDF·Word는 파일로 저장하고 출처도 기록합니다. 무료 플랜은 한 번에 1페이지, 파일은 다운로드당 10개까지입니다.",
           "eyebrow": "정부·공공기관 문서",
           "h1": "공공 안내와 첨부 자료를 한곳에.",
           "lead": "제도 개요, 자세한 안내와 관련 첨부 자료를 같은 폴더에 둡니다. 선택한 설명 페이지는 HTML로 읽고 원본 PDF·Word를 함께 보관하면 다시 검색하지 않고 출처를 찾을 수 있습니다.",
@@ -12418,9 +12418,9 @@
             "조사나 내부 설명에 쓸 출처와 확인일 기록하기."
           ],
           "steps": [
-            "A: 안내 페이지. 저장이 허용된 공식 페이지를 열고 “페이지를 HTML로 합치기”를 누릅니다. “열려 있는 페이지만”을 그대로 두거나 “링크된 페이지도 찾기”를 골라 필요한 주제 하나를 선택합니다. 무료 버전은 한 번에 1페이지, Pro는 선택한 여러 페이지를 하나의 HTML로 합칩니다.",
+            "A: 안내 페이지. 저장이 허용된 공식 페이지를 열고 “페이지를 HTML로 합치기”를 누릅니다. “열려 있는 페이지만”을 그대로 두거나 “링크된 페이지도 찾기”를 골라 필요한 주제 하나를 선택합니다. 무료 플랜은 한 번에 1페이지, Pro는 선택한 여러 페이지를 하나의 HTML로 합칩니다.",
             "출처가 있는 AI 파일도 쓰려면 수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 켜고, 이미지·연결 문서 설정을 고른 뒤 페이지를 HTML로 저장합니다.",
-            "B: 첨부 자료. “파일 일괄 다운로드”로 전환해 같은 페이지를 스캔하고, PDF와 Word로 필터링해 필요한 양식·안내 자료를 체크합니다. 무료 버전은 다운로드당 10개까지이므로 다음 파일을 선택해 “선택한 파일 저장”을 다시 누르거나 ZIP으로 묶어 HTML 옆에 둡니다.",
+            "B: 첨부 자료. “파일 일괄 다운로드”로 전환해 같은 페이지를 스캔하고, PDF와 Word로 필터링해 필요한 양식·안내 자료를 체크합니다. 무료 플랜은 다운로드당 10개까지이므로 다음 파일을 선택해 “선택한 파일 저장”을 다시 누르거나 ZIP으로 묶어 HTML 옆에 둡니다.",
             "C: AI용 ZIP. 수집이 끝나면 “AI 분석용 ZIP 저장”을 누릅니다. source_url·captured_at을 확인하고, 표기된 버전과 확인일은 직접 기록합니다.",
             "주제와 날짜로 폴더 이름을 정하고 개요·안내·양식을 구분합니다. 나중에 사용할 때 공식 출처에서 문서와 날짜의 변경 여부를 확인합니다."
           ],
@@ -12443,7 +12443,7 @@
             },
             {
               "q": "안내 페이지 하나로 시작할 수 있나요?",
-              "a": "무료 버전은 후보를 탐색하고 선택한 한 페이지를 HTML로 저장합니다. Pro는 여러 페이지 본문을 결합합니다. 개요와 필요한 첨부 자료부터 고르고 저장 결과를 원본과 비교하세요."
+              "a": "무료 플랜은 후보를 탐색하고 선택한 한 페이지를 HTML로 저장합니다. Pro는 여러 페이지 본문을 결합합니다. 개요와 필요한 첨부 자료부터 고르고 저장 결과를 원본과 비교하세요."
             }
           ],
           "guide": {
@@ -12489,7 +12489,7 @@
               ],
               [
                 "페이지 목록 / 파일 정보 CSV",
-                "수집 페이지의 URL·제목·상태·실패 이유 목록을 남깁니다. 첨부 자료는 파일 다운로더의 파일 정보 CSV로 정리합니다."
+                "수집 페이지의 URL·제목·상태·실패 이유 목록을 남깁니다. 첨부 자료는 파일 일괄 다운로드의 파일 정보 CSV로 정리합니다."
               ],
               [
                 "직접 작성한 메모",
@@ -12581,7 +12581,7 @@
               ],
               [
                 "Lista de páginas / CSV dos arquivos",
-                "Guarde URL, título, status e motivo de falha das páginas coletadas. Use o CSV de informações do downloader para organizar anexos."
+                "Guarde URL, título, status e motivo de falha das páginas coletadas. Use o CSV de informações do baixador de arquivos para organizar anexos."
               ],
               [
                 "Suas notas",
@@ -12996,7 +12996,7 @@
             "Preparar Markdown seleccionado para preguntar a una IA externa."
           ],
           "steps": [
-            "Abre una página que puedas guardar y usa «Combinar páginas en HTML». Revisa las candidatas y elige las necesarias. Free guarda una página elegida en HTML; Pro combina el contenido de varias.",
+            "Abre una página que puedas guardar y usa «Combinar páginas en HTML». Revisa las candidatas y elige las necesarias. El plan gratuito guarda una página elegida en HTML; Pro combina el contenido de varias.",
             "Activa «Datos para análisis con IA (Markdown con fuentes)» antes de recopilar. Elige «Un solo Markdown», «Markdown por página» o «Paquete completo» para lectura, notas separadas o reutilización estructurada.",
             "Recopila y revisa el resultado. Compara títulos, enlaces y texto importante con la fuente y comprueba fallos. Guarda también HTML si quieres índice y búsqueda.",
             "Usa «Guardar ZIP de análisis IA», extrae el ZIP y abre los Markdown en un editor compatible. Conserva source_url y captured_at y añade tus temas y fecha de consulta.",
@@ -13133,7 +13133,7 @@
             },
             {
               "q": "Pourquoi manque-t-il du texte dans la page enregistrée ?",
-              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l'écran » pour désigner le texte principal."
+              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l’écran » pour désigner le texte principal."
             }
           ],
           "guide": {
@@ -13396,7 +13396,7 @@
             "필요한 Markdown을 골라 외부 AI에 질문하기."
           ],
           "steps": [
-            "저장이 허용된 페이지를 열고 “페이지를 HTML로 합치기”를 시작합니다. 관련 후보를 확인해 필요한 페이지만 선택하세요. 무료 버전은 선택한 한 페이지를 HTML로 저장하고 Pro는 여러 페이지 본문을 결합합니다.",
+            "저장이 허용된 페이지를 열고 “페이지를 HTML로 합치기”를 시작합니다. 관련 후보를 확인해 필요한 페이지만 선택하세요. 무료 플랜은 선택한 한 페이지를 HTML로 저장하고 Pro는 여러 페이지 본문을 결합합니다.",
             "수집 전에 “AI 분석용 데이터(출처 포함 Markdown)”를 활성화합니다. 읽기용은 “하나의 Markdown”, 개별 노트는 “페이지별 Markdown”, 구조화 자료도 쓸 때는 “전체 패키지”를 선택합니다.",
             "결과 화면에서 제목, 링크, 중요한 본문을 원본 페이지와 견주어 보고 실패 항목도 살펴보세요. 목차와 본문 검색을 쓰려면 HTML도 저장합니다.",
             "“AI 분석용 ZIP 저장”을 사용해 ZIP을 풀고 지원 편집기에서 Markdown을 엽니다. source_url·captured_at을 남기고 주제 이름과 확인일을 메모에 추가합니다.",
@@ -13405,7 +13405,7 @@
           "faq": [
             {
               "q": "Obsidian이나 Notion과 자동 동기화되나요?",
-              "a": "먼저 파일을 내보낸 후 대상 도구가 지원하는 방법으로 직접 복사·가져옵니다. 제목·표·링크를 확인하세요. 확장 기능은 보관함이나 작업 공간을 자동 동기화하지 않으며 가져오기 지원은 도구에 따라 다릅니다."
+              "a": "먼저 파일을 내보낸 후 대상 도구가 지원하는 방법으로 직접 복사·가져옵니다. 제목·표·링크를 확인하세요. 확장 프로그램은 보관함이나 작업 공간을 자동 동기화하지 않으며 가져오기 지원은 도구에 따라 다릅니다."
             },
             {
               "q": "이미지와 동적 콘텐츠도 그대로 남나요?",
@@ -13425,7 +13425,7 @@
             },
             {
               "q": "무료로 사용할 수 있나요?",
-              "a": "예. 무료 버전은 한 번에 선택한 1페이지를 저장합니다. 그 페이지의 이미지에는 플랜 제한이 없고, 직접 링크된 파일은 결과 화면의 “다음 10건 저장”으로 10개씩 저장합니다. Pro($19.99, 1회 결제, 최대 3대)는 선택한 여러 페이지를 하나의 HTML로 합칩니다."
+              "a": "예. 무료 플랜은 한 번에 선택한 1페이지를 저장합니다. 그 페이지의 이미지에는 플랜 제한이 없고, 직접 링크된 파일은 결과 화면의 “다음 파일 10개 저장”으로 10개씩 저장합니다. Pro($19.99, 1회 결제, 최대 3대)는 선택한 여러 페이지를 하나의 HTML로 합칩니다."
             },
             {
               "q": "로그인이 필요한 페이지는 어떻게 되나요?",
@@ -13699,7 +13699,7 @@
             "開啟允許儲存的頁面，啟動「將網頁合併為 HTML」。核對相關候選並選取需要的頁面。免費版將選取的一個頁面儲存為HTML，Pro可合併多個頁面正文。",
             "收集前啟用「AI分析資料（附出處的Markdown）」。閱讀用「單一Markdown」，分開記筆記用「逐頁Markdown」，需要結構化資料則選「完整套件」。",
             "收集並核對結果，將標題、連結和重要正文與來源比較，檢查失敗項目。若需目錄和正文搜尋，也儲存HTML。",
-            "使用「儲存AI分析ZIP」，解壓縮ZIP，在支援的編輯器中開啟Markdown。保留source_url和captured_at，添加自己的主題標籤與核對日期。",
+            "使用「儲存AI分析ZIP」，解壓縮ZIP，在支援的編輯器中開啟Markdown。保留source_url和captured_at，加入自己的主題標籤與核對日期。",
             "透過支援的方法手動複製或匯入筆記工具。外部AI需自行選擇檔案，用「複製給AI的請求文」準備請求與問題，再以提供的原文和最新來源核對回答。"
           ],
           "faq": [
@@ -13741,7 +13741,7 @@
             "modes": [
               [
                 "閱讀並加註",
-                "用一個Markdown作為簡潔參考，保留來源並添加自己的評論。"
+                "用一個Markdown作為簡潔參考，保留來源並加入自己的評論。"
               ],
               [
                 "逐頁整理筆記",
@@ -13756,7 +13756,7 @@
               ],
               [
                 "寫作參考",
-                "請列出資料中支持這份草稿的事實。添加來源URL和取得時間，標出提供資料無法支持的主張。"
+                "請列出資料中支持這份草稿的事實。加入來源URL和取得時間，標出提供資料無法支持的主張。"
               ]
             ],
             "formatsTitle": "選擇Markdown輸出",
@@ -14013,7 +14013,7 @@
           "desc": "Guarda manuales y artículos permitidos como referencia legible. Organiza capítulos HTML, PDF incrustados y artículos de menús, y prepara preguntas para IA.",
           "eyebrow": "Guardar manuales y conocimiento",
           "h1": "Reúne manuales y artículos de conocimiento para consultarlos.",
-          "lead": "Lee juntos los capítulos útiles, encuentra procedimientos con índice y búsqueda y conserva los PDF originales junto a sus explicaciones. Usa material que puedas ver y guardar. Free guarda una página elegida; Pro combina varias.",
+          "lead": "Lee juntos los capítulos útiles, encuentra procedimientos con índice y búsqueda y conserva los PDF originales junto a sus explicaciones. Usa material que puedas ver y guardar. El plan gratuito guarda una página elegida; Pro combina varias.",
           "best": [
             "Consultar procedimientos de solicitud, documentos necesarios e instrucciones de uso.",
             "Organizar la explicación y el PDF original como materiales relacionados.",
@@ -14037,7 +14037,7 @@
             },
             {
               "q": "¿Puedo probar una página gratis?",
-              "a": "Sí. Free encuentra candidatas y guarda una página elegida en HTML. Pro permite seleccionar, ordenar y combinar varias. Se mantienen autenticación, permisos y límites de seguridad."
+              "a": "Sí. El plan gratuito encuentra candidatas y guarda una página elegida en HTML. Pro permite seleccionar, ordenar y combinar varias. Se mantienen autenticación, permisos y límites de seguridad."
             },
             {
               "q": "¿Cómo identifico la fuente y versión?",
@@ -14129,7 +14129,7 @@
           "steps": [
             "Ouvrez une page que vous êtes autorisé à consulter et enregistrer avec votre session habituelle. Ouvrez ensuite «Regrouper les pages en HTML» dans l’extension.",
             "Comparez les candidates au menu original et choisissez les chapitres ou articles. Avec Pro, retirez les éléments inutiles et réordonnez-les.",
-            "Réglez images et documents, collectez puis enregistrez le HTML. Pour un PDF intégré, vérifiez son URL ou lien de téléchargement accessible dans l’outil fichiers et enregistrez-le séparément.",
+            "Réglez images et documents, collectez puis enregistrez le HTML. Pour un PDF intégré, vérifiez son URL ou lien de téléchargement accessible dans le Téléchargeur de fichiers et enregistrez-le séparément.",
             "Ouvrez le HTML et utilisez sommaire et recherche. Comparez titres et résultats aux sources, puis vérifiez manques ou échecs.",
             "Gardez HTML et PDF ensemble. Notez URL sources, date de vérification et révision affichée. Pour l’IA, exportez et transmettez vous-même les fichiers acceptés et votre question au service choisi."
           ],
@@ -14140,7 +14140,7 @@
             },
             {
               "q": "Comment garder un PDF intégré et son explication ?",
-              "a": "Vérifiez l’URL ou lien PDF dans l’outil fichiers et enregistrez le fichier accessible séparément. Collectez l’explication en HTML et gérez les deux ensemble ; le texte PDF n’est pas fusionné dans le HTML."
+              "a": "Vérifiez l’URL ou lien PDF dans le Téléchargeur de fichiers et enregistrez le fichier accessible séparément. Collectez l’explication en HTML et gérez les deux ensemble ; le texte PDF n’est pas fusionné dans le HTML."
             },
             {
               "q": "Puis-je essayer une page gratuitement ?",
@@ -14160,7 +14160,7 @@
             },
             {
               "q": "Pourquoi manque-t-il du texte dans la page enregistrée ?",
-              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l'écran » pour désigner le texte principal."
+              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l’écran » pour désigner le texte principal."
             },
             {
               "q": "Puis-je sélectionner et copier le texte du HTML enregistré ?",
@@ -14186,7 +14186,7 @@
                   "PDF original",
                   "Notes"
                 ],
-                "Vérifiez si l’URL ou le lien du PDF est accessible. Enregistrez le PDF avec l’outil fichiers et conservez-le avec l’explication HTML."
+                "Vérifiez si l’URL ou le lien du PDF est accessible. Enregistrez le PDF avec le Téléchargeur de fichiers et conservez-le avec l’explication HTML."
               ],
               [
                 "Articles dans un menu hiérarchique",
@@ -14236,8 +14236,8 @@
           "steps": [
             "Öffnen Sie eine Seite mit erlaubtem Lese- und Speicherzugriff in Ihrer üblichen Browsersitzung. Öffnen Sie anschließend „Seiten als HTML bündeln“ in der Erweiterung.",
             "Vergleichen Sie Kandidaten mit dem Quellmenü und wählen Sie Kapitel oder Artikel. Mit Pro entfernen Sie Extras und ändern die Reihenfolge.",
-            "Wählen Sie Bild- und Dokumentoptionen, sammeln und speichern Sie HTML. Prüfen Sie für eingebettete PDFs die erreichbare Datei-URL oder den Downloadlink im Dateiwerkzeug und speichern Sie das PDF separat.",
-            "Öffnen Sie HTML mit Verzeichnis und Suche. Vergleichen Sie Überschriften und Ergebnisse mit den Quellen und prüfen Sie Lücken oder Fehler.",
+            "Wählen Sie Bild- und Dokumentoptionen, sammeln und speichern Sie HTML. Prüfen Sie für eingebettete PDFs die erreichbare Datei-URL oder den Download-Link im Datei-Downloader und speichern Sie das PDF separat.",
+            "Öffnen Sie HTML mit Inhaltsverzeichnis und Suche. Vergleichen Sie Überschriften und Ergebnisse mit den Quellen und prüfen Sie Lücken oder Fehler.",
             "Bewahren Sie HTML und PDFs zusammen auf. Notieren Sie Quell-URLs, Prüfdatum und angegebene Revision. Für KI exportieren Sie und übergeben passende Dateien und Fragen selbst an den gewählten Dienst."
           ],
           "faq": [
@@ -14247,7 +14247,7 @@
             },
             {
               "q": "Wie sichere ich ein eingebettetes PDF mit Erklärung?",
-              "a": "Prüfen Sie die PDF-URL oder den Downloadlink im Dateiwerkzeug und speichern Sie das erreichbare PDF separat. Sammeln Sie die Erklärung als HTML und verwalten Sie beides zusammen; PDF-Text wird nicht in das HTML eingefügt."
+              "a": "Prüfen Sie die PDF-URL oder den Download-Link im Datei-Downloader und speichern Sie das erreichbare PDF separat. Sammeln Sie die Erklärung als HTML und verwalten Sie beides zusammen; PDF-Text wird nicht in das HTML eingefügt."
             },
             {
               "q": "Kann ich eine Seite kostenlos testen?",
@@ -14284,7 +14284,7 @@
                   "Vorbereitung",
                   "Ablauf"
                 ],
-                "Wählen und ordnen Sie benötigte Kapitel als HTML-Referenz. Verzeichnis und Suche helfen beim Nachschlagen."
+                "Wählen und ordnen Sie benötigte Kapitel als HTML-Referenz. Inhaltsverzeichnis und Suche helfen beim Nachschlagen."
               ],
               [
                 "Eingebettetes PDF",
@@ -14293,7 +14293,7 @@
                   "Original-PDF",
                   "Notizen"
                 ],
-                "Prüfen Sie die verfügbare PDF-URL oder den Downloadlink. Speichern Sie das PDF im Dateiwerkzeug und ordnen Sie es neben dem erklärenden HTML ein."
+                "Prüfen Sie die verfügbare PDF-URL oder den Download-Link. Speichern Sie das PDF im Datei-Downloader und ordnen Sie es neben dem erklärenden HTML ein."
               ],
               [
                 "Artikel in hierarchischen Menüs",
@@ -14313,7 +14313,7 @@
             "rows": [
               [
                 "HTML-Referenz",
-                "Gesammelte Texte mit Verzeichnis und Suche lesen. Tatsächlich gespeicherte Abschnitte prüfen."
+                "Gesammelte Texte mit Inhaltsverzeichnis und Suche lesen. Tatsächlich gespeicherte Abschnitte prüfen."
               ],
               [
                 "Original-PDFs",
@@ -14343,7 +14343,7 @@
           "steps": [
             "Apri una pagina che puoi vedere e salvare nella tua normale sessione del browser. Poi apri «Unisci pagine in HTML» nell’estensione.",
             "Confronta le candidate con il menu originale e scegli capitoli o articoli. Con Pro rimuovi gli extra e riordina le pagine.",
-            "Imposta immagini e documenti, raccogli e salva HTML. Per PDF incorporati controlla URL o link di download accessibili nello strumento file e salva il PDF separatamente.",
+            "Imposta immagini e documenti, raccogli e salva HTML. Per PDF incorporati controlla URL o link di download accessibili nel Downloader di file e salva il PDF separatamente.",
             "Apri l’HTML e usa indice e ricerca. Confronta titoli e risultati con le fonti e controlla mancanze o errori.",
             "Conserva HTML e PDF insieme. Annota URL, data controllata e revisione dichiarata. Per IA esporta e fornisci manualmente file accettati e domanda al servizio scelto."
           ],
@@ -14354,7 +14354,7 @@
             },
             {
               "q": "Come salvo PDF incorporato e spiegazione?",
-              "a": "Controlla URL o link PDF nello strumento file e salva il PDF accessibile separatamente. Raccogli la spiegazione in HTML e conserva entrambi insieme; il testo PDF non viene unito al corpo HTML."
+              "a": "Controlla URL o link PDF nel Downloader di file e salva il PDF accessibile separatamente. Raccogli la spiegazione in HTML e conserva entrambi insieme; il testo PDF non viene unito al corpo HTML."
             },
             {
               "q": "Posso provare una pagina gratis?",
@@ -14400,7 +14400,7 @@
                   "PDF originale",
                   "Note"
                 ],
-                "Controlla se URL o link del PDF sono disponibili. Salva il PDF nello strumento file e conservalo con l’HTML esplicativo."
+                "Controlla se URL o link del PDF sono disponibili. Salva il PDF nel Downloader di file e conservalo con l’HTML esplicativo."
               ],
               [
                 "Articoli in menu gerarchici",
@@ -14441,7 +14441,7 @@
           "desc": "열람·저장이 허용된 업무 매뉴얼과 지식 문서를 읽기 쉬운 자료집으로 정리합니다. 장별 HTML, 삽입 PDF, 메뉴형 기사를 저장하고 외부 AI 질문을 준비하세요.",
           "eyebrow": "업무 매뉴얼·지식 페이지 저장",
           "h1": "업무 매뉴얼과 지식 문서를 다시 읽기 좋은 자료집으로.",
-          "lead": "필요한 장과 기사를 모아 읽고 목차와 검색으로 절차를 찾으세요. 설명 페이지와 PDF 원본을 함께 관리합니다. 열람·저장이 허용된 자료를 사용하세요. Free는 선택한 1페이지를 저장하고 Pro는 여러 페이지 본문을 결합합니다.",
+          "lead": "필요한 장과 기사를 모아 읽고 목차와 검색으로 절차를 찾으세요. 설명 페이지와 PDF 원본을 함께 관리합니다. 열람·저장이 허용된 자료를 사용하세요. 무료 플랜은 선택한 1페이지를 저장하고 Pro는 여러 페이지 본문을 결합합니다.",
           "best": [
             "신청 절차·필요 서류 안내·조작 매뉴얼을 함께 참고합니다.",
             "설명 페이지와 PDF 원본을 관련 자료로 정리합니다.",
@@ -14464,8 +14464,8 @@
               "a": "파일 다운로드 도구에서 PDF URL이나 다운로드 링크를 확인해 접근 가능한 PDF를 별도 저장합니다. 설명은 HTML로 수집하고 함께 관리하며 PDF 본문은 HTML에 통합되지 않습니다."
             },
             {
-              "q": "Free로 1페이지부터 시도할 수 있나요?",
-              "a": "네. Free는 후보를 찾고 선택한 1페이지를 HTML로 저장합니다. Pro는 여러 본문을 선택·정렬·결합합니다. 인증·권한·안전 제한은 적용됩니다."
+              "q": "무료 플랜으로 1페이지부터 시도할 수 있나요?",
+              "a": "네. 무료 플랜은 후보를 찾고 선택한 1페이지를 HTML로 저장합니다. Pro는 여러 본문을 선택·정렬·결합합니다. 인증·권한·안전 제한은 적용됩니다."
             },
             {
               "q": "출처와 매뉴얼 버전은 어떻게 확인하나요?",
@@ -14655,7 +14655,7 @@
           "desc": "将允许查看与保存的业务手册和知识文章整理为易读资料集。按章节HTML、嵌入PDF与层级菜单文章选择保存方式，并准备向外部AI提问。",
           "eyebrow": "保存业务手册与知识文章",
           "h1": "将业务手册与知识文章整理为便于查阅的资料集。",
-          "lead": "把需要的章节和文章放在一起阅读，通过目录和正文搜索找到操作步骤，并将PDF原件与说明页面一起管理。使用允许查看和保存的资料。Free保存所选1页，Pro可合并多个页面正文。",
+          "lead": "把需要的章节和文章放在一起阅读，通过目录和正文搜索找到操作步骤，并将PDF原件与说明页面一起管理。使用允许查看和保存的资料。免费版保存所选1页，Pro可合并多个页面正文。",
           "best": [
             "一起查阅申请步骤、所需材料说明与操作手册。",
             "将说明页面与PDF原件整理为相关资料。",
@@ -14678,8 +14678,8 @@
               "a": "在文件下载工具中确认PDF URL或下载链接，单独保存可获取的PDF。将说明收集为HTML并一起管理；PDF正文不会合并进HTML正文。"
             },
             {
-              "q": "可以用Free从1页开始确认吗？",
-              "a": "可以。Free查找候选并保存所选1页为HTML。Pro可选择、排序与合并多个页面正文。仍适用验证、权限与安全上限。"
+              "q": "可以用免费版从1页开始确认吗？",
+              "a": "可以。免费版查找候选并保存所选1页为HTML。Pro可选择、排序与合并多个页面正文。仍适用验证、权限与安全上限。"
             },
             {
               "q": "如何确认来源与手册版本？",
@@ -14878,7 +14878,7 @@
           "title": "Combine web pages to read & prepare AI inputs | Grab All Files",
           "desc": "Collect web information as readable HTML, or prepare source-tracked files for summarizing, comparing and extracting conditions in an external AI tool.",
           "eyebrow": "Collect, read & analyze with AI",
-          "h1": "Collect web information to read—or prepare it for AI analysis.",
+          "h1": "Collect web information to read — or prepare it for AI analysis.",
           "lead": "Save one chosen page with Free, or combine several into one readable HTML with Pro. Prepare source-tracked files for summaries, comparisons and condition extraction. Material preparation happens on your device; analysis happens in the external AI service you choose.",
           "best": [
             "Compare published insurance-product conditions using the wording you collected.",
@@ -15203,7 +15203,7 @@
             },
             {
               "q": "Pourquoi manque-t-il du texte dans la page enregistrée ?",
-              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l'écran » pour désigner le texte principal."
+              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l’écran » pour désigner le texte principal."
             }
           ],
           "guide": {
@@ -15449,7 +15449,7 @@
           "desc": "웹정보를 읽기 쉬운 HTML로 모으거나 출처가 있는 파일로 내보내 외부 AI에서 요약·비교·조건 추출하는 방법과 질문 예시를 안내합니다.",
           "eyebrow": "정보 수집·읽기·AI 분석",
           "h1": "웹정보를 모아 읽고, 수집한 정보를 AI로 분석하세요.",
-          "lead": "Free로 선택한 1페이지를 저장하거나 Pro로 여러 페이지를 하나의 HTML에 모아 읽으세요. 출처가 있는 AI 자료로 요약·비교·조건 추출을 요청할 수 있습니다. 자료 준비는 기기에서, 분석은 선택한 외부 AI 서비스에서 합니다.",
+          "lead": "무료 플랜으로 선택한 1페이지를 저장하거나 Pro로 여러 페이지를 하나의 HTML에 모아 읽으세요. 출처가 있는 AI 자료로 요약·비교·조건 추출을 요청할 수 있습니다. 자료 준비는 기기에서, 분석은 선택한 외부 AI 서비스에서 합니다.",
           "best": [
             "공개된 보험 상품 조건을 수집한 원문에 따라 비교합니다.",
             "여러 매뉴얼 항목을 함께 읽고 작업 절차를 확인합니다.",
@@ -15471,8 +15471,8 @@
               "a": "접근이 허용된 페이지입니다. 선택한 링크 문서 중 지원되는 PDF·텍스트·CSV·Word·Excel 등의 읽기에 성공한 본문은 AI 출력에 포함할 수 있습니다. 모든 문서와 이미지를 읽지는 못하므로 실패와 누락을 확인하세요."
             },
             {
-              "q": "Free로도 시도할 수 있나요?",
-              "a": "Free는 후보를 찾고 선택한 정확히 1페이지를 HTML로 저장합니다. Pro는 여러 페이지 본문을 선택하고 결합합니다. 인증·권한·안전 제한은 계속 적용됩니다."
+              "q": "무료 플랜으로도 시도할 수 있나요?",
+              "a": "무료 플랜은 후보를 찾고 선택한 정확히 1페이지를 HTML로 저장합니다. Pro는 여러 페이지 본문을 선택하고 결합합니다. 인증·권한·안전 제한은 계속 적용됩니다."
             },
             {
               "q": "AI에 전달할 파일의 형식과 크기는 어떻게 선택하나요?",
@@ -15639,7 +15639,7 @@
           "desc": "将网页信息收集为易读的HTML，或导出带来源的资料，再手动交给外部AI进行摘要、比较和条件提取。附操作步骤、提问示例以及核对答案的方法。",
           "eyebrow": "收集信息·阅读·AI分析",
           "h1": "收集网页信息阅读，再将资料交给AI分析。",
-          "lead": "Free可保存所选1页，Pro可将多个页面正文合并为一个易读的HTML。导出带来源的资料，准备向AI提出摘要、比较与条件提取问题。资料准备在您的设备上完成，分析由您选择的外部AI服务进行。",
+          "lead": "免费版可保存所选1页，Pro可将多个页面正文合并为一个易读的HTML。导出带来源的资料，准备向AI提出摘要、比较与条件提取问题。资料准备在您的设备上完成，分析由您选择的外部AI服务进行。",
           "best": [
             "依据收集的原文比较公开保险产品的条件。",
             "一起阅读多份手册并确认操作步骤。",
@@ -15661,8 +15661,8 @@
               "a": "仅限您有权访问的页面。选中的链接文档中，支持的PDF、文本、CSV、Word、Excel等成功读取的正文可加入AI输出。并非所有文档或图片都能读取，请检查失败和遗漏。"
             },
             {
-              "q": "可以用Free试用吗？",
-              "a": "Free查找候选并只保存选中的1页为HTML。Pro可选择并合并多个页面正文。仍适用身份验证、权限与安全上限。"
+              "q": "可以用免费版试用吗？",
+              "a": "免费版查找候选并只保存选中的1页为HTML。Pro可选择并合并多个页面正文。仍适用身份验证、权限与安全上限。"
             },
             {
               "q": "交给AI的文件应采用什么格式和大小？",
@@ -15835,7 +15835,7 @@
       ],
       "cta": {
         "en": {
-          "title": "Save one related page free—or combine several with Pro.",
+          "title": "Save one related page free — or combine several with Pro.",
           "text": "Discovery and HTML generation stay on your device. Free lists related candidates and saves exactly the one page you choose; images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10” on the result screen saves the rest. Pro selects multiple candidates and combines their readable page bodies into one HTML. Safety and source-site limits apply."
         },
         "ja": {
@@ -15844,7 +15844,7 @@
         },
         "es": {
           "title": "Guarda una página gratis o combina varias con Pro.",
-          "text": "La búsqueda y la generación de HTML permanecen en tu dispositivo. Free enumera las candidatas y guarda exactamente la página que elijas; las imágenes no tienen límite de cantidad por plan y los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro combina el contenido de varias páginas seleccionadas. Se aplican límites de seguridad y del sitio fuente."
+          "text": "La búsqueda y la generación de HTML permanecen en tu dispositivo. El plan gratuito enumera las candidatas y guarda exactamente la página que elijas; las imágenes no tienen límite de cantidad por plan y los archivos enlazados directamente se guardan hasta 10 por ejecución y «Guardar los siguientes 10» en la pantalla de resultados guarda el resto. Pro combina el contenido de varias páginas seleccionadas. Se aplican límites de seguridad y del sitio fuente."
         },
         "fr": {
           "title": "Enregistrez une page gratuitement ou regroupez-en plusieurs avec Pro.",
@@ -15859,8 +15859,8 @@
           "text": "Ricerca e generazione HTML restano sul dispositivo. Free elenca le pagine candidate e salva esattamente quella scelta; le immagini non hanno un limite numerico del piano e i file collegati direttamente vengono salvati fino a 10 per esecuzione e «Salva i prossimi 10» nella schermata dei risultati salva il resto. Pro unisce il contenuto di più pagine selezionate. Restano validi i limiti di sicurezza e del sito sorgente."
         },
         "ko": {
-          "title": "Free로 1페이지를 저장하거나 Pro로 여러 페이지를 결합하세요.",
-          "text": "탐색과 HTML 생성은 기기에서 처리됩니다. Free는 관련 후보를 나열하고 선택한 정확히 1페이지만 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 10건 저장’으로 나머지를 저장할 수 있습니다. Pro는 여러 후보의 본문을 하나의 HTML로 결합합니다. 안전 및 원본 사이트 제한은 적용됩니다."
+          "title": "무료 플랜으로 1페이지를 저장하거나 Pro로 여러 페이지를 결합하세요.",
+          "text": "탐색과 HTML 생성은 기기에서 처리됩니다. 무료 플랜은 관련 후보를 나열하고 선택한 정확히 1페이지만 저장합니다. 그 페이지의 이미지에는 플랜상 개수 제한이 없으며, 직접 연결된 파일은 실행당 최대 10개까지 저장되며 결과 화면의 ‘다음 파일 10개 저장’으로 나머지를 저장할 수 있습니다. Pro는 여러 후보의 본문을 하나의 HTML로 결합합니다. 안전 및 원본 사이트 제한은 적용됩니다."
         },
         "pt_BR": {
           "title": "Salve uma página grátis ou reúna várias com o Pro.",
@@ -15868,7 +15868,7 @@
         },
         "zh_CN": {
           "title": "免费保存1个页面，或使用Pro合并多个页面。",
-          "text": "候选查找和HTML生成均在设备上完成。Free列出相关候选，并仅保存您选择的1个页面；该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro可选择多个候选并将其正文合并为一个HTML。仍适用安全和源网站限制。"
+          "text": "候选查找和HTML生成均在设备上完成。免费版列出相关候选，并仅保存您选择的1个页面；该页面内的图片没有套餐数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的10个”继续保存。Pro可选择多个候选并将其正文合并为一个HTML。仍适用安全和源网站限制。"
         },
         "zh_TW": {
           "title": "免費儲存1個頁面，或使用Pro合併多個頁面。",
@@ -15971,7 +15971,7 @@
           "desc": "Une páginas web relacionadas en un HTML con índice común, búsqueda e impresión. La versión gratuita guarda una página por vez; Pro combina varias.",
           "eyebrow": "Recopilación HTML de páginas web",
           "h1": "Free guarda 1 página. Pro combina varias en un HTML.",
-          "lead": "Empieza por la página abierta en tu navegador. Free enumera las candidatas relacionadas y mantiene exactamente una seleccionada para guardarla como HTML. Pro permite seleccionar y ordenar varias candidatas y combina su contenido legible en un HTML con un índice común.",
+          "lead": "Empieza por la página abierta en tu navegador. El plan gratuito enumera las candidatas relacionadas y mantiene exactamente una seleccionada para guardarla como HTML. Pro permite seleccionar y ordenar varias candidatas y combina su contenido legible en un HTML con un índice común.",
           "best": [
             "Investigaciones, documentación, manuales y sitios de referencia repartidos en muchas páginas.",
             "Guardar artículos relacionados o información pública como un único documento portátil para consultar sin conexión.",
@@ -16052,7 +16052,7 @@
             },
             {
               "q": "Pourquoi manque-t-il du texte dans la page enregistrée ?",
-              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l'écran » pour désigner le texte principal."
+              "a": "Certains sites n’ajoutent du texte qu’après un défilement ou un clic. Ouvrez « Si du texte manque sur une page : réglages du contenu et de JavaScript », activez « Appuyer sur “Afficher plus” pour inclure la suite », puis relancez la collecte. Si une autre partie de la page a été conservée, utilisez « Sélectionner à l’écran » pour désigner le texte principal."
             }
           ]
         },
@@ -16148,10 +16148,10 @@
         },
         "ko": {
           "title": "여러 웹페이지를 하나의 HTML 파일로 합치기 | Grab All Files",
-          "desc": "Free는 관련 후보를 찾아 선택한 1페이지를 저장합니다. Pro는 선택한 여러 페이지 본문을 공통 목차가 있는 검색·인쇄 가능한 하나의 HTML로 결합합니다.",
+          "desc": "무료 플랜은 관련 후보를 찾아 선택한 1페이지를 저장합니다. Pro는 선택한 여러 페이지 본문을 공통 목차가 있는 검색·인쇄 가능한 하나의 HTML로 결합합니다.",
           "eyebrow": "웹페이지 HTML 수집",
-          "h1": "Free는 1페이지 저장. Pro는 여러 페이지를 하나의 HTML로.",
-          "lead": "브라우저에 열려 있는 페이지에서 시작하세요. Free는 관련 후보를 나열하고 HTML 저장용으로 정확히 1개만 선택된 상태를 유지합니다. Pro는 여러 후보를 선택하고 순서를 바꾼 뒤 읽기 쉬운 본문을 공통 목차가 있는 하나의 HTML로 결합합니다.",
+          "h1": "무료 플랜은 1페이지 저장. Pro는 여러 페이지를 하나의 HTML로.",
+          "lead": "브라우저에 열려 있는 페이지에서 시작하세요. 무료 플랜은 관련 후보를 나열하고 HTML 저장용으로 정확히 1개만 선택된 상태를 유지합니다. Pro는 여러 후보를 선택하고 순서를 바꾼 뒤 읽기 쉬운 본문을 공통 목차가 있는 하나의 HTML로 결합합니다.",
           "best": [
             "여러 페이지에 흩어진 조사 자료, 문서, 설명서 및 참고 사이트.",
             "관련 기사나 공개 정보를 휴대 가능한 하나의 오프라인 문서로 저장.",
@@ -16161,13 +16161,13 @@
           "steps": [
             "시작 페이지를 열고 Grab All Files 아이콘을 누른 뒤 “페이지를 HTML로 합치기”를 선택합니다.",
             "“수집 범위”에서 “열려 있는 페이지만”을 그대로 두거나, “링크된 페이지도 찾기”를 골라 관련 후보를 나열합니다.",
-            "후보를 확인합니다. 무료 버전은 정확히 1개만 선택해 한 번에 저장합니다. Pro에서는 여러 페이지를 고르고 빼고 순서를 바꿀 수 있습니다.",
+            "후보를 확인합니다. 무료 플랜은 정확히 1개만 선택해 한 번에 저장합니다. Pro에서는 여러 페이지를 고르고 빼고 순서를 바꿀 수 있습니다.",
             "이미지와 링크 파일 옵션을 고르고 저장합니다. Pro는 모든 페이지에 공통 목차와 검색이 있는 하나의 HTML을 만듭니다."
           ],
           "faq": [
             {
               "q": "포함할 페이지를 직접 선택할 수 있나요?",
-              "a": "네. Free는 한 번에 정확히 1개의 후보만 선택 상태로 유지하며 다른 페이지를 고르면 선택이 전환됩니다. Pro는 여러 페이지를 선택하고 필요 없는 항목을 제거하며 순서를 바꿀 수 있습니다."
+              "a": "네. 무료 플랜은 한 번에 정확히 1개의 후보만 선택 상태로 유지하며 다른 페이지를 고르면 선택이 전환됩니다. Pro는 여러 페이지를 선택하고 필요 없는 항목을 제거하며 순서를 바꿀 수 있습니다."
             },
             {
               "q": "결과를 오프라인에서 읽을 수 있나요?",
@@ -16175,11 +16175,11 @@
             },
             {
               "q": "페이지 콘텐츠가 서버에 업로드되나요?",
-              "a": "아니요. 모든 처리는 기기에서 실행됩니다. Free는 선택한 후보 1페이지만 저장하고 Pro는 선택한 여러 페이지 본문을 결합합니다. 안전, 인증, 권한, 원본 사이트 및 기기 보호 제한은 계속 적용됩니다."
+              "a": "아니요. 모든 처리는 기기에서 실행됩니다. 무료 플랜은 선택한 후보 1페이지만 저장하고 Pro는 선택한 여러 페이지 본문을 결합합니다. 안전, 인증, 권한, 원본 사이트 및 기기 보호 제한은 계속 적용됩니다."
             },
             {
               "q": "SingleFile 같은 단일 페이지 저장 도구와는 무엇이 다른가요?",
-              "a": "단일 페이지 저장 도구는 현재 열린 페이지를 보존합니다. Grab All Files는 관련 후보도 찾습니다. Free는 선택한 1페이지를 저장하고, Pro는 선택한 여러 페이지의 읽기 쉬운 본문을 공통 목차가 있는 하나의 HTML로 결합합니다."
+              "a": "단일 페이지 저장 도구는 현재 열린 페이지를 보존합니다. Grab All Files는 관련 후보도 찾습니다. 무료 플랜은 선택한 1페이지를 저장하고, Pro는 선택한 여러 페이지의 읽기 쉬운 본문을 공통 목차가 있는 하나의 HTML로 결합합니다."
             },
             {
               "q": "로그인이 필요한 페이지는 어떻게 되나요?",
@@ -16238,10 +16238,10 @@
         },
         "zh_CN": {
           "title": "将多个网页合并为一个 HTML 文件 | Grab All Files",
-          "desc": "Free 查找相关候选并保存所选的1个页面。Pro 将多个所选页面正文合并为一个带统一目录、可搜索、可打印的 HTML 文件。",
+          "desc": "免费版查找相关候选并保存所选的1个页面。Pro 将多个所选页面正文合并为一个带统一目录、可搜索、可打印的 HTML 文件。",
           "eyebrow": "网页 HTML 收集",
-          "h1": "Free 保存1页。Pro 将多页合并为一个 HTML。",
-          "lead": "从浏览器当前打开的页面开始。Free 会列出相关候选，并始终仅保留1个选中项用于保存 HTML。Pro 可选择并排序多个候选，再将其便于阅读的正文合并为一个带统一目录的 HTML。",
+          "h1": "免费版保存1页。Pro 将多页合并为一个 HTML。",
+          "lead": "从浏览器当前打开的页面开始。免费版会列出相关候选，并始终仅保留1个选中项用于保存 HTML。Pro 可选择并排序多个候选，再将其便于阅读的正文合并为一个带统一目录的 HTML。",
           "best": [
             "分散在多个页面中的研究资料、文档、手册和参考网站。",
             "将相关文章或公开信息保存为一个便于携带的离线文档。",
@@ -16257,7 +16257,7 @@
           "faq": [
             {
               "q": "可以选择要收录哪些页面吗？",
-              "a": "可以。Free 每次始终仅选中1个候选；选择其他页面时，选中项会自动切换。Pro 可选择多个页面、删除不需要的页面并调整其余页面的顺序。"
+              "a": "可以。免费版每次始终仅选中1个候选；选择其他页面时，选中项会自动切换。Pro 可选择多个页面、删除不需要的页面并调整其余页面的顺序。"
             },
             {
               "q": "结果可以离线阅读吗？",
@@ -16265,11 +16265,11 @@
             },
             {
               "q": "页面内容会上传到开发者的服务器吗？",
-              "a": "不会。所有处理均在您的设备上完成。Free 仅保存所选的1个候选页面；Pro 将多个所选页面正文合并。安全、身份验证、权限、源网站和设备保护限制仍然适用。"
+              "a": "不会。所有处理均在您的设备上完成。免费版仅保存所选的1个候选页面；Pro 将多个所选页面正文合并。安全、身份验证、权限、源网站和设备保护限制仍然适用。"
             },
             {
               "q": "这与 SingleFile 等单页面保存工具有何不同？",
-              "a": "单页面保存工具保留当前打开的页面。Grab All Files 还会查找相关候选：Free 保存所选的1页，Pro 将多个所选页面中便于阅读的正文合并为一个带统一目录的 HTML。"
+              "a": "单页面保存工具保留当前打开的页面。Grab All Files 还会查找相关候选：免费版保存所选的1页，Pro 将多个所选页面中便于阅读的正文合并为一个带统一目录的 HTML。"
             },
             {
               "q": "需要登录的页面怎么办？",
@@ -16472,20 +16472,20 @@
           ]
         },
         "fr": {
-          "title": "Télécharger tous les PDF d'un site web | Grab All Files",
+          "title": "Télécharger tous les PDF d’un site web | Grab All Files",
           "desc": "Téléchargez les PDF liés d’une page ou de son dossier dans Chrome, Edge ou Firefox. Filtrez, enregistrez 10 fichiers par lot gratuitement ou fusionnez.",
           "eyebrow": "Collecte PDF",
-          "h1": "Téléchargez tous les PDF d'un site sans ouvrir chaque fichier.",
+          "h1": "Téléchargez tous les PDF d’un site sans ouvrir chaque fichier.",
           "lead": "Grab All Files détecte les PDF dans les liens, visionneuses intégrées, iframes, chargements différés, réponses fetch/XHR et routes CMS. Filtrez les PDF, sélectionnez, puis téléchargez ou fusionnez localement.",
           "best": [
             "Rapports publics, formulaires et publications répartis sur plusieurs pages.",
             "Supports de cours, articles et PDF de recherche.",
-            "Pages avec visionneuse PDF où l'URL directe est masquée.",
+            "Pages avec visionneuse PDF où l’URL directe est masquée.",
             "Dossiers de cours ou d’archives où les PDF se trouvent à un ou deux liens de distance."
           ],
           "steps": [
             "Ouvrez la page qui liste les PDF et cliquez sur l’icône Grab All Files de la barre d’outils.",
-            "Choisissez la « Profondeur », puis cliquez sur « Scanner ». « Cette page uniquement » n’analyse que cette page ; la profondeur 1 analyse aussi les pages liées situées dans le dossier de la page de départ, la profondeur 2 va un niveau plus loin. Plus c’est profond, plus c’est long (jusqu’à 100 000 pages).",
+            "Choisissez la « Profondeur », puis cliquez sur « Scanner ». « Cette page uniquement » n’analyse que cette page ; la profondeur 1 analyse aussi les pages liées situées dans le dossier de la page de départ, la profondeur 2 va un niveau plus loin. Plus c’est profond, plus c’est long (jusqu’à 100 000 pages).",
             "Filtrez la liste sur PDF et vérifiez le titre, la page source, la taille et l’URL de chaque fichier. Cochez les PDF utiles.",
             "Cliquez sur « Enregistrer la sélection » ou ouvrez « Autres actions » pour un ZIP ou « Fusionner les PDFs ». La version gratuite traite jusqu’à 10 PDF par action ; cochez les suivants et cliquez à nouveau sur le bouton."
           ],
@@ -16508,7 +16508,7 @@
             },
             {
               "q": "Garantit-il que chaque PDF sera enregistré ?",
-              "a": "Non. Les résultats dépendent des liens trouvés, de la profondeur, de l'accès au site et de la prise en charge du navigateur. Vérifiez les téléchargements échoués, relancez-les ou exportez les URL en échec avec leurs motifs. L'extension ne contourne ni les connexions ni les restrictions du site."
+              "a": "Non. Les résultats dépendent des liens trouvés, de la profondeur, de l’accès au site et de la prise en charge du navigateur. Vérifiez les téléchargements échoués, relancez-les ou exportez les URL en échec avec leurs motifs. L’extension ne contourne ni les connexions ni les restrictions du site."
             },
             {
               "q": "Et si les PDF sont derrière une connexion ?",
@@ -16570,7 +16570,7 @@
           "best": [
             "Report pubblici, moduli e documenti distribuiti su più pagine.",
             "Materiali didattici, articoli e PDF di ricerca.",
-            "Pagine con viewer PDF dove l'URL diretto è nascosto.",
+            "Pagine con viewer PDF dove l’URL diretto è nascosto.",
             "Cartelle di corsi o archivi in cui i PDF si trovano a uno o due link di distanza."
           ],
           "steps": [
@@ -16586,11 +16586,11 @@
             },
             {
               "q": "Può scansionare più pagine?",
-              "a": "Sì. Aumenta la profondità per analizzare le pagine collegate nella cartella della pagina iniziale. Ad esempio, /~name/course.html resta all'interno di /~name/. Le pagine fuori da quella cartella non vengono scansionate."
+              "a": "Sì. Aumenta la profondità per analizzare le pagine collegate nella cartella della pagina iniziale. Ad esempio, /~name/course.html resta all’interno di /~name/. Le pagine fuori da quella cartella non vengono scansionate."
             },
             {
-              "q": "I PDF vengono caricati per l'unione?",
-              "a": "No. L'unione PDF avviene localmente nel browser."
+              "q": "I PDF vengono caricati per l’unione?",
+              "a": "No. L’unione PDF avviene localmente nel browser."
             },
             {
               "q": "Posso scaricare PDF gratis?",
@@ -16598,7 +16598,7 @@
             },
             {
               "q": "Garantisce che ogni PDF venga salvato?",
-              "a": "No. I risultati dipendono dai link trovati, dalla profondità, dall'accesso al sito e dal supporto del browser. Controlla i download non riusciti, riprovali o esporta le URL non riuscite con i motivi. L'estensione non aggira login o restrizioni del sito."
+              "a": "No. I risultati dipendono dai link trovati, dalla profondità, dall’accesso al sito e dal supporto del browser. Controlla i download non riusciti, riprovali o esporta le URL non riuscite con i motivi. L’estensione non aggira login o restrizioni del sito."
             },
             {
               "q": "E se i PDF richiedono l’accesso?",
@@ -16622,7 +16622,7 @@
             "PDF 목록이 있는 페이지를 열고 툴바의 Grab All Files 아이콘을 누릅니다.",
             "“깊이”를 고른 뒤 “스캔”을 누릅니다. “이 페이지만”은 이 페이지만, 깊이 1은 시작 페이지 폴더 안의 링크된 페이지까지, 깊이 2는 한 단계 더 확인합니다. 깊을수록 오래 걸립니다(최대 100,000페이지).",
             "목록을 PDF로 필터링하고 각 파일의 제목, 링크 원본 페이지, 크기, URL을 확인한 뒤 필요한 PDF를 체크합니다.",
-            "“선택한 파일 저장”을 누르거나 “기타 작업”에서 ZIP 또는 “PDF 병합”을 사용합니다. 무료 버전은 작업당 10개까지이며, 다음 PDF를 체크하고 같은 버튼을 다시 누르면 됩니다."
+            "“선택한 파일 저장”을 누르거나 “기타 작업”에서 ZIP 또는 “PDF 병합”을 사용합니다. 무료 플랜은 작업당 10개까지이며, 다음 PDF를 체크하고 같은 버튼을 다시 누르면 됩니다."
           ],
           "faq": [
             {
@@ -16639,7 +16639,7 @@
             },
             {
               "q": "PDF를 무료로 다운로드할 수 있나요?",
-              "a": "예. 무료 버전은 다운로드, ZIP, 병합 모두 작업당 선택한 PDF를 최대 10개까지 처리합니다. 다음 PDF를 체크하고 같은 버튼을 다시 누르면 계속할 수 있으며 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
+              "a": "예. 무료 플랜은 다운로드, ZIP, 병합 모두 작업당 선택한 PDF를 최대 10개까지 처리합니다. 다음 PDF를 체크하고 같은 버튼을 다시 누르면 계속할 수 있으며 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 작업당 제한이 없습니다."
             },
             {
               "q": "모든 PDF가 반드시 저장되나요?",
@@ -16810,14 +16810,14 @@
           ],
           "steps": [
             "Open the gallery or page and click the Grab All Files icon in the toolbar.",
-            "For galleries and infinite-scroll pages, Pro scrolls to the end by itself; if it needs longer, choose a “Scroll time” (Normal 45 s, Long 90 s, Thorough 180 s) in “Scan options”. On the free plan, scroll to the end yourself first. Then press “Scan”.",
+            "For galleries and infinite-scroll pages, Pro scrolls to the end by itself; if it needs longer, choose a “Scroll time” (Normal 45 s, Long 90 s, Thorough 180 s) in “Scan options”. On the Free plan, scroll to the end yourself first. Then press “Scan”.",
             "Filter the list to images such as JPG, PNG, WebP, GIF or SVG. In “Details”, set a minimum “Size” to hide thumbnails and icons.",
             "Tick the images and press “Save selected files” (Free: up to 10 per download), or use “More actions” for ZIP, “Organize” by type or domain, or “Export File Info CSV”."
           ],
           "faq": [
             {
               "q": "Does it detect lazy-loaded images?",
-              "a": "Yes, once they are in the page. It reads image attributes, srcset values, CSS backgrounds, blob URLs and network responses. Images that appear only after scrolling: Pro scrolls the page to load them by itself; on the free plan, scroll to the end yourself before scanning."
+              "a": "Yes, once they are in the page. It reads image attributes, srcset values, CSS backgrounds, blob URLs and network responses. Images that appear only after scrolling: Pro scrolls the page to load them by itself; on the Free plan, scroll to the end yourself before scanning."
             },
             {
               "q": "Can I download only some image types?",
@@ -16832,7 +16832,7 @@
               "a": "Yes. Tick the images and use “Export File Info CSV” under “More actions”. Free exports up to 10 rows per operation; tick the next rows and export again."
             },
             {
-              "q": "Is there a limit on images in the free version?",
+              "q": "Is there a limit on images in the Free plan?",
               "a": "Free saves up to 10 selected images per download or ZIP. Select the next images and press the button again to continue; nothing is locked. Pro ($19.99 one-time, up to 3 devices) removes the per-download limit."
             }
           ]
@@ -16920,10 +16920,10 @@
           ]
         },
         "fr": {
-          "title": "Télécharger les images d'une page en masse | Grab All Files",
+          "title": "Télécharger les images d’une page en masse | Grab All Files",
           "desc": "Détectez les images visibles, différées, en fond CSS ou blob, puis enregistrez-les en lot, en ZIP ou en liste CSV d’URL, 10 images par lot en version gratuite.",
-          "eyebrow": "Collecte d'images",
-          "h1": "Téléchargez les images d'une page, y compris les ressources à chargement différé.",
+          "eyebrow": "Collecte d’images",
+          "h1": "Téléchargez les images d’une page, y compris les ressources à chargement différé.",
           "lead": "Les galeries cachent souvent les fichiers dans le chargement différé, les arrière-plans CSS, les attributs srcset, les URL blob et les scripts. Grab All Files affiche les URLs détectables pour filtrer et enregistrer.",
           "best": [
             "Galeries et bibliothèques médias.",
@@ -17056,14 +17056,14 @@
           ],
           "steps": [
             "갤러리나 페이지를 열고 툴바의 Grab All Files 아이콘을 누릅니다.",
-            "갤러리와 무한 스크롤 페이지는 Pro라면 끝까지 자동으로 스크롤해 불러옵니다. 시간이 더 필요하면 “스캔 설정”에서 “스크롤 시간”(일반 45초, 길게 90초, 철저히 180초)을 고릅니다. 무료 버전은 먼저 직접 끝까지 스크롤합니다. 그런 다음 “스캔”을 누릅니다.",
+            "갤러리와 무한 스크롤 페이지는 Pro라면 끝까지 자동으로 스크롤해 불러옵니다. 시간이 더 필요하면 “스캔 설정”에서 “스크롤 시간”(일반 45초, 길게 90초, 철저히 180초)을 고릅니다. 무료 플랜은 먼저 직접 끝까지 스크롤합니다. 그런 다음 “스캔”을 누릅니다.",
             "JPG, PNG, WebP, GIF, SVG 같은 이미지로 목록을 필터링합니다. “상세 설정”에서 최소 “크기”를 정하면 썸네일과 아이콘을 숨길 수 있습니다.",
             "이미지를 체크하고 “선택한 파일 저장”을 누릅니다(무료: 다운로드당 10개). ZIP, 유형별·도메인별 “정리”, “파일 정보 CSV 내보내기”는 “기타 작업”에 있습니다."
           ],
           "faq": [
             {
               "q": "지연 로딩 이미지도 감지하나요?",
-              "a": "예, 페이지에 들어와 있다면 감지합니다. 이미지 속성, srcset 값, CSS 배경, blob URL, 네트워크 응답을 확인합니다. 스크롤해야 나타나는 이미지는 Pro라면 자동으로 스크롤해 불러옵니다. 무료 버전에서는 스캔 전에 직접 끝까지 스크롤하세요."
+              "a": "예, 페이지에 들어와 있다면 감지합니다. 이미지 속성, srcset 값, CSS 배경, blob URL, 네트워크 응답을 확인합니다. 스크롤해야 나타나는 이미지는 Pro라면 자동으로 스크롤해 불러옵니다. 무료 플랜에서는 스캔 전에 직접 끝까지 스크롤하세요."
             },
             {
               "q": "특정 이미지 형식만 다운로드할 수 있나요?",
@@ -17075,11 +17075,11 @@
             },
             {
               "q": "다운로드 대신 이미지 URL만 내보낼 수 있나요?",
-              "a": "예. 이미지를 체크하고 “기타 작업”의 “파일 정보 CSV 내보내기”를 사용하세요. 무료 버전은 작업당 10행까지 내보내며, 다음 행을 체크해 다시 내보내면 됩니다."
+              "a": "예. 이미지를 체크하고 “기타 작업”의 “파일 정보 CSV 내보내기”를 사용하세요. 무료 플랜은 작업당 10행까지 내보내며, 다음 행을 체크해 다시 내보내면 됩니다."
             },
             {
-              "q": "무료 버전에서 이미지 수 제한이 있나요?",
-              "a": "무료 버전은 다운로드나 ZIP 한 번에 선택한 이미지를 최대 10개까지 저장합니다. 다음 이미지를 선택하고 같은 버튼을 다시 누르면 계속할 수 있으며 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
+              "q": "무료 플랜에서 이미지 수 제한이 있나요?",
+              "a": "무료 플랜은 다운로드나 ZIP 한 번에 선택한 이미지를 최대 10개까지 저장합니다. 다음 이미지를 선택하고 같은 버튼을 다시 누르면 계속할 수 있으며 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
             }
           ]
         },
@@ -17139,7 +17139,7 @@
           "steps": [
             "打开图库或页面，点击工具栏上的Grab All Files图标。",
             "对于图库和无限滚动页面，Pro 会自动滚动到底；如需更长时间，请在“扫描设置”中选择“滚动时间”（标准45秒、较长90秒、彻底180秒）。免费版请先自己滚动到底。然后点击“扫描”。",
-            "将列表筛选为JPG、PNG、WebP、GIF、SVG等图片。在“详细设置”中设定最小“大小”，即可隐藏缩略图和图标。",
+            "将列表筛选为JPG、PNG、WebP、GIF、SVG等图片。在“详细设置”中设置最小“大小”，即可隐藏缩略图和图标。",
             "勾选图片后点击“保存所选文件”（免费版每次最多10个），或在“其他操作”中使用ZIP、按类型或域名“整理”，或“导出文件信息CSV”。"
           ],
           "faq": [
@@ -17153,7 +17153,7 @@
             },
             {
               "q": "为什么会列出缩略图或小图标？",
-              "a": "很多页面会为缩略图、图标和标志单独使用小文件。在“详细设置”中设定最小“大小”即可隐藏它们；大小未知的文件仍会保留在列表中。比较大小和URL，选择原尺寸版本。"
+              "a": "很多页面会为缩略图、图标和标志单独使用小文件。在“详细设置”中设置最小“大小”即可隐藏它们；大小未知的文件仍会保留在列表中。比较大小和URL，选择原尺寸版本。"
             },
             {
               "q": "可以只导出图片URL而不下载吗？",
@@ -17245,12 +17245,12 @@
               "a": "Yes. Filter by file type, name, title or size, sort by any column and tick only the rows you want. Nothing is saved until you press a save button."
             },
             {
-              "q": "Is there a limit in the free version?",
+              "q": "Is there a limit in the Free plan?",
               "a": "Free saves up to 10 selected files per download, and the same limit applies to ZIP, “Merge PDFs” and CSV export. Select the next files and press the button again to carry on. Pro ($19.99 one-time, up to 3 devices) has no per-download limit."
             },
             {
               "q": "It found nothing, or fewer files than expected. What can I try?",
-              "a": "With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. If the files sit on linked pages, raise “Depth”. Pause ad blockers for the site. When downloads are started by the page’s own JavaScript, use “Active Capture” when it is offered."
+              "a": "With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the Free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. If the files sit on linked pages, raise “Depth”. Pause ad blockers for the site. When downloads are started by the page’s own JavaScript, use “Active Capture” when it is offered."
             },
             {
               "q": "The page needs a sign-in. What should I do?",
@@ -17270,7 +17270,7 @@
           "lead": "PDF、Office文書、画像、ZIP、CSV、fetch/XHRレスポンスが混在するページでは、手作業の保存に時間がかかります。Grab All Files は検出可能なファイルをメタデータ付きで一覧化し、必要なものだけ選べます。",
           "best": [
             "文書・メディア・圧縮ファイルのリンクが多いページ。",
-            "JavaScript、ビューアー、バックグラウンド通信でファイルが表示されるページ。",
+            "JavaScript、ビューア、バックグラウンド通信でファイルが表示されるページ。",
             "ファイルのURL・サイズ・リンク元ページをCSVで残したい監査・棚卸し。",
             "クローラーを用意するほどではない単発の収集作業。"
           ],
@@ -17355,10 +17355,10 @@
           ]
         },
         "fr": {
-          "title": "Télécharger tous les fichiers d'une page | Grab All Files",
+          "title": "Télécharger tous les fichiers d’une page | Grab All Files",
           "desc": "Trouvez les PDF, fichiers Office, images, ZIP et CSV d’une page web, filtrez la liste et enregistrez-les en lot ou en ZIP. Gratuit : 10 fichiers par lot.",
           "eyebrow": "Téléchargement en masse",
-          "h1": "Téléchargez tous les fichiers d'une page en une opération organisée.",
+          "h1": "Téléchargez tous les fichiers d’une page en une opération organisée.",
           "lead": "Quand une page mélange PDF, documents Office, images, ZIP, CSV et réponses fetch cachées, l’enregistrement manuel est lent. Grab All Files analyse la page, liste les fichiers détectables avec leurs métadonnées et vous laisse choisir précisément ce que vous gardez.",
           "best": [
             "Pages comportant de nombreux liens vers des documents, médias ou archives.",
@@ -17376,7 +17376,7 @@
           "faq": [
             {
               "q": "Quels types sont pris en charge ?",
-              "a": "PDF, Office, images, ZIP, CSV et autres réponses téléchargeables accessibles au navigateur. Il détecte aussi les jeux d'archives fractionnées / multivolumes comme .001, .r00 et .z01."
+              "a": "PDF, Office, images, ZIP, CSV et autres réponses téléchargeables accessibles au navigateur. Il détecte aussi les jeux d’archives fractionnées / multivolumes comme .001, .r00 et .z01."
             },
             {
               "q": "Puis-je ne choisir que certains fichiers ?",
@@ -17450,7 +17450,7 @@
           "title": "Scaricare tutti i file da una pagina | Grab All Files",
           "desc": "Trova PDF, file Office, immagini, ZIP e CSV in una pagina web, filtra l’elenco e salvali in blocco o in un unico ZIP. Gratis: 10 file per download.",
           "eyebrow": "Download in massa",
-          "h1": "Scarica tutti i file da una pagina in un'unica operazione.",
+          "h1": "Scarica tutti i file da una pagina in un’unica operazione.",
           "lead": "Quando una pagina mescola PDF, documenti Office, immagini, ZIP, CSV e risposte fetch nascoste, salvare a mano è lento. Grab All Files analizza la pagina, elenca i file rilevabili con i metadati e ti lascia scegliere esattamente cosa tenere.",
           "best": [
             "Pagine con molti link a documenti, contenuti multimediali o archivi.",
@@ -17494,7 +17494,7 @@
         },
         "ko": {
           "title": "웹페이지의 모든 파일 다운로드 | Grab All Files",
-          "desc": "웹페이지의 PDF, Office 문서, 이미지, ZIP, CSV를 찾아 목록을 필터링하고 한 번에 또는 ZIP으로 저장합니다. 무료 버전은 다운로드당 10개까지 저장합니다.",
+          "desc": "웹페이지의 PDF, Office 문서, 이미지, ZIP, CSV를 찾아 목록을 필터링하고 한 번에 또는 ZIP으로 저장합니다. 무료 플랜은 다운로드당 10개까지 저장합니다.",
           "eyebrow": "파일 일괄 다운로드",
           "h1": "웹페이지의 파일을 한 번에 정리해서 다운로드하세요.",
           "lead": "PDF, Office 문서, 이미지, ZIP, CSV, fetch 응답이 섞인 페이지는 하나씩 저장하면 시간이 오래 걸립니다. Grab All Files는 감지 가능한 파일을 메타데이터와 함께 목록화해 필요한 것만 선택하게 합니다.",
@@ -17508,7 +17508,7 @@
             "Chrome, Edge 또는 Firefox에서 페이지를 열고 툴바의 Grab All Files 아이콘을 누릅니다. 지금 열려 있는 페이지의 파일 목록이 만들어집니다.",
             "“스캔”을 누릅니다. 링크된 페이지까지 포함하려면 먼저 “깊이”를 올립니다(“이 페이지만”은 이 페이지만 확인). 링크는 시작 페이지의 폴더 안에서만 따라갑니다.",
             "파일 유형 목록, 파일 이름·제목 검색창, “상세 설정”(최소 크기, “저장 이름”)으로 목록을 좁히고 원하는 파일을 체크합니다.",
-            "“선택한 파일 저장”을 누릅니다. ZIP, “PDF 병합”, “정리”, “파일 정보 CSV 내보내기”는 “기타 작업”에 있습니다. 무료 버전은 다운로드당 10개까지 저장합니다.",
+            "“선택한 파일 저장”을 누릅니다. ZIP, “PDF 병합”, “정리”, “파일 정보 CSV 내보내기”는 “기타 작업”에 있습니다. 무료 플랜은 다운로드당 10개까지 저장합니다.",
             "목록이 길면 다음 파일을 선택하고 “선택한 파일 저장”을 다시 누릅니다. 실패한 행에는 이유가 표시되므로 접근 문제를 해결한 뒤 다시 시도하세요."
           ],
           "faq": [
@@ -17521,12 +17521,12 @@
               "a": "예. 유형, 이름, 제목, 크기로 필터링하고 원하는 열로 정렬한 뒤 필요한 행만 체크하면 됩니다. 저장 버튼을 누르기 전에는 아무것도 저장되지 않습니다."
             },
             {
-              "q": "무료 버전에 제한이 있나요?",
-              "a": "무료 버전은 다운로드당 선택한 파일을 최대 10개까지 저장하며, ZIP, “PDF 병합”, CSV 내보내기에도 같은 제한이 적용됩니다. 계속하려면 다음 파일을 선택하고 같은 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
+              "q": "무료 플랜에 제한이 있나요?",
+              "a": "무료 플랜은 다운로드당 선택한 파일을 최대 10개까지 저장하며, ZIP, “PDF 병합”, CSV 내보내기에도 같은 제한이 적용됩니다. 계속하려면 다음 파일을 선택하고 같은 버튼을 다시 누르세요. 잠기는 기능은 없습니다. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
             },
             {
-              "q": "아무것도 찾지 못했거나 예상보다 적어요. 어떻게 하나요?",
-              "a": "Pro에서는 스캔할 때 페이지를 끝까지 자동으로 스크롤하고 같은 목록의 다음 페이지도 따라가며 읽습니다(스캔 1회에 100페이지까지). 무료 버전은 화면에 표시된 내용만 읽으므로 먼저 직접 끝까지 스크롤하거나 다음 페이지를 연 뒤 다시 스캔하세요. 파일이 링크된 페이지에 있다면 “깊이”를 올립니다. 해당 사이트에서는 광고 차단기를 잠시 끄세요. 페이지의 JavaScript가 다운로드를 시작하는 경우에는 표시되는 “액티브 캡처”를 사용합니다."
+              "q": "아무것도 찾지 못했거나 예상보다 적습니다. 어떻게 하나요?",
+              "a": "Pro에서는 스캔할 때 페이지를 끝까지 자동으로 스크롤하고 같은 목록의 다음 페이지도 따라가며 읽습니다(스캔 1회에 100페이지까지). 무료 플랜은 화면에 표시된 내용만 읽으므로 먼저 직접 끝까지 스크롤하거나 다음 페이지를 연 뒤 다시 스캔하세요. 파일이 링크된 페이지에 있다면 “깊이”를 올립니다. 해당 사이트에서는 광고 차단기를 잠시 끄세요. 페이지의 JavaScript가 다운로드를 시작하는 경우에는 표시되는 “액티브 캡처”를 사용합니다."
             },
             {
               "q": "로그인이 필요한 페이지는 어떻게 하나요?",
@@ -17715,7 +17715,7 @@
             },
             {
               "q": "Is it suitable for confidential files?",
-              "a": "Files download directly from the portal to your device, not through our servers, and scanning runs inside your browser. Review your organization's rules before using any download automation."
+              "a": "Files download directly from the portal to your device, not through our servers, and scanning runs inside your browser. Review your organization’s rules before using any download automation."
             },
             {
               "q": "How many files can I download for free?",
@@ -17760,7 +17760,7 @@
             },
             {
               "q": "機密ファイルにも使えますか？",
-              "a": "ファイルはポータルから端末へ直接保存され、当社のサーバーを経由しません。スキャンもブラウザ内で行われます。ダウンロードの自動化を使う前に、組織のルールを確認してください。"
+              "a": "ファイルはポータルから端末へ直接保存され、当方のサーバーを経由しません。スキャンもブラウザ内で行われます。ダウンロードの自動化を使う前に、組織のルールを確認してください。"
             },
             {
               "q": "無料版で何件までダウンロードできますか？",
@@ -17771,8 +17771,8 @@
               "a": "同じブラウザでログインし直してから、再スキャンするか失敗した行を再試行します。保存したファイルがログイン画面だった場合は、その時点でセッションが切れています。ログアウトされやすいポータルでは、「スキャン設定」の「セッション保護モード」をオンにすると、セッションを切る可能性のある事後チェック（サイズ・日付・種類の取得）を行いません。"
             },
             {
-              "q": "ボタンやビューアーの奥にあるファイルも取れますか？",
-              "a": "多くの場合は取れます。ビューアー、iframe、バックグラウンド通信のファイルも検出します。ポータル自身のJavaScriptでダウンロードが始まる場合は、「アクティブ取得」でページに各ダウンロードを開始させ、まとめて保存できます。"
+              "q": "ボタンやビューアの奥にあるファイルも取れますか？",
+              "a": "多くの場合は取れます。ビューア、iframe、バックグラウンド通信のファイルも検出します。ポータル自身のJavaScriptでダウンロードが始まる場合は、「アクティブ取得」でページに各ダウンロードを開始させ、まとめて保存できます。"
             }
           ]
         },
@@ -17825,7 +17825,7 @@
           "title": "Télécharger depuis portails internes et LMS | Grab All Files",
           "desc": "Récupérez les fichiers autorisés d’intranets, de LMS et d’espaces membres avec votre session. Aucun identifiant collecté, fichiers sur votre appareil.",
           "eyebrow": "Téléchargements autorisés",
-          "h1": "Téléchargez depuis des portails internes sans fournir d'identifiants.",
+          "h1": "Téléchargez depuis des portails internes sans fournir d’identifiants.",
           "lead": "Sur les intranets, LMS, espaces membres et tableaux de bord, le navigateur dispose déjà de la session. Grab All Files fonctionne dans ce navigateur, analyse les pages auxquelles vous avez accès et laisse la gestion des identifiants en dehors de l’extension.",
           "best": [
             "Intranets d’entreprise riches en pièces jointes.",
@@ -17971,7 +17971,7 @@
           "steps": [
             "평소처럼 포털에 로그인하고, 접근이 허용된 파일이 있는 페이지를 엽니다.",
             "Grab All Files 아이콘을 누르고 “스캔”을 누릅니다. 시작 페이지 폴더 안의 링크된 페이지까지 포함하려면 “깊이”를 올립니다. 링크된 페이지도 현재 로그인 상태로 열립니다.",
-            "필요한 파일을 필터링해 체크한 뒤 “선택한 파일 저장”을 누르거나 “기타 작업”에서 ZIP, “PDF 병합”, “파일 정보 CSV 내보내기”를 사용합니다. 무료 버전은 다운로드당 10개까지 저장합니다.",
+            "필요한 파일을 필터링해 체크한 뒤 “선택한 파일 저장”을 누르거나 “기타 작업”에서 ZIP, “PDF 병합”, “파일 정보 CSV 내보내기”를 사용합니다. 무료 플랜은 다운로드당 10개까지 저장합니다.",
             "다음 묶음은 다음 파일을 선택하고 “선택한 파일 저장”을 다시 누릅니다. “로그인이 필요합니다”로 표시된 행은 세션이 끝났다는 뜻이므로 다시 로그인한 뒤 재시도하세요."
           ],
           "faq": [
@@ -17989,7 +17989,7 @@
             },
             {
               "q": "무료로 몇 개까지 다운로드할 수 있나요?",
-              "a": "무료 버전은 다운로드, ZIP, 병합 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 “선택한 파일 저장”을 다시 누르세요. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
+              "a": "무료 플랜은 다운로드, ZIP, 병합 모두 작업당 선택한 파일을 최대 10개까지 처리합니다. 계속하려면 다음 파일을 선택하고 “선택한 파일 저장”을 다시 누르세요. Pro($19.99, 1회 결제, 최대 3대)는 다운로드당 제한이 없습니다."
             },
             {
               "q": "스캔 중에 세션이 만료되면요?",
@@ -18298,7 +18298,7 @@
             },
             {
               "q": "Puis-je contrôler l’ordre de fusion ?",
-              "a": "Oui. Les PDF sont fusionnés dans l’ordre de la liste. Faites glisser les lignes pour les réordonner (le glisser-déposer est désactivé tant qu’un filtre ou un tri de colonne est actif ; « Rétablir l'ordre manuel » restaure votre ordre) ou triez par colonne."
+              "a": "Oui. Les PDF sont fusionnés dans l’ordre de la liste. Faites glisser les lignes pour les réordonner (le glisser-déposer est désactivé tant qu’un filtre ou un tri de colonne est actif ; « Rétablir l’ordre manuel » restaure votre ordre) ou triez par colonne."
             },
             {
               "q": "Puis-je aussi télécharger les PDF d’origine ?",
@@ -18400,7 +18400,7 @@
         },
         "ko": {
           "title": "브라우저에서 PDF 로컬 병합 | Grab All Files",
-          "desc": "웹페이지에서 찾은 PDF를 업로드 없이 브라우저 안에서 하나로 병합합니다. 드래그로 순서를 정하고 이름을 지정할 수 있으며, 무료 버전은 병합당 10개까지입니다.",
+          "desc": "웹페이지에서 찾은 PDF를 업로드 없이 브라우저 안에서 하나로 병합합니다. 드래그로 순서를 정하고 이름을 지정할 수 있으며, 무료 플랜은 병합당 10개까지입니다.",
           "eyebrow": "로컬 PDF 병합",
           "h1": "웹페이지에서 수집한 PDF를 브라우저 안에서 병합하세요.",
           "lead": "Grab All Files는 페이지나 그 폴더 안의 링크된 페이지에서 PDF를 찾은 뒤 필요한 파일을 골라 브라우저 안에서 병합할 수 있습니다. 원본 PDF는 기기에 남습니다.",
@@ -18413,7 +18413,7 @@
           "steps": [
             "PDF 목록이 있는 페이지를 스캔합니다. 링크된 페이지까지 포함하려면 “깊이”를 올립니다(시작 페이지 폴더 안).",
             "순서를 정합니다. PDF는 목록에 보이는 순서대로 병합됩니다. 필터나 열 정렬이 없을 때 행을 드래그해 순서를 바꾸거나, “제목” 같은 열 머리글을 눌러 정렬하세요.",
-            "병합할 PDF를 2개 이상 체크합니다. 무료 버전은 병합당 10개까지이며, 선택한 다른 유형의 파일은 병합에서 빠집니다.",
+            "병합할 PDF를 2개 이상 체크합니다. 무료 플랜은 병합당 10개까지이며, 선택한 다른 유형의 파일은 병합에서 빠집니다.",
             "“기타 작업”을 열고 필요하면 “PDF 병합” 옆 “저장 이름”에 이름을 입력한 뒤(비워 두면 페이지 이름_날짜) “PDF 병합”을 누릅니다.",
             "결과를 확인합니다. 비밀번호로 보호된 PDF, 읽을 수 없는 PDF, PDF가 아닌 응답은 건너뛰고 이유와 함께 표시됩니다."
           ],
@@ -18432,7 +18432,7 @@
             },
             {
               "q": "한 번에 병합할 수 있는 PDF 수에 제한이 있나요?",
-              "a": "무료 버전은 병합당 선택한 PDF를 최대 10개까지 처리합니다(다운로드와 같은 10개 제한). 첫 묶음을 병합한 뒤 다음 PDF를 체크해 따로 병합하세요. Pro($19.99, 1회 결제, 최대 3대)는 병합당 제한이 없습니다. 병합에는 PDF가 2개 이상 필요합니다."
+              "a": "무료 플랜은 병합당 선택한 PDF를 최대 10개까지 처리합니다(다운로드와 같은 10개 제한). 첫 묶음을 병합한 뒤 다음 PDF를 체크해 따로 병합하세요. Pro($19.99, 1회 결제, 최대 3대)는 병합당 제한이 없습니다. 병합에는 PDF가 2개 이상 필요합니다."
             },
             {
               "q": "일부 PDF가 병합에서 빠진 이유는요?",
@@ -18730,9 +18730,9 @@
         "note": "Compare this extension’s most recent completed collection on the same site with the current pages, using comparable scopes. You review the originals; this is not automatic monitoring or a line-by-line diff. Unavailable entries do not prove site deletion."
       },
       "pdf": {
-        "title": "From opaque filenames to a useful file set",
+        "title": "From opaque file names to a useful file set",
         "stages": [
-          "Review the PDF filenames",
+          "Review the PDF file names",
           "Confirm titles and naming",
           "Save names and folder groups"
         ],
@@ -20315,8 +20315,8 @@
     "common": {
       "heading": "실제 확장 프로그램 화면",
       "title": "{label}: 실제 확장 프로그램 화면",
-      "example": "샘플 자료를 사용한 실제 확장 화면입니다.",
-      "collector": "Free에서 1페이지를 선택한 저장 전 설정·조작 예시입니다. Pro는 이 가이드의 설명대로 여러 선택 페이지를 결합합니다.",
+      "example": "샘플 자료를 사용한 실제 확장 프로그램 화면입니다.",
+      "collector": "무료 플랜에서 1페이지를 선택한 저장 전 설정·조작 예시입니다. Pro는 이 가이드의 설명대로 여러 선택 페이지를 결합합니다.",
       "portal": "실제 계정이나 고객 정보를 사용하지 않은 가상의 데모 포털입니다.",
       "english": "영어 UI입니다.",
       "zoom": "원본 크기로 이미지 열기"
@@ -20384,7 +20384,7 @@
       "heading": "实际扩展界面",
       "title": "{label}：扩展程序的实际界面",
       "example": "使用示例资料的实际扩展界面。",
-      "collector": "Free选择1页的保存前设置与操作示例。Pro可按本文说明合并多个选定页面。",
+      "collector": "免费版选择1页时的保存前设置与操作示例。Pro可按本文说明合并多个选定页面。",
       "portal": "这是虚构的演示门户，未使用真实账号或客户资料。",
       "english": "界面为英文。",
       "zoom": "打开原尺寸图片"
@@ -20675,7 +20675,7 @@
   // 2026-10-20: option pictures. Collector guides show the extension's own option cards (exported from
   // collector.html to /assets/illustrations/; names copied verbatim from the extension's _locales);
   // downloader guides show the site's three downloader-flow diagrams. Regenerate with the extension art.
-  var OPTION_ART = {"crawl-current":[96,64,{"en":"Current page only","ja":"現在のページだけ","es":"solo la página actual","fr":"Page actuelle uniquement","de":"Nur aktuelle Seite","it":"solo la pagina corrente","ko":"현재 페이지만","pt_BR":"apenas página atual","zh_CN":"仅当前页面","zh_TW":"僅目前頁面"},{"en":"Combine just the main content of the open page","ja":"開いている1ページの本文だけをまとめます","es":"Combinar solo el contenido principal de la página abierta","fr":"Regrouper uniquement le contenu principal de la page ouverte","de":"Nur den Hauptinhalt der geöffneten Seite übernehmen","it":"Unisci solo il contenuto principale della pagina aperta","ko":"열려 있는 페이지의 본문만 합칩니다","pt_BR":"Juntar apenas o conteúdo principal da página aberta","zh_CN":"仅合并当前打开页面的正文","zh_TW":"僅合併目前開啟頁面的內文"}],"ai-package":[96,64,{"en":"Full package","ja":"フルパッケージ","es":"Paquete completo","fr":"Paquet complet","de":"Komplettpaket","it":"Pacchetto completo","ko":"전체 패키지","pt_BR":"Pacote completo","zh_CN":"完整包","zh_TW":"完整套件"},{"en":"corpus.md, chunks.jsonl, manifest.json, the AI request text, and the readable HTML in one ZIP.","ja":"corpus.md・chunks.jsonl・manifest.json・依頼文・閲覧用HTMLを1つのZIPに含めます。","es":"corpus.md, chunks.jsonl, manifest.json, el texto de petición y el HTML legible en un ZIP.","fr":"corpus.md, chunks.jsonl, manifest.json, le texte de demande et le HTML lisible dans un ZIP.","de":"corpus.md, chunks.jsonl, manifest.json, Anfragetext und lesbares HTML in einem ZIP.","it":"corpus.md, chunks.jsonl, manifest.json, il testo di richiesta e l’HTML leggibile in un unico ZIP.","ko":"corpus.md·chunks.jsonl·manifest.json·요청문·열람용 HTML을 하나의 ZIP에 담습니다.","pt_BR":"corpus.md, chunks.jsonl, manifest.json, o texto de pedido e o HTML legível em um ZIP.","zh_CN":"将corpus.md、chunks.jsonl、manifest.json、请求文和阅读用HTML放入一个ZIP。","zh_TW":"將corpus.md、chunks.jsonl、manifest.json、請求文與閱讀用HTML放入一個ZIP。"}],"ai-single":[96,64,{"en":"One Markdown file","ja":"1つのMarkdown","es":"Un solo Markdown","fr":"Un seul Markdown","de":"Eine Markdown-Datei","it":"Un unico Markdown","ko":"하나의 Markdown","pt_BR":"Um único Markdown","zh_CN":"单个Markdown","zh_TW":"單一Markdown"},{"en":"All pages combined into a single .md with per-page sources.","ja":"全ページを出典付きで1つの.mdにまとめます。","es":"Todas las páginas combinadas en un único .md con fuentes por página.","fr":"Toutes les pages réunies dans un seul .md avec les sources par page.","de":"Alle Seiten mit Quellen in einer einzigen .md-Datei.","it":"Tutte le pagine unite in un solo .md con fonti per pagina.","ko":"전체 페이지를 출처와 함께 하나의 .md로 합칩니다.","pt_BR":"Todas as páginas combinadas em um único .md com fontes por página.","zh_CN":"将所有页面连同出处合并为一个.md。","zh_TW":"將所有頁面連同出處合併為一個.md。"}],"ai-text-article":[96,64,{"en":"Main content (default)","ja":"主要本文（既定）","es":"Contenido principal (predeterminado)","fr":"Contenu principal (par défaut)","de":"Hauptinhalt (Standard)","it":"Contenuto principale (predefinito)","ko":"주요 본문(기본)","pt_BR":"Conteúdo principal (padrão)","zh_CN":"主要正文（默认）","zh_TW":"主要本文（預設）"},{"en":"Converts only the article or manual body to Markdown. Menus and ads are excluded.","ja":"記事・マニュアルの本文だけをMarkdown化します。メニューや広告は除外します。","es":"Convierte a Markdown solo el cuerpo del artículo o manual. Menús y anuncios quedan excluidos.","fr":"Convertit en Markdown uniquement le corps de l’article ou du manuel. Menus et publicités exclus.","de":"Wandelt nur den Artikel- oder Handbuchtext in Markdown um. Menüs und Werbung werden ausgeschlossen.","it":"Converte in Markdown solo il corpo dell’articolo o del manuale. Menu e pubblicità esclusi.","ko":"기사·설명서 본문만 Markdown으로 변환합니다. 메뉴와 광고는 제외합니다.","pt_BR":"Converte para Markdown apenas o corpo do artigo ou manual. Menus e anúncios são excluídos.","zh_CN":"仅将文章、手册正文转换为Markdown。排除菜单和广告。","zh_TW":"僅將文章、手冊本文轉換為Markdown。排除選單與廣告。"}],"ai-text-visible":[96,64,{"en":"Text visible on screen","ja":"画面に表示されるテキスト","es":"Texto visible en pantalla","fr":"Texte visible à l’écran","de":"Auf dem Bildschirm sichtbarer Text","it":"Testo visibile sullo schermo","ko":"화면에 표시되는 텍스트","pt_BR":"Texto visível na tela","zh_CN":"屏幕上显示的文本","zh_TW":"畫面上顯示的文字"},{"en":"Saves on-screen text in DOM order, for analyzing admin screens, price tables and other UI. Most accurate with the “Compatible” fetch method.","ja":"画面上の文字をDOM順で保存します。管理画面・料金表など画面仕様の分析向け。取得方法を「互換性重視」にすると最も正確になります。","es":"Guarda el texto en pantalla en orden DOM, para analizar paneles de administración, tablas de precios y otras UI. Más preciso con el método de obtención «Compatible».","fr":"Enregistre le texte affiché dans l’ordre du DOM ; pratique pour analyser des consoles d’administration, des grilles tarifaires et d’autres interfaces. Le plus précis avec la méthode de récupération « Compatible ».","de":"Speichert Bildschirmtext in DOM-Reihenfolge – für Verwaltungsoberflächen, Preistabellen und andere UI-Analysen. Am genauesten mit der Abrufmethode „Kompatibel“.","it":"Salva il testo a schermo in ordine DOM, utile per analizzare pannelli di amministrazione, listini e altre UI. Più preciso con il metodo di recupero «Compatibile».","ko":"화면의 문자를 DOM 순서로 저장합니다. 관리 화면, 요금표 등 UI 분석용이며 가져오기 방법을 “호환 모드”로 하면 가장 정확합니다.","pt_BR":"Salva o texto da tela em ordem DOM, para analisar painéis administrativos, tabelas de preços e outras UIs. Mais preciso com o método de obtenção “Compatível”.","zh_CN":"按DOM顺序保存屏幕文字，适合分析管理界面、价格表等UI。获取方式选“兼容”时最准确。","zh_TW":"依DOM順序儲存畫面文字，適合分析管理介面、價目表等UI。取得方式選「相容」時最準確。"}],"scope-linked-pages":[240,84,{"en":"Also find the pages it links to","ja":"リンク先のページも探す","es":"Buscar también las páginas enlazadas","fr":"Chercher aussi les pages liées","de":"Auch verlinkte Seiten suchen","it":"Cerca anche le pagine collegate","ko":"링크된 페이지도 찾기","pt_BR":"Procurar também as páginas vinculadas","zh_CN":"同时查找链接到的页面","zh_TW":"同時尋找連結到的頁面"},{"en":"Finds the pages this one links to; you choose which to combine.","ja":"リンクしているページを探して、選んだページをまとめます。","es":"Busca las páginas enlazadas desde esta; tú eliges cuáles combinar.","fr":"Cherche les pages liées depuis celle-ci ; vous choisissez lesquelles combiner.","de":"Sucht die hier verlinkten Seiten; Sie wählen, welche zusammengefasst werden.","it":"Cerca le pagine collegate da questa; scegli tu quali unire.","ko":"이 페이지가 링크한 페이지를 찾고, 고른 페이지를 합칩니다.","pt_BR":"Procura as páginas vinculadas a esta; você escolhe quais juntar.","zh_CN":"查找此页链接的页面，由你选择要合并的页面。","zh_TW":"尋找此頁連結的頁面，由你選擇要合併的頁面。"}],"look-reader":[240,84,{"en":"Easy to read","ja":"読みやすく整える","es":"Fácil de leer","fr":"Facile à lire","de":"Gut lesbar","it":"Facile da leggere","ko":"읽기 쉽게 정리","pt_BR":"Fácil de ler","zh_CN":"整理为易读格式","zh_TW":"整理為易讀格式"},{"en":"Only the main content, in one matching style. Fast and light; good for reading, printing and AI.","ja":"本文だけを同じ書式にそろえます。速く軽く、読む・印刷・AIに向きます。","es":"Solo el contenido principal, con un mismo estilo. Rápido y ligero; ideal para leer, imprimir y la IA.","fr":"Seulement le contenu principal, dans un même style. Rapide et léger ; idéal pour la lecture, l’impression et l’IA.","de":"Nur der Hauptinhalt, in einem einheitlichen Stil. Schnell und leicht; gut zum Lesen, Drucken und für KI.","it":"Solo il contenuto principale, in uno stile uniforme. Veloce e leggero; adatto a leggere, stampare e all’IA.","ko":"본문만 같은 서식으로 정리합니다. 빠르고 가벼워 읽기·인쇄·AI에 적합합니다.","pt_BR":"Só o conteúdo principal, em um estilo único. Rápido e leve; bom para ler, imprimir e IA.","zh_CN":"只保留正文，统一成同一种格式。快速轻便，适合阅读、打印和交给 AI。","zh_TW":"只保留正文，統一成同一種格式。快速輕便，適合閱讀、列印和交給 AI。"}],"form-contents-search":[160,64,{"en":"HTML with contents and search","ja":"目次・検索付きHTML","es":"HTML con índice y búsqueda","fr":"HTML avec sommaire et recherche","de":"HTML mit Inhaltsverzeichnis und Suche","it":"HTML con indice e ricerca","ko":"목차·검색 기능이 있는 HTML","pt_BR":"HTML com índice e pesquisa","zh_CN":"带目录和搜索的HTML","zh_TW":"附目錄及搜尋的HTML"},{"en":"Each page in a frame, with a title, contents and a search box. The smallest file of these four forms.","ja":"各ページを枠に入れ、題名・目次・検索欄を付けます。4つの形の中でファイルがいちばん小さくなります。","es":"Cada página en un marco, con título, índice y cuadro de búsqueda. El archivo más pequeño de las cuatro formas.","fr":"Chaque page dans un cadre, avec titre, sommaire et champ de recherche. Le fichier le plus léger des quatre formes.","de":"Jede Seite in einem Rahmen, mit Titel, Inhaltsverzeichnis und Suchfeld. Die kleinste Datei dieser vier Formen.","it":"Ogni pagina in una cornice, con titolo, indice e casella di ricerca. Il file più piccolo fra le quattro forme.","ko":"각 페이지를 틀에 넣고 제목·목차·검색창을 붙입니다. 네 가지 형태 중 파일이 가장 작습니다.","pt_BR":"Cada página em um quadro, com título, sumário e caixa de busca. O menor arquivo entre as quatro formas.","zh_CN":"将每个页面放入框中，附标题、目录和搜索框。在这四种形式中文件最小。","zh_TW":"將每個頁面放入框中，附標題、目錄和搜尋框。在這四種形式中檔案最小。"}],"ai-pages":[96,64,{"en":"Per-page Markdown","ja":"ページ別Markdown","es":"Markdown por página","fr":"Markdown par page","de":"Markdown je Seite","it":"Markdown per pagina","ko":"페이지별 Markdown","pt_BR":"Markdown por página","zh_CN":"按页Markdown","zh_TW":"逐頁Markdown"},{"en":"One .md per page plus manifest.json, bundled as a ZIP.","ja":"ページごとの.mdとmanifest.jsonをZIPにまとめます。","es":"Un .md por página más manifest.json, empaquetados en un ZIP.","fr":"Un .md par page plus manifest.json, regroupés dans un ZIP.","de":"Eine .md pro Seite plus manifest.json als ZIP.","it":"Un .md per pagina più manifest.json, in un unico ZIP.","ko":"페이지별 .md와 manifest.json을 ZIP으로 묶습니다.","pt_BR":"Um .md por página mais manifest.json, empacotados em um ZIP.","zh_CN":"每页一个.md加manifest.json，打包为ZIP。","zh_TW":"每頁一個.md加manifest.json，打包為ZIP。"}],"crawl-menu":[96,64,{"en":"In the selected menu","ja":"選んだメニュー内","es":"En el menú seleccionado","fr":"Dans le menu sélectionné","de":"Im ausgewählten Menü","it":"Nel menu selezionato","ko":"선택한 메뉴 내","pt_BR":"No menu selecionado","zh_CN":"在所选菜单中","zh_TW":"在所選選單中"},{"en":"Navigates through links in the table of contents and side menu","ja":"目次やサイドメニューのリンクをたどる","es":"Navega por los enlaces de la tabla de contenido y el menú lateral","fr":"Suivre les liens de la table des matières et du menu latéral","de":"Navigiert durch die Links im Inhaltsverzeichnis und im Seitenmenü","it":"Naviga tra i collegamenti nel sommario e nel menu laterale","ko":"목차나 사이드 메뉴의 링크를 순회","pt_BR":"Navega pelos links no índice e no menu lateral","zh_CN":"通过目录和侧面菜单中的链接导航","zh_TW":"透過目錄和側面選單中的連結導覽"}],"crawl-path":[96,64,{"en":"Under the same path","ja":"同じパス配下","es":"bajo la misma ruta","fr":"Sous le même chemin","de":"unter demselben Pfad","it":"sotto lo stesso percorso","ko":"같은 경로 아래","pt_BR":"sob o mesmo caminho","zh_CN":"同一路径下","zh_TW":"同一路徑下"},{"en":"Traverses within the hierarchy of the current URL","ja":"現在URLの階層内をたどります","es":"Atravesar dentro de la jerarquía de la URL actual","fr":"Parcourez la hiérarchie de l'URL actuelle","de":"Durchläuft die Hierarchie der aktuellen URL","it":"Attraversa la gerarchia dell'URL corrente","ko":"현재 URL의 계층 구조를 따릅니다.","pt_BR":"Percorre a hierarquia da URL atual","zh_CN":"在当前 URL 的层次结构内遍历","zh_TW":"只尋找目前 URL 所在階層內的頁面"}],"crawl-links":[96,64,{"en":"Follow the links on this page","ja":"このページのリンクをたどる","es":"Seguir los enlaces de esta página","fr":"Suivre les liens de cette page","de":"Den Links auf dieser Seite folgen","it":"Segui i collegamenti di questa pagina","ko":"이 페이지의 링크를 따라가기","pt_BR":"Seguir os links desta página","zh_CN":"跟随本页的链接","zh_TW":"追蹤本頁的連結"},{"en":"Every link on the page, menus and body alike","ja":"メニューも本文も含め、ページ内のすべてのリンクが対象です","es":"Todos los enlaces de la página, menús y cuerpo por igual","fr":"Tous les liens de la page, menus comme corps de texte","de":"Alle Links der Seite, Menüs wie Fließtext","it":"Tutti i collegamenti della pagina, menu e testo compresi","ko":"메뉴와 본문을 포함한 페이지의 모든 링크가 대상입니다","pt_BR":"Todos os links da página, menus e corpo igualmente","zh_CN":"页面上的所有链接，菜单和正文都包括在内","zh_TW":"頁面上的所有連結，選單與內文都包括在內"}],"form-long-page":[160,64,{"en":"Vertically joined HTML (for printing)","ja":"縦につないだHTML（印刷向け）","es":"HTML vertical (para imprimir)","fr":"HTML vertical (pour l’impression)","de":"Vertikal verbundenes HTML (zum Drucken)","it":"HTML verticale (per la stampa)","ko":"세로로 이은 HTML(인쇄용)","pt_BR":"HTML vertical (para impressão)","zh_CN":"纵向拼接HTML（适合打印）","zh_TW":"直向串接HTML（適合列印）"},{"en":"Saves the pages vertically in one HTML file, with page breaks when printed. To create a PDF afterwards, use your browser’s print function.","ja":"各ページを縦につないだHTMLを保存します。印刷時はページごとに改ページされます。PDFが必要な場合は、保存後にブラウザの印刷機能を使います。","es":"Guarda las páginas una debajo de otra en un HTML, con saltos de página al imprimir. Para crear un PDF después, use la impresión del navegador.","fr":"Enregistre les pages verticalement dans un HTML, avec des sauts de page à l’impression. Pour créer ensuite un PDF, utilisez la fonction d’impression du navigateur.","de":"Speichert die Seiten untereinander in einer HTML-Datei, beim Drucken mit Seitenumbrüchen. Für eine PDF verwenden Sie danach die Druckfunktion des Browsers.","it":"Salva le pagine una sotto l’altra in un HTML, con interruzioni di pagina in stampa. Per creare un PDF dopo, usa la stampa del browser.","ko":"페이지를 세로로 이은 HTML을 저장하며 인쇄할 때 페이지별로 나눕니다. PDF가 필요하면 저장 후 브라우저의 인쇄 기능을 사용하세요.","pt_BR":"Salva as páginas uma abaixo da outra em um HTML, com quebras de página na impressão. Para criar um PDF depois, use a impressão do navegador.","zh_CN":"将各页纵向拼接为HTML，打印时按页分页。需要PDF时，请在保存后使用浏览器的打印功能。","zh_TW":"將各頁直向串接為HTML，列印時依頁分頁。需要PDF時，請在儲存後使用瀏覽器的列印功能。"}],"crawl-pasted":[96,64,{"en":"Paste URL","ja":"URLを貼り付ける","es":"Pegar URL","fr":"Coller l'URL","de":"URL einfügen","it":"Incolla l'URL","ko":"URL 붙여넣기","pt_BR":"Colar URL","zh_CN":"粘贴网址","zh_TW":"貼上網址"},{"en":"Groups only the specified URLs in the order they were entered.","ja":"指定したURLだけを入力順にまとめます","es":"Agrupa solo las URL indicadas, en el orden en que las introduces.","fr":"Regroupez uniquement les URL spécifiées dans l’ordre dans lequel elles ont été saisies.","de":"Gruppiert nur die angegebenen URLs in der Reihenfolge, in der sie eingegeben wurden.","it":"Raggruppa solo gli URL specificati nell'ordine in cui sono stati immessi.","ko":"지정한 URL만 입력순으로 정리","pt_BR":"Agrupa apenas as URLs especificadas na ordem em que foram inseridas.","zh_CN":"仅按输入顺序把指定的 URL 归为一组。","zh_TW":"只將指定的 URL 依輸入順序歸為一組。"}],"crawl-sitemap":[96,64,{"en":"Sitemap","ja":"サイトマップ","es":"mapa del sitio","fr":"Plan du site","de":"Sitemap","it":"mappa del sito","ko":"사이트맵","pt_BR":"mapa do site","zh_CN":"站点地图","zh_TW":"網站地圖"},{"en":"Loads suggestions from sitemap.xml","ja":"sitemap.xmlから候補を読み込みます","es":"Cargar sugerencias desde sitemap.xml","fr":"Charger des suggestions à partir du sitemap.xml","de":"Lädt Vorschläge aus sitemap.xml","it":"Carica suggerimenti da sitemap.xml","ko":"sitemap.xml에서 후보를 로드합니다.","pt_BR":"Carrega sugestões de sitemap.xml","zh_CN":"从 sitemap.xml 加载建议","zh_TW":"從 sitemap.xml 載入建議"}],"crawl-basket":[96,64,{"en":"Pages in the basket","ja":"かごに集めたページ","es":"Páginas en la cesta","fr":"Pages dans le panier","de":"Seiten im Sammelkorb","it":"Pagine nel carrello","ko":"수집함에 담긴 페이지","pt_BR":"Páginas na cesta","zh_CN":"收集篮中的页面","zh_TW":"收集籃中的頁面"},{"en":"Combines the tabs and links you gathered, in this order","ja":"タブや右クリックで集めた一覧を、この順番のままつなげます","es":"Combina las pestañas y enlaces recopilados, en este orden","fr":"Combine les onglets et liens rassemblés, dans cet ordre","de":"Verknüpft die gesammelten Tabs und Links in dieser Reihenfolge","it":"Unisce le schede e i link raccolti, in questo ordine","ko":"모은 탭과 링크를 이 순서대로 연결합니다","pt_BR":"Combina as abas e links reunidos, nesta ordem","zh_CN":"按此顺序合并收集的标签页和链接","zh_TW":"依此順序合併收集的分頁與連結"}],"form-pages-zip":[160,64,{"en":"Separate HTML pages (ZIP)","ja":"ページ別HTML（ZIP）","es":"Páginas HTML separadas (ZIP)","fr":"Pages HTML séparées (ZIP)","de":"Einzelne HTML-Seiten (ZIP)","it":"Pagine HTML separate (ZIP)","ko":"페이지별 HTML(ZIP)","pt_BR":"Páginas HTML separadas (ZIP)","zh_CN":"分页HTML（ZIP）","zh_TW":"分頁HTML（ZIP）"},{"en":"Each page as its own HTML, just like the page, packed with a contents page (index.html) in one ZIP.","ja":"1ページずつ元のページと同じHTMLにし、目次（index.html）と一緒に1つのZIPにまとめます。","es":"Cada página como su propio HTML, igual que el original, junto con una página de índice (index.html) en un ZIP.","fr":"Chaque page dans son propre HTML, identique à l’original, avec une page de sommaire (index.html) dans un ZIP.","de":"Jede Seite als eigene HTML-Datei wie das Original, zusammen mit einer Inhaltsseite (index.html) in einer ZIP-Datei.","it":"Ogni pagina come HTML a sé, uguale all’originale, con una pagina indice (index.html) in un unico ZIP.","ko":"한 페이지씩 원래 페이지와 같은 HTML로 만들고 목차(index.html)와 함께 ZIP 하나로 묶습니다.","pt_BR":"Cada página como um HTML próprio, igual ao original, junto com uma página de sumário (index.html) em um ZIP.","zh_CN":"将每个页面保存为与原页面相同的 HTML，与目录（index.html）一起打包成一个 ZIP。","zh_TW":"將每個頁面儲存為與原頁面相同的 HTML，與目錄（index.html）一起打包成一個 ZIP。"}],"local-use-archive":[96,64,{"en":"Keep the site","ja":"サイトを保存","es":"Conservar el sitio","fr":"Conserver le site","de":"Website aufbewahren","it":"Conservare il sito","ko":"사이트 보관","pt_BR":"Guardar o site","zh_CN":"保存网站","zh_TW":"保存網站"},{"en":"Embeds the images and copies linked files (PDF and so on) next to the HTML, so the copy works on its own.","ja":"画像を埋め込み、リンク先のファイル（PDFなど）はHTMLの隣にコピーします。コピーだけで見られる形になります。","es":"Incrusta las imágenes y copia los archivos enlazados (PDF, etc.) junto al HTML, para que la copia funcione por sí sola.","fr":"Intègre les images et copie les fichiers liés (PDF, etc.) à côté du HTML, pour que la copie fonctionne seule.","de":"Bettet die Bilder ein und kopiert verlinkte Dateien (PDF usw.) neben das HTML, sodass die Kopie für sich allein funktioniert.","it":"Incorpora le immagini e copia i file collegati (PDF e così via) accanto all’HTML, così la copia funziona da sola.","ko":"이미지를 포함하고 링크된 파일(PDF 등)을 HTML 옆에 복사해, 복사본만으로 볼 수 있게 합니다.","pt_BR":"Incorpora as imagens e copia os arquivos vinculados (PDF etc.) ao lado do HTML, para que a cópia funcione sozinha.","zh_CN":"嵌入图片，并将链接文件（PDF 等）复制到 HTML 旁边，使副本可以单独使用。","zh_TW":"嵌入圖片，並將連結檔案（PDF 等）複製到 HTML 旁邊，讓副本可單獨使用。"}],"local-use-share":[96,64,{"en":"Share as one file","ja":"1ファイルで配る","es":"Compartir como un archivo","fr":"Partager en un seul fichier","de":"Als eine Datei weitergeben","it":"Condividere come un solo file","ko":"파일 하나로 공유","pt_BR":"Compartilhar como um arquivo","zh_CN":"作为一个文件分享","zh_TW":"以單一檔案分享"},{"en":"Embeds the images and the linked files in the single HTML, so one file is all you send.","ja":"画像もリンク先のファイルも1つのHTMLに埋め込みます。送るのは1ファイルだけです。","es":"Incrusta las imágenes y los archivos enlazados en un único HTML, así solo envías un archivo.","fr":"Intègre les images et les fichiers liés dans un seul HTML : vous n’envoyez qu’un fichier.","de":"Bettet Bilder und verlinkte Dateien in das eine HTML ein, sodass Sie nur eine Datei senden.","it":"Incorpora immagini e file collegati in un unico HTML: invii un solo file.","ko":"이미지와 링크된 파일을 하나의 HTML에 포함해, 파일 하나만 보내면 됩니다.","pt_BR":"Incorpora imagens e arquivos vinculados em um único HTML: você envia só um arquivo.","zh_CN":"将图片和链接文件都嵌入到一个 HTML 中，只需发送一个文件。","zh_TW":"將圖片與連結檔案都嵌入一個 HTML 中，只需傳送一個檔案。"}],"local-use-print":[96,64,{"en":"Print or make a PDF","ja":"印刷・PDF化","es":"Imprimir o crear un PDF","fr":"Imprimer ou créer un PDF","de":"Drucken oder PDF erstellen","it":"Stampare o creare un PDF","ko":"인쇄·PDF 만들기","pt_BR":"Imprimir ou gerar PDF","zh_CN":"打印或生成 PDF","zh_TW":"列印或製作 PDF"},{"en":"Embeds the images and leaves linked files as links: only what appears on the pages.","ja":"画像を埋め込み、リンク先のファイルはリンクのまま残します。ページに見えている内容だけをまとめます。","es":"Incrusta las imágenes y deja los archivos enlazados como enlaces: solo lo que aparece en las páginas.","fr":"Intègre les images et laisse les fichiers liés en liens : uniquement ce qui apparaît sur les pages.","de":"Bettet die Bilder ein und belässt verlinkte Dateien als Links: nur was auf den Seiten zu sehen ist.","it":"Incorpora le immagini e lascia i file collegati come link: solo ciò che appare nelle pagine.","ko":"이미지를 포함하고 링크된 파일은 링크로 둡니다. 페이지에 보이는 내용만 담습니다.","pt_BR":"Incorpora as imagens e deixa os arquivos vinculados como links: só o que aparece nas páginas.","zh_CN":"嵌入图片，链接文件保留为链接：只包含页面上显示的内容。","zh_TW":"嵌入圖片，連結檔案保留為連結：只包含頁面上顯示的內容。"}],"local-use-ai":[96,64,{"en":"Give it to an AI","ja":"AIに読ませる","es":"Dárselo a una IA","fr":"Le donner à une IA","de":"Einer KI geben","it":"Darlo a un’IA","ko":"AI에게 읽히기","pt_BR":"Entregar a uma IA","zh_CN":"交给 AI 阅读","zh_TW":"交給 AI 閱讀"},{"en":"Keeps images as names and also prepares the AI analysis package (Markdown with sources).","ja":"画像は名前だけにし、AI分析用のデータ（出典付きMarkdown）も作ります。","es":"Deja las imágenes como nombres y prepara además el paquete de análisis para IA (Markdown con fuentes).","fr":"Garde les images sous forme de noms et prépare aussi le paquet d’analyse IA (Markdown avec sources).","de":"Belässt Bilder als Namen und erstellt zusätzlich das KI-Analysepaket (Markdown mit Quellen).","it":"Lascia le immagini come nomi e prepara anche il pacchetto di analisi IA (Markdown con fonti).","ko":"이미지는 이름만 남기고, AI 분석용 데이터(출처가 포함된 Markdown)도 만듭니다.","pt_BR":"Mantém as imagens como nomes e também prepara o pacote de análise para IA (Markdown com fontes).","zh_CN":"图片只保留名称，并另外生成 AI 分析数据（带来源的 Markdown）。","zh_TW":"圖片只保留名稱，並另外產生 AI 分析資料（附來源的 Markdown）。"}],"local-order-links":[96,64,{"en":"Follow the links from the top page","ja":"トップページからのリンクの順","es":"Seguir los enlaces desde la página principal","fr":"Suivre les liens depuis la page d’accueil","de":"Den Links ab der Startseite folgen","it":"Seguire i link dalla pagina iniziale","ko":"첫 페이지부터 링크 순서","pt_BR":"Seguir os links a partir da página inicial","zh_CN":"按首页开始的链接顺序","zh_TW":"依首頁開始的連結順序"},{"en":"Starts at index.html (or a similar top page) and follows its links and frames, so the pages appear in the order a reader meets them. Pages nothing links to come last.","ja":"index.html などのトップページから、リンクとフレームをたどった順に並べます。読む人がたどる順になります。どこからもリンクされていないページは最後に並べます。","es":"Empieza en index.html (o una página principal similar) y sigue sus enlaces y marcos, para que las páginas aparezcan en el orden en que las encuentra el lector. Las páginas sin enlaces hacia ellas van al final.","fr":"Part de index.html (ou d’une page d’accueil similaire) et suit ses liens et cadres, pour que les pages apparaissent dans l’ordre où le lecteur les rencontre. Les pages vers lesquelles rien ne pointe viennent en dernier.","de":"Beginnt bei index.html (oder einer ähnlichen Startseite) und folgt deren Links und Frames, sodass die Seiten in der Reihenfolge erscheinen, in der Lesende sie finden. Nicht verlinkte Seiten kommen zuletzt.","it":"Parte da index.html (o una pagina iniziale simile) e ne segue link e frame, così le pagine compaiono nell’ordine in cui il lettore le incontra. Le pagine non collegate vanno in fondo.","ko":"index.html 같은 첫 페이지에서 시작해 링크와 프레임을 따라가며, 읽는 사람이 만나는 순서로 페이지를 놓습니다. 어디에서도 링크되지 않은 페이지는 마지막에 둡니다.","pt_BR":"Começa em index.html (ou uma página inicial parecida) e segue seus links e frames, para que as páginas apareçam na ordem em que o leitor as encontra. Páginas sem links até elas ficam no fim.","zh_CN":"从 index.html 等首页开始，沿着链接和框架排列页面，与读者浏览的顺序一致。没有任何链接指向的页面排在最后。","zh_TW":"從 index.html 等首頁開始，沿著連結與框架排列頁面，與讀者瀏覽的順序一致。沒有任何連結指向的頁面排在最後。"}],"local-order-name":[96,64,{"en":"File name order","ja":"ファイル名の順","es":"Orden por nombre de archivo","fr":"Ordre des noms de fichier","de":"Nach Dateinamen","it":"Ordine per nome file","ko":"파일 이름 순서","pt_BR":"Ordem do nome do arquivo","zh_CN":"按文件名顺序","zh_TW":"依檔名順序"},{"en":"Sorts by folder and file name (2 before 10).","ja":"フォルダ名とファイル名の順に並べます（2 は 10 より前）。","es":"Ordena por carpeta y nombre de archivo (2 antes que 10).","fr":"Trie par dossier et nom de fichier (2 avant 10).","de":"Sortiert nach Ordner- und Dateinamen (2 vor 10).","it":"Ordina per cartella e nome file (2 prima di 10).","ko":"폴더 이름과 파일 이름 순으로 정렬합니다(2가 10보다 앞).","pt_BR":"Ordena por pasta e nome do arquivo (2 antes de 10).","zh_CN":"按文件夹名和文件名排序（2 在 10 之前）。","zh_TW":"依資料夾名稱與檔名排序（2 在 10 之前）。"}],"linked-copy":[96,64,{"en":"Copy next to the HTML","ja":"HTMLの隣にコピーする","es":"Copiar junto al HTML","fr":"Copier à côté du HTML","de":"Neben das HTML kopieren","it":"Copia accanto all’HTML","ko":"HTML 옆에 복사","pt_BR":"Copiar ao lado do HTML","zh_CN":"复制到 HTML 旁边","zh_TW":"複製到 HTML 旁邊"},{"en":"Each linked file is copied into a folder beside the HTML, and the links open those copies. Keep the HTML and the folder together.","ja":"リンク先のファイルをHTMLと同じ場所のフォルダにコピーし、リンクはそのコピーを開きます。HTMLとフォルダは一緒に移動してください。","es":"Cada archivo enlazado se copia en una carpeta junto al HTML y los enlaces abren esas copias. Mantén juntos el HTML y la carpeta.","fr":"Chaque fichier lié est copié dans un dossier à côté du HTML, et les liens ouvrent ces copies. Gardez le HTML et le dossier ensemble.","de":"Jede verlinkte Datei wird in einen Ordner neben dem HTML kopiert, und die Links öffnen diese Kopien. Bewahren Sie HTML und Ordner zusammen auf.","it":"Ogni file collegato viene copiato in una cartella accanto all’HTML e i link aprono quelle copie. Tieni insieme l’HTML e la cartella.","ko":"링크된 각 파일을 HTML 옆의 폴더에 복사하고, 링크는 그 복사본을 엽니다. HTML과 폴더는 함께 보관하세요.","pt_BR":"Cada arquivo vinculado é copiado para uma pasta ao lado do HTML, e os links abrem essas cópias. Mantenha o HTML e a pasta juntos.","zh_CN":"每个链接文件都会复制到 HTML 旁边的文件夹中，链接会打开这些副本。请将 HTML 和文件夹放在一起。","zh_TW":"每個連結檔案都會複製到 HTML 旁邊的資料夾中，連結會開啟這些副本。請將 HTML 與資料夾放在一起。"}],"linked-embed":[96,64,{"en":"Embed in the HTML","ja":"HTMLの中に埋め込む","es":"Incrustar en el HTML","fr":"Intégrer dans le HTML","de":"In das HTML einbetten","it":"Incorpora nell’HTML","ko":"HTML 안에 포함","pt_BR":"Incorporar no HTML","zh_CN":"嵌入到 HTML 中","zh_TW":"嵌入到 HTML 中"},{"en":"The files are stored inside the single HTML file and listed at its end. One file is easy to share, but it grows by the size of the files.","ja":"ファイルを1つのHTMLの中に入れ、末尾に一覧で並べます。1ファイルで渡せますが、その分HTMLが大きくなります。","es":"Los archivos se guardan dentro del único archivo HTML y se enumeran al final. Un solo archivo es fácil de compartir, pero crece según el tamaño de los archivos.","fr":"Les fichiers sont stockés dans l’unique fichier HTML et listés à la fin. Un seul fichier est facile à partager, mais il grossit de la taille des fichiers.","de":"Die Dateien werden in der einen HTML-Datei gespeichert und am Ende aufgelistet. Eine Datei lässt sich leicht weitergeben, wird aber um die Größe der Dateien größer.","it":"I file vengono salvati dentro l’unico file HTML ed elencati alla fine. Un solo file è facile da condividere, ma cresce della dimensione dei file.","ko":"파일을 하나의 HTML 안에 넣고 끝에 목록으로 보여 줍니다. 파일 하나로 공유하기 쉽지만 그만큼 HTML이 커집니다.","pt_BR":"Os arquivos ficam dentro do único arquivo HTML e são listados no final. Um só arquivo é fácil de compartilhar, mas cresce conforme o tamanho dos arquivos.","zh_CN":"文件保存在这一个 HTML 文件中，并在末尾列出。单个文件便于分享，但会随文件大小而变大。","zh_TW":"檔案會存放在這一個 HTML 檔案中，並在末尾列出。單一檔案方便分享，但會隨檔案大小而變大。"}],"linked-none":[96,64,{"en":"Leave them as links","ja":"リンクのまま残す","es":"Dejarlos como enlaces","fr":"Les laisser en liens","de":"Als Links belassen","it":"Lasciali come link","ko":"링크로 그대로 두기","pt_BR":"Deixar como links","zh_CN":"保留为链接","zh_TW":"保留為連結"},{"en":"Linked files are not copied. Their links keep pointing at the original folder.","ja":"リンク先のファイルはコピーしません。リンクは元のフォルダを指したままです。","es":"Los archivos enlazados no se copian. Sus enlaces siguen apuntando a la carpeta original.","fr":"Les fichiers liés ne sont pas copiés. Leurs liens continuent de pointer vers le dossier d’origine.","de":"Verlinkte Dateien werden nicht kopiert. Ihre Links zeigen weiter auf den ursprünglichen Ordner.","it":"I file collegati non vengono copiati. I loro link continuano a puntare alla cartella originale.","ko":"링크된 파일은 복사하지 않습니다. 링크는 원래 폴더를 계속 가리킵니다.","pt_BR":"Os arquivos vinculados não são copiados. Os links continuam apontando para a pasta original.","zh_CN":"不复制链接文件。链接仍指向原文件夹。","zh_TW":"不複製連結檔案。連結仍指向原資料夾。"}],"look-original":[240,84,{"en":"Keep the original look","ja":"元の見た目のまま","es":"Mantener el aspecto original","fr":"Garder l’apparence d’origine","de":"Ursprüngliches Aussehen behalten","it":"Mantieni l’aspetto originale","ko":"원래 모양 그대로","pt_BR":"Manter a aparência original","zh_CN":"保持原样","zh_TW":"保持原樣"},{"en":"Keeps the site's own design.","ja":"サイトのデザインを残します。","es":"Conserva el diseño propio del sitio.","fr":"Garde le design propre du site.","de":"Behält das eigene Design der Website.","it":"Mantiene il design del sito.","ko":"사이트의 디자인을 그대로 남깁니다.","pt_BR":"Mantém o design do próprio site.","zh_CN":"保留网站自己的设计。","zh_TW":"保留網站自己的設計。"}],"form-single-page":[240,64,{"en":"The page as it is","ja":"そのページのまま","es":"La página tal cual","fr":"La page telle quelle","de":"Seite unverändert","it":"La pagina così com’è","ko":"페이지 그대로","pt_BR":"A página como está","zh_CN":"保持页面原样","zh_TW":"保持頁面原樣"},{"en":"One HTML just like the page: the browser's find, printing and PDF work as on the page itself. No list of attachments or collection details.","ja":"元のページと同じ1枚のHTMLです。ブラウザの検索・印刷・PDF化がそのページと同じように使えます。添付文書の一覧や取得情報は入りません。","es":"Un HTML igual que la página: la búsqueda del navegador, la impresión y el PDF funcionan como en la propia página. Sin lista de adjuntos ni datos de la recopilación.","fr":"Un HTML identique à la page : la recherche du navigateur, l’impression et le PDF fonctionnent comme sur la page elle-même. Sans liste des pièces jointes ni informations de collecte.","de":"Eine HTML-Datei wie die Seite selbst: Suchen, Drucken und PDF funktionieren wie auf der Seite. Ohne Liste der Anhänge und ohne Sammelangaben.","it":"Un HTML uguale alla pagina: la ricerca del browser, la stampa e il PDF funzionano come sulla pagina stessa. Senza elenco degli allegati né dati della raccolta.","ko":"원래 페이지와 같은 HTML 한 장입니다. 브라우저의 찾기·인쇄·PDF 변환을 그 페이지처럼 쓸 수 있습니다. 첨부 문서 목록과 수집 정보는 들어가지 않습니다.","pt_BR":"Um HTML igual à página: a busca do navegador, a impressão e o PDF funcionam como na própria página. Sem lista de anexos nem dados da coleta.","zh_CN":"与原页面相同的一个 HTML。浏览器的查找、打印和转 PDF 都与该页面一样使用。不含附件列表和收集信息。","zh_TW":"與原頁面相同的一個 HTML。瀏覽器的尋找、列印和轉 PDF 都與該頁面一樣使用。不含附件清單和收集資訊。"}],"form-single-framed":[240,64,{"en":"HTML with contents and search","ja":"目次・検索付きHTML","es":"HTML con índice y búsqueda","fr":"HTML avec sommaire et recherche","de":"HTML mit Inhaltsverzeichnis und Suche","it":"HTML con indice e ricerca","ko":"목차·검색 기능이 있는 HTML","pt_BR":"HTML com índice e pesquisa","zh_CN":"带目录和搜索的HTML","zh_TW":"附目錄及搜尋的HTML"},{"en":"The page sits in a frame under its title, address and date, with contents and a search box. The attachments found and the collection details can be included.","ja":"ページを枠に入れ、上に題名・取得元・取得日時を付け、目次と検索欄も付けます。見つけた添付文書の一覧と取得情報も入れられます。","es":"La página va en un marco bajo su título, dirección y fecha, con índice y cuadro de búsqueda. Se pueden incluir los adjuntos encontrados y los datos de la recopilación.","fr":"La page est placée dans un cadre sous son titre, son adresse et sa date, avec un sommaire et un champ de recherche. Les pièces jointes trouvées et les informations de collecte peuvent être ajoutées.","de":"Die Seite steht in einem Rahmen unter Titel, Adresse und Datum, mit Inhaltsverzeichnis und Suchfeld. Die gefundenen Anhänge und die Sammelangaben können hinzugefügt werden.","it":"La pagina è in una cornice sotto titolo, indirizzo e data, con indice e casella di ricerca. Si possono includere gli allegati trovati e i dati della raccolta.","ko":"페이지를 틀에 넣고 위에 제목·출처·수집 일시를 붙이며 목차와 검색창도 붙입니다. 찾은 첨부 문서 목록과 수집 정보도 넣을 수 있습니다.","pt_BR":"A página fica em um quadro abaixo do título, endereço e data, com sumário e caixa de busca. É possível incluir os anexos encontrados e os dados da coleta.","zh_CN":"将页面放入框中，上方加上标题、来源和获取时间，并附目录和搜索框。可以加入找到的附件列表和收集信息。","zh_TW":"將頁面放入框中，上方加上標題、來源和取得時間，並附目錄和搜尋框。可以加入找到的附件清單和收集資訊。"}],"images-offline":[96,64,{"en":"Offline save (default)","ja":"オフライン保存（既定）","es":"Guardar sin conexión (predeterminado)","fr":"Sauvegarde hors ligne (par défaut)","de":"Offline-Speicherung (Standard)","it":"Salvataggio offline (predefinito)","ko":"오프라인 저장(기본값)","pt_BR":"Salvar off-line (padrão)","zh_CN":"离线保存（默认）","zh_TW":"離線儲存（預設）"},{"en":"Embed the obtained image into HTML. The file size will become larger.","ja":"取得できた画像をHTML内へ埋め込みます。ファイル容量が大きくなります。","es":"Incrusta la imagen obtenida en el HTML. El tamaño del archivo aumentará.","fr":"Intègre l'image obtenue dans le HTML. Le fichier sera plus volumineux.","de":"Bettet das erhaltene Bild in das HTML ein. Die Datei wird größer.","it":"Incorpora l'immagine ottenuta in HTML. La dimensione del file aumenterà.","ko":"가져온 이미지를 HTML에 삽입합니다. 파일 용량이 커집니다.","pt_BR":"Incorpora a imagem baixada ao HTML. O arquivo fica maior.","zh_CN":"把图片嵌入 HTML，文件会变大。","zh_TW":"將取得的圖片嵌入 HTML。檔案會變大。"}],"images-online":[96,64,{"en":"Online references","ja":"オンライン参照","es":"Referencia en línea","fr":"Référence en ligne","de":"Online-Referenz","it":"Riferimento online","ko":"온라인 참조","pt_BR":"Referência on-line","zh_CN":"在线引用","zh_TW":"線上引用"},{"en":"Leave the image URL. When you open the HTML, it communicates with the original site. Inline SVG diagrams are converted to safe PNG images.","ja":"画像URLを残します。HTMLを開くと元サイトへ通信します。ページ内のSVG図は安全なPNGへ変換します。","es":"Conserva la URL de la imagen. Al abrir el HTML, se conecta con el sitio original. Los diagramas SVG integrados se convierten en imágenes PNG seguras.","fr":"Conserve l'URL de l'image. À l'ouverture du HTML, le site d'origine est contacté. Les diagrammes SVG intégrés sont convertis en images PNG sûres.","de":"Belässt die Bild-URL. Beim Öffnen des HTML wird die Original-Website kontaktiert. Eingebettete SVG-Diagramme werden in sichere PNG-Bilder umgewandelt.","it":"Mantiene l'URL dell'immagine. Quando apri l'HTML, contatta il sito originale. I diagrammi SVG incorporati vengono convertiti in immagini PNG sicure.","ko":"이미지 URL을 유지합니다. HTML을 열면 원래 사이트와 통신합니다. 페이지 안의 SVG 도표는 안전한 PNG 이미지로 변환합니다.","pt_BR":"Mantém a URL da imagem. Ao abrir o HTML, o site original é acessado. Diagramas SVG incorporados são convertidos em imagens PNG seguras.","zh_CN":"保留图片网址。打开 HTML 时会连接原始站点。页面内嵌的 SVG 图表会转换为安全的 PNG 图片。","zh_TW":"保留圖片網址。開啟 HTML 時會連線至原始網站。頁面內嵌的 SVG 圖表會轉換為安全的 PNG 圖片。"}],"images-links":[96,64,{"en":"Do not embed images","ja":"画像を埋め込まない","es":"No incrustar imágenes","fr":"Ne pas intégrer d'images","de":"Bilder nicht einbetten","it":"Non incorporare immagini","ko":"이미지를 포함하지 않음","pt_BR":"Não incorporar imagens","zh_CN":"不要嵌入图像","zh_TW":"不嵌入圖片"},{"en":"Replaces each image with its name, linked to the original URL. This is the lightest option.","ja":"画像名と元URLへのリンクに置き換えます。最も軽量です。","es":"Reemplaza cada imagen por su nombre y un enlace a la URL original. Es la opción más ligera.","fr":"Remplace l'image par son nom, avec un lien vers l'URL d'origine. C'est l'option la plus légère.","de":"Ersetzt jedes Bild durch seinen Namen und verlinkt auf die Original-URL. Das ist die schlankste Variante.","it":"Sostituiscilo con il nome dell'immagine e collega all'URL originale. È il più leggero.","ko":"이미지 이름과 원래 URL로 연결되는 링크로 바꿉니다. 가장 가볍습니다.","pt_BR":"Troca cada imagem pelo nome dela, com link para a URL original. É a opção mais leve.","zh_CN":"改用图片名称，并链接到原始 URL。体积最小。","zh_TW":"以圖片名稱取代，並連結到原始 URL。檔案最小。"}],"dl-depth":[240,148,{"en":"Follow links by depth","ja":"深さでリンクをたどる","es":"Seguir enlaces por profundidad","fr":"Suivre les liens par profondeur","de":"Links nach Tiefe folgen","it":"Seguire i link per profondità","ko":"깊이에 따라 링크 따라가기","pt_BR":"Seguir links por profundidade","zh_CN":"按深度跟随链接","zh_TW":"依深度跟隨連結"},{"en":"Depth 0 is the open page. Depth 1 adds the pages it links to, and depth 2 goes one step further. Files are listed from every level.","ja":"深さ0は開いているページだけ。深さ1はそのページのリンク先、深さ2はさらにその先までたどり、各段のファイルを一覧にします。","es":"La profundidad 0 es la página abierta. La 1 añade las páginas que enlaza y la 2 va un paso más allá. Se listan los archivos de cada nivel.","fr":"La profondeur 0 correspond à la page ouverte. La 1 ajoute les pages qu’elle lie, la 2 va un cran plus loin. Les fichiers de chaque niveau sont listés.","de":"Tiefe 0 ist die geöffnete Seite. Tiefe 1 nimmt die verlinkten Seiten hinzu, Tiefe 2 geht noch einen Schritt weiter. Die Dateien jeder Ebene werden aufgelistet.","it":"La profondità 0 è la pagina aperta. La 1 aggiunge le pagine collegate e la 2 va un passo oltre. Vengono elencati i file di ogni livello.","ko":"깊이 0은 열려 있는 페이지만, 깊이 1은 그 페이지가 링크한 페이지, 깊이 2는 한 단계 더 나아갑니다. 각 단계의 파일이 목록에 표시됩니다.","pt_BR":"A profundidade 0 é a página aberta. A 1 inclui as páginas que ela vincula e a 2 vai um passo além. Os arquivos de cada nível são listados.","zh_CN":"深度 0 只看当前页面；深度 1 加入它链接的页面，深度 2 再往前一步。每一层的文件都会列出。","zh_TW":"深度 0 只看目前頁面；深度 1 加入它連結的頁面，深度 2 再往前一步。每一層的檔案都會列出。"}],"dl-filter":[240,148,{"en":"Narrow the list","ja":"一覧を絞り込む","es":"Acota la lista","fr":"Affinez la liste","de":"Liste eingrenzen","it":"Restringi l’elenco","ko":"목록 좁히기","pt_BR":"Refine a lista","zh_CN":"缩小列表","zh_TW":"縮小清單"},{"en":"Filter by file type, name or a regular expression, then tick only the files you need.","ja":"種類・名前・正規表現で絞り込み、必要なファイルだけにチェックを入れます。","es":"Filtra por tipo de archivo, nombre o expresión regular y marca solo los archivos que necesitas.","fr":"Filtrez par type de fichier, nom ou expression régulière, puis cochez seulement les fichiers utiles.","de":"Nach Dateityp, Name oder regulärem Ausdruck filtern und nur die benötigten Dateien anhaken.","it":"Filtra per tipo di file, nome o espressione regolare e spunta solo i file che ti servono.","ko":"파일 형식·이름·정규 표현식으로 걸러 필요한 파일만 체크합니다.","pt_BR":"Filtre por tipo de arquivo, nome ou expressão regular e marque só os arquivos de que precisa.","zh_CN":"按文件类型、名称或正则表达式筛选，只勾选需要的文件。","zh_TW":"依檔案類型、名稱或規則運算式篩選，只勾選需要的檔案。"}],"dl-outputs":[240,148,{"en":"Save the way you need","ja":"目的に合わせて保存","es":"Guarda como lo necesites","fr":"Enregistrez comme il vous faut","de":"So speichern, wie Sie es brauchen","it":"Salva come ti serve","ko":"필요한 방식으로 저장","pt_BR":"Salve do jeito que precisar","zh_CN":"按需要保存","zh_TW":"依需要儲存"},{"en":"Save to a folder, bundle into a ZIP, merge PDFs into one, or export the list as CSV.","ja":"フォルダに保存、ZIPにまとめる、PDFを1つに結合、一覧をCSVで書き出す、から選べます。","es":"Guarda en una carpeta, agrupa en un ZIP, combina los PDF en uno o exporta la lista a CSV.","fr":"Enregistrez dans un dossier, regroupez en ZIP, fusionnez les PDF en un seul ou exportez la liste en CSV.","de":"In einen Ordner speichern, als ZIP bündeln, PDFs zu einer Datei zusammenführen oder die Liste als CSV exportieren.","it":"Salva in una cartella, raccogli in uno ZIP, unisci i PDF in uno solo o esporta l’elenco in CSV.","ko":"폴더에 저장, ZIP으로 묶기, PDF를 하나로 병합, 목록을 CSV로 내보내기 중에서 고릅니다.","pt_BR":"Salve em uma pasta, agrupe em um ZIP, una os PDFs em um só ou exporte a lista em CSV.","zh_CN":"可保存到文件夹、打包为 ZIP、将 PDF 合并为一个，或把列表导出为 CSV。","zh_TW":"可儲存到資料夾、打包為 ZIP、將 PDF 合併為一個，或將清單匯出為 CSV。"}]};
+  var OPTION_ART = {"crawl-current":[96,64,{"en":"Current page only","ja":"現在のページだけ","es":"solo la página actual","fr":"Page actuelle uniquement","de":"Nur aktuelle Seite","it":"solo la pagina corrente","ko":"현재 페이지만","pt_BR":"apenas página atual","zh_CN":"仅当前页面","zh_TW":"僅目前頁面"},{"en":"Combine just the main content of the open page","ja":"開いている1ページの本文だけをまとめます","es":"Combinar solo el contenido principal de la página abierta","fr":"Regrouper uniquement le contenu principal de la page ouverte","de":"Nur den Hauptinhalt der geöffneten Seite übernehmen","it":"Unisci solo il contenuto principale della pagina aperta","ko":"열려 있는 페이지의 본문만 합칩니다","pt_BR":"Juntar apenas o conteúdo principal da página aberta","zh_CN":"仅合并当前打开页面的正文","zh_TW":"僅合併目前開啟頁面的內文"}],"ai-package":[96,64,{"en":"Full package","ja":"フルパッケージ","es":"Paquete completo","fr":"Paquet complet","de":"Komplettpaket","it":"Pacchetto completo","ko":"전체 패키지","pt_BR":"Pacote completo","zh_CN":"完整包","zh_TW":"完整套件"},{"en":"corpus.md, chunks.jsonl, manifest.json, the AI request text, and the readable HTML in one ZIP.","ja":"corpus.md・chunks.jsonl・manifest.json・依頼文・閲覧用HTMLを1つのZIPに含めます。","es":"corpus.md, chunks.jsonl, manifest.json, el texto de petición y el HTML legible en un ZIP.","fr":"corpus.md, chunks.jsonl, manifest.json, le texte de demande et le HTML lisible dans un ZIP.","de":"corpus.md, chunks.jsonl, manifest.json, Anfragetext und lesbares HTML in einem ZIP.","it":"corpus.md, chunks.jsonl, manifest.json, il testo di richiesta e l’HTML leggibile in un unico ZIP.","ko":"corpus.md·chunks.jsonl·manifest.json·요청문·열람용 HTML을 하나의 ZIP에 담습니다.","pt_BR":"corpus.md, chunks.jsonl, manifest.json, o texto de pedido e o HTML legível em um ZIP.","zh_CN":"将corpus.md、chunks.jsonl、manifest.json、请求文和阅读用HTML放入一个ZIP。","zh_TW":"將corpus.md、chunks.jsonl、manifest.json、請求文與閱讀用HTML放入一個ZIP。"}],"ai-single":[96,64,{"en":"One Markdown file","ja":"1つのMarkdown","es":"Un solo Markdown","fr":"Un seul Markdown","de":"Eine Markdown-Datei","it":"Un unico Markdown","ko":"하나의 Markdown","pt_BR":"Um único Markdown","zh_CN":"单个Markdown","zh_TW":"單一Markdown"},{"en":"All pages combined into a single .md with per-page sources.","ja":"全ページを出典付きで1つの.mdにまとめます。","es":"Todas las páginas combinadas en un único .md con fuentes por página.","fr":"Toutes les pages réunies dans un seul .md avec les sources par page.","de":"Alle Seiten mit Quellen in einer einzigen .md-Datei.","it":"Tutte le pagine unite in un solo .md con fonti per pagina.","ko":"전체 페이지를 출처와 함께 하나의 .md로 합칩니다.","pt_BR":"Todas as páginas combinadas em um único .md com fontes por página.","zh_CN":"将所有页面连同出处合并为一个.md。","zh_TW":"將所有頁面連同出處合併為一個.md。"}],"ai-text-article":[96,64,{"en":"Main content (default)","ja":"主要本文（既定）","es":"Contenido principal (predeterminado)","fr":"Contenu principal (par défaut)","de":"Hauptinhalt (Standard)","it":"Contenuto principale (predefinito)","ko":"주요 본문(기본)","pt_BR":"Conteúdo principal (padrão)","zh_CN":"主要正文（默认）","zh_TW":"主要本文（預設）"},{"en":"Converts only the article or manual body to Markdown. Menus and ads are excluded.","ja":"記事・マニュアルの本文だけをMarkdown化します。メニューや広告は除外します。","es":"Convierte a Markdown solo el cuerpo del artículo o manual. Menús y anuncios quedan excluidos.","fr":"Convertit en Markdown uniquement le corps de l’article ou du manuel. Menus et publicités exclus.","de":"Wandelt nur den Artikel- oder Handbuchtext in Markdown um. Menüs und Werbung werden ausgeschlossen.","it":"Converte in Markdown solo il corpo dell’articolo o del manuale. Menu e pubblicità esclusi.","ko":"기사·설명서 본문만 Markdown으로 변환합니다. 메뉴와 광고는 제외합니다.","pt_BR":"Converte para Markdown apenas o corpo do artigo ou manual. Menus e anúncios são excluídos.","zh_CN":"仅将文章、手册正文转换为Markdown。排除菜单和广告。","zh_TW":"僅將文章、手冊本文轉換為Markdown。排除選單與廣告。"}],"ai-text-visible":[96,64,{"en":"Text visible on screen","ja":"画面に表示されるテキスト","es":"Texto visible en pantalla","fr":"Texte visible à l’écran","de":"Auf dem Bildschirm sichtbarer Text","it":"Testo visibile sullo schermo","ko":"화면에 표시되는 텍스트","pt_BR":"Texto visível na tela","zh_CN":"屏幕上显示的文本","zh_TW":"畫面上顯示的文字"},{"en":"Saves on-screen text in DOM order, for analyzing admin screens, price tables and other UI. Most accurate with the “Compatible” fetch method.","ja":"画面上の文字をDOM順で保存します。管理画面・料金表など画面仕様の分析向け。取得方法を「互換性重視」にすると最も正確になります。","es":"Guarda el texto en pantalla en orden DOM, para analizar paneles de administración, tablas de precios y otras UI. Más preciso con el método de obtención «Compatible».","fr":"Enregistre le texte affiché dans l’ordre du DOM ; pratique pour analyser des consoles d’administration, des grilles tarifaires et d’autres interfaces. Le plus précis avec la méthode de récupération « Compatible ».","de":"Speichert Bildschirmtext in DOM-Reihenfolge – für Verwaltungsoberflächen, Preistabellen und andere UI-Analysen. Am genauesten mit der Abrufmethode „Kompatibel“.","it":"Salva il testo a schermo in ordine DOM, utile per analizzare pannelli di amministrazione, listini e altre UI. Più preciso con il metodo di recupero «Compatibile».","ko":"화면의 문자를 DOM 순서로 저장합니다. 관리 화면, 요금표 등 UI 분석용이며 가져오기 방법을 “호환 모드”로 하면 가장 정확합니다.","pt_BR":"Salva o texto da tela em ordem DOM, para analisar painéis administrativos, tabelas de preços e outras UIs. Mais preciso com o método de obtenção “Compatível”.","zh_CN":"按DOM顺序保存屏幕文字，适合分析管理界面、价格表等UI。获取方式选“兼容”时最准确。","zh_TW":"依DOM順序儲存畫面文字，適合分析管理介面、價目表等UI。取得方式選「相容」時最準確。"}],"scope-linked-pages":[240,84,{"en":"Also find the pages it links to","ja":"リンク先のページも探す","es":"Buscar también las páginas enlazadas","fr":"Chercher aussi les pages liées","de":"Auch verlinkte Seiten suchen","it":"Cerca anche le pagine collegate","ko":"링크된 페이지도 찾기","pt_BR":"Procurar também as páginas vinculadas","zh_CN":"同时查找链接到的页面","zh_TW":"同時尋找連結到的頁面"},{"en":"Finds the pages this one links to; you choose which to combine.","ja":"リンクしているページを探して、選んだページをまとめます。","es":"Busca las páginas enlazadas desde esta; tú eliges cuáles combinar.","fr":"Cherche les pages liées depuis celle-ci ; vous choisissez lesquelles combiner.","de":"Sucht die hier verlinkten Seiten; Sie wählen, welche zusammengefasst werden.","it":"Cerca le pagine collegate da questa; scegli tu quali unire.","ko":"이 페이지가 링크한 페이지를 찾고, 고른 페이지를 합칩니다.","pt_BR":"Procura as páginas vinculadas a esta; você escolhe quais juntar.","zh_CN":"查找此页链接的页面，由你选择要合并的页面。","zh_TW":"尋找此頁連結的頁面，由你選擇要合併的頁面。"}],"look-reader":[240,84,{"en":"Easy to read","ja":"読みやすく整える","es":"Fácil de leer","fr":"Facile à lire","de":"Gut lesbar","it":"Facile da leggere","ko":"읽기 쉽게 정리","pt_BR":"Fácil de ler","zh_CN":"整理为易读格式","zh_TW":"整理為易讀格式"},{"en":"Only the main content, in one matching style. Fast and light; good for reading, printing and AI.","ja":"本文だけを同じ書式にそろえます。速く軽く、読む・印刷・AIに向きます。","es":"Solo el contenido principal, con un mismo estilo. Rápido y ligero; ideal para leer, imprimir y la IA.","fr":"Seulement le contenu principal, dans un même style. Rapide et léger ; idéal pour la lecture, l’impression et l’IA.","de":"Nur der Hauptinhalt, in einem einheitlichen Stil. Schnell und leicht; gut zum Lesen, Drucken und für KI.","it":"Solo il contenuto principale, in uno stile uniforme. Veloce e leggero; adatto a leggere, stampare e all’IA.","ko":"본문만 같은 서식으로 정리합니다. 빠르고 가벼워 읽기·인쇄·AI에 적합합니다.","pt_BR":"Só o conteúdo principal, em um estilo único. Rápido e leve; bom para ler, imprimir e IA.","zh_CN":"只保留正文，统一成同一种格式。快速轻便，适合阅读、打印和交给 AI。","zh_TW":"只保留正文，統一成同一種格式。快速輕便，適合閱讀、列印和交給 AI。"}],"form-contents-search":[160,64,{"en":"HTML with contents and search","ja":"目次・検索付きHTML","es":"HTML con índice y búsqueda","fr":"HTML avec sommaire et recherche","de":"HTML mit Inhaltsverzeichnis und Suche","it":"HTML con indice e ricerca","ko":"목차·검색 기능이 있는 HTML","pt_BR":"HTML com índice e pesquisa","zh_CN":"带目录和搜索的HTML","zh_TW":"附目錄及搜尋的HTML"},{"en":"Each page in a frame, with a title, contents and a search box. The smallest file of these four forms.","ja":"各ページを枠に入れ、題名・目次・検索欄を付けます。4つの形の中でファイルがいちばん小さくなります。","es":"Cada página en un marco, con título, índice y cuadro de búsqueda. El archivo más pequeño de las cuatro formas.","fr":"Chaque page dans un cadre, avec titre, sommaire et champ de recherche. Le fichier le plus léger des quatre formes.","de":"Jede Seite in einem Rahmen, mit Titel, Inhaltsverzeichnis und Suchfeld. Die kleinste Datei dieser vier Formen.","it":"Ogni pagina in una cornice, con titolo, indice e casella di ricerca. Il file più piccolo fra le quattro forme.","ko":"각 페이지를 틀에 넣고 제목·목차·검색창을 붙입니다. 네 가지 형태 중 파일이 가장 작습니다.","pt_BR":"Cada página em um quadro, com título, sumário e caixa de busca. O menor arquivo entre as quatro formas.","zh_CN":"将每个页面放入框中，附标题、目录和搜索框。在这四种形式中文件最小。","zh_TW":"將每個頁面放入框中，附標題、目錄和搜尋框。在這四種形式中檔案最小。"}],"ai-pages":[96,64,{"en":"Per-page Markdown","ja":"ページ別Markdown","es":"Markdown por página","fr":"Markdown par page","de":"Markdown je Seite","it":"Markdown per pagina","ko":"페이지별 Markdown","pt_BR":"Markdown por página","zh_CN":"按页Markdown","zh_TW":"逐頁Markdown"},{"en":"One .md per page plus manifest.json, bundled as a ZIP.","ja":"ページごとの.mdとmanifest.jsonをZIPにまとめます。","es":"Un .md por página más manifest.json, empaquetados en un ZIP.","fr":"Un .md par page plus manifest.json, regroupés dans un ZIP.","de":"Eine .md pro Seite plus manifest.json als ZIP.","it":"Un .md per pagina più manifest.json, in un unico ZIP.","ko":"페이지별 .md와 manifest.json을 ZIP으로 묶습니다.","pt_BR":"Um .md por página mais manifest.json, empacotados em um ZIP.","zh_CN":"每页一个.md加manifest.json，打包为ZIP。","zh_TW":"每頁一個.md加manifest.json，打包為ZIP。"}],"crawl-menu":[96,64,{"en":"In the selected menu","ja":"選んだメニュー内","es":"En el menú seleccionado","fr":"Dans le menu sélectionné","de":"Im ausgewählten Menü","it":"Nel menu selezionato","ko":"선택한 메뉴 내","pt_BR":"No menu selecionado","zh_CN":"在所选菜单中","zh_TW":"在所選選單中"},{"en":"Navigates through links in the table of contents and side menu","ja":"目次やサイドメニューのリンクをたどる","es":"Navega por los enlaces de la tabla de contenido y el menú lateral","fr":"Suivre les liens de la table des matières et du menu latéral","de":"Navigiert durch die Links im Inhaltsverzeichnis und im Seitenmenü","it":"Naviga tra i collegamenti nel sommario e nel menu laterale","ko":"목차나 사이드 메뉴의 링크를 순회","pt_BR":"Navega pelos links no índice e no menu lateral","zh_CN":"通过目录和侧面菜单中的链接导航","zh_TW":"透過目錄和側面選單中的連結導覽"}],"crawl-path":[96,64,{"en":"Under the same path","ja":"同じパス配下","es":"bajo la misma ruta","fr":"Sous le même chemin","de":"unter demselben Pfad","it":"sotto lo stesso percorso","ko":"같은 경로 아래","pt_BR":"sob o mesmo caminho","zh_CN":"同一路径下","zh_TW":"同一路徑下"},{"en":"Traverses within the hierarchy of the current URL","ja":"現在URLの階層内をたどります","es":"Atravesar dentro de la jerarquía de la URL actual","fr":"Parcourez la hiérarchie de l’URL actuelle","de":"Durchläuft die Hierarchie der aktuellen URL","it":"Attraversa la gerarchia dell’URL corrente","ko":"현재 URL의 계층 구조를 따릅니다.","pt_BR":"Percorre a hierarquia da URL atual","zh_CN":"在当前 URL 的层次结构内遍历","zh_TW":"只尋找目前 URL 所在階層內的頁面"}],"crawl-links":[96,64,{"en":"Follow the links on this page","ja":"このページのリンクをたどる","es":"Seguir los enlaces de esta página","fr":"Suivre les liens de cette page","de":"Den Links auf dieser Seite folgen","it":"Segui i collegamenti di questa pagina","ko":"이 페이지의 링크를 따라가기","pt_BR":"Seguir os links desta página","zh_CN":"跟随本页的链接","zh_TW":"追蹤本頁的連結"},{"en":"Every link on the page, menus and body alike","ja":"メニューも本文も含め、ページ内のすべてのリンクが対象です","es":"Todos los enlaces de la página, menús y cuerpo por igual","fr":"Tous les liens de la page, menus comme corps de texte","de":"Alle Links der Seite, Menüs wie Fließtext","it":"Tutti i collegamenti della pagina, menu e testo compresi","ko":"메뉴와 본문을 포함한 페이지의 모든 링크가 대상입니다","pt_BR":"Todos os links da página, menus e corpo igualmente","zh_CN":"页面上的所有链接，菜单和正文都包括在内","zh_TW":"頁面上的所有連結，選單與內文都包括在內"}],"form-long-page":[160,64,{"en":"Vertically joined HTML (for printing)","ja":"縦につないだHTML（印刷向け）","es":"HTML vertical (para imprimir)","fr":"HTML vertical (pour l’impression)","de":"Vertikal verbundenes HTML (zum Drucken)","it":"HTML verticale (per la stampa)","ko":"세로로 이은 HTML(인쇄용)","pt_BR":"HTML vertical (para impressão)","zh_CN":"纵向拼接HTML（适合打印）","zh_TW":"直向串接HTML（適合列印）"},{"en":"Saves the pages vertically in one HTML file, with page breaks when printed. To create a PDF afterwards, use your browser’s print function.","ja":"各ページを縦につないだHTMLを保存します。印刷時はページごとに改ページされます。PDFが必要な場合は、保存後にブラウザの印刷機能を使います。","es":"Guarda las páginas una debajo de otra en un HTML, con saltos de página al imprimir. Para crear un PDF después, use la impresión del navegador.","fr":"Enregistre les pages verticalement dans un HTML, avec des sauts de page à l’impression. Pour créer ensuite un PDF, utilisez la fonction d’impression du navigateur.","de":"Speichert die Seiten untereinander in einer HTML-Datei, beim Drucken mit Seitenumbrüchen. Für eine PDF verwenden Sie danach die Druckfunktion des Browsers.","it":"Salva le pagine una sotto l’altra in un HTML, con interruzioni di pagina in stampa. Per creare un PDF dopo, usa la stampa del browser.","ko":"페이지를 세로로 이은 HTML을 저장하며 인쇄할 때 페이지별로 나눕니다. PDF가 필요하면 저장 후 브라우저의 인쇄 기능을 사용하세요.","pt_BR":"Salva as páginas uma abaixo da outra em um HTML, com quebras de página na impressão. Para criar um PDF depois, use a impressão do navegador.","zh_CN":"将各页纵向拼接为HTML，打印时按页分页。需要PDF时，请在保存后使用浏览器的打印功能。","zh_TW":"將各頁直向串接為HTML，列印時依頁分頁。需要PDF時，請在儲存後使用瀏覽器的列印功能。"}],"crawl-pasted":[96,64,{"en":"Paste URL","ja":"URLを貼り付ける","es":"Pegar URL","fr":"Coller l’URL","de":"URL einfügen","it":"Incolla l’URL","ko":"URL 붙여넣기","pt_BR":"Colar URL","zh_CN":"粘贴网址","zh_TW":"貼上網址"},{"en":"Groups only the specified URLs in the order they were entered.","ja":"指定したURLだけを入力順にまとめます","es":"Agrupa solo las URL indicadas, en el orden en que las introduces.","fr":"Regroupez uniquement les URL spécifiées dans l’ordre dans lequel elles ont été saisies.","de":"Gruppiert nur die angegebenen URLs in der Reihenfolge, in der sie eingegeben wurden.","it":"Raggruppa solo gli URL specificati nell’ordine in cui sono stati immessi.","ko":"지정한 URL만 입력순으로 정리","pt_BR":"Agrupa apenas as URLs especificadas na ordem em que foram inseridas.","zh_CN":"仅按输入顺序把指定的 URL 归为一组。","zh_TW":"只將指定的 URL 依輸入順序歸為一組。"}],"crawl-sitemap":[96,64,{"en":"Sitemap","ja":"サイトマップ","es":"mapa del sitio","fr":"Plan du site","de":"Sitemap","it":"mappa del sito","ko":"사이트맵","pt_BR":"mapa do site","zh_CN":"站点地图","zh_TW":"網站地圖"},{"en":"Loads suggestions from sitemap.xml","ja":"sitemap.xmlから候補を読み込みます","es":"Cargar sugerencias desde sitemap.xml","fr":"Charger des suggestions à partir du sitemap.xml","de":"Lädt Vorschläge aus sitemap.xml","it":"Carica suggerimenti da sitemap.xml","ko":"sitemap.xml에서 후보를 로드합니다.","pt_BR":"Carrega sugestões de sitemap.xml","zh_CN":"从 sitemap.xml 加载建议","zh_TW":"從 sitemap.xml 載入建議"}],"crawl-basket":[96,64,{"en":"Pages in the basket","ja":"かごに集めたページ","es":"Páginas en la cesta","fr":"Pages dans le panier","de":"Seiten im Sammelkorb","it":"Pagine nel carrello","ko":"수집함에 담긴 페이지","pt_BR":"Páginas na cesta","zh_CN":"收集篮中的页面","zh_TW":"收集籃中的頁面"},{"en":"Combines the tabs and links you gathered, in this order","ja":"タブや右クリックで集めた一覧を、この順番のままつなげます","es":"Combina las pestañas y enlaces recopilados, en este orden","fr":"Combine les onglets et liens rassemblés, dans cet ordre","de":"Verknüpft die gesammelten Tabs und Links in dieser Reihenfolge","it":"Unisce le schede e i link raccolti, in questo ordine","ko":"모은 탭과 링크를 이 순서대로 연결합니다","pt_BR":"Combina as abas e links reunidos, nesta ordem","zh_CN":"按此顺序合并收集的标签页和链接","zh_TW":"依此順序合併收集的分頁與連結"}],"form-pages-zip":[160,64,{"en":"Separate HTML pages (ZIP)","ja":"ページ別HTML（ZIP）","es":"Páginas HTML separadas (ZIP)","fr":"Pages HTML séparées (ZIP)","de":"Einzelne HTML-Seiten (ZIP)","it":"Pagine HTML separate (ZIP)","ko":"페이지별 HTML(ZIP)","pt_BR":"Páginas HTML separadas (ZIP)","zh_CN":"分页HTML（ZIP）","zh_TW":"分頁HTML（ZIP）"},{"en":"Each page as its own HTML, just like the page, packed with a contents page (index.html) in one ZIP.","ja":"1ページずつ元のページと同じHTMLにし、目次（index.html）と一緒に1つのZIPにまとめます。","es":"Cada página como su propio HTML, igual que el original, junto con una página de índice (index.html) en un ZIP.","fr":"Chaque page dans son propre HTML, identique à l’original, avec une page de sommaire (index.html) dans un ZIP.","de":"Jede Seite als eigene HTML-Datei wie das Original, zusammen mit einer Inhaltsseite (index.html) in einer ZIP-Datei.","it":"Ogni pagina come HTML a sé, uguale all’originale, con una pagina indice (index.html) in un unico ZIP.","ko":"한 페이지씩 원래 페이지와 같은 HTML로 만들고 목차(index.html)와 함께 ZIP 하나로 묶습니다.","pt_BR":"Cada página como um HTML próprio, igual ao original, junto com uma página de sumário (index.html) em um ZIP.","zh_CN":"将每个页面保存为与原页面相同的 HTML，与目录（index.html）一起打包成一个 ZIP。","zh_TW":"將每個頁面儲存為與原頁面相同的 HTML，與目錄（index.html）一起打包成一個 ZIP。"}],"local-use-archive":[96,64,{"en":"Keep the site","ja":"サイトを保存","es":"Conservar el sitio","fr":"Conserver le site","de":"Website aufbewahren","it":"Conservare il sito","ko":"사이트 보관","pt_BR":"Guardar o site","zh_CN":"保存网站","zh_TW":"保存網站"},{"en":"Embeds the images and copies linked files (PDF and so on) next to the HTML, so the copy works on its own.","ja":"画像を埋め込み、リンク先のファイル（PDFなど）はHTMLの隣にコピーします。コピーだけで見られる形になります。","es":"Incrusta las imágenes y copia los archivos enlazados (PDF, etc.) junto al HTML, para que la copia funcione por sí sola.","fr":"Intègre les images et copie les fichiers liés (PDF, etc.) à côté du HTML, pour que la copie fonctionne seule.","de":"Bettet die Bilder ein und kopiert verlinkte Dateien (PDF usw.) neben das HTML, sodass die Kopie für sich allein funktioniert.","it":"Incorpora le immagini e copia i file collegati (PDF e così via) accanto all’HTML, così la copia funziona da sola.","ko":"이미지를 포함하고 링크된 파일(PDF 등)을 HTML 옆에 복사해, 복사본만으로 볼 수 있게 합니다.","pt_BR":"Incorpora as imagens e copia os arquivos vinculados (PDF etc.) ao lado do HTML, para que a cópia funcione sozinha.","zh_CN":"嵌入图片，并将链接文件（PDF 等）复制到 HTML 旁边，使副本可以单独使用。","zh_TW":"嵌入圖片，並將連結檔案（PDF 等）複製到 HTML 旁邊，讓副本可單獨使用。"}],"local-use-share":[96,64,{"en":"Share as one file","ja":"1ファイルで配る","es":"Compartir como un archivo","fr":"Partager en un seul fichier","de":"Als eine Datei weitergeben","it":"Condividere come un solo file","ko":"파일 하나로 공유","pt_BR":"Compartilhar como um arquivo","zh_CN":"作为一个文件分享","zh_TW":"以單一檔案分享"},{"en":"Embeds the images and the linked files in the single HTML, so one file is all you send.","ja":"画像もリンク先のファイルも1つのHTMLに埋め込みます。送るのは1ファイルだけです。","es":"Incrusta las imágenes y los archivos enlazados en un único HTML, así solo envías un archivo.","fr":"Intègre les images et les fichiers liés dans un seul HTML : vous n’envoyez qu’un fichier.","de":"Bettet Bilder und verlinkte Dateien in das eine HTML ein, sodass Sie nur eine Datei senden.","it":"Incorpora immagini e file collegati in un unico HTML: invii un solo file.","ko":"이미지와 링크된 파일을 하나의 HTML에 포함해, 파일 하나만 보내면 됩니다.","pt_BR":"Incorpora imagens e arquivos vinculados em um único HTML: você envia só um arquivo.","zh_CN":"将图片和链接文件都嵌入到一个 HTML 中，只需发送一个文件。","zh_TW":"將圖片與連結檔案都嵌入一個 HTML 中，只需傳送一個檔案。"}],"local-use-print":[96,64,{"en":"Print or make a PDF","ja":"印刷・PDF化","es":"Imprimir o crear un PDF","fr":"Imprimer ou créer un PDF","de":"Drucken oder PDF erstellen","it":"Stampare o creare un PDF","ko":"인쇄·PDF 만들기","pt_BR":"Imprimir ou gerar PDF","zh_CN":"打印或生成 PDF","zh_TW":"列印或製作 PDF"},{"en":"Embeds the images and leaves linked files as links: only what appears on the pages.","ja":"画像を埋め込み、リンク先のファイルはリンクのまま残します。ページに見えている内容だけをまとめます。","es":"Incrusta las imágenes y deja los archivos enlazados como enlaces: solo lo que aparece en las páginas.","fr":"Intègre les images et laisse les fichiers liés en liens : uniquement ce qui apparaît sur les pages.","de":"Bettet die Bilder ein und belässt verlinkte Dateien als Links: nur was auf den Seiten zu sehen ist.","it":"Incorpora le immagini e lascia i file collegati come link: solo ciò che appare nelle pagine.","ko":"이미지를 포함하고 링크된 파일은 링크로 둡니다. 페이지에 보이는 내용만 담습니다.","pt_BR":"Incorpora as imagens e deixa os arquivos vinculados como links: só o que aparece nas páginas.","zh_CN":"嵌入图片，链接文件保留为链接：只包含页面上显示的内容。","zh_TW":"嵌入圖片，連結檔案保留為連結：只包含頁面上顯示的內容。"}],"local-use-ai":[96,64,{"en":"Give it to an AI","ja":"AIに読ませる","es":"Dárselo a una IA","fr":"Le donner à une IA","de":"Einer KI geben","it":"Darlo a un’IA","ko":"AI에게 읽히기","pt_BR":"Entregar a uma IA","zh_CN":"交给 AI 阅读","zh_TW":"交給 AI 閱讀"},{"en":"Keeps images as names and also prepares the AI analysis package (Markdown with sources).","ja":"画像は名前だけにし、AI分析用のデータ（出典付きMarkdown）も作ります。","es":"Deja las imágenes como nombres y prepara además el paquete de análisis para IA (Markdown con fuentes).","fr":"Garde les images sous forme de noms et prépare aussi le paquet d’analyse IA (Markdown avec sources).","de":"Belässt Bilder als Namen und erstellt zusätzlich das KI-Analysepaket (Markdown mit Quellen).","it":"Lascia le immagini come nomi e prepara anche il pacchetto di analisi IA (Markdown con fonti).","ko":"이미지는 이름만 남기고, AI 분석용 데이터(출처가 포함된 Markdown)도 만듭니다.","pt_BR":"Mantém as imagens como nomes e também prepara o pacote de análise para IA (Markdown com fontes).","zh_CN":"图片只保留名称，并另外生成 AI 分析数据（带来源的 Markdown）。","zh_TW":"圖片只保留名稱，並另外產生 AI 分析資料（附來源的 Markdown）。"}],"local-order-links":[96,64,{"en":"Follow the links from the top page","ja":"トップページからのリンクの順","es":"Seguir los enlaces desde la página principal","fr":"Suivre les liens depuis la page d’accueil","de":"Den Links ab der Startseite folgen","it":"Seguire i link dalla pagina iniziale","ko":"첫 페이지부터 링크 순서","pt_BR":"Seguir os links a partir da página inicial","zh_CN":"按首页开始的链接顺序","zh_TW":"依首頁開始的連結順序"},{"en":"Starts at index.html (or a similar top page) and follows its links and frames, so the pages appear in the order a reader meets them. Pages nothing links to come last.","ja":"index.html などのトップページから、リンクとフレームをたどった順に並べます。読む人がたどる順になります。どこからもリンクされていないページは最後に並べます。","es":"Empieza en index.html (o una página principal similar) y sigue sus enlaces y marcos, para que las páginas aparezcan en el orden en que las encuentra el lector. Las páginas sin enlaces hacia ellas van al final.","fr":"Part de index.html (ou d’une page d’accueil similaire) et suit ses liens et cadres, pour que les pages apparaissent dans l’ordre où le lecteur les rencontre. Les pages vers lesquelles rien ne pointe viennent en dernier.","de":"Beginnt bei index.html (oder einer ähnlichen Startseite) und folgt deren Links und Frames, sodass die Seiten in der Reihenfolge erscheinen, in der Lesende sie finden. Nicht verlinkte Seiten kommen zuletzt.","it":"Parte da index.html (o una pagina iniziale simile) e ne segue link e frame, così le pagine compaiono nell’ordine in cui il lettore le incontra. Le pagine non collegate vanno in fondo.","ko":"index.html 같은 첫 페이지에서 시작해 링크와 프레임을 따라가며, 읽는 사람이 만나는 순서로 페이지를 놓습니다. 어디에서도 링크되지 않은 페이지는 마지막에 둡니다.","pt_BR":"Começa em index.html (ou uma página inicial parecida) e segue seus links e frames, para que as páginas apareçam na ordem em que o leitor as encontra. Páginas sem links até elas ficam no fim.","zh_CN":"从 index.html 等首页开始，沿着链接和框架排列页面，与读者浏览的顺序一致。没有任何链接指向的页面排在最后。","zh_TW":"從 index.html 等首頁開始，沿著連結與框架排列頁面，與讀者瀏覽的順序一致。沒有任何連結指向的頁面排在最後。"}],"local-order-name":[96,64,{"en":"File name order","ja":"ファイル名の順","es":"Orden por nombre de archivo","fr":"Ordre des noms de fichier","de":"Nach Dateinamen","it":"Ordine per nome file","ko":"파일 이름 순서","pt_BR":"Ordem do nome do arquivo","zh_CN":"按文件名顺序","zh_TW":"依檔名順序"},{"en":"Sorts by folder and file name (2 before 10).","ja":"フォルダ名とファイル名の順に並べます（2 は 10 より前）。","es":"Ordena por carpeta y nombre de archivo (2 antes que 10).","fr":"Trie par dossier et nom de fichier (2 avant 10).","de":"Sortiert nach Ordner- und Dateinamen (2 vor 10).","it":"Ordina per cartella e nome file (2 prima di 10).","ko":"폴더 이름과 파일 이름 순으로 정렬합니다(2가 10보다 앞).","pt_BR":"Ordena por pasta e nome do arquivo (2 antes de 10).","zh_CN":"按文件夹名和文件名排序（2 在 10 之前）。","zh_TW":"依資料夾名稱與檔名排序（2 在 10 之前）。"}],"linked-copy":[96,64,{"en":"Copy next to the HTML","ja":"HTMLの隣にコピーする","es":"Copiar junto al HTML","fr":"Copier à côté du HTML","de":"Neben das HTML kopieren","it":"Copia accanto all’HTML","ko":"HTML 옆에 복사","pt_BR":"Copiar ao lado do HTML","zh_CN":"复制到 HTML 旁边","zh_TW":"複製到 HTML 旁邊"},{"en":"Each linked file is copied into a folder beside the HTML, and the links open those copies. Keep the HTML and the folder together.","ja":"リンク先のファイルをHTMLと同じ場所のフォルダにコピーし、リンクはそのコピーを開きます。HTMLとフォルダは一緒に移動してください。","es":"Cada archivo enlazado se copia en una carpeta junto al HTML y los enlaces abren esas copias. Mantén juntos el HTML y la carpeta.","fr":"Chaque fichier lié est copié dans un dossier à côté du HTML, et les liens ouvrent ces copies. Gardez le HTML et le dossier ensemble.","de":"Jede verlinkte Datei wird in einen Ordner neben dem HTML kopiert, und die Links öffnen diese Kopien. Bewahren Sie HTML und Ordner zusammen auf.","it":"Ogni file collegato viene copiato in una cartella accanto all’HTML e i link aprono quelle copie. Tieni insieme l’HTML e la cartella.","ko":"링크된 각 파일을 HTML 옆의 폴더에 복사하고, 링크는 그 복사본을 엽니다. HTML과 폴더는 함께 보관하세요.","pt_BR":"Cada arquivo vinculado é copiado para uma pasta ao lado do HTML, e os links abrem essas cópias. Mantenha o HTML e a pasta juntos.","zh_CN":"每个链接文件都会复制到 HTML 旁边的文件夹中，链接会打开这些副本。请将 HTML 和文件夹放在一起。","zh_TW":"每個連結檔案都會複製到 HTML 旁邊的資料夾中，連結會開啟這些副本。請將 HTML 與資料夾放在一起。"}],"linked-embed":[96,64,{"en":"Embed in the HTML","ja":"HTMLの中に埋め込む","es":"Incrustar en el HTML","fr":"Intégrer dans le HTML","de":"In das HTML einbetten","it":"Incorpora nell’HTML","ko":"HTML 안에 포함","pt_BR":"Incorporar no HTML","zh_CN":"嵌入到 HTML 中","zh_TW":"嵌入到 HTML 中"},{"en":"The files are stored inside the single HTML file and listed at its end. One file is easy to share, but it grows by the size of the files.","ja":"ファイルを1つのHTMLの中に入れ、末尾に一覧で並べます。1ファイルで渡せますが、その分HTMLが大きくなります。","es":"Los archivos se guardan dentro del único archivo HTML y se enumeran al final. Un solo archivo es fácil de compartir, pero crece según el tamaño de los archivos.","fr":"Les fichiers sont stockés dans l’unique fichier HTML et listés à la fin. Un seul fichier est facile à partager, mais il grossit de la taille des fichiers.","de":"Die Dateien werden in der einen HTML-Datei gespeichert und am Ende aufgelistet. Eine Datei lässt sich leicht weitergeben, wird aber um die Größe der Dateien größer.","it":"I file vengono salvati dentro l’unico file HTML ed elencati alla fine. Un solo file è facile da condividere, ma cresce della dimensione dei file.","ko":"파일을 하나의 HTML 안에 넣고 끝에 목록으로 보여 줍니다. 파일 하나로 공유하기 쉽지만 그만큼 HTML이 커집니다.","pt_BR":"Os arquivos ficam dentro do único arquivo HTML e são listados no final. Um só arquivo é fácil de compartilhar, mas cresce conforme o tamanho dos arquivos.","zh_CN":"文件保存在这一个 HTML 文件中，并在末尾列出。单个文件便于分享，但会随文件大小而变大。","zh_TW":"檔案會存放在這一個 HTML 檔案中，並在末尾列出。單一檔案方便分享，但會隨檔案大小而變大。"}],"linked-none":[96,64,{"en":"Leave them as links","ja":"リンクのまま残す","es":"Dejarlos como enlaces","fr":"Les laisser en liens","de":"Als Links belassen","it":"Lasciali come link","ko":"링크로 그대로 두기","pt_BR":"Deixar como links","zh_CN":"保留为链接","zh_TW":"保留為連結"},{"en":"Linked files are not copied. Their links keep pointing at the original folder.","ja":"リンク先のファイルはコピーしません。リンクは元のフォルダを指したままです。","es":"Los archivos enlazados no se copian. Sus enlaces siguen apuntando a la carpeta original.","fr":"Les fichiers liés ne sont pas copiés. Leurs liens continuent de pointer vers le dossier d’origine.","de":"Verlinkte Dateien werden nicht kopiert. Ihre Links zeigen weiter auf den ursprünglichen Ordner.","it":"I file collegati non vengono copiati. I loro link continuano a puntare alla cartella originale.","ko":"링크된 파일은 복사하지 않습니다. 링크는 원래 폴더를 계속 가리킵니다.","pt_BR":"Os arquivos vinculados não são copiados. Os links continuam apontando para a pasta original.","zh_CN":"不复制链接文件。链接仍指向原文件夹。","zh_TW":"不複製連結檔案。連結仍指向原資料夾。"}],"look-original":[240,84,{"en":"Keep the original look","ja":"元の見た目のまま","es":"Mantener el aspecto original","fr":"Garder l’apparence d’origine","de":"Ursprüngliches Aussehen behalten","it":"Mantieni l’aspetto originale","ko":"원래 모양 그대로","pt_BR":"Manter a aparência original","zh_CN":"保持原样","zh_TW":"保持原樣"},{"en":"Keeps the site’s own design.","ja":"サイトのデザインを残します。","es":"Conserva el diseño propio del sitio.","fr":"Garde le design propre du site.","de":"Behält das eigene Design der Website.","it":"Mantiene il design del sito.","ko":"사이트의 디자인을 그대로 남깁니다.","pt_BR":"Mantém o design do próprio site.","zh_CN":"保留网站自己的设计。","zh_TW":"保留網站自己的設計。"}],"form-single-page":[240,64,{"en":"The page as it is","ja":"そのページのまま","es":"La página tal cual","fr":"La page telle quelle","de":"Seite unverändert","it":"La pagina così com’è","ko":"페이지 그대로","pt_BR":"A página como está","zh_CN":"保持页面原样","zh_TW":"保持頁面原樣"},{"en":"One HTML just like the page: the browser’s find, printing and PDF work as on the page itself. No list of attachments or collection details.","ja":"元のページと同じ1枚のHTMLです。ブラウザの検索・印刷・PDF化がそのページと同じように使えます。添付文書の一覧や取得情報は入りません。","es":"Un HTML igual que la página: la búsqueda del navegador, la impresión y el PDF funcionan como en la propia página. Sin lista de adjuntos ni datos de la recopilación.","fr":"Un HTML identique à la page : la recherche du navigateur, l’impression et le PDF fonctionnent comme sur la page elle-même. Sans liste des pièces jointes ni informations de collecte.","de":"Eine HTML-Datei wie die Seite selbst: Suchen, Drucken und PDF funktionieren wie auf der Seite. Ohne Liste der Anhänge und ohne Sammelangaben.","it":"Un HTML uguale alla pagina: la ricerca del browser, la stampa e il PDF funzionano come sulla pagina stessa. Senza elenco degli allegati né dati della raccolta.","ko":"원래 페이지와 같은 HTML 한 장입니다. 브라우저의 찾기·인쇄·PDF 변환을 그 페이지처럼 쓸 수 있습니다. 첨부 문서 목록과 수집 정보는 들어가지 않습니다.","pt_BR":"Um HTML igual à página: a busca do navegador, a impressão e o PDF funcionam como na própria página. Sem lista de anexos nem dados da coleta.","zh_CN":"与原页面相同的一个 HTML。浏览器的查找、打印和转 PDF 都与该页面一样使用。不含附件列表和收集信息。","zh_TW":"與原頁面相同的一個 HTML。瀏覽器的尋找、列印和轉 PDF 都與該頁面一樣使用。不含附件清單和收集資訊。"}],"form-single-framed":[240,64,{"en":"HTML with contents and search","ja":"目次・検索付きHTML","es":"HTML con índice y búsqueda","fr":"HTML avec sommaire et recherche","de":"HTML mit Inhaltsverzeichnis und Suche","it":"HTML con indice e ricerca","ko":"목차·검색 기능이 있는 HTML","pt_BR":"HTML com índice e pesquisa","zh_CN":"带目录和搜索的HTML","zh_TW":"附目錄及搜尋的HTML"},{"en":"The page sits in a frame under its title, address and date, with contents and a search box. The attachments found and the collection details can be included.","ja":"ページを枠に入れ、上に題名・取得元・取得日時を付け、目次と検索欄も付けます。見つけた添付文書の一覧と取得情報も入れられます。","es":"La página va en un marco bajo su título, dirección y fecha, con índice y cuadro de búsqueda. Se pueden incluir los adjuntos encontrados y los datos de la recopilación.","fr":"La page est placée dans un cadre sous son titre, son adresse et sa date, avec un sommaire et un champ de recherche. Les pièces jointes trouvées et les informations de collecte peuvent être ajoutées.","de":"Die Seite steht in einem Rahmen unter Titel, Adresse und Datum, mit Inhaltsverzeichnis und Suchfeld. Die gefundenen Anhänge und die Sammelangaben können hinzugefügt werden.","it":"La pagina è in una cornice sotto titolo, indirizzo e data, con indice e casella di ricerca. Si possono includere gli allegati trovati e i dati della raccolta.","ko":"페이지를 틀에 넣고 위에 제목·출처·수집 일시를 붙이며 목차와 검색창도 붙입니다. 찾은 첨부 문서 목록과 수집 정보도 넣을 수 있습니다.","pt_BR":"A página fica em um quadro abaixo do título, endereço e data, com sumário e caixa de busca. É possível incluir os anexos encontrados e os dados da coleta.","zh_CN":"将页面放入框中，上方加上标题、来源和获取时间，并附目录和搜索框。可以加入找到的附件列表和收集信息。","zh_TW":"將頁面放入框中，上方加上標題、來源和取得時間，並附目錄和搜尋框。可以加入找到的附件清單和收集資訊。"}],"images-offline":[96,64,{"en":"Offline save (default)","ja":"オフライン保存（既定）","es":"Guardar sin conexión (predeterminado)","fr":"Sauvegarde hors ligne (par défaut)","de":"Offline-Speicherung (Standard)","it":"Salvataggio offline (predefinito)","ko":"오프라인 저장(기본값)","pt_BR":"Salvar off-line (padrão)","zh_CN":"离线保存（默认）","zh_TW":"離線儲存（預設）"},{"en":"Embed the obtained image into HTML. The file size will become larger.","ja":"取得できた画像をHTML内へ埋め込みます。ファイル容量が大きくなります。","es":"Incrusta la imagen obtenida en el HTML. El tamaño del archivo aumentará.","fr":"Intègre l’image obtenue dans le HTML. Le fichier sera plus volumineux.","de":"Bettet das erhaltene Bild in das HTML ein. Die Datei wird größer.","it":"Incorpora l’immagine ottenuta in HTML. La dimensione del file aumenterà.","ko":"가져온 이미지를 HTML에 삽입합니다. 파일 용량이 커집니다.","pt_BR":"Incorpora a imagem baixada ao HTML. O arquivo fica maior.","zh_CN":"把图片嵌入 HTML，文件会变大。","zh_TW":"將取得的圖片嵌入 HTML。檔案會變大。"}],"images-online":[96,64,{"en":"Online references","ja":"オンライン参照","es":"Referencia en línea","fr":"Référence en ligne","de":"Online-Referenz","it":"Riferimento online","ko":"온라인 참조","pt_BR":"Referência on-line","zh_CN":"在线引用","zh_TW":"線上引用"},{"en":"Leave the image URL. When you open the HTML, it communicates with the original site. Inline SVG diagrams are converted to safe PNG images.","ja":"画像URLを残します。HTMLを開くと元サイトへ通信します。ページ内のSVG図は安全なPNGへ変換します。","es":"Conserva la URL de la imagen. Al abrir el HTML, se conecta con el sitio original. Los diagramas SVG integrados se convierten en imágenes PNG seguras.","fr":"Conserve l’URL de l’image. À l’ouverture du HTML, le site d’origine est contacté. Les diagrammes SVG intégrés sont convertis en images PNG sûres.","de":"Belässt die Bild-URL. Beim Öffnen des HTML wird die Original-Website kontaktiert. Eingebettete SVG-Diagramme werden in sichere PNG-Bilder umgewandelt.","it":"Mantiene l’URL dell’immagine. Quando apri l’HTML, contatta il sito originale. I diagrammi SVG incorporati vengono convertiti in immagini PNG sicure.","ko":"이미지 URL을 유지합니다. HTML을 열면 원래 사이트와 통신합니다. 페이지 안의 SVG 도표는 안전한 PNG 이미지로 변환합니다.","pt_BR":"Mantém a URL da imagem. Ao abrir o HTML, o site original é acessado. Diagramas SVG incorporados são convertidos em imagens PNG seguras.","zh_CN":"保留图片网址。打开 HTML 时会连接原始站点。页面内嵌的 SVG 图表会转换为安全的 PNG 图片。","zh_TW":"保留圖片網址。開啟 HTML 時會連線至原始網站。頁面內嵌的 SVG 圖表會轉換為安全的 PNG 圖片。"}],"images-links":[96,64,{"en":"Do not embed images","ja":"画像を埋め込まない","es":"No incrustar imágenes","fr":"Ne pas intégrer d’images","de":"Bilder nicht einbetten","it":"Non incorporare immagini","ko":"이미지를 포함하지 않음","pt_BR":"Não incorporar imagens","zh_CN":"不要嵌入图像","zh_TW":"不嵌入圖片"},{"en":"Replaces each image with its name, linked to the original URL. This is the lightest option.","ja":"画像名と元URLへのリンクに置き換えます。最も軽量です。","es":"Reemplaza cada imagen por su nombre y un enlace a la URL original. Es la opción más ligera.","fr":"Remplace l’image par son nom, avec un lien vers l’URL d’origine. C’est l’option la plus légère.","de":"Ersetzt jedes Bild durch seinen Namen und verlinkt auf die Original-URL. Das ist die schlankste Variante.","it":"Sostituiscilo con il nome dell’immagine e collega all’URL originale. È il più leggero.","ko":"이미지 이름과 원래 URL로 연결되는 링크로 바꿉니다. 가장 가볍습니다.","pt_BR":"Troca cada imagem pelo nome dela, com link para a URL original. É a opção mais leve.","zh_CN":"改用图片名称，并链接到原始 URL。体积最小。","zh_TW":"以圖片名稱取代，並連結到原始 URL。檔案最小。"}],"dl-depth":[240,148,{"en":"Follow links by depth","ja":"深さでリンクをたどる","es":"Seguir enlaces por profundidad","fr":"Suivre les liens par profondeur","de":"Links nach Tiefe folgen","it":"Seguire i link per profondità","ko":"깊이에 따라 링크 따라가기","pt_BR":"Seguir links por profundidade","zh_CN":"按深度跟随链接","zh_TW":"依深度跟隨連結"},{"en":"Depth 0 is the open page. Depth 1 adds the pages it links to, and depth 2 goes one step further. Files are listed from every level.","ja":"深さ0は開いているページだけ。深さ1はそのページのリンク先、深さ2はさらにその先までたどり、各段のファイルを一覧にします。","es":"La profundidad 0 es la página abierta. La 1 añade las páginas que enlaza y la 2 va un paso más allá. Se listan los archivos de cada nivel.","fr":"La profondeur 0 correspond à la page ouverte. La 1 ajoute les pages qu’elle lie, la 2 va un cran plus loin. Les fichiers de chaque niveau sont listés.","de":"Tiefe 0 ist die geöffnete Seite. Tiefe 1 nimmt die verlinkten Seiten hinzu, Tiefe 2 geht noch einen Schritt weiter. Die Dateien jeder Ebene werden aufgelistet.","it":"La profondità 0 è la pagina aperta. La 1 aggiunge le pagine collegate e la 2 va un passo oltre. Vengono elencati i file di ogni livello.","ko":"깊이 0은 열려 있는 페이지만, 깊이 1은 그 페이지가 링크한 페이지, 깊이 2는 한 단계 더 나아갑니다. 각 단계의 파일이 목록에 표시됩니다.","pt_BR":"A profundidade 0 é a página aberta. A 1 inclui as páginas que ela vincula e a 2 vai um passo além. Os arquivos de cada nível são listados.","zh_CN":"深度 0 只看当前页面；深度 1 加入它链接的页面，深度 2 再往前一步。每一层的文件都会列出。","zh_TW":"深度 0 只看目前頁面；深度 1 加入它連結的頁面，深度 2 再往前一步。每一層的檔案都會列出。"}],"dl-filter":[240,148,{"en":"Narrow the list","ja":"一覧を絞り込む","es":"Acota la lista","fr":"Affinez la liste","de":"Liste eingrenzen","it":"Restringi l’elenco","ko":"목록 좁히기","pt_BR":"Refine a lista","zh_CN":"缩小列表","zh_TW":"縮小清單"},{"en":"Filter by file type, name or a regular expression, then tick only the files you need.","ja":"種類・名前・正規表現で絞り込み、必要なファイルだけにチェックを入れます。","es":"Filtra por tipo de archivo, nombre o expresión regular y marca solo los archivos que necesitas.","fr":"Filtrez par type de fichier, nom ou expression régulière, puis cochez seulement les fichiers utiles.","de":"Nach Dateityp, Name oder regulärem Ausdruck filtern und nur die benötigten Dateien anhaken.","it":"Filtra per tipo di file, nome o espressione regolare e spunta solo i file che ti servono.","ko":"파일 형식·이름·정규 표현식으로 걸러 필요한 파일만 체크합니다.","pt_BR":"Filtre por tipo de arquivo, nome ou expressão regular e marque só os arquivos de que precisa.","zh_CN":"按文件类型、名称或正则表达式筛选，只勾选需要的文件。","zh_TW":"依檔案類型、名稱或規則運算式篩選，只勾選需要的檔案。"}],"dl-outputs":[240,148,{"en":"Save the way you need","ja":"目的に合わせて保存","es":"Guarda como lo necesites","fr":"Enregistrez comme il vous faut","de":"So speichern, wie Sie es brauchen","it":"Salva come ti serve","ko":"필요한 방식으로 저장","pt_BR":"Salve do jeito que precisar","zh_CN":"按需要保存","zh_TW":"依需要儲存"},{"en":"Save to a folder, bundle into a ZIP, merge PDFs into one, or export the list as CSV.","ja":"フォルダに保存、ZIPにまとめる、PDFを1つに結合、一覧をCSVで書き出す、から選べます。","es":"Guarda en una carpeta, agrupa en un ZIP, combina los PDF en uno o exporta la lista a CSV.","fr":"Enregistrez dans un dossier, regroupez en ZIP, fusionnez les PDF en un seul ou exportez la liste en CSV.","de":"In einen Ordner speichern, als ZIP bündeln, PDFs zu einer Datei zusammenführen oder die Liste als CSV exportieren.","it":"Salva in una cartella, raccogli in uno ZIP, unisci i PDF in uno solo o esporta l’elenco in CSV.","ko":"폴더에 저장, ZIP으로 묶기, PDF를 하나로 병합, 목록을 CSV로 내보내기 중에서 고릅니다.","pt_BR":"Salve em uma pasta, agrupe em um ZIP, mescle os PDFs em um só ou exporte a lista em CSV.","zh_CN":"可保存到文件夹、打包为 ZIP、将 PDF 合并为一个，或把列表导出为 CSV。","zh_TW":"可儲存到資料夾、打包為 ZIP、將 PDF 合併為一個，或將清單匯出為 CSV。"}]};
   var OPTION_ART_CASES = {"collect-and-analyze-web-comments":["look-original","look-reader","form-single-page","form-contents-search","ai-single"],"web-tables-to-csv-for-excel-ai":["crawl-current","ai-package","ai-single","ai-text-article","ai-text-visible"],"save-and-compare-document-revisions":["scope-linked-pages","look-reader","form-contents-search","ai-pages"],"save-web-pages-as-markdown":["ai-single","ai-pages","ai-package","ai-text-article","ai-text-visible"],"save-online-manuals-and-knowledge-pages":["crawl-menu","crawl-path","crawl-links","form-contents-search","form-long-page"],"web-pages-for-reading-and-ai-analysis":["look-reader","form-contents-search","ai-single","ai-package"],"combine-web-pages-into-one-html":["crawl-links","crawl-menu","crawl-pasted","crawl-sitemap","crawl-basket","form-contents-search","form-long-page","form-pages-zip"],"combine-local-html-files-into-one":["local-use-archive","local-use-share","local-use-print","local-use-ai","local-order-links","local-order-name","linked-copy","linked-embed","linked-none"],"save-web-pages-with-original-design":["look-original","look-reader","form-single-page","form-single-framed","images-offline","images-online","images-links"]};
   var OPTION_ART_DOWNLOADER = ["dl-depth", "dl-filter", "dl-outputs"];
   var OPTION_ART_TEXT = {"en":{"h2":"Settings you can choose — pictures from the extension","note":"Pictures and names are the extension’s own cards.","flow":"How the file downloader works"},"ja":{"h2":"選べる設定：拡張機能の絵で見る","note":"絵と名前は、拡張機能の画面にあるカードと同じです。","flow":"ファイル一括ダウンロードの流れ"},"es":{"h2":"Ajustes que puedes elegir: imágenes de la extensión","note":"Las imágenes y los nombres son las tarjetas de la propia extensión.","flow":"Cómo funciona la descarga de archivos"},"fr":{"h2":"Réglages disponibles : les images de l’extension","note":"Les images et les noms sont ceux des cartes de l’extension.","flow":"Fonctionnement du téléchargement de fichiers"},"de":{"h2":"Wählbare Einstellungen – Bilder aus der Erweiterung","note":"Bilder und Namen sind die Karten der Erweiterung selbst.","flow":"So funktioniert der Datei-Download"},"it":{"h2":"Impostazioni disponibili: le immagini dell’estensione","note":"Immagini e nomi sono quelli delle schede dell’estensione.","flow":"Come funziona il download dei file"},"ko":{"h2":"고를 수 있는 설정 — 확장 프로그램의 그림으로 보기","note":"그림과 이름은 확장 프로그램 화면의 카드와 같습니다.","flow":"파일 일괄 다운로드의 흐름"},"pt_BR":{"h2":"Configurações que você pode escolher: imagens da extensão","note":"As imagens e os nomes são os cartões da própria extensão.","flow":"Como funciona o download de arquivos"},"zh_CN":{"h2":"可选的设置：用扩展中的图示查看","note":"图示和名称与扩展界面中的卡片相同。","flow":"文件批量下载的流程"},"zh_TW":{"h2":"可選的設定：用擴充功能中的圖示查看","note":"圖示和名稱與擴充功能畫面中的卡片相同。","flow":"檔案批次下載的流程"}};
@@ -20695,7 +20695,7 @@
   // 2026-10-20 (search brief, five focus guides, JA/EN): hero CTA pair, real output samples and three nearby
   // guides with context. Samples live under /samples/<lang>/<set>/ (real files saved by the released extension
   // from fictional pages under /samples/source/). Guides without an entry here render exactly as before.
-  var GUIDE_SAMPLES = {"download-all-pdfs":{"ja":{"primary":"無料でPDF保存を試す","secondary":"実際に保存したPDFセットを見る","href":"/samples/ja/pdf-set/","note":"無料版：1回の保存で10件まで。Pro版（$19.99・買い切り）は件数の上限なしで1回に保存できます。見つかる範囲はページの作りとアクセス権限によって変わります。","items":[{"plan":"free","href":"/samples/ja/pdf-set/","title":"架空の町の資料ページから保存したPDF 8件","text":"スキャンで見つかった10件から、種類の絞り込みでPDFだけを選び、1回で保存しました。保存名・件数・作成条件を確認できます。"},{"plan":"pro","href":"/samples/ja/pdf-archive/","title":"架空の町の議事録保管庫から、PDF 24件を1回で保存","text":"2年分・毎月の議事録（PDF 24件）を全部選び、1回で保存しました。無料版なら10件ずつ3回に分ける量です。保存名・件数・保存直前の画面を確認できます。"}]},"en":{"primary":"Try saving PDFs for free","secondary":"See a real saved PDF set","href":"/samples/en/pdf-set/","note":"Free: up to 10 files per download. Pro ($19.99, one-time) saves them all in one run. What can be found depends on the page and your access.","items":[{"plan":"free","href":"/samples/en/pdf-set/","title":"8 PDFs saved from a fictional town documents page","text":"Of the 10 files the scan found, the type filter kept only the PDFs, saved in one run. See the file names, count and settings used."},{"plan":"pro","href":"/samples/en/pdf-archive/","title":"24 PDFs saved in one run from a fictional council minutes archive","text":"Two years of monthly minutes (24 PDFs), all selected and saved in one run. On Free this takes three runs of up to 10. See the file names, count and the screen just before saving."}]},"nearby":{"download-files-from-webpage":{"ja":"PDF以外のファイル（Office・画像・ZIPなど）もまとめて保存したいとき","en":"Office files, images, ZIPs and other file types as well","es":"También archivos de Office, imágenes, ZIP y otros tipos","fr":"Aussi des fichiers Office, des images, des ZIP et d’autres types","de":"Auch Office-Dateien, Bilder, ZIPs und andere Dateitypen","it":"Anche file Office, immagini, ZIP e altri tipi di file","ko":"PDF 말고도 Office 파일·이미지·ZIP 등을 함께 저장하고 싶을 때","pt_BR":"Também arquivos do Office, imagens, ZIPs e outros tipos","zh_CN":"除 PDF 外，还想一起保存 Office 文件、图片、ZIP 等","zh_TW":"除了 PDF，也想一起儲存 Office 檔案、圖片、ZIP 等"},"rename-and-organize-bulk-pdf-downloads":{"ja":"保存したPDFの名前やフォルダを整えたい場合","en":"Tidier file names and folders for saved PDFs","es":"Nombres y carpetas más ordenados para los PDF guardados","fr":"Des noms et des dossiers plus clairs pour les PDF enregistrés","de":"Übersichtlichere Dateinamen und Ordner für gespeicherte PDFs","it":"Nomi e cartelle più ordinati per i PDF salvati","ko":"저장한 PDF의 이름과 폴더를 정리하고 싶을 때","pt_BR":"Nomes e pastas mais organizados para os PDFs salvos","zh_CN":"想整理已保存 PDF 的文件名和文件夹","zh_TW":"想整理已儲存 PDF 的檔名與資料夾"},"merge-pdfs-locally":{"ja":"選んだPDFを1つのPDFにまとめたいとき（通常の保存とは別の操作です）","en":"Chosen PDFs combined into one PDF (a separate action from saving)","es":"Unir los PDF elegidos en un solo PDF (una acción aparte del guardado)","fr":"Fusionner les PDF choisis en un seul PDF (une action distincte de l’enregistrement)","de":"Ausgewählte PDFs zu einer PDF zusammenführen (getrennt vom Speichern)","it":"Unire i PDF scelti in un unico PDF (un’azione separata dal salvataggio)","ko":"고른 PDF를 하나의 PDF로 합치고 싶을 때 (일반 저장과는 별도 작업)","pt_BR":"Juntar os PDFs escolhidos em um só PDF (uma ação separada do salvamento)","zh_CN":"想把选中的 PDF 合并为一个 PDF（与普通保存是不同的操作）","zh_TW":"想把選取的 PDF 合併為一個 PDF（與一般儲存是不同的操作）"}},"es":{"primary":"Prueba gratis a guardar PDF","secondary":"Ver un conjunto real de PDF guardados","href":"/samples/es/pdf-set/","note":"Gratis: hasta 10 archivos por descarga. Pro ($19.99, pago único) los guarda todos de una vez. Lo que se encuentra depende de la página y de tus permisos de acceso.","items":[{"plan":"free","href":"/samples/es/pdf-set/","title":"8 PDF guardados de una página ficticia de documentos municipales","text":"De los 10 archivos que encontró el escaneo, el filtro por tipo dejó solo los PDF, guardados de una vez. Puedes ver los nombres, el número de archivos y los ajustes usados."},{"plan":"pro","href":"/samples/es/pdf-archive/","title":"24 PDF guardados de una vez desde un archivo ficticio de actas municipales","text":"Dos años de actas mensuales (24 PDF), todos seleccionados y guardados de una vez. Con la versión gratuita serían tres descargas de 10 como máximo. Puedes ver los nombres, el número de archivos y la pantalla justo antes de guardar."}]},"fr":{"primary":"Essayer gratuitement l’enregistrement de PDF","secondary":"Voir un vrai lot de PDF enregistrés","href":"/samples/fr/pdf-set/","note":"Gratuit : jusqu’à 10 fichiers par téléchargement. Pro (19,99 $, achat unique) les enregistre tous en une fois. Ce qui est trouvé dépend de la page et de vos droits d’accès.","items":[{"plan":"free","href":"/samples/fr/pdf-set/","title":"8 PDF enregistrés depuis une page fictive de documents municipaux","text":"Sur les 10 fichiers trouvés par l’analyse, le filtre par type n’a gardé que les PDF, enregistrés en une fois. Vous pouvez voir les noms, le nombre de fichiers et les réglages utilisés."},{"plan":"pro","href":"/samples/fr/pdf-archive/","title":"24 PDF enregistrés en une fois depuis des archives fictives de procès-verbaux","text":"Deux ans de procès-verbaux mensuels (24 PDF), tous sélectionnés et enregistrés en une fois. En version gratuite, il faudrait trois téléchargements de 10 au plus. Vous pouvez voir les noms, le nombre de fichiers et l’écran juste avant l’enregistrement."}]},"de":{"primary":"PDFs kostenlos speichern","secondary":"Echte gespeicherte PDFs ansehen","href":"/samples/de/pdf-set/","note":"Kostenlos: bis zu 10 Dateien pro Download. Pro (19,99 $, einmalig) speichert alle auf einmal. Was gefunden wird, hängt von der Seite und Ihren Zugriffsrechten ab.","items":[{"plan":"free","href":"/samples/de/pdf-set/","title":"8 PDFs von einer erfundenen Seite mit Gemeindedokumenten","text":"Von den 10 gefundenen Dateien hat der Typfilter nur die PDFs übrig gelassen, die dann auf einmal gespeichert wurden. Dateinamen, Anzahl und Einstellungen sind zu sehen."},{"plan":"pro","href":"/samples/de/pdf-archive/","title":"24 PDFs auf einmal aus einem erfundenen Archiv mit Ratsprotokollen","text":"Zwei Jahre monatliche Protokolle (24 PDFs), alle ausgewählt und auf einmal gespeichert. In der kostenlosen Version wären das drei Downloads mit höchstens 10 Dateien. Dateinamen, Anzahl und der Bildschirm kurz vor dem Speichern sind zu sehen."}]},"it":{"primary":"Prova gratis a salvare i PDF","secondary":"Guarda un vero gruppo di PDF salvati","href":"/samples/it/pdf-set/","note":"Gratis: fino a 10 file per download. Pro ($19.99, una tantum) li salva tutti in una volta. Cosa si trova dipende dalla pagina e dai tuoi permessi di accesso.","items":[{"plan":"free","href":"/samples/it/pdf-set/","title":"8 PDF salvati da una pagina di fantasia con documenti comunali","text":"Dei 10 file trovati dalla scansione, il filtro per tipo ha tenuto solo i PDF, salvati in una volta. Puoi vedere i nomi, il numero di file e le impostazioni usate."},{"plan":"pro","href":"/samples/it/pdf-archive/","title":"24 PDF salvati in una volta da un archivio di fantasia di verbali comunali","text":"Due anni di verbali mensili (24 PDF), tutti selezionati e salvati in una volta. Con la versione gratuita servirebbero tre download da massimo 10. Puoi vedere i nomi, il numero di file e la schermata subito prima del salvataggio."}]},"ko":{"primary":"무료로 PDF 저장해 보기","secondary":"실제로 저장한 PDF 보기","href":"/samples/ko/pdf-set/","note":"무료: 다운로드 1회에 10개까지. Pro($19.99, 1회 결제)는 한 번에 모두 저장합니다. 찾을 수 있는 범위는 페이지 구조와 접근 권한에 따라 달라집니다.","items":[{"plan":"free","href":"/samples/ko/pdf-set/","title":"가상의 마을 자료 페이지에서 저장한 PDF 8개","text":"스캔으로 찾은 10개 파일 중 종류 필터로 PDF만 골라 한 번에 저장했습니다. 파일 이름, 개수, 사용한 설정을 확인할 수 있습니다."},{"plan":"pro","href":"/samples/ko/pdf-archive/","title":"가상의 의회 회의록 보관함에서 PDF 24개를 한 번에 저장","text":"2년 치 월별 회의록(PDF 24개)을 모두 골라 한 번에 저장했습니다. 무료라면 10개씩 세 번 나눠야 하는 양입니다. 파일 이름, 개수, 저장 직전 화면을 확인할 수 있습니다."}]},"pt_BR":{"primary":"Experimente salvar PDFs de graça","secondary":"Ver um conjunto real de PDFs salvos","href":"/samples/pt_BR/pdf-set/","note":"Grátis: até 10 arquivos por download. O Pro ($19.99, compra única) salva todos de uma vez. O que é encontrado depende da página e das suas permissões de acesso.","items":[{"plan":"free","href":"/samples/pt_BR/pdf-set/","title":"8 PDFs salvos de uma página fictícia de documentos da prefeitura","text":"Dos 10 arquivos encontrados na varredura, o filtro por tipo deixou só os PDFs, salvos de uma vez. Dá para ver os nomes, a quantidade e as configurações usadas."},{"plan":"pro","href":"/samples/pt_BR/pdf-archive/","title":"24 PDFs salvos de uma vez de um arquivo fictício de atas da câmara","text":"Dois anos de atas mensais (24 PDFs), todas selecionadas e salvas de uma vez. Na versão gratuita seriam três downloads de até 10. Dá para ver os nomes, a quantidade e a tela logo antes de salvar."}]},"zh_CN":{"primary":"免费试用 PDF 保存","secondary":"查看实际保存的 PDF","href":"/samples/zh_CN/pdf-set/","note":"免费版：每次下载最多10个文件。Pro（$19.99，一次性付费）可一次全部保存。能找到哪些文件取决于网页结构和您的访问权限。","items":[{"plan":"free","href":"/samples/zh_CN/pdf-set/","title":"从虚构的镇政府资料页面保存的8个 PDF","text":"扫描找到10个文件，用类型筛选只保留 PDF，一次保存。可以查看文件名、数量和所用设置。"},{"plan":"pro","href":"/samples/zh_CN/pdf-archive/","title":"从虚构的议会会议记录库一次保存24个 PDF","text":"两年的每月会议记录（24个 PDF）全部选中，一次保存。免费版需要分3次、每次最多10个。可以查看文件名、数量和保存前的界面。"}]},"zh_TW":{"primary":"免費試用 PDF 儲存","secondary":"查看實際儲存的 PDF","href":"/samples/zh_TW/pdf-set/","note":"免費版：每次下載最多10個檔案。Pro（$19.99，一次購買）可一次全部儲存。能找到哪些檔案取決於網頁結構與您的存取權限。","items":[{"plan":"free","href":"/samples/zh_TW/pdf-set/","title":"從虛構的鎮公所資料頁面儲存的8個 PDF","text":"掃描找到10個檔案，用類型篩選只保留 PDF，一次儲存。可以查看檔名、數量與所用設定。"},{"plan":"pro","href":"/samples/zh_TW/pdf-archive/","title":"從虛構的議會會議紀錄庫一次儲存24個 PDF","text":"兩年的每月會議紀錄（24個 PDF）全部選取，一次儲存。免費版需要分3次、每次最多10個。可以查看檔名、數量與儲存前的畫面。"}]}},"combine-web-pages-into-one-html":{"ja":{"primary":"無料で1ページ保存を試す","secondary":"複数ページの完成HTMLを開く","href":"/samples/ja/manual-combined/","note":"無料版：1回1ページ。複数ページを1つのHTMLにまとめるのはPro版（$19.99・買い切り）です。","items":[{"plan":"free","href":"/samples/ja/manual-page/","title":"架空の手順書の1章を、1ページのHTMLに保存","text":"無料版で保存した1ページの実物です。表・番号付きの手順・図が保存されています。複数ページを結合したものではありません。"},{"plan":"pro","href":"/samples/ja/manual-combined/","title":"架空の手順書4ページを、目次・検索つきの1つのHTMLに","text":"目次ページと3つの章を1つにまとめた実物です。目次から各章へ移動でき、検索欄で文書全体を探せます。章どうしのリンクはファイルの中で移動します。"}]},"en":{"primary":"Try saving one page for free","secondary":"Open a real multi-page HTML file","href":"/samples/en/manual-combined/","note":"Free: one page per run. Combining several pages into one HTML file is Pro ($19.99, one-time).","items":[{"plan":"free","href":"/samples/en/manual-page/","title":"One chapter of a fictional handbook, saved as one HTML page","text":"A real one-page file saved with Free, with its table, numbered steps and figure. It is not a multi-page combination."},{"plan":"pro","href":"/samples/en/manual-combined/","title":"Four pages of a fictional handbook in one HTML file with contents and search","text":"The real combined file: the contents page and three chapters. The contents jump to each chapter, the search box searches the whole document, and links between chapters move inside the file."}]},"nearby":{"save-online-manuals-and-knowledge-pages":{"ja":"章に分かれたマニュアルを、研修や日常の参照用に保存するとき","en":"A multi-chapter manual kept for training or daily reference","es":"Un manual de varios capítulos para formación o consulta diaria","fr":"Un manuel en plusieurs chapitres pour la formation ou la consultation au quotidien","de":"Ein Handbuch mit mehreren Kapiteln für Schulung oder Nachschlagen","it":"Un manuale in più capitoli per la formazione o la consultazione quotidiana","ko":"교육이나 업무 참고용으로 여러 장짜리 매뉴얼을 보관할 때","pt_BR":"Um manual com vários capítulos para treinamento ou consulta no dia a dia","zh_CN":"想保存多章节手册，用于培训或日常查阅","zh_TW":"想保存多章節手冊，用於訓練或日常查閱"},"save-web-pages-with-original-design":{"ja":"文字より、サイトのレイアウトや配色を残したい場合","en":"Pages where layout and colours matter more than the text","es":"Páginas en las que importan más el diseño y los colores que el texto","fr":"Des pages où la mise en page et les couleurs comptent plus que le texte","de":"Seiten, bei denen Layout und Farben wichtiger sind als der Text","it":"Pagine in cui layout e colori contano più del testo","ko":"글보다 레이아웃과 색이 중요한 페이지","pt_BR":"Páginas em que o layout e as cores importam mais que o texto","zh_CN":"布局和配色比文字更重要的网页","zh_TW":"版面和配色比文字更重要的網頁"},"combine-local-html-files-into-one":{"ja":"パソコンに保存済みのHTMLファイルを1つにまとめたい場合","en":"When the HTML files are already on your computer","es":"Cuando los archivos HTML ya están en tu equipo","fr":"Quand les fichiers HTML sont déjà sur votre ordinateur","de":"Wenn die HTML-Dateien schon auf Ihrem Computer liegen","it":"Quando i file HTML sono già sul tuo computer","ko":"HTML 파일이 이미 내 컴퓨터에 있을 때","pt_BR":"Quando os arquivos HTML já estão no seu computador","zh_CN":"HTML 文件已经在您的电脑上时","zh_TW":"HTML 檔案已經在您的電腦上時"}},"es":{"primary":"Prueba gratis a guardar una página","secondary":"Abrir un HTML real con varias páginas","href":"/samples/es/manual-combined/","note":"Gratis: una página por vez. Combinar varias páginas en un solo HTML es una función Pro ($19.99, pago único).","items":[{"plan":"free","href":"/samples/es/manual-page/","title":"Un capítulo de un manual ficticio, guardado como una página HTML","text":"Un archivo real de una página guardado con la versión gratuita, con su tabla, sus pasos numerados y su figura. No es una combinación de varias páginas."},{"plan":"pro","href":"/samples/es/manual-combined/","title":"Cuatro páginas de un manual ficticio en un solo HTML con índice y búsqueda","text":"El archivo combinado real: la página de índice y tres capítulos. El índice lleva a cada capítulo, el cuadro de búsqueda busca en todo el documento y los enlaces entre capítulos se mueven dentro del archivo."}]},"fr":{"primary":"Essayer gratuitement avec une page","secondary":"Ouvrir un vrai HTML de plusieurs pages","href":"/samples/fr/manual-combined/","note":"Gratuit : une page par passage. Fusionner plusieurs pages en un seul HTML est une fonction Pro (19,99 $, achat unique).","items":[{"plan":"free","href":"/samples/fr/manual-page/","title":"Un chapitre d’un manuel fictif, enregistré en une page HTML","text":"Un vrai fichier d’une page enregistré avec la version gratuite, avec son tableau, ses étapes numérotées et sa figure. Ce n’est pas une fusion de plusieurs pages."},{"plan":"pro","href":"/samples/fr/manual-combined/","title":"Quatre pages d’un manuel fictif dans un seul HTML avec sommaire et recherche","text":"Le vrai fichier fusionné : la page de sommaire et trois chapitres. Le sommaire mène à chaque chapitre, le champ de recherche cherche dans tout le document et les liens entre chapitres restent dans le fichier."}]},"de":{"primary":"Eine Seite kostenlos speichern","secondary":"Eine echte HTML-Datei mit mehreren Seiten öffnen","href":"/samples/de/manual-combined/","note":"Kostenlos: eine Seite pro Durchgang. Mehrere Seiten zu einer HTML-Datei zusammenführen ist eine Pro-Funktion (19,99 $, einmalig).","items":[{"plan":"free","href":"/samples/de/manual-page/","title":"Ein Kapitel eines erfundenen Handbuchs als eine HTML-Seite","text":"Eine echte einseitige Datei aus der kostenlosen Version, mit Tabelle, nummerierten Schritten und Abbildung. Keine Zusammenführung mehrerer Seiten."},{"plan":"pro","href":"/samples/de/manual-combined/","title":"Vier Seiten eines erfundenen Handbuchs in einer HTML-Datei mit Inhaltsverzeichnis und Suche","text":"Die echte zusammengeführte Datei: die Inhaltsseite und drei Kapitel. Das Inhaltsverzeichnis springt zu jedem Kapitel, das Suchfeld durchsucht das ganze Dokument, und Links zwischen Kapiteln bleiben in der Datei."}]},"it":{"primary":"Prova gratis a salvare una pagina","secondary":"Apri un vero HTML con più pagine","href":"/samples/it/manual-combined/","note":"Gratis: una pagina per volta. Unire più pagine in un solo HTML è una funzione Pro ($19.99, una tantum).","items":[{"plan":"free","href":"/samples/it/manual-page/","title":"Un capitolo di un manuale di fantasia, salvato come una pagina HTML","text":"Un vero file di una pagina salvato con la versione gratuita, con tabella, passaggi numerati e figura. Non è un’unione di più pagine."},{"plan":"pro","href":"/samples/it/manual-combined/","title":"Quattro pagine di un manuale di fantasia in un solo HTML con indice e ricerca","text":"Il vero file unito: la pagina indice e tre capitoli. L’indice porta a ogni capitolo, la casella di ricerca cerca in tutto il documento e i link tra capitoli restano all’interno del file."}]},"ko":{"primary":"무료로 한 페이지 저장해 보기","secondary":"여러 페이지를 합친 실제 HTML 열기","href":"/samples/ko/manual-combined/","note":"무료: 1회에 한 페이지. 여러 페이지를 HTML 하나로 합치는 것은 Pro($19.99, 1회 결제) 기능입니다.","items":[{"plan":"free","href":"/samples/ko/manual-page/","title":"가상 매뉴얼의 한 장을 HTML 한 페이지로 저장","text":"무료로 저장한 실제 한 페이지 파일입니다. 표, 번호 매긴 절차, 그림이 들어 있습니다. 여러 페이지를 합친 파일은 아닙니다."},{"plan":"pro","href":"/samples/ko/manual-combined/","title":"가상 매뉴얼 4페이지를 목차·검색이 있는 HTML 하나로","text":"실제로 합친 파일입니다. 목차 페이지와 3개 장이 들어 있습니다. 목차에서 각 장으로 이동하고, 검색창으로 문서 전체를 찾을 수 있으며, 장 사이의 링크는 파일 안에서 이동합니다."}]},"pt_BR":{"primary":"Experimente salvar uma página de graça","secondary":"Abrir um HTML real com várias páginas","href":"/samples/pt_BR/manual-combined/","note":"Grátis: uma página por vez. Juntar várias páginas em um só HTML é um recurso do Pro ($19.99, compra única).","items":[{"plan":"free","href":"/samples/pt_BR/manual-page/","title":"Um capítulo de um manual fictício, salvo como uma página HTML","text":"Um arquivo real de uma página salvo com a versão gratuita, com tabela, passos numerados e figura. Não é uma junção de várias páginas."},{"plan":"pro","href":"/samples/pt_BR/manual-combined/","title":"Quatro páginas de um manual fictício em um só HTML com sumário e busca","text":"O arquivo combinado real: a página de sumário e três capítulos. O sumário leva a cada capítulo, a caixa de busca procura no documento inteiro e os links entre capítulos navegam dentro do arquivo."}]},"zh_CN":{"primary":"免费试试保存一个网页","secondary":"打开实际合并的多页 HTML","href":"/samples/zh_CN/manual-combined/","note":"免费版：每次一个网页。把多个网页合并为一个 HTML 是 Pro（$19.99，一次性付费）的功能。","items":[{"plan":"free","href":"/samples/zh_CN/manual-page/","title":"把虚构手册的一章保存为一个 HTML 网页","text":"用免费版实际保存的单页文件，包含表格、编号步骤和插图。这不是多页合并的结果。"},{"plan":"pro","href":"/samples/zh_CN/manual-combined/","title":"把虚构手册的4个网页合并为一个带目录和搜索的 HTML","text":"实际合并后的文件：目录页和3个章节。可从目录跳到各章节，用搜索框搜索整个文档，章节之间的链接在文件内跳转。"}]},"zh_TW":{"primary":"免費試試儲存一個網頁","secondary":"開啟實際合併的多頁 HTML","href":"/samples/zh_TW/manual-combined/","note":"免費版：每次一個網頁。把多個網頁合併為一個 HTML 是 Pro（$19.99，一次購買）的功能。","items":[{"plan":"free","href":"/samples/zh_TW/manual-page/","title":"把虛構手冊的一章儲存為一個 HTML 網頁","text":"用免費版實際儲存的單頁檔案，包含表格、編號步驟和插圖。這不是多頁合併的結果。"},{"plan":"pro","href":"/samples/zh_TW/manual-combined/","title":"把虛構手冊的4個網頁合併為一個附目錄和搜尋的 HTML","text":"實際合併後的檔案：目錄頁和3個章節。可從目錄跳到各章節，用搜尋框搜尋整份文件，章節之間的連結在檔案內跳轉。"}]}},"save-online-manuals-and-knowledge-pages":{"ja":{"primary":"無料で1章の保存を試す","secondary":"完成したマニュアル資料集を見る","href":"/samples/ja/manual-combined/","note":"無料版：1回1ページ。複数の章を1つにまとめるのはPro版です。PDFの資料はファイルの一括保存で別に保存します。","items":[{"plan":"free","href":"/samples/ja/manual-page/","title":"架空の手順書の第1章を保存したHTML","text":"見出し・表・番号付きの手順・図・次の章へのリンクが、読みやすい形で保存されています。サイトのメニューは「読みやすく整える」で省かれます。"},{"plan":"pro","href":"/samples/ja/manual-combined/","title":"架空の手順書4ページを、目次・検索つきの1つのHTMLに","text":"目次ページと3つの章を1つにまとめた実物です。目次から各章へ移動でき、検索欄で文書全体を探せます。章どうしのリンクはファイルの中で移動します。"}]},"en":{"primary":"Try saving one chapter for free","secondary":"See a finished manual collection","href":"/samples/en/manual-combined/","note":"Free: one page per run. Combining several chapters into one file is Pro. PDF documents are saved separately with the file download.","items":[{"plan":"free","href":"/samples/en/manual-page/","title":"Chapter 1 of a fictional handbook, saved as HTML","text":"Headings, the table, numbered steps, the figure and the link to the next chapter are saved in an easy-to-read layout. “Easy to read” leaves out the site menu."},{"plan":"pro","href":"/samples/en/manual-combined/","title":"Four pages of a fictional handbook in one HTML file with contents and search","text":"The real combined file: the contents page and three chapters. The contents jump to each chapter, the search box searches the whole document, and links between chapters move inside the file."}]},"nearby":{"combine-web-pages-into-one-html":{"ja":"マニュアル以外の関連ページも1つのHTMLにまとめるとき","en":"Related pages combined when they are not a manual","es":"Páginas relacionadas que no son un manual, reunidas en una","fr":"Des pages liées qui ne forment pas un manuel, réunies en une","de":"Zusammengehörige Seiten, die kein Handbuch sind","it":"Pagine collegate che non sono un manuale, riunite in una","ko":"매뉴얼이 아닌 관련 페이지를 하나로 합칠 때","pt_BR":"Páginas relacionadas que não são um manual, reunidas em uma","zh_CN":"想合并的相关网页不是手册时","zh_TW":"想合併的相關網頁不是手冊時"},"internal-portal-downloads":{"ja":"ポータルに置かれたPDFやOffice資料を、ファイルのまま保存したい場合","en":"A portal that holds PDFs and Office files you want kept as files","es":"Un portal con PDF y archivos de Office que quieres guardar como archivos","fr":"Un portail avec des PDF et des fichiers Office à garder en tant que fichiers","de":"Ein Portal mit PDFs und Office-Dateien, die als Dateien bleiben sollen","it":"Un portale con PDF e file Office da tenere come file","ko":"PDF와 Office 파일을 파일 그대로 보관하고 싶은 포털","pt_BR":"Um portal com PDFs e arquivos do Office que você quer guardar como arquivos","zh_CN":"门户网站里的 PDF 和 Office 文件想按文件保存","zh_TW":"入口網站裡的 PDF 和 Office 檔案想按檔案儲存"},"save-web-pages-as-markdown":{"ja":"章の本文をMarkdownのノートとして使いたいとき","en":"Chapter text saved as Markdown notes","es":"El texto de los capítulos guardado como notas en Markdown","fr":"Le texte des chapitres enregistré en notes Markdown","de":"Kapiteltext als Markdown-Notizen speichern","it":"Il testo dei capitoli salvato come note in Markdown","ko":"각 장의 본문을 Markdown 메모로 저장할 때","pt_BR":"O texto dos capítulos salvo como notas em Markdown","zh_CN":"把章节正文保存为 Markdown 笔记","zh_TW":"把章節內文儲存為 Markdown 筆記"}},"es":{"primary":"Prueba gratis a guardar un capítulo","secondary":"Ver un manual ya reunido","href":"/samples/es/manual-combined/","note":"Gratis: una página por vez. Reunir varios capítulos en un solo archivo es una función Pro. Los documentos PDF se guardan aparte con la descarga de archivos.","items":[{"plan":"free","href":"/samples/es/manual-page/","title":"El capítulo 1 de un manual ficticio, guardado como HTML","text":"Los títulos, la tabla, los pasos numerados, la figura y el enlace al capítulo siguiente se guardan con un diseño fácil de leer. «Fácil de leer» deja fuera el menú del sitio."},{"plan":"pro","href":"/samples/es/manual-combined/","title":"Cuatro páginas de un manual ficticio en un solo HTML con índice y búsqueda","text":"El archivo combinado real: la página de índice y tres capítulos. El índice lleva a cada capítulo, el cuadro de búsqueda busca en todo el documento y los enlaces entre capítulos se mueven dentro del archivo."}]},"fr":{"primary":"Essayer gratuitement avec un chapitre","secondary":"Voir un manuel déjà réuni","href":"/samples/fr/manual-combined/","note":"Gratuit : une page par passage. Réunir plusieurs chapitres dans un seul fichier est une fonction Pro. Les documents PDF s’enregistrent à part avec le téléchargement de fichiers.","items":[{"plan":"free","href":"/samples/fr/manual-page/","title":"Le chapitre 1 d’un manuel fictif, enregistré en HTML","text":"Les titres, le tableau, les étapes numérotées, la figure et le lien vers le chapitre suivant sont enregistrés dans une mise en page facile à lire. « Facile à lire » laisse de côté le menu du site."},{"plan":"pro","href":"/samples/fr/manual-combined/","title":"Quatre pages d’un manuel fictif dans un seul HTML avec sommaire et recherche","text":"Le vrai fichier fusionné : la page de sommaire et trois chapitres. Le sommaire mène à chaque chapitre, le champ de recherche cherche dans tout le document et les liens entre chapitres restent dans le fichier."}]},"de":{"primary":"Ein Kapitel kostenlos speichern","secondary":"Ein fertig gesammeltes Handbuch ansehen","href":"/samples/de/manual-combined/","note":"Kostenlos: eine Seite pro Durchgang. Mehrere Kapitel in einer Datei zusammenzuführen ist eine Pro-Funktion. PDF-Dokumente werden getrennt mit dem Datei-Download gespeichert.","items":[{"plan":"free","href":"/samples/de/manual-page/","title":"Kapitel 1 eines erfundenen Handbuchs als HTML","text":"Überschriften, Tabelle, nummerierte Schritte, Abbildung und der Link zum nächsten Kapitel werden in einem gut lesbaren Layout gespeichert. „Gut lesbar“ lässt das Menü der Website weg."},{"plan":"pro","href":"/samples/de/manual-combined/","title":"Vier Seiten eines erfundenen Handbuchs in einer HTML-Datei mit Inhaltsverzeichnis und Suche","text":"Die echte zusammengeführte Datei: die Inhaltsseite und drei Kapitel. Das Inhaltsverzeichnis springt zu jedem Kapitel, das Suchfeld durchsucht das ganze Dokument, und Links zwischen Kapiteln bleiben in der Datei."}]},"it":{"primary":"Prova gratis a salvare un capitolo","secondary":"Guarda un manuale già raccolto","href":"/samples/it/manual-combined/","note":"Gratis: una pagina per volta. Riunire più capitoli in un solo file è una funzione Pro. I documenti PDF si salvano a parte con il download dei file.","items":[{"plan":"free","href":"/samples/it/manual-page/","title":"Il capitolo 1 di un manuale di fantasia, salvato in HTML","text":"Titoli, tabella, passaggi numerati, figura e link al capitolo successivo vengono salvati in un layout facile da leggere. «Facile da leggere» lascia fuori il menu del sito."},{"plan":"pro","href":"/samples/it/manual-combined/","title":"Quattro pagine di un manuale di fantasia in un solo HTML con indice e ricerca","text":"Il vero file unito: la pagina indice e tre capitoli. L’indice porta a ogni capitolo, la casella di ricerca cerca in tutto il documento e i link tra capitoli restano all’interno del file."}]},"ko":{"primary":"무료로 한 장 저장해 보기","secondary":"완성된 매뉴얼 모음 보기","href":"/samples/ko/manual-combined/","note":"무료: 1회에 한 페이지. 여러 장을 파일 하나로 합치는 것은 Pro 기능입니다. PDF 문서는 파일 다운로드로 따로 저장합니다.","items":[{"plan":"free","href":"/samples/ko/manual-page/","title":"가상 매뉴얼 1장을 HTML로 저장","text":"제목, 표, 번호 매긴 절차, 그림, 다음 장으로 가는 링크가 읽기 쉬운 형태로 저장됩니다. “읽기 쉽게 정리”는 사이트 메뉴를 빼고 저장합니다."},{"plan":"pro","href":"/samples/ko/manual-combined/","title":"가상 매뉴얼 4페이지를 목차·검색이 있는 HTML 하나로","text":"실제로 합친 파일입니다. 목차 페이지와 3개 장이 들어 있습니다. 목차에서 각 장으로 이동하고, 검색창으로 문서 전체를 찾을 수 있으며, 장 사이의 링크는 파일 안에서 이동합니다."}]},"pt_BR":{"primary":"Experimente salvar um capítulo de graça","secondary":"Ver um manual já reunido","href":"/samples/pt_BR/manual-combined/","note":"Grátis: uma página por vez. Reunir vários capítulos em um só arquivo é um recurso do Pro. Documentos PDF são salvos à parte com o download de arquivos.","items":[{"plan":"free","href":"/samples/pt_BR/manual-page/","title":"O capítulo 1 de um manual fictício, salvo em HTML","text":"Títulos, tabela, passos numerados, figura e o link para o próximo capítulo são salvos em um layout fácil de ler. “Fácil de ler” deixa de fora o menu do site."},{"plan":"pro","href":"/samples/pt_BR/manual-combined/","title":"Quatro páginas de um manual fictício em um só HTML com sumário e busca","text":"O arquivo combinado real: a página de sumário e três capítulos. O sumário leva a cada capítulo, a caixa de busca procura no documento inteiro e os links entre capítulos navegam dentro do arquivo."}]},"zh_CN":{"primary":"免费试试保存一章","secondary":"查看已整理好的手册","href":"/samples/zh_CN/manual-combined/","note":"免费版：每次一个网页。把多个章节合并为一个文件是 Pro 的功能。PDF 文档用文件下载另行保存。","items":[{"plan":"free","href":"/samples/zh_CN/manual-page/","title":"把虚构手册的第1章保存为 HTML","text":"标题、表格、编号步骤、插图和指向下一章的链接都以易读的版式保存。“整理为易读格式”会去掉网站的菜单。"},{"plan":"pro","href":"/samples/zh_CN/manual-combined/","title":"把虚构手册的4个网页合并为一个带目录和搜索的 HTML","text":"实际合并后的文件：目录页和3个章节。可从目录跳到各章节，用搜索框搜索整个文档，章节之间的链接在文件内跳转。"}]},"zh_TW":{"primary":"免費試試儲存一章","secondary":"查看已整理好的手冊","href":"/samples/zh_TW/manual-combined/","note":"免費版：每次一個網頁。把多個章節合併為一個檔案是 Pro 的功能。PDF 文件用檔案下載另行儲存。","items":[{"plan":"free","href":"/samples/zh_TW/manual-page/","title":"把虛構手冊的第1章儲存為 HTML","text":"標題、表格、編號步驟、插圖和前往下一章的連結都以易讀的版面儲存。「整理為易讀格式」會去掉網站的選單。"},{"plan":"pro","href":"/samples/zh_TW/manual-combined/","title":"把虛構手冊的4個網頁合併為一個附目錄和搜尋的 HTML","text":"實際合併後的檔案：目錄頁和3個章節。可從目錄跳到各章節，用搜尋框搜尋整份文件，章節之間的連結在檔案內跳轉。"}]}},"save-web-pages-with-original-design":{"ja":{"primary":"無料で1ページの見た目を保存する","secondary":"元ページと保存後HTMLを見比べる","href":"/samples/ja/original-look/","note":"無料版：1回1ページ。複数ページを1つのHTMLにまとめるのはPro版（$19.99・買い切り）です。動画・地図・ログインが必要な画面など、動きのある部分は保存後に動かないことがあります。","items":[{"plan":"free","href":"/samples/ja/original-look/","title":"架空のイベントページを「元の見た目のまま」保存","text":"同じ画面幅で撮った元ページと保存後のHTMLを並べています。「そのページのまま」で保存した単体のHTMLなので、目次や検索の画面は付きません（取得元のアドレスと日時はHTML冒頭のコメントに入っています）。画像はファイルの中に取り込み、オフラインでも表示できます。"},{"plan":"pro","href":"/samples/ja/original-combined/","title":"架空のイベントサイト3ページを、元の見た目のまま目次・検索付きの1つのHTMLに","text":"「目次・検索付きHTML」でまとめた実物です。各ページは元のデザインのまま枠に入り、枠の上に取得元のアドレスと取得日時が出ます。目次から各ページへ移動でき、検索欄で3ページ全体を探せます。"}],"limits":{"h":"残るものと、残らないことがあるもの","keep":["レイアウト・配色・文字の大きさ","画像（「ファイルの中に取り込む」を選んだ場合）","取得できたフォント"],"lose":["元サイトのスクリプトの動き（保存時に取り除かれます）","動画・地図・ログインが必要な画面","フォームの送信や検索など、サーバーとやり取りする機能"]}},"en":{"primary":"Save one page’s look for free","secondary":"Compare the source page and the saved HTML","href":"/samples/en/original-look/","note":"Free: one page per run. Combining several pages into one HTML file is Pro ($19.99, one-time). Videos, maps, sign-in screens and other interactive parts may not work in the saved file.","items":[{"plan":"free","href":"/samples/en/original-look/","title":"A fictional event page saved with “Keep the original look”","text":"The source page and the saved HTML, shot at the same window width, side by side. It was saved with “The page as it is”, so it is a single HTML file with no contents or search panel (the source address and time are in a comment at the top of the HTML). The images are stored in the file, so it displays offline."},{"plan":"pro","href":"/samples/en/original-combined/","title":"Three pages of a fictional event site in one HTML file, original look, with contents and search","text":"The real file saved with “HTML with contents and search”. Each page keeps its original design inside a frame, with the source address and capture time above it. The contents jump to each page, and the search box searches all three."}],"limits":{"h":"What is kept, and what may not be","keep":["Layout, colours and text sizes","Images (when stored in the file)","Fonts that could be fetched"],"lose":["The site’s own scripts (removed when saving)","Videos, maps and screens that need sign-in","Form submission, site search and anything that talks to the server"]}},"nearby":{"combine-web-pages-into-one-html":{"ja":"複数のページを目次・検索つきの1つのHTMLにまとめるとき","en":"Several pages in one file with contents and search","es":"Varias páginas en un solo archivo con índice y búsqueda","fr":"Plusieurs pages dans un seul fichier avec sommaire et recherche","de":"Mehrere Seiten in einer Datei mit Inhaltsverzeichnis und Suche","it":"Più pagine in un solo file con indice e ricerca","ko":"여러 페이지를 목차·검색이 있는 파일 하나로","pt_BR":"Várias páginas em um só arquivo com sumário e busca","zh_CN":"把多个网页合并为一个带目录和搜索的文件","zh_TW":"把多個網頁合併為一個附目錄和搜尋的檔案"},"combine-local-html-files-into-one":{"ja":"パソコンに保存済みのHTMLファイルを1つにまとめたい場合","en":"When the HTML files are already on your computer","es":"Cuando los archivos HTML ya están en tu equipo","fr":"Quand les fichiers HTML sont déjà sur votre ordinateur","de":"Wenn die HTML-Dateien schon auf Ihrem Computer liegen","it":"Quando i file HTML sono già sul tuo computer","ko":"HTML 파일이 이미 내 컴퓨터에 있을 때","pt_BR":"Quando os arquivos HTML já estão no seu computador","zh_CN":"HTML 文件已经在您的电脑上时","zh_TW":"HTML 檔案已經在您的電腦上時"},"save-online-manuals-and-knowledge-pages":{"ja":"見た目より、マニュアルを探しやすく読むことが大事なとき","en":"Easy reading and search ahead of the original look","es":"Cuando importan más la lectura fácil y la búsqueda que el aspecto original","fr":"Quand la lecture et la recherche comptent plus que l’apparence d’origine","de":"Wenn gute Lesbarkeit und Suche wichtiger sind als das Originalaussehen","it":"Quando lettura facile e ricerca contano più dell’aspetto originale","ko":"원래 모양보다 읽기 쉬움과 검색이 중요할 때","pt_BR":"Quando leitura fácil e busca importam mais que a aparência original","zh_CN":"比起原有外观，更看重易读和搜索时","zh_TW":"比起原有外觀，更重視易讀與搜尋時"}},"es":{"primary":"Guarda gratis el aspecto de una página","secondary":"Comparar la página original y el HTML guardado","href":"/samples/es/original-look/","note":"Gratis: una página por vez. Combinar varias páginas en un solo HTML es una función Pro ($19.99, pago único). Los vídeos, mapas, pantallas con inicio de sesión y otras partes interactivas pueden no funcionar en el archivo guardado.","items":[{"plan":"free","href":"/samples/es/original-look/","title":"Una página ficticia de un evento guardada con «Mantener el aspecto original»","text":"La página original y el HTML guardado, capturados con el mismo ancho de ventana, uno al lado del otro. Se guardó con «La página tal cual», así que es un solo archivo HTML sin índice ni panel de búsqueda (la dirección de origen y la hora están en un comentario al principio del HTML). Las imágenes van dentro del archivo, así que se ve sin conexión."},{"plan":"pro","href":"/samples/es/original-combined/","title":"Tres páginas de un sitio ficticio de un evento en un solo HTML, con su aspecto original, índice y búsqueda","text":"El archivo real guardado con «HTML con índice y búsqueda». Cada página conserva su diseño original dentro de un marco, con la dirección de origen y la hora de captura encima. El índice lleva a cada página y el cuadro de búsqueda busca en las tres."}],"limits":{"h":"Lo que se conserva y lo que puede no conservarse","keep":["El diseño, los colores y el tamaño del texto","Las imágenes (si se guardan dentro del archivo)","Las fuentes que se pudieron obtener"],"lose":["Los scripts del propio sitio (se quitan al guardar)","Vídeos, mapas y pantallas que piden iniciar sesión","El envío de formularios, la búsqueda del sitio y todo lo que se comunica con el servidor"]}},"fr":{"primary":"Enregistrer gratuitement l’apparence d’une page","secondary":"Comparer la page d’origine et le HTML enregistré","href":"/samples/fr/original-look/","note":"Gratuit : une page par passage. Fusionner plusieurs pages en un seul HTML est une fonction Pro (19,99 $, achat unique). Les vidéos, les cartes, les écrans avec connexion et les autres parties interactives peuvent ne pas fonctionner dans le fichier enregistré.","items":[{"plan":"free","href":"/samples/fr/original-look/","title":"Une page fictive d’événement enregistrée avec « Garder l’apparence d’origine »","text":"La page d’origine et le HTML enregistré, capturés à la même largeur de fenêtre, côte à côte. L’enregistrement a été fait avec « La page telle quelle » : c’est un seul fichier HTML, sans sommaire ni panneau de recherche (l’adresse d’origine et l’heure sont dans un commentaire en tête du HTML). Les images sont dans le fichier, qui s’affiche donc hors ligne."},{"plan":"pro","href":"/samples/fr/original-combined/","title":"Trois pages d’un site fictif d’événement dans un seul HTML, avec leur apparence d’origine, un sommaire et une recherche","text":"Le vrai fichier enregistré avec « HTML avec sommaire et recherche ». Chaque page garde son design d’origine dans un cadre, avec l’adresse d’origine et l’heure de capture au-dessus. Le sommaire mène à chaque page et le champ de recherche cherche dans les trois."}],"limits":{"h":"Ce qui est conservé, et ce qui peut ne pas l’être","keep":["La mise en page, les couleurs et la taille du texte","Les images (si elles sont enregistrées dans le fichier)","Les polices qui ont pu être récupérées"],"lose":["Les scripts du site (retirés à l’enregistrement)","Les vidéos, les cartes et les écrans qui demandent une connexion","L’envoi de formulaires, la recherche du site et tout ce qui échange avec le serveur"]}},"de":{"primary":"Das Aussehen einer Seite kostenlos speichern","secondary":"Originalseite und gespeichertes HTML vergleichen","href":"/samples/de/original-look/","note":"Kostenlos: eine Seite pro Durchgang. Mehrere Seiten zu einer HTML-Datei zusammenführen ist eine Pro-Funktion (19,99 $, einmalig). Videos, Karten, Anmeldebildschirme und andere interaktive Teile funktionieren in der gespeicherten Datei eventuell nicht.","items":[{"plan":"free","href":"/samples/de/original-look/","title":"Eine erfundene Veranstaltungsseite, gespeichert mit „Ursprüngliches Aussehen behalten“","text":"Originalseite und gespeichertes HTML, bei gleicher Fensterbreite aufgenommen, nebeneinander. Gespeichert wurde mit „Seite unverändert“, also eine einzelne HTML-Datei ohne Inhaltsverzeichnis oder Suchfeld (Herkunftsadresse und Zeit stehen in einem Kommentar am Anfang der HTML-Datei). Die Bilder sind in der Datei enthalten, sie wird also auch offline angezeigt."},{"plan":"pro","href":"/samples/de/original-combined/","title":"Drei Seiten einer erfundenen Veranstaltungswebsite in einer HTML-Datei, im Originalaussehen, mit Inhaltsverzeichnis und Suche","text":"Die echte Datei, gespeichert mit „HTML mit Inhaltsverzeichnis und Suche“. Jede Seite behält ihr ursprüngliches Design in einem Rahmen, darüber stehen Herkunftsadresse und Erfassungszeit. Das Inhaltsverzeichnis springt zu jeder Seite, das Suchfeld durchsucht alle drei."}],"limits":{"h":"Was erhalten bleibt und was eventuell nicht","keep":["Layout, Farben und Schriftgrößen","Bilder (wenn sie in der Datei gespeichert werden)","Schriften, die abgerufen werden konnten"],"lose":["Die Skripte der Website (beim Speichern entfernt)","Videos, Karten und Bildschirme mit Anmeldung","Formulare absenden, die Suche der Website und alles, was mit dem Server kommuniziert"]}},"it":{"primary":"Salva gratis l’aspetto di una pagina","secondary":"Confronta la pagina originale e l’HTML salvato","href":"/samples/it/original-look/","note":"Gratis: una pagina per volta. Unire più pagine in un solo HTML è una funzione Pro ($19.99, una tantum). Video, mappe, schermate con accesso e altre parti interattive potrebbero non funzionare nel file salvato.","items":[{"plan":"free","href":"/samples/it/original-look/","title":"Una pagina di fantasia di un evento salvata con «Mantieni l’aspetto originale»","text":"La pagina originale e l’HTML salvato, catturati con la stessa larghezza di finestra, uno accanto all’altro. È stata salvata con «La pagina così com’è», quindi è un solo file HTML senza indice né pannello di ricerca (indirizzo di provenienza e ora sono in un commento all’inizio dell’HTML). Le immagini sono dentro il file, che quindi si vede anche offline."},{"plan":"pro","href":"/samples/it/original-combined/","title":"Tre pagine di un sito di fantasia di un evento in un solo HTML, con l’aspetto originale, indice e ricerca","text":"Il vero file salvato con «HTML con indice e ricerca». Ogni pagina mantiene il design originale in una cornice, con l’indirizzo di provenienza e l’ora di acquisizione sopra. L’indice porta a ogni pagina e la casella di ricerca cerca in tutte e tre."}],"limits":{"h":"Cosa si conserva e cosa potrebbe non conservarsi","keep":["Layout, colori e dimensioni del testo","Immagini (se salvate nel file)","I font che è stato possibile scaricare"],"lose":["Gli script del sito (rimossi al salvataggio)","Video, mappe e schermate che richiedono l’accesso","Invio di moduli, ricerca del sito e tutto ciò che comunica con il server"]}},"ko":{"primary":"무료로 한 페이지의 모양 저장하기","secondary":"원래 페이지와 저장한 HTML 비교하기","href":"/samples/ko/original-look/","note":"무료: 1회에 한 페이지. 여러 페이지를 HTML 하나로 합치는 것은 Pro($19.99, 1회 결제) 기능입니다. 동영상, 지도, 로그인이 필요한 화면 등 움직이는 부분은 저장한 뒤에 작동하지 않을 수 있습니다.","items":[{"plan":"free","href":"/samples/ko/original-look/","title":"가상 이벤트 페이지를 “원래 모양 그대로”로 저장","text":"같은 창 너비로 찍은 원래 페이지와 저장한 HTML을 나란히 놓았습니다. “페이지 그대로”로 저장한 HTML 파일 하나이므로 목차나 검색 화면은 없습니다(가져온 주소와 시각은 HTML 맨 앞의 주석에 들어 있습니다). 이미지는 파일 안에 넣었기 때문에 오프라인에서도 보입니다."},{"plan":"pro","href":"/samples/ko/original-combined/","title":"가상 이벤트 사이트 3페이지를 원래 모양 그대로 목차·검색이 있는 HTML 하나로","text":"“목차·검색 기능이 있는 HTML”로 저장한 실제 파일입니다. 각 페이지는 원래 디자인 그대로 틀 안에 들어가고, 틀 위에 가져온 주소와 저장한 시각이 표시됩니다. 목차에서 각 페이지로 이동하고, 검색창으로 3페이지 전체를 찾을 수 있습니다."}],"limits":{"h":"남는 것과 남지 않을 수 있는 것","keep":["레이아웃·색·글자 크기","이미지 (파일 안에 넣었을 때)","가져올 수 있었던 글꼴"],"lose":["원래 사이트의 스크립트 동작 (저장할 때 제거됩니다)","동영상·지도·로그인이 필요한 화면","양식 보내기, 사이트 검색 등 서버와 주고받는 기능"]}},"pt_BR":{"primary":"Salve de graça a aparência de uma página","secondary":"Comparar a página original e o HTML salvo","href":"/samples/pt_BR/original-look/","note":"Grátis: uma página por vez. Juntar várias páginas em um só HTML é um recurso do Pro ($19.99, compra única). Vídeos, mapas, telas com login e outras partes interativas podem não funcionar no arquivo salvo.","items":[{"plan":"free","href":"/samples/pt_BR/original-look/","title":"Uma página fictícia de evento salva com “Manter a aparência original”","text":"A página original e o HTML salvo, capturados com a mesma largura de janela, lado a lado. Foi salva com “A página como está”, então é um só arquivo HTML sem sumário nem painel de busca (o endereço de origem e o horário ficam em um comentário no início do HTML). As imagens ficam dentro do arquivo, que por isso abre sem internet."},{"plan":"pro","href":"/samples/pt_BR/original-combined/","title":"Três páginas de um site fictício de evento em um só HTML, com a aparência original, sumário e busca","text":"O arquivo real salvo com “HTML com índice e pesquisa”. Cada página mantém o design original dentro de um quadro, com o endereço de origem e o horário da captura acima. O sumário leva a cada página e a caixa de busca procura nas três."}],"limits":{"h":"O que é mantido e o que pode não ser","keep":["Layout, cores e tamanho do texto","Imagens (quando salvas dentro do arquivo)","As fontes que puderam ser obtidas"],"lose":["Os scripts do próprio site (removidos ao salvar)","Vídeos, mapas e telas que pedem login","Envio de formulários, busca do site e tudo o que conversa com o servidor"]}},"zh_CN":{"primary":"免费保存一个网页的外观","secondary":"对比原网页和保存后的 HTML","href":"/samples/zh_CN/original-look/","note":"免费版：每次一个网页。把多个网页合并为一个 HTML 是 Pro（$19.99，一次性付费）的功能。视频、地图、需要登录的界面等交互部分，保存后可能无法使用。","items":[{"plan":"free","href":"/samples/zh_CN/original-look/","title":"用“保持原样”保存的虚构活动网页","text":"把同一窗口宽度下截取的原网页和保存后的 HTML 并排展示。用“保持页面原样”保存，是一个单独的 HTML 文件，没有目录和搜索界面（来源网址和时间记录在 HTML 开头的注释中）。图片已存入文件，离线也能显示。"},{"plan":"pro","href":"/samples/zh_CN/original-combined/","title":"把虚构活动网站的3个网页按原样合并为一个带目录和搜索的 HTML","text":"用“带目录和搜索的HTML”实际保存的文件。每个网页以原有设计放在框中，框的上方显示来源网址和抓取时间。可从目录跳到各网页，用搜索框搜索全部3个网页。"}],"limits":{"h":"会保留的内容和可能无法保留的内容","keep":["布局、配色和文字大小","图片（选择存入文件时）","能够获取到的字体"],"lose":["原网站脚本的动作（保存时会被移除）","视频、地图和需要登录的界面","提交表单、站内搜索等与服务器通信的功能"]}},"zh_TW":{"primary":"免費儲存一個網頁的外觀","secondary":"對照原網頁與儲存後的 HTML","href":"/samples/zh_TW/original-look/","note":"免費版：每次一個網頁。把多個網頁合併為一個 HTML 是 Pro（$19.99，一次購買）的功能。影片、地圖、需要登入的畫面等互動部分，儲存後可能無法使用。","items":[{"plan":"free","href":"/samples/zh_TW/original-look/","title":"用「保持原樣」儲存的虛構活動網頁","text":"把同一視窗寬度下擷取的原網頁與儲存後的 HTML 並排呈現。用「保持頁面原樣」儲存，是一個單獨的 HTML 檔案，沒有目錄與搜尋介面（來源網址與時間記錄在 HTML 開頭的註解中）。圖片已存入檔案，離線也能顯示。"},{"plan":"pro","href":"/samples/zh_TW/original-combined/","title":"把虛構活動網站的3個網頁按原樣合併為一個附目錄和搜尋的 HTML","text":"用「附目錄及搜尋的HTML」實際儲存的檔案。每個網頁以原有設計放在框中，框的上方顯示來源網址與擷取時間。可從目錄跳到各網頁，用搜尋框搜尋全部3個網頁。"}],"limits":{"h":"會保留的內容與可能無法保留的內容","keep":["版面、配色與文字大小","圖片（選擇存入檔案時）","能夠取得的字型"],"lose":["原網站指令碼的動作（儲存時會被移除）","影片、地圖與需要登入的畫面","送出表單、站內搜尋等與伺服器通訊的功能"]}}},"save-web-pages-as-markdown":{"ja":{"primary":"無料で1ページをMarkdownにする","secondary":"実際のMarkdown出力を見る","href":"/samples/ja/markdown-page/","note":"無料版：1回1ページ。AIへ自動で送る機能はありません。どこに貼り付けるかは自分で決めます。","items":[{"plan":"free","href":"/samples/ja/markdown-page/","title":"架空の手順書の第2章を、1つのMarkdownに","text":"保存後の.mdファイルそのものです。先頭に出典URLと取得日時があり、見出し・番号付きの手順・表・前後の章へのリンクがMarkdownになっています。"},{"plan":"pro","href":"/samples/ja/markdown-pages/","title":"4ページを、ページ別Markdown（ZIP）に","text":"ページごとの.md、表のCSV、出典と件数を書いた manifest.json などが入ったZIPの実物です。"}]},"en":{"primary":"Turn one page into Markdown for free","secondary":"See real Markdown output","href":"/samples/en/markdown-page/","note":"Free: one page per run. Nothing is sent to an AI automatically; you decide where to paste it.","items":[{"plan":"free","href":"/samples/en/markdown-page/","title":"Chapter 2 of a fictional handbook as one Markdown file","text":"The saved .md file itself: the source URL and retrieval time at the top, then headings, numbered steps, the table and links to the other chapters in Markdown."},{"plan":"pro","href":"/samples/en/markdown-pages/","title":"Four pages as per-page Markdown (ZIP)","text":"The real ZIP: one .md per page, the tables as CSV, a manifest.json with sources and counts, and more."}]},"nearby":{"web-pages-for-reading-and-ai-analysis":{"ja":"AIに渡す資料を、読む用のHTMLと一緒に準備するとき","en":"AI material prepared alongside a readable HTML copy","es":"Material para IA preparado junto con una copia HTML fácil de leer","fr":"Des données pour l’IA préparées avec une copie HTML facile à lire","de":"KI-Material zusammen mit einer gut lesbaren HTML-Kopie","it":"Materiale per l’IA preparato insieme a una copia HTML facile da leggere","ko":"읽기 쉬운 HTML 사본과 함께 AI용 자료를 만들 때","pt_BR":"Material para IA preparado junto com uma cópia HTML fácil de ler","zh_CN":"在易读的 HTML 副本之外，同时准备给 AI 的资料","zh_TW":"在易讀的 HTML 副本之外，同時準備給 AI 的資料"},"web-tables-to-csv-for-excel-ai":{"ja":"ページの表をCSVにして、Excelなどで使いたい場合","en":"A page’s tables as CSV for Excel and similar tools","es":"Las tablas de una página en CSV para Excel y herramientas parecidas","fr":"Les tableaux d’une page en CSV pour Excel et des outils semblables","de":"Tabellen einer Seite als CSV für Excel und ähnliche Programme","it":"Le tabelle di una pagina in CSV per Excel e strumenti simili","ko":"페이지의 표를 Excel 등에서 쓸 CSV로","pt_BR":"As tabelas de uma página em CSV para o Excel e ferramentas parecidas","zh_CN":"把网页里的表格保存为 CSV，用于 Excel 等工具","zh_TW":"把網頁裡的表格儲存為 CSV，用於 Excel 等工具"},"save-online-manuals-and-knowledge-pages":{"ja":"章立てのマニュアルを、目次・検索つきで保存するとき","en":"A multi-chapter manual with contents and search","es":"Un manual de varios capítulos con índice y búsqueda","fr":"Un manuel en plusieurs chapitres avec sommaire et recherche","de":"Ein Handbuch mit mehreren Kapiteln, mit Inhaltsverzeichnis und Suche","it":"Un manuale in più capitoli con indice e ricerca","ko":"목차·검색이 있는 여러 장짜리 매뉴얼","pt_BR":"Um manual com vários capítulos, com sumário e busca","zh_CN":"带目录和搜索的多章节手册","zh_TW":"附目錄和搜尋的多章節手冊"}},"es":{"primary":"Convierte gratis una página en Markdown","secondary":"Ver una salida real en Markdown","href":"/samples/es/markdown-page/","note":"Gratis: una página por vez. No se envía nada a ninguna IA automáticamente; tú decides dónde pegarlo.","items":[{"plan":"free","href":"/samples/es/markdown-page/","title":"El capítulo 2 de un manual ficticio en un archivo Markdown","text":"El propio archivo .md guardado: la URL de origen y la hora de obtención arriba, y después los títulos, los pasos numerados, la tabla y los enlaces a los otros capítulos en Markdown."},{"plan":"pro","href":"/samples/es/markdown-pages/","title":"Cuatro páginas en Markdown, un archivo por página (ZIP)","text":"El ZIP real: un .md por página, las tablas en CSV, un manifest.json con las fuentes y los recuentos, y más."}]},"fr":{"primary":"Convertir gratuitement une page en Markdown","secondary":"Voir un vrai résultat en Markdown","href":"/samples/fr/markdown-page/","note":"Gratuit : une page par passage. Rien n’est envoyé automatiquement à une IA ; c’est vous qui choisissez où le coller.","items":[{"plan":"free","href":"/samples/fr/markdown-page/","title":"Le chapitre 2 d’un manuel fictif dans un fichier Markdown","text":"Le fichier .md enregistré lui-même : l’URL d’origine et l’heure de récupération en tête, puis les titres, les étapes numérotées, le tableau et les liens vers les autres chapitres en Markdown."},{"plan":"pro","href":"/samples/fr/markdown-pages/","title":"Quatre pages en Markdown, un fichier par page (ZIP)","text":"Le vrai ZIP : un .md par page, les tableaux en CSV, un manifest.json avec les sources et les décomptes, et d’autres fichiers."}]},"de":{"primary":"Eine Seite kostenlos in Markdown umwandeln","secondary":"Echte Markdown-Ausgabe ansehen","href":"/samples/de/markdown-page/","note":"Kostenlos: eine Seite pro Durchgang. Nichts wird automatisch an eine KI gesendet; Sie entscheiden selbst, wo Sie es einfügen.","items":[{"plan":"free","href":"/samples/de/markdown-page/","title":"Kapitel 2 eines erfundenen Handbuchs als eine Markdown-Datei","text":"Die gespeicherte .md-Datei selbst: oben die Quell-URL und der Abrufzeitpunkt, darunter Überschriften, nummerierte Schritte, die Tabelle und Links zu den anderen Kapiteln in Markdown."},{"plan":"pro","href":"/samples/de/markdown-pages/","title":"Vier Seiten als Markdown, eine Datei pro Seite (ZIP)","text":"Die echte ZIP-Datei: eine .md pro Seite, die Tabellen als CSV, eine manifest.json mit Quellen und Zahlen und weitere Dateien."}]},"it":{"primary":"Trasforma gratis una pagina in Markdown","secondary":"Guarda un vero risultato in Markdown","href":"/samples/it/markdown-page/","note":"Gratis: una pagina per volta. Niente viene inviato automaticamente a un’IA; decidi tu dove incollarlo.","items":[{"plan":"free","href":"/samples/it/markdown-page/","title":"Il capitolo 2 di un manuale di fantasia in un file Markdown","text":"Il file .md salvato: in cima l’URL di provenienza e l’ora di recupero, poi titoli, passaggi numerati, la tabella e i link agli altri capitoli in Markdown."},{"plan":"pro","href":"/samples/it/markdown-pages/","title":"Quattro pagine in Markdown, un file per pagina (ZIP)","text":"Il vero ZIP: un .md per pagina, le tabelle in CSV, un manifest.json con fonti e conteggi, e altro."}]},"ko":{"primary":"무료로 한 페이지를 Markdown으로 바꾸기","secondary":"실제 Markdown 출력 보기","href":"/samples/ko/markdown-page/","note":"무료: 1회에 한 페이지. AI로 자동으로 보내지 않습니다. 어디에 붙여 넣을지는 직접 정합니다.","items":[{"plan":"free","href":"/samples/ko/markdown-page/","title":"가상 매뉴얼 2장을 Markdown 파일 하나로","text":"저장한 .md 파일 그대로입니다. 맨 앞에 원래 URL과 가져온 시각이 있고, 이어서 제목, 번호 매긴 절차, 표, 다른 장으로 가는 링크가 Markdown으로 들어 있습니다."},{"plan":"pro","href":"/samples/ko/markdown-pages/","title":"4페이지를 페이지별 Markdown으로 (ZIP)","text":"실제 ZIP입니다. 페이지마다 .md 하나, 표는 CSV, 출처와 개수를 적은 manifest.json 등이 들어 있습니다."}]},"pt_BR":{"primary":"Transforme uma página em Markdown de graça","secondary":"Ver um resultado real em Markdown","href":"/samples/pt_BR/markdown-page/","note":"Grátis: uma página por vez. Nada é enviado automaticamente para uma IA; você decide onde colar.","items":[{"plan":"free","href":"/samples/pt_BR/markdown-page/","title":"O capítulo 2 de um manual fictício em um arquivo Markdown","text":"O próprio arquivo .md salvo: no topo, a URL de origem e o horário da coleta; depois, títulos, passos numerados, a tabela e os links para os outros capítulos em Markdown."},{"plan":"pro","href":"/samples/pt_BR/markdown-pages/","title":"Quatro páginas em Markdown, um arquivo por página (ZIP)","text":"O ZIP real: um .md por página, as tabelas em CSV, um manifest.json com as fontes e as contagens, e mais."}]},"zh_CN":{"primary":"免费把一个网页转成 Markdown","secondary":"查看实际的 Markdown 输出","href":"/samples/zh_CN/markdown-page/","note":"免费版：每次一个网页。不会自动发送给任何 AI，粘贴到哪里由您决定。","items":[{"plan":"free","href":"/samples/zh_CN/markdown-page/","title":"把虚构手册的第2章保存为一个 Markdown 文件","text":"保存的 .md 文件本身：开头是来源网址和获取时间，后面是用 Markdown 写的标题、编号步骤、表格和指向其他章节的链接。"},{"plan":"pro","href":"/samples/zh_CN/markdown-pages/","title":"把4个网页按页保存为 Markdown（ZIP）","text":"实际的 ZIP：每页一个 .md、表格的 CSV、记录来源和数量的 manifest.json 等。"}]},"zh_TW":{"primary":"免費把一個網頁轉成 Markdown","secondary":"查看實際的 Markdown 輸出","href":"/samples/zh_TW/markdown-page/","note":"免費版：每次一個網頁。不會自動傳送給任何 AI，貼到哪裡由您決定。","items":[{"plan":"free","href":"/samples/zh_TW/markdown-page/","title":"把虛構手冊的第2章儲存為一個 Markdown 檔案","text":"儲存的 .md 檔案本身：開頭是來源網址與取得時間，後面是用 Markdown 寫的標題、編號步驟、表格與前往其他章節的連結。"},{"plan":"pro","href":"/samples/zh_TW/markdown-pages/","title":"把4個網頁按頁儲存為 Markdown（ZIP）","text":"實際的 ZIP：每頁一個 .md、表格的 CSV、記錄來源與數量的 manifest.json 等。"}]}},"collect-and-analyze-web-comments":{"ja":{"primary":"無料でコメント欄を保存してみる","secondary":"実際に保存したコメントのHTMLを見る","href":"/samples/ja/comment-thread/","note":"無料版：1回1ページ。コメントの件数に上限はなく、1,000件ごとに続けるか確認します。複数のページのコメントを1つのHTMLにまとめるのはPro版（$19.99・買い切り）です。","items":[{"plan":"free","href":"/samples/ja/comment-thread/","title":"架空のお知らせ記事のコメント欄（120件）を1つのHTMLに保存","text":"最初は20件しか表示されず、スクロールすると続きが出てくるコメント欄を、「現在のページのみ」で保存しました。保存したHTMLに120件すべてと返信が入っていることを、元のページとの比較画像で確かめられます。"}],"limits":{"h":"入るものと、入らないことがあるもの","keep":["スクロールで読み込まれるコメントと返信","投稿者の名前・日時・いいねの数"],"lose":["ログインしないと見えないコメント","動画ファイルそのもの","サイトの作りによっては、閉じたままの返信"]},"intro":"このサイトに置いた架空のページを、Grab All Files で実際に保存したファイルです。5.8.53 の後の版（5.8.54 として提出予定）と同じ中身のビルドを、無料版の設定で Firefox に読み込んで作りました。作成条件と各ファイルのハッシュ値も載せています。"},"en":{"primary":"Save a comment section for free","secondary":"See a real saved comments file","href":"/samples/en/comment-thread/","note":"Free: one page per run. There is no limit on the number of comments; it asks whether to keep reading every 1,000 posts. Combining comments from several pages into one HTML file is Pro ($19.99, one-time).","items":[{"plan":"free","href":"/samples/en/comment-thread/","title":"A fictional news post’s comment section (120 comments) saved as one HTML file","text":"The comments start with only 20 shown and load more as you scroll. It was saved with “Current page only”. Comparison images of the source page and the saved HTML show that all 120 comments and their replies are in the file."}],"limits":{"h":"What is included, and what may not be","keep":["Comments and replies that load as you scroll","Author names, dates and like counts"],"lose":["Comments that need a sign-in to see","The video file itself","On some sites, replies that stay collapsed"]},"intro":"A file actually saved by Grab All Files from a fictional page hosted on this site, using a build with the same contents as the version after 5.8.53 that is to be submitted as 5.8.54, loaded in Firefox with Free plan settings. The settings used and the file’s hash are listed."},"nearby":{"web-pages-for-reading-and-ai-analysis":{"ja":"AIに渡す資料を、読む用のHTMLと一緒に準備するとき","en":"AI material prepared alongside a readable HTML copy","es":"Material para IA preparado junto con una copia HTML fácil de leer","fr":"Des données pour l’IA préparées avec une copie HTML facile à lire","de":"KI-Material zusammen mit einer gut lesbaren HTML-Kopie","it":"Materiale per l’IA preparato insieme a una copia HTML facile da leggere","ko":"읽기 쉬운 HTML 사본과 함께 AI용 자료를 만들 때","pt_BR":"Material para IA preparado junto com uma cópia HTML fácil de ler","zh_CN":"在易读的 HTML 副本之外，同时准备给 AI 的资料","zh_TW":"在易讀的 HTML 副本之外，同時準備給 AI 的資料"},"combine-web-pages-into-one-html":{"ja":"複数のページを目次・検索つきの1つのHTMLにまとめるとき","en":"Several pages in one file with contents and search","es":"Varias páginas en un solo archivo con índice y búsqueda","fr":"Plusieurs pages dans un seul fichier avec sommaire et recherche","de":"Mehrere Seiten in einer Datei mit Inhaltsverzeichnis und Suche","it":"Più pagine in un solo file con indice e ricerca","ko":"여러 페이지를 목차·검색이 있는 파일 하나로","pt_BR":"Várias páginas em um só arquivo com sumário e busca","zh_CN":"把多个网页合并为一个带目录和搜索的文件","zh_TW":"把多個網頁合併為一個附目錄和搜尋的檔案"},"save-web-pages-with-original-design":{"ja":"文字より、サイトのレイアウトや配色を残したい場合","en":"Pages where layout and colours matter more than the text","es":"Páginas en las que importan más el diseño y los colores que el texto","fr":"Des pages où la mise en page et les couleurs comptent plus que le texte","de":"Seiten, bei denen Layout und Farben wichtiger sind als der Text","it":"Pagine in cui layout e colori contano più del testo","ko":"글보다 레이아웃과 색이 중요한 페이지","pt_BR":"Páginas em que o layout e as cores importam mais que o texto","zh_CN":"布局和配色比文字更重要的网页","zh_TW":"版面和配色比文字更重要的網頁"}},"es":{"primary":"Prueba gratis a guardar una sección de comentarios","secondary":"Ver un archivo real de comentarios guardados","href":"/samples/es/comment-thread/","note":"Gratis: una página por vez. No hay límite en el número de comentarios; cada 1.000 publicaciones te pregunta si quieres seguir leyendo. Combinar los comentarios de varias páginas en un solo HTML es una función Pro ($19.99, pago único).","items":[{"plan":"free","href":"/samples/es/comment-thread/","title":"La sección de comentarios de una noticia ficticia (120 comentarios) guardada en un solo HTML","text":"Al principio solo se ven 20 comentarios y el resto se carga al desplazarte. Se guardó con «Solo la página actual». Las imágenes que comparan la página original con el HTML guardado muestran que los 120 comentarios y sus respuestas están en el archivo."}],"limits":{"h":"Lo que se incluye y lo que puede no incluirse","keep":["Los comentarios y respuestas que se cargan al desplazarte","Nombres de los autores, fechas y número de «me gusta»"],"lose":["Comentarios que solo se ven con la sesión iniciada","El archivo de vídeo en sí","En algunos sitios, las respuestas que quedan sin desplegar"]},"intro":"Un archivo guardado de verdad con Grab All Files a partir de una página ficticia alojada en este sitio. Se usó una compilación con el mismo contenido que la versión posterior a la 5.8.54 (se enviará como 5.8.55), cargada en Firefox con la configuración de la versión gratuita. Se indican los ajustes usados y el hash del archivo."},"fr":{"primary":"Essayer gratuitement avec un espace commentaires","secondary":"Voir un vrai fichier de commentaires enregistré","href":"/samples/fr/comment-thread/","note":"Gratuit : une page par passage. Le nombre de commentaires n’est pas limité ; toutes les 1 000 publications, l’extension demande s’il faut continuer la lecture. Fusionner les commentaires de plusieurs pages en un seul HTML est une fonction Pro (19,99 $, achat unique).","items":[{"plan":"free","href":"/samples/fr/comment-thread/","title":"L’espace commentaires d’un article fictif (120 commentaires) enregistré dans un seul HTML","text":"Au départ, seuls 20 commentaires s’affichent ; les suivants se chargent au défilement. L’enregistrement a été fait avec « Page actuelle uniquement ». Les images comparant la page d’origine et le HTML enregistré montrent que les 120 commentaires et leurs réponses sont dans le fichier."}],"limits":{"h":"Ce qui est inclus, et ce qui peut ne pas l’être","keep":["Les commentaires et réponses chargés au défilement","Noms des auteurs, dates et nombre de « J’aime »"],"lose":["Les commentaires visibles seulement une fois connecté","Le fichier vidéo lui-même","Sur certains sites, les réponses qui restent repliées"]},"intro":"Un fichier réellement enregistré par Grab All Files à partir d’une page fictive hébergée sur ce site, avec une version de travail au contenu identique à celui de la version postérieure à la 5.8.54 (qui sera soumise comme 5.8.55), chargée dans Firefox avec les réglages de la version gratuite. Les réglages utilisés et l’empreinte du fichier sont indiqués."},"de":{"primary":"Einen Kommentarbereich kostenlos speichern","secondary":"Eine echte gespeicherte Kommentardatei ansehen","href":"/samples/de/comment-thread/","note":"Kostenlos: eine Seite pro Durchgang. Die Zahl der Kommentare ist nicht begrenzt; alle 1.000 Beiträge fragt die Erweiterung, ob sie weiterlesen soll. Die Kommentare mehrerer Seiten in einer HTML-Datei zusammenführen ist eine Pro-Funktion (19,99 $, einmalig).","items":[{"plan":"free","href":"/samples/de/comment-thread/","title":"Der Kommentarbereich einer erfundenen Meldung (120 Kommentare) als eine HTML-Datei gespeichert","text":"Anfangs sind nur 20 Kommentare zu sehen, der Rest lädt beim Scrollen nach. Gespeichert wurde mit „Nur die aktuelle Seite“. Die Vergleichsbilder von Originalseite und gespeicherter HTML-Datei zeigen, dass alle 120 Kommentare samt Antworten in der Datei sind."}],"limits":{"h":"Was enthalten ist und was eventuell nicht","keep":["Kommentare und Antworten, die beim Scrollen nachladen","Namen der Verfasser, Datum und Anzahl der Likes"],"lose":["Kommentare, die nur nach dem Anmelden sichtbar sind","Die Videodatei selbst","Auf manchen Websites Antworten, die zugeklappt bleiben"]},"intro":"Eine Datei, die Grab All Files tatsächlich von einer erfundenen Seite auf dieser Website gespeichert hat. Verwendet wurde ein Build mit demselben Inhalt wie die Version nach 5.8.54 (Einreichung als 5.8.55 geplant), in Firefox mit den Einstellungen der kostenlosen Version geladen. Die verwendeten Einstellungen und der Hash der Datei sind angegeben."},"it":{"primary":"Prova gratis a salvare una sezione commenti","secondary":"Guarda un vero file di commenti salvati","href":"/samples/it/comment-thread/","note":"Gratis: una pagina per volta. Non c’è un limite al numero di commenti; ogni 1.000 post l’estensione chiede se continuare a leggere. Unire i commenti di più pagine in un solo HTML è una funzione Pro ($19.99, una tantum).","items":[{"plan":"free","href":"/samples/it/comment-thread/","title":"La sezione commenti di una notizia di fantasia (120 commenti) salvata in un solo HTML","text":"All’inizio si vedono solo 20 commenti e gli altri si caricano scorrendo. È stata salvata con «Solo la pagina attuale». Le immagini che confrontano la pagina originale e l’HTML salvato mostrano che nel file ci sono tutti i 120 commenti con le risposte."}],"limits":{"h":"Cosa è incluso e cosa potrebbe non esserlo","keep":["I commenti e le risposte che si caricano scorrendo","Nomi degli autori, date e numero di «Mi piace»"],"lose":["I commenti visibili solo dopo l’accesso","Il file video in sé","Su alcuni siti, le risposte che restano chiuse"]},"intro":"Un file salvato davvero con Grab All Files da una pagina di fantasia ospitata su questo sito, usando una build con lo stesso contenuto della versione successiva alla 5.8.54 (da inviare come 5.8.55), caricata in Firefox con le impostazioni della versione gratuita. Si indicano le impostazioni usate e l’hash del file."},"ko":{"primary":"무료로 댓글란 저장해 보기","secondary":"실제로 저장한 댓글 HTML 보기","href":"/samples/ko/comment-thread/","note":"무료: 1회에 한 페이지. 댓글 개수에 제한은 없으며, 1,000개를 읽을 때마다 계속 읽을지 묻습니다. 여러 페이지의 댓글을 HTML 하나로 합치는 것은 Pro($19.99, 1회 결제) 기능입니다.","items":[{"plan":"free","href":"/samples/ko/comment-thread/","title":"가상의 뉴스 기사 댓글란(120개)을 HTML 하나로 저장","text":"처음에는 댓글이 20개만 보이고, 스크롤하면 나머지가 이어서 나옵니다. “현재 페이지만”으로 저장했습니다. 원래 페이지와 저장한 HTML을 비교한 이미지로 120개 댓글과 답글이 모두 들어 있음을 확인할 수 있습니다."}],"limits":{"h":"들어가는 것과 들어가지 않을 수 있는 것","keep":["스크롤하면 불러오는 댓글과 답글","작성자 이름·날짜·좋아요 수"],"lose":["로그인해야 보이는 댓글","동영상 파일 자체","사이트에 따라 접힌 채로 남는 답글"]},"intro":"이 사이트에 올린 가상의 페이지를 Grab All Files로 실제로 저장한 파일입니다. 5.8.54 다음 버전(5.8.55로 제출 예정)과 같은 내용의 빌드를 무료 플랜 설정으로 Firefox에 불러와 만들었습니다. 사용한 설정과 파일의 해시값도 실었습니다."},"pt_BR":{"primary":"Experimente salvar uma seção de comentários de graça","secondary":"Ver um arquivo real de comentários salvos","href":"/samples/pt_BR/comment-thread/","note":"Grátis: uma página por vez. Não há limite no número de comentários; a cada 1.000 publicações, a extensão pergunta se deve continuar lendo. Juntar os comentários de várias páginas em um só HTML é um recurso do Pro ($19.99, compra única).","items":[{"plan":"free","href":"/samples/pt_BR/comment-thread/","title":"A seção de comentários de uma notícia fictícia (120 comentários) salva em um só HTML","text":"No começo aparecem só 20 comentários, e o restante carrega conforme a rolagem. O salvamento foi feito com “Somente a página atual”. As imagens que comparam a página original e o HTML salvo mostram que os 120 comentários e as respostas estão no arquivo."}],"limits":{"h":"O que entra e o que pode não entrar","keep":["Comentários e respostas que carregam ao rolar","Nomes dos autores, datas e número de curtidas"],"lose":["Comentários que só aparecem com login","O arquivo de vídeo em si","Em alguns sites, respostas que continuam recolhidas"]},"intro":"Um arquivo salvo de verdade pelo Grab All Files a partir de uma página fictícia hospedada neste site, usando uma compilação com o mesmo conteúdo da versão posterior à 5.8.54 (a ser enviada como 5.8.55), carregada no Firefox com as configurações da versão gratuita. As configurações usadas e o hash do arquivo estão listados."},"zh_CN":{"primary":"免费试试保存评论区","secondary":"查看实际保存的评论 HTML","href":"/samples/zh_CN/comment-thread/","note":"免费版：每次一个网页。评论条数没有上限，每读取 1,000 条会询问是否继续。把多个网页的评论合并为一个 HTML 是 Pro（$19.99，一次性付费）的功能。","items":[{"plan":"free","href":"/samples/zh_CN/comment-thread/","title":"把一篇虚构新闻报道的评论区（120 条）保存为一个 HTML","text":"一开始只显示 20 条评论，向下滚动才会继续加载。使用“仅当前页面”保存。通过原网页与保存后 HTML 的对比图，可以确认 120 条评论和回复都在文件里。"}],"limits":{"h":"会保存的内容和可能无法保存的内容","keep":["滚动时加载的评论和回复","作者名、日期和点赞数"],"lose":["需要登录才能看到的评论","视频文件本身","部分网站上一直折叠的回复"]},"intro":"这是用 Grab All Files 实际保存本站上一个虚构网页得到的文件。所用构建与 5.8.54 之后的版本（计划以 5.8.55 提交）内容相同，在 Firefox 中加载后，按免费版的设置保存。同时列出了所用设置和文件的哈希值。"},"zh_TW":{"primary":"免費試試儲存留言區","secondary":"查看實際儲存的留言 HTML","href":"/samples/zh_TW/comment-thread/","note":"免費版：每次一個網頁。留言則數沒有上限，每讀取 1,000 則會詢問是否繼續。把多個網頁的留言合併為一個 HTML 是 Pro（$19.99，一次購買）的功能。","items":[{"plan":"free","href":"/samples/zh_TW/comment-thread/","title":"把一篇虛構新聞報導的留言區（120 則）儲存為一個 HTML","text":"一開始只顯示 20 則留言，往下捲動才會繼續載入。使用「僅目前頁面」儲存。透過原網頁與儲存後 HTML 的比較圖，可以確認 120 則留言和回覆都在檔案裡。"}],"limits":{"h":"會儲存的內容與可能無法儲存的內容","keep":["捲動時載入的留言和回覆","作者名稱、日期和按讚數"],"lose":["需要登入才看得到的留言","影片檔案本身","部分網站上一直收合的回覆"]},"intro":"這是用 Grab All Files 實際儲存本站上一個虛構網頁得到的檔案。所用建置與 5.8.54 之後的版本（預計以 5.8.55 提交）內容相同，在 Firefox 中載入後，依免費版的設定儲存。同時列出了所用設定和檔案的雜湊值。"}}};
+  var GUIDE_SAMPLES = {"download-all-pdfs":{"ja":{"primary":"無料でPDF保存を試す","secondary":"実際に保存したPDFセットを見る","href":"/samples/ja/pdf-set/","note":"無料版：1回の保存で10件まで。Pro版（$19.99・買い切り）は件数の上限なしで1回に保存できます。見つかる範囲はページの作りとアクセス権限によって変わります。","items":[{"plan":"free","href":"/samples/ja/pdf-set/","title":"架空の町の資料ページから保存したPDF 8件","text":"スキャンで見つかった10件から、種類の絞り込みでPDFだけを選び、1回で保存しました。保存名・件数・作成条件を確認できます。"},{"plan":"pro","href":"/samples/ja/pdf-archive/","title":"架空の町の議事録保管庫から、PDF 24件を1回で保存","text":"2年分・毎月の議事録（PDF 24件）を全部選び、1回で保存しました。無料版なら10件ずつ3回に分ける量です。保存名・件数・保存直前の画面を確認できます。"}]},"en":{"primary":"Try saving PDFs for free","secondary":"See a real saved PDF set","href":"/samples/en/pdf-set/","note":"Free: up to 10 files per download. Pro ($19.99 one-time) saves them all in one run. What can be found depends on the page and your access.","items":[{"plan":"free","href":"/samples/en/pdf-set/","title":"8 PDFs saved from a fictional town documents page","text":"Of the 10 files the scan found, the type filter kept only the PDFs, saved in one run. See the file names, count and settings used."},{"plan":"pro","href":"/samples/en/pdf-archive/","title":"24 PDFs saved in one run from a fictional council minutes archive","text":"Two years of monthly minutes (24 PDFs), all selected and saved in one run. On Free this takes three runs of up to 10. See the file names, count and the screen just before saving."}]},"nearby":{"download-files-from-webpage":{"ja":"PDF以外のファイル（Office・画像・ZIPなど）もまとめて保存したいとき","en":"Office files, images, ZIPs and other file types as well","es":"También archivos de Office, imágenes, ZIP y otros tipos","fr":"Aussi des fichiers Office, des images, des ZIP et d’autres types","de":"Auch Office-Dateien, Bilder, ZIPs und andere Dateitypen","it":"Anche file Office, immagini, ZIP e altri tipi di file","ko":"PDF 말고도 Office 파일·이미지·ZIP 등을 함께 저장하고 싶을 때","pt_BR":"Também arquivos do Office, imagens, ZIPs e outros tipos","zh_CN":"除 PDF 外，还想一起保存 Office 文件、图片、ZIP 等","zh_TW":"除了 PDF，也想一起儲存 Office 檔案、圖片、ZIP 等"},"rename-and-organize-bulk-pdf-downloads":{"ja":"保存したPDFの名前やフォルダを整えたい場合","en":"Tidier file names and folders for saved PDFs","es":"Nombres y carpetas más ordenados para los PDF guardados","fr":"Des noms et des dossiers plus clairs pour les PDF enregistrés","de":"Übersichtlichere Dateinamen und Ordner für gespeicherte PDFs","it":"Nomi e cartelle più ordinati per i PDF salvati","ko":"저장한 PDF의 이름과 폴더를 정리하고 싶을 때","pt_BR":"Nomes e pastas mais organizados para os PDFs salvos","zh_CN":"想整理已保存 PDF 的文件名和文件夹","zh_TW":"想整理已儲存 PDF 的檔名與資料夾"},"merge-pdfs-locally":{"ja":"選んだPDFを1つのPDFにまとめたいとき（通常の保存とは別の操作です）","en":"Chosen PDFs combined into one PDF (a separate action from saving)","es":"Unir los PDF elegidos en un solo PDF (una acción aparte del guardado)","fr":"Fusionner les PDF choisis en un seul PDF (une action distincte de l’enregistrement)","de":"Ausgewählte PDFs zu einer PDF zusammenführen (getrennt vom Speichern)","it":"Unire i PDF scelti in un unico PDF (un’azione separata dal salvataggio)","ko":"고른 PDF를 하나의 PDF로 합치고 싶을 때 (일반 저장과는 별도 작업)","pt_BR":"Juntar os PDFs escolhidos em um só PDF (uma ação separada do salvamento)","zh_CN":"想把选中的 PDF 合并为一个 PDF（与普通保存是不同的操作）","zh_TW":"想把選取的 PDF 合併為一個 PDF（與一般儲存是不同的操作）"}},"es":{"primary":"Prueba gratis a guardar PDF","secondary":"Ver un conjunto real de PDF guardados","href":"/samples/es/pdf-set/","note":"Gratis: hasta 10 archivos por descarga. Pro ($19.99, pago único) los guarda todos de una vez. Lo que se encuentra depende de la página y de tus permisos de acceso.","items":[{"plan":"free","href":"/samples/es/pdf-set/","title":"8 PDF guardados de una página ficticia de documentos municipales","text":"De los 10 archivos que encontró el escaneo, el filtro por tipo dejó solo los PDF, guardados de una vez. Puedes ver los nombres, el número de archivos y los ajustes usados."},{"plan":"pro","href":"/samples/es/pdf-archive/","title":"24 PDF guardados de una vez desde un archivo ficticio de actas municipales","text":"Dos años de actas mensuales (24 PDF), todos seleccionados y guardados de una vez. Con la versión gratuita serían tres descargas de 10 como máximo. Puedes ver los nombres, el número de archivos y la pantalla justo antes de guardar."}]},"fr":{"primary":"Essayer gratuitement l’enregistrement de PDF","secondary":"Voir un vrai lot de PDF enregistrés","href":"/samples/fr/pdf-set/","note":"Gratuit : jusqu’à 10 fichiers par téléchargement. Pro (19,99 $, achat unique) les enregistre tous en une fois. Ce qui est trouvé dépend de la page et de vos droits d’accès.","items":[{"plan":"free","href":"/samples/fr/pdf-set/","title":"8 PDF enregistrés depuis une page fictive de documents municipaux","text":"Sur les 10 fichiers trouvés par l’analyse, le filtre par type n’a gardé que les PDF, enregistrés en une fois. Vous pouvez voir les noms, le nombre de fichiers et les réglages utilisés."},{"plan":"pro","href":"/samples/fr/pdf-archive/","title":"24 PDF enregistrés en une fois depuis des archives fictives de procès-verbaux","text":"Deux ans de procès-verbaux mensuels (24 PDF), tous sélectionnés et enregistrés en une fois. En version gratuite, il faudrait trois téléchargements de 10 au plus. Vous pouvez voir les noms, le nombre de fichiers et l’écran juste avant l’enregistrement."}]},"de":{"primary":"PDFs kostenlos speichern","secondary":"Echte gespeicherte PDFs ansehen","href":"/samples/de/pdf-set/","note":"Kostenlos: bis zu 10 Dateien pro Download. Pro (19,99 $, einmalig) speichert alle auf einmal. Was gefunden wird, hängt von der Seite und Ihren Zugriffsrechten ab.","items":[{"plan":"free","href":"/samples/de/pdf-set/","title":"8 PDFs von einer erfundenen Seite mit Gemeindedokumenten","text":"Von den 10 gefundenen Dateien hat der Typfilter nur die PDFs übrig gelassen, die dann auf einmal gespeichert wurden. Dateinamen, Anzahl und Einstellungen sind zu sehen."},{"plan":"pro","href":"/samples/de/pdf-archive/","title":"24 PDFs auf einmal aus einem erfundenen Archiv mit Ratsprotokollen","text":"Zwei Jahre monatliche Protokolle (24 PDFs), alle ausgewählt und auf einmal gespeichert. In der kostenlosen Version wären das drei Downloads mit höchstens 10 Dateien. Dateinamen, Anzahl und der Bildschirm kurz vor dem Speichern sind zu sehen."}]},"it":{"primary":"Prova gratis a salvare i PDF","secondary":"Guarda un vero gruppo di PDF salvati","href":"/samples/it/pdf-set/","note":"Gratis: fino a 10 file per download. Pro ($19.99, una tantum) li salva tutti in una volta. Cosa si trova dipende dalla pagina e dai tuoi permessi di accesso.","items":[{"plan":"free","href":"/samples/it/pdf-set/","title":"8 PDF salvati da una pagina di fantasia con documenti comunali","text":"Dei 10 file trovati dalla scansione, il filtro per tipo ha tenuto solo i PDF, salvati in una volta. Puoi vedere i nomi, il numero di file e le impostazioni usate."},{"plan":"pro","href":"/samples/it/pdf-archive/","title":"24 PDF salvati in una volta da un archivio di fantasia di verbali comunali","text":"Due anni di verbali mensili (24 PDF), tutti selezionati e salvati in una volta. Con la versione gratuita servirebbero tre download da massimo 10. Puoi vedere i nomi, il numero di file e la schermata subito prima del salvataggio."}]},"ko":{"primary":"무료로 PDF 저장해 보기","secondary":"실제로 저장한 PDF 보기","href":"/samples/ko/pdf-set/","note":"무료: 다운로드 1회에 10개까지. Pro($19.99, 1회 결제)는 한 번에 모두 저장합니다. 찾을 수 있는 범위는 페이지 구조와 접근 권한에 따라 달라집니다.","items":[{"plan":"free","href":"/samples/ko/pdf-set/","title":"가상의 마을 자료 페이지에서 저장한 PDF 8개","text":"스캔으로 찾은 10개 파일 중 종류 필터로 PDF만 골라 한 번에 저장했습니다. 파일 이름, 개수, 사용한 설정을 확인할 수 있습니다."},{"plan":"pro","href":"/samples/ko/pdf-archive/","title":"가상의 의회 회의록 보관함에서 PDF 24개를 한 번에 저장","text":"2년 치 월별 회의록(PDF 24개)을 모두 골라 한 번에 저장했습니다. 무료라면 10개씩 세 번 나눠야 하는 양입니다. 파일 이름, 개수, 저장 직전 화면을 확인할 수 있습니다."}]},"pt_BR":{"primary":"Experimente salvar PDFs de graça","secondary":"Ver um conjunto real de PDFs salvos","href":"/samples/pt_BR/pdf-set/","note":"Grátis: até 10 arquivos por download. O Pro ($19.99, compra única) salva todos de uma vez. O que é encontrado depende da página e das suas permissões de acesso.","items":[{"plan":"free","href":"/samples/pt_BR/pdf-set/","title":"8 PDFs salvos de uma página fictícia de documentos da prefeitura","text":"Dos 10 arquivos encontrados na varredura, o filtro por tipo deixou só os PDFs, salvos de uma vez. Dá para ver os nomes, a quantidade e as configurações usadas."},{"plan":"pro","href":"/samples/pt_BR/pdf-archive/","title":"24 PDFs salvos de uma vez de um arquivo fictício de atas da câmara","text":"Dois anos de atas mensais (24 PDFs), todas selecionadas e salvas de uma vez. Na versão gratuita seriam três downloads de até 10. Dá para ver os nomes, a quantidade e a tela logo antes de salvar."}]},"zh_CN":{"primary":"免费试用 PDF 保存","secondary":"查看实际保存的 PDF","href":"/samples/zh_CN/pdf-set/","note":"免费版：每次下载最多10个文件。Pro（$19.99，一次性购买）可一次全部保存。能找到哪些文件取决于网页结构和您的访问权限。","items":[{"plan":"free","href":"/samples/zh_CN/pdf-set/","title":"从虚构的镇政府资料页面保存的8个 PDF","text":"扫描找到10个文件，用类型筛选只保留 PDF，一次保存。可以查看文件名、数量和所用设置。"},{"plan":"pro","href":"/samples/zh_CN/pdf-archive/","title":"从虚构的议会会议记录库一次保存24个 PDF","text":"两年的每月会议记录（24个 PDF）全部选中，一次保存。免费版需要分3次、每次最多10个。可以查看文件名、数量和保存前的界面。"}]},"zh_TW":{"primary":"免費試用 PDF 儲存","secondary":"查看實際儲存的 PDF","href":"/samples/zh_TW/pdf-set/","note":"免費版：每次下載最多10個檔案。Pro（$19.99，一次購買）可一次全部儲存。能找到哪些檔案取決於網頁結構與您的存取權限。","items":[{"plan":"free","href":"/samples/zh_TW/pdf-set/","title":"從虛構的鎮公所資料頁面儲存的8個 PDF","text":"掃描找到10個檔案，用類型篩選只保留 PDF，一次儲存。可以查看檔名、數量與所用設定。"},{"plan":"pro","href":"/samples/zh_TW/pdf-archive/","title":"從虛構的議會會議紀錄庫一次儲存24個 PDF","text":"兩年的每月會議紀錄（24個 PDF）全部選取，一次儲存。免費版需要分3次、每次最多10個。可以查看檔名、數量與儲存前的畫面。"}]}},"combine-web-pages-into-one-html":{"ja":{"primary":"無料で1ページ保存を試す","secondary":"複数ページの完成HTMLを開く","href":"/samples/ja/manual-combined/","note":"無料版：1回1ページ。複数ページを1つのHTMLにまとめるのはPro版（$19.99・買い切り）です。","items":[{"plan":"free","href":"/samples/ja/manual-page/","title":"架空の手順書の1章を、1ページのHTMLに保存","text":"無料版で保存した1ページの実物です。表・番号付きの手順・図が保存されています。複数ページを結合したものではありません。"},{"plan":"pro","href":"/samples/ja/manual-combined/","title":"架空の手順書4ページを、目次・検索つきの1つのHTMLに","text":"目次ページと3つの章を1つにまとめた実物です。目次から各章へ移動でき、検索欄で文書全体を探せます。章どうしのリンクはファイルの中で移動します。"}]},"en":{"primary":"Try saving one page for free","secondary":"Open a real multi-page HTML file","href":"/samples/en/manual-combined/","note":"Free: one page per run. Combining several pages into one HTML file is Pro ($19.99 one-time).","items":[{"plan":"free","href":"/samples/en/manual-page/","title":"One chapter of a fictional handbook, saved as one HTML page","text":"A real one-page file saved with Free, with its table, numbered steps and figure. It is not a multi-page combination."},{"plan":"pro","href":"/samples/en/manual-combined/","title":"Four pages of a fictional handbook in one HTML file with contents and search","text":"The real combined file: the contents page and three chapters. The contents jump to each chapter, the search box searches the whole document, and links between chapters move inside the file."}]},"nearby":{"save-online-manuals-and-knowledge-pages":{"ja":"章に分かれたマニュアルを、研修や日常の参照用に保存するとき","en":"A multi-chapter manual kept for training or daily reference","es":"Un manual de varios capítulos para formación o consulta diaria","fr":"Un manuel en plusieurs chapitres pour la formation ou la consultation au quotidien","de":"Ein Handbuch mit mehreren Kapiteln für Schulung oder Nachschlagen","it":"Un manuale in più capitoli per la formazione o la consultazione quotidiana","ko":"교육이나 업무 참고용으로 여러 장짜리 매뉴얼을 보관할 때","pt_BR":"Um manual com vários capítulos para treinamento ou consulta no dia a dia","zh_CN":"想保存多章节手册，用于培训或日常查阅","zh_TW":"想保存多章節手冊，用於訓練或日常查閱"},"save-web-pages-with-original-design":{"ja":"文字より、サイトのレイアウトや配色を残したい場合","en":"Pages where layout and colors matter more than the text","es":"Páginas en las que importan más el diseño y los colores que el texto","fr":"Des pages où la mise en page et les couleurs comptent plus que le texte","de":"Seiten, bei denen Layout und Farben wichtiger sind als der Text","it":"Pagine in cui layout e colori contano più del testo","ko":"글보다 레이아웃과 색이 중요한 페이지","pt_BR":"Páginas em que o layout e as cores importam mais que o texto","zh_CN":"布局和配色比文字更重要的网页","zh_TW":"版面和配色比文字更重要的網頁"},"combine-local-html-files-into-one":{"ja":"パソコンに保存済みのHTMLファイルを1つにまとめたい場合","en":"When the HTML files are already on your computer","es":"Cuando los archivos HTML ya están en tu equipo","fr":"Quand les fichiers HTML sont déjà sur votre ordinateur","de":"Wenn die HTML-Dateien schon auf Ihrem Computer liegen","it":"Quando i file HTML sono già sul tuo computer","ko":"HTML 파일이 이미 내 컴퓨터에 있을 때","pt_BR":"Quando os arquivos HTML já estão no seu computador","zh_CN":"HTML 文件已经在您的电脑上时","zh_TW":"HTML 檔案已經在您的電腦上時"}},"es":{"primary":"Prueba gratis a guardar una página","secondary":"Abrir un HTML real con varias páginas","href":"/samples/es/manual-combined/","note":"Gratis: una página por vez. Combinar varias páginas en un solo HTML es una función Pro ($19.99, pago único).","items":[{"plan":"free","href":"/samples/es/manual-page/","title":"Un capítulo de un manual ficticio, guardado como una página HTML","text":"Un archivo real de una página guardado con la versión gratuita, con su tabla, sus pasos numerados y su figura. No es una combinación de varias páginas."},{"plan":"pro","href":"/samples/es/manual-combined/","title":"Cuatro páginas de un manual ficticio en un solo HTML con índice y búsqueda","text":"El archivo combinado real: la página de índice y tres capítulos. El índice lleva a cada capítulo, el cuadro de búsqueda busca en todo el documento y los enlaces entre capítulos se mueven dentro del archivo."}]},"fr":{"primary":"Essayer gratuitement avec une page","secondary":"Ouvrir un vrai HTML de plusieurs pages","href":"/samples/fr/manual-combined/","note":"Gratuit : une page par passage. Fusionner plusieurs pages en un seul HTML est une fonction Pro (19,99 $, achat unique).","items":[{"plan":"free","href":"/samples/fr/manual-page/","title":"Un chapitre d’un manuel fictif, enregistré en une page HTML","text":"Un vrai fichier d’une page enregistré avec la version gratuite, avec son tableau, ses étapes numérotées et sa figure. Ce n’est pas une fusion de plusieurs pages."},{"plan":"pro","href":"/samples/fr/manual-combined/","title":"Quatre pages d’un manuel fictif dans un seul HTML avec sommaire et recherche","text":"Le vrai fichier fusionné : la page de sommaire et trois chapitres. Le sommaire mène à chaque chapitre, le champ de recherche cherche dans tout le document et les liens entre chapitres restent dans le fichier."}]},"de":{"primary":"Eine Seite kostenlos speichern","secondary":"Eine echte HTML-Datei mit mehreren Seiten öffnen","href":"/samples/de/manual-combined/","note":"Kostenlos: eine Seite pro Durchgang. Mehrere Seiten zu einer HTML-Datei zusammenführen ist eine Pro-Funktion (19,99 $, einmalig).","items":[{"plan":"free","href":"/samples/de/manual-page/","title":"Ein Kapitel eines erfundenen Handbuchs als eine HTML-Seite","text":"Eine echte einseitige Datei aus der kostenlosen Version, mit Tabelle, nummerierten Schritten und Abbildung. Keine Zusammenführung mehrerer Seiten."},{"plan":"pro","href":"/samples/de/manual-combined/","title":"Vier Seiten eines erfundenen Handbuchs in einer HTML-Datei mit Inhaltsverzeichnis und Suche","text":"Die echte zusammengeführte Datei: die Inhaltsseite und drei Kapitel. Das Inhaltsverzeichnis springt zu jedem Kapitel, das Suchfeld durchsucht das ganze Dokument, und Links zwischen Kapiteln bleiben in der Datei."}]},"it":{"primary":"Prova gratis a salvare una pagina","secondary":"Apri un vero HTML con più pagine","href":"/samples/it/manual-combined/","note":"Gratis: una pagina per volta. Unire più pagine in un solo HTML è una funzione Pro ($19.99, una tantum).","items":[{"plan":"free","href":"/samples/it/manual-page/","title":"Un capitolo di un manuale di fantasia, salvato come una pagina HTML","text":"Un vero file di una pagina salvato con la versione gratuita, con tabella, passaggi numerati e figura. Non è un’unione di più pagine."},{"plan":"pro","href":"/samples/it/manual-combined/","title":"Quattro pagine di un manuale di fantasia in un solo HTML con indice e ricerca","text":"Il vero file unito: la pagina indice e tre capitoli. L’indice porta a ogni capitolo, la casella di ricerca cerca in tutto il documento e i link tra capitoli restano all’interno del file."}]},"ko":{"primary":"무료로 한 페이지 저장해 보기","secondary":"여러 페이지를 합친 실제 HTML 열기","href":"/samples/ko/manual-combined/","note":"무료: 1회에 한 페이지. 여러 페이지를 HTML 하나로 합치는 것은 Pro($19.99, 1회 결제) 기능입니다.","items":[{"plan":"free","href":"/samples/ko/manual-page/","title":"가상 매뉴얼의 한 장을 HTML 한 페이지로 저장","text":"무료로 저장한 실제 한 페이지 파일입니다. 표, 번호 매긴 절차, 그림이 들어 있습니다. 여러 페이지를 합친 파일은 아닙니다."},{"plan":"pro","href":"/samples/ko/manual-combined/","title":"가상 매뉴얼 4페이지를 목차·검색이 있는 HTML 하나로","text":"실제로 합친 파일입니다. 목차 페이지와 3개 장이 들어 있습니다. 목차에서 각 장으로 이동하고, 검색창으로 문서 전체를 찾을 수 있으며, 장 사이의 링크는 파일 안에서 이동합니다."}]},"pt_BR":{"primary":"Experimente salvar uma página de graça","secondary":"Abrir um HTML real com várias páginas","href":"/samples/pt_BR/manual-combined/","note":"Grátis: uma página por vez. Juntar várias páginas em um só HTML é um recurso do Pro ($19.99, compra única).","items":[{"plan":"free","href":"/samples/pt_BR/manual-page/","title":"Um capítulo de um manual fictício, salvo como uma página HTML","text":"Um arquivo real de uma página salvo com a versão gratuita, com tabela, passos numerados e figura. Não é uma junção de várias páginas."},{"plan":"pro","href":"/samples/pt_BR/manual-combined/","title":"Quatro páginas de um manual fictício em um só HTML com sumário e busca","text":"O arquivo combinado real: a página de sumário e três capítulos. O sumário leva a cada capítulo, a caixa de busca procura no documento inteiro e os links entre capítulos navegam dentro do arquivo."}]},"zh_CN":{"primary":"免费试试保存一个网页","secondary":"打开实际合并的多页 HTML","href":"/samples/zh_CN/manual-combined/","note":"免费版：每次一个网页。把多个网页合并为一个 HTML 是 Pro（$19.99，一次性购买）的功能。","items":[{"plan":"free","href":"/samples/zh_CN/manual-page/","title":"把虚构手册的一章保存为一个 HTML 网页","text":"用免费版实际保存的单页文件，包含表格、编号步骤和插图。这不是多页合并的结果。"},{"plan":"pro","href":"/samples/zh_CN/manual-combined/","title":"把虚构手册的4个网页合并为一个带目录和搜索的 HTML","text":"实际合并后的文件：目录页和3个章节。可从目录跳到各章节，用搜索框搜索整个文档，章节之间的链接在文件内跳转。"}]},"zh_TW":{"primary":"免費試試儲存一個網頁","secondary":"開啟實際合併的多頁 HTML","href":"/samples/zh_TW/manual-combined/","note":"免費版：每次一個網頁。把多個網頁合併為一個 HTML 是 Pro（$19.99，一次購買）的功能。","items":[{"plan":"free","href":"/samples/zh_TW/manual-page/","title":"把虛構手冊的一章儲存為一個 HTML 網頁","text":"用免費版實際儲存的單頁檔案，包含表格、編號步驟和插圖。這不是多頁合併的結果。"},{"plan":"pro","href":"/samples/zh_TW/manual-combined/","title":"把虛構手冊的4個網頁合併為一個附目錄和搜尋的 HTML","text":"實際合併後的檔案：目錄頁和3個章節。可從目錄跳到各章節，用搜尋框搜尋整份文件，章節之間的連結在檔案內跳轉。"}]}},"save-online-manuals-and-knowledge-pages":{"ja":{"primary":"無料で1章の保存を試す","secondary":"完成したマニュアル資料集を見る","href":"/samples/ja/manual-combined/","note":"無料版：1回1ページ。複数の章を1つにまとめるのはPro版です。PDFの資料はファイルの一括保存で別に保存します。","items":[{"plan":"free","href":"/samples/ja/manual-page/","title":"架空の手順書の第1章を保存したHTML","text":"見出し・表・番号付きの手順・図・次の章へのリンクが、読みやすい形で保存されています。サイトのメニューは「読みやすく整える」で省かれます。"},{"plan":"pro","href":"/samples/ja/manual-combined/","title":"架空の手順書4ページを、目次・検索つきの1つのHTMLに","text":"目次ページと3つの章を1つにまとめた実物です。目次から各章へ移動でき、検索欄で文書全体を探せます。章どうしのリンクはファイルの中で移動します。"}]},"en":{"primary":"Try saving one chapter for free","secondary":"See a finished manual collection","href":"/samples/en/manual-combined/","note":"Free: one page per run. Combining several chapters into one file is Pro. PDF documents are saved separately with the file download.","items":[{"plan":"free","href":"/samples/en/manual-page/","title":"Chapter 1 of a fictional handbook, saved as HTML","text":"Headings, the table, numbered steps, the figure and the link to the next chapter are saved in an easy-to-read layout. “Easy to read” leaves out the site menu."},{"plan":"pro","href":"/samples/en/manual-combined/","title":"Four pages of a fictional handbook in one HTML file with contents and search","text":"The real combined file: the contents page and three chapters. The contents jump to each chapter, the search box searches the whole document, and links between chapters move inside the file."}]},"nearby":{"combine-web-pages-into-one-html":{"ja":"マニュアル以外の関連ページも1つのHTMLにまとめるとき","en":"Related pages combined when they are not a manual","es":"Páginas relacionadas que no son un manual, reunidas en una","fr":"Des pages liées qui ne forment pas un manuel, réunies en une","de":"Zusammengehörige Seiten, die kein Handbuch sind","it":"Pagine collegate che non sono un manuale, riunite in una","ko":"매뉴얼이 아닌 관련 페이지를 하나로 합칠 때","pt_BR":"Páginas relacionadas que não são um manual, reunidas em uma","zh_CN":"想合并的相关网页不是手册时","zh_TW":"想合併的相關網頁不是手冊時"},"internal-portal-downloads":{"ja":"ポータルに置かれたPDFやOffice資料を、ファイルのまま保存したい場合","en":"A portal that holds PDFs and Office files you want kept as files","es":"Un portal con PDF y archivos de Office que quieres guardar como archivos","fr":"Un portail avec des PDF et des fichiers Office à garder en tant que fichiers","de":"Ein Portal mit PDFs und Office-Dateien, die als Dateien bleiben sollen","it":"Un portale con PDF e file Office da tenere come file","ko":"PDF와 Office 파일을 파일 그대로 보관하고 싶은 포털","pt_BR":"Um portal com PDFs e arquivos do Office que você quer guardar como arquivos","zh_CN":"门户网站里的 PDF 和 Office 文件想按文件保存","zh_TW":"入口網站裡的 PDF 和 Office 檔案想按檔案儲存"},"save-web-pages-as-markdown":{"ja":"章の本文をMarkdownのノートとして使いたいとき","en":"Chapter text saved as Markdown notes","es":"El texto de los capítulos guardado como notas en Markdown","fr":"Le texte des chapitres enregistré en notes Markdown","de":"Kapiteltext als Markdown-Notizen speichern","it":"Il testo dei capitoli salvato come note in Markdown","ko":"각 장의 본문을 Markdown 메모로 저장할 때","pt_BR":"O texto dos capítulos salvo como notas em Markdown","zh_CN":"把章节正文保存为 Markdown 笔记","zh_TW":"把章節內文儲存為 Markdown 筆記"}},"es":{"primary":"Prueba gratis a guardar un capítulo","secondary":"Ver un manual ya reunido","href":"/samples/es/manual-combined/","note":"Gratis: una página por vez. Reunir varios capítulos en un solo archivo es una función Pro. Los documentos PDF se guardan aparte con la descarga de archivos.","items":[{"plan":"free","href":"/samples/es/manual-page/","title":"El capítulo 1 de un manual ficticio, guardado como HTML","text":"Los títulos, la tabla, los pasos numerados, la figura y el enlace al capítulo siguiente se guardan con un diseño fácil de leer. «Fácil de leer» deja fuera el menú del sitio."},{"plan":"pro","href":"/samples/es/manual-combined/","title":"Cuatro páginas de un manual ficticio en un solo HTML con índice y búsqueda","text":"El archivo combinado real: la página de índice y tres capítulos. El índice lleva a cada capítulo, el cuadro de búsqueda busca en todo el documento y los enlaces entre capítulos se mueven dentro del archivo."}]},"fr":{"primary":"Essayer gratuitement avec un chapitre","secondary":"Voir un manuel déjà réuni","href":"/samples/fr/manual-combined/","note":"Gratuit : une page par passage. Réunir plusieurs chapitres dans un seul fichier est une fonction Pro. Les documents PDF s’enregistrent à part avec le téléchargement de fichiers.","items":[{"plan":"free","href":"/samples/fr/manual-page/","title":"Le chapitre 1 d’un manuel fictif, enregistré en HTML","text":"Les titres, le tableau, les étapes numérotées, la figure et le lien vers le chapitre suivant sont enregistrés dans une mise en page facile à lire. « Facile à lire » laisse de côté le menu du site."},{"plan":"pro","href":"/samples/fr/manual-combined/","title":"Quatre pages d’un manuel fictif dans un seul HTML avec sommaire et recherche","text":"Le vrai fichier fusionné : la page de sommaire et trois chapitres. Le sommaire mène à chaque chapitre, le champ de recherche cherche dans tout le document et les liens entre chapitres restent dans le fichier."}]},"de":{"primary":"Ein Kapitel kostenlos speichern","secondary":"Ein fertig gesammeltes Handbuch ansehen","href":"/samples/de/manual-combined/","note":"Kostenlos: eine Seite pro Durchgang. Mehrere Kapitel in einer Datei zusammenzuführen ist eine Pro-Funktion. PDF-Dokumente werden getrennt mit dem Datei-Download gespeichert.","items":[{"plan":"free","href":"/samples/de/manual-page/","title":"Kapitel 1 eines erfundenen Handbuchs als HTML","text":"Überschriften, Tabelle, nummerierte Schritte, Abbildung und der Link zum nächsten Kapitel werden in einem gut lesbaren Layout gespeichert. „Gut lesbar“ lässt das Menü der Website weg."},{"plan":"pro","href":"/samples/de/manual-combined/","title":"Vier Seiten eines erfundenen Handbuchs in einer HTML-Datei mit Inhaltsverzeichnis und Suche","text":"Die echte zusammengeführte Datei: die Inhaltsseite und drei Kapitel. Das Inhaltsverzeichnis springt zu jedem Kapitel, das Suchfeld durchsucht das ganze Dokument, und Links zwischen Kapiteln bleiben in der Datei."}]},"it":{"primary":"Prova gratis a salvare un capitolo","secondary":"Guarda un manuale già raccolto","href":"/samples/it/manual-combined/","note":"Gratis: una pagina per volta. Riunire più capitoli in un solo file è una funzione Pro. I documenti PDF si salvano a parte con il download dei file.","items":[{"plan":"free","href":"/samples/it/manual-page/","title":"Il capitolo 1 di un manuale di fantasia, salvato in HTML","text":"Titoli, tabella, passaggi numerati, figura e link al capitolo successivo vengono salvati in un layout facile da leggere. «Facile da leggere» lascia fuori il menu del sito."},{"plan":"pro","href":"/samples/it/manual-combined/","title":"Quattro pagine di un manuale di fantasia in un solo HTML con indice e ricerca","text":"Il vero file unito: la pagina indice e tre capitoli. L’indice porta a ogni capitolo, la casella di ricerca cerca in tutto il documento e i link tra capitoli restano all’interno del file."}]},"ko":{"primary":"무료로 한 장 저장해 보기","secondary":"완성된 매뉴얼 모음 보기","href":"/samples/ko/manual-combined/","note":"무료: 1회에 한 페이지. 여러 장을 파일 하나로 합치는 것은 Pro 기능입니다. PDF 문서는 파일 다운로드로 따로 저장합니다.","items":[{"plan":"free","href":"/samples/ko/manual-page/","title":"가상 매뉴얼 1장을 HTML로 저장","text":"제목, 표, 번호 매긴 절차, 그림, 다음 장으로 가는 링크가 읽기 쉬운 형태로 저장됩니다. “읽기 쉽게 정리”는 사이트 메뉴를 빼고 저장합니다."},{"plan":"pro","href":"/samples/ko/manual-combined/","title":"가상 매뉴얼 4페이지를 목차·검색이 있는 HTML 하나로","text":"실제로 합친 파일입니다. 목차 페이지와 3개 장이 들어 있습니다. 목차에서 각 장으로 이동하고, 검색창으로 문서 전체를 찾을 수 있으며, 장 사이의 링크는 파일 안에서 이동합니다."}]},"pt_BR":{"primary":"Experimente salvar um capítulo de graça","secondary":"Ver um manual já reunido","href":"/samples/pt_BR/manual-combined/","note":"Grátis: uma página por vez. Reunir vários capítulos em um só arquivo é um recurso do Pro. Documentos PDF são salvos à parte com o download de arquivos.","items":[{"plan":"free","href":"/samples/pt_BR/manual-page/","title":"O capítulo 1 de um manual fictício, salvo em HTML","text":"Títulos, tabela, passos numerados, figura e o link para o próximo capítulo são salvos em um layout fácil de ler. “Fácil de ler” deixa de fora o menu do site."},{"plan":"pro","href":"/samples/pt_BR/manual-combined/","title":"Quatro páginas de um manual fictício em um só HTML com sumário e busca","text":"O arquivo combinado real: a página de sumário e três capítulos. O sumário leva a cada capítulo, a caixa de busca procura no documento inteiro e os links entre capítulos navegam dentro do arquivo."}]},"zh_CN":{"primary":"免费试试保存一章","secondary":"查看已整理好的手册","href":"/samples/zh_CN/manual-combined/","note":"免费版：每次一个网页。把多个章节合并为一个文件是 Pro 的功能。PDF 文档用文件下载另行保存。","items":[{"plan":"free","href":"/samples/zh_CN/manual-page/","title":"把虚构手册的第1章保存为 HTML","text":"标题、表格、编号步骤、插图和指向下一章的链接都以易读的版式保存。“整理为易读格式”会去掉网站的菜单。"},{"plan":"pro","href":"/samples/zh_CN/manual-combined/","title":"把虚构手册的4个网页合并为一个带目录和搜索的 HTML","text":"实际合并后的文件：目录页和3个章节。可从目录跳到各章节，用搜索框搜索整个文档，章节之间的链接在文件内跳转。"}]},"zh_TW":{"primary":"免費試試儲存一章","secondary":"查看已整理好的手冊","href":"/samples/zh_TW/manual-combined/","note":"免費版：每次一個網頁。把多個章節合併為一個檔案是 Pro 的功能。PDF 文件用檔案下載另行儲存。","items":[{"plan":"free","href":"/samples/zh_TW/manual-page/","title":"把虛構手冊的第1章儲存為 HTML","text":"標題、表格、編號步驟、插圖和前往下一章的連結都以易讀的版面儲存。「整理為易讀格式」會去掉網站的選單。"},{"plan":"pro","href":"/samples/zh_TW/manual-combined/","title":"把虛構手冊的4個網頁合併為一個附目錄和搜尋的 HTML","text":"實際合併後的檔案：目錄頁和3個章節。可從目錄跳到各章節，用搜尋框搜尋整份文件，章節之間的連結在檔案內跳轉。"}]}},"save-web-pages-with-original-design":{"ja":{"primary":"無料で1ページの見た目を保存する","secondary":"元ページと保存後HTMLを見比べる","href":"/samples/ja/original-look/","note":"無料版：1回1ページ。複数ページを1つのHTMLにまとめるのはPro版（$19.99・買い切り）です。動画・地図・ログインが必要な画面など、動きのある部分は保存後に動かないことがあります。","items":[{"plan":"free","href":"/samples/ja/original-look/","title":"架空のイベントページを「元の見た目のまま」保存","text":"同じ画面幅で撮った元ページと保存後のHTMLを並べています。「そのページのまま」で保存した単体のHTMLなので、目次や検索の画面は付きません（取得元のアドレスと日時はHTML冒頭のコメントに入っています）。画像はファイルの中に取り込み、オフラインでも表示できます。"},{"plan":"pro","href":"/samples/ja/original-combined/","title":"架空のイベントサイト3ページを、元の見た目のまま目次・検索付きの1つのHTMLに","text":"「目次・検索付きHTML」でまとめた実物です。各ページは元のデザインのまま枠に入り、枠の上に取得元のアドレスと取得日時が出ます。目次から各ページへ移動でき、検索欄で3ページ全体を探せます。"}],"limits":{"h":"残るものと、残らないことがあるもの","keep":["レイアウト・配色・文字の大きさ","画像（「オフライン保存」を選んだ場合）","取得できたフォント"],"lose":["元サイトのスクリプトの動き（保存時に取り除かれます）","動画・地図・ログインが必要な画面","フォームの送信や検索など、サーバーとやり取りする機能"]}},"en":{"primary":"Save one page’s look for free","secondary":"Compare the source page and the saved HTML","href":"/samples/en/original-look/","note":"Free: one page per run. Combining several pages into one HTML file is Pro ($19.99 one-time). Videos, maps, sign-in screens and other interactive parts may not work in the saved file.","items":[{"plan":"free","href":"/samples/en/original-look/","title":"A fictional event page saved with “Keep the original look”","text":"The source page and the saved HTML, shot at the same window width, side by side. It was saved with “The page as it is”, so it is a single HTML file with no contents or search panel (the source address and time are in a comment at the top of the HTML). The images are stored in the file, so it displays offline."},{"plan":"pro","href":"/samples/en/original-combined/","title":"Three pages of a fictional event site in one HTML file, original look, with contents and search","text":"The real file saved with “HTML with contents and search”. Each page keeps its original design inside a frame, with the source address and capture time above it. The contents jump to each page, and the search box searches all three."}],"limits":{"h":"What is kept, and what may not be","keep":["Layout, colors and text sizes","Images (when stored in the file)","Fonts that could be fetched"],"lose":["The site’s own scripts (removed when saving)","Videos, maps and screens that need sign-in","Form submission, site search and anything that talks to the server"]}},"nearby":{"combine-web-pages-into-one-html":{"ja":"複数のページを目次・検索つきの1つのHTMLにまとめるとき","en":"Several pages in one file with contents and search","es":"Varias páginas en un solo archivo con índice y búsqueda","fr":"Plusieurs pages dans un seul fichier avec sommaire et recherche","de":"Mehrere Seiten in einer Datei mit Inhaltsverzeichnis und Suche","it":"Più pagine in un solo file con indice e ricerca","ko":"여러 페이지를 목차·검색이 있는 파일 하나로","pt_BR":"Várias páginas em um só arquivo com sumário e busca","zh_CN":"把多个网页合并为一个带目录和搜索的文件","zh_TW":"把多個網頁合併為一個附目錄和搜尋的檔案"},"combine-local-html-files-into-one":{"ja":"パソコンに保存済みのHTMLファイルを1つにまとめたい場合","en":"When the HTML files are already on your computer","es":"Cuando los archivos HTML ya están en tu equipo","fr":"Quand les fichiers HTML sont déjà sur votre ordinateur","de":"Wenn die HTML-Dateien schon auf Ihrem Computer liegen","it":"Quando i file HTML sono già sul tuo computer","ko":"HTML 파일이 이미 내 컴퓨터에 있을 때","pt_BR":"Quando os arquivos HTML já estão no seu computador","zh_CN":"HTML 文件已经在您的电脑上时","zh_TW":"HTML 檔案已經在您的電腦上時"},"save-online-manuals-and-knowledge-pages":{"ja":"見た目より、マニュアルを探しやすく読むことが大事なとき","en":"Easy reading and search ahead of the original look","es":"Cuando importan más la lectura fácil y la búsqueda que el aspecto original","fr":"Quand la lecture et la recherche comptent plus que l’apparence d’origine","de":"Wenn gute Lesbarkeit und Suche wichtiger sind als das Originalaussehen","it":"Quando lettura facile e ricerca contano più dell’aspetto originale","ko":"원래 모양보다 읽기 쉬움과 검색이 중요할 때","pt_BR":"Quando leitura fácil e busca importam mais que a aparência original","zh_CN":"比起原有外观，更看重易读和搜索时","zh_TW":"比起原有外觀，更重視易讀與搜尋時"}},"es":{"primary":"Guarda gratis el aspecto de una página","secondary":"Comparar la página original y el HTML guardado","href":"/samples/es/original-look/","note":"Gratis: una página por vez. Combinar varias páginas en un solo HTML es una función Pro ($19.99, pago único). Los vídeos, mapas, pantallas con inicio de sesión y otras partes interactivas pueden no funcionar en el archivo guardado.","items":[{"plan":"free","href":"/samples/es/original-look/","title":"Una página ficticia de un evento guardada con «Mantener el aspecto original»","text":"La página original y el HTML guardado, capturados con el mismo ancho de ventana, uno al lado del otro. Se guardó con «La página tal cual», así que es un solo archivo HTML sin índice ni panel de búsqueda (la dirección de origen y la hora están en un comentario al principio del HTML). Las imágenes van dentro del archivo, así que se ve sin conexión."},{"plan":"pro","href":"/samples/es/original-combined/","title":"Tres páginas de un sitio ficticio de un evento en un solo HTML, con su aspecto original, índice y búsqueda","text":"El archivo real guardado con «HTML con índice y búsqueda». Cada página conserva su diseño original dentro de un marco, con la dirección de origen y la hora de captura encima. El índice lleva a cada página y el cuadro de búsqueda busca en las tres."}],"limits":{"h":"Lo que se conserva y lo que puede no conservarse","keep":["El diseño, los colores y el tamaño del texto","Las imágenes (si se guardan dentro del archivo)","Las fuentes que se pudieron obtener"],"lose":["Los scripts del propio sitio (se quitan al guardar)","Vídeos, mapas y pantallas que piden iniciar sesión","El envío de formularios, la búsqueda del sitio y todo lo que se comunica con el servidor"]}},"fr":{"primary":"Enregistrer gratuitement l’apparence d’une page","secondary":"Comparer la page d’origine et le HTML enregistré","href":"/samples/fr/original-look/","note":"Gratuit : une page par passage. Fusionner plusieurs pages en un seul HTML est une fonction Pro (19,99 $, achat unique). Les vidéos, les cartes, les écrans avec connexion et les autres parties interactives peuvent ne pas fonctionner dans le fichier enregistré.","items":[{"plan":"free","href":"/samples/fr/original-look/","title":"Une page fictive d’événement enregistrée avec « Garder l’apparence d’origine »","text":"La page d’origine et le HTML enregistré, capturés à la même largeur de fenêtre, côte à côte. L’enregistrement a été fait avec « La page telle quelle » : c’est un seul fichier HTML, sans sommaire ni panneau de recherche (l’adresse d’origine et l’heure sont dans un commentaire en tête du HTML). Les images sont dans le fichier, qui s’affiche donc hors ligne."},{"plan":"pro","href":"/samples/fr/original-combined/","title":"Trois pages d’un site fictif d’événement dans un seul HTML, avec leur apparence d’origine, un sommaire et une recherche","text":"Le vrai fichier enregistré avec « HTML avec sommaire et recherche ». Chaque page garde son design d’origine dans un cadre, avec l’adresse d’origine et l’heure de capture au-dessus. Le sommaire mène à chaque page et le champ de recherche cherche dans les trois."}],"limits":{"h":"Ce qui est conservé, et ce qui peut ne pas l’être","keep":["La mise en page, les couleurs et la taille du texte","Les images (si elles sont enregistrées dans le fichier)","Les polices qui ont pu être récupérées"],"lose":["Les scripts du site (retirés à l’enregistrement)","Les vidéos, les cartes et les écrans qui demandent une connexion","L’envoi de formulaires, la recherche du site et tout ce qui échange avec le serveur"]}},"de":{"primary":"Das Aussehen einer Seite kostenlos speichern","secondary":"Originalseite und gespeichertes HTML vergleichen","href":"/samples/de/original-look/","note":"Kostenlos: eine Seite pro Durchgang. Mehrere Seiten zu einer HTML-Datei zusammenführen ist eine Pro-Funktion (19,99 $, einmalig). Videos, Karten, Anmeldebildschirme und andere interaktive Teile funktionieren in der gespeicherten Datei eventuell nicht.","items":[{"plan":"free","href":"/samples/de/original-look/","title":"Eine erfundene Veranstaltungsseite, gespeichert mit „Ursprüngliches Aussehen behalten“","text":"Originalseite und gespeichertes HTML, bei gleicher Fensterbreite aufgenommen, nebeneinander. Gespeichert wurde mit „Seite unverändert“, also eine einzelne HTML-Datei ohne Inhaltsverzeichnis oder Suchfeld (Herkunftsadresse und Zeit stehen in einem Kommentar am Anfang der HTML-Datei). Die Bilder sind in der Datei enthalten, sie wird also auch offline angezeigt."},{"plan":"pro","href":"/samples/de/original-combined/","title":"Drei Seiten einer erfundenen Veranstaltungswebsite in einer HTML-Datei, im Originalaussehen, mit Inhaltsverzeichnis und Suche","text":"Die echte Datei, gespeichert mit „HTML mit Inhaltsverzeichnis und Suche“. Jede Seite behält ihr ursprüngliches Design in einem Rahmen, darüber stehen Herkunftsadresse und Erfassungszeit. Das Inhaltsverzeichnis springt zu jeder Seite, das Suchfeld durchsucht alle drei."}],"limits":{"h":"Was erhalten bleibt und was eventuell nicht","keep":["Layout, Farben und Schriftgrößen","Bilder (wenn sie in der Datei gespeichert werden)","Schriften, die abgerufen werden konnten"],"lose":["Die Skripte der Website (beim Speichern entfernt)","Videos, Karten und Bildschirme mit Anmeldung","Formulare absenden, die Suche der Website und alles, was mit dem Server kommuniziert"]}},"it":{"primary":"Salva gratis l’aspetto di una pagina","secondary":"Confronta la pagina originale e l’HTML salvato","href":"/samples/it/original-look/","note":"Gratis: una pagina per volta. Unire più pagine in un solo HTML è una funzione Pro ($19.99, una tantum). Video, mappe, schermate con accesso e altre parti interattive potrebbero non funzionare nel file salvato.","items":[{"plan":"free","href":"/samples/it/original-look/","title":"Una pagina di fantasia di un evento salvata con «Mantieni l’aspetto originale»","text":"La pagina originale e l’HTML salvato, catturati con la stessa larghezza di finestra, uno accanto all’altro. È stata salvata con «La pagina così com’è», quindi è un solo file HTML senza indice né pannello di ricerca (indirizzo di provenienza e ora sono in un commento all’inizio dell’HTML). Le immagini sono dentro il file, che quindi si vede anche offline."},{"plan":"pro","href":"/samples/it/original-combined/","title":"Tre pagine di un sito di fantasia di un evento in un solo HTML, con l’aspetto originale, indice e ricerca","text":"Il vero file salvato con «HTML con indice e ricerca». Ogni pagina mantiene il design originale in una cornice, con l’indirizzo di provenienza e l’ora di acquisizione sopra. L’indice porta a ogni pagina e la casella di ricerca cerca in tutte e tre."}],"limits":{"h":"Cosa si conserva e cosa potrebbe non conservarsi","keep":["Layout, colori e dimensioni del testo","Immagini (se salvate nel file)","I font che è stato possibile scaricare"],"lose":["Gli script del sito (rimossi al salvataggio)","Video, mappe e schermate che richiedono l’accesso","Invio di moduli, ricerca del sito e tutto ciò che comunica con il server"]}},"ko":{"primary":"무료로 한 페이지의 모양 저장하기","secondary":"원래 페이지와 저장한 HTML 비교하기","href":"/samples/ko/original-look/","note":"무료: 1회에 한 페이지. 여러 페이지를 HTML 하나로 합치는 것은 Pro($19.99, 1회 결제) 기능입니다. 동영상, 지도, 로그인이 필요한 화면 등 움직이는 부분은 저장한 뒤에 작동하지 않을 수 있습니다.","items":[{"plan":"free","href":"/samples/ko/original-look/","title":"가상 이벤트 페이지를 “원래 모양 그대로”로 저장","text":"같은 창 너비로 찍은 원래 페이지와 저장한 HTML을 나란히 놓았습니다. “페이지 그대로”로 저장한 HTML 파일 하나이므로 목차나 검색 화면은 없습니다(가져온 주소와 시각은 HTML 맨 앞의 주석에 들어 있습니다). 이미지는 파일 안에 넣었기 때문에 오프라인에서도 보입니다."},{"plan":"pro","href":"/samples/ko/original-combined/","title":"가상 이벤트 사이트 3페이지를 원래 모양 그대로 목차·검색이 있는 HTML 하나로","text":"“목차·검색 기능이 있는 HTML”로 저장한 실제 파일입니다. 각 페이지는 원래 디자인 그대로 틀 안에 들어가고, 틀 위에 가져온 주소와 저장한 시각이 표시됩니다. 목차에서 각 페이지로 이동하고, 검색창으로 3페이지 전체를 찾을 수 있습니다."}],"limits":{"h":"남는 것과 남지 않을 수 있는 것","keep":["레이아웃·색·글자 크기","이미지 (파일 안에 넣었을 때)","가져올 수 있었던 글꼴"],"lose":["원래 사이트의 스크립트 동작 (저장할 때 제거됩니다)","동영상·지도·로그인이 필요한 화면","양식 보내기, 사이트 검색 등 서버와 주고받는 기능"]}},"pt_BR":{"primary":"Salve de graça a aparência de uma página","secondary":"Comparar a página original e o HTML salvo","href":"/samples/pt_BR/original-look/","note":"Grátis: uma página por vez. Juntar várias páginas em um só HTML é um recurso do Pro ($19.99, compra única). Vídeos, mapas, telas com login e outras partes interativas podem não funcionar no arquivo salvo.","items":[{"plan":"free","href":"/samples/pt_BR/original-look/","title":"Uma página fictícia de evento salva com “Manter a aparência original”","text":"A página original e o HTML salvo, capturados com a mesma largura de janela, lado a lado. Foi salva com “A página como está”, então é um só arquivo HTML sem sumário nem painel de busca (o endereço de origem e o horário ficam em um comentário no início do HTML). As imagens ficam dentro do arquivo, que por isso abre sem internet."},{"plan":"pro","href":"/samples/pt_BR/original-combined/","title":"Três páginas de um site fictício de evento em um só HTML, com a aparência original, sumário e busca","text":"O arquivo real salvo com “HTML com índice e pesquisa”. Cada página mantém o design original dentro de um quadro, com o endereço de origem e o horário da captura acima. O sumário leva a cada página e a caixa de busca procura nas três."}],"limits":{"h":"O que é mantido e o que pode não ser","keep":["Layout, cores e tamanho do texto","Imagens (quando salvas dentro do arquivo)","As fontes que puderam ser obtidas"],"lose":["Os scripts do próprio site (removidos ao salvar)","Vídeos, mapas e telas que pedem login","Envio de formulários, busca do site e tudo o que conversa com o servidor"]}},"zh_CN":{"primary":"免费保存一个网页的外观","secondary":"对比原网页和保存后的 HTML","href":"/samples/zh_CN/original-look/","note":"免费版：每次一个网页。把多个网页合并为一个 HTML 是 Pro（$19.99，一次性购买）的功能。视频、地图、需要登录的界面等交互部分，保存后可能无法使用。","items":[{"plan":"free","href":"/samples/zh_CN/original-look/","title":"用“保持原样”保存的虚构活动网页","text":"把同一窗口宽度下截取的原网页和保存后的 HTML 并排展示。用“保持页面原样”保存，是一个单独的 HTML 文件，没有目录和搜索界面（来源网址和时间记录在 HTML 开头的注释中）。图片已存入文件，离线也能显示。"},{"plan":"pro","href":"/samples/zh_CN/original-combined/","title":"把虚构活动网站的3个网页按原样合并为一个带目录和搜索的 HTML","text":"用“带目录和搜索的HTML”实际保存的文件。每个网页以原有设计放在框中，框的上方显示来源网址和抓取时间。可从目录跳到各网页，用搜索框搜索全部3个网页。"}],"limits":{"h":"会保留的内容和可能无法保留的内容","keep":["布局、配色和文字大小","图片（选择存入文件时）","能够获取到的字体"],"lose":["原网站脚本的动作（保存时会被移除）","视频、地图和需要登录的界面","提交表单、站内搜索等与服务器通信的功能"]}},"zh_TW":{"primary":"免費儲存一個網頁的外觀","secondary":"對照原網頁與儲存後的 HTML","href":"/samples/zh_TW/original-look/","note":"免費版：每次一個網頁。把多個網頁合併為一個 HTML 是 Pro（$19.99，一次購買）的功能。影片、地圖、需要登入的畫面等互動部分，儲存後可能無法使用。","items":[{"plan":"free","href":"/samples/zh_TW/original-look/","title":"用「保持原樣」儲存的虛構活動網頁","text":"把同一視窗寬度下擷取的原網頁與儲存後的 HTML 並排呈現。用「保持頁面原樣」儲存，是一個單獨的 HTML 檔案，沒有目錄與搜尋介面（來源網址與時間記錄在 HTML 開頭的註解中）。圖片已存入檔案，離線也能顯示。"},{"plan":"pro","href":"/samples/zh_TW/original-combined/","title":"把虛構活動網站的3個網頁按原樣合併為一個附目錄和搜尋的 HTML","text":"用「附目錄及搜尋的HTML」實際儲存的檔案。每個網頁以原有設計放在框中，框的上方顯示來源網址與擷取時間。可從目錄跳到各網頁，用搜尋框搜尋全部3個網頁。"}],"limits":{"h":"會保留的內容與可能無法保留的內容","keep":["版面、配色與文字大小","圖片（選擇存入檔案時）","能夠取得的字型"],"lose":["原網站指令碼的動作（儲存時會被移除）","影片、地圖與需要登入的畫面","送出表單、站內搜尋等與伺服器通訊的功能"]}}},"save-web-pages-as-markdown":{"ja":{"primary":"無料で1ページをMarkdownにする","secondary":"実際のMarkdown出力を見る","href":"/samples/ja/markdown-page/","note":"無料版：1回1ページ。AIへ自動で送る機能はありません。どこに貼り付けるかは自分で決めます。","items":[{"plan":"free","href":"/samples/ja/markdown-page/","title":"架空の手順書の第2章を、1つのMarkdownに","text":"保存後の.mdファイルそのものです。先頭に出典URLと取得日時があり、見出し・番号付きの手順・表・前後の章へのリンクがMarkdownになっています。"},{"plan":"pro","href":"/samples/ja/markdown-pages/","title":"4ページを、ページ別Markdown（ZIP）に","text":"ページごとの.md、表のCSV、出典と件数を書いた manifest.json などが入ったZIPの実物です。"}]},"en":{"primary":"Turn one page into Markdown for free","secondary":"See real Markdown output","href":"/samples/en/markdown-page/","note":"Free: one page per run. Nothing is sent to an AI automatically; you decide where to paste it.","items":[{"plan":"free","href":"/samples/en/markdown-page/","title":"Chapter 2 of a fictional handbook as one Markdown file","text":"The saved .md file itself: the source URL and retrieval time at the top, then headings, numbered steps, the table and links to the other chapters in Markdown."},{"plan":"pro","href":"/samples/en/markdown-pages/","title":"Four pages as per-page Markdown (ZIP)","text":"The real ZIP: one .md per page, the tables as CSV, a manifest.json with sources and counts, and more."}]},"nearby":{"web-pages-for-reading-and-ai-analysis":{"ja":"AIに渡す資料を、読む用のHTMLと一緒に準備するとき","en":"AI material prepared alongside a readable HTML copy","es":"Material para IA preparado junto con una copia HTML fácil de leer","fr":"Des données pour l’IA préparées avec une copie HTML facile à lire","de":"KI-Material zusammen mit einer gut lesbaren HTML-Kopie","it":"Materiale per l’IA preparato insieme a una copia HTML facile da leggere","ko":"읽기 쉬운 HTML 사본과 함께 AI용 자료를 만들 때","pt_BR":"Material para IA preparado junto com uma cópia HTML fácil de ler","zh_CN":"在易读的 HTML 副本之外，同时准备给 AI 的资料","zh_TW":"在易讀的 HTML 副本之外，同時準備給 AI 的資料"},"web-tables-to-csv-for-excel-ai":{"ja":"ページの表をCSVにして、Excelなどで使いたい場合","en":"A page’s tables as CSV for Excel and similar tools","es":"Las tablas de una página en CSV para Excel y herramientas parecidas","fr":"Les tableaux d’une page en CSV pour Excel et des outils semblables","de":"Tabellen einer Seite als CSV für Excel und ähnliche Programme","it":"Le tabelle di una pagina in CSV per Excel e strumenti simili","ko":"페이지의 표를 Excel 등에서 쓸 CSV로","pt_BR":"As tabelas de uma página em CSV para o Excel e ferramentas parecidas","zh_CN":"把网页里的表格保存为 CSV，用于 Excel 等工具","zh_TW":"把網頁裡的表格儲存為 CSV，用於 Excel 等工具"},"save-online-manuals-and-knowledge-pages":{"ja":"章立てのマニュアルを、目次・検索つきで保存するとき","en":"A multi-chapter manual with contents and search","es":"Un manual de varios capítulos con índice y búsqueda","fr":"Un manuel en plusieurs chapitres avec sommaire et recherche","de":"Ein Handbuch mit mehreren Kapiteln, mit Inhaltsverzeichnis und Suche","it":"Un manuale in più capitoli con indice e ricerca","ko":"목차·검색이 있는 여러 장짜리 매뉴얼","pt_BR":"Um manual com vários capítulos, com sumário e busca","zh_CN":"带目录和搜索的多章节手册","zh_TW":"附目錄和搜尋的多章節手冊"}},"es":{"primary":"Convierte gratis una página en Markdown","secondary":"Ver una salida real en Markdown","href":"/samples/es/markdown-page/","note":"Gratis: una página por vez. No se envía nada a ninguna IA automáticamente; tú decides dónde pegarlo.","items":[{"plan":"free","href":"/samples/es/markdown-page/","title":"El capítulo 2 de un manual ficticio en un archivo Markdown","text":"El propio archivo .md guardado: la URL de origen y la hora de obtención arriba, y después los títulos, los pasos numerados, la tabla y los enlaces a los otros capítulos en Markdown."},{"plan":"pro","href":"/samples/es/markdown-pages/","title":"Cuatro páginas en Markdown, un archivo por página (ZIP)","text":"El ZIP real: un .md por página, las tablas en CSV, un manifest.json con las fuentes y los recuentos, y más."}]},"fr":{"primary":"Convertir gratuitement une page en Markdown","secondary":"Voir un vrai résultat en Markdown","href":"/samples/fr/markdown-page/","note":"Gratuit : une page par passage. Rien n’est envoyé automatiquement à une IA ; c’est vous qui choisissez où le coller.","items":[{"plan":"free","href":"/samples/fr/markdown-page/","title":"Le chapitre 2 d’un manuel fictif dans un fichier Markdown","text":"Le fichier .md enregistré lui-même : l’URL d’origine et l’heure de récupération en tête, puis les titres, les étapes numérotées, le tableau et les liens vers les autres chapitres en Markdown."},{"plan":"pro","href":"/samples/fr/markdown-pages/","title":"Quatre pages en Markdown, un fichier par page (ZIP)","text":"Le vrai ZIP : un .md par page, les tableaux en CSV, un manifest.json avec les sources et les décomptes, et d’autres fichiers."}]},"de":{"primary":"Eine Seite kostenlos in Markdown umwandeln","secondary":"Echte Markdown-Ausgabe ansehen","href":"/samples/de/markdown-page/","note":"Kostenlos: eine Seite pro Durchgang. Nichts wird automatisch an eine KI gesendet; Sie entscheiden selbst, wo Sie es einfügen.","items":[{"plan":"free","href":"/samples/de/markdown-page/","title":"Kapitel 2 eines erfundenen Handbuchs als eine Markdown-Datei","text":"Die gespeicherte .md-Datei selbst: oben die Quell-URL und der Abrufzeitpunkt, darunter Überschriften, nummerierte Schritte, die Tabelle und Links zu den anderen Kapiteln in Markdown."},{"plan":"pro","href":"/samples/de/markdown-pages/","title":"Vier Seiten als Markdown, eine Datei pro Seite (ZIP)","text":"Die echte ZIP-Datei: eine .md pro Seite, die Tabellen als CSV, eine manifest.json mit Quellen und Zahlen und weitere Dateien."}]},"it":{"primary":"Trasforma gratis una pagina in Markdown","secondary":"Guarda un vero risultato in Markdown","href":"/samples/it/markdown-page/","note":"Gratis: una pagina per volta. Niente viene inviato automaticamente a un’IA; decidi tu dove incollarlo.","items":[{"plan":"free","href":"/samples/it/markdown-page/","title":"Il capitolo 2 di un manuale di fantasia in un file Markdown","text":"Il file .md salvato: in cima l’URL di provenienza e l’ora di recupero, poi titoli, passaggi numerati, la tabella e i link agli altri capitoli in Markdown."},{"plan":"pro","href":"/samples/it/markdown-pages/","title":"Quattro pagine in Markdown, un file per pagina (ZIP)","text":"Il vero ZIP: un .md per pagina, le tabelle in CSV, un manifest.json con fonti e conteggi, e altro."}]},"ko":{"primary":"무료로 한 페이지를 Markdown으로 바꾸기","secondary":"실제 Markdown 출력 보기","href":"/samples/ko/markdown-page/","note":"무료: 1회에 한 페이지. AI로 자동으로 보내지 않습니다. 어디에 붙여 넣을지는 직접 정합니다.","items":[{"plan":"free","href":"/samples/ko/markdown-page/","title":"가상 매뉴얼 2장을 Markdown 파일 하나로","text":"저장한 .md 파일 그대로입니다. 맨 앞에 원래 URL과 가져온 시각이 있고, 이어서 제목, 번호 매긴 절차, 표, 다른 장으로 가는 링크가 Markdown으로 들어 있습니다."},{"plan":"pro","href":"/samples/ko/markdown-pages/","title":"4페이지를 페이지별 Markdown으로 (ZIP)","text":"실제 ZIP입니다. 페이지마다 .md 하나, 표는 CSV, 출처와 개수를 적은 manifest.json 등이 들어 있습니다."}]},"pt_BR":{"primary":"Transforme uma página em Markdown de graça","secondary":"Ver um resultado real em Markdown","href":"/samples/pt_BR/markdown-page/","note":"Grátis: uma página por vez. Nada é enviado automaticamente para uma IA; você decide onde colar.","items":[{"plan":"free","href":"/samples/pt_BR/markdown-page/","title":"O capítulo 2 de um manual fictício em um arquivo Markdown","text":"O próprio arquivo .md salvo: no topo, a URL de origem e o horário da coleta; depois, títulos, passos numerados, a tabela e os links para os outros capítulos em Markdown."},{"plan":"pro","href":"/samples/pt_BR/markdown-pages/","title":"Quatro páginas em Markdown, um arquivo por página (ZIP)","text":"O ZIP real: um .md por página, as tabelas em CSV, um manifest.json com as fontes e as contagens, e mais."}]},"zh_CN":{"primary":"免费把一个网页转成 Markdown","secondary":"查看实际的 Markdown 输出","href":"/samples/zh_CN/markdown-page/","note":"免费版：每次一个网页。不会自动发送给任何 AI，粘贴到哪里由您决定。","items":[{"plan":"free","href":"/samples/zh_CN/markdown-page/","title":"把虚构手册的第2章保存为一个 Markdown 文件","text":"保存的 .md 文件本身：开头是来源网址和获取时间，后面是用 Markdown 写的标题、编号步骤、表格和指向其他章节的链接。"},{"plan":"pro","href":"/samples/zh_CN/markdown-pages/","title":"把4个网页按页保存为 Markdown（ZIP）","text":"实际的 ZIP：每页一个 .md、表格的 CSV、记录来源和数量的 manifest.json 等。"}]},"zh_TW":{"primary":"免費把一個網頁轉成 Markdown","secondary":"查看實際的 Markdown 輸出","href":"/samples/zh_TW/markdown-page/","note":"免費版：每次一個網頁。不會自動傳送給任何 AI，貼到哪裡由您決定。","items":[{"plan":"free","href":"/samples/zh_TW/markdown-page/","title":"把虛構手冊的第2章儲存為一個 Markdown 檔案","text":"儲存的 .md 檔案本身：開頭是來源網址與取得時間，後面是用 Markdown 寫的標題、編號步驟、表格與前往其他章節的連結。"},{"plan":"pro","href":"/samples/zh_TW/markdown-pages/","title":"把4個網頁按頁儲存為 Markdown（ZIP）","text":"實際的 ZIP：每頁一個 .md、表格的 CSV、記錄來源與數量的 manifest.json 等。"}]}},"collect-and-analyze-web-comments":{"ja":{"primary":"無料でコメント欄を保存してみる","secondary":"実際に保存したコメントのHTMLを見る","href":"/samples/ja/comment-thread/","note":"無料版：1回1ページ。コメントの件数に上限はなく、1,000件ごとに続けるか確認します。複数のページのコメントを1つのHTMLにまとめるのはPro版（$19.99・買い切り）です。","items":[{"plan":"free","href":"/samples/ja/comment-thread/","title":"架空のお知らせ記事のコメント欄（120件）を1つのHTMLに保存","text":"最初は20件しか表示されず、スクロールすると続きが出てくるコメント欄を、「現在のページのみ」で保存しました。保存したHTMLに120件すべてと返信が入っていることを、元のページとの比較画像で確かめられます。"}],"limits":{"h":"入るものと、入らないことがあるもの","keep":["スクロールで読み込まれるコメントと返信","投稿者の名前・日時・いいねの数"],"lose":["ログインしないと見えないコメント","動画ファイルそのもの","サイトの作りによっては、閉じたままの返信"]},"intro":"このサイトに置いた架空のページを、Grab All Files で実際に保存したファイルです。5.8.53 の後の版（5.8.54 として提出予定）と同じ中身のビルドを、無料版の設定で Firefox に読み込んで作りました。作成条件と各ファイルのハッシュ値も載せています。"},"en":{"primary":"Save a comment section for free","secondary":"See a real saved comments file","href":"/samples/en/comment-thread/","note":"Free: one page per run. There is no limit on the number of comments; it asks whether to keep reading every 1,000 posts. Combining comments from several pages into one HTML file is Pro ($19.99 one-time).","items":[{"plan":"free","href":"/samples/en/comment-thread/","title":"A fictional news post’s comment section (120 comments) saved as one HTML file","text":"The comments start with only 20 shown and load more as you scroll. It was saved with “Current page only”. Comparison images of the source page and the saved HTML show that all 120 comments and their replies are in the file."}],"limits":{"h":"What is included, and what may not be","keep":["Comments and replies that load as you scroll","Author names, dates and like counts"],"lose":["Comments that need a sign-in to see","The video file itself","On some sites, replies that stay collapsed"]},"intro":"A file actually saved by Grab All Files from a fictional page hosted on this site, using a build with the same contents as the version after 5.8.53 that is to be submitted as 5.8.54, loaded in Firefox with Free plan settings. The settings used and the file’s hash are listed."},"nearby":{"web-pages-for-reading-and-ai-analysis":{"ja":"AIに渡す資料を、読む用のHTMLと一緒に準備するとき","en":"AI material prepared alongside a readable HTML copy","es":"Material para IA preparado junto con una copia HTML fácil de leer","fr":"Des données pour l’IA préparées avec une copie HTML facile à lire","de":"KI-Material zusammen mit einer gut lesbaren HTML-Kopie","it":"Materiale per l’IA preparato insieme a una copia HTML facile da leggere","ko":"읽기 쉬운 HTML 사본과 함께 AI용 자료를 만들 때","pt_BR":"Material para IA preparado junto com uma cópia HTML fácil de ler","zh_CN":"在易读的 HTML 副本之外，同时准备给 AI 的资料","zh_TW":"在易讀的 HTML 副本之外，同時準備給 AI 的資料"},"combine-web-pages-into-one-html":{"ja":"複数のページを目次・検索つきの1つのHTMLにまとめるとき","en":"Several pages in one file with contents and search","es":"Varias páginas en un solo archivo con índice y búsqueda","fr":"Plusieurs pages dans un seul fichier avec sommaire et recherche","de":"Mehrere Seiten in einer Datei mit Inhaltsverzeichnis und Suche","it":"Più pagine in un solo file con indice e ricerca","ko":"여러 페이지를 목차·검색이 있는 파일 하나로","pt_BR":"Várias páginas em um só arquivo com sumário e busca","zh_CN":"把多个网页合并为一个带目录和搜索的文件","zh_TW":"把多個網頁合併為一個附目錄和搜尋的檔案"},"save-web-pages-with-original-design":{"ja":"文字より、サイトのレイアウトや配色を残したい場合","en":"Pages where layout and colors matter more than the text","es":"Páginas en las que importan más el diseño y los colores que el texto","fr":"Des pages où la mise en page et les couleurs comptent plus que le texte","de":"Seiten, bei denen Layout und Farben wichtiger sind als der Text","it":"Pagine in cui layout e colori contano più del testo","ko":"글보다 레이아웃과 색이 중요한 페이지","pt_BR":"Páginas em que o layout e as cores importam mais que o texto","zh_CN":"布局和配色比文字更重要的网页","zh_TW":"版面和配色比文字更重要的網頁"}},"es":{"primary":"Prueba gratis a guardar una sección de comentarios","secondary":"Ver un archivo real de comentarios guardados","href":"/samples/es/comment-thread/","note":"Gratis: una página por vez. No hay límite en el número de comentarios; cada 1.000 publicaciones te pregunta si quieres seguir leyendo. Combinar los comentarios de varias páginas en un solo HTML es una función Pro ($19.99, pago único).","items":[{"plan":"free","href":"/samples/es/comment-thread/","title":"La sección de comentarios de una noticia ficticia (120 comentarios) guardada en un solo HTML","text":"Al principio solo se ven 20 comentarios y el resto se carga al desplazarte. Se guardó con «Solo la página actual». Las imágenes que comparan la página original con el HTML guardado muestran que los 120 comentarios y sus respuestas están en el archivo."}],"limits":{"h":"Lo que se incluye y lo que puede no incluirse","keep":["Los comentarios y respuestas que se cargan al desplazarte","Nombres de los autores, fechas y número de «me gusta»"],"lose":["Comentarios que solo se ven con la sesión iniciada","El archivo de vídeo en sí","En algunos sitios, las respuestas que quedan sin desplegar"]},"intro":"Un archivo guardado de verdad con Grab All Files a partir de una página ficticia alojada en este sitio. Se usó una compilación con el mismo contenido que la versión posterior a la 5.8.54 (se enviará como 5.8.55), cargada en Firefox con la configuración de la versión gratuita. Se indican los ajustes usados y el hash del archivo."},"fr":{"primary":"Essayer gratuitement avec un espace commentaires","secondary":"Voir un vrai fichier de commentaires enregistré","href":"/samples/fr/comment-thread/","note":"Gratuit : une page par passage. Le nombre de commentaires n’est pas limité ; toutes les 1 000 publications, l’extension demande s’il faut continuer la lecture. Fusionner les commentaires de plusieurs pages en un seul HTML est une fonction Pro (19,99 $, achat unique).","items":[{"plan":"free","href":"/samples/fr/comment-thread/","title":"L’espace commentaires d’un article fictif (120 commentaires) enregistré dans un seul HTML","text":"Au départ, seuls 20 commentaires s’affichent ; les suivants se chargent au défilement. L’enregistrement a été fait avec « Page actuelle uniquement ». Les images comparant la page d’origine et le HTML enregistré montrent que les 120 commentaires et leurs réponses sont dans le fichier."}],"limits":{"h":"Ce qui est inclus, et ce qui peut ne pas l’être","keep":["Les commentaires et réponses chargés au défilement","Noms des auteurs, dates et nombre de « J’aime »"],"lose":["Les commentaires visibles seulement une fois connecté","Le fichier vidéo lui-même","Sur certains sites, les réponses qui restent repliées"]},"intro":"Un fichier réellement enregistré par Grab All Files à partir d’une page fictive hébergée sur ce site, avec une version de travail au contenu identique à celui de la version postérieure à la 5.8.54 (qui sera soumise comme 5.8.55), chargée dans Firefox avec les réglages de la version gratuite. Les réglages utilisés et l’empreinte du fichier sont indiqués."},"de":{"primary":"Einen Kommentarbereich kostenlos speichern","secondary":"Eine echte gespeicherte Kommentardatei ansehen","href":"/samples/de/comment-thread/","note":"Kostenlos: eine Seite pro Durchgang. Die Zahl der Kommentare ist nicht begrenzt; alle 1.000 Beiträge fragt die Erweiterung, ob sie weiterlesen soll. Die Kommentare mehrerer Seiten in einer HTML-Datei zusammenführen ist eine Pro-Funktion (19,99 $, einmalig).","items":[{"plan":"free","href":"/samples/de/comment-thread/","title":"Der Kommentarbereich einer erfundenen Meldung (120 Kommentare) als eine HTML-Datei gespeichert","text":"Anfangs sind nur 20 Kommentare zu sehen, der Rest lädt beim Scrollen nach. Gespeichert wurde mit „Nur die aktuelle Seite“. Die Vergleichsbilder von Originalseite und gespeicherter HTML-Datei zeigen, dass alle 120 Kommentare samt Antworten in der Datei sind."}],"limits":{"h":"Was enthalten ist und was eventuell nicht","keep":["Kommentare und Antworten, die beim Scrollen nachladen","Namen der Verfasser, Datum und Anzahl der Likes"],"lose":["Kommentare, die nur nach dem Anmelden sichtbar sind","Die Videodatei selbst","Auf manchen Websites Antworten, die zugeklappt bleiben"]},"intro":"Eine Datei, die Grab All Files tatsächlich von einer erfundenen Seite auf dieser Website gespeichert hat. Verwendet wurde ein Build mit demselben Inhalt wie die Version nach 5.8.54 (Einreichung als 5.8.55 geplant), in Firefox mit den Einstellungen der kostenlosen Version geladen. Die verwendeten Einstellungen und der Hash der Datei sind angegeben."},"it":{"primary":"Prova gratis a salvare una sezione commenti","secondary":"Guarda un vero file di commenti salvati","href":"/samples/it/comment-thread/","note":"Gratis: una pagina per volta. Non c’è un limite al numero di commenti; ogni 1.000 post l’estensione chiede se continuare a leggere. Unire i commenti di più pagine in un solo HTML è una funzione Pro ($19.99, una tantum).","items":[{"plan":"free","href":"/samples/it/comment-thread/","title":"La sezione commenti di una notizia di fantasia (120 commenti) salvata in un solo HTML","text":"All’inizio si vedono solo 20 commenti e gli altri si caricano scorrendo. È stata salvata con «Solo la pagina attuale». Le immagini che confrontano la pagina originale e l’HTML salvato mostrano che nel file ci sono tutti i 120 commenti con le risposte."}],"limits":{"h":"Cosa è incluso e cosa potrebbe non esserlo","keep":["I commenti e le risposte che si caricano scorrendo","Nomi degli autori, date e numero di «Mi piace»"],"lose":["I commenti visibili solo dopo l’accesso","Il file video in sé","Su alcuni siti, le risposte che restano chiuse"]},"intro":"Un file salvato davvero con Grab All Files da una pagina di fantasia ospitata su questo sito, usando una build con lo stesso contenuto della versione successiva alla 5.8.54 (da inviare come 5.8.55), caricata in Firefox con le impostazioni della versione gratuita. Si indicano le impostazioni usate e l’hash del file."},"ko":{"primary":"무료로 댓글란 저장해 보기","secondary":"실제로 저장한 댓글 HTML 보기","href":"/samples/ko/comment-thread/","note":"무료: 1회에 한 페이지. 댓글 개수에 제한은 없으며, 1,000개를 읽을 때마다 계속 읽을지 묻습니다. 여러 페이지의 댓글을 HTML 하나로 합치는 것은 Pro($19.99, 1회 결제) 기능입니다.","items":[{"plan":"free","href":"/samples/ko/comment-thread/","title":"가상의 뉴스 기사 댓글란(120개)을 HTML 하나로 저장","text":"처음에는 댓글이 20개만 보이고, 스크롤하면 나머지가 이어서 나옵니다. “현재 페이지만”으로 저장했습니다. 원래 페이지와 저장한 HTML을 비교한 이미지로 120개 댓글과 답글이 모두 들어 있음을 확인할 수 있습니다."}],"limits":{"h":"들어가는 것과 들어가지 않을 수 있는 것","keep":["스크롤하면 불러오는 댓글과 답글","작성자 이름·날짜·좋아요 수"],"lose":["로그인해야 보이는 댓글","동영상 파일 자체","사이트에 따라 접힌 채로 남는 답글"]},"intro":"이 사이트에 올린 가상의 페이지를 Grab All Files로 실제로 저장한 파일입니다. 5.8.54 다음 버전(5.8.55로 제출 예정)과 같은 내용의 빌드를 무료 플랜 설정으로 Firefox에 불러와 만들었습니다. 사용한 설정과 파일의 해시값도 실었습니다."},"pt_BR":{"primary":"Experimente salvar uma seção de comentários de graça","secondary":"Ver um arquivo real de comentários salvos","href":"/samples/pt_BR/comment-thread/","note":"Grátis: uma página por vez. Não há limite no número de comentários; a cada 1.000 publicações, a extensão pergunta se deve continuar lendo. Juntar os comentários de várias páginas em um só HTML é um recurso do Pro ($19.99, compra única).","items":[{"plan":"free","href":"/samples/pt_BR/comment-thread/","title":"A seção de comentários de uma notícia fictícia (120 comentários) salva em um só HTML","text":"No começo aparecem só 20 comentários, e o restante carrega conforme a rolagem. O salvamento foi feito com “Somente a página atual”. As imagens que comparam a página original e o HTML salvo mostram que os 120 comentários e as respostas estão no arquivo."}],"limits":{"h":"O que entra e o que pode não entrar","keep":["Comentários e respostas que carregam ao rolar","Nomes dos autores, datas e número de curtidas"],"lose":["Comentários que só aparecem com login","O arquivo de vídeo em si","Em alguns sites, respostas que continuam recolhidas"]},"intro":"Um arquivo salvo de verdade pelo Grab All Files a partir de uma página fictícia hospedada neste site, usando uma compilação com o mesmo conteúdo da versão posterior à 5.8.54 (a ser enviada como 5.8.55), carregada no Firefox com as configurações da versão gratuita. As configurações usadas e o hash do arquivo estão listados."},"zh_CN":{"primary":"免费试试保存评论区","secondary":"查看实际保存的评论 HTML","href":"/samples/zh_CN/comment-thread/","note":"免费版：每次一个网页。评论条数没有上限，每读取 1,000 条会询问是否继续。把多个网页的评论合并为一个 HTML 是 Pro（$19.99，一次性购买）的功能。","items":[{"plan":"free","href":"/samples/zh_CN/comment-thread/","title":"把一篇虚构新闻报道的评论区（120 条）保存为一个 HTML","text":"一开始只显示 20 条评论，向下滚动才会继续加载。使用“仅当前页面”保存。通过原网页与保存后 HTML 的对比图，可以确认 120 条评论和回复都在文件里。"}],"limits":{"h":"会保存的内容和可能无法保存的内容","keep":["滚动时加载的评论和回复","作者名、日期和点赞数"],"lose":["需要登录才能看到的评论","视频文件本身","部分网站上一直折叠的回复"]},"intro":"这是用 Grab All Files 实际保存本站上一个虚构网页得到的文件。所用构建与 5.8.54 之后的版本（计划以 5.8.55 提交）内容相同，在 Firefox 中加载后，按免费版的设置保存。同时列出了所用设置和文件的哈希值。"},"zh_TW":{"primary":"免費試試儲存留言區","secondary":"查看實際儲存的留言 HTML","href":"/samples/zh_TW/comment-thread/","note":"免費版：每次一個網頁。留言則數沒有上限，每讀取 1,000 則會詢問是否繼續。把多個網頁的留言合併為一個 HTML 是 Pro（$19.99，一次購買）的功能。","items":[{"plan":"free","href":"/samples/zh_TW/comment-thread/","title":"把一篇虛構新聞報導的留言區（120 則）儲存為一個 HTML","text":"一開始只顯示 20 則留言，往下捲動才會繼續載入。使用「僅目前頁面」儲存。透過原網頁與儲存後 HTML 的比較圖，可以確認 120 則留言和回覆都在檔案裡。"}],"limits":{"h":"會儲存的內容與可能無法儲存的內容","keep":["捲動時載入的留言和回覆","作者名稱、日期和按讚數"],"lose":["需要登入才看得到的留言","影片檔案本身","部分網站上一直收合的回覆"]},"intro":"這是用 Grab All Files 實際儲存本站上一個虛構網頁得到的檔案。所用建置與 5.8.54 之後的版本（預計以 5.8.55 提交）內容相同，在 Firefox 中載入後，依免費版的設定儲存。同時列出了所用設定和檔案的雜湊值。"}}};
   var GUIDE_SAMPLE_TEXT = {"ja":{"h2":"実際の出力サンプル","intro":"このサイトに置いた架空のページを、Grab All Files 5.8.48 で実際に保存したファイルです。作成条件と各ファイルのハッシュ値も載せています。無料版はリリース版で、Pro版は同じソースから作った開発用ビルドで作りました。","free":"無料版","pro":"Pro版","open":"サンプルを開く","keep":"残るもの","lose":"残らないことがあるもの","nearby":"このガイドと近い用途"},"en":{"h2":"Real output samples","intro":"Files actually saved by Grab All Files 5.8.48 from fictional pages hosted on this site, with the settings used and each file’s hash. Free samples come from the released build; Pro samples from a developer build of the same source.","free":"Free","pro":"Pro","open":"Open the sample","keep":"Kept","lose":"May not be kept","nearby":"Guides for nearby tasks"},"es":{"h2":"Muestras reales de salida","intro":"Archivos guardados de verdad con Grab All Files 5.8.48 a partir de páginas ficticias alojadas en este sitio, con los ajustes usados y el hash de cada archivo. Las muestras gratuitas salen de la versión publicada y las Pro, de una versión de desarrollo hecha con el mismo código.","free":"Gratis","pro":"Pro","open":"Abrir la muestra","keep":"Se conserva","lose":"Puede no conservarse","nearby":"Guías para tareas parecidas"},"fr":{"h2":"Exemples réels de résultat","intro":"Des fichiers réellement enregistrés avec Grab All Files 5.8.48 à partir de pages fictives hébergées sur ce site, avec les réglages utilisés et l’empreinte de chaque fichier. Les exemples gratuits viennent de la version publiée, les exemples Pro d’une version de développement construite à partir du même code.","free":"Gratuit","pro":"Pro","open":"Ouvrir l’exemple","keep":"Conservé","lose":"Peut ne pas être conservé","nearby":"Guides pour des usages proches"},"de":{"h2":"Echte Beispielergebnisse","intro":"Dateien, die Grab All Files 5.8.48 tatsächlich aus erfundenen Seiten auf dieser Website gespeichert hat, mit den verwendeten Einstellungen und dem Hashwert jeder Datei. Die kostenlosen Beispiele stammen aus der veröffentlichten Version, die Pro-Beispiele aus einer Entwicklerversion aus demselben Quellcode.","free":"Kostenlos","pro":"Pro","open":"Beispiel öffnen","keep":"Bleibt erhalten","lose":"Bleibt eventuell nicht erhalten","nearby":"Anleitungen für ähnliche Aufgaben"},"it":{"h2":"Esempi reali di risultato","intro":"File salvati davvero con Grab All Files 5.8.48 da pagine di fantasia ospitate su questo sito, con le impostazioni usate e l’hash di ogni file. Gli esempi gratuiti vengono dalla versione pubblicata, quelli Pro da una versione di sviluppo creata dallo stesso codice.","free":"Gratis","pro":"Pro","open":"Apri l’esempio","keep":"Si conserva","lose":"Potrebbe non conservarsi","nearby":"Guide per usi simili"},"ko":{"h2":"실제 출력 샘플","intro":"이 사이트에 올려 둔 가상의 페이지를 Grab All Files 5.8.48으로 실제로 저장한 파일입니다. 사용한 설정과 각 파일의 해시값도 함께 실었습니다. 무료 샘플은 공개 버전으로, Pro 샘플은 같은 소스로 만든 개발용 빌드로 만들었습니다.","free":"무료","pro":"Pro","open":"샘플 열기","keep":"남는 것","lose":"남지 않을 수 있는 것","nearby":"이 가이드와 가까운 용도"},"pt_BR":{"h2":"Amostras reais de resultado","intro":"Arquivos salvos de verdade com o Grab All Files 5.8.48 a partir de páginas fictícias hospedadas neste site, com as configurações usadas e o hash de cada arquivo. As amostras grátis vêm da versão publicada, e as Pro, de uma versão de desenvolvimento feita com o mesmo código.","free":"Grátis","pro":"Pro","open":"Abrir a amostra","keep":"É mantido","lose":"Pode não ser mantido","nearby":"Guias para usos parecidos"},"zh_CN":{"h2":"实际输出示例","intro":"这些是用 Grab All Files 5.8.48 从本站上的虚构网页实际保存的文件，并附有所用设置和每个文件的哈希值。免费版示例用正式发布的版本制作，Pro 示例用同一份源代码构建的开发版制作。","free":"免费版","pro":"Pro","open":"打开示例","keep":"会保留的内容","lose":"可能无法保留的内容","nearby":"与本指南相近的用途"},"zh_TW":{"h2":"實際輸出範例","intro":"這些是用 Grab All Files 5.8.48 從本站上的虛構網頁實際儲存的檔案，並附上所用設定與每個檔案的雜湊值。免費版範例用正式發布的版本製作，Pro 範例用同一份原始碼建置的開發版製作。","free":"免費版","pro":"Pro","open":"開啟範例","keep":"會保留的內容","lose":"可能無法保留的內容","nearby":"與本指南相近的用途"}};
 
   function guideSample(current, lang) {

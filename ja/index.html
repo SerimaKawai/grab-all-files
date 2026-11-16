@@ -155,7 +155,7 @@
     "featureList": [
       "ファイル一括ダウンロード：iframe PDF、遅延読み込み、fetch/XHR、blob URL、CMS経路などを含む708種類のファイルを検出",
       "ページ収集：関連ページを探索し、無料版は選んだ1ページを保存、Proは選択した複数ページの本文を1つのHTMLに結合",
-      "ファイル一括ダウンロード：種類・サイズ・名前・ページタイトル・日付で絞り込み、同一サイト巡回やサイトマップ探索にも対応",
+      "ファイル一括ダウンロード：種類・サイズ・名前・ページタイトル・日付で絞り込み、同一サイトのクロールやサイトマップ探索にも対応",
       "ページ収集：自動探索に加え、メニュー・パス・サイトマップ・貼り付けたURL一覧から詳細指定",
       "ファイル一括ダウンロード：選択ファイルの保存、PDF結合、ZIP作成、CSV出力を端末内で実行",
       "ページ収集：無料版は選んだ1ページを検索可能なHTMLに保存し、Proは複数ページを共通目次付きで結合",
@@ -243,7 +243,7 @@
         "name": "Proの料金は？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "$19.99 USDの買い切りで、永続ライセンス（サブスクなし）です。最大3台で利用できます（1台＝1台のパソコン上のブラウザープロファイル1つ）。拡張機能のライセンス画面から端末を解除すれば、その枠を別の端末で使えます。"
+          "text": "$19.99 USDの買い切りで、永続ライセンス（サブスクなし）です。最大3台で利用できます（1台＝1台のパソコン上のブラウザプロファイル1つ）。拡張機能のライセンス画面から端末を解除すれば、その枠を別の端末で使えます。"
         }
       },
       {
@@ -259,7 +259,7 @@
         "name": "閲覧データはどこかへ送信されますか？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "いいえ。ファイルはソースサイトから端末へ直接ダウンロードされます。当社サーバーへ送信されるのはライセンス検証と、任意の仮名化利用統計だけです。利用統計は初期設定でオフで、明示的に同意した後にだけ送信され、内容はランダムなインストールID、拡張機能のバージョン、プラン、件数などの大まかな数値やラベル（例：見つかったファイル数）に限られます。ページ内容・URL・ファイル名は一切送信しません。詳しくはセキュリティと権限をご覧ください。"
+          "text": "いいえ。ファイルはソースサイトから端末へ直接ダウンロードされます。当方サーバーへ送信されるのはライセンス検証と、任意の仮名化利用統計だけです。利用統計は初期設定でオフで、明示的に同意した後にだけ送信され、内容はランダムなインストールID、拡張機能のバージョン、プラン、件数などの大まかな数値やラベル（例：見つかったファイル数）に限られます。ページ内容・URL・ファイル名は一切送信しません。詳しくはセキュリティと権限をご覧ください。"
         }
       },
       {
@@ -267,7 +267,7 @@
         "name": "対応ブラウザは？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Google Chrome および Microsoft Edge（Chromium 111 以降）、および Mozilla Firefox（128 以降）。"
+          "text": "Google Chrome および Microsoft Edge（Chromium 111以降）、および Mozilla Firefox（128以降）。"
         }
       },
       {
@@ -331,15 +331,15 @@
         "name": "大容量・長時間のダウンロードに対応し、一時停止・再開できますか？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "はい。Grab All Files はビルトインのダウンロードマネージャを備え、並列数の調整・一時停止/再開・自動リトライ・失敗分のみのワンクリック再試行に対応します。回線が切れても大量のバッチを継続できます。数GBの単一ファイルや長時間の無人ジョブは、URLリストを書き出して専用のダウンロードマネージャに渡すこともできます。"
+          "text": "はい。Grab All Files はビルトインのダウンロードマネージャを備え、並列数の調整・一時停止/再開・自動再試行・失敗分のみのワンクリック再試行に対応します。回線が切れても大量のバッチを継続できます。数GBの単一ファイルや長時間の無人ジョブは、URLリストを書き出して専用のダウンロードマネージャに渡すこともできます。"
         }
       },
       {
         "@type": "Question",
-        "name": "JDownloader や aria2 などのダウンロードマネージャと併用できますか？",
+        "name": "JDownloaderやaria2などのダウンロードマネージャと併用できますか？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "はい。互いに補完します。Grab All Files は、iframe・ビューア・JavaScript・CMSルートの奥にあるファイルなど、複雑なページやログイン必須ページでの「発見」が得意です。結果を CSV や URL リストとして書き出し、専用のダウンロードマネージャに渡せば大量の一括ダウンロードを任せられます。発見は Grab All Files、重いダウンロードは専用のダウンロードマネージャ、という役割分担です。"
+          "text": "はい。互いに補完します。Grab All Files は、iframe・ビューア・JavaScript・CMSルートの奥にあるファイルなど、複雑なページやログイン必須ページでの「発見」が得意です。結果を CSVやURLリストとして書き出し、専用のダウンロードマネージャに渡せば大量の一括ダウンロードを任せられます。発見は Grab All Files、重いダウンロードは専用のダウンロードマネージャ、という役割分担です。"
         }
       },
       {
@@ -347,7 +347,7 @@
         "name": "JavaScriptのSPAやログイン必須ページ、ボット対策のあるサイトでも動きますか？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "はい。React・Next.js・Nuxt・Vue などの JavaScript 描画後のSPAを読み取り、すでに正当にアクセスできるページではお使いのブラウザセッションを利用します。CSRF保護されたダウンロードフォームにも追従し、Cloudflare/WAF のボット対策を検出して回復を案内します。拡張子だけでなく署名（マジックバイト）でファイル種別を確認します。アクセス制御やセキュリティ保護を回避することはありません。"
+          "text": "はい。React・Next.js・Nuxt・VueなどのJavaScript描画後のSPAを読み取り、すでに正当にアクセスできるページではお使いのブラウザセッションを利用します。CSRF保護されたダウンロードフォームにも追従し、Cloudflare/WAF のボット対策を検出して回復を案内します。拡張子だけでなく署名（マジックバイト）でファイル種別を確認します。アクセス制御やセキュリティ保護を回避することはありません。"
         }
       },
       {
@@ -1107,14 +1107,14 @@
           <div data-lang="ja" class="active">
             <span class="hero-eyebrow"><span class="dot">✓</span><span class="eb-seg">無料 — 候補から1ページ</span><span class="sep">·</span><span class="price-tag">Pro $19.99</span> <span class="eb-seg">買い切り・最大3台</span></span>
             <h1>ファイルを一括保存。複数ページを<span class="em">1つのHTML</span>に。</h1>
-            <p class="hero-lead">Grab All Files は、2つのツールを備えたブラウザ拡張機能です。<strong>ファイル一括ダウンロード</strong>はページ上のPDF・画像・Office文書・ZIPなどを見つけ、チェックしたものをまとめて保存します。<strong>ページをHTMLにまとめる</strong>はWebページを検索できる1つのHTMLに保存します（Proなら関連する複数ページを1つに）。無料版：ファイルは1回のダウンロードで10件まで、ページは1回1ページ。Pro（$19.99の買い切り）：ファイル上限なし・複数ページ結合。処理はすべて端末内で行います。</p>
+            <p class="hero-lead">Grab All Files は、2つのツールを備えたブラウザ拡張機能です。<strong>ファイル一括ダウンロード</strong>はページ上のPDF・画像・Office文書・ZIPなどを見つけ、チェックしたものをまとめて保存します。<strong>ページをHTMLにまとめる</strong>はWebページを検索できる1つのHTMLに保存します（Proなら関連する複数ページを1つに）。無料版：ファイルは1回のダウンロードで10件まで、ページは1回1ページ。Pro（$19.99・買い切り）：ファイル上限なし・複数ページ結合。処理はすべて端末内で行います。</p>
             <div class="hero-cta">
               <a href="#latest-version" class="btn btn-release">最新バージョンの新機能を見る <span class="arrow" aria-hidden="true">→</span></a>
             </div>
-            <div class="hero-stores"><p class="mobile-note"><strong>スマートフォン・タブレットでご覧の方へ</strong> 拡張機能はPCの Chrome・Edge・Firefox に追加できます。PCでこのページを開いてインストールしてください。 <button type="button" class="send-link-btn" data-copied="リンクをコピーしました">PCで開くためにリンクを送る</button><span class="send-link-status" role="status" aria-live="polite"></span></p><span>お使いのブラウザで Grab All Files をダウンロード:</span>
-              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Chrome ウェブストアからインストール">Chrome 用をダウンロード <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Edge 用をダウンロード <span aria-hidden="true">↗</span></a>
-              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Firefox アドオンからインストール">Firefox 用をダウンロード <span aria-hidden="true">↗</span></a>
+            <div class="hero-stores"><p class="mobile-note"><strong>スマートフォン・タブレットでご覧の方へ</strong> 拡張機能はPCのChrome・Edge・Firefoxに追加できます。PCでこのページを開いてインストールしてください。 <button type="button" class="send-link-btn" data-copied="リンクをコピーしました">PCで開くためにリンクを送る</button><span class="send-link-status" role="status" aria-live="polite"></span></p><span>お使いのブラウザで Grab All Files をダウンロード：</span>
+              <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener" aria-label="Chrome ウェブストアからインストール">Chrome用をダウンロード <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">Edge用をダウンロード <span aria-hidden="true">↗</span></a>
+              <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener" aria-label="Firefox アドオンからインストール">Firefox用をダウンロード <span aria-hidden="true">↗</span></a>
             </div>
           </div>
           
@@ -1233,7 +1233,7 @@
         <div data-lang="ja" class="active">
           <div class="latest-panel">
             <div class="latest-badge"><span>最新バージョン</span><strong>5.8.54</strong></div>
-            <div class="latest-copy"><h3>ページを「サイトの形でフォルダに保存」できるようになり、無料版と Pro の違いは「まとめて保存するか 1 ページずつか」だけになりました。</h3><p>ページ収集（Pro）に「サイトの形でフォルダに保存」を足しました。各ページを元のサイトと同じフォルダの形で 1 つずつ HTML にし、目次（index.html）を付けます。ページ同士と、一緒に保存したファイルへのリンクは、保存したものを開きます。無料版と Pro の違いを「まとめて保存するか 1 ページずつか」だけにし、開始と結果の画面で、リンク先ファイルが何件残っていて、どう保存すればよいかを分かるようにしました。Pro はリンク先ファイルが 100 件を超えるとき、先に確かめます。フォルダへの保存を大きいファイルで大幅に速くし、ファイルごとの進み具合を出し、60 秒届かないファイルは止まったままにせず失敗にします。fda.gov のスキャンで接続を止められないようにし、ScienceDirect の計測ビーコンを画像として保存せず、「サイトを許可して保存し直す」が動くようにしました。元の見た目で保存したページが、サイトのページ全体のフィルターで印刷が 1 枚の画像になるのも直しました。全体のコード点検で見つかった細かい不具合も直しています。</p></div>
+            <div class="latest-copy"><h3>ページを「サイトの形でフォルダに保存」できるようになり、無料版と Pro の違いは「まとめて保存するか1ページずつか」だけになりました。</h3><p>ページ収集（Pro）に「サイトの形でフォルダに保存」を足しました。各ページを元のサイトと同じフォルダの形で1つずつHTMLにし、目次（index.html）を付けます。ページ同士と、一緒に保存したファイルへのリンクは、保存したものを開きます。無料版と Pro の違いを「まとめて保存するか1ページずつか」だけにし、開始と結果の画面で、リンク先ファイルが何件残っていて、どう保存すればよいかを分かるようにしました。Proはリンク先ファイルが100件を超えるとき、先に確かめます。フォルダへの保存を大きいファイルで大幅に速くし、ファイルごとの進み具合を出し、60秒届かないファイルは止まったままにせず失敗にします。fda.gov のスキャンで接続を止められないようにし、ScienceDirect の計測ビーコンを画像として保存せず、「サイトを許可して保存し直す」が動くようにしました。元の見た目で保存したページが、サイトのページ全体のフィルターで印刷が1枚の画像になるのも直しました。全体のコード点検で見つかった細かい不具合も直しています。</p></div>
           </div>
         </div>
         
@@ -1304,9 +1304,9 @@
                 <div><span class="spotlight-kicker">ページをHTMLにまとめる</span><h3>関連するWebページを、読みやすい1つのHTMLへ。</h3><p>ブラウザで開いているページを起点に、関連ページを探索。収録するページを確認・選択し、目次付きで検索・印刷できる1つのHTMLにまとめます。</p></div>
               </div>
               <div class="spotlight-grid">
-                <div class="spotlight-item"><strong>ページを探して確認</strong><p>すぐ使える自動探索に加え、メニュー・パス・sitemap・URLリストを指定する詳細設定にも対応。収集前にタイトルを確認し、不要なページの除外や並べ替えができます。</p></div>
+                <div class="spotlight-item"><strong>ページを探して確認</strong><p>すぐ使える自動探索に加え、メニュー・パス・サイトマップ・URL一覧を指定する詳細設定にも対応。収集前にタイトルを確認し、不要なページの除外や並べ替えができます。</p></div>
                 <div class="spotlight-item"><strong>持ち運べる1つの資料に</strong><p>画像を埋め込んでオフライン閲覧、またはオンライン参照で軽量化。リンク先のPDF・Office文書などもHTMLと一緒に保存できます。</p></div>
-                <div class="spotlight-item"><strong>AI向けデータも任意で出力</strong><p>出典付きMarkdown、JSONL、manifest、表データを生成可能。ページ収集とHTML生成は端末内で処理し、ページ内容を当社サーバーへアップロードしません。</p></div>
+                <div class="spotlight-item"><strong>AI向けデータも任意で出力</strong><p>出典付きMarkdown、JSONL、manifest、表データを生成可能。ページ収集とHTML生成は端末内で処理し、ページ内容を当方サーバーへアップロードしません。</p></div>
                 <div class="spotlight-item"><strong>タイムラインやコメント欄も最後まで</strong><p>スクロールすると続きが読み込まれるページ（タイムライン、フィード、コメント欄など）は、最後まで自動でスクロールし、読み込まれた投稿やコメントを1つのHTMLにまとめて保存します（件数に上限はなく、1,000件読むごとに続けるかを確認します）。スクロール中に画面から消える投稿も残します。無料版・Proのどちらでも使えます。</p></div>
               </div>
               <p class="spotlight-plan">無料版は関連候補を探索・一覧表示し、選んだ1ページを保存します。そのページ内の画像にはプラン上の件数制限がありません。直接リンクされたファイルは1回10件までで、結果画面の「次の10件を保存」で続けて保存できます。Proは複数候補の本文を1つのHTMLに結合します。どちらも安全上限・サイト側制限が適用されます。</p>
@@ -1317,13 +1317,13 @@
             </div>
             <div class="feature-card"><span class="tile">🔎</span><h3>見落としがちなファイルも検出</h3><p><strong>708種類（拡張子）</strong>のファイルに対応。iframe内のPDF、遅延読み込み画像、fetch/XHRで取得されるファイル、blob URL、CMSダウンロードルート、hidden inputの値、39種類のdata-*属性まで網羅。通常のリンクスクレイパーでは拾えないファイルも検出します。さらにShadow DOM／Web Components内、SPAのハイドレーションデータ（Next.js・JSON-LD）、Cache Storage／OPFS／IndexedDB、署名付きクラウドストレージURL（Cloudflare R2・Firebase・Supabase・Vercel Blob）にも対応します。</p></div>
             <div class="feature-card"><span class="tile">⚙️</span><h3>スマートフィルタ</h3><p>拡張子、ファイルサイズ、ファイル名、ページタイトル、更新日で絞り込み・並べ替え・手動並べ替え。URLのプレーンテキストコピーにも対応。</p></div>
-            <div class="feature-card"><span class="tile">🕸️</span><h3>同一サイトクロール</h3><p>深度0〜5または無制限を選んで、起点ページのフォルダー配下のリンク先を巡回（サイト全体を対象にするにはサイトのルートから開始）。サブページに散らばったPDF、ビューアURL、CMS文書ルートまで一気に収集。1回の実行で最大10万ページまで。さらに sitemap.xml／robots.txt を解析し、JavaScriptメニュー（javascript:／onclick）・フレームセット・イメージマップ・GET検索/ページャのリンクも辿るので、通常の&lt;a&gt;リンクが無いページにも到達します。</p></div>
+            <div class="feature-card"><span class="tile">🕸️</span><h3>同一サイトクロール</h3><p>深度0〜5または無制限を選んで、起点ページのフォルダ配下のリンク先を巡回（サイト全体を対象にするにはサイトのルートから開始）。サブページに散らばったPDF、ビューアURL、CMS文書ルートまで一気に収集。1回の実行で最大10万ページまで。さらに sitemap.xml／robots.txt を解析し、JavaScriptメニュー（javascript:／onclick）・フレームセット・イメージマップ・GET検索/ページャのリンクも辿るので、通常の&lt;a&gt;リンクが無いページにも到達します。</p></div>
             <div class="feature-card"><span class="tile">📚</span><h3>PDF結合（ローカル）</h3><p>選択したPDFを1つにまとめます。アップロード不要・サーバー送信なし。ファイルは端末から外に出ません。</p></div>
             <div class="feature-card"><span class="tile">🗜️</span><h3>ZIP化</h3><p>選択したファイルを1つのZIPにまとめて配布・アーカイブ・共有しやすく。ブラウザ内ですべて完結します。</p></div>
             <div class="feature-card"><span class="tile">📊</span><h3>CSV出力</h3><p>URL、ファイル名、サイズ、種類、タイトルをCSV出力。資料台帳、棚卸し、報告書、後続の自動処理にそのまま使えます。</p></div>
             <div class="feature-card"><span class="tile">🔐</span><h3>アクセス権のあるページをスキャン</h3><p>お使いのブラウザのセッションを利用し、すでに正当に開ける社内ポータル、LMS、会員ページ内の資料を確認できます。認証情報を収集したり、アクセス制御を回避したりするものではありません。</p></div>
             <div class="feature-card"><span class="tile">🛡️</span><h3>複雑なページにも対応</h3><p>正当にアクセスできるページ内であれば、JavaScript描画のSPA（React・Next・Nuxt・Vue）、ビューア経由のURL、CSRF保護フォームなど、通常のダウンローダーが取りこぼす経路も確認します。種別は拡張子だけでなくバイト署名でも判定し、HTTP（非HTTPS）の旧サイトもスキャンできます。</p></div>
-            <div class="feature-card"><span class="tile">⚙️</span><h3>大量処理に対応</h3><p>複数URLを一度にスキャン、またはサイト全体をクロール。並列数の調整、一時停止/再開、失敗の自動リトライ、種類別・ドメイン別のフォルダ仕分け、PDFタイトルからのファイル名変更まで。</p></div>
+            <div class="feature-card"><span class="tile">⚙️</span><h3>大量処理に対応</h3><p>複数URLを一度にスキャン、またはサイト全体をクロール。並列数の調整、一時停止/再開、失敗の自動再試行、種類別・ドメイン別のフォルダ仕分け、PDFタイトルからのファイル名変更まで。</p></div>
           </div>
         </div>
         
@@ -1359,7 +1359,7 @@
           <div class="features-grid">
             <div class="feature-card"><span class="tile">🔎</span><h3>複雑・ログイン必須ページからファイルを発見</h3><p>iframe・ビューア・JavaScript・ログイン・CMSルートの奥に隠れたPDF・画像・文書。Grab All Files が検出し、絞り込み・選択のうえ、一括ダウンロード・PDF結合・ZIP化・CSV出力までローカルで完結します。</p></div>
             <div class="feature-card"><span class="tile">🚚</span><h3>既知のURLを大量に／巨大ファイルをダウンロード</h3><p>数GBのファイルや、キュー管理・再開が必要な長時間の無人バッチには、専用のダウンロードマネージャ（JDownloader、aria2）が最適です。Grab All Files でファイルを発見してURLリストを書き出し、重いダウンロードはそちらに任せましょう。</p></div>
-            <div class="feature-card"><span class="tile">🗺️</span><h3>多くのページを元の見た目で保存したい場合</h3><p>Pro では「元の見た目のまま」を選ぶと、選んだページをスタイル・画像・フォントごと保存できます。「ページ別HTML（ZIP）」を選ぶと、1ページずつの HTML と目次のページを ZIP にまとめ、保存したページ同士のリンクはオフラインでも保存したファイルを開きます。ブラウザに表示された内容を保存するので、ログインが必要なページや JavaScript で作られたページにも使えます。数千ページを元のフォルダ構造のまま複製したい場合や、変わったファイルだけを取り直して複製を更新したい場合は、HTTrack などのサイト複製ツールが適しています。</p></div>
+            <div class="feature-card"><span class="tile">🗺️</span><h3>多くのページを元の見た目で保存したい場合</h3><p>Proでは「元の見た目のまま」を選ぶと、選んだページをスタイル・画像・フォントごと保存できます。「ページ別HTML（ZIP）」を選ぶと、1ページずつのHTMLと目次のページをZIPにまとめ、保存したページ同士のリンクはオフラインでも保存したファイルを開きます。ブラウザに表示された内容を保存するので、ログインが必要なページや JavaScript で作られたページにも使えます。数千ページを元のフォルダ構造のまま複製したい場合や、変わったファイルだけを取り直して複製を更新したい場合は、HTTrack などのサイト複製ツールが適しています。</p></div>
           </div>
         </div>
         
@@ -1526,16 +1526,16 @@
             <div class="pricing-cta">
               <div class="hero-stores pricing-stores">
                 <span>
-                  <span data-lang="ja" class="active">お使いのブラウザで Grab All Files をダウンロード:</span>
+                  <span data-lang="ja" class="active">お使いのブラウザで Grab All Files をダウンロード：</span>
                 </span>
                 <a class="store-btn" href="https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf" target="_blank" rel="noopener">
-                  <span data-lang="ja" class="active">Chrome 用をダウンロード</span>
+                  <span data-lang="ja" class="active">Chrome用をダウンロード</span>
                 </a>
                 <a class="store-btn" href="https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef" target="_blank" rel="noopener">
-<span data-lang="ja" class="active">Edge 用をダウンロード</span>
+<span data-lang="ja" class="active">Edge用をダウンロード</span>
                 </a>
                 <a class="store-btn" href="https://addons.mozilla.org/firefox/addon/grab-all-files/" target="_blank" rel="noopener">
-                  <span data-lang="ja" class="active">Firefox 用をダウンロード</span>
+                  <span data-lang="ja" class="active">Firefox用をダウンロード</span>
                 </a>
               </div>
               <a class="btn btn-ghost" href="/purchase/">
@@ -1584,10 +1584,10 @@
           <details><summary>10件の上限に達するとどうなりますか？</summary><p>何もロックされません。無料版は1回のダウンロードで10件まで保存します。保存が終わったら、一覧で次のファイルを選んで、もう一度「選んだファイルを保存」を押してください。繰り返せば残りも保存できます。Proには1回あたりの上限がありません。</p></details>
           <details><summary>複数のWebページを1つのHTMLにまとめられますか？</summary><p>はい、Proで利用できます。無料版でも関連候補を探索・一覧表示できますが、HTML保存するのは選んだ1ページです。Proでは複数候補を選び、各ページの読みやすい本文を共通目次付きで検索・印刷できる1つのHTMLにまとめます。</p></details>
           <details><summary>X（旧Twitter）のポストを返信ごと保存できますか？</summary><p>はい。ブラウザでポストを開き（返信を見るのにログインが必要ならXにログインして）、「ページをHTMLにまとめる」で保存します。ページを最後まで自動でスクロールし、ポストとXに表示された返信を1つのHTMLにまとめて保存します（件数に上限はなく、1,000件読むごとに続けるかを確認します。広告のポストは入れません）。Xがあなたに表示しない返信は保存されません。無料版でも使えます。Proなら、複数のポストやスレッドを1つのHTMLにまとめることもできます。保存してよい内容だけを保存し、Xの利用規約に従ってください。</p></details>
-          <details><summary>Proの料金は？</summary><p>$19.99 USDの買い切りで、永続ライセンス（サブスクなし）です。最大3台で利用できます（1台＝1台のパソコン上のブラウザープロファイル1つ）。拡張機能のライセンス画面から端末を解除すれば、その枠を別の端末で使えます。</p></details>
+          <details><summary>Proの料金は？</summary><p>$19.99 USDの買い切りで、永続ライセンス（サブスクなし）です。最大3台で利用できます（1台＝1台のパソコン上のブラウザプロファイル1つ）。拡張機能のライセンス画面から端末を解除すれば、その枠を別の端末で使えます。</p></details>
           <details><summary>購入後、Proはどう有効化しますか？</summary><p>ライセンスキーは決済直後の購入完了ページに表示され、メールでも届きます。拡張機能を開き、右上の「無料」（または「⋯」メニュー →「Pro・ライセンスキー」）から入力欄を開いてキーを貼り付け、「有効化」を押してください。右上の表示が「Pro」に変われば完了です。</p></details>
-          <details><summary>閲覧データはどこかへ送信されますか？</summary><p>いいえ。ファイルはソースサイトから端末へ直接ダウンロードされます。当社サーバーへ送信されるのはライセンス検証と、任意の仮名化利用統計だけです。利用統計は初期設定でオフで、明示的に同意した後にだけ送信され、内容はランダムなインストールID、拡張機能のバージョン、プラン、件数などの大まかな数値やラベル（例：見つかったファイル数）に限られます。ページ内容・URL・ファイル名は一切送信しません。詳しくは<a href="/ja/security.html">セキュリティと権限</a>をご覧ください。</p></details>
-          <details><summary>対応ブラウザは？</summary><p>Google Chrome および Microsoft Edge（Chromium 111 以降）、および Mozilla Firefox（128 以降）。</p></details>
+          <details><summary>閲覧データはどこかへ送信されますか？</summary><p>いいえ。ファイルはソースサイトから端末へ直接ダウンロードされます。当方サーバーへ送信されるのはライセンス検証と、任意の仮名化利用統計だけです。利用統計は初期設定でオフで、明示的に同意した後にだけ送信され、内容はランダムなインストールID、拡張機能のバージョン、プラン、件数などの大まかな数値やラベル（例：見つかったファイル数）に限られます。ページ内容・URL・ファイル名は一切送信しません。詳しくは<a href="/ja/security.html">セキュリティと権限</a>をご覧ください。</p></details>
+          <details><summary>対応ブラウザは？</summary><p>Google Chrome および Microsoft Edge（Chromium 111以降）、および Mozilla Firefox（128以降）。</p></details>
           <details><summary>返金はできますか？</summary><p>即時提供のデジタル製品のため、原則として返金には応じておりません。無料版で互換性と1ページHTML保存・1回10件のファイル保存を確認してからProをご購入いただけます。技術的な不具合により動作しない場合は、購入日から30日以内に<a href="/contact/">お問い合わせフォーム</a>からご連絡いただければ全額返金いたします。</p></details>
           <details><summary>ログインが必要なサイトでも動きますか？</summary><p>はい。お使いのブラウザのセッションを利用し、社内ポータル、LMS、会員ページなど、すでに正当にアクセスできるページをスキャンできます。認証情報を収集したり、アクセス制御を回避したりするものではありません。</p></details>
           <details><summary>Webページ上のファイルをまとめてダウンロードするには？</summary><p>Grab All Files を Google Chrome、Microsoft Edge、または Mozilla Firefox にインストールし、対象ページを開く（またはURLを貼り付ける）だけで、iframe、ビューア、遅延読み込み、fetch/XHR、blob URL、CMSダウンロードルートに隠れたファイルまで含めて検出・一覧表示します。必要なファイルを選んでワンクリックで一括保存できます。</p></details>
@@ -1595,9 +1595,9 @@
           <details><summary>ファイル一括ダウンロードに向いているChrome拡張機能は？</summary><p>Grab All Files は Google Chrome・Microsoft Edge・Mozilla Firefox 向けのファイル一括ダウンロード拡張機能です。通常のリンク抽出では見落としがちなPDF・Office文書・画像・ZIP・CSVを検出し、選んだファイルをワンクリックで保存、PDF結合、ZIP作成、ファイルURLのCSV出力ができます。無料版は1回のダウンロードで10件まで（繰り返して続きを保存可能）、$19.99の買い切りのProで1回あたりの上限を解除できます。</p></details>
           <details><summary>Webページ上の画像をすべて保存するには？</summary><p>遅延読み込み画像、CSS背景画像、blob URLも含めて画像を検出します。画像種別で絞り込んで選択し、一括ダウンロード、または画像URLの一覧をCSV出力できます。</p></details>
           <details><summary>PDFをサーバーにアップロードせずに結合できますか？</summary><p>はい。選択したPDFはブラウザ内（ローカル）で結合されます。アップロードは一切なく、ファイルが端末の外に出ることはありません。</p></details>
-          <details><summary>大容量・長時間のダウンロードに対応し、一時停止・再開できますか？</summary><p>はい。Grab All Files はビルトインのダウンロードマネージャを備え、並列数の調整・一時停止/再開・自動リトライ・失敗分のみのワンクリック再試行に対応します。回線が切れても大量のバッチを継続できます。数GBの単一ファイルや長時間の無人ジョブは、URLリストを書き出して専用のダウンロードマネージャに渡すこともできます。</p></details>
-          <details><summary>JDownloader や aria2 などのダウンロードマネージャと併用できますか？</summary><p>はい。互いに補完します。Grab All Files は、iframe・ビューア・JavaScript・CMSルートの奥にあるファイルなど、複雑なページやログイン必須ページでの「発見」が得意です。結果を CSV や URL リストとして書き出し、専用のダウンロードマネージャに渡せば大量の一括ダウンロードを任せられます。発見は Grab All Files、重いダウンロードは専用のダウンロードマネージャ、という役割分担です。</p></details>
-          <details><summary>JavaScriptのSPAやログイン必須ページ、ボット対策のあるサイトでも動きますか？</summary><p>はい。React・Next.js・Nuxt・Vue などの JavaScript 描画後のSPAを読み取り、すでに正当にアクセスできるページではお使いのブラウザセッションを利用します。CSRF保護されたダウンロードフォームにも追従し、Cloudflare/WAF のボット対策を検出して回復を案内します。拡張子だけでなく署名（マジックバイト）でファイル種別を確認します。アクセス制御やセキュリティ保護を回避することはありません。</p></details>
+          <details><summary>大容量・長時間のダウンロードに対応し、一時停止・再開できますか？</summary><p>はい。Grab All Files はビルトインのダウンロードマネージャを備え、並列数の調整・一時停止/再開・自動再試行・失敗分のみのワンクリック再試行に対応します。回線が切れても大量のバッチを継続できます。数GBの単一ファイルや長時間の無人ジョブは、URLリストを書き出して専用のダウンロードマネージャに渡すこともできます。</p></details>
+          <details><summary>JDownloaderやaria2などのダウンロードマネージャと併用できますか？</summary><p>はい。互いに補完します。Grab All Files は、iframe・ビューア・JavaScript・CMSルートの奥にあるファイルなど、複雑なページやログイン必須ページでの「発見」が得意です。結果を CSVやURLリストとして書き出し、専用のダウンロードマネージャに渡せば大量の一括ダウンロードを任せられます。発見は Grab All Files、重いダウンロードは専用のダウンロードマネージャ、という役割分担です。</p></details>
+          <details><summary>JavaScriptのSPAやログイン必須ページ、ボット対策のあるサイトでも動きますか？</summary><p>はい。React・Next.js・Nuxt・VueなどのJavaScript描画後のSPAを読み取り、すでに正当にアクセスできるページではお使いのブラウザセッションを利用します。CSRF保護されたダウンロードフォームにも追従し、Cloudflare/WAF のボット対策を検出して回復を案内します。拡張子だけでなく署名（マジックバイト）でファイル種別を確認します。アクセス制御やセキュリティ保護を回避することはありません。</p></details>
           <details><summary>保存したHTMLの文字は選択・コピーできますか？</summary><p>はい。「読みやすく整える」で保存したHTMLは、本文を普通の文字として書き出すので、元のページで文字を選びにくい場合でも、保存したファイルでは選択・検索・コピーができます。「元の見た目のまま」で保存した場合は、元のページの文字選択の設定が残ることがあります。引用や転載は、元のサイトの利用規約と著作権の範囲で行ってください。</p></details>
         </div></div>
         
@@ -1712,7 +1712,7 @@
       </p>
       <p>
         
-        <span data-lang="ja" class="active">販売者：<strong>Serima Kawai</strong>（個人事業主、日本）。独立した製品であり、Google、Microsoft および Mozilla とは提携関係にありません。「Google Chrome」および「Chrome ウェブストア」は Google LLC の商標です。「Microsoft Edge」および「Microsoft Edge アドオン」は Microsoft Corporation の商標です。「Firefox」は Mozilla Foundation の商標です。</span>
+        <span data-lang="ja" class="active">販売者：<strong>Serima Kawai</strong>（個人事業主、日本）。独立した製品であり、Google、Microsoft および Mozillaとは提携関係にありません。「Google Chrome」および「Chrome ウェブストア」は Google LLC の商標です。「Microsoft Edge」および「Microsoft Edge アドオン」は Microsoft Corporation の商標です。「Firefox」は Mozilla Foundation の商標です。</span>
         
         
         

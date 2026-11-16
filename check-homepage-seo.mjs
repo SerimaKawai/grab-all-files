@@ -41,9 +41,9 @@ const combineHeadlines = {
   fr: 'Pro en regroupe plusieurs dans un HTML',
   de: 'Free speichert 1 Seite. Pro bündelt mehrere Seiten',
   it: 'Free salva 1 pagina. Pro ne unisce più',
-  ko: 'Free는 1페이지 저장. Pro는 여러 페이지',
+  ko: '무료 플랜은 1페이지 저장. Pro는 여러 페이지',
   pt_BR: 'A versão gratuita salva 1 página. O Pro reúne várias',
-  zh_CN: 'Free 保存1页。Pro 将多页合并',
+  zh_CN: '免费版保存1页。Pro 将多页合并',
   zh_TW: '免費版儲存1頁，Pro 可將多頁合併',
 };
 
