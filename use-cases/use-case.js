@@ -2451,7 +2451,7 @@
             "Open Grab All Files and choose “Combine pages into HTML”. Start from the page open in your browser, let the extension find related pages, or switch the source to “From a computer folder” for a folder or ZIP of HTML files.",
             "Check the pages to include. Under “Look”, choose “Keep the original look”. When you combine several pages from one site, turn on “Leave out the header, menu and footer that repeat on every page (keep the first)”. “Leave out ads” is on from the start for a lighter file; turn it off to keep the ad spaces.",
             "For web pages, allow access to the sites that serve the stylesheets and images when asked. It is asked once for all of them. Each page is opened in a tab and scrolled to the end so that images and content that load on scroll are included.",
-            "Save. Choose how the result is put together before saving. For one page: “The page as it is” or “HTML with contents and search”. For several pages (Pro): “HTML with contents and search”, “Vertically joined HTML (for printing)” or “Separate HTML pages (ZIP)”. In the HTML with contents and search, each page keeps its original design inside a frame, with the source address and capture time above it, and the contents and search box move you between pages. “The page as it is” and the vertically joined HTML have no contents or search panel, so use your browser’s find (Ctrl+F / ⌘F); a single saved page keeps its source address and time in a comment at the top of the HTML. The vertically joined HTML starts each page on a new sheet when printed; for a PDF, print it from your browser after saving. “Separate HTML pages (ZIP)” includes a contents page (index.html) linking to each page. To also list images or parts that could not be kept, choose “HTML with contents and search” and turn on “Include the collection details and the list of failures”."
+            "Save. Choose how the result is put together before saving. For one page: “The page as it is” or “HTML with contents and search”. For several pages (Pro): “HTML with contents and search”, “Vertically joined HTML (for printing)”, “Separate HTML pages (ZIP)” or “Site copy in a folder” (Chrome, Edge). In the HTML with contents and search, each page keeps its original design inside a frame, with the source address and capture time above it, and the contents and search box move you between pages. “The page as it is” and the vertically joined HTML have no contents or search panel, so use your browser’s find (Ctrl+F / ⌘F); a single saved page keeps its source address and time in a comment at the top of the HTML. The vertically joined HTML starts each page on a new sheet when printed; for a PDF, print it from your browser after saving. “Separate HTML pages (ZIP)” includes a contents page (index.html) linking to each page. “Site copy in a folder” writes the pages into the folder you choose with the same folder layout as the original site, plus a contents page (index.html); links between the saved pages open the saved files, so you can browse the copy offline. To also list images or parts that could not be kept, choose “HTML with contents and search” and turn on “Include the collection details and the list of failures”."
           ],
           "faq": [
             {
@@ -2631,7 +2631,7 @@
             "Grab All Files で「ページをHTMLにまとめる」を選びます。ブラウザで開いているページから始めるか、関連ページを探させるか、取得元を「パソコンのフォルダから」に切り替えてHTMLのフォルダやZIPを選びます。",
             "まとめるページを確認し、「見た目」で「元の見た目のまま」を選びます。同じサイトの複数ページをまとめるときは「毎ページ共通のヘッダー・メニュー・フッターは最初のページだけに残す」をオンにします。「広告を省く」は最初からオンで、ファイルが軽くなります。広告枠も残したいときはオフにします。",
             "Webページの場合は、スタイルシートと画像の配信元へのアクセス許可を求められたら許可します（まとめて1回で聞きます）。各ページはタブで開いて最後までスクロールするので、スクロールで読み込まれる画像や続きも入ります。",
-            "保存します。まとめ方は保存の前に選べます。1ページのときは「そのページのまま」か「目次・検索付きHTML」、複数ページ（Pro）のときは「目次・検索付きHTML」「縦につないだHTML（印刷向け）」「ページ別HTML（ZIP）」から選びます。目次・検索付きHTMLでは、各ページが元のデザインのまま枠に入り、枠の上に取得元のアドレスと取得日時が出て、目次と検索欄でページを行き来できます。「そのページのまま」と縦につないだHTMLには目次や検索の画面が付かないので、ブラウザの検索（Ctrl+F／⌘F）を使います。1ページだけを保存したHTMLでは、取得元のアドレスと日時はHTML冒頭のコメントに入ります。縦につないだHTMLは、印刷するとページごとに改ページされます。PDFが必要なときは、保存後にブラウザの印刷機能で作ります。「ページ別HTML（ZIP）」には、各ページへの一覧ページ（index.html）が入ります。残せなかった画像や部分の一覧も入れたいときは、「目次・検索付きHTML」を選んで「取得情報と失敗一覧を入れる」をオンにします。"
+            "保存します。まとめ方は保存の前に選べます。1ページのときは「そのページのまま」か「目次・検索付きHTML」、複数ページ（Pro）のときは「目次・検索付きHTML」「縦につないだHTML（印刷向け）」「ページ別HTML（ZIP）」「サイトの形でフォルダに保存」（Chrome・Edge）から選びます。目次・検索付きHTMLでは、各ページが元のデザインのまま枠に入り、枠の上に取得元のアドレスと取得日時が出て、目次と検索欄でページを行き来できます。「そのページのまま」と縦につないだHTMLには目次や検索の画面が付かないので、ブラウザの検索（Ctrl+F／⌘F）を使います。1ページだけを保存したHTMLでは、取得元のアドレスと日時はHTML冒頭のコメントに入ります。縦につないだHTMLは、印刷するとページごとに改ページされます。PDFが必要なときは、保存後にブラウザの印刷機能で作ります。「ページ別HTML（ZIP）」には、各ページへの一覧ページ（index.html）が入ります。「サイトの形でフォルダに保存」は、元のサイトと同じフォルダの形で、目次（index.html）と一緒に選んだフォルダへ書き出します。保存したページ同士のリンクは保存したファイルを開くので、オフラインでも見て回れます。残せなかった画像や部分の一覧も入れたいときは、「目次・検索付きHTML」を選んで「取得情報と失敗一覧を入れる」をオンにします。"
           ],
           "faq": [
             {
@@ -2811,7 +2811,7 @@
             "Abre Grab All Files y elige «Combinar páginas en HTML». Empieza desde la página abierta en tu navegador, deja que la extensión busque páginas relacionadas o cambia el origen a «Desde una carpeta del ordenador» para usar una carpeta o un ZIP de archivos HTML.",
             "Revisa las páginas que quieres incluir. En «Aspecto», elige «Mantener el aspecto original». Si combinas varias páginas de un mismo sitio, activa «Mantener solo en la primera página el encabezado, el menú y el pie que se repiten en todas». «Omitir los anuncios» viene activado para que el archivo pese menos; desactívalo si quieres conservar los espacios publicitarios.",
             "Con páginas web, cuando se te pida, permite el acceso a los sitios que sirven las hojas de estilo y las imágenes. Se pregunta una sola vez para todos. Cada página se abre en una pestaña y se desplaza hasta el final para que se incluyan las imágenes y el contenido que se cargan al hacer scroll.",
-            "Guarda. Antes de guardar, elige cómo se arma el resultado. Para una página: «La página tal cual» o «HTML con índice y búsqueda». Para varias páginas (Pro): «HTML con índice y búsqueda», «HTML vertical (para imprimir)» o «Páginas HTML separadas (ZIP)». En el HTML con índice y búsqueda, cada página conserva su diseño original dentro de un marco, con la dirección de origen y la hora de captura encima, y el índice y el cuadro de búsqueda te llevan de una página a otra. «La página tal cual» y el HTML vertical no tienen índice ni panel de búsqueda, así que usa la búsqueda del navegador (Ctrl+F / ⌘F); una sola página guardada conserva la dirección de origen y la hora en un comentario al principio del HTML. Al imprimir el HTML vertical, cada página empieza en una hoja nueva; para un PDF, imprímelo desde el navegador después de guardarlo. «Páginas HTML separadas (ZIP)» incluye una página de índice (index.html) con enlaces a cada página. Para que también aparezcan las imágenes o partes que no se pudieron conservar, elige «HTML con índice y búsqueda» y activa «Incluir los datos de la recopilación y la lista de errores»."
+            "Guarda. Antes de guardar, elige cómo se arma el resultado. Para una página: «La página tal cual» o «HTML con índice y búsqueda». Para varias páginas (Pro): «HTML con índice y búsqueda», «HTML vertical (para imprimir)», «Páginas HTML separadas (ZIP)» o «Copia del sitio en una carpeta» (Chrome, Edge). En el HTML con índice y búsqueda, cada página conserva su diseño original dentro de un marco, con la dirección de origen y la hora de captura encima, y el índice y el cuadro de búsqueda te llevan de una página a otra. «La página tal cual» y el HTML vertical no tienen índice ni panel de búsqueda, así que usa la búsqueda del navegador (Ctrl+F / ⌘F); una sola página guardada conserva la dirección de origen y la hora en un comentario al principio del HTML. Al imprimir el HTML vertical, cada página empieza en una hoja nueva; para un PDF, imprímelo desde el navegador después de guardarlo. «Páginas HTML separadas (ZIP)» incluye una página de índice (index.html) con enlaces a cada página. «Copia del sitio en una carpeta» escribe las páginas en la carpeta que elijas con la misma estructura de carpetas que el sitio original, junto con una página de índice (index.html); los enlaces entre las páginas guardadas abren los archivos guardados, así que puedes recorrer la copia sin conexión. Para que también aparezcan las imágenes o partes que no se pudieron conservar, elige «HTML con índice y búsqueda» y activa «Incluir los datos de la recopilación y la lista de errores»."
           ],
           "faq": [
             {
@@ -2991,7 +2991,7 @@
             "Ouvrez Grab All Files et choisissez « Regrouper les pages en HTML ». Partez de la page ouverte dans votre navigateur, laissez l’extension trouver les pages liées, ou passez la source sur « Depuis un dossier de l’ordinateur » pour un dossier ou un ZIP de fichiers HTML.",
             "Vérifiez les pages à inclure. Sous « Apparence », choisissez « Garder l’apparence d’origine ». Si vous regroupez plusieurs pages d’un même site, activez « Ne garder que sur la première page l’en-tête, le menu et le pied de page répétés sur chaque page ». « Omettre les publicités » est activé d’emblée pour un fichier plus léger ; désactivez-le pour garder les emplacements publicitaires.",
             "Pour les pages web, autorisez l’accès aux sites qui fournissent les feuilles de style et les images lorsque c’est demandé. La demande n’est faite qu’une fois pour tous. Chaque page est ouverte dans un onglet et défilée jusqu’en bas, afin d’inclure les images et le contenu qui se chargent au défilement.",
-            "Enregistrez. Avant d’enregistrer, choisissez la forme du résultat. Pour une page : « La page telle quelle » ou « HTML avec sommaire et recherche ». Pour plusieurs pages (Pro) : « HTML avec sommaire et recherche », « HTML vertical (pour l’impression) » ou « Pages HTML séparées (ZIP) ». Dans le HTML avec sommaire et recherche, chaque page garde son design d’origine dans un cadre, avec l’adresse d’origine et la date de capture au-dessus, et le sommaire et le champ de recherche permettent de passer d’une page à l’autre. « La page telle quelle » et le HTML vertical n’ont ni sommaire ni panneau de recherche : utilisez la recherche du navigateur (Ctrl+F / ⌘F). Une page enregistrée seule garde son adresse d’origine et la date dans un commentaire en tête du HTML. À l’impression, le HTML vertical commence chaque page sur une nouvelle feuille ; pour un PDF, imprimez-le depuis le navigateur après l’enregistrement. « Pages HTML séparées (ZIP) » contient une page de sommaire (index.html) qui renvoie vers chaque page. Pour lister aussi les images ou éléments qui n’ont pas pu être conservés, choisissez « HTML avec sommaire et recherche » et activez « Inclure les informations de collecte et la liste des échecs »."
+            "Enregistrez. Avant d’enregistrer, choisissez la forme du résultat. Pour une page : « La page telle quelle » ou « HTML avec sommaire et recherche ». Pour plusieurs pages (Pro) : « HTML avec sommaire et recherche », « HTML vertical (pour l’impression) », « Pages HTML séparées (ZIP) » ou « Copie du site dans un dossier » (Chrome, Edge). Dans le HTML avec sommaire et recherche, chaque page garde son design d’origine dans un cadre, avec l’adresse d’origine et la date de capture au-dessus, et le sommaire et le champ de recherche permettent de passer d’une page à l’autre. « La page telle quelle » et le HTML vertical n’ont ni sommaire ni panneau de recherche : utilisez la recherche du navigateur (Ctrl+F / ⌘F). Une page enregistrée seule garde son adresse d’origine et la date dans un commentaire en tête du HTML. À l’impression, le HTML vertical commence chaque page sur une nouvelle feuille ; pour un PDF, imprimez-le depuis le navigateur après l’enregistrement. « Pages HTML séparées (ZIP) » contient une page de sommaire (index.html) qui renvoie vers chaque page. « Copie du site dans un dossier » écrit les pages dans le dossier choisi en reprenant l’arborescence du site d’origine, avec une page de sommaire (index.html) ; les liens entre les pages enregistrées ouvrent les fichiers enregistrés, ce qui permet de parcourir la copie hors ligne. Pour lister aussi les images ou éléments qui n’ont pas pu être conservés, choisissez « HTML avec sommaire et recherche » et activez « Inclure les informations de collecte et la liste des échecs »."
           ],
           "faq": [
             {
@@ -3171,7 +3171,7 @@
             "Öffnen Sie Grab All Files und wählen Sie „Seiten als HTML bündeln“. Starten Sie mit der im Browser geöffneten Seite, lassen Sie die Erweiterung verwandte Seiten finden oder stellen Sie die Quelle auf „Aus einem Ordner auf dem Computer“ um, für einen Ordner oder ein ZIP mit HTML-Dateien.",
             "Prüfen Sie die aufzunehmenden Seiten. Wählen Sie unter „Aussehen“ die Option „Ursprüngliches Aussehen behalten“. Wenn Sie mehrere Seiten derselben Website bündeln, aktivieren Sie „Kopfzeile, Menü und Fußzeile, die sich auf jeder Seite wiederholen, nur auf der ersten Seite behalten“. „Werbung weglassen“ ist von Anfang an aktiviert und macht die Datei kleiner; schalten Sie es aus, um die Werbeflächen zu behalten.",
             "Bei Webseiten erlauben Sie auf Nachfrage den Zugriff auf die Seiten, die Stylesheets und Bilder ausliefern. Die Nachfrage erfolgt nur einmal für alle. Jede Seite wird in einem Tab geöffnet und bis zum Ende gescrollt, damit auch Bilder und Inhalte erfasst werden, die erst beim Scrollen nachladen.",
-            "Speichern Sie. Wählen Sie vor dem Speichern, wie das Ergebnis aufgebaut wird. Bei einer Seite: „Seite unverändert“ oder „HTML mit Inhaltsverzeichnis und Suche“. Bei mehreren Seiten (Pro): „HTML mit Inhaltsverzeichnis und Suche“, „Vertikal verbundenes HTML (zum Drucken)“ oder „Einzelne HTML-Seiten (ZIP)“. Im HTML mit Inhaltsverzeichnis und Suche behält jede Seite ihr ursprüngliches Design in einem Rahmen, darüber stehen Herkunftsadresse und Erfassungszeit, und mit Inhaltsverzeichnis und Suchfeld wechseln Sie zwischen den Seiten. „Seite unverändert“ und das vertikal verbundene HTML haben weder Inhaltsverzeichnis noch Suchfeld, nutzen Sie dort die Suche des Browsers (Strg+F / ⌘F). Eine einzeln gespeicherte Seite enthält Herkunftsadresse und Zeit in einem Kommentar am Anfang der HTML-Datei. Beim Drucken beginnt im vertikal verbundenen HTML jede Seite auf einem neuen Blatt; für ein PDF drucken Sie es nach dem Speichern aus dem Browser. „Einzelne HTML-Seiten (ZIP)“ enthält eine Übersichtsseite (index.html) mit Links zu jeder Seite. Sollen auch Bilder oder Teile aufgelistet werden, die nicht übernommen werden konnten, wählen Sie „HTML mit Inhaltsverzeichnis und Suche“ und aktivieren „Erfassungsangaben und Fehlerliste einfügen“."
+            "Speichern Sie. Wählen Sie vor dem Speichern, wie das Ergebnis aufgebaut wird. Bei einer Seite: „Seite unverändert“ oder „HTML mit Inhaltsverzeichnis und Suche“. Bei mehreren Seiten (Pro): „HTML mit Inhaltsverzeichnis und Suche“, „Vertikal verbundenes HTML (zum Drucken)“, „Einzelne HTML-Seiten (ZIP)“ oder „Website-Kopie in einem Ordner“ (Chrome, Edge). Im HTML mit Inhaltsverzeichnis und Suche behält jede Seite ihr ursprüngliches Design in einem Rahmen, darüber stehen Herkunftsadresse und Erfassungszeit, und mit Inhaltsverzeichnis und Suchfeld wechseln Sie zwischen den Seiten. „Seite unverändert“ und das vertikal verbundene HTML haben weder Inhaltsverzeichnis noch Suchfeld, nutzen Sie dort die Suche des Browsers (Strg+F / ⌘F). Eine einzeln gespeicherte Seite enthält Herkunftsadresse und Zeit in einem Kommentar am Anfang der HTML-Datei. Beim Drucken beginnt im vertikal verbundenen HTML jede Seite auf einem neuen Blatt; für ein PDF drucken Sie es nach dem Speichern aus dem Browser. „Einzelne HTML-Seiten (ZIP)“ enthält eine Übersichtsseite (index.html) mit Links zu jeder Seite. „Website-Kopie in einem Ordner“ schreibt die Seiten mit derselben Ordnerstruktur wie die ursprüngliche Website in den gewählten Ordner, zusammen mit einer Übersichtsseite (index.html); Links zwischen den gespeicherten Seiten öffnen die gespeicherten Dateien, sodass Sie die Kopie offline durchblättern können. Sollen auch Bilder oder Teile aufgelistet werden, die nicht übernommen werden konnten, wählen Sie „HTML mit Inhaltsverzeichnis und Suche“ und aktivieren „Erfassungsangaben und Fehlerliste einfügen“."
           ],
           "faq": [
             {
@@ -3351,7 +3351,7 @@
             "Apri Grab All Files e scegli «Unisci pagine in HTML». Parti dalla pagina aperta nel browser, lascia che l’estensione trovi le pagine correlate oppure cambia la fonte in «Da una cartella del computer» per una cartella o uno ZIP di file HTML.",
             "Controlla le pagine da includere. Sotto «Aspetto», scegli «Mantieni l’aspetto originale». Se unisci più pagine dello stesso sito, attiva «Mantieni solo nella prima pagina intestazione, menu e piè di pagina ripetuti su ogni pagina». «Ometti gli annunci» è attivo fin dall’inizio per un file più leggero; disattivalo se vuoi conservare gli spazi pubblicitari.",
             "Per le pagine web, quando richiesto, consenti l’accesso ai siti che forniscono i fogli di stile e le immagini. La richiesta viene fatta una sola volta per tutti. Ogni pagina viene aperta in una scheda e fatta scorrere fino in fondo, così da includere le immagini e i contenuti che si caricano durante lo scorrimento.",
-            "Salva. Prima di salvare scegli come comporre il risultato. Per una pagina: «La pagina così com’è» o «HTML con indice e ricerca». Per più pagine (Pro): «HTML con indice e ricerca», «HTML verticale (per la stampa)» o «Pagine HTML separate (ZIP)». Nell’HTML con indice e ricerca, ogni pagina mantiene il design originale in una cornice, con l’indirizzo di provenienza e l’ora di acquisizione sopra, e indice e casella di ricerca ti portano da una pagina all’altra. «La pagina così com’è» e l’HTML verticale non hanno indice né pannello di ricerca: usa la ricerca del browser (Ctrl+F / ⌘F). Una singola pagina salvata conserva indirizzo e ora in un commento all’inizio dell’HTML. In stampa, l’HTML verticale fa iniziare ogni pagina su un nuovo foglio; per un PDF, stampalo dal browser dopo il salvataggio. «Pagine HTML separate (ZIP)» contiene una pagina indice (index.html) con i link a ogni pagina. Per elencare anche le immagini o le parti che non è stato possibile conservare, scegli «HTML con indice e ricerca» e attiva «Includi i dati della raccolta e l’elenco degli errori»."
+            "Salva. Prima di salvare scegli come comporre il risultato. Per una pagina: «La pagina così com’è» o «HTML con indice e ricerca». Per più pagine (Pro): «HTML con indice e ricerca», «HTML verticale (per la stampa)», «Pagine HTML separate (ZIP)» o «Copia del sito in una cartella» (Chrome, Edge). Nell’HTML con indice e ricerca, ogni pagina mantiene il design originale in una cornice, con l’indirizzo di provenienza e l’ora di acquisizione sopra, e indice e casella di ricerca ti portano da una pagina all’altra. «La pagina così com’è» e l’HTML verticale non hanno indice né pannello di ricerca: usa la ricerca del browser (Ctrl+F / ⌘F). Una singola pagina salvata conserva indirizzo e ora in un commento all’inizio dell’HTML. In stampa, l’HTML verticale fa iniziare ogni pagina su un nuovo foglio; per un PDF, stampalo dal browser dopo il salvataggio. «Pagine HTML separate (ZIP)» contiene una pagina indice (index.html) con i link a ogni pagina. «Copia del sito in una cartella» scrive le pagine nella cartella scelta con la stessa struttura di cartelle del sito originale, insieme a una pagina indice (index.html); i link tra le pagine salvate aprono i file salvati, così puoi sfogliare la copia offline. Per elencare anche le immagini o le parti che non è stato possibile conservare, scegli «HTML con indice e ricerca» e attiva «Includi i dati della raccolta e l’elenco degli errori»."
           ],
           "faq": [
             {
@@ -3531,7 +3531,7 @@
             "Grab All Files를 열고 “페이지를 HTML로 합치기”를 선택합니다. 브라우저에서 열려 있는 페이지에서 시작하거나, 확장 프로그램이 관련 페이지를 찾게 하거나, 소스를 “컴퓨터 폴더에서”로 바꿔 HTML 파일이 든 폴더나 ZIP을 선택합니다.",
             "포함할 페이지를 확인합니다. “보기”에서 “원래 모양 그대로”를 선택하세요. 같은 사이트의 여러 페이지를 합칠 때는 “모든 페이지에 반복되는 헤더·메뉴·푸터는 첫 페이지에만 남기기”를 켭니다. “광고 제외”는 처음부터 켜져 있어 파일이 가벼워집니다. 광고 영역도 남기려면 끄세요.",
             "웹페이지의 경우 스타일시트와 이미지를 제공하는 사이트에 대한 접근 권한을 요청하면 허용해 주세요. 한 번에 모두 요청합니다. 각 페이지는 탭에서 열려 끝까지 스크롤되므로 스크롤할 때 불러오는 이미지와 콘텐츠도 포함됩니다.",
-            "저장합니다. 저장하기 전에 결과를 어떻게 묶을지 고릅니다. 한 페이지일 때는 “페이지 그대로” 또는 “목차·검색 기능이 있는 HTML”, 여러 페이지(Pro)일 때는 “목차·검색 기능이 있는 HTML”, “세로로 이은 HTML(인쇄용)”, “페이지별 HTML(ZIP)” 중에서 고릅니다. 목차·검색 기능이 있는 HTML에서는 각 페이지가 원래 디자인 그대로 틀 안에 들어가고, 틀 위에 가져온 주소와 저장한 시각이 표시되며, 목차와 검색창으로 페이지 사이를 이동할 수 있습니다. “페이지 그대로”와 세로로 이은 HTML에는 목차나 검색 화면이 없으므로 브라우저 찾기(Ctrl+F / ⌘F)를 쓰세요. 한 페이지만 저장한 HTML에는 가져온 주소와 시각이 HTML 맨 앞의 주석에 기록됩니다. 세로로 이은 HTML은 인쇄하면 페이지마다 새 장에서 시작합니다. PDF가 필요하면 저장한 뒤 브라우저의 인쇄 기능으로 만드세요. “페이지별 HTML(ZIP)”에는 각 페이지로 연결되는 목록 페이지(index.html)가 들어 있습니다. 보관하지 못한 이미지나 부분의 목록도 넣으려면 “목차·검색 기능이 있는 HTML”을 고르고 “수집 정보와 실패 목록 넣기”를 켭니다."
+            "저장합니다. 저장하기 전에 결과를 어떻게 묶을지 고릅니다. 한 페이지일 때는 “페이지 그대로” 또는 “목차·검색 기능이 있는 HTML”, 여러 페이지(Pro)일 때는 “목차·검색 기능이 있는 HTML”, “세로로 이은 HTML(인쇄용)”, “페이지별 HTML(ZIP)”, “폴더에 사이트 형태로 저장”(Chrome·Edge) 중에서 고릅니다. 목차·검색 기능이 있는 HTML에서는 각 페이지가 원래 디자인 그대로 틀 안에 들어가고, 틀 위에 가져온 주소와 저장한 시각이 표시되며, 목차와 검색창으로 페이지 사이를 이동할 수 있습니다. “페이지 그대로”와 세로로 이은 HTML에는 목차나 검색 화면이 없으므로 브라우저 찾기(Ctrl+F / ⌘F)를 쓰세요. 한 페이지만 저장한 HTML에는 가져온 주소와 시각이 HTML 맨 앞의 주석에 기록됩니다. 세로로 이은 HTML은 인쇄하면 페이지마다 새 장에서 시작합니다. PDF가 필요하면 저장한 뒤 브라우저의 인쇄 기능으로 만드세요. “페이지별 HTML(ZIP)”에는 각 페이지로 연결되는 목록 페이지(index.html)가 들어 있습니다. “폴더에 사이트 형태로 저장”은 원래 사이트와 같은 폴더 구조로, 목차(index.html)와 함께 고른 폴더에 저장합니다. 저장한 페이지끼리의 링크는 저장한 파일을 열므로 오프라인에서도 둘러볼 수 있습니다. 보관하지 못한 이미지나 부분의 목록도 넣으려면 “목차·검색 기능이 있는 HTML”을 고르고 “수집 정보와 실패 목록 넣기”를 켭니다."
           ],
           "faq": [
             {
@@ -3711,7 +3711,7 @@
             "Abra o Grab All Files e escolha “Juntar páginas em HTML”. Comece pela página aberta no navegador, deixe a extensão encontrar páginas relacionadas ou mude a origem para “De uma pasta do computador” para usar uma pasta ou um ZIP de arquivos HTML.",
             "Confira as páginas que serão incluídas. Em “Aparência”, escolha “Manter a aparência original”. Ao juntar várias páginas do mesmo site, ative “Manter só na primeira página o cabeçalho, o menu e o rodapé repetidos em todas”. “Deixar de fora os anúncios” já vem ativado para um arquivo mais leve; desative se quiser manter os espaços de anúncios.",
             "Para páginas da web, permita o acesso aos sites que fornecem as folhas de estilo e as imagens quando for solicitado. A permissão é pedida uma única vez para todos. Cada página é aberta em uma aba e rolada até o fim, para incluir as imagens e o conteúdo que carregam durante a rolagem.",
-            "Salve. Antes de salvar, escolha como o resultado é montado. Para uma página: “A página como está” ou “HTML com índice e pesquisa”. Para várias páginas (Pro): “HTML com índice e pesquisa”, “HTML vertical (para impressão)” ou “Páginas HTML separadas (ZIP)”. No HTML com índice e pesquisa, cada página mantém o design original dentro de um quadro, com o endereço de origem e o horário da captura acima, e o índice e a caixa de pesquisa levam de uma página a outra. “A página como está” e o HTML vertical não têm índice nem painel de pesquisa; use a busca do navegador (Ctrl+F / ⌘F). Uma única página salva guarda o endereço de origem e o horário em um comentário no início do HTML. Na impressão, o HTML vertical começa cada página em uma nova folha; para um PDF, imprima pelo navegador depois de salvar. “Páginas HTML separadas (ZIP)” inclui uma página de índice (index.html) com links para cada página. Para listar também as imagens ou partes que não puderam ser mantidas, escolha “HTML com índice e pesquisa” e ative “Incluir os dados da coleta e a lista de falhas”."
+            "Salve. Antes de salvar, escolha como o resultado é montado. Para uma página: “A página como está” ou “HTML com índice e pesquisa”. Para várias páginas (Pro): “HTML com índice e pesquisa”, “HTML vertical (para impressão)”, “Páginas HTML separadas (ZIP)” ou “Cópia do site em uma pasta” (Chrome, Edge). No HTML com índice e pesquisa, cada página mantém o design original dentro de um quadro, com o endereço de origem e o horário da captura acima, e o índice e a caixa de pesquisa levam de uma página a outra. “A página como está” e o HTML vertical não têm índice nem painel de pesquisa; use a busca do navegador (Ctrl+F / ⌘F). Uma única página salva guarda o endereço de origem e o horário em um comentário no início do HTML. Na impressão, o HTML vertical começa cada página em uma nova folha; para um PDF, imprima pelo navegador depois de salvar. “Páginas HTML separadas (ZIP)” inclui uma página de índice (index.html) com links para cada página. “Cópia do site em uma pasta” grava as páginas na pasta escolhida com a mesma estrutura de pastas do site original, junto com uma página de índice (index.html); os links entre as páginas salvas abrem os arquivos salvos, então você pode navegar pela cópia offline. Para listar também as imagens ou partes que não puderam ser mantidas, escolha “HTML com índice e pesquisa” e ative “Incluir os dados da coleta e a lista de falhas”."
           ],
           "faq": [
             {
@@ -3891,7 +3891,7 @@
             "打开 Grab All Files,选择“将网页合并为 HTML”。可以从浏览器当前打开的网页开始，让扩展自动查找相关网页，也可以把来源切换为“从电脑文件夹”，选择包含 HTML 文件的文件夹或 ZIP。",
             "确认要包含的网页。在“外观”中选择“保持原样”。合并同一网站的多个网页时，请开启“每页重复的页眉、菜单和页脚只保留在第一页”。“不保存广告”默认开启，可让文件更小；如需保留广告位，请将其关闭。",
             "对于网页，当系统请求访问提供样式表和图片的网站时，请予以允许。所有网站只会请求一次。每个网页都会在标签页中打开并滚动到底部，这样滚动时才加载的图片和内容也会被包含进来。",
-            "保存。保存前先选择结果的组织方式。只有 1 个网页时，可选“保持页面原样”或“带目录和搜索的HTML”；多个网页（Pro）时，可选“带目录和搜索的HTML”“纵向拼接HTML（适合打印）”或“分页HTML（ZIP）”。在带目录和搜索的HTML中，每个网页都以原有设计放在框中，框的上方显示来源网址和抓取时间，可通过目录和搜索框在网页之间切换。“保持页面原样”和纵向拼接HTML不带目录和搜索界面，请使用浏览器的查找功能（Ctrl+F／⌘F）；只保存 1 个网页时，来源网址和时间记录在 HTML 开头的注释中。纵向拼接HTML打印时每个网页从新的一页开始；如需PDF，请在保存后用浏览器的打印功能生成。“分页HTML（ZIP）”包含一个链接到各网页的目录页（index.html）。如果还想列出未能保留的图片或部分，请选择“带目录和搜索的HTML”，并开启“包含收集信息和失败列表”。"
+            "保存。保存前先选择结果的组织方式。只有 1 个网页时，可选“保持页面原样”或“带目录和搜索的HTML”；多个网页（Pro）时，可选“带目录和搜索的HTML”“纵向拼接HTML（适合打印）”“分页HTML（ZIP）”或“按网站结构保存到文件夹”（Chrome、Edge）。在带目录和搜索的HTML中，每个网页都以原有设计放在框中，框的上方显示来源网址和抓取时间，可通过目录和搜索框在网页之间切换。“保持页面原样”和纵向拼接HTML不带目录和搜索界面，请使用浏览器的查找功能（Ctrl+F／⌘F）；只保存 1 个网页时，来源网址和时间记录在 HTML 开头的注释中。纵向拼接HTML打印时每个网页从新的一页开始；如需PDF，请在保存后用浏览器的打印功能生成。“分页HTML（ZIP）”包含一个链接到各网页的目录页（index.html）。“按网站结构保存到文件夹”会按与原网站相同的文件夹结构，连同目录页（index.html）一起写入所选文件夹；已保存页面之间的链接会打开已保存的文件，离线也能浏览。如果还想列出未能保留的图片或部分，请选择“带目录和搜索的HTML”，并开启“包含收集信息和失败列表”。"
           ],
           "faq": [
             {
@@ -4071,7 +4071,7 @@
             "開啟 Grab All Files，選擇「將網頁合併為 HTML」。可以從瀏覽器目前開啟的網頁開始，讓擴充功能自動尋找相關網頁，也可以將來源切換為「從電腦資料夾」，選擇包含 HTML 檔案的資料夾或 ZIP。",
             "確認要納入的網頁。在「外觀」中選擇「保持原樣」。合併同一網站的多個網頁時，請開啟「每頁重複的頁首、選單和頁尾只保留在第一頁」。「不保存廣告」預設為開啟，可讓檔案更小；如需保留廣告版位，請將其關閉。",
             "對於網頁，當系統要求存取提供樣式表與圖片的網站時，請予以允許。所有網站只會詢問一次。每個網頁都會在分頁中開啟並捲動到底部，讓捲動時才載入的圖片與內容也能納入。",
-            "儲存。儲存前先選擇結果的組成方式。只有 1 個網頁時，可選「保持頁面原樣」或「附目錄及搜尋的HTML」；多個網頁（Pro）時，可選「附目錄及搜尋的HTML」「直向串接HTML（適合列印）」或「分頁HTML（ZIP）」。在附目錄及搜尋的HTML中，每個網頁都以原有設計放在框中，框的上方顯示來源網址與擷取時間，可透過目錄與搜尋框在網頁之間切換。「保持頁面原樣」和直向串接HTML不含目錄與搜尋介面，請使用瀏覽器的尋找功能（Ctrl+F／⌘F）；只儲存 1 個網頁時，來源網址與時間記錄在 HTML 開頭的註解中。直向串接HTML列印時每個網頁從新的一頁開始；如需PDF，請在儲存後用瀏覽器的列印功能產生。「分頁HTML（ZIP）」包含一個連結到各網頁的目錄頁（index.html）。如果也想列出未能保留的圖片或部分，請選擇「附目錄及搜尋的HTML」，並開啟「包含擷取資訊與失敗清單」。"
+            "儲存。儲存前先選擇結果的組成方式。只有 1 個網頁時，可選「保持頁面原樣」或「附目錄及搜尋的HTML」；多個網頁（Pro）時，可選「附目錄及搜尋的HTML」「直向串接HTML（適合列印）」「分頁HTML（ZIP）」或「依網站結構儲存到資料夾」（Chrome、Edge）。在附目錄及搜尋的HTML中，每個網頁都以原有設計放在框中，框的上方顯示來源網址與擷取時間，可透過目錄與搜尋框在網頁之間切換。「保持頁面原樣」和直向串接HTML不含目錄與搜尋介面，請使用瀏覽器的尋找功能（Ctrl+F／⌘F）；只儲存 1 個網頁時，來源網址與時間記錄在 HTML 開頭的註解中。直向串接HTML列印時每個網頁從新的一頁開始；如需PDF，請在儲存後用瀏覽器的列印功能產生。「分頁HTML（ZIP）」包含一個連結到各網頁的目錄頁（index.html）。「依網站結構儲存到資料夾」會依與原網站相同的資料夾結構，連同目錄頁（index.html）一起寫入所選資料夾；已儲存頁面之間的連結會開啟已儲存的檔案，離線也能瀏覽。如果也想列出未能保留的圖片或部分，請選擇「附目錄及搜尋的HTML」，並開啟「包含擷取資訊與失敗清單」。"
           ],
           "faq": [
             {
@@ -18160,7 +18160,7 @@
           ],
           "steps": [
             "Scan the page that lists the PDFs. Raise “Depth” to include linked pages inside the starting page’s folder.",
-            "Set the order: PDFs are merged in the order shown in the list. With no filter or column sort active, drag rows to rearrange them, or click a column header such as “Title” to sort.",
+            "Set the order: PDFs are merged in the order shown in the list. Drag rows to rearrange them (this also works while a filter or column sort is active), or click a column header such as “Title” to sort.",
             "Tick the PDFs to merge — at least 2. Free merges up to 10 per merge; other selected file types are left out of the merged PDF.",
             "Open “More actions”, type a name in “Save as” next to “Merge PDFs” if you like (blank = page name and date), then press “Merge PDFs”.",
             "Check the result: password-protected, unreadable or non-PDF responses are skipped and listed with the reason."
@@ -18172,7 +18172,7 @@
             },
             {
               "q": "Can I control merge order?",
-              "a": "Yes. PDFs are merged in the order they appear in the list. Drag rows to rearrange them — dragging is off while a filter or column sort is active, and “Restore manual order” brings your arrangement back — or sort by a column."
+              "a": "Yes. PDFs are merged in the order they appear in the list. Drag rows to rearrange them — this also works while a filter or column sort is active — or sort by a column."
             },
             {
               "q": "Can I download the original PDFs too?",
@@ -18202,7 +18202,7 @@
           ],
           "steps": [
             "PDFが並ぶページをスキャンします。リンク先も含めるときは「深さ」を上げます（起点ページのフォルダ配下が対象）。",
-            "順番を決めます。結合は一覧に表示されている順番どおりです。絞り込みや列の並べ替えをしていない状態なら行をドラッグして入れ替えられます。「タイトル」などの列見出しで並べ替えても構いません。",
+            "順番を決めます。結合は一覧に表示されている順番どおりです。行をドラッグして入れ替えられます（絞り込みや列の並べ替えをしたままでも使えます）。「タイトル」などの列見出しで並べ替えても構いません。",
             "結合するPDFを2件以上チェックします。無料プランは1回の結合で10件まで。PDF以外の選択ファイルは結合されません。",
             "「その他の操作」を開き、必要なら「PDF結合」の横の「保存名」に名前を入力して（空欄ならページ名_日付）、「PDF結合」を押します。",
             "結果を確認します。パスワード保護・読み取り不可のPDFや、PDFではない応答は除外され、理由が表示されます。"
@@ -18214,7 +18214,7 @@
             },
             {
               "q": "結合順を指定できますか？",
-              "a": "はい。PDFは一覧に表示されている順に結合されます。行をドラッグして並べ替えるか（絞り込みや列の並べ替え中はドラッグできません。「手動の並び順に戻す」で自分で並べた順に戻せます）、列見出しで並べ替えてください。"
+              "a": "はい。PDFは一覧に表示されている順に結合されます。行をドラッグして並べ替えるか（絞り込みや列の並べ替えをしたままでも使えます）、列見出しで並べ替えてください。"
             },
             {
               "q": "元のPDFも保存できますか？",
@@ -18244,7 +18244,7 @@
           ],
           "steps": [
             "Escanea la página que enumera los PDF. Sube la «Profundidad» para incluir las páginas enlazadas dentro de la carpeta de la página de partida.",
-            "Define el orden: los PDF se combinan en el orden en que aparecen en la lista. Sin filtros ni ordenación por columna activos, arrastra las filas para reordenarlas, o haz clic en un encabezado como «Título» para ordenar.",
+            "Define el orden: los PDF se combinan en el orden en que aparecen en la lista. Arrastra las filas para reordenarlas (también funciona con un filtro o una ordenación por columna activos), o haz clic en un encabezado como «Título» para ordenar.",
             "Marca los PDF que quieres combinar (al menos 2). El plan gratuito combina hasta 10 por operación; los demás tipos de archivo seleccionados quedan fuera del PDF combinado.",
             "Abre «Más acciones», escribe si quieres un nombre en «Guardar como» junto a «Combinar PDFs» (vacío = nombre de página y fecha) y pulsa «Combinar PDFs».",
             "Revisa el resultado: los PDF protegidos con contraseña, ilegibles o las respuestas que no son PDF se omiten y se indican con su motivo."
@@ -18256,7 +18256,7 @@
             },
             {
               "q": "¿Puedo controlar el orden?",
-              "a": "Sí. Los PDF se combinan en el orden en que aparecen en la lista. Arrastra las filas para reordenarlas (el arrastre se desactiva con un filtro o una ordenación por columna activos; «Restaurar orden manual» recupera tu orden) u ordena por una columna."
+              "a": "Sí. Los PDF se combinan en el orden en que aparecen en la lista. Arrastra las filas para reordenarlas (también funciona con un filtro o una ordenación por columna activos) u ordena por una columna."
             },
             {
               "q": "¿También puedo descargar los PDF originales?",
@@ -18286,7 +18286,7 @@
           ],
           "steps": [
             "Analysez la page qui liste les PDF. Augmentez la « Profondeur » pour inclure les pages liées du dossier de la page de départ.",
-            "Réglez l’ordre : les PDF sont fusionnés dans l’ordre affiché dans la liste. Sans filtre ni tri de colonne actif, faites glisser les lignes pour les réordonner, ou cliquez sur un en-tête comme « Titre » pour trier.",
+            "Réglez l’ordre : les PDF sont fusionnés dans l’ordre affiché dans la liste. Faites glisser les lignes pour les réordonner (cela fonctionne aussi avec un filtre ou un tri de colonne actif), ou cliquez sur un en-tête comme « Titre » pour trier.",
             "Cochez les PDF à fusionner (au moins 2). La version gratuite fusionne jusqu’à 10 fichiers par opération ; les autres types sélectionnés sont exclus du PDF fusionné.",
             "Ouvrez « Autres actions », saisissez si besoin un nom dans « Enregistrer sous » à côté de « Fusionner les PDFs » (vide = nom de la page et date), puis cliquez sur « Fusionner les PDFs ».",
             "Vérifiez le résultat : les PDF protégés par mot de passe, illisibles ou les réponses qui ne sont pas des PDF sont ignorés et listés avec leur motif."
@@ -18298,7 +18298,7 @@
             },
             {
               "q": "Puis-je contrôler l’ordre de fusion ?",
-              "a": "Oui. Les PDF sont fusionnés dans l’ordre de la liste. Faites glisser les lignes pour les réordonner (le glisser-déposer est désactivé tant qu’un filtre ou un tri de colonne est actif ; « Rétablir l’ordre manuel » restaure votre ordre) ou triez par colonne."
+              "a": "Oui. Les PDF sont fusionnés dans l’ordre de la liste. Faites glisser les lignes pour les réordonner (cela fonctionne aussi avec un filtre ou un tri de colonne actif) ou triez par colonne."
             },
             {
               "q": "Puis-je aussi télécharger les PDF d’origine ?",
@@ -18328,7 +18328,7 @@
           ],
           "steps": [
             "Scannen Sie die Seite mit den PDFs. Erhöhen Sie die „Tiefe“, um verlinkte Seiten im Ordner der Ausgangsseite einzubeziehen.",
-            "Legen Sie die Reihenfolge fest: Zusammengeführt wird in der Reihenfolge der Liste. Ohne aktiven Filter oder Spaltensortierung ziehen Sie Zeilen an die gewünschte Stelle, oder Sie klicken auf einen Spaltenkopf wie „Titel“, um zu sortieren.",
+            "Legen Sie die Reihenfolge fest: Zusammengeführt wird in der Reihenfolge der Liste. Ziehen Sie Zeilen an die gewünschte Stelle (das geht auch bei aktivem Filter oder aktiver Spaltensortierung), oder Sie klicken auf einen Spaltenkopf wie „Titel“, um zu sortieren.",
             "Haken Sie die PDFs an, die zusammengeführt werden sollen (mindestens 2). Die kostenlose Version führt bis zu 10 pro Vorgang zusammen; andere ausgewählte Dateitypen bleiben außen vor.",
             "Öffnen Sie „Weitere Aktionen“, tragen Sie bei Bedarf neben „PDFs zusammenführen“ unter „Speichern als“ einen Namen ein (leer = Seitenname und Datum) und klicken Sie auf „PDFs zusammenführen“.",
             "Prüfen Sie das Ergebnis: Passwortgeschützte, unlesbare oder nicht als PDF gelieferte Dateien werden übersprungen und mit Grund aufgeführt."
@@ -18340,7 +18340,7 @@
             },
             {
               "q": "Kann ich die Reihenfolge steuern?",
-              "a": "Ja. Die PDFs werden in der Reihenfolge der Liste zusammengeführt. Ziehen Sie Zeilen an die gewünschte Stelle (Ziehen ist bei aktivem Filter oder Spaltensortierung gesperrt; „Manuelle Reihenfolge wiederherstellen“ holt Ihre Anordnung zurück) oder sortieren Sie nach einer Spalte."
+              "a": "Ja. Die PDFs werden in der Reihenfolge der Liste zusammengeführt. Ziehen Sie Zeilen an die gewünschte Stelle (das geht auch bei aktivem Filter oder aktiver Spaltensortierung) oder sortieren Sie nach einer Spalte."
             },
             {
               "q": "Kann ich auch die Original-PDFs herunterladen?",
@@ -18370,7 +18370,7 @@
           ],
           "steps": [
             "Scansiona la pagina che elenca i PDF. Aumenta la «Profondità» per includere le pagine collegate nella cartella della pagina di partenza.",
-            "Stabilisci l’ordine: i PDF vengono uniti nell’ordine in cui compaiono nell’elenco. Senza filtri né ordinamento per colonna attivi, trascina le righe per riordinarle, oppure fai clic su un’intestazione come «Titolo» per ordinare.",
+            "Stabilisci l’ordine: i PDF vengono uniti nell’ordine in cui compaiono nell’elenco. Trascina le righe per riordinarle (funziona anche con un filtro o un ordinamento per colonna attivi), oppure fai clic su un’intestazione come «Titolo» per ordinare.",
             "Seleziona i PDF da unire (almeno 2). La versione gratuita unisce fino a 10 file per operazione; gli altri tipi di file selezionati restano fuori dal PDF unito.",
             "Apri «Altre azioni», se vuoi scrivi un nome in «Salva come» accanto a «Unisci PDF» (vuoto = nome pagina e data) e fai clic su «Unisci PDF».",
             "Controlla il risultato: i PDF protetti da password, illeggibili o le risposte che non sono PDF vengono saltati ed elencati con il motivo."
@@ -18382,7 +18382,7 @@
             },
             {
               "q": "Posso decidere l’ordine di unione?",
-              "a": "Sì. I PDF vengono uniti nell’ordine dell’elenco. Trascina le righe per riordinarle (il trascinamento è disattivato con un filtro o un ordinamento per colonna attivi; «Ripristina ordine manuale» recupera il tuo ordine) oppure ordina per colonna."
+              "a": "Sì. I PDF vengono uniti nell’ordine dell’elenco. Trascina le righe per riordinarle (funziona anche con un filtro o un ordinamento per colonna attivi) oppure ordina per colonna."
             },
             {
               "q": "Posso scaricare anche i PDF originali?",
@@ -18412,7 +18412,7 @@
           ],
           "steps": [
             "PDF 목록이 있는 페이지를 스캔합니다. 링크된 페이지까지 포함하려면 “깊이”를 올립니다(시작 페이지 폴더 안).",
-            "순서를 정합니다. PDF는 목록에 보이는 순서대로 병합됩니다. 필터나 열 정렬이 없을 때 행을 드래그해 순서를 바꾸거나, “제목” 같은 열 머리글을 눌러 정렬하세요.",
+            "순서를 정합니다. PDF는 목록에 보이는 순서대로 병합됩니다. 행을 드래그해 순서를 바꾸거나(필터나 열 정렬을 켠 채로도 됩니다), “제목” 같은 열 머리글을 눌러 정렬하세요.",
             "병합할 PDF를 2개 이상 체크합니다. 무료 플랜은 병합당 10개까지이며, 선택한 다른 유형의 파일은 병합에서 빠집니다.",
             "“기타 작업”을 열고 필요하면 “PDF 병합” 옆 “저장 이름”에 이름을 입력한 뒤(비워 두면 페이지 이름_날짜) “PDF 병합”을 누릅니다.",
             "결과를 확인합니다. 비밀번호로 보호된 PDF, 읽을 수 없는 PDF, PDF가 아닌 응답은 건너뛰고 이유와 함께 표시됩니다."
@@ -18424,7 +18424,7 @@
             },
             {
               "q": "병합 순서를 조절할 수 있나요?",
-              "a": "예. PDF는 목록에 보이는 순서대로 병합됩니다. 행을 드래그해 순서를 바꾸거나(필터나 열 정렬 중에는 드래그할 수 없으며 “수동 순서 복원”으로 직접 정한 순서로 돌아갑니다) 열로 정렬하세요."
+              "a": "예. PDF는 목록에 보이는 순서대로 병합됩니다. 행을 드래그해 순서를 바꾸거나(필터나 열 정렬을 켠 채로도 됩니다) 열로 정렬하세요."
             },
             {
               "q": "원본 PDF도 저장할 수 있나요?",
@@ -18454,7 +18454,7 @@
           ],
           "steps": [
             "Escaneie a página que lista os PDFs. Aumente a “Profundidade” para incluir as páginas vinculadas dentro da pasta da página de partida.",
-            "Defina a ordem: os PDFs são mesclados na ordem em que aparecem na lista. Sem filtro nem ordenação por coluna ativos, arraste as linhas para reorganizá-las, ou clique em um cabeçalho como “Título” para ordenar.",
+            "Defina a ordem: os PDFs são mesclados na ordem em que aparecem na lista. Arraste as linhas para reorganizá-las (funciona também com filtro ou ordenação por coluna ativos), ou clique em um cabeçalho como “Título” para ordenar.",
             "Marque os PDFs a mesclar (pelo menos 2). A versão gratuita mescla até 10 por operação; outros tipos de arquivo selecionados ficam de fora do PDF final.",
             "Abra “Mais ações”, digite se quiser um nome em “Salvar como” ao lado de “Mesclar PDFs” (vazio = nome da página e data) e clique em “Mesclar PDFs”.",
             "Confira o resultado: PDFs protegidos por senha, ilegíveis ou respostas que não são PDF são ignorados e listados com o motivo."
@@ -18466,7 +18466,7 @@
             },
             {
               "q": "Posso controlar a ordem da mesclagem?",
-              "a": "Sim. Os PDFs são mesclados na ordem da lista. Arraste as linhas para reorganizá-las (o arraste fica desativado com filtro ou ordenação por coluna ativos; “Restaurar ordem manual” recupera a sua ordem) ou ordene por uma coluna."
+              "a": "Sim. Os PDFs são mesclados na ordem da lista. Arraste as linhas para reorganizá-las (funciona também com filtro ou ordenação por coluna ativos) ou ordene por uma coluna."
             },
             {
               "q": "Posso salvar originais?",
@@ -18496,7 +18496,7 @@
           ],
           "steps": [
             "扫描列出PDF的页面。如需包含起始页面文件夹内链接到的页面，请提高“深度”。",
-            "确定顺序：PDF按列表中显示的顺序合并。在没有筛选或列排序时，可拖动行调整顺序，也可点击“标题”等列标题排序。",
+            "确定顺序：PDF按列表中显示的顺序合并。可拖动行调整顺序（有筛选或列排序时也可以），也可点击“标题”等列标题排序。",
             "勾选要合并的PDF（至少 2 个）。免费版每次合并最多 10 个；所选的其他类型文件不会并入。",
             "打开“其他操作”，如有需要在“合并PDF”旁的“保存名称”中输入名称（留空则为页面名_日期），然后点击“合并PDF”。",
             "检查结果：受密码保护、无法读取或不是PDF的响应会被跳过，并显示原因。"
@@ -18508,7 +18508,7 @@
             },
             {
               "q": "能控制合并顺序吗？",
-              "a": "可以。PDF按列表中显示的顺序合并。可拖动行调整顺序（有筛选或列排序时无法拖动，点击“恢复手动排序”可回到您自己的排列），也可按列排序。"
+              "a": "可以。PDF按列表中显示的顺序合并。可拖动行调整顺序（有筛选或列排序时也可以），也可按列排序。"
             },
             {
               "q": "也能保存原始PDF吗？",
@@ -18538,7 +18538,7 @@
           ],
           "steps": [
             "掃描列出PDF的頁面。若要包含起始頁面資料夾內連結到的頁面，請提高「深度」。",
-            "決定順序：PDF依清單中顯示的順序合併。在沒有篩選或欄位排序時，可拖曳列調整順序，也可點擊「標題」等欄位標題排序。",
+            "決定順序：PDF依清單中顯示的順序合併。可拖曳列調整順序（有篩選或欄位排序時也可以），也可點擊「標題」等欄位標題排序。",
             "勾選要合併的PDF（至少 2 個）。免費版每次合併最多 10 個；所選的其他類型檔案不會併入。",
             "開啟「其他操作」，如有需要在「合併PDF」旁的「儲存名稱」中輸入名稱（留空則為頁面名_日期），然後點擊「合併PDF」。",
             "檢查結果：受密碼保護、無法讀取或不是PDF的回應會被略過，並顯示原因。"
@@ -18550,7 +18550,7 @@
             },
             {
               "q": "能控制合併順序嗎？",
-              "a": "可以。PDF依清單中顯示的順序合併。可拖曳列調整順序（有篩選或欄位排序時無法拖曳，點擊「恢復手動排序」可回到您自己的排列），也可依欄位排序。"
+              "a": "可以。PDF依清單中顯示的順序合併。可拖曳列調整順序（有篩選或欄位排序時也可以），也可依欄位排序。"
             },
             {
               "q": "也能儲存原始PDF嗎？",

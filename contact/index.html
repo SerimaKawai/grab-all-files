@@ -1035,6 +1035,10 @@
     var browser = p.get('browser');
     var pageUrl = p.get('page_url');
     var category = p.get('category');
+    // The extension also sends category=license (license-email help) and
+    // category=feedback (popup feedback link); map them onto the form's options.
+    if (category === 'license') category = 'question';
+    else if (category === 'feedback') category = 'other';
     var subject = p.get('subject');
     if (version) document.getElementById('f-version').value = version;
     if (os) document.getElementById('f-os').value = os;

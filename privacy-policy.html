@@ -190,7 +190,7 @@
         <tr><td>Last license-check timestamp</td><td>Local</td><td>Allow a limited offline grace period after a successful license check and avoid redundant server calls.</td></tr>
         <tr><td>License JWT and revocation cache (signed access token, expiry, token ID, granted features, list of revoked token IDs)</td><td>Local</td><td>Verify license offline using a server-issued signed token, and block tokens that have been revoked.</td></tr>
         <tr><td>Legacy plan status and license error/status returned by server</td><td>Local</td><td>Legacy plan status and server-returned license error/status kept for compatibility.</td></tr>
-        <tr><td>Collect Mode results (up to 3,000 file URLs, titles, filenames, MIME/type hints, source referrers, and sizes)</td><td>Local</td><td>Resume a multi-page collection after reopening the popup. POST form fields, CSRF tokens, and other hidden form values are never persisted.</td></tr>
+        <tr><td>“Accumulate results” lists (up to 10,000 file URLs, titles, filenames, MIME/type hints, source referrers, and sizes)</td><td>Local</td><td>Resume a multi-page collection after reopening the popup. POST form fields, CSRF tokens, and other hidden form values are never persisted.</td></tr>
         <tr><td>&ldquo;Combine pages into HTML&rdquo; jobs (target URLs, edited titles, selectors, profiles, queue state, progress, and page-level errors)</td><td>Local</td><td>Review, pause, resume, retry, and recover a collection job after the dashboard or Service Worker is restarted.</td></tr>
         <tr><td>Sanitized page content and approved inline images collected by “Combine pages into HTML”</td><td>IndexedDB</td><td>Generate a combined or partial HTML document locally. Raw credentials, Cookie values, Authorization headers, passwords, and session tokens are not stored.</td></tr>
         <tr><td>Last source tab ID</td><td>Local</td><td>Reconnect the popup to the tab you were scanning.</td></tr>
@@ -374,7 +374,7 @@
         <tr><td>最終ライセンス確認時刻</td><td>Local</td><td>ライセンス確認に成功した後、限られた期間はオフラインでも利用できるようにし、不要なサーバー通信を避けるため。</td></tr>
         <tr><td>ライセンスJWTおよび失効リストキャッシュ（署名付きアクセストークン、有効期限、トークンID、付与機能、失効済みトークンIDリスト）</td><td>Local</td><td>サーバーが発行した署名付きトークンでオフラインでもライセンスを検証し、失効したトークンを拒否するため。</td></tr>
         <tr><td>旧プランの状態と、サーバーが返したライセンスのエラー／状態</td><td>Local</td><td>互換性維持のために保持している旧プランの状態と、サーバーが返したライセンスのエラー／状態。</td></tr>
-        <tr><td>Collect Modeの結果（最大3,000件のファイルURL、タイトル、ファイル名、MIME/種別ヒント、参照元、サイズ）</td><td>Local</td><td>ポップアップを開き直した後も複数ページの収集を再開するため。POSTフォーム項目、CSRF token、その他のhidden値は永続保存しません。</td></tr>
+        <tr><td>「結果をためる」の結果（最大10,000件のファイルURL、タイトル、ファイル名、MIME/種別ヒント、参照元、サイズ）</td><td>Local</td><td>ポップアップを開き直した後も複数ページの収集を再開するため。POSTフォーム項目、CSRF token、その他のhidden値は永続保存しません。</td></tr>
         <tr><td>Webページ結合ジョブ（対象URL、編集したタイトル、セレクタ、サイトプロファイル、キュー、進捗、ページ単位のエラー）</td><td>Local</td><td>管理画面やService Workerの再起動後も、確認・一時停止・再開・失敗ページ再試行を行うため。</td></tr>
         <tr><td>Webページ結合機能が保存した安全化済み本文と、許可された埋め込み画像</td><td>IndexedDB</td><td>結合HTMLまたは部分HTMLを端末内で生成するため。Cookie値、Authorizationヘッダー、パスワード、セッショントークンは保存しません。</td></tr>
         <tr><td>直前に使用したソースタブID</td><td>Local</td><td>ポップアップをスキャン対象タブへ再接続するため。</td></tr>
@@ -559,7 +559,7 @@
         <tr><td>Zeitstempel der letzten Verifizierung / letzten Testprüfung</td><td>Local</td><td>Eine begrenzte Offline-Karenzzeit nach erfolgreicher Lizenzprüfung ermöglichen und überflüssige Serveraufrufe vermeiden.</td></tr>
         <tr><td>Lizenz-JWT und Widerrufs-Cache (signierter Zugriffstoken, Ablaufdatum, Token-ID, gewährte Funktionen, Liste widerrufener Token-IDs)</td><td>Local</td><td>Lizenz offline mittels eines vom Server ausgestellten signierten Tokens prüfen und widerrufene Token blockieren.</td></tr>
         <tr><td>Alter Plan-Status und vom Server zurückgegebener Lizenzfehler/-status</td><td>Local</td><td>Alter Plan-Status und vom Server zurückgegebener Lizenzfehler/-status, aus Kompatibilitätsgründen beibehalten.</td></tr>
-        <tr><td>Collect-Mode-Ergebnisse (bis zu 3.000 Datei-URLs, Titel, Dateinamen, MIME-/Typhinweise, Referrer und Größen)</td><td>Local</td><td>Eine mehrseitige Sammlung nach erneutem Öffnen des Popups fortsetzen. POST-Formularfelder, CSRF-Token und verborgene Werte werden nie dauerhaft gespeichert.</td></tr>
+        <tr><td>Ergebnisse von „Ergebnisse kumulieren“ (bis zu 10.000 Datei-URLs, Titel, Dateinamen, MIME-/Typhinweise, Referrer und Größen)</td><td>Local</td><td>Eine mehrseitige Sammlung nach erneutem Öffnen des Popups fortsetzen. POST-Formularfelder, CSRF-Token und verborgene Werte werden nie dauerhaft gespeichert.</td></tr>
         <tr><td>Aufträge der Funktion „Seiten als HTML bündeln“ (Ziel-URLs, bearbeitete Titel, Selektoren, Profile, Warteschlangenstatus, Fortschritt und Fehler pro Seite)</td><td>Local</td><td>Aufträge prüfen, anhalten, fortsetzen, erneut versuchen und nach einem Neustart der Übersicht oder des Service Workers wiederherstellen.</td></tr>
         <tr><td>Bereinigte Seiteninhalte und zulässige eingebettete Bilder der Funktion „Seiten als HTML bündeln“</td><td>IndexedDB</td><td>Ein kombiniertes oder teilweises HTML-Dokument lokal erzeugen. Cookie-Werte, Authorization-Header, Passwörter und Sitzungstoken werden nicht gespeichert.</td></tr>
         <tr><td>ID des letzten Quell-Tabs</td><td>Local</td><td>Das Popup mit dem zuletzt gescannten Tab erneut verbinden.</td></tr>
@@ -743,7 +743,7 @@
         <tr><td>Marca de tiempo de la última comprobación de licencia</td><td>Local</td><td>Permitir un período de gracia limitado sin conexión tras una comprobación de licencia correcta y evitar llamadas redundantes al servidor.</td></tr>
         <tr><td>JWT de licencia y caché de revocaciones (token de acceso firmado, expiración, ID del token, funcionalidades concedidas, lista de IDs de tokens revocados)</td><td>Local</td><td>Verificar la licencia sin conexión utilizando un token firmado emitido por el servidor y bloquear los tokens que hayan sido revocados.</td></tr>
         <tr><td>Estado heredado del plan y error/estado de licencia devuelto por el servidor</td><td>Local</td><td>Estado heredado del plan y error/estado de licencia devuelto por el servidor, conservados por compatibilidad.</td></tr>
-        <tr><td>Resultados de Collect Mode (hasta 3.000 URL de archivos, títulos, nombres, indicios MIME/tipo, referentes y tamaños)</td><td>Local</td><td>Reanudar una recopilación de varias páginas al volver a abrir el popup. Nunca se conservan campos POST, tokens CSRF ni valores ocultos.</td></tr>
+        <tr><td>Resultados de «Acumular resultados» (hasta 10.000 URL de archivos, títulos, nombres, indicios MIME/tipo, referentes y tamaños)</td><td>Local</td><td>Reanudar una recopilación de varias páginas al volver a abrir el popup. Nunca se conservan campos POST, tokens CSRF ni valores ocultos.</td></tr>
         <tr><td>Trabajos de la función «Combinar páginas en HTML» (URL de destino, títulos editados, selectores, perfiles, cola, progreso y errores por página)</td><td>Local</td><td>Revisar, pausar, reanudar, reintentar y recuperar un trabajo después de reiniciar el panel o el Service Worker.</td></tr>
         <tr><td>Contenido de página saneado e imágenes insertadas permitidas por la función «Combinar páginas en HTML»</td><td>IndexedDB</td><td>Generar localmente un documento HTML completo o parcial. No se almacenan valores de Cookie, encabezados Authorization, contraseñas ni tokens de sesión.</td></tr>
         <tr><td>ID de la última pestaña de origen</td><td>Local</td><td>Reconectar la ventana emergente con la pestaña que estaba escaneando.</td></tr>
@@ -927,7 +927,7 @@
         <tr><td>Horodatage de la dernière vérification de licence</td><td>Local</td><td>Autoriser une période de grâce hors ligne limitée après une vérification de licence réussie et éviter les appels serveur redondants.</td></tr>
         <tr><td>JWT de licence et cache de révocation (jeton d’accès signé, expiration, identifiant de jeton, fonctionnalités accordées, liste des identifiants de jetons révoqués)</td><td>Local</td><td>Vérifier la licence hors ligne à l’aide d’un jeton signé émis par le serveur, et bloquer les jetons ayant été révoqués.</td></tr>
         <tr><td>État de forfait hérité et erreur/état de licence renvoyé par le serveur</td><td>Local</td><td>État de forfait hérité et erreur/état de licence renvoyé par le serveur, conservés pour compatibilité.</td></tr>
-        <tr><td>Résultats Collect Mode (jusqu’à 3 000 URL, titres, noms de fichiers, indications MIME/type, référents et tailles)</td><td>Local</td><td>Reprendre une collecte multipage après réouverture du popup. Les champs POST, jetons CSRF et valeurs masquées ne sont jamais conservés.</td></tr>
+        <tr><td>Résultats de « Cumuler les résultats » (jusqu’à 10 000 URL, titres, noms de fichiers, indications MIME/type, référents et tailles)</td><td>Local</td><td>Reprendre une collecte multipage après réouverture du popup. Les champs POST, jetons CSRF et valeurs masquées ne sont jamais conservés.</td></tr>
         <tr><td>Tâches de la fonction « Regrouper les pages en HTML » (URL cibles, titres modifiés, sélecteurs, profils, file d’attente, progression et erreurs par page)</td><td>Local</td><td>Examiner, suspendre, reprendre, réessayer et restaurer une tâche après le redémarrage du tableau de bord ou du Service Worker.</td></tr>
         <tr><td>Contenu de page assaini et images intégrées autorisées par la fonction « Regrouper les pages en HTML »</td><td>IndexedDB</td><td>Générer localement un document HTML complet ou partiel. Les valeurs Cookie, en-têtes Authorization, mots de passe et jetons de session ne sont pas stockés.</td></tr>
         <tr><td>ID du dernier onglet source</td><td>Local</td><td>Reconnecter la fenêtre contextuelle à l’onglet que vous étiez en train d’analyser.</td></tr>
@@ -1111,7 +1111,7 @@
         <tr><td>Marca temporale dell’ultima verifica della licenza</td><td>Local</td><td>Consentire un periodo di tolleranza offline limitato dopo una verifica riuscita della licenza ed evitare chiamate ridondanti al server.</td></tr>
         <tr><td>JWT della licenza e cache delle revoche (token di accesso firmato, scadenza, ID del token, funzionalità concesse, elenco di ID di token revocati)</td><td>Local</td><td>Verificare la licenza offline tramite un token firmato emesso dal server e bloccare i token che sono stati revocati.</td></tr>
         <tr><td>Stato del piano legacy ed errore/stato della licenza restituiti dal server</td><td>Local</td><td>Stato del piano legacy ed errore/stato della licenza restituiti dal server, conservati per compatibilità.</td></tr>
-        <tr><td>Risultati Collect Mode (fino a 3.000 URL, titoli, nomi file, indicazioni MIME/tipo, referrer e dimensioni)</td><td>Local</td><td>Riprendere una raccolta multipagina dopo la riapertura del popup. Campi POST, token CSRF e valori nascosti non vengono mai memorizzati.</td></tr>
+        <tr><td>Risultati di «Accumula risultati» (fino a 10.000 URL, titoli, nomi file, indicazioni MIME/tipo, referrer e dimensioni)</td><td>Local</td><td>Riprendere una raccolta multipagina dopo la riapertura del popup. Campi POST, token CSRF e valori nascosti non vengono mai memorizzati.</td></tr>
         <tr><td>Processi della funzione «Unisci pagine in HTML» (URL di destinazione, titoli modificati, selettori, profili, coda, avanzamento ed errori per pagina)</td><td>Local</td><td>Esaminare, sospendere, riprendere, riprovare e recuperare un processo dopo il riavvio del pannello o del Service Worker.</td></tr>
         <tr><td>Contenuti di pagina sanificati e immagini incorporate consentite dalla funzione «Unisci pagine in HTML»</td><td>IndexedDB</td><td>Generare localmente un documento HTML completo o parziale. Non vengono memorizzati valori Cookie, header Authorization, password o token di sessione.</td></tr>
         <tr><td>ID dell’ultima scheda di origine</td><td>Local</td><td>Ricollegare il popup alla scheda che si stava scansionando.</td></tr>
@@ -1295,7 +1295,7 @@
         <tr><td>최종 검증 / 최종 체험 확인 타임스탬프</td><td>Local</td><td>라이선스 확인에 성공한 후 제한된 오프라인 유예 기간을 허용하고 불필요한 서버 호출을 피하기 위함.</td></tr>
         <tr><td>라이선스 JWT 및 실효 캐시(서명 액세스 토큰, 만료일, 토큰 ID, 부여된 기능, 실효된 토큰 ID 목록)</td><td>Local</td><td>서버가 발급한 서명 토큰을 사용하여 오프라인에서 라이선스를 검증하고, 실효된 토큰을 차단하기 위함.</td></tr>
         <tr><td>이전 플랜 상태 및 서버가 반환한 라이선스 오류/상태</td><td>Local</td><td>호환성을 위해 유지하는 이전 플랜 상태와 서버가 반환한 라이선스 오류/상태.</td></tr>
-        <tr><td>Collect Mode 결과(최대 3,000개의 파일 URL, 제목, 파일 이름, MIME/형식 힌트, referrer 및 크기)</td><td>Local</td><td>팝업을 다시 연 뒤에도 여러 페이지 수집을 재개하기 위함. POST 필드, CSRF token 및 hidden 값은 영구 저장하지 않습니다.</td></tr>
+        <tr><td>“결과 누적” 결과(최대 10,000개의 파일 URL, 제목, 파일 이름, MIME/형식 힌트, referrer 및 크기)</td><td>Local</td><td>팝업을 다시 연 뒤에도 여러 페이지 수집을 재개하기 위함. POST 필드, CSRF token 및 hidden 값은 영구 저장하지 않습니다.</td></tr>
         <tr><td>“페이지를 HTML로 합치기” 작업(대상 URL, 수정한 제목, 선택자, 프로필, 대기열, 진행 상태 및 페이지별 오류)</td><td>Local</td><td>대시보드 또는 Service Worker 재시작 후 작업을 검토, 일시정지, 재개, 재시도 및 복구하기 위함.</td></tr>
         <tr><td>“페이지를 HTML로 합치기”의 안전하게 처리된 페이지 본문 및 허용된 삽입 이미지</td><td>IndexedDB</td><td>완성 또는 부분 HTML 문서를 로컬에서 생성하기 위함. Cookie 값, Authorization 헤더, 비밀번호 및 세션 토큰은 저장하지 않습니다.</td></tr>
         <tr><td>최종 소스 탭 ID</td><td>Local</td><td>팝업을 스캔 중이던 탭에 다시 연결하기 위함.</td></tr>
@@ -1479,7 +1479,7 @@
         <tr><td>Carimbo de hora da última verificação de licença</td><td>Local</td><td>Permitir um período de tolerância offline limitado após uma verificação de licença bem-sucedida e evitar chamadas redundantes ao servidor.</td></tr>
         <tr><td>JWT de licença e cache de revogações (token de acesso assinado, expiração, ID do token, recursos concedidos, lista de IDs de tokens revogados)</td><td>Local</td><td>Verificar a licença offline usando um token assinado emitido pelo servidor e bloquear tokens que tenham sido revogados.</td></tr>
         <tr><td>Status legado do plano e erro/status de licença retornado pelo servidor</td><td>Local</td><td>Status legado do plano e erro/status de licença retornado pelo servidor, mantidos por compatibilidade.</td></tr>
-        <tr><td>Resultados do Collect Mode (até 3.000 URLs, títulos, nomes, indicações MIME/tipo, referenciadores e tamanhos)</td><td>Local</td><td>Retomar uma coleta de várias páginas após reabrir o popup. Campos POST, tokens CSRF e valores ocultos nunca são persistidos.</td></tr>
+        <tr><td>Resultados de “Acumular resultados” (até 10.000 URLs, títulos, nomes, indicações MIME/tipo, referenciadores e tamanhos)</td><td>Local</td><td>Retomar uma coleta de várias páginas após reabrir o popup. Campos POST, tokens CSRF e valores ocultos nunca são persistidos.</td></tr>
         <tr><td>Trabalhos da função “Juntar páginas em HTML” (URLs de destino, títulos editados, seletores, perfis, fila, progresso e erros por página)</td><td>Local</td><td>Revisar, pausar, retomar, tentar novamente e recuperar um trabalho após reiniciar o painel ou o Service Worker.</td></tr>
         <tr><td>Conteúdo de página higienizado e imagens incorporadas permitidas pela função “Juntar páginas em HTML”</td><td>IndexedDB</td><td>Gerar localmente um documento HTML completo ou parcial. Valores de Cookie, cabeçalhos Authorization, senhas e tokens de sessão não são armazenados.</td></tr>
         <tr><td>ID da última aba de origem</td><td>Local</td><td>Reconectar o popup à aba que você estava escaneando.</td></tr>
@@ -1664,7 +1664,7 @@
   <tr><td>上次许可证检查时间戳</td><td>Local</td><td>在许可证检查成功后允许有限的离线宽限期，并避免多余的服务器请求。</td></tr>
   <tr><td>许可证 JWT 与撤销缓存（已签名访问令牌、到期时间、令牌 ID、所授功能、已撤销令牌 ID 列表）</td><td>Local</td><td>使用服务器签发的已签名令牌进行离线验证，并阻止已被撤销的令牌。</td></tr>
   <tr><td>旧版方案状态，以及服务器返回的许可证错误／状态</td><td>Local</td><td>为保持兼容而保留的旧版方案状态及服务器返回的许可证错误／状态。</td></tr>
-  <tr><td>Collect Mode 结果（最多 3,000 个文件 URL、标题、文件名、MIME／类型提示、来源页面及大小）</td><td>Local</td><td>重新打开弹出窗口后继续多页面收集。POST 表单字段、CSRF token 及隐藏值绝不会持久保存。</td></tr>
+  <tr><td>“累积结果”的结果（最多 10,000 个文件 URL、标题、文件名、MIME／类型提示、来源页面及大小）</td><td>Local</td><td>重新打开弹出窗口后继续多页面收集。POST 表单字段、CSRF token 及隐藏值绝不会持久保存。</td></tr>
   <tr><td>“将网页合并为 HTML”功能的任务（目标 URL、编辑后的标题、选择器、配置文件、队列、进度及逐页错误）</td><td>Local</td><td>在控制面板或 Service Worker 重启后查看、暂停、继续、重试及恢复任务。</td></tr>
   <tr><td>“将网页合并为 HTML”功能清理后的页面内容及获准内嵌的图片</td><td>IndexedDB</td><td>在本地生成完整或部分 HTML 文档。不存储 Cookie 值、Authorization 标头、密码或会话令牌。</td></tr>
   <tr><td>上次源标签页 ID</td><td>Local</td><td>将弹出窗口重新连接至您先前正在扫描的标签页。</td></tr>
@@ -1848,7 +1848,7 @@
   <tr><td>上次授權檢查時間戳記</td><td>Local</td><td>授權檢查成功後允許有限的離線寬限期，並避免重複的伺服器呼叫。</td></tr>
   <tr><td>授權 JWT 與撤銷快取（已簽署存取權杖、到期時間、權杖 ID、所授功能、已撤銷權杖 ID 清單）</td><td>Local</td><td>使用伺服器核發之已簽署權杖進行離線授權驗證，並阻擋已遭撤銷之權杖。</td></tr>
   <tr><td>舊版方案狀態及伺服器回傳的授權錯誤／狀態</td><td>Local</td><td>為相容性而保留的舊版方案狀態，以及伺服器回傳的授權錯誤／狀態。</td></tr>
-  <tr><td>Collect Mode 結果（最多 3,000 筆檔案 URL、標題、檔名、MIME／類型提示、來源頁面及大小）</td><td>Local</td><td>重新開啟彈出視窗後繼續多頁收集。POST 表單欄位、CSRF token 與隱藏值絕不持久保存。</td></tr>
+  <tr><td>「累積結果」的結果（最多 10,000 筆檔案 URL、標題、檔名、MIME／類型提示、來源頁面及大小）</td><td>Local</td><td>重新開啟彈出視窗後繼續多頁收集。POST 表單欄位、CSRF token 與隱藏值絕不持久保存。</td></tr>
   <tr><td>「將網頁合併為 HTML」功能的工作（目標 URL、編輯後標題、選擇器、設定檔、佇列、進度及逐頁錯誤）</td><td>Local</td><td>於控制面板或 Service Worker 重新啟動後檢視、暫停、繼續、重試及復原工作。</td></tr>
   <tr><td>「將網頁合併為 HTML」功能清理後的頁面內容與獲准嵌入的圖片</td><td>IndexedDB</td><td>於本機產生完整或部分 HTML 文件。不儲存 Cookie 值、Authorization 標頭、密碼或工作階段權杖。</td></tr>
   <tr><td>上次來源分頁 ID</td><td>Local</td><td>將彈出視窗重新連接至您先前掃描之分頁。</td></tr>
