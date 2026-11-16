@@ -779,6 +779,43 @@ for (const page of PAGES) {
 }
 console.log(`Generated ${genCount} per-locale pages; updated ${rootCount} English root page(s)' hreflang.`);
 console.log(`Baked static body + JSON-LD into ${bakedCount} use-case page(s); generated ${hubCount} hub page(s); localized ${secCount} security page(s).`);
+
+/* Sample pages (samples/<L>/<slug>/index.html) are written by separate packaging
+ * scripts. Every build re-adds the site header (home + back to the guide) and the
+ * gaf-theme hook if a regenerated page lost them, so the site's chrome and the
+ * visitor's light/dark choice survive re-packaging. Idempotent. */
+{
+  const SAMPLES = path.join(ROOT, 'samples');
+  const VARS = '--bg:#1a1922;--card:#24232e;--ink:#ece8e1;--muted:#b9b1a6;--line:#3b3946;--accent:#a9b4f3';
+  const OS_ONLY = `@media (prefers-color-scheme:dark){:root{${VARS}}}`;
+  const THEMED = `:root[data-theme=dark]{${VARS}}\n@media (prefers-color-scheme:dark){:root:not([data-theme=light]){${VARS}}}\n` +
+    '.site-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;max-width:880px;margin:0 auto;padding:14px 16px 0;font-size:.95rem}\n' +
+    '.site-bar a{text-decoration:none;font-weight:600}.site-bar .brand{color:var(--ink);display:inline-flex;align-items:center;gap:8px}.site-bar img{width:24px;height:24px}';
+  const THEME_JS = "<script>(function(){try{var t=localStorage.getItem('gaf-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(_){}})();</script>";
+  let sampleCount = 0;
+  for (const L of fs.existsSync(SAMPLES) ? fs.readdirSync(SAMPLES) : []) {
+    if (L === 'source' || !ALL.includes(L)) continue;
+    for (const slug of fs.readdirSync(path.join(SAMPLES, L))) {
+      const file = path.join(SAMPLES, L, slug, 'index.html');
+      if (!fs.existsSync(file)) continue;
+      let s = fs.readFileSync(file, 'utf8');
+      if (s.includes('class="site-bar"')) continue;
+      const nl = s.includes('\r\n') ? '\r\n' : '\n';
+      const guide = [...s.matchAll(/<a href="(\/(?:[a-zA-Z_]+\/)?use-cases\/[^"]+)">([^<]+)<\/a>/g)].pop();
+      if (!s.includes(OS_ONLY) || !guide || !s.includes(`</style>${nl}`) || !s.includes(`<body>${nl}`)) {
+        throw new Error(`${path.relative(ROOT, file)}: unexpected sample layout; add the site header by hand`);
+      }
+      const home = L === 'en' ? '/' : `/${L}/`;
+      const bar = `<header class="site-bar"><a class="brand" href="${home}"><img src="/favicon-128.png" alt="" width="24" height="24">Grab All Files</a><a href="${guide[1]}">← ${guide[2]}</a></header>`;
+      s = s.replace(OS_ONLY, THEMED.replace(/\n/g, nl))
+        .replace(`</style>${nl}`, `</style>${nl}${THEME_JS}${nl}`)
+        .replace(`<body>${nl}`, `<body>${nl}${bar}${nl}`);
+      fs.writeFileSync(file, s);
+      sampleCount++;
+    }
+  }
+  if (sampleCount) console.log(`Added the site header to ${sampleCount} sample page(s).`);
+}
 console.log(`${changedCount} page(s) changed this run (their sitemap lastmod becomes ${TODAY}).`);
 
 // Regenerate sitemap.xml — every page-version as its own <url> with the full

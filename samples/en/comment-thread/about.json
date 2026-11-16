@@ -3,7 +3,7 @@
   "extension": {
     "name": "Grab All Files",
     "version": "5.8.53",
-    "build": "equivalent to main 3eb98362 (to be submitted as 5.8.54 on 2026-11-17): the captured copy was the working tree after 5.8.53 (its manifest still said 5.8.53), and every file that goes into the extension matched 3eb98362 except for line endings; loaded as a temporary add-on for automated capture",
+    "build": "equivalent to main 3eb98362; 5.8.54 (99ffa60b, submitted 2026-11-16) adds only file-downloader fixes on top of it, so the comment-saving code is identical: the captured copy was the working tree after 5.8.53 (its manifest still said 5.8.53), and every file that goes into the extension matched 3eb98362 except for line endings; loaded as a temporary add-on for automated capture",
     "tool": "collector"
   },
   "browser": "Firefox 160.0 (Windows 11, headless)",
