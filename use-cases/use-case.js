@@ -19806,12 +19806,12 @@
     "ja": {
       "src": "/assets/screenshots/use-case-save-web-pages-with-original-design-ja.png",
       "width": 2560,
-      "height": 1760
+      "height": 2662
     },
     "en": {
       "src": "/assets/screenshots/use-case-save-web-pages-with-original-design-en.png",
       "width": 2560,
-      "height": 1760
+      "height": 2662
     }
   },
   "combine-local-html-files-into-one": {
@@ -19820,12 +19820,12 @@
     "ja": {
       "src": "/assets/screenshots/use-case-combine-local-html-files-into-one-ja.png",
       "width": 2560,
-      "height": 1760
+      "height": 1320
     },
     "en": {
       "src": "/assets/screenshots/use-case-combine-local-html-files-into-one-en.png",
       "width": 2560,
-      "height": 1760
+      "height": 1320
     }
   },
   "web-tables-to-csv-for-excel-ai": {
@@ -19858,13 +19858,13 @@
     "detail": {
       "en": {
         "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-en.png",
-        "width": 1780,
-        "height": 704
+        "width": 1816,
+        "height": 810
       },
       "ja": {
         "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-ja.png",
-        "width": 1780,
-        "height": 704
+        "width": 1816,
+        "height": 810
       }
     }
   },
@@ -19940,13 +19940,13 @@
     "detail": {
       "en": {
         "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-en.png",
-        "width": 1780,
-        "height": 190
+        "width": 1816,
+        "height": 310
       },
       "ja": {
         "src": "/assets/screenshots/use-case-web-pages-for-reading-and-ai-analysis-ja.png",
-        "width": 1780,
-        "height": 190
+        "width": 1816,
+        "height": 206
       }
     }
   },
