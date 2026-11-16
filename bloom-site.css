@@ -374,3 +374,13 @@ body:has(.topbar) :is(.footer-links, .doc-foot .links) a:hover { color: var(--pr
 :root:lang(ja) :is(h1, h2, h3, .store-btn, .btn, summary, .plan-name, .hero-eyebrow) { word-break: keep-all; word-break: auto-phrase; }
 :root:lang(ko) :is(h1, h2, h3, h4, p, li, a, button, summary, span) { word-break: keep-all; }
 :root:lang(de) :is(h1, h2, h3, .store-btn, .btn) { hyphens: auto; }
+
+/* UI audit 2026-11-16: primary text on a tinted background stays at least 4.5:1
+   (the hover shade is darker in light mode and lighter in dark mode). */
+.usecase-guide-link.current,
+a.btn.btn-release,
+.support a { color: var(--primary-hover); }
+/* Breadcrumb links get a 44px tap height. */
+a.breadcrumb, .breadcrumb a { align-items: center; min-height: 44px; }
+.breadcrumb a { display: inline-flex; }
+.breadcrumb { margin-bottom: 0.6rem; }

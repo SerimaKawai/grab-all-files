@@ -72,7 +72,7 @@
     @media (max-width: 820px) { main { grid-template-columns: 1fr; padding-top: 1.2rem; } .sticky-toc { display: none; } }
 
     .sticky-toc { position: sticky; top: 5rem; align-self: start; font-size: 0.82rem; line-height: 1.7; }
-    .sticky-toc h4 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin-bottom: 0.6rem; font-weight: 600; }
+    .sticky-toc h2 { font-family: var(--font-body); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin-bottom: 0.6rem; font-weight: 600; }
     .sticky-toc ul { list-style: none; display: grid; gap: 0.05rem; }
     .sticky-toc a { display: block; color: var(--text-muted); padding: 0.25rem 0.55rem; border-left: 2px solid transparent; border-radius: 0 6px 6px 0; transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease; }
     .sticky-toc a:hover { color: var(--text-strong); background: var(--surface-soft); text-decoration: none; }
@@ -806,7 +806,7 @@
       ko: '이 페이지', it: 'In questa pagina', zh_CN: '本页内容', zh_TW: '本頁內容',
       pt_BR: 'Nesta página', de: 'Auf dieser Seite'
     })[lang] || 'On this page';
-    var html = '<h4>' + tocHeading + '</h4><ul>';
+    var html = '<h2>' + tocHeading + '</h2><ul>';
     heads.forEach(function (h) {
       var text = '';
       h.querySelectorAll('[data-lang]').forEach(function (s) {
