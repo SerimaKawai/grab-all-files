@@ -641,3 +641,11 @@ footer {
 .nearby-list li { display: grid; gap: .15rem; }
 .nearby-list a { font-weight: 600; }
 .nearby-list span { color: var(--text-muted); font-size: .95rem; }
+/* 2026-11-16: a guide with only one sample shows it full width instead of leaving the right half empty. */
+.sample-grid:has(> .sample-card:only-child) { grid-template-columns: minmax(0, 1fr); }
+.sample-grid > .sample-card:only-child { max-width: 46rem; }
+/* 2026-11-16: the /use-cases/ hub is grouped by the extension tool each guide uses. */
+.hub-group + .hub-group { margin-top: 2.2rem; }
+.hub-group-title { display: flex; align-items: center; gap: .6rem; margin: 0 0 1rem; color: var(--text-strong); font-family: var(--font-display); font-size: clamp(1.35rem, 2.6vw, 1.8rem); line-height: 1.2; }
+.hub-group-count { display: inline-flex; align-items: center; justify-content: center; min-width: 1.9rem; height: 1.9rem; padding: 0 .5rem; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); color: var(--text-muted); font-family: var(--font-body); font-size: .85rem; font-weight: 700; }
+.hub-card h3 { margin: 0 0 .4rem; color: var(--text-strong); font-family: var(--font-display); font-size: clamp(1.1rem, 2vw, 1.3rem); line-height: 1.25; }

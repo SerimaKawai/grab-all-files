@@ -269,6 +269,25 @@ const LANG_NAV_RE = /(?:\r*\n)?<script>\(function\(\)\{var s=document\.getElemen
 const FORCE_LANG_RE = /(?:\r*\n)?[ \t]*<script>window\.__FORCE_LANG__="[^"]+";<\/script>\r*(?=\n|$)/g;
 const localeNavScript = (rel) => `<script>(function(){var s=document.getElementById('lang-sel');if(!s)return;var R=${JSON.stringify(rel)};var q=new URLSearchParams(location.search||'');var requested=q.get('lang');if(${JSON.stringify(ALL)}.indexOf(requested)>=0){q.delete('lang');var destination=(requested==='en'?'/':'/'+requested+'/')+R;var query=q.toString();if(destination!==location.pathname){location.replace(destination+(query?'?'+query:'')+location.hash);return;}}s.addEventListener('change',function(e){e.stopImmediatePropagation();var c=e.target.value;try{localStorage.setItem('gaf-lang',c);}catch(_){}location.href=(c==='en'?'/':'/'+c+'/')+R+location.hash;},true);})();</script>`;
 
+// /use-cases/ hub groups. Every guide not listed here belongs to the file tool.
+const HUB_PAGE_GUIDES = [
+  'web-tables-to-csv-for-excel-ai', 'save-and-compare-document-revisions', 'save-web-pages-as-markdown',
+  'save-online-manuals-and-knowledge-pages', 'web-pages-for-reading-and-ai-analysis', 'collect-and-analyze-web-comments',
+  'combine-web-pages-into-one-html', 'combine-local-html-files-into-one', 'save-web-pages-with-original-design',
+];
+const HUB_GROUP_NAMES = {
+  en: { files: 'File downloader', pages: 'Combine pages into HTML' },
+  ja: { files: 'ファイル一括ダウンロード', pages: 'ページをHTMLにまとめる' },
+  es: { files: 'Descargador de archivos', pages: 'Combinar páginas en HTML' },
+  fr: { files: 'Téléchargeur de fichiers', pages: 'Regrouper les pages en HTML' },
+  de: { files: 'Datei-Downloader', pages: 'Seiten als HTML bündeln' },
+  it: { files: 'Downloader di file', pages: 'Unisci pagine in HTML' },
+  ko: { files: '파일 일괄 다운로드', pages: '페이지를 HTML로 합치기' },
+  pt_BR: { files: 'Baixador de arquivos', pages: 'Juntar páginas em HTML' },
+  zh_CN: { files: '文件批量下载', pages: '将网页合并为 HTML' },
+  zh_TW: { files: '檔案批次下載', pages: '將網頁合併為 HTML' },
+};
+
 function bakeHub(html, lang, tables, cases) {
   const ui = tables.UI[lang] || tables.UI.en;
   const labels = tables.GUIDE_LABELS[lang] || tables.GUIDE_LABELS.en;
@@ -313,10 +332,26 @@ function bakeHub(html, lang, tables, cases) {
   h = h.replace(/(<script id="hub-breadcrumb-schema" type="application\/ld\+json">)[\s\S]*?(<\/script>)/, (m, a, b) => a + jsonForScript(breadcrumb) + b);
   h = h.replace(/(<script id="hub-itemlist-schema" type="application\/ld\+json">)[\s\S]*?(<\/script>)/, (m, a, b) => a + jsonForScript(itemList) + b);
 
-  const cards = order.map((id) => {
+  // Guides are grouped by the extension tool they use. The group names are the
+  // extension's own tool names (filescanner/_locales/<L>/messages.json:
+  // collectorSwitchToScanner / collectorOpen), copied verbatim, not new copy.
+  const pageIds = new Set(HUB_PAGE_GUIDES);
+  const card = (id) => {
     const meta = cases[id] && cases[id][lang];
     const blurb = meta ? meta.desc : '';
-    return `        <section class="section-card"><h2><a href="${guideUrl(id)}">${textEsc(labels[id])}</a></h2><p>${textEsc(blurb)}</p></section>`;
+    return `          <section class="section-card hub-card"><h3><a href="${guideUrl(id)}">${textEsc(labels[id])}</a></h3><p>${textEsc(blurb)}</p></section>`;
+  };
+  const cards = ['files', 'pages'].map((g) => {
+    const ids = order.filter((id) => (pageIds.has(id) ? 'pages' : 'files') === g);
+    const name = (HUB_GROUP_NAMES[lang] || HUB_GROUP_NAMES.en)[g];
+    return [
+      `      <section class="hub-group" aria-labelledby="hub-${g}">`,
+      `        <h2 class="hub-group-title" id="hub-${g}">${textEsc(name)} <span class="hub-group-count">${ids.length}</span></h2>`,
+      '        <div class="two-col">',
+      ids.map(card).join('\n'),
+      '        </div>',
+      '      </section>',
+    ].join('\n');
   }).join('\n');
 
   const body = [
@@ -328,9 +363,7 @@ function bakeHub(html, lang, tables, cases) {
     '      </div>',
     '    </section>',
     '    <div class="section-stack">',
-    '      <div class="two-col">',
     cards,
-    '      </div>',
     '    </div>',
     `    <section class="final-cta"><h2>${textEsc(ui.ctaTitle)}</h2><p>${textEsc(ui.ctaText)}</p><div class="final-dl">` +
       `<a class="store-btn" href="${tables.STORE.chrome}" target="_blank" rel="noopener">${textEsc(ui.dlChrome)}</a>` +

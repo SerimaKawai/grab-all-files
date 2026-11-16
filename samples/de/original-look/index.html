@@ -7,7 +7,10 @@
 <title>Eine Seite mit ihrem ursprünglichen Design als HTML gespeichert (Kostenlos) | Grab All Files</title>
 <style>
 :root{color-scheme:light dark;--bg:#fbf8f3;--card:#fffcf8;--ink:#2d2a26;--muted:#5f574e;--line:#dfd3c5;--accent:#4554c4}
-@media (prefers-color-scheme:dark){:root{--bg:#1a1922;--card:#24232e;--ink:#ece8e1;--muted:#b9b1a6;--line:#3b3946;--accent:#a9b4f3}}
+:root[data-theme=dark]{--bg:#1a1922;--card:#24232e;--ink:#ece8e1;--muted:#b9b1a6;--line:#3b3946;--accent:#a9b4f3}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1a1922;--card:#24232e;--ink:#ece8e1;--muted:#b9b1a6;--line:#3b3946;--accent:#a9b4f3}}
+.site-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;max-width:880px;margin:0 auto;padding:14px 16px 0;font-size:.95rem}
+.site-bar a{text-decoration:none;font-weight:600}.site-bar .brand{color:var(--ink);display:inline-flex;align-items:center;gap:8px}.site-bar img{width:24px;height:24px}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,"Segoe UI","Yu Gothic UI","Hiragino Sans",sans-serif;line-height:1.75}
 main{max-width:880px;margin:0 auto;padding:32px 16px 56px}
 a{color:var(--accent)} .kicker{color:var(--muted);font-size:.9rem;margin:0}
@@ -18,8 +21,10 @@ dl{display:grid;grid-template-columns:max-content 1fr;gap:.3rem 1rem;margin:0} d
 .compare{display:grid;grid-template-columns:1fr 1fr;gap:16px} .compare figure{margin:0} .compare img{width:100%;height:auto;border:1px solid var(--line);border-radius:10px}
 figcaption{color:var(--muted);font-size:.9rem;text-align:center} @media (max-width:640px){.compare{grid-template-columns:1fr}}
 </style>
+<script>(function(){try{var t=localStorage.getItem('gaf-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(_){}})();</script>
 </head>
 <body>
+<header class="site-bar"><a class="brand" href="/de/"><img src="/favicon-128.png" alt="" width="24" height="24">Grab All Files</a><a href="/de/use-cases/save-web-pages-with-original-design.html">← Zurück zur Anleitung</a></header>
 <main>
 <p class="kicker">Echte Ausgabe von Grab All Files</p>
 <h1>Eine Seite mit ihrem ursprünglichen Design als HTML gespeichert (Kostenlos)</h1>

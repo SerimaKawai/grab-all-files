@@ -17,11 +17,16 @@
     form[hidden] { display: none; }
     button { font: inherit; font-weight: 700; color: #fff; background: #3457c8; border: 0; border-radius: 10px; padding: .75rem 1.3rem; cursor: pointer; }
     button:focus-visible { outline: 3px solid #e98725; outline-offset: 3px; }
-    @media (prefers-color-scheme: dark) { body { background: #0b1020; color: #e5eaf3; } main { background: #151e2e; border-color: #334058; } a { color: #a8baff; } }
+    .brand { display: inline-flex; align-items: center; gap: .55rem; margin-bottom: 1.2rem; color: #182238; font-weight: 700; text-decoration: none; }
+    .brand img { width: 28px; height: 28px; }
+    @media (prefers-color-scheme: dark) { :root:not([data-theme=light]) body { background: #0b1020; color: #e5eaf3; } :root:not([data-theme=light]) main { background: #151e2e; border-color: #334058; } :root:not([data-theme=light]) a { color: #a8baff; } :root:not([data-theme=light]) .brand { color: #e5eaf3; } }
+    :root[data-theme=dark] body { background: #0b1020; color: #e5eaf3;} :root[data-theme=dark] main { background: #151e2e; border-color: #334058;} :root[data-theme=dark] a { color: #a8baff;} :root[data-theme=dark] .brand { color: #e5eaf3; }
   </style>
+  <script>(function(){try{var t=localStorage.getItem('gaf-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(_){}})();</script>
 </head>
 <body>
   <main>
+    <a class="brand" href="/"><img src="/favicon-128.png" alt="" width="28" height="28">Grab All Files</a>
     <h1 id="heading">Notification preference</h1>
     <p id="message">This link is invalid or has expired.</p>
     <form id="preference-form" method="post" hidden>

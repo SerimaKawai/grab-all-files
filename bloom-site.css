@@ -311,7 +311,7 @@ th,
 }
 @media (max-width: 420px) {
   .topbar-inner { gap: 0.4rem; }
-  .lang-sel { max-width: 88px; }
+  .lang-sel { max-width: 116px; }
 }
 
 /* ── Shared type scale ────────────────────────────────────────────────────────

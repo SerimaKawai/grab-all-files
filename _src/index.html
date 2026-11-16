@@ -963,6 +963,11 @@
     /* Latest version: the points share the full width whatever their count */
     .latest-points { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); }
     @media (max-width: 820px) { .latest-points { grid-auto-flow: row; grid-template-columns: 1fr; } }
+    /* Latest version: the version sits in a compact pill above the copy, and the long note reads in two columns on wide screens instead of one wall of text. */
+    .latest-panel { grid-template-columns: 1fr; gap: 0.9rem; }
+    .latest-badge { flex-direction: row; align-items: baseline; justify-content: flex-start; gap: 0.6rem; width: fit-content; padding: 0.45rem 0.95rem; border-radius: 999px; }
+    .latest-badge strong { font-size: 1.5rem; }
+    .latest-copy p { columns: 2 22rem; column-gap: 2.2rem; }
     /* Use-case links: last row centred instead of one chip stranded on the left */
     .usecase-guide-links { display: flex; flex-wrap: wrap; justify-content: center; }
     .usecase-guide-links a { flex: 0 1 calc((100% - 1.4rem) / 3); box-sizing: border-box; }

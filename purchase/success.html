@@ -97,9 +97,10 @@
     .steps { text-align: left; margin: 20px 0; }
     .steps ol { padding-left: 1.5rem; }
     .steps li { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 0.5rem; }
-    .activate-shot { margin: 1rem 0 0; }
-    .activate-shot img { display: block; width: 100%; height: auto; border: 1px solid var(--border); border-radius: 10px; }
-    .activate-shot figcaption { font-size: 0.82rem; color: var(--text-faint); margin-top: 0.45rem; }
+    /* Framed as a picture of the extension, so it is not mistaken for a real input box on this page. */
+    .activate-shot { margin: 1rem 0 0; padding: 0.9rem 0.9rem 0.7rem; background: var(--surface-soft); border: 1px dashed var(--border); border-radius: 14px; }
+    .activate-shot img { display: block; width: 92%; margin: 0 auto; height: auto; border: 1px solid var(--border); border-radius: 10px; box-shadow: 0 8px 22px rgba(20, 32, 64, 0.16); pointer-events: none; user-select: none; }
+    .activate-shot figcaption { font-size: 0.82rem; color: var(--text-faint); margin-top: 0.6rem; text-align: center; }
     .support { background: var(--surface-soft); border-radius: 8px; padding: 16px; margin-top: 24px; }
     .support p { font-size: 0.85rem; color: var(--text-faint); margin-bottom: 0.3rem; }
     .support a { color: var(--primary); }
