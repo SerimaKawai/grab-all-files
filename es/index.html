@@ -167,7 +167,6 @@
   }
   </script>
 
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -191,7 +190,6 @@
     ]
   }
   </script>
-
 
   <script type="application/ld+json">
   {
@@ -363,7 +361,6 @@
   }
   </script>
 
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -395,7 +392,6 @@
   }
   </script>
 
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -425,7 +421,6 @@
     "inLanguage": "es"
   }
   </script>
-
 
   <style>
     :root {
@@ -1036,10 +1031,10 @@
     .choice-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: .9rem; }
     .choice-card { margin: 0; display: flex; flex-direction: column; gap: .55rem; padding: .7rem; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); }
     .choice-card .art-frame { height: 96px; padding: .45rem; }
-    .choice-card figcaption { display: grid; gap: .25rem; font-size: .9rem; line-height: 1.55; color: var(--text-muted); }
+    .choice-card { min-width: 0; } .choice-card figcaption { display: grid; overflow-wrap: anywhere; gap: .25rem; font-size: .9rem; line-height: 1.55; color: var(--text-muted); }
     .choice-card figcaption strong { color: var(--text-strong); font-size: .95rem; }
     .choice-note { margin-top: 1.2rem; color: var(--text-muted); font-size: .92rem; }
-    @media (max-width: 560px) { .choice-grid { grid-template-columns: 1fr 1fr; gap: .6rem; } .choice-card .art-frame { height: 76px; } .plan-card .plan-art img { height: 70px; } }
+    @media (max-width: 560px) { .choice-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; } .choice-card .art-frame { height: 76px; } .plan-card .plan-art img { height: 70px; } }
     .plan-note .plan-local-art { float: left; width: 132px; height: 82px; padding: .25rem; margin: 0 .9rem .4rem 0; }
     .plan-note::after { content: ""; display: block; clear: both; }
   </style>
@@ -1281,11 +1276,11 @@
 <div class="product-shots active" data-lang="es">
           <figure class="product-shot">
             <a class="shot-zoom" href="/assets/screenshots/shot-es.jpg" target="_blank" rel="noopener"><picture><source type="image/webp" srcset="/assets/screenshots/shot-es.webp"><img src="/assets/screenshots/shot-es.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Descargador de archivos con 19 archivos detectados, con tipo, tamaño, fecha y página de origen; los 10 primeros están marcados para esta descarga gratuita"></picture></a>
-            <figcaption><strong>Descargador de archivos</strong><span>Un análisis real con 19 archivos. La versión gratuita guarda 10 archivos por descarga y marca dónde termina esta descarga; ZIP, combinación de PDF y envío a IA, a un clic.</span></figcaption>
+            <figcaption><strong>Descargador de archivos</strong><span>Un análisis real con 19 archivos. El plan gratuito guarda 10 archivos por descarga y marca dónde termina esta descarga; ZIP, combinación de PDF y envío a IA, a un clic.</span></figcaption>
           </figure>
           <figure class="product-shot">
             <a class="shot-zoom" href="/assets/screenshots/collector-es.jpg" target="_blank" rel="noopener"><picture><source type="image/webp" srcset="/assets/screenshots/collector-es.webp"><img src="/assets/screenshots/collector-es.jpg" width="1600" height="1429" loading="lazy" decoding="async" alt="Combinar páginas en HTML en la vista gratuita: páginas candidatas con una seleccionada y el aspecto «Mantener el aspecto original» elegido"></picture></a>
-            <figcaption><strong>Combinar páginas en HTML</strong><span>La versión gratuita guarda una página elegida por ejecución, si quieres con su aspecto original; Pro selecciona varias candidatas y las combina en un HTML.</span></figcaption>
+            <figcaption><strong>Combinar páginas en HTML</strong><span>El plan gratuito guarda una página elegida por ejecución, si quieres con su aspecto original; Pro selecciona varias candidatas y las combina en un HTML.</span></figcaption>
           </figure>
         </div>
 
