@@ -3,7 +3,7 @@
   "extension": {
     "name": "Grab All Files",
     "version": "5.8.54",
-    "build": "working tree of the extension after 5.8.54 (99ffa60b) on 2026-11-16, including the article-body fix ae7feb1b; the same contents are to be submitted as 5.8.55 on 2026-11-17 (its manifest still said 5.8.54); loaded as a temporary add-on for automated capture",
+    "build": "development build: working tree after 5.8.54 (99ffa60b) on 2026-11-16, its manifest still said 5.8.54; includes the fix for article text being dropped (ae7feb1b); loaded as a temporary add-on for automated capture",
     "tool": "collector"
   },
   "browser": "Firefox 160.0 (Windows 11, headless)",
