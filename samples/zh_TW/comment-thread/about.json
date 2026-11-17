@@ -2,15 +2,15 @@
   "what": "Real output saved by the Grab All Files browser extension from a fictional page hosted on this site. Output files are unedited.",
   "extension": {
     "name": "Grab All Files",
-    "version": "5.8.54",
-    "build": "development build: working tree after 5.8.54 (99ffa60b) on 2026-11-16, its manifest still said 5.8.54; includes the fix for article text being dropped (ae7feb1b); loaded as a temporary add-on for automated capture",
+    "version": "5.8.55",
+    "build": "Grab All Files 5.8.55 as released (the Firefox package submitted to the stores on 2026-11-17, the same version that is live on Chrome Web Store, Firefox Add-ons and Edge Add-ons; sha256 of the package 23b30b4f782745ebf827a4ee9564d608a5096d0c6d6fa66dab339ff0315ffce5); loaded as a temporary add-on for automated capture. Re-saved on 2026-11-17; the output was byte-identical to the 2026-11-16 save from the pre-release build",
     "tool": "collector"
   },
   "browser": "Firefox 160.0 (Windows 11, headless)",
   "plan": "free",
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "source": "https://grab-all-files.app/samples/source/zh_TW/comment-thread/",
-  "source_served_from": "served locally under its planned address for this capture (the page was not yet published); no outside site was contacted",
+  "source_served_from": "served locally under its address, from the same files that are published on this site; no outside site was contacted",
   "settings": [
     "頁面：僅目前頁面",
     "外觀：整理為易讀格式",
