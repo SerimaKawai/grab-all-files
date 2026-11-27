@@ -882,7 +882,7 @@
           "desc": "Save a site of dozens to a few hundred pages in your browser, with its look, links and attached PDFs. Works on sign-in and JavaScript pages. Chrome, Edge, Firefox.",
           "eyebrow": "Whole-site copy",
           "h1": "Save a whole website, including pages you can only see after signing in.",
-          "lead": "Grab All Files saves pages the way your browser shows them, so it also works on member areas and sites built with JavaScript. It fits sites of a few dozen to a few hundred pages. For thousands of pages, or for keeping a copy up to date, a desktop website copier is the better tool, and this page says so below.",
+          "lead": "Grab All Files saves pages the way your browser shows them, so it also works on member areas and sites built with JavaScript. It fits sites of a few dozen to a few hundred pages. For thousands of pages, or for keeping a copy up to date, a desktop website copier is a better fit (see below).",
           "blocks": [
             {
               "t": "pair",
@@ -1010,7 +1010,7 @@
               "t": "text",
               "h": "When the site has thousands of pages",
               "p": [
-                "Grab All Files reads each page inside your browser, one after another. That is what lets it save signed-in and JavaScript pages, and it is also why a site of several thousand pages takes a long time. If you need thousands of pages, or want to re-download only the files that changed since last time, use a desktop website copier. Those programs request pages directly from the server, which is faster for large public sites but cannot see pages that need your sign-in or are built in the browser."
+                "Grab All Files reads each page inside your browser, one after another. Because of this, it can save signed-in and JavaScript pages. The trade-off is speed: a site of several thousand pages takes a long time. If you need thousands of pages, or want to re-download only the files that changed since last time, use a desktop website copier. Those programs request pages directly from the server, which is faster for large public sites but cannot see pages that need your sign-in or are built in the browser."
               ]
             },
             {
@@ -1069,7 +1069,7 @@
           "desc": "数十〜数百ページのサイトを、見た目・リンク・添付PDFごとブラウザで保存。ログインが要るページやJavaScriptで作られたページにも対応。Chrome・Edge・Firefox。",
           "eyebrow": "サイトの丸ごと保存",
           "h1": "ログインしないと見られないページも含めて、サイトを丸ごと保存する。",
-          "lead": "Grab All Files は、ブラウザに表示されたとおりにページを保存します。そのため、会員サイトや JavaScript で作られたサイトでも使えます。向いているのは数十〜数百ページの規模です。何千ページもあるサイトや、定期的に差分だけ取り直したい場合は、パソコン用のサイト巡回ソフトのほうが向いています（下で説明します）。",
+          "lead": "Grab All Files は、ブラウザに表示されたとおりにページを保存します。そのため、会員サイトや JavaScript で作られたサイトでも使えます。向いているのは数十〜数百ページの規模です。何千ページもあるサイトや、定期的に差分だけ取り直したい場合は、パソコン用のサイト複製ソフトのほうが向いています（下で説明します）。",
           "blocks": [
             {
               "t": "pair",
@@ -1197,7 +1197,7 @@
               "t": "text",
               "h": "何千ページもあるサイトのとき",
               "p": [
-                "Grab All Files は、ブラウザの中で1ページずつ読んでいきます。ログイン後のページや JavaScript のページを保存できるのはこのためで、何千ページものサイトだと時間がかかるのも同じ理由です。何千ページも必要なときや、前回から変わったファイルだけを取り直したいときは、パソコン用のサイト巡回ソフト（ウェブサイトコピーツール）を使ってください。サーバーから直接ページを取るので大きな公開サイトでは速い一方、ログインが要るページやブラウザの中で作られるページは見えません。"
+                "Grab All Files は、ブラウザの中で1ページずつ読んでいきます。そのため、ログイン後のページや JavaScript のページも保存できます。一方で、何千ページもあるサイトは時間がかかります。何千ページも必要なときや、前回から変わったファイルだけを取り直したいときは、パソコン用のサイト複製ソフトを使ってください。サーバーから直接ページを取るので大きな公開サイトでは速い一方、ログインが要るページやブラウザの中で作られるページは見えません。"
               ]
             },
             {
@@ -1256,7 +1256,7 @@
           "desc": "Guarda en tu navegador un sitio de decenas a cientos de páginas, con su aspecto, enlaces y PDF adjuntos. Sirve con inicio de sesión y JavaScript. Chrome, Edge, Firefox.",
           "eyebrow": "Copia del sitio entero",
           "h1": "Guarda un sitio web entero, también las páginas que solo ves tras iniciar sesión.",
-          "lead": "Grab All Files guarda las páginas tal como las muestra tu navegador, así que también sirve para áreas de socios y sitios creados con JavaScript. Es adecuado para sitios de unas pocas decenas a unos cientos de páginas. Para miles de páginas, o para mantener una copia al día, un copiador de sitios de escritorio es la mejor herramienta, y esta página lo explica más abajo.",
+          "lead": "Grab All Files guarda las páginas tal como las muestra tu navegador, así que también sirve para áreas de socios y sitios creados con JavaScript. Es adecuado para sitios de unas pocas decenas a unos cientos de páginas. Para miles de páginas, o para mantener una copia al día, es mejor un copiador de sitios de escritorio (ver más abajo).",
           "blocks": [
             {
               "t": "pair",
@@ -1384,7 +1384,7 @@
               "t": "text",
               "h": "Cuando el sitio tiene miles de páginas",
               "p": [
-                "Grab All Files lee cada página dentro de tu navegador, una tras otra. Eso es lo que le permite guardar páginas con inicio de sesión y páginas de JavaScript, y también la razón por la que un sitio de varios miles de páginas tarda mucho. Si necesitas miles de páginas, o quieres volver a descargar solo los archivos que han cambiado desde la última vez, usa un copiador de sitios de escritorio. Esos programas piden las páginas directamente al servidor, lo que es más rápido para sitios públicos grandes, pero no pueden ver las páginas que requieren tu inicio de sesión o que se construyen en el navegador."
+                "Grab All Files lee cada página dentro de tu navegador, una tras otra. Por eso puede guardar páginas con inicio de sesión y páginas de JavaScript. A cambio, un sitio de varios miles de páginas tarda mucho. Si necesitas miles de páginas, o quieres volver a descargar solo los archivos que han cambiado desde la última vez, usa un copiador de sitios de escritorio. Esos programas piden las páginas directamente al servidor, lo que es más rápido para sitios públicos grandes, pero no pueden ver las páginas que requieren tu inicio de sesión o que se construyen en el navegador."
               ]
             },
             {
@@ -1443,7 +1443,7 @@
           "desc": "Enregistrez dans votre navigateur un site de quelques dizaines à quelques centaines de pages, avec son apparence, ses liens et ses PDF. Pages avec connexion ou JavaScript.",
           "eyebrow": "Copie de site entier",
           "h1": "Enregistrer un site entier, y compris les pages visibles seulement après connexion.",
-          "lead": "Grab All Files enregistre les pages telles que votre navigateur les affiche ; il fonctionne donc aussi sur les espaces membres et les sites construits en JavaScript. Il convient aux sites de quelques dizaines à quelques centaines de pages. Pour des milliers de pages, ou pour tenir une copie à jour, un outil de copie de sites pour ordinateur est plus adapté, comme l’explique cette page plus bas.",
+          "lead": "Grab All Files enregistre les pages telles que votre navigateur les affiche ; il fonctionne donc aussi sur les espaces membres et les sites construits en JavaScript. Il convient aux sites de quelques dizaines à quelques centaines de pages. Pour des milliers de pages, ou pour tenir une copie à jour, un outil de copie de sites pour ordinateur est plus adapté (voir plus bas).",
           "blocks": [
             {
               "t": "pair",
@@ -1571,7 +1571,7 @@
               "t": "text",
               "h": "Quand le site compte des milliers de pages",
               "p": [
-                "Grab All Files lit chaque page dans votre navigateur, l’une après l’autre. C’est ce qui lui permet d’enregistrer les pages avec connexion et celles en JavaScript, et c’est aussi pourquoi un site de plusieurs milliers de pages prend beaucoup de temps. Si vous avez besoin de milliers de pages, ou si vous voulez ne retélécharger que les fichiers modifiés depuis la dernière fois, utilisez un outil de copie de sites pour ordinateur. Ces programmes demandent les pages directement au serveur, ce qui est plus rapide pour les grands sites publics, mais ils ne voient pas les pages qui exigent votre connexion ou qui sont construites dans le navigateur."
+                "Grab All Files lit chaque page dans votre navigateur, l’une après l’autre. Il peut ainsi enregistrer les pages avec connexion et celles en JavaScript. En contrepartie, un site de plusieurs milliers de pages prend beaucoup de temps. Si vous avez besoin de milliers de pages, ou si vous voulez ne retélécharger que les fichiers modifiés depuis la dernière fois, utilisez un outil de copie de sites pour ordinateur. Ces programmes demandent les pages directement au serveur, ce qui est plus rapide pour les grands sites publics, mais ils ne voient pas les pages qui exigent votre connexion ou qui sont construites dans le navigateur."
               ]
             },
             {
@@ -1630,7 +1630,7 @@
           "desc": "Speichern Sie eine Website mit Dutzenden bis einigen Hundert Seiten im Browser, samt Aussehen, Links und PDFs. Auch bei Anmeldung und JavaScript. Chrome, Edge, Firefox.",
           "eyebrow": "Komplette Website-Kopie",
           "h1": "Eine ganze Website speichern, auch Seiten, die Sie erst nach der Anmeldung sehen.",
-          "lead": "Grab All Files speichert Seiten so, wie Ihr Browser sie anzeigt. Deshalb funktioniert es auch in Mitgliederbereichen und auf Websites, die mit JavaScript aufgebaut sind. Es passt zu Websites mit einigen Dutzend bis einigen Hundert Seiten. Für Tausende Seiten oder eine Kopie, die laufend aktuell bleibt, ist ein Website-Kopierer für den Desktop das bessere Werkzeug – das steht weiter unten auf dieser Seite.",
+          "lead": "Grab All Files speichert Seiten so, wie Ihr Browser sie anzeigt. Deshalb funktioniert es auch in Mitgliederbereichen und auf Websites, die mit JavaScript aufgebaut sind. Es passt zu Websites mit einigen Dutzend bis einigen Hundert Seiten. Für Tausende Seiten oder eine Kopie, die laufend aktuell bleibt, eignet sich ein Website-Kopierer für den Desktop besser (siehe unten).",
           "blocks": [
             {
               "t": "pair",
@@ -1758,7 +1758,7 @@
               "t": "text",
               "h": "Wenn die Website Tausende Seiten hat",
               "p": [
-                "Grab All Files liest jede Seite in Ihrem Browser, eine nach der anderen. Genau das macht es möglich, angemeldete und JavaScript-Seiten zu speichern, und es ist auch der Grund, warum eine Website mit mehreren Tausend Seiten lange dauert. Brauchen Sie Tausende Seiten oder möchten Sie nur die seit dem letzten Mal geänderten Dateien erneut herunterladen, nutzen Sie einen Website-Kopierer für den Desktop. Solche Programme fordern Seiten direkt beim Server an, was bei großen öffentlichen Websites schneller ist, aber keine Seiten sehen kann, die Ihre Anmeldung brauchen oder erst im Browser aufgebaut werden."
+                "Grab All Files liest jede Seite in Ihrem Browser, eine nach der anderen. Dadurch kann es angemeldete und JavaScript-Seiten speichern. Der Nachteil: Eine Website mit mehreren Tausend Seiten dauert lange. Brauchen Sie Tausende Seiten oder möchten Sie nur die seit dem letzten Mal geänderten Dateien erneut herunterladen, nutzen Sie einen Website-Kopierer für den Desktop. Solche Programme fordern Seiten direkt beim Server an, was bei großen öffentlichen Websites schneller ist, aber keine Seiten sehen kann, die Ihre Anmeldung brauchen oder erst im Browser aufgebaut werden."
               ]
             },
             {
@@ -1817,7 +1817,7 @@
           "desc": "Salva nel browser un sito da decine a qualche centinaio di pagine, con aspetto, link e PDF allegati. Funziona con pagine con accesso e JavaScript. Chrome, Edge, Firefox.",
           "eyebrow": "Copia dell’intero sito",
           "h1": "Salva un intero sito web, comprese le pagine che vedi solo dopo aver effettuato l’accesso.",
-          "lead": "Grab All Files salva le pagine come le mostra il tuo browser, quindi funziona anche con le aree riservate e con i siti costruiti con JavaScript. Va bene per siti da qualche decina a qualche centinaio di pagine. Per migliaia di pagine, o per tenere aggiornata una copia, uno strumento desktop per copiare siti è la scelta migliore, e questa pagina lo dice più sotto.",
+          "lead": "Grab All Files salva le pagine come le mostra il tuo browser, quindi funziona anche con le aree riservate e con i siti costruiti con JavaScript. Va bene per siti da qualche decina a qualche centinaio di pagine. Per migliaia di pagine, o per tenere aggiornata una copia, è meglio uno strumento desktop per copiare siti (vedi sotto).",
           "blocks": [
             {
               "t": "pair",
@@ -1945,7 +1945,7 @@
               "t": "text",
               "h": "Quando il sito ha migliaia di pagine",
               "p": [
-                "Grab All Files legge ogni pagina dentro il tuo browser, una dopo l’altra. È questo che gli permette di salvare pagine con accesso e pagine JavaScript, ed è anche il motivo per cui un sito di diverse migliaia di pagine richiede molto tempo. Se ti servono migliaia di pagine, o vuoi riscaricare solo i file cambiati dall’ultima volta, usa uno strumento desktop per copiare siti. Questi programmi richiedono le pagine direttamente al server, il che è più veloce per i grandi siti pubblici, ma non possono vedere le pagine che richiedono il tuo accesso o che vengono costruite nel browser."
+                "Grab All Files legge ogni pagina dentro il tuo browser, una dopo l’altra. Per questo può salvare pagine con accesso e pagine JavaScript. In compenso, un sito di diverse migliaia di pagine richiede molto tempo. Se ti servono migliaia di pagine, o vuoi riscaricare solo i file cambiati dall’ultima volta, usa uno strumento desktop per copiare siti. Questi programmi richiedono le pagine direttamente al server, il che è più veloce per i grandi siti pubblici, ma non possono vedere le pagine che richiedono il tuo accesso o che vengono costruite nel browser."
               ]
             },
             {
@@ -2132,7 +2132,7 @@
               "t": "text",
               "h": "사이트가 수천 페이지일 때",
               "p": [
-                "Grab All Files는 브라우저 안에서 페이지를 하나씩 차례로 읽습니다. 로그인 후의 페이지나 JavaScript 페이지를 저장할 수 있는 것도 이 때문이고, 수천 페이지짜리 사이트에서 시간이 오래 걸리는 것도 같은 이유입니다. 수천 페이지가 필요하거나 지난번 이후 바뀐 파일만 다시 받고 싶다면 PC용 웹사이트 복사 프로그램을 쓰세요. 이런 프로그램은 서버에서 직접 페이지를 가져오므로 큰 공개 사이트에서는 빠르지만, 로그인이 필요한 페이지나 브라우저 안에서 만들어지는 페이지는 볼 수 없습니다."
+                "Grab All Files는 브라우저 안에서 페이지를 하나씩 차례로 읽습니다. 그래서 로그인 후의 페이지나 JavaScript 페이지도 저장할 수 있습니다. 대신 수천 페이지짜리 사이트는 시간이 오래 걸립니다. 수천 페이지가 필요하거나 지난번 이후 바뀐 파일만 다시 받고 싶다면 PC용 웹사이트 복사 프로그램을 쓰세요. 이런 프로그램은 서버에서 직접 페이지를 가져오므로 큰 공개 사이트에서는 빠르지만, 로그인이 필요한 페이지나 브라우저 안에서 만들어지는 페이지는 볼 수 없습니다."
               ]
             },
             {
@@ -2191,7 +2191,7 @@
           "desc": "Salve no navegador um site de dezenas a algumas centenas de páginas, com o visual, os links e os PDFs anexos. Funciona com login e JavaScript. Chrome, Edge, Firefox.",
           "eyebrow": "Cópia do site inteiro",
           "h1": "Salve um site inteiro, inclusive as páginas que só aparecem depois do login.",
-          "lead": "O Grab All Files salva as páginas do jeito que o navegador as mostra, por isso funciona também em áreas de membros e em sites feitos com JavaScript. Ele serve para sites de algumas dezenas a algumas centenas de páginas. Para milhares de páginas, ou para manter uma cópia sempre atualizada, um copiador de sites para computador é a ferramenta mais indicada, e esta página explica isso mais abaixo.",
+          "lead": "O Grab All Files salva as páginas do jeito que o navegador as mostra, por isso funciona também em áreas de membros e em sites feitos com JavaScript. Ele serve para sites de algumas dezenas a algumas centenas de páginas. Para milhares de páginas, ou para manter uma cópia sempre atualizada, um copiador de sites para computador é mais indicado (veja abaixo).",
           "blocks": [
             {
               "t": "pair",
@@ -2319,7 +2319,7 @@
               "t": "text",
               "h": "Quando o site tem milhares de páginas",
               "p": [
-                "O Grab All Files lê cada página dentro do seu navegador, uma depois da outra. É isso que permite salvar páginas com login e páginas feitas com JavaScript, e é também por isso que um site de vários milhares de páginas leva muito tempo. Se você precisa de milhares de páginas, ou quer baixar de novo só os arquivos que mudaram desde a última vez, use um copiador de sites para computador. Esses programas pedem as páginas direto ao servidor, o que é mais rápido em sites públicos grandes, mas eles não enxergam páginas que exigem o seu login ou que são montadas no navegador."
+                "O Grab All Files lê cada página dentro do seu navegador, uma depois da outra. Por isso ele consegue salvar páginas com login e páginas feitas com JavaScript. Em compensação, um site de vários milhares de páginas leva muito tempo. Se você precisa de milhares de páginas, ou quer baixar de novo só os arquivos que mudaram desde a última vez, use um copiador de sites para computador. Esses programas pedem as páginas direto ao servidor, o que é mais rápido em sites públicos grandes, mas eles não enxergam páginas que exigem o seu login ou que são montadas no navegador."
               ]
             },
             {
@@ -2378,7 +2378,7 @@
           "desc": "在浏览器中保存几十到几百页的网站，保留外观、链接和附带的PDF。登录页面和JavaScript页面同样适用。支持Chrome、Edge、Firefox。",
           "eyebrow": "整站副本",
           "h1": "保存整个网站，包括登录后才能看到的页面。",
-          "lead": "Grab All Files 按浏览器显示的样子保存页面，因此会员区和用JavaScript构建的网站也能保存。它适合几十到几百页的网站。如果有数千页，或需要让副本保持最新，桌面版网站复制工具更合适，下文也会说明这一点。",
+          "lead": "Grab All Files 按浏览器显示的样子保存页面，因此会员区和用JavaScript构建的网站也能保存。它适合几十到几百页的网站。如果有数千页，或需要让副本保持最新，桌面版网站复制工具更合适（见下文）。",
           "blocks": [
             {
               "t": "pair",
@@ -2506,7 +2506,7 @@
               "t": "text",
               "h": "网站有数千页时",
               "p": [
-                "Grab All Files 在您的浏览器中逐页读取每个页面。正因为如此，它才能保存需要登录的页面和JavaScript页面，同时也使得有几千页的网站需要很长时间。如果您需要几千页，或只想重新下载上次之后有变化的文件，请使用桌面版网站复制工具。这类程序直接向服务器请求页面，对大型公开网站更快，但看不到需要您登录的页面或在浏览器中生成的页面。"
+                "Grab All Files 在您的浏览器中逐页读取每个页面。因此它能保存需要登录的页面和JavaScript页面。但有几千页的网站会花很长时间。如果您需要几千页，或只想重新下载上次之后有变化的文件，请使用桌面版网站复制工具。这类程序直接向服务器请求页面，对大型公开网站更快，但看不到需要您登录的页面或在浏览器中生成的页面。"
               ]
             },
             {
@@ -2565,7 +2565,7 @@
           "desc": "在瀏覽器中儲存數十到數百頁的網站，保留外觀、連結和附帶的 PDF。登入後的頁面與 JavaScript 頁面也適用。支援 Chrome、Edge、Firefox。",
           "eyebrow": "整站備份",
           "h1": "儲存整個網站，包括必須登入才看得到的頁面。",
-          "lead": "Grab All Files 會依瀏覽器顯示的樣子儲存頁面，因此會員專區和以 JavaScript 建置的網站也能儲存。它適合數十到數百頁的網站。若要處理數千頁，或要讓備份隨時保持最新，桌面版的網站複製軟體會更合適，本頁下方也會說明。",
+          "lead": "Grab All Files 會依瀏覽器顯示的樣子儲存頁面，因此會員專區和以 JavaScript 建置的網站也能儲存。它適合數十到數百頁的網站。若要處理數千頁，或要讓備份隨時保持最新，桌面版的網站複製軟體會更合適（見下文）。",
           "blocks": [
             {
               "t": "pair",
@@ -2693,7 +2693,7 @@
               "t": "text",
               "h": "網站有數千頁時",
               "p": [
-                "Grab All Files 會在您的瀏覽器中逐頁讀取每個頁面。正因如此，它才能儲存登入後的頁面和 JavaScript 頁面，但這也表示數千頁的網站需要很長的時間。如果您需要處理數千頁，或想只重新下載上次之後有變動的檔案，請使用桌面版的網站複製軟體。這類軟體直接向伺服器要求頁面，處理大型公開網站比較快，但看不到需要您登入或在瀏覽器中才會產生的頁面。"
+                "Grab All Files 會在您的瀏覽器中逐頁讀取每個頁面。因此它能儲存登入後的頁面和 JavaScript 頁面。不過，數千頁的網站會需要很長的時間。如果您需要處理數千頁，或想只重新下載上次之後有變動的檔案，請使用桌面版的網站複製軟體。這類軟體直接向伺服器要求頁面，處理大型公開網站比較快，但看不到需要您登入或在瀏覽器中才會產生的頁面。"
               ]
             },
             {
@@ -2772,7 +2772,7 @@
               "t": "text",
               "h": "Where the extension stops and you start",
               "p": [
-                "The extension reads the pages in your browser, converts them on your computer, and saves the files. That is all it does. It does not log in to an AI service, upload anything, or ask a question for you.",
+                "The extension only reads the pages in your browser, converts them on your computer, and saves the files. It never signs in to an AI service, uploads anything, or asks questions for you.",
                 "You open the AI service you prefer, add the files as sources or attachments, and ask your question there. Which file types and sizes that service accepts, and how it treats uploaded files, are set by the service. Read its current limits and privacy settings before you upload pages from a members-only site."
               ]
             },
@@ -2917,7 +2917,7 @@
               "t": "text",
               "h": "拡張機能がやることと、自分でやること",
               "p": [
-                "拡張機能は、ブラウザでページを読み、パソコンの中で変換して、ファイルを保存します。ここまでです。AI サービスにログインしたり、ファイルをアップロードしたり、代わりに質問したりはしません。",
+                "拡張機能が行うのは、ブラウザでページを読み、パソコンの中で変換してファイルに保存するところまでです。AI サービスへのログイン、ファイルのアップロード、代わりの質問はしません。",
                 "使いたい AI サービスを自分で開き、ファイルをソースや添付として追加して、質問もそちらで行います。受け付けるファイルの種類や大きさ、アップロードしたファイルの扱いは、サービス側で決まっています。会員限定サイトのページを渡す前に、サービスの最新の上限とプライバシー設定を確かめてください。"
               ]
             },
@@ -3062,7 +3062,7 @@
               "t": "text",
               "h": "Dónde se detiene la extensión y dónde empiezas tú",
               "p": [
-                "La extensión lee las páginas en tu navegador, las convierte en tu ordenador y guarda los archivos. Eso es todo lo que hace. No inicia sesión en ningún servicio de IA, no sube nada ni hace preguntas por ti.",
+                "La extensión solo lee las páginas en tu navegador, las convierte en tu ordenador y guarda los archivos. Nunca inicia sesión en ningún servicio de IA, no sube nada ni hace preguntas por ti.",
                 "Tú abres el servicio de IA que prefieras, añades los archivos como fuentes o adjuntos y haces tu pregunta allí. Qué tipos y tamaños de archivo acepta ese servicio, y cómo trata los archivos subidos, lo decide el propio servicio. Lee sus límites actuales y sus ajustes de privacidad antes de subir páginas de un sitio solo para socios."
               ]
             },
@@ -3207,7 +3207,7 @@
               "t": "text",
               "h": "Où l’extension s’arrête et où vous commencez",
               "p": [
-                "L’extension lit les pages dans votre navigateur, les convertit sur votre ordinateur et enregistre les fichiers. C’est tout ce qu’elle fait. Elle ne se connecte à aucun service d’IA, n’envoie rien et ne pose aucune question à votre place.",
+                "L’extension se contente de lire les pages dans votre navigateur, de les convertir sur votre ordinateur et d’enregistrer les fichiers. Elle ne se connecte à aucun service d’IA, n’envoie rien et ne pose aucune question à votre place.",
                 "Vous ouvrez le service d’IA de votre choix, vous ajoutez les fichiers comme sources ou pièces jointes, et vous posez votre question là-bas. Les types et tailles de fichiers acceptés, ainsi que le traitement des fichiers importés, sont fixés par le service. Lisez ses limites actuelles et ses réglages de confidentialité avant d’importer des pages d’un site réservé aux membres."
               ]
             },
@@ -3352,7 +3352,7 @@
               "t": "text",
               "h": "Wo die Erweiterung aufhört und Sie anfangen",
               "p": [
-                "Die Erweiterung liest die Seiten in Ihrem Browser, wandelt sie auf Ihrem Computer um und speichert die Dateien. Mehr tut sie nicht. Sie meldet sich nicht bei einem KI-Dienst an, lädt nichts hoch und stellt keine Frage für Sie.",
+                "Die Erweiterung liest die Seiten nur in Ihrem Browser, wandelt sie auf Ihrem Computer um und speichert die Dateien. Sie meldet sich nie bei einem KI-Dienst an, lädt nichts hoch und stellt keine Frage für Sie.",
                 "Sie öffnen den KI-Dienst Ihrer Wahl, fügen die Dateien als Quellen oder Anhänge hinzu und stellen dort Ihre Frage. Welche Dateitypen und Größen der Dienst akzeptiert und wie er hochgeladene Dateien behandelt, legt der Dienst fest. Lesen Sie seine aktuellen Grenzen und Datenschutzeinstellungen, bevor Sie Seiten einer Website nur für Mitglieder hochladen."
               ]
             },
@@ -3497,7 +3497,7 @@
               "t": "text",
               "h": "Dove si ferma l’estensione e dove cominci tu",
               "p": [
-                "L’estensione legge le pagine nel tuo browser, le converte sul tuo computer e salva i file. Fa solo questo. Non accede a un servizio di IA, non carica nulla e non fa domande al posto tuo.",
+                "L’estensione si limita a leggere le pagine nel tuo browser, convertirle sul tuo computer e salvare i file. Non accede mai a un servizio di IA, non carica nulla e non fa domande al posto tuo.",
                 "Sei tu ad aprire il servizio di IA che preferisci, aggiungere i file come fonti o allegati e fare la domanda lì. Quali tipi e dimensioni di file accetta il servizio, e come tratta i file caricati, lo decide il servizio. Leggi i suoi limiti e le sue impostazioni di privacy attuali prima di caricare pagine di un sito riservato agli iscritti."
               ]
             },
@@ -3642,7 +3642,7 @@
               "t": "text",
               "h": "확장 프로그램이 하는 일과 내가 하는 일의 경계",
               "p": [
-                "확장 프로그램은 브라우저에서 페이지를 읽고, 내 컴퓨터에서 변환해 파일로 저장합니다. 하는 일은 그뿐입니다. AI 서비스에 로그인하지도, 무언가를 업로드하지도, 대신 질문하지도 않습니다.",
+                "확장 프로그램은 브라우저에서 페이지를 읽고, 내 컴퓨터에서 변환해 파일로 저장하는 일만 합니다. AI 서비스에 로그인하거나, 무언가를 업로드하거나, 대신 질문하지 않습니다.",
                 "원하는 AI 서비스를 직접 열어 파일을 소스나 첨부 파일로 추가하고, 거기서 질문합니다. 어떤 파일 형식과 크기를 받는지, 업로드한 파일을 어떻게 다루는지는 그 서비스가 정합니다. 회원 전용 사이트의 페이지를 업로드하기 전에는 해당 서비스의 최신 제한과 개인정보 설정을 읽어 보세요."
               ]
             },
@@ -3787,7 +3787,7 @@
               "t": "text",
               "h": "Onde a extensão para e você começa",
               "p": [
-                "A extensão lê as páginas no seu navegador, converte no seu computador e salva os arquivos. É só isso que ela faz. Ela não entra em um serviço de IA, não envia nada e não faz perguntas por você.",
+                "A extensão apenas lê as páginas no seu navegador, converte no seu computador e salva os arquivos. Ela nunca entra em um serviço de IA, não envia nada e não faz perguntas por você.",
                 "Você abre o serviço de IA de sua preferência, adiciona os arquivos como fontes ou anexos e faz a pergunta lá. Quais tipos e tamanhos de arquivo o serviço aceita, e como ele trata os arquivos enviados, é decidido pelo próprio serviço. Leia os limites e as configurações de privacidade atuais antes de enviar páginas de um site só para membros."
               ]
             },
@@ -3932,7 +3932,7 @@
               "t": "text",
               "h": "扩展程序做到哪里，从哪里开始由您操作",
               "p": [
-                "扩展程序在浏览器中读取页面，在您的电脑上转换，并保存文件。它只做这些。它不会登录AI服务，不会上传任何内容，也不会替您提问。",
+                "扩展程序只在浏览器中读取页面，在您的电脑上转换并保存文件。它不会登录AI服务，不会上传任何内容，也不会替您提问。",
                 "您自己打开喜欢的AI服务，把文件添加为资料来源或附件，然后在那里提问。该服务接受哪些文件类型和大小，以及如何处理上传的文件，都由服务本身决定。从仅限会员的网站上传页面之前，请先阅读该服务当前的限制和隐私设置。"
               ]
             },
@@ -4077,7 +4077,7 @@
               "t": "text",
               "h": "擴充功能做到哪裡，從哪裡換您接手",
               "p": [
-                "擴充功能在您的瀏覽器中讀取頁面，在您的電腦上轉換，然後儲存檔案，僅此而已。它不會登入 AI 服務，不會上傳任何內容，也不會替您提問。",
+                "擴充功能只在您的瀏覽器中讀取頁面，在您的電腦上轉換並儲存檔案。它不會登入 AI 服務，不會上傳任何內容，也不會替您提問。",
                 "您自己開啟喜歡的 AI 服務，將檔案加入為來源或附件，並在那裡提問。該服務接受哪些檔案類型和大小，以及如何處理上傳的檔案，都由該服務決定。上傳會員專屬網站的頁面之前，請先閱讀該服務目前的限制和隱私設定。"
               ]
             },
@@ -4479,7 +4479,7 @@
               "t": "text",
               "h": "向かない場面",
               "p": [
-                "Grab All Files は記事をブラウザの中で読むので、何千本もの記事になると時間がかかり、ファイルもとても大きくなります。それほど大きなニュースの蓄積には、サーバーに直接ページを求めるパソコン用のサイト巡回ソフトのほうが向きます。ただし、ログインの先のページは見えません。",
+                "Grab All Files は記事をブラウザの中で読むので、何千本もの記事になると時間がかかり、ファイルもとても大きくなります。それほど大きなニュースの蓄積には、サーバーに直接ページを求めるパソコン用のサイト複製ソフトのほうが向きます。ただし、ログインの先のページは見えません。",
                 "「次へ」ではなく、スクロールすると記事が増える一覧は別の場面です。始める前にスクロールで増えるページのガイドを読んでください。"
               ]
             },
@@ -5842,7 +5842,7 @@
               "t": "text",
               "h": "When the site has thousands of pages",
               "p": [
-                "Grab All Files reads pages inside your browser, one after another. That is how it reaches pages behind your sign-in, and it is also why a very large site takes long. With thousands of pages and little time left, a desktop website copier, which asks the server for pages directly, covers more ground per hour. Use Grab All Files for the pages that program cannot see, and for pulling out the linked documents by type."
+                "Grab All Files reads pages inside your browser, one after another. This lets it reach pages behind your sign-in. On a very large site, though, it takes a long time. With thousands of pages and little time left, a desktop website copier, which asks the server for pages directly, covers more ground per hour. Use Grab All Files for the pages that program cannot see, and for pulling out the linked documents by type."
               ]
             },
             {
@@ -5990,7 +5990,7 @@
               "t": "text",
               "h": "何千ページもあるサイトのとき",
               "p": [
-                "Grab All Files は、ブラウザの中でページを1つずつ読みます。ログインの先のページに届くのはそのためで、とても大きなサイトに時間がかかるのも同じ理由です。何千ページもあって残り時間が少ないなら、サーバーに直接ページを求めるパソコン用のサイト巡回ソフトのほうが、1時間に進む量が多くなります。そのツールに見えないページと、リンク先の文書を種類別に取り出す場面に、Grab All Files を使ってください。"
+                "Grab All Files は、ブラウザの中でページを1つずつ読みます。そのため、ログインの先のページにも届きます。ただし、とても大きなサイトでは時間がかかります。何千ページもあって残り時間が少ないなら、サーバーに直接ページを求めるパソコン用のサイト複製ソフトのほうが、1時間に進む量が多くなります。そのツールに見えないページと、リンク先の文書を種類別に取り出す場面に、Grab All Files を使ってください。"
               ]
             },
             {
@@ -6031,7 +6031,7 @@
             },
             {
               "q": "何千ページもあるサイトには何を使えばよいですか？",
-              "a": "サーバーに直接ページを求めるパソコン用のサイト巡回ソフトです。大きな公開サイトでは速くなります。Grab All Files は、ログインのページや、文書を取り出す場面に使います。"
+              "a": "サーバーに直接ページを求めるパソコン用のサイト複製ソフトです。大きな公開サイトでは速くなります。Grab All Files は、ログインのページや、文書を取り出す場面に使います。"
             }
           ]
         },
@@ -6138,7 +6138,7 @@
               "t": "text",
               "h": "Cuando el sitio tiene miles de páginas",
               "p": [
-                "Grab All Files lee las páginas dentro de tu navegador, una tras otra. Así llega a las páginas tras tu inicio de sesión, y por eso un sitio muy grande tarda mucho. Con miles de páginas y poco tiempo, un copiador de sitios de escritorio, que pide las páginas directamente al servidor, abarca más por hora. Usa Grab All Files para las páginas que ese programa no puede ver, y para extraer por tipo los documentos enlazados."
+                "Grab All Files lee las páginas dentro de tu navegador, una tras otra. Así llega a las páginas tras tu inicio de sesión. Eso sí, un sitio muy grande tarda mucho. Con miles de páginas y poco tiempo, un copiador de sitios de escritorio, que pide las páginas directamente al servidor, abarca más por hora. Usa Grab All Files para las páginas que ese programa no puede ver, y para extraer por tipo los documentos enlazados."
               ]
             },
             {
@@ -6286,7 +6286,7 @@
               "t": "text",
               "h": "Quand le site compte des milliers de pages",
               "p": [
-                "Grab All Files lit les pages dans votre navigateur, l’une après l’autre. C’est ainsi qu’il atteint les pages derrière votre connexion, et c’est aussi pourquoi un très grand site prend du temps. Avec des milliers de pages et peu de temps, un outil de copie de sites pour ordinateur, qui demande les pages directement au serveur, couvre plus de terrain par heure. Utilisez Grab All Files pour les pages que ce programme ne peut pas voir, et pour extraire les documents liés par type."
+                "Grab All Files lit les pages dans votre navigateur, l’une après l’autre. Il atteint ainsi les pages derrière votre connexion. Sur un très grand site, en revanche, cela prend du temps. Avec des milliers de pages et peu de temps, un outil de copie de sites pour ordinateur, qui demande les pages directement au serveur, couvre plus de terrain par heure. Utilisez Grab All Files pour les pages que ce programme ne peut pas voir, et pour extraire les documents liés par type."
               ]
             },
             {
@@ -6434,7 +6434,7 @@
               "t": "text",
               "h": "Wenn die Website Tausende Seiten hat",
               "p": [
-                "Grab All Files liest Seiten in Ihrem Browser, eine nach der anderen. So erreicht es Seiten hinter Ihrer Anmeldung, und deshalb dauert eine sehr große Website lange. Bei Tausenden Seiten und wenig verbleibender Zeit schafft ein Website-Kopierer für den Desktop, der Seiten direkt beim Server anfordert, pro Stunde mehr. Nutzen Sie Grab All Files für die Seiten, die dieses Programm nicht sehen kann, und um die verlinkten Dokumente nach Typ herauszuziehen."
+                "Grab All Files liest Seiten in Ihrem Browser, eine nach der anderen. So erreicht es Seiten hinter Ihrer Anmeldung. Bei einer sehr großen Website dauert das allerdings lange. Bei Tausenden Seiten und wenig verbleibender Zeit schafft ein Website-Kopierer für den Desktop, der Seiten direkt beim Server anfordert, pro Stunde mehr. Nutzen Sie Grab All Files für die Seiten, die dieses Programm nicht sehen kann, und um die verlinkten Dokumente nach Typ herauszuziehen."
               ]
             },
             {
@@ -6582,7 +6582,7 @@
               "t": "text",
               "h": "Quando il sito ha migliaia di pagine",
               "p": [
-                "Grab All Files legge le pagine dentro il tuo browser, una dopo l’altra. È così che raggiunge le pagine dietro il tuo accesso, ed è anche il motivo per cui un sito molto grande richiede tempo. Con migliaia di pagine e poco tempo a disposizione, uno strumento desktop per copiare siti, che chiede le pagine direttamente al server, copre più terreno in un’ora. Usa Grab All Files per le pagine che quel programma non può vedere e per estrarre i documenti collegati per tipo."
+                "Grab All Files legge le pagine dentro il tuo browser, una dopo l’altra. Così raggiunge le pagine dietro il tuo accesso. Su un sito molto grande, però, richiede tempo. Con migliaia di pagine e poco tempo a disposizione, uno strumento desktop per copiare siti, che chiede le pagine direttamente al server, copre più terreno in un’ora. Usa Grab All Files per le pagine che quel programma non può vedere e per estrarre i documenti collegati per tipo."
               ]
             },
             {
@@ -6730,7 +6730,7 @@
               "t": "text",
               "h": "사이트가 수천 페이지일 때",
               "p": [
-                "Grab All Files는 브라우저 안에서 페이지를 하나씩 차례로 읽습니다. 로그인 뒤의 페이지에 닿을 수 있는 것도 이 방식 덕분이고, 아주 큰 사이트에서 시간이 오래 걸리는 것도 같은 이유입니다. 수천 페이지에 남은 시간이 얼마 없다면, 서버에 직접 페이지를 요청하는 PC용 웹사이트 복사 프로그램이 시간당 더 넓은 범위를 처리합니다. Grab All Files는 그 프로그램이 볼 수 없는 페이지와, 링크된 문서를 유형별로 뽑아낼 때 쓰세요."
+                "Grab All Files는 브라우저 안에서 페이지를 하나씩 차례로 읽습니다. 덕분에 로그인 뒤의 페이지에도 닿을 수 있습니다. 다만 아주 큰 사이트에서는 시간이 오래 걸립니다. 수천 페이지에 남은 시간이 얼마 없다면, 서버에 직접 페이지를 요청하는 PC용 웹사이트 복사 프로그램이 시간당 더 넓은 범위를 처리합니다. Grab All Files는 그 프로그램이 볼 수 없는 페이지와, 링크된 문서를 유형별로 뽑아낼 때 쓰세요."
               ]
             },
             {
@@ -6878,7 +6878,7 @@
               "t": "text",
               "h": "Quando o site tem milhares de páginas",
               "p": [
-                "O Grab All Files lê as páginas dentro do seu navegador, uma depois da outra. É assim que ele alcança páginas atrás do seu login, e é também por isso que um site muito grande demora. Com milhares de páginas e pouco tempo, um copiador de sites para computador, que pede as páginas direto ao servidor, cobre mais terreno por hora. Use o Grab All Files para as páginas que esse programa não enxerga e para extrair os documentos vinculados por tipo."
+                "O Grab All Files lê as páginas dentro do seu navegador, uma depois da outra. Assim ele alcança páginas atrás do seu login. Em um site muito grande, porém, isso demora. Com milhares de páginas e pouco tempo, um copiador de sites para computador, que pede as páginas direto ao servidor, cobre mais terreno por hora. Use o Grab All Files para as páginas que esse programa não enxerga e para extrair os documentos vinculados por tipo."
               ]
             },
             {
@@ -7026,7 +7026,7 @@
               "t": "text",
               "h": "网站有数千页时",
               "p": [
-                "Grab All Files 在您的浏览器中逐页读取页面。正因为如此，它才能访问需要您登录的页面，同时也使得非常大的网站需要很长时间。如果有数千页而时间所剩不多，直接向服务器请求页面的桌面版网站复制工具每小时能覆盖更多内容。请用 Grab All Files 处理那种程序看不到的页面，以及按类型提取链接的文档。"
+                "Grab All Files 在您的浏览器中逐页读取页面。因此它能访问需要您登录的页面。不过，非常大的网站需要很长时间。如果有数千页而时间所剩不多，直接向服务器请求页面的桌面版网站复制工具每小时能覆盖更多内容。请用 Grab All Files 处理那种程序看不到的页面，以及按类型提取链接的文档。"
               ]
             },
             {
@@ -7174,7 +7174,7 @@
               "t": "text",
               "h": "網站有數千頁時",
               "p": [
-                "Grab All Files 在您的瀏覽器中逐頁讀取頁面。這正是它能取得需要您登入的頁面的原因，也是非常大的網站需要很長時間的原因。如果有數千頁而剩下的時間不多，直接向伺服器要求頁面的桌面版網站複製軟體，每小時能處理的範圍更大。請用 Grab All Files 處理該軟體看不到的頁面，以及依類型取出連結的文件。"
+                "Grab All Files 在您的瀏覽器中逐頁讀取頁面。因此它能取得需要您登入的頁面。不過，非常大的網站需要很長的時間。如果有數千頁而剩下的時間不多，直接向伺服器要求頁面的桌面版網站複製軟體，每小時能處理的範圍更大。請用 Grab All Files 處理該軟體看不到的頁面，以及依類型取出連結的文件。"
               ]
             },
             {
@@ -10289,7 +10289,7 @@
                   "items": [
                     "「次へ」のリンクではなく、スクロールで続きが出る一覧。無限スクロールのガイドを見てください。",
                     "一覧の途中でログインが切れたとき。ログイン後の保存のガイドを見てください。",
-                    "とても大きなアーカイブ。何千ページにもなるなら、パソコン用のサイト巡回ソフトのほうが向きます。"
+                    "とても大きなアーカイブ。何千ページにもなるなら、パソコン用のサイト複製ソフトのほうが向きます。"
                   ]
                 }
               ]
@@ -25393,7 +25393,7 @@
             },
             {
               "t": "text",
-              "h": "What the “100” on Pro is, and what it is not",
+              "h": "What the “100” limit on Pro actually applies to",
               "p": [
                 "Pro does not have a limit on how many files you download. Its 100 is the number of linked files saved next to the HTML per run in “Combine pages into HTML”: the PDFs and Office files that your saved pages point to. Free saves 10 of those per run. If more are linked, the result screen has a button for the next batch.",
                 "Two other numbers are easy to confuse with it. 100,000 is the page limit of one crawl, and 100 is also the number of “Next” pages a Pro scan follows with the longest “Scroll time” setting. All three are separate settings."
@@ -25458,7 +25458,7 @@
               "t": "table",
               "h": "What it cannot save, and what to use instead",
               "p": [
-                "The first column is what Grab All Files does not save. The last column names a kind of tool, not a product."
+                "What Grab All Files does not save, and which type of tool to use instead."
               ],
               "head": [
                 "Cannot save",
@@ -25550,7 +25550,7 @@
             },
             {
               "q": "What should I use for a site with thousands of pages?",
-              "a": "A desktop website copier. Grab All Files reads one page at a time inside your browser. That is how it can save pages behind a sign-in and pages built by JavaScript, and it is also why it is slow once a site runs to thousands of pages."
+              "a": "A desktop website copier. Grab All Files reads one page at a time inside your browser. This lets it save pages behind a sign-in and pages built by JavaScript. Once a site runs to thousands of pages, it becomes slow."
             }
           ]
         },
@@ -25626,7 +25626,7 @@
             },
             {
               "t": "text",
-              "h": "Pro の「100」は何の数か、何の数でないか",
+              "h": "Pro の「100件」は何の上限か",
               "p": [
                 "Pro には、ダウンロードするファイル数の上限はありません。Pro の100は、「ページをHTMLにまとめる」で、HTML と並べて1回に保存するリンク先ファイル（保存したページがリンクする PDF や Office 文書）の数です。無料は1回10件です。それより多くリンクされているときは、結果画面のボタンで次の分を保存します。",
                 "間違えやすい数字がほかに2つあります。100,000は1回の巡回で読むページの上限です。100は、Pro のスキャンが「読み込み時間」を最長にしたとき「次へ」でたどるページ数でもあります。3つは別々の設定です。"
@@ -25691,7 +25691,7 @@
               "t": "table",
               "h": "保存できないものと、代わりに使うツール",
               "p": [
-                "左の列は Grab All Files が保存しないものです。右の列は製品名ではなく、ツールの種類です。"
+                "Grab All Files が保存しないものと、代わりに使うツールの種類です。"
               ],
               "head": [
                 "保存できないもの",
@@ -25732,7 +25732,7 @@
                 [
                   "何千ページ、または前回から変わったファイルだけの取り直し",
                   "ブラウザの中で1ページずつ処理するので、その規模では遅く、差分だけを取る機能もありません。",
-                  "パソコン用のサイト巡回ソフト。"
+                  "パソコン用のサイト複製ソフト。"
                 ],
                 [
                   "大量の論文や公開データ",
@@ -25783,7 +25783,7 @@
             },
             {
               "q": "何千ページもあるサイトには、何を使えばよいですか？",
-              "a": "パソコン用のサイト巡回ソフトです。Grab All Files はブラウザの中で1ページずつ読みます。ログイン後のページや JavaScript で作られたページを保存できるのはそのためで、何千ページにもなると遅いのも同じ理由です。"
+              "a": "パソコン用のサイト複製ソフトです。Grab All Files はブラウザの中で1ページずつ読みます。そのため、ログイン後のページや JavaScript で作られたページも保存できます。ただ、何千ページにもなると遅くなります。"
             }
           ]
         },
@@ -25859,7 +25859,7 @@
             },
             {
               "t": "text",
-              "h": "Qué es el «100» de Pro y qué no es",
+              "h": "A qué se aplica el límite de «100» de Pro",
               "p": [
                 "Pro no limita cuántos archivos descargas. Su 100 es el número de archivos enlazados que se guardan junto al HTML en cada ejecución de «Combinar páginas en HTML»: los PDF y los archivos de Office a los que apuntan las páginas guardadas. El plan gratuito guarda 10 de ellos por ejecución. Si hay más enlazados, la pantalla de resultados tiene un botón para el siguiente lote.",
                 "Hay otras dos cifras fáciles de confundir con esta. 100.000 es el límite de páginas de un rastreo, y 100 es también el número de páginas «Siguiente» que sigue un escaneo con Pro con el ajuste «Tiempo de desplazamiento» más largo. Las tres son ajustes independientes."
@@ -25924,7 +25924,7 @@
               "t": "table",
               "h": "Qué no puede guardar y qué usar en su lugar",
               "p": [
-                "La primera columna es lo que Grab All Files no guarda. La última nombra un tipo de herramienta, no un producto."
+                "Lo que Grab All Files no guarda y qué tipo de herramienta usar en su lugar."
               ],
               "head": [
                 "No se puede guardar",
@@ -26016,7 +26016,7 @@
             },
             {
               "q": "¿Qué debo usar para un sitio con miles de páginas?",
-              "a": "Un copiador de sitios web de escritorio. Grab All Files lee una página cada vez dentro de tu navegador. Así puede guardar páginas tras un inicio de sesión y páginas construidas con JavaScript, y por eso mismo es lento cuando un sitio llega a miles de páginas."
+              "a": "Un copiador de sitios web de escritorio. Grab All Files lee una página cada vez dentro de tu navegador. Así puede guardar páginas tras un inicio de sesión y páginas construidas con JavaScript. Cuando un sitio llega a miles de páginas, se vuelve lento."
             }
           ]
         },
@@ -26092,7 +26092,7 @@
             },
             {
               "t": "text",
-              "h": "Ce qu’est le « 100 » de Pro, et ce qu’il n’est pas",
+              "h": "À quoi s’applique la limite de « 100 » de Pro",
               "p": [
                 "Pro n’a pas de limite sur le nombre de fichiers téléchargés. Son 100 est le nombre de fichiers liés enregistrés à côté du HTML par passage dans « Regrouper les pages en HTML » : les PDF et fichiers Office vers lesquels pointent vos pages enregistrées. La version gratuite en enregistre 10 par passage. S’il y en a davantage, l’écran de résultat propose un bouton pour le lot suivant.",
                 "Deux autres nombres se confondent facilement avec lui. 100 000 est la limite de pages d’une exploration, et 100 est aussi le nombre de pages « Suivant » qu’une analyse Pro suit avec le réglage « Durée de défilement » le plus long. Ces trois valeurs sont des réglages distincts."
@@ -26157,7 +26157,7 @@
               "t": "table",
               "h": "Ce qu’il ne peut pas enregistrer, et quoi utiliser à la place",
               "p": [
-                "La première colonne indique ce que Grab All Files n’enregistre pas. La dernière colonne désigne un type d’outil, et non un produit."
+                "Ce que Grab All Files n’enregistre pas, et le type d’outil à utiliser à la place."
               ],
               "head": [
                 "Non enregistrable",
@@ -26249,7 +26249,7 @@
             },
             {
               "q": "Que faut-il utiliser pour un site de plusieurs milliers de pages ?",
-              "a": "Un copieur de sites web pour ordinateur. Grab All Files lit une page à la fois dans votre navigateur. C’est ce qui lui permet d’enregistrer des pages derrière une connexion et des pages construites par JavaScript, et aussi ce qui le rend lent dès qu’un site compte des milliers de pages."
+              "a": "Un copieur de sites web pour ordinateur. Grab All Files lit une page à la fois dans votre navigateur. Il peut ainsi enregistrer des pages derrière une connexion et des pages construites par JavaScript. Dès qu’un site compte des milliers de pages, il devient lent."
             }
           ]
         },
@@ -26325,7 +26325,7 @@
             },
             {
               "t": "text",
-              "h": "Was die „100“ bei Pro ist und was nicht",
+              "h": "Wofür die Grenze von „100“ bei Pro gilt",
               "p": [
                 "Pro hat keine Begrenzung, wie viele Dateien Sie herunterladen. Die 100 ist die Zahl der verlinkten Dateien, die pro Durchlauf in „Seiten als HTML bündeln“ neben dem HTML gespeichert werden: die PDFs und Office-Dateien, auf die Ihre gespeicherten Seiten zeigen. Die kostenlose Version speichert davon 10 pro Durchlauf. Sind mehr verlinkt, hat der Ergebnisbildschirm eine Schaltfläche für den nächsten Stapel.",
                 "Zwei andere Zahlen lassen sich leicht damit verwechseln. 100.000 ist die Seitengrenze eines Crawls, und 100 ist auch die Zahl der „Weiter“-Seiten, denen ein Pro-Scan mit der längsten Einstellung „Scroll-Zeit“ folgt. Alle drei sind getrennte Einstellungen."
@@ -26390,7 +26390,7 @@
               "t": "table",
               "h": "Was es nicht speichern kann und was Sie stattdessen nutzen",
               "p": [
-                "Die erste Spalte nennt, was Grab All Files nicht speichert. Die letzte Spalte nennt eine Art von Werkzeug, kein Produkt."
+                "Was Grab All Files nicht speichert und welche Art von Werkzeug sich stattdessen eignet."
               ],
               "head": [
                 "Nicht speicherbar",
@@ -26482,7 +26482,7 @@
             },
             {
               "q": "Was sollte ich für eine Website mit Tausenden Seiten nutzen?",
-              "a": "Einen Website-Kopierer für den Desktop. Grab All Files liest jeweils eine Seite in Ihrem Browser. So kann es Seiten hinter einer Anmeldung und von JavaScript aufgebaute Seiten speichern, und deshalb ist es langsam, sobald eine Website auf Tausende Seiten kommt."
+              "a": "Einen Website-Kopierer für den Desktop. Grab All Files liest jeweils eine Seite in Ihrem Browser. So kann es Seiten hinter einer Anmeldung und von JavaScript aufgebaute Seiten speichern. Sobald eine Website auf Tausende Seiten kommt, wird es langsam."
             }
           ]
         },
@@ -26558,7 +26558,7 @@
             },
             {
               "t": "text",
-              "h": "Cos'è il «100» di Pro e cosa non è",
+              "h": "A cosa si riferisce il limite «100» di Pro",
               "p": [
                 "Pro non ha un limite al numero di file che scarichi. Il suo 100 è il numero di file collegati salvati accanto all'HTML per esecuzione in «Unisci pagine in HTML»: i PDF e i file Office a cui rimandano le pagine salvate. La versione gratuita ne salva 10 per esecuzione. Se ce ne sono di più, la schermata del risultato ha un pulsante per il gruppo successivo.",
                 "Altri due numeri si confondono facilmente con questo. 100.000 è il limite di pagine di una scansione, e 100 è anche il numero di pagine «Avanti» che una scansione Pro segue con l'impostazione «Tempo di scorrimento» più lunga. Sono tre impostazioni distinte."
@@ -26623,7 +26623,7 @@
               "t": "table",
               "h": "Cosa non può salvare e cosa usare al suo posto",
               "p": [
-                "La prima colonna indica ciò che Grab All Files non salva. L'ultima colonna indica un tipo di strumento, non un prodotto."
+                "Ciò che Grab All Files non salva e quale tipo di strumento usare al suo posto."
               ],
               "head": [
                 "Non può salvare",
@@ -26715,7 +26715,7 @@
             },
             {
               "q": "Cosa devo usare per un sito con migliaia di pagine?",
-              "a": "Un programma desktop per copiare siti web. Grab All Files legge una pagina alla volta dentro il tuo browser. È così che può salvare le pagine dietro un accesso e quelle costruite con JavaScript, ed è anche il motivo per cui è lento quando un sito arriva a migliaia di pagine."
+              "a": "Un programma desktop per copiare siti web. Grab All Files legge una pagina alla volta dentro il tuo browser. Così può salvare le pagine dietro un accesso e quelle costruite con JavaScript. Quando un sito arriva a migliaia di pagine, diventa lento."
             }
           ]
         },
@@ -26791,7 +26791,7 @@
             },
             {
               "t": "text",
-              "h": "Pro의 “100”이 무엇이고 무엇이 아닌지",
+              "h": "Pro의 “100”은 무엇의 한도인가",
               "p": [
                 "Pro에는 다운로드하는 파일 수의 제한이 없습니다. 100은 “페이지를 HTML로 합치기”에서 1회에 HTML 옆에 저장되는 링크된 파일의 수입니다. 저장한 페이지가 가리키는 PDF와 Office 파일입니다. 무료는 1회에 그것을 10개 저장합니다. 더 많이 링크되어 있다면 결과 화면에 다음 묶음을 위한 버튼이 있습니다.",
                 "혼동하기 쉬운 숫자가 두 개 더 있습니다. 100,000은 수집 1회의 페이지 한도이고, 100은 가장 긴 “스크롤 시간” 설정에서 Pro 스캔이 따라가는 “다음” 페이지 수이기도 합니다. 세 가지는 서로 별개의 설정입니다."
@@ -26856,7 +26856,7 @@
               "t": "table",
               "h": "저장할 수 없는 것과 대신 쓸 도구",
               "p": [
-                "첫 번째 열은 Grab All Files가 저장하지 않는 것입니다. 마지막 열은 제품이 아니라 도구의 종류입니다."
+                "Grab All Files가 저장하지 않는 것과, 대신 쓸 도구의 종류입니다."
               ],
               "head": [
                 "저장할 수 없는 것",
@@ -26948,7 +26948,7 @@
             },
             {
               "q": "수천 페이지의 사이트에는 무엇을 써야 하나요?",
-              "a": "PC용 웹사이트 복사 프로그램입니다. Grab All Files는 브라우저 안에서 한 번에 한 페이지씩 읽습니다. 그래서 로그인 뒤의 페이지와 JavaScript로 만든 페이지를 저장할 수 있고, 사이트가 수천 페이지가 되면 느려지는 것도 같은 이유입니다."
+              "a": "PC용 웹사이트 복사 프로그램입니다. Grab All Files는 브라우저 안에서 한 번에 한 페이지씩 읽습니다. 그래서 로그인 뒤의 페이지와 JavaScript로 만든 페이지를 저장할 수 있습니다. 다만 사이트가 수천 페이지가 되면 느려집니다."
             }
           ]
         },
@@ -27024,7 +27024,7 @@
             },
             {
               "t": "text",
-              "h": "O que é o “100” do Pro e o que ele não é",
+              "h": "A que se aplica o limite de “100” do Pro",
               "p": [
                 "O Pro não tem limite de quantos arquivos você baixa. O 100 dele é o número de arquivos vinculados salvos ao lado do HTML por execução em “Juntar páginas em HTML”: os PDFs e arquivos do Office para os quais as suas páginas salvas apontam. O plano gratuito salva 10 deles por execução. Se houver mais vinculados, a tela de resultado tem um botão para o próximo lote.",
                 "Outros dois números são fáceis de confundir com ele. 100.000 é o limite de páginas de uma varredura, e 100 também é o número de páginas “Próximo” que uma varredura do Pro segue com a configuração mais longa de “Tempo de rolagem”. Os três são configurações separadas."
@@ -27089,7 +27089,7 @@
               "t": "table",
               "h": "O que ele não salva e o que usar no lugar",
               "p": [
-                "A primeira coluna é o que o Grab All Files não salva. A última coluna nomeia um tipo de ferramenta, e não um produto."
+                "O que o Grab All Files não salva e que tipo de ferramenta usar no lugar."
               ],
               "head": [
                 "Não salva",
@@ -27181,7 +27181,7 @@
             },
             {
               "q": "O que devo usar para um site com milhares de páginas?",
-              "a": "Um copiador de sites para computador. O Grab All Files lê uma página por vez dentro do seu navegador. É assim que ele consegue salvar páginas com login e páginas feitas com JavaScript, e é também por isso que ele é lento quando um site chega a milhares de páginas."
+              "a": "Um copiador de sites para computador. O Grab All Files lê uma página por vez dentro do seu navegador. Assim ele consegue salvar páginas com login e páginas feitas com JavaScript. Quando um site chega a milhares de páginas, ele fica lento."
             }
           ]
         },
@@ -27257,7 +27257,7 @@
             },
             {
               "t": "text",
-              "h": "Pro 的“100”是什么，不是什么",
+              "h": "Pro 的“100”限制的是什么",
               "p": [
                 "Pro 对下载的文件数量没有限制。它的100是“将网页合并为 HTML”中每次运行保存在HTML旁边的链接文件数：即您保存的页面所指向的PDF和Office文件。免费版每次运行保存其中10个。如果链接的文件更多，结果画面上有保存下一批的按钮。",
                 "另外有两个数字容易与它混淆。100,000是一次搜索的页面上限，而100也是 Pro 扫描在最长的“滚动时间”设置下跟随的“下一个”页面数。这三者是各自独立的设置。"
@@ -27322,7 +27322,7 @@
               "t": "table",
               "h": "无法保存的内容，以及改用什么",
               "p": [
-                "第一列是 Grab All Files 不保存的内容。最后一列给出的是一类工具，而不是某个产品。"
+                "Grab All Files 不保存的内容，以及可改用的工具类型。"
               ],
               "head": [
                 "无法保存",
@@ -27414,7 +27414,7 @@
             },
             {
               "q": "有数千页的网站该用什么？",
-              "a": "桌面版网站复制工具。Grab All Files 在您的浏览器中一次读取一页。正因为如此，它才能保存需要登录的页面和由JavaScript构建的页面，同时也使得网站达到数千页时速度很慢。"
+              "a": "桌面版网站复制工具。Grab All Files 在您的浏览器中一次读取一页。因此它能保存需要登录的页面和由JavaScript构建的页面。但网站达到数千页时，速度会很慢。"
             }
           ]
         },
@@ -27490,7 +27490,7 @@
             },
             {
               "t": "text",
-              "h": "Pro 的「100」是什麼，不是什麼",
+              "h": "Pro 的「100」限制的是什麼",
               "p": [
                 "Pro 沒有下載檔案數的上限。Pro 的 100，是指在「將網頁合併為 HTML」中，每次執行與 HTML 一併儲存的連結檔案數量：也就是您所儲存的頁面所連結的 PDF 和 Office 檔案。免費版每次儲存 10 個。若連結的檔案更多，結果畫面上有按鈕可儲存下一批。",
                 "另外有兩個數字容易混淆。100,000 是單次爬取的頁數上限；100 也是 Pro 掃描在「捲動時間」設為最長時透過「下一頁」追蹤的頁數。這三項是各自獨立的設定。"
@@ -27555,7 +27555,7 @@
               "t": "table",
               "h": "無法儲存的內容與替代工具",
               "p": [
-                "第一欄是 Grab All Files 不會儲存的內容。最後一欄列出的是工具的類別，而非特定產品。"
+                "Grab All Files 不會儲存的內容，以及可改用的工具類型。"
               ],
               "head": [
                 "無法儲存的內容",
@@ -27647,7 +27647,7 @@
             },
             {
               "q": "有數千頁的網站該用什麼？",
-              "a": "桌面版網站複製工具。Grab All Files 在您的瀏覽器內一次讀取一頁。正因如此，它才能儲存登入後的頁面和由 JavaScript 產生的頁面；網站達到數千頁時速度變慢，也是同樣的原因。"
+              "a": "桌面版網站複製工具。Grab All Files 在您的瀏覽器內一次讀取一頁。因此它能儲存登入後的頁面和由 JavaScript 產生的頁面。但網站達到數千頁時，速度會變慢。"
             }
           ]
         }
@@ -27837,7 +27837,7 @@
           ]
         },
         "ja": {
-          "title": "サイト巡回ソフト・1ページ保存・ダウンロード管理ソフトの違いと選び方 | Grab All Files",
+          "title": "サイト複製ソフト・1ページ保存・ダウンロード管理ソフトの違いと選び方 | Grab All Files",
           "desc": "Web の内容を保存する4つの方式を比較。パソコン用の巡回ソフト、1ページ保存の拡張機能、ダウンロード管理ソフト、Grab All Files。向かない行も書きます。",
           "eyebrow": "方式の選び方",
           "h1": "巡回ソフト、1ページ保存、ダウンロード管理、Grab All Files。方式ごとの得意なこと。",
@@ -27851,7 +27851,7 @@
               ],
               "head": [
                 "",
-                "パソコン用のサイト巡回ソフト",
+                "パソコン用のサイト複製ソフト",
                 "1ページを保存する拡張機能",
                 "ダウンロード管理ソフト",
                 "Grab All Files"
@@ -27990,8 +27990,8 @@
           ],
           "faq": [
             {
-              "q": "Grab All Files はサイト巡回ソフトですか？",
-              "a": "一般的な意味では違います。ブラウザの中で1ページずつ保存し、サイトのフォルダの形をパソコンに書き出すこともできます。限られた数のページに向いています。何千ページもあるサイトは、パソコン用のサイト巡回ソフトのほうが向いています。"
+              "q": "Grab All Files はサイト複製ソフトですか？",
+              "a": "一般的な意味では違います。ブラウザの中で1ページずつ保存し、サイトのフォルダの形をパソコンに書き出すこともできます。限られた数のページに向いています。何千ページもあるサイトは、パソコン用のサイト複製ソフトのほうが向いています。"
             },
             {
               "q": "ログインが必要なサイトには、どの方式が向きますか？",
@@ -27999,7 +27999,7 @@
             },
             {
               "q": "保存したコピーを更新して、変わった分だけ取れますか？",
-              "a": "Grab All Files ではできません。同じサイトの前回の収集と比べる Markdown の差分レポートはありますが、ページはもう一度保存します。更新には、パソコン用のサイト巡回ソフトが向いています。"
+              "a": "Grab All Files ではできません。同じサイトの前回の収集と比べる Markdown の差分レポートはありますが、ページはもう一度保存します。更新には、パソコン用のサイト複製ソフトが向いています。"
             },
             {
               "q": "ダウンロード管理ソフトとの違いは何ですか？",
@@ -31018,7 +31018,7 @@
           "desc": "Short, specific answers: is it safe, are files uploaded, is Pro one-time, how many devices, what Free does, which browsers, sign-ins, permissions and refunds.",
           "eyebrow": "Questions and answers",
           "h1": "Grab All Files: frequently asked questions.",
-          "lead": "Answers to the questions people ask before installing a browser extension that reads web pages: what it sends, what it costs, what it needs access to, and what it does not do. Each answer is short and gives the actual numbers.",
+          "lead": "Answers to the questions people ask before installing a browser extension that reads web pages: what it sends, what it costs, what it needs access to, and what it does not do, with the actual numbers.",
           "blocks": [
             {
               "t": "text",
@@ -31120,7 +31120,7 @@
           "desc": "安全か、ファイルは送られるか、Pro は買い切りか、何台で使えるか、無料でできること、対応ブラウザ、ログイン、権限、返金までを具体的に答えます。",
           "eyebrow": "質問と答え",
           "h1": "Grab All Files のよくある質問。",
-          "lead": "ページを読み取るブラウザ拡張機能を入れる前に、よく聞かれることをまとめました。何を送るのか、いくらかかるのか、何にアクセスするのか、何をしないのか。答えは短く、実際の数字で書いています。",
+          "lead": "ページを読み取るブラウザ拡張機能を入れる前によく聞かれること（何を送るのか、いくらかかるのか、何にアクセスするのか、何をしないのか）を、実際の数字つきでまとめました。",
           "blocks": [
             {
               "t": "text",
@@ -31222,7 +31222,7 @@
           "desc": "Respuestas breves y concretas: seguridad, envío de archivos, pago único de Pro, dispositivos, plan gratuito, navegadores, inicios de sesión, permisos y reembolsos.",
           "eyebrow": "Preguntas y respuestas",
           "h1": "Grab All Files: preguntas frecuentes.",
-          "lead": "Respuestas a las preguntas que se hace la gente antes de instalar una extensión de navegador que lee páginas web: qué envía, cuánto cuesta, a qué necesita acceso y qué no hace. Cada respuesta es breve y da las cifras reales.",
+          "lead": "Respuestas a las preguntas que se hace la gente antes de instalar una extensión de navegador que lee páginas web: qué envía, cuánto cuesta, a qué necesita acceso y qué no hace, con las cifras reales.",
           "blocks": [
             {
               "t": "text",
@@ -31324,7 +31324,7 @@
           "desc": "Réponses courtes : est-il sûr, les fichiers sont-ils envoyés, Pro en achat unique, nombre d’appareils, version gratuite, navigateurs, connexions, autorisations, remboursement.",
           "eyebrow": "Questions et réponses",
           "h1": "Grab All Files : questions fréquentes.",
-          "lead": "Réponses aux questions que l’on se pose avant d’installer une extension de navigateur qui lit les pages web : ce qu’elle envoie, ce qu’elle coûte, à quoi elle a besoin d’accéder et ce qu’elle ne fait pas. Chaque réponse est courte et donne les chiffres réels.",
+          "lead": "Réponses aux questions que l’on se pose avant d’installer une extension de navigateur qui lit les pages web : ce qu’elle envoie, ce qu’elle coûte, à quoi elle a besoin d’accéder et ce qu’elle ne fait pas, avec les chiffres réels.",
           "blocks": [
             {
               "t": "text",
@@ -31426,7 +31426,7 @@
           "desc": "Kurze, konkrete Antworten: Ist es sicher, werden Dateien hochgeladen, ist Pro einmalig, wie viele Geräte, was die kostenlose Version kann, Browser, Anmeldung, Erstattung.",
           "eyebrow": "Fragen und Antworten",
           "h1": "Grab All Files: häufig gestellte Fragen.",
-          "lead": "Antworten auf die Fragen, die man vor der Installation einer Browser-Erweiterung stellt, die Webseiten liest: was sie sendet, was sie kostet, worauf sie Zugriff braucht und was sie nicht tut. Jede Antwort ist kurz und nennt die tatsächlichen Zahlen.",
+          "lead": "Antworten auf die Fragen, die man vor der Installation einer Browser-Erweiterung stellt, die Webseiten liest: was sie sendet, was sie kostet, worauf sie Zugriff braucht und was sie nicht tut, mit den tatsächlichen Zahlen.",
           "blocks": [
             {
               "t": "text",
@@ -31528,7 +31528,7 @@
           "desc": "Risposte brevi e precise: è sicuro, i file vengono caricati, Pro è una tantum, quanti dispositivi, cosa fa la versione gratuita, quali browser, accessi, permessi e rimborsi.",
           "eyebrow": "Domande e risposte",
           "h1": "Grab All Files: domande frequenti.",
-          "lead": "Risposte alle domande che ci si pone prima di installare un'estensione del browser che legge le pagine web: cosa invia, quanto costa, a cosa ha bisogno di accedere e cosa non fa. Ogni risposta è breve e dà i numeri reali.",
+          "lead": "Risposte alle domande che ci si pone prima di installare un'estensione del browser che legge le pagine web: cosa invia, quanto costa, a cosa ha bisogno di accedere e cosa non fa, con i numeri reali.",
           "blocks": [
             {
               "t": "text",
@@ -31630,7 +31630,7 @@
           "desc": "짧고 구체적인 답변: 안전한가, 파일이 업로드되나, Pro는 1회 결제인가, 몇 대까지, 무료로 되는 것, 지원 브라우저, 로그인, 권한, 환불.",
           "eyebrow": "질문과 답변",
           "h1": "Grab All Files: 자주 묻는 질문.",
-          "lead": "웹 페이지를 읽는 브라우저 확장 프로그램을 설치하기 전에 사람들이 묻는 질문에 대한 답입니다. 무엇을 전송하는지, 비용은 얼마인지, 어떤 접근 권한이 필요한지, 무엇을 하지 않는지입니다. 답변은 짧고 실제 숫자를 담았습니다.",
+          "lead": "웹 페이지를 읽는 브라우저 확장 프로그램을 설치하기 전에 자주 묻는 질문(무엇을 전송하는지, 비용은 얼마인지, 어떤 접근 권한이 필요한지, 무엇을 하지 않는지)에 실제 숫자로 답합니다.",
           "blocks": [
             {
               "t": "text",
@@ -31732,7 +31732,7 @@
           "desc": "Respostas curtas: é seguro, os arquivos são enviados, o Pro é pagamento único, quantos dispositivos, o que o plano gratuito faz, navegadores, logins, permissões e reembolso.",
           "eyebrow": "Perguntas e respostas",
           "h1": "Grab All Files: perguntas frequentes.",
-          "lead": "Respostas às perguntas que as pessoas fazem antes de instalar uma extensão de navegador que lê páginas da web: o que ela envia, quanto custa, a que ela precisa de acesso e o que ela não faz. Cada resposta é curta e traz os números reais.",
+          "lead": "Respostas às perguntas que as pessoas fazem antes de instalar uma extensão de navegador que lê páginas da web: o que ela envia, quanto custa, a que ela precisa de acesso e o que ela não faz, com os números reais.",
           "blocks": [
             {
               "t": "text",
@@ -31834,7 +31834,7 @@
           "desc": "简短而具体的回答：是否安全、文件是否会被上传、Pro是否一次性购买、可用设备数、免费版能做什么、支持的浏览器、登录、权限和退款。",
           "eyebrow": "问与答",
           "h1": "Grab All Files：常见问题。",
-          "lead": "这里回答的是人们在安装读取网页的浏览器扩展之前会问的问题：它会发送什么、价格多少、需要访问什么，以及它不做什么。每个回答都很简短，并给出实际的数字。",
+          "lead": "这里回答的是人们在安装读取网页的浏览器扩展之前会问的问题：它会发送什么、价格多少、需要访问什么，以及它不做什么，并给出实际数字。",
           "blocks": [
             {
               "t": "text",
@@ -31936,7 +31936,7 @@
           "desc": "簡短而具體的回答：是否安全、檔案是否上傳、Pro 是否買斷、幾台裝置、免費版能做什麼、支援的瀏覽器、登入、權限和退款。",
           "eyebrow": "問與答",
           "h1": "Grab All Files：常見問題。",
-          "lead": "這裡回答人們在安裝一個會讀取網頁的瀏覽器擴充功能之前常問的問題：它會傳送什麼、費用多少、需要哪些存取權限，以及它不會做什麼。每個回答都很簡短，並附上實際的數字。",
+          "lead": "這裡回答人們在安裝一個會讀取網頁的瀏覽器擴充功能之前常問的問題：它會傳送什麼、費用多少、需要哪些存取權限，以及它不會做什麼，並附上實際數字。",
           "blocks": [
             {
               "t": "text",
