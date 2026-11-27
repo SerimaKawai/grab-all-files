@@ -303,12 +303,12 @@
       edge: "Edge 加载项",
       firefox: "Firefox 附加组件",
       purchase: "购买",
-      license: "Pro（$19.99 一次性购买）：解除文件上限＋多页面HTML",
-      trial: "免费版：每次下载 10 个文件＋将所选 1 个页面保存为HTML",
-      local: "PDF合并、ZIP和CSV均在浏览器本地处理",
+      license: "Pro（$19.99 一次性购买）：解除文件上限＋多页面 HTML",
+      trial: "免费版：每次下载 10 个文件＋将所选 1 个页面保存为 HTML",
+      local: "PDF 合并、ZIP 和 CSV 均在浏览器本地处理",
       privacy: "文件从源网站直接下载到您的设备",
       ctaTitle: "在浏览器中试用 Grab All Files。",
-      ctaText: "免费版在文件批量下载中每次下载最多保存 10 个文件，将网页合并为 HTML时每次保存 1 个选定页面；该页面直接链接的文件可用“保存接下来的 10 个文件”每次保存 10 个。Pro（$19.99，一次性购买，最多 3 台设备）没有每次下载的上限，并可将多个页面合并为一个HTML。",
+      ctaText: "免费版在文件批量下载中每次下载最多保存 10 个文件，将网页合并为 HTML 时每次保存 1 个选定页面；该页面直接链接的文件可用“保存接下来的 10 个文件”每次保存 10 个。Pro（$19.99，一次性购买，最多 3 台设备）没有每次下载的上限，并可将多个页面合并为一个 HTML。",
       skip: "跳至主要内容",
       primaryNav: "主导航",
       themeToggle: "切换主题",
@@ -336,12 +336,12 @@
       edge: "Edge 附加元件",
       firefox: "Firefox 附加元件",
       purchase: "購買",
-      license: "Pro：$19.99 一次購買，解除檔案上限＋多頁面HTML",
-      trial: "免費版：每次下載 10 個檔案＋將所選 1 個頁面儲存為HTML",
-      local: "PDF合併、ZIP和CSV均在瀏覽器本機處理",
+      license: "Pro：$19.99 一次購買，解除檔案上限＋多頁面 HTML",
+      trial: "免費版：每次下載 10 個檔案＋將所選 1 個頁面儲存為 HTML",
+      local: "PDF 合併、ZIP 和 CSV 均在瀏覽器本機處理",
       privacy: "檔案從來源網站直接下載到您的裝置",
       ctaTitle: "在瀏覽器中試用 Grab All Files。",
-      ctaText: "免費版在檔案批次下載中每次下載最多儲存 10 個檔案，將網頁合併為 HTML時每次儲存 1 個選定頁面；該頁面直接連結的檔案可用「儲存接下來的 10 個檔案」每次儲存 10 個。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次下載的上限，並可將多個頁面合併為一個HTML。",
+      ctaText: "免費版在檔案批次下載中每次下載最多儲存 10 個檔案，將網頁合併為 HTML 時每次儲存 1 個選定頁面；該頁面直接連結的檔案可用「儲存接下來的 10 個檔案」每次儲存 10 個。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次下載的上限，並可將多個頁面合併為一個 HTML。",
       skip: "跳至主要內容",
       primaryNav: "主要導覽",
       themeToggle: "切換主題",
@@ -773,20 +773,20 @@
     zh_CN: {
       /* NEWCASES-LABELS-BEGIN */
       "save-entire-website": "整站保存",
-      "website-to-notebooklm-chatgpt-claude": "让AI读取网站",
+      "website-to-notebooklm-chatgpt-claude": "让 AI 读取网站",
       "save-all-blog-and-news-articles": "保存博客和新闻的全部文章",
       "archive-website-before-it-closes": "网站关闭前先保存",
       "save-pages-and-files-behind-login": "保存登录后的页面和资料",
       "bulk-download-word-excel-powerpoint": "批量保存 Word、Excel、PowerPoint",
       "follow-next-page-links-and-collect": "跟随“下一个”链接并收集",
       "save-infinite-scroll-pages": "保存滚动加载的页面",
-      "download-multiple-files-as-zip": "多个文件保存为一个ZIP",
+      "download-multiple-files-as-zip": "多个文件保存为一个 ZIP",
       "download-linked-video-and-audio-files": "保存链接的视频和音频文件",
       "save-pages-with-source-url-and-date": "附带原网址和日期保存",
       "download-insurance-policy-documents": "保险条款和宣传册汇总",
-      "collect-law-case-and-patent-pdfs": "法规、判例和专利PDF",
+      "collect-law-case-and-patent-pdfs": "法规、判例和专利 PDF",
       "save-course-materials-and-syllabi": "课程资料和教学大纲",
-      "collect-real-estate-and-drawing-pdfs": "房产资料和图纸PDF",
+      "collect-real-estate-and-drawing-pdfs": "房产资料和图纸 PDF",
       "track-competitor-prices-and-product-pages": "竞争对手价格表和产品页",
       "what-grab-all-files-can-and-cannot-do": "能做什么、不能做什么",
       "crawler-vs-page-saver-vs-download-manager": "网站复制、单页保存、下载管理器的区别",
@@ -794,27 +794,27 @@
       "grab-all-files-faq": "常见问题",
       /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "产品目录与数据表",
-      "download-ir-and-financial-report-pdfs": "IR与财务报告PDF",
+      "download-ir-and-financial-report-pdfs": "IR 与财务报告 PDF",
       "download-tender-and-application-documents": "招标与申请文件",
-      "export-file-links-to-csv": "文件链接导出为CSV",
-      "download-sds-and-technical-documents": "SDS与技术资料",
-      "download-arxiv-pdfs-and-research-files": "arXiv PDF与研究文件",
-      "web-tables-to-csv-for-excel-ai": "网页表格转CSV",
+      "export-file-links-to-csv": "文件链接导出为 CSV",
+      "download-sds-and-technical-documents": "SDS 与技术资料",
+      "download-arxiv-pdfs-and-research-files": "arXiv PDF 与研究文件",
+      "web-tables-to-csv-for-excel-ai": "网页表格转 CSV",
       "save-and-compare-document-revisions": "保存并比较修订前后资料",
-      "rename-and-organize-bulk-pdf-downloads": "PDF重命名与整理",
+      "rename-and-organize-bulk-pdf-downloads": "PDF 重命名与整理",
       "collect-public-government-documents": "政府公开文件与指南",
-      "save-web-pages-as-markdown": "用Markdown复用Web资料",
+      "save-web-pages-as-markdown": "用 Markdown 复用 Web 资料",
       "save-online-manuals-and-knowledge-pages": "保存业务手册与知识文章",
-      "web-pages-for-reading-and-ai-analysis": "收集信息·阅读·AI分析",
+      "web-pages-for-reading-and-ai-analysis": "收集信息·阅读·AI 分析",
       "collect-and-analyze-web-comments": "批量保存与分析评论",
       "combine-web-pages-into-one-html": "将网页合并为 HTML",
       "save-web-pages-with-original-design": "保留原样的网页保存",
       "combine-local-html-files-into-one": "电脑里的 HTML 合为一个",
-      "download-all-pdfs": "下载所有PDF",
+      "download-all-pdfs": "下载所有 PDF",
       "bulk-download-images": "批量下载图片",
       "download-files-from-webpage": "下载网页文件",
-      "internal-portal-downloads": "内部门户和LMS",
-      "merge-pdfs-locally": "本地合并PDF"
+      "internal-portal-downloads": "内部门户和 LMS",
+      "merge-pdfs-locally": "本地合并 PDF"
     },
     zh_TW: {
       /* NEWCASES-LABELS-BEGIN */
@@ -830,9 +830,9 @@
       "download-linked-video-and-audio-files": "下載連結的影片與音訊檔案",
       "save-pages-with-source-url-and-date": "儲存網頁並保留來源網址與日期",
       "download-insurance-policy-documents": "保險商品文件",
-      "collect-law-case-and-patent-pdfs": "法規、判決與專利PDF",
+      "collect-law-case-and-patent-pdfs": "法規、判決與專利 PDF",
       "save-course-materials-and-syllabi": "課程教材與課程大綱",
-      "collect-real-estate-and-drawing-pdfs": "物件與圖面PDF",
+      "collect-real-estate-and-drawing-pdfs": "物件與圖面 PDF",
       "track-competitor-prices-and-product-pages": "競爭對手價格與產品頁面",
       "what-grab-all-files-can-and-cannot-do": "能做與不能做的事",
       "crawler-vs-page-saver-vs-download-manager": "網站複製工具、單頁儲存與下載管理程式",
@@ -840,27 +840,27 @@
       "grab-all-files-faq": "Grab All Files 常見問題",
       /* NEWCASES-LABELS-END */
       "download-product-catalogs-and-datasheets": "產品型錄與資料表",
-      "download-ir-and-financial-report-pdfs": "IR與財務報告PDF",
+      "download-ir-and-financial-report-pdfs": "IR 與財務報告 PDF",
       "download-tender-and-application-documents": "招標與申請文件",
-      "export-file-links-to-csv": "檔案連結匯出為CSV",
-      "download-sds-and-technical-documents": "SDS與技術資料",
-      "download-arxiv-pdfs-and-research-files": "arXiv PDF與研究檔案",
-      "web-tables-to-csv-for-excel-ai": "網頁表格轉CSV",
+      "export-file-links-to-csv": "檔案連結匯出為 CSV",
+      "download-sds-and-technical-documents": "SDS 與技術資料",
+      "download-arxiv-pdfs-and-research-files": "arXiv PDF 與研究檔案",
+      "web-tables-to-csv-for-excel-ai": "網頁表格轉 CSV",
       "save-and-compare-document-revisions": "儲存並比較修訂前後資料",
-      "rename-and-organize-bulk-pdf-downloads": "PDF重新命名與整理",
+      "rename-and-organize-bulk-pdf-downloads": "PDF 重新命名與整理",
       "collect-public-government-documents": "政府公開文件與說明",
-      "save-web-pages-as-markdown": "用Markdown重用Web資料",
+      "save-web-pages-as-markdown": "用 Markdown 重用 Web 資料",
       "save-online-manuals-and-knowledge-pages": "儲存業務手冊與知識文章",
-      "web-pages-for-reading-and-ai-analysis": "收集資訊·閱讀·AI分析",
+      "web-pages-for-reading-and-ai-analysis": "收集資訊·閱讀·AI 分析",
       "collect-and-analyze-web-comments": "批次儲存與分析留言",
       "combine-web-pages-into-one-html": "將網頁合併為 HTML",
       "save-web-pages-with-original-design": "保留原樣的網頁儲存",
       "combine-local-html-files-into-one": "電腦裡的 HTML 合為一個",
-      "download-all-pdfs": "下載所有PDF",
+      "download-all-pdfs": "下載所有 PDF",
       "bulk-download-images": "批次下載圖片",
       "download-files-from-webpage": "下載網頁檔案",
-      "internal-portal-downloads": "內部入口和LMS",
-      "merge-pdfs-locally": "本機合併PDF"
+      "internal-portal-downloads": "內部入口和 LMS",
+      "merge-pdfs-locally": "本機合併 PDF"
     }
   };
 
@@ -2378,7 +2378,7 @@
           "desc": "在浏览器中保存几十到几百页的网站，保留外观、链接和附带的PDF。登录页面和JavaScript页面同样适用。支持Chrome、Edge、Firefox。",
           "eyebrow": "整站副本",
           "h1": "保存整个网站，包括登录后才能看到的页面。",
-          "lead": "Grab All Files 按浏览器显示的样子保存页面，因此会员区和用JavaScript构建的网站也能保存。它适合几十到几百页的网站。如果有数千页，或需要让副本保持最新，桌面版网站复制工具更合适（见下文）。",
+          "lead": "Grab All Files 按浏览器显示的样子保存页面，因此会员区和用 JavaScript 构建的网站也能保存。它适合几十到几百页的网站。如果有数千页，或需要让副本保持最新，桌面版网站复制工具更合适（见下文）。",
           "blocks": [
             {
               "t": "pair",
@@ -2387,9 +2387,9 @@
                   "h": "适合的情况",
                   "items": [
                     "必须登录才能看到页面：会员网站、供应商门户、您已报名的课程。",
-                    "页面由JavaScript绘制，直接下载HTML得到的内容几乎是空的。",
+                    "页面由 JavaScript 绘制，直接下载 HTML 得到的内容几乎是空的。",
                     "网站有几十到几百页，您想保留原有版式并离线阅读。",
-                    "页面链接了PDF、Word或Excel文件，您希望把它们放在同一个文件夹里。"
+                    "页面链接了 PDF、Word 或 Excel 文件，您希望把它们放在同一个文件夹里。"
                   ]
                 },
                 {
@@ -2409,7 +2409,7 @@
               "h": "保存前需要选择的内容",
               "src": "/assets/screenshots/use-case-save-web-pages-with-original-design-en.png",
               "alt": "Grab All Files，将网页合并为 HTML：从哪里收集、收集到多远、要保存的页面、整理为易读格式或保持原样，以及保存文件的四种形式。",
-              "cap": "免费版中的实际面板。第4步选择外观，第5步从四种形式中选择一种。“按网站结构保存到文件夹”会在您的电脑上重建网站的文件夹结构。",
+              "cap": "免费版中的实际面板。第 4 步选择外观，第 5 步从四种形式中选择一种。“按网站结构保存到文件夹”会在您的电脑上重建网站的文件夹结构。",
               "w": 2560,
               "hgt": 2662,
               "webp": "/assets/screenshots/use-case-save-web-pages-with-original-design-en.webp"
@@ -2418,34 +2418,34 @@
               "t": "art",
               "h": "副本的四种保存方式",
               "p": [
-                "选择“保持原样”后，四种方式都可以使用。免费版每次操作保存1个页面，Pro 可在一次操作中保存多个页面。"
+                "选择“保持原样”后，四种方式都可以使用。免费版每次操作保存 1 个页面，Pro 可在一次操作中保存多个页面。"
               ],
               "items": [
                 [
                   "form-site-folder",
                   "按网站结构保存到文件夹",
-                  "页面写入您选择的文件夹，文件夹结构与网站相同。点击链接即可离线浏览。仅限Chrome和Edge。",
+                  "页面写入您选择的文件夹，文件夹结构与网站相同。点击链接即可离线浏览。仅限 Chrome 和 Edge。",
                   160,
                   64
                 ],
                 [
                   "form-pages-zip",
-                  "分页HTML（ZIP）",
-                  "每个页面一个HTML文件，外加index.html，打包成一个ZIP。已保存页面之间的链接会打开保存的副本。",
+                  "分页 HTML（ZIP）",
+                  "每个页面一个 HTML 文件，外加 index.html，打包成一个 ZIP。已保存页面之间的链接会打开保存的副本。",
                   160,
                   64
                 ],
                 [
                   "form-contents-search",
-                  "带目录和搜索的HTML",
+                  "带目录和搜索的 HTML",
                   "所有页面合在一个文件里，带目录和搜索框。四种方式中体积最小。",
                   160,
                   64
                 ],
                 [
                   "form-long-page",
-                  "纵向拼接HTML（适合打印）",
-                  "页面从上到下拼接，打印时每个页面之间分页。如果需要PDF，可以在浏览器中打印为PDF。",
+                  "纵向拼接 HTML（适合打印）",
+                  "页面从上到下拼接，打印时每个页面之间分页。如果需要 PDF，可以在浏览器中打印为 PDF。",
                   160,
                   64
                 ]
@@ -2459,8 +2459,8 @@
                 "如果网站需要登录，请在同一个浏览器中登录，然后打开想要开始的页面，通常是首页或目录页。",
                 "打开 Grab All Files，切换到“将网页合并为 HTML”。在收集范围中，选择查找已链接的页面，或使用站点地图或粘贴的网址列表以便更精细地控制。",
                 "检查候选列表。去掉不需要的页面，并把其余页面排成想要的顺序。",
-                "选择“保持原样”和“按网站结构保存到文件夹”这种形式（Firefox 用户选择ZIP），然后选好目标文件夹并开始。",
-                "如果页面链接了PDF或Office文件，它们会保存在页面旁边：Pro 每次操作最多100个，其余的可通过结果画面上的按钮继续保存。"
+                "选择“保持原样”和“按网站结构保存到文件夹”这种形式（Firefox 用户选择 ZIP），然后选好目标文件夹并开始。",
+                "如果页面链接了 PDF 或 Office 文件，它们会保存在页面旁边：Pro 每次操作最多 100 个，其余的可通过结果画面上的按钮继续保存。"
               ]
             },
             {
@@ -2474,8 +2474,8 @@
               "rows": [
                 [
                   "每次操作的页面数",
-                  "1个，从候选列表中选择。可以一次一个地把更多页面添加到同一个文件夹。",
-                  "您选择多少就保存多少，一次完成。超过100页时，会先询问是否每100页暂停一次。"
+                  "1 个，从候选列表中选择。可以一次一个地把更多页面添加到同一个文件夹。",
+                  "您选择多少就保存多少，一次完成。超过 100 页时，会先询问是否每 100 页暂停一次。"
                 ],
                 [
                   "查找页面",
@@ -2483,9 +2483,9 @@
                   "相同"
                 ],
                 [
-                  "已链接的PDF和Office文件",
-                  "每次操作10个，之后可用“保存接下来的 10 个文件”继续",
-                  "每次操作100个，之后使用同一个按钮"
+                  "已链接的 PDF 和 Office 文件",
+                  "每次操作 10 个，之后可用“保存接下来的 10 个文件”继续",
+                  "每次操作 100 个，之后使用同一个按钮"
                 ],
                 [
                   "保存文件的形式",
@@ -2499,21 +2499,21 @@
               "h": "保存后的页面表现如何",
               "p": [
                 "每个页面都保留自己的样式表、网页字体和图片。多个页面共用的文件只保存一份。网站的脚本会被移除，打开保存的页面时也不会连接网络，因此选项卡、折叠面板和轮播箭头仍然可用，但表单、需要向服务器查询的搜索框以及嵌入的视频播放器无法使用。",
-                "保存前，每个页面都会在标签页中打开并滚动，让懒加载的图片显示出来。滚动所用的时间遵循“滚动时间”设置（45秒、90秒或180秒）。广告默认不保存，每个页面重复出现的页眉、菜单和页脚可以只保留在第一页。"
+                "保存前，每个页面都会在标签页中打开并滚动，让懒加载的图片显示出来。滚动所用的时间遵循“滚动时间”设置（45 秒、90 秒或 180 秒）。广告默认不保存，每个页面重复出现的页眉、菜单和页脚可以只保留在第一页。"
               ]
             },
             {
               "t": "text",
               "h": "网站有数千页时",
               "p": [
-                "Grab All Files 在您的浏览器中逐页读取每个页面。因此它能保存需要登录的页面和JavaScript页面。但有几千页的网站会花很长时间。如果您需要几千页，或只想重新下载上次之后有变化的文件，请使用桌面版网站复制工具。这类程序直接向服务器请求页面，对大型公开网站更快，但看不到需要您登录的页面或在浏览器中生成的页面。"
+                "Grab All Files 在您的浏览器中逐页读取每个页面。因此它能保存需要登录的页面和 JavaScript 页面。但有几千页的网站会花很长时间。如果您需要几千页，或只想重新下载上次之后有变化的文件，请使用桌面版网站复制工具。这类程序直接向服务器请求页面，对大型公开网站更快，但看不到需要您登录的页面或在浏览器中生成的页面。"
               ]
             },
             {
               "t": "sample",
               "h": "可以打开查看的真实结果",
               "p": [
-                "由已发布的扩展程序，用“保持原样”把本站三个虚构页面保存成一个带目录和搜索的HTML。"
+                "由已发布的扩展程序，用“保持原样”把本站三个虚构页面保存成一个带目录和搜索的 HTML。"
               ],
               "href": "/samples/en/original-combined/",
               "label": "打开保存的示例"
@@ -2540,7 +2540,7 @@
           "faq": [
             {
               "q": "离线时可以点击链接浏览保存的副本吗？",
-              "a": "可以，使用“按网站结构保存到文件夹”（Chrome和Edge）或“分页HTML（ZIP）”即可。您保存的页面之间的链接会打开保存的文件。指向未保存页面的链接仍然指向线上网站。"
+              "a": "可以，使用“按网站结构保存到文件夹”（Chrome 和 Edge）或“分页HTML（ZIP）”即可。您保存的页面之间的链接会打开保存的文件。指向未保存页面的链接仍然指向线上网站。"
             },
             {
               "q": "需要登录的页面也能用吗？",
@@ -2548,7 +2548,7 @@
             },
             {
               "q": "免费版可以保存多少页？",
-              "a": "每次操作1页。您可以一次一页地不断添加到同一份保存的副本中。Pro 可在一次操作中保存您选择的所有页面。"
+              "a": "每次操作 1 页。您可以一次一页地不断添加到同一份保存的副本中。Pro 可在一次操作中保存您选择的所有页面。"
             },
             {
               "q": "能完全复制网站吗？",
@@ -2617,21 +2617,21 @@
                 ],
                 [
                   "form-pages-zip",
-                  "分頁HTML（ZIP）",
+                  "分頁 HTML（ZIP）",
                   "每個頁面一個 HTML 檔案，加上 index.html，全部放在一個 ZIP 中。已儲存頁面之間的連結會開啟已儲存的副本。",
                   160,
                   64
                 ],
                 [
                   "form-contents-search",
-                  "附目錄及搜尋的HTML",
+                  "附目錄及搜尋的 HTML",
                   "所有頁面合在一個檔案中，附有目錄和搜尋框。四種形式中檔案最小。",
                   160,
                   64
                 ],
                 [
                   "form-long-page",
-                  "直向串接HTML（適合列印）",
+                  "直向串接 HTML（適合列印）",
                   "頁面由上到下串接，列印時每頁之間會換頁。如果需要 PDF，請用瀏覽器列印成 PDF。",
                   160,
                   64
@@ -3924,16 +3924,16 @@
         "zh_CN": {
           "title": "为 NotebookLM、ChatGPT 或 Claude 准备网站内容 | Grab All Files",
           "desc": "把网站页面转成Markdown，每页都附带source_url和captured_at，再由您自己上传到NotebookLM、ChatGPT或Claude。不会替您发送任何内容。",
-          "eyebrow": "网站转AI资料",
+          "eyebrow": "网站转 AI 资料",
           "h1": "把网站变成可以交给 NotebookLM、ChatGPT 或 Claude 的文件。",
-          "lead": "Grab All Files 会收集网站的页面，并生成适合AI使用的文件：Markdown、JSONL和清单，每个页面的来源网址和获取时间都会保留。选择哪个AI服务、上传文件，都由您自己完成。该扩展程序与这些服务没有任何连接，也不会向它们发送任何内容。",
+          "lead": "Grab All Files 会收集网站的页面，并生成适合 AI 使用的文件：Markdown、JSONL 和清单，每个页面的来源网址和获取时间都会保留。选择哪个 AI 服务、上传文件，都由您自己完成。该扩展程序与这些服务没有任何连接，也不会向它们发送任何内容。",
           "blocks": [
             {
               "t": "text",
               "h": "扩展程序做到哪里，从哪里开始由您操作",
               "p": [
-                "扩展程序只在浏览器中读取页面，在您的电脑上转换并保存文件。它不会登录AI服务，不会上传任何内容，也不会替您提问。",
-                "您自己打开喜欢的AI服务，把文件添加为资料来源或附件，然后在那里提问。该服务接受哪些文件类型和大小，以及如何处理上传的文件，都由服务本身决定。从仅限会员的网站上传页面之前，请先阅读该服务当前的限制和隐私设置。"
+                "扩展程序只在浏览器中读取页面，在您的电脑上转换并保存文件。它不会登录 AI 服务，不会上传任何内容，也不会替您提问。",
+                "您自己打开喜欢的 AI 服务，把文件添加为资料来源或附件，然后在那里提问。该服务接受哪些文件类型和大小，以及如何处理上传的文件，都由服务本身决定。从仅限会员的网站上传页面之前，请先阅读该服务当前的限制和隐私设置。"
               ]
             },
             {
@@ -3945,18 +3945,18 @@
                 "打开 Grab All Files，切换到“将网页合并为 HTML”，选择从哪里收集：页面的链接、站点地图、同一路径，或粘贴的网址列表。检查候选列表，去掉不想读取的页面。",
                 "在输出设置中，打开“AI分析数据（带出处的Markdown）”并选择输出格式。“主要正文（默认）”会保留文章正文，不包含菜单和广告。",
                 "运行收集。完成后，按“保存AI分析ZIP”或“保存为单个Markdown”。“复制给AI的提示词”会复制一段现成的提示词，可以粘贴到聊天中。",
-                "自己打开 NotebookLM、ChatGPT、Claude 或其他服务，添加文件并粘贴提示词。查看回答时，请对照回答所依据页面的source_url和captured_at进行核对。"
+                "自己打开 NotebookLM、ChatGPT、Claude 或其他服务，添加文件并粘贴提示词。查看回答时，请对照回答所依据页面的 source_url 和 captured_at 进行核对。"
               ]
             },
             {
               "t": "shot",
-              "h": "AI输出设置",
+              "h": "AI 输出设置",
               "p": [
                 "在这里选择输出格式、要提取的文本和拆分方式。"
               ],
               "src": "/assets/screenshots/use-case-save-web-pages-as-markdown-en.png",
-              "alt": "Grab All Files，将网页合并为 HTML 的输出设置：AI分析数据有四种格式（无、单个Markdown、按页Markdown、完整包），另有提取对象、目标大小为25 MB的拆分设置和四个复选框。",
-              "cap": "免费版中的实际面板。在“AI分析数据（带出处的Markdown）”下选择格式；其下是拆分方式和每个文件的目标大小，这里设置为25 MB。",
+              "alt": "Grab All Files，将网页合并为 HTML 的输出设置：AI 分析数据有四种格式（无、单个 Markdown、按页 Markdown、完整包），另有提取对象、目标大小为 25 MB 的拆分设置和四个复选框。",
+              "cap": "免费版中的实际面板。在“AI分析数据（带出处的Markdown）”下选择格式；其下是拆分方式和每个文件的目标大小，这里设置为 25 MB。",
               "w": 2560,
               "hgt": 2800,
               "webp": "/assets/screenshots/use-case-save-web-pages-as-markdown-en.webp"
@@ -3971,36 +3971,36 @@
               ],
               "rows": [
                 [
-                  "单个Markdown文件",
+                  "单个 Markdown 文件",
                   "所有页面合并成一个.md，并附有每个页面的出处",
                   "网站较小，可以作为一个资料来源添加"
                 ],
                 [
-                  "按页Markdown",
-                  "每页一个.md，外加manifest.json，打包成ZIP",
+                  "按页 Markdown",
+                  "每页一个.md，外加 manifest.json，打包成 ZIP",
                   "您想自己挑选要提供的页面，且该服务对文件数量的限制比较宽松"
                 ],
                 [
                   "完整包",
-                  "corpus.md、chunks.jsonl（按标题拆分）、manifest.json、AI提示词和易读HTML，放在一个ZIP中",
+                  "corpus.md、chunks.jsonl（按标题拆分）、manifest.json、AI 提示词和易读 HTML，放在一个 ZIP 中",
                   "您想要全部内容，包括用于核对的文件清单"
                 ],
                 [
-                  "表格转CSV/JSON（选项）",
-                  "页面中的表格，写成单独的CSV和JSON文件",
+                  "表格转 CSV/JSON（选项）",
+                  "页面中的表格，写成单独的 CSV 和 JSON 文件",
                   "数字比周围的文字更重要"
                 ]
               ],
               "after": [
-                "免费版也会显示AI设置；免费版每次运行处理1个页面，Pro 可在一次运行中收集多个页面。Markdown中的每个页面都带有source_url和captured_at。chunks.jsonl和manifest.json中也有，因此可以把一段内容追溯到对应的页面及其保存时间。"
+                "免费版也会显示 AI 设置；免费版每次运行处理 1 个页面，Pro 可在一次运行中收集多个页面。Markdown 中的每个页面都带有 source_url 和 captured_at。chunks.jsonl 和 manifest.json 中也有，因此可以把一段内容追溯到对应的页面及其保存时间。"
               ]
             },
             {
               "t": "text",
               "h": "25 MB 设置的含义",
               "p": [
-                "默认的25 MB是把Markdown文本拆分成多个文件时的目标大小。它不是整个ZIP的上限，也不保证服务会接受这么大的文件。完整包是包含corpus.md、chunks.jsonl、manifest.json、提示词和易读HTML的ZIP，因此比单独的Markdown更大。",
-                "如果您使用的服务只接受较小的文件，请在“按文件大小”下调低目标值。如果它限制可添加的文件数量，请调高目标值，或选择单个Markdown文件。合适的数值取决于服务自身的限制，而这些限制可能会变化。"
+                "默认的 25 MB 是把 Markdown 文本拆分成多个文件时的目标大小。它不是整个 ZIP 的上限，也不保证服务会接受这么大的文件。完整包是包含 corpus.md、chunks.jsonl、manifest.json、提示词和易读 HTML 的 ZIP，因此比单独的 Markdown 更大。",
+                "如果您使用的服务只接受较小的文件，请在“按文件大小”下调低目标值。如果它限制可添加的文件数量，请调高目标值，或选择单个 Markdown 文件。合适的数值取决于服务自身的限制，而这些限制可能会变化。"
               ]
             },
             {
@@ -4009,7 +4009,7 @@
                 {
                   "h": "一个文件就够的情况",
                   "items": [
-                    "网站只有几十页，Markdown远低于服务的大小限制。",
+                    "网站只有几十页，Markdown 远低于服务的大小限制。",
                     "您想针对整个网站提问，并且只管理一个资料来源。",
                     "之后不需要把个别页面排除在外。"
                   ]
@@ -4030,11 +4030,11 @@
               "items": [
                 [
                   "web-pages-for-reading-and-ai-analysis",
-                  "更完整的流程：已链接的PDF和Office文件、提示词，以及核对回答。"
+                  "更完整的流程：已链接的 PDF 和 Office 文件、提示词，以及核对回答。"
                 ],
                 [
                   "save-web-pages-as-markdown",
-                  "适用于笔记工具和个人知识库的Markdown。"
+                  "适用于笔记工具和个人知识库的 Markdown。"
                 ],
                 [
                   "save-all-blog-and-news-articles",
@@ -4046,19 +4046,19 @@
           "faq": [
             {
               "q": "Grab All Files 会把我的页面发送给 NotebookLM、ChatGPT 或 Claude 吗？",
-              "a": "不会。它只在您的电脑上保存文件。上传到AI服务由您自己完成，之后这些文件适用该服务自己的规则。"
+              "a": "不会。它只在您的电脑上保存文件。上传到 AI 服务由您自己完成，之后这些文件适用该服务自己的规则。"
             },
             {
-              "q": "应该用单个Markdown文件，还是每页一个文件？",
+              "q": "应该用单个 Markdown 文件，还是每页一个文件？",
               "a": "想把一个小型网站作为整体来提问时，用一个文件。当文本超过服务的文件限制，或您想分别添加和替换页面时，用按页文件或更小的目标大小。"
             },
             {
-              "q": "默认的25 MB是什么意思？",
-              "a": "它是拆分Markdown文本时的目标大小。它不是ZIP的大小限制，也不保证服务会接受该文件。"
+              "q": "默认的 25 MB 是什么意思？",
+              "a": "它是拆分 Markdown 文本时的目标大小。它不是 ZIP 的大小限制，也不保证服务会接受该文件。"
             },
             {
-              "q": "怎样知道AI的回答来自哪个页面？",
-              "a": "Markdown中的每个页面都有source_url和captured_at，chunks.jsonl和manifest.json中也有。查到该页面，把回答与原文对照即可。"
+              "q": "怎样知道 AI 的回答来自哪个页面？",
+              "a": "Markdown 中的每个页面都有 source_url 和 captured_at，chunks.jsonl 和 manifest.json 中也有。查到该页面，把回答与原文对照即可。"
             },
             {
               "q": "能读取需要登录的页面吗？",
@@ -4116,12 +4116,12 @@
               ],
               "rows": [
                 [
-                  "單一Markdown",
+                  "單一 Markdown",
                   "所有頁面合併成一個 .md，並附上每個頁面的來源",
                   "網站不大，可以作為一個來源加入"
                 ],
                 [
-                  "逐頁Markdown",
+                  "逐頁 Markdown",
                   "每個頁面一個 .md，加上 manifest.json，打包成 ZIP",
                   "您想自行挑選要交出的頁面，且該服務對檔案數量的限制很寬鬆"
                 ],
@@ -4131,7 +4131,7 @@
                   "您想要全部內容，包括供核對用的檔案清單"
                 ],
                 [
-                  "表格轉CSV/JSON（選項）",
+                  "表格轉 CSV/JSON（選項）",
                   "頁面中的表格，另外寫成 CSV 和 JSON 檔案",
                   "數字比周圍的文字更重要"
                 ]
@@ -5430,7 +5430,7 @@
           "desc": "通过站点地图、相同路径或“下一个”链接找出博客或新闻栏目的所有文章，保存为可搜索的HTML、可打印的HTML或Markdown。免费版每次1篇。",
           "eyebrow": "博客与新闻存档",
           "h1": "把博客或新闻栏目的所有文章保存到一个文件里。",
-          "lead": "博客或新闻栏目是一长串文章，底部有一个“下一个”链接。Grab All Files 会找出这些文章，让您去掉不想要的，再保存为一个带目录和搜索的HTML、一个可打印的长HTML，或Markdown。免费版每次操作保存1篇文章；Pro 可一次保存全部所选文章。",
+          "lead": "博客或新闻栏目是一长串文章，底部有一个“下一个”链接。Grab All Files 会找出这些文章，让您去掉不想要的，再保存为一个带目录和搜索的 HTML、一个可打印的长 HTML，或 Markdown。免费版每次操作保存 1 篇文章；Pro 可一次保存全部所选文章。",
           "blocks": [
             {
               "t": "cards",
@@ -5446,7 +5446,7 @@
                 ],
                 [
                   "列表页上的“下一个”链接",
-                  "标记为 next、“下一页”、“更早的文章”等的链接都会被识别。程序会逐页跟随列表来找出候选。最多可找到100,000个候选。"
+                  "标记为 next、“下一页”、“更早的文章”等的链接都会被识别。程序会逐页跟随列表来找出候选。最多可找到 100,000 个候选。"
                 ]
               ]
             },
@@ -5473,19 +5473,19 @@
               ],
               "rows": [
                 [
-                  "带目录和搜索的HTML",
-                  "所有文章放在一个HTML文件里，带目录和搜索框",
+                  "带目录和搜索的 HTML",
+                  "所有文章放在一个 HTML 文件里，带目录和搜索框",
                   "在屏幕上阅读，并在数百篇文章中查找某个词句。四种形式中体积最小。"
                 ],
                 [
-                  "纵向拼接HTML（适合打印）",
+                  "纵向拼接 HTML（适合打印）",
                   "文章从上到下拼接，打印时每篇之间分页",
-                  "打印或生成PDF：使用浏览器的打印对话框并另存为PDF。Grab All Files 本身不会生成PDF。"
+                  "打印或生成 PDF：使用浏览器的打印对话框并另存为 PDF。Grab All Files 本身不会生成 PDF。"
                 ],
                 [
                   "Markdown",
-                  "一个Markdown文件，或每篇文章一个，每页都带有source_url和captured_at",
-                  "笔记、个人存档，或把文本交给您自己选择的AI服务。请参阅下面的Markdown指南。"
+                  "一个 Markdown 文件，或每篇文章一个，每页都带有 source_url 和 captured_at",
+                  "笔记、个人存档，或把文本交给您自己选择的 AI 服务。请参阅下面的 Markdown 指南。"
                 ]
               ],
               "after": [
@@ -5498,9 +5498,9 @@
                 {
                   "h": "使用免费版",
                   "items": [
-                    "可以建立候选列表，包括“下一个”链接，最多100,000个候选。",
-                    "每次操作保存1篇文章，从列表中选择。",
-                    "可以一次一篇地把下一篇文章添加到上次保存的HTML中。"
+                    "可以建立候选列表，包括“下一个”链接，最多 100,000 个候选。",
+                    "每次操作保存 1 篇文章，从列表中选择。",
+                    "可以一次一篇地把下一篇文章添加到上次保存的 HTML 中。"
                   ]
                 },
                 {
@@ -5508,7 +5508,7 @@
                   "items": [
                     "选择多个候选，调整顺序，一次操作全部保存。",
                     "跟随“下一个”链接，一次操作保存所有后续页面。",
-                    "超过100页时，开始前会询问是否每100页暂停一次。"
+                    "超过 100 页时，开始前会询问是否每 100 页暂停一次。"
                   ]
                 }
               ]
@@ -5543,7 +5543,7 @@
                 ],
                 [
                   "save-web-pages-as-markdown",
-                  "带有每个页面出处的Markdown输出。"
+                  "带有每个页面出处的 Markdown 输出。"
                 ],
                 [
                   "save-infinite-scroll-pages",
@@ -5555,19 +5555,19 @@
           "faq": [
             {
               "q": "如何一次保存博客的所有文章？",
-              "a": "打开博客的列表页，选择站点地图、“相同的路径”或“跟随本页的链接”，从候选列表中去掉不是文章的页面，然后使用 Pro 一次操作保存。使用免费版时每次保存1篇文章，其余的一次添加一篇。"
+              "a": "打开博客的列表页，选择站点地图、“相同的路径”或“跟随本页的链接”，从候选列表中去掉不是文章的页面，然后使用 Pro 一次操作保存。使用免费版时每次保存 1 篇文章，其余的一次添加一篇。"
             },
             {
               "q": "会跟随“下一个”和“更早的文章”链接吗？",
               "a": "会。next、“下一个”、“更早的文章”等链接都会被识别并跟随，以找出候选。使用 Pro 时，还可以一次操作保存所有后续页面。"
             },
             {
-              "q": "能把所有文章做成PDF吗？",
-              "a": "保存为“纵向拼接HTML（适合打印）”，在浏览器中打开，用打印对话框另存为PDF。打印时每篇文章都从新的一页开始。"
+              "q": "能把所有文章做成 PDF 吗？",
+              "a": "保存为“纵向拼接HTML（适合打印）”，在浏览器中打开，用打印对话框另存为 PDF。打印时每篇文章都从新的一页开始。"
             },
             {
               "q": "如何在所有已保存的文章中搜索？",
-              "a": "保存为“带目录和搜索的HTML”。这一个HTML文件带有目录和搜索框，可以在浏览器中离线使用。"
+              "a": "保存为“带目录和搜索的HTML”。这一个 HTML 文件带有目录和搜索框，可以在浏览器中离线使用。"
             },
             {
               "q": "会包含评论吗？",
@@ -5623,12 +5623,12 @@
               ],
               "rows": [
                 [
-                  "附目錄及搜尋的HTML",
+                  "附目錄及搜尋的 HTML",
                   "所有文章放在一個 HTML 檔案中，附有目錄和搜尋框",
                   "在螢幕上閱讀，並在數百篇文章中找出某個詞句。這是各種形式中檔案最小的。"
                 ],
                 [
-                  "直向串接HTML（適合列印）",
+                  "直向串接 HTML（適合列印）",
                   "文章由上到下串接，列印時每篇之間會換頁",
                   "列印或製作 PDF：使用瀏覽器的列印對話方塊另存為 PDF。Grab All Files 本身不會產生 PDF。"
                 ],
@@ -6945,12 +6945,12 @@
                 [
                   "1",
                   "只存在于这个网站上的页面：公告、价格、办理流程、沿革、联系方式",
-                  "使用“将网页合并为 HTML”，外观选“保持原样”，形式选“按网站结构保存到文件夹”（Chrome和Edge）或“分页HTML（ZIP）”。每个页面都保留自己的样式、字体和图片；多个页面共用的文件只保存一份。"
+                  "使用“将网页合并为 HTML”，外观选“保持原样”，形式选“按网站结构保存到文件夹”（Chrome 和 Edge）或“分页HTML（ZIP）”。每个页面都保留自己的样式、字体和图片；多个页面共用的文件只保存一份。"
                 ],
                 [
                   "2",
-                  "页面链接的PDF以及Word、Excel和PowerPoint文件",
-                  "勾选随页面一起保存已链接文件的选项（免费版每次10个，Pro 每次100个）。或者使用文件批量下载，深度设为1到5，按类型筛选，并保存为ZIP。"
+                  "页面链接的 PDF 以及 Word、Excel 和 PowerPoint 文件",
+                  "勾选随页面一起保存已链接文件的选项（免费版每次 10 个，Pro 每次 100 个）。或者使用文件批量下载，深度设为 1 到 5，按类型筛选，并保存为 ZIP。"
                 ],
                 [
                   "3",
@@ -6973,14 +6973,14 @@
                 [
                   "form-site-folder",
                   "网站的结构",
-                  "“按网站结构保存到文件夹”会把页面写入您选择的文件夹，文件夹结构与网站相同。点击链接即可离线浏览。仅限Chrome和Edge；Firefox 请使用ZIP。",
+                  "“按网站结构保存到文件夹”会把页面写入您选择的文件夹，文件夹结构与网站相同。点击链接即可离线浏览。仅限 Chrome 和 Edge；Firefox 请使用 ZIP。",
                   160,
                   64
                 ],
                 [
                   "linked-copy",
                   "页面链接的文件",
-                  "页面链接的PDF和Office文件会保存在页面旁边。它们的文本不会复制进HTML；页面保留的是链接。",
+                  "页面链接的 PDF 和 Office 文件会保存在页面旁边。它们的文本不会复制进 HTML；页面保留的是链接。",
                   96,
                   64
                 ]
@@ -6992,9 +6992,9 @@
                 {
                   "h": "仍然可以保存的内容",
                   "items": [
-                    "浏览器显示的页面，包括由JavaScript构建的页面和需要您登录才能看到的页面。",
-                    "页面链接的PDF、Word、Excel和PowerPoint文件。",
-                    "页面直接链接的视频和音频文件，例如mp4或mp3。",
+                    "浏览器显示的页面，包括由 JavaScript 构建的页面和需要您登录才能看到的页面。",
+                    "页面链接的 PDF、Word、Excel 和 PowerPoint 文件。",
+                    "页面直接链接的视频和音频文件，例如 mp4 或 mp3。",
                     "失败的文件：可以重试，或导出失败网址及原因的列表。"
                   ]
                 },
@@ -7002,10 +7002,10 @@
                   "h": "无法保存的内容",
                   "no": true,
                   "items": [
-                    "流媒体视频，例如HLS或DASH流，以及使用blob:地址的播放器。",
+                    "流媒体视频，例如 HLS 或 DASH 流，以及使用 blob:地址的播放器。",
                     "向服务器查询的搜索框和表单。保存的页面不会连接网络。",
                     "您自己的浏览器打不开的页面，或需要您没有的登录账号的页面。",
-                    "DRM或加密查看器中的文件，以及仅在canvas上绘制的文字。"
+                    "DRM 或加密查看器中的文件，以及仅在 canvas 上绘制的文字。"
                   ]
                 }
               ]
@@ -7017,7 +7017,7 @@
               "items": [
                 "写下起始页面：首页、文档库、新闻存档、联系页面。",
                 "如果网站的一部分仅供会员使用，请先登录。如果长时间运行期间会话过期，运行会暂停；重新登录后按“继续”即可。已保存的页面会保留。",
-                "尽早统计链接的文档数量。已链接的文件免费版每次保存10个，Pro 每次保存100个，其余的可通过结果画面上的按钮继续，因此有数百个文件的文档库需要分几轮完成。",
+                "尽早统计链接的文档数量。已链接的文件免费版每次保存 10 个，Pro 每次保存 100 个，其余的可通过结果画面上的按钮继续，因此有数百个文件的文档库需要分几轮完成。",
                 "断开网络后打开保存的副本。点开几个页面，检查已保存页面之间的链接是否会打开保存的文件。",
                 "记下日期。使用“保持原样”和“带目录和搜索的HTML”时，来源网址和获取时间会显示在每个页面标题的下方。"
               ]
@@ -7051,19 +7051,19 @@
           "faq": [
             {
               "q": "即将关闭的网站应该先保存什么？",
-              "a": "只存在于那里的页面，例如公告、价格和办理流程，以及它们链接的PDF和Office文件。外观和旧存档页面排在后面。"
+              "a": "只存在于那里的页面，例如公告、价格和办理流程，以及它们链接的 PDF 和 Office 文件。外观和旧存档页面排在后面。"
             },
             {
               "q": "可以点击链接离线浏览保存的网站吗？",
-              "a": "可以，在Chrome或Edge上使用“按网站结构保存到文件夹”，或使用“分页HTML（ZIP）”。已保存页面之间的链接会打开保存的文件。指向未保存页面的链接仍然指向线上网站。"
+              "a": "可以，在 Chrome 或 Edge 上使用“按网站结构保存到文件夹”，或使用“分页HTML（ZIP）”。已保存页面之间的链接会打开保存的文件。指向未保存页面的链接仍然指向线上网站。"
             },
             {
-              "q": "PDF和Word文件也会保存吗？",
-              "a": "会。页面链接的文件可以随页面一起保存（免费版每次10个，Pro 每次100个），也可以用文件批量下载来收集。它们的文本不会合并进HTML；页面保留的是链接。"
+              "q": "PDF 和 Word 文件也会保存吗？",
+              "a": "会。页面链接的文件可以随页面一起保存（免费版每次 10 个，Pro 每次 100 个），也可以用文件批量下载来收集。它们的文本不会合并进 HTML；页面保留的是链接。"
             },
             {
               "q": "能保存网站上的视频吗？",
-              "a": "只能保存页面直接链接的视频文件，例如mp4。流媒体视频不会保存，也不会绕过任何DRM或水印。"
+              "a": "只能保存页面直接链接的视频文件，例如 mp4。流媒体视频不会保存，也不会绕过任何 DRM 或水印。"
             },
             {
               "q": "网站有数千页，该用什么？",
@@ -8332,7 +8332,7 @@
               "h": "唯一的条件：您自己的账号",
               "p": [
                 "只在您有权使用的账号上使用，只保存您有权保留的资料。如果不确定是否允许保存副本，请查看网站的条款；登录本身并不意味着拥有这项权利。",
-                "Grab All Files 使用您的浏览器已有的登录状态。它不会收集或发送您的密码、Cookie的值，或在表单字段中输入的任何内容。它不会自动登录，不会绕过登录，也不会破解验证码。"
+                "Grab All Files 使用您的浏览器已有的登录状态。它不会收集或发送您的密码、Cookie 的值，或在表单字段中输入的任何内容。它不会自动登录，不会绕过登录，也不会破解验证码。"
               ]
             },
             {
@@ -8340,10 +8340,10 @@
               "h": "操作步骤",
               "num": true,
               "items": [
-                "在安装了 Grab All Files 的浏览器（Chrome、Edge或Firefox）中登录网站。保持该标签页打开。",
+                "在安装了 Grab All Files 的浏览器（Chrome、Edge 或 Firefox）中登录网站。保持该标签页打开。",
                 "保存文档：打开列出文档的页面，打开 Grab All Files，使用“文件批量下载”。找到的文件会显示在列表中。按类型、大小或日期筛选，勾选需要的文件并保存。",
                 "保存页面本身：切换到“将网页合并为 HTML”，选择查找页面的方式（本页的链接、相同路径、站点地图或粘贴的网址），检查候选列表并保存。页面按浏览器显示的样子保存，因此登录后才显示的内容也会包含在内。",
-                "如果页面链接了PDF或Office文件，页面收集功能可以把它们保存在页面旁边：免费版每次10个，Pro 每次100个。"
+                "如果页面链接了 PDF 或 Office 文件，页面收集功能可以把它们保存在页面旁边：免费版每次 10 个，Pro 每次 100 个。"
               ]
             },
             {
@@ -8399,7 +8399,7 @@
                   "items": [
                     "供应商门户，许多页面附带价格表和图纸。",
                     "会员资料库或课程网站，您想把课程页面和讲义放在一起。",
-                    "登录后由JavaScript绘制的页面；保存的是浏览器渲染后的结果。"
+                    "登录后由 JavaScript 绘制的页面；保存的是浏览器渲染后的结果。"
                   ]
                 },
                 {
@@ -8408,7 +8408,7 @@
                   "items": [
                     "您的账号无权打开的页面或文件。",
                     "自动登录，或绕过验证码。",
-                    "加密或DRM查看器中的内容，或浏览器内置PDF查看器中的内容。",
+                    "加密或 DRM 查看器中的内容，或浏览器内置 PDF 查看器中的内容。",
                     "流媒体视频；只会保存作为文件链接的视频或音频。"
                   ]
                 }
@@ -8439,8 +8439,8 @@
               "a": "可以，只要您能在同一个浏览器中打开该页面。它使用您已有的登录状态。它不会替您登录，也打不开您的账号无权查看的页面。"
             },
             {
-              "q": "它会收集或发送我的密码或Cookie吗？",
-              "a": "不会。密码、Cookie的值和表单字段的内容既不会被收集，也不会被发送。"
+              "q": "它会收集或发送我的密码或 Cookie 吗？",
+              "a": "不会。密码、Cookie 的值和表单字段的内容既不会被收集，也不会被发送。"
             },
             {
               "q": "为什么有些文件因退出登录的提示而失败？",
@@ -8448,7 +8448,7 @@
             },
             {
               "q": "除了文件，它也能保存页面吗？",
-              "a": "能。文件批量下载保存文件；将网页合并为 HTML 保存页面，并且可以连同页面一起保存链接的PDF和Office文件。"
+              "a": "能。文件批量下载保存文件；将网页合并为 HTML 保存页面，并且可以连同页面一起保存链接的 PDF 和 Office 文件。"
             },
             {
               "q": "可以把我看到的内容全部保存吗？",
@@ -9744,15 +9744,15 @@
         "zh_CN": {
           "title": "批量下载网页上的 Word、Excel 和 PowerPoint 文件 | Grab All Files",
           "desc": "找出页面上链接的Word、Excel和PowerPoint文件，按文档、电子表格或演示文稿筛选并保存。免费版每次下载10个文件。",
-          "eyebrow": "Office文件",
+          "eyebrow": "Office 文件",
           "h1": "一次下载页面上所有的 Word、Excel 和 PowerPoint 文件。",
-          "lead": "表格、价目表或讲义幻灯片的页面，往往链接着几十个.docx、.xlsx和.pptx文件，一个个保存要花很长时间。Grab All Files 会列出在页面上找到的Office文件，您勾选需要的，它就会保存。Office文件的检测在免费版和 Pro 中是一样的。",
+          "lead": "表格、价目表或讲义幻灯片的页面，往往链接着几十个.docx、.xlsx 和.pptx 文件，一个个保存要花很长时间。Grab All Files 会列出在页面上找到的 Office 文件，您勾选需要的，它就会保存。Office 文件的检测在免费版和 Pro 中是一样的。",
           "blocks": [
             {
               "t": "table",
               "h": "三个类别及其包含的扩展名",
               "p": [
-                "在筛选面板中，这些类别叫作“文档”、“电子表格”和“演示文稿”。以下只是各类别涵盖内容的示例，并非完整列表。csv和tsv文件归入电子表格。"
+                "在筛选面板中，这些类别叫作“文档”、“电子表格”和“演示文稿”。以下只是各类别涵盖内容的示例，并非完整列表。csv 和 tsv 文件归入电子表格。"
               ],
               "head": [
                 "类别",
@@ -9781,8 +9781,8 @@
               "t": "shot",
               "h": "列表是什么样子",
               "src": "/assets/screenshots/shot-zh_CN.jpg",
-              "alt": "Grab All Files，文件批量下载：找到的文件列表，包含docx、pptx、xlsx和csv文件，左侧是类型筛选，底部是保存按钮。",
-              "cap": "免费版中的测试页面。Office文件和其他文件显示在同一个列表中，列表中的一条线标出本次下载将保存的10个文件。",
+              "alt": "Grab All Files，文件批量下载：找到的文件列表，包含 docx、pptx、xlsx 和 csv 文件，左侧是类型筛选，底部是保存按钮。",
+              "cap": "免费版中的测试页面。Office 文件和其他文件显示在同一个列表中，列表中的一条线标出本次下载将保存的 10 个文件。",
               "w": 1600,
               "hgt": 1429,
               "webp": "/assets/screenshots/shot-zh_CN.webp"
@@ -9796,12 +9796,12 @@
                 "打开 Grab All Files，使用“文件批量下载”并扫描页面。",
                 "把列表缩小到需要的类别，或某一种扩展名。也可以按文件名或标题搜索，按大小或日期排序。",
                 "浏览列表，取消勾选不想要的内容，然后按保存按钮。如果想让文件按类型或网站分类，请在保存设置中选择文件夹。",
-                "使用免费版时，再按一次保存接下来的10个。Pro 会一次保存您勾选的全部文件。"
+                "使用免费版时，再按一次保存接下来的 10 个。Pro 会一次保存您勾选的全部文件。"
               ]
             },
             {
               "t": "table",
-              "h": "获取Office文件的两种方式",
+              "h": "获取 Office 文件的两种方式",
               "head": [
                 "",
                 "文件批量下载",
@@ -9810,18 +9810,18 @@
               "rows": [
                 [
                   "得到什么",
-                  "Office文件原样保存为单独的文件",
-                  "HTML格式的页面，加上页面链接的Office文件"
+                  "Office 文件原样保存为单独的文件",
+                  "HTML 格式的页面，加上页面链接的 Office 文件"
                 ],
                 [
                   "每次运行的上限",
-                  "免费版：10个文件。Pro：无上限",
-                  "免费版：10个文件。Pro：100个文件"
+                  "免费版：10 个文件。Pro：无上限",
+                  "免费版：10 个文件。Pro：100 个文件"
                 ],
                 [
                   "继续保存",
                   "免费版：选择接下来的文件，再按一次保存",
-                  "结果画面上的按钮可保存接下来的文件。超过100个时，Pro 会先询问。"
+                  "结果画面上的按钮可保存接下来的文件。超过 100 个时，Pro 会先询问。"
                 ],
                 [
                   "适合的用途",
@@ -9830,7 +9830,7 @@
                 ]
               ],
               "after": [
-                "在附带已链接文件的方式中，相同的文件只保存一次。Office文件内部的文本不会放进HTML；HTML只是链接到它们。"
+                "在附带已链接文件的方式中，相同的文件只保存一次。Office 文件内部的文本不会放进 HTML；HTML 只是链接到它们。"
               ]
             },
             {
@@ -9838,7 +9838,7 @@
               "h": "需要了解的限制",
               "p": [
                 "文件列表显示的是页面链接或加载的内容。只有在点击按钮、搜索或登录之后才出现的文件，需要先在同一个浏览器中完成该步骤；会话的行为请参阅登录指南。",
-                "Grab All Files 不会打开或转换Office文件。如果想把许多电子表格的内容汇总到一处，请先保存它们，然后用您选择的工具合并或分析。"
+                "Grab All Files 不会打开或转换 Office 文件。如果想把许多电子表格的内容汇总到一处，请先保存它们，然后用您选择的工具合并或分析。"
               ]
             },
             {
@@ -9851,31 +9851,31 @@
                 ],
                 [
                   "download-multiple-files-as-zip",
-                  "把许多已保存的文件放进一个ZIP。"
+                  "把许多已保存的文件放进一个 ZIP。"
                 ],
                 [
                   "save-pages-and-files-behind-login",
-                  "会员网站和门户中的Office文件。"
+                  "会员网站和门户中的 Office 文件。"
                 ]
               ]
             }
           ],
           "faq": [
             {
-              "q": "能只下载页面上的Excel文件吗？",
-              "a": "可以。把列表筛选为电子表格，或筛选为xlsx之类的单一扩展名，只保存这些文件。"
+              "q": "能只下载页面上的 Excel 文件吗？",
+              "a": "可以。把列表筛选为电子表格，或筛选为 xlsx 之类的单一扩展名，只保存这些文件。"
             },
             {
-              "q": "除了旧的.doc和.ppt，也能找到.docx和.pptx吗？",
-              "a": "能。新旧格式，以及odt、ods、odp等OpenDocument格式，都能检测到。"
+              "q": "除了旧的.doc 和.ppt，也能找到.docx 和.pptx 吗？",
+              "a": "能。新旧格式，以及 odt、ods、odp 等 OpenDocument 格式，都能检测到。"
             },
             {
-              "q": "免费版可以保存多少个Office文件？",
-              "a": "如果页面上有50个表格，免费版分五轮、每轮10个保存：选择接下来的文件，再按一次保存。Pro 可一次保存全部50个。"
+              "q": "免费版可以保存多少个 Office 文件？",
+              "a": "如果页面上有 50 个表格，免费版分五轮、每轮 10 个保存：选择接下来的文件，再按一次保存。Pro 可一次保存全部 50 个。"
             },
             {
-              "q": "能把Office文件和链接它们的网页一起保存吗？",
-              "a": "能。将网页合并为 HTML 可以把链接的PDF和Office文件连同页面一起保存：免费版每次10个，Pro 每次100个。"
+              "q": "能把 Office 文件和链接它们的网页一起保存吗？",
+              "a": "能。将网页合并为 HTML 可以把链接的 PDF 和 Office 文件连同页面一起保存：免费版每次 10 个，Pro 每次 100 个。"
             },
             {
               "q": "我的文件会被上传到别处吗？",
@@ -11235,7 +11235,7 @@
           "desc": "列表被分成第1页、第2页、第3页……？Grab All Files 可以为文件（Pro）和页面收集跟随“下一个”（免费版找出候选，Pro 一次全部保存）。",
           "eyebrow": "分页列表",
           "h1": "列表被分成许多页：Pro 为文件跟随“下一个”，页面收集在免费版中也会跟随它来找出候选。",
-          "lead": "新闻存档、文档库和搜索结果常常被分成第1页、第2页、第3页等等。为文件自动跟随“下一个”是 Pro 功能；在免费版中，文件扫描只读取屏幕上的内容。页面收集在免费版中也会跟随“下一个”来找出候选，但每次操作只保存1个页面。这两个工具跟随“下一个”的方式各不相同。它们收集的内容以及免费版和 Pro 的限制都不同，所以下面先给出对比表。",
+          "lead": "新闻存档、文档库和搜索结果常常被分成第 1 页、第 2 页、第 3 页等等。为文件自动跟随“下一个”是 Pro 功能；在免费版中，文件扫描只读取屏幕上的内容。页面收集在免费版中也会跟随“下一个”来找出候选，但每次操作只保存 1 个页面。这两个工具跟随“下一个”的方式各不相同。它们收集的内容以及免费版和 Pro 的限制都不同，所以下面先给出对比表。",
           "blocks": [
             {
               "t": "table",
@@ -11248,8 +11248,8 @@
               "rows": [
                 [
                   "收集什么",
-                  "每个页面上链接的PDF、Office文件、图片和其他文件",
-                  "页面本身，保存为HTML"
+                  "每个页面上链接的 PDF、Office 文件、图片和其他文件",
+                  "页面本身，保存为 HTML"
                 ],
                 [
                   "免费版是否跟随“下一个”",
@@ -11263,13 +11263,13 @@
                 ],
                 [
                   "免费版的保存",
-                  "每次下载10个文件；选择接下来的文件，再按一次保存",
-                  "每次运行1个页面，从候选中选择"
+                  "每次下载 10 个文件；选择接下来的文件，再按一次保存",
+                  "每次运行 1 个页面，从候选中选择"
                 ],
                 [
                   "能走多远",
-                  "6、20或100页，由“滚动时间”设定。超过100页：“读取接下来的 100 页”",
-                  "最多100,000个候选。超过100页时，开始前会询问是否每100页暂停一次"
+                  "6、20 或 100 页，由“滚动时间”设定。超过 100 页：“读取接下来的 100 页”",
+                  "最多 100,000 个候选。超过 100 页时，开始前会询问是否每 100 页暂停一次"
                 ]
               ]
             },
@@ -11296,8 +11296,8 @@
               "items": [
                 "打开列表的第一页，并在“文件批量下载”中打开 Grab All Files。",
                 "打开“滚动到底并加载”，然后按“扫描所有页面”。",
-                "用“滚动时间”选择走多远（6、20或100页；未选择时为彻底，100页）。无限滚动指南说明了这些设置。",
-                "到达100页而列表仍在继续时，按“读取接下来的 100 页”。",
+                "用“滚动时间”选择走多远（6、20 或 100 页；未选择时为彻底，100 页）。无限滚动指南说明了这些设置。",
+                "到达 100 页而列表仍在继续时，按“读取接下来的 100 页”。",
                 "按类型筛选合并后的列表，然后保存。"
               ],
               "after": [
@@ -11351,7 +11351,7 @@
                 ],
                 [
                   "combine-web-pages-into-one-html",
-                  "把许多页面放进一个HTML文件。"
+                  "把许多页面放进一个 HTML 文件。"
                 ]
               ]
             }
@@ -11367,11 +11367,11 @@
             },
             {
               "q": "“扫描所有页面”会跟随多少页？",
-              "a": "6、20或100页，取决于“滚动时间”；未选择时为100页。超出后，请按“读取接下来的 100 页”。设置请参阅无限滚动指南。"
+              "a": "6、20 或 100 页，取决于“滚动时间”；未选择时为 100 页。超出后，请按“读取接下来的 100 页”。设置请参阅无限滚动指南。"
             },
             {
               "q": "免费版可以保存多少页？",
-              "a": "即使列表有30页，候选也会全部找出，但保存是每次运行1页；可以一次一个地添加到同一个已保存的文件中。Pro 可在一次运行中保存您选择的30页。"
+              "a": "即使列表有 30 页，候选也会全部找出，但保存是每次运行 1 页；可以一次一个地添加到同一个已保存的文件中。Pro 可在一次运行中保存您选择的 30 页。"
             },
             {
               "q": "如果下一页是通过滚动而不是链接加载的呢？",
@@ -12754,19 +12754,19 @@
                 [
                   "在已确认的网站（X、YouTube、Reddit、Bluesky、Yahoo! News）上使用“将网页合并为 HTML”：时间线或评论区这样的信息流",
                   "页面会自动滚动，直到信息流结束",
-                  "条目数量没有上限。每1,000条会询问是否继续；10分钟没有回答，就保存已有的内容",
+                  "条目数量没有上限。每 1,000 条会询问是否继续；10 分钟没有回答，就保存已有的内容",
                   "免费版和 Pro"
                 ],
                 [
                   "在“将网页合并为 HTML”中处理任何其他长页面",
                   "页面会自动滚动，然后停止",
-                  "默认最多滚动10次",
+                  "默认最多滚动 10 次",
                   "免费版和 Pro"
                 ],
                 [
                   "“保持原样”，每个页面",
                   "保存前，页面会在标签页中打开并滚动到底部，让懒加载的图片显示出来",
-                  "时间遵循“滚动时间”设置：45秒、90秒或180秒",
+                  "时间遵循“滚动时间”设置：45 秒、90 秒或 180 秒",
                   "免费版和 Pro"
                 ],
                 [
@@ -12778,7 +12778,7 @@
                 [
                   "文件批量下载，扫描文件",
                   "“滚动到底并加载”：扫描会滚动页面，并跟随同一列表的“下一个”页面",
-                  "按“滚动时间”（45、90、180秒）为6、20或100页；未选择时为100页。“读取接下来的 100 页”可继续",
+                  "按“滚动时间”（45、90、180 秒）为 6、20 或 100 页；未选择时为 100 页。“读取接下来的 100 页”可继续",
                   "Pro"
                 ]
               ]
@@ -12800,8 +12800,8 @@
                   "h": "请自行确认的情况",
                   "no": true,
                   "items": [
-                    "普通列表页面默认滚动10次后停止，因此很长的商品列表可能被截断。",
-                    "只在canvas上绘制的文字，或位于封闭Shadow DOM内的文字，不会被读取。",
+                    "普通列表页面默认滚动 10 次后停止，因此很长的商品列表可能被截断。",
+                    "只在 canvas 上绘制的文字，或位于封闭 Shadow DOM 内的文字，不会被读取。",
                     "来自其他域名的框架，只有在您允许之后才会被读取。",
                     "您自己的浏览器打不开的页面，例如需要您没有的登录账号的页面。"
                   ]
@@ -12816,7 +12816,7 @@
                 "如果页面需要登录，请在您已登录的浏览器标签页中打开该页面。",
                 "打开 Grab All Files，切换到“将网页合并为 HTML”。只选择当前页面。",
                 "选择外观和形式，然后开始保存。页面会自行滚动。",
-                "每1,000条会询问是否继续。可以回答，也可以不管：10分钟没有回答，就会保存到目前为止读取的内容。",
+                "每 1,000 条会询问是否继续。可以回答，也可以不管：10 分钟没有回答，就会保存到目前为止读取的内容。",
                 "打开保存的文件，把它的最后一条与线上页面的末尾对比；如果页面显示了条目数量，也对比一下条目数。"
               ]
             },
@@ -12827,8 +12827,8 @@
                 "使用免费版时，请自己把页面滚动到底，然后按扫描。扫描读取的是已加载的内容。"
               ],
               "src": "/assets/screenshots/use-case-bulk-download-images-en.png",
-              "alt": "Grab All Files，文件批量下载，免费版：重新扫描按钮、设为仅当前页面的深度、在找到的四个文件中选中了三个SVG文件，以及免费版每次下载最多保存10个文件的提示。",
-              "cap": "免费版扫描后的实际面板。“重新扫描”会再次读取页面，例如在您继续向下滚动之后。底部的提示说明免费版每次下载最多保存10个文件。",
+              "alt": "Grab All Files，文件批量下载，免费版：重新扫描按钮、设为仅当前页面的深度、在找到的四个文件中选中了三个 SVG 文件，以及免费版每次下载最多保存 10 个文件的提示。",
+              "cap": "免费版扫描后的实际面板。“重新扫描”会再次读取页面，例如在您继续向下滚动之后。底部的提示说明免费版每次下载最多保存 10 个文件。",
               "w": 2240,
               "hgt": 2000,
               "webp": "/assets/screenshots/use-case-bulk-download-images-en.webp"
@@ -12863,11 +12863,11 @@
           "faq": [
             {
               "q": "能把无限滚动的页面保存到最末尾吗？",
-              "a": "在已确认的网站（X、YouTube、Reddit、Bluesky、Yahoo! News）上，时间线和评论区这样的信息流会滚动到信息流结束。对于其他页面，默认滚动10次后停止。请务必把保存文件的末尾与线上页面对比。"
+              "a": "在已确认的网站（X、YouTube、Reddit、Bluesky、Yahoo! News）上，时间线和评论区这样的信息流会滚动到信息流结束。对于其他页面，默认滚动 10 次后停止。请务必把保存文件的末尾与线上页面对比。"
             },
             {
               "q": "读取的评论或帖子数量有上限吗？",
-              "a": "已确认网站上的信息流没有上限。每1,000条会询问是否继续。如果10分钟内没人回答，就保存已读取的内容。"
+              "a": "已确认网站上的信息流没有上限。每 1,000 条会询问是否继续。如果 10 分钟内没人回答，就保存已读取的内容。"
             },
             {
               "q": "我需要自己滚动吗？",
@@ -12875,11 +12875,11 @@
             },
             {
               "q": "Pro 的扫描会跟随多少页？",
-              "a": "6、20或100页，取决于“滚动时间”设置（45、90、180秒）。未选择时为100页。有一个按钮可以读取接下来的100页。"
+              "a": "6、20 或 100 页，取决于“滚动时间”设置（45、90、180 秒）。未选择时为 100 页。有一个按钮可以读取接下来的 100 页。"
             },
             {
               "q": "评论和时间线已确认支持哪些网站？",
-              "a": "X的帖子和回复、YouTube评论、Reddit、Bluesky和Yahoo! News评论。其他网站可能也能用，但不在此列表中。"
+              "a": "X 的帖子和回复、YouTube 评论、Reddit、Bluesky 和 Yahoo! News 评论。其他网站可能也能用，但不在此列表中。"
             }
           ]
         },
@@ -14240,16 +14240,16 @@
         "zh_CN": {
           "title": "把网页上的多个文件下载为一个ZIP文件 | Grab All Files",
           "desc": "在页面上选择文件并按ZIP，即可得到一个压缩包。免费版10个文件。超过200 MB会出现确认，上限为256 MB。不会拆分压缩包。",
-          "eyebrow": "一个ZIP",
-          "h1": "把页面上的多个文件下载为一个ZIP。",
-          "lead": "当页面提供30个PDF和电子表格时，逐个保存会在下载文件夹里留下30个零散文件。Grab All Files 的ZIP按钮会把您选择的文件打包成一个压缩包。它有大小限制，而且不会拆分压缩包，所以在选择大量文件之前，请先看下面的数字。",
+          "eyebrow": "一个 ZIP",
+          "h1": "把页面上的多个文件下载为一个 ZIP。",
+          "lead": "当页面提供 30 个 PDF 和电子表格时，逐个保存会在下载文件夹里留下 30 个零散文件。Grab All Files 的 ZIP 按钮会把您选择的文件打包成一个压缩包。它有大小限制，而且不会拆分压缩包，所以在选择大量文件之前，请先看下面的数字。",
           "blocks": [
             {
               "t": "shot",
-              "h": "ZIP按钮在哪里",
+              "h": "ZIP 按钮在哪里",
               "src": "/assets/screenshots/use-case-internal-portal-downloads-en.png",
-              "alt": "Grab All Files，文件批量下载：列表中勾选了三个文件，左下角是保存按钮，还有一个包含ZIP按钮、PDF合并、保存名称、文件夹整理和文件列表CSV的面板。",
-              "cap": "免费版中选中的三个示例文件。在右下方的面板中，ZIP位于最上方，下面是PDF合并、保存名称、文件夹设置和CSV导出。",
+              "alt": "Grab All Files，文件批量下载：列表中勾选了三个文件，左下角是保存按钮，还有一个包含 ZIP 按钮、PDF 合并、保存名称、文件夹整理和文件列表 CSV 的面板。",
+              "cap": "免费版中选中的三个示例文件。在右下方的面板中，ZIP 位于最上方，下面是 PDF 合并、保存名称、文件夹设置和 CSV 导出。",
               "w": 2240,
               "hgt": 2000,
               "webp": "/assets/screenshots/use-case-internal-portal-downloads-en.webp"
@@ -14263,28 +14263,28 @@
               ],
               "rows": [
                 [
-                  "免费版每个ZIP的文件数",
-                  "最多10个，与一次下载相同。选择接下来的10个并再按一次ZIP，即可得到另一个压缩包。"
+                  "免费版每个 ZIP 的文件数",
+                  "最多 10 个，与一次下载相同。选择接下来的 10 个并再按一次 ZIP，即可得到另一个压缩包。"
                 ],
                 [
-                  "Pro 每个ZIP的文件数",
+                  "Pro 每个 ZIP 的文件数",
                   "数量没有上限；下面的大小限制仍然适用。"
                 ],
                 [
-                  "ZIP的名称",
+                  "ZIP 的名称",
                   "网站的主机名加当天的日期，例如 docs.example.com_2026-11-17.zip（开头的 www. 会去掉）。"
                 ],
                 [
                   "确认",
-                  "总大小超过200 MB时会出现提示。"
+                  "总大小超过 200 MB 时会出现提示。"
                 ],
                 [
                   "上限",
-                  "总计256 MB。"
+                  "总计 256 MB。"
                 ],
                 [
                   "超过上限时",
-                  "不会拆分成多个ZIP。请减少所选文件，或改为保存到文件夹。"
+                  "不会拆分成多个 ZIP。请减少所选文件，或改为保存到文件夹。"
                 ]
               ]
             },
@@ -14294,19 +14294,19 @@
               "num": true,
               "items": [
                 "打开页面，用“文件批量下载”扫描。",
-                "筛选列表并勾选需要的文件。查看大小：接近200 MB时请把它们加起来看看。",
+                "筛选列表并勾选需要的文件。查看大小：接近 200 MB 时请把它们加起来看看。",
                 "按“ZIP”。如果询问大小，请确认。",
-                "在下载文件夹中打开ZIP。免费版：要保存更多文件，请选择接下来的文件，再按一次ZIP。"
+                "在下载文件夹中打开 ZIP。免费版：要保存更多文件，请选择接下来的文件，再按一次 ZIP。"
               ]
             },
             {
               "t": "pair",
               "items": [
                 {
-                  "h": "适合用ZIP的情况",
+                  "h": "适合用 ZIP 的情况",
                   "items": [
                     "您想把一组文件作为一个文件发送或存档。",
-                    "这组文件有几十个，远小于200 MB。",
+                    "这组文件有几十个，远小于 200 MB。",
                     "您想要一个整洁的单个文件，而不是许多零散的下载。"
                   ]
                 },
@@ -14314,7 +14314,7 @@
                   "h": "改为保存到文件夹的情况",
                   "no": true,
                   "items": [
-                    "总大小接近或超过256 MB：视频、大型图纸、扫描的书籍。",
+                    "总大小接近或超过 256 MB：视频、大型图纸、扫描的书籍。",
                     "您想让文件按类型或网站分到不同的文件夹。",
                     "您想立即打开单个文件或给它们重命名。"
                   ]
@@ -14323,7 +14323,7 @@
             },
             {
               "t": "art",
-              "h": "ZIP只是多种输出方式之一",
+              "h": "ZIP 只是多种输出方式之一",
               "p": [
                 "同一批所选文件也可以保存为单独的文件、合并（PDF），或导出为文件列表（CSV）。所有处理都在您的浏览器中完成。"
               ],
@@ -14331,7 +14331,7 @@
                 [
                   "dl-outputs",
                   "保存、ZIP、合并、CSV",
-                  "ZIP不会改变文件，只是把它们打包。合并PDF和导出列表是各自独立的按钮。",
+                  "ZIP 不会改变文件，只是把它们打包。合并 PDF 和导出列表是各自独立的按钮。",
                   240,
                   148
                 ]
@@ -14341,7 +14341,7 @@
               "t": "text",
               "h": "请勿与“分页HTML（ZIP）”混淆",
               "p": [
-                "“分页HTML（ZIP）”属于另一个工具，即将网页合并为 HTML。它把保存的网页按每页一个HTML文件、外加index.html的方式存入ZIP。文件批量下载中的ZIP按钮则把PDF和Office文档等文件原样打包。这是两个独立的功能，本页的限制指的是ZIP按钮的数字。"
+                "“分页HTML（ZIP）”属于另一个工具，即将网页合并为 HTML。它把保存的网页按每页一个 HTML 文件、外加 index.html 的方式存入 ZIP。文件批量下载中的 ZIP 按钮则把 PDF 和 Office 文档等文件原样打包。这是两个独立的功能，本页的限制指的是 ZIP 按钮的数字。"
               ]
             },
             {
@@ -14358,31 +14358,31 @@
                 ],
                 [
                   "bulk-download-word-excel-powerpoint",
-                  "典型的打包对象：Office文件。"
+                  "典型的打包对象：Office 文件。"
                 ]
               ]
             }
           ],
           "faq": [
             {
-              "q": "如何把页面上的许多文件下载为一个ZIP？",
-              "a": "用文件批量下载扫描页面，勾选文件，然后按ZIP。您会得到一个压缩包。"
+              "q": "如何把页面上的许多文件下载为一个 ZIP？",
+              "a": "用文件批量下载扫描页面，勾选文件，然后按 ZIP。您会得到一个压缩包。"
             },
             {
-              "q": "免费版一个ZIP里最多可以放多少个文件？",
-              "a": "10个。30份报告会变成三个各含10个文件的ZIP：选择接下来的10个，再按一次ZIP。"
+              "q": "免费版一个 ZIP 里最多可以放多少个文件？",
+              "a": "10 个。30 份报告会变成三个各含 10 个文件的 ZIP：选择接下来的 10 个，再按一次 ZIP。"
             },
             {
-              "q": "能生成的最大ZIP是多大？",
-              "a": "总计256 MB。超过200 MB时会请您确认。它不会把文件拆分成多个ZIP。"
+              "q": "能生成的最大 ZIP 是多大？",
+              "a": "总计 256 MB。超过 200 MB 时会请您确认。它不会把文件拆分成多个 ZIP。"
             },
             {
-              "q": "ZIP文件叫什么名字？",
+              "q": "ZIP 文件叫什么名字？",
               "a": "网站的主机名加日期，例如 docs.example.com_2026-11-17.zip。开头的 www. 会省略。"
             },
             {
-              "q": "我选的文件太大，装不进一个ZIP，怎么办？",
-              "a": "每个ZIP少选一些文件，或改为保存到文件夹，而不是生成ZIP。"
+              "q": "我选的文件太大，装不进一个 ZIP，怎么办？",
+              "a": "每个 ZIP 少选一些文件，或改为保存到文件夹，而不是生成 ZIP。"
             }
           ]
         },
@@ -15641,7 +15641,7 @@
           "desc": "把页面链接的视频和音频保存为普通文件（mp4、mp3等）。HLS和DASH等流媒体、视频网站和DRM内容不会保存。免费版和 Pro 均可使用。",
           "eyebrow": "视频和音频文件",
           "h1": "保存页面链接的视频和音频文件，并了解哪些内容不在范围内。",
-          "lead": "有些页面只是链接到一个文件：一段.mp4的课程录像、一集.mp3的播客、一个.mov的产品演示。Grab All Files 会检测这些链接，列出它们，并保存您选择的文件。它不会保存流媒体视频。请只用于您有权保留的资料。",
+          "lead": "有些页面只是链接到一个文件：一段.mp4 的课程录像、一集.mp3 的播客、一个.mov 的产品演示。Grab All Files 会检测这些链接，列出它们，并保存您选择的文件。它不会保存流媒体视频。请只用于您有权保留的资料。",
           "blocks": [
             {
               "t": "pair",
@@ -15658,10 +15658,10 @@
                   "h": "不会保存",
                   "no": true,
                   "items": [
-                    "分段传输的流（带.m3u8的HLS、带.mpd的DASH）。",
+                    "分段传输的流（带.m3u8 的 HLS、带.mpd 的 DASH）。",
                     "流媒体网站和视频分享网站上的视频。",
-                    "受DRM保护的内容。不会绕过保护和水印。",
-                    "来自blob:地址的播放，或没有文件扩展名的播放器地址。",
+                    "受 DRM 保护的内容。不会绕过保护和水印。",
+                    "来自 blob:地址的播放，或没有文件扩展名的播放器地址。",
                     "录制流，或把它的分段重新拼合起来。"
                   ]
                 }
@@ -15682,12 +15682,12 @@
                 [
                   "视频",
                   "mp4, m4v, mov, webm, mkv, avi, wmv, flv, mpeg, 3gp, ogv",
-                  "20种"
+                  "20 种"
                 ],
                 [
                   "音频",
                   "mp3, m4a, wav, flac, aac, ogg, opus, wma, aiff",
-                  "25种"
+                  "25 种"
                 ]
               ],
               "after": [
@@ -15718,8 +15718,8 @@
                 "打开链接了这些文件的页面；如果需要登录，请先登录。",
                 "打开 Grab All Files，使用“文件批量下载”并扫描页面。要获取隔一层链接的页面上的文件，请提高搜索深度。",
                 "筛选为“视频”或“音频”。检查大小和名称。",
-                "保存您选择的文件。免费版一次下载10个文件；要保存接下来的文件，请选择它们并再按一次保存。Pro 对数量没有上限。",
-                "如果总大小很大，请保存到文件夹，而不是一个ZIP：ZIP的上限是256 MB，而且不会拆分。"
+                "保存您选择的文件。免费版一次下载 10 个文件；要保存接下来的文件，请选择它们并再按一次保存。Pro 对数量没有上限。",
+                "如果总大小很大，请保存到文件夹，而不是一个 ZIP：ZIP 的上限是 256 MB，而且不会拆分。"
               ]
             },
             {
@@ -15740,7 +15740,7 @@
                 ],
                 [
                   "download-multiple-files-as-zip",
-                  "ZIP的大小限制，以及何时用文件夹更好。"
+                  "ZIP 的大小限制，以及何时用文件夹更好。"
                 ],
                 [
                   "what-grab-all-files-can-and-cannot-do",
@@ -15751,20 +15751,20 @@
           ],
           "faq": [
             {
-              "q": "Grab All Files 能下载网页上的mp4文件吗？",
-              "a": "能，只要页面直接链接了mp4文件。该文件会出现在列表的视频类别中，您选择并保存即可。"
+              "q": "Grab All Files 能下载网页上的 mp4 文件吗？",
+              "a": "能，只要页面直接链接了 mp4 文件。该文件会出现在列表的视频类别中，您选择并保存即可。"
             },
             {
               "q": "能保存视频分享网站上的视频或流媒体视频吗？",
-              "a": "不能。它不会保存视频网站上的视频、HLS或DASH流，或受DRM保护的内容，也不会录制或重新拼合流。"
+              "a": "不能。它不会保存视频网站上的视频、HLS 或 DASH 流，或受 DRM 保护的内容，也不会录制或重新拼合流。"
             },
             {
-              "q": "也能找到mp3这样的音频文件吗？",
-              "a": "能。直接链接的音频文件会在音频类别中被检测到，例如mp3、m4a、wav和flac。"
+              "q": "也能找到 mp3 这样的音频文件吗？",
+              "a": "能。直接链接的音频文件会在音频类别中被检测到，例如 mp3、m4a、wav 和 flac。"
             },
             {
               "q": "文件数量有上限吗？",
-              "a": "对于25段课程录像，免费版分三轮保存10个、10个和5个。Pro 对数量没有上限。"
+              "a": "对于 25 段课程录像，免费版分三轮保存 10 个、10 个和 5 个。Pro 对数量没有上限。"
             },
             {
               "q": "我找到的任何视频都可以下载吗？",
@@ -17151,7 +17151,7 @@
           "desc": "在 Grab All Files 的每种保存形式中，原网址和获取时间分别记录在哪里，哪些会显示在屏幕上，哪些不会为每个页面记录网址。",
           "eyebrow": "来源与时间",
           "h1": "让每个保存的页面都带上来源地址和获取时间。",
-          "lead": "保存的页面能否告诉您它来自哪里、是什么时候保存的，取决于您选择的外观和形式。在某些组合中，网址和时间会打印在每个页面标题的下方。在另一些组合中，它们位于HTML内的注释里，或在Markdown文本中，或者不会为每个页面记录。下面的表格列出了每一种情况。",
+          "lead": "保存的页面能否告诉您它来自哪里、是什么时候保存的，取决于您选择的外观和形式。在某些组合中，网址和时间会打印在每个页面标题的下方。在另一些组合中，它们位于 HTML 内的注释里，或在 Markdown 文本中，或者不会为每个页面记录。下面的表格列出了每一种情况。",
           "blocks": [
             {
               "t": "table",
@@ -17163,18 +17163,18 @@
               ],
               "rows": [
                 [
-                  "“保持原样” + 带目录和搜索的HTML",
+                  "“保持原样” + 带目录和搜索的 HTML",
                   "在每个页面标题的下方：作为链接的原网址，以及获取时间",
                   "是，显示在屏幕上"
                 ],
                 [
-                  "“保持原样” + 分页HTML（ZIP）",
-                  "每个HTML文件顶部的注释：网址和保存日期",
+                  "“保持原样” + 分页 HTML（ZIP）",
+                  "每个 HTML 文件顶部的注释：网址和保存日期",
                   "否。需在页面源代码中查看"
                 ],
                 [
-                  "“保持原样” + 纵向拼接HTML（适合打印）",
-                  "HTML注释，包含标题、网址和保存日期",
+                  "“保持原样” + 纵向拼接 HTML（适合打印）",
+                  "HTML 注释，包含标题、网址和保存日期",
                   "否。需在页面源代码中查看"
                 ],
                 [
@@ -17184,7 +17184,7 @@
                 ],
                 [
                   "AI Markdown（单个文件、按页或完整包）",
-                  "每个页面上的source_url和captured_at。chunks.jsonl和manifest.json中也有这两项",
+                  "每个页面上的 source_url 和 captured_at。chunks.jsonl 和 manifest.json 中也有这两项",
                   "是，作为文件中的文本"
                 ]
               ],
@@ -17194,7 +17194,7 @@
             },
             {
               "t": "art",
-              "h": "两种外观和AI输出",
+              "h": "两种外观和 AI 输出",
               "items": [
                 [
                   "look-original",
@@ -17212,8 +17212,8 @@
                 ],
                 [
                   "ai-package",
-                  "AI输出",
-                  "Markdown、JSONL和清单，每个页面的source_url和captured_at都会保留。",
+                  "AI 输出",
+                  "Markdown、JSONL 和清单，每个页面的 source_url 和 captured_at 都会保留。",
                   96,
                   64
                 ]
@@ -17228,12 +17228,12 @@
                   "“保持原样”配合“带目录和搜索的HTML”。网址和时间位于每个标题下方，因此打印件上也能看到。"
                 ],
                 [
-                  "您想让每个页面保存为一个HTML文件",
-                  "“保持原样”配合“分页HTML（ZIP）”。网址和日期位于每个文件顶部的注释中，页面列在index.html里。"
+                  "您想让每个页面保存为一个 HTML 文件",
+                  "“保持原样”配合“分页HTML（ZIP）”。网址和日期位于每个文件顶部的注释中，页面列在 index.html 里。"
                 ],
                 [
-                  "您以后要搜索文本，或交给AI服务",
-                  "AI Markdown。每个页面都有文本形式的source_url和captured_at，JSONL和清单中的每个条目也是如此。"
+                  "您以后要搜索文本，或交给 AI 服务",
+                  "AI Markdown。每个页面都有文本形式的 source_url 和 captured_at，JSONL 和清单中的每个条目也是如此。"
                 ]
               ]
             },
@@ -17244,8 +17244,8 @@
               "items": [
                 "先用打算使用的外观和形式保存一两个页面。",
                 "在浏览器中打开文件。在带目录和搜索的形式中，查看页面标题下方的网址和时间。",
-                "对于ZIP和纵向拼接形式，在浏览器中查看页面源代码并阅读顶部的注释，或用文本编辑器打开文件。",
-                "对于Markdown，打开.md文件，在每个页面处查找source_url和captured_at。",
+                "对于 ZIP 和纵向拼接形式，在浏览器中查看页面源代码并阅读顶部的注释，或用文本编辑器打开文件。",
+                "对于 Markdown，打开.md 文件，在每个页面处查找 source_url 和 captured_at。",
                 "如果没有网址或时间，请更换外观或形式，或开启收集信息选项，然后重新保存。"
               ]
             },
@@ -17253,7 +17253,7 @@
               "t": "text",
               "h": "它能告诉您什么，不能告诉您什么",
               "p": [
-                "保存的页面会记录读取它的地址和获取它的时间。这让您可以再次找到原页面，并区分旧的获取和新的获取。如果您想随时间对比同一网站的多次获取，“保存与上次收集的变更报告”按钮会写出一份Markdown变更报告，按网址、标题和文本对比该网站上一次完成的收集与新的收集。",
+                "保存的页面会记录读取它的地址和获取它的时间。这让您可以再次找到原页面，并区分旧的获取和新的获取。如果您想随时间对比同一网站的多次获取，“保存与上次收集的变更报告”按钮会写出一份 Markdown 变更报告，按网址、标题和文本对比该网站上一次完成的收集与新的收集。",
                 "电脑上的文件和其他文件一样可以编辑，因此网址和时间只是随页面保存的一条记录，而不是封条。本指南不涉及法院、审计人员或平台会如何看待这样的文件。"
               ]
             },
@@ -17267,7 +17267,7 @@
                 ],
                 [
                   "save-web-pages-as-markdown",
-                  "带有source_url和captured_at的Markdown。"
+                  "带有 source_url 和 captured_at 的 Markdown。"
                 ],
                 [
                   "save-and-compare-document-revisions",
@@ -17282,8 +17282,8 @@
               "a": "使用“保持原样”和“带目录和搜索的HTML”时会：位于每个页面标题的下方，同时显示获取时间。使用“整理为易读格式”时，每个页面没有网址行。"
             },
             {
-              "q": "在分页HTML的ZIP中，网址保存在哪里？",
-              "a": "使用“保持原样”时，保存在每个HTML文件顶部的注释中，包括网址和保存日期。它不会打印在页面上。"
+              "q": "在分页 HTML 的 ZIP 中，网址保存在哪里？",
+              "a": "使用“保持原样”时，保存在每个 HTML 文件顶部的注释中，包括网址和保存日期。它不会打印在页面上。"
             },
             {
               "q": "使用“整理为易读格式”时能得到获取时间吗？",
@@ -17291,11 +17291,11 @@
             },
             {
               "q": "哪种输出会以机器可读的形式保留网址和时间？",
-              "a": "AI Markdown输出。每个页面都有source_url和captured_at，chunks.jsonl和manifest.json中也有这两项。"
+              "a": "AI Markdown 输出。每个页面都有 source_url 和 captured_at，chunks.jsonl 和 manifest.json 中也有这两项。"
             },
             {
               "q": "打印件上会显示来源吗？",
-              "a": "使用“保持原样”和“带目录和搜索的HTML”时会：网址和时间打印在每个标题下方。使用纵向拼接形式时，它们只在HTML注释中，因此打印件上不会显示。"
+              "a": "使用“保持原样”和“带目录和搜索的HTML”时会：网址和时间打印在每个标题下方。使用纵向拼接形式时，它们只在 HTML 注释中，因此打印件上不会显示。"
             }
           ]
         },
@@ -17316,17 +17316,17 @@
               ],
               "rows": [
                 [
-                  "「保持原樣」＋附目錄及搜尋的HTML",
+                  "「保持原樣」＋附目錄及搜尋的 HTML",
                   "每個頁面標題下方：以連結顯示的原始網址，以及擷取時間",
                   "是，顯示在畫面上"
                 ],
                 [
-                  "「保持原樣」＋分頁HTML（ZIP）",
+                  "「保持原樣」＋分頁 HTML（ZIP）",
                   "每個 HTML 檔案開頭的註解：網址（url）與儲存日期",
                   "否。需在網頁原始碼中查看"
                 ],
                 [
-                  "「保持原樣」＋直向串接HTML（適合列印）",
+                  "「保持原樣」＋直向串接 HTML（適合列印）",
                   "含標題、網址與儲存日期的 HTML 註解",
                   "否。需在網頁原始碼中查看"
                 ],
@@ -17336,7 +17336,7 @@
                   "只有開啟該選項時才看得到，而且只有時間"
                 ],
                 [
-                  "AI用Markdown（單一檔案、逐頁，或完整套件）",
+                  "AI 用 Markdown（單一檔案、逐頁，或完整套件）",
                   "每個頁面都有 source_url 與 captured_at。chunks.jsonl 和 manifest.json 也都有這兩項",
                   "是，以文字形式顯示在檔案中"
                 ]
@@ -17386,7 +17386,7 @@
                 ],
                 [
                   "之後要搜尋文字，或交給 AI 服務",
-                  "AI用Markdown。每個頁面都有文字形式的 source_url 與 captured_at，JSONL 和 manifest 中的每一筆也一樣。"
+                  "AI 用 Markdown。每個頁面都有文字形式的 source_url 與 captured_at，JSONL 和 manifest 中的每一筆也一樣。"
                 ]
               ]
             },
@@ -17435,7 +17435,7 @@
               "a": "使用「保持原樣」與「附目錄及搜尋的HTML」時會：顯示在每個頁面標題下方，並附有擷取時間。使用「整理為易讀格式」時，沒有逐頁的網址行。"
             },
             {
-              "q": "分頁HTML的 ZIP 中，網址記錄在哪裡？",
+              "q": "分頁 HTML 的 ZIP 中，網址記錄在哪裡？",
               "a": "使用「保持原樣」時，記錄在每個 HTML 檔案開頭的註解中，包含網址（url）與儲存日期，不會印在頁面上。"
             },
             {
@@ -17444,7 +17444,7 @@
             },
             {
               "q": "哪種輸出會以機器可讀的形式保留網址與時間？",
-              "a": "AI用Markdown 輸出。每個頁面都有 source_url 與 captured_at，chunks.jsonl 和 manifest.json 也都有這兩項。"
+              "a": "AI 用 Markdown 輸出。每個頁面都有 source_url 與 captured_at，chunks.jsonl 和 manifest.json 也都有這兩項。"
             },
             {
               "q": "列印出來會顯示來源嗎？",
@@ -18806,7 +18806,7 @@
           "desc": "从保险公司的产品页面收集条款、宣传册、重要事项说明和修订通知，按PDF标题命名，产品和版本由您自己记录。",
           "eyebrow": "保险代理与产品比较工作",
           "h1": "按产品收集条款、宣传册和说明文件。",
-          "lead": "代理机构或比较部门往往需要为每个产品准备同一套PDF：保险条款、宣传册、说明重要事项的文件，以及修订通知。Grab All Files 会找出产品页面上的PDF，让您挑选需要的，并以对您有意义的名称和文件夹保存。它不会读取内容，也不会替您记录版本。版本和修订日期由您自己写下。",
+          "lead": "代理机构或比较部门往往需要为每个产品准备同一套 PDF：保险条款、宣传册、说明重要事项的文件，以及修订通知。Grab All Files 会找出产品页面上的 PDF，让您挑选需要的，并以对您有意义的名称和文件夹保存。它不会读取内容，也不会替您记录版本。版本和修订日期由您自己写下。",
           "blocks": [
             {
               "t": "cards",
@@ -18814,7 +18814,7 @@
               "items": [
                 [
                   "保险条款",
-                  "包含全部条件的长篇PDF。有时会拆分为一般条款和特别条款，各自是一个文件。"
+                  "包含全部条件的长篇 PDF。有时会拆分为一般条款和特别条款，各自是一个文件。"
                 ],
                 [
                   "宣传册",
@@ -18830,7 +18830,7 @@
                 ],
                 [
                   "修订通知",
-                  "带日期的变更列表或页面，以PDF或普通网页的形式发布。"
+                  "带日期的变更列表或页面，以 PDF 或普通网页的形式发布。"
                 ],
                 [
                   "申请表和指南",
@@ -18840,9 +18840,9 @@
             },
             {
               "t": "shot",
-              "h": "挑选PDF、命名并分到文件夹",
+              "h": "挑选 PDF、命名并分到文件夹",
               "src": "/assets/screenshots/use-case-rename-and-organize-bulk-pdf-downloads-en.png",
-              "alt": "Grab All Files，文件批量下载：扫描到的两个PDF文件的列表，带有复选框，一个获取所选PDF标题的按钮，以及文件名、文件夹分类、PDF合并、ZIP和文件信息CSV的保存选项。",
+              "alt": "Grab All Files，文件批量下载：扫描到的两个 PDF 文件的列表，带有复选框，一个获取所选 PDF 标题的按钮，以及文件名、文件夹分类、PDF 合并、ZIP 和文件信息 CSV 的保存选项。",
               "cap": "免费版中带示例文件的实际面板。这里文件名设为标题，文件夹按类型分类。",
               "w": 2240,
               "hgt": 2000,
@@ -18852,7 +18852,7 @@
               "t": "table",
               "h": "需要您自己记录的内容",
               "p": [
-                "扩展程序负责保存文件。它不知道某个PDF是条款的哪个版本。请把这些信息记在文件名里，或记在您自己的表格里。"
+                "扩展程序负责保存文件。它不知道某个 PDF 是条款的哪个版本。请把这些信息记在文件名里，或记在您自己的表格里。"
               ],
               "head": [
                 "",
@@ -18863,33 +18863,33 @@
               "rows": [
                 [
                   "版本",
-                  "PDF中印刷的版本标记",
-                  "打开PDF，查看封面或页脚",
+                  "PDF 中印刷的版本标记",
+                  "打开 PDF，查看封面或页脚",
                   "ProductA_terms_edition-12.pdf"
                 ],
                 [
                   "修订日期",
                   "保险公司给出的变更日期",
-                  "通知页面或PDF本身",
+                  "通知页面或 PDF 本身",
                   "ProductA_terms_2026-10-01.pdf"
                 ],
                 [
                   "您收集的日期",
                   "您保存该文件的日期",
-                  "ZIP的名称包含日期；或自己记下",
+                  "ZIP 的名称包含日期；或自己记下",
                   "ProductA_brochure_got-2026-11-17.pdf"
                 ],
                 [
                   "渠道或计划",
                   "该文件对应哪个销售渠道或计划",
-                  "产品页面和PDF标题",
+                  "产品页面和 PDF 标题",
                   "ProductA_key-info_agency.pdf"
                 ],
                 [
                   "来源页面",
                   "您找到它的页面",
-                  "文件信息CSV中的“来源页面”列",
-                  "（保存在CSV中）"
+                  "文件信息 CSV 中的“来源页面”列",
+                  "（保存在 CSV 中）"
                 ]
               ]
             },
@@ -18898,11 +18898,11 @@
               "h": "操作步骤",
               "num": true,
               "items": [
-                "打开保险公司的产品页面，或列出某个产品文件的页面。如果PDF列表需要先搜索，请先搜索，再打开结果页面。",
-                "打开 Grab All Files，使用“文件批量下载”。扫描页面。如果所有文件都在这一页上，就保持“仅当前页面”；如果PDF在它链接的页面上，请选择“深度 1”。",
-                "在列表中按类型缩小到PDF，并检查标题和大小。去掉不需要的，例如其他产品的表格。",
-                "把文件名设为PDF的标题（按钮会获取所选PDF的标题），并选择文件夹的分类方式。保存所选文件。",
-                "按文件信息CSV按钮。用电子表格打开，并添加您自己的版本和修订日期列。"
+                "打开保险公司的产品页面，或列出某个产品文件的页面。如果 PDF 列表需要先搜索，请先搜索，再打开结果页面。",
+                "打开 Grab All Files，使用“文件批量下载”。扫描页面。如果所有文件都在这一页上，就保持“仅当前页面”；如果 PDF 在它链接的页面上，请选择“深度 1”。",
+                "在列表中按类型缩小到 PDF，并检查标题和大小。去掉不需要的，例如其他产品的表格。",
+                "把文件名设为 PDF 的标题（按钮会获取所选 PDF 的标题），并选择文件夹的分类方式。保存所选文件。",
+                "按文件信息 CSV 按钮。用电子表格打开，并添加您自己的版本和修订日期列。"
               ]
             },
             {
@@ -18910,20 +18910,20 @@
               "h": "扩展程序负责什么，什么留给您",
               "num": false,
               "items": [
-                "负责：找出页面上的每个PDF，并连同标题、大小和来源页面一起列出。",
-                "负责：保存您勾选的文件，以PDF标题作为文件名，并按类型或网站分文件夹。",
+                "负责：找出页面上的每个 PDF，并连同标题、大小和来源页面一起列出。",
+                "负责：保存您勾选的文件，以 PDF 标题作为文件名，并按类型或网站分文件夹。",
                 "您来做：产品名称、版本和修订日期。请把它们加在文件名里或您的表格里。",
                 "您来做：判断合同适用哪个版本，或某个产品是否适合客户。",
                 "您来做：留意保险公司是否发布了修订。请自己再次打开通知页面。",
-                "无法做到：需要您没有的登录账号的页面，以及对比两份PDF内部的文本。"
+                "无法做到：需要您没有的登录账号的页面，以及对比两份 PDF 内部的文本。"
               ]
             },
             {
               "t": "text",
               "h": "对比修订版本",
               "p": [
-                "对比两个版本最简单的办法，是把两份PDF放在同一个产品文件夹里，在名称中标明版本或日期，然后并排打开。文件信息CSV中的“修改日期”列是服务器报告的该文件的日期，并不是保险公司印刷的修订日期，所以请不要把它当作修订日期。",
-                "如果保险公司把修订通知发布为普通网页，您可以每次访问时用“将网页合并为 HTML”保存该页面。变更报告会按网址、标题和正文，对比同一网站最近一次收集与上一次完成的收集。它对比的是网页，而不是PDF的内部内容。"
+                "对比两个版本最简单的办法，是把两份 PDF 放在同一个产品文件夹里，在名称中标明版本或日期，然后并排打开。文件信息 CSV 中的“修改日期”列是服务器报告的该文件的日期，并不是保险公司印刷的修订日期，所以请不要把它当作修订日期。",
+                "如果保险公司把修订通知发布为普通网页，您可以每次访问时用“将网页合并为 HTML”保存该页面。变更报告会按网址、标题和正文，对比同一网站最近一次收集与上一次完成的收集。它对比的是网页，而不是 PDF 的内部内容。"
               ]
             },
             {
@@ -18932,7 +18932,7 @@
               "items": [
                 [
                   "rename-and-organize-bulk-pdf-downloads",
-                  "用PDF标题作为文件名，并按类型或网站分文件夹。"
+                  "用 PDF 标题作为文件名，并按类型或网站分文件夹。"
                 ],
                 [
                   "save-and-compare-document-revisions",
@@ -18940,7 +18940,7 @@
                 ],
                 [
                   "export-file-links-to-csv",
-                  "文件信息CSV包含什么。"
+                  "文件信息 CSV 包含什么。"
                 ]
               ]
             }
@@ -18948,11 +18948,11 @@
           "faq": [
             {
               "q": "能一次从多个产品页面下载条款和宣传册吗？",
-              "a": "您可以一次扫描一个页面，或从起始页用“深度 1”到“深度 5”跟随链接。列表会显示找到的每个PDF，由您选择保存哪些。使用免费版时，一次保存最多10个所选文件；Pro 没有每次保存的上限。"
+              "a": "您可以一次扫描一个页面，或从起始页用“深度 1”到“深度 5”跟随链接。列表会显示找到的每个 PDF，由您选择保存哪些。使用免费版时，一次保存最多 10 个所选文件；Pro 没有每次保存的上限。"
             },
             {
-              "q": "它能告诉我某个PDF是条款的哪个版本吗？",
-              "a": "不能。文件信息CSV包含文件名、标题、大小、服务器报告的该文件的日期，以及找到它的页面。版本和修订日期需要您从文档中读取并写下。"
+              "q": "它能告诉我某个 PDF 是条款的哪个版本吗？",
+              "a": "不能。文件信息 CSV 包含文件名、标题、大小、服务器报告的该文件的日期，以及找到它的页面。版本和修订日期需要您从文档中读取并写下。"
             },
             {
               "q": "它能发现保险公司修订了条款吗？",
@@ -18960,7 +18960,7 @@
             },
             {
               "q": "能按产品给文件命名吗？",
-              "a": "它可以把PDF的标题用作文件名，并按类型或网站分文件夹。标题或网站名称中没有的产品名，需要您自己添加，可以事后重命名，或记在您的表格里。"
+              "a": "它可以把 PDF 的标题用作文件名，并按类型或网站分文件夹。标题或网站名称中没有的产品名，需要您自己添加，可以事后重命名，或记在您的表格里。"
             },
             {
               "q": "有关保单的任何内容会发送到你们的服务器吗？",
@@ -20352,8 +20352,8 @@
           "title": "从搜索结果收集法规、判决和专利PDF | Grab All Files",
           "desc": "从公开的法规、判例或专利数据库的结果页面选择PDF，按标题命名并列出来源。数量庞大时，请使用提供方的批量下载。",
           "eyebrow": "法律与专利调研",
-          "h1": "保存搜索结果页面上的PDF，并按标题命名。",
-          "lead": "法规、判决和专利的公开数据库会显示结果页面，每一行背后都有一个PDF。Grab All Files 会扫描该页面，列出找到的每个PDF，并保存您勾选的文件。它保存的是文件。它不判断文本是否现行、是否正确或是否适用，也不提供法律意见。需要数千份文件时，请使用提供方的批量下载或API。",
+          "h1": "保存搜索结果页面上的 PDF，并按标题命名。",
+          "lead": "法规、判决和专利的公开数据库会显示结果页面，每一行背后都有一个 PDF。Grab All Files 会扫描该页面，列出找到的每个 PDF，并保存您勾选的文件。它保存的是文件。它不判断文本是否现行、是否正确或是否适用，也不提供法律意见。需要数千份文件时，请使用提供方的批量下载或 API。",
           "blocks": [
             {
               "t": "table",
@@ -20367,31 +20367,31 @@
               "rows": [
                 [
                   "法律和法规",
-                  "现行文本或官方公报页面的PDF",
-                  "标题列表，通常每行一个PDF链接",
+                  "现行文本或官方公报页面的 PDF",
+                  "标题列表，通常每行一个 PDF 链接",
                   "标题；保存日期手动添加"
                 ],
                 [
                   "判决",
-                  "全文的PDF，有时判决书和摘要是两个文件",
+                  "全文的 PDF，有时判决书和摘要是两个文件",
                   "带有“下一个”的结果页面，每行一份判决",
                   "标题；法院、日期和案号手动添加"
                 ],
                 [
                   "专利和实用新型",
-                  "公开文本或授权专利的PDF",
+                  "公开文本或授权专利的 PDF",
                   "每页几十行、共几页的命中列表",
                   "标题；公开号手动添加"
                 ],
                 [
                   "指南和通知",
-                  "PDF，有时附带Word或Excel附件",
+                  "PDF，有时附带 Word 或 Excel 附件",
                   "按年份分组的链接页面",
                   "标题；发布日期手动添加"
                 ]
               ],
               "after": [
-                "只有PDF的标题（或原始名称）可以自动用作文件名。法院、日期、案号和公开号不会替您添加：请手动重命名，或把它们记在文件信息CSV旁边的表格里。在依赖标题之前，请先检查几个。"
+                "只有 PDF 的标题（或原始名称）可以自动用作文件名。法院、日期、案号和公开号不会替您添加：请手动重命名，或把它们记在文件信息 CSV 旁边的表格里。在依赖标题之前，请先检查几个。"
               ]
             },
             {
@@ -20404,7 +20404,7 @@
                 [
                   "dl-depth",
                   "搜索多远",
-                  "一个结果页面用“仅当前页面”；用深度 1 到 5 可跟随链接到存放PDF的详情页。",
+                  "一个结果页面用“仅当前页面”；用深度 1 到 5 可跟随链接到存放 PDF 的详情页。",
                   240,
                   148
                 ],
@@ -20418,7 +20418,7 @@
                 [
                   "dl-outputs",
                   "如何保存",
-                  "保存文件、生成ZIP、在浏览器中合并PDF，或把列表导出为CSV。",
+                  "保存文件、生成 ZIP、在浏览器中合并 PDF，或把列表导出为 CSV。",
                   240,
                   148
                 ]
@@ -20430,11 +20430,11 @@
               "num": true,
               "items": [
                 "在浏览器中的数据库里进行搜索，并把显示设置成结果页面尽可能多地显示行数。",
-                "打开结果页面后，启动“文件批量下载”并扫描。如果PDF不在结果页面上，而在每个详情页上，请选择“深度 1”。",
-                "把列表缩小到PDF。免费版只读取屏幕上的内容，因此扫描前请把很长的结果列表滚动到底。Pro 可以替您滚动并跟随列表的“下一个”页面，每次扫描默认最多100页。",
+                "打开结果页面后，启动“文件批量下载”并扫描。如果 PDF 不在结果页面上，而在每个详情页上，请选择“深度 1”。",
+                "把列表缩小到 PDF。免费版只读取屏幕上的内容，因此扫描前请把很长的结果列表滚动到底。Pro 可以替您滚动并跟随列表的“下一个”页面，每次扫描默认最多 100 页。",
                 "文件名选择“PDF标题”，并选一种适合工作的文件夹分类：按类型、按网站，或不分类。",
-                "保存所选文件。使用免费版时，一次保存最多10个文件；选择接下来的文件，再按一次保存。",
-                "导出文件信息CSV。其中有每个文件的网址、文件名、标题和来源页面，可以作为您的来源清单保存。"
+                "保存所选文件。使用免费版时，一次保存最多 10 个文件；选择接下来的文件，再按一次保存。",
+                "导出文件信息 CSV。其中有每个文件的网址、文件名、标题和来源页面，可以作为您的来源清单保存。"
               ]
             },
             {
@@ -20442,8 +20442,8 @@
               "h": "何时改用提供方自己的途径",
               "num": false,
               "items": [
-                "数万份文件，或整整一年的判决：请寻找批量下载或API。",
-                "您需要的是结构化数据而不是PDF：提供方的数据文件更合适。",
+                "数万份文件，或整整一年的判决：请寻找批量下载或 API。",
+                "您需要的是结构化数据而不是 PDF：提供方的数据文件更合适。",
                 "任何必须保持最新的内容：扩展程序不会监视变化。",
                 "文本是否有效、如何适用：这应由有资质的人员和原始来源判断。"
               ]
@@ -20453,7 +20453,7 @@
               "h": "使用条款与文件的性质",
               "p": [
                 "公开数据库对自动访问、复制和再利用有各自的规定。在大量收集之前请先阅读，并通过分批保存来控制负载。Grab All Files 不会突破登录或验证码。",
-                "您保存的PDF是网站当天提供内容的副本。请在您的列表中，把保存日期写在标题旁边，当需要确切措辞时，请回到来源核对。"
+                "您保存的 PDF 是网站当天提供内容的副本。请在您的列表中，把保存日期写在标题旁边，当需要确切措辞时，请回到来源核对。"
               ]
             },
             {
@@ -20470,19 +20470,19 @@
                 ],
                 [
                   "export-file-links-to-csv",
-                  "文件信息CSV的各列。"
+                  "文件信息 CSV 的各列。"
                 ]
               ]
             }
           ],
           "faq": [
             {
-              "q": "能把所有搜索结果都下载为PDF吗？",
-              "a": "扫描在它读取的页面上找到的大部分PDF都可以保存。受DRM保护或位于浏览器内置PDF查看器中的PDF无法保存。使用免费版时，一次保存10个所选文件，因此很长的结果列表需要分几轮；Pro 每次保存没有上限，还可以滚动并跟随“下一个”页面。数量非常庞大时，请使用提供方的批量下载或API。"
+              "q": "能把所有搜索结果都下载为 PDF 吗？",
+              "a": "扫描在它读取的页面上找到的大部分 PDF 都可以保存。受 DRM 保护或位于浏览器内置 PDF 查看器中的 PDF 无法保存。使用免费版时，一次保存 10 个所选文件，因此很长的结果列表需要分几轮；Pro 每次保存没有上限，还可以滚动并跟随“下一个”页面。数量非常庞大时，请使用提供方的批量下载或 API。"
             },
             {
-              "q": "PDF会按标题命名吗？",
-              "a": "您可以把文件名设为PDF的标题。标题来自PDF本身，所以请检查几个。如果某个PDF没有标题，就使用文件名。"
+              "q": "PDF 会按标题命名吗？",
+              "a": "您可以把文件名设为 PDF 的标题。标题来自 PDF 本身，所以请检查几个。如果某个 PDF 没有标题，就使用文件名。"
             },
             {
               "q": "它能告诉我某部法律或某个案例是否现行有效吗？",
@@ -20490,11 +20490,11 @@
             },
             {
               "q": "它支持哪些数据库？",
-              "a": "它不是为某一个网站设计的。它会找出页面链接或加载的文件，所以通常在您能用浏览器打开的页面上都能工作。有些文件，例如DRM或内置PDF查看器中的文件，无法保存，而且每个网站对自动访问都有自己的规定。"
+              "a": "它不是为某一个网站设计的。它会找出页面链接或加载的文件，所以通常在您能用浏览器打开的页面上都能工作。有些文件，例如 DRM 或内置 PDF 查看器中的文件，无法保存，而且每个网站对自动访问都有自己的规定。"
             },
             {
               "q": "能保留用于引用的来源清单吗？",
-              "a": "导出文件信息CSV。其中的“来源页面”列显示每个PDF是在哪里找到的。CSV中没有您保存日期的列，案号或公开号这类您自己的标识也不会自动填写，请在表格里补充。"
+              "a": "导出文件信息 CSV。其中的“来源页面”列显示每个 PDF 是在哪里找到的。CSV 中没有您保存日期的列，案号或公开号这类您自己的标识也不会自动填写，请在表格里补充。"
             }
           ]
         },
@@ -20502,8 +20502,8 @@
           "title": "從搜尋結果收集法規、判決與專利PDF | Grab All Files",
           "desc": "從公開的法規、判決或專利資料庫搜尋結果中選取PDF，以標題命名並列出來源。大量取得時，請使用提供單位的批次下載。",
           "eyebrow": "法務與專利研究",
-          "h1": "儲存搜尋結果頁面中的PDF，並以標題命名。",
-          "lead": "公開的法規、判決與專利資料庫，搜尋結果的每一列背後都有一份PDF。Grab All Files 會掃描該頁面，列出找到的所有PDF，並儲存您勾選的檔案。它儲存的是文件，不會判斷內容是否為現行有效、是否正確或是否適用，也不提供法律建議。需要數千份文件時，請使用提供單位的批次下載或API。",
+          "h1": "儲存搜尋結果頁面中的 PDF，並以標題命名。",
+          "lead": "公開的法規、判決與專利資料庫，搜尋結果的每一列背後都有一份 PDF。Grab All Files 會掃描該頁面，列出找到的所有 PDF，並儲存您勾選的檔案。它儲存的是文件，不會判斷內容是否為現行有效、是否正確或是否適用，也不提供法律建議。需要數千份文件時，請使用提供單位的批次下載或 API。",
           "blocks": [
             {
               "t": "table",
@@ -20517,31 +20517,31 @@
               "rows": [
                 [
                   "法規",
-                  "現行條文或政府公報頁面的PDF",
-                  "標題清單，通常每列有一個PDF連結",
+                  "現行條文或政府公報頁面的 PDF",
+                  "標題清單，通常每列有一個 PDF 連結",
                   "標題；儲存日期請手動補上"
                 ],
                 [
                   "判決",
-                  "全文PDF，有時判決書與摘要分成兩個檔案",
+                  "全文 PDF，有時判決書與摘要分成兩個檔案",
                   "有「下一頁」的結果頁面，每列一件判決",
                   "標題；法院、日期與案號請手動補上"
                 ],
                 [
                   "專利與新型專利",
-                  "公開公報或專利證書的PDF",
+                  "公開公報或專利證書的 PDF",
                   "每頁有數十列的搜尋結果，連續好幾頁",
                   "標題；公開號請手動補上"
                 ],
                 [
                   "指引與函釋",
-                  "PDF，有時附有Word或Excel附件",
+                  "PDF，有時附有 Word 或 Excel 附件",
                   "依年度整理的連結頁面",
                   "標題；發布日期請手動補上"
                 ]
               ],
               "after": [
-                "能自動帶入檔名的，只有PDF的標題（或原始檔名）。法院、日期、案號與公開號不會自動加入：請手動重新命名，或記錄在檔案資訊CSV旁邊的試算表中。使用標題前，請先抽查幾個。"
+                "能自動帶入檔名的，只有 PDF 的標題（或原始檔名）。法院、日期、案號與公開號不會自動加入：請手動重新命名，或記錄在檔案資訊 CSV 旁邊的試算表中。使用標題前，請先抽查幾個。"
               ]
             },
             {
@@ -20568,7 +20568,7 @@
                 [
                   "dl-outputs",
                   "如何儲存",
-                  "儲存檔案、製作ZIP、在瀏覽器中合併PDF，或將清單匯出為CSV。",
+                  "儲存檔案、製作 ZIP、在瀏覽器中合併 PDF，或將清單匯出為 CSV。",
                   240,
                   148
                 ]
@@ -20581,10 +20581,10 @@
               "items": [
                 "在瀏覽器中於資料庫執行搜尋，並將每頁顯示筆數設為可選的最大值。",
                 "開啟結果頁面後，啟動「檔案批次下載」並掃描。如果 PDF 不在結果頁面上，而是在各個詳細頁面中，請選擇「深度 1」。",
-                "將清單篩選為PDF。免費版只讀取畫面上已顯示的內容，所以結果很長時，請先自行捲動到最後再掃描。Pro 可以自動捲動，並追蹤清單的「下一頁」，預設每次掃描最多 100 頁。",
+                "將清單篩選為 PDF。免費版只讀取畫面上已顯示的內容，所以結果很長時，請先自行捲動到最後再掃描。Pro 可以自動捲動，並追蹤清單的「下一頁」，預設每次掃描最多 100 頁。",
                 "檔名選擇「PDF的標題」，資料夾分類依作業需求選擇：依類型、依網站，或不分類。",
                 "儲存所選檔案。免費版每次儲存最多 10 個檔案；選取接下來的檔案後，再按一次儲存。",
-                "匯出檔案資訊CSV。其中包含網址、檔名、標題與各檔案所在的頁面，可作為來源清單儲存。"
+                "匯出檔案資訊 CSV。其中包含網址、檔名、標題與各檔案所在的頁面，可作為來源清單儲存。"
               ]
             },
             {
@@ -20592,8 +20592,8 @@
               "h": "改用提供單位自己的方式會更合適的情況",
               "num": false,
               "items": [
-                "數萬份文件，或整年的全部判決：請找批次下載或API。",
-                "需要結構化資料而非PDF：提供單位的資料檔更合適。",
+                "數萬份文件，或整年的全部判決：請找批次下載或 API。",
+                "需要結構化資料而非 PDF：提供單位的資料檔更合適。",
                 "必須隨時保持最新：擴充功能不會監看內容變更。",
                 "條文是否生效、如何適用：請洽具備資格的專業人士，並以原始出處為準。"
               ]
@@ -20603,7 +20603,7 @@
               "h": "使用條款，以及儲存的檔案代表什麼",
               "p": [
                 "公開資料庫對於自動存取、複製與再利用也有各自的規定。大量收集前請先閱讀，並分批儲存以降低負荷。Grab All Files 不會突破登入或 CAPTCHA。",
-                "您儲存的PDF，是網站當天提供內容的複本。請在清單中把儲存日期與標題記在一起，需要確認精確文字時，請回到原始出處。"
+                "您儲存的 PDF，是網站當天提供內容的複本。請在清單中把儲存日期與標題記在一起，需要確認精確文字時，請回到原始出處。"
               ]
             },
             {
@@ -20620,19 +20620,19 @@
                 ],
                 [
                   "export-file-links-to-csv",
-                  "檔案資訊CSV的各個欄位。"
+                  "檔案資訊 CSV 的各個欄位。"
                 ]
               ]
             }
           ],
           "faq": [
             {
-              "q": "可以把所有搜尋結果都下載成PDF嗎？",
-              "a": "掃描在所讀取頁面上找到的PDF，大多數都能儲存。受 DRM 保護的PDF，或位於瀏覽器內建PDF檢視器中的PDF，則無法儲存。免費版每次儲存最多 10 個所選檔案，所以很長的結果清單需要分幾次進行；Pro 每次儲存沒有數量限制，並能自動捲動、追蹤「下一頁」。數量非常龐大時，請使用提供單位的批次下載或API。"
+              "q": "可以把所有搜尋結果都下載成 PDF 嗎？",
+              "a": "掃描在所讀取頁面上找到的 PDF，大多數都能儲存。受 DRM 保護的 PDF，或位於瀏覽器內建 PDF 檢視器中的 PDF，則無法儲存。免費版每次儲存最多 10 個所選檔案，所以很長的結果清單需要分幾次進行；Pro 每次儲存沒有數量限制，並能自動捲動、追蹤「下一頁」。數量非常龐大時，請使用提供單位的批次下載或 API。"
             },
             {
               "q": "PDF 可以用標題來命名嗎？",
-              "a": "您可以將檔名設為PDF的標題。標題取自PDF本身，所以請抽查幾個。如果PDF沒有標題，就會使用原始檔名。"
+              "a": "您可以將檔名設為 PDF 的標題。標題取自 PDF 本身，所以請抽查幾個。如果 PDF 沒有標題，就會使用原始檔名。"
             },
             {
               "q": "它會告訴我法規或判決是否為現行有效嗎？",
@@ -20640,11 +20640,11 @@
             },
             {
               "q": "支援哪些資料庫？",
-              "a": "它不是為特定網站設計的。它會找出頁面所連結或載入的檔案，因此多半能在您用瀏覽器開得起來的頁面上使用。有些檔案無法儲存，例如受 DRM 保護或位於內建PDF檢視器中的檔案；各網站對自動存取也有各自的規定。"
+              "a": "它不是為特定網站設計的。它會找出頁面所連結或載入的檔案，因此多半能在您用瀏覽器開得起來的頁面上使用。有些檔案無法儲存，例如受 DRM 保護或位於內建 PDF 檢視器中的檔案；各網站對自動存取也有各自的規定。"
             },
             {
               "q": "可以保留引用用的來源清單嗎？",
-              "a": "請匯出檔案資訊CSV。其中「Source page」欄會顯示每份PDF是在哪個頁面找到的。CSV 沒有儲存日期欄，案號或公開號等您自己的識別碼也不會自動填入，請在試算表中補上。"
+              "a": "請匯出檔案資訊 CSV。其中「Source page」欄會顯示每份 PDF 是在哪個頁面找到的。CSV 沒有儲存日期欄，案號或公開號等您自己的識別碼也不會自動填入，請在試算表中補上。"
             }
           ]
         }
@@ -21978,7 +21978,7 @@
                 {
                   "h": "可以做的事",
                   "items": [
-                    "为了自己的学习，保存您所修课程的讲义幻灯片、资料和阅读PDF。",
+                    "为了自己的学习，保存您所修课程的讲义幻灯片、资料和阅读 PDF。",
                     "如果是公开的，保存您正在考虑的课程的教学大纲页面和课程安排。",
                     "在课程结束之前保留这些资料，以防之后无法访问。",
                     "确认每门课程的规定：有些老师要求不要复制或转发文件。"
@@ -22006,7 +22006,7 @@
                 ],
                 [
                   "教师自己的网站",
-                  "通常是一个链接着PDF和幻灯片的普通页面。从课程页面开始。深度设置会从该页面跟随链接，而且只限于您起始页面所在的文件夹内。"
+                  "通常是一个链接着 PDF 和幻灯片的普通页面。从课程页面开始。深度设置会从该页面跟随链接，而且只限于您起始页面所在的文件夹内。"
                 ],
                 [
                   "学习和教程网站",
@@ -22018,7 +22018,7 @@
               "t": "shot",
               "h": "示例培训页面上的文件列表",
               "src": "/assets/screenshots/use-case-internal-portal-downloads-en.png",
-              "alt": "Grab All Files，文件批量下载，在一个示例培训页面上：三个文件的列表（两个PDF和一个DOCX），带有复选框，以及文件名、文件夹分类、PDF合并、ZIP和文件信息CSV的保存选项。",
+              "alt": "Grab All Files，文件批量下载，在一个示例培训页面上：三个文件的列表（两个 PDF 和一个 DOCX），带有复选框，以及文件名、文件夹分类、PDF 合并、ZIP 和文件信息 CSV 的保存选项。",
               "cap": "免费版中的实际面板。这里的页面是示例培训页面，不是真实的课程。勾选文件，设置名称和文件夹，然后保存。",
               "w": 2240,
               "hgt": 2000,
@@ -22069,9 +22069,9 @@
               "num": true,
               "items": [
                 "如有需要，请在浏览器中登录学习管理系统，并打开课程页面。",
-                "打开 Grab All Files，使用“文件批量下载”并扫描。把列表缩小到“演示文稿”、“文档”和PDF。",
-                "把文件名设为PDF的标题，或保留原名。文件夹分类只能按类型或按网站，所以请为每门课程自己建一个保存文件夹，并在保存时选择它。",
-                "保存。使用免费版时，一次保存最多10个文件，所以请一周一周地保存。Pro 会一次保存全部所选文件。",
+                "打开 Grab All Files，使用“文件批量下载”并扫描。把列表缩小到“演示文稿”、“文档”和 PDF。",
+                "把文件名设为 PDF 的标题，或保留原名。文件夹分类只能按类型或按网站，所以请为每门课程自己建一个保存文件夹，并在保存时选择它。",
+                "保存。使用免费版时，一次保存最多 10 个文件，所以请一周一周地保存。Pro 会一次保存全部所选文件。",
                 "如果保存过程中会话结束，各行会显示您已退出登录。请重新登录并重试失败的文件；已保存的文件会保留。"
               ]
             },
@@ -22079,7 +22079,7 @@
               "t": "text",
               "h": "作为页面的教学大纲",
               "p": [
-                "教学大纲往往是网页而不是文件。如果想保留它，请使用“将网页合并为 HTML”把该页面保存为HTML；想在笔记应用中阅读的话，则保存为Markdown。使用免费版时，一次运行会保存您从候选列表中选择的1个页面；Pro 一次运行可保存多个页面。"
+                "教学大纲往往是网页而不是文件。如果想保留它，请使用“将网页合并为 HTML”把该页面保存为 HTML；想在笔记应用中阅读的话，则保存为 Markdown。使用免费版时，一次运行会保存您从候选列表中选择的 1 个页面；Pro 一次运行可保存多个页面。"
               ]
             },
             {
@@ -22092,7 +22092,7 @@
                 ],
                 [
                   "bulk-download-word-excel-powerpoint",
-                  "从一个页面收集幻灯片和Office文件。"
+                  "从一个页面收集幻灯片和 Office 文件。"
                 ],
                 [
                   "rename-and-organize-bulk-pdf-downloads",
@@ -22112,15 +22112,15 @@
             },
             {
               "q": "能遍历整个大学网站吗？",
-              "a": "可以：深度有“无限制”设置，一次扫描最多读取100,000页。但这很少是您想要的。请从课程页面开始并使用较小的深度，因为扫描本来就只限于起始页所在的文件夹。"
+              "a": "可以：深度有“无限制”设置，一次扫描最多读取 100,000 页。但这很少是您想要的。请从课程页面开始并使用较小的深度，因为扫描本来就只限于起始页所在的文件夹。"
             },
             {
               "q": "免费版可以保存多少个文件？",
-              "a": "每次保存最多10个所选文件。选择接下来的文件再保存。Pro 每次保存没有上限。"
+              "a": "每次保存最多 10 个所选文件。选择接下来的文件再保存。Pro 每次保存没有上限。"
             },
             {
               "q": "能保存视频讲座吗？",
-              "a": "只能保存作为mp4等普通文件链接的视频。由页面在查看器中播放视频的流媒体讲座不会保存。"
+              "a": "只能保存作为 mp4 等普通文件链接的视频。由页面在查看器中播放视频的流媒体讲座不会保存。"
             },
             {
               "q": "它会为每门课程建一个文件夹吗？",
@@ -22141,7 +22141,7 @@
                 {
                   "h": "可以做的事",
                   "items": [
-                    "為了自己的學習，儲存您所修課程的上課投影片、講義與閱讀用PDF。",
+                    "為了自己的學習，儲存您所修課程的上課投影片、講義與閱讀用 PDF。",
                     "儲存您正在考慮修習之課程的課程大綱頁面與課程時程（以公開者為限）。",
                     "在課程結束、無法再存取之前，先把教材留存下來。",
                     "確認各課程的規定：有些老師會要求不得複製或轉傳檔案。"
@@ -22169,7 +22169,7 @@
                 ],
                 [
                   "教師個人網站",
-                  "通常是一個列出PDF和投影片連結的簡單頁面。請從課程頁面開始。深度設定會從該頁面追蹤連結，而且只限於起始頁面所在的資料夾內。"
+                  "通常是一個列出 PDF 和投影片連結的簡單頁面。請從課程頁面開始。深度設定會從該頁面追蹤連結，而且只限於起始頁面所在的資料夾內。"
                 ],
                 [
                   "學習與教學網站",
@@ -22181,7 +22181,7 @@
               "t": "shot",
               "h": "範例研習頁面上的檔案清單",
               "src": "/assets/screenshots/use-case-internal-portal-downloads-en.png",
-              "alt": "Grab All Files 的「檔案批次下載」，位於一個範例研習頁面：列出三個檔案（兩個PDF、一個DOCX），附有核取方塊，以及檔名、資料夾分類、PDF合併、ZIP和檔案資訊CSV的儲存選項。",
+              "alt": "Grab All Files 的「檔案批次下載」，位於一個範例研習頁面：列出三個檔案（兩個 PDF、一個 DOCX），附有核取方塊，以及檔名、資料夾分類、PDF 合併、ZIP 和檔案資訊 CSV 的儲存選項。",
               "cap": "免費版的實際面板。這裡的頁面是範例研習頁面，不是真實的課程。勾選檔案、設定名稱與資料夾，然後儲存。",
               "w": 2240,
               "hgt": 2000,
@@ -22232,8 +22232,8 @@
               "num": true,
               "items": [
                 "如有需要，先在瀏覽器中登入學習管理系統，然後開啟課程頁面。",
-                "開啟 Grab All Files，使用「檔案批次下載」並掃描。將清單篩選為簡報、文件與PDF。",
-                "檔名設為PDF的標題，或保留原始檔名。資料夾分類只有依類型或依網站兩種，所以請自行為每門課建立一個儲存資料夾，並在儲存時選擇它。",
+                "開啟 Grab All Files，使用「檔案批次下載」並掃描。將清單篩選為簡報、文件與 PDF。",
+                "檔名設為 PDF 的標題，或保留原始檔名。資料夾分類只有依類型或依網站兩種，所以請自行為每門課建立一個儲存資料夾，並在儲存時選擇它。",
                 "儲存。免費版每次儲存最多 10 個檔案，所以請一週一週地存。Pro 可一次儲存全部所選檔案。",
                 "如果儲存途中工作階段結束，列表會顯示您已登出。請重新登入，再重試失敗的檔案；已儲存的檔案會保留。"
               ]
@@ -22242,7 +22242,7 @@
               "t": "text",
               "h": "以頁面形式存在的課程大綱",
               "p": [
-                "課程大綱常常是網頁，而不是檔案。想保留時，可用「將網頁合併為 HTML」把該頁面儲存為HTML；若想在筆記軟體中閱讀，也可儲存為Markdown。免費版每次執行會從候選清單中儲存您選的 1 個頁面；Pro 每次可儲存多個頁面。"
+                "課程大綱常常是網頁，而不是檔案。想保留時，可用「將網頁合併為 HTML」把該頁面儲存為 HTML；若想在筆記軟體中閱讀，也可儲存為 Markdown。免費版每次執行會從候選清單中儲存您選的 1 個頁面；Pro 每次可儲存多個頁面。"
               ]
             },
             {
@@ -22255,7 +22255,7 @@
                 ],
                 [
                   "bulk-download-word-excel-powerpoint",
-                  "從一個頁面收集的投影片與Office檔案。"
+                  "從一個頁面收集的投影片與 Office 檔案。"
                 ],
                 [
                   "rename-and-organize-bulk-pdf-downloads",
@@ -23581,40 +23581,40 @@
           "desc": "从您有权使用的页面保存房源概要、户型图、规格表和说明类PDF及图片，按网站和类型分类，并附CSV清单。",
           "eyebrow": "房地产与建筑",
           "h1": "把房产资料、户型图和图纸按网站和类型收集到文件夹中。",
-          "lead": "房源页面、开发商网站或项目信息页面会链接着各种PDF和图片：房源概要、户型图、立面图、规格表、销售说明文件。Grab All Files 会列出它们，让您选择，并按网站或类型保存到文件夹中，同时附上所收集内容的CSV。请用于您有权保留的资料，例如您自己的房源、您客户的项目，或提供者发布供下载的文件。",
+          "lead": "房源页面、开发商网站或项目信息页面会链接着各种 PDF 和图片：房源概要、户型图、立面图、规格表、销售说明文件。Grab All Files 会列出它们，让您选择，并按网站或类型保存到文件夹中，同时附上所收集内容的 CSV。请用于您有权保留的资料，例如您自己的房源、您客户的项目，或提供者发布供下载的文件。",
           "blocks": [
             {
               "t": "list",
               "h": "这类页面上常见的文件",
               "items": [
-                "房源概要表和房源摘要，PDF格式。",
-                "户型图，PDF或图片（JPG和PNG）格式。",
+                "房源概要表和房源摘要，PDF 格式。",
+                "户型图，PDF 或图片（JPG 和 PNG）格式。",
                 "总平面图、布局图、立面图和剖面图。",
                 "规格和设备表、装修明细表。",
                 "销售和合同的说明文件，例如说明文件的模板。",
                 "页面图库中的外观和室内照片。",
-                "房间清单或单价的电子表格，Excel或CSV格式。",
-                "申请表或咨询表，PDF或Word格式。"
+                "房间清单或单价的电子表格，Excel 或 CSV 格式。",
+                "申请表或咨询表，PDF 或 Word 格式。"
               ]
             },
             {
               "t": "art",
               "h": "文件最终保存在哪里",
               "p": [
-                "PDF和图片的保存选项是一样的。请选择适合您查找方式的文件夹分类。"
+                "PDF 和图片的保存选项是一样的。请选择适合您查找方式的文件夹分类。"
               ],
               "items": [
                 [
                   "dl-filter",
                   "按种类挑选",
-                  "把列表筛选为PDF、图片或两者。按大小缩小范围以排除缩略图。",
+                  "把列表筛选为 PDF、图片或两者。按大小缩小范围以排除缩略图。",
                   240,
                   148
                 ],
                 [
                   "dl-outputs",
                   "保存、ZIP、合并、CSV",
-                  "保存文件、生成一个ZIP、在浏览器中合并PDF，或把列表导出为CSV。",
+                  "保存文件、生成一个 ZIP、在浏览器中合并 PDF，或把列表导出为 CSV。",
                   240,
                   148
                 ],
@@ -23629,10 +23629,10 @@
             },
             {
               "t": "shot",
-              "h": "列表和CSV按钮",
+              "h": "列表和 CSV 按钮",
               "src": "/assets/screenshots/use-case-export-file-links-to-csv-en.png",
-              "alt": "Grab All Files，文件批量下载：在一个示例页面上找到的三个文件（一个PDF、一个DOCX和一个XLSX）的列表，带有复选框，左侧是按类型筛选，还有带文件信息CSV按钮的保存选项。",
-              "cap": "示例文件：在同一个页面上找到的一个PDF、一个Word文件和一个Excel文件。左侧的类型筛选会统计每一种的数量。",
+              "alt": "Grab All Files，文件批量下载：在一个示例页面上找到的三个文件（一个 PDF、一个 DOCX 和一个 XLSX）的列表，带有复选框，左侧是按类型筛选，还有带文件信息 CSV 按钮的保存选项。",
+              "cap": "示例文件：在同一个页面上找到的一个 PDF、一个 Word 文件和一个 Excel 文件。左侧的类型筛选会统计每一种的数量。",
               "w": 2240,
               "hgt": 2000,
               "webp": "/assets/screenshots/use-case-export-file-links-to-csv-en.webp"
@@ -23656,7 +23656,7 @@
                 [
                   "结果",
                   "每个网站名称一个文件夹",
-                  "每种文件类型一个文件夹，例如PDF和JPG",
+                  "每种文件类型一个文件夹，例如 PDF 和 JPG",
                   "所有内容都在保存位置"
                 ],
                 [
@@ -23667,7 +23667,7 @@
                 ]
               ],
               "after": [
-                "文件名可以沿用PDF的标题。户型图和概要的标题往往很笼统，所以请检查几个，必要时重命名。"
+                "文件名可以沿用 PDF 的标题。户型图和概要的标题往往很笼统，所以请检查几个，必要时重命名。"
               ]
             },
             {
@@ -23677,9 +23677,9 @@
               "items": [
                 "打开房产或项目页面。如果房源需要登录，请先在同一个浏览器中登录。",
                 "打开 Grab All Files，使用“文件批量下载”并扫描。一处房产用“仅当前页面”；如果每处房产在索引页中各有链接的详情页，请用“深度 1”。",
-                "把列表缩小到PDF和图片，并按大小筛选。勾选需要的文件。",
-                "选择文件夹分类并保存。使用免费版时，一次保存最多10个文件，所以户型图很多的房产需要分几轮。",
-                "导出文件信息CSV，并与文件夹放在一起。其中列有每个文件的网址、文件名、标题、大小和来源页面。"
+                "把列表缩小到 PDF 和图片，并按大小筛选。勾选需要的文件。",
+                "选择文件夹分类并保存。使用免费版时，一次保存最多 10 个文件，所以户型图很多的房产需要分几轮。",
+                "导出文件信息 CSV，并与文件夹放在一起。其中列有每个文件的网址、文件名、标题、大小和来源页面。"
               ]
             },
             {
@@ -23689,7 +23689,7 @@
               "items": [
                 "照片和图纸属于其所有者。请只为您自己的房源、您客户的项目或提供下载的文件而保留它们，不要重新发布。",
                 "门户网站可能禁止自动复制。在一次收集数百个房源之前，请先阅读其条款。",
-                "禁止下载的查看器中的图纸，或页面内CAD查看器中的图纸，无法保存。",
+                "禁止下载的查看器中的图纸，或页面内 CAD 查看器中的图纸，无法保存。",
                 "只收集您自己的账号有权查看的内容。"
               ]
             },
@@ -23707,19 +23707,19 @@
                 ],
                 [
                   "export-file-links-to-csv",
-                  "导出为CSV的文件列表。"
+                  "导出为 CSV 的文件列表。"
                 ]
               ]
             }
           ],
           "faq": [
             {
-              "q": "能保存图片格式而不是PDF的户型图吗？",
-              "a": "能。页面显示或链接的图片会被检测到，并与PDF一起列出。按大小筛选可以排除图标和缩略图。"
+              "q": "能保存图片格式而不是 PDF 的户型图吗？",
+              "a": "能。页面显示或链接的图片会被检测到，并与 PDF 一起列出。按大小筛选可以排除图标和缩略图。"
             },
             {
               "q": "能为每处房产保留一份我所持资料的登记表吗？",
-              "a": "导出文件信息CSV，并在电子表格中按其“来源页面”列排序。没有房产名称列，也没有保存日期列，请自己添加。"
+              "a": "导出文件信息 CSV，并在电子表格中按其“来源页面”列排序。没有房产名称列，也没有保存日期列，请自己添加。"
             },
             {
               "q": "在房地产门户网站上能用吗？",
@@ -23727,11 +23727,11 @@
             },
             {
               "q": "能打开在线查看器中的图纸吗？",
-              "a": "禁止下载的查看器或加密查看器中的文件无法保存。页面直接链接的PDF则可以。"
+              "a": "禁止下载的查看器或加密查看器中的文件无法保存。页面直接链接的 PDF 则可以。"
             },
             {
               "q": "免费版有限制吗？",
-              "a": "免费版一次最多保存10个所选文件，所以有30张户型图的房源需要分三轮选择和保存。Pro 取消每次保存的限制。"
+              "a": "免费版一次最多保存 10 个所选文件，所以有 30 张户型图的房源需要分三轮选择和保存。Pro 取消每次保存的限制。"
             }
           ]
         },
@@ -23740,40 +23740,40 @@
           "desc": "從您有權使用的頁面儲存物件概要、平面圖、規格表與說明文件的PDF和圖片，依網站和類型分類，並附CSV清單。",
           "eyebrow": "不動產與建築",
           "h1": "將物件資料、平面圖與圖面，依網站或類型收集到資料夾中。",
-          "lead": "物件刊登頁面、建商網站或建案資訊頁面，會連結一批PDF和圖片：物件概要、平面圖、立面圖、規格表、買賣說明文件。Grab All Files 會把它們列出來讓您選擇，並依網站或類型儲存到資料夾，同時附上所收集內容的CSV。請用於您有權留存的資料，例如您自己的刊登物件、客戶的案件，或提供者開放下載的文件。",
+          "lead": "物件刊登頁面、建商網站或建案資訊頁面，會連結一批 PDF 和圖片：物件概要、平面圖、立面圖、規格表、買賣說明文件。Grab All Files 會把它們列出來讓您選擇，並依網站或類型儲存到資料夾，同時附上所收集內容的 CSV。請用於您有權留存的資料，例如您自己的刊登物件、客戶的案件，或提供者開放下載的文件。",
           "blocks": [
             {
               "t": "list",
               "h": "這類頁面上常見的檔案",
               "items": [
-                "物件概要表與刊登摘要，PDF格式。",
-                "平面圖，PDF或圖片（JPG與PNG）。",
+                "物件概要表與刊登摘要，PDF 格式。",
+                "平面圖，PDF 或圖片（JPG 與 PNG）。",
                 "配置圖、基地圖、立面圖與剖面圖。",
                 "規格與設備表、裝修明細表。",
                 "買賣與契約的說明文件，例如說明書的範本。",
                 "外觀與室內的照片，位於頁面的圖片庫中。",
-                "房間清單或單價的試算表，Excel或CSV格式。",
-                "申請表或詢問表，PDF或Word格式。"
+                "房間清單或單價的試算表，Excel 或 CSV 格式。",
+                "申請表或詢問表，PDF 或 Word 格式。"
               ]
             },
             {
               "t": "art",
               "h": "檔案會存到哪裡",
               "p": [
-                "PDF與圖片的儲存選項相同。請選擇符合您日後查找方式的資料夾分類。"
+                "PDF 與圖片的儲存選項相同。請選擇符合您日後查找方式的資料夾分類。"
               ],
               "items": [
                 [
                   "dl-filter",
                   "依種類挑選",
-                  "將清單篩選為PDF、圖片，或兩者皆選。依大小縮小範圍，可排除縮圖。",
+                  "將清單篩選為 PDF、圖片，或兩者皆選。依大小縮小範圍，可排除縮圖。",
                   240,
                   148
                 ],
                 [
                   "dl-outputs",
                   "儲存、ZIP、合併、CSV",
-                  "儲存檔案、製作一個ZIP、在瀏覽器中合併PDF，或將清單匯出為CSV。",
+                  "儲存檔案、製作一個 ZIP、在瀏覽器中合併 PDF，或將清單匯出為 CSV。",
                   240,
                   148
                 ],
@@ -23788,10 +23788,10 @@
             },
             {
               "t": "shot",
-              "h": "清單與CSV按鈕",
+              "h": "清單與 CSV 按鈕",
               "src": "/assets/screenshots/use-case-export-file-links-to-csv-en.png",
-              "alt": "Grab All Files 的「檔案批次下載」：在範例頁面上找到的三個檔案（一個PDF、一個DOCX、一個XLSX），附有核取方塊、左側的類型篩選，以及含檔案資訊CSV按鈕的儲存選項。",
-              "cap": "範例檔案：在同一個頁面上找到的一個PDF、一個Word檔案和一個Excel檔案。左側的類型篩選會統計每種類型的數量。",
+              "alt": "Grab All Files 的「檔案批次下載」：在範例頁面上找到的三個檔案（一個 PDF、一個 DOCX、一個 XLSX），附有核取方塊、左側的類型篩選，以及含檔案資訊 CSV 按鈕的儲存選項。",
+              "cap": "範例檔案：在同一個頁面上找到的一個 PDF、一個 Word 檔案和一個 Excel 檔案。左側的類型篩選會統計每種類型的數量。",
               "w": 2240,
               "hgt": 2000,
               "webp": "/assets/screenshots/use-case-export-file-links-to-csv-en.webp"
@@ -23815,7 +23815,7 @@
                 [
                   "結果",
                   "每個網站名稱一個資料夾",
-                  "每種檔案類型一個資料夾，例如PDF與JPG",
+                  "每種檔案類型一個資料夾，例如 PDF 與 JPG",
                   "全部放在儲存位置中"
                 ],
                 [
@@ -23826,7 +23826,7 @@
                 ]
               ],
               "after": [
-                "檔名可以沿用PDF的標題。平面圖與概要的標題常常很籠統，所以請抽查幾個，必要時重新命名。"
+                "檔名可以沿用 PDF 的標題。平面圖與概要的標題常常很籠統，所以請抽查幾個，必要時重新命名。"
               ]
             },
             {
@@ -23836,9 +23836,9 @@
               "items": [
                 "開啟物件或建案頁面。如果刊登內容需要登入，請先在同一個瀏覽器中登入。",
                 "開啟 Grab All Files，使用「檔案批次下載」並掃描。單一物件選「僅此頁面」；如果每個物件都有從目錄連結過去的詳細頁面，則選「深度 1」。",
-                "將清單篩選為PDF與圖片，並依大小縮小範圍。勾選您要的檔案。",
+                "將清單篩選為 PDF 與圖片，並依大小縮小範圍。勾選您要的檔案。",
                 "選擇資料夾分類並儲存。免費版每次儲存最多 10 個檔案，所以圖面很多的物件需要分批進行。",
-                "匯出檔案資訊CSV，並與資料夾放在一起。其中列出網址、檔名、標題、大小，以及各檔案所在的頁面。"
+                "匯出檔案資訊 CSV，並與資料夾放在一起。其中列出網址、檔名、標題、大小，以及各檔案所在的頁面。"
               ]
             },
             {
@@ -23848,7 +23848,7 @@
               "items": [
                 "照片與圖面屬於其所有者。請僅留作您自己的刊登物件、客戶的案件，或開放下載的文件之用，不要再次張貼。",
                 "入口網站可能禁止自動複製。一次收集數百筆刊登內容之前，請先閱讀其條款。",
-                "位於禁止下載的檢視器中，或頁面內的CAD檢視器中的圖面，無法儲存。",
+                "位於禁止下載的檢視器中，或頁面內的 CAD 檢視器中的圖面，無法儲存。",
                 "只收集您自己的帳號被允許查看的內容。"
               ]
             },
@@ -23866,19 +23866,19 @@
                 ],
                 [
                   "export-file-links-to-csv",
-                  "將檔案清單匯出為CSV。"
+                  "將檔案清單匯出為 CSV。"
                 ]
               ]
             }
           ],
           "faq": [
             {
-              "q": "可以儲存圖片格式、而非PDF的平面圖嗎？",
-              "a": "可以。頁面上顯示或連結的圖片，會與PDF一起被偵測並列出。依大小篩選，可排除圖示與縮圖。"
+              "q": "可以儲存圖片格式、而非 PDF 的平面圖嗎？",
+              "a": "可以。頁面上顯示或連結的圖片，會與 PDF 一起被偵測並列出。依大小篩選，可排除圖示與縮圖。"
             },
             {
               "q": "可以為每個物件記錄我所持有的資料清單嗎？",
-              "a": "請匯出檔案資訊CSV，並在試算表中依「Source page」欄排序。沒有物件名稱欄，也沒有儲存日期欄，請自行補上。"
+              "a": "請匯出檔案資訊 CSV，並在試算表中依「Source page」欄排序。沒有物件名稱欄，也沒有儲存日期欄，請自行補上。"
             },
             {
               "q": "能用在不動產入口網站嗎？",
@@ -23886,7 +23886,7 @@
             },
             {
               "q": "可以開啟線上檢視器中的圖面嗎？",
-              "a": "位於禁止下載的檢視器或加密檢視器中的檔案，無法儲存。頁面直接連結的PDF則可以。"
+              "a": "位於禁止下載的檢視器或加密檢視器中的檔案，無法儲存。頁面直接連結的 PDF 則可以。"
             },
             {
               "q": "免費版有限制嗎？",
@@ -25032,7 +25032,7 @@
           "desc": "每月保存竞争对手价格表和产品页、把表格转成CSV并查看变更报告的一套流程。由您手动运行，没有定时功能。",
           "eyebrow": "价格与产品调研",
           "h1": "定期保存竞争对手的价格表和产品页，并查看有什么变化。",
-          "lead": "要知道竞争对手改了什么，就需要有他们上次页面上写的内容。本页介绍的流程使用 Grab All Files 已有的两项功能：保存一组页面并把其中的表格转成CSV，以及在变更报告中把同一网站的新收集与上一次收集对比。每次运行都由您自己启动，例如每月1日。该扩展程序没有定时运行功能，也不会自行运行。请遵守网站的使用条款。",
+          "lead": "要知道竞争对手改了什么，就需要有他们上次页面上写的内容。本页介绍的流程使用 Grab All Files 已有的两项功能：保存一组页面并把其中的表格转成 CSV，以及在变更报告中把同一网站的新收集与上一次收集对比。每次运行都由您自己启动，例如每月 1 日。该扩展程序没有定时运行功能，也不会自行运行。请遵守网站的使用条款。",
           "blocks": [
             {
               "t": "table",
@@ -25046,26 +25046,26 @@
               "rows": [
                 [
                   "价格表",
-                  "包含计划、规格或档位的HTML表格",
-                  "HTML，加上作为CSV或JSON的表格",
-                  "用电子表格打开CSV，与上个月的并排放置"
+                  "包含计划、规格或档位的 HTML 表格",
+                  "HTML，加上作为 CSV 或 JSON 的表格",
+                  "用电子表格打开 CSV，与上个月的并排放置"
                 ],
                 [
                   "产品页",
                   "说明、规格、选项、配送说明",
-                  "保持原样的HTML，或Markdown",
+                  "保持原样的 HTML，或 Markdown",
                   "阅读变更报告，查看文本的改动"
                 ],
                 [
-                  "目录或价目表PDF",
-                  "标题中带日期的链接PDF",
+                  "目录或价目表 PDF",
+                  "标题中带日期的链接 PDF",
                   "文件本身，按标题命名",
                   "手动对比；请参阅关于修订版本的指南"
                 ],
                 [
                   "活动或通知页面",
                   "经常变化的横幅页面",
-                  "显示日期的HTML",
+                  "显示日期的 HTML",
                   "作为带日期的记录，保留当时提供的内容"
                 ]
               ]
@@ -25077,9 +25077,9 @@
               "items": [
                 "保留一份简短的页面清单：价格页、两三个产品页、链接目录的页面。",
                 "打开“将网页合并为 HTML”，选择从哪里收集（例如“粘贴的网址”），每次都使用相同的起始页面。变更报告会与同一网站上一次完成的收集对比。",
-                "如果还想要表格文件，请在AI数据选项中选择一种输出，并开启把表格写成CSV和JSON的选项。变更报告是独立的：运行结束后，打开“更多”并选择“保存与上次收集的变更报告”。",
-                "保存收集结果。使用免费版时，一次运行保存您选择的1个页面，AI输出和表格CSV针对的就是这1个页面；Pro 一次运行可保存所有选中的页面。",
-                "打开变更报告和新的CSV。把新的CSV复制到表格里，放在上个月的旁边，并记下差异。",
+                "如果还想要表格文件，请在 AI 数据选项中选择一种输出，并开启把表格写成 CSV 和 JSON 的选项。变更报告是独立的：运行结束后，打开“更多”并选择“保存与上次收集的变更报告”。",
+                "保存收集结果。使用免费版时，一次运行保存您选择的 1 个页面，AI 输出和表格 CSV 针对的就是这 1 个页面；Pro 一次运行可保存所有选中的页面。",
+                "打开变更报告和新的 CSV。把新的 CSV 复制到表格里，放在上个月的旁边，并记下差异。",
                 "手动重命名保存的文件，加入月份，以便区分各个月。扩展程序不会在名称中添加日期；同名文件会自动编号，而不是被覆盖。"
               ]
             },
@@ -25087,7 +25087,7 @@
               "t": "shot",
               "h": "变更报告在哪里",
               "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-en.png",
-              "alt": "收集完成后的 Grab All Files“更多”菜单，包含重新保存HTML、保存与上次收集的变更报告、把页面网址列表保存为CSV的选项，以及删除已存数据的按钮。",
+              "alt": "收集完成后的 Grab All Files“更多”菜单，包含重新保存 HTML、保存与上次收集的变更报告、把页面网址列表保存为 CSV 的选项，以及删除已存数据的按钮。",
               "cap": "收集完成后实际的“更多”菜单。变更报告会把本次收集与同一网站上一次完成的收集对比。",
               "w": 1816,
               "hgt": 810,
@@ -25110,7 +25110,7 @@
                   "no": true,
                   "items": [
                     "按计划自行运行，或在价格变化时提醒您。",
-                    "读取仅在canvas上绘制的价格，或您未登录时登录后才加载的价格。",
+                    "读取仅在 canvas 上绘制的价格，或您未登录时登录后才加载的价格。",
                     "判断竞争对手的变化是否重要。",
                     "从条款禁止的网站收集内容。请查看每个网站的条款，并保持较低的频率。"
                   ]
@@ -25131,7 +25131,7 @@
               "items": [
                 [
                   "web-tables-to-csv-for-excel-ai",
-                  "把页面中的表格转成CSV或JSON。"
+                  "把页面中的表格转成 CSV 或 JSON。"
                 ],
                 [
                   "save-and-compare-document-revisions",
@@ -25151,11 +25151,11 @@
             },
             {
               "q": "它如何把这个月与上个月对比？",
-              "a": "变更报告按网址、标题和正文，把一次收集与同一网站上一次完成的收集对比。对于表格，请保留每个月的CSV，并在电子表格中对比。"
+              "a": "变更报告按网址、标题和正文，把一次收集与同一网站上一次完成的收集对比。对于表格，请保留每个月的 CSV，并在电子表格中对比。"
             },
             {
-              "q": "能把价格表导出为CSV吗？",
-              "a": "能。在AI数据选项中有一个同时把表格写成CSV和JSON的设置，在免费版中针对单个页面可用。请在您自己的页面上检查结果，因为结构特殊的表格可能无法完整输出。"
+              "q": "能把价格表导出为 CSV 吗？",
+              "a": "能。在 AI 数据选项中有一个同时把表格写成 CSV 和 JSON 的设置，在免费版中针对单个页面可用。请在您自己的页面上检查结果，因为结构特殊的表格可能无法完整输出。"
             },
             {
               "q": "可以保存竞争对手的页面吗？",
@@ -25163,7 +25163,7 @@
             },
             {
               "q": "保存的页面会显示是在哪里、什么时候获取的吗？",
-              "a": "取决于形式。使用“保持原样”和带目录和搜索的形式时，每个页面的标题下方会显示原网址和获取时间。使用分页HTML（ZIP）时，它们位于每个HTML顶部的注释中；使用纵向拼接HTML时，它们位于HTML注释中。使用“整理为易读格式”时，不显示来源网址行，只有开启获取信息和失败列表的选项后，获取时间才会出现在顶部。"
+              "a": "取决于形式。使用“保持原样”和带目录和搜索的形式时，每个页面的标题下方会显示原网址和获取时间。使用分页 HTML（ZIP）时，它们位于每个 HTML 顶部的注释中；使用纵向拼接 HTML 时，它们位于 HTML 注释中。使用“整理为易读格式”时，不显示来源网址行，只有开启获取信息和失败列表的选项后，获取时间才会出现在顶部。"
             }
           ]
         },
@@ -25172,7 +25172,7 @@
           "desc": "每月儲存競爭對手價格表與產品頁面、將表格轉為CSV並查看變更報告的作業流程。需手動執行，沒有排程功能。",
           "eyebrow": "價格與產品研究",
           "h1": "定期儲存競爭對手的價目表與產品頁面，並看出哪裡有變動。",
-          "lead": "想知道競爭對手改了什麼，就需要有他們上次頁面上的內容。本頁介紹的作業流程，使用 Grab All Files 現有的兩項功能：儲存一組頁面並將其中的表格轉為CSV，以及用變更報告把同一網站的新收集內容與上一次比較。每次執行都由您自己啟動，例如每月 1 日。擴充功能沒有排程執行的功能，也不會自行執行。請遵守該網站的使用條款。",
+          "lead": "想知道競爭對手改了什麼，就需要有他們上次頁面上的內容。本頁介紹的作業流程，使用 Grab All Files 現有的兩項功能：儲存一組頁面並將其中的表格轉為 CSV，以及用變更報告把同一網站的新收集內容與上一次比較。每次執行都由您自己啟動，例如每月 1 日。擴充功能沒有排程執行的功能，也不會自行執行。請遵守該網站的使用條款。",
           "blocks": [
             {
               "t": "table",
@@ -25186,26 +25186,26 @@
               "rows": [
                 [
                   "價格表",
-                  "列出方案、尺寸或等級的HTML表格",
-                  "HTML，加上CSV或JSON格式的表格",
-                  "在試算表中開啟CSV，與上個月的並排比較"
+                  "列出方案、尺寸或等級的 HTML 表格",
+                  "HTML，加上 CSV 或 JSON 格式的表格",
+                  "在試算表中開啟 CSV，與上個月的並排比較"
                 ],
                 [
                   "產品頁面",
                   "說明、規格、選項、運送注意事項",
-                  "保持原樣的HTML，或Markdown",
+                  "保持原樣的 HTML，或 Markdown",
                   "查看變更報告，了解文字的修改"
                 ],
                 [
-                  "型錄或價目表PDF",
-                  "標題中帶有日期的連結PDF",
+                  "型錄或價目表 PDF",
+                  "標題中帶有日期的連結 PDF",
                   "檔案本身，以標題命名",
                   "手動比較；修訂版請見相關指南"
                 ],
                 [
                   "活動或公告頁面",
                   "經常變動的橫幅頁面",
-                  "顯示日期的HTML",
+                  "顯示日期的 HTML",
                   "留作當時提供內容的日期紀錄"
                 ]
               ]
@@ -25217,9 +25217,9 @@
               "items": [
                 "保留一份簡短的頁面清單：價格頁面、兩三個產品頁面、連結到型錄的頁面。",
                 "開啟「將網頁合併為 HTML」，選擇從哪裡收集（例如「貼上的網址」），並且每次都使用相同的起始頁面。變更報告會與同一網站上一次完成的收集內容比較。",
-                "如果也想把表格存成檔案，請在AI資料選項中選擇輸出方式，並開啟將表格同時匯出為CSV與JSON。變更報告是另外的功能：執行完成後，開啟「更多」，選擇「儲存與上次收集的變更報告」。",
-                "儲存收集內容。免費版每次執行儲存您所選的 1 個頁面，AI輸出與表格CSV也只適用於該 1 個頁面；Pro 每次執行可儲存所有選取的頁面。",
-                "開啟變更報告與新的CSV。把新的CSV複製到試算表中，放在上個月的旁邊，並記下差異。",
+                "如果也想把表格存成檔案，請在 AI 資料選項中選擇輸出方式，並開啟將表格同時匯出為 CSV 與 JSON。變更報告是另外的功能：執行完成後，開啟「更多」，選擇「儲存與上次收集的變更報告」。",
+                "儲存收集內容。免費版每次執行儲存您所選的 1 個頁面，AI 輸出與表格 CSV 也只適用於該 1 個頁面；Pro 每次執行可儲存所有選取的頁面。",
+                "開啟變更報告與新的 CSV。把新的 CSV 複製到試算表中，放在上個月的旁邊，並記下差異。",
                 "請手動重新命名已儲存的檔案，加上月份，以便區分各月。擴充功能不會在檔名中加入日期；同名的檔案會自動編號，不會被覆蓋。"
               ]
             },
@@ -25227,7 +25227,7 @@
               "t": "shot",
               "h": "變更報告在哪裡",
               "src": "/assets/screenshots/use-case-save-and-compare-document-revisions-en.png",
-              "alt": "Grab All Files 收集完成後的「更多」選單，有重新儲存HTML、儲存與上次收集的變更報告、將頁面網址清單儲存為CSV等選項，以及刪除已儲存資料的按鈕。",
+              "alt": "Grab All Files 收集完成後的「更多」選單，有重新儲存 HTML、儲存與上次收集的變更報告、將頁面網址清單儲存為 CSV 等選項，以及刪除已儲存資料的按鈕。",
               "cap": "收集完成後的實際「更多」選單。變更報告會把這次收集與同一網站上一次完成的收集比較。",
               "w": 1816,
               "hgt": 810,
@@ -25271,7 +25271,7 @@
               "items": [
                 [
                   "web-tables-to-csv-for-excel-ai",
-                  "將頁面中的表格轉為CSV或JSON。"
+                  "將頁面中的表格轉為 CSV 或 JSON。"
                 ],
                 [
                   "save-and-compare-document-revisions",
@@ -25291,11 +25291,11 @@
             },
             {
               "q": "它如何比較這個月與上個月？",
-              "a": "變更報告會依網址、標題與內文，把一次收集與同一網站上一次完成的收集比較。表格的部分，請保留每個月的CSV，並在試算表中比較。"
+              "a": "變更報告會依網址、標題與內文，把一次收集與同一網站上一次完成的收集比較。表格的部分，請保留每個月的 CSV，並在試算表中比較。"
             },
             {
-              "q": "可以把價格表存成CSV嗎？",
-              "a": "可以。在AI資料選項中，有同時將表格匯出為CSV與JSON的設定，免費版可用於單一頁面。請在您自己的頁面上確認結果，因為結構特殊的表格可能無法完整轉出。"
+              "q": "可以把價格表存成 CSV 嗎？",
+              "a": "可以。在 AI 資料選項中，有同時將表格匯出為 CSV 與 JSON 的設定，免費版可用於單一頁面。請在您自己的頁面上確認結果，因為結構特殊的表格可能無法完整轉出。"
             },
             {
               "q": "可以儲存競爭對手的頁面嗎？",
@@ -25303,7 +25303,7 @@
             },
             {
               "q": "儲存的頁面會顯示是在哪裡、何時擷取的嗎？",
-              "a": "依儲存形式而定。選擇「保持原樣」與附目錄及搜尋的形式時，每個頁面都會在標題下方顯示原始網址與擷取時間。分頁HTML（ZIP）則記錄在每個HTML開頭的註解中，直向串接HTML則記錄在HTML註解中。選擇「整理為易讀格式」時，不會顯示來源網址那一行，只有開啟擷取詳情與失敗清單的選項後，擷取時間才會顯示在最上方。"
+              "a": "依儲存形式而定。選擇「保持原樣」與附目錄及搜尋的形式時，每個頁面都會在標題下方顯示原始網址與擷取時間。分頁 HTML（ZIP）則記錄在每個 HTML 開頭的註解中，直向串接 HTML 則記錄在 HTML 註解中。選擇「整理為易讀格式」時，不會顯示來源網址那一行，只有開啟擷取詳情與失敗清單的選項後，擷取時間才會顯示在最上方。"
             }
           ]
         }
@@ -27190,13 +27190,13 @@
           "desc": "用一张表列出各项数字：免费版每次下载10个文件，Pro每次运行100个链接文件，每次搜索10万页，每个ZIP 256 MB。并说明无法保存的内容。",
           "eyebrow": "限制与适用范围",
           "h1": "Grab All Files 能做什么、不能做什么，附具体数字。",
-          "lead": "Grab All Files 是适用于Chrome、Edge和Firefox的浏览器扩展程序。它能找出网页上的文件，并把页面保存为HTML。本页列出它的限制、免费版和 Pro 的区别，以及它无法保存的页面和文件，并说明这些情况该用哪一类工具。",
+          "lead": "Grab All Files 是适用于 Chrome、Edge 和 Firefox 的浏览器扩展程序。它能找出网页上的文件，并把页面保存为 HTML。本页列出它的限制、免费版和 Pro 的区别，以及它无法保存的页面和文件，并说明这些情况该用哪一类工具。",
           "blocks": [
             {
               "t": "table",
               "h": "各项限制",
               "p": [
-                "Pro 为$19.99，一次性付费，无需订阅，一个许可证最多可用于3台设备。免费版无需信用卡。"
+                "Pro 为$19.99，一次性付费，无需订阅，一个许可证最多可用于 3 台设备。免费版无需信用卡。"
               ],
               "head": [
                 "项目",
@@ -27207,26 +27207,26 @@
               "rows": [
                 [
                   "一次保存的文件数（文件批量下载）",
-                  "免费版10个；Pro 无上限",
-                  "您为一次保存所选的文件：下载、ZIP、PDF合并或CSV。使用免费版时，选择接下来的10个并再按一次按钮。",
+                  "免费版 10 个；Pro 无上限",
+                  "您为一次保存所选的文件：下载、ZIP、PDF 合并或 CSV。使用免费版时，选择接下来的 10 个并再按一次按钮。",
                   "这是文件批量下载在两种方案之间的区别。"
                 ],
                 [
                   "一次运行保存的页面数（页面收集）",
-                  "免费版1个；Pro 为您所选的全部",
-                  "保存到HTML中的页面。使用免费版时您选择一个候选；可以一次一个地把页面添加到上次保存的HTML中。",
-                  "Pro 超过100页时，会先询问是否每100页暂停一次。"
+                  "免费版 1 个；Pro 为您所选的全部",
+                  "保存到 HTML 中的页面。使用免费版时您选择一个候选；可以一次一个地把页面添加到上次保存的 HTML 中。",
+                  "Pro 超过 100 页时，会先询问是否每 100 页暂停一次。"
                 ],
                 [
-                  "随HTML一起保存的链接文件",
-                  "每次运行，免费版10个；Pro 100个",
-                  "保存的页面所链接的PDF、Word、Excel等文件。结果画面上的按钮可以保存下一批。",
-                  "Pro 在链接的文件超过100个时会先询问。"
+                  "随 HTML 一起保存的链接文件",
+                  "每次运行，免费版 10 个；Pro 100 个",
+                  "保存的页面所链接的 PDF、Word、Excel 等文件。结果画面上的按钮可以保存下一批。",
+                  "Pro 在链接的文件超过 100 个时会先询问。"
                 ],
                 [
                   "一次搜索的页面数",
                   "100,000",
-                  "一次搜索在查找文件或候选页面时最多读取的页面数。sitemap.xml和robots.txt也会读取。",
+                  "一次搜索在查找文件或候选页面时最多读取的页面数。sitemap.xml 和 robots.txt 也会读取。",
                   "两种方案相同。"
                 ],
                 [
@@ -27236,21 +27236,21 @@
                   "两种方案相同。"
                 ],
                 [
-                  "单个ZIP的大小",
+                  "单个 ZIP 的大小",
                   "256 MB",
-                  "总大小超过200 MB时会出现确认。它不会把ZIP拆分成多个部分。",
-                  "免费版每个ZIP同样限制为10个文件。"
+                  "总大小超过 200 MB 时会出现确认。它不会把 ZIP 拆分成多个部分。",
+                  "免费版每个 ZIP 同样限制为 10 个文件。"
                 ],
                 [
                   "扫描时通过“下一个”跟随的页面数",
-                  "6、20或100页",
-                  "仅限 Pro。扫描会自行滚动到底，并跟随同一列表的“下一个”页面。数量取决于“滚动时间”设置：45秒、90秒或180秒。",
+                  "6、20 或 100 页",
+                  "仅限 Pro。扫描会自行滚动到底，并跟随同一列表的“下一个”页面。数量取决于“滚动时间”设置：45 秒、90 秒或 180 秒。",
                   "免费版读取屏幕上的内容，因此请先自己滚动到底。"
                 ],
                 [
                   "设备数",
                   "3",
-                  "一个 Pro 许可证最多可在3台设备上激活。",
+                  "一个 Pro 许可证最多可在 3 台设备上激活。",
                   "仅限 Pro。"
                 ]
               ]
@@ -27259,8 +27259,8 @@
               "t": "text",
               "h": "Pro 的“100”限制的是什么",
               "p": [
-                "Pro 对下载的文件数量没有限制。它的100是“将网页合并为 HTML”中每次运行保存在HTML旁边的链接文件数：即您保存的页面所指向的PDF和Office文件。免费版每次运行保存其中10个。如果链接的文件更多，结果画面上有保存下一批的按钮。",
-                "另外有两个数字容易与它混淆。100,000是一次搜索的页面上限，而100也是 Pro 扫描在最长的“滚动时间”设置下跟随的“下一个”页面数。这三者是各自独立的设置。"
+                "Pro 对下载的文件数量没有限制。它的 100 是“将网页合并为 HTML”中每次运行保存在 HTML 旁边的链接文件数：即您保存的页面所指向的 PDF 和 Office 文件。免费版每次运行保存其中 10 个。如果链接的文件更多，结果画面上有保存下一批的按钮。",
+                "另外有两个数字容易与它混淆。100,000 是一次搜索的页面上限，而 100 也是 Pro 扫描在最长的“滚动时间”设置下跟随的“下一个”页面数。这三者是各自独立的设置。"
               ]
             },
             {
@@ -27273,31 +27273,31 @@
               "rows": [
                 [
                   "列出页面上的文件并保存您选择的文件",
-                  "它能检测38个类别中的708种文件类型，包括iframe内的PDF、懒加载的图片，以及通过fetch/XHR或blob网址加载的文件。保存前您可以对列表进行筛选、排序和搜索。"
+                  "它能检测 38 个类别中的 708 种文件类型，包括 iframe 内的 PDF、懒加载的图片，以及通过 fetch/XHR 或 blob 网址加载的文件。保存前您可以对列表进行筛选、排序和搜索。"
                 ],
                 [
-                  "保存Office文件、视频文件和音频文件",
-                  "Word、Excel和PowerPoint文件，以及页面直接链接的视频和音频文件。免费版和 Pro 相同。"
+                  "保存 Office 文件、视频文件和音频文件",
+                  "Word、Excel 和 PowerPoint 文件，以及页面直接链接的视频和音频文件。免费版和 Pro 相同。"
                 ],
                 [
                   "跟随链接找到更多文件",
-                  "从仅当前页面到无限制深度，每次搜索最多100,000页。"
+                  "从仅当前页面到无限制深度，每次搜索最多 100,000 页。"
                 ],
                 [
-                  "生成ZIP、合并PDF、导出文件列表",
-                  "全部在您的浏览器中运行。CSV的主要列有网址、文件名、标题、类型、大小和每个文件所在的页面。"
+                  "生成 ZIP、合并 PDF、导出文件列表",
+                  "全部在您的浏览器中运行。CSV 的主要列有网址、文件名、标题、类型、大小和每个文件所在的页面。"
                 ],
                 [
-                  "把页面保存为HTML",
+                  "把页面保存为 HTML",
                   "四种保存文件的形式和两种外观，“整理为易读格式”或“保持原样”。每个保存的页面都可以带上来源网址和获取时间。"
                 ],
                 [
-                  "保存登录后看到的页面和由JavaScript构建的页面",
+                  "保存登录后看到的页面和由 JavaScript 构建的页面",
                   "它保存浏览器显示的内容，使用您已有的登录状态。它不会保存您的密码，也不会绕过验证码。"
                 ],
                 [
                   "在检查过的网站上读取信息流直到结束",
-                  "在检查过的网站上（X的帖子和回复、YouTube评论、Reddit、Bluesky、Yahoo! News评论），时间线和评论列表会滚动到底，对帖子数量没有上限，并且每1,000条会询问是否继续。在其他页面上，默认最多滚动10次，然后停止。"
+                  "在检查过的网站上（X 的帖子和回复、YouTube 评论、Reddit、Bluesky、Yahoo! News 评论），时间线和评论列表会滚动到底，对帖子数量没有上限，并且每 1,000 条会询问是否继续。在其他页面上，默认最多滚动 10 次，然后停止。"
                 ],
                 [
                   "在您的电脑上工作",
@@ -27307,13 +27307,13 @@
             },
             {
               "t": "shot",
-              "h": "10个文件的限制写在哪里",
+              "h": "10 个文件的限制写在哪里",
               "p": [
                 "使用免费版时，保存按钮下方的提示会说明限制以及如何继续。"
               ],
               "src": "/assets/screenshots/use-case-download-files-from-webpage-en.png",
-              "alt": "Grab All Files，文件批量下载，免费版。选中了四个检测到的文件（PDF、DOCX、XLSX、ZIP），按钮显示“保存所选文件（4）”，其下的提示说明了10个文件的限制以及如何继续。",
-              "cap": "免费版中实际的文件批量下载。保存按钮下方的提示说明免费版每次下载最多保存10个文件，要继续的话，请选择接下来的文件并再按一次下载按钮。",
+              "alt": "Grab All Files，文件批量下载，免费版。选中了四个检测到的文件（PDF、DOCX、XLSX、ZIP），按钮显示“保存所选文件（4）”，其下的提示说明了 10 个文件的限制以及如何继续。",
+              "cap": "免费版中实际的文件批量下载。保存按钮下方的提示说明免费版每次下载最多保存 10 个文件，要继续的话，请选择接下来的文件并再按一次下载按钮。",
               "w": 2240,
               "hgt": 2000,
               "webp": "/assets/screenshots/use-case-download-files-from-webpage-en.webp"
@@ -27331,34 +27331,34 @@
               ],
               "rows": [
                 [
-                  "浏览器内部页面（chrome://）、Chrome 应用商店和Edge加载项页面、file://页面",
+                  "浏览器内部页面（chrome://）、Chrome 应用商店和 Edge 加载项页面、file://页面",
                   "它不会在那里运行。",
-                  "对于您电脑上已有的HTML文件，将网页合并为 HTML 中的“从电脑文件夹”选项可以读取它们所在的文件夹或ZIP。其他情况请使用浏览器自带的“将页面另存为”。"
+                  "对于您电脑上已有的 HTML 文件，将网页合并为 HTML 中的“从电脑文件夹”选项可以读取它们所在的文件夹或 ZIP。其他情况请使用浏览器自带的“将页面另存为”。"
                 ],
                 [
-                  "受DRM保护或位于加密查看器中的文件",
+                  "受 DRM 保护或位于加密查看器中的文件",
                   "无法读取该文件。",
                   "如果发布者自己提供下载，请使用该下载。"
                 ],
                 [
-                  "浏览器内置PDF查看器的内部、封闭Shadow DOM中的文字、仅在canvas上绘制的文字",
+                  "浏览器内置 PDF 查看器的内部、封闭 Shadow DOM 中的文字、仅在 canvas 上绘制的文字",
                   "无法把文字作为文本读取。",
-                  "把屏幕保存为图片，或使用浏览器的打印为PDF。"
+                  "把屏幕保存为图片，或使用浏览器的打印为 PDF。"
                 ],
                 [
-                  "来自您未允许的其他域名的iframe",
+                  "来自您未允许的其他域名的 iframe",
                   "在您允许之前不会读取。允许之后即可读取。",
                   "不需要其他工具：浏览器询问时允许该网站即可。"
                 ],
                 [
                   "流媒体视频（HLS .m3u8、DASH .mpd）、blob:播放、没有文件扩展名的播放地址、流媒体网站上的视频",
-                  "它不会保存这些内容，不会绕过DRM或水印，也不会录制流。",
+                  "它不会保存这些内容，不会绕过 DRM 或水印，也不会录制流。",
                   "视频发布者提供的下载功能（如果有的话）。"
                 ],
                 [
                   "您无法登录或无权查看的页面",
                   "它使用您浏览器的访问权限，不能增加权限。",
-                  "向所有者索取文件，或使用发布者的批量下载或API。"
+                  "向所有者索取文件，或使用发布者的批量下载或 API。"
                 ],
                 [
                   "数千页，或只获取自上次以来有变化的文件",
@@ -27368,7 +27368,7 @@
                 [
                   "大量论文或公开数据集",
                   "小批量可以，但不适合处理整个语料库。",
-                  "来源提供的批量下载或API（如果有的话）。"
+                  "来源提供的批量下载或 API（如果有的话）。"
                 ]
               ]
             },
@@ -27394,27 +27394,27 @@
           "faq": [
             {
               "q": "免费版一次可以下载多少个文件？",
-              "a": "每次保存10个文件。用所选内容生成的ZIP、PDF合并和CSV也适用同样的限制。选择接下来的10个并再按一次按钮即可继续。Pro 对文件数量没有上限。"
+              "a": "每次保存 10 个文件。用所选内容生成的 ZIP、PDF 合并和 CSV 也适用同样的限制。选择接下来的 10 个并再按一次按钮即可继续。Pro 对文件数量没有上限。"
             },
             {
-              "q": "Pro 限制100次下载吗？",
-              "a": "不。文件批量下载在 Pro 中没有文件数量上限。100是“将网页合并为 HTML”一次运行中保存在HTML旁边的链接文件数。结果画面上的按钮可以保存下一批。"
+              "q": "Pro 限制 100 次下载吗？",
+              "a": "不。文件批量下载在 Pro 中没有文件数量上限。100 是“将网页合并为 HTML”一次运行中保存在 HTML 旁边的链接文件数。结果画面上的按钮可以保存下一批。"
             },
             {
               "q": "它最多能搜索多少页？",
-              "a": "一次搜索最多100,000页，深度可设为“仅当前页面”、1到5，或无限制。它也会读取sitemap.xml和robots.txt。"
+              "a": "一次搜索最多 100,000 页，深度可设为“仅当前页面”、1 到 5，或无限制。它也会读取 sitemap.xml 和 robots.txt。"
             },
             {
-              "q": "ZIP最大能有多大？",
-              "a": "256 MB。总大小超过200 MB时会出现确认。它不会把ZIP拆分成多个文件，所以达到上限时请减少所选文件。"
+              "q": "ZIP 最大能有多大？",
+              "a": "256 MB。总大小超过 200 MB 时会出现确认。它不会把 ZIP 拆分成多个文件，所以达到上限时请减少所选文件。"
             },
             {
               "q": "能保存流媒体视频吗？",
-              "a": "不能。它保存页面直接链接的视频文件，例如.mp4或.webm。它不会保存HLS或DASH流、blob:播放，或流媒体网站上的视频。"
+              "a": "不能。它保存页面直接链接的视频文件，例如.mp4 或.webm。它不会保存 HLS 或 DASH 流、blob:播放，或流媒体网站上的视频。"
             },
             {
               "q": "有数千页的网站该用什么？",
-              "a": "桌面版网站复制工具。Grab All Files 在您的浏览器中一次读取一页。因此它能保存需要登录的页面和由JavaScript构建的页面。但网站达到数千页时，速度会很慢。"
+              "a": "桌面版网站复制工具。Grab All Files 在您的浏览器中一次读取一页。因此它能保存需要登录的页面和由 JavaScript 构建的页面。但网站达到数千页时，速度会很慢。"
             }
           ]
         },
@@ -29038,7 +29038,7 @@
           "desc": "按方式对比保存网页内容的四种途径：桌面版网站复制工具、单页保存工具、下载管理器和 Grab All Files，包括它不适合的场景。",
           "eyebrow": "选择方式",
           "h1": "网站复制工具、单页保存工具、下载管理器还是 Grab All Files：各种方式擅长什么。",
-          "lead": "这四类工具互有重叠，所以问题在于哪种方式适合这项工作：有多少页面、是否需要登录、页面是否由JavaScript绘制、是否会重复进行。下表对各种方式做一般性的对比，凡是各产品有差异之处就写“通常”。文中不点名任何产品。Grab All Files 是第四列，而它不适合的情形会用直白的话标出。",
+          "lead": "这四类工具互有重叠，所以问题在于哪种方式适合这项工作：有多少页面、是否需要登录、页面是否由 JavaScript 绘制、是否会重复进行。下表对各种方式做一般性的对比，凡是各产品有差异之处就写“通常”。文中不点名任何产品。Grab All Files 是第四列，而它不适合的情形会用直白的话标出。",
           "blocks": [
             {
               "t": "table",
@@ -29062,8 +29062,8 @@
                   "可以。它使用您所用浏览器的登录状态。它不会保存密码，也不会绕过验证码。"
                 ],
                 [
-                  "由JavaScript绘制的页面",
-                  "通常按服务器发送的原样保存HTML，所以在浏览器中构建的页面可能几乎是空的。",
+                  "由 JavaScript 绘制的页面",
+                  "通常按服务器发送的原样保存 HTML，所以在浏览器中构建的页面可能几乎是空的。",
                   "可以，因为它保存的是显示出来的内容。",
                   "不是它的用途。它不渲染页面。",
                   "可以。它保存浏览器显示的内容。"
@@ -29073,42 +29073,42 @@
                   "很合适。这正是这种方式的用途。",
                   "不合适。每次操作只保存一个页面。",
                   "大量文件没问题。但整页并不是它的用途。",
-                  "不太合适。它在浏览器内一次读取一页，因此这种规模下速度很慢。一次搜索最多读取100,000页。"
+                  "不太合适。它在浏览器内一次读取一页，因此这种规模下速度很慢。一次搜索最多读取 100,000 页。"
                 ],
                 [
                   "更新副本：只重新下载有变化的部分",
                   "通常有这个功能。",
                   "没有这个功能。",
                   "通常没有。它是为获取文件而设计的，而不是对比副本。",
-                  "没有这个功能。Markdown变更报告会与您上一次保存的同一网站的收集对比，但它不会只重新获取有变化的部分。"
+                  "没有这个功能。Markdown 变更报告会与您上一次保存的同一网站的收集对比，但它不会只重新获取有变化的部分。"
                 ],
                 [
                   "页面的外观",
                   "通常会改写链接，并把网站写成文件夹。",
                   "通常把页面连同样式和图片放进一个文件。",
                   "不保存页面。",
-                  "两种外观“整理为易读格式”和“保持原样”，以及四种保存文件的形式，其中一种会写出网站的文件夹结构（仅限Chrome和Edge）。"
+                  "两种外观“整理为易读格式”和“保持原样”，以及四种保存文件的形式，其中一种会写出网站的文件夹结构（仅限 Chrome 和 Edge）。"
                 ],
                 [
                   "找出页面内的文件",
                   "通常按文件扩展名，并带有包含和排除规则。",
                   "不是它的用途。",
                   "通常列出页面上的链接，并保存选中的链接。",
-                  "能检测38个类别中的708种文件类型，包括iframe中的PDF，以及通过fetch/XHR或blob网址加载的文件，并在保存前列出供您检查。"
+                  "能检测 38 个类别中的 708 种文件类型，包括 iframe 中的 PDF，以及通过 fetch/XHR 或 blob 网址加载的文件，并在保存前列出供您检查。"
                 ],
                 [
                   "在哪里运行",
                   "安装在您电脑上的程序。",
                   "浏览器扩展。",
                   "电脑上的程序，有时与浏览器关联。",
-                  "适用于Chrome、Edge和Firefox的浏览器扩展。页面和文件从来源网站直接到您的电脑。"
+                  "适用于 Chrome、Edge 和 Firefox 的浏览器扩展。页面和文件从来源网站直接到您的电脑。"
                 ],
                 [
                   "费用与购买",
                   "因产品而异。",
                   "因产品而异。",
                   "因产品而异。",
-                  "可免费使用。Pro 为$19.99，一次性付费，最多3台设备。"
+                  "可免费使用。Pro 为$19.99，一次性付费，最多 3 台设备。"
                 ]
               ]
             },
@@ -29119,8 +29119,8 @@
                   "h": "Grab All Files 是正确选择的情况",
                   "items": [
                     "您必须登录才能看到页面，而您已经能在浏览器中打开它们。",
-                    "页面由JavaScript构建，直接下载得到的是空白内容。",
-                    "您希望先列出PDF和Office文件，以便检查并只保留一部分。",
+                    "页面由 JavaScript 构建，直接下载得到的是空白内容。",
+                    "您希望先列出 PDF 和 Office 文件，以便检查并只保留一部分。",
                     "任务是有限的一组页面，或分布在几个页面上的一长串文件。"
                   ]
                 },
@@ -29146,14 +29146,14 @@
                 [
                   "local-processing",
                   "在您的浏览器内",
-                  "Grab All Files 在您电脑上的浏览器内运行。这就是它能看到需要登录的页面和JavaScript页面的原因，也是它一次处理一页的原因。",
+                  "Grab All Files 在您电脑上的浏览器内运行。这就是它能看到需要登录的页面和 JavaScript 页面的原因，也是它一次处理一页的原因。",
                   240,
                   148
                 ],
                 [
                   "dl-depth",
                   "跟随链接多远",
-                  "搜索深度从仅当前页面到无限制，每次搜索最多100,000页。桌面版复制工具是为这个范围的远端而设计的。",
+                  "搜索深度从仅当前页面到无限制，每次搜索最多 100,000 页。桌面版复制工具是为这个范围的远端而设计的。",
                   240,
                   148
                 ]
@@ -29163,7 +29163,7 @@
               "t": "text",
               "h": "同时使用多种方式",
               "p": [
-                "这些方式并不是对手。常见的分工是：大型公开网站用桌面版网站复制工具，同一网站需要登录的区域，或散落在几个页面上的PDF，则用 Grab All Files。如果想把文件列表交给其他工具，Grab All Files 的文件列表也可以导出为CSV，其中包含每个文件的网址。"
+                "这些方式并不是对手。常见的分工是：大型公开网站用桌面版网站复制工具，同一网站需要登录的区域，或散落在几个页面上的 PDF，则用 Grab All Files。如果想把文件列表交给其他工具，Grab All Files 的文件列表也可以导出为 CSV，其中包含每个文件的网址。"
               ]
             },
             {
@@ -29196,11 +29196,11 @@
             },
             {
               "q": "能刷新已保存的副本，只下载有变化的部分吗？",
-              "a": "Grab All Files 不行。它有一份Markdown变更报告，会与您上一次对同一网站的收集对比，但它会重新保存页面。桌面版网站复制工具才是为更新而设计的方式。"
+              "a": "Grab All Files 不行。它有一份 Markdown 变更报告，会与您上一次对同一网站的收集对比，但它会重新保存页面。桌面版网站复制工具才是为更新而设计的方式。"
             },
             {
               "q": "它与下载管理器有什么不同？",
-              "a": "下载管理器接收一列文件链接并很好地获取它们。Grab All Files 则先找出文件，包括页面通过脚本加载的文件，以列表形式显示供您检查，并且还可以把页面保存为HTML。"
+              "a": "下载管理器接收一列文件链接并很好地获取它们。Grab All Files 则先找出文件，包括页面通过脚本加载的文件，以列表形式显示供您检查，并且还可以把页面保存为 HTML。"
             }
           ]
         },
@@ -30681,14 +30681,14 @@
           "title": "适用于Firefox、Edge和Chrome的批量下载扩展 | Grab All Files",
           "desc": "Grab All Files 在Chrome、Edge（Chromium 111+）和Firefox 128+上的获取位置，以及Firefox上无法做到的事：选择文件夹、按网站结构保存到文件夹、主动抓取。",
           "eyebrow": "Chrome、Edge、Firefox",
-          "h1": "适用于Chrome、Edge和Firefox的批量下载扩展：在哪里获取，以及Firefox上有什么不同。",
-          "lead": "Grab All Files 可在Chrome、Edge（Chromium 111或更高版本）和Firefox 128或更高版本中运行。两个工具，即文件批量下载和将网页合并为 HTML，在这三种浏览器中都可使用。在Firefox上，有四处工作方式不同或缺失，下面列出，方便您在安装前判断。",
+          "h1": "适用于 Chrome、Edge 和 Firefox 的批量下载扩展：在哪里获取，以及 Firefox 上有什么不同。",
+          "lead": "Grab All Files 可在 Chrome、Edge（Chromium 111 或更高版本）和 Firefox 128 或更高版本中运行。两个工具，即文件批量下载和将网页合并为 HTML，在这三种浏览器中都可使用。在 Firefox 上，有四处工作方式不同或缺失，下面列出，方便您在安装前判断。",
           "blocks": [
             {
               "t": "table",
               "h": "在哪里获取",
               "p": [
-                "每个商店页面都是官方上架页面。免费版无需信用卡。Pro 为$19.99，一次性付费，一个许可证最多可用于3台设备。"
+                "每个商店页面都是官方上架页面。免费版无需信用卡。Pro 为$19.99，一次性付费，一个许可证最多可用于 3 台设备。"
               ],
               "head": [
                 "浏览器",
@@ -30698,37 +30698,37 @@
               "rows": [
                 [
                   "Google Chrome",
-                  "Chromium 111或更高版本",
+                  "Chromium 111 或更高版本",
                   "Chrome 应用商店：https://chromewebstore.google.com/detail/deopoklicobmohifoikcgepdodohcaaf"
                 ],
                 [
                   "Microsoft Edge",
-                  "Chromium 111或更高版本",
-                  "Microsoft Edge加载项：https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef"
+                  "Chromium 111 或更高版本",
+                  "Microsoft Edge 加载项：https://microsoftedge.microsoft.com/addons/detail/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E6%8B%AC%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/ebacgdhmcofpoilfllhkoioabjbaemef"
                 ],
                 [
                   "Mozilla Firefox",
-                  "Firefox 128或更高版本",
-                  "Firefox附加组件：https://addons.mozilla.org/firefox/addon/grab-all-files/"
+                  "Firefox 128 或更高版本",
+                  "Firefox 附加组件：https://addons.mozilla.org/firefox/addon/grab-all-files/"
                 ]
               ]
             },
             {
               "t": "table",
-              "h": "Firefox上无法做到的事",
+              "h": "Firefox 上无法做到的事",
               "p": [
                 "这四处差异是在扩展程序的代码中核对过的。本页并不声称没有其他差异。"
               ],
               "head": [
                 "",
-                "Chrome和Edge",
+                "Chrome 和 Edge",
                 "Firefox"
               ],
               "rows": [
                 [
                   "选择保存的文件夹",
                   "可以选择目标文件夹。",
-                  "不可以。文件会保存到“下载”文件夹内自动创建的GrabAllFiles文件夹中。"
+                  "不可以。文件会保存到“下载”文件夹内自动创建的 GrabAllFiles 文件夹中。"
                 ],
                 [
                   "“按网站结构保存到文件夹”",
@@ -30736,35 +30736,35 @@
                   "不可用。如果想让保存的页面在离线时相互链接，请使用“分页HTML（ZIP）”。"
                 ],
                 [
-                  "主动抓取（由JavaScript发起的下载）",
-                  "可用。它会点击每个由JavaScript发起的下载，并捕获文件。",
-                  "受限。主动抓取无法捕获由JavaScript发起的下载。扫描时作为直接链接找到的文件仍然可以下载。"
+                  "主动抓取（由 JavaScript 发起的下载）",
+                  "可用。它会点击每个由 JavaScript 发起的下载，并捕获文件。",
+                  "受限。主动抓取无法捕获由 JavaScript 发起的下载。扫描时作为直接链接找到的文件仍然可以下载。"
                 ],
                 [
                   "将网页合并为 HTML 时读取页面的方式",
-                  "Chrome和Edge中使用的方式。",
+                  "Chrome 和 Edge 中使用的方式。",
                   "从浏览器已显示的标签页中读取每个页面。"
                 ]
               ]
             },
             {
               "t": "art",
-              "h": "按网站结构保存还是ZIP：取决于浏览器",
+              "h": "按网站结构保存还是 ZIP：取决于浏览器",
               "p": [
-                "“将网页合并为 HTML”有四种保存文件的形式。其中三种在所有浏览器中都可用；这一种仅限Chrome和Edge，在Firefox上通常用ZIP代替。"
+                "“将网页合并为 HTML”有四种保存文件的形式。其中三种在所有浏览器中都可用；这一种仅限 Chrome 和 Edge，在 Firefox 上通常用 ZIP 代替。"
               ],
               "items": [
                 [
                   "form-site-folder",
                   "按网站结构保存到文件夹",
-                  "把页面写入您选择的文件夹，文件夹结构与网站相同，链接在离线时可用。仅限Chrome和Edge。",
+                  "把页面写入您选择的文件夹，文件夹结构与网站相同，链接在离线时可用。仅限 Chrome 和 Edge。",
                   160,
                   64
                 ],
                 [
                   "form-pages-zip",
-                  "分页HTML（ZIP）",
-                  "每个页面一个HTML文件，外加index.html，打包成一个ZIP。已保存页面之间的链接在离线时会打开保存的副本。Firefox可用。",
+                  "分页 HTML（ZIP）",
+                  "每个页面一个 HTML 文件，外加 index.html，打包成一个 ZIP。已保存页面之间的链接在离线时会打开保存的副本。Firefox 可用。",
                   160,
                   64
                 ]
@@ -30774,20 +30774,20 @@
               "t": "pair",
               "items": [
                 {
-                  "h": "Firefox就够用的情况",
+                  "h": "Firefox 就够用的情况",
                   "items": [
                     "您把文件保存到常用的“下载”文件夹，不需要每次选择文件夹。",
-                    "您可以接受用分页HTML的ZIP代替按网站结构保存到文件夹。",
+                    "您可以接受用分页 HTML 的 ZIP 代替按网站结构保存到文件夹。",
                     "您想要的文件直接链接在页面上，扫描能找到它们，无需捕获由脚本发起的下载。"
                   ]
                 },
                 {
-                  "h": "Chrome或Edge更合适的情况",
+                  "h": "Chrome 或 Edge 更合适的情况",
                   "no": true,
                   "items": [
                     "您想选择文件夹，例如磁盘上的共享文件夹。",
                     "您想把网站自己的文件夹结构写到磁盘上，通过点击链接来浏览。",
-                    "下载由运行JavaScript的按钮发起，没有指向文件的普通链接。"
+                    "下载由运行 JavaScript 的按钮发起，没有指向文件的普通链接。"
                   ]
                 }
               ]
@@ -30796,7 +30796,7 @@
               "t": "text",
               "h": "许可证与语言",
               "p": [
-                "一个 Pro 许可证最多可在3台设备上激活。它是一次性购买，价格$19.99，无需订阅。界面提供10种语言：英语、日语、西班牙语、法语、德语、意大利语、韩语、葡萄牙语（巴西）、简体中文和繁体中文。",
+                "一个 Pro 许可证最多可在 3 台设备上激活。它是一次性购买，价格$19.99，无需订阅。界面提供 10 种语言：英语、日语、西班牙语、法语、德语、意大利语、韩语、葡萄牙语（巴西）、简体中文和繁体中文。",
                 "页面和文件在您电脑上的浏览器中处理。只有许可证检查，以及您开启后的使用统计，才会发送到开发者的服务器。"
               ]
             },
@@ -30810,7 +30810,7 @@
                 ],
                 [
                   "download-multiple-files-as-zip",
-                  "把所选文件保存为一个ZIP。"
+                  "把所选文件保存为一个 ZIP。"
                 ],
                 [
                   "grab-all-files-faq",
@@ -30821,20 +30821,20 @@
           ],
           "faq": [
             {
-              "q": "Grab All Files 能在Firefox中使用吗？",
-              "a": "可以，需要Firefox 128或更高版本。有四处不同：不能选择保存文件夹，“按网站结构保存到文件夹”不可用，主动抓取受限且无法捕获由JavaScript发起的下载，以及将网页合并为 HTML 读取页面的方式不同。"
+              "q": "Grab All Files 能在 Firefox 中使用吗？",
+              "a": "可以，需要 Firefox 128 或更高版本。有四处不同：不能选择保存文件夹，“按网站结构保存到文件夹”不可用，主动抓取受限且无法捕获由 JavaScript 发起的下载，以及将网页合并为 HTML 读取页面的方式不同。"
             },
             {
-              "q": "在Firefox中文件保存在哪里？",
-              "a": "保存在“下载”文件夹内的GrabAllFiles文件夹中。在这个扩展程序中，Firefox不允许您选择目标文件夹。"
+              "q": "在 Firefox 中文件保存在哪里？",
+              "a": "保存在“下载”文件夹内的 GrabAllFiles 文件夹中。在这个扩展程序中，Firefox 不允许您选择目标文件夹。"
             },
             {
-              "q": "支持哪些Edge版本？",
-              "a": "基于Chromium 111或更高版本的Edge，从Microsoft Edge加载项安装。Chrome支持同样的Chromium版本。"
+              "q": "支持哪些 Edge 版本？",
+              "a": "基于 Chromium 111 或更高版本的 Edge，从 Microsoft Edge 加载项安装。Chrome 支持同样的 Chromium 版本。"
             },
             {
               "q": "一个许可证可以在多少台设备上使用？",
-              "a": "最多3台设备。它是一次性购买，价格$19.99，无需订阅。"
+              "a": "最多 3 台设备。它是一次性购买，价格$19.99，无需订阅。"
             }
           ]
         },
@@ -30924,7 +30924,7 @@
                 ],
                 [
                   "form-pages-zip",
-                  "分頁HTML（ZIP）",
+                  "分頁 HTML（ZIP）",
                   "每頁一個 HTML 檔案，加上一個 index.html，打包成一個 ZIP。已儲存頁面之間的連結會開啟已儲存的副本，可離線使用。Firefox 也能使用。",
                   160,
                   64
@@ -31840,8 +31840,8 @@
               "t": "text",
               "h": "三点概括",
               "p": [
-                "Grab All Files 能在Chrome、Edge和Firefox中找出网页上的文件，并把页面保存为HTML。处理在您的浏览器中进行；页面内容、网址和文件名不会发送给开发者。",
-                "免费版无需信用卡。Pro 为$19.99，一次性付费，最多可用于3台设备。",
+                "Grab All Files 能在 Chrome、Edge 和 Firefox 中找出网页上的文件，并把页面保存为 HTML。处理在您的浏览器中进行；页面内容、网址和文件名不会发送给开发者。",
+                "免费版无需信用卡。Pro 为$19.99，一次性付费，最多可用于 3 台设备。",
                 "它不会保存流媒体视频，也不是为复制数千页而设计的。"
               ]
             },
@@ -31852,7 +31852,7 @@
                 [
                   "local-processing",
                   "在您的电脑上",
-                  "文件从来源网站直接下载到您的电脑。ZIP、PDF合并、CSV和HTML都在您的浏览器中生成，不会上传。",
+                  "文件从来源网站直接下载到您的电脑。ZIP、PDF 合并、CSV 和 HTML 都在您的浏览器中生成，不会上传。",
                   240,
                   148
                 ]
@@ -31879,7 +31879,7 @@
                 ],
                 [
                   "bulk-download-extension-for-firefox-and-edge",
-                  "在哪里获取，以及Firefox上有什么不同。"
+                  "在哪里获取，以及 Firefox 上有什么不同。"
                 ]
               ]
             }
@@ -31887,7 +31887,7 @@
           "faq": [
             {
               "q": "Grab All Files 使用起来安全吗？",
-              "a": "它只扫描您选择的页面或网址，并且每次只请求访问一个网站。文件发现、下载、ZIP、CSV、PDF合并和页面保存都在您的浏览器中运行。商店版本不含任何分析或错误报告SDK。它是日本一位开发者开发的独立扩展程序，并非由Google、Microsoft或Mozilla制作。请只用于您有权访问的文件。"
+              "a": "它只扫描您选择的页面或网址，并且每次只请求访问一个网站。文件发现、下载、ZIP、CSV、PDF 合并和页面保存都在您的浏览器中运行。商店版本不含任何分析或错误报告 SDK。它是日本一位开发者开发的独立扩展程序，并非由 Google、Microsoft 或 Mozilla 制作。请只用于您有权访问的文件。"
             },
             {
               "q": "我的文件或页面会被发送到服务器吗？",
@@ -31899,35 +31899,35 @@
             },
             {
               "q": "一个许可证可以在多少台设备上使用？",
-              "a": "最多3台设备。"
+              "a": "最多 3 台设备。"
             },
             {
               "q": "免费版能做什么？",
-              "a": "检测并列出文件，然后每次下载保存10个文件，ZIP、PDF合并和CSV针对同样的10个文件。在将网页合并为 HTML 中，您可以找出候选页面，并以四种保存文件的形式中的任何一种每次运行保存1个页面，一次一个地把更多页面添加到上次保存的HTML中，并且每次运行保存10个链接文件。无需信用卡。"
+              "a": "检测并列出文件，然后每次下载保存 10 个文件，ZIP、PDF 合并和 CSV 针对同样的 10 个文件。在将网页合并为 HTML 中，您可以找出候选页面，并以四种保存文件的形式中的任何一种每次运行保存 1 个页面，一次一个地把更多页面添加到上次保存的 HTML 中，并且每次运行保存 10 个链接文件。无需信用卡。"
             },
             {
               "q": "支持哪些浏览器？",
-              "a": "基于Chromium 111或更高版本的Chrome和Edge，以及Firefox 128或更高版本。在Firefox上不能选择保存文件夹，“按网站结构保存到文件夹”不可用，主动抓取也无法捕获由JavaScript发起的下载。"
+              "a": "基于 Chromium 111 或更高版本的 Chrome 和 Edge，以及 Firefox 128 或更高版本。在 Firefox 上不能选择保存文件夹，“按网站结构保存到文件夹”不可用，主动抓取也无法捕获由 JavaScript 发起的下载。"
             },
             {
               "q": "它能用于需要登录的页面吗？它会看到我的密码吗？",
-              "a": "它适用于您已经能在同一个浏览器中打开的页面，使用您现有的会话。它不会收集或发送密码、Cookie的值或您在字段中输入的内容。它不会自动登录，也不会绕过验证码。如果会话过期，文件一侧会在受影响的行显示已退出登录的提示，页面一侧则会暂停，直到您重新登录并按“继续”。"
+              "a": "它适用于您已经能在同一个浏览器中打开的页面，使用您现有的会话。它不会收集或发送密码、Cookie 的值或您在字段中输入的内容。它不会自动登录，也不会绕过验证码。如果会话过期，文件一侧会在受影响的行显示已退出登录的提示，页面一侧则会暂停，直到您重新登录并按“继续”。"
             },
             {
               "q": "为什么它要求这么广泛的权限？",
-              "a": "安装它只会授予对许可证服务器的网站访问权限。适用于所有网站的权限被声明为可选，当您从某个网站扫描或保存时，浏览器会请您允许该网站。之后您可以撤销访问权限：在Chrome或Edge中，位于“扩展程序”、Grab All Files、“详细信息”、“网站访问权限”下；在Firefox中，位于“附加组件”、“权限”下。本站的安全页面对每项权限都做了说明。"
+              "a": "安装它只会授予对许可证服务器的网站访问权限。适用于所有网站的权限被声明为可选，当您从某个网站扫描或保存时，浏览器会请您允许该网站。之后您可以撤销访问权限：在 Chrome 或 Edge 中，位于“扩展程序”、Grab All Files、“详细信息”、“网站访问权限”下；在 Firefox 中，位于“附加组件”、“权限”下。本站的安全页面对每项权限都做了说明。"
             },
             {
-              "q": "它会把页面发送给AI服务吗？",
-              "a": "不会。它可以准备Markdown、JSONL和清单，每个页面都带有来源网址和获取时间，但要把文件交给哪个AI服务由您自己决定。不会自动发送任何内容。"
+              "q": "它会把页面发送给 AI 服务吗？",
+              "a": "不会。它可以准备 Markdown、JSONL 和清单，每个页面都带有来源网址和获取时间，但要把文件交给哪个 AI 服务由您自己决定。不会自动发送任何内容。"
             },
             {
               "q": "可以退款吗？",
-              "a": "如果技术缺陷导致您无法使用已付费的 Pro 功能，并且您在购买后30天内向 support@grab-all-files.app 报告，开发者会先尝试修复；如果无法在合理的时间内修复，则全额退款。改变主意、目标网站阻止或更改其页面、您没有登录权限的网站，以及网站上未说明的功能，均不在范围之内。退款会退回到原支付方式，许可证密钥会被撤销。您的法定权利不受影响。条款见“条款”页面的第15e节。"
+              "a": "如果技术缺陷导致您无法使用已付费的 Pro 功能，并且您在购买后 30 天内向 support@grab-all-files.app 报告，开发者会先尝试修复；如果无法在合理的时间内修复，则全额退款。改变主意、目标网站阻止或更改其页面、您没有登录权限的网站，以及网站上未说明的功能，均不在范围之内。退款会退回到原支付方式，许可证密钥会被撤销。您的法定权利不受影响。条款见“条款”页面的第 15e 节。"
             },
             {
               "q": "它不适合做什么？",
-              "a": "流媒体视频、复制数千页或只用有变化的文件来刷新副本、您无法打开或登录的页面，以及受DRM保护的文件。完整列表请参阅限制页面。"
+              "a": "流媒体视频、复制数千页或只用有变化的文件来刷新副本、您无法打开或登录的页面，以及受 DRM 保护的文件。完整列表请参阅限制页面。"
             }
           ]
         },
@@ -35304,7 +35304,7 @@
             "打开 Grab All Files,选择“将网页合并为 HTML”。可以从浏览器当前打开的网页开始，让扩展自动查找相关网页，也可以把来源切换为“从电脑文件夹”，选择包含 HTML 文件的文件夹或 ZIP。",
             "确认要包含的网页。在“外观”中选择“保持原样”。合并同一网站的多个网页时，请开启“每页重复的页眉、菜单和页脚只保留在第一页”。“不保存广告”默认开启，可让文件更小；如需保留广告位，请将其关闭。",
             "对于网页，当系统请求访问提供样式表和图片的网站时，请予以允许。所有网站只会请求一次。每个网页都会在标签页中打开并滚动到底部，这样滚动时才加载的图片和内容也会被包含进来。",
-            "保存。保存前先选择结果的组织方式。使用 Pro 且只有 1 个网页时，可选“保持页面原样”或“带目录和搜索的HTML”。使用 Pro 且有多个网页时，或免费版的 1 个网页，可选“带目录和搜索的HTML”“纵向拼接HTML（适合打印）”“分页HTML（ZIP）”或“按网站结构保存到文件夹”（Chrome、Edge）。在带目录和搜索的HTML中，每个网页都以原有设计放在框中，框的上方显示来源网址和抓取时间，可通过目录和搜索框在网页之间切换。“保持页面原样”和纵向拼接HTML不带目录和搜索界面，请使用浏览器的查找功能（Ctrl+F／⌘F）。只保存 1 个网页时，来源网址和时间记录在 HTML 开头的注释中。纵向拼接HTML打印时每个网页从新的一页开始。如需PDF，请在保存后用浏览器的打印功能生成。“分页HTML（ZIP）”包含一个链接到各网页的目录页（index.html）。“按网站结构保存到文件夹”会按与原网站相同的文件夹结构，连同目录页（index.html）一起写入所选文件夹。已保存页面之间的链接会打开已保存的文件，离线也能浏览。如果还想列出未能保留的图片或部分，请选择“带目录和搜索的HTML”，并开启“包含收集信息和失败列表”。"
+            "保存。保存前先选择结果的组织方式。使用 Pro 且只有 1 个网页时，可选“保持页面原样”或“带目录和搜索的HTML”。使用 Pro 且有多个网页时，或免费版的 1 个网页，可选“带目录和搜索的HTML”“纵向拼接HTML（适合打印）”“分页HTML（ZIP）”或“按网站结构保存到文件夹”（Chrome、Edge）。在带目录和搜索的 HTML 中，每个网页都以原有设计放在框中，框的上方显示来源网址和抓取时间，可通过目录和搜索框在网页之间切换。“保持页面原样”和纵向拼接 HTML 不带目录和搜索界面，请使用浏览器的查找功能（Ctrl+F／⌘F）。只保存 1 个网页时，来源网址和时间记录在 HTML 开头的注释中。纵向拼接 HTML 打印时每个网页从新的一页开始。如需 PDF，请在保存后用浏览器的打印功能生成。“分页HTML（ZIP）”包含一个链接到各网页的目录页（index.html）。“按网站结构保存到文件夹”会按与原网站相同的文件夹结构，连同目录页（index.html）一起写入所选文件夹。已保存页面之间的链接会打开已保存的文件，离线也能浏览。如果还想列出未能保留的图片或部分，请选择“带目录和搜索的HTML”，并开启“包含收集信息和失败列表”。"
           ],
           "faq": [
             {
@@ -35484,7 +35484,7 @@
             "開啟 Grab All Files，選擇「將網頁合併為 HTML」。可以從瀏覽器目前開啟的網頁開始，讓擴充功能自動尋找相關網頁，也可以將來源切換為「從電腦資料夾」，選擇包含 HTML 檔案的資料夾或 ZIP。",
             "確認要納入的網頁。在「外觀」中選擇「保持原樣」。合併同一網站的多個網頁時，請開啟「每頁重複的頁首、選單和頁尾只保留在第一頁」。「不儲存廣告」預設為開啟，可讓檔案更小；如需保留廣告版位，請將其關閉。",
             "對於網頁，當系統要求存取提供樣式表與圖片的網站時，請予以允許。所有網站只會詢問一次。每個網頁都會在分頁中開啟並捲動到底部，讓捲動時才載入的圖片與內容也能納入。",
-            "儲存。儲存前先選擇結果的組成方式。使用 Pro 且只有 1 個網頁時，可選「保持頁面原樣」或「附目錄及搜尋的HTML」。使用 Pro 且有多個網頁時，或免費版的 1 個網頁，可選「附目錄及搜尋的HTML」「直向串接HTML（適合列印）」「分頁HTML（ZIP）」或「依網站結構儲存到資料夾」（Chrome、Edge）。在附目錄及搜尋的HTML中，每個網頁都以原有設計放在框中，框的上方顯示來源網址與擷取時間，可透過目錄與搜尋框在網頁之間切換。「保持頁面原樣」和直向串接HTML不含目錄與搜尋介面，請使用瀏覽器的尋找功能（Ctrl+F／⌘F）。只儲存 1 個網頁時，來源網址與時間記錄在 HTML 開頭的註解中。直向串接HTML列印時每個網頁從新的一頁開始。如需PDF，請在儲存後用瀏覽器的列印功能產生。「分頁HTML（ZIP）」包含一個連結到各網頁的目錄頁（index.html）。「依網站結構儲存到資料夾」會依與原網站相同的資料夾結構，連同目錄頁（index.html）一起寫入所選資料夾。已儲存頁面之間的連結會開啟已儲存的檔案，離線也能瀏覽。如果也想列出未能保留的圖片或部分，請選擇「附目錄及搜尋的HTML」，並開啟「包含擷取資訊與失敗清單」。"
+            "儲存。儲存前先選擇結果的組成方式。使用 Pro 且只有 1 個網頁時，可選「保持頁面原樣」或「附目錄及搜尋的HTML」。使用 Pro 且有多個網頁時，或免費版的 1 個網頁，可選「附目錄及搜尋的HTML」「直向串接HTML（適合列印）」「分頁HTML（ZIP）」或「依網站結構儲存到資料夾」（Chrome、Edge）。在附目錄及搜尋的 HTML 中，每個網頁都以原有設計放在框中，框的上方顯示來源網址與擷取時間，可透過目錄與搜尋框在網頁之間切換。「保持頁面原樣」和直向串接 HTML 不含目錄與搜尋介面，請使用瀏覽器的尋找功能（Ctrl+F／⌘F）。只儲存 1 個網頁時，來源網址與時間記錄在 HTML 開頭的註解中。直向串接 HTML 列印時每個網頁從新的一頁開始。如需 PDF，請在儲存後用瀏覽器的列印功能產生。「分頁HTML（ZIP）」包含一個連結到各網頁的目錄頁（index.html）。「依網站結構儲存到資料夾」會依與原網站相同的資料夾結構，連同目錄頁（index.html）一起寫入所選資料夾。已儲存頁面之間的連結會開啟已儲存的檔案，離線也能瀏覽。如果也想列出未能保留的圖片或部分，請選擇「附目錄及搜尋的HTML」，並開啟「包含擷取資訊與失敗清單」。"
           ],
           "faq": [
             {
@@ -36552,7 +36552,7 @@
           "title": "把多个HTML文件合并成一个带目录的文件 | Grab All Files",
           "desc": "把电脑上文件夹或ZIP里的多个HTML文件合并成一个带目录的离线HTML。图片内嵌，页面间链接在文件内跳转，全程在浏览器中完成，不上传任何文件。",
           "eyebrow": "电脑里的 HTML → 一个 HTML",
-          "h1": "把多个HTML文件合并成一个HTML文件。",
+          "h1": "把多个 HTML 文件合并成一个 HTML 文件。",
           "lead": "手头有保存下来的网站、导出的手册，或装满 .html 页面的 ZIP？在电脑上选择文件夹或 ZIP，Grab All Files 就会把这些页面合并成一个带目录的 HTML 文件。页面按网站自身的链接顺序排列，本地图片会内嵌，页面之间的链接变为文件内跳转。所有处理都在浏览器中完成，不会上传任何内容。",
           "best": [
             "多年前保存或镜像下来的网站（index.html 加几十个页面），想合成一个文件来保存、阅读或搜索。",
@@ -36593,7 +36593,7 @@
             },
             {
               "q": "为什么结果中缺少某个页面或图片？",
-              "a": "生成HTML后请查看报告：其中列出了无法读取的文件、指向已排除页面的链接以及无法嵌入的图片。所选子文件夹以外或已排除路径中的页面不会包含，在线图片保留为链接；框架布局页面（frameset）默认跳过，但框架内的页面会保留。"
+              "a": "生成 HTML 后请查看报告：其中列出了无法读取的文件、指向已排除页面的链接以及无法嵌入的图片。所选子文件夹以外或已排除路径中的页面不会包含，在线图片保留为链接；框架布局页面（frameset）默认跳过，但框架内的页面会保留。"
             }
           ],
           "industry": {
@@ -36658,7 +36658,7 @@
           "title": "把多個HTML檔案合併成一個附目錄的檔案 | Grab All Files",
           "desc": "把電腦上資料夾或ZIP裡的多個HTML檔案合併成一個附目錄的離線HTML。圖片內嵌，頁面間連結在檔案內跳轉，全程在瀏覽器中完成，不上傳任何檔案。",
           "eyebrow": "電腦裡的 HTML → 一個 HTML",
-          "h1": "把多個HTML檔案合併成一個HTML檔案。",
+          "h1": "把多個 HTML 檔案合併成一個 HTML 檔案。",
           "lead": "手邊有存下來的網站、匯出的手冊，或裝滿 .html 頁面的 ZIP？在電腦上選擇資料夾或 ZIP，Grab All Files 就會把這些頁面合併成一個附目錄的 HTML 檔案。頁面依網站本身的連結順序排列，本機圖片會內嵌，頁面之間的連結變為檔案內跳轉。所有處理都在瀏覽器中完成，不會上傳任何內容。",
           "best": [
             "多年前儲存或鏡像下來的網站（index.html 加上幾十個頁面），想合成一個檔案來儲存、閱讀或搜尋。",
@@ -36699,7 +36699,7 @@
             },
             {
               "q": "為什麼結果中缺少某個頁面或圖片？",
-              "a": "產生HTML後請查看報告：其中列出無法讀取的檔案、指向已排除頁面的連結以及無法嵌入的圖片。所選子資料夾以外或已排除路徑中的頁面不會包含，線上圖片保留為連結；框架版面頁面（frameset）預設略過，但框架內的頁面會保留。"
+              "a": "產生 HTML 後請查看報告：其中列出無法讀取的檔案、指向已排除頁面的連結以及無法嵌入的圖片。所選子資料夾以外或已排除路徑中的頁面不會包含，線上圖片保留為連結；框架版面頁面（frameset）預設略過，但框架內的頁面會保留。"
             }
           ],
           "industry": {
@@ -37295,16 +37295,16 @@
           "desc": "按型号保存要比较的产品目录、规格书和数据表，标题中注明型号与文档类型，并保留来源链接。免费版每次下载最多 10 个文件。",
           "eyebrow": "产品目录与数据表",
           "h1": "把产品资料集中保存。",
-          "lead": "将要比较的产品目录、规格PDF和数据表整理成便于查阅的资料集。保存前确认正确的型号、地区与版本，并把来源链接和文件一起保留，便于日后核对。",
+          "lead": "将要比较的产品目录、规格 PDF 和数据表整理成便于查阅的资料集。保存前确认正确的型号、地区与版本，并把来源链接和文件一起保留，便于日后核对。",
           "best": [
             "为需要目录和详细规格的候选产品整理资料。",
             "以确认过的型号名称管理设备或部件资料。"
           ],
           "steps": [
             "打开制造商所需产品系列的下载页面。将其他型号、软件及会员专用区域与所选资料集分开。",
-            "打开Grab All Files并扫描产品系列页面。如果每个型号在起始页面文件夹内都有单独页面，请将“深度”提高到 1。按PDF筛选，勾选所需型号的目录、规格书和数据表。",
+            "打开 Grab All Files 并扫描产品系列页面。如果每个型号在起始页面文件夹内都有单独页面，请将“深度”提高到 1。按 PDF 筛选，勾选所需型号的目录、规格书和数据表。",
             "核对型号、语言、修订日期及文档用途。编辑标题，区分目录、规格文件和数据表。",
-            "在“详细设置”的“保存名称”中选择“标题”以使用编辑后的名称，并在“其他操作”中将“整理”设为“按类型”，把PDF与表格、压缩文件分开。下载或保存为ZIP（免费版每次下载最多 10 个），用“导出文件信息CSV”保留来源URL。",
+            "在“详细设置”的“保存名称”中选择“标题”以使用编辑后的名称，并在“其他操作”中将“整理”设为“按类型”，把 PDF 与表格、压缩文件分开。下载或保存为 ZIP（免费版每次下载最多 10 个），用“导出文件信息CSV”保留来源 URL。",
             "打开已保存文档，将记载的条件与来源核对。记录型号与版本；这个文件夹是参考资料，不会自动评估产品是否适用。"
           ],
           "faq": [
@@ -37318,15 +37318,15 @@
             },
             {
               "q": "能自动提取规格对比吗？",
-              "a": "文件信息CSV列出文件，不包含规格表中的数值。请使用原始文档或另一个表格提取、AI流程，并核对比较结果。"
+              "a": "文件信息 CSV 列出文件，不包含规格表中的数值。请使用原始文档或另一个表格提取、AI 流程，并核对比较结果。"
             },
             {
               "q": "可以免费使用吗？",
-              "a": "可以。免费版的下载、ZIP和文件信息CSV每次操作最多处理 10 个选中的文件。要继续，请选择接下来的文件并再次点击按钮即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的上限。"
+              "a": "可以。免费版的下载、ZIP 和文件信息 CSV 每次操作最多处理 10 个选中的文件。要继续，请选择接下来的文件并再次点击按钮即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的上限。"
             },
             {
               "q": "数据表要填写表单或点击下载按钮后才出现，能获取吗？",
-              "a": "如果网站要求填写资料申请表，请先自行提交，再扫描列出文件的页面。如果下载由网站自身的JavaScript触发，“主动抓取”会让页面逐个启动下载，从而把文件一起保存。会员专属资料只有在浏览器已登录时才能获取。"
+              "a": "如果网站要求填写资料申请表，请先自行提交，再扫描列出文件的页面。如果下载由网站自身的 JavaScript 触发，“主动抓取”会让页面逐个启动下载，从而把文件一起保存。会员专属资料只有在浏览器已登录时才能获取。"
             }
           ],
           "industry": {
@@ -37360,16 +37360,16 @@
           "desc": "依型號儲存要比較的產品型錄、規格書和資料表，標題中註明型號與文件類型，並保留來源連結，全程在瀏覽器中完成。免費版一次下載最多 10 個檔案。",
           "eyebrow": "產品型錄與資料表",
           "h1": "把產品資料集中儲存。",
-          "lead": "將要比較的產品型錄、規格PDF與資料表整理成便於查閱的資料集。儲存前確認正確的型號、地區與版本，並把來源連結和檔案一起保留，便於日後核對。",
+          "lead": "將要比較的產品型錄、規格 PDF 與資料表整理成便於查閱的資料集。儲存前確認正確的型號、地區與版本，並把來源連結和檔案一起保留，便於日後核對。",
           "best": [
             "為需要型錄與詳細規格的候選產品整理資料。",
             "以確認過的型號名稱管理設備或零組件資料。"
           ],
           "steps": [
             "開啟製造商所需產品系列的下載頁面。將其他型號、軟體及會員專用區域與選取的資料集分開。",
-            "開啟Grab All Files並掃描產品系列頁面。若每個型號在起始頁面資料夾內都有單獨頁面，請將「深度」提高到 1。依PDF篩選，勾選所需型號的型錄、規格書和資料表。",
+            "開啟 Grab All Files 並掃描產品系列頁面。若每個型號在起始頁面資料夾內都有單獨頁面，請將「深度」提高到 1。依 PDF 篩選，勾選所需型號的型錄、規格書和資料表。",
             "核對型號、語言、修訂日期與文件用途。編輯標題，區分型錄、規格文件和資料表。",
-            "在「詳細設定」的「儲存名稱」中選擇「標題」以使用編輯後的名稱，並在「其他操作」中將「整理」設為「依類型」，把PDF與試算表、壓縮檔分開。下載或儲存為ZIP（免費版每次下載最多 10 個），用「匯出檔案資訊CSV」保留來源URL。",
+            "在「詳細設定」的「儲存名稱」中選擇「標題」以使用編輯後的名稱，並在「其他操作」中將「整理」設為「依類型」，把 PDF 與試算表、壓縮檔分開。下載或儲存為 ZIP（免費版每次下載最多 10 個），用「匯出檔案資訊CSV」保留來源 URL。",
             "開啟已儲存文件，將記載的條件與來源核對。記錄型號與版本；這個資料夾是參考資料，不會自動評估產品是否適用。"
           ],
           "faq": [
@@ -37383,15 +37383,15 @@
             },
             {
               "q": "能自動擷取規格比較嗎？",
-              "a": "檔案資訊CSV列出檔案，不包含規格表中的數值。請使用原始文件或另一個表格擷取、AI流程，並核對比較結果。"
+              "a": "檔案資訊 CSV 列出檔案，不包含規格表中的數值。請使用原始文件或另一個表格擷取、AI 流程，並核對比較結果。"
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "可以。免費版的下載、ZIP和檔案資訊CSV每次最多處理 10 個選取的檔案，接下來的檔案再選取一次即可，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有這個上限。"
+              "a": "可以。免費版的下載、ZIP 和檔案資訊 CSV 每次最多處理 10 個選取的檔案，接下來的檔案再選取一次即可，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有這個上限。"
             },
             {
               "q": "資料表要填寫表單或點擊下載按鈕後才出現，能取得嗎？",
-              "a": "若網站要求填寫資料索取表單，請先自行送出，再掃描列出檔案的頁面。若下載由網站本身的JavaScript觸發，「主動擷取」會讓頁面逐一啟動下載，從而把檔案一起儲存。會員專屬資料只有在瀏覽器已登入時才能取得。"
+              "a": "若網站要求填寫資料索取表單，請先自行送出，再掃描列出檔案的頁面。若下載由網站本身的 JavaScript 觸發，「主動擷取」會讓頁面逐一啟動下載，從而把檔案一起儲存。會員專屬資料只有在瀏覽器已登入時才能取得。"
             }
           ],
           "industry": {
@@ -37953,19 +37953,19 @@
         "zh_CN": {
           "title": "下载IR与财务报告PDF | Grab All Files",
           "desc": "按会计年度和季度保存一家发行人的业绩公告、演示资料和年报，在标题中注明期间并保留来源链接，便于日后核对。免费版每次下载最多 10 个文件。",
-          "eyebrow": "IR与财务报告PDF",
+          "eyebrow": "IR 与财务报告 PDF",
           "h1": "按报告期间整理资料。",
-          "lead": "将一家发行人的业绩公告、演示资料与年报整理成可追溯来源的阅读资料集。在每份原件上核对会计年度和季度，再用清晰的名称为自行查阅或交给外部AI准备材料。",
+          "lead": "将一家发行人的业绩公告、演示资料与年报整理成可追溯来源的阅读资料集。在每份原件上核对会计年度和季度，再用清晰的名称为自行查阅或交给外部 AI 准备材料。",
           "best": [
             "收集一家发行人的年度或季度披露资料。",
             "选择原始文档，为手动请求摘要或比较准备材料。"
           ],
           "steps": [
-            "打开发行人的官方IR资料库，选择会计年度或季度。分别核对业绩公告、演示资料与公开的问答。",
-            "打开Grab All Files并扫描该期间的页面。按PDF筛选（发行人以Excel公布数据时也加上Excel），只勾选该期间的业绩公告、演示资料和报告。",
+            "打开发行人的官方 IR 资料库，选择会计年度或季度。分别核对业绩公告、演示资料与公开的问答。",
+            "打开 Grab All Files 并扫描该期间的页面。按 PDF 筛选（发行人以 Excel 公布数据时也加上 Excel），只勾选该期间的业绩公告、演示资料和报告。",
             "确认发行人、报告期间、发布日期与修订。需要时在标题前加上期间标识，并按期间分批处理，避免混合报告。",
-            "双击各标题加上期间（例如“FY2025 Q2 – 演示资料”），在“详细设置”的“保存名称”中选择“标题”，再按期间下载或保存为ZIP（免费版每次下载最多 10 个）。用“导出文件信息CSV”保留来源URL。",
-            "阅读已保存原件，或手动将所选AI服务支持的资料文件与问题交给它。将单位、会计范围和数值与原始PDF核对。扩展不作投资判断，也不保证数值提取的完整性。"
+            "双击各标题加上期间（例如“FY2025 Q2 – 演示资料”），在“详细设置”的“保存名称”中选择“标题”，再按期间下载或保存为 ZIP（免费版每次下载最多 10 个）。用“导出文件信息CSV”保留来源 URL。",
+            "阅读已保存原件，或手动将所选 AI 服务支持的资料文件与问题交给它。将单位、会计范围和数值与原始 PDF 核对。扩展不作投资判断，也不保证数值提取的完整性。"
           ],
           "faq": [
             {
@@ -37973,20 +37973,20 @@
               "a": "不会。请查看发行人文档中的期间标识，自行决定命名和分批方式。会计年度不一定与自然年一致。"
             },
             {
-              "q": "CSV包含财务报表数值吗？",
-              "a": "不包含。文件信息CSV记录文件元数据和链接，不提取财务报表中的表格，也不保证完整的数值数据。"
+              "q": "CSV 包含财务报表数值吗？",
+              "a": "不包含。文件信息 CSV 记录文件元数据和链接，不提取财务报表中的表格，也不保证完整的数值数据。"
             },
             {
-              "q": "会分析投资或把报告发送给AI吗？",
-              "a": "它准备文件与链接。您自行选择适合的材料，手动交给外部AI服务并核对输出。不承诺投资建议或分析准确性。"
+              "q": "会分析投资或把报告发送给 AI 吗？",
+              "a": "它准备文件与链接。您自行选择适合的材料，手动交给外部 AI 服务并核对输出。不承诺投资建议或分析准确性。"
             },
             {
               "q": "可以免费使用吗？",
-              "a": "可以。免费版的下载、ZIP和文件信息CSV每次操作最多处理 10 个选中的文件。要继续，请选择接下来的文件并再次点击按钮即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的上限。"
+              "a": "可以。免费版的下载、ZIP 和文件信息 CSV 每次操作最多处理 10 个选中的文件。要继续，请选择接下来的文件并再次点击按钮即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的上限。"
             },
             {
               "q": "往年资料藏在“显示更多”或长列表后面，能找到吗？",
-              "a": "Pro 在扫描时会自动把页面滚动到底，并继续读取同一列表的后续页面（每次扫描最多 100 页）。免费版只读取屏幕上已显示的内容，请先自己滚动到底（或打开下一页），再重新扫描。若每年各有标签页或页面，请逐一打开并扫描。有些IR网站通过查看器链接报告，保存前请确认检测到的来源页面。"
+              "a": "Pro 在扫描时会自动把页面滚动到底，并继续读取同一列表的后续页面（每次扫描最多 100 页）。免费版只读取屏幕上已显示的内容，请先自己滚动到底（或打开下一页），再重新扫描。若每年各有标签页或页面，请逐一打开并扫描。有些 IR 网站通过查看器链接报告，保存前请确认检测到的来源页面。"
             }
           ],
           "industry": {
@@ -38018,19 +38018,19 @@
         "zh_TW": {
           "title": "下載IR與財務報告PDF | Grab All Files",
           "desc": "依會計年度和季度儲存一家發行人的業績公告、簡報和年報，在標題中註明期間並保留來源連結，方便日後核對。免費版一次最多下載 10 個檔案，可依期間分批進行。",
-          "eyebrow": "IR與財務報告PDF",
+          "eyebrow": "IR 與財務報告 PDF",
           "h1": "依報告期間整理資料。",
-          "lead": "將一家發行人的業績公告、簡報與年報整理成可追溯來源的閱讀資料集。在每份原件上核對會計年度與季度，再用清楚的名稱為自行查閱或交給外部AI準備材料。",
+          "lead": "將一家發行人的業績公告、簡報與年報整理成可追溯來源的閱讀資料集。在每份原件上核對會計年度與季度，再用清楚的名稱為自行查閱或交給外部 AI 準備材料。",
           "best": [
             "收集一家發行人的年度或季度揭露資料。",
             "選取原始文件，為手動請求摘要或比較準備材料。"
           ],
           "steps": [
-            "開啟發行人的官方IR資料庫，選擇會計年度或季度。分別核對業績公告、簡報與公開的問答。",
-            "開啟Grab All Files並掃描該期間的頁面。依PDF篩選（發行人以Excel公布資料時也加上Excel），只勾選該期間的業績公告、簡報和報告。",
+            "開啟發行人的官方 IR 資料庫，選擇會計年度或季度。分別核對業績公告、簡報與公開的問答。",
+            "開啟 Grab All Files 並掃描該期間的頁面。依 PDF 篩選（發行人以 Excel 公布資料時也加上 Excel），只勾選該期間的業績公告、簡報和報告。",
             "確認發行人、報告期間、發布日期與修訂。需要時在標題前加上期間標示，並依期間分批處理，避免混合報告。",
-            "雙擊各標題加上期間（例如「FY2025 Q2 – 簡報」），在「詳細設定」的「儲存名稱」中選擇「標題」，再依期間下載或儲存為ZIP（免費版每次下載最多 10 個）。用「匯出檔案資訊CSV」保留來源URL。",
-            "閱讀已儲存原件，或手動將所選AI服務支援的資料檔與問題交給它。將單位、會計範圍與數值和原始PDF核對。擴充功能不作投資判斷，也不保證數值擷取的完整性。"
+            "雙擊各標題加上期間（例如「FY2025 Q2 – 簡報」），在「詳細設定」的「儲存名稱」中選擇「標題」，再依期間下載或儲存為 ZIP（免費版每次下載最多 10 個）。用「匯出檔案資訊CSV」保留來源 URL。",
+            "閱讀已儲存原件，或手動將所選 AI 服務支援的資料檔與問題交給它。將單位、會計範圍與數值和原始 PDF 核對。擴充功能不作投資判斷，也不保證數值擷取的完整性。"
           ],
           "faq": [
             {
@@ -38038,20 +38038,20 @@
               "a": "不會。請查看發行人文件中的期間標示，自行決定命名和分批方式。會計年度不一定與曆年一致。"
             },
             {
-              "q": "CSV包含財務報表數值嗎？",
-              "a": "不包含。檔案資訊CSV記錄檔案中繼資料與連結，不擷取財務報表中的表格，也不保證完整的數值資料。"
+              "q": "CSV 包含財務報表數值嗎？",
+              "a": "不包含。檔案資訊 CSV 記錄檔案中繼資料與連結，不擷取財務報表中的表格，也不保證完整的數值資料。"
             },
             {
-              "q": "會分析投資或把報告傳送給AI嗎？",
-              "a": "它準備檔案與連結。您自行選擇適合的材料，手動交給外部AI服務並核對輸出。不承諾投資建議或分析準確性。"
+              "q": "會分析投資或把報告傳送給 AI 嗎？",
+              "a": "它準備檔案與連結。您自行選擇適合的材料，手動交給外部 AI 服務並核對輸出。不承諾投資建議或分析準確性。"
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "可以。免費版的下載、ZIP和檔案資訊CSV每次最多處理 10 個選取的檔案，接下來的檔案再選取一次即可，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有這個上限。"
+              "a": "可以。免費版的下載、ZIP 和檔案資訊 CSV 每次最多處理 10 個選取的檔案，接下來的檔案再選取一次即可，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有這個上限。"
             },
             {
               "q": "往年資料藏在「顯示更多」或長清單後面，能找到嗎？",
-              "a": "Pro 在掃描時會自動把頁面捲動到底，並繼續讀取同一清單的後續頁面（每次掃描最多 100 頁）。免費版只讀取畫面上已顯示的內容，請先自行捲動到底（或開啟下一頁），再重新掃描。若每年各有分頁或頁面，請逐一開啟並掃描。有些IR網站透過檢視器連結報告，儲存前請確認偵測到的來源頁面。"
+              "a": "Pro 在掃描時會自動把頁面捲動到底，並繼續讀取同一清單的後續頁面（每次掃描最多 100 頁）。免費版只讀取畫面上已顯示的內容，請先自行捲動到底（或開啟下一頁），再重新掃描。若每年各有分頁或頁面，請逐一開啟並掃描。有些 IR 網站透過檢視器連結報告，儲存前請確認偵測到的來源頁面。"
             }
           ],
           "industry": {
@@ -38617,15 +38617,15 @@
           "h1": "把同一项目的文件放在一起。",
           "lead": "为一个招标或公开征集项目准备核对用资料集，包括公告、规格、表格及公开的问题或回答。保留文档用途与修订信息，便于将保存的文件与官方列表对照。",
           "best": [
-            "收集同一项目的PDF、Word和Excel文件。",
+            "收集同一项目的 PDF、Word 和 Excel 文件。",
             "区分修订公告、表格和补充说明资料。"
           ],
           "steps": [
             "打开一个项目的官方页面。找到公告、规格、表格及单独发布的补充说明或修订链接。",
-            "打开Grab All Files并扫描项目页面。按公布的格式（PDF、Word、Excel、ZIP）筛选，勾选公告、规格书、表格及答疑文件。",
+            "打开 Grab All Files 并扫描项目页面。按公布的格式（PDF、Word、Excel、ZIP）筛选，勾选公告、规格书、表格及答疑文件。",
             "核对项目名称、版本、截止日期与所需文件列表。保留表格支持的原始格式，按文档用途命名文件。",
-            "按用途为每个文件命名（公告、规格书、表格、答疑），并在“其他操作”中将“整理”设为“按类型”，让可编辑表格单独存放。按项目保存ZIP（免费版每次下载最多 10 个），并用“导出文件信息CSV”与官方清单核对。",
-            "将已保存文件和CSV与官方列表核对。准备申请前，回到来源检查修订或回答。保存文档不会填写、签署或提交申请。"
+            "按用途为每个文件命名（公告、规格书、表格、答疑），并在“其他操作”中将“整理”设为“按类型”，让可编辑表格单独存放。按项目保存 ZIP（免费版每次下载最多 10 个），并用“导出文件信息CSV”与官方清单核对。",
+            "将已保存文件和 CSV 与官方列表核对。准备申请前，回到来源检查修订或回答。保存文档不会填写、签署或提交申请。"
           ],
           "faq": [
             {
@@ -38642,7 +38642,7 @@
             },
             {
               "q": "可以免费使用吗？",
-              "a": "可以。免费版的下载、ZIP和文件信息CSV每次操作最多处理 10 个选中的文件。要继续，请选择接下来的文件并再次点击按钮即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的上限。"
+              "a": "可以。免费版的下载、ZIP 和文件信息 CSV 每次操作最多处理 10 个选中的文件。要继续，请选择接下来的文件并再次点击按钮即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的上限。"
             },
             {
               "q": "门户网站需要登录才能看到文件，还能用吗？",
@@ -38682,15 +38682,15 @@
           "h1": "把同一案件的文件放在一起。",
           "lead": "為一個招標或公開徵選案件準備核對用資料集，包含公告、規格、表格及公開的問題或回答。保留文件用途與修訂資訊，便於將儲存的檔案與官方清單對照。",
           "best": [
-            "收集同一案件的PDF、Word與Excel文件。",
+            "收集同一案件的 PDF、Word 與 Excel 文件。",
             "區分修訂公告、表格和補充說明資料。"
           ],
           "steps": [
             "開啟一個案件的官方頁面。找到公告、規格、表格及單獨發布的補充說明或修訂連結。",
-            "開啟Grab All Files並掃描案件頁面。依公布的格式（PDF、Word、Excel、ZIP）篩選，勾選公告、規格書、表單及問答檔案。",
+            "開啟 Grab All Files 並掃描案件頁面。依公布的格式（PDF、Word、Excel、ZIP）篩選，勾選公告、規格書、表單及問答檔案。",
             "核對案件名稱、版本、截止日期與所需文件清單。保留表格支援的原始格式，依文件用途命名檔案。",
-            "依用途為每個檔案命名（公告、規格書、表單、問答），並在「其他操作」中將「整理」設為「依類型」，讓可編輯表單分開存放。依案件儲存ZIP（免費版每次下載最多 10 個），並用「匯出檔案資訊CSV」與官方清單核對。",
-            "將已儲存檔案和CSV與官方清單核對。準備申請前，回到來源檢查修訂或回答。儲存文件不會填寫、簽署或提交申請。"
+            "依用途為每個檔案命名（公告、規格書、表單、問答），並在「其他操作」中將「整理」設為「依類型」，讓可編輯表單分開存放。依案件儲存 ZIP（免費版每次下載最多 10 個），並用「匯出檔案資訊CSV」與官方清單核對。",
+            "將已儲存檔案和 CSV 與官方清單核對。準備申請前，回到來源檢查修訂或回答。儲存文件不會填寫、簽署或提交申請。"
           ],
           "faq": [
             {
@@ -38707,7 +38707,7 @@
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "可以。免費版的下載、ZIP和檔案資訊CSV每次最多處理 10 個選取的檔案，接下來的檔案再選取一次即可，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有這個上限。"
+              "a": "可以。免費版的下載、ZIP 和檔案資訊 CSV 每次最多處理 10 個選取的檔案，接下來的檔案再選取一次即可，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有這個上限。"
             },
             {
               "q": "入口網站需要登入才能看到文件，還能用嗎？",
@@ -39273,40 +39273,40 @@
         "zh_CN": {
           "title": "将文件链接导出为Excel用CSV | Grab All Files",
           "desc": "将所选文件的URL、文件名、标题、类型、大小、日期和来源页面导出为Excel可用的CSV清单。免费版每次最多导出 10 行，全程在浏览器本地完成。",
-          "eyebrow": "文件链接导出为CSV",
+          "eyebrow": "文件链接导出为 CSV",
           "h1": "把所选文件链接整理成列表。",
-          "lead": "导出可复用的所选文件清单，包含URL、文件名、标题、类型及可获取的元数据。将CSV导入Excel后筛选、核对并分享文档列表，同时与文档本身的内容区分。",
+          "lead": "导出可复用的所选文件清单，包含 URL、文件名、标题、类型及可获取的元数据。将 CSV 导入 Excel 后筛选、核对并分享文档列表，同时与文档本身的内容区分。",
           "best": [
             "管理所选文档集的文件清单。",
-            "在Excel中核对来源URL，或比较文件名与可获取的元数据。",
+            "在 Excel 中核对来源 URL，或比较文件名与可获取的元数据。",
             "在任何人下载之前，把核对过的文件清单交给同事。"
           ],
           "steps": [
-            "打开列出文件的页面，点击Grab All Files图标后点击“扫描”。如需包含起始页面文件夹内链接到的页面，请提高“深度”。",
+            "打开列出文件的页面，点击 Grab All Files 图标后点击“扫描”。如需包含起始页面文件夹内链接到的页面，请提高“深度”。",
             "筛选出需要的文件类型，勾选要放入清单的行（免费版每次导出最多 10 行）。",
             "打开“其他操作”，点击“导出文件信息CSV”。行数较多时，勾选接下来的行再导出一次。",
-            "在Excel中使用“数据”→“从文本/CSV”，选择UTF-8，并将URL和编号列设为文本。将各行与所选文件核对。"
+            "在 Excel 中使用“数据”→“从文本/CSV”，选择 UTF-8，并将 URL 和编号列设为文本。将各行与所选文件核对。"
           ],
           "faq": [
             {
               "q": "这与导出网页表格是同一功能吗？",
-              "a": "不是。此CSV是文件清单。要把页面中的HTML表格转成CSV，请使用“将网页合并为 HTML”的AI分析数据，支持的表格会保存为CSV文件。"
+              "a": "不是。此 CSV 是文件清单。要把页面中的 HTML 表格转成 CSV，请使用“将网页合并为 HTML”的 AI 分析数据，支持的表格会保存为 CSV 文件。"
             },
             {
               "q": "会导出哪些列？",
-              "a": "固定列名为URL、Filename、Title、Type、Confidence、Evidence、Size、Size (bytes)、Modified和Source page。未知的大小、日期或来源信息可能为空。"
+              "a": "固定列名为 URL、Filename、Title、Type、Confidence、Evidence、Size、Size (bytes)、Modified 和 Source page。未知的大小、日期或来源信息可能为空。"
             },
             {
               "q": "会包含网站的每个文件吗？",
-              "a": "不会。只导出您选中的已检测行：免费版每次最多 10 行，Pro没有上限。请检查覆盖范围，必要时换一个页面或深度再扫描。"
+              "a": "不会。只导出您选中的已检测行：免费版每次最多 10 行，Pro 没有上限。请检查覆盖范围，必要时换一个页面或深度再扫描。"
             },
             {
               "q": "可以免费使用吗？",
-              "a": "可以。免费版每次CSV最多导出 10 个选中行，每次下载最多保存 10 个文件。清单较长时，勾选接下来的行并再次点击“导出文件信息CSV”即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的上限。"
+              "a": "可以。免费版每次 CSV 最多导出 10 个选中行，每次下载最多保存 10 个文件。清单较长时，勾选接下来的行并再次点击“导出文件信息CSV”即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的上限。"
             },
             {
               "q": "文件清单会被上传到哪里吗？",
-              "a": "不会。CSV在浏览器中生成并直接保存到您的设备，清单不会发送到Grab All Files的服务器。"
+              "a": "不会。CSV 在浏览器中生成并直接保存到您的设备，清单不会发送到 Grab All Files 的服务器。"
             }
           ],
           "industry": {
@@ -39314,8 +39314,8 @@
             "title": "文件链接导出为CSV",
             "stages": [
               "选择文件行",
-              "导出文件信息CSV",
-              "手动导入Excel"
+              "导出文件信息 CSV",
+              "手动导入 Excel"
             ],
             "files": [
               "catalog.pdf",
@@ -39328,7 +39328,7 @@
             ],
             "output": "示例资料集",
             "example": "流程示例 · 虚构示例资料",
-            "note": "名称和分组为手动整理示例。扩展的文件夹分类仅按格式或来源域名。 图中CSV为 4 列节选，实际固定 10 列在FAQ中说明。",
+            "note": "名称和分组为手动整理示例。扩展的文件夹分类仅按格式或来源域名。 图中 CSV 为 4 列节选，实际固定 10 列在 FAQ 中说明。",
             "referenceTitle": "公开资料分发结构示例",
             "referenceNote": "仅用于参考资料公开方式，不表示合作或兼容性测试。",
             "referenceLabel": "",
@@ -39338,40 +39338,40 @@
         "zh_TW": {
           "title": "將檔案連結匯出為Excel用CSV | Grab All Files",
           "desc": "將所選檔案的URL、檔名、標題、類型、大小、日期和來源頁面匯出為Excel可用的CSV清單。免費版每次最多匯出 10 列，全程在瀏覽器本機完成。",
-          "eyebrow": "檔案連結匯出為CSV",
+          "eyebrow": "檔案連結匯出為 CSV",
           "h1": "把選取的檔案連結整理成清單。",
-          "lead": "匯出可重用的所選檔案清單，包含URL、檔名、標題、類型與可取得的中繼資料。將CSV匯入Excel後篩選、核對並分享文件清單，同時與文件本身的內容區分。",
+          "lead": "匯出可重用的所選檔案清單，包含 URL、檔名、標題、類型與可取得的中繼資料。將 CSV 匯入 Excel 後篩選、核對並分享文件清單，同時與文件本身的內容區分。",
           "best": [
             "管理所選文件集的檔案清單。",
-            "在Excel中核對來源URL，或比較檔名與可取得的中繼資料。",
+            "在 Excel 中核對來源 URL，或比較檔名與可取得的中繼資料。",
             "在任何人下載之前，把核對過的檔案清單交給同事。"
           ],
           "steps": [
-            "開啟列出檔案的頁面，點擊Grab All Files圖示後點擊「掃描」。若要包含起始頁面資料夾內連結到的頁面，請提高「深度」。",
+            "開啟列出檔案的頁面，點擊 Grab All Files 圖示後點擊「掃描」。若要包含起始頁面資料夾內連結到的頁面，請提高「深度」。",
             "篩選出需要的檔案類型，勾選要放入清單的列（免費版每次匯出最多 10 列）。",
             "開啟「其他操作」，點擊「匯出檔案資訊CSV」。列數較多時，勾選接下來的列再匯出一次。",
-            "在Excel中使用「資料」→「從文字/CSV」，選擇UTF-8，並將URL和編號欄設為文字。將各列與所選檔案核對。"
+            "在 Excel 中使用「資料」→「從文字/CSV」，選擇 UTF-8，並將 URL 和編號欄設為文字。將各列與所選檔案核對。"
           ],
           "faq": [
             {
               "q": "這與匯出網頁表格是同一功能嗎？",
-              "a": "不是。此CSV是檔案清單。要把頁面中的HTML表格轉成CSV，請使用「將網頁合併為 HTML」的AI分析資料，支援的表格會儲存為CSV檔案。"
+              "a": "不是。此 CSV 是檔案清單。要把頁面中的 HTML 表格轉成 CSV，請使用「將網頁合併為 HTML」的 AI 分析資料，支援的表格會儲存為 CSV 檔案。"
             },
             {
               "q": "會匯出哪些欄位？",
-              "a": "固定欄位名稱為URL、Filename、Title、Type、Confidence、Evidence、Size、Size (bytes)、Modified和Source page。未知的大小、日期或來源資訊可能為空。"
+              "a": "固定欄位名稱為 URL、Filename、Title、Type、Confidence、Evidence、Size、Size (bytes)、Modified 和 Source page。未知的大小、日期或來源資訊可能為空。"
             },
             {
               "q": "會包含網站的每個檔案嗎？",
-              "a": "不會。只匯出您選取的已偵測列：免費版每次最多 10 列，Pro沒有上限。請檢查涵蓋範圍，必要時換一個頁面或深度再掃描。"
+              "a": "不會。只匯出您選取的已偵測列：免費版每次最多 10 列，Pro 沒有上限。請檢查涵蓋範圍，必要時換一個頁面或深度再掃描。"
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "可以。免費版每次CSV最多匯出 10 個選取列，每次下載最多儲存 10 個檔案。清單較長時，勾選接下來的列並再次點擊「匯出檔案資訊CSV」即可，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次操作的上限。"
+              "a": "可以。免費版每次 CSV 最多匯出 10 個選取列，每次下載最多儲存 10 個檔案。清單較長時，勾選接下來的列並再次點擊「匯出檔案資訊CSV」即可，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次操作的上限。"
             },
             {
               "q": "檔案清單會被上傳到哪裡嗎？",
-              "a": "不會。CSV在瀏覽器中產生並直接儲存到您的裝置，清單不會傳送到Grab All Files的伺服器。"
+              "a": "不會。CSV 在瀏覽器中產生並直接儲存到您的裝置，清單不會傳送到 Grab All Files 的伺服器。"
             }
           ],
           "industry": {
@@ -39379,8 +39379,8 @@
             "title": "檔案連結匯出為CSV",
             "stages": [
               "選取檔案列",
-              "匯出檔案資訊CSV",
-              "手動匯入Excel"
+              "匯出檔案資訊 CSV",
+              "手動匯入 Excel"
             ],
             "files": [
               "catalog.pdf",
@@ -39393,7 +39393,7 @@
             ],
             "output": "範例資料集",
             "example": "流程範例 · 虛構範例資料",
-            "note": "名稱和分組為手動整理範例。擴充功能的資料夾分類僅依格式或來源網域。 圖中CSV為 4 欄節錄，實際固定 10 欄在FAQ中說明。",
+            "note": "名稱和分組為手動整理範例。擴充功能的資料夾分類僅依格式或來源網域。 圖中 CSV 為 4 欄節錄，實際固定 10 欄在 FAQ 中說明。",
             "referenceTitle": "公開資料分發結構範例",
             "referenceNote": "僅用於參考資料公開方式，不表示合作或相容性測試。",
             "referenceLabel": "",
@@ -39933,23 +39933,23 @@
         "zh_CN": {
           "title": "下载SDS安全技术说明书与技术资料 | Grab All Files",
           "desc": "按产品保存SDS、TDS及技术PDF，名称中注明语言和修订日期，并保留来源URL。免费版每次下载最多 10 个文件。",
-          "eyebrow": "SDS与技术资料",
-          "h1": "按产品整理SDS与技术文件。",
-          "lead": "选择供应商提供的准确产品资料，区分SDS、TDS与相关技术PDF。建立产品参考资料集之前，先在原始文档中核对产品名、语言及修订信息。",
+          "eyebrow": "SDS 与技术资料",
+          "h1": "按产品整理 SDS 与技术文件。",
+          "lead": "选择供应商提供的准确产品资料，区分 SDS、TDS 与相关技术 PDF。建立产品参考资料集之前，先在原始文档中核对产品名、语言及修订信息。",
           "best": [
-            "管理所选产品的SDS与技术参考文件。",
+            "管理所选产品的 SDS 与技术参考文件。",
             "区分语言和修订版本，便于日后检查。"
           ],
           "steps": [
-            "打开供应商的文档搜索或产品页面，将范围缩小到准确产品。寻找其SDS与技术文档，避免混入无关产品系列。",
-            "打开Grab All Files并扫描产品页面或搜索结果页面。按PDF筛选，核对标题和来源链接，只勾选该产品、该语言的SDS和TDS。",
+            "打开供应商的文档搜索或产品页面，将范围缩小到准确产品。寻找其 SDS 与技术文档，避免混入无关产品系列。",
+            "打开 Grab All Files 并扫描产品页面或搜索结果页面。按 PDF 筛选，核对标题和来源链接，只勾选该产品、该语言的 SDS 和 TDS。",
             "核对产品名、文档类型、语言和修订日期。检查或编辑标题，按产品分批处理，并保留原文件和来源链接。",
-            "双击各标题加上产品名、语言和修订日期，在“详细设置”的“保存名称”中选择“标题”，再按产品逐个下载或保存为ZIP（免费版每次下载最多 10 个）。“导出文件信息CSV”可记录来源URL。",
+            "双击各标题加上产品名、语言和修订日期，在“详细设置”的“保存名称”中选择“标题”，再按产品逐个下载或保存为 ZIP（免费版每次下载最多 10 个）。“导出文件信息CSV”可记录来源 URL。",
             "打开已保存文档，与供应商当前来源确认产品和版本相符。此流程整理参考资料，不判断安全使用方式、危险性分类或法规符合性。"
           ],
           "faq": [
             {
-              "q": "会替我选择正确的SDS吗？",
+              "q": "会替我选择正确的 SDS 吗？",
               "a": "不会。您需在供应商来源及原始文档中核对产品、地区、语言与版本。产品名相似并不足以确认匹配。"
             },
             {
@@ -39957,15 +39957,15 @@
               "a": "不能。扩展检测并保存文件，不解释危险性，也不判断产品或操作流程是否符合要求。"
             },
             {
-              "q": "SDS和TDS总是有所有语言版本吗？",
+              "q": "SDS 和 TDS 总是有所有语言版本吗？",
               "a": "是否提供取决于供应商与产品。请核对公开的选项，并在自己的文件名或笔记中保留语言和修订标识。"
             },
             {
               "q": "可以免费使用吗？",
-              "a": "可以。免费版的下载、ZIP和文件信息CSV每次操作最多处理 10 个选中的文件。要继续，请选择接下来的文件并再次点击按钮即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的上限。"
+              "a": "可以。免费版的下载、ZIP 和文件信息 CSV 每次操作最多处理 10 个选中的文件。要继续，请选择接下来的文件并再次点击按钮即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的上限。"
             },
             {
-              "q": "供应商的SDS检索要搜索后才显示结果，该怎么扫描？",
+              "q": "供应商的 SDS 检索要搜索后才显示结果，该怎么扫描？",
               "a": "先在供应商网站上搜索，让结果显示在页面上，再扫描该搜索结果页面。Pro 在扫描时会自动把页面滚动到底，并继续读取同一列表的后续页面（每次扫描最多 100 页）。免费版只读取屏幕上已显示的内容，请先自己滚动到底（或打开下一页），再重新扫描。切换语言或地区通常会改变列出的文件，请按语言分别扫描。"
             }
           ],
@@ -39998,23 +39998,23 @@
         "zh_TW": {
           "title": "下載SDS安全資料表與技術資料 | Grab All Files",
           "desc": "依產品儲存SDS、TDS及技術PDF，名稱中註明語言和修訂日期，並保留來源URL。免費版每次最多下載 10 個檔案，所有處理都在瀏覽器內進行。",
-          "eyebrow": "SDS與技術資料",
-          "h1": "依產品整理SDS與技術檔案。",
-          "lead": "選擇供應商提供的確切產品資料，區分SDS、TDS與相關技術PDF。建立產品參考資料集之前，先在原始文件中核對產品名、語言與修訂資訊。",
+          "eyebrow": "SDS 與技術資料",
+          "h1": "依產品整理 SDS 與技術檔案。",
+          "lead": "選擇供應商提供的確切產品資料，區分 SDS、TDS 與相關技術 PDF。建立產品參考資料集之前，先在原始文件中核對產品名、語言與修訂資訊。",
           "best": [
-            "管理所選產品的SDS與技術參考檔案。",
+            "管理所選產品的 SDS 與技術參考檔案。",
             "區分語言與修訂版本，便於日後檢查。"
           ],
           "steps": [
-            "開啟供應商的文件搜尋或產品頁面，將範圍縮小到確切產品。尋找其SDS與技術文件，避免混入無關產品系列。",
-            "開啟Grab All Files並掃描產品頁面或搜尋結果頁面。依PDF篩選，核對標題和來源連結，只勾選該產品、該語言的SDS和TDS。",
+            "開啟供應商的文件搜尋或產品頁面，將範圍縮小到確切產品。尋找其 SDS 與技術文件，避免混入無關產品系列。",
+            "開啟 Grab All Files 並掃描產品頁面或搜尋結果頁面。依 PDF 篩選，核對標題和來源連結，只勾選該產品、該語言的 SDS 和 TDS。",
             "核對產品名、文件類型、語言與修訂日期。檢查或編輯標題，依產品分批處理，並保留原檔案與來源連結。",
-            "雙擊各標題加上產品名、語言和修訂日期，在「詳細設定」的「儲存名稱」中選擇「標題」，再依產品逐一下載或儲存為ZIP（免費版每次下載最多 10 個）。「匯出檔案資訊CSV」可記錄來源URL。",
+            "雙擊各標題加上產品名、語言和修訂日期，在「詳細設定」的「儲存名稱」中選擇「標題」，再依產品逐一下載或儲存為 ZIP（免費版每次下載最多 10 個）。「匯出檔案資訊CSV」可記錄來源 URL。",
             "開啟已儲存文件，與供應商目前的來源確認產品和版本相符。此流程整理參考資料，不判斷安全使用方式、危害分類或法規符合性。"
           ],
           "faq": [
             {
-              "q": "會替我選擇正確的SDS嗎？",
+              "q": "會替我選擇正確的 SDS 嗎？",
               "a": "不會。您需在供應商來源及原始文件中核對產品、地區、語言與版本。產品名相似並不足以確認匹配。"
             },
             {
@@ -40022,15 +40022,15 @@
               "a": "不能。擴充功能偵測並儲存檔案，不解釋危害，也不判斷產品或操作程序是否符合要求。"
             },
             {
-              "q": "SDS和TDS總是有所有語言版本嗎？",
+              "q": "SDS 和 TDS 總是有所有語言版本嗎？",
               "a": "是否提供取決於供應商與產品。請核對公開的選項，並在自己的檔名或筆記中保留語言和修訂標示。"
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "可以。免費版的下載、ZIP和檔案資訊CSV每次最多處理 10 個選取的檔案，接下來的檔案再選取一次即可，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有這個上限。"
+              "a": "可以。免費版的下載、ZIP 和檔案資訊 CSV 每次最多處理 10 個選取的檔案，接下來的檔案再選取一次即可，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有這個上限。"
             },
             {
-              "q": "供應商的SDS查詢要搜尋後才顯示結果，該怎麼掃描？",
+              "q": "供應商的 SDS 查詢要搜尋後才顯示結果，該怎麼掃描？",
               "a": "先在供應商網站上搜尋，讓結果顯示在頁面上，再掃描該搜尋結果頁面。Pro 在掃描時會自動把頁面捲動到底，並繼續讀取同一清單的後續頁面（每次掃描最多 100 頁）。免費版只讀取畫面上已顯示的內容，請先自行捲動到底（或開啟下一頁），再重新掃描。切換語言或地區通常會改變列出的檔案，請依語言分別掃描。"
             }
           ],
@@ -40633,32 +40633,32 @@
         "zh_CN": {
           "title": "批量保存arXiv PDF与研究文件 | Grab All Files",
           "desc": "扫描arXiv搜索结果，筛选并选择所需论文PDF，按标题命名后保存为文件或ZIP，并用文件清单CSV记录来源URL。附实际扩展界面与流程图。",
-          "eyebrow": "arXiv PDF与研究文件",
-          "h1": "保存需要的arXiv论文。",
-          "lead": "先在arXiv搜索，再把正在查看的论文列表整理成阅读资料夹。Grab All Files检测该页面的PDF与受支持格式的公开文件链接。由您核对列表并选择要保存的资料。",
+          "eyebrow": "arXiv PDF 与研究文件",
+          "h1": "保存需要的 arXiv 论文。",
+          "lead": "先在 arXiv 搜索，再把正在查看的论文列表整理成阅读资料夹。Grab All Files 检测该页面的 PDF 与受支持格式的公开文件链接。由您核对列表并选择要保存的资料。",
           "best": [
             "从筛选后的搜索或类别列表建立阅读清单。",
-            "以易识别的标题保存选定PDF。",
-            "同时管理受支持的公开文件与记录URL的CSV。"
+            "以易识别的标题保存选定 PDF。",
+            "同时管理受支持的公开文件与记录 URL 的 CSV。"
           ],
           "steps": [
-            "在arXiv按关键词、类别和时间筛选，打开目标搜索结果或论文列表。",
-            "打开Grab All Files并扫描当前页面。在arXiv搜索结果中先选择每页显示 200 条，一次扫描即可覆盖整个列表。检查检测到的标题和来源URL；“获取所选PDF的标题”可从PDF本身读取标题。",
-            "按PDF筛选并选择需要的论文。免费版每次下载最多 10 个，继续时勾选接下来的 10 个并再次点击“保存所选文件”。其他公开文件链接请另行检查，只选择与研究相关的支持格式。",
-            "检查或编辑标题，选择保存名称与文件夹方式。单独保存或打包ZIP，并导出文件列表CSV记录URL。",
-            "打开已保存PDF核对结果。记录来源URL与论文版本；大规模论文集合使用arXiv官方批量访问服务。"
+            "在 arXiv 按关键词、类别和时间筛选，打开目标搜索结果或论文列表。",
+            "打开 Grab All Files 并扫描当前页面。在 arXiv 搜索结果中先选择每页显示 200 条，一次扫描即可覆盖整个列表。检查检测到的标题和来源 URL；“获取所选PDF的标题”可从 PDF 本身读取标题。",
+            "按 PDF 筛选并选择需要的论文。免费版每次下载最多 10 个，继续时勾选接下来的 10 个并再次点击“保存所选文件”。其他公开文件链接请另行检查，只选择与研究相关的支持格式。",
+            "检查或编辑标题，选择保存名称与文件夹方式。单独保存或打包 ZIP，并导出文件列表 CSV 记录 URL。",
+            "打开已保存 PDF 核对结果。记录来源 URL 与论文版本；大规模论文集合使用 arXiv 官方批量访问服务。"
           ],
           "faq": [
             {
-              "q": "扩展会在整个arXiv按主题搜索吗？",
-              "a": "不会。搜索与筛选在arXiv完成。扩展扫描选定页面，不是学术搜索引擎或arXiv全站下载器。"
+              "q": "扩展会在整个 arXiv 按主题搜索吗？",
+              "a": "不会。搜索与筛选在 arXiv 完成。扩展扫描选定页面，不是学术搜索引擎或 arXiv 全站下载器。"
             },
             {
-              "q": "没有.pdf后缀的链接能识别吗？",
-              "a": "/pdf/论文ID等arXiv PDF URL也可识别为PDF。保存前请核对检测类型与URL。"
+              "q": "没有.pdf 后缀的链接能识别吗？",
+              "a": "/pdf/论文 ID 等 arXiv PDF URL 也可识别为 PDF。保存前请核对检测类型与 URL。"
             },
             {
-              "q": "也能保存TeX、数据和代码吗？",
+              "q": "也能保存 TeX、数据和代码吗？",
               "a": "仅能选择发现的公开链接与受支持格式。并非每篇论文都提供这些文件，外部仓库可能需要另行访问。"
             },
             {
@@ -40666,20 +40666,20 @@
               "a": "可以。免费版每次下载最多保存 10 个选中的文件；要继续，请选择接下来的论文并再次点击“保存所选文件”即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次下载的上限。"
             },
             {
-              "q": "标题、ZIP与CSV有什么帮助？",
-              "a": "保存前检查或编辑标题。自动命名无有效标题时使用原名。按格式与按来源域名分类是不同选项。ZIP打包选定文件，CSV记录文件信息与URL。"
+              "q": "标题、ZIP 与 CSV 有什么帮助？",
+              "a": "保存前检查或编辑标题。自动命名无有效标题时使用原名。按格式与按来源域名分类是不同选项。ZIP 打包选定文件，CSV 记录文件信息与 URL。"
             },
             {
-              "q": "这是arXiv官方工具吗？",
-              "a": "不是。Grab All Files为独立工具，与arXiv无合作关系。请遵守访问指南与各论文使用条件。元数据使用官方API，大规模PDF或正文集合使用官方批量访问途径。"
+              "q": "这是 arXiv 官方工具吗？",
+              "a": "不是。Grab All Files 为独立工具，与 arXiv 无合作关系。请遵守访问指南与各论文使用条件。元数据使用官方 API，大规模 PDF 或正文集合使用官方批量访问途径。"
             }
           ],
           "arxiv": {
-            "searchLabel": "在arXiv搜索",
+            "searchLabel": "在 arXiv 搜索",
             "visualTitle": "从筛选列表到阅读资料夹",
             "stages": [
               "打开论文列表",
-              "核对并选择PDF",
+              "核对并选择 PDF",
               "保存研究资料夹"
             ],
             "sample": [
@@ -40687,48 +40687,48 @@
               "方法比较",
               "研究论文"
             ],
-            "visualNote": "使用虚构标题的流程示例。先在arXiv查找，再选择并保存所需文件。",
-            "screenTitle": "arXiv上的实际扩展界面",
-            "screenAlt": "Grab All Files检测arXiv公开论文链接，并显示PDF筛选与文件选择",
+            "visualNote": "使用虚构标题的流程示例。先在 arXiv 查找，再选择并保存所需文件。",
+            "screenTitle": "arXiv 上的实际扩展界面",
+            "screenAlt": "Grab All Files 检测 arXiv 公开论文链接，并显示 PDF 筛选与文件选择",
             "screenCaption": "使用已获取公开论文页面的隔离验证环境中的实际扩展界面。示例展示标题核对与编辑，界面为英文。",
-            "officialTitle": "选择合适的arXiv访问途径",
-            "officialText": "阅读资料从筛选后的列表选择。大规模集合使用官方批量访问；API提供元数据。自动收集前请阅读访问指南。",
+            "officialTitle": "选择合适的 arXiv 访问途径",
+            "officialText": "阅读资料从筛选后的列表选择。大规模集合使用官方批量访问；API 提供元数据。自动收集前请阅读访问指南。",
             "officialLabels": [
-              "arXiv访问指南",
+              "arXiv 访问指南",
               "官方批量数据访问",
-              "arXiv元数据API"
+              "arXiv 元数据 API"
             ]
           }
         },
         "zh_TW": {
           "title": "批次儲存arXiv PDF與研究檔案 | Grab All Files",
           "desc": "掃描arXiv搜尋結果，篩選並選取所需論文PDF，依標題命名後儲存為檔案或ZIP，並用檔案清單CSV記錄來源URL。附實際擴充畫面與流程圖。",
-          "eyebrow": "arXiv PDF與研究檔案",
-          "h1": "儲存需要的arXiv論文。",
-          "lead": "先在arXiv搜尋，再把正在查看的論文清單整理成閱讀資料夾。Grab All Files偵測該頁面的PDF與支援格式的公開檔案連結。由您核對清單並選取要儲存的資料。",
+          "eyebrow": "arXiv PDF 與研究檔案",
+          "h1": "儲存需要的 arXiv 論文。",
+          "lead": "先在 arXiv 搜尋，再把正在查看的論文清單整理成閱讀資料夾。Grab All Files 偵測該頁面的 PDF 與支援格式的公開檔案連結。由您核對清單並選取要儲存的資料。",
           "best": [
             "從篩選後的搜尋或類別清單建立閱讀清單。",
-            "以易辨識的標題儲存選定PDF。",
-            "同時管理支援的公開檔案與記錄URL的CSV。"
+            "以易辨識的標題儲存選定 PDF。",
+            "同時管理支援的公開檔案與記錄 URL 的 CSV。"
           ],
           "steps": [
-            "在arXiv依關鍵字、類別和期間篩選，開啟目標搜尋結果或論文清單。",
-            "開啟Grab All Files並掃描目前頁面。在arXiv搜尋結果中先選擇每頁顯示 200 筆，一次掃描即可涵蓋整個清單。檢查偵測到的標題和來源URL；「取得所選PDF的標題」可從PDF本身讀取標題。",
-            "依PDF篩選並選擇需要的論文。免費版每次下載最多 10 個，繼續時勾選接下來的 10 個並再次點擊「儲存所選檔案」。其他公開檔案連結請另行檢查，只選擇與研究相關的支援格式。",
-            "檢查或編輯標題，選擇儲存名稱與資料夾方式。個別儲存或打包ZIP，並匯出檔案清單CSV記錄URL。",
-            "開啟已儲存PDF核對結果。記錄來源URL與論文版本；大規模論文集合使用arXiv官方批次存取服務。"
+            "在 arXiv 依關鍵字、類別和期間篩選，開啟目標搜尋結果或論文清單。",
+            "開啟 Grab All Files 並掃描目前頁面。在 arXiv 搜尋結果中先選擇每頁顯示 200 筆，一次掃描即可涵蓋整個清單。檢查偵測到的標題和來源 URL；「取得所選PDF的標題」可從 PDF 本身讀取標題。",
+            "依 PDF 篩選並選擇需要的論文。免費版每次下載最多 10 個，繼續時勾選接下來的 10 個並再次點擊「儲存所選檔案」。其他公開檔案連結請另行檢查，只選擇與研究相關的支援格式。",
+            "檢查或編輯標題，選擇儲存名稱與資料夾方式。個別儲存或打包 ZIP，並匯出檔案清單 CSV 記錄 URL。",
+            "開啟已儲存 PDF 核對結果。記錄來源 URL 與論文版本；大規模論文集合使用 arXiv 官方批次存取服務。"
           ],
           "faq": [
             {
-              "q": "擴充功能會在整個arXiv依主題搜尋嗎？",
-              "a": "不會。搜尋與篩選在arXiv完成。擴充功能掃描選定頁面，不是學術搜尋引擎或arXiv全站下載器。"
+              "q": "擴充功能會在整個 arXiv 依主題搜尋嗎？",
+              "a": "不會。搜尋與篩選在 arXiv 完成。擴充功能掃描選定頁面，不是學術搜尋引擎或 arXiv 全站下載器。"
             },
             {
-              "q": "沒有.pdf副檔名的連結能辨識嗎？",
-              "a": "/pdf/論文ID等arXiv PDF URL也可辨識為PDF。儲存前請核對偵測類型與URL。"
+              "q": "沒有.pdf 副檔名的連結能辨識嗎？",
+              "a": "/pdf/論文 ID 等 arXiv PDF URL 也可辨識為 PDF。儲存前請核對偵測類型與 URL。"
             },
             {
-              "q": "也能儲存TeX、資料和程式碼嗎？",
+              "q": "也能儲存 TeX、資料和程式碼嗎？",
               "a": "只能選取找到的公開連結與支援格式。並非每篇論文都提供這些檔案，外部儲存庫可能需另外造訪。"
             },
             {
@@ -40736,20 +40736,20 @@
               "a": "可以。免費版每次下載最多儲存 10 個選取的檔案；若要繼續，請選取接下來的論文並再次點擊「儲存所選檔案」，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次下載的上限。"
             },
             {
-              "q": "標題、ZIP與CSV有什麼幫助？",
-              "a": "儲存前檢查或編輯標題。自動命名無有效標題時使用原名。依格式與依來源網域分類是不同選項。ZIP打包選定檔案，CSV記錄檔案資訊與URL。"
+              "q": "標題、ZIP 與 CSV 有什麼幫助？",
+              "a": "儲存前檢查或編輯標題。自動命名無有效標題時使用原名。依格式與依來源網域分類是不同選項。ZIP 打包選定檔案，CSV 記錄檔案資訊與 URL。"
             },
             {
-              "q": "這是arXiv官方工具嗎？",
-              "a": "不是。Grab All Files為獨立工具，與arXiv無合作關係。請遵守存取指南與各論文使用條件。中繼資料使用官方API，大規模PDF或正文集合使用官方批次存取途徑。"
+              "q": "這是 arXiv 官方工具嗎？",
+              "a": "不是。Grab All Files 為獨立工具，與 arXiv 無合作關係。請遵守存取指南與各論文使用條件。中繼資料使用官方 API，大規模 PDF 或正文集合使用官方批次存取途徑。"
             }
           ],
           "arxiv": {
-            "searchLabel": "在arXiv搜尋",
+            "searchLabel": "在 arXiv 搜尋",
             "visualTitle": "從篩選清單到閱讀資料夾",
             "stages": [
               "開啟論文清單",
-              "核對並選取PDF",
+              "核對並選取 PDF",
               "儲存研究資料夾"
             ],
             "sample": [
@@ -40757,16 +40757,16 @@
               "方法比較",
               "研究論文"
             ],
-            "visualNote": "使用虛構標題的流程範例。先在arXiv尋找，再選取並儲存所需檔案。",
-            "screenTitle": "arXiv上的實際擴充畫面",
-            "screenAlt": "Grab All Files偵測arXiv公開論文連結，並顯示PDF篩選與檔案選取",
+            "visualNote": "使用虛構標題的流程範例。先在 arXiv 尋找，再選取並儲存所需檔案。",
+            "screenTitle": "arXiv 上的實際擴充畫面",
+            "screenAlt": "Grab All Files 偵測 arXiv 公開論文連結，並顯示 PDF 篩選與檔案選取",
             "screenCaption": "使用已取得公開論文頁面的隔離驗證環境中的實際擴充畫面。範例展示標題核對與編輯，介面為英文。",
-            "officialTitle": "選擇合適的arXiv存取途徑",
-            "officialText": "閱讀資料從篩選後的清單選擇。大規模集合使用官方批次存取；API提供中繼資料。自動收集前請閱讀存取指南。",
+            "officialTitle": "選擇合適的 arXiv 存取途徑",
+            "officialText": "閱讀資料從篩選後的清單選擇。大規模集合使用官方批次存取；API 提供中繼資料。自動收集前請閱讀存取指南。",
             "officialLabels": [
-              "arXiv存取指南",
+              "arXiv 存取指南",
               "官方批次資料存取",
-              "arXiv中繼資料API"
+              "arXiv 中繼資料 API"
             ]
           }
         }
@@ -41469,35 +41469,35 @@
         },
         "zh_CN": {
           "title": "网页表格保存为CSV供Excel与AI分析 | Grab All Files",
-          "h1": "将网页表格用于Excel或AI。",
+          "h1": "将网页表格用于 Excel 或 AI。",
           "desc": "将网页中支持的HTML表格导出为CSV或JSON，核对列名、单位和注释后导入Excel，或手动交给外部AI进行比较与分析。",
-          "lead": "将需要的网页表格整理为可排序、筛选与比较的数据。通过页面收集器的AI输出准备表格文件，选择在Excel或外部AI中使用。请确认使用的页面和资料。",
+          "lead": "将需要的网页表格整理为可排序、筛选与比较的数据。通过页面收集器的 AI 输出准备表格文件，选择在 Excel 或外部 AI 中使用。请确认使用的页面和资料。",
           "best": [
             "保留单位与注释，比较公开费用或条件表。",
-            "在Excel中筛选公开列表并检查条目。"
+            "在 Excel 中筛选公开列表并检查条目。"
           ],
           "steps": [
             "打开允许保存的来源，在扩展中选择“将网页合并为 HTML”。选择含表格的页面。",
             "收集前启用“AI分析数据（带出处的Markdown）”，选择“按页Markdown”或“完整包”并启用“同时将表格导出为CSV/JSON”。",
-            "收集页面后点击“保存AI分析ZIP”。将CSV、JSON表格文件的列名、单元格、单位与注释同原表核对。",
-            "将CSV导入Excel，或手动将支持的文件交给外部AI。检查日期、标识编号与分析结果。"
+            "收集页面后点击“保存AI分析ZIP”。将 CSV、JSON 表格文件的列名、单元格、单位与注释同原表核对。",
+            "将 CSV 导入 Excel，或手动将支持的文件交给外部 AI。检查日期、标识编号与分析结果。"
           ],
           "faq": [
             {
-              "q": "这是文件列表CSV吗？",
-              "a": "不是。文件列表CSV记录文件URL和信息，此流程通过收集器的AI输出提取HTML表格数据。"
+              "q": "这是文件列表 CSV 吗？",
+              "a": "不是。文件列表 CSV 记录文件 URL 和信息，此流程通过收集器的 AI 输出提取 HTML 表格数据。"
             },
             {
-              "q": "任何表格都能变成CSV吗？",
-              "a": "选择按页面或完整包并启用表格导出后，在支持范围内提取有意义的HTML表格。布局表格被排除，不保证图片或PDF画面中的表格能转为数据。"
+              "q": "任何表格都能变成 CSV 吗？",
+              "a": "选择按页面或完整包并启用表格导出后，在支持范围内提取有意义的 HTML 表格。布局表格被排除，不保证图片或 PDF 画面中的表格能转为数据。"
             },
             {
-              "q": "能直接输出XLSX吗？",
-              "a": "此流程生成CSV、JSON。由您在Excel中打开或导入CSV，并非直接导出XLSX。"
+              "q": "能直接输出 XLSX 吗？",
+              "a": "此流程生成 CSV、JSON。由您在 Excel 中打开或导入 CSV，并非直接导出 XLSX。"
             },
             {
               "q": "可以从免费版开始吗？",
-              "a": "免费版收集所选 1 页，Pro可选择多个页面正文。文件在设备上准备，由您交给Excel或外部AI。"
+              "a": "免费版收集所选 1 页，Pro 可选择多个页面正文。文件在设备上准备，由您交给 Excel 或外部 AI。"
             },
             {
               "q": "需要登录的页面怎么办？",
@@ -41505,18 +41505,18 @@
             },
             {
               "q": "表格要滚动或点击“显示更多”后才出现，怎么办？",
-              "a": "请打开“页面缺少文字时：内容和 JavaScript 设置”，开启“点击‘显示更多’以包含后续内容”，然后重新收集。以图片形式绘制的表格或PDF中的表格不会导出为CSV。"
+              "a": "请打开“页面缺少文字时：内容和 JavaScript 设置”，开启“点击‘显示更多’以包含后续内容”，然后重新收集。以图片形式绘制的表格或 PDF 中的表格不会导出为 CSV。"
             }
           ],
           "guide": {
             "title": "按用途选择表格的使用方式",
             "modes": [
               [
-                "在Excel中处理",
-                "导入CSV后确认数据类型，再筛选、排序。需要时将标识编号作为文本保留。"
+                "在 Excel 中处理",
+                "导入 CSV 后确认数据类型，再筛选、排序。需要时将标识编号作为文本保留。"
               ],
               [
-                "使用外部AI比较",
+                "使用外部 AI 比较",
                 "选择相关表格和来源资料，请求比较或摘要，并将回答与原表核对。"
               ]
             ],
@@ -41543,7 +41543,7 @@
               ],
               [
                 "Markdown / JSONL / manifest",
-                "利用AI输出的来源URL与采集时间核对出处。"
+                "利用 AI 输出的来源 URL 与采集时间核对出处。"
               ],
               [
                 "HTML",
@@ -41551,39 +41551,39 @@
               ]
             ]
           },
-          "eyebrow": "网页表格转CSV"
+          "eyebrow": "网页表格转 CSV"
         },
         "zh_TW": {
           "title": "網頁表格儲存為CSV供Excel與AI分析 | Grab All Files",
-          "h1": "將網頁表格用於Excel或AI。",
+          "h1": "將網頁表格用於 Excel 或 AI。",
           "desc": "將網頁中支援的HTML表格匯出為CSV或JSON，核對欄名、單位和註記後匯入Excel，或手動交給外部AI進行比較與分析。全程在瀏覽器中完成。",
-          "lead": "將需要的網頁表格整理為可排序、篩選與比較的資料。透過頁面收集器的AI輸出準備表格檔案，選擇在Excel或外部AI中使用。請確認使用的頁面及資料。",
+          "lead": "將需要的網頁表格整理為可排序、篩選與比較的資料。透過頁面收集器的 AI 輸出準備表格檔案，選擇在 Excel 或外部 AI 中使用。請確認使用的頁面及資料。",
           "best": [
             "保留單位與註記，比較公開費用或條件表。",
-            "在Excel中篩選公開清單並檢查項目。"
+            "在 Excel 中篩選公開清單並檢查項目。"
           ],
           "steps": [
             "開啟允許儲存的來源，在擴充功能中選擇「將網頁合併為 HTML」。選擇含表格的頁面。",
             "收集前啟用「AI分析資料（附出處的Markdown）」，選擇「逐頁Markdown」或「完整套件」並啟用「同時將表格匯出為CSV/JSON」。",
-            "收集頁面後點擊「儲存AI分析ZIP」。將CSV、JSON表格檔案的欄名、儲存格、單位與註記和原表核對。",
-            "將CSV匯入Excel，或手動將支援檔案交給外部AI。檢查日期、識別編號與分析結果。"
+            "收集頁面後點擊「儲存AI分析ZIP」。將 CSV、JSON 表格檔案的欄名、儲存格、單位與註記和原表核對。",
+            "將 CSV 匯入 Excel，或手動將支援檔案交給外部 AI。檢查日期、識別編號與分析結果。"
           ],
           "faq": [
             {
-              "q": "這是檔案清單CSV嗎？",
-              "a": "不是。檔案清單CSV記錄檔案URL與資訊，此流程透過收集器的AI輸出擷取HTML表格資料。"
+              "q": "這是檔案清單 CSV 嗎？",
+              "a": "不是。檔案清單 CSV 記錄檔案 URL 與資訊，此流程透過收集器的 AI 輸出擷取 HTML 表格資料。"
             },
             {
-              "q": "任何表格都能變成CSV嗎？",
-              "a": "選擇按頁面或完整套件並啟用表格匯出後，在支援範圍內擷取有意義的HTML表格。排版表格會被排除，不保證圖片或PDF畫面中的表格能轉為資料。"
+              "q": "任何表格都能變成 CSV 嗎？",
+              "a": "選擇按頁面或完整套件並啟用表格匯出後，在支援範圍內擷取有意義的 HTML 表格。排版表格會被排除，不保證圖片或 PDF 畫面中的表格能轉為資料。"
             },
             {
-              "q": "能直接輸出XLSX嗎？",
-              "a": "此流程產生CSV、JSON。由您在Excel中開啟或匯入CSV，並非直接匯出XLSX。"
+              "q": "能直接輸出 XLSX 嗎？",
+              "a": "此流程產生 CSV、JSON。由您在 Excel 中開啟或匯入 CSV，並非直接匯出 XLSX。"
             },
             {
               "q": "可以從免費版開始嗎？",
-              "a": "免費版收集所選 1 頁，Pro可選擇多個頁面正文。檔案在裝置上準備，由您交給Excel或外部AI。"
+              "a": "免費版收集所選 1 頁，Pro 可選擇多個頁面正文。檔案在裝置上準備，由您交給 Excel 或外部 AI。"
             },
             {
               "q": "需要登入的頁面怎麼辦？",
@@ -41591,18 +41591,18 @@
             },
             {
               "q": "表格要捲動或點選「顯示更多」後才出現，怎麼辦？",
-              "a": "請開啟「頁面缺少文字時：內容和 JavaScript 設定」，開啟「點選『顯示更多』以包含後續內容」，然後重新收集。以圖片形式繪製的表格或PDF中的表格不會匯出為CSV。"
+              "a": "請開啟「頁面缺少文字時：內容和 JavaScript 設定」，開啟「點選『顯示更多』以包含後續內容」，然後重新收集。以圖片形式繪製的表格或 PDF 中的表格不會匯出為 CSV。"
             }
           ],
           "guide": {
             "title": "依用途選擇表格的使用方式",
             "modes": [
               [
-                "在Excel中處理",
-                "匯入CSV後確認資料類型，再篩選、排序。需要時將識別編號保留為文字。"
+                "在 Excel 中處理",
+                "匯入 CSV 後確認資料類型，再篩選、排序。需要時將識別編號保留為文字。"
               ],
               [
-                "使用外部AI比較",
+                "使用外部 AI 比較",
                 "選擇相關表格與來源資料，請求比較或摘要，並將回答和原表核對。"
               ]
             ],
@@ -41629,7 +41629,7 @@
               ],
               [
                 "Markdown / JSONL / manifest",
-                "利用AI輸出的來源URL與擷取時間核對出處。"
+                "利用 AI 輸出的來源 URL 與擷取時間核對出處。"
               ],
               [
                 "HTML",
@@ -41637,7 +41637,7 @@
               ]
             ]
           },
-          "eyebrow": "網頁表格轉CSV"
+          "eyebrow": "網頁表格轉 CSV"
         }
       }
     },
@@ -42308,7 +42308,7 @@
           "title": "保存修订前后的网页资料并比较 | Grab All Files",
           "h1": "保留前后资料，方便核对变化。",
           "desc": "分别保存修订前后的资料，用与上次收集比较的变更报告找出变化的页面，再对照原文或借助外部比较工具、AI核对步骤、条件与例外的变化。",
-          "lead": "保留确认时的资料，便于解释哪些文字发生变化。先用前次收集变化报告找到相关页面，再阅读前后原文，或将资料交给外部比较工具、AI比较内容。",
+          "lead": "保留确认时的资料，便于解释哪些文字发生变化。先用前次收集变化报告找到相关页面，再阅读前后原文，或将资料交给外部比较工具、AI 比较内容。",
           "best": [
             "将修订后的步骤、要求或公开说明与保存副本核对。",
             "记录标明的版本和来源，便于以后说明更新。"
@@ -42317,12 +42317,12 @@
             "打开允许保存的来源，在扩展中选择“将网页合并为 HTML”。选择页面并自行记录资料标明的版本。",
             "以“修订前”等清晰名称保存。之后手动重新收集同一网站的可比较范围，另存“修订后”。",
             "后一次收集完成后，点击“保存与上次收集的变更报告”。将新增、更新、移除或无法获取的条目同收集结果核对。",
-            "并排阅读原文，或手动将支持的文件交给外部AI、比较工具。判断为变化的内容须在两份原文中确认。"
+            "并排阅读原文，或手动将支持的文件交给外部 AI、比较工具。判断为变化的内容须在两份原文中确认。"
           ],
           "faq": [
             {
               "q": "内置变化报告比较什么？",
-              "a": "它使用本扩展在同一网站本次之前最近完成的收集，通过URL、标题和正文汇总变化，不是逐行比较或官方修订判断。任意已保存PDF或其他前后文件的内容，请交给外部工具比较。"
+              "a": "它使用本扩展在同一网站本次之前最近完成的收集，通过 URL、标题和正文汇总变化，不是逐行比较或官方修订判断。任意已保存 PDF 或其他前后文件的内容，请交给外部工具比较。"
             },
             {
               "q": "移除表示原网站删除页面吗？",
@@ -42334,7 +42334,7 @@
             },
             {
               "q": "如何记录版本？免费版能做到哪些？",
-              "a": "资料标示的版本请自行写在标题或备注中；AI输出中的来源URL和采集时间有助于核对。免费版每次保存 1 个选定页面，因此请逐页比较关键页面；Pro可收集选中的多个页面，适合比较整个章节。"
+              "a": "资料标示的版本请自行写在标题或备注中；AI 输出中的来源 URL 和采集时间有助于核对。免费版每次保存 1 个选定页面，因此请逐页比较关键页面；Pro 可收集选中的多个页面，适合比较整个章节。"
             },
             {
               "q": "需要登录的页面怎么办？",
@@ -42361,7 +42361,7 @@
             "examples": [
               [
                 "核对步骤修订",
-                "请仅比较提供的修订前后资料，列出变化的步骤、要求与例外，附原文和来源URL。不确定的比较请明确标出，不要推测修订。"
+                "请仅比较提供的修订前后资料，列出变化的步骤、要求与例外，附原文和来源 URL。不确定的比较请明确标出，不要推测修订。"
               ]
             ],
             "formatsTitle": "准备清晰的前后资料集",
@@ -42371,16 +42371,16 @@
             ],
             "rows": [
               [
-                "前后HTML",
+                "前后 HTML",
                 "分别保存并阅读正文及上下文。"
               ],
               [
-                "前次变化Markdown报告",
+                "前次变化 Markdown 报告",
                 "汇总同一网站前次已完成收集以来的变化。"
               ],
               [
-                "备注 / AI输出",
-                "手动记录版本，利用AI来源URL和采集时间核对。"
+                "备注 / AI 输出",
+                "手动记录版本，利用 AI 来源 URL 和采集时间核对。"
               ]
             ]
           },
@@ -42390,7 +42390,7 @@
           "title": "儲存修訂前後的網頁資料並比較 | Grab All Files",
           "h1": "保留前後資料，方便核對變化。",
           "desc": "分別儲存修訂前後的資料，用與上次收集比較的變更報告找出變化的頁面，再對照原文或借助外部比較工具、AI核對步驟、條件及例外的變化。",
-          "lead": "保留確認時的資料，便於解釋哪些文字發生變化。先用前次收集變化報告找到相關頁面，再閱讀前後原文，或將資料交給外部比較工具、AI比較內容。",
+          "lead": "保留確認時的資料，便於解釋哪些文字發生變化。先用前次收集變化報告找到相關頁面，再閱讀前後原文，或將資料交給外部比較工具、AI 比較內容。",
           "best": [
             "將修訂後的步驟、要求或公開說明與儲存副本核對。",
             "記錄標明的版本及來源，便於日後說明更新。"
@@ -42399,12 +42399,12 @@
             "開啟允許儲存的來源，在擴充功能中選擇「將網頁合併為 HTML」。選擇頁面並自行記錄資料標明的版本。",
             "以「修訂前」等清楚名稱儲存。之後手動重新收集同一網站的可比較範圍，另存「修訂後」。",
             "後一次收集完成後，點擊「儲存與上次收集的變更報告」。將新增、更新、移除或無法取得的項目和收集結果核對。",
-            "並排閱讀原文，或手動將支援檔案交給外部AI、比較工具。判斷為變化的內容須在兩份原文中確認。"
+            "並排閱讀原文，或手動將支援檔案交給外部 AI、比較工具。判斷為變化的內容須在兩份原文中確認。"
           ],
           "faq": [
             {
               "q": "內建變化報告比較什麼？",
-              "a": "它使用本擴充功能在同一網站本次之前最近完成的收集，透過URL、標題及正文彙整變化，不是逐行比較或官方修訂判斷。任意已儲存PDF或其他前後檔案的內容，請交給外部工具比較。"
+              "a": "它使用本擴充功能在同一網站本次之前最近完成的收集，透過 URL、標題及正文彙整變化，不是逐行比較或官方修訂判斷。任意已儲存 PDF 或其他前後檔案的內容，請交給外部工具比較。"
             },
             {
               "q": "移除表示原網站刪除頁面嗎？",
@@ -42416,7 +42416,7 @@
             },
             {
               "q": "如何記錄版本？免費版能做到哪些？",
-              "a": "資料標示的版本請自行寫在標題或備註中；AI輸出中的來源URL和擷取時間有助於核對。免費版每次儲存 1 個選定頁面，因此請逐頁比較關鍵頁面；Pro可收集選取的多個頁面，適合比較整個章節。"
+              "a": "資料標示的版本請自行寫在標題或備註中；AI 輸出中的來源 URL 和擷取時間有助於核對。免費版每次儲存 1 個選定頁面，因此請逐頁比較關鍵頁面；Pro 可收集選取的多個頁面，適合比較整個章節。"
             },
             {
               "q": "需要登入的頁面怎麼辦？",
@@ -42443,7 +42443,7 @@
             "examples": [
               [
                 "核對步驟修訂",
-                "請僅比較提供的修訂前後資料，列出變化的步驟、要求及例外，附原文和來源URL。不確定的比較請明確標出，不要推測修訂。"
+                "請僅比較提供的修訂前後資料，列出變化的步驟、要求及例外，附原文和來源 URL。不確定的比較請明確標出，不要推測修訂。"
               ]
             ],
             "formatsTitle": "準備清楚的前後資料集",
@@ -42453,16 +42453,16 @@
             ],
             "rows": [
               [
-                "前後HTML",
+                "前後 HTML",
                 "分別儲存並閱讀正文及上下文。"
               ],
               [
-                "前次變化Markdown報告",
+                "前次變化 Markdown 報告",
                 "彙整同一網站前次已完成收集以來的變化。"
               ],
               [
-                "備註 / AI輸出",
-                "手動記錄版本，利用AI來源URL及擷取時間核對。"
+                "備註 / AI 輸出",
+                "手動記錄版本，利用 AI 來源 URL 及擷取時間核對。"
               ]
             ]
           },
@@ -43103,34 +43103,34 @@
         },
         "zh_CN": {
           "title": "批量重命名PDF并分文件夹整理 | Grab All Files",
-          "h1": "用易读的名称保存PDF，方便查找。",
+          "h1": "用易读的名称保存 PDF，方便查找。",
           "desc": "下载前用PDF的真实标题批量重命名，再按类型或网站分到不同文件夹。标题可双击编辑，也可保留原始文件名。免费版每次下载最多保存 10 个文件。",
-          "lead": "清晰的文件名和可预期的文件夹能让资料更容易查找。确认PDF标题，选择命名方式，并按格式或来源整理混合文件。请检查保存结果，而不是假定每个标题都适用。",
+          "lead": "清晰的文件名和可预期的文件夹能让资料更容易查找。确认 PDF 标题，选择命名方式，并按格式或来源整理混合文件。请检查保存结果，而不是假定每个标题都适用。",
           "best": [
-            "按名称识别手册或公开列表中的PDF。",
-            "将PDF、表格文件与其他文件按格式区分。"
+            "按名称识别手册或公开列表中的 PDF。",
+            "将 PDF、表格文件与其他文件按格式区分。"
           ],
           "steps": [
-            "扫描列出PDF的页面，按PDF筛选结果，并勾选要保存的文件。",
-            "检查标题。点击“获取所选PDF的标题”可从PDF本身读取标题。双击标题、按F2或使用铅笔按钮（“编辑标题”）即可修改，“重置标题”可撤销修改。",
+            "扫描列出 PDF 的页面，按 PDF 筛选结果，并勾选要保存的文件。",
+            "检查标题。点击“获取所选PDF的标题”可从 PDF 本身读取标题。双击标题、按 F2 或使用铅笔按钮（“编辑标题”）即可修改，“重置标题”可撤销修改。",
             "打开“详细设置”，在“保存名称”中选择“自动（可用时使用标题）”“标题”或“原始文件名”。要分文件夹，请打开“其他操作”，在“整理”中选择“按类型”“按域名”或“不分文件夹”。",
-            "点击“保存所选文件”或保存为ZIP（免费版每次下载最多 10 个）。检查结果中的名称、扩展名和文件夹；在Firefox中文件保存到Downloads/GrabAllFiles。"
+            "点击“保存所选文件”或保存为 ZIP（免费版每次下载最多 10 个）。检查结果中的名称、扩展名和文件夹；在 Firefox 中文件保存到 Downloads/GrabAllFiles。"
           ],
           "faq": [
             {
-              "q": "总能找到PDF的真实标题吗？",
+              "q": "总能找到 PDF 的真实标题吗？",
               "a": "不能保证。元数据或页面标题可能缺失或过于通用。请检查标题，自动模式可在没有有用标题时采用原名。"
             },
             {
               "q": "按类型会自动判断资料主题吗？",
-              "a": "这是按文件格式或来源域名整理，并非推断业务主题。全部为PDF的集合仍是同一格式。"
+              "a": "这是按文件格式或来源域名整理，并非推断业务主题。全部为 PDF 的集合仍是同一格式。"
             },
             {
               "q": "所有浏览器都能选择任意文件夹吗？",
-              "a": "依浏览器和下载设置而定。Chromium可能提供文件夹选择，Firefox使用Downloads/GrabAllFiles路径。请确认实际保存位置。"
+              "a": "依浏览器和下载设置而定。Chromium 可能提供文件夹选择，Firefox 使用 Downloads/GrabAllFiles 路径。请确认实际保存位置。"
             },
             {
-              "q": "大量PDF可以免费重命名吗？",
+              "q": "大量 PDF 可以免费重命名吗？",
               "a": "可以。“保存名称”、标题编辑和“整理”在免费版中均可使用。免费版每次下载最多保存 10 个选中的文件；要继续，请选择接下来的文件并再次点击“保存所选文件”。Pro（$19.99，一次性购买，最多 3 台设备）没有每次下载的上限。"
             }
           ],
@@ -43154,7 +43154,7 @@
               ],
               [
                 "混合资料集",
-                "按格式整理PDF与表格，并确认需要的文件实际已保存。"
+                "按格式整理 PDF 与表格，并确认需要的文件实际已保存。"
               ]
             ],
             "formatsTitle": "保存名称与整理选项",
@@ -43177,38 +43177,38 @@
               ]
             ]
           },
-          "eyebrow": "PDF重命名与整理"
+          "eyebrow": "PDF 重命名与整理"
         },
         "zh_TW": {
           "title": "批次重新命名PDF並分資料夾整理 | Grab All Files",
-          "h1": "用易讀的名稱儲存PDF，方便查找。",
+          "h1": "用易讀的名稱儲存 PDF，方便查找。",
           "desc": "下載前用PDF的真實標題批次重新命名，再依類型或網站分到不同資料夾。標題可雙擊編輯，也可保留原始檔名。免費版每次可儲存 10 個檔案。",
-          "lead": "清楚的檔名和可預期的資料夾讓資料更容易查找。確認PDF標題，選擇命名方式，並依格式或來源整理混合檔案。請檢查儲存結果，不要假定每個標題都適用。",
+          "lead": "清楚的檔名和可預期的資料夾讓資料更容易查找。確認 PDF 標題，選擇命名方式，並依格式或來源整理混合檔案。請檢查儲存結果，不要假定每個標題都適用。",
           "best": [
-            "依名稱識別手冊或公開清單中的PDF。",
-            "將PDF、試算表與其他檔案依格式區分。"
+            "依名稱識別手冊或公開清單中的 PDF。",
+            "將 PDF、試算表與其他檔案依格式區分。"
           ],
           "steps": [
-            "掃描列出PDF的頁面，依PDF篩選結果，並勾選要儲存的檔案。",
-            "檢查標題。點擊「取得所選PDF的標題」可從PDF本身讀取標題。雙擊標題、按F2或使用鉛筆按鈕（「編輯標題」）即可修改，「重設標題」可復原修改。",
+            "掃描列出 PDF 的頁面，依 PDF 篩選結果，並勾選要儲存的檔案。",
+            "檢查標題。點擊「取得所選PDF的標題」可從 PDF 本身讀取標題。雙擊標題、按 F2 或使用鉛筆按鈕（「編輯標題」）即可修改，「重設標題」可復原修改。",
             "開啟「詳細設定」，在「儲存名稱」中選擇「自動（可用時使用標題）」「標題」或「原始檔名」。若要分資料夾，請開啟「其他操作」，在「整理」中選擇「依類型」「依網域」或「不分資料夾」。",
-            "點擊「儲存所選檔案」或儲存為ZIP（免費版每次下載最多 10 個）。檢查結果中的名稱、副檔名和資料夾；在Firefox中檔案會儲存到Downloads/GrabAllFiles。"
+            "點擊「儲存所選檔案」或儲存為 ZIP（免費版每次下載最多 10 個）。檢查結果中的名稱、副檔名和資料夾；在 Firefox 中檔案會儲存到 Downloads/GrabAllFiles。"
           ],
           "faq": [
             {
-              "q": "總能找到PDF的真實標題嗎？",
+              "q": "總能找到 PDF 的真實標題嗎？",
               "a": "不能保證。中繼資料或頁面標題可能缺少或過於通用。請檢查標題，自動模式可在沒有有用標題時採用原名。"
             },
             {
               "q": "依類型會自動判斷資料主題嗎？",
-              "a": "這是依檔案格式或來源網域整理，並非推測業務主題。全部為PDF的集合仍是同一格式。"
+              "a": "這是依檔案格式或來源網域整理，並非推測業務主題。全部為 PDF 的集合仍是同一格式。"
             },
             {
               "q": "所有瀏覽器都能選擇任意資料夾嗎？",
-              "a": "依瀏覽器及下載設定而定。Chromium可能提供資料夾選擇，Firefox使用Downloads/GrabAllFiles路徑。請確認實際儲存位置。"
+              "a": "依瀏覽器及下載設定而定。Chromium 可能提供資料夾選擇，Firefox 使用 Downloads/GrabAllFiles 路徑。請確認實際儲存位置。"
             },
             {
-              "q": "大量PDF可以免費重新命名嗎？",
+              "q": "大量 PDF 可以免費重新命名嗎？",
               "a": "可以。「儲存名稱」、標題編輯和「整理」在免費版中皆可使用。免費版每次下載最多儲存 10 個選取的檔案；若要繼續，請選取接下來的檔案並再次點擊「儲存所選檔案」。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次下載的上限。"
             }
           ],
@@ -43232,7 +43232,7 @@
               ],
               [
                 "混合資料集",
-                "依格式整理PDF與試算表，並確認需要的檔案實際已儲存。"
+                "依格式整理 PDF 與試算表，並確認需要的檔案實際已儲存。"
               ]
             ],
             "formatsTitle": "儲存名稱與整理選項",
@@ -43255,7 +43255,7 @@
               ]
             ]
           },
-          "eyebrow": "PDF重新命名與整理"
+          "eyebrow": "PDF 重新命名與整理"
         }
       }
     },
@@ -44008,17 +44008,17 @@
           "desc": "把政府或公共机构的制度说明页面保存为HTML，附件PDF、Word保存为文件，并记录来源。免费版每次保存 1 个页面，文件每次下载最多 10 个。",
           "eyebrow": "政府公开文件与指南",
           "h1": "把公共说明与附件放在一起。",
-          "lead": "将制度概览、详细指南及相关附件放在同一个文件夹中。选中的说明页面用HTML阅读，原始PDF、Word放在旁边，日后无需重新搜索就能找到来源。",
+          "lead": "将制度概览、详细指南及相关附件放在同一个文件夹中。选中的说明页面用 HTML 阅读，原始 PDF、Word 放在旁边，日后无需重新搜索就能找到来源。",
           "best": [
             "为一个公共制度或服务准备参考资料。",
-            "把说明页面与链接的PDF、Word表格一起整理。",
+            "把说明页面与链接的 PDF、Word 表格一起整理。",
             "为研究或内部说明记录来源和核对日期。"
           ],
           "steps": [
-            "A：说明页面。打开允许保存的官方页面，点击“将网页合并为 HTML”。保持“仅当前打开的页面”，或选择“同时查找链接到的页面”并只选一个相关主题。免费版每次保存 1 个页面；Pro可把选中的多个页面合并为一个HTML。",
-            "需要带来源的AI文件时，请在收集前启用“AI分析数据（带出处的Markdown）”，选择图片和链接文档设置，然后将页面保存为HTML。",
-            "B：附件。切换到“文件批量下载”，扫描同一页面，按PDF和Word筛选并勾选需要的表格与指南。免费版每次下载最多 10 个：选择接下来的文件再次点击“保存所选文件”，或打包为ZIP与HTML放在一起。",
-            "C：AI用ZIP。收集完成后点击“保存AI分析ZIP”。核对source_url和captured_at，标示的版本和确认日期请自行记录。",
+            "A：说明页面。打开允许保存的官方页面，点击“将网页合并为 HTML”。保持“仅当前打开的页面”，或选择“同时查找链接到的页面”并只选一个相关主题。免费版每次保存 1 个页面；Pro 可把选中的多个页面合并为一个 HTML。",
+            "需要带来源的 AI 文件时，请在收集前启用“AI分析数据（带出处的Markdown）”，选择图片和链接文档设置，然后将页面保存为 HTML。",
+            "B：附件。切换到“文件批量下载”，扫描同一页面，按 PDF 和 Word 筛选并勾选需要的表格与指南。免费版每次下载最多 10 个：选择接下来的文件再次点击“保存所选文件”，或打包为 ZIP 与 HTML 放在一起。",
+            "C：AI 用 ZIP。收集完成后点击“保存AI分析ZIP”。核对 source_url 和 captured_at，标示的版本和确认日期请自行记录。",
             "按主题与日期命名文件夹，整理概览、指南和表格。日后使用前回到官方来源，检查文档和日期是否更新。"
           ],
           "faq": [
@@ -44027,8 +44027,8 @@
               "a": "以一个制度或服务为单位，选择概览、详细指南及链接的表格。比较候选和原菜单，排除无关新闻或其他主题。链接的发现情况因网站结构而异。"
             },
             {
-              "q": "PDF、Word正文会合并到HTML吗？",
-              "a": "原件作为独立文件保存，其正文不会并入阅读用HTML。支持文档中成功提取的文字可加入AI输出，但需检查缺失与失败内容。"
+              "q": "PDF、Word 正文会合并到 HTML 吗？",
+              "a": "原件作为独立文件保存，其正文不会并入阅读用 HTML。支持文档中成功提取的文字可加入 AI 输出，但需检查缺失与失败内容。"
             },
             {
               "q": "保存后能确定资料完整且最新吗？",
@@ -44036,11 +44036,11 @@
             },
             {
               "q": "如何在内部说明中使用来源列表？",
-              "a": "通过AI输出中的source_url和captured_at识别已保存资料。在自己的笔记中补充正式文档名称及标示版本，并把每个说明项目与依据来源对应。"
+              "a": "通过 AI 输出中的 source_url 和 captured_at 识别已保存资料。在自己的笔记中补充正式文档名称及标示版本，并把每个说明项目与依据来源对应。"
             },
             {
               "q": "可以先从一个说明页面开始吗？",
-              "a": "免费版可查找候选，将所选的一个页面保存为HTML；Pro可合并多个页面正文。先选概览与所需附件，再将保存结果与来源核对。"
+              "a": "免费版可查找候选，将所选的一个页面保存为 HTML；Pro 可合并多个页面正文。先选概览与所需附件，再将保存结果与来源核对。"
             }
           ],
           "guide": {
@@ -44048,22 +44048,22 @@
             "modes": [
               [
                 "可阅读的说明",
-                "概览和说明页面保存为HTML，通过目录与搜索定位内容。"
+                "概览和说明页面保存为 HTML，通过目录与搜索定位内容。"
               ],
               [
                 "原始附件",
-                "PDF、Word另存为ZIP或文件夹，并保留有助核对的原文件名。"
+                "PDF、Word 另存为 ZIP 或文件夹，并保留有助核对的原文件名。"
               ]
             ],
             "examplesTitle": "通用整理示例",
             "examples": [
               [
                 "一个公开制度",
-                "概览 → 详细指南 → 链接的PDF说明与Word表格。仅选择该主题需要的项目。"
+                "概览 → 详细指南 → 链接的 PDF 说明与 Word 表格。仅选择该主题需要的项目。"
               ],
               [
                 "说明笔记",
-                "逐项记录来源URL、核对日期及标示版本；无法取得的资料标为缺失。"
+                "逐项记录来源 URL、核对日期及标示版本；无法取得的资料标为缺失。"
               ]
             ],
             "formatsTitle": "按用途选择输出",
@@ -44082,11 +44082,11 @@
               ],
               [
                 "Markdown／manifest",
-                "核对正文、source_url和captured_at。"
+                "核对正文、source_url 和 captured_at。"
               ],
               [
-                "页面列表／文件信息CSV",
-                "保留收集页面的URL、标题、状态与失败原因列表。通过文件下载器的文件信息CSV整理附件。"
+                "页面列表／文件信息 CSV",
+                "保留收集页面的 URL、标题、状态与失败原因列表。通过文件下载器的文件信息 CSV 整理附件。"
               ],
               [
                 "自己的资料笔记",
@@ -44100,17 +44100,17 @@
           "desc": "把政府或公部門的制度說明頁面儲存為HTML，附件PDF、Word儲存為檔案，並記錄來源。免費版每次儲存 1 個頁面，檔案每次下載最多 10 個。",
           "eyebrow": "政府公開文件與說明",
           "h1": "把公共說明與附件放在一起。",
-          "lead": "將制度概覽、詳細指南及相關附件放在同一個資料夾。選取的說明頁面用HTML閱讀，原始PDF、Word放在旁邊，日後無須重新搜尋就能找到來源。",
+          "lead": "將制度概覽、詳細指南及相關附件放在同一個資料夾。選取的說明頁面用 HTML 閱讀，原始 PDF、Word 放在旁邊，日後無須重新搜尋就能找到來源。",
           "best": [
             "為一個公共制度或服務準備參考資料。",
-            "把說明頁面與連結的PDF、Word表格一起整理。",
+            "把說明頁面與連結的 PDF、Word 表格一起整理。",
             "為研究或內部說明記錄來源和核對日期。"
           ],
           "steps": [
-            "A：說明頁面。開啟允許儲存的官方頁面，點擊「將網頁合併為 HTML」。保持「僅目前開啟的頁面」，或選擇「同時尋找連結到的頁面」並只選一個相關主題。免費版每次儲存 1 個頁面；Pro可把選取的多個頁面合併為一個HTML。",
-            "需要附來源的AI檔案時，請在收集前啟用「AI分析資料（附出處的Markdown）」，選擇圖片和連結文件設定，然後將頁面儲存為HTML。",
-            "B：附件。切換到「檔案批次下載」，掃描同一頁面，依PDF和Word篩選並勾選需要的表單與說明。免費版每次下載最多 10 個：選取接下來的檔案再次點擊「儲存所選檔案」，或打包為ZIP與HTML放在一起。",
-            "C：AI用ZIP。收集完成後點擊「儲存AI分析ZIP」。核對source_url和captured_at，標示的版本和確認日期請自行記錄。",
+            "A：說明頁面。開啟允許儲存的官方頁面，點擊「將網頁合併為 HTML」。保持「僅目前開啟的頁面」，或選擇「同時尋找連結到的頁面」並只選一個相關主題。免費版每次儲存 1 個頁面；Pro 可把選取的多個頁面合併為一個 HTML。",
+            "需要附來源的 AI 檔案時，請在收集前啟用「AI分析資料（附出處的Markdown）」，選擇圖片和連結文件設定，然後將頁面儲存為 HTML。",
+            "B：附件。切換到「檔案批次下載」，掃描同一頁面，依 PDF 和 Word 篩選並勾選需要的表單與說明。免費版每次下載最多 10 個：選取接下來的檔案再次點擊「儲存所選檔案」，或打包為 ZIP 與 HTML 放在一起。",
+            "C：AI 用 ZIP。收集完成後點擊「儲存AI分析ZIP」。核對 source_url 和 captured_at，標示的版本和確認日期請自行記錄。",
             "依主題與日期命名資料夾，整理概覽、指南與表格。日後使用前回到官方來源，檢查文件和日期是否更新。"
           ],
           "faq": [
@@ -44119,8 +44119,8 @@
               "a": "以一個制度或服務為單位，選取概覽、詳細指南及連結的表格。比較候選和原選單，排除無關新聞或其他主題。連結的發現情況因網站結構而異。"
             },
             {
-              "q": "PDF、Word正文會合併到HTML嗎？",
-              "a": "原件作為獨立檔案儲存，其正文不會併入閱讀用HTML。支援文件中成功擷取的文字可加入AI輸出，但需檢查缺漏與失敗內容。"
+              "q": "PDF、Word 正文會合併到 HTML 嗎？",
+              "a": "原件作為獨立檔案儲存，其正文不會併入閱讀用 HTML。支援文件中成功擷取的文字可加入 AI 輸出，但需檢查缺漏與失敗內容。"
             },
             {
               "q": "儲存後能確定資料完整且最新嗎？",
@@ -44128,11 +44128,11 @@
             },
             {
               "q": "如何在內部說明使用來源清單？",
-              "a": "透過AI輸出的source_url和captured_at識別已儲存資料。在自己的筆記中補充正式文件名稱及標示版本，並把每個說明項目與依據來源對應。"
+              "a": "透過 AI 輸出的 source_url 和 captured_at 識別已儲存資料。在自己的筆記中補充正式文件名稱及標示版本，並把每個說明項目與依據來源對應。"
             },
             {
               "q": "可以先從一個說明頁面開始嗎？",
-              "a": "免費版可尋找候選，將選取的一個頁面儲存為HTML；Pro可合併多個頁面正文。先選概覽與所需附件，再將儲存結果與來源核對。"
+              "a": "免費版可尋找候選，將選取的一個頁面儲存為 HTML；Pro 可合併多個頁面正文。先選概覽與所需附件，再將儲存結果與來源核對。"
             }
           ],
           "guide": {
@@ -44140,22 +44140,22 @@
             "modes": [
               [
                 "可閱讀的說明",
-                "概覽和說明頁面儲存為HTML，透過目錄與搜尋定位內容。"
+                "概覽和說明頁面儲存為 HTML，透過目錄與搜尋定位內容。"
               ],
               [
                 "原始附件",
-                "PDF、Word另存為ZIP或資料夾，並保留有助核對的原檔名。"
+                "PDF、Word 另存為 ZIP 或資料夾，並保留有助核對的原檔名。"
               ]
             ],
             "examplesTitle": "通用整理範例",
             "examples": [
               [
                 "一個公開制度",
-                "概覽 → 詳細指南 → 連結的PDF說明與Word表格。僅選該主題需要的項目。"
+                "概覽 → 詳細指南 → 連結的 PDF 說明與 Word 表格。僅選該主題需要的項目。"
               ],
               [
                 "說明筆記",
-                "逐項記錄來源URL、核對日期及標示版本；無法取得的資料標為缺漏。"
+                "逐項記錄來源 URL、核對日期及標示版本；無法取得的資料標為缺漏。"
               ]
             ],
             "formatsTitle": "依用途選擇輸出",
@@ -44174,11 +44174,11 @@
               ],
               [
                 "Markdown／manifest",
-                "核對正文、source_url與captured_at。"
+                "核對正文、source_url 與 captured_at。"
               ],
               [
-                "頁面清單／檔案資訊CSV",
-                "保留收集頁面的URL、標題、狀態與失敗原因清單。透過檔案下載器的檔案資訊CSV整理附件。"
+                "頁面清單／檔案資訊 CSV",
+                "保留收集頁面的 URL、標題、狀態與失敗原因清單。透過檔案下載器的檔案資訊 CSV 整理附件。"
               ],
               [
                 "自己的資料筆記",
@@ -45000,45 +45000,45 @@
         "zh_CN": {
           "title": "将Web资料保存为可复用的Markdown | Grab All Files",
           "desc": "把收集的网页正文导出为单个Markdown、按页笔记或完整包，并保留来源URL和采集时间，用于研究、写作，或手动复用到笔记工具与外部AI。",
-          "eyebrow": "用Markdown复用Web资料",
-          "h1": "把Web资料变成能复用的笔记。",
-          "lead": "将收集的标题、正文、列表、支持的HTML表格和普通链接保存为Markdown，并保留来源与获取时间。选择单份阅读文件或按页笔记，用于研究、写作及自己选择的工具。",
+          "eyebrow": "用 Markdown 复用 Web 资料",
+          "h1": "把 Web 资料变成能复用的笔记。",
+          "lead": "将收集的标题、正文、列表、支持的 HTML 表格和普通链接保存为 Markdown，并保留来源与获取时间。选择单份阅读文件或按页笔记，用于研究、写作及自己选择的工具。",
           "best": [
             "将相关文章整理为带来源的研究笔记。",
             "在草稿或手动笔记旁保留参考正文。",
-            "选择所需Markdown文件，向外部AI提问。"
+            "选择所需 Markdown 文件，向外部 AI 提问。"
           ],
           "steps": [
-            "打开允许保存的页面，启动“将网页合并为 HTML”。核对相关候选，选择需要的页面。免费版将所选的一个页面保存为HTML，Pro可合并多个页面正文。",
+            "打开允许保存的页面，启动“将网页合并为 HTML”。核对相关候选，选择需要的页面。免费版将所选的一个页面保存为 HTML，Pro 可合并多个页面正文。",
             "收集前启用“AI分析数据（带出处的Markdown）”。阅读用“单个Markdown”，分开记笔记用“按页Markdown”，需要结构化资料则选“完整包”。",
-            "收集并核对结果，将标题、链接和重要正文与来源比较，检查失败项目。如需目录和正文搜索，也保存HTML。",
-            "使用“保存AI分析ZIP”，解压ZIP，在支持的编辑器中打开Markdown。保留source_url和captured_at，添加自己的主题标签与核对日期。",
-            "通过支持的方法手动复制或导入笔记工具。外部AI需自行选择文件，用“复制给AI的提示词”准备请求与问题，再以提供的原文和最新来源核对回答。"
+            "收集并核对结果，将标题、链接和重要正文与来源比较，检查失败项目。如需目录和正文搜索，也保存 HTML。",
+            "使用“保存AI分析ZIP”，解压 ZIP，在支持的编辑器中打开 Markdown。保留 source_url 和 captured_at，添加自己的主题标签与核对日期。",
+            "通过支持的方法手动复制或导入笔记工具。外部 AI 需自行选择文件，用“复制给AI的提示词”准备请求与问题，再以提供的原文和最新来源核对回答。"
           ],
           "faq": [
             {
-              "q": "会与Obsidian或Notion自动同步吗？",
+              "q": "会与 Obsidian 或 Notion 自动同步吗？",
               "a": "先导出文件，再通过目标工具支持的方法手动复制或导入。导入后核对标题、表格和链接。扩展不会自动同步资料库或工作区，导入支持因工具而异。"
             },
             {
               "q": "图片和交互内容能原样保留吗？",
-              "a": "Markdown可通过原URL引用图片，图片文件本身不一定包含在包内。提取并非完整复制网站，重要图片或需操作才显示的内容请回到原页面确认。"
+              "a": "Markdown 可通过原 URL 引用图片，图片文件本身不一定包含在包内。提取并非完整复制网站，重要图片或需操作才显示的内容请回到原页面确认。"
             },
             {
-              "q": "25MB设置会限制整个包的大小吗？",
-              "a": "默认 25MB是Markdown正文的分割目标，不保证整个ZIP的大小，也不保证其他工具能接收。请解压后按目标工具的限制选择或拆分文件。"
+              "q": "25MB 设置会限制整个包的大小吗？",
+              "a": "默认 25MB 是 Markdown 正文的分割目标，不保证整个 ZIP 的大小，也不保证其他工具能接收。请解压后按目标工具的限制选择或拆分文件。"
             },
             {
-              "q": "链接的PDF、Word会怎样处理？",
-              "a": "所选支持文档中成功提取的文字可进入AI输出。所需原件另存，核对无法读取或缺失的文字。扫描资料的提取不受保证，文档正文不会并入阅读用HTML。"
+              "q": "链接的 PDF、Word 会怎样处理？",
+              "a": "所选支持文档中成功提取的文字可进入 AI 输出。所需原件另存，核对无法读取或缺失的文字。扫描资料的提取不受保证，文档正文不会并入阅读用 HTML。"
             },
             {
-              "q": "导出会把资料发送给AI吗？",
-              "a": "不会。文件在设备上准备，由您选择外部服务，手动提供支持文件与问题。保留source_url和captured_at核对回答；获取时间并不证明来源仍是最新。"
+              "q": "导出会把资料发送给 AI 吗？",
+              "a": "不会。文件在设备上准备，由您选择外部服务，手动提供支持文件与问题。保留 source_url 和 captured_at 核对回答；获取时间并不证明来源仍是最新。"
             },
             {
               "q": "可以免费使用吗？",
-              "a": "可以。免费版每次收集保存 1 个选定页面。该页面中的图片没有方案数量限制，直接链接的文件可在结果画面通过“保存接下来的 10 个文件”每次保存 10 个。Pro（$19.99，一次性购买，最多 3 台设备）可将选中的多个页面合并为一个HTML。"
+              "a": "可以。免费版每次收集保存 1 个选定页面。该页面中的图片没有方案数量限制，直接链接的文件可在结果画面通过“保存接下来的 10 个文件”每次保存 10 个。Pro（$19.99，一次性购买，最多 3 台设备）可将选中的多个页面合并为一个 HTML。"
             },
             {
               "q": "需要登录的页面怎么办？",
@@ -45054,45 +45054,45 @@
             "modes": [
               [
                 "阅读并加注",
-                "用一个Markdown作为简洁参考，保留来源并添加自己的评论。"
+                "用一个 Markdown 作为简洁参考，保留来源并添加自己的评论。"
               ],
               [
                 "按页整理笔记",
-                "按主题组织各页Markdown，从研究或写作笔记链接到不同来源。"
+                "按主题组织各页 Markdown，从研究或写作笔记链接到不同来源。"
               ]
             ],
             "examplesTitle": "研究与写作示例",
             "examples": [
               [
                 "研究笔记",
-                "请汇总这些页面中记载的要点。为每项附上来源URL，并把原文内容与我的观察分开。"
+                "请汇总这些页面中记载的要点。为每项附上来源 URL，并把原文内容与我的观察分开。"
               ],
               [
                 "写作参考",
-                "请列出资料中支持这份草稿的事实。添加来源URL和获取时间，标出提供资料无法支持的主张。"
+                "请列出资料中支持这份草稿的事实。添加来源 URL 和获取时间，标出提供资料无法支持的主张。"
               ]
             ],
-            "formatsTitle": "选择Markdown输出",
+            "formatsTitle": "选择 Markdown 输出",
             "headers": [
               "格式",
               "适合的用法"
             ],
             "rows": [
               [
-                "单个Markdown",
+                "单个 Markdown",
                 "正文汇成一份阅读文件，包含各页来源；大型正文可能拆分。"
               ],
               [
-                "按页Markdown",
-                "每页一个.md与manifest.json打包为ZIP，便于按来源整理笔记。"
+                "按页 Markdown",
+                "每页一个.md 与 manifest.json 打包为 ZIP，便于按来源整理笔记。"
               ],
               [
                 "完整包",
-                "corpus.md、chunks.jsonl、manifest.json、提示词与HTML打包为ZIP，便于结构化复用。完整包包含阅读用HTML。遮蔽模式不包含HTML。"
+                "corpus.md、chunks.jsonl、manifest.json、提示词与 HTML 打包为 ZIP，便于结构化复用。完整包包含阅读用 HTML。遮蔽模式不包含 HTML。"
               ],
               [
                 "HTML／原始文档",
-                "将可阅读的资料及所需原始附件与Markdown一起保存。"
+                "将可阅读的资料及所需原始附件与 Markdown 一起保存。"
               ]
             ]
           }
@@ -45100,45 +45100,45 @@
         "zh_TW": {
           "title": "將Web資料儲存為可重用的Markdown | Grab All Files",
           "desc": "把收集的網頁正文匯出為單一Markdown、逐頁筆記或完整套件，並保留來源URL和擷取時間，用於研究、寫作，或手動重用到筆記工具與外部AI。",
-          "eyebrow": "用Markdown重用Web資料",
-          "h1": "把Web資料變成能重用的筆記。",
-          "lead": "將收集的標題、正文、清單、支援的HTML表格和一般連結儲存為Markdown，保留來源與取得時間。選擇單份閱讀檔或逐頁筆記，用於研究、寫作及自己選擇的工具。",
+          "eyebrow": "用 Markdown 重用 Web 資料",
+          "h1": "把 Web 資料變成能重用的筆記。",
+          "lead": "將收集的標題、正文、清單、支援的 HTML 表格和一般連結儲存為 Markdown，保留來源與取得時間。選擇單份閱讀檔或逐頁筆記，用於研究、寫作及自己選擇的工具。",
           "best": [
             "將相關文章整理為附來源的研究筆記。",
             "在草稿或手動筆記旁保留參考正文。",
-            "選擇所需Markdown檔案，向外部AI提問。"
+            "選擇所需 Markdown 檔案，向外部 AI 提問。"
           ],
           "steps": [
-            "開啟允許儲存的頁面，啟動「將網頁合併為 HTML」。核對相關候選並選取需要的頁面。免費版將選取的一個頁面儲存為HTML，Pro可合併多個頁面正文。",
+            "開啟允許儲存的頁面，啟動「將網頁合併為 HTML」。核對相關候選並選取需要的頁面。免費版將選取的一個頁面儲存為 HTML，Pro 可合併多個頁面正文。",
             "收集前啟用「AI分析資料（附出處的Markdown）」。閱讀用「單一Markdown」，分開記筆記用「逐頁Markdown」，需要結構化資料則選「完整套件」。",
-            "收集並核對結果，將標題、連結和重要正文與來源比較，檢查失敗項目。若需目錄和正文搜尋，也儲存HTML。",
-            "使用「儲存AI分析ZIP」，解壓縮ZIP，在支援的編輯器中開啟Markdown。保留source_url和captured_at，加入自己的主題標籤與核對日期。",
-            "透過支援的方法手動複製或匯入筆記工具。外部AI需自行選擇檔案，用「複製給AI的提示詞」準備請求與問題，再以提供的原文和最新來源核對回答。"
+            "收集並核對結果，將標題、連結和重要正文與來源比較，檢查失敗項目。若需目錄和正文搜尋，也儲存 HTML。",
+            "使用「儲存AI分析ZIP」，解壓縮 ZIP，在支援的編輯器中開啟 Markdown。保留 source_url 和 captured_at，加入自己的主題標籤與核對日期。",
+            "透過支援的方法手動複製或匯入筆記工具。外部 AI 需自行選擇檔案，用「複製給AI的提示詞」準備請求與問題，再以提供的原文和最新來源核對回答。"
           ],
           "faq": [
             {
-              "q": "會與Obsidian或Notion自動同步嗎？",
+              "q": "會與 Obsidian 或 Notion 自動同步嗎？",
               "a": "先匯出檔案，再透過目標工具支援的方法手動複製或匯入。匯入後核對標題、表格和連結。擴充功能不會自動同步資料庫或工作區，匯入支援因工具而異。"
             },
             {
               "q": "圖片和互動內容能原樣保留嗎？",
-              "a": "Markdown可透過原URL引用圖片，圖片檔本身不一定包含在套件內。擷取並非完整複製網站，重要圖片或需操作才顯示的內容請回到原頁面確認。"
+              "a": "Markdown 可透過原 URL 引用圖片，圖片檔本身不一定包含在套件內。擷取並非完整複製網站，重要圖片或需操作才顯示的內容請回到原頁面確認。"
             },
             {
-              "q": "25MB設定會限制整個套件的大小嗎？",
-              "a": "預設 25MB是Markdown正文的分割目標，不保證整個ZIP的大小，也不保證其他工具能接收。請解壓縮後依目標工具的限制選擇或拆分檔案。"
+              "q": "25MB 設定會限制整個套件的大小嗎？",
+              "a": "預設 25MB 是 Markdown 正文的分割目標，不保證整個 ZIP 的大小，也不保證其他工具能接收。請解壓縮後依目標工具的限制選擇或拆分檔案。"
             },
             {
-              "q": "連結的PDF、Word會如何處理？",
-              "a": "選取的支援文件中成功擷取的文字可進入AI輸出。所需原件另存，核對無法讀取或缺漏的文字。掃描資料的擷取不受保證，文件正文不會併入閱讀用HTML。"
+              "q": "連結的 PDF、Word 會如何處理？",
+              "a": "選取的支援文件中成功擷取的文字可進入 AI 輸出。所需原件另存，核對無法讀取或缺漏的文字。掃描資料的擷取不受保證，文件正文不會併入閱讀用 HTML。"
             },
             {
-              "q": "匯出會把資料傳送給AI嗎？",
-              "a": "不會。檔案在裝置上準備，由您選擇外部服務，手動提供支援檔案與問題。保留source_url和captured_at核對回答；取得時間並不證明來源仍是最新。"
+              "q": "匯出會把資料傳送給 AI 嗎？",
+              "a": "不會。檔案在裝置上準備，由您選擇外部服務，手動提供支援檔案與問題。保留 source_url 和 captured_at 核對回答；取得時間並不證明來源仍是最新。"
             },
             {
               "q": "可以免費使用嗎？",
-              "a": "可以。免費版每次收集儲存 1 個選定頁面。該頁面中的圖片沒有方案數量限制，直接連結的檔案可在結果畫面透過「儲存接下來的 10 個檔案」每次儲存 10 個。Pro（$19.99，一次購買，最多 3 台裝置）可將選取的多個頁面合併為一個HTML。"
+              "a": "可以。免費版每次收集儲存 1 個選定頁面。該頁面中的圖片沒有方案數量限制，直接連結的檔案可在結果畫面透過「儲存接下來的 10 個檔案」每次儲存 10 個。Pro（$19.99，一次購買，最多 3 台裝置）可將選取的多個頁面合併為一個 HTML。"
             },
             {
               "q": "需要登入的頁面怎麼辦？",
@@ -45154,45 +45154,45 @@
             "modes": [
               [
                 "閱讀並加註",
-                "用一個Markdown作為簡潔參考，保留來源並加入自己的評論。"
+                "用一個 Markdown 作為簡潔參考，保留來源並加入自己的評論。"
               ],
               [
                 "逐頁整理筆記",
-                "依主題組織各頁Markdown，從研究或寫作筆記連結到不同來源。"
+                "依主題組織各頁 Markdown，從研究或寫作筆記連結到不同來源。"
               ]
             ],
             "examplesTitle": "研究與寫作範例",
             "examples": [
               [
                 "研究筆記",
-                "請彙整這些頁面中記載的要點。為每項附上來源URL，並把原文內容與我的觀察分開。"
+                "請彙整這些頁面中記載的要點。為每項附上來源 URL，並把原文內容與我的觀察分開。"
               ],
               [
                 "寫作參考",
-                "請列出資料中支持這份草稿的事實。加入來源URL和取得時間，標出提供資料無法支持的主張。"
+                "請列出資料中支持這份草稿的事實。加入來源 URL 和取得時間，標出提供資料無法支持的主張。"
               ]
             ],
-            "formatsTitle": "選擇Markdown輸出",
+            "formatsTitle": "選擇 Markdown 輸出",
             "headers": [
               "格式",
               "適合的用法"
             ],
             "rows": [
               [
-                "單一Markdown",
+                "單一 Markdown",
                 "正文彙成一份閱讀檔，包含各頁來源；大型正文可能拆分。"
               ],
               [
-                "逐頁Markdown",
-                "每頁一個.md與manifest.json打包為ZIP，便於依來源整理筆記。"
+                "逐頁 Markdown",
+                "每頁一個.md 與 manifest.json 打包為 ZIP，便於依來源整理筆記。"
               ],
               [
                 "完整套件",
-                "corpus.md、chunks.jsonl、manifest.json、提示詞與HTML打包為ZIP，便於結構化重用。完整套件包含閱讀用HTML。遮蔽模式不包含HTML。"
+                "corpus.md、chunks.jsonl、manifest.json、提示詞與 HTML 打包為 ZIP，便於結構化重用。完整套件包含閱讀用 HTML。遮蔽模式不包含 HTML。"
               ],
               [
                 "HTML／原始文件",
-                "將可閱讀的資料及所需原始附件與Markdown一起儲存。"
+                "將可閱讀的資料及所需原始附件與 Markdown 一起儲存。"
               ]
             ]
           }
@@ -46068,39 +46068,39 @@
           "desc": "将允许查看与保存的业务手册和知识文章整理为易读资料集。按章节HTML、嵌入PDF与层级菜单文章选择保存方式，并准备向外部AI提问。",
           "eyebrow": "保存业务手册与知识文章",
           "h1": "将业务手册与知识文章整理为便于查阅的资料集。",
-          "lead": "把需要的章节和文章放在一起阅读，通过目录和正文搜索找到操作步骤，并将PDF原件与说明页面一起管理。使用允许查看和保存的资料。免费版保存所选 1 页，Pro可合并多个页面正文。",
+          "lead": "把需要的章节和文章放在一起阅读，通过目录和正文搜索找到操作步骤，并将 PDF 原件与说明页面一起管理。使用允许查看和保存的资料。免费版保存所选 1 页，Pro 可合并多个页面正文。",
           "best": [
             "一起查阅申请步骤、所需材料说明与操作手册。",
-            "将说明页面与PDF原件整理为相关资料。",
-            "选择原文资料，为向外部AI提取步骤或条件作准备。"
+            "将说明页面与 PDF 原件整理为相关资料。",
+            "选择原文资料，为向外部 AI 提取步骤或条件作准备。"
           ],
           "steps": [
             "在正常浏览器登录状态下打开允许查看与保存的起始页面。然后打开扩展中的“将网页合并为 HTML”。",
-            "对照原始菜单检查候选列表，选择所需章节或文章。Pro可移除多余候选并调整顺序。",
-            "选择图片与链接文档设置，收集并保存HTML。对嵌入PDF，请在文件下载工具中确认可访问的PDF URL或下载链接，再单独保存PDF原件。",
-            "打开HTML使用目录和搜索阅读。将保存的标题与结果同原文核对，检查缺少或获取失败的资料。",
-            "将HTML与PDF一起管理，在资料备注中记录原URL、确认日期与手册标明的版本。使用AI时导出资料，手动将支持的文件和问题交给所选外部AI。"
+            "对照原始菜单检查候选列表，选择所需章节或文章。Pro 可移除多余候选并调整顺序。",
+            "选择图片与链接文档设置，收集并保存 HTML。对嵌入 PDF，请在文件下载工具中确认可访问的 PDF URL 或下载链接，再单独保存 PDF 原件。",
+            "打开 HTML 使用目录和搜索阅读。将保存的标题与结果同原文核对，检查缺少或获取失败的资料。",
+            "将 HTML 与 PDF 一起管理，在资料备注中记录原 URL、确认日期与手册标明的版本。使用 AI 时导出资料，手动将支持的文件和问题交给所选外部 AI。"
           ],
           "faq": [
             {
               "q": "所需章节或文章没有出现在候选中怎么办？",
-              "a": "将候选列表与原始菜单对照，适当补充所需URL。保存后也核对标题与收集结果，检查实际保存的资料，不假定所有菜单项目都已被找到。"
+              "a": "将候选列表与原始菜单对照，适当补充所需 URL。保存后也核对标题与收集结果，检查实际保存的资料，不假定所有菜单项目都已被找到。"
             },
             {
-              "q": "如何一起保存嵌入PDF与说明？",
-              "a": "在文件下载工具中确认PDF URL或下载链接，单独保存可获取的PDF。将说明收集为HTML并一起管理；PDF正文不会合并进HTML正文。"
+              "q": "如何一起保存嵌入 PDF 与说明？",
+              "a": "在文件下载工具中确认 PDF URL 或下载链接，单独保存可获取的 PDF。将说明收集为 HTML 并一起管理；PDF 正文不会合并进 HTML 正文。"
             },
             {
               "q": "可以用免费版从 1 页开始确认吗？",
-              "a": "可以。免费版查找候选并保存所选 1 页为HTML。Pro可选择、排序与合并多个页面正文。仍适用验证、权限与安全上限。"
+              "a": "可以。免费版查找候选并保存所选 1 页为 HTML。Pro 可选择、排序与合并多个页面正文。仍适用验证、权限与安全上限。"
             },
             {
               "q": "如何确认来源与手册版本？",
-              "a": "检查原页面标明的修订日期或版本，连同URL与确认日期记在标题或备注中。HTML整体采集日期与AI输出的页面URL、采集日期也可帮助核对，但手册版本由您确认。"
+              "a": "检查原页面标明的修订日期或版本，连同 URL 与确认日期记在标题或备注中。HTML 整体采集日期与 AI 输出的页面 URL、采集日期也可帮助核对，但手册版本由您确认。"
             },
             {
-              "q": "能请AI提取步骤或条件吗？",
-              "a": "收集前启用AI输出，收集后保存AI ZIP并复制提示词字。选择资料，必要时解压ZIP，手动将支持的文件交给外部AI。请将回答与提供的原文核对。"
+              "q": "能请 AI 提取步骤或条件吗？",
+              "a": "收集前启用 AI 输出，收集后保存 AI ZIP 并复制提示词字。选择资料，必要时解压 ZIP，手动将支持的文件交给外部 AI。请将回答与提供的原文核对。"
             },
             {
               "q": "需要登录的页面怎么办？",
@@ -46111,37 +46111,37 @@
               "a": "有些网站要滚动或点击后才显示正文。请打开“页面缺少文字时：内容和 JavaScript 设置”，开启“点击‘显示更多’以包含后续内容”，然后重新收集。如果保存的是页面的其他部分，可在那里用“在屏幕上选择”指定正文范围。"
             },
             {
-              "q": "保存的HTML中的文字可以选中和复制吗？",
-              "a": "可以。用“整理为易读格式”保存的HTML会把页面正文写成普通文字，因此即使在原页面上难以选中文字，在保存的文件中也可以选中、搜索和复制。用“保持原样”保存时，原页面的文字选择设置可能会保留。引用或再利用时，请在网站使用条款和著作权允许的范围内进行。"
+              "q": "保存的 HTML 中的文字可以选中和复制吗？",
+              "a": "可以。用“整理为易读格式”保存的 HTML 会把页面正文写成普通文字，因此即使在原页面上难以选中文字，在保存的文件中也可以选中、搜索和复制。用“保持原样”保存时，原页面的文字选择设置可能会保留。引用或再利用时，请在网站使用条款和著作权允许的范围内进行。"
             }
           ],
           "manual": {
             "patternsTitle": "根据三种资料格式选择保存方式",
             "patterns": [
               [
-                "按章节HTML手册",
+                "按章节 HTML 手册",
                 [
                   "手册",
                   "准备",
                   "步骤"
                 ],
-                "选择所需章节并按阅读顺序整理为HTML资料集。通过目录和正文搜索返回需要确认的段落。"
+                "选择所需章节并按阅读顺序整理为 HTML 资料集。通过目录和正文搜索返回需要确认的段落。"
               ],
               [
-                "嵌入PDF",
+                "嵌入 PDF",
                 [
                   "说明页面",
-                  "PDF原件",
+                  "PDF 原件",
                   "资料备注"
                 ],
-                "确认是否能取得PDF URL或下载链接。使用文件下载工具保存PDF，再与说明HTML一起管理。"
+                "确认是否能取得 PDF URL 或下载链接。使用文件下载工具保存 PDF，再与说明 HTML 一起管理。"
               ],
               [
                 "层级菜单中的知识文章",
                 [
                   "主题菜单",
-                  "文章A",
-                  "文章B"
+                  "文章 A",
+                  "文章 B"
                 ],
                 "对照菜单检查找到的候选，选择相关文章并调整顺序。将保存结果与原始文章核对。"
               ]
@@ -46153,21 +46153,21 @@
             ],
             "rows": [
               [
-                "HTML资料集",
+                "HTML 资料集",
                 "通过目录和搜索阅读已获取的页面正文，确认需要的章节实际保存了哪些。"
               ],
               [
-                "PDF原件",
-                "作为独立文件与说明HTML一起保管。HTML中的文档链接不会将PDF正文合并进页面正文。"
+                "PDF 原件",
+                "作为独立文件与说明 HTML 一起保管。HTML 中的文档链接不会将 PDF 正文合并进页面正文。"
               ],
               [
                 "资料备注",
-                "记录原URL、确认日期与手册标明的版本。没有明确版本时也记录这一情况。"
+                "记录原 URL、确认日期与手册标明的版本。没有明确版本时也记录这一情况。"
               ]
             ],
             "promptTitle": "依据收集的原文提问",
-            "prompt": "请仅根据这些资料整理步骤、前提条件与所需材料。引用支持的原文和来源URL。找不到的信息请标为“所提供资料中未记载”，不要推测。",
-            "aiLink": "了解如何准备交给外部AI的资料与问题"
+            "prompt": "请仅根据这些资料整理步骤、前提条件与所需材料。引用支持的原文和来源 URL。找不到的信息请标为“所提供资料中未记载”，不要推测。",
+            "aiLink": "了解如何准备交给外部 AI 的资料与问题"
           }
         },
         "zh_TW": {
@@ -46175,39 +46175,39 @@
           "desc": "將允許查看與儲存的業務手冊及知識文章整理為易讀資料集。依章節HTML、內嵌PDF與階層選單文章選擇儲存方式，並準備向外部AI提問。",
           "eyebrow": "儲存業務手冊與知識文章",
           "h1": "將業務手冊與知識文章整理為便於查閱的資料集。",
-          "lead": "把需要的章節與文章一起閱讀，透過目錄與正文搜尋找到操作步驟，並將PDF原件與說明頁面一起管理。使用允許查看與儲存的資料。免費版儲存所選 1 頁，Pro可合併多個頁面正文。",
+          "lead": "把需要的章節與文章一起閱讀，透過目錄與正文搜尋找到操作步驟，並將 PDF 原件與說明頁面一起管理。使用允許查看與儲存的資料。免費版儲存所選 1 頁，Pro 可合併多個頁面正文。",
           "best": [
             "一起查閱申請步驟、所需文件說明與操作手冊。",
-            "將說明頁面與PDF原件整理為相關資料。",
-            "選擇原文資料，為向外部AI擷取步驟或條件作準備。"
+            "將說明頁面與 PDF 原件整理為相關資料。",
+            "選擇原文資料，為向外部 AI 擷取步驟或條件作準備。"
           ],
           "steps": [
             "在平常瀏覽器登入狀態下開啟允許查看與儲存的起始頁面。接著開啟擴充功能中的「將網頁合併為 HTML」。",
-            "對照原始選單檢查候選清單，選擇所需章節或文章。Pro可移除多餘候選並調整順序。",
-            "選擇圖片與連結文件設定，收集並儲存HTML。內嵌PDF請在檔案下載工具中確認可存取的PDF URL或下載連結，再單獨儲存PDF原件。",
-            "開啟HTML使用目錄與搜尋閱讀。將儲存的標題及結果與原文核對，檢查缺少或取得失敗的資料。",
-            "將HTML與PDF一起管理，在資料備註中記錄原URL、確認日期及手冊標明的版本。使用AI時匯出資料，手動將支援的檔案與問題交給所選外部AI。"
+            "對照原始選單檢查候選清單，選擇所需章節或文章。Pro 可移除多餘候選並調整順序。",
+            "選擇圖片與連結文件設定，收集並儲存 HTML。內嵌 PDF 請在檔案下載工具中確認可存取的 PDF URL 或下載連結，再單獨儲存 PDF 原件。",
+            "開啟 HTML 使用目錄與搜尋閱讀。將儲存的標題及結果與原文核對，檢查缺少或取得失敗的資料。",
+            "將 HTML 與 PDF 一起管理，在資料備註中記錄原 URL、確認日期及手冊標明的版本。使用 AI 時匯出資料，手動將支援的檔案與問題交給所選外部 AI。"
           ],
           "faq": [
             {
               "q": "所需章節或文章未出現在候選中怎麼辦？",
-              "a": "將候選清單與原始選單對照，適當補充所需URL。儲存後也核對標題及收集結果，檢查實際儲存的資料，不假定所有選單項目都已被找到。"
+              "a": "將候選清單與原始選單對照，適當補充所需 URL。儲存後也核對標題及收集結果，檢查實際儲存的資料，不假定所有選單項目都已被找到。"
             },
             {
-              "q": "如何一起儲存內嵌PDF與說明？",
-              "a": "在檔案下載工具中確認PDF URL或下載連結，單獨儲存可取得的PDF。將說明收集為HTML並一起管理；PDF正文不會合併進HTML正文。"
+              "q": "如何一起儲存內嵌 PDF 與說明？",
+              "a": "在檔案下載工具中確認 PDF URL 或下載連結，單獨儲存可取得的 PDF。將說明收集為 HTML 並一起管理；PDF 正文不會合併進 HTML 正文。"
             },
             {
               "q": "可以先用免費版從 1 頁開始確認嗎？",
-              "a": "可以。免費版尋找候選並儲存所選 1 頁為HTML。Pro可選擇、排序及合併多個頁面正文。仍適用驗證、權限與安全上限。"
+              "a": "可以。免費版尋找候選並儲存所選 1 頁為 HTML。Pro 可選擇、排序及合併多個頁面正文。仍適用驗證、權限與安全上限。"
             },
             {
               "q": "如何確認來源與手冊版本？",
-              "a": "檢查原頁面標明的修訂日期或版本，連同URL與確認日期記在標題或備註中。HTML整體擷取日期與AI輸出的頁面URL、擷取日期也可協助核對，但手冊版本由您確認。"
+              "a": "檢查原頁面標明的修訂日期或版本，連同 URL 與確認日期記在標題或備註中。HTML 整體擷取日期與 AI 輸出的頁面 URL、擷取日期也可協助核對，但手冊版本由您確認。"
             },
             {
-              "q": "能請AI擷取步驟或條件嗎？",
-              "a": "收集前啟用AI輸出，收集後儲存AI ZIP並複製提示詞。選擇資料，需要時解壓縮ZIP，手動將支援的檔案交給外部AI。請將回答與提供的原文核對。"
+              "q": "能請 AI 擷取步驟或條件嗎？",
+              "a": "收集前啟用 AI 輸出，收集後儲存 AI ZIP 並複製提示詞。選擇資料，需要時解壓縮 ZIP，手動將支援的檔案交給外部 AI。請將回答與提供的原文核對。"
             },
             {
               "q": "需要登入的頁面怎麼辦？",
@@ -46218,37 +46218,37 @@
               "a": "有些網站要捲動或點擊後才顯示正文。請開啟「頁面缺少文字時：內容和 JavaScript 設定」，開啟「點選『顯示更多』以包含後續內容」，然後重新收集。如果儲存的是頁面的其他部分，可在那裡用「在螢幕上選擇」指定正文範圍。"
             },
             {
-              "q": "儲存的HTML中的文字可以選取和複製嗎？",
-              "a": "可以。以「整理為易讀格式」儲存的HTML會把頁面正文寫成一般文字，因此即使在原頁面上難以選取文字，在儲存的檔案中也可以選取、搜尋和複製。以「保持原樣」儲存時，原頁面的文字選取設定可能會保留。引用或再利用時，請在網站使用條款和著作權允許的範圍內進行。"
+              "q": "儲存的 HTML 中的文字可以選取和複製嗎？",
+              "a": "可以。以「整理為易讀格式」儲存的 HTML 會把頁面正文寫成一般文字，因此即使在原頁面上難以選取文字，在儲存的檔案中也可以選取、搜尋和複製。以「保持原樣」儲存時，原頁面的文字選取設定可能會保留。引用或再利用時，請在網站使用條款和著作權允許的範圍內進行。"
             }
           ],
           "manual": {
             "patternsTitle": "依三種資料格式選擇儲存方式",
             "patterns": [
               [
-                "按章節HTML手冊",
+                "按章節 HTML 手冊",
                 [
                   "手冊",
                   "準備",
                   "步驟"
                 ],
-                "選擇所需章節並按閱讀順序整理為HTML資料集。透過目錄與正文搜尋返回需要確認的段落。"
+                "選擇所需章節並按閱讀順序整理為 HTML 資料集。透過目錄與正文搜尋返回需要確認的段落。"
               ],
               [
-                "內嵌PDF",
+                "內嵌 PDF",
                 [
                   "說明頁面",
-                  "PDF原件",
+                  "PDF 原件",
                   "資料備註"
                 ],
-                "確認是否能取得PDF URL或下載連結。使用檔案下載工具儲存PDF，再與說明HTML一起管理。"
+                "確認是否能取得 PDF URL 或下載連結。使用檔案下載工具儲存 PDF，再與說明 HTML 一起管理。"
               ],
               [
                 "階層選單中的知識文章",
                 [
                   "主題選單",
-                  "文章A",
-                  "文章B"
+                  "文章 A",
+                  "文章 B"
                 ],
                 "對照選單檢查找到的候選，選擇相關文章並調整順序。將儲存結果與原始文章核對。"
               ]
@@ -46260,21 +46260,21 @@
             ],
             "rows": [
               [
-                "HTML資料集",
+                "HTML 資料集",
                 "透過目錄與搜尋閱讀已取得的頁面正文，確認需要的章節實際儲存了哪些。"
               ],
               [
-                "PDF原件",
-                "作為獨立檔案與說明HTML一起保管。HTML中的文件連結不會將PDF正文合併進頁面正文。"
+                "PDF 原件",
+                "作為獨立檔案與說明 HTML 一起保管。HTML 中的文件連結不會將 PDF 正文合併進頁面正文。"
               ],
               [
                 "資料備註",
-                "記錄原URL、確認日期及手冊標明的版本。沒有明確版本時也記錄此情況。"
+                "記錄原 URL、確認日期及手冊標明的版本。沒有明確版本時也記錄此情況。"
               ]
             ],
             "promptTitle": "依據收集的原文提問",
-            "prompt": "請僅依據這些資料整理步驟、前提條件及所需文件。引用支持的原文與來源URL。找不到的資訊請標為「提供資料中未記載」，不要推測。",
-            "aiLink": "了解如何準備交給外部AI的資料與問題"
+            "prompt": "請僅依據這些資料整理步驟、前提條件及所需文件。引用支持的原文與來源 URL。找不到的資訊請標為「提供資料中未記載」，不要推測。",
+            "aiLink": "了解如何準備交給外部 AI 的資料與問題"
           }
         }
       }
@@ -47050,40 +47050,40 @@
         "zh_CN": {
           "title": "合并网页信息阅读并准备AI分析资料 | Grab All Files",
           "desc": "将网页信息收集为易读的HTML，或导出带来源的资料，再手动交给外部AI进行摘要、比较和条件提取。附操作步骤、提问示例以及核对答案的方法。",
-          "eyebrow": "收集信息·阅读·AI分析",
-          "h1": "收集网页信息阅读，再将资料交给AI分析。",
-          "lead": "免费版可保存所选 1 页，Pro可将多个页面正文合并为一个易读的HTML。导出带来源的资料，准备向AI提出摘要、比较与条件提取问题。资料准备在您的设备上完成，分析由您选择的外部AI服务进行。",
+          "eyebrow": "收集信息·阅读·AI 分析",
+          "h1": "收集网页信息阅读，再将资料交给 AI 分析。",
+          "lead": "免费版可保存所选 1 页，Pro 可将多个页面正文合并为一个易读的 HTML。导出带来源的资料，准备向 AI 提出摘要、比较与条件提取问题。资料准备在您的设备上完成，分析由您选择的外部 AI 服务进行。",
           "best": [
             "依据收集的原文比较公开保险产品的条件。",
             "一起阅读多份手册并确认操作步骤。",
             "整理公共制度资料中明示的要求与日期。"
           ],
           "steps": [
-            "打开您有权访问的起始页面并启动页面HTML合并。检查候选列表，只选择需要的资料。",
-            "选择图片和链接文档设置。需要AI输出时，请在收集前启用“AI分析数据（带出处的Markdown）”。收集并保存HTML，使用目录和正文搜索阅读。",
-            "收集完成后使用“保存AI分析ZIP”和“复制给AI的提示词”，检查内容。如果AI服务需要单独文件，请解压ZIP。",
-            "手动将支持的文件与问题交给外部AI，将回答与原文、来源及采集时间核对。"
+            "打开您有权访问的起始页面并启动页面 HTML 合并。检查候选列表，只选择需要的资料。",
+            "选择图片和链接文档设置。需要 AI 输出时，请在收集前启用“AI分析数据（带出处的Markdown）”。收集并保存 HTML，使用目录和正文搜索阅读。",
+            "收集完成后使用“保存AI分析ZIP”和“复制给AI的提示词”，检查内容。如果 AI 服务需要单独文件，请解压 ZIP。",
+            "手动将支持的文件与问题交给外部 AI，将回答与原文、来源及采集时间核对。"
           ],
           "faq": [
             {
-              "q": "扩展会自动分析或把信息发给AI吗？",
-              "a": "不会。收集和导出均在您的设备上完成。您保存AI ZIP、复制提示词，并自行选择交给外部AI的文件。请确认AI的格式支持与隐私设置。"
+              "q": "扩展会自动分析或把信息发给 AI 吗？",
+              "a": "不会。收集和导出均在您的设备上完成。您保存 AI ZIP、复制提示词，并自行选择交给外部 AI 的文件。请确认 AI 的格式支持与隐私设置。"
             },
             {
               "q": "可以使用哪些页面和文档？",
-              "a": "仅限您有权访问的页面。选中的链接文档中，支持的PDF、文本、CSV、Word、Excel等成功读取的正文可加入AI输出。并非所有文档或图片都能读取，请检查失败和遗漏。"
+              "a": "仅限您有权访问的页面。选中的链接文档中，支持的 PDF、文本、CSV、Word、Excel 等成功读取的正文可加入 AI 输出。并非所有文档或图片都能读取，请检查失败和遗漏。"
             },
             {
               "q": "可以用免费版试用吗？",
-              "a": "免费版查找候选并只保存选中的 1 页为HTML。Pro可选择并合并多个页面正文。仍适用身份验证、权限与安全上限。"
+              "a": "免费版查找候选并只保存选中的 1 页为 HTML。Pro 可选择并合并多个页面正文。仍适用身份验证、权限与安全上限。"
             },
             {
-              "q": "交给AI的文件应采用什么格式和大小？",
-              "a": "依服务而异。需要时请解压ZIP，提供支持的文件。默认 25 MB是Markdown正文分块目标，不保证ZIP整体大小。也请确认AI的上传限制。"
+              "q": "交给 AI 的文件应采用什么格式和大小？",
+              "a": "依服务而异。需要时请解压 ZIP，提供支持的文件。默认 25 MB 是 Markdown 正文分块目标，不保证 ZIP 整体大小。也请确认 AI 的上传限制。"
             },
             {
-              "q": "如何核对AI回答？",
-              "a": "通过AI输出中的source_url与captured_at检查原文和当前来源。所收集资料中没有记载，不代表条件或例外不存在。"
+              "q": "如何核对 AI 回答？",
+              "a": "通过 AI 输出中的 source_url 与 captured_at 检查原文和当前来源。所收集资料中没有记载，不代表条件或例外不存在。"
             },
             {
               "q": "需要登录的页面怎么办？",
@@ -47099,18 +47099,18 @@
             "modes": [
               [
                 "阅读与重新查阅",
-                "通过HTML目录跳转到所需段落，在收集的资料中搜索词语并重新阅读。保存的资料可以反复查阅。"
+                "通过 HTML 目录跳转到所需段落，在收集的资料中搜索词语并重新阅读。保存的资料可以反复查阅。"
               ],
               [
-                "使用外部AI分析",
-                "使用带来源的资料和提示词，向外部AI提出摘要、比较或条件提取问题。选择所需文件，改变问题，反复使用同一批资料。"
+                "使用外部 AI 分析",
+                "使用带来源的资料和提示词，向外部 AI 提出摘要、比较或条件提取问题。选择所需文件，改变问题，反复使用同一批资料。"
               ]
             ],
             "examplesTitle": "根据资料范围提出具体问题",
             "examples": [
               [
                 "保险产品条件",
-                "请比较资料中明确记载的投保要求、免责和例外。每项附来源URL，缺失信息标为“所提供资料中未记载”。"
+                "请比较资料中明确记载的投保要求、免责和例外。每项附来源 URL，缺失信息标为“所提供资料中未记载”。"
               ],
               [
                 "手册",
@@ -47118,10 +47118,10 @@
               ],
               [
                 "公共制度",
-                "请将记载的对象要求、材料和期限整理为比较表，附来源URL与采集时间。实际使用前确认最新官方页面。"
+                "请将记载的对象要求、材料和期限整理为比较表，附来源 URL 与采集时间。实际使用前确认最新官方页面。"
               ]
             ],
-            "formatsTitle": "阅读、AI输入与来源核对的文件格式",
+            "formatsTitle": "阅读、AI 输入与来源核对的文件格式",
             "headers": [
               "输出",
               "用法"
@@ -47129,15 +47129,15 @@
             "rows": [
               [
                 "HTML",
-                "使用目录和正文搜索阅读。链接文档保留为链接，文档正文不会合并至HTML。"
+                "使用目录和正文搜索阅读。链接文档保留为链接，文档正文不会合并至 HTML。"
               ],
               [
                 "Markdown / JSONL / manifest",
-                "记录source_url和captured_at。Markdown用于正文，JSONL组织标题层级信息，manifest用于资料清单核对。"
+                "记录 source_url 和 captured_at。Markdown 用于正文，JSONL 组织标题层级信息，manifest 用于资料清单核对。"
               ],
               [
-                "表格CSV / JSON",
-                "选择按页面输出或完整包并启用表格导出后，可在支持范围与上限内提取有意义的HTML表格。布局表格被排除，请检查结果。"
+                "表格 CSV / JSON",
+                "选择按页面输出或完整包并启用表格导出后，可在支持范围与上限内提取有意义的 HTML 表格。布局表格被排除，请检查结果。"
               ]
             ]
           }
@@ -47145,9 +47145,9 @@
         "zh_TW": {
           "title": "合併網頁資訊閱讀並準備AI分析資料 | Grab All Files",
           "desc": "將網頁資訊收集為易讀的HTML，或匯出附來源的資料，再手動交給外部AI進行摘要、比較與條件擷取。附操作步驟、提問範例以及核對答案的方法。",
-          "eyebrow": "收集資訊·閱讀·AI分析",
-          "h1": "收集網頁資訊閱讀，再將資料交給AI分析。",
-          "lead": "免費版可儲存所選 1 頁，Pro可將多個頁面正文合併為一個易讀的HTML。匯出附來源的資料，準備向AI提出摘要、比較及條件擷取問題。資料準備在您的裝置上完成，分析由您選擇的外部AI服務進行。",
+          "eyebrow": "收集資訊·閱讀·AI 分析",
+          "h1": "收集網頁資訊閱讀，再將資料交給 AI 分析。",
+          "lead": "免費版可儲存所選 1 頁，Pro 可將多個頁面正文合併為一個易讀的 HTML。匯出附來源的資料，準備向 AI 提出摘要、比較及條件擷取問題。資料準備在您的裝置上完成，分析由您選擇的外部 AI 服務進行。",
           "best": [
             "依據收集的原文比較公開保險商品的條件。",
             "一起閱讀多份手冊並確認操作步驟。",
@@ -47155,30 +47155,30 @@
           ],
           "steps": [
             "開啟您有權存取的起始頁面並選擇「將網頁合併為 HTML」。檢查候選清單，只選取需要的資料。",
-            "選擇圖片與連結文件設定。需要AI輸出時，請在收集前啟用「AI分析資料（附出處的Markdown）」。收集並儲存HTML，使用目錄與正文搜尋閱讀。",
-            "收集完成後使用「儲存AI分析ZIP」與「複製給AI的提示詞」，檢查內容。如果AI服務需要個別檔案，請解壓縮ZIP。",
-            "手動將支援的檔案與問題交給外部AI，將回答與原文、來源及擷取時間核對。"
+            "選擇圖片與連結文件設定。需要 AI 輸出時，請在收集前啟用「AI分析資料（附出處的Markdown）」。收集並儲存 HTML，使用目錄與正文搜尋閱讀。",
+            "收集完成後使用「儲存AI分析ZIP」與「複製給AI的提示詞」，檢查內容。如果 AI 服務需要個別檔案，請解壓縮 ZIP。",
+            "手動將支援的檔案與問題交給外部 AI，將回答與原文、來源及擷取時間核對。"
           ],
           "faq": [
             {
-              "q": "擴充功能會自動分析或將資訊傳送給AI嗎？",
-              "a": "不會。收集及匯出均在您的裝置上完成。您儲存AI ZIP、複製提示詞，並自行選擇交給外部AI的檔案。請確認AI支援的格式及隱私設定。"
+              "q": "擴充功能會自動分析或將資訊傳送給 AI 嗎？",
+              "a": "不會。收集及匯出均在您的裝置上完成。您儲存 AI ZIP、複製提示詞，並自行選擇交給外部 AI 的檔案。請確認 AI 支援的格式及隱私設定。"
             },
             {
               "q": "可使用哪些頁面與文件？",
-              "a": "僅限您有權存取的頁面。選取的連結文件中，支援的PDF、文字、CSV、Word、Excel等成功讀取的正文可加入AI輸出。並非所有文件或圖片都能讀取，請檢查失敗及遺漏。"
+              "a": "僅限您有權存取的頁面。選取的連結文件中，支援的 PDF、文字、CSV、Word、Excel 等成功讀取的正文可加入 AI 輸出。並非所有文件或圖片都能讀取，請檢查失敗及遺漏。"
             },
             {
               "q": "可以先用免費版試用嗎？",
-              "a": "免費版尋找候選並只儲存選取的 1 頁為HTML。Pro可選擇並合併多個頁面正文。仍適用驗證、權限與安全上限。"
+              "a": "免費版尋找候選並只儲存選取的 1 頁為 HTML。Pro 可選擇並合併多個頁面正文。仍適用驗證、權限與安全上限。"
             },
             {
-              "q": "交給AI的檔案應採用什麼格式與大小？",
-              "a": "依服務而異。需要時請解壓縮ZIP，提供支援的檔案。預設 25 MB是Markdown正文分割目標，不保證ZIP整體大小。也請確認AI的上傳限制。"
+              "q": "交給 AI 的檔案應採用什麼格式與大小？",
+              "a": "依服務而異。需要時請解壓縮 ZIP，提供支援的檔案。預設 25 MB 是 Markdown 正文分割目標，不保證 ZIP 整體大小。也請確認 AI 的上傳限制。"
             },
             {
-              "q": "如何核對AI回答？",
-              "a": "透過AI輸出中的source_url與captured_at檢查原文及目前來源。收集資料中沒有記載，不代表條件或例外不存在。"
+              "q": "如何核對 AI 回答？",
+              "a": "透過 AI 輸出中的 source_url 與 captured_at 檢查原文及目前來源。收集資料中沒有記載，不代表條件或例外不存在。"
             },
             {
               "q": "需要登入的頁面怎麼辦？",
@@ -47194,18 +47194,18 @@
             "modes": [
               [
                 "閱讀與重新查閱",
-                "透過HTML目錄跳轉到所需段落，在收集的資料中搜尋詞語並重新閱讀。儲存的資料可以反覆查閱。"
+                "透過 HTML 目錄跳轉到所需段落，在收集的資料中搜尋詞語並重新閱讀。儲存的資料可以反覆查閱。"
               ],
               [
-                "使用外部AI分析",
-                "使用附來源的資料與提示詞，向外部AI提出摘要、比較或條件擷取問題。選擇所需檔案，改變問題，反覆使用同一批資料。"
+                "使用外部 AI 分析",
+                "使用附來源的資料與提示詞，向外部 AI 提出摘要、比較或條件擷取問題。選擇所需檔案，改變問題，反覆使用同一批資料。"
               ]
             ],
             "examplesTitle": "依據資料範圍提出具體問題",
             "examples": [
               [
                 "保險商品條件",
-                "請比較資料中明確記載的投保要求、除外及例外。每項附來源URL，缺少的資訊標為「提供資料中未記載」。"
+                "請比較資料中明確記載的投保要求、除外及例外。每項附來源 URL，缺少的資訊標為「提供資料中未記載」。"
               ],
               [
                 "手冊",
@@ -47213,10 +47213,10 @@
               ],
               [
                 "公共制度",
-                "請將記載的對象要求、文件及期限整理為比較表，附來源URL與擷取時間。實際使用前確認最新官方頁面。"
+                "請將記載的對象要求、文件及期限整理為比較表，附來源 URL 與擷取時間。實際使用前確認最新官方頁面。"
               ]
             ],
-            "formatsTitle": "閱讀、AI輸入與來源核對的檔案格式",
+            "formatsTitle": "閱讀、AI 輸入與來源核對的檔案格式",
             "headers": [
               "輸出",
               "用法"
@@ -47224,15 +47224,15 @@
             "rows": [
               [
                 "HTML",
-                "使用目錄與正文搜尋閱讀。連結文件保留為連結，文件正文不會合併至HTML。"
+                "使用目錄與正文搜尋閱讀。連結文件保留為連結，文件正文不會合併至 HTML。"
               ],
               [
                 "Markdown / JSONL / manifest",
-                "記錄source_url與captured_at。Markdown用於正文，JSONL依標題整理內容單位，manifest用於資料清單核對。"
+                "記錄 source_url 與 captured_at。Markdown 用於正文，JSONL 依標題整理內容單位，manifest 用於資料清單核對。"
               ],
               [
-                "表格CSV / JSON",
-                "選擇按頁面輸出或完整套件並啟用表格匯出後，可在支援範圍與上限內擷取有意義的HTML表格。排版表格會被排除，請檢查結果。"
+                "表格 CSV / JSON",
+                "選擇按頁面輸出或完整套件並啟用表格匯出後，可在支援範圍與上限內擷取有意義的 HTML 表格。排版表格會被排除，請檢查結果。"
               ]
             ]
           }
@@ -47281,11 +47281,11 @@
         },
         "zh_CN": {
           "title": "免费保存 1 个页面，或使用Pro合并多个页面。",
-          "text": "候选查找和HTML生成均在设备上完成。免费版列出相关候选，并仅保存您选择的 1 个页面。该页面内的图片没有方案数量上限。直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的 10 个文件”继续保存。Pro可选择多个候选并将其正文合并为一个HTML。仍适用安全和源网站限制。"
+          "text": "候选查找和 HTML 生成均在设备上完成。免费版列出相关候选，并仅保存您选择的 1 个页面。该页面内的图片没有方案数量上限。直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的 10 个文件”继续保存。Pro 可选择多个候选并将其正文合并为一个 HTML。仍适用安全和源网站限制。"
         },
         "zh_TW": {
           "title": "免費儲存 1 個頁面，或使用Pro合併多個頁面。",
-          "text": "候選探索和HTML產生均在裝置上完成。免費版會列出相關候選，並只儲存您選擇的 1 個頁面。該頁面內的圖片沒有方案數量上限，直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的 10 個檔案」繼續儲存。Pro可選擇多個候選並將其正文合併成一個HTML。仍適用安全和來源網站限制。"
+          "text": "候選探索和 HTML 產生均在裝置上完成。免費版會列出相關候選，並只儲存您選擇的 1 個頁面。該頁面內的圖片沒有方案數量上限，直接連結的檔案每次最多儲存 10 個，可在結果畫面用「儲存接下來的 10 個檔案」繼續儲存。Pro 可選擇多個候選並將其正文合併成一個 HTML。仍適用安全和來源網站限制。"
         }
       },
       "copy": {
@@ -47662,10 +47662,10 @@
             "按需准备来源可追溯的 Markdown、JSONL、manifest 和表格数据，用于 AI 分析。"
           ],
           "steps": [
-            "打开起始页面，点击Grab All Files图标并选择“将网页合并为 HTML”。",
+            "打开起始页面，点击 Grab All Files 图标并选择“将网页合并为 HTML”。",
             "在“收集范围”中保持“仅当前打开的页面”，或选择“同时查找链接到的页面”以列出相关候选页面。",
-            "检查候选页面。免费版始终只选中 1 个页面并每次保存（也可以每次添加 1 个页面到上次保存的 HTML 中）；Pro可以选择多个页面，并移除页面、设定顺序（“按找到的顺序”“按标题”“按网址/路径”“手动排列的顺序”）。",
-            "选择图片和链接文件选项后保存。Pro会生成一个带统一目录、可跨页面搜索的HTML。"
+            "检查候选页面。免费版始终只选中 1 个页面并每次保存（也可以每次添加 1 个页面到上次保存的 HTML 中）；Pro 可以选择多个页面，并移除页面、设定顺序（“按找到的顺序”“按标题”“按网址/路径”“手动排列的顺序”）。",
+            "选择图片和链接文件选项后保存。Pro 会生成一个带统一目录、可跨页面搜索的 HTML。"
           ],
           "faq": [
             {
@@ -47707,10 +47707,10 @@
             "按需準備來源可追溯的 Markdown、JSONL、manifest 和表格資料，用於 AI 分析。"
           ],
           "steps": [
-            "開啟起始頁面，點擊Grab All Files圖示並選擇「將網頁合併為 HTML」。",
+            "開啟起始頁面，點擊 Grab All Files 圖示並選擇「將網頁合併為 HTML」。",
             "在「收集範圍」中保持「僅目前開啟的頁面」，或選擇「同時尋找連結到的頁面」以列出相關候選頁面。",
-            "檢視候選頁面。免費版始終只選取 1 個頁面並每次儲存（也可以每次將 1 個頁面加入上次儲存的 HTML 中）；Pro可以選取多個頁面，並移除頁面、設定順序（「依找到的順序」「依標題」「依網址／路徑」「手動排列的順序」）。",
-            "選擇圖片和連結檔案選項後儲存。Pro會產生一個附統一目錄、可跨頁面搜尋的HTML。"
+            "檢視候選頁面。免費版始終只選取 1 個頁面並每次儲存（也可以每次將 1 個頁面加入上次儲存的 HTML 中）；Pro 可以選取多個頁面，並移除頁面、設定順序（「依找到的順序」「依標題」「依網址／路徑」「手動排列的順序」）。",
+            "選擇圖片和連結檔案選項後儲存。Pro 會產生一個附統一目錄、可跨頁面搜尋的 HTML。"
           ],
           "faq": [
             {
@@ -48112,90 +48112,90 @@
         "zh_CN": {
           "title": "批量下载网站上的所有PDF | Grab All Files",
           "desc": "在Chrome、Edge或Firefox中下载页面或其所在文件夹中链接的PDF。可筛选结果，免费版每次最多保存 10 个文件，或在本地合并PDF。",
-          "eyebrow": "PDF收集",
-          "h1": "无需逐个打开文件，即可下载网站上的所有PDF。",
-          "lead": "Grab All Files 可检测普通链接、嵌入式查看器、iframe、懒加载、fetch/XHR响应和CMS下载路径中的PDF。按PDF筛选后，可下载或在浏览器本地合并。",
+          "eyebrow": "PDF 收集",
+          "h1": "无需逐个打开文件，即可下载网站上的所有 PDF。",
+          "lead": "Grab All Files 可检测普通链接、嵌入式查看器、iframe、懒加载、fetch/XHR 响应和 CMS 下载路径中的 PDF。按 PDF 筛选后，可下载或在浏览器本地合并。",
           "best": [
             "分散在多页的公共报告、表单和公开资料。",
-            "课程材料、论文和研究PDF。",
-            "直接文件URL被隐藏的PDF查看器页面。",
-            "PDF位于一到两层链接之下的课程或档案文件夹。"
+            "课程材料、论文和研究 PDF。",
+            "直接文件 URL 被隐藏的 PDF 查看器页面。",
+            "PDF 位于一到两层链接之下的课程或档案文件夹。"
           ],
           "steps": [
-            "打开列出PDF的页面，点击工具栏上的Grab All Files图标。",
+            "打开列出 PDF 的页面，点击工具栏上的 Grab All Files 图标。",
             "选择“深度”后点击“扫描”。“仅当前页面”只检查本页；深度 1 还会扫描起始页面文件夹内链接到的页面，深度 2 再往下一层。越深耗时越长（最多 100,000 个页面）。",
-            "将列表筛选为PDF，确认每个文件的标题、来源页面、大小和URL，勾选需要的PDF。",
-            "点击“保存所选文件”，或在“其他操作”中使用ZIP或“合并PDF”。免费版每次操作最多 10 个；勾选接下来的PDF后再次点击同一按钮即可。"
+            "将列表筛选为 PDF，确认每个文件的标题、来源页面、大小和 URL，勾选需要的 PDF。",
+            "点击“保存所选文件”，或在“其他操作”中使用 ZIP 或“合并PDF”。免费版每次操作最多 10 个；勾选接下来的 PDF 后再次点击同一按钮即可。"
           ],
           "faq": [
             {
-              "q": "能找到查看器或iframe中的PDF吗？",
-              "a": "可以。它会检查iframe、查看器URL、fetch/XHR响应、blob URL和常见CMS路径。"
+              "q": "能找到查看器或 iframe 中的 PDF 吗？",
+              "a": "可以。它会检查 iframe、查看器 URL、fetch/XHR 响应、blob URL 和常见 CMS 路径。"
             },
             {
               "q": "能爬取多个页面吗？",
               "a": "可以。提高链接深度即可扫描起始页面所在文件夹内的链接页面。例如，/~name/course.html 只会在 /~name/ 内爬取，该文件夹以外的页面不会被爬取。"
             },
             {
-              "q": "合并PDF会上传文件吗？",
-              "a": "不会。PDF合并在浏览器本地运行。"
+              "q": "合并 PDF 会上传文件吗？",
+              "a": "不会。PDF 合并在浏览器本地运行。"
             },
             {
-              "q": "可以免费下载PDF吗？",
-              "a": "可以。免费版的下载、ZIP和合并每次操作最多处理 10 个选中的PDF。勾选接下来的PDF并再次点击同一按钮即可继续。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的数量限制。"
+              "q": "可以免费下载 PDF 吗？",
+              "a": "可以。免费版的下载、ZIP 和合并每次操作最多处理 10 个选中的 PDF。勾选接下来的 PDF 并再次点击同一按钮即可继续。Pro（$19.99，一次性购买，最多 3 台设备）没有每次操作的数量限制。"
             },
             {
-              "q": "能保证保存所有PDF吗？",
-              "a": "不能保证。结果取决于找到的链接、扫描深度、网站访问权限和浏览器支持。可检查失败的下载并重试，或导出附带原因的失败URL列表。本扩展不会绕过登录或网站限制。"
+              "q": "能保证保存所有 PDF 吗？",
+              "a": "不能保证。结果取决于找到的链接、扫描深度、网站访问权限和浏览器支持。可检查失败的下载并重试，或导出附带原因的失败 URL 列表。本扩展不会绕过登录或网站限制。"
             },
             {
-              "q": "PDF需要登录才能访问怎么办？",
-              "a": "扫描前请先在同一浏览器中登录网站；扫描和按深度爬取都会使用该会话。如果链接返回的是登录页面而不是PDF，多半是会话已过期，请重新登录后重试。本扩展不会替您登录，也不会绕过访问限制。"
+              "q": "PDF 需要登录才能访问怎么办？",
+              "a": "扫描前请先在同一浏览器中登录网站；扫描和按深度爬取都会使用该会话。如果链接返回的是登录页面而不是 PDF，多半是会话已过期，请重新登录后重试。本扩展不会替您登录，也不会绕过访问限制。"
             }
           ]
         },
         "zh_TW": {
           "title": "批次下載網站上的所有PDF | Grab All Files",
           "desc": "在Chrome、Edge或Firefox中下載頁面或其所在資料夾中連結的PDF。可篩選結果，免費版每次最多儲存 10 個檔案，或在本機合併PDF。",
-          "eyebrow": "PDF收集",
-          "h1": "無需逐一開啟檔案，即可下載網站上的所有PDF。",
-          "lead": "Grab All Files 可偵測普通連結、嵌入式檢視器、iframe、延遲載入、fetch/XHR回應和CMS下載路徑中的PDF。依PDF篩選後，可下載或在瀏覽器本機合併。",
+          "eyebrow": "PDF 收集",
+          "h1": "無需逐一開啟檔案，即可下載網站上的所有 PDF。",
+          "lead": "Grab All Files 可偵測普通連結、嵌入式檢視器、iframe、延遲載入、fetch/XHR 回應和 CMS 下載路徑中的 PDF。依 PDF 篩選後，可下載或在瀏覽器本機合併。",
           "best": [
             "分散在多頁的公共報告、表單和公開資料。",
-            "課程教材、論文和研究PDF。",
-            "直接檔案URL被隱藏的PDF檢視器頁面。",
-            "PDF位於一到兩層連結之下的課程或檔案資料夾。"
+            "課程教材、論文和研究 PDF。",
+            "直接檔案 URL 被隱藏的 PDF 檢視器頁面。",
+            "PDF 位於一到兩層連結之下的課程或檔案資料夾。"
           ],
           "steps": [
-            "開啟列出PDF的頁面，點擊工具列上的Grab All Files圖示。",
+            "開啟列出 PDF 的頁面，點擊工具列上的 Grab All Files 圖示。",
             "選擇「深度」後點擊「掃描」。「僅此頁面」只檢查本頁；深度 1 還會掃描起始頁面資料夾內連結到的頁面，深度 2 再往下一層。越深耗時越長（最多 100,000 個頁面）。",
-            "將清單篩選為PDF，確認每個檔案的標題、來源頁面、大小和URL，勾選需要的PDF。",
-            "點擊「儲存所選檔案」，或在「其他操作」中使用ZIP或「合併PDF」。免費版每次操作最多 10 個；勾選接下來的PDF後再次點擊同一按鈕即可。"
+            "將清單篩選為 PDF，確認每個檔案的標題、來源頁面、大小和 URL，勾選需要的 PDF。",
+            "點擊「儲存所選檔案」，或在「其他操作」中使用 ZIP 或「合併PDF」。免費版每次操作最多 10 個；勾選接下來的 PDF 後再次點擊同一按鈕即可。"
           ],
           "faq": [
             {
-              "q": "能找到檢視器或iframe中的PDF嗎？",
-              "a": "可以。它會檢查iframe、檢視器URL、fetch/XHR回應、blob URL和常見CMS路徑。"
+              "q": "能找到檢視器或 iframe 中的 PDF 嗎？",
+              "a": "可以。它會檢查 iframe、檢視器 URL、fetch/XHR 回應、blob URL 和常見 CMS 路徑。"
             },
             {
               "q": "能爬取多個頁面嗎？",
               "a": "可以。提高連結深度即可掃描起始頁面所在資料夾內的連結頁面。例如，/~name/course.html 只會在 /~name/ 內爬取，該資料夾以外的頁面不會被爬取。"
             },
             {
-              "q": "合併PDF會上傳檔案嗎？",
-              "a": "不會。PDF合併在瀏覽器本機執行。"
+              "q": "合併 PDF 會上傳檔案嗎？",
+              "a": "不會。PDF 合併在瀏覽器本機執行。"
             },
             {
-              "q": "可以免費下載PDF嗎？",
-              "a": "可以。免費版的下載、ZIP和合併每次操作最多處理 10 個選取的PDF。勾選接下來的PDF並再次點擊同一按鈕即可繼續，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次操作的數量限制。"
+              "q": "可以免費下載 PDF 嗎？",
+              "a": "可以。免費版的下載、ZIP 和合併每次操作最多處理 10 個選取的 PDF。勾選接下來的 PDF 並再次點擊同一按鈕即可繼續，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次操作的數量限制。"
             },
             {
-              "q": "能保證儲存所有PDF嗎？",
-              "a": "無法保證。結果取決於找到的連結、掃描深度、網站存取權限和瀏覽器支援。可檢查失敗的下載並重試，或匯出附帶原因的失敗URL清單。本擴充功能不會繞過登入或網站限制。"
+              "q": "能保證儲存所有 PDF 嗎？",
+              "a": "無法保證。結果取決於找到的連結、掃描深度、網站存取權限和瀏覽器支援。可檢查失敗的下載並重試，或匯出附帶原因的失敗 URL 清單。本擴充功能不會繞過登入或網站限制。"
             },
             {
-              "q": "PDF需要登入才能存取怎麼辦？",
-              "a": "掃描前請先在同一瀏覽器登入網站；掃描和依深度爬取都會使用該工作階段。若連結回傳的是登入頁面而不是PDF，多半是工作階段已過期，請重新登入後重試。本擴充功能不會代您登入，也不會繞過存取限制。"
+              "q": "PDF 需要登入才能存取怎麼辦？",
+              "a": "掃描前請先在同一瀏覽器登入網站；掃描和依深度爬取都會使用該工作階段。若連結回傳的是登入頁面而不是 PDF，多半是工作階段已過期，請重新登入後重試。本擴充功能不會代您登入，也不會繞過存取限制。"
             }
           ]
         }
@@ -48542,23 +48542,23 @@
           "desc": "检测可见图片、懒加载图片、CSS背景图和blob图片，将选中的图片批量保存、打包ZIP或导出URL的CSV。免费版每次下载最多 10 个。",
           "eyebrow": "图片收集",
           "h1": "批量下载网页图片，包括懒加载资源。",
-          "lead": "图片库常把文件藏在懒加载、CSS背景、srcset、blob URL和脚本中。Grab All Files 会列出可检测的图片URL，便于筛选、选择和保存。",
+          "lead": "图片库常把文件藏在懒加载、CSS 背景、srcset、blob URL 和脚本中。Grab All Files 会列出可检测的图片 URL，便于筛选、选择和保存。",
           "best": [
             "图片库和媒体库。",
             "包含大量图片的产品、作品集或文档页面。",
-            "使用懒加载、srcset或CSS背景图的页面。",
-            "便于日后核对的图片URL CSV列表。"
+            "使用懒加载、srcset 或 CSS 背景图的页面。",
+            "便于日后核对的图片 URL CSV 列表。"
           ],
           "steps": [
-            "打开图库或页面，点击工具栏上的Grab All Files图标。",
+            "打开图库或页面，点击工具栏上的 Grab All Files 图标。",
             "对于图库和无限滚动页面，Pro 会自动滚动到底；如需更长时间，请在“扫描设置”中选择“滚动时间”（标准 45 秒、较长 90 秒、彻底 180 秒）。免费版请先自己滚动到底。然后点击“扫描”。",
-            "将列表筛选为JPG、PNG、WebP、GIF、SVG等图片。在“详细设置”中设置最小“大小”，即可隐藏缩略图和图标。",
-            "勾选图片后点击“保存所选文件”（免费版每次最多 10 个），或在“其他操作”中使用ZIP、按类型或域名“整理”，或“导出文件信息CSV”。"
+            "将列表筛选为 JPG、PNG、WebP、GIF、SVG 等图片。在“详细设置”中设置最小“大小”，即可隐藏缩略图和图标。",
+            "勾选图片后点击“保存所选文件”（免费版每次最多 10 个），或在“其他操作”中使用 ZIP、按类型或域名“整理”，或“导出文件信息CSV”。"
           ],
           "faq": [
             {
               "q": "能检测懒加载的图片吗？",
-              "a": "可以，只要图片已载入页面。它会读取图片属性、srcset、CSS背景、blob URL和网络响应。需要滚动才出现的图片，Pro 会自动滚动页面来加载；免费版请在扫描前自己滚动到底。"
+              "a": "可以，只要图片已载入页面。它会读取图片属性、srcset、CSS 背景、blob URL 和网络响应。需要滚动才出现的图片，Pro 会自动滚动页面来加载；免费版请在扫描前自己滚动到底。"
             },
             {
               "q": "能只下载某些图片类型吗？",
@@ -48566,15 +48566,15 @@
             },
             {
               "q": "为什么会列出缩略图或小图标？",
-              "a": "很多页面会为缩略图、图标和标志单独使用小文件。在“详细设置”中设置最小“大小”即可隐藏它们；大小未知的文件仍会保留在列表中。比较大小和URL，选择原尺寸版本。"
+              "a": "很多页面会为缩略图、图标和标志单独使用小文件。在“详细设置”中设置最小“大小”即可隐藏它们；大小未知的文件仍会保留在列表中。比较大小和 URL，选择原尺寸版本。"
             },
             {
-              "q": "可以只导出图片URL而不下载吗？",
+              "q": "可以只导出图片 URL 而不下载吗？",
               "a": "可以。勾选图片后使用“其他操作”中的“导出文件信息CSV”。免费版每次最多导出 10 行；勾选接下来的行再导出即可。"
             },
             {
               "q": "免费版对图片数量有限制吗？",
-              "a": "免费版每次下载或ZIP最多保存 10 张选中的图片。选择接下来的图片并再次点击同一按钮即可继续。Pro（$19.99，一次性购买，最多 3 台设备）没有每次下载的数量限制。"
+              "a": "免费版每次下载或 ZIP 最多保存 10 张选中的图片。选择接下来的图片并再次点击同一按钮即可继续。Pro（$19.99，一次性购买，最多 3 台设备）没有每次下载的数量限制。"
             }
           ]
         },
@@ -48583,23 +48583,23 @@
           "desc": "偵測可見圖片、延遲載入圖片、CSS背景圖和blob圖片，將選取的圖片批次儲存、打包ZIP或匯出URL的CSV。免費版每次下載最多 10 個。",
           "eyebrow": "圖片收集",
           "h1": "批次下載網頁圖片，包括延遲載入資源。",
-          "lead": "圖片庫常把檔案藏在延遲載入、CSS背景、srcset、blob URL和指令碼中。Grab All Files 會列出可偵測的圖片URL，方便篩選、選取和儲存。",
+          "lead": "圖片庫常把檔案藏在延遲載入、CSS 背景、srcset、blob URL 和指令碼中。Grab All Files 會列出可偵測的圖片 URL，方便篩選、選取和儲存。",
           "best": [
             "圖片庫和媒體庫。",
             "包含大量圖片的產品、作品集或文件頁面。",
-            "使用延遲載入、srcset或CSS背景圖的頁面。",
-            "便於日後核對的圖片URL CSV清單。"
+            "使用延遲載入、srcset 或 CSS 背景圖的頁面。",
+            "便於日後核對的圖片 URL CSV 清單。"
           ],
           "steps": [
-            "開啟圖庫或頁面，點擊工具列上的Grab All Files圖示。",
+            "開啟圖庫或頁面，點擊工具列上的 Grab All Files 圖示。",
             "對於圖庫和無限捲動頁面，Pro 會自動捲動到底；如需更長時間，請在「掃描設定」中選擇「捲動時間」（標準 45 秒、較長 90 秒、徹底 180 秒）。免費版請先自行捲動到底。然後點擊「掃描」。",
-            "將清單篩選為JPG、PNG、WebP、GIF、SVG等圖片。在「詳細設定」中設定最小「大小」，即可隱藏縮圖和圖示。",
-            "勾選圖片後點擊「儲存所選檔案」（免費版每次最多 10 個），或在「其他操作」中使用ZIP、依類型或網域「整理」，或「匯出檔案資訊CSV」。"
+            "將清單篩選為 JPG、PNG、WebP、GIF、SVG 等圖片。在「詳細設定」中設定最小「大小」，即可隱藏縮圖和圖示。",
+            "勾選圖片後點擊「儲存所選檔案」（免費版每次最多 10 個），或在「其他操作」中使用 ZIP、依類型或網域「整理」，或「匯出檔案資訊CSV」。"
           ],
           "faq": [
             {
               "q": "能偵測延遲載入的圖片嗎？",
-              "a": "可以，只要圖片已載入頁面。它會讀取圖片屬性、srcset、CSS背景、blob URL和網路回應。需要捲動才出現的圖片，Pro 會自動捲動頁面來載入；免費版請在掃描前自行捲動到底。"
+              "a": "可以，只要圖片已載入頁面。它會讀取圖片屬性、srcset、CSS 背景、blob URL 和網路回應。需要捲動才出現的圖片，Pro 會自動捲動頁面來載入；免費版請在掃描前自行捲動到底。"
             },
             {
               "q": "能只下載某些圖片類型嗎？",
@@ -48607,15 +48607,15 @@
             },
             {
               "q": "為什麼會列出縮圖或小圖示？",
-              "a": "許多頁面會為縮圖、圖示和標誌另外使用小檔案。在「詳細設定」中設定最小「大小」即可隱藏它們；大小未知的檔案仍會保留在清單中。比較大小和URL，選擇原尺寸版本。"
+              "a": "許多頁面會為縮圖、圖示和標誌另外使用小檔案。在「詳細設定」中設定最小「大小」即可隱藏它們；大小未知的檔案仍會保留在清單中。比較大小和 URL，選擇原尺寸版本。"
             },
             {
-              "q": "可以只匯出圖片URL而不下載嗎？",
+              "q": "可以只匯出圖片 URL 而不下載嗎？",
               "a": "可以。勾選圖片後使用「其他操作」中的「匯出檔案資訊CSV」。免費版每次最多匯出 10 列；勾選接下來的列再匯出即可。"
             },
             {
               "q": "免費版對圖片數量有限制嗎？",
-              "a": "免費版每次下載或ZIP最多儲存 10 張選取的圖片。選取接下來的圖片並再次點擊同一按鈕即可繼續，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次下載的數量限制。"
+              "a": "免費版每次下載或 ZIP 最多儲存 10 張選取的圖片。選取接下來的圖片並再次點擊同一按鈕即可繼續，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次下載的數量限制。"
             }
           ]
         }
@@ -49002,15 +49002,15 @@
           "desc": "查找网页上的PDF、Office文档、图片、ZIP和CSV，筛选列表后批量保存或打包为ZIP。免费版每次下载最多保存 10 个文件，全程在浏览器本地处理。",
           "eyebrow": "文件批量下载",
           "h1": "一次有序操作，下载网页上的所有文件。",
-          "lead": "当页面混合PDF、Office文档、图片、ZIP、CSV和fetch响应时，手动保存很慢。Grab All Files 会列出可检测文件和元数据，让您只保留需要的内容。",
+          "lead": "当页面混合 PDF、Office 文档、图片、ZIP、CSV 和 fetch 响应时，手动保存很慢。Grab All Files 会列出可检测文件和元数据，让您只保留需要的内容。",
           "best": [
             "包含大量文档、媒体或压缩包链接的页面。",
-            "文件通过JavaScript、查看器或后台请求出现的页面。",
-            "需要用CSV记录文件URL、大小和来源页面的审计。",
+            "文件通过 JavaScript、查看器或后台请求出现的页面。",
+            "需要用 CSV 记录文件 URL、大小和来源页面的审计。",
             "不值得专门搭建爬虫的一次性收集任务。"
           ],
           "steps": [
-            "在Chrome、Edge或Firefox中打开页面，点击工具栏上的Grab All Files图标。列表针对当前打开的页面生成。",
+            "在 Chrome、Edge 或 Firefox 中打开页面，点击工具栏上的 Grab All Files 图标。列表针对当前打开的页面生成。",
             "点击“扫描”。如需包含链接到的页面，请先提高“深度”（“仅当前页面”只检查本页）；链接只会在起始页面所在的文件夹内跟踪。",
             "用文件类型列表、文件名/标题搜索框和“详细设置”（最小大小、“保存名称”）缩小列表，勾选需要的文件。",
             "点击“保存所选文件”。ZIP、“合并PDF”、“整理”和“导出文件信息CSV”位于“其他操作”中。免费版每次下载最多保存 10 个文件。",
@@ -49019,7 +49019,7 @@
           "faq": [
             {
               "q": "支持哪些文件类型？",
-              "a": "可检测浏览器能访问的PDF、Office文档、图片、ZIP、CSV和其他可下载响应。还能检测分卷 / 多卷压缩包（如 .001、.r00、.z01）。"
+              "a": "可检测浏览器能访问的 PDF、Office 文档、图片、ZIP、CSV 和其他可下载响应。还能检测分卷 / 多卷压缩包（如 .001、.r00、.z01）。"
             },
             {
               "q": "能只选择部分文件吗？",
@@ -49027,19 +49027,19 @@
             },
             {
               "q": "免费版有限制吗？",
-              "a": "免费版每次下载最多保存 10 个选中文件，ZIP、“合并PDF”和CSV导出也适用同样的上限。要继续，请选择接下来的文件并再次点击同一按钮即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次下载的数量限制。"
+              "a": "免费版每次下载最多保存 10 个选中文件，ZIP、“合并PDF”和 CSV 导出也适用同样的上限。要继续，请选择接下来的文件并再次点击同一按钮即可。Pro（$19.99，一次性购买，最多 3 台设备）没有每次下载的数量限制。"
             },
             {
               "q": "什么都没找到，或比预期少怎么办？",
-              "a": "Pro 在扫描时会自动把页面滚动到底，并继续读取同一列表的后续页面（每次扫描最多 100 页）。免费版只读取屏幕上已显示的内容，请先自己滚动到底（或打开下一页），再重新扫描。如果文件在链接到的页面上，请提高“深度”。请在该网站暂停广告拦截器。如果下载由页面自身的JavaScript触发，请在出现时使用“主动抓取”。"
+              "a": "Pro 在扫描时会自动把页面滚动到底，并继续读取同一列表的后续页面（每次扫描最多 100 页）。免费版只读取屏幕上已显示的内容，请先自己滚动到底（或打开下一页），再重新扫描。如果文件在链接到的页面上，请提高“深度”。请在该网站暂停广告拦截器。如果下载由页面自身的 JavaScript 触发，请在出现时使用“主动抓取”。"
             },
             {
               "q": "页面需要登录怎么办？",
               "a": "请先在同一浏览器中登录网站，再进行扫描。Grab All Files 使用您已有的登录会话；深度为 1 及以上时，也会用同一登录状态打开链接到的页面。它不会替您登录，也不会绕过访问限制。标有“需要登录”的行，请重新登录后再重试。"
             },
             {
-              "q": "旧HTTP页面也可以吗？",
-              "a": "可以。浏览器能打开的HTTP和HTTPS页面都可扫描。"
+              "q": "旧 HTTP 页面也可以吗？",
+              "a": "可以。浏览器能打开的 HTTP 和 HTTPS 页面都可扫描。"
             }
           ]
         },
@@ -49048,15 +49048,15 @@
           "desc": "找出網頁上的PDF、Office文件、圖片、ZIP和CSV，篩選清單後批次儲存或打包為ZIP。免費版每次下載最多儲存 10 個檔案，全程在瀏覽器本機處理。",
           "eyebrow": "檔案批次下載",
           "h1": "一次有序操作，下載網頁上的所有檔案。",
-          "lead": "當頁面混合PDF、Office文件、圖片、ZIP、CSV和fetch回應時，手動儲存很慢。Grab All Files 會列出可偵測檔案和中繼資料，讓您只保留需要的內容。",
+          "lead": "當頁面混合 PDF、Office 文件、圖片、ZIP、CSV 和 fetch 回應時，手動儲存很慢。Grab All Files 會列出可偵測檔案和中繼資料，讓您只保留需要的內容。",
           "best": [
             "包含大量文件、媒體或壓縮檔連結的頁面。",
-            "檔案透過JavaScript、檢視器或背景請求出現的頁面。",
-            "需要以CSV記錄檔案URL、大小與來源頁面的稽核。",
+            "檔案透過 JavaScript、檢視器或背景請求出現的頁面。",
+            "需要以 CSV 記錄檔案 URL、大小與來源頁面的稽核。",
             "不值得特地架設爬蟲的一次性收集作業。"
           ],
           "steps": [
-            "在Chrome、Edge或Firefox開啟頁面，點擊工具列上的Grab All Files圖示。清單會針對目前開啟的頁面產生。",
+            "在 Chrome、Edge 或 Firefox 開啟頁面，點擊工具列上的 Grab All Files 圖示。清單會針對目前開啟的頁面產生。",
             "點擊「掃描」。若要包含連結到的頁面，請先提高「深度」（「僅此頁面」只檢查本頁）；連結只會在起始頁面所在的資料夾內追蹤。",
             "用檔案類型清單、檔名／標題搜尋框和「詳細設定」（最小大小、「儲存名稱」）縮小清單，勾選需要的檔案。",
             "點擊「儲存所選檔案」。ZIP、「合併PDF」、「整理」和「匯出檔案資訊CSV」位於「其他操作」中。免費版每次下載最多儲存 10 個檔案。",
@@ -49065,7 +49065,7 @@
           "faq": [
             {
               "q": "支援哪些檔案類型？",
-              "a": "可偵測瀏覽器能存取的PDF、Office文件、圖片、ZIP、CSV和其他可下載回應。也能偵測分卷 / 多卷壓縮檔（如 .001、.r00、.z01）。"
+              "a": "可偵測瀏覽器能存取的 PDF、Office 文件、圖片、ZIP、CSV 和其他可下載回應。也能偵測分卷 / 多卷壓縮檔（如 .001、.r00、.z01）。"
             },
             {
               "q": "可以只選擇部分檔案嗎？",
@@ -49073,19 +49073,19 @@
             },
             {
               "q": "免費版有限制嗎？",
-              "a": "免費版每次下載最多儲存 10 個選取的檔案，ZIP、「合併PDF」和CSV匯出也適用相同上限。若要繼續，請選取接下來的檔案並再次點擊同一按鈕，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次下載的數量限制。"
+              "a": "免費版每次下載最多儲存 10 個選取的檔案，ZIP、「合併PDF」和 CSV 匯出也適用相同上限。若要繼續，請選取接下來的檔案並再次點擊同一按鈕，不會被鎖定。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次下載的數量限制。"
             },
             {
               "q": "什麼都沒找到，或比預期少怎麼辦？",
-              "a": "Pro 在掃描時會自動把頁面捲動到底，並繼續讀取同一清單的後續頁面（每次掃描最多 100 頁）。免費版只讀取畫面上已顯示的內容，請先自行捲動到底（或開啟下一頁），再重新掃描。若檔案在連結到的頁面上，請提高「深度」。請在該網站暫停廣告封鎖器。若下載由頁面本身的JavaScript觸發，請在出現時使用「主動擷取」。"
+              "a": "Pro 在掃描時會自動把頁面捲動到底，並繼續讀取同一清單的後續頁面（每次掃描最多 100 頁）。免費版只讀取畫面上已顯示的內容，請先自行捲動到底（或開啟下一頁），再重新掃描。若檔案在連結到的頁面上，請提高「深度」。請在該網站暫停廣告封鎖器。若下載由頁面本身的 JavaScript 觸發，請在出現時使用「主動擷取」。"
             },
             {
               "q": "頁面需要登入怎麼辦？",
               "a": "請先在同一瀏覽器登入網站，再進行掃描。Grab All Files 使用您既有的登入工作階段；深度為 1 以上時，也會以相同登入狀態開啟連結到的頁面。它不會代您登入，也不會繞過存取限制。標示「需要登入」的列，請重新登入後再重試。"
             },
             {
-              "q": "舊HTTP頁面也可以嗎？",
-              "a": "可以。瀏覽器能開啟的HTTP和HTTPS頁面都可掃描。"
+              "q": "舊 HTTP 頁面也可以嗎？",
+              "a": "可以。瀏覽器能開啟的 HTTP 和 HTTPS 頁面都可掃描。"
             }
           ]
         }
@@ -49467,14 +49467,14 @@
           "lead": "在内网、LMS、会员区和仪表板中，浏览器已拥有登录会话。Grab All Files 在该浏览器环境中运行，扫描您有权访问的页面。",
           "best": [
             "包含大量附件的企业内网。",
-            "Moodle、Canvas、Blackboard等LMS页面。",
+            "Moodle、Canvas、Blackboard 等 LMS 页面。",
             "会员专属库和客户门户。",
             "文件位于按钮、查看器或表单之后的文档仪表板。"
           ],
           "steps": [
             "像平常一样登录门户，打开列有您有权访问的文件的页面。",
-            "点击Grab All Files图标后点击“扫描”。如需包含起始页面文件夹内链接到的页面，请提高“深度”；这些页面会以当前登录状态打开。",
-            "筛选并勾选需要的文件，然后点击“保存所选文件”，或在“其他操作”中使用ZIP、“合并PDF”或“导出文件信息CSV”。免费版每次下载最多保存 10 个文件。",
+            "点击 Grab All Files 图标后点击“扫描”。如需包含起始页面文件夹内链接到的页面，请提高“深度”；这些页面会以当前登录状态打开。",
+            "筛选并勾选需要的文件，然后点击“保存所选文件”，或在“其他操作”中使用 ZIP、“合并PDF”或“导出文件信息CSV”。免费版每次下载最多保存 10 个文件。",
             "下一批请选择接下来的文件，再次点击“保存所选文件”。标有“需要登录”的行表示会话已结束：请重新登录后重试。"
           ],
           "faq": [
@@ -49492,7 +49492,7 @@
             },
             {
               "q": "免费版最多能下载多少个文件？",
-              "a": "免费版的下载、ZIP和合并每次操作最多处理 10 个选中的文件。要继续，请选择接下来的文件并再次点击“保存所选文件”。Pro（$19.99，一次性购买，最多 3 台设备）没有每次下载的数量限制。"
+              "a": "免费版的下载、ZIP 和合并每次操作最多处理 10 个选中的文件。要继续，请选择接下来的文件并再次点击“保存所选文件”。Pro（$19.99，一次性购买，最多 3 台设备）没有每次下载的数量限制。"
             },
             {
               "q": "扫描过程中会话过期了怎么办？",
@@ -49500,7 +49500,7 @@
             },
             {
               "q": "文件藏在按钮或查看器后面，也能获取吗？",
-              "a": "多数情况下可以。它能检测查看器、iframe和后台请求中的文件。如果下载由门户自身的JavaScript触发，“主动抓取”会让页面逐个启动下载，从而把文件一起保存。"
+              "a": "多数情况下可以。它能检测查看器、iframe 和后台请求中的文件。如果下载由门户自身的 JavaScript 触发，“主动抓取”会让页面逐个启动下载，从而把文件一起保存。"
             }
           ]
         },
@@ -49512,14 +49512,14 @@
           "lead": "在內網、LMS、會員區和儀表板中，瀏覽器已擁有登入工作階段。Grab All Files 在該瀏覽器環境中執行，掃描您有權存取的頁面。",
           "best": [
             "包含大量附件的企業內網。",
-            "Moodle、Canvas、Blackboard等LMS頁面。",
+            "Moodle、Canvas、Blackboard 等 LMS 頁面。",
             "會員專屬庫和客戶入口網站。",
             "檔案位於按鈕、檢視器或表單之後的文件儀表板。"
           ],
           "steps": [
             "像平常一樣登入入口網站，開啟列有您有權存取之檔案的頁面。",
-            "點擊Grab All Files圖示後點擊「掃描」。若要包含起始頁面資料夾內連結到的頁面，請提高「深度」；這些頁面會以目前的登入狀態開啟。",
-            "篩選並勾選需要的檔案，然後點擊「儲存所選檔案」，或在「其他操作」中使用ZIP、「合併PDF」或「匯出檔案資訊CSV」。免費版每次下載最多儲存 10 個檔案。",
+            "點擊 Grab All Files 圖示後點擊「掃描」。若要包含起始頁面資料夾內連結到的頁面，請提高「深度」；這些頁面會以目前的登入狀態開啟。",
+            "篩選並勾選需要的檔案，然後點擊「儲存所選檔案」，或在「其他操作」中使用 ZIP、「合併PDF」或「匯出檔案資訊CSV」。免費版每次下載最多儲存 10 個檔案。",
             "下一批請選取接下來的檔案，再次點擊「儲存所選檔案」。標示「需要登入」的列表示工作階段已結束：請重新登入後重試。"
           ],
           "faq": [
@@ -49537,7 +49537,7 @@
             },
             {
               "q": "免費版最多能下載多少個檔案？",
-              "a": "免費版的下載、ZIP和合併每次操作最多處理 10 個選取的檔案。若要繼續，請選取接下來的檔案並再次點擊「儲存所選檔案」。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次下載的數量限制。"
+              "a": "免費版的下載、ZIP 和合併每次操作最多處理 10 個選取的檔案。若要繼續，請選取接下來的檔案並再次點擊「儲存所選檔案」。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次下載的數量限制。"
             },
             {
               "q": "掃描過程中工作階段過期了怎麼辦？",
@@ -49545,7 +49545,7 @@
             },
             {
               "q": "檔案藏在按鈕或檢視器後面，也能取得嗎？",
-              "a": "多數情況下可以。它能偵測檢視器、iframe和背景請求中的檔案。若下載由入口網站本身的JavaScript觸發，「主動擷取」會讓頁面逐一啟動下載，從而把檔案一起儲存。"
+              "a": "多數情況下可以。它能偵測檢視器、iframe 和背景請求中的檔案。若下載由入口網站本身的 JavaScript 觸發，「主動擷取」會讓頁面逐一啟動下載，從而把檔案一起儲存。"
             }
           ]
         }
@@ -49898,84 +49898,84 @@
         "zh_CN": {
           "title": "在浏览器本地合并PDF | Grab All Files",
           "desc": "将网页上找到的PDF在浏览器内合并为一个文件，无需上传。可拖动调整顺序并指定文件名，也能保留原始PDF。免费版每次合并最多 10 个。",
-          "eyebrow": "本地PDF合并",
-          "h1": "从网页收集PDF后，直接在浏览器中本地合并。",
-          "lead": "Grab All Files 除了下载，还能合并。在页面或其文件夹内的链接页面中找到PDF后，您可以选择文件并在浏览器内合并。源PDF保留在您的设备上。",
+          "eyebrow": "本地 PDF 合并",
+          "h1": "从网页收集 PDF 后，直接在浏览器中本地合并。",
+          "lead": "Grab All Files 除了下载，还能合并。在页面或其文件夹内的链接页面中找到 PDF 后，您可以选择文件并在浏览器内合并。源 PDF 保留在您的设备上。",
           "best": [
             "批量扫描后合并报告、通知、讲义或表单。",
-            "避免将敏感文档发送给在线PDF合并服务。",
-            "将多个PDF变成一个审阅包。",
-            "同时保留源URL的CSV记录。"
+            "避免将敏感文档发送给在线 PDF 合并服务。",
+            "将多个 PDF 变成一个审阅包。",
+            "同时保留源 URL 的 CSV 记录。"
           ],
           "steps": [
-            "扫描列出PDF的页面。如需包含起始页面文件夹内链接到的页面，请提高“深度”。",
-            "确定顺序：PDF按列表中显示的顺序合并。可拖动行调整顺序（有筛选或列排序时也可以），也可点击“标题”等列标题排序。",
-            "勾选要合并的PDF（至少 2 个）。免费版每次合并最多 10 个；所选的其他类型文件不会并入。",
+            "扫描列出 PDF 的页面。如需包含起始页面文件夹内链接到的页面，请提高“深度”。",
+            "确定顺序：PDF 按列表中显示的顺序合并。可拖动行调整顺序（有筛选或列排序时也可以），也可点击“标题”等列标题排序。",
+            "勾选要合并的 PDF（至少 2 个）。免费版每次合并最多 10 个；所选的其他类型文件不会并入。",
             "打开“其他操作”，如有需要在“合并PDF”旁的“保存名称”中输入名称（留空则为页面名_日期），然后点击“合并PDF”。",
-            "检查结果：受密码保护、无法读取或不是PDF的响应会被跳过，并显示原因。"
+            "检查结果：受密码保护、无法读取或不是 PDF 的响应会被跳过，并显示原因。"
           ],
           "faq": [
             {
-              "q": "这是在线PDF合并服务吗？",
+              "q": "这是在线 PDF 合并服务吗？",
               "a": "不是。合并在浏览器中运行，文件不会上传到服务器。"
             },
             {
               "q": "能控制合并顺序吗？",
-              "a": "可以。PDF按列表中显示的顺序合并。可拖动行调整顺序（有筛选或列排序时也可以），也可按列排序。"
+              "a": "可以。PDF 按列表中显示的顺序合并。可拖动行调整顺序（有筛选或列排序时也可以），也可按列排序。"
             },
             {
-              "q": "也能保存原始PDF吗？",
-              "a": "可以。可保存原件、创建ZIP并合并选中PDF。"
+              "q": "也能保存原始 PDF 吗？",
+              "a": "可以。可保存原件、创建 ZIP 并合并选中 PDF。"
             },
             {
-              "q": "一次能合并的PDF数量有限制吗？",
-              "a": "免费版每次合并最多处理 10 个选中的PDF，与下载的 10 个上限相同。先合并第一组，再勾选接下来的PDF另行合并。Pro（$19.99，一次性购买，最多 3 台设备）没有每次合并的上限。每次合并至少需要 2 个PDF。"
+              "q": "一次能合并的 PDF 数量有限制吗？",
+              "a": "免费版每次合并最多处理 10 个选中的 PDF，与下载的 10 个上限相同。先合并第一组，再勾选接下来的 PDF 另行合并。Pro（$19.99，一次性购买，最多 3 台设备）没有每次合并的上限。每次合并至少需要 2 个 PDF。"
             },
             {
-              "q": "为什么有些PDF没有被合并？",
-              "a": "受密码保护或已损坏的PDF，以及返回登录页或错误页而不是PDF的链接（例如会话过期后），都会被跳过并显示原因。请重新登录后重试。总大小超过约 200MB时浏览器可能变慢，请把大量文件分成较小的组合并。"
+              "q": "为什么有些 PDF 没有被合并？",
+              "a": "受密码保护或已损坏的 PDF，以及返回登录页或错误页而不是 PDF 的链接（例如会话过期后），都会被跳过并显示原因。请重新登录后重试。总大小超过约 200MB 时浏览器可能变慢，请把大量文件分成较小的组合并。"
             }
           ]
         },
         "zh_TW": {
           "title": "在瀏覽器本機合併PDF | Grab All Files",
           "desc": "將網頁上找到的PDF在瀏覽器內合併為一個檔案，無需上傳。可拖曳調整順序並指定檔名，也能保留原始PDF。免費版每次合併最多 10 個。",
-          "eyebrow": "本機PDF合併",
-          "h1": "從網頁收集PDF後，直接在瀏覽器中本機合併。",
-          "lead": "Grab All Files 除了下載，也能合併 PDF。在頁面或其資料夾內的連結頁面中找到PDF後，您可以選擇檔案並在瀏覽器內合併。原始PDF保留在您的裝置上。",
+          "eyebrow": "本機 PDF 合併",
+          "h1": "從網頁收集 PDF 後，直接在瀏覽器中本機合併。",
+          "lead": "Grab All Files 除了下載，也能合併 PDF。在頁面或其資料夾內的連結頁面中找到 PDF 後，您可以選擇檔案並在瀏覽器內合併。原始 PDF 保留在您的裝置上。",
           "best": [
             "批次掃描後合併報告、通知、講義或表單。",
-            "避免將敏感文件傳給線上PDF合併服務。",
-            "將多個PDF變成一個審閱包。",
-            "同時保留來源URL的CSV記錄。"
+            "避免將敏感文件傳給線上 PDF 合併服務。",
+            "將多個 PDF 變成一個審閱包。",
+            "同時保留來源 URL 的 CSV 記錄。"
           ],
           "steps": [
-            "掃描列出PDF的頁面。若要包含起始頁面資料夾內連結到的頁面，請提高「深度」。",
-            "決定順序：PDF依清單中顯示的順序合併。可拖曳列調整順序（有篩選或欄位排序時也可以），也可點擊「標題」等欄位標題排序。",
-            "勾選要合併的PDF（至少 2 個）。免費版每次合併最多 10 個；所選的其他類型檔案不會併入。",
+            "掃描列出 PDF 的頁面。若要包含起始頁面資料夾內連結到的頁面，請提高「深度」。",
+            "決定順序：PDF 依清單中顯示的順序合併。可拖曳列調整順序（有篩選或欄位排序時也可以），也可點擊「標題」等欄位標題排序。",
+            "勾選要合併的 PDF（至少 2 個）。免費版每次合併最多 10 個；所選的其他類型檔案不會併入。",
             "開啟「其他操作」，如有需要在「合併PDF」旁的「儲存名稱」中輸入名稱（留空則為頁面名_日期），然後點擊「合併PDF」。",
-            "檢查結果：受密碼保護、無法讀取或不是PDF的回應會被略過，並顯示原因。"
+            "檢查結果：受密碼保護、無法讀取或不是 PDF 的回應會被略過，並顯示原因。"
           ],
           "faq": [
             {
-              "q": "這是線上PDF合併服務嗎？",
+              "q": "這是線上 PDF 合併服務嗎？",
               "a": "不是。合併在瀏覽器中執行，檔案不會上傳到伺服器。"
             },
             {
               "q": "能控制合併順序嗎？",
-              "a": "可以。PDF依清單中顯示的順序合併。可拖曳列調整順序（有篩選或欄位排序時也可以），也可依欄位排序。"
+              "a": "可以。PDF 依清單中顯示的順序合併。可拖曳列調整順序（有篩選或欄位排序時也可以），也可依欄位排序。"
             },
             {
-              "q": "也能儲存原始PDF嗎？",
-              "a": "可以。可儲存原件、建立ZIP並合併選取PDF。"
+              "q": "也能儲存原始 PDF 嗎？",
+              "a": "可以。可儲存原件、建立 ZIP 並合併選取 PDF。"
             },
             {
-              "q": "一次能合併的PDF數量有限制嗎？",
-              "a": "免費版每次合併最多處理 10 個選取的PDF，與下載的 10 個上限相同。先合併第一組，再勾選接下來的PDF另行合併。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次合併的上限。每次合併至少需要 2 個PDF。"
+              "q": "一次能合併的 PDF 數量有限制嗎？",
+              "a": "免費版每次合併最多處理 10 個選取的 PDF，與下載的 10 個上限相同。先合併第一組，再勾選接下來的 PDF 另行合併。Pro（$19.99，一次購買，最多 3 台裝置）沒有每次合併的上限。每次合併至少需要 2 個 PDF。"
             },
             {
-              "q": "為什麼有些PDF沒有被合併？",
-              "a": "受密碼保護或已損毀的PDF，以及回傳登入頁或錯誤頁而不是PDF的連結（例如工作階段過期後），都會被略過並顯示原因。請重新登入後重試。總大小超過約 200MB時瀏覽器可能變慢，請把大量檔案分成較小的組合併。"
+              "q": "為什麼有些 PDF 沒有被合併？",
+              "a": "受密碼保護或已損毀的 PDF，以及回傳登入頁或錯誤頁而不是 PDF 的連結（例如工作階段過期後），都會被略過並顯示原因。請重新登入後重試。總大小超過約 200MB 時瀏覽器可能變慢，請把大量檔案分成較小的組合併。"
             }
           ]
         }
@@ -50857,13 +50857,13 @@
       "manual": "手动传递",
       "excel": "Excel",
       "externalAI": "外部 AI",
-      "aiTableQuestion": "请比较A和B的值并解释差异。"
+      "aiTableQuestion": "请比较 A 和 B 的值并解释差异。"
     },
     "topics": {
       "tables": {
         "title": "将网页表格变成可用数据",
         "stages": [
-          "确认HTML表格",
+          "确认 HTML 表格",
           "准备 CSV / JSON",
           "用于 Excel 或外部 AI"
         ],
@@ -50894,7 +50894,7 @@
           "选择所需资料",
           "资料集与状态 CSV"
         ],
-        "note": "选择所需范围并核对原件。不保证获取所有资料；PDF为独立文件。"
+        "note": "选择所需范围并核对原件。不保证获取所有资料；PDF 为独立文件。"
       },
       "markdown": {
         "title": "将收集正文用作笔记",
@@ -50949,13 +50949,13 @@
       "manual": "手動傳遞",
       "excel": "Excel",
       "externalAI": "外部 AI",
-      "aiTableQuestion": "請比較A與B的值並解釋差異。"
+      "aiTableQuestion": "請比較 A 與 B 的值並解釋差異。"
     },
     "topics": {
       "tables": {
         "title": "將網頁表格變成可用資料",
         "stages": [
-          "確認HTML表格",
+          "確認 HTML 表格",
           "準備 CSV / JSON",
           "用於 Excel 或外部 AI"
         ],
@@ -50986,7 +50986,7 @@
           "選擇所需資料",
           "資料集與狀態 CSV"
         ],
-        "note": "選擇所需範圍並核對原件。不保證取得所有資料；PDF為獨立檔案。"
+        "note": "選擇所需範圍並核對原件。不保證取得所有資料；PDF 為獨立檔案。"
       },
       "markdown": {
         "title": "將收集正文用作筆記",
@@ -51797,33 +51797,33 @@
       "heading": "实际扩展界面",
       "title": "{label}：扩展程序的实际界面",
       "example": "使用示例资料的实际扩展界面。",
-      "collector": "免费版选择 1 页时的保存前设置与操作示例。Pro可按本文说明合并多个选定页面。",
+      "collector": "免费版选择 1 页时的保存前设置与操作示例。Pro 可按本文说明合并多个选定页面。",
       "portal": "这是虚构的演示门户，未使用真实账号或客户资料。",
       "english": "界面为英文。",
       "zoom": "打开原尺寸图片"
     },
     "purposes": {
       "collect-and-analyze-web-comments": "正在收集评论区页面",
-      "combine-local-html-files-into-one": "网页合并中的“电脑文件夹”模式：选择文件夹或ZIP文件，或拖到界面上",
+      "combine-local-html-files-into-one": "网页合并中的“电脑文件夹”模式：选择文件夹或 ZIP 文件，或拖到界面上",
       "save-web-pages-with-original-design": "“将网页合并为 HTML”中的“外观”：选择“保持原样”，“不保存广告”为开启（默认）",
-      "web-tables-to-csv-for-excel-ai": "表格CSV/JSON输出设置",
+      "web-tables-to-csv-for-excel-ai": "表格 CSV/JSON 输出设置",
       "save-and-compare-document-revisions": "保存变化报告的菜单",
-      "rename-and-organize-bulk-pdf-downloads": "PDF标题核对、保存名称与文件夹选项",
-      "collect-public-government-documents": "选择示例公共文件与文件信息CSV操作",
-      "save-web-pages-as-markdown": "Markdown输出格式设置",
+      "rename-and-organize-bulk-pdf-downloads": "PDF 标题核对、保存名称与文件夹选项",
+      "collect-public-government-documents": "选择示例公共文件与文件信息 CSV 操作",
+      "save-web-pages-as-markdown": "Markdown 输出格式设置",
       "save-online-manuals-and-knowledge-pages": "选择示例手册页面",
-      "web-pages-for-reading-and-ai-analysis": "AI数据输出菜单",
-      "combine-web-pages-into-one-html": "候选页面与单页HTML选择",
+      "web-pages-for-reading-and-ai-analysis": "AI 数据输出菜单",
+      "combine-web-pages-into-one-html": "候选页面与单页 HTML 选择",
       "bulk-download-images": "示例页面图片筛选与选择",
-      "download-all-pdfs": "示例页面PDF筛选与选择",
+      "download-all-pdfs": "示例页面 PDF 筛选与选择",
       "download-files-from-webpage": "选择示例页面的受支持文件",
       "internal-portal-downloads": "选择虚构门户附件",
-      "merge-pdfs-locally": "选定示例PDF的合并菜单",
-      "download-product-catalogs-and-datasheets": "核对示例型号PDF、保存名称与格式文件夹",
-      "download-ir-and-financial-report-pdfs": "核对编辑示例报告期间标题与PDF保存名称",
-      "download-tender-and-application-documents": "选择单一虚构项目资料与ZIP保存菜单",
-      "export-file-links-to-csv": "选定示例资料的文件信息CSV菜单",
-      "download-sds-and-technical-documents": "核对示例产品与修订标题、PDF与格式文件夹"
+      "merge-pdfs-locally": "选定示例 PDF 的合并菜单",
+      "download-product-catalogs-and-datasheets": "核对示例型号 PDF、保存名称与格式文件夹",
+      "download-ir-and-financial-report-pdfs": "核对编辑示例报告期间标题与 PDF 保存名称",
+      "download-tender-and-application-documents": "选择单一虚构项目资料与 ZIP 保存菜单",
+      "export-file-links-to-csv": "选定示例资料的文件信息 CSV 菜单",
+      "download-sds-and-technical-documents": "核对示例产品与修订标题、PDF 与格式文件夹"
     }
   },
   "zh_TW": {
@@ -51831,33 +51831,33 @@
       "heading": "實際擴充畫面",
       "title": "{label}：擴充功能的實際畫面",
       "example": "使用範例資料的實際擴充畫面。",
-      "collector": "免費版選取 1 頁時的儲存前設定與操作範例。Pro可依本文說明合併多個選定頁面。",
+      "collector": "免費版選取 1 頁時的儲存前設定與操作範例。Pro 可依本文說明合併多個選定頁面。",
       "portal": "這是虛構的示範入口網站，未使用真實帳號或客戶資料。",
       "english": "介面為英文。",
       "zoom": "開啟原尺寸圖片"
     },
     "purposes": {
       "collect-and-analyze-web-comments": "正在收集留言區頁面",
-      "combine-local-html-files-into-one": "網頁合併中的「電腦資料夾」模式：選擇資料夾或ZIP檔案，或拖曳到畫面上",
+      "combine-local-html-files-into-one": "網頁合併中的「電腦資料夾」模式：選擇資料夾或 ZIP 檔案，或拖曳到畫面上",
       "save-web-pages-with-original-design": "「將網頁合併為 HTML」中的「外觀」：選擇「保持原樣」，「不儲存廣告」為開啟（預設）",
-      "web-tables-to-csv-for-excel-ai": "表格CSV/JSON輸出設定",
+      "web-tables-to-csv-for-excel-ai": "表格 CSV/JSON 輸出設定",
       "save-and-compare-document-revisions": "儲存變更報告的選單",
-      "rename-and-organize-bulk-pdf-downloads": "PDF標題核對、儲存名稱與資料夾選項",
-      "collect-public-government-documents": "選取範例公共檔案與檔案資訊CSV操作",
-      "save-web-pages-as-markdown": "Markdown輸出格式設定",
+      "rename-and-organize-bulk-pdf-downloads": "PDF 標題核對、儲存名稱與資料夾選項",
+      "collect-public-government-documents": "選取範例公共檔案與檔案資訊 CSV 操作",
+      "save-web-pages-as-markdown": "Markdown 輸出格式設定",
       "save-online-manuals-and-knowledge-pages": "選取範例手冊頁面",
-      "web-pages-for-reading-and-ai-analysis": "AI資料輸出選單",
-      "combine-web-pages-into-one-html": "候選頁面與單頁HTML選取",
+      "web-pages-for-reading-and-ai-analysis": "AI 資料輸出選單",
+      "combine-web-pages-into-one-html": "候選頁面與單頁 HTML 選取",
       "bulk-download-images": "範例頁面圖片篩選與選取",
-      "download-all-pdfs": "範例頁面的PDF篩選與選取",
+      "download-all-pdfs": "範例頁面的 PDF 篩選與選取",
       "download-files-from-webpage": "選取範例頁面的支援檔案",
       "internal-portal-downloads": "選取虛構入口網站附件",
-      "merge-pdfs-locally": "選定範例PDF的合併選單",
-      "download-product-catalogs-and-datasheets": "核對範例型號PDF、儲存名稱與格式資料夾",
-      "download-ir-and-financial-report-pdfs": "核對編輯範例報告期間標題與PDF儲存名稱",
-      "download-tender-and-application-documents": "選取單一虛構案件資料與ZIP儲存選單",
-      "export-file-links-to-csv": "選定範例資料的檔案資訊CSV選單",
-      "download-sds-and-technical-documents": "核對範例產品與修訂標題、PDF與格式資料夾"
+      "merge-pdfs-locally": "選定範例 PDF 的合併選單",
+      "download-product-catalogs-and-datasheets": "核對範例型號 PDF、儲存名稱與格式資料夾",
+      "download-ir-and-financial-report-pdfs": "核對編輯範例報告期間標題與 PDF 儲存名稱",
+      "download-tender-and-application-documents": "選取單一虛構案件資料與 ZIP 儲存選單",
+      "export-file-links-to-csv": "選定範例資料的檔案資訊 CSV 選單",
+      "download-sds-and-technical-documents": "核對範例產品與修訂標題、PDF 與格式資料夾"
     }
   }
 };
@@ -52031,10 +52031,10 @@
       "detailCaption": "可以复制已保存评论的正文，或保存为单个 Markdown 或文本文件（.txt）。"
     },
     "web-pages-for-reading-and-ai-analysis": {
-      "primaryTitle": "设置收集页面与AI输出",
-      "primaryPurpose": "收集前确认目标页面并选择AI数据完整包的实际设置界面",
-      "detailTitle": "收集后的AI输出菜单",
-      "detailCaption": "此菜单提供AI ZIP保存与提示词复制操作。"
+      "primaryTitle": "设置收集页面与 AI 输出",
+      "primaryPurpose": "收集前确认目标页面并选择 AI 数据完整包的实际设置界面",
+      "detailTitle": "收集后的 AI 输出菜单",
+      "detailCaption": "此菜单提供 AI ZIP 保存与提示词复制操作。"
     },
     "save-and-compare-document-revisions": {
       "primaryTitle": "确认要重新收集的页面",
@@ -52051,10 +52051,10 @@
       "detailCaption": "可以複製已儲存留言的內文，或儲存為單一 Markdown 或文字檔（.txt）。"
     },
     "web-pages-for-reading-and-ai-analysis": {
-      "primaryTitle": "設定收集頁面與AI輸出",
-      "primaryPurpose": "收集前確認目標頁面並選擇AI資料完整套件的實際設定畫面",
-      "detailTitle": "收集後的AI輸出選單",
-      "detailCaption": "此選單提供AI ZIP儲存與提示詞複製操作。"
+      "primaryTitle": "設定收集頁面與 AI 輸出",
+      "primaryPurpose": "收集前確認目標頁面並選擇 AI 資料完整套件的實際設定畫面",
+      "detailTitle": "收集後的 AI 輸出選單",
+      "detailCaption": "此選單提供 AI ZIP 儲存與提示詞複製操作。"
     },
     "save-and-compare-document-revisions": {
       "primaryTitle": "確認要重新收集的頁面",
