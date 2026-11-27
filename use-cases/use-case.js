@@ -1721,7 +1721,7 @@
               "head": [
                 "",
                 "Kostenlos",
-                "Pro (US$19.99, einmalig)"
+                "Pro (19,99 $, einmalig)"
               ],
               "rows": [
                 [
@@ -4904,7 +4904,7 @@
                   ]
                 },
                 {
-                  "h": "Mit Pro (US$19.99, einmalig)",
+                  "h": "Mit Pro (19,99 $, einmalig)",
                   "items": [
                     "Viele Kandidaten auswählen, umsortieren und in einem Durchlauf speichern.",
                     "„Weiter“-Links folgen und alle folgenden Seiten in einem Durchlauf speichern.",
@@ -25332,7 +25332,7 @@
               "t": "table",
               "h": "The limits",
               "p": [
-                "Pro is US$19.99, paid once, with no subscription, and one license works on up to 3 devices. Free needs no credit card."
+                "Pro is $19.99, paid once, with no subscription, and one license works on up to 3 devices. Free needs no credit card."
               ],
               "head": [
                 "Item",
@@ -25565,7 +25565,7 @@
               "t": "table",
               "h": "上限の一覧",
               "p": [
-                "Pro は US$19.99 の買い切りで、サブスクはありません。1つのライセンスを3台まで使えます。無料プランはクレジットカードなしで使えます。"
+                "Pro は $19.99 の買い切りで、サブスクはありません。1つのライセンスを3台まで使えます。無料プランはクレジットカードなしで使えます。"
               ],
               "head": [
                 "項目",
@@ -25798,7 +25798,7 @@
               "t": "table",
               "h": "Los límites",
               "p": [
-                "Pro cuesta US$19.99, se paga una sola vez, sin suscripción, y una licencia sirve para hasta 3 dispositivos. El plan gratuito no pide tarjeta de crédito."
+                "Pro cuesta $19.99, se paga una sola vez, sin suscripción, y una licencia sirve para hasta 3 dispositivos. El plan gratuito no pide tarjeta de crédito."
               ],
               "head": [
                 "Concepto",
@@ -26264,7 +26264,7 @@
               "t": "table",
               "h": "Die Grenzen",
               "p": [
-                "Pro kostet US$19.99, einmalig bezahlt, ohne Abonnement, und eine Lizenz funktioniert auf bis zu 3 Geräten. Die kostenlose Version braucht keine Kreditkarte."
+                "Pro kostet 19,99 $, einmalig bezahlt, ohne Abonnement, und eine Lizenz funktioniert auf bis zu 3 Geräten. Die kostenlose Version braucht keine Kreditkarte."
               ],
               "head": [
                 "Punkt",
@@ -26730,7 +26730,7 @@
               "t": "table",
               "h": "제한",
               "p": [
-                "Pro는 US$19.99이며 한 번만 결제하고 구독은 없으며, 라이선스 하나로 최대 3대의 기기에서 쓸 수 있습니다. 무료는 신용카드가 필요 없습니다."
+                "Pro는 $19.99이며 한 번만 결제하고 구독은 없으며, 라이선스 하나로 최대 3대의 기기에서 쓸 수 있습니다. 무료는 신용카드가 필요 없습니다."
               ],
               "head": [
                 "항목",
@@ -26963,7 +26963,7 @@
               "t": "table",
               "h": "Os limites",
               "p": [
-                "O Pro custa US$19.99, pagos uma vez, sem assinatura, e uma licença vale para até 3 dispositivos. O plano gratuito não exige cartão de crédito."
+                "O Pro custa $19.99, pagos uma vez, sem assinatura, e uma licença vale para até 3 dispositivos. O plano gratuito não exige cartão de crédito."
               ],
               "head": [
                 "Item",
@@ -27196,7 +27196,7 @@
               "t": "table",
               "h": "各项限制",
               "p": [
-                "Pro 为US$19.99，一次性付费，无需订阅，一个许可证最多可用于3台设备。免费版无需信用卡。"
+                "Pro 为$19.99，一次性付费，无需订阅，一个许可证最多可用于3台设备。免费版无需信用卡。"
               ],
               "head": [
                 "项目",
@@ -27429,7 +27429,7 @@
               "t": "table",
               "h": "上限一覽",
               "p": [
-                "Pro 為 US$19.99，一次買斷，無需訂閱，1 份授權最多可在 3 台裝置上使用。免費版不需要信用卡。"
+                "Pro 為 $19.99，一次買斷，無需訂閱，1 份授權最多可在 3 台裝置上使用。免費版不需要信用卡。"
               ],
               "head": [
                 "項目",
@@ -27740,7 +27740,7 @@
                   "Varies by product.",
                   "Varies by product.",
                   "Varies by product.",
-                  "Free to use. Pro is US$19.99, paid once, for up to 3 devices."
+                  "Free to use. Pro is $19.99, paid once, for up to 3 devices."
                 ]
               ]
             },
@@ -27911,7 +27911,7 @@
                   "製品によります。",
                   "製品によります。",
                   "製品によります。",
-                  "無料で使えます。Pro は US$19.99 の買い切りで、3台までです。"
+                  "無料で使えます。Pro は $19.99 の買い切りで、3台までです。"
                 ]
               ]
             },
@@ -28082,7 +28082,7 @@
                   "Varía según el producto.",
                   "Varía según el producto.",
                   "Varía según el producto.",
-                  "Gratis para usar. Pro cuesta US$19.99, se paga una sola vez, para hasta 3 dispositivos."
+                  "Gratis para usar. Pro cuesta $19.99, se paga una sola vez, para hasta 3 dispositivos."
                 ]
               ]
             },
@@ -28424,7 +28424,7 @@
                   "Je nach Produkt verschieden.",
                   "Je nach Produkt verschieden.",
                   "Je nach Produkt verschieden.",
-                  "Kostenlos nutzbar. Pro kostet US$19.99, einmalig bezahlt, für bis zu 3 Geräte."
+                  "Kostenlos nutzbar. Pro kostet 19,99 $, einmalig bezahlt, für bis zu 3 Geräte."
                 ]
               ]
             },
@@ -28766,7 +28766,7 @@
                   "제품마다 다릅니다.",
                   "제품마다 다릅니다.",
                   "제품마다 다릅니다.",
-                  "무료로 쓸 수 있습니다. Pro는 US$19.99, 한 번만 결제하며 최대 3대의 기기."
+                  "무료로 쓸 수 있습니다. Pro는 $19.99, 한 번만 결제하며 최대 3대의 기기."
                 ]
               ]
             },
@@ -28937,7 +28937,7 @@
                   "Varia conforme o produto.",
                   "Varia conforme o produto.",
                   "Varia conforme o produto.",
-                  "Uso gratuito. O Pro custa US$19.99, pagos uma vez, para até 3 dispositivos."
+                  "Uso gratuito. O Pro custa $19.99, pagos uma vez, para até 3 dispositivos."
                 ]
               ]
             },
@@ -29108,7 +29108,7 @@
                   "因产品而异。",
                   "因产品而异。",
                   "因产品而异。",
-                  "可免费使用。Pro 为US$19.99，一次性付费，最多3台设备。"
+                  "可免费使用。Pro 为$19.99，一次性付费，最多3台设备。"
                 ]
               ]
             },
@@ -29279,7 +29279,7 @@
                   "依產品而異。",
                   "依產品而異。",
                   "依產品而異。",
-                  "可免費使用。Pro 為 US$19.99，一次買斷，最多 3 台裝置。"
+                  "可免費使用。Pro 為 $19.99，一次買斷，最多 3 台裝置。"
                 ]
               ]
             },
@@ -29400,7 +29400,7 @@
               "t": "table",
               "h": "Where to get it",
               "p": [
-                "Each store page is the official listing. Free needs no credit card. Pro is US$19.99 paid once, and one license works on up to 3 devices."
+                "Each store page is the official listing. Free needs no credit card. Pro is $19.99 paid once, and one license works on up to 3 devices."
               ],
               "head": [
                 "Browser",
@@ -29508,7 +29508,7 @@
               "t": "text",
               "h": "License and languages",
               "p": [
-                "One Pro license can be activated on up to 3 devices. It is a one-time purchase of US$19.99 with no subscription. The screens are available in 10 languages: English, Japanese, Spanish, French, German, Italian, Korean, Portuguese (Brazil), Simplified Chinese and Traditional Chinese.",
+                "One Pro license can be activated on up to 3 devices. It is a one-time purchase of $19.99 with no subscription. The screens are available in 10 languages: English, Japanese, Spanish, French, German, Italian, Korean, Portuguese (Brazil), Simplified Chinese and Traditional Chinese.",
                 "Pages and files are processed in your browser on your computer. Only the license check, and usage statistics if you turn them on, reach our servers."
               ]
             },
@@ -29546,7 +29546,7 @@
             },
             {
               "q": "How many devices can one license be used on?",
-              "a": "Up to 3 devices. It is a one-time purchase of US$19.99, with no subscription."
+              "a": "Up to 3 devices. It is a one-time purchase of $19.99, with no subscription."
             }
           ]
         },
@@ -29561,7 +29561,7 @@
               "t": "table",
               "h": "入手先",
               "p": [
-                "どれも公式のストアのページです。無料プランはクレジットカードなしで使えます。Pro は US$19.99 の買い切りで、ライセンス1つを3台まで使えます。"
+                "どれも公式のストアのページです。無料プランはクレジットカードなしで使えます。Pro は $19.99 の買い切りで、ライセンス1つを3台まで使えます。"
               ],
               "head": [
                 "ブラウザ",
@@ -29669,7 +29669,7 @@
               "t": "text",
               "h": "ライセンスと言語",
               "p": [
-                "Pro のライセンス1つを、3台まで有効にできます。US$19.99 の買い切りで、サブスクはありません。画面は10言語（英語・日本語・スペイン語・フランス語・ドイツ語・イタリア語・韓国語・ポルトガル語（ブラジル）・簡体字中国語・繁体字中国語）です。",
+                "Pro のライセンス1つを、3台まで有効にできます。$19.99 の買い切りで、サブスクはありません。画面は10言語（英語・日本語・スペイン語・フランス語・ドイツ語・イタリア語・韓国語・ポルトガル語（ブラジル）・簡体字中国語・繁体字中国語）です。",
                 "ページとファイルの処理は、パソコンのブラウザの中で行います。開発者のサーバーに届くのは、ライセンスの確認と、オンにした場合の利用統計だけです。"
               ]
             },
@@ -29707,7 +29707,7 @@
             },
             {
               "q": "1つのライセンスは何台で使えますか？",
-              "a": "3台までです。US$19.99 の買い切りで、サブスクはありません。"
+              "a": "3台までです。$19.99 の買い切りで、サブスクはありません。"
             }
           ]
         },
@@ -29722,7 +29722,7 @@
               "t": "table",
               "h": "Dónde conseguirla",
               "p": [
-                "Cada página de tienda es la ficha oficial. El plan gratuito no pide tarjeta de crédito. Pro cuesta US$19.99 y se paga una sola vez, y una licencia sirve para hasta 3 dispositivos."
+                "Cada página de tienda es la ficha oficial. El plan gratuito no pide tarjeta de crédito. Pro cuesta $19.99 y se paga una sola vez, y una licencia sirve para hasta 3 dispositivos."
               ],
               "head": [
                 "Navegador",
@@ -29830,7 +29830,7 @@
               "t": "text",
               "h": "Licencia e idiomas",
               "p": [
-                "Una licencia Pro se puede activar en hasta 3 dispositivos. Es una compra única de US$19.99, sin suscripción. Las pantallas están disponibles en 10 idiomas: inglés, japonés, español, francés, alemán, italiano, coreano, portugués (Brasil), chino simplificado y chino tradicional.",
+                "Una licencia Pro se puede activar en hasta 3 dispositivos. Es una compra única de $19.99, sin suscripción. Las pantallas están disponibles en 10 idiomas: inglés, japonés, español, francés, alemán, italiano, coreano, portugués (Brasil), chino simplificado y chino tradicional.",
                 "Las páginas y los archivos se procesan en tu navegador, en tu ordenador. Solo la comprobación de la licencia, y las estadísticas de uso si las activas, llegan al servidor del desarrollador."
               ]
             },
@@ -29868,7 +29868,7 @@
             },
             {
               "q": "¿En cuántos dispositivos puedo usar una licencia?",
-              "a": "En hasta 3 dispositivos. Es una compra única de US$19.99, sin suscripción."
+              "a": "En hasta 3 dispositivos. Es una compra única de $19.99, sin suscripción."
             }
           ]
         },
@@ -30044,7 +30044,7 @@
               "t": "table",
               "h": "Wo Sie es erhalten",
               "p": [
-                "Jede Store-Seite ist der offizielle Eintrag. Die kostenlose Version braucht keine Kreditkarte. Pro kostet US$19.99, einmalig bezahlt, und eine Lizenz funktioniert auf bis zu 3 Geräten."
+                "Jede Store-Seite ist der offizielle Eintrag. Die kostenlose Version braucht keine Kreditkarte. Pro kostet 19,99 $, einmalig bezahlt, und eine Lizenz funktioniert auf bis zu 3 Geräten."
               ],
               "head": [
                 "Browser",
@@ -30152,7 +30152,7 @@
               "t": "text",
               "h": "Lizenz und Sprachen",
               "p": [
-                "Eine Pro-Lizenz lässt sich auf bis zu 3 Geräten aktivieren. Es ist ein Einmalkauf für US$19.99 ohne Abonnement. Die Bildschirme gibt es in 10 Sprachen: Englisch, Japanisch, Spanisch, Französisch, Deutsch, Italienisch, Koreanisch, Portugiesisch (Brasilien), vereinfachtes Chinesisch und traditionelles Chinesisch.",
+                "Eine Pro-Lizenz lässt sich auf bis zu 3 Geräten aktivieren. Es ist ein Einmalkauf für 19,99 $ ohne Abonnement. Die Bildschirme gibt es in 10 Sprachen: Englisch, Japanisch, Spanisch, Französisch, Deutsch, Italienisch, Koreanisch, Portugiesisch (Brasilien), vereinfachtes Chinesisch und traditionelles Chinesisch.",
                 "Seiten und Dateien werden in Ihrem Browser auf Ihrem Computer verarbeitet. Nur die Lizenzprüfung und, falls Sie sie einschalten, Nutzungsstatistiken erreichen den Server des Entwicklers."
               ]
             },
@@ -30190,7 +30190,7 @@
             },
             {
               "q": "Auf wie vielen Geräten lässt sich eine Lizenz nutzen?",
-              "a": "Auf bis zu 3 Geräten. Es ist ein Einmalkauf für US$19.99, ohne Abonnement."
+              "a": "Auf bis zu 3 Geräten. Es ist ein Einmalkauf für 19,99 $, ohne Abonnement."
             }
           ]
         },
@@ -30366,7 +30366,7 @@
               "t": "table",
               "h": "받는 곳",
               "p": [
-                "각 스토어 페이지는 공식 등록 페이지입니다. 무료는 신용카드가 필요 없습니다. Pro는 US$19.99를 한 번만 결제하며, 라이선스 하나로 최대 3대의 기기에서 쓸 수 있습니다."
+                "각 스토어 페이지는 공식 등록 페이지입니다. 무료는 신용카드가 필요 없습니다. Pro는 $19.99를 한 번만 결제하며, 라이선스 하나로 최대 3대의 기기에서 쓸 수 있습니다."
               ],
               "head": [
                 "브라우저",
@@ -30474,7 +30474,7 @@
               "t": "text",
               "h": "라이선스와 언어",
               "p": [
-                "Pro 라이선스 하나는 최대 3대의 기기에서 활성화할 수 있습니다. US$19.99를 한 번만 결제하며 구독은 없습니다. 화면은 10개 언어로 제공됩니다. 영어, 일본어, 스페인어, 프랑스어, 독일어, 이탈리아어, 한국어, 포르투갈어(브라질), 중국어 간체, 중국어 번체입니다.",
+                "Pro 라이선스 하나는 최대 3대의 기기에서 활성화할 수 있습니다. $19.99를 한 번만 결제하며 구독은 없습니다. 화면은 10개 언어로 제공됩니다. 영어, 일본어, 스페인어, 프랑스어, 독일어, 이탈리아어, 한국어, 포르투갈어(브라질), 중국어 간체, 중국어 번체입니다.",
                 "페이지와 파일은 내 컴퓨터의 브라우저에서 처리됩니다. 개발자의 서버에 전달되는 것은 라이선스 확인과, 켜 둔 경우의 사용 통계뿐입니다."
               ]
             },
@@ -30512,7 +30512,7 @@
             },
             {
               "q": "라이선스 하나를 몇 대의 기기에서 쓸 수 있나요?",
-              "a": "최대 3대입니다. US$19.99를 한 번만 결제하며 구독은 없습니다."
+              "a": "최대 3대입니다. $19.99를 한 번만 결제하며 구독은 없습니다."
             }
           ]
         },
@@ -30527,7 +30527,7 @@
               "t": "table",
               "h": "Onde obter",
               "p": [
-                "Cada página de loja é a listagem oficial. O plano gratuito não exige cartão de crédito. O Pro custa US$19.99 pagos uma vez, e uma licença vale para até 3 dispositivos."
+                "Cada página de loja é a listagem oficial. O plano gratuito não exige cartão de crédito. O Pro custa $19.99 pagos uma vez, e uma licença vale para até 3 dispositivos."
               ],
               "head": [
                 "Navegador",
@@ -30635,7 +30635,7 @@
               "t": "text",
               "h": "Licença e idiomas",
               "p": [
-                "Uma licença Pro pode ser ativada em até 3 dispositivos. É uma compra única de US$19.99, sem assinatura. As telas estão disponíveis em 10 idiomas: inglês, japonês, espanhol, francês, alemão, italiano, coreano, português (Brasil), chinês simplificado e chinês tradicional.",
+                "Uma licença Pro pode ser ativada em até 3 dispositivos. É uma compra única de $19.99, sem assinatura. As telas estão disponíveis em 10 idiomas: inglês, japonês, espanhol, francês, alemão, italiano, coreano, português (Brasil), chinês simplificado e chinês tradicional.",
                 "As páginas e os arquivos são processados no seu navegador, no seu computador. Somente a verificação da licença e, se você ativar, as estatísticas de uso chegam ao servidor do desenvolvedor."
               ]
             },
@@ -30673,7 +30673,7 @@
             },
             {
               "q": "Em quantos dispositivos uma licença pode ser usada?",
-              "a": "Em até 3 dispositivos. É uma compra única de US$19.99, sem assinatura."
+              "a": "Em até 3 dispositivos. É uma compra única de $19.99, sem assinatura."
             }
           ]
         },
@@ -30688,7 +30688,7 @@
               "t": "table",
               "h": "在哪里获取",
               "p": [
-                "每个商店页面都是官方上架页面。免费版无需信用卡。Pro 为US$19.99，一次性付费，一个许可证最多可用于3台设备。"
+                "每个商店页面都是官方上架页面。免费版无需信用卡。Pro 为$19.99，一次性付费，一个许可证最多可用于3台设备。"
               ],
               "head": [
                 "浏览器",
@@ -30796,7 +30796,7 @@
               "t": "text",
               "h": "许可证与语言",
               "p": [
-                "一个 Pro 许可证最多可在3台设备上激活。它是一次性购买，价格US$19.99，无需订阅。界面提供10种语言：英语、日语、西班牙语、法语、德语、意大利语、韩语、葡萄牙语（巴西）、简体中文和繁体中文。",
+                "一个 Pro 许可证最多可在3台设备上激活。它是一次性购买，价格$19.99，无需订阅。界面提供10种语言：英语、日语、西班牙语、法语、德语、意大利语、韩语、葡萄牙语（巴西）、简体中文和繁体中文。",
                 "页面和文件在您电脑上的浏览器中处理。只有许可证检查，以及您开启后的使用统计，才会发送到开发者的服务器。"
               ]
             },
@@ -30834,7 +30834,7 @@
             },
             {
               "q": "一个许可证可以在多少台设备上使用？",
-              "a": "最多3台设备。它是一次性购买，价格US$19.99，无需订阅。"
+              "a": "最多3台设备。它是一次性购买，价格$19.99，无需订阅。"
             }
           ]
         },
@@ -30849,7 +30849,7 @@
               "t": "table",
               "h": "取得方式",
               "p": [
-                "各商店頁面都是官方上架頁面。免費版不需要信用卡。Pro 為 US$19.99，一次買斷，1 份授權最多可在 3 台裝置上使用。"
+                "各商店頁面都是官方上架頁面。免費版不需要信用卡。Pro 為 $19.99，一次買斷，1 份授權最多可在 3 台裝置上使用。"
               ],
               "head": [
                 "瀏覽器",
@@ -30957,7 +30957,7 @@
               "t": "text",
               "h": "授權與語言",
               "p": [
-                "1 份 Pro 授權最多可在 3 台裝置上啟用。這是 US$19.99 的一次性購買，無需訂閱。介面提供 10 種語言：英文、日文、西班牙文、法文、德文、義大利文、韓文、巴西葡萄牙文、簡體中文和繁體中文。",
+                "1 份 Pro 授權最多可在 3 台裝置上啟用。這是 $19.99 的一次性購買，無需訂閱。介面提供 10 種語言：英文、日文、西班牙文、法文、德文、義大利文、韓文、巴西葡萄牙文、簡體中文和繁體中文。",
                 "頁面和檔案在您電腦上的瀏覽器內處理。只有授權驗證，以及您開啟後的使用統計資料，會傳送到開發者的伺服器。"
               ]
             },
@@ -30995,7 +30995,7 @@
             },
             {
               "q": "1 份授權可以在幾台裝置上使用？",
-              "a": "最多 3 台裝置。這是 US$19.99 的一次性購買，無需訂閱。"
+              "a": "最多 3 台裝置。這是 $19.99 的一次性購買，無需訂閱。"
             }
           ]
         }
@@ -31025,7 +31025,7 @@
               "h": "In three points",
               "p": [
                 "Grab All Files finds files on web pages and saves pages as HTML, in Chrome, Edge and Firefox. Processing happens in your browser; page content, URLs and file names are not sent to us.",
-                "Free needs no credit card. Pro is US$19.99, paid once, for up to 3 devices.",
+                "Free needs no credit card. Pro is $19.99, paid once, for up to 3 devices.",
                 "It does not save streamed video, and it is not built for copying thousands of pages."
               ]
             },
@@ -31079,7 +31079,7 @@
             },
             {
               "q": "Is Pro a subscription or a one-time purchase?",
-              "a": "A one-time purchase of US$19.99. It is a perpetual license with no subscription."
+              "a": "A one-time purchase of $19.99. It is a perpetual license with no subscription."
             },
             {
               "q": "How many devices can I use one license on?",
@@ -31127,7 +31127,7 @@
               "h": "3つにまとめると",
               "p": [
                 "Grab All Files は、Chrome・Edge・Firefox で、ページ内のファイルを見つけて保存し、ページを HTML に保存します。処理はブラウザの中で行い、ページの内容・URL・ファイル名は開発者に送りません。",
-                "無料プランはクレジットカードなしで使えます。Pro は US$19.99 の買い切りで、3台までです。",
+                "無料プランはクレジットカードなしで使えます。Pro は $19.99 の買い切りで、3台までです。",
                 "配信される動画は保存しません。何千ページものコピーにも向きません。"
               ]
             },
@@ -31181,7 +31181,7 @@
             },
             {
               "q": "Pro はサブスクですか、買い切りですか？",
-              "a": "US$19.99 の買い切りです。永続ライセンスで、サブスクはありません。"
+              "a": "$19.99 の買い切りです。永続ライセンスで、サブスクはありません。"
             },
             {
               "q": "1つのライセンスは何台で使えますか？",
@@ -31229,7 +31229,7 @@
               "h": "En tres puntos",
               "p": [
                 "Grab All Files encuentra archivos en páginas web y guarda páginas como HTML, en Chrome, Edge y Firefox. El procesamiento ocurre en tu navegador; el contenido de las páginas, las URL y los nombres de archivo no se envían al desarrollador.",
-                "El plan gratuito no pide tarjeta de crédito. Pro cuesta US$19.99, se paga una sola vez, para hasta 3 dispositivos.",
+                "El plan gratuito no pide tarjeta de crédito. Pro cuesta $19.99, se paga una sola vez, para hasta 3 dispositivos.",
                 "No guarda vídeo en streaming y no está pensado para copiar miles de páginas."
               ]
             },
@@ -31283,7 +31283,7 @@
             },
             {
               "q": "¿Pro es una suscripción o una compra única?",
-              "a": "Una compra única de US$19.99. Es una licencia perpetua, sin suscripción."
+              "a": "Una compra única de $19.99. Es una licencia perpetua, sin suscripción."
             },
             {
               "q": "¿En cuántos dispositivos puedo usar una licencia?",
@@ -31433,7 +31433,7 @@
               "h": "In drei Punkten",
               "p": [
                 "Grab All Files findet Dateien auf Webseiten und speichert Seiten als HTML, in Chrome, Edge und Firefox. Die Verarbeitung geschieht in Ihrem Browser; Seiteninhalte, URLs und Dateinamen werden nicht an den Entwickler gesendet.",
-                "Die kostenlose Version braucht keine Kreditkarte. Pro kostet US$19.99, einmalig bezahlt, für bis zu 3 Geräte.",
+                "Die kostenlose Version braucht keine Kreditkarte. Pro kostet 19,99 $, einmalig bezahlt, für bis zu 3 Geräte.",
                 "Es speichert kein gestreamtes Video und ist nicht dafür gebaut, Tausende Seiten zu kopieren."
               ]
             },
@@ -31487,7 +31487,7 @@
             },
             {
               "q": "Ist Pro ein Abonnement oder ein Einmalkauf?",
-              "a": "Ein Einmalkauf für US$19.99. Es ist eine unbefristete Lizenz ohne Abonnement."
+              "a": "Ein Einmalkauf für 19,99 $. Es ist eine unbefristete Lizenz ohne Abonnement."
             },
             {
               "q": "Auf wie vielen Geräten kann ich eine Lizenz nutzen?",
@@ -31637,7 +31637,7 @@
               "h": "세 가지로 요약",
               "p": [
                 "Grab All Files는 Chrome, Edge, Firefox에서 웹 페이지의 파일을 찾고 페이지를 HTML로 저장합니다. 처리는 브라우저에서 이루어지며, 페이지 내용, URL, 파일 이름은 개발자에게 전송되지 않습니다.",
-                "무료는 신용카드가 필요 없습니다. Pro는 US$19.99를 한 번만 결제하며 최대 3대의 기기에서 쓸 수 있습니다.",
+                "무료는 신용카드가 필요 없습니다. Pro는 $19.99를 한 번만 결제하며 최대 3대의 기기에서 쓸 수 있습니다.",
                 "스트리밍 동영상은 저장하지 않으며, 수천 페이지를 복사하는 용도로 만들어지지 않았습니다."
               ]
             },
@@ -31691,7 +31691,7 @@
             },
             {
               "q": "Pro는 구독인가요, 1회 결제인가요?",
-              "a": "US$19.99를 한 번만 결제하는 방식입니다. 구독이 없는 영구 라이선스입니다."
+              "a": "$19.99를 한 번만 결제하는 방식입니다. 구독이 없는 영구 라이선스입니다."
             },
             {
               "q": "라이선스 하나를 몇 대의 기기에서 쓸 수 있나요?",
@@ -31739,7 +31739,7 @@
               "h": "Em três pontos",
               "p": [
                 "O Grab All Files encontra arquivos em páginas da web e salva páginas como HTML, no Chrome, no Edge e no Firefox. O processamento acontece no seu navegador; o conteúdo das páginas, as URLs e os nomes de arquivos não são enviados ao desenvolvedor.",
-                "O plano gratuito não exige cartão de crédito. O Pro custa US$19.99, pagos uma vez, para até 3 dispositivos.",
+                "O plano gratuito não exige cartão de crédito. O Pro custa $19.99, pagos uma vez, para até 3 dispositivos.",
                 "Ele não salva vídeo transmitido por streaming e não foi feito para copiar milhares de páginas."
               ]
             },
@@ -31793,7 +31793,7 @@
             },
             {
               "q": "O Pro é uma assinatura ou uma compra única?",
-              "a": "Uma compra única de US$19.99. É uma licença perpétua, sem assinatura."
+              "a": "Uma compra única de $19.99. É uma licença perpétua, sem assinatura."
             },
             {
               "q": "Em quantos dispositivos posso usar uma licença?",
@@ -31841,7 +31841,7 @@
               "h": "三点概括",
               "p": [
                 "Grab All Files 能在Chrome、Edge和Firefox中找出网页上的文件，并把页面保存为HTML。处理在您的浏览器中进行；页面内容、网址和文件名不会发送给开发者。",
-                "免费版无需信用卡。Pro 为US$19.99，一次性付费，最多可用于3台设备。",
+                "免费版无需信用卡。Pro 为$19.99，一次性付费，最多可用于3台设备。",
                 "它不会保存流媒体视频，也不是为复制数千页而设计的。"
               ]
             },
@@ -31895,7 +31895,7 @@
             },
             {
               "q": "Pro 是订阅还是一次性购买？",
-              "a": "一次性购买，价格US$19.99。这是永久许可证，无需订阅。"
+              "a": "一次性购买，价格$19.99。这是永久许可证，无需订阅。"
             },
             {
               "q": "一个许可证可以在多少台设备上使用？",
@@ -31943,7 +31943,7 @@
               "h": "三個重點",
               "p": [
                 "Grab All Files 可在 Chrome、Edge 和 Firefox 中找出網頁中的檔案，並將網頁儲存為 HTML。處理在您的瀏覽器中進行；頁面內容、URL 和檔名不會傳送給開發者。",
-                "免費版不需要信用卡。Pro 為 US$19.99，一次買斷，最多 3 台裝置。",
+                "免費版不需要信用卡。Pro 為 $19.99，一次買斷，最多 3 台裝置。",
                 "它不會儲存串流影片，也不是為複製數千頁而設計的。"
               ]
             },
@@ -31997,7 +31997,7 @@
             },
             {
               "q": "Pro 是訂閱制還是一次買斷？",
-              "a": "一次性購買，US$19.99。這是永久授權，無需訂閱。"
+              "a": "一次性購買，$19.99。這是永久授權，無需訂閱。"
             },
             {
               "q": "1 份授權可以在幾台裝置上使用？",
