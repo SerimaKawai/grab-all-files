@@ -35304,7 +35304,7 @@
             "打开 Grab All Files,选择“将网页合并为 HTML”。可以从浏览器当前打开的网页开始，让扩展自动查找相关网页，也可以把来源切换为“从电脑文件夹”，选择包含 HTML 文件的文件夹或 ZIP。",
             "确认要包含的网页。在“外观”中选择“保持原样”。合并同一网站的多个网页时，请开启“每页重复的页眉、菜单和页脚只保留在第一页”。“不保存广告”默认开启，可让文件更小；如需保留广告位，请将其关闭。",
             "对于网页，当系统请求访问提供样式表和图片的网站时，请予以允许。所有网站只会请求一次。每个网页都会在标签页中打开并滚动到底部，这样滚动时才加载的图片和内容也会被包含进来。",
-            "保存。保存前先选择结果的组织方式。使用 Pro 且只有 1 个网页时，可选“保持页面原样”或“带目录和搜索的HTML”；使用 Pro 且有多个网页时，或免费版的 1 个网页，可选“带目录和搜索的HTML”“纵向拼接HTML（适合打印）”“分页HTML（ZIP）”或“按网站结构保存到文件夹”（Chrome、Edge）。在带目录和搜索的HTML中，每个网页都以原有设计放在框中，框的上方显示来源网址和抓取时间，可通过目录和搜索框在网页之间切换。“保持页面原样”和纵向拼接HTML不带目录和搜索界面，请使用浏览器的查找功能（Ctrl+F／⌘F）；只保存 1 个网页时，来源网址和时间记录在 HTML 开头的注释中。纵向拼接HTML打印时每个网页从新的一页开始；如需PDF，请在保存后用浏览器的打印功能生成。“分页HTML（ZIP）”包含一个链接到各网页的目录页（index.html）。“按网站结构保存到文件夹”会按与原网站相同的文件夹结构，连同目录页（index.html）一起写入所选文件夹；已保存页面之间的链接会打开已保存的文件，离线也能浏览。如果还想列出未能保留的图片或部分，请选择“带目录和搜索的HTML”，并开启“包含收集信息和失败列表”。"
+            "保存。保存前先选择结果的组织方式。使用 Pro 且只有 1 个网页时，可选“保持页面原样”或“带目录和搜索的HTML”。使用 Pro 且有多个网页时，或免费版的 1 个网页，可选“带目录和搜索的HTML”“纵向拼接HTML（适合打印）”“分页HTML（ZIP）”或“按网站结构保存到文件夹”（Chrome、Edge）。在带目录和搜索的HTML中，每个网页都以原有设计放在框中，框的上方显示来源网址和抓取时间，可通过目录和搜索框在网页之间切换。“保持页面原样”和纵向拼接HTML不带目录和搜索界面，请使用浏览器的查找功能（Ctrl+F／⌘F）。只保存 1 个网页时，来源网址和时间记录在 HTML 开头的注释中。纵向拼接HTML打印时每个网页从新的一页开始。如需PDF，请在保存后用浏览器的打印功能生成。“分页HTML（ZIP）”包含一个链接到各网页的目录页（index.html）。“按网站结构保存到文件夹”会按与原网站相同的文件夹结构，连同目录页（index.html）一起写入所选文件夹。已保存页面之间的链接会打开已保存的文件，离线也能浏览。如果还想列出未能保留的图片或部分，请选择“带目录和搜索的HTML”，并开启“包含收集信息和失败列表”。"
           ],
           "faq": [
             {
@@ -35484,7 +35484,7 @@
             "開啟 Grab All Files，選擇「將網頁合併為 HTML」。可以從瀏覽器目前開啟的網頁開始，讓擴充功能自動尋找相關網頁，也可以將來源切換為「從電腦資料夾」，選擇包含 HTML 檔案的資料夾或 ZIP。",
             "確認要納入的網頁。在「外觀」中選擇「保持原樣」。合併同一網站的多個網頁時，請開啟「每頁重複的頁首、選單和頁尾只保留在第一頁」。「不儲存廣告」預設為開啟，可讓檔案更小；如需保留廣告版位，請將其關閉。",
             "對於網頁，當系統要求存取提供樣式表與圖片的網站時，請予以允許。所有網站只會詢問一次。每個網頁都會在分頁中開啟並捲動到底部，讓捲動時才載入的圖片與內容也能納入。",
-            "儲存。儲存前先選擇結果的組成方式。使用 Pro 且只有 1 個網頁時，可選「保持頁面原樣」或「附目錄及搜尋的HTML」；使用 Pro 且有多個網頁時，或免費版的 1 個網頁，可選「附目錄及搜尋的HTML」「直向串接HTML（適合列印）」「分頁HTML（ZIP）」或「依網站結構儲存到資料夾」（Chrome、Edge）。在附目錄及搜尋的HTML中，每個網頁都以原有設計放在框中，框的上方顯示來源網址與擷取時間，可透過目錄與搜尋框在網頁之間切換。「保持頁面原樣」和直向串接HTML不含目錄與搜尋介面，請使用瀏覽器的尋找功能（Ctrl+F／⌘F）；只儲存 1 個網頁時，來源網址與時間記錄在 HTML 開頭的註解中。直向串接HTML列印時每個網頁從新的一頁開始；如需PDF，請在儲存後用瀏覽器的列印功能產生。「分頁HTML（ZIP）」包含一個連結到各網頁的目錄頁（index.html）。「依網站結構儲存到資料夾」會依與原網站相同的資料夾結構，連同目錄頁（index.html）一起寫入所選資料夾；已儲存頁面之間的連結會開啟已儲存的檔案，離線也能瀏覽。如果也想列出未能保留的圖片或部分，請選擇「附目錄及搜尋的HTML」，並開啟「包含擷取資訊與失敗清單」。"
+            "儲存。儲存前先選擇結果的組成方式。使用 Pro 且只有 1 個網頁時，可選「保持頁面原樣」或「附目錄及搜尋的HTML」。使用 Pro 且有多個網頁時，或免費版的 1 個網頁，可選「附目錄及搜尋的HTML」「直向串接HTML（適合列印）」「分頁HTML（ZIP）」或「依網站結構儲存到資料夾」（Chrome、Edge）。在附目錄及搜尋的HTML中，每個網頁都以原有設計放在框中，框的上方顯示來源網址與擷取時間，可透過目錄與搜尋框在網頁之間切換。「保持頁面原樣」和直向串接HTML不含目錄與搜尋介面，請使用瀏覽器的尋找功能（Ctrl+F／⌘F）。只儲存 1 個網頁時，來源網址與時間記錄在 HTML 開頭的註解中。直向串接HTML列印時每個網頁從新的一頁開始。如需PDF，請在儲存後用瀏覽器的列印功能產生。「分頁HTML（ZIP）」包含一個連結到各網頁的目錄頁（index.html）。「依網站結構儲存到資料夾」會依與原網站相同的資料夾結構，連同目錄頁（index.html）一起寫入所選資料夾。已儲存頁面之間的連結會開啟已儲存的檔案，離線也能瀏覽。如果也想列出未能保留的圖片或部分，請選擇「附目錄及搜尋的HTML」，並開啟「包含擷取資訊與失敗清單」。"
           ],
           "faq": [
             {
@@ -47249,7 +47249,7 @@
       "cta": {
         "en": {
           "title": "Save one related page free — or combine several with Pro.",
-          "text": "Discovery and HTML generation stay on your device. Free lists related candidates and saves exactly the one page you choose; images on that page have no plan-based count cap; directly linked files are saved up to 10 per run, and “Save the next 10 files” on the result screen saves the rest. Pro selects multiple candidates and combines their readable page bodies into one HTML. Safety and source-site limits apply."
+          "text": "Discovery and HTML generation stay on your device. Free lists related candidates and saves exactly the one page you choose. Images on that page have no plan-based count cap. Directly linked files are saved up to 10 per run, and “Save the next 10 files” on the result screen saves the rest. Pro selects multiple candidates and combines their readable page bodies into one HTML. Safety and source-site limits apply."
         },
         "ja": {
           "title": "無料プランは選んだ1ページ。Proは複数ページを1つに。",
@@ -47265,7 +47265,7 @@
         },
         "de": {
           "title": "Eine Seite kostenlos speichern oder mehrere mit Pro bündeln.",
-          "text": "Suche und HTML-Erstellung bleiben auf Ihrem Gerät. Die kostenlose Version listet Kandidaten und speichert genau die gewählte Seite; Bilder haben kein planbedingtes Mengenlimit; direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert; „Nächste 10 Dateien speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro bündelt die Inhalte mehrerer gewählter Seiten. Sicherheits- und Quellseitenlimits gelten weiterhin."
+          "text": "Suche und HTML-Erstellung bleiben auf Ihrem Gerät. Die kostenlose Version listet Kandidaten und speichert genau die gewählte Seite. Bilder haben kein planbedingtes Mengenlimit. Direkt verlinkte Dateien werden bis zu 10 pro Durchlauf gespeichert, und „Nächste 10 Dateien speichern“ auf dem Ergebnisbildschirm speichert den Rest. Pro bündelt die Inhalte mehrerer gewählter Seiten. Sicherheits- und Quellseitenlimits gelten weiterhin."
         },
         "it": {
           "title": "Salva gratis una pagina o uniscine più con Pro.",
@@ -47281,7 +47281,7 @@
         },
         "zh_CN": {
           "title": "免费保存 1 个页面，或使用Pro合并多个页面。",
-          "text": "候选查找和HTML生成均在设备上完成。免费版列出相关候选，并仅保存您选择的 1 个页面；该页面内的图片没有方案数量上限；直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的 10 个文件”继续保存。Pro可选择多个候选并将其正文合并为一个HTML。仍适用安全和源网站限制。"
+          "text": "候选查找和HTML生成均在设备上完成。免费版列出相关候选，并仅保存您选择的 1 个页面。该页面内的图片没有方案数量上限。直接链接的文件每次最多保存 10 个，可在结果画面用“保存接下来的 10 个文件”继续保存。Pro可选择多个候选并将其正文合并为一个HTML。仍适用安全和源网站限制。"
         },
         "zh_TW": {
           "title": "免費儲存 1 個頁面，或使用Pro合併多個頁面。",
