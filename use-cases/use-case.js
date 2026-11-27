@@ -10166,7 +10166,7 @@
           ],
           "faq": [
             {
-              "q": "Can it click “Next” by itself and go through all the pages?",
+              "q": "Can it click “Next” automatically and go through all the pages?",
               "a": "Yes. For files, Pro does this with “Scan all pages”. For pages, both Free and Pro follow “Next” to build the candidate list, and Pro can save them all in one run."
             },
             {
@@ -12368,7 +12368,7 @@
               "items": [
                 "Apri la pagina nella scheda del browser in cui hai effettuato l’accesso, se la pagina lo richiede.",
                 "Apri Grab All Files e passa a «Unisci pagine in HTML». Scegli solo la pagina corrente.",
-                "Scegli l’aspetto e la forma, e avvia il salvataggio. La pagina scorre da sola.",
+                "Scegli l’aspetto e la forma, e avvia il salvataggio. La pagina scorre automaticamente.",
                 "Ogni 1.000 elementi chiede se continuare. Rispondi, oppure lascia perdere: dopo 10 minuti senza risposta salva ciò che è stato letto fino a quel momento.",
                 "Apri il file salvato e confronta il suo ultimo elemento con la fine della pagina online, e il numero di elementi con il conteggio mostrato dalla pagina, se ne mostra uno."
               ]
@@ -25380,7 +25380,7 @@
                 [
                   "Pages followed by “Next” while scanning",
                   "6, 20 or 100 pages",
-                  "Pro only. The scan scrolls to the end by itself and follows the “Next” pages of the same list. The number follows the “Scroll time” setting: 45, 90 or 180 seconds.",
+                  "Pro only. The scan scrolls to the end automatically and follows the “Next” pages of the same list. The number follows the “Scroll time” setting: 45, 90 or 180 seconds.",
                   "Free reads what is on screen, so scroll to the end yourself first."
                 ],
                 [
@@ -26312,7 +26312,7 @@
                 [
                   "Per „Weiter“ verfolgte Seiten beim Scannen",
                   "6, 20 oder 100 Seiten",
-                  "Nur Pro. Der Scan scrollt von selbst bis zum Ende und folgt den „Weiter“-Seiten derselben Liste. Die Zahl richtet sich nach der Einstellung „Scroll-Zeit“: 45, 90 oder 180 Sekunden.",
+                  "Nur Pro. Der Scan scrollt automatisch bis zum Ende und folgt den „Weiter“-Seiten derselben Liste. Die Zahl richtet sich nach der Einstellung „Scroll-Zeit“: 45, 90 oder 180 Sekunden.",
                   "Die kostenlose Version liest, was auf dem Bildschirm ist; scrollen Sie also zuerst selbst bis zum Ende."
                 ],
                 [
@@ -26545,7 +26545,7 @@
                 [
                   "Pagine seguite da «Avanti» durante la scansione",
                   "6, 20 o 100 pagine",
-                  "Solo Pro. La scansione scorre da sola fino in fondo e segue le pagine «Avanti» dello stesso elenco. Il numero dipende dall'impostazione «Tempo di scorrimento»: 45, 90 o 180 secondi.",
+                  "Solo Pro. La scansione scorre automaticamente fino in fondo e segue le pagine «Avanti» dello stesso elenco. Il numero dipende dall'impostazione «Tempo di scorrimento»: 45, 90 o 180 secondi.",
                   "La versione gratuita legge ciò che è sullo schermo, quindi scorri tu fino in fondo prima."
                 ],
                 [
@@ -29450,7 +29450,7 @@
                 [
                   "Active Capture (downloads started by JavaScript)",
                   "Available. It clicks each download that JavaScript starts and catches the file.",
-                  "Limited. Active Capture cannot catch downloads that JavaScript starts. Files that the scan finds as direct links can still be downloaded."
+                  "Limited. “Active Capture” cannot capture downloads that JavaScript starts. Files that the scan finds as direct links can still be downloaded."
                 ],
                 [
                   "How pages are read for Combine pages into HTML",
@@ -29610,8 +29610,8 @@
                 ],
                 [
                   "アクティブ取得（JavaScript で始まるダウンロード）",
-                  "使えます。スクリプトで始まるダウンロードを1つずつクリックして、ファイルを捕まえます。",
-                  "制限があります。アクティブ取得は、JavaScript で始まるダウンロードを捕まえられません。スキャンで直リンクとして見つかったファイルは、そのままダウンロードできます。"
+                  "使えます。スクリプトで始まるダウンロードを1つずつクリックして、ファイルを取得します。",
+                  "制限があります。アクティブ取得は、JavaScript で始まるダウンロードを検出できません。スキャンで直リンクとして見つかったファイルは、そのままダウンロードできます。"
                 ],
                 [
                   "「ページをHTMLにまとめる」でのページの読み取り方",
@@ -29695,7 +29695,7 @@
           "faq": [
             {
               "q": "Grab All Files は Firefox で使えますか？",
-              "a": "はい。Firefox 128 以降で使えます。違いは4つあります。保存先のフォルダを選べないこと、「サイトの形でフォルダに保存」が使えないこと、アクティブ取得に制限があり、JavaScript で始まるダウンロードを捕まえられないこと、「ページをHTMLにまとめる」のページの読み取り方が変わることです。"
+              "a": "はい。Firefox 128 以降で使えます。違いは4つあります。保存先のフォルダを選べないこと、「サイトの形でフォルダに保存」が使えないこと、アクティブ取得に制限があり、JavaScript で始まるダウンロードを検出できないこと、「ページをHTMLにまとめる」のページの読み取り方が変わることです。"
             },
             {
               "q": "Firefox では、ファイルはどこに保存されますか？",
@@ -31091,7 +31091,7 @@
             },
             {
               "q": "Which browsers are supported?",
-              "a": "Chrome and Edge on Chromium 111 or later, and Firefox 128 or later. On Firefox you cannot choose the save folder, “Site copy in a folder” is not available, and Active Capture cannot catch downloads that JavaScript starts."
+              "a": "Chrome and Edge on Chromium 111 or later, and Firefox 128 or later. On Firefox you cannot choose the save folder, “Site copy in a folder” is not available, and “Active Capture” cannot capture downloads that JavaScript starts."
             },
             {
               "q": "Does it work on pages I have to sign in to, and does it see my password?",
@@ -31193,7 +31193,7 @@
             },
             {
               "q": "どのブラウザで使えますか？",
-              "a": "Chromium 111 以降の Chrome と Edge、Firefox 128 以降です。Firefox では、保存先のフォルダを選べず、「サイトの形でフォルダに保存」は使えず、アクティブ取得は JavaScript で始まるダウンロードを捕まえられません。"
+              "a": "Chromium 111 以降の Chrome と Edge、Firefox 128 以降です。Firefox では、保存先のフォルダを選べず、「サイトの形でフォルダに保存」は使えず、アクティブ取得は JavaScript で始まるダウンロードを検出できません。"
             },
             {
               "q": "ログインが必要なページでも使えますか。パスワードは見られますか？",
@@ -32785,7 +32785,7 @@
           "steps": [
             "Öffnen Sie im Browser den Post, das Video, den Thread oder den Artikel, dessen Kommentare Sie speichern möchten.",
             "Wählen Sie in Grab All Files „Seiten als HTML bündeln“, stellen Sie den Erfassungsbereich auf „Nur die aktuelle Seite“ und starten Sie.",
-            "Die Seite öffnet sich in einem Sammel-Tab und scrollt von selbst bis zum Ende. Schaltflächen, die Antworten aufklappen oder weitere Kommentare laden, werden für Sie angeklickt, und auf dem Bildschirm sehen Sie, wie viele Beiträge bereits geladen sind.",
+            "Die Seite öffnet sich in einem Sammel-Tab und scrollt automatisch bis zum Ende. Schaltflächen, die Antworten aufklappen oder weitere Kommentare laden, werden für Sie angeklickt, und auf dem Bildschirm sehen Sie, wie viele Beiträge bereits geladen sind.",
             "Alle 1.000 Beiträge fragt die Erweiterung nach, wie es weitergehen soll: „Weiterlesen“ oder „Diese Beiträge speichern“. Kommt innerhalb von 10 Minuten keine Antwort, speichert sie die bis dahin geladenen Kommentare.",
             "Ist alles geladen, werden Kommentare und Antworten in einer HTML-Datei gespeichert. Für eine KI-Analyse verwenden Sie anschließend „Text kopieren“, „Als eine Markdown-Datei speichern“ oder „Als Textdatei speichern (.txt)“."
           ],
@@ -32956,7 +32956,7 @@
           "steps": [
             "Apri nel browser il post, il video, il thread o l’articolo di cui vuoi i commenti.",
             "In Grab All Files scegli «Unisci pagine in HTML», imposta l’ambito della raccolta su «Solo la pagina attuale» e avvia.",
-            "La pagina si apre in una scheda di raccolta e scorre da sola fino in fondo. I pulsanti che aprono le risposte o caricano altri commenti vengono premuti al posto tuo, e sullo schermo vedi quanti post sono stati caricati.",
+            "La pagina si apre in una scheda di raccolta e scorre automaticamente fino in fondo. I pulsanti che aprono le risposte o caricano altri commenti vengono premuti al posto tuo, e sullo schermo vedi quanti post sono stati caricati.",
             "Ogni 1.000 post ti chiede come proseguire: «Continua a leggere» oppure «Salva questi post». Se non rispondi entro 10 minuti, salva i commenti caricati fino a quel momento.",
             "Alla fine, commenti e risposte vengono salvati in un unico file HTML. Per analizzarli con l’IA, usa poi «Copia il testo», «Salva come un unico Markdown» o «Salva come file di testo (.txt)»."
           ],
@@ -37466,7 +37466,7 @@
             },
             {
               "q": "Older years sit behind “Show more” or a long list. Can it find them?",
-              "a": "With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the Free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. If each year has its own tab or page, open and scan them in turn. Some IR sites link reports through a viewer; check the detected source page before saving."
+              "a": "With Pro, the scan scrolls the page to the end automatically and also follows the next pages of the same list (up to 100 pages per scan). On the Free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. If each year has its own tab or page, open and scan them in turn. Some IR sites link reports through a viewer; check the detected source page before saving."
             }
           ],
           "industry": {
@@ -37791,7 +37791,7 @@
             },
             {
               "q": "Gli anni precedenti sono dietro «Mostra altro» o in un elenco lungo. Li trova?",
-              "a": "Con Pro la scansione scorre da sola la pagina fino in fondo e segue anche le pagine successive dello stesso elenco (fino a 100 pagine per scansione). Nella versione gratuita la scansione legge solo ciò che è sullo schermo: scorri tu fino in fondo (o apri la pagina successiva) e ripeti la scansione. Se ogni anno ha una scheda o una pagina propria, aprile e scansionale una alla volta. Alcuni siti collegano le relazioni tramite un visualizzatore: controlla la pagina di origine rilevata prima di salvare."
+              "a": "Con Pro la scansione scorre automaticamente la pagina fino in fondo e segue anche le pagine successive dello stesso elenco (fino a 100 pagine per scansione). Nella versione gratuita la scansione legge solo ciò che è sullo schermo: scorri tu fino in fondo (o apri la pagina successiva) e ripeti la scansione. Se ogni anno ha una scheda o una pagina propria, aprile e scansionale una alla volta. Alcuni siti collegano le relazioni tramite un visualizzatore: controlla la pagina di origine rilevata prima di salvare."
             }
           ],
           "industry": {
@@ -39446,7 +39446,7 @@
             },
             {
               "q": "The supplier’s SDS search shows results only after I search. How do I scan them?",
-              "a": "Run the search on the supplier’s site first so the results are on screen, then scan that results page. With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the Free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. Language or region selectors usually change the listed files, so scan once per language."
+              "a": "Run the search on the supplier’s site first so the results are on screen, then scan that results page. With Pro, the scan scrolls the page to the end automatically and also follows the next pages of the same list (up to 100 pages per scan). On the Free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. Language or region selectors usually change the listed files, so scan once per language."
             }
           ],
           "industry": {
@@ -39771,7 +39771,7 @@
             },
             {
               "q": "La ricerca SDS del fornitore mostra risultati solo dopo una ricerca. Come li scansiono?",
-              "a": "Esegui prima la ricerca sul sito del fornitore così che i risultati siano a schermo, poi scansiona quella pagina. Con Pro la scansione scorre da sola la pagina fino in fondo e segue anche le pagine successive dello stesso elenco (fino a 100 pagine per scansione). Nella versione gratuita la scansione legge solo ciò che è sullo schermo: scorri tu fino in fondo (o apri la pagina successiva) e ripeti la scansione. I selettori di lingua o area cambiano spesso i file elencati: scansiona una volta per lingua."
+              "a": "Esegui prima la ricerca sul sito del fornitore così che i risultati siano a schermo, poi scansiona quella pagina. Con Pro la scansione scorre automaticamente la pagina fino in fondo e segue anche le pagine successive dello stesso elenco (fino a 100 pagine per scansione). Nella versione gratuita la scansione legge solo ciò che è sullo schermo: scorri tu fino in fondo (o apri la pagina successiva) e ripeti la scansione. I selettori di lingua o area cambiano spesso i file elencati: scansiona una volta per lingua."
             }
           ],
           "industry": {
@@ -41127,7 +41127,7 @@
           "title": "Webtabellen als CSV für Excel und KI | Grab All Files",
           "h1": "Webtabellen in Excel oder KI nutzen.",
           "desc": "Unterstützte Webtabellen als CSV exportieren, Spalten und Einheiten prüfen und in Excel importieren oder an externe KI übergeben.",
-          "lead": "Machen Sie eine Webtabelle zu Daten zum Sortieren, Filtern und Vergleichen. Bereiten Sie Dateien über die KI-Ausgabe des Collectors vor und wählen Sie Excel oder externe KI. Prüfen Sie die ausgewählten Seiten und Materialien.",
+          "lead": "Machen Sie eine Webtabelle zu Daten zum Sortieren, Filtern und Vergleichen. Bereiten Sie Dateien über die KI-Ausgabe von „Seiten als HTML bündeln“ vor und wählen Sie Excel oder externe KI. Prüfen Sie die ausgewählten Seiten und Materialien.",
           "best": [
             "Öffentliche Gebühren oder Kriterien mit Einheiten und Fußnoten vergleichen.",
             "Veröffentlichte Listen in Excel filtern und Einträge prüfen."
@@ -41141,7 +41141,7 @@
           "faq": [
             {
               "q": "Ist das die CSV-Dateiliste?",
-              "a": "Nein. Diese listet Datei-URLs und Metadaten auf. Hier werden HTML-Tabellendaten über die KI-Ausgabe des Collectors extrahiert."
+              "a": "Nein. Diese listet Datei-URLs und Metadaten auf. Hier werden HTML-Tabellendaten über die KI-Ausgabe von „Seiten als HTML bündeln“ extrahiert."
             },
             {
               "q": "Wird jede Tabelle zu CSV?",
@@ -48223,14 +48223,14 @@
           ],
           "steps": [
             "Open the gallery or page and click the Grab All Files icon in the toolbar.",
-            "For galleries and infinite-scroll pages, Pro scrolls to the end by itself; if it needs longer, choose a “Scroll time” (Normal 45 s, Long 90 s, Thorough 180 s) in “Scan options”. On the Free plan, scroll to the end yourself first. Then press “Scan”.",
+            "For galleries and infinite-scroll pages, Pro scrolls to the end automatically; if it needs longer, choose a “Scroll time” (Normal 45 s, Long 90 s, Thorough 180 s) in “Scan options”. On the Free plan, scroll to the end yourself first. Then press “Scan”.",
             "Filter the list to images such as JPG, PNG, WebP, GIF or SVG. In “Details”, set a minimum “Size” to hide thumbnails and icons.",
             "Tick the images and press “Save selected files” (Free: up to 10 per download), or use “More actions” for ZIP, “Organize” by type or domain, or “Export File Info CSV”."
           ],
           "faq": [
             {
               "q": "Does it detect lazy-loaded images?",
-              "a": "Yes, once they are in the page. It reads image attributes, srcset values, CSS backgrounds, blob URLs and network responses. Images that appear only after scrolling: Pro scrolls the page to load them by itself; on the Free plan, scroll to the end yourself before scanning."
+              "a": "Yes, once they are in the page. It reads image attributes, srcset values, CSS backgrounds, blob URLs and network responses. Images that appear only after scrolling: Pro scrolls the page automatically to load them; on the Free plan, scroll to the end yourself before scanning."
             },
             {
               "q": "Can I download only some image types?",
@@ -48387,7 +48387,7 @@
           ],
           "steps": [
             "Öffnen Sie die Galerie oder Seite und klicken Sie in der Symbolleiste auf das Grab-All-Files-Symbol.",
-            "Bei Galerien und Endlos-Scroll-Seiten scrollt Pro selbst bis zum Ende; braucht es länger, wählen Sie in den „Scan-Optionen“ eine „Scroll-Zeit“ (Normal 45 s, Länger 90 s, Gründlich 180 s). In der kostenlosen Version scrollen Sie zuerst selbst bis zum Ende. Klicken Sie dann auf „Scannen“.",
+            "Bei Galerien und Endlos-Scroll-Seiten scrollt Pro automatisch bis zum Ende; braucht es länger, wählen Sie in den „Scan-Optionen“ eine „Scroll-Zeit“ (Normal 45 s, Länger 90 s, Gründlich 180 s). In der kostenlosen Version scrollen Sie zuerst selbst bis zum Ende. Klicken Sie dann auf „Scannen“.",
             "Filtern Sie die Liste auf Bilder wie JPG, PNG, WebP, GIF oder SVG. Legen Sie unter „Details“ eine Mindest-„Größe“ fest, um Vorschaubilder und Symbole auszublenden.",
             "Haken Sie die Bilder an und klicken Sie auf „Ausgewählte speichern“ (kostenlos: bis zu 10 pro Download) oder nutzen Sie „Weitere Aktionen“ für ZIP, „Ablage“ nach Typ oder Domain oder „Dateiinfo als CSV exportieren“."
           ],
@@ -48663,7 +48663,7 @@
             },
             {
               "q": "It found nothing, or fewer files than expected. What can I try?",
-              "a": "With Pro, the scan scrolls the page to the end by itself and also follows the next pages of the same list (up to 100 pages per scan). On the Free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. If the files sit on linked pages, raise “Depth”. Pause ad blockers for the site. When downloads are started by the page’s own JavaScript, use “Active Capture” when it is offered."
+              "a": "With Pro, the scan scrolls the page to the end automatically and also follows the next pages of the same list (up to 100 pages per scan). On the Free plan the scan reads only what is on screen, so scroll to the end yourself (or open the next page), then scan again. If the files sit on linked pages, raise “Depth”. Pause ad blockers for the site. When downloads are started by the page’s own JavaScript, use “Active Capture” when it is offered."
             },
             {
               "q": "The page needs a sign-in. What should I do?",
@@ -48893,7 +48893,7 @@
             },
             {
               "q": "Non ha trovato nulla, o meno file del previsto. Cosa posso fare?",
-              "a": "Con Pro la scansione scorre da sola la pagina fino in fondo e segue anche le pagine successive dello stesso elenco (fino a 100 pagine per scansione). Nella versione gratuita la scansione legge solo ciò che è sullo schermo: scorri tu fino in fondo (o apri la pagina successiva) e ripeti la scansione. Se i file sono in pagine collegate, aumenta la «Profondità». Sospendi i blocchi pubblicitari per quel sito. Se i download vengono avviati dal JavaScript della pagina, usa «Cattura attiva» quando viene proposta."
+              "a": "Con Pro la scansione scorre automaticamente la pagina fino in fondo e segue anche le pagine successive dello stesso elenco (fino a 100 pagine per scansione). Nella versione gratuita la scansione legge solo ciò che è sullo schermo: scorri tu fino in fondo (o apri la pagina successiva) e ripeti la scansione. Se i file sono in pagine collegate, aumenta la «Profondità». Sospendi i blocchi pubblicitari per quel sito. Se i download vengono avviati dal JavaScript della pagina, usa «Cattura attiva» quando viene proposta."
             },
             {
               "q": "La pagina richiede l’accesso. Cosa devo fare?",
