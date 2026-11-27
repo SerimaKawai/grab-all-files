@@ -37,7 +37,7 @@ const combineHeadlines = {
   // en/ja: since 2026-10-20 the H1 states the value and the lead states Free 1 page / Pro several pages.
   en: 'Free saves one selected page; combining several pages is a Pro feature',
   ja: '無料プランは選んだ1ページを保存でき、複数ページの結合はProの機能です',
-  es: 'La versión gratuita guarda 1 página. Pro combina varias',
+  es: 'El plan gratuito guarda 1 página. Pro combina varias',
   fr: 'Pro en regroupe plusieurs dans un HTML',
   de: 'Die kostenlose Version speichert 1 Seite. Pro bündelt mehrere Seiten',
   it: 'La versione gratuita salva 1 pagina. Pro ne unisce più',

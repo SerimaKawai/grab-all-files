@@ -31146,7 +31146,7 @@
             },
             {
               "t": "text",
-              "h": "権限の全部",
+              "h": "必要な権限の一覧",
               "p": [
                 "すべての権限と、その理由、開発者のサーバーに届くものは、このサイトのセキュリティのページ（/security.html）に一覧があります。"
               ]
@@ -35668,7 +35668,7 @@
         },
         "es": {
           "title": "Convierte una carpeta de páginas HTML en un solo archivo.",
-          "text": "La versión gratuita convierte un archivo HTML elegido de la carpeta por ejecución, con las imágenes locales incrustadas. Pro ($19.99, pago único) combina todas las páginas que selecciones en un solo HTML con índice común y enlaces internos. Todo se procesa en tu dispositivo."
+          "text": "El plan gratuito convierte un archivo HTML elegido de la carpeta por ejecución, con las imágenes locales incrustadas. Pro ($19.99, pago único) combina todas las páginas que selecciones en un solo HTML con índice común y enlaces internos. Todo se procesa en tu dispositivo."
         },
         "fr": {
           "title": "Transformez un dossier de pages HTML en un seul fichier.",
@@ -35982,7 +35982,7 @@
             "output": "manual.html",
             "toc": "Índice",
             "example": "Ejemplo ilustrativo · archivos ficticios",
-            "note": "La versión gratuita convierte un archivo HTML elegido por ejecución; Pro combina los archivos seleccionados en un solo HTML. El orden sigue los enlaces desde index.html.",
+            "note": "El plan gratuito convierte un archivo HTML elegido por ejecución; Pro combina los archivos seleccionados en un solo HTML. El orden sigue los enlaces desde index.html.",
             "referenceTitle": "",
             "referenceNote": "",
             "referenceLabel": "",
@@ -40981,7 +40981,7 @@
             },
             {
               "q": "¿Puedo empezar gratis?",
-              "a": "La versión gratuita recopila una página elegida; Pro selecciona varias. La preparación es local y tú entregas los archivos a Excel o IA externa."
+              "a": "El plan gratuito recopila una página elegida; Pro selecciona varias. La preparación es local y tú entregas los archivos a Excel o IA externa."
             },
             {
               "q": "¿Y si una página me pide iniciar sesión?",
@@ -46482,7 +46482,7 @@
           "desc": "Recopila información web en HTML legible o prepara archivos con fuentes para resumir, comparar y extraer condiciones en una herramienta de IA externa.",
           "eyebrow": "Recopilar, leer y analizar con IA",
           "h1": "Recopila información web para leerla o analizarla con IA.",
-          "lead": "Guarda una página elegida con la versión gratuita o combina varias en un HTML con Pro. Prepara archivos con fuentes para resumir, comparar y extraer condiciones. Los documentos se preparan en tu dispositivo; el análisis se realiza en la IA externa que elijas.",
+          "lead": "Guarda una página elegida con el plan gratuito o combina varias en un HTML con Pro. Prepara archivos con fuentes para resumir, comparar y extraer condiciones. Los documentos se preparan en tu dispositivo; el análisis se realiza en la IA externa que elijas.",
           "best": [
             "Comparar condiciones publicadas de seguros según los textos recopilados.",
             "Leer secciones de manuales juntas y consultar un procedimiento.",
@@ -46505,7 +46505,7 @@
             },
             {
               "q": "¿Puedo probarlo gratis?",
-              "a": "La versión gratuita descubre candidatas y guarda exactamente una página elegida como HTML. Pro selecciona y combina varias. Se mantienen los límites de seguridad, permisos y autenticación."
+              "a": "El plan gratuito descubre candidatas y guarda exactamente una página elegida como HTML. Pro selecciona y combina varias. Se mantienen los límites de seguridad, permisos y autenticación."
             },
             {
               "q": "¿Qué formatos y tamaños de archivo debo entregar a la IA?",
@@ -47383,7 +47383,7 @@
           "title": "Combinar páginas web en un archivo HTML | Grab All Files",
           "desc": "Une páginas web relacionadas en un HTML con índice común, búsqueda e impresión. El plan gratuito guarda una página por vez; Pro combina varias.",
           "eyebrow": "Recopilación HTML de páginas web",
-          "h1": "La versión gratuita guarda 1 página. Pro combina varias en un HTML.",
+          "h1": "El plan gratuito guarda 1 página. Pro combina varias en un HTML.",
           "lead": "Empieza por la página abierta en tu navegador. El plan gratuito enumera las candidatas relacionadas y mantiene exactamente una seleccionada para guardarla como HTML. Pro permite seleccionar y ordenar varias candidatas y combina su contenido legible en un HTML con un índice común.",
           "best": [
             "Investigaciones, documentación, manuales y sitios de referencia repartidos en muchas páginas.",
@@ -47400,7 +47400,7 @@
           "faq": [
             {
               "q": "¿Puedo elegir qué páginas incluir?",
-              "a": "Sí. La versión gratuita mantiene exactamente una candidata seleccionada a la vez; al elegir otra, la selección cambia. Pro permite seleccionar varias páginas, eliminar las que no necesites y reordenar las demás."
+              "a": "Sí. El plan gratuito mantiene exactamente una candidata seleccionada a la vez; al elegir otra, la selección cambia. Pro permite seleccionar varias páginas, eliminar las que no necesites y reordenar las demás."
             },
             {
               "q": "¿Puedo consultar el resultado sin conexión?",
@@ -47408,11 +47408,11 @@
             },
             {
               "q": "¿Se sube el contenido de las páginas a sus servidores?",
-              "a": "No. Todo se procesa en tu dispositivo. La versión gratuita guarda exactamente una página candidata elegida; Pro combina el contenido de varias páginas seleccionadas. Se aplican los límites de seguridad, autenticación, permisos, del sitio fuente y de protección del dispositivo."
+              "a": "No. Todo se procesa en tu dispositivo. El plan gratuito guarda exactamente una página candidata elegida; Pro combina el contenido de varias páginas seleccionadas. Se aplican los límites de seguridad, autenticación, permisos, del sitio fuente y de protección del dispositivo."
             },
             {
               "q": "¿En qué se diferencia de una herramienta para guardar una sola página, como SingleFile?",
-              "a": "Las herramientas de una sola página conservan la página abierta. Grab All Files también encuentra candidatas relacionadas: la versión gratuita guarda una página elegida y Pro combina el contenido legible de varias páginas seleccionadas en un HTML con índice común."
+              "a": "Las herramientas de una sola página conservan la página abierta. Grab All Files también encuentra candidatas relacionadas: el plan gratuito guarda una página elegida y Pro combina el contenido legible de varias páginas seleccionadas en un HTML con índice común."
             },
             {
               "q": "¿Y si una página me pide iniciar sesión?",
@@ -51593,7 +51593,7 @@
       "heading": "Pantalla real de la extensión",
       "title": "{label}: así se ve en la extensión",
       "example": "Pantalla real de la extensión con materiales de ejemplo.",
-      "collector": "Ejemplo de la versión gratuita con una página elegida y controles previos al guardado. Pro combina varias páginas seleccionadas como se explica en esta guía.",
+      "collector": "Ejemplo del plan gratuito con una página elegida y controles previos al guardado. Pro combina varias páginas seleccionadas como se explica en esta guía.",
       "portal": "Es un portal ficticio sin cuentas reales ni datos de clientes.",
       "english": "Interfaz en inglés.",
       "zoom": "Abrir la imagen a tamaño completo"
