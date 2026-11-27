@@ -4,7 +4,7 @@
 
   <url>
     <loc>https://grab-all-files.app/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/" />
@@ -184,7 +184,7 @@
 
   <url>
     <loc>https://grab-all-files.app/security.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html" />
@@ -202,7 +202,7 @@
 
   <url>
     <loc>https://grab-all-files.app/ja/security.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html" />
@@ -220,7 +220,7 @@
 
   <url>
     <loc>https://grab-all-files.app/es/security.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html" />
@@ -238,7 +238,7 @@
 
   <url>
     <loc>https://grab-all-files.app/fr/security.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html" />
@@ -256,7 +256,7 @@
 
   <url>
     <loc>https://grab-all-files.app/de/security.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html" />
@@ -274,7 +274,7 @@
 
   <url>
     <loc>https://grab-all-files.app/it/security.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html" />
@@ -292,7 +292,7 @@
 
   <url>
     <loc>https://grab-all-files.app/ko/security.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html" />
@@ -310,7 +310,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/security.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html" />
@@ -328,7 +328,7 @@
 
   <url>
     <loc>https://grab-all-files.app/zh_CN/security.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html" />
@@ -346,7 +346,7 @@
 
   <url>
     <loc>https://grab-all-files.app/zh_TW/security.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/security.html" />
@@ -418,7 +418,7 @@
 
   <url>
     <loc>https://grab-all-files.app/fr/use-cases/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/" />
@@ -490,7 +490,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/" />
@@ -2416,7 +2416,7 @@
 
   <url>
     <loc>https://grab-all-files.app/de/use-cases/save-web-pages-as-markdown.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-web-pages-as-markdown.html" />
@@ -2434,7 +2434,7 @@
 
   <url>
     <loc>https://grab-all-files.app/it/use-cases/save-web-pages-as-markdown.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-web-pages-as-markdown.html" />
@@ -2596,7 +2596,7 @@
 
   <url>
     <loc>https://grab-all-files.app/de/use-cases/save-online-manuals-and-knowledge-pages.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-online-manuals-and-knowledge-pages.html" />
@@ -2614,7 +2614,7 @@
 
   <url>
     <loc>https://grab-all-files.app/it/use-cases/save-online-manuals-and-knowledge-pages.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-online-manuals-and-knowledge-pages.html" />
@@ -3136,7 +3136,7 @@
 
   <url>
     <loc>https://grab-all-files.app/de/use-cases/combine-web-pages-into-one-html.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/combine-web-pages-into-one-html.html" />
@@ -3154,7 +3154,7 @@
 
   <url>
     <loc>https://grab-all-files.app/it/use-cases/combine-web-pages-into-one-html.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/combine-web-pages-into-one-html.html" />
@@ -3370,7 +3370,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/combine-local-html-files-into-one.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/combine-local-html-files-into-one.html" />
@@ -3478,7 +3478,7 @@
 
   <url>
     <loc>https://grab-all-files.app/fr/use-cases/save-web-pages-with-original-design.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-web-pages-with-original-design.html" />
@@ -3514,7 +3514,7 @@
 
   <url>
     <loc>https://grab-all-files.app/it/use-cases/save-web-pages-with-original-design.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-web-pages-with-original-design.html" />
@@ -3874,7 +3874,7 @@
 
   <url>
     <loc>https://grab-all-files.app/it/use-cases/download-all-pdfs.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/download-all-pdfs.html" />
@@ -4558,7 +4558,7 @@
 
   <url>
     <loc>https://grab-all-files.app/fr/use-cases/save-entire-website.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-entire-website.html" />
@@ -4594,7 +4594,7 @@
 
   <url>
     <loc>https://grab-all-files.app/it/use-cases/save-entire-website.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-entire-website.html" />
@@ -4630,7 +4630,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/save-entire-website.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-entire-website.html" />
@@ -4738,7 +4738,7 @@
 
   <url>
     <loc>https://grab-all-files.app/fr/use-cases/website-to-notebooklm-chatgpt-claude.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/website-to-notebooklm-chatgpt-claude.html" />
@@ -4810,7 +4810,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/website-to-notebooklm-chatgpt-claude.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/website-to-notebooklm-chatgpt-claude.html" />
@@ -5170,7 +5170,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/archive-website-before-it-closes.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/archive-website-before-it-closes.html" />
@@ -5350,7 +5350,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/save-pages-and-files-behind-login.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-pages-and-files-behind-login.html" />
@@ -5530,7 +5530,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/bulk-download-word-excel-powerpoint.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/bulk-download-word-excel-powerpoint.html" />
@@ -5638,7 +5638,7 @@
 
   <url>
     <loc>https://grab-all-files.app/fr/use-cases/follow-next-page-links-and-collect.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/follow-next-page-links-and-collect.html" />
@@ -5710,7 +5710,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/follow-next-page-links-and-collect.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/follow-next-page-links-and-collect.html" />
@@ -5818,7 +5818,7 @@
 
   <url>
     <loc>https://grab-all-files.app/fr/use-cases/save-infinite-scroll-pages.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-infinite-scroll-pages.html" />
@@ -6034,7 +6034,7 @@
 
   <url>
     <loc>https://grab-all-files.app/it/use-cases/download-multiple-files-as-zip.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/download-multiple-files-as-zip.html" />
@@ -6250,7 +6250,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/download-linked-video-and-audio-files.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/download-linked-video-and-audio-files.html" />
@@ -6610,7 +6610,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/download-insurance-policy-documents.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/download-insurance-policy-documents.html" />
@@ -6970,7 +6970,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/save-course-materials-and-syllabi.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/save-course-materials-and-syllabi.html" />
@@ -7474,7 +7474,7 @@
 
   <url>
     <loc>https://grab-all-files.app/it/use-cases/what-grab-all-files-can-and-cannot-do.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/what-grab-all-files-can-and-cannot-do.html" />
@@ -7510,7 +7510,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/what-grab-all-files-can-and-cannot-do.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/what-grab-all-files-can-and-cannot-do.html" />
@@ -8050,7 +8050,7 @@
 
   <url>
     <loc>https://grab-all-files.app/pt_BR/use-cases/grab-all-files-faq.html</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://grab-all-files.app/use-cases/grab-all-files-faq.html" />

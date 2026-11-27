@@ -12,9 +12,11 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
 
-const ROOT = 'c:/xampp/htdocs/grab-all-files';
+// The folder this script lives in (a git worktree copy builds itself, not the main checkout).
+const ROOT = path.dirname(fileURLToPath(import.meta.url)).split(path.sep).join('/');
 const SCRIPT = path.join(ROOT, 'use-cases', 'use-case.js');
 
 export const CASE_IDS = [

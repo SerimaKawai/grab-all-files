@@ -32,13 +32,15 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
 import { execFileSync } from 'node:child_process';
 import crypto from 'node:crypto';
 import { renderAll, getTables, CASE_IDS } from './prerender-cases.mjs';
 import { renderAll as renderSecurity } from './prerender-security.mjs';
 
-const ROOT = 'c:/xampp/htdocs/grab-all-files';
+// The folder this script lives in (a git worktree copy builds itself, not the main checkout).
+const ROOT = path.dirname(fileURLToPath(import.meta.url)).split(path.sep).join('/');
 const BASE = 'https://grab-all-files.app';
 
 const LOCALES = ['ja', 'es', 'fr', 'de', 'it', 'ko', 'pt_BR', 'zh_CN', 'zh_TW']; // non-English

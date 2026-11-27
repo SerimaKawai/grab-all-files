@@ -548,7 +548,7 @@
       "archive-website-before-it-closes": "Archiver un site avant sa fermeture",
       "save-pages-and-files-behind-login": "Enregistrer des pages et fichiers derrière une connexion",
       "bulk-download-word-excel-powerpoint": "Télécharger en masse Word, Excel, PowerPoint",
-      "follow-next-page-links-and-collect": "Suivre les liens « Next » et collecter",
+      "follow-next-page-links-and-collect": "Suivre les liens « Suivant » et collecter",
       "save-infinite-scroll-pages": "Enregistrer les pages à défilement infini",
       "download-multiple-files-as-zip": "Télécharger plusieurs fichiers en un ZIP",
       "download-linked-video-and-audio-files": "Télécharger les fichiers vidéo et audio liés",
@@ -735,7 +735,7 @@
       "follow-next-page-links-and-collect": "Seguir os links “Próximo” e coletar",
       "save-infinite-scroll-pages": "Salvar páginas com rolagem infinita",
       "download-multiple-files-as-zip": "Baixar vários arquivos em um único ZIP",
-      "download-linked-video-and-audio-files": "Baixar arquivos de vídeo e áudio ligados",
+      "download-linked-video-and-audio-files": "Baixar arquivos de vídeo e áudio vinculados",
       "save-pages-with-source-url-and-date": "Salvar páginas com URL de origem e data",
       "download-insurance-policy-documents": "Documentos de apólices de seguro",
       "collect-law-case-and-patent-pdfs": "PDFs de leis, decisões e patentes",
@@ -1564,7 +1564,7 @@
               "h": "Comment se comportent les pages enregistrées",
               "p": [
                 "Chaque page conserve ses propres feuilles de style, polices web et images. Les fichiers partagés par de nombreuses pages ne sont stockés qu’une fois. Les scripts du site sont retirés et les pages enregistrées ne se connectent pas au réseau quand vous les ouvrez : les onglets, les accordéons et les flèches de carrousel fonctionnent donc encore, mais pas les formulaires, les champs de recherche qui interrogent le serveur ni les lecteurs vidéo intégrés.",
-                "Avant l’enregistrement, chaque page est ouverte dans un onglet et défilée pour que les images à chargement différé apparaissent. Le temps consacré à cette étape suit le réglage « Durée de défilement » (45, 90 ou 180 secondes). Les publicités sont exclues par défaut, et l’en-tête, le menu et le pied de page répétés sur chaque page peuvent n’être conservés que sur la première."
+                "Avant l’enregistrement, chaque page est ouverte dans un onglet, puis défile pour que les images à chargement différé apparaissent. Le temps consacré à cette étape suit le réglage « Durée de défilement » (45, 90 ou 180 secondes). Les publicités sont exclues par défaut, et l’en-tête, le menu et le pied de page répétés sur chaque page peuvent n’être conservés que sur la première."
               ]
             },
             {
@@ -1937,7 +1937,7 @@
               "t": "text",
               "h": "Come si comportano le pagine salvate",
               "p": [
-                "Ogni pagina conserva i propri fogli di stile, i web font e le immagini. I file condivisi da molte pagine vengono memorizzati una sola volta. Gli script del sito vengono rimossi e le pagine salvate non si collegano alla rete quando le apri: schede, fisarmoniche e frecce dei caroselli funzionano ancora, ma moduli, caselle di ricerca che interrogano il server e lettori video incorporati no.",
+                "Ogni pagina conserva i propri fogli di stile, i web font e le immagini. I file condivisi da molte pagine vengono memorizzati una sola volta. Gli script del sito vengono rimossi e le pagine salvate non si collegano alla rete quando le apri: schede, menu a fisarmonica e frecce dei caroselli funzionano ancora, ma moduli, caselle di ricerca che interrogano il server e lettori video incorporati no.",
                 "Prima del salvataggio, ogni pagina viene aperta in una scheda e fatta scorrere perché compaiano le immagini a caricamento differito. Il tempo dedicato a questa operazione segue l’impostazione «Tempo di scorrimento» (45, 90 o 180 secondi). Gli annunci sono esclusi per impostazione predefinita, e intestazione, menu e piè di pagina ripetuti su ogni pagina si possono tenere solo nella prima."
               ]
             },
@@ -2296,7 +2296,7 @@
                   "O mesmo"
                 ],
                 [
-                  "PDFs e arquivos do Office ligados",
+                  "PDFs e arquivos do Office vinculados",
                   "10 por execução, depois “Salvar os próximos 10 arquivos”",
                   "100 por execução, depois o mesmo botão"
                 ],
@@ -2311,7 +2311,7 @@
               "t": "text",
               "h": "Como as páginas salvas se comportam",
               "p": [
-                "Cada página mantém suas próprias folhas de estilo, fontes da web e imagens. Os arquivos compartilhados por muitas páginas são guardados uma só vez. Os scripts do site são removidos e as páginas salvas não se conectam à rede quando você as abre; por isso abas, sanfonas e setas de carrossel continuam funcionando, mas formulários, caixas de pesquisa que consultam o servidor e players de vídeo incorporados não funcionam.",
+                "Cada página mantém suas próprias folhas de estilo, fontes da web e imagens. Os arquivos compartilhados por muitas páginas são guardados uma só vez. Os scripts do site são removidos e as páginas salvas não se conectam à rede quando você as abre; por isso abas, acordeões e setas de carrossel continuam funcionando, mas formulários, caixas de pesquisa que consultam o servidor e players de vídeo incorporados não funcionam.",
                 "Antes de salvar, cada página é aberta em uma aba e rolada para que as imagens de carregamento tardio apareçam. O tempo gasto nisso segue a configuração “Tempo de rolagem” (45, 90 ou 180 segundos). Os anúncios ficam de fora por padrão, e o cabeçalho, o menu e o rodapé repetidos em todas as páginas podem ser mantidos só na primeira."
               ]
             },
@@ -3207,7 +3207,7 @@
               "t": "text",
               "h": "Où l’extension s’arrête et où vous commencez",
               "p": [
-                "L’extension lit les pages dans votre navigateur, les convertit sur votre ordinateur et enregistre les fichiers. C’est tout ce qu’elle fait. Elle ne se connecte à aucun service d’IA, n’importe rien et ne pose aucune question à votre place.",
+                "L’extension lit les pages dans votre navigateur, les convertit sur votre ordinateur et enregistre les fichiers. C’est tout ce qu’elle fait. Elle ne se connecte à aucun service d’IA, n’envoie rien et ne pose aucune question à votre place.",
                 "Vous ouvrez le service d’IA de votre choix, vous ajoutez les fichiers comme sources ou pièces jointes, et vous posez votre question là-bas. Les types et tailles de fichiers acceptés, ainsi que le traitement des fichiers importés, sont fixés par le service. Lisez ses limites actuelles et ses réglages de confidentialité avant d’importer des pages d’un site réservé aux membres."
               ]
             },
@@ -3885,7 +3885,7 @@
               "items": [
                 [
                   "web-pages-for-reading-and-ai-analysis",
-                  "O fluxo mais amplo: PDFs e arquivos do Office ligados, o texto do pedido e a conferência das respostas."
+                  "O fluxo mais amplo: PDFs e arquivos do Office vinculados, o texto do pedido e a conferência das respostas."
                 ],
                 [
                   "save-web-pages-as-markdown",
@@ -6802,7 +6802,7 @@
                 [
                   "2",
                   "PDFs e arquivos Word, Excel e PowerPoint para os quais as páginas têm links",
-                  "Marque a opção de salvar os arquivos ligados junto com as páginas (10 por execução no plano gratuito, 100 no Pro). Ou use o Baixador de arquivos com profundidade de 1 a 5, filtre por tipo e salve um ZIP."
+                  "Marque a opção de salvar os arquivos vinculados junto com as páginas (10 por execução no plano gratuito, 100 no Pro). Ou use o Baixador de arquivos com profundidade de 1 a 5, filtre por tipo e salve um ZIP."
                 ],
                 [
                   "3",
@@ -6832,7 +6832,7 @@
                 [
                   "linked-copy",
                   "Os arquivos para os quais as páginas têm links",
-                  "PDFs e arquivos do Office ligados a partir de uma página são salvos ao lado dela. O texto deles não é copiado para o HTML; a página mantém o link.",
+                  "PDFs e arquivos do Office vinculados a partir de uma página são salvos ao lado dela. O texto deles não é copiado para o HTML; a página mantém o link.",
                   96,
                   64
                 ]
@@ -6845,7 +6845,7 @@
                   "h": "O que ainda dá para salvar",
                   "items": [
                     "Páginas como o navegador as mostra, inclusive páginas feitas com JavaScript e páginas atrás do seu login.",
-                    "Arquivos PDF, Word, Excel e PowerPoint ligados a partir das páginas.",
+                    "Arquivos PDF, Word, Excel e PowerPoint vinculados a partir das páginas.",
                     "Arquivos de vídeo e áudio para os quais uma página tem link direto, como mp4 ou mp3.",
                     "Arquivos com falha: tente de novo, ou exporte a lista de URLs com falha junto com os motivos."
                   ]
@@ -6869,7 +6869,7 @@
               "items": [
                 "Anote as páginas de partida: a página inicial, a biblioteca de documentos, o arquivo de notícias, a página de contato.",
                 "Entre primeiro no site se parte dele for para membros. Se a sessão expirar durante uma execução longa, a execução pausa; entre de novo e clique em Retomar. As páginas já salvas permanecem.",
-                "Conte os documentos ligados logo no início. Os arquivos ligados são salvos 10 por execução no plano gratuito e 100 no Pro, com um botão na tela de resultado para o restante, então uma biblioteca de centenas de arquivos exige várias rodadas.",
+                "Conte os documentos vinculados logo no início. Os arquivos vinculados são salvos 10 por execução no plano gratuito e 100 no Pro, com um botão na tela de resultado para o restante, então uma biblioteca de centenas de arquivos exige várias rodadas.",
                 "Abra a cópia salva com a rede desligada. Clique em algumas páginas e confira se os links entre as páginas salvas abrem os arquivos salvos.",
                 "Guarde a data. Com “Manter a aparência original” e “HTML com índice e pesquisa”, a URL de origem e a hora da captura aparecem sob o título de cada página."
               ]
@@ -6878,7 +6878,7 @@
               "t": "text",
               "h": "Quando o site tem milhares de páginas",
               "p": [
-                "O Grab All Files lê as páginas dentro do seu navegador, uma depois da outra. É assim que ele alcança páginas atrás do seu login, e é também por isso que um site muito grande demora. Com milhares de páginas e pouco tempo, um copiador de sites para computador, que pede as páginas direto ao servidor, cobre mais terreno por hora. Use o Grab All Files para as páginas que esse programa não enxerga e para extrair os documentos ligados por tipo."
+                "O Grab All Files lê as páginas dentro do seu navegador, uma depois da outra. É assim que ele alcança páginas atrás do seu login, e é também por isso que um site muito grande demora. Com milhares de páginas e pouco tempo, um copiador de sites para computador, que pede as páginas direto ao servidor, cobre mais terreno por hora. Use o Grab All Files para as páginas que esse programa não enxerga e para extrair os documentos vinculados por tipo."
               ]
             },
             {
@@ -6911,11 +6911,11 @@
             },
             {
               "q": "Os PDFs e os arquivos Word também são salvos?",
-              "a": "Sim. Os arquivos ligados a partir das páginas podem ser salvos junto com elas (10 por execução no plano gratuito, 100 no Pro), ou coletados com o Baixador de arquivos. O texto deles não é incorporado ao HTML; a página mantém o link."
+              "a": "Sim. Os arquivos vinculados a partir das páginas podem ser salvos junto com elas (10 por execução no plano gratuito, 100 no Pro), ou coletados com o Baixador de arquivos. O texto deles não é incorporado ao HTML; a página mantém o link."
             },
             {
               "q": "Ele consegue salvar vídeo do site?",
-              "a": "Só arquivos de vídeo ligados diretamente a partir de uma página, como mp4. Vídeo transmitido por streaming não é salvo, e nenhum DRM ou marca d'água é contornado."
+              "a": "Só arquivos de vídeo vinculados diretamente a partir de uma página, como mp4. Vídeo transmitido por streaming não é salvo, e nenhum DRM ou marca d'água é contornado."
             },
             {
               "q": "O site tem milhares de páginas. O que devo usar?",
@@ -8312,7 +8312,7 @@
             },
             {
               "q": "Ele salva as páginas além dos arquivos?",
-              "a": "Sim. O Baixador de arquivos salva os arquivos; o Juntar páginas em HTML salva as páginas e pode salvar junto os PDFs e arquivos do Office ligados."
+              "a": "Sim. O Baixador de arquivos salva os arquivos; o Juntar páginas em HTML salva as páginas e pode salvar junto os PDFs e arquivos do Office vinculados."
             },
             {
               "q": "Posso salvar tudo o que consigo ver?",
@@ -9601,7 +9601,7 @@
         },
         "pt_BR": {
           "title": "Baixar em massa arquivos Word, Excel e PowerPoint de uma página | Grab All Files",
-          "desc": "Ache os arquivos Word, Excel e PowerPoint ligados em uma página, filtre por Documentos, Planilhas ou Apresentações e salve. Plano gratuito: 10 arquivos por download.",
+          "desc": "Ache os arquivos Word, Excel e PowerPoint vinculados em uma página, filtre por Documentos, Planilhas ou Apresentações e salve. Plano gratuito: 10 arquivos por download.",
           "eyebrow": "Arquivos do Office",
           "h1": "Baixe de uma vez todos os arquivos Word, Excel e PowerPoint de uma página.",
           "lead": "Uma página de formulários, tabelas de preços ou slides de aulas costuma ter links para dezenas de arquivos .docx, .xlsx e .pptx, e salvá-los um a um leva muito tempo. O Grab All Files lista os arquivos do Office que encontra na página, você marca os que quer e ele os salva. A detecção de arquivos do Office é a mesma no plano gratuito e no Pro.",
@@ -9663,7 +9663,7 @@
               "head": [
                 "",
                 "Baixador de arquivos",
-                "Juntar páginas em HTML, com arquivos ligados"
+                "Juntar páginas em HTML, com arquivos vinculados"
               ],
               "rows": [
                 [
@@ -9688,7 +9688,7 @@
                 ]
               ],
               "after": [
-                "Arquivos idênticos são salvos só uma vez no caminho dos arquivos ligados. O texto dentro dos arquivos do Office não é colocado no HTML; o HTML apenas tem links para eles."
+                "Arquivos idênticos são salvos só uma vez no caminho dos arquivos vinculados. O texto dentro dos arquivos do Office não é colocado no HTML; o HTML apenas tem links para eles."
               ]
             },
             {
@@ -9733,7 +9733,7 @@
             },
             {
               "q": "Ele salva os arquivos do Office junto com as páginas que têm links para eles?",
-              "a": "Sim. O Juntar páginas em HTML pode salvar junto com as páginas os PDFs e arquivos do Office ligados: 10 por execução no plano gratuito, 100 no Pro."
+              "a": "Sim. O Juntar páginas em HTML pode salvar junto com as páginas os PDFs e arquivos do Office vinculados: 10 por execução no plano gratuito, 100 no Pro."
             },
             {
               "q": "Meus arquivos são enviados para algum lugar?",
@@ -11099,7 +11099,7 @@
               "rows": [
                 [
                   "O que coleta",
-                  "PDFs, arquivos do Office, imagens e outros arquivos ligados em cada página",
+                  "PDFs, arquivos do Office, imagens e outros arquivos vinculados em cada página",
                   "As próprias páginas, salvas como HTML"
                 ],
                 [
@@ -12020,7 +12020,7 @@
                 ],
                 [
                   "« Garder l’apparence d’origine », pour chaque page",
-                  "La page est ouverte dans un onglet et défilée jusqu’en bas avant d’être enregistrée, pour que les images à chargement différé apparaissent",
+                  "La page est ouverte dans un onglet, puis défile jusqu’en bas avant d’être enregistrée, pour que les images à chargement différé apparaissent",
                   "La durée suit le réglage « Durée de défilement » : 45, 90 ou 180 secondes",
                   "Gratuit et Pro"
                 ],
@@ -13922,7 +13922,7 @@
               "a": "Scansiona la pagina con il Downloader di file, spunta i file e premi ZIP. Ottieni un unico archivio."
             },
             {
-              "q": "Quanti file possono entrare in un ZIP gratis?",
+              "q": "Quanti file possono entrare in uno ZIP gratis?",
               "a": "10. Un insieme di 30 report diventa tre file ZIP da 10: seleziona i 10 successivi e premi di nuovo ZIP."
             },
             {
@@ -15501,7 +15501,7 @@
           ]
         },
         "pt_BR": {
-          "title": "Baixar em massa arquivos mp4 e mp3 ligados em uma página | Grab All Files",
+          "title": "Baixar em massa arquivos mp4 e mp3 vinculados em uma página | Grab All Files",
           "desc": "Salve vídeo e áudio para os quais uma página tem link como arquivos comuns (mp4, mp3 e outros). Streaming como HLS e DASH, sites de vídeo e DRM não são salvos. Gratuito e Pro.",
           "eyebrow": "Arquivos de vídeo e áudio",
           "h1": "Salve os arquivos de vídeo e áudio para os quais uma página tem link, e saiba o que não é coberto.",
@@ -15511,7 +15511,7 @@
               "t": "pair",
               "items": [
                 {
-                  "h": "Salvos: arquivos ligados diretamente",
+                  "h": "Salvos: arquivos vinculados diretamente",
                   "items": [
                     "Um link ou botão de download que aponta para um arquivo de mídia, como lecture.mp4 ou episode-12.mp3.",
                     "Arquivos de vídeo e de áudio por igual. A detecção é a mesma no plano gratuito e no Pro.",
@@ -15624,7 +15624,7 @@
             },
             {
               "q": "Ele também acha arquivos de áudio como mp3?",
-              "a": "Sim. Arquivos de áudio ligados diretamente são detectados em Áudio, por exemplo mp3, m4a, wav e flac."
+              "a": "Sim. Arquivos de áudio vinculados diretamente são detectados em Áudio, por exemplo mp3, m4a, wav e flac."
             },
             {
               "q": "Há um limite de quantidade de arquivos?",
@@ -18667,7 +18667,7 @@
                 ],
                 [
                   "Formulários de pedido e guias",
-                  "Formulários de sinistro, de mudança de endereço e guias de procedimentos ligados a partir da mesma página de produto."
+                  "Formulários de sinistro, de mudança de endereço e guias de procedimentos vinculados a partir da mesma página de produto."
                 ]
               ]
             },
@@ -21847,7 +21847,7 @@
                 ],
                 [
                   "Sites de estudo e tutoriais",
-                  "Páginas com apostilas, listas de exercícios e respostas resolvidas. Escaneie a página em busca de arquivos ligados; se a página for longa, role-a antes de escanear no plano gratuito."
+                  "Páginas com apostilas, listas de exercícios e respostas resolvidas. Escaneie a página em busca de arquivos vinculados; se a página for longa, role-a antes de escanear no plano gratuito."
                 ]
               ]
             },
@@ -21878,7 +21878,7 @@
                   "Uma página de links",
                   "A página que lista os slides",
                   "Apenas esta página",
-                  "Todos os arquivos ligados nessa página"
+                  "Todos os arquivos vinculados nessa página"
                 ],
                 [
                   "Páginas semana a semana",
@@ -21957,7 +21957,7 @@
             },
             {
               "q": "Posso salvar aulas em vídeo?",
-              "a": "Somente vídeos ligados como arquivos comuns, como mp4. Aulas transmitidas por streaming, em que a página reproduz o vídeo em um visualizador, não são salvas."
+              "a": "Somente vídeos vinculados como arquivos comuns, como mp4. Aulas transmitidas por streaming, em que a página reproduz o vídeo em um visualizador, não são salvas."
             },
             {
               "q": "Ele cria uma pasta por curso?",
@@ -26537,7 +26537,7 @@
                   "Uguale in entrambi i piani."
                 ],
                 [
-                  "Dimensione di un ZIP",
+                  "Dimensione di uno ZIP",
                   "256 MB",
                   "Sopra i 200 MB in totale compare una conferma. Non divide un ZIP in più parti.",
                   "La versione gratuita si ferma anche a 10 file per ZIP."
@@ -26954,7 +26954,7 @@
         },
         "pt_BR": {
           "title": "O que o Grab All Files faz e não faz: limites e páginas não suportadas | Grab All Files",
-          "desc": "Os números em uma tabela: 10 arquivos por download no plano gratuito, 100 ligados por execução no Pro, 100.000 páginas por varredura, 256 MB por ZIP. E o que ele não salva.",
+          "desc": "Os números em uma tabela: 10 arquivos por download no plano gratuito, 100 vinculados por execução no Pro, 100.000 páginas por varredura, 256 MB por ZIP. E o que ele não salva.",
           "eyebrow": "Limites e adequação",
           "h1": "O que o Grab All Files faz e não faz, com os números.",
           "lead": "O Grab All Files é uma extensão de navegador para Chrome, Edge e Firefox. Ele encontra arquivos em páginas da web e salva páginas como HTML. Esta página lista os limites dele, o que muda entre o plano gratuito e o Pro, e as páginas e arquivos que ele não consegue salvar, com o tipo de ferramenta a usar nesses casos.",
@@ -26985,10 +26985,10 @@
                   "Acima de 100 páginas no Pro, ele pergunta primeiro se deve pausar a cada 100 páginas."
                 ],
                 [
-                  "Arquivos ligados salvos com o HTML",
+                  "Arquivos vinculados salvos com o HTML",
                   "10 no plano gratuito; 100 no Pro, por execução",
                   "PDFs, arquivos Word, Excel e semelhantes para os quais as páginas salvas têm links. Um botão na tela de resultado salva o próximo lote.",
-                  "No Pro ele pergunta primeiro quando há mais de 100 ligados."
+                  "No Pro ele pergunta primeiro quando há mais de 100 vinculados."
                 ],
                 [
                   "Páginas em uma varredura",
@@ -27026,7 +27026,7 @@
               "t": "text",
               "h": "O que é o “100” do Pro e o que ele não é",
               "p": [
-                "O Pro não tem limite de quantos arquivos você baixa. O 100 dele é o número de arquivos ligados salvos ao lado do HTML por execução em “Juntar páginas em HTML”: os PDFs e arquivos do Office para os quais as suas páginas salvas apontam. O plano gratuito salva 10 deles por execução. Se houver mais ligados, a tela de resultado tem um botão para o próximo lote.",
+                "O Pro não tem limite de quantos arquivos você baixa. O 100 dele é o número de arquivos vinculados salvos ao lado do HTML por execução em “Juntar páginas em HTML”: os PDFs e arquivos do Office para os quais as suas páginas salvas apontam. O plano gratuito salva 10 deles por execução. Se houver mais vinculados, a tela de resultado tem um botão para o próximo lote.",
                 "Outros dois números são fáceis de confundir com ele. 100.000 é o limite de páginas de uma varredura, e 100 também é o número de páginas “Próximo” que uma varredura do Pro segue com a configuração mais longa de “Tempo de rolagem”. Os três são configurações separadas."
               ]
             },
@@ -27165,7 +27165,7 @@
             },
             {
               "q": "O Pro é limitado a 100 downloads?",
-              "a": "Não. O baixador de arquivos não tem limite de quantidade de arquivos no Pro. O 100 é o número de arquivos ligados salvos ao lado do HTML em uma execução de “Juntar páginas em HTML”. Um botão na tela de resultado salva o próximo lote."
+              "a": "Não. O baixador de arquivos não tem limite de quantidade de arquivos no Pro. O 100 é o número de arquivos vinculados salvos ao lado do HTML em uma execução de “Juntar páginas em HTML”. Um botão na tela de resultado salva o próximo lote."
             },
             {
               "q": "Quantas páginas ele consegue varrer?",
@@ -31801,7 +31801,7 @@
             },
             {
               "q": "O que posso fazer de graça?",
-              "a": "Detectar e listar arquivos e depois salvar 10 arquivos por download, com ZIP, mesclagem de PDFs e CSV sobre os mesmos 10 arquivos. Em Juntar páginas em HTML você pode achar páginas candidatas e salvar uma página por execução em qualquer uma das quatro formas de arquivo salvo, acrescentar mais páginas, uma de cada vez, ao HTML salvo da última vez, e salvar 10 arquivos ligados por execução. Não é preciso cartão de crédito."
+              "a": "Detectar e listar arquivos e depois salvar 10 arquivos por download, com ZIP, mesclagem de PDFs e CSV sobre os mesmos 10 arquivos. Em Juntar páginas em HTML você pode achar páginas candidatas e salvar uma página por execução em qualquer uma das quatro formas de arquivo salvo, acrescentar mais páginas, uma de cada vez, ao HTML salvo da última vez, e salvar 10 arquivos vinculados por execução. Não é preciso cartão de crédito."
             },
             {
               "q": "Quais navegadores são suportados?",
@@ -34403,7 +34403,7 @@
           "steps": [
             "Ouvrez Grab All Files et choisissez « Regrouper les pages en HTML ». Partez de la page ouverte dans votre navigateur, laissez l’extension trouver les pages liées, ou passez la source sur « Depuis un dossier de l’ordinateur » pour un dossier ou un ZIP de fichiers HTML.",
             "Vérifiez les pages à inclure. Sous « Apparence », choisissez « Garder l’apparence d’origine ». Si vous regroupez plusieurs pages d’un même site, activez « Ne garder que sur la première page l’en-tête, le menu et le pied de page répétés sur chaque page ». « Omettre les publicités » est activé d’emblée pour un fichier plus léger ; désactivez-le pour garder les emplacements publicitaires.",
-            "Pour les pages web, autorisez l’accès aux sites qui fournissent les feuilles de style et les images lorsque c’est demandé. La demande n’est faite qu’une fois pour tous. Chaque page est ouverte dans un onglet et défilée jusqu’en bas, afin d’inclure les images et le contenu qui se chargent au défilement.",
+            "Pour les pages web, autorisez l’accès aux sites qui fournissent les feuilles de style et les images lorsque c’est demandé. La demande n’est faite qu’une fois pour tous. Chaque page est ouverte dans un onglet, puis défile jusqu’en bas, afin d’inclure les images et le contenu qui se chargent au défilement.",
             "Enregistrez. Avant d’enregistrer, choisissez la forme du résultat. Pour une page avec Pro : « La page telle quelle » ou « HTML avec sommaire et recherche ». Pour plusieurs pages avec Pro, ou la page unique en version gratuite : « HTML avec sommaire et recherche », « HTML vertical (pour l’impression) », « Pages HTML séparées (ZIP) » ou « Copie du site dans un dossier » (Chrome, Edge). Dans le HTML avec sommaire et recherche, chaque page garde son design d’origine dans un cadre, avec l’adresse d’origine et la date de capture au-dessus, et le sommaire et le champ de recherche permettent de passer d’une page à l’autre. « La page telle quelle » et le HTML vertical n’ont ni sommaire ni panneau de recherche : utilisez la recherche du navigateur (Ctrl+F / ⌘F). Une page enregistrée seule garde son adresse d’origine et la date dans un commentaire en tête du HTML. À l’impression, le HTML vertical commence chaque page sur une nouvelle feuille ; pour un PDF, imprimez-le depuis le navigateur après l’enregistrement. « Pages HTML séparées (ZIP) » contient une page de sommaire (index.html) qui renvoie vers chaque page. « Copie du site dans un dossier » écrit les pages dans le dossier choisi en reprenant l’arborescence du site d’origine, avec une page de sommaire (index.html) ; les liens entre les pages enregistrées ouvrent les fichiers enregistrés, ce qui permet de parcourir la copie hors ligne. Pour lister aussi les images ou éléments qui n’ont pas pu être conservés, choisissez « HTML avec sommaire et recherche » et activez « Inclure les informations de collecte et la liste des échecs »."
           ],
           "faq": [
@@ -34421,7 +34421,7 @@
             },
             {
               "q": "Les images qui n’apparaissent qu’au défilement sont-elles incluses ?",
-              "a": "Oui. Pour les pages web, chaque page est ouverte dans un onglet et défilée jusqu’en bas avant d’être capturée : les images à chargement différé et les pages qui ajoutent du contenu au défilement sont donc incluses. Le défilement s’arrête quand la page cesse de s’allonger ou quand le temps réglé dans « Durée de défilement » est écoulé (45, 90 ou 180 secondes). Les en-têtes fixes, les bandeaux de cookies et les titres collants apparaissent à leur place d’origine quand vous faites défiler le fichier enregistré."
+              "a": "Oui. Pour les pages web, chaque page est ouverte dans un onglet, puis défile jusqu’en bas avant d’être capturée : les images à chargement différé et les pages qui ajoutent du contenu au défilement sont donc incluses. Le défilement s’arrête quand la page cesse de s’allonger ou quand le temps réglé dans « Durée de défilement » est écoulé (45, 90 ou 180 secondes). Les en-têtes fixes, les bandeaux de cookies et les titres collants apparaissent à leur place d’origine quand vous faites défiler le fichier enregistré."
             },
             {
               "q": "Le fichier enregistré est-il sûr à ouvrir et à partager ?",
@@ -34777,7 +34777,7 @@
             },
             {
               "q": "Menu, schede e slider funzioneranno ancora?",
-              "a": "Gli script del sito vengono rimossi per sicurezza, quindi le funzioni che ne hanno bisogno, come mappe, moduli di ricerca, accessi o lettori video che si caricano su richiesta, non vengono eseguite. Alcune parti comuni sono fatte funzionare senza gli script del sito: le schede e le fisarmoniche costruite con il markup standard per l’accessibilità o con Bootstrap si aprono e si chiudono, e le frecce dei caroselli (Swiper, Slick, Splide, Glide, Flickity) fanno avanzare una diapositiva alla volta. I moduli non vengono mai inviati."
+              "a": "Gli script del sito vengono rimossi per sicurezza, quindi le funzioni che ne hanno bisogno, come mappe, moduli di ricerca, accessi o lettori video che si caricano su richiesta, non vengono eseguite. Alcune parti comuni sono fatte funzionare senza gli script del sito: le schede e i menu a fisarmonica costruiti con il markup standard per l’accessibilità o con Bootstrap si aprono e si chiudono, e le frecce dei caroselli (Swiper, Slick, Splide, Glide, Flickity) fanno avanzare una diapositiva alla volta. I moduli non vengono mai inviati."
             },
             {
               "q": "Include anche le immagini che compaiono solo con lo scorrimento?",
@@ -34883,7 +34883,7 @@
               ],
               [
                 "Parti interattive",
-                "Schede, fisarmoniche e frecce dei caroselli funzionano; gli altri script non vengono eseguiti",
+                "Schede, menu a fisarmonica e frecce dei caroselli funzionano; gli altri script non vengono eseguiti",
                 "I contenuti sono mostrati aperti per la lettura"
               ],
               [
@@ -36475,7 +36475,7 @@
             },
             {
               "q": "O que acontece com imagens, PDFs e links entre páginas?",
-              "a": "Imagens locais PNG, JPEG, GIF, WebP e AVIF são incorporadas. Os links entre as páginas combinadas viram links internos dentro do arquivo. Arquivos ligados, como PDF, Office ou ZIP, podem ser “Copiar ao lado do HTML” (padrão), “Incorporar no HTML” (20 MiB por arquivo e 100 MiB no total por padrão) ou “Deixar como links”."
+              "a": "Imagens locais PNG, JPEG, GIF, WebP e AVIF são incorporadas. Os links entre as páginas combinadas viram links internos dentro do arquivo. Arquivos vinculados, como PDF, Office ou ZIP, podem ser “Copiar ao lado do HTML” (padrão), “Incorporar no HTML” (20 MiB por arquivo e 100 MiB no total por padrão) ou “Deixar como links”."
             },
             {
               "q": "Quais arquivos ele consegue ler?",
@@ -44609,7 +44609,7 @@
             "Ausgewählte Markdown-Dateien für Fragen an externe KI vorbereiten."
           ],
           "steps": [
-            "Öffnen Sie eine Seite, die Sie speichern dürfen, und starten Sie „Seiten als HTML bündeln“. Prüfen Sie Vorschläge und wählen Sie benötigte Seiten. Free speichert eine gewählte Seite als HTML; Pro bündelt mehrere Seiteninhalte.",
+            "Öffnen Sie eine Seite, die Sie speichern dürfen, und starten Sie „Seiten als HTML bündeln“. Prüfen Sie Vorschläge und wählen Sie benötigte Seiten. Die kostenlose Version speichert eine gewählte Seite als HTML; Pro bündelt mehrere Seiteninhalte.",
             "Aktivieren Sie vor der Sammlung „KI-Analysedaten (Markdown mit Quellen)“. Wählen Sie „Eine Markdown-Datei“, „Markdown je Seite“ oder „Komplettpaket“ für Lesen, getrennte Notizen oder strukturierte Weiterverwendung.",
             "Sammeln und prüfen Sie das Ergebnis. Vergleichen Sie Überschriften, Links und wichtigen Text mit der Quelle und prüfen Sie Fehler. Speichern Sie auch HTML für Inhaltsverzeichnis und Suche.",
             "Nutzen Sie „KI-Analyse-ZIP speichern“, entpacken Sie das ZIP und öffnen Sie Markdown in einem passenden Editor. Behalten Sie source_url und captured_at und ergänzen Sie Themen und Ihr Prüfdatum.",
@@ -44709,7 +44709,7 @@
             "Preparare Markdown selezionati per domande a un’IA esterna."
           ],
           "steps": [
-            "Apri una pagina che puoi salvare e usa «Unisci pagine in HTML». Controlla le candidate e scegli quelle necessarie. Free salva una pagina scelta in HTML; Pro unisce il contenuto di più pagine.",
+            "Apri una pagina che puoi salvare e usa «Unisci pagine in HTML». Controlla le candidate e scegli quelle necessarie. La versione gratuita salva una pagina scelta in HTML; Pro unisce il contenuto di più pagine.",
             "Prima della raccolta, attiva «Dati per analisi con IA (Markdown con fonti)». Scegli «Un unico Markdown», «Markdown per pagina» o «Pacchetto completo» per lettura, note separate o riuso strutturato.",
             "Raccogli e controlla il risultato. Confronta titoli, link e testo importante con la fonte e verifica gli errori. Salva anche HTML per indice e ricerca.",
             "Usa «Salva ZIP di analisi IA», estrai lo ZIP e apri i Markdown in un editor compatibile. Mantieni source_url e captured_at e aggiungi argomenti e data di verifica alle note.",
@@ -45640,7 +45640,7 @@
           "desc": "Erlaubte Online-Handbücher und Wissensartikel als lesbare Referenz sichern – mit HTML-Kapiteln, eingebetteten PDFs und Quellen.",
           "eyebrow": "Handbücher und Wissensseiten sichern",
           "h1": "Handbücher und Wissensartikel als gut nutzbare Referenz sammeln.",
-          "lead": "Lesen Sie benötigte Kapitel zusammen, finden Sie Abläufe mit Inhaltsverzeichnis und Suche und bewahren Sie PDFs neben Erklärungen auf. Nutzen Sie Material mit erlaubtem Lese- und Speicherzugriff. Free speichert eine Seite, Pro kombiniert mehrere.",
+          "lead": "Lesen Sie benötigte Kapitel zusammen, finden Sie Abläufe mit Inhaltsverzeichnis und Suche und bewahren Sie PDFs neben Erklärungen auf. Nutzen Sie Material mit erlaubtem Lese- und Speicherzugriff. Die kostenlose Version speichert eine Seite, Pro kombiniert mehrere.",
           "best": [
             "Antragsabläufe, erforderliche Unterlagen und Bedienungsanleitungen gemeinsam nachlesen.",
             "Erklärseite und Original-PDF als zusammengehörige Materialien ordnen.",
@@ -45747,7 +45747,7 @@
           "desc": "Manuali online e articoli consentiti diventano un riferimento leggibile, con capitoli HTML, PDF incorporati e fonti tenuti insieme.",
           "eyebrow": "Salvare manuali e pagine di conoscenza",
           "h1": "Riunisci manuali e articoli in un riferimento da consultare.",
-          "lead": "Leggi insieme i capitoli utili, trova procedure con indice e ricerca e conserva i PDF accanto alle spiegazioni. Usa materiali che sei autorizzato a vedere e salvare. Free salva una pagina scelta; Pro combina più pagine.",
+          "lead": "Leggi insieme i capitoli utili, trova procedure con indice e ricerca e conserva i PDF accanto alle spiegazioni. Usa materiali che sei autorizzato a vedere e salvare. La versione gratuita salva una pagina scelta; Pro combina più pagine.",
           "best": [
             "Consultare procedure di richiesta, documenti necessari e istruzioni operative insieme.",
             "Organizzare la pagina esplicativa e il PDF originale come materiali collegati.",
@@ -47473,7 +47473,7 @@
           "title": "Webseiten in einer HTML-Datei bündeln | Grab All Files",
           "desc": "Verwandte Webseiten in einem durchsuchbaren HTML mit Inhaltsverzeichnis bündeln. Kostenlos wird eine Seite je Durchgang gespeichert, mit Pro mehrere.",
           "eyebrow": "HTML-Sammlung für Webseiten",
-          "h1": "Free speichert 1 Seite. Pro bündelt mehrere Seiten in einer HTML-Datei.",
+          "h1": "Die kostenlose Version speichert 1 Seite. Pro bündelt mehrere Seiten in einer HTML-Datei.",
           "lead": "Beginnen Sie mit der im Browser geöffneten Seite. Free listet zugehörige Kandidaten und hält genau einen für die HTML-Speicherung ausgewählt. Pro lässt Sie mehrere Kandidaten auswählen und anordnen und bündelt deren lesbare Inhalte in einer HTML-Datei mit gemeinsamem Inhaltsverzeichnis.",
           "best": [
             "Recherchen, Dokumentationen, Handbücher und Referenzseiten, deren Inhalte sich über viele Seiten verteilen.",
@@ -47498,11 +47498,11 @@
             },
             {
               "q": "Werden Seiteninhalte auf Ihre Server hochgeladen?",
-              "a": "Nein. Alles wird auf Ihrem Gerät verarbeitet. Free speichert genau eine gewählte Kandidatenseite; Pro bündelt die Inhalte mehrerer gewählter Seiten. Sicherheits-, Authentifizierungs-, Berechtigungs-, Quellseiten- und Geräteschutzlimits gelten weiterhin."
+              "a": "Nein. Alles wird auf Ihrem Gerät verarbeitet. Die kostenlose Version speichert genau eine gewählte Kandidatenseite; Pro bündelt die Inhalte mehrerer gewählter Seiten. Sicherheits-, Authentifizierungs-, Berechtigungs-, Quellseiten- und Geräteschutzlimits gelten weiterhin."
             },
             {
               "q": "Worin unterscheidet sich dies von einem Tool zum Speichern einzelner Seiten wie SingleFile?",
-              "a": "Einzelseiten-Tools sichern die geöffnete Seite. Grab All Files findet zusätzlich zugehörige Kandidaten: Free speichert die gewählte Seite, Pro bündelt die lesbaren Inhalte mehrerer gewählter Seiten mit gemeinsamem Inhaltsverzeichnis."
+              "a": "Einzelseiten-Tools sichern die geöffnete Seite. Grab All Files findet zusätzlich zugehörige Kandidaten: Die kostenlose Version speichert die gewählte Seite, Pro bündelt die lesbaren Inhalte mehrerer gewählter Seiten mit gemeinsamem Inhaltsverzeichnis."
             },
             {
               "q": "Was passiert, wenn eine Seite eine Anmeldung verlangt?",
@@ -47518,7 +47518,7 @@
           "title": "Unire più pagine web in un unico file HTML | Grab All Files",
           "desc": "Free trova le pagine candidate e salva quella scelta. Pro unisce il contenuto di più pagine selezionate in un HTML con indice, ricerca e stampa.",
           "eyebrow": "Raccolta HTML di pagine web",
-          "h1": "Free salva 1 pagina. Pro ne unisce più in un HTML.",
+          "h1": "La versione gratuita salva 1 pagina. Pro ne unisce più in un HTML.",
           "lead": "Parti dalla pagina aperta nel browser. Free elenca le pagine candidate correlate e ne mantiene esattamente una selezionata per il salvataggio HTML. Pro consente di selezionare e ordinare più candidate e ne unisce il contenuto leggibile in un HTML con indice comune.",
           "best": [
             "Ricerche, documentazione, manuali e siti di riferimento distribuiti su molte pagine.",
@@ -47543,11 +47543,11 @@
             },
             {
               "q": "Il contenuto delle pagine viene caricato sui vostri server?",
-              "a": "No. Tutto viene elaborato sul dispositivo. Free salva esattamente una pagina candidata scelta; Pro unisce il contenuto di più pagine selezionate. Si applicano i limiti di sicurezza, autenticazione, autorizzazione, sito sorgente e protezione del dispositivo."
+              "a": "No. Tutto viene elaborato sul dispositivo. La versione gratuita salva esattamente una pagina candidata scelta; Pro unisce il contenuto di più pagine selezionate. Si applicano i limiti di sicurezza, autenticazione, autorizzazione, sito sorgente e protezione del dispositivo."
             },
             {
               "q": "In cosa si differenzia da uno strumento come SingleFile, che salva una sola pagina?",
-              "a": "Gli strumenti per una singola pagina conservano quella aperta. Grab All Files trova anche candidate correlate: Free salva quella scelta e Pro unisce il contenuto leggibile di più pagine selezionate in un HTML con indice comune."
+              "a": "Gli strumenti per una singola pagina conservano quella aperta. Grab All Files trova anche candidate correlate: la versione gratuita salva quella scelta e Pro unisce il contenuto leggibile di più pagine selezionate in un HTML con indice comune."
             },
             {
               "q": "E se una pagina mi chiede di accedere?",
@@ -47979,7 +47979,7 @@
           "desc": "Scarica i PDF collegati di una pagina o della sua cartella in Chrome, Edge o Firefox. Filtra, salva gratis 10 file per download o uniscili in locale.",
           "eyebrow": "Raccolta PDF",
           "h1": "Scarica tutti i PDF da un sito senza aprire ogni file.",
-          "lead": "Grab All Files rileva PDF in link normali, viewer incorporati, iframe, lazy loading, risposte fetch/XHR e rotte CMS. Filtra per PDF, seleziona, scarica o unisci localmente.",
+          "lead": "Grab All Files rileva PDF in link normali, viewer incorporati, iframe, lazy loading, risposte fetch/XHR e percorsi CMS. Filtra per PDF, seleziona, scarica o unisci localmente.",
           "best": [
             "Report pubblici, moduli e documenti distribuiti su più pagine.",
             "Materiali didattici, articoli e PDF di ricerca.",
@@ -47995,7 +47995,7 @@
           "faq": [
             {
               "q": "Trova PDF in viewer o iframe?",
-              "a": "Sì. Controlla iframe, URL di viewer, risposte fetch/XHR, blob URL e rotte CMS."
+              "a": "Sì. Controlla iframe, URL di viewer, risposte fetch/XHR, blob URL e percorsi CMS."
             },
             {
               "q": "Può scansionare più pagine?",
