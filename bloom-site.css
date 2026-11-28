@@ -384,3 +384,75 @@ a.btn.btn-release,
 a.breadcrumb, .breadcrumb a { align-items: center; min-height: 44px; }
 .breadcrumb a { display: inline-flex; }
 .breadcrumb { margin-bottom: 0.6rem; }
+
+/* ── UI audit 2026-11-28 (all pages, all languages, PC and phone) ─────────────
+   1. Line length: long prose stops at about 80 characters per line on wide
+      screens (≈ 38–40 characters in Japanese/Chinese/Korean). Cards and boxes
+      keep their width; only the text inside them is limited. */
+.latest-copy > p,
+.spotlight-head p,
+.feature-card--spotlight p.spotlight-plan,
+.section-card > p,
+.section-card > ul.fact-list,
+.faq-list details > p,
+.visual-note,
+.usecase-screenshot figcaption,
+.cta-note,
+article > [data-lang] > p,
+article > [data-lang] > ul,
+article > [data-lang] > ol,
+.doc p.lead { max-width: 66ch; }
+
+/* 2. Small text: notes and footer links read at 13–14px, never 11–12px. */
+.updated,
+article > [data-lang] > .updated { font-size: 0.85rem; }
+body:has(.topbar) p.links { font-size: 0.875rem; }
+.order .ribbon { font-size: 0.75rem; }
+.hero-eyebrow { font-size: 0.8125rem; }
+
+/* 3. Tap targets: stand-alone links and toggles are at least 44px tall
+      (40px for the round header icons). */
+.tool-link,
+.spotlight-link,
+.hero-security a,
+.screenshot-enlarge,
+body:has(.topbar) p.links a,
+.consent summary,
+.meta-toggle summary { display: inline-flex; align-items: center; min-height: 44px; }
+.spotlight-link { margin-top: 0.4rem; }
+.consent summary { display: flex; }
+.nearby-list a { display: inline-block; padding: 0.3rem 0; }
+.topbar .brand { min-height: 44px; }
+.topbar .icon-btn { width: 40px; height: 40px; min-height: 40px; flex: 0 0 40px; }
+@media (min-width: 921px) {
+  .topbar .nav-links a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 0.15rem; }
+}
+.reason input { width: 18px; height: 18px; }
+/* Use-case hub: the whole card is the link, not only its title. */
+.hub-card { position: relative; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
+.hub-card h3 a::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+.hub-card:hover { border-color: var(--primary); }
+.hub-card:has(a:focus-visible) { outline: 2px solid var(--primary); outline-offset: 2px; }
+.hub-card h3 a:focus-visible { outline: none; }
+
+/* 4. Phone headers on the document pages: the brand name is no longer cut
+      ("Grab All F…") — tighter side padding and a slimmer language menu. */
+@media (max-width: 560px) {
+  body:has(.topbar) .topbar-inner { padding-left: 1rem; padding-right: 1rem; }
+}
+@media (max-width: 420px) {
+  .topbar:has(.back-link) .lang-sel { max-width: 100px; }
+}
+/* Homepage header (header.nav): the same 44px links and 40px icon button. */
+header.nav .brand { min-height: 44px; }
+header.nav .icon-btn { width: 40px; height: 40px; }
+@media (min-width: 821px) {
+  header.nav .nav-links a { display: inline-flex; align-items: center; min-height: 44px; }
+}
+.topbar .back-link { min-height: 36px; }
+#theme-toggle.theme-toggle { min-width: 40px; min-height: 40px; }
+/* The green "last updated" dot sits on the first line when the note wraps. */
+.updated,
+article > [data-lang] > .updated { align-items: flex-start; }
+.updated::before,
+article > [data-lang] > .updated::before { flex: none; margin-top: 0.6em; }

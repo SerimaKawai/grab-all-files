@@ -847,6 +847,7 @@ console.log(`Baked static body + JSON-LD into ${bakedCount} use-case page(s); ge
     '.site-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;max-width:880px;margin:0 auto;padding:14px 16px 0;font-size:.95rem}\n' +
     '.site-bar a{text-decoration:none;font-weight:600}.site-bar .brand{color:var(--ink);display:inline-flex;align-items:center;gap:8px}.site-bar img{width:24px;height:24px}';
   const THEME_JS = "<script>(function(){try{var t=localStorage.getItem('gaf-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(_){}})();</script>";
+  const SAMPLE_UI = 'main>p,main dd,main li{max-width:66ch}.site-bar a{display:inline-flex;align-items:center;min-height:44px}';
   let sampleCount = 0;
   for (const L of fs.existsSync(SAMPLES) ? fs.readdirSync(SAMPLES) : []) {
     if (L === 'source' || !ALL.includes(L)) continue;
@@ -854,8 +855,14 @@ console.log(`Baked static body + JSON-LD into ${bakedCount} use-case page(s); ge
       const file = path.join(SAMPLES, L, slug, 'index.html');
       if (!fs.existsSync(file)) continue;
       let s = fs.readFileSync(file, 'utf8');
-      if (s.includes('class="site-bar"')) continue;
       const nl = s.includes('\r\n') ? '\r\n' : '\n';
+      // UI audit 2026-11-28: prose keeps a readable line length; header links get a 44px tap height.
+      if (!s.includes(SAMPLE_UI) && s.includes(`</style>${nl}`)) {
+        s = s.replace(`</style>${nl}`, `${SAMPLE_UI}${nl}</style>${nl}`);
+        fs.writeFileSync(file, s);
+        sampleCount++;
+      }
+      if (s.includes('class="site-bar"')) continue;
       const guide = [...s.matchAll(/<a href="(\/(?:[a-zA-Z_]+\/)?use-cases\/[^"]+)">([^<]+)<\/a>/g)].pop();
       if (!s.includes(OS_ONLY) || !guide || !s.includes(`</style>${nl}`) || !s.includes(`<body>${nl}`)) {
         throw new Error(`${path.relative(ROOT, file)}: unexpected sample layout; add the site header by hand`);
@@ -869,7 +876,7 @@ console.log(`Baked static body + JSON-LD into ${bakedCount} use-case page(s); ge
       sampleCount++;
     }
   }
-  if (sampleCount) console.log(`Added the site header to ${sampleCount} sample page(s).`);
+  if (sampleCount) console.log(`Updated the site header or styles on ${sampleCount} sample page(s).`);
 }
 console.log(`${changedCount} page(s) changed this run (their sitemap lastmod becomes ${TODAY}).`);
 
